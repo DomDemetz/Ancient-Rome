@@ -6,9 +6,9 @@ import { PathFinder } from '@/features/search/PathFinder'
 import { DetailPanel } from '@/features/detail/DetailPanel'
 import { useURLSync } from '@/app/useURLSync'
 import { useMobileDetect } from '@/app/useMobileDetect'
+import { GraphView } from '@/features/graph/GraphView'
 
 const LENS_PLACEHOLDERS: Record<string, string> = {
-  graph: 'Graph View (coming soon)',
   map: 'Map View (coming soon)',
   timeline: 'Timeline View (coming soon)',
   stats: 'Stats View (coming soon)',
@@ -35,8 +35,13 @@ export function InvestigationBoard() {
         )}
 
         {/* Main content area */}
-        <div className="flex-1 flex items-center justify-center overflow-auto">
-          <p className="text-text-secondary text-sm">{LENS_PLACEHOLDERS[lens]}</p>
+        <div className="flex-1 overflow-hidden relative">
+          {lens === 'graph' && <GraphView />}
+          {lens !== 'graph' && (
+            <div className="flex items-center justify-center w-full h-full">
+              <p className="text-text-secondary text-sm">{LENS_PLACEHOLDERS[lens]}</p>
+            </div>
+          )}
         </div>
 
         {/* Detail panel — shown when something is selected (desktop) */}
