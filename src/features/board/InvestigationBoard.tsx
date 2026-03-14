@@ -4,6 +4,8 @@ import { TrailBar } from './TrailBar'
 import { FilterPanel } from '@/features/filters/FilterPanel'
 import { PathFinder } from '@/features/search/PathFinder'
 import { DetailPanel } from '@/features/detail/DetailPanel'
+import { useURLSync } from '@/app/useURLSync'
+import { useMobileDetect } from '@/app/useMobileDetect'
 
 const LENS_PLACEHOLDERS: Record<string, string> = {
   graph: 'Graph View (coming soon)',
@@ -13,6 +15,8 @@ const LENS_PLACEHOLDERS: Record<string, string> = {
 }
 
 export function InvestigationBoard() {
+  useURLSync()
+  useMobileDetect()
   const lens = useUIStore((s) => s.lens)
   const sidebarOpen = useUIStore((s) => s.sidebarOpen)
 
