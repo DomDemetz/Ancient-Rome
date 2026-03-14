@@ -58,5 +58,17 @@
     "typescript-eslint": "^8.56.1",
     "vite": "^8.0.0",
     "vitest": "^4.1.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,css}": [
+      "prettier --write"
+    ]
   }
 }
