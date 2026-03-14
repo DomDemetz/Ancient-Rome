@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "julio-claudian",
+    "name": "Julio-Claudian Dynasty",
+    "entityType": "dynasty",
+    "description": "The first imperial dynasty of Rome, descended from the Julian and Claudian families. Its five emperors — Augustus, Tiberius, Caligula, Claudius, and Nero — ruled from 27 BC to 68 AD, establishing the imperial system.",
+    "founder": "augustus",
+    "startYear": -27,
+    "endYear": 68,
+    "sources": ["https://en.wikipedia.org/wiki/Julio-Claudian_dynasty"]
+  },
+  {
+    "id": "flavian",
+    "name": "Flavian Dynasty",
+    "entityType": "dynasty",
+    "description": "The second imperial dynasty, founded by Vespasian after the Year of the Four Emperors. The Flavians — Vespasian, Titus, and Domitian — ruled from 69 to 96 AD and built the Colosseum.",
+    "founder": "vespasian",
+    "startYear": 69,
+    "endYear": 96,
+    "sources": ["https://en.wikipedia.org/wiki/Flavian_dynasty"]
+  },
+  {
+    "id": "nerva-antonine",
+    "name": "Nerva-Antonine Dynasty",
+    "entityType": "dynasty",
+    "description": "The dynasty of the 'Five Good Emperors' — Nerva, Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius — who ruled through adoption rather than hereditary succession. This period (96-192 AD) is considered the height of the Roman Empire.",
+    "startYear": 96,
+    "endYear": 192,
+    "sources": ["https://en.wikipedia.org/wiki/Nerva%E2%80%93Antonine_dynasty"]
+  },
+  {
+    "id": "severan",
+    "name": "Severan Dynasty",
+    "entityType": "dynasty",
+    "description": "Imperial dynasty founded by Septimius Severus, the first emperor of African origin. The Severans (193-235 AD) expanded imperial power and military spending but faced increasing instability and succession crises.",
+    "founder": "septimius-severus",
+    "startYear": 193,
+    "endYear": 235,
+    "sources": ["https://en.wikipedia.org/wiki/Severan_dynasty"]
+  }
+]

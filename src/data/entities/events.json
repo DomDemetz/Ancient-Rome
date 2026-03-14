@@ -1,1 +1,141 @@
-[]
+[
+  {
+    "id": "founding-of-rome",
+    "name": "Founding of Rome",
+    "entityType": "event",
+    "description": "The traditional date for the founding of Rome by Romulus on the Palatine Hill. This legendary event marks the beginning of Roman civilization and the start of the Roman calendar.",
+    "date": -753,
+    "eventType": "founding",
+    "sources": ["https://en.wikipedia.org/wiki/Founding_of_Rome"]
+  },
+  {
+    "id": "establishment-of-republic",
+    "name": "Establishment of the Republic",
+    "entityType": "event",
+    "description": "The overthrow of the last Roman king, Tarquinius Superbus, and the establishment of the Roman Republic with elected consuls. This transformation created the republican system that would govern Rome for nearly five centuries.",
+    "date": -509,
+    "eventType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Roman_Republic"]
+  },
+  {
+    "id": "sack-by-gauls",
+    "name": "Sack of Rome by the Gauls",
+    "entityType": "event",
+    "description": "The Senones, a Gallic tribe led by Brennus, captured and sacked Rome after defeating the Roman army at the Battle of the Allia. This traumatic event left a lasting mark on Roman consciousness and military doctrine.",
+    "date": -390,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Battle_of_the_Allia"]
+  },
+  {
+    "id": "first-punic-war",
+    "name": "First Punic War",
+    "entityType": "event",
+    "description": "The first of three wars between Rome and Carthage, fought primarily over control of Sicily. Rome's victory established it as a major naval power and gave it its first overseas province.",
+    "date": -264,
+    "endDate": -241,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/First_Punic_War"]
+  },
+  {
+    "id": "second-punic-war",
+    "name": "Second Punic War",
+    "entityType": "event",
+    "description": "The most famous of the Punic Wars, marked by Hannibal's invasion of Italy via the Alps. Despite devastating Roman defeats at Cannae and Trasimene, Rome ultimately prevailed when Scipio Africanus defeated Hannibal at Zama.",
+    "date": -218,
+    "endDate": -201,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Second_Punic_War"]
+  },
+  {
+    "id": "third-punic-war",
+    "name": "Third Punic War",
+    "entityType": "event",
+    "description": "The final conflict between Rome and Carthage, ending with the complete destruction of Carthage. The city was razed, its population enslaved, and its territory became the Roman province of Africa.",
+    "date": -149,
+    "endDate": -146,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Third_Punic_War"]
+  },
+  {
+    "id": "gracchi-reforms",
+    "name": "Gracchi Reforms",
+    "entityType": "event",
+    "description": "The land reform attempts by brothers Tiberius and Gaius Gracchus, who sought to redistribute public land to the poor. Both were killed by senatorial opponents, marking the beginning of political violence in the late Republic.",
+    "date": -133,
+    "endDate": -121,
+    "eventType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Gracchi"]
+  },
+  {
+    "id": "marian-reforms",
+    "name": "Marian Reforms",
+    "entityType": "event",
+    "description": "Military reforms enacted by Gaius Marius that opened army service to landless citizens and created a professional standing army. These changes made soldiers loyal to their commanders rather than the state, contributing to the Republic's fall.",
+    "date": -107,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Marian_reforms"]
+  },
+  {
+    "id": "crossing-the-rubicon",
+    "name": "Crossing the Rubicon",
+    "entityType": "event",
+    "description": "Julius Caesar's fateful crossing of the Rubicon River with his legion in 49 BC, an act of treason that started a civil war against Pompey and the Senate. The phrase 'crossing the Rubicon' became synonymous with passing a point of no return.",
+    "date": -49,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Crossing_the_Rubicon"]
+  },
+  {
+    "id": "assassination-of-caesar",
+    "name": "Assassination of Caesar",
+    "entityType": "event",
+    "description": "The murder of Julius Caesar by a group of senators led by Marcus Brutus and Cassius on the Ides of March (March 15), 44 BC. Rather than restoring the Republic, the assassination triggered civil wars that ended it.",
+    "date": -44,
+    "eventType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"]
+  },
+  {
+    "id": "battle-of-actium",
+    "name": "Battle of Actium",
+    "entityType": "event",
+    "description": "The decisive naval battle in which Octavian's fleet defeated the combined forces of Mark Antony and Cleopatra off the western coast of Greece. This victory made Octavian the sole ruler of Rome and effectively ended the Roman Republic.",
+    "date": -31,
+    "eventType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Battle_of_Actium"]
+  },
+  {
+    "id": "great-fire-of-rome",
+    "name": "Great Fire of Rome",
+    "entityType": "event",
+    "description": "A devastating fire that burned for six days and destroyed much of the city of Rome in 64 AD during Nero's reign. Nero used the aftermath to build his extravagant Domus Aurea and blamed Christians for the conflagration.",
+    "date": 64,
+    "eventType": "disaster",
+    "sources": ["https://en.wikipedia.org/wiki/Great_Fire_of_Rome"]
+  },
+  {
+    "id": "eruption-of-vesuvius",
+    "name": "Eruption of Vesuvius",
+    "entityType": "event",
+    "description": "The catastrophic eruption of Mount Vesuvius that buried the cities of Pompeii and Herculaneum under volcanic ash in 79 AD. The preserved ruins provide an unparalleled snapshot of Roman daily life.",
+    "date": 79,
+    "eventType": "disaster",
+    "sources": ["https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"]
+  },
+  {
+    "id": "edict-of-milan-event",
+    "name": "Edict of Milan",
+    "entityType": "event",
+    "description": "The proclamation issued by Constantine and Licinius in 313 AD that granted religious tolerance throughout the Roman Empire. It effectively ended the persecution of Christians and paved the way for Christianity to become the dominant religion.",
+    "date": 313,
+    "eventType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Edict_of_Milan"]
+  },
+  {
+    "id": "fall-of-western-rome",
+    "name": "Fall of Western Rome",
+    "entityType": "event",
+    "description": "The deposition of the last Western Roman Emperor, Romulus Augustulus, by the Germanic chieftain Odoacer in 476 AD. This event is traditionally used to mark the end of the Western Roman Empire and the beginning of the Middle Ages.",
+    "date": 476,
+    "eventType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"]
+  }
+]

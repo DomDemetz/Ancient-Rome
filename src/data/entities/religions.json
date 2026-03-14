@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "roman-polytheism",
+    "name": "Roman Polytheism",
+    "entityType": "religion",
+    "description": "The traditional polytheistic religion of ancient Rome, incorporating Greek, Etruscan, and indigenous Italian influences. The state religion centered on the worship of major deities and was closely tied to civic and political life.",
+    "origin": "Rome",
+    "deities": ["Jupiter", "Mars", "Venus", "Minerva", "Juno", "Neptune", "Apollo", "Diana"],
+    "sources": ["https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"]
+  },
+  {
+    "id": "cult-of-mithras",
+    "name": "Cult of Mithras",
+    "entityType": "religion",
+    "description": "A mystery religion practiced in the Roman Empire from the 1st to 4th centuries AD, centered on the god Mithras. Popular among soldiers and merchants, worship took place in underground temples called mithraea.",
+    "origin": "Persia",
+    "deities": ["Mithras"],
+    "sources": ["https://en.wikipedia.org/wiki/Mithraism"]
+  },
+  {
+    "id": "early-christianity",
+    "name": "Early Christianity",
+    "entityType": "religion",
+    "description": "The monotheistic faith that emerged in Roman Judaea in the 1st century AD, based on the teachings of Jesus of Nazareth. Initially persecuted, it was legalized by Constantine's Edict of Milan and became the state religion under Theodosius.",
+    "origin": "Judaea",
+    "deities": [],
+    "sources": ["https://en.wikipedia.org/wiki/Early_Christianity"]
+  }
+]

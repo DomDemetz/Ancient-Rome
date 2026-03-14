@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "grain",
+    "name": "Grain",
+    "entityType": "trade-good",
+    "description": "The most essential commodity in the Roman economy, primarily wheat used to feed the urban population. Egypt, North Africa, and Sicily were the empire's major grain-producing regions, and the grain supply was a constant political concern.",
+    "origins": ["Alexandria", "Carthage", "Syracuse"],
+    "destinations": ["Rome", "Constantinople"],
+    "sources": ["https://en.wikipedia.org/wiki/Cura_Annonae"]
+  },
+  {
+    "id": "olive-oil",
+    "name": "Olive Oil",
+    "entityType": "trade-good",
+    "description": "A fundamental product of the Roman economy used for cooking, lighting, hygiene, and religious rituals. Hispania (Spain) was the largest producer, and Monte Testaccio in Rome is an artificial hill made entirely of discarded olive oil amphorae.",
+    "origins": ["Hispalis", "Athens", "Carthage"],
+    "destinations": ["Rome", "Londinium", "Constantinople"],
+    "sources": ["https://en.wikipedia.org/wiki/Olive_oil#History"]
+  },
+  {
+    "id": "silk",
+    "name": "Silk",
+    "entityType": "trade-good",
+    "description": "A luxury textile imported from China via the Silk Road that became highly prized among the Roman elite. The enormous cost of silk imports contributed to trade imbalances and was periodically restricted by imperial edicts.",
+    "origins": ["China"],
+    "destinations": ["Rome", "Constantinople", "Antioch"],
+    "sources": ["https://en.wikipedia.org/wiki/Silk_Road"]
+  }
+]

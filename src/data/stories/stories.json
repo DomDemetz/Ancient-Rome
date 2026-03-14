@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "fall-of-the-republic",
+    "title": "The Fall of the Republic",
+    "description": "Trace the chain of events that transformed Rome from a republic governed by the Senate to an empire ruled by a single man. From populist reforms to civil wars, each step brought Rome closer to the end of its republican experiment.",
+    "steps": [
+      {
+        "id": "step-gracchi",
+        "title": "Seeds of Discord",
+        "content": "In 133 BC, Tiberius Gracchus proposed redistributing public land to Rome's landless poor. The Senate, viewing this as a threat to their wealth and power, had him beaten to death — the first political murder in the Republic. His brother Gaius continued the reforms but met the same fate. The precedent of political violence was set, and the Republic would never recover.",
+        "entityIds": ["gracchi-reforms", "roman-senate", "populares"],
+        "year": -133
+      },
+      {
+        "id": "step-marius",
+        "title": "The People's General",
+        "content": "Gaius Marius transformed the Roman army by allowing landless citizens to enlist, creating a professional military loyal to their commander rather than the state. His seven consulships broke every republican norm, and his bitter rivalry with Sulla showed that ambitious generals could use their armies as political weapons.",
+        "entityIds": ["gaius-marius", "marian-reforms"],
+        "year": -107
+      },
+      {
+        "id": "step-sulla",
+        "title": "The First March on Rome",
+        "content": "In 88 BC, Sulla became the first Roman general to march his legions against the city of Rome itself. After defeating Marius's faction, he declared himself dictator and enacted proscriptions — published lists of enemies to be killed on sight. Though he eventually retired, Sulla proved that the Republic could be overthrown by military force.",
+        "entityIds": ["sulla", "optimates", "rome"],
+        "year": -82
+      },
+      {
+        "id": "step-caesar",
+        "title": "Crossing the Rubicon",
+        "content": "On January 10, 49 BC, Julius Caesar led the Thirteenth Legion across the Rubicon River, the boundary between Gaul and Italy. By crossing with his army, he committed treason against the Republic and started a civil war. 'Alea iacta est' — the die was cast. Caesar would defeat Pompey and the Senate, becoming dictator of Rome.",
+        "entityIds": ["julius-caesar", "crossing-the-rubicon", "legio-xiii-gemina", "pompey"],
+        "year": -49
+      },
+      {
+        "id": "step-ides",
+        "title": "The Ides of March",
+        "content": "On March 15, 44 BC, a group of senators led by Marcus Brutus and Cassius stabbed Julius Caesar twenty-three times in the Theatre of Pompey. They believed they were saving the Republic from tyranny. Instead, they plunged Rome into another round of devastating civil wars that would ultimately destroy the very Republic they sought to preserve.",
+        "entityIds": ["assassination-of-caesar", "marcus-brutus", "julius-caesar"],
+        "year": -44
+      },
+      {
+        "id": "step-augustus",
+        "title": "The First Emperor",
+        "content": "After defeating Mark Antony and Cleopatra at Actium in 31 BC, Octavian stood as the sole ruler of the Roman world. In 27 BC, the Senate granted him the title 'Augustus.' He cleverly maintained the facade of republican governance while holding absolute power. The Republic was dead — the Roman Empire had begun, and it would endure for another five centuries.",
+        "entityIds": ["augustus", "battle-of-actium", "mark-antony", "cleopatra"],
+        "year": -27
+      }
+    ],
+    "tags": ["republic", "civil-war", "politics"]
+  }
+]

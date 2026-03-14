@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "legio-x-equestris",
+    "name": "Legio X Equestris",
+    "entityType": "legion",
+    "description": "Julius Caesar's most trusted and favored legion, which served throughout the Gallic Wars and the subsequent civil war. The legion earned the title 'Equestris' (mounted) when Caesar ordered them to ride horses as a makeshift cavalry escort.",
+    "founded": -61,
+    "symbol": "Bull",
+    "homeBase": "Hispania",
+    "sources": ["https://en.wikipedia.org/wiki/Legio_X_Equestris"]
+  },
+  {
+    "id": "legio-xiii-gemina",
+    "name": "Legio XIII Gemina",
+    "entityType": "legion",
+    "description": "The legion that famously crossed the Rubicon with Julius Caesar in 49 BC, triggering the Roman civil war. One of the oldest Roman legions, it served throughout the Republic and Empire in numerous campaigns.",
+    "founded": -57,
+    "symbol": "Lion",
+    "homeBase": "Gallia Cisalpina",
+    "sources": ["https://en.wikipedia.org/wiki/Legio_XIII_Gemina"]
+  },
+  {
+    "id": "legio-iii-cyrenaica",
+    "name": "Legio III Cyrenaica",
+    "entityType": "legion",
+    "description": "A Roman legion originally stationed in the province of Cyrenaica in North Africa. It later served in Egypt and Arabia, participating in Trajan's campaigns and garrisoning the eastern provinces for centuries.",
+    "founded": -36,
+    "symbol": "Ibis",
+    "homeBase": "Cyrenaica",
+    "sources": ["https://en.wikipedia.org/wiki/Legio_III_Cyrenaica"]
+  }
+]

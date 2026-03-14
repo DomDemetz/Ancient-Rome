@@ -1,1 +1,312 @@
-[]
+[
+  {
+    "id": "romulus",
+    "name": "Romulus",
+    "entityType": "person",
+    "description": "Legendary founder and first king of Rome, said to have established the city in 753 BC. According to Roman mythology, he and his twin brother Remus were raised by a she-wolf before Romulus killed Remus and founded the city on the Palatine Hill.",
+    "born": -771,
+    "died": -717,
+    "roles": ["king", "founder"],
+    "sources": ["https://en.wikipedia.org/wiki/Romulus"]
+  },
+  {
+    "id": "lucius-junius-brutus",
+    "name": "Lucius Junius Brutus",
+    "entityType": "person",
+    "description": "Founder of the Roman Republic who led the overthrow of the last Roman king, Tarquinius Superbus, in 509 BC. He became one of the first two consuls of the Republic and is celebrated as a symbol of republican virtue.",
+    "born": -545,
+    "died": -509,
+    "roles": ["consul", "revolutionary"],
+    "sources": ["https://en.wikipedia.org/wiki/Lucius_Junius_Brutus"]
+  },
+  {
+    "id": "scipio-africanus",
+    "name": "Scipio Africanus",
+    "entityType": "person",
+    "description": "Roman general who defeated Hannibal at the Battle of Zama in 202 BC, ending the Second Punic War. His military genius earned him the agnomen 'Africanus' and he is considered one of Rome's greatest commanders.",
+    "born": -236,
+    "died": -183,
+    "roles": ["general", "consul", "senator"],
+    "faction": "Optimates",
+    "sources": ["https://en.wikipedia.org/wiki/Scipio_Africanus"]
+  },
+  {
+    "id": "gaius-marius",
+    "name": "Gaius Marius",
+    "entityType": "person",
+    "description": "Roman general and statesman who reformed the Roman army by opening military service to landless citizens, creating a professional standing army. He held the consulship seven times, an unprecedented achievement in Roman history.",
+    "born": -157,
+    "died": -86,
+    "roles": ["consul", "general", "reformer"],
+    "faction": "Populares",
+    "sources": ["https://en.wikipedia.org/wiki/Gaius_Marius"]
+  },
+  {
+    "id": "sulla",
+    "name": "Sulla",
+    "entityType": "person",
+    "description": "Roman general and dictator who marched on Rome twice and enacted constitutional reforms to strengthen the Senate's power. His proscriptions and civil wars set dangerous precedents that contributed to the Republic's eventual fall.",
+    "born": -138,
+    "died": -78,
+    "roles": ["dictator", "consul", "general"],
+    "faction": "Optimates",
+    "sources": ["https://en.wikipedia.org/wiki/Sulla"]
+  },
+  {
+    "id": "pompey",
+    "name": "Pompey",
+    "entityType": "person",
+    "description": "One of Rome's most celebrated generals, known as 'Pompey the Great' for his military conquests in the East. He formed the First Triumvirate with Caesar and Crassus but later opposed Caesar in the civil war and was defeated at Pharsalus.",
+    "born": -106,
+    "died": -48,
+    "roles": ["general", "consul", "triumvir"],
+    "faction": "Optimates",
+    "sources": ["https://en.wikipedia.org/wiki/Pompey"]
+  },
+  {
+    "id": "julius-caesar",
+    "name": "Julius Caesar",
+    "entityType": "person",
+    "description": "Roman general, statesman, and dictator who conquered Gaul and crossed the Rubicon to seize power. His assassination on the Ides of March 44 BC triggered a series of civil wars that ended the Roman Republic.",
+    "born": -100,
+    "died": -44,
+    "roles": ["dictator", "consul", "general", "pontifex maximus"],
+    "faction": "Populares",
+    "sources": ["https://en.wikipedia.org/wiki/Julius_Caesar"]
+  },
+  {
+    "id": "cicero",
+    "name": "Cicero",
+    "entityType": "person",
+    "description": "Rome's greatest orator and a prolific writer whose works on rhetoric, philosophy, and politics profoundly influenced Western thought. As consul in 63 BC, he suppressed the Catiline conspiracy but was later proscribed and killed by Mark Antony's agents.",
+    "born": -106,
+    "died": -43,
+    "roles": ["consul", "senator", "orator", "philosopher"],
+    "faction": "Optimates",
+    "sources": ["https://en.wikipedia.org/wiki/Cicero"]
+  },
+  {
+    "id": "mark-antony",
+    "name": "Mark Antony",
+    "entityType": "person",
+    "description": "Roman general and politician who served as Caesar's chief lieutenant and later formed the Second Triumvirate with Octavian and Lepidus. His alliance and romantic relationship with Cleopatra led to his defeat at Actium and subsequent suicide.",
+    "born": -83,
+    "died": -30,
+    "roles": ["consul", "general", "triumvir"],
+    "faction": "Populares",
+    "sources": ["https://en.wikipedia.org/wiki/Mark_Antony"]
+  },
+  {
+    "id": "cleopatra",
+    "name": "Cleopatra",
+    "entityType": "person",
+    "description": "Last active ruler of the Ptolemaic Kingdom of Egypt who allied with Julius Caesar and later Mark Antony. Her death in 30 BC marked the end of the Hellenistic period and Egypt's annexation as a Roman province.",
+    "born": -69,
+    "died": -30,
+    "roles": ["pharaoh", "queen"],
+    "sources": ["https://en.wikipedia.org/wiki/Cleopatra"]
+  },
+  {
+    "id": "augustus",
+    "name": "Augustus",
+    "entityType": "person",
+    "description": "First Roman Emperor and founder of the Principate, originally named Octavian. He transformed Rome from a republic to an empire while maintaining the facade of republican governance, inaugurating the Pax Romana.",
+    "born": -63,
+    "died": 14,
+    "roles": ["emperor", "consul", "triumvir", "princeps"],
+    "faction": "Populares",
+    "sources": ["https://en.wikipedia.org/wiki/Augustus"]
+  },
+  {
+    "id": "tiberius",
+    "name": "Tiberius",
+    "entityType": "person",
+    "description": "Second Roman Emperor who succeeded Augustus in 14 AD. A capable military commander, his reign became increasingly reclusive and paranoid, especially after his retirement to Capri in 26 AD.",
+    "born": -42,
+    "died": 37,
+    "roles": ["emperor", "general"],
+    "sources": ["https://en.wikipedia.org/wiki/Tiberius"]
+  },
+  {
+    "id": "caligula",
+    "name": "Caligula",
+    "entityType": "person",
+    "description": "Third Roman Emperor whose brief reign (37-41 AD) became notorious for cruelty, extravagance, and erratic behavior. Ancient sources describe him as insane, though modern historians debate the accuracy of these accounts.",
+    "born": 12,
+    "died": 41,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Caligula"]
+  },
+  {
+    "id": "nero",
+    "name": "Nero",
+    "entityType": "person",
+    "description": "Fifth Roman Emperor and last of the Julio-Claudian dynasty, known for artistic pretensions and persecution of Christians. The Great Fire of Rome occurred during his reign in 64 AD, and his tyrannical rule ended in forced suicide.",
+    "born": 37,
+    "died": 68,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Nero"]
+  },
+  {
+    "id": "vespasian",
+    "name": "Vespasian",
+    "entityType": "person",
+    "description": "Founder of the Flavian dynasty who became emperor after the Year of the Four Emperors in 69 AD. He restored stability to the empire and began construction of the Colosseum using spoils from the sack of Jerusalem.",
+    "born": 9,
+    "died": 79,
+    "roles": ["emperor", "general"],
+    "sources": ["https://en.wikipedia.org/wiki/Vespasian"]
+  },
+  {
+    "id": "titus",
+    "name": "Titus",
+    "entityType": "person",
+    "description": "Roman Emperor and son of Vespasian who completed the siege of Jerusalem in 70 AD, destroying the Second Temple. His brief reign (79-81 AD) saw the eruption of Vesuvius and the completion of the Colosseum.",
+    "born": 39,
+    "died": 81,
+    "roles": ["emperor", "general"],
+    "sources": ["https://en.wikipedia.org/wiki/Titus"]
+  },
+  {
+    "id": "trajan",
+    "name": "Trajan",
+    "entityType": "person",
+    "description": "Roman Emperor who expanded the empire to its greatest territorial extent through conquests in Dacia and Mesopotamia. Regarded as one of the 'Five Good Emperors,' he was celebrated for his building programs and public welfare.",
+    "born": 53,
+    "died": 117,
+    "roles": ["emperor", "general"],
+    "sources": ["https://en.wikipedia.org/wiki/Trajan"]
+  },
+  {
+    "id": "hadrian",
+    "name": "Hadrian",
+    "entityType": "person",
+    "description": "Roman Emperor who consolidated the empire's borders and commissioned Hadrian's Wall in Britain. A great patron of architecture and the arts, he rebuilt the Pantheon and founded the city of Aelia Capitolina on the site of Jerusalem.",
+    "born": 76,
+    "died": 138,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Hadrian"]
+  },
+  {
+    "id": "marcus-aurelius",
+    "name": "Marcus Aurelius",
+    "entityType": "person",
+    "description": "Roman Emperor and Stoic philosopher whose 'Meditations' remains one of the most influential works of philosophy. The last of the Five Good Emperors, he spent much of his reign defending the empire against Germanic tribes and Parthian invasions.",
+    "born": 121,
+    "died": 180,
+    "roles": ["emperor", "philosopher"],
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Aurelius"]
+  },
+  {
+    "id": "commodus",
+    "name": "Commodus",
+    "entityType": "person",
+    "description": "Roman Emperor whose tyrannical and megalomaniac reign ended the Pax Romana. He famously fought as a gladiator in the arena and renamed Rome and its institutions after himself before being assassinated in 192 AD.",
+    "born": 161,
+    "died": 192,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Commodus"]
+  },
+  {
+    "id": "septimius-severus",
+    "name": "Septimius Severus",
+    "entityType": "person",
+    "description": "Founder of the Severan dynasty and the first Roman Emperor born in the province of Africa. He expanded the empire, reformed the military, and famously advised his sons to 'enrich the soldiers and scorn everyone else.'",
+    "born": 145,
+    "died": 211,
+    "roles": ["emperor", "general"],
+    "sources": ["https://en.wikipedia.org/wiki/Septimius_Severus"]
+  },
+  {
+    "id": "diocletian",
+    "name": "Diocletian",
+    "entityType": "person",
+    "description": "Roman Emperor who ended the Crisis of the Third Century and established the Tetrarchy, dividing imperial rule among four co-emperors. His administrative and military reforms fundamentally transformed the empire's governance structure.",
+    "born": 244,
+    "died": 311,
+    "roles": ["emperor", "reformer"],
+    "sources": ["https://en.wikipedia.org/wiki/Diocletian"]
+  },
+  {
+    "id": "constantine",
+    "name": "Constantine",
+    "entityType": "person",
+    "description": "First Roman Emperor to convert to Christianity and founder of Constantinople as the empire's new eastern capital. The Edict of Milan in 313 AD granted religious tolerance throughout the empire, transforming its cultural trajectory.",
+    "born": 272,
+    "died": 337,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Constantine_the_Great"]
+  },
+  {
+    "id": "theodosius",
+    "name": "Theodosius",
+    "entityType": "person",
+    "description": "Last emperor to rule over both the Eastern and Western Roman Empire. He made Christianity the official state religion in 380 AD with the Edict of Thessalonica and permanently divided the empire between his two sons upon his death.",
+    "born": 347,
+    "died": 395,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Theodosius_I"]
+  },
+  {
+    "id": "romulus-augustulus",
+    "name": "Romulus Augustulus",
+    "entityType": "person",
+    "description": "Last emperor of the Western Roman Empire, deposed by the Germanic chieftain Odoacer in 476 AD. His removal is traditionally used to mark the fall of the Western Roman Empire, though he held little real power.",
+    "born": 460,
+    "died": 507,
+    "roles": ["emperor"],
+    "sources": ["https://en.wikipedia.org/wiki/Romulus_Augustulus"]
+  },
+  {
+    "id": "spartacus",
+    "name": "Spartacus",
+    "entityType": "person",
+    "description": "Thracian gladiator who led the largest slave revolt in Roman history from 73 to 71 BC. His rebellion, known as the Third Servile War, saw an army of escaped slaves defeat several Roman legions before being crushed by Crassus.",
+    "born": -111,
+    "died": -71,
+    "roles": ["gladiator", "rebel leader"],
+    "sources": ["https://en.wikipedia.org/wiki/Spartacus"]
+  },
+  {
+    "id": "hannibal",
+    "name": "Hannibal",
+    "entityType": "person",
+    "description": "Carthaginian general considered one of the greatest military commanders in history. He famously crossed the Alps with war elephants to invade Italy during the Second Punic War, winning devastating victories at Trebia, Lake Trasimene, and Cannae.",
+    "born": -247,
+    "died": -183,
+    "roles": ["general", "strategist"],
+    "sources": ["https://en.wikipedia.org/wiki/Hannibal"]
+  },
+  {
+    "id": "cato-the-elder",
+    "name": "Cato the Elder",
+    "entityType": "person",
+    "description": "Roman senator and censor known for his conservative morality and relentless insistence that Carthage must be destroyed. He authored 'De Agri Cultura,' the oldest surviving work of Latin prose.",
+    "born": -234,
+    "died": -149,
+    "roles": ["senator", "censor", "consul", "writer"],
+    "faction": "Optimates",
+    "sources": ["https://en.wikipedia.org/wiki/Cato_the_Elder"]
+  },
+  {
+    "id": "marcus-brutus",
+    "name": "Marcus Brutus",
+    "entityType": "person",
+    "description": "Roman senator and leading conspirator in the assassination of Julius Caesar on the Ides of March, 44 BC. A descendant of Lucius Junius Brutus, he believed tyrannicide was his ancestral duty to preserve the Republic.",
+    "born": -85,
+    "died": -42,
+    "roles": ["senator", "conspirator"],
+    "faction": "Optimates",
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Junius_Brutus"]
+  },
+  {
+    "id": "virgil",
+    "name": "Virgil",
+    "entityType": "person",
+    "description": "Rome's greatest poet, author of the 'Aeneid,' which tells the mythological story of Rome's founding by the Trojan hero Aeneas. His works, including the 'Eclogues' and 'Georgics,' profoundly shaped Western literature.",
+    "born": -70,
+    "died": -19,
+    "roles": ["poet", "writer"],
+    "sources": ["https://en.wikipedia.org/wiki/Virgil"]
+  }
+]

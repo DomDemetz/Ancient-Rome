@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "roman-senate",
+    "name": "Roman Senate",
+    "entityType": "organization",
+    "description": "The principal governing body of the Roman Republic and advisory council during the Empire. Composed of former magistrates, the Senate controlled finances, foreign policy, and provincial administration for centuries.",
+    "founded": -753,
+    "orgType": "legislative",
+    "sources": ["https://en.wikipedia.org/wiki/Roman_Senate"]
+  },
+  {
+    "id": "praetorian-guard",
+    "name": "Praetorian Guard",
+    "entityType": "organization",
+    "description": "Elite bodyguard unit of Roman emperors established by Augustus. The Guard wielded enormous political influence, making and deposing emperors, until it was disbanded by Constantine in 312 AD.",
+    "founded": -27,
+    "dissolved": 312,
+    "orgType": "military",
+    "sources": ["https://en.wikipedia.org/wiki/Praetorian_Guard"]
+  },
+  {
+    "id": "college-of-pontiffs",
+    "name": "College of Pontiffs",
+    "entityType": "organization",
+    "description": "The most important body of priests in ancient Roman religion, presided over by the Pontifex Maximus. The college oversaw religious ceremonies, maintained the sacred calendar, and advised on matters of divine law.",
+    "founded": -753,
+    "orgType": "religious",
+    "sources": ["https://en.wikipedia.org/wiki/Pontifex_maximus"]
+  },
+  {
+    "id": "optimates",
+    "name": "Optimates",
+    "entityType": "organization",
+    "description": "Conservative political faction in the late Roman Republic that championed the authority of the Senate and the traditional aristocracy. They opposed the reforms of the Populares and resisted the concentration of power in individual leaders.",
+    "orgType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Optimates"]
+  },
+  {
+    "id": "populares",
+    "name": "Populares",
+    "entityType": "organization",
+    "description": "Political faction in the late Roman Republic that appealed to the common people and sought reform through popular assemblies. Leaders like Marius, Caesar, and the Gracchi used populist methods to challenge senatorial authority.",
+    "orgType": "political",
+    "sources": ["https://en.wikipedia.org/wiki/Populares"]
+  }
+]

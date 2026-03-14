@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "twelve-tables",
+    "name": "Twelve Tables",
+    "entityType": "document",
+    "description": "The earliest codification of Roman law, inscribed on twelve bronze tablets and publicly displayed in the Forum around 450 BC. They formed the foundation of Roman legal tradition and established basic rights for all Roman citizens.",
+    "date": -450,
+    "docType": "legal code",
+    "sources": ["https://en.wikipedia.org/wiki/Twelve_Tables"]
+  },
+  {
+    "id": "commentarii-de-bello-gallico",
+    "name": "Commentarii de Bello Gallico",
+    "entityType": "document",
+    "description": "Julius Caesar's firsthand account of his military campaigns in Gaul from 58 to 50 BC. Written in clear, elegant Latin prose, it served as both a military report and political propaganda to enhance Caesar's reputation in Rome.",
+    "date": -50,
+    "author": "julius-caesar",
+    "docType": "military account",
+    "sources": ["https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico"]
+  },
+  {
+    "id": "res-gestae-divi-augusti",
+    "name": "Res Gestae Divi Augusti",
+    "entityType": "document",
+    "description": "Augustus's autobiographical account of his achievements, inscribed on bronze tablets outside his mausoleum after his death. This monumental inscription details his political career, military conquests, and public works.",
+    "date": 14,
+    "author": "augustus",
+    "docType": "inscription",
+    "sources": ["https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti"]
+  },
+  {
+    "id": "edict-of-milan",
+    "name": "Edict of Milan",
+    "entityType": "document",
+    "description": "The proclamation issued by Constantine and Licinius in 313 AD that granted religious freedom throughout the Roman Empire. It ordered the return of confiscated Christian property and ended official persecution of Christians.",
+    "date": 313,
+    "author": "constantine",
+    "docType": "imperial edict",
+    "sources": ["https://en.wikipedia.org/wiki/Edict_of_Milan"]
+  },
+  {
+    "id": "corpus-juris-civilis",
+    "name": "Corpus Juris Civilis",
+    "entityType": "document",
+    "description": "The comprehensive codification of Roman law commissioned by Byzantine Emperor Justinian I in the 6th century AD. It preserved and organized a thousand years of Roman legal thought and became the foundation of most European legal systems.",
+    "date": 534,
+    "docType": "legal code",
+    "sources": ["https://en.wikipedia.org/wiki/Corpus_Juris_Civilis"]
+  }
+]

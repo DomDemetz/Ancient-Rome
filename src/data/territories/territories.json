@@ -1,1 +1,145 @@
-[]
+[
+  {
+    "id": "rome-264bc",
+    "year": -264,
+    "controlledBy": "roman-senate",
+    "status": "controlled",
+    "label": "Roman Republic — 264 BC",
+    "boundaries": {
+      "type": "Feature",
+      "properties": { "name": "Roman Republic 264 BC" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.0, 44.0],
+            [14.0, 46.0],
+            [18.5, 42.0],
+            [18.5, 40.0],
+            [16.5, 38.0],
+            [15.5, 37.5],
+            [12.5, 37.5],
+            [8.0, 39.0],
+            [8.0, 44.0]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rome-117ad",
+    "year": 117,
+    "controlledBy": "trajan",
+    "status": "controlled",
+    "label": "Roman Empire — 117 AD (Maximum Extent)",
+    "boundaries": {
+      "type": "Feature",
+      "properties": { "name": "Roman Empire 117 AD" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-10.0, 37.0],
+            [-10.0, 55.0],
+            [2.0, 55.0],
+            [10.0, 50.0],
+            [25.0, 48.0],
+            [35.0, 45.0],
+            [42.0, 40.0],
+            [45.0, 37.0],
+            [40.0, 33.0],
+            [36.0, 31.0],
+            [33.0, 30.0],
+            [25.0, 31.0],
+            [10.0, 32.0],
+            [0.0, 35.0],
+            [-10.0, 37.0]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "eastern-empire-395ad",
+    "year": 395,
+    "controlledBy": "theodosius",
+    "status": "controlled",
+    "label": "Eastern Roman Empire — 395 AD",
+    "boundaries": {
+      "type": "Feature",
+      "properties": { "name": "Eastern Roman Empire 395 AD" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [18.0, 46.0],
+            [20.0, 44.0],
+            [28.0, 46.0],
+            [40.0, 42.0],
+            [42.0, 37.0],
+            [36.0, 31.0],
+            [25.0, 31.0],
+            [18.0, 32.0],
+            [15.0, 35.0],
+            [18.0, 46.0]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "western-empire-395ad",
+    "year": 395,
+    "controlledBy": "roman-senate",
+    "status": "controlled",
+    "label": "Western Roman Empire — 395 AD",
+    "boundaries": {
+      "type": "Feature",
+      "properties": { "name": "Western Roman Empire 395 AD" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-10.0, 37.0],
+            [-10.0, 52.0],
+            [2.0, 52.0],
+            [10.0, 48.0],
+            [18.0, 46.0],
+            [15.0, 35.0],
+            [10.0, 32.0],
+            [0.0, 35.0],
+            [-10.0, 37.0]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "eastern-empire-476ad",
+    "year": 476,
+    "controlledBy": "constantinople",
+    "status": "controlled",
+    "label": "Eastern Roman Empire — 476 AD",
+    "boundaries": {
+      "type": "Feature",
+      "properties": { "name": "Eastern Roman Empire 476 AD" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [18.0, 46.0],
+            [20.0, 44.0],
+            [28.0, 46.0],
+            [40.0, 42.0],
+            [42.0, 37.0],
+            [36.0, 31.0],
+            [25.0, 31.0],
+            [18.0, 32.0],
+            [15.0, 35.0],
+            [18.0, 46.0]
+          ]
+        ]
+      }
+    }
+  }
+]

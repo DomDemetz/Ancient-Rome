@@ -1,1 +1,904 @@
-[]
+[
+  {
+    "id": "caesar-senate-opposition",
+    "source": "julius-caesar",
+    "target": "roman-senate",
+    "connectionType": "opposition",
+    "strength": 3,
+    "evidence": "Caesar's consolidation of power as dictator perpetuo directly challenged the Senate's authority and republican traditions.",
+    "sources": ["https://en.wikipedia.org/wiki/Julius_Caesar"]
+  },
+  {
+    "id": "caesar-pompey-rivalry",
+    "source": "julius-caesar",
+    "target": "pompey",
+    "connectionType": "rivalry",
+    "strength": 3,
+    "evidence": "After the collapse of the First Triumvirate, Caesar and Pompey fought a civil war that ended with Pompey's defeat at Pharsalus in 48 BC.",
+    "sources": ["https://en.wikipedia.org/wiki/Caesar%27s_Civil_War"]
+  },
+  {
+    "id": "caesar-pompey-alliance",
+    "source": "julius-caesar",
+    "target": "pompey",
+    "connectionType": "alliance",
+    "strength": 2,
+    "evidence": "Caesar and Pompey formed the First Triumvirate with Crassus around 60 BC, a secret political alliance to dominate Roman politics.",
+    "sources": ["https://en.wikipedia.org/wiki/First_Triumvirate"],
+    "startDate": -60,
+    "endDate": -53
+  },
+  {
+    "id": "caesar-legio-x-commanded",
+    "source": "julius-caesar",
+    "target": "legio-x-equestris",
+    "connectionType": "commanded",
+    "strength": 3,
+    "evidence": "Legio X Equestris was Caesar's most trusted legion, serving throughout the Gallic Wars and the civil war.",
+    "sources": ["https://en.wikipedia.org/wiki/Legio_X_Equestris"]
+  },
+  {
+    "id": "caesar-legio-xiii-commanded",
+    "source": "julius-caesar",
+    "target": "legio-xiii-gemina",
+    "connectionType": "commanded",
+    "strength": 3,
+    "evidence": "Legio XIII Gemina was the legion Caesar led across the Rubicon in 49 BC, starting the civil war.",
+    "sources": ["https://en.wikipedia.org/wiki/Legio_XIII_Gemina"]
+  },
+  {
+    "id": "caesar-rubicon",
+    "source": "julius-caesar",
+    "target": "crossing-the-rubicon",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Caesar personally led his army across the Rubicon River in January 49 BC, declaring 'alea iacta est.'",
+    "sources": ["https://en.wikipedia.org/wiki/Crossing_the_Rubicon"]
+  },
+  {
+    "id": "caesar-gallic-wars",
+    "source": "julius-caesar",
+    "target": "commentarii-de-bello-gallico",
+    "connectionType": "authored",
+    "strength": 3,
+    "evidence": "Caesar wrote his account of the Gallic Wars as a firsthand military narrative and political propaganda.",
+    "sources": ["https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico"]
+  },
+  {
+    "id": "caesar-cleopatra-alliance",
+    "source": "julius-caesar",
+    "target": "cleopatra",
+    "connectionType": "alliance",
+    "strength": 2,
+    "evidence": "Caesar supported Cleopatra's claim to the Egyptian throne and their relationship produced a son, Caesarion.",
+    "sources": ["https://en.wikipedia.org/wiki/Cleopatra"]
+  },
+  {
+    "id": "caesar-populares-faction",
+    "source": "julius-caesar",
+    "target": "populares",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Caesar aligned with the Populares throughout his career, championing land reform and popular causes against the senatorial elite.",
+    "sources": ["https://en.wikipedia.org/wiki/Julius_Caesar"]
+  },
+  {
+    "id": "caesar-assassination",
+    "source": "julius-caesar",
+    "target": "assassination-of-caesar",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Caesar was stabbed 23 times by a group of senators in the Theatre of Pompey on March 15, 44 BC.",
+    "sources": ["https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"]
+  },
+  {
+    "id": "brutus-assassination",
+    "source": "marcus-brutus",
+    "target": "assassination-of-caesar",
+    "connectionType": "assassination",
+    "strength": 3,
+    "evidence": "Marcus Brutus was one of the leading conspirators who assassinated Caesar, believing it necessary to save the Republic.",
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Junius_Brutus"]
+  },
+  {
+    "id": "brutus-caesar-mentorship",
+    "source": "julius-caesar",
+    "target": "marcus-brutus",
+    "connectionType": "mentorship",
+    "strength": 2,
+    "evidence": "Caesar treated Brutus with favor and clemency, pardoning him after Pharsalus and appointing him to high office.",
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Junius_Brutus"]
+  },
+  {
+    "id": "brutus-optimates-faction",
+    "source": "marcus-brutus",
+    "target": "optimates",
+    "connectionType": "faction",
+    "strength": 2,
+    "evidence": "Brutus aligned with the Optimates and the senatorial cause, motivated by his ancestor Lucius Junius Brutus's republican legacy.",
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Junius_Brutus"]
+  },
+  {
+    "id": "brutus-senate-faction",
+    "source": "marcus-brutus",
+    "target": "roman-senate",
+    "connectionType": "faction",
+    "strength": 2,
+    "evidence": "Brutus served as a senator and saw himself as defending the Senate's traditional prerogatives against Caesar's dictatorship.",
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Junius_Brutus"]
+  },
+  {
+    "id": "augustus-caesar-succession",
+    "source": "julius-caesar",
+    "target": "augustus",
+    "connectionType": "succession",
+    "strength": 3,
+    "evidence": "Caesar adopted Octavian (Augustus) as his heir in his will, making him the successor to his political legacy.",
+    "sources": ["https://en.wikipedia.org/wiki/Augustus"]
+  },
+  {
+    "id": "augustus-antony-rivalry",
+    "source": "augustus",
+    "target": "mark-antony",
+    "connectionType": "rivalry",
+    "strength": 3,
+    "evidence": "After initial alliance in the Second Triumvirate, Octavian and Antony became bitter rivals, culminating in the Battle of Actium.",
+    "sources": ["https://en.wikipedia.org/wiki/Final_War_of_the_Roman_Republic"]
+  },
+  {
+    "id": "augustus-actium",
+    "source": "augustus",
+    "target": "battle-of-actium",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Octavian's forces defeated the combined fleets of Antony and Cleopatra at Actium in 31 BC.",
+    "sources": ["https://en.wikipedia.org/wiki/Battle_of_Actium"]
+  },
+  {
+    "id": "augustus-res-gestae",
+    "source": "augustus",
+    "target": "res-gestae-divi-augusti",
+    "connectionType": "authored",
+    "strength": 3,
+    "evidence": "Augustus composed the Res Gestae as his political testament, recording his achievements for posterity.",
+    "sources": ["https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti"]
+  },
+  {
+    "id": "augustus-julio-claudian",
+    "source": "augustus",
+    "target": "julio-claudian",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Augustus founded the Julio-Claudian dynasty as the first Roman Emperor, establishing hereditary imperial succession.",
+    "sources": ["https://en.wikipedia.org/wiki/Julio-Claudian_dynasty"]
+  },
+  {
+    "id": "augustus-tiberius-succession",
+    "source": "augustus",
+    "target": "tiberius",
+    "connectionType": "succession",
+    "strength": 3,
+    "evidence": "Augustus adopted Tiberius as his heir and successor after the deaths of his preferred candidates.",
+    "sources": ["https://en.wikipedia.org/wiki/Tiberius"]
+  },
+  {
+    "id": "augustus-praetorian",
+    "source": "augustus",
+    "target": "praetorian-guard",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Augustus formally established the Praetorian Guard as the imperial bodyguard around 27 BC.",
+    "sources": ["https://en.wikipedia.org/wiki/Praetorian_Guard"]
+  },
+  {
+    "id": "antony-cleopatra-marriage",
+    "source": "mark-antony",
+    "target": "cleopatra",
+    "connectionType": "marriage",
+    "strength": 3,
+    "evidence": "Mark Antony married Cleopatra in an Egyptian ceremony and their alliance controlled the eastern Mediterranean.",
+    "sources": ["https://en.wikipedia.org/wiki/Mark_Antony"]
+  },
+  {
+    "id": "antony-actium",
+    "source": "mark-antony",
+    "target": "battle-of-actium",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Antony commanded the combined fleet with Cleopatra at Actium but was decisively defeated by Octavian's forces.",
+    "sources": ["https://en.wikipedia.org/wiki/Battle_of_Actium"]
+  },
+  {
+    "id": "antony-caesar-served",
+    "source": "mark-antony",
+    "target": "julius-caesar",
+    "connectionType": "served_in",
+    "strength": 3,
+    "evidence": "Antony served as Caesar's chief lieutenant and magister equitum during the civil war.",
+    "sources": ["https://en.wikipedia.org/wiki/Mark_Antony"]
+  },
+  {
+    "id": "hannibal-scipio-defeated",
+    "source": "scipio-africanus",
+    "target": "hannibal",
+    "connectionType": "defeated",
+    "strength": 3,
+    "evidence": "Scipio defeated Hannibal at the Battle of Zama in 202 BC, ending the Second Punic War.",
+    "sources": ["https://en.wikipedia.org/wiki/Battle_of_Zama"]
+  },
+  {
+    "id": "hannibal-second-punic",
+    "source": "hannibal",
+    "target": "second-punic-war",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Hannibal led the Carthaginian forces throughout the Second Punic War, invading Italy through the Alps.",
+    "sources": ["https://en.wikipedia.org/wiki/Second_Punic_War"]
+  },
+  {
+    "id": "hannibal-carthage-located",
+    "source": "hannibal",
+    "target": "carthage",
+    "connectionType": "located_in",
+    "strength": 2,
+    "evidence": "Hannibal was born in Carthage and served as its leading general and later as a political leader.",
+    "sources": ["https://en.wikipedia.org/wiki/Hannibal"]
+  },
+  {
+    "id": "scipio-second-punic",
+    "source": "scipio-africanus",
+    "target": "second-punic-war",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Scipio led the Roman invasion of North Africa and won the decisive Battle of Zama.",
+    "sources": ["https://en.wikipedia.org/wiki/Scipio_Africanus"]
+  },
+  {
+    "id": "constantine-edict",
+    "source": "constantine",
+    "target": "edict-of-milan",
+    "connectionType": "authored",
+    "strength": 3,
+    "evidence": "Constantine issued the Edict of Milan in 313 AD together with Licinius, granting religious freedom throughout the empire.",
+    "sources": ["https://en.wikipedia.org/wiki/Edict_of_Milan"]
+  },
+  {
+    "id": "constantine-edict-event",
+    "source": "constantine",
+    "target": "edict-of-milan-event",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Constantine was the primary author and initiator of the Edict of Milan proclamation in 313 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Edict_of_Milan"]
+  },
+  {
+    "id": "constantine-constantinople",
+    "source": "constantine",
+    "target": "constantinople",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Constantine founded Constantinople in 330 AD as the new eastern capital of the Roman Empire.",
+    "sources": ["https://en.wikipedia.org/wiki/Constantinople"]
+  },
+  {
+    "id": "constantine-christianity",
+    "source": "constantine",
+    "target": "early-christianity",
+    "connectionType": "patronage",
+    "strength": 3,
+    "evidence": "Constantine was the first emperor to convert to Christianity and actively supported the Church through legislation and building programs.",
+    "sources": ["https://en.wikipedia.org/wiki/Constantine_the_Great_and_Christianity"]
+  },
+  {
+    "id": "rome-senate-located",
+    "source": "roman-senate",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Roman Senate met in the Curia in the Forum Romanum in the city of Rome.",
+    "sources": ["https://en.wikipedia.org/wiki/Roman_Senate"]
+  },
+  {
+    "id": "colosseum-rome-located",
+    "source": "colosseum",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Colosseum was built in the center of Rome on the site of Nero's former Domus Aurea.",
+    "sources": ["https://en.wikipedia.org/wiki/Colosseum"]
+  },
+  {
+    "id": "vespasian-colosseum-built",
+    "source": "vespasian",
+    "target": "colosseum",
+    "connectionType": "built",
+    "strength": 3,
+    "evidence": "Vespasian commissioned the construction of the Colosseum around 70-72 AD using spoils from the sack of Jerusalem.",
+    "sources": ["https://en.wikipedia.org/wiki/Colosseum"]
+  },
+  {
+    "id": "hadrian-wall-built",
+    "source": "hadrian",
+    "target": "hadrians-wall",
+    "connectionType": "built",
+    "strength": 3,
+    "evidence": "Hadrian ordered the construction of the wall across northern Britain beginning in 122 AD to mark the empire's frontier.",
+    "sources": ["https://en.wikipedia.org/wiki/Hadrian%27s_Wall"]
+  },
+  {
+    "id": "hadrians-wall-londinium",
+    "source": "hadrians-wall",
+    "target": "londinium",
+    "connectionType": "military_route",
+    "strength": 1,
+    "evidence": "Hadrian's Wall was connected to Londinium via the Roman road network across Britannia.",
+    "sources": ["https://en.wikipedia.org/wiki/Hadrian%27s_Wall"]
+  },
+  {
+    "id": "via-appia-rome",
+    "source": "via-appia",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Via Appia began at the Porta Capena in Rome and extended southeast to Brundisium.",
+    "sources": ["https://en.wikipedia.org/wiki/Appian_Way"]
+  },
+  {
+    "id": "via-appia-brundisium",
+    "source": "via-appia",
+    "target": "brundisium",
+    "connectionType": "trade_route",
+    "strength": 3,
+    "evidence": "The Via Appia connected Rome to the port of Brundisium, the main embarkation point for the East.",
+    "sources": ["https://en.wikipedia.org/wiki/Appian_Way"]
+  },
+  {
+    "id": "aqua-claudia-rome",
+    "source": "aqua-claudia",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Aqua Claudia supplied water to the city of Rome from springs in the Anio valley.",
+    "sources": ["https://en.wikipedia.org/wiki/Aqua_Claudia"]
+  },
+  {
+    "id": "marius-reforms",
+    "source": "gaius-marius",
+    "target": "marian-reforms",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Marius enacted sweeping military reforms that professionalized the Roman army and opened service to the landless poor.",
+    "sources": ["https://en.wikipedia.org/wiki/Marian_reforms"]
+  },
+  {
+    "id": "marius-populares",
+    "source": "gaius-marius",
+    "target": "populares",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Marius was a champion of the Populares and used popular support to win an unprecedented seven consulships.",
+    "sources": ["https://en.wikipedia.org/wiki/Gaius_Marius"]
+  },
+  {
+    "id": "marius-sulla-rivalry",
+    "source": "gaius-marius",
+    "target": "sulla",
+    "connectionType": "rivalry",
+    "strength": 3,
+    "evidence": "Marius and Sulla's bitter personal and political rivalry led to civil war and the first march on Rome.",
+    "sources": ["https://en.wikipedia.org/wiki/Sulla%27s_first_civil_war"]
+  },
+  {
+    "id": "sulla-optimates",
+    "source": "sulla",
+    "target": "optimates",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Sulla championed the Optimates cause and used his dictatorship to strengthen the Senate's authority.",
+    "sources": ["https://en.wikipedia.org/wiki/Sulla"]
+  },
+  {
+    "id": "sulla-senate-alliance",
+    "source": "sulla",
+    "target": "roman-senate",
+    "connectionType": "alliance",
+    "strength": 3,
+    "evidence": "Sulla's constitutional reforms dramatically expanded the Senate's power and restricted the tribunes' authority.",
+    "sources": ["https://en.wikipedia.org/wiki/Sulla"]
+  },
+  {
+    "id": "cicero-senate-faction",
+    "source": "cicero",
+    "target": "roman-senate",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Cicero was a staunch defender of the Senate and republican institutions throughout his political career.",
+    "sources": ["https://en.wikipedia.org/wiki/Cicero"]
+  },
+  {
+    "id": "cicero-optimates",
+    "source": "cicero",
+    "target": "optimates",
+    "connectionType": "faction",
+    "strength": 2,
+    "evidence": "Cicero generally aligned with the Optimates in defending senatorial authority, though he sometimes sought compromise.",
+    "sources": ["https://en.wikipedia.org/wiki/Cicero"]
+  },
+  {
+    "id": "cicero-antony-opposition",
+    "source": "cicero",
+    "target": "mark-antony",
+    "connectionType": "opposition",
+    "strength": 3,
+    "evidence": "Cicero delivered his Philippics orations attacking Mark Antony, which ultimately led to his proscription and death.",
+    "sources": ["https://en.wikipedia.org/wiki/Philippicae"]
+  },
+  {
+    "id": "romulus-founding",
+    "source": "romulus",
+    "target": "founding-of-rome",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "According to tradition, Romulus founded the city of Rome on the Palatine Hill on April 21, 753 BC.",
+    "sources": ["https://en.wikipedia.org/wiki/Founding_of_Rome"]
+  },
+  {
+    "id": "romulus-rome",
+    "source": "romulus",
+    "target": "rome",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Romulus is the legendary founder of the city of Rome, which bears his name.",
+    "sources": ["https://en.wikipedia.org/wiki/Romulus"]
+  },
+  {
+    "id": "ljb-republic",
+    "source": "lucius-junius-brutus",
+    "target": "establishment-of-republic",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Lucius Junius Brutus led the overthrow of Tarquinius Superbus and became one of the first consuls of the new Republic.",
+    "sources": ["https://en.wikipedia.org/wiki/Lucius_Junius_Brutus"]
+  },
+  {
+    "id": "nero-fire",
+    "source": "nero",
+    "target": "great-fire-of-rome",
+    "connectionType": "battle_participation",
+    "strength": 2,
+    "evidence": "The Great Fire occurred during Nero's reign and he was popularly accused of having started it, though this is debated.",
+    "sources": ["https://en.wikipedia.org/wiki/Great_Fire_of_Rome"]
+  },
+  {
+    "id": "nero-julio-claudian",
+    "source": "nero",
+    "target": "julio-claudian",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Nero was the last emperor of the Julio-Claudian dynasty; his suicide in 68 AD ended the dynasty.",
+    "sources": ["https://en.wikipedia.org/wiki/Nero"]
+  },
+  {
+    "id": "tiberius-julio-claudian",
+    "source": "tiberius",
+    "target": "julio-claudian",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Tiberius was the second emperor of the Julio-Claudian dynasty, succeeding Augustus.",
+    "sources": ["https://en.wikipedia.org/wiki/Tiberius"]
+  },
+  {
+    "id": "caligula-julio-claudian",
+    "source": "caligula",
+    "target": "julio-claudian",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Caligula was the third emperor of the Julio-Claudian dynasty, succeeding Tiberius.",
+    "sources": ["https://en.wikipedia.org/wiki/Caligula"]
+  },
+  {
+    "id": "vespasian-flavian",
+    "source": "vespasian",
+    "target": "flavian",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Vespasian founded the Flavian dynasty after winning the civil war of 69 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Flavian_dynasty"]
+  },
+  {
+    "id": "titus-flavian",
+    "source": "titus",
+    "target": "flavian",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Titus was the second emperor of the Flavian dynasty, succeeding his father Vespasian.",
+    "sources": ["https://en.wikipedia.org/wiki/Titus"]
+  },
+  {
+    "id": "titus-vesuvius",
+    "source": "titus",
+    "target": "eruption-of-vesuvius",
+    "connectionType": "battle_participation",
+    "strength": 2,
+    "evidence": "The eruption of Vesuvius occurred during Titus's reign, and he organized relief efforts for the affected areas.",
+    "sources": ["https://en.wikipedia.org/wiki/Titus"]
+  },
+  {
+    "id": "titus-jerusalem",
+    "source": "titus",
+    "target": "jerusalem",
+    "connectionType": "campaign",
+    "strength": 3,
+    "evidence": "Titus led the Roman siege of Jerusalem in 70 AD, destroying the Second Temple.",
+    "sources": ["https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)"]
+  },
+  {
+    "id": "vesuvius-pompeii",
+    "source": "eruption-of-vesuvius",
+    "target": "pompeii",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The eruption of Vesuvius in 79 AD buried the city of Pompeii under meters of volcanic ash.",
+    "sources": ["https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"]
+  },
+  {
+    "id": "trajan-nerva-antonine",
+    "source": "trajan",
+    "target": "nerva-antonine",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Trajan was the second emperor of the Nerva-Antonine dynasty, adopted by Emperor Nerva.",
+    "sources": ["https://en.wikipedia.org/wiki/Trajan"]
+  },
+  {
+    "id": "hadrian-nerva-antonine",
+    "source": "hadrian",
+    "target": "nerva-antonine",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Hadrian was the third emperor of the Nerva-Antonine dynasty, possibly adopted by Trajan on his deathbed.",
+    "sources": ["https://en.wikipedia.org/wiki/Hadrian"]
+  },
+  {
+    "id": "marcus-aurelius-nerva-antonine",
+    "source": "marcus-aurelius",
+    "target": "nerva-antonine",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Marcus Aurelius was the last of the Five Good Emperors of the Nerva-Antonine dynasty.",
+    "sources": ["https://en.wikipedia.org/wiki/Marcus_Aurelius"]
+  },
+  {
+    "id": "marcus-aurelius-commodus-succession",
+    "source": "marcus-aurelius",
+    "target": "commodus",
+    "connectionType": "succession",
+    "strength": 3,
+    "evidence": "Commodus was the son and successor of Marcus Aurelius, ending the tradition of adoptive succession.",
+    "sources": ["https://en.wikipedia.org/wiki/Commodus"]
+  },
+  {
+    "id": "commodus-family",
+    "source": "commodus",
+    "target": "marcus-aurelius",
+    "connectionType": "family",
+    "strength": 3,
+    "evidence": "Commodus was the biological son of Marcus Aurelius, the only emperor of the Nerva-Antonine dynasty to succeed by birth.",
+    "sources": ["https://en.wikipedia.org/wiki/Commodus"]
+  },
+  {
+    "id": "septimius-severan",
+    "source": "septimius-severus",
+    "target": "severan",
+    "connectionType": "founded",
+    "strength": 3,
+    "evidence": "Septimius Severus founded the Severan dynasty after winning the civil war following Commodus's assassination.",
+    "sources": ["https://en.wikipedia.org/wiki/Severan_dynasty"]
+  },
+  {
+    "id": "theodosius-christianity",
+    "source": "theodosius",
+    "target": "early-christianity",
+    "connectionType": "patronage",
+    "strength": 3,
+    "evidence": "Theodosius made Christianity the official state religion of the Roman Empire with the Edict of Thessalonica in 380 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Theodosius_I"]
+  },
+  {
+    "id": "theodosius-polytheism-opposition",
+    "source": "theodosius",
+    "target": "roman-polytheism",
+    "connectionType": "opposition",
+    "strength": 3,
+    "evidence": "Theodosius banned pagan worship and closed temples, effectively ending Roman polytheism as the state religion.",
+    "sources": ["https://en.wikipedia.org/wiki/Theodosius_I"]
+  },
+  {
+    "id": "romulus-augustulus-fall",
+    "source": "romulus-augustulus",
+    "target": "fall-of-western-rome",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Romulus Augustulus was deposed by Odoacer in 476 AD, marking the traditional end of the Western Roman Empire.",
+    "sources": ["https://en.wikipedia.org/wiki/Romulus_Augustulus"]
+  },
+  {
+    "id": "romulus-augustulus-ravenna",
+    "source": "romulus-augustulus",
+    "target": "ravenna",
+    "connectionType": "located_in",
+    "strength": 2,
+    "evidence": "Romulus Augustulus ruled from Ravenna, which had been the Western capital since 402 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Romulus_Augustulus"]
+  },
+  {
+    "id": "diocletian-constantine-succession",
+    "source": "diocletian",
+    "target": "constantine",
+    "connectionType": "succession",
+    "strength": 1,
+    "evidence": "Constantine rose to power within the Tetrarchy system established by Diocletian, eventually reuniting the empire under sole rule.",
+    "sources": ["https://en.wikipedia.org/wiki/Constantine_the_Great"]
+  },
+  {
+    "id": "spartacus-rome-opposition",
+    "source": "spartacus",
+    "target": "rome",
+    "connectionType": "opposition",
+    "strength": 3,
+    "evidence": "Spartacus led a massive slave revolt that threatened Roman Italy from 73 to 71 BC before being defeated.",
+    "sources": ["https://en.wikipedia.org/wiki/Spartacus"]
+  },
+  {
+    "id": "cato-third-punic",
+    "source": "cato-the-elder",
+    "target": "third-punic-war",
+    "connectionType": "battle_participation",
+    "strength": 2,
+    "evidence": "Cato's constant refrain of 'Carthago delenda est' helped push Rome toward the Third Punic War, though he died before it ended.",
+    "sources": ["https://en.wikipedia.org/wiki/Cato_the_Elder"]
+  },
+  {
+    "id": "cato-senate",
+    "source": "cato-the-elder",
+    "target": "roman-senate",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "Cato served as a powerful senator and censor, using his position to enforce traditional Roman morality.",
+    "sources": ["https://en.wikipedia.org/wiki/Cato_the_Elder"]
+  },
+  {
+    "id": "cato-carthage-opposition",
+    "source": "cato-the-elder",
+    "target": "carthage",
+    "connectionType": "opposition",
+    "strength": 3,
+    "evidence": "Cato famously ended every speech with 'Carthago delenda est' (Carthage must be destroyed).",
+    "sources": ["https://en.wikipedia.org/wiki/Cato_the_Elder"]
+  },
+  {
+    "id": "virgil-augustus-patronage",
+    "source": "augustus",
+    "target": "virgil",
+    "connectionType": "patronage",
+    "strength": 2,
+    "evidence": "Virgil wrote the Aeneid partly to glorify Augustus's rule and link it to Rome's legendary Trojan origins.",
+    "sources": ["https://en.wikipedia.org/wiki/Virgil"]
+  },
+  {
+    "id": "pompey-senate-alliance",
+    "source": "pompey",
+    "target": "roman-senate",
+    "connectionType": "alliance",
+    "strength": 2,
+    "evidence": "Pompey ultimately allied with the Senate against Caesar in the civil war, becoming the senatorial champion.",
+    "sources": ["https://en.wikipedia.org/wiki/Pompey"]
+  },
+  {
+    "id": "pompey-optimates",
+    "source": "pompey",
+    "target": "optimates",
+    "connectionType": "faction",
+    "strength": 2,
+    "evidence": "Pompey aligned with the Optimates faction in the civil war against Caesar, despite his earlier populist tendencies.",
+    "sources": ["https://en.wikipedia.org/wiki/Pompey"]
+  },
+  {
+    "id": "grain-rome-trade",
+    "source": "grain",
+    "target": "rome",
+    "connectionType": "trade_route",
+    "strength": 3,
+    "evidence": "Rome depended on grain imports from Egypt, North Africa, and Sicily to feed its massive urban population through the annona.",
+    "sources": ["https://en.wikipedia.org/wiki/Cura_Annonae"]
+  },
+  {
+    "id": "grain-alexandria-trade",
+    "source": "grain",
+    "target": "alexandria",
+    "connectionType": "trade_route",
+    "strength": 3,
+    "evidence": "Alexandria was the primary port for Egyptian grain exports to Rome, making it one of the empire's most vital cities.",
+    "sources": ["https://en.wikipedia.org/wiki/Cura_Annonae"]
+  },
+  {
+    "id": "olive-oil-hispalis-trade",
+    "source": "olive-oil",
+    "target": "hispalis",
+    "connectionType": "trade_route",
+    "strength": 3,
+    "evidence": "Hispalis was a major center of olive oil production and export in Roman Hispania.",
+    "sources": ["https://en.wikipedia.org/wiki/Olive_oil"]
+  },
+  {
+    "id": "silk-antioch-trade",
+    "source": "silk",
+    "target": "antioch",
+    "connectionType": "trade_route",
+    "strength": 2,
+    "evidence": "Antioch served as a key terminus of the Silk Road, where eastern goods entered the Roman trade network.",
+    "sources": ["https://en.wikipedia.org/wiki/Silk_Road"]
+  },
+  {
+    "id": "college-pontiffs-rome",
+    "source": "college-of-pontiffs",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The College of Pontiffs was based in Rome and oversaw religious affairs in the city and empire.",
+    "sources": ["https://en.wikipedia.org/wiki/Pontifex_maximus"]
+  },
+  {
+    "id": "caesar-college-pontiffs",
+    "source": "julius-caesar",
+    "target": "college-of-pontiffs",
+    "connectionType": "appointment",
+    "strength": 2,
+    "evidence": "Caesar was elected Pontifex Maximus in 63 BC, gaining leadership of Rome's most prestigious religious college.",
+    "sources": ["https://en.wikipedia.org/wiki/Julius_Caesar"]
+  },
+  {
+    "id": "mithras-legio-iii",
+    "source": "cult-of-mithras",
+    "target": "legio-iii-cyrenaica",
+    "connectionType": "worship",
+    "strength": 1,
+    "evidence": "The Cult of Mithras was widely practiced among Roman soldiers, including legions stationed in the eastern provinces.",
+    "sources": ["https://en.wikipedia.org/wiki/Mithraism"]
+  },
+  {
+    "id": "polytheism-college-pontiffs",
+    "source": "roman-polytheism",
+    "target": "college-of-pontiffs",
+    "connectionType": "worship",
+    "strength": 3,
+    "evidence": "The College of Pontiffs was the principal institution overseeing traditional Roman religious practices and rituals.",
+    "sources": ["https://en.wikipedia.org/wiki/Pontifex_maximus"]
+  },
+  {
+    "id": "twelve-tables-senate",
+    "source": "twelve-tables",
+    "target": "roman-senate",
+    "connectionType": "founded",
+    "strength": 2,
+    "evidence": "The Twelve Tables were created by a commission of senators (decemviri) to codify Roman law for the first time.",
+    "sources": ["https://en.wikipedia.org/wiki/Twelve_Tables"]
+  },
+  {
+    "id": "fire-rome-located",
+    "source": "great-fire-of-rome",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Great Fire devastated large sections of the city of Rome in 64 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Great_Fire_of_Rome"]
+  },
+  {
+    "id": "edict-milan-mediolanum",
+    "source": "edict-of-milan-event",
+    "target": "mediolanum",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Edict of Milan was proclaimed in Mediolanum (modern Milan) in 313 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Edict_of_Milan"]
+  },
+  {
+    "id": "fall-ravenna-located",
+    "source": "fall-of-western-rome",
+    "target": "ravenna",
+    "connectionType": "located_in",
+    "strength": 2,
+    "evidence": "The final deposition of the last Western emperor took place in Ravenna, which had served as the Western capital.",
+    "sources": ["https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"]
+  },
+  {
+    "id": "founding-rome-located",
+    "source": "founding-of-rome",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "Rome was founded on the Palatine Hill according to Roman tradition.",
+    "sources": ["https://en.wikipedia.org/wiki/Founding_of_Rome"]
+  },
+  {
+    "id": "gracchi-populares",
+    "source": "gracchi-reforms",
+    "target": "populares",
+    "connectionType": "faction",
+    "strength": 3,
+    "evidence": "The Gracchi brothers' reform movement is considered the origin of the Populares political faction.",
+    "sources": ["https://en.wikipedia.org/wiki/Gracchi"]
+  },
+  {
+    "id": "gracchi-senate-opposition",
+    "source": "gracchi-reforms",
+    "target": "roman-senate",
+    "connectionType": "opposition",
+    "strength": 3,
+    "evidence": "The Senate violently opposed the Gracchi reforms, killing both Tiberius and Gaius Gracchus.",
+    "sources": ["https://en.wikipedia.org/wiki/Gracchi"]
+  },
+  {
+    "id": "trajan-hadrian-succession",
+    "source": "trajan",
+    "target": "hadrian",
+    "connectionType": "succession",
+    "strength": 3,
+    "evidence": "Hadrian succeeded Trajan as emperor, claiming adoption on Trajan's deathbed in 117 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Hadrian"]
+  },
+  {
+    "id": "vespasian-titus-succession",
+    "source": "vespasian",
+    "target": "titus",
+    "connectionType": "succession",
+    "strength": 3,
+    "evidence": "Titus succeeded his father Vespasian as emperor in 79 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Titus"]
+  },
+  {
+    "id": "vespasian-titus-family",
+    "source": "vespasian",
+    "target": "titus",
+    "connectionType": "family",
+    "strength": 3,
+    "evidence": "Titus was the eldest son of Emperor Vespasian.",
+    "sources": ["https://en.wikipedia.org/wiki/Titus"]
+  },
+  {
+    "id": "cleopatra-alexandria",
+    "source": "cleopatra",
+    "target": "alexandria",
+    "connectionType": "governed",
+    "strength": 3,
+    "evidence": "Cleopatra ruled Egypt from her capital in Alexandria as the last Ptolemaic pharaoh.",
+    "sources": ["https://en.wikipedia.org/wiki/Cleopatra"]
+  },
+  {
+    "id": "legio-xiii-rubicon",
+    "source": "legio-xiii-gemina",
+    "target": "crossing-the-rubicon",
+    "connectionType": "battle_participation",
+    "strength": 3,
+    "evidence": "Legio XIII Gemina was the legion that accompanied Caesar across the Rubicon in 49 BC.",
+    "sources": ["https://en.wikipedia.org/wiki/Legio_XIII_Gemina"]
+  },
+  {
+    "id": "praetorian-rome",
+    "source": "praetorian-guard",
+    "target": "rome",
+    "connectionType": "located_in",
+    "strength": 3,
+    "evidence": "The Praetorian Guard was garrisoned in Rome at the Castra Praetoria, built under Tiberius.",
+    "sources": ["https://en.wikipedia.org/wiki/Praetorian_Guard"]
+  },
+  {
+    "id": "caligula-praetorian-assassination",
+    "source": "caligula",
+    "target": "praetorian-guard",
+    "connectionType": "assassination",
+    "strength": 3,
+    "evidence": "Caligula was assassinated by members of the Praetorian Guard in 41 AD.",
+    "sources": ["https://en.wikipedia.org/wiki/Caligula"]
+  }
+]

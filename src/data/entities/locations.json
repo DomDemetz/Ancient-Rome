@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "rome",
+    "name": "Rome",
+    "entityType": "location",
+    "description": "Capital of the Roman Kingdom, Republic, and Empire, situated on seven hills along the Tiber River. At its peak, Rome was home to over one million inhabitants and served as the political, cultural, and economic center of the Mediterranean world.",
+    "locationType": "city",
+    "coordinates": { "lat": 41.9028, "lng": 12.4964 },
+    "province": "Italia",
+    "sources": ["https://en.wikipedia.org/wiki/Rome"]
+  },
+  {
+    "id": "carthage",
+    "name": "Carthage",
+    "entityType": "location",
+    "description": "Ancient Phoenician city-state in modern-day Tunisia and Rome's greatest rival. After three Punic Wars, Rome destroyed Carthage in 146 BC, though it was later refounded as a major Roman city.",
+    "locationType": "city",
+    "coordinates": { "lat": 36.8565, "lng": 10.3375 },
+    "province": "Africa Proconsularis",
+    "sources": ["https://en.wikipedia.org/wiki/Carthage"]
+  },
+  {
+    "id": "alexandria",
+    "name": "Alexandria",
+    "entityType": "location",
+    "description": "Major Hellenistic city in Egypt founded by Alexander the Great, famous for its Great Library and Lighthouse. Under Roman rule, it served as the capital of the province of Egypt and a vital center of trade and learning.",
+    "locationType": "city",
+    "coordinates": { "lat": 31.2001, "lng": 29.9187 },
+    "province": "Aegyptus",
+    "sources": ["https://en.wikipedia.org/wiki/Alexandria"]
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "entityType": "location",
+    "description": "Ancient Greek city-state renowned for its contributions to philosophy, democracy, and the arts. Under Roman rule, Athens remained an important cultural and educational center, home to famous philosophical schools.",
+    "locationType": "city",
+    "coordinates": { "lat": 37.9838, "lng": 23.7275 },
+    "province": "Achaea",
+    "sources": ["https://en.wikipedia.org/wiki/Athens"]
+  },
+  {
+    "id": "constantinople",
+    "name": "Constantinople",
+    "entityType": "location",
+    "description": "City founded by Constantine I in 330 AD as the new eastern capital of the Roman Empire on the site of ancient Byzantium. It became the capital of the Eastern Roman (Byzantine) Empire and one of the largest cities in the world.",
+    "locationType": "city",
+    "coordinates": { "lat": 41.0082, "lng": 28.9784 },
+    "province": "Thracia",
+    "sources": ["https://en.wikipedia.org/wiki/Constantinople"]
+  },
+  {
+    "id": "pompeii",
+    "name": "Pompeii",
+    "entityType": "location",
+    "description": "Roman city near Naples buried by the eruption of Mount Vesuvius in 79 AD. Its remarkably preserved ruins provide invaluable insights into Roman urban life, architecture, and daily customs.",
+    "locationType": "city",
+    "coordinates": { "lat": 40.7462, "lng": 14.4989 },
+    "province": "Italia",
+    "sources": ["https://en.wikipedia.org/wiki/Pompeii"]
+  },
+  {
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "entityType": "location",
+    "description": "Ancient city sacred to Judaism, Christianity, and Islam, conquered by Pompey in 63 BC. The Roman destruction of the Second Temple in 70 AD by Titus was a pivotal event in Jewish history.",
+    "locationType": "city",
+    "coordinates": { "lat": 31.7683, "lng": 35.2137 },
+    "province": "Judaea",
+    "sources": ["https://en.wikipedia.org/wiki/Jerusalem"]
+  },
+  {
+    "id": "londinium",
+    "name": "Londinium",
+    "entityType": "location",
+    "description": "Roman settlement founded around 47 AD that grew to become the capital of the province of Britannia. Located on the Thames River, it served as a major trading port and administrative center.",
+    "locationType": "city",
+    "coordinates": { "lat": 51.5074, "lng": -0.1278 },
+    "province": "Britannia",
+    "sources": ["https://en.wikipedia.org/wiki/Londinium"]
+  },
+  {
+    "id": "massilia",
+    "name": "Massilia",
+    "entityType": "location",
+    "description": "Ancient Greek colony (modern Marseille) that became an important Roman ally and trading port in southern Gaul. It served as a gateway for Greek culture into the western Mediterranean.",
+    "locationType": "city",
+    "coordinates": { "lat": 43.2965, "lng": 5.3698 },
+    "province": "Gallia Narbonensis",
+    "sources": ["https://en.wikipedia.org/wiki/Massalia"]
+  },
+  {
+    "id": "syracuse",
+    "name": "Syracuse",
+    "entityType": "location",
+    "description": "Major Greek colony in Sicily that was one of the most powerful cities in the ancient world. Rome conquered Syracuse in 212 BC during the Second Punic War, famously killing Archimedes during the siege.",
+    "locationType": "city",
+    "coordinates": { "lat": 37.0755, "lng": 15.2866 },
+    "province": "Sicilia",
+    "sources": ["https://en.wikipedia.org/wiki/Syracuse,_Sicily"]
+  },
+  {
+    "id": "antioch",
+    "name": "Antioch",
+    "entityType": "location",
+    "description": "Major city in the Roman province of Syria, one of the largest cities in the empire. It served as an important center of early Christianity and a key military staging point for eastern campaigns.",
+    "locationType": "city",
+    "coordinates": { "lat": 36.2, "lng": 36.15 },
+    "province": "Syria",
+    "sources": ["https://en.wikipedia.org/wiki/Antioch"]
+  },
+  {
+    "id": "ravenna",
+    "name": "Ravenna",
+    "entityType": "location",
+    "description": "City in northeastern Italy that became the capital of the Western Roman Empire in 402 AD due to its strategic marshland defenses. It later served as the capital of the Ostrogothic Kingdom and the Byzantine Exarchate.",
+    "locationType": "city",
+    "coordinates": { "lat": 44.4184, "lng": 12.2035 },
+    "province": "Italia",
+    "sources": ["https://en.wikipedia.org/wiki/Ravenna"]
+  },
+  {
+    "id": "mediolanum",
+    "name": "Mediolanum",
+    "entityType": "location",
+    "description": "Important Roman city (modern Milan) that served as the de facto western capital of the Roman Empire from 286 to 402 AD. It was here that the Edict of Milan was proclaimed in 313 AD.",
+    "locationType": "city",
+    "coordinates": { "lat": 45.4642, "lng": 9.19 },
+    "province": "Italia",
+    "sources": ["https://en.wikipedia.org/wiki/Mediolanum"]
+  },
+  {
+    "id": "brundisium",
+    "name": "Brundisium",
+    "entityType": "location",
+    "description": "Major Roman port city (modern Brindisi) at the terminus of the Via Appia on the Adriatic coast. It served as the primary embarkation point for Roman armies and travelers heading to Greece and the East.",
+    "locationType": "city",
+    "coordinates": { "lat": 40.6327, "lng": 17.9467 },
+    "province": "Italia",
+    "sources": ["https://en.wikipedia.org/wiki/Brindisi"]
+  },
+  {
+    "id": "hispalis",
+    "name": "Hispalis",
+    "entityType": "location",
+    "description": "Roman city in southern Hispania (modern Seville) that served as an important administrative and commercial center. It was a key hub in the Roman trade network, particularly for olive oil exports.",
+    "locationType": "city",
+    "coordinates": { "lat": 37.3891, "lng": -5.9845 },
+    "province": "Hispania Baetica",
+    "sources": ["https://en.wikipedia.org/wiki/Hispalis"]
+  }
+]

@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "via-appia",
+    "name": "Via Appia",
+    "entityType": "infrastructure",
+    "description": "The first and most famous Roman road, stretching from Rome to Brundisium in southern Italy. Built beginning in 312 BC by censor Appius Claudius Caecus, it was called the 'Queen of Roads' and served as a vital military and commercial route.",
+    "builtBy": "Appius Claudius Caecus",
+    "builtYear": -312,
+    "infraType": "road",
+    "sources": ["https://en.wikipedia.org/wiki/Appian_Way"]
+  },
+  {
+    "id": "aqua-claudia",
+    "name": "Aqua Claudia",
+    "entityType": "infrastructure",
+    "description": "One of the most impressive Roman aqueducts, begun by Caligula in 38 AD and completed by Claudius in 52 AD. It carried water over 69 kilometers from springs in the Anio valley to Rome, with monumental arches crossing the countryside.",
+    "builtYear": 52,
+    "infraType": "aqueduct",
+    "sources": ["https://en.wikipedia.org/wiki/Aqua_Claudia"]
+  },
+  {
+    "id": "colosseum",
+    "name": "Colosseum",
+    "entityType": "infrastructure",
+    "description": "The largest amphitheatre ever built, commissioned by Vespasian and completed by Titus in 80 AD. Capable of seating 50,000 spectators, it hosted gladiatorial contests, animal hunts, and public spectacles for centuries.",
+    "builtBy": "vespasian",
+    "builtYear": 80,
+    "infraType": "amphitheatre",
+    "sources": ["https://en.wikipedia.org/wiki/Colosseum"]
+  },
+  {
+    "id": "hadrians-wall",
+    "name": "Hadrian's Wall",
+    "entityType": "infrastructure",
+    "description": "A defensive fortification stretching 117 kilometers across northern England, built on the orders of Emperor Hadrian beginning in 122 AD. It marked the northern boundary of Roman Britain and included forts, milecastles, and turrets.",
+    "builtBy": "hadrian",
+    "builtYear": 122,
+    "infraType": "fortification",
+    "sources": ["https://en.wikipedia.org/wiki/Hadrian%27s_Wall"]
+  }
+]
