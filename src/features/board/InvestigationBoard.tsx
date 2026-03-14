@@ -1,7 +1,9 @@
 import { useUIStore } from '@/stores/useUIStore'
-import { useSelectionStore } from '@/stores/useSelectionStore'
 import { TopBar } from './TopBar'
 import { TrailBar } from './TrailBar'
+import { FilterPanel } from '@/features/filters/FilterPanel'
+import { PathFinder } from '@/features/search/PathFinder'
+import { DetailPanel } from '@/features/detail/DetailPanel'
 
 const LENS_PLACEHOLDERS: Record<string, string> = {
   graph: 'Graph View (coming soon)',
@@ -12,24 +14,29 @@ const LENS_PLACEHOLDERS: Record<string, string> = {
 
 export function InvestigationBoard() {
   const lens = useUIStore((s) => s.lens)
-  const selectedId = useSelectionStore((s) => s.selectedId)
+  const sidebarOpen = useUIStore((s) => s.sidebarOpen)
 
   return (
     <div className="flex flex-col h-screen">
       <TopBar />
 
       <div className="flex flex-1 overflow-hidden">
+        {/* Left sidebar — filters + path finder */}
+        {sidebarOpen && (
+          <aside className="w-[280px] shrink-0 border-r border-border bg-bg-secondary overflow-y-auto">
+            <FilterPanel />
+            <div className="border-t border-border" />
+            <PathFinder />
+          </aside>
+        )}
+
         {/* Main content area */}
         <div className="flex-1 flex items-center justify-center overflow-auto">
           <p className="text-text-secondary text-sm">{LENS_PLACEHOLDERS[lens]}</p>
         </div>
 
-        {/* Detail panel (340px) — shown when something is selected */}
-        {selectedId && (
-          <aside className="w-[340px] shrink-0 border-l border-border flex items-center justify-center overflow-auto">
-            <p className="text-text-secondary text-sm">Detail panel (coming soon)</p>
-          </aside>
-        )}
+        {/* Detail panel — shown when something is selected (desktop) */}
+        <DetailPanel />
       </div>
 
       <TrailBar />
