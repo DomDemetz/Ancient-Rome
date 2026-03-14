@@ -8,9 +8,9 @@ import { useURLSync } from '@/app/useURLSync'
 import { useMobileDetect } from '@/app/useMobileDetect'
 import { GraphView } from '@/features/graph/GraphView'
 import { MapView } from '@/features/map/MapView'
+import { TimelineView } from '@/features/timeline/TimelineView'
 
 const LENS_PLACEHOLDERS: Record<string, string> = {
-  timeline: 'Timeline View (coming soon)',
   stats: 'Stats View (coming soon)',
 }
 
@@ -38,7 +38,8 @@ export function InvestigationBoard() {
         <div className="flex-1 overflow-hidden relative">
           {lens === 'graph' && <GraphView />}
           {lens === 'map' && <MapView />}
-          {lens !== 'graph' && lens !== 'map' && (
+          {lens === 'timeline' && <TimelineView />}
+          {lens !== 'graph' && lens !== 'map' && lens !== 'timeline' && (
             <div className="flex items-center justify-center w-full h-full">
               <p className="text-text-secondary text-sm">{LENS_PLACEHOLDERS[lens]}</p>
             </div>
