@@ -81,7 +81,7 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
           layerKey.replace('show', '').charAt(0).toLowerCase() +
           layerKey.replace('show', '').slice(1) +
           'Data'
-        if (!(state as Record<string, unknown>)[dataKey]) {
+        if (!(state as unknown as Record<string, unknown>)[dataKey]) {
           const toggleKey = ('toggle' + layerKey.replace('show', '')) as keyof typeof state
           const fn = state[toggleKey]
           if (typeof fn === 'function') {

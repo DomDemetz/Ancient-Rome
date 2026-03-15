@@ -379,9 +379,9 @@ function makeToggle<K extends string>(
 ) {
   return async (set: (s: Partial<MapLayerState>) => void, get: () => MapLayerState) => {
     const state = get()
-    const show = (state as Record<string, unknown>)[showKey] as boolean
-    const data = (state as Record<string, unknown>)[dataKey]
-    const loading = (state as Record<string, unknown>)[loadingKey] as boolean
+    const show = (state as unknown as Record<string, unknown>)[showKey] as boolean
+    const data = (state as unknown as Record<string, unknown>)[dataKey]
+    const loading = (state as unknown as Record<string, unknown>)[loadingKey] as boolean
 
     if (show) {
       set({ [showKey]: false, activePreset: 'custom' } as Partial<MapLayerState>)
@@ -822,7 +822,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     for (const layerKey of def.layers) {
       const reg = loaders[layerKey]
       if (!reg) continue
-      const s = afterState as Record<string, unknown>
+      const s = afterState as unknown as Record<string, unknown>
       if (!s[reg.dataKey] && !s[reg.loadingKey]) {
         promises.push(reg.load())
       }
