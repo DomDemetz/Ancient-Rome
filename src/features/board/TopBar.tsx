@@ -23,7 +23,10 @@ export function TopBar({ storyMode }: TopBarProps) {
   }
 
   return (
-    <header className="flex h-12 items-center gap-3 border-b border-border px-4 shrink-0 relative z-50">
+    <header
+      className="flex h-12 items-center gap-3 border-b border-border px-4 shrink-0 relative"
+      style={{ zIndex: 1000 }}
+    >
       <Button
         variant="ghost"
         size="icon-sm"

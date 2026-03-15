@@ -1,6 +1,7 @@
 import 'leaflet/dist/leaflet.css'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
+import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
@@ -36,6 +37,53 @@ import { StoryPlayer } from './StoryPlayer'
 import type { Story } from './StoryPlayer'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
+
+/** Listens for flyTo requests from the global nav store and highlights the target */
+function MapNavHandler() {
+  const map = useMap()
+  const pendingFlyTo = useMapNavStore((s) => s.pendingFlyTo)
+  const clearFlyTo = useMapNavStore((s) => s.clearFlyTo)
+
+  useEffect(() => {
+    if (!pendingFlyTo) return
+
+    const { lat, lng } = pendingFlyTo
+    map.flyTo([lat, lng], pendingFlyTo.zoom ?? 9, { duration: 1.2 })
+    clearFlyTo()
+
+    // Add a bold highlight ring at the target after the fly animation
+    const timer = setTimeout(() => {
+      const highlight = L.circleMarker([lat, lng], {
+        radius: 22,
+        color: '#fff',
+        weight: 4,
+        fillColor: '#f39c12',
+        fillOpacity: 0.25,
+        className: 'search-highlight',
+      }).addTo(map)
+
+      // Add a second inner ring for emphasis
+      const inner = L.circleMarker([lat, lng], {
+        radius: 10,
+        color: '#f39c12',
+        weight: 3,
+        fill: false,
+        className: 'search-highlight',
+      }).addTo(map)
+
+      // Remove after a few seconds
+      setTimeout(() => {
+        highlight.remove()
+        inner.remove()
+      }, 4000)
+    }, 1200)
+
+    return () => clearTimeout(timer)
+  }, [pendingFlyTo, map, clearFlyTo])
+
+  return null
+}
 
 /** Create a custom pane for territory/province polygons below the default overlayPane (z-index 400) */
 function BasePane() {
@@ -177,6 +225,7 @@ export function MapView() {
         >
           <TileLayer url={TERRAIN_TILE_URL} attribution={attribution} />
           <BasePane />
+          <MapNavHandler />
 
           {/* Render order: base layers -> overlays -> point layers */}
           {showTerritories && <TerritoryLayer snapshots={territories} />}

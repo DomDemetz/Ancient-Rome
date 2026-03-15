@@ -4,11 +4,55 @@ import { Search } from 'lucide-react'
 import { entities } from '@/data'
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFilterStore } from '@/stores/useFilterStore'
+import { useMapLayerStore } from '@/stores/useMapLayerStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
+import { useUIStore } from '@/stores/useUIStore'
 import { entityColors, entityLabels } from '@/lib/colors'
 import { Input } from '@/ui/input'
 import type { Entity } from '@/types'
 
 const MAX_RESULTS = 8
+
+// Maps search categories to their layer visibility flag and toggle action
+const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
+  Road: { show: 'showRoads', toggle: 'toggleRoads' },
+  Settlement: { show: 'showSettlements', toggle: 'toggleSettlements' },
+  Battle: { show: 'showBattles', toggle: 'toggleBattles' },
+  Legion: { show: 'showLegions', toggle: 'toggleLegions' },
+  Amphitheater: { show: 'showAmphitheaters', toggle: 'toggleAmphitheaters' },
+  Shipwreck: { show: 'showShipwrecks', toggle: 'toggleShipwrecks' },
+  Mine: { show: 'showMines', toggle: 'toggleMines' },
+  Aqueduct: { show: 'showAqueducts', toggle: 'toggleAqueducts' },
+  'Religious site': { show: 'showReligion', toggle: 'toggleReligion' },
+  Building: { show: 'showBuildings', toggle: 'toggleBuildings' },
+  Press: { show: 'showPresses', toggle: 'togglePresses' },
+  Port: { show: 'showPorts', toggle: 'togglePorts' },
+}
+
+interface SearchItem {
+  id: string
+  name: string
+  category: string
+  color: string
+  lat?: number
+  lng?: number
+  entityId?: string // for graph entities
+}
+
+const CATEGORY_COLORS: Record<string, string> = {
+  road: '#d4a74a',
+  settlement: '#5b8dd9',
+  battle: '#e74c3c',
+  legion: '#c0392b',
+  amphitheater: '#d4a574',
+  shipwreck: '#3498db',
+  mine: '#c88c5a',
+  aqueduct: '#3498db',
+  religion: '#9b59b6',
+  building: '#f0c040',
+  press: '#8b6914',
+  port: '#e67e22',
+}
 
 export function SearchBar() {
   const [query, setQuery] = useState('')
@@ -16,17 +60,221 @@ export function SearchBar() {
   const containerRef = useRef<HTMLDivElement>(null)
   const select = useSelectionStore((s) => s.select)
   const setFilter = useFilterStore((s) => s.setFilter)
+  const flyTo = useMapNavStore((s) => s.flyTo)
+  const switchLens = useUIStore((s) => s.switchLens)
+
+  const store = useMapLayerStore()
+
+  // Build a unified search index from all data sources
+  const searchItems = useMemo(() => {
+    const items: SearchItem[] = []
+
+    // Entities (people, events, locations, etc.)
+    for (const e of entities) {
+      const item: SearchItem = {
+        id: `entity-${e.id}`,
+        name: e.name,
+        category: entityLabels[e.entityType] || e.entityType,
+        color: entityColors[e.entityType] || '#95a5a6',
+        entityId: e.id,
+      }
+      if (
+        e.entityType === 'location' &&
+        (e as Entity & { coordinates?: { lat: number; lng: number } }).coordinates
+      ) {
+        const loc = e as Entity & { coordinates: { lat: number; lng: number } }
+        item.lat = loc.coordinates.lat
+        item.lng = loc.coordinates.lng
+      }
+      items.push(item)
+    }
+
+    // Roads (from GeoJSON features)
+    if (store.roadsData) {
+      const seen = new Set<string>()
+      for (const f of store.roadsData.features) {
+        const name = f.properties?.name
+        if (!name || seen.has(name)) continue
+        seen.add(name)
+        // Get centroid of first geometry coordinates
+        const coords = getFeatureCentroid(f)
+        items.push({
+          id: `road-${name}`,
+          name,
+          category: 'Road',
+          color: CATEGORY_COLORS.road,
+          ...coords,
+        })
+      }
+    }
+
+    // Settlements
+    if (store.settlementsData) {
+      for (const s of store.settlementsData) {
+        items.push({
+          id: `settlement-${s.id}`,
+          name: s.name,
+          category: 'Settlement',
+          color: CATEGORY_COLORS.settlement,
+          lat: s.lat,
+          lng: s.lng,
+        })
+      }
+    }
+
+    // Battles
+    if (store.battlesData) {
+      for (const b of store.battlesData) {
+        items.push({
+          id: `battle-${b.id}`,
+          name: b.name,
+          category: 'Battle',
+          color: CATEGORY_COLORS.battle,
+          lat: b.lat,
+          lng: b.lng,
+        })
+      }
+    }
+
+    // Legions
+    if (store.legionsData) {
+      for (const l of store.legionsData) {
+        const base = l.bases[0]
+        if (!base) continue
+        items.push({
+          id: `legion-${l.id}`,
+          name: l.name,
+          category: 'Legion',
+          color: CATEGORY_COLORS.legion,
+          lat: base.lat,
+          lng: base.lng,
+        })
+      }
+    }
+
+    // Amphitheaters
+    if (store.amphitheatersData) {
+      for (const a of store.amphitheatersData) {
+        items.push({
+          id: `amphitheater-${a.id}`,
+          name: a.name,
+          category: 'Amphitheater',
+          color: CATEGORY_COLORS.amphitheater,
+          lat: a.lat,
+          lng: a.lng,
+        })
+      }
+    }
+
+    // Shipwrecks
+    if (store.shipwrecksData) {
+      for (const w of store.shipwrecksData) {
+        items.push({
+          id: `shipwreck-${w.id}`,
+          name: w.name,
+          category: 'Shipwreck',
+          color: CATEGORY_COLORS.shipwreck,
+          lat: w.lat,
+          lng: w.lng,
+        })
+      }
+    }
+
+    // Mines
+    if (store.minesData) {
+      for (const m of store.minesData) {
+        items.push({
+          id: `mine-${m.id}`,
+          name: m.name,
+          category: 'Mine',
+          color: CATEGORY_COLORS.mine,
+          lat: m.lat,
+          lng: m.lng,
+        })
+      }
+    }
+
+    // Aqueducts
+    if (store.aqueductsData) {
+      for (const a of store.aqueductsData) {
+        items.push({
+          id: `aqueduct-${a.id}`,
+          name: a.name,
+          category: 'Aqueduct',
+          color: CATEGORY_COLORS.aqueduct,
+          lat: a.lat,
+          lng: a.lng,
+        })
+      }
+    }
+
+    // Religious sites
+    if (store.religionData) {
+      for (const r of store.religionData) {
+        items.push({
+          id: `religion-${r.id}`,
+          name: r.name,
+          category: 'Religious site',
+          color: CATEGORY_COLORS.religion,
+          lat: r.lat,
+          lng: r.lng,
+        })
+      }
+    }
+
+    // Buildings
+    if (store.buildingsData) {
+      for (const b of store.buildingsData) {
+        items.push({
+          id: `building-${b.id}`,
+          name: b.name,
+          category: 'Building',
+          color: CATEGORY_COLORS.building,
+          lat: b.lat,
+          lng: b.lng,
+        })
+      }
+    }
+
+    // Presses
+    if (store.pressesData) {
+      for (const p of store.pressesData) {
+        items.push({
+          id: `press-${p.id}`,
+          name: p.name,
+          category: 'Press',
+          color: CATEGORY_COLORS.press,
+          lat: p.lat,
+          lng: p.lng,
+        })
+      }
+    }
+
+    return items
+  }, [
+    store.roadsData,
+    store.settlementsData,
+    store.battlesData,
+    store.legionsData,
+    store.amphitheatersData,
+    store.shipwrecksData,
+    store.minesData,
+    store.aqueductsData,
+    store.religionData,
+    store.buildingsData,
+    store.pressesData,
+  ])
 
   const fuse = useMemo(
     () =>
-      new Fuse(entities, {
-        keys: ['name', 'description'],
-        threshold: 0.4,
+      new Fuse(searchItems, {
+        keys: ['name'],
+        threshold: 0.3,
       }),
-    [],
+    [searchItems],
   )
 
-  const results: Entity[] = useMemo(() => {
+  const results = useMemo(() => {
     if (!query.trim()) return []
     return fuse.search(query, { limit: MAX_RESULTS }).map((r) => r.item)
   }, [fuse, query])
@@ -42,11 +290,32 @@ export function SearchBar() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  function handleSelect(entity: Entity) {
-    select(entity.id)
-    setFilter('searchQuery', entity.name)
-    setQuery(entity.name)
+  function handleSelect(item: SearchItem) {
+    setQuery(item.name)
     setOpen(false)
+
+    // If it's a graph entity, select it
+    if (item.entityId) {
+      select(item.entityId)
+      setFilter('searchQuery', item.name)
+    }
+
+    // Ensure the layer is visible
+    const layerInfo = LAYER_MAP[item.category]
+    if (layerInfo) {
+      const state = useMapLayerStore.getState()
+      const isVisible = (state as Record<string, unknown>)[layerInfo.show]
+      if (!isVisible) {
+        const toggle = (state as Record<string, () => void>)[layerInfo.toggle]
+        toggle()
+      }
+    }
+
+    // If it has coordinates, switch to map and fly there
+    if (item.lat != null && item.lng != null) {
+      switchLens('map')
+      flyTo(item.lat, item.lng, 9)
+    }
   }
 
   return (
@@ -55,7 +324,7 @@ export function SearchBar() {
         <Search className="absolute left-2 top-1/2 -translate-y-1/2 size-3.5 text-text-secondary pointer-events-none" />
         <Input
           type="text"
-          placeholder="Search entities…"
+          placeholder="Search…"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value)
@@ -67,24 +336,25 @@ export function SearchBar() {
       </div>
 
       {open && results.length > 0 && (
-        <ul className="absolute top-full left-0 right-0 z-50 mt-1 rounded-lg border border-border bg-bg-card shadow-lg overflow-hidden">
-          {results.map((entity) => (
-            <li key={entity.id}>
+        <ul
+          className="absolute top-full left-0 right-0 mt-1 rounded-lg border border-border bg-bg-card shadow-lg overflow-hidden"
+          style={{ zIndex: 1001 }}
+        >
+          {results.map((item) => (
+            <li key={item.id}>
               <button
                 className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs hover:bg-bg-secondary transition-colors"
                 onMouseDown={(e) => {
                   e.preventDefault()
-                  handleSelect(entity)
+                  handleSelect(item)
                 }}
               >
                 <span
                   className="size-2 rounded-full shrink-0"
-                  style={{ backgroundColor: entityColors[entity.entityType] }}
+                  style={{ backgroundColor: item.color }}
                 />
-                <span className="text-text-secondary shrink-0">
-                  {entityLabels[entity.entityType]}
-                </span>
-                <span className="text-text-primary truncate">{entity.name}</span>
+                <span className="text-text-secondary shrink-0">{item.category}</span>
+                <span className="text-text-primary truncate">{item.name}</span>
               </button>
             </li>
           ))}
@@ -92,4 +362,35 @@ export function SearchBar() {
       )}
     </div>
   )
+}
+
+/** Extract a centroid from a GeoJSON feature for flyTo */
+function getFeatureCentroid(
+  feature: import('geojson').Feature,
+): { lat: number; lng: number } | Record<string, never> {
+  const geom = feature.geometry
+  if (!geom) return {}
+
+  if (geom.type === 'Point') {
+    return { lat: geom.coordinates[1], lng: geom.coordinates[0] }
+  }
+
+  // For LineString, MultiLineString, etc. — average the coordinates
+  const coords: number[][] = []
+  function collect(c: unknown) {
+    if (Array.isArray(c)) {
+      if (typeof c[0] === 'number') {
+        coords.push(c as number[])
+      } else {
+        for (const sub of c) collect(sub)
+      }
+    }
+  }
+  collect((geom as { coordinates: unknown }).coordinates)
+
+  if (coords.length === 0) return {}
+
+  // Use midpoint of the line rather than average (more representative)
+  const mid = coords[Math.floor(coords.length / 2)]
+  return { lat: mid[1], lng: mid[0] }
 }

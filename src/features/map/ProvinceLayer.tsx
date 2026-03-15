@@ -14,32 +14,32 @@ interface ProvinceLayerProps {
 }
 
 const PROVINCE_STYLE: PathOptions = {
-  color: '#8e7cc3',
-  weight: 1.5,
-  opacity: 0.7,
+  color: '#a08cd6',
+  weight: 2,
+  opacity: 0.9,
   fillColor: '#8e7cc3',
-  fillOpacity: 0.08,
+  fillOpacity: 0.15,
   dashArray: '5 3',
   pane: 'basePolygons',
 }
 
 const SELECTED_STYLE: PathOptions = {
-  color: '#6a4db3',
-  weight: 2.5,
+  color: '#b89aef',
+  weight: 3,
   opacity: 1,
-  fillColor: '#6a4db3',
-  fillOpacity: 0.25,
+  fillColor: '#8e7cc3',
+  fillOpacity: 0.3,
   pane: 'basePolygons',
   dashArray: undefined,
 }
 
 // Senatorial provinces: governed by the Senate (lighter, distinct color)
 const SENATORIAL_STYLE: PathOptions = {
-  color: '#d4af37',
-  weight: 1.5,
-  opacity: 0.6,
+  color: '#e0c04a',
+  weight: 2,
+  opacity: 0.85,
   fillColor: '#d4af37',
-  fillOpacity: 0.12,
+  fillOpacity: 0.18,
   pane: 'basePolygons',
   dashArray: '3 3',
 }
@@ -124,7 +124,6 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
         selectedRef.current = null
       } else {
         path.setStyle(SELECTED_STYLE)
-        path.bringToFront()
         selectedRef.current = path
       }
     })
@@ -136,6 +135,7 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
         key={`provinces-${currentYear}`}
         data={filtered}
         pane="basePolygons"
+        bubblingMouseEvents
         style={() => PROVINCE_STYLE}
         onEachFeature={onEachProvince}
       />
@@ -145,6 +145,7 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
           key={`senatorial-${currentYear}`}
           data={senatorialProvinces}
           pane="basePolygons"
+          bubblingMouseEvents
           style={() => SENATORIAL_STYLE}
           onEachFeature={onEachSenatorial}
         />
