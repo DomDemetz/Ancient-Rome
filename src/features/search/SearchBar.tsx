@@ -22,14 +22,13 @@ export function SearchBar() {
       new Fuse(entities, {
         keys: ['name', 'description'],
         threshold: 0.4,
-        limit: MAX_RESULTS,
       }),
     [],
   )
 
   const results: Entity[] = useMemo(() => {
     if (!query.trim()) return []
-    return fuse.search(query).map((r) => r.item)
+    return fuse.search(query, { limit: MAX_RESULTS }).map((r) => r.item)
   }, [fuse, query])
 
   // Close dropdown on outside click

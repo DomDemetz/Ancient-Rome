@@ -11,10 +11,10 @@ export function SourceLinks({ sources }: SourceLinksProps) {
     <div className="space-y-2">
       <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">Sources</p>
       <ul className="space-y-1">
-        {sources.map((src, i) => {
+        {sources.map((src) => {
           const isUrl = src.startsWith('http://') || src.startsWith('https://')
           return (
-            <li key={i}>
+            <li key={src}>
               {isUrl ? (
                 <a
                   href={src}

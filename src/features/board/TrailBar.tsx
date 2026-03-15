@@ -15,7 +15,7 @@ export function TrailBar() {
     <div className="flex items-center gap-1.5 border-t border-border px-4 py-2 shrink-0 overflow-x-auto">
       {visible.map((id, i) => (
         <Badge
-          key={`${id}-${i}`}
+          key={`${id}-${breadcrumbs.length - MAX_VISIBLE + i}`}
           variant="outline"
           className="cursor-pointer hover:bg-muted"
           onClick={() => select(id)}
