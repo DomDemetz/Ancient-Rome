@@ -57,6 +57,7 @@ export function RoadLayer({ data }: RoadLayerProps) {
     <GeoJSON
       key={`dare-roads-${currentYear}`}
       data={filtered}
+      interactive={false}
       style={getStyle}
       onEachFeature={onEachRoad}
     />

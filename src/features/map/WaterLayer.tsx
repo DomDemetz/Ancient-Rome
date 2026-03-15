@@ -39,6 +39,7 @@ export function WaterLayer({ data }: WaterLayerProps) {
     <GeoJSON
       key={data.features.length}
       data={data}
+      interactive={false}
       style={getWaterStyle}
       onEachFeature={onEachWater}
     />

@@ -59,6 +59,7 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
     <GeoJSON
       key={`itinere-roads-${currentYear}`}
       data={filtered}
+      interactive={false}
       style={getStyle}
       onEachFeature={onEachRoad}
     />
