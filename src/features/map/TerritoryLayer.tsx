@@ -1,4 +1,4 @@
-import { GeoJSON, Tooltip } from 'react-leaflet'
+import { GeoJSON, Popup } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { TerritorySnapshot } from '@/types'
 
@@ -60,7 +60,7 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
               pane: 'basePolygons',
             }}
           >
-            {snap.label && <Tooltip sticky>{snap.label}</Tooltip>}
+            {snap.label && <Popup closeButton={false}>{snap.label}</Popup>}
           </GeoJSON>
         )
       })}

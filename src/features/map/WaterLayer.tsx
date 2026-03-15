@@ -30,7 +30,7 @@ function onEachWater(feature: Feature, layer: L.Layer) {
   const modern = feature.properties?.modern
   const label = name && modern && name !== modern ? `${name} (${modern})` : name || modern
   if (label) {
-    ;(layer as L.Path).bindTooltip(label, { sticky: true })
+    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${label}</div>`)
   }
 }
 

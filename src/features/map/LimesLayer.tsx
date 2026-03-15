@@ -19,7 +19,7 @@ const LIMES_STYLE: PathOptions = {
 function onEachLimes(feature: Feature, layer: L.Layer) {
   const sector = feature.properties?.sector
   if (sector) {
-    ;(layer as L.Path).bindTooltip(sector, { sticky: true })
+    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${sector}</div>`)
   }
 }
 

@@ -47,9 +47,19 @@ export function RoadLayer({ data }: RoadLayerProps) {
   )
 
   const onEachRoad = useCallback((feature: Feature, layer: L.Layer) => {
-    const name = feature.properties?.name
-    if (name) {
-      ;(layer as L.Path).bindTooltip(name, { sticky: true })
+    const props = feature.properties || {}
+    if (!props.name && !props.major) return
+    let html = ''
+    if (props.name) html += `<div class="map-tooltip-title">${props.name}</div>`
+    const sub: string[] = []
+    if (props.major) sub.push('Major road')
+    if (props.attestedYear != null) {
+      const y = props.attestedYear as number
+      sub.push(`Attested: ${y < 0 ? `${Math.abs(y)} BC` : `${y} AD`}`)
+    }
+    if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
+    if (html) {
+      ;(layer as L.Path).bindPopup(html)
     }
   }, [])
 
@@ -57,9 +67,9 @@ export function RoadLayer({ data }: RoadLayerProps) {
     <GeoJSON
       key={`dare-roads-${currentYear}`}
       data={filtered}
-      interactive={false}
       style={getStyle}
       onEachFeature={onEachRoad}
+      pane="overlayPane"
     />
   )
 }

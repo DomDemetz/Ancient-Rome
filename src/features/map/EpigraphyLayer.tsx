@@ -1,5 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 
@@ -78,7 +78,7 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
           }}
           bubblingMouseEvents={false}
         >
-          <Tooltip direction="top" offset={[0, -4]}>
+          <Popup offset={[0, -4]} closeButton={false}>
             <span
               dangerouslySetInnerHTML={{
                 __html:
@@ -86,7 +86,7 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
                   `<div class="map-tooltip-detail">${c.count.toLocaleString()} inscriptions · ${formatYear(c.startYear)} \u2013 ${formatYear(c.endYear)}</div>`,
               }}
             />
-          </Tooltip>
+          </Popup>
         </CircleMarker>
       ))}
     </>

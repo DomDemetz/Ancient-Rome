@@ -1,5 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Press } from '@/data/presses'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 
@@ -76,9 +76,9 @@ export function PressesLayer({ data }: PressesLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Tooltip direction="top" offset={[0, -4]}>
+            <Popup offset={[0, -4]} closeButton={false}>
               <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
-            </Tooltip>
+            </Popup>
           </CircleMarker>
         )
       })}

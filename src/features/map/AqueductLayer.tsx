@@ -1,5 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, GeoJSON, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, GeoJSON, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
@@ -25,7 +25,7 @@ function formatYear(year: number): string {
 function onEachAqueductLine(feature: Feature, layer: L.Layer) {
   const name = feature.properties?.name
   if (name) {
-    ;(layer as L.Path).bindTooltip(name, { sticky: true })
+    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${name}</div>`)
   }
 }
 
@@ -137,9 +137,9 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Tooltip direction="top" offset={[0, -4]}>
+            <Popup offset={[0, -4]} closeButton={false}>
               <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
-            </Tooltip>
+            </Popup>
           </CircleMarker>
         )
       })}

@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react'
-import { CircleMarker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { DareSettlement, CityPopulation } from '@/data/dare'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import {
@@ -195,9 +195,9 @@ export function SettlementLayer({
             }}
             bubblingMouseEvents={false}
           >
-            <Tooltip direction="top" offset={[0, -4]}>
+            <Popup offset={[0, -4]} closeButton={false}>
               <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(s, population) }} />
-            </Tooltip>
+            </Popup>
           </CircleMarker>
         )
       })}

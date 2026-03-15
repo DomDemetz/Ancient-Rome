@@ -1,4 +1,4 @@
-import { Polyline, Tooltip } from 'react-leaflet'
+import { Polyline, Popup } from 'react-leaflet'
 
 export interface Route {
   id: string
@@ -35,7 +35,7 @@ export function RouteOverlay({ routes }: RouteOverlayProps) {
               dashArray: isDashed ? '6 4' : undefined,
             }}
           >
-            <Tooltip sticky>{route.name}</Tooltip>
+            <Popup closeButton={false}>{route.name}</Popup>
           </Polyline>
         )
       })}

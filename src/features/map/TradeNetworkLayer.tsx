@@ -1,5 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Polyline, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Polyline, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { TradeNetwork } from '@/data/trade'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 
@@ -134,9 +134,9 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
               dashArray,
             }}
           >
-            <Tooltip sticky>
+            <Popup closeButton={false}>
               {`${siteLookup.get(route.from)?.name || route.from} \u2192 ${siteLookup.get(route.to)?.name || route.to} (${route.transportType}, ${route.distanceKm}km)`}
-            </Tooltip>
+            </Popup>
           </Polyline>
         )
       })}
@@ -164,9 +164,9 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Tooltip direction="top" offset={[0, -4]}>
+            <Popup offset={[0, -4]} closeButton={false}>
               {`${site.name} (${site.siteType.replace('_', ' ')})`}
-            </Tooltip>
+            </Popup>
           </CircleMarker>
         )
       })}

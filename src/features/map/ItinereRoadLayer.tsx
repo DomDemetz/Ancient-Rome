@@ -40,28 +40,36 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
 
   const onEachRoad = useCallback((feature: Feature, layer: L.Layer) => {
     const props = feature.properties || {}
-    const parts: string[] = []
-    if (props.name) parts.push(props.name)
+    if (!props.name) return
+    let html = `<div class="map-tooltip-title">${props.name}</div>`
+    const sub: string[] = []
+    if (props.type) sub.push(props.type)
+    if (props.certainty && props.certainty !== 'certain') sub.push(props.certainty)
+    if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
+    const details: string[] = []
     if (
       props.builder &&
       props.builder !== 'Conjectured' &&
       props.builder !== 'Hypothetical' &&
       props.builder !== 'Certain'
     ) {
-      parts.push(`Built by: ${props.builder}`)
+      details.push(`Built by: ${props.builder}`)
     }
-    if (parts.length > 0) {
-      ;(layer as L.Path).bindTooltip(parts.join('<br>'), { sticky: true })
+    if (props.attestedYear != null) {
+      const y = props.attestedYear as number
+      details.push(`Attested: ${y < 0 ? `${Math.abs(y)} BC` : `${y} AD`}`)
     }
+    if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+    ;(layer as L.Path).bindPopup(html)
   }, [])
 
   return (
     <GeoJSON
       key={`itinere-roads-${currentYear}`}
       data={filtered}
-      interactive={false}
       style={getStyle}
       onEachFeature={onEachRoad}
+      pane="overlayPane"
     />
   )
 }

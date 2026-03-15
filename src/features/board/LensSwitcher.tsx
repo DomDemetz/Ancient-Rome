@@ -3,6 +3,7 @@ import { useUIStore, type Lens } from '@/stores/useUIStore'
 
 const LENSES: { id: Lens; label: string }[] = [
   { id: 'map', label: 'Map' },
+  { id: 'graph', label: 'Graph' },
   { id: 'timeline', label: 'Timeline' },
 ]
 

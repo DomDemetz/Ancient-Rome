@@ -1,5 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Marker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Marker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
@@ -100,9 +100,9 @@ export function BattleLayer({ data }: BattleLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Tooltip direction="top" offset={[0, -4]}>
+            <Popup offset={[0, -4]} closeButton={false}>
               <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(b) }} />
-            </Tooltip>
+            </Popup>
           </CircleMarker>
         )
       })}

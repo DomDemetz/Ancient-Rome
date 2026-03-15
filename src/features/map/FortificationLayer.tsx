@@ -64,7 +64,7 @@ export function FortificationLayer({ data }: FortificationLayerProps) {
   const onEachFortification = useCallback((feature: Feature, layer: L.Layer) => {
     const name = feature.properties?.name
     if (name) {
-      ;(layer as L.Path).bindTooltip(name, { sticky: true })
+      ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${name}</div>`)
     }
   }, [])
 

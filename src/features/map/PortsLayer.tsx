@@ -1,5 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 
 interface Port {
@@ -107,7 +107,7 @@ export function PortsLayer({ data }: PortsLayerProps) {
             pathOptions={{ color: '#1a3a5c', weight: 0.5, fillColor: color, fillOpacity: 0.8 }}
             bubblingMouseEvents={false}
           >
-            <Tooltip direction="top" offset={[0, -4]}>
+            <Popup offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html:
@@ -116,7 +116,7 @@ export function PortsLayer({ data }: PortsLayerProps) {
                     (p.description ? `<div class="map-tooltip-detail">${p.description}</div>` : ''),
                 }}
               />
-            </Tooltip>
+            </Popup>
           </CircleMarker>
         )
       })}

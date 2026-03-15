@@ -39,8 +39,8 @@ export function InvestigationBoard() {
       <TopBar storyMode={storyMode} />
 
       <div className="flex flex-1 overflow-hidden">
-        {/* Left sidebar — filters + path finder */}
-        {sidebarOpen && (
+        {/* Left sidebar — shown only for graph view (filters + path finder) */}
+        {sidebarOpen && lens === 'graph' && (
           <aside className="w-[280px] shrink-0 border-r border-border bg-bg-secondary overflow-y-auto">
             <FilterPanel />
             <div className="border-t border-border" />
