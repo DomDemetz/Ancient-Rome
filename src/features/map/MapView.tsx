@@ -5,6 +5,7 @@ import { territories } from '@/data'
 import { EntityMarkers } from './EntityMarkers'
 import { TerritoryLayer } from './TerritoryLayer'
 import { MapControls } from './MapControls'
+import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 
 const ROME_CENTER: [number, number] = [41.9, 12.5]
 const DEFAULT_ZOOM = 5
@@ -17,24 +18,28 @@ export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
 
   return (
-    <div className="relative w-full h-full" style={{ background: '#0f0a1a' }}>
-      <MapContainer
-        center={ROME_CENTER}
-        zoom={DEFAULT_ZOOM}
-        style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
-        zoomControl={true}
-      >
-        <TileLayer url={DARK_TILE_URL} attribution={DARK_TILE_ATTRIBUTION} />
+    <div className="relative w-full h-full flex flex-col" style={{ background: '#0f0a1a' }}>
+      <div className="flex-1 relative">
+        <MapContainer
+          center={ROME_CENTER}
+          zoom={DEFAULT_ZOOM}
+          style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
+          zoomControl={true}
+        >
+          <TileLayer url={DARK_TILE_URL} attribution={DARK_TILE_ATTRIBUTION} />
 
-        <EntityMarkers />
+          <EntityMarkers />
 
-        {showTerritories && <TerritoryLayer snapshots={territories} />}
-      </MapContainer>
+          {showTerritories && <TerritoryLayer snapshots={territories} />}
+        </MapContainer>
 
-      <MapControls
-        showTerritories={showTerritories}
-        onToggleTerritories={() => setShowTerritories((v) => !v)}
-      />
+        <MapControls
+          showTerritories={showTerritories}
+          onToggleTerritories={() => setShowTerritories((v) => !v)}
+        />
+      </div>
+
+      <TimelinePlayer />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 [
   {
-    "id": "rome-264bc",
+    "id": "rome",
     "year": -264,
     "controlledBy": "roman-senate",
     "status": "controlled",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "id": "rome-117ad",
+    "id": "rome",
     "year": 117,
     "controlledBy": "trajan",
     "status": "controlled",
@@ -60,7 +60,34 @@
     }
   },
   {
-    "id": "eastern-empire-395ad",
+    "id": "rome",
+    "year": 395,
+    "controlledBy": "roman-senate",
+    "status": "controlled",
+    "label": "Western Roman Empire — 395 AD",
+    "boundaries": {
+      "type": "Feature",
+      "properties": { "name": "Western Roman Empire 395 AD" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-10.0, 37.0],
+            [-10.0, 52.0],
+            [2.0, 52.0],
+            [10.0, 48.0],
+            [18.0, 46.0],
+            [15.0, 35.0],
+            [10.0, 32.0],
+            [0.0, 35.0],
+            [-10.0, 37.0]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "eastern-empire",
     "year": 395,
     "controlledBy": "theodosius",
     "status": "controlled",
@@ -88,14 +115,14 @@
     }
   },
   {
-    "id": "western-empire-395ad",
-    "year": 395,
+    "id": "rome",
+    "year": 476,
     "controlledBy": "roman-senate",
-    "status": "controlled",
-    "label": "Western Roman Empire — 395 AD",
+    "status": "lost",
+    "label": "Fall of the Western Roman Empire — 476 AD",
     "boundaries": {
       "type": "Feature",
-      "properties": { "name": "Western Roman Empire 395 AD" },
+      "properties": { "name": "Western Roman Empire 476 AD" },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -115,7 +142,7 @@
     }
   },
   {
-    "id": "eastern-empire-476ad",
+    "id": "eastern-empire",
     "year": 476,
     "controlledBy": "constantinople",
     "status": "controlled",

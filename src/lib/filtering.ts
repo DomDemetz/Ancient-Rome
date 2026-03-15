@@ -46,6 +46,12 @@ function getEntityYearRange(entity: Entity): [number, number] | null {
         return [entity.builtYear, entity.builtYear]
       }
       return null
+    case 'location':
+      if (entity.founded !== undefined) {
+        // Cities persist once founded (no end date)
+        return [entity.founded, Infinity]
+      }
+      return null
     default:
       return null
   }
@@ -76,8 +82,8 @@ export function filterEntities(
       return false
     }
 
-    // Filter by region
-    if (filters.regions.length > 0) {
+    // Filter by region (only applies to locations — non-locations always pass)
+    if (filters.regions.length > 0 && entity.entityType === 'location') {
       const region = getEntityRegion(entity)
       if (!region || !filters.regions.includes(region)) {
         return false

@@ -49,7 +49,7 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
 
         return (
           <GeoJSON
-            key={`${snap.id}-${snap.year}`}
+            key={`${snap.id}-${snap.year}-${currentYear}`}
             data={snap.boundaries}
             style={{
               color,

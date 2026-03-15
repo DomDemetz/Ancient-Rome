@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useUIStore } from '@/stores/useUIStore'
 import { TopBar } from './TopBar'
 import { TrailBar } from './TrailBar'
@@ -12,6 +14,7 @@ import { TimelineView } from '@/features/timeline/TimelineView'
 import { StatsView } from '@/features/stats/StatsView'
 import { useStoryMode } from '@/features/stories/useStoryMode'
 import { NarrationBar } from '@/features/stories/NarrationBar'
+import { stories } from '@/data'
 
 export function InvestigationBoard() {
   useURLSync()
@@ -20,6 +23,16 @@ export function InvestigationBoard() {
   const sidebarOpen = useUIStore((s) => s.sidebarOpen)
 
   const storyMode = useStoryMode()
+  const [searchParams] = useSearchParams()
+
+  // Auto-start story from URL param (e.g., /investigate?story=fall-of-republic)
+  useEffect(() => {
+    const storyId = searchParams.get('story')
+    if (storyId && !storyMode.isActive) {
+      const story = stories.find((s) => s.id === storyId)
+      if (story) storyMode.enter(story)
+    }
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="flex flex-col h-screen">

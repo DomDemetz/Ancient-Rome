@@ -4,9 +4,11 @@ import { useShallow } from 'zustand/shallow'
 import { entities, connections } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 import { filterEntities, filterConnections } from '@/lib/filtering'
 import { entitiesToNodes, connectionsToLinks, getNodeColor } from './graph.utils'
 import { GraphControls } from './GraphControls'
+import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 import type { GraphNode, GraphLink } from '@/types'
 
 export function GraphView() {
@@ -20,12 +22,12 @@ export function GraphView() {
       connectionTypes: s.connectionTypes,
       regions: s.regions,
       yearRange: s.yearRange,
-      searchQuery: s.searchQuery,
     })),
   )
 
   const selectedId = useSelectionStore((s) => s.selectedId)
   const select = useSelectionStore((s) => s.select)
+  const currentYear = useTimelineStore((s) => s.currentYear)
 
   const handleZoomIn = useCallback(() => {
     if (!svgRef.current || !zoomRef.current) return
@@ -64,7 +66,7 @@ export function GraphView() {
     const height = svgEl.clientHeight || 600
 
     // Filter data
-    const filteredEntities = filterEntities(entities, filters)
+    const filteredEntities = filterEntities(entities, filters, currentYear)
     const filteredConnections = filterConnections(
       connections,
       filteredEntities,
@@ -179,9 +181,9 @@ export function GraphView() {
     return () => {
       simulation.stop()
     }
-    // Re-run when filters change (selectedId changes handled separately below)
+    // Re-run when filters or timeline year change (selectedId changes handled separately below)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filters])
+  }, [filters, currentYear])
 
   // Update selected node appearance without rebuilding the whole simulation
   useEffect(() => {
@@ -197,9 +199,12 @@ export function GraphView() {
   }, [selectedId])
 
   return (
-    <div className="relative w-full h-full">
-      <svg ref={svgRef} className="w-full h-full" />
-      <GraphControls onZoomIn={handleZoomIn} onZoomOut={handleZoomOut} onReset={handleReset} />
+    <div className="relative w-full h-full flex flex-col">
+      <div className="relative flex-1">
+        <svg ref={svgRef} className="w-full h-full" />
+        <GraphControls onZoomIn={handleZoomIn} onZoomOut={handleZoomOut} onReset={handleReset} />
+      </div>
+      <TimelinePlayer />
     </div>
   )
 }

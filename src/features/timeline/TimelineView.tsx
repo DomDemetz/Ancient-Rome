@@ -26,7 +26,6 @@ export function TimelineView() {
   const filters = useFilterStore(
     useShallow((s) => ({
       entityTypes: s.entityTypes,
-      connectionTypes: s.connectionTypes,
       regions: s.regions,
       yearRange: s.yearRange,
     })),

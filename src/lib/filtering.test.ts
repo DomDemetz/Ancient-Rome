@@ -100,8 +100,12 @@ describe('filterEntities', () => {
       regions: ['Latium'],
       yearRange: DEFAULT_YEAR_RANGE,
     })
-    expect(result).toHaveLength(1)
-    expect(result[0].id).toBe('rome')
+    // Region filter only applies to locations — non-locations (persons, events) pass through
+    const locationResults = result.filter((e) => e.entityType === 'location')
+    expect(locationResults).toHaveLength(1)
+    expect(locationResults[0].id).toBe('rome')
+    // Non-locations are not filtered by region
+    expect(result.length).toBeGreaterThan(1)
   })
 
   it('excludes entities outside yearRange', () => {

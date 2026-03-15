@@ -4,6 +4,7 @@ import { useShallow } from 'zustand/shallow'
 import { entities } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 import { filterEntities } from '@/lib/filtering'
 import { entityColors } from '@/lib/colors'
 import type { Entity } from '@/types'
@@ -41,13 +42,13 @@ export function EntityMarkers() {
       connectionTypes: s.connectionTypes,
       regions: s.regions,
       yearRange: s.yearRange,
-      searchQuery: s.searchQuery,
     })),
   )
 
   const select = useSelectionStore((s) => s.select)
+  const currentYear = useTimelineStore((s) => s.currentYear)
 
-  const filteredEntities = filterEntities(entities, filters)
+  const filteredEntities = filterEntities(entities, filters, currentYear)
   const locationEntities = filteredEntities.filter(isLocationWithCoords)
 
   return (

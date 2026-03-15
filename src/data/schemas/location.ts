@@ -11,4 +11,5 @@ export const LocationSchema = EntityBaseSchema.extend({
     })
     .optional(),
   province: z.string().optional(),
+  founded: z.number().optional(),
 })
