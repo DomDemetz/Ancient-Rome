@@ -36,10 +36,9 @@ import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 const ROME_CENTER: [number, number] = [41.9, 12.5]
 const DEFAULT_ZOOM = 5
 
-const TERRAIN_TILE_URL =
-  'https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png'
+const TERRAIN_TILE_URL = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
 const BASE_ATTRIBUTION =
-  'Map tiles by <a href="https://stamen.com">Stamen Design</a>, hosted by <a href="https://stadiamaps.com">Stadia Maps</a>, under <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>'
+  'Map data: &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 
 export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
