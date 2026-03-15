@@ -15,7 +15,7 @@ export interface DareSettlement {
 }
 
 export async function loadRoads(): Promise<FeatureCollection> {
-  const data = await import('./roads.json')
+  const data = await import('./roads-temporal.json')
   return data.default as unknown as FeatureCollection
 }
 
