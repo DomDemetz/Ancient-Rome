@@ -10,6 +10,7 @@ interface ProvinceLayerProps {
   data: FeatureCollection
   labels?: ProvinceLabel[]
   changes?: ProvinceChange[]
+  senatorialProvinces?: FeatureCollection | null
 }
 
 const PROVINCE_STYLE: PathOptions = {
@@ -30,16 +31,33 @@ const SELECTED_STYLE: PathOptions = {
   dashArray: undefined,
 }
 
-function createLabelIcon(name: string, isReorganized?: boolean): L.DivIcon {
+// Senatorial provinces: governed by the Senate (lighter, distinct color)
+const SENATORIAL_STYLE: PathOptions = {
+  color: '#d4af37',
+  weight: 1.5,
+  opacity: 0.6,
+  fillColor: '#d4af37',
+  fillOpacity: 0.12,
+  dashArray: '3 3',
+}
+
+function createLabelIcon(name: string): L.DivIcon {
   return L.divIcon({
-    className: isReorganized ? 'province-label province-label--reorganized' : 'province-label',
+    className: 'province-label',
     html: name,
     iconSize: [0, 0],
     iconAnchor: [0, 0],
   })
 }
 
-export function ProvinceLayer({ data, labels, changes }: ProvinceLayerProps) {
+function onEachSenatorial(feature: Feature, layer: L.Layer) {
+  const name = feature.properties?.name
+  if (name) {
+    ;(layer as L.Path).bindTooltip(`${name} (Senatorial)`, { sticky: true })
+  }
+}
+
+export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: ProvinceLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const selectedRef = useRef<L.Path | null>(null)
 
@@ -53,6 +71,9 @@ export function ProvinceLayer({ data, labels, changes }: ProvinceLayerProps) {
     return { ...data, features }
   }, [data, currentYear])
 
+  // Show senatorial provinces only during the Principate (27 BC - 284 AD)
+  const showSenatorial = senatorialProvinces && currentYear >= -27 && currentYear <= 284
+
   // Compute labels including province reorganizations
   const allLabels = useMemo(() => {
     const baseLabels = (labels || []).filter((l) => {
@@ -63,7 +84,6 @@ export function ProvinceLayer({ data, labels, changes }: ProvinceLayerProps) {
 
     if (!changes || changes.length === 0) return baseLabels
 
-    // Find which provinces have been reorganized by the current year
     const reorganized = new Set<string>()
     const extraLabels: ProvinceLabel[] = []
 
@@ -82,9 +102,7 @@ export function ProvinceLayer({ data, labels, changes }: ProvinceLayerProps) {
       }
     }
 
-    // Filter out original labels that have been reorganized
     const filteredBase = baseLabels.filter((l) => !reorganized.has(l.name))
-
     return [...filteredBase, ...extraLabels]
   }, [labels, changes, currentYear])
 
@@ -117,6 +135,15 @@ export function ProvinceLayer({ data, labels, changes }: ProvinceLayerProps) {
         style={() => PROVINCE_STYLE}
         onEachFeature={onEachProvince}
       />
+      {/* Senatorial province overlay (27 BC - 284 AD) */}
+      {showSenatorial && (
+        <GeoJSON
+          key={`senatorial-${currentYear}`}
+          data={senatorialProvinces}
+          style={() => SENATORIAL_STYLE}
+          onEachFeature={onEachSenatorial}
+        />
+      )}
       {allLabels.map((label) => (
         <Marker
           key={`${label.name}-${label.lat}`}

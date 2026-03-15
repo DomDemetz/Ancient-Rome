@@ -3,7 +3,14 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Baetica",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -130,7 +137,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Narbonensis",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -253,7 +267,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Sicilia",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -359,7 +380,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Africa Proconsularis",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -478,7 +506,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Achaia",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -800,7 +835,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Asia",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -1016,7 +1058,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Cyprus",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -1072,7 +1121,14 @@
     },
     {
       "type": "Feature",
-      "properties": { "source": "AWMC", "type": "senatorial" },
+      "properties": {
+        "source": "AWMC",
+        "type": "senatorial",
+        "name": "Creta et Cyrene",
+        "governance": "senatorial",
+        "startYear": -27,
+        "endYear": 284
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

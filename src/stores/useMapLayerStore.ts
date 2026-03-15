@@ -322,7 +322,9 @@ interface MapLayerState {
   minesLoading: boolean
   showAqueducts: boolean
   aqueductsData: Aqueduct[] | null
+  aqueductLinesData: FeatureCollection | null
   aqueductsLoading: boolean
+  senatorialProvincesData: FeatureCollection | null
 
   // Wave 3 layers
   showReligion: boolean
@@ -481,7 +483,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   minesLoading: false,
   showAqueducts: false,
   aqueductsData: null,
+  aqueductLinesData: null,
   aqueductsLoading: false,
+  senatorialProvincesData: null,
   showReligion: false,
   religionData: null,
   religionLoading: false,
@@ -539,12 +543,22 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   toggleProvinces: () =>
     makeToggle('showProvinces', 'provincesData', 'provincesLoading', async () => {
       const { loadProvinces, loadProvinceLabels, loadProvinceChanges } = await import('@/data/dare')
-      const [data, labels, changes] = await Promise.all([
+      const [data, labels, changes, senatorial] = await Promise.all([
         loadProvinces(),
         loadProvinceLabels(),
         loadProvinceChanges().catch(() => []),
+        import('@/data/dare/senatorial-provinces.json')
+          .then((m) => m.default as unknown as FeatureCollection)
+          .catch(() => null),
       ])
-      return { data, extra: { provinceLabels: labels, provinceChanges: changes } }
+      return {
+        data,
+        extra: {
+          provinceLabels: labels,
+          provinceChanges: changes,
+          senatorialProvincesData: senatorial,
+        },
+      }
     })(set, get),
 
   toggleFortifications: () =>
@@ -604,7 +618,13 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   toggleAqueducts: () =>
     makeToggle('showAqueducts', 'aqueductsData', 'aqueductsLoading', async () => {
       const { loadAqueducts } = await import('@/data/aqueducts')
-      return { data: await loadAqueducts() }
+      const [data, lines] = await Promise.all([
+        loadAqueducts(),
+        import('@/data/awmc-aqueducts.json')
+          .then((m) => m.default as unknown as FeatureCollection)
+          .catch(() => null),
+      ])
+      return { data, extra: { aqueductLinesData: lines } }
     })(set, get),
 
   toggleReligion: () =>

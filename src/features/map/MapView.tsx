@@ -96,6 +96,8 @@ export function MapView() {
     shipwrecksData,
     minesData,
     aqueductsData,
+    aqueductLinesData,
+    senatorialProvincesData,
     religionData,
     buildingsData,
     pressesData,
@@ -161,6 +163,7 @@ export function MapView() {
               data={provincesData}
               labels={provinceLabels ?? undefined}
               changes={provinceChanges ?? undefined}
+              senatorialProvinces={senatorialProvincesData}
             />
           )}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
@@ -172,7 +175,9 @@ export function MapView() {
             <FortificationLayer data={fortificationsData} />
           )}
 
-          {showAqueducts && aqueductsData && <AqueductLayer data={aqueductsData} />}
+          {showAqueducts && aqueductsData && (
+            <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
+          )}
           {showMines && minesData && <ResourcesLayer data={minesData} />}
           {showPresses && pressesData && <PressesLayer data={pressesData} />}
           {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
