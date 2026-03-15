@@ -1,5 +1,6 @@
 import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, Marker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 
@@ -27,6 +28,13 @@ function buildTooltip(b: Battle): string {
   return lines.join('\n')
 }
 
+const flashIcon = L.divIcon({
+  className: '',
+  html: '<div class="battle-flash" style="width:12px;height:12px;background:rgba(231,76,60,0.9);border-radius:50%;"></div>',
+  iconSize: [12, 12],
+  iconAnchor: [6, 6],
+})
+
 export function BattleLayer({ data }: BattleLayerProps) {
   const map = useMap()
   const [zoom, setZoom] = useState(map.getZoom())
@@ -45,8 +53,9 @@ export function BattleLayer({ data }: BattleLayerProps) {
 
   const visible = useMemo(() => {
     return data.filter((b) => {
-      // Show battles that occurred at or before the current year
+      // 50-year visibility window
       if (b.year > currentYear) return false
+      if (currentYear - b.year >= 50) return false
 
       // Bounds filtering at zoomed-in levels
       if (zoom >= 7) {
@@ -62,15 +71,19 @@ export function BattleLayer({ data }: BattleLayerProps) {
     })
   }, [data, zoom, bounds, currentYear])
 
+  // Battles in the 5-year flash window get a pulse animation overlay
+  const flashBattles = useMemo(() => {
+    return visible.filter((b) => currentYear - b.year < 5)
+  }, [visible, currentYear])
+
   const baseRadius = zoom >= 7 ? 5 : zoom >= 5 ? 4 : 3
 
   return (
     <>
       {visible.map((b) => {
         const color = OUTCOME_COLORS[b.outcome] || OUTCOME_COLORS.unknown
-        // Recent battles (within 50 years) are brighter
-        const isRecent = currentYear - b.year < 50
-        const opacity = isRecent ? 0.95 : 0.6
+        const age = currentYear - b.year
+        const opacity = age < 10 ? 0.95 : 0.95 - (age - 10) * 0.02
 
         return (
           <CircleMarker
@@ -91,6 +104,14 @@ export function BattleLayer({ data }: BattleLayerProps) {
           </CircleMarker>
         )
       })}
+      {flashBattles.map((b) => (
+        <Marker
+          key={`flash-${b.id}`}
+          position={[b.lat, b.lng]}
+          icon={flashIcon}
+          interactive={false}
+        />
+      ))}
     </>
   )
 }

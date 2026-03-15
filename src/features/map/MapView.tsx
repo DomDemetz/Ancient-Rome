@@ -30,10 +30,12 @@ import { PortsLayer } from './PortsLayer'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './SettlementLegend'
 import { EmperorBanner } from './EmperorBanner'
+import { StatsOverlay } from './StatsOverlay'
 import { StorySelector } from './StorySelector'
 import { StoryPlayer } from './StoryPlayer'
 import type { Story } from './StoryPlayer'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 
 const ROME_CENTER: [number, number] = [41.9, 12.5]
 const DEFAULT_ZOOM = 5
@@ -48,11 +50,19 @@ export function MapView() {
   const [activeStory, setActiveStory] = useState<Story | null>(null)
   const mapRef = useRef<LeafletMap | null>(null)
 
-  // Auto-load emperors banner on first render for a compelling default
-  const { toggleEmperors } = useMapLayerStore()
+  // Smart default: open with Conquest preset at 100 AD with brief autoplay
+  const initRef = useRef(false)
+  const { activatePreset } = useMapLayerStore()
+  const { setYear, play, pause } = useTimelineStore()
   useEffect(() => {
-    // Load emperor data so the banner shows immediately when timeline scrubs
-    toggleEmperors()
+    if (initRef.current) return
+    initRef.current = true
+    // Skip if story param in URL
+    if (new URLSearchParams(window.location.search).has('story')) return
+    activatePreset('conquest')
+    setYear(100)
+    play()
+    setTimeout(() => pause(), 3000)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const store = useMapLayerStore()
@@ -216,6 +226,8 @@ export function MapView() {
         )}
 
         {showEmperors && emperorsData && <EmperorBanner emperors={emperorsData} />}
+
+        <StatsOverlay />
 
         {/* Story system */}
         {!activeStory && <StorySelector onSelect={setActiveStory} />}

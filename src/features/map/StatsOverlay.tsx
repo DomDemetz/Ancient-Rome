@@ -1,0 +1,123 @@
+import { useMemo } from 'react'
+import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapLayerStore } from '@/stores/useMapLayerStore'
+
+function interpolateRomePopulation(
+  populations: { year: number; population: number }[],
+  currentYear: number,
+): number | null {
+  if (populations.length === 0) return null
+
+  const sorted = [...populations].sort((a, b) => a.year - b.year)
+
+  // Before earliest data point
+  if (currentYear <= sorted[0].year) return sorted[0].population
+
+  // After latest data point
+  if (currentYear >= sorted[sorted.length - 1].year) return sorted[sorted.length - 1].population
+
+  // Find bracketing entries
+  let lo = sorted[0]
+  let hi = sorted[sorted.length - 1]
+  for (let i = 0; i < sorted.length - 1; i++) {
+    if (sorted[i].year <= currentYear && sorted[i + 1].year >= currentYear) {
+      lo = sorted[i]
+      hi = sorted[i + 1]
+      break
+    }
+  }
+
+  if (lo.year === hi.year) return lo.population
+
+  const t = (currentYear - lo.year) / (hi.year - lo.year)
+  return Math.round(lo.population + t * (hi.population - lo.population))
+}
+
+function formatPopulation(pop: number): string {
+  if (pop >= 1_000_000) {
+    const millions = pop / 1_000_000
+    // Show 1 decimal place, strip trailing zero only if clean (e.g. 1.0M → 1M)
+    const formatted = millions % 1 === 0 ? millions.toFixed(0) : millions.toFixed(1)
+    return `${formatted}M`
+  }
+  return pop.toLocaleString()
+}
+
+function formatCount(n: number): string {
+  return n.toLocaleString()
+}
+
+export function StatsOverlay() {
+  const currentYear = useTimelineStore((s) => s.currentYear)
+
+  const showBattles = useMapLayerStore((s) => s.showBattles)
+  const battlesData = useMapLayerStore((s) => s.battlesData)
+  const showLegions = useMapLayerStore((s) => s.showLegions)
+  const legionsData = useMapLayerStore((s) => s.legionsData)
+  const showShipwrecks = useMapLayerStore((s) => s.showShipwrecks)
+  const shipwrecksData = useMapLayerStore((s) => s.shipwrecksData)
+  const showSettlements = useMapLayerStore((s) => s.showSettlements)
+  const cityPopulationsData = useMapLayerStore((s) => s.cityPopulationsData)
+
+  const battleCount = useMemo(() => {
+    if (!showBattles || !battlesData) return null
+    return battlesData.filter((b) => b.year <= currentYear && currentYear - b.year < 50).length
+  }, [showBattles, battlesData, currentYear])
+
+  const legionCount = useMemo(() => {
+    if (!showLegions || !legionsData) return null
+    return legionsData.filter((l) => {
+      if (l.founded > currentYear) return false
+      if (l.dissolved != null && l.dissolved < currentYear) return false
+      return l.bases.some((b) => b.fromYear <= currentYear && b.toYear >= currentYear)
+    }).length
+  }, [showLegions, legionsData, currentYear])
+
+  const shipwreckCount = useMemo(() => {
+    if (!showShipwrecks || !shipwrecksData) return null
+    return shipwrecksData.filter((w) => w.startYear <= currentYear && w.endYear >= currentYear)
+      .length
+  }, [showShipwrecks, shipwrecksData, currentYear])
+
+  const romePopulation = useMemo(() => {
+    if (!showSettlements || !cityPopulationsData) return null
+    const rome = cityPopulationsData.find(
+      (c) =>
+        c.name.toLowerCase() === 'rome' || c.latinVariants.some((v) => v.toLowerCase() === 'roma'),
+    )
+    if (!rome) return null
+    return interpolateRomePopulation(rome.populations, currentYear)
+  }, [showSettlements, cityPopulationsData, currentYear])
+
+  const stats: { icon: string; label: string; value: string }[] = []
+
+  if (battleCount !== null) {
+    stats.push({ icon: '⚔', label: 'battles', value: formatCount(battleCount) })
+  }
+  if (legionCount !== null) {
+    stats.push({ icon: '🦅', label: 'legions', value: formatCount(legionCount) })
+  }
+  if (shipwreckCount !== null) {
+    stats.push({ icon: '⚓', label: 'wrecks', value: formatCount(shipwreckCount) })
+  }
+  if (romePopulation !== null) {
+    stats.push({ icon: '🏛', label: 'Rome', value: formatPopulation(romePopulation) })
+  }
+
+  if (stats.length === 0) return null
+
+  return (
+    <div className="absolute bottom-14 left-3 z-[1000] pointer-events-none">
+      <div className="bg-[#0f0a1a]/85 backdrop-blur-sm border border-white/10 rounded-md px-3 py-1.5 text-xs text-white/80 tabular-nums flex items-center gap-2 whitespace-nowrap">
+        {stats.map((s, i) => (
+          <span key={s.label} className="flex items-center gap-1">
+            {i > 0 && <span className="text-white/30 mx-1">·</span>}
+            <span>{s.icon}</span>
+            <span className="font-semibold text-white">{s.value}</span>
+            <span className="text-white/60">{s.label}</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  )
+}

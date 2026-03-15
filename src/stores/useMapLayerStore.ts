@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { FeatureCollection } from 'geojson'
 import type { DareSettlement, ProvinceLabel, CityPopulation, ProvinceChange } from '@/data/dare'
 import type { PresenceGrid } from '@/features/map/PresenceLayer'
@@ -23,12 +24,14 @@ export interface PresetDef {
   label: string
   description: string
   layers: string[]
+  timelineYear?: number
 }
 
 export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
   conquest: {
     label: 'The Conquest',
     description: 'Watch Rome conquer the Mediterranean',
+    timelineYear: -200,
     layers: [
       'showTerritories',
       'showBattles',
@@ -41,6 +44,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
   economy: {
     label: 'The Economy',
     description: 'The commercial engine of empire',
+    timelineYear: 100,
     layers: [
       'showRoads',
       'showItinereRoads',
@@ -55,15 +59,18 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
   gods: {
     label: 'Gods & Temples',
     description: 'From Jupiter to Christ — religious transformation',
+    timelineYear: 200,
     layers: ['showReligion', 'showBuildings', 'showSettlements', 'showProvinces', 'showEpigraphy'],
   },
   riseAndFall: {
     label: 'Rise & Fall',
     description: 'The full puzzle assembled — scrub 753 BC to 476 AD',
+    timelineYear: -753,
     layers: [
       'showTerritories',
       'showBattles',
       'showLegions',
+      'showEmperors',
       'showRoads',
       'showSettlements',
       'showProvinces',
@@ -77,6 +84,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
   engineering: {
     label: 'Engineering Marvel',
     description: 'How Romans built a civilization',
+    timelineYear: 100,
     layers: [
       'showRoads',
       'showItinereRoads',
@@ -256,6 +264,7 @@ const ALL_LAYER_KEYS = [
   'showItinereRoads',
   'showBattles',
   'showAmphitheaters',
+  'showEmperors',
   'showLegions',
   'showShipwrecks',
   'showMines',
@@ -692,6 +701,11 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     const def = PRESETS[preset]
     if (!def) return
 
+    // Jump timeline to the preset's most interesting year
+    if (def.timelineYear != null) {
+      useTimelineStore.getState().setYear(def.timelineYear)
+    }
+
     // Turn off all layers, then turn on preset layers
     const update: Record<string, unknown> = { activePreset: preset }
     for (const key of ALL_LAYER_KEYS) {
@@ -802,6 +816,15 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
           set({ amphitheatersLoading: true })
           const { loadAmphitheaters } = await import('@/data/amphitheaters')
           set({ amphitheatersData: await loadAmphitheaters(), amphitheatersLoading: false })
+        },
+      },
+      showEmperors: {
+        dataKey: 'emperorsData',
+        loadingKey: 'emperorsLoading',
+        load: async () => {
+          set({ emperorsLoading: true })
+          const { loadEmperors } = await import('@/data/emperors')
+          set({ emperorsData: await loadEmperors(), emperorsLoading: false })
         },
       },
       showLegions: {
