@@ -6,6 +6,8 @@ export interface TradeNode {
   siteType: string
   province: string
   modern: string
+  territoryYear?: number | null
+  declineYear?: number | null
 }
 
 export interface TradeRoute {
@@ -15,6 +17,8 @@ export interface TradeRoute {
   transportType: 'road' | 'sea' | 'river'
   distanceKm: number
   coordinates: [number, number][]
+  territoryYear?: number | null
+  declineYear?: number | null
 }
 
 export interface TradeNetwork {
@@ -23,6 +27,6 @@ export interface TradeNetwork {
 }
 
 export async function loadTradeNetwork(): Promise<TradeNetwork> {
-  const data = await import('./orbis.json')
+  const data = await import('./orbis-temporal.json')
   return data.default as unknown as TradeNetwork
 }

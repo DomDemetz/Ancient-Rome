@@ -12,6 +12,8 @@ interface ViciSite {
   startYear: number
   endYear: number
   source: string
+  territoryYear?: number | null
+  declineYear?: number | null
 }
 
 interface ViciLayerProps {
@@ -89,6 +91,11 @@ export function ViciLayer({ data }: ViciLayerProps) {
       // Timeline filtering
       if (s.startYear !== 0 && s.startYear > currentYear) return false
       if (s.endYear !== 0 && s.endYear < currentYear) return false
+      // Territory-correlated undated sites
+      if (s.startYear === 0 && s.territoryYear != null) {
+        if (currentYear < s.territoryYear + 20) return false
+        if (s.declineYear != null && currentYear > s.declineYear + 50) return false
+      }
 
       // Type filtering by zoom
       if (zoom < 9 && !LOW_ZOOM_TYPES.has(s.siteType)) return false

@@ -629,7 +629,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       const { loadAqueducts } = await import('@/data/aqueducts')
       const [data, lines] = await Promise.all([
         loadAqueducts(),
-        import('@/data/awmc-aqueducts.json')
+        import('@/data/awmc-aqueducts-temporal.json')
           .then((m) => m.default as unknown as FeatureCollection)
           .catch(() => null),
       ])

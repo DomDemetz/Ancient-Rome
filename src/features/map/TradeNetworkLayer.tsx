@@ -1,6 +1,7 @@
 import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Polyline, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import type { TradeNetwork } from '@/data/trade'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 
 interface TradeNetworkLayerProps {
   data: TradeNetwork
@@ -19,10 +20,38 @@ const SITE_COLORS: Record<string, string> = {
   junction: '#95a5a6',
 }
 
+function shouldShowTemporal(
+  territoryYear: number | null | undefined,
+  declineYear: number | null | undefined,
+  currentYear: number,
+): boolean {
+  if (territoryYear == null) return true
+  if (currentYear < territoryYear + 20) return false
+  if (declineYear != null && currentYear > declineYear + 50) return false
+  return true
+}
+
+function getTemporalOpacity(
+  territoryYear: number | null | undefined,
+  declineYear: number | null | undefined,
+  currentYear: number,
+  baseOpacity: number,
+): number {
+  const visYear = (territoryYear ?? 0) + 20
+  const fadeIn = Math.min(1, Math.max(0, (currentYear - visYear) / 30))
+  let opacity = baseOpacity * fadeIn
+  if (declineYear != null && currentYear > declineYear) {
+    const decay = Math.min(1, (currentYear - declineYear) / 50)
+    opacity *= 1 - decay
+  }
+  return opacity
+}
+
 export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
   const map = useMap()
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
+  const currentYear = useTimelineStore((s) => s.currentYear)
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -48,8 +77,9 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
     if (zoom < 4) return []
     return data.routes.filter((r) => {
       if (!r.coordinates || r.coordinates.length < 2) return false
+      // Temporal filtering
+      if (!shouldShowTemporal(r.territoryYear, r.declineYear, currentYear)) return false
       if (zoom >= 7) {
-        // Check if any coordinate is in bounds
         return r.coordinates.some(
           (c) =>
             c[1] >= bounds.getSouth() &&
@@ -60,12 +90,14 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
       }
       return true
     })
-  }, [data.routes, zoom, bounds])
+  }, [data.routes, zoom, bounds, currentYear])
 
   // Filter visible sites
   const visibleSites = useMemo(() => {
     if (zoom < 4) return []
     return data.sites.filter((s) => {
+      // Temporal filtering
+      if (!shouldShowTemporal(s.territoryYear, s.declineYear, currentYear)) return false
       // At low zoom, only show major sites
       if (zoom < 6 && s.siteType !== 'major_port' && s.siteType !== 'city') return false
       if (zoom >= 7) {
@@ -78,7 +110,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
       }
       return true
     })
-  }, [data.sites, zoom, bounds])
+  }, [data.sites, zoom, bounds, currentYear])
 
   const routeWeight = zoom >= 7 ? 2.5 : zoom >= 5 ? 2 : 1.5
   const siteRadius = zoom >= 7 ? 5 : zoom >= 5 ? 4 : 3
@@ -98,7 +130,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
             pathOptions={{
               color,
               weight: routeWeight,
-              opacity: 0.6,
+              opacity: getTemporalOpacity(route.territoryYear, route.declineYear, currentYear, 0.6),
               dashArray,
             }}
           >
@@ -123,7 +155,12 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
               color: '#2c3e50',
               weight: 1,
               fillColor: color,
-              fillOpacity: 0.9,
+              fillOpacity: getTemporalOpacity(
+                site.territoryYear,
+                site.declineYear,
+                currentYear,
+                0.9,
+              ),
             }}
             bubblingMouseEvents={false}
           >

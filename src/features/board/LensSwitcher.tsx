@@ -2,10 +2,8 @@ import { Button } from '@/ui/button'
 import { useUIStore, type Lens } from '@/stores/useUIStore'
 
 const LENSES: { id: Lens; label: string }[] = [
-  { id: 'graph', label: 'Graph' },
   { id: 'map', label: 'Map' },
   { id: 'timeline', label: 'Timeline' },
-  { id: 'stats', label: 'Stats' },
 ]
 
 export function LensSwitcher() {

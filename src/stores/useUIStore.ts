@@ -17,7 +17,7 @@ interface UIActions {
 }
 
 const initialState: UIState = {
-  lens: 'graph',
+  lens: 'map',
   detailPanelOpen: false,
   sidebarOpen: true,
   isMobile: false,

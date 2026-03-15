@@ -45,6 +45,45 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
     moveend: updateView,
   })
 
+  // Filter AWMC aqueduct lines by temporal data
+  const filteredLines = useMemo(() => {
+    if (!lines) return { type: 'FeatureCollection' as const, features: [] }
+    const features = lines.features.filter((f) => {
+      const props = f.properties || {}
+      // Use constructionYear from name-matching if available
+      const constructionYear = props.constructionYear as number | null
+      if (constructionYear != null) {
+        return currentYear >= constructionYear
+      }
+      // Fall back to territory correlation
+      const territoryYear = props.territoryYear as number | null
+      if (territoryYear == null) return false
+      if (currentYear < territoryYear + 20) return false
+      const declineYear = props.declineYear as number | null
+      if (declineYear != null && currentYear > declineYear + 50) return false
+      return true
+    })
+    return { ...lines, features }
+  }, [lines, currentYear])
+
+  const getLineStyle = useCallback(
+    (feature: Feature | undefined): PathOptions => {
+      const props = feature?.properties || {}
+      const territoryYear = props.territoryYear as number | null
+      const constructionYear = props.constructionYear as number | null
+      const visYear = constructionYear ?? (territoryYear ?? 0) + 20
+      const fadeIn = Math.min(1, Math.max(0, (currentYear - visYear) / 30))
+      let opacity = 0.7 * fadeIn
+      const declineYear = props.declineYear as number | null
+      if (declineYear != null && currentYear > declineYear) {
+        const decay = Math.min(1, (currentYear - declineYear) / 50)
+        opacity *= 1 - decay
+      }
+      return { ...LINE_STYLE, opacity }
+    },
+    [currentYear],
+  )
+
   const visible = useMemo(() => {
     return data.filter((a) => {
       if (a.constructionYear > currentYear) return false
@@ -65,12 +104,12 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
 
   return (
     <>
-      {/* Render AWMC aqueduct polylines when available */}
+      {/* Render AWMC aqueduct polylines when available — filtered by timeline */}
       {lines && zoom >= 6 && (
         <GeoJSON
-          key={`aqueduct-lines-${lines.features.length}`}
-          data={lines}
-          style={() => LINE_STYLE}
+          key={`aqueduct-lines-${currentYear}`}
+          data={filteredLines}
+          style={getLineStyle}
           onEachFeature={onEachAqueductLine}
         />
       )}

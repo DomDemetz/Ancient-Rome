@@ -147,6 +147,11 @@ export function SettlementLayer({
       // Timeline filtering
       if (s.startYear !== 0 && s.startYear > currentYear) return false
       if (s.endYear !== 0 && s.endYear < currentYear) return false
+      // Territory-correlated undated settlements: visible 20 years after territory control
+      if (s.startYear === 0 && s.territoryYear != null) {
+        if (currentYear < s.territoryYear + 20) return false
+        if (s.declineYear != null && currentYear > s.declineYear + 50) return false
+      }
 
       // Type-aware zoom filtering
       const threshold = getZoomThreshold(s.type, s.major)

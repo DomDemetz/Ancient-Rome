@@ -12,6 +12,8 @@ export interface DareSettlement {
   type: number
   startYear: number
   endYear: number
+  territoryYear?: number | null
+  declineYear?: number | null
 }
 
 export async function loadRoads(): Promise<FeatureCollection> {
@@ -40,7 +42,7 @@ export async function loadProvinces(): Promise<FeatureCollection> {
 }
 
 export async function loadFortifications(): Promise<FeatureCollection> {
-  const data = await import('./fortifications.json')
+  const data = await import('./fortifications-temporal.json')
   return data.default as unknown as FeatureCollection
 }
 
