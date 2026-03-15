@@ -93,6 +93,8 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
     showPresses,
     showTradeNetwork,
     showEpigraphy,
+    showVici,
+    showPorts,
     roadsLoading,
     settlementsLoading,
     limesLoading,
@@ -113,6 +115,8 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
     pressesLoading,
     tradeNetworkLoading,
     epigraphyLoading,
+    viciLoading,
+    portsLoading,
     settlementsData,
     settlementTypes,
     activePreset,
@@ -136,6 +140,8 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
     togglePresses,
     toggleTradeNetwork,
     toggleEpigraphy,
+    toggleVici,
+    togglePorts,
     toggleSettlementType,
     activatePreset,
   } = store
@@ -183,6 +189,8 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
       toggle: toggleTradeNetwork,
     },
     Epigraphy: { active: showEpigraphy, loading: epigraphyLoading, toggle: toggleEpigraphy },
+    Vici: { active: showVici, loading: viciLoading, toggle: toggleVici },
+    Ports: { active: showPorts, loading: portsLoading, toggle: togglePorts },
   }
 
   const typeCounts = useMemo(() => {

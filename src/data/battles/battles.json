@@ -84,6 +84,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-fidenae",
+    "name": "Battle of Fidenae",
+    "year": -426,
+    "lat": 41.96,
+    "lng": 12.51,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Veii and Fidenae",
+    "commander": "Mamercus Aemilius Mamercinus",
+    "description": "Battle of Fidenae (426 BC). Romans destroy the rebellious colony allied with Veii.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Veii",
     "year": -396,
     "lat": 42.0239,
@@ -168,6 +180,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-imbrinium",
+    "name": "Battle of Imbrinium",
+    "year": -325,
+    "lat": 41.5,
+    "lng": 14.2,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Samnites",
+    "commander": "Decimus Junius Brutus Scaeva",
+    "description": "Battle of Imbrinium (325 BC). Roman victory in the Second Samnite War.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of the Caudine Forks",
     "year": -321,
     "lat": 41.0611,
@@ -190,6 +214,42 @@
     "commander": "Fabius Maximus Rullianus",
     "description": "Battle of Lautulae (316 BC) near near Terracina, Italy",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-tarracina",
+    "name": "Battle of Tarracina",
+    "year": -315,
+    "lat": 41.29,
+    "lng": 13.25,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Samnites",
+    "commander": "Gaius Junius Bubulcus Brutus",
+    "description": "Battle of Tarracina (315 BC). Samnite victory during the Second Samnite War.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-ciuna",
+    "name": "Battle of Ciuna",
+    "year": -311,
+    "lat": 41.3,
+    "lng": 14.4,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Samnites",
+    "commander": "Gaius Junius Bubulcus Brutus",
+    "description": "Battle of Ciuna (311 BC). Roman recovery after Samnite resurgence.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-longula",
+    "name": "Battle of Longula",
+    "year": -309,
+    "lat": 41.45,
+    "lng": 14.35,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Samnites",
+    "commander": "Lucius Papirius Cursor",
+    "description": "Battle of Longula (309 BC). Papirius Cursor wins a decisive engagement in Samnium.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-bovianum",
@@ -264,6 +324,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-the-vadimonian-lake",
+    "name": "Battle of the Vadimonian Lake",
+    "year": -283,
+    "lat": 42.65,
+    "lng": 12.1,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Etruscans and Gauls",
+    "commander": "Publius Cornelius Dolabella",
+    "description": "Battle of Lake Vadimo (283 BC). Decisive Roman victory breaking the Etruscan-Gallic alliance forever.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-populonia",
     "name": "Battle of Populonia",
     "year": -282,
@@ -298,6 +370,18 @@
     "description": "Battle of Asculum (279 BC). Another Pyrrhic victory for Pyrrhus against Rome.",
     "id": "battle-of-asculum",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-ausculum",
+    "name": "Battle of Ausculum",
+    "year": -279,
+    "lat": 41.22,
+    "lng": 15.56,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Epirus",
+    "commander": "Publius Decius Mus",
+    "description": "Battle of Ausculum (279 BC). Second costly Pyrrhic victory, draining Pyrrhus of his best troops.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Beneventum",
@@ -346,6 +430,18 @@
     "description": "Battle of Mylae (260 BC). First major Roman naval victory using the corvus boarding device.",
     "id": "battle-of-mylae",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-thermae",
+    "name": "Battle of Thermae",
+    "year": -260,
+    "lat": 37.97,
+    "lng": 13.7,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Hamilcar",
+    "description": "Battle of Thermae (260 BC). Carthaginian victory early in the First Punic War in Sicily.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-sulci",
@@ -408,6 +504,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-cape-hermaeum",
+    "name": "Battle of Cape Hermaeum",
+    "year": -255,
+    "lat": 36.87,
+    "lng": 11.04,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs storms and Carthage",
+    "commander": "Roman fleet commanders",
+    "description": "Battle of Cape Hermaeum (255 BC). Roman fleet lost in a storm after evacuating Africa, devastating losses.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-panormus",
     "name": "Battle of Panormus",
     "year": -251,
@@ -418,6 +526,18 @@
     "commander": "Lucius Caecilius Metellus",
     "description": "Battle of Panormus (251 BC) near Panormus (present-day Palermo)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-lilybaeum-siege",
+    "name": "Siege of Lilybaeum",
+    "year": -250,
+    "lat": 37.8,
+    "lng": 12.43,
+    "outcome": "draw",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Gaius Atilius Regulus",
+    "description": "Siege of Lilybaeum (250 BC). Prolonged Roman siege of the major Carthaginian base in western Sicily.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Drepana",
@@ -528,6 +648,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-lilybaeum-naval",
+    "name": "Battle of Lilybaeum (Naval)",
+    "year": -218,
+    "lat": 37.82,
+    "lng": 12.43,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Roman naval commander",
+    "description": "Battle of Lilybaeum naval (218 BC). Minor Roman naval victory at the start of the Second Punic War.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-ebro-river",
     "name": "Battle of Ebro River",
     "year": -217,
@@ -600,6 +732,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-dertosa",
+    "name": "Battle of Dertosa",
+    "year": -215,
+    "lat": 40.81,
+    "lng": 0.52,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Gnaeus Cornelius Scipio Calvus",
+    "description": "Battle of Dertosa (215 BC). Roman victory preventing Carthaginian reinforcements from reaching Hannibal.",
+    "source": "expansion"
+  },
+  {
     "id": "third-battle-of-nola",
     "name": "Third Battle of Nola",
     "year": -214,
@@ -646,6 +790,18 @@
     "commander": "Hannibal",
     "description": "Battle of Herdonia (212 BC) near Herdonia (modern Ordona, Foggia), present-day Italy",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "siege-of-syracuse",
+    "name": "Siege of Syracuse",
+    "year": -212,
+    "lat": 37.07,
+    "lng": 15.29,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Syracuse",
+    "commander": "Marcus Claudius Marcellus",
+    "description": "Siege of Syracuse (212 BC). Romans capture Syracuse despite Archimedes' inventions; Marcellus kills Archimedes.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-the-upper-baetis",
@@ -732,6 +888,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-new-carthage",
+    "name": "Battle of New Carthage",
+    "year": -209,
+    "lat": 37.6,
+    "lng": -0.98,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Scipio Africanus",
+    "description": "Battle of New Carthage (209 BC). Scipio's bold surprise attack captures the main Carthaginian base in Iberia.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-baecula",
     "name": "Battle of Baecula",
     "year": -208,
@@ -816,6 +984,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-the-great-plains",
+    "name": "Battle of the Great Plains",
+    "year": -203,
+    "lat": 36.5,
+    "lng": 9.2,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Scipio Africanus",
+    "description": "Battle of the Great Plains (203 BC). Scipio destroys Carthaginian and Numidian forces, forcing Hannibal's recall.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Zama",
     "year": -202,
     "lat": 36.115,
@@ -850,6 +1030,18 @@
     "commander": "Unknown",
     "description": "Battle of the Aous (198 BC)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-ottolobus",
+    "name": "Battle of Ottolobus",
+    "year": -198,
+    "lat": 40.7,
+    "lng": 22.6,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Macedon",
+    "commander": "Titus Quinctius Flamininus",
+    "description": "Battle of Ottolobus (198 BC). Roman victory in a skirmish during the Second Macedonian War.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Cynoscephalae",
@@ -972,6 +1164,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-callinicus",
+    "name": "Battle of Callinicus",
+    "year": -171,
+    "lat": 39.63,
+    "lng": 22.42,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Macedon",
+    "commander": "Publius Licinius Crassus",
+    "description": "Battle of Callinicus (171 BC). Perseus of Macedon defeats Rome in an early engagement of the Third Macedonian War.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Pydna",
     "year": -168,
     "lat": 40.3653,
@@ -984,6 +1188,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-cauca",
+    "name": "Battle of Cauca",
+    "year": -151,
+    "lat": 41.2,
+    "lng": -4.5,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Vaccaei",
+    "commander": "Lucius Licinius Lucullus",
+    "description": "Battle of Cauca (151 BC). Roman treacherous massacre of Vaccaean surrenderers in central Spain.",
+    "source": "expansion"
+  },
+  {
     "id": "second-battle-of-pydna",
     "name": "Second battle of Pydna",
     "year": -148,
@@ -994,6 +1210,18 @@
     "commander": "Quintus Caecilius Metellus",
     "description": "Second battle of Pydna (148 BC) near Near ancient Pydna",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-nepheris",
+    "name": "Battle of Nepheris",
+    "year": -147,
+    "lat": 36.72,
+    "lng": 10.32,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Carthage",
+    "commander": "Scipio Aemilianus",
+    "description": "Battle of Nepheris (147 BC). Roman victory near Carthage clearing the way for the final siege.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Carthage",
@@ -1020,6 +1248,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-pallantia",
+    "name": "Battle of Pallantia",
+    "year": -136,
+    "lat": 41.95,
+    "lng": -4.53,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Vaccaei",
+    "commander": "Marcus Aemilius Lepidus",
+    "description": "Battle of Pallantia (136 BC). Roman defeat during the Numantine War in central Spain.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Numantia",
     "year": -133,
     "lat": 41.8083,
@@ -1030,6 +1270,18 @@
     "description": "Siege of Numantia (133 BC). Scipio destroys the defiant Celtiberian stronghold.",
     "id": "battle-of-numantia",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-castrum-album",
+    "name": "Battle of Castrum Album",
+    "year": -131,
+    "lat": 38.5,
+    "lng": -8.2,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Lusitanians",
+    "commander": "Quintus Fabius Maximus Servilianus",
+    "description": "Battle of Castrum Album (141 BC). Viriathus defeats the Romans during the Lusitanian War.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-noreia",
@@ -1044,6 +1296,30 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-suthul",
+    "name": "Battle of Suthul",
+    "year": -110,
+    "lat": 36.5,
+    "lng": 5.7,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Numidia",
+    "commander": "Aulus Postumius Albinus",
+    "description": "Battle of Suthul (110 BC). Humiliating Roman defeat by Jugurtha, Roman army forced under the yoke.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-the-muthul",
+    "name": "Battle of the Muthul",
+    "year": -108,
+    "lat": 36.35,
+    "lng": 8.3,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Numidia",
+    "commander": "Quintus Caecilius Metellus",
+    "description": "Battle of the Muthul (108 BC). Hard-fought Roman victory against Jugurtha in the Numidian campaign.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-near-burdigala",
     "name": "Battle near Burdigala",
     "year": -107,
@@ -1054,6 +1330,18 @@
     "commander": "Unknown",
     "description": "Battle near Burdigala (107 BC)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-thala",
+    "name": "Battle of Thala",
+    "year": -107,
+    "lat": 35.57,
+    "lng": 8.67,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Numidia",
+    "commander": "Quintus Caecilius Metellus",
+    "description": "Battle of Thala (107 BC). Roman capture of a key Numidian stronghold during the Jugurthine War.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Arausio",
@@ -1080,6 +1368,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-tridentum",
+    "name": "Battle of Tridentum",
+    "year": -102,
+    "lat": 46.07,
+    "lng": 11.12,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Cimbri",
+    "commander": "Quintus Lutatius Catulus",
+    "description": "Battle of Tridentum (102 BC). Catulus fails to hold the Brenner Pass against the Cimbri invasion.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Vercellae",
     "year": -101,
     "lat": 45.3167,
@@ -1090,6 +1390,30 @@
     "description": "Battle of Vercellae (101 BC). Marius destroys the Cimbri, ending the Germanic threat.",
     "id": "battle-of-vercellae",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-the-tolenus",
+    "name": "Battle of the Tolenus",
+    "year": -90,
+    "lat": 42.1,
+    "lng": 13,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Marsi",
+    "commander": "Lucius Julius Caesar",
+    "description": "Battle of the Tolenus (90 BC). Marsic rebels ambush and defeat a Roman force near the Tolenus River.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-acerrae",
+    "name": "Battle of Acerrae",
+    "year": -90,
+    "lat": 40.95,
+    "lng": 14.37,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Samnite Rebels",
+    "commander": "Gaius Papius Mutilus",
+    "description": "Battle of Acerrae (90 BC). Italian rebels capture the town in a setback for Rome during the Social War.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-fucine-lake",
@@ -1104,6 +1428,42 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-asculum-social",
+    "name": "Battle of Asculum (Social War)",
+    "year": -89,
+    "lat": 42.85,
+    "lng": 13.58,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Italian Allies",
+    "commander": "Gnaeus Pompeius Strabo",
+    "description": "Battle of Asculum (89 BC). Key Roman victory in the Social War, breaking Italian resistance in the north.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-nola-social",
+    "name": "Battle of Nola (Social War)",
+    "year": -89,
+    "lat": 40.93,
+    "lng": 14.53,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Italian Allies",
+    "commander": "Lucius Cornelius Sulla",
+    "description": "Battle of Nola (89 BC). Sulla wins a decisive battle against the rebel Italians in Campania.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-amnias",
+    "name": "Battle of Amnias",
+    "year": -89,
+    "lat": 41.6,
+    "lng": 34,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Pontus",
+    "commander": "Manius Aquillius",
+    "description": "Battle of Amnias (89 BC). Mithridates VI defeats the Roman-allied forces, launching the First Mithridatic War.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Chaeronea",
     "year": -86,
     "lat": 38.5167,
@@ -1114,6 +1474,18 @@
     "description": "Battle of Chaeronea (86 BC). Sulla crushes Pontic forces in Greece.",
     "id": "battle-of-chaeronea",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "siege-of-athens",
+    "name": "Siege of Athens",
+    "year": -86,
+    "lat": 37.97,
+    "lng": 23.72,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Pontus/Athens",
+    "commander": "Lucius Cornelius Sulla",
+    "description": "Siege of Athens (86 BC). Sulla storms Athens and sacks the city, punishing it for supporting Mithridates.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Orchomenus",
@@ -1152,6 +1524,42 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-lauron",
+    "name": "Battle of Lauron",
+    "year": -76,
+    "lat": 39.03,
+    "lng": -0.21,
+    "outcome": "defeat",
+    "combatants": "Roman Republic (Optimates) vs Sertorians",
+    "commander": "Pompey",
+    "description": "Battle of Lauron (76 BC). Sertorius outmaneuvers and defeats Pompey in Spain.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-sucro",
+    "name": "Battle of Sucro",
+    "year": -75,
+    "lat": 39.16,
+    "lng": -0.34,
+    "outcome": "draw",
+    "combatants": "Roman Republic (Optimates) vs Sertorians",
+    "commander": "Pompey",
+    "description": "Battle of Sucro (75 BC). Indecisive battle between Pompey and Sertorius along the Jucar River.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-the-saguntum",
+    "name": "Battle of Saguntum",
+    "year": -75,
+    "lat": 39.68,
+    "lng": -0.27,
+    "outcome": "draw",
+    "combatants": "Roman Republic vs Sertorians",
+    "commander": "Pompey and Metellus Pius",
+    "description": "Battle of Saguntum (75 BC). Indecisive combined engagement in the Sertorian War.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-cyzicus",
     "name": "Battle of Cyzicus",
     "year": -73,
@@ -1162,6 +1570,18 @@
     "commander": "Lucullus",
     "description": "Battle of Cyzicus (73 BC) near Cyzicus (modern Turkey)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-mount-vesuvius-spartacus",
+    "name": "Battle of Mount Vesuvius (Spartacus)",
+    "year": -73,
+    "lat": 40.82,
+    "lng": 14.43,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Slave Revolt",
+    "commander": "Gaius Claudius Glaber",
+    "description": "Battle of Mount Vesuvius (73 BC). Spartacus defeats a Roman force by rappelling down the volcano with vines.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-mutina-i",
@@ -1176,6 +1596,30 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-cabira",
+    "name": "Battle of Cabira",
+    "year": -72,
+    "lat": 40.35,
+    "lng": 36.55,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Pontus",
+    "commander": "Lucius Licinius Lucullus",
+    "description": "Battle of Cabira (72 BC). Lucullus defeats Mithridates, forcing the Pontic king to flee to Armenia.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-picenum",
+    "name": "Battle of Picenum",
+    "year": -72,
+    "lat": 43.1,
+    "lng": 13.8,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Slave Revolt",
+    "commander": "Gaius Cassius Longinus",
+    "description": "Battle of Picenum (72 BC). Spartacus defeats another Roman army in northern Italy.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of the Silarus River",
     "year": -71,
     "lat": 40.6333,
@@ -1186,6 +1630,30 @@
     "description": "Battle of the Silarus River (71 BC). Crassus defeats Spartacus, ending the slave revolt.",
     "id": "battle-of-the-silarus-river",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-cantenna",
+    "name": "Battle of Cantenna",
+    "year": -71,
+    "lat": 39.8,
+    "lng": 16.5,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Slave Revolt",
+    "commander": "Marcus Licinius Crassus",
+    "description": "Battle of Cantenna (71 BC). Crassus defeats a detachment of Spartacus's forces in Lucania.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-mount-garganus",
+    "name": "Battle of Mount Garganus",
+    "year": -71,
+    "lat": 41.72,
+    "lng": 15.92,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Slave Revolt",
+    "commander": "Gnaeus Cornelius Lentulus Clodianus",
+    "description": "Battle of Mount Garganus (71 BC). Spartacus defeats another Roman army in Apulia.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Tigranocerta",
@@ -1212,6 +1680,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "pompey-vs-pirates",
+    "name": "Pompey's Pirate War",
+    "year": -67,
+    "lat": 36.2,
+    "lng": 30.6,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Cilician Pirates",
+    "commander": "Pompey",
+    "description": "Pompey's Pirate Campaign (67 BC). Pompey sweeps the Mediterranean clean of pirates in just three months.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-the-lycus",
     "name": "Battle of the Lycus",
     "year": -66,
@@ -1222,6 +1702,18 @@
     "commander": "Pompey",
     "description": "Battle of the Lycus (66 BC) near Lycus River, Ionia (modern Turkey)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-nicopolis-pontic",
+    "name": "Battle of Nicopolis",
+    "year": -66,
+    "lat": 40.25,
+    "lng": 43.48,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Pontus",
+    "commander": "Pompey",
+    "description": "Battle of Nicopolis (66 BC). Pompey's decisive night attack destroys Mithridates' last army.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-the-arar",
@@ -1308,6 +1800,78 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-sabis-river",
+    "name": "Battle on the Sabis (detailed)",
+    "year": -57,
+    "lat": 50.31,
+    "lng": 3.91,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Nervii",
+    "commander": "Julius Caesar",
+    "description": "Battle of the Sabis River (57 BC). Nervii nearly overwhelm Caesar's army before a dramatic Roman recovery.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-the-veneti",
+    "name": "Battle of Morbihan",
+    "year": -56,
+    "lat": 47.55,
+    "lng": -2.8,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Veneti",
+    "commander": "Decimus Junius Brutus Albinus",
+    "description": "Battle of Morbihan (56 BC). Roman fleet destroys the Veneti navy in Brittany, ending Armorican resistance.",
+    "source": "expansion"
+  },
+  {
+    "id": "first-rhine-crossing",
+    "name": "Caesar's First Rhine Crossing",
+    "year": -55,
+    "lat": 50.55,
+    "lng": 6.95,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Germanic Tribes",
+    "commander": "Julius Caesar",
+    "description": "First Rhine Crossing (55 BC). Caesar builds a bridge across the Rhine in ten days as a show of force.",
+    "source": "expansion"
+  },
+  {
+    "id": "caesar-britain-invasion",
+    "name": "Caesar's Invasion of Britain",
+    "year": -55,
+    "lat": 51.15,
+    "lng": 1.35,
+    "outcome": "draw",
+    "combatants": "Roman Republic vs British Tribes",
+    "commander": "Julius Caesar",
+    "description": "Caesar's first expedition to Britain (55 BC). A reconnaissance in force across the Channel with limited results.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-aduatuca",
+    "name": "Battle of Aduatuca",
+    "year": -54,
+    "lat": 50.6,
+    "lng": 6,
+    "outcome": "defeat",
+    "combatants": "Roman Republic vs Eburones",
+    "commander": "Quintus Titurius Sabinus",
+    "description": "Battle of Aduatuca (54 BC). Ambiorix ambushes and destroys one and a half Roman legions.",
+    "source": "expansion"
+  },
+  {
+    "id": "caesar-second-britain",
+    "name": "Caesar's Second British Expedition",
+    "year": -54,
+    "lat": 51.3,
+    "lng": 0.8,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs British Tribes",
+    "commander": "Julius Caesar",
+    "description": "Caesar's second British expedition (54 BC). Caesar defeats Cassivellaunus and exacts tribute.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Carrhae",
     "year": -53,
     "lat": 36.8667,
@@ -1344,6 +1908,42 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-avaricum",
+    "name": "Siege of Avaricum",
+    "year": -52,
+    "lat": 47.08,
+    "lng": 2.4,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Bituriges",
+    "commander": "Julius Caesar",
+    "description": "Siege of Avaricum (52 BC). Caesar storms the Gallic oppidum after a 25-day siege, massacring the garrison.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-lutetia",
+    "name": "Battle of Lutetia",
+    "year": -52,
+    "lat": 48.85,
+    "lng": 2.35,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Parisii",
+    "commander": "Titus Labienus",
+    "description": "Battle of Lutetia (52 BC). Labienus defeats the Parisii and captures their capital during the Gallic revolt.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-uxellodunum",
+    "name": "Siege of Uxellodunum",
+    "year": -51,
+    "lat": 44.88,
+    "lng": 1.72,
+    "outcome": "victory",
+    "combatants": "Roman Republic vs Cadurci",
+    "commander": "Julius Caesar",
+    "description": "Siege of Uxellodunum (51 BC). The last major Gallic resistance; Caesar cuts off the water supply and amputates defenders' hands.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Ilerda",
     "year": -49,
     "lat": 41.617,
@@ -1366,6 +1966,18 @@
     "commander": "Gaius Scribonius Curio†",
     "description": "Battle of the Bagradas River (49 BC) near North Africa",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-massilia",
+    "name": "Siege of Massilia",
+    "year": -49,
+    "lat": 43.3,
+    "lng": 5.37,
+    "outcome": "victory",
+    "combatants": "Caesarians vs Massilia (Pompeian)",
+    "commander": "Gaius Trebonius",
+    "description": "Siege of Massilia (49 BC). Caesar's forces besiege and capture the neutral Greek city supporting Pompey.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Pharsalus",
@@ -1438,6 +2050,18 @@
     "description": "Battle of Thapsus (46 BC). Caesar defeats the Optimate remnants in Africa.",
     "id": "battle-of-thapsus",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-uzitta",
+    "name": "Battle of Uzitta",
+    "year": -46,
+    "lat": 35.7,
+    "lng": 10.6,
+    "outcome": "draw",
+    "combatants": "Caesarians vs Pompeians",
+    "commander": "Julius Caesar",
+    "description": "Battle of Uzitta (46 BC). Inconclusive engagement during Caesar's African campaign.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Munda",
@@ -1524,6 +2148,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "siege-of-perusia",
+    "name": "Siege of Perusia",
+    "year": -41,
+    "lat": 43.11,
+    "lng": 12.39,
+    "outcome": "victory",
+    "combatants": "Octavian vs Lucius Antonius",
+    "commander": "Octavian",
+    "description": "Siege of Perusia (41-40 BC). Octavian starves out Lucius Antonius during the Perusine War.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Naulochus",
     "year": -36,
     "lat": 38.2167,
@@ -1536,6 +2172,30 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-mylae-36bc",
+    "name": "Battle of Mylae (36 BC)",
+    "year": -36,
+    "lat": 38.22,
+    "lng": 15.23,
+    "outcome": "defeat",
+    "combatants": "Octavian vs Sextus Pompey",
+    "commander": "Octavian",
+    "description": "Battle of Mylae (36 BC). Sextus Pompey defeats Octavian's fleet, but Agrippa later turns the tide.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-tauromenium",
+    "name": "Battle of Tauromenium",
+    "year": -36,
+    "lat": 37.85,
+    "lng": 15.29,
+    "outcome": "defeat",
+    "combatants": "Octavian vs Sextus Pompey",
+    "commander": "Octavian",
+    "description": "Battle of Tauromenium (36 BC). Octavian suffers a naval defeat but escapes to fight again.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Actium",
     "year": -31,
     "lat": 38.9344,
@@ -1546,6 +2206,42 @@
     "description": "Battle of Actium (31 BC). Octavian defeats Antony and Cleopatra, becoming sole ruler of Rome.",
     "id": "battle-of-actium",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-the-alps-25bc",
+    "name": "Battle of the Alps",
+    "year": -25,
+    "lat": 45.5,
+    "lng": 7,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Salassi",
+    "commander": "Aulus Terentius Varro Murena",
+    "description": "Battle of the Alps (25 BC). Augustus subdues the Alpine Salassi tribe, establishing control of key passes.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-mount-medullus",
+    "name": "Battle of Mount Medullus",
+    "year": -25,
+    "lat": 42.8,
+    "lng": -7,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Cantabrians",
+    "commander": "Augustus",
+    "description": "Battle of Mount Medullus (25 BC). Final Roman campaign against the Cantabrians in northern Spain.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-lollius",
+    "name": "Battle of Lollius",
+    "year": -16,
+    "lat": 50.9,
+    "lng": 6.96,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Sugambri",
+    "commander": "Marcus Lollius",
+    "description": "Battle of Lollius (16 BC). Germanic raiders defeat Lollius and capture a legionary eagle, prompting Drusus's campaigns.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-the-lupia-river",
@@ -1608,6 +2304,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-camulodunum-43",
+    "name": "Capture of Camulodunum",
+    "year": 43,
+    "lat": 51.89,
+    "lng": 0.9,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Catuvellauni",
+    "commander": "Claudius",
+    "description": "Capture of Camulodunum (43 AD). Claudius personally leads the final assault on the British capital with war elephants.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-caer-caradoc",
     "name": "Battle of Caer Caradoc",
     "year": 50,
@@ -1618,6 +2326,18 @@
     "commander": "Publius Ostorius Scapula",
     "description": "Battle of Caer Caradoc (50 AD) near Unknown. Possibly Herefordshire Beacon or Caer Caradoc Hill",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-carmarthen",
+    "name": "Battle in Wales",
+    "year": 52,
+    "lat": 51.85,
+    "lng": -4.32,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Silures",
+    "commander": "Aulus Didius Gallus",
+    "description": "Campaign in Wales (52 AD). Ongoing Roman operations against the Silures in South Wales.",
+    "source": "expansion"
   },
   {
     "id": "artaxata",
@@ -1668,6 +2388,66 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-colchester-61",
+    "name": "Sack of Londinium",
+    "year": 61,
+    "lat": 51.51,
+    "lng": -0.13,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Boudica's Rebels",
+    "commander": "Gaius Suetonius Paulinus (evacuated)",
+    "description": "Sack of Londinium (61 AD). Boudica burns the Roman settlement before her defeat at Watling Street.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-rhandeia",
+    "name": "Battle of Rhandeia",
+    "year": 62,
+    "lat": 39.5,
+    "lng": 43,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Lucius Caesennius Paetus",
+    "description": "Battle of Rhandeia (62 AD). Paetus surrenders to the Parthians, a humiliating Roman capitulation in Armenia.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-beth-horon",
+    "name": "Battle of Beth Horon",
+    "year": 66,
+    "lat": 31.87,
+    "lng": 35.15,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Jewish Rebels",
+    "commander": "Cestius Gallus",
+    "description": "Battle of Beth Horon (66 AD). Jewish rebels rout the Roman XII Legion, capturing its eagle.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-jotapata",
+    "name": "Siege of Jotapata",
+    "year": 67,
+    "lat": 32.85,
+    "lng": 35.3,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Jewish Rebels",
+    "commander": "Vespasian",
+    "description": "Siege of Jotapata (67 AD). Vespasian captures the Galilean fortress; Josephus surrenders and prophecies Vespasian's rule.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-gamla",
+    "name": "Battle of Gamla",
+    "year": 67,
+    "lat": 32.9,
+    "lng": 35.72,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Jewish Rebels",
+    "commander": "Vespasian",
+    "description": "Battle of Gamla (67 AD). Romans storm the heavily fortified Golan Heights city after a tough siege.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-forum-julii",
     "name": "Battle of 'Forum Julii'",
     "year": 69,
@@ -1704,6 +2484,30 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "first-battle-of-bedriacum",
+    "name": "First Battle of Bedriacum",
+    "year": 69,
+    "lat": 45.13,
+    "lng": 10.45,
+    "outcome": "defeat",
+    "combatants": "Otho vs Vitellius",
+    "commander": "Otho",
+    "description": "First Battle of Bedriacum (69 AD). Otho's forces lose to Vitellius, leading to Otho's suicide.",
+    "source": "expansion"
+  },
+  {
+    "id": "second-battle-of-bedriacum-69",
+    "name": "Second Battle of Bedriacum (detailed)",
+    "year": 69,
+    "lat": 45.13,
+    "lng": 10.45,
+    "outcome": "victory",
+    "combatants": "Vespasian vs Vitellius",
+    "commander": "Marcus Antonius Primus",
+    "description": "Second Battle of Bedriacum (69 AD). Flavian forces defeat Vitellius, securing the throne for Vespasian.",
+    "source": "expansion"
+  },
+  {
     "name": "Siege of Jerusalem",
     "year": 70,
     "lat": 31.7767,
@@ -1738,6 +2542,30 @@
     "description": "Battle of Mons Graupius (84 AD). Furthest north Roman military victory in Scotland.",
     "id": "battle-of-mons-graupius",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-tapae-87",
+    "name": "Battle of Tapae (87 AD)",
+    "year": 87,
+    "lat": 45.51,
+    "lng": 22.72,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Dacia",
+    "commander": "Cornelius Fuscus",
+    "description": "Battle of Tapae (87 AD). Dacians destroy a Roman army and kill the prefect Fuscus.",
+    "source": "expansion"
+  },
+  {
+    "id": "first-battle-of-tapae",
+    "name": "First Battle of Tapae",
+    "year": 88,
+    "lat": 45.51,
+    "lng": 22.72,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Dacia",
+    "commander": "Tettius Julianus",
+    "description": "First Battle of Tapae (88 AD). Roman victory under Domitian's general avenges earlier defeats by Decebalus.",
+    "source": "expansion"
   },
   {
     "id": "second-battle-of-tapae",
@@ -1788,6 +2616,210 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "siege-of-sarmizegetusa-regia",
+    "name": "Siege of Sarmizegetusa Regia",
+    "year": 106,
+    "lat": 45.62,
+    "lng": 23.31,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Dacia",
+    "commander": "Trajan",
+    "description": "Siege of Sarmizegetusa Regia (106 AD). Trajan destroys the Dacian capital, ending Dacian independence forever.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-nisibis-115",
+    "name": "Battle of Nisibis (115 AD)",
+    "year": 115,
+    "lat": 37.07,
+    "lng": 41.22,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Trajan",
+    "description": "Battle of Nisibis (115 AD). Trajan captures the key Mesopotamian fortress during his Parthian campaign.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-ctesiphon-116",
+    "name": "Capture of Ctesiphon (116 AD)",
+    "year": 116,
+    "lat": 33.1,
+    "lng": 44.58,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Trajan",
+    "description": "Capture of Ctesiphon (116 AD). Trajan captures the Parthian capital, reaching the Persian Gulf.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-seleucia",
+    "name": "Battle of Seleucia",
+    "year": 116,
+    "lat": 33.1,
+    "lng": 44.5,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Trajan",
+    "description": "Battle of Seleucia (116 AD). Trajan takes the great Mesopotamian city during his Parthian campaign.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-hatra-116",
+    "name": "Siege of Hatra",
+    "year": 117,
+    "lat": 35.59,
+    "lng": 42.72,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Hatra",
+    "commander": "Trajan",
+    "description": "Siege of Hatra (117 AD). Trajan fails to take the desert fortress, one of his rare setbacks.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-jerusalem-bar-kokhba",
+    "name": "Siege of Jerusalem (Bar Kokhba)",
+    "year": 132,
+    "lat": 31.78,
+    "lng": 35.23,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Jewish Rebels (Bar Kokhba)",
+    "commander": "Tineius Rufus",
+    "description": "Fall of Jerusalem (132 AD). Bar Kokhba's rebels seize Jerusalem, forcing a massive Roman response.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-betar",
+    "name": "Battle of Betar",
+    "year": 135,
+    "lat": 31.72,
+    "lng": 35.14,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Jewish Rebels",
+    "commander": "Sextus Julius Severus",
+    "description": "Battle of Betar (135 AD). Romans destroy the last stronghold of Bar Kokhba's revolt, ending Jewish statehood.",
+    "source": "expansion"
+  },
+  {
+    "id": "roman-scotland-campaign",
+    "name": "Antonine Advance into Scotland",
+    "year": 142,
+    "lat": 55.96,
+    "lng": -3.96,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Caledonians",
+    "commander": "Quintus Lollius Urbicus",
+    "description": "Antonine Wall Campaign (142 AD). Romans advance into Scotland and build the Antonine Wall.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-elegeia",
+    "name": "Battle of Elegeia",
+    "year": 162,
+    "lat": 39.9,
+    "lng": 41.3,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Marcus Sedatius Severianus",
+    "description": "Battle of Elegeia (162 AD). Entire Roman legion destroyed by Parthians in Armenia.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-dura-europos",
+    "name": "Battle of Dura Europos",
+    "year": 165,
+    "lat": 34.75,
+    "lng": 40.73,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Avidius Cassius",
+    "description": "Battle of Dura Europos (165 AD). Romans capture the strategic fortress on the Euphrates during Verus's Parthian War.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-ctesiphon-165",
+    "name": "Sack of Ctesiphon (165 AD)",
+    "year": 165,
+    "lat": 33.1,
+    "lng": 44.58,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Avidius Cassius",
+    "description": "Sack of Ctesiphon (165 AD). Romans sack the Parthian capital but bring plague back to the empire.",
+    "source": "expansion"
+  },
+  {
+    "id": "sack-of-seleucia-165",
+    "name": "Sack of Seleucia (165 AD)",
+    "year": 165,
+    "lat": 33.1,
+    "lng": 44.5,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Avidius Cassius",
+    "description": "Sack of Seleucia (165 AD). Romans sack the great city during the Parthian War under co-emperor Verus.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-carnuntum",
+    "name": "Battle of Carnuntum",
+    "year": 170,
+    "lat": 48.11,
+    "lng": 16.86,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Marcomanni and Quadi",
+    "commander": "Marcus Aurelius",
+    "description": "Battle of Carnuntum (170 AD). Germanic tribes break through the Danube frontier, devastating the region.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-the-danube-ice",
+    "name": "Battle on the Frozen Danube",
+    "year": 172,
+    "lat": 47.8,
+    "lng": 18.5,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Iazyges",
+    "commander": "Marcus Aurelius",
+    "description": "Battle on the Frozen Danube (172 AD). Romans fight the Iazyges on the frozen river in a remarkable winter battle.",
+    "source": "expansion"
+  },
+  {
+    "id": "miracle-of-the-rain",
+    "name": "Miracle of the Rain",
+    "year": 174,
+    "lat": 48.5,
+    "lng": 17.5,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Quadi",
+    "commander": "Marcus Aurelius",
+    "description": "Miracle of the Rain (174 AD). A sudden thunderstorm saves the surrounded Roman army from the Quadi.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-the-marcomanni-180",
+    "name": "Battle against the Marcomanni",
+    "year": 180,
+    "lat": 48.3,
+    "lng": 16,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Marcomanni",
+    "commander": "Commodus",
+    "description": "Battle against the Marcomanni (180 AD). Commodus achieves a final victory but ends the wars by making peace.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-britain-184",
+    "name": "Campaign in Britain",
+    "year": 184,
+    "lat": 55,
+    "lng": -1.6,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Caledonians",
+    "commander": "Ulpius Marcellus",
+    "description": "Campaign in Britain (184 AD). Ulpius Marcellus repels a major Caledonian incursion south of Hadrian's Wall.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-nicaea",
     "name": "Battle of Nicaea",
     "year": 193,
@@ -1798,6 +2830,30 @@
     "commander": "Septimus Severus",
     "description": "Battle of Nicaea (193 AD) near Nicaea in Anatolia",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-cyzicus-193",
+    "name": "Battle of Cyzicus (193 AD)",
+    "year": 193,
+    "lat": 40.39,
+    "lng": 27.88,
+    "outcome": "victory",
+    "combatants": "Septimius Severus vs Pescennius Niger",
+    "commander": "Septimius Severus",
+    "description": "Battle of Cyzicus (193 AD). Severus's forces defeat Niger's army in Asia Minor.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-cyzicus-193-actual",
+    "name": "Battle near Cyzicus (193 AD)",
+    "year": 193,
+    "lat": 40.43,
+    "lng": 27.82,
+    "outcome": "victory",
+    "combatants": "Septimius Severus vs Pescennius Niger",
+    "commander": "Septimius Severus",
+    "description": "Battle near Cyzicus (193 AD). First major clash between Severus and Niger for control of the empire.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Issus",
@@ -1812,6 +2868,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "siege-of-byzantium-196",
+    "name": "Siege of Byzantium",
+    "year": 196,
+    "lat": 41.01,
+    "lng": 28.98,
+    "outcome": "victory",
+    "combatants": "Septimius Severus vs Byzantium (Niger's ally)",
+    "commander": "Septimius Severus",
+    "description": "Siege of Byzantium (196 AD). Severus captures and destroys Byzantium after a long siege.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Lugdunum",
     "year": 197,
     "lat": 45.7597,
@@ -1822,6 +2890,42 @@
     "description": "Battle of Lugdunum (197 AD). Largest and bloodiest battle of Severus' civil war.",
     "id": "battle-of-lugdunum",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-ctesiphon-198",
+    "name": "Sack of Ctesiphon (198 AD)",
+    "year": 198,
+    "lat": 33.1,
+    "lng": 44.58,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Septimius Severus",
+    "description": "Sack of Ctesiphon (198 AD). Severus captures and sacks the Parthian capital during his eastern campaign.",
+    "source": "expansion"
+  },
+  {
+    "id": "siege-of-hatra-199",
+    "name": "Siege of Hatra (199 AD)",
+    "year": 199,
+    "lat": 35.59,
+    "lng": 42.72,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Hatra",
+    "commander": "Septimius Severus",
+    "description": "Siege of Hatra (199 AD). Severus fails to take the desert fortress, as Trajan had before him.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-caracalla-parthia",
+    "name": "Battle of Arbela (216 AD)",
+    "year": 216,
+    "lat": 36.36,
+    "lng": 43.49,
+    "outcome": "draw",
+    "combatants": "Roman Empire vs Parthian Empire",
+    "commander": "Caracalla",
+    "description": "Battle of Arbela (216 AD). Caracalla's invasion of Parthia yields inconclusive results before his assassination.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Nisibis",
@@ -1848,6 +2952,66 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-immae-218",
+    "name": "Battle of Immae (218 AD)",
+    "year": 218,
+    "lat": 36.35,
+    "lng": 36.47,
+    "outcome": "victory",
+    "combatants": "Elagabalus vs Macrinus",
+    "commander": "Elagabalus",
+    "description": "Battle of Immae (218 AD). The teenage pretender Elagabalus defeats Emperor Macrinus near Antioch.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-hormuz",
+    "name": "Battle at Hormuz",
+    "year": 224,
+    "lat": 27.08,
+    "lng": 56.27,
+    "outcome": "defeat",
+    "combatants": "Parthian Empire (Roman ally) vs Sassanid Persia",
+    "commander": "Artabanus IV (Parthian)",
+    "description": "Battle of Hormuz (224 AD). Ardashir I defeats Artabanus IV, replacing the Parthian Empire with the Sassanid dynasty.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-ctesiphon-233",
+    "name": "Roman Campaign to Ctesiphon (233 AD)",
+    "year": 233,
+    "lat": 33.1,
+    "lng": 44.58,
+    "outcome": "draw",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Severus Alexander",
+    "description": "Campaign to Ctesiphon (233 AD). Alexander Severus's inconclusive Mesopotamian campaign against Ardashir I.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-carthage-238",
+    "name": "Battle of Carthage (238 AD)",
+    "year": 238,
+    "lat": 36.85,
+    "lng": 10.32,
+    "outcome": "defeat",
+    "combatants": "Gordian I vs Legio III Augusta",
+    "commander": "Gordian I",
+    "description": "Battle of Carthage (238 AD). Gordian I's rebellion is crushed; he commits suicide after his son's death.",
+    "source": "expansion"
+  },
+  {
+    "id": "siege-of-aquileia-238",
+    "name": "Siege of Aquileia (238 AD)",
+    "year": 238,
+    "lat": 45.77,
+    "lng": 13.37,
+    "outcome": "defeat",
+    "combatants": "Maximinus Thrax vs City of Aquileia",
+    "commander": "Maximinus Thrax",
+    "description": "Siege of Aquileia (238 AD). The city resists; Maximinus's own soldiers murder him.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-resaena",
     "name": "Battle of Resaena",
     "year": 243,
@@ -1860,6 +3024,42 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-resaena-243",
+    "name": "Battle of Resaena (243 AD)",
+    "year": 243,
+    "lat": 36.85,
+    "lng": 40.07,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Timesitheus",
+    "description": "Battle of Resaena (243 AD). Roman victory against the Sassanids under the able prefect Timesitheus.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-misiche",
+    "name": "Battle of Misiche",
+    "year": 244,
+    "lat": 33.35,
+    "lng": 44.1,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Gordian III",
+    "description": "Battle of Misiche (244 AD). Emperor Gordian III dies (possibly murdered) after defeat by Shapur I.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-verona-249",
+    "name": "Battle of Verona (249 AD)",
+    "year": 249,
+    "lat": 45.43,
+    "lng": 10.98,
+    "outcome": "victory",
+    "combatants": "Decius vs Philip the Arab",
+    "commander": "Decius",
+    "description": "Battle of Verona (249 AD). Decius defeats and kills Philip the Arab to seize the throne.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-philippopolis",
     "name": "Battle of Philippopolis",
     "year": 250,
@@ -1870,6 +3070,18 @@
     "commander": "Unknown",
     "description": "Battle of Philippopolis (250 AD)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-philippopolis-250",
+    "name": "Siege of Philippopolis (250 AD)",
+    "year": 250,
+    "lat": 42.15,
+    "lng": 24.75,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Goths",
+    "commander": "Titus Julius Priscus",
+    "description": "Siege of Philippopolis (250 AD). Goths sack the city; Priscus declares himself emperor under Gothic patronage.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-abrittus",
@@ -1896,6 +3108,66 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-forum-terebronii",
+    "name": "Battle of Forum Terebronii",
+    "year": 251,
+    "lat": 43.6,
+    "lng": 26.4,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Goths",
+    "commander": "Decius",
+    "description": "Battle of Abrittus/Forum Terebronii (251 AD). Emperor Decius killed in battle, the first emperor to fall to barbarians.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-barbalissos",
+    "name": "Battle of Barbalissos",
+    "year": 253,
+    "lat": 35.95,
+    "lng": 38.2,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Roman garrison commanders",
+    "description": "Battle of Barbalissos (253 AD). Shapur I destroys a Roman army of 60,000 on the Euphrates.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-emesa-253",
+    "name": "Battle of Emesa (253 AD)",
+    "year": 253,
+    "lat": 34.73,
+    "lng": 36.72,
+    "outcome": "defeat",
+    "combatants": "Roman Empire (Uranius Antoninus) vs Sassanid Empire",
+    "commander": "Uranius Antoninus",
+    "description": "Battle of Emesa (253 AD). Failed Roman attempt to halt Shapur I's invasion of Syria.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-spoleto",
+    "name": "Battle of Spoleto",
+    "year": 253,
+    "lat": 42.73,
+    "lng": 12.74,
+    "outcome": "defeat",
+    "combatants": "Roman Empire (Aemilianus) vs Valerian",
+    "commander": "Aemilianus",
+    "description": "Battle of Spoleto (253 AD). Aemilianus is murdered by his own troops as Valerian approaches.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-emesa-253-uranius",
+    "name": "Defense of Emesa",
+    "year": 254,
+    "lat": 34.73,
+    "lng": 36.72,
+    "outcome": "victory",
+    "combatants": "Uranius Antoninus vs Sassanid Empire",
+    "commander": "Uranius Antoninus",
+    "description": "Defense of Emesa (254 AD). Local Roman usurper successfully defends the city against Sassanid invasion.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-mediolanum",
     "name": "Battle of Mediolanum",
     "year": 259,
@@ -1920,6 +3192,54 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-postumus-260",
+    "name": "Rise of Postumus",
+    "year": 260,
+    "lat": 50.77,
+    "lng": 6.08,
+    "outcome": "victory",
+    "combatants": "Gallic Empire (Postumus) vs Saloninus",
+    "commander": "Postumus",
+    "description": "Battle of Cologne (260 AD). Postumus defeats and kills Saloninus, establishing the breakaway Gallic Empire.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-milan-260",
+    "name": "Battle of Milan (260 AD)",
+    "year": 260,
+    "lat": 45.46,
+    "lng": 9.19,
+    "outcome": "victory",
+    "combatants": "Gallienus vs Ingenuus (usurper)",
+    "commander": "Gallienus",
+    "description": "Battle near Milan (260 AD). Gallienus defeats the usurper Ingenuus on the Danube frontier.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-mursa-260",
+    "name": "Battle of Mursa (260 AD)",
+    "year": 260,
+    "lat": 45.56,
+    "lng": 18.68,
+    "outcome": "victory",
+    "combatants": "Gallienus vs Regalianus (usurper)",
+    "commander": "Gallienus",
+    "description": "Battle of Mursa (260 AD). Gallienus defeats another Danubian usurper, Regalianus.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-verona-267",
+    "name": "Battle of Verona (267 AD)",
+    "year": 267,
+    "lat": 45.43,
+    "lng": 10.98,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Alamanni",
+    "commander": "Gallienus",
+    "description": "Battle of Verona (267 AD). Gallienus defeats an Alamannic invasion force near Verona.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Naissus",
     "year": 268,
     "lat": 43.3,
@@ -1942,6 +3262,30 @@
     "commander": "Claudius II",
     "description": "Battle of Lake Benacus (268 AD) near Lake Garda, modern Italy",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-nessos",
+    "name": "Battle of Nessos",
+    "year": 268,
+    "lat": 41.1,
+    "lng": 24.7,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Goths",
+    "commander": "Gallienus",
+    "description": "Battle of Nessos (268 AD). Gallienus routs a Gothic force in Thrace before his assassination.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-laelianus",
+    "name": "Revolt of Laelianus",
+    "year": 269,
+    "lat": 50.33,
+    "lng": 6.28,
+    "outcome": "victory",
+    "combatants": "Gallic Empire (Postumus) vs Laelianus",
+    "commander": "Postumus",
+    "description": "Revolt of Laelianus (269 AD). Postumus defeats the usurper but is killed by his own troops for forbidding a sack.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-placentia",
@@ -1980,6 +3324,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-daphne-271",
+    "name": "Battle near Daphne",
+    "year": 271,
+    "lat": 36.15,
+    "lng": 36.12,
+    "outcome": "victory",
+    "combatants": "Palmyrene Empire vs Roman Egypt",
+    "commander": "Zabdas (Palmyrene)",
+    "description": "Battle near Daphne (271 AD). Palmyrene forces under Zenobia's general invade and conquer Roman Egypt.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Emesa",
     "year": 272,
     "lat": 34.7333,
@@ -1990,6 +3346,222 @@
     "description": "Battle of Emesa (272 AD). Aurelian defeats Queen Zenobia, reuniting the empire.",
     "id": "battle-of-emesa",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-immae",
+    "name": "Battle of Immae",
+    "year": 272,
+    "lat": 36.35,
+    "lng": 36.47,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Palmyrene Empire",
+    "commander": "Aurelian",
+    "description": "Battle of Immae (272 AD). Aurelian defeats Zenobia's cavalry in Syria, beginning Palmyra's fall.",
+    "source": "expansion"
+  },
+  {
+    "id": "siege-of-palmyra",
+    "name": "Siege of Palmyra",
+    "year": 272,
+    "lat": 34.55,
+    "lng": 38.27,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Palmyrene Empire",
+    "commander": "Aurelian",
+    "description": "Siege of Palmyra (272 AD). Aurelian captures the desert city, ending Zenobia's breakaway empire.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-chalons-274",
+    "name": "Battle of Chalons (274 AD)",
+    "year": 274,
+    "lat": 48.96,
+    "lng": 4.36,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Gallic Empire",
+    "commander": "Aurelian",
+    "description": "Battle of Chalons (274 AD). Aurelian defeats Tetricus, reuniting the Gallic Empire with Rome.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-caenophrurium",
+    "name": "Battle of Caenophrurium",
+    "year": 274,
+    "lat": 41.5,
+    "lng": 27.5,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Goths",
+    "commander": "Aurelian",
+    "description": "Battle of Caenophrurium (274 AD). Aurelian wins his final major battle against Gothic raiders in Thrace.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-probus-gaul",
+    "name": "Battle against Alamanni in Gaul",
+    "year": 277,
+    "lat": 48.6,
+    "lng": 7.8,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Alamanni",
+    "commander": "Probus",
+    "description": "Battle in Gaul (277 AD). Probus defeats the Alamanni and drives them back across the Rhine.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-probus-vandals",
+    "name": "Battle against Vandals on the Danube",
+    "year": 278,
+    "lat": 46.1,
+    "lng": 18.2,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Vandals",
+    "commander": "Probus",
+    "description": "Battle on the Danube (278 AD). Probus defeats the Vandals and resettles them within the empire.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-saturninus",
+    "name": "Revolt of Saturninus",
+    "year": 280,
+    "lat": 50,
+    "lng": 8.27,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Saturninus (usurper)",
+    "commander": "Probus",
+    "description": "Revolt of Saturninus (280 AD). Probus suppresses the rebellion of Saturninus at Cologne.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-ctesiphon-283",
+    "name": "Capture of Ctesiphon (283 AD)",
+    "year": 283,
+    "lat": 33.1,
+    "lng": 44.58,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Carus",
+    "description": "Capture of Ctesiphon (283 AD). Carus easily takes the Sassanid capital before his mysterious death.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-margum",
+    "name": "Battle of Margum",
+    "year": 285,
+    "lat": 44.74,
+    "lng": 21.57,
+    "outcome": "victory",
+    "combatants": "Diocletian vs Carinus",
+    "commander": "Diocletian",
+    "description": "Battle of Margum (285 AD). Diocletian defeats Carinus (who is killed by his own officers) to become emperor.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-margum-285",
+    "name": "Battle of the Margus (285 AD)",
+    "year": 285,
+    "lat": 44.74,
+    "lng": 21.57,
+    "outcome": "victory",
+    "combatants": "Diocletian vs Carinus",
+    "commander": "Diocletian",
+    "description": "Battle of the Margus (285 AD). Diocletian wins after Carinus is murdered by his own tribune.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-carausius",
+    "name": "Campaigns against Carausius",
+    "year": 293,
+    "lat": 51.28,
+    "lng": 1.08,
+    "outcome": "draw",
+    "combatants": "Roman Empire vs Carausius (British usurper)",
+    "commander": "Constantius Chlorus",
+    "description": "Campaigns against Carausius (293 AD). Constantius besieges Boulogne, reclaiming it from the British usurper.",
+    "source": "expansion"
+  },
+  {
+    "id": "reconquest-of-britain",
+    "name": "Reconquest of Britain",
+    "year": 296,
+    "lat": 51.51,
+    "lng": -0.13,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Allectus (British usurper)",
+    "commander": "Constantius Chlorus",
+    "description": "Reconquest of Britain (296 AD). Constantius invades and defeats Allectus, restoring Britain to the empire.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-alexandria-298",
+    "name": "Siege of Alexandria",
+    "year": 298,
+    "lat": 31.2,
+    "lng": 29.92,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Domitius Domitianus (usurper)",
+    "commander": "Diocletian",
+    "description": "Siege of Alexandria (298 AD). Diocletian personally captures Alexandria after an eight-month siege.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-callinicum-298",
+    "name": "Battle of Callinicum (298 AD)",
+    "year": 298,
+    "lat": 35.76,
+    "lng": 39.03,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Galerius",
+    "description": "Battle of Callinicum (298 AD). Galerius defeats the Sassanids decisively after an earlier setback.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-satala",
+    "name": "Battle of Satala",
+    "year": 298,
+    "lat": 40.02,
+    "lng": 39.43,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Galerius",
+    "description": "Battle of Satala (298 AD). Galerius captures the Sassanid king's harem and treasury in a surprise attack.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-lingones",
+    "name": "Battle of Lingones",
+    "year": 298,
+    "lat": 47.86,
+    "lng": 5.33,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Alamanni",
+    "commander": "Constantius Chlorus",
+    "description": "Battle of Lingones (298 AD). Constantius defeats the Alamanni after a close-fought battle in Gaul.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-vindonissa",
+    "name": "Battle of Vindonissa",
+    "year": 298,
+    "lat": 47.48,
+    "lng": 8.22,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Alamanni",
+    "commander": "Constantius Chlorus",
+    "description": "Battle of Vindonissa (298 AD). Constantius drives the Alamanni back across the Rhine at modern Windisch.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-york",
+    "name": "Battle near Eboracum",
+    "year": 306,
+    "lat": 53.96,
+    "lng": -1.08,
+    "outcome": "victory",
+    "combatants": "Picts vs Roman Empire",
+    "commander": "Constantius Chlorus",
+    "description": "Campaign near Eboracum (306 AD). Constantius campaigns against the Picts before dying at York; Constantine acclaimed emperor.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-milvian-bridge",
@@ -2016,6 +3588,30 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-turin-312",
+    "name": "Battle of Turin",
+    "year": 312,
+    "lat": 45.07,
+    "lng": 7.69,
+    "outcome": "victory",
+    "combatants": "Constantine vs Maxentius",
+    "commander": "Constantine I",
+    "description": "Battle of Turin (312 AD). Constantine defeats Maxentius's cavalry force on his march to Rome.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-verona-312",
+    "name": "Battle of Verona (312 AD)",
+    "year": 312,
+    "lat": 45.43,
+    "lng": 10.98,
+    "outcome": "victory",
+    "combatants": "Constantine vs Maxentius",
+    "commander": "Constantine I",
+    "description": "Battle of Verona (312 AD). Constantine defeats the strong garrison before proceeding to Rome.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-tzirallum",
     "name": "Battle of Tzirallum",
     "year": 313,
@@ -2026,6 +3622,18 @@
     "commander": "Licinius",
     "description": "Battle of Tzirallum (313 AD) near near Heraclea Sintica",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-campus-ergenus",
+    "name": "Battle of Campus Ergenus",
+    "year": 313,
+    "lat": 41.28,
+    "lng": 27.84,
+    "outcome": "victory",
+    "combatants": "Licinius vs Maximinus Daia",
+    "commander": "Licinius",
+    "description": "Battle of Campus Ergenus (313 AD). Licinius defeats Maximinus Daia, consolidating the eastern empire.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Cibalae",
@@ -2052,6 +3660,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-campus-ardiensis",
+    "name": "Battle of Campus Ardiensis",
+    "year": 316,
+    "lat": 42.1,
+    "lng": 23.5,
+    "outcome": "draw",
+    "combatants": "Constantine vs Licinius",
+    "commander": "Constantine I",
+    "description": "Battle of Campus Ardiensis (316 AD). Inconclusive engagement leading to a temporary peace between Constantine and Licinius.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-the-hellespont",
     "name": "Battle of the Hellespont",
     "year": 324,
@@ -2074,6 +3694,30 @@
     "description": "Battle of Chrysopolis (324 AD). Constantine defeats Licinius, becoming sole emperor.",
     "id": "battle-of-chrysopolis",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-adrianople-324",
+    "name": "Battle of Adrianople (324 AD)",
+    "year": 324,
+    "lat": 41.68,
+    "lng": 26.56,
+    "outcome": "victory",
+    "combatants": "Constantine vs Licinius",
+    "commander": "Constantine I",
+    "description": "Battle of Adrianople (324 AD). Constantine defeats Licinius in a major land battle before the siege of Byzantium.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-hileia",
+    "name": "Battle of Hileia",
+    "year": 343,
+    "lat": 46.5,
+    "lng": 33.5,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Sarmatians",
+    "commander": "Constantius II",
+    "description": "Battle of Hileia (343 AD). Constantius campaigns against Sarmatian raiders on the Danube.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-singara",
@@ -2100,6 +3744,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-cibalae-351",
+    "name": "Battle of Cibalae (351 AD)",
+    "year": 351,
+    "lat": 45.28,
+    "lng": 18.8,
+    "outcome": "draw",
+    "combatants": "Constantius II vs Vetranio",
+    "commander": "Constantius II",
+    "description": "Confrontation at Cibalae (351 AD). Vetranio's troops desert to Constantius without a battle.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-mons-seleucus",
     "name": "Battle of Mons Seleucus",
     "year": 353,
@@ -2122,6 +3778,30 @@
     "commander": "Julian the Apostate",
     "description": "Battle of Reims (356 AD) near Reims, modern France",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-brumath",
+    "name": "Battle of Brumath",
+    "year": 356,
+    "lat": 48.73,
+    "lng": 7.71,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Alamanni",
+    "commander": "Julian",
+    "description": "Battle of Brumath (356 AD). Julian's first victory, driving the Alamanni from Alsace.",
+    "source": "expansion"
+  },
+  {
+    "id": "siege-of-sens",
+    "name": "Siege of Sens",
+    "year": 356,
+    "lat": 48.2,
+    "lng": 3.28,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Alamanni",
+    "commander": "Julian",
+    "description": "Siege of Sens (356 AD). Julian successfully defends the city against an Alamannic siege.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Strasbourg",
@@ -2148,6 +3828,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "siege-of-aquileia-361",
+    "name": "Siege of Aquileia",
+    "year": 361,
+    "lat": 45.77,
+    "lng": 13.37,
+    "outcome": "victory",
+    "combatants": "Julian vs Constantius II's garrison",
+    "commander": "Julian",
+    "description": "Siege of Aquileia (361 AD). Julian's forces besiege the city during his march east against Constantius.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of Ctesiphon",
     "year": 363,
     "lat": 33.1,
@@ -2160,6 +3852,30 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-samarra",
+    "name": "Battle of Samarra",
+    "year": 363,
+    "lat": 34.2,
+    "lng": 43.87,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Julian",
+    "description": "Battle of Samarra (363 AD). Julian is mortally wounded during the retreat from Persia, ending his campaign.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-maiozamalcha",
+    "name": "Battle of Maiozamalcha",
+    "year": 363,
+    "lat": 33.2,
+    "lng": 44.3,
+    "outcome": "victory",
+    "combatants": "Roman Empire vs Sassanid Empire",
+    "commander": "Julian",
+    "description": "Battle of Maiozamalcha (363 AD). Julian storms a fortified Sassanid city on the Tigris en route to Ctesiphon.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-thyatira",
     "name": "Battle of Thyatira",
     "year": 366,
@@ -2170,6 +3886,18 @@
     "commander": "Valens",
     "description": "Battle of Thyatira (366 AD) near Thyatira, Phrygia (modern Turkey)",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-chalons-366",
+    "name": "Battle of Chalons (366 AD)",
+    "year": 366,
+    "lat": 48.96,
+    "lng": 4.36,
+    "outcome": "victory",
+    "combatants": "Valentinian I vs Alamanni",
+    "commander": "Jovinus",
+    "description": "Battle of Chalons (366 AD). Romans defeat an Alamannic raiding party in Gaul.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-solicinium",
@@ -2194,6 +3922,18 @@
     "commander": "Richomeres, Profuturus, Traianus",
     "description": "Battle of the Willows (377 AD) near Ad Salices (exact unknown), in Moesia, Bulgaria",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-dibaltum",
+    "name": "Battle of Dibaltum",
+    "year": 377,
+    "lat": 42.47,
+    "lng": 26.52,
+    "outcome": "defeat",
+    "combatants": "Eastern Roman Empire vs Goths",
+    "commander": "Barzimeres",
+    "description": "Battle of Dibaltum (377 AD). Gothic raiders defeat a Roman force in Thrace before Adrianople.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Adrianople",
@@ -2232,6 +3972,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-hadrianopolis-2",
+    "name": "Gothic Raids after Adrianople",
+    "year": 380,
+    "lat": 41.12,
+    "lng": 23.55,
+    "outcome": "defeat",
+    "combatants": "Eastern Roman Empire vs Goths",
+    "commander": "Theodosius I",
+    "description": "Gothic raids (380 AD). Goths ravage Thessaly and Macedonia after Adrianople before Theodosius makes peace.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-the-save",
     "name": "Battle of the Save",
     "year": 388,
@@ -2244,6 +3996,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-poetovio",
+    "name": "Battle of Poetovio",
+    "year": 388,
+    "lat": 46.42,
+    "lng": 15.87,
+    "outcome": "victory",
+    "combatants": "Theodosius vs Magnus Maximus",
+    "commander": "Theodosius I",
+    "description": "Battle of Poetovio (388 AD). Theodosius defeats and captures the usurper Magnus Maximus.",
+    "source": "expansion"
+  },
+  {
     "name": "Battle of the Frigidus",
     "year": 394,
     "lat": 45.8704,
@@ -2254,6 +4018,18 @@
     "description": "Battle of the Frigidus (394 AD). Theodosius reunites the empire for the last time.",
     "id": "battle-of-the-frigidus",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-eleusis",
+    "name": "Battle of Eleusis",
+    "year": 396,
+    "lat": 38.04,
+    "lng": 23.54,
+    "outcome": "draw",
+    "combatants": "Roman Empire vs Visigoths",
+    "commander": "Stilicho",
+    "description": "Battle of Eleusis (396 AD). Stilicho confronts Alaric in Greece but allows him to escape.",
+    "source": "expansion"
   },
   {
     "name": "Battle of Pollentia",
@@ -2292,6 +4068,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-faesulae-406",
+    "name": "Battle of Faesulae (406 AD)",
+    "year": 406,
+    "lat": 43.81,
+    "lng": 11.29,
+    "outcome": "victory",
+    "combatants": "Western Roman Empire vs Goths",
+    "commander": "Stilicho",
+    "description": "Battle of Faesulae (406 AD). Stilicho destroys Radagaisus's massive Gothic invasion of Italy.",
+    "source": "expansion"
+  },
+  {
     "name": "Sack of Rome by Alaric",
     "year": 410,
     "lat": 41.9,
@@ -2302,6 +4090,42 @@
     "description": "Sack of Rome (410 AD). Alaric's Visigoths sack Rome for the first time in 800 years.",
     "id": "sack-of-rome-by-alaric",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-vienne",
+    "name": "Battle of Vienne",
+    "year": 411,
+    "lat": 45.52,
+    "lng": 4.88,
+    "outcome": "defeat",
+    "combatants": "Western Roman Empire vs Burgundians/Franks",
+    "commander": "Jovinus (usurper)",
+    "description": "Battle of Vienne (411 AD). Barbarian-backed usurper Jovinus seizes power in Gaul.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-arles-425",
+    "name": "Battle of Arles",
+    "year": 425,
+    "lat": 43.68,
+    "lng": 4.63,
+    "outcome": "victory",
+    "combatants": "Western Roman Empire vs Joannes (usurper)",
+    "commander": "Flavius Aetius",
+    "description": "Battle of Arles (425 AD). Eastern forces defeat the usurper Joannes, placing Valentinian III on the throne.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-hippo-regius",
+    "name": "Siege of Hippo Regius",
+    "year": 430,
+    "lat": 36.9,
+    "lng": 7.77,
+    "outcome": "defeat",
+    "combatants": "Western Roman Empire vs Vandals",
+    "commander": "Bonifacius",
+    "description": "Siege of Hippo Regius (430 AD). Vandals besiege Augustine's city; he dies during the siege.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-ravenna",
@@ -2316,6 +4140,18 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-rimini-432",
+    "name": "Battle of Rimini",
+    "year": 432,
+    "lat": 44.06,
+    "lng": 12.57,
+    "outcome": "draw",
+    "combatants": "Aetius vs Bonifacius",
+    "commander": "Flavius Aetius",
+    "description": "Battle of Rimini (432 AD). Aetius loses to Bonifacius but Bonifacius dies of wounds, leaving Aetius supreme.",
+    "source": "expansion"
+  },
+  {
     "id": "battle-of-narbonne",
     "name": "Battle of Narbonne",
     "year": 436,
@@ -2326,6 +4162,30 @@
     "commander": "Flavius Aetius",
     "description": "Battle of Narbonne (436 AD) near Narbonne, France",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-mons-colubrarius",
+    "name": "Battle of Mons Colubrarius",
+    "year": 436,
+    "lat": 43.18,
+    "lng": 3,
+    "outcome": "victory",
+    "combatants": "Western Roman Empire vs Visigoths",
+    "commander": "Litorius",
+    "description": "Battle of Mons Colubrarius (436 AD). Roman-Hunnic forces relieve the siege of Narbonne.",
+    "source": "expansion"
+  },
+  {
+    "id": "first-battle-of-toulouse",
+    "name": "First Battle of Toulouse",
+    "year": 439,
+    "lat": 43.6,
+    "lng": 1.44,
+    "outcome": "defeat",
+    "combatants": "Western Roman Empire vs Visigoths",
+    "commander": "Litorius",
+    "description": "First Battle of Toulouse (439 AD). Roman general Litorius defeated and captured attacking the Visigothic capital.",
+    "source": "expansion"
   },
   {
     "id": "battle-of-the-utus",
@@ -2352,6 +4212,42 @@
     "source": "Roman-Battles-Droid"
   },
   {
+    "id": "battle-of-orleans",
+    "name": "Battle of Orleans",
+    "year": 451,
+    "lat": 47.9,
+    "lng": 1.9,
+    "outcome": "victory",
+    "combatants": "Roman-Visigothic Alliance vs Hunnic Empire",
+    "commander": "Flavius Aetius",
+    "description": "Battle of Orleans (451 AD). Aetius and the Visigoths relieve Orleans from Attila's siege.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-campus-mauriacus",
+    "name": "Battle of the Catalaunian Fields (detail)",
+    "year": 451,
+    "lat": 48.97,
+    "lng": 4.37,
+    "outcome": "victory",
+    "combatants": "Roman-Visigothic-Frankish alliance vs Hunnic Empire",
+    "commander": "Flavius Aetius",
+    "description": "Battle of the Catalaunian Fields (451 AD). Last great Roman victory; Aetius and allies halt Attila in Gaul.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-nedao",
+    "name": "Battle of Nedao",
+    "year": 454,
+    "lat": 46.8,
+    "lng": 17.7,
+    "outcome": "victory",
+    "combatants": "Gepids and allies vs Huns",
+    "commander": "Ardaric (Roman ally)",
+    "description": "Battle of Nedao (454 AD). Germanic tribes, allied with Rome, destroy Hunnic power after Attila's death.",
+    "source": "expansion"
+  },
+  {
     "id": "sack-of-rome",
     "name": "Sack of Rome",
     "year": 455,
@@ -2374,5 +4270,65 @@
     "description": "Sack of Rome (455 AD). Genseric's Vandals plunder Rome for two weeks.",
     "id": "sack-of-rome-by-vandals",
     "source": "Roman-Battles-Droid"
+  },
+  {
+    "id": "battle-of-nedao-455",
+    "name": "Hunnic Collapse at Nedao",
+    "year": 455,
+    "lat": 46.8,
+    "lng": 17.8,
+    "outcome": "victory",
+    "combatants": "Germanic coalition vs Huns",
+    "commander": "Ardaric of the Gepids",
+    "description": "Battle of Nedao (455 AD). Germanic tribes destroy Hunnic power, freeing central Europe from Hunnic domination.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-placentia-456",
+    "name": "Battle of Placentia (456 AD)",
+    "year": 456,
+    "lat": 45.05,
+    "lng": 9.7,
+    "outcome": "victory",
+    "combatants": "Western Roman Empire and Visigoths vs Suevi",
+    "commander": "Ricimer",
+    "description": "Battle of Placentia (456 AD). Ricimer defeats the emperor Avitus, becoming the power behind the throne.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-cartagena-461",
+    "name": "Battle of Cartagena",
+    "year": 461,
+    "lat": 37.6,
+    "lng": -0.98,
+    "outcome": "defeat",
+    "combatants": "Western Roman Empire vs Vandals",
+    "commander": "Majorian",
+    "description": "Battle of Cartagena (461 AD). Vandals destroy Majorian's invasion fleet, dooming his reconquest attempt.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-cap-bon",
+    "name": "Battle of Cap Bon",
+    "year": 468,
+    "lat": 36.83,
+    "lng": 11.05,
+    "outcome": "defeat",
+    "combatants": "Roman Empire vs Vandals",
+    "commander": "Basiliscus",
+    "description": "Battle of Cap Bon (468 AD). Vandals use fire ships to destroy the massive Roman-Byzantine fleet.",
+    "source": "expansion"
+  },
+  {
+    "id": "battle-of-ravenna-476",
+    "name": "Battle of Ravenna (476 AD)",
+    "year": 476,
+    "lat": 44.42,
+    "lng": 12.2,
+    "outcome": "defeat",
+    "combatants": "Western Roman Empire vs Heruli/Sciri",
+    "commander": "Romulus Augustulus / Orestes",
+    "description": "Battle of Ravenna (476 AD). Odoacer deposes the last Western Roman emperor, ending the Western Empire.",
+    "source": "expansion"
   }
 ]

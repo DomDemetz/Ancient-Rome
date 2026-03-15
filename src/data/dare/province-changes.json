@@ -1,0 +1,97 @@
+[
+  {
+    "originalName": "Moesia",
+    "splitYear": 86,
+    "newProvinces": [
+      { "name": "Moesia Superior", "labelLat": 44.0, "labelLng": 21.0 },
+      { "name": "Moesia Inferior", "labelLat": 43.5, "labelLng": 25.5 }
+    ]
+  },
+  {
+    "originalName": "Pannonia",
+    "splitYear": 103,
+    "newProvinces": [
+      { "name": "Pannonia Superior", "labelLat": 47.5, "labelLng": 16.5 },
+      { "name": "Pannonia Inferior", "labelLat": 46.0, "labelLng": 19.0 }
+    ]
+  },
+  {
+    "originalName": "Syria",
+    "splitYear": 194,
+    "newProvinces": [
+      { "name": "Syria Coele", "labelLat": 35.5, "labelLng": 36.5 },
+      { "name": "Syria Phoenice", "labelLat": 34.0, "labelLng": 36.0 }
+    ]
+  },
+  {
+    "originalName": "Britannia",
+    "splitYear": 197,
+    "newProvinces": [
+      { "name": "Britannia Superior", "labelLat": 51.5, "labelLng": -2.0 },
+      { "name": "Britannia Inferior", "labelLat": 54.0, "labelLng": -1.5 }
+    ]
+  },
+  {
+    "originalName": "Africa Proconsularis",
+    "splitYear": 198,
+    "newProvinces": [
+      { "name": "Africa Proconsularis", "labelLat": 36.8, "labelLng": 10.0 },
+      { "name": "Numidia", "labelLat": 36.0, "labelLng": 6.5 }
+    ]
+  },
+  {
+    "originalName": "Tarraconensis",
+    "splitYear": 293,
+    "newProvinces": [
+      { "name": "Tarraconensis", "labelLat": 41.5, "labelLng": 0.5 },
+      { "name": "Gallaecia", "labelLat": 42.5, "labelLng": -7.5 },
+      { "name": "Carthaginiensis", "labelLat": 38.5, "labelLng": -1.5 }
+    ]
+  },
+  {
+    "originalName": "Lugdunensis",
+    "splitYear": 293,
+    "newProvinces": [
+      { "name": "Lugdunensis I", "labelLat": 47.5, "labelLng": 3.0 },
+      { "name": "Lugdunensis II", "labelLat": 49.5, "labelLng": 0.5 },
+      { "name": "Lugdunensis III", "labelLat": 47.5, "labelLng": -1.0 }
+    ]
+  },
+  {
+    "originalName": "Aquitania",
+    "splitYear": 293,
+    "newProvinces": [
+      { "name": "Aquitania I", "labelLat": 45.5, "labelLng": 2.0 },
+      { "name": "Aquitania II", "labelLat": 44.0, "labelLng": -0.5 }
+    ]
+  },
+  {
+    "originalName": "Belgica",
+    "splitYear": 293,
+    "newProvinces": [
+      { "name": "Belgica I", "labelLat": 49.0, "labelLng": 5.5 },
+      { "name": "Belgica II", "labelLat": 50.0, "labelLng": 3.0 }
+    ]
+  },
+  {
+    "originalName": "Asia",
+    "splitYear": 293,
+    "newProvinces": [
+      { "name": "Asia", "labelLat": 38.0, "labelLng": 27.5 },
+      { "name": "Hellespontus", "labelLat": 40.0, "labelLng": 27.0 },
+      { "name": "Lydia", "labelLat": 38.5, "labelLng": 28.5 },
+      { "name": "Caria", "labelLat": 37.0, "labelLng": 28.5 },
+      { "name": "Phrygia I", "labelLat": 38.5, "labelLng": 30.0 },
+      { "name": "Phrygia II", "labelLat": 38.0, "labelLng": 31.5 }
+    ]
+  },
+  {
+    "originalName": "Aegyptus",
+    "splitYear": 293,
+    "newProvinces": [
+      { "name": "Aegyptus Iovia", "labelLat": 30.5, "labelLng": 31.0 },
+      { "name": "Aegyptus Herculia", "labelLat": 28.5, "labelLng": 31.0 },
+      { "name": "Thebais", "labelLat": 26.0, "labelLng": 32.5 }
+    ]
+  }
+]

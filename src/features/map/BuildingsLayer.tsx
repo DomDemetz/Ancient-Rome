@@ -18,7 +18,24 @@ const BUILDING_COLORS: Record<string, string> = {
   column: '#bdc3c7',
   palace: '#8e44ad',
   library: '#2ecc71',
+  amphitheater: '#d4a574',
+  bridge: '#6baed6',
+  aqueduct: '#3498db',
+  nymphaeum: '#2ecc71',
 }
+
+// Building types shown at each zoom tier
+const TIER1_TYPES = new Set(['forum', 'circus', 'palace', 'library', 'column'])
+const TIER2_TYPES = new Set([
+  'forum',
+  'circus',
+  'palace',
+  'library',
+  'column',
+  'theater',
+  'bath',
+  'amphitheater',
+])
 
 function formatYear(year: number): string {
   if (year < 0) return `${Math.abs(year)} BC`
@@ -44,13 +61,13 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
   const visible = useMemo(() => {
     return data.filter((b) => {
       if (b.constructionYear > currentYear) return false
-      // Progressive disclosure: show major buildings at zoom 6+, all at 8+
+
+      // Progressive disclosure: 3 tiers
       if (zoom < 6) return false
-      if (zoom < 8) {
-        // At low zoom, only show major building types
-        const majorTypes = ['forum', 'circus', 'palace', 'library']
-        if (!majorTypes.includes(b.buildingType)) return false
-      }
+      if (zoom < 7 && !TIER1_TYPES.has(b.buildingType)) return false
+      if (zoom < 8 && !TIER2_TYPES.has(b.buildingType)) return false
+
+      // Bounds filtering
       if (zoom >= 7) {
         return (
           b.lat >= bounds.getSouth() &&
@@ -63,7 +80,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
     })
   }, [data, zoom, bounds, currentYear])
 
-  const baseRadius = zoom >= 8 ? 5 : zoom >= 6 ? 4 : 3
+  const baseRadius = zoom >= 9 ? 5 : zoom >= 7 ? 4 : 3
 
   return (
     <>

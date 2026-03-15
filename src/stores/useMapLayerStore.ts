@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import type { FeatureCollection } from 'geojson'
-import type { DareSettlement, ProvinceLabel, CityPopulation } from '@/data/dare'
+import type { DareSettlement, ProvinceLabel, CityPopulation, ProvinceChange } from '@/data/dare'
 import type { PresenceGrid } from '@/features/map/PresenceLayer'
 import type { SettlementCategory } from '@/features/map/settlementStyles'
 import type { Battle } from '@/data/battles'
@@ -169,11 +169,22 @@ export const LAYER_GROUPS: LayerGroup[] = [
         label: 'Epigraphy',
         activeClass: 'bg-yellow-900/80 border-yellow-700 text-yellow-100 hover:bg-yellow-800/80',
       },
+      {
+        key: 'Vici',
+        label: 'All Sites (85K)',
+        activeClass:
+          'bg-emerald-900/80 border-emerald-700 text-emerald-100 hover:bg-emerald-800/80',
+      },
     ],
   },
   {
     label: 'Economy',
     layers: [
+      {
+        key: 'Ports',
+        label: 'Ports & Harbours',
+        activeClass: 'bg-blue-900/80 border-blue-600 text-blue-100 hover:bg-blue-800/80',
+      },
       {
         key: 'TradeNetwork',
         label: 'Trade Network',
@@ -254,6 +265,8 @@ const ALL_LAYER_KEYS = [
   'showPresses',
   'showTradeNetwork',
   'showEpigraphy',
+  'showVici',
+  'showPorts',
 ] as const
 
 interface MapLayerState {
@@ -273,6 +286,7 @@ interface MapLayerState {
   presenceData: PresenceGrid | null
   provincesData: FeatureCollection | null
   provinceLabels: ProvinceLabel[] | null
+  provinceChanges: ProvinceChange[] | null
   fortificationsData: FeatureCollection | null
   waterData: FeatureCollection | null
   itinereRoadsData: FeatureCollection | null
@@ -326,6 +340,12 @@ interface MapLayerState {
   showEpigraphy: boolean
   epigraphyData: EpigraphyCluster[] | null
   epigraphyLoading: boolean
+  showVici: boolean
+  viciData: unknown[] | null
+  viciLoading: boolean
+  showPorts: boolean
+  portsData: unknown[] | null
+  portsLoading: boolean
 
   // Settlement filtering
   settlementTypes: Record<number, boolean>
@@ -358,6 +378,8 @@ interface MapLayerActions {
   togglePresses: () => void
   toggleTradeNetwork: () => void
   toggleEpigraphy: () => void
+  toggleVici: () => void
+  togglePorts: () => void
   activatePreset: (preset: PresetName) => void
 }
 
@@ -428,6 +450,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showProvinces: false,
   provincesData: null,
   provinceLabels: null,
+  provinceChanges: null,
   provincesLoading: false,
   showFortifications: false,
   fortificationsData: null,
@@ -474,6 +497,12 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showEpigraphy: false,
   epigraphyData: null,
   epigraphyLoading: false,
+  showVici: false,
+  viciData: null,
+  viciLoading: false,
+  showPorts: false,
+  portsData: null,
+  portsLoading: false,
   settlementTypes: { ...defaultSettlementTypes },
   hiddenCategories: new Set<string>(),
   activePreset: 'custom',
@@ -509,9 +538,13 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleProvinces: () =>
     makeToggle('showProvinces', 'provincesData', 'provincesLoading', async () => {
-      const { loadProvinces, loadProvinceLabels } = await import('@/data/dare')
-      const [data, labels] = await Promise.all([loadProvinces(), loadProvinceLabels()])
-      return { data, extra: { provinceLabels: labels } }
+      const { loadProvinces, loadProvinceLabels, loadProvinceChanges } = await import('@/data/dare')
+      const [data, labels, changes] = await Promise.all([
+        loadProvinces(),
+        loadProvinceLabels(),
+        loadProvinceChanges().catch(() => []),
+      ])
+      return { data, extra: { provinceLabels: labels, provinceChanges: changes } }
     })(set, get),
 
   toggleFortifications: () =>
@@ -604,6 +637,18 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: await loadEpigraphy() }
     })(set, get),
 
+  toggleVici: () =>
+    makeToggle('showVici', 'viciData', 'viciLoading', async () => {
+      const data = await import('@/data/vici-sites.json')
+      return { data: data.default }
+    })(set, get),
+
+  togglePorts: () =>
+    makeToggle('showPorts', 'portsData', 'portsLoading', async () => {
+      const data = await import('@/data/ancient-ports.json')
+      return { data: data.default }
+    })(set, get),
+
   toggleSettlementType: (type: number) => {
     const { settlementTypes } = get()
     set({ settlementTypes: { ...settlementTypes, [type]: !settlementTypes[type] } })
@@ -684,9 +729,14 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
         loadingKey: 'provincesLoading',
         load: async () => {
           set({ provincesLoading: true })
-          const { loadProvinces, loadProvinceLabels } = await import('@/data/dare')
-          const [d, l] = await Promise.all([loadProvinces(), loadProvinceLabels()])
-          set({ provincesData: d, provinceLabels: l, provincesLoading: false })
+          const { loadProvinces, loadProvinceLabels, loadProvinceChanges } =
+            await import('@/data/dare')
+          const [d, l, c] = await Promise.all([
+            loadProvinces(),
+            loadProvinceLabels(),
+            loadProvinceChanges().catch(() => []),
+          ])
+          set({ provincesData: d, provinceLabels: l, provinceChanges: c, provincesLoading: false })
         },
       },
       showFortifications: {

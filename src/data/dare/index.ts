@@ -72,3 +72,14 @@ export async function loadCityPopulations(): Promise<CityPopulation[]> {
   const data = await import('./city-populations.json')
   return data.default as unknown as CityPopulation[]
 }
+
+export interface ProvinceChange {
+  originalName: string
+  splitYear: number
+  newProvinces: { name: string; labelLat: number; labelLng: number }[]
+}
+
+export async function loadProvinceChanges(): Promise<ProvinceChange[]> {
+  const data = await import('./province-changes.json')
+  return data.default as unknown as ProvinceChange[]
+}

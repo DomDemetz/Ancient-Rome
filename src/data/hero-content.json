@@ -1,1 +1,2002 @@
-[]
+[
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-cannae",
+    "highlight": true,
+    "narrative": "On August 2, 216 BC, Hannibal Barca achieved what military historians still consider the most perfect tactical victory in the history of warfare. Using a deliberate weak center and strong flanking cavalry, he enveloped and annihilated a Roman army nearly twice his size. The double envelopment at Cannae became the gold standard for tactical excellence, studied at military academies to this day.",
+    "significance": "Deadliest single day in Roman history — up to 70,000 killed",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Battle_of_Cannae%2C_215_BC_-_en.svg/800px-Battle_of_Cannae%2C_215_BC_-_en.svg.png",
+    "relatedIds": ["hannibal", "second-punic-war"],
+    "funFact": "The Roman losses at Cannae exceeded the total US casualties on D-Day by a factor of 7."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-zama",
+    "highlight": true,
+    "narrative": "In 202 BC, Scipio Africanus turned Hannibal's own tactics against him on the plains of Zama in North Africa. By opening lanes in his infantry to neutralize Hannibal's war elephants and using superior cavalry to strike the Carthaginian rear, Scipio won the decisive battle of the Second Punic War. Hannibal, undefeated for 15 years in Italy, finally met his match.",
+    "significance": "Ended the Second Punic War and established Rome as the dominant Mediterranean power",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Battle_of_Zama_by_Henri-Paul_Motte_%281890%29.jpg/800px-Battle_of_Zama_by_Henri-Paul_Motte_%281890%29.jpg",
+    "relatedIds": ["scipio-africanus", "hannibal", "second-punic-war"],
+    "funFact": "After the battle, Hannibal told Scipio that Alexander the Great was history's greatest general — but if Hannibal had won at Zama, he would have ranked himself first."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-alesia",
+    "highlight": true,
+    "narrative": "In 52 BC, Julius Caesar besieged the Gallic stronghold of Alesia while simultaneously defending against a massive relief army. He built two concentric rings of fortifications — one facing inward to contain Vercingetorix, and one facing outward against the relief force. This extraordinary feat of military engineering defeated both armies and effectively ended Gallic independence.",
+    "significance": "Ended organized Gallic resistance and secured Caesar's conquest of Gaul",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Siege-alesia-vercingetorix-jules-cesar.jpg/800px-Siege-alesia-vercingetorix-jules-cesar.jpg",
+    "relatedIds": ["julius-caesar"],
+    "funFact": "Caesar's double fortification line at Alesia stretched over 18 km in circumference — roughly the length of a half marathon."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-pharsalus",
+    "highlight": true,
+    "narrative": "On August 9, 48 BC, Caesar faced Pompey's numerically superior army in central Greece. Despite being outnumbered nearly two to one, Caesar's veteran legions routed Pompey's forces in a decisive engagement. Caesar's innovative use of a hidden fourth line of infantry to counter Pompey's cavalry charge proved the turning point. Pompey fled to Egypt, where he was murdered.",
+    "significance": "Decided the Roman civil war in Caesar's favor and effectively ended the Republic",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Cesar-peeter_paul_rubens.jpg/800px-Cesar-peeter_paul_rubens.jpg",
+    "relatedIds": ["julius-caesar", "pompey"],
+    "funFact": "After the battle, Caesar reportedly wept when he was presented with Pompey's severed head in Egypt."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-actium",
+    "highlight": true,
+    "narrative": "On September 2, 31 BC, the fleets of Octavian and Mark Antony clashed off the western coast of Greece in the battle that would decide the fate of the Roman world. Antony and Cleopatra's combined fleet was trapped in the Gulf of Ambracia by Octavian's admiral Agrippa. When Cleopatra broke through the blockade with her Egyptian squadron, Antony abandoned his fleet to follow her, sealing his defeat.",
+    "significance": "Made Octavian sole ruler of Rome, ending a century of civil wars and birthing the Roman Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Castro_Battle_of_Actium.jpg/800px-Castro_Battle_of_Actium.jpg",
+    "relatedIds": ["augustus", "mark-antony", "cleopatra", "battle-of-actium"],
+    "funFact": "Octavian built an entire city, Nicopolis ('Victory City'), on the site of his camp to commemorate the battle."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-teutoburg-forest",
+    "highlight": true,
+    "narrative": "In September 9 AD, an alliance of Germanic tribes led by Arminius ambushed and destroyed three Roman legions under Publius Quinctilius Varus in the dense forests of Germania. The XVII, XVIII, and XIX legions were annihilated — their numbers were never reused. Emperor Augustus was reportedly so shaken that he would bang his head against a door, crying 'Quintilius Varus, give me back my legions!'",
+    "significance": "Halted Roman expansion into Germania and set the Rhine as Rome's permanent northern frontier",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Varusschlacht_Karte.png/800px-Varusschlacht_Karte.png",
+    "relatedIds": ["augustus"],
+    "funFact": "The site of the battle was lost for nearly 2,000 years until an amateur archaeologist discovered it at Kalkriese in 1987."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "siege-of-jerusalem",
+    "highlight": true,
+    "narrative": "In 70 AD, Titus besieged Jerusalem during the First Jewish-Roman War. After months of brutal fighting, the Romans breached the city walls and destroyed the Second Temple, the holiest site in Judaism. Josephus recorded that 1.1 million people perished, though modern estimates are lower. The Temple treasures were paraded through Rome and depicted on the Arch of Titus, which still stands in the Forum.",
+    "significance": "Destroyed the Second Temple and fundamentally reshaped Judaism and early Christianity",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Roberts_Siege_and_Destruction_of_Jerusalem.jpg/800px-Roberts_Siege_and_Destruction_of_Jerusalem.jpg",
+    "relatedIds": ["titus", "vespasian", "jerusalem"],
+    "funFact": "The spoils from the Temple funded construction of the Colosseum — an inscription confirmed in 2001."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-adrianople",
+    "highlight": true,
+    "narrative": "On August 9, 378 AD, the Gothic cavalry annihilated the Eastern Roman army and killed Emperor Valens on the plains outside Adrianople. This catastrophic defeat exposed the vulnerability of Roman infantry to heavy cavalry and is often cited as a turning point marking the beginning of the end of the Roman Empire. Two-thirds of the eastern field army was destroyed in a single afternoon.",
+    "significance": "Often called the beginning of the end of the Roman Empire — proved heavy cavalry could defeat Roman legions",
+    "imageUrl": null,
+    "relatedIds": ["valens", "theodosius"],
+    "funFact": "The body of Emperor Valens was never found — he either burned alive in a farmhouse or was killed anonymously on the battlefield."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-milvian-bridge",
+    "highlight": true,
+    "narrative": "On October 28, 312 AD, Constantine defeated his rival Maxentius at the Milvian Bridge over the Tiber just north of Rome. According to Eusebius, Constantine saw a cross of light in the sky before the battle with the words 'In this sign, conquer.' Maxentius drowned in the Tiber when the pontoon bridge collapsed under his fleeing troops. Constantine's victory led directly to the legalization of Christianity.",
+    "significance": "Led to the Edict of Milan and the Christianization of the Roman Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Battle_of_the_Milvian_Bridge_by_Giulio_Romano%2C_1520-24.jpg/800px-Battle_of_the_Milvian_Bridge_by_Giulio_Romano%2C_1520-24.jpg",
+    "relatedIds": ["constantine", "edict-of-milan-event"],
+    "funFact": "Maxentius had destroyed the stone bridge himself to trap Constantine — then had to cross his own pontoon replacement, which collapsed."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-thermopylae",
+    "highlight": true,
+    "narrative": "In 191 BC, the Romans under Manius Acilius Glabrio defeated the Seleucid King Antiochus III at the same narrow pass where Leonidas had faced the Persians 289 years earlier. Marcus Porcius Cato led a flanking force over the mountain paths — ironically replicating the Persian maneuver that had doomed the Spartans. This Roman victory opened Greece to Roman hegemony.",
+    "significance": "Ended Seleucid ambitions in Greece and established Roman dominance over the eastern Mediterranean",
+    "imageUrl": null,
+    "relatedIds": ["cato-the-elder"],
+    "funFact": "Cato the Elder, who led the flanking march, was 43 years old and supposedly scrambled over the cliffs on hands and knees."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-carthage",
+    "highlight": true,
+    "narrative": "In 146 BC, Scipio Aemilianus stormed Carthage after a three-year siege, systematically destroying Rome's greatest rival. The city burned for 17 days. Survivors were sold into slavery and the site was cursed. The story that Romans salted the earth is a later myth, but the destruction was thorough enough that Carthage ceased to exist as a political entity for over a century.",
+    "significance": "Eliminated Rome's greatest rival and gave Rome unchallenged control of the western Mediterranean",
+    "imageUrl": null,
+    "relatedIds": ["third-punic-war", "carthage", "cato-the-elder"],
+    "funFact": "Cato the Elder ended every Senate speech — regardless of topic — with 'Carthago delenda est' ('Carthage must be destroyed')."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-corinth",
+    "highlight": true,
+    "narrative": "In 146 BC — the same year as Carthage's destruction — the Roman consul Lucius Mummius sacked Corinth, one of the wealthiest and most cultured cities in Greece. The men were killed, women and children enslaved, and the city's art treasures shipped to Rome. The destruction served as a brutal warning to the Greek world that resistance to Rome was futile.",
+    "significance": "Marked the effective end of Greek independence and the beginning of direct Roman rule over Greece",
+    "imageUrl": null,
+    "relatedIds": ["athens"],
+    "funFact": "Mummius was reportedly so uncultured that he warned the shippers: if they damaged the artworks, they would have to replace them with new ones."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-pydna",
+    "highlight": true,
+    "narrative": "On June 22, 168 BC, the Roman general Lucius Aemilius Paullus shattered the Macedonian phalanx of King Perseus at Pydna. The battle demonstrated that the flexible Roman manipular legion could exploit gaps in the rigid phalanx formation on uneven ground. Macedonia's 150-year-old Antigonid dynasty ended in a single afternoon, and Rome became the undisputed master of the Greek world.",
+    "significance": "Proved Roman legion superiority over the Macedonian phalanx and ended the Antigonid dynasty",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Aemilius Paullus admitted that the sight of the advancing Macedonian phalanx was the most terrifying thing he had ever seen."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-cynoscephalae",
+    "highlight": true,
+    "narrative": "In 197 BC, the Roman consul Titus Quinctius Flamininus defeated Philip V of Macedon in the hills of Thessaly. In poor visibility on the ridge called 'Dog's Heads,' the flexible Roman maniples outfought the Macedonian phalanx on broken terrain. A nameless tribune's improvised flanking attack on the Macedonian rear turned a hard fight into a rout, demonstrating Roman tactical adaptability.",
+    "significance": "First major Roman victory over a Macedonian phalanx in open battle",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "After the victory, Flamininus declared all Greek cities free at the Isthmian Games — the crowd cheered so loudly that birds reportedly fell from the sky."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-lake-trasimene",
+    "highlight": true,
+    "narrative": "On June 24, 217 BC, Hannibal executed the largest successful ambush in military history along the shores of Lake Trasimene. Hiding his entire army in the hills and morning mist, he trapped the Roman army of Gaius Flaminius against the lake. The battle lasted only three hours; 15,000 Romans were killed including the consul himself, and 10,000 captured. Some soldiers drowned trying to escape across the lake.",
+    "significance": "Largest successful ambush in military history — destroyed an entire Roman consular army",
+    "imageUrl": null,
+    "relatedIds": ["hannibal", "second-punic-war"],
+    "funFact": "The battle was so intense that neither side noticed a major earthquake that struck during the fighting."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-trebia",
+    "highlight": true,
+    "narrative": "In December 218 BC, Hannibal lured the Roman consul Tiberius Sempronius Longus into attacking across the freezing Trebia River at dawn. The Romans waded through chest-deep icy water without breakfast, then faced Hannibal's army and a hidden flanking force under Mago. Of 40,000 Romans, only 10,000 cut their way through Hannibal's center to escape — the first of three catastrophic defeats.",
+    "significance": "First major battle of the Second Punic War in Italy — demonstrated Hannibal's tactical genius",
+    "imageUrl": null,
+    "relatedIds": ["hannibal", "second-punic-war"],
+    "funFact": "Hannibal's soldiers rubbed themselves with olive oil before the battle to protect against the freezing cold — a luxury the shivering Romans lacked."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-carrhae",
+    "highlight": true,
+    "narrative": "In 53 BC, Marcus Licinius Crassus led seven Roman legions into the Mesopotamian desert seeking glory against the Parthian Empire. At Carrhae, the Parthian horse archers destroyed the Roman army through hit-and-run tactics, using a camel train to resupply arrows indefinitely. Crassus was killed during a failed parley, and according to legend, molten gold was poured into his mouth to mock his legendary greed.",
+    "significance": "Worst Roman defeat in the East — established the Euphrates as the boundary between Rome and Parthia",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The captured Roman legionary standards were not recovered for 33 years, until Augustus negotiated their return — one of his proudest achievements."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-catalaunian-plains",
+    "highlight": true,
+    "narrative": "In June 451 AD, the Roman general Aetius allied with the Visigoths to halt Attila the Hun's invasion of Gaul. The resulting clash near Chalons was one of the bloodiest battles of antiquity, with reported casualties reaching 160,000. The Visigothic king Theodoric was killed, but Attila was forced to retreat — one of the last great victories of the Western Roman Empire.",
+    "significance": "Stopped Attila's invasion of Western Europe — one of the last victories of the Western Roman Empire",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The battle was so fierce that a nearby stream reportedly ran red with blood, and wounded soldiers drank the bloody water out of desperate thirst."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-frigidus",
+    "highlight": true,
+    "narrative": "On September 5-6, 394 AD, the Eastern Emperor Theodosius defeated the Western usurper Eugenius in the Julian Alps. A sudden bora windstorm blew directly into the faces of Eugenius' troops, which Christians interpreted as divine intervention. This was the last battle in which a pagan revival was attempted — the old Roman gods had lost their final champion.",
+    "significance": "Last battle between pagan and Christian Rome — permanently established Christianity as the empire's religion",
+    "imageUrl": null,
+    "relatedIds": ["theodosius"],
+    "funFact": "The bora winds that helped Theodosius can gust up to 200 km/h in the Julian Alps — powerful enough to overturn trucks today."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-strasbourg",
+    "highlight": true,
+    "narrative": "In August 357 AD, the 25-year-old Caesar Julian (later Julian the Apostate) defeated a massive Alamanni confederation under King Chnodomar near Argentoratum (Strasbourg). Despite being outnumbered roughly 3 to 1, Julian's 13,000 troops routed 35,000 Alamanni, killing 6,000 and driving thousands more to drown in the Rhine. It was the greatest Roman victory on the Rhine frontier in generations.",
+    "significance": "Restored Roman control over the Rhine frontier and launched Julian's meteoric rise",
+    "imageUrl": null,
+    "relatedIds": ["julian"],
+    "funFact": "Julian personally steadied his retreating cavalry by riding into the rout — an act of bravery or recklessness depending on the source."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-sentinum",
+    "highlight": true,
+    "narrative": "In 295 BC, Rome faced a grand coalition of Samnites, Gauls, Etruscans, and Umbrians at Sentinum in one of the largest battles of the ancient world. When the Roman left wing faltered against the Gallic chariots, the consul Publius Decius Mus performed the ritual of devotio — consecrating himself and the enemy to the gods of the underworld — and charged to his death. His sacrifice rallied the Romans to victory.",
+    "significance": "Largest battle of the Samnite Wars — secured Roman dominance over the Italian peninsula",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Decius Mus was the third member of his family to perform devotio in battle — his father and grandfather had done the same."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-magnesia",
+    "highlight": true,
+    "narrative": "In 190 BC, the Roman-Pergamene army under Lucius Cornelius Scipio (brother of Africanus) crushed Antiochus III's Seleucid Empire at Magnesia in Asia Minor. The Seleucid war elephants panicked and trampled their own troops, while the Roman legions held firm. The resulting Treaty of Apamea stripped the Seleucids of Asia Minor and established Rome as the arbiter of the eastern Mediterranean.",
+    "significance": "Broke the Seleucid Empire and established Roman hegemony over the eastern Mediterranean",
+    "imageUrl": null,
+    "relatedIds": ["scipio-africanus"],
+    "funFact": "Hannibal was serving as a military advisor to Antiochus but was ignored — he reportedly said the king's army was 'enough for the Romans, however greedy they are.'"
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-aquae-sextiae",
+    "highlight": true,
+    "narrative": "In 102 BC, Gaius Marius ambushed and annihilated the Teutones and Ambrones near Aquae Sextiae (Aix-en-Provence). After luring the Germanic warriors into an uphill attack, a hidden Roman force struck their rear. According to ancient sources, 100,000 were killed and 100,000 captured. The victory saved Italy from a terrifying barbarian invasion that had already destroyed multiple Roman armies.",
+    "significance": "Saved Rome from the Cimbrian-Teutonic migration threat that had terrorized the Republic for a decade",
+    "imageUrl": null,
+    "relatedIds": ["gaius-marius"],
+    "funFact": "The Teutone women fought alongside the men; when defeated, many killed their own children and then themselves rather than face enslavement."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-vercellae",
+    "highlight": true,
+    "narrative": "On July 30, 101 BC, Marius and Catulus destroyed the Cimbri at Vercellae in the Po Valley, ending the Germanic migration crisis. The Cimbri's front ranks were chained together to prevent retreat. A dust cloud and summer heat disoriented the northerners, accustomed to cold climates. An estimated 100,000 Cimbri were killed — the tribe effectively ceased to exist.",
+    "significance": "Eliminated the Cimbrian threat and made Marius the most celebrated Roman general of his era",
+    "imageUrl": null,
+    "relatedIds": ["gaius-marius"],
+    "funFact": "Marius was elected consul an unprecedented five consecutive times specifically to deal with the Cimbrian emergency."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-philippi",
+    "highlight": true,
+    "narrative": "In October 42 BC, the forces of Octavian and Mark Antony clashed twice with the Republican armies of Brutus and Cassius on the plains of Philippi in Macedonia. Cassius committed suicide after the first engagement, mistakenly believing all was lost. Three weeks later, Brutus was defeated and also took his own life. The Republic died with them on those Macedonian fields.",
+    "significance": "Destroyed the last Republican resistance and avenged Caesar's assassination",
+    "imageUrl": null,
+    "relatedIds": ["augustus", "mark-antony", "marcus-brutus", "assassination-of-caesar"],
+    "funFact": "Brutus' last words were reportedly a quote from a lost Greek tragedy: 'O wretched virtue, you were but a name, and yet I worshipped you as real.'"
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-watling-street",
+    "highlight": true,
+    "narrative": "In 60 or 61 AD, the Roman governor Suetonius Paulinus with just 10,000 legionaries defeated Queen Boudicca's British rebel army of perhaps 100,000 in a narrow defile along Watling Street. The Romans chose terrain that negated the Britons' numerical advantage, then methodically cut them down. The Britons' own wagons, parked behind them as spectator seating for their families, blocked their retreat and turned defeat into massacre.",
+    "significance": "Crushed the most serious native revolt in Roman Britain and secured the province for three more centuries",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Boudicca's rebels had already destroyed Londinium, Camulodunum, and Verulamium, killing an estimated 70,000-80,000 people before this battle."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-edessa",
+    "highlight": true,
+    "narrative": "In 260 AD, Emperor Valerian became the only Roman emperor ever captured alive in battle when the Sasanian King Shapur I defeated and seized him near Edessa. Valerian spent the rest of his life in Persian captivity. According to hostile Roman sources, Shapur used him as a human footstool for mounting his horse, and after death, his skin was stuffed and displayed in a Persian temple.",
+    "significance": "Greatest humiliation in Roman military history — only emperor captured alive by a foreign enemy",
+    "imageUrl": null,
+    "relatedIds": ["valerian"],
+    "funFact": "A rock relief at Naqsh-e Rostam in Iran still shows Shapur on horseback grasping Valerian by the wrist."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-aous",
+    "highlight": false,
+    "narrative": "In 198 BC, Titus Quinctius Flamininus forced the pass of the Aous against Philip V of Macedon, beginning the Roman campaign that would liberate Greece. Local shepherds showed the Romans a hidden mountain path to outflank the Macedonian position, echoing the tactic used against the Spartans at Thermopylae centuries earlier.",
+    "significance": "Opened Macedonia to Roman invasion during the Second Macedonian War",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Flamininus was only 30 years old when he took command — unusually young for a consul commanding a major campaign."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-mylae",
+    "highlight": false,
+    "narrative": "In 260 BC, Rome won its first major naval victory at Mylae off the coast of Sicily, using the revolutionary corvus boarding bridge to turn a sea battle into an infantry fight. The consul Gaius Duilius captured or sank 50 Carthaginian ships. Rome, a landlocked power with no naval tradition, had learned to fight at sea in just two years.",
+    "significance": "Rome's first naval victory — proved the corvus boarding device could neutralize Carthaginian naval superiority",
+    "imageUrl": null,
+    "relatedIds": ["first-punic-war"],
+    "funFact": "Duilius was granted the unique honor of being accompanied by a torchbearer and flute player whenever he dined out — for life."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-heraclea",
+    "highlight": false,
+    "narrative": "In 280 BC, King Pyrrhus of Epirus defeated Rome at Heraclea using war elephants — animals the Romans had never encountered. Though Pyrrhus won, his losses were so heavy that he reportedly said, 'One more such victory and I am lost.' This gave the world the enduring concept of a 'Pyrrhic victory.'",
+    "significance": "First Roman encounter with war elephants and origin of the term 'Pyrrhic victory'",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Pyrrhus was so impressed by the Roman dead — all facing forward with their wounds in front — that he declared he could conquer the world with Roman soldiers."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-veii",
+    "highlight": false,
+    "narrative": "In 396 BC, the Roman dictator Marcus Furius Camillus captured the wealthy Etruscan city of Veii after a legendary ten-year siege. Roman soldiers tunneled into the city through the drainage system beneath the temple of Juno. The fall of Veii doubled Rome's territory and marked the beginning of Rome's transformation from a regional city-state into an Italian power.",
+    "significance": "Doubled Roman territory and began Rome's expansion beyond Latium",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Romans consciously modeled their siege of Veii on the Greek siege of Troy — the ten-year duration was no coincidence."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-allia-river",
+    "highlight": false,
+    "narrative": "On July 18, 390 BC (or 387 BC), a Gallic war band under Brennus routed the Roman army at the Allia River and proceeded to sack Rome itself. Only the Capitol, defended by the garrison and its sacred geese, held out. The trauma of the Gallic sack shaped Roman military and foreign policy for centuries — never again would Rome be caught so unprepared.",
+    "significance": "Only successful sack of Rome for 800 years — traumatized the Roman psyche for generations",
+    "imageUrl": null,
+    "relatedIds": ["sack-by-gauls"],
+    "funFact": "The sacred geese of Juno on the Capitol allegedly saved Rome by honking to alert the garrison to a nighttime Gallic assault."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-munda",
+    "highlight": false,
+    "narrative": "On March 17, 45 BC, Caesar fought his last and most desperate battle against the sons of Pompey in Spain. The fighting was so fierce that Caesar himself had to grab a shield and fight in the front line to prevent a rout. After the battle, Caesar reportedly said he had often fought for victory, but at Munda he fought for his life.",
+    "significance": "Caesar's last major battle — final defeat of the Pompeian faction in the civil wars",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar"],
+    "funFact": "Caesar was assassinated less than a year after Munda — his clemency toward defeated enemies ultimately proved fatal."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-naissus",
+    "highlight": false,
+    "narrative": "In 268-269 AD, Emperor Gallienus (and then Claudius II Gothicus) destroyed a massive Gothic invasion force near Naissus (modern Nis, Serbia). Up to 50,000 Goths were killed in what was the greatest Roman victory of the Crisis of the Third Century. Claudius earned the title 'Gothicus' and briefly stabilized the empire before dying of plague.",
+    "significance": "Turned back the largest Gothic invasion of the 3rd century and stabilized the eastern Balkans",
+    "imageUrl": null,
+    "relatedIds": ["gallienus", "claudius-gothicus"],
+    "funFact": "Claudius II died of plague just two years after his triumph — the disease likely came from the Gothic prisoners settled within the empire."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-lugdunum",
+    "highlight": false,
+    "narrative": "On February 19, 197 AD, Septimius Severus defeated his rival Clodius Albinus outside Lugdunum (Lyon) in the bloodiest battle of the Roman civil wars. An estimated 150,000 soldiers fought on both sides. Severus nearly lost when his horse was killed under him, but his cavalry commander Laetus turned the tide with a decisive charge. Lugdunum was sacked and never fully recovered.",
+    "significance": "Secured sole rule for Septimius Severus and established the Severan dynasty",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus"],
+    "funFact": "Lugdunum (Lyon) was the largest city in Gaul before the battle — it took centuries to recover from the sack."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-mons-graupius",
+    "highlight": false,
+    "narrative": "In 83 or 84 AD, Gnaeus Julius Agricola defeated the Caledonian confederation under Calgacus at Mons Graupius in Scotland, the northernmost battle the Roman army ever fought. Tacitus put a famous speech in Calgacus' mouth: 'They make a desolation and call it peace.' Despite the victory, Rome never permanently occupied Scotland.",
+    "significance": "Northernmost Roman military engagement — high water mark of Roman expansion in Britain",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The exact location of Mons Graupius remains one of Scotland's greatest archaeological mysteries — over 30 sites have been proposed."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-metaurus",
+    "highlight": false,
+    "narrative": "In 207 BC, the Romans intercepted and destroyed Hasdrubal Barca's army at the Metaurus River before it could reinforce Hannibal in southern Italy. Hasdrubal was killed and his severed head was catapulted into Hannibal's camp. Upon recognizing his brother's face, Hannibal reportedly said, 'I see the fate of Carthage.' The victory was the true turning point of the Second Punic War.",
+    "significance": "Prevented Hannibal from receiving reinforcements and turned the tide of the Second Punic War",
+    "imageUrl": null,
+    "relatedIds": ["hannibal", "second-punic-war"],
+    "funFact": "The Roman consul Nero marched his army 400 km in 7 days to surprise Hasdrubal — one of the most audacious forced marches in military history."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-ilipa",
+    "highlight": false,
+    "narrative": "In 206 BC, Scipio Africanus won his masterpiece battle in Spain by reversing his usual battle formation at the last moment. For days he placed his best Roman troops in the center, then on the day of battle suddenly put them on the wings. The Carthaginian commanders, who had matched their dispositions to his routine, were outflanked and crushed. Spain was lost to Carthage forever.",
+    "significance": "Drove Carthage from the Iberian Peninsula and showcased Scipio's innovative tactical thinking",
+    "imageUrl": null,
+    "relatedIds": ["scipio-africanus", "second-punic-war"],
+    "funFact": "Scipio attacked at dawn, forcing the Carthaginians to fight on empty stomachs — hunger won as many battles as swords in the ancient world."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-ctesiphon",
+    "highlight": false,
+    "narrative": "In 363 AD, Emperor Julian led a bold invasion deep into Sasanian Mesopotamia and defeated the Persian army outside their capital Ctesiphon. However, Julian chose not to besiege the massively fortified city and burned his supply fleet. During the chaotic retreat, he was mortally wounded by a spear — possibly thrown by one of his own Christian soldiers. He died murmuring, 'You have won, Galilean.'",
+    "significance": "Last major Roman offensive into Mesopotamia — Julian's death ended the last pagan imperial dynasty",
+    "imageUrl": null,
+    "relatedIds": ["julian"],
+    "funFact": "Julian's famous last words 'Vicisti, Galilaee' ('You have won, Galilean') are probably apocryphal — the Christian historian Theodoret invented them."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "sack-of-rome-by-alaric",
+    "highlight": true,
+    "narrative": "On August 24, 410 AD, the Visigoth king Alaric I sacked Rome — the first time the Eternal City had fallen to a foreign enemy in 800 years. Slaves opened the Salarian Gate at night, and the Visigoths plundered the city for three days. Though relatively restrained by ancient standards, the psychological shock reverberated across the Roman world. Saint Jerome, writing from Bethlehem, wept: 'The city which took the whole world was itself taken.'",
+    "significance": "First sack of Rome in 800 years — shattered the myth of Roman invincibility",
+    "imageUrl": null,
+    "relatedIds": ["honorius"],
+    "funFact": "When told Rome had fallen, Emperor Honorius in Ravenna reportedly panicked about his pet chicken named 'Roma' before realizing they meant the city."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-bibracte",
+    "highlight": false,
+    "narrative": "In 58 BC, Caesar defeated the migrating Helvetii near Bibracte in his first major engagement of the Gallic Wars. After routing the Helvetii vanguard, Caesar's legions had to fight a desperate second battle against the Boii and Tulingi who attacked from the rear. The surviving Helvetii were sent home — Caesar could not afford a power vacuum on the Rhine. It was the opening chapter of an eight-year conquest.",
+    "significance": "Caesar's first major victory in Gaul — launched the campaigns that would make him Rome's most powerful man",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar"],
+    "funFact": "Caesar found census records in the Helvetii camp written in Greek letters, showing that 368,000 people had set out on the migration."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-numantia",
+    "highlight": false,
+    "narrative": "In 133 BC, Scipio Aemilianus finally subdued the Celtiberian stronghold of Numantia after a grueling siege. The small town of just 4,000 warriors had humiliated Rome for two decades, even forcing a Roman army to surrender and pass under the yoke. When the end came, many Numantines chose to burn their city and kill themselves rather than surrender — becoming eternal symbols of resistance in Spain.",
+    "significance": "Ended 20 years of Celtiberian resistance and completed Roman conquest of central Spain",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Numantia held out against Rome for 20 years despite having only about 4,000 warriors — the Spanish still celebrate them as national heroes."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-the-colline-gate",
+    "highlight": false,
+    "narrative": "On November 1, 82 BC, Sulla defeated a combined Samnite-Marian army at the Colline Gate of Rome itself — the closest the city came to destruction since the Gallic sack. The battle raged through the night; Sulla's left wing was driven back against the city walls before his right wing crushed the enemy. Afterwards, Sulla executed 8,000 prisoners in the nearby Circus and began his infamous proscriptions.",
+    "significance": "Saved Rome from capture and established Sulla's dictatorship",
+    "imageUrl": null,
+    "relatedIds": ["sulla"],
+    "funFact": "Sulla conducted the mass execution of prisoners within earshot of the Senate — when senators flinched at the screams, he told them to pay attention to his speech instead."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-pollentia",
+    "highlight": false,
+    "narrative": "On Easter Day 402 AD, the magister militum Stilicho attacked Alaric's Visigoths at Pollentia in northern Italy. The timing — a Christian holiday — scandalized contemporaries but achieved tactical surprise. Though not a decisive victory, Stilicho captured Alaric's camp and family, forcing the Goths to withdraw from Italy temporarily. It was one of the last successful Roman defensive actions in the West.",
+    "significance": "Temporarily halted the Visigothic advance into Italy — among the last Western Roman victories",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Stilicho was himself half-Vandal — the last effective defender of Rome was of barbarian origin."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-emesa",
+    "highlight": false,
+    "narrative": "In 272 AD, Emperor Aurelian defeated the forces of Queen Zenobia of Palmyra at Emesa in Syria. Zenobia's heavy armored cavalry initially routed the Roman horsemen, but Aurelian let them pursue and then destroyed Zenobia's infantry. The battle effectively ended the Palmyrene Empire and reunified the eastern provinces. Aurelian then marched to Palmyra and captured Zenobia herself.",
+    "significance": "Destroyed the breakaway Palmyrene Empire and reunified the Roman East",
+    "imageUrl": null,
+    "relatedIds": ["aurelian"],
+    "funFact": "Zenobia claimed descent from Cleopatra and Dido of Carthage — she was displayed in golden chains in Aurelian's triumph but was spared and given a villa near Tivoli."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "siege-of-masada",
+    "highlight": true,
+    "narrative": "In 73-74 AD, the Roman Tenth Legion besieged the mountain fortress of Masada, the last holdout of the Jewish revolt. Rather than risk assault on the clifftop fortress, the Romans built an enormous ramp up the western face — using Jewish prisoners as laborers to deter the defenders from attacking them. When they finally breached the walls, they found that 960 defenders had committed mass suicide rather than be enslaved.",
+    "significance": "Final act of the First Jewish-Roman War — became a symbol of resistance and sacrifice",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Israel-2013-Aerial_21-Masada.jpg/800px-Israel-2013-Aerial_21-Masada.jpg",
+    "relatedIds": ["titus", "vespasian", "jerusalem"],
+    "funFact": "The Roman siege ramp at Masada is still visible today — it remains one of the most impressive Roman military engineering feats ever preserved."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-cibalae",
+    "highlight": false,
+    "narrative": "On October 8, 314 AD, Constantine defeated his co-emperor Licinius at Cibalae (modern Vinkovci, Croatia). The battle lasted from dawn until well after dark, with Constantine personally leading cavalry charges. Though Licinius escaped with part of his army, the victory gave Constantine control of the Balkans and set the stage for their final confrontation a decade later.",
+    "significance": "First battle in the final war between Constantine and Licinius for sole control of the Roman Empire",
+    "imageUrl": null,
+    "relatedIds": ["constantine"],
+    "funFact": "Cibalae was Constantine's own birthplace — he literally fought for control of his hometown."
+  },
+  {
+    "layerType": "battle",
+    "itemId": "battle-of-chrysopolis",
+    "highlight": false,
+    "narrative": "On September 18, 324 AD, Constantine destroyed Licinius' last army at Chrysopolis (modern Uskudar) across the Bosphorus from Byzantium. The decisive victory made Constantine sole ruler of the entire Roman Empire. He then refounded Byzantium as Constantinople — the site of his greatest victory became the capital of a new Christian Roman state that would endure for over a thousand years.",
+    "significance": "Made Constantine sole emperor and led directly to the founding of Constantinople",
+    "imageUrl": null,
+    "relatedIds": ["constantine", "constantinople"],
+    "funFact": "Constantine chose to refound Byzantium as his new capital at least partly because it was the site of his greatest military triumph."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "augustus",
+    "highlight": true,
+    "narrative": "Born Gaius Octavius, he was adopted by Julius Caesar and transformed himself from a sickly teenager into the most powerful man in the world. He defeated all rivals by age 32, then ruled for 41 years, creating the political system that would govern Rome for centuries. He found Rome a city of brick and left it a city of marble — and he created the Pax Romana, two centuries of unprecedented peace.",
+    "significance": "First Roman Emperor — creator of the Principate and the Pax Romana",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Augustus_Bevilacqua_Glyptothek_Munich_317.jpg/800px-Augustus_Bevilacqua_Glyptothek_Munich_317.jpg",
+    "relatedIds": ["augustus", "julius-caesar", "mark-antony", "cleopatra"],
+    "funFact": "Augustus was so sickly that his doctors didn't expect him to survive childhood — he went on to outlive almost every rival and die at age 75."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "tiberius",
+    "highlight": true,
+    "narrative": "A brilliant general who never wanted to be emperor, Tiberius withdrew to the island of Capri in 26 AD and governed the empire by correspondence for the last eleven years of his reign. Ancient sources paint him as a gloomy tyrant, but his administration was efficient and the treasury was full when he died. His reign saw the crucifixion of Jesus of Nazareth in a distant province — an event that would transform the world.",
+    "significance": "Second emperor — his reclusive rule established that the empire could function without the emperor's physical presence in Rome",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tiberius_palermo.jpg/800px-Tiberius_palermo.jpg",
+    "relatedIds": ["tiberius", "augustus"],
+    "funFact": "Tiberius tripled the imperial treasury during his reign, leading his successor Caligula to spend the equivalent of billions in under four years."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "caligula",
+    "highlight": true,
+    "narrative": "The first seven months of Caligula's reign were reportedly excellent, until a severe illness changed him. He allegedly made his horse Incitatus a senator, declared himself a god, and built a temporary bridge of ships across the Bay of Baiae just to ride across it. Whether truly insane or deliberately provocative, he was assassinated by his own Praetorian Guard after just four years.",
+    "significance": "His erratic reign demonstrated the dangers of unchecked imperial power and the Praetorians' kingmaker role",
+    "imageUrl": null,
+    "relatedIds": ["caligula", "tiberius"],
+    "funFact": "His nickname 'Caligula' means 'Little Boot' — soldiers gave it to him as a toddler when his mother dressed him in a miniature legionary uniform."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "claudius",
+    "highlight": true,
+    "narrative": "Dismissed as a stammering fool by his own family, Claudius was found hiding behind a curtain by Praetorian Guards after Caligula's assassination — and they made him emperor. He proved surprisingly capable: he conquered Britain, expanded Roman citizenship, built the port of Ostia and the Aqua Claudia aqueduct, and administered the empire with diligence. He was likely poisoned by his wife Agrippina to clear the throne for Nero.",
+    "significance": "Conquered Britain and expanded Roman infrastructure despite being considered unfit to rule",
+    "imageUrl": null,
+    "relatedIds": ["claudius", "caligula", "nero"],
+    "funFact": "Claudius was a serious historian who wrote 20 books of Etruscan history and 8 of Carthaginian history — all now lost."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "nero",
+    "highlight": true,
+    "narrative": "The last Julio-Claudian emperor fancied himself an artist and performed publicly as a singer, actor, and charioteer — scandalizing the Roman elite. He may or may not have fiddled while Rome burned in 64 AD (the fiddle didn't exist yet), but he did build his extravagant Golden House on the ruins. When the Senate declared him a public enemy, he fled Rome and killed himself, reportedly gasping 'What an artist dies in me!'",
+    "significance": "Last of the Julio-Claudian dynasty — his suicide triggered the civil war of the Year of the Four Emperors",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Nero_Glyptothek_Munich_321.jpg/800px-Nero_Glyptothek_Munich_321.jpg",
+    "relatedIds": ["nero", "great-fire-of-rome"],
+    "funFact": "Nero competed in the Olympic chariot race, fell out of his chariot, failed to finish — and was still declared the winner."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "vespasian",
+    "highlight": true,
+    "narrative": "A gruff, frugal soldier from a modest Italian family, Vespasian restored order after the chaos of the Year of the Four Emperors. He began construction of the Colosseum on the site of Nero's private lake — symbolically returning to the people what Nero had stolen. He stabilized the finances, secured the frontiers, and founded the Flavian dynasty. On his deathbed, he joked, 'Dear me, I think I'm becoming a god.'",
+    "significance": "Founded the Flavian dynasty and restored stability after civil war — began the Colosseum",
+    "imageUrl": null,
+    "relatedIds": ["vespasian", "titus"],
+    "funFact": "Vespasian imposed a tax on public urinals — when his son Titus complained, he held up a coin and said 'Pecunia non olet' ('Money doesn't smell')."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "titus",
+    "highlight": true,
+    "narrative": "Called 'the delight and darling of the human race,' Titus had a brief but popular reign marked by generosity and compassion. He completed and inaugurated the Colosseum with 100 days of games. He also managed the catastrophic eruption of Vesuvius in 79 AD and the Great Fire of Rome in 80 AD. He died after just two years, leading to speculation that his brother Domitian poisoned him.",
+    "significance": "Inaugurated the Colosseum and managed two of Rome's greatest disasters",
+    "imageUrl": null,
+    "relatedIds": ["titus", "vespasian", "eruption-of-vesuvius"],
+    "funFact": "On any day he had not done a good deed, Titus would sigh, 'Friends, I have lost a day.'"
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "domitian",
+    "highlight": true,
+    "narrative": "Domitian was an efficient but autocratic ruler who openly embraced the title 'Dominus et Deus' (Lord and God). He conducted successful campaigns on the Danube and Rhine, built extensively in Rome, and demanded total obedience. His paranoia grew until he lined the walls of his palace with reflective stone to spot assassins — but in the end, he was killed by members of his own household in a carefully planned conspiracy.",
+    "significance": "Last Flavian emperor — his autocratic style prompted the Senate to choose elderly, moderate successors",
+    "imageUrl": null,
+    "relatedIds": ["domitian", "titus", "vespasian"],
+    "funFact": "Domitian spent hours alone in his room catching flies and stabbing them with a stylus — when asked if anyone was with the emperor, a courtier quipped 'Not even a fly.'"
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "trajan",
+    "highlight": true,
+    "narrative": "The first emperor born outside Italy (in Hispania), Trajan expanded the Roman Empire to its greatest territorial extent. He conquered Dacia (modern Romania), seized Mesopotamia from the Parthians, and built Trajan's Forum and Column in Rome. The Senate granted him the unique title Optimus Princeps — 'the best ruler.' For centuries afterward, new emperors were wished to be 'more fortunate than Augustus and better than Trajan.'",
+    "significance": "Expanded the empire to its maximum extent and was considered the ideal emperor",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Traianus_Glyptothek_Munich_72.jpg/800px-Traianus_Glyptothek_Munich_72.jpg",
+    "relatedIds": ["trajan"],
+    "funFact": "Trajan's Column depicts 2,662 individual figures in a spiral frieze 190 meters long — the ancient equivalent of a documentary film."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "hadrian",
+    "highlight": true,
+    "narrative": "The great builder and traveler, Hadrian spent over half his reign touring the provinces — more than any other emperor. He built his famous Wall in Britain, the Pantheon in Rome, and his vast Villa at Tivoli. He consolidated the empire's borders, reformed the legal code, and promoted Greek culture. His deep grief over the death of his companion Antinous led him to deify the young man and found cities in his name.",
+    "significance": "Consolidated the empire, built the Pantheon and Hadrian's Wall, and defined Roman frontier policy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bust_Hadrian_Musei_Capitolini_MC817.jpg/800px-Bust_Hadrian_Musei_Capitolini_MC817.jpg",
+    "relatedIds": ["hadrian", "trajan"],
+    "funFact": "Hadrian was the first emperor to wear a beard — he started a trend that lasted 150 years and may have been hiding facial scars."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "antoninus-pius",
+    "highlight": false,
+    "narrative": "The most peaceful reign in Roman history — Antoninus Pius ruled for 23 years without leaving Italy and without any major wars. He earned his cognomen 'Pius' for his devotion to duty, family, and the gods. His reign was so uneventful that the historian Cassius Dio devoted fewer pages to him than to a single year of other emperors. Sometimes the best rulers are those about whom historians have little to say.",
+    "significance": "Presided over the apex of the Pax Romana — the most peaceful period in Roman history",
+    "imageUrl": null,
+    "relatedIds": ["hadrian", "marcus-aurelius"],
+    "funFact": "His last word was reportedly 'equanimity' (aequanimitas) — perfectly fitting for the most serene emperor Rome ever had."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "marcus-aurelius",
+    "highlight": true,
+    "narrative": "The 'philosopher emperor' who never wanted to be one, Marcus Aurelius spent most of his reign fighting wars on the Danube frontier while composing his Meditations — personal reflections on Stoic philosophy that were never meant to be published. Written by firelight in a military tent, these private notes became one of the most influential works of philosophy in history. His reign marks the end of Rome's golden age.",
+    "significance": "Last of the Five Good Emperors — his Meditations remain one of philosophy's most influential works",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DSC00164.jpg/800px-MSR-ra-61-b-1-DSC00164.jpg",
+    "relatedIds": ["marcus-aurelius", "commodus"],
+    "funFact": "Marcus Aurelius sold imperial furniture and his wife's silk gowns at public auction to fund the Danubian wars rather than raise taxes."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "commodus",
+    "highlight": true,
+    "narrative": "The son of the philosopher emperor was his polar opposite — Commodus abandoned the Danube frontier, renamed Rome 'Colonia Commodiana,' and fought as a gladiator in the arena, personally killing exotic animals and disabled opponents. He identified himself with Hercules and had himself portrayed wearing the hero's lion-skin headdress. He was strangled in his bath by his wrestling partner Narcissus on New Year's Eve 192 AD.",
+    "significance": "His disastrous reign ended the Pax Romana and plunged Rome into civil war",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Commodus_Musei_Capitolini_MC1120.jpg/800px-Commodus_Musei_Capitolini_MC1120.jpg",
+    "relatedIds": ["commodus", "marcus-aurelius"],
+    "funFact": "Commodus charged Rome one million sesterces per arena appearance — he fought 735 times as a gladiator, always winning because opponents knew losing to the emperor meant death."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "septimius-severus",
+    "highlight": true,
+    "narrative": "Born in Leptis Magna (Libya), Septimius Severus was the first African-born emperor. A ruthless but effective military ruler, he defeated all rivals in civil war, campaigned in Mesopotamia, and strengthened the army. His dying advice to his sons was 'Be harmonious, enrich the soldiers, and scorn all other men.' His sons Caracalla and Geta ignored the first instruction — Caracalla murdered Geta within a year.",
+    "significance": "First African emperor — founded the Severan dynasty and militarized the empire",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus", "caracalla"],
+    "funFact": "Severus spoke Latin with a noticeable Punic accent throughout his life — his sister reportedly spoke such poor Latin that he sent her home from Rome in embarrassment."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "caracalla",
+    "highlight": true,
+    "narrative": "Caracalla murdered his brother Geta in their mother's arms and then ordered the deaths of 20,000 of Geta's supporters. His most lasting achievement was the Constitutio Antoniniana of 212 AD, which granted Roman citizenship to all free inhabitants of the empire — though mainly to expand the tax base. He also built the magnificent Baths of Caracalla in Rome. He was assassinated while urinating by the roadside during a Parthian campaign.",
+    "significance": "Extended Roman citizenship to all free inhabitants of the empire via the Constitutio Antoniniana",
+    "imageUrl": null,
+    "relatedIds": ["caracalla", "septimius-severus"],
+    "funFact": "The Constitutio Antoniniana, which granted citizenship to millions, was probably motivated by greed — citizens paid inheritance tax that non-citizens didn't."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "diocletian",
+    "highlight": true,
+    "narrative": "Born to a family of freed slaves in Dalmatia, Diocletian rose through the army to become emperor and save the empire from the Crisis of the Third Century. He created the Tetrarchy (rule of four), persecuted Christians, reformed the tax system, and built a palace at Split that still forms the core of the modern city. Uniquely among emperors, he voluntarily retired to grow cabbages. When urged to return to power, he reportedly replied, 'If you could show me the cabbages I have grown, you wouldn't ask.'",
+    "significance": "Ended the Crisis of the Third Century and fundamentally reorganized the Roman state",
+    "imageUrl": null,
+    "relatedIds": ["diocletian"],
+    "funFact": "Diocletian is the only Roman emperor known to have voluntarily abdicated — and he forced his reluctant co-emperor Maximian to retire with him."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "constantine-i",
+    "highlight": true,
+    "narrative": "Constantine reunified the empire, legalized Christianity, founded Constantinople, and reshaped the course of Western civilization. He presided over the Council of Nicaea (325 AD), which defined the core tenets of Christian theology. Whether his conversion was sincere or political remains debated, but its consequences were world-changing. He was baptized only on his deathbed — perhaps a calculated insurance policy.",
+    "significance": "First Christian emperor — founded Constantinople and legalized Christianity, reshaping Western civilization",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Head_Constantine_Musei_Capitolini_MC0757.jpg/800px-Head_Constantine_Musei_Capitolini_MC0757.jpg",
+    "relatedIds": ["constantine", "edict-of-milan-event", "constantinople"],
+    "funFact": "The colossal head of Constantine in the Capitoline Museums is 2.6 meters tall — the full seated statue would have been 12 meters high."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "julian",
+    "highlight": true,
+    "narrative": "Raised as a Christian, Julian secretly converted to paganism and attempted to reverse the Christianization of the empire when he became emperor. The 'Apostate' restored pagan temples, excluded Christians from teaching, and tried to rebuild the Jewish Temple in Jerusalem (an earthquake halted the project). Brilliant but quixotic, he died at age 31 from a spear wound during his Persian campaign — pagan Rome's last champion.",
+    "significance": "Last pagan emperor — his failed attempt to restore traditional religion showed Christianity's irreversible hold",
+    "imageUrl": null,
+    "relatedIds": ["julian"],
+    "funFact": "Julian wrote a satirical work where previous emperors are mocked at a banquet of the gods — he even makes fun of Constantine for running to Christianity to get his sins forgiven."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "theodosius-i",
+    "highlight": true,
+    "narrative": "Theodosius made Christianity the official state religion of the Roman Empire in 380 AD with the Edict of Thessalonica, banning all pagan worship. He was the last emperor to rule both East and West. When he massacred 7,000 citizens of Thessalonica in retaliation for a riot, Bishop Ambrose of Milan forced him to do public penance — a watershed moment establishing church authority over secular rulers.",
+    "significance": "Last emperor to rule the unified Roman Empire — made Christianity the official state religion",
+    "imageUrl": null,
+    "relatedIds": ["theodosius"],
+    "funFact": "When Ambrose barred Theodosius from church for the Thessalonica massacre, the most powerful man in the world stood weeping outside for months before being readmitted."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "galba",
+    "highlight": false,
+    "narrative": "The elderly Galba became the first emperor to seize power from outside the Julio-Claudian dynasty, marching from Spain to Rome after Nero's suicide. His reign lasted just seven months — his fatal flaw was extreme stinginess. When the Praetorian Guard demanded a bonus, he replied that he 'levied soldiers, not bought them.' They cut him down in the Forum and paraded his head on a spear.",
+    "significance": "First emperor of the Year of the Four Emperors — demonstrated that emperors could be made outside Rome",
+    "imageUrl": null,
+    "relatedIds": ["galba", "nero"],
+    "funFact": "Tacitus wrote that Galba was 'capax imperii nisi imperasset' — 'capable of ruling, had he never ruled' — history's most devastating political epitaph."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "otho",
+    "highlight": false,
+    "narrative": "Marcus Salvius Otho had Galba assassinated and seized the throne, but ruled for only three months. When his forces were defeated by Vitellius' legions at the First Battle of Bedriacum, Otho committed suicide rather than continue the civil war — an act of nobility that surprised everyone, since he had been known mainly as a vain playboy. He reportedly spent longer on his hair than most women.",
+    "significance": "Second emperor of the Year of the Four Emperors — his dignified suicide stood in contrast to the era's chaos",
+    "imageUrl": null,
+    "relatedIds": ["otho", "galba", "vitellius"],
+    "funFact": "Otho had been Nero's close friend and former husband of Poppaea Sabina before Nero stole her — he was exiled to govern Lusitania as punishment."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "vitellius",
+    "highlight": false,
+    "narrative": "Proclaimed emperor by the Rhine legions, Vitellius is remembered mainly for his legendary gluttony. Ancient sources describe banquets featuring thousands of fish, birds, and exotic delicacies. He reigned for just eight months before Vespasian's forces stormed Rome. Vitellius was dragged from a doorkeeper's room, paraded through the streets, tortured, killed, and his body thrown into the Tiber.",
+    "significance": "Third emperor of the Year of the Four Emperors — his brief reign epitomized the chaos of 69 AD",
+    "imageUrl": null,
+    "relatedIds": ["vitellius", "vespasian"],
+    "funFact": "Vitellius' most infamous dish was the 'Shield of Minerva' — a platter mixing pike livers, pheasant brains, peacock brains, flamingo tongues, and lamprey milk."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "nerva",
+    "highlight": false,
+    "narrative": "The elderly senator Nerva was chosen by the conspirators who killed Domitian as a safe, transitional emperor. His greatest act was adopting Trajan as his heir, establishing the principle of adoptive succession that produced Rome's greatest rulers. He reigned for just 16 months but initiated an era of good government that lasted nearly a century — the longest such stretch in imperial history.",
+    "significance": "Established the adoptive succession system that produced the Five Good Emperors",
+    "imageUrl": null,
+    "relatedIds": ["nerva", "trajan", "domitian"],
+    "funFact": "Nerva was so old and frail when he became emperor that he reportedly could barely keep food down — yet his choice of Trajan as heir was one of the best decisions in Roman history."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "lucius-verus",
+    "highlight": false,
+    "narrative": "Lucius Verus was Marcus Aurelius' co-emperor and adopted brother — the first time two men held equal imperial authority simultaneously. While Marcus handled administration, Verus led the Parthian War (or at least his generals did while he enjoyed himself in Antioch). His troops brought the Antonine Plague back from Mesopotamia, which may have killed 5-10 million people. He died in 169 AD, possibly of the same plague.",
+    "significance": "First true co-emperor — his Parthian War brought the devastating Antonine Plague to the Roman Empire",
+    "imageUrl": null,
+    "relatedIds": ["marcus-aurelius"],
+    "funFact": "Verus was reportedly so vain about his blonde hair that he sprinkled gold dust in it to make it sparkle in the sun."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "pertinax",
+    "highlight": false,
+    "narrative": "A former teacher's son who rose to become emperor, Pertinax tried to reform the corrupt Praetorian Guard and restore fiscal discipline after Commodus' excesses. The Praetorians responded by murdering him after just 87 days. They then auctioned the empire to the highest bidder — Didius Julianus — in one of history's most cynical transactions.",
+    "significance": "His murder led to the infamous auction of the empire and the civil war that brought Septimius Severus to power",
+    "imageUrl": null,
+    "relatedIds": ["commodus", "septimius-severus"],
+    "funFact": "The Praetorians literally auctioned the Roman Empire from the walls of their camp — Didius Julianus outbid his rival by offering each guardsman 25,000 sesterces."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "elagabalus",
+    "highlight": true,
+    "narrative": "A 14-year-old Syrian priest of the sun god Elagabal, he was installed as emperor by his grandmother's scheming. He shocked Rome by placing his provincial deity above Jupiter, married a Vestal Virgin, reportedly wore women's clothing, and scandalized even the jaded Roman elite with his sexual behavior. The Praetorians killed him at age 18, dragged his body through the streets, and threw it in the Tiber.",
+    "significance": "His reign represented the most extreme clash between Eastern and Roman religious-cultural traditions",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus", "caracalla"],
+    "funFact": "Elagabalus reportedly smothered dinner guests with rose petals dropped from a false ceiling — at least one guest supposedly suffocated."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "gordian-iii",
+    "highlight": false,
+    "narrative": "Proclaimed emperor at just 13 years old, Gordian III was the youngest sole emperor in Roman history. He fought a major campaign against the Sasanian Empire with his capable father-in-law Timesitheus as praetorian prefect. When Timesitheus died of illness, the ambitious Philip the Arab took over and soon engineered Gordian's death during the retreat from Mesopotamia — aged just 19.",
+    "significance": "Youngest Roman emperor — his murder by Philip the Arab typified the military anarchy of the 3rd century",
+    "imageUrl": null,
+    "relatedIds": ["philip-the-arab"],
+    "funFact": "Gordian III was so young at his accession that the Senate initially assigned him a regent — making him essentially a puppet ruler."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "philip-the-arab",
+    "highlight": false,
+    "narrative": "Philip celebrated Rome's 1,000th birthday in 248 AD with spectacular games featuring over 1,000 gladiators, hippos, elephants, lions, and other exotic animals. Born in Arabia (modern Syria), he may have been the first Christian emperor — predating Constantine by decades — though the evidence is ambiguous. He was killed at the Battle of Verona by the usurper Decius, ending a reign notable mainly for its great birthday party.",
+    "significance": "Celebrated Rome's millennium — possibly the first emperor sympathetic to Christianity",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Secular Games of 248 AD were Rome's biggest birthday party — celebrating 1,000 years since the legendary founding by Romulus."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "decius",
+    "highlight": false,
+    "narrative": "Decius launched the first empire-wide persecution of Christians, requiring all citizens to sacrifice to Roman gods and obtain a certificate (libellus) proving they had done so. His military record was disastrous — he became the first Roman emperor to be killed in battle against a foreign enemy when the Goths destroyed his army at Abritus in 251 AD. His body was never recovered from the swamp where he fell.",
+    "significance": "First systematic empire-wide persecution of Christians — first emperor killed in battle by a foreign enemy",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Surviving libelli (certificates of sacrifice) from Decius' persecution have been found in Egypt — bureaucratic records of religious coercion."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "valerian",
+    "highlight": true,
+    "narrative": "Emperor Valerian suffered the most humiliating fate of any Roman ruler — captured alive by the Sasanian King Shapur I at the Battle of Edessa in 260 AD. He spent the rest of his life as a prisoner, reportedly used as a human mounting block for the Persian king. The rock reliefs at Naqsh-e Rostam immortalize his humiliation, showing Shapur grasping the kneeling Valerian by the wrist.",
+    "significance": "Only Roman emperor captured alive by a foreign enemy — deepened the Crisis of the Third Century",
+    "imageUrl": null,
+    "relatedIds": ["valerian", "gallienus"],
+    "funFact": "After Valerian's death in captivity, his skin was reportedly stuffed with straw, dyed red, and displayed in a Persian temple as a trophy."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "gallienus",
+    "highlight": false,
+    "narrative": "Left to rule alone after his father Valerian's capture, Gallienus faced simultaneous breakaway empires in Gaul and Palmyra while fighting off Gothic invasions. Despite this, he reformed the army by creating a mobile cavalry reserve — the foundation of late Roman military strategy — and patronized Greek philosophy and the arts. He held the crumbling center together for 15 years through sheer ability.",
+    "significance": "Held the empire together during its worst crisis and created the mobile cavalry army that would define late Roman warfare",
+    "imageUrl": null,
+    "relatedIds": ["gallienus", "valerian"],
+    "funFact": "When told Egypt had revolted, Gallienus reportedly quipped, 'What, can we not live without Egyptian linen?' — dark humor at the empire's nadir."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "aurelian",
+    "highlight": true,
+    "narrative": "Known as Restitutor Orbis ('Restorer of the World'), Aurelian reunified the fractured Roman Empire in just five years. He defeated the breakaway Gallic Empire, crushed Queen Zenobia's Palmyrene Empire, and built the massive Aurelian Walls around Rome — walls so well built that they defended the city for centuries. He was murdered by his own officers over a forged document, cutting short one of Rome's most extraordinary comebacks.",
+    "significance": "Reunified the Roman Empire and built Rome's defensive walls — one of the most effective emperors of the crisis era",
+    "imageUrl": null,
+    "relatedIds": ["aurelian"],
+    "funFact": "The Aurelian Walls of Rome, built in just 4 years, still stand largely intact — a 19-km circuit with 383 towers that defended Rome until 1870."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "maximinus-thrax",
+    "highlight": false,
+    "narrative": "Maximinus Thrax was a Thracian peasant and former shepherd who rose to become emperor entirely through military ability. Ancient sources (with obvious exaggeration) claim he was over 8 feet tall, could pull a loaded cart by himself, and drank 7 gallons of wine daily. He never visited Rome during his entire reign, governing exclusively from military camps. He was the first 'barracks emperor,' foreshadowing the military anarchy to come.",
+    "significance": "First 'soldier emperor' — his rise from the lowest social ranks marked a radical break in imperial succession",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Maximinus allegedly wore his wife's bracelet as a thumb ring — whether this indicates his enormous size or is ancient propaganda is debated."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "probus",
+    "highlight": false,
+    "narrative": "Emperor Probus expelled the Alamanni, Franks, and Goths from Roman territory, planted vineyards across the provinces (defying Domitian's old ban on provincial winemaking), and put soldiers to work on infrastructure projects during peacetime. His troops, resentful of being used as laborers, murdered him in 282 AD. Modern wine regions in Germany, Hungary, and the Balkans trace their origins to his planting program.",
+    "significance": "Restored the Rhine and Danube frontiers and introduced winemaking to several provinces",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "German, Austrian, and Hungarian winegrowers arguably owe their industry to Probus — he permitted provincial viticulture that had been banned for 200 years."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "maximian",
+    "highlight": false,
+    "narrative": "Diocletian's tough, soldierly co-emperor in the West, Maximian was an effective military commander but lacked political sophistication. He reluctantly retired with Diocletian in 305 but couldn't stay away from power. He plotted against his own son Maxentius, tried to seize Constantine's army, and was finally cornered by Constantine at Massilia, where he was forced to commit suicide — or was murdered.",
+    "significance": "Diocletian's co-Augustus in the Tetrarchy — his inability to retire showed the system's fragility",
+    "imageUrl": null,
+    "relatedIds": ["diocletian", "constantine"],
+    "funFact": "Maximian was forced to retire twice and attempted at least three coups before finally being killed — he simply could not give up power."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "valens",
+    "highlight": true,
+    "narrative": "The Eastern Emperor Valens allowed Gothic refugees to cross the Danube in 376 AD, then disastrously mishandled their settlement. Corrupt Roman officials starved the refugees and sold them dog meat. The resulting Gothic revolt culminated in the catastrophe at Adrianople in 378 AD, where Valens was killed and two-thirds of the Eastern Roman army destroyed. His decision to admit the Goths was one of history's most consequential humanitarian gestures gone wrong.",
+    "significance": "His death at Adrianople was a pivotal moment in the fall of the Roman Empire",
+    "imageUrl": null,
+    "relatedIds": ["valens", "theodosius"],
+    "funFact": "Valens was an Arian Christian — a sect later deemed heretical — leading orthodox writers to portray his death as divine punishment."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "honorius",
+    "highlight": true,
+    "narrative": "Honorius presided over the loss of Britain, the Sack of Rome by Alaric in 410 AD, and the disintegration of the Western Empire — all while safely ensconced in the marshes of Ravenna with his pet chickens. He executed his greatest general, Stilicho, on suspicion of treason, removing the one man capable of defending the West. His 28-year reign was among the most disastrous in Roman history.",
+    "significance": "Presided over the first sack of Rome in 800 years and the accelerating collapse of the Western Empire",
+    "imageUrl": null,
+    "relatedIds": ["honorius", "theodosius"],
+    "funFact": "The historian Procopius relates that when told 'Roma has perished,' Honorius was relieved to learn they meant the city, not his pet chicken named Roma."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "majorian",
+    "highlight": false,
+    "narrative": "Julius Valerius Majorian was the last Western emperor who seriously attempted to reverse the empire's decline. He personally led campaigns in Gaul and Spain, reformed the tax system, and assembled a fleet to reconquer Africa from the Vandals. When the Vandals destroyed his fleet through treachery, the powerful general Ricimer deposed and executed him. He was arguably the last competent man to wear the Western purple.",
+    "significance": "Last Western emperor to make a serious attempt at imperial recovery",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Majorian traveled in disguise to inspect the provinces himself — a practice unheard of among the feeble late Western emperors."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "romulus-augustulus",
+    "highlight": true,
+    "narrative": "The last Western Roman Emperor was a teenager whose very name was an irony — Romulus, like Rome's legendary founder, and Augustulus, 'little Augustus.' In 476 AD, the Germanic chieftain Odoacer deposed him and sent the imperial regalia to Constantinople, declaring there was no need for a Western emperor. Romulus was given a pension and a villa in Campania. The Western Roman Empire ended not with a bang, but with a comfortable retirement.",
+    "significance": "Last Western Roman Emperor — his deposition in 476 AD traditionally marks the fall of the Roman Empire",
+    "imageUrl": null,
+    "relatedIds": ["romulus-augustulus", "fall-of-western-rome"],
+    "funFact": "Romulus Augustulus was treated so well by Odoacer that he may have lived into the 500s — outliving the empire he symbolically ended."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "severus-alexander",
+    "highlight": false,
+    "narrative": "The last Severan emperor came to power at 14, guided by his domineering mother Julia Mamaea. He attempted to buy peace with the Germanic tribes rather than fight them, which outraged his soldiers. In 235 AD, mutinous troops murdered both Alexander and his mother in their tent on the Rhine frontier. His death plunged the empire into the 50-year Crisis of the Third Century.",
+    "significance": "Last of the Severan dynasty — his assassination triggered the Crisis of the Third Century",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus", "caracalla"],
+    "funFact": "Alexander reportedly kept statues of Abraham, Christ, Orpheus, and Apollonius of Tyana in his private chapel — an eclectic approach to theology."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "constantius-ii",
+    "highlight": false,
+    "narrative": "The longest-reigning son of Constantine, Constantius II was an Arian Christian who spent his reign fighting family members, Persians, and theological disputes. He survived multiple usurpers and civil wars. His greatest achievement was the Council of Sirmium and his efforts to impose religious unity — though history judged him to have backed the wrong side of the Arian-Nicene controversy.",
+    "significance": "Sole ruler after defeating his brothers — shaped the Arian controversy that dominated 4th-century Christianity",
+    "imageUrl": null,
+    "relatedIds": ["constantine", "julian"],
+    "funFact": "Upon becoming sole emperor, Constantius had most of his male relatives murdered — the child Julian survived only because he was deemed too young to be a threat."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "gratian",
+    "highlight": false,
+    "narrative": "Gratian was a promising young emperor who removed the Altar of Victory from the Roman Senate in 382 AD — a symbolic end to official state paganism. He was the first emperor to refuse the title of Pontifex Maximus (chief priest of the old Roman religion). However, his preference for Alan barbarian bodyguards over Roman troops led to a military revolt, and he was assassinated at Lyon aged just 25.",
+    "significance": "First emperor to refuse the title Pontifex Maximus — formally severed the emperor's connection to pagan religion",
+    "imageUrl": null,
+    "relatedIds": ["theodosius", "valens"],
+    "funFact": "The title Pontifex Maximus that Gratian refused was later adopted by the Pope — it remains the official title of the Bishop of Rome to this day."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "valentinian-iii",
+    "highlight": false,
+    "narrative": "Valentinian III reigned for 30 years while the Western Empire crumbled around him. His general Aetius won the great victory at the Catalaunian Plains against Attila, but Valentinian, jealous and paranoid, personally stabbed Aetius to death during an audience. A courtier dryly observed that the emperor had 'cut off his right hand with his left.' Valentinian himself was murdered by Aetius' former bodyguards shortly after.",
+    "significance": "His murder of Aetius removed the last effective defender of the Western Empire",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "A senator told Valentinian after he killed Aetius: 'I don't know your motives, but I know you've just killed the man who could have saved you.'"
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-x-equestris",
+    "highlight": true,
+    "narrative": "The Tenth Legion was Caesar's most trusted unit, serving him in virtually every campaign in Gaul and the civil wars. When other legions hesitated to face Germanic warriors, Caesar told the Tenth alone would follow him — shaming the rest into action. They fought at Pharsalus, Thapsus, and Munda. The legion became so identified with Caesar that its soldiers were essentially his personal army.",
+    "significance": "Caesar's favorite legion — fought in every major battle of the Gallic Wars and civil wars",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar"],
+    "funFact": "Caesar once quelled a mutiny of the Tenth simply by addressing them as 'citizens' instead of 'soldiers' — the insult was unbearable to these proud veterans."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-ix-hispana",
+    "highlight": true,
+    "narrative": "The Ninth Legion is one of history's great mysteries. After distinguished service in Spain, Gaul, and Britain, it vanishes from the historical record around 120 AD. Theories for its disappearance range from destruction in northern Britain (inspiring the novel 'The Eagle of the Ninth'), to annihilation in a Judaean revolt, to mundane disbandment. Recent evidence suggests it was transferred to the Rhine or eastern frontier, but its ultimate fate remains unknown.",
+    "significance": "History's most famous 'lost legion' — its disappearance has inspired novels, films, and endless speculation",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Ninth Legion's disappearance inspired Rosemary Sutcliff's 1954 novel 'The Eagle of the Ninth' and the 2011 film 'The Eagle' — though neither matches the actual evidence."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xiii-gemina",
+    "highlight": true,
+    "narrative": "The Thirteenth was the first legion to follow Caesar across the Rubicon River on January 10, 49 BC, sparking the civil war that ended the Republic. That single river crossing — illegal under Roman law, as generals were forbidden to bring troops into Italy — changed the course of history. The XIII Gemina went on to serve for over 400 years, one of the longest-serving legions in Roman history.",
+    "significance": "The legion that crossed the Rubicon with Caesar — the unit that started Rome's transformation from Republic to Empire",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar", "crossing-the-rubicon"],
+    "funFact": "The Rubicon was so insignificant a river that its exact location was forgotten for centuries — archaeologists only identified it conclusively in 1991."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "praetorian-guard",
+    "highlight": true,
+    "narrative": "Originally the commander's bodyguard, the Praetorian Guard became the most powerful military unit in Rome — and the greatest threat to the emperors they were supposed to protect. They assassinated Caligula, auctioned the empire after killing Pertinax, and made or broke emperors for three centuries. Stationed in Rome at triple legionary pay, they were both the empire's elite troops and its most dangerous political force.",
+    "significance": "Imperial bodyguard that became kingmakers — assassinated more emperors than any foreign enemy",
+    "imageUrl": null,
+    "relatedIds": ["caligula", "claudius"],
+    "funFact": "The Praetorians once literally auctioned the Roman Empire to the highest bidder — Didius Julianus won by offering each guardsman 25,000 sesterces."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-x-fretensis",
+    "highlight": true,
+    "narrative": "The Tenth Fretensis earned its cognomen at the naval battle of the Strait of Messina (fretum). It is best known for the siege of Jerusalem in 70 AD, where it served under Titus and helped destroy the Second Temple. The legion remained garrisoned in Jerusalem for centuries afterward, its camp sitting atop the ruins of Jewish sovereignty. Its emblem — a boar — was deliberately provocative to the Jewish population.",
+    "significance": "Destroyed the Second Temple in Jerusalem — garrisoned Judaea for centuries",
+    "imageUrl": null,
+    "relatedIds": ["titus", "jerusalem"],
+    "funFact": "The boar emblem of the Tenth Fretensis, an animal forbidden in Judaism, was found stamped on tiles and pottery throughout Jerusalem — a constant reminder of conquest."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-v-alaudae",
+    "highlight": false,
+    "narrative": "The 'Larks' were unique among Roman legions — originally recruited by Caesar entirely from non-citizen Gauls in Transalpine Gaul. Their name came from the distinctive crested helmets they wore, resembling larks. They fought at Pharsalus and Thapsus. The legion was eventually destroyed during the Batavian revolt of 70 AD, a fitting end for a unit born from Caesar's unorthodox recruitment methods.",
+    "significance": "First legion recruited entirely from non-citizens — broke a fundamental Roman military tradition",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar"],
+    "funFact": "Caesar gave the Larks Roman citizenship and legionary status as a reward — making them the first unit to prove that 'barbarians' could fight as effectively as Romans."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xii-fulminata",
+    "highlight": false,
+    "narrative": "The Twelfth 'Thunderbolt' Legion is best known for two very different events: its humiliating surrender at the Battle of Rhandeia in 62 AD (after which it was stripped of its honor), and the 'Rain Miracle' of 172 AD, when a sudden thunderstorm saved Marcus Aurelius' army from the Quadi. Both Christians and pagans claimed credit for the miracle — the pagans crediting Jupiter, the Christians crediting their prayers.",
+    "significance": "Central to the 'Rain Miracle' debate — a key moment in the cultural conflict between paganism and Christianity",
+    "imageUrl": null,
+    "relatedIds": ["marcus-aurelius"],
+    "funFact": "The Rain Miracle is depicted on the Column of Marcus Aurelius — a bearded rain-god figure pours water on the Romans while lightning strikes the enemy."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-ii-augusta",
+    "highlight": false,
+    "narrative": "The Second Augusta spearheaded the Roman invasion of Britain in 43 AD under the future emperor Vespasian, capturing over 20 hill forts in southern England. It was later garrisoned at Isca Augusta (Caerleon) in Wales, where its fortress remains are among the best-preserved legionary bases in the empire. The legion served in Britain for over 300 years.",
+    "significance": "Led the conquest of southern Britain — garrisoned Wales for over three centuries",
+    "imageUrl": null,
+    "relatedIds": ["vespasian", "claudius"],
+    "funFact": "Caerleon's legionary amphitheater, built for the Second Augusta, is sometimes identified as the original 'Round Table' of Arthurian legend."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-iii-augusta",
+    "highlight": false,
+    "narrative": "The Third Augusta was the sole legion defending Roman Africa for most of the imperial period — an enormous territory stretching from Cyrenaica to Morocco. Based at Lambaesis in Numidia (Algeria), it protected the grain supply and policed the desert frontier. Emperor Gordian III disbanded it in disgrace after it supported a rival, but it was reconstituted and served until the end of Roman Africa.",
+    "significance": "Sole permanent garrison of Roman Africa — defended the empire's vital grain supply for centuries",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "A speech by Hadrian to the Third Augusta during an inspection tour was carved in stone at Lambaesis — it survives as the most detailed record of Roman military training practices."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xx-valeria-victrix",
+    "highlight": false,
+    "narrative": "The Twentieth Legion was instrumental in defeating Boudicca's revolt in 60-61 AD and later helped build Hadrian's Wall. Based at Deva Victrix (Chester) for most of its history, its emblem — a running boar — has been found stamped on tiles across northern Britain. It was one of the last legions to serve in Britain before the Roman withdrawal around 410 AD.",
+    "significance": "Helped defeat Boudicca and build Hadrian's Wall — garrisoned Chester for over 300 years",
+    "imageUrl": null,
+    "relatedIds": ["hadrian"],
+    "funFact": "The Roman amphitheater at Chester, built for the Twentieth Legion, is the largest stone-built military amphitheater in Britain."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-vi-victrix",
+    "highlight": false,
+    "narrative": "The Sixth Victrix was transferred from Germania to Britain around 122 AD, probably to help construct Hadrian's Wall. Based at Eboracum (York), it was garrisoned in the north of England for nearly 300 years. Emperor Septimius Severus died at its headquarters in York, and Constantine was proclaimed emperor there by the Sixth's soldiers in 306 AD.",
+    "significance": "Garrisoned York for three centuries — proclaimed Constantine emperor in 306 AD",
+    "imageUrl": null,
+    "relatedIds": ["hadrian", "constantine"],
+    "funFact": "Constantine was proclaimed emperor in the headquarters of the Sixth Victrix at York — the building's foundations lie beneath York Minster cathedral."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xiv-gemina",
+    "highlight": false,
+    "narrative": "The Fourteenth Gemina Martia Victrix earned its long list of titles for crushing Boudicca's revolt in 60-61 AD at the Battle of Watling Street. Nero called it his 'most effective legion.' After its triumph in Britain, it was transferred to the continent and fought in numerous campaigns from the Rhine to the Danube. It was one of the most decorated legions in the entire Roman army.",
+    "significance": "Destroyed Boudicca's army at Watling Street — Nero's most decorated legion",
+    "imageUrl": null,
+    "relatedIds": ["nero"],
+    "funFact": "After crushing Boudicca, the Fourteenth was called 'Martia Victrix' (martial and victorious) — one of the grandest titles ever bestowed on a legion."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-vii-claudia",
+    "highlight": false,
+    "narrative": "One of Caesar's original legions, the Seventh Claudia Pia Fidelis earned its title for refusing to join the Dalmatian revolt against Emperor Claudius. Based at Viminacium on the Danube for centuries, it guarded the vital Danube frontier against barbarian incursions. It was one of the longest-serving legions, with a history stretching from the late Republic to the 5th century.",
+    "significance": "One of Caesar's original legions — guarded the Danube frontier for over 400 years",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar", "claudius"],
+    "funFact": "The VII Claudia's honorary title 'Pia Fidelis' (loyal and faithful) was specifically awarded for NOT revolting — a backhanded compliment showing how common mutiny was."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-ii-parthica",
+    "highlight": false,
+    "narrative": "Raised by Septimius Severus for his Parthian campaigns, the Second Parthica was uniquely stationed near Rome at Castra Albana (Albano) — the only legion based in Italy during the imperial period. It served as both a strategic reserve and an implicit threat to the Senate. The legion fought in virtually every major campaign of the 3rd century, from Mesopotamia to Britain.",
+    "significance": "Only legion permanently stationed in Italy — served as the emperor's strategic reserve and political enforcer",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus"],
+    "funFact": "Stationing a legion near Rome was technically illegal and a clear signal that Severus trusted his soldiers more than the Senate."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xxx-ulpia-victrix",
+    "highlight": false,
+    "narrative": "Raised by Trajan for his Dacian Wars and named after his family (Ulpius), the Thirtieth was one of the last legions created in the Roman tradition. Based at Castra Vetera (Xanten) on the lower Rhine, it guarded the Germanic frontier for centuries. Its well-preserved fortress site is now one of Europe's largest archaeological parks, offering a vivid window into legionary life.",
+    "significance": "Trajan's personal creation — its fortress at Xanten is one of the best-preserved legionary bases in the empire",
+    "imageUrl": null,
+    "relatedIds": ["trajan"],
+    "funFact": "The Archaeological Park at Xanten has reconstructed the legion's baths, amphitheater, and harbor temple at full scale — visitors can walk through a Roman legion's daily life."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xvii",
+    "highlight": false,
+    "narrative": "Legio XVII was one of the three legions annihilated in the Teutoburg Forest in 9 AD. Along with the XVIII and XIX, its eagle standard was captured by Arminius' Germanic warriors. The disaster so traumatized Rome that these three legion numbers were permanently retired — never reassigned in the remaining 450 years of the empire. The XVII's eagle was eventually recovered by Germanicus in 15 AD.",
+    "significance": "One of three legions destroyed at Teutoburg — its number was retired forever in Rome's deepest act of military mourning",
+    "imageUrl": null,
+    "relatedIds": ["augustus"],
+    "funFact": "The permanent retirement of legion numbers XVII, XVIII, and XIX is the ancient equivalent of retiring a jersey number — Rome never forgot the shame."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xxi-rapax",
+    "highlight": false,
+    "narrative": "The Twenty-First 'Raptor' was one of Rome's most aggressive legions — its very name suggests predatory ferocity. It served on the Rhine frontier and fought in Domitian's campaigns. It was destroyed sometime around 92 AD, probably in a catastrophic defeat during Domitian's Dacian Wars. Its annihilation was so complete that the details were suppressed, making it another of Rome's 'lost' legions.",
+    "significance": "Destroyed in Domitian's Dacian Wars — one of the few legions annihilated after the Teutoburg disaster",
+    "imageUrl": null,
+    "relatedIds": ["domitian"],
+    "funFact": "The name 'Rapax' (predator/raptor) was the most aggressive cognomen of any Roman legion — matching its reputation for ferocity."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-v-macedonica",
+    "highlight": false,
+    "narrative": "One of the longest-serving legions in Roman history, the Fifth Macedonica fought from the late Republic through the 5th century AD — over 500 years of continuous service. It fought the Dacians under Trajan, the Parthians under Marcus Aurelius, and the Goths under Valens. Its bull emblem has been found across the Balkans and Mesopotamia, tracing a half-millennium of deployments across three continents.",
+    "significance": "Served continuously for over 500 years — one of the longest operational histories of any military unit in history",
+    "imageUrl": null,
+    "relatedIds": ["trajan", "marcus-aurelius"],
+    "funFact": "The Fifth Macedonica served longer than the entire history of the United States — from the Republic through the fall of the West."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-iv-macedonica",
+    "highlight": false,
+    "narrative": "The Fourth Macedonica was raised by Caesar and fought at the Battle of Philippi against the assassins of his adoptive father. It was later stationed in Spain and on the Rhine. After supporting the wrong side in the Year of the Four Emperors, Vespasian disbanded it and reconstituted its soldiers as the IV Flavia Felix — a renamed legion with fresh loyalty and a clean slate.",
+    "significance": "Fought at Philippi to avenge Caesar — later disbanded for disloyalty and reborn under a new name",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar", "vespasian"],
+    "funFact": "Renaming a disgraced legion was the Roman equivalent of a corporate rebrand after a scandal — same employees, new logo."
+  },
+  {
+    "layerType": "building",
+    "itemId": "colosseum",
+    "highlight": true,
+    "narrative": "The Flavian Amphitheater — universally known as the Colosseum — is the largest amphitheater ever built and the most iconic symbol of Roman civilization. Begun by Vespasian and completed by Titus in 80 AD, it could seat 50,000 spectators for gladiatorial games, wild beast hunts, and mock naval battles. Its ingenious design, with 80 arched entrances allowing the crowd to be seated in minutes, influenced stadium architecture for two millennia.",
+    "significance": "Largest amphitheater ever built — the enduring symbol of Roman power and engineering",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/800px-Colosseo_2020.jpg",
+    "relatedIds": ["vespasian", "titus", "rome"],
+    "funFact": "The Colosseum was built with spoils from the Siege of Jerusalem — an inscription discovered in 2001 confirmed that 'Jewish war booty' funded its construction."
+  },
+  {
+    "layerType": "building",
+    "itemId": "pantheon",
+    "highlight": true,
+    "narrative": "Hadrian's Pantheon contains the largest unreinforced concrete dome in the world — and it has stood for nearly 1,900 years. The oculus, a 9-meter open hole at the apex, is the sole source of light, creating a moving sunbeam that tracks across the interior like a celestial clock. The dome's diameter equals its height from the floor, creating a perfect sphere. It is arguably the most influential building in architectural history.",
+    "significance": "Greatest architectural achievement of the Roman Empire — its dome remains the largest unreinforced concrete dome ever built",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome-Pantheon-Interieur1.jpg/800px-Rome-Pantheon-Interieur1.jpg",
+    "relatedIds": ["hadrian", "rome"],
+    "funFact": "The Pantheon's dome is still larger than the dome of St. Peter's Basilica — after 1,900 years, nobody has surpassed it in unreinforced concrete."
+  },
+  {
+    "layerType": "building",
+    "itemId": "pont-du-gard",
+    "highlight": true,
+    "narrative": "The Pont du Gard in southern France is the highest surviving Roman aqueduct bridge, standing 49 meters above the River Gardon. Built around 19 BC without mortar, its three tiers of arches carried water 50 km from the springs at Uzes to the colony of Nemausus (Nimes). Some of its stone blocks weigh 6 tonnes each and were lifted into place with nothing but human muscle and Roman cranes.",
+    "significance": "Highest surviving Roman aqueduct — a masterpiece of ancient engineering built without mortar",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pont_du_Gard_BLS.jpg/800px-Pont_du_Gard_BLS.jpg",
+    "relatedIds": ["augustus"],
+    "funFact": "The Pont du Gard delivered 40,000 cubic meters of water daily to Nimes — enough to fill 16 Olympic swimming pools every day."
+  },
+  {
+    "layerType": "building",
+    "itemId": "forum-romanum",
+    "highlight": true,
+    "narrative": "The Roman Forum was the heart of ancient Rome — the political, religious, and commercial center of the world's greatest empire. For over a thousand years, triumphs were celebrated here, laws were passed, criminals were tried, and senators debated. Temples, basilicas, and arches crowded into this narrow valley between the Palatine and Capitoline hills. By the Middle Ages it had become a cow pasture — the 'Campo Vaccino.'",
+    "significance": "Political and ceremonial heart of the Roman Republic and Empire for over a millennium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Foro_Romano_Musei_Capitolini_Roma.jpg/800px-Foro_Romano_Musei_Capitolini_Roma.jpg",
+    "relatedIds": ["rome", "julius-caesar", "augustus"],
+    "funFact": "The Forum was buried so deeply by centuries of debris that medieval Romans walked 10 meters above the original pavement — they had no idea it was there."
+  },
+  {
+    "layerType": "building",
+    "itemId": "library-celsus",
+    "highlight": true,
+    "narrative": "The Library of Celsus in Ephesus, built in 117 AD as a monumental tomb and library, held an estimated 12,000 scrolls. Its ornate two-story facade, which survives beautifully restored, uses architectural tricks — the outer columns are larger than the inner ones — to make the building appear even grander than it is. It was simultaneously a library, a mausoleum for the governor Celsus, and a monument to Greco-Roman learning.",
+    "significance": "Third-largest library in the ancient world — its restored facade is one of the finest surviving Roman architectural compositions",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Celsus_library_in_Ephesus.jpg/800px-Celsus_library_in_Ephesus.jpg",
+    "relatedIds": [],
+    "funFact": "The Library of Celsus was connected to a brothel next door by an underground tunnel — leading to the joke that scholars could claim they were 'going to the library.'"
+  },
+  {
+    "layerType": "building",
+    "itemId": "baths-caracalla",
+    "highlight": true,
+    "narrative": "The Baths of Caracalla could accommodate 1,600 bathers simultaneously in a complex spanning 25 acres. Beyond bathing, the complex included libraries, lecture halls, exercise areas, and gardens — a complete leisure and cultural center. The floor was paved with intricate mosaics, the walls clad in marble, and the vaulted ceilings soared 30 meters overhead. Today, the ruins host open-air opera performances.",
+    "significance": "Among the largest and most luxurious public buildings ever constructed — a complete Roman leisure complex",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Terme_di_Caracalla_-_panoramio.jpg/800px-Terme_di_Caracalla_-_panoramio.jpg",
+    "relatedIds": ["caracalla", "rome"],
+    "funFact": "The Baths of Caracalla burned 10 tonnes of wood daily to heat the water — they had their own branch of the Aqua Marcia aqueduct for supply."
+  },
+  {
+    "layerType": "building",
+    "itemId": "circus-maximus",
+    "highlight": true,
+    "narrative": "The Circus Maximus was the largest venue in the ancient world, capable of seating 250,000 spectators for chariot races. The races were Rome's most popular spectacle — far more beloved than gladiatorial combat. Charioteers became superstars; the Blue, Green, Red, and White racing factions inspired fanatical loyalty that sometimes erupted into riots. The stadium was 621 meters long and 118 meters wide — larger than any modern sports venue.",
+    "significance": "Largest entertainment venue ever built — chariot racing was ancient Rome's most popular mass spectacle",
+    "imageUrl": null,
+    "relatedIds": ["rome", "augustus"],
+    "funFact": "The charioteer Gaius Appuleius Diocles earned 35 million sesterces over his career — adjusted for inflation, he may be the highest-paid athlete in history."
+  },
+  {
+    "layerType": "building",
+    "itemId": "palace-domus-aurea",
+    "highlight": true,
+    "narrative": "After the Great Fire of 64 AD, Nero built his Golden House (Domus Aurea) across a third of Rome's urban center. The complex featured a revolving dining room, walls encrusted with gems, ivory ceilings that showered guests with flowers, and an enormous artificial lake. A 30-meter bronze statue of Nero as the sun god (the Colossus Neronis) stood in the vestibule. When it was finished, Nero declared, 'At last I can begin to live like a human being.'",
+    "significance": "Most extravagant palace in Roman history — its discovery in the Renaissance inspired artists including Raphael",
+    "imageUrl": null,
+    "relatedIds": ["nero", "great-fire-of-rome", "rome"],
+    "funFact": "Renaissance artists including Raphael lowered themselves on ropes into the buried rooms of the Domus Aurea — its decorative style, called 'grotesque' (from grotto), influenced art for centuries."
+  },
+  {
+    "layerType": "building",
+    "itemId": "palace-hadrian-villa",
+    "highlight": true,
+    "narrative": "Hadrian's Villa at Tivoli was the largest and most elaborate Roman villa ever built, covering an area larger than the city of Pompeii. It recreated famous buildings and landscapes from across the empire that Hadrian had visited — including an Egyptian canal, a Greek gymnasium, and a miniature Stoa Poikile from Athens. The complex contained theaters, baths, libraries, temples, and gardens, serving as an alternative seat of government.",
+    "significance": "Largest Roman imperial residence — a microcosm of the empire built by its most traveled emperor",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Maritime_theatre_Hadrians_Villa.jpg/800px-Maritime_theatre_Hadrians_Villa.jpg",
+    "relatedIds": ["hadrian"],
+    "funFact": "Hadrian's private island retreat within the villa — the Maritime Theatre — was surrounded by a moat, accessible only by retractable bridges, allowing the emperor total solitude."
+  },
+  {
+    "layerType": "building",
+    "itemId": "palace-diocletian",
+    "highlight": true,
+    "narrative": "Diocletian built his retirement palace at Split (Spalatum) in Croatia, a massive fortified compound covering 3 hectares that blended military camp and luxury residence. After the fall of Rome, the local population moved inside the palace walls for protection, and the city of Split literally grew within and around it. The palace's basement vaults, peristyle, and walls remain remarkably intact — a Roman building still serving as a living city center.",
+    "significance": "Best-preserved Roman palace — the entire old town of Split evolved within its walls",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Croatia_-_Diocletian%27s_Palace.jpg/800px-Croatia_-_Diocletian%27s_Palace.jpg",
+    "relatedIds": ["diocletian"],
+    "funFact": "Diocletian's mausoleum within the palace became a Christian cathedral — one of the world's oldest continuously used buildings."
+  },
+  {
+    "layerType": "building",
+    "itemId": "porta-nigra",
+    "highlight": true,
+    "narrative": "The Porta Nigra ('Black Gate') in Trier, Germany, is the largest surviving Roman city gate north of the Alps. Built around 170 AD from massive sandstone blocks held together without mortar (using iron clamps instead), it has darkened with age to give it its name. The unfinished gate was never fully completed — the mason marks for planned carvings are still visible on the rough stone.",
+    "significance": "Largest surviving Roman city gate — iconic symbol of Roman civilization in northern Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Porta_Nigra_Trier.jpg/800px-Porta_Nigra_Trier.jpg",
+    "relatedIds": [],
+    "funFact": "The Porta Nigra survived the Middle Ages only because a Greek hermit named Simeon walled himself into it — the church built around his cell preserved the Roman structure."
+  },
+  {
+    "layerType": "building",
+    "itemId": "arch-titus",
+    "highlight": true,
+    "narrative": "The Arch of Titus in the Roman Forum commemorates the sack of Jerusalem in 70 AD. Its interior reliefs vividly depict Roman soldiers carrying the sacred menorah and other treasures from the Jewish Temple — the last known representation of these lost artifacts. For centuries, Jewish tradition held that Jews should not walk under the arch. When Israel was founded in 1948, a delegation symbolically walked through it in the reverse direction.",
+    "significance": "Commemorates the destruction of Jerusalem — its menorah relief became a symbol of Jewish exile and return",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Arch_Titus%2C_Rome%2C_Italy.jpg/800px-Arch_Titus%2C_Rome%2C_Italy.jpg",
+    "relatedIds": ["titus", "vespasian", "jerusalem"],
+    "funFact": "The menorah depicted on the Arch of Titus inspired the emblem of the State of Israel — making a Roman trophy into a symbol of Jewish sovereignty."
+  },
+  {
+    "layerType": "building",
+    "itemId": "arch-constantine",
+    "highlight": false,
+    "narrative": "The Arch of Constantine near the Colosseum is Rome's largest surviving triumphal arch, but much of its sculpture was stripped from earlier monuments to Trajan, Hadrian, and Marcus Aurelius. This 'recycling' of older art (spolia) was once seen as a sign of artistic decline, but may reflect a deliberate claim to these earlier emperors' prestige. The original Constantinian reliefs show a distinctly different, more rigid style that heralded medieval art.",
+    "significance": "Largest surviving Roman triumphal arch — its use of spolia marks the transition from classical to medieval art",
+    "imageUrl": null,
+    "relatedIds": ["constantine", "rome"],
+    "funFact": "Historians have searched the arch's decorations for evidence of Constantine's Christianity — but the iconography is deliberately ambiguous, suitable for both pagan and Christian viewers."
+  },
+  {
+    "layerType": "building",
+    "itemId": "column-trajan",
+    "highlight": true,
+    "narrative": "Trajan's Column stands 30 meters tall in Trajan's Forum, wrapped in a continuous spiral frieze 190 meters long depicting the Dacian Wars in extraordinary detail. It contains 2,662 individual figures and provides our most detailed visual record of the Roman army in action — soldiers building bridges, marching, fighting, and treating wounded. Trajan's ashes were originally interred in the column's base.",
+    "significance": "Most detailed surviving visual record of the Roman military — a 'film strip in marble' of ancient warfare",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Trajan%27s_Column_2012-04-08.jpg/800px-Trajan%27s_Column_2012-04-08.jpg",
+    "relatedIds": ["trajan", "rome"],
+    "funFact": "In 1588, Pope Sixtus V replaced Trajan's statue atop the column with one of St. Peter — the pagan emperor literally lost his head to a Christian saint."
+  },
+  {
+    "layerType": "building",
+    "itemId": "column-marcus-aurelius",
+    "highlight": false,
+    "narrative": "Modeled on Trajan's Column, the Column of Marcus Aurelius depicts the Marcomannic Wars against Germanic and Sarmatian tribes. Its reliefs are notably more violent and emotionally charged than Trajan's — reflecting the anxiety of an empire under siege. The column includes the famous 'Rain Miracle' scene, where a divine figure sends a thunderstorm to save Marcus' troops.",
+    "significance": "Visual chronicle of the Marcomannic Wars — its harsher style reflects the empire's darkening mood",
+    "imageUrl": null,
+    "relatedIds": ["marcus-aurelius", "rome"],
+    "funFact": "The column's reliefs show Roman soldiers carrying severed barbarian heads — a level of brutality deliberately suppressed on the more 'civilized' Trajan's Column."
+  },
+  {
+    "layerType": "building",
+    "itemId": "basilica-maxentius",
+    "highlight": false,
+    "narrative": "The Basilica of Maxentius (completed by Constantine) was the largest building in the Roman Forum, with soaring concrete vaults reaching 39 meters — higher than the nave of most Gothic cathedrals. Only one of its three great bays survives, but even this fragment dwarfs everything around it. Its innovative use of cross-vaulting directly inspired the architecture of Renaissance churches.",
+    "significance": "Largest building in the Forum — its vaulting technology influenced Renaissance and modern architecture",
+    "imageUrl": null,
+    "relatedIds": ["constantine", "rome"],
+    "funFact": "The surviving bay is so large that it served as the model for the old Penn Station in New York — which was in turn destroyed in 1963, paralleling Roman ruins."
+  },
+  {
+    "layerType": "building",
+    "itemId": "palace-piazza-armerina",
+    "highlight": false,
+    "narrative": "The Villa Romana del Casale near Piazza Armerina in Sicily contains the finest collection of Roman mosaics in the world. Its 3,500 square meters of floor mosaics depict hunting scenes, mythological tableaux, chariot races, and — most famously — young women exercising in what look remarkably like modern bikinis. The villa likely belonged to an emperor or extremely wealthy senator of the early 4th century.",
+    "significance": "Contains the finest and most extensive collection of Roman floor mosaics ever discovered",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The 'Bikini Girls' mosaic shows women in two-piece athletic outfits that look strikingly similar to modern bikinis — proving there is nothing new under the sun."
+  },
+  {
+    "layerType": "building",
+    "itemId": "baths-diocletian",
+    "highlight": false,
+    "narrative": "The Baths of Diocletian were the largest public baths ever built in Rome, capable of accommodating 3,000 bathers simultaneously. The complex covered 13 hectares — larger than the Baths of Caracalla. Michelangelo converted the frigidarium into the church of Santa Maria degli Angeli in the 16th century, preserving its massive vaulted halls. Part of the complex now houses the National Roman Museum.",
+    "significance": "Largest Roman bath complex ever built — Michelangelo's church conversion preserved the magnificent interior",
+    "imageUrl": null,
+    "relatedIds": ["diocletian", "rome"],
+    "funFact": "Michelangelo was 86 when he designed the church inside the baths — he left the ancient vaulting almost untouched, recognizing it could not be improved upon."
+  },
+  {
+    "layerType": "building",
+    "itemId": "forum-trajan",
+    "highlight": false,
+    "narrative": "Trajan's Forum was the largest and most magnificent of the Imperial Fora, paid for with plunder from the Dacian Wars. It contained the Basilica Ulpia (the largest basilica in Rome), two libraries, Trajan's Column, and the Markets of Trajan — a multi-story commercial complex sometimes called the world's first shopping mall. When the Emperor Constantius II visited in 357 AD, he stood 'stupefied' at the sight.",
+    "significance": "Largest and last of the Imperial Fora — Constantius II called it the most impressive sight in Rome",
+    "imageUrl": null,
+    "relatedIds": ["trajan", "rome"],
+    "funFact": "The entire forum was carved from the saddle between the Capitoline and Quirinal hills — an estimated 100,000 cubic meters of earth were removed."
+  },
+  {
+    "layerType": "building",
+    "itemId": "aqueduct-segovia",
+    "highlight": true,
+    "narrative": "The Aqueduct of Segovia in Spain is the most visually dramatic surviving Roman aqueduct, with its double tier of 167 arches striding through the center of the modern city. Built in the late 1st or early 2nd century AD from unmortared granite blocks, it carried water for nearly 1,900 years — the last recorded use was in the 20th century. Its survival through earthquakes, wars, and urban development is a testament to Roman engineering genius.",
+    "significance": "Best-preserved and most visually dramatic Roman aqueduct — carried water for nearly 2,000 years",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aqueduct_of_Segovia_02.jpg/800px-Aqueduct_of_Segovia_02.jpg",
+    "relatedIds": [],
+    "funFact": "Local legend says the Devil built the Segovia aqueduct overnight in a deal with a girl who wanted water — she was saved when a rooster crowed before the last stone was placed."
+  },
+  {
+    "layerType": "building",
+    "itemId": "arch-trajan-benevento",
+    "highlight": false,
+    "narrative": "The Arch of Trajan at Benevento is the best-preserved Roman triumphal arch, with its relief panels almost completely intact. It was built in 114 AD at the point where the Via Appia entered the city and the new Via Traiana began. Its reliefs depict Trajan's policies — distributing food to the poor, settling veterans, and conquering Dacia — creating a visual manifesto of good government in stone.",
+    "significance": "Best-preserved triumphal arch with nearly complete relief decoration — a visual manifesto of Trajan's reign",
+    "imageUrl": null,
+    "relatedIds": ["trajan"],
+    "funFact": "The arch stands where the Via Appia meets the Via Traiana — travelers literally passed through an advertisement for Trajan's achievements to enter the city."
+  },
+  {
+    "layerType": "building",
+    "itemId": "maison-carree",
+    "highlight": false,
+    "narrative": "The Maison Carree in Nimes is the best-preserved Roman temple in the world, with its walls, columns, and pediment virtually intact. Built around 4-7 AD and dedicated to Augustus' grandsons Gaius and Lucius Caesar, it survived because it was continuously reused — as a church, a town hall, a stable, and a museum. Thomas Jefferson admired it so much that he modeled the Virginia State Capitol on it.",
+    "significance": "Best-preserved Roman temple in the world — directly inspired the Virginia State Capitol and numerous neoclassical buildings",
+    "imageUrl": null,
+    "relatedIds": ["augustus"],
+    "funFact": "Thomas Jefferson called the Maison Carree 'the most beautiful and precious morsel of architecture left us by antiquity' and sent its measurements to his architect by mail."
+  },
+  {
+    "layerType": "building",
+    "itemId": "basilica-trier",
+    "highlight": false,
+    "narrative": "The Aula Palatina in Trier was Constantine's throne room and is the largest surviving single-room structure from Roman antiquity. Its brick walls soar 30 meters high, and the apse where the emperor sat was heated by underfloor hypocausts. Visitors approaching the throne saw it silhouetted against the apse windows in a blaze of golden light — imperial architecture designed to inspire awe and submission.",
+    "significance": "Largest surviving single-room Roman structure — Constantine's throne room, now a Protestant church",
+    "imageUrl": null,
+    "relatedIds": ["constantine"],
+    "funFact": "The Aula Palatina was so well built that when Trier was sacked by Franks, they simply moved in and used it as a royal hall themselves."
+  },
+  {
+    "layerType": "building",
+    "itemId": "theater-ephesus",
+    "highlight": false,
+    "narrative": "The Great Theater of Ephesus is the largest known theater in the ancient world, seating 25,000 spectators. It was here that a silversmith named Demetrius incited a riot against the apostle Paul, as described in Acts 19 — the crowd chanting 'Great is Artemis of the Ephesians' for two hours. The theater provides a visceral connection between Roman architecture and early Christian history.",
+    "significance": "Largest ancient theater — the setting of the riot against the Apostle Paul described in the New Testament",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The theater's acoustics are so good that a person speaking at normal volume on stage can be heard clearly in the top rows — without amplification."
+  },
+  {
+    "layerType": "building",
+    "itemId": "markets-trajan",
+    "highlight": false,
+    "narrative": "The Markets of Trajan are a multi-level complex of over 150 shops and offices built into the hillside behind Trajan's Forum. Often called the world's first shopping mall, the complex housed everything from fish sellers and spice merchants to government offices. The concrete vaulted halls, connected by ramps and staircases, represent some of the most sophisticated commercial architecture of the ancient world.",
+    "significance": "World's first shopping mall — sophisticated multi-level commercial complex showcasing Roman concrete engineering",
+    "imageUrl": null,
+    "relatedIds": ["trajan", "rome"],
+    "funFact": "The hemicycle of the Markets of Trajan was built to retain the hillside after Trajan's architects literally carved away a hill to build the forum."
+  },
+  {
+    "layerType": "building",
+    "itemId": "palace-fishbourne",
+    "highlight": false,
+    "narrative": "Fishbourne Roman Palace in West Sussex, England, was the largest residential building in Roman Britain — larger than Buckingham Palace. Built around 75 AD, possibly for the client king Togidubnus, its elaborate mosaic floors and formal gardens demonstrate that Roman luxury reached even the rainy frontiers of the empire. It was accidentally discovered in 1960 by a workman digging a water main.",
+    "significance": "Largest known Roman residence in Britain — evidence of rapid Romanization of the British elite",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The palace was only discovered because a workman's trench in 1960 cut through a Roman mosaic floor — one of archaeology's luckiest accidents."
+  },
+  {
+    "layerType": "building",
+    "itemId": "hippodrome-constantinople",
+    "highlight": false,
+    "narrative": "The Hippodrome of Constantinople was the sporting and political heart of the eastern capital, seating 100,000 spectators. Chariot races between the Blues and Greens factions were not merely sport but political movements that could topple emperors. The Nika riots of 532 AD, which started in the Hippodrome, nearly overthrew Justinian and destroyed half the city before being suppressed with the massacre of 30,000 rioters.",
+    "significance": "Political and sporting center of Constantinople — site of the Nika riots that nearly ended Justinian's reign",
+    "imageUrl": null,
+    "relatedIds": ["constantinople"],
+    "funFact": "The Egyptian obelisk, Serpent Column from Delphi, and bronze column that still stand in the Hippodrome's ruins represent over 3,000 years of continuous history."
+  },
+  {
+    "layerType": "building",
+    "itemId": "curia-julia",
+    "highlight": false,
+    "narrative": "The Curia Julia, rebuilt by Julius Caesar and completed by Augustus, was the Senate house of Rome — the building where the most powerful legislative body in the ancient world met for centuries. The current structure, remarkably well preserved because it was converted to a church in the 7th century, still shows the stepped platforms where 300 senators sat facing each other in debate.",
+    "significance": "Senate house of Rome — where the laws that governed the ancient world were debated and passed",
+    "imageUrl": null,
+    "relatedIds": ["julius-caesar", "augustus", "rome"],
+    "funFact": "The original Curia Hostilia was burned down by a mob during the funeral riot for the populist politician Clodius — Caesar used this as an excuse to build his replacement."
+  },
+  {
+    "layerType": "building",
+    "itemId": "arch-septimius-severus",
+    "highlight": false,
+    "narrative": "The Arch of Septimius Severus in the Roman Forum commemorates his victories over the Parthian Empire. Its four large relief panels depict the siege and capture of the Parthian capital Ctesiphon. Originally, the inscription included the names of both Severus and his son Caracalla — but after Caracalla murdered his brother Geta, Geta's name was chiseled off and replaced with titles praising Caracalla.",
+    "significance": "Major triumphal arch in the Forum — its altered inscription is evidence of Caracalla's damnatio memoriae against his brother",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus", "caracalla"],
+    "funFact": "You can still see where Geta's name was chiseled off the arch — the replacement text doesn't quite fit the space, leaving telltale gaps."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-001",
+    "highlight": true,
+    "narrative": "The Temple of Jupiter Optimus Maximus on the Capitoline Hill was the most important temple in the Roman state religion. Here consuls took their vows, triumphal processions ended, and the most sacred rites were performed. The original Etruscan-period temple was rebuilt multiple times after fires — once by Sulla, once by Vespasian, and once by Domitian, each version more magnificent than the last. Its massive platform still lies beneath the Capitoline Museums.",
+    "significance": "Most sacred temple in Rome — the religious heart of the Roman state for nearly 1,000 years",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "The Capitoline Temple was so richly decorated by the late empire that its gilded bronze roof tiles were stripped to adorn churches — recycled piety."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-008",
+    "highlight": true,
+    "narrative": "The Pantheon's 43.3-meter dome, cast in a single pour of Roman concrete, remains an engineering miracle. The concrete gets lighter toward the top, changing from heavy basalt aggregate at the base to light pumice near the oculus. The building was so perfectly designed that rain rarely reaches the floor — updrafts from the heated interior deflect incoming droplets. Converted to a Christian church in 609, it is the best-preserved major Roman building.",
+    "significance": "Best-preserved major Roman building — its dome remains the largest unreinforced concrete dome ever built",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome-Pantheon-Interieur1.jpg/800px-Rome-Pantheon-Interieur1.jpg",
+    "relatedIds": ["hadrian", "rome"],
+    "funFact": "On April 21 (Rome's birthday), the noon sun shines through the oculus and illuminates the entrance — creating a spotlight on anyone entering, as if the building were greeting them."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-025",
+    "highlight": true,
+    "narrative": "The Temple of Apollo at Delphi housed the most famous oracle in the ancient world. The Pythia, seated over a fissure in the earth, delivered prophecies that shaped the course of Greek and Roman history. Kings and generals consulted her before wars, colonies, and major decisions. Modern geology has confirmed that intoxicating gases (ethylene) do indeed seep through faults beneath the temple — the oracle had a geological basis.",
+    "significance": "Home of the most famous oracle in antiquity — its prophecies influenced wars, colonization, and politics for centuries",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Delphi_temple_of_Apollo_dsc06283.jpg/800px-Delphi_temple_of_Apollo_dsc06283.jpg",
+    "relatedIds": ["athens"],
+    "funFact": "Modern geologists confirmed that ethylene gas seeps through faults under Delphi — the Pythia's trances may have been caused by real intoxicating vapors."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-054",
+    "highlight": true,
+    "narrative": "The Temple of Bel at Palmyra was one of the best-preserved temples in the Roman East, blending Mesopotamian and Greco-Roman architectural traditions. Its massive cella, surrounded by Corinthian columns, housed ceiling reliefs of zodiacal and planetary deities. In August 2015, ISIS destroyed the temple with explosives — one of the worst acts of cultural destruction in modern history. Only the outer walls and gateway partially survive.",
+    "significance": "Masterpiece of syncretic Roman-Near Eastern architecture — tragically destroyed by ISIS in 2015",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Before its destruction, the Temple of Bel had survived 2,000 years of earthquakes, invasions, and conversions — only modern explosives could bring it down."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-005",
+    "highlight": true,
+    "narrative": "The Temple of Vesta in the Roman Forum housed the sacred flame that symbolized Rome's eternal life. The flame was tended by the Vestal Virgins — six women sworn to 30 years of chastity. If the flame went out, it was considered a dire omen; if a Vestal broke her vow, she was buried alive. The circular temple, one of Rome's oldest, was rebuilt multiple times over its 1,000-year history.",
+    "significance": "Housed Rome's sacred eternal flame — the Vestal Virgins who tended it were among the most powerful women in Rome",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "Vestal Virgins had unique privileges: they could free condemned prisoners, their testimony was accepted without oath, and they had the best seats at the games."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-021",
+    "highlight": true,
+    "narrative": "The Temple of Jupiter at Baalbek in Lebanon contains the largest stone blocks ever used in construction — the 'Trilithon' includes three blocks each weighing over 800 tonnes, and a fourth unused block in the quarry (the 'Stone of the Pregnant Woman') weighs an estimated 1,000 tonnes. How the Romans moved and placed these megaliths remains a subject of wonder and debate. The temple platform is so massive that it has spawned alien-construction conspiracy theories.",
+    "significance": "Contains the largest stone blocks ever quarried and moved in antiquity — an unsolved engineering mystery",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Baalbek-_largest_stone_in_the_world.jpg/800px-Baalbek-_largest_stone_in_the_world.jpg",
+    "relatedIds": [],
+    "funFact": "The 'Stone of the Pregnant Woman' at Baalbek weighs 1,000 tonnes — roughly equivalent to three fully loaded Boeing 747s — and the Romans somehow moved similar stones."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-029",
+    "highlight": false,
+    "narrative": "The Temple of Olympian Zeus in Athens took over 600 years to complete. Begun in the 6th century BC, it was finished only by Emperor Hadrian in 131 AD. At 96 by 40 meters with columns 17 meters tall, it was the largest temple in Greece. Hadrian erected a massive gate nearby inscribed: 'This is Athens, the ancient city of Theseus' on one side and 'This is the city of Hadrian, not of Theseus' on the other.",
+    "significance": "Largest temple in Greece — its 600-year construction history spans the entire classical period",
+    "imageUrl": null,
+    "relatedIds": ["hadrian", "athens"],
+    "funFact": "Hadrian placed a chryselephantine (gold and ivory) statue of Zeus inside and an equally grand one of himself right next to it — not-so-subtle self-promotion."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-037",
+    "highlight": true,
+    "narrative": "The Parthenon was the supreme achievement of Classical Greek architecture and housed Phidias' colossal chryselephantine statue of Athena. Under Roman rule, it was respected and maintained. The building survived intact for over 2,000 years — until 1687, when a Venetian bombardment ignited Ottoman gunpowder stored inside, blowing off the roof and destroying the interior. Its ruins remain the universal symbol of Western civilization.",
+    "significance": "Supreme achievement of Classical architecture — its survival and partial destruction embodies the story of Western civilization",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/800px-The_Parthenon_in_Athens.jpg",
+    "relatedIds": ["athens"],
+    "funFact": "The Parthenon survived intact until 1687 — it was destroyed not by barbarians or earthquakes but by a Venetian mortar hitting the Ottoman gunpowder stored inside."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-071",
+    "highlight": false,
+    "narrative": "The Sanctuary of Demeter at Eleusis hosted the Eleusinian Mysteries — the most famous and enduring secret rites in the ancient world. For 2,000 years, initiates (including most Roman emperors) underwent a transformative experience that promised a blessed afterlife. The rites were so well guarded that we still don't know exactly what happened — the penalty for revealing them was death.",
+    "significance": "Home of the ancient world's most famous mystery cult — its secrets were kept for 2,000 years",
+    "imageUrl": null,
+    "relatedIds": ["athens"],
+    "funFact": "Despite millions of initiates over 2,000 years, the central secret of the Mysteries was never publicly revealed — an unprecedented feat of ancient information security."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-059",
+    "highlight": false,
+    "narrative": "The Ara Pacis (Altar of Augustan Peace) is the finest surviving example of Roman sculptural art. Commissioned by the Senate in 13 BC to honor Augustus' return from campaigns in Gaul and Spain, its relief panels depict an idealized procession of the imperial family, personifications of Earth and Rome, and mythological scenes. The altar was excavated from beneath a Renaissance palace and reassembled in a purpose-built museum.",
+    "significance": "Masterpiece of Augustan propaganda art — the finest surviving example of Roman political sculpture",
+    "imageUrl": null,
+    "relatedIds": ["augustus", "rome"],
+    "funFact": "The Ara Pacis was excavated in the 1930s by Mussolini, who used it as propaganda for his own regime — Augustus' peace altar co-opted by a fascist dictator."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-049",
+    "highlight": false,
+    "narrative": "The Temple of Sulis Minerva at Bath combined Roman and Celtic worship at Britain's only naturally hot springs. The Romans built an elaborate temple and bathing complex around the springs, which emerge at a constant 46 degrees Celsius. Thousands of curse tablets found in the sacred spring reveal ordinary Romans asking the goddess to punish thieves, liars, and unfaithful lovers — a vivid window into everyday Roman grievances.",
+    "significance": "Best example of Romano-Celtic religious syncretism — curse tablets reveal everyday life and beliefs",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The curse tablets ask Sulis Minerva to punish petty crimes: 'May the person who stole my bathing tunic lose their eyes and mind' — ancient Britons were passionate about property."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-036",
+    "highlight": false,
+    "narrative": "The Temple of Augustus and Rome in Ankara preserves the most complete copy of Augustus' political autobiography, the Res Gestae Divi Augusti — a detailed account of his achievements inscribed on the temple walls. This 'Queen of Inscriptions' provides invaluable historical information about Augustus' reign, from the money he spent on public works to the number of gladiators in his shows. It is perhaps the most important surviving Roman text found in situ.",
+    "significance": "Preserves the Res Gestae Divi Augusti — Augustus' autobiography and the most important Roman inscription",
+    "imageUrl": null,
+    "relatedIds": ["augustus"],
+    "funFact": "Augustus' Res Gestae is essentially a resume carved in stone — he lists every gift, game, building, and conquest, always emphasizing how much he spent of his own money."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-003",
+    "highlight": false,
+    "narrative": "Augustus vowed the Temple of Mars Ultor ('Mars the Avenger') before the Battle of Philippi in 42 BC to avenge his adopted father Caesar's assassination. It took 40 years to complete, finally dedicating in 2 BC as the centerpiece of the Forum of Augustus. The temple became the place from which armies were formally sent off to war and where conquered enemy standards were displayed.",
+    "significance": "Centerpiece of the Forum of Augustus — vowed to avenge Caesar's assassination",
+    "imageUrl": null,
+    "relatedIds": ["augustus", "julius-caesar", "assassination-of-caesar"],
+    "funFact": "The forum wall behind the temple was 33 meters high — built specifically as a firewall to protect the gleaming marble precinct from the slums of the Subura district behind it."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-024",
+    "highlight": false,
+    "narrative": "The Temple of Artemis at Ephesus was one of the Seven Wonders of the Ancient World — four times the size of the Parthenon. Destroyed and rebuilt multiple times, its final version had 127 columns each 18 meters tall. The temple was the heart of a thriving cult and commercial center. Today, only a single reconstructed column marks the site, standing forlornly in a swamp.",
+    "significance": "One of the Seven Wonders of the Ancient World — the greatest temple in the Hellenistic East",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Herostratus burned the temple down in 356 BC solely to become famous — the Ephesians banned anyone from speaking his name, which ironically made him even more famous."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-las-medulas",
+    "highlight": true,
+    "narrative": "Las Medulas was the largest open-cast gold mine in the Roman Empire, operated using the dramatic technique of ruina montium ('wrecking of mountains'). Engineers channeled water through tunnels into the rock face, then released it suddenly to shatter entire hillsides. The resulting landscape of bizarre red pinnacles and chestnut forests is now a UNESCO World Heritage Site — one of history's most beautiful industrial wastelands.",
+    "significance": "Largest Roman gold mine — produced an estimated 5 tonnes of gold using revolutionary hydraulic mining",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Las_M%C3%A9dulas_%28Le%C3%B3n%2C_Espa%C3%B1a%29.jpg/800px-Las_M%C3%A9dulas_%28Le%C3%B3n%2C_Espa%C3%B1a%29.jpg",
+    "relatedIds": [],
+    "funFact": "Pliny the Elder witnessed the mining at Las Medulas and described mountains collapsing 'with a crash that the human mind cannot conceive.'"
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-rio-tinto",
+    "highlight": true,
+    "narrative": "The Rio Tinto mines in southwestern Spain have been worked for over 5,000 years — from the Iberians through the Phoenicians, Romans, and into the modern era. Roman miners extracted silver, copper, and gold from this polymetallic deposit using enslaved labor and sophisticated drainage wheels. The acidic red waters of the Rio Tinto, caused by iron oxidation, are so extreme that NASA uses the river to study conditions analogous to Mars.",
+    "significance": "Continuously mined for 5,000 years — one of the most important mineral deposits in human history",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Rio Tinto's acidic, iron-rich waters are so similar to conditions on Mars that NASA uses them as an analog for potential Martian life — Roman mining created a Martian landscape on Earth."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-cartagena-silver",
+    "highlight": true,
+    "narrative": "The silver mines near Carthago Nova (Cartagena) were seized from the Carthaginians by Scipio Africanus in 209 BC and became one of Rome's most productive sources of precious metal. According to Polybius, 40,000 workers — mostly slaves — labored in the mines at any one time. The silver output was so enormous that it destabilized the economy and helped fund Rome's conquest of the Mediterranean.",
+    "significance": "Captured from Carthage by Scipio — employed 40,000 workers and funded Rome's Mediterranean expansion",
+    "imageUrl": null,
+    "relatedIds": ["scipio-africanus", "second-punic-war"],
+    "funFact": "Polybius reports that the silver mines generated 25,000 drachmas per day — roughly equivalent to the daily wages of 25,000 workers."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-laurion",
+    "highlight": true,
+    "narrative": "The silver mines of Laurion in Attica funded Athens' fleet that defeated the Persians at Salamis and built the Parthenon. Under Roman rule, the mines continued production though at reduced levels. The extensive ancient mine shafts and ore-washing installations survive, providing the most detailed evidence of ancient mining technology anywhere in the Mediterranean.",
+    "significance": "Funded the Athenian fleet that saved Greece from Persia — most extensively documented ancient mines",
+    "imageUrl": null,
+    "relatedIds": ["athens"],
+    "funFact": "Themistocles convinced Athens to spend the Laurion silver on warships instead of distributing it to citizens — that decision saved Western civilization at Salamis."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-rosia-montana",
+    "highlight": true,
+    "narrative": "Rosia Montana in Romania (ancient Alburnus Maior) was the most important gold-mining district in Roman Dacia. The mines preserve remarkable wax tablets — legal documents left behind by ancient miners — that provide vivid details about contracts, wages, and daily life in a Roman mining community. These tablets are among the most important Latin documentary texts ever found outside Italy.",
+    "significance": "Most important gold mine in Roman Dacia — unique wax tablet archive reveals ancient mining life",
+    "imageUrl": null,
+    "relatedIds": ["trajan"],
+    "funFact": "The wax tablets from Rosia Montana include a miner's contract showing he was hired for 70 denarii per 6-month term — less than a legionary's salary."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "quarry-carrara",
+    "highlight": true,
+    "narrative": "The marble quarries of Carrara (ancient Luna) supplied the gleaming white stone that built Augustan Rome. The same quarries later provided marble for Michelangelo's David, the Pietà, and countless Renaissance masterpieces. Augustus boasted that he 'found Rome a city of brick and left it a city of marble' — that marble came overwhelmingly from Carrara, quarried by slaves working in dangerous mountain conditions.",
+    "significance": "Source of Rome's iconic white marble — later used by Michelangelo and countless others for two millennia",
+    "imageUrl": null,
+    "relatedIds": ["augustus", "rome"],
+    "funFact": "The same quarries that supplied marble for Augustus' temples provided marble for Michelangelo's David 1,500 years later — and are still operating today."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "quarry-mons-claudianus",
+    "highlight": false,
+    "narrative": "Mons Claudianus in the Egyptian Eastern Desert was a massive Roman quarry that produced grey granite used for imperial buildings across the empire. Columns weighing up to 200 tonnes were dragged 120 km across the desert to the Nile on sleds. The remote quarry camp, with barracks, a bath house, and a small temple, is perfectly preserved in the hyper-arid conditions — a ghostly industrial site frozen in time.",
+    "significance": "Supplied granite for the Pantheon and imperial Rome — perfectly preserved desert quarry camp",
+    "imageUrl": null,
+    "relatedIds": ["hadrian"],
+    "funFact": "Workers at Mons Claudianus had to carry their own food 120 km across the desert — thousands of potsherds with supply requests survive in the bone-dry conditions."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "quarry-mons-porphyrites",
+    "highlight": false,
+    "narrative": "Mons Porphyrites in the Egyptian desert was the world's only source of imperial porphyry — a deep purple stone reserved exclusively for the emperor. Porphyry was so closely associated with imperial power that 'born to the purple' became a synonym for legitimate succession. The quarry was so remote and conditions so harsh that soldiers had to guard the workers from both desert raiders and their own desire to escape.",
+    "significance": "Only source of imperial porphyry — the purple stone became the ultimate symbol of Roman imperial authority",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "After Rome fell, the source of porphyry was lost — medieval Europeans had to recycle ancient Roman porphyry for royal tombs because they couldn't find the quarry."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-dolaucothi",
+    "highlight": false,
+    "narrative": "The Dolaucothi gold mines in Wales are the only known Roman gold mines in Britain. The Romans used sophisticated hydraulic mining techniques, building aqueducts to channel water for hushing the hillsides — the same technique used at Las Medulas. The mine preserved evidence of Roman prospecting methods, drainage systems, and ore processing that would not be surpassed until the Industrial Revolution.",
+    "significance": "Only Roman gold mine in Britain — demonstrates advanced hydraulic mining at the empire's fringe",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Romans built at least 7 aqueducts to supply water to these Welsh mines — more engineering effort than they put into most provincial towns."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-tres-minas",
+    "highlight": false,
+    "narrative": "Tres Minas in northern Portugal is one of the most impressive Roman mining landscapes in Europe. The Romans carved enormous open-cast pits into the mountainside using a combination of fire-setting and hydraulic mining, creating dramatic cliffs and tunnels. Underground galleries extend deep into the mountain, some with Roman tool marks still visible on the rock faces.",
+    "significance": "One of the most dramatic Roman mining landscapes — massive open-cast gold workings",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Romans extracted an estimated 3 tonnes of gold from Tres Minas — they literally hollowed out a mountain to get it."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "quarry-proconnesos",
+    "highlight": false,
+    "narrative": "The marble quarries of Proconnesos (modern Marmara Island in Turkey) were one of the Roman Empire's largest industrial operations. The white marble was shipped across the Mediterranean for major construction projects. The quarries were so productive that half-finished columns and architectural elements still litter the ancient workings, abandoned when orders were cancelled or ships failed to arrive.",
+    "significance": "Largest marble quarry in the eastern Mediterranean — industrial-scale marble production for centuries",
+    "imageUrl": null,
+    "relatedIds": ["constantinople"],
+    "funFact": "The word 'marble' ultimately derives from the Sea of Marmara — named after these very quarries that produced it."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-almaden-mercury",
+    "highlight": false,
+    "narrative": "The mercury mines at Almaden in Spain were the most important source of cinnabar and mercury in the Roman world. Mercury was essential for extracting gold through amalgamation. The mines were notoriously deadly — Pliny described the pale, sickly appearance of the miners, and conditions were so horrific that they were worked primarily by condemned criminals. Modern analysis confirms extreme mercury contamination in the ancient workings.",
+    "significance": "Primary source of mercury for Roman gold extraction — among the most dangerous mines in the empire",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Pliny wrote that the Almaden mines were sealed by order of the Senate to prevent overproduction — one of history's earliest examples of resource management."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-egypt-emerald",
+    "highlight": false,
+    "narrative": "The emerald mines of Wadi Sikait in the Egyptian Eastern Desert were the only source of emeralds in the Roman world. Known as 'Cleopatra's Mines,' they produced the green stones that Roman elites prized. The mines are surrounded by a well-preserved Roman settlement in the desert, complete with a temple, houses, and workshops — all remarkably intact in the arid conditions.",
+    "significance": "Only source of emeralds in the Roman world — 'Cleopatra's Mines' supplied Rome's elite",
+    "imageUrl": null,
+    "relatedIds": ["cleopatra"],
+    "funFact": "Nero reportedly watched gladiatorial combat through a polished emerald lens — either as primitive sunglasses or because the green color was thought to rest the eyes."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "quarry-aswan",
+    "highlight": false,
+    "narrative": "The granite quarries of Aswan (ancient Syene) supplied obelisks, columns, and monumental sculpture from pharaonic times through the Roman period. The famous Unfinished Obelisk — abandoned after a crack appeared — would have been the largest obelisk ever made at 42 meters. Romans transported dozens of Egyptian obelisks to Rome, Constantinople, and other cities, where many still stand today.",
+    "significance": "Source of Egyptian obelisks and granite for both pharaonic and Roman monuments",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "Augustus brought the first Egyptian obelisk to Rome in 10 BC — today Rome has more ancient Egyptian obelisks than any city in Egypt."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "flavian-amphitheater",
+    "highlight": true,
+    "narrative": "The Colosseum is covered under the building entry, but as an amphitheater it pioneered innovations adopted by every subsequent arena: radial vaulting for efficient crowd flow, a velarium (retractable canvas sunshade), and a hypogeum (underground complex of tunnels, cages, and elevators for staging elaborate animal and gladiatorial shows). An estimated 400,000 people and over 1 million animals died in its arena over four centuries of games.",
+    "significance": "Pioneered arena design features still used in modern stadiums — the prototype for all sports venues",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/800px-Colosseo_2020.jpg",
+    "relatedIds": ["vespasian", "titus", "rome"],
+    "funFact": "The velarium (retractable sunshade) required 1,000 sailors from the Roman navy to operate — they used their rigging skills to manage the massive canvas canopy."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "thysdrus-lg",
+    "highlight": true,
+    "narrative": "The amphitheater of El Djem (ancient Thysdrus) in Tunisia is the largest Roman amphitheater in Africa and the third-largest ever built, seating 35,000. Its massive bulk dominates the modern town from every angle. The amphitheater's remarkable preservation — it was used as a fortress in the 17th century and besieged with cannon fire — makes it the best place outside Rome to experience the scale of Roman spectacle architecture.",
+    "significance": "Largest Roman amphitheater in Africa — best-preserved example of Roman spectacle architecture outside Italy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Amphitheatre_El_Jem.jpg/800px-Amphitheatre_El_Jem.jpg",
+    "relatedIds": [],
+    "funFact": "El Djem's amphitheater was built in a small town whose wealth came entirely from olive oil — the ancient equivalent of a Texas oil town building a stadium."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "verona",
+    "highlight": true,
+    "narrative": "The Arena of Verona is the third-largest surviving Roman amphitheater and the best preserved, with its outer ring of arches almost completely intact (except for one section destroyed by an earthquake in 1117). Built in the 1st century AD to seat 30,000, it has been in continuous use for entertainment — including bullfights, jousts, and since 1913, open-air opera performances that draw 600,000 visitors annually.",
+    "significance": "Best-preserved Roman amphitheater — in continuous use for entertainment for 2,000 years",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Panoramica_Arena_di_Verona.jpg/800px-Panoramica_Arena_di_Verona.jpg",
+    "relatedIds": [],
+    "funFact": "The Verona Arena has hosted opera since 1913 — its acoustics are so perfect that no amplification is needed for audiences of 15,000."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "nimes",
+    "highlight": true,
+    "narrative": "The amphitheater of Nimes (Nemausus) is one of the best-preserved Roman amphitheaters, seating 24,000. After the fall of Rome, an entire medieval village was built inside it — complete with houses, streets, and two churches. The village was cleared in the 19th century, and today the arena hosts concerts and bullfights. Its two-story facade of 60 arches on each level provided the model for amphitheaters across the Western provinces.",
+    "significance": "Best-preserved Roman amphitheater in France — a medieval village once existed inside it",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "Over 700 people lived inside the amphitheater during the Middle Ages — it was essentially a fortified apartment complex with built-in defensive walls."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "arles",
+    "highlight": false,
+    "narrative": "The amphitheater of Arles (Arelate) once seated 20,000 for gladiatorial games and wild beast hunts. Like the arena at Nimes, it sheltered a medieval village within its walls — including 212 houses and two chapels. The four medieval towers added for defense still crown the Roman structure. Today it hosts bullfights and re-enactments in the tradition of its original purpose.",
+    "significance": "Major Roman amphitheater in Gaul — its medieval reuse as a fortified village preserved the structure",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The Roman amphitheater outlived the Roman theater next door by being more useful — its defensive walls made perfect medieval fortifications."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "pula",
+    "highlight": true,
+    "narrative": "The Arena of Pula in Croatia is one of only six surviving Roman arenas with all three tiers of arches intact. Built in the 1st century AD under Augustus and completed under Vespasian, it seated 23,000 spectators. Its remarkable state of preservation is partly due to luck — the Venetian Senate once voted to dismantle it and reassemble it in Venice, but a single senator's objection saved it.",
+    "significance": "One of only six Roman amphitheaters with complete three-tier arcading still standing",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pulska_arena_1.jpg/800px-Pulska_arena_1.jpg",
+    "relatedIds": ["vespasian"],
+    "funFact": "The Venetian plan to disassemble and ship the arena to Venice was blocked by a single senator, Gabriele Emo, in 1583 — one vote saved an irreplaceable Roman monument."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "pompeii",
+    "highlight": false,
+    "narrative": "The Amphitheater of Pompeii, built around 70 BC, is the oldest known permanent stone amphitheater in the world — predating the Colosseum by 150 years. A famous fresco depicts a riot between Pompeians and visitors from nearby Nuceria during gladiatorial games in 59 AD, which led to a 10-year ban on games imposed by Emperor Nero. The amphitheater was buried by Vesuvius in 79 AD and preserved perfectly.",
+    "significance": "Oldest known stone amphitheater in the world — site of a famous spectator riot documented in both text and fresco",
+    "imageUrl": null,
+    "relatedIds": ["pompeii", "nero", "eruption-of-vesuvius"],
+    "funFact": "The 59 AD riot fresco shows Pompeians and Nucerians fighting with fists, stones, and weapons in and around the amphitheater — ancient hooliganism, perfectly preserved."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "italica",
+    "highlight": false,
+    "narrative": "The amphitheater of Italica near Seville, birthplace of emperors Trajan and Hadrian, was the third largest in the Roman Empire with seating for 25,000. Its extensive underground service area (fossa bestiaria) is exceptionally well preserved, revealing the complex machinery used to raise animals and scenery into the arena. The amphitheater appeared in Game of Thrones as the Dragonpit of King's Landing.",
+    "significance": "Third-largest amphitheater in the Roman Empire — birthplace of two of Rome's greatest emperors",
+    "imageUrl": null,
+    "relatedIds": ["trajan", "hadrian"],
+    "funFact": "The amphitheater at Italica appeared as the Dragonpit in Game of Thrones — Roman architecture playing Westerosi architecture."
+  },
+  {
+    "layerType": "amphitheater",
+    "itemId": "capua-ii",
+    "highlight": false,
+    "narrative": "The amphitheater at Capua was the second largest in the Roman world after the Colosseum and is believed to be where Spartacus trained as a gladiator before his famous revolt in 73 BC. The structure visible today is a later rebuild, but the gladiatorial school (ludus) where Spartacus was held was nearby. The underground galleries and arched substructures are among the best preserved of any Roman arena.",
+    "significance": "Second-largest Roman amphitheater — associated with Spartacus and the most famous gladiatorial revolt",
+    "imageUrl": null,
+    "relatedIds": ["spartacus"],
+    "funFact": "Spartacus and 70 fellow gladiators escaped from their training school at Capua using kitchen utensils as weapons — launching a revolt that terrified Rome for two years."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-aqua-claudia",
+    "highlight": true,
+    "narrative": "The Aqua Claudia was considered the finest aqueduct in Rome, praised by Frontinus for the purity and volume of its water. Begun by Caligula and completed by Claudius in 52 AD, its above-ground arcades stretched for 15 km across the Roman Campagna. The monumental Porta Maggiore, where the Claudia and Anio Novus crossed the Via Praenestina, still stands as one of Rome's most impressive ancient monuments.",
+    "significance": "Finest of Rome's eleven aqueducts — the Porta Maggiore is one of the city's most impressive surviving monuments",
+    "imageUrl": null,
+    "relatedIds": ["claudius", "caligula", "rome"],
+    "funFact": "The Aqua Claudia delivered 184,000 cubic meters of water per day — enough to supply a modern city of 1 million people."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-pont-du-gard",
+    "highlight": true,
+    "narrative": "The Pont du Gard aqueduct bridge is covered in the buildings section, but as an engineering achievement it deserves special note: the gradient of the entire 50 km aqueduct from Uzes to Nimes dropped only 17 meters — an average slope of 1 in 3,000. Such precision over such distance, achieved without modern surveying instruments, represents one of the most astonishing feats of ancient engineering.",
+    "significance": "Engineering masterpiece — the gradient drops only 17 meters over 50 km, a precision of 1:3,000",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pont_du_Gard_BLS.jpg/800px-Pont_du_Gard_BLS.jpg",
+    "relatedIds": ["augustus"],
+    "funFact": "The total drop of the aqueduct is 17 meters over 50 km — less than the height of a 6-story building over 50 kilometers. Roman surveyors achieved this with nothing but water levels and plumb lines."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-segovia",
+    "highlight": true,
+    "narrative": "The Aqueduct of Segovia is the most visually dramatic Roman engineering structure in Spain, with its 167 arches reaching 28 meters at the highest point. Built from unmortared granite blocks — held together purely by the precision of their cutting and the weight of the stones above — it carried water to the city for nearly 2,000 years. The aqueduct features on Segovia's coat of arms and is the city's defining landmark.",
+    "significance": "Most visually impressive surviving Roman aqueduct — carried water for nearly 2,000 years without mortar",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aqueduct_of_Segovia_02.jpg/800px-Aqueduct_of_Segovia_02.jpg",
+    "relatedIds": [],
+    "funFact": "The aqueduct was still carrying water in the 20th century — nearly 2,000 years of continuous service with zero mortar holding it together."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-zaghouan",
+    "highlight": true,
+    "narrative": "The Zaghouan-Carthage aqueduct was one of the longest in the Roman Empire, stretching 132 km from the springs at Zaghouan to Roman Carthage. Built under Hadrian, it featured a monumental nymphaeum (fountain house) at its source and supplied the vast Antonine Baths at Carthage. Substantial portions of the arcade survive across the Tunisian landscape, including a dramatic series of arches near modern Tunis.",
+    "significance": "One of the longest aqueducts in the Roman Empire — supplied water across 132 km of North African terrain",
+    "imageUrl": null,
+    "relatedIds": ["hadrian", "carthage"],
+    "funFact": "The Zaghouan aqueduct was repaired and put back in service in the 13th century by the Hafsid dynasty — medieval engineers recognized they couldn't do better than the Romans."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-aqua-virgo",
+    "highlight": true,
+    "narrative": "The Aqua Virgo, built by Agrippa in 19 BC, is the only ancient Roman aqueduct still functioning. Its waters feed the Trevi Fountain and several other fountains in central Rome through the Renaissance-era Acqua Vergine system. Legend says a virgin girl showed thirsty soldiers the spring's location — giving the aqueduct its name. For over 2,000 years, this same water source has supplied Rome.",
+    "significance": "Only ancient Roman aqueduct still functioning — its waters feed the Trevi Fountain today",
+    "imageUrl": null,
+    "relatedIds": ["augustus", "rome"],
+    "funFact": "When you throw a coin in the Trevi Fountain, it lands in water that has been flowing through the same Roman channel for over 2,000 years."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-aqua-marcia",
+    "highlight": false,
+    "narrative": "The Aqua Marcia was the longest of Rome's eleven aqueducts at 91 km and was famous for the exceptional quality of its water — cold, clear, and pure. Built in 144 BC, it was the first aqueduct to use extensive above-ground arcading. Its water was considered so superior that it was reserved for drinking, while lower-quality sources supplied baths and fountains.",
+    "significance": "Longest of Rome's aqueducts — its water was considered the finest in the city",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "Augustus' doctor prescribed Aqua Marcia water specifically for the emperor's health — ancient Romans were connoisseurs of their water supply."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-valens",
+    "highlight": false,
+    "narrative": "The Aqueduct of Valens in Constantinople is one of the most prominent surviving Roman structures in modern Istanbul. Built (or rebuilt) by Emperor Valens around 368 AD, its double-tiered arches stride dramatically through the modern city for nearly a kilometer. The aqueduct supplied Constantinople's vast cisterns and continued operating under the Ottoman Empire until the late 19th century.",
+    "significance": "Most prominent surviving Roman structure in Istanbul — supplied Constantinople for over 1,500 years",
+    "imageUrl": null,
+    "relatedIds": ["valens", "constantinople"],
+    "funFact": "The Aqueduct of Valens continued supplying water to Istanbul under Ottoman rule — the Turks maintained a Roman aqueduct for 500 years after conquering the city."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-aspendos",
+    "highlight": false,
+    "narrative": "The aqueduct of Aspendos in southern Turkey features two remarkable pressure towers — stone structures that allowed the aqueduct to cross a deep valley using the inverted siphon principle. Water descended from one tower, crossed the valley in pressurized pipes, and rose up to the other tower on the opposite side. This sophisticated hydraulic engineering demonstrates that Romans fully understood and exploited fluid dynamics.",
+    "significance": "Best-preserved example of Roman inverted siphon technology — demonstrates advanced hydraulic engineering",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The pressure in the Aspendos siphon reached 9 atmospheres — equivalent to 90 meters of water head — requiring stone pipes bound with lead clamps to prevent bursting."
+  },
+  {
+    "layerType": "aqueduct",
+    "itemId": "aq-aqua-appia",
+    "highlight": false,
+    "narrative": "The Aqua Appia, built in 312 BC by Appius Claudius Caecus, was Rome's first aqueduct and one of the most important infrastructure projects in Republican history. Running almost entirely underground to prevent enemies from cutting the supply, it established the principle that Rome's citizens deserved clean water as a public right. The same Appius Claudius also built the Via Appia — Rome's first major road.",
+    "significance": "Rome's first aqueduct — established the principle of public water supply that Rome would maintain for 800 years",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "Appius Claudius built both Rome's first aqueduct and first major road in the same year (312 BC) — arguably the most productive year of infrastructure in Roman history."
+  },
+  {
+    "layerType": "infrastructure",
+    "itemId": "via-appia",
+    "highlight": true,
+    "narrative": "The Via Appia, 'Queen of Roads,' was the first and most famous Roman highway, stretching 563 km from Rome to Brundisium (Brindisi). Built in 312 BC by Appius Claudius Caecus, it pioneered the engineering standards — drainage, cambered surface, stone paving — that Rome would apply across 400,000 km of roads. In 71 BC, Crassus crucified 6,000 of Spartacus' followers along its length from Capua to Rome.",
+    "significance": "First and most famous Roman road — the prototype for the 400,000 km Roman road network",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Via_Appia_Antica_Rome_2006.jpg/800px-Via_Appia_Antica_Rome_2006.jpg",
+    "relatedIds": ["rome", "spartacus"],
+    "funFact": "After Spartacus' revolt, 6,000 crucified rebels lined the Via Appia for 200 km — one cross every 33 meters, a grotesque avenue of death visible for months."
+  },
+  {
+    "layerType": "infrastructure",
+    "itemId": "hadrians-wall",
+    "highlight": true,
+    "narrative": "Hadrian's Wall stretches 117 km across northern England from coast to coast, the most significant Roman frontier work in the empire. Built starting in 122 AD, it was not primarily a military defense line but a customs and immigration barrier — controlling who crossed and what they carried. Milecastles every Roman mile and turrets between them created an integrated surveillance system. The Wall employed a garrison of 9,000 auxiliary troops from across the empire.",
+    "significance": "Most famous Roman frontier structure — a 117 km barrier that defined the northern limit of the Roman world in Britain",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hadrians_Wall_from_Housesteads1_crop.jpg/800px-Hadrians_Wall_from_Housesteads1_crop.jpg",
+    "relatedIds": ["hadrian"],
+    "funFact": "Soldiers from Syria, Spain, North Africa, and the Danube garrisoned the Wall — a Syrian archer unit at Housesteads Fort was likely freezing in Northumberland's weather."
+  },
+  {
+    "layerType": "infrastructure",
+    "itemId": "colosseum",
+    "highlight": true,
+    "narrative": "As infrastructure, the Colosseum was a marvel of crowd management. Its 80 numbered entrance arches and elaborate system of staircases (vomitoria) could seat 50,000 spectators and evacuate them in minutes — a design standard not matched until modern stadiums. The underground hypogeum contained 80 vertical shafts with elevator platforms operated by hundreds of workers, raising animals and scenery into the arena for spectacular set pieces.",
+    "significance": "The most sophisticated crowd-management infrastructure in the ancient world — its vomitoria system inspired modern stadium design",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/800px-Colosseo_2020.jpg",
+    "relatedIds": ["vespasian", "titus", "rome"],
+    "funFact": "The Colosseum could be flooded for mock naval battles (naumachiae) — though this practice ended once the elaborate underground hypogeum was built."
+  },
+  {
+    "layerType": "infrastructure",
+    "itemId": "aqua-claudia",
+    "highlight": true,
+    "narrative": "The Aqua Claudia carried water 69 km from springs near Subiaco to Rome, with 15 km on above-ground arcading. At the point where it entered Rome, it crossed the Porta Maggiore — a monumental double gateway whose rusticated stonework influenced Renaissance and modern architecture. Emperor Claudius personally oversaw its completion in 52 AD, making it both an infrastructure achievement and a statement of imperial power.",
+    "significance": "Most visually impressive of Rome's aqueducts — the Porta Maggiore gateway influenced later architecture",
+    "imageUrl": null,
+    "relatedIds": ["claudius", "rome"],
+    "funFact": "The Aqua Claudia's above-ground sections were so monumental that early medieval Romans believed they were walls built by a race of giants."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "didius-julianus",
+    "highlight": false,
+    "narrative": "Didius Julianus holds the dubious distinction of having literally bought the Roman Empire at auction. When the Praetorian Guard murdered Pertinax in 193 AD, they offered the throne to the highest bidder from the walls of their camp. Julianus outbid his rival with an offer of 25,000 sesterces per guardsman. His purchase lasted just 66 days before Septimius Severus marched on Rome and had him executed.",
+    "significance": "Bought the empire at auction — the most cynical imperial succession in Roman history",
+    "imageUrl": null,
+    "relatedIds": ["septimius-severus"],
+    "funFact": "When Severus' army approached Rome, the Praetorians abandoned Julianus immediately — he was found alone in the palace, executed by a common soldier."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "geta",
+    "highlight": false,
+    "narrative": "Geta was co-emperor with his brother Caracalla for less than a year before Caracalla had him murdered in their mother's arms in December 211 AD. Caracalla then ordered a damnatio memoriae so thorough that Geta's name was chiseled off inscriptions across the empire, his face removed from portraits, and even his coins recalled. Despite this, Geta's likeness survives in the famous Severan Tondo in Berlin, where his face was painted over but remains visible.",
+    "significance": "His murder by Caracalla and subsequent damnatio memoriae is the best-documented erasure of memory in Roman history",
+    "imageUrl": null,
+    "relatedIds": ["caracalla", "septimius-severus"],
+    "funFact": "The Severan Tondo painting shows the imperial family — but Geta's face was smeared out after his murder, leaving a ghostly dark circle where his portrait once was."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "constantine-ii",
+    "highlight": false,
+    "narrative": "The eldest son of Constantine the Great, Constantine II ruled the western provinces but grew impatient with his younger brother Constans' territory. In 340 AD, he invaded Italy and was killed in an ambush near Aquileia — becoming one of many Constantine family members to die violently in the succession struggles that plagued the dynasty. His death left Constans as master of the West.",
+    "significance": "First of Constantine's sons to die in the dynastic civil wars that consumed the Constantinian dynasty",
+    "imageUrl": null,
+    "relatedIds": ["constantine"],
+    "funFact": "Constantine the Great divided the empire among three sons and two nephews — within 13 years, all but one (Constantius II) were dead."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "valentinian-i",
+    "highlight": false,
+    "narrative": "Valentinian I was a tough Pannonian soldier who ruled the Western Empire effectively for 11 years. He fortified the Rhine and Danube frontiers, campaigned against the Alamanni and Quadi, and promoted men of merit regardless of social class. He died in 375 AD during a meeting with Quadi envoys — their insolence sent him into such a rage that he suffered a fatal stroke on the spot.",
+    "significance": "Last effective Western emperor to campaign personally on the frontiers — his death from rage is one of history's most dramatic exits",
+    "imageUrl": null,
+    "relatedIds": ["valens"],
+    "funFact": "Valentinian kept two pet bears named 'Golden Camel' and 'Innocence' outside his bedroom — they were fed the flesh of executed prisoners."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "maxentius",
+    "highlight": false,
+    "narrative": "Maxentius ruled Italy and North Africa as a usurper from 306 to 312 AD. Despite being remembered mainly for losing to Constantine at the Milvian Bridge, he was an active builder — the Basilica of Maxentius in the Forum was the largest building ever erected there. He also built the Circus of Maxentius on the Via Appia, one of the best-preserved Roman circuses, as a monument to his young son Romulus who died in childhood.",
+    "significance": "His defeat at the Milvian Bridge changed the course of Western civilization — but he was also a significant builder",
+    "imageUrl": null,
+    "relatedIds": ["constantine"],
+    "funFact": "Maxentius' body was pulled from the Tiber after the battle, decapitated, and his head paraded through Rome on a spear — the same fate he had planned for Constantine."
+  },
+  {
+    "layerType": "emperor",
+    "itemId": "licinius",
+    "highlight": false,
+    "narrative": "Licinius co-authored the Edict of Milan with Constantine in 313 AD, legalizing Christianity throughout the empire. Ironically, he later persecuted Christians in his eastern territories, giving Constantine a pretext for war. Defeated at Chrysopolis in 324 AD, he surrendered under a guarantee of safety — only to be executed the following year. His partnership with Constantine shows how quickly imperial alliances could sour.",
+    "significance": "Co-author of the Edict of Milan — his defeat unified the empire under Constantine",
+    "imageUrl": null,
+    "relatedIds": ["constantine", "edict-of-milan-event"],
+    "funFact": "Licinius was reportedly so suspicious of learning that he called education 'a poison and a public plague' — an unusual stance for a Roman emperor."
+  },
+  {
+    "layerType": "legion",
+    "itemId": "legio-xv-apollinaris",
+    "highlight": false,
+    "narrative": "The Fifteenth Apollinaris participated in some of the most pivotal events in Roman history: Corbulo's Armenian campaigns, the siege of Jerusalem under Titus, and Trajan's Parthian War. Based at Satala in Armenia for most of the imperial period, it guarded one of the empire's most exposed eastern frontiers. The legion's symbol, a griffin sacred to Apollo, has been found on stamped tiles from the Euphrates to the Danube.",
+    "significance": "Fought at Jerusalem and guarded the Armenian frontier — stationed at one of the empire's most remote outposts",
+    "imageUrl": null,
+    "relatedIds": ["titus", "trajan"],
+    "funFact": "Satala, the legion's base in Armenia, was so remote that supplies had to be shipped hundreds of kilometers overland — soldiers at the edge of the known world."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-002",
+    "highlight": false,
+    "narrative": "The Temple of Saturn in the Roman Forum was one of Rome's oldest and most important temples, also serving as the state treasury (aerarium). During the festival of Saturnalia each December, social norms were inverted: masters served slaves, gambling was permitted, and gifts were exchanged — traditions that directly influenced modern Christmas celebrations. The eight surviving columns make it one of the Forum's most recognizable landmarks.",
+    "significance": "State treasury and site of the Saturnalia festival — ancestor of modern Christmas traditions",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "Saturnalia traditions — gift-giving, feasting, candles, and social role reversals in late December — were directly adopted into Christmas celebrations."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-004",
+    "highlight": false,
+    "narrative": "The Temple of Venus and Roma, designed by Emperor Hadrian himself, was the largest temple in ancient Rome. It featured a unique double-cella design with the goddesses seated back-to-back — Venus facing the Colosseum and Roma facing the Forum. When the great architect Apollodorus of Damascus criticized Hadrian's design (saying the goddesses would bump their heads if they stood up), Hadrian had him exiled and later executed.",
+    "significance": "Largest temple in Rome — designed by Hadrian himself, whose architectural ego proved fatal for critics",
+    "imageUrl": null,
+    "relatedIds": ["hadrian", "rome"],
+    "funFact": "Hadrian had the architect Apollodorus executed for mocking his temple design — proving that architectural criticism could be a capital offense."
+  },
+  {
+    "layerType": "religion",
+    "itemId": "rel-072",
+    "highlight": false,
+    "narrative": "The Sanctuary of Fortuna Primigenia at Palestrina (ancient Praeneste) is a monumental terraced complex cascading down a hillside in six levels, crowned by a semicircular colonnade. Built around 120 BC, it housed a famous oracle that operated by drawing wooden lots (sortes). The sanctuary's theatrical architectural composition — integrating ramps, terraces, and colonnades with the natural hillside — was revolutionary and influenced Renaissance architecture.",
+    "significance": "Most architecturally innovative sanctuary of the Roman Republic — pioneered terraced monumental design",
+    "imageUrl": null,
+    "relatedIds": ["rome"],
+    "funFact": "The sanctuary was so thoroughly built into the medieval town of Palestrina that its full extent was only revealed when Allied bombing in 1944 destroyed the overlying houses."
+  },
+  {
+    "layerType": "mine",
+    "itemId": "mine-cornwall-tin",
+    "highlight": false,
+    "narrative": "Cornwall's tin mines were the western terminus of ancient trade routes stretching back to the Bronze Age. The Phoenicians, Greeks, and Romans all sought Cornish tin — essential for making bronze. The Greek explorer Pytheas visited around 325 BC and described the tin-trading island of 'Ictis.' Roman-era tin ingots stamped with imperial marks have been found across Britain, confirming continued extraction under Roman rule.",
+    "significance": "Ancient tin source at the western edge of the known world — connected Britain to Mediterranean trade for millennia",
+    "imageUrl": null,
+    "relatedIds": [],
+    "funFact": "The ancient Greeks called Britain the 'Cassiterides' (Tin Islands) — the entire archipelago was named after a single Cornish mineral resource."
+  }
+]

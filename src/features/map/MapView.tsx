@@ -1,5 +1,5 @@
 import 'leaflet/dist/leaflet.css'
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, TileLayer } from 'react-leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
@@ -25,6 +25,8 @@ import { BuildingsLayer } from './BuildingsLayer'
 import { PressesLayer } from './PressesLayer'
 import { TradeNetworkLayer } from './TradeNetworkLayer'
 import { EpigraphyLayer } from './EpigraphyLayer'
+import { ViciLayer } from './ViciLayer'
+import { PortsLayer } from './PortsLayer'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './SettlementLegend'
 import { EmperorBanner } from './EmperorBanner'
@@ -45,6 +47,13 @@ export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
   const [activeStory, setActiveStory] = useState<Story | null>(null)
   const mapRef = useRef<LeafletMap | null>(null)
+
+  // Auto-load emperors banner on first render for a compelling default
+  const { toggleEmperors } = useMapLayerStore()
+  useEffect(() => {
+    // Load emperor data so the banner shows immediately when timeline scrubs
+    toggleEmperors()
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const store = useMapLayerStore()
   const {
@@ -68,12 +77,15 @@ export function MapView() {
     showPresses,
     showTradeNetwork,
     showEpigraphy,
+    showVici,
+    showPorts,
     roadsData,
     settlementsData,
     limesData,
     presenceData,
     provincesData,
     provinceLabels,
+    provinceChanges,
     fortificationsData,
     waterData,
     itinereRoadsData,
@@ -89,6 +101,8 @@ export function MapView() {
     pressesData,
     tradeNetworkData,
     epigraphyData,
+    viciData,
+    portsData,
     cityPopulationsData,
     settlementTypes,
     hiddenCategories,
@@ -143,7 +157,11 @@ export function MapView() {
           {showWater && waterData && <WaterLayer data={waterData} />}
           {showPresence && presenceData && <PresenceLayer data={presenceData} />}
           {showProvinces && provincesData && (
-            <ProvinceLayer data={provincesData} labels={provinceLabels ?? undefined} />
+            <ProvinceLayer
+              data={provincesData}
+              labels={provinceLabels ?? undefined}
+              changes={provinceChanges ?? undefined}
+            />
           )}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
 
@@ -162,6 +180,12 @@ export function MapView() {
           {showShipwrecks && shipwrecksData && <ShipwreckLayer data={shipwrecksData} />}
           {showReligion && religionData && <ReligionLayer data={religionData} />}
           {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}
+          {showPorts && portsData && (
+            <PortsLayer data={portsData as Parameters<typeof PortsLayer>[0]['data']} />
+          )}
+          {showVici && viciData && (
+            <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
+          )}
           {showAmphitheaters && amphitheatersData && <AmphitheaterLayer data={amphitheatersData} />}
           {showSettlements && settlementsData && (
             <SettlementLayer

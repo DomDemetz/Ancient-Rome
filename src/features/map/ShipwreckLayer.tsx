@@ -21,6 +21,17 @@ function formatYear(year: number): string {
   return `${year} AD`
 }
 
+// Spatial grid sampling: at low zoom, only show one wreck per grid cell
+function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridSize: number): T[] {
+  const seen = new Set<string>()
+  return items.filter((item) => {
+    const key = `${Math.floor(item.lat / gridSize)},${Math.floor(item.lng / gridSize)}`
+    if (seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
+}
+
 export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
   const map = useMap()
   const [zoom, setZoom] = useState(map.getZoom())
@@ -38,14 +49,9 @@ export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
   })
 
   const visible = useMemo(() => {
-    return data.filter((w) => {
-      // Show wrecks from their estimated period up to present
+    let filtered = data.filter((w) => {
       if (w.startYear > currentYear) return false
-
-      // Zoom threshold - show at zoom 5+
       if (zoom < 5) return false
-
-      // Bounds filtering
       if (zoom >= 7) {
         return (
           w.lat >= bounds.getSouth() &&
@@ -54,9 +60,16 @@ export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
           w.lng <= bounds.getEast()
         )
       }
-
       return true
     })
+
+    // At low zoom, spatially sample to reduce density
+    if (zoom < 7 && filtered.length > 300) {
+      const gridSize = zoom <= 5 ? 1.0 : 0.5
+      filtered = spatialSample(filtered, gridSize)
+    }
+
+    return filtered
   }, [data, zoom, bounds, currentYear])
 
   const baseRadius = zoom >= 7 ? 4 : zoom >= 5 ? 3 : 2
@@ -65,7 +78,6 @@ export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
     <>
       {visible.map((w) => {
         const color = CARGO_COLORS[w.cargoType ?? ''] || '#3498db'
-        // More recent wrecks are brighter
         const isRecent = currentYear - w.startYear < 100
         const opacity = isRecent ? 0.8 : 0.5
 

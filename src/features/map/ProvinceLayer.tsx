@@ -4,11 +4,12 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback, useRef } from 'react'
-import type { ProvinceLabel } from '@/data/dare'
+import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
 
 interface ProvinceLayerProps {
   data: FeatureCollection
   labels?: ProvinceLabel[]
+  changes?: ProvinceChange[]
 }
 
 const PROVINCE_STYLE: PathOptions = {
@@ -29,16 +30,16 @@ const SELECTED_STYLE: PathOptions = {
   dashArray: undefined,
 }
 
-function createLabelIcon(name: string): L.DivIcon {
+function createLabelIcon(name: string, isReorganized?: boolean): L.DivIcon {
   return L.divIcon({
-    className: 'province-label',
+    className: isReorganized ? 'province-label province-label--reorganized' : 'province-label',
     html: name,
     iconSize: [0, 0],
     iconAnchor: [0, 0],
   })
 }
 
-export function ProvinceLayer({ data, labels }: ProvinceLayerProps) {
+export function ProvinceLayer({ data, labels, changes }: ProvinceLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const selectedRef = useRef<L.Path | null>(null)
 
@@ -52,14 +53,40 @@ export function ProvinceLayer({ data, labels }: ProvinceLayerProps) {
     return { ...data, features }
   }, [data, currentYear])
 
-  const filteredLabels = useMemo(() => {
-    if (!labels) return []
-    return labels.filter((l) => {
+  // Compute labels including province reorganizations
+  const allLabels = useMemo(() => {
+    const baseLabels = (labels || []).filter((l) => {
       if (l.startYear !== 0 && l.startYear > currentYear) return false
       if (l.endYear !== 0 && l.endYear < currentYear) return false
       return true
     })
-  }, [labels, currentYear])
+
+    if (!changes || changes.length === 0) return baseLabels
+
+    // Find which provinces have been reorganized by the current year
+    const reorganized = new Set<string>()
+    const extraLabels: ProvinceLabel[] = []
+
+    for (const change of changes) {
+      if (change.splitYear <= currentYear) {
+        reorganized.add(change.originalName)
+        for (const np of change.newProvinces) {
+          extraLabels.push({
+            name: np.name,
+            lat: np.labelLat,
+            lng: np.labelLng,
+            startYear: change.splitYear,
+            endYear: 476,
+          })
+        }
+      }
+    }
+
+    // Filter out original labels that have been reorganized
+    const filteredBase = baseLabels.filter((l) => !reorganized.has(l.name))
+
+    return [...filteredBase, ...extraLabels]
+  }, [labels, changes, currentYear])
 
   const onEachProvince = useCallback((feature: Feature, layer: L.Layer) => {
     const path = layer as L.Path
@@ -90,9 +117,9 @@ export function ProvinceLayer({ data, labels }: ProvinceLayerProps) {
         style={() => PROVINCE_STYLE}
         onEachFeature={onEachProvince}
       />
-      {filteredLabels.map((label) => (
+      {allLabels.map((label) => (
         <Marker
-          key={label.name}
+          key={`${label.name}-${label.lat}`}
           position={[label.lat, label.lng]}
           icon={createLabelIcon(label.name)}
           interactive={false}
