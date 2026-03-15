@@ -8,14 +8,12 @@ interface TerritoryLayerProps {
 
 // Map status values to fill colors
 const STATUS_COLORS: Record<string, string> = {
-  // Schema-defined statuses
-  controlled: '#8b0000', // core
-  allied: '#e89040', // client/ally
-  contested: '#daa520',
-  lost: '#555555',
-  // Task-spec aliases (kept for forward compatibility)
-  core: '#8b0000',
-  province: '#cd5c5c',
+  controlled: '#c0392b',
+  allied: '#e89040',
+  contested: '#f1c40f',
+  lost: '#7f8c8d',
+  core: '#c0392b',
+  province: '#e74c3c',
   client: '#e89040',
 }
 
@@ -52,11 +50,11 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
             key={`${snap.id}-${snap.year}-${currentYear}`}
             data={snap.boundaries}
             style={{
-              color,
+              color: '#fff',
               fillColor: color,
-              fillOpacity: 0.25,
+              fillOpacity: 0.35,
               weight: 1.5,
-              opacity: 0.8,
+              opacity: 0.5,
             }}
           />
         )
