@@ -1,4 +1,4 @@
-import { GeoJSON } from 'react-leaflet'
+import { GeoJSON, Tooltip } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { TerritorySnapshot } from '@/types'
 
@@ -52,11 +52,13 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
             style={{
               color: '#fff',
               fillColor: color,
-              fillOpacity: 0.35,
+              fillOpacity: snap.year >= -300 ? 0.35 : 0.5,
               weight: 1.5,
               opacity: 0.5,
             }}
-          />
+          >
+            {snap.label && <Tooltip sticky>{snap.label}</Tooltip>}
+          </GeoJSON>
         )
       })}
     </>
