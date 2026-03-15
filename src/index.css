@@ -1,7 +1,7 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
-@import "@fontsource-variable/geist";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+@import '@fontsource-variable/geist';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -150,4 +150,20 @@
   html {
     @apply font-sans;
   }
+}
+
+/* Dark filter for terrain basemap tiles — only affects tile pane, not overlaid markers/tooltips */
+.leaflet-tile-pane {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+/* Province name labels on the map */
+.province-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(200, 190, 220, 0.7);
+  white-space: nowrap;
+  pointer-events: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -50%);
 }
