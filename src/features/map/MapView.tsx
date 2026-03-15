@@ -1,6 +1,6 @@
 import 'leaflet/dist/leaflet.css'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { MapContainer, TileLayer } from 'react-leaflet'
+import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
@@ -37,6 +37,18 @@ import { StoryPlayer } from './StoryPlayer'
 import type { Story } from './StoryPlayer'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+
+/** Create a custom pane for territory/province polygons below the default overlayPane (z-index 400) */
+function BasePane() {
+  const map = useMap()
+  useEffect(() => {
+    if (!map.getPane('basePolygons')) {
+      const pane = map.createPane('basePolygons')
+      pane.style.zIndex = '250'
+    }
+  }, [map])
+  return null
+}
 
 const ROME_CENTER: [number, number] = [41.9, 12.5]
 const DEFAULT_ZOOM = 5
@@ -168,10 +180,10 @@ export function MapView() {
           ref={mapRef}
         >
           <TileLayer url={TERRAIN_TILE_URL} attribution={attribution} />
+          <BasePane />
 
           {/* Render order: base layers -> overlays -> point layers */}
-          {showWater && waterData && <WaterLayer data={waterData} />}
-          {showPresence && presenceData && <PresenceLayer data={presenceData} />}
+          {showTerritories && <TerritoryLayer snapshots={territories} />}
           {showProvinces && provincesData && (
             <ProvinceLayer
               data={provincesData}
@@ -180,7 +192,8 @@ export function MapView() {
               senatorialProvinces={senatorialProvincesData}
             />
           )}
-          {showTerritories && <TerritoryLayer snapshots={territories} />}
+          {showWater && waterData && <WaterLayer data={waterData} />}
+          {showPresence && presenceData && <PresenceLayer data={presenceData} />}
 
           {showRoads && roadsData && <RoadLayer data={roadsData} />}
           {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}

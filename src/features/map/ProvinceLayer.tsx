@@ -20,6 +20,7 @@ const PROVINCE_STYLE: PathOptions = {
   fillColor: '#8e7cc3',
   fillOpacity: 0.08,
   dashArray: '5 3',
+  pane: 'basePolygons',
 }
 
 const SELECTED_STYLE: PathOptions = {
@@ -28,6 +29,7 @@ const SELECTED_STYLE: PathOptions = {
   opacity: 1,
   fillColor: '#6a4db3',
   fillOpacity: 0.25,
+  pane: 'basePolygons',
   dashArray: undefined,
 }
 
@@ -38,6 +40,7 @@ const SENATORIAL_STYLE: PathOptions = {
   opacity: 0.6,
   fillColor: '#d4af37',
   fillOpacity: 0.12,
+  pane: 'basePolygons',
   dashArray: '3 3',
 }
 
@@ -132,6 +135,7 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
       <GeoJSON
         key={`provinces-${currentYear}`}
         data={filtered}
+        pane="basePolygons"
         style={() => PROVINCE_STYLE}
         onEachFeature={onEachProvince}
       />
@@ -140,6 +144,7 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
         <GeoJSON
           key={`senatorial-${currentYear}`}
           data={senatorialProvinces}
+          pane="basePolygons"
           style={() => SENATORIAL_STYLE}
           onEachFeature={onEachSenatorial}
         />

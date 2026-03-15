@@ -50,12 +50,14 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
             key={`${snap.id}-${snap.year}-${currentYear}`}
             data={snap.boundaries}
             interactive={false}
+            pane="basePolygons"
             style={{
               color: '#fff',
               fillColor: color,
               fillOpacity: snap.year >= -300 ? 0.35 : 0.5,
               weight: 1.5,
               opacity: 0.5,
+              pane: 'basePolygons',
             }}
           >
             {snap.label && <Tooltip sticky>{snap.label}</Tooltip>}
