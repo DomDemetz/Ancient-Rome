@@ -5,7 +5,10 @@
     "entityType": "location",
     "description": "Capital of the Roman Kingdom, Republic, and Empire, situated on seven hills along the Tiber River. At its peak, Rome was home to over one million inhabitants and served as the political, cultural, and economic center of the Mediterranean world.",
     "locationType": "city",
-    "coordinates": { "lat": 41.9028, "lng": 12.4964 },
+    "coordinates": {
+      "lat": 41.8926,
+      "lng": 12.4843
+    },
     "province": "Italia",
     "founded": -753,
     "sources": ["https://en.wikipedia.org/wiki/Rome"]
@@ -16,7 +19,10 @@
     "entityType": "location",
     "description": "Ancient Phoenician city-state in modern-day Tunisia and Rome's greatest rival. After three Punic Wars, Rome destroyed Carthage in 146 BC, though it was later refounded as a major Roman city.",
     "locationType": "city",
-    "coordinates": { "lat": 36.8565, "lng": 10.3375 },
+    "coordinates": {
+      "lat": 36.8531,
+      "lng": 10.3231
+    },
     "province": "Africa Proconsularis",
     "founded": -814,
     "sources": ["https://en.wikipedia.org/wiki/Carthage"]
@@ -27,7 +33,10 @@
     "entityType": "location",
     "description": "Major Hellenistic city in Egypt founded by Alexander the Great, famous for its Great Library and Lighthouse. Under Roman rule, it served as the capital of the province of Egypt and a vital center of trade and learning.",
     "locationType": "city",
-    "coordinates": { "lat": 31.2001, "lng": 29.9187 },
+    "coordinates": {
+      "lat": 31.2001,
+      "lng": 29.9187
+    },
     "province": "Aegyptus",
     "founded": -331,
     "sources": ["https://en.wikipedia.org/wiki/Alexandria"]
@@ -38,7 +47,10 @@
     "entityType": "location",
     "description": "Ancient Greek city-state renowned for its contributions to philosophy, democracy, and the arts. Under Roman rule, Athens remained an important cultural and educational center, home to famous philosophical schools.",
     "locationType": "city",
-    "coordinates": { "lat": 37.9838, "lng": 23.7275 },
+    "coordinates": {
+      "lat": 37.9717,
+      "lng": 23.7265
+    },
     "province": "Achaea",
     "founded": -753,
     "sources": ["https://en.wikipedia.org/wiki/Athens"]
@@ -49,7 +61,10 @@
     "entityType": "location",
     "description": "City founded by Constantine I in 330 AD as the new eastern capital of the Roman Empire on the site of ancient Byzantium. It became the capital of the Eastern Roman (Byzantine) Empire and one of the largest cities in the world.",
     "locationType": "city",
-    "coordinates": { "lat": 41.0082, "lng": 28.9784 },
+    "coordinates": {
+      "lat": 41.0124,
+      "lng": 28.9759
+    },
     "province": "Thracia",
     "founded": 330,
     "sources": ["https://en.wikipedia.org/wiki/Constantinople"]
@@ -60,7 +75,10 @@
     "entityType": "location",
     "description": "Roman city near Naples buried by the eruption of Mount Vesuvius in 79 AD. Its remarkably preserved ruins provide invaluable insights into Roman urban life, architecture, and daily customs.",
     "locationType": "city",
-    "coordinates": { "lat": 40.7462, "lng": 14.4989 },
+    "coordinates": {
+      "lat": 40.7494,
+      "lng": 14.4854
+    },
     "province": "Italia",
     "founded": -600,
     "sources": ["https://en.wikipedia.org/wiki/Pompeii"]
@@ -71,7 +89,10 @@
     "entityType": "location",
     "description": "Ancient city sacred to Judaism, Christianity, and Islam, conquered by Pompey in 63 BC. The Roman destruction of the Second Temple in 70 AD by Titus was a pivotal event in Jewish history.",
     "locationType": "city",
-    "coordinates": { "lat": 31.7683, "lng": 35.2137 },
+    "coordinates": {
+      "lat": 31.7683,
+      "lng": 35.2137
+    },
     "province": "Judaea",
     "founded": -753,
     "sources": ["https://en.wikipedia.org/wiki/Jerusalem"]
@@ -82,7 +103,10 @@
     "entityType": "location",
     "description": "Roman settlement founded around 47 AD that grew to become the capital of the province of Britannia. Located on the Thames River, it served as a major trading port and administrative center.",
     "locationType": "city",
-    "coordinates": { "lat": 51.5074, "lng": -0.1278 },
+    "coordinates": {
+      "lat": 51.5125,
+      "lng": -0.0992
+    },
     "province": "Britannia",
     "founded": 47,
     "sources": ["https://en.wikipedia.org/wiki/Londinium"]
@@ -93,7 +117,10 @@
     "entityType": "location",
     "description": "Ancient Greek colony (modern Marseille) that became an important Roman ally and trading port in southern Gaul. It served as a gateway for Greek culture into the western Mediterranean.",
     "locationType": "city",
-    "coordinates": { "lat": 43.2965, "lng": 5.3698 },
+    "coordinates": {
+      "lat": 43.2995,
+      "lng": 5.3653
+    },
     "province": "Gallia Narbonensis",
     "founded": -600,
     "sources": ["https://en.wikipedia.org/wiki/Massalia"]
@@ -104,7 +131,10 @@
     "entityType": "location",
     "description": "Major Greek colony in Sicily that was one of the most powerful cities in the ancient world. Rome conquered Syracuse in 212 BC during the Second Punic War, famously killing Archimedes during the siege.",
     "locationType": "city",
-    "coordinates": { "lat": 37.0755, "lng": 15.2866 },
+    "coordinates": {
+      "lat": 37.0596,
+      "lng": 15.2938
+    },
     "province": "Sicilia",
     "founded": -734,
     "sources": ["https://en.wikipedia.org/wiki/Syracuse,_Sicily"]
@@ -115,7 +145,10 @@
     "entityType": "location",
     "description": "Major city in the Roman province of Syria, one of the largest cities in the empire. It served as an important center of early Christianity and a key military staging point for eastern campaigns.",
     "locationType": "city",
-    "coordinates": { "lat": 36.2, "lng": 36.15 },
+    "coordinates": {
+      "lat": 36.2,
+      "lng": 36.15
+    },
     "province": "Syria",
     "founded": -300,
     "sources": ["https://en.wikipedia.org/wiki/Antioch"]
@@ -126,7 +159,10 @@
     "entityType": "location",
     "description": "City in northeastern Italy that became the capital of the Western Roman Empire in 402 AD due to its strategic marshland defenses. It later served as the capital of the Ostrogothic Kingdom and the Byzantine Exarchate.",
     "locationType": "city",
-    "coordinates": { "lat": 44.4184, "lng": 12.2035 },
+    "coordinates": {
+      "lat": 44.4154,
+      "lng": 12.197
+    },
     "province": "Italia",
     "founded": -753,
     "sources": ["https://en.wikipedia.org/wiki/Ravenna"]
@@ -137,7 +173,10 @@
     "entityType": "location",
     "description": "Important Roman city (modern Milan) that served as the de facto western capital of the Roman Empire from 286 to 402 AD. It was here that the Edict of Milan was proclaimed in 313 AD.",
     "locationType": "city",
-    "coordinates": { "lat": 45.4642, "lng": 9.19 },
+    "coordinates": {
+      "lat": 45.4642,
+      "lng": 9.19
+    },
     "province": "Italia",
     "founded": -590,
     "sources": ["https://en.wikipedia.org/wiki/Mediolanum"]
@@ -148,7 +187,10 @@
     "entityType": "location",
     "description": "Major Roman port city (modern Brindisi) at the terminus of the Via Appia on the Adriatic coast. It served as the primary embarkation point for Roman armies and travelers heading to Greece and the East.",
     "locationType": "city",
-    "coordinates": { "lat": 40.6327, "lng": 17.9467 },
+    "coordinates": {
+      "lat": 40.6411,
+      "lng": 17.9469
+    },
     "province": "Italia",
     "founded": -244,
     "sources": ["https://en.wikipedia.org/wiki/Brindisi"]
@@ -159,7 +201,10 @@
     "entityType": "location",
     "description": "Roman city in southern Hispania (modern Seville) that served as an important administrative and commercial center. It was a key hub in the Roman trade network, particularly for olive oil exports.",
     "locationType": "city",
-    "coordinates": { "lat": 37.3891, "lng": -5.9845 },
+    "coordinates": {
+      "lat": 37.3858,
+      "lng": -5.9931
+    },
     "province": "Hispania Baetica",
     "founded": -206,
     "sources": ["https://en.wikipedia.org/wiki/Hispalis"]

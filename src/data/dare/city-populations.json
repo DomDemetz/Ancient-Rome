@@ -1,0 +1,928 @@
+[
+  {
+    "name": "Roma",
+    "latinVariants": ["Roma"],
+    "populations": [
+      { "year": -200, "population": 300000 },
+      { "year": -100, "population": 500000 },
+      { "year": 1, "population": 1000000 },
+      { "year": 100, "population": 1000000 },
+      { "year": 200, "population": 1200000 },
+      { "year": 300, "population": 800000 },
+      { "year": 400, "population": 500000 },
+      { "year": 476, "population": 100000 }
+    ]
+  },
+  {
+    "name": "Alexandria",
+    "latinVariants": ["Alexandria", "Alexandria ad Aegyptum"],
+    "populations": [
+      { "year": -200, "population": 300000 },
+      { "year": -100, "population": 400000 },
+      { "year": 1, "population": 500000 },
+      { "year": 100, "population": 500000 },
+      { "year": 200, "population": 600000 },
+      { "year": 300, "population": 500000 },
+      { "year": 400, "population": 400000 },
+      { "year": 476, "population": 300000 }
+    ]
+  },
+  {
+    "name": "Antiochia",
+    "latinVariants": ["Antiochia", "Antiochia ad Orontem", "Antiocheia"],
+    "populations": [
+      { "year": -200, "population": 100000 },
+      { "year": -100, "population": 150000 },
+      { "year": 1, "population": 250000 },
+      { "year": 100, "population": 300000 },
+      { "year": 200, "population": 500000 },
+      { "year": 300, "population": 400000 },
+      { "year": 400, "population": 300000 },
+      { "year": 476, "population": 200000 }
+    ]
+  },
+  {
+    "name": "Carthago",
+    "latinVariants": ["Carthago", "Karthago", "Colonia Iulia Carthago"],
+    "populations": [
+      { "year": -200, "population": 300000 },
+      { "year": -146, "population": 0 },
+      { "year": -100, "population": 0 },
+      { "year": 1, "population": 100000 },
+      { "year": 100, "population": 200000 },
+      { "year": 200, "population": 300000 },
+      { "year": 300, "population": 250000 },
+      { "year": 400, "population": 200000 }
+    ]
+  },
+  {
+    "name": "Constantinopolis",
+    "latinVariants": ["Constantinopolis", "Byzantium", "Byzantion"],
+    "populations": [
+      { "year": -200, "population": 20000 },
+      { "year": -100, "population": 30000 },
+      { "year": 1, "population": 36000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 50000 },
+      { "year": 330, "population": 100000 },
+      { "year": 400, "population": 300000 },
+      { "year": 476, "population": 450000 }
+    ]
+  },
+  {
+    "name": "Ephesus",
+    "latinVariants": ["Ephesus", "Ephesos"],
+    "populations": [
+      { "year": -200, "population": 50000 },
+      { "year": -100, "population": 80000 },
+      { "year": 1, "population": 150000 },
+      { "year": 100, "population": 225000 },
+      { "year": 200, "population": 250000 },
+      { "year": 300, "population": 150000 },
+      { "year": 400, "population": 100000 },
+      { "year": 476, "population": 50000 }
+    ]
+  },
+  {
+    "name": "Corinthus",
+    "latinVariants": ["Corinthus", "Korinthos", "Colonia Laus Iulia Corinthiensis"],
+    "populations": [
+      { "year": -200, "population": 80000 },
+      { "year": -146, "population": 0 },
+      { "year": -44, "population": 10000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 80000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 60000 },
+      { "year": 400, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Athenae",
+    "latinVariants": ["Athenae", "Athenai", "Athena"],
+    "populations": [
+      { "year": -200, "population": 120000 },
+      { "year": -100, "population": 100000 },
+      { "year": 1, "population": 80000 },
+      { "year": 100, "population": 120000 },
+      { "year": 200, "population": 150000 },
+      { "year": 300, "population": 80000 },
+      { "year": 400, "population": 50000 },
+      { "year": 476, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Londinium",
+    "latinVariants": ["Londinium"],
+    "populations": [
+      { "year": 1, "population": 0 },
+      { "year": 50, "population": 10000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 60000 },
+      { "year": 300, "population": 45000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Lugdunum",
+    "latinVariants": ["Lugdunum", "Colonia Copia Claudia Augusta Lugdunum"],
+    "populations": [
+      { "year": -43, "population": 5000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 50000 },
+      { "year": 400, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Augusta Treverorum",
+    "latinVariants": ["Augusta Treverorum", "Treveri"],
+    "populations": [
+      { "year": -16, "population": 5000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 60000 },
+      { "year": 300, "population": 80000 },
+      { "year": 400, "population": 70000 },
+      { "year": 476, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Mediolanum",
+    "latinVariants": ["Mediolanum"],
+    "populations": [
+      { "year": -200, "population": 15000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 40000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 80000 },
+      { "year": 300, "population": 100000 },
+      { "year": 400, "population": 100000 },
+      { "year": 476, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Ravenna",
+    "latinVariants": ["Ravenna"],
+    "populations": [
+      { "year": -100, "population": 10000 },
+      { "year": 1, "population": 20000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 40000 },
+      { "year": 400, "population": 50000 },
+      { "year": 476, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Syracusae",
+    "latinVariants": ["Syracusae", "Syrakousai"],
+    "populations": [
+      { "year": -200, "population": 100000 },
+      { "year": -100, "population": 60000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 80000 },
+      { "year": 300, "population": 50000 },
+      { "year": 400, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Massalia",
+    "latinVariants": ["Massalia", "Massilia"],
+    "populations": [
+      { "year": -200, "population": 40000 },
+      { "year": -100, "population": 40000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 35000 },
+      { "year": 400, "population": 25000 }
+    ]
+  },
+  {
+    "name": "Tarraco",
+    "latinVariants": ["Tarraco", "Colonia Iulia Urbs Triumphalis Tarraco"],
+    "populations": [
+      { "year": -200, "population": 5000 },
+      { "year": -100, "population": 15000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 35000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Emerita Augusta",
+    "latinVariants": ["Emerita Augusta", "Augusta Emerita", "Emerita"],
+    "populations": [
+      { "year": -25, "population": 10000 },
+      { "year": 1, "population": 20000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 35000 },
+      { "year": 400, "population": 25000 },
+      { "year": 476, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Hispalis",
+    "latinVariants": ["Hispalis", "Colonia Romula Hispalis"],
+    "populations": [
+      { "year": -200, "population": 5000 },
+      { "year": -100, "population": 10000 },
+      { "year": 1, "population": 20000 },
+      { "year": 100, "population": 25000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Corduba",
+    "latinVariants": ["Corduba", "Colonia Patricia Corduba"],
+    "populations": [
+      { "year": -200, "population": 10000 },
+      { "year": -100, "population": 20000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 45000 },
+      { "year": 300, "population": 35000 },
+      { "year": 400, "population": 25000 }
+    ]
+  },
+  {
+    "name": "Leptis Magna",
+    "latinVariants": ["Leptis Magna", "Lepcis Magna"],
+    "populations": [
+      { "year": -200, "population": 20000 },
+      { "year": -100, "population": 30000 },
+      { "year": 1, "population": 40000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 80000 },
+      { "year": 300, "population": 50000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Caesarea",
+    "latinVariants": ["Caesarea", "Caesarea Maritima", "Caesarea Palaestinae"],
+    "populations": [
+      { "year": -22, "population": 5000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 45000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 40000 },
+      { "year": 400, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Thessalonica",
+    "latinVariants": ["Thessalonica", "Thessalonike"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 40000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 70000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 100000 },
+      { "year": 400, "population": 80000 },
+      { "year": 476, "population": 60000 }
+    ]
+  },
+  {
+    "name": "Aquileia",
+    "latinVariants": ["Aquileia"],
+    "populations": [
+      { "year": -181, "population": 5000 },
+      { "year": -100, "population": 20000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 80000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 80000 },
+      { "year": 400, "population": 50000 },
+      { "year": 452, "population": 5000 }
+    ]
+  },
+  {
+    "name": "Pompeii",
+    "latinVariants": ["Pompeii"],
+    "populations": [
+      { "year": -200, "population": 6000 },
+      { "year": -100, "population": 12000 },
+      { "year": 1, "population": 15000 },
+      { "year": 50, "population": 20000 },
+      { "year": 79, "population": 0 }
+    ]
+  },
+  {
+    "name": "Pergamum",
+    "latinVariants": ["Pergamum", "Pergamon"],
+    "populations": [
+      { "year": -200, "population": 120000 },
+      { "year": -100, "population": 100000 },
+      { "year": 1, "population": 100000 },
+      { "year": 100, "population": 130000 },
+      { "year": 200, "population": 150000 },
+      { "year": 300, "population": 80000 },
+      { "year": 400, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Smyrna",
+    "latinVariants": ["Smyrna"],
+    "populations": [
+      { "year": -200, "population": 40000 },
+      { "year": -100, "population": 60000 },
+      { "year": 1, "population": 75000 },
+      { "year": 100, "population": 90000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 70000 },
+      { "year": 400, "population": 50000 }
+    ]
+  },
+  {
+    "name": "Nicomedia",
+    "latinVariants": ["Nicomedia", "Nikomedeia"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 40000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 80000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 150000 },
+      { "year": 400, "population": 100000 },
+      { "year": 476, "population": 60000 }
+    ]
+  },
+  {
+    "name": "Nicaea",
+    "latinVariants": ["Nicaea", "Nikaia"],
+    "populations": [
+      { "year": -200, "population": 15000 },
+      { "year": -100, "population": 20000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 50000 },
+      { "year": 200, "population": 60000 },
+      { "year": 300, "population": 50000 },
+      { "year": 400, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Sardis",
+    "latinVariants": ["Sardis", "Sardes"],
+    "populations": [
+      { "year": -200, "population": 50000 },
+      { "year": -100, "population": 60000 },
+      { "year": 1, "population": 80000 },
+      { "year": 100, "population": 100000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 60000 },
+      { "year": 400, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Miletus",
+    "latinVariants": ["Miletus", "Miletos"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 40000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Capua",
+    "latinVariants": ["Capua"],
+    "populations": [
+      { "year": -200, "population": 40000 },
+      { "year": -100, "population": 50000 },
+      { "year": 1, "population": 60000 },
+      { "year": 100, "population": 70000 },
+      { "year": 200, "population": 60000 },
+      { "year": 300, "population": 40000 },
+      { "year": 400, "population": 25000 }
+    ]
+  },
+  {
+    "name": "Brundisium",
+    "latinVariants": ["Brundisium", "Brundusium"],
+    "populations": [
+      { "year": -200, "population": 15000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 25000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Neapolis",
+    "latinVariants": ["Neapolis"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 40000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 40000 },
+      { "year": 400, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Ostia",
+    "latinVariants": ["Ostia", "Ostia Antica"],
+    "populations": [
+      { "year": -200, "population": 10000 },
+      { "year": -100, "population": 20000 },
+      { "year": 1, "population": 40000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 75000 },
+      { "year": 300, "population": 40000 },
+      { "year": 400, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Puteoli",
+    "latinVariants": ["Puteoli", "Dicaearchia"],
+    "populations": [
+      { "year": -200, "population": 10000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 40000 },
+      { "year": 100, "population": 50000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Narbo",
+    "latinVariants": ["Narbo", "Narbo Martius", "Colonia Narbo Martius"],
+    "populations": [
+      { "year": -118, "population": 5000 },
+      { "year": -100, "population": 10000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 35000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Nemausus",
+    "latinVariants": ["Nemausus"],
+    "populations": [
+      { "year": -100, "population": 5000 },
+      { "year": 1, "population": 20000 },
+      { "year": 100, "population": 35000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Arelate",
+    "latinVariants": ["Arelate", "Colonia Iulia Paterna Arelatensium Sextanorum"],
+    "populations": [
+      { "year": -100, "population": 5000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 50000 },
+      { "year": 400, "population": 40000 },
+      { "year": 476, "population": 25000 }
+    ]
+  },
+  {
+    "name": "Lutetia",
+    "latinVariants": ["Lutetia", "Lutetia Parisiorum"],
+    "populations": [
+      { "year": -52, "population": 5000 },
+      { "year": 1, "population": 8000 },
+      { "year": 100, "population": 15000 },
+      { "year": 200, "population": 25000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Colonia Agrippina",
+    "latinVariants": ["Colonia Agrippina", "Colonia Claudia Ara Agrippinensium", "CCAA"],
+    "populations": [
+      { "year": -38, "population": 3000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Mogontiacum",
+    "latinVariants": ["Mogontiacum"],
+    "populations": [
+      { "year": -13, "population": 5000 },
+      { "year": 1, "population": 10000 },
+      { "year": 100, "population": 25000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Vindobona",
+    "latinVariants": ["Vindobona"],
+    "populations": [
+      { "year": 1, "population": 3000 },
+      { "year": 100, "population": 15000 },
+      { "year": 200, "population": 25000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Carnuntum",
+    "latinVariants": ["Carnuntum"],
+    "populations": [
+      { "year": 1, "population": 5000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 40000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Sirmium",
+    "latinVariants": ["Sirmium"],
+    "populations": [
+      { "year": 1, "population": 5000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 60000 },
+      { "year": 300, "population": 100000 },
+      { "year": 400, "population": 50000 },
+      { "year": 441, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Salonae",
+    "latinVariants": ["Salonae", "Salona"],
+    "populations": [
+      { "year": -100, "population": 5000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 60000 },
+      { "year": 400, "population": 40000 },
+      { "year": 476, "population": 25000 }
+    ]
+  },
+  {
+    "name": "Caesarea Cappadociae",
+    "latinVariants": ["Caesarea Cappadociae", "Mazaca"],
+    "populations": [
+      { "year": -200, "population": 20000 },
+      { "year": -100, "population": 30000 },
+      { "year": 1, "population": 50000 },
+      { "year": 100, "population": 80000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 80000 },
+      { "year": 400, "population": 60000 }
+    ]
+  },
+  {
+    "name": "Tarsus",
+    "latinVariants": ["Tarsus", "Tarsos"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 50000 },
+      { "year": 1, "population": 80000 },
+      { "year": 100, "population": 100000 },
+      { "year": 200, "population": 100000 },
+      { "year": 300, "population": 70000 },
+      { "year": 400, "population": 50000 }
+    ]
+  },
+  {
+    "name": "Damascus",
+    "latinVariants": ["Damascus", "Damaskos"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 40000 },
+      { "year": 1, "population": 45000 },
+      { "year": 100, "population": 60000 },
+      { "year": 200, "population": 80000 },
+      { "year": 300, "population": 70000 },
+      { "year": 400, "population": 60000 }
+    ]
+  },
+  {
+    "name": "Tyrus",
+    "latinVariants": ["Tyrus", "Tyros"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 50000 },
+      { "year": 300, "population": 35000 },
+      { "year": 400, "population": 25000 }
+    ]
+  },
+  {
+    "name": "Berytus",
+    "latinVariants": ["Berytus", "Berytos", "Colonia Iulia Augusta Felix Berytus"],
+    "populations": [
+      { "year": -100, "population": 15000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 60000 },
+      { "year": 300, "population": 50000 },
+      { "year": 400, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Hierosolyma",
+    "latinVariants": ["Hierosolyma", "Aelia Capitolina", "Jerusalem"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 50000 },
+      { "year": 1, "population": 80000 },
+      { "year": 70, "population": 5000 },
+      { "year": 200, "population": 20000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 40000 }
+    ]
+  },
+  {
+    "name": "Cyrene",
+    "latinVariants": ["Cyrene", "Kyrene"],
+    "populations": [
+      { "year": -200, "population": 60000 },
+      { "year": -100, "population": 50000 },
+      { "year": 1, "population": 40000 },
+      { "year": 100, "population": 40000 },
+      { "year": 115, "population": 10000 },
+      { "year": 200, "population": 15000 },
+      { "year": 300, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Utica",
+    "latinVariants": ["Utica"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 35000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Gades",
+    "latinVariants": ["Gades", "Augusta Urbs Iulia Gaditana"],
+    "populations": [
+      { "year": -200, "population": 20000 },
+      { "year": -100, "population": 30000 },
+      { "year": 1, "population": 40000 },
+      { "year": 100, "population": 50000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Carthago Nova",
+    "latinVariants": ["Carthago Nova", "Colonia Urbs Iulia Nova Carthago"],
+    "populations": [
+      { "year": -200, "population": 30000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 35000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Caesaraugusta",
+    "latinVariants": ["Caesaraugusta", "Colonia Caesar Augusta"],
+    "populations": [
+      { "year": -14, "population": 5000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 25000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Tingis",
+    "latinVariants": ["Tingis"],
+    "populations": [
+      { "year": -100, "population": 5000 },
+      { "year": 1, "population": 10000 },
+      { "year": 100, "population": 20000 },
+      { "year": 200, "population": 25000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Volubilis",
+    "latinVariants": ["Volubilis"],
+    "populations": [
+      { "year": -100, "population": 5000 },
+      { "year": 1, "population": 10000 },
+      { "year": 100, "population": 15000 },
+      { "year": 200, "population": 20000 },
+      { "year": 300, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Hadrumetum",
+    "latinVariants": ["Hadrumetum"],
+    "populations": [
+      { "year": -200, "population": 15000 },
+      { "year": -100, "population": 20000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 35000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Thugga",
+    "latinVariants": ["Thugga"],
+    "populations": [
+      { "year": -100, "population": 3000 },
+      { "year": 1, "population": 5000 },
+      { "year": 100, "population": 8000 },
+      { "year": 200, "population": 10000 },
+      { "year": 300, "population": 8000 },
+      { "year": 400, "population": 5000 }
+    ]
+  },
+  {
+    "name": "Thysdrus",
+    "latinVariants": ["Thysdrus"],
+    "populations": [
+      { "year": 1, "population": 10000 },
+      { "year": 100, "population": 20000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 15000 },
+      { "year": 400, "population": 5000 }
+    ]
+  },
+  {
+    "name": "Oea",
+    "latinVariants": ["Oea"],
+    "populations": [
+      { "year": -100, "population": 10000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 25000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Sabratha",
+    "latinVariants": ["Sabratha"],
+    "populations": [
+      { "year": -100, "population": 8000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 25000 },
+      { "year": 200, "population": 35000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Verona",
+    "latinVariants": ["Verona"],
+    "populations": [
+      { "year": -100, "population": 10000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 35000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 35000 },
+      { "year": 400, "population": 30000 }
+    ]
+  },
+  {
+    "name": "Patavium",
+    "latinVariants": ["Patavium"],
+    "populations": [
+      { "year": -100, "population": 20000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 40000 },
+      { "year": 200, "population": 40000 },
+      { "year": 300, "population": 30000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Bononia",
+    "latinVariants": ["Bononia"],
+    "populations": [
+      { "year": -189, "population": 5000 },
+      { "year": -100, "population": 15000 },
+      { "year": 1, "population": 25000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 30000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 20000 }
+    ]
+  },
+  {
+    "name": "Eburacum",
+    "latinVariants": ["Eburacum"],
+    "populations": [
+      { "year": 71, "population": 5000 },
+      { "year": 100, "population": 10000 },
+      { "year": 200, "population": 25000 },
+      { "year": 300, "population": 20000 },
+      { "year": 400, "population": 10000 }
+    ]
+  },
+  {
+    "name": "Camulodunum",
+    "latinVariants": ["Camulodunum", "Colonia Victricensis"],
+    "populations": [
+      { "year": 43, "population": 5000 },
+      { "year": 100, "population": 15000 },
+      { "year": 200, "population": 20000 },
+      { "year": 300, "population": 15000 },
+      { "year": 400, "population": 8000 }
+    ]
+  },
+  {
+    "name": "Deva Victrix",
+    "latinVariants": ["Deva Victrix", "Deva"],
+    "populations": [
+      { "year": 79, "population": 5000 },
+      { "year": 100, "population": 10000 },
+      { "year": 200, "population": 15000 },
+      { "year": 300, "population": 10000 },
+      { "year": 400, "population": 5000 }
+    ]
+  },
+  {
+    "name": "Palmyra",
+    "latinVariants": ["Palmyra", "Tadmor"],
+    "populations": [
+      { "year": -100, "population": 10000 },
+      { "year": 1, "population": 20000 },
+      { "year": 100, "population": 50000 },
+      { "year": 200, "population": 80000 },
+      { "year": 273, "population": 10000 },
+      { "year": 400, "population": 5000 }
+    ]
+  },
+  {
+    "name": "Petra",
+    "latinVariants": ["Petra"],
+    "populations": [
+      { "year": -200, "population": 15000 },
+      { "year": -100, "population": 25000 },
+      { "year": 1, "population": 30000 },
+      { "year": 100, "population": 30000 },
+      { "year": 200, "population": 20000 },
+      { "year": 300, "population": 10000 },
+      { "year": 400, "population": 5000 }
+    ]
+  },
+  {
+    "name": "Gerasa",
+    "latinVariants": ["Gerasa"],
+    "populations": [
+      { "year": -100, "population": 5000 },
+      { "year": 1, "population": 15000 },
+      { "year": 100, "population": 25000 },
+      { "year": 200, "population": 35000 },
+      { "year": 300, "population": 25000 },
+      { "year": 400, "population": 15000 }
+    ]
+  },
+  {
+    "name": "Apamea",
+    "latinVariants": ["Apamea", "Apameia"],
+    "populations": [
+      { "year": -200, "population": 50000 },
+      { "year": -100, "population": 60000 },
+      { "year": 1, "population": 80000 },
+      { "year": 100, "population": 100000 },
+      { "year": 200, "population": 120000 },
+      { "year": 300, "population": 80000 },
+      { "year": 400, "population": 50000 }
+    ]
+  }
+]

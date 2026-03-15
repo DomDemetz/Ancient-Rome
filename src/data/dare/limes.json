@@ -1,0 +1,6462 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": 0, "endYear": 0 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.9771, 54.9593],
+          [-3.8049, 55.2709]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.8049, 55.2709],
+          [-3.6755, 55.1465]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.6755, 55.1465],
+          [-3.6754, 55.1397]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.6754, 55.1397],
+          [-3.6567, 55.4755]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.6567, 55.4755],
+          [-3.6187, 55.1198]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.6187, 55.1198],
+          [-3.5763, 54.5739]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.5763, 54.5739],
+          [-3.5459, 54.6556]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.5459, 54.6556],
+          [-3.5268, 54.9868]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.5268, 54.9868],
+          [-3.4939, 54.7209]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.4939, 54.7209],
+          [-3.4311, 55.2985]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.4311, 55.2985],
+          [-3.4186, 54.8261]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.4186, 54.8261],
+          [-3.392, 55.1252]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.392, 55.1252],
+          [-3.3821, 54.6706]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.3821, 54.6706],
+          [-3.2771, 55.096]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": 0, "endYear": 0 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.2771, 55.096],
+          [-3.2611, 54.7603]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": 0, "endYear": 0 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.2611, 54.7603],
+          [-3.2401, 54.7201]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.2401, 54.7201],
+          [-3.2243, 55.065]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.2243, 55.065],
+          [-3.2153, 54.9529]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.2153, 54.9529],
+          [-3.202, 54.9045]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.202, 54.9045],
+          [-3.1807, 55.2801]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.1807, 55.2801],
+          [-3.1532, 54.8074]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.1532, 54.8074],
+          [-3.1489, 54.9281]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.1489, 54.9281],
+          [-3.0671, 54.9179]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.0671, 54.9179],
+          [-3.0494, 54.9224]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.0494, 54.9224],
+          [-2.9759, 55.1235]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": 0, "endYear": 0 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.9759, 55.1235],
+          [-2.959, 54.6361]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.959, 54.6361],
+          [-2.9459, 55.0366]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.9459, 55.0366],
+          [-2.9344, 54.9051]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.9344, 54.9051],
+          [-2.8733, 54.8327]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.8733, 54.8327],
+          [-2.7883, 54.7384]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": 79, "endYear": 125 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.7883, 54.7384],
+          [-2.7665, 54.9454]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": 79, "endYear": 125 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.7665, 54.9454],
+          [-2.7638, 54.9638]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.7638, 54.9638],
+          [-2.7172, 54.653]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.7172, 54.653],
+          [-2.6821, 55.0641]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.6821, 55.0641],
+          [-2.6326, 54.9742]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.6326, 54.9742],
+          [-2.6024, 54.9895]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.6024, 54.9895],
+          [-2.5622, 54.6242]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.5622, 54.6242],
+          [-2.5242, 54.9849]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.5242, 54.9849],
+          [-2.4842, 55.4839]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.4842, 55.4839],
+          [-2.4766, 54.832]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.4766, 54.832],
+          [-2.4645, 54.9949]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.4645, 54.9949],
+          [-2.3603, 54.9912]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.3603, 54.9912],
+          [-2.336, 55.3694]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.336, 55.3694],
+          [-2.3303, 55.0133]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.3303, 55.0133],
+          [-2.3237, 54.5214]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.266, 55.2812],
+          [-2.2236, 55.2448]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.2236, 55.2448],
+          [-2.222, 55.0348]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.222, 55.0348],
+          [-2.1738, 55.1701]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.1738, 55.1701],
+          [-2.1396, 55.0259]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.1396, 55.0259],
+          [-2.0472, 54.9807]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.0472, 54.9807],
+          [-2.0129, 54.5165]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.0129, 54.5165],
+          [-2.006, 55.0108]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.006, 55.0108],
+          [-1.871, 54.5139]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.8413, 55.3958],
+          [-1.8401, 54.8942]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.8401, 54.8942],
+          [-1.8256, 55.0023]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.8256, 55.0023],
+          [-1.7534, 54.8166]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.7534, 54.8166],
+          [-1.677, 54.5366]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.677, 54.5366],
+          [-1.6768, 54.6767]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.6768, 54.6767],
+          [-1.6641, 54.9771]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.6641, 54.9771],
+          [-1.66, 54.9363]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.66, 54.9363],
+          [-1.6101, 54.9688]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.6101, 54.9688],
+          [-1.5719, 54.8558]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5719, 54.8558],
+          [-1.5323, 54.9879]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Hadrian's Wall", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5323, 54.9879],
+          [-1.4309, 55.0045]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.5362, 55.8885],
+          [-4.5325, 55.9159]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.5325, 55.9159],
+          [-4.4663, 55.9267]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.4663, 55.9267],
+          [-4.4356, 56.0558]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.4356, 56.0558],
+          [-4.4096, 55.9232]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.4096, 55.9232],
+          [-4.3624, 55.9239]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.3624, 55.9239],
+          [-4.3279, 55.9199]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.3279, 55.9199],
+          [-4.3145, 56.1715]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.3145, 56.1715],
+          [-4.2719, 55.9173]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.2719, 55.9173],
+          [-4.2155, 55.9259]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.2155, 55.9259],
+          [-4.1723, 55.9351]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.1723, 55.9351],
+          [-4.1608, 55.9396]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.1608, 55.9396],
+          [-4.1192, 55.9491]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.1192, 55.9491],
+          [-4.0719, 55.9589]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.0719, 55.9589],
+          [-4.0523, 56.1873]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.0523, 56.1873],
+          [-4.0305, 55.9649]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.0305, 55.9649],
+          [-3.9874, 55.9731]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.9874, 55.9731],
+          [-3.9413, 55.982]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.9413, 55.982],
+          [-3.9066, 55.9911]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.9066, 55.9911],
+          [-3.8559, 55.9976]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.8559, 55.9976],
+          [-3.8251, 56.0081]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.8251, 56.0081],
+          [-3.7856, 55.9975]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.7856, 55.9975],
+          [-3.7355, 55.9956]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.7355, 55.9956],
+          [-3.6835, 55.9985]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": 0, "endYear": 0 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.6835, 55.9985],
+          [-3.6342, 56.0072]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.6342, 56.0072],
+          [-3.5645, 56.01]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Antonine Wall", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.5645, 56.01],
+          [-3.3004, 55.9776]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 14, "endYear": 47 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.6683, 52.4521],
+          [4.5187, 52.1502]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.5187, 52.1502],
+          [4.6607, 52.1293]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.6607, 52.1293],
+          [4.716, 52.1051]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.716, 52.1051],
+          [5.1216, 52.0907]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.1216, 52.0907],
+          [5.0413, 52.0867]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.0413, 52.0867],
+          [4.8827, 52.0857]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.8827, 52.0857],
+          [5.1619, 52.0577]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.1619, 52.0577],
+          [5.8739, 51.9722]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.8739, 51.9722],
+          [5.4228, 51.9703]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.4228, 51.9703],
+          [5.3614, 51.9676]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.3614, 51.9676],
+          [5.8208, 51.9594]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.8208, 51.9594],
+          [5.7104, 51.9544]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.7104, 51.9544],
+          [5.5625, 51.9388]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.5625, 51.9388],
+          [5.9414, 51.9374]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.9414, 51.9374],
+          [5.9875, 51.9208]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.9875, 51.9208],
+          [6.0875, 51.8686]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -12, "endYear": 70 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.0875, 51.8686],
+          [5.8868, 51.8408]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 71, "endYear": 70 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.8868, 51.8408],
+          [5.8938, 51.8377]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 71, "endYear": 125 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.8938, 51.8377],
+          [6.1283, 51.8133]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.1283, 51.8133],
+          [5.3497, 51.8016]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.3497, 51.8016],
+          [6.1789, 51.7778]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.1789, 51.7778],
+          [6.2344, 51.7592]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.2344, 51.7592],
+          [7.1705, 51.7395]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.8827, 51.7296],
+          [6.3189, 51.7139]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.3189, 51.7139],
+          [7.3567, 51.6869]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -11, "endYear": 9 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.3567, 51.6869],
+          [6.9353, 51.6739]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -11, "endYear": 9 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.9353, 51.6739],
+          [6.47, 51.6464]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.47, 51.6464],
+          [6.5806, 51.6383]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.5806, 51.6383],
+          [7.5665, 51.6154]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.5665, 51.6154],
+          [7.5844, 51.6125]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.5844, 51.6125],
+          [6.5825, 51.5691]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.5825, 51.5691],
+          [6.6785, 51.4749]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.6785, 51.4749],
+          [6.1716, 51.4596]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.1716, 51.4596],
+          [6.67, 51.4317]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.67, 51.4317],
+          [6.6825, 51.3332]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.6825, 51.3332],
+          [6.7219, 51.1839]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.7219, 51.1839],
+          [6.8727, 51.1294]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.8727, 51.1294],
+          [6.8406, 51.0925]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.8406, 51.0925],
+          [6.8678, 51.0653]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.8678, 51.0653],
+          [5.7262, 51.0188]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.9695, 50.9377],
+          [6.9794, 50.9042]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.9794, 50.9042],
+          [6.9992, 50.8202]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.9992, 50.8202],
+          [7.0994, 50.7448]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 185, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.0994, 50.7448],
+          [7.4719, 50.467]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 185, "endYear": 190 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.4719, 50.467],
+          [7.4691, 50.4366]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 80, "endYear": 150 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.4691, 50.4366],
+          [7.5667, 50.4194]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 100, "endYear": 150 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.5667, 50.4194],
+          [7.7456, 50.3753]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 100, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7456, 50.3753],
+          [7.6273, 50.3689]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 100, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.6273, 50.3689],
+          [7.713, 50.3359]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 150, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.713, 50.3359],
+          [7.8278, 50.2467]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 150, "endYear": 150 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.8278, 50.2467],
+          [7.8108, 50.2403]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 80, "endYear": 150 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.8108, 50.2403],
+          [7.5917, 50.231]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 150, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.5917, 50.231],
+          [8.4447, 50.2271]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 185, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4447, 50.2271],
+          [7.9475, 50.2149]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 185, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.9475, 50.2149],
+          [8.3332, 50.2082]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 150, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.3332, 50.2082],
+          [8.2034, 50.1897]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 150, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.2034, 50.1897],
+          [8.0161, 50.1655]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 150, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.0161, 50.1655],
+          [8.4509, 50.0808]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4509, 50.0808],
+          [8.2827, 50.0086]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 310, "endYear": 330 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.2827, 50.0086],
+          [8.4042, 50.0037]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 310, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4042, 50.0037],
+          [8.4802, 49.9034]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 70, "endYear": 110 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4802, 49.9034],
+          [8.4814, 49.7466]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 370, "endYear": 110 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4814, 49.7466],
+          [8.1175, 49.7428]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 370, "endYear": 496 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.1175, 49.7428],
+          [8.4392, 49.4414]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7511, 48.5827],
+          [7.9581, 48.4862]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.9581, 48.4862],
+          [7.9473, 48.4231]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.9473, 48.4231],
+          [8.4933, 48.2739]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4933, 48.2739],
+          [7.7497, 48.1521]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7497, 48.1521],
+          [7.5844, 48.1138]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.5844, 48.1138],
+          [7.5798, 48.0291]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.5798, 48.0291],
+          [8.4825, 47.9194]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Rhine Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.4825, 47.9194],
+          [7.9509, 47.5434]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 364, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.5036, 49.4325],
+          [8.536, 49.2086]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 85, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.5508, 50.1008],
+          [8.5667, 50.2715]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.5667, 50.2715],
+          [8.6357, 50.313]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.6448, 50.3651],
+          [8.6652, 50.4397]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 69, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.7522, 50.3699],
+          [8.7535, 50.3417]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 69, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.7535, 50.3417],
+          [8.755, 50.2504]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.755, 50.2504],
+          [8.7665, 50.371]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.8638, 50.234],
+          [8.8768, 50.3238]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.8768, 50.3238],
+          [8.8832, 50.3931]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.8832, 50.3931],
+          [8.8953, 50.1289]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 110 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.8953, 50.1289],
+          [8.8976, 50.181]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 92, "endYear": 110 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.8976, 50.181],
+          [8.9008, 50.1352]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 92, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.9008, 50.1352],
+          [8.908, 50.4606]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.908, 50.4606],
+          [8.9412, 50.2852]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.9412, 50.2852],
+          [8.9482, 50.0777]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 100, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.9482, 50.0777],
+          [8.9761, 50.044]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 105, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.9761, 50.044],
+          [8.9804, 50.0803]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 110, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.9804, 50.0803],
+          [8.9813, 50.1547]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.9842, 50.2227],
+          [9.0674, 49.9774]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.0674, 49.9774],
+          [9.0753, 49.6342]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.0753, 49.6342],
+          [9.0779, 49.68]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.0779, 49.68],
+          [9.0832, 49.7328]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.0886, 49.7794],
+          [9.0906, 49.5763]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.0906, 49.5763],
+          [9.1174, 49.799]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 107, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1174, 49.799],
+          [9.1407, 49.9142]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 107, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1407, 49.9142],
+          [9.1447, 49.8013]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 100, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1447, 49.8013],
+          [9.1466, 49.8411]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 100, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1466, 49.8411],
+          [9.1494, 49.5406]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1494, 49.5406],
+          [9.1528, 49.5064]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1528, 49.5064],
+          [9.1544, 49.0107]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1544, 49.0107],
+          [9.1703, 49.3767]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1703, 49.3767],
+          [9.1778, 49.7778]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1778, 49.7778],
+          [9.1789, 49.2314]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 90, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1789, 49.2314],
+          [9.1993, 49.1466]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 85, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.1993, 49.1466],
+          [9.2108, 48.8133]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 40, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.3131, 48.0519],
+          [9.3601, 48.6773]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 160, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.4521, 48.6013],
+          [9.4692, 49.3109]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 160, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.4692, 49.3109],
+          [9.4979, 49.2051]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.4979, 49.2051],
+          [9.5033, 49.2308]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5033, 49.2308],
+          [9.5156, 49.1991]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 160, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5156, 49.1991],
+          [9.5562, 49.0811]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 160, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5562, 49.0811],
+          [9.5696, 48.5099]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5696, 48.5099],
+          [9.5824, 48.9771]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5824, 48.9771],
+          [9.6325, 48.8723]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6325, 48.8723],
+          [9.6423, 48.8715]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 45, "endYear": 90 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6423, 48.8715],
+          [9.6483, 48.2186]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 45, "endYear": 90 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6483, 48.2186],
+          [9.6886, 48.7981]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6886, 48.7981],
+          [9.7233, 48.5843]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 125, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.7233, 48.5843],
+          [9.7284, 48.694]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 125, "endYear": 159 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.7284, 48.694],
+          [9.7774, 48.7868]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 45, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.7774, 48.7868],
+          [9.8335, 48.2685]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 45, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.8335, 48.2685],
+          [9.9007, 48.5499]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.9007, 48.5499],
+          [9.9236, 48.819]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 40, "endYear": 100 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.9236, 48.819],
+          [10.0011, 48.3442]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 40, "endYear": 100 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.0011, 48.3442],
+          [10.085, 48.8358]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.085, 48.8358],
+          [10.1271, 48.1202]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 5, "endYear": 9 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.1551, 49.6699],
+          [10.2857, 48.9831]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.2857, 48.9831],
+          [10.3417, 48.8686]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3417, 48.8686],
+          [10.4647, 48.5063]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.4647, 48.5063],
+          [10.4805, 49.0464]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.4805, 49.0464],
+          [10.4896, 48.925]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.4896, 48.925],
+          [10.5787, 49.1028]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 104, "endYear": 120 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.5787, 49.1028],
+          [10.6022, 48.9272]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 104, "endYear": 120 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.6022, 48.9272],
+          [10.6224, 49.0695]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.7045, 49.0572],
+          [10.7095, 48.642]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.7095, 48.642],
+          [10.7556, 49.1128]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.7556, 49.1128],
+          [10.8213, 48.6504]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 160, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.8213, 48.6504],
+          [10.8471, 49.0894]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 160, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.8471, 49.0894],
+          [10.8817, 48.3902]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.8817, 48.3902],
+          [10.9624, 49.0308]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.9624, 49.0308],
+          [10.9636, 48.3351]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.9636, 48.3351],
+          [10.9878, 49.0354]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 120, "endYear": 233 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.9878, 49.0354],
+          [10.988, 49.0639]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 120, "endYear": 233 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.988, 49.0639],
+          [11.0157, 48.7011]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.0157, 48.7011],
+          [11.0531, 49.0345]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.0531, 49.0345],
+          [11.0765, 49.0193]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.0765, 49.0193],
+          [11.2637, 48.8839]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.2637, 48.8839],
+          [11.3605, 48.9462]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.3605, 48.9462],
+          [11.4311, 48.71]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 40, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.4311, 48.71],
+          [11.4543, 48.7121]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 40, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.4543, 48.7121],
+          [11.4997, 48.8108]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.4997, 48.8108],
+          [11.6822, 48.8185]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.6822, 48.8185],
+          [11.771, 48.8498]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.771, 48.8498],
+          [11.7765, 48.8596]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 80, "endYear": 172 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.7765, 48.8596],
+          [12.0846, 49.0086]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Upper Germanic-Raetian Limes", "startYear": 175, "endYear": 172 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [12.0846, 49.0086],
+          [12.0982, 49.0195]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 173, "endYear": 205 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [14.4746, 48.2198],
+          [14.5449, 48.2258]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 173, "endYear": 205 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [14.5449, 48.2258],
+          [14.7167, 48.1667]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 90, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [14.7167, 48.1667],
+          [14.7972, 48.0968]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 60, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [14.7972, 48.0968],
+          [15.2119, 48.2124]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 60, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [15.2119, 48.2124],
+          [15.3311, 48.2283]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 70, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [15.3311, 48.2283],
+          [15.5766, 48.3938]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 90, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [15.5766, 48.3938],
+          [15.7441, 48.3496]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 350, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [15.7441, 48.3496],
+          [15.8068, 48.4346]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 350, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [15.8068, 48.4346],
+          [15.8893, 48.346]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 100, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [15.8893, 48.346],
+          [16.0562, 48.3329]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 50, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.0562, 48.3329],
+          [16.166, 48.2462]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 85, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.166, 48.2462],
+          [16.1772, 48.3289]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 85, "endYear": 488 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.1772, 48.3289],
+          [16.3261, 48.3079]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 97, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3261, 48.3079],
+          [16.371, 48.2114]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 100, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.371, 48.2114],
+          [16.4699, 48.1439]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 100, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.4699, 48.1439],
+          [16.6167, 48.1167]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 50, "endYear": 433 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.6167, 48.1167],
+          [16.7891, 48.0651]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 90, "endYear": 433 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.7891, 48.0651],
+          [16.8383, 48.4135]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 90, "endYear": 450 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.8383, 48.4135],
+          [16.8799, 48.1148]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 6, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.8799, 48.1148],
+          [16.9039, 48.1398]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 50, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.9039, 48.1398],
+          [16.9066, 48.1498]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 50, "endYear": 433 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.9066, 48.1498],
+          [17.1497, 48.056]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [17.1497, 48.056],
+          [17.2771, 47.8712]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [17.2771, 47.8712],
+          [17.4163, 47.7777]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [17.6316, 47.6888],
+          [17.9079, 47.7394]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [17.9079, 47.7394],
+          [17.9865, 47.7425]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.1934, 47.7315],
+          [18.1992, 47.7444]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.1992, 47.7444],
+          [18.2773, 47.7276]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.2773, 47.7276],
+          [18.5364, 47.7595]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.5364, 47.7595],
+          [18.6767, 47.7271]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.6829, 45.9556],
+          [18.6868, 46.2488]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.7616, 46.09],
+          [18.7679, 46.3259]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.7679, 46.3259],
+          [18.7706, 45.6268]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.7903, 46.4236],
+          [18.8068, 45.8019]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 69, "endYear": 400 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.8651, 47.1298],
+          [18.8781, 47.7817]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.8818, 46.6558],
+          [18.9181, 47.2998]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.9181, 47.2998],
+          [18.9216, 46.8684]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [18.9803, 47.7982],
+          [18.9854, 47.3909]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0011, 47.8096],
+          [19.0386, 47.5078]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0386, 47.5078],
+          [19.0416, 47.542]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 69, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0416, 47.542],
+          [19.0468, 47.4392]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": 69, "endYear": 260 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0468, 47.4392],
+          [19.0521, 47.4922]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0521, 47.4922],
+          [19.0624, 47.5393]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0624, 47.5393],
+          [19.0737, 47.6646]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.0737, 47.6646],
+          [19.0751, 47.7706]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.3758, 45.224],
+          [19.612, 45.1989]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.612, 45.1989],
+          [19.624, 45.236]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [19.8622, 45.2522],
+          [20.2533, 45.1451]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [20.2533, 45.1451],
+          [20.3216, 45.0664]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [20.5867, 46.1375],
+          [20.6294, 46.0722]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (West)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [20.6294, 46.0722],
+          [20.8714, 45.4997]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.0283, 44.6983],
+          [21.0554, 44.2538]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.2251, 44.3672],
+          [21.2328, 44.8978]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.2328, 44.8978],
+          [21.2751, 44.9271]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.3002, 45.1227],
+          [21.3311, 44.845]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.3311, 44.845],
+          [21.3396, 44.8169]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.377, 43.6787],
+          [21.4043, 43.6704]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.4043, 43.6704],
+          [21.4697, 44.1005]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.4697, 44.1005],
+          [21.5079, 43.5908]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.5512, 45.0794],
+          [21.57, 44.7734]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.6095, 43.5533],
+          [21.6124, 44.2479]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.7271, 44.4427],
+          [21.7661, 44.6563]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.8191, 43.213],
+          [21.837, 43.8004]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.8552, 44.6806],
+          [21.9095, 44.632]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.9555, 44.8653],
+          [21.96, 44.5927]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [21.96, 44.5927],
+          [21.9827, 44.6041]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.0348, 44.516],
+          [22.0358, 43.9033]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.0358, 43.9033],
+          [22.0548, 44.4903]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.1416, 44.287],
+          [22.1443, 44.4436]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 298, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.1858, 43.8992],
+          [22.1958, 44.4498]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.1958, 44.4498],
+          [22.2527, 44.4789]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.2654, 43.6411],
+          [22.2655, 42.9779]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.2655, 42.9779],
+          [22.2702, 43.6895]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.2702, 43.6895],
+          [22.2722, 44.0076]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.2722, 44.0076],
+          [22.2746, 43.9125]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.2746, 43.9125],
+          [22.2802, 44.6001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.2802, 44.6001],
+          [22.2957, 44.2622]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.3101, 44.0845],
+          [22.35, 44.4833]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.3658, 44.9046],
+          [22.4057, 45.525]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.4109, 44.6853],
+          [22.4452, 44.4707]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.4452, 44.4707],
+          [22.4746, 44.6752]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.4746, 44.6752],
+          [22.495, 44.4543]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.5206, 43.5943],
+          [22.5242, 43.8909]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.5242, 43.8909],
+          [22.5314, 44.2569]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.5314, 44.2569],
+          [22.5443, 44.6536]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.5443, 44.6536],
+          [22.55, 44.6583]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 100, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.5959, 43.578],
+          [22.6019, 43.6499]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 100, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.6019, 43.6499],
+          [22.6021, 44.203]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.6021, 44.203],
+          [22.6058, 44.2873]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.6058, 44.2873],
+          [22.624, 44.5593]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.6305, 43.7637],
+          [22.638, 43.9611]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.6609, 44.3097],
+          [22.668, 44.6249]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.668, 44.6249],
+          [22.669, 44.6133]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.669, 44.6133],
+          [22.6806, 44.5147]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.6806, 44.5147],
+          [22.7016, 44.6808]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.7053, 43.5333],
+          [22.7056, 44.1991]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.7056, 44.1991],
+          [22.7079, 43.8522]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.7079, 43.8522],
+          [22.7191, 44.5307]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.741, 43.2066],
+          [22.7419, 43.4819]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.8293, 43.5341],
+          [22.8482, 44.1353]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.8482, 44.1353],
+          [22.8783, 44.123]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [22.8783, 44.123],
+          [22.9333, 44.8334]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.0045, 43.3325],
+          [23.0089, 44.006]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.0089, 44.006],
+          [23.0332, 44.0618]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.0332, 44.0618],
+          [23.0434, 43.3799]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.0941, 45.4949],
+          [23.0982, 44.9076]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 101, "endYear": 106 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.1588, 45.633],
+          [23.1792, 45.7426]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.1792, 45.7426],
+          [23.1902, 45.8938]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.1902, 45.8938],
+          [23.2371, 45.549]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.2383, 43.8178],
+          [23.2829, 43.4725]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.3223, 43.8444],
+          [23.3501, 43.5081]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.3501, 43.5081],
+          [23.3523, 43.2488]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.3726, 45.1552],
+          [23.3818, 45.1664]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 101, "endYear": 106 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.3818, 45.1664],
+          [23.4277, 45.5846]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.4365, 44.0572],
+          [23.4434, 43.824]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.4457, 43.099],
+          [23.4804, 43.4834]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.4804, 43.4834],
+          [23.4981, 43.8918]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.5249, 45.5507],
+          [23.5501, 45.0836]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.7038, 43.1397],
+          [23.7091, 42.6918]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.8067, 43.198],
+          [23.8084, 43.5413]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.8084, 43.5413],
+          [23.8225, 42.992]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [23.8406, 43.733],
+          [23.8426, 43.8465]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.0138, 44.117],
+          [24.0271, 43.7134]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.2719, 43.6911],
+          [24.2964, 44.3701]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.2964, 44.3701],
+          [24.304, 45.0341]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.3063, 45.4963],
+          [24.3098, 45.4107]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.3098, 45.4107],
+          [24.3124, 45.2764]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.3124, 45.2764],
+          [24.3158, 45.3935]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.3771, 45.2091],
+          [24.4017, 45.423]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.4017, 45.423],
+          [24.4425, 45.2814]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.4591, 43.7644],
+          [24.5292, 44.082]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.5292, 44.082],
+          [24.6371, 43.8611]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.7134, 43.7266],
+          [24.7286, 44.3107]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.7286, 44.3107],
+          [24.7309, 43.6546]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.7604, 44.6122],
+          [24.7614, 44.4856]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.7675, 44.7204],
+          [24.7781, 44.5846]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.8438, 43.6134],
+          [24.8515, 43.6945]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.9091, 44.1732],
+          [24.9229, 43.9377]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.9229, 43.9377],
+          [24.9439, 44.0609]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.9439, 44.0609],
+          [24.9669, 43.9414]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.9669, 43.9414],
+          [24.9753, 43.8881]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.9753, 43.8881],
+          [24.9858, 43.7364]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [24.9858, 43.7364],
+          [24.9987, 44.1118]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.169, 45.3941],
+          [25.2788, 45.978]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.2788, 45.978],
+          [25.3013, 45.4667]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.3013, 45.4667],
+          [25.4416, 45.6187]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 200, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.5793, 43.623],
+          [25.6502, 43.1334]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 200, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.6502, 43.1334],
+          [25.7981, 43.7132]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.8496, 45.9709],
+          [25.9002, 45.8442]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25.9449, 43.5466],
+          [25.9454, 43.8465]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [26.0774, 43.9253],
+          [26.1449, 43.3588]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [26.1449, 43.3588],
+          [26.3098, 44.0191]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [26.3098, 44.0191],
+          [26.4481, 44.0057]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [26.6067, 44.0471],
+          [26.7992, 44.0849]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [26.7992, 44.0849],
+          [26.8121, 44.0895]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.0338, 44.1401],
+          [27.1431, 43.4597]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.3778, 44.1057],
+          [27.4312, 44.0981]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.4312, 44.0981],
+          [27.4894, 44.134]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.4894, 44.134],
+          [27.5299, 44.1241]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.5299, 44.1241],
+          [27.573, 44.1827]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.573, 44.1827],
+          [27.6864, 44.1862]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.6864, 44.1862],
+          [27.7905, 44.2046]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.7905, 44.2046],
+          [27.8365, 44.7271]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.8365, 44.7271],
+          [27.8593, 44.2407]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.8593, 44.2407],
+          [27.865, 44.2047]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.865, 44.2047],
+          [27.9518, 44.6817]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.9518, 44.6817],
+          [27.9888, 44.2348]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [27.9911, 44.2873],
+          [28.0206, 44.3343]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.0206, 44.3343],
+          [28.0339, 44.6385]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.0339, 44.6385],
+          [28.0448, 44.5445]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.0448, 44.5445],
+          [28.0619, 44.7229]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.0619, 44.7229],
+          [28.0727, 44.3937]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.0727, 44.3937],
+          [28.0904, 44.4938]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.0904, 44.4938],
+          [28.1226, 44.44]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.1281, 45.2395],
+          [28.1343, 44.8532]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.1343, 44.8532],
+          [28.1389, 45.379]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.1389, 45.379],
+          [28.1429, 45.1882]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.1429, 45.1882],
+          [28.144, 44.896]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.144, 44.896],
+          [28.15, 45.3]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.15, 45.3],
+          [28.1512, 45.0167]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.1512, 45.0167],
+          [28.2314, 45.0312]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.2314, 45.0312],
+          [28.241, 45.0759]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.241, 45.0759],
+          [28.324, 45.2912]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.5775, 44.2464],
+          [28.5916, 44.8523]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.5916, 44.8523],
+          [28.7279, 44.9391]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7279, 44.9391],
+          [28.7585, 45.1732]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7585, 45.1732],
+          [28.8145, 45.1864]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8145, 45.1864],
+          [28.818, 44.8856]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.818, 44.8856],
+          [28.8364, 45.3517]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8364, 45.3517],
+          [28.9167, 45.15]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Danube Limes (East)", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.9167, 45.15],
+          [29.0669, 45.1012]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-0.2298, 35.0212],
+          [-0.1042, 34.9506]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-0.1042, 34.9506],
+          [0.4703, 34.9858]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.0369, 35.0047],
+          [1.1, 35.0168]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.1, 35.0168],
+          [1.2988, 35.0708]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.2988, 35.0708],
+          [1.4725, 35.147]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.4725, 35.147],
+          [1.8111, 35.6104]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.8111, 35.6104],
+          [1.9667, 35.6667]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.9667, 35.6667],
+          [2.3884, 35.9075]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.3884, 35.9075],
+          [2.4689, 35.89]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.9553, 34.6647],
+          [3.2457, 34.6749]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 198, "endYear": 240 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [3.2457, 34.6749],
+          [3.4984, 34.1558]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.0394, 34.4603],
+          [4.0993, 34.6798]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.1397, 35.4539],
+          [4.4211, 34.8848]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.4211, 34.8848],
+          [4.9579, 35.2097]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.9997, 34.3973],
+          [5.1044, 34.6023]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.1044, 34.6023],
+          [5.1188, 35.0882]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.1188, 35.0882],
+          [5.1752, 35.1288]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.1752, 35.1288],
+          [5.3856, 34.7314]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.5229, 34.6366],
+          [5.6169, 35.1001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.6169, 35.1001],
+          [5.7378, 35.0761]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.7378, 35.0761],
+          [5.8053, 35.1114]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.8053, 35.1114],
+          [5.9011, 35.6781]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.9126, 34.5868],
+          [5.9379, 35.2324]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.9379, 35.2324],
+          [6.2547, 35.4901]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.2547, 35.4901],
+          [6.6417, 35.4082]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.6417, 35.4082],
+          [6.6713, 34.7502]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.7974, 35.5967],
+          [7.1181, 35.5356]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.3007, 34.7031],
+          [7.3025, 34.994]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.3025, 34.994],
+          [7.4, 34.6333]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.4, 34.6333],
+          [7.5566, 34.3977]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.0818, 35.4175],
+          [8.4648, 35.251]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.498, 33.5037],
+          [9.5208, 34.1217]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5208, 34.1217],
+          [9.5652, 33.5347]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.5652, 33.5347],
+          [9.6156, 33.655]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6156, 33.655],
+          [9.6162, 33.0086]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6162, 33.0086],
+          [9.6324, 33.4119]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.6324, 33.4119],
+          [9.8004, 33.2161]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.8004, 33.2161],
+          [9.8092, 33.7047]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.9835, 32.9828],
+          [10.1787, 33.2039]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3842, 32.9664],
+          [10.398, 32.3139]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.398, 32.3139],
+          [10.5398, 32.5914]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "African Limes", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.5398, 32.5914],
+          [10.703, 32.011]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -550, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.7533, 41.7684],
+          [41.6745, 41.6499]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.4273, 40.5026],
+          [39.6329, 40.4955]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.6329, 40.4955],
+          [40.3327, 40.4762]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.6631, 40.4031],
+          [40.1616, 40.3945]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -330, "endYear": -30 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.8101, 40.3498],
+          [36.549, 40.3174]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -330, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.6675, 40.2846],
+          [40.2249, 40.2552]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -330, "endYear": -30 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.5631, 40.1661],
+          [38.1688, 40.1547]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.1688, 40.1547],
+          [39.0944, 40.107]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.0944, 40.107],
+          [39.5979, 40.0278]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.5979, 40.0278],
+          [39.3333, 39.9833]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.9233, 39.9184],
+          [38.8901, 39.8632]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.8901, 39.8632],
+          [38.582, 39.5282]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.582, 39.5282],
+          [38.37, 39.4191]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": -550 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.3422, 39.2943],
+          [38.019, 39.2847]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -750, "endYear": -550 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.019, 39.2847],
+          [38.5041, 39.2694]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.5041, 39.2694],
+          [38.4961, 39.2505]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.4961, 39.2505],
+          [38.5049, 39.2362]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.609, 39.1598],
+          [37.7908, 39.1556]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.7908, 39.1556],
+          [38.6774, 39.0695]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.6774, 39.0695],
+          [38.935, 39.0598]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.935, 39.0598],
+          [38.7721, 39.0076]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.7721, 39.0076],
+          [39.6237, 39.0067]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.6237, 39.0067],
+          [39.8994, 39.0067]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.7333, 38.9379],
+          [38.6525, 38.9372]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.6525, 38.9372],
+          [38.7257, 38.8902]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.6917, 38.441],
+          [38.6318, 38.4324]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.6318, 38.4324],
+          [38.6883, 38.4109]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.6883, 38.4109],
+          [38.3753, 38.3991]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.3753, 38.3991],
+          [38.733, 38.3907]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.5474, 38.3653],
+          [40.2109, 38.3625]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.2109, 38.3625],
+          [40.7522, 38.347]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.9533, 38.2942],
+          [39.7701, 38.2693]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.7701, 38.2693],
+          [39.1179, 38.2676]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.0389, 38.2635],
+          [40.1762, 38.2523]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.8163, 38.2323],
+          [39.1442, 38.1611]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.1442, 38.1611],
+          [39.1967, 38.0881]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.1455, 38.0854],
+          [41.453, 38.0419]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.453, 38.0419],
+          [41.5324, 38.0356]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.5324, 38.0356],
+          [41.4843, 38.0262]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.4843, 38.0262],
+          [41.1, 37.9866]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.9584, 37.7926],
+          [41.4131, 37.7142]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.4131, 37.7142],
+          [40.9093, 37.6425]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.9093, 37.6425],
+          [40.8897, 37.5379]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.8897, 37.5379],
+          [40.9576, 37.4162]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.7898, 37.3511],
+          [41.0679, 37.3469]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.0679, 37.3469],
+          [40.5007, 37.3312]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.5007, 37.3312],
+          [40.8384, 37.3152]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.8384, 37.3152],
+          [40.7351, 37.3122]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [40.7307, 37.2302],
+          [41.6091, 37.2221]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.0718, 37.1225],
+          [41.6281, 37.1126]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -750, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.0585, 36.6674],
+          [41.1313, 36.4321]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.076, 36.1956],
+          [38.481, 35.897]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.481, 35.897],
+          [38.8127, 35.8014]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.9111, 35.0744],
+          [38.4205, 35.0496]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.4751, 35.0357],
+          [37.9837, 34.961]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.8829, 34.9009],
+          [38.1368, 34.7818]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.1368, 34.7818],
+          [38.733, 34.7787]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.733, 34.7787],
+          [38.1308, 34.7499]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.6205, 34.4111],
+          [38.0821, 34.3855]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [38.0821, 34.3855],
+          [37.6658, 34.298]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.6658, 34.298],
+          [37.8321, 34.267]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.6075, 34.1891],
+          [38.3105, 34.1828]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.9898, 34.0334],
+          [37.2831, 34.0188]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.2831, 34.0188],
+          [36.8752, 33.9414]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.8752, 33.9414],
+          [37.2209, 33.915]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.6639, 33.7832],
+          [36.9739, 33.7535]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.8719, 33.6708],
+          [36.4719, 33.6382]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.4719, 33.6382],
+          [36.739, 33.4091]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.739, 33.4091],
+          [36.5489, 33.3526]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.9439, 33.3199],
+          [37.329, 33.3059]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.329, 33.3059],
+          [36.7756, 33.2926]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.7756, 33.2926],
+          [36.698, 33.108]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.698, 33.108],
+          [36.9737, 33.0544]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.9737, 33.0544],
+          [37.2543, 33.0193]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.2543, 33.0193],
+          [36.6042, 32.9867]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.6042, 32.9867],
+          [36.5581, 32.8968]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.5581, 32.8968],
+          [37.2528, 32.8671]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.2528, 32.8671],
+          [36.86, 32.8053]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.3976, 32.5652],
+          [35.5261, 32.399]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.5261, 32.399],
+          [36.3388, 32.3714]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.6223, 32.3495],
+          [36.5884, 32.3224]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.5884, 32.3224],
+          [36.838, 32.2811]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.838, 32.2811],
+          [36.229, 32.27]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.328, 32.093],
+          [36.1324, 32.0901]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.1324, 32.0901],
+          [35.4528, 32.0857]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.4528, 32.0857],
+          [35.4068, 32.0485]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.4068, 32.0485],
+          [35.3413, 31.9854]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [36.9528, 31.9456],
+          [36.8274, 31.8803]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -330, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.4284, 31.8758],
+          [35.4261, 31.8454]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.4261, 31.8454],
+          [35.359, 31.8163]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.7197, 31.7902],
+          [35.2418, 31.6657]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.2418, 31.6657],
+          [35.9733, 31.5787]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.9733, 31.5787],
+          [35.6241, 31.5673]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": -30, "endYear": 300 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.6241, 31.5673],
+          [35.9201, 31.5004]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.9201, 31.5004],
+          [35.9897, 31.422]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.9897, 31.422],
+          [35.9696, 31.39]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.9696, 31.39],
+          [35.9812, 31.3373]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.9812, 31.3373],
+          [35.3538, 31.3171]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.3538, 31.3171],
+          [35.2397, 31.2507]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.2397, 31.2507],
+          [35.8567, 31.2428]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.8567, 31.2428],
+          [35.8685, 31.237]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.8685, 31.237],
+          [35.8665, 31.229]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.8665, 31.229],
+          [35.3589, 31.2011]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.3589, 31.2011],
+          [35.883, 31.1151]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.883, 31.1151],
+          [35.1836, 31.0591]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "sector": "Eastern Frontier", "startYear": 300, "endYear": 640 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.1836, 31.0591],
+          [35.2433, 31.0263]
+        ]
+      }
+    }
+  ]
+}

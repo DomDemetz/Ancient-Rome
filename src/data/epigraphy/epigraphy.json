@@ -1,0 +1,3468 @@
+[
+  {
+    "id": "roma-center-1a",
+    "lat": 41.893,
+    "lng": 12.483,
+    "count": 3200,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-center-1b",
+    "lat": 41.893,
+    "lng": 12.483,
+    "count": 8000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-center-1c",
+    "lat": 41.893,
+    "lng": 12.483,
+    "count": 5200,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "roma-center-1d",
+    "lat": 41.893,
+    "lng": 12.483,
+    "count": 2800,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "roma-forum-2a",
+    "lat": 41.892,
+    "lng": 12.485,
+    "count": 2800,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-forum-2b",
+    "lat": 41.892,
+    "lng": 12.485,
+    "count": 7200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-forum-2c",
+    "lat": 41.892,
+    "lng": 12.485,
+    "count": 4800,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "roma-forum-2d",
+    "lat": 41.892,
+    "lng": 12.485,
+    "count": 2200,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "roma-trastevere-3a",
+    "lat": 41.882,
+    "lng": 12.47,
+    "count": 1800,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-trastevere-3b",
+    "lat": 41.882,
+    "lng": 12.47,
+    "count": 4500,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-trastevere-3c",
+    "lat": 41.882,
+    "lng": 12.47,
+    "count": 2800,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "roma-trastevere-3d",
+    "lat": 41.882,
+    "lng": 12.47,
+    "count": 1500,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "roma-aventine-4a",
+    "lat": 41.884,
+    "lng": 12.48,
+    "count": 1400,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-aventine-4b",
+    "lat": 41.884,
+    "lng": 12.48,
+    "count": 4000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-aventine-4c",
+    "lat": 41.884,
+    "lng": 12.48,
+    "count": 2600,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "roma-aventine-4d",
+    "lat": 41.884,
+    "lng": 12.48,
+    "count": 1300,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "roma-esquiline-5a",
+    "lat": 41.896,
+    "lng": 12.5,
+    "count": 1000,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-esquiline-5b",
+    "lat": 41.896,
+    "lng": 12.5,
+    "count": 3200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-esquiline-5c",
+    "lat": 41.896,
+    "lng": 12.5,
+    "count": 1900,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "roma-esquiline-5d",
+    "lat": 41.896,
+    "lng": 12.5,
+    "count": 950,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "roma-appia-6a",
+    "lat": 41.855,
+    "lng": 12.52,
+    "count": 900,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-appia-6b",
+    "lat": 41.855,
+    "lng": 12.52,
+    "count": 2800,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-appia-6c",
+    "lat": 41.855,
+    "lng": 12.52,
+    "count": 1700,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "roma-appia-6d",
+    "lat": 41.855,
+    "lng": 12.52,
+    "count": 800,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "roma-nomentana-7a",
+    "lat": 41.912,
+    "lng": 12.51,
+    "count": 600,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "roma-nomentana-7b",
+    "lat": 41.912,
+    "lng": 12.51,
+    "count": 2200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "roma-nomentana-7c",
+    "lat": 41.912,
+    "lng": 12.51,
+    "count": 1300,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ostia-8a",
+    "lat": 41.756,
+    "lng": 12.292,
+    "count": 800,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "ostia-8b",
+    "lat": 41.756,
+    "lng": 12.292,
+    "count": 3000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "ostia-8c",
+    "lat": 41.756,
+    "lng": 12.292,
+    "count": 1800,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ostia-8d",
+    "lat": 41.756,
+    "lng": 12.292,
+    "count": 600,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "pompeii-9a",
+    "lat": 40.751,
+    "lng": 14.487,
+    "count": 1500,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "pompeii-9b",
+    "lat": 40.751,
+    "lng": 14.487,
+    "count": 2200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "tibur-10a",
+    "lat": 41.963,
+    "lng": 12.798,
+    "count": 600,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "tibur-10b",
+    "lat": 41.963,
+    "lng": 12.798,
+    "count": 2000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "tibur-10c",
+    "lat": 41.963,
+    "lng": 12.798,
+    "count": 1200,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "tibur-10d",
+    "lat": 41.963,
+    "lng": 12.798,
+    "count": 500,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "praeneste-11a",
+    "lat": 41.838,
+    "lng": 12.893,
+    "count": 500,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "praeneste-11b",
+    "lat": 41.838,
+    "lng": 12.893,
+    "count": 1600,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "praeneste-11c",
+    "lat": 41.838,
+    "lng": 12.893,
+    "count": 900,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "capua-12a",
+    "lat": 41.106,
+    "lng": 14.213,
+    "count": 700,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "capua-12b",
+    "lat": 41.106,
+    "lng": 14.213,
+    "count": 2200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "capua-12c",
+    "lat": 41.106,
+    "lng": 14.213,
+    "count": 1300,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "capua-12d",
+    "lat": 41.106,
+    "lng": 14.213,
+    "count": 550,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "puteoli-13a",
+    "lat": 40.821,
+    "lng": 14.12,
+    "count": 600,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "puteoli-13b",
+    "lat": 40.821,
+    "lng": 14.12,
+    "count": 1800,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "puteoli-13c",
+    "lat": 40.821,
+    "lng": 14.12,
+    "count": 1000,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "puteoli-13d",
+    "lat": 40.821,
+    "lng": 14.12,
+    "count": 400,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "neapolis-14a",
+    "lat": 40.851,
+    "lng": 14.268,
+    "count": 500,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "neapolis-14b",
+    "lat": 40.851,
+    "lng": 14.268,
+    "count": 1800,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "neapolis-14c",
+    "lat": 40.851,
+    "lng": 14.268,
+    "count": 1100,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "neapolis-14d",
+    "lat": 40.851,
+    "lng": 14.268,
+    "count": 450,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "brundisium-15a",
+    "lat": 40.636,
+    "lng": 17.942,
+    "count": 400,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "brundisium-15b",
+    "lat": 40.636,
+    "lng": 17.942,
+    "count": 1200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "brundisium-15c",
+    "lat": 40.636,
+    "lng": 17.942,
+    "count": 700,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "brundisium-15d",
+    "lat": 40.636,
+    "lng": 17.942,
+    "count": 300,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "mediolanum-16a",
+    "lat": 45.464,
+    "lng": 9.19,
+    "count": 300,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "mediolanum-16b",
+    "lat": 45.464,
+    "lng": 9.19,
+    "count": 1800,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "mediolanum-16c",
+    "lat": 45.464,
+    "lng": 9.19,
+    "count": 1500,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "mediolanum-16d",
+    "lat": 45.464,
+    "lng": 9.19,
+    "count": 1200,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "aquileia-17a",
+    "lat": 45.77,
+    "lng": 13.37,
+    "count": 400,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "aquileia-17b",
+    "lat": 45.77,
+    "lng": 13.37,
+    "count": 2000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "aquileia-17c",
+    "lat": 45.77,
+    "lng": 13.37,
+    "count": 1400,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "aquileia-17d",
+    "lat": 45.77,
+    "lng": 13.37,
+    "count": 700,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "verona-18a",
+    "lat": 45.438,
+    "lng": 10.992,
+    "count": 250,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "verona-18b",
+    "lat": 45.438,
+    "lng": 10.992,
+    "count": 1400,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "verona-18c",
+    "lat": 45.438,
+    "lng": 10.992,
+    "count": 900,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "verona-18d",
+    "lat": 45.438,
+    "lng": 10.992,
+    "count": 400,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "brixia-19a",
+    "lat": 45.539,
+    "lng": 10.22,
+    "count": 200,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "brixia-19b",
+    "lat": 45.539,
+    "lng": 10.22,
+    "count": 1200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "brixia-19c",
+    "lat": 45.539,
+    "lng": 10.22,
+    "count": 750,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ravenna-20a",
+    "lat": 44.418,
+    "lng": 12.2,
+    "count": 200,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "ravenna-20b",
+    "lat": 44.418,
+    "lng": 12.2,
+    "count": 1000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "ravenna-20c",
+    "lat": 44.418,
+    "lng": 12.2,
+    "count": 1200,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ravenna-20d",
+    "lat": 44.418,
+    "lng": 12.2,
+    "count": 1500,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "bononia-21a",
+    "lat": 44.494,
+    "lng": 11.343,
+    "count": 200,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "bononia-21b",
+    "lat": 44.494,
+    "lng": 11.343,
+    "count": 1100,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "bononia-21c",
+    "lat": 44.494,
+    "lng": 11.343,
+    "count": 700,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "bononia-21d",
+    "lat": 44.494,
+    "lng": 11.343,
+    "count": 300,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "beneventum-22a",
+    "lat": 41.129,
+    "lng": 14.782,
+    "count": 500,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "beneventum-22b",
+    "lat": 41.129,
+    "lng": 14.782,
+    "count": 1600,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "beneventum-22c",
+    "lat": 41.129,
+    "lng": 14.782,
+    "count": 900,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "beneventum-22d",
+    "lat": 41.129,
+    "lng": 14.782,
+    "count": 350,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "tarentum-23a",
+    "lat": 40.476,
+    "lng": 17.23,
+    "count": 350,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "tarentum-23b",
+    "lat": 40.476,
+    "lng": 17.23,
+    "count": 1000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "tarentum-23c",
+    "lat": 40.476,
+    "lng": 17.23,
+    "count": 550,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "tarentum-23d",
+    "lat": 40.476,
+    "lng": 17.23,
+    "count": 200,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "perusia-24a",
+    "lat": 43.112,
+    "lng": 12.389,
+    "count": 300,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "perusia-24b",
+    "lat": 43.112,
+    "lng": 12.389,
+    "count": 1200,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "perusia-24c",
+    "lat": 43.112,
+    "lng": 12.389,
+    "count": 700,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "spoletium-25a",
+    "lat": 42.731,
+    "lng": 12.738,
+    "count": 250,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "spoletium-25b",
+    "lat": 42.731,
+    "lng": 12.738,
+    "count": 1000,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "spoletium-25c",
+    "lat": 42.731,
+    "lng": 12.738,
+    "count": 600,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ariminum-26a",
+    "lat": 44.06,
+    "lng": 12.568,
+    "count": 300,
+    "province": "Italia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "ariminum-26b",
+    "lat": 44.06,
+    "lng": 12.568,
+    "count": 1100,
+    "province": "Italia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "ariminum-26c",
+    "lat": 44.06,
+    "lng": 12.568,
+    "count": 650,
+    "province": "Italia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ariminum-26d",
+    "lat": 44.06,
+    "lng": 12.568,
+    "count": 280,
+    "province": "Italia",
+    "startYear": 350,
+    "endYear": 476
+  },
+
+  {
+    "id": "carthago-27a",
+    "lat": 36.852,
+    "lng": 10.323,
+    "count": 600,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "carthago-27b",
+    "lat": 36.852,
+    "lng": 10.323,
+    "count": 2000,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "carthago-27c",
+    "lat": 36.852,
+    "lng": 10.323,
+    "count": 1500,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "carthago-27d",
+    "lat": 36.852,
+    "lng": 10.323,
+    "count": 800,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "thugga-28a",
+    "lat": 36.422,
+    "lng": 9.219,
+    "count": 200,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "thugga-28b",
+    "lat": 36.422,
+    "lng": 9.219,
+    "count": 800,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "thugga-28c",
+    "lat": 36.422,
+    "lng": 9.219,
+    "count": 500,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "thugga-28d",
+    "lat": 36.422,
+    "lng": 9.219,
+    "count": 200,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "timgad-29a",
+    "lat": 35.485,
+    "lng": 6.468,
+    "count": 100,
+    "province": "Numidia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "timgad-29b",
+    "lat": 35.485,
+    "lng": 6.468,
+    "count": 1200,
+    "province": "Numidia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "timgad-29c",
+    "lat": 35.485,
+    "lng": 6.468,
+    "count": 900,
+    "province": "Numidia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "timgad-29d",
+    "lat": 35.485,
+    "lng": 6.468,
+    "count": 350,
+    "province": "Numidia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "djemila-30a",
+    "lat": 36.32,
+    "lng": 5.737,
+    "count": 80,
+    "province": "Numidia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "djemila-30b",
+    "lat": 36.32,
+    "lng": 5.737,
+    "count": 900,
+    "province": "Numidia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "djemila-30c",
+    "lat": 36.32,
+    "lng": 5.737,
+    "count": 700,
+    "province": "Numidia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "djemila-30d",
+    "lat": 36.32,
+    "lng": 5.737,
+    "count": 250,
+    "province": "Numidia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "leptis-magna-31a",
+    "lat": 32.638,
+    "lng": 14.289,
+    "count": 150,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "leptis-magna-31b",
+    "lat": 32.638,
+    "lng": 14.289,
+    "count": 1500,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "leptis-magna-31c",
+    "lat": 32.638,
+    "lng": 14.289,
+    "count": 1000,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "leptis-magna-31d",
+    "lat": 32.638,
+    "lng": 14.289,
+    "count": 300,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "lambaesis-32a",
+    "lat": 35.491,
+    "lng": 6.259,
+    "count": 100,
+    "province": "Numidia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "lambaesis-32b",
+    "lat": 35.491,
+    "lng": 6.259,
+    "count": 1100,
+    "province": "Numidia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "lambaesis-32c",
+    "lat": 35.491,
+    "lng": 6.259,
+    "count": 800,
+    "province": "Numidia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "lambaesis-32d",
+    "lat": 35.491,
+    "lng": 6.259,
+    "count": 300,
+    "province": "Numidia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "sabratha-33a",
+    "lat": 32.793,
+    "lng": 12.484,
+    "count": 100,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "sabratha-33b",
+    "lat": 32.793,
+    "lng": 12.484,
+    "count": 600,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "sabratha-33c",
+    "lat": 32.793,
+    "lng": 12.484,
+    "count": 400,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "sabratha-33d",
+    "lat": 32.793,
+    "lng": 12.484,
+    "count": 150,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "volubilis-34a",
+    "lat": 34.073,
+    "lng": -5.554,
+    "count": 50,
+    "province": "Mauretania Tingitana",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "volubilis-34b",
+    "lat": 34.073,
+    "lng": -5.554,
+    "count": 500,
+    "province": "Mauretania Tingitana",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "volubilis-34c",
+    "lat": 34.073,
+    "lng": -5.554,
+    "count": 300,
+    "province": "Mauretania Tingitana",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "caesarea-maur-35a",
+    "lat": 36.6,
+    "lng": 2.199,
+    "count": 100,
+    "province": "Mauretania Caesariensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "caesarea-maur-35b",
+    "lat": 36.6,
+    "lng": 2.199,
+    "count": 700,
+    "province": "Mauretania Caesariensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "caesarea-maur-35c",
+    "lat": 36.6,
+    "lng": 2.199,
+    "count": 500,
+    "province": "Mauretania Caesariensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "caesarea-maur-35d",
+    "lat": 36.6,
+    "lng": 2.199,
+    "count": 180,
+    "province": "Mauretania Caesariensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "hadrumetum-36a",
+    "lat": 35.828,
+    "lng": 10.638,
+    "count": 120,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "hadrumetum-36b",
+    "lat": 35.828,
+    "lng": 10.638,
+    "count": 700,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "hadrumetum-36c",
+    "lat": 35.828,
+    "lng": 10.638,
+    "count": 500,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "hadrumetum-36d",
+    "lat": 35.828,
+    "lng": 10.638,
+    "count": 200,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "hippo-regius-37a",
+    "lat": 36.884,
+    "lng": 7.766,
+    "count": 80,
+    "province": "Numidia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "hippo-regius-37b",
+    "lat": 36.884,
+    "lng": 7.766,
+    "count": 500,
+    "province": "Numidia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "hippo-regius-37c",
+    "lat": 36.884,
+    "lng": 7.766,
+    "count": 400,
+    "province": "Numidia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "hippo-regius-37d",
+    "lat": 36.884,
+    "lng": 7.766,
+    "count": 250,
+    "province": "Numidia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "cirta-38a",
+    "lat": 36.365,
+    "lng": 6.614,
+    "count": 100,
+    "province": "Numidia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "cirta-38b",
+    "lat": 36.365,
+    "lng": 6.614,
+    "count": 800,
+    "province": "Numidia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "cirta-38c",
+    "lat": 36.365,
+    "lng": 6.614,
+    "count": 550,
+    "province": "Numidia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "cirta-38d",
+    "lat": 36.365,
+    "lng": 6.614,
+    "count": 200,
+    "province": "Numidia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "sufetula-39a",
+    "lat": 35.232,
+    "lng": 8.872,
+    "count": 50,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "sufetula-39b",
+    "lat": 35.232,
+    "lng": 8.872,
+    "count": 600,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "sufetula-39c",
+    "lat": 35.232,
+    "lng": 8.872,
+    "count": 450,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "sufetula-39d",
+    "lat": 35.232,
+    "lng": 8.872,
+    "count": 200,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "mactar-40a",
+    "lat": 35.848,
+    "lng": 9.195,
+    "count": 80,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "mactar-40b",
+    "lat": 35.848,
+    "lng": 9.195,
+    "count": 550,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "mactar-40c",
+    "lat": 35.848,
+    "lng": 9.195,
+    "count": 400,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "mactar-40d",
+    "lat": 35.848,
+    "lng": 9.195,
+    "count": 150,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "utica-41a",
+    "lat": 37.055,
+    "lng": 10.062,
+    "count": 150,
+    "province": "Africa Proconsularis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "utica-41b",
+    "lat": 37.055,
+    "lng": 10.062,
+    "count": 400,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "utica-41c",
+    "lat": 37.055,
+    "lng": 10.062,
+    "count": 250,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "oea-42b",
+    "lat": 32.902,
+    "lng": 13.18,
+    "count": 400,
+    "province": "Africa Proconsularis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "oea-42c",
+    "lat": 32.902,
+    "lng": 13.18,
+    "count": 250,
+    "province": "Africa Proconsularis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "oea-42d",
+    "lat": 32.902,
+    "lng": 13.18,
+    "count": 100,
+    "province": "Africa Proconsularis",
+    "startYear": 350,
+    "endYear": 476
+  },
+
+  {
+    "id": "tarraco-43a",
+    "lat": 41.117,
+    "lng": 1.245,
+    "count": 300,
+    "province": "Hispania Tarraconensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "tarraco-43b",
+    "lat": 41.117,
+    "lng": 1.245,
+    "count": 500,
+    "province": "Hispania Tarraconensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "tarraco-43c",
+    "lat": 41.117,
+    "lng": 1.245,
+    "count": 300,
+    "province": "Hispania Tarraconensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "tarraco-43d",
+    "lat": 41.117,
+    "lng": 1.245,
+    "count": 120,
+    "province": "Hispania Tarraconensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "emerita-44a",
+    "lat": 38.916,
+    "lng": -6.338,
+    "count": 200,
+    "province": "Lusitania",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "emerita-44b",
+    "lat": 38.916,
+    "lng": -6.338,
+    "count": 500,
+    "province": "Lusitania",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "emerita-44c",
+    "lat": 38.916,
+    "lng": -6.338,
+    "count": 300,
+    "province": "Lusitania",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "emerita-44d",
+    "lat": 38.916,
+    "lng": -6.338,
+    "count": 120,
+    "province": "Lusitania",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "corduba-45a",
+    "lat": 37.884,
+    "lng": -4.779,
+    "count": 250,
+    "province": "Baetica",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "corduba-45b",
+    "lat": 37.884,
+    "lng": -4.779,
+    "count": 450,
+    "province": "Baetica",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "corduba-45c",
+    "lat": 37.884,
+    "lng": -4.779,
+    "count": 250,
+    "province": "Baetica",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "corduba-45d",
+    "lat": 37.884,
+    "lng": -4.779,
+    "count": 100,
+    "province": "Baetica",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "hispalis-46a",
+    "lat": 37.389,
+    "lng": -5.984,
+    "count": 150,
+    "province": "Baetica",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "hispalis-46b",
+    "lat": 37.389,
+    "lng": -5.984,
+    "count": 400,
+    "province": "Baetica",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "hispalis-46c",
+    "lat": 37.389,
+    "lng": -5.984,
+    "count": 220,
+    "province": "Baetica",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "hispalis-46d",
+    "lat": 37.389,
+    "lng": -5.984,
+    "count": 90,
+    "province": "Baetica",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "caesaraugusta-47a",
+    "lat": 41.649,
+    "lng": -0.887,
+    "count": 100,
+    "province": "Hispania Tarraconensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "caesaraugusta-47b",
+    "lat": 41.649,
+    "lng": -0.887,
+    "count": 350,
+    "province": "Hispania Tarraconensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "caesaraugusta-47c",
+    "lat": 41.649,
+    "lng": -0.887,
+    "count": 200,
+    "province": "Hispania Tarraconensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "carthago-nova-48a",
+    "lat": 37.6,
+    "lng": -0.982,
+    "count": 200,
+    "province": "Hispania Tarraconensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "carthago-nova-48b",
+    "lat": 37.6,
+    "lng": -0.982,
+    "count": 400,
+    "province": "Hispania Tarraconensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "carthago-nova-48c",
+    "lat": 37.6,
+    "lng": -0.982,
+    "count": 200,
+    "province": "Hispania Tarraconensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "gades-49a",
+    "lat": 36.527,
+    "lng": -6.293,
+    "count": 180,
+    "province": "Baetica",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "gades-49b",
+    "lat": 36.527,
+    "lng": -6.293,
+    "count": 350,
+    "province": "Baetica",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "gades-49c",
+    "lat": 36.527,
+    "lng": -6.293,
+    "count": 180,
+    "province": "Baetica",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "italica-50a",
+    "lat": 37.444,
+    "lng": -6.044,
+    "count": 150,
+    "province": "Baetica",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "italica-50b",
+    "lat": 37.444,
+    "lng": -6.044,
+    "count": 400,
+    "province": "Baetica",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "italica-50c",
+    "lat": 37.444,
+    "lng": -6.044,
+    "count": 200,
+    "province": "Baetica",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "bracara-51a",
+    "lat": 41.55,
+    "lng": -8.427,
+    "count": 50,
+    "province": "Hispania Tarraconensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "bracara-51b",
+    "lat": 41.55,
+    "lng": -8.427,
+    "count": 200,
+    "province": "Hispania Tarraconensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "bracara-51c",
+    "lat": 41.55,
+    "lng": -8.427,
+    "count": 120,
+    "province": "Hispania Tarraconensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "olisipo-52a",
+    "lat": 38.722,
+    "lng": -9.139,
+    "count": 80,
+    "province": "Lusitania",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "olisipo-52b",
+    "lat": 38.722,
+    "lng": -9.139,
+    "count": 250,
+    "province": "Lusitania",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "olisipo-52c",
+    "lat": 38.722,
+    "lng": -9.139,
+    "count": 150,
+    "province": "Lusitania",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "barcino-53a",
+    "lat": 41.384,
+    "lng": 2.177,
+    "count": 80,
+    "province": "Hispania Tarraconensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "barcino-53b",
+    "lat": 41.384,
+    "lng": 2.177,
+    "count": 300,
+    "province": "Hispania Tarraconensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "barcino-53c",
+    "lat": 41.384,
+    "lng": 2.177,
+    "count": 180,
+    "province": "Hispania Tarraconensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "barcino-53d",
+    "lat": 41.384,
+    "lng": 2.177,
+    "count": 80,
+    "province": "Hispania Tarraconensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "saguntum-54a",
+    "lat": 39.68,
+    "lng": -0.267,
+    "count": 100,
+    "province": "Hispania Tarraconensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "saguntum-54b",
+    "lat": 39.68,
+    "lng": -0.267,
+    "count": 250,
+    "province": "Hispania Tarraconensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "saguntum-54c",
+    "lat": 39.68,
+    "lng": -0.267,
+    "count": 130,
+    "province": "Hispania Tarraconensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+
+  {
+    "id": "lugdunum-55a",
+    "lat": 45.764,
+    "lng": 4.835,
+    "count": 200,
+    "province": "Gallia Lugdunensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "lugdunum-55b",
+    "lat": 45.764,
+    "lng": 4.835,
+    "count": 400,
+    "province": "Gallia Lugdunensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "lugdunum-55c",
+    "lat": 45.764,
+    "lng": 4.835,
+    "count": 250,
+    "province": "Gallia Lugdunensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "lugdunum-55d",
+    "lat": 45.764,
+    "lng": 4.835,
+    "count": 100,
+    "province": "Gallia Lugdunensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "augusta-treverorum-56a",
+    "lat": 49.75,
+    "lng": 6.637,
+    "count": 80,
+    "province": "Gallia Belgica",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "augusta-treverorum-56b",
+    "lat": 49.75,
+    "lng": 6.637,
+    "count": 350,
+    "province": "Gallia Belgica",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "augusta-treverorum-56c",
+    "lat": 49.75,
+    "lng": 6.637,
+    "count": 400,
+    "province": "Gallia Belgica",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "augusta-treverorum-56d",
+    "lat": 49.75,
+    "lng": 6.637,
+    "count": 350,
+    "province": "Gallia Belgica",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "colonia-agrippina-57a",
+    "lat": 50.938,
+    "lng": 6.96,
+    "count": 50,
+    "province": "Germania Inferior",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "colonia-agrippina-57b",
+    "lat": 50.938,
+    "lng": 6.96,
+    "count": 350,
+    "province": "Germania Inferior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "colonia-agrippina-57c",
+    "lat": 50.938,
+    "lng": 6.96,
+    "count": 250,
+    "province": "Germania Inferior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "colonia-agrippina-57d",
+    "lat": 50.938,
+    "lng": 6.96,
+    "count": 100,
+    "province": "Germania Inferior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "mogontiacum-58a",
+    "lat": 49.999,
+    "lng": 8.273,
+    "count": 50,
+    "province": "Germania Superior",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "mogontiacum-58b",
+    "lat": 49.999,
+    "lng": 8.273,
+    "count": 400,
+    "province": "Germania Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "mogontiacum-58c",
+    "lat": 49.999,
+    "lng": 8.273,
+    "count": 250,
+    "province": "Germania Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "mogontiacum-58d",
+    "lat": 49.999,
+    "lng": 8.273,
+    "count": 80,
+    "province": "Germania Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "narbo-59a",
+    "lat": 43.184,
+    "lng": 3.003,
+    "count": 250,
+    "province": "Gallia Narbonensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "narbo-59b",
+    "lat": 43.184,
+    "lng": 3.003,
+    "count": 400,
+    "province": "Gallia Narbonensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "narbo-59c",
+    "lat": 43.184,
+    "lng": 3.003,
+    "count": 220,
+    "province": "Gallia Narbonensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "narbo-59d",
+    "lat": 43.184,
+    "lng": 3.003,
+    "count": 80,
+    "province": "Gallia Narbonensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "nemausus-60a",
+    "lat": 43.837,
+    "lng": 4.36,
+    "count": 200,
+    "province": "Gallia Narbonensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "nemausus-60b",
+    "lat": 43.837,
+    "lng": 4.36,
+    "count": 380,
+    "province": "Gallia Narbonensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "nemausus-60c",
+    "lat": 43.837,
+    "lng": 4.36,
+    "count": 200,
+    "province": "Gallia Narbonensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "arelate-61a",
+    "lat": 43.677,
+    "lng": 4.631,
+    "count": 100,
+    "province": "Gallia Narbonensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "arelate-61b",
+    "lat": 43.677,
+    "lng": 4.631,
+    "count": 300,
+    "province": "Gallia Narbonensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "arelate-61c",
+    "lat": 43.677,
+    "lng": 4.631,
+    "count": 250,
+    "province": "Gallia Narbonensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "arelate-61d",
+    "lat": 43.677,
+    "lng": 4.631,
+    "count": 200,
+    "province": "Gallia Narbonensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "massilia-62a",
+    "lat": 43.296,
+    "lng": 5.37,
+    "count": 300,
+    "province": "Gallia Narbonensis",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "massilia-62b",
+    "lat": 43.296,
+    "lng": 5.37,
+    "count": 350,
+    "province": "Gallia Narbonensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "massilia-62c",
+    "lat": 43.296,
+    "lng": 5.37,
+    "count": 200,
+    "province": "Gallia Narbonensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "lutetia-63b",
+    "lat": 48.856,
+    "lng": 2.352,
+    "count": 200,
+    "province": "Gallia Lugdunensis",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "lutetia-63c",
+    "lat": 48.856,
+    "lng": 2.352,
+    "count": 180,
+    "province": "Gallia Lugdunensis",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "lutetia-63d",
+    "lat": 48.856,
+    "lng": 2.352,
+    "count": 120,
+    "province": "Gallia Lugdunensis",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "argentorate-64b",
+    "lat": 48.573,
+    "lng": 7.752,
+    "count": 250,
+    "province": "Germania Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "argentorate-64c",
+    "lat": 48.573,
+    "lng": 7.752,
+    "count": 180,
+    "province": "Germania Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "argentorate-64d",
+    "lat": 48.573,
+    "lng": 7.752,
+    "count": 60,
+    "province": "Germania Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "augusta-raurica-65b",
+    "lat": 47.534,
+    "lng": 7.721,
+    "count": 200,
+    "province": "Germania Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "augusta-raurica-65c",
+    "lat": 47.534,
+    "lng": 7.721,
+    "count": 120,
+    "province": "Germania Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "bonna-66b",
+    "lat": 50.735,
+    "lng": 7.099,
+    "count": 150,
+    "province": "Germania Inferior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "bonna-66c",
+    "lat": 50.735,
+    "lng": 7.099,
+    "count": 100,
+    "province": "Germania Inferior",
+    "startYear": 200,
+    "endYear": 350
+  },
+
+  {
+    "id": "londinium-67b",
+    "lat": 51.508,
+    "lng": -0.076,
+    "count": 150,
+    "province": "Britannia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "londinium-67c",
+    "lat": 51.508,
+    "lng": -0.076,
+    "count": 200,
+    "province": "Britannia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "londinium-67d",
+    "lat": 51.508,
+    "lng": -0.076,
+    "count": 100,
+    "province": "Britannia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "aquae-sulis-68b",
+    "lat": 51.381,
+    "lng": -2.36,
+    "count": 120,
+    "province": "Britannia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "aquae-sulis-68c",
+    "lat": 51.381,
+    "lng": -2.36,
+    "count": 80,
+    "province": "Britannia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "eboracum-69b",
+    "lat": 53.958,
+    "lng": -1.08,
+    "count": 180,
+    "province": "Britannia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "eboracum-69c",
+    "lat": 53.958,
+    "lng": -1.08,
+    "count": 150,
+    "province": "Britannia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "eboracum-69d",
+    "lat": 53.958,
+    "lng": -1.08,
+    "count": 60,
+    "province": "Britannia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "hadrians-wall-70b",
+    "lat": 54.99,
+    "lng": -2.602,
+    "count": 200,
+    "province": "Britannia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "hadrians-wall-70c",
+    "lat": 54.99,
+    "lng": -2.602,
+    "count": 150,
+    "province": "Britannia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "hadrians-wall-70d",
+    "lat": 54.99,
+    "lng": -2.602,
+    "count": 50,
+    "province": "Britannia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "camulodunum-71b",
+    "lat": 51.889,
+    "lng": 0.891,
+    "count": 100,
+    "province": "Britannia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "camulodunum-71c",
+    "lat": 51.889,
+    "lng": 0.891,
+    "count": 70,
+    "province": "Britannia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "lindum-72b",
+    "lat": 53.234,
+    "lng": -0.538,
+    "count": 80,
+    "province": "Britannia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "lindum-72c",
+    "lat": 53.234,
+    "lng": -0.538,
+    "count": 60,
+    "province": "Britannia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "lindum-72d",
+    "lat": 53.234,
+    "lng": -0.538,
+    "count": 20,
+    "province": "Britannia",
+    "startYear": 350,
+    "endYear": 476
+  },
+
+  {
+    "id": "salona-73a",
+    "lat": 43.538,
+    "lng": 16.483,
+    "count": 150,
+    "province": "Dalmatia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "salona-73b",
+    "lat": 43.538,
+    "lng": 16.483,
+    "count": 300,
+    "province": "Dalmatia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "salona-73c",
+    "lat": 43.538,
+    "lng": 16.483,
+    "count": 250,
+    "province": "Dalmatia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "salona-73d",
+    "lat": 43.538,
+    "lng": 16.483,
+    "count": 200,
+    "province": "Dalmatia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "sirmium-74a",
+    "lat": 44.97,
+    "lng": 19.612,
+    "count": 50,
+    "province": "Pannonia Inferior",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "sirmium-74b",
+    "lat": 44.97,
+    "lng": 19.612,
+    "count": 250,
+    "province": "Pannonia Inferior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "sirmium-74c",
+    "lat": 44.97,
+    "lng": 19.612,
+    "count": 300,
+    "province": "Pannonia Inferior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "sirmium-74d",
+    "lat": 44.97,
+    "lng": 19.612,
+    "count": 200,
+    "province": "Pannonia Inferior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "carnuntum-75a",
+    "lat": 48.112,
+    "lng": 16.861,
+    "count": 50,
+    "province": "Pannonia Superior",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "carnuntum-75b",
+    "lat": 48.112,
+    "lng": 16.861,
+    "count": 300,
+    "province": "Pannonia Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "carnuntum-75c",
+    "lat": 48.112,
+    "lng": 16.861,
+    "count": 200,
+    "province": "Pannonia Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "carnuntum-75d",
+    "lat": 48.112,
+    "lng": 16.861,
+    "count": 80,
+    "province": "Pannonia Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "naissus-76b",
+    "lat": 43.319,
+    "lng": 21.896,
+    "count": 200,
+    "province": "Moesia Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "naissus-76c",
+    "lat": 43.319,
+    "lng": 21.896,
+    "count": 250,
+    "province": "Moesia Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "naissus-76d",
+    "lat": 43.319,
+    "lng": 21.896,
+    "count": 200,
+    "province": "Moesia Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "singidunum-77b",
+    "lat": 44.82,
+    "lng": 20.462,
+    "count": 150,
+    "province": "Moesia Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "singidunum-77c",
+    "lat": 44.82,
+    "lng": 20.462,
+    "count": 180,
+    "province": "Moesia Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "singidunum-77d",
+    "lat": 44.82,
+    "lng": 20.462,
+    "count": 100,
+    "province": "Moesia Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "viminacium-78b",
+    "lat": 44.74,
+    "lng": 21.216,
+    "count": 200,
+    "province": "Moesia Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "viminacium-78c",
+    "lat": 44.74,
+    "lng": 21.216,
+    "count": 180,
+    "province": "Moesia Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "viminacium-78d",
+    "lat": 44.74,
+    "lng": 21.216,
+    "count": 60,
+    "province": "Moesia Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "aquincum-79b",
+    "lat": 47.569,
+    "lng": 19.049,
+    "count": 200,
+    "province": "Pannonia Inferior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "aquincum-79c",
+    "lat": 47.569,
+    "lng": 19.049,
+    "count": 250,
+    "province": "Pannonia Inferior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "aquincum-79d",
+    "lat": 47.569,
+    "lng": 19.049,
+    "count": 100,
+    "province": "Pannonia Inferior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "emona-80a",
+    "lat": 46.051,
+    "lng": 14.506,
+    "count": 60,
+    "province": "Pannonia Superior",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "emona-80b",
+    "lat": 46.051,
+    "lng": 14.506,
+    "count": 200,
+    "province": "Pannonia Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "emona-80c",
+    "lat": 46.051,
+    "lng": 14.506,
+    "count": 150,
+    "province": "Pannonia Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "emona-80d",
+    "lat": 46.051,
+    "lng": 14.506,
+    "count": 60,
+    "province": "Pannonia Superior",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "poetovio-81b",
+    "lat": 46.42,
+    "lng": 15.87,
+    "count": 180,
+    "province": "Pannonia Superior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "poetovio-81c",
+    "lat": 46.42,
+    "lng": 15.87,
+    "count": 120,
+    "province": "Pannonia Superior",
+    "startYear": 200,
+    "endYear": 350
+  },
+
+  {
+    "id": "athenae-82a",
+    "lat": 37.971,
+    "lng": 23.726,
+    "count": 500,
+    "province": "Achaea",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "athenae-82b",
+    "lat": 37.971,
+    "lng": 23.726,
+    "count": 800,
+    "province": "Achaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "athenae-82c",
+    "lat": 37.971,
+    "lng": 23.726,
+    "count": 500,
+    "province": "Achaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "athenae-82d",
+    "lat": 37.971,
+    "lng": 23.726,
+    "count": 250,
+    "province": "Achaea",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "corinthus-83a",
+    "lat": 37.906,
+    "lng": 22.88,
+    "count": 300,
+    "province": "Achaea",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "corinthus-83b",
+    "lat": 37.906,
+    "lng": 22.88,
+    "count": 600,
+    "province": "Achaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "corinthus-83c",
+    "lat": 37.906,
+    "lng": 22.88,
+    "count": 350,
+    "province": "Achaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "corinthus-83d",
+    "lat": 37.906,
+    "lng": 22.88,
+    "count": 150,
+    "province": "Achaea",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "thessalonica-84a",
+    "lat": 40.64,
+    "lng": 22.944,
+    "count": 200,
+    "province": "Macedonia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "thessalonica-84b",
+    "lat": 40.64,
+    "lng": 22.944,
+    "count": 500,
+    "province": "Macedonia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "thessalonica-84c",
+    "lat": 40.64,
+    "lng": 22.944,
+    "count": 400,
+    "province": "Macedonia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "thessalonica-84d",
+    "lat": 40.64,
+    "lng": 22.944,
+    "count": 350,
+    "province": "Macedonia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "philippi-85a",
+    "lat": 41.014,
+    "lng": 24.287,
+    "count": 100,
+    "province": "Macedonia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "philippi-85b",
+    "lat": 41.014,
+    "lng": 24.287,
+    "count": 300,
+    "province": "Macedonia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "philippi-85c",
+    "lat": 41.014,
+    "lng": 24.287,
+    "count": 200,
+    "province": "Macedonia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "philippi-85d",
+    "lat": 41.014,
+    "lng": 24.287,
+    "count": 100,
+    "province": "Macedonia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "olympia-86a",
+    "lat": 37.638,
+    "lng": 21.63,
+    "count": 200,
+    "province": "Achaea",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "olympia-86b",
+    "lat": 37.638,
+    "lng": 21.63,
+    "count": 350,
+    "province": "Achaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "olympia-86c",
+    "lat": 37.638,
+    "lng": 21.63,
+    "count": 150,
+    "province": "Achaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "delphi-87a",
+    "lat": 38.482,
+    "lng": 22.501,
+    "count": 250,
+    "province": "Achaea",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "delphi-87b",
+    "lat": 38.482,
+    "lng": 22.501,
+    "count": 400,
+    "province": "Achaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "delphi-87c",
+    "lat": 38.482,
+    "lng": 22.501,
+    "count": 200,
+    "province": "Achaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "sparta-88a",
+    "lat": 37.074,
+    "lng": 22.427,
+    "count": 150,
+    "province": "Achaea",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "sparta-88b",
+    "lat": 37.074,
+    "lng": 22.427,
+    "count": 300,
+    "province": "Achaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "sparta-88c",
+    "lat": 37.074,
+    "lng": 22.427,
+    "count": 150,
+    "province": "Achaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "nikopolis-89b",
+    "lat": 38.958,
+    "lng": 20.718,
+    "count": 200,
+    "province": "Achaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "nikopolis-89c",
+    "lat": 38.958,
+    "lng": 20.718,
+    "count": 120,
+    "province": "Achaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+
+  {
+    "id": "ephesus-90a",
+    "lat": 37.941,
+    "lng": 27.342,
+    "count": 300,
+    "province": "Asia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "ephesus-90b",
+    "lat": 37.941,
+    "lng": 27.342,
+    "count": 600,
+    "province": "Asia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "ephesus-90c",
+    "lat": 37.941,
+    "lng": 27.342,
+    "count": 400,
+    "province": "Asia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ephesus-90d",
+    "lat": 37.941,
+    "lng": 27.342,
+    "count": 200,
+    "province": "Asia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "aphrodisias-91a",
+    "lat": 37.709,
+    "lng": 28.729,
+    "count": 200,
+    "province": "Asia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "aphrodisias-91b",
+    "lat": 37.709,
+    "lng": 28.729,
+    "count": 500,
+    "province": "Asia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "aphrodisias-91c",
+    "lat": 37.709,
+    "lng": 28.729,
+    "count": 350,
+    "province": "Asia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "aphrodisias-91d",
+    "lat": 37.709,
+    "lng": 28.729,
+    "count": 150,
+    "province": "Asia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "ancyra-92a",
+    "lat": 39.942,
+    "lng": 32.86,
+    "count": 100,
+    "province": "Galatia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "ancyra-92b",
+    "lat": 39.942,
+    "lng": 32.86,
+    "count": 400,
+    "province": "Galatia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "ancyra-92c",
+    "lat": 39.942,
+    "lng": 32.86,
+    "count": 300,
+    "province": "Galatia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "ancyra-92d",
+    "lat": 39.942,
+    "lng": 32.86,
+    "count": 200,
+    "province": "Galatia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "pergamum-93a",
+    "lat": 39.122,
+    "lng": 27.184,
+    "count": 250,
+    "province": "Asia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "pergamum-93b",
+    "lat": 39.122,
+    "lng": 27.184,
+    "count": 500,
+    "province": "Asia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "pergamum-93c",
+    "lat": 39.122,
+    "lng": 27.184,
+    "count": 300,
+    "province": "Asia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "pergamum-93d",
+    "lat": 39.122,
+    "lng": 27.184,
+    "count": 120,
+    "province": "Asia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "smyrna-94a",
+    "lat": 38.419,
+    "lng": 27.129,
+    "count": 200,
+    "province": "Asia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "smyrna-94b",
+    "lat": 38.419,
+    "lng": 27.129,
+    "count": 450,
+    "province": "Asia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "smyrna-94c",
+    "lat": 38.419,
+    "lng": 27.129,
+    "count": 300,
+    "province": "Asia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "smyrna-94d",
+    "lat": 38.419,
+    "lng": 27.129,
+    "count": 150,
+    "province": "Asia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "miletus-95a",
+    "lat": 37.53,
+    "lng": 27.278,
+    "count": 200,
+    "province": "Asia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "miletus-95b",
+    "lat": 37.53,
+    "lng": 27.278,
+    "count": 400,
+    "province": "Asia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "miletus-95c",
+    "lat": 37.53,
+    "lng": 27.278,
+    "count": 200,
+    "province": "Asia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "side-96b",
+    "lat": 36.767,
+    "lng": 31.394,
+    "count": 300,
+    "province": "Lycia et Pamphylia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "side-96c",
+    "lat": 36.767,
+    "lng": 31.394,
+    "count": 200,
+    "province": "Lycia et Pamphylia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "side-96d",
+    "lat": 36.767,
+    "lng": 31.394,
+    "count": 100,
+    "province": "Lycia et Pamphylia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "nicomedia-97b",
+    "lat": 40.763,
+    "lng": 29.92,
+    "count": 350,
+    "province": "Bithynia et Pontus",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "nicomedia-97c",
+    "lat": 40.763,
+    "lng": 29.92,
+    "count": 400,
+    "province": "Bithynia et Pontus",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "nicomedia-97d",
+    "lat": 40.763,
+    "lng": 29.92,
+    "count": 350,
+    "province": "Bithynia et Pontus",
+    "startYear": 350,
+    "endYear": 476
+  },
+
+  {
+    "id": "alexandria-98a",
+    "lat": 31.2,
+    "lng": 29.919,
+    "count": 200,
+    "province": "Aegyptus",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "alexandria-98b",
+    "lat": 31.2,
+    "lng": 29.919,
+    "count": 300,
+    "province": "Aegyptus",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "alexandria-98c",
+    "lat": 31.2,
+    "lng": 29.919,
+    "count": 250,
+    "province": "Aegyptus",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "alexandria-98d",
+    "lat": 31.2,
+    "lng": 29.919,
+    "count": 200,
+    "province": "Aegyptus",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "hierosolyma-99a",
+    "lat": 31.778,
+    "lng": 35.235,
+    "count": 100,
+    "province": "Judaea",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "hierosolyma-99b",
+    "lat": 31.778,
+    "lng": 35.235,
+    "count": 200,
+    "province": "Judaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "hierosolyma-99c",
+    "lat": 31.778,
+    "lng": 35.235,
+    "count": 150,
+    "province": "Judaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "hierosolyma-99d",
+    "lat": 31.778,
+    "lng": 35.235,
+    "count": 120,
+    "province": "Judaea",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "antiochia-100a",
+    "lat": 36.202,
+    "lng": 36.16,
+    "count": 150,
+    "province": "Syria",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "antiochia-100b",
+    "lat": 36.202,
+    "lng": 36.16,
+    "count": 300,
+    "province": "Syria",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "antiochia-100c",
+    "lat": 36.202,
+    "lng": 36.16,
+    "count": 250,
+    "province": "Syria",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "antiochia-100d",
+    "lat": 36.202,
+    "lng": 36.16,
+    "count": 200,
+    "province": "Syria",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "caesarea-mar-101b",
+    "lat": 32.5,
+    "lng": 34.89,
+    "count": 200,
+    "province": "Judaea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "caesarea-mar-101c",
+    "lat": 32.5,
+    "lng": 34.89,
+    "count": 150,
+    "province": "Judaea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "caesarea-mar-101d",
+    "lat": 32.5,
+    "lng": 34.89,
+    "count": 80,
+    "province": "Judaea",
+    "startYear": 350,
+    "endYear": 476
+  },
+
+  {
+    "id": "syracusae-102a",
+    "lat": 37.068,
+    "lng": 15.286,
+    "count": 200,
+    "province": "Sicilia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "syracusae-102b",
+    "lat": 37.068,
+    "lng": 15.286,
+    "count": 200,
+    "province": "Sicilia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "syracusae-102c",
+    "lat": 37.068,
+    "lng": 15.286,
+    "count": 120,
+    "province": "Sicilia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "syracusae-102d",
+    "lat": 37.068,
+    "lng": 15.286,
+    "count": 50,
+    "province": "Sicilia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "carales-103a",
+    "lat": 39.223,
+    "lng": 9.119,
+    "count": 100,
+    "province": "Sardinia et Corsica",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "carales-103b",
+    "lat": 39.223,
+    "lng": 9.119,
+    "count": 180,
+    "province": "Sardinia et Corsica",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "carales-103c",
+    "lat": 39.223,
+    "lng": 9.119,
+    "count": 120,
+    "province": "Sardinia et Corsica",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "carales-103d",
+    "lat": 39.223,
+    "lng": 9.119,
+    "count": 60,
+    "province": "Sardinia et Corsica",
+    "startYear": 350,
+    "endYear": 476
+  },
+
+  {
+    "id": "palmyra-104a",
+    "lat": 34.551,
+    "lng": 38.267,
+    "count": 100,
+    "province": "Syria",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "palmyra-104b",
+    "lat": 34.551,
+    "lng": 38.267,
+    "count": 250,
+    "province": "Syria",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "palmyra-104c",
+    "lat": 34.551,
+    "lng": 38.267,
+    "count": 200,
+    "province": "Syria",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "petra-105b",
+    "lat": 30.328,
+    "lng": 35.441,
+    "count": 150,
+    "province": "Arabia Petraea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "petra-105c",
+    "lat": 30.328,
+    "lng": 35.441,
+    "count": 100,
+    "province": "Arabia Petraea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "gerasa-106b",
+    "lat": 32.275,
+    "lng": 35.891,
+    "count": 200,
+    "province": "Arabia Petraea",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "gerasa-106c",
+    "lat": 32.275,
+    "lng": 35.891,
+    "count": 150,
+    "province": "Arabia Petraea",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "gerasa-106d",
+    "lat": 32.275,
+    "lng": 35.891,
+    "count": 80,
+    "province": "Arabia Petraea",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "byzantium-107a",
+    "lat": 41.009,
+    "lng": 28.98,
+    "count": 100,
+    "province": "Thracia",
+    "startYear": -100,
+    "endYear": 1
+  },
+  {
+    "id": "byzantium-107b",
+    "lat": 41.009,
+    "lng": 28.98,
+    "count": 300,
+    "province": "Thracia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "byzantium-107c",
+    "lat": 41.009,
+    "lng": 28.98,
+    "count": 400,
+    "province": "Thracia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "byzantium-107d",
+    "lat": 41.009,
+    "lng": 28.98,
+    "count": 500,
+    "province": "Thracia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "philippopolis-108b",
+    "lat": 42.15,
+    "lng": 24.75,
+    "count": 200,
+    "province": "Thracia",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "philippopolis-108c",
+    "lat": 42.15,
+    "lng": 24.75,
+    "count": 180,
+    "province": "Thracia",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "philippopolis-108d",
+    "lat": 42.15,
+    "lng": 24.75,
+    "count": 120,
+    "province": "Thracia",
+    "startYear": 350,
+    "endYear": 476
+  },
+  {
+    "id": "durostorum-109b",
+    "lat": 44.114,
+    "lng": 27.275,
+    "count": 100,
+    "province": "Moesia Inferior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "durostorum-109c",
+    "lat": 44.114,
+    "lng": 27.275,
+    "count": 80,
+    "province": "Moesia Inferior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "tomis-110b",
+    "lat": 44.173,
+    "lng": 28.66,
+    "count": 120,
+    "province": "Moesia Inferior",
+    "startYear": 1,
+    "endYear": 200
+  },
+  {
+    "id": "tomis-110c",
+    "lat": 44.173,
+    "lng": 28.66,
+    "count": 100,
+    "province": "Moesia Inferior",
+    "startYear": 200,
+    "endYear": 350
+  },
+  {
+    "id": "tomis-110d",
+    "lat": 44.173,
+    "lng": 28.66,
+    "count": 60,
+    "province": "Moesia Inferior",
+    "startYear": 350,
+    "endYear": 476
+  }
+]

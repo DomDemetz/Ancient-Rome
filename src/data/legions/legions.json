@@ -1,0 +1,1381 @@
+[
+  {
+    "id": "legio-i-germanica",
+    "name": "Legio I Germanica",
+    "number": "I",
+    "cognomen": "Germanica",
+    "symbol": null,
+    "founded": -48,
+    "dissolved": 70,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Hispania (unknown site)",
+        "lat": 40.0,
+        "lng": -3.5,
+        "fromYear": -48,
+        "toYear": -30
+      },
+      {
+        "location": "Ara Ubiorum (Cologne)",
+        "lat": 50.9375,
+        "lng": 6.9603,
+        "fromYear": -30,
+        "toYear": 9
+      },
+      {
+        "location": "Castra Bonnensia (Bonn)",
+        "lat": 50.7339,
+        "lng": 7.0997,
+        "fromYear": 9,
+        "toYear": 70
+      }
+    ],
+    "description": "Raised by Julius Caesar during the civil war. Stationed on the Rhine frontier in Germania Inferior. Disbanded in disgrace after the Batavian revolt of 69-70 AD.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-i-adiutrix",
+    "name": "Legio I Adiutrix",
+    "number": "I",
+    "cognomen": "Adiutrix",
+    "symbol": "capricorn",
+    "founded": 68,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 68,
+        "toYear": 86
+      },
+      {
+        "location": "Brigetio (Szony)",
+        "lat": 47.7311,
+        "lng": 18.1711,
+        "fromYear": 86,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Nero from marines of the Classis Misenensis. Fought in the Year of the Four Emperors. Later stationed on the Danube frontier in Pannonia.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-i-italica",
+    "name": "Legio I Italica",
+    "number": "I",
+    "cognomen": "Italica",
+    "symbol": "boar",
+    "founded": 66,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Lugdunum (Lyon)", "lat": 45.764, "lng": 4.8357, "fromYear": 66, "toYear": 68 },
+      {
+        "location": "Novae (Svishtov)",
+        "lat": 43.6167,
+        "lng": 25.35,
+        "fromYear": 71,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Nero for his planned Caspian expedition. Stationed on the lower Danube in Moesia from the Flavian era onward. One of the longest-serving legions.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-i-minervia",
+    "name": "Legio I Minervia",
+    "number": "I",
+    "cognomen": "Minervia",
+    "symbol": null,
+    "founded": 82,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Castra Bonnensia (Bonn)",
+        "lat": 50.7339,
+        "lng": 7.0997,
+        "fromYear": 82,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Domitian for his campaign against the Chatti. Named after the goddess Minerva. Garrisoned at Bonn on the Rhine for most of its existence.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-ii-augusta",
+    "name": "Legio II Augusta",
+    "number": "II",
+    "cognomen": "Augusta",
+    "symbol": "capricorn",
+    "founded": -43,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Hispania (unknown site)",
+        "lat": 39.5,
+        "lng": -2.5,
+        "fromYear": -43,
+        "toYear": -30
+      },
+      {
+        "location": "Argentorate (Strasbourg)",
+        "lat": 48.5734,
+        "lng": 7.7521,
+        "fromYear": -30,
+        "toYear": 43
+      },
+      {
+        "location": "Isca Augusta (Caerleon)",
+        "lat": 51.6117,
+        "lng": -2.955,
+        "fromYear": 75,
+        "toYear": 300
+      },
+      {
+        "location": "Rutupiae (Richborough)",
+        "lat": 51.2961,
+        "lng": 1.325,
+        "fromYear": 300,
+        "toYear": 410
+      }
+    ],
+    "description": "Raised during the civil wars after Caesar's assassination. Participated in the invasion of Britain under Claudius in 43 AD. Long stationed in Wales at Caerleon.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-ii-adiutrix",
+    "name": "Legio II Adiutrix",
+    "number": "II",
+    "cognomen": "Adiutrix",
+    "symbol": "capricorn",
+    "founded": 70,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Lindum (Lincoln)",
+        "lat": 53.2307,
+        "lng": -0.5407,
+        "fromYear": 71,
+        "toYear": 77
+      },
+      {
+        "location": "Deva Victrix (Chester)",
+        "lat": 53.1907,
+        "lng": -2.8909,
+        "fromYear": 77,
+        "toYear": 86
+      },
+      {
+        "location": "Aquincum (Budapest)",
+        "lat": 47.5647,
+        "lng": 19.0486,
+        "fromYear": 89,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Vespasian from marines during the civil war of 69 AD. Served briefly in Britain before permanent transfer to the Danube frontier at Aquincum in Pannonia.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-ii-italica",
+    "name": "Legio II Italica",
+    "number": "II",
+    "cognomen": "Italica",
+    "symbol": "she-wolf",
+    "founded": 165,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Aquileia", "lat": 45.7694, "lng": 13.3694, "fromYear": 165, "toYear": 170 },
+      {
+        "location": "Lauriacum (Enns)",
+        "lat": 48.2167,
+        "lng": 14.4833,
+        "fromYear": 170,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Marcus Aurelius for the Marcomannic Wars. Stationed at Lauriacum in Noricum to defend the Danube frontier.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-ii-parthica",
+    "name": "Legio II Parthica",
+    "number": "II",
+    "cognomen": "Parthica",
+    "symbol": "centaur",
+    "founded": 197,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Castra Albana (Albano Laziale)",
+        "lat": 41.7282,
+        "lng": 12.6591,
+        "fromYear": 202,
+        "toYear": 350
+      }
+    ],
+    "description": "Raised by Septimius Severus for his Parthian campaigns. Uniquely stationed near Rome at Albano Laziale, serving as the emperor's strategic reserve in Italy.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-ii-traiana",
+    "name": "Legio II Traiana Fortis",
+    "number": "II",
+    "cognomen": "Traiana Fortis",
+    "symbol": "hercules",
+    "founded": 105,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Laodicea ad Mare",
+        "lat": 35.5167,
+        "lng": 35.7833,
+        "fromYear": 105,
+        "toYear": 125
+      },
+      {
+        "location": "Nicopolis (near Alexandria)",
+        "lat": 31.2289,
+        "lng": 29.9486,
+        "fromYear": 125,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Trajan for his Dacian Wars. Later transferred to Egypt, where it served as the garrison legion at Nicopolis near Alexandria for centuries.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iii-augusta",
+    "name": "Legio III Augusta",
+    "number": "III",
+    "cognomen": "Augusta",
+    "symbol": "pegasus",
+    "founded": -43,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Ammaedara (Haidra)",
+        "lat": 35.5636,
+        "lng": 8.4583,
+        "fromYear": -30,
+        "toYear": 75
+      },
+      {
+        "location": "Theveste (Tebessa)",
+        "lat": 35.4,
+        "lng": 8.1167,
+        "fromYear": 75,
+        "toYear": 100
+      },
+      {
+        "location": "Lambaesis (Tazoult)",
+        "lat": 35.4833,
+        "lng": 6.25,
+        "fromYear": 100,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised during the civil wars. The sole legion in Africa (Numidia) for most of the imperial period. Built the great legionary base at Lambaesis.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iii-cyrenaica",
+    "name": "Legio III Cyrenaica",
+    "number": "III",
+    "cognomen": "Cyrenaica",
+    "symbol": null,
+    "founded": -36,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Nicopolis (near Alexandria)",
+        "lat": 31.2289,
+        "lng": 29.9486,
+        "fromYear": -30,
+        "toYear": 125
+      },
+      {
+        "location": "Bostra (Bosra)",
+        "lat": 32.5167,
+        "lng": 36.4833,
+        "fromYear": 125,
+        "toYear": 476
+      }
+    ],
+    "description": "Originally part of Mark Antony's forces, possibly raised in Cyrenaica. Transferred from Egypt to Arabia Petraea under Hadrian. Long garrisoned at Bostra.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iii-gallica",
+    "name": "Legio III Gallica",
+    "number": "III",
+    "cognomen": "Gallica",
+    "symbol": "bull",
+    "founded": -49,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Syria (various)", "lat": 34.8, "lng": 36.7, "fromYear": -30, "toYear": 68 },
+      { "location": "Raphanea", "lat": 34.8167, "lng": 36.3333, "fromYear": 68, "toYear": 219 },
+      {
+        "location": "Danaba (near Damascus)",
+        "lat": 33.5131,
+        "lng": 36.2919,
+        "fromYear": 219,
+        "toYear": 400
+      }
+    ],
+    "description": "Raised by Julius Caesar in Gaul. Fought at Pharsalus and numerous eastern campaigns. Became one of the principal legions of the Syrian garrison.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iii-italica",
+    "name": "Legio III Italica",
+    "number": "III",
+    "cognomen": "Italica",
+    "symbol": "stork",
+    "founded": 165,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Castra Regina (Regensburg)",
+        "lat": 49.0134,
+        "lng": 12.1016,
+        "fromYear": 170,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Marcus Aurelius for the Marcomannic Wars. Stationed at Castra Regina (Regensburg) in Raetia, defending the upper Danube frontier.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iii-parthica",
+    "name": "Legio III Parthica",
+    "number": "III",
+    "cognomen": "Parthica",
+    "symbol": "bull",
+    "founded": 197,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Nisibis (Nusaybin)",
+        "lat": 37.0667,
+        "lng": 41.2167,
+        "fromYear": 197,
+        "toYear": 363
+      },
+      {
+        "location": "Mesopotamia (various)",
+        "lat": 36.5,
+        "lng": 41.0,
+        "fromYear": 197,
+        "toYear": 363
+      }
+    ],
+    "description": "Raised by Septimius Severus for his Parthian campaigns. Stationed in the new province of Mesopotamia at Nisibis. Lost when the province was ceded to Persia in 363.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iv-macedonica",
+    "name": "Legio IV Macedonica",
+    "number": "IV",
+    "cognomen": "Macedonica",
+    "symbol": "bull",
+    "founded": -48,
+    "dissolved": 70,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Hispania Tarraconensis",
+        "lat": 41.6,
+        "lng": -0.9,
+        "fromYear": -30,
+        "toYear": 39
+      },
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 43,
+        "toYear": 70
+      }
+    ],
+    "description": "Raised by Julius Caesar from veterans of Macedonia. Served in Hispania then on the Rhine at Mainz. Disbanded after the Batavian revolt and reconstituted as IV Flavia Felix.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iv-flavia-felix",
+    "name": "Legio IV Flavia Felix",
+    "number": "IV",
+    "cognomen": "Flavia Felix",
+    "symbol": "lion",
+    "founded": 70,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Burnum (Kistanje)",
+        "lat": 44.0,
+        "lng": 16.0167,
+        "fromYear": 70,
+        "toYear": 86
+      },
+      {
+        "location": "Singidunum (Belgrade)",
+        "lat": 44.8176,
+        "lng": 20.4569,
+        "fromYear": 86,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Vespasian to replace the disbanded IV Macedonica. Stationed on the Danube in Moesia Superior at Singidunum (modern Belgrade).",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-iv-scythica",
+    "name": "Legio IV Scythica",
+    "number": "IV",
+    "cognomen": "Scythica",
+    "symbol": "capricorn",
+    "founded": -42,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Moesia (various)", "lat": 43.5, "lng": 25.0, "fromYear": -30, "toYear": 56 },
+      { "location": "Zeugma (Belkis)", "lat": 37.05, "lng": 37.8667, "fromYear": 56, "toYear": 476 }
+    ],
+    "description": "Raised by Mark Antony, possibly from troops that fought the Scythians. Transferred to Syria under Nero. Long garrisoned at the Euphrates crossing of Zeugma.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-v-alaudae",
+    "name": "Legio V Alaudae",
+    "number": "V",
+    "cognomen": "Alaudae",
+    "symbol": "elephant",
+    "founded": -52,
+    "dissolved": 86,
+    "status": "destroyed",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 48.8, "lng": 2.3, "fromYear": -52, "toYear": -30 },
+      {
+        "location": "Castra Vetera (Xanten)",
+        "lat": 51.658,
+        "lng": 6.4547,
+        "fromYear": -30,
+        "toYear": 70
+      },
+      { "location": "Moesia (Danube)", "lat": 44.0, "lng": 22.0, "fromYear": 70, "toYear": 86 }
+    ],
+    "description": "Raised by Julius Caesar from non-citizens in Transalpine Gaul. Its name means 'The Larks'. Destroyed fighting the Dacians under Domitian around 86 AD.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-v-macedonica",
+    "name": "Legio V Macedonica",
+    "number": "V",
+    "cognomen": "Macedonica",
+    "symbol": "bull",
+    "founded": -43,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Oescus (Gigen)",
+        "lat": 43.7167,
+        "lng": 24.4667,
+        "fromYear": -30,
+        "toYear": 62
+      },
+      {
+        "location": "Troesmis (Iglita)",
+        "lat": 45.1667,
+        "lng": 28.1667,
+        "fromYear": 62,
+        "toYear": 101
+      },
+      {
+        "location": "Oescus (Gigen)",
+        "lat": 43.7167,
+        "lng": 24.4667,
+        "fromYear": 101,
+        "toYear": 167
+      },
+      {
+        "location": "Potaissa (Turda)",
+        "lat": 46.5667,
+        "lng": 23.7833,
+        "fromYear": 167,
+        "toYear": 274
+      },
+      {
+        "location": "Oescus (Gigen)",
+        "lat": 43.7167,
+        "lng": 24.4667,
+        "fromYear": 274,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised during the civil wars after Caesar's death. One of the most active legions, serving in numerous Danubian campaigns. Repeatedly based at Oescus in Moesia.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-vi-victrix",
+    "name": "Legio VI Victrix",
+    "number": "VI",
+    "cognomen": "Victrix",
+    "symbol": "bull",
+    "founded": -41,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Hispania Tarraconensis",
+        "lat": 41.6,
+        "lng": -0.9,
+        "fromYear": -30,
+        "toYear": 68
+      },
+      {
+        "location": "Novaesium (Neuss)",
+        "lat": 51.2042,
+        "lng": 6.6879,
+        "fromYear": 70,
+        "toYear": 122
+      },
+      {
+        "location": "Eboracum (York)",
+        "lat": 53.9583,
+        "lng": -1.0803,
+        "fromYear": 122,
+        "toYear": 410
+      }
+    ],
+    "description": "Raised by Octavian during the civil wars. Transferred to Britannia under Hadrian to help build Hadrian's Wall. Based at York alongside IX Hispana which it replaced.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-vi-ferrata",
+    "name": "Legio VI Ferrata",
+    "number": "VI",
+    "cognomen": "Ferrata",
+    "symbol": "she-wolf",
+    "founded": -52,
+    "dissolved": 260,
+    "status": "unknown",
+    "bases": [
+      { "location": "Syria (various)", "lat": 34.8, "lng": 36.7, "fromYear": -30, "toYear": 106 },
+      {
+        "location": "Legio (Caparcotna)",
+        "lat": 32.5597,
+        "lng": 35.2847,
+        "fromYear": 120,
+        "toYear": 260
+      }
+    ],
+    "description": "One of Caesar's veteran legions, famed for its ironclad soldiers (ferrata = 'ironclad'). Served extensively in the East. Based at Legio (modern Lajjun) in Judaea/Palestine.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-vii-claudia",
+    "name": "Legio VII Claudia",
+    "number": "VII",
+    "cognomen": "Claudia",
+    "symbol": "bull",
+    "founded": -58,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 46.0, "lng": 3.0, "fromYear": -58, "toYear": -30 },
+      {
+        "location": "Tilurium (Gardun)",
+        "lat": 43.5572,
+        "lng": 16.6919,
+        "fromYear": -30,
+        "toYear": 56
+      },
+      {
+        "location": "Viminacium (Kostolac)",
+        "lat": 44.7333,
+        "lng": 21.2167,
+        "fromYear": 56,
+        "toYear": 476
+      }
+    ],
+    "description": "One of Caesar's original legions in the Gallic Wars. Earned cognomen 'Claudia' for loyalty during the revolt of Scribonianus in 42 AD. Based at Viminacium on the Danube.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-vii-gemina",
+    "name": "Legio VII Gemina",
+    "number": "VII",
+    "cognomen": "Gemina",
+    "symbol": null,
+    "founded": 68,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Pannonia (various)", "lat": 47.0, "lng": 18.0, "fromYear": 68, "toYear": 74 },
+      { "location": "Legio (Leon)", "lat": 42.5987, "lng": -5.5671, "fromYear": 74, "toYear": 476 }
+    ],
+    "description": "Raised by Galba in Hispania during his bid for the throne. Returned to Hispania where it became the sole garrison legion. Its base gave the city of Leon its name.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-viii-augusta",
+    "name": "Legio VIII Augusta",
+    "number": "VIII",
+    "cognomen": "Augusta",
+    "symbol": "bull",
+    "founded": -59,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 46.0, "lng": 3.0, "fromYear": -59, "toYear": -30 },
+      { "location": "Poetovio (Ptuj)", "lat": 46.42, "lng": 15.87, "fromYear": -30, "toYear": 45 },
+      {
+        "location": "Novae (Svishtov)",
+        "lat": 43.6167,
+        "lng": 25.35,
+        "fromYear": 45,
+        "toYear": 70
+      },
+      {
+        "location": "Argentorate (Strasbourg)",
+        "lat": 48.5734,
+        "lng": 7.7521,
+        "fromYear": 90,
+        "toYear": 476
+      }
+    ],
+    "description": "One of Caesar's veteran legions from the Gallic Wars. Received cognomen Augusta from Octavian. Long stationed at Strasbourg guarding the upper Rhine frontier.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-ix-hispana",
+    "name": "Legio IX Hispana",
+    "number": "IX",
+    "cognomen": "Hispana",
+    "symbol": "bull",
+    "founded": -58,
+    "dissolved": 120,
+    "status": "unknown",
+    "bases": [
+      {
+        "location": "Gallia/Hispania (various)",
+        "lat": 42.0,
+        "lng": -3.0,
+        "fromYear": -58,
+        "toYear": -30
+      },
+      { "location": "Pannonia (various)", "lat": 47.0, "lng": 18.0, "fromYear": -30, "toYear": 43 },
+      {
+        "location": "Lindum (Lincoln)",
+        "lat": 53.2307,
+        "lng": -0.5407,
+        "fromYear": 43,
+        "toYear": 71
+      },
+      {
+        "location": "Eboracum (York)",
+        "lat": 53.9583,
+        "lng": -1.0803,
+        "fromYear": 71,
+        "toYear": 108
+      },
+      {
+        "location": "Nijmegen (possible)",
+        "lat": 51.8433,
+        "lng": 5.8609,
+        "fromYear": 108,
+        "toYear": 120
+      }
+    ],
+    "description": "The famous 'lost legion'. One of Caesar's veteran units. Served in Britain from the Claudian invasion. Disappeared from records around 120 AD; its fate remains one of Rome's great mysteries.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-x-equestris",
+    "name": "Legio X Equestris",
+    "number": "X",
+    "cognomen": "Equestris",
+    "symbol": "bull",
+    "founded": -61,
+    "dissolved": -45,
+    "status": "merged",
+    "bases": [
+      {
+        "location": "Hispania Ulterior",
+        "lat": 37.3886,
+        "lng": -5.9823,
+        "fromYear": -61,
+        "toYear": -58
+      },
+      {
+        "location": "Gallia (various campaigns)",
+        "lat": 47.0,
+        "lng": 3.0,
+        "fromYear": -58,
+        "toYear": -49
+      },
+      {
+        "location": "Civil War campaigns (various)",
+        "lat": 39.0,
+        "lng": 22.0,
+        "fromYear": -49,
+        "toYear": -45
+      }
+    ],
+    "description": "Julius Caesar's most trusted and favored legion, known as 'the mounted' (Equestris). Fought in all major battles of the Gallic Wars and Caesar's Civil War. Reconstituted as X Gemina after Caesar's death.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-x-fretensis",
+    "name": "Legio X Fretensis",
+    "number": "X",
+    "cognomen": "Fretensis",
+    "symbol": "boar",
+    "founded": -41,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Syria (various)", "lat": 34.8, "lng": 36.7, "fromYear": -30, "toYear": 6 },
+      { "location": "Cyrrhus", "lat": 36.75, "lng": 36.9167, "fromYear": 6, "toYear": 66 },
+      {
+        "location": "Hierosolyma (Jerusalem)",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "fromYear": 70,
+        "toYear": 285
+      },
+      { "location": "Aila (Aqaba)", "lat": 29.5267, "lng": 35.0078, "fromYear": 285, "toYear": 476 }
+    ],
+    "description": "Named for the Strait of Messina (fretum). Played a major role in the siege and destruction of Jerusalem in 70 AD under Titus. Garrisoned Jerusalem for over two centuries.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-x-gemina",
+    "name": "Legio X Gemina",
+    "number": "X",
+    "cognomen": "Gemina",
+    "symbol": "bull",
+    "founded": -44,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Hispania Tarraconensis (Petavonium)",
+        "lat": 42.0,
+        "lng": -6.0,
+        "fromYear": -30,
+        "toYear": 63
+      },
+      {
+        "location": "Carnuntum (Petronell)",
+        "lat": 48.1147,
+        "lng": 16.86,
+        "fromYear": 63,
+        "toYear": 68
+      },
+      {
+        "location": "Noviomagus (Nijmegen)",
+        "lat": 51.8433,
+        "lng": 5.8609,
+        "fromYear": 71,
+        "toYear": 103
+      },
+      {
+        "location": "Aquincum (Budapest)",
+        "lat": 47.5647,
+        "lng": 19.0486,
+        "fromYear": 103,
+        "toYear": 106
+      },
+      {
+        "location": "Vindobona (Vienna)",
+        "lat": 48.2082,
+        "lng": 16.3738,
+        "fromYear": 106,
+        "toYear": 476
+      }
+    ],
+    "description": "The continuation of Caesar's legendary X Equestris. 'Gemina' (twin) indicates merger with another unit. Eventually settled at Vienna on the Danube frontier.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xi-claudia",
+    "name": "Legio XI Claudia",
+    "number": "XI",
+    "cognomen": "Claudia",
+    "symbol": "neptune",
+    "founded": -58,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 46.0, "lng": 3.0, "fromYear": -58, "toYear": -30 },
+      {
+        "location": "Burnum (Kistanje)",
+        "lat": 44.0,
+        "lng": 16.0167,
+        "fromYear": -30,
+        "toYear": 42
+      },
+      {
+        "location": "Vindonissa (Windisch)",
+        "lat": 47.4797,
+        "lng": 8.2217,
+        "fromYear": 70,
+        "toYear": 101
+      },
+      {
+        "location": "Durostorum (Silistra)",
+        "lat": 44.1167,
+        "lng": 27.2667,
+        "fromYear": 101,
+        "toYear": 476
+      }
+    ],
+    "description": "One of Caesar's original legions. Earned cognomen 'Claudia' alongside VII Claudia for loyalty in 42 AD. Served at Vindonissa on the Rhine before transfer to the lower Danube.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xii-fulminata",
+    "name": "Legio XII Fulminata",
+    "number": "XII",
+    "cognomen": "Fulminata",
+    "symbol": "thunderbolt",
+    "founded": -58,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 46.0, "lng": 3.0, "fromYear": -58, "toYear": -30 },
+      { "location": "Raphanea", "lat": 34.8167, "lng": 36.3333, "fromYear": -30, "toYear": 70 },
+      {
+        "location": "Melitene (Malatya)",
+        "lat": 38.3552,
+        "lng": 38.3095,
+        "fromYear": 70,
+        "toYear": 476
+      }
+    ],
+    "description": "One of Caesar's legions, named 'Thunderbolt'. Suffered a famous defeat under Cestius Gallus in Judaea in 66 AD. Long stationed at Melitene in Cappadocia guarding the eastern frontier.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xiii-gemina",
+    "name": "Legio XIII Gemina",
+    "number": "XIII",
+    "cognomen": "Gemina",
+    "symbol": "lion",
+    "founded": -57,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 46.0, "lng": 3.0, "fromYear": -57, "toYear": -30 },
+      { "location": "Poetovio (Ptuj)", "lat": 46.42, "lng": 15.87, "fromYear": -30, "toYear": 45 },
+      {
+        "location": "Vindobona (Vienna)",
+        "lat": 48.2082,
+        "lng": 16.3738,
+        "fromYear": 45,
+        "toYear": 101
+      },
+      {
+        "location": "Apulum (Alba Iulia)",
+        "lat": 46.0667,
+        "lng": 23.5667,
+        "fromYear": 106,
+        "toYear": 274
+      },
+      {
+        "location": "Ratiaria (Archar)",
+        "lat": 43.8167,
+        "lng": 22.9,
+        "fromYear": 274,
+        "toYear": 476
+      }
+    ],
+    "description": "The legion that crossed the Rubicon with Caesar in 49 BC, triggering the civil war. Later served as a key garrison in Dacia after Trajan's conquest.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xiv-gemina",
+    "name": "Legio XIV Gemina",
+    "number": "XIV",
+    "cognomen": "Gemina Martia Victrix",
+    "symbol": "capricorn",
+    "founded": -57,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Gallia (various)", "lat": 46.0, "lng": 3.0, "fromYear": -57, "toYear": -30 },
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": -30,
+        "toYear": 43
+      },
+      {
+        "location": "Mancetter / Manduessedum",
+        "lat": 52.5635,
+        "lng": -1.5267,
+        "fromYear": 43,
+        "toYear": 66
+      },
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 70,
+        "toYear": 92
+      },
+      {
+        "location": "Carnuntum (Petronell)",
+        "lat": 48.1147,
+        "lng": 16.86,
+        "fromYear": 92,
+        "toYear": 476
+      }
+    ],
+    "description": "One of Caesar's Gallic War legions. Won the cognomen 'Martia Victrix' for defeating Boudicca's revolt in Britain in 60-61 AD. Later stationed at Carnuntum on the Danube.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xv-apollinaris",
+    "name": "Legio XV Apollinaris",
+    "number": "XV",
+    "cognomen": "Apollinaris",
+    "symbol": "apollo",
+    "founded": -41,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Pannonia (various)", "lat": 47.0, "lng": 18.0, "fromYear": -30, "toYear": 62 },
+      {
+        "location": "Carnuntum (Petronell)",
+        "lat": 48.1147,
+        "lng": 16.86,
+        "fromYear": -30,
+        "toYear": 62
+      },
+      {
+        "location": "Armenia / Syria (campaigns)",
+        "lat": 39.0,
+        "lng": 42.0,
+        "fromYear": 62,
+        "toYear": 66
+      },
+      {
+        "location": "Judaea (Siege of Jerusalem)",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "fromYear": 66,
+        "toYear": 72
+      },
+      {
+        "location": "Carnuntum (Petronell)",
+        "lat": 48.1147,
+        "lng": 16.86,
+        "fromYear": 72,
+        "toYear": 114
+      },
+      { "location": "Satala", "lat": 40.05, "lng": 39.4667, "fromYear": 117, "toYear": 476 }
+    ],
+    "description": "Named after the god Apollo. Participated in Corbulo's Armenian campaigns and the Jewish War. Transferred to Satala in Cappadocia to guard the Armenian frontier.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xvi-flavia-firma",
+    "name": "Legio XVI Flavia Firma",
+    "number": "XVI",
+    "cognomen": "Flavia Firma",
+    "symbol": "lion",
+    "founded": 70,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      { "location": "Satala", "lat": 40.05, "lng": 39.4667, "fromYear": 70, "toYear": 117 },
+      {
+        "location": "Samosata (Samsat)",
+        "lat": 37.5667,
+        "lng": 38.5,
+        "fromYear": 117,
+        "toYear": 360
+      }
+    ],
+    "description": "Raised by Vespasian to replace the disbanded XVI Gallica. Stationed in the eastern frontier provinces of Cappadocia and Commagene.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xx-valeria-victrix",
+    "name": "Legio XX Valeria Victrix",
+    "number": "XX",
+    "cognomen": "Valeria Victrix",
+    "symbol": "boar",
+    "founded": -31,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Novaesium (Neuss)",
+        "lat": 51.2042,
+        "lng": 6.6879,
+        "fromYear": -30,
+        "toYear": 4
+      },
+      {
+        "location": "Ara Ubiorum (Cologne)",
+        "lat": 50.9375,
+        "lng": 6.9603,
+        "fromYear": 4,
+        "toYear": 43
+      },
+      {
+        "location": "Camulodunum (Colchester)",
+        "lat": 51.8917,
+        "lng": 0.8975,
+        "fromYear": 43,
+        "toYear": 49
+      },
+      {
+        "location": "Viroconium (Wroxeter)",
+        "lat": 52.6728,
+        "lng": -2.6469,
+        "fromYear": 49,
+        "toYear": 88
+      },
+      {
+        "location": "Deva Victrix (Chester)",
+        "lat": 53.1907,
+        "lng": -2.8909,
+        "fromYear": 88,
+        "toYear": 410
+      }
+    ],
+    "description": "Participated in the invasion of Britain under Claudius. Helped defeat Boudicca alongside XIV Gemina. Long based at Chester, one of the three permanent legionary fortresses in Britain.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xxi-rapax",
+    "name": "Legio XXI Rapax",
+    "number": "XXI",
+    "cognomen": "Rapax",
+    "symbol": "capricorn",
+    "founded": -31,
+    "dissolved": 92,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Castra Vetera (Xanten)",
+        "lat": 51.658,
+        "lng": 6.4547,
+        "fromYear": -30,
+        "toYear": 43
+      },
+      {
+        "location": "Vindonissa (Windisch)",
+        "lat": 47.4797,
+        "lng": 8.2217,
+        "fromYear": 43,
+        "toYear": 70
+      },
+      {
+        "location": "Castra Bonnensia (Bonn)",
+        "lat": 50.7339,
+        "lng": 7.0997,
+        "fromYear": 70,
+        "toYear": 83
+      },
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 83,
+        "toYear": 89
+      },
+      { "location": "Pannonia (various)", "lat": 47.0, "lng": 18.0, "fromYear": 89, "toYear": 92 }
+    ],
+    "description": "Its name means 'the rapacious'. Served on the Rhine frontier for decades. Destroyed fighting the Sarmatians on the Danube around 92 AD during Domitian's reign.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xxii-deiotariana",
+    "name": "Legio XXII Deiotariana",
+    "number": "XXII",
+    "cognomen": "Deiotariana",
+    "symbol": null,
+    "founded": -25,
+    "dissolved": 136,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Nicopolis (near Alexandria)",
+        "lat": 31.2289,
+        "lng": 29.9486,
+        "fromYear": -25,
+        "toYear": 119
+      },
+      {
+        "location": "Judaea (Bar Kokhba revolt)",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "fromYear": 132,
+        "toYear": 136
+      }
+    ],
+    "description": "Originally the royal army of King Deiotarus of Galatia, incorporated into the Roman army by Augustus. Garrisoned Egypt for over a century. Likely destroyed during the Bar Kokhba revolt.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xxii-primigenia",
+    "name": "Legio XXII Primigenia",
+    "number": "XXII",
+    "cognomen": "Primigenia",
+    "symbol": "hercules",
+    "founded": 39,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 39,
+        "toYear": 43
+      },
+      {
+        "location": "Castra Vetera (Xanten)",
+        "lat": 51.658,
+        "lng": 6.4547,
+        "fromYear": 43,
+        "toYear": 70
+      },
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 70,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Caligula, named after the goddess Fortuna Primigenia. Long paired with I Minervia on the Rhine frontier. One of the principal legions of Germania Superior at Mainz.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xxx-ulpia-victrix",
+    "name": "Legio XXX Ulpia Victrix",
+    "number": "XXX",
+    "cognomen": "Ulpia Victrix",
+    "symbol": "capricorn",
+    "founded": 105,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Brigetio (Szony)",
+        "lat": 47.7311,
+        "lng": 18.1711,
+        "fromYear": 105,
+        "toYear": 120
+      },
+      {
+        "location": "Castra Vetera (Xanten)",
+        "lat": 51.658,
+        "lng": 6.4547,
+        "fromYear": 120,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Trajan (Ulpius) for the Dacian Wars, among the last legions ever raised to the traditional model. Stationed at Xanten on the lower Rhine for most of its history.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "praetorian-guard",
+    "name": "Cohortes Praetoriae (Praetorian Guard)",
+    "number": "-",
+    "cognomen": "Praetoria",
+    "symbol": "scorpion",
+    "founded": -27,
+    "dissolved": 312,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Rome (various barracks)",
+        "lat": 41.9028,
+        "lng": 12.4964,
+        "fromYear": -27,
+        "toYear": 23
+      },
+      {
+        "location": "Castra Praetoria (Rome)",
+        "lat": 41.9097,
+        "lng": 12.5089,
+        "fromYear": 23,
+        "toYear": 312
+      }
+    ],
+    "description": "The elite imperial bodyguard, stationed in Rome. Wielded enormous political power, making and unmaking emperors. Disbanded by Constantine I after the Battle of the Milvian Bridge in 312 AD.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-i-parthica",
+    "name": "Legio I Parthica",
+    "number": "I",
+    "cognomen": "Parthica",
+    "symbol": "centaur",
+    "founded": 197,
+    "dissolved": null,
+    "status": "active",
+    "bases": [
+      {
+        "location": "Singara (Sinjar)",
+        "lat": 36.3167,
+        "lng": 41.8667,
+        "fromYear": 197,
+        "toYear": 360
+      },
+      {
+        "location": "Constantia (Viranshehir)",
+        "lat": 37.2333,
+        "lng": 39.7667,
+        "fromYear": 360,
+        "toYear": 476
+      }
+    ],
+    "description": "Raised by Septimius Severus for his Parthian campaigns. Stationed in Mesopotamia at Singara, guarding the eastern frontier against Persia.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xv-primigenia",
+    "name": "Legio XV Primigenia",
+    "number": "XV",
+    "cognomen": "Primigenia",
+    "symbol": null,
+    "founded": 39,
+    "dissolved": 70,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": 39,
+        "toYear": 43
+      },
+      {
+        "location": "Castra Vetera (Xanten)",
+        "lat": 51.658,
+        "lng": 6.4547,
+        "fromYear": 43,
+        "toYear": 70
+      }
+    ],
+    "description": "Raised by Caligula alongside XXII Primigenia. Destroyed during the Batavian revolt of 69-70 AD when Castra Vetera was besieged and captured by Civilis.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xvi-gallica",
+    "name": "Legio XVI Gallica",
+    "number": "XVI",
+    "cognomen": "Gallica",
+    "symbol": "lion",
+    "founded": -41,
+    "dissolved": 70,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Mogontiacum (Mainz)",
+        "lat": 49.9929,
+        "lng": 8.2473,
+        "fromYear": -30,
+        "toYear": 43
+      },
+      {
+        "location": "Novaesium (Neuss)",
+        "lat": 51.2042,
+        "lng": 6.6879,
+        "fromYear": 43,
+        "toYear": 70
+      }
+    ],
+    "description": "Raised by Octavian from Gallic recruits. Surrendered during the Batavian revolt and was disbanded in disgrace. Reconstituted by Vespasian as XVI Flavia Firma.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xvii",
+    "name": "Legio XVII",
+    "number": "XVII",
+    "cognomen": "",
+    "symbol": null,
+    "founded": -41,
+    "dissolved": 9,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Ara Ubiorum (Cologne)",
+        "lat": 50.9375,
+        "lng": 6.9603,
+        "fromYear": -30,
+        "toYear": 9
+      }
+    ],
+    "description": "One of the three legions destroyed in the Battle of the Teutoburg Forest in 9 AD under Varus. Its eagle was never recovered. The number XVII was never reused.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xviii",
+    "name": "Legio XVIII",
+    "number": "XVIII",
+    "cognomen": "",
+    "symbol": null,
+    "founded": -41,
+    "dissolved": 9,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Castra Vetera (Xanten)",
+        "lat": 51.658,
+        "lng": 6.4547,
+        "fromYear": -30,
+        "toYear": 9
+      }
+    ],
+    "description": "One of the three legions destroyed in the Battle of the Teutoburg Forest in 9 AD. Like XVII and XIX, its number was retired and never reused out of respect for the fallen.",
+    "source": "wikipedia"
+  },
+  {
+    "id": "legio-xix",
+    "name": "Legio XIX",
+    "number": "XIX",
+    "cognomen": "",
+    "symbol": null,
+    "founded": -41,
+    "dissolved": 9,
+    "status": "destroyed",
+    "bases": [
+      {
+        "location": "Germania (Danube/Rhine)",
+        "lat": 50.5,
+        "lng": 7.0,
+        "fromYear": -30,
+        "toYear": 9
+      }
+    ],
+    "description": "One of the three legions annihilated in the Teutoburg Forest disaster of 9 AD. Germanicus later recovered its eagle standard in a punitive campaign in 15 AD.",
+    "source": "wikipedia"
+  }
+]
