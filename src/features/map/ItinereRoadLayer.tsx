@@ -4,22 +4,10 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback } from 'react'
+import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
 
 interface ItinereRoadLayerProps {
   data: FeatureCollection
-}
-
-function getRoadStyle(feature: Feature | undefined): PathOptions {
-  const props = feature?.properties || {}
-  const isMain = props.type === 'main'
-  const certainty = props.certainty as string
-
-  return {
-    color: '#b87333',
-    weight: isMain ? 2.5 : 1.5,
-    opacity: isMain ? 0.8 : 0.5,
-    ...(certainty === 'hypothetical' || certainty === 'conjectured' ? { dashArray: '4 3' } : {}),
-  }
 }
 
 export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
@@ -27,19 +15,41 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
 
   const filtered = useMemo(() => {
     const features = data.features.filter((f) => {
-      const { startYear, endYear } = f.properties || {}
-      if (startYear !== 0 && startYear > currentYear) return false
-      if (endYear !== 0 && endYear < currentYear) return false
-      return true
+      return shouldShowRoad(f.properties || {}, currentYear)
     })
     return { ...data, features }
   }, [data, currentYear])
+
+  const getStyle = useCallback(
+    (feature: Feature | undefined): PathOptions => {
+      const props = feature?.properties || {}
+      const certainty = props.certainty as string
+      const isHypothetical = certainty === 'hypothetical' || certainty === 'conjectured'
+      const opacity = getRoadOpacity(props, currentYear, 0.5)
+      const dashArray = getDeclineDash(props.declineYear, currentYear, isHypothetical)
+
+      return {
+        color: '#b87333',
+        weight: 1.5,
+        opacity,
+        dashArray,
+      }
+    },
+    [currentYear],
+  )
 
   const onEachRoad = useCallback((feature: Feature, layer: L.Layer) => {
     const props = feature.properties || {}
     const parts: string[] = []
     if (props.name) parts.push(props.name)
-    if (props.builder) parts.push(`Built by: ${props.builder}`)
+    if (
+      props.builder &&
+      props.builder !== 'Conjectured' &&
+      props.builder !== 'Hypothetical' &&
+      props.builder !== 'Certain'
+    ) {
+      parts.push(`Built by: ${props.builder}`)
+    }
     if (parts.length > 0) {
       ;(layer as L.Path).bindTooltip(parts.join('<br>'), { sticky: true })
     }
@@ -49,7 +59,7 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
     <GeoJSON
       key={`itinere-roads-${currentYear}`}
       data={filtered}
-      style={getRoadStyle}
+      style={getStyle}
       onEachFeature={onEachRoad}
     />
   )
