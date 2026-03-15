@@ -1,5 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react'
 import * as d3 from 'd3'
+import { useShallow } from 'zustand/shallow'
 import { entities, connections } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
@@ -13,13 +14,15 @@ export function GraphView() {
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null)
   const simulationRef = useRef<d3.Simulation<GraphNode, GraphLink> | null>(null)
 
-  const filters = useFilterStore((s) => ({
-    entityTypes: s.entityTypes,
-    connectionTypes: s.connectionTypes,
-    regions: s.regions,
-    yearRange: s.yearRange,
-    searchQuery: s.searchQuery,
-  }))
+  const filters = useFilterStore(
+    useShallow((s) => ({
+      entityTypes: s.entityTypes,
+      connectionTypes: s.connectionTypes,
+      regions: s.regions,
+      yearRange: s.yearRange,
+      searchQuery: s.searchQuery,
+    })),
+  )
 
   const selectedId = useSelectionStore((s) => s.selectedId)
   const select = useSelectionStore((s) => s.select)

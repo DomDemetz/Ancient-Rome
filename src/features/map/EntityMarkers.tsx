@@ -1,5 +1,6 @@
 import L from 'leaflet'
 import { Marker, Popup } from 'react-leaflet'
+import { useShallow } from 'zustand/shallow'
 import { entities } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
@@ -24,22 +25,25 @@ function createDotIcon(color: string): L.DivIcon {
   })
 }
 
-function isLocationWithCoords(
-  entity: Entity,
-): entity is Extract<Entity, { entityType: 'location' }> & {
+function isLocationWithCoords(entity: Entity): entity is Extract<
+  Entity,
+  { entityType: 'location' }
+> & {
   coordinates: { lat: number; lng: number }
 } {
   return entity.entityType === 'location' && entity.coordinates !== undefined
 }
 
 export function EntityMarkers() {
-  const filters = useFilterStore((s) => ({
-    entityTypes: s.entityTypes,
-    connectionTypes: s.connectionTypes,
-    regions: s.regions,
-    yearRange: s.yearRange,
-    searchQuery: s.searchQuery,
-  }))
+  const filters = useFilterStore(
+    useShallow((s) => ({
+      entityTypes: s.entityTypes,
+      connectionTypes: s.connectionTypes,
+      regions: s.regions,
+      yearRange: s.yearRange,
+      searchQuery: s.searchQuery,
+    })),
+  )
 
   const select = useSelectionStore((s) => s.select)
 

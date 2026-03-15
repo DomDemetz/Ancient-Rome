@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState, useCallback } from 'react'
 import * as d3 from 'd3'
+import { useShallow } from 'zustand/shallow'
 import { entities } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
@@ -22,12 +23,14 @@ export function TimelineView() {
   const [dimensions, setDimensions] = useState({ width: 900, height: 500 })
   const [tooltip, setTooltip] = useState<{ entity: Entity; x: number; y: number } | null>(null)
 
-  const filters = useFilterStore((s) => ({
-    entityTypes: s.entityTypes,
-    connectionTypes: s.connectionTypes,
-    regions: s.regions,
-    yearRange: s.yearRange,
-  }))
+  const filters = useFilterStore(
+    useShallow((s) => ({
+      entityTypes: s.entityTypes,
+      connectionTypes: s.connectionTypes,
+      regions: s.regions,
+      yearRange: s.yearRange,
+    })),
+  )
 
   const select = useSelectionStore((s) => s.select)
 
