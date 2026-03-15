@@ -161,6 +161,7 @@ export function MapView() {
           zoom={DEFAULT_ZOOM}
           style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
           zoomControl={true}
+          preferCanvas={true}
           ref={mapRef}
         >
           <TileLayer url={TERRAIN_TILE_URL} attribution={attribution} />
