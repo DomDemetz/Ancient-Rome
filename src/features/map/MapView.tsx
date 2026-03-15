@@ -1,7 +1,6 @@
 import 'leaflet/dist/leaflet.css'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
-import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
@@ -166,8 +165,6 @@ export function MapView() {
   if (showMines) attribution += ' | Mining data: OxREP'
   if (showTradeNetwork) attribution += ' | ORBIS v2 &copy; Stanford University'
 
-  const canvasRenderer = useMemo(() => L.canvas({ tolerance: 5 }), [])
-
   return (
     <div className="relative w-full h-full flex flex-col" style={{ background: '#0f0a1a' }}>
       <div className="flex-1 relative">
@@ -176,7 +173,6 @@ export function MapView() {
           zoom={DEFAULT_ZOOM}
           style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
           zoomControl={true}
-          renderer={canvasRenderer}
           ref={mapRef}
         >
           <TileLayer url={TERRAIN_TILE_URL} attribution={attribution} />
