@@ -87,13 +87,12 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
       {visible.map((b) => {
         const color = BUILDING_COLORS[b.buildingType] || '#95a5a6'
 
-        const tooltipLines = [
-          b.name,
-          b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1),
-          `Built: ${formatYear(b.constructionYear)}`,
-        ]
-        if (b.builder) tooltipLines.push(`Builder: ${b.builder}`)
-        if (b.description) tooltipLines.push(b.description)
+        let tooltipHtml = `<div class="map-tooltip-title">${b.name}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1)}</div>`
+        const details: string[] = [`Built: ${formatYear(b.constructionYear)}`]
+        if (b.builder) details.push(b.builder)
+        if (b.description) details.push(b.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -109,7 +108,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

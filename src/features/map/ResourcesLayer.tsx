@@ -71,12 +71,11 @@ export function ResourcesLayer({ data }: ResourcesLayerProps) {
       {visible.map((m) => {
         const color = RESOURCE_COLORS[m.resourceType] || '#95a5a6'
 
-        const tooltipLines = [
-          m.name,
-          `${m.siteType === 'mine' ? 'Mine' : 'Quarry'}: ${m.resourceType}`,
-          `${formatYear(m.startYear)} \u2013 ${formatYear(m.endYear)}`,
-        ]
-        if (m.description) tooltipLines.push(m.description)
+        let tooltipHtml = `<div class="map-tooltip-title">${m.name}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${m.siteType === 'mine' ? 'Mine' : 'Quarry'}: ${m.resourceType}</div>`
+        const details: string[] = [`${formatYear(m.startYear)} \u2013 ${formatYear(m.endYear)}`]
+        if (m.description) details.push(m.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -92,7 +91,7 @@ export function ResourcesLayer({ data }: ResourcesLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

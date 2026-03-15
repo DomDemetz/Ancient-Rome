@@ -73,13 +73,15 @@ export function ReligionLayer({ data }: ReligionLayerProps) {
         const color = RELIGION_COLORS[s.religion] || '#95a5a6'
         const radius = SITE_TYPE_SHAPES[s.siteType] || baseRadius
 
-        const tooltipLines = [
-          s.name,
+        let tooltipHtml = `<div class="map-tooltip-title">${s.name}</div>`
+        const sub: string[] = [
           `${s.religion.charAt(0).toUpperCase() + s.religion.slice(1)} ${s.siteType}`,
         ]
-        if (s.deity) tooltipLines.push(`Deity: ${s.deity}`)
-        tooltipLines.push(`${formatYear(s.startYear)} \u2013 ${formatYear(s.endYear)}`)
-        if (s.description) tooltipLines.push(s.description)
+        if (s.deity) sub.push(s.deity)
+        tooltipHtml += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
+        const details: string[] = [`${formatYear(s.startYear)} \u2013 ${formatYear(s.endYear)}`]
+        if (s.description) details.push(s.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -95,7 +97,7 @@ export function ReligionLayer({ data }: ReligionLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

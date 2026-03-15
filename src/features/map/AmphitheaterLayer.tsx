@@ -12,13 +12,15 @@ function formatYear(year: number): string {
   return `${year} AD`
 }
 
-function buildTooltip(a: Amphitheater): string {
-  const lines: string[] = [a.name]
-  if (a.city) lines.push(a.city)
-  if (a.capacity) lines.push(`Capacity: ${a.capacity.toLocaleString()}`)
-  if (a.dimensions) lines.push(`Dimensions: ${a.dimensions}`)
-  if (a.constructionYear != null) lines.push(`Built: ${formatYear(a.constructionYear)}`)
-  return lines.join('\n')
+function buildTooltipHtml(a: Amphitheater): string {
+  let html = `<div class="map-tooltip-title">${a.name}</div>`
+  if (a.city) html += `<div class="map-tooltip-sub">${a.city}</div>`
+  const details: string[] = []
+  if (a.capacity) details.push(`Capacity: ${a.capacity.toLocaleString()}`)
+  if (a.dimensions) details.push(a.dimensions)
+  if (a.constructionYear != null) details.push(`Built: ${formatYear(a.constructionYear)}`)
+  if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+  return html
 }
 
 export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
@@ -84,7 +86,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
           bubblingMouseEvents={false}
         >
           <Tooltip direction="top" offset={[0, -4]}>
-            <span style={{ whiteSpace: 'pre-line' }}>{buildTooltip(a)}</span>
+            <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(a) }} />
           </Tooltip>
         </CircleMarker>
       ))}

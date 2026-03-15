@@ -116,14 +116,13 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
 
       {/* Render point-based aqueduct markers on top */}
       {visible.map((a) => {
-        const tooltipLines = [
-          a.name,
-          `City: ${a.cityServed}`,
-          `Built: ${formatYear(a.constructionYear)}`,
-        ]
-        if (a.length) tooltipLines.push(`Length: ${a.length} km`)
-        if (a.builder) tooltipLines.push(`Builder: ${a.builder}`)
-        if (a.description) tooltipLines.push(a.description)
+        let tooltipHtml = `<div class="map-tooltip-title">${a.name}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${a.cityServed}</div>`
+        const details: string[] = [`Built: ${formatYear(a.constructionYear)}`]
+        if (a.length) details.push(`${a.length} km`)
+        if (a.builder) details.push(a.builder)
+        if (a.description) details.push(a.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -139,7 +138,7 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

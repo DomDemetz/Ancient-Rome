@@ -84,13 +84,11 @@ export function LegionDeploymentLayer({ data }: LegionDeploymentLayerProps) {
       {activeBases.map(({ legion, base }) => {
         const color = SYMBOL_COLORS[legion.symbol ?? ''] || '#c0392b'
 
-        const tooltipLines = [
-          legion.name,
-          `Base: ${base.location}`,
-          `${formatYear(base.fromYear)} \u2013 ${formatYear(base.toYear)}`,
-          `Status: ${legion.status}`,
-          legion.description,
-        ]
+        let tooltipHtml = `<div class="map-tooltip-title">${legion.name}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${base.location} · ${legion.status}</div>`
+        const details: string[] = [`${formatYear(base.fromYear)} \u2013 ${formatYear(base.toYear)}`]
+        if (legion.description) details.push(legion.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -106,7 +104,7 @@ export function LegionDeploymentLayer({ data }: LegionDeploymentLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

@@ -57,12 +57,11 @@ export function PressesLayer({ data }: PressesLayerProps) {
       {visible.map((p) => {
         const color = PRESS_COLORS[p.pressType] || '#8b6914'
 
-        const tooltipLines = [
-          p.name,
-          `${p.pressType === 'oil' ? 'Olive oil' : 'Wine'} press`,
-          `${formatYear(p.startYear)} \u2013 ${formatYear(p.endYear)}`,
-        ]
-        if (p.description) tooltipLines.push(p.description)
+        let tooltipHtml = `<div class="map-tooltip-title">${p.name}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${p.pressType === 'oil' ? 'Olive oil' : 'Wine'} press</div>`
+        const details: string[] = [`${formatYear(p.startYear)} \u2013 ${formatYear(p.endYear)}`]
+        if (p.description) details.push(p.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -78,7 +77,7 @@ export function PressesLayer({ data }: PressesLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

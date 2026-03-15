@@ -81,10 +81,14 @@ export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
         const isRecent = currentYear - w.startYear < 100
         const opacity = isRecent ? 0.8 : 0.5
 
-        const tooltipLines = [w.name, `${formatYear(w.startYear)} \u2013 ${formatYear(w.endYear)}`]
-        if (w.cargoType) tooltipLines.push(`Cargo: ${w.cargoType}`)
-        if (w.depth) tooltipLines.push(`Depth: ${w.depth}m`)
-        if (w.description) tooltipLines.push(w.description)
+        let tooltipHtml = `<div class="map-tooltip-title">${w.name}</div>`
+        const sub: string[] = []
+        if (w.cargoType) sub.push(w.cargoType)
+        if (sub.length) tooltipHtml += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
+        const details: string[] = [`${formatYear(w.startYear)} \u2013 ${formatYear(w.endYear)}`]
+        if (w.depth) details.push(`Depth: ${w.depth}m`)
+        if (w.description) details.push(w.description)
+        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -100,7 +104,7 @@ export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

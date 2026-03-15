@@ -20,12 +20,14 @@ function formatYear(year: number): string {
   return `${year} AD`
 }
 
-function buildTooltip(b: Battle): string {
-  const lines: string[] = [`Battle of ${b.name}`, formatYear(b.year), b.combatants]
-  if (b.commander) lines.push(`Commander: ${b.commander}`)
-  lines.push(`Outcome: ${b.outcome}`)
-  if (b.description) lines.push(b.description)
-  return lines.join('\n')
+function buildTooltipHtml(b: Battle): string {
+  let html = `<div class="map-tooltip-title">Battle of ${b.name}</div>`
+  html += `<div class="map-tooltip-sub">${formatYear(b.year)} · ${b.combatants}</div>`
+  const details: string[] = []
+  if (b.commander) details.push(`Commander: ${b.commander}`)
+  details.push(`Outcome: ${b.outcome}`)
+  if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+  return html
 }
 
 const flashIcon = L.divIcon({
@@ -99,7 +101,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{buildTooltip(b)}</span>
+              <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(b) }} />
             </Tooltip>
           </CircleMarker>
         )

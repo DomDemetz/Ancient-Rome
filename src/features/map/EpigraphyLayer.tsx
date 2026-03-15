@@ -79,9 +79,13 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
           bubblingMouseEvents={false}
         >
           <Tooltip direction="top" offset={[0, -4]}>
-            <span style={{ whiteSpace: 'pre-line' }}>
-              {`${c.province}\n${c.count.toLocaleString()} inscriptions\n${formatYear(c.startYear)} \u2013 ${formatYear(c.endYear)}`}
-            </span>
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  `<div class="map-tooltip-title">${c.province}</div>` +
+                  `<div class="map-tooltip-detail">${c.count.toLocaleString()} inscriptions · ${formatYear(c.startYear)} \u2013 ${formatYear(c.endYear)}</div>`,
+              }}
+            />
           </Tooltip>
         </CircleMarker>
       ))}

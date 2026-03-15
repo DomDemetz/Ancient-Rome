@@ -69,37 +69,30 @@ function populationRadius(pop: number, zoom: number): number {
   return base * 3
 }
 
-function buildTooltip(s: DareSettlement, population?: number | null): string {
-  const lines: string[] = [s.name]
+function buildTooltipHtml(s: DareSettlement, population?: number | null): string {
+  let html = `<div class="map-tooltip-title">${s.name}</div>`
 
-  if (s.modern && s.modern !== s.name) {
-    lines.push(`(${s.modern})`)
-  }
-  if (s.greek) {
-    lines.push(`Greek: ${s.greek}`)
-  }
+  const sub: string[] = []
+  if (s.modern && s.modern !== s.name) sub.push(s.modern)
+  if (s.greek) sub.push(s.greek)
+  if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
 
   const typeLabel = DARE_TYPE_LABELS[s.type]
   const category = DARE_TYPE_TO_CATEGORY[s.type]
   const categoryLabel = category ? CATEGORY_STYLES[category].label : null
+  const typeParts = [typeLabel, categoryLabel].filter(Boolean).join(' · ')
 
-  if (typeLabel && categoryLabel) {
-    lines.push(`${typeLabel} \u00b7 ${categoryLabel}`)
-  } else if (typeLabel) {
-    lines.push(typeLabel)
-  }
-
-  if (population != null && population > 0) {
-    lines.push(`Pop: ~${formatPopulation(population)}`)
-  }
-
+  const details: string[] = []
+  if (typeParts) details.push(typeParts)
+  if (population != null && population > 0) details.push(`Pop: ~${formatPopulation(population)}`)
   if (s.startYear !== 0 || s.endYear !== 0) {
     const start = s.startYear !== 0 ? formatYear(s.startYear) : '?'
     const end = s.endYear !== 0 ? formatYear(s.endYear) : '?'
-    lines.push(`${start} \u2013 ${end}`)
+    details.push(`${start} – ${end}`)
   }
+  if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
-  return lines.join('\n')
+  return html
 }
 
 export function SettlementLayer({
@@ -203,7 +196,7 @@ export function SettlementLayer({
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{buildTooltip(s, population)}</span>
+              <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(s, population) }} />
             </Tooltip>
           </CircleMarker>
         )

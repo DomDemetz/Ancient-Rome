@@ -124,14 +124,18 @@ export function ViciLayer({ data }: ViciLayerProps) {
       {visible.map((s) => {
         const color = TYPE_COLORS[s.siteType] || TYPE_COLORS.other
 
-        const tooltipLines = [s.name || 'Unknown site']
-        if (s.siteType !== 'other') tooltipLines.push(s.siteType)
+        let tooltipHtml = `<div class="map-tooltip-title">${s.name || 'Unknown site'}</div>`
+        if (s.siteType !== 'other')
+          tooltipHtml += `<div class="map-tooltip-sub">${s.siteType}</div>`
+        const details: string[] = []
         if (s.startYear || s.endYear) {
           const start = s.startYear ? formatYear(s.startYear) : '?'
           const end = s.endYear ? formatYear(s.endYear) : '?'
-          tooltipLines.push(`${start} \u2013 ${end}`)
+          details.push(`${start} \u2013 ${end}`)
         }
-        if (s.description) tooltipLines.push(s.description.substring(0, 100))
+        if (s.description) details.push(s.description.substring(0, 100))
+        if (details.length)
+          tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
           <CircleMarker
@@ -146,7 +150,7 @@ export function ViciLayer({ data }: ViciLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>{tooltipLines.join('\n')}</span>
+              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
             </Tooltip>
           </CircleMarker>
         )

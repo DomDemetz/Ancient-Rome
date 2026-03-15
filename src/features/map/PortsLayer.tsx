@@ -108,9 +108,14 @@ export function PortsLayer({ data }: PortsLayerProps) {
             bubblingMouseEvents={false}
           >
             <Tooltip direction="top" offset={[0, -4]}>
-              <span style={{ whiteSpace: 'pre-line' }}>
-                {[p.name, p.portType.replace('_', ' '), p.description].filter(Boolean).join('\n')}
-              </span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html:
+                    `<div class="map-tooltip-title">${p.name}</div>` +
+                    `<div class="map-tooltip-sub">${p.portType.replace('_', ' ')}</div>` +
+                    (p.description ? `<div class="map-tooltip-detail">${p.description}</div>` : ''),
+                }}
+              />
             </Tooltip>
           </CircleMarker>
         )
