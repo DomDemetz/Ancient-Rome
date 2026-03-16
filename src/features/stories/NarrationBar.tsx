@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
 import { Button } from '@/ui/button'
+import { useUIStore } from '@/stores/useUIStore'
 import type { Story, StoryStep } from '@/types'
 
 interface NarrationBarProps {
@@ -22,9 +23,12 @@ export function NarrationBar({
   onExit,
 }: NarrationBarProps) {
   const totalSteps = story.steps.length
+  const isMobile = useUIStore((s) => s.isMobile)
+
+  const touchTarget = isMobile ? 'min-h-[44px] min-w-[44px]' : ''
 
   return (
-    <div className="shrink-0 border-t border-border bg-bg-card px-4 py-3">
+    <div className="shrink-0 border-t bg-[#0f0a1a]/80 backdrop-blur-md border-white/10 px-4 py-3">
       <div className="max-w-4xl mx-auto flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
         {/* Title + counter */}
         <div className="shrink-0">
@@ -48,16 +52,25 @@ export function NarrationBar({
             onClick={onPrev}
             disabled={stepIndex === 0}
             aria-label="Previous step"
+            className={`active:scale-95 transition-transform ${touchTarget}`}
           >
             <ChevronLeft className="size-4" />
           </Button>
 
           {isLastStep ? (
-            <Button size="sm" onClick={onExit}>
+            <Button
+              size="sm"
+              onClick={onExit}
+              className={`active:scale-95 transition-transform ${touchTarget}`}
+            >
               Finish
             </Button>
           ) : (
-            <Button size="sm" onClick={onNext}>
+            <Button
+              size="sm"
+              onClick={onNext}
+              className={`active:scale-95 transition-transform ${touchTarget}`}
+            >
               Next <ChevronRight className="size-3.5 ml-1" />
             </Button>
           )}
@@ -67,7 +80,7 @@ export function NarrationBar({
             size="icon-sm"
             onClick={onExit}
             aria-label="Exit story"
-            className="text-text-secondary hover:text-text-primary"
+            className={`text-text-secondary hover:text-text-primary ${touchTarget}`}
           >
             <X className="size-4" />
           </Button>

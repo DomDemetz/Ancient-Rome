@@ -1,4 +1,4 @@
-import { PanelLeft, BookOpen } from 'lucide-react'
+import { PanelLeft, BookOpen, Shield } from 'lucide-react'
 import { useState } from 'react'
 import { LensSwitcher } from './LensSwitcher'
 import { SearchBar } from '@/features/search/SearchBar'
@@ -15,6 +15,7 @@ interface TopBarProps {
 
 export function TopBar({ storyMode }: TopBarProps) {
   const toggleSidebar = useUIStore((s) => s.toggleSidebar)
+  const isMobile = useUIStore((s) => s.isMobile)
   const [dialogOpen, setDialogOpen] = useState(false)
 
   function handleStart(story: Story) {
@@ -24,7 +25,9 @@ export function TopBar({ storyMode }: TopBarProps) {
 
   return (
     <header
-      className="flex h-12 items-center gap-3 border-b border-border px-4 shrink-0 relative"
+      className={`flex items-center gap-3 border-b border-white/10 px-4 shrink-0 relative bg-[#0f0a1a]/80 backdrop-blur-md ${
+        isMobile ? 'h-14' : 'h-16'
+      }`}
       style={{ zIndex: 1000 }}
     >
       <Button
@@ -36,7 +39,18 @@ export function TopBar({ storyMode }: TopBarProps) {
       >
         <PanelLeft />
       </Button>
-      <span className="text-lg font-bold text-accent-gold">Ancient Rome</span>
+
+      <div className="flex items-center gap-2">
+        <div className="bg-accent-gold p-1.5 rounded-lg">
+          <Shield className="size-4 text-black" />
+        </div>
+        {!isMobile && (
+          <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-amber-600">
+            Ancient Rome
+          </span>
+        )}
+      </div>
+
       <SearchBar />
       <div className="flex-1" />
 

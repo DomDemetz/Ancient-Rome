@@ -1,4 +1,29 @@
+import {
+  User,
+  Building2,
+  CalendarDays,
+  MapPin,
+  FileText,
+  Shield,
+  Crown,
+  Church,
+  Package,
+  Wrench,
+} from 'lucide-react'
 import type { Entity, ConnectionType } from '@/types'
+
+export const entityIcons: Record<Entity['entityType'], typeof User> = {
+  person: User,
+  organization: Building2,
+  event: CalendarDays,
+  location: MapPin,
+  document: FileText,
+  legion: Shield,
+  dynasty: Crown,
+  religion: Church,
+  'trade-good': Package,
+  infrastructure: Wrench,
+}
 
 export const entityColors: Record<Entity['entityType'], string> = {
   person: 'var(--color-entity-person)',

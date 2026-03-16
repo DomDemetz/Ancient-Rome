@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { ChevronDown, ChevronRight } from 'lucide-react'
 import { ALL_CATEGORIES, CATEGORY_STYLES } from './settlementStyles'
 import type { SettlementCategory } from './settlementStyles'
+import { useUIStore } from '@/stores/useUIStore'
 
 interface SettlementLegendProps {
   hiddenCategories: Set<string>
@@ -8,35 +10,21 @@ interface SettlementLegendProps {
 }
 
 export function SettlementLegend({ hiddenCategories, onToggleCategory }: SettlementLegendProps) {
-  const [collapsed, setCollapsed] = useState(false)
+  const isMobile = useUIStore((s) => s.isMobile)
+  const [collapsed, setCollapsed] = useState(isMobile)
 
   return (
-    <div
-      className="absolute bottom-6 left-3 z-[1000] rounded-lg shadow-lg"
-      style={{
-        background: 'rgba(15, 10, 26, 0.88)',
-        border: '1px solid rgba(255,255,255,0.12)',
-        backdropFilter: 'blur(8px)',
-        fontSize: '12px',
-        color: '#ddd',
-        maxWidth: '200px',
-      }}
-    >
+    <div className="absolute bottom-6 left-3 z-[1000] bg-[#0f0a1a]/80 backdrop-blur-md border border-white/10 rounded-xl shadow-lg text-xs text-[#ddd] max-w-[200px]">
       <button
         onClick={() => setCollapsed((v) => !v)}
-        className="w-full flex items-center justify-between px-3 py-1.5 cursor-pointer"
-        style={{
-          background: 'none',
-          border: 'none',
-          color: '#ccc',
-          fontSize: '11px',
-          fontWeight: 600,
-          letterSpacing: '0.04em',
-          textTransform: 'uppercase',
-        }}
+        className="w-full flex items-center justify-between px-3 py-1.5 cursor-pointer bg-transparent border-none text-[#ccc] text-[11px] font-semibold tracking-wide uppercase"
       >
         <span>Settlements</span>
-        <span style={{ fontSize: '10px' }}>{collapsed ? '▶' : '▼'}</span>
+        {collapsed ? (
+          <ChevronRight className="w-3.5 h-3.5" />
+        ) : (
+          <ChevronDown className="w-3.5 h-3.5" />
+        )}
       </button>
 
       {!collapsed && (
@@ -48,25 +36,14 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
               <button
                 key={cat}
                 onClick={() => onToggleCategory(cat)}
-                className="flex items-center gap-2 cursor-pointer"
-                style={{
-                  background: 'none',
-                  border: 'none',
-                  padding: '1px 0',
-                  color: hidden ? '#666' : '#ddd',
-                  fontSize: '12px',
-                  textAlign: 'left',
-                  opacity: hidden ? 0.5 : 1,
-                }}
+                className={`flex items-center gap-2 cursor-pointer bg-transparent border-none py-px text-left text-xs ${
+                  hidden ? 'text-[#666] opacity-50' : 'text-[#ddd]'
+                }`}
               >
                 <span
+                  className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
                   style={{
-                    display: 'inline-block',
-                    width: 10,
-                    height: 10,
-                    borderRadius: '50%',
                     background: style.color,
-                    flexShrink: 0,
                     opacity: hidden ? 0.3 : 1,
                   }}
                 />

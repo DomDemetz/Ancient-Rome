@@ -15,12 +15,14 @@ import { StatsView } from '@/features/stats/StatsView'
 import { useStoryMode } from '@/features/stories/useStoryMode'
 import { NarrationBar } from '@/features/stories/NarrationBar'
 import { stories } from '@/data'
+import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
 
 export function InvestigationBoard() {
   useURLSync()
   useMobileDetect()
   const lens = useUIStore((s) => s.lens)
   const sidebarOpen = useUIStore((s) => s.sidebarOpen)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const storyMode = useStoryMode()
   const [searchParams] = useSearchParams()
@@ -40,12 +42,33 @@ export function InvestigationBoard() {
 
       <div className="flex flex-1 overflow-hidden">
         {/* Left sidebar — shown only for graph view (filters + path finder) */}
-        {sidebarOpen && lens === 'graph' && (
+        {sidebarOpen && lens === 'graph' && !isMobile && (
           <aside className="w-[280px] shrink-0 border-r border-border bg-bg-secondary overflow-y-auto">
             <FilterPanel />
             <div className="border-t border-border" />
             <PathFinder />
           </aside>
+        )}
+
+        {/* Mobile drawer for filters */}
+        {isMobile && lens === 'graph' && (
+          <Drawer
+            open={sidebarOpen}
+            onOpenChange={(open) => {
+              useUIStore.getState().toggleSidebar(open)
+            }}
+          >
+            <DrawerContent className="bg-bg-card border-border max-h-[80vh]">
+              <DrawerHeader className="sr-only">
+                <DrawerTitle>Filters</DrawerTitle>
+              </DrawerHeader>
+              <div className="overflow-y-auto">
+                <FilterPanel />
+                <div className="border-t border-border" />
+                <PathFinder />
+              </div>
+            </DrawerContent>
+          </Drawer>
         )}
 
         {/* Main content area */}

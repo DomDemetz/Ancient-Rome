@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
 import Fuse from 'fuse.js'
-import { Search } from 'lucide-react'
+import { Search, X } from 'lucide-react'
 import { entities } from '@/data'
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFilterStore } from '@/stores/useFilterStore'
@@ -57,11 +57,13 @@ const CATEGORY_COLORS: Record<string, string> = {
 export function SearchBar() {
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
+  const [mobileOpen, setMobileOpen] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const select = useSelectionStore((s) => s.select)
   const setFilter = useFilterStore((s) => s.setFilter)
   const flyTo = useMapNavStore((s) => s.flyTo)
   const switchLens = useUIStore((s) => s.switchLens)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const store = useMapLayerStore()
 
@@ -293,6 +295,7 @@ export function SearchBar() {
   function handleSelect(item: SearchItem) {
     setQuery(item.name)
     setOpen(false)
+    setMobileOpen(false)
 
     // If it's a graph entity, select it
     if (item.entityId) {
@@ -303,10 +306,10 @@ export function SearchBar() {
     // Ensure the layer is visible
     const layerInfo = LAYER_MAP[item.category]
     if (layerInfo) {
-      const state = useMapLayerStore.getState()
-      const isVisible = (state as Record<string, unknown>)[layerInfo.show]
+      const state = useMapLayerStore.getState() as unknown as Record<string, unknown>
+      const isVisible = state[layerInfo.show]
       if (!isVisible) {
-        const toggle = (state as Record<string, () => void>)[layerInfo.toggle]
+        const toggle = state[layerInfo.toggle] as () => void
         toggle()
       }
     }
@@ -318,48 +321,107 @@ export function SearchBar() {
     }
   }
 
+  const resultsDropdown = open && results.length > 0 && (
+    <ul
+      className="absolute top-full left-0 right-0 mt-1 rounded-xl border border-border bg-bg-card shadow-lg overflow-hidden"
+      style={{ zIndex: 1001 }}
+    >
+      {results.map((item) => (
+        <li key={item.id}>
+          <button
+            className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs hover:bg-bg-secondary transition-colors"
+            onMouseDown={(e) => {
+              e.preventDefault()
+              handleSelect(item)
+            }}
+          >
+            <span
+              className="size-2 rounded-full shrink-0"
+              style={{ backgroundColor: item.color }}
+            />
+            <span className="text-text-secondary shrink-0">{item.category}</span>
+            <span className="text-text-primary truncate">{item.name}</span>
+          </button>
+        </li>
+      ))}
+    </ul>
+  )
+
+  // Mobile: icon trigger + overlay
+  if (isMobile) {
+    return (
+      <>
+        <button
+          onClick={() => {
+            setMobileOpen(true)
+            setOpen(true)
+          }}
+          className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full bg-bg-card border border-border text-text-secondary"
+          aria-label="Search"
+        >
+          <Search className="size-4" />
+        </button>
+        {mobileOpen && (
+          <div className="fixed inset-x-0 top-0 z-[1100] bg-bg-primary p-3 border-b border-border shadow-lg">
+            <div ref={containerRef} className="relative">
+              <div className="flex items-center gap-2">
+                <div className="relative flex-1">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-text-secondary pointer-events-none" />
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    value={query}
+                    onChange={(e) => {
+                      setQuery(e.target.value)
+                      setOpen(true)
+                    }}
+                    onFocus={() => setOpen(true)}
+                    autoFocus
+                    className="w-full rounded-full h-10 pl-9 pr-3 text-sm bg-bg-card border border-border text-text-primary placeholder:text-text-secondary focus:outline-none focus:border-accent-gold focus:ring-2 focus:ring-accent-gold/20"
+                  />
+                </div>
+                <button
+                  onClick={() => {
+                    setMobileOpen(false)
+                    setOpen(false)
+                    setQuery('')
+                  }}
+                  className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full text-text-secondary hover:text-text-primary transition-colors"
+                  aria-label="Close search"
+                >
+                  <X className="size-5" />
+                </button>
+              </div>
+              {resultsDropdown}
+            </div>
+          </div>
+        )}
+      </>
+    )
+  }
+
+  // Desktop
   return (
-    <div ref={containerRef} className="relative w-56">
-      <div className="relative">
-        <Search className="absolute left-2 top-1/2 -translate-y-1/2 size-3.5 text-text-secondary pointer-events-none" />
+    <div ref={containerRef} className="relative w-64">
+      <div className="relative rounded-full bg-bg-card border border-border focus-within:border-accent-gold focus-within:ring-2 focus-within:ring-accent-gold/20 transition-all">
+        <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 size-3.5 text-text-secondary pointer-events-none" />
         <Input
           type="text"
-          placeholder="Search…"
+          placeholder="Search..."
           value={query}
           onChange={(e) => {
             setQuery(e.target.value)
             setOpen(true)
           }}
           onFocus={() => setOpen(true)}
-          className="pl-7 h-7 text-xs bg-bg-card border-border text-text-primary placeholder:text-text-secondary"
+          className="pl-8 pr-12 h-8 text-xs bg-transparent border-none text-text-primary placeholder:text-text-secondary focus-visible:ring-0 focus-visible:ring-offset-0"
         />
+        <span className="absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded pointer-events-none">
+          ⌘K
+        </span>
       </div>
 
-      {open && results.length > 0 && (
-        <ul
-          className="absolute top-full left-0 right-0 mt-1 rounded-lg border border-border bg-bg-card shadow-lg overflow-hidden"
-          style={{ zIndex: 1001 }}
-        >
-          {results.map((item) => (
-            <li key={item.id}>
-              <button
-                className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs hover:bg-bg-secondary transition-colors"
-                onMouseDown={(e) => {
-                  e.preventDefault()
-                  handleSelect(item)
-                }}
-              >
-                <span
-                  className="size-2 rounded-full shrink-0"
-                  style={{ backgroundColor: item.color }}
-                />
-                <span className="text-text-secondary shrink-0">{item.category}</span>
-                <span className="text-text-primary truncate">{item.name}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+      {resultsDropdown}
     </div>
   )
 }

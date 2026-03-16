@@ -1,4 +1,4 @@
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, BookMarked } from 'lucide-react'
 
 interface SourceLinksProps {
   sources: string[]
@@ -9,7 +9,10 @@ export function SourceLinks({ sources }: SourceLinksProps) {
 
   return (
     <div className="space-y-2">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">Sources</p>
+      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide flex items-center gap-1.5">
+        <BookMarked className="size-3.5" />
+        Sources
+      </p>
       <ul className="space-y-1">
         {sources.map((src) => {
           const isUrl = src.startsWith('http://') || src.startsWith('https://')

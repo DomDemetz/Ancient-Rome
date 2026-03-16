@@ -272,3 +272,15 @@
   animation: battle-flash 0.8s ease-out forwards;
   border-radius: 50%;
 }
+
+/* Mobile range slider — larger thumb for touch */
+@media (max-width: 768px) {
+  input[type='range']::-webkit-slider-thumb {
+    width: 44px;
+    height: 44px;
+  }
+  input[type='range']::-moz-range-thumb {
+    width: 44px;
+    height: 44px;
+  }
+}

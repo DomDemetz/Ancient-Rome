@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import type { Emperor } from '@/data/emperors'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useUIStore } from '@/stores/useUIStore'
 
 interface EmperorBannerProps {
   emperors: Emperor[]
@@ -13,6 +14,7 @@ function formatYear(year: number): string {
 
 export function EmperorBanner({ emperors }: EmperorBannerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const currentEmperor = useMemo(() => {
     return emperors.find((e) => e.reignStart <= currentYear && e.reignEnd >= currentYear)
@@ -39,7 +41,9 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
   return (
     <div className="absolute top-3 left-1/2 -translate-x-1/2 z-[1000] pointer-events-none">
       <div
-        className="px-4 py-2 rounded-lg border backdrop-blur-sm flex items-center gap-3"
+        className={`rounded-xl border backdrop-blur-md flex items-center gap-3 ${
+          isMobile ? 'px-3 py-1.5' : 'px-4 py-2'
+        }`}
         style={{
           backgroundColor: 'rgba(15, 10, 26, 0.85)',
           borderColor: dynastyColor + '60',
@@ -48,10 +52,12 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
         <div className="w-1.5 h-8 rounded-full" style={{ backgroundColor: dynastyColor }} />
         <div className="flex flex-col">
           <span className="text-sm font-bold text-white/90">{currentEmperor.name}</span>
-          <span className="text-[10px] text-white/50">
-            {currentEmperor.dynasty && `${currentEmperor.dynasty} · `}
-            {formatYear(currentEmperor.reignStart)} &ndash; {formatYear(currentEmperor.reignEnd)}
-          </span>
+          {!isMobile && (
+            <span className="text-[10px] text-white/50">
+              {currentEmperor.dynasty && `${currentEmperor.dynasty} · `}
+              {formatYear(currentEmperor.reignStart)} &ndash; {formatYear(currentEmperor.reignEnd)}
+            </span>
+          )}
         </div>
       </div>
     </div>

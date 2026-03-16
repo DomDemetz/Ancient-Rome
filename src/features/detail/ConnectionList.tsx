@@ -1,3 +1,4 @@
+import { Link } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { entityColors } from '@/lib/colors'
 import { getConnectionCategory, connectionCategoryColors } from '@/lib/colors'
@@ -26,7 +27,8 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
   if (relevant.length === 0) {
     return (
       <div className="space-y-2">
-        <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">
+        <p className="text-xs font-medium text-text-secondary uppercase tracking-wide flex items-center gap-1.5">
+          <Link className="size-3.5" />
           Connections
         </p>
         <p className="text-xs text-text-secondary italic">No connections found.</p>
@@ -36,7 +38,8 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
 
   return (
     <div className="space-y-2">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">
+      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide flex items-center gap-1.5">
+        <Link className="size-3.5" />
         Connections ({relevant.length})
       </p>
       <ul className="space-y-1">
@@ -47,7 +50,7 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
           return (
             <li key={conn.id}>
               <button
-                className="w-full flex items-center gap-2 px-2 py-1.5 rounded text-left hover:bg-bg-secondary transition-colors group"
+                className="w-full flex items-center gap-2 px-2 py-1.5 rounded-xl text-left hover:bg-bg-secondary transition-colors group"
                 onClick={() => other && select(other.id)}
               >
                 <span

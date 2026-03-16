@@ -4,6 +4,7 @@ import { useUIStore } from '@/stores/useUIStore'
 import { entities, connections } from '@/data'
 import { ScrollArea } from '@/ui/scroll-area'
 import { Button } from '@/ui/button'
+import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
 import { EntityHeader } from './EntityHeader'
 import { EgoRadar } from './EgoRadar'
@@ -38,20 +39,20 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
       </div>
 
       <ScrollArea className="flex-1">
-        <div className="p-4 space-y-5">
+        <div className="p-5 space-y-5">
           <EntityHeader entity={entity} />
 
-          <div className="border-t border-border" />
+          <Separator />
 
           <EgoRadar entityId={entity.id} connections={connections} />
 
-          <div className="border-t border-border" />
+          <Separator />
 
           <ConnectionList entityId={entity.id} connections={connections} />
 
           {entity.sources.length > 0 && (
             <>
-              <div className="border-t border-border" />
+              <Separator />
               <SourceLinks sources={entity.sources} />
             </>
           )}

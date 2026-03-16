@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react'
+import { Play, Pause } from 'lucide-react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useUIStore } from '@/stores/useUIStore'
 import { formatYear } from '@/lib/geo'
 
 const MIN_YEAR = -753
@@ -42,6 +44,7 @@ export function TimelinePlayer() {
   const setYear = useTimelineStore((s) => s.setYear)
   const setSpeed = useTimelineStore((s) => s.setSpeed)
   const setScrubbing = useTimelineStore((s) => s.setScrubbing)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const rafRef = useRef<number | null>(null)
   const lastTimeRef = useRef<number | null>(null)
@@ -110,33 +113,30 @@ export function TimelinePlayer() {
   const handleSliderMouseDown = () => setScrubbing(true)
   const handleSliderMouseUp = () => setScrubbing(false)
 
+  const handleCycleSpeed = () => {
+    const currentIndex = SPEEDS.indexOf(speed)
+    const nextIndex = (currentIndex + 1) % SPEEDS.length
+    setSpeed(SPEEDS[nextIndex])
+  }
+
   const currentEra = useMemo(
     () => ERAS.find((e) => currentYear >= e.start && currentYear < e.end) ?? ERAS[ERAS.length - 1],
     [currentYear],
   )
 
   return (
-    <div className="flex flex-col px-4 pt-2 pb-1 bg-bg-secondary border-t border-border">
+    <div className="flex flex-col px-4 pt-2 pb-1 bg-[#0f0a1a]/80 backdrop-blur-md border-t border-border">
       {/* Main controls row */}
       <div className="flex items-center gap-3">
         {/* Play / Pause */}
         <button
           onClick={handleTogglePlay}
-          className="w-8 h-8 flex items-center justify-center rounded bg-bg-primary hover:bg-bg-hover text-text-primary border border-border shrink-0"
+          className={`flex items-center justify-center rounded bg-bg-primary hover:bg-bg-hover text-text-primary border border-border shrink-0 ${
+            isMobile ? 'min-w-[44px] min-h-[44px]' : 'w-8 h-8'
+          }`}
           aria-label={playing ? 'Pause' : 'Play'}
         >
-          {playing ? (
-            // Pause icon
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
-              <rect x="2" y="1" width="4" height="12" rx="1" />
-              <rect x="8" y="1" width="4" height="12" rx="1" />
-            </svg>
-          ) : (
-            // Play icon
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
-              <polygon points="2,1 12,7 2,13" />
-            </svg>
-          )}
+          {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
         </button>
 
         {/* Year display */}
@@ -182,33 +182,44 @@ export function TimelinePlayer() {
         </div>
 
         {/* Speed selector */}
-        <div className="flex items-center gap-1 shrink-0">
-          {SPEEDS.map((s) => (
-            <button
-              key={s}
-              onClick={() => setSpeed(s)}
-              className={`text-xs px-1.5 py-0.5 rounded border ${
-                speed === s
-                  ? 'bg-amber-400 text-black border-amber-400'
-                  : 'bg-bg-primary text-text-secondary border-border hover:text-text-primary'
-              }`}
-            >
-              {s}x
-            </button>
-          ))}
-        </div>
+        {isMobile ? (
+          <button
+            onClick={handleCycleSpeed}
+            className="text-xs px-2 py-1 rounded-full bg-amber-400 text-black font-semibold shrink-0 min-w-[44px] min-h-[44px]"
+          >
+            {speed}x
+          </button>
+        ) : (
+          <div className="flex items-center gap-1 shrink-0">
+            {SPEEDS.map((s) => (
+              <button
+                key={s}
+                onClick={() => setSpeed(s)}
+                className={`text-xs px-1.5 py-0.5 rounded-full border ${
+                  speed === s
+                    ? 'bg-amber-400 text-black border-amber-400'
+                    : 'bg-bg-primary text-text-secondary border-border hover:text-text-primary'
+                }`}
+              >
+                {s}x
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Era label row */}
-      <div className="flex items-center justify-center pb-0.5">
-        <span
-          key={currentEra.label}
-          className="text-[10px] text-amber-400/70 font-mono tracking-wide transition-colors duration-300"
-        >
-          {currentEra.label} ({formatYear(currentEra.start)} →{' '}
-          {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})
-        </span>
-      </div>
+      {!isMobile && (
+        <div className="flex items-center justify-center pb-0.5">
+          <span
+            key={currentEra.label}
+            className="text-[10px] text-amber-400/70 font-mono tracking-wide transition-colors duration-300"
+          >
+            {currentEra.label} ({formatYear(currentEra.start)} →{' '}
+            {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})
+          </span>
+        </div>
+      )}
     </div>
   )
 }

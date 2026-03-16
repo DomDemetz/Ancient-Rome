@@ -1,6 +1,6 @@
 import { Pin, PinOff } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
-import { entityColors, entityLabels } from '@/lib/colors'
+import { entityColors, entityLabels, entityIcons } from '@/lib/colors'
 import { formatYear } from '@/lib/geo'
 import { Button } from '@/ui/button'
 import type { Entity } from '@/types'
@@ -31,6 +31,7 @@ export function EntityHeader({ entity }: EntityHeaderProps) {
   const dates = getEntityDates(entity)
   const color = entityColors[entity.entityType]
   const label = entityLabels[entity.entityType]
+  const Icon = entityIcons[entity.entityType]
 
   function formatDates() {
     if (dates.start !== undefined && dates.end !== undefined) {
@@ -53,7 +54,7 @@ export function EntityHeader({ entity }: EntityHeaderProps) {
               className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium"
               style={{ backgroundColor: `${color}22`, color }}
             >
-              <span className="size-1.5 rounded-full" style={{ backgroundColor: color }} />
+              <Icon className="size-3" />
               {label}
             </span>
           </div>

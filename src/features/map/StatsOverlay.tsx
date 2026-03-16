@@ -1,6 +1,8 @@
 import { useMemo } from 'react'
+import { Swords, Bird, Anchor, Landmark } from 'lucide-react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
+import { useUIStore } from '@/stores/useUIStore'
 
 function interpolateRomePopulation(
   populations: { year: number; population: number }[],
@@ -49,6 +51,7 @@ function formatCount(n: number): string {
 
 export function StatsOverlay() {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const showBattles = useMapLayerStore((s) => s.showBattles)
   const battlesData = useMapLayerStore((s) => s.battlesData)
@@ -89,30 +92,38 @@ export function StatsOverlay() {
     return interpolateRomePopulation(rome.populations, currentYear)
   }, [showSettlements, cityPopulationsData, currentYear])
 
-  const stats: { icon: string; label: string; value: string }[] = []
+  const stats: {
+    Icon: React.ComponentType<{ className?: string }>
+    label: string
+    value: string
+  }[] = []
 
   if (battleCount !== null) {
-    stats.push({ icon: '⚔', label: 'battles', value: formatCount(battleCount) })
+    stats.push({ Icon: Swords, label: 'battles', value: formatCount(battleCount) })
   }
   if (legionCount !== null) {
-    stats.push({ icon: '🦅', label: 'legions', value: formatCount(legionCount) })
+    stats.push({ Icon: Bird, label: 'legions', value: formatCount(legionCount) })
   }
   if (shipwreckCount !== null) {
-    stats.push({ icon: '⚓', label: 'wrecks', value: formatCount(shipwreckCount) })
+    stats.push({ Icon: Anchor, label: 'wrecks', value: formatCount(shipwreckCount) })
   }
   if (romePopulation !== null) {
-    stats.push({ icon: '🏛', label: 'Rome', value: formatPopulation(romePopulation) })
+    stats.push({ Icon: Landmark, label: 'Rome', value: formatPopulation(romePopulation) })
   }
 
   if (stats.length === 0) return null
 
   return (
     <div className="absolute bottom-14 left-3 z-[1000] pointer-events-none">
-      <div className="bg-[#0f0a1a]/85 backdrop-blur-sm border border-white/10 rounded-md px-3 py-1.5 text-xs text-white/80 tabular-nums flex items-center gap-2 whitespace-nowrap">
+      <div
+        className={`bg-[#0f0a1a]/85 backdrop-blur-sm border border-white/10 rounded-xl px-3 py-1.5 text-xs text-white/80 tabular-nums ${
+          isMobile ? 'flex flex-wrap gap-x-3 gap-y-1' : 'flex items-center gap-2 whitespace-nowrap'
+        }`}
+      >
         {stats.map((s, i) => (
           <span key={s.label} className="flex items-center gap-1">
-            {i > 0 && <span className="text-white/30 mx-1">·</span>}
-            <span>{s.icon}</span>
+            {!isMobile && i > 0 && <span className="text-white/30 mx-1">&middot;</span>}
+            <s.Icon className="w-3.5 h-3.5 text-white/60" />
             <span className="font-semibold text-white">{s.value}</span>
             <span className="text-white/60">{s.label}</span>
           </span>
