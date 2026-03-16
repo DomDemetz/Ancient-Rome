@@ -29,3 +29,6 @@ dist-ssr
 
 # Test output
 test-results/
+
+# Git worktrees
+.worktrees/
