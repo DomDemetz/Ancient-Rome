@@ -1,6 +1,6 @@
 import { Pin, PinOff } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
-import { entityColors, entityLabels, entityIcons } from '@/lib/colors'
+import { entityLabels, entityIcons } from '@/lib/colors'
 import { formatYear } from '@/lib/geo'
 import { Button } from '@/ui/button'
 import type { Entity } from '@/types'
@@ -29,50 +29,64 @@ export function EntityHeader({ entity }: EntityHeaderProps) {
 
   const isPinned = pinnedIds.includes(entity.id)
   const dates = getEntityDates(entity)
-  const color = entityColors[entity.entityType]
   const label = entityLabels[entity.entityType]
   const Icon = entityIcons[entity.entityType]
 
-  function formatDates() {
-    if (dates.start !== undefined && dates.end !== undefined) {
-      return `${formatYear(dates.start)} – ${formatYear(dates.end)}`
-    }
-    if (dates.start !== undefined) {
-      return formatYear(dates.start)
-    }
-    return null
-  }
-
-  const dateStr = formatDates()
+  // dates are rendered in the stat grid below
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-4">
       <div className="flex items-start justify-between gap-2">
-        <div className="space-y-1 min-w-0">
-          <div className="flex items-center gap-1.5">
-            <span
-              className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium"
-              style={{ backgroundColor: `${color}22`, color }}
-            >
-              <Icon className="size-3" />
-              {label}
-            </span>
-          </div>
-          <h2 className="text-base font-semibold text-text-primary leading-tight">{entity.name}</h2>
-          {dateStr && <p className="text-xs text-text-secondary">{dateStr}</p>}
+        <div className="space-y-3 min-w-0">
+          <span className="inline-flex items-center gap-1.5 bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[10px] font-bold uppercase tracking-[0.3em] rounded-md px-3 py-1">
+            <Icon className="size-3" />
+            {label}
+          </span>
+          <h2 className="text-3xl font-serif italic text-slate-100 leading-[1.1]">{entity.name}</h2>
         </div>
         <Button
           variant="ghost"
           size="icon-sm"
           onClick={() => (isPinned ? unpin(entity.id) : pin(entity.id))}
-          className="shrink-0 text-text-secondary hover:text-accent-gold"
+          className="shrink-0 text-slate-500 hover:text-amber-500"
           aria-label={isPinned ? 'Unpin entity' : 'Pin entity'}
         >
           {isPinned ? <PinOff className="size-3.5" /> : <Pin className="size-3.5" />}
         </Button>
       </div>
+
       {entity.description && (
-        <p className="text-xs text-text-secondary leading-relaxed">{entity.description}</p>
+        <p className="text-sm text-slate-400 leading-relaxed italic border-l-2 border-amber-500/30 pl-4">
+          &ldquo;{entity.description}&rdquo;
+        </p>
+      )}
+
+      {/* Stat grid for dates */}
+      {dates.start !== undefined && (
+        <div className="grid grid-cols-2 gap-2">
+          <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-3.5">
+            <div className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-600 mb-1">
+              {entity.entityType === 'person'
+                ? 'Born'
+                : entity.entityType === 'event'
+                  ? 'Start'
+                  : 'Founded'}
+            </div>
+            <div className="text-lg font-light text-slate-200">{formatYear(dates.start)}</div>
+          </div>
+          {dates.end !== undefined && (
+            <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-3.5">
+              <div className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-600 mb-1">
+                {entity.entityType === 'person'
+                  ? 'Died'
+                  : entity.entityType === 'event'
+                    ? 'End'
+                    : 'Dissolved'}
+              </div>
+              <div className="text-lg font-light text-slate-200">{formatYear(dates.end)}</div>
+            </div>
+          )}
+        </div>
       )}
     </div>
   )

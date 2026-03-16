@@ -67,7 +67,7 @@ function LayerPanelContent({
     <div className="p-4 space-y-4">
       {/* Presets */}
       <div>
-        <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider mb-2">
+        <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-amber-500/50 mb-2">
           Presets
         </p>
         <div className="flex flex-wrap gap-1.5">
@@ -80,8 +80,8 @@ function LayerPanelContent({
                 className={cn(
                   'px-3 py-1.5 text-xs font-medium rounded-full transition-all',
                   active
-                    ? 'bg-accent-gold text-black shadow-lg shadow-accent-gold/20'
-                    : 'bg-bg-card text-text-secondary border border-border hover:bg-bg-secondary',
+                    ? 'bg-amber-600 text-white shadow-lg'
+                    : 'text-slate-500 hover:text-white bg-transparent border border-white/[0.06] rounded-full',
                 )}
                 title={preset.description}
               >
@@ -102,12 +102,12 @@ function LayerPanelContent({
           <div key={group.label}>
             <button
               onClick={() => toggleGroup(group.label)}
-              className="w-full flex items-center gap-2 py-1.5 text-xs font-semibold text-text-secondary uppercase tracking-wider hover:text-text-primary transition-colors"
+              className="w-full flex items-center gap-2 py-1.5 text-[10px] font-bold uppercase tracking-[0.15em] text-amber-500/50 hover:text-amber-500 transition-colors"
             >
               {GroupIcon && <GroupIcon className="size-3.5" />}
               <span>{group.label}</span>
               {activeCount > 0 && (
-                <span className="ml-1 text-accent-gold text-[10px]">{activeCount}</span>
+                <span className="ml-1 text-amber-500 text-[10px]">{activeCount}</span>
               )}
               <span className="ml-auto">
                 {isCollapsed ? (
@@ -127,12 +127,12 @@ function LayerPanelContent({
                       <button
                         onClick={state.toggle}
                         className={cn(
-                          'w-full flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg border transition-colors text-left',
+                          'w-full flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg transition-colors text-left',
                           state.loading
-                            ? 'bg-bg-card/50 border-border text-text-secondary/40 cursor-wait'
+                            ? 'border-l-2 border-transparent text-slate-600 cursor-wait'
                             : state.active
-                              ? `${layer.activeClass} border-current/20`
-                              : 'bg-bg-card/50 border-transparent text-text-secondary hover:bg-bg-secondary hover:text-text-primary',
+                              ? 'border-l-2 border-amber-500 bg-white/[0.03] text-white'
+                              : 'border-l-2 border-transparent text-slate-500 hover:bg-white/[0.03] hover:text-white',
                         )}
                         title={`Toggle ${layer.label.toLowerCase()} layer`}
                       >
@@ -142,7 +142,7 @@ function LayerPanelContent({
                       {/* Settlement type submenu */}
                       {layer.key === 'Settlements' && showSettlements && typeCounts.length > 0 && (
                         <div
-                          className="rounded-lg border border-white/10 bg-bg-card/80 overflow-y-auto mt-1"
+                          className="rounded-xl border border-white/[0.04] bg-white/[0.02] overflow-y-auto mt-1"
                           style={{ maxHeight: 180 }}
                         >
                           {typeCounts.map(({ type, label, count }) => {
@@ -346,7 +346,7 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
       <div className="absolute top-3 right-3 z-[1000]" style={{ pointerEvents: 'all' }}>
         <button
           onClick={() => setPanelOpen(!panelOpen)}
-          className="flex items-center justify-center size-10 rounded-xl bg-[#0f0a1a]/80 backdrop-blur-md border border-white/10 text-white/80 hover:text-white transition-colors"
+          className="flex items-center justify-center size-10 rounded-xl bg-black/70 backdrop-blur-xl border border-white/[0.06] text-white/80 hover:text-white transition-colors"
           aria-label="Toggle layers"
         >
           <Layers className="size-5" />
@@ -356,11 +356,13 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
       {/* Desktop panel */}
       {panelOpen && !isMobile && (
         <div
-          className="absolute right-0 top-0 z-[999] h-full w-[260px] bg-[#0f0a1a]/92 backdrop-blur-md border-l border-white/10 rounded-l-xl"
+          className="absolute right-0 top-0 z-[999] h-full w-[260px] bg-[#0c0c10] border-l border-white/[0.05]"
           style={{ pointerEvents: 'all' }}
         >
-          <div className="flex items-center justify-between p-4 border-b border-white/10">
-            <span className="text-sm font-semibold text-text-primary">Layers</span>
+          <div className="flex items-center justify-between p-4 border-b border-white/[0.05]">
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
+              Layers
+            </span>
             <Button variant="ghost" size="icon-sm" onClick={() => setPanelOpen(false)}>
               <X className="size-4" />
             </Button>
@@ -374,7 +376,7 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
       {/* Mobile drawer */}
       {isMobile && (
         <Drawer open={panelOpen} onOpenChange={setPanelOpen}>
-          <DrawerContent className="bg-bg-card border-border max-h-[60vh]">
+          <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[60vh]">
             <DrawerHeader>
               <DrawerTitle>Layers</DrawerTitle>
             </DrawerHeader>

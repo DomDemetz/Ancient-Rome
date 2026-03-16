@@ -36,8 +36,8 @@ export function ConnectionDist() {
   const maxCount = Math.max(...CATEGORIES.map((c) => counts.get(c) ?? 0), 1)
 
   return (
-    <div className="rounded-lg border border-border bg-bg-card p-4">
-      <h3 className="text-sm font-medium text-text-primary mb-4">Connections by Category</h3>
+    <div className="rounded-lg border border-white/[0.06] bg-white/[0.03] p-4">
+      <h3 className="text-sm font-medium text-slate-100 mb-4">Connections by Category</h3>
       <div className="space-y-3">
         {CATEGORIES.map((cat) => {
           const count = counts.get(cat) ?? 0
@@ -49,10 +49,10 @@ export function ConnectionDist() {
                   className="size-2.5 rounded-full shrink-0"
                   style={{ backgroundColor: connectionCategoryColors[cat] }}
                 />
-                <span className="text-xs text-text-secondary flex-1">{CATEGORY_LABELS[cat]}</span>
-                <span className="text-xs text-text-primary font-medium">{count}</span>
+                <span className="text-xs text-slate-500 flex-1">{CATEGORY_LABELS[cat]}</span>
+                <span className="text-xs text-slate-100 font-medium">{count}</span>
               </div>
-              <div className="ml-4 h-2 rounded-full bg-bg-secondary overflow-hidden">
+              <div className="ml-4 h-2 rounded-full bg-white/[0.02] overflow-hidden">
                 <div
                   className="h-full rounded-full transition-all"
                   style={{
@@ -66,7 +66,7 @@ export function ConnectionDist() {
           )
         })}
       </div>
-      <p className="text-xs text-text-secondary mt-3">
+      <p className="text-xs text-slate-500 mt-3">
         Total: {connections.length.toLocaleString()} connections
       </p>
     </div>

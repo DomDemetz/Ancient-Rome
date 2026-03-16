@@ -56,7 +56,7 @@ export function PathFinder() {
 
   return (
     <div className="p-4 space-y-3">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">Path Finder</p>
+      <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">Path Finder</p>
 
       <div className="space-y-2">
         <Input
@@ -64,14 +64,14 @@ export function PathFinder() {
           placeholder="Start entity name…"
           value={startName}
           onChange={(e) => setStartName(e.target.value)}
-          className="h-7 text-xs bg-bg-card border-border text-text-primary placeholder:text-text-secondary"
+          className="h-7 text-xs bg-white/[0.03] border-white/[0.06] text-slate-100 placeholder:text-slate-500"
         />
         <Input
           type="text"
           placeholder="End entity name…"
           value={endName}
           onChange={(e) => setEndName(e.target.value)}
-          className="h-7 text-xs bg-bg-card border-border text-text-primary placeholder:text-text-secondary"
+          className="h-7 text-xs bg-white/[0.03] border-white/[0.06] text-slate-100 placeholder:text-slate-500"
           onKeyDown={(e) => {
             if (e.key === 'Enter') handleFind()
           }}
@@ -80,7 +80,7 @@ export function PathFinder() {
           onClick={handleFind}
           size="sm"
           variant="outline"
-          className="w-full text-xs border-border text-text-primary hover:bg-bg-secondary"
+          className="w-full text-xs border-white/[0.06] text-slate-100 hover:bg-white/[0.04]"
         >
           Find Path
         </Button>
@@ -95,9 +95,9 @@ export function PathFinder() {
             const type = getEntityType(step.entityId)
             return (
               <li key={step.entityId} className="flex items-center gap-1.5">
-                {i > 0 && <ArrowRight className="size-3 text-text-secondary shrink-0" />}
+                {i > 0 && <ArrowRight className="size-3 text-slate-500 shrink-0" />}
                 <button
-                  className="flex items-center gap-1.5 text-xs text-text-primary hover:text-accent-gold transition-colors"
+                  className="flex items-center gap-1.5 text-xs text-slate-100 hover:text-amber-500 transition-colors"
                   onClick={() => select(step.entityId)}
                 >
                   <span

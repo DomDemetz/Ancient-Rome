@@ -18,20 +18,22 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
   if (!entity) {
     return (
       <div className="flex items-center justify-center h-full">
-        <p className="text-text-secondary text-sm">Entity not found.</p>
+        <p className="text-slate-500 text-sm">Entity not found.</p>
       </div>
     )
   }
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex items-center justify-between p-4 pb-3 border-b border-border shrink-0">
-        <span className="text-xs text-text-secondary">Detail</span>
+      <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
+          Imperium Records
+        </span>
         <Button
           variant="ghost"
           size="icon-sm"
           onClick={() => select(null)}
-          className="text-text-secondary hover:text-text-primary"
+          className="text-slate-500 hover:text-slate-100"
           aria-label="Close detail panel"
         >
           <X className="size-4" />
@@ -39,7 +41,7 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
       </div>
 
       <ScrollArea className="flex-1">
-        <div className="p-5 space-y-5">
+        <div className="p-6 space-y-6">
           <EntityHeader entity={entity} />
 
           <Separator />
@@ -77,7 +79,7 @@ export function DetailPanel() {
           if (!open) select(null)
         }}
       >
-        <DrawerContent className="bg-bg-card border-border max-h-[80vh]">
+        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh]">
           <DrawerHeader className="sr-only">
             <DrawerTitle>Entity Detail</DrawerTitle>
           </DrawerHeader>
@@ -90,7 +92,7 @@ export function DetailPanel() {
   }
 
   return (
-    <aside className="w-[340px] shrink-0 border-l border-border bg-bg-secondary overflow-hidden flex flex-col">
+    <aside className="w-[340px] shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
       <DetailPanelContent entityId={selectedId} />
     </aside>
   )

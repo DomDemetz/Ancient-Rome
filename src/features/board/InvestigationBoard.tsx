@@ -43,9 +43,9 @@ export function InvestigationBoard() {
       <div className="flex flex-1 overflow-hidden">
         {/* Left sidebar — shown only for graph view (filters + path finder) */}
         {sidebarOpen && lens === 'graph' && !isMobile && (
-          <aside className="w-[280px] shrink-0 border-r border-border bg-bg-secondary overflow-y-auto">
+          <aside className="w-[280px] shrink-0 border-r border-white/[0.05] bg-[#0c0c10] overflow-y-auto">
             <FilterPanel />
-            <div className="border-t border-border" />
+            <div className="border-t border-white/[0.05]" />
             <PathFinder />
           </aside>
         )}
@@ -58,13 +58,13 @@ export function InvestigationBoard() {
               useUIStore.getState().toggleSidebar(open)
             }}
           >
-            <DrawerContent className="bg-bg-card border-border max-h-[80vh]">
+            <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh]">
               <DrawerHeader className="sr-only">
                 <DrawerTitle>Filters</DrawerTitle>
               </DrawerHeader>
               <div className="overflow-y-auto">
                 <FilterPanel />
-                <div className="border-t border-border" />
+                <div className="border-t border-white/[0.05]" />
                 <PathFinder />
               </div>
             </DrawerContent>

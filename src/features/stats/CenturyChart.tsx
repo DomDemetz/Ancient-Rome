@@ -41,19 +41,19 @@ export function CenturyChart() {
   const max = Math.max(...data.map((d) => d.count), 1)
 
   return (
-    <div className="rounded-lg border border-border bg-bg-card p-4">
-      <h3 className="mb-3 text-sm font-medium text-text-primary">Entities by Century</h3>
+    <div className="rounded-lg border border-white/[0.06] bg-white/[0.03] p-4">
+      <h3 className="mb-3 text-sm font-medium text-slate-100">Entities by Century</h3>
       <div className="space-y-1.5">
         {data.map((d) => (
           <div key={d.label} className="flex items-center gap-2 text-xs">
-            <span className="w-24 shrink-0 text-right text-text-secondary">{d.label}</span>
-            <div className="h-4 flex-1 rounded bg-bg-secondary">
+            <span className="w-24 shrink-0 text-right text-slate-500">{d.label}</span>
+            <div className="h-4 flex-1 rounded bg-white/[0.02]">
               <div
-                className="h-full rounded bg-accent-gold"
+                className="h-full rounded bg-amber-500"
                 style={{ width: `${(d.count / max) * 100}%` }}
               />
             </div>
-            <span className="w-6 text-text-secondary">{d.count}</span>
+            <span className="w-6 text-slate-500">{d.count}</span>
           </div>
         ))}
       </div>

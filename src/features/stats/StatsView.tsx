@@ -12,7 +12,7 @@ export function StatsView() {
     <div className="w-full h-full overflow-hidden">
       <ScrollArea className="h-full">
         <div className="p-6 space-y-6 max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-text-primary">Dataset Statistics</h2>
+          <h2 className="text-xl font-bold text-slate-100">Dataset Statistics</h2>
 
           <SummaryCards />
 

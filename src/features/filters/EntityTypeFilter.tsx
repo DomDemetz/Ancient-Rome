@@ -28,7 +28,7 @@ export function EntityTypeFilter() {
 
   return (
     <div className="space-y-1">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide mb-2">
+      <p className="text-xs font-medium text-slate-500 uppercase tracking-wide mb-2">
         Entity Types
       </p>
       {ALL_ENTITY_TYPES.map((type) => {
@@ -36,7 +36,7 @@ export function EntityTypeFilter() {
         return (
           <label
             key={type}
-            className="flex items-center gap-2 cursor-pointer py-0.5 hover:text-text-primary text-text-secondary text-xs transition-colors"
+            className="flex items-center gap-2 cursor-pointer py-0.5 hover:text-slate-100 text-slate-500 text-xs transition-colors"
           >
             <input
               type="checkbox"
@@ -51,13 +51,13 @@ export function EntityTypeFilter() {
                 opacity: checked ? 1 : 0.3,
               }}
             />
-            <span className={checked ? 'text-text-primary' : 'text-text-secondary'}>
+            <span className={checked ? 'text-slate-100' : 'text-slate-500'}>
               {entityLabels[type]}
             </span>
             <span className="ml-auto">
               <span
                 className={`size-3.5 flex items-center justify-center rounded border ${
-                  checked ? 'border-accent-gold bg-accent-gold/20' : 'border-border'
+                  checked ? 'border-amber-500 bg-amber-500/20' : 'border-white/[0.06]'
                 }`}
               >
                 {checked && (
@@ -68,7 +68,7 @@ export function EntityTypeFilter() {
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="text-accent-gold"
+                      className="text-amber-500"
                     />
                   </svg>
                 )}

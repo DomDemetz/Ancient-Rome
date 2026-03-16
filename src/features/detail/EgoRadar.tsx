@@ -83,7 +83,7 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
 
   return (
     <div className="space-y-1">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">Connections</p>
+      <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">Connections</p>
       <div className="flex justify-center">
         <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`}>
           {/* Grid circles */}
@@ -94,7 +94,7 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
               cy={CENTER}
               r={((i + 1) / GRID_CIRCLES) * MAX_RADIUS}
               fill="none"
-              stroke="var(--color-border)"
+              stroke="rgba(255,255,255,0.06)"
               strokeWidth="1"
               opacity="0.5"
             />
@@ -108,7 +108,7 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
               y1={CENTER}
               x2={CENTER + MAX_RADIUS * Math.cos(angle)}
               y2={CENTER + MAX_RADIUS * Math.sin(angle)}
-              stroke="var(--color-border)"
+              stroke="rgba(255,255,255,0.06)"
               strokeWidth="1"
               opacity="0.5"
             />
@@ -118,9 +118,9 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
           {maxCount > 0 && (
             <polygon
               points={polygonPoints}
-              fill="var(--color-accent-gold)"
+              fill="#f59e0b"
               fillOpacity="0.15"
-              stroke="var(--color-accent-gold)"
+              stroke="#f59e0b"
               strokeWidth="1.5"
               strokeOpacity="0.6"
             />
@@ -136,7 +136,7 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
                   cy={y}
                   r={4}
                   fill={color}
-                  stroke="var(--color-bg-card)"
+                  stroke="rgba(255,255,255,0.03)"
                   strokeWidth="1.5"
                 />
               ),
@@ -151,7 +151,7 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
               textAnchor="middle"
               dominantBaseline="middle"
               fontSize="9"
-              fill="var(--color-text-secondary)"
+              fill="#64748b"
               className="capitalize"
             >
               {cat} {count > 0 ? `(${count})` : ''}

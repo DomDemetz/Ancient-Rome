@@ -22,8 +22,8 @@ export function TopConnected() {
   const maxCount = topEntities[0]?.count ?? 1
 
   return (
-    <div className="rounded-lg border border-border bg-bg-card p-4">
-      <h3 className="text-sm font-medium text-text-primary mb-4">Top 10 Most Connected</h3>
+    <div className="rounded-lg border border-white/[0.06] bg-white/[0.03] p-4">
+      <h3 className="text-sm font-medium text-slate-100 mb-4">Top 10 Most Connected</h3>
       <div className="space-y-2">
         {topEntities.map(({ entity, count }) => {
           const pct = (count / maxCount) * 100
@@ -38,12 +38,12 @@ export function TopConnected() {
                   className="size-2 rounded-full shrink-0"
                   style={{ backgroundColor: entityColors[entity.entityType] }}
                 />
-                <span className="text-xs text-text-primary truncate flex-1 group-hover:text-accent-gold transition-colors">
+                <span className="text-xs text-slate-100 truncate flex-1 group-hover:text-amber-500 transition-colors">
                   {entity.name}
                 </span>
-                <span className="text-xs text-text-secondary shrink-0">{count}</span>
+                <span className="text-xs text-slate-500 shrink-0">{count}</span>
               </div>
-              <div className="ml-4 h-1.5 rounded-full bg-bg-secondary overflow-hidden">
+              <div className="ml-4 h-1.5 rounded-full bg-white/[0.02] overflow-hidden">
                 <div
                   className="h-full rounded-full transition-all"
                   style={{
@@ -59,10 +59,10 @@ export function TopConnected() {
       </div>
 
       {topEntities.length === 0 && (
-        <p className="text-xs text-text-secondary text-center py-4">No data available</p>
+        <p className="text-xs text-slate-500 text-center py-4">No data available</p>
       )}
 
-      <p className="text-xs text-text-secondary mt-3">
+      <p className="text-xs text-slate-500 mt-3">
         Showing by {entityLabels[topEntities[0]?.entity.entityType ?? 'person']} type. Click to
         inspect.
       </p>

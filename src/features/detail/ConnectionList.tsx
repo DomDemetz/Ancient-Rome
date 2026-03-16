@@ -1,4 +1,4 @@
-import { Link } from 'lucide-react'
+import { Link, ChevronRight } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { entityColors } from '@/lib/colors'
 import { getConnectionCategory, connectionCategoryColors } from '@/lib/colors'
@@ -27,22 +27,28 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
   if (relevant.length === 0) {
     return (
       <div className="space-y-2">
-        <p className="text-xs font-medium text-text-secondary uppercase tracking-wide flex items-center gap-1.5">
-          <Link className="size-3.5" />
-          Connections
-        </p>
-        <p className="text-xs text-text-secondary italic">No connections found.</p>
+        <div className="flex items-center gap-3">
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 flex items-center gap-1.5">
+            <Link className="size-3.5" />
+            Connections
+          </span>
+          <div className="flex-1 h-px bg-white/[0.05]" />
+        </div>
+        <p className="text-xs text-slate-500 italic">No connections found.</p>
       </div>
     )
   }
 
   return (
     <div className="space-y-2">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide flex items-center gap-1.5">
-        <Link className="size-3.5" />
-        Connections ({relevant.length})
-      </p>
-      <ul className="space-y-1">
+      <div className="flex items-center gap-3">
+        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 flex items-center gap-1.5">
+          <Link className="size-3.5" />
+          Connections ({relevant.length})
+        </span>
+        <div className="flex-1 h-px bg-white/[0.05]" />
+      </div>
+      <ul className="space-y-0.5">
         {relevant.map((conn) => {
           const other = getConnectedEntity(entityId, conn)
           const category = getConnectionCategory(conn.connectionType)
@@ -50,7 +56,7 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
           return (
             <li key={conn.id}>
               <button
-                className="w-full flex items-center gap-2 px-2 py-1.5 rounded-xl text-left hover:bg-bg-secondary transition-colors group"
+                className="w-full flex items-center gap-2 rounded-xl border border-transparent hover:bg-white/[0.03] hover:border-white/[0.05] transition-all px-3 py-2.5 text-left group"
                 onClick={() => other && select(other.id)}
               >
                 <span
@@ -58,7 +64,7 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
                   style={{ backgroundColor: categoryColor }}
                 />
                 <span className="flex-1 min-w-0">
-                  <span className="text-xs text-text-primary group-hover:text-accent-gold transition-colors truncate block">
+                  <span className="text-sm text-slate-200 group-hover:text-amber-500 transition-colors truncate block">
                     {other ? (
                       <>
                         <span
@@ -75,10 +81,11 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
                       conn.source
                     )}
                   </span>
-                  <span className="text-xs text-text-secondary capitalize">
+                  <span className="text-[10px] text-slate-500 capitalize">
                     {formatConnectionType(conn.connectionType)}
                   </span>
                 </span>
+                <ChevronRight className="size-4 shrink-0 text-slate-700 group-hover:text-amber-500 transition-colors" />
               </button>
             </li>
           )

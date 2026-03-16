@@ -53,11 +53,11 @@ export function TimelineTooltip({ entity, x, y }: Props) {
 
   return (
     <div
-      className="absolute z-50 pointer-events-none bg-bg-secondary border border-border rounded px-2 py-1 shadow-md text-sm"
+      className="absolute z-50 pointer-events-none bg-white/[0.02] border border-white/[0.06] rounded px-2 py-1 shadow-md text-sm"
       style={{ left: x + 12, top: y - 8 }}
     >
-      <div className="font-semibold text-text-primary">{entity.name}</div>
-      {dateLabel && <div className="text-text-secondary text-xs mt-0.5">{dateLabel}</div>}
+      <div className="font-semibold text-slate-100">{entity.name}</div>
+      {dateLabel && <div className="text-slate-500 text-xs mt-0.5">{dateLabel}</div>}
     </div>
   )
 }

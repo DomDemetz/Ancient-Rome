@@ -12,15 +12,15 @@ export function FilterPanel() {
   return (
     <div className="p-5 space-y-5">
       <div className="flex items-center justify-between">
-        <p className="text-sm font-semibold text-text-primary flex items-center gap-1.5">
-          <Filter className="size-4" />
-          Filters
+        <p className="text-sm font-semibold text-slate-100 flex items-center gap-1.5">
+          <Filter className="size-4 text-amber-500/70" />
+          <span className="text-amber-500/70">Filters</span>
         </p>
         <Button
           variant="ghost"
           size="xs"
           onClick={resetFilters}
-          className="text-text-secondary hover:text-text-primary gap-1"
+          className="text-slate-400 hover:text-slate-100 gap-1"
         >
           <RotateCcw className="size-3" />
           Reset
@@ -29,11 +29,11 @@ export function FilterPanel() {
 
       <EntityTypeFilter />
 
-      <Separator />
+      <Separator className="bg-white/[0.05]" />
 
       <ConnectionTypeFilter />
 
-      <Separator />
+      <Separator className="bg-white/[0.05]" />
 
       <TimePeriodFilter />
     </div>

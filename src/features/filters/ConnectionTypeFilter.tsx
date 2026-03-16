@@ -69,7 +69,7 @@ export function ConnectionTypeFilter() {
 
   return (
     <div className="space-y-1">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide mb-2">
+      <p className="text-xs font-medium text-slate-500 uppercase tracking-wide mb-2">
         Connection Types
       </p>
       {CATEGORIES.map((category) => {
@@ -90,13 +90,13 @@ export function ConnectionTypeFilter() {
               className="size-2.5 rounded-full shrink-0 transition-opacity"
               style={{ backgroundColor: color, opacity: active ? 1 : 0.3 }}
             />
-            <span className={active ? 'text-text-primary' : 'text-text-secondary'}>
+            <span className={active ? 'text-slate-100' : 'text-slate-500'}>
               {CATEGORY_LABELS[category]}
             </span>
             <span className="ml-auto">
               <span
                 className={`size-3.5 flex items-center justify-center rounded border ${
-                  active ? 'border-accent-gold bg-accent-gold/20' : 'border-border'
+                  active ? 'border-amber-500 bg-amber-500/20' : 'border-white/[0.06]'
                 }`}
               >
                 {active && (
@@ -107,7 +107,7 @@ export function ConnectionTypeFilter() {
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="text-accent-gold"
+                      className="text-amber-500"
                     />
                   </svg>
                 )}

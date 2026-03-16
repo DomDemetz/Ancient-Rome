@@ -41,19 +41,20 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
   return (
     <div className="absolute top-3 left-1/2 -translate-x-1/2 z-[1000] pointer-events-none">
       <div
-        className={`rounded-xl border backdrop-blur-md flex items-center gap-3 ${
-          isMobile ? 'px-3 py-1.5' : 'px-4 py-2'
+        className={`bg-black/70 backdrop-blur-xl border border-white/[0.06] rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] flex items-center gap-2.5 ${
+          isMobile ? 'px-3 py-1.5' : 'px-5 py-2'
         }`}
         style={{
-          backgroundColor: 'rgba(15, 10, 26, 0.85)',
           borderColor: dynastyColor + '60',
         }}
       >
         <div className="w-1.5 h-8 rounded-full" style={{ backgroundColor: dynastyColor }} />
         <div className="flex flex-col">
-          <span className="text-sm font-bold text-white/90">{currentEmperor.name}</span>
+          <span className="text-sm font-semibold font-serif italic text-white/90">
+            {currentEmperor.name}
+          </span>
           {!isMobile && (
-            <span className="text-[10px] text-white/50">
+            <span className="text-[9px] uppercase tracking-[0.1em] text-slate-500">
               {currentEmperor.dynasty && `${currentEmperor.dynasty} · `}
               {formatYear(currentEmperor.reignStart)} &ndash; {formatYear(currentEmperor.reignEnd)}
             </span>

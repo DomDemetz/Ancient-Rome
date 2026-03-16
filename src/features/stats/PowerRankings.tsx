@@ -27,29 +27,27 @@ export function PowerRankings() {
   const max = Math.max(...rankings.map((r) => r.score), 1)
 
   return (
-    <div className="rounded-lg border border-border bg-bg-card p-4">
-      <h3 className="mb-3 text-sm font-medium text-text-primary">Power Rankings</h3>
+    <div className="rounded-lg border border-white/[0.06] bg-white/[0.03] p-4">
+      <h3 className="mb-3 text-sm font-medium text-slate-100">Power Rankings</h3>
       <div className="space-y-1.5">
         {rankings.map((r, i) => (
           <button
             key={r.entity.id}
             onClick={() => select(r.entity.id)}
-            className="flex w-full items-center gap-2 rounded px-1 text-xs hover:bg-bg-secondary"
+            className="flex w-full items-center gap-2 rounded px-1 text-xs hover:bg-white/[0.04]"
           >
-            <span className="w-4 shrink-0 text-text-secondary">{i + 1}</span>
-            <span className="w-28 shrink-0 truncate text-left text-text-primary">
-              {r.entity.name}
-            </span>
-            <span className="w-16 shrink-0 text-left text-text-secondary">
+            <span className="w-4 shrink-0 text-slate-500">{i + 1}</span>
+            <span className="w-28 shrink-0 truncate text-left text-slate-100">{r.entity.name}</span>
+            <span className="w-16 shrink-0 text-left text-slate-500">
               {entityLabels[r.entity.entityType]}
             </span>
-            <div className="h-3 flex-1 rounded bg-bg-secondary">
+            <div className="h-3 flex-1 rounded bg-white/[0.02]">
               <div
-                className="h-full rounded bg-accent-gold"
+                className="h-full rounded bg-amber-500"
                 style={{ width: `${(r.score / max) * 100}%` }}
               />
             </div>
-            <span className="w-6 text-right text-text-secondary">{r.score}</span>
+            <span className="w-6 text-right text-slate-500">{r.score}</span>
           </button>
         ))}
       </div>

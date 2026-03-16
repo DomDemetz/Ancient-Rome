@@ -17,15 +17,13 @@ export function RegionChart() {
   const max = Math.max(...data.map((d) => d.count), 1)
 
   return (
-    <div className="rounded-lg border border-border bg-bg-card p-4">
-      <h3 className="mb-3 text-sm font-medium text-text-primary">Locations by Province</h3>
+    <div className="rounded-lg border border-white/[0.06] bg-white/[0.03] p-4">
+      <h3 className="mb-3 text-sm font-medium text-slate-100">Locations by Province</h3>
       <div className="space-y-1.5">
         {data.map((d) => (
           <div key={d.province} className="flex items-center gap-2 text-xs">
-            <span className="w-28 shrink-0 truncate text-right text-text-secondary">
-              {d.province}
-            </span>
-            <div className="h-4 flex-1 rounded bg-bg-secondary">
+            <span className="w-28 shrink-0 truncate text-right text-slate-500">{d.province}</span>
+            <div className="h-4 flex-1 rounded bg-white/[0.02]">
               <div
                 className="h-full rounded"
                 style={{
@@ -34,11 +32,11 @@ export function RegionChart() {
                 }}
               />
             </div>
-            <span className="w-6 text-text-secondary">{d.count}</span>
+            <span className="w-6 text-slate-500">{d.count}</span>
           </div>
         ))}
         {data.length === 0 && (
-          <p className="text-xs text-text-secondary">No locations with province data</p>
+          <p className="text-xs text-slate-500">No locations with province data</p>
         )}
       </div>
     </div>

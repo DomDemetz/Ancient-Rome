@@ -24,12 +24,12 @@ export function TimePeriodFilter() {
 
   return (
     <div className="space-y-3">
-      <p className="text-xs font-medium text-text-secondary uppercase tracking-wide">Time Period</p>
+      <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">Time Period</p>
       <div className="space-y-2">
         <div className="space-y-1">
-          <div className="flex justify-between text-xs text-text-secondary">
+          <div className="flex justify-between text-xs text-slate-500">
             <span>From</span>
-            <span className="text-text-primary font-medium">{formatYear(yearRange[0])}</span>
+            <span className="text-slate-100 font-medium">{formatYear(yearRange[0])}</span>
           </div>
           <input
             type="range"
@@ -37,13 +37,13 @@ export function TimePeriodFilter() {
             max={MAX_YEAR}
             value={yearRange[0]}
             onChange={handleStart}
-            className="w-full h-1.5 appearance-none rounded-full bg-border accent-accent-gold cursor-pointer"
+            className="w-full h-1.5 appearance-none rounded-full bg-white/[0.06] accent-amber-500 cursor-pointer"
           />
         </div>
         <div className="space-y-1">
-          <div className="flex justify-between text-xs text-text-secondary">
+          <div className="flex justify-between text-xs text-slate-500">
             <span>To</span>
-            <span className="text-text-primary font-medium">{formatYear(yearRange[1])}</span>
+            <span className="text-slate-100 font-medium">{formatYear(yearRange[1])}</span>
           </div>
           <input
             type="range"
@@ -51,11 +51,11 @@ export function TimePeriodFilter() {
             max={MAX_YEAR}
             value={yearRange[1]}
             onChange={handleEnd}
-            className="w-full h-1.5 appearance-none rounded-full bg-border accent-accent-gold cursor-pointer"
+            className="w-full h-1.5 appearance-none rounded-full bg-white/[0.06] accent-amber-500 cursor-pointer"
           />
         </div>
       </div>
-      <div className="flex justify-between text-xs text-text-secondary">
+      <div className="flex justify-between text-xs text-slate-500">
         <span>{formatYear(MIN_YEAR)}</span>
         <span>{formatYear(MAX_YEAR)}</span>
       </div>

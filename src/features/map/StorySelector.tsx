@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { BookOpen, ChevronDown, ChevronUp } from 'lucide-react'
 import type { Story } from './StoryPlayer'
 
 interface StorySelectorProps {
@@ -18,21 +19,25 @@ export function StorySelector({ onSelect }: StorySelectorProps) {
   }, [open, stories.length])
 
   return (
-    <div className="absolute bottom-20 left-3 z-[1000]" style={{ pointerEvents: 'all' }}>
+    <div
+      className="absolute bottom-20 left-1/2 -translate-x-1/2 z-[1000]"
+      style={{ pointerEvents: 'all' }}
+    >
       <button
         onClick={() => setOpen(!open)}
-        className={[
-          'px-3 py-1.5 text-xs font-bold rounded border transition-colors',
-          open
-            ? 'bg-amber-900/80 border-amber-600 text-amber-100'
-            : 'bg-black/60 border-amber-700/50 text-amber-200/80 hover:bg-black/80',
-        ].join(' ')}
+        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-2xl bg-black/70 backdrop-blur-xl border border-white/[0.06] text-slate-300 hover:text-white transition-all shadow-[0_4px_16px_rgba(0,0,0,0.4)]"
       >
-        {open ? '\u25BC' : '\u25B6'} Stories
+        <BookOpen className="size-3.5 text-amber-500" />
+        <span className="text-[10px] font-bold uppercase tracking-[0.15em]">Stories</span>
+        {open ? (
+          <ChevronDown className="size-3 text-slate-500" />
+        ) : (
+          <ChevronUp className="size-3 text-slate-500" />
+        )}
       </button>
 
       {open && stories.length > 0 && (
-        <div className="mt-1 flex flex-col gap-1 rounded border border-white/10 bg-black/90 p-2 w-56">
+        <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 w-64 rounded-2xl border border-white/[0.06] bg-[#0c0c10] shadow-[0_8px_32px_rgba(0,0,0,0.6)] p-2 space-y-0.5">
           {stories.map((story) => (
             <button
               key={story.id}
@@ -40,10 +45,14 @@ export function StorySelector({ onSelect }: StorySelectorProps) {
                 onSelect(story)
                 setOpen(false)
               }}
-              className="text-left px-2 py-1.5 rounded hover:bg-white/10 transition-colors"
+              className="w-full text-left px-3 py-2.5 rounded-xl border border-transparent hover:bg-white/[0.03] hover:border-white/[0.05] transition-all group"
             >
-              <div className="text-xs font-semibold text-white/90">{story.title}</div>
-              <div className="text-[10px] text-white/50 line-clamp-2">{story.description}</div>
+              <div className="text-xs font-serif italic text-slate-200 group-hover:text-amber-500 transition-colors">
+                {story.title}
+              </div>
+              <div className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                {story.description}
+              </div>
             </button>
           ))}
         </div>

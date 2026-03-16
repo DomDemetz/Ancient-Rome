@@ -14,10 +14,10 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
   const [collapsed, setCollapsed] = useState(isMobile)
 
   return (
-    <div className="absolute bottom-6 left-3 z-[1000] bg-[#0f0a1a]/80 backdrop-blur-md border border-white/10 rounded-xl shadow-lg text-xs text-[#ddd] max-w-[200px]">
+    <div className="absolute bottom-6 left-3 z-[1000] bg-black/70 backdrop-blur-xl border border-white/[0.05] rounded-2xl shadow-lg text-xs text-[#ddd] max-w-[200px]">
       <button
         onClick={() => setCollapsed((v) => !v)}
-        className="w-full flex items-center justify-between px-3 py-1.5 cursor-pointer bg-transparent border-none text-[#ccc] text-[11px] font-semibold tracking-wide uppercase"
+        className="w-full flex items-center justify-between px-3 py-1.5 cursor-pointer bg-transparent border-none text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400"
       >
         <span>Settlements</span>
         {collapsed ? (
@@ -37,7 +37,7 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
                 key={cat}
                 onClick={() => onToggleCategory(cat)}
                 className={`flex items-center gap-2 cursor-pointer bg-transparent border-none py-px text-left text-xs ${
-                  hidden ? 'text-[#666] opacity-50' : 'text-[#ddd]'
+                  hidden ? 'text-slate-600' : 'text-slate-300'
                 }`}
               >
                 <span

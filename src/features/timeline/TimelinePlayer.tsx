@@ -125,14 +125,14 @@ export function TimelinePlayer() {
   )
 
   return (
-    <div className="flex flex-col px-4 pt-2 pb-1 bg-[#0f0a1a]/80 backdrop-blur-md border-t border-border">
+    <div className="flex flex-col px-4 pt-2 pb-1 bg-black/80 backdrop-blur-2xl border-t border-white/[0.05]">
       {/* Main controls row */}
       <div className="flex items-center gap-3">
         {/* Play / Pause */}
         <button
           onClick={handleTogglePlay}
-          className={`flex items-center justify-center rounded bg-bg-primary hover:bg-bg-hover text-text-primary border border-border shrink-0 ${
-            isMobile ? 'min-w-[44px] min-h-[44px]' : 'w-8 h-8'
+          className={`flex items-center justify-center bg-white/[0.05] hover:bg-white/[0.08] border border-white/[0.06] rounded-full text-amber-500 shrink-0 transition-colors ${
+            isMobile ? 'min-w-[44px] min-h-[44px]' : 'w-9 h-9'
           }`}
           aria-label={playing ? 'Pause' : 'Play'}
         >
@@ -140,7 +140,7 @@ export function TimelinePlayer() {
         </button>
 
         {/* Year display */}
-        <span className="text-text-primary text-sm font-mono w-16 shrink-0 text-center">
+        <span className="text-slate-400 font-mono text-sm w-16 shrink-0 text-center">
           {formatYear(Math.round(currentYear))}
         </span>
 
@@ -155,9 +155,9 @@ export function TimelinePlayer() {
                 style={{ left: `${yearToPercent(tick.year)}%` }}
               >
                 {/* Tick line */}
-                <div className="w-px h-2 bg-text-secondary/40 mx-auto" />
+                <div className="w-px h-2 bg-slate-500/40 mx-auto" />
                 {/* Hover label */}
-                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] text-text-secondary bg-bg-primary border border-border rounded px-1 py-0.5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] text-slate-500 bg-[#0a0a0c] border border-white/[0.06] rounded px-1 py-0.5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
                   {tick.label}
                 </div>
               </div>
@@ -195,10 +195,10 @@ export function TimelinePlayer() {
               <button
                 key={s}
                 onClick={() => setSpeed(s)}
-                className={`text-xs px-1.5 py-0.5 rounded-full border ${
+                className={`text-[9px] font-bold px-2 py-1 rounded-lg border transition-colors ${
                   speed === s
-                    ? 'bg-amber-400 text-black border-amber-400'
-                    : 'bg-bg-primary text-text-secondary border-border hover:text-text-primary'
+                    ? 'bg-amber-600 text-white border-amber-600'
+                    : 'bg-transparent text-slate-500 border-white/[0.06] hover:text-white'
                 }`}
               >
                 {s}x
@@ -213,7 +213,7 @@ export function TimelinePlayer() {
         <div className="flex items-center justify-center pb-0.5">
           <span
             key={currentEra.label}
-            className="text-[10px] text-amber-400/70 font-mono tracking-wide transition-colors duration-300"
+            className="text-[10px] text-amber-500/50 font-mono tracking-wide transition-colors duration-300"
           >
             {currentEra.label} ({formatYear(currentEra.start)} →{' '}
             {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})

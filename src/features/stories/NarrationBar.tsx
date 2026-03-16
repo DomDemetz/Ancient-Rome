@@ -28,20 +28,20 @@ export function NarrationBar({
   const touchTarget = isMobile ? 'min-h-[44px] min-w-[44px]' : ''
 
   return (
-    <div className="shrink-0 border-t bg-[#0f0a1a]/80 backdrop-blur-md border-white/10 px-4 py-3">
+    <div className="shrink-0 bg-black/80 backdrop-blur-2xl border-t border-white/[0.05] px-4 py-3">
       <div className="max-w-4xl mx-auto flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
         {/* Title + counter */}
         <div className="shrink-0">
-          <p className="text-xs text-text-secondary">{story.title}</p>
-          <p className="text-xs text-accent-gold font-medium">
+          <p className="text-xs text-slate-400">{story.title}</p>
+          <p className="text-xs text-amber-500 font-medium">
             Step {stepIndex + 1} / {totalSteps}
           </p>
         </div>
 
         {/* Step content */}
         <div className="flex-1 min-w-0">
-          <p className="text-xs font-medium text-text-primary mb-0.5">{currentStep.title}</p>
-          <p className="text-xs text-text-secondary line-clamp-2">{currentStep.content}</p>
+          <p className="text-xs font-medium text-slate-100 mb-0.5">{currentStep.title}</p>
+          <p className="text-xs text-slate-500 line-clamp-2">{currentStep.content}</p>
         </div>
 
         {/* Controls */}
@@ -80,7 +80,7 @@ export function NarrationBar({
             size="icon-sm"
             onClick={onExit}
             aria-label="Exit story"
-            className={`text-text-secondary hover:text-text-primary ${touchTarget}`}
+            className={`text-slate-400 hover:text-slate-100 ${touchTarget}`}
           >
             <X className="size-4" />
           </Button>

@@ -323,13 +323,13 @@ export function SearchBar() {
 
   const resultsDropdown = open && results.length > 0 && (
     <ul
-      className="absolute top-full left-0 right-0 mt-1 rounded-xl border border-border bg-bg-card shadow-lg overflow-hidden"
+      className="absolute top-full left-0 right-0 mt-1 rounded-xl border border-white/[0.06] bg-black/90 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] overflow-hidden"
       style={{ zIndex: 1001 }}
     >
       {results.map((item) => (
         <li key={item.id}>
           <button
-            className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs hover:bg-bg-secondary transition-colors"
+            className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs hover:bg-white/[0.04] transition-colors"
             onMouseDown={(e) => {
               e.preventDefault()
               handleSelect(item)
@@ -339,8 +339,8 @@ export function SearchBar() {
               className="size-2 rounded-full shrink-0"
               style={{ backgroundColor: item.color }}
             />
-            <span className="text-text-secondary shrink-0">{item.category}</span>
-            <span className="text-text-primary truncate">{item.name}</span>
+            <span className="text-slate-500 shrink-0">{item.category}</span>
+            <span className="text-slate-100 truncate">{item.name}</span>
           </button>
         </li>
       ))}
@@ -356,20 +356,20 @@ export function SearchBar() {
             setMobileOpen(true)
             setOpen(true)
           }}
-          className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full bg-bg-card border border-border text-text-secondary"
+          className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-xl bg-white/[0.04] border border-white/[0.06] text-slate-500"
           aria-label="Search"
         >
           <Search className="size-4" />
         </button>
         {mobileOpen && (
-          <div className="fixed inset-x-0 top-0 z-[1100] bg-bg-primary p-3 border-b border-border shadow-lg">
+          <div className="fixed inset-x-0 top-0 z-[1100] bg-[#0a0a0c] p-3 border-b border-white/[0.06] shadow-lg">
             <div ref={containerRef} className="relative">
               <div className="flex items-center gap-2">
                 <div className="relative flex-1">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-text-secondary pointer-events-none" />
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-slate-500 pointer-events-none" />
                   <input
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Search the Empire..."
                     value={query}
                     onChange={(e) => {
                       setQuery(e.target.value)
@@ -377,7 +377,7 @@ export function SearchBar() {
                     }}
                     onFocus={() => setOpen(true)}
                     autoFocus
-                    className="w-full rounded-full h-10 pl-9 pr-3 text-sm bg-bg-card border border-border text-text-primary placeholder:text-text-secondary focus:outline-none focus:border-accent-gold focus:ring-2 focus:ring-accent-gold/20"
+                    className="w-full rounded-xl h-10 pl-9 pr-3 text-sm bg-white/[0.04] border border-white/[0.06] text-white placeholder:text-slate-500 focus:outline-none focus:border-amber-500/30 focus:shadow-[0_0_20px_rgba(245,158,11,0.08)]"
                   />
                 </div>
                 <button
@@ -386,7 +386,7 @@ export function SearchBar() {
                     setOpen(false)
                     setQuery('')
                   }}
-                  className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full text-text-secondary hover:text-text-primary transition-colors"
+                  className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full text-slate-500 hover:text-slate-100 transition-colors"
                   aria-label="Close search"
                 >
                   <X className="size-5" />
@@ -402,21 +402,21 @@ export function SearchBar() {
 
   // Desktop
   return (
-    <div ref={containerRef} className="relative w-64">
-      <div className="relative rounded-full bg-bg-card border border-border focus-within:border-accent-gold focus-within:ring-2 focus-within:ring-accent-gold/20 transition-all">
-        <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 size-3.5 text-text-secondary pointer-events-none" />
+    <div ref={containerRef} className="relative w-72 mx-2">
+      <div className="relative rounded-xl bg-white/[0.04] border border-white/[0.06] focus-within:border-amber-500/30 focus-within:shadow-[0_0_20px_rgba(245,158,11,0.08)] transition-all">
+        <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 size-3.5 text-slate-500 pointer-events-none" />
         <Input
           type="text"
-          placeholder="Search..."
+          placeholder="Search the Empire..."
           value={query}
           onChange={(e) => {
             setQuery(e.target.value)
             setOpen(true)
           }}
           onFocus={() => setOpen(true)}
-          className="pl-8 pr-12 h-8 text-xs bg-transparent border-none text-text-primary placeholder:text-text-secondary focus-visible:ring-0 focus-visible:ring-offset-0"
+          className="pl-8 pr-12 h-8 text-sm bg-transparent border-none text-white placeholder:text-slate-500 focus-visible:ring-0 focus-visible:ring-offset-0"
         />
-        <span className="absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded pointer-events-none">
+        <span className="absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-slate-600 bg-white/[0.05] px-1.5 py-0.5 rounded pointer-events-none">
           ⌘K
         </span>
       </div>
