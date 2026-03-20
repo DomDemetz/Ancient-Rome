@@ -1,6 +1,7 @@
 import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { esc } from '@/lib/wiki-popup'
 
 interface ViciSite {
   id: string
@@ -124,16 +125,16 @@ export function ViciLayer({ data }: ViciLayerProps) {
       {visible.map((s) => {
         const color = TYPE_COLORS[s.siteType] || TYPE_COLORS.other
 
-        let tooltipHtml = `<div class="map-tooltip-title">${s.name || 'Unknown site'}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${s.name ? esc(s.name) : 'Unknown site'}</div>`
         if (s.siteType !== 'other')
-          tooltipHtml += `<div class="map-tooltip-sub">${s.siteType}</div>`
+          tooltipHtml += `<div class="map-tooltip-sub">${esc(s.siteType)}</div>`
         const details: string[] = []
         if (s.startYear || s.endYear) {
           const start = s.startYear ? formatYear(s.startYear) : '?'
           const end = s.endYear ? formatYear(s.endYear) : '?'
           details.push(`${start} \u2013 ${end}`)
         }
-        if (s.description) details.push(s.description.substring(0, 100))
+        if (s.description) details.push(esc(s.description.substring(0, 100)))
         if (details.length)
           tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 

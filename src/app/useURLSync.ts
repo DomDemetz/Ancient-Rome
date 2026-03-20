@@ -16,29 +16,32 @@ export function useURLSync() {
     if (lens) switchLens(lens)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Write URL on state changes
+  // Write URL on state changes — single batched update to prevent race
   useEffect(() => {
-    const unsubs = [
-      useSelectionStore.subscribe((state) => {
+    let rafId: number | null = null
+
+    function scheduleSync() {
+      if (rafId !== null) return
+      rafId = requestAnimationFrame(() => {
+        rafId = null
+        const selectedId = useSelectionStore.getState().selectedId
+        const lens = useUIStore.getState().lens
         setSearchParams(
           (prev) => {
-            if (state.selectedId) prev.set('entity', state.selectedId)
+            if (selectedId) prev.set('entity', selectedId)
             else prev.delete('entity')
+            prev.set('lens', lens)
             return prev
           },
           { replace: true },
         )
-      }),
-      useUIStore.subscribe((state) => {
-        setSearchParams(
-          (prev) => {
-            prev.set('lens', state.lens)
-            return prev
-          },
-          { replace: true },
-        )
-      }),
-    ]
-    return () => unsubs.forEach((u) => u())
+      })
+    }
+
+    const unsubs = [useSelectionStore.subscribe(scheduleSync), useUIStore.subscribe(scheduleSync)]
+    return () => {
+      unsubs.forEach((u) => u())
+      if (rafId !== null) cancelAnimationFrame(rafId)
+    }
   }, [setSearchParams])
 }

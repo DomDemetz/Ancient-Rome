@@ -2,6 +2,7 @@ import { GeoJSON } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
+import { esc } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo } from 'react'
 
@@ -19,7 +20,7 @@ const LIMES_STYLE: PathOptions = {
 function onEachLimes(feature: Feature, layer: L.Layer) {
   const sector = feature.properties?.sector
   if (sector) {
-    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${sector}</div>`)
+    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${esc(sector)}</div>`)
   }
 }
 

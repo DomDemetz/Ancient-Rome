@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useMapLayerStore } from '@/stores/useMapLayerStore'
+import { useMapLayerStore, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
 
 export interface StoryStep {
   id: string
@@ -48,28 +48,7 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
     // Activate layers for this step
     if (step.layers && step.layers.length > 0) {
       const update: Record<string, boolean> = {}
-      const allKeys = [
-        'showRoads',
-        'showSettlements',
-        'showLimes',
-        'showPresence',
-        'showProvinces',
-        'showFortifications',
-        'showWater',
-        'showItinereRoads',
-        'showBattles',
-        'showAmphitheaters',
-        'showLegions',
-        'showShipwrecks',
-        'showMines',
-        'showAqueducts',
-        'showReligion',
-        'showBuildings',
-        'showPresses',
-        'showTradeNetwork',
-        'showEpigraphy',
-      ]
-      for (const key of allKeys) {
+      for (const key of ALL_LAYER_KEYS) {
         update[key] = step.layers.includes(key)
       }
       useMapLayerStore.setState({ ...update, activePreset: 'custom' as const })

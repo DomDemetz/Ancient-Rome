@@ -4,7 +4,7 @@ import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip } from '@/lib/wiki-popup'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 
 interface BattleLayerProps {
   data: Battle[]
@@ -23,11 +23,13 @@ function formatYear(year: number): string {
 }
 
 function buildTooltipHtml(b: Battle): string {
-  let html = `<div class="map-tooltip-title">Battle of ${b.name}</div>`
-  html += `<div class="map-tooltip-sub">${formatYear(b.year)} · ${b.combatants}</div>`
+  const title =
+    b.name.startsWith('Battle of') || b.name.startsWith('Siege of') ? b.name : `Battle of ${b.name}`
+  let html = `<div class="map-tooltip-title">${esc(title)}</div>`
+  html += `<div class="map-tooltip-sub">${formatYear(b.year)} · ${esc(b.combatants)}</div>`
   const details: string[] = []
-  if (b.commander) details.push(`Commander: ${b.commander}`)
-  details.push(`Outcome: ${b.outcome}`)
+  if (b.commander) details.push(`Commander: ${esc(b.commander)}`)
+  details.push(`Outcome: ${esc(b.outcome)}`)
   if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
   return html
 }
@@ -114,7 +116,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Popup offset={[0, -4]} closeButton={false}>
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: appendWikiTooltip(buildTooltipHtml(b), b.id, wikiLookup, 'battles'),
@@ -126,7 +128,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
       })}
       {flashBattles.map((b) => (
         <Marker
-          key={`flash-${b.id}`}
+          key={`flash-${b.id}-${currentYear}`}
           position={[b.lat, b.lng]}
           icon={flashIcon}
           interactive={false}

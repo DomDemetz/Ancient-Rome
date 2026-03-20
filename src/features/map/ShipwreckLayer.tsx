@@ -2,6 +2,7 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Shipwreck } from '@/data/shipwrecks'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { esc } from '@/lib/wiki-popup'
 
 interface ShipwreckLayerProps {
   data: Shipwreck[]
@@ -81,13 +82,13 @@ export function ShipwreckLayer({ data }: ShipwreckLayerProps) {
         const isRecent = currentYear - w.startYear < 100
         const opacity = isRecent ? 0.8 : 0.5
 
-        let tooltipHtml = `<div class="map-tooltip-title">${w.name}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(w.name)}</div>`
         const sub: string[] = []
-        if (w.cargoType) sub.push(w.cargoType)
+        if (w.cargoType) sub.push(esc(w.cargoType))
         if (sub.length) tooltipHtml += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
         const details: string[] = [`${formatYear(w.startYear)} \u2013 ${formatYear(w.endYear)}`]
         if (w.depth) details.push(`Depth: ${w.depth}m`)
-        if (w.description) details.push(w.description)
+        if (w.description) details.push(esc(w.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (

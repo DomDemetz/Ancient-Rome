@@ -3,7 +3,7 @@ import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { DareSettlement, CityPopulation } from '@/data/dare'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip } from '@/lib/wiki-popup'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import {
   DARE_TYPE_LABELS,
   DARE_TYPE_TO_CATEGORY,
@@ -52,7 +52,9 @@ function interpolatePopulation(
   // Find bracketing points and interpolate
   for (let i = 0; i < pops.length - 1; i++) {
     if (year >= pops[i].year && year <= pops[i + 1].year) {
-      const t = (year - pops[i].year) / (pops[i + 1].year - pops[i].year)
+      const span = pops[i + 1].year - pops[i].year
+      if (span === 0) return pops[i].population
+      const t = (year - pops[i].year) / span
       return Math.round(pops[i].population + t * (pops[i + 1].population - pops[i].population))
     }
   }
@@ -72,11 +74,11 @@ function populationRadius(pop: number, zoom: number): number {
 }
 
 function buildTooltipHtml(s: DareSettlement, population?: number | null): string {
-  let html = `<div class="map-tooltip-title">${s.name}</div>`
+  let html = `<div class="map-tooltip-title">${esc(s.name)}</div>`
 
   const sub: string[] = []
-  if (s.modern && s.modern !== s.name) sub.push(s.modern)
-  if (s.greek) sub.push(s.greek)
+  if (s.modern && s.modern !== s.name) sub.push(esc(s.modern))
+  if (s.greek) sub.push(esc(s.greek))
   if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
 
   const typeLabel = DARE_TYPE_LABELS[s.type]
@@ -198,7 +200,7 @@ export function SettlementLayer({
             }}
             bubblingMouseEvents={false}
           >
-            <Popup offset={[0, -4]} closeButton={false}>
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: appendWikiTooltip(

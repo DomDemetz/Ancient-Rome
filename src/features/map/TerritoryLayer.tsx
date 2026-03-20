@@ -1,4 +1,4 @@
-import { GeoJSON, Popup } from 'react-leaflet'
+import { GeoJSON } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { TerritorySnapshot } from '@/types'
 
@@ -59,9 +59,7 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
               opacity: 0.5,
               pane: 'basePolygons',
             }}
-          >
-            {snap.label && <Popup closeButton={false}>{snap.label}</Popup>}
-          </GeoJSON>
+          />
         )
       })}
     </>

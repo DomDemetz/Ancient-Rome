@@ -2,6 +2,7 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Mine } from '@/data/mines'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { esc } from '@/lib/wiki-popup'
 
 interface ResourcesLayerProps {
   data: Mine[]
@@ -71,10 +72,10 @@ export function ResourcesLayer({ data }: ResourcesLayerProps) {
       {visible.map((m) => {
         const color = RESOURCE_COLORS[m.resourceType] || '#95a5a6'
 
-        let tooltipHtml = `<div class="map-tooltip-title">${m.name}</div>`
-        tooltipHtml += `<div class="map-tooltip-sub">${m.siteType === 'mine' ? 'Mine' : 'Quarry'}: ${m.resourceType}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(m.name)}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${m.siteType === 'mine' ? 'Mine' : 'Quarry'}: ${esc(m.resourceType)}</div>`
         const details: string[] = [`${formatYear(m.startYear)} \u2013 ${formatYear(m.endYear)}`]
-        if (m.description) details.push(m.description)
+        if (m.description) details.push(esc(m.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (

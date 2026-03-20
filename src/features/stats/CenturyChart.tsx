@@ -11,17 +11,23 @@ function getStartYear(e: Entity): number | null {
   return null
 }
 
+function ordinal(n: number): string {
+  return `${n}${n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th'}`
+}
+
 function centuryLabel(year: number): string {
   if (year < 0) {
     const c = Math.ceil(Math.abs(year) / 100)
-    return `${c}${c === 1 ? 'st' : c === 2 ? 'nd' : c === 3 ? 'rd' : 'th'} c. BC`
+    return `${ordinal(c)} c. BC`
   }
-  const c = Math.ceil(year / 100)
-  return `${c}${c === 1 ? 'st' : c === 2 ? 'nd' : c === 3 ? 'rd' : 'th'} c. AD`
+  // Year 0 doesn't exist historically; treat as 1st c. AD
+  const c = Math.max(1, Math.ceil(year / 100))
+  return `${ordinal(c)} c. AD`
 }
 
 function centurySortKey(year: number): number {
-  return year < 0 ? Math.ceil(year / 100) : Math.ceil(year / 100)
+  if (year < 0) return Math.ceil(year / 100)
+  return Math.max(1, Math.ceil(year / 100))
 }
 
 export function CenturyChart() {

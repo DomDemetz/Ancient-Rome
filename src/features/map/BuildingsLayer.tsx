@@ -3,7 +3,7 @@ import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Building } from '@/data/buildings'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip } from '@/lib/wiki-popup'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 
 interface BuildingsLayerProps {
   data: Building[]
@@ -63,7 +63,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
 
   const visible = useMemo(() => {
     return data.filter((b) => {
-      if (b.constructionYear > currentYear) return false
+      if (b.constructionYear != null && b.constructionYear > currentYear) return false
 
       // Progressive disclosure: 3 tiers
       if (zoom < 6) return false
@@ -90,11 +90,11 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
       {visible.map((b) => {
         const color = BUILDING_COLORS[b.buildingType] || '#95a5a6'
 
-        let tooltipHtml = `<div class="map-tooltip-title">${b.name}</div>`
-        tooltipHtml += `<div class="map-tooltip-sub">${b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1)}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(b.name)}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${esc(b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1))}</div>`
         const details: string[] = [`Built: ${formatYear(b.constructionYear)}`]
-        if (b.builder) details.push(b.builder)
-        if (b.description) details.push(b.description)
+        if (b.builder) details.push(esc(b.builder))
+        if (b.description) details.push(esc(b.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
@@ -110,7 +110,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Popup offset={[0, -4]} closeButton={false}>
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: appendWikiTooltip(tooltipHtml, b.id, wikiLookup, 'buildings'),

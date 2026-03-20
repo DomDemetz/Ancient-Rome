@@ -2,6 +2,7 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Press } from '@/data/presses'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { esc } from '@/lib/wiki-popup'
 
 interface PressesLayerProps {
   data: Press[]
@@ -57,10 +58,10 @@ export function PressesLayer({ data }: PressesLayerProps) {
       {visible.map((p) => {
         const color = PRESS_COLORS[p.pressType] || '#8b6914'
 
-        let tooltipHtml = `<div class="map-tooltip-title">${p.name}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(p.name)}</div>`
         tooltipHtml += `<div class="map-tooltip-sub">${p.pressType === 'oil' ? 'Olive oil' : 'Wine'} press</div>`
         const details: string[] = [`${formatYear(p.startYear)} \u2013 ${formatYear(p.endYear)}`]
-        if (p.description) details.push(p.description)
+        if (p.description) details.push(esc(p.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (

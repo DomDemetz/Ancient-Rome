@@ -2,6 +2,7 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { esc } from '@/lib/wiki-popup'
 
 interface EpigraphyLayerProps {
   data: EpigraphyCluster[]
@@ -82,7 +83,7 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
             <span
               dangerouslySetInnerHTML={{
                 __html:
-                  `<div class="map-tooltip-title">${c.province}</div>` +
+                  `<div class="map-tooltip-title">${esc(c.province)}</div>` +
                   `<div class="map-tooltip-detail">${c.count.toLocaleString()} inscriptions · ${formatYear(c.startYear)} \u2013 ${formatYear(c.endYear)}</div>`,
               }}
             />

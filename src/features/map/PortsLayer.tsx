@@ -1,6 +1,8 @@
 import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 
 interface Port {
   id: string
@@ -51,6 +53,7 @@ export function PortsLayer({ data }: PortsLayerProps) {
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const wikiLookup = useWikiEnrichment('ports')
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -107,13 +110,19 @@ export function PortsLayer({ data }: PortsLayerProps) {
             pathOptions={{ color: '#1a3a5c', weight: 0.5, fillColor: color, fillOpacity: 0.8 }}
             bubblingMouseEvents={false}
           >
-            <Popup offset={[0, -4]} closeButton={false}>
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
-                  __html:
-                    `<div class="map-tooltip-title">${p.name}</div>` +
-                    `<div class="map-tooltip-sub">${p.portType.replace('_', ' ')}</div>` +
-                    (p.description ? `<div class="map-tooltip-detail">${p.description}</div>` : ''),
+                  __html: appendWikiTooltip(
+                    `<div class="map-tooltip-title">${esc(p.name)}</div>` +
+                      `<div class="map-tooltip-sub">${esc(p.portType.replaceAll('_', ' '))}</div>` +
+                      (p.description
+                        ? `<div class="map-tooltip-detail">${esc(p.description)}</div>`
+                        : ''),
+                    p.id,
+                    wikiLookup,
+                    'ports',
+                  ),
                 }}
               />
             </Popup>

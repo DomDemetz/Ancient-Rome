@@ -20,8 +20,8 @@ export function PowerRankings() {
     return [...scores.entries()]
       .sort((a, b) => b[1] - a[1])
       .slice(0, 10)
-      .map(([id, score]) => ({ entity: entityMap.get(id)!, score }))
-      .filter((r) => r.entity)
+      .map(([id, score]) => ({ entity: entityMap.get(id), score }))
+      .filter((r): r is { entity: (typeof entities)[number]; score: number } => r.entity != null)
   }, [])
 
   const max = Math.max(...rankings.map((r) => r.score), 1)
@@ -47,7 +47,7 @@ export function PowerRankings() {
                 style={{ width: `${(r.score / max) * 100}%` }}
               />
             </div>
-            <span className="w-6 text-right text-slate-500">{r.score}</span>
+            <span className="w-6 text-right text-slate-500">{Math.round(r.score)}</span>
           </button>
         ))}
       </div>

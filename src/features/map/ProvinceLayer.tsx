@@ -2,6 +2,7 @@ import { GeoJSON, Marker } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
+import { esc } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback, useRef } from 'react'
 import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
@@ -56,7 +57,7 @@ function createLabelIcon(name: string): L.DivIcon {
 function onEachSenatorial(feature: Feature, layer: L.Layer) {
   const name = feature.properties?.name
   if (name) {
-    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${name} (Senatorial)</div>`)
+    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${esc(name)} (Senatorial)</div>`)
   }
 }
 
@@ -113,7 +114,7 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
     const path = layer as L.Path
     const name = feature.properties?.name
     if (name) {
-      path.bindPopup(`<div class="map-tooltip-title">${name}</div>`)
+      path.bindPopup(`<div class="map-tooltip-title">${esc(name)}</div>`)
     }
     path.on('click', () => {
       if (selectedRef.current && selectedRef.current !== path) {

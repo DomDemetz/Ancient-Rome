@@ -63,15 +63,15 @@ export const DARE_TYPE_TO_CATEGORY: Record<number, SettlementCategory> = {
   58: 'production',
   52: 'production',
   66: 'production',
-  32: 'funerary',
-  35: 'funerary',
-  46: 'funerary',
-  47: 'funerary',
-  50: 'funerary',
-  34: 'funerary',
-  63: 'funerary',
-  64: 'funerary',
-  76: 'funerary',
+  35: 'military', // Late Roman Fortification
+  46: 'infrastructure', // Bath
+  47: 'infrastructure', // Aqueduct
+  76: 'infrastructure', // Lighthouse
+  32: 'funerary', // Tumulus
+  50: 'funerary', // Mausoleum
+  34: 'funerary', // Arch / Trophy
+  63: 'funerary', // Cemetery
+  64: 'funerary', // Monument
   31: 'cities', // Iron Age Oppidum → cities
 }
 

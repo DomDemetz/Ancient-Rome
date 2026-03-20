@@ -53,6 +53,7 @@ function MapNavHandler() {
     clearFlyTo()
 
     // Add a bold highlight ring at the target after the fly animation
+    let innerTimer: ReturnType<typeof setTimeout>
     const timer = setTimeout(() => {
       const highlight = L.circleMarker([lat, lng], {
         radius: 22,
@@ -63,7 +64,6 @@ function MapNavHandler() {
         className: 'search-highlight',
       }).addTo(map)
 
-      // Add a second inner ring for emphasis
       const inner = L.circleMarker([lat, lng], {
         radius: 10,
         color: '#f39c12',
@@ -72,14 +72,16 @@ function MapNavHandler() {
         className: 'search-highlight',
       }).addTo(map)
 
-      // Remove after a few seconds
-      setTimeout(() => {
+      innerTimer = setTimeout(() => {
         highlight.remove()
         inner.remove()
       }, 4000)
     }, 1200)
 
-    return () => clearTimeout(timer)
+    return () => {
+      clearTimeout(timer)
+      clearTimeout(innerTimer)
+    }
   }, [pendingFlyTo, map, clearFlyTo])
 
   return null

@@ -47,7 +47,22 @@ function getEntityYearRange(entity: Entity): [number, number] | null {
         return [s, e]
       }
       return null
+    case 'dynasty':
+      if (entity.startYear !== undefined || entity.endYear !== undefined) {
+        const s = entity.startYear ?? entity.endYear!
+        const e = entity.endYear ?? entity.startYear!
+        return [s, e]
+      }
+      return null
+    case 'document':
+      if (entity.date !== undefined) return [entity.date, entity.date]
+      return null
+    case 'infrastructure':
+      if (entity.builtYear !== undefined) return [entity.builtYear, entity.builtYear]
+      return null
     case 'location':
+    case 'religion':
+    case 'trade-good':
       return null
     default:
       return null

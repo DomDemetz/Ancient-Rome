@@ -41,27 +41,25 @@ export function useStoryMode() {
   }, [restoreSnapshot])
 
   const nextStep = useCallback(() => {
+    let entityToSelect: string | undefined
     setState((prev) => {
       if (!prev.activeStory) return prev
       const nextIndex = Math.min(prev.stepIndex + 1, prev.activeStory.steps.length - 1)
-      const nextStepObj = prev.activeStory.steps[nextIndex]
-      if (nextStepObj?.entityIds?.[0]) {
-        select(nextStepObj.entityIds[0])
-      }
+      entityToSelect = prev.activeStory.steps[nextIndex]?.entityIds?.[0]
       return { ...prev, stepIndex: nextIndex }
     })
+    if (entityToSelect) select(entityToSelect)
   }, [select])
 
   const prevStep = useCallback(() => {
+    let entityToSelect: string | undefined
     setState((prev) => {
       if (!prev.activeStory) return prev
       const prevIndex = Math.max(prev.stepIndex - 1, 0)
-      const prevStepObj = prev.activeStory.steps[prevIndex]
-      if (prevStepObj?.entityIds?.[0]) {
-        select(prevStepObj.entityIds[0])
-      }
+      entityToSelect = prev.activeStory.steps[prevIndex]?.entityIds?.[0]
       return { ...prev, stepIndex: prevIndex }
     })
+    if (entityToSelect) select(entityToSelect)
   }, [select])
 
   return {

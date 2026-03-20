@@ -102,6 +102,42 @@ export async function loadSettlementWiki(): Promise<WikiLookup> {
   return data.default as unknown as WikiLookup
 }
 
+export async function loadEmperorWiki(): Promise<WikiLookup> {
+  try {
+    const data = await import('./emperors-wiki.json')
+    return data.default as unknown as WikiLookup
+  } catch {
+    return {}
+  }
+}
+
+export async function loadLegionWiki(): Promise<WikiLookup> {
+  try {
+    const data = await import('./legions-wiki.json')
+    return data.default as unknown as WikiLookup
+  } catch {
+    return {}
+  }
+}
+
+export async function loadAqueductWiki(): Promise<WikiLookup> {
+  try {
+    const data = await import('./aqueducts-wiki.json')
+    return data.default as unknown as WikiLookup
+  } catch {
+    return {}
+  }
+}
+
+export async function loadPortWiki(): Promise<WikiLookup> {
+  try {
+    const data = await import('./ports-wiki.json')
+    return data.default as unknown as WikiLookup
+  } catch {
+    return {}
+  }
+}
+
 export async function loadWikidataStructured(): Promise<WikidataStructuredLookup> {
   try {
     const data = await import('./wikidata-structured.json')
@@ -147,6 +183,16 @@ export async function loadCrossReference(): Promise<CrossRefLookup> {
   }
 }
 
+/** Map layer names to their cross-reference key prefixes */
+const LAYER_SINGULAR: Record<string, string> = {
+  amphitheaters: 'amphitheater',
+  battles: 'battle',
+  buildings: 'building',
+  settlements: 'settlement',
+  entities: 'entity',
+  presses: 'press',
+}
+
 /**
  * Merge base wiki enrichment with Wikidata structured data and cross-reference data.
  */
@@ -157,11 +203,11 @@ export function mergeStructuredData(
   layer?: string,
 ): WikiLookup {
   const merged: WikiLookup = {}
+  const prefix = layer ? (LAYER_SINGULAR[layer] ?? layer.replace(/s$/, '')) : ''
   for (const [id, entry] of Object.entries(wiki)) {
     const wd = structured[id]
     // Cross-ref keys are prefixed: "settlement:2", "amphitheater:flavian-amphitheater", etc.
-    const layerSingular = layer?.replace(/s$/, '') ?? ''
-    const cr = crossRef?.[`${layerSingular}:${id}`] ?? crossRef?.[id]
+    const cr = crossRef?.[`${prefix}:${id}`] ?? crossRef?.[id]
 
     merged[id] = {
       ...entry,

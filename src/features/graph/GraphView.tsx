@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useMemo, useRef, useCallback } from 'react'
 import * as d3 from 'd3'
 import { useShallow } from 'zustand/shallow'
 import { entities, connections } from '@/data'
@@ -36,10 +36,7 @@ export function GraphView() {
 
   const handleZoomOut = useCallback(() => {
     if (!svgRef.current || !zoomRef.current) return
-    d3.select(svgRef.current)
-      .transition()
-      .duration(300)
-      .call(zoomRef.current.scaleBy, 1 / 1.4)
+    d3.select(svgRef.current).transition().duration(300).call(zoomRef.current.scaleBy, 0.7)
   }, [])
 
   const handleReset = useCallback(() => {
@@ -50,11 +47,32 @@ export function GraphView() {
       .call(zoomRef.current.transform, d3.zoomIdentity)
   }, [])
 
+  // Compute the full node/link set from filters (without currentYear)
+  // so the simulation layout is stable while scrubbing the timeline
+  const { allNodes, allLinks } = useMemo(() => {
+    const filteredEntities = filterEntities(entities, filters)
+    const filteredConnections = filterConnections(
+      connections,
+      filteredEntities,
+      filters.connectionTypes,
+    )
+    const nodes = entitiesToNodes(filteredEntities)
+    const nodeIds = new Set(nodes.map((n) => n.id))
+    const links = connectionsToLinks(filteredConnections, nodeIds)
+    return { allNodes: nodes, allLinks: links }
+  }, [filters])
+
+  // Compute which node IDs are visible at the current year
+  const visibleIds = useMemo(() => {
+    const visible = filterEntities(entities, filters, currentYear)
+    return new Set(visible.map((e) => e.id))
+  }, [filters, currentYear])
+
+  // Build the D3 simulation once when filters change (not on every year tick)
   useEffect(() => {
     const svgEl = svgRef.current
     if (!svgEl) return
 
-    // Stop previous simulation
     if (simulationRef.current) {
       simulationRef.current.stop()
     }
@@ -65,23 +83,8 @@ export function GraphView() {
     const width = svgEl.clientWidth || 800
     const height = svgEl.clientHeight || 600
 
-    // Filter data
-    const filteredEntities = filterEntities(entities, filters, currentYear)
-    const filteredConnections = filterConnections(
-      connections,
-      filteredEntities,
-      filters.connectionTypes,
-    )
-
-    // Convert to graph nodes/links
-    const nodes: GraphNode[] = entitiesToNodes(filteredEntities)
-    const nodeIds = new Set(nodes.map((n) => n.id))
-    const links: GraphLink[] = connectionsToLinks(filteredConnections, nodeIds)
-
-    // Main group for zoom/pan
     const g = svg.append('g').attr('class', 'graph-root')
 
-    // Zoom behavior
     const zoom = d3
       .zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.1, 4])
@@ -92,13 +95,12 @@ export function GraphView() {
     zoomRef.current = zoom
     svg.call(zoom)
 
-    // Simulation
     const simulation = d3
-      .forceSimulation<GraphNode, GraphLink>(nodes)
+      .forceSimulation<GraphNode, GraphLink>(allNodes)
       .force(
         'link',
         d3
-          .forceLink<GraphNode, GraphLink>(links)
+          .forceLink<GraphNode, GraphLink>(allLinks)
           .id((d) => d.id)
           .distance(60),
       )
@@ -113,7 +115,7 @@ export function GraphView() {
       .append('g')
       .attr('class', 'links')
       .selectAll('line')
-      .data(links)
+      .data(allLinks)
       .join('line')
       .attr('stroke', '#555')
       .attr('stroke-opacity', 0.4)
@@ -124,7 +126,7 @@ export function GraphView() {
       .append('g')
       .attr('class', 'nodes')
       .selectAll<SVGGElement, GraphNode>('g')
-      .data(nodes, (d) => d.id)
+      .data(allNodes, (d) => d.id)
       .join('g')
       .attr('cursor', 'pointer')
       .call(
@@ -149,15 +151,11 @@ export function GraphView() {
         select(d.id)
       })
 
-    // Node circles
     node
       .append('circle')
-      .attr('r', (d) => (d.id === selectedId ? 10 : 6))
+      .attr('r', 6)
       .attr('fill', (d) => getNodeColor(d.entityType))
-      .attr('stroke', (d) => (d.id === selectedId ? '#fff' : 'transparent'))
-      .attr('stroke-width', (d) => (d.id === selectedId ? 2.5 : 0))
 
-    // Node labels
     node
       .append('text')
       .text((d) => d.name)
@@ -167,7 +165,6 @@ export function GraphView() {
       .attr('fill', '#ccc')
       .attr('pointer-events', 'none')
 
-    // Tick handler
     simulation.on('tick', () => {
       link
         .attr('x1', (d) => (d.source as GraphNode).x ?? 0)
@@ -181,11 +178,27 @@ export function GraphView() {
     return () => {
       simulation.stop()
     }
-    // Re-run when filters or timeline year change (selectedId changes handled separately below)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filters, currentYear])
+  }, [allNodes, allLinks, select])
 
-  // Update selected node appearance without rebuilding the whole simulation
+  // Update visibility based on currentYear without rebuilding the simulation
+  useEffect(() => {
+    const svgEl = svgRef.current
+    if (!svgEl) return
+    const svg = d3.select(svgEl)
+
+    svg
+      .selectAll<SVGGElement, GraphNode>('.nodes g')
+      .attr('opacity', (d) => (visibleIds.has(d.id) ? 1 : 0.08))
+      .attr('pointer-events', (d) => (visibleIds.has(d.id) ? 'all' : 'none'))
+
+    svg.selectAll<SVGLineElement, GraphLink>('.links line').attr('opacity', (d) => {
+      const s = (d.source as GraphNode).id
+      const t = (d.target as GraphNode).id
+      return visibleIds.has(s) && visibleIds.has(t) ? 0.4 : 0.03
+    })
+  }, [visibleIds])
+
+  // Update selected node appearance without rebuilding
   useEffect(() => {
     const svgEl = svgRef.current
     if (!svgEl) return

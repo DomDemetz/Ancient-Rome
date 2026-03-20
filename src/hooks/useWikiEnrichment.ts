@@ -19,17 +19,23 @@ let crossRefCache: CrossRefLookup | null = null
 let structuredLoading = false
 let crossRefLoading = false
 
+/** Poll for a cache value with a 10s timeout, returning fallback on expiry */
+function waitForCache<T>(getCached: () => T | null, fallback: T): Promise<T> {
+  return new Promise((resolve) => {
+    const deadline = Date.now() + 10_000
+    const check = () => {
+      const val = getCached()
+      if (val) resolve(val)
+      else if (Date.now() >= deadline) resolve(fallback)
+      else setTimeout(check, 50)
+    }
+    check()
+  })
+}
+
 async function ensureStructuredLoaded(): Promise<WikidataStructuredLookup> {
   if (structuredCache) return structuredCache
-  if (structuredLoading) {
-    return new Promise((resolve) => {
-      const check = () => {
-        if (structuredCache) resolve(structuredCache)
-        else setTimeout(check, 50)
-      }
-      check()
-    })
-  }
+  if (structuredLoading) return waitForCache(() => structuredCache, {})
   structuredLoading = true
   try {
     const { loadWikidataStructured } = await import('@/data/wiki')
@@ -43,15 +49,7 @@ async function ensureStructuredLoaded(): Promise<WikidataStructuredLookup> {
 
 async function ensureCrossRefLoaded(): Promise<CrossRefLookup> {
   if (crossRefCache) return crossRefCache
-  if (crossRefLoading) {
-    return new Promise((resolve) => {
-      const check = () => {
-        if (crossRefCache) resolve(crossRefCache)
-        else setTimeout(check, 50)
-      }
-      check()
-    })
-  }
+  if (crossRefLoading) return waitForCache(() => crossRefCache, {})
   crossRefLoading = true
   try {
     const { loadCrossReference } = await import('@/data/wiki')
@@ -93,15 +91,26 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
     'buildings',
   ),
   entities: makeLayerLoader(async () => (await import('@/data/wiki')).loadEntityWiki(), 'entities'),
+  emperors: makeLayerLoader(
+    async () => (await import('@/data/wiki')).loadEmperorWiki(),
+    'emperors',
+  ),
+  legions: makeLayerLoader(async () => (await import('@/data/wiki')).loadLegionWiki(), 'legions'),
+  aqueducts: makeLayerLoader(
+    async () => (await import('@/data/wiki')).loadAqueductWiki(),
+    'aqueducts',
+  ),
+  ports: makeLayerLoader(async () => (await import('@/data/wiki')).loadPortWiki(), 'ports'),
 }
 
 const loading = new Set<string>()
+const failed = new Set<string>()
 
 export function useWikiEnrichment(layer: string): WikiLookup | null {
   const lookup = useSyncExternalStore(subscribe, () => cache.get(layer) ?? null)
 
   useEffect(() => {
-    if (cache.has(layer) || loading.has(layer)) return
+    if (cache.has(layer) || loading.has(layer) || failed.has(layer)) return
 
     const loader = LAYER_LOADERS[layer]
     if (!loader) return
@@ -113,7 +122,8 @@ export function useWikiEnrichment(layer: string): WikiLookup | null {
         notify()
       })
       .catch(() => {
-        // Wiki data is optional — fail silently
+        // Wiki data is optional — mark as failed to prevent infinite retries
+        failed.add(layer)
       })
       .finally(() => loading.delete(layer))
   }, [layer])

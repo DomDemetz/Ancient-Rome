@@ -2,6 +2,7 @@ import { GeoJSON } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
+import { esc } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback } from 'react'
 import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
@@ -50,7 +51,7 @@ export function RoadLayer({ data }: RoadLayerProps) {
     const props = feature.properties || {}
     if (!props.name && !props.major) return
     let html = ''
-    if (props.name) html += `<div class="map-tooltip-title">${props.name}</div>`
+    if (props.name) html += `<div class="map-tooltip-title">${esc(props.name)}</div>`
     const sub: string[] = []
     if (props.major) sub.push('Major road')
     if (props.attestedYear != null) {

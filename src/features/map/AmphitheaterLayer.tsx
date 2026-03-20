@@ -3,7 +3,7 @@ import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip } from '@/lib/wiki-popup'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 
 interface AmphitheaterLayerProps {
   data: Amphitheater[]
@@ -15,11 +15,11 @@ function formatYear(year: number): string {
 }
 
 function buildTooltipHtml(a: Amphitheater): string {
-  let html = `<div class="map-tooltip-title">${a.name}</div>`
-  if (a.city) html += `<div class="map-tooltip-sub">${a.city}</div>`
+  let html = `<div class="map-tooltip-title">${esc(a.name)}</div>`
+  if (a.city) html += `<div class="map-tooltip-sub">${esc(a.city)}</div>`
   const details: string[] = []
   if (a.capacity) details.push(`Capacity: ${a.capacity.toLocaleString()}`)
-  if (a.dimensions) details.push(a.dimensions)
+  if (a.dimensions) details.push(esc(a.dimensions))
   if (a.constructionYear != null) details.push(`Built: ${formatYear(a.constructionYear)}`)
   if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
   return html
@@ -88,7 +88,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
           }}
           bubblingMouseEvents={false}
         >
-          <Popup offset={[0, -4]} closeButton={false}>
+          <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
             <span
               dangerouslySetInnerHTML={{
                 __html: appendWikiTooltip(buildTooltipHtml(a), a.id, wikiLookup, 'amphitheaters'),

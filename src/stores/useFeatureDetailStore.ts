@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import { useSelectionStore } from './useSelectionStore'
 
 interface FeatureDetailState {
   featureId: string | null
@@ -14,6 +15,10 @@ export const useFeatureDetailStore = create<FeatureDetailState & FeatureDetailAc
   featureId: null,
   featureLayer: null,
 
-  openFeature: (id, layer) => set({ featureId: id, featureLayer: layer }),
+  openFeature: (id, layer) => {
+    // Close entity detail panel synchronously to prevent dual-render flash
+    useSelectionStore.getState().select(null)
+    set({ featureId: id, featureLayer: layer })
+  },
   closeFeature: () => set({ featureId: null, featureLayer: null }),
 }))

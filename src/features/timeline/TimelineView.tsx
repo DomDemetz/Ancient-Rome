@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState, useCallback } from 'react'
+import { useEffect, useMemo, useRef, useState, useCallback } from 'react'
 import * as d3 from 'd3'
 import { useShallow } from 'zustand/shallow'
 import { entities } from '@/data'
@@ -12,7 +12,16 @@ import { TimelineLane } from './TimelineLane'
 import { TimelinePlayer } from './TimelinePlayer'
 import { TimelineTooltip } from './TimelineTooltip'
 
-const LANE_TYPES: Entity['entityType'][] = ['person', 'event', 'organization', 'legion', 'location']
+const LANE_TYPES: Entity['entityType'][] = [
+  'person',
+  'event',
+  'organization',
+  'legion',
+  'dynasty',
+  'document',
+  'infrastructure',
+  'location',
+]
 const LANE_HEIGHT = 80
 const MARGIN = { top: 24, right: 24, bottom: 32, left: 24 }
 const MIN_YEAR = -753
@@ -33,8 +42,9 @@ export function TimelineView() {
 
   const select = useSelectionStore((s) => s.select)
 
-  // Observe container size
-  const containerRefCallback = useCallback((node: HTMLDivElement | null) => {
+  // Observe container size — ResizeObserver fires immediately on observe()
+  useEffect(() => {
+    const node = containerRef.current
     if (!node) return
     const observer = new ResizeObserver(([entry]) => {
       const { width, height } = entry.contentRect
@@ -43,8 +53,6 @@ export function TimelineView() {
       }
     })
     observer.observe(node)
-    // Record initial size
-    setDimensions({ width: node.clientWidth || 900, height: node.clientHeight || 500 })
     return () => observer.disconnect()
   }, [])
 
@@ -129,8 +137,8 @@ export function TimelineView() {
   return (
     <div className="flex flex-col w-full h-full overflow-hidden">
       {/* Scrollable SVG area */}
-      <div className="flex-1 overflow-auto relative" ref={containerRefCallback}>
-        <div ref={containerRef} className="relative" style={{ minHeight: svgHeight }}>
+      <div className="flex-1 overflow-auto relative" ref={containerRef}>
+        <div className="relative" style={{ minHeight: svgHeight }}>
           <svg width={dimensions.width} height={svgHeight} className="block">
             <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
               {/* Era overlay */}

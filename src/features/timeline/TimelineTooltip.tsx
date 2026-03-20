@@ -41,7 +41,21 @@ function getEntityDateLabel(entity: Entity): string {
       if (entity.founded !== undefined) return `f. ${formatYear(entity.founded)}`
       if (entity.disbanded !== undefined) return `disb. ${formatYear(entity.disbanded)}`
       return ''
+    case 'dynasty':
+      if (entity.startYear !== undefined && entity.endYear !== undefined) {
+        return `${formatYear(entity.startYear)} – ${formatYear(entity.endYear)}`
+      }
+      if (entity.startYear !== undefined) return formatYear(entity.startYear)
+      return ''
+    case 'document':
+      if (entity.date !== undefined) return formatYear(entity.date)
+      return ''
+    case 'infrastructure':
+      if (entity.builtYear !== undefined) return `Built: ${formatYear(entity.builtYear)}`
+      return ''
     case 'location':
+    case 'religion':
+    case 'trade-good':
       return ''
     default:
       return ''
@@ -53,8 +67,11 @@ export function TimelineTooltip({ entity, x, y }: Props) {
 
   return (
     <div
-      className="absolute z-50 pointer-events-none bg-white/[0.02] border border-white/[0.06] rounded px-2 py-1 shadow-md text-sm"
-      style={{ left: x + 12, top: y - 8 }}
+      className="fixed z-50 pointer-events-none bg-white/[0.02] border border-white/[0.06] rounded px-2 py-1 shadow-md text-sm"
+      style={{
+        left: Math.min(x + 12, window.innerWidth - 200),
+        top: Math.max(0, y - 8),
+      }}
     >
       <div className="font-semibold text-slate-100">{entity.name}</div>
       {dateLabel && <div className="text-slate-500 text-xs mt-0.5">{dateLabel}</div>}

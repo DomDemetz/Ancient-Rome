@@ -59,6 +59,7 @@ export function SearchBar() {
   const [open, setOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
   const select = useSelectionStore((s) => s.select)
   const setFilter = useFilterStore((s) => s.setFilter)
   const flyTo = useMapNavStore((s) => s.flyTo)
@@ -252,6 +253,20 @@ export function SearchBar() {
       }
     }
 
+    // Ports
+    if (store.portsData) {
+      for (const p of store.portsData) {
+        items.push({
+          id: `port-${p.id}`,
+          name: p.name,
+          category: 'Port',
+          color: CATEGORY_COLORS.port ?? '#3498db',
+          lat: p.lat,
+          lng: p.lng,
+        })
+      }
+    }
+
     return items
   }, [
     store.roadsData,
@@ -265,6 +280,7 @@ export function SearchBar() {
     store.religionData,
     store.buildingsData,
     store.pressesData,
+    store.portsData,
   ])
 
   const fuse = useMemo(
@@ -291,6 +307,23 @@ export function SearchBar() {
     document.addEventListener('mousedown', handleClickOutside)
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
+
+  // Cmd+K / Ctrl+K global shortcut to focus search
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault()
+        if (isMobile) {
+          setMobileOpen(true)
+        } else {
+          inputRef.current?.focus()
+          setOpen(true)
+        }
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [isMobile])
 
   function handleSelect(item: SearchItem) {
     setQuery(item.name)
@@ -406,6 +439,7 @@ export function SearchBar() {
       <div className="relative rounded-xl bg-white/[0.04] border border-white/[0.06] focus-within:border-amber-500/30 focus-within:shadow-[0_0_20px_rgba(245,158,11,0.08)] transition-all">
         <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 size-3.5 text-slate-500 pointer-events-none" />
         <Input
+          ref={inputRef}
           type="text"
           placeholder="Search the Empire..."
           value={query}

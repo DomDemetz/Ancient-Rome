@@ -56,8 +56,13 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
           return (
             <li key={conn.id}>
               <button
-                className="w-full flex items-center gap-2 rounded-xl border border-transparent hover:bg-white/[0.03] hover:border-white/[0.05] transition-all px-3 py-2.5 text-left group"
+                className={`w-full flex items-center gap-2 rounded-xl border border-transparent transition-all px-3 py-2.5 text-left group ${
+                  other
+                    ? 'hover:bg-white/[0.03] hover:border-white/[0.05] cursor-pointer'
+                    : 'opacity-50 cursor-default'
+                }`}
                 onClick={() => other && select(other.id)}
+                disabled={!other}
               >
                 <span
                   className="size-2 rounded-full shrink-0"

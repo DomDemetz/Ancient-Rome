@@ -2,6 +2,7 @@ import { GeoJSON } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
+import { esc } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback } from 'react'
 import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
@@ -41,10 +42,10 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
   const onEachRoad = useCallback((feature: Feature, layer: L.Layer) => {
     const props = feature.properties || {}
     if (!props.name) return
-    let html = `<div class="map-tooltip-title">${props.name}</div>`
+    let html = `<div class="map-tooltip-title">${esc(props.name)}</div>`
     const sub: string[] = []
-    if (props.type) sub.push(props.type)
-    if (props.certainty && props.certainty !== 'certain') sub.push(props.certainty)
+    if (props.type) sub.push(esc(props.type))
+    if (props.certainty && props.certainty !== 'certain') sub.push(esc(props.certainty))
     if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
     const details: string[] = []
     if (
@@ -53,7 +54,7 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
       props.builder !== 'Hypothetical' &&
       props.builder !== 'Certain'
     ) {
-      details.push(`Built by: ${props.builder}`)
+      details.push(`Built by: ${esc(props.builder)}`)
     }
     if (props.attestedYear != null) {
       const y = props.attestedYear as number

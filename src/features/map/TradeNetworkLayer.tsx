@@ -165,7 +165,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
             bubblingMouseEvents={false}
           >
             <Popup offset={[0, -4]} closeButton={false}>
-              {`${site.name} (${site.siteType.replace('_', ' ')})`}
+              {`${site.name} (${site.siteType.replaceAll('_', ' ')})`}
             </Popup>
           </CircleMarker>
         )

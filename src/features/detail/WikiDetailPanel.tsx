@@ -1,9 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { X, ExternalLink, ChevronDown, BookOpen, Shield, AlertTriangle } from 'lucide-react'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
-import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useUIStore } from '@/stores/useUIStore'
-import { ScrollArea } from '@/ui/scroll-area'
 import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
@@ -34,6 +32,13 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
     loadAndMerge(async () => (await import('@/data/wiki')).loadBuildingWiki(), 'buildings'),
   entities: () =>
     loadAndMerge(async () => (await import('@/data/wiki')).loadEntityWiki(), 'entities'),
+  emperors: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadEmperorWiki(), 'emperors'),
+  legions: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadLegionWiki(), 'legions'),
+  aqueducts: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadAqueductWiki(), 'aqueducts'),
+  ports: () => loadAndMerge(async () => (await import('@/data/wiki')).loadPortWiki(), 'ports'),
 }
 
 // --- Source quality badge ---
@@ -225,7 +230,7 @@ function WikiDetailContent({
         </Button>
       </div>
 
-      <ScrollArea className="flex-1">
+      <div className="flex-1 min-h-0 overflow-y-auto">
         <div className="p-6 space-y-5">
           {/* LEVEL 1 — THE HOOK */}
 
@@ -461,12 +466,14 @@ function WikiDetailContent({
             </>
           )}
         </div>
-      </ScrollArea>
+      </div>
     </div>
   )
 }
 
-/** Global click delegate for "Read more" buttons in map popups */
+/** Global click delegate for "Read more" buttons in map popups.
+ *  Uses capture phase so the event fires before Leaflet's stopPropagation
+ *  on the popup pane can swallow it during the bubble phase. */
 function useReadMoreDelegate() {
   const openFeature = useFeatureDetailStore((s) => s.openFeature)
 
@@ -478,8 +485,8 @@ function useReadMoreDelegate() {
       const layer = btn.dataset.wikiLayer
       if (id && layer) openFeature(id, layer)
     }
-    document.addEventListener('click', handleClick)
-    return () => document.removeEventListener('click', handleClick)
+    document.addEventListener('click', handleClick, true)
+    return () => document.removeEventListener('click', handleClick, true)
   }, [openFeature])
 }
 
@@ -491,12 +498,6 @@ export function WikiDetailPanel() {
   const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
   const isMobile = useUIStore((s) => s.isMobile)
 
-  // When wiki panel opens, close entity detail panel
-  const select = useSelectionStore((s) => s.select)
-  useEffect(() => {
-    if (featureId) select(null)
-  }, [featureId, select])
-
   if (!featureId || !featureLayer) return null
 
   if (isMobile) {
@@ -507,11 +508,11 @@ export function WikiDetailPanel() {
           if (!open) closeFeature()
         }}
       >
-        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh]">
+        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh] flex flex-col">
           <DrawerHeader className="sr-only">
             <DrawerTitle>Wikipedia Detail</DrawerTitle>
           </DrawerHeader>
-          <div className="flex-1 overflow-hidden">
+          <div className="flex-1 overflow-hidden flex flex-col">
             <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
           </div>
         </DrawerContent>
@@ -520,7 +521,7 @@ export function WikiDetailPanel() {
   }
 
   return (
-    <aside className="w-[340px] shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
+    <aside className="w-[340px] h-full shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
       <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
     </aside>
   )

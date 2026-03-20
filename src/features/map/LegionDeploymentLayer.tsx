@@ -2,6 +2,8 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Legion } from '@/data/legions'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 
 interface LegionDeploymentLayerProps {
   data: Legion[]
@@ -31,6 +33,7 @@ export function LegionDeploymentLayer({ data }: LegionDeploymentLayerProps) {
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const wikiLookup = useWikiEnrichment('legions')
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -84,10 +87,10 @@ export function LegionDeploymentLayer({ data }: LegionDeploymentLayerProps) {
       {activeBases.map(({ legion, base }) => {
         const color = SYMBOL_COLORS[legion.symbol ?? ''] || '#c0392b'
 
-        let tooltipHtml = `<div class="map-tooltip-title">${legion.name}</div>`
-        tooltipHtml += `<div class="map-tooltip-sub">${base.location} · ${legion.status}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(legion.name)}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${esc(base.location)} · ${esc(legion.status)}</div>`
         const details: string[] = [`${formatYear(base.fromYear)} \u2013 ${formatYear(base.toYear)}`]
-        if (legion.description) details.push(legion.description)
+        if (legion.description) details.push(esc(legion.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
@@ -103,8 +106,12 @@ export function LegionDeploymentLayer({ data }: LegionDeploymentLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Popup offset={[0, -4]} closeButton={false}>
-              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: appendWikiTooltip(tooltipHtml, legion.id, wikiLookup, 'legions'),
+                }}
+              />
             </Popup>
           </CircleMarker>
         )

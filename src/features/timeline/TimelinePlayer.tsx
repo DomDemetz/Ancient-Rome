@@ -98,6 +98,9 @@ export function TimelinePlayer() {
   const handleTogglePlay = () => {
     if (currentYear >= MAX_YEAR) {
       setYear(MIN_YEAR)
+      // Sync ref immediately so the first RAF tick reads the reset value
+      // (the useEffect syncing yearRef won't fire until after this handler)
+      yearRef.current = MIN_YEAR
     }
     if (playing) {
       pause()
@@ -176,6 +179,7 @@ export function TimelinePlayer() {
             onMouseUp={handleSliderMouseUp}
             onTouchStart={handleSliderMouseDown}
             onTouchEnd={handleSliderMouseUp}
+            onTouchCancel={handleSliderMouseUp}
             className="w-full accent-amber-400"
             aria-label="Timeline year"
           />

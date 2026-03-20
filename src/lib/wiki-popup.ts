@@ -1,5 +1,15 @@
 import type { WikiLookup } from '@/data/wiki'
 
+/** Escape HTML special characters to prevent XSS from external data */
+export function esc(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+
 /**
  * Appends Wikipedia enrichment to popup HTML if wiki data exists for the given ID.
  * Shows thumbnail, first sentence, one structured fact (when available), and a "Read more" button.
@@ -25,25 +35,28 @@ export function appendWikiTooltip(
   // Prefer Wikimedia Commons image over Wikipedia thumbnail
   const imgUrl = wiki.images?.[0]?.url ?? wiki.thumbnail?.url
   if (imgUrl) {
-    wikiHtml += `<img class="map-tooltip-thumb" src="${imgUrl}" alt="" />`
+    wikiHtml += `<img class="map-tooltip-thumb" src="${esc(imgUrl)}" alt="" />`
   }
 
-  // First sentence of romanEraExtract
-  const firstSentence = wiki.romanEraExtract.split(/\.\s/)[0]
+  // First sentence of romanEraExtract — match period followed by space + uppercase
+  // to avoid breaking on abbreviations like "St. Peter" or "A.D. 100"
+  const sentenceMatch = wiki.romanEraExtract.match(/^(.+?\.)\s+(?=[A-Z])/)
+  const firstSentence = sentenceMatch?.[1] ?? wiki.romanEraExtract.split(/\.\s/)[0]
   if (firstSentence) {
-    wikiHtml += `<div class="map-tooltip-extract">${firstSentence}.</div>`
+    const text = firstSentence.endsWith('.') ? firstSentence : firstSentence + '.'
+    wikiHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
   }
 
   // One structured fact as a "hook" — prefer cross-reference (academic) over Wikidata
   const cr = wiki.crossRef
   const crFact = cr ? pickCrossRefFact(cr, layer) : null
   if (crFact) {
-    wikiHtml += `<div class="map-tooltip-fact">${crFact}</div>`
+    wikiHtml += `<div class="map-tooltip-fact">${esc(crFact)}</div>`
   } else {
     const s = wiki.structured
     if (s) {
       const fact = pickHighlightFact(s, layer)
-      if (fact) wikiHtml += `<div class="map-tooltip-fact">${fact}</div>`
+      if (fact) wikiHtml += `<div class="map-tooltip-fact">${esc(fact)}</div>`
     }
   }
 
@@ -56,7 +69,7 @@ export function appendWikiTooltip(
     wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--sourced">Sourced</span>'
   }
 
-  wikiHtml += `<button class="map-tooltip-readmore" data-wiki-id="${id}" data-wiki-layer="${layer}">Read more</button>`
+  wikiHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(id)}" data-wiki-layer="${esc(layer)}">Read more</button>`
   wikiHtml += '</div>'
 
   return html + wikiHtml

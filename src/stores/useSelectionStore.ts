@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import { useFeatureDetailStore } from './useFeatureDetailStore'
 
 const MAX_BREADCRUMBS = 50
 
@@ -27,12 +28,19 @@ const initialState: SelectionState = {
 export const useSelectionStore = create<SelectionState & SelectionActions>((set) => ({
   ...initialState,
 
-  select: (id) =>
+  select: (id) => {
+    // Close wiki detail panel synchronously to prevent dual-render flash.
+    // Import is at top of file — no circular issue since both stores
+    // only reference each other inside action functions, not at init.
+    if (id !== null) {
+      useFeatureDetailStore.getState().closeFeature()
+    }
     set((state) => {
       const newBreadcrumbs =
         id !== null ? [...state.breadcrumbs, id].slice(-MAX_BREADCRUMBS) : state.breadcrumbs
       return { selectedId: id, breadcrumbs: newBreadcrumbs }
-    }),
+    })
+  },
 
   hover: (id) => set({ hoveredId: id }),
 

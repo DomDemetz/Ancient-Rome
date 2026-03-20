@@ -32,14 +32,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'The Conquest',
     description: 'Watch Rome conquer the Mediterranean',
     timelineYear: -200,
-    layers: [
-      'showTerritories',
-      'showBattles',
-      'showLegions',
-      'showLimes',
-      'showFortifications',
-      'showPresence',
-    ],
+    layers: ['showBattles', 'showLegions', 'showLimes', 'showFortifications', 'showPresence'],
   },
   economy: {
     label: 'The Economy',
@@ -67,7 +60,6 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     description: 'The full puzzle assembled — scrub 753 BC to 476 AD',
     timelineYear: -753,
     layers: [
-      'showTerritories',
       'showBattles',
       'showLegions',
       'showEmperors',
@@ -253,7 +245,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
 ]
 
 // --- All toggleable layer keys ---
-const ALL_LAYER_KEYS = [
+export const ALL_LAYER_KEYS = [
   'showRoads',
   'showSettlements',
   'showLimes',
@@ -765,12 +757,21 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
           set({ provincesLoading: true })
           const { loadProvinces, loadProvinceLabels, loadProvinceChanges } =
             await import('@/data/dare')
-          const [d, l, c] = await Promise.all([
+          const [d, l, c, senatorial] = await Promise.all([
             loadProvinces(),
             loadProvinceLabels(),
             loadProvinceChanges().catch(() => []),
+            import('@/data/dare/senatorial-provinces.json')
+              .then((m) => m.default as unknown as FeatureCollection)
+              .catch(() => null),
           ])
-          set({ provincesData: d, provinceLabels: l, provinceChanges: c, provincesLoading: false })
+          set({
+            provincesData: d,
+            provinceLabels: l,
+            provinceChanges: c,
+            senatorialProvincesData: senatorial,
+            provincesLoading: false,
+          })
         },
       },
       showFortifications: {
@@ -860,7 +861,13 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
         load: async () => {
           set({ aqueductsLoading: true })
           const { loadAqueducts } = await import('@/data/aqueducts')
-          set({ aqueductsData: await loadAqueducts(), aqueductsLoading: false })
+          const [data, lines] = await Promise.all([
+            loadAqueducts(),
+            import('@/data/awmc-aqueducts-temporal.json')
+              .then((m) => m.default as unknown as FeatureCollection)
+              .catch(() => null),
+          ])
+          set({ aqueductsData: data, aqueductLinesData: lines, aqueductsLoading: false })
         },
       },
       showReligion: {

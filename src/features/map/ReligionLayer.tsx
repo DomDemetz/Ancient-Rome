@@ -2,6 +2,7 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { ReligiousSite } from '@/data/religion'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { esc } from '@/lib/wiki-popup'
 
 interface ReligionLayerProps {
   data: ReligiousSite[]
@@ -73,14 +74,14 @@ export function ReligionLayer({ data }: ReligionLayerProps) {
         const color = RELIGION_COLORS[s.religion] || '#95a5a6'
         const radius = SITE_TYPE_SHAPES[s.siteType] || baseRadius
 
-        let tooltipHtml = `<div class="map-tooltip-title">${s.name}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(s.name)}</div>`
         const sub: string[] = [
-          `${s.religion.charAt(0).toUpperCase() + s.religion.slice(1)} ${s.siteType}`,
+          `${esc(s.religion.charAt(0).toUpperCase() + s.religion.slice(1))} ${esc(s.siteType)}`,
         ]
-        if (s.deity) sub.push(s.deity)
+        if (s.deity) sub.push(esc(s.deity))
         tooltipHtml += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
         const details: string[] = [`${formatYear(s.startYear)} \u2013 ${formatYear(s.endYear)}`]
-        if (s.description) details.push(s.description)
+        if (s.description) details.push(esc(s.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (

@@ -135,8 +135,8 @@ describe('useFilterStore', () => {
 // ── UI Store ──────────────────────────────────────────────────────────────────
 
 describe('useUIStore', () => {
-  it('starts with lens = graph', () => {
-    expect(useUIStore.getState().lens).toBe('graph')
+  it('starts with lens = map', () => {
+    expect(useUIStore.getState().lens).toBe('map')
   })
 
   it('switchLens() changes lens', () => {

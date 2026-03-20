@@ -5,6 +5,8 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import type { Aqueduct } from '@/data/aqueducts'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 
 interface AqueductLayerProps {
   data: Aqueduct[]
@@ -25,7 +27,7 @@ function formatYear(year: number): string {
 function onEachAqueductLine(feature: Feature, layer: L.Layer) {
   const name = feature.properties?.name
   if (name) {
-    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${name}</div>`)
+    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${esc(name)}</div>`)
   }
 }
 
@@ -34,6 +36,7 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const wikiLookup = useWikiEnrichment('aqueducts')
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -116,12 +119,12 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
 
       {/* Render point-based aqueduct markers on top */}
       {visible.map((a) => {
-        let tooltipHtml = `<div class="map-tooltip-title">${a.name}</div>`
-        tooltipHtml += `<div class="map-tooltip-sub">${a.cityServed}</div>`
+        let tooltipHtml = `<div class="map-tooltip-title">${esc(a.name)}</div>`
+        tooltipHtml += `<div class="map-tooltip-sub">${esc(a.cityServed)}</div>`
         const details: string[] = [`Built: ${formatYear(a.constructionYear)}`]
         if (a.length) details.push(`${a.length} km`)
-        if (a.builder) details.push(a.builder)
-        if (a.description) details.push(a.description)
+        if (a.builder) details.push(esc(a.builder))
+        if (a.description) details.push(esc(a.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
@@ -137,8 +140,12 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Popup offset={[0, -4]} closeButton={false}>
-              <span dangerouslySetInnerHTML={{ __html: tooltipHtml }} />
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: appendWikiTooltip(tooltipHtml, a.id, wikiLookup, 'aqueducts'),
+                }}
+              />
             </Popup>
           </CircleMarker>
         )

@@ -1,10 +1,7 @@
-import { useEffect } from 'react'
 import { X } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
-import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entities, connections } from '@/data'
-import { ScrollArea } from '@/ui/scroll-area'
 import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
@@ -42,7 +39,7 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
         </Button>
       </div>
 
-      <ScrollArea className="flex-1">
+      <div className="flex-1 min-h-0 overflow-y-auto">
         <div className="p-6 space-y-6">
           <EntityHeader entity={entity} />
 
@@ -61,7 +58,7 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
             </>
           )}
         </div>
-      </ScrollArea>
+      </div>
     </div>
   )
 }
@@ -70,13 +67,6 @@ export function DetailPanel() {
   const selectedId = useSelectionStore((s) => s.selectedId)
   const select = useSelectionStore((s) => s.select)
   const isMobile = useUIStore((s) => s.isMobile)
-  const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
-
-  // When entity detail opens, close wiki panel
-  useEffect(() => {
-    if (selectedId) closeFeature()
-  }, [selectedId, closeFeature])
-
   if (!selectedId) return null
 
   if (isMobile) {
@@ -87,11 +77,11 @@ export function DetailPanel() {
           if (!open) select(null)
         }}
       >
-        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh]">
+        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh] flex flex-col">
           <DrawerHeader className="sr-only">
             <DrawerTitle>Entity Detail</DrawerTitle>
           </DrawerHeader>
-          <div className="flex-1 overflow-hidden">
+          <div className="flex-1 overflow-hidden flex flex-col">
             <DetailPanelContent entityId={selectedId} />
           </div>
         </DrawerContent>
@@ -100,7 +90,7 @@ export function DetailPanel() {
   }
 
   return (
-    <aside className="w-[340px] shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
+    <aside className="w-[340px] h-full shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
       <DetailPanelContent entityId={selectedId} />
     </aside>
   )
