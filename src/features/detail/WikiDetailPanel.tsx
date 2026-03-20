@@ -1,0 +1,527 @@
+import { useEffect, useRef, useState } from 'react'
+import { X, ExternalLink, ChevronDown, BookOpen, Shield, AlertTriangle } from 'lucide-react'
+import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
+import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useUIStore } from '@/stores/useUIStore'
+import { ScrollArea } from '@/ui/scroll-area'
+import { Button } from '@/ui/button'
+import { Separator } from '@/ui/separator'
+import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
+import type { WikiEnrichment, WikiLookup } from '@/data/wiki'
+
+async function loadAndMerge(
+  loadWiki: () => Promise<WikiLookup>,
+  layer: string,
+): Promise<WikiLookup> {
+  const { mergeStructuredData, loadWikidataStructured, loadCrossReference } =
+    await import('@/data/wiki')
+  const [wiki, structured, crossRef] = await Promise.all([
+    loadWiki(),
+    loadWikidataStructured(),
+    loadCrossReference(),
+  ])
+  return mergeStructuredData(wiki, structured, crossRef, layer)
+}
+
+const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
+  amphitheaters: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadAmphitheaterWiki(), 'amphitheaters'),
+  battles: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
+  settlements: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadSettlementWiki(), 'settlements'),
+  buildings: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadBuildingWiki(), 'buildings'),
+  entities: () =>
+    loadAndMerge(async () => (await import('@/data/wiki')).loadEntityWiki(), 'entities'),
+}
+
+// --- Source quality badge ---
+
+function SourceBadge({ quality }: { quality?: 'academic' | 'sourced' | 'unsourced' }) {
+  if (!quality) return null
+  const config = {
+    academic: {
+      label: 'Academic',
+      className: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
+    },
+    sourced: { label: 'Sourced', className: 'text-amber-400 bg-amber-400/10 border-amber-400/20' },
+    unsourced: {
+      label: 'Community',
+      className: 'text-slate-400 bg-slate-400/10 border-slate-400/20',
+    },
+  }[quality]
+
+  return (
+    <span
+      className={`inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded ${config.className}`}
+    >
+      <Shield className="size-2.5" />
+      {config.label}
+    </span>
+  )
+}
+
+// --- Structured fact row ---
+
+function FactRow({ label, value, source }: { label: string; value: string; source?: string }) {
+  return (
+    <div className="flex items-baseline justify-between gap-2 py-1">
+      <span className="text-[11px] text-slate-500 shrink-0">{label}</span>
+      <span className="text-[11px] text-slate-300 text-right">
+        {value}
+        {source && (
+          <span className="ml-1 text-[9px] text-amber-500/50 italic" title={`Source: ${source}`}>
+            [{source.length > 20 ? source.slice(0, 20) + '…' : source}]
+          </span>
+        )}
+      </span>
+    </div>
+  )
+}
+
+// --- Format year for display ---
+
+function formatYear(year: number): string {
+  if (year < 0) return `${Math.abs(year)} BC`
+  return `${year} AD`
+}
+
+// --- Main content ---
+
+function WikiDetailContent({
+  featureId,
+  featureLayer,
+}: {
+  featureId: string
+  featureLayer: string
+}) {
+  const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
+  const [state, setState] = useState<{ wiki: WikiEnrichment | null; loading: boolean }>({
+    wiki: null,
+    loading: true,
+  })
+  const [sourcesExpanded, setSourcesExpanded] = useState(false)
+  const reqRef = useRef(0)
+
+  useEffect(() => {
+    const reqId = ++reqRef.current
+    const loader = LAYER_LOADERS[featureLayer]
+    if (!loader) {
+      queueMicrotask(() => {
+        if (reqRef.current === reqId) setState({ wiki: null, loading: false })
+      })
+      return
+    }
+    let cancelled = false
+    loader()
+      .then((lookup) => {
+        if (!cancelled && reqRef.current === reqId) {
+          setState({ wiki: lookup[featureId] ?? null, loading: false })
+        }
+      })
+      .catch(() => {
+        if (!cancelled && reqRef.current === reqId) {
+          setState({ wiki: null, loading: false })
+        }
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [featureId, featureLayer])
+
+  const { wiki, loading } = state
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <p className="text-slate-500 text-sm">Loading...</p>
+      </div>
+    )
+  }
+
+  if (!wiki) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <p className="text-slate-500 text-sm">No Wikipedia data found.</p>
+      </div>
+    )
+  }
+
+  const s = wiki.structured
+  const cr = wiki.crossRef
+  const heroImage =
+    wiki.images?.[0] ??
+    (wiki.thumbnail ? { url: wiki.thumbnail.url, caption: wiki.wikiTitle, license: '' } : null)
+
+  // Build structured facts — academic cross-reference first, then Wikidata supplement
+  const facts: Array<{ label: string; value: string; source?: string }> = []
+
+  // Cross-reference facts (from DARE, Pleiades, ORBIS, EDH, etc.) — 100% period-accurate
+  if (cr?.ancientName) facts.push({ label: 'Ancient name', value: cr.ancientName, source: 'DARE' })
+  if (cr?.greekName) facts.push({ label: 'Greek', value: cr.greekName, source: 'DARE' })
+  if (cr?.province) facts.push({ label: 'Province', value: cr.province, source: 'ORBIS' })
+  if (cr?.startYear != null)
+    facts.push({
+      label: cr.combatants ? 'Year' : 'Founded',
+      value: formatYear(cr.startYear),
+      source: 'DARE',
+    })
+  if (cr?.endYear != null && cr.endYear < 700)
+    facts.push({ label: 'Until', value: formatYear(cr.endYear), source: 'DARE' })
+  if (cr?.capacity) facts.push({ label: 'Capacity', value: cr.capacity.toLocaleString() })
+  if (cr?.dimensions) facts.push({ label: 'Dimensions', value: cr.dimensions })
+  if (cr?.combatants) facts.push({ label: 'Combatants', value: cr.combatants })
+  if (cr?.commander) facts.push({ label: 'Commander', value: cr.commander })
+  if (cr?.outcome) facts.push({ label: 'Outcome', value: cr.outcome })
+  if (cr?.tradeRole) facts.push({ label: 'Trade role', value: cr.tradeRole, source: 'ORBIS' })
+  if (cr?.buildingType) facts.push({ label: 'Type', value: cr.buildingType, source: 'Pleiades' })
+  if (cr?.ancientTextMentions)
+    facts.push({
+      label: 'Text mentions',
+      value: cr.ancientTextMentions.toLocaleString(),
+      source: 'Pelagios',
+    })
+  if (cr?.ancientAuthors?.length)
+    facts.push({
+      label: 'Ancient authors',
+      value: cr.ancientAuthors.join(', '),
+      source: 'Pelagios',
+    })
+
+  // Wikidata supplement — only sourced claims not already covered by cross-ref
+  if (s?.materials?.length && !cr) facts.push({ label: 'Material', value: s.materials.join(', ') })
+  if (s?.architect) facts.push({ label: 'Architect', value: s.architect })
+  if (s?.commissionedBy) facts.push({ label: 'Commissioner', value: s.commissionedBy })
+  if (s?.heritageStatus) facts.push({ label: 'Heritage', value: s.heritageStatus })
+  if (s?.administrativeType && !cr?.ancientName)
+    facts.push({ label: 'Type', value: s.administrativeType })
+
+  return (
+    <div className="flex flex-col h-full">
+      {/* Header */}
+      <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
+            {cr ? 'Historical Record' : 'Wikipedia'}
+          </span>
+          {cr ? (
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
+              <Shield className="size-2.5" />
+              {cr.sources.length} sources
+            </span>
+          ) : (
+            <SourceBadge quality={wiki.sourceQuality} />
+          )}
+        </div>
+        <Button
+          variant="ghost"
+          size="icon-sm"
+          onClick={closeFeature}
+          className="text-slate-500 hover:text-slate-100"
+          aria-label="Close wiki panel"
+        >
+          <X className="size-4" />
+        </Button>
+      </div>
+
+      <ScrollArea className="flex-1">
+        <div className="p-6 space-y-5">
+          {/* LEVEL 1 — THE HOOK */}
+
+          {/* Hero image */}
+          {heroImage && (
+            <div className="relative -mx-6 -mt-6">
+              <img
+                src={heroImage.url}
+                alt={heroImage.caption || wiki.wikiTitle}
+                className="w-full object-cover max-h-52"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c10] via-transparent to-transparent" />
+              {heroImage.license && (
+                <span className="absolute bottom-1 right-2 text-[8px] text-white/30">
+                  {heroImage.license}
+                </span>
+              )}
+            </div>
+          )}
+
+          {/* Title + type badge */}
+          <div>
+            <h2 className="font-serif italic text-xl text-slate-100 leading-tight">
+              {cr?.ancientName ?? wiki.wikiTitle}
+            </h2>
+            {cr?.ancientName && cr.ancientName !== wiki.wikiTitle && (
+              <span className="text-[11px] text-slate-400 block mt-0.5">
+                {wiki.wikiTitle}
+                {cr.modernName && cr.modernName !== wiki.wikiTitle ? ` · ${cr.modernName}` : ''}
+              </span>
+            )}
+            {cr?.greekName && (
+              <span className="text-[11px] text-slate-500 block">{cr.greekName}</span>
+            )}
+            <span className="text-[10px] uppercase tracking-wider text-slate-500 mt-0.5 block">
+              {cr?.buildingType ?? featureLayer.replace(/s$/, '')}
+            </span>
+          </div>
+
+          {/* Relevance warning */}
+          {wiki.wrongArticle && (
+            <div className="flex items-start gap-2 p-2.5 rounded bg-red-500/10 border border-red-500/20">
+              <AlertTriangle className="size-3.5 text-red-400 shrink-0 mt-0.5" />
+              <div className="text-[11px] text-red-300 leading-snug">
+                <strong>Likely wrong article.</strong> {wiki.wrongArticle}. This entry may not refer
+                to the historical Roman-era site.
+              </div>
+            </div>
+          )}
+          {!wiki.wrongArticle && wiki.romanRelevance != null && wiki.romanRelevance < 0.3 && (
+            <div className="flex items-start gap-2 p-2.5 rounded bg-amber-500/10 border border-amber-500/20">
+              <AlertTriangle className="size-3.5 text-amber-400 shrink-0 mt-0.5" />
+              <div className="text-[11px] text-amber-300/80 leading-snug">
+                This article primarily covers the modern period. Roman-era content may be limited or
+                absent.
+              </div>
+            </div>
+          )}
+
+          {/* One-line hook — first sentence */}
+          <p className="text-sm text-slate-300 leading-relaxed">
+            {wiki.romanEraExtract?.split(/\.\s/)[0]?.trim()}.
+          </p>
+
+          {/* LEVEL 2 — THE STORY */}
+
+          {facts.length > 0 && (
+            <>
+              <Separator />
+              <div className="space-y-0.5">
+                <h3 className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 mb-2">
+                  Key Facts
+                </h3>
+                {facts.map((f, i) => (
+                  <FactRow key={i} label={f.label} value={f.value} source={f.source} />
+                ))}
+              </div>
+            </>
+          )}
+
+          {/* Narrative context — Pleiades description first if available */}
+          <Separator />
+          {cr?.pleiadesDescription && (
+            <div className="text-[13px] text-slate-300 leading-relaxed">
+              {cr.pleiadesDescription}
+              <span className="text-[9px] text-slate-600 ml-1">— Pleiades</span>
+            </div>
+          )}
+          {/* Wikipedia extract — supplementary, dimmed if Pleiades already provided context */}
+          {(wiki.romanRelevance == null || wiki.romanRelevance >= 0.1) && !wiki.wrongArticle && (
+            <div
+              className={`text-[13px] leading-relaxed whitespace-pre-line ${cr?.pleiadesDescription ? 'text-slate-500' : 'text-slate-400'}`}
+            >
+              {wiki.romanEraExtract || wiki.extract}
+            </div>
+          )}
+
+          {/* Additional images */}
+          {wiki.images && wiki.images.length > 1 && (
+            <>
+              <Separator />
+              <div className="space-y-2">
+                <h3 className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500">
+                  Images
+                </h3>
+                <div className="grid grid-cols-2 gap-2">
+                  {wiki.images.slice(1, 5).map((img, i) => (
+                    <div key={i} className="relative">
+                      <img
+                        src={img.url}
+                        alt={img.caption}
+                        className="w-full h-20 object-cover rounded"
+                      />
+                      <span className="absolute bottom-0.5 right-1 text-[7px] text-white/30">
+                        {img.license}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+
+          {/* LEVEL 3 — THE EVIDENCE (expandable) */}
+
+          {(s?.describedIn?.length || wiki.wikidataId || cr) && (
+            <>
+              <Separator />
+              <button
+                onClick={() => setSourcesExpanded(!sourcesExpanded)}
+                className="flex items-center gap-2 w-full text-left group"
+              >
+                <BookOpen className="size-3.5 text-slate-500 group-hover:text-slate-300 transition-colors" />
+                <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 group-hover:text-slate-300 transition-colors">
+                  Sources & Evidence
+                </span>
+                <ChevronDown
+                  className={`size-3 text-slate-500 ml-auto transition-transform ${sourcesExpanded ? 'rotate-180' : ''}`}
+                />
+              </button>
+
+              {sourcesExpanded && (
+                <div className="space-y-3 pl-1">
+                  {/* Academic data sources */}
+                  {cr && (
+                    <div className="space-y-1">
+                      <h4 className="text-[9px] uppercase tracking-wider text-slate-600">
+                        Data Sources
+                      </h4>
+                      <div className="flex flex-wrap gap-1">
+                        {cr.sources.map((src) => (
+                          <span
+                            key={src}
+                            className="text-[9px] px-1.5 py-0.5 rounded bg-white/[0.04] text-slate-400 border border-white/[0.06]"
+                          >
+                            {src}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Ancient text sources from Wikidata P1343 */}
+                  {s?.describedIn && s.describedIn.length > 0 && (
+                    <div className="space-y-1.5">
+                      <h4 className="text-[9px] uppercase tracking-wider text-slate-600">
+                        Ancient Text Citations
+                      </h4>
+                      {s.describedIn.map((src, i) => (
+                        <div key={i} className="text-[11px] text-slate-400">
+                          <span className="text-slate-300 italic">{src.title}</span>
+                          {src.author && <span className="text-slate-500"> — {src.author}</span>}
+                          {src.passage && (
+                            <span className="text-slate-600 text-[10px]"> ({src.passage})</span>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Wikipedia metadata */}
+                  <div className="space-y-1">
+                    <h4 className="text-[9px] uppercase tracking-wider text-slate-600">
+                      Wikipedia
+                    </h4>
+                    <div className="grid grid-cols-2 gap-2 text-[10px]">
+                      {wiki.wikidataId && (
+                        <>
+                          <span className="text-slate-600">Wikidata</span>
+                          <span className="text-slate-400">{wiki.wikidataId}</span>
+                        </>
+                      )}
+                      <span className="text-slate-600">Resolved via</span>
+                      <span className="text-slate-400">{wiki.resolvedVia}</span>
+                      <span className="text-slate-600">Confidence</span>
+                      <span className="text-slate-400">{(wiki.confidence * 100).toFixed(0)}%</span>
+                      {wiki.romanRelevance != null && (
+                        <>
+                          <span className="text-slate-600">Roman relevance</span>
+                          <span className="text-slate-400">
+                            {(wiki.romanRelevance * 100).toFixed(0)}%
+                          </span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* External links */}
+                  <div className="space-y-1.5">
+                    <a
+                      href={wiki.wikipediaUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-[11px] text-amber-500/80 hover:text-amber-400 transition-colors"
+                    >
+                      <ExternalLink className="size-3" />
+                      Wikipedia
+                    </a>
+                    {wiki.wikidataUrl && (
+                      <a
+                        href={wiki.wikidataUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-[11px] text-amber-500/80 hover:text-amber-400 transition-colors"
+                      >
+                        <ExternalLink className="size-3" />
+                        Wikidata
+                      </a>
+                    )}
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      </ScrollArea>
+    </div>
+  )
+}
+
+/** Global click delegate for "Read more" buttons in map popups */
+function useReadMoreDelegate() {
+  const openFeature = useFeatureDetailStore((s) => s.openFeature)
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      const btn = (e.target as HTMLElement).closest('.map-tooltip-readmore') as HTMLElement | null
+      if (!btn) return
+      const id = btn.dataset.wikiId
+      const layer = btn.dataset.wikiLayer
+      if (id && layer) openFeature(id, layer)
+    }
+    document.addEventListener('click', handleClick)
+    return () => document.removeEventListener('click', handleClick)
+  }, [openFeature])
+}
+
+export function WikiDetailPanel() {
+  useReadMoreDelegate()
+
+  const featureId = useFeatureDetailStore((s) => s.featureId)
+  const featureLayer = useFeatureDetailStore((s) => s.featureLayer)
+  const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
+  const isMobile = useUIStore((s) => s.isMobile)
+
+  // When wiki panel opens, close entity detail panel
+  const select = useSelectionStore((s) => s.select)
+  useEffect(() => {
+    if (featureId) select(null)
+  }, [featureId, select])
+
+  if (!featureId || !featureLayer) return null
+
+  if (isMobile) {
+    return (
+      <Drawer
+        open={!!featureId}
+        onOpenChange={(open) => {
+          if (!open) closeFeature()
+        }}
+      >
+        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh]">
+          <DrawerHeader className="sr-only">
+            <DrawerTitle>Wikipedia Detail</DrawerTitle>
+          </DrawerHeader>
+          <div className="flex-1 overflow-hidden">
+            <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
+          </div>
+        </DrawerContent>
+      </Drawer>
+    )
+  }
+
+  return (
+    <aside className="w-[340px] shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
+      <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
+    </aside>
+  )
+}

@@ -2,6 +2,8 @@ import { useMemo, useState, useCallback } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip } from '@/lib/wiki-popup'
 
 interface AmphitheaterLayerProps {
   data: Amphitheater[]
@@ -28,6 +30,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const wikiLookup = useWikiEnrichment('amphitheaters')
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -86,7 +89,11 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
           bubblingMouseEvents={false}
         >
           <Popup offset={[0, -4]} closeButton={false}>
-            <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(a) }} />
+            <span
+              dangerouslySetInnerHTML={{
+                __html: appendWikiTooltip(buildTooltipHtml(a), a.id, wikiLookup, 'amphitheaters'),
+              }}
+            />
           </Popup>
         </CircleMarker>
       ))}

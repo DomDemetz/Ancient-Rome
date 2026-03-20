@@ -1,5 +1,7 @@
+import { useEffect } from 'react'
 import { X } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entities, connections } from '@/data'
 import { ScrollArea } from '@/ui/scroll-area'
@@ -68,6 +70,12 @@ export function DetailPanel() {
   const selectedId = useSelectionStore((s) => s.selectedId)
   const select = useSelectionStore((s) => s.select)
   const isMobile = useUIStore((s) => s.isMobile)
+  const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
+
+  // When entity detail opens, close wiki panel
+  useEffect(() => {
+    if (selectedId) closeFeature()
+  }, [selectedId, closeFeature])
 
   if (!selectedId) return null
 

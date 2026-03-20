@@ -3,6 +3,8 @@ import { CircleMarker, Marker, Popup, useMap, useMapEvents } from 'react-leaflet
 import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip } from '@/lib/wiki-popup'
 
 interface BattleLayerProps {
   data: Battle[]
@@ -37,11 +39,24 @@ const flashIcon = L.divIcon({
   iconAnchor: [6, 6],
 })
 
+/** Compute opacity for a past battle based on age relative to visibility window */
+function battleOpacity(age: number, window: number): number {
+  const freshZone = Math.max(1, window * 0.2)
+  if (age < freshZone) return 0.95
+  return 0.95 - ((age - freshZone) / (window - freshZone)) * 0.65
+}
+
 export function BattleLayer({ data }: BattleLayerProps) {
   const map = useMap()
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const playing = useTimelineStore((s) => s.playing)
+  const speed = useTimelineStore((s) => s.speed)
+  const wikiLookup = useWikiEnrichment('battles')
+
+  // Adaptive visibility window: tight when paused, wider at higher speeds
+  const visibilityWindow = playing ? Math.min(50, Math.max(10, Math.round(speed * 12))) : 5
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -53,11 +68,11 @@ export function BattleLayer({ data }: BattleLayerProps) {
     moveend: updateView,
   })
 
+  // Adaptive visibility window for result markers
   const visible = useMemo(() => {
     return data.filter((b) => {
-      // 50-year visibility window
       if (b.year > currentYear) return false
-      if (currentYear - b.year >= 50) return false
+      if (currentYear - b.year >= visibilityWindow) return false
 
       // Bounds filtering at zoomed-in levels
       if (zoom >= 7) {
@@ -71,11 +86,11 @@ export function BattleLayer({ data }: BattleLayerProps) {
 
       return true
     })
-  }, [data, zoom, bounds, currentYear])
+  }, [data, zoom, bounds, currentYear, visibilityWindow])
 
-  // Battles in the 5-year flash window get a pulse animation overlay
+  // Flash only at the exact battle year
   const flashBattles = useMemo(() => {
-    return visible.filter((b) => currentYear - b.year < 5)
+    return visible.filter((b) => currentYear === b.year)
   }, [visible, currentYear])
 
   const baseRadius = zoom >= 7 ? 5 : zoom >= 5 ? 4 : 3
@@ -85,8 +100,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
       {visible.map((b) => {
         const color = OUTCOME_COLORS[b.outcome] || OUTCOME_COLORS.unknown
         const age = currentYear - b.year
-        const opacity = age < 10 ? 0.95 : 0.95 - (age - 10) * 0.02
-
+        const opacity = battleOpacity(age, visibilityWindow)
         return (
           <CircleMarker
             key={b.id}
@@ -101,7 +115,11 @@ export function BattleLayer({ data }: BattleLayerProps) {
             bubblingMouseEvents={false}
           >
             <Popup offset={[0, -4]} closeButton={false}>
-              <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(b) }} />
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: appendWikiTooltip(buildTooltipHtml(b), b.id, wikiLookup, 'battles'),
+                }}
+              />
             </Popup>
           </CircleMarker>
         )

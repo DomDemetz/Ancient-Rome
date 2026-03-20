@@ -13,7 +13,15 @@
     "validate": "tsx scripts/validate-data.ts",
     "generate:dare": "tsx scripts/generate-dare-layers.ts",
     "ingest:battles": "tsx scripts/ingest-battles.ts",
-    "ingest:amphitheaters": "tsx scripts/ingest-amphitheaters.ts"
+    "ingest:amphitheaters": "tsx scripts/ingest-amphitheaters.ts",
+    "enrich:wiki:entities": "tsx scripts/enrich-wikipedia-from-urls.ts",
+    "enrich:wiki:pleiades": "tsx scripts/enrich-wikipedia-from-pleiades.ts",
+    "enrich:wiki:fuzzy": "tsx scripts/enrich-wikipedia-fuzzy.ts",
+    "enrich:wiki": "tsx scripts/enrich-wikipedia-all.ts",
+    "enrich:crossref": "tsx scripts/enrich-cross-reference.ts",
+    "enrich:wikidata": "tsx scripts/enrich-wikidata-structured.ts",
+    "rescore:wiki": "tsx scripts/rescore-roman-relevance.ts",
+    "validate:wiki": "tsx scripts/validate-wiki.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

@@ -2,6 +2,8 @@ import { useCallback, useMemo, useState } from 'react'
 import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
 import type { DareSettlement, CityPopulation } from '@/data/dare'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip } from '@/lib/wiki-popup'
 import {
   DARE_TYPE_LABELS,
   DARE_TYPE_TO_CATEGORY,
@@ -105,6 +107,7 @@ export function SettlementLayer({
   const [zoom, setZoom] = useState(map.getZoom())
   const [bounds, setBounds] = useState(map.getBounds())
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const wikiLookup = useWikiEnrichment('settlements')
 
   const updateView = useCallback(() => {
     setZoom(map.getZoom())
@@ -196,7 +199,16 @@ export function SettlementLayer({
             bubblingMouseEvents={false}
           >
             <Popup offset={[0, -4]} closeButton={false}>
-              <span dangerouslySetInnerHTML={{ __html: buildTooltipHtml(s, population) }} />
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: appendWikiTooltip(
+                    buildTooltipHtml(s, population),
+                    s.id,
+                    wikiLookup,
+                    'settlements',
+                  ),
+                }}
+              />
             </Popup>
           </CircleMarker>
         )

@@ -6,6 +6,7 @@ import { TrailBar } from './TrailBar'
 import { FilterPanel } from '@/features/filters/FilterPanel'
 import { PathFinder } from '@/features/search/PathFinder'
 import { DetailPanel } from '@/features/detail/DetailPanel'
+import { WikiDetailPanel } from '@/features/detail/WikiDetailPanel'
 import { useURLSync } from '@/app/useURLSync'
 import { useMobileDetect } from '@/app/useMobileDetect'
 import { GraphView } from '@/features/graph/GraphView'
@@ -81,6 +82,7 @@ export function InvestigationBoard() {
 
         {/* Detail panel — shown when something is selected (desktop) */}
         <DetailPanel />
+        <WikiDetailPanel />
       </div>
 
       <TrailBar />
