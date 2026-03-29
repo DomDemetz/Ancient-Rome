@@ -270,6 +270,18 @@ export const ALL_LAYER_KEYS = [
   'showPorts',
 ] as const
 
+interface PortData {
+  id: string
+  name: string
+  lat: number
+  lng: number
+  portType?: string
+  description?: string
+  startYear?: number
+  endYear?: number
+  source?: string
+}
+
 interface MapLayerState {
   // Existing layers
   showRoads: boolean
@@ -347,7 +359,7 @@ interface MapLayerState {
   viciData: unknown[] | null
   viciLoading: boolean
   showPorts: boolean
-  portsData: unknown[] | null
+  portsData: PortData[] | null
   portsLoading: boolean
 
   // Settlement filtering
