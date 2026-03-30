@@ -26,7 +26,7 @@ function centuryLabel(year: number): string {
 }
 
 function centurySortKey(year: number): number {
-  if (year < 0) return Math.ceil(year / 100)
+  if (year < 0) return -Math.ceil(Math.abs(year) / 100)
   return Math.max(1, Math.ceil(year / 100))
 }
 
