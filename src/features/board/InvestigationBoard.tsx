@@ -17,6 +17,7 @@ import { useStoryMode } from '@/features/stories/useStoryMode'
 import { NarrationBar } from '@/features/stories/NarrationBar'
 import { stories } from '@/data'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
+import { MobileTabBar } from './LensSwitcher'
 
 export function InvestigationBoard() {
   useURLSync()
@@ -44,7 +45,7 @@ export function InvestigationBoard() {
       <div className="flex flex-1 overflow-hidden">
         {/* Left sidebar — shown only for graph view (filters + path finder) */}
         {sidebarOpen && lens === 'graph' && !isMobile && (
-          <aside className="w-[280px] shrink-0 border-r border-white/[0.05] bg-[#0c0c10] overflow-y-auto">
+          <aside className="w-[280px] shrink-0 border-r border-white/[0.08] bg-[#0c0c10] overflow-y-auto">
             <FilterPanel />
             <div className="border-t border-white/[0.05]" />
             <PathFinder />
@@ -85,7 +86,8 @@ export function InvestigationBoard() {
         <WikiDetailPanel />
       </div>
 
-      <TrailBar />
+      {/* Trail bar — desktop only (mobile has limited space) */}
+      {!isMobile && <TrailBar />}
 
       {/* Narration bar — shown when story is active */}
       {storyMode.isActive && storyMode.activeStory && storyMode.currentStep && (
@@ -99,6 +101,9 @@ export function InvestigationBoard() {
           onExit={storyMode.exit}
         />
       )}
+
+      {/* Mobile bottom tab bar */}
+      {isMobile && <MobileTabBar />}
     </div>
   )
 }

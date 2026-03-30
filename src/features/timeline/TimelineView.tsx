@@ -22,8 +22,8 @@ const LANE_TYPES: Entity['entityType'][] = [
   'infrastructure',
   'location',
 ]
-const LANE_HEIGHT = 80
-const MARGIN = { top: 24, right: 24, bottom: 32, left: 24 }
+const MIN_LANE_HEIGHT = 50
+const MARGIN = { top: 32, right: 24, bottom: 36, left: 24 }
 const MIN_YEAR = -753
 const MAX_YEAR = 476
 
@@ -57,7 +57,10 @@ export function TimelineView() {
   }, [])
 
   const innerWidth = dimensions.width - MARGIN.left - MARGIN.right
-  const totalLanesHeight = LANE_TYPES.length * LANE_HEIGHT
+  // Compute lane height to fill the available container height
+  const availableHeight = dimensions.height - MARGIN.top - MARGIN.bottom
+  const laneHeight = Math.max(Math.floor(availableHeight / LANE_TYPES.length), MIN_LANE_HEIGHT)
+  const totalLanesHeight = LANE_TYPES.length * laneHeight
   const svgHeight = totalLanesHeight + MARGIN.top + MARGIN.bottom
 
   const xScale = useMemo(
@@ -151,8 +154,8 @@ export function TimelineView() {
                   entities={entitiesByLane.get(type) ?? []}
                   entityType={type}
                   xScale={xScale}
-                  y={i * LANE_HEIGHT}
-                  height={LANE_HEIGHT}
+                  y={i * laneHeight}
+                  height={laneHeight}
                   onHover={handleHover}
                   onSelect={handleSelect}
                 />
@@ -164,9 +167,9 @@ export function TimelineView() {
                   key={i}
                   x1={0}
                   x2={innerWidth}
-                  y1={i * LANE_HEIGHT}
-                  y2={i * LANE_HEIGHT}
-                  stroke="rgba(255,255,255,0.06)"
+                  y1={i * laneHeight}
+                  y2={i * laneHeight}
+                  stroke="rgba(255,255,255,0.08)"
                   strokeWidth={1}
                 />
               ))}
@@ -189,7 +192,7 @@ export function TimelineView() {
                   return (
                     <g key={tick} transform={`translate(${x},0)`}>
                       <line y1={0} y2={6} stroke="rgba(255,255,255,0.3)" strokeWidth={1} />
-                      <text y={18} fontSize={9} textAnchor="middle" fill="rgba(255,255,255,0.4)">
+                      <text y={18} fontSize={10} textAnchor="middle" fill="rgba(255,255,255,0.55)">
                         {label}
                       </text>
                     </g>
@@ -199,6 +202,16 @@ export function TimelineView() {
             </g>
           </svg>
         </div>
+
+        {/* Empty state */}
+        {filteredEntities.length === 0 && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <p className="text-slate-500 text-sm text-center max-w-xs">
+              No entities match the current filters. Try broadening your search or adjusting the
+              year range.
+            </p>
+          </div>
+        )}
 
         {/* Tooltip */}
         {tooltip && <TimelineTooltip entity={tooltip.entity} x={tooltip.x} y={tooltip.y} />}

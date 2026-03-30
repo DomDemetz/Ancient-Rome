@@ -83,6 +83,36 @@ export function GraphView() {
     const width = svgEl.clientWidth || 800
     const height = svgEl.clientHeight || 600
 
+    // Dot grid background pattern
+    const defs = svg.append('defs')
+    const pattern = defs
+      .append('pattern')
+      .attr('id', 'dot-grid')
+      .attr('width', 24)
+      .attr('height', 24)
+      .attr('patternUnits', 'userSpaceOnUse')
+    pattern
+      .append('circle')
+      .attr('cx', 12)
+      .attr('cy', 12)
+      .attr('r', 0.6)
+      .attr('fill', 'rgba(255,255,255,0.06)')
+
+    // Node glow filter
+    const glow = defs
+      .append('filter')
+      .attr('id', 'node-glow')
+      .attr('x', '-50%')
+      .attr('y', '-50%')
+      .attr('width', '200%')
+      .attr('height', '200%')
+    glow.append('feGaussianBlur').attr('stdDeviation', '4').attr('result', 'blur')
+    const merge = glow.append('feMerge')
+    merge.append('feMergeNode').attr('in', 'blur')
+    merge.append('feMergeNode').attr('in', 'SourceGraphic')
+
+    svg.append('rect').attr('width', '100%').attr('height', '100%').attr('fill', 'url(#dot-grid)')
+
     const g = svg.append('g').attr('class', 'graph-root')
 
     const zoom = d3
@@ -117,8 +147,8 @@ export function GraphView() {
       .selectAll('line')
       .data(allLinks)
       .join('line')
-      .attr('stroke', '#555')
-      .attr('stroke-opacity', 0.4)
+      .attr('stroke', '#4a4a5a')
+      .attr('stroke-opacity', 0.25)
       .attr('stroke-width', (d) => d.strength ?? 1)
 
     // Node groups
@@ -153,17 +183,36 @@ export function GraphView() {
 
     node
       .append('circle')
-      .attr('r', 6)
+      .attr('r', 8)
       .attr('fill', (d) => getNodeColor(d.entityType))
+      .style('transition', 'r 0.15s ease, filter 0.15s ease')
+
+    // Hover: scale node + highlight label
+    node
+      .on('mouseenter', function () {
+        d3.select(this).select('circle').attr('r', 11).style('filter', 'url(#node-glow)')
+        d3.select(this).select('text').attr('fill', '#fff').attr('font-weight', 600)
+      })
+      .on('mouseleave', function (_, d) {
+        const isSelected = d.id === useSelectionStore.getState().selectedId
+        d3.select(this)
+          .select('circle')
+          .attr('r', isSelected ? 12 : 8)
+          .style('filter', isSelected ? 'url(#node-glow)' : 'none')
+        d3.select(this).select('text').attr('fill', '#cbd5e1').attr('font-weight', 500)
+      })
 
     node
       .append('text')
       .text((d) => d.name)
-      .attr('dx', 8)
+      .attr('dx', 11)
       .attr('dy', 3)
-      .attr('font-size', 9)
-      .attr('fill', '#ccc')
+      .attr('font-size', 11)
+      .attr('font-weight', 500)
+      .attr('fill', '#cbd5e1')
       .attr('pointer-events', 'none')
+      .style('text-shadow', '0 1px 6px rgba(0,0,0,0.9)')
+      .style('transition', 'fill 0.15s ease')
 
     simulation.on('tick', () => {
       link
@@ -206,15 +255,32 @@ export function GraphView() {
 
     svg
       .selectAll<SVGCircleElement, GraphNode>('.nodes g circle')
-      .attr('r', (d) => (d.id === selectedId ? 10 : 6))
+      .attr('r', (d) => (d.id === selectedId ? 12 : 8))
       .attr('stroke', (d) => (d.id === selectedId ? '#fff' : 'transparent'))
-      .attr('stroke-width', (d) => (d.id === selectedId ? 2.5 : 0))
+      .attr('stroke-width', (d) => (d.id === selectedId ? 2 : 0))
+      .style('filter', (d) => (d.id === selectedId ? 'url(#node-glow)' : 'none'))
   }, [selectedId])
 
   return (
     <div className="relative w-full h-full flex flex-col">
-      <div className="relative flex-1">
+      <div
+        className="relative flex-1"
+        style={{
+          background:
+            'radial-gradient(ellipse at 50% 40%, rgba(245,158,11,0.02) 0%, rgba(10,10,12,0) 60%)',
+        }}
+      >
         <svg ref={svgRef} className="w-full h-full" />
+        {allNodes.length === 0 && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center max-w-xs space-y-2">
+              <p className="text-slate-500 text-sm">No entities match the current filters.</p>
+              <p className="text-slate-600 text-xs">
+                Try broadening your search or adjusting the timeline.
+              </p>
+            </div>
+          </div>
+        )}
         <GraphControls onZoomIn={handleZoomIn} onZoomOut={handleZoomOut} onReset={handleReset} />
       </div>
       <TimelinePlayer />

@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
+import { useUIStore } from '@/stores/useUIStore'
 
 export interface StoryStep {
   id: string
@@ -35,6 +36,7 @@ function formatYear(year: number): string {
 export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
   const [currentStep, setCurrentStep] = useState(0)
   const setYear = useTimelineStore((s) => s.setYear)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const step = story.steps[currentStep]
   const isFirst = currentStep === 0
@@ -134,23 +136,27 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
             disabled={isFirst}
             className={[
               'px-3 py-1 text-xs rounded border transition-colors',
+              isMobile ? 'min-h-[44px] min-w-[44px]' : '',
               isFirst
                 ? 'border-white/10 text-white/20 cursor-not-allowed'
-                : 'border-white/20 text-white/70 hover:bg-white/10',
+                : 'border-white/20 text-white/70 hover:bg-white/10 active:bg-white/15',
             ].join(' ')}
           >
-            &larr; Previous
+            &larr; Prev
           </button>
 
           {/* Step dots */}
-          <div className="flex gap-1">
+          <div className="flex gap-1.5">
             {story.steps.map((_, i) => (
               <button
                 key={i}
                 onClick={() => setCurrentStep(i)}
                 className={[
-                  'w-1.5 h-1.5 rounded-full transition-colors',
-                  i === currentStep ? 'bg-amber-400' : 'bg-white/20 hover:bg-white/40',
+                  'rounded-full transition-colors',
+                  isMobile ? 'w-2.5 h-2.5' : 'w-1.5 h-1.5',
+                  i === currentStep
+                    ? 'bg-amber-400'
+                    : 'bg-white/20 hover:bg-white/40 active:bg-white/40',
                 ].join(' ')}
               />
             ))}
@@ -158,7 +164,9 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
 
           <button
             onClick={isLast ? onClose : goNext}
-            className="px-3 py-1 text-xs rounded border border-amber-700/50 text-amber-200/80 hover:bg-amber-900/40 transition-colors"
+            className={`px-3 py-1 text-xs rounded border border-amber-700/50 text-amber-200/80 hover:bg-amber-900/40 active:bg-amber-900/50 transition-colors ${
+              isMobile ? 'min-h-[44px] min-w-[44px]' : ''
+            }`}
           >
             {isLast ? 'Finish' : 'Next \u2192'}
           </button>

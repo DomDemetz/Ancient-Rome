@@ -17,6 +17,7 @@
     "enrich:wiki:entities": "tsx scripts/enrich-wikipedia-from-urls.ts",
     "enrich:wiki:pleiades": "tsx scripts/enrich-wikipedia-from-pleiades.ts",
     "enrich:wiki:fuzzy": "tsx scripts/enrich-wikipedia-fuzzy.ts",
+    "enrich:wiki:extra": "tsx scripts/enrich-wikipedia-extra.ts",
     "enrich:wiki": "tsx scripts/enrich-wikipedia-all.ts",
     "enrich:crossref": "tsx scripts/enrich-cross-reference.ts",
     "enrich:wikidata": "tsx scripts/enrich-wikidata-structured.ts",

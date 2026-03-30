@@ -14,16 +14,25 @@ export function EraOverlay({ eras, xScale, height }: Props) {
         const x = xScale(era.startYear)
         const w = xScale(era.endYear) - xScale(era.startYear)
         return (
-          <rect
-            key={i}
-            x={x}
-            y={0}
-            width={Math.max(w, 1)}
-            height={height}
-            fill="rgba(212, 175, 55, 0.08)"
-            stroke="rgba(212, 175, 55, 0.25)"
-            strokeWidth={1}
-          />
+          <g key={i}>
+            <rect
+              x={x}
+              y={0}
+              width={Math.max(w, 1)}
+              height={height}
+              fill="rgba(212, 175, 55, 0.05)"
+            />
+            {/* Era boundary line */}
+            <line
+              x1={x}
+              y1={0}
+              x2={x}
+              y2={height}
+              stroke="rgba(212, 175, 55, 0.15)"
+              strokeWidth={1}
+              strokeDasharray="4 4"
+            />
+          </g>
         )
       })}
     </g>

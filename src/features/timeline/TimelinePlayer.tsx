@@ -127,29 +127,69 @@ export function TimelinePlayer() {
     [currentYear],
   )
 
-  return (
-    <div className="flex flex-col px-4 pt-2 pb-1 bg-black/80 backdrop-blur-2xl border-t border-white/[0.05]">
-      {/* Main controls row */}
-      <div className="flex items-center gap-3">
-        {/* Play / Pause */}
+  // Mobile: ultra-compact single row
+  if (isMobile) {
+    return (
+      <div className="flex items-center gap-2 px-3 py-1.5 bg-[#0a0a0c]/95 backdrop-blur-2xl border-t border-white/[0.06]">
         <button
           onClick={handleTogglePlay}
-          className={`flex items-center justify-center bg-white/[0.05] hover:bg-white/[0.08] border border-white/[0.06] rounded-full text-amber-500 shrink-0 transition-colors ${
-            isMobile ? 'min-w-[44px] min-h-[44px]' : 'w-9 h-9'
+          className={`flex items-center justify-center w-8 h-8 rounded-full shrink-0 transition-all ${
+            playing ? 'bg-amber-500/15 text-amber-400' : 'bg-white/[0.05] text-amber-500'
           }`}
           aria-label={playing ? 'Pause' : 'Play'}
         >
-          {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
+          {playing ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5 ml-px" />}
         </button>
 
-        {/* Year display */}
-        <span className="text-slate-400 font-mono text-sm w-16 shrink-0 text-center">
+        <span className="text-slate-300 font-mono text-[11px] w-14 shrink-0 text-center tabular-nums">
           {formatYear(Math.round(currentYear))}
         </span>
 
-        {/* Slider with tick marks */}
+        <input
+          type="range"
+          min={MIN_YEAR}
+          max={MAX_YEAR}
+          step={1}
+          value={Math.round(currentYear)}
+          onChange={handleSliderChange}
+          onTouchStart={handleSliderMouseDown}
+          onTouchEnd={handleSliderMouseUp}
+          onTouchCancel={handleSliderMouseUp}
+          className="flex-1 accent-amber-400"
+          aria-label="Timeline year"
+        />
+
+        <button
+          onClick={handleCycleSpeed}
+          className="text-[10px] font-bold text-amber-500 bg-amber-500/10 rounded-full px-2 py-0.5 shrink-0"
+        >
+          {speed}x
+        </button>
+      </div>
+    )
+  }
+
+  // Desktop: full player
+  return (
+    <div className="flex flex-col px-5 pt-2.5 pb-1.5 bg-[#0a0a0c]/90 backdrop-blur-xl border-t border-white/[0.08]">
+      <div className="flex items-center gap-3">
+        <button
+          onClick={handleTogglePlay}
+          className={`flex items-center justify-center w-9 h-9 rounded-full text-amber-500 shrink-0 transition-all ${
+            playing
+              ? 'bg-amber-500/10 border border-amber-500/20 hover:bg-amber-500/15'
+              : 'bg-white/[0.05] border border-white/[0.06] hover:bg-white/[0.08]'
+          }`}
+          aria-label={playing ? 'Pause' : 'Play'}
+        >
+          {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-0.5" />}
+        </button>
+
+        <span className="text-slate-300 font-mono text-sm w-20 shrink-0 text-center tabular-nums tracking-wide">
+          {formatYear(Math.round(currentYear))}
+        </span>
+
         <div className="relative flex-1 flex flex-col justify-center">
-          {/* Tick marks */}
           <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 pointer-events-none">
             {TICK_MARKS.map((tick) => (
               <div
@@ -157,17 +197,14 @@ export function TimelinePlayer() {
                 className="absolute -translate-x-1/2 group"
                 style={{ left: `${yearToPercent(tick.year)}%` }}
               >
-                {/* Tick line */}
-                <div className="w-px h-2 bg-slate-500/40 mx-auto" />
-                {/* Hover label */}
-                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] text-slate-500 bg-[#0a0a0c] border border-white/[0.06] rounded px-1 py-0.5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                <div className="w-px h-3 bg-slate-500/30 mx-auto" />
+                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] text-slate-600 pointer-events-none z-10">
                   {tick.label}
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Range slider */}
           <input
             type="range"
             min={MIN_YEAR}
@@ -185,45 +222,32 @@ export function TimelinePlayer() {
           />
         </div>
 
-        {/* Speed selector */}
-        {isMobile ? (
-          <button
-            onClick={handleCycleSpeed}
-            className="text-xs px-2 py-1 rounded-full bg-amber-400 text-black font-semibold shrink-0 min-w-[44px] min-h-[44px]"
-          >
-            {speed}x
-          </button>
-        ) : (
-          <div className="flex items-center gap-1 shrink-0">
-            {SPEEDS.map((s) => (
-              <button
-                key={s}
-                onClick={() => setSpeed(s)}
-                className={`text-[9px] font-bold px-2 py-1 rounded-lg border transition-colors ${
-                  speed === s
-                    ? 'bg-amber-600 text-white border-amber-600'
-                    : 'bg-transparent text-slate-500 border-white/[0.06] hover:text-white'
-                }`}
-              >
-                {s}x
-              </button>
-            ))}
-          </div>
-        )}
+        <div className="flex items-center gap-1 shrink-0">
+          {SPEEDS.map((s) => (
+            <button
+              key={s}
+              onClick={() => setSpeed(s)}
+              className={`text-[10px] font-bold px-2.5 py-1 rounded-lg border transition-colors ${
+                speed === s
+                  ? 'bg-amber-600 text-white border-amber-600'
+                  : 'bg-transparent text-slate-500 border-white/[0.08] hover:text-white active:text-white'
+              }`}
+            >
+              {s}x
+            </button>
+          ))}
+        </div>
       </div>
 
-      {/* Era label row */}
-      {!isMobile && (
-        <div className="flex items-center justify-center pb-0.5">
-          <span
-            key={currentEra.label}
-            className="text-[10px] text-amber-500/50 font-mono tracking-wide transition-colors duration-300"
-          >
-            {currentEra.label} ({formatYear(currentEra.start)} →{' '}
-            {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})
-          </span>
-        </div>
-      )}
+      <div className="flex items-center justify-center pb-0.5">
+        <span
+          key={currentEra.label}
+          className="text-xs text-amber-500/60 font-mono tracking-wide transition-colors duration-300"
+        >
+          {currentEra.label} ({formatYear(currentEra.start)} →{' '}
+          {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})
+        </span>
+      </div>
     </div>
   )
 }

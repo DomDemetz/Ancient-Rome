@@ -39,9 +39,13 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
     : '#9ca3af'
 
   return (
-    <div className="absolute top-3 left-1/2 -translate-x-1/2 z-[1000] pointer-events-none">
+    <div
+      className={`absolute z-[1000] pointer-events-none ${
+        isMobile ? 'top-8 left-2' : 'top-3 left-1/2 -translate-x-1/2'
+      }`}
+    >
       <div
-        className={`bg-black/70 backdrop-blur-xl border border-white/[0.06] rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] flex items-center gap-2.5 ${
+        className={`bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] rounded-xl shadow-[0_4px_24px_rgba(0,0,0,0.5)] flex items-center gap-2.5 ${
           isMobile ? 'px-3 py-1.5' : 'px-5 py-2'
         }`}
         style={{

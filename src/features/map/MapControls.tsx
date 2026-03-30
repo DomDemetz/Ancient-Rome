@@ -64,7 +64,7 @@ function LayerPanelContent({
   ][]
 
   return (
-    <div className="p-4 space-y-4">
+    <div className="p-3 space-y-3">
       {/* Presets */}
       <div>
         <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-amber-500/50 mb-2">
@@ -78,10 +78,10 @@ function LayerPanelContent({
                 key={key}
                 onClick={() => activatePreset(key)}
                 className={cn(
-                  'px-3 py-1.5 text-xs font-medium rounded-full transition-all',
+                  'px-3 py-2 text-xs font-medium rounded-full transition-all min-h-[36px]',
                   active
                     ? 'bg-amber-600 text-white shadow-lg'
-                    : 'text-slate-500 hover:text-white bg-transparent border border-white/[0.06] rounded-full',
+                    : 'text-slate-500 hover:text-white active:text-white bg-transparent border border-white/[0.06] rounded-full',
                 )}
                 title={preset.description}
               >
@@ -102,7 +102,7 @@ function LayerPanelContent({
           <div key={group.label}>
             <button
               onClick={() => toggleGroup(group.label)}
-              className="w-full flex items-center gap-2 py-1.5 text-[10px] font-bold uppercase tracking-[0.15em] text-amber-500/50 hover:text-amber-500 transition-colors"
+              className="w-full flex items-center gap-2 py-2 min-h-[40px] text-[10px] font-bold uppercase tracking-[0.15em] text-amber-500/50 hover:text-amber-500 active:text-amber-500 transition-colors"
             >
               {GroupIcon && <GroupIcon className="size-3.5" />}
               <span>{group.label}</span>
@@ -127,12 +127,12 @@ function LayerPanelContent({
                       <button
                         onClick={state.toggle}
                         className={cn(
-                          'w-full flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg transition-colors text-left',
+                          'w-full flex items-center gap-2 px-3 py-2 min-h-[40px] text-xs rounded-lg transition-colors text-left',
                           state.loading
                             ? 'border-l-2 border-transparent text-slate-600 cursor-wait'
                             : state.active
                               ? 'border-l-2 border-amber-500 bg-white/[0.03] text-white'
-                              : 'border-l-2 border-transparent text-slate-500 hover:bg-white/[0.03] hover:text-white',
+                              : 'border-l-2 border-transparent text-slate-500 hover:bg-white/[0.03] hover:text-white active:bg-white/[0.03] active:text-white',
                         )}
                         title={`Toggle ${layer.label.toLowerCase()} layer`}
                       >
@@ -154,7 +154,7 @@ function LayerPanelContent({
                                 key={type}
                                 onClick={() => toggleSettlementType(type)}
                                 className={cn(
-                                  'flex items-center gap-1.5 w-full px-2.5 py-1 text-[10px] text-left transition-colors hover:bg-white/10 rounded',
+                                  'flex items-center gap-1.5 w-full px-2.5 py-1.5 min-h-[36px] text-[10px] text-left transition-colors hover:bg-white/10 active:bg-white/10 rounded',
                                   enabled ? 'text-white/90' : 'text-white/30',
                                 )}
                               >
@@ -342,24 +342,51 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
 
   return (
     <>
-      {/* Toggle button */}
-      <div className="absolute top-3 right-3 z-[1000]" style={{ pointerEvents: 'all' }}>
+      {/* Toggle button — unified glass control */}
+      <div
+        className={`absolute z-[1000] ${isMobile ? 'top-2 right-2' : 'top-3 right-3'}`}
+        style={{ pointerEvents: 'all' }}
+      >
         <button
           onClick={() => setPanelOpen(!panelOpen)}
-          className="flex items-center justify-center size-10 rounded-xl bg-black/70 backdrop-blur-xl border border-white/[0.06] text-white/80 hover:text-white transition-colors"
+          className={cn(
+            'group flex items-center justify-center rounded-xl backdrop-blur-md border transition-all duration-200',
+            isMobile
+              ? 'size-10 shadow-[0_2px_12px_rgba(0,0,0,0.5)]'
+              : 'gap-2 shadow-[0_4px_24px_rgba(0,0,0,0.5)]',
+            panelOpen
+              ? isMobile
+                ? 'bg-amber-500/15 border-amber-500/25 text-amber-400'
+                : 'bg-amber-500/15 border-amber-500/25 text-amber-400 px-3.5 py-2.5'
+              : isMobile
+                ? 'bg-[#0a0a0c]/80 border-white/[0.08] text-slate-400 active:text-amber-400'
+                : 'bg-[#0a0a0c]/85 border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 px-3 py-2.5',
+          )}
           aria-label="Toggle layers"
         >
-          <Layers className="size-5" />
+          <Layers className={isMobile ? 'size-[18px]' : 'size-4'} />
+          {!isMobile && (
+            <span
+              className={cn(
+                'text-[10px] font-bold uppercase tracking-[0.1em] transition-all duration-200',
+                panelOpen
+                  ? 'opacity-100'
+                  : 'opacity-0 w-0 overflow-hidden group-hover:opacity-100 group-hover:w-auto',
+              )}
+            >
+              Layers
+            </span>
+          )}
         </button>
       </div>
 
       {/* Desktop panel */}
       {panelOpen && !isMobile && (
         <div
-          className="absolute right-0 top-0 z-[999] h-full w-[260px] bg-[#0c0c10] border-l border-white/[0.05]"
+          className="absolute right-0 top-0 z-[999] h-full w-[260px] bg-[#0c0c10]/95 backdrop-blur-md border-l border-white/[0.08] shadow-[-4px_0_24px_rgba(0,0,0,0.3)]"
           style={{ pointerEvents: 'all' }}
         >
-          <div className="flex items-center justify-between p-4 border-b border-white/[0.05]">
+          <div className="flex items-center justify-between p-4 border-b border-white/[0.08]">
             <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
               Layers
             </span>
@@ -376,7 +403,7 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
       {/* Mobile drawer */}
       {isMobile && (
         <Drawer open={panelOpen} onOpenChange={setPanelOpen}>
-          <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[60vh]">
+          <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[75vh]">
             <DrawerHeader>
               <DrawerTitle>Layers</DrawerTitle>
             </DrawerHeader>

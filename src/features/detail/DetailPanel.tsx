@@ -24,7 +24,7 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+      <div className="flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b border-white/[0.05] shrink-0">
         <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
           Imperium Records
         </span>
@@ -40,7 +40,7 @@ function DetailPanelContent({ entityId }: { entityId: string }) {
       </div>
 
       <div className="flex-1 min-h-0 overflow-y-auto">
-        <div className="p-6 space-y-6">
+        <div className="p-4 sm:p-6 space-y-5 sm:space-y-6">
           <EntityHeader entity={entity} />
 
           <Separator />
@@ -90,7 +90,7 @@ export function DetailPanel() {
   }
 
   return (
-    <aside className="w-[340px] h-full shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
+    <aside className="w-[360px] h-full shrink-0 border-l border-white/[0.08] bg-[#0c0c10] overflow-hidden flex flex-col">
       <DetailPanelContent entityId={selectedId} />
     </aside>
   )

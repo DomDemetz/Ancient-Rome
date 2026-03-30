@@ -16,7 +16,7 @@ export function TrailBar() {
   const visible = breadcrumbs.slice(-MAX_VISIBLE)
 
   return (
-    <div className="flex items-center gap-1.5 border-t border-white/[0.05] px-4 py-2 shrink-0 overflow-x-auto">
+    <div className="flex items-center gap-1.5 border-t border-white/[0.05] px-4 py-2.5 shrink-0 overflow-x-auto scrollbar-none">
       <History className="size-3.5 text-slate-400 shrink-0" />
       {visible.map((id, i) => {
         const entity = entities.find((e) => e.id === id)
@@ -24,7 +24,7 @@ export function TrailBar() {
         return (
           <button
             key={`${id}-${breadcrumbs.length - MAX_VISIBLE + i}`}
-            className={`cursor-pointer bg-white/[0.03] border border-white/[0.05] rounded-xl text-slate-300 hover:border-amber-500/20 hover:text-white transition-all inline-flex items-center gap-1.5 px-2.5 py-1 text-xs ${isMobile ? 'min-h-[44px]' : ''}`}
+            className={`cursor-pointer bg-white/[0.03] border border-white/[0.05] rounded-xl text-slate-300 hover:border-amber-500/20 hover:text-white active:border-amber-500/20 active:text-white active:scale-[0.97] transition-all inline-flex items-center gap-1.5 px-2.5 py-1 text-xs ${isMobile ? 'min-h-[44px]' : ''}`}
             onClick={() => select(id)}
           >
             {color && (

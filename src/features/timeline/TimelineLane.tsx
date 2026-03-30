@@ -1,6 +1,6 @@
 import type { ScaleLinear } from 'd3'
 import type { Entity } from '@/types'
-import { entityColors } from '@/lib/colors'
+import { entityColors, entityLabels } from '@/lib/colors'
 
 interface Props {
   entities: Entity[]
@@ -84,25 +84,38 @@ export function TimelineLane({
 
   return (
     <g className={`timeline-lane lane-${entityType}`}>
-      {/* Lane background stripe */}
+      {/* Lane background stripe — alternating subtle fill */}
       <rect
         x={xScale.range()[0]}
         y={y}
         width={xScale.range()[1] - xScale.range()[0]}
         height={height}
-        fill="rgba(255,255,255,0.02)"
+        fill="rgba(255,255,255,0.015)"
+      />
+      {/* Left color accent strip */}
+      <rect
+        x={xScale.range()[0]}
+        y={y}
+        width={2}
+        height={height}
+        fill={color}
+        fillOpacity={0.15}
+        rx={1}
       />
 
       {/* Lane label */}
       <text
-        x={xScale.range()[0] + 4}
-        y={y + height / 2 + 4}
-        fontSize={10}
-        fill="rgba(255,255,255,0.3)"
+        x={xScale.range()[0] + 6}
+        y={y + 16}
+        fontSize={9}
+        fontWeight={700}
+        letterSpacing="0.12em"
+        fill={color}
+        fillOpacity={0.5}
         pointerEvents="none"
-        style={{ userSelect: 'none' }}
+        style={{ userSelect: 'none', textTransform: 'uppercase', fontFamily: 'var(--font-sans)' }}
       >
-        {entityType}
+        {entityLabels[entityType] ?? entityType}
       </text>
 
       {/* Entity bars */}

@@ -113,18 +113,32 @@ export function StatsOverlay() {
 
   if (stats.length === 0) return null
 
+  // Mobile: minimal inline pills at top-left, below any emperor banner
+  if (isMobile) {
+    return (
+      <div className="absolute top-2 left-2 z-[1000] pointer-events-none">
+        <div className="flex items-center gap-1.5">
+          {stats.map((s) => (
+            <span
+              key={s.label}
+              className="flex items-center gap-1 bg-black/70 rounded-full px-2 py-0.5 text-[9px] tabular-nums"
+            >
+              <s.Icon className="w-3 h-3 text-slate-500" />
+              <span className="font-semibold text-slate-200">{s.value}</span>
+            </span>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  // Desktop: full stats bar
   return (
     <div className="absolute top-3 left-3 z-[1000] pointer-events-none">
-      <div
-        className={`bg-black/70 backdrop-blur-xl border border-white/[0.05] rounded-2xl px-4 py-2.5 text-[11px] tabular-nums ${
-          isMobile
-            ? 'flex flex-wrap gap-x-4 gap-y-1.5'
-            : 'flex items-center gap-4 whitespace-nowrap'
-        }`}
-      >
+      <div className="bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] rounded-xl px-3.5 py-2 text-[11px] tabular-nums shadow-[0_4px_24px_rgba(0,0,0,0.5)] flex items-center gap-4 whitespace-nowrap">
         {stats.map((s, i) => (
           <span key={s.label} className="flex items-center gap-1">
-            {!isMobile && i > 0 && <span className="text-slate-700">&middot;</span>}
+            {i > 0 && <span className="text-slate-700">&middot;</span>}
             <s.Icon className="w-3.5 h-3.5 text-slate-500" />
             <span className="font-semibold text-slate-100">{s.value}</span>
             <span className="text-slate-500">{s.label}</span>

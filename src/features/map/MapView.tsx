@@ -115,7 +115,7 @@ export function MapView() {
   // Smart default: open with Conquest preset at 100 AD with brief autoplay
   const initRef = useRef(false)
   const { activatePreset } = useMapLayerStore()
-  const { setYear, play, pause } = useTimelineStore()
+  const { setYear } = useTimelineStore()
   useEffect(() => {
     if (initRef.current) return
     initRef.current = true
@@ -123,8 +123,6 @@ export function MapView() {
     if (new URLSearchParams(window.location.search).has('story')) return
     activatePreset('conquest')
     setYear(100)
-    play()
-    setTimeout(() => pause(), 3000)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const store = useMapLayerStore()

@@ -48,7 +48,7 @@ export function EntityHeader({ entity }: EntityHeaderProps) {
           variant="ghost"
           size="icon-sm"
           onClick={() => (isPinned ? unpin(entity.id) : pin(entity.id))}
-          className="shrink-0 text-slate-500 hover:text-amber-500"
+          className="shrink-0 text-slate-500 hover:text-amber-500 active:text-amber-500"
           aria-label={isPinned ? 'Unpin entity' : 'Pin entity'}
         >
           {isPinned ? <PinOff className="size-3.5" /> : <Pin className="size-3.5" />}
@@ -64,7 +64,7 @@ export function EntityHeader({ entity }: EntityHeaderProps) {
       {/* Stat grid for dates */}
       {dates.start !== undefined && (
         <div className="grid grid-cols-2 gap-2">
-          <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-3.5">
+          <div className="bg-white/[0.04] border border-white/[0.08] rounded-2xl p-3.5">
             <div className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-600 mb-1">
               {entity.entityType === 'person'
                 ? 'Born'
@@ -75,7 +75,7 @@ export function EntityHeader({ entity }: EntityHeaderProps) {
             <div className="text-lg font-light text-slate-200">{formatYear(dates.start)}</div>
           </div>
           {dates.end !== undefined && (
-            <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-3.5">
+            <div className="bg-white/[0.04] border border-white/[0.08] rounded-2xl p-3.5">
               <div className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-600 mb-1">
                 {entity.entityType === 'person'
                   ? 'Died'
