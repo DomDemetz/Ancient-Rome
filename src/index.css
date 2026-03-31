@@ -439,6 +439,11 @@
   scrollbar-width: none;
 }
 
+/* Mobile drawer scroll — iOS momentum + scroll containment */
+[vaul-drawer] [data-vaul-drawer-content] {
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

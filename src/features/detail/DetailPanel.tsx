@@ -81,7 +81,7 @@ export function DetailPanel() {
           <DrawerHeader className="sr-only">
             <DrawerTitle>Entity Detail</DrawerTitle>
           </DrawerHeader>
-          <div className="flex-1 overflow-hidden flex flex-col">
+          <div className="flex-1 min-h-0 flex flex-col overflow-y-auto overscroll-contain">
             <DetailPanelContent entityId={selectedId} />
           </div>
         </DrawerContent>
