@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import {
   Layers,
   X,
@@ -10,7 +10,10 @@ import {
   Coins,
   Landmark,
   MapPin,
+  Plus,
+  Minus,
 } from 'lucide-react'
+import type { Map as LeafletMap } from 'leaflet'
 import { useMapLayerStore, PRESETS, LAYER_GROUPS } from '@/stores/useMapLayerStore'
 import type { PresetName } from '@/stores/useMapLayerStore'
 import { DARE_TYPE_LABELS, CATEGORY_STYLES, DARE_TYPE_TO_CATEGORY } from './settlementStyles'
@@ -33,6 +36,44 @@ const GROUP_ICONS: Record<string, typeof Globe> = {
 interface MapControlsProps {
   showTerritories: boolean
   onToggleTerritories: () => void
+  mapRef?: React.RefObject<LeafletMap | null>
+}
+
+function ZoomControls({
+  panelOpen,
+  mapRef,
+}: {
+  panelOpen: boolean
+  mapRef?: React.RefObject<LeafletMap | null>
+}) {
+  const handleZoomIn = useCallback(() => mapRef?.current?.zoomIn(), [mapRef])
+  const handleZoomOut = useCallback(() => mapRef?.current?.zoomOut(), [mapRef])
+
+  return (
+    <div
+      className={`absolute z-[1001] bottom-6 transition-all duration-200 ${
+        panelOpen ? 'right-[276px]' : 'right-3'
+      }`}
+      style={{ pointerEvents: 'all' }}
+    >
+      <div className="flex flex-col gap-1">
+        <button
+          onClick={handleZoomIn}
+          className="flex items-center justify-center size-9 rounded-lg bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 transition-all shadow-[0_4px_24px_rgba(0,0,0,0.5)]"
+          aria-label="Zoom in"
+        >
+          <Plus className="size-4" />
+        </button>
+        <button
+          onClick={handleZoomOut}
+          className="flex items-center justify-center size-9 rounded-lg bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 transition-all shadow-[0_4px_24px_rgba(0,0,0,0.5)]"
+          aria-label="Zoom out"
+        >
+          <Minus className="size-4" />
+        </button>
+      </div>
+    </div>
+  )
 }
 
 interface LayerPanelContentProps {
@@ -181,7 +222,7 @@ function LayerPanelContent({
   )
 }
 
-export function MapControls({ showTerritories, onToggleTerritories }: MapControlsProps) {
+export function MapControls({ showTerritories, onToggleTerritories, mapRef }: MapControlsProps) {
   const [panelOpen, setPanelOpen] = useState(false)
   const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
   const isMobile = useUIStore((s) => s.isMobile)
@@ -344,7 +385,7 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
     <>
       {/* Toggle button — unified glass control */}
       <div
-        className={`absolute z-[1000] ${isMobile ? 'top-2 right-2' : 'top-3 right-3'}`}
+        className={`absolute z-[1001] ${isMobile ? 'top-2 right-2' : 'top-3 right-3'}`}
         style={{ pointerEvents: 'all' }}
       >
         <button
@@ -380,10 +421,13 @@ export function MapControls({ showTerritories, onToggleTerritories }: MapControl
         </button>
       </div>
 
+      {/* Custom zoom controls — shift left when panel is open */}
+      {!isMobile && <ZoomControls panelOpen={panelOpen} mapRef={mapRef} />}
+
       {/* Desktop panel */}
       {panelOpen && !isMobile && (
         <div
-          className="absolute right-0 top-0 z-[999] h-full w-[260px] bg-[#0c0c10]/95 backdrop-blur-md border-l border-white/[0.08] shadow-[-4px_0_24px_rgba(0,0,0,0.3)]"
+          className="absolute right-0 top-0 z-[1000] h-full w-[260px] bg-[#0c0c10]/95 backdrop-blur-md border-l border-white/[0.08] shadow-[-4px_0_24px_rgba(0,0,0,0.3)]"
           style={{ pointerEvents: 'all' }}
         >
           <div className="flex items-center justify-between p-4 border-b border-white/[0.08]">

@@ -16,8 +16,9 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
   return (
     <div
       className={`absolute z-[1000] bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] rounded-xl shadow-[0_4px_24px_rgba(0,0,0,0.5)] text-xs text-[#ddd] max-w-[200px] ${
-        isMobile ? 'bottom-20 right-3' : 'bottom-6 left-3'
+        isMobile ? 'bottom-4 left-3' : 'bottom-6 left-3'
       }`}
+      style={{ pointerEvents: 'all' }}
     >
       <button
         onClick={() => setCollapsed((v) => !v)}

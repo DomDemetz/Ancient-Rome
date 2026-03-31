@@ -16,7 +16,7 @@ export function StorySelector({ onSelect }: StorySelectorProps) {
   if (isMobile) return null
 
   return (
-    <div className="absolute top-3 right-16 z-[1000]" style={{ pointerEvents: 'all' }}>
+    <div className="absolute top-3 right-[4.5rem] z-[1000]" style={{ pointerEvents: 'all' }}>
       <button
         onClick={() => setOpen(!open)}
         className={`group flex items-center gap-2 rounded-xl backdrop-blur-md border transition-all duration-200 shadow-[0_4px_24px_rgba(0,0,0,0.5)] px-3 py-2.5 ${
@@ -39,7 +39,7 @@ export function StorySelector({ onSelect }: StorySelectorProps) {
       </button>
 
       {open && stories.length > 0 && (
-        <div className="absolute top-full mt-2 right-0 w-72 rounded-xl border border-white/[0.08] bg-[#0a0a0c]/95 backdrop-blur-md shadow-[0_8px_40px_rgba(0,0,0,0.6)] p-1.5 space-y-0.5">
+        <div className="absolute top-full mt-2 right-0 w-72 max-h-[70vh] overflow-y-auto rounded-xl border border-white/[0.08] bg-[#0a0a0c]/95 backdrop-blur-md shadow-[0_8px_40px_rgba(0,0,0,0.6)] p-1.5 space-y-0.5">
           {stories.map((story) => (
             <button
               key={story.id}

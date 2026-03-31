@@ -220,7 +220,7 @@ export function MapView() {
           center={ROME_CENTER}
           zoom={DEFAULT_ZOOM}
           style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
-          zoomControl={true}
+          zoomControl={false}
           ref={mapRef}
         >
           <TileLayer url={TERRAIN_TILE_URL} attribution={attribution} />
@@ -281,9 +281,11 @@ export function MapView() {
         <MapControls
           showTerritories={showTerritories}
           onToggleTerritories={() => setShowTerritories((v) => !v)}
+          storyActive={!!activeStory}
+          mapRef={mapRef}
         />
 
-        {showSettlements && (
+        {showSettlements && !activeStory && (
           <SettlementLegend hiddenCategories={hiddenCategories} onToggleCategory={toggleCategory} />
         )}
 

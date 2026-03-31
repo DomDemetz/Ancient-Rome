@@ -92,7 +92,9 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
 
   return (
     <div
-      className="absolute bottom-20 left-1/2 -translate-x-1/2 z-[1000] w-[480px] max-w-[calc(100vw-2rem)]"
+      className={`absolute left-1/2 -translate-x-1/2 z-[1000] w-[480px] ${
+        isMobile ? 'bottom-4 max-w-[calc(100vw-1.5rem)]' : 'bottom-20 max-w-[calc(100vw-2rem)]'
+      }`}
       style={{ pointerEvents: 'all' }}
     >
       <div className="rounded-lg border border-amber-700/40 bg-[#0f0a1a]/95 backdrop-blur-sm overflow-hidden">
