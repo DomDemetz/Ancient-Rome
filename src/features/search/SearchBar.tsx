@@ -405,7 +405,10 @@ export function SearchBar() {
                 setQuery('')
               }}
             />
-            <div className="fixed inset-x-0 top-0 z-[1100] bg-[#0a0a0c] p-3 border-b border-white/[0.06] shadow-lg">
+            <div
+              className="fixed inset-x-0 top-0 z-[1100] bg-[#0a0a0c] p-3 border-b border-white/[0.06] shadow-lg"
+              style={{ paddingTop: 'calc(0.75rem + env(safe-area-inset-top, 0px))' }}
+            >
               <div ref={containerRef} className="relative">
                 <div className="flex items-center gap-2">
                   <div className="relative flex-1">

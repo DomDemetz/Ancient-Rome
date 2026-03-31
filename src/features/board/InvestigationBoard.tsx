@@ -39,7 +39,7 @@ export function InvestigationBoard() {
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-dvh">
       <TopBar storyMode={storyMode} />
 
       <div className="flex flex-1 overflow-hidden">

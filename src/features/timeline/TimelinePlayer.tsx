@@ -130,15 +130,18 @@ export function TimelinePlayer() {
   // Mobile: ultra-compact single row
   if (isMobile) {
     return (
-      <div className="flex items-center gap-2 px-3 py-1.5 bg-[#0a0a0c]/95 backdrop-blur-2xl border-t border-white/[0.06]">
+      <div
+        className="flex items-center gap-2 px-3 py-2 bg-[#0a0a0c]/95 backdrop-blur-2xl border-t border-white/[0.06]"
+        style={{ paddingBottom: 'calc(0.5rem + env(safe-area-inset-bottom, 0px))' }}
+      >
         <button
           onClick={handleTogglePlay}
-          className={`flex items-center justify-center w-8 h-8 rounded-full shrink-0 transition-all ${
+          className={`flex items-center justify-center w-10 h-10 min-w-[44px] min-h-[44px] rounded-full shrink-0 transition-all ${
             playing ? 'bg-amber-500/15 text-amber-400' : 'bg-white/[0.05] text-amber-500'
           }`}
           aria-label={playing ? 'Pause' : 'Play'}
         >
-          {playing ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5 ml-px" />}
+          {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-px" />}
         </button>
 
         <span className="text-slate-300 font-mono text-[11px] w-14 shrink-0 text-center tabular-nums">
@@ -156,12 +159,13 @@ export function TimelinePlayer() {
           onTouchEnd={handleSliderMouseUp}
           onTouchCancel={handleSliderMouseUp}
           className="flex-1 accent-amber-400"
+          style={{ touchAction: 'none' }}
           aria-label="Timeline year"
         />
 
         <button
           onClick={handleCycleSpeed}
-          className="text-[10px] font-bold text-amber-500 bg-amber-500/10 rounded-full px-2 py-0.5 shrink-0"
+          className="text-[10px] font-bold text-amber-500 bg-amber-500/10 rounded-full px-2.5 py-1 min-h-[44px] min-w-[44px] flex items-center justify-center shrink-0"
         >
           {speed}x
         </button>

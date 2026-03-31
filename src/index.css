@@ -499,20 +499,20 @@ input[type='range']::-moz-range-thumb {
   box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
 }
 
-/* Mobile range slider — wider thumb for touch without obscuring track */
+/* Mobile range slider — larger thumb for reliable touch targeting */
 @media (max-width: 768px) {
   input[type='range']::-webkit-slider-thumb {
-    width: 22px;
-    height: 22px;
-    margin-top: -9px;
+    width: 28px;
+    height: 28px;
+    margin-top: -12px;
   }
   input[type='range']::-moz-range-thumb {
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
   }
   /* Increase tap area without visual bloat */
   input[type='range'] {
-    padding: 12px 0;
+    padding: 14px 0;
   }
 }
 
