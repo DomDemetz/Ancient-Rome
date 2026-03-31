@@ -139,8 +139,30 @@ function WikiDetailContent({
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-full">
-        <p className="text-slate-500 text-sm">Loading...</p>
+      <div className="flex flex-col h-full">
+        <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+          <div className="h-3 w-32 rounded bg-white/[0.06] animate-pulse" />
+          <div className="h-6 w-6 rounded bg-white/[0.04]" />
+        </div>
+        <div className="p-4 sm:p-6 space-y-4">
+          <div className="space-y-2">
+            <div className="h-5 w-48 rounded bg-white/[0.06] animate-pulse" />
+            <div className="h-3 w-24 rounded bg-white/[0.04] animate-pulse" />
+          </div>
+          <div className="h-px bg-white/[0.05]" />
+          <div className="space-y-2">
+            <div className="h-3 w-full rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-full rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-3/4 rounded bg-white/[0.04] animate-pulse" />
+          </div>
+          <div className="h-px bg-white/[0.05]" />
+          <div className="grid grid-cols-2 gap-2">
+            <div className="h-3 w-20 rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-28 rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-24 rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-16 rounded bg-white/[0.04] animate-pulse" />
+          </div>
+        </div>
       </div>
     )
   }
@@ -241,6 +263,7 @@ function WikiDetailContent({
                 src={heroImage.url}
                 alt={heroImage.caption || wiki.wikiTitle}
                 className="w-full object-cover max-h-52"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c10] via-transparent to-transparent" />
               {heroImage.license && (
@@ -343,6 +366,7 @@ function WikiDetailContent({
                         src={img.url}
                         alt={img.caption}
                         className="w-full h-20 object-cover rounded"
+                        loading="lazy"
                       />
                       <span className="absolute bottom-0.5 right-1 text-[7px] text-white/30">
                         {img.license}

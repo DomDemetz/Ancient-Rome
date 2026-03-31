@@ -58,6 +58,14 @@ export function loadAndValidateData() {
     if (!entityIds.has(conn.target))
       console.warn(`Connection ${conn.id}: target "${conn.target}" not found`)
   }
+  for (const story of stories) {
+    for (const step of story.steps) {
+      for (const eid of step.entityIds ?? []) {
+        if (!entityIds.has(eid))
+          console.warn(`Story "${story.id}" step "${step.id}": entityId "${eid}" not found`)
+      }
+    }
+  }
 
   return { entities, connections, stories, territories }
 }

@@ -416,7 +416,19 @@
   border-radius: 50%;
 }
 
-/* Ensure drawers/modals appear above map layers (z-index 400-1000) */
+/*
+ * Z-INDEX STACKING CONTEXT
+ * ─────────────────────────
+ * 9999  — Noise overlay (decorative, pointer-events:none)
+ * 1100  — Drawers, dialogs, mobile search overlay
+ * 1050  — Mobile tab bar
+ * 1001  — Map layer toggle button, zoom controls
+ * 1000  — Map UI overlays (stats, emperor, legend, story player/selector, header)
+ *  400  — Leaflet default overlay pane
+ *  250  — Custom basePolygons pane (territories/provinces)
+ */
+
+/* Ensure drawers/modals appear above map layers */
 [data-slot='drawer-overlay'] {
   z-index: 1100 !important;
 }
