@@ -19,9 +19,9 @@ export function LandingPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-[#0a0a0c] vignette">
+    <div className="min-h-dvh bg-[#0a0a0c] vignette">
       {/* Hero Section */}
-      <section className="relative flex min-h-[75vh] flex-col items-center justify-center px-4 text-center overflow-hidden">
+      <section className="relative flex min-h-[75dvh] flex-col items-center justify-center px-4 text-center overflow-hidden">
         {/* Layered ambient spotlights */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[radial-gradient(ellipse,rgba(245,158,11,0.06),transparent_60%)] pointer-events-none" />
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-[radial-gradient(circle,rgba(180,83,9,0.08),transparent_70%)] pointer-events-none blur-2xl" />

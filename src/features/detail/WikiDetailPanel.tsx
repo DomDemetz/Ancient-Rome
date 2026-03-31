@@ -230,8 +230,8 @@ function WikiDetailContent({
         </Button>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-y-auto">
-        <div className="p-6 space-y-5">
+      <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain">
+        <div className="p-4 sm:p-6 space-y-5">
           {/* LEVEL 1 — THE HOOK */}
 
           {/* Hero image */}
@@ -512,7 +512,7 @@ export function WikiDetailPanel() {
           <DrawerHeader className="sr-only">
             <DrawerTitle>Wikipedia Detail</DrawerTitle>
           </DrawerHeader>
-          <div className="flex-1 overflow-hidden flex flex-col">
+          <div className="flex-1 min-h-0 flex flex-col overflow-y-auto overscroll-contain">
             <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
           </div>
         </DrawerContent>

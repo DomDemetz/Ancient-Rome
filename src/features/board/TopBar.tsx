@@ -27,7 +27,7 @@ export function TopBar({ storyMode }: TopBarProps) {
     return (
       <header
         className="flex items-center gap-2 px-3 h-11 shrink-0 bg-black/70 backdrop-blur-2xl border-b border-white/[0.06]"
-        style={{ zIndex: 1000 }}
+        style={{ zIndex: 1000, paddingTop: 'env(safe-area-inset-top, 0px)' }}
       >
         {/* Sidebar toggle — graph only */}
         {lens === 'graph' && (

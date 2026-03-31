@@ -59,14 +59,14 @@ function ZoomControls({
       <div className="flex flex-col gap-1">
         <button
           onClick={handleZoomIn}
-          className="flex items-center justify-center size-9 rounded-lg bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 transition-all shadow-[0_4px_24px_rgba(0,0,0,0.5)]"
+          className="flex items-center justify-center size-11 min-w-[44px] min-h-[44px] rounded-lg bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 transition-all shadow-[0_4px_24px_rgba(0,0,0,0.5)]"
           aria-label="Zoom in"
         >
           <Plus className="size-4" />
         </button>
         <button
           onClick={handleZoomOut}
-          className="flex items-center justify-center size-9 rounded-lg bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 transition-all shadow-[0_4px_24px_rgba(0,0,0,0.5)]"
+          className="flex items-center justify-center size-11 min-w-[44px] min-h-[44px] rounded-lg bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400 transition-all shadow-[0_4px_24px_rgba(0,0,0,0.5)]"
           aria-label="Zoom out"
         >
           <Minus className="size-4" />

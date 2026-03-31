@@ -28,7 +28,10 @@ export function NarrationBar({
   const touchTarget = isMobile ? 'min-h-[44px] min-w-[44px]' : ''
 
   return (
-    <div className="shrink-0 bg-black/80 backdrop-blur-2xl border-t border-white/[0.05] px-4 py-3">
+    <div
+      className="shrink-0 bg-black/80 backdrop-blur-2xl border-t border-white/[0.05] px-4 py-3"
+      style={{ paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom, 0px))' }}
+    >
       <div className="max-w-4xl mx-auto flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
         {/* Title + counter */}
         <div className="shrink-0">
