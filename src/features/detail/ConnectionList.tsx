@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, ChevronRight } from 'lucide-react'
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { entityColors } from '@/lib/colors'
@@ -22,7 +23,10 @@ function formatConnectionType(type: string): string {
 export function ConnectionList({ entityId, connections }: ConnectionListProps) {
   const select = useSelectionStore((s) => s.select)
 
-  const relevant = connections.filter((c) => c.source === entityId || c.target === entityId)
+  const relevant = useMemo(
+    () => connections.filter((c) => c.source === entityId || c.target === entityId),
+    [connections, entityId],
+  )
 
   if (relevant.length === 0) {
     return (

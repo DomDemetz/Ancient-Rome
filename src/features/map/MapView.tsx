@@ -1,5 +1,6 @@
 import 'leaflet/dist/leaflet.css'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useShallow } from 'zustand/shallow'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
@@ -125,7 +126,6 @@ export function MapView() {
     setYear(100)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const store = useMapLayerStore()
   const {
     showRoads,
     showSettlements,
@@ -179,7 +179,7 @@ export function MapView() {
     settlementTypes,
     hiddenCategories,
     toggleCategory,
-  } = store
+  } = useMapLayerStore(useShallow((s) => s))
 
   const enabledTypes = useMemo(() => {
     const set = new Set<number>()

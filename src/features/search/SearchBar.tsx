@@ -308,7 +308,7 @@ export function SearchBar() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  // Cmd+K / Ctrl+K global shortcut to focus search
+  // Cmd+K / Ctrl+K global shortcut to focus search; Escape to close
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
@@ -319,6 +319,11 @@ export function SearchBar() {
           inputRef.current?.focus()
           setOpen(true)
         }
+      }
+      if (e.key === 'Escape') {
+        setOpen(false)
+        setMobileOpen(false)
+        inputRef.current?.blur()
       }
     }
     document.addEventListener('keydown', handleKeyDown)

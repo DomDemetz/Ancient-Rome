@@ -75,6 +75,7 @@ export function GraphView() {
 
     if (simulationRef.current) {
       simulationRef.current.stop()
+      simulationRef.current = null
     }
 
     const svg = d3.select(svgEl)
@@ -226,6 +227,7 @@ export function GraphView() {
 
     return () => {
       simulation.stop()
+      simulationRef.current = null
     }
   }, [allNodes, allLinks, select])
 

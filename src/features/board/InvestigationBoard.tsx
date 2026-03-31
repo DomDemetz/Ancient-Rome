@@ -13,6 +13,7 @@ import { GraphView } from '@/features/graph/GraphView'
 import { MapView } from '@/features/map/MapView'
 import { TimelineView } from '@/features/timeline/TimelineView'
 import { StatsView } from '@/features/stats/StatsView'
+import { ErrorBoundary } from '@/app/ErrorBoundary'
 import { useStoryMode } from '@/features/stories/useStoryMode'
 import { NarrationBar } from '@/features/stories/NarrationBar'
 import { stories } from '@/data'
@@ -75,10 +76,12 @@ export function InvestigationBoard() {
 
         {/* Main content area */}
         <div className="flex-1 overflow-hidden relative">
-          {lens === 'graph' && <GraphView />}
-          {lens === 'map' && <MapView />}
-          {lens === 'timeline' && <TimelineView />}
-          {lens === 'stats' && <StatsView />}
+          <ErrorBoundary>
+            {lens === 'graph' && <GraphView />}
+            {lens === 'map' && <MapView />}
+            {lens === 'timeline' && <TimelineView />}
+            {lens === 'stats' && <StatsView />}
+          </ErrorBoundary>
         </div>
 
         {/* Detail panel — shown when something is selected (desktop) */}

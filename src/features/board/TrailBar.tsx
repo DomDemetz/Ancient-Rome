@@ -23,7 +23,7 @@ export function TrailBar() {
         const color = entity ? entityColors[entity.entityType] : undefined
         return (
           <button
-            key={`${id}-${breadcrumbs.length - MAX_VISIBLE + i}`}
+            key={`trail-${id}-${i}`}
             className={`cursor-pointer bg-white/[0.03] border border-white/[0.05] rounded-xl text-slate-300 hover:border-amber-500/20 hover:text-white active:border-amber-500/20 active:text-white active:scale-[0.97] transition-all inline-flex items-center gap-1.5 px-2.5 py-1 text-xs ${isMobile ? 'min-h-[44px]' : ''}`}
             onClick={() => select(id)}
           >
