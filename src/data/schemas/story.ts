@@ -7,6 +7,9 @@ export const StoryStepSchema = z.object({
   entityIds: z.array(z.string()).optional(),
   connectionIds: z.array(z.string()).optional(),
   year: z.number().optional(),
+  layers: z.array(z.string()).optional(),
+  mapCenter: z.tuple([z.number(), z.number()]).optional(),
+  mapZoom: z.number().optional(),
 })
 
 export const StorySchema = z.object({

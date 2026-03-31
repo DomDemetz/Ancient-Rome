@@ -2,25 +2,9 @@ import { useState, useCallback, useEffect } from 'react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
 import { useUIStore } from '@/stores/useUIStore'
+import type { Story, StoryStep } from '@/types'
 
-export interface StoryStep {
-  id: string
-  title: string
-  content: string
-  entityIds?: string[]
-  year: number
-  layers?: string[]
-  mapCenter?: [number, number]
-  mapZoom?: number
-}
-
-export interface Story {
-  id: string
-  title: string
-  description: string
-  steps: StoryStep[]
-  tags: string[]
-}
+export type { Story, StoryStep }
 
 interface StoryPlayerProps {
   story: Story
@@ -45,7 +29,7 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
   // Apply step state when step changes
   useEffect(() => {
     if (!step) return
-    setYear(step.year)
+    if (step.year != null) setYear(step.year)
 
     // Activate layers for this step
     if (step.layers && step.layers.length > 0) {
@@ -117,7 +101,9 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
         {/* Step content */}
         <div className="px-4 py-3">
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-amber-400 text-xs font-bold">{formatYear(step.year)}</span>
+            {step.year != null && (
+              <span className="text-amber-400 text-xs font-bold">{formatYear(step.year)}</span>
+            )}
             <span className="text-white/80 text-sm font-semibold">{step.title}</span>
             <span className="ml-auto text-white/30 text-[10px]">
               {currentStep + 1}/{story.steps.length}

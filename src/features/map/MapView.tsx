@@ -281,7 +281,6 @@ export function MapView() {
         <MapControls
           showTerritories={showTerritories}
           onToggleTerritories={() => setShowTerritories((v) => !v)}
-          storyActive={!!activeStory}
           mapRef={mapRef}
         />
 
