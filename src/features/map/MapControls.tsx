@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from 'react'
+import { useShallow } from 'zustand/shallow'
 import {
   Layers,
   X,
@@ -227,7 +228,6 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
   const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
   const isMobile = useUIStore((s) => s.isMobile)
 
-  const store = useMapLayerStore()
   const {
     showRoads,
     showSettlements,
@@ -300,7 +300,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     togglePorts,
     toggleSettlementType,
     activatePreset,
-  } = store
+  } = useMapLayerStore(useShallow((s) => s))
 
   // Map layer keys to their state
   const layerState: Record<string, { active: boolean; loading: boolean; toggle: () => void }> = {

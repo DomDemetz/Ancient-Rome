@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
 import Fuse from 'fuse.js'
+import { useShallow } from 'zustand/shallow'
 import { Search, X } from 'lucide-react'
 import { entities } from '@/data'
 import { useSelectionStore } from '@/stores/useSelectionStore'
@@ -66,7 +67,22 @@ export function SearchBar() {
   const switchLens = useUIStore((s) => s.switchLens)
   const isMobile = useUIStore((s) => s.isMobile)
 
-  const store = useMapLayerStore()
+  const layerData = useMapLayerStore(
+    useShallow((s) => ({
+      roadsData: s.roadsData,
+      settlementsData: s.settlementsData,
+      battlesData: s.battlesData,
+      legionsData: s.legionsData,
+      amphitheatersData: s.amphitheatersData,
+      shipwrecksData: s.shipwrecksData,
+      minesData: s.minesData,
+      aqueductsData: s.aqueductsData,
+      religionData: s.religionData,
+      buildingsData: s.buildingsData,
+      pressesData: s.pressesData,
+      portsData: s.portsData,
+    })),
+  )
 
   // Build a unified search index from all data sources
   const searchItems = useMemo(() => {
@@ -93,9 +109,9 @@ export function SearchBar() {
     }
 
     // Roads (from GeoJSON features)
-    if (store.roadsData) {
+    if (layerData.roadsData) {
       const seen = new Set<string>()
-      for (const f of store.roadsData.features) {
+      for (const f of layerData.roadsData.features) {
         const name = f.properties?.name
         if (!name || seen.has(name)) continue
         seen.add(name)
@@ -112,8 +128,8 @@ export function SearchBar() {
     }
 
     // Settlements
-    if (store.settlementsData) {
-      for (const s of store.settlementsData) {
+    if (layerData.settlementsData) {
+      for (const s of layerData.settlementsData) {
         items.push({
           id: `settlement-${s.id}`,
           name: s.name,
@@ -126,8 +142,8 @@ export function SearchBar() {
     }
 
     // Battles
-    if (store.battlesData) {
-      for (const b of store.battlesData) {
+    if (layerData.battlesData) {
+      for (const b of layerData.battlesData) {
         items.push({
           id: `battle-${b.id}`,
           name: b.name,
@@ -140,8 +156,8 @@ export function SearchBar() {
     }
 
     // Legions
-    if (store.legionsData) {
-      for (const l of store.legionsData) {
+    if (layerData.legionsData) {
+      for (const l of layerData.legionsData) {
         const base = l.bases[0]
         if (!base) continue
         items.push({
@@ -156,8 +172,8 @@ export function SearchBar() {
     }
 
     // Amphitheaters
-    if (store.amphitheatersData) {
-      for (const a of store.amphitheatersData) {
+    if (layerData.amphitheatersData) {
+      for (const a of layerData.amphitheatersData) {
         items.push({
           id: `amphitheater-${a.id}`,
           name: a.name,
@@ -170,8 +186,8 @@ export function SearchBar() {
     }
 
     // Shipwrecks
-    if (store.shipwrecksData) {
-      for (const w of store.shipwrecksData) {
+    if (layerData.shipwrecksData) {
+      for (const w of layerData.shipwrecksData) {
         items.push({
           id: `shipwreck-${w.id}`,
           name: w.name,
@@ -184,8 +200,8 @@ export function SearchBar() {
     }
 
     // Mines
-    if (store.minesData) {
-      for (const m of store.minesData) {
+    if (layerData.minesData) {
+      for (const m of layerData.minesData) {
         items.push({
           id: `mine-${m.id}`,
           name: m.name,
@@ -198,8 +214,8 @@ export function SearchBar() {
     }
 
     // Aqueducts
-    if (store.aqueductsData) {
-      for (const a of store.aqueductsData) {
+    if (layerData.aqueductsData) {
+      for (const a of layerData.aqueductsData) {
         items.push({
           id: `aqueduct-${a.id}`,
           name: a.name,
@@ -212,8 +228,8 @@ export function SearchBar() {
     }
 
     // Religious sites
-    if (store.religionData) {
-      for (const r of store.religionData) {
+    if (layerData.religionData) {
+      for (const r of layerData.religionData) {
         items.push({
           id: `religion-${r.id}`,
           name: r.name,
@@ -226,8 +242,8 @@ export function SearchBar() {
     }
 
     // Buildings
-    if (store.buildingsData) {
-      for (const b of store.buildingsData) {
+    if (layerData.buildingsData) {
+      for (const b of layerData.buildingsData) {
         items.push({
           id: `building-${b.id}`,
           name: b.name,
@@ -240,8 +256,8 @@ export function SearchBar() {
     }
 
     // Presses
-    if (store.pressesData) {
-      for (const p of store.pressesData) {
+    if (layerData.pressesData) {
+      for (const p of layerData.pressesData) {
         items.push({
           id: `press-${p.id}`,
           name: p.name,
@@ -254,8 +270,8 @@ export function SearchBar() {
     }
 
     // Ports
-    if (store.portsData) {
-      for (const p of store.portsData) {
+    if (layerData.portsData) {
+      for (const p of layerData.portsData) {
         items.push({
           id: `port-${p.id}`,
           name: p.name,
@@ -268,20 +284,7 @@ export function SearchBar() {
     }
 
     return items
-  }, [
-    store.roadsData,
-    store.settlementsData,
-    store.battlesData,
-    store.legionsData,
-    store.amphitheatersData,
-    store.shipwrecksData,
-    store.minesData,
-    store.aqueductsData,
-    store.religionData,
-    store.buildingsData,
-    store.pressesData,
-    store.portsData,
-  ])
+  }, [layerData])
 
   const fuse = useMemo(
     () =>
