@@ -11,7 +11,8 @@ export interface Battle {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadBattles(): Promise<Battle[]> {
-  const data = await import('./battles.json')
-  return data.default as unknown as Battle[]
+  return loadJson<Battle[]>(() => import('./battles.json'))
 }

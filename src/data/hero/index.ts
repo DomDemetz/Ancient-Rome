@@ -9,7 +9,8 @@ export interface HeroContent {
   funFact: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadHeroContent(): Promise<HeroContent[]> {
-  const data = await import('../hero-content.json')
-  return data.default as unknown as HeroContent[]
+  return loadJson<HeroContent[]>(() => import('../hero-content.json'))
 }

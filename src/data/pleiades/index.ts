@@ -10,7 +10,8 @@ export interface PleiadesPlace {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadPleiadesAll(): Promise<PleiadesPlace[]> {
-  const data = await import('../pleiades-all.json')
-  return data.default as unknown as PleiadesPlace[]
+  return loadJson<PleiadesPlace[]>(() => import('../pleiades-all.json'))
 }

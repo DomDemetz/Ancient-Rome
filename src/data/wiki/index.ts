@@ -77,35 +77,31 @@ export type WikidataStructuredLookup = Record<string, WikidataStructuredEntry>
 
 // --- Loaders ---
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadEntityWiki(): Promise<WikiLookup> {
-  const data = await import('./entities-wiki.json')
-  return data.default as unknown as WikiLookup
+  return loadJson<WikiLookup>(() => import('./entities-wiki.json'))
 }
 
 export async function loadAmphitheaterWiki(): Promise<WikiLookup> {
-  const data = await import('./amphitheaters-wiki.json')
-  return data.default as unknown as WikiLookup
+  return loadJson<WikiLookup>(() => import('./amphitheaters-wiki.json'))
 }
 
 export async function loadBuildingWiki(): Promise<WikiLookup> {
-  const data = await import('./buildings-wiki.json')
-  return data.default as unknown as WikiLookup
+  return loadJson<WikiLookup>(() => import('./buildings-wiki.json'))
 }
 
 export async function loadBattleWiki(): Promise<WikiLookup> {
-  const data = await import('./battles-wiki.json')
-  return data.default as unknown as WikiLookup
+  return loadJson<WikiLookup>(() => import('./battles-wiki.json'))
 }
 
 export async function loadSettlementWiki(): Promise<WikiLookup> {
-  const data = await import('./settlements-wiki.json')
-  return data.default as unknown as WikiLookup
+  return loadJson<WikiLookup>(() => import('./settlements-wiki.json'))
 }
 
 export async function loadEmperorWiki(): Promise<WikiLookup> {
   try {
-    const data = await import('./emperors-wiki.json')
-    return data.default as unknown as WikiLookup
+    return await loadJson<WikiLookup>(() => import('./emperors-wiki.json'))
   } catch {
     return {}
   }
@@ -113,8 +109,7 @@ export async function loadEmperorWiki(): Promise<WikiLookup> {
 
 export async function loadLegionWiki(): Promise<WikiLookup> {
   try {
-    const data = await import('./legions-wiki.json')
-    return data.default as unknown as WikiLookup
+    return await loadJson<WikiLookup>(() => import('./legions-wiki.json'))
   } catch {
     return {}
   }
@@ -122,8 +117,7 @@ export async function loadLegionWiki(): Promise<WikiLookup> {
 
 export async function loadAqueductWiki(): Promise<WikiLookup> {
   try {
-    const data = await import('./aqueducts-wiki.json')
-    return data.default as unknown as WikiLookup
+    return await loadJson<WikiLookup>(() => import('./aqueducts-wiki.json'))
   } catch {
     return {}
   }
@@ -131,8 +125,7 @@ export async function loadAqueductWiki(): Promise<WikiLookup> {
 
 export async function loadPortWiki(): Promise<WikiLookup> {
   try {
-    const data = await import('./ports-wiki.json')
-    return data.default as unknown as WikiLookup
+    return await loadJson<WikiLookup>(() => import('./ports-wiki.json'))
   } catch {
     return {}
   }
@@ -140,8 +133,7 @@ export async function loadPortWiki(): Promise<WikiLookup> {
 
 export async function loadWikidataStructured(): Promise<WikidataStructuredLookup> {
   try {
-    const data = await import('./wikidata-structured.json')
-    return data.default as unknown as WikidataStructuredLookup
+    return await loadJson<WikidataStructuredLookup>(() => import('./wikidata-structured.json'))
   } catch {
     return {}
   }
@@ -176,8 +168,7 @@ export type CrossRefLookup = Record<string, CrossRefEnrichment>
 
 export async function loadCrossReference(): Promise<CrossRefLookup> {
   try {
-    const data = await import('./cross-reference.json')
-    return data.default as unknown as CrossRefLookup
+    return await loadJson<CrossRefLookup>(() => import('./cross-reference.json'))
   } catch {
     return {}
   }

@@ -26,7 +26,8 @@ export interface TradeNetwork {
   routes: TradeRoute[]
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadTradeNetwork(): Promise<TradeNetwork> {
-  const data = await import('./orbis-temporal.json')
-  return data.default as unknown as TradeNetwork
+  return loadJson<TradeNetwork>(() => import('./orbis-temporal.json'))
 }

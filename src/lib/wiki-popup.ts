@@ -1,4 +1,5 @@
 import type { WikiLookup } from '@/data/wiki'
+import { formatYear } from '@/lib/geo'
 
 /** Escape HTML special characters to prevent XSS from external data */
 export function esc(str: string): string {
@@ -131,9 +132,4 @@ function pickHighlightFact(
   if (s.heritageStatus) return s.heritageStatus
 
   return null
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }

@@ -11,7 +11,8 @@ export interface Amphitheater {
   pleiadesId: string | null
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadAmphitheaters(): Promise<Amphitheater[]> {
-  const data = await import('./amphitheaters.json')
-  return data.default as unknown as Amphitheater[]
+  return loadJson<Amphitheater[]>(() => import('./amphitheaters.json'))
 }

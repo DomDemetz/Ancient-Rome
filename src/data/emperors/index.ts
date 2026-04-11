@@ -15,7 +15,8 @@ export interface Emperor {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadEmperors(): Promise<Emperor[]> {
-  const data = await import('./emperors.json')
-  return data.default as unknown as Emperor[]
+  return loadJson<Emperor[]>(() => import('./emperors.json'))
 }

@@ -8,7 +8,8 @@ export interface EpigraphyCluster {
   endYear: number
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadEpigraphy(): Promise<EpigraphyCluster[]> {
-  const data = await import('./epigraphy.json')
-  return data.default as unknown as EpigraphyCluster[]
+  return loadJson<EpigraphyCluster[]>(() => import('./epigraphy.json'))
 }

@@ -1,10 +1,12 @@
-import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Marker, Popup, useMap, useMapEvents } from 'react-leaflet'
+import { useMemo } from 'react'
+import { CircleMarker, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { formatYear } from '@/lib/geo'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface BattleLayerProps {
   data: Battle[]
@@ -15,11 +17,6 @@ const OUTCOME_COLORS: Record<string, string> = {
   defeat: '#e74c3c',
   draw: '#f39c12',
   unknown: '#95a5a6',
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }
 
 function buildTooltipHtml(b: Battle): string {
@@ -49,9 +46,7 @@ function battleOpacity(age: number, window: number): number {
 }
 
 export function BattleLayer({ data }: BattleLayerProps) {
-  const map = useMap()
-  const [zoom, setZoom] = useState(map.getZoom())
-  const [bounds, setBounds] = useState(map.getBounds())
+  const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const playing = useTimelineStore((s) => s.playing)
   const speed = useTimelineStore((s) => s.speed)
@@ -59,16 +54,6 @@ export function BattleLayer({ data }: BattleLayerProps) {
 
   // Adaptive visibility window: tight when paused, wider at higher speeds
   const visibilityWindow = playing ? Math.min(50, Math.max(10, Math.round(speed * 12))) : 5
-
-  const updateView = useCallback(() => {
-    setZoom(map.getZoom())
-    setBounds(map.getBounds())
-  }, [map])
-
-  useMapEvents({
-    zoomend: updateView,
-    moveend: updateView,
-  })
 
   // Adaptive visibility window for result markers
   const visible = useMemo(() => {

@@ -1,5 +1,6 @@
 import type { FeatureCollection } from 'geojson'
-import type { PresenceGrid } from '@/features/map/PresenceLayer'
+import type { PresenceGrid } from '@/features/map/layers/PresenceLayer'
+import { loadJson } from '@/data/loadJson'
 
 export interface DareSettlement {
   id: string
@@ -17,38 +18,31 @@ export interface DareSettlement {
 }
 
 export async function loadRoads(): Promise<FeatureCollection> {
-  const data = await import('./roads-temporal.json')
-  return data.default as unknown as FeatureCollection
+  return loadJson<FeatureCollection>(() => import('./roads-temporal.json'))
 }
 
 export async function loadSettlements(): Promise<DareSettlement[]> {
-  const data = await import('./settlements.json')
-  return data.default as unknown as DareSettlement[]
+  return loadJson<DareSettlement[]>(() => import('./settlements.json'))
 }
 
 export async function loadLimes(): Promise<FeatureCollection> {
-  const data = await import('./limes.json')
-  return data.default as unknown as FeatureCollection
+  return loadJson<FeatureCollection>(() => import('./limes.json'))
 }
 
 export async function loadPresenceGrid(): Promise<PresenceGrid> {
-  const data = await import('./presence-grid.json')
-  return data.default as unknown as PresenceGrid
+  return loadJson<PresenceGrid>(() => import('./presence-grid.json'))
 }
 
 export async function loadProvinces(): Promise<FeatureCollection> {
-  const data = await import('./provinces.json')
-  return data.default as unknown as FeatureCollection
+  return loadJson<FeatureCollection>(() => import('./provinces.json'))
 }
 
 export async function loadFortifications(): Promise<FeatureCollection> {
-  const data = await import('./fortifications-temporal.json')
-  return data.default as unknown as FeatureCollection
+  return loadJson<FeatureCollection>(() => import('./fortifications-temporal.json'))
 }
 
 export async function loadWater(): Promise<FeatureCollection> {
-  const data = await import('./water.json')
-  return data.default as unknown as FeatureCollection
+  return loadJson<FeatureCollection>(() => import('./water.json'))
 }
 
 export interface ProvinceLabel {
@@ -60,8 +54,7 @@ export interface ProvinceLabel {
 }
 
 export async function loadProvinceLabels(): Promise<ProvinceLabel[]> {
-  const data = await import('./province-labels.json')
-  return data.default as unknown as ProvinceLabel[]
+  return loadJson<ProvinceLabel[]>(() => import('./province-labels.json'))
 }
 
 export interface CityPopulation {
@@ -71,8 +64,7 @@ export interface CityPopulation {
 }
 
 export async function loadCityPopulations(): Promise<CityPopulation[]> {
-  const data = await import('./city-populations.json')
-  return data.default as unknown as CityPopulation[]
+  return loadJson<CityPopulation[]>(() => import('./city-populations.json'))
 }
 
 export interface ProvinceChange {
@@ -82,6 +74,5 @@ export interface ProvinceChange {
 }
 
 export async function loadProvinceChanges(): Promise<ProvinceChange[]> {
-  const data = await import('./province-changes.json')
-  return data.default as unknown as ProvinceChange[]
+  return loadJson<ProvinceChange[]>(() => import('./province-changes.json'))
 }

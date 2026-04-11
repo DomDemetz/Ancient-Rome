@@ -1,7 +1,9 @@
-import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
+import { useMemo } from 'react'
+import { CircleMarker, Popup } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
+import { formatYear } from '@/lib/geo'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface ViciSite {
   id: string
@@ -51,12 +53,6 @@ const MID_ZOOM_TYPES = new Set([
   'amphitheater',
 ])
 
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  if (year > 0) return `${year} AD`
-  return ''
-}
-
 // Spatial grid sampling for density control
 function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridSize: number): T[] {
   const seen = new Set<string>()
@@ -69,20 +65,8 @@ function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridS
 }
 
 export function ViciLayer({ data }: ViciLayerProps) {
-  const map = useMap()
-  const [zoom, setZoom] = useState(map.getZoom())
-  const [bounds, setBounds] = useState(map.getBounds())
+  const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-
-  const updateView = useCallback(() => {
-    setZoom(map.getZoom())
-    setBounds(map.getBounds())
-  }, [map])
-
-  useMapEvents({
-    zoomend: updateView,
-    moveend: updateView,
-  })
 
   const visible = useMemo(() => {
     // Don't show at very low zoom — too many points

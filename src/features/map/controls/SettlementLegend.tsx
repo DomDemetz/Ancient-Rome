@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ChevronDown, ChevronRight } from 'lucide-react'
-import { ALL_CATEGORIES, CATEGORY_STYLES } from './settlementStyles'
-import type { SettlementCategory } from './settlementStyles'
+import { ALL_CATEGORIES, CATEGORY_STYLES } from '../layers/settlementStyles'
+import type { SettlementCategory } from '../layers/settlementStyles'
 import { useUIStore } from '@/stores/useUIStore'
 
 interface SettlementLegendProps {

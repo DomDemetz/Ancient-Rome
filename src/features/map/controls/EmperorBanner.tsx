@@ -2,14 +2,10 @@ import { useMemo } from 'react'
 import type { Emperor } from '@/data/emperors'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
+import { formatYear } from '@/lib/geo'
 
 interface EmperorBannerProps {
   emperors: Emperor[]
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }
 
 export function EmperorBanner({ emperors }: EmperorBannerProps) {

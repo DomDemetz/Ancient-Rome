@@ -11,7 +11,8 @@ export interface Mine {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadMines(): Promise<Mine[]> {
-  const data = await import('./mines.json')
-  return data.default as unknown as Mine[]
+  return loadJson<Mine[]>(() => import('./mines.json'))
 }

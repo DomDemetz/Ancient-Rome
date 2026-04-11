@@ -1,5 +1,5 @@
-import { useCallback, useMemo, useState } from 'react'
-import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
+import { useMemo } from 'react'
+import { CircleMarker, Popup } from 'react-leaflet'
 import type { DareSettlement, CityPopulation } from '@/data/dare'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
@@ -10,6 +10,8 @@ import {
   CATEGORY_STYLES,
   getSettlementStyle,
 } from './settlementStyles'
+import { formatYear } from '@/lib/geo'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface SettlementLayerProps {
   data: DareSettlement[]
@@ -24,11 +26,6 @@ function getZoomThreshold(type: number, major: boolean): number {
   if ([12, 13, 18, 35].includes(type)) return 8
   if ([31, 61, 19, 43].includes(type)) return 9
   return 10
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }
 
 function formatPopulation(pop: number): string {
@@ -105,21 +102,9 @@ export function SettlementLayer({
   hiddenCategories,
   populationData,
 }: SettlementLayerProps) {
-  const map = useMap()
-  const [zoom, setZoom] = useState(map.getZoom())
-  const [bounds, setBounds] = useState(map.getBounds())
+  const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('settlements')
-
-  const updateView = useCallback(() => {
-    setZoom(map.getZoom())
-    setBounds(map.getBounds())
-  }, [map])
-
-  useMapEvents({
-    zoomend: updateView,
-    moveend: updateView,
-  })
 
   // Build population lookup by settlement name
   const popLookup = useMemo(() => {

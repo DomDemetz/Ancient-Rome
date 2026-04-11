@@ -1,17 +1,14 @@
-import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
+import { useMemo } from 'react'
+import { CircleMarker, Popup } from 'react-leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { formatYear } from '@/lib/geo'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface AmphitheaterLayerProps {
   data: Amphitheater[]
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }
 
 function buildTooltipHtml(a: Amphitheater): string {
@@ -26,21 +23,9 @@ function buildTooltipHtml(a: Amphitheater): string {
 }
 
 export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
-  const map = useMap()
-  const [zoom, setZoom] = useState(map.getZoom())
-  const [bounds, setBounds] = useState(map.getBounds())
+  const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('amphitheaters')
-
-  const updateView = useCallback(() => {
-    setZoom(map.getZoom())
-    setBounds(map.getBounds())
-  }, [map])
-
-  useMapEvents({
-    zoomend: updateView,
-    moveend: updateView,
-  })
 
   const visible = useMemo(() => {
     return data.filter((a) => {

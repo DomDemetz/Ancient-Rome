@@ -10,7 +10,8 @@ export interface AncientPort {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadPorts(): Promise<AncientPort[]> {
-  const data = await import('../ancient-ports.json')
-  return data.default as unknown as AncientPort[]
+  return loadJson<AncientPort[]>(() => import('../ancient-ports.json'))
 }

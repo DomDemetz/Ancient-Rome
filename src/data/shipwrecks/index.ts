@@ -11,7 +11,8 @@ export interface Shipwreck {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadShipwrecks(): Promise<Shipwreck[]> {
-  const data = await import('./shipwrecks.json')
-  return data.default as unknown as Shipwreck[]
+  return loadJson<Shipwreck[]>(() => import('./shipwrecks.json'))
 }

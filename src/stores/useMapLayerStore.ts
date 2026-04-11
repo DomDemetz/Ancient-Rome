@@ -2,8 +2,8 @@ import { create } from 'zustand'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { FeatureCollection } from 'geojson'
 import type { DareSettlement, ProvinceLabel, CityPopulation, ProvinceChange } from '@/data/dare'
-import type { PresenceGrid } from '@/features/map/PresenceLayer'
-import type { SettlementCategory } from '@/features/map/settlementStyles'
+import type { PresenceGrid } from '@/features/map/layers/PresenceLayer'
+import type { SettlementCategory } from '@/features/map/layers/settlementStyles'
 import type { Battle } from '@/data/battles'
 import type { Amphitheater } from '@/data/amphitheaters'
 import type { Emperor } from '@/data/emperors'
@@ -368,6 +368,9 @@ interface MapLayerState {
 
   // Presets
   activePreset: PresetName
+
+  // Error state
+  loadError: string | null
 }
 
 interface MapLayerActions {
@@ -396,6 +399,7 @@ interface MapLayerActions {
   toggleVici: () => void
   togglePorts: () => void
   activatePreset: (preset: PresetName) => void
+  dismissError: () => void
 }
 
 const ALL_SETTLEMENT_TYPES = [
@@ -407,24 +411,28 @@ const defaultSettlementTypes: Record<number, boolean> = Object.fromEntries(
   ALL_SETTLEMENT_TYPES.map((t) => [t, ENABLED_BY_DEFAULT.has(t)]),
 )
 
-// Helper to create a standard lazy-loading toggle
-function makeToggle<K extends string>(
-  showKey: K,
-  dataKey: string,
-  loadingKey: string,
-  loader: () => Promise<{ data: unknown; extra?: Record<string, unknown> }>,
+// Helper to create a standard lazy-loading toggle.
+// Keys are constrained to actual MapLayerState properties for type safety.
+type StoreSet = (s: Partial<MapLayerState>) => void
+type StoreGet = () => MapLayerState
+
+function makeToggle(
+  showKey: keyof MapLayerState,
+  dataKey: keyof MapLayerState,
+  loadingKey: keyof MapLayerState,
+  loader: () => Promise<{ data: unknown; extra?: Partial<MapLayerState> }>,
 ) {
-  return async (set: (s: Partial<MapLayerState>) => void, get: () => MapLayerState) => {
+  return async (set: StoreSet, get: StoreGet) => {
     const state = get()
-    const show = (state as unknown as Record<string, unknown>)[showKey] as boolean
-    const data = (state as unknown as Record<string, unknown>)[dataKey]
-    const loading = (state as unknown as Record<string, unknown>)[loadingKey] as boolean
+    const show = state[showKey] as boolean
+    const data = state[dataKey]
+    const loading = state[loadingKey] as boolean
 
     if (show) {
       set({ [showKey]: false, activePreset: 'custom' } as Partial<MapLayerState>)
       return
     }
-    if (data) {
+    if (data != null) {
       set({ [showKey]: true, activePreset: 'custom' } as Partial<MapLayerState>)
       return
     }
@@ -441,12 +449,32 @@ function makeToggle<K extends string>(
         ...result.extra,
       } as Partial<MapLayerState>)
     } catch (err) {
-      console.error(`Failed to load ${showKey}:`, err)
-      const label = showKey.replace('show', '')
+      console.error(`Failed to load ${String(showKey)}:`, err)
+      const label = String(showKey).replace('show', '')
       set({
         [loadingKey]: false,
         loadError: `Failed to load ${label} layer`,
       } as Partial<MapLayerState>)
+    }
+  }
+}
+
+// Ensure layer data is loaded (for preset activation). Reuses the same loader
+// functions as toggles but only loads — never toggles off.
+function ensureLoaded(
+  dataKey: keyof MapLayerState,
+  loadingKey: keyof MapLayerState,
+  loader: () => Promise<Partial<MapLayerState>>,
+) {
+  return async (set: StoreSet, get: StoreGet) => {
+    if (get()[dataKey] != null || (get()[loadingKey] as boolean)) return
+    set({ [loadingKey]: true } as Partial<MapLayerState>)
+    try {
+      const result = await loader()
+      set({ ...result, [loadingKey]: false } as Partial<MapLayerState>)
+    } catch (err) {
+      console.error(`Preset load failed for ${String(dataKey)}:`, err)
+      set({ [loadingKey]: false } as Partial<MapLayerState>)
     }
   }
 }
@@ -567,7 +595,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
         loadProvinceLabels(),
         loadProvinceChanges().catch(() => []),
         import('@/data/dare/senatorial-provinces.json')
-          .then((m) => m.default as unknown as FeatureCollection)
+          .then((m) => m.default as FeatureCollection)
           .catch(() => null),
       ])
       return {
@@ -640,7 +668,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       const [data, lines] = await Promise.all([
         loadAqueducts(),
         import('@/data/awmc-aqueducts-temporal.json')
-          .then((m) => m.default as unknown as FeatureCollection)
+          .then((m) => m.default as FeatureCollection)
           .catch(() => null),
       ])
       return { data, extra: { aqueductLinesData: lines } }
@@ -723,227 +751,118 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     }
     set(update as Partial<MapLayerState>)
 
-    // Loader registry: maps showKey to { dataKey, loadingKey, loader }
-    const loaders: Record<
-      string,
-      { dataKey: string; loadingKey: string; load: () => Promise<void> }
-    > = {
-      showRoads: {
-        dataKey: 'roadsData',
-        loadingKey: 'roadsLoading',
-        load: async () => {
-          set({ roadsLoading: true })
-          const { loadRoads } = await import('@/data/dare')
-          set({ roadsData: await loadRoads(), roadsLoading: false })
-        },
-      },
-      showSettlements: {
-        dataKey: 'settlementsData',
-        loadingKey: 'settlementsLoading',
-        load: async () => {
-          set({ settlementsLoading: true })
-          const { loadSettlements, loadCityPopulations } = await import('@/data/dare')
-          const [data, pops] = await Promise.all([
-            loadSettlements(),
-            loadCityPopulations().catch(() => []),
-          ])
-          set({ settlementsData: data, cityPopulationsData: pops, settlementsLoading: false })
-        },
-      },
-      showLimes: {
-        dataKey: 'limesData',
-        loadingKey: 'limesLoading',
-        load: async () => {
-          set({ limesLoading: true })
-          const { loadLimes } = await import('@/data/dare')
-          set({ limesData: await loadLimes(), limesLoading: false })
-        },
-      },
-      showPresence: {
-        dataKey: 'presenceData',
-        loadingKey: 'presenceLoading',
-        load: async () => {
-          set({ presenceLoading: true })
-          const { loadPresenceGrid } = await import('@/data/dare')
-          set({ presenceData: await loadPresenceGrid(), presenceLoading: false })
-        },
-      },
-      showProvinces: {
-        dataKey: 'provincesData',
-        loadingKey: 'provincesLoading',
-        load: async () => {
-          set({ provincesLoading: true })
-          const { loadProvinces, loadProvinceLabels, loadProvinceChanges } =
-            await import('@/data/dare')
-          const [d, l, c, senatorial] = await Promise.all([
-            loadProvinces(),
-            loadProvinceLabels(),
-            loadProvinceChanges().catch(() => []),
-            import('@/data/dare/senatorial-provinces.json')
-              .then((m) => m.default as unknown as FeatureCollection)
-              .catch(() => null),
-          ])
-          set({
-            provincesData: d,
-            provinceLabels: l,
-            provinceChanges: c,
-            senatorialProvincesData: senatorial,
-            provincesLoading: false,
-          })
-        },
-      },
-      showFortifications: {
-        dataKey: 'fortificationsData',
-        loadingKey: 'fortificationsLoading',
-        load: async () => {
-          set({ fortificationsLoading: true })
-          const { loadFortifications } = await import('@/data/dare')
-          set({ fortificationsData: await loadFortifications(), fortificationsLoading: false })
-        },
-      },
-      showWater: {
-        dataKey: 'waterData',
-        loadingKey: 'waterLoading',
-        load: async () => {
-          set({ waterLoading: true })
-          const { loadWater } = await import('@/data/dare')
-          set({ waterData: await loadWater(), waterLoading: false })
-        },
-      },
-      showItinereRoads: {
-        dataKey: 'itinereRoadsData',
-        loadingKey: 'itinereRoadsLoading',
-        load: async () => {
-          set({ itinereRoadsLoading: true })
-          const { loadItinereRoads } = await import('@/data/itinere')
-          set({ itinereRoadsData: await loadItinereRoads(), itinereRoadsLoading: false })
-        },
-      },
-      showBattles: {
-        dataKey: 'battlesData',
-        loadingKey: 'battlesLoading',
-        load: async () => {
-          set({ battlesLoading: true })
-          const { loadBattles } = await import('@/data/battles')
-          set({ battlesData: await loadBattles(), battlesLoading: false })
-        },
-      },
-      showAmphitheaters: {
-        dataKey: 'amphitheatersData',
-        loadingKey: 'amphitheatersLoading',
-        load: async () => {
-          set({ amphitheatersLoading: true })
-          const { loadAmphitheaters } = await import('@/data/amphitheaters')
-          set({ amphitheatersData: await loadAmphitheaters(), amphitheatersLoading: false })
-        },
-      },
-      showEmperors: {
-        dataKey: 'emperorsData',
-        loadingKey: 'emperorsLoading',
-        load: async () => {
-          set({ emperorsLoading: true })
-          const { loadEmperors } = await import('@/data/emperors')
-          set({ emperorsData: await loadEmperors(), emperorsLoading: false })
-        },
-      },
-      showLegions: {
-        dataKey: 'legionsData',
-        loadingKey: 'legionsLoading',
-        load: async () => {
-          set({ legionsLoading: true })
-          const { loadLegions } = await import('@/data/legions')
-          set({ legionsData: await loadLegions(), legionsLoading: false })
-        },
-      },
-      showShipwrecks: {
-        dataKey: 'shipwrecksData',
-        loadingKey: 'shipwrecksLoading',
-        load: async () => {
-          set({ shipwrecksLoading: true })
-          const { loadShipwrecks } = await import('@/data/shipwrecks')
-          set({ shipwrecksData: await loadShipwrecks(), shipwrecksLoading: false })
-        },
-      },
-      showMines: {
-        dataKey: 'minesData',
-        loadingKey: 'minesLoading',
-        load: async () => {
-          set({ minesLoading: true })
-          const { loadMines } = await import('@/data/mines')
-          set({ minesData: await loadMines(), minesLoading: false })
-        },
-      },
-      showAqueducts: {
-        dataKey: 'aqueductsData',
-        loadingKey: 'aqueductsLoading',
-        load: async () => {
-          set({ aqueductsLoading: true })
-          const { loadAqueducts } = await import('@/data/aqueducts')
-          const [data, lines] = await Promise.all([
-            loadAqueducts(),
-            import('@/data/awmc-aqueducts-temporal.json')
-              .then((m) => m.default as unknown as FeatureCollection)
-              .catch(() => null),
-          ])
-          set({ aqueductsData: data, aqueductLinesData: lines, aqueductsLoading: false })
-        },
-      },
-      showReligion: {
-        dataKey: 'religionData',
-        loadingKey: 'religionLoading',
-        load: async () => {
-          set({ religionLoading: true })
-          const { loadReligion } = await import('@/data/religion')
-          set({ religionData: await loadReligion(), religionLoading: false })
-        },
-      },
-      showBuildings: {
-        dataKey: 'buildingsData',
-        loadingKey: 'buildingsLoading',
-        load: async () => {
-          set({ buildingsLoading: true })
-          const { loadBuildings } = await import('@/data/buildings')
-          set({ buildingsData: await loadBuildings(), buildingsLoading: false })
-        },
-      },
-      showPresses: {
-        dataKey: 'pressesData',
-        loadingKey: 'pressesLoading',
-        load: async () => {
-          set({ pressesLoading: true })
-          const { loadPresses } = await import('@/data/presses')
-          set({ pressesData: await loadPresses(), pressesLoading: false })
-        },
-      },
-      showTradeNetwork: {
-        dataKey: 'tradeNetworkData',
-        loadingKey: 'tradeNetworkLoading',
-        load: async () => {
-          set({ tradeNetworkLoading: true })
-          const { loadTradeNetwork } = await import('@/data/trade')
-          set({ tradeNetworkData: await loadTradeNetwork(), tradeNetworkLoading: false })
-        },
-      },
-      showEpigraphy: {
-        dataKey: 'epigraphyData',
-        loadingKey: 'epigraphyLoading',
-        load: async () => {
-          set({ epigraphyLoading: true })
-          const { loadEpigraphy } = await import('@/data/epigraphy')
-          set({ epigraphyData: await loadEpigraphy(), epigraphyLoading: false })
-        },
-      },
+    // Compact loader registry: maps showKey to an ensureLoaded call
+    const loaders: Record<string, (set: StoreSet, get: StoreGet) => Promise<void>> = {
+      showRoads: ensureLoaded('roadsData', 'roadsLoading', async () => {
+        const { loadRoads } = await import('@/data/dare')
+        return { roadsData: await loadRoads() }
+      }),
+      showSettlements: ensureLoaded('settlementsData', 'settlementsLoading', async () => {
+        const { loadSettlements, loadCityPopulations } = await import('@/data/dare')
+        const [data, pops] = await Promise.all([
+          loadSettlements(),
+          loadCityPopulations().catch(() => []),
+        ])
+        return { settlementsData: data, cityPopulationsData: pops }
+      }),
+      showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
+        const { loadLimes } = await import('@/data/dare')
+        return { limesData: await loadLimes() }
+      }),
+      showPresence: ensureLoaded('presenceData', 'presenceLoading', async () => {
+        const { loadPresenceGrid } = await import('@/data/dare')
+        return { presenceData: await loadPresenceGrid() }
+      }),
+      showProvinces: ensureLoaded('provincesData', 'provincesLoading', async () => {
+        const { loadProvinces, loadProvinceLabels, loadProvinceChanges } =
+          await import('@/data/dare')
+        const [d, l, c, senatorial] = await Promise.all([
+          loadProvinces(),
+          loadProvinceLabels(),
+          loadProvinceChanges().catch(() => []),
+          import('@/data/dare/senatorial-provinces.json')
+            .then((m) => m.default as FeatureCollection)
+            .catch(() => null),
+        ])
+        return {
+          provincesData: d,
+          provinceLabels: l,
+          provinceChanges: c,
+          senatorialProvincesData: senatorial,
+        }
+      }),
+      showFortifications: ensureLoaded('fortificationsData', 'fortificationsLoading', async () => {
+        const { loadFortifications } = await import('@/data/dare')
+        return { fortificationsData: await loadFortifications() }
+      }),
+      showWater: ensureLoaded('waterData', 'waterLoading', async () => {
+        const { loadWater } = await import('@/data/dare')
+        return { waterData: await loadWater() }
+      }),
+      showItinereRoads: ensureLoaded('itinereRoadsData', 'itinereRoadsLoading', async () => {
+        const { loadItinereRoads } = await import('@/data/itinere')
+        return { itinereRoadsData: await loadItinereRoads() }
+      }),
+      showBattles: ensureLoaded('battlesData', 'battlesLoading', async () => {
+        const { loadBattles } = await import('@/data/battles')
+        return { battlesData: await loadBattles() }
+      }),
+      showAmphitheaters: ensureLoaded('amphitheatersData', 'amphitheatersLoading', async () => {
+        const { loadAmphitheaters } = await import('@/data/amphitheaters')
+        return { amphitheatersData: await loadAmphitheaters() }
+      }),
+      showEmperors: ensureLoaded('emperorsData', 'emperorsLoading', async () => {
+        const { loadEmperors } = await import('@/data/emperors')
+        return { emperorsData: await loadEmperors() }
+      }),
+      showLegions: ensureLoaded('legionsData', 'legionsLoading', async () => {
+        const { loadLegions } = await import('@/data/legions')
+        return { legionsData: await loadLegions() }
+      }),
+      showShipwrecks: ensureLoaded('shipwrecksData', 'shipwrecksLoading', async () => {
+        const { loadShipwrecks } = await import('@/data/shipwrecks')
+        return { shipwrecksData: await loadShipwrecks() }
+      }),
+      showMines: ensureLoaded('minesData', 'minesLoading', async () => {
+        const { loadMines } = await import('@/data/mines')
+        return { minesData: await loadMines() }
+      }),
+      showAqueducts: ensureLoaded('aqueductsData', 'aqueductsLoading', async () => {
+        const { loadAqueducts } = await import('@/data/aqueducts')
+        const [data, lines] = await Promise.all([
+          loadAqueducts(),
+          import('@/data/awmc-aqueducts-temporal.json')
+            .then((m) => m.default as FeatureCollection)
+            .catch(() => null),
+        ])
+        return { aqueductsData: data, aqueductLinesData: lines }
+      }),
+      showReligion: ensureLoaded('religionData', 'religionLoading', async () => {
+        const { loadReligion } = await import('@/data/religion')
+        return { religionData: await loadReligion() }
+      }),
+      showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
+        const { loadBuildings } = await import('@/data/buildings')
+        return { buildingsData: await loadBuildings() }
+      }),
+      showPresses: ensureLoaded('pressesData', 'pressesLoading', async () => {
+        const { loadPresses } = await import('@/data/presses')
+        return { pressesData: await loadPresses() }
+      }),
+      showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
+        const { loadTradeNetwork } = await import('@/data/trade')
+        return { tradeNetworkData: await loadTradeNetwork() }
+      }),
+      showEpigraphy: ensureLoaded('epigraphyData', 'epigraphyLoading', async () => {
+        const { loadEpigraphy } = await import('@/data/epigraphy')
+        return { epigraphyData: await loadEpigraphy() }
+      }),
     }
 
-    const afterState = get()
     const promises: Promise<void>[] = []
     for (const layerKey of def.layers) {
-      const reg = loaders[layerKey]
-      if (!reg) continue
-      const s = afterState as unknown as Record<string, unknown>
-      if (!s[reg.dataKey] && !s[reg.loadingKey]) {
-        promises.push(reg.load())
-      }
+      const load = loaders[layerKey]
+      if (load) promises.push(load(set, get))
     }
     Promise.all(promises).catch((err) => console.error('Failed to load preset layers:', err))
   },

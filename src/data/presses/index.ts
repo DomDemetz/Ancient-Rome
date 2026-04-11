@@ -10,7 +10,8 @@ export interface Press {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadPresses(): Promise<Press[]> {
-  const data = await import('./presses.json')
-  return data.default as unknown as Press[]
+  return loadJson<Press[]>(() => import('./presses.json'))
 }

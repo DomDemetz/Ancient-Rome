@@ -1,6 +1,6 @@
 import type { FeatureCollection } from 'geojson'
+import { loadJson } from '@/data/loadJson'
 
 export async function loadItinereRoads(): Promise<FeatureCollection> {
-  const data = await import('./roads-temporal.json')
-  return data.default as unknown as FeatureCollection
+  return loadJson<FeatureCollection>(() => import('./roads-temporal.json'))
 }

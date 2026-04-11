@@ -12,7 +12,8 @@ export interface ReligiousSite {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadReligion(): Promise<ReligiousSite[]> {
-  const data = await import('./religion.json')
-  return data.default as unknown as ReligiousSite[]
+  return loadJson<ReligiousSite[]>(() => import('./religion.json'))
 }

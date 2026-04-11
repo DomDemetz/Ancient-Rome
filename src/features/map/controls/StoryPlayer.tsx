@@ -4,17 +4,14 @@ import { useMapLayerStore, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
 import { useUIStore } from '@/stores/useUIStore'
 import type { Story, StoryStep } from '@/types'
 
+import { formatYear } from '@/lib/geo'
+
 export type { Story, StoryStep }
 
 interface StoryPlayerProps {
   story: Story
   onClose: () => void
   onNavigate?: (center: [number, number], zoom: number) => void
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }
 
 export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {

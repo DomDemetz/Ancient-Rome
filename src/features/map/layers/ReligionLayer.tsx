@@ -1,8 +1,10 @@
-import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
+import { useMemo } from 'react'
+import { CircleMarker, Popup } from 'react-leaflet'
 import type { ReligiousSite } from '@/data/religion'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
+import { formatYear } from '@/lib/geo'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface ReligionLayerProps {
   data: ReligiousSite[]
@@ -28,26 +30,9 @@ const SITE_TYPE_SHAPES: Record<string, number> = {
   shrine: 3,
 }
 
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
-}
-
 export function ReligionLayer({ data }: ReligionLayerProps) {
-  const map = useMap()
-  const [zoom, setZoom] = useState(map.getZoom())
-  const [bounds, setBounds] = useState(map.getBounds())
+  const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-
-  const updateView = useCallback(() => {
-    setZoom(map.getZoom())
-    setBounds(map.getBounds())
-  }, [map])
-
-  useMapEvents({
-    zoomend: updateView,
-    moveend: updateView,
-  })
 
   const visible = useMemo(() => {
     return data.filter((s) => {

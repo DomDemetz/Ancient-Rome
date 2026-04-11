@@ -11,7 +11,8 @@ export interface Aqueduct {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadAqueducts(): Promise<Aqueduct[]> {
-  const data = await import('./aqueducts.json')
-  return data.default as unknown as Aqueduct[]
+  return loadJson<Aqueduct[]>(() => import('./aqueducts.json'))
 }

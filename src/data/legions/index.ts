@@ -20,7 +20,8 @@ export interface Legion {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadLegions(): Promise<Legion[]> {
-  const data = await import('./legions.json')
-  return data.default as unknown as Legion[]
+  return loadJson<Legion[]>(() => import('./legions.json'))
 }

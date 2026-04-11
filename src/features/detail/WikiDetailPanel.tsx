@@ -6,6 +6,7 @@ import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
 import type { WikiEnrichment, WikiLookup } from '@/data/wiki'
+import { formatYear } from '@/lib/geo'
 
 async function loadAndMerge(
   loadWiki: () => Promise<WikiLookup>,
@@ -83,13 +84,6 @@ function FactRow({ label, value, source }: { label: string; value: string; sourc
       </span>
     </div>
   )
-}
-
-// --- Format year for display ---
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BC`
-  return `${year} AD`
 }
 
 // --- Main content ---

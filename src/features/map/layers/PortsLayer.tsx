@@ -1,8 +1,9 @@
-import { useMemo, useState, useCallback } from 'react'
-import { CircleMarker, Popup, useMap, useMapEvents } from 'react-leaflet'
+import { useMemo } from 'react'
+import { CircleMarker, Popup } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface Port {
   id: string
@@ -49,18 +50,9 @@ function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridS
 }
 
 export function PortsLayer({ data }: PortsLayerProps) {
-  const map = useMap()
-  const [zoom, setZoom] = useState(map.getZoom())
-  const [bounds, setBounds] = useState(map.getBounds())
+  const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('ports')
-
-  const updateView = useCallback(() => {
-    setZoom(map.getZoom())
-    setBounds(map.getBounds())
-  }, [map])
-
-  useMapEvents({ zoomend: updateView, moveend: updateView })
 
   const visible = useMemo(() => {
     if (zoom < 6) return []

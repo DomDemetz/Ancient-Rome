@@ -17,7 +17,7 @@ import {
 import type { Map as LeafletMap } from 'leaflet'
 import { useMapLayerStore, PRESETS, LAYER_GROUPS } from '@/stores/useMapLayerStore'
 import type { PresetName } from '@/stores/useMapLayerStore'
-import { DARE_TYPE_LABELS, CATEGORY_STYLES, DARE_TYPE_TO_CATEGORY } from './settlementStyles'
+import { DARE_TYPE_LABELS, CATEGORY_STYLES, DARE_TYPE_TO_CATEGORY } from './layers/settlementStyles'
 import { useUIStore } from '@/stores/useUIStore'
 import { cn } from '@/lib/utils'
 import { Button } from '@/ui/button'

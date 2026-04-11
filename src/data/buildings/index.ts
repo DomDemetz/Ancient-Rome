@@ -10,7 +10,8 @@ export interface Building {
   source: string
 }
 
+import { loadJson } from '@/data/loadJson'
+
 export async function loadBuildings(): Promise<Building[]> {
-  const data = await import('./buildings.json')
-  return data.default as unknown as Building[]
+  return loadJson<Building[]>(() => import('./buildings.json'))
 }
