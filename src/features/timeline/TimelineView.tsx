@@ -4,6 +4,7 @@ import { useShallow } from 'zustand/shallow'
 import { entities } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useUIStore } from '@/stores/useUIStore'
 import { filterEntities } from '@/lib/filtering'
 import type { Entity } from '@/types'
 import { detectEras } from './era.utils'
@@ -11,6 +12,7 @@ import { EraOverlay } from './EraOverlay'
 import { TimelineLane } from './TimelineLane'
 import { TimelinePlayer } from './TimelinePlayer'
 import { TimelineTooltip } from './TimelineTooltip'
+import { MobileTimelineList } from './MobileTimelineList'
 
 const LANE_TYPES: Entity['entityType'][] = [
   'person',
@@ -41,6 +43,7 @@ export function TimelineView() {
   )
 
   const select = useSelectionStore((s) => s.select)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   // Observe container size — ResizeObserver fires immediately on observe()
   useEffect(() => {
@@ -136,6 +139,15 @@ export function TimelineView() {
     },
     [select],
   )
+
+  if (isMobile) {
+    return (
+      <div className="flex flex-col w-full h-full overflow-hidden">
+        <MobileTimelineList entities={filteredEntities} />
+        <TimelinePlayer />
+      </div>
+    )
+  }
 
   return (
     <div className="flex flex-col w-full h-full overflow-hidden">
