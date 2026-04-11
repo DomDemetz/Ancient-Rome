@@ -63,13 +63,13 @@ export function MobileTabBar() {
             className={`
               flex-1 flex flex-col items-center justify-center gap-1 py-2 min-h-[52px]
               transition-colors duration-150
-              ${isActive ? 'text-amber-500' : 'text-slate-600 active:text-slate-300'}
+              ${isActive ? 'text-amber-500' : 'text-slate-500 active:text-slate-300'}
             `}
           >
             <Icon size={20} strokeWidth={isActive ? 2.2 : 1.8} />
             <span
               className={`text-[9px] font-semibold uppercase tracking-[0.1em] ${
-                isActive ? 'text-amber-500' : 'text-slate-600'
+                isActive ? 'text-amber-500' : 'text-slate-500'
               }`}
             >
               {label}

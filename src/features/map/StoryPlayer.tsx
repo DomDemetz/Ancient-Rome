@@ -105,7 +105,7 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
               <span className="text-amber-400 text-xs font-bold">{formatYear(step.year)}</span>
             )}
             <span className="text-white/80 text-sm font-semibold">{step.title}</span>
-            <span className="ml-auto text-white/30 text-[10px]">
+            <span className="ml-auto text-white/50 text-[10px]">
               {currentStep + 1}/{story.steps.length}
             </span>
           </div>
@@ -126,7 +126,7 @@ export function StoryPlayer({ story, onClose, onNavigate }: StoryPlayerProps) {
               'px-3 py-1 text-xs rounded border transition-colors',
               isMobile ? 'min-h-[44px] min-w-[44px]' : '',
               isFirst
-                ? 'border-white/10 text-white/20 cursor-not-allowed'
+                ? 'border-white/10 text-white/40 cursor-not-allowed'
                 : 'border-white/20 text-white/70 hover:bg-white/10 active:bg-white/15',
             ].join(' ')}
           >

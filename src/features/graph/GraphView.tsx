@@ -225,6 +225,36 @@ export function GraphView() {
       node.attr('transform', (d) => `translate(${d.x ?? 0},${d.y ?? 0})`)
     })
 
+    // Auto-fit graph after simulation stabilizes
+    simulation.on('end', () => {
+      if (!svgEl || !zoomRef.current || allNodes.length === 0) return
+      let minX = Infinity,
+        minY = Infinity,
+        maxX = -Infinity,
+        maxY = -Infinity
+      for (const n of allNodes) {
+        if (n.x != null && n.y != null) {
+          minX = Math.min(minX, n.x)
+          minY = Math.min(minY, n.y)
+          maxX = Math.max(maxX, n.x)
+          maxY = Math.max(maxY, n.y)
+        }
+      }
+      const pad = 60
+      const bw = maxX - minX + pad * 2
+      const bh = maxY - minY + pad * 2
+      const scale = Math.min(width / bw, height / bh, 1.5)
+      const cx = (minX + maxX) / 2
+      const cy = (minY + maxY) / 2
+      d3.select(svgEl)
+        .transition()
+        .duration(600)
+        .call(
+          zoomRef.current.transform,
+          d3.zoomIdentity.translate(width / 2 - cx * scale, height / 2 - cy * scale).scale(scale),
+        )
+    })
+
     return () => {
       simulation.stop()
       simulationRef.current = null

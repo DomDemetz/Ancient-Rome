@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import L from 'leaflet'
-import { Marker, Popup } from 'react-leaflet'
+import { Marker } from 'react-leaflet'
 import { useShallow } from 'zustand/shallow'
 import { entities } from '@/data'
 import { useFilterStore } from '@/stores/useFilterStore'
@@ -65,10 +65,6 @@ export function EntityMarkers() {
       {locationEntities.map((entity) => {
         const color = entityColors[entity.entityType]
         const icon = getDotIcon(color)
-        const description =
-          entity.description.length > 120
-            ? entity.description.slice(0, 120) + '…'
-            : entity.description
 
         return (
           <Marker
@@ -76,19 +72,9 @@ export function EntityMarkers() {
             position={[entity.coordinates!.lat, entity.coordinates!.lng]}
             icon={icon}
             eventHandlers={{
-              popupopen: () => select(entity.id),
-              popupclose: () => select(null),
+              click: () => select(entity.id),
             }}
-          >
-            <Popup>
-              <div style={{ minWidth: 160, maxWidth: 220 }}>
-                <strong style={{ display: 'block', marginBottom: 4, fontSize: 13 }}>
-                  {entity.name}
-                </strong>
-                <span style={{ fontSize: 11, color: '#888' }}>{description}</span>
-              </div>
-            </Popup>
-          </Marker>
+          />
         )
       })}
     </>

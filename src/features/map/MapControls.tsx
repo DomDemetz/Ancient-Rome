@@ -178,7 +178,17 @@ function LayerPanelContent({
                         )}
                         title={`Toggle ${layer.label.toLowerCase()} layer`}
                       >
-                        {state.loading ? `${layer.label}...` : layer.label}
+                        <span className="flex-1">
+                          {state.loading ? `${layer.label}...` : layer.label}
+                        </span>
+                        {!state.loading && (
+                          <span
+                            className={cn(
+                              'size-2 rounded-full shrink-0 transition-colors',
+                              state.active ? 'bg-amber-500' : 'bg-white/[0.08]',
+                            )}
+                          />
+                        )}
                       </button>
 
                       {/* Settlement type submenu */}

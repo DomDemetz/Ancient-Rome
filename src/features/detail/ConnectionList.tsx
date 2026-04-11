@@ -94,7 +94,7 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
                     {formatConnectionType(conn.connectionType)}
                   </span>
                 </span>
-                <ChevronRight className="size-4 shrink-0 text-slate-700 group-hover:text-amber-500 transition-colors" />
+                <ChevronRight className="size-4 shrink-0 text-slate-600 group-hover:text-amber-500 transition-colors" />
               </button>
             </li>
           )
