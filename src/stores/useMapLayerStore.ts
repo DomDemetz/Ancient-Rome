@@ -442,7 +442,11 @@ function makeToggle<K extends string>(
       } as Partial<MapLayerState>)
     } catch (err) {
       console.error(`Failed to load ${showKey}:`, err)
-      set({ [loadingKey]: false } as Partial<MapLayerState>)
+      const label = showKey.replace('show', '')
+      set({
+        [loadingKey]: false,
+        loadError: `Failed to load ${label} layer`,
+      } as Partial<MapLayerState>)
     }
   }
 }
@@ -523,6 +527,8 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   settlementTypes: { ...defaultSettlementTypes },
   hiddenCategories: new Set<string>(),
   activePreset: 'custom',
+  loadError: null as string | null,
+  dismissError: () => set({ loadError: null }),
 
   // --- Toggles ---
   toggleRoads: () =>

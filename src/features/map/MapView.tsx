@@ -100,6 +100,31 @@ function BasePane() {
   return null
 }
 
+/** Toast notification for layer load errors — auto-dismisses after 4s */
+function LayerErrorToast() {
+  const loadError = useMapLayerStore((s) => s.loadError)
+  const dismissError = useMapLayerStore((s) => s.dismissError)
+
+  useEffect(() => {
+    if (!loadError) return
+    const timer = setTimeout(dismissError, 4000)
+    return () => clearTimeout(timer)
+  }, [loadError, dismissError])
+
+  if (!loadError) return null
+
+  return (
+    <div className="absolute bottom-24 left-1/2 -translate-x-1/2 z-[1000] pointer-events-auto">
+      <div className="flex items-center gap-2 rounded-lg bg-red-950/90 border border-red-500/20 px-4 py-2 text-xs text-red-200 shadow-lg backdrop-blur-md">
+        <span>{loadError}</span>
+        <button onClick={dismissError} className="text-red-400 hover:text-red-200 ml-1">
+          &times;
+        </button>
+      </div>
+    </div>
+  )
+}
+
 const ROME_CENTER: [number, number] = [41.9, 12.5]
 const DEFAULT_ZOOM = 5
 
@@ -223,7 +248,11 @@ export function MapView() {
           zoomControl={false}
           ref={mapRef}
         >
-          <TileLayer url={TERRAIN_TILE_URL} attribution={attribution} />
+          <TileLayer
+            url={TERRAIN_TILE_URL}
+            attribution={attribution}
+            errorTileUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPj/HwADBwIAMCbHYQAAAABJRU5ErkJggg=="
+          />
           <BasePane />
           <MapNavHandler />
 
@@ -291,6 +320,7 @@ export function MapView() {
         {showEmperors && emperorsData && <EmperorBanner emperors={emperorsData} />}
 
         <StatsOverlay />
+        <LayerErrorToast />
 
         {/* Story system */}
         {!activeStory && <StorySelector onSelect={setActiveStory} />}
