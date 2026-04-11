@@ -452,7 +452,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
         >
           <div className="flex items-center justify-between p-4 border-b border-white/[0.08]">
             <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
-              Layers
+              Atlas Layers
             </span>
             <Button variant="ghost" size="icon-sm" onClick={() => setPanelOpen(false)}>
               <X className="size-4" />

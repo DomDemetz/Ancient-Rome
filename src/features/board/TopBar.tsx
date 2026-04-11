@@ -16,6 +16,7 @@ export function TopBar({ storyMode }: TopBarProps) {
   const toggleSidebar = useUIStore((s) => s.toggleSidebar)
   const isMobile = useUIStore((s) => s.isMobile)
   const lens = useUIStore((s) => s.lens)
+  const atlasMode = useUIStore((s) => s.atlasMode)
   const [dialogOpen, setDialogOpen] = useState(false)
 
   function handleStart(story: Story) {
@@ -26,7 +27,7 @@ export function TopBar({ storyMode }: TopBarProps) {
   if (isMobile) {
     return (
       <header
-        className="flex items-center gap-2 px-3 h-11 shrink-0 bg-black/70 backdrop-blur-2xl border-b border-white/[0.06]"
+        className={`flex items-center gap-2 px-3 h-11 shrink-0 backdrop-blur-2xl ${atlasMode ? 'bg-black/40 border-b border-white/[0.04]' : 'bg-black/70 border-b border-white/[0.06]'}`}
         style={{ zIndex: 1000, paddingTop: 'env(safe-area-inset-top, 0px)' }}
       >
         {/* Sidebar toggle — graph only */}
@@ -65,7 +66,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           <DialogContent className="max-w-lg bg-[#0c0c10] border border-white/[0.06] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
             <DialogHeader>
               <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
-                Guided Stories
+                {atlasMode ? 'Atlas Tours' : 'Guided Stories'}
               </DialogTitle>
             </DialogHeader>
             <StoryPlayer onStart={handleStart} />
@@ -80,7 +81,11 @@ export function TopBar({ storyMode }: TopBarProps) {
 
   return (
     <header
-      className="flex items-center gap-5 border-b border-white/[0.08] px-6 h-14 shrink-0 relative bg-[#0a0a0c]/90 backdrop-blur-2xl shadow-[0_1px_12px_rgba(0,0,0,0.4)]"
+      className={`flex items-center shrink-0 relative backdrop-blur-2xl ${
+        atlasMode
+          ? 'gap-3 px-4 h-11 bg-black/40 border-b border-white/[0.04]'
+          : 'gap-5 px-6 h-14 bg-[#0a0a0c]/90 border-b border-white/[0.08] shadow-[0_1px_12px_rgba(0,0,0,0.4)]'
+      }`}
       style={{ zIndex: 1000 }}
     >
       {lens === 'graph' && (
@@ -102,7 +107,7 @@ export function TopBar({ storyMode }: TopBarProps) {
             Ancient Rome
           </span>
           <span className="text-[8px] uppercase tracking-[0.3em] text-slate-500">
-            Investigation Board
+            {atlasMode ? 'Historical Atlas' : 'Investigation Board'}
           </span>
         </div>
       </div>
@@ -125,7 +130,7 @@ export function TopBar({ storyMode }: TopBarProps) {
         <DialogContent className="max-w-lg bg-[#0c0c10] border border-white/[0.08] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
           <DialogHeader>
             <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
-              Guided Stories
+              {atlasMode ? 'Atlas Tours' : 'Guided Stories'}
             </DialogTitle>
           </DialogHeader>
           <StoryPlayer onStart={handleStart} />
@@ -135,7 +140,7 @@ export function TopBar({ storyMode }: TopBarProps) {
       <SearchBar />
       <div className="flex-1" />
 
-      <LensSwitcher />
+      {!atlasMode && <LensSwitcher />}
     </header>
   )
 }

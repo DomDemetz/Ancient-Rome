@@ -24,6 +24,7 @@ export function InvestigationBoard() {
   useURLSync()
   useMobileDetect()
   const lens = useUIStore((s) => s.lens)
+  const atlasMode = useUIStore((s) => s.atlasMode)
   const sidebarOpen = useUIStore((s) => s.sidebarOpen)
   const isMobile = useUIStore((s) => s.isMobile)
 
@@ -85,12 +86,12 @@ export function InvestigationBoard() {
         </div>
 
         {/* Detail panel — shown when something is selected (desktop) */}
-        <DetailPanel />
+        {!atlasMode && <DetailPanel />}
         <WikiDetailPanel />
       </div>
 
       {/* Trail bar — desktop only (mobile has limited space) */}
-      {!isMobile && <TrailBar />}
+      {!atlasMode && !isMobile && <TrailBar />}
 
       {/* Narration bar — shown when story is active */}
       {storyMode.isActive && storyMode.activeStory && storyMode.currentStep && (
@@ -106,7 +107,7 @@ export function InvestigationBoard() {
       )}
 
       {/* Mobile bottom tab bar */}
-      {isMobile && <MobileTabBar />}
+      {!atlasMode && isMobile && <MobileTabBar />}
     </div>
   )
 }

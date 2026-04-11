@@ -175,7 +175,7 @@ export function TimelinePlayer() {
 
   // Desktop: full player
   return (
-    <div className="flex flex-col px-5 pt-2.5 pb-1.5 bg-[#0a0a0c]/90 backdrop-blur-xl border-t border-white/[0.08]">
+    <div className="flex flex-col px-5 pt-2.5 pb-1.5 bg-[#0a0a0c]/80 backdrop-blur-xl border-t border-white/[0.06]">
       <div className="flex items-center gap-3">
         <button
           onClick={handleTogglePlay}
