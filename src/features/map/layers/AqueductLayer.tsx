@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useCallback, useMemo } from 'react'
 import { CircleMarker, GeoJSON, Popup } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
