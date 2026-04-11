@@ -420,7 +420,8 @@
  * Z-INDEX STACKING CONTEXT
  * ─────────────────────────
  * 9999  — Noise overlay (decorative, pointer-events:none)
- * 1100  — Drawers, dialogs, mobile search overlay
+ * 1200  — Dialogs (modals — always above drawers)
+ * 1100  — Drawers, mobile search overlay
  * 1050  — Mobile tab bar
  * 1001  — Map layer toggle button, zoom controls
  * 1000  — Map UI overlays (stats, emperor, legend, story player/selector, header)
@@ -428,7 +429,8 @@
  *  250  — Custom basePolygons pane (territories/provinces)
  */
 
-/* Ensure drawers/modals appear above map layers */
+/* Ensure drawers/modals appear above map layers.
+ * Drawers at 1100, dialogs at 1200 so modals always stack above drawers. */
 [data-slot='drawer-overlay'] {
   z-index: 1100 !important;
 }
@@ -436,10 +438,10 @@
   z-index: 1100 !important;
 }
 [data-slot='dialog-overlay'] {
-  z-index: 1100 !important;
+  z-index: 1200 !important;
 }
 [data-slot='dialog-content'] {
-  z-index: 1100 !important;
+  z-index: 1200 !important;
 }
 
 /* Hide scrollbar for horizontal scroll areas */

@@ -6,6 +6,7 @@ import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
+import { useUIStore } from '@/stores/useUIStore'
 import { EntityMarkers } from './overlays/EntityMarkers'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { RoadLayer } from './layers/RoadLayer'
@@ -138,6 +139,7 @@ export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
   const [activeStory, setActiveStory] = useState<Story | null>(null)
   const mapRef = useRef<LeafletMap | null>(null)
+  const atlasMode = useUIStore((s) => s.atlasMode)
 
   // Smart default: open with Conquest preset at 100 AD with brief autoplay
   const initRef = useRef(false)
@@ -330,8 +332,8 @@ export function MapView() {
         <StatsOverlay />
         <LayerErrorToast />
 
-        {/* Story system */}
-        {!activeStory && <StorySelector onSelect={setActiveStory} />}
+        {/* Story system — StorySelector hidden in atlas mode (TopBar has Atlas Tours) */}
+        {!activeStory && !atlasMode && <StorySelector onSelect={setActiveStory} />}
         {activeStory && (
           <StoryPlayer
             story={activeStory}
