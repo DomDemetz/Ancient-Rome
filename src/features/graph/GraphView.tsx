@@ -7,6 +7,7 @@ import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { filterEntities, filterConnections } from '@/lib/filtering'
 import { entitiesToNodes, connectionsToLinks, getNodeColor } from './graph.utils'
+import { useUIStore } from '@/stores/useUIStore'
 import { GraphControls } from './GraphControls'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 import type { GraphNode, GraphLink } from '@/types'
@@ -28,6 +29,7 @@ export function GraphView() {
   const selectedId = useSelectionStore((s) => s.selectedId)
   const select = useSelectionStore((s) => s.select)
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   const handleZoomIn = useCallback(() => {
     if (!svgRef.current || !zoomRef.current) return
@@ -203,17 +205,30 @@ export function GraphView() {
         d3.select(this).select('text').attr('fill', '#cbd5e1').attr('font-weight', 500)
       })
 
+    // On mobile, only show labels for well-connected nodes to reduce clutter
+    const linkCountMap = new Map<string, number>()
+    for (const l of allLinks) {
+      const sId = typeof l.source === 'string' ? l.source : (l.source as GraphNode).id
+      const tId = typeof l.target === 'string' ? l.target : (l.target as GraphNode).id
+      linkCountMap.set(sId, (linkCountMap.get(sId) ?? 0) + 1)
+      linkCountMap.set(tId, (linkCountMap.get(tId) ?? 0) + 1)
+    }
+    const mobileLabelThreshold = 3
+
     node
       .append('text')
       .text((d) => d.name)
       .attr('dx', 11)
       .attr('dy', 3)
-      .attr('font-size', 11)
+      .attr('font-size', isMobile ? 9 : 11)
       .attr('font-weight', 500)
       .attr('fill', '#cbd5e1')
       .attr('pointer-events', 'none')
       .style('text-shadow', '0 1px 6px rgba(0,0,0,0.9)')
       .style('transition', 'fill 0.15s ease')
+      .style('display', (d) =>
+        isMobile && (linkCountMap.get(d.id) ?? 0) < mobileLabelThreshold ? 'none' : 'block',
+      )
 
     simulation.on('tick', () => {
       link
@@ -259,7 +274,7 @@ export function GraphView() {
       simulation.stop()
       simulationRef.current = null
     }
-  }, [allNodes, allLinks, select])
+  }, [allNodes, allLinks, select, isMobile])
 
   // Update visibility based on currentYear without rebuilding the simulation
   useEffect(() => {

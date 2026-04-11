@@ -171,7 +171,7 @@ function LayerPanelContent({
                         className={cn(
                           'w-full flex items-center gap-2 px-3 py-2 min-h-[40px] text-xs rounded-lg transition-colors text-left',
                           state.loading
-                            ? 'border-l-2 border-transparent text-slate-600 cursor-wait'
+                            ? 'border-l-2 border-amber-500/30 text-slate-500 cursor-wait animate-pulse'
                             : state.active
                               ? 'border-l-2 border-amber-500 bg-white/[0.03] text-white'
                               : 'border-l-2 border-transparent text-slate-500 hover:bg-white/[0.03] hover:text-white active:bg-white/[0.03] active:text-white',
@@ -181,7 +181,9 @@ function LayerPanelContent({
                         <span className="flex-1">
                           {state.loading ? `${layer.label}...` : layer.label}
                         </span>
-                        {!state.loading && (
+                        {state.loading ? (
+                          <span className="size-2 rounded-full shrink-0 bg-amber-500/40 animate-pulse" />
+                        ) : (
                           <span
                             className={cn(
                               'size-2 rounded-full shrink-0 transition-colors',
