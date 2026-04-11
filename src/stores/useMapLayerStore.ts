@@ -16,6 +16,7 @@ import type { Building } from '@/data/buildings'
 import type { Press } from '@/data/presses'
 import type { TradeNetwork } from '@/data/trade'
 import type { EpigraphyCluster } from '@/data/epigraphy'
+import type { NotablePerson } from '@/data/people-layer'
 
 // --- Preset definitions ---
 export type PresetName = 'conquest' | 'economy' | 'gods' | 'riseAndFall' | 'engineering' | 'custom'
@@ -175,6 +176,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
         activeClass:
           'bg-emerald-900/80 border-emerald-700 text-emerald-100 hover:bg-emerald-800/80',
       },
+      {
+        key: 'NotablePeople',
+        label: 'Notable People (2.4K)',
+        activeClass: 'bg-indigo-900/80 border-indigo-700 text-indigo-100 hover:bg-indigo-800/80',
+      },
     ],
   },
   {
@@ -268,6 +274,7 @@ export const ALL_LAYER_KEYS = [
   'showEpigraphy',
   'showVici',
   'showPorts',
+  'showNotablePeople',
 ] as const
 
 interface PortData {
@@ -361,6 +368,9 @@ interface MapLayerState {
   showPorts: boolean
   portsData: PortData[] | null
   portsLoading: boolean
+  showNotablePeople: boolean
+  notablePeopleData: NotablePerson[] | null
+  notablePeopleLoading: boolean
 
   // Settlement filtering
   settlementTypes: Record<number, boolean>
@@ -398,6 +408,7 @@ interface MapLayerActions {
   toggleEpigraphy: () => void
   toggleVici: () => void
   togglePorts: () => void
+  toggleNotablePeople: () => void
   activatePreset: (preset: PresetName) => void
   dismissError: () => void
 }
@@ -552,6 +563,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showPorts: false,
   portsData: null,
   portsLoading: false,
+  showNotablePeople: false,
+  notablePeopleData: null,
+  notablePeopleLoading: false,
   settlementTypes: { ...defaultSettlementTypes },
   hiddenCategories: new Set<string>(),
   activePreset: 'custom',
@@ -716,6 +730,12 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: data.default }
     })(set, get),
 
+  toggleNotablePeople: () =>
+    makeToggle('showNotablePeople', 'notablePeopleData', 'notablePeopleLoading', async () => {
+      const { loadNotablePeople } = await import('@/data/people-layer')
+      return { data: await loadNotablePeople() }
+    })(set, get),
+
   toggleSettlementType: (type: number) => {
     const { settlementTypes } = get()
     set({ settlementTypes: { ...settlementTypes, [type]: !settlementTypes[type] } })
@@ -856,6 +876,10 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       showEpigraphy: ensureLoaded('epigraphyData', 'epigraphyLoading', async () => {
         const { loadEpigraphy } = await import('@/data/epigraphy')
         return { epigraphyData: await loadEpigraphy() }
+      }),
+      showNotablePeople: ensureLoaded('notablePeopleData', 'notablePeopleLoading', async () => {
+        const { loadNotablePeople } = await import('@/data/people-layer')
+        return { notablePeopleData: await loadNotablePeople() }
       }),
     }
 

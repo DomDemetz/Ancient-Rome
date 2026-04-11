@@ -29,6 +29,7 @@ import { TradeNetworkLayer } from './layers/TradeNetworkLayer'
 import { EpigraphyLayer } from './layers/EpigraphyLayer'
 import { ViciLayer } from './layers/ViciLayer'
 import { PortsLayer } from './layers/PortsLayer'
+import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
@@ -174,6 +175,7 @@ export function MapView() {
     showEpigraphy,
     showVici,
     showPorts,
+    showNotablePeople,
     roadsData,
     settlementsData,
     limesData,
@@ -200,6 +202,7 @@ export function MapView() {
     epigraphyData,
     viciData,
     portsData,
+    notablePeopleData,
     cityPopulationsData,
     settlementTypes,
     hiddenCategories,
@@ -237,6 +240,8 @@ export function MapView() {
   if (showShipwrecks) attribution += ' | Shipwreck data: DARMC/OxREP'
   if (showMines) attribution += ' | Mining data: OxREP'
   if (showTradeNetwork) attribution += ' | ORBIS v2 &copy; Stanford University'
+  if (showNotablePeople)
+    attribution += ' | Notable People: Sciences-Po cross-verified database, CC-BY-SA'
 
   return (
     <div className="relative w-full h-full flex flex-col" style={{ background: '#0f0a1a' }}>
@@ -303,6 +308,9 @@ export function MapView() {
           )}
           {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
           {showBattles && battlesData && <BattleLayer data={battlesData} />}
+          {showNotablePeople && notablePeopleData && (
+            <NotablePeopleLayer data={notablePeopleData} />
+          )}
 
           <EntityMarkers />
         </MapContainer>

@@ -263,6 +263,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     showEpigraphy,
     showVici,
     showPorts,
+    showNotablePeople,
     roadsLoading,
     settlementsLoading,
     limesLoading,
@@ -285,6 +286,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     epigraphyLoading,
     viciLoading,
     portsLoading,
+    notablePeopleLoading,
     settlementsData,
     settlementTypes,
     activePreset,
@@ -310,6 +312,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     toggleEpigraphy,
     toggleVici,
     togglePorts,
+    toggleNotablePeople,
     toggleSettlementType,
     activatePreset,
   } = useMapLayerStore(useShallow((s) => s))
@@ -359,6 +362,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     Epigraphy: { active: showEpigraphy, loading: epigraphyLoading, toggle: toggleEpigraphy },
     Vici: { active: showVici, loading: viciLoading, toggle: toggleVici },
     Ports: { active: showPorts, loading: portsLoading, toggle: togglePorts },
+    NotablePeople: {
+      active: showNotablePeople,
+      loading: notablePeopleLoading,
+      toggle: toggleNotablePeople,
+    },
   }
 
   const typeCounts = useMemo(() => {
