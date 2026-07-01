@@ -1,12 +1,11 @@
 import 'leaflet/dist/leaflet.css'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useShallow } from 'zustand/shallow'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
-import { useUIStore } from '@/stores/useUIStore'
 import { EntityMarkers } from './overlays/EntityMarkers'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { RoadLayer } from './layers/RoadLayer'
@@ -35,9 +34,6 @@ import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
 import { StatsOverlay } from './controls/StatsOverlay'
-import { StorySelector } from './controls/StorySelector'
-import { StoryPlayer } from './controls/StoryPlayer'
-import type { Story } from './controls/StoryPlayer'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
@@ -137,9 +133,7 @@ const BASE_ATTRIBUTION =
 
 export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
-  const [activeStory, setActiveStory] = useState<Story | null>(null)
   const mapRef = useRef<LeafletMap | null>(null)
-  const atlasMode = useUIStore((s) => s.atlasMode)
 
   // Smart default: open with Conquest preset at 100 AD with brief autoplay
   const initRef = useRef(false)
@@ -218,12 +212,6 @@ export function MapView() {
     }
     return set
   }, [settlementTypes])
-
-  const handleStoryNavigate = useCallback((center: [number, number], zoom: number) => {
-    if (mapRef.current) {
-      mapRef.current.flyTo(center, zoom, { duration: 1.5 })
-    }
-  }, [])
 
   // Build attribution dynamically
   const dareActive =
@@ -323,7 +311,7 @@ export function MapView() {
           mapRef={mapRef}
         />
 
-        {showSettlements && !activeStory && (
+        {showSettlements && (
           <SettlementLegend hiddenCategories={hiddenCategories} onToggleCategory={toggleCategory} />
         )}
 
@@ -331,16 +319,6 @@ export function MapView() {
 
         <StatsOverlay />
         <LayerErrorToast />
-
-        {/* Story system — StorySelector hidden in atlas mode (TopBar has Atlas Tours) */}
-        {!activeStory && !atlasMode && <StorySelector onSelect={setActiveStory} />}
-        {activeStory && (
-          <StoryPlayer
-            story={activeStory}
-            onClose={() => setActiveStory(null)}
-            onNavigate={handleStoryNavigate}
-          />
-        )}
       </div>
 
       <TimelinePlayer />
