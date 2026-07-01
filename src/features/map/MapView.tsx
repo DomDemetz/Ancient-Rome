@@ -86,10 +86,18 @@ function MapNavHandler() {
   return null
 }
 
-/** Create a custom pane for territory/province polygons below the default overlayPane (z-index 400) */
+/** Create custom panes for base polygons below the default overlayPane (z-index 400) */
 function BasePane() {
   const map = useMap()
   useEffect(() => {
+    // Territory fills live in their own pane held at a fixed group opacity, so
+    // the opaque fills composite to translucency once — overlapping era
+    // snapshots (during a cross-fade) never darken or wash out.
+    if (!map.getPane('territoryFill')) {
+      const pane = map.createPane('territoryFill')
+      pane.style.zIndex = '240'
+      pane.style.opacity = '0.4'
+    }
     if (!map.getPane('basePolygons')) {
       const pane = map.createPane('basePolygons')
       pane.style.zIndex = '250'

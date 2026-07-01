@@ -23,9 +23,17 @@ function getStatusColor(status: string): string {
 }
 
 // Fade duration must match the CSS transition on `.territory-path`.
-const FADE_MS = 500
+const FADE_MS = 450
 
-type Phase = 'entering' | 'in' | 'out'
+// Phases of a snapshot polygon as it cross-fades. The fills are opaque (the
+// pane applies the group translucency), so keeping an opaque fill over the
+// shared core at all times keeps the colour perfectly constant:
+//   entering → in:      new border fades its fill in (gained land appears)
+//   in → holding:       outgoing border stays fully opaque while the new one
+//                       fades in, so the core is never uncovered
+//   holding → out:      once the new border is in, the old fades out (lost
+//                       land recedes); then it is removed
+type Phase = 'entering' | 'in' | 'holding' | 'out'
 
 interface Entry {
   key: string
@@ -37,13 +45,6 @@ function snapKey(snap: TerritorySnapshot): string {
   return `${snap.id}-${snap.year}`
 }
 
-/**
- * Renders the territory polygons for the current year and cross-fades between
- * eras: when a region's snapshot changes, the outgoing border fades out while
- * the incoming one fades in, so the empire visibly flows rather than blinking
- * out and back. Opacity is driven through the `style` prop (react-leaflet
- * applies it via setStyle) and animated by a CSS transition on the paths.
- */
 export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
 
@@ -58,16 +59,13 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
     return Array.from(latestByRegion.values())
   }, [snapshots, currentYear])
 
-  // Stable trigger — only changes when the *set* of visible snapshots changes,
-  // not on every year tick within a snapshot's range.
+  // Only changes when the *set* of visible snapshots changes.
   const activeKeys = active.map(snapKey).sort().join('|')
 
   const [entries, setEntries] = useState<Entry[]>([])
-  const removalTimers = useRef<Map<string, ReturnType<typeof setTimeout>>>(new Map())
+  const timers = useRef<Map<string, ReturnType<typeof setTimeout>>>(new Map())
 
-  // Reconcile mounted entries with the active set: add incoming as `entering`,
-  // mark departed as `out` (kept mounted so they can fade), revive any `out`
-  // entry that became active again (fast scrubbing back and forth).
+  // Reconcile mounted entries with the active set.
   useEffect(() => {
     setEntries((prev) => {
       const prevByKey = new Map(prev.map((e) => [e.key, e]))
@@ -78,25 +76,29 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
         const key = snapKey(snap)
         const existing = prevByKey.get(key)
         if (existing) {
-          next.push(existing.phase === 'out' ? { ...existing, phase: 'in' } : existing)
+          // Re-selected while fading away → snap it back to fully shown.
+          next.push(
+            existing.phase === 'out' || existing.phase === 'holding'
+              ? { ...existing, phase: 'in' }
+              : existing,
+          )
         } else {
           next.push({ key, snap, phase: 'entering' })
         }
       }
+      // Departed borders: hold them opaque first so the core stays covered
+      // while the incoming border fades in.
       for (const e of prev) {
         if (!activeKeySet.has(e.key)) {
-          next.push(e.phase === 'out' ? e : { ...e, phase: 'out' })
+          next.push(e.phase === 'out' || e.phase === 'holding' ? e : { ...e, phase: 'holding' })
         }
       }
       return next
     })
-    // Keyed on the set signature, not the `active` array identity, so this
-    // doesn't re-run on every year tick within a snapshot's range.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeKeys])
 
-  // Promote `entering` → `in` after two frames so the browser paints the
-  // transparent start state first and the opacity transition actually runs.
+  // Promote `entering` → `in` after two frames so the fill-in transition runs.
   useEffect(() => {
     if (!entries.some((e) => e.phase === 'entering')) return
     let raf2 = 0
@@ -111,32 +113,42 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
     }
   }, [entries])
 
-  // Remove `out` entries once their fade-out has finished; cancel the timer if
-  // an entry was revived back to `in`.
+  // Drive the timed part of the sequence: hold → out (after the incoming has
+  // faded in), then out → removed (after it has faded out).
   useEffect(() => {
-    const timers = removalTimers.current
+    const map = timers.current
     for (const e of entries) {
-      if (e.phase === 'out' && !timers.has(e.key)) {
+      if (e.phase === 'holding' && !map.has(e.key)) {
         const t = setTimeout(() => {
-          timers.delete(e.key)
+          map.delete(e.key)
+          setEntries((prev) => prev.map((x) => (x.key === e.key ? { ...x, phase: 'out' } : x)))
+          // +80ms margin: let the incoming fill finish before the old one
+          // starts fading, so the core is never briefly uncovered.
+        }, FADE_MS + 80)
+        map.set(e.key, t)
+      } else if (e.phase === 'out' && !map.has(e.key)) {
+        const t = setTimeout(() => {
+          map.delete(e.key)
           setEntries((prev) => prev.filter((x) => x.key !== e.key))
         }, FADE_MS + 60)
-        timers.set(e.key, t)
+        map.set(e.key, t)
       }
     }
-    for (const [key, t] of timers) {
-      if (!entries.some((e) => e.key === key && e.phase === 'out')) {
+    // Cancel timers for entries that were revived back to `in`.
+    for (const [key, t] of map) {
+      const e = entries.find((x) => x.key === key)
+      if (!e || (e.phase !== 'holding' && e.phase !== 'out')) {
         clearTimeout(t)
-        timers.delete(key)
+        map.delete(key)
       }
     }
   }, [entries])
 
   useEffect(() => {
-    const timers = removalTimers.current
+    const map = timers.current
     return () => {
-      for (const t of timers.values()) clearTimeout(t)
-      timers.clear()
+      for (const t of map.values()) clearTimeout(t)
+      map.clear()
     }
   }, [])
 
@@ -144,21 +156,22 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
     <>
       {entries.map(({ key, snap, phase }) => {
         if (!snap.boundaries) return null
-        const hidden = phase !== 'in'
-        const targetFill = snap.year >= -300 ? 0.35 : 0.5
+        const shown = phase === 'in' || phase === 'holding'
         return (
           <GeoJSON
             key={key}
             data={snap.boundaries}
             interactive={false}
-            pane="basePolygons"
+            pane="territoryFill"
             style={{
               color: '#fff',
               fillColor: getStatusColor(snap.status),
-              fillOpacity: hidden ? 0 : targetFill,
+              // Opaque fill — the pane supplies the translucency, so overlapping
+              // snapshots never darken or wash out.
+              fillOpacity: shown ? 1 : 0,
               weight: 1.5,
-              opacity: hidden ? 0 : 0.5,
-              pane: 'basePolygons',
+              opacity: shown ? 0.9 : 0,
+              pane: 'territoryFill',
               className: 'territory-path',
             }}
           />
