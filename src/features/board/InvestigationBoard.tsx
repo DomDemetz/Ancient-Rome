@@ -85,8 +85,11 @@ export function InvestigationBoard() {
           </ErrorBoundary>
         </div>
 
-        {/* Detail panel — shown when something is selected (desktop) */}
-        {!atlasMode && <DetailPanel />}
+        {/* Detail panel — shown when an entity is selected. Mounted in atlas
+            mode too, so clicking a city/entity marker (Rome, Ravenna, …) opens
+            its detail instead of silently selecting nothing. Self-hides when
+            nothing is selected. */}
+        <DetailPanel />
         <WikiDetailPanel />
       </div>
 
