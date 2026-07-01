@@ -368,6 +368,25 @@
   border: 1px solid rgba(251, 191, 36, 0.2);
 }
 
+/* Territory borders ease in when the era's snapshot changes, so the empire
+   grows and contracts smoothly during timeline playback rather than popping. */
+.territory-path {
+  animation: territory-fade-in 0.5s ease-out;
+}
+@keyframes territory-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .territory-path {
+    animation: none;
+  }
+}
+
 /* Province name labels on the map */
 .province-label {
   font-size: 12px;

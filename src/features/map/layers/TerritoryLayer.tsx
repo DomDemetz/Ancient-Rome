@@ -47,7 +47,11 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
 
         return (
           <GeoJSON
-            key={`${snap.id}-${snap.year}-${currentYear}`}
+            // Key on the snapshot only — NOT currentYear — so the polygon
+            // persists across year ticks and only remounts when the border
+            // actually changes. (With currentYear here it remounted every
+            // frame during playback: flicker + wasted work.)
+            key={`${snap.id}-${snap.year}`}
             data={snap.boundaries}
             interactive={false}
             pane="basePolygons"
@@ -58,6 +62,9 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
               weight: 1.5,
               opacity: 0.5,
               pane: 'basePolygons',
+              // Fade each new border in, so the empire breathes between eras
+              // instead of popping. Fires only when the snapshot changes.
+              className: 'territory-path',
             }}
           />
         )
