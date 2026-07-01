@@ -50,9 +50,14 @@ export function TimelinePlayer() {
   const lastTimeRef = useRef<number | null>(null)
   const yearRef = useRef(currentYear)
 
-  // Keep yearRef in sync so the RAF callback always has the latest year
+  // Keep yearRef in sync with EXTERNAL year changes (scrubbing, reset). During
+  // playback yearRef is a float accumulator that we floor for display; resyncing
+  // on our own integer setYear would throw away the fractional part and stall
+  // playback whenever the per-frame delta is < 1 year (low speed / high FPS).
   useEffect(() => {
-    yearRef.current = currentYear
+    if (Math.floor(yearRef.current) !== currentYear) {
+      yearRef.current = currentYear
+    }
   }, [currentYear])
 
   useEffect(() => {
@@ -72,16 +77,17 @@ export function TimelinePlayer() {
       const elapsed = (timestamp - lastTimeRef.current) / 1000 // seconds
       lastTimeRef.current = timestamp
 
-      const delta = elapsed * YEARS_PER_SECOND * speed
-      const nextYear = yearRef.current + delta
+      // Accumulate as a float so sub-1-year per-frame deltas aren't lost to
+      // Math.floor — otherwise playback stalls at low speeds / high frame rates.
+      yearRef.current += elapsed * YEARS_PER_SECOND * speed
 
-      if (nextYear >= MAX_YEAR) {
+      if (yearRef.current >= MAX_YEAR) {
         setYear(MAX_YEAR)
         pause()
         return
       }
 
-      setYear(Math.floor(nextYear))
+      setYear(Math.floor(yearRef.current))
       rafRef.current = requestAnimationFrame(tick)
     }
 
