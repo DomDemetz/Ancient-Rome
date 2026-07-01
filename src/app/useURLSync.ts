@@ -1,20 +1,37 @@
 import { useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 
+// Keep in sync with TimelinePlayer's domain.
+const MIN_YEAR = -753
+const MAX_YEAR = 476
+
 export function useURLSync() {
-  const [searchParams, setSearchParams] = useSearchParams()
+  const [, setSearchParams] = useSearchParams()
   const select = useSelectionStore((s) => s.select)
+  const setYear = useTimelineStore((s) => s.setYear)
   const switchLens = useUIStore((s) => s.switchLens)
   const atlasMode = useUIStore((s) => s.atlasMode)
 
   // Read URL on mount
   useEffect(() => {
-    const entityId = searchParams.get('entity')
+    const params = new URLSearchParams(window.location.search)
+
+    const yearParam = params.get('year')
+    if (yearParam) {
+      const y = Number(yearParam)
+      if (Number.isFinite(y)) {
+        setYear(Math.max(MIN_YEAR, Math.min(MAX_YEAR, Math.round(y))))
+      }
+    }
+
+    const entityId = params.get('entity')
     if (entityId) select(entityId)
+
     if (!atlasMode) {
-      const lens = searchParams.get('lens') as 'graph' | 'map' | 'timeline' | 'stats' | null
+      const lens = params.get('lens') as 'graph' | 'map' | 'timeline' | 'stats' | null
       if (lens) switchLens(lens)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
@@ -28,11 +45,13 @@ export function useURLSync() {
       rafId = requestAnimationFrame(() => {
         rafId = null
         const selectedId = useSelectionStore.getState().selectedId
+        const { currentYear } = useTimelineStore.getState()
         const { lens, atlasMode: isAtlas } = useUIStore.getState()
         setSearchParams(
           (prev) => {
             if (selectedId) prev.set('entity', selectedId)
             else prev.delete('entity')
+            prev.set('year', String(currentYear))
             if (!isAtlas) prev.set('lens', lens)
             else prev.delete('lens')
             return prev
@@ -42,7 +61,17 @@ export function useURLSync() {
       })
     }
 
-    const unsubs = [useSelectionStore.subscribe(scheduleSync), useUIStore.subscribe(scheduleSync)]
+    const unsubs = [
+      useSelectionStore.subscribe(scheduleSync),
+      useUIStore.subscribe(scheduleSync),
+      // Sync the year too, but not on every playback frame — only once the user
+      // has stopped (or just paused), so the URL stays a shareable snapshot
+      // without thrashing during autoplay.
+      useTimelineStore.subscribe((s, prevState) => {
+        if (s.playing) return
+        if (s.currentYear !== prevState.currentYear || prevState.playing) scheduleSync()
+      }),
+    ]
     return () => {
       unsubs.forEach((u) => u())
       if (rafId !== null) cancelAnimationFrame(rafId)

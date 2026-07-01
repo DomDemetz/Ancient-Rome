@@ -142,10 +142,12 @@ export function MapView() {
   useEffect(() => {
     if (initRef.current) return
     initRef.current = true
+    const params = new URLSearchParams(window.location.search)
     // Skip if story param in URL
-    if (new URLSearchParams(window.location.search).has('story')) return
+    if (params.has('story')) return
     activatePreset('conquest')
-    setYear(100)
+    // Don't clobber a shared/deep-linked year — useURLSync restores it.
+    if (!params.has('year')) setYear(100)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const {
