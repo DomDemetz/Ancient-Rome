@@ -33,7 +33,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'The Conquest',
     description: 'Watch Rome conquer the Mediterranean',
     timelineYear: -200,
-    layers: ['showBattles', 'showLegions', 'showLimes', 'showFortifications', 'showPresence'],
+    // Presence (the density grid) is intentionally left out — it clutters the
+    // first-open view. It stays available as a manual toggle in the panel.
+    layers: ['showBattles', 'showLegions', 'showLimes', 'showFortifications'],
   },
   economy: {
     label: 'The Economy',
