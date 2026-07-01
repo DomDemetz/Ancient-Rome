@@ -3,6 +3,7 @@ import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { esc } from '@/lib/wiki-popup'
+import { filterWithSignature } from '@/lib/feature-signature'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback, useRef } from 'react'
 import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
@@ -45,6 +46,11 @@ const SENATORIAL_STYLE: PathOptions = {
   dashArray: '3 3',
 }
 
+// Stable style references so react-leaflet doesn't re-apply setStyle every
+// render — which would otherwise clobber a clicked province's selected style.
+const provinceStyle = () => PROVINCE_STYLE
+const senatorialStyle = () => SENATORIAL_STYLE
+
 function createLabelIcon(name: string): L.DivIcon {
   return L.divIcon({
     className: 'province-label',
@@ -65,14 +71,14 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
   const currentYear = useTimelineStore((s) => s.currentYear)
   const selectedRef = useRef<L.Path | null>(null)
 
-  const filtered = useMemo(() => {
-    const features = data.features.filter((f) => {
+  const { filtered, sig } = useMemo(() => {
+    const { features, sig } = filterWithSignature(data.features, (f) => {
       const { startYear, endYear } = f.properties || {}
       if (startYear !== 0 && startYear > currentYear) return false
       if (endYear !== 0 && endYear < currentYear) return false
       return true
     })
-    return { ...data, features }
+    return { filtered: { ...data, features }, sig }
   }, [data, currentYear])
 
   // Show senatorial provinces only during the Principate (27 BC - 284 AD)
@@ -133,21 +139,22 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
   return (
     <>
       <GeoJSON
-        key={`provinces-${currentYear}`}
+        key={`provinces-${sig}`}
         data={filtered}
         pane="basePolygons"
         bubblingMouseEvents
-        style={() => PROVINCE_STYLE}
+        style={provinceStyle}
         onEachFeature={onEachProvince}
       />
-      {/* Senatorial province overlay (27 BC - 284 AD) */}
+      {/* Senatorial province overlay (27 BC - 284 AD) — data is not
+          year-filtered, so a static key avoids needless remounts. */}
       {showSenatorial && (
         <GeoJSON
-          key={`senatorial-${currentYear}`}
+          key="senatorial"
           data={senatorialProvinces}
           pane="basePolygons"
           bubblingMouseEvents
-          style={() => SENATORIAL_STYLE}
+          style={senatorialStyle}
           onEachFeature={onEachSenatorial}
         />
       )}

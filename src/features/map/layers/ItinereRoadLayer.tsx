@@ -6,6 +6,7 @@ import { esc } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback } from 'react'
 import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
+import { filterWithSignature } from '@/lib/feature-signature'
 
 interface ItinereRoadLayerProps {
   data: FeatureCollection
@@ -14,11 +15,11 @@ interface ItinereRoadLayerProps {
 export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
 
-  const filtered = useMemo(() => {
-    const features = data.features.filter((f) => {
-      return shouldShowRoad(f.properties || {}, currentYear)
-    })
-    return { ...data, features }
+  const { filtered, sig } = useMemo(() => {
+    const { features, sig } = filterWithSignature(data.features, (f) =>
+      shouldShowRoad(f.properties || {}, currentYear),
+    )
+    return { filtered: { ...data, features }, sig }
   }, [data, currentYear])
 
   const getStyle = useCallback(
@@ -66,7 +67,7 @@ export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
 
   return (
     <GeoJSON
-      key={`itinere-roads-${currentYear}`}
+      key={`itinere-roads-${sig}`}
       data={filtered}
       style={getStyle}
       onEachFeature={onEachRoad}

@@ -3,6 +3,7 @@ import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { esc } from '@/lib/wiki-popup'
+import { filterWithSignature } from '@/lib/feature-signature'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback } from 'react'
 
@@ -39,11 +40,11 @@ function getFortificationOpacity(props: Record<string, unknown>, currentYear: nu
 export function FortificationLayer({ data }: FortificationLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
 
-  const filtered = useMemo(() => {
-    const features = data.features.filter((f) =>
+  const { filtered, sig } = useMemo(() => {
+    const { features, sig } = filterWithSignature(data.features, (f) =>
       shouldShowFortification(f.properties || {}, currentYear),
     )
-    return { ...data, features }
+    return { filtered: { ...data, features }, sig }
   }, [data, currentYear])
 
   const getStyle = useCallback(
@@ -71,7 +72,7 @@ export function FortificationLayer({ data }: FortificationLayerProps) {
 
   return (
     <GeoJSON
-      key={`fortifications-${currentYear}`}
+      key={`fortifications-${sig}`}
       data={filtered}
       style={getStyle}
       onEachFeature={onEachFortification}

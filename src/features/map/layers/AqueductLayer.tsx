@@ -8,6 +8,7 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
+import { filterWithSignature } from '@/lib/feature-signature'
 import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface AqueductLayerProps {
@@ -34,9 +35,14 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
   const wikiLookup = useWikiEnrichment('aqueducts')
 
   // Filter AWMC aqueduct lines by temporal data
-  const filteredLines = useMemo(() => {
-    if (!lines) return { type: 'FeatureCollection' as const, features: [] }
-    const features = lines.features.filter((f) => {
+  const { filteredLines, linesSig } = useMemo(() => {
+    if (!lines) {
+      return {
+        filteredLines: { type: 'FeatureCollection' as const, features: [] },
+        linesSig: '0:0',
+      }
+    }
+    const { features, sig } = filterWithSignature(lines.features, (f) => {
       const props = f.properties || {}
       // Use constructionYear from name-matching if available
       const constructionYear = props.constructionYear as number | null
@@ -51,7 +57,7 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
       if (declineYear != null && currentYear > declineYear + 50) return false
       return true
     })
-    return { ...lines, features }
+    return { filteredLines: { ...lines, features }, linesSig: sig }
   }, [lines, currentYear])
 
   const getLineStyle = useCallback(
@@ -95,7 +101,7 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
       {/* Render AWMC aqueduct polylines when available — filtered by timeline */}
       {lines && zoom >= 6 && (
         <GeoJSON
-          key={`aqueduct-lines-${currentYear}`}
+          key={`aqueduct-lines-${linesSig}`}
           data={filteredLines}
           style={getLineStyle}
           onEachFeature={onEachAqueductLine}
