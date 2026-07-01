@@ -167,7 +167,7 @@
         "entityIds": ["hispalis"],
         "year": 50,
         "layers": ["showMines", "showRoads", "showTradeNetwork"],
-        "mapCenter": [39.5, -4.0],
+        "mapCenter": [40.0, -5.5],
         "mapZoom": 5
       },
       {
@@ -245,7 +245,7 @@
         "entityIds": ["rome", "constantinople", "mediolanum"],
         "year": 313,
         "layers": ["showReligion", "showEpigraphy", "showBuildings"],
-        "mapCenter": [41.0, 20.0],
+        "mapCenter": [41.9, 12.5],
         "mapZoom": 5
       },
       {
