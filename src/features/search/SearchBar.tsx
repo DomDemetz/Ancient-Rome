@@ -7,6 +7,7 @@ import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
+import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entityColors, entityLabels } from '@/lib/colors'
 import { Input } from '@/ui/input'
@@ -38,6 +39,7 @@ interface SearchItem {
   lat?: number
   lng?: number
   entityId?: string // for graph entities
+  year?: number // for time-filtered features (battle/shipwreck/legion) — jump the timeline so the marker is actually visible on arrival
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -64,6 +66,7 @@ export function SearchBar() {
   const select = useSelectionStore((s) => s.select)
   const setFilter = useFilterStore((s) => s.setFilter)
   const flyTo = useMapNavStore((s) => s.flyTo)
+  const setYear = useTimelineStore((s) => s.setYear)
   const switchLens = useUIStore((s) => s.switchLens)
   const isMobile = useUIStore((s) => s.isMobile)
 
@@ -151,6 +154,7 @@ export function SearchBar() {
           color: CATEGORY_COLORS.battle,
           lat: b.lat,
           lng: b.lng,
+          year: b.year,
         })
       }
     }
@@ -167,6 +171,9 @@ export function SearchBar() {
           color: CATEGORY_COLORS.legion,
           lat: base.lat,
           lng: base.lng,
+          // A base's fromYear is guaranteed inside the legion's active range,
+          // so the deployment marker will render at that year.
+          year: base.fromYear,
         })
       }
     }
@@ -195,6 +202,7 @@ export function SearchBar() {
           color: CATEGORY_COLORS.shipwreck,
           lat: w.lat,
           lng: w.lng,
+          year: w.startYear,
         })
       }
     }
@@ -353,6 +361,13 @@ export function SearchBar() {
         const toggle = state[layerInfo.toggle] as () => void
         toggle()
       }
+    }
+
+    // Time-filtered features (battles, legions, shipwrecks) only render near
+    // their own year. Jump the timeline so the marker is actually on screen
+    // when we arrive — otherwise the user lands on an empty spot.
+    if (item.year != null) {
+      setYear(item.year)
     }
 
     // If it has coordinates, switch to map and fly there
