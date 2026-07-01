@@ -1,6 +1,10 @@
-import { useState, useCallback } from 'react'
+import { useCallback, useRef } from 'react'
+import { useState } from 'react'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
+import { useMapLayerStore, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
 import type { Story, StoryStep } from '@/types'
 
 interface StoryModeState {
@@ -8,8 +12,16 @@ interface StoryModeState {
   stepIndex: number
 }
 
+// Snapshot of map/timeline state captured when a story begins, so exiting the
+// story returns the viewer to where they were.
+interface ViewSnapshot {
+  year: number
+  layers: string[]
+}
+
 export function useStoryMode() {
   const [state, setState] = useState<StoryModeState>({ activeStory: null, stepIndex: 0 })
+  const viewSnapshot = useRef<ViewSnapshot | null>(null)
 
   const saveSnapshot = useFilterStore((s) => s.saveSnapshot)
   const restoreSnapshot = useFilterStore((s) => s.restoreSnapshot)
@@ -23,44 +35,76 @@ export function useStoryMode() {
   const isLastStep =
     state.activeStory !== null && state.stepIndex === state.activeStory.steps.length - 1
 
+  // Apply a step's authored choreography: timeline year, map camera, active
+  // layers, and the highlighted entity. Reads/writes stores via getState so it
+  // stays a stable callback that doesn't re-render on every store change.
+  const applyStep = useCallback(
+    (step: StoryStep | undefined) => {
+      if (!step) return
+      if (typeof step.year === 'number') {
+        useTimelineStore.getState().setYear(step.year)
+      }
+      if (step.mapCenter) {
+        const [lat, lng] = step.mapCenter
+        useMapNavStore.getState().flyTo(lat, lng, step.mapZoom)
+      }
+      if (step.layers) {
+        useMapLayerStore.getState().setLayers(step.layers)
+      }
+      if (step.entityIds?.[0]) {
+        select(step.entityIds[0])
+      }
+    },
+    [select],
+  )
+
   const enter = useCallback(
     (story: Story) => {
       saveSnapshot()
-      const firstStep = story.steps[0]
-      setState({ activeStory: story, stepIndex: 0 })
-      if (firstStep?.entityIds?.[0]) {
-        select(firstStep.entityIds[0])
+      // Remember the pre-story timeline year and visible layers to restore on exit.
+      const layerState = useMapLayerStore.getState()
+      viewSnapshot.current = {
+        year: useTimelineStore.getState().currentYear,
+        layers: ALL_LAYER_KEYS.filter((k) => layerState[k]),
       }
+      setState({ activeStory: story, stepIndex: 0 })
+      applyStep(story.steps[0])
     },
-    [saveSnapshot, select],
+    [saveSnapshot, applyStep],
   )
 
   const exit = useCallback(() => {
     restoreSnapshot()
+    const snap = viewSnapshot.current
+    if (snap) {
+      useTimelineStore.getState().setYear(snap.year)
+      useMapLayerStore.getState().setLayers(snap.layers)
+      viewSnapshot.current = null
+    }
     setState({ activeStory: null, stepIndex: 0 })
   }, [restoreSnapshot])
 
   const nextStep = useCallback(() => {
-    let entityToSelect: string | undefined
+    let target: StoryStep | undefined
     setState((prev) => {
       if (!prev.activeStory) return prev
       const nextIndex = Math.min(prev.stepIndex + 1, prev.activeStory.steps.length - 1)
-      entityToSelect = prev.activeStory.steps[nextIndex]?.entityIds?.[0]
+      target = prev.activeStory.steps[nextIndex]
       return { ...prev, stepIndex: nextIndex }
     })
-    if (entityToSelect) select(entityToSelect)
-  }, [select])
+    applyStep(target)
+  }, [applyStep])
 
   const prevStep = useCallback(() => {
-    let entityToSelect: string | undefined
+    let target: StoryStep | undefined
     setState((prev) => {
       if (!prev.activeStory) return prev
       const prevIndex = Math.max(prev.stepIndex - 1, 0)
-      entityToSelect = prev.activeStory.steps[prevIndex]?.entityIds?.[0]
+      target = prev.activeStory.steps[prevIndex]
       return { ...prev, stepIndex: prevIndex }
     })
-    if (entityToSelect) select(entityToSelect)
-  }, [select])
+    applyStep(target)
+  }, [applyStep])
 
   return {
     activeStory: state.activeStory,

@@ -139,12 +139,14 @@ describe('useUIStore', () => {
     expect(useUIStore.getState().lens).toBe('map')
   })
 
-  it('switchLens() changes lens', () => {
-    useUIStore.getState().switchLens('map')
+  it('switchLens() is a no-op while atlasMode is on', () => {
+    // Atlas mode (the default) locks the app to the map view.
+    useUIStore.getState().switchLens('graph')
     expect(useUIStore.getState().lens).toBe('map')
   })
 
-  it('switchLens() accepts all valid lenses', () => {
+  it('switchLens() accepts all valid lenses when atlasMode is off', () => {
+    useUIStore.setState({ atlasMode: false })
     for (const lens of ['graph', 'map', 'timeline', 'stats'] as const) {
       useUIStore.getState().switchLens(lens)
       expect(useUIStore.getState().lens).toBe(lens)

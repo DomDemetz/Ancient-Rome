@@ -410,6 +410,7 @@ interface MapLayerActions {
   togglePorts: () => void
   toggleNotablePeople: () => void
   activatePreset: (preset: PresetName) => void
+  setLayers: (keys: string[]) => void
   dismissError: () => void
 }
 
@@ -488,6 +489,118 @@ function ensureLoaded(
       set({ [loadingKey]: false } as Partial<MapLayerState>)
     }
   }
+}
+
+// Compact loader registry: maps each showKey to an ensureLoaded call.
+// Shared by activatePreset (preset activation) and setLayers (story steps).
+const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<void>> = {
+  showRoads: ensureLoaded('roadsData', 'roadsLoading', async () => {
+    const { loadRoads } = await import('@/data/dare')
+    return { roadsData: await loadRoads() }
+  }),
+  showSettlements: ensureLoaded('settlementsData', 'settlementsLoading', async () => {
+    const { loadSettlements, loadCityPopulations } = await import('@/data/dare')
+    const [data, pops] = await Promise.all([
+      loadSettlements(),
+      loadCityPopulations().catch(() => []),
+    ])
+    return { settlementsData: data, cityPopulationsData: pops }
+  }),
+  showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
+    const { loadLimes } = await import('@/data/dare')
+    return { limesData: await loadLimes() }
+  }),
+  showPresence: ensureLoaded('presenceData', 'presenceLoading', async () => {
+    const { loadPresenceGrid } = await import('@/data/dare')
+    return { presenceData: await loadPresenceGrid() }
+  }),
+  showProvinces: ensureLoaded('provincesData', 'provincesLoading', async () => {
+    const { loadProvinces, loadProvinceLabels, loadProvinceChanges } = await import('@/data/dare')
+    const [d, l, c, senatorial] = await Promise.all([
+      loadProvinces(),
+      loadProvinceLabels(),
+      loadProvinceChanges().catch(() => []),
+      import('@/data/dare/senatorial-provinces.json')
+        .then((m) => m.default as FeatureCollection)
+        .catch(() => null),
+    ])
+    return {
+      provincesData: d,
+      provinceLabels: l,
+      provinceChanges: c,
+      senatorialProvincesData: senatorial,
+    }
+  }),
+  showFortifications: ensureLoaded('fortificationsData', 'fortificationsLoading', async () => {
+    const { loadFortifications } = await import('@/data/dare')
+    return { fortificationsData: await loadFortifications() }
+  }),
+  showWater: ensureLoaded('waterData', 'waterLoading', async () => {
+    const { loadWater } = await import('@/data/dare')
+    return { waterData: await loadWater() }
+  }),
+  showItinereRoads: ensureLoaded('itinereRoadsData', 'itinereRoadsLoading', async () => {
+    const { loadItinereRoads } = await import('@/data/itinere')
+    return { itinereRoadsData: await loadItinereRoads() }
+  }),
+  showBattles: ensureLoaded('battlesData', 'battlesLoading', async () => {
+    const { loadBattles } = await import('@/data/battles')
+    return { battlesData: await loadBattles() }
+  }),
+  showAmphitheaters: ensureLoaded('amphitheatersData', 'amphitheatersLoading', async () => {
+    const { loadAmphitheaters } = await import('@/data/amphitheaters')
+    return { amphitheatersData: await loadAmphitheaters() }
+  }),
+  showEmperors: ensureLoaded('emperorsData', 'emperorsLoading', async () => {
+    const { loadEmperors } = await import('@/data/emperors')
+    return { emperorsData: await loadEmperors() }
+  }),
+  showLegions: ensureLoaded('legionsData', 'legionsLoading', async () => {
+    const { loadLegions } = await import('@/data/legions')
+    return { legionsData: await loadLegions() }
+  }),
+  showShipwrecks: ensureLoaded('shipwrecksData', 'shipwrecksLoading', async () => {
+    const { loadShipwrecks } = await import('@/data/shipwrecks')
+    return { shipwrecksData: await loadShipwrecks() }
+  }),
+  showMines: ensureLoaded('minesData', 'minesLoading', async () => {
+    const { loadMines } = await import('@/data/mines')
+    return { minesData: await loadMines() }
+  }),
+  showAqueducts: ensureLoaded('aqueductsData', 'aqueductsLoading', async () => {
+    const { loadAqueducts } = await import('@/data/aqueducts')
+    const [data, lines] = await Promise.all([
+      loadAqueducts(),
+      import('@/data/awmc-aqueducts-temporal.json')
+        .then((m) => m.default as FeatureCollection)
+        .catch(() => null),
+    ])
+    return { aqueductsData: data, aqueductLinesData: lines }
+  }),
+  showReligion: ensureLoaded('religionData', 'religionLoading', async () => {
+    const { loadReligion } = await import('@/data/religion')
+    return { religionData: await loadReligion() }
+  }),
+  showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
+    const { loadBuildings } = await import('@/data/buildings')
+    return { buildingsData: await loadBuildings() }
+  }),
+  showPresses: ensureLoaded('pressesData', 'pressesLoading', async () => {
+    const { loadPresses } = await import('@/data/presses')
+    return { pressesData: await loadPresses() }
+  }),
+  showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
+    const { loadTradeNetwork } = await import('@/data/trade')
+    return { tradeNetworkData: await loadTradeNetwork() }
+  }),
+  showEpigraphy: ensureLoaded('epigraphyData', 'epigraphyLoading', async () => {
+    const { loadEpigraphy } = await import('@/data/epigraphy')
+    return { epigraphyData: await loadEpigraphy() }
+  }),
+  showNotablePeople: ensureLoaded('notablePeopleData', 'notablePeopleLoading', async () => {
+    const { loadNotablePeople } = await import('@/data/people-layer')
+    return { notablePeopleData: await loadNotablePeople() }
+  }),
 }
 
 export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, get) => ({
@@ -771,123 +884,28 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     }
     set(update as Partial<MapLayerState>)
 
-    // Compact loader registry: maps showKey to an ensureLoaded call
-    const loaders: Record<string, (set: StoreSet, get: StoreGet) => Promise<void>> = {
-      showRoads: ensureLoaded('roadsData', 'roadsLoading', async () => {
-        const { loadRoads } = await import('@/data/dare')
-        return { roadsData: await loadRoads() }
-      }),
-      showSettlements: ensureLoaded('settlementsData', 'settlementsLoading', async () => {
-        const { loadSettlements, loadCityPopulations } = await import('@/data/dare')
-        const [data, pops] = await Promise.all([
-          loadSettlements(),
-          loadCityPopulations().catch(() => []),
-        ])
-        return { settlementsData: data, cityPopulationsData: pops }
-      }),
-      showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
-        const { loadLimes } = await import('@/data/dare')
-        return { limesData: await loadLimes() }
-      }),
-      showPresence: ensureLoaded('presenceData', 'presenceLoading', async () => {
-        const { loadPresenceGrid } = await import('@/data/dare')
-        return { presenceData: await loadPresenceGrid() }
-      }),
-      showProvinces: ensureLoaded('provincesData', 'provincesLoading', async () => {
-        const { loadProvinces, loadProvinceLabels, loadProvinceChanges } =
-          await import('@/data/dare')
-        const [d, l, c, senatorial] = await Promise.all([
-          loadProvinces(),
-          loadProvinceLabels(),
-          loadProvinceChanges().catch(() => []),
-          import('@/data/dare/senatorial-provinces.json')
-            .then((m) => m.default as FeatureCollection)
-            .catch(() => null),
-        ])
-        return {
-          provincesData: d,
-          provinceLabels: l,
-          provinceChanges: c,
-          senatorialProvincesData: senatorial,
-        }
-      }),
-      showFortifications: ensureLoaded('fortificationsData', 'fortificationsLoading', async () => {
-        const { loadFortifications } = await import('@/data/dare')
-        return { fortificationsData: await loadFortifications() }
-      }),
-      showWater: ensureLoaded('waterData', 'waterLoading', async () => {
-        const { loadWater } = await import('@/data/dare')
-        return { waterData: await loadWater() }
-      }),
-      showItinereRoads: ensureLoaded('itinereRoadsData', 'itinereRoadsLoading', async () => {
-        const { loadItinereRoads } = await import('@/data/itinere')
-        return { itinereRoadsData: await loadItinereRoads() }
-      }),
-      showBattles: ensureLoaded('battlesData', 'battlesLoading', async () => {
-        const { loadBattles } = await import('@/data/battles')
-        return { battlesData: await loadBattles() }
-      }),
-      showAmphitheaters: ensureLoaded('amphitheatersData', 'amphitheatersLoading', async () => {
-        const { loadAmphitheaters } = await import('@/data/amphitheaters')
-        return { amphitheatersData: await loadAmphitheaters() }
-      }),
-      showEmperors: ensureLoaded('emperorsData', 'emperorsLoading', async () => {
-        const { loadEmperors } = await import('@/data/emperors')
-        return { emperorsData: await loadEmperors() }
-      }),
-      showLegions: ensureLoaded('legionsData', 'legionsLoading', async () => {
-        const { loadLegions } = await import('@/data/legions')
-        return { legionsData: await loadLegions() }
-      }),
-      showShipwrecks: ensureLoaded('shipwrecksData', 'shipwrecksLoading', async () => {
-        const { loadShipwrecks } = await import('@/data/shipwrecks')
-        return { shipwrecksData: await loadShipwrecks() }
-      }),
-      showMines: ensureLoaded('minesData', 'minesLoading', async () => {
-        const { loadMines } = await import('@/data/mines')
-        return { minesData: await loadMines() }
-      }),
-      showAqueducts: ensureLoaded('aqueductsData', 'aqueductsLoading', async () => {
-        const { loadAqueducts } = await import('@/data/aqueducts')
-        const [data, lines] = await Promise.all([
-          loadAqueducts(),
-          import('@/data/awmc-aqueducts-temporal.json')
-            .then((m) => m.default as FeatureCollection)
-            .catch(() => null),
-        ])
-        return { aqueductsData: data, aqueductLinesData: lines }
-      }),
-      showReligion: ensureLoaded('religionData', 'religionLoading', async () => {
-        const { loadReligion } = await import('@/data/religion')
-        return { religionData: await loadReligion() }
-      }),
-      showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
-        const { loadBuildings } = await import('@/data/buildings')
-        return { buildingsData: await loadBuildings() }
-      }),
-      showPresses: ensureLoaded('pressesData', 'pressesLoading', async () => {
-        const { loadPresses } = await import('@/data/presses')
-        return { pressesData: await loadPresses() }
-      }),
-      showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
-        const { loadTradeNetwork } = await import('@/data/trade')
-        return { tradeNetworkData: await loadTradeNetwork() }
-      }),
-      showEpigraphy: ensureLoaded('epigraphyData', 'epigraphyLoading', async () => {
-        const { loadEpigraphy } = await import('@/data/epigraphy')
-        return { epigraphyData: await loadEpigraphy() }
-      }),
-      showNotablePeople: ensureLoaded('notablePeopleData', 'notablePeopleLoading', async () => {
-        const { loadNotablePeople } = await import('@/data/people-layer')
-        return { notablePeopleData: await loadNotablePeople() }
-      }),
-    }
-
     const promises: Promise<void>[] = []
     for (const layerKey of def.layers) {
-      const load = loaders[layerKey]
+      const load = LAYER_LOADERS[layerKey]
       if (load) promises.push(load(set, get))
     }
     Promise.all(promises).catch((err) => console.error('Failed to load preset layers:', err))
+  },
+
+  setLayers: (keys: string[]) => {
+    // Set the exact visible layer set (used by story steps). Any keys not in
+    // ALL_LAYER_KEYS (e.g. the always-on 'showTerritories') are simply ignored.
+    const update: Record<string, unknown> = { activePreset: 'custom' }
+    for (const key of ALL_LAYER_KEYS) {
+      update[key] = keys.includes(key)
+    }
+    set(update as Partial<MapLayerState>)
+
+    const promises: Promise<void>[] = []
+    for (const layerKey of keys) {
+      const load = LAYER_LOADERS[layerKey]
+      if (load) promises.push(load(set, get))
+    }
+    Promise.all(promises).catch((err) => console.error('Failed to load story layers:', err))
   },
 }))
