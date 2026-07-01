@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useShallow } from 'zustand/shallow'
 import {
   Layers,
@@ -236,9 +236,31 @@ function LayerPanelContent({
 }
 
 export function MapControls({ showTerritories, onToggleTerritories, mapRef }: MapControlsProps) {
-  const [panelOpen, setPanelOpen] = useState(false)
+  // First-time discoverability: open the layers panel once so new visitors
+  // immediately see the presets and 20+ toggleable layers. Desktop only (a
+  // full-screen drawer would be intrusive on mobile). Decided synchronously so
+  // the panel is open on first paint; the "seen" flag is persisted in an effect.
+  const [panelOpen, setPanelOpen] = useState(() => {
+    try {
+      return !localStorage.getItem('layersPanelSeen') && window.innerWidth >= 768
+    } catch {
+      return false
+    }
+  })
   const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
   const isMobile = useUIStore((s) => s.isMobile)
+
+  useEffect(() => {
+    if (panelOpen) {
+      try {
+        localStorage.setItem('layersPanelSeen', '1')
+      } catch {
+        /* localStorage unavailable (private mode) — skip */
+      }
+    }
+    // Persist once on mount based on the initial decision.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const {
     showRoads,
