@@ -368,22 +368,18 @@
   border: 1px solid rgba(251, 191, 36, 0.2);
 }
 
-/* Territory borders ease in when the era's snapshot changes, so the empire
-   grows and contracts smoothly during timeline playback rather than popping. */
+/* Territory borders cross-fade when the era's snapshot changes: the outgoing
+   shape fades out while the incoming one fades in, so the empire flows between
+   eras instead of blinking out and back. Opacity is set via the style prop
+   (react-leaflet setStyle); this transition animates it. */
 .territory-path {
-  animation: territory-fade-in 0.5s ease-out;
-}
-@keyframes territory-fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  transition:
+    fill-opacity 0.5s ease,
+    stroke-opacity 0.5s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .territory-path {
-    animation: none;
+    transition: none;
   }
 }
 
