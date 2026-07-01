@@ -154,7 +154,9 @@ export function MapView() {
     const params = new URLSearchParams(window.location.search)
     // Skip if story param in URL
     if (params.has('story')) return
-    activatePreset('conquest')
+    // Open on the Economy preset: roads, streets and trade routes across the
+    // full network make the strongest first impression.
+    activatePreset('economy')
     // Don't clobber a shared/deep-linked year — useURLSync restores it.
     if (!params.has('year')) setYear(100)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
