@@ -8,6 +8,10 @@ interface UIState {
   detailPanelOpen: boolean
   sidebarOpen: boolean
   isMobile: boolean
+  // Id of the active guided tour, or null. Mirrored here (not just in
+  // useStoryMode's local state) so useURLSync can own the ?story param in its
+  // single write path rather than a competing writer racing it.
+  activeStoryId: string | null
 }
 
 interface UIActions {
@@ -15,6 +19,7 @@ interface UIActions {
   toggleDetail: (open?: boolean) => void
   toggleSidebar: (open?: boolean) => void
   setMobile: (isMobile: boolean) => void
+  setActiveStoryId: (id: string | null) => void
 }
 
 const initialState: UIState = {
@@ -23,6 +28,7 @@ const initialState: UIState = {
   detailPanelOpen: false,
   sidebarOpen: true,
   isMobile: false,
+  activeStoryId: null,
 }
 
 export const useUIStore = create<UIState & UIActions>((set, get) => ({
@@ -44,6 +50,8 @@ export const useUIStore = create<UIState & UIActions>((set, get) => ({
     })),
 
   setMobile: (isMobile) => set({ isMobile }),
+
+  setActiveStoryId: (id) => set({ activeStoryId: id }),
 }))
 
 export function getInitialUIState(): UIState {

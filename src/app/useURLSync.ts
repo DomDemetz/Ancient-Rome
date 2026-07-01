@@ -46,12 +46,14 @@ export function useURLSync() {
         rafId = null
         const selectedId = useSelectionStore.getState().selectedId
         const { currentYear } = useTimelineStore.getState()
-        const { lens, atlasMode: isAtlas } = useUIStore.getState()
+        const { lens, atlasMode: isAtlas, activeStoryId } = useUIStore.getState()
         setSearchParams(
           (prev) => {
             if (selectedId) prev.set('entity', selectedId)
             else prev.delete('entity')
             prev.set('year', String(currentYear))
+            if (activeStoryId) prev.set('story', activeStoryId)
+            else prev.delete('story')
             if (!isAtlas) prev.set('lens', lens)
             else prev.delete('lens')
             return prev

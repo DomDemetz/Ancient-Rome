@@ -5,6 +5,7 @@ import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
 import { useMapLayerStore, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
+import { useUIStore } from '@/stores/useUIStore'
 import type { Story, StoryStep } from '@/types'
 
 interface StoryModeState {
@@ -68,6 +69,9 @@ export function useStoryMode() {
         layers: ALL_LAYER_KEYS.filter((k) => layerState[k]),
       }
       setState({ activeStory: story, stepIndex: 0 })
+      // Mirror into the UI store so useURLSync writes ?story from its single
+      // URL-write path — reflecting the tour so it can be copied and reloaded.
+      useUIStore.getState().setActiveStoryId(story.id)
       applyStep(story.steps[0])
     },
     [saveSnapshot, applyStep],
@@ -82,6 +86,7 @@ export function useStoryMode() {
       viewSnapshot.current = null
     }
     setState({ activeStory: null, stepIndex: 0 })
+    useUIStore.getState().setActiveStoryId(null)
   }, [restoreSnapshot])
 
   const nextStep = useCallback(() => {
