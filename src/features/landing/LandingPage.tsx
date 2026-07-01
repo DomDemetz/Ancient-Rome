@@ -156,6 +156,45 @@ export function LandingPage() {
       <footer className="pb-12 flex flex-col items-center gap-3">
         <div className="w-8 h-px bg-amber-700/30" />
         <p className="text-[9px] uppercase tracking-[0.4em] text-slate-700">SPQR</p>
+        <p className="max-w-lg px-6 text-center text-[10px] leading-relaxed text-slate-600">
+          Built on open data from{' '}
+          <a
+            href="https://pleiades.stoa.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 underline decoration-slate-700 underline-offset-2 hover:text-amber-500"
+          >
+            Pleiades
+          </a>
+          , the Ancient World Mapping Center, ORBIS,{' '}
+          <a
+            href="https://vici.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 underline decoration-slate-700 underline-offset-2 hover:text-amber-500"
+          >
+            Vici.org
+          </a>{' '}
+          and Wikidata —{' '}
+          <a
+            href="https://github.com/DomDemetz/Ancient-Rome/blob/master/DATA-SOURCES.md"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 underline decoration-slate-700 underline-offset-2 hover:text-amber-500"
+          >
+            full credits
+          </a>
+          .{' '}
+          <a
+            href="https://github.com/DomDemetz/Ancient-Rome"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 underline decoration-slate-700 underline-offset-2 hover:text-amber-500"
+          >
+            Open source on GitHub
+          </a>
+          .
+        </p>
       </footer>
     </div>
   )

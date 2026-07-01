@@ -137,7 +137,8 @@ const DEFAULT_ZOOM = 5
 const STADIA_KEY = import.meta.env.VITE_STADIA_API_KEY || ''
 const TERRAIN_TILE_URL = `https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png${STADIA_KEY ? `?api_key=${STADIA_KEY}` : ''}`
 const BASE_ATTRIBUTION =
-  'Map tiles by <a href="https://stamen.com">Stamen Design</a>, hosted by <a href="https://stadiamaps.com">Stadia Maps</a>, under <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>'
+  'Map tiles by <a href="https://stamen.com">Stamen Design</a>, hosted by <a href="https://stadiamaps.com">Stadia Maps</a>, under <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>' +
+  ' | Places: <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY), <a href="https://github.com/AWMC/geodata">AWMC</a> (ODbL), <a href="https://vici.org">Vici.org</a> (CC BY-SA), <a href="https://www.wikidata.org">Wikidata</a> (CC0)'
 
 export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
