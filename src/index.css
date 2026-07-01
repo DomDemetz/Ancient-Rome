@@ -275,32 +275,37 @@
   margin-top: 2px;
 }
 
-/* Map popup styling */
+/* Map popup styling — dark, to match the atlas theme and the hover cards */
 .leaflet-popup-content-wrapper {
   border-radius: 6px !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
   min-width: 140px !important;
   max-width: 260px !important;
+  background: rgba(15, 10, 26, 0.95) !important;
+  color: #e8e8f0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+}
+.leaflet-popup-tip {
+  background: rgba(15, 10, 26, 0.95) !important;
+  box-shadow: none !important;
 }
 .leaflet-popup-content {
   margin: 6px 10px !important;
 }
-.leaflet-popup-content .map-tooltip-title {
-  color: #1a1a2e;
+.leaflet-popup-close-button {
+  color: #9090a0 !important;
 }
-.leaflet-popup-content .map-tooltip-sub {
-  color: #555;
-}
-.leaflet-popup-content .map-tooltip-detail {
-  color: #777;
+.leaflet-popup-close-button:hover {
+  color: #e8e8f0 !important;
 }
 
 /* Wiki enrichment in popups */
 .map-tooltip-wiki {
   margin-top: 6px;
   padding-top: 6px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   overflow: hidden;
 }
 .map-tooltip-thumb {
@@ -313,7 +318,7 @@
 }
 .map-tooltip-extract {
   font-size: 10px;
-  color: #666;
+  color: #b4b4c4;
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -324,7 +329,7 @@
   display: inline-block;
   margin-top: 4px;
   font-size: 9px;
-  color: #b45309;
+  color: #fbbf24;
   background: none;
   border: none;
   padding: 0;
@@ -333,12 +338,12 @@
   font-family: inherit;
 }
 .map-tooltip-readmore:hover {
-  color: #d97706;
+  color: #fcd34d;
 }
 .map-tooltip-fact {
   font-size: 10px;
   font-weight: 600;
-  color: #b45309;
+  color: #fbbf24;
   margin-top: 3px;
 }
 .map-tooltip-badge {
