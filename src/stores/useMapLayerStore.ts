@@ -101,7 +101,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'Byzantium',
     description: 'The Eastern Empire endures — 476 to the fall of Constantinople, 1453',
     timelineYear: 600,
-    layers: ['showBattles', 'showEmperors'],
+    // Cities + the enduring road/trade network keep the medieval map alive
+    // (settlements hand off to the Chandler cities past ~800).
+    layers: ['showSettlements', 'showRoads', 'showTradeNetwork', 'showBattles', 'showEmperors'],
   },
 }
 
