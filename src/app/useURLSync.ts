@@ -6,7 +6,7 @@ import { useUIStore } from '@/stores/useUIStore'
 
 // Keep in sync with TimelinePlayer's domain.
 const MIN_YEAR = -753
-const MAX_YEAR = 476
+const MAX_YEAR = 1453
 
 export function useURLSync() {
   const [, setSearchParams] = useSearchParams()

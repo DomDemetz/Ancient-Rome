@@ -148,6 +148,10 @@ export function MapView() {
   const initRef = useRef(false)
   const { activatePreset } = useMapLayerStore()
   const { setYear } = useTimelineStore()
+  // Post-476 (Byzantine era) we only have territory data, not the classical
+  // point/road layers — so show territory alone there. A boolean selector
+  // re-renders only when crossing 476, not on every playback tick.
+  const classicalEra = useTimelineStore((s) => s.currentYear <= 476)
   useEffect(() => {
     if (initRef.current) return
     initRef.current = true
@@ -266,56 +270,67 @@ export function MapView() {
 
           {/* Render order: base layers -> overlays -> point layers */}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
-          {showProvinces && provincesData && (
-            <ProvinceLayer
-              data={provincesData}
-              labels={provinceLabels ?? undefined}
-              changes={provinceChanges ?? undefined}
-              senatorialProvinces={senatorialProvincesData}
-            />
-          )}
-          {showWater && waterData && <WaterLayer data={waterData} />}
-          {showPresence && presenceData && <PresenceLayer data={presenceData} />}
 
-          {showRoads && roadsData && <RoadLayer data={roadsData} />}
-          {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
-          {showLimes && limesData && <LimesLayer data={limesData} />}
-          {showFortifications && fortificationsData && (
-            <FortificationLayer data={fortificationsData} />
-          )}
+          {/* Classical-era layers (points, roads, provinces) — hidden past 476,
+              where only the Byzantine territory continues. */}
+          {classicalEra && (
+            <>
+              {showProvinces && provincesData && (
+                <ProvinceLayer
+                  data={provincesData}
+                  labels={provinceLabels ?? undefined}
+                  changes={provinceChanges ?? undefined}
+                  senatorialProvinces={senatorialProvincesData}
+                />
+              )}
+              {showWater && waterData && <WaterLayer data={waterData} />}
+              {showPresence && presenceData && <PresenceLayer data={presenceData} />}
 
-          {showAqueducts && aqueductsData && (
-            <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
-          )}
-          {showMines && minesData && <ResourcesLayer data={minesData} />}
-          {showPresses && pressesData && <PressesLayer data={pressesData} />}
-          {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
-          {showTradeNetwork && tradeNetworkData && <TradeNetworkLayer data={tradeNetworkData} />}
-          {showShipwrecks && shipwrecksData && <ShipwreckLayer data={shipwrecksData} />}
-          {showReligion && religionData && <ReligionLayer data={religionData} />}
-          {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}
-          {showPorts && portsData && (
-            <PortsLayer data={portsData as Parameters<typeof PortsLayer>[0]['data']} />
-          )}
-          {showVici && viciData && (
-            <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
-          )}
-          {showAmphitheaters && amphitheatersData && <AmphitheaterLayer data={amphitheatersData} />}
-          {showSettlements && settlementsData && (
-            <SettlementLayer
-              data={settlementsData}
-              enabledTypes={enabledTypes}
-              hiddenCategories={hiddenCategories}
-              populationData={cityPopulationsData}
-            />
-          )}
-          {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
-          {showBattles && battlesData && <BattleLayer data={battlesData} />}
-          {showNotablePeople && notablePeopleData && (
-            <NotablePeopleLayer data={notablePeopleData} />
-          )}
+              {showRoads && roadsData && <RoadLayer data={roadsData} />}
+              {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
+              {showLimes && limesData && <LimesLayer data={limesData} />}
+              {showFortifications && fortificationsData && (
+                <FortificationLayer data={fortificationsData} />
+              )}
 
-          <EntityMarkers />
+              {showAqueducts && aqueductsData && (
+                <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
+              )}
+              {showMines && minesData && <ResourcesLayer data={minesData} />}
+              {showPresses && pressesData && <PressesLayer data={pressesData} />}
+              {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
+              {showTradeNetwork && tradeNetworkData && (
+                <TradeNetworkLayer data={tradeNetworkData} />
+              )}
+              {showShipwrecks && shipwrecksData && <ShipwreckLayer data={shipwrecksData} />}
+              {showReligion && religionData && <ReligionLayer data={religionData} />}
+              {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}
+              {showPorts && portsData && (
+                <PortsLayer data={portsData as Parameters<typeof PortsLayer>[0]['data']} />
+              )}
+              {showVici && viciData && (
+                <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
+              )}
+              {showAmphitheaters && amphitheatersData && (
+                <AmphitheaterLayer data={amphitheatersData} />
+              )}
+              {showSettlements && settlementsData && (
+                <SettlementLayer
+                  data={settlementsData}
+                  enabledTypes={enabledTypes}
+                  hiddenCategories={hiddenCategories}
+                  populationData={cityPopulationsData}
+                />
+              )}
+              {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
+              {showBattles && battlesData && <BattleLayer data={battlesData} />}
+              {showNotablePeople && notablePeopleData && (
+                <NotablePeopleLayer data={notablePeopleData} />
+              )}
+
+              <EntityMarkers />
+            </>
+          )}
         </MapContainer>
 
         <MapControls

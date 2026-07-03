@@ -56,7 +56,12 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
       const existing = latestByRegion.get(snap.id)
       if (!existing || snap.year > existing.year) latestByRegion.set(snap.id, snap)
     }
-    return Array.from(latestByRegion.values())
+    // A region whose latest state is a "fall" (status 'lost') plays the recede,
+    // then disappears — so the fallen Western Empire doesn't linger on the map
+    // through the Byzantine centuries after 476.
+    return Array.from(latestByRegion.values()).filter(
+      (snap) => !(snap.status === 'lost' && currentYear > snap.year + 30),
+    )
   }, [snapshots, currentYear])
 
   // Only changes when the *set* of visible snapshots changes.

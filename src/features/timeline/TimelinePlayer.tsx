@@ -5,19 +5,18 @@ import { useUIStore } from '@/stores/useUIStore'
 import { formatYear } from '@/lib/geo'
 
 const MIN_YEAR = -753
-const MAX_YEAR = 476
+const MAX_YEAR = 1453
 const YEARS_PER_SECOND = 50
 const SPEEDS = [0.5, 1, 2, 4]
 
 const TICK_MARKS = [
   { year: -753, label: 'Founding' },
-  { year: -509, label: 'Republic' },
   { year: -264, label: 'Punic Wars' },
   { year: -27, label: 'Empire' },
   { year: 117, label: 'Peak' },
-  { year: 284, label: 'Tetrarchy' },
-  { year: 395, label: 'Split' },
-  { year: 476, label: 'Fall' },
+  { year: 476, label: 'West Falls' },
+  { year: 1000, label: 'Byzantium' },
+  { year: 1453, label: 'Constantinople' },
 ]
 
 const ERAS = [
@@ -27,6 +26,9 @@ const ERAS = [
   { label: 'High Empire', start: 117, end: 235 },
   { label: 'Crisis', start: 235, end: 284 },
   { label: 'Late Empire', start: 284, end: 476 },
+  { label: 'Early Byzantine', start: 476, end: 800 },
+  { label: 'Middle Byzantine', start: 800, end: 1204 },
+  { label: 'Late Byzantine', start: 1204, end: 1453 },
 ]
 
 const TOTAL_YEARS = MAX_YEAR - MIN_YEAR // 1229
