@@ -274,8 +274,32 @@ export function MapView() {
           {/* Render order: base layers -> overlays -> point layers */}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
 
-          {/* Detailed point/road layers — shown through the data horizon (~800),
-              then hidden, where only territory, emperors and battles continue. */}
+          {/* Base layers — every record is date-bounded and self-filters (start/
+              end or attested/decline years), so they render across the WHOLE
+              timeline, each only within its own years. This is the "places &
+              networks over time" base; territory is the empire overlay on top.
+              Nothing dateless can appear, so none of it pops up at the wrong era. */}
+          {showRoads && roadsData && <RoadLayer data={roadsData} />}
+          {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
+          {showTradeNetwork && tradeNetworkData && <TradeNetworkLayer data={tradeNetworkData} />}
+          {showShipwrecks && shipwrecksData && <ShipwreckLayer data={shipwrecksData} />}
+          {showPorts && portsData && (
+            <PortsLayer data={portsData as Parameters<typeof PortsLayer>[0]['data']} />
+          )}
+          {showVici && viciData && (
+            <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
+          )}
+          {showSettlements && settlementsData && (
+            <SettlementLayer
+              data={settlementsData}
+              enabledTypes={enabledTypes}
+              hiddenCategories={hiddenCategories}
+              populationData={cityPopulationsData}
+            />
+          )}
+
+          {/* Roman-scoped layers — institutions & enrichment with no post-antiquity
+              data. Gated at the detail horizon; nothing here reaches the Middle Ages. */}
           {detailEra && (
             <>
               {showProvinces && provincesData && (
@@ -288,42 +312,20 @@ export function MapView() {
               )}
               {showWater && waterData && <WaterLayer data={waterData} />}
               {showPresence && presenceData && <PresenceLayer data={presenceData} />}
-
-              {showRoads && roadsData && <RoadLayer data={roadsData} />}
-              {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
               {showLimes && limesData && <LimesLayer data={limesData} />}
               {showFortifications && fortificationsData && (
                 <FortificationLayer data={fortificationsData} />
               )}
-
               {showAqueducts && aqueductsData && (
                 <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
               )}
               {showMines && minesData && <ResourcesLayer data={minesData} />}
               {showPresses && pressesData && <PressesLayer data={pressesData} />}
               {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
-              {showTradeNetwork && tradeNetworkData && (
-                <TradeNetworkLayer data={tradeNetworkData} />
-              )}
-              {showShipwrecks && shipwrecksData && <ShipwreckLayer data={shipwrecksData} />}
               {showReligion && religionData && <ReligionLayer data={religionData} />}
               {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}
-              {showPorts && portsData && (
-                <PortsLayer data={portsData as Parameters<typeof PortsLayer>[0]['data']} />
-              )}
-              {showVici && viciData && (
-                <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
-              )}
               {showAmphitheaters && amphitheatersData && (
                 <AmphitheaterLayer data={amphitheatersData} />
-              )}
-              {showSettlements && settlementsData && (
-                <SettlementLayer
-                  data={settlementsData}
-                  enabledTypes={enabledTypes}
-                  hiddenCategories={hiddenCategories}
-                  populationData={cityPopulationsData}
-                />
               )}
               {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
               {showNotablePeople && notablePeopleData && (
