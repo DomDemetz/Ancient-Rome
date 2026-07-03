@@ -148,12 +148,13 @@ export function MapView() {
   const initRef = useRef(false)
   const { activatePreset } = useMapLayerStore()
   const { setYear } = useTimelineStore()
-  // We have detailed point/road data through Late Antiquity — settlements run to
-  // ~800, and the classical network was still in use under Justinian & Heraclius.
-  // Past ~650 (the end of antiquity) the archaeological datasets go dark, so only
-  // territory, emperors and battles continue there. Boolean selector → re-renders
-  // only when crossing 650, not on every playback tick.
-  const detailEra = useTimelineStore((s) => s.currentYear <= 650)
+  // How far the detailed layers run. The temporally-enriched networks (roads and
+  // ORBIS trade) and the settlement data genuinely persist past 476 — settlements
+  // to ~800, and ~60% of road/trade segments never decline. So run the full detail
+  // through the settlement horizon (~800, Charlemagne's coronation — where the
+  // archaeological data finally runs out); past that, territory, emperors and
+  // battles carry the story. Boolean selector → re-renders only on threshold cross.
+  const detailEra = useTimelineStore((s) => s.currentYear <= 800)
   useEffect(() => {
     if (initRef.current) return
     initRef.current = true
@@ -273,7 +274,7 @@ export function MapView() {
           {/* Render order: base layers -> overlays -> point layers */}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
 
-          {/* Detailed point/road layers — shown through Late Antiquity (~650),
+          {/* Detailed point/road layers — shown through the data horizon (~800),
               then hidden, where only territory, emperors and battles continue. */}
           {detailEra && (
             <>
