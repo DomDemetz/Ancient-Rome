@@ -30,6 +30,7 @@ import { EpigraphyLayer } from './layers/EpigraphyLayer'
 import { ViciLayer } from './layers/ViciLayer'
 import { PortsLayer } from './layers/PortsLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
+import { CitiesLayer } from './layers/CitiesLayer'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
@@ -289,19 +290,26 @@ export function MapView() {
           {showVici && viciData && (
             <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
           )}
-          {showSettlements && settlementsData && (
-            <SettlementLayer
-              data={settlementsData}
-              enabledTypes={enabledTypes}
-              hiddenCategories={hiddenCategories}
-              populationData={cityPopulationsData}
-            />
-          )}
+
+          {/* Medieval urban centres (Chandler / Reba et al., CC-BY) carry cities
+              past ~800, where the Roman-era settlement data runs out. Date-bounded
+              per city; shares the Settlements toggle for a seamless handoff. */}
+          {showSettlements && !detailEra && <CitiesLayer />}
 
           {/* Roman-scoped layers — institutions & enrichment with no post-antiquity
-              data. Gated at the detail horizon; nothing here reaches the Middle Ages. */}
+              data. Gated at the detail horizon; nothing here reaches the Middle Ages.
+              DARE settlements live here too (accurate to ~800); Chandler cities take
+              over beyond it. */}
           {detailEra && (
             <>
+              {showSettlements && settlementsData && (
+                <SettlementLayer
+                  data={settlementsData}
+                  enabledTypes={enabledTypes}
+                  hiddenCategories={hiddenCategories}
+                  populationData={cityPopulationsData}
+                />
+              )}
               {showProvinces && provincesData && (
                 <ProvinceLayer
                   data={provincesData}
