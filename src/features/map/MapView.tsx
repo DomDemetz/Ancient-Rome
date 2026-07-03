@@ -148,10 +148,12 @@ export function MapView() {
   const initRef = useRef(false)
   const { activatePreset } = useMapLayerStore()
   const { setYear } = useTimelineStore()
-  // Post-476 (Byzantine era) we only have territory data, not the classical
-  // point/road layers — so show territory alone there. A boolean selector
-  // re-renders only when crossing 476, not on every playback tick.
-  const classicalEra = useTimelineStore((s) => s.currentYear <= 476)
+  // We have detailed point/road data through Late Antiquity — settlements run to
+  // ~800, and the classical network was still in use under Justinian & Heraclius.
+  // Past ~650 (the end of antiquity) the archaeological datasets go dark, so only
+  // territory, emperors and battles continue there. Boolean selector → re-renders
+  // only when crossing 650, not on every playback tick.
+  const detailEra = useTimelineStore((s) => s.currentYear <= 650)
   useEffect(() => {
     if (initRef.current) return
     initRef.current = true
@@ -271,9 +273,9 @@ export function MapView() {
           {/* Render order: base layers -> overlays -> point layers */}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
 
-          {/* Classical-era layers (points, roads, provinces) — hidden past 476,
-              where only the Byzantine territory continues. */}
-          {classicalEra && (
+          {/* Detailed point/road layers — shown through Late Antiquity (~650),
+              then hidden, where only territory, emperors and battles continue. */}
+          {detailEra && (
             <>
               {showProvinces && provincesData && (
                 <ProvinceLayer
