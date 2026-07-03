@@ -79,6 +79,8 @@ export function CitiesLayer() {
       {visible.map((c) => {
         const pop = popAt(c.populations, currentYear)
         if (pop == null || pop <= 0) return null
+        // Constantinople was Byzantium until Constantine refounded it in 330 AD.
+        const name = c.name === 'Constantinople' && currentYear < 330 ? 'Byzantium' : c.name
         return (
           <CircleMarker
             key={c.id}
@@ -99,14 +101,14 @@ export function CitiesLayer() {
                 className="city-label"
                 offset={[0, -radiusFor(pop) - 1]}
               >
-                {c.name}
+                {name}
               </Tooltip>
             )}
             <Popup offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html:
-                    `<div class="map-tooltip-title">${esc(c.name)}</div>` +
+                    `<div class="map-tooltip-title">${esc(name)}</div>` +
                     `<div class="map-tooltip-detail">Population ~${fmtPop(pop)} · ${
                       currentYear < 0 ? `${-currentYear} BC` : `${currentYear} AD`
                     }</div>`,

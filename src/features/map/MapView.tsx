@@ -291,10 +291,11 @@ export function MapView() {
             <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
           )}
 
-          {/* Medieval urban centres (Chandler / Reba et al., CC-BY) carry cities
-              past ~800, where the Roman-era settlement data runs out. Date-bounded
-              per city; shares the Settlements toggle for a seamless handoff. */}
-          {showSettlements && !detailEra && <CitiesLayer />}
+          {/* Major cities with population (Chandler / Reba et al., CC-BY) — labeled
+              and date-bounded, shown across ALL eras. Labels the great classical
+              cities (Rome, Alexandria, Carthage) over the fine-grained DARE dots,
+              and carries the medieval centuries where the Roman data runs out. */}
+          {showSettlements && <CitiesLayer />}
 
           {/* Roman-scoped layers — institutions & enrichment with no post-antiquity
               data. Gated at the detail horizon; nothing here reaches the Middle Ages.
