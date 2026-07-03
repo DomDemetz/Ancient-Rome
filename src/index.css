@@ -259,6 +259,26 @@
 .leaflet-tooltip-right::before {
   border-right-color: rgba(15, 10, 26, 0.92) !important;
 }
+/* Permanent city labels — minimal, no box, readable on the map */
+.leaflet-tooltip.city-label {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  padding: 0 !important;
+  min-width: 0 !important;
+  color: #fde8c0 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em;
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.95),
+    0 0 3px rgba(0, 0, 0, 0.9) !important;
+  pointer-events: none;
+}
+.leaflet-tooltip.city-label::before {
+  display: none !important;
+}
 .map-tooltip-title {
   font-weight: 600;
   font-size: 12px;

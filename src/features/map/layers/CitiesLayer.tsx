@@ -1,8 +1,19 @@
 import { useEffect, useMemo, useState } from 'react'
-import { CircleMarker, Popup } from 'react-leaflet'
+import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapViewport } from '@/hooks/useMapViewport'
 import { loadHistoricalCities, type HistoricalCity, type CityPopulationPoint } from '@/data/cities'
 import { esc } from '@/lib/wiki-popup'
+
+// Only the biggest cities get a permanent label when zoomed out; the threshold
+// drops as you zoom in, so labels stay legible instead of clumping.
+function labelMinPop(zoom: number): number {
+  if (zoom <= 4) return 250000
+  if (zoom === 5) return 120000
+  if (zoom === 6) return 60000
+  if (zoom === 7) return 25000
+  return 0
+}
 
 // Linear-interpolate a city's population at `year` from its sampled series.
 function popAt(points: CityPopulationPoint[], year: number): number | null {
@@ -45,6 +56,7 @@ function fmtPop(pop: number): string {
  */
 export function CitiesLayer() {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const { zoom } = useMapViewport()
   const [cities, setCities] = useState<HistoricalCity[] | null>(null)
 
   useEffect(() => {
@@ -80,6 +92,16 @@ export function CitiesLayer() {
             }}
             bubblingMouseEvents={false}
           >
+            {pop >= labelMinPop(zoom) && (
+              <Tooltip
+                permanent
+                direction="top"
+                className="city-label"
+                offset={[0, -radiusFor(pop) - 1]}
+              >
+                {c.name}
+              </Tooltip>
+            )}
             <Popup offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{

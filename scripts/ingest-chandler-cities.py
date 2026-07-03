@@ -24,6 +24,18 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "src", "data", "cities", "hi
 LAT_MIN, LAT_MAX = 18.0, 66.0
 LNG_MIN, LNG_MAX = -15.0, 70.0
 
+# Chandler uses modern names; within our window (≤1453) these cities went by their
+# classical/Byzantine names. Correcting the well-known, unambiguous ones.
+HISTORICAL_NAMES = {
+    "Istanbul": "Constantinople",
+    "Izmir": "Smyrna",
+    "Trabzon": "Trebizond",
+    "Iznik": "Nicaea",
+    "Edirne": "Adrianople",
+    "Thessaloniki": "Thessalonica",
+    "Bursa": "Prusa",
+}
+
 
 def col_to_year(col: str):
     m = re.match(r"^(BC|AD)_(\d+)$", col)
@@ -53,6 +65,7 @@ def main():
         if len(r) < 6:
             continue
         name = r[0].strip()
+        name = HISTORICAL_NAMES.get(name, name)
         try:
             lat, lng = float(r[3]), float(r[4])
         except ValueError:
