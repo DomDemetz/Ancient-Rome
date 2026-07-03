@@ -19,7 +19,14 @@ import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
 
 // --- Preset definitions ---
-export type PresetName = 'conquest' | 'economy' | 'gods' | 'riseAndFall' | 'engineering' | 'custom'
+export type PresetName =
+  | 'conquest'
+  | 'economy'
+  | 'gods'
+  | 'riseAndFall'
+  | 'engineering'
+  | 'byzantine'
+  | 'custom'
 
 export interface PresetDef {
   label: string
@@ -89,6 +96,12 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showAqueducts',
       'showWater',
     ],
+  },
+  byzantine: {
+    label: 'Byzantium',
+    description: 'The Eastern Empire endures — 476 to the fall of Constantinople, 1453',
+    timelineYear: 600,
+    layers: ['showBattles', 'showEmperors'],
   },
 }
 

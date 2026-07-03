@@ -323,7 +323,6 @@ export function MapView() {
                 />
               )}
               {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
-              {showBattles && battlesData && <BattleLayer data={battlesData} />}
               {showNotablePeople && notablePeopleData && (
                 <NotablePeopleLayer data={notablePeopleData} />
               )}
@@ -331,6 +330,10 @@ export function MapView() {
               <EntityMarkers />
             </>
           )}
+
+          {/* Battles render in every era — the Byzantine centuries have their
+              own pivotal sieges (Constantinople 674, 717, 1204, 1453; Manzikert). */}
+          {showBattles && battlesData && <BattleLayer data={battlesData} />}
         </MapContainer>
 
         <MapControls

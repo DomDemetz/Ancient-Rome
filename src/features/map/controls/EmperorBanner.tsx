@@ -28,6 +28,18 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
     Constantinian: '#d4af37',
     Valentinianic: '#ec4899',
     Theodosian: '#14b8a6',
+    // Byzantine (Eastern Roman) dynasties
+    Leonid: '#a855f7',
+    Justinian: '#eab308',
+    Heraclian: '#0ea5e9',
+    Isaurian: '#f97316',
+    Amorian: '#84cc16',
+    Macedonian: '#fbbf24',
+    Doukas: '#06b6d4',
+    Komnenian: '#e11d48',
+    Angelos: '#94a3b8',
+    Laskarid: '#22c55e',
+    Palaiologan: '#7c3aed',
   }
 
   const dynastyColor = currentEmperor.dynasty
