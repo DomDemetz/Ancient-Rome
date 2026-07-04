@@ -42,8 +42,8 @@ export function LandingPage() {
         </h1>
 
         <p className="mb-12 max-w-xl text-base text-slate-500 md:text-lg leading-relaxed animate-fade-up stagger-3">
-          Trace the hidden connections of Ancient Rome — senators, emperors, legions, and the trade
-          routes that bound an empire.
+          From the founding of Rome to the fall of Constantinople — twenty-two centuries of
+          emperors, legions, cities and the trade routes that bound an empire, on one map.
         </p>
 
         <button

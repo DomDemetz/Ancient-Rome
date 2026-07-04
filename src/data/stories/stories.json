@@ -406,5 +406,76 @@
       }
     ],
     "tags": ["decline", "military", "politics", "barbarians", "late-empire"]
+  },
+  {
+    "id": "byzantium-the-long-twilight",
+    "title": "The Empire That Refused to Die",
+    "description": "Rome did not fall in 476 — it moved east. A thousand more years of Roman history: Justinian's gamble, the Arab storm, the Macedonian zenith, and the last emperor on the walls of Constantinople.",
+    "tags": ["byzantium", "late-antiquity", "medieval"],
+    "steps": [
+      {
+        "id": "step-east-endures",
+        "title": "The West Falls, the East Endures",
+        "content": "In 476, a barbarian general deposed the last emperor in Italy — a boy, almost mockingly named Romulus. But in Constantinople nothing ended. The emperor Zeno still ruled the richer, more urban half of the Roman world, from the greatest fortified city on earth. The people we call 'Byzantines' never used the word: to the very last day, they called themselves Romaioi — Romans. Their empire would outlive the West by almost exactly one thousand years.",
+        "year": 485,
+        "layers": ["showTerritories", "showSettlements", "showEmperors"],
+        "mapCenter": [41.0, 28.9],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-justinian",
+        "title": "Justinian's Gamble",
+        "content": "One emperor refused to accept a half-empire. From 533, Justinian hurled his general Belisarius west: Africa fell in a single campaign, then Sicily, then Rome itself. At home he rebuilt the Hagia Sophia — its dome unmatched for nine centuries — and distilled a thousand years of Roman law into the Code that still underpins European law today. The map below shows his prize: the Mediterranean, very nearly Roman once more. It was the last time. Plague and Persia would spend the next century clawing it back.",
+        "year": 600,
+        "layers": ["showTerritories", "showSettlements", "showRoads", "showEmperors"],
+        "mapCenter": [38.5, 18.0],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-arab-storm",
+        "title": "The Storm",
+        "content": "In a single generation after 636, the Arab conquests tore away Syria, Egypt and Africa — the empire's breadbasket and its holiest cities. Twice the Caliphate came for the capital itself, in 674 and again in 717, with the largest fleets the Mediterranean had ever seen. Twice the Theodosian Walls held, and a terrifying new weapon — Greek fire, burning on the surface of the sea — did the rest. Historians still argue that these walls, in these years, decided the future of Europe.",
+        "year": 718,
+        "layers": ["showTerritories", "showBattles", "showEmperors"],
+        "mapCenter": [41.0, 28.9],
+        "mapZoom": 6
+      },
+      {
+        "id": "step-macedonian-zenith",
+        "title": "The Macedonian Zenith",
+        "content": "The empire learned to survive — then, slowly, to win. Under the Macedonian dynasty it clawed back Crete, Cyprus, northern Syria and the Balkans. Basil II, called the Bulgar-Slayer, spent forty years on campaign and never lost a war; at his death in 1025 the empire ran from the Danube to the Euphrates, and Constantinople — half a million people, the Hagia Sophia, the silk workshops, the Golden Horn crowded with shipping — was the largest and richest Christian city on earth, and knew it.",
+        "year": 1025,
+        "layers": ["showTerritories", "showSettlements", "showTradeNetwork", "showEmperors"],
+        "mapCenter": [41.5, 26.0],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-the-wounds",
+        "title": "Two Wounds",
+        "content": "Two catastrophes broke the recovery. At Manzikert in 1071, a captured emperor and a shattered army handed the Anatolian heartland — the empire's source of soldiers and grain — to the Seljuk Turks. Then in 1204 came the unthinkable: the Fourth Crusade, diverted from Jerusalem by debt and intrigue, stormed and sacked Constantinople itself. Fellow Christians stripped the city of nine centuries of treasure. The empire shattered into exile states, and the wound never truly closed.",
+        "year": 1204,
+        "layers": ["showTerritories", "showBattles", "showEmperors"],
+        "mapCenter": [40.0, 30.5],
+        "mapZoom": 5.5
+      },
+      {
+        "id": "step-restoration",
+        "title": "The Last Restoration",
+        "content": "In 1261 a small Byzantine force slipped into Constantinople through an unguarded gate while the Latin garrison was away — and the empire, astonishingly, was reborn. But the restored state was a shadow: a city too large for its shrunken lands, ringed by rising powers. Across the narrow water in Bithynia, a small Turkish emirate led by one Osman began taking Byzantine towns one by one. Within a century, the Ottomans would surround the city on every side.",
+        "year": 1300,
+        "layers": ["showTerritories", "showSettlements", "showEmperors"],
+        "mapCenter": [40.3, 27.5],
+        "mapZoom": 6
+      },
+      {
+        "id": "step-1453",
+        "title": "The Last Emperor",
+        "content": "By 1453 the empire was the city, and little more. Mehmed II brought 80,000 men and the largest cannon ever cast against walls that had held for a thousand years. For 53 days they held again. Before the final assault, Constantine XI Palaiologos — 88th emperor in a line stretching back to Augustus — refused terms, took off his imperial regalia, and died fighting on the walls among his soldiers. The Roman story that began with Romulus ended with a Constantine: 2,206 years, and no state in history has yet lived longer.",
+        "year": 1453,
+        "layers": ["showTerritories", "showBattles", "showEmperors"],
+        "mapCenter": [41.01, 28.97],
+        "mapZoom": 7
+      }
+    ]
   }
 ]

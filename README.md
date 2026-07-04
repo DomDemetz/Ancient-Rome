@@ -2,7 +2,7 @@
 
 Watch the Roman Empire rise and fall on an interactive map. Trace battles, roads,
 legions, emperors, aqueducts, and the trade routes that bound an empire — across a
-thousand years of history, on a single timeline you can scrub through.
+span from the founding of Rome in 753 BC to the fall of Constantinople in 1453 — twenty-two centuries on a single timeline you can scrub through.
 
 <!-- Live demo: add URL here once deployed -->
 <!-- Screenshot: add public/og-image.png (a real 1200×630 capture of the map) -->
@@ -19,7 +19,7 @@ and wraps it in a narrative you can actually follow.
 
 ## Features
 
-- **Timeline playback** — scrub through ~1,000 years and watch territory, roads, and
+- **Timeline playback** — scrub 753 BC → 1453 AD and watch territory, roads, and
   cities change over time, with smooth cross-fades between eras.
 - **Layered atlas** — battles, legions, emperors, aqueducts, ports, mines, trade
   routes, epigraphy, shipwrecks, religious sites, and more, each toggleable.
