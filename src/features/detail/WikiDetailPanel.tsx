@@ -27,6 +27,7 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
     loadAndMerge(async () => (await import('@/data/wiki')).loadAmphitheaterWiki(), 'amphitheaters'),
   battles: () =>
     loadAndMerge(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
+  cities: () => loadAndMerge(async () => (await import('@/data/wiki')).loadCitiesWiki(), 'cities'),
   settlements: () =>
     loadAndMerge(async () => (await import('@/data/wiki')).loadSettlementWiki(), 'settlements'),
   buildings: () =>
@@ -283,7 +284,9 @@ function WikiDetailContent({
               <span className="text-[11px] text-slate-500 block">{cr.greekName}</span>
             )}
             <span className="text-[10px] uppercase tracking-wider text-slate-500 mt-0.5 block">
-              {cr?.buildingType ?? featureLayer.replace(/s$/, '')}
+              {(cr?.buildingType ?? featureLayer === 'cities')
+                ? 'city'
+                : featureLayer.replace(/s$/, '')}
             </span>
           </div>
 

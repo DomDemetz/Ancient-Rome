@@ -3,7 +3,8 @@ import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { loadHistoricalCities, type HistoricalCity, type CityPopulationPoint } from '@/data/cities'
-import { esc } from '@/lib/wiki-popup'
+import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import qidJson from '@/data/registry/chandler-qid.json'
 
 // Canonical Wikidata identity per city (see ENTITY-MODEL.md) — powers the
@@ -62,6 +63,7 @@ function fmtPop(pop: number): string {
 export function CitiesLayer() {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const { zoom } = useMapViewport()
+  const wikiLookup = useWikiEnrichment('cities')
   const [cities, setCities] = useState<HistoricalCity[] | null>(null)
 
   useEffect(() => {
@@ -109,17 +111,21 @@ export function CitiesLayer() {
                 {name}
               </Tooltip>
             )}
-            <Popup offset={[0, -4]} closeButton={false}>
+            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
-                  __html:
+                  __html: appendWikiTooltip(
                     `<div class="map-tooltip-title">${esc(name)}</div>` +
-                    `<div class="map-tooltip-detail">Population ~${fmtPop(pop)} · ${
-                      currentYear < 0 ? `${-currentYear} BC` : `${currentYear} AD`
-                    }</div>` +
-                    (CITY_QID[c.id]
-                      ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${CITY_QID[c.id]}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
-                      : ''),
+                      `<div class="map-tooltip-detail">Population ~${fmtPop(pop)} · ${
+                        currentYear < 0 ? `${-currentYear} BC` : `${currentYear} AD`
+                      }</div>` +
+                      (!wikiLookup?.[c.id] && CITY_QID[c.id]
+                        ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${CITY_QID[c.id]}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
+                        : ''),
+                    c.id,
+                    wikiLookup,
+                    'cities',
+                  ),
                 }}
               />
             </Popup>

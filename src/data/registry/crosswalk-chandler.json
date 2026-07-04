@@ -307,6 +307,12 @@
     "pid": "69483",
     "qid": "Q103158136"
   },
+  "chandler-caesarea-500": {
+    "km": 1.1,
+    "major": true,
+    "pid": "629035",
+    "qid": "Q10439273"
+  },
   "chandler-cagliari-1900": {
     "km": 2.3,
     "major": true,
@@ -515,6 +521,12 @@
     "pid": "413138",
     "qid": "Q3746707"
   },
+  "chandler-gallipoli-1000": {
+    "km": 1.1,
+    "major": false,
+    "pid": "501386",
+    "qid": "Q192860"
+  },
   "chandler-gela--430": {
     "km": 3.1,
     "major": true,
@@ -629,13 +641,6 @@
     "km": 1.4,
     "major": true,
     "pid": "109075"
-  },
-  "chandler-kayseri-500": {
-    "km": 0.2,
-    "major": true,
-    "pid": "629035",
-    "qid": "Q10439273",
-    "via": "dare-modern-name"
   },
   "chandler-kherson-800": {
     "km": 2.6,
@@ -1050,6 +1055,12 @@
     "pid": "118912",
     "via": "dare-modern-name"
   },
+  "chandler-philippopolis-970": {
+    "km": 0.5,
+    "major": true,
+    "pid": "216927",
+    "qid": "Q27047924"
+  },
   "chandler-piacenza-1216": {
     "km": 0.7,
     "major": true,
@@ -1061,13 +1072,6 @@
     "major": true,
     "pid": "403253",
     "qid": "Q17591094",
-    "via": "dare-modern-name"
-  },
-  "chandler-plovdiv-970": {
-    "km": 0.3,
-    "major": true,
-    "pid": "216927",
-    "qid": "Q27047924",
     "via": "dare-modern-name"
   },
   "chandler-poitiers-741": {
@@ -1301,12 +1305,6 @@
     "km": 0.7,
     "major": true,
     "pid": "29762"
-  },
-  "chandler-sivas-1100": {
-    "km": 0.1,
-    "major": true,
-    "pid": "629075",
-    "qid": "Q107401"
   },
   "chandler-skopje-1400": {
     "km": 4.0,

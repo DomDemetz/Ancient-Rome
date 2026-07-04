@@ -95,6 +95,10 @@ export async function loadBattleWiki(): Promise<WikiLookup> {
   return loadJson<WikiLookup>(() => import('./battles-wiki.json'))
 }
 
+export async function loadCitiesWiki(): Promise<WikiLookup> {
+  return loadJson<WikiLookup>(() => import('./cities-wiki.json'))
+}
+
 export async function loadSettlementWiki(): Promise<WikiLookup> {
   return loadJson<WikiLookup>(() => import('./settlements-wiki.json'))
 }
@@ -176,6 +180,7 @@ export async function loadCrossReference(): Promise<CrossRefLookup> {
 
 /** Map layer names to their cross-reference key prefixes */
 const LAYER_SINGULAR: Record<string, string> = {
+  cities: 'city',
   amphitheaters: 'amphitheater',
   battles: 'battle',
   buildings: 'building',

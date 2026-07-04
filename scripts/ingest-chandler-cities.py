@@ -34,6 +34,13 @@ HISTORICAL_NAMES = {
     "Edirne": "Adrianople",
     "Thessaloniki": "Thessalonica",
     "Bursa": "Prusa",
+    "Gelibolu": "Gallipoli",
+    "Izmit": "Nicomedia",
+    "Konya": "Iconium",
+    "Kayseri": "Caesarea",
+    "Sivas": "Sebastea",
+    "Plovdiv": "Philippopolis",
+    "Durres": "Dyrrachium",
 }
 
 

@@ -82,6 +82,7 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
     'amphitheaters',
   ),
   battles: makeLayerLoader(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
+  cities: makeLayerLoader(async () => (await import('@/data/wiki')).loadCitiesWiki(), 'cities'),
   settlements: makeLayerLoader(
     async () => (await import('@/data/wiki')).loadSettlementWiki(),
     'settlements',
