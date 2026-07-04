@@ -4,6 +4,11 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { loadHistoricalCities, type HistoricalCity, type CityPopulationPoint } from '@/data/cities'
 import { esc } from '@/lib/wiki-popup'
+import qidJson from '@/data/registry/chandler-qid.json'
+
+// Canonical Wikidata identity per city (see ENTITY-MODEL.md) — powers the
+// popup's Wikidata link for the ~200 cities with a resolved QID.
+const CITY_QID = qidJson as Record<string, string>
 
 // Only the biggest cities get a permanent label when zoomed out; the threshold
 // drops as you zoom in, so labels stay legible instead of clumping.
@@ -111,7 +116,10 @@ export function CitiesLayer() {
                     `<div class="map-tooltip-title">${esc(name)}</div>` +
                     `<div class="map-tooltip-detail">Population ~${fmtPop(pop)} · ${
                       currentYear < 0 ? `${-currentYear} BC` : `${currentYear} AD`
-                    }</div>`,
+                    }</div>` +
+                    (CITY_QID[c.id]
+                      ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${CITY_QID[c.id]}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
+                      : ''),
                 }}
               />
             </Popup>

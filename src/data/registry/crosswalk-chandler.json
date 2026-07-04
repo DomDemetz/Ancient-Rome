@@ -89,8 +89,7 @@
     "km": 2.7,
     "major": true,
     "pid": "619103",
-    "qid": "Q107585355",
-    "via": "dare-modern-name"
+    "qid": "Q107585355"
   },
   "chandler-arles-361": {
     "km": 0.3,
@@ -190,6 +189,12 @@
     "pid": "305142",
     "qid": "Q1557873",
     "via": "dare-modern-name"
+  },
+  "chandler-belgrade-1433": {
+    "km": 1.2,
+    "major": true,
+    "pid": "207443",
+    "qid": "Q1309687"
   },
   "chandler-bergamo-1000": {
     "km": 0.4,
@@ -291,11 +296,10 @@
     "pid": "345254116"
   },
   "chandler-cadiz--100": {
-    "km": 0.2,
+    "km": 0.1,
     "major": true,
     "pid": "256177",
-    "qid": "Q5890310",
-    "via": "dare-modern-name"
+    "qid": "Q5890310"
   },
   "chandler-caen-1060": {
     "km": 0.2,
@@ -338,11 +342,10 @@
     "via": "dare-modern-name"
   },
   "chandler-cartagena-1000": {
-    "km": 3.1,
+    "km": 2.7,
     "major": true,
     "pid": "265849",
-    "qid": "Q2727884",
-    "via": "dare-modern-name"
+    "qid": "Q2727884"
   },
   "chandler-carthage--430": {
     "km": 0.9,
@@ -739,11 +742,10 @@
     "qid": "Q437"
   },
   "chandler-london--100": {
-    "km": 1.4,
+    "km": 2.2,
     "major": true,
     "pid": "79574",
-    "qid": "Q927198",
-    "via": "dare-modern-name"
+    "qid": "Q927198"
   },
   "chandler-lorca-1800": {
     "km": 0.3,
@@ -845,11 +847,10 @@
     "qid": "Q35484"
   },
   "chandler-merida-800": {
-    "km": 0.2,
+    "km": 0.3,
     "major": true,
     "pid": "256155",
-    "qid": "Q1583842",
-    "via": "dare-modern-name"
+    "qid": "Q1583842"
   },
   "chandler-merv-1100": {
     "km": 0.4,
@@ -986,6 +987,12 @@
     "pid": "393473",
     "qid": "Q617"
   },
+  "chandler-palermo-1000": {
+    "km": 0.9,
+    "major": true,
+    "pid": "462410",
+    "qid": "Q60181639"
+  },
   "chandler-palma-1100": {
     "km": 0.0,
     "major": true,
@@ -993,11 +1000,10 @@
     "qid": "Q8826"
   },
   "chandler-paris-800": {
-    "km": 0.4,
+    "km": 0.5,
     "major": true,
     "pid": "109126",
-    "qid": "Q270273",
-    "via": "dare-modern-name"
+    "qid": "Q270273"
   },
   "chandler-parma-1395": {
     "km": 0.2,
@@ -1339,6 +1345,7 @@
     "km": 1.7,
     "major": true,
     "pid": "825389",
+    "qid": "Q5206",
     "via": "dare-modern-name"
   },
   "chandler-strasbourg-1150": {
@@ -1594,18 +1601,16 @@
     "pid": "863922"
   },
   "chandler-york-1900": {
-    "km": 0.7,
+    "km": 0.5,
     "major": true,
     "pid": "89175",
-    "qid": "Q958954",
-    "via": "dare-modern-name"
+    "qid": "Q958954"
   },
   "chandler-zaragoza-1118": {
-    "km": 1.0,
+    "km": 1.2,
     "major": true,
     "pid": "246344",
-    "qid": "Q2932882",
-    "via": "dare-modern-name"
+    "qid": "Q2932882"
   },
   "chandler-zurich-1900": {
     "km": 1.0,

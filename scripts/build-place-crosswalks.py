@@ -41,6 +41,11 @@ EXONYMS = {
     "naples": "neapolis", "marseille": "massalia", "lyon": "lugdunum",
     "genoa": "genua", "florence": "florentia", "venice": "venetiae",
     "damascus": "damascus", "aleppo": "beroea", "trier": "augusta treverorum",
+    "palermo": "panormus", "cadiz": "gades", "cartagena": "carthago nova",
+    "tangier": "tingis", "zaragoza": "caesaraugusta", "ankara": "ancyra",
+    "beirut": "berytus", "sofia": "serdica", "belgrade": "singidunum",
+    "budapest": "aquincum", "paris": "lutetia", "london": "londinium",
+    "york": "eboracum", "merida": "emerita augusta",
 }
 
 def expand(variants):

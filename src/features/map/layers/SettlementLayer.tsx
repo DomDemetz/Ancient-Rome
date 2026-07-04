@@ -12,6 +12,12 @@ import {
 } from './settlementStyles'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
+import suppressionJson from '@/data/registry/dare-suppression.json'
+
+// DARE settlements that are the same place as a Chandler city (shared Pleiades
+// id, see ENTITY-MODEL.md). Hidden while their labeled, population-sized
+// Chandler twin is on screen, so e.g. Rome doesn't render as two dots.
+const SUPPRESSED = suppressionJson as Record<string, number[]>
 
 interface SettlementLayerProps {
   data: DareSettlement[]
@@ -122,6 +128,10 @@ export function SettlementLayer({
   const visible = useMemo(() => {
     return data.filter((s) => {
       if (!enabledTypes.has(s.type)) return false
+
+      // Entity dedup: skip while the Chandler twin (same canonical place) shows
+      const twin = SUPPRESSED[String(s.id)]
+      if (twin && currentYear >= twin[0] && currentYear <= twin[1]) return false
 
       // Category filtering
       const category = DARE_TYPE_TO_CATEGORY[s.type]
