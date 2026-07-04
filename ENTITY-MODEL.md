@@ -21,8 +21,8 @@ identity across sources and time, and a clean path to adding new datasets
     ancient antecedent (direct, or two-hop via DARE's modern names). The
     unmatched remainder is dominated by genuinely new medieval foundations
     (Venice, Baghdad, Fez) — correctly unmatched.
-  - `crosswalk-battles.json` — **43 battles** carry a Wikidata QID (v1;
-    grows as the participant query widens).
+  - `crosswalk-battles.json` — **158 of 374 battles (42%)** carry a Wikidata
+    QID (bbox query over all dated battles/sieges in the atlas frame).
 
 ## Matching rules (scripts/build-place-crosswalks.py)
 
@@ -43,6 +43,18 @@ Roman-participant battles there carry date+coords and **none** carry a
 structured winner, vs. our 361 with outcomes. So the dataset stays, gains
 QIDs, and fields can be progressively re-derived from CC0 sources —
 addressing the Roman-Battles-Droid license note in DATA-SOURCES.md.
+
+## Validation against native truth
+
+Vici.org's own dump carries curated identity tables (`q_dare`, `q_pleiades`) —
+the native cross-references dropped in our original flattening. Imported:
+**5,808 native DARE→QID links** (`registry/dare-wikidata.json`) and **+685
+bridge QIDs**. Where both a fuzzy-derived and a native QID exist (1,986
+records), 72% agree exactly — and inspection shows the "disagreements" are
+the same place at two Wikidata granularities (fuzzy→ancient item, e.g.
+_Ariminum_; native→modern item, e.g. _Rimini_). The two crosswalks are
+complementary aspects, both kept: ancient identity via Pleiades, modern
+successor via Vici.
 
 ## Adoption path (deliberate, staged)
 
