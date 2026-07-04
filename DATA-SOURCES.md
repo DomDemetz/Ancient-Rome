@@ -22,16 +22,16 @@ The application code, the narrative/editorial content, and the interface are our
 
 ## Layer-specific data
 
-| Source                                                  | Layer                  | License                              | Attribution                        |
-| ------------------------------------------------------- | ---------------------- | ------------------------------------ | ---------------------------------- |
-| [Itiner-e](https://zenodo.org/records/17122148)         | Roman roads (detailed) | **CC-BY-NC 4.0** ⚠️ _non-commercial_ | Pau de Soto                        |
-| [OxREP](https://oxrep.classics.ox.ac.uk/)               | Mines, shipwrecks      | OxREP terms _(confirm)_ ⚠️           | Oxford Roman Economy Project       |
-| DARMC / OxREP                                           | Shipwrecks             | per-dataset _(confirm)_ ⚠️           | DARMC, Harvard / OxREP             |
-| Roman-Battles-Droid                                     | Battles                | _(confirm)_ ⚠️                       | project authors                    |
-| roman-amphitheaters                                     | Amphitheaters          | _(confirm)_ ⚠️                       | project authors                    |
-| Sciences-Po cross-verified database                     | Notable people         | **CC-BY-SA** ⚠️                      | Sciences-Po                        |
-| [Pelagios / Peripleo / Recogito](https://pelagios.org/) | Place gazetteer links  | CC-BY _(confirm)_ ⚠️                 | Pelagios Network                   |
-| [iDAI.gazetteer](https://idai.world/)                   | Archaeological sites   | DAI terms _(confirm)_ ⚠️             | Deutsches Archäologisches Institut |
+| Source                                                                            | Layer                  | License                                                         | Attribution                                                       |
+| --------------------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Itiner-e](https://zenodo.org/records/17122148)                                   | Roman roads (detailed) | **CC-BY-NC 4.0** ⚠️ _non-commercial_                            | Pau de Soto                                                       |
+| [OxREP](https://oxrep.classics.ox.ac.uk/)                                         | Mines, shipwrecks      | OxREP terms _(confirm)_ ⚠️                                      | Oxford Roman Economy Project                                      |
+| DARMC / OxREP                                                                     | Shipwrecks             | **CC-BY-NC-SA 4.0** (DARMC/MAPS) ✅ verified — _non-commercial_ | DARMC, Harvard / OxREP                                            |
+| [Roman-Battles-Droid](https://github.com/rharriso/Roman-Battles-Droid)            | Battles (classical)    | **no explicit license** ⚠️ verified 2026-07-04                  | rharriso — attribution given; plan: re-source from Wikidata (CC0) |
+| [roman-amphitheaters](https://github.com/roman-amphitheaters/roman-amphitheaters) | Amphitheaters          | **Unlicense** (public domain) ✅ verified                       | Sebastian Heath et al.                                            |
+| Sciences-Po cross-verified database                                               | Notable people         | **CC-BY-SA** ⚠️                                                 | Sciences-Po                                                       |
+| [Pelagios / Peripleo / Recogito](https://pelagios.org/)                           | Place gazetteer links  | CC-BY _(confirm)_ ⚠️                                            | Pelagios Network                                                  |
+| [iDAI.gazetteer](https://idai.world/)                                             | Archaeological sites   | DAI terms _(confirm)_ ⚠️                                        | Deutsches Archäologisches Institut                                |
 
 ✅ = license verified 2026-07-01 against the source (or the source's own attribution string).
 ⚠️ = confirm the exact terms before relying on this layer commercially.
