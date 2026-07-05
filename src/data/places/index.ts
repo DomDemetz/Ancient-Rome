@@ -26,6 +26,9 @@ export interface PlaceNode {
   minor?: boolean
   /** attached Vici.org archaeological sites (native pmetadata identity) */
   vici?: string[]
+  /** absorbed narrative-graph entity (the curated connections graph) */
+  entity?: string
+  entityConnections?: number
   dare?: {
     id: string
     type?: number

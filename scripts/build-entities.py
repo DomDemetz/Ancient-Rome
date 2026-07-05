@@ -186,6 +186,50 @@ for pid, pr in pleiades.items():
     places.append(node)
     stats["pleiades-only nodes"] += 1
 
+# --- absorb the curated narrative graph: 15 location entities -> nodes ---
+# The original "Hidden Network" locations attach to their canonical node, so
+# clicking a place on the map can open its hand-written connection graph.
+import math
+def km(a, b):
+    (la1, lo1), (la2, lo2) = a, b
+    p1, p2 = math.radians(la1), math.radians(la2)
+    dp, dl = math.radians(la2 - la1), math.radians(lo2 - lo1)
+    h = math.sin(dp/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2
+    return 2 * 6371 * math.asin(min(1, math.sqrt(h)))
+
+ENTITY_ALIASES = {"massilia": "massalia", "syracuse": "syracusae", "londinium": "londinium"}
+locs = json.load(open(os.path.join(BASE, "entities", "locations.json")))
+conns = json.load(open(os.path.join(BASE, "entities", "connections.json")))
+conn_count = defaultdict(int)
+for cx in conns:
+    conn_count[cx["source"]] += 1
+    conn_count[cx["target"]] += 1
+
+print("entity -> node absorption (audit):")
+for lo in locs:
+    c = lo.get("coordinates")
+    if not c:
+        continue
+    lname = lo["name"].lower()
+    lname = ENTITY_ALIASES.get(lname, lname)
+    best, score = None, (-1, -1e9)
+    for p in places:
+        d = km((c["lat"], c["lng"]), (p["lat"], p["lng"]))
+        if d > 25:
+            continue
+        namehit = lname in p["name"].lower() or p["name"].lower() in lname
+        sc = (namehit * 4 + ("populations" in p) * 2 + (p.get("dare", {}).get("major", False) * 1), -d)
+        if sc > score:
+            best, score = p, sc
+    if best is None:
+        print(f"  {lo['id']:16} -> NO NODE within 25 km ⚠")
+        continue
+    best["entity"] = lo["id"]
+    n = conn_count.get(lo["id"], 0)
+    if n:
+        best["entityConnections"] = n
+    print(f"  {lo['id']:16} -> {best['id']:14} {best['name']:20} ({-score[1]:.1f} km, {n} connections)")
+
 mpath = os.path.join(R, "vici-merged.json")
 json.dump(sorted(vici_merged), open(mpath, "w"), separators=(",", ":"))
 open(mpath, "a").write("\n")

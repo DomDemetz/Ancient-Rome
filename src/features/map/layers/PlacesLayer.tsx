@@ -1,7 +1,8 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import {
@@ -112,7 +113,24 @@ function baseTooltipHtml(p: PlaceNode, name: string, pop: number | null, year: n
  * Population nodes render amber, sized by their interpolated population, and
  * carry zoom-aware labels; DARE-typed nodes keep the category legend styling.
  */
+/** Capture-phase click delegate for the "connections" button in node popups —
+ *  opens the curated narrative graph (DetailPanel) for absorbed entities. */
+function useConnectionsDelegate() {
+  const select = useSelectionStore((s) => s.select)
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      const btn = (e.target as HTMLElement).closest(
+        '.map-tooltip-connections',
+      ) as HTMLElement | null
+      if (btn?.dataset.entityId) select(btn.dataset.entityId)
+    }
+    document.addEventListener('click', handleClick, true)
+    return () => document.removeEventListener('click', handleClick, true)
+  }, [select])
+}
+
 export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLayerProps) {
+  useConnectionsDelegate()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const setlWiki = useWikiEnrichment('settlements')
@@ -220,6 +238,9 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
                       p.wiki ? wikiLookup : null,
                       wikiLayer,
                     ) +
+                    (p.entity
+                      ? `<button class="map-tooltip-readmore map-tooltip-connections" data-entity-id="${p.entity}">Explore ${p.entityConnections ?? ''} connection${p.entityConnections === 1 ? '' : 's'}</button>`
+                      : '') +
                     (p.qid && !(p.wiki && wikiLookup?.[wikiKey])
                       ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
                       : ''),
