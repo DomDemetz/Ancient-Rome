@@ -1,6 +1,12 @@
 import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import viciMergedJson from '@/data/registry/vici-merged.json'
+
+// Settlement-kind Vici points that ARE a canonical place node (native
+// pmetadata identity, see ENTITY-MODEL.md) — the node renders them; skip
+// here so a city never draws twice.
+const MERGED = new Set(viciMergedJson as string[])
 import { esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -73,6 +79,8 @@ export function ViciLayer({ data }: ViciLayerProps) {
     if (zoom < 7) return []
 
     let filtered = data.filter((s) => {
+      // Represented by a canonical place node — the node draws the city
+      if (MERGED.has(s.id)) return false
       // Timeline filtering
       if (s.startYear !== 0 && s.startYear > currentYear) return false
       if (s.endYear !== 0 && s.endYear < currentYear) return false

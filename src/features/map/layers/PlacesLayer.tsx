@@ -96,6 +96,8 @@ function baseTooltipHtml(p: PlaceNode, name: string, pop: number | null, year: n
     const end = p.endYear !== 0 ? formatYear(Math.min(p.endYear, 1453)) : '?'
     details.push(`${start} – ${end}`)
   }
+  if (p.vici?.length)
+    details.push(`${p.vici.length} archaeological site${p.vici.length > 1 ? 's' : ''}`)
   if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
   if (year >= 0 && pop != null && pop > 0) {
     // population is the one time-varying fact; date it
@@ -144,9 +146,10 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
         if (p.dare.declineYear != null && currentYear > p.dare.declineYear + 50) return false
       }
 
-      // Zoom rules: population nodes always visible; DARE nodes by type
+      // Zoom rules: population nodes always visible; DARE nodes by type;
+      // gazetteer-only (minor) nodes appear from zoom 8 like small settlements
       if (!hasPop && t != null && zoom < getZoomThreshold(t, p.dare?.major ?? false)) return false
-      if (!hasPop && t == null) return true // rare: identity-only node
+      if (!hasPop && t == null && zoom < 8) return false
 
       // Bounds filtering at zoomed-in levels
       if (zoom >= 7) {
@@ -175,7 +178,11 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
           radius = popRadius(pop)
           weight = 1
         } else {
-          const style = getSettlementStyle(p.dare?.type ?? 11, p.dare?.major ?? false, zoom)
+          const style = getSettlementStyle(
+            p.dare?.type ?? (p.minor ? 12 : 11),
+            p.dare?.major ?? false,
+            zoom,
+          )
           color = style.color
           radius = style.radius
           weight = 0.5

@@ -36,6 +36,9 @@ dare_qid = json.load(open(os.path.join(R, "dare-wikidata.json")))
 bridge = json.load(open(os.path.join(R, "pleiades-wikidata.json")))
 setl_wiki = json.load(open(os.path.join(BASE, "wiki", "settlements-wiki.json")))
 cities_wiki = json.load(open(os.path.join(BASE, "wiki", "cities-wiki.json")))
+vici = [v.get("properties", v) for v in json.load(open(os.path.join(BASE, "vici-sites.json")))]
+xw_vici = json.load(open(os.path.join(R, "crosswalk-vici.json")))
+SETTLEMENT_KINDS = {"settlement", "city", "town", "vicus"}
 
 MIN_YEAR, MAX_YEAR = -753, 1453
 
@@ -124,6 +127,70 @@ for key, g in groups.items():
     if wiki: stats["with wiki"] += 1
     if pid: stats["with pid"] += 1
 
+# --- attach Vici sites to their nodes (native pmetadata identity) ---
+node_by_key = {}
+dare_to_key = {}
+for p in places:
+    node_by_key[p["id"]] = p
+    if "dare" in p:
+        dare_to_key[p["dare"]["id"]] = p["id"]
+
+vici_by_id = {v["id"]: v for v in vici}
+vici_merged = []  # settlement-kind vici points that ARE the place (skip in ViciLayer)
+for vid, link in xw_vici.items():
+    v = vici_by_id.get(vid)
+    if v is None:
+        continue
+    key = None
+    if link.get("pid") and f"pl-{link['pid']}" in node_by_key:
+        key = f"pl-{link['pid']}"
+    elif link.get("dare") and link["dare"] in dare_to_key:
+        key = dare_to_key[link["dare"]]
+    if key is None:
+        continue
+    node = node_by_key[key]
+    node.setdefault("vici", []).append(vid)
+    if "qid" not in node and link.get("qid"):
+        node["qid"] = link["qid"]
+        stats["qid adopted from vici"] += 1
+    if (v.get("siteType") or "").lower() in SETTLEMENT_KINDS:
+        vici_merged.append(vid)
+    stats["vici attached"] += 1
+
+# --- pleiades-only settlements become minor nodes ---
+have_pids = {p["pid"] for p in places if "pid" in p}
+for pid, pr in pleiades.items():
+    if pid in have_pids:
+        continue
+    pt = str(pr.get("placeType", "")).lower()
+    if not any(k in pt for k in ("settlement", "polis", "urban")):
+        continue
+    try:
+        lat, lng = float(pr["lat"]), float(pr["lng"])
+    except (KeyError, TypeError, ValueError):
+        continue
+    name = str(pr.get("name") or "?").split("/")[0].strip() or "?"
+    node = {
+        "id": f"pl-{pid}",
+        "name": name,
+        "lat": round(lat, 5),
+        "lng": round(lng, 5),
+        "startYear": pr.get("startYear") or 0,
+        "endYear": pr.get("endYear") or 0,
+        "pid": pid,
+        "minor": True,  # gazetteer-only: subtle style, high zoom threshold
+    }
+    q = bridge.get(pid, {}).get("qid")
+    if q:
+        node["qid"] = q
+    places.append(node)
+    stats["pleiades-only nodes"] += 1
+
+mpath = os.path.join(R, "vici-merged.json")
+json.dump(sorted(vici_merged), open(mpath, "w"), separators=(",", ":"))
+open(mpath, "a").write("\n")
+print(f"vici-merged.json: {len(vici_merged)} settlement-kind vici points now represented by nodes")
+
 places.sort(key=lambda p: p["id"])
 out = os.path.join(BASE, "places")
 os.makedirs(out, exist_ok=True)
@@ -131,7 +198,7 @@ path = os.path.join(out, "places.json")
 json.dump(places, open(path, "w"), ensure_ascii=False, separators=(",", ":"))
 open(path, "a").write("\n")
 
-print(f"places.json: {stats['nodes']} canonical nodes ({os.path.getsize(path)//1024//1024}.{os.path.getsize(path)//1024%1024//103} MB)")
+print(f"places.json: {len(places)} canonical nodes ({os.path.getsize(path)//1024//1024}.{os.path.getsize(path)//1024%1024//103} MB)")
 print(f"  from {len(dare)} DARE + {sum(1 for c in chandler if c['startYear']<=MAX_YEAR)} Chandler records")
 for k in ("merged dare+chandler", "multi-dare collapsed", "with pid", "with qid", "with wiki"):
     print(f"  {k}: {stats[k]}")

@@ -22,6 +22,10 @@ export interface PlaceNode {
   modern?: string
   /** which enrichment file knows this place: [layer, key] */
   wiki?: [string, string]
+  /** gazetteer-only node (Pleiades, no DARE/population data): subtle, high-zoom */
+  minor?: boolean
+  /** attached Vici.org archaeological sites (native pmetadata identity) */
+  vici?: string[]
   dare?: {
     id: string
     type?: number
