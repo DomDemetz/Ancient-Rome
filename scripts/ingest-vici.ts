@@ -261,6 +261,7 @@ async function parsePointsFromSql(filePath: string): Promise<Map<number, PointRo
 
         if (isNaN(pnt_lat) || isNaN(pnt_lng)) continue
         if (pnt_lat === 0 && pnt_lng === 0) continue
+        if (Math.abs(pnt_lat) > 90 || Math.abs(pnt_lng) > 180) continue // corrupt source coords
 
         points.set(pnt_id, {
           pnt_id,
