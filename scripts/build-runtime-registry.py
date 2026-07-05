@@ -74,3 +74,29 @@ p3 = os.path.join(R, "cities-search.json")
 json.dump(search, open(p3, "w"), ensure_ascii=False, separators=(",", ":"))
 open(p3, "a").write("\n")
 print(f"cities-search.json: {len(search)} cities ({os.path.getsize(p3)//1024} KB)")
+
+
+# --- emperors-search.json + battles-search.json: eager search manifests ---
+# Emperors aren't indexed by search at all today, and battles only appear
+# after their layer lazy-loads. Both datasets are small; a manifest makes
+# "Justinian" and "Manzikert" work from the default view.
+emperors = json.load(open(os.path.join(BASE, "emperors", "emperors.json")))
+emp = [{
+    "id": e["id"], "n": e["name"],
+    "s": e["reignStart"], "e": e["reignEnd"],
+    "d": e.get("dynasty") or "",
+} for e in emperors]
+p4 = os.path.join(R, "emperors-search.json")
+json.dump(emp, open(p4, "w"), ensure_ascii=False, separators=(",", ":"))
+open(p4, "a").write("\n")
+print(f"emperors-search.json: {len(emp)} emperors ({os.path.getsize(p4)//1024} KB)")
+
+battles = json.load(open(os.path.join(BASE, "battles", "battles.json")))
+bat = [{
+    "id": b["id"], "n": b["name"], "y": b["year"],
+    "lat": b["lat"], "lng": b["lng"],
+} for b in battles]
+p5 = os.path.join(R, "battles-search.json")
+json.dump(bat, open(p5, "w"), ensure_ascii=False, separators=(",", ":"))
+open(p5, "a").write("\n")
+print(f"battles-search.json: {len(bat)} battles ({os.path.getsize(p5)//1024} KB)")

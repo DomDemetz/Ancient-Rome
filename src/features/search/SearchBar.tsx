@@ -17,6 +17,26 @@ interface CitySearchEntry {
   p: number
 }
 const CITY_SEARCH = citiesSearchJson as CitySearchEntry[]
+
+import emperorsSearchJson from '@/data/registry/emperors-search.json'
+import battlesSearchJson from '@/data/registry/battles-search.json'
+
+interface EmperorSearchEntry {
+  id: string
+  n: string
+  s: number
+  e: number
+  d: string
+}
+interface BattleSearchEntry {
+  id: string
+  n: string
+  y: number
+  lat: number
+  lng: number
+}
+const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
+const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
@@ -43,6 +63,7 @@ const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
   Building: { show: 'showBuildings', toggle: 'toggleBuildings' },
   Press: { show: 'showPresses', toggle: 'togglePresses' },
   City: { show: 'showSettlements', toggle: 'toggleSettlements' },
+  Emperor: { show: 'showEmperors', toggle: 'toggleEmperors' },
   Port: { show: 'showPorts', toggle: 'togglePorts' },
 }
 
@@ -62,6 +83,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   road: '#d4a74a',
   settlement: '#5b8dd9',
   city: '#f59e0b',
+  emperor: '#d4af37',
   battle: '#e74c3c',
   legion: '#c0392b',
   amphitheater: '#d4a574',
@@ -147,6 +169,30 @@ export function SearchBar() {
       }
     }
 
+    // Emperors — searching "Justinian" jumps the timeline to his reign
+    for (const e of EMPEROR_SEARCH) {
+      items.push({
+        id: `emperor-${e.id}`,
+        name: e.n,
+        category: 'Emperor',
+        color: CATEGORY_COLORS.emperor,
+        year: Math.round((e.s + e.e) / 2), // mid-reign, so the banner shows them
+      })
+    }
+
+    // Battles — always searchable via manifest (replaces lazy layer indexing)
+    for (const b of BATTLE_SEARCH) {
+      items.push({
+        id: `battle-${b.id}`,
+        name: b.n,
+        category: 'Battle',
+        color: CATEGORY_COLORS.battle,
+        lat: b.lat,
+        lng: b.lng,
+        year: b.y,
+      })
+    }
+
     // Major cities (Chandler) — always searchable; the manifest is tiny
     for (const c of CITY_SEARCH) {
       items.push({
@@ -171,21 +217,6 @@ export function SearchBar() {
           color: CATEGORY_COLORS.settlement,
           lat: s.lat,
           lng: s.lng,
-        })
-      }
-    }
-
-    // Battles
-    if (layerData.battlesData) {
-      for (const b of layerData.battlesData) {
-        items.push({
-          id: `battle-${b.id}`,
-          name: b.name,
-          category: 'Battle',
-          color: CATEGORY_COLORS.battle,
-          lat: b.lat,
-          lng: b.lng,
-          year: b.year,
         })
       }
     }

@@ -1,0 +1,584 @@
+[
+  {
+    "id": "augustus",
+    "n": "Gaius Julius Caesar Augustus",
+    "s": -27,
+    "e": 14,
+    "d": "Julio-Claudian"
+  },
+  {
+    "id": "tiberius",
+    "n": "Tiberius Julius Caesar Augustus",
+    "s": 14,
+    "e": 37,
+    "d": "Julio-Claudian"
+  },
+  {
+    "id": "caligula",
+    "n": "Gaius Julius Caesar Augustus Germanicus",
+    "s": 37,
+    "e": 41,
+    "d": "Julio-Claudian"
+  },
+  {
+    "id": "claudius",
+    "n": "Tiberius Claudius Caesar Augustus Germanicus",
+    "s": 41,
+    "e": 54,
+    "d": "Julio-Claudian"
+  },
+  {
+    "id": "nero",
+    "n": "Nero Claudius Caesar Augustus Germanicus",
+    "s": 54,
+    "e": 68,
+    "d": "Julio-Claudian"
+  },
+  {
+    "id": "galba",
+    "n": "Servius Sulpicius Galba Caesar Augustus",
+    "s": 68,
+    "e": 69,
+    "d": "Year of the Four Emperors"
+  },
+  {
+    "id": "otho",
+    "n": "Marcus Salvius Otho Caesar Augustus",
+    "s": 69,
+    "e": 69,
+    "d": "Year of the Four Emperors"
+  },
+  {
+    "id": "vitellius",
+    "n": "Aulus Vitellius Germanicus Augustus",
+    "s": 69,
+    "e": 69,
+    "d": "Year of the Four Emperors"
+  },
+  {
+    "id": "vespasian",
+    "n": "Titus Flavius Caesar Vespasianus Augustus",
+    "s": 69,
+    "e": 79,
+    "d": "Flavian"
+  },
+  {
+    "id": "titus",
+    "n": "Titus Flavius Caesar Vespasianus Augustus",
+    "s": 79,
+    "e": 81,
+    "d": "Flavian"
+  },
+  {
+    "id": "domitian",
+    "n": "Titus Flavius Caesar Domitianus Augustus",
+    "s": 81,
+    "e": 96,
+    "d": "Flavian"
+  },
+  {
+    "id": "nerva",
+    "n": "Marcus Cocceius Nerva Caesar Augustus",
+    "s": 96,
+    "e": 98,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "trajan",
+    "n": "Caesar Nerva Traianus Divi Nervae Filius Augustus",
+    "s": 98,
+    "e": 117,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "hadrian",
+    "n": "Caesar Traianus Hadrianus Augustus",
+    "s": 117,
+    "e": 138,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "antoninus-pius",
+    "n": "Caesar Titus Aelius Hadrianus Antoninus Augustus Pius",
+    "s": 138,
+    "e": 161,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "marcus-aurelius",
+    "n": "Caesar Marcus Aurelius Antoninus Augustus",
+    "s": 161,
+    "e": 180,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "lucius-verus",
+    "n": "Lucius Aurelius Verus Augustus",
+    "s": 161,
+    "e": 169,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "commodus",
+    "n": "Caesar Marcus Aurelius Commodus Antoninus Augustus",
+    "s": 180,
+    "e": 192,
+    "d": "Nerva-Antonine"
+  },
+  {
+    "id": "pertinax",
+    "n": "Publius Helvius Pertinax Augustus",
+    "s": 193,
+    "e": 193,
+    "d": "Year of the Five Emperors"
+  },
+  {
+    "id": "didius-julianus",
+    "n": "Marcus Didius Severus Julianus Augustus",
+    "s": 193,
+    "e": 193,
+    "d": "Year of the Five Emperors"
+  },
+  {
+    "id": "septimius-severus",
+    "n": "Lucius Septimius Severus Pertinax Augustus",
+    "s": 193,
+    "e": 211,
+    "d": "Severan"
+  },
+  {
+    "id": "caracalla",
+    "n": "Marcus Aurelius Severus Antoninus Augustus",
+    "s": 198,
+    "e": 217,
+    "d": "Severan"
+  },
+  { "id": "geta", "n": "Publius Septimius Geta Augustus", "s": 209, "e": 211, "d": "Severan" },
+  {
+    "id": "macrinus",
+    "n": "Marcus Opellius Severus Macrinus Augustus",
+    "s": 217,
+    "e": 218,
+    "d": "Severan"
+  },
+  {
+    "id": "elagabalus",
+    "n": "Marcus Aurelius Antoninus Augustus",
+    "s": 218,
+    "e": 222,
+    "d": "Severan"
+  },
+  {
+    "id": "severus-alexander",
+    "n": "Marcus Aurelius Severus Alexander Augustus",
+    "s": 222,
+    "e": 235,
+    "d": "Severan"
+  },
+  {
+    "id": "maximinus-thrax",
+    "n": "Gaius Julius Verus Maximinus Augustus",
+    "s": 235,
+    "e": 238,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "gordian-i",
+    "n": "Marcus Antonius Gordianus Sempronianus Romanus Africanus Augustus",
+    "s": 238,
+    "e": 238,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "gordian-ii",
+    "n": "Marcus Antonius Gordianus Sempronianus Romanus Africanus Augustus",
+    "s": 238,
+    "e": 238,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "pupienus",
+    "n": "Marcus Clodius Pupienus Maximus Augustus",
+    "s": 238,
+    "e": 238,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "balbinus",
+    "n": "Decimus Caelius Calvinus Balbinus Augustus",
+    "s": 238,
+    "e": 238,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "gordian-iii",
+    "n": "Marcus Antonius Gordianus Augustus",
+    "s": 238,
+    "e": 244,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "philip-the-arab",
+    "n": "Marcus Julius Philippus Augustus",
+    "s": 244,
+    "e": 249,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "decius",
+    "n": "Gaius Messius Quintus Traianus Decius Augustus",
+    "s": 249,
+    "e": 251,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "trebonianus-gallus",
+    "n": "Gaius Vibius Trebonianus Gallus Augustus",
+    "s": 251,
+    "e": 253,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "aemilianus",
+    "n": "Marcus Aemilius Aemilianus Augustus",
+    "s": 253,
+    "e": 253,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "valerian",
+    "n": "Publius Licinius Valerianus Augustus",
+    "s": 253,
+    "e": 260,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "gallienus",
+    "n": "Publius Licinius Egnatius Gallienus Augustus",
+    "s": 253,
+    "e": 268,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "claudius-gothicus",
+    "n": "Marcus Aurelius Claudius Gothicus Augustus",
+    "s": 268,
+    "e": 270,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "quintillus",
+    "n": "Marcus Aurelius Claudius Quintillus Augustus",
+    "s": 270,
+    "e": 270,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "aurelian",
+    "n": "Lucius Domitius Aurelianus Augustus",
+    "s": 270,
+    "e": 275,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "tacitus",
+    "n": "Marcus Claudius Tacitus Augustus",
+    "s": 275,
+    "e": 276,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "florianus",
+    "n": "Marcus Annius Florianus Augustus",
+    "s": 276,
+    "e": 276,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "probus",
+    "n": "Marcus Aurelius Probus Augustus",
+    "s": 276,
+    "e": 282,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "carus",
+    "n": "Marcus Aurelius Carus Augustus",
+    "s": 282,
+    "e": 283,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "carinus",
+    "n": "Marcus Aurelius Carinus Augustus",
+    "s": 283,
+    "e": 285,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "numerian",
+    "n": "Marcus Aurelius Numerius Numerianus Augustus",
+    "s": 283,
+    "e": 284,
+    "d": "Crisis of the Third Century"
+  },
+  {
+    "id": "diocletian",
+    "n": "Gaius Aurelius Valerius Diocletianus Augustus",
+    "s": 284,
+    "e": 305,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "maximian",
+    "n": "Marcus Aurelius Valerius Maximianus Augustus",
+    "s": 286,
+    "e": 305,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "constantius-i",
+    "n": "Flavius Valerius Constantius Augustus",
+    "s": 305,
+    "e": 306,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "galerius",
+    "n": "Gaius Galerius Valerius Maximianus Augustus",
+    "s": 305,
+    "e": 311,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "severus-ii",
+    "n": "Flavius Valerius Severus Augustus",
+    "s": 306,
+    "e": 307,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "maxentius",
+    "n": "Marcus Aurelius Valerius Maxentius Augustus",
+    "s": 306,
+    "e": 312,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "constantine-i",
+    "n": "Flavius Valerius Aurelius Constantinus Augustus",
+    "s": 306,
+    "e": 337,
+    "d": "Constantinian"
+  },
+  {
+    "id": "licinius",
+    "n": "Valerius Licinianus Licinius Augustus",
+    "s": 308,
+    "e": 324,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "maximinus-daia",
+    "n": "Galerius Valerius Maximinus Augustus",
+    "s": 310,
+    "e": 313,
+    "d": "Tetrarchy"
+  },
+  {
+    "id": "constantine-ii",
+    "n": "Flavius Claudius Constantinus Augustus",
+    "s": 337,
+    "e": 340,
+    "d": "Constantinian"
+  },
+  {
+    "id": "constans",
+    "n": "Flavius Julius Constans Augustus",
+    "s": 337,
+    "e": 350,
+    "d": "Constantinian"
+  },
+  {
+    "id": "constantius-ii",
+    "n": "Flavius Julius Constantius Augustus",
+    "s": 337,
+    "e": 361,
+    "d": "Constantinian"
+  },
+  {
+    "id": "julian",
+    "n": "Flavius Claudius Julianus Augustus",
+    "s": 361,
+    "e": 363,
+    "d": "Constantinian"
+  },
+  { "id": "jovian", "n": "Flavius Jovianus Augustus", "s": 363, "e": 364, "d": "Constantinian" },
+  {
+    "id": "valentinian-i",
+    "n": "Flavius Valentinianus Augustus",
+    "s": 364,
+    "e": 375,
+    "d": "Valentinianic"
+  },
+  {
+    "id": "valens",
+    "n": "Flavius Julius Valens Augustus",
+    "s": 364,
+    "e": 378,
+    "d": "Valentinianic"
+  },
+  { "id": "gratian", "n": "Flavius Gratianus Augustus", "s": 375, "e": 383, "d": "Valentinianic" },
+  {
+    "id": "valentinian-ii",
+    "n": "Flavius Valentinianus Augustus",
+    "s": 375,
+    "e": 392,
+    "d": "Valentinianic"
+  },
+  {
+    "id": "theodosius-i",
+    "n": "Flavius Theodosius Augustus",
+    "s": 379,
+    "e": 395,
+    "d": "Theodosian"
+  },
+  { "id": "arcadius", "n": "Flavius Arcadius Augustus", "s": 395, "e": 408, "d": "Theodosian" },
+  { "id": "honorius", "n": "Flavius Honorius Augustus", "s": 395, "e": 423, "d": "Theodosian" },
+  {
+    "id": "constantius-iii",
+    "n": "Flavius Constantius Augustus",
+    "s": 421,
+    "e": 421,
+    "d": "Theodosian"
+  },
+  { "id": "johannes", "n": "Joannes Augustus", "s": 423, "e": 425, "d": "" },
+  {
+    "id": "valentinian-iii",
+    "n": "Flavius Placidius Valentinianus Augustus",
+    "s": 425,
+    "e": 455,
+    "d": "Theodosian"
+  },
+  {
+    "id": "petronius-maximus",
+    "n": "Flavius Anicius Petronius Maximus Augustus",
+    "s": 455,
+    "e": 455,
+    "d": "Final Western"
+  },
+  { "id": "avitus", "n": "Eparchius Avitus Augustus", "s": 455, "e": 456, "d": "Final Western" },
+  {
+    "id": "majorian",
+    "n": "Julius Valerius Majorianus Augustus",
+    "s": 457,
+    "e": 461,
+    "d": "Final Western"
+  },
+  {
+    "id": "libius-severus",
+    "n": "Libius Severus Augustus",
+    "s": 461,
+    "e": 465,
+    "d": "Final Western"
+  },
+  {
+    "id": "anthemius",
+    "n": "Procopius Anthemius Augustus",
+    "s": 467,
+    "e": 472,
+    "d": "Final Western"
+  },
+  { "id": "olybrius", "n": "Anicius Olybrius Augustus", "s": 472, "e": 472, "d": "Final Western" },
+  { "id": "glycerius", "n": "Glycerius Augustus", "s": 473, "e": 474, "d": "Final Western" },
+  { "id": "julius-nepos", "n": "Julius Nepos Augustus", "s": 474, "e": 480, "d": "Final Western" },
+  { "id": "zeno-474", "n": "Zeno", "s": 474, "e": 491, "d": "Leonid" },
+  {
+    "id": "romulus-augustulus",
+    "n": "Flavius Romulus Augustus",
+    "s": 475,
+    "e": 476,
+    "d": "Final Western"
+  },
+  { "id": "anastasius-i-491", "n": "Anastasius I", "s": 491, "e": 518, "d": "Leonid" },
+  { "id": "justin-i-518", "n": "Justin I", "s": 518, "e": 527, "d": "Justinian" },
+  { "id": "justinian-i-527", "n": "Justinian I", "s": 527, "e": 565, "d": "Justinian" },
+  { "id": "justin-ii-565", "n": "Justin II", "s": 565, "e": 578, "d": "Justinian" },
+  { "id": "tiberius-ii-578", "n": "Tiberius II", "s": 578, "e": 582, "d": "Justinian" },
+  { "id": "maurice-582", "n": "Maurice", "s": 582, "e": 602, "d": "Justinian" },
+  { "id": "phocas-602", "n": "Phocas", "s": 602, "e": 610, "d": "" },
+  { "id": "heraclius-610", "n": "Heraclius", "s": 610, "e": 641, "d": "Heraclian" },
+  { "id": "constans-ii-641", "n": "Constans II", "s": 641, "e": 668, "d": "Heraclian" },
+  { "id": "constantine-iv-668", "n": "Constantine IV", "s": 668, "e": 685, "d": "Heraclian" },
+  { "id": "justinian-ii-685", "n": "Justinian II", "s": 685, "e": 695, "d": "Heraclian" },
+  { "id": "leo-iii-717", "n": "Leo III", "s": 717, "e": 741, "d": "Isaurian" },
+  { "id": "constantine-v-741", "n": "Constantine V", "s": 741, "e": 775, "d": "Isaurian" },
+  { "id": "irene-797", "n": "Irene", "s": 797, "e": 802, "d": "Isaurian" },
+  { "id": "nikephoros-i-802", "n": "Nikephoros I", "s": 802, "e": 811, "d": "" },
+  { "id": "michael-ii-820", "n": "Michael II", "s": 820, "e": 829, "d": "Amorian" },
+  { "id": "theophilos-829", "n": "Theophilos", "s": 829, "e": 842, "d": "Amorian" },
+  { "id": "michael-iii-842", "n": "Michael III", "s": 842, "e": 867, "d": "Amorian" },
+  { "id": "basil-i-867", "n": "Basil I", "s": 867, "e": 886, "d": "Macedonian" },
+  { "id": "leo-vi-886", "n": "Leo VI", "s": 886, "e": 912, "d": "Macedonian" },
+  { "id": "constantine-vii-913", "n": "Constantine VII", "s": 913, "e": 959, "d": "Macedonian" },
+  { "id": "nikephoros-ii-963", "n": "Nikephoros II", "s": 963, "e": 969, "d": "Macedonian" },
+  { "id": "john-i-tzimiskes-969", "n": "John I Tzimiskes", "s": 969, "e": 976, "d": "Macedonian" },
+  { "id": "basil-ii-976", "n": "Basil II", "s": 976, "e": 1025, "d": "Macedonian" },
+  {
+    "id": "constantine-viii-1025",
+    "n": "Constantine VIII",
+    "s": 1025,
+    "e": 1028,
+    "d": "Macedonian"
+  },
+  { "id": "romanos-iii-1028", "n": "Romanos III", "s": 1028, "e": 1034, "d": "Macedonian" },
+  { "id": "constantine-ix-1042", "n": "Constantine IX", "s": 1042, "e": 1055, "d": "Macedonian" },
+  { "id": "constantine-x-1059", "n": "Constantine X", "s": 1059, "e": 1067, "d": "Doukas" },
+  { "id": "romanos-iv-1068", "n": "Romanos IV", "s": 1068, "e": 1071, "d": "Doukas" },
+  { "id": "michael-vii-1071", "n": "Michael VII", "s": 1071, "e": 1078, "d": "Doukas" },
+  {
+    "id": "alexios-i-komnenos-1081",
+    "n": "Alexios I Komnenos",
+    "s": 1081,
+    "e": 1118,
+    "d": "Komnenian"
+  },
+  {
+    "id": "john-ii-komnenos-1118",
+    "n": "John II Komnenos",
+    "s": 1118,
+    "e": 1143,
+    "d": "Komnenian"
+  },
+  {
+    "id": "manuel-i-komnenos-1143",
+    "n": "Manuel I Komnenos",
+    "s": 1143,
+    "e": 1180,
+    "d": "Komnenian"
+  },
+  { "id": "andronikos-i-1183", "n": "Andronikos I", "s": 1183, "e": 1185, "d": "Komnenian" },
+  { "id": "isaac-ii-angelos-1185", "n": "Isaac II Angelos", "s": 1185, "e": 1195, "d": "Angelos" },
+  { "id": "alexios-iii-1195", "n": "Alexios III", "s": 1195, "e": 1203, "d": "Angelos" },
+  {
+    "id": "theodore-i-laskaris-1205",
+    "n": "Theodore I Laskaris",
+    "s": 1205,
+    "e": 1221,
+    "d": "Laskarid"
+  },
+  {
+    "id": "john-iii-vatatzes-1221",
+    "n": "John III Vatatzes",
+    "s": 1221,
+    "e": 1254,
+    "d": "Laskarid"
+  },
+  { "id": "michael-viii-1259", "n": "Michael VIII", "s": 1259, "e": 1282, "d": "Palaiologan" },
+  { "id": "andronikos-ii-1282", "n": "Andronikos II", "s": 1282, "e": 1328, "d": "Palaiologan" },
+  { "id": "andronikos-iii-1328", "n": "Andronikos III", "s": 1328, "e": 1341, "d": "Palaiologan" },
+  { "id": "john-v-1341", "n": "John V", "s": 1341, "e": 1391, "d": "Palaiologan" },
+  { "id": "manuel-ii-1391", "n": "Manuel II", "s": 1391, "e": 1425, "d": "Palaiologan" },
+  { "id": "john-viii-1425", "n": "John VIII", "s": 1425, "e": 1448, "d": "Palaiologan" },
+  { "id": "constantine-xi-1449", "n": "Constantine XI", "s": 1449, "e": 1453, "d": "Palaiologan" }
+]
