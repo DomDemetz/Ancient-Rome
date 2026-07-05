@@ -58,8 +58,13 @@ successor via Vici.
 
 ## Adoption path (deliberate, staged)
 
-1. ✅ Registry + crosswalks (this commit) — additive, no runtime change.
-2. Merge duplicate map dots: settlement layers consult crosswalks at build
-   time to drop/merge the 12k duplicate rows.
-3. Entity detail: popups resolve place → QID → richer enrichment.
-4. New datasets (other empires) attach by reusing the same reconciler.
+1. ✅ Registry + crosswalks — additive, no runtime change.
+2. ✅ Merge duplicate map dots — dare-suppression.json hides a DARE twin
+   while its labeled Chandler city is on screen (245 twins).
+3. ✅ Entity detail — city popups resolve place → QID → Wikipedia panel
+   (cities-wiki.json: 194 entries, 134 inherited free via the crosswalks);
+   +22 battle enrichments via battle QIDs.
+4. ✅ Search manifests — cities/emperors/battles searchable from cold start
+   (registry/\*-search.json), with lifespan-aware time-jumping.
+5. Extend to Vici's 85k sites (suppression + enrichment via q\_\* tables).
+6. New datasets (other empires) attach by reusing the same reconciler.
