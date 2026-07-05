@@ -265,6 +265,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
   const {
     showRoads,
     showSettlements,
+    showCities,
     showLimes,
     showPresence,
     showProvinces,
@@ -314,6 +315,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     activePreset,
     toggleRoads,
     toggleSettlements,
+    toggleCities,
     toggleLimes,
     togglePresence,
     toggleProvinces,
@@ -347,6 +349,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       active: showItinereRoads,
       loading: itinereRoadsLoading,
       toggle: toggleItinereRoads,
+    },
+    Cities: {
+      active: showCities,
+      loading: placesLoading,
+      toggle: toggleCities,
     },
     Settlements: {
       active: showSettlements,

@@ -59,7 +59,7 @@ export function StatsOverlay() {
   const legionsData = useMapLayerStore((s) => s.legionsData)
   const showShipwrecks = useMapLayerStore((s) => s.showShipwrecks)
   const shipwrecksData = useMapLayerStore((s) => s.shipwrecksData)
-  const showSettlements = useMapLayerStore((s) => s.showSettlements)
+  const showCities = useMapLayerStore((s) => s.showCities)
   const placesData = useMapLayerStore((s) => s.placesData)
 
   const battleCount = useMemo(() => {
@@ -83,13 +83,13 @@ export function StatsOverlay() {
   }, [showShipwrecks, shipwrecksData, currentYear])
 
   const romePopulation = useMemo(() => {
-    if (!showSettlements || !placesData) return null
+    if (!showCities || !placesData) return null
     // Canonical entity node: Rome is pl-423025 (see ENTITY-MODEL.md)
     const rome =
       placesData.find((p) => p.id === 'pl-423025') ?? placesData.find((p) => p.name === 'Rome')
     if (!rome?.populations) return null
     return interpolateRomePopulation(rome.populations, currentYear)
-  }, [showSettlements, placesData, currentYear])
+  }, [showCities, placesData, currentYear])
 
   const stats: {
     Icon: React.ComponentType<{ className?: string }>

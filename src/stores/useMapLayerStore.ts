@@ -53,6 +53,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showRoads',
       'showItinereRoads',
       'showSettlements',
+      'showCities',
       'showShipwrecks',
       'showMines',
       'showPresses',
@@ -64,7 +65,14 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'Gods & Temples',
     description: 'From Jupiter to Christ — religious transformation',
     timelineYear: 200,
-    layers: ['showReligion', 'showBuildings', 'showSettlements', 'showProvinces', 'showEpigraphy'],
+    layers: [
+      'showReligion',
+      'showBuildings',
+      'showSettlements',
+      'showCities',
+      'showProvinces',
+      'showEpigraphy',
+    ],
   },
   riseAndFall: {
     label: 'Rise & Fall',
@@ -76,6 +84,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showEmperors',
       'showRoads',
       'showSettlements',
+      'showCities',
       'showProvinces',
       'showLimes',
       'showFortifications',
@@ -92,6 +101,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showRoads',
       'showItinereRoads',
       'showSettlements',
+      'showCities',
       'showAmphitheaters',
       'showBuildings',
       'showAqueducts',
@@ -104,7 +114,14 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     timelineYear: 600,
     // Cities + the enduring road/trade network keep the medieval map alive
     // (settlements hand off to the Chandler cities past ~800).
-    layers: ['showSettlements', 'showRoads', 'showTradeNetwork', 'showBattles', 'showEmperors'],
+    layers: [
+      'showSettlements',
+      'showCities',
+      'showRoads',
+      'showTradeNetwork',
+      'showBattles',
+      'showEmperors',
+    ],
   },
 }
 
@@ -168,6 +185,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
   {
     label: 'Urban',
     layers: [
+      {
+        key: 'Cities',
+        label: 'Major Cities',
+        activeClass: 'bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80',
+      },
       {
         key: 'Settlements',
         label: 'Settlements',
@@ -272,6 +294,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
 export const ALL_LAYER_KEYS = [
   'showRoads',
   'showSettlements',
+  'showCities',
   'showLimes',
   'showPresence',
   'showProvinces',
@@ -311,6 +334,7 @@ interface MapLayerState {
   // Existing layers
   showRoads: boolean
   showSettlements: boolean
+  showCities: boolean
   showLimes: boolean
   showPresence: boolean
   showProvinces: boolean
@@ -403,6 +427,7 @@ interface MapLayerState {
 interface MapLayerActions {
   toggleRoads: () => void
   toggleSettlements: () => void
+  toggleCities: () => void
   toggleLimes: () => void
   togglePresence: () => void
   toggleProvinces: () => void
@@ -519,6 +544,10 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadPlaces } = await import('@/data/places')
     return { placesData: await loadPlaces() }
   }),
+  showCities: ensureLoaded('placesData', 'placesLoading', async () => {
+    const { loadPlaces } = await import('@/data/places')
+    return { placesData: await loadPlaces() }
+  }),
   showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
     const { loadLimes } = await import('@/data/dare')
     return { limesData: await loadLimes() }
@@ -622,6 +651,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   roadsData: null,
   roadsLoading: false,
   showSettlements: false,
+  showCities: false,
   placesData: null,
   placesLoading: false,
   showLimes: false,
@@ -706,6 +736,12 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleSettlements: () =>
     makeToggle('showSettlements', 'placesData', 'placesLoading', async () => {
+      const { loadPlaces } = await import('@/data/places')
+      return { data: await loadPlaces() }
+    })(set, get),
+
+  toggleCities: () =>
+    makeToggle('showCities', 'placesData', 'placesLoading', async () => {
       const { loadPlaces } = await import('@/data/places')
       return { data: await loadPlaces() }
     })(set, get),

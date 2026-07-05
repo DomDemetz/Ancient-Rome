@@ -1,8 +1,7 @@
-import { useEffect, useMemo } from 'react'
+import { useMemo } from 'react'
 import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import {
@@ -18,6 +17,10 @@ interface PlacesLayerProps {
   data: PlaceNode[]
   enabledTypes: Set<number>
   hiddenCategories: Set<string>
+  /** the DARE-typed settlement dots */
+  showSettlements: boolean
+  /** the amber population cities (sized + labeled) */
+  showCities: boolean
 }
 
 /** Zoom threshold below which a DARE-typed place is hidden (ported 1:1). */
@@ -113,24 +116,13 @@ function baseTooltipHtml(p: PlaceNode, name: string, pop: number | null, year: n
  * Population nodes render amber, sized by their interpolated population, and
  * carry zoom-aware labels; DARE-typed nodes keep the category legend styling.
  */
-/** Capture-phase click delegate for the "connections" button in node popups —
- *  opens the curated narrative graph (DetailPanel) for absorbed entities. */
-function useConnectionsDelegate() {
-  const select = useSelectionStore((s) => s.select)
-  useEffect(() => {
-    function handleClick(e: MouseEvent) {
-      const btn = (e.target as HTMLElement).closest(
-        '.map-tooltip-connections',
-      ) as HTMLElement | null
-      if (btn?.dataset.entityId) select(btn.dataset.entityId)
-    }
-    document.addEventListener('click', handleClick, true)
-    return () => document.removeEventListener('click', handleClick, true)
-  }, [select])
-}
-
-export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLayerProps) {
-  useConnectionsDelegate()
+export function PlacesLayer({
+  data,
+  enabledTypes,
+  hiddenCategories,
+  showSettlements,
+  showCities,
+}: PlacesLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const setlWiki = useWikiEnrichment('settlements')
@@ -138,8 +130,11 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
 
   const visible = useMemo(() => {
     return data.filter((p) => {
-      const hasPop = p.populations != null && p.populations.length > 0
+      // A population city counts as one only while the Cities toggle is on;
+      // otherwise it degrades to (or hides with) its settlement identity.
+      const hasPop = showCities && p.populations != null && p.populations.length > 0
       const t = p.dare?.type
+      if (!hasPop && !showSettlements) return false
 
       // Category/type filters apply to DARE-typed nodes; population nodes
       // (major cities) obey the urban category toggle
@@ -180,12 +175,12 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
       }
       return true
     })
-  }, [data, zoom, bounds, currentYear, enabledTypes, hiddenCategories])
+  }, [data, zoom, bounds, currentYear, enabledTypes, hiddenCategories, showSettlements, showCities])
 
   return (
     <>
       {visible.map((p) => {
-        const pop = p.populations ? popAt(p.populations, currentYear) : null
+        const pop = showCities && p.populations ? popAt(p.populations, currentYear) : null
         const name = displayName(p, currentYear)
 
         let color: string
@@ -212,7 +207,7 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
 
         return (
           <CircleMarker
-            key={p.id}
+            key={`${p.id}-${pop != null ? 'c' : 's'}`}
             center={[p.lat, p.lng]}
             radius={radius}
             pathOptions={{
@@ -237,10 +232,8 @@ export function PlacesLayer({ data, enabledTypes, hiddenCategories }: PlacesLaye
                       wikiKey,
                       p.wiki ? wikiLookup : null,
                       wikiLayer,
+                      p.entity,
                     ) +
-                    (p.entity
-                      ? `<button class="map-tooltip-readmore map-tooltip-connections" data-entity-id="${p.entity}">Explore ${p.entityConnections ?? ''} connection${p.entityConnections === 1 ? '' : 's'}</button>`
-                      : '') +
                     (p.qid && !(p.wiki && wikiLookup?.[wikiKey])
                       ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
                       : ''),

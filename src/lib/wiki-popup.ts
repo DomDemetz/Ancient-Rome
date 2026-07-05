@@ -20,6 +20,7 @@ export function appendWikiTooltip(
   id: string,
   lookup: WikiLookup | null,
   layer: string,
+  entityId?: string,
 ): string {
   if (!lookup) return html
   const wiki = lookup[id]
@@ -39,10 +40,13 @@ export function appendWikiTooltip(
     wikiHtml += `<img class="map-tooltip-thumb" src="${esc(imgUrl)}" alt="" />`
   }
 
-  // First sentence of romanEraExtract — match period followed by space + uppercase
-  // to avoid breaking on abbreviations like "St. Peter" or "A.D. 100"
-  const sentenceMatch = wiki.romanEraExtract.match(/^(.+?\.)\s+(?=[A-Z])/)
-  const firstSentence = sentenceMatch?.[1] ?? wiki.romanEraExtract.split(/\.\s/)[0]
+  // Use romanEraExtract if it's custom, otherwise prefer Pleiades description
+  const hasCustomExtract = wiki.romanEraExtract && wiki.romanEraExtract !== wiki.extract
+  const extractSource = hasCustomExtract
+    ? wiki.romanEraExtract
+    : (wiki.crossRef?.pleiadesDescription ?? wiki.romanEraExtract)
+  const sentenceMatch = extractSource.match(/^(.+?\.)\s+(?=[A-Z])/)
+  const firstSentence = sentenceMatch?.[1] ?? extractSource.split(/\.\s/)[0]
   if (firstSentence) {
     const text = firstSentence.endsWith('.') ? firstSentence : firstSentence + '.'
     wikiHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
@@ -70,7 +74,7 @@ export function appendWikiTooltip(
     wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--sourced">Sourced</span>'
   }
 
-  wikiHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(id)}" data-wiki-layer="${esc(layer)}">Read more</button>`
+  wikiHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(id)}" data-wiki-layer="${esc(layer)}"${entityId ? ` data-entity-id="${esc(entityId)}"` : ''}>Read more</button>`
   wikiHtml += '</div>'
 
   return html + wikiHtml

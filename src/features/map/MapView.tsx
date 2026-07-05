@@ -170,6 +170,7 @@ export function MapView() {
   const {
     showRoads,
     showSettlements,
+    showCities,
     showLimes,
     showPresence,
     showProvinces,
@@ -292,11 +293,13 @@ export function MapView() {
               DARE + Chandler + Pleiades + Wikidata (ENTITY-MODEL.md). Renders
               across ALL eras; every node is date-bounded, population nodes are
               labeled and sized, DARE-typed nodes keep the category legend. */}
-          {showSettlements && placesData && (
+          {(showSettlements || showCities) && placesData && (
             <PlacesLayer
               data={placesData}
               enabledTypes={enabledTypes}
               hiddenCategories={hiddenCategories}
+              showSettlements={showSettlements}
+              showCities={showCities}
             />
           )}
 

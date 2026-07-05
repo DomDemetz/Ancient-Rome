@@ -62,7 +62,7 @@ const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
   'Religious site': { show: 'showReligion', toggle: 'toggleReligion' },
   Building: { show: 'showBuildings', toggle: 'toggleBuildings' },
   Press: { show: 'showPresses', toggle: 'togglePresses' },
-  City: { show: 'showSettlements', toggle: 'toggleSettlements' },
+  City: { show: 'showCities', toggle: 'toggleCities' },
   Emperor: { show: 'showEmperors', toggle: 'toggleEmperors' },
   Port: { show: 'showPorts', toggle: 'togglePorts' },
 }

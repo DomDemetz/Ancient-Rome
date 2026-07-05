@@ -7,6 +7,8 @@ import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
 import type { WikiEnrichment, WikiLookup } from '@/data/wiki'
 import { formatYear } from '@/lib/geo'
+import { connections } from '@/data'
+import { ConnectionList } from './ConnectionList'
 
 async function loadAndMerge(
   loadWiki: () => Promise<WikiLookup>,
@@ -92,9 +94,11 @@ function FactRow({ label, value, source }: { label: string; value: string; sourc
 function WikiDetailContent({
   featureId,
   featureLayer,
+  featureEntityId,
 }: {
   featureId: string
   featureLayer: string
+  featureEntityId: string | null
 }) {
   const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
   const [state, setState] = useState<{ wiki: WikiEnrichment | null; loading: boolean }>({
@@ -310,9 +314,14 @@ function WikiDetailContent({
             </div>
           )}
 
-          {/* One-line hook — first sentence */}
+          {/* One-line hook — first sentence, prefer Pleiades over generic Wikipedia */}
           <p className="text-sm text-slate-300 leading-relaxed">
-            {wiki.romanEraExtract?.split(/\.\s/)[0]?.trim()}.
+            {(() => {
+              const hasCustomExtract = wiki.romanEraExtract && wiki.romanEraExtract !== wiki.extract
+              const source = hasCustomExtract ? wiki.romanEraExtract : cr?.pleiadesDescription
+              if (!source) return `${wiki.extract?.split(/\.\s/)[0]?.trim()}.`
+              return `${source.split(/\.\s/)[0]?.trim()}.`
+            })()}
           </p>
 
           {/* LEVEL 2 — THE STORY */}
@@ -339,14 +348,20 @@ function WikiDetailContent({
               <span className="text-[9px] text-slate-600 ml-1">— Pleiades</span>
             </div>
           )}
-          {/* Wikipedia extract — supplementary, dimmed if Pleiades already provided context */}
-          {(wiki.romanRelevance == null || wiki.romanRelevance >= 0.1) && !wiki.wrongArticle && (
-            <div
-              className={`text-[13px] leading-relaxed whitespace-pre-line ${cr?.pleiadesDescription ? 'text-slate-500' : 'text-slate-400'}`}
-            >
-              {wiki.romanEraExtract || wiki.extract}
-            </div>
-          )}
+          {/* Wikipedia extract — hide generic extracts when Pleiades covers it */}
+          {(() => {
+            if (wiki.wrongArticle) return null
+            if (wiki.romanRelevance != null && wiki.romanRelevance < 0.1) return null
+            const hasCustomExtract = wiki.romanEraExtract && wiki.romanEraExtract !== wiki.extract
+            if (!hasCustomExtract && cr?.pleiadesDescription) return null
+            return (
+              <div
+                className={`text-[13px] leading-relaxed whitespace-pre-line ${cr?.pleiadesDescription ? 'text-slate-500' : 'text-slate-400'}`}
+              >
+                {wiki.romanEraExtract || wiki.extract}
+              </div>
+            )
+          })()}
 
           {/* Additional images */}
           {wiki.images && wiki.images.length > 1 && (
@@ -486,6 +501,15 @@ function WikiDetailContent({
               )}
             </>
           )}
+
+          {/* Curated narrative connections — the absorbed Hidden Network graph
+              (one unified view: knowledge above, connections below) */}
+          {featureEntityId && (
+            <>
+              <Separator className="my-4" />
+              <ConnectionList entityId={featureEntityId} connections={connections} />
+            </>
+          )}
         </div>
       </div>
     </div>
@@ -504,7 +528,7 @@ function useReadMoreDelegate() {
       if (!btn) return
       const id = btn.dataset.wikiId
       const layer = btn.dataset.wikiLayer
-      if (id && layer) openFeature(id, layer)
+      if (id && layer) openFeature(id, layer, btn.dataset.entityId)
     }
     document.addEventListener('click', handleClick, true)
     return () => document.removeEventListener('click', handleClick, true)
@@ -516,6 +540,7 @@ export function WikiDetailPanel() {
 
   const featureId = useFeatureDetailStore((s) => s.featureId)
   const featureLayer = useFeatureDetailStore((s) => s.featureLayer)
+  const featureEntityId = useFeatureDetailStore((s) => s.featureEntityId)
   const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
   const isMobile = useUIStore((s) => s.isMobile)
 
@@ -534,7 +559,11 @@ export function WikiDetailPanel() {
             <DrawerTitle>Wikipedia Detail</DrawerTitle>
           </DrawerHeader>
           <div className="flex-1 min-h-0 flex flex-col overflow-y-auto overscroll-contain">
-            <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
+            <WikiDetailContent
+              featureId={featureId}
+              featureLayer={featureLayer}
+              featureEntityId={featureEntityId}
+            />
           </div>
         </DrawerContent>
       </Drawer>
@@ -543,7 +572,11 @@ export function WikiDetailPanel() {
 
   return (
     <aside className="w-[340px] h-full shrink-0 border-l border-white/[0.05] bg-[#0c0c10] overflow-hidden flex flex-col">
-      <WikiDetailContent featureId={featureId} featureLayer={featureLayer} />
+      <WikiDetailContent
+        featureId={featureId}
+        featureLayer={featureLayer}
+        featureEntityId={featureEntityId}
+      />
     </aside>
   )
 }
