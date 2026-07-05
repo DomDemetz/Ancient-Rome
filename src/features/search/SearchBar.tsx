@@ -112,7 +112,7 @@ export function SearchBar() {
   const layerData = useMapLayerStore(
     useShallow((s) => ({
       roadsData: s.roadsData,
-      settlementsData: s.settlementsData,
+      placesData: s.placesData,
       battlesData: s.battlesData,
       legionsData: s.legionsData,
       amphitheatersData: s.amphitheatersData,
@@ -207,16 +207,18 @@ export function SearchBar() {
       })
     }
 
-    // Settlements
-    if (layerData.settlementsData) {
-      for (const s of layerData.settlementsData) {
+    // Canonical places (minor settlements; major cities come from the
+    // eager manifest above — skip population nodes to avoid duplicates)
+    if (layerData.placesData) {
+      for (const p of layerData.placesData) {
+        if (p.populations) continue
         items.push({
-          id: `settlement-${s.id}`,
-          name: s.name,
+          id: `settlement-${p.id}`,
+          name: p.name,
           category: 'Settlement',
           color: CATEGORY_COLORS.settlement,
-          lat: s.lat,
-          lng: s.lng,
+          lat: p.lat,
+          lng: p.lng,
         })
       }
     }

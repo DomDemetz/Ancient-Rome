@@ -1,7 +1,8 @@
 import { create } from 'zustand'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { FeatureCollection } from 'geojson'
-import type { DareSettlement, ProvinceLabel, CityPopulation, ProvinceChange } from '@/data/dare'
+import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
+import type { PlaceNode } from '@/data/places'
 import type { PresenceGrid } from '@/features/map/layers/PresenceLayer'
 import type { SettlementCategory } from '@/features/map/layers/settlementStyles'
 import type { Battle } from '@/data/battles'
@@ -317,8 +318,7 @@ interface MapLayerState {
   showWater: boolean
   showItinereRoads: boolean
   roadsData: FeatureCollection | null
-  settlementsData: DareSettlement[] | null
-  cityPopulationsData: CityPopulation[] | null
+  placesData: PlaceNode[] | null
   limesData: FeatureCollection | null
   presenceData: PresenceGrid | null
   provincesData: FeatureCollection | null
@@ -328,7 +328,7 @@ interface MapLayerState {
   waterData: FeatureCollection | null
   itinereRoadsData: FeatureCollection | null
   roadsLoading: boolean
-  settlementsLoading: boolean
+  placesLoading: boolean
   limesLoading: boolean
   presenceLoading: boolean
   provincesLoading: boolean
@@ -515,13 +515,9 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadRoads } = await import('@/data/dare')
     return { roadsData: await loadRoads() }
   }),
-  showSettlements: ensureLoaded('settlementsData', 'settlementsLoading', async () => {
-    const { loadSettlements, loadCityPopulations } = await import('@/data/dare')
-    const [data, pops] = await Promise.all([
-      loadSettlements(),
-      loadCityPopulations().catch(() => []),
-    ])
-    return { settlementsData: data, cityPopulationsData: pops }
+  showSettlements: ensureLoaded('placesData', 'placesLoading', async () => {
+    const { loadPlaces } = await import('@/data/places')
+    return { placesData: await loadPlaces() }
   }),
   showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
     const { loadLimes } = await import('@/data/dare')
@@ -626,9 +622,8 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   roadsData: null,
   roadsLoading: false,
   showSettlements: false,
-  settlementsData: null,
-  cityPopulationsData: null,
-  settlementsLoading: false,
+  placesData: null,
+  placesLoading: false,
   showLimes: false,
   limesData: null,
   limesLoading: false,
@@ -710,13 +705,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     })(set, get),
 
   toggleSettlements: () =>
-    makeToggle('showSettlements', 'settlementsData', 'settlementsLoading', async () => {
-      const { loadSettlements, loadCityPopulations } = await import('@/data/dare')
-      const [data, pops] = await Promise.all([
-        loadSettlements(),
-        loadCityPopulations().catch(() => []),
-      ])
-      return { data, extra: { cityPopulationsData: pops } }
+    makeToggle('showSettlements', 'placesData', 'placesLoading', async () => {
+      const { loadPlaces } = await import('@/data/places')
+      return { data: await loadPlaces() }
     })(set, get),
 
   toggleLimes: () =>

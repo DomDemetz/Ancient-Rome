@@ -287,7 +287,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     showPorts,
     showNotablePeople,
     roadsLoading,
-    settlementsLoading,
+    placesLoading,
     limesLoading,
     presenceLoading,
     provincesLoading,
@@ -309,7 +309,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     viciLoading,
     portsLoading,
     notablePeopleLoading,
-    settlementsData,
+    placesData,
     settlementTypes,
     activePreset,
     toggleRoads,
@@ -350,7 +350,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     },
     Settlements: {
       active: showSettlements,
-      loading: settlementsLoading,
+      loading: placesLoading,
       toggle: toggleSettlements,
     },
     Limes: { active: showLimes, loading: limesLoading, toggle: toggleLimes },
@@ -392,15 +392,16 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
   }
 
   const typeCounts = useMemo(() => {
-    if (!settlementsData) return []
+    if (!placesData) return []
     const counts: Record<number, number> = {}
-    for (const s of settlementsData) {
-      counts[s.type] = (counts[s.type] || 0) + 1
+    for (const p of placesData) {
+      const t = p.dare?.type
+      if (t != null) counts[t] = (counts[t] || 0) + 1
     }
     return Object.entries(DARE_TYPE_LABELS)
       .map(([k, label]) => ({ type: Number(k), label, count: counts[Number(k)] || 0 }))
       .sort((a, b) => b.count - a.count)
-  }, [settlementsData])
+  }, [placesData])
 
   const toggleGroup = (label: string) => {
     setCollapsedGroups((prev) => {

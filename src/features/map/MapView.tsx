@@ -9,7 +9,7 @@ import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { EntityMarkers } from './overlays/EntityMarkers'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { RoadLayer } from './layers/RoadLayer'
-import { SettlementLayer } from './layers/SettlementLayer'
+import { PlacesLayer } from './layers/PlacesLayer'
 import { LimesLayer } from './layers/LimesLayer'
 import { PresenceLayer } from './layers/PresenceLayer'
 import { ProvinceLayer } from './layers/ProvinceLayer'
@@ -30,7 +30,6 @@ import { EpigraphyLayer } from './layers/EpigraphyLayer'
 import { ViciLayer } from './layers/ViciLayer'
 import { PortsLayer } from './layers/PortsLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
-import { CitiesLayer } from './layers/CitiesLayer'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
@@ -194,7 +193,7 @@ export function MapView() {
     showPorts,
     showNotablePeople,
     roadsData,
-    settlementsData,
+    placesData,
     limesData,
     presenceData,
     provincesData,
@@ -220,7 +219,6 @@ export function MapView() {
     viciData,
     portsData,
     notablePeopleData,
-    cityPopulationsData,
     settlementTypes,
     hiddenCategories,
     toggleCategory,
@@ -291,26 +289,22 @@ export function MapView() {
             <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
           )}
 
-          {/* Major cities with population (Chandler / Reba et al., CC-BY) — labeled
-              and date-bounded, shown across ALL eras. Labels the great classical
-              cities (Rome, Alexandria, Carthage) over the fine-grained DARE dots,
-              and carries the medieval centuries where the Roman data runs out. */}
-          {showSettlements && <CitiesLayer />}
+          {/* THE canonical place layer — one node per real place, merged from
+              DARE + Chandler + Pleiades + Wikidata (ENTITY-MODEL.md). Renders
+              across ALL eras; every node is date-bounded, population nodes are
+              labeled and sized, DARE-typed nodes keep the category legend. */}
+          {showSettlements && placesData && (
+            <PlacesLayer
+              data={placesData}
+              enabledTypes={enabledTypes}
+              hiddenCategories={hiddenCategories}
+            />
+          )}
 
           {/* Roman-scoped layers — institutions & enrichment with no post-antiquity
-              data. Gated at the detail horizon; nothing here reaches the Middle Ages.
-              DARE settlements live here too (accurate to ~800); Chandler cities take
-              over beyond it. */}
+              data. Gated at the detail horizon; nothing here reaches the Middle Ages. */}
           {detailEra && (
             <>
-              {showSettlements && settlementsData && (
-                <SettlementLayer
-                  data={settlementsData}
-                  enabledTypes={enabledTypes}
-                  hiddenCategories={hiddenCategories}
-                  populationData={cityPopulationsData}
-                />
-              )}
               {showProvinces && provincesData && (
                 <ProvinceLayer
                   data={provincesData}
