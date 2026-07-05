@@ -6,7 +6,6 @@ import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
-import { EntityMarkers } from './overlays/EntityMarkers'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { RoadLayer } from './layers/RoadLayer'
 import { PlacesLayer } from './layers/PlacesLayer'
@@ -334,8 +333,6 @@ export function MapView() {
               {showNotablePeople && notablePeopleData && (
                 <NotablePeopleLayer data={notablePeopleData} />
               )}
-
-              <EntityMarkers />
             </>
           )}
 
