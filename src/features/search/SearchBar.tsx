@@ -3,6 +3,20 @@ import Fuse from 'fuse.js'
 import { useShallow } from 'zustand/shallow'
 import { Search, X } from 'lucide-react'
 import { entities } from '@/data'
+import citiesSearchJson from '@/data/registry/cities-search.json'
+
+// Tiny build-time manifest of the Chandler cities (see ENTITY-MODEL.md):
+// name, coords, lifespan within the atlas window, and peak-population year.
+interface CitySearchEntry {
+  id: string
+  n: string
+  lat: number
+  lng: number
+  s: number
+  e: number
+  p: number
+}
+const CITY_SEARCH = citiesSearchJson as CitySearchEntry[]
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
@@ -28,6 +42,7 @@ const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
   'Religious site': { show: 'showReligion', toggle: 'toggleReligion' },
   Building: { show: 'showBuildings', toggle: 'toggleBuildings' },
   Press: { show: 'showPresses', toggle: 'togglePresses' },
+  City: { show: 'showSettlements', toggle: 'toggleSettlements' },
   Port: { show: 'showPorts', toggle: 'togglePorts' },
 }
 
@@ -40,11 +55,13 @@ interface SearchItem {
   lng?: number
   entityId?: string // for graph entities
   year?: number // for time-filtered features (battle/shipwreck/legion) — jump the timeline so the marker is actually visible on arrival
+  lifespan?: [number, number] // cities: only jump time if outside this range
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
   road: '#d4a74a',
   settlement: '#5b8dd9',
+  city: '#f59e0b',
   battle: '#e74c3c',
   legion: '#c0392b',
   amphitheater: '#d4a574',
@@ -128,6 +145,20 @@ export function SearchBar() {
           ...coords,
         })
       }
+    }
+
+    // Major cities (Chandler) — always searchable; the manifest is tiny
+    for (const c of CITY_SEARCH) {
+      items.push({
+        id: `city-${c.id}`,
+        name: c.n,
+        category: 'City',
+        color: CATEGORY_COLORS.city,
+        lat: c.lat,
+        lng: c.lng,
+        year: c.p,
+        lifespan: [c.s, c.e],
+      })
     }
 
     // Settlements
@@ -367,7 +398,13 @@ export function SearchBar() {
     // their own year. Jump the timeline so the marker is actually on screen
     // when we arrive — otherwise the user lands on an empty spot.
     if (item.year != null) {
-      setYear(item.year)
+      if (item.lifespan) {
+        // Cities live across a range — only jump if it doesn't exist "now"
+        const now = useTimelineStore.getState().currentYear
+        if (now < item.lifespan[0] || now > item.lifespan[1]) setYear(item.year)
+      } else {
+        setYear(item.year)
+      }
     }
 
     // If it has coordinates, switch to map and fly there

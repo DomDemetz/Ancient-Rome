@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "chandler-memphis--2000",
+    "n": "Memphis",
+    "lat": 29.8447,
+    "lng": 31.2508,
+    "s": -753,
+    "e": 1453,
+    "p": -430
+  },
+  {
+    "id": "chandler-susa--2000",
+    "n": "Susa",
+    "lat": 32.1908,
+    "lng": 48.246,
+    "s": -753,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-babylon--1600",
+    "n": "Babylon",
+    "lat": 32.5364,
+    "lng": 44.4208,
+    "s": -753,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-argos--1200",
+    "n": "Argos",
+    "lat": 37.6333,
+    "lng": 22.7333,
+    "s": -753,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-jerusalem--800",
+    "n": "Jerusalem",
+    "lat": 31.769,
+    "lng": 35.2163,
+    "s": -753,
+    "e": 1453,
+    "p": 1099
+  },
+  {
+    "id": "chandler-nimrud--800",
+    "n": "Nimrud",
+    "lat": 36.0981,
+    "lng": 43.3288,
+    "s": -753,
+    "e": -650,
+    "p": -650
+  },
+  {
+    "id": "chandler-samarkand--712",
+    "n": "Samarkand",
+    "lat": 39.6576,
+    "lng": 66.9476,
+    "s": -712,
+    "e": 1453,
+    "p": 1405
+  },
+  {
+    "id": "chandler-miletus--650",
+    "n": "Miletus",
+    "lat": 37.5303,
+    "lng": 27.2783,
+    "s": -650,
+    "e": -650,
+    "p": -650
+  },
+  {
+    "id": "chandler-nineveh--650",
+    "n": "Nineveh",
+    "lat": 36.3594,
+    "lng": 43.1528,
+    "s": -650,
+    "e": -650,
+    "p": -650
+  },
+  {
+    "id": "chandler-sais--650",
+    "n": "Sais",
+    "lat": 30.9649,
+    "lng": 30.7687,
+    "s": -650,
+    "e": -650,
+    "p": -650
+  },
+  {
+    "id": "chandler-agrigento--430",
+    "n": "Agrigento",
+    "lat": 37.2908,
+    "lng": 13.5843,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-athens--430",
+    "n": "Athens",
+    "lat": 37.9794,
+    "lng": 23.7162,
+    "s": -430,
+    "e": 1453,
+    "p": -430
+  },
+  {
+    "id": "chandler-carthage--430",
+    "n": "Carthage",
+    "lat": 36.8581,
+    "lng": 10.3308,
+    "s": -430,
+    "e": 622,
+    "p": -200
+  },
+  {
+    "id": "chandler-corinth--430",
+    "n": "Corinth",
+    "lat": 37.9386,
+    "lng": 22.9322,
+    "s": -430,
+    "e": 1453,
+    "p": -430
+  },
+  {
+    "id": "chandler-crotone--430",
+    "n": "Crotone",
+    "lat": 39.0814,
+    "lng": 17.1288,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-cyrene--430",
+    "n": "Cyrene",
+    "lat": 32.819,
+    "lng": 21.8558,
+    "s": -430,
+    "e": -200,
+    "p": -430
+  },
+  {
+    "id": "chandler-damascus--430",
+    "n": "Damascus",
+    "lat": 33.5102,
+    "lng": 36.2913,
+    "s": -430,
+    "e": 1453,
+    "p": 705
+  },
+  {
+    "id": "chandler-ecbatana--430",
+    "n": "Ecbatana",
+    "lat": 34.8053,
+    "lng": 48.5174,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-elis--430",
+    "n": "Elis",
+    "lat": 37.8919,
+    "lng": 21.3735,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-gela--430",
+    "n": "Gela",
+    "lat": 37.0803,
+    "lng": 14.2307,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-kerkira--430",
+    "n": "Kerkira",
+    "lat": 39.5833,
+    "lng": 19.8667,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-messina--430",
+    "n": "Messina",
+    "lat": 38.1933,
+    "lng": 15.5497,
+    "s": -430,
+    "e": 1453,
+    "p": -430
+  },
+  {
+    "id": "chandler-perspolis--430",
+    "n": "Perspolis",
+    "lat": 29.9345,
+    "lng": 52.891,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-rome--430",
+    "n": "Rome",
+    "lat": 41.8947,
+    "lng": 12.4839,
+    "s": -430,
+    "e": 1453,
+    "p": 100
+  },
+  {
+    "id": "chandler-sardis--430",
+    "n": "Sardis",
+    "lat": 38.4823,
+    "lng": 28.0476,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-sidon--430",
+    "n": "Sidon",
+    "lat": 33.5599,
+    "lng": 35.3756,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-sparti--430",
+    "n": "Sparti",
+    "lat": 37.0818,
+    "lng": 22.4234,
+    "s": -430,
+    "e": -200,
+    "p": -430
+  },
+  {
+    "id": "chandler-syracuse--430",
+    "n": "Syracuse",
+    "lat": 37.0608,
+    "lng": 15.2942,
+    "s": -430,
+    "e": 1453,
+    "p": -430
+  },
+  {
+    "id": "chandler-taranto--430",
+    "n": "Taranto",
+    "lat": 40.4705,
+    "lng": 17.2456,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-tyre--430",
+    "n": "Tyre",
+    "lat": 33.2733,
+    "lng": 35.1939,
+    "s": -430,
+    "e": -430,
+    "p": -430
+  },
+  {
+    "id": "chandler-alexandria--200",
+    "n": "Alexandria",
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "s": -200,
+    "e": 1453,
+    "p": -200
+  },
+  {
+    "id": "chandler-antioch--200",
+    "n": "Antioch",
+    "lat": 36.2066,
+    "lng": 36.1572,
+    "s": -200,
+    "e": 1453,
+    "p": -100
+  },
+  {
+    "id": "chandler-balkh--200",
+    "n": "Balkh",
+    "lat": 36.7563,
+    "lng": 66.8972,
+    "s": -200,
+    "e": 1453,
+    "p": -200
+  },
+  {
+    "id": "chandler-ephesus--200",
+    "n": "Ephesus",
+    "lat": 37.9405,
+    "lng": 27.341,
+    "s": -200,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-olbia--200",
+    "n": "Olbia",
+    "lat": 40.9167,
+    "lng": 9.5,
+    "s": -200,
+    "e": -200,
+    "p": -200
+  },
+  {
+    "id": "chandler-pergamum--200",
+    "n": "Pergamum",
+    "lat": 39.1323,
+    "lng": 27.1836,
+    "s": -200,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-rhodes--200",
+    "n": "Rhodes",
+    "lat": 36.4333,
+    "lng": 28.2167,
+    "s": -200,
+    "e": -200,
+    "p": -200
+  },
+  {
+    "id": "chandler-seleucia--200",
+    "n": "Seleucia",
+    "lat": 33.0944,
+    "lng": 44.5222,
+    "s": -200,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-ankara--100",
+    "n": "Ankara",
+    "lat": 39.9199,
+    "lng": 32.8543,
+    "s": -100,
+    "e": 1453,
+    "p": -100
+  },
+  {
+    "id": "chandler-apamea--100",
+    "n": "Apamea",
+    "lat": 35.4185,
+    "lng": 36.4048,
+    "s": -100,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-cadiz--100",
+    "n": "Cadiz",
+    "lat": 36.5298,
+    "lng": -6.2946,
+    "s": -100,
+    "e": 1453,
+    "p": 100
+  },
+  {
+    "id": "chandler-capua--100",
+    "n": "Capua",
+    "lat": 41.0997,
+    "lng": 14.2201,
+    "s": -100,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-gortyn--100",
+    "n": "Gortyn",
+    "lat": 35.0626,
+    "lng": 24.9468,
+    "s": -100,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-constantinople--100",
+    "n": "Constantinople",
+    "lat": 41.0053,
+    "lng": 28.9769,
+    "s": -100,
+    "e": 1453,
+    "p": 500
+  },
+  {
+    "id": "chandler-london--100",
+    "n": "London",
+    "lat": 51.5112,
+    "lng": -0.1198,
+    "s": -100,
+    "e": 1453,
+    "p": 1348
+  },
+  {
+    "id": "chandler-lyon--100",
+    "n": "Lyon",
+    "lat": 45.7485,
+    "lng": 4.8467,
+    "s": -100,
+    "e": 1453,
+    "p": -100
+  },
+  {
+    "id": "chandler-milan--100",
+    "n": "Milan",
+    "lat": 45.4655,
+    "lng": 9.1988,
+    "s": -100,
+    "e": 1453,
+    "p": 1428
+  },
+  {
+    "id": "chandler-nimes--100",
+    "n": "Nimes",
+    "lat": 43.8333,
+    "lng": 4.35,
+    "s": -100,
+    "e": 1453,
+    "p": -100
+  },
+  {
+    "id": "chandler-ostia--100",
+    "n": "Ostia",
+    "lat": 41.7555,
+    "lng": 12.2897,
+    "s": -100,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-oxyrhyncus--100",
+    "n": "Oxyrhyncus",
+    "lat": 28.5356,
+    "lng": 30.6599,
+    "s": -100,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-petra--100",
+    "n": "Petra",
+    "lat": 30.3252,
+    "lng": 35.4426,
+    "s": -100,
+    "e": -100,
+    "p": -100
+  },
+  {
+    "id": "chandler-smyrna--100",
+    "n": "Smyrna",
+    "lat": 38.4127,
+    "lng": 27.1384,
+    "s": -100,
+    "e": 1453,
+    "p": -100
+  },
+  {
+    "id": "chandler-thessalonica--100",
+    "n": "Thessalonica",
+    "lat": 40.6394,
+    "lng": 22.9446,
+    "s": -100,
+    "e": 1453,
+    "p": 900
+  },
+  {
+    "id": "chandler-trebizond-260",
+    "n": "Trebizond",
+    "lat": 41.0014,
+    "lng": 39.7178,
+    "s": 260,
+    "e": 1453,
+    "p": 260
+  },
+  {
+    "id": "chandler-arles-361",
+    "n": "Arles",
+    "lat": 43.6767,
+    "lng": 4.6278,
+    "s": 361,
+    "e": 1453,
+    "p": 361
+  },
+  {
+    "id": "chandler-ctesiphon-361",
+    "n": "Ctesiphon",
+    "lat": 33.0938,
+    "lng": 44.5801,
+    "s": 361,
+    "e": 622,
+    "p": 622
+  },
+  {
+    "id": "chandler-edessa-361",
+    "n": "Edessa",
+    "lat": 37.15,
+    "lng": 38.8,
+    "s": 361,
+    "e": 1453,
+    "p": 500
+  },
+  {
+    "id": "chandler-hippos-361",
+    "n": "Hippos",
+    "lat": 32.7791,
+    "lng": 35.6595,
+    "s": 361,
+    "e": 361,
+    "p": 361
+  },
+  {
+    "id": "chandler-leptis-361",
+    "n": "Leptis",
+    "lat": 32.6378,
+    "lng": 14.2923,
+    "s": 361,
+    "e": 361,
+    "p": 361
+  },
+  {
+    "id": "chandler-nishapur-361",
+    "n": "Nishapur",
+    "lat": 36.2133,
+    "lng": 58.7958,
+    "s": 361,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-trier-361",
+    "n": "Trier",
+    "lat": 49.7557,
+    "lng": 6.6394,
+    "s": 361,
+    "e": 1453,
+    "p": 361
+  },
+  {
+    "id": "chandler-vienne-361",
+    "n": "Vienne",
+    "lat": 45.5167,
+    "lng": 4.8667,
+    "s": 361,
+    "e": 361,
+    "p": 361
+  },
+  {
+    "id": "chandler-diyarbakir-500",
+    "n": "Diyarbakir",
+    "lat": 37.9144,
+    "lng": 40.2306,
+    "s": 500,
+    "e": 1453,
+    "p": 500
+  },
+  {
+    "id": "chandler-caesarea-500",
+    "n": "Caesarea",
+    "lat": 38.7322,
+    "lng": 35.4853,
+    "s": 500,
+    "e": 1453,
+    "p": 550
+  },
+  {
+    "id": "chandler-taluqan-500",
+    "n": "Taluqan",
+    "lat": 36.7167,
+    "lng": 69.5167,
+    "s": 500,
+    "e": 500,
+    "p": 500
+  },
+  {
+    "id": "chandler-medina-620",
+    "n": "Medina",
+    "lat": 24.4609,
+    "lng": 39.6202,
+    "s": 620,
+    "e": 1453,
+    "p": 620
+  },
+  {
+    "id": "chandler-aleppo-622",
+    "n": "Aleppo",
+    "lat": 36.2167,
+    "lng": 37.1667,
+    "s": 622,
+    "e": 1453,
+    "p": 1399
+  },
+  {
+    "id": "chandler-aror-622",
+    "n": "Aror",
+    "lat": 27.65,
+    "lng": 68.9833,
+    "s": 622,
+    "e": 622,
+    "p": 622
+  },
+  {
+    "id": "chandler-dvin-622",
+    "n": "Dvin",
+    "lat": 40.0198,
+    "lng": 44.5838,
+    "s": 622,
+    "e": 622,
+    "p": 622
+  },
+  {
+    "id": "chandler-istakhr-622",
+    "n": "Istakhr",
+    "lat": 29.9797,
+    "lng": 52.909,
+    "s": 622,
+    "e": 622,
+    "p": 622
+  },
+  {
+    "id": "chandler-seville-622",
+    "n": "Seville",
+    "lat": 37.3881,
+    "lng": -5.9823,
+    "s": 622,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-mecca-627",
+    "n": "Mecca",
+    "lat": 21.4267,
+    "lng": 39.8261,
+    "s": 627,
+    "e": 1453,
+    "p": 800
+  },
+  {
+    "id": "chandler-kairouan-670",
+    "n": "Kairouan",
+    "lat": 35.6744,
+    "lng": 10.1017,
+    "s": 670,
+    "e": 1453,
+    "p": 900
+  },
+  {
+    "id": "chandler-basra-671",
+    "n": "Basra",
+    "lat": 30.5,
+    "lng": 47.8167,
+    "s": 671,
+    "e": 1453,
+    "p": 671
+  },
+  {
+    "id": "chandler-kufa-671",
+    "n": "Kufa",
+    "lat": 32.0333,
+    "lng": 44.4,
+    "s": 671,
+    "e": 1000,
+    "p": 671
+  },
+  {
+    "id": "chandler-shiraz-693",
+    "n": "Shiraz",
+    "lat": 29.6103,
+    "lng": 52.5311,
+    "s": 693,
+    "e": 1453,
+    "p": 1340
+  },
+  {
+    "id": "chandler-lisbon-700",
+    "n": "Lisbon",
+    "lat": 38.7167,
+    "lng": -9.1333,
+    "s": 700,
+    "e": 1453,
+    "p": 1430
+  },
+  {
+    "id": "chandler-tours-700",
+    "n": "Tours",
+    "lat": 47.3833,
+    "lng": 0.6833,
+    "s": 700,
+    "e": 1453,
+    "p": 1340
+  },
+  {
+    "id": "chandler-thatta-711",
+    "n": "Thatta",
+    "lat": 24.7461,
+    "lng": 67.9243,
+    "s": 711,
+    "e": 1453,
+    "p": 711
+  },
+  {
+    "id": "chandler-poitiers-741",
+    "n": "Poitiers",
+    "lat": 46.5833,
+    "lng": 0.3333,
+    "s": 741,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-mosul-752",
+    "n": "Mosul",
+    "lat": 36.335,
+    "lng": 43.1189,
+    "s": 752,
+    "e": 1453,
+    "p": 1150
+  },
+  {
+    "id": "chandler-sidjilmasa-757",
+    "n": "Sidjilmasa",
+    "lat": 31.28,
+    "lng": -4.28,
+    "s": 757,
+    "e": 800,
+    "p": 757
+  },
+  {
+    "id": "chandler-baghdad-763",
+    "n": "Baghdad",
+    "lat": 33.3406,
+    "lng": 44.4009,
+    "s": 763,
+    "e": 1453,
+    "p": 932
+  },
+  {
+    "id": "chandler-bukhara-782",
+    "n": "Bukhara",
+    "lat": 39.7659,
+    "lng": 64.4223,
+    "s": 782,
+    "e": 1453,
+    "p": 900
+  },
+  {
+    "id": "chandler-anbar-800",
+    "n": "Anbar",
+    "lat": 32.5598,
+    "lng": 41.9196,
+    "s": 800,
+    "e": 800,
+    "p": 800
+  },
+  {
+    "id": "chandler-astrakhan-800",
+    "n": "Astrakhan",
+    "lat": 46.3667,
+    "lng": 48.0832,
+    "s": 800,
+    "e": 1453,
+    "p": 932
+  },
+  {
+    "id": "chandler-augsberg-800",
+    "n": "Augsberg",
+    "lat": 48.3714,
+    "lng": 10.8982,
+    "s": 800,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-cairo-800",
+    "n": "Cairo",
+    "lat": 30.0626,
+    "lng": 31.2497,
+    "s": 800,
+    "e": 1453,
+    "p": 1348
+  },
+  {
+    "id": "chandler-cologne-800",
+    "n": "Cologne",
+    "lat": 50.9375,
+    "lng": 6.9603,
+    "s": 800,
+    "e": 1453,
+    "p": 1333
+  },
+  {
+    "id": "chandler-cordoba-800",
+    "n": "Cordoba",
+    "lat": 38.0461,
+    "lng": -4.8936,
+    "s": 800,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-esfahan-800",
+    "n": "Esfahan",
+    "lat": 32.6514,
+    "lng": 51.6792,
+    "s": 800,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-kherson-800",
+    "n": "Kherson",
+    "lat": 46.6354,
+    "lng": 32.6169,
+    "s": 800,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-kush-800",
+    "n": "Kush",
+    "lat": 18.53,
+    "lng": 31.84,
+    "s": 800,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-mansura-800",
+    "n": "Mansura",
+    "lat": 25.5903,
+    "lng": 68.7769,
+    "s": 800,
+    "e": 1453,
+    "p": 900
+  },
+  {
+    "id": "chandler-merida-800",
+    "n": "Merida",
+    "lat": 38.9161,
+    "lng": -6.3437,
+    "s": 800,
+    "e": 1453,
+    "p": 900
+  },
+  {
+    "id": "chandler-metz-800",
+    "n": "Metz",
+    "lat": 49.1191,
+    "lng": 6.1727,
+    "s": 800,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-naples-800",
+    "n": "Naples",
+    "lat": 40.8518,
+    "lng": 14.2681,
+    "s": 800,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-paris-800",
+    "n": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "s": 800,
+    "e": 1453,
+    "p": 1382
+  },
+  {
+    "id": "chandler-pavia-800",
+    "n": "Pavia",
+    "lat": 45.1845,
+    "lng": 9.1615,
+    "s": 800,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-pliska-800",
+    "n": "Pliska",
+    "lat": 43.3625,
+    "lng": 27.1255,
+    "s": 800,
+    "e": 800,
+    "p": 800
+  },
+  {
+    "id": "chandler-rayy-800",
+    "n": "Rayy",
+    "lat": 35.5833,
+    "lng": 51.4333,
+    "s": 800,
+    "e": 1200,
+    "p": 800
+  },
+  {
+    "id": "chandler-reims-800",
+    "n": "Reims",
+    "lat": 49.25,
+    "lng": 4.0333,
+    "s": 800,
+    "e": 1453,
+    "p": 800
+  },
+  {
+    "id": "chandler-toledo-800",
+    "n": "Toledo",
+    "lat": 39.8628,
+    "lng": -4.0273,
+    "s": 800,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-verona-800",
+    "n": "Verona",
+    "lat": 45.4342,
+    "lng": 10.9978,
+    "s": 800,
+    "e": 1453,
+    "p": 1387
+  },
+  {
+    "id": "chandler-fez-808",
+    "n": "Fez",
+    "lat": 34.0333,
+    "lng": -5.01,
+    "s": 808,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-adrianople-812",
+    "n": "Adrianople",
+    "lat": 41.6818,
+    "lng": 26.5623,
+    "s": 812,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-iraklion-827",
+    "n": "Iraklion",
+    "lat": 35.3387,
+    "lng": 25.1442,
+    "s": 827,
+    "e": 1453,
+    "p": 827
+  },
+  {
+    "id": "chandler-samarra-836",
+    "n": "Samarra",
+    "lat": 34.1983,
+    "lng": 43.8742,
+    "s": 836,
+    "e": 1453,
+    "p": 836
+  },
+  {
+    "id": "chandler-tarsus-850",
+    "n": "Tarsus",
+    "lat": 36.9188,
+    "lng": 34.8784,
+    "s": 850,
+    "e": 1453,
+    "p": 850
+  },
+  {
+    "id": "chandler-burgos-884",
+    "n": "Burgos",
+    "lat": 42.35,
+    "lng": -3.7,
+    "s": 884,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-bobastro-900",
+    "n": "Bobastro",
+    "lat": 36.7167,
+    "lng": -4.4167,
+    "s": 900,
+    "e": 900,
+    "p": 900
+  },
+  {
+    "id": "chandler-herat-900",
+    "n": "Herat",
+    "lat": 34.3482,
+    "lng": 62.1997,
+    "s": 900,
+    "e": 1453,
+    "p": 1221
+  },
+  {
+    "id": "chandler-preslav-900",
+    "n": "Preslav",
+    "lat": 43.1645,
+    "lng": 26.818,
+    "s": 900,
+    "e": 1000,
+    "p": 930
+  },
+  {
+    "id": "chandler-reggio-di-calabria-900",
+    "n": "Reggio di Calabria",
+    "lat": 38.1113,
+    "lng": 15.6473,
+    "s": 900,
+    "e": 1453,
+    "p": 900
+  },
+  {
+    "id": "chandler-siraf-900",
+    "n": "Siraf",
+    "lat": 27.6667,
+    "lng": 52.3425,
+    "s": 900,
+    "e": 1000,
+    "p": 1000
+  },
+  {
+    "id": "chandler-venice-906",
+    "n": "Venice",
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "s": 906,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-kazan-932",
+    "n": "Kazan",
+    "lat": 55.7903,
+    "lng": 49.1347,
+    "s": 932,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-laon-947",
+    "n": "Laon",
+    "lat": 49.5667,
+    "lng": 3.6167,
+    "s": 947,
+    "e": 1453,
+    "p": 947
+  },
+  {
+    "id": "chandler-barcelona-950",
+    "n": "Barcelona",
+    "lat": 41.3888,
+    "lng": 2.159,
+    "s": 950,
+    "e": 1453,
+    "p": 1359
+  },
+  {
+    "id": "chandler-qazvin-968",
+    "n": "Qazvin",
+    "lat": 36.2688,
+    "lng": 50.0041,
+    "s": 968,
+    "e": 1453,
+    "p": 968
+  },
+  {
+    "id": "chandler-philippopolis-970",
+    "n": "Philippopolis",
+    "lat": 42.15,
+    "lng": 24.75,
+    "s": 970,
+    "e": 1453,
+    "p": 970
+  },
+  {
+    "id": "chandler-marseille-972",
+    "n": "Marseille",
+    "lat": 43.297,
+    "lng": 5.3811,
+    "s": 972,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-dongola-975",
+    "n": "Dongola",
+    "lat": 19.1667,
+    "lng": 30.4833,
+    "s": 975,
+    "e": 1453,
+    "p": 1090
+  },
+  {
+    "id": "chandler-liege-978",
+    "n": "Liege",
+    "lat": 50.6337,
+    "lng": 5.5675,
+    "s": 978,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-ghazni-990",
+    "n": "Ghazni",
+    "lat": 33.5539,
+    "lng": 68.421,
+    "s": 990,
+    "e": 1453,
+    "p": 1018
+  },
+  {
+    "id": "chandler-al-hasa-1000",
+    "n": "Al-Hasa",
+    "lat": 25.4294,
+    "lng": 49.6219,
+    "s": 1000,
+    "e": 1051,
+    "p": 1000
+  },
+  {
+    "id": "chandler-almeria-1000",
+    "n": "Almeria",
+    "lat": 36.8381,
+    "lng": -2.4597,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-amalfi-1000",
+    "n": "Amalfi",
+    "lat": 40.634,
+    "lng": 14.6027,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-angers-1000",
+    "n": "Angers",
+    "lat": 47.4667,
+    "lng": -0.55,
+    "s": 1000,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-ani-1000",
+    "n": "Ani",
+    "lat": 40.5014,
+    "lng": 43.5671,
+    "s": 1000,
+    "e": 1000,
+    "p": 1000
+  },
+  {
+    "id": "chandler-badajoz-1000",
+    "n": "Badajoz",
+    "lat": 38.8779,
+    "lng": -6.9706,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-bergamo-1000",
+    "n": "Bergamo",
+    "lat": 45.698,
+    "lng": 9.669,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-cartagena-1000",
+    "n": "Cartagena",
+    "lat": 37.6257,
+    "lng": -0.9966,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-elvira-1000",
+    "n": "Elvira",
+    "lat": 36.5025,
+    "lng": -4.7836,
+    "s": 1000,
+    "e": 1000,
+    "p": 1000
+  },
+  {
+    "id": "chandler-gallipoli-1000",
+    "n": "Gallipoli",
+    "lat": 40.3333,
+    "lng": 26.5,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-geneva-1000",
+    "n": "Geneva",
+    "lat": 46.1984,
+    "lng": 6.1423,
+    "s": 1000,
+    "e": 1453,
+    "p": 1404
+  },
+  {
+    "id": "chandler-genova-1000",
+    "n": "Genova",
+    "lat": 44.4057,
+    "lng": 8.9463,
+    "s": 1000,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-granada-1000",
+    "n": "Granada",
+    "lat": 37.1773,
+    "lng": -3.5986,
+    "s": 1000,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-jerez-de-la-frontera-1000",
+    "n": "Jerez de la Frontera",
+    "lat": 36.6936,
+    "lng": -6.1324,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-kiev-1000",
+    "n": "Kiev",
+    "lat": 50.4547,
+    "lng": 30.5238,
+    "s": 1000,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-mainz-1000",
+    "n": "Mainz",
+    "lat": 49.9842,
+    "lng": 8.2791,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-mantova-1000",
+    "n": "Mantova",
+    "lat": 45.1564,
+    "lng": 10.7914,
+    "s": 1000,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-murcia-1000",
+    "n": "Murcia",
+    "lat": 37.987,
+    "lng": -1.13,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-novgorod-1000",
+    "n": "Novgorod",
+    "lat": 58.5256,
+    "lng": 31.2742,
+    "s": 1000,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-ohrid-1000",
+    "n": "Ohrid",
+    "lat": 43.455,
+    "lng": 23.3807,
+    "s": 1000,
+    "e": 1453,
+    "p": 1000
+  },
+  {
+    "id": "chandler-padua-1000",
+    "n": "Padua",
+    "lat": 45.4064,
+    "lng": 11.8768,
+    "s": 1000,
+    "e": 1453,
+    "p": 1320
+  },
+  {
+    "id": "chandler-palermo-1000",
+    "n": "Palermo",
+    "lat": 38.1157,
+    "lng": 13.3613,
+    "s": 1000,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-pisa-1000",
+    "n": "Pisa",
+    "lat": 43.7155,
+    "lng": 10.3966,
+    "s": 1000,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-prague-1000",
+    "n": "Prague",
+    "lat": 50.088,
+    "lng": 14.4208,
+    "s": 1000,
+    "e": 1453,
+    "p": 1378
+  },
+  {
+    "id": "chandler-regensburg-1000",
+    "n": "Regensburg",
+    "lat": 49.015,
+    "lng": 12.0956,
+    "s": 1000,
+    "e": 1453,
+    "p": 1151
+  },
+  {
+    "id": "chandler-rouen-1000",
+    "n": "Rouen",
+    "lat": 49.4431,
+    "lng": 1.0993,
+    "s": 1000,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-tabriz-1000",
+    "n": "Tabriz",
+    "lat": 38.08,
+    "lng": 46.2919,
+    "s": 1000,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-tinnis-1000",
+    "n": "Tinnis",
+    "lat": 31.2,
+    "lng": 32.2333,
+    "s": 1000,
+    "e": 1193,
+    "p": 1150
+  },
+  {
+    "id": "chandler-tunis-1000",
+    "n": "Tunis",
+    "lat": 36.8188,
+    "lng": 10.166,
+    "s": 1000,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-dublin-1050",
+    "n": "Dublin",
+    "lat": 53.3331,
+    "lng": -6.2489,
+    "s": 1050,
+    "e": 1453,
+    "p": 1280
+  },
+  {
+    "id": "chandler-kalaa-1050",
+    "n": "Kalaa",
+    "lat": 35.5806,
+    "lng": 0.3283,
+    "s": 1050,
+    "e": 1050,
+    "p": 1050
+  },
+  {
+    "id": "chandler-caen-1060",
+    "n": "Caen",
+    "lat": 49.1859,
+    "lng": -0.3591,
+    "s": 1060,
+    "e": 1453,
+    "p": 1060
+  },
+  {
+    "id": "chandler-valladolid-1074",
+    "n": "Valladolid",
+    "lat": 41.6552,
+    "lng": -4.7237,
+    "s": 1074,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-exeter-1086",
+    "n": "Exeter",
+    "lat": 50.7236,
+    "lng": -3.5275,
+    "s": 1086,
+    "e": 1453,
+    "p": 1086
+  },
+  {
+    "id": "chandler-firuzkoh-1086",
+    "n": "Firuzkoh",
+    "lat": 34.0996,
+    "lng": 64.906,
+    "s": 1086,
+    "e": 1200,
+    "p": 1086
+  },
+  {
+    "id": "chandler-norwich-1086",
+    "n": "Norwich",
+    "lat": 52.6278,
+    "lng": 1.2983,
+    "s": 1086,
+    "e": 1453,
+    "p": 1311
+  },
+  {
+    "id": "chandler-asyut-1090",
+    "n": "Asyut",
+    "lat": 27.181,
+    "lng": 31.1837,
+    "s": 1090,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-fua-1090",
+    "n": "Fua",
+    "lat": 31.2072,
+    "lng": 29.9603,
+    "s": 1090,
+    "e": 1453,
+    "p": 1090
+  },
+  {
+    "id": "chandler-iconium-1090",
+    "n": "Iconium",
+    "lat": 37.8713,
+    "lng": 32.4846,
+    "s": 1090,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-montpellier-1090",
+    "n": "Montpellier",
+    "lat": 43.6109,
+    "lng": 3.8772,
+    "s": 1090,
+    "e": 1453,
+    "p": 1347
+  },
+  {
+    "id": "chandler-bejaia-1100",
+    "n": "Bejaia",
+    "lat": 36.75,
+    "lng": 5.0667,
+    "s": 1100,
+    "e": 1453,
+    "p": 1121
+  },
+  {
+    "id": "chandler-bost-1100",
+    "n": "Bost",
+    "lat": 31.5831,
+    "lng": 64.3692,
+    "s": 1100,
+    "e": 1149,
+    "p": 1100
+  },
+  {
+    "id": "chandler-bourges-1100",
+    "n": "Bourges",
+    "lat": 47.0833,
+    "lng": 2.4,
+    "s": 1100,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-brescia-1100",
+    "n": "Brescia",
+    "lat": 45.5248,
+    "lng": 10.2273,
+    "s": 1100,
+    "e": 1453,
+    "p": 1440
+  },
+  {
+    "id": "chandler-gent-1100",
+    "n": "Gent",
+    "lat": 51.0535,
+    "lng": 3.7304,
+    "s": 1100,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-kerman-1100",
+    "n": "Kerman",
+    "lat": 30.2832,
+    "lng": 57.0788,
+    "s": 1100,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-malaga-1100",
+    "n": "Malaga",
+    "lat": 36.7213,
+    "lng": -4.4213,
+    "s": 1100,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-marrakech-1100",
+    "n": "Marrakech",
+    "lat": 31.6342,
+    "lng": -7.9999,
+    "s": 1100,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-meknes-1100",
+    "n": "Meknes",
+    "lat": 33.8935,
+    "lng": -5.5473,
+    "s": 1100,
+    "e": 1453,
+    "p": 1150
+  },
+  {
+    "id": "chandler-merv-1100",
+    "n": "Merv",
+    "lat": 37.6628,
+    "lng": 62.1925,
+    "s": 1100,
+    "e": 1150,
+    "p": 1150
+  },
+  {
+    "id": "chandler-palma-1100",
+    "n": "Palma",
+    "lat": 39.5694,
+    "lng": 2.6502,
+    "s": 1100,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-pskov-1100",
+    "n": "Pskov",
+    "lat": 57.8136,
+    "lng": 28.3496,
+    "s": 1100,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-salerno-1100",
+    "n": "Salerno",
+    "lat": 40.678,
+    "lng": 14.766,
+    "s": 1100,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-sebastea-1100",
+    "n": "Sebastea",
+    "lat": 39.7483,
+    "lng": 37.0161,
+    "s": 1100,
+    "e": 1453,
+    "p": 1100
+  },
+  {
+    "id": "chandler-tbilisi-1100",
+    "n": "Tbilisi",
+    "lat": 41.71,
+    "lng": 44.793,
+    "s": 1100,
+    "e": 1453,
+    "p": 1227
+  },
+  {
+    "id": "chandler-toulouse-1100",
+    "n": "Toulouse",
+    "lat": 43.6043,
+    "lng": 1.4437,
+    "s": 1100,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-utrecht-1100",
+    "n": "Utrecht",
+    "lat": 52.0908,
+    "lng": 5.1222,
+    "s": 1100,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-valencia-1100",
+    "n": "Valencia",
+    "lat": 39.4699,
+    "lng": -0.3763,
+    "s": 1100,
+    "e": 1453,
+    "p": 1355
+  },
+  {
+    "id": "chandler-copenhagen-1101",
+    "n": "Copenhagen",
+    "lat": 55.6759,
+    "lng": 12.5655,
+    "s": 1101,
+    "e": 1453,
+    "p": 1101
+  },
+  {
+    "id": "chandler-zaragoza-1118",
+    "n": "Zaragoza",
+    "lat": 41.6488,
+    "lng": -0.8896,
+    "s": 1118,
+    "e": 1453,
+    "p": 1311
+  },
+  {
+    "id": "chandler-speyer-1125",
+    "n": "Speyer",
+    "lat": 49.3205,
+    "lng": 8.4362,
+    "s": 1125,
+    "e": 1453,
+    "p": 1125
+  },
+  {
+    "id": "chandler-lille-1144",
+    "n": "Lille",
+    "lat": 50.6284,
+    "lng": 3.055,
+    "s": 1144,
+    "e": 1453,
+    "p": 1382
+  },
+  {
+    "id": "chandler-hama-1150",
+    "n": "Hama",
+    "lat": 35.1333,
+    "lng": 36.75,
+    "s": 1150,
+    "e": 1453,
+    "p": 1150
+  },
+  {
+    "id": "chandler-hormuz-1150",
+    "n": "Hormuz",
+    "lat": 27.1,
+    "lng": 56.45,
+    "s": 1150,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-qom-1150",
+    "n": "Qom",
+    "lat": 34.6401,
+    "lng": 50.8764,
+    "s": 1150,
+    "e": 1200,
+    "p": 1150
+  },
+  {
+    "id": "chandler-qum-1150",
+    "n": "Qum",
+    "lat": 34.64,
+    "lng": 50.8764,
+    "s": 1150,
+    "e": 1453,
+    "p": 1150
+  },
+  {
+    "id": "chandler-smolensk-1150",
+    "n": "Smolensk",
+    "lat": 54.7818,
+    "lng": 32.0401,
+    "s": 1150,
+    "e": 1453,
+    "p": 1150
+  },
+  {
+    "id": "chandler-strasbourg-1150",
+    "n": "Strasbourg",
+    "lat": 48.5834,
+    "lng": 7.743,
+    "s": 1150,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-szczecin-1150",
+    "n": "Szczecin",
+    "lat": 53.4167,
+    "lng": 14.5833,
+    "s": 1150,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-cremona-1160",
+    "n": "Cremona",
+    "lat": 45.1362,
+    "lng": 10.028,
+    "s": 1160,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-catania-1169",
+    "n": "Catania",
+    "lat": 37.5021,
+    "lng": 15.0872,
+    "s": 1169,
+    "e": 1453,
+    "p": 1169
+  },
+  {
+    "id": "chandler-alessandria-1174",
+    "n": "Alessandria",
+    "lat": 44.9124,
+    "lng": 8.6189,
+    "s": 1174,
+    "e": 1453,
+    "p": 1174
+  },
+  {
+    "id": "chandler-vladimir-1175",
+    "n": "Vladimir",
+    "lat": 56.1365,
+    "lng": 40.3966,
+    "s": 1175,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-leipzig-1189",
+    "n": "Leipzig",
+    "lat": 51.3396,
+    "lng": 12.3713,
+    "s": 1189,
+    "e": 1453,
+    "p": 1189
+  },
+  {
+    "id": "chandler-wiener-neustadt-1192",
+    "n": "Wiener Neustadt",
+    "lat": 47.8,
+    "lng": 16.25,
+    "s": 1192,
+    "e": 1453,
+    "p": 1192
+  },
+  {
+    "id": "chandler-arras-1194",
+    "n": "Arras",
+    "lat": 50.291,
+    "lng": 2.7775,
+    "s": 1194,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-florence-1198",
+    "n": "Florence",
+    "lat": 43.771,
+    "lng": 11.248,
+    "s": 1198,
+    "e": 1453,
+    "p": 1380
+  },
+  {
+    "id": "chandler-acre-1200",
+    "n": "Acre",
+    "lat": 32.9278,
+    "lng": 35.0817,
+    "s": 1200,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-avignon-1200",
+    "n": "Avignon",
+    "lat": 43.9483,
+    "lng": 4.8089,
+    "s": 1200,
+    "e": 1453,
+    "p": 1348
+  },
+  {
+    "id": "chandler-beziers-1200",
+    "n": "Beziers",
+    "lat": 43.3476,
+    "lng": 3.219,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-bologna-1200",
+    "n": "Bologna",
+    "lat": 44.4938,
+    "lng": 11.3387,
+    "s": 1200,
+    "e": 1453,
+    "p": 1249
+  },
+  {
+    "id": "chandler-bordeaux-1200",
+    "n": "Bordeaux",
+    "lat": 44.8404,
+    "lng": -0.5805,
+    "s": 1200,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-braunschweig-1200",
+    "n": "Braunschweig",
+    "lat": 52.2689,
+    "lng": 10.5268,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-ceuta-1200",
+    "n": "Ceuta",
+    "lat": 35.8893,
+    "lng": -5.3198,
+    "s": 1200,
+    "e": 1415,
+    "p": 1200
+  },
+  {
+    "id": "chandler-coimbra-1200",
+    "n": "Coimbra",
+    "lat": 40.2056,
+    "lng": -8.4195,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-dumyat-1200",
+    "n": "Dumyat",
+    "lat": 31.4165,
+    "lng": 31.8133,
+    "s": 1200,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-erfurt-1200",
+    "n": "Erfurt",
+    "lat": 50.9787,
+    "lng": 11.0328,
+    "s": 1200,
+    "e": 1453,
+    "p": 1377
+  },
+  {
+    "id": "chandler-esztergom-1200",
+    "n": "Esztergom",
+    "lat": 47.7928,
+    "lng": 18.7415,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-ferrara-1200",
+    "n": "Ferrara",
+    "lat": 44.8268,
+    "lng": 11.6207,
+    "s": 1200,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-frankfurt-am-main-1200",
+    "n": "Frankfurt am Main",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "s": 1200,
+    "e": 1453,
+    "p": 1378
+  },
+  {
+    "id": "chandler-kish-1200",
+    "n": "Kish",
+    "lat": 32.5522,
+    "lng": 44.5856,
+    "s": 1200,
+    "e": 1200,
+    "p": 1200
+  },
+  {
+    "id": "chandler-konye-urgench-1200",
+    "n": "Konye-Urgench",
+    "lat": 42.3333,
+    "lng": 59.15,
+    "s": 1200,
+    "e": 1200,
+    "p": 1200
+  },
+  {
+    "id": "chandler-leon-1200",
+    "n": "Leon",
+    "lat": 42.6056,
+    "lng": -5.57,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-louveigne-1200",
+    "n": "Louveigne",
+    "lat": 50.8776,
+    "lng": 4.7043,
+    "s": 1200,
+    "e": 1453,
+    "p": 1437
+  },
+  {
+    "id": "chandler-lucca-1200",
+    "n": "Lucca",
+    "lat": 43.8436,
+    "lng": 10.5059,
+    "s": 1200,
+    "e": 1453,
+    "p": 1333
+  },
+  {
+    "id": "chandler-narbonne-1200",
+    "n": "Narbonne",
+    "lat": 43.1833,
+    "lng": 3.0,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-orleans-1200",
+    "n": "Orleans",
+    "lat": 47.903,
+    "lng": 1.9092,
+    "s": 1200,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-provins-1200",
+    "n": "Provins",
+    "lat": 48.55,
+    "lng": 3.3,
+    "s": 1200,
+    "e": 1453,
+    "p": 1247
+  },
+  {
+    "id": "chandler-rabat-1200",
+    "n": "Rabat",
+    "lat": 34.0132,
+    "lng": -6.8326,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-saint-omer-1200",
+    "n": "Saint-Omer",
+    "lat": 50.7501,
+    "lng": 2.2522,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-siena-1200",
+    "n": "Siena",
+    "lat": 43.32,
+    "lng": 11.3328,
+    "s": 1200,
+    "e": 1453,
+    "p": 1347
+  },
+  {
+    "id": "chandler-soest-1200",
+    "n": "Soest",
+    "lat": 51.5756,
+    "lng": 8.1062,
+    "s": 1200,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-troyes-1200",
+    "n": "Troyes",
+    "lat": 48.3,
+    "lng": 4.0833,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-veliko-tarnovo-1200",
+    "n": "Veliko Tarnovo",
+    "lat": 43.0833,
+    "lng": 25.65,
+    "s": 1200,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-vienna-1200",
+    "n": "Vienna",
+    "lat": 48.2085,
+    "lng": 16.3721,
+    "s": 1200,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-worms-1200",
+    "n": "Worms",
+    "lat": 49.6328,
+    "lng": 8.3592,
+    "s": 1200,
+    "e": 1453,
+    "p": 1200
+  },
+  {
+    "id": "chandler-piacenza-1216",
+    "n": "Piacenza",
+    "lat": 45.0468,
+    "lng": 9.6994,
+    "s": 1216,
+    "e": 1453,
+    "p": 1447
+  },
+  {
+    "id": "chandler-nurnberg-1219",
+    "n": "Nurnberg",
+    "lat": 49.452,
+    "lng": 11.0768,
+    "s": 1219,
+    "e": 1453,
+    "p": 1431
+  },
+  {
+    "id": "chandler-lubeck-1227",
+    "n": "Lubeck",
+    "lat": 53.8659,
+    "lng": 10.6871,
+    "s": 1227,
+    "e": 1453,
+    "p": 1350
+  },
+  {
+    "id": "chandler-wroclaw-1242",
+    "n": "Wroclaw",
+    "lat": 51.1167,
+    "lng": 17.0333,
+    "s": 1242,
+    "e": 1453,
+    "p": 1348
+  },
+  {
+    "id": "chandler-brugge-1250",
+    "n": "Brugge",
+    "lat": 51.2108,
+    "lng": 3.2249,
+    "s": 1250,
+    "e": 1453,
+    "p": 1437
+  },
+  {
+    "id": "chandler-limoges-1250",
+    "n": "Limoges",
+    "lat": 45.8315,
+    "lng": 1.2578,
+    "s": 1250,
+    "e": 1453,
+    "p": 1250
+  },
+  {
+    "id": "chandler-sarai-1250",
+    "n": "Sarai",
+    "lat": 53.7458,
+    "lng": 41.0213,
+    "s": 1250,
+    "e": 1350,
+    "p": 1350
+  },
+  {
+    "id": "chandler-tlemcen-1250",
+    "n": "Tlemcen",
+    "lat": 34.8783,
+    "lng": -1.315,
+    "s": 1250,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-munich-1255",
+    "n": "Munich",
+    "lat": 48.1367,
+    "lng": 11.5768,
+    "s": 1255,
+    "e": 1453,
+    "p": 1255
+  },
+  {
+    "id": "chandler-aix-1263",
+    "n": "Aix",
+    "lat": 43.5263,
+    "lng": 5.4454,
+    "s": 1263,
+    "e": 1453,
+    "p": 1263
+  },
+  {
+    "id": "chandler-bergen-1270",
+    "n": "Bergen",
+    "lat": 60.3913,
+    "lng": 5.3221,
+    "s": 1270,
+    "e": 1453,
+    "p": 1270
+  },
+  {
+    "id": "chandler-roskilde-1274",
+    "n": "Roskilde",
+    "lat": 55.6415,
+    "lng": 12.0803,
+    "s": 1274,
+    "e": 1453,
+    "p": 1443
+  },
+  {
+    "id": "chandler-bari-1278",
+    "n": "Bari",
+    "lat": 41.1171,
+    "lng": 16.8719,
+    "s": 1278,
+    "e": 1453,
+    "p": 1278
+  },
+  {
+    "id": "chandler-aachen-1300",
+    "n": "Aachen",
+    "lat": 50.7766,
+    "lng": 6.0834,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-amsterdam-1300",
+    "n": "Amsterdam",
+    "lat": 52.374,
+    "lng": 4.8897,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-azemmour-1300",
+    "n": "Azemmour",
+    "lat": 33.2878,
+    "lng": -8.3422,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-budapest-1300",
+    "n": "Budapest",
+    "lat": 47.498,
+    "lng": 19.0399,
+    "s": 1300,
+    "e": 1453,
+    "p": 1437
+  },
+  {
+    "id": "chandler-campulung-muscel-1300",
+    "n": "Campulung Muscel",
+    "lat": 47.5308,
+    "lng": 25.5514,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-dijon-1300",
+    "n": "Dijon",
+    "lat": 47.3167,
+    "lng": 5.0167,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-feodosia-1300",
+    "n": "Feodosia",
+    "lat": 45.0489,
+    "lng": 35.3792,
+    "s": 1300,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-glasgow-1300",
+    "n": "Glasgow",
+    "lat": 55.8651,
+    "lng": -4.2576,
+    "s": 1300,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-krakow-1300",
+    "n": "Krakow",
+    "lat": 50.0614,
+    "lng": 19.9366,
+    "s": 1300,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-magdeburg-1300",
+    "n": "Magdeburg",
+    "lat": 52.1308,
+    "lng": 11.6289,
+    "s": 1300,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-sudak-1300",
+    "n": "Sudak",
+    "lat": 44.8492,
+    "lng": 34.9747,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-tver-1300",
+    "n": "Tver",
+    "lat": 56.8587,
+    "lng": 35.9176,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-ulm-1300",
+    "n": "Ulm",
+    "lat": 48.3984,
+    "lng": 9.9916,
+    "s": 1300,
+    "e": 1453,
+    "p": 1377
+  },
+  {
+    "id": "chandler-visby-1300",
+    "n": "Visby",
+    "lat": 57.6409,
+    "lng": 18.296,
+    "s": 1300,
+    "e": 1453,
+    "p": 1361
+  },
+  {
+    "id": "chandler-yadz-1300",
+    "n": "Yadz",
+    "lat": 31.8966,
+    "lng": 54.3607,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-ypres-1300",
+    "n": "Ypres",
+    "lat": 50.85,
+    "lng": 2.8833,
+    "s": 1300,
+    "e": 1453,
+    "p": 1300
+  },
+  {
+    "id": "chandler-tripoli-1307",
+    "n": "Tripoli",
+    "lat": 32.8762,
+    "lng": 13.1875,
+    "s": 1307,
+    "e": 1453,
+    "p": 1307
+  },
+  {
+    "id": "chandler-hamburg-1311",
+    "n": "Hamburg",
+    "lat": 53.5753,
+    "lng": 10.0153,
+    "s": 1311,
+    "e": 1453,
+    "p": 1419
+  },
+  {
+    "id": "chandler-toulon-1314",
+    "n": "Toulon",
+    "lat": 43.1167,
+    "lng": 5.9333,
+    "s": 1314,
+    "e": 1453,
+    "p": 1314
+  },
+  {
+    "id": "chandler-hamadan-1320",
+    "n": "Hamadan",
+    "lat": 34.7992,
+    "lng": 48.5146,
+    "s": 1320,
+    "e": 1453,
+    "p": 1320
+  },
+  {
+    "id": "chandler-maragheh-1320",
+    "n": "Maragheh",
+    "lat": 37.3835,
+    "lng": 46.238,
+    "s": 1320,
+    "e": 1453,
+    "p": 1320
+  },
+  {
+    "id": "chandler-soltaniyeh-1320",
+    "n": "Soltaniyeh",
+    "lat": 36.4347,
+    "lng": 48.7975,
+    "s": 1320,
+    "e": 1400,
+    "p": 1320
+  },
+  {
+    "id": "chandler-edinburgh-1327",
+    "n": "Edinburgh",
+    "lat": 55.9521,
+    "lng": -3.1965,
+    "s": 1327,
+    "e": 1453,
+    "p": 1385
+  },
+  {
+    "id": "chandler-moscow-1337",
+    "n": "Moscow",
+    "lat": 55.7522,
+    "lng": 37.6156,
+    "s": 1337,
+    "e": 1453,
+    "p": 1343
+  },
+  {
+    "id": "chandler-bratislava-1350",
+    "n": "Bratislava",
+    "lat": 48.1459,
+    "lng": 17.1071,
+    "s": 1350,
+    "e": 1453,
+    "p": 1350
+  },
+  {
+    "id": "chandler-prusa-1350",
+    "n": "Prusa",
+    "lat": 40.1927,
+    "lng": 29.084,
+    "s": 1350,
+    "e": 1453,
+    "p": 1451
+  },
+  {
+    "id": "chandler-constantine-1350",
+    "n": "Constantine",
+    "lat": 36.365,
+    "lng": 6.6147,
+    "s": 1350,
+    "e": 1453,
+    "p": 1350
+  },
+  {
+    "id": "chandler-nizhniy-novgorod-1350",
+    "n": "Nizhniy Novgorod",
+    "lat": 56.3269,
+    "lng": 44.0075,
+    "s": 1350,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-trakai-1350",
+    "n": "Trakai",
+    "lat": 54.6333,
+    "lng": 24.9333,
+    "s": 1350,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-vilnius-1350",
+    "n": "Vilnius",
+    "lat": 54.6833,
+    "lng": 25.2833,
+    "s": 1350,
+    "e": 1453,
+    "p": 1387
+  },
+  {
+    "id": "chandler-gdansk-1367",
+    "n": "Gdansk",
+    "lat": 54.352,
+    "lng": 18.6466,
+    "s": 1367,
+    "e": 1453,
+    "p": 1430
+  },
+  {
+    "id": "chandler-valenciennes-1367",
+    "n": "Valenciennes",
+    "lat": 50.35,
+    "lng": 3.5333,
+    "s": 1367,
+    "e": 1453,
+    "p": 1385
+  },
+  {
+    "id": "chandler-brussel-1374",
+    "n": "Brussel",
+    "lat": 50.8505,
+    "lng": 4.3488,
+    "s": 1374,
+    "e": 1453,
+    "p": 1437
+  },
+  {
+    "id": "chandler-s-hertogenbosch-1374",
+    "n": "s'Hertogenbosch",
+    "lat": 51.6978,
+    "lng": 5.3037,
+    "s": 1374,
+    "e": 1453,
+    "p": 1437
+  },
+  {
+    "id": "chandler-plymouth-1377",
+    "n": "Plymouth",
+    "lat": 50.3755,
+    "lng": -4.143,
+    "s": 1377,
+    "e": 1453,
+    "p": 1377
+  },
+  {
+    "id": "chandler-turin-1377",
+    "n": "Turin",
+    "lat": 45.0705,
+    "lng": 7.6868,
+    "s": 1377,
+    "e": 1453,
+    "p": 1377
+  },
+  {
+    "id": "chandler-oporto-1383",
+    "n": "Oporto",
+    "lat": 41.168,
+    "lng": -8.6271,
+    "s": 1383,
+    "e": 1453,
+    "p": 1383
+  },
+  {
+    "id": "chandler-tournai-1385",
+    "n": "Tournai",
+    "lat": 50.6071,
+    "lng": 3.3893,
+    "s": 1385,
+    "e": 1453,
+    "p": 1385
+  },
+  {
+    "id": "chandler-parma-1395",
+    "n": "Parma",
+    "lat": 44.8027,
+    "lng": 10.329,
+    "s": 1395,
+    "e": 1453,
+    "p": 1395
+  },
+  {
+    "id": "chandler-aberdeen-1396",
+    "n": "Aberdeen",
+    "lat": 57.1437,
+    "lng": -2.0981,
+    "s": 1396,
+    "e": 1453,
+    "p": 1396
+  },
+  {
+    "id": "chandler-karaman-1400",
+    "n": "Karaman",
+    "lat": 37.1811,
+    "lng": 33.215,
+    "s": 1400,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-newcastle-upon-tyne-1400",
+    "n": "Newcastle upon Tyne",
+    "lat": 54.9783,
+    "lng": -1.6178,
+    "s": 1400,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-nicosia-1400",
+    "n": "Nicosia",
+    "lat": 35.1667,
+    "lng": 33.3667,
+    "s": 1400,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-skopje-1400",
+    "n": "Skopje",
+    "lat": 41.9965,
+    "lng": 21.4314,
+    "s": 1400,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-sofia-1400",
+    "n": "Sofia",
+    "lat": 42.6975,
+    "lng": 23.3241,
+    "s": 1400,
+    "e": 1453,
+    "p": 1400
+  },
+  {
+    "id": "chandler-targoviste-1400",
+    "n": "Targoviste",
+    "lat": 44.9242,
+    "lng": 25.4567,
+    "s": 1400,
+    "e": 1453,
+    "p": 1450
+  },
+  {
+    "id": "chandler-baeza-1407",
+    "n": "Baeza",
+    "lat": 37.9938,
+    "lng": -3.471,
+    "s": 1407,
+    "e": 1453,
+    "p": 1407
+  },
+  {
+    "id": "chandler-haarlem-1427",
+    "n": "Haarlem",
+    "lat": 52.3808,
+    "lng": 4.6368,
+    "s": 1427,
+    "e": 1453,
+    "p": 1427
+  },
+  {
+    "id": "chandler-belgrade-1433",
+    "n": "Belgrade",
+    "lat": 44.804,
+    "lng": 20.4651,
+    "s": 1433,
+    "e": 1453,
+    "p": 1433
+  },
+  {
+    "id": "chandler-antwerp-1437",
+    "n": "Antwerp",
+    "lat": 51.2192,
+    "lng": 4.4029,
+    "s": 1437,
+    "e": 1453,
+    "p": 1437
+  },
+  {
+    "id": "chandler-riga-1450",
+    "n": "Riga",
+    "lat": 56.946,
+    "lng": 24.1059,
+    "s": 1450,
+    "e": 1453,
+    "p": 1450
+  }
+]
