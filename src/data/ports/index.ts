@@ -7,7 +7,6 @@ export interface AncientPort {
   description: string
   startYear: number
   endYear: number
-  source: string
 }
 
 import { loadJson } from '@/data/loadJson'

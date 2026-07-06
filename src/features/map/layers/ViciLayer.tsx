@@ -20,7 +20,6 @@ interface ViciSite {
   description: string
   startYear: number
   endYear: number
-  source: string
   territoryYear?: number | null
   declineYear?: number | null
 }

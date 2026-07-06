@@ -150,11 +150,9 @@ export interface CrossRefEnrichment {
   greekName?: string
   modernName?: string
   province?: string
-  provinceSrc?: string
   startYear?: number
   endYear?: number
   pleiadesDescription?: string
-  pleiadesType?: string
   /** Ancient text mentions — name-matched only, never spatially attributed */
   ancientTextMentions?: number
   ancientAuthors?: string[]

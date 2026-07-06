@@ -31,8 +31,10 @@ export function useURLSync() {
     if (entityId) select(entityId)
 
     if (!atlasMode) {
-      const lens = params.get('lens') as 'graph' | 'map' | 'timeline' | 'stats' | null
-      if (lens) switchLens(lens)
+      const lens = params.get('lens')
+      if (lens && ['graph', 'map', 'timeline', 'stats'].includes(lens)) {
+        switchLens(lens as 'graph' | 'map' | 'timeline' | 'stats')
+      }
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
