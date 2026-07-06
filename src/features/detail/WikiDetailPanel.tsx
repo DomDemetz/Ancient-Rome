@@ -65,11 +65,16 @@ function CrossRefDetailContent({
   crKey: string
   onClose: () => void
 }) {
-  const pid = crKey.startsWith('pleiades:') ? crKey.replace('pleiades:', '') : null
+  const isDiscovery = crKey.startsWith('discovery-')
+  const pid = crKey.startsWith('pleiades:')
+    ? crKey.replace('pleiades:', '')
+    : isDiscovery
+      ? crKey.split(':')[1]
+      : null
   const dareId = crKey.startsWith('settlement:') ? crKey.replace('settlement:', '') : null
 
   const isSettlement = crKey.startsWith('settlement:') || crKey.startsWith('pleiades:')
-  const primarySrc = isSettlement ? 'DARE' : cr.sources[0]
+  const primarySrc = isSettlement ? 'DARE' : cr.sources?.[0]
 
   const facts: Array<{ label: string; value: string; source?: string }> = []
   if (cr.ancientName) {
@@ -118,10 +123,12 @@ function CrossRefDetailContent({
           <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
             Historical Record
           </span>
-          <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
-            <Shield className="size-2.5" />
-            {cr.sources.length} source{cr.sources.length > 1 ? 's' : ''}
-          </span>
+          {cr.sources && cr.sources.length > 0 && (
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
+              <Shield className="size-2.5" />
+              {cr.sources.length} source{cr.sources.length > 1 ? 's' : ''}
+            </span>
+          )}
         </div>
         <Button
           variant="ghost"
@@ -140,7 +147,7 @@ function CrossRefDetailContent({
             <div className="relative -mx-6 -mt-6">
               <img
                 src={cr.imageUrl}
-                alt={cr.ancientName ?? cr.modernName ?? crKey}
+                alt={cr.ancientName ?? cr.modernName ?? cr.name ?? crKey}
                 className="w-full object-cover max-h-52"
                 loading="lazy"
               />
@@ -149,7 +156,7 @@ function CrossRefDetailContent({
           )}
           <div>
             <h2 className="font-serif italic text-xl text-slate-100 leading-tight">
-              {cr.ancientName ?? cr.modernName ?? crKey}
+              {cr.ancientName ?? cr.modernName ?? cr.name ?? crKey}
             </h2>
             {cr.ancientName && cr.modernName && cr.ancientName !== cr.modernName && (
               <span className="text-[11px] text-slate-400 block mt-0.5">{cr.modernName}</span>
@@ -185,23 +192,26 @@ function CrossRefDetailContent({
             </>
           )}
 
-          <Separator className="bg-white/[0.05]" />
-
-          <div className="space-y-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500">
-              Sources
-            </span>
-            <div className="flex flex-wrap gap-1.5">
-              {cr.sources.map((s) => (
-                <span
-                  key={s}
-                  className="text-[10px] text-slate-400 px-1.5 py-0.5 rounded bg-white/[0.04] border border-white/[0.06]"
-                >
-                  {s}
+          {cr.sources && cr.sources.length > 0 && (
+            <>
+              <Separator className="bg-white/[0.05]" />
+              <div className="space-y-1.5">
+                <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500">
+                  Sources
                 </span>
-              ))}
-            </div>
-          </div>
+                <div className="flex flex-wrap gap-1.5">
+                  {cr.sources.map((s) => (
+                    <span
+                      key={s}
+                      className="text-[10px] text-slate-400 px-1.5 py-0.5 rounded bg-white/[0.04] border border-white/[0.06]"
+                    >
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
 
           <div className="flex flex-wrap gap-2 pt-2">
             {pid && (
@@ -610,7 +620,7 @@ function WikiDetailContent({
           <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
             {cr ? 'Historical Record' : 'Wikipedia'}
           </span>
-          {cr ? (
+          {cr?.sources?.length ? (
             <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
               <Shield className="size-2.5" />
               {cr.sources.length} sources
@@ -788,7 +798,7 @@ function WikiDetailContent({
               {sourcesExpanded && (
                 <div className="space-y-3 pl-1">
                   {/* Academic data sources */}
-                  {cr && (
+                  {cr?.sources && cr.sources.length > 0 && (
                     <div className="space-y-1">
                       <h4 className="text-[9px] uppercase tracking-wider text-slate-600">
                         Data Sources

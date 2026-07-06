@@ -69,7 +69,7 @@ export function appendWikiTooltip(
   }
 
   // Source quality indicator — cross-ref is always academic
-  if (cr) {
+  if (cr?.sources?.length) {
     wikiHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} sources</span>`
   } else if (wiki.sourceQuality === 'academic') {
     wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--academic">Academic</span>'
@@ -178,7 +178,7 @@ export function appendCrossRefTooltip(
     crHtml += `<div class="map-tooltip-fact">${esc('Cited by: ' + cr.ancientAuthors.join(', '))}</div>`
   }
 
-  if (cr.sources.length) {
+  if (cr.sources?.length) {
     crHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} source${cr.sources.length > 1 ? 's' : ''}</span>`
   }
 

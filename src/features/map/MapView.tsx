@@ -364,16 +364,36 @@ export function MapView() {
 
               {/* Unified entity layers — new Pleiades discoveries */}
               {showUnifiedVillas && villasData && (
-                <UnifiedLayer data={villasData} color="#4d7c0f" fillColor="#84cc16" />
+                <UnifiedLayer
+                  data={villasData}
+                  color="#4d7c0f"
+                  fillColor="#84cc16"
+                  crPrefix="discovery-villa"
+                />
               )}
               {showUnifiedTemples && templesData && (
-                <UnifiedLayer data={templesData} color="#86198f" fillColor="#d946ef" />
+                <UnifiedLayer
+                  data={templesData}
+                  color="#86198f"
+                  fillColor="#d946ef"
+                  crPrefix="discovery-temple"
+                />
               )}
               {showUnifiedBridges && bridgesData && (
-                <UnifiedLayer data={bridgesData} color="#0369a1" fillColor="#38bdf8" />
+                <UnifiedLayer
+                  data={bridgesData}
+                  color="#0369a1"
+                  fillColor="#38bdf8"
+                  crPrefix="discovery-bridge"
+                />
               )}
               {showUnifiedTombs && tombsData && (
-                <UnifiedLayer data={tombsData} color="#374151" fillColor="#9ca3af" />
+                <UnifiedLayer
+                  data={tombsData}
+                  color="#374151"
+                  fillColor="#9ca3af"
+                  crPrefix="discovery-tomb"
+                />
               )}
             </>
           )}

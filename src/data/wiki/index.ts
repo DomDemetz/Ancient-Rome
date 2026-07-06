@@ -146,6 +146,7 @@ export async function loadWikidataStructured(): Promise<WikidataStructuredLookup
 // --- Cross-reference data (academic sources) ---
 
 export interface CrossRefEnrichment {
+  name?: string
   ancientName?: string
   greekName?: string
   modernName?: string
@@ -166,7 +167,7 @@ export interface CrossRefEnrichment {
   buildingType?: string
   imageUrl?: string
   wikidataDescription?: string
-  sources: string[]
+  sources?: string[]
 }
 
 export type CrossRefLookup = Record<string, CrossRefEnrichment>

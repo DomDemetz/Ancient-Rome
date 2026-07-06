@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import type { UnifiedEntity } from '@/data/unified'
 import { useMapViewport } from '@/hooks/useMapViewport'
+import { useCrossRef } from '@/hooks/useWikiEnrichment'
 import { esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 
@@ -9,6 +10,7 @@ interface UnifiedLayerProps {
   data: UnifiedEntity[]
   color: string
   fillColor: string
+  crPrefix?: string
 }
 
 function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridSize: number): T[] {
@@ -21,8 +23,14 @@ function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridS
   })
 }
 
-export function UnifiedLayer({ data, color, fillColor }: UnifiedLayerProps) {
+function stripPrefix(id: string): string {
+  const i = id.indexOf(':')
+  return i >= 0 ? id.slice(i + 1) : id
+}
+
+export function UnifiedLayer({ data, color, fillColor, crPrefix }: UnifiedLayerProps) {
   const { zoom, bounds } = useMapViewport()
+  const crossRef = useCrossRef()
 
   const visible = useMemo(() => {
     if (zoom < 5) return []
@@ -69,6 +77,13 @@ export function UnifiedLayer({ data, color, fillColor }: UnifiedLayerProps) {
         if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
         if (e.source) details.push(`Source: ${esc(e.source)}`)
         if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+
+        if (crPrefix) {
+          const crKey = `${crPrefix}:${stripPrefix(e.id)}`
+          if (crossRef?.[crKey]) {
+            html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+          }
+        }
 
         return (
           <CircleMarker
