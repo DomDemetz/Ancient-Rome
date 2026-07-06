@@ -639,12 +639,12 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     return { itinereRoadsData: await loadItinereRoads() }
   }),
   showBattles: ensureLoaded('battlesData', 'battlesLoading', async () => {
-    const { loadBattles } = await import('@/data/battles')
-    return { battlesData: await loadBattles() }
+    const { loadUnifiedEntities, unifiedToBattles } = await import('@/data/unified')
+    return { battlesData: unifiedToBattles(await loadUnifiedEntities()) }
   }),
   showAmphitheaters: ensureLoaded('amphitheatersData', 'amphitheatersLoading', async () => {
-    const { loadAmphitheaters } = await import('@/data/amphitheaters')
-    return { amphitheatersData: await loadAmphitheaters() }
+    const { loadUnifiedEntities, unifiedToAmphitheaters } = await import('@/data/unified')
+    return { amphitheatersData: unifiedToAmphitheaters(await loadUnifiedEntities()) }
   }),
   showEmperors: ensureLoaded('emperorsData', 'emperorsLoading', async () => {
     const { loadEmperors } = await import('@/data/emperors')
@@ -673,12 +673,12 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     return { aqueductsData: unifiedToAqueducts(entities), aqueductLinesData: lines }
   }),
   showReligion: ensureLoaded('religionData', 'religionLoading', async () => {
-    const { loadReligion } = await import('@/data/religion')
-    return { religionData: await loadReligion() }
+    const { loadUnifiedEntities, unifiedToReligion } = await import('@/data/unified')
+    return { religionData: unifiedToReligion(await loadUnifiedEntities()) }
   }),
   showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
-    const { loadBuildings } = await import('@/data/buildings')
-    return { buildingsData: await loadBuildings() }
+    const { loadUnifiedEntities, unifiedToBuildings } = await import('@/data/unified')
+    return { buildingsData: unifiedToBuildings(await loadUnifiedEntities()) }
   }),
   showPresses: ensureLoaded('pressesData', 'pressesLoading', async () => {
     const { loadUnifiedEntities, unifiedToPresses } = await import('@/data/unified')
@@ -883,14 +883,14 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleBattles: () =>
     makeToggle('showBattles', 'battlesData', 'battlesLoading', async () => {
-      const { loadBattles } = await import('@/data/battles')
-      return { data: await loadBattles() }
+      const { loadUnifiedEntities, unifiedToBattles } = await import('@/data/unified')
+      return { data: unifiedToBattles(await loadUnifiedEntities()) }
     })(set, get),
 
   toggleAmphitheaters: () =>
     makeToggle('showAmphitheaters', 'amphitheatersData', 'amphitheatersLoading', async () => {
-      const { loadAmphitheaters } = await import('@/data/amphitheaters')
-      return { data: await loadAmphitheaters() }
+      const { loadUnifiedEntities, unifiedToAmphitheaters } = await import('@/data/unified')
+      return { data: unifiedToAmphitheaters(await loadUnifiedEntities()) }
     })(set, get),
 
   toggleEmperors: () =>
@@ -931,14 +931,14 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleReligion: () =>
     makeToggle('showReligion', 'religionData', 'religionLoading', async () => {
-      const { loadReligion } = await import('@/data/religion')
-      return { data: await loadReligion() }
+      const { loadUnifiedEntities, unifiedToReligion } = await import('@/data/unified')
+      return { data: unifiedToReligion(await loadUnifiedEntities()) }
     })(set, get),
 
   toggleBuildings: () =>
     makeToggle('showBuildings', 'buildingsData', 'buildingsLoading', async () => {
-      const { loadBuildings } = await import('@/data/buildings')
-      return { data: await loadBuildings() }
+      const { loadUnifiedEntities, unifiedToBuildings } = await import('@/data/unified')
+      return { data: unifiedToBuildings(await loadUnifiedEntities()) }
     })(set, get),
 
   togglePresses: () =>

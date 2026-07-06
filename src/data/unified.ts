@@ -2,6 +2,10 @@ import type { Shipwreck } from '@/data/shipwrecks'
 import type { Mine } from '@/data/mines'
 import type { Aqueduct } from '@/data/aqueducts'
 import type { Press } from '@/data/presses'
+import type { Battle } from '@/data/battles'
+import type { Amphitheater } from '@/data/amphitheaters'
+import type { Building } from '@/data/buildings'
+import type { ReligiousSite } from '@/data/religion'
 
 export interface UnifiedEntity {
   id: string
@@ -123,6 +127,74 @@ export function unifiedToPorts(entities: UnifiedEntity[]): PortData[] {
       description: (e.props?.description as string) ?? '',
       startYear: e.startYear ?? 0,
       endYear: e.endYear ?? 0,
+      source: e.source,
+    }))
+}
+
+export function unifiedToBattles(entities: UnifiedEntity[]): Battle[] {
+  return entities
+    .filter((e) => e.type === 'battle')
+    .map((e) => ({
+      id: stripPrefix(e.id),
+      name: e.name,
+      year: e.startYear ?? 0,
+      lat: e.lat,
+      lng: e.lng,
+      outcome: ((e.props?.outcome as string) ?? 'unknown') as Battle['outcome'],
+      combatants: (e.props?.combatants as string) ?? '',
+      commander: (e.props?.commander as string) ?? '',
+      description: (e.props?.description as string) ?? '',
+      source: e.source,
+    }))
+}
+
+export function unifiedToAmphitheaters(entities: UnifiedEntity[]): Amphitheater[] {
+  return entities
+    .filter((e) => e.type === 'amphitheater')
+    .map((e) => ({
+      id: stripPrefix(e.id),
+      name: e.name,
+      lat: e.lat,
+      lng: e.lng,
+      capacity: (e.props?.capacity as number) ?? null,
+      constructionYear: e.startYear ?? null,
+      dimensions: (e.props?.dimensions as string) ?? null,
+      city: (e.props?.city as string) ?? '',
+      source: e.source,
+      pleiadesId: null,
+    }))
+}
+
+export function unifiedToBuildings(entities: UnifiedEntity[]): Building[] {
+  return entities
+    .filter((e) => e.type === 'building')
+    .map((e) => ({
+      id: stripPrefix(e.id),
+      name: e.name,
+      lat: e.lat,
+      lng: e.lng,
+      buildingType: e.subtype ?? 'unknown',
+      constructionYear: e.startYear ?? 0,
+      builder: (e.props?.builder as string) ?? null,
+      description: (e.props?.description as string) ?? '',
+      source: e.source,
+    }))
+}
+
+export function unifiedToReligion(entities: UnifiedEntity[]): ReligiousSite[] {
+  return entities
+    .filter((e) => e.type === 'religious-site')
+    .map((e) => ({
+      id: stripPrefix(e.id),
+      name: e.name,
+      lat: e.lat,
+      lng: e.lng,
+      religion: (e.props?.religion as string) ?? 'unknown',
+      siteType: e.subtype ?? 'unknown',
+      deity: (e.props?.deity as string) ?? null,
+      startYear: e.startYear ?? 0,
+      endYear: e.endYear ?? 0,
+      description: (e.props?.description as string) ?? '',
       source: e.source,
     }))
 }
