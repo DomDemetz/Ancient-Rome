@@ -100,6 +100,7 @@ export function SearchBar() {
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [activeIdx, setActiveIdx] = useState(-1)
   const containerRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const select = useSelectionStore((s) => s.select)
@@ -372,6 +373,15 @@ export function SearchBar() {
     return fuse.search(query, { limit: MAX_RESULTS }).map((r) => r.item)
   }, [fuse, query])
 
+  // Reset keyboard highlight when the result set changes — done during
+  // render (React's "adjust state when props change" pattern), not in an
+  // effect, to avoid a cascading re-render.
+  const [prevResults, setPrevResults] = useState(results)
+  if (prevResults !== results) {
+    setPrevResults(results)
+    setActiveIdx(-1)
+  }
+
   // Close dropdown on outside click
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -447,19 +457,35 @@ export function SearchBar() {
     }
   }
 
+  function handleSearchKeyDown(e: React.KeyboardEvent) {
+    if (!open || results.length === 0) return
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      setActiveIdx((i) => (i < results.length - 1 ? i + 1 : 0))
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      setActiveIdx((i) => (i > 0 ? i - 1 : results.length - 1))
+    } else if (e.key === 'Enter' && activeIdx >= 0) {
+      e.preventDefault()
+      handleSelect(results[activeIdx])
+    }
+  }
+
   const resultsDropdown = open && results.length > 0 && (
     <ul
       className="absolute top-full left-0 right-0 mt-1 rounded-xl border border-white/[0.06] bg-black/95 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.5)] overflow-hidden"
+      role="listbox"
       style={{ zIndex: 1001 }}
     >
-      {results.map((item) => (
-        <li key={item.id}>
+      {results.map((item, i) => (
+        <li key={item.id} role="option" aria-selected={i === activeIdx}>
           <button
-            className="w-full flex items-center gap-2 px-3 py-2.5 min-h-[44px] text-left text-xs hover:bg-white/[0.04] active:bg-white/[0.06] transition-colors"
+            className={`w-full flex items-center gap-2 px-3 py-2.5 min-h-[44px] text-left text-xs transition-colors ${i === activeIdx ? 'bg-amber-500/[0.10] border-l-2 border-amber-500/50' : 'hover:bg-white/[0.04] active:bg-white/[0.06] border-l-2 border-transparent'}`}
             onMouseDown={(e) => {
               e.preventDefault()
               handleSelect(item)
             }}
+            onMouseEnter={() => setActiveIdx(i)}
           >
             <span
               className="size-2 rounded-full shrink-0"
@@ -515,6 +541,7 @@ export function SearchBar() {
                         setOpen(true)
                       }}
                       onFocus={() => setOpen(true)}
+                      onKeyDown={handleSearchKeyDown}
                       autoFocus
                       className="w-full rounded-xl h-10 pl-9 pr-3 text-sm bg-white/[0.04] border border-white/[0.06] text-white placeholder:text-slate-500 focus:outline-none focus:border-amber-500/30 focus:shadow-[0_0_20px_rgba(245,158,11,0.08)]"
                     />
@@ -555,6 +582,10 @@ export function SearchBar() {
             setOpen(true)
           }}
           onFocus={() => setOpen(true)}
+          onKeyDown={handleSearchKeyDown}
+          role="combobox"
+          aria-expanded={open && results.length > 0}
+          aria-autocomplete="list"
           className="pl-8 pr-12 h-8 text-sm bg-transparent border-none text-white placeholder:text-slate-500 focus-visible:ring-0 focus-visible:ring-offset-0"
         />
         <span className="absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-slate-600 bg-white/[0.05] px-1.5 py-0.5 rounded pointer-events-none">

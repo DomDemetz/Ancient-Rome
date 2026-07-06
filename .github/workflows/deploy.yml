@@ -37,9 +37,6 @@ jobs:
           VITE_STADIA_API_KEY: ${{ secrets.VITE_STADIA_API_KEY }}
         run: npm run build
 
-      - name: SPA fallback (serve index.html for deep links / refreshes)
-        run: cp dist/index.html dist/404.html
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
