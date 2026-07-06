@@ -35,9 +35,15 @@ function commonsThumbUrl(filename: string, width: number): string {
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(name)}?width=${width}`
 }
 
+const HEADERS = {
+  'User-Agent':
+    'AncientRomeAtlas/1.0 (https://github.com/DomDemetz/Ancient-Rome; jobs4you@fach-hr.com)',
+  Accept: 'application/json',
+}
+
 async function fetchWithRetry(url: string, retries = 5): Promise<Response> {
   for (let i = 0; i < retries; i++) {
-    const res = await fetch(url)
+    const res = await fetch(url, { headers: HEADERS })
     if (res.status === 429) {
       const wait = Math.min(120, (i + 1) * 10)
       console.log(`  429 rate-limited, backing off ${wait}s...`)

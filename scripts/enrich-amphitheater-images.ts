@@ -24,9 +24,15 @@ async function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms))
 }
 
+const HEADERS = {
+  'User-Agent':
+    'AncientRomeAtlas/1.0 (https://github.com/DomDemetz/Ancient-Rome; jobs4you@fach-hr.com)',
+  Accept: 'application/json',
+}
+
 async function fetchWithRetry(url: string, retries = 5): Promise<Response> {
   for (let i = 0; i < retries; i++) {
-    const resp = await fetch(url)
+    const resp = await fetch(url, { headers: HEADERS })
     if (resp.status === 429) {
       const delay = 10_000 * (i + 1)
       console.log(`  429 rate-limited, backing off ${delay / 1000}s...`)
