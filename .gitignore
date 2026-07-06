@@ -36,6 +36,9 @@ test-results/
 data-sources/
 !.env.example
 
+# Raw dataset downloads (large, redownloadable)
+src/data/downloads/
+
 # local recording exports
 roman-empire-rise-and-fall.gif
 roman-empire-rise-and-fall.mp4
