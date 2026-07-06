@@ -238,6 +238,7 @@ function PeopleDetailContent({ featureId }: { featureId: string }) {
   const [person, setPerson] = useState<import('@/data/people-layer').NotablePerson | null>(null)
   const [wikiExtract, setWikiExtract] = useState<string | null>(null)
   const [wikiImage, setWikiImage] = useState<string | null>(null)
+  const [wikiTitle, setWikiTitle] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -269,6 +270,7 @@ function PeopleDetailContent({ featureId }: { featureId: string }) {
               if (!cancelled) {
                 setWikiExtract(data.extract ?? null)
                 setWikiImage(data.thumbnail?.source ?? null)
+                setWikiTitle(title)
               }
             }
           }
@@ -277,6 +279,7 @@ function PeopleDetailContent({ featureId }: { featureId: string }) {
           if (!cancelled) {
             setWikiExtract(data.extract ?? null)
             setWikiImage(data.thumbnail?.source ?? null)
+            setWikiTitle(data.title ?? null)
           }
         }
       } catch {
@@ -361,6 +364,16 @@ function PeopleDetailContent({ featureId }: { featureId: string }) {
 
           <Separator className="bg-white/[0.05]" />
           <div className="flex flex-wrap gap-3">
+            {wikiTitle && (
+              <a
+                href={`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-[11px] text-amber-500/80 hover:text-amber-400 transition-colors"
+              >
+                <BookOpen className="size-3" /> Wikipedia
+              </a>
+            )}
             <a
               href={wdUrl}
               target="_blank"
