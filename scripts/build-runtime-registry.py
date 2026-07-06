@@ -99,3 +99,19 @@ p6 = os.path.join(R, "empires-search.json")
 json.dump(emp_search, open(p6, "w"), ensure_ascii=False, separators=(",", ":"))
 open(p6, "a").write("\n")
 print(f"empires-search.json: {len(emp_search)} polities ({os.path.getsize(p6)//1024} KB)")
+
+
+# --- people-search.json: notable historical figures ---
+people_path = os.path.join(BASE, "people-layer", "notable-people.json")
+if os.path.exists(people_path):
+    people = json.load(open(people_path))
+    ppl = [{
+        "id": p["wikidataId"], "n": p["name"],
+        "lat": p["birthLat"], "lng": p["birthLng"],
+        "b": p["born"], "d": p.get("died"),
+        "r": p.get("role", ""),
+    } for p in people]
+    p7 = os.path.join(R, "people-search.json")
+    json.dump(ppl, open(p7, "w"), ensure_ascii=False, separators=(",", ":"))
+    open(p7, "a").write("\n")
+    print(f"people-search.json: {len(ppl)} people ({os.path.getsize(p7)//1024} KB)")
