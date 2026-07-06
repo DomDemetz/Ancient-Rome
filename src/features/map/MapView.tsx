@@ -30,6 +30,7 @@ import { EpigraphyLayer } from './layers/EpigraphyLayer'
 import { ViciLayer } from './layers/ViciLayer'
 import { PortsLayer } from './layers/PortsLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
+import { UnifiedLayer } from './layers/UnifiedLayer'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
@@ -228,6 +229,11 @@ export function MapView() {
     viciData,
     portsData,
     notablePeopleData,
+    unifiedData,
+    showUnifiedVillas,
+    showUnifiedTemples,
+    showUnifiedBridges,
+    showUnifiedTombs,
     settlementTypes,
     hiddenCategories,
     toggleCategory,
@@ -263,6 +269,8 @@ export function MapView() {
   if (showTradeNetwork) attribution += ' | ORBIS v2 &copy; Stanford University'
   if (showNotablePeople)
     attribution += ' | Notable People: Sciences-Po cross-verified database, CC-BY-SA'
+  if (showUnifiedVillas || showUnifiedTemples || showUnifiedBridges || showUnifiedTombs)
+    attribution += ' | Discovery: <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY)'
 
   return (
     <div className="relative w-full h-full flex flex-col" style={{ background: '#0f0a1a' }}>
@@ -349,6 +357,40 @@ export function MapView() {
               {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
               {showNotablePeople && notablePeopleData && (
                 <NotablePeopleLayer data={notablePeopleData} />
+              )}
+
+              {/* Unified entity layers — new Pleiades discoveries */}
+              {showUnifiedVillas && unifiedData && (
+                <UnifiedLayer
+                  data={unifiedData}
+                  types={['villa', 'estate', 'townhouse', 'farm']}
+                  color="#4d7c0f"
+                  fillColor="#84cc16"
+                />
+              )}
+              {showUnifiedTemples && unifiedData && (
+                <UnifiedLayer
+                  data={unifiedData}
+                  types={['temple', 'sanctuary', 'shrine']}
+                  color="#86198f"
+                  fillColor="#d946ef"
+                />
+              )}
+              {showUnifiedBridges && unifiedData && (
+                <UnifiedLayer
+                  data={unifiedData}
+                  types={['bridge']}
+                  color="#0369a1"
+                  fillColor="#38bdf8"
+                />
+              )}
+              {showUnifiedTombs && unifiedData && (
+                <UnifiedLayer
+                  data={unifiedData}
+                  types={['tomb', 'cemetery', 'tumulus', 'cenotaph', 'pyramid']}
+                  color="#374151"
+                  fillColor="#9ca3af"
+                />
               )}
             </>
           )}

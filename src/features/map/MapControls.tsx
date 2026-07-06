@@ -288,6 +288,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     showVici,
     showPorts,
     showNotablePeople,
+    showUnifiedVillas,
+    showUnifiedTemples,
+    showUnifiedBridges,
+    showUnifiedTombs,
+    unifiedLoading,
     roadsLoading,
     placesLoading,
     empiresLoading,
@@ -340,6 +345,10 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     toggleVici,
     togglePorts,
     toggleNotablePeople,
+    toggleUnifiedVillas,
+    toggleUnifiedTemples,
+    toggleUnifiedBridges,
+    toggleUnifiedTombs,
     toggleSettlementType,
     activatePreset,
   } = useMapLayerStore(useShallow((s) => s))
@@ -403,6 +412,26 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       active: showNotablePeople,
       loading: notablePeopleLoading,
       toggle: toggleNotablePeople,
+    },
+    UnifiedVillas: {
+      active: showUnifiedVillas,
+      loading: unifiedLoading,
+      toggle: toggleUnifiedVillas,
+    },
+    UnifiedTemples: {
+      active: showUnifiedTemples,
+      loading: unifiedLoading,
+      toggle: toggleUnifiedTemples,
+    },
+    UnifiedBridges: {
+      active: showUnifiedBridges,
+      loading: unifiedLoading,
+      toggle: toggleUnifiedBridges,
+    },
+    UnifiedTombs: {
+      active: showUnifiedTombs,
+      loading: unifiedLoading,
+      toggle: toggleUnifiedTombs,
     },
   }
 

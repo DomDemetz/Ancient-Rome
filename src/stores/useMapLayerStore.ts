@@ -19,6 +19,7 @@ import type { Press } from '@/data/presses'
 import type { TradeNetwork } from '@/data/trade'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
+import type { UnifiedEntity } from '@/data/unified'
 
 // --- Preset definitions ---
 export type PresetName =
@@ -301,6 +302,32 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
     ],
   },
+  {
+    label: 'Discovery',
+    layers: [
+      {
+        key: 'UnifiedVillas',
+        label: 'Villas (2.2K)',
+        activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
+      },
+      {
+        key: 'UnifiedTemples',
+        label: 'Temples (1.3K)',
+        activeClass:
+          'bg-fuchsia-900/80 border-fuchsia-700 text-fuchsia-100 hover:bg-fuchsia-800/80',
+      },
+      {
+        key: 'UnifiedBridges',
+        label: 'Bridges (689)',
+        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
+      },
+      {
+        key: 'UnifiedTombs',
+        label: 'Tombs (780)',
+        activeClass: 'bg-gray-800/80 border-gray-600 text-gray-100 hover:bg-gray-700/80',
+      },
+    ],
+  },
 ]
 
 // --- All toggleable layer keys ---
@@ -330,6 +357,10 @@ export const ALL_LAYER_KEYS = [
   'showVici',
   'showPorts',
   'showNotablePeople',
+  'showUnifiedVillas',
+  'showUnifiedTemples',
+  'showUnifiedBridges',
+  'showUnifiedTombs',
 ] as const
 
 interface PortData {
@@ -430,6 +461,14 @@ interface MapLayerState {
   notablePeopleData: NotablePerson[] | null
   notablePeopleLoading: boolean
 
+  // Unified entity layer
+  unifiedData: UnifiedEntity[] | null
+  unifiedLoading: boolean
+  showUnifiedVillas: boolean
+  showUnifiedTemples: boolean
+  showUnifiedBridges: boolean
+  showUnifiedTombs: boolean
+
   // Settlement filtering
   settlementTypes: Record<number, boolean>
   hiddenCategories: Set<string>
@@ -469,6 +508,10 @@ interface MapLayerActions {
   toggleVici: () => void
   togglePorts: () => void
   toggleNotablePeople: () => void
+  toggleUnifiedVillas: () => void
+  toggleUnifiedTemples: () => void
+  toggleUnifiedBridges: () => void
+  toggleUnifiedTombs: () => void
   activatePreset: (preset: PresetName) => void
   setLayers: (keys: string[]) => void
   dismissError: () => void
@@ -665,6 +708,22 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadNotablePeople } = await import('@/data/people-layer')
     return { notablePeopleData: await loadNotablePeople() }
   }),
+  showUnifiedVillas: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
+    const { loadUnifiedEntities } = await import('@/data/unified')
+    return { unifiedData: await loadUnifiedEntities() }
+  }),
+  showUnifiedTemples: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
+    const { loadUnifiedEntities } = await import('@/data/unified')
+    return { unifiedData: await loadUnifiedEntities() }
+  }),
+  showUnifiedBridges: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
+    const { loadUnifiedEntities } = await import('@/data/unified')
+    return { unifiedData: await loadUnifiedEntities() }
+  }),
+  showUnifiedTombs: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
+    const { loadUnifiedEntities } = await import('@/data/unified')
+    return { unifiedData: await loadUnifiedEntities() }
+  }),
 }
 
 export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, get) => ({
@@ -746,6 +805,12 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showNotablePeople: false,
   notablePeopleData: null,
   notablePeopleLoading: false,
+  unifiedData: null,
+  unifiedLoading: false,
+  showUnifiedVillas: false,
+  showUnifiedTemples: false,
+  showUnifiedBridges: false,
+  showUnifiedTombs: false,
   settlementTypes: { ...defaultSettlementTypes },
   hiddenCategories: new Set<string>(),
   activePreset: 'custom',
@@ -923,6 +988,30 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     makeToggle('showNotablePeople', 'notablePeopleData', 'notablePeopleLoading', async () => {
       const { loadNotablePeople } = await import('@/data/people-layer')
       return { data: await loadNotablePeople() }
+    })(set, get),
+
+  toggleUnifiedVillas: () =>
+    makeToggle('showUnifiedVillas', 'unifiedData', 'unifiedLoading', async () => {
+      const { loadUnifiedEntities } = await import('@/data/unified')
+      return { data: await loadUnifiedEntities() }
+    })(set, get),
+
+  toggleUnifiedTemples: () =>
+    makeToggle('showUnifiedTemples', 'unifiedData', 'unifiedLoading', async () => {
+      const { loadUnifiedEntities } = await import('@/data/unified')
+      return { data: await loadUnifiedEntities() }
+    })(set, get),
+
+  toggleUnifiedBridges: () =>
+    makeToggle('showUnifiedBridges', 'unifiedData', 'unifiedLoading', async () => {
+      const { loadUnifiedEntities } = await import('@/data/unified')
+      return { data: await loadUnifiedEntities() }
+    })(set, get),
+
+  toggleUnifiedTombs: () =>
+    makeToggle('showUnifiedTombs', 'unifiedData', 'unifiedLoading', async () => {
+      const { loadUnifiedEntities } = await import('@/data/unified')
+      return { data: await loadUnifiedEntities() }
     })(set, get),
 
   toggleSettlementType: (type: number) => {
