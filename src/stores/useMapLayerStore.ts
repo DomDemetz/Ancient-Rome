@@ -3,6 +3,7 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import type { FeatureCollection } from 'geojson'
 import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
 import type { PlaceNode } from '@/data/places'
+import type { EmpireShape } from '@/data/empires'
 import type { PresenceGrid } from '@/features/map/layers/PresenceLayer'
 import type { SettlementCategory } from '@/features/map/layers/settlementStyles'
 import type { Battle } from '@/data/battles'
@@ -135,6 +136,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
   {
     label: 'Political',
     layers: [
+      {
+        key: 'Empires',
+        label: 'World Empires',
+        activeClass: 'bg-indigo-900/80 border-indigo-600 text-indigo-100 hover:bg-indigo-800/80',
+      },
       {
         key: 'Territories',
         label: 'Territories',
@@ -335,6 +341,9 @@ interface MapLayerState {
   showRoads: boolean
   showSettlements: boolean
   showCities: boolean
+  showEmpires: boolean
+  empiresData: EmpireShape[] | null
+  empiresLoading: boolean
   showLimes: boolean
   showPresence: boolean
   showProvinces: boolean
@@ -428,6 +437,7 @@ interface MapLayerActions {
   toggleRoads: () => void
   toggleSettlements: () => void
   toggleCities: () => void
+  toggleEmpires: () => void
   toggleLimes: () => void
   togglePresence: () => void
   toggleProvinces: () => void
@@ -548,6 +558,10 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadPlaces } = await import('@/data/places')
     return { placesData: await loadPlaces() }
   }),
+  showEmpires: ensureLoaded('empiresData', 'empiresLoading', async () => {
+    const { loadEmpires } = await import('@/data/empires')
+    return { empiresData: await loadEmpires() }
+  }),
   showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
     const { loadLimes } = await import('@/data/dare')
     return { limesData: await loadLimes() }
@@ -652,6 +666,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   roadsLoading: false,
   showSettlements: false,
   showCities: false,
+  showEmpires: false,
+  empiresData: null,
+  empiresLoading: false,
   placesData: null,
   placesLoading: false,
   showLimes: false,
@@ -744,6 +761,12 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     makeToggle('showCities', 'placesData', 'placesLoading', async () => {
       const { loadPlaces } = await import('@/data/places')
       return { data: await loadPlaces() }
+    })(set, get),
+
+  toggleEmpires: () =>
+    makeToggle('showEmpires', 'empiresData', 'empiresLoading', async () => {
+      const { loadEmpires } = await import('@/data/empires')
+      return { data: await loadEmpires() }
     })(set, get),
 
   toggleLimes: () =>
@@ -877,7 +900,8 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleVici: () =>
     makeToggle('showVici', 'viciData', 'viciLoading', async () => {
-      const data = await import('@/data/vici-sites.json')
+      const raw = await import('@/data/vici-sites.json?raw')
+      const data = { default: JSON.parse(raw.default) }
       return { data: data.default }
     })(set, get),
 

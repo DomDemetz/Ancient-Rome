@@ -1,0 +1,15 @@
+# multi-MB generated data — prettier OOMs/SIGKILLs on these and they are
+# machine-written compact JSON on purpose
+src/data/empires/empires.json
+src/data/places/places.json
+src/data/vici-sites.json
+src/data/wiki/cross-reference.json
+src/data/territories/territories.json
+src/data/dare/*.json
+src/data/itinere/*.json
+src/data/pleiades-all.json
+src/data/awmc-*.json
+src/data/ancient-ports.json
+src/data/darmc-roads.json
+src/data/pelagios-places.json
+src/data/idai-sites.json

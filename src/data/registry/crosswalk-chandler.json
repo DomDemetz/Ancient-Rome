@@ -1615,5 +1615,540 @@
     "major": true,
     "pid": "187596",
     "via": "dare-modern-name"
+  },
+  "chandler-memphis--2000": {
+    "km": 0.5,
+    "major": true,
+    "pid": "736963",
+    "qid": "Q5715",
+    "via": "manual"
+  },
+  "chandler-corinth--430": {
+    "km": 5.9,
+    "major": true,
+    "pid": "900000",
+    "via": "manual"
+  },
+  "chandler-ephesus--200": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900001",
+    "via": "manual"
+  },
+  "chandler-miletus--650": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900002",
+    "via": "manual"
+  },
+  "chandler-antioch--200": {
+    "km": 1.0,
+    "major": true,
+    "pid": "900003",
+    "via": "manual"
+  },
+  "chandler-jerusalem--800": {
+    "km": 1.9,
+    "major": true,
+    "pid": "900004",
+    "via": "manual"
+  },
+  "chandler-ecbatana--430": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900005",
+    "via": "manual"
+  },
+  "chandler-susa--2000": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900006",
+    "via": "manual"
+  },
+  "chandler-vienna-1200": {
+    "km": 0.3,
+    "major": true,
+    "pid": "128460",
+    "via": "manual"
+  },
+  "chandler-turin-1377": {
+    "km": 0.3,
+    "major": true,
+    "pid": "383580",
+    "via": "manual"
+  },
+  "chandler-oxyrhyncus--100": {
+    "km": 1.1,
+    "major": true,
+    "pid": "736983",
+    "via": "manual"
+  },
+  "chandler-tarsus-850": {
+    "km": 1.7,
+    "major": true,
+    "pid": "900007",
+    "via": "manual"
+  },
+  "chandler-trebizond-260": {
+    "km": 1.0,
+    "major": true,
+    "pid": "900008",
+    "via": "manual"
+  },
+  "chandler-sidon--430": {
+    "km": 0.4,
+    "major": true,
+    "pid": "900009",
+    "via": "manual"
+  },
+  "chandler-adrianople-812": {
+    "km": 1.0,
+    "major": false,
+    "pid": "501428",
+    "via": "manual"
+  },
+  "chandler-leon-1200": {
+    "km": 0.7,
+    "major": false,
+    "pid": "900010",
+    "via": "manual"
+  },
+  "chandler-rabat-1200": {
+    "km": 1.2,
+    "major": true,
+    "pid": "275696",
+    "via": "manual"
+  },
+  "chandler-dumyat-1200": {
+    "km": 1.8,
+    "major": true,
+    "pid": "727235",
+    "via": "manual"
+  },
+  "chandler-tangier-1900": {
+    "km": 2.4,
+    "major": true,
+    "pid": "900011",
+    "via": "manual"
+  },
+  "chandler-algiers-1500": {
+    "km": 1.7,
+    "major": true,
+    "pid": "295276",
+    "via": "manual"
+  },
+  "chandler-argos--1200": {
+    "km": 1.7,
+    "major": true,
+    "pid": "900012",
+    "via": "manual"
+  },
+  "chandler-esfahan-800": {
+    "km": 0.1,
+    "major": false,
+    "pid": "902990",
+    "via": "manual"
+  },
+  "chandler-nippur--2250": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900013",
+    "via": "auto"
+  },
+  "chandler-ur--2000": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900014",
+    "via": "auto"
+  },
+  "chandler-avaris--1600": {
+    "km": 0.1,
+    "major": false,
+    "pid": "900015",
+    "via": "auto"
+  },
+  "chandler-babylon--1600": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900016",
+    "via": "auto"
+  },
+  "chandler-amarna--1360": {
+    "km": 0.3,
+    "major": false,
+    "pid": "900017",
+    "via": "auto"
+  },
+  "chandler-dur-kurigalzu--1360": {
+    "km": 0.0,
+    "major": false,
+    "pid": "900018",
+    "via": "auto"
+  },
+  "chandler-heliopolis--1360": {
+    "km": 1.6,
+    "major": true,
+    "pid": "900019",
+    "via": "auto"
+  },
+  "chandler-uruk--1360": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900020",
+    "via": "auto"
+  },
+  "chandler-nimrud--800": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900021",
+    "via": "auto"
+  },
+  "chandler-nineveh--650": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900022",
+    "via": "auto"
+  },
+  "chandler-agrigento--430": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900023",
+    "via": "auto"
+  },
+  "chandler-crotone--430": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900024",
+    "via": "auto"
+  },
+  "chandler-elis--430": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900025",
+    "via": "auto"
+  },
+  "chandler-perspolis--430": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900026",
+    "via": "auto"
+  },
+  "chandler-sparti--430": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900027",
+    "via": "auto"
+  },
+  "chandler-apamea--100": {
+    "km": 0.5,
+    "major": true,
+    "pid": "900028",
+    "via": "auto"
+  },
+  "chandler-ostia--100": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900029",
+    "via": "auto"
+  },
+  "chandler-leptis-361": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900030",
+    "via": "auto"
+  },
+  "chandler-diyarbakir-500": {
+    "km": 0.7,
+    "major": true,
+    "pid": "874298",
+    "via": "auto"
+  },
+  "chandler-istakhr-622": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900031",
+    "via": "auto"
+  },
+  "chandler-augsberg-800": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900032",
+    "via": "auto"
+  },
+  "chandler-metz-800": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900033",
+    "via": "auto"
+  },
+  "chandler-iraklion-827": {
+    "km": 1.0,
+    "major": true,
+    "pid": "900034",
+    "via": "auto"
+  },
+  "chandler-samarra-836": {
+    "km": 1.0,
+    "major": false,
+    "pid": "900035",
+    "via": "auto"
+  },
+  "chandler-herat-900": {
+    "km": 1.1,
+    "major": true,
+    "pid": "900036",
+    "via": "auto"
+  },
+  "chandler-barcelona-950": {
+    "km": 1.6,
+    "major": true,
+    "pid": "900037",
+    "via": "auto"
+  },
+  "chandler-tinnis-1000": {
+    "km": 0.1,
+    "major": false,
+    "pid": "900038",
+    "via": "auto"
+  },
+  "chandler-exeter-1086": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900039",
+    "via": "auto"
+  },
+  "chandler-iconium-1090": {
+    "km": 0.7,
+    "major": true,
+    "pid": "900040",
+    "via": "auto"
+  },
+  "chandler-montpellier-1090": {
+    "km": 0.3,
+    "major": false,
+    "pid": "900041",
+    "via": "auto"
+  },
+  "chandler-gent-1100": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900042",
+    "via": "auto"
+  },
+  "chandler-sebastea-1100": {
+    "km": 0.2,
+    "major": true,
+    "pid": "629075",
+    "via": "auto"
+  },
+  "chandler-esztergom-1200": {
+    "km": 0.8,
+    "major": false,
+    "pid": "197519",
+    "via": "auto"
+  },
+  "chandler-frankfurt-am-main-1200": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900043",
+    "via": "auto"
+  },
+  "chandler-kish-1200": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900044",
+    "via": "auto"
+  },
+  "chandler-limoges-1250": {
+    "km": 0.7,
+    "major": true,
+    "pid": "900045",
+    "via": "auto"
+  },
+  "chandler-aix-1263": {
+    "km": 0.6,
+    "major": true,
+    "pid": "148053",
+    "via": "auto"
+  },
+  "chandler-ulm-1300": {
+    "km": 2.9,
+    "major": false,
+    "pid": "900046",
+    "via": "auto"
+  },
+  "chandler-hamadan-1320": {
+    "km": 0.7,
+    "major": true,
+    "pid": "900005",
+    "via": "auto"
+  },
+  "chandler-bratislava-1350": {
+    "km": 0.6,
+    "major": false,
+    "pid": "900048",
+    "via": "auto"
+  },
+  "chandler-aberdeen-1396": {
+    "km": 1.2,
+    "major": false,
+    "pid": "900049",
+    "via": "auto"
+  },
+  "chandler-sofia-1400": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900050",
+    "via": "auto"
+  },
+  "chandler-antwerp-1437": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900051",
+    "via": "auto"
+  },
+  "chandler-nantes-1500": {
+    "km": 0.3,
+    "major": false,
+    "pid": "900052",
+    "via": "auto"
+  },
+  "chandler-vicenza-1539": {
+    "km": 0.4,
+    "major": true,
+    "pid": "900053",
+    "via": "auto"
+  },
+  "chandler-ecija-1587": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900054",
+    "via": "auto"
+  },
+  "chandler-clermont-1646": {
+    "km": 0.6,
+    "major": true,
+    "pid": "138202",
+    "via": "auto"
+  },
+  "chandler-bath-1700": {
+    "km": 0.4,
+    "major": false,
+    "pid": "900055",
+    "via": "auto"
+  },
+  "chandler-kandahar-1738": {
+    "km": 5.0,
+    "major": false,
+    "pid": "900056",
+    "via": "auto"
+  },
+  "chandler-patras-1800": {
+    "km": 0.5,
+    "major": true,
+    "pid": "900057",
+    "via": "auto"
+  },
+  "chandler-a-coruna-1900": {
+    "km": 1.7,
+    "major": false,
+    "pid": "900058",
+    "via": "auto"
+  },
+  "chandler-ancona-1900": {
+    "km": 3.0,
+    "major": true,
+    "pid": "900059",
+    "via": "auto"
+  },
+  "chandler-aydin-1900": {
+    "km": 1.7,
+    "major": true,
+    "pid": "599987",
+    "via": "auto"
+  },
+  "chandler-boulogne-1900": {
+    "km": 0.0,
+    "major": false,
+    "pid": "109008",
+    "via": "auto"
+  },
+  "chandler-cardiff-1900": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900060",
+    "via": "auto"
+  },
+  "chandler-dessau-rosslau-1900": {
+    "km": 0.0,
+    "major": false,
+    "pid": "118641",
+    "via": "auto"
+  },
+  "chandler-eastbourne-1900": {
+    "km": 0.6,
+    "major": false,
+    "pid": "900061",
+    "via": "auto"
+  },
+  "chandler-folkestone-1900": {
+    "km": 1.2,
+    "major": false,
+    "pid": "900062",
+    "via": "auto"
+  },
+  "chandler-gibraltar-1900": {
+    "km": 2.4,
+    "major": false,
+    "pid": "900063",
+    "via": "auto"
+  },
+  "chandler-hastings-1900": {
+    "km": 1.3,
+    "major": false,
+    "pid": "900064",
+    "via": "auto"
+  },
+  "chandler-heidelberg-1900": {
+    "km": 1.7,
+    "major": false,
+    "pid": "900065",
+    "via": "auto"
+  },
+  "chandler-kahramanmaras-1900": {
+    "km": 0.8,
+    "major": true,
+    "pid": "900066",
+    "via": "auto"
+  },
+  "chandler-koblenz-am-rhein-1900": {
+    "km": 0.4,
+    "major": false,
+    "pid": "108903",
+    "via": "auto"
+  },
+  "chandler-lincoln-1900": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900067",
+    "via": "auto"
+  },
+  "chandler-maidstone-1900": {
+    "km": 0.9,
+    "major": false,
+    "pid": "900068",
+    "via": "auto"
+  },
+  "chandler-nijmegen-1900": {
+    "km": 4.5,
+    "major": true,
+    "pid": "900069",
+    "via": "auto"
+  },
+  "chandler-saarbrucken-1900": {
+    "km": 3.3,
+    "major": false,
+    "pid": "900070",
+    "via": "auto"
   }
 }

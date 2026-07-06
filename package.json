@@ -22,7 +22,8 @@
     "enrich:crossref": "tsx scripts/enrich-cross-reference.ts",
     "enrich:wikidata": "tsx scripts/enrich-wikidata-structured.ts",
     "rescore:wiki": "tsx scripts/rescore-roman-relevance.ts",
-    "validate:wiki": "tsx scripts/validate-wiki.ts"
+    "validate:wiki": "tsx scripts/validate-wiki.ts",
+    "build-data": "bash scripts/build-data.sh"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

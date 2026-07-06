@@ -22,6 +22,10 @@ export interface WikiEnrichment {
 
   // Cross-reference data from academic sources (populated by enrich-cross-reference)
   crossRef?: CrossRefEnrichment
+
+  // Resolved at merge time — the single best text for display (custom Roman > Pleiades > generic)
+  description?: string
+  descriptionSource?: 'custom' | 'pleiades' | 'generic'
 }
 
 export interface StructuredData {
@@ -77,7 +81,7 @@ export type WikidataStructuredLookup = Record<string, WikidataStructuredEntry>
 
 // --- Loaders ---
 
-import { loadJson } from '@/data/loadJson'
+import { loadJson, loadJsonRaw } from '@/data/loadJson'
 
 export async function loadEntityWiki(): Promise<WikiLookup> {
   return loadJson<WikiLookup>(() => import('./entities-wiki.json'))
@@ -93,10 +97,6 @@ export async function loadBuildingWiki(): Promise<WikiLookup> {
 
 export async function loadBattleWiki(): Promise<WikiLookup> {
   return loadJson<WikiLookup>(() => import('./battles-wiki.json'))
-}
-
-export async function loadCitiesWiki(): Promise<WikiLookup> {
-  return loadJson<WikiLookup>(() => import('./cities-wiki.json'))
 }
 
 export async function loadSettlementWiki(): Promise<WikiLookup> {
@@ -172,10 +172,15 @@ export type CrossRefLookup = Record<string, CrossRefEnrichment>
 
 export async function loadCrossReference(): Promise<CrossRefLookup> {
   try {
-    return await loadJson<CrossRefLookup>(() => import('./cross-reference.json'))
+    return await loadJsonRaw<CrossRefLookup>(() => import('./cross-reference.json?raw'))
   } catch {
     return {}
   }
+}
+
+function hasCustomRomanExtract(wiki: { romanEraExtract?: string; extract?: string }): boolean {
+  if (!wiki.romanEraExtract || !wiki.extract) return false
+  return wiki.extract.slice(0, 80) !== wiki.romanEraExtract.slice(0, 80)
 }
 
 /** Map layer names to their cross-reference key prefixes */
@@ -205,13 +210,28 @@ export function mergeStructuredData(
     // Cross-ref keys are prefixed: "settlement:2", "amphitheater:flavian-amphitheater", etc.
     const cr = crossRef?.[`${prefix}:${id}`] ?? crossRef?.[id]
 
-    merged[id] = {
+    const base = {
       ...entry,
       ...(wd
         ? { structured: wd.structured, images: wd.images, sourceQuality: wd.sourceQuality }
         : {}),
       ...(cr ? { crossRef: cr } : {}),
     }
+
+    const isCustom = hasCustomRomanExtract(base)
+    const pleiades = cr?.pleiadesDescription
+    if (isCustom) {
+      base.description = base.romanEraExtract!
+      base.descriptionSource = 'custom'
+    } else if (pleiades) {
+      base.description = pleiades
+      base.descriptionSource = 'pleiades'
+    } else {
+      base.description = base.romanEraExtract || base.extract
+      base.descriptionSource = 'generic'
+    }
+
+    merged[id] = base
   }
   return merged
 }

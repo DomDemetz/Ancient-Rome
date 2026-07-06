@@ -66254,5 +66254,431 @@
     "major": false,
     "pid": "108736",
     "qid": "Q1735330"
+  },
+  "21137": {
+    "km": 0.5,
+    "major": true,
+    "pid": "736963",
+    "qid": "Q5715"
+  },
+  "17070": {
+    "km": 5.9,
+    "major": true,
+    "pid": "900000",
+    "via": "chandler-link"
+  },
+  "21155": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900001",
+    "via": "chandler-link"
+  },
+  "21166": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900002",
+    "via": "chandler-link"
+  },
+  "21094": {
+    "km": 1.0,
+    "major": true,
+    "pid": "900003",
+    "via": "chandler-link"
+  },
+  "15896": {
+    "km": 1.9,
+    "major": true,
+    "pid": "900004",
+    "via": "chandler-link"
+  },
+  "22305": {
+    "km": 0.7,
+    "major": true,
+    "pid": "900005",
+    "via": "chandler-link"
+  },
+  "22221": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900006",
+    "via": "chandler-link"
+  },
+  "21245": {
+    "km": 1.7,
+    "major": true,
+    "pid": "900007",
+    "via": "chandler-link"
+  },
+  "21165": {
+    "km": 1.0,
+    "major": true,
+    "pid": "900008",
+    "via": "chandler-link"
+  },
+  "21115": {
+    "km": 0.4,
+    "major": true,
+    "pid": "900009",
+    "via": "chandler-link"
+  },
+  "13708": {
+    "km": 0.7,
+    "major": false,
+    "pid": "900010",
+    "via": "chandler-link"
+  },
+  "21774": {
+    "km": 2.4,
+    "major": true,
+    "pid": "900011",
+    "via": "chandler-link"
+  },
+  "21779": {
+    "km": 1.7,
+    "major": true,
+    "pid": "900012",
+    "via": "chandler-link"
+  },
+  "22329": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900013",
+    "via": "chandler-link"
+  },
+  "22335": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900014",
+    "via": "chandler-link"
+  },
+  "28474": {
+    "km": 0.1,
+    "major": false,
+    "pid": "900015",
+    "via": "chandler-link"
+  },
+  "22328": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900016",
+    "via": "chandler-link"
+  },
+  "22942": {
+    "km": 0.3,
+    "major": false,
+    "pid": "900017",
+    "via": "chandler-link"
+  },
+  "33887": {
+    "km": 0.0,
+    "major": false,
+    "pid": "900018",
+    "via": "chandler-link"
+  },
+  "21139": {
+    "km": 1.6,
+    "major": true,
+    "pid": "900019",
+    "via": "chandler-link"
+  },
+  "22332": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900020",
+    "via": "chandler-link"
+  },
+  "22322": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900021",
+    "via": "chandler-link"
+  },
+  "21808": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900022",
+    "via": "chandler-link"
+  },
+  "16882": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900023",
+    "via": "chandler-link"
+  },
+  "16739": {
+    "km": 0.0,
+    "major": true,
+    "pid": "900024",
+    "via": "chandler-link"
+  },
+  "21944": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900025",
+    "via": "chandler-link"
+  },
+  "22222": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900026",
+    "via": "chandler-link"
+  },
+  "21911": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900027",
+    "via": "chandler-link"
+  },
+  "21507": {
+    "km": 0.5,
+    "major": true,
+    "pid": "900028",
+    "via": "chandler-link"
+  },
+  "15960": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900029",
+    "via": "chandler-link"
+  },
+  "21127": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900030",
+    "via": "chandler-link"
+  },
+  "22311": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900031",
+    "via": "chandler-link"
+  },
+  "10": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900032",
+    "via": "chandler-link"
+  },
+  "33": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900033",
+    "via": "chandler-link"
+  },
+  "25167": {
+    "km": 1.0,
+    "major": true,
+    "pid": "900034",
+    "via": "chandler-link"
+  },
+  "33913": {
+    "km": 1.0,
+    "major": false,
+    "pid": "900035",
+    "via": "chandler-link"
+  },
+  "22223": {
+    "km": 1.1,
+    "major": true,
+    "pid": "900036",
+    "via": "chandler-link"
+  },
+  "6534": {
+    "km": 1.6,
+    "major": true,
+    "pid": "900037",
+    "via": "chandler-link"
+  },
+  "28535": {
+    "km": 0.1,
+    "major": false,
+    "pid": "900038",
+    "via": "chandler-link"
+  },
+  "20688": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900039",
+    "via": "chandler-link"
+  },
+  "21444": {
+    "km": 0.7,
+    "major": true,
+    "pid": "900040",
+    "via": "chandler-link"
+  },
+  "14138": {
+    "km": 0.3,
+    "major": false,
+    "pid": "900041",
+    "via": "chandler-link"
+  },
+  "330": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900042",
+    "via": "chandler-link"
+  },
+  "361": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900043",
+    "via": "chandler-link"
+  },
+  "22330": {
+    "km": 0.1,
+    "major": true,
+    "pid": "900044",
+    "via": "chandler-link"
+  },
+  "143": {
+    "km": 0.7,
+    "major": true,
+    "pid": "900045",
+    "via": "chandler-link"
+  },
+  "44257": {
+    "km": 2.9,
+    "major": false,
+    "pid": "900046",
+    "via": "chandler-link"
+  },
+  "10972": {
+    "km": 0.6,
+    "major": false,
+    "pid": "900048",
+    "via": "chandler-link"
+  },
+  "25316": {
+    "km": 1.2,
+    "major": false,
+    "pid": "900049",
+    "via": "chandler-link"
+  },
+  "10880": {
+    "km": 0.2,
+    "major": true,
+    "pid": "900050",
+    "via": "chandler-link"
+  },
+  "1887": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900051",
+    "via": "chandler-link"
+  },
+  "124": {
+    "km": 0.3,
+    "major": false,
+    "pid": "900052",
+    "via": "chandler-link"
+  },
+  "1461": {
+    "km": 0.4,
+    "major": true,
+    "pid": "900053",
+    "via": "chandler-link"
+  },
+  "16845": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900054",
+    "via": "chandler-link"
+  },
+  "22910": {
+    "km": 0.4,
+    "major": false,
+    "pid": "900055",
+    "via": "chandler-link"
+  },
+  "25290": {
+    "km": 5.0,
+    "major": false,
+    "pid": "900056",
+    "via": "chandler-link"
+  },
+  "21942": {
+    "km": 0.5,
+    "major": true,
+    "pid": "900057",
+    "via": "chandler-link"
+  },
+  "18353": {
+    "km": 1.7,
+    "major": false,
+    "pid": "900058",
+    "via": "chandler-link"
+  },
+  "1454": {
+    "km": 3.0,
+    "major": true,
+    "pid": "900059",
+    "via": "chandler-link"
+  },
+  "23020": {
+    "km": 0.2,
+    "major": false,
+    "pid": "900060",
+    "via": "chandler-link"
+  },
+  "25769": {
+    "km": 0.6,
+    "major": false,
+    "pid": "900061",
+    "via": "chandler-link"
+  },
+  "25643": {
+    "km": 1.2,
+    "major": false,
+    "pid": "900062",
+    "via": "chandler-link"
+  },
+  "40794": {
+    "km": 2.4,
+    "major": false,
+    "pid": "900063",
+    "via": "chandler-link"
+  },
+  "25642": {
+    "km": 1.3,
+    "major": false,
+    "pid": "900064",
+    "via": "chandler-link"
+  },
+  "40885": {
+    "km": 1.7,
+    "major": false,
+    "pid": "900065",
+    "via": "chandler-link"
+  },
+  "21818": {
+    "km": 0.8,
+    "major": true,
+    "pid": "900066",
+    "via": "chandler-link"
+  },
+  "20691": {
+    "km": 0.3,
+    "major": true,
+    "pid": "900067",
+    "via": "chandler-link"
+  },
+  "25640": {
+    "km": 0.9,
+    "major": false,
+    "pid": "900068",
+    "via": "chandler-link"
+  },
+  "384": {
+    "km": 4.5,
+    "major": true,
+    "pid": "900069",
+    "via": "chandler-link"
+  },
+  "1980": {
+    "km": 3.3,
+    "major": false,
+    "pid": "900070",
+    "via": "chandler-link"
   }
 }

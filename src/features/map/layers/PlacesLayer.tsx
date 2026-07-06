@@ -126,7 +126,6 @@ export function PlacesLayer({
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const setlWiki = useWikiEnrichment('settlements')
-  const citiesWiki = useWikiEnrichment('cities')
 
   const visible = useMemo(() => {
     return data.filter((p) => {
@@ -201,7 +200,7 @@ export function PlacesLayer({
           weight = 0.5
         }
 
-        const wikiLookup = p.wiki?.[0] === 'cities' ? citiesWiki : setlWiki
+        const wikiLookup = setlWiki
         const wikiKey = p.wiki?.[1] ?? ''
         const wikiLayer = p.wiki?.[0] ?? 'settlements'
 

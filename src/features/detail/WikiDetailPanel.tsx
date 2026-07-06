@@ -1,49 +1,14 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { X, ExternalLink, ChevronDown, BookOpen, Shield, AlertTriangle } from 'lucide-react'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
-import type { WikiEnrichment, WikiLookup } from '@/data/wiki'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { formatYear } from '@/lib/geo'
 import { connections } from '@/data'
 import { ConnectionList } from './ConnectionList'
-
-async function loadAndMerge(
-  loadWiki: () => Promise<WikiLookup>,
-  layer: string,
-): Promise<WikiLookup> {
-  const { mergeStructuredData, loadWikidataStructured, loadCrossReference } =
-    await import('@/data/wiki')
-  const [wiki, structured, crossRef] = await Promise.all([
-    loadWiki(),
-    loadWikidataStructured(),
-    loadCrossReference(),
-  ])
-  return mergeStructuredData(wiki, structured, crossRef, layer)
-}
-
-const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
-  amphitheaters: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadAmphitheaterWiki(), 'amphitheaters'),
-  battles: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
-  cities: () => loadAndMerge(async () => (await import('@/data/wiki')).loadCitiesWiki(), 'cities'),
-  settlements: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadSettlementWiki(), 'settlements'),
-  buildings: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadBuildingWiki(), 'buildings'),
-  entities: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadEntityWiki(), 'entities'),
-  emperors: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadEmperorWiki(), 'emperors'),
-  legions: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadLegionWiki(), 'legions'),
-  aqueducts: () =>
-    loadAndMerge(async () => (await import('@/data/wiki')).loadAqueductWiki(), 'aqueducts'),
-  ports: () => loadAndMerge(async () => (await import('@/data/wiki')).loadPortWiki(), 'ports'),
-}
 
 // --- Source quality badge ---
 
@@ -101,40 +66,11 @@ function WikiDetailContent({
   featureEntityId: string | null
 }) {
   const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
-  const [state, setState] = useState<{ wiki: WikiEnrichment | null; loading: boolean }>({
-    wiki: null,
-    loading: true,
-  })
+  const lookup = useWikiEnrichment(featureLayer === 'cities' ? 'settlements' : featureLayer)
   const [sourcesExpanded, setSourcesExpanded] = useState(false)
-  const reqRef = useRef(0)
 
-  useEffect(() => {
-    const reqId = ++reqRef.current
-    const loader = LAYER_LOADERS[featureLayer]
-    if (!loader) {
-      queueMicrotask(() => {
-        if (reqRef.current === reqId) setState({ wiki: null, loading: false })
-      })
-      return
-    }
-    let cancelled = false
-    loader()
-      .then((lookup) => {
-        if (!cancelled && reqRef.current === reqId) {
-          setState({ wiki: lookup[featureId] ?? null, loading: false })
-        }
-      })
-      .catch(() => {
-        if (!cancelled && reqRef.current === reqId) {
-          setState({ wiki: null, loading: false })
-        }
-      })
-    return () => {
-      cancelled = true
-    }
-  }, [featureId, featureLayer])
-
-  const { wiki, loading } = state
+  const loading = lookup === null
+  const wiki = lookup?.[featureId] ?? null
 
   if (loading) {
     return (
@@ -314,12 +250,11 @@ function WikiDetailContent({
             </div>
           )}
 
-          {/* One-line hook — first sentence, prefer Pleiades over generic Wikipedia */}
+          {/* One-line hook — first sentence of the resolved best description */}
           <p className="text-sm text-slate-300 leading-relaxed">
             {(() => {
-              const hasCustomExtract = wiki.romanEraExtract && wiki.romanEraExtract !== wiki.extract
-              const source = hasCustomExtract ? wiki.romanEraExtract : cr?.pleiadesDescription
-              if (!source) return `${wiki.extract?.split(/\.\s/)[0]?.trim()}.`
+              const source = wiki.description ?? wiki.romanEraExtract ?? wiki.extract
+              if (!source) return null
               return `${source.split(/\.\s/)[0]?.trim()}.`
             })()}
           </p>
@@ -352,8 +287,7 @@ function WikiDetailContent({
           {(() => {
             if (wiki.wrongArticle) return null
             if (wiki.romanRelevance != null && wiki.romanRelevance < 0.1) return null
-            const hasCustomExtract = wiki.romanEraExtract && wiki.romanEraExtract !== wiki.extract
-            if (!hasCustomExtract && cr?.pleiadesDescription) return null
+            if (wiki.descriptionSource !== 'custom' && cr?.pleiadesDescription) return null
             return (
               <div
                 className={`text-[13px] leading-relaxed whitespace-pre-line ${cr?.pleiadesDescription ? 'text-slate-500' : 'text-slate-400'}`}

@@ -10,15 +10,16 @@ The application code, the narrative/editorial content, and the interface are our
 
 ## Core place & geography data
 
-| Source                                          | What we use                          | License                             | Attribution                                                                 |
-| ----------------------------------------------- | ------------------------------------ | ----------------------------------- | --------------------------------------------------------------------------- |
-| [Pleiades](https://pleiades.stoa.org/)          | Ancient places, coordinates, names   | **CC-BY 3.0** ✅                    | Ancient World Mapping Center & Institute for the Study of the Ancient World |
-| [AWMC geodata](https://github.com/AWMC/geodata) | Coastlines, features, roads          | **ODbL 1.0** ✅ — _share-alike_     | AWMC; derived from the Barrington Atlas & OpenStreetMap                     |
-| [DARE](https://imperium.ahlfeldt.se/)           | Roads, settlements, provinces, water | **CC-BY-SA 3.0** ✅ — _share-alike_ | Johan Åhlfeldt (Digital Atlas of the Roman Empire)                          |
-| [ORBIS v2](https://github.com/emeeks/orbis_v2)  | Route network / travel model         | **MIT** ✅                          | Elijah Meeks & Walter Scheidel, Stanford University                         |
-| [Vici.org](https://vici.org/)                   | Archaeological sites                 | **CC-BY-SA 3.0** ✅ — _share-alike_ | René Voorburg / Vici.org contributors                                       |
-| [Wikidata](https://www.wikidata.org/)           | Structured entity data               | **CC0** (public domain)             | Wikidata contributors                                                       |
-| [Wikipedia](https://en.wikipedia.org/)          | Entity descriptions / enrichment     | text under **CC-BY-SA 4.0**         | Wikipedia contributors                                                      |
+| Source                                                                              | What we use                          | License                             | Attribution                                                                 |
+| ----------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------------- | --------------------------------------------------------------------------- |
+| [Pleiades](https://pleiades.stoa.org/)                                              | Ancient places, coordinates, names   | **CC-BY 3.0** ✅                    | Ancient World Mapping Center & Institute for the Study of the Ancient World |
+| [AWMC geodata](https://github.com/AWMC/geodata)                                     | Coastlines, features, roads          | **ODbL 1.0** ✅ — _share-alike_     | AWMC; derived from the Barrington Atlas & OpenStreetMap                     |
+| [DARE](https://imperium.ahlfeldt.se/)                                               | Roads, settlements, provinces, water | **CC-BY-SA 3.0** ✅ — _share-alike_ | Johan Åhlfeldt (Digital Atlas of the Roman Empire)                          |
+| [ORBIS v2](https://github.com/emeeks/orbis_v2)                                      | Route network / travel model         | **MIT** ✅                          | Elijah Meeks & Walter Scheidel, Stanford University                         |
+| [Vici.org](https://vici.org/)                                                       | Archaeological sites                 | **CC-BY-SA 3.0** ✅ — _share-alike_ | René Voorburg / Vici.org contributors                                       |
+| [Cliopatria (Seshat)](https://github.com/Seshat-Global-History-Databank/cliopatria) | World polity shapes over time        | **CC-BY 4.0** ✅ verified           | Seshat Global History Databank (Nature Sci Data 2025)                       |
+| [Wikidata](https://www.wikidata.org/)                                               | Structured entity data               | **CC0** (public domain)             | Wikidata contributors                                                       |
+| [Wikipedia](https://en.wikipedia.org/)                                              | Entity descriptions / enrichment     | text under **CC-BY-SA 4.0**         | Wikipedia contributors                                                      |
 
 ## Layer-specific data
 

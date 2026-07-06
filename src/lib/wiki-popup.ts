@@ -40,13 +40,9 @@ export function appendWikiTooltip(
     wikiHtml += `<img class="map-tooltip-thumb" src="${esc(imgUrl)}" alt="" />`
   }
 
-  // Use romanEraExtract if it's custom, otherwise prefer Pleiades description
-  const hasCustomExtract = wiki.romanEraExtract && wiki.romanEraExtract !== wiki.extract
-  const extractSource = hasCustomExtract
-    ? wiki.romanEraExtract
-    : (wiki.crossRef?.pleiadesDescription ?? wiki.romanEraExtract)
-  const sentenceMatch = extractSource.match(/^(.+?\.)\s+(?=[A-Z])/)
-  const firstSentence = sentenceMatch?.[1] ?? extractSource.split(/\.\s/)[0]
+  const extractSource = wiki.description ?? wiki.romanEraExtract ?? wiki.extract
+  const sentenceMatch = extractSource?.match(/^(.+?\.)\s+(?=[A-Z])/)
+  const firstSentence = sentenceMatch?.[1] ?? extractSource?.split(/\.\s/)[0]
   if (firstSentence) {
     const text = firstSentence.endsWith('.') ? firstSentence : firstSentence + '.'
     wikiHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`

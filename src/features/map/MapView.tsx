@@ -7,6 +7,7 @@ import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { TerritoryLayer } from './layers/TerritoryLayer'
+import { EmpiresLayer } from './layers/EmpiresLayer'
 import { RoadLayer } from './layers/RoadLayer'
 import { PlacesLayer } from './layers/PlacesLayer'
 import { LimesLayer } from './layers/LimesLayer'
@@ -92,6 +93,12 @@ function BasePane() {
     // Territory fills live in their own pane held at a fixed group opacity, so
     // the opaque fills composite to translucency once — overlapping era
     // snapshots (during a cross-fade) never darken or wash out.
+    if (!map.getPane('empiresFill')) {
+      // World polities live beneath Rome's own territory
+      const pane = map.createPane('empiresFill')
+      pane.style.zIndex = '235'
+      pane.style.opacity = '0.5'
+    }
     if (!map.getPane('territoryFill')) {
       const pane = map.createPane('territoryFill')
       pane.style.zIndex = '240'
@@ -171,6 +178,8 @@ export function MapView() {
     showRoads,
     showSettlements,
     showCities,
+    showEmpires,
+    empiresData,
     showLimes,
     showPresence,
     showProvinces,
@@ -242,6 +251,9 @@ export function MapView() {
     showFortifications ||
     showWater
   let attribution = BASE_ATTRIBUTION
+  if (showEmpires)
+    attribution +=
+      ' | Empires: <a href="https://github.com/Seshat-Global-History-Databank/cliopatria">Cliopatria/Seshat</a> (CC BY 4.0)'
   if (dareActive) attribution += ' | DARE data &copy; Johan &Aring;hlfeldt, CC BY-SA 3.0'
   if (showItinereRoads) attribution += ' | Itiner-e data &copy; Pau de Soto, CC BY-NC 4.0'
   if (showBattles) attribution += ' | Battle data: Roman-Battles-Droid'
@@ -271,6 +283,8 @@ export function MapView() {
           <MapNavHandler />
 
           {/* Render order: base layers -> overlays -> point layers */}
+          {/* The world's polities (Cliopatria/Seshat, CC BY 4.0) — beneath Rome */}
+          {showEmpires && empiresData && <EmpiresLayer data={empiresData} />}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
 
           {/* Base layers — every record is date-bounded and self-filters (start/

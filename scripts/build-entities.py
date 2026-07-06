@@ -35,7 +35,6 @@ xw_ch = json.load(open(os.path.join(R, "crosswalk-chandler.json")))
 dare_qid = json.load(open(os.path.join(R, "dare-wikidata.json")))
 bridge = json.load(open(os.path.join(R, "pleiades-wikidata.json")))
 setl_wiki = json.load(open(os.path.join(BASE, "wiki", "settlements-wiki.json")))
-cities_wiki = json.load(open(os.path.join(BASE, "wiki", "cities-wiki.json")))
 vici = [v.get("properties", v) for v in json.load(open(os.path.join(BASE, "vici-sites.json")))]
 xw_vici = json.load(open(os.path.join(R, "crosswalk-vici.json")))
 SETTLEMENT_KINDS = {"settlement", "city", "town", "vicus"}
@@ -90,12 +89,12 @@ for key, g in groups.items():
     qid = (d and dare_qid.get(str(d["id"]))) or (pid and bridge.get(pid, {}).get("qid")) \
           or (c and xw_ch.get(c["id"], {}).get("qid")) or None
 
-    # knowledge ref: prefer the settlements enrichment (richer, cross-ref'd)
+    # knowledge ref: single unified wiki layer
     wiki = None
     if d and str(d["id"]) in setl_wiki:
         wiki = ["settlements", str(d["id"])]
-    elif c and c["id"] in cities_wiki:
-        wiki = ["cities", c["id"]]
+    elif c and c["id"] in setl_wiki:
+        wiki = ["settlements", c["id"]]
 
     node = {
         "id": key,

@@ -57,8 +57,8 @@ export function populationAt(points: PlacePopulationPoint[], year: number): numb
   return null
 }
 
-import { loadJson } from '@/data/loadJson'
+import { loadJsonRaw } from '@/data/loadJson'
 
 export async function loadPlaces(): Promise<PlaceNode[]> {
-  return loadJson<PlaceNode[]>(() => import('./places.json'))
+  return loadJsonRaw<PlaceNode[]>(() => import('./places.json?raw'))
 }
