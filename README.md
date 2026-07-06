@@ -20,7 +20,12 @@ and wraps it in a narrative you can actually follow.
 ## Features
 
 - **Timeline playback** — scrub 753 BC → 1453 AD and watch territory, roads, and
-  cities change over time, with smooth cross-fades between eras.
+  cities change over time, with smooth cross-fades between eras. Rome's borders
+  move at war-level resolution (Cannae, Actium, Justinian's reconquest, the Arab
+  conquests — 241 territorial changes).
+- **World Empires** — every polity on earth in the same window, named and dated
+  (Cliopatria / Seshat, CC BY 4.0): the Sasanians, the Caliphates, Han China,
+  Gupta India, the steppe khaganates — Rome among the powers.
 - **Layered atlas** — battles, legions, emperors, aqueducts, ports, mines, trade
   routes, epigraphy, shipwrecks, religious sites, and more, each toggleable.
 - **Story mode** — guided narrative tours (Hannibal's march, the fall of the
