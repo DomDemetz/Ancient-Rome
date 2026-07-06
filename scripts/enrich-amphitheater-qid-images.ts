@@ -1,13 +1,13 @@
 /**
- * Enrich buildings that already have QIDs with images and descriptions from Wikidata.
- * Only targets the ~891 buildings with known QIDs — no search needed.
+ * Enrich amphitheaters that already have QIDs with images and descriptions from Wikidata.
+ * Direct QID lookup — no search needed, avoids rate limits.
  *
- * Usage: npx tsx scripts/enrich-building-images.ts
+ * Usage: npx tsx scripts/enrich-amphitheater-qid-images.ts
  */
 import { readFile, writeFile } from 'fs/promises'
 
 const CR_PATH = 'src/data/wiki/cross-reference.json'
-const BUILDINGS_PATH = 'src/data/unified/building.json'
+const AMPHS_PATH = 'src/data/unified/amphitheater.json'
 
 interface UnifiedEntity {
   id: string
@@ -23,19 +23,19 @@ interface CrossRefEntry {
   [key: string]: unknown
 }
 
+const HEADERS = {
+  'User-Agent':
+    'AncientRomeAtlas/1.0 (https://github.com/DomDemetz/Ancient-Rome; jobs4you@fach-hr.com)',
+  Accept: 'application/json',
+}
+
 async function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms))
 }
 
 async function fetchWithRetry(url: string, retries = 5): Promise<Response> {
   for (let i = 0; i < retries; i++) {
-    const resp = await fetch(url, {
-      headers: {
-        'User-Agent':
-          'AncientRomeAtlas/1.0 (https://github.com/DomDemetz/Ancient-Rome; jobs4you@fach-hr.com)',
-        Accept: 'application/json',
-      },
-    })
+    const resp = await fetch(url, { headers: HEADERS })
     if (resp.status === 429) {
       const delay = 10_000 * (i + 1)
       console.log(`  429 rate-limited, backing off ${delay / 1000}s...`)
@@ -54,7 +54,7 @@ async function getImageAndDesc(
   const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids}&props=claims|descriptions&languages=en&format=json`
   const resp = await fetchWithRetry(url)
   const data = (await resp.json()) as {
-    entities: Record<
+    entities?: Record<
       string,
       {
         claims?: { P18?: Array<{ mainsnak: { datavalue: { value: string } } }> }
@@ -84,12 +84,18 @@ function stripPrefix(id: string): string {
   return i >= 0 ? id.slice(i + 1) : id
 }
 
+function extractQid(qid: unknown): string | null {
+  if (typeof qid === 'string') return qid
+  if (qid && typeof qid === 'object' && 'qid' in qid) return (qid as { qid: string }).qid
+  return null
+}
+
 async function main() {
-  const buildings: UnifiedEntity[] = JSON.parse(await readFile(BUILDINGS_PATH, 'utf-8'))
+  const amphs: UnifiedEntity[] = JSON.parse(await readFile(AMPHS_PATH, 'utf-8'))
   const crossRef: Record<string, CrossRefEntry> = JSON.parse(await readFile(CR_PATH, 'utf-8'))
 
-  const withQid = buildings.filter((b) => b.qid)
-  console.log(`Buildings with QIDs: ${withQid.length} / ${buildings.length}`)
+  const withQid = amphs.filter((a) => a.qid)
+  console.log(`Amphitheaters with QIDs: ${withQid.length} / ${amphs.length}`)
 
   let images = 0
   let descs = 0
@@ -97,17 +103,20 @@ async function main() {
 
   for (let i = 0; i < withQid.length; i += batchSize) {
     const batch = withQid.slice(i, i + batchSize)
-    const qids = batch.map((b) => b.qid!).filter(Boolean)
+    const qids = batch.map((a) => extractQid(a.qid)).filter((q): q is string => q !== null)
+    if (!qids.length) continue
 
     const enrichment = await getImageAndDesc(qids)
     await sleep(5000)
 
-    for (const b of batch) {
-      const crKey = `building:${stripPrefix(b.id)}`
+    for (const a of batch) {
+      const crKey = `amphitheater:${stripPrefix(a.id)}`
       const entry = crossRef[crKey]
       if (!entry) continue
 
-      const data = enrichment[b.qid!]
+      const qid = extractQid(a.qid)
+      if (!qid) continue
+      const data = enrichment[qid]
       if (data?.image && !entry.imageUrl) {
         entry.imageUrl = data.image
         images++
@@ -121,7 +130,7 @@ async function main() {
     const progress = Math.min(i + batchSize, withQid.length)
     console.log(`[${progress}/${withQid.length}] images: ${images}, descs: ${descs}`)
 
-    if (progress % 100 === 0 || progress === withQid.length) {
+    if (progress % 50 === 0 || progress === withQid.length) {
       await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
     }
   }
