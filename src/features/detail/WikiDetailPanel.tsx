@@ -68,29 +68,28 @@ function CrossRefDetailContent({
   const pid = crKey.startsWith('pleiades:') ? crKey.replace('pleiades:', '') : null
   const dareId = crKey.startsWith('settlement:') ? crKey.replace('settlement:', '') : null
 
+  const isSettlement = crKey.startsWith('settlement:') || crKey.startsWith('pleiades:')
+  const primarySrc = isSettlement ? 'DARE' : cr.sources[0]
+
   const facts: Array<{ label: string; value: string; source?: string }> = []
   if (cr.ancientName) {
-    const nameLabel =
-      crKey.startsWith('battle:') ||
-      crKey.startsWith('amphitheater:') ||
-      crKey.startsWith('building:')
-        ? 'Name'
-        : 'Ancient name'
-    facts.push({ label: nameLabel, value: cr.ancientName, source: 'DARE' })
+    const nameLabel = isSettlement ? 'Ancient name' : 'Name'
+    facts.push({ label: nameLabel, value: cr.ancientName, source: primarySrc })
   }
-  if (cr.greekName) facts.push({ label: 'Greek', value: cr.greekName, source: 'DARE' })
-  if (cr.modernName) facts.push({ label: 'Modern', value: cr.modernName, source: 'DARE' })
-  if (cr.province) facts.push({ label: 'Province', value: cr.province, source: 'ORBIS' })
+  if (cr.greekName) facts.push({ label: 'Greek', value: cr.greekName, source: primarySrc })
+  if (cr.modernName) facts.push({ label: 'Modern', value: cr.modernName, source: primarySrc })
+  if (cr.province)
+    facts.push({ label: 'Province', value: cr.province, source: cr.provinceSrc ?? 'ORBIS' })
   if (cr.startYear != null) {
     const yearLabel = crKey.startsWith('battle:')
       ? 'Date'
       : crKey.startsWith('amphitheater:') || crKey.startsWith('building:')
         ? 'Built'
         : 'Founded'
-    facts.push({ label: yearLabel, value: formatYear(cr.startYear), source: 'DARE' })
+    facts.push({ label: yearLabel, value: formatYear(cr.startYear), source: primarySrc })
   }
   if (cr.endYear != null && cr.endYear < 700)
-    facts.push({ label: 'Until', value: formatYear(cr.endYear), source: 'DARE' })
+    facts.push({ label: 'Until', value: formatYear(cr.endYear), source: primarySrc })
   if (cr.tradeRole && cr.tradeRole !== 'city')
     facts.push({ label: 'Trade role', value: cr.tradeRole, source: 'ORBIS' })
   if (cr.buildingType) facts.push({ label: 'Type', value: cr.buildingType, source: 'Pleiades' })

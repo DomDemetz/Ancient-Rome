@@ -150,6 +150,7 @@ export interface CrossRefEnrichment {
   greekName?: string
   modernName?: string
   province?: string
+  provinceSrc?: string
   startYear?: number
   endYear?: number
   pleiadesDescription?: string
