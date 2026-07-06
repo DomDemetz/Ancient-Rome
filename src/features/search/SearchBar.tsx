@@ -20,6 +20,7 @@ const CITY_SEARCH = citiesSearchJson as CitySearchEntry[]
 
 import emperorsSearchJson from '@/data/registry/emperors-search.json'
 import battlesSearchJson from '@/data/registry/battles-search.json'
+import empiresSearchJson from '@/data/registry/empires-search.json'
 
 interface EmperorSearchEntry {
   id: string
@@ -37,6 +38,8 @@ interface BattleSearchEntry {
 }
 const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
 const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
+// distinct world polities: fly to heartland, jump to greatest-extent year
+const EMPIRE_SEARCH = empiresSearchJson as CitySearchEntry[]
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
@@ -64,6 +67,7 @@ const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
   Press: { show: 'showPresses', toggle: 'togglePresses' },
   City: { show: 'showCities', toggle: 'toggleCities' },
   Emperor: { show: 'showEmperors', toggle: 'toggleEmperors' },
+  Empire: { show: 'showEmpires', toggle: 'toggleEmpires' },
   Port: { show: 'showPorts', toggle: 'togglePorts' },
 }
 
@@ -77,6 +81,7 @@ interface SearchItem {
   entityId?: string // for graph entities
   year?: number // for time-filtered features (battle/shipwreck/legion) — jump the timeline so the marker is actually visible on arrival
   lifespan?: [number, number] // cities: only jump time if outside this range
+  zoom?: number // flyTo zoom override (empires want ~4, not 9)
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -84,6 +89,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   settlement: '#5b8dd9',
   city: '#f59e0b',
   emperor: '#d4af37',
+  empire: '#818cf8',
   battle: '#e74c3c',
   legion: '#c0392b',
   amphitheater: '#d4a574',
@@ -191,6 +197,21 @@ export function SearchBar() {
         lat: b.lat,
         lng: b.lng,
         year: b.y,
+      })
+    }
+
+    // World polities — searching "Sasanian Empire" turns the world on
+    for (const e of EMPIRE_SEARCH) {
+      items.push({
+        id: `empire-${e.id}`,
+        name: e.n,
+        category: 'Empire',
+        color: CATEGORY_COLORS.empire,
+        lat: e.lat,
+        lng: e.lng,
+        year: e.p,
+        lifespan: [e.s, e.e],
+        zoom: 4,
       })
     }
 
@@ -492,7 +513,7 @@ export function SearchBar() {
     // If it has coordinates, switch to map and fly there
     if (item.lat != null && item.lng != null) {
       switchLens('map')
-      flyTo(item.lat, item.lng, 9)
+      flyTo(item.lat, item.lng, item.zoom ?? 9)
     }
   }
 

@@ -69,3 +69,33 @@ p5 = os.path.join(R, "battles-search.json")
 json.dump(bat, open(p5, "w"), ensure_ascii=False, separators=(",", ":"))
 open(p5, "a").write("\n")
 print(f"battles-search.json: {len(bat)} battles ({os.path.getsize(p5)//1024} KB)")
+
+
+# --- empires-search.json: one entry per distinct polity ---
+# Search "Sasanian Empire" from cold start: fly to the polity's heartland
+# (its largest shape's label anchor) and, if the current year is outside its
+# lifespan, jump to the year of its greatest extent.
+empires = json.load(open(os.path.join(BASE, "empires", "empires.json")))
+by_name = {}
+for e in empires:
+    b = by_name.setdefault(e["name"], {"from": e["from"], "to": e["to"], "best": e})
+    b["from"] = min(b["from"], e["from"])
+    b["to"] = max(b["to"], e["to"])
+    if e["area"] > b["best"]["area"]:
+        b["best"] = e
+emp_search = []
+for name, b in by_name.items():
+    best = b["best"]
+    emp_search.append({
+        "id": best["id"],
+        "n": name,
+        "lat": best["label"][0],
+        "lng": best["label"][1],
+        "s": b["from"],
+        "e": min(b["to"], 1453),
+        "p": min(max((best["from"] + best["to"]) // 2, -753), 1453),
+    })
+p6 = os.path.join(R, "empires-search.json")
+json.dump(emp_search, open(p6, "w"), ensure_ascii=False, separators=(",", ":"))
+open(p6, "a").write("\n")
+print(f"empires-search.json: {len(emp_search)} polities ({os.path.getsize(p6)//1024} KB)")
