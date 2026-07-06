@@ -21,6 +21,7 @@ const CITY_SEARCH = citiesSearchJson as CitySearchEntry[]
 import emperorsSearchJson from '@/data/registry/emperors-search.json'
 import battlesSearchJson from '@/data/registry/battles-search.json'
 import empiresSearchJson from '@/data/registry/empires-search.json'
+import peopleSearchJson from '@/data/registry/people-search.json'
 
 interface EmperorSearchEntry {
   id: string
@@ -36,11 +37,22 @@ interface BattleSearchEntry {
   lat: number
   lng: number
 }
+interface PersonSearchEntry {
+  id: string
+  n: string
+  lat: number
+  lng: number
+  b: number
+  d: number | null
+  r: string
+}
 const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
 const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
 // distinct world polities: fly to heartland, jump to greatest-extent year
 const EMPIRE_SEARCH = empiresSearchJson as CitySearchEntry[]
+const PEOPLE_SEARCH = peopleSearchJson as PersonSearchEntry[]
 import { useSelectionStore } from '@/stores/useSelectionStore'
+import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
@@ -69,6 +81,7 @@ const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
   Emperor: { show: 'showEmperors', toggle: 'toggleEmperors' },
   Empire: { show: 'showEmpires', toggle: 'toggleEmpires' },
   Port: { show: 'showPorts', toggle: 'togglePorts' },
+  Person: { show: 'showNotablePeople', toggle: 'toggleNotablePeople' },
 }
 
 interface SearchItem {
@@ -100,6 +113,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   building: '#f0c040',
   press: '#8b6914',
   port: '#e67e22',
+  person: '#a855f7',
 }
 
 export function SearchBar() {
@@ -212,6 +226,19 @@ export function SearchBar() {
         year: e.p,
         lifespan: [e.s, e.e],
         zoom: 4,
+      })
+    }
+
+    // Notable people — searchable via manifest; clicking flies to birthplace
+    for (const p of PEOPLE_SEARCH) {
+      items.push({
+        id: `person-${p.id}`,
+        name: p.n,
+        category: 'Person',
+        color: CATEGORY_COLORS.person,
+        lat: p.lat,
+        lng: p.lng,
+        year: p.b > 0 ? p.b : p.d != null ? p.d : undefined,
       })
     }
 
@@ -401,6 +428,7 @@ export function SearchBar() {
       Legion: 2,
       Amphitheater: 3,
       Building: 3,
+      Person: 2,
       Port: 3,
       Road: 3,
       Settlement: 4,
@@ -508,6 +536,12 @@ export function SearchBar() {
       } else {
         setYear(item.year)
       }
+    }
+
+    // People: open the detail sidepanel with their Wikipedia extract
+    if (item.category === 'Person') {
+      const qid = item.id.replace('person-', '')
+      useFeatureDetailStore.getState().openFeature(qid, 'people', qid)
     }
 
     // If it has coordinates, switch to map and fly there
