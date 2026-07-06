@@ -28,6 +28,7 @@ export type PresetName =
   | 'riseAndFall'
   | 'engineering'
   | 'byzantine'
+  | 'world'
   | 'custom'
 
 export interface PresetDef {
@@ -108,6 +109,12 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showAqueducts',
       'showWater',
     ],
+  },
+  world: {
+    label: 'The World',
+    description: 'Every empire on earth — Rome among the powers, 753 BC to 1453',
+    timelineYear: 550,
+    layers: ['showEmpires', 'showCities', 'showEmperors'],
   },
   byzantine: {
     label: 'Byzantium',
@@ -301,6 +308,7 @@ export const ALL_LAYER_KEYS = [
   'showRoads',
   'showSettlements',
   'showCities',
+  'showEmpires',
   'showLimes',
   'showPresence',
   'showProvinces',

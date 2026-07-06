@@ -7,7 +7,7 @@ import { formatYear } from '@/lib/geo'
 const MIN_YEAR = -753
 const MAX_YEAR = 1453
 const YEARS_PER_SECOND = 50
-const SPEEDS = [0.5, 1, 2, 4]
+const SPEEDS = [0.25, 0.5, 1, 2, 4]
 
 const TICK_MARKS = [
   { year: -753, label: 'Founding' },
