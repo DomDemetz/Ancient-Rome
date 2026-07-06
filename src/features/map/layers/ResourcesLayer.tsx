@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import type { Mine } from '@/data/mines'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useCrossRef } from '@/hooks/useWikiEnrichment'
 import { esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -26,6 +27,7 @@ const RESOURCE_COLORS: Record<string, string> = {
 export function ResourcesLayer({ data }: ResourcesLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const crossRef = useCrossRef()
 
   const visible = useMemo(() => {
     return data.filter((m) => {
@@ -62,6 +64,11 @@ export function ResourcesLayer({ data }: ResourcesLayerProps) {
         const details: string[] = [`${formatYear(m.startYear)} \u2013 ${formatYear(m.endYear)}`]
         if (m.description) details.push(esc(m.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+
+        const crKey = `mine:${m.id}`
+        if (crossRef?.[crKey]) {
+          tooltipHtml += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+        }
 
         return (
           <CircleMarker

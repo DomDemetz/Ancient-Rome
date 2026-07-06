@@ -5,7 +5,7 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import type { Aqueduct } from '@/data/aqueducts'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { filterWithSignature } from '@/lib/feature-signature'
@@ -33,6 +33,7 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('aqueducts')
+  const crossRef = useCrossRef()
 
   // Filter AWMC aqueduct lines by temporal data
   const { filteredLines, linesSig } = useMemo(() => {
@@ -134,7 +135,17 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
             <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
-                  __html: appendWikiTooltip(tooltipHtml, a.id, wikiLookup, 'aqueducts'),
+                  __html: (() => {
+                    const hasWiki = wikiLookup?.[a.id]
+                    let html = appendWikiTooltip(tooltipHtml, a.id, wikiLookup, 'aqueducts')
+                    if (!hasWiki) {
+                      const crKey = `aqueduct:${a.id}`
+                      if (crossRef?.[crKey]) {
+                        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+                      }
+                    }
+                    return html
+                  })(),
                 }}
               />
             </Popup>
