@@ -47,10 +47,47 @@ function snapKey(snap: TerritorySnapshot): string {
 
 export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const playing = useTimelineStore((s) => s.playing)
+
+  // Transition-rate governor. The territory data has war-level resolution
+  // (241 breakpoints; gaps down to 1 year), so raw playback can demand up
+  // to 50 snapshot swaps/second at 1x — each a ~640-point polygon cross-
+  // fade, which stack up faster than they finish and stutter the tail of
+  // the timeline. During playback we admit a new territory year at most
+  // every 400ms (longer than the fade); paused/scrubbing stays exact.
+  const [territoryYear, setTerritoryYear] = useState(currentYear)
+  const lastSwap = useRef(0)
+  const pending = useRef<ReturnType<typeof setTimeout> | null>(null)
+  useEffect(() => {
+    if (!playing) {
+      if (pending.current) clearTimeout(pending.current)
+      pending.current = null
+      setTerritoryYear(currentYear)
+      lastSwap.current = Date.now()
+      return
+    }
+    const since = Date.now() - lastSwap.current
+    if (since >= 400) {
+      lastSwap.current = Date.now()
+      setTerritoryYear(currentYear)
+    } else if (!pending.current) {
+      pending.current = setTimeout(() => {
+        pending.current = null
+        lastSwap.current = Date.now()
+        setTerritoryYear(useTimelineStore.getState().currentYear)
+      }, 400 - since)
+    }
+    return () => {
+      if (pending.current) {
+        clearTimeout(pending.current)
+        pending.current = null
+      }
+    }
+  }, [currentYear, playing])
 
   // The snapshot that should be showing for each region at the current year.
   const active = useMemo(() => {
-    const eligible = snapshots.filter((s) => s.year <= currentYear)
+    const eligible = snapshots.filter((s) => s.year <= territoryYear)
     const latestByRegion = new Map<string, TerritorySnapshot>()
     for (const snap of eligible) {
       const existing = latestByRegion.get(snap.id)
@@ -60,9 +97,9 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
     // then disappears — so the fallen Western Empire doesn't linger on the map
     // through the Byzantine centuries after 476.
     return Array.from(latestByRegion.values()).filter(
-      (snap) => !(snap.status === 'lost' && currentYear > snap.year + 30),
+      (snap) => !(snap.status === 'lost' && territoryYear > snap.year + 30),
     )
-  }, [snapshots, currentYear])
+  }, [snapshots, territoryYear])
 
   // Only changes when the *set* of visible snapshots changes.
   const activeKeys = active.map(snapKey).sort().join('|')
