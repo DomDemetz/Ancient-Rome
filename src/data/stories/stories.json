@@ -8,64 +8,134 @@
         "id": "step-gracchi",
         "title": "Seeds of Discord",
         "content": "In 133 BC, Tiberius Gracchus proposed redistributing public land to Rome's landless poor. The Senate, viewing this as a threat to their wealth and power, had him beaten to death — the first political murder in the Republic. His brother Gaius continued the reforms but met the same fate. The precedent of political violence was set, and the Republic would never recover.",
-        "entityIds": ["gracchi-reforms", "roman-senate", "populares"],
+        "entityIds": [
+          "gracchi-reforms",
+          "roman-senate",
+          "populares"
+        ],
         "year": -133,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 6
       },
       {
         "id": "step-marius",
         "title": "The People's General",
         "content": "Gaius Marius transformed the Roman army by allowing landless citizens to enlist, creating a professional military loyal to their commander rather than the state. His seven consulships broke every republican norm, and his bitter rivalry with Sulla showed that ambitious generals could use their armies as political weapons.",
-        "entityIds": ["gaius-marius", "marian-reforms"],
+        "entityIds": [
+          "gaius-marius",
+          "marian-reforms"
+        ],
         "year": -107,
-        "layers": ["showTerritories", "showBattles", "showLegions"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showLegions"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 5
       },
       {
         "id": "step-sulla",
         "title": "The First March on Rome",
         "content": "In 88 BC, Sulla became the first Roman general to march his legions against the city of Rome itself. After defeating Marius's faction, he declared himself dictator and enacted proscriptions — published lists of enemies to be killed on sight. Though he eventually retired, Sulla proved that the Republic could be overthrown by military force.",
-        "entityIds": ["sulla", "optimates", "rome"],
+        "entityIds": [
+          "sulla",
+          "optimates",
+          "rome"
+        ],
         "year": -82,
-        "layers": ["showTerritories", "showBattles", "showLegions"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showLegions"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 6
       },
       {
         "id": "step-caesar",
         "title": "Crossing the Rubicon",
         "content": "On January 10, 49 BC, Julius Caesar led the Thirteenth Legion across the Rubicon River, the boundary between Gaul and Italy. By crossing with his army, he committed treason against the Republic and started a civil war. 'Alea iacta est' — the die was cast. Caesar would defeat Pompey and the Senate, becoming dictator of Rome.",
-        "entityIds": ["julius-caesar", "crossing-the-rubicon", "legio-xiii-gemina", "pompey"],
+        "entityIds": [
+          "julius-caesar",
+          "crossing-the-rubicon",
+          "legio-xiii-gemina",
+          "pompey"
+        ],
         "year": -49,
-        "layers": ["showTerritories", "showBattles", "showLegions", "showRoads"],
-        "mapCenter": [44.1, 12.4],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showLegions",
+          "showRoads"
+        ],
+        "mapCenter": [
+          44.1,
+          12.4
+        ],
         "mapZoom": 7
       },
       {
         "id": "step-ides",
         "title": "The Ides of March",
         "content": "On March 15, 44 BC, a group of senators led by Marcus Brutus and Cassius stabbed Julius Caesar twenty-three times in the Theatre of Pompey. They believed they were saving the Republic from tyranny. Instead, they plunged Rome into another round of devastating civil wars that would ultimately destroy the very Republic they sought to preserve.",
-        "entityIds": ["assassination-of-caesar", "marcus-brutus", "julius-caesar"],
+        "entityIds": [
+          "assassination-of-caesar",
+          "marcus-brutus",
+          "julius-caesar"
+        ],
         "year": -44,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 8
       },
       {
         "id": "step-augustus",
         "title": "The First Emperor",
         "content": "After defeating Mark Antony and Cleopatra at Actium in 31 BC, Octavian stood as the sole ruler of the Roman world. In 27 BC, the Senate granted him the title 'Augustus.' He cleverly maintained the facade of republican governance while holding absolute power. The Republic was dead — the Roman Empire had begun, and it would endure for another five centuries.",
-        "entityIds": ["augustus", "battle-of-actium", "mark-antony", "cleopatra"],
+        "entityIds": [
+          "augustus",
+          "battle-of-actium",
+          "mark-antony",
+          "cleopatra"
+        ],
         "year": -27,
-        "layers": ["showTerritories", "showBattles", "showLegions"],
-        "mapCenter": [38.9, 20.7],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showLegions"
+        ],
+        "mapCenter": [
+          38.9,
+          20.7
+        ],
         "mapZoom": 6
       }
     ],
-    "tags": ["republic", "civil-war", "politics"]
+    "tags": [
+      "republic",
+      "civil-war",
+      "politics"
+    ]
   },
   {
     "id": "the-conquest",
@@ -76,54 +146,109 @@
         "id": "conquest-founding",
         "title": "A City on Seven Hills",
         "content": "Legend says Romulus traced the boundaries of his new city in 753 BC, killing his brother Remus when he dared to leap over the sacred furrow. Myth or not, something extraordinary began on the banks of the Tiber that year. A collection of Latin and Sabine villages fused into a single settlement perched on seven hills — a position that offered both defensible high ground and control of the river crossing on the salt trade route.\n\nFor its first two and a half centuries, Rome was ruled by kings and hemmed in by powerful neighbors: the sophisticated Etruscans to the north, the warlike Samnites in the central Apennines, and Greek colonies glittering along the southern coast. The territory Rome controlled would barely register on a map of Italy. But the Romans possessed something their rivals lacked — an almost pathological refusal to accept defeat. When they lost a battle, they simply raised another army and came back.\n\nBy the mid-fourth century BC, Rome had crushed the Latin League, absorbed Etruscan cities, and ground down the Samnites through three brutal wars. Italy south of the Po Valley was Roman. The city on seven hills now controlled a peninsula, and it was hungry for more.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": -753,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 7
       },
       {
         "id": "conquest-punic",
         "title": "The Punic Wars: Duel for the Mediterranean",
         "content": "In 264 BC, Rome collided with Carthage — the Phoenician superpower that dominated the western Mediterranean from its base in North Africa. What followed were three wars spanning over a century, and they would determine which civilization owned the future.\n\nThe First Punic War (264-241 BC) was fought largely at sea, and Rome — a land power with no naval tradition — built an entire fleet from scratch, copying a captured Carthaginian warship plank by plank. The Second Punic War (218-201 BC) nearly ended Rome forever. Hannibal Barca marched elephants over the Alps, annihilated Roman armies at Trebia, Lake Trasimene, and Cannae — where 50,000 Romans died in a single afternoon. For sixteen years he ravaged Italy, yet Rome refused to surrender. Scipio Africanus finally turned the tide by invading Africa itself, forcing Hannibal home to defeat at Zama.\n\nThe Third Punic War (149-146 BC) was less a war than an execution. The Roman Senate, urged on by Cato the Elder's relentless \"Carthago delenda est,\" besieged and utterly destroyed Carthage. The city was burned, its population enslaved, and its territory became the Roman province of Africa. Rome now owned the western Mediterranean — Sicily, Sardinia, Corsica, Spain, and North Africa were all hers.",
-        "entityIds": ["carthage", "rome", "syracuse"],
+        "entityIds": [
+          "carthage",
+          "rome",
+          "syracuse"
+        ],
         "year": -218,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [38.0, 10.0],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          38.0,
+          10.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "conquest-east",
         "title": "Eastern Conquests: Greece and Beyond",
         "content": "With Carthage in ashes, Rome turned its gaze east toward the wealthy Hellenistic kingdoms — the successor states carved from Alexander the Great's empire. These kingdoms were rich, cultured, and militarily formidable. None of that saved them.\n\nMacedon fell first. At Cynoscephalae in 197 BC and Pydna in 168 BC, the Roman legion proved decisively superior to the Macedonian phalanx. Greece became a Roman protectorate and then, after the destruction of Corinth in 146 BC (the same year Carthage fell), a province. The Seleucid Empire in the Near East was humbled at Magnesia in 190 BC. Pompey the Great swept through the East in the 60s BC, annexing Syria, conquering Jerusalem, and reorganizing the entire region into Roman provinces and client kingdoms.\n\nThe conquest of the East brought unimaginable wealth flooding into Rome — gold, silver, slaves, and art. It also brought Greek culture, philosophy, and religion, transforming Roman civilization from the inside out. Rome conquered Greece by force of arms; Greece conquered Rome by force of ideas.",
-        "entityIds": ["athens", "antioch", "jerusalem"],
+        "entityIds": [
+          "athens",
+          "antioch",
+          "jerusalem"
+        ],
         "year": -146,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [37.0, 25.0],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          37.0,
+          25.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "conquest-gaul",
         "title": "Caesar's Gaul: Blood and Glory",
         "content": "Between 58 and 50 BC, Julius Caesar conquered all of Gaul — a territory roughly the size of modern France, Belgium, and parts of Switzerland, Germany, and the Netherlands. It was one of the most spectacular military campaigns in history, and Caesar knew it, writing his own account in the third person to make sure no one forgot.\n\nThe numbers are staggering even by ancient standards. Caesar himself claimed to have killed over a million Gauls and enslaved another million. He crossed the Rhine to intimidate the Germanic tribes. He crossed the English Channel twice to probe Britain. At Alesia in 52 BC, he besieged the Gallic chieftain Vercingetorix with a double ring of fortifications — one facing in to contain the defenders, another facing out to repel a massive relief army. It was a masterpiece of engineering and audacity, and it broke the back of Gallic resistance.\n\nThe conquest of Gaul gave Rome its most important northern province, a buffer zone against Germanic invasion, and — not incidentally — gave Caesar the battle-hardened legions and the fortune he needed to march on Rome itself.",
-        "entityIds": ["julius-caesar", "rome", "massilia"],
+        "entityIds": [
+          "julius-caesar",
+          "rome",
+          "massilia"
+        ],
         "year": -52,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [47.0, 3.0],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          47.0,
+          3.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "conquest-trajan",
         "title": "Trajan's Peak: The Empire at Its Zenith",
         "content": "In 117 AD, the Emperor Trajan stood on the shore of the Persian Gulf, gazing across waters no Roman had ever reached. Behind him lay the newly conquered provinces of Mesopotamia and Armenia. The Roman Empire had reached its maximum territorial extent — a domain stretching from Scotland to the Sahara, from Portugal to Persia, encircling the entire Mediterranean Sea, which Romans simply called \"Mare Nostrum\" — Our Sea.\n\nTrajan's empire contained roughly 60 million people — perhaps a quarter of the world's population. Its road network spanned 250,000 miles. Its legions, 30 strong and numbering around 150,000 men plus an equal number of auxiliaries, garrisoned frontiers that ran for thousands of miles along rivers, deserts, and purpose-built walls. From Londinium to Alexandria, from Hispalis to Antioch, a single legal system, a common currency, and the Latin language bound this vast territory together.\n\nBut Trajan died on his way home from the East, and his successor Hadrian immediately abandoned Mesopotamia, pulling back to more defensible borders. It was a quiet acknowledgment of a truth Rome would struggle with for the next three centuries: the empire had reached the limits of what could be held. The age of conquest was over. The age of defense had begun.",
-        "entityIds": ["rome", "constantinople", "alexandria", "antioch", "londinium"],
+        "entityIds": [
+          "rome",
+          "constantinople",
+          "alexandria",
+          "antioch",
+          "londinium"
+        ],
         "year": 117,
-        "layers": ["showTerritories", "showBattles"],
-        "mapCenter": [38.0, 20.0],
+        "layers": [
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          38.0,
+          20.0
+        ],
         "mapZoom": 4
       }
     ],
-    "tags": ["military", "expansion", "conquest", "battles"]
+    "tags": [
+      "military",
+      "expansion",
+      "conquest",
+      "battles"
+    ]
   },
   {
     "id": "the-economy-engine",
@@ -134,64 +259,131 @@
         "id": "economy-med-trade",
         "title": "Mediterranean Trade: The Liquid Highway",
         "content": "By 200 BC, Rome's conquests had turned the Mediterranean from a patchwork of competing trade zones into a single, increasingly Roman-dominated market. And it was the sea — not the famous roads — that carried the heaviest loads. A cargo ship could move grain from Egypt to Rome in about two weeks. The same journey overland would take months and cost fifty times as much.\n\nThe archaeological evidence is extraordinary. Thousands of shipwrecks litter the Mediterranean floor, and their cargo tells the story of an economy exploding into life. Amphorae — the standardized clay shipping containers of the ancient world — carried wine from Italy to Gaul, olive oil from Spain to Rome, and fish sauce (garum, the Romans' beloved condiment) from the coasts of Spain and North Africa to tables across the empire. The sheer volume of these wrecks peaks dramatically between 200 BC and 200 AD, painting a picture of commercial activity that wouldn't be matched in Europe for over a thousand years.\n\nRome didn't just benefit from trade — it actively shaped it. Standardized weights and measures, a stable currency (the denarius), and Roman commercial law created the predictable conditions merchants needed. Piracy was ruthlessly suppressed after Pompey's famous campaign in 67 BC. The sea lanes were open, and business was booming.",
-        "entityIds": ["rome", "carthage", "alexandria"],
+        "entityIds": [
+          "rome",
+          "carthage",
+          "alexandria"
+        ],
         "year": -200,
-        "layers": ["showTradeNetwork", "showShipwrecks"],
-        "mapCenter": [37.0, 15.0],
+        "layers": [
+          "showTradeNetwork",
+          "showShipwrecks"
+        ],
+        "mapCenter": [
+          37.0,
+          15.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "economy-roads",
         "title": "The Road Network: Arteries of Empire",
         "content": "The Romans built roads the way they did everything — with obsessive thoroughness and an eye on forever. The Via Appia, begun in 312 BC, was the prototype: layers of gravel, sand, and fitted stone blocks, cambered for drainage, running arrow-straight through marshes and over mountains. Roman roads were so well-built that many remained in use for centuries after the empire fell, and some modern European highways still follow their routes.\n\nBy the height of the empire, the road network stretched over 250,000 miles — enough to circle the Earth ten times. Major highways connected every provincial capital to Rome (giving rise to the saying \"all roads lead to Rome,\" which was literally true). Along these roads moved legions, imperial messengers using the cursus publicus postal system, merchants with their wagons, and the tax revenues that kept the empire running. Milestones marked every Roman mile, waystations offered fresh horses, and inns — of varying quality — provided lodging.\n\nBut roads served a deeper purpose than mere transportation. They were instruments of cultural assimilation. Where the road went, Roman law, language, and customs followed. Towns sprang up at crossroads and river crossings. Veterans settled in colonies along major routes. The road network didn't just connect the empire — it created it.",
-        "entityIds": ["rome", "brundisium"],
+        "entityIds": [
+          "rome",
+          "brundisium"
+        ],
         "year": -100,
-        "layers": ["showRoads", "showSettlements", "showTradeNetwork"],
-        "mapCenter": [41.5, 14.0],
+        "layers": [
+          "showRoads",
+          "showSettlements",
+          "showTradeNetwork"
+        ],
+        "mapCenter": [
+          41.5,
+          14.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "economy-peak",
         "title": "Peak Trade: The Antonine Boom",
         "content": "The second century AD — the age of the \"Five Good Emperors\" — marked the absolute peak of the Roman commercial economy. Under Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius, the empire enjoyed nearly a century of internal peace, stable governance, and economic prosperity unmatched in the ancient world.\n\nThe numbers are jaw-dropping. Monte Testaccio in Rome — an artificial hill made entirely of broken olive oil amphorae — contains the remains of an estimated 53 million containers, representing roughly 6 billion liters of oil shipped from Spain alone. Lead pollution trapped in Greenland ice cores shows Roman-era smelting activity that wouldn't be exceeded until the Industrial Revolution. The sheer scale of production and trade was staggering for a pre-industrial society.\n\nRoman trade reached far beyond the empire's borders. Hoards of Roman coins have been found in India and Sri Lanka, evidence of the spice and luxury trade that sent Roman gold east along both sea routes and the Silk Road. In the port of Muziris on India's southwest coast, Roman merchants maintained permanent trading posts. Roman glassware has turned up in Vietnam and Japan. This was a genuinely global trading network, knit together by Roman demand and Roman silver.",
-        "entityIds": ["rome", "alexandria", "antioch"],
+        "entityIds": [
+          "rome",
+          "alexandria",
+          "antioch"
+        ],
         "year": 150,
-        "layers": ["showTradeNetwork", "showShipwrecks", "showRoads"],
-        "mapCenter": [36.0, 18.0],
+        "layers": [
+          "showTradeNetwork",
+          "showShipwrecks",
+          "showRoads"
+        ],
+        "mapCenter": [
+          36.0,
+          18.0
+        ],
         "mapZoom": 4
       },
       {
         "id": "economy-mining",
         "title": "Mining Wealth: Digging the Empire's Fortune",
         "content": "Rome ran on metal — gold and silver for coins, iron for weapons, lead for pipes, copper and tin for bronze. And the empire's mining operations were conducted on an industrial scale that boggles the modern mind. In the gold mines of Las Medulas in northwest Spain, Roman engineers used a technique called ruina montium (\"wrecking of mountains\"): they channeled water through tunnels carved into the mountainside, then released it in a catastrophic flood that shattered the rock face and exposed the gold-bearing gravel beneath. The resulting landscape looks like something from another planet.\n\nSpain was the empire's mining heartland. The Rio Tinto mines, worked since Phoenician times, were massively expanded under Roman management, producing copper, silver, and gold. Roman-era slag heaps at Rio Tinto are estimated to contain six million tonnes of waste — testimony to centuries of large-scale extraction. But mining wasn't limited to Iberia. Britain produced lead, tin, and gold. Dacia (modern Romania) was conquered partly for its gold mines. Quarries in Egypt, Greece, and Turkey supplied the marble that clad Roman cities in white and colored stone.\n\nThe mining industry required enormous capital investment, sophisticated engineering (including drainage wheels, Archimedean screws, and aqueduct-fed water systems), and vast amounts of labor — much of it provided by slaves and condemned criminals. It was brutal work, but it fed the empire's insatiable appetite for metal and stone.",
-        "entityIds": ["hispalis"],
+        "entityIds": [
+          "hispalis"
+        ],
         "year": 50,
-        "layers": ["showMines", "showRoads", "showTradeNetwork"],
-        "mapCenter": [40.0, -5.5],
+        "layers": [
+          "showMines",
+          "showRoads",
+          "showTradeNetwork"
+        ],
+        "mapCenter": [
+          40.0,
+          -5.5
+        ],
         "mapZoom": 5
       },
       {
         "id": "economy-agriculture",
         "title": "The Agricultural Empire: Oil, Wine, and Grain",
         "content": "Forget the legions for a moment — the real engine of the Roman economy was agriculture. Roughly 80-90% of the empire's population worked the land, and the three sacred crops of the Mediterranean — grain, olives, and grapes — formed the basis of Roman wealth and diet. The empire's agricultural output was so vast that it left archaeological signatures visible two thousand years later.\n\nNorth Africa was Rome's breadbasket. The provinces of Africa Proconsularis and Numidia (modern Tunisia and Algeria) exported millions of tonnes of grain to feed the city of Rome, where free grain distribution kept the urban poor alive and politically quiescent. But it was olive oil that generated the most spectacular wealth. Oil presses dotted the landscapes of Spain, North Africa, and the Levant — hundreds of them, many producing on a near-industrial scale. Olive oil was used for cooking, lighting, bathing, and religious ritual. It was the petroleum of the ancient world.\n\nWine production tells a similar story of scale and sophistication. Italian vineyards initially dominated production, but as the empire expanded, Gaul, Spain, and the Rhineland developed their own wine industries — some of which survive today. The French wine regions of Bordeaux and Burgundy can trace their origins to Roman-era plantings. When you open a bottle of French wine, you're drinking a legacy of Roman agricultural imperialism.",
-        "entityIds": ["carthage", "rome", "hispalis"],
+        "entityIds": [
+          "carthage",
+          "rome",
+          "hispalis"
+        ],
         "year": 100,
-        "layers": ["showPresses", "showTradeNetwork", "showShipwrecks"],
-        "mapCenter": [35.0, 8.0],
+        "layers": [
+          "showPresses",
+          "showTradeNetwork",
+          "showShipwrecks"
+        ],
+        "mapCenter": [
+          35.0,
+          8.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "economy-decline",
         "title": "The Great Unraveling",
         "content": "The shipwreck data tells the story with brutal clarity. After peaking in the first and second centuries AD, the number of Mediterranean wrecks — our best proxy for trade volume — drops off a cliff in the third century. The great commercial machine that had bound the empire together was breaking down.\n\nThe Crisis of the Third Century (235-284 AD) was an economic catastrophe. Fifty years of civil war, invasion, and plague shattered the stable conditions that trade required. The currency was debased so severely that the silver content of the denarius dropped from nearly pure to less than 5%. Hyperinflation destroyed savings. Tax collection became irregular. The road network deteriorated as maintenance funding evaporated. Long-distance trade routes that had operated for centuries simply ceased to function.\n\nDiocletian's reforms stabilized the empire politically, but the economy never fully recovered. His Edict on Maximum Prices (301 AD) — an attempt to control inflation by government decree — reveals an empire struggling to manage economic forces it no longer understood. Trade became more regional, more local. The great Mediterranean-wide commercial networks fragmented. By the fifth century, the pottery, metalwork, and building materials found in archaeological sites are cruder, simpler, more locally produced. The economy engine had stalled, and with it went much of what had made Rome Rome.",
-        "entityIds": ["rome", "constantinople"],
+        "entityIds": [
+          "rome",
+          "constantinople"
+        ],
         "year": 280,
-        "layers": ["showTradeNetwork", "showShipwrecks", "showRoads"],
-        "mapCenter": [38.0, 18.0],
+        "layers": [
+          "showTradeNetwork",
+          "showShipwrecks",
+          "showRoads"
+        ],
+        "mapCenter": [
+          38.0,
+          18.0
+        ],
         "mapZoom": 4
       }
     ],
-    "tags": ["economy", "trade", "mining", "agriculture", "infrastructure"]
+    "tags": [
+      "economy",
+      "trade",
+      "mining",
+      "agriculture",
+      "infrastructure"
+    ]
   },
   {
     "id": "gods-of-rome",
@@ -202,64 +394,130 @@
         "id": "gods-old",
         "title": "The Old Gods: Spirits of Hearth and Field",
         "content": "Early Roman religion was nothing like the marble-templed grandeur we imagine. It was practical, transactional, and deeply local. Romans worshipped numina — vague spiritual forces that inhabited specific places, objects, and activities. Janus guarded doorways. Vesta watched over the hearth fire. The Lares protected the household, the Penates the pantry. There was a spirit for every occasion, from first plowing to the first words of an infant.\n\nThe relationship between Romans and their gods was essentially contractual: do ut des — \"I give so that you may give.\" You performed the correct ritual, spoke the correct words, made the correct offering, and the god was obligated to fulfill their end of the bargain. Get the formula wrong, and you had to start over from the beginning. Roman religion was less about faith or feeling than about precise performance — which tells you a great deal about the Roman character.\n\nThe state religion was managed with the same bureaucratic efficiency Rome applied to everything. The Pontifex Maximus (a title later adopted by the Pope) oversaw the calendar of festivals, the college of priests, and the maintenance of proper relations between Rome and its gods. Religion was a public duty, a civic obligation, and a political tool. Piety meant following the rules, not experiencing the divine.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": -500,
-        "layers": ["showReligion", "showEpigraphy"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showReligion",
+          "showEpigraphy"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 7
       },
       {
         "id": "gods-greek",
         "title": "Greek Influence: When Jupiter Met Zeus",
         "content": "As Rome expanded into the Greek world, Roman religion underwent a massive transformation. The old, vague numina were identified with specific Greek gods and given Greek-style mythologies, personalities, and human forms. Jupiter became Zeus, Juno became Hera, Minerva became Athena, Mars became Ares. The Romans, always pragmatic, simply absorbed the richer Greek religious tradition wholesale — keeping the old names but adopting the Greek stories, art, and temple architecture.\n\nThis wasn't just cultural borrowing; it was a deliberate strategy. By identifying their gods with Greek ones, the Romans positioned themselves as heirs to Greek civilization — the most prestigious cultural tradition in the Mediterranean. The magnificent temples that began rising on the Capitol and in the Forum were Greek in design, Greek in sculptural program, and often built by Greek architects. The result was something new: a Greco-Roman religious culture that would dominate the Mediterranean for centuries.\n\nBut Greek influence brought more than just prettier temples. It introduced Romans to philosophy — Stoicism, Epicureanism, Skepticism — which offered educated elites intellectual frameworks for thinking about the divine that went far beyond traditional ritual. By the late Republic, many upper-class Romans privately viewed the traditional gods as useful social fictions while publicly maintaining the state religion. This quiet erosion of genuine belief at the top would eventually create a spiritual vacuum that new religions would rush to fill.",
-        "entityIds": ["rome", "athens"],
+        "entityIds": [
+          "rome",
+          "athens"
+        ],
         "year": -200,
-        "layers": ["showReligion", "showEpigraphy"],
-        "mapCenter": [39.0, 20.0],
+        "layers": [
+          "showReligion",
+          "showEpigraphy"
+        ],
+        "mapCenter": [
+          39.0,
+          20.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "gods-mystery",
         "title": "Mystery Cults: Isis, Mithras, and the Hunger for Salvation",
         "content": "Starting in the late Republic and accelerating under the Empire, a wave of eastern religions swept across the Roman world. These \"mystery cults\" offered something the cold, transactional state religion never could: personal salvation, emotional connection to the divine, and the promise of a blessed afterlife. They spread along trade routes and military highways, carried by merchants, soldiers, and slaves.\n\nThe cult of Isis, imported from Egypt, was perhaps the most popular. Isis was a loving, maternal goddess who had conquered death itself by resurrecting her husband Osiris. Her temples — identified archaeologically across the empire from London to the Danube — offered elaborate rituals, a professional priesthood, and the promise of protection in this life and the next. The cult of Mithras, with its origins in Persian religion, was especially popular among soldiers. Mithraea — underground temples where initiates shared ritual meals and progressed through seven grades of initiation — have been found at military camps across the empire's frontiers.\n\nThese cults transformed the Roman religious landscape from a civic duty into a personal choice. For the first time, individuals could select a religion based on what it offered them spiritually rather than simply performing the rituals their city expected. This was a revolutionary shift, and it prepared the ground for the most successful mystery religion of all — one that was just getting started in an obscure corner of Judaea.",
-        "entityIds": ["rome", "alexandria", "antioch"],
+        "entityIds": [
+          "rome",
+          "alexandria",
+          "antioch"
+        ],
         "year": 50,
-        "layers": ["showReligion", "showEpigraphy"],
-        "mapCenter": [38.0, 22.0],
+        "layers": [
+          "showReligion",
+          "showEpigraphy"
+        ],
+        "mapCenter": [
+          38.0,
+          22.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "gods-christianity",
         "title": "Christ's Message: From Judaea to the World",
         "content": "Around 30 AD, a Jewish preacher named Yeshua was executed by Roman crucifixion in Jerusalem — a routine punishment for troublemakers in the provinces. Within a generation, his followers had established communities in every major city of the eastern Mediterranean. Within three centuries, their faith would conquer the empire that had killed their founder. It is, by any measure, one of the most improbable success stories in history.\n\nChristianity spread along the same networks that carried olive oil and pottery — the roads, sea lanes, and urban centers of the Roman commercial world. Paul of Tarsus, a Roman citizen and former persecutor of Christians, was the key figure, establishing churches in Corinth, Ephesus, Thessalonica, and Rome itself. The new faith found its earliest converts among urban populations — slaves, freedmen, merchants, and women — people for whom the traditional civic religion offered little and the mystery cults offered much, but Christianity offered more: a single God who loved everyone equally, a community that cared for its sick and poor, and the promise of eternal life.\n\nThe Roman state's relationship with Christianity oscillated between indifference and violent persecution. Nero blamed Christians for the Great Fire of Rome in 64 AD. Decius and Diocletian launched empire-wide persecutions in 250 and 303 AD respectively. But persecution only strengthened the movement. The blood of martyrs, as Tertullian famously wrote, was the seed of the church.",
-        "entityIds": ["jerusalem", "antioch", "rome"],
+        "entityIds": [
+          "jerusalem",
+          "antioch",
+          "rome"
+        ],
         "year": 100,
-        "layers": ["showReligion", "showEpigraphy"],
-        "mapCenter": [34.0, 33.0],
+        "layers": [
+          "showReligion",
+          "showEpigraphy"
+        ],
+        "mapCenter": [
+          34.0,
+          33.0
+        ],
         "mapZoom": 5
       },
       {
         "id": "gods-constantine",
         "title": "Constantine: The Empire Bets on Christ",
         "content": "On October 28, 312 AD, Constantine defeated his rival Maxentius at the Battle of the Milvian Bridge outside Rome. According to later accounts, Constantine had seen a vision of the cross in the sky the night before, with the words \"In this sign, conquer.\" Whether the vision was genuine, politically convenient, or invented after the fact, the consequences were epoch-making. The Roman Empire's most powerful man was now a Christian.\n\nThe Edict of Milan in 313 AD granted Christianity legal status throughout the empire. Constantine went much further — he lavished imperial funds on church construction, granted clergy tax exemptions, made Sunday a day of rest, and convened the Council of Nicaea in 325 AD to settle doctrinal disputes. He built a new Christian capital at Constantinople, adorned with churches rather than pagan temples. The emperor who had once been Pontifex Maximus of the old gods now styled himself as God's representative on Earth.\n\nThe transformation was not instant — paganism remained widespread, especially in rural areas (the Latin word \"paganus\" means \"country-dweller\"). But the direction was unmistakable. Imperial patronage, social prestige, and legal advantages all flowed toward Christianity. Ambitious men converted because it was the path to power. Within a generation, the question had flipped: it was now paganism that was marginalized.",
-        "entityIds": ["rome", "constantinople", "mediolanum"],
+        "entityIds": [
+          "rome",
+          "constantinople",
+          "mediolanum"
+        ],
         "year": 313,
-        "layers": ["showReligion", "showEpigraphy", "showBuildings"],
-        "mapCenter": [41.9, 12.5],
+        "layers": [
+          "showReligion",
+          "showEpigraphy",
+          "showBuildings"
+        ],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 5
       },
       {
         "id": "gods-triumph",
         "title": "The Triumph of Christianity",
         "content": "In 380 AD, Emperor Theodosius I issued the Edict of Thessalonica, making Nicene Christianity the official state religion of the Roman Empire. In 391, he banned pagan sacrifice. In 392, all pagan worship was outlawed. The Vestal Virgins, who had tended Rome's sacred flame for over a thousand years, were disbanded. The Olympic Games, held since 776 BC, were abolished. Temples were closed, repurposed as churches, or left to crumble. The old gods were dead.\n\nThe speed of the transformation is breathtaking. In 250 AD, Christians were a persecuted minority — perhaps 10% of the empire's population. By 400 AD, Christianity was the official religion of the state, claiming the allegiance of emperors, generals, senators, and the vast majority of the urban population. An entire religious civilization — the Greco-Roman pagan tradition that had produced Homer, Sophocles, and Plato — was systematically dismantled in barely a century.\n\nBut Christianity didn't just replace paganism — it absorbed it. Christmas was placed near the winter solstice, Easter near the spring equinox. Saints took over the protective roles of local gods. Church architecture borrowed the Roman basilica. The Pope inherited the title Pontifex Maximus. The organizational genius of the Roman Empire lived on in the hierarchical structure of the Catholic Church. Rome fell, but its spiritual successor endured — and still endures today.",
-        "entityIds": ["rome", "constantinople", "antioch", "jerusalem", "alexandria"],
+        "entityIds": [
+          "rome",
+          "constantinople",
+          "antioch",
+          "jerusalem",
+          "alexandria"
+        ],
         "year": 395,
-        "layers": ["showReligion", "showEpigraphy", "showBuildings"],
-        "mapCenter": [38.0, 25.0],
+        "layers": [
+          "showReligion",
+          "showEpigraphy",
+          "showBuildings"
+        ],
+        "mapCenter": [
+          38.0,
+          25.0
+        ],
         "mapZoom": 4
       }
     ],
-    "tags": ["religion", "christianity", "culture", "temples"]
+    "tags": [
+      "religion",
+      "christianity",
+      "culture",
+      "temples"
+    ]
   },
   {
     "id": "engineering-a-civilization",
@@ -270,37 +528,69 @@
         "id": "engineering-aqueduct",
         "title": "The First Aqueduct: Taming Water",
         "content": "In 312 BC, the censor Appius Claudius Caecus did two things that would define Roman civilization: he began the Via Appia and the Aqua Appia. The road would become the template for the greatest highway network of the ancient world. The aqueduct — Rome's first — would begin a hydraulic engineering tradition unmatched until the modern era.\n\nThe Aqua Appia ran mostly underground, carrying water from springs east of Rome over a distance of about 16 kilometers. It was a modest beginning, but the principle it established was revolutionary: a city could grow beyond the limits of its local water supply. Over the next five centuries, Rome would build eleven aqueducts, bringing water from sources up to 91 kilometers away. At its peak, Rome's aqueduct system delivered over a million cubic meters of water daily — roughly 1,000 liters per person per day, a figure that many modern cities struggle to match.\n\nThe engineering precision required was extraordinary. Aqueducts relied on gravity alone, maintaining a carefully calculated downward gradient of just a few centimeters per kilometer. The famous multi-tiered bridges like the Pont du Gard in France are actually the exception — most of the system ran underground or in covered channels. The bridges were built only where valleys had to be crossed, and they were built to last. The Pont du Gard still stands after two thousand years, its stones fitted so precisely that no mortar was needed.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": -312,
-        "layers": ["showAqueducts", "showRoads", "showSettlements"],
-        "mapCenter": [41.9, 12.8],
+        "layers": [
+          "showAqueducts",
+          "showRoads",
+          "showSettlements"
+        ],
+        "mapCenter": [
+          41.9,
+          12.8
+        ],
         "mapZoom": 8
       },
       {
         "id": "engineering-via-appia",
         "title": "Via Appia: Queen of Roads",
         "content": "The Via Appia — the \"Queen of Roads\" — set the standard for every Roman highway that followed. Built from 312 BC onward, it connected Rome to Brundisium (modern Brindisi) on the Adriatic coast, covering about 560 kilometers through some of Italy's most challenging terrain. Sections of the original road surface survive today, still bearing the ruts of ancient wagon wheels.\n\nRoman road construction was a marvel of systematic engineering. The roadbed was excavated to solid ground, then built up in layers: large stones for the foundation (statumen), crushed rock and gravel for drainage (rudus), a layer of fine gravel and sand (nucleus), and finally the fitted paving stones on top (summa crusta). The road surface was cambered — higher in the center than the edges — to shed water into drainage ditches running alongside. Bridges, tunnels, and cuttings ensured the road ran as straight as possible, because a straight road is a fast road, and speed meant military advantage.\n\nAs the empire expanded, this engineering template was replicated across three continents. The Via Egnatia crossed northern Greece. The Via Augusta ran the length of Spain. Military roads penetrated into Britain, along the Rhine, and across the Danube. By the second century AD, the network connected every major city in the empire to Rome. A merchant or soldier at the empire's edge could follow a paved, drained, marked highway all the way to the capital. No other pre-modern civilization built anything remotely comparable.",
-        "entityIds": ["rome", "brundisium"],
+        "entityIds": [
+          "rome",
+          "brundisium"
+        ],
         "year": -264,
-        "layers": ["showRoads", "showSettlements"],
-        "mapCenter": [41.2, 14.5],
+        "layers": [
+          "showRoads",
+          "showSettlements"
+        ],
+        "mapCenter": [
+          41.2,
+          14.5
+        ],
         "mapZoom": 6
       },
       {
         "id": "engineering-colosseum",
         "title": "The Colosseum: Spectacle in Stone",
         "content": "When the Flavian Amphitheatre — the Colosseum — opened in 80 AD, it was the largest amphitheatre ever built, and nothing would surpass it for nearly two thousand years. Rising four stories and 48 meters high, it could seat 50,000 spectators, who entered through 76 numbered arches and could be completely evacuated in about fifteen minutes through a brilliantly designed system of corridors and stairways. Modern stadium designers still study it.\n\nThe engineering was as spectacular as the spectacles it hosted. The Colosseum was built with an estimated 100,000 cubic meters of travertine limestone, held together by 300 tonnes of iron clamps (later scavenged, which is why the walls are pockmarked with holes). A massive retractable canvas awning — the velarium — shaded spectators from the sun, operated by a detachment of sailors from the imperial fleet. Beneath the arena floor, a labyrinth of tunnels, cages, and mechanical elevators (there were at least 36) could deliver wild animals and scenery directly into the arena, creating dramatic surprise entrances.\n\nThe Colosseum was both an engineering triumph and a political statement. Free games — gladiatorial combat, wild beast hunts, mock naval battles, public executions — kept the urban masses entertained and politically docile. It was also a model that spread across the empire. Over 230 amphitheatres have been identified in the Roman world, from Londinium to El Djem in Tunisia, each one a smaller echo of the great original in Rome.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": 80,
-        "layers": ["showAmphitheaters", "showBuildings", "showSettlements"],
-        "mapCenter": [41.89, 12.49],
+        "layers": [
+          "showAmphitheaters",
+          "showBuildings",
+          "showSettlements"
+        ],
+        "mapCenter": [
+          41.89,
+          12.49
+        ],
         "mapZoom": 8
       },
       {
         "id": "engineering-provincial",
         "title": "Provincial Infrastructure: Building an Empire",
         "content": "Rome's true engineering genius wasn't any single monument — it was the relentless, systematic construction of infrastructure across an entire empire. Every new province received the same treatment: roads were laid, aqueducts were built, cities were founded or rebuilt on a Roman grid plan, and public buildings rose in forums from Britannia to Arabia.\n\nThe results are visible on the map in an extraordinary density of construction. Aqueducts brought fresh water to cities across Spain, Gaul, North Africa, and Asia Minor. Bridges spanned every major river. Harbors were improved with concrete (another Roman innovation — their hydraulic cement set underwater, a trick not rediscovered until the 18th century). Public baths — those great social clubs of the Roman world — required enormous water supplies, sophisticated heating systems (the hypocaust, which circulated hot air under raised floors), and complex plumbing. Every Roman city of any size had at least one bathhouse, and major cities had dozens.\n\nThe amphitheatres scattered across the empire — from the stunning three-story facade of El Djem in Tunisia to the well-preserved arena at Nimes in France — represent just the most visible layer of a total infrastructure package that included forums, basilicas, temples, markets, warehouses, granaries, and apartment blocks (insulae). Rome didn't just conquer territories; it urbanized them, civilized them, and connected them to the imperial network. The ruins that still dot the Mediterranean landscape are the skeleton of a civilization that thought in systems.",
-        "entityIds": ["rome", "massilia", "hispalis", "carthage"],
+        "entityIds": [
+          "rome",
+          "massilia",
+          "hispalis",
+          "carthage"
+        ],
         "year": 125,
         "layers": [
           "showAqueducts",
@@ -309,14 +599,19 @@
           "showBuildings",
           "showSettlements"
         ],
-        "mapCenter": [40.0, 10.0],
+        "mapCenter": [
+          40.0,
+          10.0
+        ],
         "mapZoom": 4
       },
       {
         "id": "engineering-peak",
         "title": "Peak Engineering: The Pantheon and Beyond",
         "content": "The Pantheon, rebuilt by Hadrian around 126 AD, represents the absolute pinnacle of Roman engineering. Its unreinforced concrete dome — 43.3 meters in diameter — remained the largest in the world for over 1,300 years, until Brunelleschi built the dome of Florence Cathedral in 1436. And Brunelleschi studied the Pantheon before he began. The oculus at the dome's apex, 8.7 meters wide, is the building's only source of light, casting a moving beam across the interior like a celestial spotlight. Nearly two thousand years later, it remains one of the most awe-inspiring interior spaces ever created.\n\nThe secret was concrete — opus caementicium — arguably Rome's most important invention. By mixing volcanic ash (pozzolana) with lime and water, the Romans created a building material of extraordinary versatility and durability. Roman concrete could be poured into molds, used underwater, and varied in density by changing the aggregate (the Pantheon's dome uses progressively lighter pumice toward the top, a sophisticated weight-reduction technique). Recent studies have shown that Roman marine concrete actually gets stronger over time as seawater reacts with the volcanic ash, producing mineral crystals that reinforce the structure. Modern engineers are still trying to replicate it.\n\nBy the second century AD, Roman engineering had created a built environment of unprecedented scale and sophistication: aqueducts spanning valleys, roads crossing continents, concrete domes defying gravity, and heated baths serving millions. It was a civilization that expressed its values in infrastructure — permanence, order, utility, and the unapologetic ambition to reshape the natural world to serve human needs. When it fell, Europe would not see its like again for over a thousand years.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": 126,
         "layers": [
           "showAqueducts",
@@ -325,11 +620,20 @@
           "showBuildings",
           "showSettlements"
         ],
-        "mapCenter": [41.9, 12.5],
+        "mapCenter": [
+          41.9,
+          12.5
+        ],
         "mapZoom": 6
       }
     ],
-    "tags": ["engineering", "infrastructure", "aqueducts", "roads", "architecture"]
+    "tags": [
+      "engineering",
+      "infrastructure",
+      "aqueducts",
+      "roads",
+      "architecture"
+    ]
   },
   {
     "id": "the-fall",
@@ -340,7 +644,9 @@
         "id": "fall-crisis",
         "title": "The Crisis of the Third Century",
         "content": "In 235 AD, Emperor Severus Alexander was murdered by his own troops, and the Roman Empire fell off a cliff. Over the next fifty years, more than twenty-six emperors claimed the throne — most of them soldiers who seized power by force and died by violence within months or years. The average reign during this period was about two years. The empire that had enjoyed the stable rule of the Five Good Emperors just decades earlier was now tearing itself apart.\n\nThe external threats were terrifying. The Sassanid Persian Empire hammered the eastern frontier, and in 260 AD achieved the unthinkable — Emperor Valerian was captured alive at the Battle of Edessa, the first Roman emperor ever taken prisoner by a foreign enemy. According to hostile sources, the Persian king Shapur I used Valerian as a human footstool before having him skinned and stuffed. On the Rhine and Danube, Germanic confederations — the Alamanni, Franks, and Goths — launched devastating raids deep into Roman territory, sacking cities that hadn't seen an enemy army in centuries.\n\nThe empire literally fractured. The Gallic Empire (260-274 AD) broke away in the west, encompassing Gaul, Britain, and Spain. The Palmyrene Empire under Queen Zenobia seized the eastern provinces. For over a decade, the \"Roman Empire\" was reduced to Italy, the Balkans, and parts of North Africa. The legions on the frontiers, starved of pay and reinforcements, began to dissolve. The crisis didn't just damage Rome — it revealed how fragile the whole structure had always been.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": 250,
         "layers": [
           "showTerritories",
@@ -349,34 +655,63 @@
           "showLimes",
           "showFortifications"
         ],
-        "mapCenter": [42.0, 20.0],
+        "mapCenter": [
+          42.0,
+          20.0
+        ],
         "mapZoom": 4
       },
       {
         "id": "fall-diocletian",
         "title": "Diocletian's Reforms: Buying Time",
         "content": "Diocletian, a Dalmatian soldier who seized the throne in 284 AD, pulled the empire back from the brink through sheer force of organizational will. His solution to the crisis was radical restructuring. He divided the empire into two halves — East and West — each ruled by an Augustus with a junior Caesar as deputy and designated successor. This Tetrarchy (\"rule of four\") was designed to ensure smooth succession and distribute the impossible burden of defending thousands of miles of frontier.\n\nDiocletian doubled the size of the army, reorganized the provinces into smaller, more manageable units, reformed the tax system, and attempted to control inflation with his famous Edict on Maximum Prices (which failed spectacularly). He fortified the frontiers with a new generation of smaller, more heavily defended forts — replacing the earlier legionary fortresses designed for offensive operations with compact strongpoints built purely for defense. The shift in military architecture tells the story: Rome was no longer conquering. It was surviving.\n\nThe Tetrarchy worked — for a while. Diocletian even managed to retire peacefully in 305 AD, the only Roman emperor to voluntarily step down (he spent his retirement growing cabbages in his palace at Split, on the Croatian coast). But the system depended on all four rulers cooperating, and within a year of Diocletian's retirement, civil war erupted again. The old disease of military usurpation proved immune to constitutional reform.",
-        "entityIds": ["rome"],
+        "entityIds": [
+          "rome"
+        ],
         "year": 290,
-        "layers": ["showTerritories", "showLegions", "showLimes", "showFortifications"],
-        "mapCenter": [42.0, 18.0],
+        "layers": [
+          "showTerritories",
+          "showLegions",
+          "showLimes",
+          "showFortifications"
+        ],
+        "mapCenter": [
+          42.0,
+          18.0
+        ],
         "mapZoom": 4
       },
       {
         "id": "fall-constantine",
         "title": "Constantine's New Rome",
         "content": "Constantine emerged victorious from the civil wars that followed Diocletian's retirement, and by 324 AD he ruled as sole emperor — the last man to govern the entire Roman world from a position of genuine strength. His most consequential decision, beyond embracing Christianity, was founding a new capital: Constantinople, built on the site of the ancient Greek city of Byzantium on the Bosporus strait.\n\nThe location was strategically brilliant. Constantinople sat at the crossroads of Europe and Asia, commanding the straits that connected the Mediterranean to the Black Sea. It was almost impossible to besiege — protected by water on three sides and by massive walls on the fourth. While Rome was geographically awkward for defending the Danube and eastern frontiers, Constantinople was perfectly positioned. The city was inaugurated in 330 AD with ceremonies deliberately designed to rival Rome's own founding legends.\n\nConstantine's new capital was an implicit admission that the empire's center of gravity had shifted east. The richer, more urbanized, more defensible eastern provinces were increasingly where the real power lay. The West — with its longer frontiers, lower population density, and more dangerous barbarian neighbors — was becoming the empire's liability. By building Constantinople, Constantine inadvertently accelerated the process that would eventually split the empire in two and leave the western half to die.",
-        "entityIds": ["rome", "constantinople"],
+        "entityIds": [
+          "rome",
+          "constantinople"
+        ],
         "year": 330,
-        "layers": ["showTerritories", "showBattles", "showLegions", "showFortifications"],
-        "mapCenter": [41.0, 28.9],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showLegions",
+          "showFortifications"
+        ],
+        "mapCenter": [
+          41.0,
+          28.9
+        ],
         "mapZoom": 6
       },
       {
         "id": "fall-division",
         "title": "The Division: Two Empires, Two Fates",
         "content": "In 395 AD, Emperor Theodosius I died, and the empire was divided between his two sons: Arcadius in the East and Honorius in the West. It had been split before and reunited, but this time the division was permanent. The two halves would never again be governed by a single ruler. And their fates would be starkly, tragically different.\n\nThe Eastern Empire had the wealth of Egypt, Syria, and Asia Minor — the most productive provinces in the Roman world. It had Constantinople's impregnable walls. It had a shorter frontier along the Euphrates, mostly facing a single organized enemy (Persia) that could be negotiated with. The Western Empire had none of these advantages. Its frontier along the Rhine and Danube was enormous, facing dozens of restless tribal groups. Its provinces, devastated by third-century raids and never fully recovered, generated less tax revenue. Its capital bounced between Milan, Trier, and eventually Ravenna — a city chosen for its marshland defenses, a telling sign of desperation.\n\nThe military situation in the West became increasingly dire. The field armies shrank as recruiting grew difficult and expensive. Rome increasingly relied on foederati — barbarian groups allowed to settle inside the empire in exchange for military service. The legions that had conquered the Mediterranean were being replaced by Germanic warriors fighting under their own chiefs. The Roman army was becoming barbarian in everything but name.",
-        "entityIds": ["rome", "constantinople", "ravenna", "mediolanum"],
+        "entityIds": [
+          "rome",
+          "constantinople",
+          "ravenna",
+          "mediolanum"
+        ],
         "year": 395,
         "layers": [
           "showTerritories",
@@ -385,14 +720,21 @@
           "showLimes",
           "showFortifications"
         ],
-        "mapCenter": [42.0, 18.0],
+        "mapCenter": [
+          42.0,
+          18.0
+        ],
         "mapZoom": 4
       },
       {
         "id": "fall-collapse",
         "title": "The Final Collapse",
         "content": "On the freezing night of December 31, 406 AD, a massive coalition of Vandals, Alans, and Suebi crossed the frozen Rhine into Gaul — and the Western Empire's northern frontier effectively ceased to exist. The barbarian groups carved out kingdoms within Roman territory: Visigoths in Spain and southern Gaul, Vandals in North Africa, Burgundians along the Rhone, Franks in northern Gaul. Britain, cut off and abandoned, told to \"look to your own defenses,\" faded from the Roman world entirely.\n\nThe symbolic death blows came in rapid succession. In 410 AD, Alaric's Visigoths sacked Rome — the first time the city had fallen to a foreign enemy in 800 years. Saint Jerome, writing from Bethlehem, wept: \"The city which had taken the whole world was itself taken.\" In 455, the Vandals sacked Rome again, more thoroughly. The last Western emperors were puppets of barbarian generals, ruling from Ravenna over a domain that had shrunk to little more than Italy itself.\n\nOn September 4, 476 AD, the Germanic chieftain Odoacer deposed the last Western Roman Emperor, a teenager ironically named Romulus Augustulus — a diminutive form of both Rome's legendary founder and its first emperor. Odoacer sent the imperial regalia to Constantinople with a message: the West no longer needed an emperor. The Eastern Emperor Zeno shrugged and accepted the fait accompli. The Western Roman Empire, which had endured for five centuries and reshaped the entire Western world, was over. But its language, its law, its religion, its roads, and its idea of civilization would haunt and inspire Europe for the next fifteen hundred years — and counting.",
-        "entityIds": ["rome", "constantinople", "ravenna"],
+        "entityIds": [
+          "rome",
+          "constantinople",
+          "ravenna"
+        ],
         "year": 476,
         "layers": [
           "showTerritories",
@@ -401,25 +743,45 @@
           "showLimes",
           "showFortifications"
         ],
-        "mapCenter": [43.0, 14.0],
+        "mapCenter": [
+          43.0,
+          14.0
+        ],
         "mapZoom": 5
       }
     ],
-    "tags": ["decline", "military", "politics", "barbarians", "late-empire"]
+    "tags": [
+      "decline",
+      "military",
+      "politics",
+      "barbarians",
+      "late-empire"
+    ]
   },
   {
     "id": "byzantium-the-long-twilight",
     "title": "The Empire That Refused to Die",
     "description": "Rome did not fall in 476 — it moved east. A thousand more years of Roman history: Justinian's gamble, the Arab storm, the Macedonian zenith, and the last emperor on the walls of Constantinople.",
-    "tags": ["byzantium", "late-antiquity", "medieval"],
+    "tags": [
+      "byzantium",
+      "late-antiquity",
+      "medieval"
+    ],
     "steps": [
       {
         "id": "step-east-endures",
         "title": "The West Falls, the East Endures",
         "content": "In 476, a barbarian general deposed the last emperor in Italy — a boy, almost mockingly named Romulus. But in Constantinople nothing ended. The emperor Zeno still ruled the richer, more urban half of the Roman world, from the greatest fortified city on earth. The people we call 'Byzantines' never used the word: to the very last day, they called themselves Romaioi — Romans. Their empire would outlive the West by almost exactly one thousand years.",
         "year": 485,
-        "layers": ["showTerritories", "showSettlements", "showEmperors"],
-        "mapCenter": [41.0, 28.9],
+        "layers": [
+          "showTerritories",
+          "showSettlements",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          41.0,
+          28.9
+        ],
         "mapZoom": 5
       },
       {
@@ -427,8 +789,16 @@
         "title": "Justinian's Gamble",
         "content": "One emperor refused to accept a half-empire. From 533, Justinian hurled his general Belisarius west: Africa fell in a single campaign, then Sicily, then Rome itself. At home he rebuilt the Hagia Sophia — its dome unmatched for nine centuries — and distilled a thousand years of Roman law into the Code that still underpins European law today. The map below shows his prize: the Mediterranean, very nearly Roman once more. It was the last time. Plague and Persia would spend the next century clawing it back.",
         "year": 600,
-        "layers": ["showTerritories", "showSettlements", "showRoads", "showEmperors"],
-        "mapCenter": [38.5, 18.0],
+        "layers": [
+          "showTerritories",
+          "showSettlements",
+          "showRoads",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          38.5,
+          18.0
+        ],
         "mapZoom": 5
       },
       {
@@ -436,8 +806,15 @@
         "title": "The Storm",
         "content": "In a single generation after 636, the Arab conquests tore away Syria, Egypt and Africa — the empire's breadbasket and its holiest cities. Twice the Caliphate came for the capital itself, in 674 and again in 717, with the largest fleets the Mediterranean had ever seen. Twice the Theodosian Walls held, and a terrifying new weapon — Greek fire, burning on the surface of the sea — did the rest. Historians still argue that these walls, in these years, decided the future of Europe.",
         "year": 718,
-        "layers": ["showTerritories", "showBattles", "showEmperors"],
-        "mapCenter": [41.0, 28.9],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          41.0,
+          28.9
+        ],
         "mapZoom": 6
       },
       {
@@ -445,8 +822,16 @@
         "title": "The Macedonian Zenith",
         "content": "The empire learned to survive — then, slowly, to win. Under the Macedonian dynasty it clawed back Crete, Cyprus, northern Syria and the Balkans. Basil II, called the Bulgar-Slayer, spent forty years on campaign and never lost a war; at his death in 1025 the empire ran from the Danube to the Euphrates, and Constantinople — half a million people, the Hagia Sophia, the silk workshops, the Golden Horn crowded with shipping — was the largest and richest Christian city on earth, and knew it.",
         "year": 1025,
-        "layers": ["showTerritories", "showSettlements", "showTradeNetwork", "showEmperors"],
-        "mapCenter": [41.5, 26.0],
+        "layers": [
+          "showTerritories",
+          "showSettlements",
+          "showTradeNetwork",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          41.5,
+          26.0
+        ],
         "mapZoom": 5
       },
       {
@@ -454,8 +839,15 @@
         "title": "Two Wounds",
         "content": "Two catastrophes broke the recovery. At Manzikert in 1071, a captured emperor and a shattered army handed the Anatolian heartland — the empire's source of soldiers and grain — to the Seljuk Turks. Then in 1204 came the unthinkable: the Fourth Crusade, diverted from Jerusalem by debt and intrigue, stormed and sacked Constantinople itself. Fellow Christians stripped the city of nine centuries of treasure. The empire shattered into exile states, and the wound never truly closed.",
         "year": 1204,
-        "layers": ["showTerritories", "showBattles", "showEmperors"],
-        "mapCenter": [40.0, 30.5],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          40.0,
+          30.5
+        ],
         "mapZoom": 5.5
       },
       {
@@ -463,8 +855,15 @@
         "title": "The Last Restoration",
         "content": "In 1261 a small Byzantine force slipped into Constantinople through an unguarded gate while the Latin garrison was away — and the empire, astonishingly, was reborn. But the restored state was a shadow: a city too large for its shrunken lands, ringed by rising powers. Across the narrow water in Bithynia, a small Turkish emirate led by one Osman began taking Byzantine towns one by one. Within a century, the Ottomans would surround the city on every side.",
         "year": 1300,
-        "layers": ["showTerritories", "showSettlements", "showEmperors"],
-        "mapCenter": [40.3, 27.5],
+        "layers": [
+          "showTerritories",
+          "showSettlements",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          40.3,
+          27.5
+        ],
         "mapZoom": 6
       },
       {
@@ -472,9 +871,156 @@
         "title": "The Last Emperor",
         "content": "By 1453 the empire was the city, and little more. Mehmed II brought 80,000 men and the largest cannon ever cast against walls that had held for a thousand years. For 53 days they held again. Before the final assault, Constantine XI Palaiologos — 88th emperor in a line stretching back to Augustus — refused terms, took off his imperial regalia, and died fighting on the walls among his soldiers. The Roman story that began with Romulus ended with a Constantine: 2,206 years, and no state in history has yet lived longer.",
         "year": 1453,
-        "layers": ["showTerritories", "showBattles", "showEmperors"],
-        "mapCenter": [41.01, 28.97],
+        "layers": [
+          "showTerritories",
+          "showBattles",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          41.01,
+          28.97
+        ],
         "mapZoom": 7
+      }
+    ]
+  },
+  {
+    "id": "rome-among-the-powers",
+    "title": "Rome Among the Powers",
+    "description": "Rome never ruled alone. Carthage, Parthia, Persia, the Huns, the Caliphate, the Ottomans — seven rivals across twenty-two centuries, on a map of every empire on earth.",
+    "tags": [
+      "world",
+      "rivals",
+      "geopolitics"
+    ],
+    "steps": [
+      {
+        "id": "step-carthage",
+        "title": "The Rival Across the Sea",
+        "content": "Before Rome ruled anything beyond Italy, the western Mediterranean already had a master. Carthage — Phoenician, mercantile, mistress of a maritime empire from Iberia to Sicily — was older, richer, and at sea unbeatable. In 264 BC the two collided over Sicily, and for the next century the world's first true superpower duel ran through three wars, Hannibal's elephants in the Alps, and Cannae's sixty thousand dead in an afternoon — until Rome erased its rival utterly in 146 BC.",
+        "year": -250,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          37.0,
+          8.0
+        ],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-parthia",
+        "title": "The Empire Rome Could Not Beat",
+        "content": "In the east, Rome met its permanent frontier. Parthia — heir to Persia, master of the horse-archer — annihilated Crassus and his seven legions at Carrhae in 53 BC; the Parthian shot entered the language as the blow delivered in retreat. For three centuries the Euphrates marked not the edge of the world but the line between two worlds, each calling itself the center of civilization.",
+        "year": -53,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          35.5,
+          40.0
+        ],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-trajan-world",
+        "title": "The Widest World",
+        "content": "At Rome's maximum under Trajan, the whole known world was a chain of empires: Rome from Britain to Mesopotamia, Parthia beyond it, the Kushans astride the Silk Road, Han China gathering silk at the far end. A thread of trade ran unbroken from the Forum to Luoyang — Chinese annals even record a 'Roman embassy' arriving by sea in 166 AD. Zoom out: this is the planet Rome actually lived on.",
+        "year": 117,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showCities"
+        ],
+        "mapCenter": [
+          38.0,
+          45.0
+        ],
+        "mapZoom": 4
+      },
+      {
+        "id": "step-shapur",
+        "title": "The King Who Captured an Emperor",
+        "content": "In 224 the Sasanians replaced Parthia and made Persia aggressive again. In 260, at Edessa, Shapur I did what no enemy had ever done: he captured a living Roman emperor. Valerian died in captivity — Persian tradition says he served as the king's mounting-block — and the rock reliefs at Naqsh-e Rostam still show the emperor kneeling. Rome's eastern rival was no longer a frontier problem; it was a peer that could humiliate the empire itself.",
+        "year": 260,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showEmperors"
+        ],
+        "mapCenter": [
+          34.0,
+          47.0
+        ],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-attila",
+        "title": "The Scourge of God",
+        "content": "In the 440s a new kind of power rose — not a state but a storm. Attila's Huns extorted tons of gold from Constantinople, shattered the Balkan cities, and in 451 pushed into Gaul, where Rome and its Gothic enemies fought side by side to stop him at the Catalaunian Plains. The steppe had arrived in European history, and every empire on this map — Roman, Persian, Chinese — now shared a nightmare in common.",
+        "year": 450,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showBattles"
+        ],
+        "mapCenter": [
+          47.0,
+          20.0
+        ],
+        "mapZoom": 4
+      },
+      {
+        "id": "step-justinian-khosrow",
+        "title": "Two Suns",
+        "content": "Diplomatic letters between Justinian's Byzantium and Khosrow's Persia addressed each other as 'the two eyes of the world.' For a thousand years Rome and Persia had watched each other across the Euphrates; under Justinian and Khosrow I the rivalry became almost courtly — wars punctuated by an 'Eternal Peace' that lasted eight years. The final war (602–628) left both empires so exhausted that neither noticed what was gathering in Arabia.",
+        "year": 555,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showCities"
+        ],
+        "mapCenter": [
+          36.0,
+          38.0
+        ],
+        "mapZoom": 5
+      },
+      {
+        "id": "step-caliphate",
+        "title": "The New Superpower",
+        "content": "Within thirty years of Muhammad's death, the Caliphate had swallowed Persia whole and torn Syria, Egypt and Africa from Byzantium — the fastest imperial expansion in history. Zoom out at 717: the Umayyad realm runs from the Atlantic to the Indus, dwarfing the Byzantine remnant that somehow, behind Constantinople's walls and Greek fire, refused to join Persia in extinction. Rome's old rival was gone; its conqueror was now the neighbor.",
+        "year": 717,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showCities"
+        ],
+        "mapCenter": [
+          33.0,
+          30.0
+        ],
+        "mapZoom": 4
+      },
+      {
+        "id": "step-ottoman",
+        "title": "The Last Rival",
+        "content": "The wheel turned one final time. The Seljuks took Anatolia after Manzikert; from their wreckage rose Osman's emirate, and by 1450 the Ottoman Empire surrounded the last Roman city on every side. When Mehmed II's cannon opened fire in April 1453, the struggle that had begun with Carthage twenty-two centuries earlier ended the only way it ever could: with the last of Rome's rivals inheriting Rome's own capital — and calling himself Kayser-i Rûm, Caesar of Rome.",
+        "year": 1450,
+        "layers": [
+          "showEmpires",
+          "showTerritories",
+          "showCities"
+        ],
+        "mapCenter": [
+          40.5,
+          29.0
+        ],
+        "mapZoom": 5
       }
     ]
   }
