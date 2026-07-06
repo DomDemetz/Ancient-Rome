@@ -206,7 +206,11 @@ export function PlacesLayer({
         const wikiLayer = p.wiki?.[0] ?? 'settlements'
         const hasWiki = p.wiki && wikiLookup?.[wikiKey]
         const crEntry =
-          !hasWiki && p.dare?.id && crossRef ? crossRef[`settlement:${p.dare.id}`] : null
+          !hasWiki && crossRef
+            ? (p.dare?.id && crossRef[`settlement:${p.dare.id}`]) ||
+              (p.pid && crossRef[`pleiades:${p.pid}`]) ||
+              null
+            : null
 
         let popupHtml = appendWikiTooltip(
           baseTooltipHtml(p, name, pop, currentYear),

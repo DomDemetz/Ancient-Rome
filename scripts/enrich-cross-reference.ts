@@ -413,6 +413,27 @@ async function main() {
   }
   console.log(`  ${buildings.length} buildings enriched`)
 
+  // === PLEIADES-ONLY (MINOR) NODES ===
+  // Minor nodes have no DARE ID, so they can't be looked up via settlement:${dare_id}.
+  // Key them by pleiades:${pid} instead, carrying over description and place type.
+  console.log('Enriching Pleiades-only minor nodes...')
+  const placesPath = fileURLToPath(new URL('../src/data/places/places.json', import.meta.url))
+  const allPlaces: Array<{ minor?: boolean; pid?: string }> = JSON.parse(
+    await readFile(placesPath, 'utf-8'),
+  )
+  const minorPids = new Set(allPlaces.filter((p) => p.minor && p.pid).map((p) => p.pid!))
+  let minorCount = 0
+  for (const pl of pleiades) {
+    if (!minorPids.has(pl.id)) continue
+    const key = `pleiades:${pl.id}`
+    if (output[key]) continue
+    const enrichment: CrossRefEnrichment = { sources: ['Pleiades'] }
+    if (pl.description) enrichment.pleiadesDescription = pl.description
+    output[key] = enrichment
+    minorCount++
+  }
+  console.log(`  ${minorCount} Pleiades-only nodes enriched`)
+
   // === SAVE ===
   const outputPath = fileURLToPath(
     new URL('../src/data/wiki/cross-reference.json', import.meta.url),
