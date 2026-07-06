@@ -149,12 +149,17 @@ export function appendCrossRefTooltip(html: string, cr: CrossRefEnrichment): str
 
   const facts: string[] = []
   if (cr.province) facts.push(`Province: ${cr.province}`)
+  if (cr.tradeRole && cr.tradeRole !== 'city') facts.push(`Trade: ${cr.tradeRole}`)
   if (isCiteOnly && desc) {
     const ref = desc.replace('An ancient place, cited: ', '')
     facts.push(ref)
   }
   if (facts.length) {
     crHtml += `<div class="map-tooltip-fact">${esc(facts.join(' · '))}</div>`
+  }
+
+  if (cr.ancientAuthors?.length) {
+    crHtml += `<div class="map-tooltip-fact">${esc('Cited by: ' + cr.ancientAuthors.join(', '))}</div>`
   }
 
   if (cr.sources.length) {
