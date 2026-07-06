@@ -22,6 +22,7 @@ import emperorsSearchJson from '@/data/registry/emperors-search.json'
 import battlesSearchJson from '@/data/registry/battles-search.json'
 import empiresSearchJson from '@/data/registry/empires-search.json'
 import peopleSearchJson from '@/data/registry/people-search.json'
+import buildingsSearchJson from '@/data/registry/buildings-search.json'
 
 interface EmperorSearchEntry {
   id: string
@@ -46,11 +47,19 @@ interface PersonSearchEntry {
   d: number | null
   r: string
 }
+interface SiteSearchEntry {
+  id: string
+  n: string
+  lat: number
+  lng: number
+  t: string
+}
 const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
 const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
 // distinct world polities: fly to heartland, jump to greatest-extent year
 const EMPIRE_SEARCH = empiresSearchJson as CitySearchEntry[]
 const PEOPLE_SEARCH = peopleSearchJson as PersonSearchEntry[]
+const SITE_SEARCH = buildingsSearchJson as SiteSearchEntry[]
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useFilterStore } from '@/stores/useFilterStore'
@@ -82,6 +91,10 @@ const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
   Empire: { show: 'showEmpires', toggle: 'toggleEmpires' },
   Port: { show: 'showPorts', toggle: 'togglePorts' },
   Person: { show: 'showNotablePeople', toggle: 'toggleNotablePeople' },
+  Villa: { show: 'showUnifiedVillas', toggle: 'toggleUnifiedVillas' },
+  Temple: { show: 'showUnifiedTemples', toggle: 'toggleUnifiedTemples' },
+  Bridge: { show: 'showUnifiedBridges', toggle: 'toggleUnifiedBridges' },
+  Tomb: { show: 'showUnifiedTombs', toggle: 'toggleUnifiedTombs' },
 }
 
 interface SearchItem {
@@ -114,6 +127,10 @@ const CATEGORY_COLORS: Record<string, string> = {
   press: '#8b6914',
   port: '#e67e22',
   person: '#a855f7',
+  tomb: '#9ca3af',
+  villa: '#84cc16',
+  temple: '#d946ef',
+  bridge: '#38bdf8',
 }
 
 export function SearchBar() {
@@ -239,6 +256,28 @@ export function SearchBar() {
         lat: p.lat,
         lng: p.lng,
         year: p.b > 0 ? p.b : p.d != null ? p.d : undefined,
+      })
+    }
+
+    // Notable buildings & archaeological sites — always searchable via manifest
+    const siteLabels: Record<string, string> = {
+      building: 'Building',
+      amphitheater: 'Amphitheater',
+      tomb: 'Tomb',
+      villa: 'Villa',
+      temple: 'Temple',
+      bridge: 'Bridge',
+      mine: 'Mine',
+      aqueduct: 'Aqueduct',
+    }
+    for (const s of SITE_SEARCH) {
+      items.push({
+        id: `site-${s.t}-${s.id}`,
+        name: s.n,
+        category: siteLabels[s.t] ?? s.t,
+        color: CATEGORY_COLORS[s.t] || CATEGORY_COLORS.building,
+        lat: s.lat,
+        lng: s.lng,
       })
     }
 
@@ -428,10 +467,16 @@ export function SearchBar() {
       Legion: 2,
       Amphitheater: 3,
       Building: 3,
+      Temple: 3,
       Person: 2,
       Port: 3,
       Road: 3,
-      Settlement: 4,
+      Villa: 4,
+      Tomb: 4,
+      Bridge: 4,
+      Mine: 4,
+      Aqueduct: 4,
+      Settlement: 5,
     }
     raw.sort((a, b) => {
       const aExact = a.item.name.toLowerCase() === q ? -2 : 0
@@ -542,6 +587,28 @@ export function SearchBar() {
     if (item.category === 'Person') {
       const qid = item.id.replace('person-', '')
       useFeatureDetailStore.getState().openFeature(qid, 'people', qid)
+    }
+
+    // Sites from the eager manifest: open the cross-ref detail panel
+    if (item.id.startsWith('site-')) {
+      const rest = item.id.slice(5) // strip 'site-'
+      const dashIdx = rest.indexOf('-')
+      const siteType = dashIdx >= 0 ? rest.slice(0, dashIdx) : rest
+      const siteId = dashIdx >= 0 ? rest.slice(dashIdx + 1) : ''
+      const crPrefixes: Record<string, string> = {
+        building: 'building',
+        amphitheater: 'amphitheater',
+        tomb: 'discovery-tomb',
+        villa: 'discovery-villa',
+        temple: 'discovery-temple',
+        bridge: 'discovery-bridge',
+        mine: 'mine',
+        aqueduct: 'aqueduct',
+      }
+      const crPrefix = crPrefixes[siteType]
+      if (crPrefix) {
+        useFeatureDetailStore.getState().openFeature(`${crPrefix}:${siteId}`, 'crossref')
+      }
     }
 
     // If it has coordinates, switch to map and fly there
