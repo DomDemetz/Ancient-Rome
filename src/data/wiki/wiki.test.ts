@@ -189,4 +189,26 @@ describe('appendCrossRefTooltip — unenriched place popups', () => {
     const multi = appendCrossRefTooltip(base, { sources: ['pleiades', 'dare', 'topostext'] })
     expect(multi).toContain('3 sources')
   })
+
+  it('shows ancient authors when available', () => {
+    const html = appendCrossRefTooltip(base, {
+      ancientAuthors: ['Pliny', 'Strabo'],
+      sources: ['pleiades', 'Pelagios'],
+    })
+    expect(html).toContain('Cited by: Pliny, Strabo')
+  })
+
+  it('shows trade role when not generic city', () => {
+    const port = appendCrossRefTooltip(base, {
+      tradeRole: 'port',
+      sources: ['ORBIS'],
+    })
+    expect(port).toContain('Trade: port')
+
+    const city = appendCrossRefTooltip(base, {
+      tradeRole: 'city',
+      sources: ['ORBIS'],
+    })
+    expect(city).not.toContain('Trade:')
+  })
 })

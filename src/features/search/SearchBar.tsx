@@ -370,7 +370,46 @@ export function SearchBar() {
 
   const results = useMemo(() => {
     if (!query.trim()) return []
-    return fuse.search(query, { limit: MAX_RESULTS }).map((r) => r.item)
+    const raw = fuse.search(query, { limit: MAX_RESULTS * 4 })
+    const q = query.trim().toLowerCase()
+    const PRIORITY: Record<string, number> = {
+      City: 0,
+      Location: 0,
+      Emperor: 1,
+      Battle: 1,
+      Legion: 2,
+      Amphitheater: 3,
+      Building: 3,
+      Port: 3,
+      Road: 3,
+      Settlement: 4,
+    }
+    raw.sort((a, b) => {
+      const aExact = a.item.name.toLowerCase() === q ? -2 : 0
+      const bExact = b.item.name.toLowerCase() === q ? -2 : 0
+      const aPrefix = !aExact && a.item.name.toLowerCase().startsWith(q) ? -1 : 0
+      const bPrefix = !bExact && b.item.name.toLowerCase().startsWith(q) ? -1 : 0
+      const aRank = aExact + aPrefix + (PRIORITY[a.item.category] ?? 4)
+      const bRank = bExact + bPrefix + (PRIORITY[b.item.category] ?? 4)
+      if (aRank !== bRank) return aRank - bRank
+      return (a.score ?? 1) - (b.score ?? 1)
+    })
+    const seen = new Set<string>()
+    const catCount: Record<string, number> = {}
+    const out: SearchItem[] = []
+    for (const r of raw) {
+      const dedup = `${r.item.name}|${r.item.lat?.toFixed(2)},${r.item.lng?.toFixed(2)}`
+      if (seen.has(dedup)) continue
+      seen.add(dedup)
+      const isExactish = r.item.name.toLowerCase().startsWith(q)
+      const cat = r.item.category
+      const cc = catCount[cat] ?? 0
+      if (!isExactish && cc >= 2) continue
+      catCount[cat] = cc + 1
+      out.push(r.item)
+      if (out.length >= MAX_RESULTS) break
+    }
+    return out
   }, [fuse, query])
 
   // Reset keyboard highlight when the result set changes — done during
