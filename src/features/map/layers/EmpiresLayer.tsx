@@ -49,7 +49,21 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
 
   const labeled = useMemo(() => {
     const min = labelMinArea(zoom)
-    return visible.filter((e) => e.area >= min)
+    const candidates = visible.filter((e) => e.area >= min).sort((a, b) => b.area - a.area)
+    // Greedy declutter: biggest polities claim label space first; anything
+    // whose anchor would land within ~1 label-height x ~8em of a placed
+    // label is suppressed at this zoom (it reappears when zooming in).
+    const pxPerDegX = (256 * 2 ** zoom) / 360
+    const placed: Array<[number, number]> = []
+    const out: EmpireShape[] = []
+    for (const e of candidates) {
+      const x = e.label[1] * pxPerDegX * Math.cos((e.label[0] * Math.PI) / 180)
+      const y = e.label[0] * pxPerDegX
+      if (placed.some(([px, py]) => Math.abs(px - x) < 110 && Math.abs(py - y) < 26)) continue
+      placed.push([x, y])
+      out.push(e)
+    }
+    return out
   }, [visible, zoom])
 
   return (
