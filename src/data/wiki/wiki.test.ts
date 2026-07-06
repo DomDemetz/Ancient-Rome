@@ -232,4 +232,24 @@ describe('appendCrossRefTooltip — unenriched place popups', () => {
     expect(html).toContain('Details')
     expect(html).toContain('pleiades.stoa.org/places/423025')
   })
+
+  it('uses wikidataDescription when Pleiades desc is cite-only', () => {
+    const html = appendCrossRefTooltip(base, {
+      pleiadesDescription: 'An ancient place, cited: BAtlas 59 B2',
+      wikidataDescription: 'ancient Greek city in Attica',
+      sources: ['Pleiades'],
+    })
+    expect(html).toContain('ancient Greek city in Attica')
+    expect(html).not.toContain('An ancient place, cited')
+  })
+
+  it('prefers Pleiades description over wikidataDescription when real', () => {
+    const html = appendCrossRefTooltip(base, {
+      pleiadesDescription: 'A major port city on the coast of Ionia.',
+      wikidataDescription: 'ancient Greek city',
+      sources: ['Pleiades'],
+    })
+    expect(html).toContain('A major port city')
+    expect(html).not.toContain('ancient Greek city')
+  })
 })
