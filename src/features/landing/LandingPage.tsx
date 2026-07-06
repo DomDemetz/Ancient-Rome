@@ -34,11 +34,11 @@ export function LandingPage() {
         </div>
 
         <p className="text-[10px] font-bold uppercase tracking-[0.5em] text-amber-600/40 mb-5 animate-fade-up stagger-1">
-          An Interactive Investigation
+          An Interactive Atlas
         </p>
 
         <h1 className="mb-6 font-serif italic text-5xl md:text-7xl lg:text-8xl tracking-tight bg-gradient-to-b from-amber-300 via-amber-500 to-orange-700 bg-clip-text text-transparent leading-[1.05] animate-fade-up stagger-2">
-          The Hidden Network
+          Atlas of Ancient Rome
         </h1>
 
         <p className="mb-12 max-w-xl text-base text-slate-500 md:text-lg leading-relaxed animate-fade-up stagger-3">
@@ -50,7 +50,7 @@ export function LandingPage() {
           onClick={() => navigate('/investigate')}
           className="group inline-flex items-center gap-3 bg-gradient-to-b from-amber-500 to-amber-700 hover:from-amber-400 hover:to-amber-600 text-white rounded-full px-10 py-4 text-[11px] font-bold uppercase tracking-[0.3em] shadow-[0_8px_40px_rgba(180,83,9,0.3),inset_0_1px_0_rgba(255,255,255,0.15)] active:scale-[0.97] transition-all animate-fade-up stagger-4"
         >
-          Begin Investigation
+          Explore the Atlas
           <ArrowRight className="size-4 group-hover:translate-x-0.5 transition-transform" />
         </button>
 

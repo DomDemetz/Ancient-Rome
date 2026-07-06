@@ -879,7 +879,7 @@ function WikiDetailContent({
             </>
           )}
 
-          {/* Curated narrative connections — the absorbed Hidden Network graph
+          {/* Curated narrative connections
               (one unified view: knowledge above, connections below) */}
           {featureEntityId && (
             <>

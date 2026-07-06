@@ -1,4 +1,4 @@
-# The Hidden Network — An Interactive Atlas of Ancient Rome
+# Atlas of Ancient Rome
 
 Watch the Roman Empire rise and fall on an interactive map. Trace battles, roads,
 legions, emperors, aqueducts, and the trade routes that bound an empire — across a
