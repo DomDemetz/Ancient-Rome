@@ -48,5 +48,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # GitHub Pages' deploy service intermittently fails with
+      # "Deployment failed, try again later" (build always green).
+      # First attempt is allowed to fail; a second attempt runs only then.
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
