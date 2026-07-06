@@ -184,16 +184,6 @@ export function appendCrossRefTooltip(
 
   if (links) {
     crHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(links.crKey)}" data-wiki-layer="crossref">Details</button>`
-    const extLinks: string[] = []
-    if (links.pid)
-      extLinks.push(
-        `<a href="https://pleiades.stoa.org/places/${esc(links.pid)}" target="_blank" rel="noopener noreferrer">Pleiades ↗</a>`,
-      )
-    if (links.qid)
-      extLinks.push(
-        `<a href="https://www.wikidata.org/wiki/${esc(links.qid)}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a>`,
-      )
-    if (extLinks.length) crHtml += `<div class="map-tooltip-detail">${extLinks.join(' · ')}</div>`
   }
 
   crHtml += '</div>'

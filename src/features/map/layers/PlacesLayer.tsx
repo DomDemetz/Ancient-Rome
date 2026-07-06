@@ -64,7 +64,6 @@ function popRadius(pop: number): number {
   return 3.5
 }
 
-
 /**
  * THE canonical place layer — renders the merged entity nodes (DARE +
  * Chandler + Pleiades + Wikidata, one node per real place; ENTITY-MODEL.md).
@@ -185,16 +184,8 @@ export function PlacesLayer({
           )
         }
         if (!hasWiki && !crEntry && (p.qid || p.pid)) {
-          const links: string[] = []
-          if (p.pid)
-            links.push(
-              `<a href="https://pleiades.stoa.org/places/${esc(p.pid)}" target="_blank" rel="noopener noreferrer">Pleiades ↗</a>`,
-            )
-          if (p.qid)
-            links.push(
-              `<a href="https://www.wikidata.org/wiki/${esc(p.qid)}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a>`,
-            )
-          popupHtml += `<div class="map-tooltip-detail">${links.join(' · ')}</div>`
+          const detailId = p.pid ? `pleiades:${p.pid}` : `settlement:${p.id}`
+          popupHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(detailId)}" data-wiki-layer="crossref">Read more</button>`
         }
 
         return (

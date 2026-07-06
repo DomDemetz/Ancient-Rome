@@ -231,6 +231,95 @@ function CrossRefDetailContent({
   )
 }
 
+// --- Empire detail (lightweight) ---
+
+function EmpireDetailContent({ featureId }: { featureId: string }) {
+  const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
+  const [empire, setEmpire] = useState<{
+    name: string
+    from: number
+    to: number
+    wp?: string
+    qid?: string
+    area: number
+  } | null>(null)
+
+  useEffect(() => {
+    import('@/data/empires').then(({ loadEmpires }) =>
+      loadEmpires().then((data) => {
+        const e = data.find((d) => d.id === featureId)
+        if (e) setEmpire(e)
+      }),
+    )
+  }, [featureId])
+
+  if (!empire) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <div className="h-3 w-32 rounded bg-white/[0.06] animate-pulse" />
+      </div>
+    )
+  }
+
+  const wpUrl = empire.wp
+    ? `https://en.wikipedia.org/wiki/${encodeURIComponent(empire.wp.replace(/ /g, '_'))}`
+    : null
+  const wdUrl = empire.qid ? `https://www.wikidata.org/wiki/${empire.qid}` : null
+
+  return (
+    <div className="flex flex-col h-full">
+      <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+        <h2 className="text-sm font-semibold text-slate-200 truncate">{empire.name}</h2>
+        <Button variant="ghost" size="sm" onClick={closeFeature} className="size-6 p-0">
+          <X className="size-3.5" />
+        </Button>
+      </div>
+      <div className="p-4 sm:p-6 space-y-4 overflow-y-auto">
+        <div className="space-y-1">
+          <FactRow
+            label="Period"
+            value={`${formatYear(empire.from)} – ${formatYear(empire.to)}`}
+            source="Cliopatria"
+          />
+          {empire.area > 0 && (
+            <FactRow
+              label="Area"
+              value={`${Math.round(empire.area).toLocaleString()} km²`}
+              source="Cliopatria"
+            />
+          )}
+        </div>
+        <Separator />
+        <div className="flex flex-wrap gap-3">
+          {wpUrl && (
+            <a
+              href={wpUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[11px] text-amber-500/80 hover:text-amber-400 transition-colors"
+            >
+              <ExternalLink className="size-3" /> Wikipedia
+            </a>
+          )}
+          {wdUrl && (
+            <a
+              href={wdUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[11px] text-amber-500/80 hover:text-amber-400 transition-colors"
+            >
+              <ExternalLink className="size-3" /> Wikidata
+            </a>
+          )}
+        </div>
+        <p className="text-[10px] text-slate-600 italic">
+          Data: Cliopatria / Seshat Global History Databank, CC BY 4.0
+        </p>
+      </div>
+    </div>
+  )
+}
+
 // --- Main content ---
 
 function WikiDetailContent({
@@ -244,10 +333,18 @@ function WikiDetailContent({
 }) {
   const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
   const wikiLayer =
-    featureLayer === 'crossref' ? null : featureLayer === 'cities' ? 'settlements' : featureLayer
+    featureLayer === 'crossref' || featureLayer === 'empires' || featureLayer === 'people'
+      ? null
+      : featureLayer === 'cities'
+        ? 'settlements'
+        : featureLayer
   const lookup = useWikiEnrichment(wikiLayer)
   const [sourcesExpanded, setSourcesExpanded] = useState(false)
   const crossRef = useCrossRef()
+
+  if (featureLayer === 'empires') {
+    return <EmpireDetailContent featureId={featureId} />
+  }
 
   const loading = wikiLayer !== null && lookup === null
   const wiki = lookup?.[featureId] ?? null

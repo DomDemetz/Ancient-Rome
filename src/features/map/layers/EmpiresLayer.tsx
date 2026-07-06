@@ -87,11 +87,9 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
               layer.bindPopup(
                 `<div class="map-tooltip-title">${esc(e.name)}</div>` +
                   `<div class="map-tooltip-detail">${fmtYear(e.from)} – ${fmtYear(e.to)}</div>` +
-                  (e.wp
-                    ? `<div class="map-tooltip-detail"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(e.wp.replace(/ /g, '_'))}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a></div>`
-                    : e.qid
-                      ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${e.qid}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
-                      : ''),
+                  (e.wp || e.qid
+                    ? `<button class="map-tooltip-readmore" data-wiki-id="${e.id}" data-wiki-layer="empires" data-entity-id="${e.id}">Read more</button>`
+                    : ''),
                 { closeButton: false },
               )
             }}

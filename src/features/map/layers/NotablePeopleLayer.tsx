@@ -22,7 +22,7 @@ function buildTooltipHtml(p: NotablePerson): string {
   if (p.citizenship) details.push(esc(p.citizenship))
   if (p.domain) details.push(esc(p.domain))
   if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
-  html += `<div class="map-tooltip-detail" style="margin-top:4px"><a href="https://www.wikidata.org/wiki/${esc(p.wikidataId)}" target="_blank" rel="noopener" style="color:#d4a74a">Wikidata ↗</a></div>`
+  html += `<button class="map-tooltip-readmore" data-wiki-id="${esc(p.wikidataId)}" data-wiki-layer="people" data-entity-id="${esc(p.wikidataId)}">Read more</button>`
   return html
 }
 

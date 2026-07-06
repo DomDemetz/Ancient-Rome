@@ -230,7 +230,7 @@ describe('appendCrossRefTooltip — unenriched place popups', () => {
     expect(html).toContain('data-wiki-layer="crossref"')
     expect(html).toContain('data-wiki-id="settlement:12345"')
     expect(html).toContain('Details')
-    expect(html).toContain('pleiades.stoa.org/places/423025')
+    expect(html).not.toContain('pleiades.stoa.org')
   })
 
   it('uses wikidataDescription when Pleiades desc is cite-only', () => {
