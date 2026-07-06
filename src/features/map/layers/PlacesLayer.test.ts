@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { baseTooltipHtml } from './PlacesLayer'
+import { baseTooltipHtml } from './placeTooltip'
 import type { PlaceNode } from '@/data/places'
 
 describe('baseTooltipHtml', () => {
