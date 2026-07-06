@@ -167,7 +167,6 @@ const CATEGORY_MAP: Record<string, string> = {
 }
 
 const PLEIADES_REGISTRY_PATH = 'src/data/registry/pleiades-wikidata.json'
-const OUTPUT_PATH = 'src/data/unified-entities.json'
 
 async function loadJson<T>(path: string): Promise<T> {
   return JSON.parse(await readFile(path, 'utf-8'))
@@ -607,8 +606,7 @@ async function main() {
       console.log(`  ${count.toString().padStart(6)} ${type}`)
     })
 
-  await writeFile(OUTPUT_PATH, JSON.stringify(entities, null, 2) + '\n')
-  console.log(`\nWritten to ${OUTPUT_PATH}`)
+  console.log(`\nTotal entities: ${entities.length}`)
 
   // Emit per-type chunks for lazy loading (migrated layers load only their type)
   const CHUNKED_TYPES = [

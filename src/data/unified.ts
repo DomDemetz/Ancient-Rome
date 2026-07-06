@@ -22,15 +22,6 @@ export interface UnifiedEntity {
   props?: Record<string, unknown>
 }
 
-let cached: UnifiedEntity[] | null = null
-
-export async function loadUnifiedEntities(): Promise<UnifiedEntity[]> {
-  if (cached) return cached
-  const raw = await import('@/data/unified-entities.json?raw')
-  cached = JSON.parse(raw.default) as UnifiedEntity[]
-  return cached
-}
-
 function stripPrefix(id: string): string {
   const i = id.indexOf(':')
   return i >= 0 ? id.slice(i + 1) : id
