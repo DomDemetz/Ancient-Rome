@@ -123,6 +123,17 @@ function CrossRefDetailContent({
 
       <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain">
         <div className="p-4 sm:p-6 space-y-5">
+          {cr.imageUrl && (
+            <div className="relative -mx-6 -mt-6">
+              <img
+                src={cr.imageUrl}
+                alt={cr.ancientName ?? cr.modernName ?? crKey}
+                className="w-full object-cover max-h-52"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c10] via-transparent to-transparent" />
+            </div>
+          )}
           <div>
             <h2 className="font-serif italic text-xl text-slate-100 leading-tight">
               {cr.ancientName ?? cr.modernName ?? crKey}
@@ -135,9 +146,20 @@ function CrossRefDetailContent({
             )}
           </div>
 
-          {cr.pleiadesDescription && (
-            <p className="text-sm text-slate-300 leading-relaxed">{cr.pleiadesDescription}</p>
-          )}
+          {(() => {
+            const desc = cr.pleiadesDescription
+            const isCiteOnly = desc?.startsWith('An ancient place, cited:')
+            const displayDesc = !desc || isCiteOnly ? cr.wikidataDescription : desc
+            if (!displayDesc) return null
+            return (
+              <p className="text-sm text-slate-300 leading-relaxed">
+                {displayDesc}
+                {isCiteOnly && cr.wikidataDescription && (
+                  <span className="text-[9px] text-slate-600 ml-1">— Wikidata</span>
+                )}
+              </p>
+            )
+          })()}
 
           {facts.length > 0 && (
             <>

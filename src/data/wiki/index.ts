@@ -163,6 +163,8 @@ export interface CrossRefEnrichment {
   capacity?: number
   dimensions?: string
   buildingType?: string
+  imageUrl?: string
+  wikidataDescription?: string
   sources: string[]
 }
 

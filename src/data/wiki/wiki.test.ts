@@ -211,4 +211,25 @@ describe('appendCrossRefTooltip — unenriched place popups', () => {
     })
     expect(city).not.toContain('Trade:')
   })
+
+  it('shows thumbnail when imageUrl is present', () => {
+    const html = appendCrossRefTooltip(base, {
+      imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Example.jpg?width=400',
+      sources: ['Pleiades'],
+    })
+    expect(html).toContain('map-tooltip-thumb')
+    expect(html).toContain('Example.jpg')
+  })
+
+  it('renders Details button with crossref layer when links provided', () => {
+    const html = appendCrossRefTooltip(
+      base,
+      { sources: ['DARE', 'Pleiades'] },
+      { crKey: 'settlement:12345', pid: '423025' },
+    )
+    expect(html).toContain('data-wiki-layer="crossref"')
+    expect(html).toContain('data-wiki-id="settlement:12345"')
+    expect(html).toContain('Details')
+    expect(html).toContain('pleiades.stoa.org/places/423025')
+  })
 })

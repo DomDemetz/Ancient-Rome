@@ -144,9 +144,14 @@ export function appendCrossRefTooltip(
 
   let crHtml = '<div class="map-tooltip-wiki">'
 
-  if (desc && !isCiteOnly) {
-    const sentenceMatch = desc.match(/^(.+?\.)\s+(?=[A-Z])/)
-    const first = sentenceMatch?.[1] ?? desc.split(/\.\s/)[0]
+  if (cr.imageUrl) {
+    crHtml += `<img class="map-tooltip-thumb" src="${esc(cr.imageUrl)}" alt="" />`
+  }
+
+  const displayDesc = desc && !isCiteOnly ? desc : cr.wikidataDescription
+  if (displayDesc) {
+    const sentenceMatch = displayDesc.match(/^(.+?\.)\s+(?=[A-Z])/)
+    const first = sentenceMatch?.[1] ?? displayDesc.split(/\.\s/)[0]
     const text = first.endsWith('.') ? first : first + '.'
     crHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
   }
