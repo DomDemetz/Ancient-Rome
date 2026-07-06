@@ -2,8 +2,8 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import {
   DARE_TYPE_LABELS,
   DARE_TYPE_TO_CATEGORY,
@@ -126,6 +126,7 @@ export function PlacesLayer({
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const setlWiki = useWikiEnrichment('settlements')
+  const crossRef = useCrossRef()
 
   const visible = useMemo(() => {
     return data.filter((p) => {
@@ -203,6 +204,30 @@ export function PlacesLayer({
         const wikiLookup = setlWiki
         const wikiKey = p.wiki?.[1] ?? ''
         const wikiLayer = p.wiki?.[0] ?? 'settlements'
+        const hasWiki = p.wiki && wikiLookup?.[wikiKey]
+        const crEntry =
+          !hasWiki && p.dare?.id && crossRef ? crossRef[`settlement:${p.dare.id}`] : null
+
+        let popupHtml = appendWikiTooltip(
+          baseTooltipHtml(p, name, pop, currentYear),
+          wikiKey,
+          p.wiki ? wikiLookup : null,
+          wikiLayer,
+          p.entity,
+        )
+        if (crEntry) popupHtml = appendCrossRefTooltip(popupHtml, crEntry)
+        if (!hasWiki && (p.qid || p.pid)) {
+          const links: string[] = []
+          if (p.pid)
+            links.push(
+              `<a href="https://pleiades.stoa.org/places/${esc(p.pid)}" target="_blank" rel="noopener noreferrer">Pleiades ↗</a>`,
+            )
+          if (p.qid)
+            links.push(
+              `<a href="https://www.wikidata.org/wiki/${esc(p.qid)}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a>`,
+            )
+          popupHtml += `<div class="map-tooltip-detail">${links.join(' · ')}</div>`
+        }
 
         return (
           <CircleMarker
@@ -223,21 +248,7 @@ export function PlacesLayer({
               </Tooltip>
             )}
             <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html:
-                    appendWikiTooltip(
-                      baseTooltipHtml(p, name, pop, currentYear),
-                      wikiKey,
-                      p.wiki ? wikiLookup : null,
-                      wikiLayer,
-                      p.entity,
-                    ) +
-                    (p.qid && !(p.wiki && wikiLookup?.[wikiKey])
-                      ? `<div class="map-tooltip-detail"><a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a></div>`
-                      : ''),
-                }}
-              />
+              <span dangerouslySetInnerHTML={{ __html: popupHtml }} />
             </Popup>
           </CircleMarker>
         )

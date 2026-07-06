@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mergeStructuredData } from './index'
 import type { WikiLookup, WikidataStructuredLookup, CrossRefLookup } from './index'
+import { appendCrossRefTooltip } from '@/lib/wiki-popup'
 
 function makeWiki(overrides: Partial<WikiLookup[string]> = {}): WikiLookup[string] {
   return {
@@ -145,5 +146,47 @@ describe('mergeStructuredData — description cascade', () => {
     }
     const result = mergeStructuredData(wiki, emptyStructured)
     expect(result['1'].descriptionSource).toBe('generic')
+  })
+})
+
+describe('appendCrossRefTooltip — unenriched place popups', () => {
+  const base = '<div class="map-tooltip-title">Mesua</div>'
+
+  it('shows real Pleiades description as extract', () => {
+    const html = appendCrossRefTooltip(base, {
+      pleiadesDescription:
+        'A Pre-Roman settlement located north of the Étang de Thau. It later became a Roman colony.',
+      sources: ['pleiades', 'dare'],
+    })
+    expect(html).toContain('A Pre-Roman settlement located north of the Étang de Thau.')
+    expect(html).toContain('map-tooltip-extract')
+    expect(html).toContain('2 sources')
+  })
+
+  it('skips citation-only descriptions from extract, shows as fact', () => {
+    const html = appendCrossRefTooltip(base, {
+      pleiadesDescription: 'An ancient place, cited: BAtlas 15 B2 Mesua',
+      sources: ['pleiades'],
+    })
+    expect(html).not.toContain('map-tooltip-extract')
+    expect(html).toContain('BAtlas 15 B2 Mesua')
+    expect(html).toContain('map-tooltip-fact')
+  })
+
+  it('shows province when available', () => {
+    const html = appendCrossRefTooltip(base, {
+      province: 'Narbonensis',
+      sources: ['pleiades'],
+    })
+    expect(html).toContain('Province: Narbonensis')
+  })
+
+  it('shows source badge with correct pluralization', () => {
+    const single = appendCrossRefTooltip(base, { sources: ['pleiades'] })
+    expect(single).toContain('1 source')
+    expect(single).not.toContain('1 sources')
+
+    const multi = appendCrossRefTooltip(base, { sources: ['pleiades', 'dare', 'topostext'] })
+    expect(multi).toContain('3 sources')
   })
 })

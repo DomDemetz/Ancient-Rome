@@ -110,6 +110,17 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
 const loading = new Set<string>()
 const failed = new Set<string>()
 
+export function useCrossRef(): CrossRefLookup | null {
+  const snapshot = useSyncExternalStore(subscribe, () => crossRefCache)
+
+  useEffect(() => {
+    if (crossRefCache || crossRefLoading) return
+    ensureCrossRefLoaded().then(notify)
+  }, [])
+
+  return snapshot
+}
+
 export function useWikiEnrichment(layer: string): WikiLookup | null {
   const lookup = useSyncExternalStore(subscribe, () => cache.get(layer) ?? null)
 

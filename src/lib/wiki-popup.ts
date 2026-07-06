@@ -1,4 +1,4 @@
-import type { WikiLookup } from '@/data/wiki'
+import type { WikiLookup, CrossRefEnrichment } from '@/data/wiki'
 import { formatYear } from '@/lib/geo'
 
 /** Escape HTML special characters to prevent XSS from external data */
@@ -132,4 +132,35 @@ function pickHighlightFact(
   if (s.heritageStatus) return s.heritageStatus
 
   return null
+}
+
+export function appendCrossRefTooltip(html: string, cr: CrossRefEnrichment): string {
+  const desc = cr.pleiadesDescription
+  const isCiteOnly = desc?.startsWith('An ancient place, cited:')
+
+  let crHtml = '<div class="map-tooltip-wiki">'
+
+  if (desc && !isCiteOnly) {
+    const sentenceMatch = desc.match(/^(.+?\.)\s+(?=[A-Z])/)
+    const first = sentenceMatch?.[1] ?? desc.split(/\.\s/)[0]
+    const text = first.endsWith('.') ? first : first + '.'
+    crHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
+  }
+
+  const facts: string[] = []
+  if (cr.province) facts.push(`Province: ${cr.province}`)
+  if (isCiteOnly && desc) {
+    const ref = desc.replace('An ancient place, cited: ', '')
+    facts.push(ref)
+  }
+  if (facts.length) {
+    crHtml += `<div class="map-tooltip-fact">${esc(facts.join(' · '))}</div>`
+  }
+
+  if (cr.sources.length) {
+    crHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} source${cr.sources.length > 1 ? 's' : ''}</span>`
+  }
+
+  crHtml += '</div>'
+  return html + crHtml
 }
