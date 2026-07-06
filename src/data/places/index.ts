@@ -26,6 +26,8 @@ export interface PlaceNode {
   minor?: boolean
   /** attached Vici.org archaeological sites (native pmetadata identity) */
   vici?: string[]
+  /** nearest major city: [name, km, compass] — "42 km NE of Londinium" */
+  near?: [string, number, string]
   /** absorbed narrative-graph entity (the curated connections graph) */
   entity?: string
   entityConnections?: number

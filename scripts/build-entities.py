@@ -234,6 +234,39 @@ json.dump(sorted(vici_merged), open(mpath, "w"), separators=(",", ":"))
 open(mpath, "a").write("\n")
 print(f"vici-merged.json: {len(vici_merged)} settlement-kind vici points now represented by nodes")
 
+# --- geographic context (idea credit: session B, 2026-07-06) ---
+# Every non-major node learns its nearest major city: "42 km NE of
+# Londinium". Pure geometry, zero external data — turns stub places into
+# located places.
+import math as _math
+majors = [p for p in places if p.get("populations")]
+mgrid = defaultdict(list)
+for m in majors:
+    mgrid[(int(m["lat"] // 2), int(m["lng"] // 2))].append(m)
+
+def bearing8(dlat, dlng, coslat):
+    ang = (_math.degrees(_math.atan2(dlng * coslat, dlat)) + 360) % 360
+    return ["N", "NE", "E", "SE", "S", "SW", "W", "NW"][int((ang + 22.5) // 45) % 8]
+
+near_n = 0
+for p in places:
+    if p.get("populations"):
+        continue
+    gy, gx = int(p["lat"] // 2), int(p["lng"] // 2)
+    best, bd = None, 300.0
+    for dy in (-1, 0, 1):
+        for dx in (-1, 0, 1):
+            for m in mgrid.get((gy + dy, gx + dx), []):
+                d = km((p["lat"], p["lng"]), (m["lat"], m["lng"]))
+                if d < bd:
+                    best, bd = m, d
+    if best and bd >= 2:
+        coslat = _math.cos(_math.radians(p["lat"]))
+        b = bearing8(p["lat"] - best["lat"], p["lng"] - best["lng"], coslat)
+        p["near"] = [best["name"], round(bd), b]
+        near_n += 1
+print(f"geographic context: {near_n} nodes located relative to a major city")
+
 places.sort(key=lambda p: p["id"])
 out = os.path.join(BASE, "places")
 os.makedirs(out, exist_ok=True)
