@@ -630,6 +630,21 @@ async function main() {
     await writeFile(filename, JSON.stringify(chunk) + '\n')
     console.log(`  ${chunk.length.toString().padStart(6)} → ${filename}`)
   }
+
+  // Multi-type chunks for Discovery layers
+  const DISCOVERY_CHUNKS: Record<string, string[]> = {
+    villa: ['villa', 'estate', 'townhouse', 'farm'],
+    temple: ['temple', 'sanctuary', 'shrine'],
+    bridge: ['bridge'],
+    tomb: ['tomb', 'cemetery', 'tumulus', 'cenotaph', 'pyramid'],
+  }
+  for (const [name, types] of Object.entries(DISCOVERY_CHUNKS)) {
+    const typeSet = new Set(types)
+    const chunk = entities.filter((e) => typeSet.has(e.type))
+    const filename = `${chunkDir}/discovery-${name}.json`
+    await writeFile(filename, JSON.stringify(chunk) + '\n')
+    console.log(`  ${chunk.length.toString().padStart(6)} → ${filename}`)
+  }
 }
 
 main().catch(console.error)

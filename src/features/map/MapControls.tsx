@@ -292,7 +292,10 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     showUnifiedTemples,
     showUnifiedBridges,
     showUnifiedTombs,
-    unifiedLoading,
+    villasLoading,
+    templesLoading,
+    bridgesLoading,
+    tombsLoading,
     roadsLoading,
     placesLoading,
     empiresLoading,
@@ -415,22 +418,22 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     },
     UnifiedVillas: {
       active: showUnifiedVillas,
-      loading: unifiedLoading,
+      loading: villasLoading,
       toggle: toggleUnifiedVillas,
     },
     UnifiedTemples: {
       active: showUnifiedTemples,
-      loading: unifiedLoading,
+      loading: templesLoading,
       toggle: toggleUnifiedTemples,
     },
     UnifiedBridges: {
       active: showUnifiedBridges,
-      loading: unifiedLoading,
+      loading: bridgesLoading,
       toggle: toggleUnifiedBridges,
     },
     UnifiedTombs: {
       active: showUnifiedTombs,
-      loading: unifiedLoading,
+      loading: tombsLoading,
       toggle: toggleUnifiedTombs,
     },
   }

@@ -184,3 +184,19 @@ export async function loadReligion(): Promise<ReligiousSite[]> {
     source: e.source,
   }))
 }
+
+export async function loadDiscoveryVillas(): Promise<UnifiedEntity[]> {
+  return parseChunk(await import('@/data/unified/discovery-villa.json?raw'))
+}
+
+export async function loadDiscoveryTemples(): Promise<UnifiedEntity[]> {
+  return parseChunk(await import('@/data/unified/discovery-temple.json?raw'))
+}
+
+export async function loadDiscoveryBridges(): Promise<UnifiedEntity[]> {
+  return parseChunk(await import('@/data/unified/discovery-bridge.json?raw'))
+}
+
+export async function loadDiscoveryTombs(): Promise<UnifiedEntity[]> {
+  return parseChunk(await import('@/data/unified/discovery-tomb.json?raw'))
+}

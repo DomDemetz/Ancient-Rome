@@ -229,11 +229,14 @@ export function MapView() {
     viciData,
     portsData,
     notablePeopleData,
-    unifiedData,
     showUnifiedVillas,
+    villasData,
     showUnifiedTemples,
+    templesData,
     showUnifiedBridges,
+    bridgesData,
     showUnifiedTombs,
+    tombsData,
     settlementTypes,
     hiddenCategories,
     toggleCategory,
@@ -360,37 +363,17 @@ export function MapView() {
               )}
 
               {/* Unified entity layers — new Pleiades discoveries */}
-              {showUnifiedVillas && unifiedData && (
-                <UnifiedLayer
-                  data={unifiedData}
-                  types={['villa', 'estate', 'townhouse', 'farm']}
-                  color="#4d7c0f"
-                  fillColor="#84cc16"
-                />
+              {showUnifiedVillas && villasData && (
+                <UnifiedLayer data={villasData} color="#4d7c0f" fillColor="#84cc16" />
               )}
-              {showUnifiedTemples && unifiedData && (
-                <UnifiedLayer
-                  data={unifiedData}
-                  types={['temple', 'sanctuary', 'shrine']}
-                  color="#86198f"
-                  fillColor="#d946ef"
-                />
+              {showUnifiedTemples && templesData && (
+                <UnifiedLayer data={templesData} color="#86198f" fillColor="#d946ef" />
               )}
-              {showUnifiedBridges && unifiedData && (
-                <UnifiedLayer
-                  data={unifiedData}
-                  types={['bridge']}
-                  color="#0369a1"
-                  fillColor="#38bdf8"
-                />
+              {showUnifiedBridges && bridgesData && (
+                <UnifiedLayer data={bridgesData} color="#0369a1" fillColor="#38bdf8" />
               )}
-              {showUnifiedTombs && unifiedData && (
-                <UnifiedLayer
-                  data={unifiedData}
-                  types={['tomb', 'cemetery', 'tumulus', 'cenotaph', 'pyramid']}
-                  color="#374151"
-                  fillColor="#9ca3af"
-                />
+              {showUnifiedTombs && tombsData && (
+                <UnifiedLayer data={tombsData} color="#374151" fillColor="#9ca3af" />
               )}
             </>
           )}

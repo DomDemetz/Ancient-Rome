@@ -450,13 +450,19 @@ interface MapLayerState {
   notablePeopleData: NotablePerson[] | null
   notablePeopleLoading: boolean
 
-  // Unified entity layer
-  unifiedData: UnifiedEntity[] | null
-  unifiedLoading: boolean
+  // Discovery layers (per-type chunks from unified)
   showUnifiedVillas: boolean
+  villasData: UnifiedEntity[] | null
+  villasLoading: boolean
   showUnifiedTemples: boolean
+  templesData: UnifiedEntity[] | null
+  templesLoading: boolean
   showUnifiedBridges: boolean
+  bridgesData: UnifiedEntity[] | null
+  bridgesLoading: boolean
   showUnifiedTombs: boolean
+  tombsData: UnifiedEntity[] | null
+  tombsLoading: boolean
 
   // Settlement filtering
   settlementTypes: Record<number, boolean>
@@ -697,21 +703,21 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadNotablePeople } = await import('@/data/people-layer')
     return { notablePeopleData: await loadNotablePeople() }
   }),
-  showUnifiedVillas: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
-    const { loadUnifiedEntities } = await import('@/data/unified')
-    return { unifiedData: await loadUnifiedEntities() }
+  showUnifiedVillas: ensureLoaded('villasData', 'villasLoading', async () => {
+    const { loadDiscoveryVillas } = await import('@/data/unified')
+    return { villasData: await loadDiscoveryVillas() }
   }),
-  showUnifiedTemples: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
-    const { loadUnifiedEntities } = await import('@/data/unified')
-    return { unifiedData: await loadUnifiedEntities() }
+  showUnifiedTemples: ensureLoaded('templesData', 'templesLoading', async () => {
+    const { loadDiscoveryTemples } = await import('@/data/unified')
+    return { templesData: await loadDiscoveryTemples() }
   }),
-  showUnifiedBridges: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
-    const { loadUnifiedEntities } = await import('@/data/unified')
-    return { unifiedData: await loadUnifiedEntities() }
+  showUnifiedBridges: ensureLoaded('bridgesData', 'bridgesLoading', async () => {
+    const { loadDiscoveryBridges } = await import('@/data/unified')
+    return { bridgesData: await loadDiscoveryBridges() }
   }),
-  showUnifiedTombs: ensureLoaded('unifiedData', 'unifiedLoading', async () => {
-    const { loadUnifiedEntities } = await import('@/data/unified')
-    return { unifiedData: await loadUnifiedEntities() }
+  showUnifiedTombs: ensureLoaded('tombsData', 'tombsLoading', async () => {
+    const { loadDiscoveryTombs } = await import('@/data/unified')
+    return { tombsData: await loadDiscoveryTombs() }
   }),
 }
 
@@ -794,12 +800,18 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showNotablePeople: false,
   notablePeopleData: null,
   notablePeopleLoading: false,
-  unifiedData: null,
-  unifiedLoading: false,
   showUnifiedVillas: false,
+  villasData: null,
+  villasLoading: false,
   showUnifiedTemples: false,
+  templesData: null,
+  templesLoading: false,
   showUnifiedBridges: false,
+  bridgesData: null,
+  bridgesLoading: false,
   showUnifiedTombs: false,
+  tombsData: null,
+  tombsLoading: false,
   settlementTypes: { ...defaultSettlementTypes },
   hiddenCategories: new Set<string>(),
   activePreset: 'custom',
@@ -980,27 +992,27 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     })(set, get),
 
   toggleUnifiedVillas: () =>
-    makeToggle('showUnifiedVillas', 'unifiedData', 'unifiedLoading', async () => {
-      const { loadUnifiedEntities } = await import('@/data/unified')
-      return { data: await loadUnifiedEntities() }
+    makeToggle('showUnifiedVillas', 'villasData', 'villasLoading', async () => {
+      const { loadDiscoveryVillas } = await import('@/data/unified')
+      return { data: await loadDiscoveryVillas() }
     })(set, get),
 
   toggleUnifiedTemples: () =>
-    makeToggle('showUnifiedTemples', 'unifiedData', 'unifiedLoading', async () => {
-      const { loadUnifiedEntities } = await import('@/data/unified')
-      return { data: await loadUnifiedEntities() }
+    makeToggle('showUnifiedTemples', 'templesData', 'templesLoading', async () => {
+      const { loadDiscoveryTemples } = await import('@/data/unified')
+      return { data: await loadDiscoveryTemples() }
     })(set, get),
 
   toggleUnifiedBridges: () =>
-    makeToggle('showUnifiedBridges', 'unifiedData', 'unifiedLoading', async () => {
-      const { loadUnifiedEntities } = await import('@/data/unified')
-      return { data: await loadUnifiedEntities() }
+    makeToggle('showUnifiedBridges', 'bridgesData', 'bridgesLoading', async () => {
+      const { loadDiscoveryBridges } = await import('@/data/unified')
+      return { data: await loadDiscoveryBridges() }
     })(set, get),
 
   toggleUnifiedTombs: () =>
-    makeToggle('showUnifiedTombs', 'unifiedData', 'unifiedLoading', async () => {
-      const { loadUnifiedEntities } = await import('@/data/unified')
-      return { data: await loadUnifiedEntities() }
+    makeToggle('showUnifiedTombs', 'tombsData', 'tombsLoading', async () => {
+      const { loadDiscoveryTombs } = await import('@/data/unified')
+      return { data: await loadDiscoveryTombs() }
     })(set, get),
 
   toggleSettlementType: (type: number) => {

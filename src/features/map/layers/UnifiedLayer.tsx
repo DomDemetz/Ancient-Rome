@@ -7,7 +7,6 @@ import { formatYear } from '@/lib/geo'
 
 interface UnifiedLayerProps {
   data: UnifiedEntity[]
-  types: string[]
   color: string
   fillColor: string
 }
@@ -22,16 +21,13 @@ function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridS
   })
 }
 
-export function UnifiedLayer({ data, types, color, fillColor }: UnifiedLayerProps) {
+export function UnifiedLayer({ data, color, fillColor }: UnifiedLayerProps) {
   const { zoom, bounds } = useMapViewport()
-
-  const typeSet = useMemo(() => new Set(types), [types])
 
   const visible = useMemo(() => {
     if (zoom < 5) return []
 
     let filtered = data.filter((e) => {
-      if (!typeSet.has(e.type)) return false
       if (zoom >= 7) {
         return (
           e.lat >= bounds.getSouth() &&
@@ -49,7 +45,7 @@ export function UnifiedLayer({ data, types, color, fillColor }: UnifiedLayerProp
     }
 
     return filtered
-  }, [data, typeSet, zoom, bounds])
+  }, [data, zoom, bounds])
 
   const baseRadius = zoom >= 8 ? 5 : zoom >= 7 ? 4 : zoom >= 5 ? 3 : 2
 
