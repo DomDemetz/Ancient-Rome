@@ -3,7 +3,7 @@ import { CircleMarker, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -51,6 +51,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
   const playing = useTimelineStore((s) => s.playing)
   const speed = useTimelineStore((s) => s.speed)
   const wikiLookup = useWikiEnrichment('battles')
+  const crossRef = useCrossRef()
 
   // Adaptive visibility window: tight when paused, wider at higher speeds
   const visibilityWindow = playing ? Math.min(50, Math.max(10, Math.round(speed * 12))) : 5
@@ -104,7 +105,18 @@ export function BattleLayer({ data }: BattleLayerProps) {
             <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
-                  __html: appendWikiTooltip(buildTooltipHtml(b), b.id, wikiLookup, 'battles'),
+                  __html: (() => {
+                    const hasWiki = wikiLookup?.[b.id]
+                    let html = appendWikiTooltip(buildTooltipHtml(b), b.id, wikiLookup, 'battles')
+                    if (!hasWiki) {
+                      const crKey = `battle:${b.id}`
+                      const crEntry = crossRef?.[crKey]
+                      if (crEntry) {
+                        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+                      }
+                    }
+                    return html
+                  })(),
                 }}
               />
             </Popup>

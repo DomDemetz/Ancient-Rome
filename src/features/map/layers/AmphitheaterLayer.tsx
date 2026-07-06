@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -26,6 +26,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('amphitheaters')
+  const crossRef = useCrossRef()
 
   const visible = useMemo(() => {
     return data.filter((a) => {
@@ -76,7 +77,23 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
           <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
             <span
               dangerouslySetInnerHTML={{
-                __html: appendWikiTooltip(buildTooltipHtml(a), a.id, wikiLookup, 'amphitheaters'),
+                __html: (() => {
+                  const hasWiki = wikiLookup?.[a.id]
+                  let html = appendWikiTooltip(
+                    buildTooltipHtml(a),
+                    a.id,
+                    wikiLookup,
+                    'amphitheaters',
+                  )
+                  if (!hasWiki) {
+                    const crKey = `amphitheater:${a.id}`
+                    const crEntry = crossRef?.[crKey]
+                    if (crEntry) {
+                      html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+                    }
+                  }
+                  return html
+                })(),
               }}
             />
           </Popup>
