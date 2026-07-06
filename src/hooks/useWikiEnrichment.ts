@@ -121,10 +121,11 @@ export function useCrossRef(): CrossRefLookup | null {
   return snapshot
 }
 
-export function useWikiEnrichment(layer: string): WikiLookup | null {
-  const lookup = useSyncExternalStore(subscribe, () => cache.get(layer) ?? null)
+export function useWikiEnrichment(layer: string | null): WikiLookup | null {
+  const lookup = useSyncExternalStore(subscribe, () => (layer ? (cache.get(layer) ?? null) : null))
 
   useEffect(() => {
+    if (!layer) return
     if (cache.has(layer) || loading.has(layer) || failed.has(layer)) return
 
     const loader = LAYER_LOADERS[layer]
