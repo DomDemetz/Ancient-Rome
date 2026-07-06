@@ -19,7 +19,8 @@ import type { Press } from '@/data/presses'
 import type { TradeNetwork } from '@/data/trade'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
-import type { UnifiedEntity, PortData } from '@/data/unified'
+import type { UnifiedEntity } from '@/data/unified'
+import type { PortData } from '@/data/unified'
 
 // --- Preset definitions ---
 export type PresetName =
@@ -639,12 +640,12 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     return { itinereRoadsData: await loadItinereRoads() }
   }),
   showBattles: ensureLoaded('battlesData', 'battlesLoading', async () => {
-    const { loadUnifiedEntities, unifiedToBattles } = await import('@/data/unified')
-    return { battlesData: unifiedToBattles(await loadUnifiedEntities()) }
+    const { loadBattles } = await import('@/data/unified')
+    return { battlesData: await loadBattles() }
   }),
   showAmphitheaters: ensureLoaded('amphitheatersData', 'amphitheatersLoading', async () => {
-    const { loadUnifiedEntities, unifiedToAmphitheaters } = await import('@/data/unified')
-    return { amphitheatersData: unifiedToAmphitheaters(await loadUnifiedEntities()) }
+    const { loadAmphitheaters } = await import('@/data/unified')
+    return { amphitheatersData: await loadAmphitheaters() }
   }),
   showEmperors: ensureLoaded('emperorsData', 'emperorsLoading', async () => {
     const { loadEmperors } = await import('@/data/emperors')
@@ -655,34 +656,34 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     return { legionsData: await loadLegions() }
   }),
   showShipwrecks: ensureLoaded('shipwrecksData', 'shipwrecksLoading', async () => {
-    const { loadUnifiedEntities, unifiedToShipwrecks } = await import('@/data/unified')
-    return { shipwrecksData: unifiedToShipwrecks(await loadUnifiedEntities()) }
+    const { loadShipwrecks } = await import('@/data/unified')
+    return { shipwrecksData: await loadShipwrecks() }
   }),
   showMines: ensureLoaded('minesData', 'minesLoading', async () => {
-    const { loadUnifiedEntities, unifiedToMines } = await import('@/data/unified')
-    return { minesData: unifiedToMines(await loadUnifiedEntities()) }
+    const { loadMines } = await import('@/data/unified')
+    return { minesData: await loadMines() }
   }),
   showAqueducts: ensureLoaded('aqueductsData', 'aqueductsLoading', async () => {
-    const { loadUnifiedEntities, unifiedToAqueducts } = await import('@/data/unified')
-    const [entities, lines] = await Promise.all([
-      loadUnifiedEntities(),
+    const { loadAqueductPoints } = await import('@/data/unified')
+    const [points, lines] = await Promise.all([
+      loadAqueductPoints(),
       import('@/data/awmc-aqueducts-temporal.json')
         .then((m) => m.default as FeatureCollection)
         .catch(() => null),
     ])
-    return { aqueductsData: unifiedToAqueducts(entities), aqueductLinesData: lines }
+    return { aqueductsData: points, aqueductLinesData: lines }
   }),
   showReligion: ensureLoaded('religionData', 'religionLoading', async () => {
-    const { loadUnifiedEntities, unifiedToReligion } = await import('@/data/unified')
-    return { religionData: unifiedToReligion(await loadUnifiedEntities()) }
+    const { loadReligion } = await import('@/data/unified')
+    return { religionData: await loadReligion() }
   }),
   showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
-    const { loadUnifiedEntities, unifiedToBuildings } = await import('@/data/unified')
-    return { buildingsData: unifiedToBuildings(await loadUnifiedEntities()) }
+    const { loadBuildings } = await import('@/data/unified')
+    return { buildingsData: await loadBuildings() }
   }),
   showPresses: ensureLoaded('pressesData', 'pressesLoading', async () => {
-    const { loadUnifiedEntities, unifiedToPresses } = await import('@/data/unified')
-    return { pressesData: unifiedToPresses(await loadUnifiedEntities()) }
+    const { loadPresses } = await import('@/data/unified')
+    return { pressesData: await loadPresses() }
   }),
   showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
     const { loadTradeNetwork } = await import('@/data/trade')
@@ -883,14 +884,14 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleBattles: () =>
     makeToggle('showBattles', 'battlesData', 'battlesLoading', async () => {
-      const { loadUnifiedEntities, unifiedToBattles } = await import('@/data/unified')
-      return { data: unifiedToBattles(await loadUnifiedEntities()) }
+      const { loadBattles } = await import('@/data/unified')
+      return { data: await loadBattles() }
     })(set, get),
 
   toggleAmphitheaters: () =>
     makeToggle('showAmphitheaters', 'amphitheatersData', 'amphitheatersLoading', async () => {
-      const { loadUnifiedEntities, unifiedToAmphitheaters } = await import('@/data/unified')
-      return { data: unifiedToAmphitheaters(await loadUnifiedEntities()) }
+      const { loadAmphitheaters } = await import('@/data/unified')
+      return { data: await loadAmphitheaters() }
     })(set, get),
 
   toggleEmperors: () =>
@@ -907,44 +908,44 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleShipwrecks: () =>
     makeToggle('showShipwrecks', 'shipwrecksData', 'shipwrecksLoading', async () => {
-      const { loadUnifiedEntities, unifiedToShipwrecks } = await import('@/data/unified')
-      return { data: unifiedToShipwrecks(await loadUnifiedEntities()) }
+      const { loadShipwrecks } = await import('@/data/unified')
+      return { data: await loadShipwrecks() }
     })(set, get),
 
   toggleMines: () =>
     makeToggle('showMines', 'minesData', 'minesLoading', async () => {
-      const { loadUnifiedEntities, unifiedToMines } = await import('@/data/unified')
-      return { data: unifiedToMines(await loadUnifiedEntities()) }
+      const { loadMines } = await import('@/data/unified')
+      return { data: await loadMines() }
     })(set, get),
 
   toggleAqueducts: () =>
     makeToggle('showAqueducts', 'aqueductsData', 'aqueductsLoading', async () => {
-      const { loadUnifiedEntities, unifiedToAqueducts } = await import('@/data/unified')
-      const [entities, lines] = await Promise.all([
-        loadUnifiedEntities(),
+      const { loadAqueductPoints } = await import('@/data/unified')
+      const [points, lines] = await Promise.all([
+        loadAqueductPoints(),
         import('@/data/awmc-aqueducts-temporal.json')
           .then((m) => m.default as FeatureCollection)
           .catch(() => null),
       ])
-      return { data: unifiedToAqueducts(entities), extra: { aqueductLinesData: lines } }
+      return { data: points, extra: { aqueductLinesData: lines } }
     })(set, get),
 
   toggleReligion: () =>
     makeToggle('showReligion', 'religionData', 'religionLoading', async () => {
-      const { loadUnifiedEntities, unifiedToReligion } = await import('@/data/unified')
-      return { data: unifiedToReligion(await loadUnifiedEntities()) }
+      const { loadReligion } = await import('@/data/unified')
+      return { data: await loadReligion() }
     })(set, get),
 
   toggleBuildings: () =>
     makeToggle('showBuildings', 'buildingsData', 'buildingsLoading', async () => {
-      const { loadUnifiedEntities, unifiedToBuildings } = await import('@/data/unified')
-      return { data: unifiedToBuildings(await loadUnifiedEntities()) }
+      const { loadBuildings } = await import('@/data/unified')
+      return { data: await loadBuildings() }
     })(set, get),
 
   togglePresses: () =>
     makeToggle('showPresses', 'pressesData', 'pressesLoading', async () => {
-      const { loadUnifiedEntities, unifiedToPresses } = await import('@/data/unified')
-      return { data: unifiedToPresses(await loadUnifiedEntities()) }
+      const { loadPresses } = await import('@/data/unified')
+      return { data: await loadPresses() }
     })(set, get),
 
   toggleTradeNetwork: () =>
@@ -968,8 +969,8 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   togglePorts: () =>
     makeToggle('showPorts', 'portsData', 'portsLoading', async () => {
-      const { loadUnifiedEntities, unifiedToPorts } = await import('@/data/unified')
-      return { data: unifiedToPorts(await loadUnifiedEntities()) }
+      const { loadPorts } = await import('@/data/unified')
+      return { data: await loadPorts() }
     })(set, get),
 
   toggleNotablePeople: () =>

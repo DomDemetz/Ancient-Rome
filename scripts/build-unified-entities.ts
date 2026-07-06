@@ -609,6 +609,27 @@ async function main() {
 
   await writeFile(OUTPUT_PATH, JSON.stringify(entities, null, 2) + '\n')
   console.log(`\nWritten to ${OUTPUT_PATH}`)
+
+  // Emit per-type chunks for lazy loading (migrated layers load only their type)
+  const CHUNKED_TYPES = [
+    'battle',
+    'amphitheater',
+    'building',
+    'religious-site',
+    'shipwreck',
+    'mine',
+    'aqueduct',
+    'press',
+    'port',
+  ]
+  const chunkDir = 'src/data/unified'
+  await import('fs/promises').then((fs) => fs.mkdir(chunkDir, { recursive: true }))
+  for (const type of CHUNKED_TYPES) {
+    const chunk = entities.filter((e) => e.type === type)
+    const filename = `${chunkDir}/${type}.json`
+    await writeFile(filename, JSON.stringify(chunk) + '\n')
+    console.log(`  ${chunk.length.toString().padStart(6)} → ${filename}`)
+  }
 }
 
 main().catch(console.error)
