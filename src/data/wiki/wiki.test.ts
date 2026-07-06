@@ -121,7 +121,7 @@ describe('mergeStructuredData — description cascade', () => {
     const structured: WikidataStructuredLookup = {
       '1': {
         wikidataId: 'Q12345',
-        structured: { inceptionYear: -25, capacity: 50000 },
+        structured: { inceptionYear: -25, dimensions: { capacity: 50000 } },
         images: [{ url: 'https://example.com/img.jpg', caption: 'Test', license: 'CC BY' }],
         describedInSources: [],
         sourceQuality: 'academic',
@@ -130,7 +130,7 @@ describe('mergeStructuredData — description cascade', () => {
       },
     }
     const result = mergeStructuredData(wiki, structured)
-    expect(result['1'].structured?.capacity).toBe(50000)
+    expect(result['1'].structured?.dimensions?.capacity).toBe(50000)
     expect(result['1'].sourceQuality).toBe('academic')
     expect(result['1'].images).toHaveLength(1)
   })
