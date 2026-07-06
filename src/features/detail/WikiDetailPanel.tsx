@@ -231,6 +231,151 @@ function CrossRefDetailContent({
   )
 }
 
+// --- People detail (Wikidata-driven) ---
+
+function PeopleDetailContent({ featureId }: { featureId: string }) {
+  const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
+  const [person, setPerson] = useState<import('@/data/people-layer').NotablePerson | null>(null)
+  const [wikiExtract, setWikiExtract] = useState<string | null>(null)
+  const [wikiImage, setWikiImage] = useState<string | null>(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      const { loadNotablePeople } = await import('@/data/people-layer')
+      const people = await loadNotablePeople()
+      const p = people.find((d) => d.wikidataId === featureId)
+      if (cancelled) return
+      if (p) setPerson(p)
+
+      try {
+        const resp = await fetch(
+          `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(featureId)}`,
+          { headers: { Accept: 'application/json' } },
+        )
+        if (!resp.ok) {
+          const wdResp = await fetch(
+            `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${featureId}&props=sitelinks&format=json&origin=*`,
+          )
+          const wdData = await wdResp.json()
+          const title = wdData?.entities?.[featureId]?.sitelinks?.enwiki?.title
+          if (title) {
+            const wikiResp = await fetch(
+              `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
+            )
+            if (wikiResp.ok) {
+              const data = await wikiResp.json()
+              if (!cancelled) {
+                setWikiExtract(data.extract ?? null)
+                setWikiImage(data.thumbnail?.source ?? null)
+              }
+            }
+          }
+        } else {
+          const data = await resp.json()
+          if (!cancelled) {
+            setWikiExtract(data.extract ?? null)
+            setWikiImage(data.thumbnail?.source ?? null)
+          }
+        }
+      } catch {
+        // Wikipedia fetch failed — show person data without extract
+      }
+      if (!cancelled) setLoading(false)
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [featureId])
+
+  if (loading && !person) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <div className="h-3 w-32 rounded bg-white/[0.06] animate-pulse" />
+      </div>
+    )
+  }
+
+  if (!person) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <p className="text-slate-500 text-sm">Person not found.</p>
+      </div>
+    )
+  }
+
+  const wdUrl = `https://www.wikidata.org/wiki/${person.wikidataId}`
+
+  return (
+    <div className="flex flex-col h-full">
+      <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-purple-400/60 font-serif italic">
+          Notable Person
+        </span>
+        <Button variant="ghost" size="sm" onClick={closeFeature} className="size-6 p-0">
+          <X className="size-3.5" />
+        </Button>
+      </div>
+      <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain">
+        <div className="p-4 sm:p-6 space-y-5">
+          {wikiImage && (
+            <div className="relative -mx-6 -mt-6">
+              <img
+                src={wikiImage}
+                alt={person.name}
+                className="w-full object-cover max-h-52"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c10] via-transparent to-transparent" />
+            </div>
+          )}
+
+          <div>
+            <h2 className="font-serif italic text-xl text-slate-100 leading-tight">
+              {person.name}
+            </h2>
+            {person.role && person.role !== 'unknown' && (
+              <span className="text-[10px] uppercase tracking-wider text-slate-500 mt-0.5 block">
+                {person.role}
+              </span>
+            )}
+          </div>
+
+          <div>
+            <FactRow
+              label="Lived"
+              value={`${formatYear(person.born)}${person.died != null ? ` – ${formatYear(person.died)}` : ''}`}
+            />
+            {person.citizenship && <FactRow label="Citizenship" value={person.citizenship} />}
+            {person.domain && <FactRow label="Domain" value={person.domain} />}
+            {person.gender && <FactRow label="Gender" value={person.gender} />}
+          </div>
+
+          {wikiExtract && (
+            <>
+              <Separator className="bg-white/[0.05]" />
+              <p className="text-sm text-slate-300 leading-relaxed">{wikiExtract}</p>
+            </>
+          )}
+
+          <Separator className="bg-white/[0.05]" />
+          <div className="flex flex-wrap gap-3">
+            <a
+              href={wdUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[11px] text-amber-500/80 hover:text-amber-400 transition-colors"
+            >
+              <ExternalLink className="size-3" /> Wikidata
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // --- Empire detail (lightweight) ---
 
 function EmpireDetailContent({ featureId }: { featureId: string }) {
@@ -344,6 +489,10 @@ function WikiDetailContent({
 
   if (featureLayer === 'empires') {
     return <EmpireDetailContent featureId={featureId} />
+  }
+
+  if (featureLayer === 'people') {
+    return <PeopleDetailContent featureId={featureId} />
   }
 
   const loading = wikiLayer !== null && lookup === null
