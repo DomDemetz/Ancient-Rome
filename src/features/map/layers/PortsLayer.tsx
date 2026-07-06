@@ -4,21 +4,10 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
-
-interface Port {
-  id: string
-  name: string
-  lat: number
-  lng: number
-  portType: string
-  description: string
-  startYear: number
-  endYear: number
-  source: string
-}
+import type { PortData } from '@/data/unified'
 
 interface PortsLayerProps {
-  data: Port[]
+  data: PortData[]
 }
 
 const PORT_COLORS: Record<string, string> = {
