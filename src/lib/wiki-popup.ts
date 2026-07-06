@@ -29,8 +29,15 @@ export function appendWikiTooltip(
   // Hide entries flagged as wrong articles entirely
   if (wiki.wrongArticle) return html
 
-  // Hide entries with very low Roman relevance (< 0.1) — these are modern-city articles
-  if (wiki.romanRelevance != null && wiki.romanRelevance < 0.1) return html
+  // Hide entries with very low Roman relevance (< 0.1) — these are modern-city articles.
+  // Exception: entries with a description or romanEraExtract were deliberately enriched.
+  if (
+    wiki.romanRelevance != null &&
+    wiki.romanRelevance < 0.1 &&
+    !wiki.description &&
+    !wiki.romanEraExtract
+  )
+    return html
 
   let wikiHtml = '<div class="map-tooltip-wiki">'
 
