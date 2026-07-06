@@ -219,8 +219,17 @@ export function PlacesLayer({
           wikiLayer,
           p.entity,
         )
-        if (crEntry) popupHtml = appendCrossRefTooltip(popupHtml, crEntry)
-        if (!hasWiki && (p.qid || p.pid)) {
+        if (crEntry) {
+          const crKey =
+            (p.dare?.id && crossRef![`settlement:${p.dare.id}`] ? `settlement:${p.dare.id}` : '') ||
+            (p.pid && crossRef![`pleiades:${p.pid}`] ? `pleiades:${p.pid}` : '')
+          popupHtml = appendCrossRefTooltip(
+            popupHtml,
+            crEntry,
+            crKey ? { crKey, pid: p.pid, qid: p.qid } : undefined,
+          )
+        }
+        if (!hasWiki && !crEntry && (p.qid || p.pid)) {
           const links: string[] = []
           if (p.pid)
             links.push(

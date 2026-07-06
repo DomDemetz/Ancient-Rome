@@ -94,6 +94,15 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
 
     if (!changes || changes.length === 0) return baseLabels
 
+    // Death-dates come from the province features themselves, so split-derived
+    // labels die when their province does (they were hardcoded to 476 and
+    // never filtered — names lingered on the map after provinces fell).
+    const featureEnd = new Map<string, number>()
+    for (const f of data.features) {
+      const p = f.properties || {}
+      if (p.name) featureEnd.set(p.name as string, (p.endYear as number) ?? 0)
+    }
+
     const reorganized = new Set<string>()
     const extraLabels: ProvinceLabel[] = []
 
@@ -101,20 +110,24 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
       if (change.splitYear <= currentYear) {
         reorganized.add(change.originalName)
         for (const np of change.newProvinces) {
+          const end = featureEnd.get(np.name) ?? featureEnd.get(change.originalName) ?? 476
+          if (end !== 0 && end < currentYear) continue
           extraLabels.push({
             name: np.name,
             lat: np.labelLat,
             lng: np.labelLng,
             startYear: change.splitYear,
-            endYear: 476,
+            endYear: end,
           })
         }
       }
     }
 
     const filteredBase = baseLabels.filter((l) => !reorganized.has(l.name))
-    return [...filteredBase, ...extraLabels]
-  }, [labels, changes, currentYear])
+    // a split label supersedes a base label of the same name (no doubles)
+    const extraNames = new Set(extraLabels.map((l) => l.name))
+    return [...filteredBase.filter((l) => !extraNames.has(l.name)), ...extraLabels]
+  }, [labels, changes, currentYear, data])
 
   const onEachProvince = useCallback((feature: Feature, layer: L.Layer) => {
     const path = layer as L.Path

@@ -5,7 +5,7 @@ import { useUIStore } from '@/stores/useUIStore'
 import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
 import { formatYear } from '@/lib/geo'
 import { connections } from '@/data'
 import { ConnectionList } from './ConnectionList'
@@ -54,6 +54,148 @@ function FactRow({ label, value, source }: { label: string; value: string; sourc
   )
 }
 
+// --- Cross-ref detail (lightweight panel for 94% of nodes without wiki) ---
+
+function CrossRefDetailContent({
+  cr,
+  crKey,
+  onClose,
+}: {
+  cr: import('@/data/wiki').CrossRefEnrichment
+  crKey: string
+  onClose: () => void
+}) {
+  const pid = crKey.startsWith('pleiades:') ? crKey.replace('pleiades:', '') : null
+  const dareId = crKey.startsWith('settlement:') ? crKey.replace('settlement:', '') : null
+
+  const facts: Array<{ label: string; value: string; source?: string }> = []
+  if (cr.ancientName) facts.push({ label: 'Ancient name', value: cr.ancientName, source: 'DARE' })
+  if (cr.greekName) facts.push({ label: 'Greek', value: cr.greekName, source: 'DARE' })
+  if (cr.modernName) facts.push({ label: 'Modern', value: cr.modernName, source: 'DARE' })
+  if (cr.province) facts.push({ label: 'Province', value: cr.province, source: 'ORBIS' })
+  if (cr.startYear != null)
+    facts.push({ label: 'Founded', value: formatYear(cr.startYear), source: 'DARE' })
+  if (cr.endYear != null && cr.endYear < 700)
+    facts.push({ label: 'Until', value: formatYear(cr.endYear), source: 'DARE' })
+  if (cr.tradeRole && cr.tradeRole !== 'city')
+    facts.push({ label: 'Trade role', value: cr.tradeRole, source: 'ORBIS' })
+  if (cr.buildingType) facts.push({ label: 'Type', value: cr.buildingType, source: 'Pleiades' })
+  if (cr.capacity) facts.push({ label: 'Capacity', value: cr.capacity.toLocaleString() })
+  if (cr.dimensions) facts.push({ label: 'Dimensions', value: cr.dimensions })
+  if (cr.combatants) facts.push({ label: 'Combatants', value: cr.combatants })
+  if (cr.commander) facts.push({ label: 'Commander', value: cr.commander })
+  if (cr.outcome) facts.push({ label: 'Outcome', value: cr.outcome })
+  if (cr.ancientTextMentions)
+    facts.push({
+      label: 'Text mentions',
+      value: cr.ancientTextMentions.toLocaleString(),
+      source: 'Pelagios',
+    })
+  if (cr.ancientAuthors?.length)
+    facts.push({
+      label: 'Ancient authors',
+      value: cr.ancientAuthors.join(', '),
+      source: 'Pelagios',
+    })
+
+  return (
+    <div className="flex flex-col h-full">
+      <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-amber-500/50 font-serif italic">
+            Historical Record
+          </span>
+          <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
+            <Shield className="size-2.5" />
+            {cr.sources.length} source{cr.sources.length > 1 ? 's' : ''}
+          </span>
+        </div>
+        <Button
+          variant="ghost"
+          size="icon-sm"
+          onClick={onClose}
+          className="text-slate-500 hover:text-slate-100"
+          aria-label="Close panel"
+        >
+          <X className="size-4" />
+        </Button>
+      </div>
+
+      <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain">
+        <div className="p-4 sm:p-6 space-y-5">
+          <div>
+            <h2 className="font-serif italic text-xl text-slate-100 leading-tight">
+              {cr.ancientName ?? cr.modernName ?? crKey}
+            </h2>
+            {cr.ancientName && cr.modernName && cr.ancientName !== cr.modernName && (
+              <span className="text-[11px] text-slate-400 block mt-0.5">{cr.modernName}</span>
+            )}
+            {cr.greekName && (
+              <span className="text-[11px] text-slate-500 block">{cr.greekName}</span>
+            )}
+          </div>
+
+          {cr.pleiadesDescription && (
+            <p className="text-sm text-slate-300 leading-relaxed">{cr.pleiadesDescription}</p>
+          )}
+
+          {facts.length > 0 && (
+            <>
+              <Separator className="bg-white/[0.05]" />
+              <div>
+                {facts.map((f, i) => (
+                  <FactRow key={i} label={f.label} value={f.value} source={f.source} />
+                ))}
+              </div>
+            </>
+          )}
+
+          <Separator className="bg-white/[0.05]" />
+
+          <div className="space-y-1.5">
+            <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500">
+              Sources
+            </span>
+            <div className="flex flex-wrap gap-1.5">
+              {cr.sources.map((s) => (
+                <span
+                  key={s}
+                  className="text-[10px] text-slate-400 px-1.5 py-0.5 rounded bg-white/[0.04] border border-white/[0.06]"
+                >
+                  {s}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-2 pt-2">
+            {pid && (
+              <a
+                href={`https://pleiades.stoa.org/places/${pid}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
+              >
+                <ExternalLink className="size-3" /> Pleiades
+              </a>
+            )}
+            {dareId && (
+              <a
+                href={`https://dare.ht.lu.se/places/${dareId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
+              >
+                <ExternalLink className="size-3" /> DARE
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // --- Main content ---
 
 function WikiDetailContent({
@@ -66,10 +208,13 @@ function WikiDetailContent({
   featureEntityId: string | null
 }) {
   const closeFeature = useFeatureDetailStore((s) => s.closeFeature)
-  const lookup = useWikiEnrichment(featureLayer === 'cities' ? 'settlements' : featureLayer)
+  const wikiLayer =
+    featureLayer === 'crossref' ? null : featureLayer === 'cities' ? 'settlements' : featureLayer
+  const lookup = useWikiEnrichment(wikiLayer)
   const [sourcesExpanded, setSourcesExpanded] = useState(false)
+  const crossRef = useCrossRef()
 
-  const loading = lookup === null
+  const loading = wikiLayer !== null && lookup === null
   const wiki = lookup?.[featureId] ?? null
 
   if (loading) {
@@ -103,6 +248,10 @@ function WikiDetailContent({
   }
 
   if (!wiki) {
+    const crOnly = featureLayer === 'crossref' ? (crossRef?.[featureId] ?? null) : null
+    if (crOnly) {
+      return <CrossRefDetailContent cr={crOnly} crKey={featureId} onClose={closeFeature} />
+    }
     return (
       <div className="flex items-center justify-center h-full">
         <p className="text-slate-500 text-sm">No Wikipedia data found.</p>

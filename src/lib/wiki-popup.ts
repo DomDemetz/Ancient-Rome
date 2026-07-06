@@ -134,7 +134,11 @@ function pickHighlightFact(
   return null
 }
 
-export function appendCrossRefTooltip(html: string, cr: CrossRefEnrichment): string {
+export function appendCrossRefTooltip(
+  html: string,
+  cr: CrossRefEnrichment,
+  links?: { crKey: string; pid?: string; qid?: string },
+): string {
   const desc = cr.pleiadesDescription
   const isCiteOnly = desc?.startsWith('An ancient place, cited:')
 
@@ -164,6 +168,20 @@ export function appendCrossRefTooltip(html: string, cr: CrossRefEnrichment): str
 
   if (cr.sources.length) {
     crHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} source${cr.sources.length > 1 ? 's' : ''}</span>`
+  }
+
+  if (links) {
+    crHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(links.crKey)}" data-wiki-layer="crossref">Details</button>`
+    const extLinks: string[] = []
+    if (links.pid)
+      extLinks.push(
+        `<a href="https://pleiades.stoa.org/places/${esc(links.pid)}" target="_blank" rel="noopener noreferrer">Pleiades ↗</a>`,
+      )
+    if (links.qid)
+      extLinks.push(
+        `<a href="https://www.wikidata.org/wiki/${esc(links.qid)}" target="_blank" rel="noopener noreferrer">Wikidata ↗</a>`,
+      )
+    if (extLinks.length) crHtml += `<div class="map-tooltip-detail">${extLinks.join(' · ')}</div>`
   }
 
   crHtml += '</div>'
