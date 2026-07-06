@@ -81,7 +81,7 @@ function displayName(p: PlaceNode, year: number): string {
   return p.name
 }
 
-function baseTooltipHtml(p: PlaceNode, name: string, pop: number | null, year: number): string {
+export function baseTooltipHtml(p: PlaceNode, name: string, pop: number | null, year: number): string {
   let html = `<div class="map-tooltip-title">${esc(name)}</div>`
   const sub: string[] = []
   if (p.modern && p.modern !== name) sub.push(esc(p.modern))
@@ -102,6 +102,7 @@ function baseTooltipHtml(p: PlaceNode, name: string, pop: number | null, year: n
   }
   if (p.vici?.length)
     details.push(`${p.vici.length} archaeological site${p.vici.length > 1 ? 's' : ''}`)
+  if (p.near) details.push(`${p.near[1]} km ${p.near[2]} of ${esc(p.near[0])}`)
   if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
   if (year >= 0 && pop != null && pop > 0) {
     // population is the one time-varying fact; date it
