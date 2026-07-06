@@ -22,6 +22,29 @@ EXCLUDE = {
     "Eastern Roman Empire", "Western Roman Empire", "Byzantine Empire",
 }
 
+def ring_centroid(ring):
+    """Shoelace centroid of a polygon exterior ring [[lng,lat],...]."""
+    a = cx = cy = 0.0
+    for i in range(len(ring) - 1):
+        x0, y0 = ring[i]
+        x1, y1 = ring[i + 1]
+        f = x0 * y1 - x1 * y0
+        a += f
+        cx += (x0 + x1) * f
+        cy += (y0 + y1) * f
+    if abs(a) < 1e-9:
+        return ring[0]
+    return [cx / (3 * a), cy / (3 * a)]
+
+def label_point(geom):
+    """Anchor for the polity label: centroid of the largest polygon."""
+    if geom["type"] == "Polygon":
+        ring = geom["coordinates"][0]
+    else:
+        ring = max((p[0] for p in geom["coordinates"]), key=len)
+    lng, lat = ring_centroid(ring)
+    return [round(lat, 2), round(lng, 2)]
+
 def round2(c):
     if isinstance(c[0], (int, float)):
         return [round(c[0], 2), round(c[1], 2)]
@@ -60,12 +83,15 @@ for f in d["features"]:
         continue
     g = f["geometry"]
     coords = dedupe_rings(round2(g["coordinates"]), g["type"])
+    geom = {"type": g["type"], "coordinates": coords}
     rec = {
         "id": re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") + f"-{fy}",
         "name": name,
         "from": fy,
         "to": ty,
-        "geometry": {"type": g["type"], "coordinates": coords},
+        "area": int(float(p.get("Area") or 0)),  # km²
+        "label": label_point(geom),
+        "geometry": geom,
     }
     if p.get("Wikidata"):
         rec["qid"] = p["Wikidata"]

@@ -682,3 +682,24 @@ input[type='range']::-moz-range-thumb {
     scroll-behavior: auto !important;
   }
 }
+
+/* World-empire name labels — uppercase small caps in the polity's own hue,
+   legible over the dark terrain without boxing */
+.empire-label-wrap {
+  background: transparent;
+  border: none;
+}
+.empire-label {
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  filter: brightness(1.5);
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.95),
+    0 0 8px rgba(0, 0, 0, 0.7);
+  opacity: 0.85;
+  pointer-events: none;
+}

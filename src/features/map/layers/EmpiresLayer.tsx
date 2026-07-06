@@ -1,8 +1,10 @@
 import { useMemo } from 'react'
-import { GeoJSON } from 'react-leaflet'
+import { GeoJSON, Marker } from 'react-leaflet'
+import L from 'leaflet'
 import type { EmpireShape } from '@/data/empires'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
+import { useMapViewport } from '@/hooks/useMapViewport'
 
 interface EmpiresLayerProps {
   data: EmpireShape[]
@@ -18,6 +20,15 @@ function polityColor(name: string): string {
   return `hsl(${safeHue}, 52%, 56%)`
 }
 
+/** Minimum polity area (km²) that earns a name label at a given zoom. */
+function labelMinArea(zoom: number): number {
+  if (zoom <= 3) return 700000
+  if (zoom === 4) return 250000
+  if (zoom === 5) return 90000
+  if (zoom === 6) return 30000
+  return 0
+}
+
 function fmtYear(y: number): string {
   return y < 0 ? `${-y} BC` : `${y} AD`
 }
@@ -29,11 +40,17 @@ function fmtYear(y: number): string {
  */
 export function EmpiresLayer({ data }: EmpiresLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const { zoom } = useMapViewport()
 
   const visible = useMemo(
     () => data.filter((e) => e.from <= currentYear && e.to >= currentYear),
     [data, currentYear],
   )
+
+  const labeled = useMemo(() => {
+    const min = labelMinArea(zoom)
+    return visible.filter((e) => e.area >= min)
+  }, [visible, zoom])
 
   return (
     <>
@@ -67,6 +84,18 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
           />
         )
       })}
+      {labeled.map((e) => (
+        <Marker
+          key={`label-${e.id}`}
+          position={e.label}
+          interactive={false}
+          icon={L.divIcon({
+            className: 'empire-label-wrap',
+            html: `<div class="empire-label" style="color:${polityColor(e.name)}">${esc(e.name)}</div>`,
+            iconSize: [0, 0],
+          })}
+        />
+      ))}
     </>
   )
 }

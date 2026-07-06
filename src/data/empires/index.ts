@@ -14,6 +14,10 @@ export interface EmpireShape {
   /** Wikipedia article title */
   wp?: string
   memberOf?: string
+  /** km² (Cliopatria's own figure) */
+  area: number
+  /** label anchor [lat, lng] — centroid of the largest polygon */
+  label: [number, number]
   geometry: {
     type: 'Polygon' | 'MultiPolygon'
     coordinates: unknown[]
