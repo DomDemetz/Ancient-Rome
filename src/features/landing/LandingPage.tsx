@@ -61,6 +61,25 @@ export function LandingPage() {
         </div>
       </section>
 
+      {/* Data stats ribbon */}
+      <section className="mx-auto max-w-4xl px-4 pb-16">
+        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-center">
+          {[
+            ['779', 'Cities'],
+            ['85k+', 'Archaeological Sites'],
+            ['7,800+', 'Buildings'],
+            ['2,283', 'Historical Figures'],
+            ['374', 'Battles'],
+            ['126', 'Emperors'],
+          ].map(([n, label]) => (
+            <div key={label} className="flex items-baseline gap-1.5">
+              <span className="font-serif italic text-xl text-amber-500/80">{n}</span>
+              <span className="text-[9px] uppercase tracking-[0.2em] text-slate-600">{label}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Featured Entities */}
       {featured.length > 0 && (
         <section className="mx-auto max-w-6xl px-4 pb-20">
@@ -102,7 +121,7 @@ export function LandingPage() {
 
                   <div className="mt-4 flex items-center justify-end">
                     <span className="text-[10px] text-amber-500/70 sm:opacity-0 sm:group-hover:opacity-100 sm:translate-x-[-4px] sm:group-hover:translate-x-0 transition-all duration-300 inline-flex items-center gap-1 uppercase tracking-[0.15em] font-semibold">
-                      Investigate <ArrowRight className="size-3" />
+                      Explore <ArrowRight className="size-3" />
                     </span>
                   </div>
                 </button>
