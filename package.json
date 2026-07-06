@@ -85,7 +85,8 @@
     "xlsx": "^0.18.5"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx lint-staged",
+    "pre-push": "npx tsc -b || (echo '\u2717 pre-push: type errors \u2014 fix before pushing (this gate exists because 3 broken pushes reached CI on 2026-07-06)' && exit 1)"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
