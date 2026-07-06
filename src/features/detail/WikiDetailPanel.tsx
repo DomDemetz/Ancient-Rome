@@ -69,12 +69,26 @@ function CrossRefDetailContent({
   const dareId = crKey.startsWith('settlement:') ? crKey.replace('settlement:', '') : null
 
   const facts: Array<{ label: string; value: string; source?: string }> = []
-  if (cr.ancientName) facts.push({ label: 'Ancient name', value: cr.ancientName, source: 'DARE' })
+  if (cr.ancientName) {
+    const nameLabel =
+      crKey.startsWith('battle:') ||
+      crKey.startsWith('amphitheater:') ||
+      crKey.startsWith('building:')
+        ? 'Name'
+        : 'Ancient name'
+    facts.push({ label: nameLabel, value: cr.ancientName, source: 'DARE' })
+  }
   if (cr.greekName) facts.push({ label: 'Greek', value: cr.greekName, source: 'DARE' })
   if (cr.modernName) facts.push({ label: 'Modern', value: cr.modernName, source: 'DARE' })
   if (cr.province) facts.push({ label: 'Province', value: cr.province, source: 'ORBIS' })
-  if (cr.startYear != null)
-    facts.push({ label: 'Founded', value: formatYear(cr.startYear), source: 'DARE' })
+  if (cr.startYear != null) {
+    const yearLabel = crKey.startsWith('battle:')
+      ? 'Date'
+      : crKey.startsWith('amphitheater:') || crKey.startsWith('building:')
+        ? 'Built'
+        : 'Founded'
+    facts.push({ label: yearLabel, value: formatYear(cr.startYear), source: 'DARE' })
+  }
   if (cr.endYear != null && cr.endYear < 700)
     facts.push({ label: 'Until', value: formatYear(cr.endYear), source: 'DARE' })
   if (cr.tradeRole && cr.tradeRole !== 'city')
