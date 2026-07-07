@@ -18,6 +18,7 @@ echo ""
 echo "══════════════════════════════════════════"
 echo "  STEP 1b · Join unified entities to canonical nodes"
 echo "══════════════════════════════════════════"
+python3 scripts/normalize-unified-qids.py
 python3 scripts/attach-nodes-to-unified.py
 echo ""
 
