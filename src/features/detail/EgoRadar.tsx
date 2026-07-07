@@ -85,7 +85,9 @@ export function EgoRadar({ entityId, connections }: EgoRadarProps) {
     <div className="space-y-1">
       <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">Connections</p>
       <div className="flex justify-center">
-        <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`}>
+        {/* 32px side margins: the left/right axis labels center ~11px from
+            the edge and were clipping to 'ultural' / 'ilitary' */}
+        <svg width={SIZE + 64} height={SIZE} viewBox={`-32 0 ${SIZE + 64} ${SIZE}`}>
           {/* Grid circles */}
           {Array.from({ length: GRID_CIRCLES }, (_, i) => (
             <circle
