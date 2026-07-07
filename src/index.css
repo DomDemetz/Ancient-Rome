@@ -437,6 +437,27 @@
   background: radial-gradient(115% 115% at 50% 45%, transparent 62%, rgba(8, 6, 3, 0.32) 100%);
 }
 
+/* First-visit play nudge: a slow amber breath on the play button until the
+   timeline first runs. Quiet on purpose — an invitation, not an alarm. */
+@keyframes play-nudge-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(245, 158, 11, 0);
+  }
+}
+.play-nudge {
+  animation: play-nudge-pulse 2.6s ease-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .play-nudge {
+    animation: none;
+    box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.3);
+  }
+}
+
 /* Search highlight pulse */
 @keyframes search-pulse {
   0% {

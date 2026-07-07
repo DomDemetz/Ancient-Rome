@@ -103,6 +103,11 @@ export function TimelinePlayer() {
     }
   }, [playing, speed, pause, setYear])
 
+  // First-visit nudge: the time-lapse IS the product, but nothing invited a
+  // new visitor to press play. A quiet pulse on the play button until the
+  // timeline first runs (from ANY source — presets count), then never again.
+  const neverPlayed = useTimelineStore((s) => !s.hasEverPlayed)
+
   const handleTogglePlay = () => {
     if (currentYear >= MAX_YEAR) {
       setYear(MIN_YEAR)
@@ -146,7 +151,7 @@ export function TimelinePlayer() {
           onClick={handleTogglePlay}
           className={`flex items-center justify-center w-10 h-10 min-w-[44px] min-h-[44px] rounded-full shrink-0 transition-all ${
             playing ? 'bg-amber-500/15 text-amber-400' : 'bg-white/[0.05] text-amber-500'
-          }`}
+          } ${!playing && neverPlayed ? 'play-nudge' : ''}`}
           aria-label={playing ? 'Pause' : 'Play'}
         >
           {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-px" />}
@@ -191,7 +196,7 @@ export function TimelinePlayer() {
             playing
               ? 'bg-amber-500/10 border border-amber-500/20 hover:bg-amber-500/15'
               : 'bg-white/[0.05] border border-white/[0.06] hover:bg-white/[0.08]'
-          }`}
+          } ${!playing && neverPlayed ? 'play-nudge' : ''}`}
           aria-label={playing ? 'Pause' : 'Play'}
         >
           {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-0.5" />}
@@ -261,8 +266,11 @@ export function TimelinePlayer() {
           key={currentEra.label}
           className="text-xs text-amber-400/75 font-serif italic tracking-[0.08em] transition-colors duration-300"
         >
+          {/* era ends are half-open (next era starts there) except 476 and
+              the timeline's own last year — 'Late Byzantine → 1452' undersold
+              the fall of Constantinople by a year */}
           {currentEra.label} ({formatYear(currentEra.start)} →{' '}
-          {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})
+          {formatYear([476, 1453].includes(currentEra.end) ? currentEra.end : currentEra.end - 1)})
         </span>
       </div>
     </div>
