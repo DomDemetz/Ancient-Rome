@@ -29,4 +29,30 @@ describe('baseTooltipHtml', () => {
     }
     expect(baseTooltipHtml(node, 'Rome', 430000, 117)).not.toContain(' of Rome')
   })
+
+  it('names the trade role for ORBIS-joined nodes', () => {
+    const node: PlaceNode = {
+      id: 'pl-383613',
+      name: 'Placentia',
+      lat: 45.05,
+      lng: 9.7,
+      startYear: -218,
+      endYear: 1453,
+      orbis: { id: 'placentia', type: 'city' },
+    }
+    expect(baseTooltipHtml(node, 'Placentia', null, 117)).toContain('Trade hub')
+  })
+
+  it('falls back to a generic label for unknown ORBIS types', () => {
+    const node: PlaceNode = {
+      id: 'pl-x',
+      name: 'X',
+      lat: 0,
+      lng: 0,
+      startYear: 0,
+      endYear: 0,
+      orbis: { id: 'x', type: 'weird_future_type' },
+    }
+    expect(baseTooltipHtml(node, 'X', null, 117)).toContain('Trade site')
+  })
 })

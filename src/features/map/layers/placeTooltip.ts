@@ -3,6 +3,14 @@ import { esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { DARE_TYPE_LABELS, DARE_TYPE_TO_CATEGORY, CATEGORY_STYLES } from './settlementStyles'
 
+/** ORBIS siteType → popup wording (a place's role in the trade network). */
+export const TRADE_ROLE_LABELS: Record<string, string> = {
+  major_port: 'Major trade port',
+  port: 'Trade port',
+  city: 'Trade hub',
+  junction: 'Route junction',
+}
+
 export function fmtPop(pop: number): string {
   if (pop >= 1000000) return `${(pop / 1000000).toFixed(1)}M`
   if (pop >= 1000) return `${Math.round(pop / 1000)}K`
@@ -42,6 +50,7 @@ export function baseTooltipHtml(
   }
   if (p.vici?.length)
     details.push(`${p.vici.length} archaeological site${p.vici.length > 1 ? 's' : ''}`)
+  if (p.orbis) details.push(TRADE_ROLE_LABELS[p.orbis.type] ?? 'Trade site')
   if (p.near) details.push(`${p.near[1]} km ${p.near[2]} of ${esc(p.near[0])}`)
   if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
   if (year >= 0 && pop != null && pop > 0) {

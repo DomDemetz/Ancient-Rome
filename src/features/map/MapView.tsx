@@ -309,7 +309,12 @@ export function MapView() {
               Nothing dateless can appear, so none of it pops up at the wrong era. */}
           {showRoads && roadsData && <RoadLayer data={roadsData} />}
           {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
-          {showTradeNetwork && tradeNetworkData && <TradeNetworkLayer data={tradeNetworkData} />}
+          {showTradeNetwork && tradeNetworkData && (
+            <TradeNetworkLayer
+              data={tradeNetworkData}
+              placesOn={showSettlements || showCities}
+            />
+          )}
           {showVici && viciData && (
             <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
           )}

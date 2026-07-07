@@ -1,11 +1,19 @@
 import { useMemo } from 'react'
 import { CircleMarker, Polyline, Popup } from 'react-leaflet'
-import type { TradeNetwork } from '@/data/trade'
+import type { TradeNetwork, TradeNode } from '@/data/trade'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapViewport } from '@/hooks/useMapViewport'
+import { esc } from '@/lib/wiki-popup'
+import { TRADE_ROLE_LABELS } from './placeTooltip'
 
 interface TradeNetworkLayerProps {
   data: TradeNetwork
+  /**
+   * Settlements/Cities visible: the canonical place dots own every joined
+   * site (site.node), so the trade layer draws only routes and the pure
+   * topology junctions (capes, river mouths) that aren't places.
+   */
+  placesOn: boolean
 }
 
 // muted family — sea routes in a hushed slate-teal instead of loud cyan,
@@ -50,7 +58,16 @@ function getTemporalOpacity(
   return opacity
 }
 
-export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
+function sitePopupHtml(site: TradeNode): string {
+  let html = `<div class="map-tooltip-title">${esc(site.name)}</div>`
+  const sub = [site.modern, site.province].filter(Boolean).map(esc)
+  if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
+  const role = TRADE_ROLE_LABELS[site.siteType] ?? 'Trade site'
+  html += `<div class="map-tooltip-detail">${role} · ORBIS network</div>`
+  return html
+}
+
+export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
 
@@ -87,6 +104,9 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
   const visibleSites = useMemo(() => {
     if (zoom < 4) return []
     return data.sites.filter((s) => {
+      // Joined sites are settlements — when the places layer is on it owns
+      // their dots (with the trade role in its popup); no double datapoints
+      if (placesOn && s.node) return false
       // Temporal filtering
       if (!shouldShowTemporal(s.territoryYear, s.declineYear, currentYear)) return false
       // At low zoom, only show major sites
@@ -101,7 +121,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
       }
       return true
     })
-  }, [data.sites, zoom, bounds, currentYear])
+  }, [data.sites, zoom, bounds, currentYear, placesOn])
 
   const routeWeight = zoom >= 7 ? 2 : zoom >= 5 ? 1.4 : 1
   const siteRadius = zoom >= 7 ? 5 : zoom >= 5 ? 4 : 3
@@ -156,7 +176,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
             bubblingMouseEvents={false}
           >
             <Popup offset={[0, -4]} closeButton={false}>
-              {`${site.name} (${site.siteType.replaceAll('_', ' ')})`}
+              <span dangerouslySetInnerHTML={{ __html: sitePopupHtml(site) }} />
             </Popup>
           </CircleMarker>
         )
