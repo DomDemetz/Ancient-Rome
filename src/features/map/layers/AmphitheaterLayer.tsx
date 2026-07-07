@@ -30,8 +30,12 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
 
   const visible = useMemo(() => {
     return data.filter((a) => {
-      // Show amphitheaters that were built at or before the current year
+      // Show amphitheaters that were built at or before the current year.
+      // Undated ones wait for the building type to exist at all — the oldest
+      // known stone amphitheater (Pompeii) is ~70 BC; before that an undated
+      // dot is an anachronism, not a maybe.
       if (a.constructionYear != null && a.constructionYear > currentYear) return false
+      if (a.constructionYear == null && currentYear < -70) return false
 
       // Zoom threshold - show at zoom 6+
       if (zoom < 6) return false

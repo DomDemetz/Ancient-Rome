@@ -109,6 +109,8 @@ export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {
       if (placesOn && s.node) return false
       // Temporal filtering
       if (!shouldShowTemporal(s.territoryYear, s.declineYear, currentYear)) return false
+      // Fully faded-out (opacity 0) would still be an invisible click target
+      if (getTemporalOpacity(s.territoryYear, s.declineYear, currentYear, 0.9) === 0) return false
       // At low zoom, only show major sites
       if (zoom < 6 && s.siteType !== 'major_port' && s.siteType !== 'city') return false
       if (zoom >= 7) {
@@ -141,7 +143,12 @@ export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {
             pathOptions={{
               color,
               weight: routeWeight,
-              opacity: getTemporalOpacity(route.territoryYear, route.declineYear, currentYear, 0.45),
+              opacity: getTemporalOpacity(
+                route.territoryYear,
+                route.declineYear,
+                currentYear,
+                0.45,
+              ),
               dashArray,
             }}
           >
@@ -156,6 +163,14 @@ export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {
       {visibleSites.map((site) => {
         const color = SITE_COLORS[site.siteType] || '#95a5a6'
         const radius = site.siteType === 'major_port' ? siteRadius + 1 : siteRadius
+        // Stroke fades with the fill — a not-yet-faded-in site otherwise
+        // renders as a ghost ring (dark outline around an empty center)
+        const fillOpacity = getTemporalOpacity(
+          site.territoryYear,
+          site.declineYear,
+          currentYear,
+          0.9,
+        )
 
         return (
           <CircleMarker
@@ -165,13 +180,9 @@ export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {
             pathOptions={{
               color: '#2c3e50',
               weight: 1,
+              opacity: fillOpacity,
               fillColor: color,
-              fillOpacity: getTemporalOpacity(
-                site.territoryYear,
-                site.declineYear,
-                currentYear,
-                0.9,
-              ),
+              fillOpacity,
             }}
             bubblingMouseEvents={false}
           >
