@@ -23,8 +23,11 @@ const OUTCOME_COLORS: Record<string, string> = {
 }
 
 function buildTooltipHtml(b: Battle): string {
-  const title =
-    b.name.startsWith('Battle of') || b.name.startsWith('Siege of') ? b.name : `Battle of ${b.name}`
+  // Only bare toponyms ("Artaxata") earn a "Battle of" prefix. Every
+  // multi-word name in the dataset already describes its event — the old
+  // startsWith check produced "Battle of Battle near Burdigala",
+  // "Battle of Fall of Constantinople", "Battle of Pompey's Pirate War".
+  const title = /\s/.test(b.name) ? b.name : `Battle of ${b.name}`
   let html = `<div class="map-tooltip-title">${esc(title)}</div>`
   html += `<div class="map-tooltip-sub">${formatYear(b.year)} · ${esc(b.combatants)}</div>`
   const details: string[] = []
