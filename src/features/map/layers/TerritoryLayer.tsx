@@ -202,9 +202,11 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
   // wrapping empire has its centroid at sea, so the name anchors at the
   // civilizational heart instead: Rome names itself from Italy, the
   // Eastern Empire from Anatolia.
+  // era-aware: Byzantium's name lives in Anatolia until 1204, then in
+  // Thrace — after Manzikert/1204 the Anatolian heartland is someone else's
   const NAME_ANCHORS: Record<string, [number, number]> = {
     rome: [41.1, 14.9],
-    'eastern-empire': [39.2, 31.5],
+    'eastern-empire': currentYear < 1204 ? [39.2, 31.5] : [41.6, 26.5],
   }
   const nameMarkers = active
     .map((snap) => {
