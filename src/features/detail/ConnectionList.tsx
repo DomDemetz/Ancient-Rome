@@ -16,7 +16,9 @@ function getConnectedEntity(entityId: string, conn: Connection): Entity | undefi
   return entities.find((e) => e.id === otherId)
 }
 
-function formatConnectionType(type: string): string {
+function formatConnectionType(type: string, other?: Entity): string {
+  // events aren't 'located in' a place — they happened there
+  if (type === 'located_in' && other?.entityType === 'event') return 'happened in'
   return type.replace(/_/g, ' ')
 }
 
@@ -91,7 +93,7 @@ export function ConnectionList({ entityId, connections }: ConnectionListProps) {
                     )}
                   </span>
                   <span className="text-[10px] text-slate-500 capitalize">
-                    {formatConnectionType(conn.connectionType)}
+                    {formatConnectionType(conn.connectionType, other)}
                   </span>
                 </span>
                 <ChevronRight className="size-4 shrink-0 text-slate-600 group-hover:text-amber-500 transition-colors" />
