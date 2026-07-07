@@ -177,8 +177,14 @@ export function SearchBar() {
   const searchItems = useMemo(() => {
     const items: SearchItem[] = []
 
-    // Entities (people, events, locations, etc.)
+    // Entities (people, events, locations, etc.). People that also exist in
+    // the notable-people manifest are skipped: the manifest row carries
+    // coordinates and a working detail panel, while the bare graph entity
+    // dead-ended in "Person not found" (Julius Caesar appeared twice and
+    // the first result was the broken one).
+    const manifestPeople = new Set(PEOPLE_SEARCH.map((p) => p.n.toLowerCase()))
     for (const e of entities) {
+      if (e.entityType === 'person' && manifestPeople.has(e.name.toLowerCase())) continue
       const item: SearchItem = {
         id: `entity-${e.id}`,
         name: e.name,
@@ -186,11 +192,11 @@ export function SearchBar() {
         color: entityColors[e.entityType] || '#95a5a6',
         entityId: e.id,
       }
-      if (
-        e.entityType === 'location' &&
-        (e as Entity & { coordinates?: { lat: number; lng: number } }).coordinates
-      ) {
-        const loc = e as Entity & { coordinates: { lat: number; lng: number } }
+      // Any entity with coordinates is a map destination — the Colosseum
+      // (infrastructure) opened its record but the map never flew there
+      // because only 'location' entities kept their coordinates.
+      const loc = e as Entity & { coordinates?: { lat: number; lng: number } }
+      if (loc.coordinates) {
         item.lat = loc.coordinates.lat
         item.lng = loc.coordinates.lng
       }
@@ -267,7 +273,14 @@ export function SearchBar() {
         color: CATEGORY_COLORS.person,
         lat: p.lat,
         lng: p.lng,
-        year: p.b > 0 ? p.b : p.d != null ? p.d : undefined,
+        // mid-life, same convention as emperors' mid-reign — `p.b > 0`
+        // rejected every BC birth, so Caesar arrived at his death year
+        year:
+          p.b !== 0 && p.d != null
+            ? Math.round((p.b + p.d) / 2)
+            : p.b !== 0
+              ? p.b
+              : (p.d ?? undefined),
         sub: p.r,
       })
     }
@@ -516,8 +529,10 @@ export function SearchBar() {
       }
     }
 
-    // People: open the detail sidepanel with their Wikipedia extract
-    if (item.category === 'Person') {
+    // People from the manifest: open the detail sidepanel with their
+    // Wikipedia extract. Only manifest ids embed a QID — entity-sourced
+    // people fed the panel a raw entity id and got "Person not found".
+    if (item.category === 'Person' && item.id.startsWith('person-')) {
       const qid = item.id.replace('person-', '')
       useFeatureDetailStore.getState().openFeature(qid, 'people', qid)
     }
@@ -607,7 +622,7 @@ export function SearchBar() {
               className="size-2 rounded-full shrink-0"
               style={{ backgroundColor: item.color }}
             />
-            <span className="text-[9px] uppercase tracking-[0.14em] text-slate-500 shrink-0 w-16">
+            <span className="text-[9px] uppercase tracking-[0.14em] text-slate-500 shrink-0 w-20 truncate">
               {item.category}
             </span>
             <span className="text-slate-100 truncate">{item.name}</span>
