@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
+import { populationAt } from '@/data/places'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
@@ -112,6 +113,14 @@ export function PlacesLayer({
       if (p.startYear === 0 && p.dare?.territoryYear != null) {
         if (currentYear < p.dare.territoryYear + 20) return false
         if (p.dare.declineYear != null && currentYear > p.dare.declineYear + 50) return false
+      }
+
+      // Dot discipline at empire zooms: an unlabeled dot is noise. Below
+      // zoom 6, a population node renders only if it earns a label at the
+      // CURRENT year (ghost-dots from off-curve years included).
+      if (hasPop && zoom <= 5) {
+        const cur = populationAt(p.populations!, currentYear)
+        if (cur == null || cur < (zoom <= 4 ? 250000 : 120000)) return false
       }
 
       // Zoom rules: population nodes always visible; DARE nodes by type;

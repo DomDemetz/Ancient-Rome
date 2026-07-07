@@ -8,6 +8,7 @@ import { territories } from '@/data'
 import { useMapLayerStore, getPersistedLayers } from '@/stores/useMapLayerStore'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
+import { SeaLabels } from './layers/SeaLabels'
 import { RoadLayer } from './layers/RoadLayer'
 import { PlacesLayer } from './layers/PlacesLayer'
 import { LimesLayer } from './layers/LimesLayer'
@@ -299,6 +300,7 @@ export function MapView() {
           {/* The world's polities (Cliopatria/Seshat, CC BY 4.0) — beneath Rome */}
           {showEmpires && empiresData && <EmpiresLayer data={empiresData} />}
           {showTerritories && <TerritoryLayer snapshots={territories} />}
+          <SeaLabels />
 
           {/* Base layers — every record is date-bounded and self-filters (start/
               end or attested/decline years), so they render across the WHOLE
