@@ -5,6 +5,16 @@ import type { EmpireShape } from '@/data/empires'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
+import citiesSearchJson from '@/data/registry/cities-search.json'
+
+// labeled-city obstacles: the great cities carry their own labels, and an
+// empire name straddling one reads as a collision (Ottoman/Prusa, 1453)
+const CITY_OBSTACLES = citiesSearchJson as Array<{
+  lat: number
+  lng: number
+  s: number
+  e: number
+}>
 
 interface EmpiresLayerProps {
   data: EmpireShape[]
@@ -85,24 +95,37 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
     [data, currentYear],
   )
 
+  const currentYearForObstacles = useTimelineStore((s) => s.currentYear)
   const labeled = useMemo(() => {
     const min = labelMinArea(zoom)
     const candidates = visible.filter((e) => e.area >= min).sort((a, b) => b.area - a.area)
+    const pxPerDegX = (256 * 2 ** zoom) / 360
+    const obstacles = CITY_OBSTACLES.filter(
+      (c) => c.s <= currentYearForObstacles && c.e >= currentYearForObstacles,
+    ).map((c) => [
+      c.lng * pxPerDegX * Math.cos((c.lat * Math.PI) / 180),
+      c.lat * pxPerDegX,
+    ])
     // Greedy declutter: biggest polities claim label space first; anything
     // whose anchor would land within ~1 label-height x ~8em of a placed
     // label is suppressed at this zoom (it reappears when zooming in).
-    const pxPerDegX = (256 * 2 ** zoom) / 360
     const placed: Array<[number, number]> = []
-    const out: EmpireShape[] = []
+    const out: Array<{ e: EmpireShape; dodge: number }> = []
     for (const e of candidates) {
       const x = e.label[1] * pxPerDegX * Math.cos((e.label[0] * Math.PI) / 180)
-      const y = e.label[0] * pxPerDegX
+      let y = e.label[0] * pxPerDegX
       if (placed.some(([px, py]) => Math.abs(px - x) < 110 && Math.abs(py - y) < 26)) continue
+      // dodge a labeled city sitting inside the name's box: nudge north
+      let dodge = 0
+      if (obstacles.some(([ox, oy]) => Math.abs(ox - x) < 100 && Math.abs(oy - y) < 22)) {
+        dodge = 0.32 * (360 / (256 * 2 ** zoom)) * 24 // ~24px in degrees
+        y += 24
+      }
       placed.push([x, y])
-      out.push(e)
+      out.push({ e, dodge })
     }
     return out
-  }, [visible, zoom])
+  }, [visible, zoom, currentYearForObstacles])
 
   return (
     <>
@@ -134,10 +157,10 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
           />
         )
       })}
-      {labeled.map((e) => (
+      {labeled.map(({ e, dodge }) => (
         <Marker
           key={`label-${e.id}`}
-          position={e.label}
+          position={[e.label[0] + dodge, e.label[1]]}
           interactive={false}
           icon={L.divIcon({
             className: 'empire-label-wrap',

@@ -8,6 +8,7 @@ import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { DARE_TYPE_TO_CATEGORY, getSettlementStyle } from './settlementStyles'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { baseTooltipHtml, displayName } from './placeTooltip'
+import empiresSearchJson from '@/data/registry/empires-search.json'
 
 interface PlacesLayerProps {
   data: PlaceNode[]
@@ -155,6 +156,25 @@ export function PlacesLayer({
         return kb - ka || a.id.localeCompare(b.id)
       })
     const placed: Array<[number, number]> = []
+    // empire-name anchors are obstacles: a minor name under ROMAN EMPIRE
+    // is unreadable both ways
+    for (const em of empiresSearchJson as Array<{ lat: number; lng: number; s: number; e: number }>) {
+      if (em.s <= currentYear && em.e >= currentYear) {
+        placed.push([
+          em.lng * pxPerDegX * Math.cos((em.lat * Math.PI) / 180),
+          em.lat * pxPerDegX,
+        ])
+      }
+    }
+    // Rome/Byzantium name themselves from the territory layer (not in the
+    // empires manifest) — same anchors as TerritoryLayer.NAME_ANCHORS
+    const imperial: Array<[number, number]> = [
+      [41.1, 14.9],
+      currentYear < 1204 ? [39.2, 31.5] : [41.6, 26.5],
+    ]
+    for (const [alat, alng] of imperial) {
+      placed.push([alng * pxPerDegX * Math.cos((alat * Math.PI) / 180), alat * pxPerDegX])
+    }
     const out = new Set<string>()
     for (const p of candidates) {
       const x = p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180)
@@ -164,7 +184,7 @@ export function PlacesLayer({
       out.add(p.id)
     }
     return out
-  }, [visible, zoom])
+  }, [visible, zoom, currentYear])
 
   return (
     <>
