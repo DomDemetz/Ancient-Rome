@@ -185,7 +185,7 @@ function CrossRefDetailContent({
           )}
           <div>
             <h2 className="font-serif italic text-xl text-slate-100 leading-tight">
-              {cr.ancientName ?? cr.modernName ?? cr.name ?? crKey}
+              {cr.ancientName ?? cr.modernName ?? cr.name ?? cr.label ?? crKey}
             </h2>
             {cr.ancientName && cr.modernName && cr.ancientName !== cr.modernName && (
               <span className="text-[11px] text-slate-400 block mt-0.5">{cr.modernName}</span>
@@ -199,7 +199,9 @@ function CrossRefDetailContent({
             const desc = cr.pleiadesDescription
             const isCiteOnly = desc?.startsWith('An ancient place, cited:')
             const displayDesc =
-              !desc || isCiteOnly ? (cr.wikidataDescription ?? cr.description) : desc
+              !desc || isCiteOnly
+                ? (cr.wikiExtract ?? cr.wikidataDescription ?? cr.description)
+                : desc
             if (!displayDesc) return null
             return (
               <p className="text-sm text-slate-300 leading-relaxed">

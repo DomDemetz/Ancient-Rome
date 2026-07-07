@@ -258,8 +258,12 @@ export function PlacesLayer({
             qid: p.qid,
           })
         }
-        if (!k && (p.qid || p.pid)) {
-          const detailId = p.pid ? `pleiades:${p.pid}` : `settlement:${p.id}`
+        if (!k && (p.qid || p.pid || p.id.startsWith('wd-'))) {
+          const detailId = p.pid
+            ? `pleiades:${p.pid}`
+            : p.id.startsWith('wd-')
+              ? p.id
+              : `settlement:${p.id}`
           popupHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(detailId)}" data-wiki-layer="crossref">Read more</button>`
         }
 
