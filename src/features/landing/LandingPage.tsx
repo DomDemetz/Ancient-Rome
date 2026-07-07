@@ -65,7 +65,7 @@ export function LandingPage() {
       <section className="mx-auto max-w-4xl px-4 pb-16">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-center">
           {[
-            ['28,500+', 'Settlements'],
+            ['55,200+', 'Settlements'],
             ['22,100+', 'Archaeological Sites'],
             ['5,700+', 'Buildings & Structures'],
             ['2,283', 'Historical Figures'],

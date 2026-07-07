@@ -124,8 +124,8 @@ export function PlacesLayer({
       if (p.endYear !== 0 && p.endYear < currentYear) return false
       // Unknown end ≠ immortal: DARE-only nodes without an attested end stop
       // at the archaeological data horizon (~800); population nodes carry on
-      // via their own curves.
-      if (!hasPop && p.endYear === 0 && currentYear > 800) return false
+      // via their own curves. Wikidata-sourced places (wd-*) persist.
+      if (!hasPop && p.endYear === 0 && currentYear > 800 && !!p.dare) return false
       // Territory-correlated undated settlements: visible 20y after control
       if (p.startYear === 0 && p.dare?.territoryYear != null) {
         if (currentYear < p.dare.territoryYear + 20) return false
