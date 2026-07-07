@@ -167,6 +167,9 @@ WRONG_TYPE_KEYWORDS = {
     'hotel', 'restaurant', 'shopping', 'mall', 'highway', 'motorway',
     'metro', 'tram', 'bus', 'football', 'soccer', 'cricket', 'basketball',
     'cemetery', 'parking', 'garage', 'cinema', 'theater',
+    'town hall', 'city hall', 'municipality', 'commune', 'installation sportive',
+    'direzione didattica', 'fire station', 'police', 'post office',
+    'kindergarten', 'nursery', 'supermarket', 'bank', 'pharmacy',
 }
 
 def match_entity(entity, nearby, config):
@@ -192,6 +195,20 @@ def match_entity(entity, nearby, config):
         name_score = word_overlap_score(name, wd_label)
         if name_score < config['name_threshold']:
             continue
+
+        # Single-word names are ambiguous — require type match unless
+        # the Wikidata description hints at archaeology/history
+        name_words = normalize(name).split()
+        if len(name_words) == 1 and len(name_words[0]) < 12:
+            has_historical_hint = any(h in wd_desc for h in [
+                'roman', 'ancient', 'archaeological', 'ruin', 'temple',
+                'villa', 'tomb', 'bridge', 'fort', 'amphitheat',
+                'aqueduct', 'basilica', 'church', 'mosque', 'synagogue',
+                'battle', 'siege', 'mine', 'quarry', 'shipwreck',
+            ])
+            wd_types_set = set(wd_data.get('types', []))
+            if not bool(wd_types_set & config['types']) and not has_historical_hint:
+                continue
 
         # Type matching
         wd_types = set(wd_data.get('types', []))
