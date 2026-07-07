@@ -30,6 +30,10 @@ W = lambda n: json.load(open(os.path.join(BASE, "wiki", n)))
 places = json.load(open(os.path.join(BASE, "places", "places.json")))
 setl = W("settlements-wiki.json")
 cross = W("cross-reference.json")
+try:
+    wd_wiki = W("wd-wiki.json")  # Wikidata settlement extracts (node-id keyed)
+except FileNotFoundError:
+    wd_wiki = {}
 
 def base_entry(wiki, src):
     e = {k: wiki[k] for k in ("extract", "romanEraExtract", "wikiTitle", "wikipediaUrl",
@@ -46,6 +50,8 @@ for p in places:
     ref = p.get("wiki")
     if ref and ref[0] == "settlements" and ref[1] in setl:
         entry = base_entry(setl[ref[1]], "settlements-wiki")
+    elif p["id"] in wd_wiki and wd_wiki[p["id"]].get("extract"):
+        entry = base_entry(wd_wiki[p["id"]], "wd-wiki")
     # cross-ref by settlement / pleiades keys
     cr = None
     if p.get("dare"):
@@ -103,6 +109,7 @@ for fname, prefix in [("emperors-wiki.json", "emperor"), ("legions-wiki.json", "
 
 # Merge with previous builds: preserve fetched content (extracts,
 # thumbnails, wiki URLs) that isn't derivable from wiki source files.
+node_ids = {p["id"] for p in places}
 for name, store in [("places", k_places), ("features", k_feat)]:
     prev_path = os.path.join(BASE, "knowledge", f"{name}.json")
     if os.path.exists(prev_path):
@@ -111,6 +118,11 @@ for name, store in [("places", k_places), ("features", k_feat)]:
         merged = 0
         for k, v in prev.items():
             if k not in store:
+                # never resurrect an entry whose canonical node is gone —
+                # preservation kept 482 ghost-town extracts alive after
+                # their nodes were dropped by the zero-start gate
+                if name == "places" and k not in node_ids:
+                    continue
                 if v.get("extract") or v.get("wikipediaUrl"):
                     store[k] = v
                     preserved += 1
