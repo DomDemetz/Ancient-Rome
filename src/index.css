@@ -407,18 +407,23 @@
   }
 }
 
-/* Province name labels on the map */
+/* Province name labels: same serif small-caps family as polity names but
+   smaller, in the admin layer's cool lavender ink — administrative
+   divisions whisper beneath political names. (Bold white sans read as a
+   different product pasted onto the atlas.) */
 .province-label {
-  font-size: 12px;
+  font-family: var(--font-serif);
+  font-size: 10.5px;
   font-weight: 600;
-  color: rgba(210, 200, 235, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(200, 192, 222, 0.78);
   white-space: nowrap;
   pointer-events: none;
   text-shadow:
-    1px 1px 3px rgba(0, 0, 0, 0.9),
-    0 0 6px rgba(0, 0, 0, 0.5);
+    0 1px 3px rgba(0, 0, 0, 0.95),
+    0 0 8px rgba(0, 0, 0, 0.6);
   transform: translate(-50%, -50%);
-  letter-spacing: 0.5px;
 }
 
 /* Search highlight pulse */

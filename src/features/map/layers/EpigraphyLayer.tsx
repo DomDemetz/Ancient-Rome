@@ -38,6 +38,11 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
       if (c.startYear > currentYear) return false
       if (c.endYear < currentYear) return false
       if (zoom < 4) return false
+      // Density needs contrast to read as density: at empire zoom only the
+      // great epigraphic centers speak — drawing every grid cluster carpeted
+      // the whole empire in even yellow dots (looked like a malfunction).
+      if (zoom <= 5 && c.count < 500) return false
+      if (zoom === 6 && c.count < 50) return false
       if (zoom >= 7) {
         return (
           c.lat >= bounds.getSouth() &&
@@ -59,7 +64,7 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
           radius={getRadius(c.count, zoom)}
           pathOptions={{
             color: 'transparent',
-            fillColor: '#f1c40f',
+            fillColor: '#d9b45b',
             fillOpacity: getOpacity(c.count),
           }}
           bubblingMouseEvents={false}
