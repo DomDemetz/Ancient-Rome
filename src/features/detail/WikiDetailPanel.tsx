@@ -5,7 +5,7 @@ import { useUIStore } from '@/stores/useUIStore'
 import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
-import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment, useCrossRef, isCrossRefLoading } from '@/hooks/useWikiEnrichment'
 import { formatYear } from '@/lib/geo'
 import { connections } from '@/data'
 import { ConnectionList } from './ConnectionList'
@@ -555,6 +555,18 @@ function WikiDetailContent({
     const crOnly = featureLayer === 'crossref' ? (crossRef?.[featureId] ?? null) : null
     if (crOnly) {
       return <CrossRefDetailContent cr={crOnly} crKey={featureId} onClose={closeFeature} />
+    }
+    if (featureLayer === 'crossref' && isCrossRefLoading()) {
+      return (
+        <div className="space-y-4 p-6">
+          <div className="h-48 rounded-lg bg-white/[0.04] animate-pulse" />
+          <div className="space-y-2">
+            <div className="h-5 w-48 rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-full rounded bg-white/[0.04] animate-pulse" />
+            <div className="h-3 w-3/4 rounded bg-white/[0.04] animate-pulse" />
+          </div>
+        </div>
+      )
     }
     return (
       <div className="flex items-center justify-center h-full">

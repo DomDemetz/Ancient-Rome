@@ -72,6 +72,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     layers: [
       'showReligion',
       'showBuildings',
+      'showUnifiedTemples',
       'showSettlements',
       'showCities',
       'showProvinces',
@@ -109,6 +110,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showAmphitheaters',
       'showBuildings',
       'showAqueducts',
+      'showUnifiedBridges',
       'showWater',
     ],
   },
