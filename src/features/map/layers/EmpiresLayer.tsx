@@ -45,16 +45,35 @@ const POLITY_PALETTE = [
   '#79969a', // pewter
 ]
 
-function polityColor(name: string): string {
+function hashStr(s: string): number {
   let h = 0
-  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0
-  return POLITY_PALETTE[h % POLITY_PALETTE.length]
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0
+  return h
+}
+
+/** Vassals wear their suzerain's hue with a per-member shade — feudal
+ *  fragmentation reads as texture WITHIN a realm (France's duchies, the
+ *  HRE minors, the taifas), not as unrelated confetti beside it. */
+function polityColor(name: string, memberOf?: string): string {
+  const family = memberOf && memberOf.length > 2 ? memberOf : name
+  const base = POLITY_PALETTE[hashStr(family) % POLITY_PALETTE.length]
+  if (family === name) return base
+  // member shade: nudge lightness by a stable ±12% step
+  const n = parseInt(base.slice(1), 16)
+  const step = (hashStr(name) % 5) - 2 // -2..2
+  const f = (v: number) => {
+    const adj = v + step * 0.06 * (step > 0 ? 255 - v : v)
+    return Math.max(0, Math.min(255, Math.round(adj)))
+  }
+  return `#${f(n >> 16).toString(16).padStart(2, '0')}${f((n >> 8) & 255)
+    .toString(16)
+    .padStart(2, '0')}${f(n & 255).toString(16).padStart(2, '0')}`
 }
 
 /** Border ink: the polity's own color darkened ~40% — the paper-atlas
  *  convention (crisp state edges, no added hue noise). */
-function polityBorder(name: string): string {
-  const hex = polityColor(name)
+function polityBorder(name: string, memberOf?: string): string {
+  const hex = polityColor(name, memberOf)
   const n = parseInt(hex.slice(1), 16)
   const d = (v: number) => Math.round(v * 0.58)
   return `rgb(${d(n >> 16)}, ${d((n >> 8) & 255)}, ${d(n & 255)})`
@@ -130,14 +149,14 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
   return (
     <>
       {visible.map((e) => {
-        const color = polityColor(e.name)
+        const color = polityColor(e.name, e.memberOf)
         return (
           <GeoJSON
             key={e.id}
             data={e.geometry as GeoJSON.GeometryObject}
             pane="empiresFill"
             style={{
-              color: polityBorder(e.name),
+              color: polityBorder(e.name, e.memberOf),
               weight: 1.6,
               opacity: 0.65,
               fillColor: color,
