@@ -755,3 +755,24 @@ input[type='range']::-moz-range-thumb {
   opacity: 0.78;
   letter-spacing: 0.04em;
 }
+
+/* Attribution: quiet single line, full text on hover — professional maps
+   don't shout their plumbing */
+.leaflet-control-attribution {
+  background: rgba(10, 10, 12, 0.75) !important;
+  color: rgba(148, 163, 184, 0.55) !important;
+  font-size: 9px !important;
+  max-width: 340px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 6px 0 0 0;
+  transition: max-width 0.25s ease;
+}
+.leaflet-control-attribution:hover {
+  max-width: 1200px;
+  color: rgba(148, 163, 184, 0.85) !important;
+}
+.leaflet-control-attribution a {
+  color: rgba(203, 170, 110, 0.7) !important;
+}

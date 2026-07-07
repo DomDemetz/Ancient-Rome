@@ -109,7 +109,7 @@ export function StatsOverlay() {
     stats.push({ Icon: Anchor, label: 'wrecks', value: formatCount(shipwreckCount) })
   }
   if (romePopulation !== null) {
-    stats.push({ Icon: Landmark, label: 'Rome', value: formatPopulation(romePopulation) })
+    stats.push({ Icon: Landmark, label: 'Rome pop.', value: formatPopulation(romePopulation) })
   }
 
   if (stats.length === 0) return null
@@ -138,11 +138,11 @@ export function StatsOverlay() {
     <div className="absolute top-3 left-3 z-[1000] pointer-events-none">
       <div className="bg-[#0a0a0c]/85 backdrop-blur-md border border-white/[0.08] rounded-xl px-3.5 py-2 text-[11px] tabular-nums shadow-[0_4px_24px_rgba(0,0,0,0.5)] flex items-center gap-4 whitespace-nowrap">
         {stats.map((s, i) => (
-          <span key={s.label} className="flex items-center gap-1">
+          <span key={s.label} className="flex items-center gap-1.5">
             {i > 0 && <span className="text-slate-700">&middot;</span>}
-            <s.Icon className="w-3.5 h-3.5 text-slate-500" />
-            <span className="font-semibold text-slate-100">{s.value}</span>
-            <span className="text-slate-500">{s.label}</span>
+            <s.Icon className="w-3.5 h-3.5 text-amber-500/60" />
+            <span className="text-[9px] uppercase tracking-[0.14em] text-slate-500">{s.label}</span>
+            <span className="font-semibold text-amber-50">{s.value}</span>
           </span>
         ))}
       </div>

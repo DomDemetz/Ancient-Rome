@@ -548,7 +548,9 @@ export function SearchBar() {
               className="size-2 rounded-full shrink-0"
               style={{ backgroundColor: item.color }}
             />
-            <span className="text-slate-500 shrink-0">{item.category}</span>
+            <span className="text-[9px] uppercase tracking-[0.14em] text-slate-500 shrink-0 w-16">
+              {item.category}
+            </span>
             <span className="text-slate-100 truncate">{item.name}</span>
           </button>
         </li>
