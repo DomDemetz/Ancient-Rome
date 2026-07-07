@@ -152,7 +152,7 @@ export function TimelinePlayer() {
           {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-px" />}
         </button>
 
-        <span className="text-slate-300 font-mono text-[11px] w-14 shrink-0 text-center tabular-nums">
+        <span className="text-amber-100/90 font-serif italic font-bold text-[13px] w-16 shrink-0 text-center tabular-nums">
           {formatYear(Math.round(currentYear))}
         </span>
 
