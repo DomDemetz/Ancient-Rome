@@ -65,9 +65,9 @@ export function LandingPage() {
       <section className="mx-auto max-w-4xl px-4 pb-16">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-center">
           {[
-            ['779', 'Cities'],
-            ['85k+', 'Archaeological Sites'],
-            ['7,800+', 'Buildings'],
+            ['28,500+', 'Settlements'],
+            ['22,800+', 'Archaeological Sites'],
+            ['5,800+', 'Buildings & Structures'],
             ['2,283', 'Historical Figures'],
             ['374', 'Battles'],
             ['126', 'Emperors'],

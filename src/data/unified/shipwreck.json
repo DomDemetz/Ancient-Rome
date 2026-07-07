@@ -856,7 +856,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Late Hellenistic wreck off Filicudi in the Aeolian Islands carrying transport amphorae.",
-    "props": { "depth": 38 }
+    "props": { "depth": 38 },
+    "qid": "Q46849937"
   },
   {
     "id": "shipwreck:sw-062",
@@ -870,7 +871,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Late Republican wreck in the Aeolian shipping lane carrying wine, pottery, and metal goods.",
-    "props": { "depth": 45 }
+    "props": { "depth": 45 },
+    "qid": "Q46849937"
   },
   {
     "id": "shipwreck:sw-063",
@@ -1140,7 +1142,8 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Late Republican vessel off Halicarnassus carrying amphorae from Kos and Rhodes.",
-    "props": { "depth": 30 }
+    "props": { "depth": 30 },
+    "qid": "Q111386721"
   },
   {
     "id": "shipwreck:sw-082",
@@ -1253,8 +1256,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Late Ptolemaic grain vessel in the eastern harbor of Alexandria.",
-    "props": { "depth": 8 },
-    "qid": "Q3485805"
+    "props": { "depth": 8 }
   },
   {
     "id": "shipwreck:sw-090",
@@ -1268,8 +1270,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Tiberian-era grain ship in Alexandria harbor, part of Rome's Egyptian grain fleet.",
-    "props": { "depth": 6 },
-    "qid": "Q3485805"
+    "props": { "depth": 6 }
   },
   {
     "id": "shipwreck:sw-091",
@@ -1311,8 +1312,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Republican vessel at Cartagena carrying lead ingots from nearby mines, stamped with Roman names.",
-    "props": { "depth": 20 },
-    "qid": "Q2659382"
+    "props": { "depth": 20 }
   },
   {
     "id": "shipwreck:sw-094",
@@ -1483,7 +1483,8 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Republican-era wreck near Ibiza carrying Punic transport amphorae.",
-    "props": { "depth": 18 }
+    "props": { "depth": 18 },
+    "qid": "Q85807293"
   },
   {
     "id": "shipwreck:sw-106",
@@ -1694,7 +1695,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Wreck in the approaches to the Punic harbor of Carthage carrying Italian imports.",
-    "props": { "depth": 4 }
+    "props": { "depth": 4 },
+    "qid": "Q28151514"
   },
   {
     "id": "shipwreck:sw-121",
@@ -1708,7 +1710,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Flavian merchant vessel at Roman Carthage carrying Spanish and African amphorae.",
-    "props": { "depth": 5 }
+    "props": { "depth": 5 },
+    "qid": "Q28151514"
   },
   {
     "id": "shipwreck:sw-122",
@@ -1895,8 +1898,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Late Republican vessel near Corcyra on the main east-west shipping route.",
-    "props": { "depth": 20 },
-    "qid": "Q4120811"
+    "props": { "depth": 20 }
   },
   {
     "id": "shipwreck:sw-135",
@@ -1910,7 +1912,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Flavian merchant vessel near ancient Buthrotum in Epirus carrying wine amphorae.",
-    "props": { "depth": 12 }
+    "props": { "depth": 12 },
+    "qid": "Q82073762"
   },
   {
     "id": "shipwreck:sw-136",
@@ -2525,8 +2528,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Late Republican vessel off the Phoenician coast carrying glass, purple dye, and amphorae.",
-    "props": { "depth": 20 },
-    "qid": "Q3431465"
+    "props": { "depth": 20 }
   },
   {
     "id": "shipwreck:sw-179",
@@ -2540,8 +2542,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Early Imperial vessel off ancient Tyre carrying Levantine wine and olive oil.",
-    "props": { "depth": 15 },
-    "qid": "Q11794916"
+    "props": { "depth": 15 }
   },
   {
     "id": "shipwreck:sw-180",
@@ -2710,7 +2711,8 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Hadrianic vessel off Thapsus carrying Byzacenian olive oil and African Red Slip pottery.",
-    "props": { "depth": 8 }
+    "props": { "depth": 8 },
+    "qid": "Q20432097"
   },
   {
     "id": "shipwreck:sw-192",
@@ -2752,7 +2754,8 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Late Roman vessel off Hippo Regius carrying African olive oil, one of the last major exports.",
-    "props": { "depth": 22 }
+    "props": { "depth": 22 },
+    "qid": "Q111387376"
   },
   {
     "id": "shipwreck:sw-195",
@@ -2794,8 +2797,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Mid-fourth-century vessel at ancient Lilybaeum carrying late Roman African exports.",
-    "props": { "depth": 5 },
-    "qid": "Q3625492"
+    "props": { "depth": 5 }
   },
   {
     "id": "shipwreck:sw-198",
@@ -2809,8 +2811,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Late fourth-century vessel in the Great Harbor of Syracuse reflecting declining but continued trade.",
-    "props": { "depth": 6 },
-    "qid": "Q2080397"
+    "props": { "depth": 6 }
   },
   {
     "id": "shipwreck:sw-199",
@@ -3182,8 +3183,7 @@
     "endYear": 500,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q3485805"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-20",
@@ -3196,8 +3196,7 @@
     "endYear": 500,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q16164469"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-21",
@@ -3275,7 +3274,8 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database"
+    "description": "From DARMC database",
+    "qid": "Q26816828"
   },
   {
     "id": "shipwreck:darmc-wreck-27",
@@ -3617,8 +3617,7 @@
     "endYear": 0,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q3378175"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-60",
@@ -4204,8 +4203,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 20 },
-    "qid": "Q103158697"
+    "props": { "depth": 20 }
   },
   {
     "id": "shipwreck:darmc-wreck-120",
@@ -4219,7 +4217,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 15 }
+    "props": { "depth": 15 },
+    "qid": "Q23812042"
   },
   {
     "id": "shipwreck:darmc-wreck-121",
@@ -4274,7 +4273,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 38 }
+    "props": { "depth": 38 },
+    "qid": "Q34828756"
   },
   {
     "id": "shipwreck:darmc-wreck-127",
@@ -4453,7 +4453,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "100 m from coast",
-    "props": { "depth": 44 }
+    "props": { "depth": 44 },
+    "qid": "Q46849937"
   },
   {
     "id": "shipwreck:darmc-wreck-152",
@@ -4687,8 +4688,7 @@
     "endYear": 50,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q2659382"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-171",
@@ -5651,7 +5651,8 @@
     "endYear": 0,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Unpublished"
+    "description": "Unpublished",
+    "qid": "Q32194261"
   },
   {
     "id": "shipwreck:darmc-wreck-283",
@@ -6647,7 +6648,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 12 }
+    "props": { "depth": 12 },
+    "qid": "Q24695117"
   },
   {
     "id": "shipwreck:darmc-wreck-378",
@@ -6661,7 +6663,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 50 }
+    "props": { "depth": 50 },
+    "qid": "Q24695117"
   },
   {
     "id": "shipwreck:darmc-wreck-379",
@@ -6728,7 +6731,8 @@
     "endYear": 300,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Roman ship"
+    "description": "Roman ship",
+    "qid": "Q23939248"
   },
   {
     "id": "shipwreck:darmc-wreck-384",
@@ -6740,7 +6744,8 @@
     "endYear": 200,
     "source": "DARMC",
     "category": "maritime",
-    "description": "carvel-built ship"
+    "description": "carvel-built ship",
+    "qid": "Q23939248"
   },
   {
     "id": "shipwreck:darmc-wreck-385",
@@ -6794,8 +6799,7 @@
     "endYear": 425,
     "source": "DARMC",
     "category": "maritime",
-    "description": "single-banked galley, wood felled 376, repaired 385 and 394",
-    "qid": "Q17310485"
+    "description": "single-banked galley, wood felled 376, repaired 385 and 394"
   },
   {
     "id": "shipwreck:darmc-wreck-398",
@@ -7076,7 +7080,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 8 }
+    "props": { "depth": 8 },
+    "qid": "Q53631903"
   },
   {
     "id": "shipwreck:darmc-wreck-429",
@@ -8230,7 +8235,8 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 10 }
+    "props": { "depth": 10 },
+    "qid": "Q28040783"
   },
   {
     "id": "shipwreck:darmc-wreck-539",
@@ -8321,8 +8327,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "timbers",
-    "props": { "depth": 11 },
-    "qid": "Q2274566"
+    "props": { "depth": 11 }
   },
   {
     "id": "shipwreck:darmc-wreck-557",
@@ -10154,8 +10159,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q3268397"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-737",
@@ -10496,8 +10500,7 @@
     "endYear": 100,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q11794916"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-767",
@@ -10510,8 +10513,7 @@
     "endYear": 500,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q2176345"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-768",
@@ -10671,8 +10673,7 @@
     "endYear": 500,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q368025"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-783",
@@ -11220,8 +11221,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Cargo sailed vessel, oak dendro dated",
-    "qid": "Q49115891"
+    "description": "Cargo sailed vessel, oak dendro dated"
   },
   {
     "id": "shipwreck:darmc-wreck-858",
@@ -12176,8 +12176,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "brief mention; covered with coral; <20 m; cargo of LRA1",
-    "qid": "Q3485805"
+    "description": "brief mention; covered with coral; <20 m; cargo of LRA1"
   },
   {
     "id": "shipwreck:darmc-wreck-1054",

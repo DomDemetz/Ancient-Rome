@@ -193,7 +193,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "One of the longest aqueducts in the Roman Empire, running 132 km from Zaghouan to Carthage. Restored by Hadrian after a drought.",
-    "props": { "length": 132, "builder": "Hadrian", "cityServed": "Carthago" }
+    "props": { "length": 132, "builder": "Hadrian", "cityServed": "Carthago" },
+    "qid": "Q28151514"
   },
   {
     "id": "aqueduct:aq-valens",
@@ -367,7 +368,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Hellenistic/Roman aqueduct with a remarkable pressurized lead pipe siphon reaching 190m differential, among the highest pressures in antiquity.",
-    "props": { "length": 42, "builder": "Eumenes II", "cityServed": "Pergamon" }
+    "props": { "length": 42, "builder": "Eumenes II", "cityServed": "Pergamon" },
+    "qid": "Q105232481"
   },
   {
     "id": "aqueduct:aq-ephesos",
@@ -583,7 +585,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the spa town of Aquae Sextiae in southern Gaul, supplementing the natural thermal springs.",
-    "props": { "length": 18, "cityServed": "Aquae Sextiae (Aix-en-Provence)" }
+    "props": { "length": 18, "cityServed": "Aquae Sextiae (Aix-en-Provence)" },
+    "qid": "Q22999533"
   },
   {
     "id": "aqueduct:aq-sens",
@@ -744,7 +747,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Long aqueduct bringing water from the Sierra de las Cabras to the island city of Gades, one of the longest in Hispania.",
-    "props": { "length": 75, "builder": "Agrippa/Augustus", "cityServed": "Gades (C\u00e1diz)" }
+    "props": { "length": 75, "builder": "Agrippa/Augustus", "cityServed": "Gades (C\u00e1diz)" },
+    "qid": "Q22969919"
   },
   {
     "id": "aqueduct:aq-italica",
@@ -864,7 +868,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying Septimius Severus's hometown from the Wadi Caam. Feeding the Hadrianic baths and Severan forum.",
-    "props": { "length": 19, "cityServed": "Leptis Magna" }
+    "props": { "length": 19, "cityServed": "Leptis Magna" },
+    "qid": "Q82075982"
   },
   {
     "id": "aqueduct:aq-leptis-magna-2",
@@ -1368,7 +1373,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the Pictones capital in Aquitania, with traces of the conduit surviving near the modern city.",
-    "props": { "cityServed": "Limonum (Poitiers)" }
+    "props": { "cityServed": "Limonum (Poitiers)" },
+    "qid": "Q20107054"
   },
   {
     "id": "aqueduct:aq-autun",
@@ -4241,7 +4247,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 C2 no. 22 (villa and aqueduct at Ponte delle Sette Miglia)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q87742452"
   },
   {
     "id": "pleiades:426599",
@@ -5295,7 +5302,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 59 B2 unnamed aqueduct (Eleusis from NE)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q60790872"
   },
   {
     "id": "pleiades:580598",
@@ -6779,8 +6787,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 42 A1 unnamed aqueduct (Florentia)",
-    "estimatedTemporal": true,
-    "qid": "Q7510002"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:413743",

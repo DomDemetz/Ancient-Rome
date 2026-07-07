@@ -11,7 +11,8 @@
     "source": "wikipedia",
     "category": "production",
     "description": "Largest open-cast gold mine in the Roman Empire, using ruina montium (hushing) technique. Produced an estimated 5 tonnes of gold.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q42301711"
   },
   {
     "id": "mine:mine-rio-tinto",
@@ -977,7 +978,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Lead and silver mining in central Moesia Superior, with evidence of Roman mine administration.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q97119772"
   },
   {
     "id": "mine:mine-timacus-copper",
@@ -1360,7 +1362,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Local limestone quarries supplying building stone for Leptis Magna's monumental Roman architecture.",
-    "props": { "siteType": "quarry" }
+    "props": { "siteType": "quarry" },
+    "qid": "Q82075982"
   },
   {
     "id": "mine:quarry-naxos",
@@ -1445,8 +1448,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Lead mining associated with the silver extraction at Carthago Nova, producing large quantities of lead as a byproduct.",
-    "props": { "siteType": "mine" },
-    "qid": "Q2659382"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:quarry-clunia-limestone",
@@ -1729,7 +1731,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Silver-bearing lead deposits in western Gaul, becoming important for Merovingian coinage but with Roman-era origins.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q35727805"
   },
   {
     "id": "mine:mine-aachen-zinc",
@@ -1954,7 +1957,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Lead and silver mines at La Uni\u00f3n, a major centre of Roman-era extraction near Cartagena.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q107986908"
   },
   {
     "id": "mine:mine-portman",
@@ -2552,7 +2556,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Roman lead mines in the Shelve district of Shropshire.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q20986338"
   },
   {
     "id": "mine:mine-llanymynech-copper",
@@ -2622,7 +2627,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Tin working in the Carnmenellis granite area of central Cornwall.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q116887513"
   },
   {
     "id": "mine:mine-beauport-iron",
@@ -3158,7 +3164,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries near Carthage used for the reconstruction of the city under Augustus.",
-    "props": { "siteType": "quarry" }
+    "props": { "siteType": "quarry" },
+    "qid": "Q28151514"
   },
   {
     "id": "mine:quarry-tipasa-limestone",
@@ -3172,7 +3179,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Building stone quarries at Tipasa, Mauretania Caesariensis.",
-    "props": { "siteType": "quarry" }
+    "props": { "siteType": "quarry" },
+    "qid": "Q65643680"
   },
   {
     "id": "mine:quarry-mons-marble",
@@ -3271,8 +3279,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries near Hippo Regius (Annaba), supplying the port city.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q7510087"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-africa-lead-djebba",
@@ -3328,7 +3335,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries near Thamugadi (Timgad), the military colony in Numidia.",
-    "props": { "siteType": "quarry" }
+    "props": { "siteType": "quarry" },
+    "qid": "Q23846113"
   },
   {
     "id": "mine:mine-morocco-iron",
@@ -3370,7 +3378,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Sandstone quarries supplying the monumental city of Lepcis Magna in Tripolitania.",
-    "props": { "siteType": "quarry" }
+    "props": { "siteType": "quarry" },
+    "qid": "Q82074135"
   },
   {
     "id": "mine:mine-africa-silver-bou-jabeur",
@@ -3497,7 +3506,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Silver mining at Rudnik mountain in central Moesia Superior (Serbia).",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q97119772"
   },
   {
     "id": "mine:mine-majdanpek-copper",
@@ -4300,8 +4310,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Latomie (stone quarries) at Syracuse, Sicily, used for the city's monumental architecture.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q2080397"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-sardinia-silver-iglesias",
@@ -4387,7 +4396,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Iron mines in the Aosta Valley of the western Alps, Augusta Praetoria region.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q49295396"
   },
   {
     "id": "mine:quarry-luni-marble",
@@ -4500,7 +4510,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Iron mines on the island of Serifos in the Cyclades, active since antiquity.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q65244370"
   },
   {
     "id": "mine:mine-siphnos-silver",
@@ -4613,8 +4624,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Underground limestone quarry (Solomon's/Zedekiah's Quarry) supplying building stone for Jerusalem.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q7510117"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-caesarea-maritima",
@@ -4871,8 +4881,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Black basalt quarries near Bosra, capital of Arabia Petraea.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q4870532"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-dougga-limestone",
@@ -6505,7 +6514,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 7 E3 Ch\u00e2tillon-sur-Seiche",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q34794563"
   },
   {
     "id": "mine:138293",
@@ -6864,8 +6874,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 7 B3 Douarnenez",
-    "props": { "siteType": "mine" },
-    "qid": "Q103160794"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:187365",
@@ -9098,7 +9107,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 24 C1 Monte Neme",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q23994036"
   },
   {
     "id": "mine:138469",
@@ -9142,7 +9152,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 24 D2 Montefurado",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q59340322"
   },
   {
     "id": "mine:236551",
@@ -9765,7 +9776,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 27 B4 Puente del Obispo",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q98061642"
   },
   {
     "id": "mine:426605",
@@ -9951,7 +9963,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 14 F1 Rivarennes",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "qid": "Q41765230"
   },
   {
     "id": "mine:449193316",
@@ -13366,7 +13379,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 B4 Puente del Obispo"
+    "description": "An ancient place, cited: BAtlas 27 B4 Puente del Obispo",
+    "qid": "Q98061642"
   },
   {
     "id": "pleiades:266012",
@@ -13926,7 +13940,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 7 E3 Ch\u00e2tillon-sur-Seiche"
+    "description": "An ancient place, cited: BAtlas 7 E3 Ch\u00e2tillon-sur-Seiche",
+    "qid": "Q34794563"
   },
   {
     "id": "pleiades:707440",
@@ -16714,7 +16729,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E3 Brad"
+    "description": "An ancient place, cited: BAtlas 21 E3 Brad",
+    "qid": "Q42923065"
   },
   {
     "id": "pleiades:206992",
@@ -17122,7 +17138,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 14 F1 Rivarennes"
+    "description": "An ancient place, cited: BAtlas 14 F1 Rivarennes",
+    "qid": "Q41765230"
   },
   {
     "id": "pleiades:138552",
@@ -18049,7 +18066,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 41 C4 Monte Serra"
+    "description": "An ancient place, cited: BAtlas 41 C4 Monte Serra",
+    "qid": "Q20165167"
   },
   {
     "id": "pleiades:403245",
@@ -18247,7 +18265,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 D2 Montefurado"
+    "description": "An ancient place, cited: BAtlas 24 D2 Montefurado",
+    "qid": "Q59340322"
   },
   {
     "id": "pleiades:236550",
@@ -18259,7 +18278,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 C1 Monte Neme"
+    "description": "An ancient place, cited: BAtlas 24 C1 Monte Neme",
+    "qid": "Q23994036"
   },
   {
     "id": "pleiades:236551",
@@ -19324,8 +19344,7 @@
     "subtype": "mine",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q103160794"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-167763",
@@ -19667,8 +19686,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q11017694"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-766379",

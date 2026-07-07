@@ -586,7 +586,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 39 E3 unnamed bridge (at Clastidium)",
-    "qid": "Q675000",
     "estimatedTemporal": true
   },
   {
@@ -892,7 +891,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 63 G3 unnamed bridge (\u00c7okg\u00f6zk\u00f6pr\u00fc)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q30680414"
   },
   {
     "id": "pleiades:629672",
@@ -3186,7 +3186,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a Roman bridge along the Via Flaminia that have been incorporated into the thirteenth-century church of San Giovanni de Butris.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q25110440"
   },
   {
     "id": "pleiades:208943032",
@@ -5375,7 +5376,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An unnamed Roman bridge over the river Guadiana near Metellinum.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q19368095"
   },
   {
     "id": "pleiades:257481",
@@ -5891,7 +5893,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge on the Via Amerina between ancient Nepet and Falerii.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q105604746"
   },
   {
     "id": "pleiades:535279841",
@@ -6475,7 +6478,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge at modern Golmayo in Spain's Soria province (Castile and Le\u00f3n), crossing the modern river of the same name. The modern N-122 highway still makes use of this originally Roman bridge.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q24015341"
   },
   {
     "id": "pleiades:247648",
@@ -7857,8 +7861,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 21 C5 unnamed bridge (Singidunum)",
-    "estimatedTemporal": true,
-    "qid": "Q699902"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:207629",
@@ -9120,7 +9123,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Romans built a bridge over the Rhine river at Mogontiacum soon after 27 CE, based on dendrochronological evidence. This bridge likely replaced an earlier pontoon bridge. The first-century CE bridge spanned some 400 meters and was supported by 21 piers. The bridge facilitated an important road link and was repaired multiple times in antiquity. It may be the bridge pictured on a medallion issued by Constantius I Chlorus. The modern Theodor Heuss Bridge (Mainz-Wiesbaden) that was rebuilt following the Second World War stands at or near the point in the river once spanned by the Roman bridge.",
-    "qid": "Q17310485",
     "estimatedTemporal": true
   },
   {

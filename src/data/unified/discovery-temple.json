@@ -2241,7 +2241,8 @@
     "category": "religion",
     "description": "Sanctuary of Bendis located on the Acropolis of Salamis",
     "props": { "ancientName": "Sanctuary of Bendis" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q113003913"
   },
   {
     "id": "pleiades:867719962",
@@ -4822,7 +4823,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A Ghassulian public building dating ca. 3500 B.C. near the oasis of Ein Gedi on the western shore of the Dead Sea.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q25489001"
   },
   {
     "id": "pleiades:59593308",
@@ -5381,7 +5383,8 @@
     "category": "religion",
     "description": "Site of a small Samnitic sanctuary atop Colle Rimontato (709 m. a.s.l.)",
     "props": { "ancientName": "S. Giovanni in Galdo" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q21552366"
   },
   {
     "id": "pleiades:433109",
@@ -5693,7 +5696,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Rossano di Vaglio, a fourth century BC site dedicated to Mefitis, was a Lucanian federal sanctuary.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q37303639"
   },
   {
     "id": "pleiades:442754",
@@ -8134,8 +8138,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Excavations in the late 1970s revealed evidence for a multi-phase sanctuary. The Iron Age site was of circular plan, while the Romano-British site, of two phases, consisted of a walled enclosure with two shrines.",
-    "estimatedTemporal": true,
-    "qid": "Q135441239"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:79414",
@@ -8679,7 +8682,6 @@
     "category": "religion",
     "description": "The so-called Mithraeum of the Seven Gates was built at Ostia in the second century CE, repurposing rooms that originally date to the previous century.",
     "props": { "ancientName": "Mithraeum of the Seven Gates" },
-    "qid": "Q2802986",
     "estimatedTemporal": true
   },
   {
@@ -10834,7 +10836,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 47 G3 Francavilla di Sicilia",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q113557517"
   },
   {
     "id": "pleiades:462222",
@@ -12422,8 +12425,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Temple of Dionysos at Eretria dates ca. 350 B.C. It is located in the northwest sector of the city near the so-called West Gate.",
-    "estimatedTemporal": true,
-    "qid": "Q2525990"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:431684924",
@@ -14208,7 +14210,6 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Bronze Age temple dedicated to the weather god Hadad in the citadel of Halab (modern Aleppo). ",
-    "qid": "Q7509799",
     "estimatedTemporal": true
   },
   {
@@ -16965,7 +16966,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 14 E2 Sanxay",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q22956580"
   },
   {
     "id": "pleiades:415113284",
@@ -19929,7 +19931,8 @@
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q48808686"
   },
   {
     "id": "temple:pleiades-228182518",

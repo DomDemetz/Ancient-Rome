@@ -6522,8 +6522,7 @@
     "category": "funerary",
     "description": "A triangular enclosure with approximately 19 burials (both cremation and inhumation) dating to the Geometric period (ca. 750 BC - ca. 630 BC).",
     "props": { "ancientName": "Heroon" },
-    "estimatedTemporal": true,
-    "qid": "Q2525990"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:234635789",
@@ -9533,7 +9532,8 @@
     "source": "Pleiades",
     "category": "funerary",
     "description": "The modern Polish city of Odry is the site of a major \"stone circles\" cemetery of the iron age Wielbark Culture.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q30963018"
   },
   {
     "id": "pleiades:20565",
@@ -12955,7 +12955,8 @@
     "subtype": "cemetery",
     "startYear": -600,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q41750840"
   },
   {
     "id": "tomb:pleiades-526055597",
@@ -13140,7 +13141,8 @@
     "subtype": "tomb",
     "startYear": -600,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q37283518"
   },
   {
     "id": "tomb:pleiades-528599073",

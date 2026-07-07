@@ -2339,7 +2339,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Mutina I (72 BC)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q26518412"
   },
   {
     "id": "battle:battle-of-cabira",
@@ -3077,7 +3078,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Mutina II (43 BC)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q26518412"
   },
   {
     "id": "battle:first-battle-of-philippi",
@@ -3606,7 +3608,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Bedriacum (69 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q63146684"
   },
   {
     "id": "battle:second-battle-of-bedriacum",
@@ -3619,7 +3622,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Second Battle of Bedriacum (69 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q63146684"
   },
   {
     "id": "battle:first-battle-of-bedriacum",
@@ -3632,7 +3636,8 @@
     "source": "expansion",
     "category": "military",
     "description": "First Battle of Bedriacum (69 AD). Otho's forces lose to Vitellius, leading to Otho's suicide.",
-    "props": { "outcome": "defeat", "combatants": "Otho vs Vitellius", "commander": "Otho" }
+    "props": { "outcome": "defeat", "combatants": "Otho vs Vitellius", "commander": "Otho" },
+    "qid": "Q63146684"
   },
   {
     "id": "battle:second-battle-of-bedriacum-69",
@@ -3649,7 +3654,8 @@
       "outcome": "victory",
       "combatants": "Vespasian vs Vitellius",
       "commander": "Marcus Antonius Primus"
-    }
+    },
+    "qid": "Q63146684"
   },
   {
     "id": "battle:siege-of-jerusalem",
@@ -4353,7 +4359,8 @@
       "outcome": "defeat",
       "combatants": "Gordian I vs Legio III Augusta",
       "commander": "Gordian I"
-    }
+    },
+    "qid": "Q28151514"
   },
   {
     "id": "battle:siege-of-aquileia-238",
@@ -4606,7 +4613,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Gallienus"
-    }
+    },
+    "qid": "Q55832300"
   },
   {
     "id": "battle:battle-of-edessa",
