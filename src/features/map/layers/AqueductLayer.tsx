@@ -6,7 +6,7 @@ import L from 'leaflet'
 import type { Aqueduct } from '@/data/aqueducts'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { filterWithSignature } from '@/lib/feature-signature'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -140,8 +140,9 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
                     let html = appendWikiTooltip(tooltipHtml, a.id, wikiLookup, 'aqueducts')
                     if (!hasWiki) {
                       const crKey = `aqueduct:${a.id}`
-                      if (crossRef?.[crKey]) {
-                        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+                      const cr = crossRef?.[crKey]
+                      if (cr) {
+                        html = appendCrossRefTooltip(html, cr, { crKey })
                       }
                     }
                     return html

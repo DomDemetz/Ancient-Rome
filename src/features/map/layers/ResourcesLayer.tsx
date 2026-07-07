@@ -3,7 +3,7 @@ import { CircleMarker, Popup } from 'react-leaflet'
 import type { Mine } from '@/data/mines'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useCrossRef } from '@/hooks/useWikiEnrichment'
-import { esc } from '@/lib/wiki-popup'
+import { appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
 
@@ -66,8 +66,9 @@ export function ResourcesLayer({ data }: ResourcesLayerProps) {
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         const crKey = `mine:${m.id}`
-        if (crossRef?.[crKey]) {
-          tooltipHtml += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+        const cr = crossRef?.[crKey]
+        if (cr) {
+          tooltipHtml = appendCrossRefTooltip(tooltipHtml, cr, { crKey })
         }
 
         return (

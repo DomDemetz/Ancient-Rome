@@ -1,9 +1,10 @@
 import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import type { UnifiedEntity } from '@/data/unified'
+import type { CrossRefEnrichment } from '@/data/wiki'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { useCrossRef } from '@/hooks/useWikiEnrichment'
-import { esc } from '@/lib/wiki-popup'
+import { appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 
 interface UnifiedLayerProps {
@@ -75,14 +76,16 @@ export function UnifiedLayer({ data, color, fillColor, crPrefix }: UnifiedLayerP
         }
         const desc = e.props?.description as string | undefined
         if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
-        if (e.source) details.push(`Source: ${esc(e.source)}`)
         if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
+        let cr: CrossRefEnrichment | undefined
+        let crKey: string | undefined
         if (crPrefix) {
-          const crKey = `${crPrefix}:${stripPrefix(e.id)}`
-          if (crossRef?.[crKey]) {
-            html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
-          }
+          crKey = `${crPrefix}:${stripPrefix(e.id)}`
+          cr = crossRef?.[crKey]
+        }
+        if (cr && crKey) {
+          html = appendCrossRefTooltip(html, cr, { crKey })
         }
 
         return (
