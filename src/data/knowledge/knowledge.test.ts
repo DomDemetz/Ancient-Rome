@@ -48,3 +48,15 @@ describe('vici chunks', () => {
     expect(settlements.filter((s) => merged.has(s.id))).toHaveLength(0)
   })
 })
+
+describe('unified-nodes join (UI adoption chain)', () => {
+  it('the Flavian Amphitheatre resolves to Rome for the popup anchor line', async () => {
+    const join = JSON.parse(
+      (await import('../registry/unified-nodes.json?raw')).default,
+    ) as Record<string, { node: string; name: string; km: number; rel: string }>
+    const fl = join['amphitheater:flavian-amphitheater']
+    expect(fl).toBeDefined()
+    expect(fl.name).toBe('Rome')
+    expect(fl.km).toBeLessThan(2)
+  })
+})

@@ -6,7 +6,16 @@ import type { CrossRefEnrichment } from '@/data/wiki'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useCrossRef } from '@/hooks/useWikiEnrichment'
-import { appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
+import { appendCrossRefTooltip, appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import nodeJoinRaw from '@/data/registry/unified-nodes.json?raw'
+
+// unified entity -> its canonical place node (ENTITY-MODEL.md join):
+// "same" = this record IS the town; "at" = it sits at/near it.
+const NODE_JOIN = JSON.parse(nodeJoinRaw) as Record<
+  string,
+  { node: string; name: string; km: number; rel: 'same' | 'at' }
+>
 import { formatYear } from '@/lib/geo'
 
 interface UnifiedLayerProps {
@@ -42,6 +51,8 @@ function getField(e: UnifiedEntity, field: string): string {
 export function UnifiedLayer({ data, config, color, fillColor, crPrefix }: UnifiedLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const crossRef = useCrossRef()
+  // consolidated graph-keyed knowledge (extract + thumbnail, one lookup)
+  const knowledge = useWikiEnrichment('knowledge-features')
   const currentYear = useTimelineStore((s) => s.currentYear)
 
   const strokeColor = config?.color ?? color ?? '#666'
@@ -107,13 +118,22 @@ export function UnifiedLayer({ data, config, color, fillColor, crPrefix }: Unifi
         if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
         if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
+        // geographic anchor from the entity join — "At Rome" / "Near Nikopolis"
+        const join = NODE_JOIN[e.id]
+        if (join && join.rel === 'at' && join.name !== e.name) {
+          html += `<div class="map-tooltip-detail">${join.km <= 2 ? 'At' : 'Near'} ${esc(join.name)}${join.km > 2 ? ` · ${join.km} km` : ''}</div>`
+        }
+
+        const k = knowledge?.[e.id]
         let cr: CrossRefEnrichment | undefined
         let crKey: string | undefined
         if (entityPrefix) {
           crKey = `${entityPrefix}:${stripPrefix(e.id)}`
           cr = crossRef?.[crKey]
         }
-        if (cr && crKey) {
+        if (k?.extract) {
+          html = appendWikiTooltip(html, e.id, knowledge, 'knowledge-features')
+        } else if (cr && crKey) {
           html = appendCrossRefTooltip(html, cr, { crKey })
         }
 
