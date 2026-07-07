@@ -3,6 +3,7 @@ import { Swords, Bird, Anchor, Landmark } from 'lucide-react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useUIStore } from '@/stores/useUIStore'
+import { battleVisibilityWindow } from '@/features/map/layers/BattleLayer'
 
 function interpolateRomePopulation(
   populations: { year: number; population: number }[],
@@ -61,10 +62,14 @@ export function StatsOverlay() {
   const showCities = useMapLayerStore((s) => s.showCities)
   const placesData = useMapLayerStore((s) => s.placesData)
 
+  const playing = useTimelineStore((s) => s.playing)
+  const speed = useTimelineStore((s) => s.speed)
   const battleCount = useMemo(() => {
     if (!showBattles || !battlesData) return null
-    return battlesData.filter((b) => b.year <= currentYear && currentYear - b.year < 50).length
-  }, [showBattles, battlesData, currentYear])
+    const window = battleVisibilityWindow(playing, speed)
+    return battlesData.filter((b) => b.year <= currentYear && currentYear - b.year < window)
+      .length
+  }, [showBattles, battlesData, currentYear, playing, speed])
 
   const legionCount = useMemo(() => {
     if (!showLegions || !legionsData) return null
@@ -99,17 +104,21 @@ export function StatsOverlay() {
     value: string
   }[] = []
 
-  if (battleCount !== null) {
-    stats.push({ Icon: Swords, label: 'battles', value: formatCount(battleCount) })
-  }
-  if (legionCount !== null) {
-    stats.push({ Icon: Bird, label: 'legions', value: formatCount(legionCount) })
-  }
-  if (shipwreckCount !== null) {
-    stats.push({ Icon: Anchor, label: 'wrecks', value: formatCount(shipwreckCount) })
-  }
+  // Rome's population leads: it is the atlas's anchor number — layer-derived
+  // counts (wrecks, battles) read as noise when they open the line.
   if (romePopulation !== null) {
     stats.push({ Icon: Landmark, label: 'Rome pop.', value: formatPopulation(romePopulation) })
+  }
+  // Zero-count chips are suppressed: "BATTLES 0 · LEGIONS 0 · WRECKS 0"
+  // over an early-Republic map reads as broken, not informative.
+  if (battleCount) {
+    stats.push({ Icon: Swords, label: 'battles', value: formatCount(battleCount) })
+  }
+  if (legionCount) {
+    stats.push({ Icon: Bird, label: 'legions', value: formatCount(legionCount) })
+  }
+  if (shipwreckCount) {
+    stats.push({ Icon: Anchor, label: 'wrecks', value: formatCount(shipwreckCount) })
   }
 
   if (stats.length === 0) return null

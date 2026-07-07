@@ -51,11 +51,20 @@ function hashStr(s: string): number {
   return h
 }
 
+/** Cliopatria's memberOf is a semicolon list of parenthesized umbrellas,
+ *  outermost first — "(Merovingian Empire);(Kingdom of the Franks)". The
+ *  family is the outermost one; rendering the raw string leaks ");(". */
+function parseFamily(memberOf?: string): string | undefined {
+  if (!memberOf) return undefined
+  const first = memberOf.split(';')[0]?.replace(/[()]/g, '').trim()
+  return first && first.length > 2 ? first : undefined
+}
+
 /** Vassals wear their suzerain's hue with a per-member shade — feudal
  *  fragmentation reads as texture WITHIN a realm (France's duchies, the
  *  HRE minors, the taifas), not as unrelated confetti beside it. */
 function polityColor(name: string, memberOf?: string): string {
-  const family = memberOf && memberOf.length > 2 ? memberOf : name
+  const family = parseFamily(memberOf) ?? name
   const base = POLITY_PALETTE[hashStr(family) % POLITY_PALETTE.length]
   if (family === name) return base
   // member shade: nudge lightness by a stable ±12% step
@@ -137,7 +146,7 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
     const realByName = new Map(visible.map((v) => [v.name, v]))
     const families = new Map<string, { area: number; lat: number; lng: number }>()
     for (const v of visible) {
-      const fam = v.memberOf?.replace(/^\(|\)$/g, '').trim()
+      const fam = parseFamily(v.memberOf)
       if (!fam || fam === v.name) continue
       const f = families.get(fam) ?? { area: 0, lat: 0, lng: 0 }
       f.area += v.area

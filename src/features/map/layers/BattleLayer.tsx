@@ -12,11 +12,13 @@ interface BattleLayerProps {
   data: Battle[]
 }
 
+// Muted war inks in the atlas's earth register — flat-UI green/red dots
+// vanished against the terrain and read as a different product.
 const OUTCOME_COLORS: Record<string, string> = {
-  victory: '#27ae60',
-  defeat: '#e74c3c',
-  draw: '#f39c12',
-  unknown: '#95a5a6',
+  victory: '#7fa653',
+  defeat: '#c05548',
+  draw: '#c2913e',
+  unknown: '#97948a',
 }
 
 function buildTooltipHtml(b: Battle): string {
@@ -33,16 +35,27 @@ function buildTooltipHtml(b: Battle): string {
 
 const flashIcon = L.divIcon({
   className: '',
-  html: '<div class="battle-flash" style="width:12px;height:12px;background:rgba(231,76,60,0.9);border-radius:50%;"></div>',
+  html: '<div class="battle-flash" style="width:12px;height:12px;background:rgba(192,85,72,0.9);border-radius:50%;"></div>',
   iconSize: [12, 12],
   iconAnchor: [6, 6],
 })
+
+/** How far back a battle stays on the map. Paused: a generation of recent
+ *  history (jumping to 200 BC should SHOW the Punic Wars, not a 5-year
+ *  sliver). Playing: scaled to speed so battles flare and fade in step.
+ *  StatsOverlay counts with the SAME window — the chip must never claim
+ *  battles the map isn't drawing. */
+export function battleVisibilityWindow(playing: boolean, speed: number): number {
+  return playing ? Math.min(50, Math.max(10, Math.round(speed * 12))) : 25
+}
 
 /** Compute opacity for a past battle based on age relative to visibility window */
 function battleOpacity(age: number, window: number): number {
   const freshZone = Math.max(1, window * 0.2)
   if (age < freshZone) return 0.95
-  return 0.95 - ((age - freshZone) / (window - freshZone)) * 0.65
+  // floor at 0.5: a battle inside its window must stay legible — the old
+  // 0.30 tail left "BATTLES 40" claiming dots nobody could find
+  return 0.95 - ((age - freshZone) / (window - freshZone)) * 0.45
 }
 
 export function BattleLayer({ data }: BattleLayerProps) {
@@ -53,8 +66,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
   const wikiLookup = useWikiEnrichment('battles')
   const crossRef = useCrossRef()
 
-  // Adaptive visibility window: tight when paused, wider at higher speeds
-  const visibilityWindow = playing ? Math.min(50, Math.max(10, Math.round(speed * 12))) : 5
+  const visibilityWindow = battleVisibilityWindow(playing, speed)
 
   // Adaptive visibility window for result markers
   const visible = useMemo(() => {
@@ -81,7 +93,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
     return visible.filter((b) => currentYear === b.year)
   }, [visible, currentYear])
 
-  const baseRadius = zoom >= 7 ? 5 : zoom >= 5 ? 4 : 3
+  const baseRadius = zoom >= 7 ? 6 : zoom >= 5 ? 5 : 4
 
   return (
     <>
@@ -95,7 +107,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
             center={[b.lat, b.lng]}
             radius={baseRadius}
             pathOptions={{
-              color: '#000',
+              color: 'rgba(26, 18, 12, 0.85)',
               weight: 1,
               fillColor: color,
               fillOpacity: opacity,
