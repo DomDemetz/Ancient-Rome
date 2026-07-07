@@ -163,7 +163,8 @@
       "outcome": "defeat",
       "combatants": "Roman Republic vs Gauls",
       "commander": "Quintus Sulpicius"
-    }
+    },
+    "qid": "Q655777"
   },
   {
     "id": "battle:battle-of-the-allia",
@@ -961,7 +962,8 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Carthage",
       "commander": "Roman naval commander"
-    }
+    },
+    "qid": "Q3625492"
   },
   {
     "id": "battle:battle-of-ebro-river",
@@ -2127,7 +2129,8 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Italian Allies",
       "commander": "Lucius Cornelius Sulla"
-    }
+    },
+    "qid": "Q925828"
   },
   {
     "id": "battle:battle-of-amnias",
@@ -2322,7 +2325,8 @@
       "outcome": "defeat",
       "combatants": "Roman Republic vs Slave Revolt",
       "commander": "Gaius Claudius Glaber"
-    }
+    },
+    "qid": "Q524"
   },
   {
     "id": "battle:battle-of-mutina-i",
@@ -3435,7 +3439,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Artaxata (58 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q647463"
   },
   {
     "id": "battle:tigranocerta",
@@ -3461,7 +3466,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Camulodunum (60 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q17665286"
   },
   {
     "id": "battle:battle-of-watling-street",
@@ -3546,7 +3552,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Vespasian"
-    }
+    },
+    "qid": "Q1517688"
   },
   {
     "id": "battle:battle-of-gamla",
@@ -3653,7 +3660,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Titus"
-    }
+    },
+    "qid": "Q7510117"
   },
   {
     "id": "battle:siege-of-masada",
@@ -3670,7 +3678,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Lucius Flavius Silva"
-    }
+    },
+    "qid": "Q391054"
   },
   {
     "id": "battle:battle-of-mons-graupius",
@@ -3755,7 +3764,8 @@
       "outcome": "victory",
       "combatants": "Dacia and its allies vs Roman Empire",
       "commander": "unknown"
-    }
+    },
+    "qid": "Q12076728"
   },
   {
     "id": "battle:battle-of-sarmisegetuza",
@@ -3832,7 +3842,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Trajan"
-    }
+    },
+    "qid": "Q4118093"
   },
   {
     "id": "battle:battle-of-seleucia",
@@ -3879,7 +3890,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Jewish Rebels (Bar Kokhba)",
       "commander": "Tineius Rufus"
-    }
+    },
+    "qid": "Q7510117"
   },
   {
     "id": "battle:battle-of-betar",
@@ -3964,7 +3976,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Avidius Cassius"
-    }
+    },
+    "qid": "Q4118093"
   },
   {
     "id": "battle:sack-of-seleucia-165",
@@ -3998,7 +4011,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Marcomanni and Quadi",
       "commander": "Marcus Aurelius"
-    }
+    },
+    "qid": "Q19277173"
   },
   {
     "id": "battle:battle-of-the-danube-ice",
@@ -4185,7 +4199,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Septimius Severus"
-    }
+    },
+    "qid": "Q4118093"
   },
   {
     "id": "battle:siege-of-hatra-199",
@@ -4304,7 +4319,8 @@
       "outcome": "draw",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Severus Alexander"
-    }
+    },
+    "qid": "Q4118093"
   },
   {
     "id": "battle:battle-of-carthage-238",
@@ -4419,7 +4435,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Philippopolis (250 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q625406"
   },
   {
     "id": "battle:battle-of-philippopolis-250",
@@ -4436,7 +4453,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Goths",
       "commander": "Titus Julius Priscus"
-    }
+    },
+    "qid": "Q625406"
   },
   {
     "id": "battle:battle-of-abrittus",
@@ -4470,7 +4488,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Goths",
       "commander": "Emperor Decius"
-    }
+    },
+    "qid": "Q331488"
   },
   {
     "id": "battle:battle-of-forum-terebronii",
@@ -4517,7 +4536,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire (Uranius Antoninus) vs Sassanid Empire",
       "commander": "Uranius Antoninus"
-    }
+    },
+    "qid": "Q3625476"
   },
   {
     "id": "battle:battle-of-spoleto",
@@ -4534,7 +4554,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire (Aemilianus) vs Valerian",
       "commander": "Aemilianus"
-    }
+    },
+    "qid": "Q25112944"
   },
   {
     "id": "battle:battle-of-emesa-253-uranius",
@@ -4551,7 +4572,8 @@
       "outcome": "victory",
       "combatants": "Uranius Antoninus vs Sassanid Empire",
       "commander": "Uranius Antoninus"
-    }
+    },
+    "qid": "Q3625476"
   },
   {
     "id": "battle:battle-of-mediolanum",
@@ -4687,7 +4709,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Claudius II"
-    }
+    },
+    "qid": "Q1267656"
   },
   {
     "id": "battle:battle-of-nessos",
@@ -4755,7 +4778,8 @@
       "outcome": "victory",
       "combatants": "Alamanni vs Roman Empire",
       "commander": "Unknown"
-    }
+    },
+    "qid": "Q13142"
   },
   {
     "id": "battle:battle-of-pavia",
@@ -4772,7 +4796,8 @@
       "outcome": "unknown",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Aurelian"
-    }
+    },
+    "qid": "Q6259"
   },
   {
     "id": "battle:battle-of-daphne-271",
@@ -4789,7 +4814,8 @@
       "outcome": "victory",
       "combatants": "Palmyrene Empire vs Roman Egypt",
       "commander": "Zabdas (Palmyrene)"
-    }
+    },
+    "qid": "Q3015870"
   },
   {
     "id": "battle:battle-of-emesa",
@@ -4806,7 +4832,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Palmyrene Empire",
       "commander": "Aurelian"
-    }
+    },
+    "qid": "Q3625476"
   },
   {
     "id": "battle:battle-of-immae",
@@ -4840,7 +4867,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Palmyrene Empire",
       "commander": "Aurelian"
-    }
+    },
+    "qid": "Q19926256"
   },
   {
     "id": "battle:battle-of-chalons-274",
@@ -4942,7 +4970,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Carus"
-    }
+    },
+    "qid": "Q4118093"
   },
   {
     "id": "battle:battle-of-margum",
@@ -5027,7 +5056,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Domitius Domitianus (usurper)",
       "commander": "Diocletian"
-    }
+    },
+    "qid": "Q3485805"
   },
   {
     "id": "battle:battle-of-callinicum-298",
@@ -5095,7 +5125,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Constantius Chlorus"
-    }
+    },
+    "qid": "Q1512205"
   },
   {
     "id": "battle:battle-of-york",
@@ -5112,7 +5143,8 @@
       "outcome": "victory",
       "combatants": "Picts vs Roman Empire",
       "commander": "Constantius Chlorus"
-    }
+    },
+    "qid": "Q958954"
   },
   {
     "id": "battle:battle-of-milvian-bridge",
@@ -5146,7 +5178,8 @@
       "outcome": "victory",
       "combatants": "Constantine vs Maxentius",
       "commander": "Constantine I"
-    }
+    },
+    "qid": "Q655777"
   },
   {
     "id": "battle:battle-of-turin-312",
@@ -5163,7 +5196,8 @@
       "outcome": "victory",
       "combatants": "Constantine vs Maxentius",
       "commander": "Constantine I"
-    }
+    },
+    "qid": "Q2364744"
   },
   {
     "id": "battle:battle-of-verona-312",
@@ -5248,7 +5282,8 @@
       "outcome": "victory",
       "combatants": "Constantine vs Licinius",
       "commander": "Constantine I"
-    }
+    },
+    "qid": "Q1281436"
   },
   {
     "id": "battle:battle-of-campus-ardiensis",
@@ -5316,7 +5351,8 @@
       "outcome": "victory",
       "combatants": "Constantine vs Licinius",
       "commander": "Constantine I"
-    }
+    },
+    "qid": "Q28155605"
   },
   {
     "id": "battle:battle-of-hileia",
@@ -5418,7 +5454,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian the Apostate"
-    }
+    },
+    "qid": "Q20656853"
   },
   {
     "id": "battle:battle-of-brumath",
@@ -5435,7 +5472,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian"
-    }
+    },
+    "qid": "Q22637"
   },
   {
     "id": "battle:siege-of-sens",
@@ -5452,7 +5490,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian"
-    }
+    },
+    "qid": "Q22248948"
   },
   {
     "id": "battle:battle-of-strasbourg",
@@ -5469,7 +5508,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian (Caesar)"
-    }
+    },
+    "qid": "Q1367199"
   },
   {
     "id": "battle:battle-of-amida",
@@ -5486,7 +5526,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Ursicinus"
-    }
+    },
+    "qid": "Q3625437"
   },
   {
     "id": "battle:siege-of-aquileia-361",
@@ -5503,7 +5544,8 @@
       "outcome": "victory",
       "combatants": "Julian vs Constantius II's garrison",
       "commander": "Julian"
-    }
+    },
+    "qid": "Q3677506"
   },
   {
     "id": "battle:battle-of-ctesiphon",
@@ -5520,7 +5562,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Julian"
-    }
+    },
+    "qid": "Q4118093"
   },
   {
     "id": "battle:battle-of-samarra",
@@ -5537,7 +5580,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Julian"
-    }
+    },
+    "qid": "Q593115"
   },
   {
     "id": "battle:battle-of-maiozamalcha",
@@ -5656,7 +5700,8 @@
       "outcome": "defeat",
       "combatants": "Eastern Roman Empire vs Goths",
       "commander": "Emperor Valens"
-    }
+    },
+    "qid": "Q16931381"
   },
   {
     "id": "battle:battle-of-argentovaria",
@@ -5673,7 +5718,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Lentienses",
       "commander": "Mallobaudes Naniemus"
-    }
+    },
+    "qid": "Q767605"
   },
   {
     "id": "battle:battle-of-thessalonica",
@@ -5686,7 +5732,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Thessalonica (380 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q12289085"
   },
   {
     "id": "battle:battle-of-hadrianopolis-2",
@@ -5788,7 +5835,8 @@
       "outcome": "victory",
       "combatants": "Western Roman Empire vs Visigoths",
       "commander": "Stilicho"
-    }
+    },
+    "qid": "Q28978057"
   },
   {
     "id": "battle:battle-of-verona",
@@ -5805,7 +5853,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Visigoths",
       "commander": "Stilicho"
-    }
+    },
+    "qid": "Q3678423"
   },
   {
     "id": "battle:battle-of-mainz",
@@ -5822,7 +5871,8 @@
       "outcome": "defeat",
       "combatants": "Franks vs Vandals Suevi Alans",
       "commander": "unknown"
-    }
+    },
+    "qid": "Q17310485"
   },
   {
     "id": "battle:battle-of-faesulae-406",
@@ -5873,7 +5923,8 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Burgundians/Franks",
       "commander": "Jovinus (usurper)"
-    }
+    },
+    "qid": "Q22967127"
   },
   {
     "id": "battle:battle-of-arles-425",
@@ -5890,7 +5941,8 @@
       "outcome": "victory",
       "combatants": "Western Roman Empire vs Joannes (usurper)",
       "commander": "Flavius Aetius"
-    }
+    },
+    "qid": "Q3485816"
   },
   {
     "id": "battle:battle-of-hippo-regius",
@@ -5907,7 +5959,8 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Vandals",
       "commander": "Bonifacius"
-    }
+    },
+    "qid": "Q7510087"
   },
   {
     "id": "battle:battle-of-ravenna",
@@ -5924,7 +5977,8 @@
       "outcome": "victory",
       "combatants": "forces of Bonifacius vs forces of Flavius A\u00ebtius",
       "commander": "Bonifacius"
-    }
+    },
+    "qid": "Q3625516"
   },
   {
     "id": "battle:battle-of-rimini-432",
@@ -5941,7 +5995,8 @@
       "outcome": "draw",
       "combatants": "Aetius vs Bonifacius",
       "commander": "Flavius Aetius"
-    }
+    },
+    "qid": "Q2405911"
   },
   {
     "id": "battle:battle-of-narbonne",
@@ -5958,7 +6013,8 @@
       "outcome": "victory",
       "combatants": "Western Roman Empire vs Visigoths",
       "commander": "Flavius Aetius"
-    }
+    },
+    "qid": "Q1098377"
   },
   {
     "id": "battle:battle-of-mons-colubrarius",
@@ -6162,7 +6218,8 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Vandals",
       "commander": "Majorian"
-    }
+    },
+    "qid": "Q2659382"
   },
   {
     "id": "battle:battle-of-cap-bon",
@@ -6196,7 +6253,8 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Heruli/Sciri",
       "commander": "Romulus Augustulus / Orestes"
-    }
+    },
+    "qid": "Q3625516"
   },
   {
     "id": "battle:battle-of-yarmouk-636",
@@ -6230,7 +6288,8 @@
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Umayyad Caliphate",
       "commander": "Constantine IV"
-    }
+    },
+    "qid": "Q3485862"
   },
   {
     "id": "battle:second-arab-siege-of-constantinople-718",
@@ -6247,7 +6306,8 @@
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Umayyad Caliphate",
       "commander": "Leo III"
-    }
+    },
+    "qid": "Q3485862"
   },
   {
     "id": "battle:battle-of-akroinon-740",
@@ -6264,7 +6324,8 @@
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Umayyad Caliphate",
       "commander": "Leo III"
-    }
+    },
+    "qid": "Q128996"
   },
   {
     "id": "battle:battle-of-lalakaon-863",
@@ -6315,7 +6376,8 @@
       "outcome": "defeat",
       "combatants": "Byzantine Empire vs Seljuk Empire",
       "commander": "Romanos IV"
-    }
+    },
+    "qid": "Q18692304"
   },
   {
     "id": "battle:battle-of-dyrrhachium-1081",
@@ -6366,7 +6428,8 @@
       "outcome": "defeat",
       "combatants": "Byzantine Empire vs Fourth Crusade",
       "commander": "Alexios V"
-    }
+    },
+    "qid": "Q3485862"
   },
   {
     "id": "battle:recapture-of-constantinople-1261",
@@ -6383,7 +6446,8 @@
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Latin Empire",
       "commander": "Alexios Strategopoulos"
-    }
+    },
+    "qid": "Q3485862"
   },
   {
     "id": "battle:battle-of-pelekanon-1329",
@@ -6417,6 +6481,7 @@
       "outcome": "defeat",
       "combatants": "Byzantine Empire vs Ottoman Empire",
       "commander": "Constantine XI"
-    }
+    },
+    "qid": "Q3485862"
   }
 ]
