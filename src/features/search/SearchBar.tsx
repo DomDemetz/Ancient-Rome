@@ -152,12 +152,7 @@ export function SearchBar() {
     useShallow((s) => ({
       roadsData: s.roadsData,
       placesData: s.placesData,
-      battlesData: s.battlesData,
       legionsData: s.legionsData,
-      amphitheatersData: s.amphitheatersData,
-      aqueductsData: s.aqueductsData,
-      buildingsData: s.buildingsData,
-      datasetState: s.datasetState,
     })),
   )
 
@@ -266,6 +261,10 @@ export function SearchBar() {
       bridge: 'Bridge',
       mine: 'Mine',
       aqueduct: 'Aqueduct',
+      shipwreck: 'Shipwreck',
+      religion: 'Religious site',
+      press: 'Press',
+      port: 'Port',
     }
     for (const s of SITE_SEARCH) {
       items.push({
@@ -324,73 +323,6 @@ export function SearchBar() {
           // so the deployment marker will render at that year.
           year: base.fromYear,
         })
-      }
-    }
-
-    // Amphitheaters
-    if (layerData.amphitheatersData) {
-      for (const a of layerData.amphitheatersData) {
-        items.push({
-          id: `amphitheater-${a.id}`,
-          name: a.name,
-          category: 'Amphitheater',
-          color: CATEGORY_COLORS.amphitheater,
-          lat: a.lat,
-          lng: a.lng,
-        })
-      }
-    }
-
-    // Aqueducts
-    if (layerData.aqueductsData) {
-      for (const a of layerData.aqueductsData) {
-        items.push({
-          id: `aqueduct-${a.id}`,
-          name: a.name,
-          category: 'Aqueduct',
-          color: CATEGORY_COLORS.aqueduct,
-          lat: a.lat,
-          lng: a.lng,
-        })
-      }
-    }
-
-    // Buildings
-    if (layerData.buildingsData) {
-      for (const b of layerData.buildingsData) {
-        items.push({
-          id: `building-${b.id}`,
-          name: b.name,
-          category: 'Building',
-          color: CATEGORY_COLORS.building,
-          lat: b.lat,
-          lng: b.lng,
-        })
-      }
-    }
-
-    // Dataset-driven layers (shipwrecks, mines, religion, presses, ports)
-    const dsCategories: Record<string, { category: string; color: string }> = {
-      shipwrecks: { category: 'Shipwreck', color: CATEGORY_COLORS.shipwreck },
-      mines: { category: 'Mine', color: CATEGORY_COLORS.mine },
-      religion: { category: 'Religious site', color: CATEGORY_COLORS.religion },
-      presses: { category: 'Press', color: CATEGORY_COLORS.press },
-      ports: { category: 'Port', color: CATEGORY_COLORS.port ?? '#3498db' },
-    }
-    for (const [dsId, meta] of Object.entries(dsCategories)) {
-      const ds = layerData.datasetState[dsId]
-      if (ds?.data) {
-        for (const e of ds.data) {
-          items.push({
-            id: `${dsId}-${e.id}`,
-            name: e.name,
-            category: meta.category,
-            color: meta.color,
-            lat: e.lat,
-            lng: e.lng,
-            year: e.startYear || undefined,
-          })
-        }
       }
     }
 

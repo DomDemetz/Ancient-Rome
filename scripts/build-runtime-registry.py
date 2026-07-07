@@ -116,34 +116,31 @@ if os.path.exists(people_path):
     open(p7, "a").write("\n")
     print(f"people-search.json: {len(ppl)} people ({os.path.getsize(p7)//1024} KB)")
 
-# --- buildings-search.json: notable buildings & archaeological sites with images ---
+# --- buildings-search.json: all unified entities (searchable without loading layers) ---
 UNIFIED = os.path.join(BASE, "unified")
-cr_path = os.path.join(BASE, "wiki", "cross-reference.json")
-if os.path.exists(cr_path):
-    cr = json.load(open(cr_path))
-    bsearch = []
-    source_types = [
-        ("building.json", "building", "building"),
-        ("amphitheater.json", "amphitheater", "amphitheater"),
-        ("discovery-tomb.json", "tomb", "discovery-tomb"),
-        ("discovery-villa.json", "villa", "discovery-villa"),
-        ("discovery-temple.json", "temple", "discovery-temple"),
-        ("discovery-bridge.json", "bridge", "discovery-bridge"),
-        ("mine.json", "mine", "mine"),
-        ("aqueduct.json", "aqueduct", "aqueduct"),
-    ]
-    for fname, short, cr_prefix in source_types:
-        fpath = os.path.join(UNIFIED, fname)
-        if not os.path.exists(fpath):
-            continue
-        data = json.load(open(fpath))
-        for e in data:
-            eid = e["id"]
-            stripped = eid.split(":", 1)[1] if ":" in eid else eid
-            cr_key = f"{cr_prefix}:{stripped}"
-            if cr_key in cr and cr[cr_key].get("imageUrl"):
-                bsearch.append({"id": stripped, "n": e["name"], "lat": e["lat"], "lng": e["lng"], "t": short})
-    p8 = os.path.join(R, "buildings-search.json")
-    json.dump(bsearch, open(p8, "w"), ensure_ascii=False, separators=(",", ":"))
-    open(p8, "a").write("\n")
-    print(f"buildings-search.json: {len(bsearch)} sites ({os.path.getsize(p8)//1024} KB)")
+bsearch = []
+source_types = [
+    ("building.json", "building"),
+    ("amphitheater.json", "amphitheater"),
+    ("discovery-tomb.json", "tomb"),
+    ("discovery-villa.json", "villa"),
+    ("discovery-temple.json", "temple"),
+    ("discovery-bridge.json", "bridge"),
+    ("mine.json", "mine"),
+    ("aqueduct.json", "aqueduct"),
+    ("shipwreck.json", "shipwreck"),
+    ("religious-site.json", "religion"),
+    ("press.json", "press"),
+    ("port.json", "port"),
+]
+for fname, short in source_types:
+    fpath = os.path.join(UNIFIED, fname)
+    if not os.path.exists(fpath):
+        continue
+    data = json.load(open(fpath))
+    for e in data:
+        bsearch.append({"id": e["id"], "n": e["name"], "lat": e["lat"], "lng": e["lng"], "t": short})
+p8 = os.path.join(R, "buildings-search.json")
+json.dump(bsearch, open(p8, "w"), ensure_ascii=False, separators=(",", ":"))
+open(p8, "a").write("\n")
+print(f"buildings-search.json: {len(bsearch)} sites ({os.path.getsize(p8)//1024} KB)")
