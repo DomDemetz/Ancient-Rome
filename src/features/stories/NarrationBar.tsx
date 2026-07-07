@@ -43,7 +43,7 @@ export function NarrationBar({
 
         {/* Step content */}
         <div className="flex-1 min-w-0">
-          <p className="text-xs font-medium text-slate-100 mb-0.5">{currentStep.title}</p>
+          <p className="font-serif italic font-bold text-[15px] text-amber-50/95 mb-0.5">{currentStep.title}</p>
           <p className="text-xs text-slate-500 line-clamp-2">{currentStep.content}</p>
         </div>
 
@@ -72,7 +72,7 @@ export function NarrationBar({
             <Button
               size="sm"
               onClick={onNext}
-              className={`active:scale-95 transition-transform ${touchTarget}`}
+              className={`active:scale-95 transition-transform bg-amber-600 hover:bg-amber-500 text-white ${touchTarget}`}
             >
               Next <ChevronRight className="size-3.5 ml-1" />
             </Button>
