@@ -13754,7 +13754,7 @@
   { "id": "building:614851", "n": "Tautaendia", "lat": 40.9715, "lng": 30.5735, "t": "building" },
   {
     "id": "building:426580",
-    "n": "Unnamed bridge",
+    "n": "feature included",
     "lat": 41.9064,
     "lng": 12.2655,
     "t": "building"
@@ -18062,151 +18062,145 @@
   },
   {
     "id": "building:889260883",
-    "n": "Unnamed place",
+    "n": "Palace at Gasr Sidi Hassan",
     "lat": 31.2782,
     "lng": 15.9747,
     "t": "building"
   },
   {
     "id": "building:963100998",
-    "n": "Unnamed place",
+    "n": "Palace near Bir el-Manfuchia",
     "lat": 31.1281,
     "lng": 16.24,
     "t": "building"
   },
   {
     "id": "building:963100999",
-    "n": "Unnamed place",
+    "n": "Palace W of ‘Auxiu’",
     "lat": 31.2496,
     "lng": 15.7544,
     "t": "building"
   },
   {
     "id": "building:963101000",
-    "n": "Unnamed place",
+    "n": "Palace at Praetorium",
     "lat": 31.2895,
     "lng": 15.9378,
     "t": "building"
   },
   {
     "id": "building:963101001",
-    "n": "Unnamed place",
+    "n": "Palace S of Gasr ed-Dubban",
     "lat": 31.0933,
     "lng": 16.5228,
     "t": "building"
   },
   {
     "id": "building:963101002",
-    "n": "Unnamed place",
+    "n": "Palace E of es-Semat",
     "lat": 31.1326,
     "lng": 16.6136,
     "t": "building"
   },
   {
     "id": "building:963101003",
-    "n": "Unnamed place",
+    "n": "Palace near Putea Nigrorum",
     "lat": 31.2072,
     "lng": 16.3914,
     "t": "building"
   },
   {
     "id": "building:963101004",
-    "n": "Unnamed place",
+    "n": "Palace at es-Semat",
     "lat": 31.1747,
     "lng": 16.5301,
     "t": "building"
   },
   {
     "id": "building:963101005",
-    "n": "Unnamed place",
+    "n": "Palace near el-Magedubia",
     "lat": 31.0057,
     "lng": 16.6519,
     "t": "building"
   },
   {
     "id": "building:963101006",
-    "n": "Unnamed place",
+    "n": "Palace at Bir en-Nagdiyah",
     "lat": 30.9477,
     "lng": 16.6177,
     "t": "building"
   },
   {
     "id": "building:963101007",
-    "n": "Unnamed place",
+    "n": "Palace W of ‘Auxiu’",
     "lat": 31.2562,
     "lng": 15.725,
     "t": "building"
   },
   {
     "id": "building:963101008",
-    "n": "Unnamed place",
+    "n": "Palace N of Auxiqua",
     "lat": 31.4249,
     "lng": 15.0436,
     "t": "building"
   },
   {
     "id": "building:963101018",
-    "n": "Unnamed place",
+    "n": "Palace near Unnamed place",
     "lat": 31.0203,
     "lng": 16.9915,
     "t": "building"
   },
   {
     "id": "building:963101019",
-    "n": "Unnamed place",
+    "n": "Palace at er-Rumia",
     "lat": 31.1546,
     "lng": 16.782,
     "t": "building"
   },
   {
     "id": "building:324841378",
-    "n": "Unnamed Place",
+    "n": "An unnamed place",
     "lat": 32.0772,
     "lng": 15.036,
     "t": "building"
   },
   {
     "id": "building:426626",
-    "n": "Unnamed Roman villa",
+    "n": "villa rustica located",
     "lat": 41.5912,
     "lng": 12.4988,
     "t": "building"
   },
   {
     "id": "building:426633",
-    "n": "Unnamed Roman villa",
+    "n": "Palace at Norba",
     "lat": 41.5916,
     "lng": 12.9603,
     "t": "building"
   },
   {
     "id": "building:37513578",
-    "n": "Unnamed Roman villa",
+    "n": "cryptoporticus",
     "lat": 40.7327,
     "lng": 14.6041,
     "t": "building"
   },
   {
     "id": "building:140442",
-    "n": "Unnamed Roman villa",
+    "n": "Palace at Brain-sur-Allonnes",
     "lat": 47.3052,
     "lng": 0.0698,
     "t": "building"
   },
   {
     "id": "building:140491",
-    "n": "Unnamed Roman villa",
+    "n": "Palace at L'Anglade",
     "lat": 45.6554,
     "lng": -0.3774,
     "t": "building"
   },
-  {
-    "id": "building:821460578",
-    "n": "Unnamed Roman Villa",
-    "lat": 53.0853,
-    "lng": -2.8884,
-    "t": "building"
-  },
+  { "id": "building:821460578", "n": "The site", "lat": 53.0853, "lng": -2.8884, "t": "building" },
   {
     "id": "building:140573",
     "n": "Unnamed Roman villa, Commune de Cadillac",
@@ -18214,1716 +18208,1776 @@
     "lng": -0.3205,
     "t": "building"
   },
-  { "id": "building:157901", "n": "Unnamed villa", "lat": 43.1884, "lng": 6.5484, "t": "building" },
-  { "id": "building:157902", "n": "Unnamed villa", "lat": 43.1903, "lng": 6.5562, "t": "building" },
+  {
+    "id": "building:157901",
+    "n": "Palace at Pardigon",
+    "lat": 43.1884,
+    "lng": 6.5484,
+    "t": "building"
+  },
+  {
+    "id": "building:157902",
+    "n": "Palace at Pardigon",
+    "lat": 43.1903,
+    "lng": 6.5562,
+    "t": "building"
+  },
   {
     "id": "building:365422",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.4519,
     "lng": 19.9077,
     "t": "building"
   },
   {
     "id": "building:324841379",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.8065,
     "lng": 12.4675,
     "t": "building"
   },
-  { "id": "building:856322", "n": "Unnamed villa", "lat": 45.25, "lng": 36.75, "t": "building" },
+  {
+    "id": "building:856322",
+    "n": "Palace near Hermonassa",
+    "lat": 45.25,
+    "lng": 36.75,
+    "t": "building"
+  },
   {
     "id": "building:426602",
-    "n": "Unnamed villa",
+    "n": "Palace near Muraccio dell’Omo",
     "lat": 41.8641,
     "lng": 12.6106,
     "t": "building"
   },
-  { "id": "building:605512", "n": "Unnamed villa", "lat": 36.879, "lng": 27.2036, "t": "building" },
+  {
+    "id": "building:605512",
+    "n": "Palace near Phyxia?",
+    "lat": 36.879,
+    "lng": 27.2036,
+    "t": "building"
+  },
   {
     "id": "building:544883102",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7021,
     "lng": 20.0746,
     "t": "building"
   },
-  { "id": "building:140496", "n": "Unnamed villa", "lat": 45.8622, "lng": 0.2279, "t": "building" },
-  { "id": "building:140502", "n": "Unnamed villa", "lat": 45.6537, "lng": 0.8326, "t": "building" },
-  { "id": "building:140503", "n": "Unnamed villa", "lat": 45.653, "lng": 0.4972, "t": "building" },
-  { "id": "building:140522", "n": "Unnamed villa", "lat": 45.4481, "lng": 2.4452, "t": "building" },
-  { "id": "building:140523", "n": "Unnamed villa", "lat": 45.824, "lng": 2.1221, "t": "building" },
-  { "id": "building:140528", "n": "Unnamed villa", "lat": 44.4912, "lng": 1.8802, "t": "building" },
-  { "id": "building:140533", "n": "Unnamed villa", "lat": 44.5012, "lng": 0.8583, "t": "building" },
-  { "id": "building:140535", "n": "Unnamed villa", "lat": 44.2437, "lng": 1.0047, "t": "building" },
   {
-    "id": "building:429591722",
-    "n": "Unnamed villa",
-    "lat": 41.8972,
-    "lng": 12.496,
+    "id": "building:140496",
+    "n": "Palace at Le Châtelard",
+    "lat": 45.8622,
+    "lng": 0.2279,
     "t": "building"
   },
   {
+    "id": "building:140502",
+    "n": "Palace at Lartimache",
+    "lat": 45.6537,
+    "lng": 0.8326,
+    "t": "building"
+  },
+  {
+    "id": "building:140503",
+    "n": "Palace at Les Brousses",
+    "lat": 45.653,
+    "lng": 0.4972,
+    "t": "building"
+  },
+  {
+    "id": "building:140522",
+    "n": "Palace at Bois Bodou",
+    "lat": 45.4481,
+    "lng": 2.4452,
+    "t": "building"
+  },
+  {
+    "id": "building:140523",
+    "n": "Palace at Maisonnières",
+    "lat": 45.824,
+    "lng": 2.1221,
+    "t": "building"
+  },
+  { "id": "building:140528", "n": "remains", "lat": 44.4912, "lng": 1.8802, "t": "building" },
+  { "id": "building:140533", "n": "villa located", "lat": 44.5012, "lng": 0.8583, "t": "building" },
+  {
+    "id": "building:140535",
+    "n": "Palace at Sas de Marty",
+    "lat": 44.2437,
+    "lng": 1.0047,
+    "t": "building"
+  },
+  { "id": "building:429591722", "n": "Remains", "lat": 41.8972, "lng": 12.496, "t": "building" },
+  {
     "id": "building:324841375",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5994,
     "lng": 11.8507,
     "t": "building"
   },
   {
     "id": "building:324841376",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.9405,
     "lng": 11.2461,
     "t": "building"
   },
   {
     "id": "building:324841377",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7824,
     "lng": 9.9967,
     "t": "building"
   },
   {
     "id": "building:963100979",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.3371,
     "lng": 19.6122,
     "t": "building"
   },
   {
     "id": "building:963100980",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.3207,
     "lng": 19.5608,
     "t": "building"
   },
   {
     "id": "building:963100981",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.4336,
     "lng": 19.7239,
     "t": "building"
   },
   {
     "id": "building:963100982",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.364,
     "lng": 19.6574,
     "t": "building"
   },
   {
     "id": "building:963100983",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.4307,
     "lng": 19.7871,
     "t": "building"
   },
   {
     "id": "building:963100984",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.4752,
     "lng": 19.7702,
     "t": "building"
   },
   {
     "id": "building:963100985",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.314,
     "lng": 19.7164,
     "t": "building"
   },
   {
     "id": "building:963100986",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.3961,
     "lng": 19.7981,
     "t": "building"
   },
   {
     "id": "building:963101179",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.8196,
     "lng": 13.5142,
     "t": "building"
   },
   {
     "id": "building:963101180",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4215,
     "lng": 13.5604,
     "t": "building"
   },
   {
     "id": "building:963101181",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5519,
     "lng": 13.7225,
     "t": "building"
   },
   {
     "id": "building:963101182",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5773,
     "lng": 13.7012,
     "t": "building"
   },
   {
     "id": "building:963101183",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5919,
     "lng": 13.712,
     "t": "building"
   },
   {
     "id": "building:963101184",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5991,
     "lng": 13.6971,
     "t": "building"
   },
   {
     "id": "building:963101185",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6285,
     "lng": 13.6979,
     "t": "building"
   },
   {
     "id": "building:963101186",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6248,
     "lng": 13.7695,
     "t": "building"
   },
   {
     "id": "building:963101187",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6698,
     "lng": 13.773,
     "t": "building"
   },
   {
     "id": "building:963101188",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.8058,
     "lng": 10.031,
     "t": "building"
   },
   {
     "id": "building:963101189",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7815,
     "lng": 10.049,
     "t": "building"
   },
   {
     "id": "building:963101190",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7797,
     "lng": 10.0858,
     "t": "building"
   },
   {
     "id": "building:963101191",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.8124,
     "lng": 10.1215,
     "t": "building"
   },
   {
     "id": "building:963101192",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3819,
     "lng": 13.5317,
     "t": "building"
   },
   {
     "id": "building:963101193",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3532,
     "lng": 13.4951,
     "t": "building"
   },
   {
     "id": "building:963101194",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.1137,
     "lng": 13.445,
     "t": "building"
   },
   {
     "id": "building:963101195",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0356,
     "lng": 13.7022,
     "t": "building"
   },
   {
     "id": "building:963101196",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.2552,
     "lng": 13.6496,
     "t": "building"
   },
-  { "id": "building:963101197", "n": "Unnamed villa", "lat": 32.111, "lng": 13.7, "t": "building" },
+  {
+    "id": "building:963101197",
+    "n": "An unnamed villa",
+    "lat": 32.111,
+    "lng": 13.7,
+    "t": "building"
+  },
   {
     "id": "building:963101198",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7602,
     "lng": 13.4134,
     "t": "building"
   },
   {
     "id": "building:963101199",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7795,
     "lng": 13.4554,
     "t": "building"
   },
   {
     "id": "building:963101200",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.9182,
     "lng": 13.643,
     "t": "building"
   },
   {
     "id": "building:963101201",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.8414,
     "lng": 13.5033,
     "t": "building"
   },
   {
     "id": "building:963101202",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.1639,
     "lng": 14.7255,
     "t": "building"
   },
   {
     "id": "building:963101203",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0084,
     "lng": 14.7291,
     "t": "building"
   },
   {
     "id": "building:963101204",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.1451,
     "lng": 14.7014,
     "t": "building"
   },
   {
     "id": "building:963101205",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.1744,
     "lng": 14.7074,
     "t": "building"
   },
   {
     "id": "building:963101206",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6294,
     "lng": 14.313,
     "t": "building"
   },
   {
     "id": "building:963101207",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.492,
     "lng": 14.5926,
     "t": "building"
   },
   {
     "id": "building:963101208",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7076,
     "lng": 14.1552,
     "t": "building"
   },
   {
     "id": "building:963101210",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6091,
     "lng": 14.3382,
     "t": "building"
   },
   {
     "id": "building:963101211",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7102,
     "lng": 14.1383,
     "t": "building"
   },
   {
     "id": "building:963101212",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1691,
     "lng": 10.8885,
     "t": "building"
   },
   {
     "id": "building:963101213",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1325,
     "lng": 10.7713,
     "t": "building"
   },
   {
     "id": "building:963101214",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.699,
     "lng": 13.7782,
     "t": "building"
   },
   {
     "id": "building:963101215",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.853,
     "lng": 14.0214,
     "t": "building"
   },
   {
     "id": "building:963101216",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6704,
     "lng": 14.0604,
     "t": "building"
   },
   {
     "id": "building:963101217",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6477,
     "lng": 13.9651,
     "t": "building"
   },
   {
     "id": "building:963101218",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.4236,
     "lng": 13.8929,
     "t": "building"
   },
   {
     "id": "building:963101219",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.4435,
     "lng": 14.0111,
     "t": "building"
   },
   {
     "id": "building:963101220",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3088,
     "lng": 14.274,
     "t": "building"
   },
   {
     "id": "building:963101221",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2742,
     "lng": 14.2669,
     "t": "building"
   },
   {
     "id": "building:963101222",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.4988,
     "lng": 10.8771,
     "t": "building"
   },
   {
     "id": "building:963101223",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.4288,
     "lng": 10.6135,
     "t": "building"
   },
   {
     "id": "building:963101224",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.3744,
     "lng": 10.7083,
     "t": "building"
   },
   {
     "id": "building:963101225",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.3321,
     "lng": 10.6511,
     "t": "building"
   },
   {
     "id": "building:963101226",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.3082,
     "lng": 10.8695,
     "t": "building"
   },
   {
     "id": "building:963101227",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.2034,
     "lng": 10.6359,
     "t": "building"
   },
   {
     "id": "building:963101228",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7308,
     "lng": 10.9522,
     "t": "building"
   },
   {
     "id": "building:963101229",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.8828,
     "lng": 13.3924,
     "t": "building"
   },
   {
     "id": "building:963101230",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7682,
     "lng": 13.1396,
     "t": "building"
   },
   {
     "id": "building:963101231",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7041,
     "lng": 13.2899,
     "t": "building"
   },
   {
     "id": "building:963101232",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6981,
     "lng": 13.3767,
     "t": "building"
   },
   {
     "id": "building:963101233",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6831,
     "lng": 10.024,
     "t": "building"
   },
   {
     "id": "building:963101234",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7594,
     "lng": 10.1689,
     "t": "building"
   },
   {
     "id": "building:963101235",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6394,
     "lng": 10.0482,
     "t": "building"
   },
   {
     "id": "building:963101236",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6993,
     "lng": 10.0746,
     "t": "building"
   },
   {
     "id": "building:963101237",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6315,
     "lng": 10.1402,
     "t": "building"
   },
   {
     "id": "building:963101238",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6977,
     "lng": 10.1566,
     "t": "building"
   },
   {
     "id": "building:963101239",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1315,
     "lng": 10.522,
     "t": "building"
   },
   {
     "id": "building:963101240",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1527,
     "lng": 10.4447,
     "t": "building"
   },
   {
     "id": "building:963101241",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.3695,
     "lng": 10.2965,
     "t": "building"
   },
   {
     "id": "building:963101242",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.2537,
     "lng": 10.4932,
     "t": "building"
   },
   {
     "id": "building:963101243",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7521,
     "lng": 13.6083,
     "t": "building"
   },
   {
     "id": "building:963101244",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.5924,
     "lng": 13.7268,
     "t": "building"
   },
   {
     "id": "building:963101245",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7255,
     "lng": 13.5118,
     "t": "building"
   },
   {
     "id": "building:963101246",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3906,
     "lng": 13.5734,
     "t": "building"
   },
   {
     "id": "building:963101247",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.5593,
     "lng": 13.7037,
     "t": "building"
   },
   {
     "id": "building:963101248",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3867,
     "lng": 13.385,
     "t": "building"
   },
   {
     "id": "building:963101249",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.4136,
     "lng": 13.3972,
     "t": "building"
   },
   {
     "id": "building:963101250",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2888,
     "lng": 13.4336,
     "t": "building"
   },
   {
     "id": "building:963101251",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.294,
     "lng": 13.4473,
     "t": "building"
   },
   {
     "id": "building:963101252",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.3077,
     "lng": 10.9961,
     "t": "building"
   },
   {
     "id": "building:963101253",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3614,
     "lng": 14.2358,
     "t": "building"
   },
   {
     "id": "building:963101254",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.2812,
     "lng": 14.1347,
     "t": "building"
   },
   {
     "id": "building:963101255",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.2548,
     "lng": 14.1904,
     "t": "building"
   },
   {
     "id": "building:963101256",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0389,
     "lng": 14.174,
     "t": "building"
   },
   {
     "id": "building:963101257",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.489,
     "lng": 14.1417,
     "t": "building"
   },
   {
     "id": "building:963101258",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.2812,
     "lng": 14.4355,
     "t": "building"
   },
   {
     "id": "building:963101259",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3261,
     "lng": 14.2503,
     "t": "building"
   },
   {
     "id": "building:963101260",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3974,
     "lng": 14.1419,
     "t": "building"
   },
   {
     "id": "building:963101261",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5933,
     "lng": 14.2969,
     "t": "building"
   },
   {
     "id": "building:963101262",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5173,
     "lng": 14.1925,
     "t": "building"
   },
   {
     "id": "building:963101263",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.5534,
     "lng": 14.7527,
     "t": "building"
   },
   {
     "id": "building:963101264",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.1488,
     "lng": 14.9083,
     "t": "building"
   },
   {
     "id": "building:963101265",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.1348,
     "lng": 14.7916,
     "t": "building"
   },
   {
     "id": "building:963101266",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0277,
     "lng": 14.8348,
     "t": "building"
   },
   {
     "id": "building:963101267",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4748,
     "lng": 13.8682,
     "t": "building"
   },
   {
     "id": "building:963101268",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5203,
     "lng": 13.8939,
     "t": "building"
   },
   {
     "id": "building:963101269",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4727,
     "lng": 13.8073,
     "t": "building"
   },
   {
     "id": "building:963101270",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5033,
     "lng": 13.8435,
     "t": "building"
   },
   {
     "id": "building:963101271",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4188,
     "lng": 13.9465,
     "t": "building"
   },
   {
     "id": "building:963101272",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4089,
     "lng": 13.9177,
     "t": "building"
   },
   {
     "id": "building:963101273",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5016,
     "lng": 13.9185,
     "t": "building"
   },
   {
     "id": "building:963101274",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4612,
     "lng": 13.9631,
     "t": "building"
   },
   {
     "id": "building:963101275",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3696,
     "lng": 13.8836,
     "t": "building"
   },
   {
     "id": "building:963101276",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.2551,
     "lng": 14.0435,
     "t": "building"
   },
   {
     "id": "building:963101277",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.4774,
     "lng": 10.2819,
     "t": "building"
   },
   {
     "id": "building:963101278",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5442,
     "lng": 10.4082,
     "t": "building"
   },
   {
     "id": "building:963101279",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.3584,
     "lng": 10.3309,
     "t": "building"
   },
   {
     "id": "building:963101280",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.4287,
     "lng": 10.3234,
     "t": "building"
   },
   {
     "id": "building:963101281",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5461,
     "lng": 10.2978,
     "t": "building"
   },
   {
     "id": "building:963101282",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5606,
     "lng": 10.5292,
     "t": "building"
   },
   {
     "id": "building:963101283",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.4676,
     "lng": 10.5156,
     "t": "building"
   },
   {
     "id": "building:963101284",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5019,
     "lng": 10.5315,
     "t": "building"
   },
   {
     "id": "building:963101285",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5851,
     "lng": 10.3142,
     "t": "building"
   },
   {
     "id": "building:963101286",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6189,
     "lng": 10.3956,
     "t": "building"
   },
   {
     "id": "building:963101287",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3086,
     "lng": 13.4391,
     "t": "building"
   },
   {
     "id": "building:963101288",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2987,
     "lng": 13.4155,
     "t": "building"
   },
   {
     "id": "building:963101289",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.4031,
     "lng": 13.3042,
     "t": "building"
   },
   {
     "id": "building:963101290",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.5779,
     "lng": 13.2176,
     "t": "building"
   },
   {
     "id": "building:963101291",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6105,
     "lng": 13.2347,
     "t": "building"
   },
   {
     "id": "building:963101292",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.1274,
     "lng": 13.4439,
     "t": "building"
   },
   {
     "id": "building:963101293",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3517,
     "lng": 13.2638,
     "t": "building"
   },
   {
     "id": "building:963101294",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.385,
     "lng": 13.2012,
     "t": "building"
   },
   {
     "id": "building:963101295",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.37,
     "lng": 13.2581,
     "t": "building"
   },
   {
     "id": "building:963101296",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.5491,
     "lng": 13.3194,
     "t": "building"
   },
   {
     "id": "building:963101297",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.983,
     "lng": 14.1526,
     "t": "building"
   },
   {
     "id": "building:963101298",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0009,
     "lng": 14.1393,
     "t": "building"
   },
   {
     "id": "building:963101299",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6516,
     "lng": 14.2476,
     "t": "building"
   },
   {
     "id": "building:963101300",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6571,
     "lng": 14.2654,
     "t": "building"
   },
   {
     "id": "building:963101301",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6241,
     "lng": 14.3315,
     "t": "building"
   },
   {
     "id": "building:963101302",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.8644,
     "lng": 14.222,
     "t": "building"
   },
   {
     "id": "building:963101303",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.315,
     "lng": 14.2981,
     "t": "building"
   },
   {
     "id": "building:963101304",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6677,
     "lng": 14.1042,
     "t": "building"
   },
   {
     "id": "building:963101305",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7149,
     "lng": 14.1466,
     "t": "building"
   },
   {
     "id": "building:963101306",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7261,
     "lng": 14.251,
     "t": "building"
   },
   {
     "id": "building:963101307",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2549,
     "lng": 14.4668,
     "t": "building"
   },
   {
     "id": "building:963101308",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2458,
     "lng": 14.4821,
     "t": "building"
   },
   {
     "id": "building:963101309",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2237,
     "lng": 14.4782,
     "t": "building"
   },
   {
     "id": "building:963101310",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2259,
     "lng": 14.4311,
     "t": "building"
   },
   {
     "id": "building:963101311",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3228,
     "lng": 14.4497,
     "t": "building"
   },
   {
     "id": "building:963101312",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2986,
     "lng": 14.4583,
     "t": "building"
   },
   {
     "id": "building:963101313",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2646,
     "lng": 14.4295,
     "t": "building"
   },
   {
     "id": "building:963101314",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.269,
     "lng": 14.4542,
     "t": "building"
   },
   {
     "id": "building:963101315",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.1232,
     "lng": 14.4423,
     "t": "building"
   },
   {
     "id": "building:963101316",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.1133,
     "lng": 14.5453,
     "t": "building"
   },
   {
     "id": "building:963101317",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4445,
     "lng": 13.8062,
     "t": "building"
   },
   {
     "id": "building:963101318",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4481,
     "lng": 13.7772,
     "t": "building"
   },
   {
     "id": "building:963101319",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5078,
     "lng": 13.7898,
     "t": "building"
   },
   {
     "id": "building:963101320",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6084,
     "lng": 14.0439,
     "t": "building"
   },
   {
     "id": "building:963101321",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5664,
     "lng": 13.7985,
     "t": "building"
   },
   {
     "id": "building:963101322",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5918,
     "lng": 13.8165,
     "t": "building"
   },
   {
     "id": "building:963101323",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7118,
     "lng": 14.0989,
     "t": "building"
   },
   {
     "id": "building:963101324",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7182,
     "lng": 14.0557,
     "t": "building"
   },
   {
     "id": "building:963101325",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7391,
     "lng": 13.8285,
     "t": "building"
   },
   {
     "id": "building:963101326",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7905,
     "lng": 13.7624,
     "t": "building"
   },
   {
     "id": "building:963101327",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.2821,
     "lng": 14.4078,
     "t": "building"
   },
   {
     "id": "building:963101328",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3023,
     "lng": 14.3939,
     "t": "building"
   },
   {
     "id": "building:963101329",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3616,
     "lng": 14.5119,
     "t": "building"
   },
   {
     "id": "building:963101330",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3748,
     "lng": 14.4792,
     "t": "building"
   },
   {
     "id": "building:963101331",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3915,
     "lng": 14.6089,
     "t": "building"
   },
   {
     "id": "building:963101332",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3617,
     "lng": 14.5296,
     "t": "building"
   },
   {
     "id": "building:963101333",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.988,
     "lng": 14.6101,
     "t": "building"
   },
   {
     "id": "building:963101334",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.9942,
     "lng": 14.6949,
     "t": "building"
   },
   {
     "id": "building:963101335",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3784,
     "lng": 14.4657,
     "t": "building"
   },
   {
     "id": "building:963101336",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.3821,
     "lng": 14.45,
     "t": "building"
   },
   {
     "id": "building:963101337",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0868,
     "lng": 13.2629,
     "t": "building"
   },
   {
     "id": "building:963101338",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.9693,
     "lng": 13.2486,
     "t": "building"
   },
   {
     "id": "building:963101339",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7813,
     "lng": 13.1618,
     "t": "building"
   },
   {
     "id": "building:963101340",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7651,
     "lng": 13.3207,
     "t": "building"
   },
   {
     "id": "building:963101341",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7859,
     "lng": 13.019,
     "t": "building"
   },
   {
     "id": "building:963101342",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.605,
     "lng": 10.7121,
     "t": "building"
   },
   {
     "id": "building:963101343",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.622,
     "lng": 10.677,
     "t": "building"
   },
   {
     "id": "building:963101344",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5936,
     "lng": 10.658,
     "t": "building"
   },
   {
     "id": "building:963101345",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6748,
     "lng": 10.6672,
     "t": "building"
   },
   {
     "id": "building:963101346",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6266,
     "lng": 10.5682,
     "t": "building"
   },
   {
     "id": "building:963101347",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7452,
     "lng": 10.8236,
     "t": "building"
   },
   {
     "id": "building:963101348",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7461,
     "lng": 10.2548,
     "t": "building"
   },
   {
     "id": "building:963101349",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7017,
     "lng": 10.292,
     "t": "building"
   },
   {
     "id": "building:963101350",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6729,
     "lng": 10.2558,
     "t": "building"
   },
   {
     "id": "building:963101351",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6315,
     "lng": 10.5164,
     "t": "building"
   },
   {
     "id": "building:963101352",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.8483,
     "lng": 13.9871,
     "t": "building"
   },
   {
     "id": "building:963101353",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0962,
     "lng": 13.7555,
     "t": "building"
   },
   {
     "id": "building:963101354",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7694,
     "lng": 13.5176,
     "t": "building"
   },
   {
     "id": "building:963101355",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1859,
     "lng": 10.9913,
     "t": "building"
   },
   {
     "id": "building:963101356",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5035,
     "lng": 10.9759,
     "t": "building"
   },
   {
     "id": "building:963101357",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.0983,
     "lng": 10.8974,
     "t": "building"
   },
   {
     "id": "building:963101358",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.0886,
     "lng": 10.8654,
     "t": "building"
   },
   {
     "id": "building:963101359",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.0643,
     "lng": 10.6752,
     "t": "building"
   },
   {
     "id": "building:963101360",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5891,
     "lng": 10.9748,
     "t": "building"
   },
   {
     "id": "building:963101361",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5512,
     "lng": 10.631,
     "t": "building"
   },
   {
     "id": "building:963101362",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.4972,
     "lng": 10.6315,
     "t": "building"
   },
   {
     "id": "building:963101363",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5699,
     "lng": 9.7249,
     "t": "building"
   },
   {
     "id": "building:963101364",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6964,
     "lng": 9.879,
     "t": "building"
   },
   {
     "id": "building:963101365",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6998,
     "lng": 9.6544,
     "t": "building"
   },
   {
     "id": "building:963101366",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5952,
     "lng": 9.562,
     "t": "building"
   },
   {
     "id": "building:963101367",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6056,
     "lng": 9.5011,
     "t": "building"
   },
   {
     "id": "building:963101368",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6015,
     "lng": 9.4514,
     "t": "building"
   },
   {
     "id": "building:963101369",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1713,
     "lng": 11.2879,
     "t": "building"
   },
   {
     "id": "building:963101370",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.0083,
     "lng": 11.3067,
     "t": "building"
   },
   {
     "id": "building:963101371",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7574,
     "lng": 11.0025,
     "t": "building"
   },
   {
     "id": "building:963101372",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.7821,
     "lng": 11.0477,
     "t": "building"
   },
   {
     "id": "building:963101373",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.578,
     "lng": 11.0341,
     "t": "building"
   },
   {
     "id": "building:963101374",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.0354,
     "lng": 11.0803,
     "t": "building"
   },
   {
     "id": "building:963101375",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1155,
     "lng": 11.236,
     "t": "building"
   },
   {
     "id": "building:963101376",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.1145,
     "lng": 11.0234,
     "t": "building"
   },
   {
     "id": "building:963101377",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.5247,
     "lng": 11.0397,
     "t": "building"
   },
   {
     "id": "building:963101378",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7956,
     "lng": 12.5251,
     "t": "building"
   },
   {
     "id": "building:963101379",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.7644,
     "lng": 12.5186,
     "t": "building"
   },
   {
     "id": "building:963101380",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.0359,
     "lng": 12.5942,
     "t": "building"
   },
   {
     "id": "building:963101383",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4826,
     "lng": 20.6551,
     "t": "building"
   },
   {
     "id": "building:963101384",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5258,
     "lng": 20.6699,
     "t": "building"
   },
   {
     "id": "building:963101385",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5556,
     "lng": 20.7243,
     "t": "building"
   },
   {
     "id": "building:963101386",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5503,
     "lng": 20.8632,
     "t": "building"
   },
   {
     "id": "building:963101387",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5885,
     "lng": 20.901,
     "t": "building"
   },
   {
     "id": "building:963101388",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6238,
     "lng": 20.7935,
     "t": "building"
   },
   {
     "id": "building:963101389",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.6593,
     "lng": 20.9785,
     "t": "building"
   },
   {
     "id": "building:963101390",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.632,
     "lng": 20.9402,
     "t": "building"
   },
   {
     "id": "building:963101391",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4362,
     "lng": 20.5044,
     "t": "building"
   },
   {
     "id": "building:963101392",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4768,
     "lng": 20.5327,
     "t": "building"
   },
   {
     "id": "building:963101393",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3048,
     "lng": 20.3319,
     "t": "building"
   },
   {
     "id": "building:963101394",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4758,
     "lng": 20.4945,
     "t": "building"
   },
   {
     "id": "building:963101395",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.9718,
     "lng": 20.063,
     "t": "building"
   },
   {
     "id": "building:963101396",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.9177,
     "lng": 20.087,
     "t": "building"
   },
   {
     "id": "building:963101397",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.8849,
     "lng": 20.088,
     "t": "building"
   },
   {
     "id": "building:963101398",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.8738,
     "lng": 20.0431,
     "t": "building"
   },
   {
     "id": "building:963101399",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.613,
     "lng": 20.1087,
     "t": "building"
   },
   {
     "id": "building:963101400",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.6041,
     "lng": 20.1251,
     "t": "building"
   },
   {
     "id": "building:963101401",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.5663,
     "lng": 20.2379,
     "t": "building"
   },
   {
     "id": "building:963101402",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4663,
     "lng": 20.9768,
     "t": "building"
   },
   {
     "id": "building:963101403",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4374,
     "lng": 20.9985,
     "t": "building"
   },
   {
     "id": "building:963101404",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.42,
     "lng": 20.6081,
     "t": "building"
   },
   {
     "id": "building:963101405",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.3913,
     "lng": 20.6192,
     "t": "building"
   },
   {
     "id": "building:963101406",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4439,
     "lng": 20.8694,
     "t": "building"
   },
   {
     "id": "building:963101407",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4587,
     "lng": 20.9009,
     "t": "building"
   },
   {
     "id": "building:963101408",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.4984,
     "lng": 20.7138,
     "t": "building"
   },
   {
     "id": "building:963101409",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.5003,
     "lng": 20.7608,
     "t": "building"
@@ -34081,7 +34135,7 @@
   },
   {
     "id": "pleiades:576118706",
-    "n": "Unnamed Roman tomb",
+    "n": "An unnamed Roman tomb that is located",
     "lat": 41.9746144,
     "lng": 12.4343027,
     "t": "tomb"
@@ -38019,7 +38073,7 @@
   },
   {
     "id": "pleiades:693875992",
-    "n": "Unnamed tomb",
+    "n": "Tomb at Regio II, Pompeii",
     "lat": 40.749949677161695,
     "lng": 14.496434787236947,
     "t": "tomb"
@@ -38969,7 +39023,7 @@
   },
   {
     "id": "pleiades:178841776",
-    "n": "Unnamed tomb",
+    "n": "Roman tomb located",
     "lat": 40.74993765727593,
     "lng": 14.496385803684804,
     "t": "tomb"
@@ -39432,7 +39486,7 @@
   },
   {
     "id": "pleiades:963101381",
-    "n": "Unnamed Place",
+    "n": "An unnamed place",
     "lat": 32.513464,
     "lng": 14.433939,
     "t": "tomb"
@@ -40296,14 +40350,14 @@
   { "id": "pleiades:157898", "n": "L’Ormeau", "lat": 43.447288, "lng": 6.435303, "t": "villa" },
   {
     "id": "pleiades:157901",
-    "n": "Unnamed villa",
+    "n": "Villa at Pardigon",
     "lat": 43.188356,
     "lng": 6.548428,
     "t": "villa"
   },
   {
     "id": "pleiades:157902",
-    "n": "Unnamed villa",
+    "n": "Villa at Pardigon",
     "lat": 43.190342349999995,
     "lng": 6.5561986999999995,
     "t": "villa"
@@ -40469,7 +40523,13 @@
   { "id": "pleiades:364009", "n": "er-Rumia", "lat": 31.155442, "lng": 16.799428, "t": "villa" },
   { "id": "pleiades:364013", "n": "es-Semat", "lat": 31.17763, "lng": 16.543714, "t": "villa" },
   { "id": "pleiades:364015", "n": "es-Snemat", "lat": 31.157885, "lng": 16.762348, "t": "villa" },
-  { "id": "pleiades:365422", "n": "Unnamed villa", "lat": 30.4519, "lng": 19.907708, "t": "villa" },
+  {
+    "id": "pleiades:365422",
+    "n": "An unnamed villa",
+    "lat": 30.4519,
+    "lng": 19.907708,
+    "t": "villa"
+  },
   { "id": "pleiades:373756", "n": "el-Bent", "lat": 32.606296, "lng": 20.7247, "t": "villa" },
   { "id": "pleiades:373775", "n": "Coefia", "lat": 32.204545, "lng": 20.174419, "t": "villa" },
   { "id": "pleiades:373789", "n": "el-Farzuga", "lat": 32.520533, "lng": 20.731216, "t": "villa" },
@@ -40605,7 +40665,7 @@
   },
   {
     "id": "pleiades:324841379",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.806543,
     "lng": 12.467497,
     "t": "villa"
@@ -40730,7 +40790,13 @@
     "lng": 36.970217,
     "t": "villa"
   },
-  { "id": "pleiades:856322", "n": "Unnamed villa", "lat": 45.25, "lng": 36.75, "t": "villa" },
+  {
+    "id": "pleiades:856322",
+    "n": "Villa near Hermonassa",
+    "lat": 45.25,
+    "lng": 36.75,
+    "t": "villa"
+  },
   {
     "id": "pleiades:619242",
     "n": "Praedia Quadratiana",
@@ -40966,7 +41032,7 @@
   },
   {
     "id": "pleiades:324841378",
-    "n": "Unnamed Place",
+    "n": "An unnamed place",
     "lat": 32.077157,
     "lng": 15.03601,
     "t": "villa"
@@ -40988,7 +41054,7 @@
   },
   {
     "id": "pleiades:907518896",
-    "n": "Unnamed Roman villa",
+    "n": "Ruins",
     "lat": 41.92686240867704,
     "lng": 12.128467568408505,
     "t": "villa"
@@ -41345,7 +41411,7 @@
   },
   {
     "id": "pleiades:821460578",
-    "n": "Unnamed Roman Villa",
+    "n": "The site",
     "lat": 53.0853056,
     "lng": -2.888443,
     "t": "villa"
@@ -41659,7 +41725,7 @@
   },
   {
     "id": "pleiades:426602",
-    "n": "Unnamed villa",
+    "n": "Villa near Muraccio dell’Omo",
     "lat": 41.8641331,
     "lng": 12.6105711,
     "t": "villa"
@@ -41709,14 +41775,14 @@
   },
   {
     "id": "pleiades:426626",
-    "n": "Unnamed Roman villa",
+    "n": "villa rustica located",
     "lat": 41.591196,
     "lng": 12.4988,
     "t": "villa"
   },
   {
     "id": "pleiades:426633",
-    "n": "Unnamed Roman villa",
+    "n": "Villa at Norba",
     "lat": 41.591623275581306,
     "lng": 12.960261282373644,
     "t": "villa"
@@ -44552,7 +44618,7 @@
   },
   {
     "id": "pleiades:605512",
-    "n": "Unnamed villa",
+    "n": "Villa near Phyxia?",
     "lat": 36.87904,
     "lng": 27.203635,
     "t": "villa"
@@ -45598,7 +45664,7 @@
   },
   {
     "id": "pleiades:889260883",
-    "n": "Unnamed place",
+    "n": "Villa at Gasr Sidi Hassan",
     "lat": 31.278233,
     "lng": 15.974731,
     "t": "villa"
@@ -45678,7 +45744,7 @@
   },
   {
     "id": "pleiades:544883102",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.702081,
     "lng": 20.07455,
     "t": "villa"
@@ -45755,7 +45821,7 @@
   },
   {
     "id": "pleiades:37513578",
-    "n": "Unnamed Roman villa",
+    "n": "cryptoporticus",
     "lat": 40.7327409,
     "lng": 14.6041317,
     "t": "villa"
@@ -49100,7 +49166,7 @@
   },
   {
     "id": "pleiades:140442",
-    "n": "Unnamed Roman villa",
+    "n": "Villa at Brain-sur-Allonnes",
     "lat": 47.30523584575768,
     "lng": 0.0697650492525145,
     "t": "villa"
@@ -49405,7 +49471,7 @@
   },
   {
     "id": "pleiades:140491",
-    "n": "Unnamed Roman villa",
+    "n": "Villa at L'Anglade",
     "lat": 45.6554172,
     "lng": -0.3774035,
     "t": "villa"
@@ -49440,7 +49506,7 @@
   },
   {
     "id": "pleiades:140496",
-    "n": "Unnamed villa",
+    "n": "Villa at Le Châtelard",
     "lat": 45.862206,
     "lng": 0.227858,
     "t": "villa"
@@ -49476,14 +49542,14 @@
   },
   {
     "id": "pleiades:140502",
-    "n": "Unnamed villa",
+    "n": "Villa at Lartimache",
     "lat": 45.653659,
     "lng": 0.832614,
     "t": "villa"
   },
   {
     "id": "pleiades:140503",
-    "n": "Unnamed villa",
+    "n": "Villa at Les Brousses",
     "lat": 45.653017,
     "lng": 0.497235,
     "t": "villa"
@@ -49616,14 +49682,14 @@
   },
   {
     "id": "pleiades:140522",
-    "n": "Unnamed villa",
+    "n": "Villa at Bois Bodou",
     "lat": 45.448097,
     "lng": 2.445226,
     "t": "villa"
   },
   {
     "id": "pleiades:140523",
-    "n": "Unnamed villa",
+    "n": "Villa at Maisonnières",
     "lat": 45.824049,
     "lng": 2.122061,
     "t": "villa"
@@ -49649,13 +49715,7 @@
     "lng": 2.616916,
     "t": "villa"
   },
-  {
-    "id": "pleiades:140528",
-    "n": "Unnamed villa",
-    "lat": 44.491186,
-    "lng": 1.880191,
-    "t": "villa"
-  },
+  { "id": "pleiades:140528", "n": "remains", "lat": 44.491186, "lng": 1.880191, "t": "villa" },
   {
     "id": "pleiades:140529",
     "n": "Barrington Atlas feature labeled 98",
@@ -49686,7 +49746,7 @@
   },
   {
     "id": "pleiades:140533",
-    "n": "Unnamed villa",
+    "n": "villa located",
     "lat": 44.501227,
     "lng": 0.858282,
     "t": "villa"
@@ -49698,7 +49758,13 @@
     "lng": 0.875169,
     "t": "villa"
   },
-  { "id": "pleiades:140535", "n": "Unnamed villa", "lat": 44.243687, "lng": 1.00469, "t": "villa" },
+  {
+    "id": "pleiades:140535",
+    "n": "Villa at Sas de Marty",
+    "lat": 44.243687,
+    "lng": 1.00469,
+    "t": "villa"
+  },
   {
     "id": "pleiades:140536",
     "n": "Barrington Atlas feature labeled 105",
@@ -49835,21 +49901,21 @@
   },
   {
     "id": "pleiades:324841375",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.599429795480106,
     "lng": 11.850731973631849,
     "t": "villa"
   },
   {
     "id": "pleiades:324841376",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.940543,
     "lng": 11.246112,
     "t": "villa"
   },
   {
     "id": "pleiades:324841377",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.782384,
     "lng": 9.996684,
     "t": "villa"
@@ -50944,357 +51010,357 @@
   },
   {
     "id": "pleiades:963100979",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.337114,
     "lng": 19.612248,
     "t": "villa"
   },
   {
     "id": "pleiades:963100980",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.320737,
     "lng": 19.560797,
     "t": "villa"
   },
   {
     "id": "pleiades:963100981",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.433596,
     "lng": 19.723926,
     "t": "villa"
   },
   {
     "id": "pleiades:963100982",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.363952,
     "lng": 19.657426,
     "t": "villa"
   },
   {
     "id": "pleiades:963100983",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.430717,
     "lng": 19.78706,
     "t": "villa"
   },
   {
     "id": "pleiades:963100984",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.475195,
     "lng": 19.770233,
     "t": "villa"
   },
   {
     "id": "pleiades:963100985",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.313994,
     "lng": 19.716407,
     "t": "villa"
   },
   {
     "id": "pleiades:963100986",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.39611,
     "lng": 19.798142,
     "t": "villa"
   },
   {
     "id": "pleiades:963100998",
-    "n": "Unnamed place",
+    "n": "Villa near Bir el-Manfuchia",
     "lat": 31.128116,
     "lng": 16.239951,
     "t": "villa"
   },
   {
     "id": "pleiades:963100999",
-    "n": "Unnamed place",
+    "n": "Villa W of ‘Auxiu’",
     "lat": 31.249564,
     "lng": 15.754442,
     "t": "villa"
   },
   {
     "id": "pleiades:963101000",
-    "n": "Unnamed place",
+    "n": "Villa at Praetorium",
     "lat": 31.289471,
     "lng": 15.937762,
     "t": "villa"
   },
   {
     "id": "pleiades:963101001",
-    "n": "Unnamed place",
+    "n": "Villa S of Gasr ed-Dubban",
     "lat": 31.093273,
     "lng": 16.522778,
     "t": "villa"
   },
   {
     "id": "pleiades:963101002",
-    "n": "Unnamed place",
+    "n": "Villa E of es-Semat",
     "lat": 31.13255,
     "lng": 16.613581,
     "t": "villa"
   },
   {
     "id": "pleiades:963101003",
-    "n": "Unnamed place",
+    "n": "Villa near Putea Nigrorum",
     "lat": 31.207221,
     "lng": 16.391392,
     "t": "villa"
   },
   {
     "id": "pleiades:963101004",
-    "n": "Unnamed place",
+    "n": "Villa at es-Semat",
     "lat": 31.174687,
     "lng": 16.530063,
     "t": "villa"
   },
   {
     "id": "pleiades:963101005",
-    "n": "Unnamed place",
+    "n": "Villa near el-Magedubia",
     "lat": 31.005689,
     "lng": 16.651881,
     "t": "villa"
   },
   {
     "id": "pleiades:963101006",
-    "n": "Unnamed place",
+    "n": "Villa at Bir en-Nagdiyah",
     "lat": 30.947686,
     "lng": 16.617725,
     "t": "villa"
   },
   {
     "id": "pleiades:963101007",
-    "n": "Unnamed place",
+    "n": "Villa W of ‘Auxiu’",
     "lat": 31.256172,
     "lng": 15.725035,
     "t": "villa"
   },
   {
     "id": "pleiades:963101008",
-    "n": "Unnamed place",
+    "n": "Villa N of Auxiqua",
     "lat": 31.424887,
     "lng": 15.04356,
     "t": "villa"
   },
   {
     "id": "pleiades:963101018",
-    "n": "Unnamed place",
+    "n": "Villa near Unnamed place",
     "lat": 31.020255,
     "lng": 16.991536,
     "t": "villa"
   },
   {
     "id": "pleiades:963101019",
-    "n": "Unnamed place",
+    "n": "Villa at er-Rumia",
     "lat": 31.154568,
     "lng": 16.78199,
     "t": "villa"
   },
   {
     "id": "pleiades:963101179",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.81962,
     "lng": 13.514166,
     "t": "villa"
   },
   {
     "id": "pleiades:963101180",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.421549,
     "lng": 13.560447,
     "t": "villa"
   },
   {
     "id": "pleiades:963101181",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.551926,
     "lng": 13.722471,
     "t": "villa"
   },
   {
     "id": "pleiades:963101182",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.57734,
     "lng": 13.701232,
     "t": "villa"
   },
   {
     "id": "pleiades:963101183",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.59185,
     "lng": 13.711985,
     "t": "villa"
   },
   {
     "id": "pleiades:963101184",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.599126,
     "lng": 13.697113,
     "t": "villa"
   },
   {
     "id": "pleiades:963101185",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.628483,
     "lng": 13.697878,
     "t": "villa"
   },
   {
     "id": "pleiades:963101186",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.624754,
     "lng": 13.769496,
     "t": "villa"
   },
   {
     "id": "pleiades:963101187",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.669847,
     "lng": 13.772976,
     "t": "villa"
   },
   {
     "id": "pleiades:963101188",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.805824,
     "lng": 10.031012,
     "t": "villa"
   },
   {
     "id": "pleiades:963101189",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.781502,
     "lng": 10.049023,
     "t": "villa"
   },
   {
     "id": "pleiades:963101190",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.779737,
     "lng": 10.08576,
     "t": "villa"
   },
   {
     "id": "pleiades:963101191",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.812403,
     "lng": 10.121526,
     "t": "villa"
   },
   {
     "id": "pleiades:963101192",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.381889,
     "lng": 13.53168,
     "t": "villa"
   },
   {
     "id": "pleiades:963101193",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.353197,
     "lng": 13.495108,
     "t": "villa"
   },
   {
     "id": "pleiades:963101194",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.113747,
     "lng": 13.444966,
     "t": "villa"
   },
   {
     "id": "pleiades:963101195",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.035621,
     "lng": 13.702226,
     "t": "villa"
   },
   {
     "id": "pleiades:963101196",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.255202,
     "lng": 13.649562,
     "t": "villa"
   },
   {
     "id": "pleiades:963101197",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.110994,
     "lng": 13.70004,
     "t": "villa"
   },
   {
     "id": "pleiades:963101198",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.760237,
     "lng": 13.413393,
     "t": "villa"
   },
   {
     "id": "pleiades:963101199",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.779456,
     "lng": 13.455424,
     "t": "villa"
   },
   {
     "id": "pleiades:963101200",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.918171,
     "lng": 13.642961,
     "t": "villa"
   },
   {
     "id": "pleiades:963101201",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.841448,
     "lng": 13.503283,
     "t": "villa"
   },
   {
     "id": "pleiades:963101202",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.163878,
     "lng": 14.725542,
     "t": "villa"
   },
   {
     "id": "pleiades:963101203",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.008392,
     "lng": 14.72905,
     "t": "villa"
   },
   {
     "id": "pleiades:963101204",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.145089,
     "lng": 14.701434,
     "t": "villa"
   },
   {
     "id": "pleiades:963101205",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.174387,
     "lng": 14.707412,
     "t": "villa"
   },
   {
     "id": "pleiades:963101206",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.629418,
     "lng": 14.313048,
     "t": "villa"
   },
   {
     "id": "pleiades:963101207",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.491951,
     "lng": 14.592602,
     "t": "villa"
   },
   {
     "id": "pleiades:963101208",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.707643,
     "lng": 14.155222,
     "t": "villa"
@@ -51308,1386 +51374,1386 @@
   },
   {
     "id": "pleiades:963101210",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.60911,
     "lng": 14.33817,
     "t": "villa"
   },
   {
     "id": "pleiades:963101211",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.710196,
     "lng": 14.138344,
     "t": "villa"
   },
   {
     "id": "pleiades:963101212",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.169123,
     "lng": 10.888468,
     "t": "villa"
   },
   {
     "id": "pleiades:963101213",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.132461,
     "lng": 10.771337,
     "t": "villa"
   },
   {
     "id": "pleiades:963101214",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.699029,
     "lng": 13.778204,
     "t": "villa"
   },
   {
     "id": "pleiades:963101215",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.853002,
     "lng": 14.021402,
     "t": "villa"
   },
   {
     "id": "pleiades:963101216",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.670373,
     "lng": 14.060415,
     "t": "villa"
   },
   {
     "id": "pleiades:963101217",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.647689,
     "lng": 13.965068,
     "t": "villa"
   },
   {
     "id": "pleiades:963101218",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.423563,
     "lng": 13.892875,
     "t": "villa"
   },
   {
     "id": "pleiades:963101219",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.443475,
     "lng": 14.01105,
     "t": "villa"
   },
   {
     "id": "pleiades:963101220",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.308767,
     "lng": 14.273982,
     "t": "villa"
   },
   {
     "id": "pleiades:963101221",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.274207,
     "lng": 14.266922,
     "t": "villa"
   },
   {
     "id": "pleiades:963101222",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.498784,
     "lng": 10.877121,
     "t": "villa"
   },
   {
     "id": "pleiades:963101223",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.428825,
     "lng": 10.613516,
     "t": "villa"
   },
   {
     "id": "pleiades:963101224",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.374357,
     "lng": 10.708329,
     "t": "villa"
   },
   {
     "id": "pleiades:963101225",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.332063,
     "lng": 10.651065,
     "t": "villa"
   },
   {
     "id": "pleiades:963101226",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.308174,
     "lng": 10.869536,
     "t": "villa"
   },
   {
     "id": "pleiades:963101227",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.203409,
     "lng": 10.635947,
     "t": "villa"
   },
   {
     "id": "pleiades:963101228",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.73081,
     "lng": 10.952205,
     "t": "villa"
   },
   {
     "id": "pleiades:963101229",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.882826,
     "lng": 13.392362,
     "t": "villa"
   },
   {
     "id": "pleiades:963101230",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.768248,
     "lng": 13.139617,
     "t": "villa"
   },
   {
     "id": "pleiades:963101231",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.70409,
     "lng": 13.289893,
     "t": "villa"
   },
   {
     "id": "pleiades:963101232",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.698064,
     "lng": 13.376743,
     "t": "villa"
   },
   {
     "id": "pleiades:963101233",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.683128,
     "lng": 10.024028,
     "t": "villa"
   },
   {
     "id": "pleiades:963101234",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.759355,
     "lng": 10.168888,
     "t": "villa"
   },
   {
     "id": "pleiades:963101235",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.639439,
     "lng": 10.048216,
     "t": "villa"
   },
   {
     "id": "pleiades:963101236",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.6993,
     "lng": 10.074569,
     "t": "villa"
   },
   {
     "id": "pleiades:963101237",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.631528,
     "lng": 10.140178,
     "t": "villa"
   },
   {
     "id": "pleiades:963101238",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.697744,
     "lng": 10.156599,
     "t": "villa"
   },
   {
     "id": "pleiades:963101239",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.131463,
     "lng": 10.522032,
     "t": "villa"
   },
   {
     "id": "pleiades:963101240",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.152674,
     "lng": 10.444693,
     "t": "villa"
   },
   {
     "id": "pleiades:963101241",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.36955,
     "lng": 10.296544,
     "t": "villa"
   },
   {
     "id": "pleiades:963101242",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.253712,
     "lng": 10.493197,
     "t": "villa"
   },
   {
     "id": "pleiades:963101243",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.752097,
     "lng": 13.60827,
     "t": "villa"
   },
   {
     "id": "pleiades:963101244",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.592394,
     "lng": 13.726788,
     "t": "villa"
   },
   {
     "id": "pleiades:963101245",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.7255,
     "lng": 13.511764,
     "t": "villa"
   },
   {
     "id": "pleiades:963101246",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.390568,
     "lng": 13.573437,
     "t": "villa"
   },
   {
     "id": "pleiades:963101247",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.559317,
     "lng": 13.703703,
     "t": "villa"
   },
   {
     "id": "pleiades:963101248",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.386662,
     "lng": 13.385047,
     "t": "villa"
   },
   {
     "id": "pleiades:963101249",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.413645,
     "lng": 13.39721,
     "t": "villa"
   },
   {
     "id": "pleiades:963101250",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.288832,
     "lng": 13.433639,
     "t": "villa"
   },
   {
     "id": "pleiades:963101251",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.293993,
     "lng": 13.447251,
     "t": "villa"
   },
   {
     "id": "pleiades:963101252",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.307661,
     "lng": 10.996092,
     "t": "villa"
   },
   {
     "id": "pleiades:963101253",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.361372,
     "lng": 14.235752,
     "t": "villa"
   },
   {
     "id": "pleiades:963101254",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.281188,
     "lng": 14.134671,
     "t": "villa"
   },
   {
     "id": "pleiades:963101255",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.254849,
     "lng": 14.190439,
     "t": "villa"
   },
   {
     "id": "pleiades:963101256",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.038867,
     "lng": 14.173962,
     "t": "villa"
   },
   {
     "id": "pleiades:963101257",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.488984,
     "lng": 14.14166,
     "t": "villa"
   },
   {
     "id": "pleiades:963101258",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.281188,
     "lng": 14.435461,
     "t": "villa"
   },
   {
     "id": "pleiades:963101259",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.326104,
     "lng": 14.25025,
     "t": "villa"
   },
   {
     "id": "pleiades:963101260",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.397399,
     "lng": 14.141882,
     "t": "villa"
   },
   {
     "id": "pleiades:963101261",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.593342,
     "lng": 14.296869,
     "t": "villa"
   },
   {
     "id": "pleiades:963101262",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.517303,
     "lng": 14.192549,
     "t": "villa"
   },
   {
     "id": "pleiades:963101263",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.553425,
     "lng": 14.75269,
     "t": "villa"
   },
   {
     "id": "pleiades:963101264",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.148839,
     "lng": 14.908333,
     "t": "villa"
   },
   {
     "id": "pleiades:963101265",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.134838,
     "lng": 14.791583,
     "t": "villa"
   },
   {
     "id": "pleiades:963101266",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.027687,
     "lng": 14.834823,
     "t": "villa"
   },
   {
     "id": "pleiades:963101267",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.474839,
     "lng": 13.868235,
     "t": "villa"
   },
   {
     "id": "pleiades:963101268",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.520318,
     "lng": 13.893904,
     "t": "villa"
   },
   {
     "id": "pleiades:963101269",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.472704,
     "lng": 13.807297,
     "t": "villa"
   },
   {
     "id": "pleiades:963101270",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.50332,
     "lng": 13.843537,
     "t": "villa"
   },
   {
     "id": "pleiades:963101271",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.418828,
     "lng": 13.946472,
     "t": "villa"
   },
   {
     "id": "pleiades:963101272",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.408938,
     "lng": 13.917666,
     "t": "villa"
   },
   {
     "id": "pleiades:963101273",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.501614,
     "lng": 13.918535,
     "t": "villa"
   },
   {
     "id": "pleiades:963101274",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.461237,
     "lng": 13.963146,
     "t": "villa"
   },
   {
     "id": "pleiades:963101275",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.369636,
     "lng": 13.883601,
     "t": "villa"
   },
   {
     "id": "pleiades:963101276",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.255102,
     "lng": 14.043531,
     "t": "villa"
   },
   {
     "id": "pleiades:963101277",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.47737,
     "lng": 10.281902,
     "t": "villa"
   },
   {
     "id": "pleiades:963101278",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.544213,
     "lng": 10.408231,
     "t": "villa"
   },
   {
     "id": "pleiades:963101279",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.358449,
     "lng": 10.330909,
     "t": "villa"
   },
   {
     "id": "pleiades:963101280",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.428676,
     "lng": 10.323369,
     "t": "villa"
   },
   {
     "id": "pleiades:963101281",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.546112,
     "lng": 10.297761,
     "t": "villa"
   },
   {
     "id": "pleiades:963101282",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.56061,
     "lng": 10.529213,
     "t": "villa"
   },
   {
     "id": "pleiades:963101283",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.467614,
     "lng": 10.515639,
     "t": "villa"
   },
   {
     "id": "pleiades:963101284",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.501911,
     "lng": 10.531457,
     "t": "villa"
   },
   {
     "id": "pleiades:963101285",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.585087,
     "lng": 10.314191,
     "t": "villa"
   },
   {
     "id": "pleiades:963101286",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.618874,
     "lng": 10.395602,
     "t": "villa"
   },
   {
     "id": "pleiades:963101287",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.308633,
     "lng": 13.439072,
     "t": "villa"
   },
   {
     "id": "pleiades:963101288",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.298726,
     "lng": 13.415533,
     "t": "villa"
   },
   {
     "id": "pleiades:963101289",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.403057,
     "lng": 13.304196,
     "t": "villa"
   },
   {
     "id": "pleiades:963101290",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.577939,
     "lng": 13.217561,
     "t": "villa"
   },
   {
     "id": "pleiades:963101291",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.610514,
     "lng": 13.234667,
     "t": "villa"
   },
   {
     "id": "pleiades:963101292",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.127434,
     "lng": 13.443941,
     "t": "villa"
   },
   {
     "id": "pleiades:963101293",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.351702,
     "lng": 13.26377,
     "t": "villa"
   },
   {
     "id": "pleiades:963101294",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.385023,
     "lng": 13.201158,
     "t": "villa"
   },
   {
     "id": "pleiades:963101295",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.369951,
     "lng": 13.258067,
     "t": "villa"
   },
   {
     "id": "pleiades:963101296",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.549051,
     "lng": 13.319399,
     "t": "villa"
   },
   {
     "id": "pleiades:963101297",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.983031,
     "lng": 14.152628,
     "t": "villa"
   },
   {
     "id": "pleiades:963101298",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.000922,
     "lng": 14.139345,
     "t": "villa"
   },
   {
     "id": "pleiades:963101299",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.651646,
     "lng": 14.247576,
     "t": "villa"
   },
   {
     "id": "pleiades:963101300",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.657053,
     "lng": 14.265386,
     "t": "villa"
   },
   {
     "id": "pleiades:963101301",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.624129,
     "lng": 14.331465,
     "t": "villa"
   },
   {
     "id": "pleiades:963101302",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.864419,
     "lng": 14.221965,
     "t": "villa"
   },
   {
     "id": "pleiades:963101303",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.314975,
     "lng": 14.298086,
     "t": "villa"
   },
   {
     "id": "pleiades:963101304",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.667671,
     "lng": 14.10416,
     "t": "villa"
   },
   {
     "id": "pleiades:963101305",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.71492,
     "lng": 14.146582,
     "t": "villa"
   },
   {
     "id": "pleiades:963101306",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.726051,
     "lng": 14.251049,
     "t": "villa"
   },
   {
     "id": "pleiades:963101307",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.254891,
     "lng": 14.4668,
     "t": "villa"
   },
   {
     "id": "pleiades:963101308",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.24577,
     "lng": 14.48213,
     "t": "villa"
   },
   {
     "id": "pleiades:963101309",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.223659,
     "lng": 14.478192,
     "t": "villa"
   },
   {
     "id": "pleiades:963101310",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.225886,
     "lng": 14.431067,
     "t": "villa"
   },
   {
     "id": "pleiades:963101311",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.32279,
     "lng": 14.44971,
     "t": "villa"
   },
   {
     "id": "pleiades:963101312",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.29857,
     "lng": 14.458297,
     "t": "villa"
   },
   {
     "id": "pleiades:963101313",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.264604,
     "lng": 14.429518,
     "t": "villa"
   },
   {
     "id": "pleiades:963101314",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.269019,
     "lng": 14.454161,
     "t": "villa"
   },
   {
     "id": "pleiades:963101315",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.123155,
     "lng": 14.442316,
     "t": "villa"
   },
   {
     "id": "pleiades:963101316",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.113316,
     "lng": 14.54532,
     "t": "villa"
   },
   {
     "id": "pleiades:963101317",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.444537,
     "lng": 13.806216,
     "t": "villa"
   },
   {
     "id": "pleiades:963101318",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.448137,
     "lng": 13.777241,
     "t": "villa"
   },
   {
     "id": "pleiades:963101319",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.507758,
     "lng": 13.789779,
     "t": "villa"
   },
   {
     "id": "pleiades:963101320",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.608373,
     "lng": 14.043903,
     "t": "villa"
   },
   {
     "id": "pleiades:963101321",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.566412,
     "lng": 13.798537,
     "t": "villa"
   },
   {
     "id": "pleiades:963101322",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.591825,
     "lng": 13.816462,
     "t": "villa"
   },
   {
     "id": "pleiades:963101323",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.711821,
     "lng": 14.098888,
     "t": "villa"
   },
   {
     "id": "pleiades:963101324",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.718223,
     "lng": 14.055659,
     "t": "villa"
   },
   {
     "id": "pleiades:963101325",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.739146,
     "lng": 13.828458,
     "t": "villa"
   },
   {
     "id": "pleiades:963101326",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.790543,
     "lng": 13.76239,
     "t": "villa"
   },
   {
     "id": "pleiades:963101327",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.282068,
     "lng": 14.407775,
     "t": "villa"
   },
   {
     "id": "pleiades:963101328",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.302266,
     "lng": 14.393883,
     "t": "villa"
   },
   {
     "id": "pleiades:963101329",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.361553,
     "lng": 14.511917,
     "t": "villa"
   },
   {
     "id": "pleiades:963101330",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.374769,
     "lng": 14.479169,
     "t": "villa"
   },
   {
     "id": "pleiades:963101331",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.391496,
     "lng": 14.608947,
     "t": "villa"
   },
   {
     "id": "pleiades:963101332",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.361742,
     "lng": 14.529619,
     "t": "villa"
   },
   {
     "id": "pleiades:963101333",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.987968,
     "lng": 14.610119,
     "t": "villa"
   },
   {
     "id": "pleiades:963101334",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.994206,
     "lng": 14.694902,
     "t": "villa"
   },
   {
     "id": "pleiades:963101335",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.378351,
     "lng": 14.465742,
     "t": "villa"
   },
   {
     "id": "pleiades:963101336",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.382055,
     "lng": 14.449985,
     "t": "villa"
   },
   {
     "id": "pleiades:963101337",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.086795,
     "lng": 13.262928,
     "t": "villa"
   },
   {
     "id": "pleiades:963101338",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.969327,
     "lng": 13.248589,
     "t": "villa"
   },
   {
     "id": "pleiades:963101339",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.781259,
     "lng": 13.161759,
     "t": "villa"
   },
   {
     "id": "pleiades:963101340",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.765097,
     "lng": 13.320687,
     "t": "villa"
   },
   {
     "id": "pleiades:963101341",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.785933,
     "lng": 13.018986,
     "t": "villa"
   },
   {
     "id": "pleiades:963101342",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.604976,
     "lng": 10.712083,
     "t": "villa"
   },
   {
     "id": "pleiades:963101343",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.622034,
     "lng": 10.677023,
     "t": "villa"
   },
   {
     "id": "pleiades:963101344",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.59355,
     "lng": 10.658044,
     "t": "villa"
   },
   {
     "id": "pleiades:963101345",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.674756,
     "lng": 10.667237,
     "t": "villa"
   },
   {
     "id": "pleiades:963101346",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.626583,
     "lng": 10.568169,
     "t": "villa"
   },
   {
     "id": "pleiades:963101347",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.74516,
     "lng": 10.823561,
     "t": "villa"
   },
   {
     "id": "pleiades:963101348",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.74612,
     "lng": 10.254759,
     "t": "villa"
   },
   {
     "id": "pleiades:963101349",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.70173,
     "lng": 10.291956,
     "t": "villa"
   },
   {
     "id": "pleiades:963101350",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.672914,
     "lng": 10.255832,
     "t": "villa"
   },
   {
     "id": "pleiades:963101351",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.631538,
     "lng": 10.516354,
     "t": "villa"
   },
   {
     "id": "pleiades:963101352",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.848317,
     "lng": 13.987132,
     "t": "villa"
   },
   {
     "id": "pleiades:963101353",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.096186,
     "lng": 13.755515,
     "t": "villa"
   },
   {
     "id": "pleiades:963101354",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.769418,
     "lng": 13.517635,
     "t": "villa"
   },
   {
     "id": "pleiades:963101355",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.185886,
     "lng": 10.991341,
     "t": "villa"
   },
   {
     "id": "pleiades:963101356",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.503499,
     "lng": 10.975871,
     "t": "villa"
   },
   {
     "id": "pleiades:963101357",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.09834,
     "lng": 10.897368,
     "t": "villa"
   },
   {
     "id": "pleiades:963101358",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.088574,
     "lng": 10.865355,
     "t": "villa"
   },
   {
     "id": "pleiades:963101359",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.064329,
     "lng": 10.675247,
     "t": "villa"
   },
   {
     "id": "pleiades:963101360",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.589093,
     "lng": 10.974841,
     "t": "villa"
   },
   {
     "id": "pleiades:963101361",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.551249,
     "lng": 10.630993,
     "t": "villa"
   },
   {
     "id": "pleiades:963101362",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.497186,
     "lng": 10.631462,
     "t": "villa"
   },
   {
     "id": "pleiades:963101363",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.569895,
     "lng": 9.724873,
     "t": "villa"
   },
   {
     "id": "pleiades:963101364",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.696354,
     "lng": 9.879008,
     "t": "villa"
   },
   {
     "id": "pleiades:963101365",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.699796,
     "lng": 9.654357,
     "t": "villa"
   },
   {
     "id": "pleiades:963101366",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.595243,
     "lng": 9.562006,
     "t": "villa"
   },
   {
     "id": "pleiades:963101367",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.605612,
     "lng": 9.501104,
     "t": "villa"
   },
   {
     "id": "pleiades:963101368",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.601549,
     "lng": 9.451374,
     "t": "villa"
   },
   {
     "id": "pleiades:963101369",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.171252,
     "lng": 11.287934,
     "t": "villa"
   },
   {
     "id": "pleiades:963101370",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.008257,
     "lng": 11.306714,
     "t": "villa"
   },
   {
     "id": "pleiades:963101371",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.757443,
     "lng": 11.002524,
     "t": "villa"
   },
   {
     "id": "pleiades:963101372",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.782088,
     "lng": 11.047653,
     "t": "villa"
   },
   {
     "id": "pleiades:963101373",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.577989,
     "lng": 11.034082,
     "t": "villa"
   },
   {
     "id": "pleiades:963101374",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.035361,
     "lng": 11.080292,
     "t": "villa"
   },
   {
     "id": "pleiades:963101375",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.11546,
     "lng": 11.236003,
     "t": "villa"
   },
   {
     "id": "pleiades:963101376",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.11452,
     "lng": 11.023425,
     "t": "villa"
   },
   {
     "id": "pleiades:963101377",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 33.524719,
     "lng": 11.039725,
     "t": "villa"
   },
   {
     "id": "pleiades:963101378",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.795632,
     "lng": 12.525056,
     "t": "villa"
   },
   {
     "id": "pleiades:963101379",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.764412,
     "lng": 12.518643,
     "t": "villa"
   },
   {
     "id": "pleiades:963101380",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.035925,
     "lng": 12.594198,
     "t": "villa"
   },
   {
     "id": "pleiades:963101383",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.482636,
     "lng": 20.655123,
     "t": "villa"
   },
   {
     "id": "pleiades:963101384",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.525829,
     "lng": 20.669945,
     "t": "villa"
   },
   {
     "id": "pleiades:963101385",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.555571,
     "lng": 20.724311,
     "t": "villa"
   },
   {
     "id": "pleiades:963101386",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.550286,
     "lng": 20.863172,
     "t": "villa"
   },
   {
     "id": "pleiades:963101387",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.588472,
     "lng": 20.900981,
     "t": "villa"
   },
   {
     "id": "pleiades:963101388",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.62384,
     "lng": 20.793524,
     "t": "villa"
   },
   {
     "id": "pleiades:963101389",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.659342,
     "lng": 20.978501,
     "t": "villa"
   },
   {
     "id": "pleiades:963101390",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.632007,
     "lng": 20.940153,
     "t": "villa"
   },
   {
     "id": "pleiades:963101391",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.436185,
     "lng": 20.504386,
     "t": "villa"
   },
   {
     "id": "pleiades:963101392",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.47682,
     "lng": 20.532701,
     "t": "villa"
   },
   {
     "id": "pleiades:963101393",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.304788,
     "lng": 20.331899,
     "t": "villa"
   },
   {
     "id": "pleiades:963101394",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.475782,
     "lng": 20.494463,
     "t": "villa"
   },
   {
     "id": "pleiades:963101395",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.971842,
     "lng": 20.063036,
     "t": "villa"
   },
   {
     "id": "pleiades:963101396",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.917701,
     "lng": 20.087018,
     "t": "villa"
   },
   {
     "id": "pleiades:963101397",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.884864,
     "lng": 20.088029,
     "t": "villa"
   },
   {
     "id": "pleiades:963101398",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.873767,
     "lng": 20.043114,
     "t": "villa"
   },
   {
     "id": "pleiades:963101399",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.613038,
     "lng": 20.108718,
     "t": "villa"
   },
   {
     "id": "pleiades:963101400",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 31.604107,
     "lng": 20.125143,
     "t": "villa"
   },
   {
     "id": "pleiades:963101401",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 30.56628,
     "lng": 20.237901,
     "t": "villa"
   },
   {
     "id": "pleiades:963101402",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.466308,
     "lng": 20.976753,
     "t": "villa"
   },
   {
     "id": "pleiades:963101403",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.437376,
     "lng": 20.998515,
     "t": "villa"
   },
   {
     "id": "pleiades:963101404",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.419974,
     "lng": 20.608117,
     "t": "villa"
   },
   {
     "id": "pleiades:963101405",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.391262,
     "lng": 20.619183,
     "t": "villa"
   },
   {
     "id": "pleiades:963101406",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.443884,
     "lng": 20.869447,
     "t": "villa"
   },
   {
     "id": "pleiades:963101407",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.458714,
     "lng": 20.900927,
     "t": "villa"
   },
   {
     "id": "pleiades:963101408",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.498444,
     "lng": 20.713837,
     "t": "villa"
   },
   {
     "id": "pleiades:963101409",
-    "n": "Unnamed villa",
+    "n": "An unnamed villa",
     "lat": 32.500302,
     "lng": 20.760837,
     "t": "villa"
@@ -60882,14 +60948,14 @@
   },
   {
     "id": "pleiades:963101009",
-    "n": "Unnamed place",
+    "n": "Temple at es-Snemat",
     "lat": 31.146289,
     "lng": 16.749739,
     "t": "temple"
   },
   {
     "id": "pleiades:963101382",
-    "n": "Unnamed Place",
+    "n": "An unnamed place",
     "lat": 32.477054,
     "lng": 14.461641,
     "t": "temple"
@@ -61131,7 +61197,7 @@
   },
   {
     "id": "pleiades:267279",
-    "n": "Unnamed Bridge",
+    "n": "Bridge near Montilla",
     "lat": 37.59907341189635,
     "lng": -4.670408684201695,
     "t": "bridge"
@@ -61216,7 +61282,7 @@
   },
   {
     "id": "pleiades:135082913",
-    "n": "Unnamed Roman bridge",
+    "n": "Bridge near Vicalvi",
     "lat": 41.67016599508885,
     "lng": 13.68296945718162,
     "t": "bridge"
@@ -61350,7 +61416,7 @@
   },
   {
     "id": "pleiades:385058",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Ponte sul torrente Scrivia",
     "lat": 44.757596,
     "lng": 8.833833,
     "t": "bridge"
@@ -61387,7 +61453,7 @@
   { "id": "pleiades:385064", "n": "Bridge N of Bergamo", "lat": 45.75, "lng": 9.75, "t": "bridge" },
   {
     "id": "pleiades:385065",
-    "n": "Unnamed bridge",
+    "n": "unnamed bridge over the Nure fl",
     "lat": 45.009302,
     "lng": 9.767245,
     "t": "bridge"
@@ -61428,13 +61494,7 @@
     "lng": 27.648097,
     "t": "bridge"
   },
-  {
-    "id": "pleiades:551910",
-    "n": "Unnamed bridge",
-    "lat": 38.539194,
-    "lng": 27.9694445,
-    "t": "bridge"
-  },
+  { "id": "pleiades:551910", "n": "remains", "lat": 38.539194, "lng": 27.9694445, "t": "bridge" },
   {
     "id": "pleiades:551911",
     "n": "Bridge W of *Selinda",
@@ -61519,24 +61579,78 @@
     "lng": 35.173168,
     "t": "bridge"
   },
-  { "id": "pleiades:629672", "n": "Unnamed bridge", "lat": 39.75, "lng": 36.25, "t": "bridge" },
-  { "id": "pleiades:629673", "n": "Unnamed bridge", "lat": 39.75, "lng": 36.75, "t": "bridge" },
-  { "id": "pleiades:629674", "n": "Unnamed bridge", "lat": 39.25, "lng": 37.75, "t": "bridge" },
-  { "id": "pleiades:629675", "n": "Unnamed bridge", "lat": 39.25, "lng": 38.25, "t": "bridge" },
-  { "id": "pleiades:629676", "n": "Unnamed bridge", "lat": 39.75, "lng": 38.75, "t": "bridge" },
-  { "id": "pleiades:629677", "n": "Unnamed bridge", "lat": 39.75, "lng": 38.75, "t": "bridge" },
+  {
+    "id": "pleiades:629672",
+    "n": "Bridge S of Sebastopolis",
+    "lat": 39.75,
+    "lng": 36.25,
+    "t": "bridge"
+  },
+  {
+    "id": "pleiades:629673",
+    "n": "Bridge S of [Bathys Rhyax]",
+    "lat": 39.75,
+    "lng": 36.75,
+    "t": "bridge"
+  },
+  { "id": "pleiades:629674", "n": "Bridge N of Arane", "lat": 39.25, "lng": 37.75, "t": "bridge" },
+  {
+    "id": "pleiades:629675",
+    "n": "Bridge near Antitaurus Mons",
+    "lat": 39.25,
+    "lng": 38.25,
+    "t": "bridge"
+  },
+  {
+    "id": "pleiades:629676",
+    "n": "Bridge N of Charax?",
+    "lat": 39.75,
+    "lng": 38.75,
+    "t": "bridge"
+  },
+  {
+    "id": "pleiades:629677",
+    "n": "Bridge N of Charax?",
+    "lat": 39.75,
+    "lng": 38.75,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:629678",
-    "n": "Unnamed bridge",
+    "n": "Bridge N of Sis",
     "lat": 37.6056811,
     "lng": 35.5849343,
     "t": "bridge"
   },
-  { "id": "pleiades:629679", "n": "Unnamed bridge", "lat": 38.25, "lng": 37.25, "t": "bridge" },
-  { "id": "pleiades:629680", "n": "Unnamed bridge", "lat": 38.25, "lng": 37.75, "t": "bridge" },
-  { "id": "pleiades:629681", "n": "Unnamed bridge", "lat": 38.25, "lng": 37.75, "t": "bridge" },
-  { "id": "pleiades:629682", "n": "Unnamed bridge", "lat": 38.25, "lng": 38.25, "t": "bridge" },
-  { "id": "pleiades:629683", "n": "Unnamed bridge", "lat": 38.75, "lng": 38.25, "t": "bridge" },
+  { "id": "pleiades:629679", "n": "Bridge at Gücük", "lat": 38.25, "lng": 37.25, "t": "bridge" },
+  {
+    "id": "pleiades:629680",
+    "n": "Bridge N of Zizoatra",
+    "lat": 38.25,
+    "lng": 37.75,
+    "t": "bridge"
+  },
+  {
+    "id": "pleiades:629681",
+    "n": "Bridge N of Zizoatra",
+    "lat": 38.25,
+    "lng": 37.75,
+    "t": "bridge"
+  },
+  {
+    "id": "pleiades:629682",
+    "n": "Bridge at Munzur Dağları",
+    "lat": 38.25,
+    "lng": 38.25,
+    "t": "bridge"
+  },
+  {
+    "id": "pleiades:629683",
+    "n": "Bridge near [Argaous]",
+    "lat": 38.75,
+    "lng": 38.25,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:629684",
     "n": "Unnamed bridge at Bahadın",
@@ -62011,7 +62125,7 @@
   },
   {
     "id": "pleiades:789975647",
-    "n": "Unnamed Roman bridge",
+    "n": "remains",
     "lat": 39.479433084240405,
     "lng": -6.26752868872106,
     "t": "bridge"
@@ -62079,7 +62193,7 @@
     "lng": 12.533184,
     "t": "bridge"
   },
-  { "id": "pleiades:425071", "n": "Unnamed bridge", "lat": 41.625, "lng": 12.875, "t": "bridge" },
+  { "id": "pleiades:425071", "n": "Bridge near Cora", "lat": 41.625, "lng": 12.875, "t": "bridge" },
   {
     "id": "pleiades:425072",
     "n": "Bridge at Ad Sponsas",
@@ -62110,7 +62224,7 @@
   },
   {
     "id": "pleiades:426580",
-    "n": "Unnamed bridge",
+    "n": "feature included",
     "lat": 41.90637082796347,
     "lng": 12.265532115348313,
     "t": "bridge"
@@ -62150,7 +62264,13 @@
     "lng": 12.445345,
     "t": "bridge"
   },
-  { "id": "pleiades:426590", "n": "Unnamed bridge", "lat": 41.875, "lng": 12.375, "t": "bridge" },
+  {
+    "id": "pleiades:426590",
+    "n": "Bridge at Acquafredda",
+    "lat": 41.875,
+    "lng": 12.375,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:426591",
     "n": "Ponte di Malafede",
@@ -62365,7 +62485,7 @@
   },
   {
     "id": "pleiades:765102512",
-    "n": "Unnamed Roman bridgehead",
+    "n": "bridgehead west",
     "lat": 55.025069,
     "lng": -2.1356652,
     "t": "bridge"
@@ -62439,7 +62559,13 @@
     "lng": 39.5,
     "t": "bridge"
   },
-  { "id": "pleiades:857772", "n": "Unnamed bridge", "lat": 40.5, "lng": 39.5, "t": "bridge" },
+  {
+    "id": "pleiades:857772",
+    "n": "unnamed ancient bridge located",
+    "lat": 40.5,
+    "lng": 39.5,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:607714945",
     "n": "Piercebridge Roman Bridge",
@@ -62512,7 +62638,7 @@
   },
   {
     "id": "pleiades:208942842",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Ponte di Diocleziano",
     "lat": 43.678181,
     "lng": 12.777484,
     "t": "bridge"
@@ -62582,7 +62708,7 @@
   },
   {
     "id": "pleiades:433411640",
-    "n": "Unnamed bridge",
+    "n": "bridge located",
     "lat": 41.8167337,
     "lng": 12.4145379,
     "t": "bridge"
@@ -62659,7 +62785,7 @@
   },
   {
     "id": "pleiades:659884",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Pons *Singae",
     "lat": 37.4460531,
     "lng": 38.16319465,
     "t": "bridge"
@@ -62829,63 +62955,63 @@
   },
   {
     "id": "pleiades:6521634051202075",
-    "n": "Unnamed Place",
+    "n": "Bridge at Kırk Göz Kemeri",
     "lat": 36.3405,
     "lng": 30.2075,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521670651193656",
-    "n": "Unnamed Place",
+    "n": "Bridge at Bridge",
     "lat": 36.7065,
     "lng": 29.3656,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521703251216369",
-    "n": "Unnamed Place",
+    "n": "Bridge at Kotenna",
     "lat": 37.0325,
     "lng": 31.6369,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521718641211799",
-    "n": "Unnamed Place",
+    "n": "Bridge at Oluk Köprü",
     "lat": 37.1864,
     "lng": 31.1799,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521720091211858",
-    "n": "Unnamed Place",
+    "n": "Bridge at Oluk Köprü",
     "lat": 37.2009,
     "lng": 31.1858,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521737251212163",
-    "n": "Unnamed Place",
+    "n": "Bridge at Asarbaşı",
     "lat": 37.3725,
     "lng": 31.2163,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521781351211310",
-    "n": "Unnamed Place",
+    "n": "Bridge at Eurymedon",
     "lat": 37.8135,
     "lng": 31.131,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521786521191321",
-    "n": "Unnamed Place",
+    "n": "Bridge near Laodicea ad Lycum",
     "lat": 37.8652,
     "lng": 29.1321,
     "t": "bridge"
   },
   {
     "id": "pleiades:6521790061185606",
-    "n": "Unnamed Place",
+    "n": "Bridge near Antiochia ad Maeandrum",
     "lat": 37.9006,
     "lng": 28.5606,
     "t": "bridge"
@@ -62927,7 +63053,7 @@
   },
   {
     "id": "pleiades:443943",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Ad Calorem",
     "lat": 41.07225,
     "lng": 14.939979,
     "t": "bridge"
@@ -63181,13 +63307,13 @@
   },
   {
     "id": "pleiades:600985",
-    "n": "Unnamed bridge",
+    "n": "bridge located",
     "lat": 37.90436,
     "lng": 28.57441,
     "t": "bridge"
   },
   { "id": "pleiades:610797", "n": "Bridge at Kobedyle", "lat": 38.75, "lng": 28.75, "t": "bridge" },
-  { "id": "pleiades:610798", "n": "Unnamed bridge", "lat": 38.75, "lng": 28.75, "t": "bridge" },
+  { "id": "pleiades:610798", "n": "Bridge at Kobedyle", "lat": 38.75, "lng": 28.75, "t": "bridge" },
   {
     "id": "pleiades:610799",
     "n": "Bridge S of Beycesultan",
@@ -63265,7 +63391,13 @@
     "lng": 31.194021,
     "t": "bridge"
   },
-  { "id": "pleiades:612330", "n": "Unnamed Bridge", "lat": 38.75, "lng": 30.25, "t": "bridge" },
+  {
+    "id": "pleiades:612330",
+    "n": "bridge located west",
+    "lat": 38.75,
+    "lng": 30.25,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:861853679",
     "n": "Algund",
@@ -63324,7 +63456,7 @@
   },
   {
     "id": "pleiades:472635",
-    "n": "Unnamed bridge",
+    "n": "A bridge located north",
     "lat": 39.81257975,
     "lng": 8.849203450000001,
     "t": "bridge"
@@ -63345,7 +63477,7 @@
   },
   {
     "id": "pleiades:472638",
-    "n": "Unnamed Roman bridge",
+    "n": "Bridge at Ponte Romano",
     "lat": 40.74996,
     "lng": 9.146174,
     "t": "bridge"
@@ -63650,7 +63782,7 @@
   },
   {
     "id": "pleiades:257481",
-    "n": "Unnamed bridge",
+    "n": "An unnamed Roman bridge located north",
     "lat": 37.09612735,
     "lng": -5.8613946,
     "t": "bridge"
@@ -63726,7 +63858,7 @@
   { "id": "pleiades:512652", "n": "Bridge near Elaia", "lat": 40.75, "lng": 29.75, "t": "bridge" },
   {
     "id": "pleiades:512653",
-    "n": "Unnamed bridge",
+    "n": "An unnamed Roman bridge to the north",
     "lat": 40.37777,
     "lng": 29.9657647,
     "t": "bridge"
@@ -63781,20 +63913,8 @@
     "lng": 20.57301725,
     "t": "bridge"
   },
-  {
-    "id": "pleiades:196169550",
-    "n": "Unnamed Roman bridge",
-    "lat": 40.2522688,
-    "lng": 8.8481451,
-    "t": "bridge"
-  },
-  {
-    "id": "pleiades:59919788",
-    "n": "Unnamed Roman bridge",
-    "lat": 39.6367393,
-    "lng": 8.7048499,
-    "t": "bridge"
-  },
+  { "id": "pleiades:196169550", "n": "bridge", "lat": 40.2522688, "lng": 8.8481451, "t": "bridge" },
+  { "id": "pleiades:59919788", "n": "Located", "lat": 39.6367393, "lng": 8.7048499, "t": "bridge" },
   {
     "id": "pleiades:157792913",
     "n": "Becilla de Valderaduey Roman bridge",
@@ -63846,7 +63966,7 @@
   },
   {
     "id": "pleiades:360417791",
-    "n": "Unnamed bridge",
+    "n": "This bridge",
     "lat": 43.9668772290691,
     "lng": 8.138552876505846,
     "t": "bridge"
@@ -63903,7 +64023,7 @@
   },
   {
     "id": "pleiades:159312",
-    "n": "Unnamed bridge",
+    "n": "Bridge W of Portus Maurici",
     "lat": 43.8547109,
     "lng": 7.9637075,
     "t": "bridge"
@@ -64039,7 +64159,7 @@
   },
   {
     "id": "pleiades:195429894",
-    "n": "Unnamed Roman bridge",
+    "n": "Bridge at Oinu",
     "lat": 40.3302161,
     "lng": 8.6988372,
     "t": "bridge"
@@ -64081,7 +64201,7 @@
   },
   {
     "id": "pleiades:962776820",
-    "n": "Unnamed bridge",
+    "n": "Bridge near Castra Caecilia",
     "lat": 39.490981700000006,
     "lng": -6.3148038,
     "t": "bridge"
@@ -64104,7 +64224,7 @@
   { "id": "pleiades:326164", "n": "Bridge N of Cillium", "lat": 35.25, "lng": 8.75, "t": "bridge" },
   {
     "id": "pleiades:247642",
-    "n": "Unnamed Roman bridge",
+    "n": "Bridge at Puente de Tordómar",
     "lat": 42.0443,
     "lng": -3.8652,
     "t": "bridge"
@@ -64209,7 +64329,7 @@
   },
   {
     "id": "pleiades:247657",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Puente la Reina de Jaca",
     "lat": 42.5563486,
     "lng": -0.7859784,
     "t": "bridge"
@@ -64287,13 +64407,7 @@
     "lng": 5.053013,
     "t": "bridge"
   },
-  {
-    "id": "pleiades:169130",
-    "n": "Unnamed Bridge",
-    "lat": 44.749626,
-    "lng": 5.373905,
-    "t": "bridge"
-  },
+  { "id": "pleiades:169130", "n": "bridge", "lat": 44.749626, "lng": 5.373905, "t": "bridge" },
   {
     "id": "pleiades:169131",
     "n": "Bridge near Boxs(...)",
@@ -64401,7 +64515,7 @@
   },
   {
     "id": "pleiades:188762",
-    "n": "Unnamed bridge",
+    "n": "Bridge E of Forum Iulii",
     "lat": 46.09213903321921,
     "lng": 13.585872462739149,
     "t": "bridge"
@@ -64452,7 +64566,7 @@
   },
   {
     "id": "pleiades:487048966",
-    "n": "Unnamed bridge",
+    "n": "bridge located",
     "lat": 42.8412045,
     "lng": -2.5134362,
     "t": "bridge"
@@ -64480,7 +64594,7 @@
   },
   {
     "id": "pleiades:329320003",
-    "n": "Unnamed bridge",
+    "n": "bridge across the Basento river",
     "lat": 40.63528,
     "lng": 15.822272,
     "t": "bridge"
@@ -64686,7 +64800,7 @@
   },
   {
     "id": "pleiades:158820260",
-    "n": "Unnamed Roman bridge",
+    "n": "Bridge at Poggio Moiano",
     "lat": 42.199428,
     "lng": 12.8801731,
     "t": "bridge"
@@ -64817,7 +64931,7 @@
   { "id": "pleiades:394867", "n": "Bridge at Sabis", "lat": 44.25, "lng": 12.25, "t": "bridge" },
   {
     "id": "pleiades:394868",
-    "n": "Unnamed bridge",
+    "n": "Bridge near Caesena",
     "lat": 44.119168,
     "lng": 12.2285179,
     "t": "bridge"
@@ -64836,7 +64950,13 @@
     "lng": 12.75,
     "t": "bridge"
   },
-  { "id": "pleiades:394871", "n": "Unnamed bridge", "lat": 45.75, "lng": 12.75, "t": "bridge" },
+  {
+    "id": "pleiades:394871",
+    "n": "Bridge E of Ad Sanos",
+    "lat": 45.75,
+    "lng": 12.75,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:394872",
     "n": "Ponte romano – Ceggia",
@@ -64867,7 +64987,7 @@
   },
   {
     "id": "pleiades:414497",
-    "n": "Unnamed bridge",
+    "n": "unnamed ancient bridge located",
     "lat": 42.5625983722961,
     "lng": 11.21041667183237,
     "t": "bridge"
@@ -64937,7 +65057,7 @@
   },
   {
     "id": "pleiades:414508",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Ponte del Diavolo",
     "lat": 42.883902,
     "lng": 12.569918,
     "t": "bridge"
@@ -65153,7 +65273,13 @@
     "lng": -6.5,
     "t": "bridge"
   },
-  { "id": "pleiades:237849", "n": "Unnamed bridge", "lat": 41.5, "lng": -6.5, "t": "bridge" },
+  {
+    "id": "pleiades:237849",
+    "n": "Bridge W of San Mamede",
+    "lat": 41.5,
+    "lng": -6.5,
+    "t": "bridge"
+  },
   {
     "id": "pleiades:237850",
     "n": "Puente Mocho",
@@ -65314,7 +65440,7 @@
   { "id": "pleiades:110237", "n": "Bridge near Anhausen", "lat": 50.5, "lng": 7.5, "t": "bridge" },
   {
     "id": "pleiades:110238",
-    "n": "Unnamed bridge",
+    "n": "Bridge at Bingium",
     "lat": 49.961399,
     "lng": 7.896466,
     "t": "bridge"
@@ -65354,13 +65480,7 @@
     "lng": -3.6177347,
     "t": "bridge"
   },
-  {
-    "id": "pleiades:963100987",
-    "n": "Unnamed Bridge",
-    "lat": 44.750735,
-    "lng": 5.387004,
-    "t": "bridge"
-  },
+  { "id": "pleiades:963100987", "n": "bridge", "lat": 44.750735, "lng": 5.387004, "t": "bridge" },
   {
     "id": "pleiades:220822469",
     "n": "Ponte del Viceré de Ribera",
@@ -68333,10 +68453,16 @@
   { "id": "mine:786140", "n": "Umm Rus", "lat": 25.497, "lng": 34.5772, "t": "mine" },
   { "id": "mine:307289", "n": "Unnamed iron mine", "lat": 36.8865, "lng": 7.4464, "t": "mine" },
   { "id": "mine:612316", "n": "Unnamed iron mine", "lat": 39.25, "lng": 28.75, "t": "mine" },
-  { "id": "mine:128933130", "n": "Unnamed Mine", "lat": 47.2176, "lng": -1.3838, "t": "mine" },
-  { "id": "mine:82309", "n": "Unnamed Mine", "lat": 52.5884, "lng": -0.5461, "t": "mine" },
-  { "id": "mine:963101127", "n": "Unnamed Mine", "lat": 52.7096, "lng": -0.392, "t": "mine" },
-  { "id": "mine:963101128", "n": "Unnamed Mine", "lat": 52.2622, "lng": -0.6903, "t": "mine" },
+  {
+    "id": "mine:128933130",
+    "n": "Unknown at Le Loroux-Botterau",
+    "lat": 47.2176,
+    "lng": -1.3838,
+    "t": "mine"
+  },
+  { "id": "mine:82309", "n": "unnamed mine", "lat": 52.5884, "lng": -0.5461, "t": "mine" },
+  { "id": "mine:963101127", "n": "An unnamed mine", "lat": 52.7096, "lng": -0.392, "t": "mine" },
+  { "id": "mine:963101128", "n": "An unnamed mine", "lat": 52.2622, "lng": -0.6903, "t": "mine" },
   {
     "id": "mine:612328",
     "n": "Unnamed quarries to the west of Thiounta",
@@ -68344,11 +68470,23 @@
     "lng": 29.25,
     "t": "mine"
   },
-  { "id": "mine:612319", "n": "Unnamed quarry", "lat": 38.6057, "lng": 29.7183, "t": "mine" },
-  { "id": "mine:612321", "n": "Unnamed quarry", "lat": 38.6111, "lng": 29.8019, "t": "mine" },
-  { "id": "mine:612323", "n": "Unnamed quarry", "lat": 38.5481, "lng": 29.7391, "t": "mine" },
-  { "id": "mine:583617", "n": "Unnamed quarry", "lat": 37.875, "lng": 23.375, "t": "mine" },
-  { "id": "mine:473387", "n": "Unnamed quarry", "lat": 41.2405, "lng": 9.1606, "t": "mine" },
+  { "id": "mine:612319", "n": "Unknown near Eibeos", "lat": 38.6057, "lng": 29.7183, "t": "mine" },
+  { "id": "mine:612321", "n": "Unknown near Akmonia", "lat": 38.6111, "lng": 29.8019, "t": "mine" },
+  { "id": "mine:612323", "n": "Unknown near Eibeos", "lat": 38.5481, "lng": 29.7391, "t": "mine" },
+  {
+    "id": "mine:583617",
+    "n": "unnamed stone quarry found",
+    "lat": 37.875,
+    "lng": 23.375,
+    "t": "mine"
+  },
+  {
+    "id": "mine:473387",
+    "n": "granite quarry located",
+    "lat": 41.2405,
+    "lng": 9.1606,
+    "t": "mine"
+  },
   {
     "id": "mine:603248",
     "n": "unnamed quarry (on Mykonos)",
@@ -69131,7 +69269,7 @@
   { "id": "pleiades:82302", "n": "Mine W of Quatt", "lat": 52.5, "lng": -2.5, "t": "mine" },
   { "id": "pleiades:82303", "n": "Mine N of Brislington", "lat": 51.5, "lng": -2.5, "t": "mine" },
   { "id": "pleiades:82308", "n": "Mine N of Templeborough", "lat": 53.5, "lng": -1.5, "t": "mine" },
-  { "id": "pleiades:82309", "n": "Unnamed Mine", "lat": 52.588448, "lng": -0.546145, "t": "mine" },
+  { "id": "pleiades:82309", "n": "unnamed mine", "lat": 52.588448, "lng": -0.546145, "t": "mine" },
   { "id": "pleiades:82311", "n": "Mine N of Pontes", "lat": 51.5, "lng": -0.5, "t": "mine" },
   { "id": "pleiades:82312", "n": "Mine E of Mucking", "lat": 51.5, "lng": 0.5, "t": "mine" },
   { "id": "pleiades:82313", "n": "Mine S of Eastbourne", "lat": 50.5, "lng": 0.5, "t": "mine" },
@@ -69987,35 +70125,35 @@
   },
   {
     "id": "pleiades:963101127",
-    "n": "Unnamed Mine",
+    "n": "An unnamed mine",
     "lat": 52.70956,
     "lng": -0.391964,
     "t": "mine"
   },
   {
     "id": "pleiades:963101128",
-    "n": "Unnamed Mine",
+    "n": "An unnamed mine",
     "lat": 52.262221,
     "lng": -0.690317,
     "t": "mine"
   },
   {
     "id": "pleiades:963101129",
-    "n": "Unnamed Mine",
+    "n": "An unnamed mine",
     "lat": 52.257669,
     "lng": -0.698444,
     "t": "mine"
   },
   {
     "id": "pleiades:963101130",
-    "n": "Unnamed Mine",
+    "n": "An unnamed mine",
     "lat": 52.703602,
     "lng": -0.399739,
     "t": "mine"
   },
   {
     "id": "pleiades:963101131",
-    "n": "Unnamed Mine",
+    "n": "An unnamed mine",
     "lat": 52.582696,
     "lng": -0.554019,
     "t": "mine"
@@ -70461,24 +70599,30 @@
     "lng": -3.2075,
     "t": "mine"
   },
-  { "id": "mine:pleiades-82307", "n": "Unnamed quarry", "lat": 50.5, "lng": -2.5, "t": "mine" },
+  {
+    "id": "mine:pleiades-82307",
+    "n": "An unnamed ancient quarry located south",
+    "lat": 50.5,
+    "lng": -2.5,
+    "t": "mine"
+  },
   {
     "id": "mine:pleiades-612320",
-    "n": "Unnamed quarry",
+    "n": "Quarry near Eibeos",
     "lat": 38.60506,
     "lng": 29.75537,
     "t": "mine"
   },
   {
     "id": "mine:pleiades-612322",
-    "n": "Unnamed quarry",
+    "n": "Quarry S of Diokleia",
     "lat": 38.6138,
     "lng": 29.84567,
     "t": "mine"
   },
   {
     "id": "mine:pleiades-612324",
-    "n": "Unnamed quarry",
+    "n": "Quarry near Eibeos",
     "lat": 38.52463,
     "lng": 29.72555,
     "t": "mine"
@@ -70506,7 +70650,7 @@
   },
   {
     "id": "mine:pleiades-473387",
-    "n": "Unnamed quarry",
+    "n": "granite quarry located",
     "lat": 41.24052,
     "lng": 9.16059,
     "t": "mine"
@@ -72109,7 +72253,7 @@
   },
   {
     "id": "pleiades:845602",
-    "n": "Unnamed aqueduct",
+    "n": "Aqueduct near Metroon",
     "lat": 41.32305,
     "lng": 31.46301,
     "t": "aqueduct"
@@ -73236,7 +73380,13 @@
     "lng": 15.75,
     "t": "aqueduct"
   },
-  { "id": "pleiades:443190", "n": "Unnamed aqueduct", "lat": 40.25, "lng": 17.25, "t": "aqueduct" },
+  {
+    "id": "pleiades:443190",
+    "n": "Aqueduct S of Satyrion",
+    "lat": 40.25,
+    "lng": 17.25,
+    "t": "aqueduct"
+  },
   {
     "id": "pleiades:443191",
     "n": "Aqueduct near Karbinai?",
@@ -74011,7 +74161,7 @@
   },
   {
     "id": "pleiades:197828",
-    "n": "Unnamed aqueduct",
+    "n": "Aqueduct at Burnum",
     "lat": 44.018914,
     "lng": 16.025622,
     "t": "aqueduct"
@@ -87304,14 +87454,14 @@
   },
   {
     "id": "religion:963101009",
-    "n": "Unnamed place",
+    "n": "Temple at es-Snemat",
     "lat": 31.1463,
     "lng": 16.7497,
     "t": "religion"
   },
   {
     "id": "religion:963101382",
-    "n": "Unnamed Place",
+    "n": "An unnamed place",
     "lat": 32.4771,
     "lng": 14.4616,
     "t": "religion"
@@ -125051,7 +125201,7 @@
   },
   {
     "id": "port:apa-unnamed-city-3936",
-    "n": "Unnamed city",
+    "n": "Harbour near Kales",
     "lat": 41.1577,
     "lng": 31.3484,
     "t": "port"

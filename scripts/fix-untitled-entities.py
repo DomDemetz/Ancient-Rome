@@ -98,8 +98,11 @@ SUBTYPE_LABELS = {
 
 def fix_name(entity, grid):
     name = entity.get('name', '').strip()
+    # Fix fully generic names
     if name.lower() not in ('untitled', 'unnamed', 'unknown', ''):
-        return None
+        # Also fix "Unnamed X" patterns that lack location context
+        if not re.match(r'^unnamed\s+(villa|bridge|mine|quarry|tomb|place|city|aqueduct|roman\s+\w+)$', name, re.I):
+            return None
 
     desc = entity.get('description', '')
     subtype = entity.get('subtype', entity.get('type', ''))
