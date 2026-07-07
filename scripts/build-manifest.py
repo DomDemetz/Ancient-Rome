@@ -65,6 +65,25 @@ for p in sorted(glob.glob(os.path.join(D, "unified", "*.json"))):
     })
 out = os.path.join(BASE, "DATA-MANIFEST.json")
 json.dump(manifest, open(out, "w"), ensure_ascii=False, indent=1)
+
+# landing-page stats, DERIVED — the hardcoded ribbon went stale three
+# times in one day as the datasets moved
+import glob as _glob
+D = os.path.join(BASE, "src", "data")
+def _n(p):
+    return len(json.load(open(os.path.join(D, p))))
+stats = {
+    "settlements": _n("places/places.json"),
+    "archaeologicalSites": sum(len(json.load(open(f))) for f in _glob.glob(os.path.join(D, "vici", "*.json"))),
+    "buildings": _n("unified/building.json"),
+    "people": _n("registry/people-search.json"),
+    "battles": _n("unified/battle.json"),
+    "emperors": _n("registry/emperors-search.json"),
+}
+sp = os.path.join(D, "registry", "landing-stats.json")
+json.dump(stats, open(sp, "w"), separators=(",", ":"))
+open(sp, "a").write("\n")
+print("landing-stats.json:", stats)
 open(out, "a").write("\n")
 print(f"DATA-MANIFEST.json: {len(manifest['artifacts'])} artifacts, "
       f"{sum(a['bytes'] for a in manifest['artifacts'])//1024//1024} MB tracked")

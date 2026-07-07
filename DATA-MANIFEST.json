@@ -64,9 +64,9 @@
   },
   {
    "file": "src/data/knowledge/places.json",
-   "records": 29329,
-   "bytes": 10596838,
-   "sha256_12": "13b06b95965f",
+   "records": 28847,
+   "bytes": 10315097,
+   "sha256_12": "2ea031ef38d8",
    "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
    "license": "inherits sources",
    "version": "build-time",
