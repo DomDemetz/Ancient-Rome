@@ -1,7 +1,23 @@
 import { useMemo } from 'react'
 import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
-import { populationAt } from '@/data/places'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
+
+function populationAt(points: PlacePopulationPoint[], year: number): number | null {
+  if (points.length === 0) return null
+  if (year <= points[0].year) return points[0].population
+  if (year >= points[points.length - 1].year) return points[points.length - 1].population
+  for (let i = 0; i < points.length - 1; i++) {
+    const a = points[i]
+    const b = points[i + 1]
+    if (year >= a.year && year <= b.year) {
+      const span = b.year - a.year
+      if (span === 0) return a.population
+      const t = (year - a.year) / span
+      return Math.round(a.population + t * (b.population - a.population))
+    }
+  }
+  return null
+}
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
@@ -158,12 +174,14 @@ export function PlacesLayer({
     const placed: Array<[number, number]> = []
     // empire-name anchors are obstacles: a minor name under ROMAN EMPIRE
     // is unreadable both ways
-    for (const em of empiresSearchJson as Array<{ lat: number; lng: number; s: number; e: number }>) {
+    for (const em of empiresSearchJson as Array<{
+      lat: number
+      lng: number
+      s: number
+      e: number
+    }>) {
       if (em.s <= currentYear && em.e >= currentYear) {
-        placed.push([
-          em.lng * pxPerDegX * Math.cos((em.lat * Math.PI) / 180),
-          em.lat * pxPerDegX,
-        ])
+        placed.push([em.lng * pxPerDegX * Math.cos((em.lat * Math.PI) / 180), em.lat * pxPerDegX])
       }
     }
     // Rome/Byzantium name themselves from the territory layer (not in the
