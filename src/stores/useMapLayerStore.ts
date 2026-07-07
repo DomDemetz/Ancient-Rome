@@ -150,7 +150,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
       {
         key: 'Territories',
-        label: 'Territories',
+        label: 'Roman Territories',
         activeClass: 'bg-red-900/80 border-red-700 text-red-100 hover:bg-red-800/80',
       },
       {
