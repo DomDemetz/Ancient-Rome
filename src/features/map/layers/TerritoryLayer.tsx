@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { GeoJSON } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { imperialNameAnchors } from './imperialAnchors'
 import { Marker } from 'react-leaflet'
 import L from 'leaflet'
 import type { TerritorySnapshot } from '@/types'
@@ -202,12 +203,9 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
   // wrapping empire has its centroid at sea, so the name anchors at the
   // civilizational heart instead: Rome names itself from Italy, the
   // Eastern Empire from Anatolia.
-  // era-aware: Byzantium's name lives in Anatolia until 1204, then in
-  // Thrace — after Manzikert/1204 the Anatolian heartland is someone else's
-  const NAME_ANCHORS: Record<string, [number, number]> = {
-    rome: [41.1, 14.9],
-    'eastern-empire': currentYear < 1204 ? [39.2, 31.5] : [41.6, 26.5],
-  }
+  // era-aware anchors shared with EmpiresLayer/PlacesLayer (imperialAnchors.ts)
+  const NAME_ANCHORS: Record<string, [number, number] | undefined> =
+    imperialNameAnchors(currentYear)
   const nameMarkers = active
     .map((snap) => {
       const label = (snap.label ?? '').split('—')[0].trim()

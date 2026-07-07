@@ -25,6 +25,7 @@ import { DARE_TYPE_TO_CATEGORY, getSettlementStyle } from './settlementStyles'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { baseTooltipHtml, displayName } from './placeTooltip'
 import empiresSearchJson from '@/data/registry/empires-search.json'
+import { imperialAnchors } from './imperialAnchors'
 
 interface PlacesLayerProps {
   data: PlaceNode[]
@@ -185,12 +186,8 @@ export function PlacesLayer({
       }
     }
     // Rome/Byzantium name themselves from the territory layer (not in the
-    // empires manifest) — same anchors as TerritoryLayer.NAME_ANCHORS
-    const imperial: Array<[number, number]> = [
-      [41.1, 14.9],
-      currentYear < 1204 ? [39.2, 31.5] : [41.6, 26.5],
-    ]
-    for (const [alat, alng] of imperial) {
+    // empires manifest) — shared anchors (imperialAnchors.ts)
+    for (const [alat, alng] of imperialAnchors(currentYear)) {
       placed.push([alng * pxPerDegX * Math.cos((alat * Math.PI) / 180), alat * pxPerDegX])
     }
     // labeled population cities are obstacles too — Alsium was printing

@@ -6,6 +6,7 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import citiesSearchJson from '@/data/registry/cities-search.json'
+import { imperialAnchors } from './imperialAnchors'
 
 // labeled-city obstacles: the great cities carry their own labels, and an
 // empire name straddling one reads as a collision (Ottoman/Prusa, 1453)
@@ -180,6 +181,20 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       .sort((a, b) => b.area - a.area)
 
     const placed: Array<[number, number]> = []
+    // The territory layer prints ROME / BYZANTINE EMPIRE at fixed anchors
+    // (shared imperialAnchors.ts). Seed them as PLACED
+    // labels so colliding polity names are suppressed, not nudged — at
+    // 1223 'LATIN EMPIRE' printed straight through 'BYZANTINE EMPIRE'.
+    // Vast-tier names are ~3 boxes wide: claim a horizontal spread.
+    for (const [alat, alng] of imperialAnchors(currentYearForObstacles)) {
+      const spreadDeg = (110 / (pxPerDegX * Math.cos((alat * Math.PI) / 180))) * 0.9
+      for (const dx of [-spreadDeg, 0, spreadDeg]) {
+        placed.push([
+          (alng + dx) * pxPerDegX * Math.cos((alat * Math.PI) / 180),
+          alat * pxPerDegX,
+        ])
+      }
+    }
     const out: Array<{ e: EmpireShape; dodge: number }> = []
     for (const e of [...famCandidates, ...candidates] as EmpireShape[]) {
       const x = e.label[1] * pxPerDegX * Math.cos((e.label[0] * Math.PI) / 180)
