@@ -43,6 +43,36 @@
    "producer": "scripts/(pre-existing ingest)"
   },
   {
+   "file": "src/data/knowledge/features.json",
+   "records": 9680,
+   "bytes": 4600978,
+   "sha256_12": "4f728defa3b5",
+   "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
+   "license": "inherits sources",
+   "version": "build-time",
+   "producer": "scripts/build-knowledge.py"
+  },
+  {
+   "file": "src/data/knowledge/other.json",
+   "records": 212,
+   "bytes": 268199,
+   "sha256_12": "91415959549a",
+   "source": "consolidated: emperors/legions/entities wiki",
+   "license": "inherits sources",
+   "version": "build-time",
+   "producer": "scripts/build-knowledge.py"
+  },
+  {
+   "file": "src/data/knowledge/places.json",
+   "records": 28403,
+   "bytes": 9677809,
+   "sha256_12": "f41f787fa409",
+   "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
+   "license": "inherits sources",
+   "version": "build-time",
+   "producer": "scripts/build-knowledge.py"
+  },
+  {
    "file": "src/data/places/places.json",
    "records": 28503,
    "bytes": 5844023,

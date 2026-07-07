@@ -72,6 +72,7 @@ echo ""
 echo "══════════════════════════════════════════"
 echo "  STEP 2b · Provenance manifest"
 echo "══════════════════════════════════════════"
+python3 scripts/build-knowledge.py
 python3 scripts/build-manifest.py
 echo ""
 

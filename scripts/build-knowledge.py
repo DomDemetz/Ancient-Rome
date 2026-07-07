@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""
+P0 KNOWLEDGE CONSOLIDATION — one store, keyed by the graph.
+
+Today knowledge lives in ~10 files keyed by layer-specific ids
+(settlements-wiki by DARE id, battles-wiki by battle id, cross-reference
+by "type:id"...) — every layer resolves content its own way (the
+"five-layer cascade"). This build step consolidates all of it into
+graph-keyed stores:
+
+  knowledge/places.json   key = canonical node id  (node's wiki ref +
+                          cross-ref via dare/pleiades key + qid)
+  knowledge/features.json key = unified entity id  (per-type wiki files +
+                          cross-ref; node-linked entities NOT duplicated —
+                          consumers fall through entity → its node)
+  knowledge/other.json    key = emperor:<id> | legion:<id> | entity:<id>
+
+Entry shape (superset of WikiEnrichment, plus provenance):
+  { extract, thumbnail?, wikipediaUrl?, wikidataUrl?, qid?,
+    crossRef?, sources: ["settlements-wiki", "cross-reference", ...] }
+
+Additive: legacy wiki/* files stay until UI adoption completes (board).
+"""
+import json, os
+from collections import defaultdict
+
+BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
+W = lambda n: json.load(open(os.path.join(BASE, "wiki", n)))
+
+places = json.load(open(os.path.join(BASE, "places", "places.json")))
+setl = W("settlements-wiki.json")
+cross = W("cross-reference.json")
+
+def base_entry(wiki, src):
+    e = {k: wiki[k] for k in ("extract", "romanEraExtract", "wikiTitle", "wikipediaUrl",
+                              "wikidataUrl", "wikidataId", "thumbnail", "description",
+                              "descriptionSource", "romanRelevance", "wrongArticle")
+         if wiki.get(k) is not None}
+    e["sources"] = [src]
+    return e
+
+# ---- places.json store (node-keyed) ----
+k_places = {}
+for p in places:
+    entry = None
+    ref = p.get("wiki")
+    if ref and ref[0] == "settlements" and ref[1] in setl:
+        entry = base_entry(setl[ref[1]], "settlements-wiki")
+    # cross-ref by settlement / pleiades keys
+    cr = None
+    if p.get("dare"):
+        cr = cross.get(f"settlement:{p['dare']['id']}")
+    if cr is None and p.get("pid"):
+        cr = cross.get(f"pleiades:{p['pid']}")
+    if cr:
+        entry = entry or {"sources": []}
+        entry["crossRef"] = cr
+        entry["sources"].append("cross-reference")
+    if p.get("qid"):
+        entry = entry or {"sources": []}
+        entry["qid"] = p["qid"]
+    if entry and (entry.get("extract") or entry.get("crossRef")):
+        k_places[p["id"]] = entry
+
+# ---- features store (unified-entity-keyed) ----
+join = json.load(open(os.path.join(BASE, "registry", "unified-nodes.json")))
+TYPE_WIKI = {
+    "battle": ("battles-wiki.json", "battle"),
+    "amphitheater": ("amphitheaters-wiki.json", "amphitheater"),
+    "building": ("buildings-wiki.json", "building"),
+    "aqueduct": ("aqueducts-wiki.json", "aqueduct"),
+    "port": ("ports-wiki.json", "port"),
+}
+k_feat = {}
+import glob
+for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
+    tname = os.path.basename(path)[:-5]
+    wiki_file = TYPE_WIKI.get(tname)
+    wlookup = W(wiki_file[0]) if wiki_file else {}
+    crprefix = wiki_file[1] if wiki_file else tname
+    for e in json.load(open(path)):
+        uid = e["id"]
+        bare = uid.split(":", 1)[1] if ":" in uid else uid
+        entry = None
+        if bare in wlookup:
+            entry = base_entry(wlookup[bare], wiki_file[0][:-5])
+        cr = cross.get(f"{crprefix}:{bare}") or cross.get(uid)
+        if cr:
+            entry = entry or {"sources": []}
+            entry["crossRef"] = cr
+            entry["sources"].append("cross-reference")
+        if entry:
+            if uid in join:
+                entry["node"] = join[uid]["node"]
+            k_feat[uid] = entry
+
+# ---- other (emperors, legions, narrative entities) ----
+k_other = {}
+for fname, prefix in [("emperors-wiki.json", "emperor"), ("legions-wiki.json", "legion"),
+                      ("entities-wiki.json", "entity")]:
+    for k, v in W(fname).items():
+        k_other[f"{prefix}:{k}"] = base_entry(v, fname[:-5])
+
+out_dir = os.path.join(BASE, "knowledge")
+os.makedirs(out_dir, exist_ok=True)
+for name, store in [("places", k_places), ("features", k_feat), ("other", k_other)]:
+    p = os.path.join(out_dir, f"{name}.json")
+    json.dump(store, open(p, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    open(p, "a").write("\n")
+    print(f"knowledge/{name}.json: {len(store)} entries, {os.path.getsize(p)//1024} KB")
+print("consolidated from", len(setl), "settlement +", len(cross), "cross-ref +",
+      "per-type wiki files — legacy files remain until UI adoption")
