@@ -34,6 +34,8 @@ export interface PresetDef {
   description: string
   layers: string[]
   timelineYear?: number
+  /** Start the timeline playing on activation (time-lapse presets). */
+  autoplay?: boolean
 }
 
 export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
@@ -79,6 +81,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'Rise & Fall',
     description: 'The full puzzle assembled — scrub 753 BC to 476 AD',
     timelineYear: -753,
+    // 753 BC is an empty map by design — the preset IS the time-lapse, so
+    // it starts itself instead of opening on a void and hoping for play.
+    autoplay: true,
     layers: [
       'showBattles',
       'showLegions',
@@ -961,6 +966,13 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     // Jump timeline to the preset's most interesting year
     if (def.timelineYear != null) {
       useTimelineStore.getState().setYear(def.timelineYear)
+    }
+    if (def.autoplay) {
+      const t = useTimelineStore.getState()
+      // normalize to 1x: the full 753 BC → 1453 arc runs ~44s — a watchable
+      // time-lapse; a leftover 4x from earlier play would blink past it
+      t.setSpeed(1)
+      t.play()
     }
 
     // Turn off all layers, then turn on preset layers
