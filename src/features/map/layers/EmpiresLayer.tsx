@@ -10,14 +10,43 @@ interface EmpiresLayerProps {
   data: EmpireShape[]
 }
 
-/** Stable, muted color per polity name — consistent across years and sessions. */
+/**
+ * Curated cartographic palette — muted earth-and-mineral tints that belong
+ * to the atlas's amber-on-dark identity (a hashed hue wheel read like a
+ * board game). Rome's imperial red band stays exclusive to the territory
+ * layer. Assignment is stable per polity name across years and sessions.
+ */
+const POLITY_PALETTE = [
+  '#b08a5a', // ochre
+  '#8a9a5b', // moss
+  '#a1665e', // terracotta
+  '#6e8ca0', // slate blue
+  '#9a7bb0', // dusty violet
+  '#5f9e8f', // verdigris
+  '#b0975a', // sand
+  '#7d8a6a', // olive drab
+  '#a67f6a', // clay
+  '#5b8a9a', // petrol
+  '#8f7a9e', // heather
+  '#6da077', // sage
+  '#b58a80', // rosewood
+  '#7a9ab0', // haze blue
+  '#9e8a5f', // bronze
+  '#6a8a8f', // pewter
+]
+
 function polityColor(name: string): string {
   let h = 0
   for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0
-  const hue = h % 360
-  // avoid the empire-red band (~350–20) reserved for Rome's own territory
-  const safeHue = hue > 340 || hue < 25 ? (hue + 60) % 360 : hue
-  return `hsl(${safeHue}, 52%, 56%)`
+  return POLITY_PALETTE[h % POLITY_PALETTE.length]
+}
+
+/** Cartographic type tiers: the size of the name encodes the size of the
+ *  state — great empires speak louder than duchies. */
+function labelTier(area: number): string {
+  if (area >= 2000000) return 'empire-label--vast'
+  if (area >= 600000) return 'empire-label--large'
+  return ''
 }
 
 /** Minimum polity area (km²) that earns a name label at a given zoom. */
@@ -103,7 +132,7 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
           interactive={false}
           icon={L.divIcon({
             className: 'empire-label-wrap',
-            html: `<div class="empire-label" style="color:${polityColor(e.name)}">${esc(e.name)}</div>`,
+            html: `<div class="empire-label ${labelTier(e.area)}">${esc(e.name)}</div>`,
             iconSize: [0, 0],
           })}
         />
