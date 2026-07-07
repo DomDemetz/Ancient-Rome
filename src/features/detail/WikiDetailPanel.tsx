@@ -85,7 +85,8 @@ function CrossRefDetailContent({
   if (cr.modernName) facts.push({ label: 'Modern', value: cr.modernName, source: primarySrc })
   if (cr.province)
     facts.push({ label: 'Province', value: cr.province, source: cr.provinceSrc ?? 'ORBIS' })
-  if (cr.startYear != null) {
+  // DARE sentinel: startYear 0 means unknown, not 1 BC
+  if (cr.startYear != null && cr.startYear !== 0) {
     const yearLabel = crKey.startsWith('battle:')
       ? 'Date'
       : crKey.startsWith('amphitheater:') || crKey.startsWith('building:')
@@ -93,7 +94,7 @@ function CrossRefDetailContent({
         : 'Founded'
     facts.push({ label: yearLabel, value: formatYear(cr.startYear), source: primarySrc })
   }
-  if (cr.endYear != null && cr.endYear < 700)
+  if (cr.endYear != null && cr.endYear !== 0 && cr.endYear < 700)
     facts.push({ label: 'Until', value: formatYear(cr.endYear), source: primarySrc })
   if (cr.tradeRole && cr.tradeRole !== 'city')
     facts.push({ label: 'Trade role', value: cr.tradeRole, source: 'ORBIS' })
@@ -588,13 +589,13 @@ function WikiDetailContent({
   if (cr?.ancientName) facts.push({ label: 'Ancient name', value: cr.ancientName, source: 'DARE' })
   if (cr?.greekName) facts.push({ label: 'Greek', value: cr.greekName, source: 'DARE' })
   if (cr?.province) facts.push({ label: 'Province', value: cr.province, source: 'ORBIS' })
-  if (cr?.startYear != null)
+  if (cr?.startYear != null && cr.startYear !== 0)
     facts.push({
       label: cr.combatants ? 'Year' : 'Founded',
       value: formatYear(cr.startYear),
       source: 'DARE',
     })
-  if (cr?.endYear != null && cr.endYear < 700)
+  if (cr?.endYear != null && cr.endYear !== 0 && cr.endYear < 700)
     facts.push({ label: 'Until', value: formatYear(cr.endYear), source: 'DARE' })
   if (cr?.capacity) facts.push({ label: 'Capacity', value: cr.capacity.toLocaleString() })
   if (cr?.dimensions) facts.push({ label: 'Dimensions', value: cr.dimensions })
