@@ -66,11 +66,15 @@ function CrossRefDetailContent({
   onClose: () => void
 }) {
   const isDiscovery = crKey.startsWith('discovery-')
+  const bareId = crKey.includes(':') ? crKey.split(':')[1] : null
+  const hasPleiadesSrc = cr.sources?.includes('Pleiades')
   const pid = crKey.startsWith('pleiades:')
-    ? crKey.replace('pleiades:', '')
+    ? bareId
     : isDiscovery
-      ? crKey.split(':')[1]
-      : null
+      ? bareId
+      : hasPleiadesSrc && bareId && /^\d+$/.test(bareId)
+        ? bareId
+        : null
   const dareId = crKey.startsWith('settlement:') ? crKey.replace('settlement:', '') : null
 
   const isSettlement = crKey.startsWith('settlement:') || crKey.startsWith('pleiades:')
@@ -216,6 +220,26 @@ function CrossRefDetailContent({
           )}
 
           <div className="flex flex-wrap gap-2 pt-2">
+            {cr.wikiUrl && (
+              <a
+                href={cr.wikiUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
+              >
+                <BookOpen className="size-3" /> Wikipedia
+              </a>
+            )}
+            {cr.qid && (
+              <a
+                href={`https://www.wikidata.org/wiki/${cr.qid}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
+              >
+                <ExternalLink className="size-3" /> Wikidata
+              </a>
+            )}
             {pid && (
               <a
                 href={`https://pleiades.stoa.org/places/${pid}`}
@@ -263,35 +287,22 @@ function PeopleDetailContent({ featureId }: { featureId: string }) {
       if (p) setPerson(p)
 
       try {
-        const resp = await fetch(
-          `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(featureId)}`,
-          { headers: { Accept: 'application/json' } },
+        const wdResp = await fetch(
+          `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${featureId}&props=sitelinks&format=json&origin=*`,
         )
-        if (!resp.ok) {
-          const wdResp = await fetch(
-            `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${featureId}&props=sitelinks&format=json&origin=*`,
+        const wdData = await wdResp.json()
+        const title = wdData?.entities?.[featureId]?.sitelinks?.enwiki?.title
+        if (title) {
+          const wikiResp = await fetch(
+            `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
           )
-          const wdData = await wdResp.json()
-          const title = wdData?.entities?.[featureId]?.sitelinks?.enwiki?.title
-          if (title) {
-            const wikiResp = await fetch(
-              `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
-            )
-            if (wikiResp.ok) {
-              const data = await wikiResp.json()
-              if (!cancelled) {
-                setWikiExtract(data.extract ?? null)
-                setWikiImage(data.thumbnail?.source ?? null)
-                setWikiTitle(title)
-              }
+          if (wikiResp.ok) {
+            const data = await wikiResp.json()
+            if (!cancelled) {
+              setWikiExtract(data.extract ?? null)
+              setWikiImage(data.thumbnail?.source ?? null)
+              setWikiTitle(title)
             }
-          }
-        } else {
-          const data = await resp.json()
-          if (!cancelled) {
-            setWikiExtract(data.extract ?? null)
-            setWikiImage(data.thumbnail?.source ?? null)
-            setWikiTitle(data.title ?? null)
           }
         }
       } catch {
@@ -691,9 +702,8 @@ function WikiDetailContent({
               <span className="text-[11px] text-slate-500 block">{cr.greekName}</span>
             )}
             <span className="text-[10px] uppercase tracking-wider text-slate-500 mt-0.5 block">
-              {(cr?.buildingType ?? featureLayer === 'cities')
-                ? 'city'
-                : featureLayer.replace(/s$/, '')}
+              {cr?.buildingType ??
+                (featureLayer === 'cities' ? 'city' : featureLayer.replace(/s$/, ''))}
             </span>
           </div>
 
