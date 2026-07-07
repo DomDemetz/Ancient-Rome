@@ -58,7 +58,7 @@ interface Building {
   lat: number
   lng: number
   buildingType: string
-  constructionYear: number
+  constructionYear: number | null
   builder: null
   description: string
   source: 'Pleiades'
@@ -70,63 +70,48 @@ interface Building {
 
 const GEOJSON_URL = 'https://atlantides.org/downloads/pleiades/json/pleiades-places-latest.json.gz'
 
-const FEATURE_TYPE_KEYWORDS = [
-  'temple',
-  'church',
-  'bath',
-  'theatre',
-  'theater',
-  'amphitheatre',
-  'amphitheater',
-  'basilica',
-  'forum',
-  'circus',
-  'hippodrome',
-  'arch',
-  'aqueduct',
-  'bridge',
-  'palace',
-  'library',
-  'stadium',
-  'odeum',
-  'nymphaeum',
-  'stoa',
-  'agora',
-  'monument',
-  'mausoleum',
-  'villa',
-  'sanctuary',
-  'thermae',
-]
-
+// Exact Pleiades featureType token -> our buildingType. Tokens must match
+// EXACTLY (see matchesFeatureType) — substring matching once turned every
+// 'archaeological-site' and 'archive-repository' into an 'arch', and every
+// villa into a 'palace'. Places typed 'settlement' are never buildings.
 const BUILDING_TYPE_MAP: Record<string, string> = {
   temple: 'temple',
+  'temple-2': 'temple',
   sanctuary: 'temple',
+  shrine: 'temple',
+  nymphaeum: 'temple',
   church: 'basilica',
+  'church-2': 'basilica',
   basilica: 'basilica',
+  monastery: 'basilica',
   bath: 'bath',
   thermae: 'bath',
   theatre: 'theater',
   theater: 'theater',
+  odeon: 'theater',
   odeum: 'theater',
   amphitheatre: 'amphitheater',
   amphitheater: 'amphitheater',
   forum: 'forum',
   agora: 'forum',
+  plaza: 'forum',
+  stoa: 'forum',
   circus: 'circus',
   hippodrome: 'circus',
   stadium: 'circus',
   arch: 'arch',
-  monument: 'arch',
-  mausoleum: 'arch',
+  monument: 'monument',
+  mausoleum: 'monument',
+  tomb: 'monument',
   palace: 'palace',
-  villa: 'palace',
+  'palace-complex': 'palace',
+  villa: 'villa',
   library: 'library',
   bridge: 'bridge',
   aqueduct: 'aqueduct',
-  nymphaeum: 'temple',
-  stoa: 'temple',
 }
+
+const NEVER_BUILDING = new Set(['settlement', 'settlement-modern'])
 
 const ROMAN_PERIODS = [
   'roman',
@@ -164,17 +149,16 @@ function slugify(text: string): string {
 }
 
 /**
- * Match placeTypes against building keywords.
- * Pleiades uses variants like "temple-2", "church-2", "bath" etc.
+ * Match placeTypes against building types — EXACT token equality only.
+ * Substring matching is how 'archaeological-site' became an 'arch'.
+ * A place typed 'settlement' is a settlement, whatever else it carries.
  */
 function matchesFeatureType(placeTypes: string[]): string | null {
-  for (const pt of placeTypes) {
-    const lower = pt.toLowerCase()
-    for (const keyword of FEATURE_TYPE_KEYWORDS) {
-      if (lower.includes(keyword)) {
-        return BUILDING_TYPE_MAP[keyword] || keyword
-      }
-    }
+  const tokens = placeTypes.map((pt) => pt.toLowerCase().trim())
+  if (tokens.some((t) => NEVER_BUILDING.has(t))) return null
+  for (const t of tokens) {
+    const mapped = BUILDING_TYPE_MAP[t]
+    if (mapped) return mapped
   }
   return null
 }
@@ -197,9 +181,13 @@ function hasRomanPeriod(place: PleiadesPlace): boolean {
 }
 
 /**
- * Estimate construction year from the earliest Roman-era attestation.
+ * Estimate first-attestation year from the earliest matched time period.
+ * Returns null when nothing matches — an unknown date must stay unknown,
+ * not default to 50 AD (that default once fabricated 75% of all dates).
+ * Note this is an ATTESTATION year, not a construction date; the UI must
+ * label it accordingly.
  */
-function estimateConstructionYear(place: PleiadesPlace): number {
+function estimateConstructionYear(place: PleiadesPlace): number | null {
   let earliest = Infinity
   if (place.locations) {
     for (const loc of place.locations) {
@@ -214,7 +202,7 @@ function estimateConstructionYear(place: PleiadesPlace): number {
       }
     }
   }
-  return earliest === Infinity ? 50 : earliest
+  return earliest === Infinity ? null : earliest
 }
 
 function getCoordinates(place: PleiadesPlace): { lat: number; lng: number } | null {

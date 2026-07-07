@@ -11,6 +11,7 @@
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "validate": "tsx scripts/validate-data.ts",
+    "validate:entities": "python3 scripts/validate-entities.py --ci && python3 scripts/validate-golden.py",
     "generate:dare": "tsx scripts/generate-dare-layers.ts",
     "ingest:battles": "tsx scripts/ingest-battles.ts",
     "ingest:amphitheaters": "tsx scripts/ingest-amphitheaters.ts",

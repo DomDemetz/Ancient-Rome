@@ -1,0 +1,61 @@
+{
+  "_comment": "Hand-verified golden set from the 2026-07-07 data audit. Every entry states textbook facts about a famous place. scripts/validate-golden.py checks the shipped data files against these on every run — if a pipeline change breaks one, the change is wrong, not the golden set. Coordinate tolerance 0.15 deg, year tolerance as stated per entry.",
+  "settlements": [
+    { "name": "Roma", "altNames": ["Rome"], "lat": 41.89, "lng": 12.48 },
+    { "name": "Athenae", "altNames": ["Athens", "Athenai"], "lat": 37.98, "lng": 23.73 },
+    { "name": "Carthago", "altNames": ["Carthage", "Karthago"], "lat": 36.85, "lng": 10.32 },
+    { "name": "Alexandria", "altNames": [], "lat": 31.2, "lng": 29.92 },
+    {
+      "name": "Byzantium",
+      "altNames": ["Constantinopolis", "Constantinople"],
+      "lat": 41.01,
+      "lng": 28.97
+    },
+    { "name": "Hierichous", "altNames": ["Jericho"], "lat": 31.87, "lng": 35.44 },
+    { "name": "Augusta Treverorum", "altNames": ["Trier"], "lat": 49.76, "lng": 6.64 },
+    { "name": "Londinium", "altNames": ["London"], "lat": 51.51, "lng": -0.09 },
+    { "name": "Lugdunum", "altNames": ["Lyon"], "lat": 45.76, "lng": 4.82 },
+    { "name": "Palmyra", "altNames": ["Tadmor"], "lat": 34.55, "lng": 38.27 },
+    { "name": "Petra", "altNames": [], "lat": 30.33, "lng": 35.44 },
+    { "name": "Pompeii", "altNames": ["Pompei"], "lat": 40.75, "lng": 14.49 },
+    { "name": "Ephesus", "altNames": ["Ephesos"], "lat": 37.94, "lng": 27.34 },
+    { "name": "Lepcis Magna", "altNames": ["Leptis Magna"], "lat": 32.64, "lng": 14.29 },
+    { "name": "Thamugadi", "altNames": ["Timgad"], "lat": 35.48, "lng": 6.47 },
+    { "name": "Syracusae", "altNames": ["Syracuse", "Syrakousai"], "lat": 37.06, "lng": 15.29 },
+    { "name": "Masada", "altNames": [], "lat": 31.31, "lng": 35.35 },
+    { "name": "Heliopolis", "altNames": ["Baalbek"], "lat": 34.01, "lng": 36.2 }
+  ],
+  "battles": [
+    { "name": "Battle of Cannae", "year": -216, "tolerance": 1, "lat": 41.3, "lng": 16.13 },
+    { "name": "Battle of Actium", "year": -31, "tolerance": 1, "lat": 38.94, "lng": 20.77 },
+    { "name": "Battle of Zama", "year": -202, "tolerance": 1, "lat": 36.3, "lng": 9.45 },
+    { "name": "Battle of Adrianople", "year": 378, "tolerance": 1, "lat": 41.68, "lng": 26.56 },
+    {
+      "name": "Battle of the Milvian Bridge",
+      "year": 312,
+      "tolerance": 1,
+      "lat": 41.94,
+      "lng": 12.47
+    }
+  ],
+  "notBuildings": [
+    { "pleiadesId": "687917", "why": "Jericho is a settlement/tell, not a building" },
+    {
+      "pleiadesId": "619239399",
+      "why": "Palace of the Shirvanshahs is a 15th-c. complex in Baku, outside the atlas scope"
+    },
+    {
+      "pleiadesId": "406465130",
+      "why": "Kalhu Archive 9 is an Assyrian archive room record, not a Roman building"
+    }
+  ],
+  "buildingTypeSanity": {
+    "_comment": "The Roman world did not have thousands of palaces or monumental arches. If a regeneration pushes these counts past the caps, the type mapping regressed.",
+    "maxCounts": { "palace": 100, "arch": 200 },
+    "mustExistTypes": ["villa", "temple", "bridge", "aqueduct", "theater", "bath"]
+  },
+  "fabricatedDateGuard": {
+    "_comment": "constructionYear=50 was once a hard-coded fallback covering 75% of buildings. Some legitimate year-50 attestations exist; the cap catches the epidemic, not the individuals.",
+    "maxShareConstructionYear50": 0.2
+  }
+}

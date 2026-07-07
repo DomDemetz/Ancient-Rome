@@ -317,8 +317,17 @@ export function SearchBar() {
     if (layerData.placesData) {
       for (const p of layerData.placesData) {
         if (p.populations) continue
+        // Encode the cross-ref detail key up front — places ids ('dare-23403',
+        // 'pl-...', 'wd-Q...') do not match cross-reference keys directly
+        const detailKey = p.pid
+          ? `pleiades:${p.pid}`
+          : p.id.startsWith('wd-')
+            ? p.id
+            : p.id.startsWith('dare-')
+              ? `settlement:${p.id.slice(5)}`
+              : `settlement:${p.id}`
         const entry: SearchItem = {
-          id: `settlement-${p.id}`,
+          id: `settlement-${detailKey}`,
           name: p.name,
           category: 'Settlement',
           color: CATEGORY_COLORS.settlement,
@@ -523,10 +532,10 @@ export function SearchBar() {
       }
     }
 
-    // Settlements: open cross-ref panel (wd- places use their ID directly)
+    // Settlements: the item id embeds the cross-ref detail key
+    // (settlement:<dareId> | pleiades:<pid> | wd-Q<id>) from index build
     if (item.id.startsWith('settlement-')) {
-      const placeId = item.id.replace('settlement-', '')
-      const crKey = placeId.startsWith('wd-') ? placeId : `settlement:${placeId}`
+      const crKey = item.id.replace('settlement-', '')
       useFeatureDetailStore.getState().openFeature(crKey, 'crossref')
     }
 

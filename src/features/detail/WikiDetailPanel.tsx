@@ -36,6 +36,18 @@ function SourceBadge({ quality }: { quality?: 'academic' | 'sourced' | 'unsource
   )
 }
 
+// --- Fact hygiene guards ---
+
+// Wikidata quantities were extracted without their units (SPARQL label
+// service returns the bare amount), so the stored numbers mix m²/ha/km².
+// Only display values that carry a unit in the string.
+const hasUnit = (v: string) => /[a-z²]/i.test(v)
+
+// A Wikidata date far outside the atlas timeline means the QID points at a
+// modern entity (film studio, nature reserve, reconstruction) — hide it
+// rather than show an anachronism as fact.
+const inAtlasWindow = (y: number) => y >= -10000 && y <= 1500
+
 // --- Structured fact row ---
 
 function FactRow({ label, value, source }: { label: string; value: string; source?: string }) {
@@ -81,7 +93,7 @@ function CrossRefDetailContent({
   const primarySrc = isSettlement ? 'DARE' : cr.sources?.[0]
 
   const facts: Array<{ label: string; value: string; source?: string }> = []
-  if (cr.ancientName) {
+  if (cr.ancientName && cr.ancientName !== 'Untitled') {
     const nameLabel = isSettlement ? 'Ancient name' : 'Name'
     facts.push({ label: nameLabel, value: cr.ancientName, source: primarySrc })
   }
@@ -91,11 +103,9 @@ function CrossRefDetailContent({
     facts.push({ label: 'Province', value: cr.province, source: cr.provinceSrc ?? 'ORBIS' })
   // DARE sentinel: startYear 0 means unknown, not 1 BC
   if (cr.startYear != null && cr.startYear !== 0) {
-    const yearLabel = crKey.startsWith('battle:')
-      ? 'Date'
-      : crKey.startsWith('amphitheater:') || crKey.startsWith('building:')
-        ? 'Built'
-        : 'Founded'
+    // Pleiades/DARE years are attestation ranges (when the place is known to
+    // have existed), NOT construction/founding dates — label them honestly
+    const yearLabel = crKey.startsWith('battle:') ? 'Date' : 'Attested'
     facts.push({ label: yearLabel, value: formatYear(cr.startYear), source: primarySrc })
   }
   if (cr.endYear != null && cr.endYear !== 0 && cr.endYear < 700)
@@ -123,17 +133,17 @@ function CrossRefDetailContent({
 
   const wd = cr.wdProps
   if (wd) {
-    if (wd.inception && !facts.some((f) => f.label === 'Built' || f.label === 'Founded'))
+    if (wd.inception && inAtlasWindow(wd.inception))
       facts.push({ label: 'Founded', value: formatYear(wd.inception), source: 'Wikidata' })
-    if (wd.dissolved)
-      facts.push({ label: 'Dissolved', value: formatYear(wd.dissolved), source: 'Wikidata' })
+    if (wd.dissolved && inAtlasWindow(wd.dissolved))
+      facts.push({ label: 'Abandoned', value: formatYear(wd.dissolved), source: 'Wikidata' })
     if (wd.architect) facts.push({ label: 'Architect', value: wd.architect, source: 'Wikidata' })
     if (wd.commissionedBy)
       facts.push({ label: 'Commissioned by', value: wd.commissionedBy, source: 'Wikidata' })
-    if (wd.height) facts.push({ label: 'Height', value: wd.height })
-    if (wd.width) facts.push({ label: 'Width', value: wd.width })
-    if (wd.length) facts.push({ label: 'Length', value: wd.length })
-    if (wd.area && !facts.some((f) => f.label === 'Area'))
+    if (wd.height && hasUnit(wd.height)) facts.push({ label: 'Height', value: wd.height })
+    if (wd.width && hasUnit(wd.width)) facts.push({ label: 'Width', value: wd.width })
+    if (wd.length && hasUnit(wd.length)) facts.push({ label: 'Length', value: wd.length })
+    if (wd.area && hasUnit(wd.area) && !facts.some((f) => f.label === 'Area'))
       facts.push({ label: 'Area', value: wd.area })
     const mat = wd.materials?.join(', ') ?? wd.material
     if (mat) facts.push({ label: 'Material', value: mat, source: 'Wikidata' })
@@ -639,7 +649,8 @@ function WikiDetailContent({
   if (cr?.province) facts.push({ label: 'Province', value: cr.province, source: 'ORBIS' })
   if (cr?.startYear != null && cr.startYear !== 0)
     facts.push({
-      label: cr.combatants ? 'Year' : 'Founded',
+      // DARE years are attestation-range estimates, not founding dates
+      label: cr.combatants ? 'Year' : 'Attested',
       value: formatYear(cr.startYear),
       source: 'DARE',
     })
@@ -678,20 +689,21 @@ function WikiDetailContent({
   if (wd) {
     if (
       wd.inception &&
-      !facts.some((f) => f.label === 'Founded' || f.label === 'Year' || f.label === 'Built')
+      inAtlasWindow(wd.inception) &&
+      !facts.some((f) => f.label === 'Founded' || f.label === 'Year')
     )
       facts.push({ label: 'Founded', value: formatYear(wd.inception), source: 'Wikidata' })
-    if (wd.dissolved && !facts.some((f) => f.label === 'Until'))
-      facts.push({ label: 'Dissolved', value: formatYear(wd.dissolved), source: 'Wikidata' })
+    if (wd.dissolved && inAtlasWindow(wd.dissolved) && !facts.some((f) => f.label === 'Until'))
+      facts.push({ label: 'Abandoned', value: formatYear(wd.dissolved), source: 'Wikidata' })
     if (wd.architect && !facts.some((f) => f.label === 'Architect'))
       facts.push({ label: 'Architect', value: wd.architect, source: 'Wikidata' })
     if (wd.commissionedBy && !facts.some((f) => f.label === 'Commissioner'))
       facts.push({ label: 'Commissioned by', value: wd.commissionedBy, source: 'Wikidata' })
-    if (wd.height) facts.push({ label: 'Height', value: wd.height })
-    if (wd.width) facts.push({ label: 'Width', value: wd.width })
-    if (wd.length && !facts.some((f) => f.label === 'Length'))
+    if (wd.height && hasUnit(wd.height)) facts.push({ label: 'Height', value: wd.height })
+    if (wd.width && hasUnit(wd.width)) facts.push({ label: 'Width', value: wd.width })
+    if (wd.length && hasUnit(wd.length) && !facts.some((f) => f.label === 'Length'))
       facts.push({ label: 'Length', value: wd.length })
-    if (wd.area && !facts.some((f) => f.label === 'Area'))
+    if (wd.area && hasUnit(wd.area) && !facts.some((f) => f.label === 'Area'))
       facts.push({ label: 'Area', value: wd.area })
     const mat = wd.materials?.join(', ') ?? wd.material
     if (mat && !facts.some((f) => f.label === 'Material'))
