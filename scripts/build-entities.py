@@ -20,7 +20,7 @@ dots; extending node coverage to the full gazetteer is step 6 in the doc.
 Output: src/data/places/places.json
 Usage:  python3 scripts/build-entities.py
 """
-import json, os
+import json, os, re
 from collections import defaultdict
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
@@ -37,7 +37,14 @@ bridge = json.load(open(os.path.join(R, "pleiades-wikidata.json")))
 setl_wiki = json.load(open(os.path.join(BASE, "wiki", "settlements-wiki.json")))
 vici = [v.get("properties", v) for v in json.load(open(os.path.join(BASE, "vici-sites.json")))]
 xw_vici = json.load(open(os.path.join(R, "crosswalk-vici.json")))
+wd_settlements = json.load(open(os.path.join(R, "wd-settlements.json")))
 SETTLEMENT_KINDS = {"settlement", "city", "town", "vicus"}
+
+def clean_qid(q):
+    """Registry qid fields sometimes carry annotations ('Qazvin (Q181578)',
+    'Q3523866: Roman baths of Gaujac' — sometimes a DIFFERENT entity's id).
+    Only a bare Q-id is trustworthy identity."""
+    return q if q and re.fullmatch(r"Q\d+", q) else None
 
 MIN_YEAR, MAX_YEAR = -753, 1453
 
@@ -86,8 +93,10 @@ for key, g in groups.items():
     start = min(starts) if starts else 0
     end = max(ends) if ends else 0
 
-    qid = (d and dare_qid.get(str(d["id"]))) or (pid and bridge.get(pid, {}).get("qid")) \
-          or (c and xw_ch.get(c["id"], {}).get("qid")) or None
+    qid = clean_qid(
+        (d and dare_qid.get(str(d["id"]))) or (pid and bridge.get(pid, {}).get("qid"))
+        or (c and xw_ch.get(c["id"], {}).get("qid")) or None
+    )
 
     # knowledge ref: single unified wiki layer
     wiki = None
@@ -135,6 +144,7 @@ for p in places:
         dare_to_key[p["dare"]["id"]] = p["id"]
 
 vici_by_id = {v["id"]: v for v in vici}
+vici_attached = set()
 vici_merged = []  # settlement-kind vici points that ARE the place (skip in ViciLayer)
 for vid, link in xw_vici.items():
     v = vici_by_id.get(vid)
@@ -149,7 +159,11 @@ for vid, link in xw_vici.items():
         continue
     node = node_by_key[key]
     node.setdefault("vici", []).append(vid)
-    if "qid" not in node and link.get("qid"):
+    vici_attached.add(vid)
+    # adopt only a clean Q-id: the vici field sometimes holds annotations
+    # ("Q3523866: Roman baths of Gaujac" — the monument's qid, not the
+    # town's) and adopting those mislabels the settlement node
+    if "qid" not in node and clean_qid(link.get("qid")):
         node["qid"] = link["qid"]
         stats["qid adopted from vici"] += 1
     if (v.get("siteType") or "").lower() in SETTLEMENT_KINDS:
@@ -179,11 +193,55 @@ for pid, pr in pleiades.items():
         "pid": pid,
         "minor": True,  # gazetteer-only: subtle style, high zoom threshold
     }
-    q = bridge.get(pid, {}).get("qid")
+    q = clean_qid(bridge.get(pid, {}).get("qid"))
     if q:
         node["qid"] = q
     places.append(node)
     stats["pleiades-only nodes"] += 1
+
+# --- Wikidata dated settlements (SPARQL snapshot, registry/wd-settlements.json) ---
+# Worldwide gazetteer texture, esp. the medieval gap the archaeological
+# sources can't cover. Window-filtered at build time (the atlas ends 1453);
+# QIDs already claimed by a richer node are skipped (no duplicate dots).
+ATLAS_END = 1453
+have_qids = {p["qid"] for p in places if "qid" in p}
+for w in wd_settlements:
+    if w["startYear"] > ATLAS_END:
+        continue
+    if w["qid"] in have_qids:
+        stats["wd skipped (qid already on a node)"] += 1
+        continue
+    places.append({
+        "id": f"wd-{w['qid']}",
+        "name": w["name"],
+        "lat": w["lat"],
+        "lng": w["lng"],
+        "startYear": w["startYear"],
+        "endYear": w["endYear"],
+        "qid": w["qid"],
+        "minor": True,
+    })
+    have_qids.add(w["qid"])
+    stats["wd nodes"] += 1
+
+# second vici pass: links that found no pid/dare key can still join via
+# vici.org's own wikidata identity — now that qid-bearing wd nodes exist
+node_by_qid = {}
+for p in places:
+    if "qid" in p and p["qid"] not in node_by_qid:
+        node_by_qid[p["qid"]] = p
+for vid, link in xw_vici.items():
+    if vid in vici_attached:
+        continue
+    v = vici_by_id.get(vid)
+    q = link.get("qid")
+    if v is None or not q or q not in node_by_qid:
+        continue
+    node = node_by_qid[q]
+    node.setdefault("vici", []).append(vid)
+    if (v.get("siteType") or "").lower() in SETTLEMENT_KINDS:
+        vici_merged.append(vid)
+    stats["vici attached via qid"] += 1
 
 # --- absorb the curated narrative graph: 15 location entities -> nodes ---
 # The original "Hidden Network" locations attach to their canonical node, so

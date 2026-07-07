@@ -23,6 +23,14 @@ python3 scripts/attach-nodes-to-unified.py
 echo ""
 
 echo "══════════════════════════════════════════"
+echo "  STEP 1c · Join ORBIS trade sites to canonical nodes"
+echo "══════════════════════════════════════════"
+# was run manually once (2026-07-07) and never added — a rebuild without
+# it silently strips the orbis fields from 570 nodes
+python3 scripts/integrate-orbis-nodes.py
+echo ""
+
+echo "══════════════════════════════════════════"
 echo "  STEP 2 · Validate data integrity"
 echo "══════════════════════════════════════════"
 python3 -c "
