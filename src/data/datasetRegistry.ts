@@ -132,7 +132,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
   },
   {
     id: 'villas',
-    label: 'Villas (2.2K)',
+    label: 'Villas',
     group: 'Discovery',
     file: 'discovery-villa.json',
     color: '#4d7c0f',
@@ -143,7 +143,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
   },
   {
     id: 'temples',
-    label: 'Temples (1.3K)',
+    label: 'Temples',
     group: 'Discovery',
     file: 'discovery-temple.json',
     color: '#86198f',
@@ -154,7 +154,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
   },
   {
     id: 'bridges',
-    label: 'Bridges (689)',
+    label: 'Bridges',
     group: 'Discovery',
     file: 'discovery-bridge.json',
     color: '#0369a1',
@@ -165,7 +165,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
   },
   {
     id: 'tombs',
-    label: 'Tombs (780)',
+    label: 'Tombs',
     group: 'Discovery',
     file: 'discovery-tomb.json',
     color: '#374151',
