@@ -193,6 +193,15 @@ export function PlacesLayer({
     for (const [alat, alng] of imperial) {
       placed.push([alng * pxPerDegX * Math.cos((alat * Math.PI) / 180), alat * pxPerDegX])
     }
+    // labeled population cities are obstacles too — Alsium was printing
+    // straight through 'Rome'
+    for (const p of visible) {
+      if (!p.populations?.length) continue
+      const cur = populationAt(p.populations, currentYear)
+      if (cur != null && cur >= labelMinPop(zoom)) {
+        placed.push([p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180), p.lat * pxPerDegX])
+      }
+    }
     const out = new Set<string>()
     for (const p of candidates) {
       const x = p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180)
