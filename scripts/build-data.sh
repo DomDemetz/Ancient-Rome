@@ -16,6 +16,12 @@ python3 scripts/build-entities.py
 echo ""
 
 echo "══════════════════════════════════════════"
+echo "  STEP 1b · Join unified entities to canonical nodes"
+echo "══════════════════════════════════════════"
+python3 scripts/attach-nodes-to-unified.py
+echo ""
+
+echo "══════════════════════════════════════════"
 echo "  STEP 2 · Validate data integrity"
 echo "══════════════════════════════════════════"
 python3 -c "
