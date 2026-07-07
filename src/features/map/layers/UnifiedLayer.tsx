@@ -36,7 +36,7 @@ function getField(e: UnifiedEntity, field: string): string {
   if (field === 'subtype') return e.subtype ?? ''
   if (field === 'category') return e.category ?? ''
   if (field.startsWith('props.')) return (e.props?.[field.slice(6)] as string) ?? ''
-  return ((e as Record<string, unknown>)[field] as string) ?? ''
+  return ((e as unknown as Record<string, string>)[field] as string) ?? ''
 }
 
 export function UnifiedLayer({ data, config, color, fillColor, crPrefix }: UnifiedLayerProps) {
