@@ -19199,5 +19199,58 @@
     "category": "production",
     "qid": "Q3219865",
     "description": "An Athenian lead or silver mine"
+  },
+  {
+    "id": "mine:pleiades-275731",
+    "type": "mine",
+    "name": "Tahadart",
+    "lat": 35.5724,
+    "lng": -5.99033,
+    "source": "Pleiades",
+    "description": "An ancient place, cited: BAtlas 28 C2 Tahadart",
+    "subtype": "mine",
+    "startYear": -300,
+    "endYear": 500,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "mine:pleiades-69500",
+    "type": "mine",
+    "name": "Douarnenez",
+    "lat": 48.08851,
+    "lng": -4.33054,
+    "source": "Pleiades",
+    "description": "An ancient place, cited: BAtlas 7 B3 Douarnenez",
+    "subtype": "mine",
+    "startYear": -300,
+    "endYear": 500,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "mine:pleiades-167763",
+    "type": "mine",
+    "name": "Fay",
+    "lat": 45.662,
+    "lng": 5.67112,
+    "source": "Pleiades",
+    "description": "An ancient place, cited: BAtlas 17 F2 Fay",
+    "subtype": "mine",
+    "startYear": -300,
+    "endYear": 500,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "mine:pleiades-207031",
+    "type": "mine",
+    "name": "Cib",
+    "lat": 46.05434,
+    "lng": 23.19136,
+    "source": "Pleiades",
+    "description": "An ancient place, cited: BAtlas 21 F3 Cib",
+    "subtype": "mine",
+    "startYear": -300,
+    "endYear": 500,
+    "estimatedTemporal": true,
+    "qid": "Q821236"
   }
 ]

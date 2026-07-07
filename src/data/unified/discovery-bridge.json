@@ -9192,5 +9192,18 @@
     "category": "infrastructure",
     "description": "A Roman bridge located in the Provincia da Coru\u00f1a, Galicia, Spain.",
     "estimatedTemporal": true
+  },
+  {
+    "id": "bridge:pleiades-614851",
+    "type": "bridge",
+    "name": "Tautaendia",
+    "lat": 40.97152,
+    "lng": 30.57353,
+    "source": "Pleiades",
+    "description": "An ancient place, cited: BAtlas 62 unlocated Tautaendia",
+    "subtype": "bridge",
+    "startYear": -200,
+    "endYear": 500,
+    "estimatedTemporal": true
   }
 ]
