@@ -40,19 +40,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:267275",
-    "type": "bridge",
-    "name": "Bridge W of Igabrum",
-    "lat": 37.5,
-    "lng": -4.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 27 A4 unnamed bridge (Campillo Bajo on R. Guadalquivir)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:267276",
     "type": "bridge",
     "name": "Villa del R\u00edo Roman Bridge",
@@ -549,19 +536,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:385060",
-    "type": "bridge",
-    "name": "Bridge S of Licini Forum?",
-    "lat": 45.75,
-    "lng": 9.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 39 E2 unnamed bridge (at Annone Brianza, SW Monte Barro)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:385061",
     "type": "bridge",
     "name": "Roman bridge at Clastidium",
@@ -813,32 +787,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:846358",
-    "type": "bridge",
-    "name": "Bridge S of Ayman Yaylas\u0131",
-    "lat": 40.5,
-    "lng": 31.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 86 B3 unnamed bridge (Prusias ad Hypium)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:846359",
-    "type": "bridge",
-    "name": "Bridge S of Ayman Yaylas\u0131",
-    "lat": 40.5,
-    "lng": 31.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 86 B3 unnamed bridge (on Siberis fl., near *Hieronpotamon)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:846360",
     "type": "bridge",
     "name": "Bridge S of Parthenia",
@@ -943,19 +891,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:629677",
-    "type": "bridge",
-    "name": "Bridge N of Charax?",
-    "lat": 39.75,
-    "lng": 38.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 H1 no. 6 (S Charax?)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:629678",
     "type": "bridge",
     "name": "Bridge N of Sis",
@@ -992,19 +927,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 64 F4 no. 9 (5 miles NW Arca)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:629681",
-    "type": "bridge",
-    "name": "Bridge N of Zizoatra",
-    "lat": 38.25,
-    "lng": 37.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 F4 no. 10 (1.5 miles NE Zizoatra at K\u0131r\u0131kk\u00f6pr\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -1509,19 +1431,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:317858",
-    "type": "bridge",
-    "name": "Bridge (36.25, 8.75)",
-    "lat": 36.25,
-    "lng": 8.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 C4 unnamed bridge (between Sicca Veneria and Ucubi)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:317859",
     "type": "bridge",
     "name": "Bridge at Henchir-Halloufa",
@@ -1532,19 +1441,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 32 D3 unnamed bridge group (near Vicus Augusti? and Teglata?)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:317860",
-    "type": "bridge",
-    "name": "Bridge at Henchir-Halloufa",
-    "lat": 36.75,
-    "lng": 9.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 D3 unnamed bridge (near Vaga)",
     "estimatedTemporal": true
   },
   {
@@ -1654,19 +1550,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:679503",
-    "type": "bridge",
-    "name": "Bridge W of Wingate",
-    "lat": 32.25,
-    "lng": 34.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 A5 unnamed bridge (near Bir el 'Abd)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:679504",
     "type": "bridge",
     "name": "Bridge N of Porphyreon Polis",
@@ -1677,19 +1560,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 69 B2 unnamed bridge (Wadi ez-Zaini, N Sidon)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:679505",
-    "type": "bridge",
-    "name": "Bridge N of Porphyreon Polis",
-    "lat": 33.75,
-    "lng": 35.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 B2 unnamed bridge (Nahr Awali, S Sidon)",
     "estimatedTemporal": true
   },
   {
@@ -1745,19 +1615,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:679510",
-    "type": "bridge",
-    "name": "Bridge W of Brochoi",
-    "lat": 33.75,
-    "lng": 35.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 C2 unnamed bridge (Nahr el-Kelb, SW Palaibyblos)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:679511",
     "type": "bridge",
     "name": "Bridge S of Dennaba",
@@ -1771,45 +1628,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:679512",
-    "type": "bridge",
-    "name": "Bridge S of Dennaba",
-    "lat": 32.75,
-    "lng": 36.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 D4 unnamed bridge (Nahr Jemarrin, N Bostra)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:689317",
-    "type": "bridge",
-    "name": "Bridge W of Wingate",
-    "lat": 32.25,
-    "lng": 34.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 F1 unnamed bridge (Ferekhiyeh, over R. Yarkon, between Ioppe and Neapolis)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:689318",
-    "type": "bridge",
-    "name": "Bridge W of Wingate",
-    "lat": 32.25,
-    "lng": 34.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 F1 unnamed bridge (Jisr es Sudah, over R. Ayalon, between Lydda and Antipatris)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:689319",
     "type": "bridge",
     "name": "Bridge near Aser",
@@ -1820,32 +1638,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 70 F2 unnamed bridge (Jisr Jindas, over R. Ayalon, between Lydda and Antipatris)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:689320",
-    "type": "bridge",
-    "name": "Bridge near Aser",
-    "lat": 31.75,
-    "lng": 34.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 F2 unnamed bridge (Jisr el Rubin, on coast road over R. Soreq, near Iamneia Paralios)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:689321",
-    "type": "bridge",
-    "name": "Bridge near Aser",
-    "lat": 31.75,
-    "lng": 34.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 F2 unnamed bridge (el Jisr, over R. Lakhish, between Ashqelon and Ierusalem)",
     "estimatedTemporal": true
   },
   {
@@ -1925,19 +1717,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 71 B4 unnamed bridge (over Zered fl. (W) at Wadi el-Hesa)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:698382",
-    "type": "bridge",
-    "name": "Bridge near Thornia",
-    "lat": 30.75,
-    "lng": 35.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 71 B4 unnamed bridge (over Zered fl. (E) at Wadi el-Hesa)",
     "estimatedTemporal": true
   },
   {
@@ -2233,19 +2012,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:426590",
-    "type": "bridge",
-    "name": "Bridge at Acquafredda",
-    "lat": 41.875,
-    "lng": 12.375,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 B2 no. 14 (bridge at Mezzocamino)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:426591",
     "type": "bridge",
     "name": "Ponte di Malafede",
@@ -2274,19 +2040,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:426603",
-    "type": "bridge",
-    "name": "Bridge at Muraccio dell\u2019Omo",
-    "lat": 41.875,
-    "lng": 12.625,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 C2 no. 27 (bridge on Via Labicana)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:426607",
     "type": "bridge",
     "name": "Bridge near Grotta del Mortale",
@@ -2310,19 +2063,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 D2 no. 32 (bridges at Tibur (2))",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:426610",
-    "type": "bridge",
-    "name": "Bridge near Grotta del Mortale",
-    "lat": 41.875,
-    "lng": 12.875,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 D2 no. 34 (bridge at S. Stefano)",
     "estimatedTemporal": true
   },
   {
@@ -2421,19 +2161,6 @@
     "category": "infrastructure",
     "description": "A Roman bridge along the Via Appia.",
     "props": { "ancientName": "Ponte di Mele" },
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:426631",
-    "type": "bridge",
-    "name": "Bridge near Cora",
-    "lat": 41.625,
-    "lng": 12.875,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 D3 no. 55 (bridge over Fosso delle Mole)",
     "estimatedTemporal": true
   },
   {
@@ -2600,19 +2327,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:434140",
-    "type": "bridge",
-    "name": "Bridge W of Pagus Meflanus",
-    "lat": 41.25,
-    "lng": 14.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 44 G3 unnamed bridge (Via Traiana bridge over Calor, E Beneventum)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:442727",
     "type": "bridge",
     "name": "Pons Aufidi",
@@ -2696,19 +2410,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:56387635",
-    "type": "bridge",
-    "name": "Puentecillas",
-    "lat": 42.010129198598825,
-    "lng": -4.539550236937216,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A bridge of the sixteenth century that rests on Roman foundations.",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:411767088",
     "type": "bridge",
     "name": "Ponte Gobbo",
@@ -2785,71 +2486,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (SE Eupatoria)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:857764",
-    "type": "bridge",
-    "name": "Bridge at Eupatoria",
-    "lat": 40.5,
-    "lng": 36.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (1 mile S Mirones)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:857765",
-    "type": "bridge",
-    "name": "Bridge at Eupatoria",
-    "lat": 40.5,
-    "lng": 36.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (Talaz K\u00f6pr\u00fcs\u00fc, W Kabeira)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:857766",
-    "type": "bridge",
-    "name": "Bridge at Eupatoria",
-    "lat": 40.5,
-    "lng": 36.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (Kad\u0131k\u00f6pr\u00fcs\u00fc, 2 miles E Gagonda, now under dam lake)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:857767",
-    "type": "bridge",
-    "name": "Bridge at Eupatoria",
-    "lat": 40.5,
-    "lng": 36.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (N Gazioura)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:857768",
-    "type": "bridge",
-    "name": "Bridge at Eupatoria",
-    "lat": 40.5,
-    "lng": 36.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (\u00c7er\u00e7i, 9 miles W Dazimon)",
     "estimatedTemporal": true
   },
   {
@@ -3208,19 +2844,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:659875",
-    "type": "bridge",
-    "name": "Bridge W of Anazarbos",
-    "lat": 37.25,
-    "lng": 35.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 B2 unnamed bridge (S Anazarbos)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:659876",
     "type": "bridge",
     "name": "Bridge at Silpion Oros",
@@ -3231,32 +2854,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 67 C4 unnamed bridge (over Melas fl.)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:659877",
-    "type": "bridge",
-    "name": "Bridge at Silpion Oros",
-    "lat": 36.25,
-    "lng": 36.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 C4 unnamed bridge (at Gephyra)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:659878",
-    "type": "bridge",
-    "name": "Bridge at Silpion Oros",
-    "lat": 36.25,
-    "lng": 36.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 C4 unnamed bridge (at Sinanl\u0131, NE Symeon Mon.)",
     "estimatedTemporal": true
   },
   {
@@ -3283,32 +2880,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 67 F2 unnamed bridge (E Rhabaine near confluence with Euphrates)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:659882",
-    "type": "bridge",
-    "name": "Bridge W of Capersana",
-    "lat": 37.25,
-    "lng": 37.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 F2 unnamed bridge (E Aquae over Marsyas fl.)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:659883",
-    "type": "bridge",
-    "name": "Bridge W of Capersana",
-    "lat": 37.25,
-    "lng": 37.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 F2 unnamed bridge (N Capersana over Marsyas fl.)",
     "estimatedTemporal": true
   },
   {
@@ -3635,19 +3206,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:650061",
-    "type": "bridge",
-    "name": "Bridge W of Mallos",
-    "lat": 36.75,
-    "lng": 35.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 66 G3 unnamed bridge (over Pyramos fl. at Serretillis)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:650062",
     "type": "bridge",
     "name": "Ta\u015fk\u00f6pr\u00fc",
@@ -3962,32 +3520,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:443952",
-    "type": "bridge",
-    "name": "Bridge W of Ad Undecimum",
-    "lat": 41.25,
-    "lng": 15.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 45 C2 unnamed bridge (over R. Carapelle at Ausculum)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:443953",
-    "type": "bridge",
-    "name": "Bridge W of Ad Undecimum",
-    "lat": 41.25,
-    "lng": 15.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 45 C2 unnamed bridge (over R. Carapelle at Herdoniae on Via Traiana)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:443954",
     "type": "bridge",
     "name": "Ponte S. Venere",
@@ -4011,32 +3543,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 45 C4 unnamed bridge (over R. Buco, W Tegianum)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:443956",
-    "type": "bridge",
-    "name": "Bridge W of Madonna del Vetere",
-    "lat": 40.25,
-    "lng": 15.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 45 C4 unnamed bridge (over R. Maglia, near Grumentum)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:443957",
-    "type": "bridge",
-    "name": "Bridge W of Madonna del Vetere",
-    "lat": 40.25,
-    "lng": 15.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 45 C4 unnamed bridge (Ponte Silla, over R. Tanagro, SE Tegianum)",
     "estimatedTemporal": true
   },
   {
@@ -4371,19 +3877,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:610798",
-    "type": "bridge",
-    "name": "Bridge at Kobedyle",
-    "lat": 38.75,
-    "lng": 28.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An unnamed bridge that crosses the Hermos River to the southwest of Thermai Theseos near Hamamlar.",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:610799",
     "type": "bridge",
     "name": "Bridge S of Beycesultan",
@@ -4423,19 +3916,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:610802",
-    "type": "bridge",
-    "name": "Bridge W of Meiros Megale",
-    "lat": 39.25,
-    "lng": 30.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 D3 unnamed bridge (SE Kotiaeion, near A\u011fa\u00e7 K\u00f6y)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:610803",
     "type": "bridge",
     "name": "Bridge at Dorylaion",
@@ -4472,19 +3952,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 62 E4 unnamed bridge (E Prymnessos. at S\u00fcl\u00fcmenli)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:610806",
-    "type": "bridge",
-    "name": "Bridge near S\u00fcl\u00fcmenli",
-    "lat": 38.75,
-    "lng": 30.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 E4 unnamed bridge (N Akroenos, at Alt\u0131g\u00f6z K\u00f6pr\u00fcs\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -4617,19 +4084,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 48 A2 unnamed bridge (Molaria)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:472633",
-    "type": "bridge",
-    "name": "Bridge N of Ponte Ettori",
-    "lat": 40.5,
-    "lng": 8.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 48 A2 unnamed bridge (N Hydata Hypsitana)",
     "estimatedTemporal": true
   },
   {
@@ -5056,71 +4510,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:257462",
-    "type": "bridge",
-    "name": "Bridge N of Los Barruecos",
-    "lat": 39.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (E Tourmogon at El Campillo, over R. Tajo)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257463",
-    "type": "bridge",
-    "name": "Bridge N of Los Barruecos",
-    "lat": 39.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (Ad Sorores (El Garro), over R. Almonte)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257464",
-    "type": "bridge",
-    "name": "Bridge N of Los Barruecos",
-    "lat": 39.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (Caurium (Guijo), over R. Alag\u00f3n)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257465",
-    "type": "bridge",
-    "name": "Bridge N of Los Barruecos",
-    "lat": 39.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (near Raposera de Abajo, over R. Aljuc\u00e9n)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257466",
-    "type": "bridge",
-    "name": "Bridge N of Los Barruecos",
-    "lat": 39.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (E Norba near Trujillo, over R. Tamuja)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:257467",
     "type": "bridge",
     "name": "Bridge N of Los Cuadriales",
@@ -5134,19 +4523,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:257468",
-    "type": "bridge",
-    "name": "Bridge N of Los Cuadriales",
-    "lat": 38.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D3 unnamed bridge (E Seria at El Pont\u00f3n, over Arroyo Brovales)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:257469",
     "type": "bridge",
     "name": "Roman bridge, M\u00e9rida",
@@ -5157,19 +4533,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman bridge (Puente romano) at M\u00e9rida spans the Guadiana River. It is included as part of the UNESCO World Heritage Site \"Archaeological Ensemble of M\u00e9rida\".",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257470",
-    "type": "bridge",
-    "name": "Bridge N of Los Cuadriales",
-    "lat": 38.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D3 unnamed bridge (N Phornakis at Palomas, over R. Palomillas)",
     "estimatedTemporal": true
   },
   {
@@ -5237,19 +4600,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 D5 unnamed bridge (at Ad Portum, over R. Guadalete)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257476",
-    "type": "bridge",
-    "name": "Bridge W of Aphrodisias Ins.",
-    "lat": 36.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D5 unnamed bridge (N Ad Pontem, over R. Suazo)",
     "estimatedTemporal": true
   },
   {
@@ -5329,58 +4679,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 E4 unnamed bridge (near Carmo)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257483",
-    "type": "bridge",
-    "name": "Bridge W of Igabrum",
-    "lat": 37.5,
-    "lng": -4.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 F4 unnamed bridge (at Corduba, over R. Guadalquivir)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257484",
-    "type": "bridge",
-    "name": "Bridge W of Igabrum",
-    "lat": 37.5,
-    "lng": -4.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 F4 unnamed bridge (1.5 miles W Corduba, over Arroyo de Pedroche)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257485",
-    "type": "bridge",
-    "name": "Bridge W of Igabrum",
-    "lat": 37.5,
-    "lng": -4.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 F4 unnamed bridge (NE Ad Aras, over R. Guadalmaz\u00e1n)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:257486",
-    "type": "bridge",
-    "name": "Bridge W of Igabrum",
-    "lat": 37.5,
-    "lng": -4.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 F4 unnamed bridge (S Corduba at Puente Viejo, over R. Guadajoz)",
     "estimatedTemporal": true
   },
   {
@@ -5501,19 +4799,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 52 F3 unnamed bridge (W *Nerola)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:512652",
-    "type": "bridge",
-    "name": "Bridge near Elaia",
-    "lat": 40.75,
-    "lng": 29.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 52 F3 unnamed bridge (SE Nicomedia)",
     "estimatedTemporal": true
   },
   {
@@ -5985,45 +5270,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 51 B2 unnamed bridge (W Gazoros, at Chrysson)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:502833",
-    "type": "bridge",
-    "name": "Bridge N of Kharitomeni",
-    "lat": 41.25,
-    "lng": 23.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 51 B2 unnamed bridge (S Skopia, near Lefkopetra)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:502834",
-    "type": "bridge",
-    "name": "Bridge N of Kharitomeni",
-    "lat": 41.25,
-    "lng": 23.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 51 B2 unnamed bridge (E Gazoros, at Nea Zichni)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:502835",
-    "type": "bridge",
-    "name": "Bridge N of Kharitomeni",
-    "lat": 41.25,
-    "lng": 23.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 51 B2 unnamed bridge (N Domeros, at Angista)",
     "estimatedTemporal": true
   },
   {
@@ -6630,19 +5876,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:169125",
-    "type": "bridge",
-    "name": "Bridge at Le Tourillon",
-    "lat": 45.75,
-    "lng": 4.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 D2 unnamed bridge (E Combeplaine)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:169126",
     "type": "bridge",
     "name": "Bridge at Tournon-sur-Rh\u00f4ne",
@@ -6722,19 +5955,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:169132",
-    "type": "bridge",
-    "name": "Bridge near Boxs(...)",
-    "lat": 44.25,
-    "lng": 5.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 E5 unnamed bridge (NE Noiomagos, at Villeperdrix)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:169133",
     "type": "bridge",
     "name": "Bridge at Pont de Gr\u00e9sin",
@@ -6761,19 +5981,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:169135",
-    "type": "bridge",
-    "name": "Bridge near Etanna",
-    "lat": 45.75,
-    "lng": 5.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 F2 unnamed bridge (Condate)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:169136",
     "type": "bridge",
     "name": "Bridge N of Cularo",
@@ -6787,19 +5994,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:169137",
-    "type": "bridge",
-    "name": "Bridge N of Cularo",
-    "lat": 45.25,
-    "lng": 5.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 F3 unnamed bridge (Fines)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:169138",
     "type": "bridge",
     "name": "Bridge E of Lachau",
@@ -6810,19 +6004,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 17 F5 unnamed bridge (Segustero)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:169139",
-    "type": "bridge",
-    "name": "Bridge E of Lachau",
-    "lat": 44.25,
-    "lng": 5.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 F5 unnamed bridge (S Alabonte, at Ventavon)",
     "estimatedTemporal": true
   },
   {
@@ -6852,19 +6033,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:169142",
-    "type": "bridge",
-    "name": "Bridge near Bramans",
-    "lat": 45.25,
-    "lng": 6.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 H3 unnamed bridge (E Scingomagus)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:169143",
     "type": "bridge",
     "name": "Bridge near Ardon",
@@ -6875,19 +6043,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 17 I1 unnamed bridge (Octodurus)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:169144",
-    "type": "bridge",
-    "name": "Bridge near Ardon",
-    "lat": 46.25,
-    "lng": 7.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 I1 unnamed bridge (SE Octodurus)",
     "estimatedTemporal": true
   },
   {
@@ -6946,19 +6101,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:188753",
-    "type": "bridge",
-    "name": "Bridge near Seeb",
-    "lat": 47.5,
-    "lng": 8.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 19 A2 unnamed bridge (Turicum)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:188754",
     "type": "bridge",
     "name": "Bridge at Ganggelisteg",
@@ -7008,19 +6150,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 19 D3 unnamed bridge (N Bressanone, over Isarcus fl.)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:188758",
-    "type": "bridge",
-    "name": "Bridge at San Pietro sul colle",
-    "lat": 46.5,
-    "lng": 11.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 19 D3 unnamed bridge (Tirol over At(h)esis fl.)",
     "estimatedTemporal": true
   },
   {
@@ -7287,19 +6416,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:913554",
-    "type": "bridge",
-    "name": "Bridge near Khayrabad Bala",
-    "lat": 30.5,
-    "lng": 50.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 93 G3 unnamed bridge (Khayrabad Bala)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:922643",
     "type": "bridge",
     "name": "Firuzabad",
@@ -7366,19 +6482,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:972443",
-    "type": "bridge",
-    "name": "Bridge N of Ismail tepe",
-    "lat": 37.5,
-    "lng": 67.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 99 B2 unnamed bridge (E Tarmita)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:682104977",
     "type": "bridge",
     "name": "Cyclopean Bridge of Agios Ioannis ",
@@ -7416,19 +6519,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 68 B2 unnamed bridge (Derkoush)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:669689",
-    "type": "bridge",
-    "name": "Bridge W of Tell Qarqur",
-    "lat": 35.75,
-    "lng": 36.25,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 68 B2 unnamed bridge (Seleukobelos?)",
     "estimatedTemporal": true
   },
   {
@@ -7511,19 +6601,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:120055",
-    "type": "bridge",
-    "name": "Bridge near K\u00e4fertal",
-    "lat": 49.5,
-    "lng": 8.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 12 B3 unnamed bridge (over Nicer fl., at Heidelberg)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:120056",
     "type": "bridge",
     "name": "Bridge at Wimpfen im Tal",
@@ -7563,19 +6640,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:120059",
-    "type": "bridge",
-    "name": "Bridge near Aislingen",
-    "lat": 48.5,
-    "lng": 10.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 12 D4 unnamed bridge (S Augusta Vindelicum)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:120060",
     "type": "bridge",
     "name": "Bridge N of F\u00fcrholzen",
@@ -7586,45 +6650,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 12 E4 unnamed bridge (in bog W Vicus Scuttarensium)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:120061",
-    "type": "bridge",
-    "name": "Bridge N of F\u00fcrholzen",
-    "lat": 48.5,
-    "lng": 11.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 12 E4 unnamed bridge (over *Ambra fl., at Ambrae)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:120062",
-    "type": "bridge",
-    "name": "Bridge N of F\u00fcrholzen",
-    "lat": 48.5,
-    "lng": 11.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 12 E4 unnamed bridge (over *Ambra fl., SW Ambrae)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:120063",
-    "type": "bridge",
-    "name": "Bridge N of F\u00fcrholzen",
-    "lat": 48.5,
-    "lng": 11.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 12 E4 unnamed bridge (over Danuvius fl., W Venaxamodurum)",
     "estimatedTemporal": true
   },
   {
@@ -7734,19 +6759,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 21 E5 Negotin",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:207627",
-    "type": "bridge",
-    "name": "Bridge at Aljma\u0161",
-    "lat": 45.5,
-    "lng": 18.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 21 A4 unnamed bridge (Mursa)",
     "estimatedTemporal": true
   },
   {
@@ -7880,19 +6892,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:139681",
-    "type": "bridge",
-    "name": "Bridge N of Userca",
-    "lat": 45.5,
-    "lng": 1.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 14 G3 unnamed bridge (W Augustoritum)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:139682",
     "type": "bridge",
     "name": "Bridge near Mercurius",
@@ -7995,19 +6994,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 40 D1 unnamed bridge (at Ad Sanos (near S. Anastasio))",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:394871",
-    "type": "bridge",
-    "name": "Bridge E of Ad Sanos",
-    "lat": 45.75,
-    "lng": 12.75,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 40 D1 unnamed bridge (at Fiumicino, nearer to (H)Eraclia)",
     "estimatedTemporal": true
   },
   {
@@ -8394,19 +7380,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:237830",
-    "type": "bridge",
-    "name": "Bridge near Dactionum",
-    "lat": 42.5,
-    "lng": -7.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 D2 no. 4 (*Forum Gigurrorum, over R. Sil)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:237831",
     "type": "bridge",
     "name": "Bridge S of Castropodame",
@@ -8417,19 +7390,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 24 E2 no. 5 (Ambasmestas, over R. Valcarce)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237832",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 6 (near Uttaris, over Arroyo de Laredo)",
     "estimatedTemporal": true
   },
   {
@@ -8456,84 +7416,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "At modern Toral de los Vados.",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237835",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 9 (Toral de Merayo, over R. Valdueza)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237836",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 10 (Otero, over R. Sil)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237837",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 11 (Interamnium Flavium, over R. Sil)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237838",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 12 (P\u00e1ramo del Sil, over R. Sil)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237839",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 13 (Las Ventas de Albares)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237840",
-    "type": "bridge",
-    "name": "Bridge S of Castropodame",
-    "lat": 42.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E2 no. 14 (Celada, over R. Turienzo)",
     "estimatedTemporal": true
   },
   {
@@ -8626,19 +7508,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 24 E3 no. 22 (Almeida, over R. Bel\u00e9n)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:237849",
-    "type": "bridge",
-    "name": "Bridge W of San Mamede",
-    "lat": 41.5,
-    "lng": -6.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E3 no. 23 (Carbellino, over R. Tormes)",
     "estimatedTemporal": true
   },
   {
@@ -8775,19 +7644,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:903739",
-    "type": "bridge",
-    "name": "Bridge N of Syarazur?",
-    "lat": 35.5,
-    "lng": 46.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 92 B1 no. 3 (Pird-i Kurhan)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:903740",
     "type": "bridge",
     "name": "Bridge near Bisutun",
@@ -8824,19 +7680,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 92 C3 no. 6 (Pol-i Khosro, near Shaymara)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:903743",
-    "type": "bridge",
-    "name": "Bridge S of Khordeh Cheshme",
-    "lat": 33.5,
-    "lng": 47.5,
-    "startYear": -200,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 92 C3 no. 7 (Pol-i Dukhtar, near Kashgar)",
     "estimatedTemporal": true
   },
   {

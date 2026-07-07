@@ -5988,20 +5988,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:960271818",
-    "type": "townhouse",
-    "name": "House of Augustus",
-    "lat": 41.88856651981854,
-    "lng": 12.485344660586339,
-    "startYear": -86,
-    "endYear": 14,
-    "source": "Pleiades",
-    "category": "habitation",
-    "qid": "Q1590891",
-    "description": "The House of Augustus on the Palatine Hill in Rome, ca. 36 BCE.",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:241569287",
     "type": "villa",
     "name": "Saint-Pierre de Vence",
@@ -16059,20 +16045,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:888638004",
-    "type": "townhouse",
-    "name": "House L7-H",
-    "lat": 34.747500431503454,
-    "lng": 40.72712105281508,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "Private house later adapted for use as synagogue phase 1.",
-    "estimatedTemporal": true,
-    "qid": "Q121302025"
-  },
-  {
     "id": "pleiades:888638008",
     "type": "townhouse",
     "name": "House M8-A",
@@ -19676,19 +19648,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:249942",
-    "type": "villa",
-    "name": "Villa W of Orn\u00e9zan",
-    "lat": 43.5,
-    "lng": 0.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 F2 no. 36 (Larresingle)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:249943",
     "type": "villa",
     "name": "Villa at Condom",
@@ -20293,19 +20252,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:249992",
-    "type": "villa",
-    "name": "Villa W of Orn\u00e9zan",
-    "lat": 43.5,
-    "lng": 0.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 F2 no. 86 (Ormeau)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:249993",
     "type": "villa",
     "name": "Villa at Izaux",
@@ -20479,19 +20425,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:250006",
-    "type": "villa",
-    "name": "Villa S of Sant Pere de Tor",
-    "lat": 42.5,
-    "lng": 1.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 G3 no. 100 (Castelminier, Cm. d\u2019Aulus-les-Bains)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:250007",
     "type": "villa",
     "name": "Olivet d\u2019en Pujol",
@@ -20603,19 +20536,6 @@
     "qid": "Q28712382"
   },
   {
-    "id": "pleiades:250015",
-    "type": "villa",
-    "name": "Villa S of El Morrell",
-    "lat": 41.5,
-    "lng": 2.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 H4 no. 109 (Can Bosch de Basea (Terrassa))",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:250016",
     "type": "villa",
     "name": "Villa dels Munts",
@@ -20709,19 +20629,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 E4 no. 117 (Dehesa de Ba\u00f1os)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:250024",
-    "type": "villa",
-    "name": "Villa E of La Corona",
-    "lat": 41.5,
-    "lng": -0.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 E4 no. 118 (Dehesa de Ba\u00f1os (Chiprana))",
     "estimatedTemporal": true
   },
   {
@@ -20841,32 +20748,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 C4 no. 130 (La Dehesa (Cuevas de Soria))",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:250037",
-    "type": "villa",
-    "name": "Villa at El Llano del Guijar",
-    "lat": 41.5,
-    "lng": -2.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 C4 no. 131 (Las Quintanas (R\u00edoseco de Soria))",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:250038",
-    "type": "villa",
-    "name": "Villa at El Llano del Guijar",
-    "lat": 41.5,
-    "lng": -2.5,
-    "startYear": -100,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "habitation",
-    "description": "An ancient place, cited: BAtlas 25 C4 no. 132 (El Quintanar (Bayubas de Abajo))",
     "estimatedTemporal": true
   },
   {
@@ -31859,19 +31740,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "villa:pleiades-144291814",
-    "type": "villa",
-    "name": "Zou",
-    "lat": 35.15918,
-    "lng": 26.1051,
-    "source": "Pleiades",
-    "description": "At Zou are the remains of a palatial building of the Minoan period, built during MM IIIB.",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "villa:pleiades-785990531",
     "type": "villa",
     "name": "Villa di Capitone",
@@ -31951,33 +31819,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "villa:pleiades-79341",
-    "type": "villa",
-    "name": "Box",
-    "lat": 51.41661,
-    "lng": -2.25067,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 8 E3 Box",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q26273172"
-  },
-  {
-    "id": "villa:pleiades-256137",
-    "type": "villa",
-    "name": "C\u00f3s",
-    "lat": 39.51001,
-    "lng": -8.98366,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 26 B2 C\u00f3s",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "villa:pleiades-481983",
     "type": "villa",
     "name": "Scaptopara",
@@ -32003,84 +31844,6 @@
     "endYear": 500,
     "estimatedTemporal": true,
     "qid": "Q1769494"
-  },
-  {
-    "id": "villa:pleiades-140432",
-    "type": "villa",
-    "name": "Villa near Pont-Croix",
-    "lat": 48.03987,
-    "lng": -4.48849,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 A1 no. 1 (Pont-Croix)",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "villa:pleiades-140434",
-    "type": "villa",
-    "name": "Villa near Clis",
-    "lat": 47.5,
-    "lng": -2.5,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 C1 no. 3 (Clis, Cm. Gu\u00e9rande)",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "villa:pleiades-140435",
-    "type": "villa",
-    "name": "Villa near Ch\u00e2telet",
-    "lat": 46.5,
-    "lng": -2.5,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 C2 no. 4 (Ste-Hilaire)",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "villa:pleiades-140462",
-    "type": "villa",
-    "name": "31",
-    "lat": 46.58809,
-    "lng": 3.30777,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 I2 no. 31 (La Perche, Cm. Avermes)",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "villa:pleiades-140463",
-    "type": "villa",
-    "name": "32",
-    "lat": 46.56806,
-    "lng": 3.33442,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 I2 no. 32 (Moulins)",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "villa:pleiades-140464",
-    "type": "villa",
-    "name": "33",
-    "lat": 46.55496,
-    "lng": 3.30441,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 I2 no. 33 (Valli\u00e8res, Cm. Neuvy)",
-    "subtype": "villa",
-    "startYear": -100,
-    "endYear": 500,
-    "estimatedTemporal": true
   },
   {
     "id": "villa:pleiades-408457",

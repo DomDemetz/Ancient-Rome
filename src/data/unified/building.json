@@ -59193,19 +59193,6 @@
     "description": "An ancient place, cited: BAtlas 25 F2 no. 35 (Gl\u00e9sia)"
   },
   {
-    "id": "building:249942",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace W of Orn\u00e9zan",
-    "lat": 43.5,
-    "lng": 0.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 F2 no. 36 (Larresingle)"
-  },
-  {
     "id": "building:249943",
     "type": "building",
     "subtype": "palace",
@@ -59810,19 +59797,6 @@
     "description": "An ancient place, cited: BAtlas 25 F2 no. 85 (Pujo)"
   },
   {
-    "id": "building:249992",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace W of Orn\u00e9zan",
-    "lat": 43.5,
-    "lng": 0.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 F2 no. 86 (Ormeau)"
-  },
-  {
     "id": "building:249993",
     "type": "building",
     "subtype": "palace",
@@ -59955,19 +59929,6 @@
     "description": "An ancient place, cited: BAtlas 25 G2 no. 99 (Le Goutil, Cm. La Bastide-de-S\u00e9rou)"
   },
   {
-    "id": "building:250006",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace S of Sant Pere de Tor",
-    "lat": 42.5,
-    "lng": 1.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 G3 no. 100 (Castelminier, Cm. d\u2019Aulus-les-Bains)"
-  },
-  {
     "id": "building:250008",
     "type": "building",
     "subtype": "palace",
@@ -60033,19 +59994,6 @@
     "description": "An ancient place, cited: BAtlas 25 H4 no. 108 (Can Sentrom\u00e0 (Tiana))"
   },
   {
-    "id": "building:250015",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace S of El Morrell",
-    "lat": 41.5,
-    "lng": 2.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 H4 no. 109 (Can Bosch de Basea (Terrassa))"
-  },
-  {
     "id": "building:250019",
     "type": "building",
     "subtype": "palace",
@@ -60083,19 +60031,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 E4 no. 117 (Dehesa de Ba\u00f1os)"
-  },
-  {
-    "id": "building:250024",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace E of La Corona",
-    "lat": 41.5,
-    "lng": -0.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 E4 no. 118 (Dehesa de Ba\u00f1os (Chiprana))"
   },
   {
     "id": "building:250028",
@@ -60148,32 +60083,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 C4 no. 130 (La Dehesa (Cuevas de Soria))"
-  },
-  {
-    "id": "building:250037",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace at El Llano del Guijar",
-    "lat": 41.5,
-    "lng": -2.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 C4 no. 131 (Las Quintanas (R\u00edoseco de Soria))"
-  },
-  {
-    "id": "building:250038",
-    "type": "building",
-    "subtype": "palace",
-    "name": "Palace at El Llano del Guijar",
-    "lat": 41.5,
-    "lng": -2.5,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 C4 no. 132 (El Quintanar (Bayubas de Abajo))"
   },
   {
     "id": "building:250039",
@@ -65428,19 +65337,6 @@
     "description": "An ancient place, cited: BAtlas 47 C3 Ietas"
   },
   {
-    "id": "building:302890394",
-    "type": "building",
-    "subtype": "theater",
-    "name": "Il Tondo",
-    "lat": 41.8584,
-    "lng": 12.8192,
-    "startYear": 50,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A first-century AD Roman amphitheater located in Latium near Zagorolo, Italy."
-  },
-  {
     "id": "building:423086",
     "type": "building",
     "subtype": "theater",
@@ -70282,17 +70178,6 @@
     "qid": "Q137761641"
   },
   {
-    "id": "pleiades:256850675",
-    "type": "building",
-    "name": "Bouleuterion at Lyttos",
-    "lat": 35.208083,
-    "lng": 25.368333,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure"
-  },
-  {
     "id": "pleiades:790362884",
     "type": "building",
     "name": "Parthian House 139",
@@ -70333,48 +70218,6 @@
     "props": { "ancientName": "House of the Skeleton" }
   },
   {
-    "id": "pleiades:841476129",
-    "type": "building",
-    "name": "Square Peristyle",
-    "lat": 37.97556,
-    "lng": 23.724,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "qid": "Q24204688",
-    "description": "The Square Peristyle is the modern name for a large square peristyle in the northeast corner of the Agora of Athens, begun around 300 BC, but never completed. It may have functioned as a lawcourt in the early Hellenistic period. It was demolished and used to build South Stoa II in the early 2nd century BC. The site was subsequently used for the Stoa of Attalos",
-    "props": { "ancientName": "Square Peristyle" }
-  },
-  {
-    "id": "pleiades:710563473",
-    "type": "building",
-    "name": "South Square",
-    "lat": 37.97433457825199,
-    "lng": 23.723098964380064,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "The South Square is the modern name for an enclosed area at the south end of the Athenian Agora, which was built in the mid-second century BC, incorporating some earlier structures. Parts of it were damaged in the Sullan Sack of 86 BC and demolished.",
-    "props": { "ancientName": "South Square" },
-    "qid": "Q17630697"
-  },
-  {
-    "id": "pleiades:78993694",
-    "type": "building",
-    "name": "Hellenistic Arsenal",
-    "lat": 37.9757877161112,
-    "lng": 23.721707700347785,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "qid": "Q24204689",
-    "description": "The Hellenistic Arsenal is the modern name for a rectangular building on the Kolonos Agoraios in Athens, built in the 270s or 260s BC and destroyed during the Sullan Sack of Athens in 86 BC. It appears to have been modelled on the Naval Arsenal at Piraeus and was probably used for the storage of weapons and armour.",
-    "props": { "ancientName": "Hellenistic Arsenal" }
-  },
-  {
     "id": "pleiades:769637720",
     "type": "building",
     "name": "Building (house?) preceding Synagogue phase 1",
@@ -70398,20 +70241,6 @@
     "category": "infrastructure",
     "qid": "Q118390421",
     "description": "A complex of rooms requisitioned for military record keeping and administration, formerly belonging to the Temple of Artemis Azzanathkona."
-  },
-  {
-    "id": "pleiades:432863",
-    "type": "building",
-    "name": "Gianola",
-    "lat": 41.24934993779045,
-    "lng": 13.668995345262262,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "qid": "Q112044548",
-    "description": "The site of a villa associated with Lucius Vitruvius Mamurra.",
-    "props": { "ancientName": "Villa di Lucio Mamurra" }
   },
   {
     "id": "pleiades:158658817",
@@ -70441,19 +70270,6 @@
     "props": { "ancientName": "Late Roman Round Building" }
   },
   {
-    "id": "pleiades:676120271",
-    "type": "building",
-    "name": "Basilica",
-    "lat": 37.975836,
-    "lng": 23.723868,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A large structure near the northeast corner of the Athenian Agora, built early in the second century AD, which may have been a basilica and perhaps served as a court.",
-    "props": { "ancientName": "Basilica" }
-  },
-  {
     "id": "pleiades:802393070",
     "type": "building",
     "name": "Mirabel Fortress",
@@ -70464,44 +70280,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Crusader fortress, the ruins of which were used to build a 19th-century fortified manor house. They lie over the site of ancient Aphekou Pyrgos in the modern Migdal Tzedek National Park, Israel."
-  },
-  {
-    "id": "pleiades:306693502",
-    "type": "building",
-    "name": "Floga Sculpture Workshop (Paros)",
-    "lat": 37.08166262772368,
-    "lng": 25.151764774437776,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "Located at modern Floga in the town of Paros, this residential structure, dating to the 5th/4th centuries BCE, underwent a number of subsequent modifications and took on the additional role of a sculpture workshop in the Hellenistic period.",
-    "props": { "ancientName": "Floga stin paroikia" }
-  },
-  {
-    "id": "pleiades:332934889",
-    "type": "building",
-    "name": "Monumental Mid-Republican Building Complex",
-    "lat": 41.88706238601543,
-    "lng": 12.719369025396961,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "This monumental complex of buildings at the city of Gabii was likely constructed in the mid-third century BCE as a public area for feasts, bathing, and ritual activities.",
-    "props": { "ancientName": "Monumental Mid-Republican Building Complex" }
-  },
-  {
-    "id": "pleiades:139974470",
-    "type": "building",
-    "name": "Busa delle Vette",
-    "lat": 46.0945267,
-    "lng": 11.8456729,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A hut and some enclosures located in the Dolomites (Veneto, Italy), datable to between the 5th and 11th centuries CE."
   },
   {
     "id": "pleiades:747002130",
@@ -70518,19 +70296,6 @@
     "props": { "ancientName": "Southeast Building" }
   },
   {
-    "id": "pleiades:809893516",
-    "type": "building",
-    "name": "Building B",
-    "lat": 37.97186,
-    "lng": 23.72498,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An apsidal structure on the Acropolis of Athens, built in the late 6th-century BC, destroyed in the Persian Sack of 480 BC, and perhaps repaired in the first half of the 5th century. It was probably located on the site of the northwest wing of the later Propylaia, which would have superseded it in 437 BC.",
-    "qid": "Q124097987"
-  },
-  {
     "id": "pleiades:517288793",
     "type": "building",
     "name": "Building III on the Athenian Acropolis",
@@ -70543,19 +70308,6 @@
     "description": "A building on the north side of the Acropolis of Athens with an attached courtyard, built in the second half of the 5th century BC. It is perhaps to be identified with the house of the Arrhephoroi, but other identifications have been proposed.",
     "props": { "ancientName": "Building III" },
     "qid": "Q2336187"
-  },
-  {
-    "id": "pleiades:344416",
-    "type": "building",
-    "name": "Ksar Chouline",
-    "lat": 33.040173,
-    "lng": 10.431268,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A small modern village now lies at the site of an ancient fortified farm or villa and associated small settlement (name unknown), approximately 13 km northwest of modern Tataouine in Tunisia. Archaeological survey, published in 2023, reports that the significant surface presence of ancient ceramics (3rd - 5th centuries CE) surround the visible ruins of the structure, extending over 150,000 square meters, with highest concentrations immediately around and to the south and east where an ancient cistern has been documented.",
-    "props": { "ancientName": "Ksar Chouline, Gsar Chouline" }
   },
   {
     "id": "pleiades:802040030",
@@ -70596,19 +70348,6 @@
     "description": "A mid-first century CE building located east of the Roman Agora in Athens, of unknown purpose. Early 20th-century scholars incorrectly identified it as the Agoranomeion (office of the market inspectors).",
     "props": { "ancientName": "Arcuated Building" },
     "qid": "Q124097987"
-  },
-  {
-    "id": "pleiades:946255689",
-    "type": "building",
-    "name": "Temple or Large Administrative Building at Sikait",
-    "lat": 24.630380802142692,
-    "lng": 34.79588406688164,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A significant, large structure at Sikait in Egypt's Eastern Desert that has been variously identified as an administrative building and, most recently on basis of finds from the first systematic archaeological excavation of the structure, as a temple.",
-    "qid": "Q9336835"
   },
   {
     "id": "pleiades:635996570",
@@ -70674,20 +70413,6 @@
     "description": "A shrine dedicated to Aglauros, on the east slope of the Acropolis of Athens. The location was identified by an inscription found in situ.",
     "props": { "ancientName": "hier\u00f2n t\u0113s Agla\u00farou" },
     "qid": "Q1595395"
-  },
-  {
-    "id": "pleiades:942647940",
-    "type": "building",
-    "name": "The Theater of Larissa",
-    "lat": 39.64028674350786,
-    "lng": 22.4152581748765,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "qid": "Q5452301",
-    "description": "The theater at Larissa was a large stone theater built around the end of the third century BC and used for dramatic performances and as a political meeting place.",
-    "props": { "ancientName": "The Theater of Larissa" }
   },
   {
     "id": "pleiades:755655444",
@@ -70761,19 +70486,6 @@
     "props": { "ancientName": "Poros Building" }
   },
   {
-    "id": "pleiades:691939634",
-    "type": "building",
-    "name": "Civic Offices",
-    "lat": 37.974750766372594,
-    "lng": 23.72257641139852,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "A set of buildings and a stoa built in the Athenian Agora in the 2nd century AD, to provide space for official business in addition to the Metroon and Tholos.",
-    "props": { "ancientName": "Civic Offices" }
-  },
-  {
     "id": "pleiades:445423968",
     "type": "building",
     "name": "House D1",
@@ -70785,19 +70497,6 @@
     "category": "infrastructure",
     "qid": "Q121301945",
     "description": "A large private house located in Block D1 of Dura-Europos."
-  },
-  {
-    "id": "pleiades:618644371",
-    "type": "building",
-    "name": "Bouleuterion at Dodona",
-    "lat": 39.54673,
-    "lng": 20.789062,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "qid": "Q115768447",
-    "description": "Constructed during the Hellenistic period, this meeting hall served the Epirote league. It was destroyed and rebuilt multiple times before going out of use for this purpose during the early Roman empire."
   },
   {
     "id": "pleiades:398671586",
@@ -70880,20 +70579,6 @@
     "props": { "ancientName": "Bouleuterion in Priene" }
   },
   {
-    "id": "pleiades:97074052",
-    "type": "building",
-    "name": "Divorum",
-    "lat": 41.8960249,
-    "lng": 12.4801258,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "qid": "Q21294341",
-    "description": "A porticus constructed by Domitian in A.D. 80 on the eastern Campus Martius on the site of the Villa Publica, whose northern entry\u2014a triumphal arch\u2014was flanked by two small temples in honor of Titus and Vespasian.",
-    "props": { "ancientName": "Porticus Divorum" }
-  },
-  {
     "id": "pleiades:770861329",
     "type": "building",
     "name": "Aiakeion",
@@ -70947,18 +70632,6 @@
     "description": "Hilltop structure in the Mesara Plain in south-central Crete in use during throughout the Minoan period. Two Tholos tombs are located north of the building."
   },
   {
-    "id": "pleiades:690059595",
-    "type": "building",
-    "name": "Fifth century baths at Lebadeia",
-    "lat": 38.438987,
-    "lng": 22.876824,
-    "startYear": 0,
-    "endYear": 0,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "Foundations of a bath facility with mosaic pavement and other structures were discovered during rescue excavations in 2006 at the corner of Daidalou and Kadmou streets in modern Levadeia, Greece."
-  },
-  {
     "id": "pleiades:20876903",
     "type": "building",
     "name": "Cold Knap Roman Building",
@@ -71008,19 +70681,6 @@
     "source": "Pleiades",
     "description": "A fortress in the vicinity of Til-garimmu fortified by the Assyrian king Sargon II (r. 721-705 BC) against Urar\u1e6du.",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-609998416",
-    "type": "building",
-    "name": "Carnac megaliths",
-    "lat": 47.60449,
-    "lng": -3.03874,
-    "source": "Pleiades",
-    "description": "Carnac (Breton: Karnag) is a site in southern Brittany known for the so-called Carnac stones, a massive complex of Neolithic menhir stones. Inscribed as a UNESCO World Heritage Site in 2025.",
-    "subtype": "monument",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -71129,20 +70789,6 @@
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-148106",
-    "type": "building",
-    "name": "Lanu\u00e9jols",
-    "lat": 44.13053,
-    "lng": 3.38124,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 15 A1 Lanu\u00e9jols",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q119314948"
   },
   {
     "id": "building:pleiades-24547397",
@@ -71272,19 +70918,6 @@
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 87 G2 Zigan(n)e/Siganeon",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-398596831",
-    "type": "building",
-    "name": "Roman baths, Malvindi",
-    "lat": 40.48434,
-    "lng": 17.83252,
-    "source": "Pleiades",
-    "description": "The remains of Roman baths located in the ager of Mesagne.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -71563,19 +71196,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-529911376",
-    "type": "building",
-    "name": "Termas Menores de Mura",
-    "lat": 39.63011,
-    "lng": -0.59348,
-    "source": "Pleiades",
-    "description": "A Roman bath complex, located in the northeast part of the modern town of Liria in Spain's Valencia province.",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-183817903",
     "type": "building",
     "name": "Unnamed Fort",
@@ -71681,19 +71301,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-314883",
-    "type": "building",
-    "name": "Aquae Carpitanae",
-    "lat": 36.8087,
-    "lng": 10.57748,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 32 G3 Aquae Carpitanae",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-842094502",
     "type": "building",
     "name": "Penteskouphia",
@@ -71707,34 +71314,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-671053357",
-    "type": "building",
-    "name": "Beltany",
-    "lat": 54.85051,
-    "lng": -7.60502,
-    "source": "Pleiades",
-    "description": "At Beltany in County Donegal, Ireland, is a Neolithic stone circle monument comprised of 64 menhirs. The monument dates ca. 1400-800 BC.",
-    "subtype": "monument",
-    "qid": "Q816192",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-500136301",
-    "type": "building",
-    "name": "Rochemaure milestone",
-    "lat": 44.5878,
-    "lng": 4.70145,
-    "source": "Pleiades",
-    "description": "A Roman milestone of the second century A.D.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q32333"
-  },
-  {
     "id": "building:pleiades-10236662",
     "type": "building",
     "name": "Ninfeo della Lucchina",
@@ -71742,33 +71321,6 @@
     "lng": 12.3904,
     "source": "Pleiades",
     "description": "A nymphaeum of the third century CE that was identified in 1990 and was likely one component of a larger villa complex in the north-west suburbium of imperial Rome.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-663163576",
-    "type": "building",
-    "name": "Thermes des Lutteurs",
-    "lat": 45.52971,
-    "lng": 4.87051,
-    "source": "Pleiades",
-    "description": "A Gallo-Roman bath complex identified in 1991 at Saint-Romain-en-Galt that originally covered some 8 ha.",
-    "subtype": "bath",
-    "qid": "Q3523853",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-588459219",
-    "type": "building",
-    "name": "Saint-Aun\u00e8s milestone",
-    "lat": 43.63654,
-    "lng": 3.96587,
-    "source": "Pleiades",
-    "description": "A Roman milestone of the Via Aurelia.",
     "subtype": "monument",
     "startYear": -200,
     "endYear": 500,
@@ -71809,33 +71361,6 @@
     "source": "Pleiades",
     "description": "A Roman signal station on Barcombe Hill, overlooking the Stanegate and Vindolanda.",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-727117",
-    "type": "building",
-    "name": "Heliopolis",
-    "lat": 30.1294,
-    "lng": 31.30748,
-    "source": "Pleiades",
-    "description": "Ancient Heliopolis was the capital of the 13th or Heliopolite Nome of Lower Egypt and served as a major religious center. The site is now located in Ayn Shams, a suburb of Cairo.",
-    "subtype": "monument",
-    "qid": "Q191687",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-89361977",
-    "type": "building",
-    "name": "Roman baths at Sagalassos",
-    "lat": 37.67553,
-    "lng": 30.51916,
-    "source": "Pleiades",
-    "description": "The Roman baths at Sagalassos date to the early part of the first century A.D.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -71891,34 +71416,6 @@
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-731287504",
-    "type": "building",
-    "name": "Kermario alignments",
-    "lat": 47.59528,
-    "lng": -3.07448,
-    "source": "Pleiades",
-    "description": "A complex comprised of 1029 megaliths arranged in 10 rows.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q1739286"
-  },
-  {
-    "id": "building:pleiades-242742173",
-    "type": "building",
-    "name": "M\u00e9nec alignments",
-    "lat": 47.59248,
-    "lng": -3.08309,
-    "source": "Pleiades",
-    "description": "A complex comprised of 11 rows of megaliths covering an area of 1,165 x 100 meters.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q2179460"
   },
   {
     "id": "building:pleiades-206736898",
@@ -71989,32 +71486,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-656082517",
-    "type": "building",
-    "name": "K\u016blfara\u1e25",
-    "lat": 31.87149,
-    "lng": 49.9281,
-    "source": "Pleiades",
-    "description": "Place for Neo-elamite rock inscriptions.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-781991437",
-    "type": "building",
-    "name": "Fortified Port Settlement on Cape St. Athanasius",
-    "lat": 42.85536,
-    "lng": 27.89951,
-    "source": "Pleiades",
-    "description": "An ancient settlement with fortifications and port facilities located on the modern Cape St. Athanasius near Byala in Bulgaria. ",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-540739",
     "type": "building",
     "name": "Dorikon",
@@ -72023,19 +71494,6 @@
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 55 C3 Dorikon",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-543727",
-    "type": "building",
-    "name": "Hypereia (spring)",
-    "lat": 39.38432,
-    "lng": 22.74254,
-    "source": "Pleiades",
-    "description": "Strabo locates a Hypereia kr\u0113n\u0113, mentioned in the Iliad's \"Catalog of Ships\", at Pherai in Thessaly (modern Velestino) and geographically criticizes its assignment by Homer to the contingent led by Eurypylos. Without comment, Pliny places \"fons Hyperia\" immediately before \"oppida Pherae\" in a list of places in Thessaly (E. Kirsten in RE accepts this as a reference to the spring at Pherai, but BAtlDir lists it as an \"unlocated spring in Thessaly\"). Archaeological work confirms a perennial spring at Velestino was a locus of settlement activity from the Neolithic period onwards, and a structure monumentalizing the spring was built and modified during the Classical and Hellenistic periods.",
-    "subtype": "monument",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -72695,19 +72153,6 @@
     "qid": "Q3668671"
   },
   {
-    "id": "building:pleiades-851674695",
-    "type": "building",
-    "name": "Roman Bath House, Prestatyn",
-    "lat": 53.32439,
-    "lng": -3.40951,
-    "source": "Pleiades",
-    "description": "At the Prestatyn Roman Site, a bath complex was identified via excavation (1934-7; 1981). The bathhouse measures approximately 11.7 by 4.5 meters.",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-462450",
     "type": "building",
     "name": "Pizzo S. Angelo",
@@ -72716,19 +72161,6 @@
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 47 E3 Pizzo S. Angelo",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-471948",
-    "type": "building",
-    "name": "Hydata Lesitana",
-    "lat": 40.44091,
-    "lng": 9.14849,
-    "source": "Pleiades",
-    "description": "An ancient thermal site with both nuragic and Roman remains. Now the community of Benettuti on the island of Sardinia.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -72802,19 +72234,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-462099",
-    "type": "building",
-    "name": "Aquae Segestanae",
-    "lat": 37.9725,
-    "lng": 12.89168,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 47 B3 Aquae Segestanae",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-462142",
     "type": "building",
     "name": "Castello di Palma di Montechiaro",
@@ -72881,19 +72300,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-786066",
-    "type": "building",
-    "name": "Memnon Colossi",
-    "lat": 25.7205,
-    "lng": 32.61044,
-    "source": "Pleiades",
-    "description": "Two seated, colossal statues of the Pharaoh Amenhotep III at a site on the west bank of the Nile River.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-786073",
     "type": "building",
     "name": "Nakheil",
@@ -72914,19 +72320,6 @@
     "lng": -3.96062,
     "source": "Pleiades",
     "description": "A Roman fort located in and around the modern village of Pumsaint in Wales, it is probably the \"Louentinon\" mentioned by Ptolemy. The Latinate form \"Luentinum\" is common in the literature but is not attested by any ancient source.",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-795787",
-    "type": "building",
-    "name": "Bir Abraq",
-    "lat": 23.41539,
-    "lng": 34.79948,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 81 E2 Bir Abraq",
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
@@ -72993,19 +72386,6 @@
     "source": "Pleiades",
     "description": "Tamion? (modern Cardiff, Wales). A series of Roman forts occupied the same site in Cardiff, located on a river terrace adjacent to the River Taff, and represent continuous occupation from the late 50s AD until the late fourth century.",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-177797261",
-    "type": "building",
-    "name": "Finca del Secretario",
-    "lat": 36.55818,
-    "lng": -4.61251,
-    "source": "Pleiades",
-    "description": "An archaeological site that comprises remains of an urban area of the Roman period ranging in date from the first to the fifth centuries. Among the complexes in evidence are a salting factory, a pottery works, and thermal baths.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -73341,19 +72721,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-855441498",
-    "type": "building",
-    "name": "Thermae Titi (T\u00eftianae)",
-    "lat": 41.89341,
-    "lng": 12.49654,
-    "source": "Pleiades",
-    "description": "Thermae Titi (T\u00eftianae), or Baths of Titus, were public baths built at Rome in 81 CE under the emperor Titus. Located at the foot of the Esquiline Hill, the baths occupy part of the Domus Aurea of Nero. The Baths of Trajan were constructed immediately adjacent to the Baths of Titus in the early second century.",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-748715108",
     "type": "building",
     "name": "Byzantine fortress at Thignica",
@@ -73375,19 +72742,6 @@
     "source": "Pleiades",
     "description": "A Trajanic fort located at Hawara (modern Humayma in southern Jordan).",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-888638046",
-    "type": "building",
-    "name": "Bath C3",
-    "lat": 34.74853,
-    "lng": 40.73314,
-    "source": "Pleiades",
-    "description": "Bath building constructed by Roman soldiers in Block C3.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -74021,20 +73375,6 @@
     "qid": "Q736689"
   },
   {
-    "id": "building:pleiades-55190369",
-    "type": "building",
-    "name": "Chapelle Sainte-Agathe",
-    "lat": 47.72046,
-    "lng": -1.84894,
-    "source": "Pleiades",
-    "description": "The chapelle Sainte-Agathe was originally a Roman-period thermal complex that was converted to a Christian church by the seventh century.",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q2957046"
-  },
-  {
     "id": "building:pleiades-535279842",
     "type": "building",
     "name": "Unnamed Fort",
@@ -74070,19 +73410,6 @@
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 17 B2 (Lo)Volautrum",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-644273898",
-    "type": "building",
-    "name": "Segontium: Roman Bath House",
-    "lat": 53.13653,
-    "lng": -4.26578,
-    "source": "Pleiades",
-    "description": "The Roman Bath House at Segontium.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -74392,32 +73719,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-708232007",
-    "type": "building",
-    "name": "Yoncal\u0131",
-    "lat": 39.1295,
-    "lng": 42.18741,
-    "source": "Pleiades",
-    "description": "Yoncal\u0131 is located near the modern cities of Malazgirt and Bulan\u0131k, at the western end of the Bulan\u0131k-Malazgirt plain. The Assyrian king Tiglat-pileser I placed an inscribed, rock-cut relief here to commemorate his victories in the region.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-636823769",
-    "type": "building",
-    "name": "Capitol Baths",
-    "lat": 35.8539,
-    "lng": 9.20546,
-    "source": "Pleiades",
-    "description": "A bath complex dating to the later second century that were subsequently repurposed as a Christian basilica.",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-246697",
     "type": "building",
     "name": "Torre de los Moros",
@@ -74451,19 +73752,6 @@
     "lng": 9.14178,
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 19 B2 Amden",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-187326",
-    "type": "building",
-    "name": "*Brigobannis",
-    "lat": 47.91951,
-    "lng": 8.48004,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 19 A2 *Brigobannis",
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
@@ -74825,19 +74113,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-925282344",
-    "type": "building",
-    "name": "Tourraque d'Ortolas",
-    "lat": 43.57048,
-    "lng": 0.44452,
-    "source": "Pleiades",
-    "description": "A Gallo-Roman tower.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-922687",
     "type": "building",
     "name": "Nurabad",
@@ -75069,19 +74344,6 @@
     "qid": "Q136929243"
   },
   {
-    "id": "building:pleiades-138347",
-    "type": "building",
-    "name": "*Evaunum",
-    "lat": 46.17659,
-    "lng": 2.48546,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 14 H2 *Evaunum",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-560526963",
     "type": "building",
     "name": "Torre di Pietra Pertusa",
@@ -75090,19 +74352,6 @@
     "source": "Pleiades",
     "description": "A Medieval tower along the Via Flaminia near Prima Porta.",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-527986453",
-    "type": "building",
-    "name": "Sororium Tigillum",
-    "lat": 41.89341,
-    "lng": 12.49654,
-    "source": "Pleiades",
-    "description": "Sororium Tigillum describes a wooden beam that stretched across a branch of the Sacra Via that climbed the Oppian Hill near the Compitum Acilii. The monument was flanked by altars of Iuno Sororia and Iuno Curiatius. It is an ancient monument about which there are many stories, the primary one being a link to the Horatii and Curiatii and Publius Horatius' slaying of his own sister.",
-    "subtype": "monument",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -75566,20 +74815,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-311985510",
-    "type": "building",
-    "name": "Palu",
-    "lat": 38.70224,
-    "lng": 39.9535,
-    "source": "Pleiades",
-    "description": "Fortress with Urartian inscription.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q132134366"
-  },
-  {
     "id": "building:pleiades-439736210",
     "type": "building",
     "name": "Tour Magne",
@@ -75688,33 +74923,6 @@
     "qid": "Q5283397"
   },
   {
-    "id": "building:pleiades-246169",
-    "type": "building",
-    "name": "Caldes de Montbui",
-    "lat": 41.63447,
-    "lng": 2.16156,
-    "source": "Pleiades",
-    "description": "An ancient Roman thermal spa in modern Caldes de Montbui.",
-    "subtype": "bath",
-    "qid": "Q28466499",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-246173",
-    "type": "building",
-    "name": "Aquae Terebellicae",
-    "lat": 43.70922,
-    "lng": -1.05251,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 25 D2 Aquae Terebellicae",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-246198",
     "type": "building",
     "name": "El Atalay\u00f3n",
@@ -75767,19 +74975,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-89171",
-    "type": "building",
-    "name": "Duntocher",
-    "lat": 55.9235,
-    "lng": -4.40993,
-    "source": "Pleiades",
-    "description": "Roman fortlet and fort on the Antonine Wall in West Dunbartonshire, Scotland.",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-89309",
     "type": "building",
     "name": "Velunia(te)",
@@ -75789,19 +74984,6 @@
     "description": "A Roman fort associated with the Antonine Wall at modern day Carriden House. It does not lie on the Wall itself, but rather is 1.3 km to the south east of the Wall's eastern terminus at Bridgeness.",
     "subtype": "fort",
     "qid": "Q81445376",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-902996",
-    "type": "building",
-    "name": "Bagistanus (mountain)",
-    "lat": 34.39046,
-    "lng": 47.43596,
-    "source": "Pleiades",
-    "description": "Mount Behistun is located in the Kermanshah Province of Iran. It is the site of the so-called Behistun Inscription, a multilingual inscription and rock relief established by Darius the Great (r. 522\u2013486 B.C.).",
-    "subtype": "monument",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -76015,19 +75197,6 @@
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 11 I3 Ludwigshafen",
     "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-109135",
-    "type": "building",
-    "name": "Gallo-Roman Settlement at Mamer",
-    "lat": 49.62452,
-    "lng": 6.03698,
-    "source": "Pleiades",
-    "description": "A settlement of the Treveri (ancient name unknown) at modern Mamer in Luxembourg.",
-    "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -76994,33 +76163,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-24892247",
-    "type": "building",
-    "name": "Roman theater (Haidra)",
-    "lat": 35.56651,
-    "lng": 8.45761,
-    "source": "Pleiades",
-    "description": "The remains of a Roman theater located at Haidra, Tunisia.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-346055018",
-    "type": "building",
-    "name": "Porticus Philippi",
-    "lat": 41.89252,
-    "lng": 12.47857,
-    "source": "Pleiades",
-    "description": "A portico that surrounded the Temple of Hercules Musarum in the Campus Martius of ancient Rome. The construction of the portico was the result of the patronage of L. Marcius Philippus, the stepfather of Augustus.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q2155879"
-  },
-  {
     "id": "building:pleiades-354239693",
     "type": "building",
     "name": "So-called Caesareum of Cyrene",
@@ -77033,20 +76175,6 @@
     "endYear": 500,
     "estimatedTemporal": true,
     "qid": "Q104671952"
-  },
-  {
-    "id": "building:pleiades-662332234",
-    "type": "building",
-    "name": "Hellenistic-Roman theater at Sarno",
-    "lat": 40.83245,
-    "lng": 14.59708,
-    "source": "Pleiades",
-    "description": "An ancient theater.",
-    "subtype": "theater",
-    "qid": "Q28001211",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
   },
   {
     "id": "building:pleiades-50492053",
@@ -77071,47 +76199,6 @@
     "source": "Pleiades",
     "description": "The ancient Greek Theater of Aigeira overlooks the Gulf of Corinth. The theater was built ca. 280-250 B.C.E. and enjoys a remarkable state of preservation.",
     "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-728329644",
-    "type": "building",
-    "name": "Library of Hadrian at Athens",
-    "lat": 37.9754,
-    "lng": 23.72648,
-    "source": "Pleiades",
-    "description": "The Library of Hadrian is located on the north side of the Athenian Acropolis, immediately to the north of the Roman Agora. The Roman emperor Hadrian built the complex in A.D. 131/2. It was subsequently destroyed during the Herulian sack of Athens in A.D. 267.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q1524"
-  },
-  {
-    "id": "building:pleiades-177668735",
-    "type": "building",
-    "name": "Theater of Icarion Aegeidas (Attica)",
-    "lat": 38.09562,
-    "lng": 23.90048,
-    "source": "Pleiades",
-    "description": "A small deme theater south of the Agora.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-394168051",
-    "type": "building",
-    "name": "Agora of the Italians",
-    "lat": 37.40175,
-    "lng": 25.26754,
-    "source": "Pleiades",
-    "description": "A Hellenistic and Roman complex on the island of Delos, the so-called \"Agora of the Italians\" was likely built by Roman merchants. Its precise function is debated.",
-    "subtype": "complex",
-    "qid": "Q27663965",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -77144,99 +76231,6 @@
     "qid": "Q1167158"
   },
   {
-    "id": "building:pleiades-589899",
-    "type": "building",
-    "name": "Lato",
-    "lat": 35.17854,
-    "lng": 25.65567,
-    "source": "Pleiades",
-    "description": "Lato was an ancient city of Crete, a Dorian city-state located on Mirabello Bay. The principal ruins date to the fifth and fourth centuries B.C. and the city was destroyed ca. 200 B.C.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-418202453",
-    "type": "building",
-    "name": "Roman theater at Iguvium",
-    "lat": 43.35183,
-    "lng": 12.57255,
-    "source": "Pleiades",
-    "description": "The Roman theater at Iguvium is located within the Guastuglia archaeological area and dates to the late republican period. Sear (2004) notes several important architectural innovations evident in the theater's construction.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-854756317",
-    "type": "building",
-    "name": "Roman theater at Pelusium",
-    "lat": 31.04247,
-    "lng": 32.54618,
-    "source": "Pleiades",
-    "description": "The Roman theater at Pelusium (Tell Farama).",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-433138",
-    "type": "building",
-    "name": "*Supinum",
-    "lat": 41.96748,
-    "lng": 13.53428,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 44 E2 *Supinum",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-610184251",
-    "type": "building",
-    "name": "Theater at Xanthos",
-    "lat": 36.35652,
-    "lng": 29.31828,
-    "source": "Pleiades",
-    "description": "The Greek theater (second century BC) was renovated following a Roman design following the earthquake of A.D. 141.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q464936"
-  },
-  {
-    "id": "building:pleiades-444784601",
-    "type": "building",
-    "name": "Gallo-Roman theater of Mandeure",
-    "lat": 47.44901,
-    "lng": 6.79651,
-    "source": "Pleiades",
-    "description": "The Roman theater of Mandeure dates to the first century CE.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-658246004",
-    "type": "building",
-    "name": "Roman Theater of Minturnae",
-    "lat": 41.24251,
-    "lng": 13.76849,
-    "source": "Pleiades",
-    "description": "A theater constructed in Minturnae under Augustus or Tiberius, and further embellished under Hadrian.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q18170298"
-  },
-  {
     "id": "building:pleiades-37204582",
     "type": "building",
     "name": "Roman theater",
@@ -77245,46 +76239,6 @@
     "source": "Pleiades",
     "description": "The theater at Thugga dates to 168 or 169 and could accommodate 3500 spectators.",
     "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-158203459",
-    "type": "building",
-    "name": "Roman theater at Carthage",
-    "lat": 36.85785,
-    "lng": 10.32952,
-    "source": "Pleiades",
-    "description": "The Roman theater at Carthage was built around the middle of the second century A.D. It was re-discovered in 1904.",
-    "subtype": "theater",
-    "qid": "Q18008299",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-544710174",
-    "type": "building",
-    "name": "Theater at Termessos",
-    "lat": 36.98246,
-    "lng": 30.46495,
-    "source": "Pleiades",
-    "description": "The Theater at Termessos is a Hellenistic and Roman structure, with the Roman theater preserving elements of the earlier phase.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-155566866",
-    "type": "building",
-    "name": "Paedagogium",
-    "lat": 41.88767,
-    "lng": 12.48546,
-    "source": "Pleiades",
-    "description": "The so-called Pedagogium is a building that was part of the Flavian palace complex on the Palatine Hill. It was located below the exedra of the fa\u00e7ade of the Domus Augustana. The Paedagogium is thought to have superseded the late-Republican domus known as the Domus Gelotiana.",
-    "subtype": "complex",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -77303,47 +76257,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-471408012",
-    "type": "building",
-    "name": "Small Roman Theater or Odeon at Sisak",
-    "lat": 45.49042,
-    "lng": 16.37149,
-    "source": "Pleiades",
-    "description": "Documented in media released by the Croatian Ministry of Culture and Media in 2025, remains of a small theater or odeon of Roman date have been identified and consolidated under the early 20th-century city hall of modern Sisak in Croatia (ancient Segestica/Siscia). Existence of a theater at Sisak was previously mooted on the basis of a Latin inscription mentioning a \"magister mimariorum\" (leader of a mime-troop?) discovered in the 19th century in a \"Weingarten\" there, but it is unclear if there was an ancient relationship between this inscription, its original social context, and the newly discovered monument.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-236573248",
-    "type": "building",
-    "name": "Porticus Octaviae",
-    "lat": 41.89252,
-    "lng": 12.47857,
-    "source": "Pleiades",
-    "description": "A porticus in the area of the Circus Flaminius, the Porticus Octaviae was dedicated by Augustus sometime after 27 B.C. in honor of his sister, Octavia Minor. The porticus replaced the Porticus Metelli. It was restored twice after major urban fires in A.D. 80 and 203.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q2155879"
-  },
-  {
-    "id": "building:pleiades-243620947",
-    "type": "building",
-    "name": "Pompeii II.3.7 garden entrance",
-    "lat": 40.75146,
-    "lng": 14.49321,
-    "source": "Pleiades",
-    "description": "Pompeii II, 3, 7 is a garden entrance linked to II, 3, 8 and II, 3,9. II, 3, 8 is identified as a workshop, either the Officina vasaria or caupona of Nicanor. This complex was positioned across the street from the Palaestra.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q3748443"
-  },
-  {
     "id": "building:pleiades-132738979",
     "type": "building",
     "name": "Roman theater of Alba Fucens",
@@ -77356,87 +76269,6 @@
     "endYear": 500,
     "estimatedTemporal": true,
     "qid": "Q108272104"
-  },
-  {
-    "id": "building:pleiades-220487222",
-    "type": "building",
-    "name": "Roman theater at Asculum",
-    "lat": 42.85351,
-    "lng": 13.56859,
-    "source": "Pleiades",
-    "description": "The Roman theater at Asculum was discovered during excavations in 1932. The structure dates to the first century A.D.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-980746932",
-    "type": "building",
-    "name": "Theater at Segobriga",
-    "lat": 39.88631,
-    "lng": -2.81251,
-    "source": "Pleiades",
-    "description": "Construction of the Roman Theater at Segobriga began under Tiberius and was completed during the Flavian period.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-111698661",
-    "type": "building",
-    "name": "Mieza Nymphaion",
-    "lat": 40.63069,
-    "lng": 22.09849,
-    "source": "Pleiades",
-    "description": "The Mieza Nymphaion is a possible site of Aristotle's school, located between Kopanos and Naousa, Imathia, Macedonia, Greece.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-319990513",
-    "type": "building",
-    "name": "Theater at Saepinum",
-    "lat": 41.43451,
-    "lng": 14.61768,
-    "source": "Pleiades",
-    "description": "The intramural theater at Saepinum is one of the best preserved structures at the site. Located in the northern part of the walled area, it is likely built between 2. B.C. and A.D. 4.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q1807870"
-  },
-  {
-    "id": "building:pleiades-719522410",
-    "type": "building",
-    "name": "Roman theater at Tusculum",
-    "lat": 41.79833,
-    "lng": 12.71053,
-    "source": "Pleiades",
-    "description": "The Roman theater at Tusculum was first excavated in 1839.",
-    "subtype": "theater",
-    "qid": "Q56477142",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-745799804",
-    "type": "building",
-    "name": "Theater at Madauros",
-    "lat": 36.0779,
-    "lng": 7.90147,
-    "source": "Pleiades",
-    "description": "The Roman theater at Madauros in Africa Proconsularis.",
-    "subtype": "theater",
-    "qid": "Q62050969",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
   },
   {
     "id": "building:pleiades-481346137",
@@ -77467,116 +76299,6 @@
     "qid": "Q112210724"
   },
   {
-    "id": "building:pleiades-285468794",
-    "type": "building",
-    "name": "Roman theater at Castrum Novum",
-    "lat": 42.03748,
-    "lng": 11.8331,
-    "source": "Pleiades",
-    "description": "The Roman theater at Castrum Novum (Santa Marinella, Italy).",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-720198157",
-    "type": "building",
-    "name": "Prytanikon at Athens",
-    "lat": 37.97474,
-    "lng": 23.7225,
-    "source": "Pleiades",
-    "description": "The Prytanikon was the seat of the Prytaneis and was located on the west side of the Agora in proximity to the Old Bouleuterion, with which it formed an architectural unit. This structure was supplanted by the later Tholos and its remains are referred to as \"Building F\". It dates to the later period of the Peisistratids, ca. 550-525 B.C.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-888638002",
-    "type": "building",
-    "name": "Roman Military Palace",
-    "lat": 34.75156,
-    "lng": 40.72948,
-    "source": "Pleiades",
-    "description": "Palace building located at the northeast within the military sector at Dura-Europos.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q2047390"
-  },
-  {
-    "id": "building:pleiades-432599299",
-    "type": "building",
-    "name": "Caseggiato di Bacco e Arianna",
-    "lat": 41.75348,
-    "lng": 12.28379,
-    "source": "Pleiades",
-    "description": "The House of Bacchus and Ariadne at Ostia dates to the Hadrianic period and adjoined the Serapeum.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q106813831"
-  },
-  {
-    "id": "building:pleiades-716466643",
-    "type": "building",
-    "name": "Roman theater at Lepcis Magna",
-    "lat": 32.63836,
-    "lng": 14.29052,
-    "source": "Pleiades",
-    "description": "The Roman theater at Lepcis Magna was financed in the first century by Annobal Tapapius Rufus.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q82074135"
-  },
-  {
-    "id": "building:pleiades-167034775",
-    "type": "building",
-    "name": "Insula Volusiana",
-    "lat": 41.89024,
-    "lng": 12.48147,
-    "source": "Pleiades",
-    "description": "The Insula Volusiana in the Forum Boarium is an archaeological site with evidence for multiphase occupation, including craftworking evidence from the fifth and sixth centuries CE.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q111383738"
-  },
-  {
-    "id": "building:pleiades-980900398",
-    "type": "building",
-    "name": "Comitium of Pompeii",
-    "lat": 40.74906,
-    "lng": 14.48548,
-    "source": "Pleiades",
-    "description": "The complex referred to as the Comitium of Pompeii is located in the southeast corner of the square of the Forum and was built during the second century BC.",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q3748443"
-  },
-  {
-    "id": "building:pleiades-937547558",
-    "type": "building",
-    "name": "Greek theater of Tyndaris",
-    "lat": 38.14346,
-    "lng": 15.04239,
-    "source": "Pleiades",
-    "description": "The Greek theater of Tyndaris dates originally to the fourth century B.C.",
-    "subtype": "theater",
-    "qid": "Q3826959",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-135066932",
     "type": "building",
     "name": "Old Palace at Assur",
@@ -77591,19 +76313,6 @@
     "qid": "Q200200"
   },
   {
-    "id": "building:pleiades-115158475",
-    "type": "building",
-    "name": "Roman theater at Aizanoi",
-    "lat": 39.20696,
-    "lng": 29.61246,
-    "source": "Pleiades",
-    "description": "The Roman theater at Aizanoi is part of a theater-stadium complex. The complex is built after A.D. 160 with the patronage of one M. Apuleius Eurycles.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-324666667",
     "type": "building",
     "name": "Roman theater of Fioccaglia",
@@ -77612,32 +76321,6 @@
     "source": "Pleiades",
     "description": "Crop marks, confirmed by a magnetometer survey reported in 2026, demonstrate the location and footprint of a monumental theater at the archaeological site of Fioccaglia di Fumeri.",
     "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-891801761",
-    "type": "building",
-    "name": "Agora at Malia",
-    "lat": 35.29389,
-    "lng": 25.49254,
-    "source": "Pleiades",
-    "description": "The so-called \"agora\" is a large open courtyard to the northwest of the Middle Minoan palace at Malia.",
-    "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-182931393",
-    "type": "building",
-    "name": "Gladiators' barracks",
-    "lat": 40.75284,
-    "lng": 14.48846,
-    "source": "Pleiades",
-    "description": "A training ground for gladiators in Pompeii noted for the more than 100 inscriptions connected to gladiating. (V, 5, 3)",
-    "subtype": "complex",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -77664,33 +76347,6 @@
     "source": "Pleiades",
     "description": "The so-called \"Barco Borghese\" is an archaeological site located in Monte Porzio Catone (Roma) in Italy. This multiperiod site began as a Roman terracing or substructure, perhaps originally meant to support a villa (basis villae). Subsequent modification and reuse converted the Roman structure into a \"barco\", an enclosure for animal hunts.",
     "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-649857187",
-    "type": "building",
-    "name": "So-called Roman Gymnasium at Syracuse",
-    "lat": 37.06737,
-    "lng": 15.28055,
-    "source": "Pleiades",
-    "description": "A monumental complex in the ancient city of Syracuse, probably built around the first century AD. It was initially identified as a gymnasium or a thermal bath; it includes the ruins of a theatre, a quadriporticus, and a temple. ",
-    "subtype": "complex",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q17631557"
-  },
-  {
-    "id": "building:pleiades-209287973",
-    "type": "building",
-    "name": "Mieza theater",
-    "lat": 40.64416,
-    "lng": 22.12251,
-    "source": "Pleiades",
-    "description": "The theater at Mieza dates from the second century BCE.",
-    "subtype": "theater",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true

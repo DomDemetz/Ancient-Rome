@@ -2343,19 +2343,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:374483",
-    "type": "aqueduct",
-    "name": "Aqueduct N of Bersis",
-    "lat": 32.5,
-    "lng": 20.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 38 B1 unnamed aqueduct (Hadrianopolis)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:374484",
     "type": "aqueduct",
     "name": "Aqueduct near Semeros",
@@ -2473,19 +2460,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:384305",
-    "type": "aqueduct",
-    "name": "Aqueduct W of Ponte sul torrente Scrivia",
-    "lat": 44.75,
-    "lng": 8.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 39 D4 unnamed aqueduct (Libarna)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:384306",
     "type": "aqueduct",
     "name": "Aqueduct E of Marone",
@@ -2496,19 +2470,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 39 G2 unnamed aqueduct (Brixia (Mompiano))",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:384307",
-    "type": "aqueduct",
-    "name": "Aqueduct E of Marone",
-    "lat": 45.75,
-    "lng": 10.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 39 G2 unnamed aqueduct (Brixia (Villa Carcina and Val Trompia))",
     "estimatedTemporal": true
   },
   {
@@ -2626,19 +2587,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A large aqueduct that supplied the city of Mytilene from the west. Some parts of it are preserved.",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:551158",
-    "type": "aqueduct",
-    "name": "Aqueduct N of *Oroanna",
-    "lat": 38.25,
-    "lng": 27.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 56 E5 unnamed aqueduct group (Smyrna)",
     "estimatedTemporal": true
   },
   {
@@ -3040,45 +2988,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:315595",
-    "type": "aqueduct",
-    "name": "Aqueduct at Bir-Merouane",
-    "lat": 36.25,
-    "lng": 9.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 D4 unnamed aqueduct (from Ain Moungas)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:315596",
-    "type": "aqueduct",
-    "name": "Aqueduct at Bir-Merouane",
-    "lat": 36.25,
-    "lng": 9.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 D4 unnamed aqueduct (N Ain-Golea)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:315597",
-    "type": "aqueduct",
-    "name": "Aqueduct at Bir-Merouane",
-    "lat": 36.25,
-    "lng": 9.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 D4 unnamed aqueduct (SW Agbia, near Douar el Kseiba)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:315598",
     "type": "aqueduct",
     "name": "Unnamed aqueducts",
@@ -3115,19 +3024,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 32 E3 unnamed aqueduct (near Fundus Aufidianus)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:315601",
-    "type": "aqueduct",
-    "name": "Aqueduct at Henchir-R'mel",
-    "lat": 36.75,
-    "lng": 9.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 E3 unnamed aqueduct (near Henchir-Sidi-Abd-el-Basset)",
     "estimatedTemporal": true
   },
   {
@@ -3249,19 +3145,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:678748",
-    "type": "aqueduct",
-    "name": "Aqueduct W of Atlit Yam",
-    "lat": 32.75,
-    "lng": 34.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 A4 unnamed aqueduct (Caesarea)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:678749",
     "type": "aqueduct",
     "name": "Aqueduct at Na\u1e25al Yardinon",
@@ -3288,45 +3171,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:678751",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u1e24i\u1e6d\u1e6d\u012bn",
-    "lat": 32.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 B4 unnamed aqueduct (Ake)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:678752",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u1e24i\u1e6d\u1e6d\u012bn",
-    "lat": 32.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 B4 unnamed aqueduct (Kefar Hanania)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:678753",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u1e24i\u1e6d\u1e6d\u012bn",
-    "lat": 32.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 B4 unnamed aqueduct (Sepphoris)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:678754",
     "type": "aqueduct",
     "name": "Unnamed aqueduct (at Gaba Philippi)",
@@ -3337,19 +3181,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 69 B4 unnamed aqueduct (Gaba Philippi)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:678755",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u1e24i\u1e6d\u1e6d\u012bn",
-    "lat": 32.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 B4 unnamed aqueduct (Legio)",
     "estimatedTemporal": true
   },
   {
@@ -3405,58 +3236,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:678760",
-    "type": "aqueduct",
-    "name": "Aqueduct near Apheka",
-    "lat": 32.75,
-    "lng": 35.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 C4 unnamed aqueduct (Gamala)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:678761",
-    "type": "aqueduct",
-    "name": "Aqueduct near Apheka",
-    "lat": 32.75,
-    "lng": 35.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 C4 unnamed aqueduct (Chorsia)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:678762",
-    "type": "aqueduct",
-    "name": "Aqueduct near Apheka",
-    "lat": 32.75,
-    "lng": 35.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 C4 unnamed aqueduct group (Hippos)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:678763",
-    "type": "aqueduct",
-    "name": "Aqueduct near Apheka",
-    "lat": 32.75,
-    "lng": 35.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 69 C4 unnamed aqueduct (Tiberias)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:678765",
     "type": "aqueduct",
     "name": "Aqueduct N of Tell Qasr Labwe",
@@ -3483,19 +3262,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:688563",
-    "type": "aqueduct",
-    "name": "Aqueduct near Aser",
-    "lat": 31.75,
-    "lng": 34.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 F2 unnamed aqueduct (Emmaus)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:688564",
     "type": "aqueduct",
     "name": "Unnamed aqueduct (at Phasaelis)",
@@ -3519,97 +3285,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Archelais)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688566",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Hierichous area)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688567",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Na'aran)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688568",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Kypros)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688569",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Ierusalem)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688570",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Herodeion)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688571",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Qumran)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:688572",
-    "type": "aqueduct",
-    "name": "Aqueduct near Bethania",
-    "lat": 31.75,
-    "lng": 35.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Kastellion)",
     "estimatedTemporal": true
   },
   {
@@ -4507,19 +4182,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:659118",
-    "type": "aqueduct",
-    "name": "Aqueduct W of Anazarbos",
-    "lat": 37.25,
-    "lng": 35.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 B2 unnamed aqueduct (NW Anazarbos)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:659119",
     "type": "aqueduct",
     "name": "Aqueduct near Aigaiai",
@@ -4530,19 +4192,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 67 B3 unnamed aqueduct (N Mopsou(h)estia)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:659120",
-    "type": "aqueduct",
-    "name": "Aqueduct near Aigaiai",
-    "lat": 36.75,
-    "lng": 35.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 B3 unnamed aqueduct (Katabolos)",
     "estimatedTemporal": true
   },
   {
@@ -4569,19 +4218,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 67 C3 unnamed aqueduct (E Epiphaneia)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:659123",
-    "type": "aqueduct",
-    "name": "Aqueduct at Baiae",
-    "lat": 36.75,
-    "lng": 36.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 C3 unnamed aqueduct (W Epiphaneia)",
     "estimatedTemporal": true
   },
   {
@@ -4647,19 +4283,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 47 G3 unnamed aqueduct (Katane)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:462820",
-    "type": "aqueduct",
-    "name": "Aqueduct E of Nunziata",
-    "lat": 37.75,
-    "lng": 15.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 47 G3 unnamed aqueduct (Tauromenium)",
     "estimatedTemporal": true
   },
   {
@@ -5009,58 +4632,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:600231",
-    "type": "aqueduct",
-    "name": "Aqueduct N of *Oroanna",
-    "lat": 38.25,
-    "lng": 27.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 61 E1 unnamed aqueduct (S from *Boneita to Ephesus)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:600232",
-    "type": "aqueduct",
-    "name": "Aqueduct near Anaia",
-    "lat": 37.75,
-    "lng": 27.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 61 E2 unnamed aqueduct (near Selinous fl.)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:600233",
-    "type": "aqueduct",
-    "name": "Aqueduct near Anaia",
-    "lat": 37.75,
-    "lng": 27.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 61 E2 unnamed aqueduct (at Miletus)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:600234",
-    "type": "aqueduct",
-    "name": "Aqueduct near Anaia",
-    "lat": 37.75,
-    "lng": 27.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 61 E2 unnamed aqueduct (at Priene)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:600235",
     "type": "aqueduct",
     "name": "Aqueduct S of Horomedon Mons",
@@ -5074,19 +4645,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:600236",
-    "type": "aqueduct",
-    "name": "Aqueduct S of Horomedon Mons",
-    "lat": 36.75,
-    "lng": 27.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 61 E4 unnamed aqueduct (N Pele on Kos)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:600237",
     "type": "aqueduct",
     "name": "Aqueduct S of Tralles",
@@ -5097,19 +4655,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 61 F2 unnamed aqueduct (at Tralles)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:600238",
-    "type": "aqueduct",
-    "name": "Aqueduct S of Tralles",
-    "lat": 37.75,
-    "lng": 27.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 61 F2 unnamed aqueduct (at Tralles) (1)",
     "estimatedTemporal": true
   },
   {
@@ -5299,32 +4844,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:580599",
-    "type": "aqueduct",
-    "name": "Aqueduct at Plotheia",
-    "lat": 38.125,
-    "lng": 23.875,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 59 C2 unnamed aqueduct (Athens from N)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:580600",
-    "type": "aqueduct",
-    "name": "Aqueduct at Plotheia",
-    "lat": 38.125,
-    "lng": 23.875,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 59 C2 unnamed aqueduct (Athens from NE)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:580601",
     "type": "aqueduct",
     "name": "Aqueduct at Lamptrai Kathyperthen",
@@ -5416,32 +4935,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 D3 unnamed aqueduct (Cornalvo to Emerita Augusta)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:256706",
-    "type": "aqueduct",
-    "name": "Aqueduct N of Los Cuadriales",
-    "lat": 38.5,
-    "lng": -6.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D3 unnamed aqueduct (at La Torre de Miguel Sesmero)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:256707",
-    "type": "aqueduct",
-    "name": "Aqueduct N of Los Cuadriales",
-    "lat": 38.5,
-    "lng": -6.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D3 unnamed aqueduct (at Lob\u00f3n)",
     "estimatedTemporal": true
   },
   {
@@ -5937,19 +5430,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:502078",
-    "type": "aqueduct",
-    "name": "Aqueduct N of Hadrianopolis",
-    "lat": 41.25,
-    "lng": 24.25,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 51 C2 unnamed aqueduct (NW Tripolis, at Xiropotamos)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:798954739",
     "type": "aqueduct",
     "name": "Oued Cherchira Roman Bridge",
@@ -6122,19 +5602,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:168368",
-    "type": "aqueduct",
-    "name": "Unnamed aqueducts",
-    "lat": 45.75,
-    "lng": 4.75,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "unnamed aqueduct group (Col. Vienna)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:168369",
     "type": "aqueduct",
     "name": "Aqueduct at Pont romain",
@@ -6200,58 +5667,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:197812",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u2018Silvo\u2019",
-    "lat": 45.5,
-    "lng": 13.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 A4 unnamed aqueduct (between Capris and Piranum)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:197813",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u2018Silvo\u2019",
-    "lat": 45.5,
-    "lng": 13.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 A4 unnamed aqueduct (S Parentium at Molindrio)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:197814",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u2018Silvo\u2019",
-    "lat": 45.5,
-    "lng": 13.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 A4 unnamed aqueduct (\u2018Silvo\u2019)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:197815",
-    "type": "aqueduct",
-    "name": "Aqueduct at \u2018Silvo\u2019",
-    "lat": 45.5,
-    "lng": 13.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 A4 unnamed aqueduct (Tergeste)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:197816",
     "type": "aqueduct",
     "name": "Aqueduct S of Gracarca",
@@ -6291,19 +5706,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:197819",
-    "type": "aqueduct",
-    "name": "Aqueduct S of Apsarus",
-    "lat": 44.5,
-    "lng": 14.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 B5 unnamed aqueduct (W Cissa)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:197820",
     "type": "aqueduct",
     "name": "Aqueduct near Fala",
@@ -6340,32 +5742,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 20 C5 unnamed aqueduct (Aenona)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:197823",
-    "type": "aqueduct",
-    "name": "Aqueduct near Ancus",
-    "lat": 44.5,
-    "lng": 15.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 C5 unnamed aqueduct (Asseria)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:197824",
-    "type": "aqueduct",
-    "name": "Aqueduct near Ancus",
-    "lat": 44.5,
-    "lng": 15.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 C5 unnamed aqueduct (Iader)",
     "estimatedTemporal": true
   },
   {
@@ -6620,19 +5996,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:138925",
-    "type": "aqueduct",
-    "name": "Aqueduct N of *Paternacum",
-    "lat": 47.5,
-    "lng": 0.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 14 F1 unnamed aqueduct (E Caesarodunum)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:138926",
     "type": "aqueduct",
     "name": "Aqueduct N of Soings-en-Sologne",
@@ -6695,32 +6058,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 14 H2 unnamed aqueduct (*Evaunum)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:138931",
-    "type": "aqueduct",
-    "name": "Aqueduct E of Culan",
-    "lat": 46.5,
-    "lng": 2.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 14 H2 unnamed aqueduct (Aqueduc des Combes, SW Aquae Neri)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:138932",
-    "type": "aqueduct",
-    "name": "Aqueduct E of Culan",
-    "lat": 46.5,
-    "lng": 2.5,
-    "startYear": -300,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 14 H2 unnamed aqueduct (Aqueduc des Viviers, SE Aquae Neri)",
     "estimatedTemporal": true
   },
   {

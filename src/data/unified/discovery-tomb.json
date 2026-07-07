@@ -840,19 +840,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:553418",
-    "type": "tumulus",
-    "name": "Tumulus S of Aigai",
-    "lat": 38.75,
-    "lng": 27.25,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 56 E4 unnamed tumulus (cluster W *Panda)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:553419",
     "type": "tumulus",
     "name": "Tumulus E of *Karena",
@@ -879,45 +866,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:553421",
-    "type": "tumulus",
-    "name": "Tumulus near Tyanollos",
-    "lat": 38.75,
-    "lng": 27.75,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 56 F4 unnamed tumulus (cluster ESE Thyateira)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:553422",
-    "type": "tumulus",
-    "name": "Tumulus near Tyanollos",
-    "lat": 38.75,
-    "lng": 27.75,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 56 F4 unnamed tumulus (3 around Gygaia L.)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:553423",
-    "type": "tumulus",
-    "name": "Tumulus near Tyanollos",
-    "lat": 38.75,
-    "lng": 27.75,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 56 F4 unnamed tumulus (6 clusters in Korou Pedion)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:553424",
     "type": "tumulus",
     "name": "Tumulus N of *Selinda",
@@ -941,19 +889,6 @@
     "source": "Pleiades",
     "category": "funerary",
     "description": "An ancient place, cited: BAtlas 56 G4 unnamed tumulus (cluster SW *Odon)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:553426",
-    "type": "tumulus",
-    "name": "Tumulus N of Daldis (*Phlabiokaisareia)",
-    "lat": 38.75,
-    "lng": 28.25,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 56 G4 unnamed tumulus (4 clusters in Sardianon Pedion/Katakekaumene)",
     "estimatedTemporal": true
   },
   {
@@ -1774,19 +1709,6 @@
     "qid": "Q139718909",
     "description": "An early imperial columbarium tomb on the Via Appia.",
     "props": { "ancientName": "colombario dei liberti di Augusto" },
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:861485761",
-    "type": "tomb",
-    "name": "Tomba del Timpano",
-    "lat": 37.3830326,
-    "lng": 14.6652855,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "A rock-cut tomb of the sixth and fifth centuries B.C.",
     "estimatedTemporal": true
   },
   {
@@ -5687,19 +5609,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "pleiades:601738",
-    "type": "cemetery",
-    "name": "Cemetery N of Sounion Pr.",
-    "lat": 37.25,
-    "lng": 25.25,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 61 A3 unnamed cemetery (near Oikonomos, on Paros)",
-    "estimatedTemporal": true
-  },
-  {
     "id": "pleiades:601739",
     "type": "cemetery",
     "name": "Cemetery at Panaghia Koimisis",
@@ -5723,19 +5632,6 @@
     "source": "Pleiades",
     "category": "funerary",
     "description": "An ancient place, cited: BAtlas 61 E4 unnamed cemetery (NW Kos)",
-    "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:601741",
-    "type": "cemetery",
-    "name": "Cemetery S of Horomedon Mons",
-    "lat": 36.75,
-    "lng": 27.25,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "An ancient place, cited: BAtlas 61 E4 unnamed cemetery (cluster W Kos)",
     "estimatedTemporal": true
   },
   {
@@ -12567,20 +12463,6 @@
     "qid": "Q65166680",
     "description": "A small catacomb on two levels was discovered excavated in the tuff bedrock in 1953-1954 near the tract of the modern Via Prenestina in the Via Rovigno d'Istria.",
     "estimatedTemporal": true
-  },
-  {
-    "id": "pleiades:499652704",
-    "type": "cemetery",
-    "name": "Via Taranto columbaria",
-    "lat": 41.8825118,
-    "lng": 12.5225399,
-    "startYear": -600,
-    "endYear": 500,
-    "source": "Pleiades",
-    "category": "funerary",
-    "description": "Two early imperial columbaria were discovered in 1932 along the Via Taranto.",
-    "estimatedTemporal": true,
-    "qid": "Q3801614"
   },
   {
     "id": "pleiades:937740414",
