@@ -19,6 +19,7 @@ export interface UnifiedEntity {
   startYear?: number
   endYear?: number
   source: string
+  description?: string
   props?: Record<string, unknown>
 }
 
