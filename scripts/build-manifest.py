@@ -28,6 +28,9 @@ CATALOG = {
     "registry/crosswalk-dare.json": ("derived join", "inherits sources", "build-time", "build-place-crosswalks.py"),
     "registry/crosswalk-vici.json": ("vici pmetadata (native)", "CC-BY-SA 3.0", "dump 2023-10-08", "build-vici-crosswalk.py"),
     "registry/crosswalk-battles.json": ("Wikidata SPARQL", "CC0", "fetched 2026-07-06", "build-battle-crosswalk.py"),
+    "registry/crosswalk-orbis.json": ("derived join", "inherits sources", "build-time", "integrate-orbis-nodes.py"),
+    "trade/orbis-temporal.json": ("ORBIS v2 (Stanford), place-node joined", "MIT", "orbis_v2 + join 2026-07-07", "ingest-orbis.ts + integrate-orbis-nodes.py"),
+    "trade/orbis.json": ("ORBIS v2 (Stanford), place-node joined", "MIT", "orbis_v2 + join 2026-07-07", "ingest-orbis.ts + integrate-orbis-nodes.py"),
 }
 
 manifest = {"generated": None, "note": "regenerate via scripts/build-manifest.py (build-data step)", "artifacts": []}
@@ -38,7 +41,12 @@ for rel, (src, lic, ver, script) in sorted(CATALOG.items()):
     raw = open(p, "rb").read()
     try:
         data = json.loads(raw)
-        count = len(data["features"]) if isinstance(data, dict) and "features" in data else len(data)
+        if isinstance(data, dict) and "features" in data:
+            count = len(data["features"])
+        elif isinstance(data, dict) and "sites" in data and "routes" in data:
+            count = len(data["sites"]) + len(data["routes"])
+        else:
+            count = len(data)
     except Exception:
         count = None
     manifest["artifacts"].append({

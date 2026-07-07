@@ -75,8 +75,8 @@
   {
    "file": "src/data/places/places.json",
    "records": 28503,
-   "bytes": 5844023,
-   "sha256_12": "7383353ea5a2",
+   "bytes": 5867817,
+   "sha256_12": "dd0c4b0c2577",
    "source": "DARE + Chandler/Reba + Pleiades + Wikidata + Vici (merged)",
    "license": "CC-BY / CC-BY-SA / CC0 mix — see DATA-SOURCES.md",
    "version": "built from sources below",
@@ -111,6 +111,16 @@
    "license": "inherits sources",
    "version": "build-time",
    "producer": "scripts/build-place-crosswalks.py"
+  },
+  {
+   "file": "src/data/registry/crosswalk-orbis.json",
+   "records": 567,
+   "bytes": 33576,
+   "sha256_12": "45d31031baf1",
+   "source": "derived join",
+   "license": "inherits sources",
+   "version": "build-time",
+   "producer": "scripts/integrate-orbis-nodes.py"
   },
   {
    "file": "src/data/registry/crosswalk-vici.json",
@@ -151,6 +161,26 @@
    "license": "CC-BY 4.0",
    "version": "v0.2.0 (2026-05)",
    "producer": "scripts/build-territories-cliopatria.py"
+  },
+  {
+   "file": "src/data/trade/orbis-temporal.json",
+   "records": 1682,
+   "bytes": 645616,
+   "sha256_12": "20da11281545",
+   "source": "ORBIS v2 (Stanford), place-node joined",
+   "license": "MIT",
+   "version": "orbis_v2 + join 2026-07-07",
+   "producer": "scripts/ingest-orbis.ts + integrate-orbis-nodes.py"
+  },
+  {
+   "file": "src/data/trade/orbis.json",
+   "records": 1682,
+   "bytes": 580227,
+   "sha256_12": "c518a8d5ea36",
+   "source": "ORBIS v2 (Stanford), place-node joined",
+   "license": "MIT",
+   "version": "orbis_v2 + join 2026-07-07",
+   "producer": "scripts/ingest-orbis.ts + integrate-orbis-nodes.py"
   },
   {
    "file": "src/data/vici-sites.json",

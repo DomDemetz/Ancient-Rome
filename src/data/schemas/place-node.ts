@@ -14,6 +14,12 @@ export const PlaceNodeSchema = z.object({
   wiki: z.tuple([z.string(), z.string()]).optional(),
   minor: z.boolean().optional(),
   vici: z.array(z.string()).optional(),
+  orbis: z
+    .object({
+      id: z.string(),
+      type: z.string(),
+    })
+    .optional(),
   entity: z.string().optional(),
   entityConnections: z.number().int().optional(),
   near: z.tuple([z.string(), z.number(), z.string()]).optional(),

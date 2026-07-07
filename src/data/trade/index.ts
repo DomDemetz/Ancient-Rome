@@ -8,6 +8,8 @@ export interface TradeNode {
   modern: string
   territoryYear?: number | null
   declineYear?: number | null
+  /** Canonical place node this site is joined to (places.json id). */
+  node?: string
 }
 
 export interface TradeRoute {
