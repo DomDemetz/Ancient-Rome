@@ -528,6 +528,33 @@ export function SearchBar() {
     }
   }
 
+  // Empty state: an empty dropdown is a dead end — suggest the range
+  const SUGGESTIONS = ['Rome', 'Justinian I', 'Battle of Actium', 'Sasanian Empire', 'Alexandria']
+  const emptyHints = open && !query.trim() && (
+    <div
+      className="absolute top-full left-0 right-0 mt-1 rounded-xl border border-white/[0.06] bg-black/95 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.5)] px-3 py-2.5"
+      style={{ zIndex: 1001 }}
+    >
+      <p className="text-[9px] uppercase tracking-[0.16em] text-slate-500 mb-1.5">
+        Search cities, emperors, battles, empires
+      </p>
+      <div className="flex flex-wrap gap-1.5">
+        {SUGGESTIONS.map((sug) => (
+          <button
+            key={sug}
+            onMouseDown={(e) => {
+              e.preventDefault()
+              setQuery(sug)
+            }}
+            className="px-2.5 py-1 rounded-full border border-amber-500/25 text-[11px] text-amber-200/80 hover:bg-amber-500/10 transition-colors"
+          >
+            {sug}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+
   const resultsDropdown = open && results.length > 0 && (
     <ul
       className="absolute top-full left-0 right-0 mt-1 rounded-xl border border-white/[0.06] bg-black/95 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.5)] overflow-hidden"
@@ -618,6 +645,8 @@ export function SearchBar() {
                   </button>
                 </div>
                 {resultsDropdown}
+      {emptyHints}
+                {emptyHints}
               </div>
             </div>
           </>
@@ -653,6 +682,7 @@ export function SearchBar() {
       </div>
 
       {resultsDropdown}
+      {emptyHints}
     </div>
   )
 }
