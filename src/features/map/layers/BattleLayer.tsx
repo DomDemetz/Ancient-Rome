@@ -7,6 +7,7 @@ import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
+import { battleVisibilityWindow } from './battleWindow'
 
 interface BattleLayerProps {
   data: Battle[]
@@ -39,15 +40,6 @@ const flashIcon = L.divIcon({
   iconSize: [12, 12],
   iconAnchor: [6, 6],
 })
-
-/** How far back a battle stays on the map. Paused: a generation of recent
- *  history (jumping to 200 BC should SHOW the Punic Wars, not a 5-year
- *  sliver). Playing: scaled to speed so battles flare and fade in step.
- *  StatsOverlay counts with the SAME window — the chip must never claim
- *  battles the map isn't drawing. */
-export function battleVisibilityWindow(playing: boolean, speed: number): number {
-  return playing ? Math.min(50, Math.max(10, Math.round(speed * 12))) : 25
-}
 
 /** Compute opacity for a past battle based on age relative to visibility window */
 function battleOpacity(age: number, window: number): number {

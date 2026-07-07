@@ -3,7 +3,7 @@ import { Swords, Bird, Anchor, Landmark } from 'lucide-react'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useUIStore } from '@/stores/useUIStore'
-import { battleVisibilityWindow } from '@/features/map/layers/BattleLayer'
+import { battleVisibilityWindow } from '@/features/map/layers/battleWindow'
 
 function interpolateRomePopulation(
   populations: { year: number; population: number }[],
