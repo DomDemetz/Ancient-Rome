@@ -27,7 +27,7 @@ export function TopBar({ storyMode }: TopBarProps) {
   if (isMobile) {
     return (
       <header
-        className={`flex items-center gap-2 px-3 h-11 shrink-0 backdrop-blur-2xl ${atlasMode ? 'bg-black/40 border-b border-white/[0.04]' : 'bg-black/70 border-b border-white/[0.06]'}`}
+        className={`flex items-center gap-2 px-3 h-11 shrink-0 backdrop-blur-2xl ${atlasMode ? 'bg-black/40 border-b border-amber-500/15' : 'bg-black/70 border-b border-amber-500/15'}`}
         style={{ zIndex: 1000, paddingTop: 'env(safe-area-inset-top, 0px)' }}
       >
         {/* Sidebar toggle — graph only */}

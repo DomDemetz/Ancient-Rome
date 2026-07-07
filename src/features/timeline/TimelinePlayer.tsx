@@ -197,7 +197,7 @@ export function TimelinePlayer() {
           {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-0.5" />}
         </button>
 
-        <span className="text-slate-300 font-mono text-sm w-20 shrink-0 text-center tabular-nums tracking-wide">
+        <span className="text-amber-100/90 font-serif italic font-bold text-lg w-24 shrink-0 text-center tabular-nums tracking-wide">
           {formatYear(Math.round(currentYear))}
         </span>
 
@@ -210,7 +210,7 @@ export function TimelinePlayer() {
                 style={{ left: `${yearToPercent(tick.year)}%` }}
               >
                 <div className="w-px h-3 bg-slate-500/30 mx-auto" />
-                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] text-slate-600 pointer-events-none z-10">
+                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] uppercase tracking-[0.18em] text-amber-200/35 pointer-events-none z-10">
                   {tick.label}
                 </div>
               </div>
@@ -254,7 +254,7 @@ export function TimelinePlayer() {
       <div className="flex items-center justify-center pb-0.5">
         <span
           key={currentEra.label}
-          className="text-xs text-amber-500/60 font-mono tracking-wide transition-colors duration-300"
+          className="text-xs text-amber-400/75 font-serif italic tracking-[0.08em] transition-colors duration-300"
         >
           {currentEra.label} ({formatYear(currentEra.start)} →{' '}
           {formatYear(currentEra.end === 476 ? 476 : currentEra.end - 1)})

@@ -280,9 +280,12 @@
   display: none !important;
 }
 .map-tooltip-title {
-  font-weight: 600;
-  font-size: 12px;
-  color: #fff;
+  /* the atlas voice reaches the popups: display serif, parchment ink */
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  color: #f3e9d6;
   margin-bottom: 2px;
 }
 .map-tooltip-sub {
@@ -378,9 +381,10 @@
   margin-right: 4px;
 }
 .map-tooltip-badge--academic {
-  color: #34d399;
-  background: rgba(52, 211, 153, 0.1);
-  border: 1px solid rgba(52, 211, 153, 0.2);
+  /* parchment-gold, not success-green — one palette everywhere */
+  color: #e8c884;
+  background: rgba(232, 200, 132, 0.09);
+  border: 1px solid rgba(232, 200, 132, 0.25);
 }
 .map-tooltip-badge--sourced {
   color: #fbbf24;
