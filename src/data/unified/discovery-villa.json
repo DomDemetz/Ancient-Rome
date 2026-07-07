@@ -164,7 +164,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 27 E2 Sagunto",
-    "qid": "Q47483",
     "estimatedTemporal": true
   },
   {
@@ -621,7 +620,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q4747238",
     "description": "An ancient place, cited: BAtlas 29 G1 Ammi Moussa",
     "estimatedTemporal": true
   },
@@ -807,7 +805,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q15126688",
     "description": "A Roman villa under Durley Hill cemetery, Keynsham, United Kingdom.",
     "estimatedTemporal": true
   },
@@ -1030,7 +1027,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q629660",
     "description": "At Le Canet, Cm. Port-Ste-Foy-et-Ponchapt, on the west bank of the Dordogne river, a Gallo-Roman villa was discovered in 1922. On the basis of its mosaic decorations, the villa is dated to the later imperial period.",
     "props": { "ancientName": "Le Canet, Port-Sainte-Foy-et-Ponchapt" },
     "estimatedTemporal": true
@@ -1114,7 +1110,6 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 121 (Carbon-Blanc, Cm. Flandres)",
     "props": { "ancientName": "121" },
-    "qid": "Q452472",
     "estimatedTemporal": true
   },
   {
@@ -1127,7 +1122,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q494989",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 122 (Pannetier, Cm. Latresne)",
     "props": { "ancientName": "Latresne" },
     "estimatedTemporal": true
@@ -1222,8 +1216,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 129 (Ste-Colombe)",
     "props": { "ancientName": "Sainte-Colombe" },
-    "estimatedTemporal": true,
-    "qid": "Q644275"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:140561",
@@ -1380,8 +1373,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 141 (Loupiac)",
     "props": { "ancientName": "Loupiac" },
-    "estimatedTemporal": true,
-    "qid": "Q327368"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:140573",
@@ -1460,8 +1452,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "A Gallo-Roman villa explored via excavation in 1956. The site was destroyed by fire. Coins of Gordian III provided a terminus post quem.",
-    "estimatedTemporal": true,
-    "qid": "Q326687"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:148013",
@@ -1500,7 +1491,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q238689",
     "description": "An ancient place, cited: BAtlas 15 A2 Clermont-l\u2019H\u00e9rault",
     "estimatedTemporal": true
   },
@@ -1661,7 +1651,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q675854",
     "description": "An ancient place, cited: BAtlas 15 F2 Puyloubier",
     "props": { "ancientName": "Puyloubier" },
     "estimatedTemporal": true
@@ -1754,7 +1743,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1016804",
     "description": "An ancient place, cited: BAtlas 15 E1 Sausses",
     "estimatedTemporal": true
   },
@@ -1808,7 +1796,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q262131",
     "description": "An ancient place, cited: BAtlas 15 A3 Vendres",
     "estimatedTemporal": true
   },
@@ -2661,7 +2648,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q4012807",
     "description": "At Desenzano, in the province of Lombardia, the remains of a Roman villa dating to the mid-fourth century A.D. were here. The structure is axial and palatial in its nature. Its decorative program includes polychrome mosaic pavements. It is noted for mosaic scenes featuring the Good Shepherd.",
     "props": { "ancientName": "Desenzano" },
     "estimatedTemporal": true
@@ -2815,7 +2801,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q27688054",
     "description": "House VIII.2.13 is linked to VIII.2.12. Excavations took place in 1826, 1888, and 1928.",
     "props": { "ancientName": "VIII.2.13" },
     "estimatedTemporal": true
@@ -3374,7 +3359,6 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 22 E5 Madara",
     "props": { "ancientName": "Madara" },
-    "qid": "Q577936",
     "estimatedTemporal": true
   },
   {
@@ -3400,7 +3384,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1077254",
     "description": "An ancient place, cited: BAtlas 22 C5 Prisovo",
     "estimatedTemporal": true
   },
@@ -3857,7 +3840,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "Dragoncello is a modern district of Rome's metropolitan area where archaeological evidence for a series of late republican villas was uncovered. At least four in number, these villa rustica sites have evidence for domestic production.",
-    "qid": "Q3715080",
     "estimatedTemporal": true
   },
   {
@@ -4548,7 +4530,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An urban domus of the Umbrii located beneath what is now the Liceo scientifico Camillo Cavour in central Rome.",
-    "qid": "Q1238767",
     "estimatedTemporal": true
   },
   {
@@ -4616,7 +4597,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q4012800",
     "description": "A Roman villa located on the Bruna river that was in use from the third century B.C. until the fifth century A.D.",
     "props": { "ancientName": "Villa romana delle Paduline" },
     "estimatedTemporal": true
@@ -4645,8 +4625,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 7 F3 Damblainville",
-    "estimatedTemporal": true,
-    "qid": "Q41746492"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:69558",
@@ -4752,7 +4731,6 @@
     "endYear": -330,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q22988546",
     "description": "Vouni is located on the northwest coast of Cyprus, some 7 km west of Soloi. The rocky hill was occupied in antiquity and the settlement included a fortified palace enclosure, the ancient name of which is unknown. According to PECS, the palace is to be dated ca. 500 to 380 BCE, with two main architectural phases (I: ca. 500 to 450 BCE, II: ca. 450 to 380 BCE).",
     "estimatedTemporal": true
   },
@@ -5078,7 +5056,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q4012729",
     "description": "Villa Domitiani, a large imperial villa near the Alban Lake, now the site of the Papal retreat at Castel Gandolfo.",
     "props": { "ancientName": "Villa Domitiani" },
     "estimatedTemporal": true
@@ -5923,7 +5900,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q118464934",
     "description": "The so-called the Villa of Faonte was a Roman villa in Rome located between Via delle Vigne Nuove and Via Passo del Turchino. There are remains of a cistern (approx. 29.5 by 14 meters) now set in a garden area.",
     "estimatedTemporal": true
   },
@@ -5950,7 +5926,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q544146",
     "description": "Roman villa rustica in Bollendorf",
     "props": { "ancientName": "Bollendorf" },
     "estimatedTemporal": true
@@ -5965,7 +5940,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q569606",
     "description": "Roman villa urbana in Longuich",
     "props": { "ancientName": "Longuico" },
     "estimatedTemporal": true
@@ -8853,7 +8827,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q68096314",
     "description": "The so-called \"Casa di Properzio\" at Assisi is a Roman domus located near the southern curtain of the ancient city walls. The decorations date the house to the first century B.C.",
     "props": { "ancientName": "Casa di Properzio" },
     "estimatedTemporal": true
@@ -8924,8 +8897,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 47 F4 Margi di Giarratana",
-    "estimatedTemporal": true,
-    "qid": "Q30026080"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:462304",
@@ -9419,7 +9391,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q72176597",
     "description": "The so-called \"Domus of the Lararium\" in Assisi was discovered at a depth of 7 meters beneath the Palazzo Giamp\u00e8. The surviving remains are those of a well-appointed domus with floor mosaics and wall paintings. The domus, dating to the second half of the first century. B.C. and the first decades of the first century. A.D. was comprised of at least 13 rooms and a peristyle.",
     "props": { "ancientName": "Domus del Lararium" },
     "estimatedTemporal": true
@@ -9601,7 +9572,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q3661201",
     "description": "A late Republican domus of the Palatine Hill that was later consumed by the substructures of the Domitianic wing of the Flavian palace. The Casa dei Grifi preserves important wall paintings that are transitional from the First to the Second Pompeian style. Giacomo Boni discovered the domus in 1912.",
     "props": { "ancientName": "Casa dei Grifi" },
     "estimatedTemporal": true
@@ -10131,7 +10101,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "The structure that now stands at Via in Selci no. 82 in the city of Rome rests on the structural remains of a late Roman building that likely date to the fourth or fifth century. These structural remains are likely those of the basilical hall that often was part of a Late Antique domus.",
-    "qid": "Q1238767",
     "estimatedTemporal": true
   },
   {
@@ -10412,7 +10381,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1339031",
     "description": "A Roman-style courtyard villa located 9 miles northeast of Noviomagus Regentium (modern Chichester).",
     "props": { "ancientName": "Bignor Roman Villa" },
     "estimatedTemporal": true
@@ -10500,7 +10468,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 G2 Brixworth",
-    "qid": "Q16847041",
     "estimatedTemporal": true
   },
   {
@@ -10797,8 +10764,7 @@
     "category": "habitation",
     "description": "Dewlish Roman villa, Dorset.",
     "props": { "ancientName": "Dewlish" },
-    "estimatedTemporal": true,
-    "qid": "Q26447429"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:79422",
@@ -10960,7 +10926,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 G3 Farnham",
-    "qid": "Q7592343",
     "estimatedTemporal": true
   },
   {
@@ -11000,8 +10965,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 D1 Ffrith",
-    "estimatedTemporal": true,
-    "qid": "Q56186966"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:79464",
@@ -11040,7 +11004,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1247128",
     "description": "Fishbourne, in West Sussex, is the site of a palatial villa built soon after the Roman conquest of Britain in the first century A.D.",
     "props": { "ancientName": "Fishbourne" },
     "estimatedTemporal": true
@@ -11267,7 +11230,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 E2 Hales",
-    "qid": "Q17646135",
     "estimatedTemporal": true
   },
   {
@@ -11448,7 +11410,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q2054431",
     "description": "An ancient place, cited: BAtlas 8 H2 Ickleton",
     "estimatedTemporal": true
   },
@@ -11477,7 +11438,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 F3 Islip",
-    "qid": "Q7594924",
     "estimatedTemporal": true
   },
   {
@@ -11766,7 +11726,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 H3 Maidstone",
-    "qid": "Q4729500",
     "estimatedTemporal": true
   },
   {
@@ -12030,8 +11989,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 F2 Radford Semele",
-    "estimatedTemporal": true,
-    "qid": "Q26646654"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:79655",
@@ -12087,7 +12045,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 F2 Rothley",
-    "qid": "Q17534308",
     "estimatedTemporal": true
   },
   {
@@ -12128,7 +12085,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 F2 Sapcote",
-    "qid": "Q17650506",
     "estimatedTemporal": true
   },
   {
@@ -12198,7 +12154,6 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 G1 Southwell",
     "props": { "ancientName": "Southwell" },
-    "qid": "Q375891",
     "estimatedTemporal": true
   },
   {
@@ -12240,7 +12195,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q12069819",
     "description": "This Roman villa was discovered and excavated in 1882. A basilica-type building (?granary) was discovered at the site, along with mosaics and marble statuary.",
     "estimatedTemporal": true
   },
@@ -12323,7 +12277,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 F3 Sutton Courtenay",
-    "qid": "Q1006998",
     "estimatedTemporal": true
   },
   {
@@ -12380,8 +12333,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 8 G1 Thurgarton",
     "props": { "ancientName": "Thurgarton" },
-    "estimatedTemporal": true,
-    "qid": "Q7245491"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:79715",
@@ -12519,7 +12471,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An aisled farmhouse dating to the third century and measuring ca. 35 x 15 m.",
-    "qid": "Q7595301",
     "estimatedTemporal": true
   },
   {
@@ -12875,7 +12826,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q10390694",
     "description": "Remains of a Roman villa located in the modern Torres Novas Municipality, Santar\u00e9m District, Portugal.",
     "estimatedTemporal": true
   },
@@ -12889,7 +12839,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q10391474",
     "description": "A Roman villa in Rio Maior, Santar\u00e9m, Portugal.",
     "estimatedTemporal": true
   },
@@ -12903,7 +12852,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q17670243",
     "description": "A Roman villa with mosaic floors and columns was discovered between East Creech and Cotness in 1869.",
     "estimatedTemporal": true
   },
@@ -13098,7 +13046,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "The remains of a private domus that date to the second and third centuries CE and include a Mithraeum. This complex eventually became incorporated into the fourth-century basilica on the site of the later basilica of San Clemente al Laterano.",
-    "qid": "Q1238767",
     "estimatedTemporal": true
   },
   {
@@ -14073,7 +14020,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q17390294",
     "description": "An imperial villa located in the territory of Ebora.",
     "estimatedTemporal": true
   },
@@ -14456,7 +14402,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q2526003",
     "description": "Cerro da Vila, the ruins of a Roman villa in the Algarve region of southern Portugal.",
     "props": { "ancientName": "Cerro da Vila" },
     "estimatedTemporal": true
@@ -14471,7 +14416,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q5763407",
     "description": "An ancient place, cited: BAtlas 26 D5 Cerro de los M\u00e1rtires",
     "estimatedTemporal": true
   },
@@ -14944,7 +14888,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q429318",
     "description": "A Roman peristyle villa located in Lusitania.",
     "estimatedTemporal": true
   },
@@ -14959,8 +14902,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 26 D2 Monsanto",
-    "estimatedTemporal": true,
-    "qid": "Q5049792"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:256305",
@@ -15024,7 +14966,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q10391475",
     "description": "An ancient place, cited: BAtlas 26 C4 Montinho das Laranjeiras",
     "props": { "ancientName": "Villa Romana do Montinho das Laranjeiras" },
     "estimatedTemporal": true
@@ -15065,7 +15006,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1253253",
     "description": "An ancient place, cited: BAtlas 26 C4 Pis\u00f5es",
     "estimatedTemporal": true
   },
@@ -15121,7 +15061,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 26 A3 Sacav\u00e9m",
-    "qid": "Q10286960",
     "estimatedTemporal": true
   },
   {
@@ -15134,7 +15073,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q2802496",
     "description": "An ancient place, cited: BAtlas 26 C3 S. Cucufate",
     "estimatedTemporal": true
   },
@@ -15174,7 +15112,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q10365475",
     "description": "An ancient place, cited: BAtlas 26 A3 S. Miguel de Odrinhas",
     "estimatedTemporal": true
   },
@@ -15229,8 +15166,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 26 E4 Setefilla",
-    "estimatedTemporal": true,
-    "qid": "Q85685459"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:256465",
@@ -15295,7 +15231,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q25431528",
     "description": "A large Roman villa inhabited from ca. the second century A.D. to the Visigothic period.",
     "estimatedTemporal": true
   },
@@ -15363,7 +15298,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 26 B4 Vale de M\u00e9rtola",
-    "qid": "Q9706875",
     "estimatedTemporal": true
   },
   {
@@ -15732,7 +15666,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q137919525",
     "description": "A Roman villa north of Panattoni Park and adjacent to Junction 16 of the M1 motorway, excavated in the 1840s and in 1966.",
     "estimatedTemporal": true
   },
@@ -15843,7 +15776,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "A Roman maritime villa located at the southwest corner of the Istrian peninsula, about six kilometers south of Pola. According to Matija\u0161i\u0107 1982, the remains of the villa are visible beneath the waters of Paltana Bay.",
-    "qid": "Q539317",
     "estimatedTemporal": true
   },
   {
@@ -16123,7 +16055,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q2202540",
     "description": "A large Roman courtyard villa covering ca. 7.5 ha.",
     "estimatedTemporal": true
   },
@@ -16151,7 +16082,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q117983897",
     "description": "Private house preceding the Christian church.",
     "props": { "ancientName": "House of the Christian building" },
     "estimatedTemporal": true
@@ -18087,7 +18017,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q16487712",
     "description": "The so-called House of the Hotel (Casa dell'Albergo) is an opulent Augustan-period domus that occupies the bulk of the southern end of Insula III at Herculaneum.",
     "props": { "ancientName": "Casa dell'Albergo" },
     "estimatedTemporal": true
@@ -18412,8 +18341,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 16 C2 La Trinit\u00e9",
-    "estimatedTemporal": true,
-    "qid": "Q22916379"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:157951",
@@ -18438,7 +18366,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q195104",
     "description": "An ancient place, cited: BAtlas 17 D3 Andance",
     "props": { "ancientName": "Andance" },
     "estimatedTemporal": true
@@ -18467,7 +18394,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q212591",
     "description": "An ancient place, cited: BAtlas 17 E2 La Boisse",
     "estimatedTemporal": true
   },
@@ -18521,7 +18447,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q817843",
     "description": "An ancient place, cited: BAtlas 17 D5 Donz\u00e8re",
     "estimatedTemporal": true
   },
@@ -18549,7 +18474,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q195108",
     "description": "An ancient place, cited: BAtlas 17 D3 Limony",
     "estimatedTemporal": true
   },
@@ -18563,7 +18487,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q637853",
     "description": "An ancient place, cited: BAtlas 17 D2 Meyzieu",
     "estimatedTemporal": true
   },
@@ -18577,7 +18500,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q719229",
     "description": "An ancient place, cited: BAtlas 17 A4 Montrodat",
     "estimatedTemporal": true
   },
@@ -18591,7 +18513,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1062890",
     "description": "Remains of a series of structures dating to the first 3 centuries of the common era -- including a probable villa -- were excavated in 1989 at a village called Perron in the French commune of Saint-Sauveur, on the north bank of the Is\u00e8re river.",
     "estimatedTemporal": true
   },
@@ -18841,7 +18762,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q10276237",
     "description": "A Roman villa.",
     "estimatedTemporal": true
   },
@@ -18869,7 +18789,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q7362327",
     "description": "The remains of a fortified Roman villa.",
     "estimatedTemporal": true
   },
@@ -18999,7 +18918,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q17647286",
     "description": "A Roman villa excavated in the late 1880s and dating from the late first century CE to the late second century at Boxted, Upchurch, United Kingdom",
     "estimatedTemporal": true
   },
@@ -19395,8 +19313,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 8 (Le Fr\u00e8che)",
-    "estimatedTemporal": true,
-    "qid": "Q1063175"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249915",
@@ -19423,8 +19340,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 10 (St-Cricq-Villeneuve)",
-    "estimatedTemporal": true,
-    "qid": "Q2530912"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249917",
@@ -19464,8 +19380,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 13 (Montsou\u00e9)",
-    "estimatedTemporal": true,
-    "qid": "Q930241"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249920",
@@ -19557,8 +19472,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 20 (Maspie)",
-    "estimatedTemporal": true,
-    "qid": "Q739933"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249927",
@@ -19585,8 +19499,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 22 (Bielle)",
-    "estimatedTemporal": true,
-    "qid": "Q321942"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249929",
@@ -19599,8 +19512,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 F1 no. 23 (Lavardac)",
-    "estimatedTemporal": true,
-    "qid": "Q220639"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249930",
@@ -19734,7 +19646,6 @@
     "category": "habitation",
     "description": "An unnamed Gallo-Roman villa located in the modern French commune of Castelferrus.",
     "props": { "ancientName": "Castelferrus" },
-    "qid": "Q775866",
     "estimatedTemporal": true
   },
   {
@@ -19788,8 +19699,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 37 (Condom)",
-    "estimatedTemporal": true,
-    "qid": "Q209802"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249944",
@@ -19933,8 +19843,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 G1 no. 49 (St-Rustice)",
-    "estimatedTemporal": true,
-    "qid": "Q1143799"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249956",
@@ -20012,8 +19921,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 G2 no. 57 (Montgey)",
-    "estimatedTemporal": true,
-    "qid": "Q1600318"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249964",
@@ -20158,8 +20066,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 68 (St-Elix-Theux)",
-    "estimatedTemporal": true,
-    "qid": "Q511065"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249975",
@@ -20237,8 +20144,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 74 (L\u2019Isle-de-No\u00e9)",
-    "estimatedTemporal": true,
-    "qid": "Q1244947"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249981",
@@ -20425,8 +20331,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 88 (St-Loup)",
     "props": { "ancientName": "Saint-Loup-en-Comminges" },
-    "estimatedTemporal": true,
-    "qid": "Q1144169"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249995",
@@ -20479,8 +20384,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 92 (Montsaun\u00e8s)",
-    "estimatedTemporal": true,
-    "qid": "Q1441037"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:249999",
@@ -21117,7 +21021,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q133571425",
     "description": "The Selvicciola Roman villa is the site of a vast Roman rural complex as well as a Longobard cemetery.",
     "props": { "ancientName": "Villa romana della Selvicciola" },
     "estimatedTemporal": true
@@ -21160,7 +21063,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1150536",
     "description": "An ancient place, cited: BAtlas 17 E2 St-Romain-de-Jalionas",
     "props": { "ancientName": "Saint-Romain-de-Jalionas" },
     "estimatedTemporal": true
@@ -21175,7 +21077,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q733869",
     "description": "An ancient place, cited: BAtlas 18 C2 Andilly-en-Bassigny",
     "estimatedTemporal": true
   },
@@ -21203,7 +21104,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1100954",
     "description": "An ancient place, cited: BAtlas 18 B2 Colmier-le-Bas",
     "props": { "ancientName": "Colmier-le-Bas" },
     "estimatedTemporal": true
@@ -21218,7 +21118,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q69020",
     "description": "An ancient place, cited: BAtlas 18 E2 H\u00f6lstein",
     "estimatedTemporal": true
   },
@@ -21260,7 +21159,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q607476",
     "description": "An ancient place, cited: BAtlas 18 C2 Membrey",
     "estimatedTemporal": true
   },
@@ -21274,7 +21172,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q64990",
     "description": "An ancient place, cited: BAtlas 18 F2 Oberentfelden",
     "estimatedTemporal": true
   },
@@ -21920,7 +21817,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q9093964",
     "description": "A Roman villa.",
     "estimatedTemporal": true
   },
@@ -22156,7 +22052,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q660886",
     "description": "Parndorf was the site of a Roman estate covering some 12 ha. The villa was situated near the Roman road leading from Savaria-Scarbantia to Carnuntum. The site was fortified by means of an enclosure wall ca. 1.5 km long.",
     "props": { "ancientName": "Parndorf" },
     "estimatedTemporal": true
@@ -22352,7 +22247,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q606330",
     "description": "An ancient place, cited: BAtlas 14 H2 Chanteau",
     "estimatedTemporal": true
   },
@@ -22548,7 +22442,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1171300",
     "description": "An ancient place, cited: BAtlas 14 F1 Lar\u00e7ay",
     "estimatedTemporal": true
   },
@@ -22855,7 +22748,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q334417",
     "description": "An ancient place, cited: BAtlas 14 G3 Solemniacum",
     "props": { "ancientName": "Solemniacum" },
     "estimatedTemporal": true
@@ -23348,7 +23240,6 @@
     "category": "habitation",
     "description": "Roman villa rustica in Mehring",
     "props": { "ancientName": "Mehring" },
-    "qid": "Q543574",
     "estimatedTemporal": true
   },
   {
@@ -23449,7 +23340,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q124359392",
     "description": "The so-called \"Domus of the figurative emblem\" is a well-appointed domus at Privernum.",
     "props": { "ancientName": "Domus of the figurative emblem" },
     "estimatedTemporal": true
@@ -24504,7 +24394,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 14 F3 no. 66 (Champniers)",
-    "qid": "Q537122",
     "estimatedTemporal": true
   },
   {
@@ -24929,7 +24818,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q181045",
     "description": "A Gallo-Roman villa.",
     "props": { "ancientName": "Allas-les-Mines" },
     "estimatedTemporal": true
@@ -25203,7 +25091,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q21552363",
     "description": "The remains of a Roman \"Villa rustica\" located adjacent to the Sanctuary of the Madonna di Canneto.",
     "props": { "ancientName": "Villa Romana di Canneto" },
     "estimatedTemporal": true
@@ -25459,7 +25346,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q47531808",
     "description": "An ancient place, cited: BAtlas 41 C3 S. Vincenzino",
     "props": { "ancientName": "S. Vincenzino, San Vincenzino" },
     "estimatedTemporal": true
@@ -25548,7 +25434,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q115813258",
     "description": "Site of a Late Republican and Imperial Roman villa (first to fifth centuries A.D.)",
     "props": { "ancientName": "Ossaia" },
     "estimatedTemporal": true
@@ -25764,7 +25649,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q76335336",
     "description": "An ancient place, cited: BAtlas 43 D2 Bruto e Pisoni",
     "props": { "ancientName": "Bruto e Pisoni" },
     "estimatedTemporal": true
@@ -26078,8 +25962,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 43 C2 Frascati",
-    "estimatedTemporal": true,
-    "qid": "Q3670137"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:422936",
@@ -26164,7 +26047,6 @@
     "category": "habitation",
     "description": "Ladispoli is a modern toponym; it is a comune of the Metropolitan City of Rome and is situated 35 kilometers (22 miles) west of Rome, on the Mediterranean Sea coast. In terms of the ancient landscape, present-day Ladispoli lies in the environs of ancient Alsium. Based on archaeological remains, Ladispoli was a popular locus for coastal villas.",
     "props": { "ancientName": "Ladispoli" },
-    "qid": "Q242784",
     "estimatedTemporal": true
   },
   {
@@ -26403,7 +26285,6 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 43 C2 Prati Fiscali",
     "props": { "ancientName": "Prati Fiscali" },
-    "qid": "Q3670187",
     "estimatedTemporal": true
   },
   {
@@ -26670,7 +26551,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q10391493",
     "description": "A Late Roman villa site dating to the fourth century A.D.",
     "estimatedTemporal": true
   },
@@ -27074,7 +26954,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q959612",
     "description": "An ancient place, cited: BAtlas 24 H4 S. Mart\u00edn de la Vega",
     "estimatedTemporal": true
   },
@@ -27752,8 +27631,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 C3 Athies",
     "props": { "ancientName": "Athies" },
-    "estimatedTemporal": true,
-    "qid": "Q31071"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:108766",
@@ -27766,8 +27644,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 C3 Aubigny",
-    "estimatedTemporal": true,
-    "qid": "Q45720"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:108786",
@@ -27779,7 +27656,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q522620",
     "description": "An ancient place, cited: BAtlas 11 H2 Bad Neuenahr-Ahrweiler",
     "estimatedTemporal": true
   },
@@ -27807,7 +27683,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q662284",
     "description": "An ancient place, cited: BAtlas 11 B2 B\u00e9hen",
     "estimatedTemporal": true
   },
@@ -27836,7 +27711,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1134698",
     "description": "An ancient place, cited: BAtlas 11 B3 Callengeville",
     "props": { "ancientName": "Callengeville" },
     "estimatedTemporal": true
@@ -27879,7 +27753,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q120971",
     "description": "An ancient place, cited: BAtlas 11 C3 Estr\u00e9es-sur-Noye",
     "estimatedTemporal": true
   },
@@ -27907,8 +27780,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 C3 Famechon",
-    "estimatedTemporal": true,
-    "qid": "Q38389813"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:108982",
@@ -27935,7 +27807,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q158264",
     "description": "An ancient place, cited: BAtlas 11 C3 Grivesnes",
     "estimatedTemporal": true
   },
@@ -27976,7 +27847,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q910627",
     "description": "An ancient place, cited: BAtlas 11 C2 Hamblain-les-Pr\u00e9s",
     "estimatedTemporal": true
   },
@@ -27990,7 +27860,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q871531",
     "description": "An ancient place, cited: BAtlas 11 D3 Lim\u00e9",
     "estimatedTemporal": true
   },
@@ -28004,7 +27873,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q760628",
     "description": "An ancient place, cited: BAtlas 11 B3 Limetz-Villez",
     "estimatedTemporal": true
   },
@@ -28032,7 +27900,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1141801",
     "description": "An ancient place, cited: BAtlas 11 B4 Marbou\u00e9",
     "estimatedTemporal": true
   },
@@ -28046,7 +27913,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q254033",
     "description": "An ancient place, cited: BAtlas 11 C3 March\u00e9lepot",
     "props": { "ancientName": "March\u00e9lepot" },
     "estimatedTemporal": true
@@ -28061,7 +27927,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q138648",
     "description": "An ancient place, cited: BAtlas 11 D2 Maubeuge",
     "props": { "ancientName": "Maubeuge" },
     "estimatedTemporal": true
@@ -28076,7 +27941,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q870413",
     "description": "An ancient place, cited: BAtlas 11 D3 Mercin-et-Vaux",
     "estimatedTemporal": true
   },
@@ -28090,7 +27954,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q379227",
     "description": "An ancient place, cited: BAtlas 11 C3 Le Mesge",
     "estimatedTemporal": true
   },
@@ -28104,7 +27967,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q381453",
     "description": "An ancient place, cited: BAtlas 11 C3 M\u00e9zi\u00e8res-en-Santerre",
     "estimatedTemporal": true
   },
@@ -28161,7 +28023,6 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 G3 Oberweis",
     "props": { "ancientName": "Oberweis" },
-    "qid": "Q574379",
     "estimatedTemporal": true
   },
   {
@@ -28174,7 +28035,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1139335",
     "description": "An ancient place, cited: BAtlas 11 B4 Ouarville",
     "estimatedTemporal": true
   },
@@ -28202,7 +28062,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1337799",
     "description": "An ancient place, cited: BAtlas 11 C3 Plailly",
     "estimatedTemporal": true
   },
@@ -28216,7 +28075,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q588400",
     "description": "An ancient place, cited: BAtlas 11 B2 Port-le-Grand",
     "estimatedTemporal": true
   },
@@ -28296,7 +28154,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1226232",
     "description": "An ancient place, cited: BAtlas 11 A4 Sceaux-sur-Huisne",
     "estimatedTemporal": true
   },
@@ -28310,7 +28167,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q641705",
     "description": "An ancient place, cited: BAtlas 11 C4 Souzy",
     "estimatedTemporal": true
   },
@@ -28352,7 +28208,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q596537",
     "description": "An ancient place, cited: BAtlas 11 E3 Vendresse",
     "estimatedTemporal": true
   },
@@ -28366,7 +28221,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1138962",
     "description": "An ancient place, cited: BAtlas 11 B4 Ver-l\u00e8s-Chartres",
     "estimatedTemporal": true
   },
@@ -28380,7 +28234,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1389275",
     "description": "The Gallo-Roman villa is located at Bufosse in the northern part of the commune Verneuil-en-Halatte d\u00e9partement Oise.",
     "props": { "ancientName": "Verneuil-en-Halatte" },
     "estimatedTemporal": true
@@ -28421,7 +28274,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q925713",
     "description": "An ancient place, cited: BAtlas 11 C2 Villers-sous-Ailly",
     "estimatedTemporal": true
   },
@@ -28436,8 +28288,7 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 F2 Voerendaal",
-    "estimatedTemporal": true,
-    "qid": "Q9770"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:109451",
@@ -28463,7 +28314,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "habitation",
-    "qid": "Q1246606",
     "description": "An ancient place, cited: BAtlas 11 C3 Warfus\u00e9e-Abancourt",
     "estimatedTemporal": true
   },
@@ -28603,7 +28453,6 @@
     "source": "Pleiades",
     "category": "habitation",
     "description": "The site of Orton Longueville has evidence for multi-period human activity. A large timber building is built in the second century A.D., followed by a Romano-British villa dating from the third to fifth centuries.",
-    "qid": "Q26595592",
     "estimatedTemporal": true
   },
   {

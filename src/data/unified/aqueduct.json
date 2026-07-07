@@ -10,8 +10,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "First aqueduct of Rome, built during the Samnite Wars. Ran almost entirely underground from springs east of Rome.",
-    "props": { "length": 16.4, "builder": "Appius Claudius Caecus", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 16.4, "builder": "Appius Claudius Caecus", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-anio-vetus",
@@ -37,8 +36,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Longest of the eleven Roman aqueducts, famous for the purity and coldness of its water. First to use arcaded bridges extensively.",
-    "props": { "length": 91.3, "builder": "Quintus Marcius Rex", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 91.3, "builder": "Quintus Marcius Rex", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-aqua-tepula",
@@ -55,8 +53,7 @@
       "length": 18,
       "builder": "Cn. Servilius Caepio & L. Cassius Longinus",
       "cityServed": "Roma"
-    },
-    "qid": "Q622956"
+    }
   },
   {
     "id": "aqueduct:aq-aqua-julia",
@@ -83,8 +80,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Built to supply Agrippa's baths on the Campus Martius. Still flows today, feeding the Trevi Fountain (as the Acqua Vergine).",
-    "props": { "length": 20.9, "builder": "Marcus Agrippa", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 20.9, "builder": "Marcus Agrippa", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-aqua-alsietina",
@@ -97,8 +93,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Built by Augustus primarily to fill the naumachia (artificial lake) for staged naval battles in Trastevere. Water was not potable.",
-    "props": { "length": 32.8, "builder": "Augustus", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 32.8, "builder": "Augustus", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-aqua-claudia",
@@ -111,8 +106,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "One of Rome's finest aqueducts, with impressive arcades still standing at Porta Maggiore. Praised by Frontinus for water quality.",
-    "props": { "length": 68.7, "builder": "Claudius (begun by Caligula)", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 68.7, "builder": "Claudius (begun by Caligula)", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-anio-novus",
@@ -138,8 +132,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Built by Trajan to supply the Trastevere district from springs near Lake Bracciano. Restored by Paul V as the Acqua Paola.",
-    "props": { "length": 57.3, "builder": "Trajan", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 57.3, "builder": "Trajan", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-aqua-alexandrina",
@@ -152,8 +145,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Last of the eleven aqueducts of Rome, built to supply the Baths of Alexander Severus on the Campus Martius.",
-    "props": { "length": 22.4, "builder": "Alexander Severus", "cityServed": "Roma" },
-    "qid": "Q622956"
+    "props": { "length": 22.4, "builder": "Alexander Severus", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-pont-du-gard",
@@ -179,8 +171,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Remarkably preserved double-arched aqueduct with 167 arches built without mortar. Symbol of the city. UNESCO World Heritage Site.",
-    "props": { "length": 17, "cityServed": "Segovia" },
-    "qid": "Q244947"
+    "props": { "length": 17, "cityServed": "Segovia" }
   },
   {
     "id": "aqueduct:aq-zaghouan",
@@ -733,8 +724,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct with impressive arcaded sections supplying the chief city of Lesbos.",
-    "props": { "length": 26, "cityServed": "Mytilene (Lesbos)" },
-    "qid": "Q189059"
+    "props": { "length": 26, "cityServed": "Mytilene (Lesbos)" }
   },
   {
     "id": "aqueduct:aq-cadiz",
@@ -2242,7 +2232,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q4429336",
     "description": "A debated bridge upriver from the modern Ponte Sisto.",
     "props": { "ancientName": "Pons Agrippae" },
     "estimatedTemporal": true
@@ -2336,7 +2325,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q189764",
     "description": "The Pont du Gard is an ancient Roman aqueduct bridge that crosses the Gardon River near the town of Vers-Pont-du-Gard in the south of France. It was enrolled as a UNESCO World Heritage Site in 1985.",
     "props": { "ancientName": "Pont du Gard" },
     "estimatedTemporal": true
@@ -2638,7 +2626,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A large aqueduct that supplied the city of Mytilene from the west. Some parts of it are preserved.",
-    "qid": "Q189059",
     "estimatedTemporal": true
   },
   {
@@ -2664,7 +2651,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q139622201",
     "description": "The Ponte Sant'Antonio is a Roman aqueduct bridge that was part of the Aqua Anio Novus.",
     "props": { "ancientName": "Ponte Sant Antonio" },
     "estimatedTemporal": true
@@ -3246,7 +3232,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q3396343",
     "description": "The remains of a Roman aqueduct bridge over the Agly River.",
     "estimatedTemporal": true
   },
@@ -3755,7 +3740,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q139622553",
     "description": "A Roman aqueduct bridge that was part of the Aqua Anio Vetus. The remains of the bridge preserve a series of 22 arches stretching approximately 155 meters.",
     "estimatedTemporal": true
   },
@@ -3836,7 +3820,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q862032",
     "description": "A Roman aqueduct in Macedonia.",
     "estimatedTemporal": true
   },
@@ -3929,7 +3912,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q42295042",
     "description": "A well-preserved section of the 26 km aqueduct that supplied Mytilene on the island of Lesbos.",
     "props": { "ancientName": "Moria Aqueduct" },
     "estimatedTemporal": true
@@ -4136,7 +4118,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q622956",
     "description": "The Aqua Traiana was an aqueduct built by Trajan and inaugurated in AD 109.",
     "props": { "ancientName": "Aqua Traiana" },
     "estimatedTemporal": true
@@ -5287,7 +5268,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q131905648",
     "description": "The so-called \"Ponte degli Arcinelli\" is a Roman aqueduct bridge that was part of the Aqua Anio Novus.",
     "estimatedTemporal": true
   },
@@ -5662,7 +5642,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q55162589",
     "description": "Remains of a portion of the Aqua Marcia aqueduct located near Gallicano nel Lazio.",
     "props": { "ancientName": "Ponte Lupo" },
     "estimatedTemporal": true
@@ -5980,7 +5959,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q42758015",
     "description": "A bridge over the Oued Cherchira in Tunisia.",
     "estimatedTemporal": true
   },
@@ -6128,8 +6106,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 H4 unnamed aqueduct (Pineda de Mar, SW Blanda(e))",
-    "estimatedTemporal": true,
-    "qid": "Q23993833"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:168367",
@@ -6194,8 +6171,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 18 D3 unnamed aqueduct (Col. Iulia Equestris, at Divonne-les-Bains)",
-    "estimatedTemporal": true,
-    "qid": "Q241575"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:187998",
@@ -6508,7 +6484,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q16591375",
     "description": "A thirteenth-century aqueduct at Spoletium.",
     "estimatedTemporal": true
   },
@@ -6852,8 +6827,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Supplied Segovia with water from mountains to the southeast",
-    "estimatedTemporal": true,
-    "qid": "Q244947"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:698066006",
@@ -6947,7 +6921,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q566707",
     "description": "An extensive complex of structures dating to the 1st - 3rd centuries of the Roman imperial period sited at a pair of springs known today as \"Viktoriaquelle\" and \"Schwefelquelle,\" near modern Heckenm\u00fcnster in German. This site, whose ancient name and tutelary deities are not known, was extensively excavated in the 1960s. It comprised religious and performative spaces, as well as baths and hostelry.",
     "estimatedTemporal": true
   },

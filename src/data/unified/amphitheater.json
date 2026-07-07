@@ -74,7 +74,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q6616",
     "props": { "capacity": 33250, "dimensions": "156x130m", "city": "Limonum Pictonum" }
   },
   {
@@ -87,8 +86,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 31649, "dimensions": "155x125m", "city": "Mediolanum" },
-    "qid": "Q3678765"
+    "props": { "capacity": 31649, "dimensions": "155x125m", "city": "Mediolanum" }
   },
   {
     "id": "amphitheater:metz",
@@ -100,8 +98,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 30816, "dimensions": "148x125m", "city": " Divodurum" },
-    "qid": "Q2956789"
+    "props": { "capacity": 30816, "dimensions": "148x125m", "city": " Divodurum" }
   },
   {
     "id": "amphitheater:carthage",
@@ -139,7 +136,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q13670",
     "props": { "capacity": 28773, "dimensions": "146.8x118.7m", "city": "Syracusae" }
   },
   {
@@ -234,7 +230,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q42807",
     "props": { "capacity": 24000, "dimensions": "133.4x101.4m", "city": "Nemausus" }
   },
   {
@@ -247,7 +242,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q48292",
     "props": { "capacity": 23354, "dimensions": "136x107m", "city": "Arelate" }
   },
   {
@@ -273,7 +267,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q1479",
     "props": { "capacity": 22130, "dimensions": "132.3x110.6m", "city": "Burdigala" }
   },
   {
@@ -402,8 +395,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 18546, "dimensions": "110x97m", "city": "Segodunum" },
-    "qid": "Q2942292"
+    "props": { "capacity": 18546, "dimensions": "110x97m", "city": "Segodunum" }
   },
   {
     "id": "amphitheater:carmona",
@@ -506,7 +498,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q7880",
     "props": { "capacity": 16336, "dimensions": "111x101m", "city": "Tolosa" }
   },
   {
@@ -791,7 +782,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q1897",
     "props": { "capacity": 12283, "dimensions": "92.8x79.2m", "city": "Carales" }
   },
   {
@@ -1258,7 +1248,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q617",
     "props": { "capacity": 7256, "dimensions": "102.5x65.5m", "city": "Patavium" }
   },
   {
@@ -1271,8 +1260,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 7245, "dimensions": "78x75m", "city": "Iuliobona" },
-    "qid": "Q837563"
+    "props": { "capacity": 7245, "dimensions": "78x75m", "city": "Iuliobona" }
   },
   {
     "id": "amphitheater:seressi",
@@ -1579,8 +1567,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 4000, "dimensions": "94x80m", "city": "Conimbriga" },
-    "qid": "Q10333548"
+    "props": { "capacity": 4000, "dimensions": "94x80m", "city": "Conimbriga" }
   },
   {
     "id": "amphitheater:marcianopolis",
@@ -1746,8 +1733,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 3000, "dimensions": "65x50m", "city": "Saint-Georges-du-Bois" },
-    "qid": "Q431479"
+    "props": { "capacity": 3000, "dimensions": "65x50m", "city": "Saint-Georges-du-Bois" }
   },
   {
     "id": "amphitheater:velleia",
@@ -1771,7 +1757,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q12071213",
     "props": { "capacity": 2772, "dimensions": "52x46m", "city": "[object Object]" }
   },
   {
@@ -1847,8 +1832,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 1946, "dimensions": "42.6x38.5m", "city": "Bremodorum" },
-    "qid": "Q68185"
+    "props": { "capacity": 1946, "dimensions": "42.6x38.5m", "city": "Bremodorum" }
   },
   {
     "id": "amphitheater:lucus-feroniae",
@@ -1999,8 +1983,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Ulpia Noviomagus" },
-    "qid": "Q2384187"
+    "props": { "city": "Ulpia Noviomagus" }
   },
   {
     "id": "amphitheater:carnuntum-ludus",
@@ -2280,7 +2263,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q20103",
     "props": { "city": "Asisium" }
   },
   {
@@ -2421,8 +2403,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "dimensions": "178x145m", "city": "Colonia Patricia" },
-    "qid": "Q33200"
+    "props": { "dimensions": "178x145m", "city": "Colonia Patricia" }
   },
   {
     "id": "amphitheater:reims",
@@ -2525,7 +2506,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q6555",
     "props": { "dimensions": "121.6x93.2m", "city": "Narbo" }
   },
   {
@@ -2733,7 +2713,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q39713677",
     "props": { "city": "Elbocoris" }
   },
   {
@@ -2798,7 +2777,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q643600",
     "props": { "city": "Gleisdorf" }
   },
   {
@@ -2876,7 +2854,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q1173534",
     "props": { "city": "Derventum" }
   },
   {
@@ -2889,8 +2866,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "dimensions": "90x68m", "city": "Tarracina" },
-    "qid": "Q422940"
+    "props": { "dimensions": "90x68m", "city": "Tarracina" }
   },
   {
     "id": "amphitheater:thuburbo-minus",
@@ -2941,7 +2917,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q1423802",
     "props": { "city": "Montbouy" }
   },
   {
@@ -3451,8 +3426,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Regium Lepidi" },
-    "qid": "Q3868284"
+    "props": { "city": "Regium Lepidi" }
   },
   {
     "id": "amphitheater:tharros",
@@ -3503,7 +3477,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q5836",
     "props": { "city": "Toletum" }
   },
   {
@@ -3516,7 +3489,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q69048",
     "props": { "dimensions": "50x40m", "city": "Castrum Rauracense" }
   },
   {
@@ -3554,8 +3526,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Formiae" },
-    "qid": "Q24941977"
+    "props": { "city": "Formiae" }
   },
   {
     "id": "amphitheater:pleiades-79741",

@@ -355,7 +355,6 @@
     "category": "religion",
     "description": "A Celto-Ligurian oppidum and sanctuary.",
     "props": { "ancientName": "Castellar, Lardiers" },
-    "qid": "Q3584916",
     "estimatedTemporal": true
   },
   {
@@ -381,7 +380,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q970167",
     "description": "A Gallo-Roman sanctuary.",
     "estimatedTemporal": true
   },
@@ -438,7 +436,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q241613",
     "description": "An ancient place, cited: BAtlas 15 A2 Roujan",
     "estimatedTemporal": true
   },
@@ -465,7 +462,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1151869",
     "description": "At Fox-Amphoux the remains of a Roman villa were discovered, adjacent to those of a sanctuary ad fines that may have been dedicated to the Capitoline triad. The site was in use from the time of Augustus until the third century AD.",
     "props": { "ancientName": "Fox-Amphoux" },
     "estimatedTemporal": true
@@ -1542,7 +1538,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q61076964",
     "description": "An ancient sanctuary complex, incorporating a cave known today as Zindan Ma\u011faras\u0131, which overlooks a bend in the river Aksu (locally Zindan Deresi; a tributary of the Eurymedon) in Turkey's Isparta province. Archaeological and epigraphic evidence demonstrate human activity from the Hellenistic to the Seljuk period, with the dedication of a temple to the Vigenon Mother of the Gods during the reign of Marcus Aurelius. A Roman-era bridge and road section has also been identified as part of the complex, which was probably associated with the nearby city of Timbriada. The sanctuary also honored the god Eurymedon. A Christian monastery succeeded the sanctuary, spoliating its buildings for construction material.",
     "props": { "ancientName": "Zindan Ma\u011faras\u0131" },
     "estimatedTemporal": true
@@ -1745,7 +1740,6 @@
     "endYear": 42,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q112074532",
     "description": "Chapel for the Sacred Barque of Amun-Ra in Karnak, established by the Egyptian pharaoh Hakor of the Twenty-ninth dynasty who reigned from 392/1 to 379/8 BCE.",
     "estimatedTemporal": true
   },
@@ -1841,7 +1835,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2653780",
     "description": "An ancient place, cited: BAtlas 22 C6 Kasnakovo",
     "estimatedTemporal": true
   },
@@ -2052,7 +2045,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q7698721",
     "description": "A rock-cut temple (speos) located in Lower Nubia, the Temple of Derr was built by Pharaoh Ramesses II (19th Dynasty). The temple was relocated to its current position in 1964 along with the Temple of Amada.",
     "props": { "ancientName": "Temple of Derr" },
     "estimatedTemporal": true
@@ -2722,8 +2714,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "One of three shrines sacred to Serapis identified by archaeologists working at Delos in the nineteenth century.",
-    "estimatedTemporal": true,
-    "qid": "Q173148"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:732220285",
@@ -3350,7 +3341,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q9146697",
     "description": "A small island lying off the west coast of Cyprus where a sanctuary has been identified.",
     "props": { "ancientName": "Yeronisos" },
     "estimatedTemporal": true
@@ -3405,7 +3395,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q6485486",
     "description": "An ancient place, cited: BAtlas 72 B3 Laneia",
     "estimatedTemporal": true
   },
@@ -3622,7 +3611,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q9278",
     "description": "An ancient Christian pilgrimage site that grew into an active town centered around the monastery complex devoted to Saint Menas who is said to have been buried there. The town reached its peak as the most visited pilgrimage site in Egypt during the sixth century AD.",
     "props": { "ancientName": "Deir Abou Menas, Deir Abu Mena, Deir Abu Menas, Abu Mina" },
     "estimatedTemporal": true
@@ -4303,7 +4291,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q106802906",
     "description": "The famous sanctuary of Apollo on the Cycladic island of Delos.",
     "props": { "ancientName": "Apollo, T." },
     "estimatedTemporal": true
@@ -4333,7 +4320,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q56450533",
     "description": "An ancient place, cited: BAtlas 61 D3 Artemis Parthenos, T.",
     "props": { "ancientName": "Artemis Parthenos, T." },
     "estimatedTemporal": true
@@ -4376,7 +4362,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2655433",
     "description": "A major, ancient sanctuary of Asklepios located on the Aegean island of Kos.",
     "props": { "ancientName": "Asklepieion, T." },
     "estimatedTemporal": true
@@ -5696,8 +5681,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Rossano di Vaglio, a fourth century BC site dedicated to Mefitis, was a Lucanian federal sanctuary.",
-    "estimatedTemporal": true,
-    "qid": "Q37303639"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:442754",
@@ -7545,7 +7529,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q704167",
     "description": "An ancient fortified city on high ground on the south bank of the river Nymphaios (modern K\u00e2hta \u00c7ay\u0131) south of the modern village of Kocahisar (also known as Eski Kahta) in Turkey.",
     "props": { "ancientName": "Arsameia am Nymphaios" },
     "estimatedTemporal": true
@@ -7913,7 +7896,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2552044",
     "description": "An archaeological area in the Forum Boarium comprising an ancient ritual precinct with twin temples ranging in date from the Archaic period through the time of the Roman Empire. The Medieval church dedicated to S. Omobono stands atop the remains of one of the two ancient temples.",
     "props": { "ancientName": "Area Sacra di Sant'Omobono" },
     "estimatedTemporal": true
@@ -8193,7 +8175,6 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q103163441",
     "description": "Modern Hayling Island (borough of Havant, Hampshire, England) is the site of a multi-phase sanctuary: the Iron Age shrine dates ca. 50 BCE and the Roman temple dates ca. 55-60CE. The sanctuary seems to have suffered decline and ceased being maintained in the early third century CE, although ritual/votive deposition seems to have continued through the fourth century.",
     "estimatedTemporal": true
   },
@@ -8343,7 +8324,6 @@
     "endYear": 27,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1186970",
     "description": "Toutzis (Dendur) is located in Nubia, approximately 80 km south of modern Aswan. In 23 BCE the Roman provincial governor Petronius built a temple at the direction of Augustus. The temple was dedicated to Isis and the deified Nubian brothers Pedesi and Pihor. Imperiled by the Aswan High Dam project, the temple was relocated by UNESCO in 1963. Egypt gifted the temple to the Metropolitan Museum of Art in New York City, where it has been exhibited since 1978.",
     "props": { "ancientName": "Tutzis" },
     "estimatedTemporal": true
@@ -8725,7 +8705,6 @@
     "category": "religion",
     "description": "So-called \"Temple A\" is a structure of the third century B.C. and is likely the Temple of Juturna that was vowed by Caius Lutatius Catulus following his victory against the Carthaginians in 241 B.C. It was later converted into a church, the apse of which remains visible.",
     "props": { "ancientName": "Temple of Juturna" },
-    "qid": "Q2313394",
     "estimatedTemporal": true
   },
   {
@@ -10541,7 +10520,6 @@
     "endYear": -450,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q18691945",
     "description": "A peripteral Doric temple built in the mid-6th century BCE was destroyed by fire in the 2nd century BCE. The temple faces east, and was built of mudbrick on foundations of local sandstone, with sandstone column drums and a terracotta roof. A 4th-century BCE dedicatory inscription found in the cella attests the worship of Apollo. The structure was discovered in 1994 following the activity of looters.",
     "estimatedTemporal": true
   },
@@ -10836,8 +10814,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 47 G3 Francavilla di Sicilia",
-    "estimatedTemporal": true,
-    "qid": "Q113557517"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:462222",
@@ -11448,8 +11425,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Fanum of Pithiviers-le-Vieil.",
-    "estimatedTemporal": true,
-    "qid": "Q123240577"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:20627992",
@@ -11721,7 +11697,6 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 54 A2 Roda",
-    "qid": "Q25160033",
     "estimatedTemporal": true
   },
   {
@@ -11903,7 +11878,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q375642",
     "description": "Temple dedicated to the cult of King Seti I located on the west bank of Thebes.",
     "props": { "ancientName": "Funerary temple of Seti I" },
     "estimatedTemporal": true
@@ -12585,7 +12559,6 @@
     "category": "religion",
     "description": "A tetrastyle Doric temple in the Athenian agora, built in the Augustan period using material from a Classical stoa at Thorikos and unidentified Hellenistic structures.",
     "props": { "ancientName": "Southwest Temple" },
-    "qid": "Q7661939",
     "estimatedTemporal": true
   },
   {
@@ -13094,7 +13067,6 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A small shrine with an altar built before 480 BC on the Acropolis of Athens. The northern colonnade of the Parthenon was built around this shrine, preserving it in situ. It is unknown what cult it housed.",
-    "qid": "Q20380177",
     "estimatedTemporal": true
   },
   {
@@ -13121,7 +13093,6 @@
     "endYear": -146,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q745552",
     "description": "A temple dedicated to Faunus located on Tiber Island, the Aedes Fauni was dedicated in 196 BCE by Gnaeus Domitius Ahenobarbus and Gaius Scribonius Libo.",
     "props": { "ancientName": "Aedes Fauni" },
     "estimatedTemporal": true
@@ -13209,7 +13180,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q328210",
     "description": "Among various features at Aix-en-Diois are the remains of baths that could either pertain to a sanctuary or a villa.",
     "props": { "ancientName": "Aix-en-Diois" },
     "estimatedTemporal": true
@@ -13239,7 +13209,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q829396",
     "description": "An ancient place, cited: BAtlas 17 G2 Allonzier-la-Caille",
     "estimatedTemporal": true
   },
@@ -13253,7 +13222,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q764688",
     "description": "An ancient place, cited: BAtlas 17 F3 La Bauche",
     "estimatedTemporal": true
   },
@@ -13268,8 +13236,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 B3 Beaulieu",
-    "estimatedTemporal": true,
-    "qid": "Q682264"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:167682",
@@ -13294,7 +13261,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1222398",
     "description": "An ancient place, cited: BAtlas 17 H3 Brides-les-Bains",
     "estimatedTemporal": true
   },
@@ -13309,8 +13275,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 D2 Bully",
-    "estimatedTemporal": true,
-    "qid": "Q41794826"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:167707",
@@ -13323,8 +13288,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 D4 Chalencon",
-    "estimatedTemporal": true,
-    "qid": "Q41744367"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:167709",
@@ -13350,7 +13314,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q237427",
     "description": "An ancient place, cited: BAtlas 17 E1 Corlier",
     "estimatedTemporal": true
   },
@@ -13364,7 +13327,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q871493",
     "description": "An ancient place, cited: BAtlas 17 D4 Desaignes",
     "estimatedTemporal": true
   },
@@ -13379,7 +13341,6 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 A4 Fontans",
-    "qid": "Q718510",
     "estimatedTemporal": true
   },
   {
@@ -13392,7 +13353,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q534869",
     "description": "An ancient place, cited: BAtlas 17 A4 Gabrias",
     "estimatedTemporal": true
   },
@@ -13406,7 +13366,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q937041",
     "description": "An ancient place, cited: BAtlas 17 D3 Laveyron",
     "estimatedTemporal": true
   },
@@ -13420,7 +13379,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q654273",
     "description": "An ancient place, cited: BAtlas 17 D2 Lentilly",
     "estimatedTemporal": true
   },
@@ -13966,8 +13924,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "One of three shrines sacred to Serapis identified by archaeologists working at Delos in the nineteenth century.",
-    "estimatedTemporal": true,
-    "qid": "Q173148"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:42368654",
@@ -14010,7 +13967,6 @@
     "category": "religion",
     "description": "The sanctuary of Aphrodite Pandemos (\"of all the People\") and Peitho (\"Persuasion\"), established by Theseus or Solon, was located on the south slope of the Acropolis of Athens, directly below the Nike Temple bastion. It was a centre of the Aphrodisia and Arrephoria festivals. The surviving remains belong to a structure built ca. 287/6 BCE.",
     "props": { "ancientName": "Aphrod\u00edt\u0113s pand\u1e17mou hier\u00f3n" },
-    "qid": "Q5727966",
     "estimatedTemporal": true
   },
   {
@@ -14488,7 +14444,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1107474",
     "description": "An ancient place, cited: BAtlas 17 B1 St-Alban-les-Eaux",
     "estimatedTemporal": true
   },
@@ -14502,7 +14457,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q687892",
     "description": "An ancient place, cited: BAtlas 17 C2 St-Galmier",
     "estimatedTemporal": true
   },
@@ -14516,7 +14470,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q137395",
     "description": "An ancient place, cited: BAtlas 17 B4 St-Laurent-les-Bains",
     "estimatedTemporal": true
   },
@@ -14543,7 +14496,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q744811",
     "description": "An ancient place, cited: BAtlas 17 H3 Salins-les-Thermes",
     "estimatedTemporal": true
   },
@@ -14557,7 +14509,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1106355",
     "description": "An ancient place, cited: BAtlas 17 C2 Salt-en-Donzy",
     "estimatedTemporal": true
   },
@@ -14584,7 +14535,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q845844",
     "description": "An ancient place, cited: BAtlas 17 G2 Sillingy",
     "estimatedTemporal": true
   },
@@ -14598,7 +14548,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q219399",
     "description": "An ancient place, cited: BAtlas 17 E4 Soyans",
     "estimatedTemporal": true
   },
@@ -14626,7 +14575,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1339596",
     "description": "An ancient place, cited: BAtlas 17 F3 Varces-Alli\u00e8res-et-Risset",
     "estimatedTemporal": true
   },
@@ -14640,7 +14588,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q314635",
     "description": "An ancient place, cited: BAtlas 17 E5 Vercoiran",
     "estimatedTemporal": true
   },
@@ -14723,7 +14670,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1163913",
     "description": "An ancient place, cited: BAtlas 19 F3 Danielsberg",
     "estimatedTemporal": true
   },
@@ -14752,7 +14698,6 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 19 A2 Freienbach",
-    "qid": "Q22509889",
     "estimatedTemporal": true
   },
   {
@@ -14833,7 +14778,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q62019",
     "description": "An ancient place, cited: BAtlas 19 A2 Orsingen",
     "estimatedTemporal": true
   },
@@ -14847,7 +14791,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1628561",
     "description": "An ancient place, cited: BAtlas 19 C2 Pillerh\u00f6he",
     "estimatedTemporal": true
   },
@@ -14861,7 +14804,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q669135",
     "description": "An ancient place, cited: BAtlas 19 E3 Pl\u00f6ckenpass",
     "estimatedTemporal": true
   },
@@ -14889,7 +14831,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q64890",
     "description": "An ancient place, cited: BAtlas 19 B3 Zillis",
     "estimatedTemporal": true
   },
@@ -15007,8 +14948,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 88 C3 Jvari",
-    "estimatedTemporal": true,
-    "qid": "Q106373620"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:863835",
@@ -16182,7 +16122,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q383537",
     "description": "An ancient place, cited: BAtlas 68 A5 Aphrodite Aphakitis, T.",
     "props": { "ancientName": "Aphrodite Aphakitis, T." },
     "estimatedTemporal": true
@@ -16634,7 +16573,6 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Temple of Peltuinum is located on the forum square; its final iteration was that of a Corinthian hexastyle prostyle sanctuary of the Roman phase of the city, when the shrine may have been dedicated to Apollo. The sanctuary also may have had a pre-Roman phase connected with a sacred spring.",
-    "qid": "Q3585373",
     "estimatedTemporal": true
   },
   {
@@ -16647,7 +16585,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q56450687",
     "description": "A substantial multiperiod sanctuary and associated complex on the Aegean island of Despotiko. Structures and finds date from the early Iron Age through Roman times, with some evidence for use or reuse into the Byzantine period.",
     "props": { "ancientName": "Archaiologik\u00f3s Ch\u00f3ros Despotiko\u00fa" },
     "estimatedTemporal": true
@@ -16689,7 +16626,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q670580",
     "description": "An ancient place, cited: BAtlas 13 B4 Stixneusiedl",
     "estimatedTemporal": true
   },
@@ -16745,7 +16681,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q745610",
     "description": "An ancient place, cited: BAtlas 14 F1 Chanceaux-sur-Choisille",
     "estimatedTemporal": true
   },
@@ -16785,7 +16720,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q624338",
     "description": "Remains of a large religious complex, consisting of a fanum, two small subsidiary structures, and three altars.",
     "props": { "ancientName": "Margerides" },
     "estimatedTemporal": true
@@ -16829,7 +16763,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q838870",
     "description": "An ancient place, cited: BAtlas 14 E1 Montreuil-Bellay",
     "estimatedTemporal": true
   },
@@ -16843,7 +16776,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1172328",
     "description": "An ancient place, cited: BAtlas 14 H1 Neuvy-sur-Barangeon",
     "estimatedTemporal": true
   },
@@ -16871,7 +16803,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1065286",
     "description": "An ancient place, cited: BAtlas 14 D1 Petit-Mars",
     "estimatedTemporal": true
   },
@@ -16966,8 +16897,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 14 E2 Sanxay",
-    "estimatedTemporal": true,
-    "qid": "Q22956580"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:415113284",
@@ -17445,7 +17375,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q38281150",
     "description": "At Argos, Pausanias mentions both the sanctuary of Apollo Deiradiotes (Apollo of the ridge) and the sanctuary of Athena Oxyderkes (Athena the clear-sighted).",
     "estimatedTemporal": true
   },
@@ -17620,7 +17549,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q216862",
     "description": "Megalithic temple on the island of Gozo; named a UNESCO World Heritage Site in 1980",
     "estimatedTemporal": true
   },
@@ -17648,7 +17576,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q678047",
     "description": "Site of a Gallo-Roman sanctuary and subsequent city of the Roman imperial period, the \"Site gallo-romain de Barzan\" is spread across the modern French communes of Barzan, Talmont-sur-Gironde and Arces-sur-Gironde in the department of Charente-Maritime. BAtlas equated it with ancient Tannum/Tamnum, but alternatives continue to be offered.",
     "props": { "ancientName": "Tannum" },
     "estimatedTemporal": true
@@ -17905,7 +17832,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3983167",
     "description": "Originally the site of a shrine dedicated to the river god Clitumnus and later a paleochristian shrine. The temple was listed as a UNESCO World Heritage Site in 2011.",
     "props": { "ancientName": "Tempietto del Clitunno " },
     "estimatedTemporal": true
@@ -18516,8 +18442,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 25 F2 Sacou\u00e9",
-    "estimatedTemporal": true,
-    "qid": "Q38642115"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:246600",
@@ -18544,8 +18469,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 25 I4 S. Cristina d\u2019Aro",
-    "estimatedTemporal": true,
-    "qid": "Q17602346"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:246619",
@@ -18922,7 +18846,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q565257",
     "description": "An ancient place, cited: BAtlas 11 H2 Bad Bertrich",
     "estimatedTemporal": true
   },
@@ -18936,7 +18859,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1098808",
     "description": "An ancient place, cited: BAtlas 11 C3 Bailleul-sur-Th\u00e9rain",
     "estimatedTemporal": true
   },
@@ -18950,7 +18872,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1074736",
     "description": "An ancient place, cited: BAtlas 11 B3 Bracquemont",
     "props": { "ancientName": "Bracquemont" },
     "estimatedTemporal": true
@@ -18995,7 +18916,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q929010",
     "description": "An ancient place, cited: BAtlas 11 G4 Deneuvre",
     "estimatedTemporal": true
   },
@@ -19036,7 +18956,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1458595",
     "description": "An ancient place, cited: BAtlas 11 C3 Epiais-Rhus",
     "props": { "ancientName": "Les Terres Noires, \u00c9piais-Rhus" },
     "estimatedTemporal": true
@@ -19065,7 +18984,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1096136",
     "description": "An ancient place, cited: BAtlas 11 C3 Estr\u00e9es-St-Denis",
     "estimatedTemporal": true
   },
@@ -19079,7 +18997,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q145033",
     "description": "An ancient place, cited: BAtlas 11 C3 Fluy",
     "estimatedTemporal": true
   },
@@ -19093,7 +19010,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1009985",
     "description": "An ancient place, cited: BAtlas 11 B3 Gamaches-en-Vexin",
     "estimatedTemporal": true
   },
@@ -19163,7 +19079,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q289156",
     "description": "An ancient place, cited: BAtlas 11 C3 Gournay-sur-Aronde",
     "props": { "ancientName": "Gournay-sur-Aronde" },
     "estimatedTemporal": true
@@ -19178,7 +19093,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1139329",
     "description": "A Gallo-Roman sanctuary identified in the 1960s at La Cav\u00e9e du Moulin near Hanches in the Eure-et-Loir department of France. ",
     "props": { "ancientName": "La Cav\u00e9e du Moulin" },
     "estimatedTemporal": true
@@ -19248,7 +19162,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1086477",
     "description": "An ancient place, cited: BAtlas 11 E3 Nanteuil-sur-Aisne",
     "estimatedTemporal": true
   },
@@ -19276,7 +19189,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q653374",
     "description": "An ancient place, cited: BAtlas 11 G2 Pelm",
     "estimatedTemporal": true
   },
@@ -19290,7 +19202,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1378579",
     "description": "An ancient place, cited: BAtlas 11 C4 Pithiviers-le-Vieil",
     "props": { "ancientName": "Pithiviers-le-Vieil" },
     "estimatedTemporal": true
@@ -19348,7 +19259,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1334969",
     "description": "An ancient place, cited: BAtlas 11 C3 Rouvroy-les-Merles",
     "props": { "ancientName": "Rouvroy-les-Merles" },
     "estimatedTemporal": true
@@ -19403,7 +19313,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1461215",
     "description": "An ancient place, cited: BAtlas 11 B4 Septeuil",
     "estimatedTemporal": true
   },
@@ -19417,7 +19326,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q548190",
     "description": "An ancient place, cited: BAtlas 11 B3 Songeons",
     "props": { "ancientName": "Songeons" },
     "estimatedTemporal": true
@@ -19560,7 +19468,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3621980",
     "description": "An archaeological area in Sicily, near Acireale, possibly related to the ancient settlement of Acium.",
     "props": { "ancientName": "Santa Venera al Pozzo" },
     "estimatedTemporal": true
@@ -19631,7 +19538,6 @@
     "endYear": -917,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1356788",
     "description": "Flag Fen is a Bronze Age ritual site near Peterborough, England, comprised of 60,000 timbers arranged in five rows that connect Whittlesey Island with Peterborough. Dendrochronological evidence has dates the site to ca. 1365\u2013967 BC.",
     "estimatedTemporal": true
   },
@@ -19851,8 +19757,7 @@
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
-    "estimatedTemporal": true,
-    "qid": "Q7593494"
+    "estimatedTemporal": true
   },
   {
     "id": "temple:pleiades-776228",
