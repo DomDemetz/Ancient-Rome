@@ -38506,7 +38506,7 @@
     "id": "building:140432",
     "type": "building",
     "subtype": "palace",
-    "name": "1",
+    "name": "Palace near Pont-Croix",
     "lat": 48.0399,
     "lng": -4.4885,
     "startYear": 50,
@@ -38519,7 +38519,7 @@
     "id": "building:140434",
     "type": "building",
     "subtype": "palace",
-    "name": "3",
+    "name": "Palace near Clis",
     "lat": 47.5,
     "lng": -2.5,
     "startYear": -200,
@@ -38571,7 +38571,7 @@
     "id": "building:140435",
     "type": "building",
     "subtype": "palace",
-    "name": "4",
+    "name": "Palace near Ch\u00e2telet",
     "lat": 46.5,
     "lng": -2.5,
     "startYear": 400,
@@ -77195,19 +77195,6 @@
     "qid": "Q464936"
   },
   {
-    "id": "building:pleiades-208942238",
-    "type": "building",
-    "name": "Monument near Henchir-Romana",
-    "lat": 36.1235,
-    "lng": 9.52298,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-444784601",
     "type": "building",
     "name": "Gallo-Roman theater of Mandeure",
@@ -77314,19 +77301,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-462099",
-    "type": "building",
-    "name": "Aquae Segestanae",
-    "lat": 37.9725,
-    "lng": 12.89168,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 47 B3 Aquae Segestanae",
-    "subtype": "bath",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-236573248",
     "type": "building",
     "name": "Porticus Octaviae",
@@ -77339,19 +77313,6 @@
     "endYear": 500,
     "estimatedTemporal": true,
     "qid": "Q2155879"
-  },
-  {
-    "id": "building:pleiades-786066",
-    "type": "building",
-    "name": "Memnon Colossi",
-    "lat": 25.7205,
-    "lng": 32.61044,
-    "source": "Pleiades",
-    "description": "Two seated, colossal statues of the Pharaoh Amenhotep III at a site on the west bank of the Nile River.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
   },
   {
     "id": "building:pleiades-243620947",
@@ -77403,20 +77364,6 @@
     "source": "Pleiades",
     "description": "Construction of the Roman Theater at Segobriga began under Tiberius and was completed during the Flavian period.",
     "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-379202545",
-    "type": "building",
-    "name": "Rusahinili",
-    "lat": 38.5205,
-    "lng": 43.4038,
-    "source": "Pleiades",
-    "description": "Rusahinili (modern Toprakkale) was an ancient fortress of Urartu built by Rusa I.",
-    "subtype": "fort",
-    "qid": "Q1521344",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
@@ -77600,19 +77547,6 @@
     "qid": "Q3748443"
   },
   {
-    "id": "building:pleiades-708232007",
-    "type": "building",
-    "name": "Yoncal\u0131",
-    "lat": 39.1295,
-    "lng": 42.18741,
-    "source": "Pleiades",
-    "description": "Yoncal\u0131 is located near the modern cities of Malazgirt and Bulan\u0131k, at the western end of the Bulan\u0131k-Malazgirt plain. The Assyrian king Tiglat-pileser I placed an inscribed, rock-cut relief here to commemorate his victories in the region.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "building:pleiades-937547558",
     "type": "building",
     "name": "Greek theater of Tyndaris",
@@ -77706,20 +77640,6 @@
     "estimatedTemporal": true
   },
   {
-    "id": "building:pleiades-311985510",
-    "type": "building",
-    "name": "Palu",
-    "lat": 38.70224,
-    "lng": 39.9535,
-    "source": "Pleiades",
-    "description": "Fortress with Urartian inscription.",
-    "subtype": "monument",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q132134366"
-  },
-  {
     "id": "building:pleiades-422850",
     "type": "building",
     "name": "Il Barco",
@@ -77731,74 +77651,6 @@
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-89171",
-    "type": "building",
-    "name": "Duntocher",
-    "lat": 55.9235,
-    "lng": -4.40993,
-    "source": "Pleiades",
-    "description": "Roman fortlet and fort on the Antonine Wall in West Dunbartonshire, Scotland.",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-108961",
-    "type": "building",
-    "name": "Ems",
-    "lat": 50.33621,
-    "lng": 7.71272,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 11 H2 Ems",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q103145269"
-  },
-  {
-    "id": "building:pleiades-109097",
-    "type": "building",
-    "name": "Lahnau-Dorlar",
-    "lat": 50.5805,
-    "lng": 8.56568,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 11 I2 Lahnau-Dorlar",
-    "subtype": "fort",
-    "qid": "Q2179593",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-109123",
-    "type": "building",
-    "name": "Ludwigshafen",
-    "lat": 49.46062,
-    "lng": 8.4415,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 11 I3 Ludwigshafen",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-118714",
-    "type": "building",
-    "name": "Gundremmingen",
-    "lat": 48.5032,
-    "lng": 10.4095,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 12 D4 Gundremmingen",
-    "subtype": "fort",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q98288836"
   },
   {
     "id": "building:pleiades-649857187",
@@ -77823,19 +77675,6 @@
     "source": "Pleiades",
     "description": "The theater at Mieza dates from the second century BCE.",
     "subtype": "theater",
-    "startYear": -200,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
-    "id": "building:pleiades-963101033",
-    "type": "building",
-    "name": "Tower in R. Nestos Valley",
-    "lat": 41.26518,
-    "lng": 24.6305,
-    "source": "Pleiades",
-    "description": "One of many towers or forts",
-    "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
     "estimatedTemporal": true

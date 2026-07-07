@@ -19949,19 +19949,6 @@
     "qid": "Q120301093"
   },
   {
-    "id": "mine:pleiades-167763",
-    "type": "mine",
-    "name": "Fay",
-    "lat": 45.662,
-    "lng": 5.67112,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 17 F2 Fay",
-    "subtype": "mine",
-    "startYear": -300,
-    "endYear": 500,
-    "estimatedTemporal": true
-  },
-  {
     "id": "mine:pleiades-167837",
     "type": "mine",
     "name": "Montagny",
@@ -20091,20 +20078,6 @@
     "startYear": -300,
     "endYear": 500,
     "estimatedTemporal": true
-  },
-  {
-    "id": "mine:pleiades-207031",
-    "type": "mine",
-    "name": "Cib",
-    "lat": 46.05434,
-    "lng": 23.19136,
-    "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 21 F3 Cib",
-    "subtype": "mine",
-    "startYear": -300,
-    "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q821236"
   },
   {
     "id": "mine:pleiades-207474",

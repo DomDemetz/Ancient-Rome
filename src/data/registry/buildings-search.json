@@ -14462,12 +14462,24 @@
   { "id": "building:138616", "n": "*Themellum", "lat": 47.4076, "lng": 1.0347, "t": "building" },
   { "id": "building:138628", "n": "*Turnacum", "lat": 47.7307, "lng": 0.7771, "t": "building" },
   { "id": "building:138659", "n": "*Vindiciacum", "lat": 46.0447, "lng": 3.1868, "t": "building" },
-  { "id": "building:140432", "n": "1", "lat": 48.0399, "lng": -4.4885, "t": "building" },
-  { "id": "building:140434", "n": "3", "lat": 47.5, "lng": -2.5, "t": "building" },
+  {
+    "id": "building:140432",
+    "n": "Palace near Pont-Croix",
+    "lat": 48.0399,
+    "lng": -4.4885,
+    "t": "building"
+  },
+  { "id": "building:140434", "n": "Palace near Clis", "lat": 47.5, "lng": -2.5, "t": "building" },
   { "id": "building:140462", "n": "31", "lat": 46.5881, "lng": 3.3078, "t": "building" },
   { "id": "building:140463", "n": "32", "lat": 46.5681, "lng": 3.3344, "t": "building" },
   { "id": "building:140464", "n": "33", "lat": 46.555, "lng": 3.3044, "t": "building" },
-  { "id": "building:140435", "n": "4", "lat": 46.5, "lng": -2.5, "t": "building" },
+  {
+    "id": "building:140435",
+    "n": "Palace near Châtelet",
+    "lat": 46.5,
+    "lng": -2.5,
+    "t": "building"
+  },
   { "id": "building:79278", "n": "Abercyfor", "lat": 51.8375, "lng": -4.2764, "t": "building" },
   { "id": "building:255948", "n": "Abicada", "lat": 37.1513, "lng": -8.597, "t": "building" },
   { "id": "building:723135882", "n": "Acquoria", "lat": 41.9383, "lng": 12.9348, "t": "building" },
@@ -31362,13 +31374,6 @@
     "t": "building"
   },
   {
-    "id": "building:pleiades-208942238",
-    "n": "Monument near Henchir-Romana",
-    "lat": 36.1235,
-    "lng": 9.52298,
-    "t": "building"
-  },
-  {
     "id": "building:pleiades-444784601",
     "n": "Gallo-Roman theater of Mandeure",
     "lat": 47.44901,
@@ -31425,24 +31430,10 @@
     "t": "building"
   },
   {
-    "id": "building:pleiades-462099",
-    "n": "Aquae Segestanae",
-    "lat": 37.9725,
-    "lng": 12.89168,
-    "t": "building"
-  },
-  {
     "id": "building:pleiades-236573248",
     "n": "Porticus Octaviae",
     "lat": 41.89252,
     "lng": 12.47857,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-786066",
-    "n": "Memnon Colossi",
-    "lat": 25.7205,
-    "lng": 32.61044,
     "t": "building"
   },
   {
@@ -31471,13 +31462,6 @@
     "n": "Theater at Segobriga",
     "lat": 39.88631,
     "lng": -2.81251,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-379202545",
-    "n": "Rusahinili",
-    "lat": 38.5205,
-    "lng": 43.4038,
     "t": "building"
   },
   {
@@ -31572,13 +31556,6 @@
     "t": "building"
   },
   {
-    "id": "building:pleiades-708232007",
-    "n": "Yoncalı",
-    "lat": 39.1295,
-    "lng": 42.18741,
-    "t": "building"
-  },
-  {
     "id": "building:pleiades-937547558",
     "n": "Greek theater of Tyndaris",
     "lat": 38.14346,
@@ -31628,52 +31605,10 @@
     "t": "building"
   },
   {
-    "id": "building:pleiades-311985510",
-    "n": "Palu",
-    "lat": 38.70224,
-    "lng": 39.9535,
-    "t": "building"
-  },
-  {
     "id": "building:pleiades-422850",
     "n": "Il Barco",
     "lat": 41.81505,
     "lng": 12.69089,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-89171",
-    "n": "Duntocher",
-    "lat": 55.9235,
-    "lng": -4.40993,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-108961",
-    "n": "Ems",
-    "lat": 50.33621,
-    "lng": 7.71272,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-109097",
-    "n": "Lahnau-Dorlar",
-    "lat": 50.5805,
-    "lng": 8.56568,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-109123",
-    "n": "Ludwigshafen",
-    "lat": 49.46062,
-    "lng": 8.4415,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-118714",
-    "n": "Gundremmingen",
-    "lat": 48.5032,
-    "lng": 10.4095,
     "t": "building"
   },
   {
@@ -31688,13 +31623,6 @@
     "n": "Mieza theater",
     "lat": 40.64416,
     "lng": 22.12251,
-    "t": "building"
-  },
-  {
-    "id": "building:pleiades-963101033",
-    "n": "Tower in R. Nestos Valley",
-    "lat": 41.26518,
-    "lng": 24.6305,
     "t": "building"
   },
   {
@@ -33579,34 +33507,6 @@
     "n": "Arnsburg",
     "lat": 50.48771,
     "lng": 8.78444,
-    "t": "amphitheater"
-  },
-  {
-    "id": "amphitheater:pleiades-153271174",
-    "n": "Roman amphitheater at *Moridunum",
-    "lat": 51.86198,
-    "lng": -4.2965,
-    "t": "amphitheater"
-  },
-  {
-    "id": "amphitheater:pleiades-960592956",
-    "n": "Roman amphitheater at Carsulae",
-    "lat": 42.6395,
-    "lng": 12.55917,
-    "t": "amphitheater"
-  },
-  {
-    "id": "amphitheater:pleiades-172058377",
-    "n": "Sapperton and Cirencester amphitheatre",
-    "lat": 51.71058,
-    "lng": -1.9715,
-    "t": "amphitheater"
-  },
-  {
-    "id": "amphitheater:pleiades-971703785",
-    "n": "Bizye Roman amphitheater",
-    "lat": 41.5738,
-    "lng": 27.7695,
     "t": "amphitheater"
   },
   { "id": "pleiades:266027", "n": "S. Cristo", "lat": 40.370824, "lng": -1.47893, "t": "tomb" },
@@ -49125,9 +49025,15 @@
   { "id": "pleiades:138640", "n": "Variacum?", "lat": 44.952331, "lng": 1.703144, "t": "villa" },
   { "id": "pleiades:138648", "n": "Veroli", "lat": 44.799985, "lng": 1.616041, "t": "villa" },
   { "id": "pleiades:138659", "n": "*Vindiciacum", "lat": 46.044674, "lng": 3.186831, "t": "villa" },
-  { "id": "pleiades:140432", "n": "1", "lat": 48.03986999999999, "lng": -4.488487, "t": "villa" },
-  { "id": "pleiades:140434", "n": "3", "lat": 47.5, "lng": -2.5, "t": "villa" },
-  { "id": "pleiades:140435", "n": "4", "lat": 46.5, "lng": -2.5, "t": "villa" },
+  {
+    "id": "pleiades:140432",
+    "n": "Villa near Pont-Croix",
+    "lat": 48.03986999999999,
+    "lng": -4.488487,
+    "t": "villa"
+  },
+  { "id": "pleiades:140434", "n": "Villa near Clis", "lat": 47.5, "lng": -2.5, "t": "villa" },
+  { "id": "pleiades:140435", "n": "Villa near Châtelet", "lat": 46.5, "lng": -2.5, "t": "villa" },
   {
     "id": "pleiades:140436",
     "n": "Barrington Atlas feature labeled 5",
@@ -52838,9 +52744,21 @@
     "lng": 13.26222,
     "t": "villa"
   },
-  { "id": "villa:pleiades-140432", "n": "1", "lat": 48.03987, "lng": -4.48849, "t": "villa" },
-  { "id": "villa:pleiades-140434", "n": "3", "lat": 47.5, "lng": -2.5, "t": "villa" },
-  { "id": "villa:pleiades-140435", "n": "4", "lat": 46.5, "lng": -2.5, "t": "villa" },
+  {
+    "id": "villa:pleiades-140432",
+    "n": "Villa near Pont-Croix",
+    "lat": 48.03987,
+    "lng": -4.48849,
+    "t": "villa"
+  },
+  { "id": "villa:pleiades-140434", "n": "Villa near Clis", "lat": 47.5, "lng": -2.5, "t": "villa" },
+  {
+    "id": "villa:pleiades-140435",
+    "n": "Villa near Châtelet",
+    "lat": 46.5,
+    "lng": -2.5,
+    "t": "villa"
+  },
   { "id": "villa:pleiades-140462", "n": "31", "lat": 46.58809, "lng": 3.30777, "t": "villa" },
   { "id": "villa:pleiades-140463", "n": "32", "lat": 46.56806, "lng": 3.33442, "t": "villa" },
   { "id": "villa:pleiades-140464", "n": "33", "lat": 46.55496, "lng": 3.30441, "t": "villa" },
@@ -52865,15 +52783,6 @@
     "lng": 7.18081,
     "t": "villa"
   },
-  { "id": "villa:pleiades-144291814", "n": "Zou", "lat": 35.15918, "lng": 26.1051, "t": "villa" },
-  { "id": "villa:pleiades-79341", "n": "Box", "lat": 51.41661, "lng": -2.25067, "t": "villa" },
-  { "id": "villa:pleiades-256137", "n": "Cós", "lat": 39.51001, "lng": -8.98366, "t": "villa" },
-  { "id": "villa:pleiades-140432", "n": "1", "lat": 48.03987, "lng": -4.48849, "t": "villa" },
-  { "id": "villa:pleiades-140434", "n": "3", "lat": 47.5, "lng": -2.5, "t": "villa" },
-  { "id": "villa:pleiades-140435", "n": "4", "lat": 46.5, "lng": -2.5, "t": "villa" },
-  { "id": "villa:pleiades-140462", "n": "31", "lat": 46.58809, "lng": 3.30777, "t": "villa" },
-  { "id": "villa:pleiades-140463", "n": "32", "lat": 46.56806, "lng": 3.33442, "t": "villa" },
-  { "id": "villa:pleiades-140464", "n": "33", "lat": 46.55496, "lng": 3.30441, "t": "villa" },
   {
     "id": "pleiades:48210386",
     "n": "Tempio Grande at Vulci",
@@ -61143,21 +61052,6 @@
     "lng": 14.52454,
     "t": "temple"
   },
-  {
-    "id": "temple:pleiades-331679526",
-    "n": "Kidmuri Temple",
-    "lat": 36.3595,
-    "lng": 43.1537,
-    "t": "temple"
-  },
-  {
-    "id": "temple:pleiades-260724426",
-    "n": "Temple of Demeter and Kore",
-    "lat": 39.20151,
-    "lng": 8.6355,
-    "t": "temple"
-  },
-  { "id": "temple:pleiades-922681", "n": "Muk", "lat": 29.09656, "lng": 52.65581, "t": "temple" },
   {
     "id": "pleiades:267272",
     "n": "Unnamed bridge at Isturgi on the Guadalquivir river",
@@ -70679,7 +70573,6 @@
     "t": "mine"
   },
   { "id": "mine:pleiades-167688", "n": "Brangues", "lat": 45.6942, "lng": 5.53948, "t": "mine" },
-  { "id": "mine:pleiades-167763", "n": "Fay", "lat": 45.662, "lng": 5.67112, "t": "mine" },
   { "id": "mine:pleiades-167837", "n": "Montagny", "lat": 45.62842, "lng": 4.74752, "t": "mine" },
   {
     "id": "mine:pleiades-504349",
@@ -70726,7 +70619,6 @@
     "lng": 0.37169,
     "t": "mine"
   },
-  { "id": "mine:pleiades-207031", "n": "Cib", "lat": 46.05434, "lng": 23.19136, "t": "mine" },
   { "id": "mine:pleiades-207474", "n": "Surduc", "lat": 46.54081, "lng": 23.54937, "t": "mine" },
   {
     "id": "mine:pleiades-209138",
@@ -88393,20 +88285,6 @@
     "t": "religion"
   },
   {
-    "id": "religious:pleiades-756550",
-    "n": "Deir Abu Masis",
-    "lat": 26.2014,
-    "lng": 31.8955,
-    "t": "religion"
-  },
-  {
-    "id": "religious:pleiades-756551",
-    "n": "Deir Am-Nasara",
-    "lat": 26.9065,
-    "lng": 31.48582,
-    "t": "religion"
-  },
-  {
     "id": "religious:pleiades-520108872",
     "n": "Cappella di Sant'Antonino (Finale Ligure)",
     "lat": 44.19451,
@@ -88495,27 +88373,6 @@
     "n": "Dzveli Gavazi Church",
     "lat": 41.913,
     "lng": 45.98019,
-    "t": "religion"
-  },
-  {
-    "id": "religious:pleiades-187417",
-    "n": "Imst",
-    "lat": 47.24453,
-    "lng": 10.7395,
-    "t": "religion"
-  },
-  {
-    "id": "religious:pleiades-187495",
-    "n": "Oberlienz",
-    "lat": 46.84432,
-    "lng": 12.7295,
-    "t": "religion"
-  },
-  {
-    "id": "religious:pleiades-874439",
-    "n": "Cyriacus, Mon.",
-    "lat": 37.5149,
-    "lng": 40.7705,
     "t": "religion"
   },
   {
