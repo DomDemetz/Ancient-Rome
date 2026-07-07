@@ -222,6 +222,10 @@ export function PlacesLayer({
         let color: string
         let radius: number
         let weight: number
+        // gazetteer-only nodes (no DARE type, no population curve) are the
+        // background texture tier: smaller and quieter than attested
+        // settlements, or the 26k Wikidata nodes flatten the hierarchy
+        const isGazetteer = (pop == null || pop <= 0) && p.dare?.type == null
         if (pop != null && pop > 0) {
           color = '#f59e0b'
           radius = popRadius(pop)
@@ -233,7 +237,7 @@ export function PlacesLayer({
             zoom,
           )
           color = style.color
-          radius = style.radius
+          radius = isGazetteer ? Math.max(1.5, style.radius - 1) : style.radius
           weight = 0.5
         }
 
@@ -267,7 +271,7 @@ export function PlacesLayer({
             pathOptions={{
               color: pop != null && pop > 0 ? '#fcd34d' : color,
               fillColor: color,
-              fillOpacity: 0.8,
+              fillOpacity: isGazetteer ? 0.45 : 0.8,
               weight,
             }}
             bubblingMouseEvents={false}
