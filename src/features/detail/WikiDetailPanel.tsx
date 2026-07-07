@@ -555,7 +555,11 @@ function WikiDetailContent({
       : featureLayer === 'cities'
         ? 'settlements'
         : featureLayer
-  const lookup = useWikiEnrichment(wikiLayer)
+  // places knowledge is two-tier: the popup store is slim, the panel
+  // wants every crossRef field — swap to the detail tier here
+  const lookup = useWikiEnrichment(
+    wikiLayer === 'knowledge-places' ? 'knowledge-places-detail' : wikiLayer,
+  )
   const [sourcesExpanded, setSourcesExpanded] = useState(false)
   const crossRef = useCrossRef()
 

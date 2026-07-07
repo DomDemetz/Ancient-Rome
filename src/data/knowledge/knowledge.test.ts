@@ -17,7 +17,8 @@ describe('knowledge/places.json', () => {
     expect(rome).toBeDefined()
     expect(rome.extract).toMatch(/Rome/)
     expect(rome).toHaveProperty('crossRef')
-    expect(rome).toHaveProperty('sources')
+    // provenance `sources` lives only in places-detail.json now — the slim
+    // popup tier dropped it (nothing at runtime read it)
   })
 
   it('renders through appendWikiTooltip keyed by node id (popup chain)', () => {
