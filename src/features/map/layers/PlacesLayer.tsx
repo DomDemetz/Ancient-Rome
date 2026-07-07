@@ -187,9 +187,13 @@ export function PlacesLayer({
       }
     }
     // Rome/Byzantium name themselves from the territory layer (not in the
-    // empires manifest) — shared anchors (imperialAnchors.ts)
+    // empires manifest) — shared anchors (imperialAnchors.ts). Vast-tier
+    // names run ~200px wide: claim a spread, not a point (Venusia printed
+    // through the tail of ROMAN EMPIRE)
     for (const [alat, alng] of imperialAnchors(currentYear)) {
-      placed.push([mercX(alng), mercY(alat)])
+      for (const dx of [-99, 0, 99]) {
+        placed.push([mercX(alng) + dx, mercY(alat)])
+      }
     }
     // labeled population cities are obstacles too — Alsium was printing
     // straight through 'Rome'
@@ -215,8 +219,22 @@ export function PlacesLayer({
   // Memphis and at empire zoom both printed on top of each other. Bigger
   // population claims the space; the loser keeps its dot and tooltip.
   const cityLabelIds = useMemo(() => {
-    if (zoom >= 7) return null // enough room when zoomed in
     const { x: mercX, y: mercY } = labelProjector(zoom)
+    if (zoom >= 7) {
+      // enough room between cities when zoomed in — but the imperial name
+      // still owns its anchor (Venusia printed under ROMAN EMPIRE at z7)
+      const anchors = imperialAnchors(currentYear).map(
+        ([alat, alng]) => [mercX(alng), mercY(alat)] as const,
+      )
+      const out = new Set<string>()
+      for (const p of visible) {
+        const x = mercX(p.lng)
+        const y = mercY(p.lat)
+        if (anchors.some(([ax, ay]) => Math.abs(ax - x) < 130 && Math.abs(ay - y) < 22)) continue
+        out.add(p.id)
+      }
+      return out
+    }
     const min = labelMinPop(zoom)
     const labeled = visible
       .map((p) => ({ p, pop: p.populations ? populationAt(p.populations, currentYear) : null }))

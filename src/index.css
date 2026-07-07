@@ -717,6 +717,10 @@ input[type='range']::-moz-range-thumb {
   border: none;
 }
 .empire-label {
+  /* the divIcon wrapper is 0x0, so without an intrinsic width the block
+     computes width:0 and translateX(-50%) resolves to 0px — names rendered
+     left-edge-at-anchor instead of centered (measured: matrix(1,0,0,1,0,-12.75)) */
+  width: max-content;
   transform: translate(-50%, -50%);
   white-space: nowrap;
   font-family: var(--font-serif);
@@ -753,6 +757,7 @@ input[type='range']::-moz-range-thumb {
   border: none;
 }
 .sea-label {
+  width: max-content; /* see .empire-label — 0-width divIcon wrapper */
   transform: translate(-50%, -50%);
   white-space: nowrap;
   font-family: var(--font-serif);
