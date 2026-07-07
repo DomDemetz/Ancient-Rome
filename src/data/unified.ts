@@ -42,7 +42,7 @@ export async function loadShipwrecks(): Promise<Shipwreck[]> {
     endYear: e.endYear ?? 0,
     cargoType: (e.subtype as string) ?? null,
     depth: (e.props?.depth as number) ?? null,
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
@@ -57,7 +57,7 @@ export async function loadMines(): Promise<Mine[]> {
     siteType: ((e.props?.siteType as string) ?? 'mine') as 'mine' | 'quarry',
     startYear: e.startYear ?? 0,
     endYear: e.endYear ?? 0,
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
@@ -72,7 +72,7 @@ export async function loadAqueductPoints(): Promise<Aqueduct[]> {
     length: (e.props?.length as number) ?? null,
     builder: (e.props?.builder as string) ?? null,
     cityServed: (e.props?.cityServed as string) ?? '',
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
@@ -86,7 +86,7 @@ export async function loadPresses(): Promise<Press[]> {
     pressType: ((e.subtype as string) ?? 'oil') as 'oil' | 'wine',
     startYear: e.startYear ?? 0,
     endYear: e.endYear ?? 0,
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
@@ -110,7 +110,7 @@ export async function loadPorts(): Promise<PortData[]> {
     lat: e.lat,
     lng: e.lng,
     portType: e.subtype ?? 'port',
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     startYear: e.startYear ?? 0,
     endYear: e.endYear ?? 0,
     source: e.source,
@@ -127,7 +127,7 @@ export async function loadBattles(): Promise<Battle[]> {
     outcome: ((e.props?.outcome as string) ?? 'unknown') as Battle['outcome'],
     combatants: (e.props?.combatants as string) ?? '',
     commander: (e.props?.commander as string) ?? '',
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
@@ -156,7 +156,7 @@ export async function loadBuildings(): Promise<Building[]> {
     buildingType: e.subtype ?? 'unknown',
     constructionYear: e.startYear ?? 0,
     builder: (e.props?.builder as string) ?? null,
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
@@ -172,7 +172,7 @@ export async function loadReligion(): Promise<ReligiousSite[]> {
     deity: (e.props?.deity as string) ?? null,
     startYear: e.startYear ?? 0,
     endYear: e.endYear ?? 0,
-    description: (e.props?.description as string) ?? '',
+    description: e.description ?? '',
     source: e.source,
   }))
 }
