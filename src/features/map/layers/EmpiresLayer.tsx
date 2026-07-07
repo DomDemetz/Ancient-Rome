@@ -17,22 +17,22 @@ interface EmpiresLayerProps {
  * layer. Assignment is stable per polity name across years and sessions.
  */
 const POLITY_PALETTE = [
-  '#b08a5a', // ochre
-  '#8a9a5b', // moss
-  '#a1665e', // terracotta
-  '#6e8ca0', // slate blue
-  '#9a7bb0', // dusty violet
-  '#5f9e8f', // verdigris
-  '#b0975a', // sand
-  '#7d8a6a', // olive drab
-  '#a67f6a', // clay
-  '#5b8a9a', // petrol
-  '#8f7a9e', // heather
-  '#6da077', // sage
-  '#b58a80', // rosewood
-  '#7a9ab0', // haze blue
-  '#9e8a5f', // bronze
-  '#6a8a8f', // pewter
+  '#b8966a', // ochre
+  '#96a46b', // moss
+  '#aa756e', // terracotta
+  '#7c98aa', // slate blue
+  '#a488b8', // dusty violet
+  '#6fa89a', // verdigris
+  '#b8a16a', // sand
+  '#8a9679', // olive drab
+  '#af8c79', // clay
+  '#6b96a4', // petrol
+  '#9a87a8', // heather
+  '#7caa85', // sage
+  '#bc968d', // rosewood
+  '#87a4b8', // haze blue
+  '#a8966f', // bronze
+  '#79969a', // pewter
 ]
 
 function polityColor(name: string): string {

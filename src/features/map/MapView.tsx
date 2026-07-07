@@ -112,12 +112,12 @@ function BasePane() {
       // World polities live beneath Rome's own territory
       const pane = map.createPane('empiresFill')
       pane.style.zIndex = '235'
-      pane.style.opacity = '0.5'
+      pane.style.opacity = '0.55'
     }
     if (!map.getPane('territoryFill')) {
       const pane = map.createPane('territoryFill')
       pane.style.zIndex = '240'
-      pane.style.opacity = '0.5'
+      pane.style.opacity = '0.55'
     }
     if (!map.getPane('basePolygons')) {
       const pane = map.createPane('basePolygons')
