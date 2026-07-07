@@ -41,7 +41,7 @@
     "lng": 4.342159892826116,
     "source": "Pleiades",
     "props": {
-      "description": "Tombs identified in AAA to the southeast of modern Haraza (حرازة) in Algeria's Kabylia province as mapped on BAtlas 30 H4 and 31 A4."
+      "description": "Tombs identified in AAA to the southeast of modern Haraza (\u062d\u0631\u0627\u0632\u0629) in Algeria's Kabylia province as mapped on BAtlas 30 H4 and 31 A4."
     },
     "category": "funerary"
   },
@@ -102,7 +102,7 @@
     "lng": 52.87459437999806,
     "source": "Pleiades",
     "props": {
-      "description": "A rock-cut relief depicting the investiture of Ardashir I, ca. A.D. 226-242. This relief is the earliest Sasanian monument at Naqš-e Rustam."
+      "description": "A rock-cut relief depicting the investiture of Ardashir I, ca. A.D. 226-242. This relief is the earliest Sasanian monument at Naq\u0161-e Rustam."
     },
     "category": "funerary"
   },
@@ -167,7 +167,7 @@
     "qid": { "label": "Tomb of Marcus Tullius", "qid": "Q127510222" },
     "source": "Pleiades",
     "props": {
-      "description": "The schola-type tomb of one Marcus Tullius is located outside the Porta Stabia of Pompeii. The decedent is thought to have been the patron of the Aedes For­tunae Augustae and was three times duovir and tribunus militum a populo."
+      "description": "The schola-type tomb of one Marcus Tullius is located outside the Porta Stabia of Pompeii. The decedent is thought to have been the patron of the Aedes For\u00adtunae Augustae and was three times duovir and tribunus militum a populo."
     },
     "category": "funerary"
   },
@@ -223,22 +223,22 @@
   {
     "id": "pleiades:177113801",
     "type": "tomb",
-    "name": "Tumulus de Péré",
+    "name": "Tumulus de P\u00e9r\u00e9",
     "lat": 46.149157603741905,
     "lng": -0.5310750228145403,
     "source": "Pleiades",
     "props": {
-      "description": "The Péré tumulus, or Pairé tumulus, is a Neolithic tumulus that dates from the fifth millennium B.C. The site is located in Prissé-la-Charrière, in Deux-Sèvres, in New Aquitaine, France. It is composed of three main megalithic structures, built at different times."
+      "description": "The P\u00e9r\u00e9 tumulus, or Pair\u00e9 tumulus, is a Neolithic tumulus that dates from the fifth millennium B.C. The site is located in Priss\u00e9-la-Charri\u00e8re, in Deux-S\u00e8vres, in New Aquitaine, France. It is composed of three main megalithic structures, built at different times."
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:331947243",
     "type": "cemetery",
-    "name": "Necròpolis fenicia de Jardin",
+    "name": "Necr\u00f2polis fenicia de Jardin",
     "lat": 36.7426071,
     "lng": -4.116888,
-    "qid": "Q97632336: Necrópolis fenicia de Jardín",
+    "qid": "Q97632336: Necr\u00f3polis fenicia de Jard\u00edn",
     "source": "Pleiades",
     "props": {
       "description": "A Punic necropolis located in Los Toscanos, Spain, that was in use from the sixth to the fourth centuries BCE."
@@ -314,13 +314,13 @@
   {
     "id": "pleiades:226593803",
     "type": "cemetery",
-    "name": "Lamā Cemetery",
+    "name": "Lam\u0101 Cemetery",
     "lat": 31.0449,
     "lng": 51.2172,
     "source": "Pleiades",
     "props": {
       "description": "Cemetery site near Lama village, Iran with almost 60 graves dating to the late 2nd-early 1st millennium CE. Most of the graves were destroyed by bulldozing in the area for a road in December 1999.",
-      "ancientName": "Lamā"
+      "ancientName": "Lam\u0101"
     },
     "category": "funerary"
   },
@@ -461,12 +461,12 @@
   {
     "id": "pleiades:148022",
     "type": "cemetery",
-    "name": "La Brèche (necropolis)",
+    "name": "La Br\u00e8che (necropolis)",
     "lat": 44.113195,
     "lng": 4.693504,
     "source": "Pleiades",
     "props": {
-      "description": "A large necropolis excavated under rescue conditions in the 20th century. Grave goods indicated a long period of use, stretching from as early as the third century CE to as late as the sixteenth. The site is located in the French commune of Laudun-l'Ardoise, near the confluences of the Tave, Céze, and Rhône rivers."
+      "description": "A large necropolis excavated under rescue conditions in the 20th century. Grave goods indicated a long period of use, stretching from as early as the third century CE to as late as the sixteenth. The site is located in the French commune of Laudun-l'Ardoise, near the confluences of the Tave, C\u00e9ze, and Rh\u00f4ne rivers."
     },
     "category": "funerary"
   },
@@ -510,11 +510,11 @@
   {
     "id": "pleiades:148177",
     "type": "cemetery",
-    "name": "St-Andéol",
+    "name": "St-And\u00e9ol",
     "lat": 44.153408,
     "lng": 5.111341,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 15 E1 St-Andéol" },
+    "props": { "description": "An ancient place, cited: BAtlas 15 E1 St-And\u00e9ol" },
     "category": "funerary"
   },
   {
@@ -530,13 +530,13 @@
   {
     "id": "pleiades:194611949",
     "type": "tumulus",
-    "name": "Tavşan Tepe Tümülüsü",
+    "name": "Tav\u015fan Tepe T\u00fcm\u00fcl\u00fcs\u00fc",
     "lat": 39.11508372914111,
     "lng": 27.194744250889574,
     "qid": { "label": "Tavsan Tepe Tumulus", "qid": "Q64705218" },
     "source": "Pleiades",
     "props": {
-      "description": "The Tavşan Tepe Tümülüsü is a tumulus at Pergamon included in the UNESCO World Heritage site \"Pergamon and its Multi-Layered Cultural Landscape\".",
+      "description": "The Tav\u015fan Tepe T\u00fcm\u00fcl\u00fcs\u00fc is a tumulus at Pergamon included in the UNESCO World Heritage site \"Pergamon and its Multi-Layered Cultural Landscape\".",
       "ancientName": "Tavsan Tepe Tumulus"
     },
     "category": "funerary"
@@ -654,7 +654,7 @@
     "qid": "Q3305261: Melone Sode II",
     "source": "Pleiades",
     "props": {
-      "description": "Etruscan tumulus-type tombs of the seventh through fourth centuries B.C. located near Cortona, Italy, in località Il Mulino."
+      "description": "Etruscan tumulus-type tombs of the seventh through fourth centuries B.C. located near Cortona, Italy, in localit\u00e0 Il Mulino."
     },
     "category": "funerary"
   },
@@ -681,7 +681,8 @@
       "description": "A Roman villa in the modern Lugnano commune of Italy's Terni province. Substantial architectural remains dating to the Roman imperial period have been excavated there, as well as a later (5th century CE?) collection of child and infant burials that gained significant media attention.",
       "ancientName": "Poggio Gramignano Roman Villa"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q66945050"
   },
   {
     "id": "pleiades:463738468",
@@ -1039,13 +1040,13 @@
   {
     "id": "pleiades:633771263",
     "type": "tumulus",
-    "name": "Verbovskiĭ Mogil'nik",
+    "name": "Verbovski\u012d Mogil'nik",
     "lat": 45.069464,
     "lng": 41.908704,
     "source": "Pleiades",
     "props": {
       "description": "A burial mound dated to the fourth-third centuries BCE located northwest of the city of Stavropol'.",
-      "ancientName": "Verbovskiĭ mogilʹnik"
+      "ancientName": "Verbovski\u012d mogil\u02b9nik"
     },
     "category": "funerary"
   },
@@ -1072,7 +1073,8 @@
     "props": {
       "description": "A palatial complex that includes a villa originally built during the fourth century, Carranque also has significant Visigothic and Christian phases."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q766555"
   },
   {
     "id": "pleiades:576118706",
@@ -1087,13 +1089,13 @@
   {
     "id": "pleiades:844955",
     "type": "tomb",
-    "name": "İskilip rock tomb",
+    "name": "\u0130skilip rock tomb",
     "lat": 40.770117,
     "lng": 34.363792,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient rock tomb located near modern İskilip in Turkey.",
-      "ancientName": "İskilīb"
+      "description": "An ancient rock tomb located near modern \u0130skilip in Turkey.",
+      "ancientName": "\u0130skil\u012bb"
     },
     "category": "funerary"
   },
@@ -1307,7 +1309,7 @@
   {
     "id": "pleiades:929943122",
     "type": "cemetery",
-    "name": "Beit She’arim",
+    "name": "Beit She\u2019arim",
     "lat": 32.7037666,
     "lng": 35.1292388,
     "qid": { "label": "Beit She'arim National Park", "qid": "Q830805" },
@@ -1343,7 +1345,8 @@
       "description": "The West Kennet Long Barrow is a chambered long barrow located near the village of Avebury in south-western England. It dates to Britain's Early Neolithic period.",
       "ancientName": "West Kennet Long Barrow"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q541312"
   },
   {
     "id": "pleiades:653482567",
@@ -1356,7 +1359,8 @@
       "description": "A Roman tomb at Centuripe known as \"La Dogana\".",
       "ancientName": "Dogana di Centuripe"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q62113614"
   },
   {
     "id": "pleiades:952037562",
@@ -1367,7 +1371,7 @@
     "qid": { "label": "Heroon of Aeneas", "qid": "Q21208538" },
     "source": "Pleiades",
     "props": {
-      "description": "A tumulus at Lavinium located near the Latin federal sanctuary that has been associated with the tomb of Aeneas and/or a heroön dedicated to him."
+      "description": "A tumulus at Lavinium located near the Latin federal sanctuary that has been associated with the tomb of Aeneas and/or a hero\u00f6n dedicated to him."
     },
     "category": "funerary"
   },
@@ -1449,15 +1453,16 @@
   {
     "id": "pleiades:477527423",
     "type": "tomb",
-    "name": "Hypogeum of Ħal-Saflieni (Malta)",
+    "name": "Hypogeum of \u0126al-Saflieni (Malta)",
     "lat": 35.86956007754785,
     "lng": 14.50690577416394,
     "source": "Pleiades",
     "props": {
       "description": "A prehistoric, subterranean temple; named as a UNESCO World Heritage Site in 1980.",
-      "ancientName": "Hypogeum of Ħal-Saflieni"
+      "ancientName": "Hypogeum of \u0126al-Saflieni"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q755514"
   },
   {
     "id": "pleiades:789002570",
@@ -1576,7 +1581,8 @@
     "props": {
       "description": "Ancient synagogue site and burial place of Rabbi Shamai just south of Meron, Israel. The site was occupied in the early 1st century BCE, again from the late 2nd to the late 3rd, from the early 4th century to the mid-7th century, from this point until the mid-9th century, and finally from the mid-12th century until the late-13th century."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q47466672"
   },
   {
     "id": "pleiades:839097640",
@@ -1757,13 +1763,13 @@
   {
     "id": "pleiades:974747818",
     "type": "cemetery",
-    "name": " Ėl'khotovskiĭ nekropolʹ",
+    "name": " \u0116l'khotovski\u012d nekropol\u02b9",
     "lat": 43.311397,
     "lng": 44.234774,
     "source": "Pleiades",
     "props": {
-      "description": "Burial site in North Ossetia–Alania containing 58 burials associated with the Koban culture (8th-7th centuries BCE), as well as 26 medieval burials (14th century CE).",
-      "ancientName": "Ėlʹkhotovskiĭ nekropolʹ, Ėlʹkhotovskiĭ mogilʹnik, Ėlʹkhotovskiy nekropolʹ, Ėlʹkhotovskiy mogilʹnik"
+      "description": "Burial site in North Ossetia\u2013Alania containing 58 burials associated with the Koban culture (8th-7th centuries BCE), as well as 26 medieval burials (14th century CE).",
+      "ancientName": "\u0116l\u02b9khotovski\u012d nekropol\u02b9, \u0116l\u02b9khotovski\u012d mogil\u02b9nik, \u0116l\u02b9khotovskiy nekropol\u02b9, \u0116l\u02b9khotovskiy mogil\u02b9nik"
     },
     "category": "funerary"
   },
@@ -1859,13 +1865,13 @@
   {
     "id": "pleiades:581247661",
     "type": "cemetery",
-    "name": "Visigothic necropolis, Duratón",
+    "name": "Visigothic necropolis, Durat\u00f3n",
     "lat": 41.28809812763163,
     "lng": -3.682041987873473,
-    "qid": { "label": "Duratón Necropolis", "qid": "Q30728461" },
+    "qid": { "label": "Durat\u00f3n Necropolis", "qid": "Q30728461" },
     "source": "Pleiades",
     "props": {
-      "description": "A Visigothic necropolis at Duratón, Spain, that was discovered in 1929."
+      "description": "A Visigothic necropolis at Durat\u00f3n, Spain, that was discovered in 1929."
     },
     "category": "funerary"
   },
@@ -1920,13 +1926,13 @@
   {
     "id": "pleiades:814953386",
     "type": "tumulus",
-    "name": "İkiz Tepe Tümülüsü",
+    "name": "\u0130kiz Tepe T\u00fcm\u00fcl\u00fcs\u00fc",
     "lat": 39.103251757986754,
     "lng": 27.169647162649657,
     "qid": { "label": "Ikili Tumuli", "qid": "Q64705217" },
     "source": "Pleiades",
     "props": {
-      "description": "İkiz Tepe Tümülüsü (also Ikili Tumuli) is a tumulus near Pergamon that is included in the UNESCO World Heritage site \"Pergamon and its Multi-Layered Cultural Landscape\".",
+      "description": "\u0130kiz Tepe T\u00fcm\u00fcl\u00fcs\u00fc (also Ikili Tumuli) is a tumulus near Pergamon that is included in the UNESCO World Heritage site \"Pergamon and its Multi-Layered Cultural Landscape\".",
       "ancientName": "Ikili Tumuli"
     },
     "category": "funerary"
@@ -1953,7 +1959,8 @@
     "props": {
       "description": "A site at Ephesus that is one of several contenders in western Asia for the site of the tradition of the 'seven sleepers', individuals who sought refuge in a cave ca. 250 CE and then emerged from said cave 309 lunar years later, according to the Quran."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1409276"
   },
   {
     "id": "pleiades:214795234",
@@ -1974,20 +1981,20 @@
     "qid": { "label": "Mastaba of Khentika", "qid": "Q3297830" },
     "source": "Pleiades",
     "props": {
-      "description": "The Mastaba of Khentika at Qila ad-Babba near Balat in ad-Dakhla depression, Egypt, dates from the Sixth Dynasty of ancient Egypt. Khentika was a wealthy official and served as the governor of the Dakhla Oasis during the reign of Pharaoh Pepi II, (2284 – ca. 2216 BCE)."
+      "description": "The Mastaba of Khentika at Qila ad-Babba near Balat in ad-Dakhla depression, Egypt, dates from the Sixth Dynasty of ancient Egypt. Khentika was a wealthy official and served as the governor of the Dakhla Oasis during the reign of Pharaoh Pepi II, (2284 \u2013 ca. 2216 BCE)."
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:404195046",
     "type": "cemetery",
-    "name": "Roman necropolis at Šempeter v Savinjski Dolini",
+    "name": "Roman necropolis at \u0160empeter v Savinjski Dolini",
     "lat": 46.255398713579005,
     "lng": 15.123281451437407,
-    "qid": "Q71990907: Roman necropolis at Šempeter v Savinjski Dolini",
+    "qid": "Q71990907: Roman necropolis at \u0160empeter v Savinjski Dolini",
     "source": "Pleiades",
     "props": {
-      "description": "Šempeter v Savinjski Dolini lies along the former Roman road from Aquilea to Poetovio. The necropolis, dating to the first through third centuries A.D., may be associated with anicent Celeia."
+      "description": "\u0160empeter v Savinjski Dolini lies along the former Roman road from Aquilea to Poetovio. The necropolis, dating to the first through third centuries A.D., may be associated with anicent Celeia."
     },
     "category": "funerary"
   },
@@ -2153,7 +2160,8 @@
     "props": {
       "description": "A large Early Helladic cemetery excavated at the Leoforos Plataion near Marathon, Attiki."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q107498002"
   },
   {
     "id": "pleiades:12006394",
@@ -2360,7 +2368,8 @@
       "description": "Chervony Mayak (Kherson Oblast, Ukraine) is the site of a necropolis associated with the Late Scythian culture (second and mid-third centuries CE).",
       "ancientName": "Chervony Mayak"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q97306098"
   },
   {
     "id": "pleiades:197672107",
@@ -2535,7 +2544,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A pyramid built by Pharaoh Sneferu (ca. 2600 BC).",
-      "ancientName": "Pyramide rhomboïdale"
+      "ancientName": "Pyramide rhombo\u00efdale"
     },
     "category": "funerary"
   },
@@ -2577,7 +2586,8 @@
       "description": "el-Lahun was a planned 'pyramid town' that supported a royal mortuary complex and other activities associated with the Pyramid of Senusret II, which was located less than a kilometer west of the settlement.",
       "ancientName": "Illahun"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q56924"
   },
   {
     "id": "pleiades:490324372",
@@ -2587,9 +2597,10 @@
     "lng": -8.588076236699509,
     "source": "Pleiades",
     "props": {
-      "description": "A Calcolithic necropolis comprised of megalithic monuments located near Portimão, Portugal."
+      "description": "A Calcolithic necropolis comprised of megalithic monuments located near Portim\u00e3o, Portugal."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1747799"
   },
   {
     "id": "pleiades:838349787",
@@ -2782,7 +2793,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A Scythian burial site containing burials from the fourth to second centuries B.C.; located near the Dnieper River, southeast of the modern village of Balky.",
-      "ancientName": "Gaĭmanova Mogila, Gajmanova Mogila, Gaimanova Mogila"
+      "ancientName": "Gai\u0306manova Mogila, Gajmanova Mogila, Gaimanova Mogila"
     },
     "category": "funerary"
   },
@@ -2819,7 +2830,7 @@
     "lng": 35.829145,
     "source": "Pleiades",
     "props": {
-      "description": "A number of monumental, rupestral tombs at ancient Amaseia (modern Amasya in Turkey) among which 5 large ones are mentioned by Strabo and attributed to the kings. Mount Harşena and the Rock-tombs of the Pontic Kings were submitted to the Tentative World Heritage Lists in 2005 by the Permanent Delegation of Turkey to UNESCO."
+      "description": "A number of monumental, rupestral tombs at ancient Amaseia (modern Amasya in Turkey) among which 5 large ones are mentioned by Strabo and attributed to the kings. Mount Har\u015fena and the Rock-tombs of the Pontic Kings were submitted to the Tentative World Heritage Lists in 2005 by the Permanent Delegation of Turkey to UNESCO."
     },
     "category": "funerary"
   },
@@ -2961,9 +2972,10 @@
     "source": "Pleiades",
     "props": {
       "description": "An extensive Roman necropolis, with burials stretching back to at least the Hellenistic age, lies south and southwest of the so-called \"Red Hall basilica\" beneath the modern Turabey Mahallesi neighborhood of Bergama, Turkey.",
-      "ancientName": "Güney Nekropol, Guney Nekropol"
+      "ancientName": "G\u00fcney Nekropol, Guney Nekropol"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q131934430"
   },
   {
     "id": "pleiades:913253768",
@@ -2975,18 +2987,19 @@
     "props": {
       "description": "A large (300 acres), multiperiod (Old Kingdom through late Roman) cemetery located just beyond the arable land of the eastern Fayoum in Egypt. It likely served the nearby ancient settlements of Tanis, Philadelphia, and Selia."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q22919830"
   },
   {
     "id": "pleiades:69832953",
     "type": "cemetery",
-    "name": "Khirbet Kūfīn",
+    "name": "Khirbet K\u016bf\u012bn",
     "lat": 31.617046,
     "lng": 35.113023,
     "source": "Pleiades",
     "props": {
       "description": "Necropolis in the West Bank near the modern village of Beit Ummar dated to the Middle Bronze Age.",
-      "ancientName": "Khirbet Kūfīn, Khirbat Kūfīn, Khirbet Koufin, Kusin"
+      "ancientName": "Khirbet K\u016bf\u012bn, Khirbat K\u016bf\u012bn, Khirbet Koufin, Kusin"
     },
     "category": "funerary"
   },
@@ -3202,7 +3215,7 @@
     "qid": "Q37200: Great Pyramid of Giza",
     "source": "Pleiades",
     "props": {
-      "description": "The Great Pyramid of Khufu was built ca. 2580–2560 B.C. during the 4th dynasty of ancient Egypt. It initially stood to a height of 146.5 meters (481 feet).",
+      "description": "The Great Pyramid of Khufu was built ca. 2580\u20132560 B.C. during the 4th dynasty of ancient Egypt. It initially stood to a height of 146.5 meters (481 feet).",
       "ancientName": "The Great Pyramid at Giza"
     },
     "category": "funerary"
@@ -3258,7 +3271,8 @@
       "description": "The Crypta Balbi, mentioned by name only in the Regionary Catalogues, most likely refers to a vaulted passageway built in the Campus Martius by the proconsul Lucius Cornelius Balbus in 15 BC, who also dedicated a theater there in the same year.",
       "ancientName": "Crypta Balbi"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q3005742"
   },
   {
     "id": "pleiades:149451361",
@@ -3403,7 +3417,7 @@
     "qid": { "label": "Mausoleum of Maxentius", "qid": "Q22919904" },
     "source": "Pleiades",
     "props": {
-      "description": "Tomb of Valerius Romulus (ca. AD 292/295 – 309), son of Maxentius, along the Via Appia.",
+      "description": "Tomb of Valerius Romulus (ca. AD 292/295 \u2013 309), son of Maxentius, along the Via Appia.",
       "ancientName": "Mausoleum of Romulus"
     },
     "category": "funerary"
@@ -3411,10 +3425,10 @@
   {
     "id": "pleiades:549204946",
     "type": "tomb",
-    "name": "Giants' grave of Sa Dom'è s'Orcu (Quartucciu)",
+    "name": "Giants' grave of Sa Dom'\u00e8 s'Orcu (Quartucciu)",
     "lat": 39.2575428,
     "lng": 9.3597214,
-    "qid": "Q20009842: Giants' grave of Sa Dom'è s'Orcu",
+    "qid": "Q20009842: Giants' grave of Sa Dom'\u00e8 s'Orcu",
     "source": "Pleiades",
     "props": {
       "description": "A \"Giant's tomb\" of the fourteenth and thirteenth centuries B.C."
@@ -3432,7 +3446,8 @@
       "description": "The Tomb of Petosiris at Tuna el-Gebel dates to the late fourth century BCE. Petosiris, also called Ankhefenkhons, served as the high priest of Thoth at Hermopolis during the 28th Dynasty of ancient Egypt.",
       "ancientName": "Tomb of Petosiris at Tuna el-Gebel"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q71990944"
   },
   {
     "id": "pleiades:846808377",
@@ -3567,7 +3582,7 @@
     "lng": 6.373559,
     "source": "Pleiades",
     "props": {
-      "description": "BAtlas mapped a large number of unnamed sites in map 34 gridsquare E2. The corresponding atlas directory entry cites AAA 27.28, 38, 39 without comment."
+      "description": "BAtlas mapped a large number of unnamed sites in map 34 gridsquare E2. The corresponding atlas directory entry cites AAA 27.28,\u00a038,\u00a039 without comment."
     },
     "category": "funerary"
   },
@@ -3726,7 +3741,8 @@
       "description": "A Roman mausoleum dating to the early fourth century CE located at Punta del Moral, Isla de Canela, Ayamonte.",
       "ancientName": "Mausoleo romano de Punta del Moral"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q6007265"
   },
   {
     "id": "pleiades:920972287",
@@ -3739,7 +3755,8 @@
       "description": "A burial mound described by Pausanias as the Tomb of Theban general Epaminondas. Located near Mantineia, east of Milia.",
       "ancientName": "Taphos to Epaminoda"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q107162062"
   },
   {
     "id": "pleiades:166806801",
@@ -3894,7 +3911,7 @@
   {
     "id": "pleiades:650870018",
     "type": "tomb",
-    "name": "Kral Kaya Mezarları",
+    "name": "Kral Kaya Mezarlar\u0131",
     "lat": 40.653462,
     "lng": 35.8306128,
     "qid": "Q6022363: Tombs of the Kings of Pontus",
@@ -3998,7 +4015,8 @@
     "props": {
       "description": "A brick rotunda of the fourth century AD ordered by the emperor Galerius for use as either a tomb or temple; later incorporated into the Christian Church of Agios Georgios. Listed as a UNESCO World Heritage Site in 1988"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1584841"
   },
   {
     "id": "pleiades:586277025",
@@ -4043,18 +4061,19 @@
     "props": {
       "description": "A Middle to Late Bronze Age settlement located on the hill of Megali Magoula that includes Mycenaean chamber tombs."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1884054"
   },
   {
     "id": "pleiades:582585975",
     "type": "cemetery",
-    "name": "Krasnyĭ mai͡ak",
+    "name": "Krasny\u012d mai\u0361ak",
     "lat": 46.959847509561584,
     "lng": 33.60809887885473,
     "source": "Pleiades",
     "props": {
       "description": "Late Scythian burial site on the Lower Dnieper River containing burials dated to the 3rd century BCE-2nd century CE.",
-      "ancientName": "Krasnyĭ mai͡ak, Krasnyy mayak"
+      "ancientName": "Krasny\u012d mai\u0361ak, Krasnyy mayak"
     },
     "category": "funerary"
   },
@@ -4181,7 +4200,7 @@
     "lng": 9.195176,
     "source": "Pleiades",
     "props": {
-      "description": "The archaeological site of Pill'è Matta preserves remains of a Punic-Roman necropolis in use from the fourth century B.C. until the fifth century A.D."
+      "description": "The archaeological site of Pill'\u00e8 Matta preserves remains of a Punic-Roman necropolis in use from the fourth century B.C. until the fifth century A.D."
     },
     "category": "funerary"
   },
@@ -4205,10 +4224,10 @@
     "name": "Akbou mausoleum",
     "lat": 36.446241,
     "lng": 4.52919,
-    "qid": { "label": "Mausolée romain d'Ausium", "qid": "Q65130675" },
+    "qid": { "label": "Mausol\u00e9e romain d'Ausium", "qid": "Q65130675" },
     "source": "Pleiades",
     "props": {
-      "description": "An ancient mausoleum located at modern Akbou on the north slope of a prominent hill in the southwestern neighborhood of Bouzeroual (Béjaïa Province, Algeria).",
+      "description": "An ancient mausoleum located at modern Akbou on the north slope of a prominent hill in the southwestern neighborhood of Bouzeroual (B\u00e9ja\u00efa Province, Algeria).",
       "ancientName": "Roman mausoleum of Akbou"
     },
     "category": "funerary"
@@ -4238,7 +4257,8 @@
       "description": "Funerary complex of King Senusret III at Dahshur including a pyramid.",
       "ancientName": "Pyramid-complex of Senusret III"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1752090"
   },
   {
     "id": "pleiades:206207289",
@@ -4317,7 +4337,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A Scythian burial mound dated to the fourth century B.C. located near the village of Bratolyubivka in Kherson Oblast, Ukraine.",
-      "ancientName": "Bratolyubovskii Kurgan, Bratoli͡ubovskiĭ Kurgan, Bratoljubovka Kurgan, Bratolyubivka Kurgan, Bratolyubovka Kurgan"
+      "ancientName": "Bratolyubovskii Kurgan, Bratoli\u0361ubovski\u012d Kurgan, Bratoljubovka Kurgan, Bratolyubivka Kurgan, Bratolyubovka Kurgan"
     },
     "category": "funerary"
   },
@@ -4338,10 +4358,10 @@
   {
     "id": "pleiades:453123696",
     "type": "cemetery",
-    "name": "Başur Höyük",
+    "name": "Ba\u015fur H\u00f6y\u00fck",
     "lat": 37.980053791721446,
     "lng": 41.779015867972625,
-    "qid": { "label": "Başur Höyük", "qid": "Q6100419" },
+    "qid": { "label": "Ba\u015fur H\u00f6y\u00fck", "qid": "Q6100419" },
     "source": "Pleiades",
     "props": {
       "description": "A Bronze Age funereal mound located in Turkey's south-eastern Siirt Province.",
@@ -4413,10 +4433,10 @@
   {
     "id": "pleiades:459348706",
     "type": "tomb",
-    "name": "S’Ena ’e Thomes",
+    "name": "S\u2019Ena \u2019e Thomes",
     "lat": 40.3789801,
     "lng": 9.515362,
-    "qid": { "label": "S’Ena ’e Thomes", "qid": "Q2382880" },
+    "qid": { "label": "S\u2019Ena \u2019e Thomes", "qid": "Q2382880" },
     "source": "Pleiades",
     "props": { "description": "A well-preserved 'giant's tomb' dating ca. 2000-1600 BC." },
     "category": "funerary"
@@ -4432,7 +4452,8 @@
       "description": "A hill located several hundred meters north of the Minoan center of Gournia, where a series of Minoan tombs were excavated beginning in the early twentieth century.",
       "ancientName": "Sphoungaras"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1564586"
   },
   {
     "id": "pleiades:629588005",
@@ -4558,7 +4579,7 @@
     "qid": { "label": "mortuary complex of Pepi I", "qid": "Q1536118" },
     "source": "Pleiades",
     "props": {
-      "description": "One of the pyramids at Saqqarah in Egypt. Pepi I was a pharaoh of the Sixth Dynasty and reigned from ca. 2332–2287 B.C."
+      "description": "One of the pyramids at Saqqarah in Egypt. Pepi I was a pharaoh of the Sixth Dynasty and reigned from ca. 2332\u20132287 B.C."
     },
     "category": "funerary"
   },
@@ -4656,13 +4677,13 @@
   {
     "id": "pleiades:847951890",
     "type": "tumulus",
-    "name": "Chûn Quoit",
+    "name": "Ch\u00fbn Quoit",
     "lat": 50.1485947,
     "lng": -5.6377411,
-    "qid": { "label": "Chûn Quoit", "qid": "Q1091060" },
+    "qid": { "label": "Ch\u00fbn Quoit", "qid": "Q1091060" },
     "source": "Pleiades",
     "props": {
-      "description": "Chûn Quoit is a dolmen-type tomb located in Cornwall. The quoit was likely originally covered by a barrow."
+      "description": "Ch\u00fbn Quoit is a dolmen-type tomb located in Cornwall. The quoit was likely originally covered by a barrow."
     },
     "category": "funerary"
   },
@@ -4698,7 +4719,7 @@
     "lng": -3.7168904,
     "source": "Pleiades",
     "props": {
-      "description": "An archaeological site connected with ancient Oretum, now located adjacent to the Ermita-Santuario de Nuestra Señora de Oreto y Zuqueca."
+      "description": "An archaeological site connected with ancient Oretum, now located adjacent to the Ermita-Santuario de Nuestra Se\u00f1ora de Oreto y Zuqueca."
     },
     "category": "funerary"
   },
@@ -4876,13 +4897,13 @@
   {
     "id": "pleiades:888625052",
     "type": "cemetery",
-    "name": "Mogil'nik Maĭtan",
+    "name": "Mogil'nik Ma\u012dtan",
     "lat": 50.093610208844424,
     "lng": 74.4499472422452,
     "source": "Pleiades",
     "props": {
       "description": "Bronze Age burial ground in east-central Kazakhstan.",
-      "ancientName": "Mogilʹnik Maĭtan, Mogilʹnik Maytan "
+      "ancientName": "Mogil\u02b9nik Ma\u012dtan, Mogil\u02b9nik Maytan "
     },
     "category": "funerary"
   },
@@ -4908,7 +4929,7 @@
     "qid": { "label": "Tomb of Charmylos", "qid": "Q83731063" },
     "source": "Pleiades",
     "props": {
-      "description": "The Grave of Charmylos is a third-century BCE vaulted tomb located on Kos. The site is understood as a heroön dedicated to the legendary king Charmylos. The ancient site was dismantled and partially reused in the church of Tímios Stávros.",
+      "description": "The Grave of Charmylos is a third-century BCE vaulted tomb located on Kos. The site is understood as a hero\u00f6n dedicated to the legendary king Charmylos. The ancient site was dismantled and partially reused in the church of T\u00edmios St\u00e1vros.",
       "ancientName": "Tomb of Charmylos"
     },
     "category": "funerary"
@@ -4916,13 +4937,13 @@
   {
     "id": "pleiades:743822664",
     "type": "cemetery",
-    "name": "Solenyĭ Dol",
+    "name": "Soleny\u012d Dol",
     "lat": 52.434776707725284,
     "lng": 60.14336839422479,
     "source": "Pleiades",
     "props": {
       "description": "Burial complex in the southern Ural Mountains region containing a number of Late Antique burials.",
-      "ancientName": "Solenyĭ dol"
+      "ancientName": "Soleny\u012d dol"
     },
     "category": "funerary"
   },
@@ -4939,12 +4960,12 @@
   {
     "id": "pleiades:288813555",
     "type": "tomb",
-    "name": "Heroön",
+    "name": "Hero\u00f6n",
     "lat": 37.6773583,
     "lng": 30.5173337,
     "source": "Pleiades",
     "props": {
-      "description": "The so-called Heroön at Sagalassos dominates the Upper Agora in the northwest sector of the city."
+      "description": "The so-called Hero\u00f6n at Sagalassos dominates the Upper Agora in the northwest sector of the city."
     },
     "category": "funerary"
   },
@@ -4963,13 +4984,13 @@
   {
     "id": "pleiades:765003289",
     "type": "tomb",
-    "name": "Bolʹshoĭ Salbykskiĭ kurgan",
+    "name": "Bol\u02b9sho\u012d Salbykski\u012d kurgan",
     "lat": 53.89423825820736,
     "lng": 90.77312335874188,
     "source": "Pleiades",
     "props": {
       "description": "The Great Salbyk Mound is the largest burial mound in the Khakassia region of Russia. The mastaba-like tomb, associated with the Bronze Age Tagar culture, was constructed in the 7th century BCE, and may have had an astronomical function.",
-      "ancientName": "Большой Салбыкский курган"
+      "ancientName": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0421\u0430\u043b\u0431\u044b\u043a\u0441\u043a\u0438\u0439 \u043a\u0443\u0440\u0433\u0430\u043d"
     },
     "category": "funerary"
   },
@@ -5070,7 +5091,8 @@
     "props": {
       "description": "A cross dyke in Burghclere, Basingstoke and Deane, England, United Kingdom."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q17676995"
   },
   {
     "id": "pleiades:517012719",
@@ -5181,11 +5203,11 @@
   {
     "id": "pleiades:609544",
     "type": "tumulus",
-    "name": "Tatarlı",
+    "name": "Tatarl\u0131",
     "lat": 38.24184,
     "lng": 30.495533,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 62 E5 Tatarlı" },
+    "props": { "description": "An ancient place, cited: BAtlas 62 E5 Tatarl\u0131" },
     "category": "funerary"
   },
   {
@@ -5241,13 +5263,13 @@
   {
     "id": "pleiades:277534787",
     "type": "tumulus",
-    "name": "Tumulus aux Six Frères",
+    "name": "Tumulus aux Six Fr\u00e8res",
     "lat": 50.55862512960868,
     "lng": 4.865550958163302,
-    "qid": { "label": "Tumulus aux Six Frères", "qid": "Q2230537" },
+    "qid": { "label": "Tumulus aux Six Fr\u00e8res", "qid": "Q2230537" },
     "source": "Pleiades",
     "props": {
-      "description": "The Tumulus aux Six Frères (tumulus of the six brothers) is a Gallo-Roman burial mound at Dhuy in Belgium."
+      "description": "The Tumulus aux Six Fr\u00e8res (tumulus of the six brothers) is a Gallo-Roman burial mound at Dhuy in Belgium."
     },
     "category": "funerary"
   },
@@ -5279,13 +5301,13 @@
   {
     "id": "pleiades:307125123",
     "type": "cemetery",
-    "name": "Necropolis of Mesu ‘e Montes",
+    "name": "Necropolis of Mesu \u2018e Montes",
     "lat": 40.6322289,
     "lng": 8.6195195,
     "qid": { "label": "Necropolis of Mesu 'e Montes", "qid": "Q1664717" },
     "source": "Pleiades",
     "props": {
-      "description": "The Necropolis of Mesu ‘e Montes contains at least 18 tombs of the domus de janas type. The necropolis dates from the later Neolithic period to the middle Bronze Age.",
+      "description": "The Necropolis of Mesu \u2018e Montes contains at least 18 tombs of the domus de janas type. The necropolis dates from the later Neolithic period to the middle Bronze Age.",
       "ancientName": "Necropolis of Mesu 'e Montes"
     },
     "category": "funerary"
@@ -5329,7 +5351,8 @@
       "description": "A Neolithic ritual site that includes a passage grave dating ca. 4000-3500 BCE.",
       "ancientName": "La Hougue Bie"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1395892"
   },
   {
     "id": "pleiades:441849878",
@@ -5362,7 +5385,7 @@
     "qid": { "label": "Tumulus of Xhendremael", "qid": "Q2235189" },
     "source": "Pleiades",
     "props": {
-      "description": "The Tumulus of Xhendremael (known also as Li Tombe di Hên'mâl) is a Gallo-Roman burial mound near Xhendremael in Belgium. In 1933 the remains of a Roman villa were discovered in its vicinity."
+      "description": "The Tumulus of Xhendremael (known also as Li Tombe di H\u00ean'm\u00e2l) is a Gallo-Roman burial mound near Xhendremael in Belgium. In 1933 the remains of a Roman villa were discovered in its vicinity."
     },
     "category": "funerary"
   },
@@ -5375,7 +5398,7 @@
     "qid": { "label": "Tumulus of Avennes", "qid": "Q2527398" },
     "source": "Pleiades",
     "props": {
-      "description": "The Tumulus of Avennes is a Gallo-Roman burial mound dated to the Flavian period located in Liège Braives, Belgium."
+      "description": "The Tumulus of Avennes is a Gallo-Roman burial mound dated to the Flavian period located in Li\u00e8ge Braives, Belgium."
     },
     "category": "funerary"
   },
@@ -5398,11 +5421,11 @@
     "name": "Los Villares necropolis",
     "lat": 38.9577553,
     "lng": -1.5560966,
-    "qid": { "label": "Necrópolis de Los Villares", "qid": "Q6039303" },
+    "qid": { "label": "Necr\u00f3polis de Los Villares", "qid": "Q6039303" },
     "source": "Pleiades",
     "props": {
       "description": "The site of a pre-Roman Iberian necropolis, dating sixth to fourth centuries BCE located in the municipality of Hoya-Gonzalo (Albacete, Spain).",
-      "ancientName": "Necrópolis de Los Villares"
+      "ancientName": "Necr\u00f3polis de Los Villares"
     },
     "category": "funerary"
   },
@@ -5440,22 +5463,24 @@
     "source": "Pleiades",
     "props": {
       "description": "A rock-cut double tomb on the northwestern slope of the Hill of the Muses in Athens, traditionally associated with Kimon. A 3rd-century AD inscription identifies the owner at that time as Zosimianos, indicating re-use of the structure.",
-      "ancientName": "Kimōnia Mnēmata"
+      "ancientName": "Kim\u014dnia Mn\u0113mata"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q55524296"
   },
   {
     "id": "pleiades:565807319",
     "type": "cemetery",
-    "name": "Early Christian Necropolis of Pécs (Sopianae)",
+    "name": "Early Christian Necropolis of P\u00e9cs (Sopianae)",
     "lat": 46.0773194,
     "lng": 18.2237722,
     "source": "Pleiades",
     "props": {
-      "description": "A series of decorated early Christian tombs dating to the fourth century CE is located in the town of Sopianae, in the Roman Province of Pannonia. The Early Christian Necropolis of Pécs was enrolled as a UNESCO World Heritage Site in 2000.",
+      "description": "A series of decorated early Christian tombs dating to the fourth century CE is located in the town of Sopianae, in the Roman Province of Pannonia. The Early Christian Necropolis of P\u00e9cs was enrolled as a UNESCO World Heritage Site in 2000.",
       "ancientName": "Early Christian Necropolis of Pecs"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q927535"
   },
   {
     "id": "pleiades:47784683",
@@ -5540,8 +5565,8 @@
     "lng": 31.9,
     "source": "Pleiades",
     "props": {
-      "description": "The necropolis associated with the unlocated city This (Thinis), capital city of the unified Egyptian kingdom in the Early Dynastic period. The necropolis stretches for 1.5 kilometers and contains thousands of burials from the Predynastic period through the early Coptic period, with particularly large numbers of burials from the Predynastic period (ca. 3800–3200 BCE) and the late Old Kingdom-First Intermediate Period (ca. 2300–2061 BCE).",
-      "ancientName": "Naga ed-Deir, Naga ed-Dêr, Naj al Dayr, Naj‘ ad Dayr, Nag’ el Deir"
+      "description": "The necropolis associated with the unlocated city This (Thinis), capital city of the unified Egyptian kingdom in the Early Dynastic period. The necropolis stretches for 1.5 kilometers and contains thousands of burials from the Predynastic period through the early Coptic period, with particularly large numbers of burials from the Predynastic period (ca. 3800\u20133200 BCE) and the late Old Kingdom-First Intermediate Period (ca. 2300\u20132061 BCE).",
+      "ancientName": "Naga ed-Deir, Naga ed-D\u00ear, Naj al Dayr, Naj\u2018 ad Dayr, Nag\u2019 el Deir"
     },
     "category": "funerary"
   },
@@ -5554,7 +5579,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Bronze Age burial site of the Alazani-Bedeni culture near the Alazani River in eastern Georgia. The site is dated to the first half of the 24th century BCE. ",
-      "ancientName": "Ananauris didi gorġani 3"
+      "ancientName": "Ananauris didi gor\u0121ani 3"
     },
     "category": "funerary"
   },
@@ -5568,7 +5593,8 @@
     "props": {
       "description": "The mausoleum of Gasr Doga is a monumental, elite Libico-Punic tomb built in the Tarhuna area."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q20396636"
   },
   {
     "id": "pleiades:344560",
@@ -5667,13 +5693,13 @@
   {
     "id": "pleiades:908270988",
     "type": "tumulus",
-    "name": "Bliznet͡sy",
+    "name": "Bliznet\u0361sy",
     "lat": 48.389238500000005,
     "lng": 35.056214,
     "source": "Pleiades",
     "props": {
       "description": "Iron age burial mound near Dnipro (Dnipropetrovsk).",
-      "ancientName": "Bliznet︠s︡y, Bliznets"
+      "ancientName": "Bliznet\ufe20s\ufe21y, Bliznets"
     },
     "category": "funerary"
   },
@@ -5880,7 +5906,8 @@
       "description": "The Strozzacapponi necropolis is an assemblage of Etruscan tombs dating from the third to the first centuries BCE. The chamber tomb is the predominant typology. The necropolis is located near Perugia in Umbria.",
       "ancientName": "necropoli di Strozzacapponi (Perugia - Corciano)"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q3346873"
   },
   {
     "id": "pleiades:507301472",
@@ -5960,7 +5987,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Burial site in the Northern Caucasus containing burials dated from the 6th-4th centuries BCE.",
-      "ancientName": "Mineralovodskiy Mogil'nik, Mineralovodskiĭ mogilʹnik"
+      "ancientName": "Mineralovodskiy Mogil'nik, Mineralovodski\u012d mogil\u02b9nik"
     },
     "category": "funerary"
   },
@@ -6096,7 +6123,8 @@
       "description": "The so-called \"Shore Temple\" of Mahabalipuram is a granite-built tomb at the \"Group of Monuments at Mahabalipuram\" UNESCO World Heritage Site. It dates to the eighth century CE.",
       "ancientName": "Shore Temple"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1144279"
   },
   {
     "id": "pleiades:936225396",
@@ -6147,7 +6175,8 @@
       "description": "A hypogeum tomb of the Hellenistic period in Neapolis (now Naples, Italy).",
       "ancientName": "Ipogeo dei Cristallini"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q20181651"
   },
   {
     "id": "pleiades:438681814",
@@ -6159,7 +6188,8 @@
     "props": {
       "description": "A necropolis at Abydos, Egypt, with royal tombs from the Pre-dynastic period as well as from the Early Dynastic (First and Second dynasties) period."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q853955"
   },
   {
     "id": "pleiades:231800802",
@@ -6207,7 +6237,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Mycenaean burial ground located approximately 8 kilometers west of Nemea containing 20 tombs dated to the 15th century BCE. All but two of the burials were looted in the 1970s, but the illicit finds were retrieved and repatriated to Greece in 1996.",
-      "ancientName": "Aidonia, Aïdhónia"
+      "ancientName": "Aidonia, A\u00efdh\u00f3nia"
     },
     "category": "funerary"
   },
@@ -6232,7 +6262,8 @@
       "description": "The so-called Grotta dei Massacci located in Osteria Nuova, municipality of Frasso Sabino, Italy, is a monumental, vaulted subterranean tomb structure that likely dates to the second century CE.",
       "ancientName": "Grotta dei Massacci"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q55162252"
   },
   {
     "id": "pleiades:367542073",
@@ -6264,13 +6295,13 @@
   {
     "id": "pleiades:280129737",
     "type": "cemetery",
-    "name": "Yüceören necropolis",
+    "name": "Y\u00fcce\u00f6ren necropolis",
     "lat": 36.951583,
     "lng": 35.926024,
     "source": "Pleiades",
     "props": {
-      "description": "Burial ground near Yüceören Hill in Cilicia containing tombs from the Hellenistic, Roman, and Byzantine periods.",
-      "ancientName": "Yüceören nekropolü"
+      "description": "Burial ground near Y\u00fcce\u00f6ren Hill in Cilicia containing tombs from the Hellenistic, Roman, and Byzantine periods.",
+      "ancientName": "Y\u00fcce\u00f6ren nekropol\u00fc"
     },
     "category": "funerary"
   },
@@ -6322,7 +6353,8 @@
     "props": {
       "description": "A circular, domed, apsidal subterranean structure of the Hadrianic period that is referred to as a tomb but may have had a cultic function."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q139373336"
   },
   {
     "id": "pleiades:361831195",
@@ -6374,7 +6406,7 @@
     "qid": { "label": "Carrowmore", "qid": "Q260398" },
     "source": "Pleiades",
     "props": {
-      "description": "A grouping of fourth-millennium BC Neolithic monuments located on the Cúil Irra peninsula near Sligo, Ireland."
+      "description": "A grouping of fourth-millennium BC Neolithic monuments located on the C\u00fail Irra peninsula near Sligo, Ireland."
     },
     "category": "funerary"
   },
@@ -6459,7 +6491,7 @@
   {
     "id": "pleiades:908696791",
     "type": "cemetery",
-    "name": "Tophet de Salammbô",
+    "name": "Tophet de Salammb\u00f4",
     "lat": 36.84140915289429,
     "lng": 10.323100055173116,
     "qid": { "label": "Tophet of Carthage", "qid": "Q3108571" },
@@ -6656,10 +6688,10 @@
     "name": "Uvecik Tepe",
     "lat": 39.90032106545745,
     "lng": 26.199174309437744,
-    "qid": { "label": "Üvecik Tepe", "qid": "Q100138106" },
+    "qid": { "label": "\u00dcvecik Tepe", "qid": "Q100138106" },
     "source": "Pleiades",
     "props": {
-      "description": "Uvecik Tepe or Üvecik Tepe is a tumulus in the Troad built for one Festus, a freedman of the emperor Caracalla."
+      "description": "Uvecik Tepe or \u00dcvecik Tepe is a tumulus in the Troad built for one Festus, a freedman of the emperor Caracalla."
     },
     "category": "funerary"
   },
@@ -6674,18 +6706,19 @@
       "description": "A Mycenaean necropolis located on the island of Amorgos that includes several chamber tombs.",
       "ancientName": "Xylokeratidi necropolis"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q139901039"
   },
   {
     "id": "pleiades:198601655",
     "type": "tumulus",
-    "name": "Yığma Tepe Tumulus",
+    "name": "Y\u0131\u011fma Tepe Tumulus",
     "lat": 39.10438314981009,
     "lng": 27.180918638837092,
     "qid": { "label": "Yigma Tepe Tumulus", "qid": "Q64705216" },
     "source": "Pleiades",
     "props": {
-      "description": "The Yığma Tepe Tumulus is the largest ancient tumulus in the vicinity of Pergamon.",
+      "description": "The Y\u0131\u011fma Tepe Tumulus is the largest ancient tumulus in the vicinity of Pergamon.",
       "ancientName": "Yigma Tepe Tumulus"
     },
     "category": "funerary"
@@ -6881,20 +6914,20 @@
     "source": "Pleiades",
     "props": {
       "description": "The site of the burial of Shepseskaf, the last known pharaoh of the Fourth Dynasty of Ancient Egypt.",
-      "ancientName": "Mastabat al-Fir’aun"
+      "ancientName": "Mastabat al-Fir\u2019aun"
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:575632427",
     "type": "tumulus",
-    "name": "I͡Asinovskiĭ III Kurgan",
+    "name": "I\u0361Asinovski\u012d III Kurgan",
     "lat": 48.04428659718914,
     "lng": 40.80080892086255,
     "source": "Pleiades",
     "props": {
       "description": "Bronze age burial site near the banks of the Seversky Donets.",
-      "ancientName": " I͡Asinovskiĭ III kurgan, Iasinovskii III kurgan, Yasinovskiy III kurgan"
+      "ancientName": " I\u0361Asinovski\u012d III kurgan, Iasinovskii III kurgan, Yasinovskiy III kurgan"
     },
     "category": "funerary"
   },
@@ -7158,7 +7191,7 @@
     "lng": 35.181022,
     "source": "Pleiades",
     "props": {
-      "description": "Cave tomb near the modern village of Silat aḑ-Ḑahr containing burials from the Roman and Byzantine periods (1st-early 7th century CE). The cave is named after the Abu Halimeh family, which owned the land on which the cave is located at the time of its excavation in 1949.",
+      "description": "Cave tomb near the modern village of Silat a\u1e11-\u1e10ahr containing burials from the Roman and Byzantine periods (1st-early 7th century CE). The cave is named after the Abu Halimeh family, which owned the land on which the cave is located at the time of its excavation in 1949.",
       "ancientName": "Mugharet Abu Halimeh"
     },
     "category": "funerary"
@@ -7189,26 +7222,26 @@
   {
     "id": "pleiades:93794091",
     "type": "cemetery",
-    "name": "'Awām",
+    "name": "'Aw\u0101m",
     "lat": 15.40424209746458,
     "lng": 45.35598723300711,
     "source": "Pleiades",
     "props": {
-      "description": "The ruins of the Sabaean temple dedicated to Almaqah and its associated burial ground are located near the town of Mārib, Yemen."
+      "description": "The ruins of the Sabaean temple dedicated to Almaqah and its associated burial ground are located near the town of M\u0101rib, Yemen."
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:21234998",
     "type": "tomb",
-    "name": "Al-'Assāsīf",
+    "name": "Al-'Ass\u0101s\u012bf",
     "lat": 25.7342620572605,
     "lng": 32.61145416105521,
     "qid": { "label": "El-Assasif", "qid": "Q286631" },
     "source": "Pleiades",
     "props": {
       "description": "Necropolis on the West Bank of the Nile near Thebes containing tombs from the 18th, 25th, and 26th dynasties.",
-      "ancientName": "Al-'Assāsīf, El-Assasif, Al-Assaif, Assasif, Asasif, El-Asasif, Al-Asasif"
+      "ancientName": "Al-'Ass\u0101s\u012bf, El-Assasif, Al-Assaif, Assasif, Asasif, El-Asasif, Al-Asasif"
     },
     "category": "funerary"
   },
@@ -7300,7 +7333,7 @@
     "qid": { "label": "Tomb of Servius Sulpicius Galba", "qid": "Q127505183" },
     "source": "Pleiades",
     "props": {
-      "description": "A tomb of the late second century BCE originally located near the Via Ostensis in the district of Rome now known as Testaccio. In antiquity, this was the area known as the Emporium. The tomb is visible on a fragment of the Severan marble plan of Rome and it lies between the Horrea Galbana and the “Porticus Aemilia”. It was rediscovered in 1885 and reconstructed on the grounds of the municipal antiquarium on the Caelian Hill. The tomb belongs to a Servius Sulpicius Galba and is likely to be that of either the consul of 144 BCE or the consul of 108 BCE."
+      "description": "A tomb of the late second century BCE originally located near the Via Ostensis in the district of Rome now known as Testaccio. In antiquity, this was the area known as the Emporium. The tomb is visible on a fragment of the Severan marble plan of Rome and it lies between the Horrea Galbana and the \u201cPorticus Aemilia\u201d. It was rediscovered in 1885 and reconstructed on the grounds of the municipal antiquarium on the Caelian Hill. The tomb belongs to a Servius Sulpicius Galba and is likely to be that of either the consul of 144 BCE or the consul of 108 BCE."
     },
     "category": "funerary"
   },
@@ -7398,26 +7431,26 @@
   {
     "id": "pleiades:749106645",
     "type": "cemetery",
-    "name": "Tiszapolgár-Basatanya",
+    "name": "Tiszapolg\u00e1r-Basatanya",
     "lat": 47.874653,
     "lng": 21.121591,
     "source": "Pleiades",
     "props": {
-      "description": "A Chalcolithic cemetery located at modern Polgár, Hungary, with at least 156 graves. This site is the typesite for the Tiszapolgár or Tiszapolgár-Româneşti culture, an Eneolithic archaeological culture. This archaeological culture has been identified on the Great Hungarian Plain and elsewhere in eastern, central Europe. It dates ca. 4500-4000 BCE."
+      "description": "A Chalcolithic cemetery located at modern Polg\u00e1r, Hungary, with at least 156 graves. This site is the typesite for the Tiszapolg\u00e1r or Tiszapolg\u00e1r-Rom\u00e2ne\u015fti culture, an Eneolithic archaeological culture. This archaeological culture has been identified on the Great Hungarian Plain and elsewhere in eastern, central Europe. It dates ca. 4500-4000 BCE."
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:942179195",
     "type": "tomb",
-    "name": "François Tomb",
+    "name": "Fran\u00e7ois Tomb",
     "lat": 42.4174591,
     "lng": 11.6393258,
     "qid": "Q774929",
     "source": "Pleiades",
     "props": {
       "description": "An important painted Etruscan tomb dating to the final quarter of the fourth century B.C.",
-      "ancientName": "Tomba François"
+      "ancientName": "Tomba Fran\u00e7ois"
     },
     "category": "funerary"
   },
@@ -7432,7 +7465,8 @@
       "description": "A villa, vicus, and necropolis site in modern Puglia, Italy, located near the modern city of Gravina. The site was active from the first to fourth centuries CE.",
       "ancientName": "Vagnari"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q139766165"
   },
   {
     "id": "pleiades:328251340",
@@ -7635,16 +7669,17 @@
       "description": "A Late Imperial catacomb located in the territory of Nepet. The Christian church of San Tolomeo alle Sante Grotte developed at the site of the catacomb.",
       "ancientName": "Catacomba di Santa Savinilla"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q17624209"
   },
   {
     "id": "pleiades:167728",
     "type": "tumulus",
-    "name": "La Côte-St-André",
+    "name": "La C\u00f4te-St-Andr\u00e9",
     "lat": 45.394152,
     "lng": 5.260092,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 17 E3 La Côte-St-André" },
+    "props": { "description": "An ancient place, cited: BAtlas 17 E3 La C\u00f4te-St-Andr\u00e9" },
     "category": "funerary"
   },
   {
@@ -7694,7 +7729,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Center point of Archaic period tholos tomb of Pharsalos, used until the Hellenistic period.",
-      "ancientName": "Tholotos taphos Pharslon, Tholotós táphos Pharsálon"
+      "ancientName": "Tholotos taphos Pharslon, Tholot\u00f3s t\u00e1phos Phars\u00e1lon"
     },
     "category": "funerary"
   },
@@ -7735,7 +7770,8 @@
       "description": "An Etruscan necropolis at Tarquinia with more than 175 tombs.",
       "ancientName": "fondo Scataglini necropolis"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q129256339"
   },
   {
     "id": "pleiades:873325866",
@@ -7760,7 +7796,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A tower at Megara was thought to be the tomb of the legendary Kar, son of Phoroneus.",
-      "ancientName": "Karos tou Phoroneus mnema, Karòs tou Phoroneus mnemá"
+      "ancientName": "Karos tou Phoroneus mnema, Kar\u00f2s tou Phoroneus mnem\u00e1"
     },
     "category": "funerary"
   },
@@ -7788,7 +7824,8 @@
     "props": {
       "description": "The so-called Arc de Campanus is either a funerary monument or a monumental arch dating to the early Roman Imperial period."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q2023885"
   },
   {
     "id": "pleiades:47730716",
@@ -7813,7 +7850,8 @@
       "description": "The Tomb of Marcus Veius Marcellus at Pompeii.",
       "ancientName": "Tomb of Marcus Veius Marcellus"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q104538183"
   },
   {
     "id": "pleiades:711164401",
@@ -7839,7 +7877,8 @@
     "props": {
       "description": "The Tomb of Lucius Verginius Rufus was located at ancient Alsium. Lucius Verginius Rufus (d. 97 CE) was a colleague of Nero and guardian of the younger Pliny, with the latter recording Verginius Rufus' epitaph."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q140238648"
   },
   {
     "id": "pleiades:98212882",
@@ -7864,7 +7903,8 @@
       "description": "A painted Etruscan tomb at Chiusi that dates ca. 170-150 BCE. The tomb has acquired a constellation of modern appellations, including \"tomba della Tassinaie\", \"tomba della Tassinara,\" and \"tomba della Tassinaia\".",
       "ancientName": "Tomb of the Tassinara"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q3531048"
   },
   {
     "id": "pleiades:712997241",
@@ -7877,24 +7917,25 @@
       "description": "A prehistoric necropolis near punta Fenicis that remained in use through the Roman period.",
       "ancientName": "Son Real necropolis"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q727501"
   },
   {
     "id": "pleiades:753895541",
     "type": "cemetery",
-    "name": "Qidfaʻ 1",
+    "name": "Qidfa\u02bb 1",
     "lat": 25.3026303,
     "lng": 56.3562289,
     "source": "Pleiades",
     "props": {
-      "description": "Site of a 2nd millennium BCE tomb located in Qidfaʻ, Fujairah Emirate, United Arab Emirates. The site was damaged by farming in the area."
+      "description": "Site of a 2nd millennium BCE tomb located in Qidfa\u02bb, Fujairah Emirate, United Arab Emirates. The site was damaged by farming in the area."
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:586301785",
     "type": "tomb",
-    "name": "Grand mausolée des Flavii",
+    "name": "Grand mausol\u00e9e des Flavii",
     "lat": 35.17380275242865,
     "lng": 8.798011989857285,
     "qid": "Q42760700: Flavii Mausoleum",
@@ -7949,7 +7990,7 @@
     "qid": { "label": "Necropolis of Monte Luna", "qid": "Q3874156" },
     "source": "Pleiades",
     "props": {
-      "description": "Two adjacent funerary landscapes located south of modern Senorbì on the island of Sardinia, with burials ranging from the 6th century BCE to the 6th century CE."
+      "description": "Two adjacent funerary landscapes located south of modern Senorb\u00ec on the island of Sardinia, with burials ranging from the 6th century BCE to the 6th century CE."
     },
     "category": "funerary"
   },
@@ -8016,7 +8057,8 @@
       "description": "Deir el-Bahari is a complex of mortuary temples and tombs that constitute a part of the Theban necropolis located on the west bank of the Nile river, opposite Luxor.",
       "ancientName": "Deir el-Bahari"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q373909"
   },
   {
     "id": "pleiades:325177167",
@@ -8097,7 +8139,7 @@
   {
     "id": "pleiades:213630462",
     "type": "cemetery",
-    "name": "Tell Aḥmad al-Ḥattū",
+    "name": "Tell A\u1e25mad al-\u1e24att\u016b",
     "lat": 34.257929,
     "lng": 45.001522,
     "source": "Pleiades",
@@ -8195,7 +8237,7 @@
   {
     "id": "pleiades:605745021",
     "type": "cemetery",
-    "name": "Shiveet khaĭrkhany",
+    "name": "Shiveet khai\u0306rkhany",
     "lat": 49.0747887,
     "lng": 88.213107,
     "source": "Pleiades",
@@ -8225,7 +8267,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Cemetery at the Al-Bass site in Tyre containing burials, funerary urns, and stelae dated to the Phoenician period (8th-6th century BCE).",
-      "ancientName": "al-Bass, al-Baṣ, al-Buss, al-Buṣ"
+      "ancientName": "al-Bass, al-Ba\u1e63, al-Buss, al-Bu\u1e63"
     },
     "category": "funerary"
   },
@@ -8238,7 +8280,7 @@
     "source": "Pleiades",
     "props": {
       "description": "The Tyre necropolis, part of the UNESCO World Heritage site of Tyre, contains a triumphal arch and hundreds of stone sarcophagi dated to the Roman and Byzantine periods. It is located adjacent to an older Phoenician burial site.",
-      "ancientName": "al-Bass, el-Bass, al-Baṣ, al-Buss, al-Buṣ"
+      "ancientName": "al-Bass, el-Bass, al-Ba\u1e63, al-Buss, al-Bu\u1e63"
     },
     "category": "funerary"
   },
@@ -8327,7 +8369,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Burial site in northern Iran containing over fifty burials dated to the mid-2nd millennium BCE.",
-      "ancientName": "Mārlik, Marlik"
+      "ancientName": "M\u0101rlik, Marlik"
     },
     "category": "funerary"
   },
@@ -8415,8 +8457,8 @@
     "lng": 0.6040307565137327,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 F2 no. 47 (Puységur)",
-      "ancientName": "Puységur"
+      "description": "An ancient place, cited: BAtlas 25 F2 no. 47 (Puys\u00e9gur)",
+      "ancientName": "Puys\u00e9gur"
     },
     "category": "funerary"
   },
@@ -8439,7 +8481,7 @@
     "lng": -1.2592608,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman mausoleum and villa of the fourth century AD in the locality known as La Sinagoga near Sádaba, Spain."
+      "description": "A Roman mausoleum and villa of the fourth century AD in the locality known as La Sinagoga near S\u00e1daba, Spain."
     },
     "category": "funerary"
   },
@@ -8465,7 +8507,7 @@
     "lng": 64.33388737519762,
     "source": "Pleiades",
     "props": {
-      "description": "Necropolis of the Jūybāri shaikhs located approximately 5 km west of Bukhara. The complex was constructed during the 16th century around the tomb of the scholar Emām Abu Bakr Saʿd. "
+      "description": "Necropolis of the J\u016byb\u0101ri shaikhs located approximately 5 km west of Bukhara. The complex was constructed during the 16th century around the tomb of the scholar Em\u0101m Abu Bakr Sa\u02bfd. "
     },
     "category": "funerary"
   },
@@ -8486,46 +8528,46 @@
   {
     "id": "pleiades:167895",
     "type": "cemetery",
-    "name": "St-Jean-d’Arves",
+    "name": "St-Jean-d\u2019Arves",
     "lat": 45.207861,
     "lng": 6.273031,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 17 G3 St-Jean-d’Arves" },
+    "props": { "description": "An ancient place, cited: BAtlas 17 G3 St-Jean-d\u2019Arves" },
     "category": "funerary"
   },
   {
     "id": "pleiades:187390",
     "type": "cemetery",
-    "name": "Fürst",
+    "name": "F\u00fcrst",
     "lat": 47.900833,
     "lng": 12.749418,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 19 E1 Fürst" },
+    "props": { "description": "An ancient place, cited: BAtlas 19 E1 F\u00fcrst" },
     "category": "funerary"
   },
   {
     "id": "pleiades:20400",
     "type": "cemetery",
-    "name": "Aukštakiemiai, Palanga, Šernai",
+    "name": "Auk\u0161takiemiai, Palanga, \u0160ernai",
     "lat": 55.598525,
     "lng": 21.306626,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 2 H2 Aukštakiemiai, Palanga, Šernai",
-      "ancientName": "Aukštakiemiai, Palanga, Šernai"
+      "description": "An ancient place, cited: BAtlas 2 H2 Auk\u0161takiemiai, Palanga, \u0160ernai",
+      "ancientName": "Auk\u0161takiemiai, Palanga, \u0160ernai"
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:20455",
     "type": "cemetery",
-    "name": "Enekrogen, Kannikegård, Slamrebjerg, Slusegård",
+    "name": "Enekrogen, Kannikeg\u00e5rd, Slamrebjerg, Sluseg\u00e5rd",
     "lat": 55.078983,
     "lng": 15.056726,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 2 G2 Enekrogen, Kannikegård, Slamrebjerg, Slusegård",
-      "ancientName": "Enekrogen, Kannikegård, Slamrebjerg, Slusegård"
+      "description": "An ancient place, cited: BAtlas 2 G2 Enekrogen, Kannikeg\u00e5rd, Slamrebjerg, Sluseg\u00e5rd",
+      "ancientName": "Enekrogen, Kannikeg\u00e5rd, Slamrebjerg, Sluseg\u00e5rd"
     },
     "category": "funerary"
   },
@@ -8571,11 +8613,11 @@
   {
     "id": "pleiades:20565",
     "type": "cemetery",
-    "name": "Öremölla",
+    "name": "\u00d6rem\u00f6lla",
     "lat": 55.418396,
     "lng": 13.572631,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 2 F2 Öremölla" },
+    "props": { "description": "An ancient place, cited: BAtlas 2 F2 \u00d6rem\u00f6lla" },
     "category": "funerary"
   },
   {
@@ -8822,9 +8864,10 @@
     "source": "Pleiades",
     "props": {
       "description": "A large complex of burial mounds located near the town of A'ali in central Bahrain. The burials date to the early Dilmun era, ca. 2050-1700 BCE.",
-      "ancientName": "‘Ālī"
+      "ancientName": "\u2018\u0100l\u012b"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q5276996"
   },
   {
     "id": "pleiades:754338004",
@@ -8888,7 +8931,7 @@
     "lng": 10.323100055173116,
     "source": "Pleiades",
     "props": {
-      "description": "The Tophet of Carthage, also known as tophet de Salammbô, is a hybrid sanctuary-necropolis of Punic Carthage."
+      "description": "The Tophet of Carthage, also known as tophet de Salammb\u00f4, is a hybrid sanctuary-necropolis of Punic Carthage."
     },
     "category": "funerary"
   },
@@ -8928,7 +8971,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Archaeological site on the Ob River in Khanty-Mansi Autonomous Okrug, Russia containing remains dated to the 6th-4th centuries BCE.",
-      "ancientName": "Barsova Gora, Barsovoy Gore, Barsovoĭ Gore, Barsovoĭ Gora"
+      "ancientName": "Barsova Gora, Barsovoy Gore, Barsovo\u012d Gore, Barsovo\u012d Gora"
     },
     "category": "funerary"
   },
@@ -8988,7 +9031,7 @@
     "lng": 11.59780509261329,
     "source": "Pleiades",
     "props": {
-      "description": "The Necropolis of Selva Miccia, located along the road leading to Vulci, contains tombs of the seventh and sixth centuries B.C., corresponding in phase to the elite structure excavated at località Le Sparne."
+      "description": "The Necropolis of Selva Miccia, located along the road leading to Vulci, contains tombs of the seventh and sixth centuries B.C., corresponding in phase to the elite structure excavated at localit\u00e0 Le Sparne."
     },
     "category": "funerary"
   },
@@ -9104,7 +9147,8 @@
     "props": {
       "description": "A pyramid, originally approximately 23m in height, built by the fourth dynasty pharaoh Snefru. The function of the pyramid, which seems to have lacked an interior chamber, is uncertain."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q688720"
   },
   {
     "id": "pleiades:528606605",
@@ -9170,7 +9214,8 @@
     "props": {
       "description": "An ancient place, located in modern Syria, with remains of an ancient basilica, residential buildings, and several tombs. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\""
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q2177952"
   },
   {
     "id": "pleiades:34861001",
@@ -9285,7 +9330,7 @@
     "source": "Pleiades",
     "props": {
       "description": "An ancient place, cited: BAtlas 95 C3 al-Hajjar",
-      "ancientName": "Al-Ḥajar"
+      "ancientName": "Al-\u1e24ajar"
     },
     "category": "funerary"
   },
@@ -9479,7 +9524,7 @@
   {
     "id": "pleiades:708026976",
     "type": "cemetery",
-    "name": "Località De Santis I at Pontecagnano",
+    "name": "Localit\u00e0 De Santis I at Pontecagnano",
     "lat": 40.644837,
     "lng": 14.874014,
     "source": "Pleiades",
@@ -9606,44 +9651,44 @@
   {
     "id": "pleiades:128454",
     "type": "cemetery",
-    "name": "Měnín (cemetery)",
+    "name": "M\u011bn\u00edn (cemetery)",
     "lat": 49.06649211489795,
     "lng": 16.693666064819872,
-    "qid": { "label": "Měnín", "qid": "Q1639245" },
+    "qid": { "label": "M\u011bn\u00edn", "qid": "Q1639245" },
     "source": "Pleiades",
     "props": {
-      "description": "An ancient cemetery, located at modern Měnín in the Czech Republic."
+      "description": "An ancient cemetery, located at modern M\u011bn\u00edn in the Czech Republic."
     },
     "category": "funerary"
   },
   {
     "id": "pleiades:128480",
     "type": "cemetery",
-    "name": "Opatów",
+    "name": "Opat\u00f3w",
     "lat": 50.801822,
     "lng": 21.427217,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 13 D2 Opatów" },
+    "props": { "description": "An ancient place, cited: BAtlas 13 D2 Opat\u00f3w" },
     "category": "funerary"
   },
   {
     "id": "pleiades:128526",
     "type": "cemetery",
-    "name": "Tarnów Opolski Roman Cemetery",
+    "name": "Tarn\u00f3w Opolski Roman Cemetery",
     "lat": 50.59057645424449,
     "lng": 18.061161740776885,
     "source": "Pleiades",
-    "props": { "description": "A Roman cemetery at modern Tarnów Opolski in Poland." },
+    "props": { "description": "A Roman cemetery at modern Tarn\u00f3w Opolski in Poland." },
     "category": "funerary"
   },
   {
     "id": "pleiades:128543",
     "type": "cemetery",
-    "name": "Wrocław-Zakrzów",
+    "name": "Wroc\u0142aw-Zakrz\u00f3w",
     "lat": 51.115846,
     "lng": 17.037203,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 13 C1 Wrocław-Zakrzów" },
+    "props": { "description": "An ancient place, cited: BAtlas 13 C1 Wroc\u0142aw-Zakrz\u00f3w" },
     "category": "funerary"
   },
   {
@@ -9732,7 +9777,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Roman mausoleum dated to the 3rd century CE. In the early Muslim period, the site was used as a shrine to the Prophet John.",
-      "ancientName": "Maqām an-Nebī Yaḥya, Maqam en-Neby Yahya"
+      "ancientName": "Maq\u0101m an-Neb\u012b Ya\u1e25ya, Maqam en-Neby Yahya"
     },
     "category": "funerary"
   },
@@ -9745,7 +9790,7 @@
     "qid": "Q838479: Pyramid of Khentkaus I",
     "source": "Pleiades",
     "props": {
-      "description": "Khentkawes I was a queen of the 4th dynasty of ancient Egypt. She may have been a daughter of the pharaoh Menkaure, and the wife of both kings Shepseskaf and Userkaf. Her tomb at Giza – LG100 – is located close to Menkaure's pyramid complex.",
+      "description": "Khentkawes I was a queen of the 4th dynasty of ancient Egypt. She may have been a daughter of the pharaoh Menkaure, and the wife of both kings Shepseskaf and Userkaf. Her tomb at Giza \u2013 LG100 \u2013 is located close to Menkaure's pyramid complex.",
       "ancientName": "Tomb of Queen Khentkawes"
     },
     "category": "funerary"
@@ -9785,7 +9830,8 @@
       "description": "The remains of a Roman villa and necropolis.",
       "ancientName": "Adro Vello"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q12382506"
   },
   {
     "id": "pleiades:148315058",
@@ -9832,7 +9878,7 @@
     "lng": 22.6918792,
     "source": "Pleiades",
     "props": {
-      "description": "A chamber tomb was excavated to the west of ancient Nemea in 2002 and 2003. The robbed tomb was dated to the Late Helladic IIIA2 period (ca. 1390–1315 BC BCE)."
+      "description": "A chamber tomb was excavated to the west of ancient Nemea in 2002 and 2003. The robbed tomb was dated to the Late Helladic IIIA2 period (ca. 1390\u20131315 BC BCE)."
     },
     "category": "funerary"
   },
@@ -9845,7 +9891,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A burial ground near the modern town of Kislovodsk in the North Caucasus. The site contains 270 burials associated with the Iron Age Koban culture and the early medieval Sarmatians and Alans.",
-      "ancientName": "Klin-Yar, Klin-I͡Ar"
+      "ancientName": "Klin-Yar, Klin-I\u0361Ar"
     },
     "category": "funerary"
   },
@@ -9957,13 +10003,13 @@
   {
     "id": "pleiades:719977882",
     "type": "cemetery",
-    "name": "Bolʹshoĭ Petropavlovskiĭ burial ground",
+    "name": "Bol\u02b9sho\u012d Petropavlovski\u012d burial ground",
     "lat": 45.060068,
     "lng": 40.533009,
     "source": "Pleiades",
     "props": {
       "description": "Burial complex along a stretch of over 3 km of the northern bank of the Siniukha River, a stream in the Laba River valley (Krasnodar region). The necropolis contains over 200 individual burials dated to the Middle Bronze-Early Iron Ages (3rd millennium BCE-3rd century CE).",
-      "ancientName": "Bolʹshoĭ Petropavlovskiĭ mogilʹnik, Bolʹshoy Petropavlovskiy mogilʹnik"
+      "ancientName": "Bol\u02b9sho\u012d Petropavlovski\u012d mogil\u02b9nik, Bol\u02b9shoy Petropavlovskiy mogil\u02b9nik"
     },
     "category": "funerary"
   },
@@ -9977,7 +10023,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Predynastic and Early Dynastic burial site containing over 1,000 burials. It is the type-site of the Amratian culture.",
-      "ancientName": "Al-ʿĀmirah, el-Amrah, el Amrah, el-ʿÂmra, el ʿÂmra"
+      "ancientName": "Al-\u02bf\u0100mirah, el-Amrah, el Amrah, el-\u02bf\u00c2mra, el \u02bf\u00c2mra"
     },
     "category": "funerary"
   },
@@ -10128,7 +10174,7 @@
     "qid": "Q21526234: Mausoleum of Hecatomnus",
     "source": "Pleiades",
     "props": {
-      "description": "A mausoleum and sacred precinct associated with Hecatomnus of Mylasa, who was the satrap of Caria under Artaxerxes II (404–358 BC)."
+      "description": "A mausoleum and sacred precinct associated with Hecatomnus of Mylasa, who was the satrap of Caria under Artaxerxes II (404\u2013358 BC)."
     },
     "category": "funerary"
   },
@@ -10181,7 +10227,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Burial site in the North Caucasus associated with the Alanic culture, containing nearly 100 burials dated from the 5th-12th centuries CE.",
-      "ancientName": "Mokraya Balka, Mokrai͡a Balka "
+      "ancientName": "Mokraya Balka, Mokrai\u0361a Balka "
     },
     "category": "funerary"
   },
@@ -10208,7 +10254,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Qubbet el-Hawa is a site of a group of rock cut tombs known as the Princes' Tomb on the west side of the Nile, opposite Aswan. The tombs mostly date to the Old Kingdom.",
-      "ancientName": "Qubbet el-Hawa, Qubbat al-Hawāʼ"
+      "ancientName": "Qubbet el-Hawa, Qubbat al-Haw\u0101\u02bc"
     },
     "category": "funerary"
   },
@@ -10250,7 +10296,8 @@
       "description": "The pyramid of the Third Dynasty pharaoh Djoser was built at Saqqara by architect Imhotep ca. 2267-2648 B.C.",
       "ancientName": "Pyramid of Djoser"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q192418"
   },
   {
     "id": "pleiades:700326647",
@@ -10274,7 +10321,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Bronze and Iron Age burial ground in the Baraba forest-steppe containing 75 burials of the Pakhomovka culture (late second millennium BCE), plus additional burials from the Andronovo culture (ca. 2200-900 BCE) and Sargat culture (ca. 500-250 BCE).",
-      "ancientName": "Stary Sad, Staryĭ Sad"
+      "ancientName": "Stary Sad, Stary\u012d Sad"
     },
     "category": "funerary"
   },
@@ -10293,14 +10340,14 @@
   {
     "id": "pleiades:878177648",
     "type": "tomb",
-    "name": "Māhān",
+    "name": "M\u0101h\u0101n",
     "lat": 30.059836815469254,
     "lng": 57.290016780933854,
     "qid": "Q5853951",
     "source": "Pleiades",
     "props": {
       "description": "Tomb of Shah Nematollah Vali, find place for cuneiform inscription.",
-      "ancientName": "Māhān"
+      "ancientName": "M\u0101h\u0101n"
     },
     "category": "funerary"
   },
@@ -10378,7 +10425,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A large Scythian burial mound that dates to the seventh and sixth centuries B.C. ",
-      "ancientName": "Kurhan Perep'yatykha, Kurhan Perep'i͡atykha, Kurhan Perep'yatycha"
+      "ancientName": "Kurhan Perep'yatykha, Kurhan Perep'i\u0361atykha, Kurhan Perep'yatycha"
     },
     "category": "funerary"
   },
@@ -10549,12 +10596,12 @@
   {
     "id": "pleiades:729664549",
     "type": "tumulus",
-    "name": "Ilıpınar Tumulus",
+    "name": "Il\u0131p\u0131nar Tumulus",
     "lat": 40.4681014,
     "lng": 29.3085929,
     "source": "Pleiades",
     "props": {
-      "description": "Tumulus near İznik Lake in Anatolia with Neolithic, Late Chalcolithic, Early Bronze Age, and Early Byzantine remains."
+      "description": "Tumulus near \u0130znik Lake in Anatolia with Neolithic, Late Chalcolithic, Early Bronze Age, and Early Byzantine remains."
     },
     "category": "funerary"
   },
@@ -10593,7 +10640,8 @@
     "props": {
       "description": "An ancient settlement 30 km north of Rome that was excavated from 1986-90. An imperial villa existed on the site up until the third century AD."
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q84607951"
   },
   {
     "id": "pleiades:413279",
@@ -10604,7 +10652,7 @@
     "qid": { "label": "Necropolis of Palastreto", "qid": "Q3346866" },
     "source": "Pleiades",
     "props": {
-      "description": "Quinto Fiorentino is a place located in the plain of the Arno River to the west of Florence. Its location corresponds to the fifth mile of the Roman road. The site is especially known for two Etruscan tholos-type tombs a thòlos, one of which is the Tomba della Mula, and the other the Tomba della Montagnola.",
+      "description": "Quinto Fiorentino is a place located in the plain of the Arno River to the west of Florence. Its location corresponds to the fifth mile of the Roman road. The site is especially known for two Etruscan tholos-type tombs a th\u00f2los, one of which is the Tomba della Mula, and the other the Tomba della Montagnola.",
       "ancientName": "Quinto Fiorentino"
     },
     "category": "funerary"
@@ -10620,7 +10668,8 @@
       "description": "A Roman tomb that supports a Medieval farmhouse (casale) at the sixth mile of the Via Appia. The tomb originally dates ca. 30 BC; it was a large, circular tomb with a diameter of approximately 35 m.",
       "ancientName": "Casal Rotondo"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q3661405"
   },
   {
     "id": "pleiades:422892",
@@ -10633,7 +10682,8 @@
       "description": "A ruined Roman mausoleum on the grounds of the Caffarella regional park. The so-called Cessati Spiriti mausoleum was once clad in travertine.",
       "ancientName": "Cessati Spiriti"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q131910840"
   },
   {
     "id": "pleiades:422907",
@@ -10659,7 +10709,8 @@
       "description": "The Domus Marmeniae is a villa located on the Via Appia near the fourth milestone. The villa grounds hosted a pagan necropolis and tradition holds that the matrona, Marmenia, relocated the body of St. Urban to a mausoleum built on the grounds.",
       "ancientName": "Marmenia"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q18785491"
   },
   {
     "id": "pleiades:423006",
@@ -10685,7 +10736,8 @@
       "description": "A large catacomb on the Via Appia south of Rome notable especially for its so-called 'Crypt of the Popes'. The catacomb covers approximately 15 hectares.",
       "ancientName": "Catacomb of Callixtus"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1027069"
   },
   {
     "id": "pleiades:423042",
@@ -10868,13 +10920,13 @@
   {
     "id": "pleiades:246598",
     "type": "tomb",
-    "name": "Mausoleum of the Atilii at Sádaba",
+    "name": "Mausoleum of the Atilii at S\u00e1daba",
     "lat": 42.2951895,
     "lng": -1.2657473,
     "qid": "Q539789: Mausoleum of the Atilii",
     "source": "Pleiades",
     "props": {
-      "description": "The Mausoleum of the Atilii is a Roman mausoleum dating from the second or third centuries A.D. The ruins are located in the municipal territory of Sádaba, Aragon, eastern Spain.",
+      "description": "The Mausoleum of the Atilii is a Roman mausoleum dating from the second or third centuries A.D. The ruins are located in the municipal territory of S\u00e1daba, Aragon, eastern Spain.",
       "ancientName": "Mausoleo de los Atilios"
     },
     "category": "funerary"
@@ -10882,14 +10934,14 @@
   {
     "id": "pleiades:392088786",
     "type": "tomb",
-    "name": "Tour de la Chèvre d'Or",
+    "name": "Tour de la Ch\u00e8vre d'Or",
     "lat": 43.6211582,
     "lng": 7.094934,
-    "qid": { "label": "Tour de la Chèvre d'Or", "qid": "Q15953404" },
+    "qid": { "label": "Tour de la Ch\u00e8vre d'Or", "qid": "Q15953404" },
     "source": "Pleiades",
     "props": {
       "description": "A Roman funerary monument.",
-      "ancientName": "Tour de la Chèvre d'Or"
+      "ancientName": "Tour de la Ch\u00e8vre d'Or"
     },
     "category": "funerary"
   },
@@ -10916,7 +10968,7 @@
     "qid": { "label": "Madonna d'olivo necropolis", "qid": "Q128005933" },
     "source": "Pleiades",
     "props": {
-      "description": "An Etruscan necropolis located about 2 km south-west of Tuscania that overlooks the valley of the Marta river. The necropolis takes its name from the adjacent Church of the Madonna dell’Olivo.",
+      "description": "An Etruscan necropolis located about 2 km south-west of Tuscania that overlooks the valley of the Marta river. The necropolis takes its name from the adjacent Church of the Madonna dell\u2019Olivo.",
       "ancientName": "Madonna d'olivo necropolis"
     },
     "category": "funerary"
@@ -10968,7 +11020,7 @@
     "qid": { "label": "Tower of Saint Joseph", "qid": "Q2444564" },
     "source": "Pleiades",
     "props": {
-      "description": "A Roman tower tomb located northeast of Villajoyosa, Spain. It is also known as the Torre de Hércules."
+      "description": "A Roman tower tomb located northeast of Villajoyosa, Spain. It is also known as the Torre de H\u00e9rcules."
     },
     "category": "funerary"
   },
@@ -11046,7 +11098,8 @@
       "description": "The village of Igel is known for its funerary monument of the Secundinii dating ca. A.D. 250.",
       "ancientName": "Igel"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q338834"
   },
   {
     "id": "pleiades:118727",
@@ -11072,11 +11125,11 @@
   {
     "id": "pleiades:118914",
     "type": "cemetery",
-    "name": "Přešt'ovice",
+    "name": "P\u0159e\u0161t'ovice",
     "lat": 49.276717,
     "lng": 13.974106,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 12 G3 Přešt'ovice" },
+    "props": { "description": "An ancient place, cited: BAtlas 12 G3 P\u0159e\u0161t'ovice" },
     "category": "funerary"
   },
   {
@@ -11109,7 +11162,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A Bronze Age burial site located near the modern town of Hordiivka on the southern Bug River.",
-      "ancientName": "Hordiivka, Hordiïvka, Hordeevka, Gordiyevka"
+      "ancientName": "Hordiivka, Hordi\u00efvka, Hordeevka, Gordiyevka"
     },
     "category": "funerary"
   },
@@ -11195,7 +11248,7 @@
     "lng": 24.938608810121575,
     "source": "Pleiades",
     "props": {
-      "description": "The Maltepe Tumulus is located in Manole, Bulgaria. The tumulus measures 125 – 130 m in diameter and some 21 m in height."
+      "description": "The Maltepe Tumulus is located in Manole, Bulgaria. The tumulus measures 125 \u2013 130 m in diameter and some 21 m in height."
     },
     "category": "funerary"
   },
@@ -11246,7 +11299,7 @@
     "source": "Pleiades",
     "props": {
       "description": "A burial site in Krasnodar Krai, Russia, containing over 500 burials dated to the 5th-9th centuries CE.",
-      "ancientName": "Mogilʹnik Di͡urso, Mogilʹnik Durso, Mogilʹnik Dyurso"
+      "ancientName": "Mogil\u02b9nik Di\u0361urso, Mogil\u02b9nik Durso, Mogil\u02b9nik Dyurso"
     },
     "category": "funerary"
   },
@@ -11278,13 +11331,13 @@
   {
     "id": "pleiades:540461818",
     "type": "cemetery",
-    "name": "Mavişehir Archaic Necropolis",
+    "name": "Mavi\u015fehir Archaic Necropolis",
     "lat": 37.402655,
     "lng": 27.237009,
     "source": "Pleiades",
     "props": {
-      "description": "An extensive archaic necropolis located on the eastern edge of modern Mavişehir in Turkey, which was associated with ancient Panormos, the port of Didyma.",
-      "ancientName": "Mavişehir"
+      "description": "An extensive archaic necropolis located on the eastern edge of modern Mavi\u015fehir in Turkey, which was associated with ancient Panormos, the port of Didyma.",
+      "ancientName": "Mavi\u015fehir"
     },
     "category": "funerary"
   },
@@ -11311,7 +11364,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Mound site on the Ob River in Altai Kray, Russia with burials from the Early Bronze Age Elunin culture.",
-      "ancientName": "Teleutskiy Vzvoz-I, Teleutskiĭ Vzvoz-I, "
+      "ancientName": "Teleutskiy Vzvoz-I, Teleutski\u012d Vzvoz-I, "
     },
     "category": "funerary"
   },
@@ -11349,7 +11402,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Burial site dated to the Chalcolithic period.",
-      "ancientName": "Quleh, Qūlah, Qūla, Kola"
+      "ancientName": "Quleh, Q\u016blah, Q\u016bla, Kola"
     },
     "category": "funerary"
   },
@@ -11364,7 +11417,8 @@
       "description": "An ancient necropolis at Carife (Campania) with more than 100 Samnite tombs.",
       "ancientName": "Area archeologica di Carife"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q28670860"
   },
   {
     "id": "pleiades:915149950",
@@ -11377,17 +11431,18 @@
       "description": "The Western Xia mausoleums are located in northwestern China in the Ningxia Hui Autonomous Region. This UNESCO World Heritage Site includes nine imperial mausoleums and 250 tombs of imperial relatives and officials of China's Western Xia dynasty.",
       "ancientName": "Western Xia Imperial Tombs"
     },
-    "category": "funerary"
+    "category": "funerary",
+    "qid": "Q1069411"
   },
   {
     "id": "pleiades:582288341",
     "type": "cemetery",
-    "name": "Ilıca (Ayas: cemetery)",
+    "name": "Il\u0131ca (Ayas: cemetery)",
     "lat": 40.0619819,
     "lng": 32.2592853,
     "source": "Pleiades",
     "props": {
-      "description": "Cemetery site northwest of Ankara containing burials dated to the Hittite period (16th century BCE). The modern neighborhood of Ilıca is in the Ayas district of Turkey's Ankara province."
+      "description": "Cemetery site northwest of Ankara containing burials dated to the Hittite period (16th century BCE). The modern neighborhood of Il\u0131ca is in the Ayas district of Turkey's Ankara province."
     },
     "category": "funerary"
   },

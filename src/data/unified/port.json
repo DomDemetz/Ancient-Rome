@@ -384,7 +384,7 @@
     "id": "port:apa-achilleion-achaeorum-portus-port-of-the--4307",
     "type": "port",
     "subtype": "harbour",
-    "name": "Achilleion, Achaeorum portus, port of the Achaeans north of probable landing beach of the Greeks during the Trojan war; Achaeans were also called Argives (or Danaans) by Homer, and Ahhiyawans by the Hittites and Denyen (or Danuna, Tanaju, Tanaya) by the Egyptians; today they are called ‘Mycenaeans’",
+    "name": "Achilleion, Achaeorum portus, port of the Achaeans north of probable landing beach of the Greeks during the Trojan war; Achaeans were also called Argives (or Danaans) by Homer, and Ahhiyawans by the Hittites and Denyen (or Danuna, Tanaju, Tanaya) by the Egyptians; today they are called \u2018Mycenaeans\u2019",
     "lat": 39.9152,
     "lng": 26.1509,
     "startYear": -323,
@@ -449,7 +449,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cape Tendrivs’ka on Tendrivs’ka Kosa island, Tendra peninsula) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Cape Tendrivs\u2019ka on Tendrivs\u2019ka Kosa island, Tendra peninsula) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -492,7 +492,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Khor Ghuraira, near Ras Cheikh Saïd, near Murad, in front of Ras Siyan) in Yemen: Red Sea"
+      "description": "Ancient harbour (modern: Khor Ghuraira, near Ras Cheikh Sa\u00efd, near Murad, in front of Ras Siyan) in Yemen: Red Sea"
     },
     "category": "trade"
   },
@@ -1147,14 +1147,14 @@
     "id": "port:apa-adana-adena-athena-zara-antiochia-ad-sar-4643",
     "type": "port",
     "subtype": "harbour",
-    "name": "Adana, Adena, Athena, Αzara, Antiochia ad Sarum on R Saros",
+    "name": "Adana, Adena, Athena, \u0391zara, Antiochia ad Sarum on R Saros",
     "lat": 36.9881,
     "lng": 35.3279,
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Adana, Tepebag Höyük, on R Seyhan) in TR: South"
+      "description": "Ancient harbour (modern: Adana, Tepebag H\u00f6y\u00fck, on R Seyhan) in TR: South"
     },
     "category": "trade"
   },
@@ -1197,7 +1197,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Zula, on wadi Haddas. The Periplus Maris Erythraei locates Adulis at 3000 stadia (ca. 550 km) south of Ptolemais inside a south facing bay, which corresponds to Zula. Pliny locates it at 5 navigation days from Ptolemais, which leads to more or less the same location. It may be noted that Ptolemy is widely mistaken when locating it at 40’ of latitude north of Dire, leading near Assab, 200 km further south. The site of Zula is now widely accepted by modern authors.) in Eritrea"
+      "description": "Ancient harbour (modern: Zula, on wadi Haddas. The Periplus Maris Erythraei locates Adulis at 3000 stadia (ca. 550 km) south of Ptolemais inside a south facing bay, which corresponds to Zula. Pliny locates it at 5 navigation days from Ptolemais, which leads to more or less the same location. It may be noted that Ptolemy is widely mistaken when locating it at 40\u2019 of latitude north of Dire, leading near Assab, 200 km further south. The site of Zula is now widely accepted by modern authors.) in Eritrea"
     },
     "category": "trade"
   },
@@ -1330,7 +1330,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ilisi, İlişi, with two harbours at outlet of R Ilisi & behind rocky spit) in TR: Black Sea"
+      "description": "Ancient harbour (modern: Ilisi, \u0130li\u015fi, with two harbours at outlet of R Ilisi & behind rocky spit) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -1536,7 +1536,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Capo d’Orlando) in Italy Sicily" },
+    "props": { "description": "Ancient harbour (modern: Capo d\u2019Orlando) in Italy Sicily" },
     "category": "trade"
   },
   {
@@ -1677,7 +1677,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ostrvo Cvijeća, Prevlaka svetog arhangela Mihaila) in Montenegro"
+      "description": "Ancient harbour (modern: Ostrvo Cvije\u0107a, Prevlaka svetog arhangela Mihaila) in Montenegro"
     },
     "category": "trade"
   },
@@ -2021,7 +2021,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Enez, on Taslik Gölü lake, on R Maritsa, Evros, Mariç, west of Cape Kara Göl) in TR: Marmara N - features: breakwater"
+      "description": "Ancient port (modern: Enez, on Taslik G\u00f6l\u00fc lake, on R Maritsa, Evros, Mari\u00e7, west of Cape Kara G\u00f6l) in TR: Marmara N - features: breakwater"
     },
     "category": "trade"
   },
@@ -2152,7 +2152,7 @@
     "endYear": -31,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tell Khazneh & Tell Sa’ad & Tell Sa'aid, on the isle of Failaka, Koweith) in Gulf"
+      "description": "Ancient harbour (modern: Tell Khazneh & Tell Sa\u2019ad & Tell Sa'aid, on the isle of Failaka, Koweith) in Gulf"
     },
     "category": "trade"
   },
@@ -2556,7 +2556,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Aleria, Roman naval base, between étang de Diana and étang d'Urbino, deep tectonic lakes, Neolithic settlements at Terrina and Casabianda, near outlet of R Tavignano) in France Corsica - features: breakwater, quay"
+      "description": "Ancient port (modern: Aleria, Roman naval base, between \u00e9tang de Diana and \u00e9tang d'Urbino, deep tectonic lakes, Neolithic settlements at Terrina and Casabianda, near outlet of R Tavignano) in France Corsica - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -2614,7 +2614,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Alexandria, also called « Le Phare », The Pharos, includes several now submerged ports, it also includes a drydock (acc. to Athenaeus)) in Egypt: Med Sea - features: quay, slipway, lighthouse, shipyard"
+      "description": "Ancient major port (modern: Alexandria, also called \u00ab Le Phare \u00bb, The Pharos, includes several now submerged ports, it also includes a drydock (acc. to Athenaeus)) in Egypt: Med Sea - features: quay, slipway, lighthouse, shipyard"
     },
     "category": "trade"
   },
@@ -3022,7 +3022,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Yüceler) in TR: Black Sea" },
+    "props": { "description": "Ancient harbour (modern: near Y\u00fcceler) in TR: Black Sea" },
     "category": "trade"
   },
   {
@@ -3085,7 +3085,7 @@
     "id": "port:apa-amisos-amisus-missos-peiraieus-piraeus-a-3878",
     "type": "port",
     "subtype": "port",
-    "name": "Amisos, Amisus, Missos, Peiraieus, Piraeus, archaïc Enete",
+    "name": "Amisos, Amisus, Missos, Peiraieus, Piraeus, archa\u00efc Enete",
     "lat": 41.3149,
     "lng": 36.3396,
     "startYear": -600,
@@ -3177,7 +3177,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sögüt, near Karaca) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: S\u00f6g\u00fct, near Karaca) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -3190,7 +3192,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kumlubük) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Kumlub\u00fck) in TR: South" },
     "category": "trade"
   },
   {
@@ -3281,7 +3283,8 @@
     "props": {
       "description": "Ancient harbour (modern: Roman villa at Beauvoir sur mer, famous for its oysters, on former peninsula inside the marais Breton) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q1288"
   },
   {
     "id": "port:apa-amphanae-2573",
@@ -3333,7 +3336,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Beykoz, Daphné is located by Arrian at 40 stadia (7.5 km) south of Hieron (on the Asian side) and at 80 stadia (15 km) of Byzance) in TR: Bosph S"
+      "description": "Ancient harbour (modern: Beykoz, Daphn\u00e9 is located by Arrian at 40 stadia (7.5 km) south of Hieron (on the Asian side) and at 80 stadia (15 km) of Byzance) in TR: Bosph S"
     },
     "category": "trade"
   },
@@ -3348,7 +3351,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Alakisla Yalisi, Kissebükü koyu) in TR: West"
+      "description": "Ancient harbour (modern: Alakisla Yalisi, Kisseb\u00fck\u00fc koyu) in TR: West"
     },
     "category": "trade"
   },
@@ -3546,7 +3549,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yumuktepe, near Mersin, on R Müftü, R Efrenk) in TR: South"
+      "description": "Ancient harbour (modern: Yumuktepe, near Mersin, on R M\u00fcft\u00fc, R Efrenk) in TR: South"
     },
     "category": "trade"
   },
@@ -3686,7 +3689,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: Beylikdüzü, near Haramidere Neolithic settlement) in TR: Marmara N - features: shipyard"
+      "description": "Ancient shipyard (modern: Beylikd\u00fcz\u00fc, near Haramidere Neolithic settlement) in TR: Marmara N - features: shipyard"
     },
     "category": "trade"
   },
@@ -3729,7 +3732,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gökgemile Köyü, inside Gungormez Limani?) in TR: South"
+      "description": "Ancient harbour (modern: G\u00f6kgemile K\u00f6y\u00fc, inside Gungormez Limani?) in TR: South"
     },
     "category": "trade"
   },
@@ -4197,7 +4200,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Pölemos Bükü) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: P\u00f6lemos B\u00fck\u00fc) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -4280,7 +4285,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tisan Köyü, Ovacik Adasi, north of cape Bölükada Burnu) in TR: South"
+      "description": "Ancient harbour (modern: Tisan K\u00f6y\u00fc, Ovacik Adasi, north of cape B\u00f6l\u00fckada Burnu) in TR: South"
     },
     "category": "trade"
   },
@@ -4409,7 +4414,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Apolyont, Gölyazi on Lake Uluabat Gölü, near R Kocasu, near Aktopraklik Neolithic settlement) in TR: Marmara S - features: mole"
+      "description": "Ancient port (modern: Apolyont, G\u00f6lyazi on Lake Uluabat G\u00f6l\u00fc, near R Kocasu, near Aktopraklik Neolithic settlement) in TR: Marmara S - features: mole"
     },
     "category": "trade"
   },
@@ -4714,7 +4719,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ras al-A’ali, border between Cyrenaica and Africa, near fort of Bir Umm el-Garanigh) in Libya"
+      "description": "Ancient harbour (modern: Ras al-A\u2019ali, border between Cyrenaica and Africa, near fort of Bir Umm el-Garanigh) in Libya"
     },
     "category": "trade"
   },
@@ -4979,7 +4984,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ayasoluk hill, near Selcuk, on R Kücük Menderes) in TR: West"
+      "description": "Ancient harbour (modern: Ayasoluk hill, near Selcuk, on R K\u00fcc\u00fck Menderes) in TR: West"
     },
     "category": "trade"
   },
@@ -5083,7 +5088,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Ortaköy) in TR: Bosph N" },
+    "props": { "description": "Ancient harbour (modern: Ortak\u00f6y) in TR: Bosph N" },
     "category": "trade"
   },
   {
@@ -5217,7 +5222,7 @@
     "id": "port:apa-arginusa-insulae-les-arginuses-4341",
     "type": "port",
     "subtype": "harbour",
-    "name": "Arginusa insulae, îles Arginuses",
+    "name": "Arginusa insulae, \u00eeles Arginuses",
     "lat": 39.0053,
     "lng": 26.7904,
     "startYear": -600,
@@ -5413,7 +5418,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sanctuaire d'Aristée, near La Capte, Hyères) in France South"
+      "description": "Ancient harbour (modern: Sanctuaire d'Arist\u00e9e, near La Capte, Hy\u00e8res) in France South"
     },
     "category": "trade"
   },
@@ -5566,7 +5571,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: El-Guelta, on wadi Bou Aïdane, near wadi Guelta) in Algeria"
+      "description": "Ancient harbour (modern: El-Guelta, on wadi Bou A\u00efdane, near wadi Guelta) in Algeria"
     },
     "category": "trade"
   },
@@ -5594,7 +5599,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ras Dumeira at Rahayta? Ptolemy locates Arsinoe at 20’ of latitude south of Dire, which corresponds to the lagoon of Godoria on the North coast of Djibouti near 12°09’ of latitude. He nevertheless mentions it north of Dire on his list, as does Strabo … which makes some authors think the site is at Ras Dumeira. Monfreid's Raheita) in Eritrea"
+      "description": "Ancient harbour (modern: Ras Dumeira at Rahayta? Ptolemy locates Arsinoe at 20\u2019 of latitude south of Dire, which corresponds to the lagoon of Godoria on the North coast of Djibouti near 12\u00b009\u2019 of latitude. He nevertheless mentions it north of Dire on his list, as does Strabo \u2026 which makes some authors think the site is at Ras Dumeira. Monfreid's Raheita) in Eritrea"
     },
     "category": "trade"
   },
@@ -5609,7 +5614,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Güneysu Köyü, near Softa Kalesi) in TR: South"
+      "description": "Ancient harbour (modern: G\u00fcneysu K\u00f6y\u00fc, near Softa Kalesi) in TR: South"
     },
     "category": "trade"
   },
@@ -5796,7 +5801,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Hamam Köyü, Ruin's Bay, where Cleopatra stopped twice, at SW end of Scopea Bay) in TR: South"
+      "description": "Ancient harbour (modern: Hamam K\u00f6y\u00fc, Ruin's Bay, where Cleopatra stopped twice, at SW end of Scopea Bay) in TR: South"
     },
     "category": "trade"
   },
@@ -6080,7 +6085,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: now inland at Batiköy, Mezar Tepe) in TR: West"
+      "description": "Ancient harbour (modern: now inland at Batik\u00f6y, Mezar Tepe) in TR: West"
     },
     "category": "trade"
   },
@@ -6125,7 +6130,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Ilica Köyü?) in TR: West - features: breakwater"
+      "description": "Ancient port (modern: Ilica K\u00f6y\u00fc?) in TR: West - features: breakwater"
     },
     "category": "trade"
   },
@@ -6198,7 +6203,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Roman villa at Kamari, near Kefalos, on the isle of Kos, Istanköy) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Roman villa at Kamari, near Kefalos, on the isle of Kos, Istank\u00f6y) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -6268,7 +6273,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Denizköy) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: near Denizk\u00f6y) in TR: West" },
     "category": "trade"
   },
   {
@@ -6350,7 +6355,7 @@
     "startYear": -323,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Büyükcekmece) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: B\u00fcy\u00fckcekmece) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -6493,7 +6498,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Orhaniye, in the bay of Keci Bükü) in TR: South"
+      "description": "Ancient harbour (modern: Orhaniye, in the bay of Keci B\u00fck\u00fc) in TR: South"
     },
     "category": "trade"
   },
@@ -6895,7 +6900,7 @@
     "id": "port:apa-baiae-ba-es-with-access-to-portus-baianu-1585",
     "type": "port",
     "subtype": "port",
-    "name": "Baiae, Baïes, with access to Portus Baianus, on Lacus Baianus",
+    "name": "Baiae, Ba\u00efes, with access to Portus Baianus, on Lacus Baianus",
     "lat": 40.8183,
     "lng": 14.0775,
     "startYear": -200,
@@ -7132,7 +7137,7 @@
     "endYear": -31,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: Ayn Sukhna, at Portrait Hotel, with ship remains in galleries (29.58365°N  32.34265°E)) in Egypt: G. of Suez - features: slipway, shipyard"
+      "description": "Ancient shipyard (modern: Ayn Sukhna, at Portrait Hotel, with ship remains in galleries (29.58365\u00b0N  32.34265\u00b0E)) in Egypt: G. of Suez - features: slipway, shipyard"
     },
     "category": "trade"
   },
@@ -7147,7 +7152,7 @@
     "endYear": -31,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Wadi al-Jarf, the oldest breakwater found to date & with BA ship remains in galleries (28.8987°N  32.6242°E)) in Egypt: G. of Suez - features: breakwater, slipway, shipyard"
+      "description": "Ancient major port (modern: Wadi al-Jarf, the oldest breakwater found to date & with BA ship remains in galleries (28.8987\u00b0N  32.6242\u00b0E)) in Egypt: G. of Suez - features: breakwater, slipway, shipyard"
     },
     "category": "trade"
   },
@@ -7177,7 +7182,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Great harbour, Avcilar, on Lake Kücükcekmece, with ancient lighthouse) in TR: Marmara N - features: quay, lighthouse"
+      "description": "Ancient port (modern: Great harbour, Avcilar, on Lake K\u00fcc\u00fckcekmece, with ancient lighthouse) in TR: Marmara N - features: quay, lighthouse"
     },
     "category": "trade"
   },
@@ -7192,7 +7197,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Small harbour, Firuzköy, on Lake Kücükcekmece) in TR: Marmara N - features: quay"
+      "description": "Ancient port (modern: Small harbour, Firuzk\u00f6y, on Lake K\u00fcc\u00fckcekmece) in TR: Marmara N - features: quay"
     },
     "category": "trade"
   },
@@ -7221,7 +7226,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Büyükdere) in TR: Bosph N" },
+    "props": { "description": "Ancient harbour (modern: B\u00fcy\u00fckdere) in TR: Bosph N" },
     "category": "trade"
   },
   {
@@ -7362,7 +7367,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Beach of Cumaliköy? near outlet of R Cumalydere, R Baglar) in TR: Marmara N"
+      "description": "Ancient harbour (modern: Beach of Cumalik\u00f6y? near outlet of R Cumalydere, R Baglar) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -7461,7 +7466,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kurtini Köyü? near Sancak Burnu) in TR: South"
+      "description": "Ancient harbour (modern: Kurtini K\u00f6y\u00fc? near Sancak Burnu) in TR: South"
     },
     "category": "trade"
   },
@@ -7760,7 +7765,8 @@
     "props": {
       "description": "Ancient harbour (modern: Oppidum at Hennebont? on R Blavet) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q199408"
   },
   {
     "id": "port:apa-blacciarum-1089",
@@ -8515,7 +8521,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Casa Rossa, near Sant’Alberto, on R Reno) in Italy Adriatic"
+      "description": "Ancient harbour (modern: Casa Rossa, near Sant\u2019Alberto, on R Reno) in Italy Adriatic"
     },
     "category": "trade"
   },
@@ -8645,7 +8651,9 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Eyüp, in the Golden Horn) in TR: Bosph N" },
+    "props": {
+      "description": "Ancient harbour (modern: Ey\u00fcp, in the Golden Horn) in TR: Bosph N"
+    },
     "category": "trade"
   },
   {
@@ -8910,7 +8918,8 @@
     "props": {
       "description": "Ancient harbour (modern: Calvi, near R Figarella, with Neolithic settlement at A Revellata) in France Corsica"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q845909"
   },
   {
     "id": "port:apa-caetobriga-seth-baal-612",
@@ -8935,7 +8944,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gaeta, Gaète) in Italy West" },
+    "props": { "description": "Ancient harbour (modern: Gaeta, Ga\u00e8te) in Italy West" },
     "category": "trade"
   },
   {
@@ -9204,7 +9213,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: vers Kemer Köyü) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: vers Kemer K\u00f6y\u00fc) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -9218,7 +9229,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ras Siyan, on the west side of Bab el-Mandeb, the Gate of Tears. Cape Dire is located in front of Cape Acila (Cheikh Saïd in Yemen) as Strabo indicates. It is also just in front of the six islands mentioned by Strabo: Ras Siyan is a former island now connected to the mainland, but before that, it was a member of the \"Seven Islands\" (Sawabi islands). It provides good shelter against the south-eastern waves prevailing in this area.) in Djibouti"
+      "description": "Ancient harbour (modern: Ras Siyan, on the west side of Bab el-Mandeb, the Gate of Tears. Cape Dire is located in front of Cape Acila (Cheikh Sa\u00efd in Yemen) as Strabo indicates. It is also just in front of the six islands mentioned by Strabo: Ras Siyan is a former island now connected to the mainland, but before that, it was a member of the \"Seven Islands\" (Sawabi islands). It provides good shelter against the south-eastern waves prevailing in this area.) in Djibouti"
     },
     "category": "trade"
   },
@@ -9247,7 +9258,9 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Terme, on R Terme Süyu) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: Terme, on R Terme S\u00fcyu) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -9495,7 +9508,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Sidi Raïs, near Mraissa, Marisa) in Tunisia - features: breakwater, quay"
+      "description": "Ancient port (modern: Sidi Ra\u00efs, near Mraissa, Marisa) in Tunisia - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -9596,7 +9609,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Carthago, rectangular commercial port, near Phoenician Tophet of Salammbô) in Tunisia - features: breakwater, mole, quay, slipway, lighthouse, shipyard"
+      "description": "Ancient major port (modern: Carthago, rectangular commercial port, near Phoenician Tophet of Salammb\u00f4) in Tunisia - features: breakwater, mole, quay, slipway, lighthouse, shipyard"
     },
     "category": "trade"
   },
@@ -9651,7 +9664,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Bou Ismaïl) in Algeria" },
+    "props": { "description": "Ancient harbour (modern: Bou Isma\u00efl) in Algeria" },
     "category": "trade"
   },
   {
@@ -9839,7 +9852,7 @@
     "id": "port:apa-castra-puerum-mes-of-scylax-periplus-5908",
     "type": "port",
     "subtype": "harbour",
-    "name": "Castra Puerum, « Mes » of Scylax' Periplus",
+    "name": "Castra Puerum, \u00ab Mes \u00bb of Scylax' Periplus",
     "lat": 35.7085,
     "lng": -0.8944,
     "startYear": -800,
@@ -9859,7 +9872,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Xanten, Archäologischen Park, on R Rhein) in Germany - features: quay"
+      "description": "Ancient port (modern: Xanten, Arch\u00e4ologischen Park, on R Rhein) in Germany - features: quay"
     },
     "category": "trade"
   },
@@ -10067,7 +10080,7 @@
     "id": "port:apa-caunana-kentos-kom-on-r-canauna-known-fo-5006",
     "type": "port",
     "subtype": "harbour",
-    "name": "Caunana, Kentos Komé? on R Canauna (known for gold mining)",
+    "name": "Caunana, Kentos Kom\u00e9? on R Canauna (known for gold mining)",
     "lat": 19.1203,
     "lng": 41.0716,
     "startYear": -200,
@@ -10194,7 +10207,7 @@
     "id": "port:apa-centumcellae-palace-of-the-hundred-chamb-1460",
     "type": "port",
     "subtype": "port",
-    "name": "Centumcellae, Palace of the Hundred Chambres. It is the translator of Pliny the Younger who calls it like this, but the « hundred chambres » could also mean the numerous caves in this area, rather than a palace",
+    "name": "Centumcellae, Palace of the Hundred Chambres. It is the translator of Pliny the Younger who calls it like this, but the \u00ab hundred chambres \u00bb could also mean the numerous caves in this area, rather than a palace",
     "lat": 42.0951,
     "lng": 11.7878,
     "startYear": -200,
@@ -10243,7 +10256,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Ören, on R Kocacay) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: \u00d6ren, on R Kocacay) in TR: West" },
     "category": "trade"
   },
   {
@@ -10481,7 +10494,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient lighthouse (modern: Kadiköy in front of Istanbul, near R Ayirliksu) in TR: Marmara S - features: lighthouse"
+      "description": "Ancient lighthouse (modern: Kadik\u00f6y in front of Istanbul, near R Ayirliksu) in TR: Marmara S - features: lighthouse"
     },
     "category": "trade"
   },
@@ -10496,7 +10509,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Kadiköy in front of Istanbul, with Neolithic settlement at Fikirtepe, on R Kurbagalidere) in TR: Marmara S - features: breakwater"
+      "description": "Ancient port (modern: Kadik\u00f6y in front of Istanbul, with Neolithic settlement at Fikirtepe, on R Kurbagalidere) in TR: Marmara S - features: breakwater"
     },
     "category": "trade"
   },
@@ -10612,7 +10625,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near Orhangazi, on lake Isnik Gölü, near Ilipinar Neolithic settlement) in TR: Marmara S"
+      "description": "Ancient harbour (modern: near Orhangazi, on lake Isnik G\u00f6l\u00fc, near Ilipinar Neolithic settlement) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -10976,7 +10989,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Hosköy) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: Hosk\u00f6y) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -11002,7 +11015,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Apollon plaji, Göztepe) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: Apollon plaji, G\u00f6ztepe) in TR: West" },
     "category": "trade"
   },
   {
@@ -11072,7 +11085,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient lighthouse (modern: isle of Kiz Kulezi (Maiden's Tower), near Üsküdar, with ancient lighthouse) in TR: Bosph S - features: lighthouse"
+      "description": "Ancient lighthouse (modern: isle of Kiz Kulezi (Maiden's Tower), near \u00dcsk\u00fcdar, with ancient lighthouse) in TR: Bosph S - features: lighthouse"
     },
     "category": "trade"
   },
@@ -11080,14 +11093,14 @@
     "id": "port:apa-chrysopolis-skutarion-scutari-port-du-b--3972",
     "type": "port",
     "subtype": "major_port",
-    "name": "Chrysopolis, Skutarion, Scutari, Port du Bœuf, near Damalis Prom., Bous Prom.",
+    "name": "Chrysopolis, Skutarion, Scutari, Port du B\u0153uf, near Damalis Prom., Bous Prom.",
     "lat": 41.0256,
     "lng": 29.0147,
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Area between Yeni Valide Mosque and Mihrimah Mosque at Üsküdar, at outlet of former rivers R Cavus and R Bülbül) in TR: Bosph S - features: breakwater, mole, quay, lighthouse"
+      "description": "Ancient major port (modern: Area between Yeni Valide Mosque and Mihrimah Mosque at \u00dcsk\u00fcdar, at outlet of former rivers R Cavus and R B\u00fclb\u00fcl) in TR: Bosph S - features: breakwater, mole, quay, lighthouse"
     },
     "category": "trade"
   },
@@ -11276,7 +11289,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Bestas Limani, Cold Water Bay? at the toe of Kayaköy village and the ghost town of Levisse, Livisi) in TR: South"
+      "description": "Ancient harbour (modern: Bestas Limani, Cold Water Bay? at the toe of Kayak\u00f6y village and the ghost town of Levisse, Livisi) in TR: South"
     },
     "category": "trade"
   },
@@ -11576,7 +11589,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Aïn Babar) in Algeria" },
+    "props": { "description": "Ancient harbour (modern: A\u00efn Babar) in Algeria" },
     "category": "trade"
   },
   {
@@ -11603,7 +11616,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Mytikas, just north of the Ambracian gulf, Amvrakikós kólpos, anchorage for Octavian's fleet at Actium) in GR: North-West - features: breakwater"
+      "description": "Ancient port (modern: Mytikas, just north of the Ambracian gulf, Amvrakik\u00f3s k\u00f3lpos, anchorage for Octavian's fleet at Actium) in GR: North-West - features: breakwater"
     },
     "category": "trade"
   },
@@ -11704,7 +11717,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cernek Gol, Gernek Gölü) in TR: Black Sea"
+      "description": "Ancient harbour (modern: Cernek Gol, Gernek G\u00f6l\u00fc) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -11764,7 +11777,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Görele Kalezi, near Eynesil) in TR: Black Sea"
+      "description": "Ancient harbour (modern: G\u00f6rele Kalezi, near Eynesil) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -11877,7 +11890,7 @@
     "startYear": -800,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: S’Archittu) in Italy Sardinia" },
+    "props": { "description": "Ancient harbour (modern: S\u2019Archittu) in Italy Sardinia" },
     "category": "trade"
   },
   {
@@ -12279,7 +12292,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kargicak Köyü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Kargicak K\u00f6y\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -12404,7 +12417,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kinaliköprü) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: Kinalik\u00f6pr\u00fc) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -12471,7 +12484,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Güzelyali) in TR: Marmara S" },
+    "props": { "description": "Ancient harbour (modern: G\u00fczelyali) in TR: Marmara S" },
     "category": "trade"
   },
   {
@@ -12541,7 +12554,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ergili on Lake Manyas Gölü, near Muslucesme Neolithic settlement) in TR: Marmara S"
+      "description": "Ancient harbour (modern: Ergili on Lake Manyas G\u00f6l\u00fc, near Muslucesme Neolithic settlement) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -12613,7 +12626,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Yesilköy) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: Yesilk\u00f6y) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -12657,7 +12670,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Terkos, near lake Durusu Gölü) in TR: Black Sea N"
+      "description": "Ancient harbour (modern: Terkos, near lake Durusu G\u00f6l\u00fc) in TR: Black Sea N"
     },
     "category": "trade"
   },
@@ -12900,7 +12913,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gialesine, Korabalo & Marmoras islands, near the isle of Simi, Sömbeki Adasi) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Gialesine, Korabalo & Marmoras islands, near the isle of Simi, S\u00f6mbeki Adasi) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -12923,7 +12936,7 @@
     "id": "port:apa-diana-portus-port-d-artemis-diane-syracu-1241",
     "type": "port",
     "subtype": "harbour",
-    "name": "Diana portus, Port d’Artemis/Diane, Syracusium?",
+    "name": "Diana portus, Port d\u2019Artemis/Diane, Syracusium?",
     "lat": 42.1393,
     "lng": 9.5546,
     "startYear": -200,
@@ -13141,7 +13154,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Mayyun, on Perim island, and the second island (\"Duo\") may have been the Cheikh Saïd peninsula now connected to the mainland) in Yemen: Red Sea"
+      "description": "Ancient harbour (modern: Mayyun, on Perim island, and the second island (\"Duo\") may have been the Cheikh Sa\u00efd peninsula now connected to the mainland) in Yemen: Red Sea"
     },
     "category": "trade"
   },
@@ -13155,7 +13168,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Gölcük) in TR: Marmara S" },
+    "props": { "description": "Ancient harbour (modern: near G\u00f6lc\u00fck) in TR: Marmara S" },
     "category": "trade"
   },
   {
@@ -13292,7 +13305,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Poyrazköy bay until Sultan Selim Bridge) in TR: Bosph S"
+      "description": "Ancient harbour (modern: Poyrazk\u00f6y bay until Sultan Selim Bridge) in TR: Bosph S"
     },
     "category": "trade"
   },
@@ -13362,7 +13375,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Özdere) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: \u00d6zdere) in TR: West" },
     "category": "trade"
   },
   {
@@ -13488,7 +13501,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Doriskos, on R Maritsa, Evros, Mariç) in GR: North-East"
+      "description": "Ancient harbour (modern: Doriskos, on R Maritsa, Evros, Mari\u00e7) in GR: North-East"
     },
     "category": "trade"
   },
@@ -13791,7 +13804,7 @@
     "id": "port:apa-dyrrhachion-dyrrachio-dyrrachium-near-r--2298",
     "type": "port",
     "subtype": "lighthouse",
-    "name": "Dyrrhachion, Dyrrachio, Dyrrachium, near R Ardaxanos, archaïc Epidamnos near R Palamnos",
+    "name": "Dyrrhachion, Dyrrachio, Dyrrachium, near R Ardaxanos, archa\u00efc Epidamnos near R Palamnos",
     "lat": 41.312,
     "lng": 19.45,
     "startYear": -600,
@@ -13839,7 +13852,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Sirincavus, with additional breakwater 500 m east of the port, east of R Gönen Cayi) in TR: Marmara S - features: breakwater"
+      "description": "Ancient port (modern: Sirincavus, with additional breakwater 500 m east of the port, east of R G\u00f6nen Cayi) in TR: Marmara S - features: breakwater"
     },
     "category": "trade"
   },
@@ -14179,7 +14192,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Avsa Adasi? With BA settlement at Manastir Mevkii Höyügü) in TR: Marmara S"
+      "description": "Ancient harbour (modern: Isle of Avsa Adasi? With BA settlement at Manastir Mevkii H\u00f6y\u00fcg\u00fc) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -14376,14 +14389,16 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sant Marti d’Empuries) in Spain East" },
+    "props": {
+      "description": "Ancient harbour (modern: Sant Marti d\u2019Empuries) in Spain East"
+    },
     "category": "trade"
   },
   {
     "id": "port:apa-emporion-port-of-perge-perg-perga-prege--4579",
     "type": "port",
     "subtype": "lighthouse",
-    "name": "Emporion, port of Perge, Pergé, Perga, Prege, Parha, near outlet of R Kestros, Cestro",
+    "name": "Emporion, port of Perge, Perg\u00e9, Perga, Prege, Parha, near outlet of R Kestros, Cestro",
     "lat": 36.85,
     "lng": 30.92,
     "startYear": -323,
@@ -14521,7 +14536,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Büyük Liman, south of Sultan Selim bridge) in TR: Bosph N"
+      "description": "Ancient harbour (modern: B\u00fcy\u00fck Liman, south of Sultan Selim bridge) in TR: Bosph N"
     },
     "category": "trade"
   },
@@ -14927,7 +14942,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Nergiz Köyü) in TR: West - features: breakwater"
+      "description": "Ancient port (modern: Nergiz K\u00f6y\u00fc) in TR: West - features: breakwater"
     },
     "category": "trade"
   },
@@ -15323,7 +15338,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Daugmale, on R Daugava, Dvina, Düna) in Latvia"
+      "description": "Ancient harbour (modern: Daugmale, on R Daugava, Dvina, D\u00fcna) in Latvia"
     },
     "category": "trade"
   },
@@ -15744,7 +15759,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Roman naval base at Frejus, with one lighthouse at the Butte St Antoine and 3 landmarks: the Lanterne d'Auguste, the Triton Monument and the Lion de Mer islet in front of St Raphael, with fish tank at  43.43363°N,  6.74068°E) in France South - features: breakwater, mole, quay, lighthouse"
+      "description": "Ancient major port (modern: Roman naval base at Frejus, with one lighthouse at the Butte St Antoine and 3 landmarks: the Lanterne d'Auguste, the Triton Monument and the Lion de Mer islet in front of St Raphael, with fish tank at  43.43363\u00b0N,  6.74068\u00b0E) in France South - features: breakwater, mole, quay, lighthouse"
     },
     "category": "trade"
   },
@@ -15817,7 +15832,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ras el-Aïn artesian wells known to have provided fresh water for Tyre, near Tell Rachidiyeh, Dussaud places Paleotyre/Ushu here in accordance with Strabo's distance taken north-south) in Lebanon"
+      "description": "Ancient harbour (modern: Ras el-A\u00efn artesian wells known to have provided fresh water for Tyre, near Tell Rachidiyeh, Dussaud places Paleotyre/Ushu here in accordance with Strabo's distance taken north-south) in Lebanon"
     },
     "category": "trade"
   },
@@ -15888,7 +15903,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Fondi, with possible connections to the sea via Lago di Fondi and Canale Canneto and Cannale Sant’Anastasia) in Italy West"
+      "description": "Ancient harbour (modern: Fondi, with possible connections to the sea via Lago di Fondi and Canale Canneto and Cannale Sant\u2019Anastasia) in Italy West"
     },
     "category": "trade"
   },
@@ -15918,7 +15933,7 @@
     "endYear": -31,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Island located in the bay of Zula and and now included into the continent under the name « Galala Hills » 3.5 km SE of Zula. Not to be confused with Perim island bearing the same ancient name) in Eritrea"
+      "description": "Ancient harbour (modern: Island located in the bay of Zula and and now included into the continent under the name \u00ab Galala Hills \u00bb 3.5 km SE of Zula. Not to be confused with Perim island bearing the same ancient name) in Eritrea"
     },
     "category": "trade"
   },
@@ -15989,7 +16004,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Cadiz, Cadix, with ancient lighthouse. Puerto interior on ancient canal of Bahia-Caleta. Initially, Gadir was an island as indicated by Strabo who speaks about « the Isle of the gaditans » (Geogr, 3, 2). Port remains were also found at c/ Sagasta 96-98 and at c/ San Juan 37-39) in Spain South - features: quay"
+      "description": "Ancient port (modern: Cadiz, Cadix, with ancient lighthouse. Puerto interior on ancient canal of Bahia-Caleta. Initially, Gadir was an island as indicated by Strabo who speaks about \u00ab the Isle of the gaditans \u00bb (Geogr, 3, 2). Port remains were also found at c/ Sagasta 96-98 and at c/ San Juan 37-39) in Spain South - features: quay"
     },
     "category": "trade"
   },
@@ -16004,7 +16019,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cadiz, Cadix, Plaza Asdrubal, Junta de Andalucía Bldg) in Spain South"
+      "description": "Ancient harbour (modern: Cadiz, Cadix, Plaza Asdrubal, Junta de Andaluc\u00eda Bldg) in Spain South"
     },
     "category": "trade"
   },
@@ -16040,7 +16055,7 @@
     "id": "port:apa-galata-l-ecueil-de-pasque-kalathe-insula-5824",
     "type": "port",
     "subtype": "harbour",
-    "name": "Galata, L’ecueil de Pasque, Kalathe insula with city of Euboia? a Naxikai, Naxian island?",
+    "name": "Galata, L\u2019ecueil de Pasque, Kalathe insula with city of Euboia? a Naxikai, Naxian island?",
     "lat": 37.5198,
     "lng": 8.9389,
     "startYear": -800,
@@ -16145,7 +16160,7 @@
     "startYear": -600,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gaziköy) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: Gazik\u00f6y) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -16245,7 +16260,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gürcüvet, near Kurzuvet Burnu) in TR: Black Sea"
+      "description": "Ancient harbour (modern: G\u00fcrc\u00fcvet, near Kurzuvet Burnu) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -16456,7 +16471,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ekrensko Kale, at Kranevo, Kraneya, on R Batova, with fortress on Kaleto Hill at  43.331°N, 28.057°E) in Bulgaria Black S."
+      "description": "Ancient harbour (modern: Ekrensko Kale, at Kranevo, Kraneya, on R Batova, with fortress on Kaleto Hill at  43.331\u00b0N, 28.057\u00b0E) in Bulgaria Black S."
     },
     "category": "trade"
   },
@@ -16964,7 +16979,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: North side of Panayirdag hill, near Selcuk, on R Kücük Menderes) in TR: West"
+      "description": "Ancient harbour (modern: North side of Panayirdag hill, near Selcuk, on R K\u00fcc\u00fck Menderes) in TR: West"
     },
     "category": "trade"
   },
@@ -17036,7 +17051,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gulf of Fethiye Körfesi) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Gulf of Fethiye K\u00f6rfesi) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -17362,7 +17379,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near the Sugözü power station) in TR: South"
+      "description": "Ancient harbour (modern: near the Sug\u00f6z\u00fc power station) in TR: South"
     },
     "category": "trade"
   },
@@ -17407,7 +17424,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kardamena, on the isle of Kos, Istanköy) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Kardamena, on the isle of Kos, Istank\u00f6y) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -17422,7 +17439,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Bodrum, with Mycenaean settlement at Ortakent-Müsgebi) in TR: West - features: breakwater"
+      "description": "Ancient port (modern: Bodrum, with Mycenaean settlement at Ortakent-M\u00fcsgebi) in TR: West - features: breakwater"
     },
     "category": "trade"
   },
@@ -17536,7 +17553,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Besiktepe, near Smintheion, Sanctuary of Apollo Smintheus, Gülpinar) in TR: West"
+      "description": "Ancient harbour (modern: Besiktepe, near Smintheion, Sanctuary of Apollo Smintheus, G\u00fclpinar) in TR: West"
     },
     "category": "trade"
   },
@@ -17620,7 +17637,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Imperial port with palace at Bakirköy, Magnaura Prom., near Ataköy Marina) in TR: Marmara N"
+      "description": "Ancient harbour (modern: Imperial port with palace at Bakirk\u00f6y, Magnaura Prom., near Atak\u00f6y Marina) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -17753,7 +17770,7 @@
     "endYear": -31,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Medinet el-Haras, 4 km south of Bender el-Kebir inside the gulf of Ras Banas and on the Tropic of Cancer. Pliny is most accurate as he indicates that there is no shadow at noon on the day of summer solstice, which is the definition of the tropic located at 23°26’ of latitude. The present latitude of Berenike is 23°56’ and it is still a port today. With Hellenistic fort and roads to Nile valley) in Egypt: Red Sea - features: mole"
+      "description": "Ancient port (modern: Medinet el-Haras, 4 km south of Bender el-Kebir inside the gulf of Ras Banas and on the Tropic of Cancer. Pliny is most accurate as he indicates that there is no shadow at noon on the day of summer solstice, which is the definition of the tropic located at 23\u00b026\u2019 of latitude. The present latitude of Berenike is 23\u00b056\u2019 and it is still a port today. With Hellenistic fort and roads to Nile valley) in Egypt: Red Sea - features: mole"
     },
     "category": "trade"
   },
@@ -17768,7 +17785,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: West side of Panayirdag hill, near Selcuk, on R Kücük Menderes) in TR: West"
+      "description": "Ancient harbour (modern: West side of Panayirdag hill, near Selcuk, on R K\u00fcc\u00fck Menderes) in TR: West"
     },
     "category": "trade"
   },
@@ -17812,7 +17829,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Kücükbahce) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: near K\u00fcc\u00fckbahce) in TR: West" },
     "category": "trade"
   },
   {
@@ -17853,7 +17870,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Yesilköy) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: Yesilk\u00f6y) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -17880,7 +17897,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Ras ibn Hani, North bay, with quarry at  35.5966°N,  35.7585°E) in Syria - features: breakwater"
+      "description": "Ancient port (modern: Ras ibn Hani, North bay, with quarry at  35.5966\u00b0N,  35.7585\u00b0E) in Syria - features: breakwater"
     },
     "category": "trade"
   },
@@ -18297,14 +18314,14 @@
     "id": "port:apa-hercle-manico-port-heracles-portus-hercu-1232",
     "type": "port",
     "subtype": "harbour",
-    "name": "Hercle Manico, Port Heracles, Portus Herculis Monoeci, Port d’Hercules Monoecus, Monoecus, Monoeque, Monoïkos",
+    "name": "Hercle Manico, Port Heracles, Portus Herculis Monoeci, Port d\u2019Hercules Monoecus, Monoecus, Monoeque, Mono\u00efkos",
     "lat": 43.7346,
     "lng": 7.4329,
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Monaco. Unlike other authors, Ptolemy distinguishes « Herculis portus » and « Monoeci portus » east of Nice, and puts around 35 km between both of them) in France South"
+      "description": "Ancient harbour (modern: Monaco. Unlike other authors, Ptolemy distinguishes \u00ab Herculis portus \u00bb and \u00ab Monoeci portus \u00bb east of Nice, and puts around 35 km between both of them) in France South"
     },
     "category": "trade"
   },
@@ -18521,13 +18538,13 @@
     "id": "port:apa-hestiai-port-port-d-esties-promotu-promo-3461",
     "type": "port",
     "subtype": "harbour",
-    "name": "Hestiai port, Port d’Esties, Promotu, Promotou, Michaelion",
+    "name": "Hestiai port, Port d\u2019Esties, Promotu, Promotou, Michaelion",
     "lat": 41.067,
     "lng": 29.042,
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Arnavutköy) in TR: Bosph N" },
+    "props": { "description": "Ancient harbour (modern: Arnavutk\u00f6y) in TR: Bosph N" },
     "category": "trade"
   },
   {
@@ -18540,7 +18557,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kötü Burun, Yedi Burun) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: K\u00f6t\u00fc Burun, Yedi Burun) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -18668,7 +18687,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near Dörtyol, outlet of R Deli Cay) in TR: South"
+      "description": "Ancient harbour (modern: near D\u00f6rtyol, outlet of R Deli Cay) in TR: South"
     },
     "category": "trade"
   },
@@ -18896,7 +18915,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tasucu? Possible archaic outlet of R Göksu which has wandered much since antiquity, possibly from Tasucu on the West side to Atakent on the East side) in TR: South"
+      "description": "Ancient harbour (modern: Tasucu? Possible archaic outlet of R G\u00f6ksu which has wandered much since antiquity, possibly from Tasucu on the West side to Atakent on the East side) in TR: South"
     },
     "category": "trade"
   },
@@ -19012,7 +19031,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Özbasi, former island now inland) in TR: West"
+      "description": "Ancient harbour (modern: \u00d6zbasi, former island now inland) in TR: West"
     },
     "category": "trade"
   },
@@ -19104,7 +19123,7 @@
     "id": "port:apa-hylla-kos-hyllos-corcyra-2909",
     "type": "port",
     "subtype": "harbour",
-    "name": "Hyllaïkos, Hyllos? Corcyra",
+    "name": "Hylla\u00efkos, Hyllos? Corcyra",
     "lat": 39.6063,
     "lng": 19.9156,
     "startYear": -200,
@@ -19117,7 +19136,7 @@
     "id": "port:apa-hylla-kos-hyllos-corcyra-2910",
     "type": "port",
     "subtype": "shipyard",
-    "name": "Hyllaïkos, Hyllos? Corcyra",
+    "name": "Hylla\u00efkos, Hyllos? Corcyra",
     "lat": 39.5976,
     "lng": 19.9173,
     "startYear": -200,
@@ -19139,7 +19158,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Nimos near the isle of Simi, Sömbeki Adasi) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Nimos near the isle of Simi, S\u00f6mbeki Adasi) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -19198,7 +19217,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Cinderesi Kalesi, Gülbahce) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: Cinderesi Kalesi, G\u00fclbahce) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -19412,7 +19433,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Alger, Algiers, and its îlot de l'Amiraute) in Algeria - features: breakwater"
+      "description": "Ancient port (modern: Alger, Algiers, and its \u00eelot de l'Amiraute) in Algeria - features: breakwater"
     },
     "category": "trade"
   },
@@ -19614,7 +19635,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Kaleköy, Yeni Bademliköy, on the island Gökceada, Imbros, Imvros) in TR: Marmara N - features: quay"
+      "description": "Ancient port (modern: Kalek\u00f6y, Yeni Bademlik\u00f6y, on the island G\u00f6kceada, Imbros, Imvros) in TR: Marmara N - features: quay"
     },
     "category": "trade"
   },
@@ -19728,7 +19749,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cala Montgo? Near L’Escala) in Spain East"
+      "description": "Ancient harbour (modern: Cala Montgo? Near L\u2019Escala) in Spain East"
     },
     "category": "trade"
   },
@@ -19743,7 +19764,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Maïre: Port des Goudes, on the North side of Cap Croisette) in France South"
+      "description": "Ancient harbour (modern: Isle of Ma\u00efre: Port des Goudes, on the North side of Cap Croisette) in France South"
     },
     "category": "trade"
   },
@@ -19758,7 +19779,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Maïre: Callelongue, on the South side of Cap Croisette) in France South"
+      "description": "Ancient harbour (modern: Isle of Ma\u00efre: Callelongue, on the South side of Cap Croisette) in France South"
     },
     "category": "trade"
   },
@@ -19828,7 +19849,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Aydap İskelesi) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Aydap \u0130skelesi) in TR: South" },
     "category": "trade"
   },
   {
@@ -19870,7 +19891,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Oppidum and Roman fort at île Tristan island, large fish processing factories at rue du Guet & Port Rhu, Douarnenez) in France West"
+      "description": "Ancient harbour (modern: Oppidum and Roman fort at \u00eele Tristan island, large fish processing factories at rue du Guet & Port Rhu, Douarnenez) in France West"
     },
     "category": "trade"
   },
@@ -19953,7 +19974,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gök Liman?) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: G\u00f6k Liman?) in TR: South" },
     "category": "trade"
   },
   {
@@ -19995,7 +20016,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Herne, Dragon Island in the gulf of Dakhla? Hanno indicates he navigated 2 days to the South from Larache, 1 day to the East, and that the island has a perimeter of ½ nautical mile, and that it is inside a gulf, about 850 nautical miles from Ceuta. The isle of Herne is inside of the gulf of Dakhla (also called Rio de Oro) which is more than 20 nautical miles long and is located about 1000 nautical miles from Ceuta. The isle of Herne has a perimeter in the order of 1 nautical mile. Despite the approximations, there does not seem to be any other site in this part of the world that corresponds better to Hanon's description.) in Morocco"
+      "description": "Ancient harbour (modern: Isle of Herne, Dragon Island in the gulf of Dakhla? Hanno indicates he navigated 2 days to the South from Larache, 1 day to the East, and that the island has a perimeter of \u00bd nautical mile, and that it is inside a gulf, about 850 nautical miles from Ceuta. The isle of Herne is inside of the gulf of Dakhla (also called Rio de Oro) which is more than 20 nautical miles long and is located about 1000 nautical miles from Ceuta. The isle of Herne has a perimeter in the order of 1 nautical mile. Despite the approximations, there does not seem to be any other site in this part of the world that corresponds better to Hanon's description.) in Morocco"
     },
     "category": "trade"
   },
@@ -20025,7 +20046,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tiran island, at the entrance of the gulf of Aqaba? a very strategic location for controlling sea trade entering the Gulf of Aqaba and levying taxes …\r\nAnother option would be at Ras Mohammed) in Gulf of Aqaba"
+      "description": "Ancient harbour (modern: Tiran island, at the entrance of the gulf of Aqaba? a very strategic location for controlling sea trade entering the Gulf of Aqaba and levying taxes \u2026\r\nAnother option would be at Ras Mohammed) in Gulf of Aqaba"
     },
     "category": "trade"
   },
@@ -20082,7 +20103,9 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kinet Höyük, Yesil) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Kinet H\u00f6y\u00fck, Yesil) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -20096,7 +20119,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gökkaya near the isle of Kekova Adasi) in TR: South"
+      "description": "Ancient harbour (modern: G\u00f6kkaya near the isle of Kekova Adasi) in TR: South"
     },
     "category": "trade"
   },
@@ -20468,7 +20491,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sancakli Köyü, or Gavur Kalesi?) in TR: South"
+      "description": "Ancient harbour (modern: Sancakli K\u00f6y\u00fc, or Gavur Kalesi?) in TR: South"
     },
     "category": "trade"
   },
@@ -20579,7 +20602,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Göcek) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: G\u00f6cek) in TR: South" },
     "category": "trade"
   },
   {
@@ -20620,7 +20643,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Camli, Gökova Limani) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: Camli, G\u00f6kova Limani) in TR: West" },
     "category": "trade"
   },
   {
@@ -20679,7 +20702,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Chornomors’ke, in Achmechet bay) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Chornomors\u2019ke, in Achmechet bay) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -20885,7 +20908,7 @@
     "id": "port:apa-kargaeas-cragaearum-kara-a-curias-prom-4245",
     "type": "port",
     "subtype": "harbour",
-    "name": "Kargaeas, Cragaearum, Karaïa, Curias Prom.",
+    "name": "Kargaeas, Cragaearum, Kara\u00efa, Curias Prom.",
     "lat": 34.5666,
     "lng": 33.0412,
     "startYear": -323,
@@ -20991,7 +21014,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Mius’kyi Firth, near Cape Beglyts’ka) in Russia Black S."
+      "description": "Ancient harbour (modern: Mius\u2019kyi Firth, near Cape Beglyts\u2019ka) in Russia Black S."
     },
     "category": "trade"
   },
@@ -21020,7 +21043,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kösk Höyük, near Gerze) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: K\u00f6sk H\u00f6y\u00fck, near Gerze) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -21047,7 +21072,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Poles bay, with 150 m breakwater to the islet, on the isle of Kea, Mürted) in GR: Cyclades Isl. - features: breakwater, quay"
+      "description": "Ancient port (modern: Poles bay, with 150 m breakwater to the islet, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl. - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -21166,7 +21191,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kücük Burnaz) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: K\u00fcc\u00fck Burnaz) in TR: South" },
     "category": "trade"
   },
   {
@@ -21294,7 +21319,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: Sülüklü Gölü, near Dalyan on R Dalyan, Strabo, 14, 2 mentions shipsheds and a closable harbour (possibly between towers T4 & T5)) in TR: South - features: slipway, shipyard"
+      "description": "Ancient shipyard (modern: S\u00fcl\u00fckl\u00fc G\u00f6l\u00fc, near Dalyan on R Dalyan, Strabo, 14, 2 mentions shipsheds and a closable harbour (possibly between towers T4 & T5)) in TR: South - features: slipway, shipyard"
     },
     "category": "trade"
   },
@@ -21324,7 +21349,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Isle of Sedir Adasi, Sehiroglu, inside the gulf of Gökova) in TR: West - features: breakwater"
+      "description": "Ancient port (modern: Isle of Sedir Adasi, Sehiroglu, inside the gulf of G\u00f6kova) in TR: West - features: breakwater"
     },
     "category": "trade"
   },
@@ -21384,7 +21409,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Kea, Mürted) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Isle of Kea, M\u00fcrted) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -21583,7 +21608,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Cengelköy) in TR: Bosph S" },
+    "props": { "description": "Ancient harbour (modern: Cengelk\u00f6y) in TR: Bosph S" },
     "category": "trade"
   },
   {
@@ -21626,7 +21651,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kilyos, Kumköy) in TR: Black Sea N" },
+    "props": { "description": "Ancient harbour (modern: Kilyos, Kumk\u00f6y) in TR: Black Sea N" },
     "category": "trade"
   },
   {
@@ -21640,7 +21665,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Kimolos, Cimelos, Gümüs) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Isle of Kimolos, Cimelos, G\u00fcm\u00fcs) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -21876,21 +21901,21 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Kavakköy) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: near Kavakk\u00f6y) in TR: Marmara N" },
     "category": "trade"
   },
   {
     "id": "port:apa-kodrigai-on-r-karsos-portis-ciliciae-kil-4663",
     "type": "port",
     "subtype": "harbour",
-    "name": "Kodrigai, on R Karsos, Portis Ciliciae, Kilikiai Pylai, Pylae Ciliciae, Alexandreia kat’isson?",
+    "name": "Kodrigai, on R Karsos, Portis Ciliciae, Kilikiai Pylai, Pylae Ciliciae, Alexandreia kat\u2019isson?",
     "lat": 36.6592,
     "lng": 36.2202,
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: “Pillars of Jonas”, Sariseki Kalesi) in TR: South"
+      "description": "Ancient harbour (modern: \u201cPillars of Jonas\u201d, Sariseki Kalesi) in TR: South"
     },
     "category": "trade"
   },
@@ -22006,7 +22031,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Güllüsu Liman,  west of Türkeli) in TR: Black Sea"
+      "description": "Ancient harbour (modern: G\u00fcll\u00fcsu Liman,  west of T\u00fcrkeli) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -22035,7 +22060,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Koybasi, near Yeniköy) in TR: Bosph N" },
+    "props": {
+      "description": "Ancient harbour (modern: Koybasi, near Yenik\u00f6y) in TR: Bosph N"
+    },
     "category": "trade"
   },
   {
@@ -22188,7 +22215,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Yaprak Köyü, Susanoglu) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Yaprak K\u00f6y\u00fc, Susanoglu) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -22202,7 +22231,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: Korissia, on R Elixos, on the isle of Kea, Mürted) in GR: Cyclades Isl. - features: shipyard"
+      "description": "Ancient shipyard (modern: Korissia, on R Elixos, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl. - features: shipyard"
     },
     "category": "trade"
   },
@@ -22258,7 +22287,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: Mandraki harbour, Kos, on the isle of Kos, Istanköy) in GR: Eastern Isl. - features: slipway, shipyard"
+      "description": "Ancient shipyard (modern: Mandraki harbour, Kos, on the isle of Kos, Istank\u00f6y) in GR: Eastern Isl. - features: slipway, shipyard"
     },
     "category": "trade"
   },
@@ -22301,7 +22330,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ordu, at the outlet of R Bülbül deresi, SE of Cape Boon ;  Strabo, 12, 3, 18 & Plini, 6, 4 are not very clear on the location of the Byzeres people in this area) in TR: Black Sea"
+      "description": "Ancient harbour (modern: Ordu, at the outlet of R B\u00fclb\u00fcl deresi, SE of Cape Boon ;  Strabo, 12, 3, 18 & Plini, 6, 4 are not very clear on the location of the Byzeres people in this area) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -22346,7 +22375,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: near Güneyköy) in TR: South - features: slipway, shipyard"
+      "description": "Ancient shipyard (modern: near G\u00fcneyk\u00f6y) in TR: South - features: slipway, shipyard"
     },
     "category": "trade"
   },
@@ -22376,7 +22405,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Karaca Limani, Porto Ceneviz Köyü) in TR: South"
+      "description": "Ancient harbour (modern: Karaca Limani, Porto Ceneviz K\u00f6y\u00fc) in TR: South"
     },
     "category": "trade"
   },
@@ -22460,7 +22489,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near Kalanora? 1700 m east of Kaynarca Neolithic settlement, R Münip Bey Deresi) in TR: Marmara N"
+      "description": "Ancient harbour (modern: near Kalanora? 1700 m east of Kaynarca Neolithic settlement, R M\u00fcnip Bey Deresi) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -22545,7 +22574,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Vaniköy) in TR: Bosph S" },
+    "props": { "description": "Ancient harbour (modern: Vanik\u00f6y) in TR: Bosph S" },
     "category": "trade"
   },
   {
@@ -22574,7 +22603,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Krommydarous’ bay, The Piraeus) in GR: Attica +"
+      "description": "Ancient harbour (modern: Krommydarous\u2019 bay, The Piraeus) in GR: Attica +"
     },
     "category": "trade"
   },
@@ -22602,7 +22631,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cape Kormakitis, Koruçam Burnu) in Cyprus"
+      "description": "Ancient harbour (modern: Cape Kormakitis, Koru\u00e7am Burnu) in Cyprus"
     },
     "category": "trade"
   },
@@ -22687,7 +22716,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Badembükü? near Parlak) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: Bademb\u00fck\u00fc? near Parlak) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -22743,7 +22774,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Akce Köy) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: Akce K\u00f6y) in TR: West" },
     "category": "trade"
   },
   {
@@ -22824,7 +22855,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ipsala, on R Maritsa, Evros, Mariç) in TR: Marmara N"
+      "description": "Ancient harbour (modern: Ipsala, on R Maritsa, Evros, Mari\u00e7) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -22838,7 +22869,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Demirci Köyü Limani) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: Demirci K\u00f6y\u00fc Limani) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -23038,7 +23071,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: now inland near Batiköy) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: now inland near Batik\u00f6y) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -23112,7 +23147,7 @@
     "id": "port:apa-la-us-anchorage-3246",
     "type": "port",
     "subtype": "anchorage",
-    "name": "Laïus anchorage",
+    "name": "La\u00efus anchorage",
     "lat": 38.3894,
     "lng": 25.99,
     "startYear": -600,
@@ -23247,7 +23282,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sivaslilar Köyü) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: Sivaslilar K\u00f6y\u00fc) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -23726,7 +23763,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kalender Orduevi, near Yeniköy) in TR: Bosph N"
+      "description": "Ancient harbour (modern: Kalender Orduevi, near Yenik\u00f6y) in TR: Bosph N"
     },
     "category": "trade"
   },
@@ -24075,7 +24112,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ras el-Kanayis, Ras Kanaïs, Ras el-Hekma) in Egypt: Med Sea"
+      "description": "Ancient harbour (modern: Ras el-Kanayis, Ras Kana\u00efs, Ras el-Hekma) in Egypt: Med Sea"
     },
     "category": "trade"
   },
@@ -24253,7 +24290,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near Kezil Burun or Incecik Burun or Güdük Burun?) in TR: South"
+      "description": "Ancient harbour (modern: near Kezil Burun or Incecik Burun or G\u00fcd\u00fck Burun?) in TR: South"
     },
     "category": "trade"
   },
@@ -24464,7 +24501,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: South of Lake Suvla, Tuz Gölü in Besyol plain, west of Büyükanafarta) in TR: Marmara N"
+      "description": "Ancient harbour (modern: South of Lake Suvla, Tuz G\u00f6l\u00fc in Besyol plain, west of B\u00fcy\u00fckanafarta) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -24638,7 +24675,7 @@
     "id": "port:apa-lissa-lissus-lissos-lison-liso-2nd-port--4193",
     "type": "port",
     "subtype": "harbour",
-    "name": "Lissa, Lissus, Lissos, Lison, Liso, 2nd port d’Elyros",
+    "name": "Lissa, Lissus, Lissos, Lison, Liso, 2nd port d\u2019Elyros",
     "lat": 35.244,
     "lng": 23.785,
     "startYear": -323,
@@ -24744,7 +24781,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cesmeönü Kalesi, near Besikdüzü Liman) in TR: Black Sea"
+      "description": "Ancient harbour (modern: Cesme\u00f6n\u00fc Kalesi, near Besikd\u00fcz\u00fc Liman) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -24985,7 +25022,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Roman embarcadero de la Albufereta, near Tossal de Manises and near Tossal de Les Basses, with fish tank at 38.361989°N, -0.441106°E, in Alicante) in Spain East - features: mole, quay"
+      "description": "Ancient port (modern: Roman embarcadero de la Albufereta, near Tossal de Manises and near Tossal de Les Basses, with fish tank at 38.361989\u00b0N, -0.441106\u00b0E, in Alicante) in Spain East - features: mole, quay"
     },
     "category": "trade"
   },
@@ -25369,7 +25406,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Söke?) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: S\u00f6ke?) in TR: West" },
     "category": "trade"
   },
   {
@@ -25426,7 +25463,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Moulos, Kücükerenköy) in Cyprus - features: quay"
+      "description": "Ancient port (modern: Moulos, K\u00fcc\u00fckerenk\u00f6y) in Cyprus - features: quay"
     },
     "category": "trade"
   },
@@ -25482,7 +25519,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Fethiye island, Sövalye Adasi, Ile Chevalier) in TR: South"
+      "description": "Ancient harbour (modern: Fethiye island, S\u00f6valye Adasi, Ile Chevalier) in TR: South"
     },
     "category": "trade"
   },
@@ -25582,7 +25619,9 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Bahçeli, on R Madra Cayi) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: Bah\u00e7eli, on R Madra Cayi) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -25705,7 +25744,7 @@
     "startYear": -323,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Marqueh, Marqiyé) in Syria" },
+    "props": { "description": "Ancient harbour (modern: near Marqueh, Marqiy\u00e9) in Syria" },
     "category": "trade"
   },
   {
@@ -26226,7 +26265,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Büyük Adasi in the Prince islands) in TR: Marmara S"
+      "description": "Ancient harbour (modern: Isle of B\u00fcy\u00fck Adasi in the Prince islands) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -26314,7 +26353,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Korsan Köyü, Sazak Köyü, Karaöz Limani) in TR: South"
+      "description": "Ancient harbour (modern: Korsan K\u00f6y\u00fc, Sazak K\u00f6y\u00fc, Kara\u00f6z Limani) in TR: South"
     },
     "category": "trade"
   },
@@ -26329,7 +26368,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: 1.8 km south of Neolithic settlement at Yarımburgaz Magarasi cave, on R Sazlidere) in TR: Marmara N"
+      "description": "Ancient harbour (modern: 1.8 km south of Neolithic settlement at Yar\u0131mburgaz Magarasi cave, on R Sazlidere) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -26416,7 +26455,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Güzelcamli) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: near G\u00fczelcamli) in TR: West" },
     "category": "trade"
   },
   {
@@ -26503,7 +26542,7 @@
     "id": "port:apa-menelaos-limen-menela-s-menelas-5577",
     "type": "port",
     "subtype": "harbour",
-    "name": "Menelaos Limen, Menelaüs, Menelas",
+    "name": "Menelaos Limen, Menela\u00fcs, Menelas",
     "lat": 31.9813,
     "lng": 24.878,
     "startYear": -323,
@@ -26736,7 +26775,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Panormittis, on the isle of Simi, Sömbeki Adasi) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Panormittis, on the isle of Simi, S\u00f6mbeki Adasi) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -26866,7 +26905,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Köseagzi near Bali) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: K\u00f6seagzi near Bali) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -27087,7 +27128,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Eirene, Agia Irini, on the isle of Kea, Mürted) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Eirene, Agia Irini, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -27437,7 +27478,7 @@
     "id": "port:apa-mothone-methone-archa-c-pedasus-2848",
     "type": "port",
     "subtype": "port",
-    "name": "Mothone, Methone, archaïc Pedasus",
+    "name": "Mothone, Methone, archa\u00efc Pedasus",
     "lat": 36.8131,
     "lng": 21.7057,
     "startYear": -600,
@@ -27728,7 +27769,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Mikonos, on the isle of Mykonos, Mökene) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Mikonos, on the isle of Mykonos, M\u00f6kene) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -27797,7 +27838,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gümüslük, Dogu Limani) in TR: West - features: breakwater, quay"
+      "description": "Ancient harbour (modern: G\u00fcm\u00fcsl\u00fck, Dogu Limani) in TR: West - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -27812,7 +27853,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gümüslük, Bati Limani) in TR: West - features: breakwater"
+      "description": "Ancient harbour (modern: G\u00fcm\u00fcsl\u00fck, Bati Limani) in TR: West - features: breakwater"
     },
     "category": "trade"
   },
@@ -27842,7 +27883,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Quseir al-Qadim, at the Mövenpick hotel, 8 km north of Quseir. Ptolemy locates Myos-Hormos at 3°25’ of latitude (380 km) north of Berenike, which leads to Hurghada. The Periplus Maris Erythraei indicates that this site is at 1800 stadia (330 km) from Berenike, which would lead near Safaga. However, modern authors agree to locate this port 8 km north of Quseir on the West side of the road, and a jetty made of amphorae was found by Peacock & Blue. Napoleon's team identified it as \"Vieux Qoséïr\". Roman fort at Qasr Hadie and road to Nile valley) in Egypt: Red Sea - features: quay"
+      "description": "Ancient harbour (modern: Quseir al-Qadim, at the M\u00f6venpick hotel, 8 km north of Quseir. Ptolemy locates Myos-Hormos at 3\u00b025\u2019 of latitude (380 km) north of Berenike, which leads to Hurghada. The Periplus Maris Erythraei indicates that this site is at 1800 stadia (330 km) from Berenike, which would lead near Safaga. However, modern authors agree to locate this port 8 km north of Quseir on the West side of the road, and a jetty made of amphorae was found by Peacock & Blue. Napoleon's team identified it as \"Vieux Qos\u00e9\u00efr\". Roman fort at Qasr Hadie and road to Nile valley) in Egypt: Red Sea - features: quay"
     },
     "category": "trade"
   },
@@ -27886,7 +27927,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Mürefte) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: M\u00fcrefte) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -27908,7 +27949,7 @@
     "id": "port:apa-myrmex-didymos-insulae-dusmai-dysma-5532",
     "type": "port",
     "subtype": "harbour",
-    "name": "Myrmex? Didymos insulae? Dusmai, Dysmaï?",
+    "name": "Myrmex? Didymos insulae? Dusmai, Dysma\u00ef?",
     "lat": 31.1438,
     "lng": 29.7808,
     "startYear": -800,
@@ -28242,7 +28283,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kom Gajef, Kom el-Gaïef) in Egypt: Med Sea"
+      "description": "Ancient harbour (modern: Kom Gajef, Kom el-Ga\u00efef) in Egypt: Med Sea"
     },
     "category": "trade"
   },
@@ -28342,7 +28383,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kücüksu) in TR: Bosph S" },
+    "props": { "description": "Ancient harbour (modern: K\u00fcc\u00fcksu) in TR: Bosph S" },
     "category": "trade"
   },
   {
@@ -28398,7 +28439,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Liman Gol, Gölü) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: Liman Gol, G\u00f6l\u00fc) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -28644,7 +28687,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Les Aires de Saint-Jacques, near Maugio, near R Capouillère) in France South"
+      "description": "Ancient harbour (modern: Les Aires de Saint-Jacques, near Maugio, near R Capouill\u00e8re) in France South"
     },
     "category": "trade"
   },
@@ -28731,7 +28774,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Yanikköy, on R Gediz) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: Yanikk\u00f6y, on R Gediz) in TR: West" },
     "category": "trade"
   },
   {
@@ -28744,7 +28787,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Heniches’k, Zeniske) in Ukraine Black S." },
+    "props": {
+      "description": "Ancient harbour (modern: Heniches\u2019k, Zeniske) in Ukraine Black S."
+    },
     "category": "trade"
   },
   {
@@ -28852,7 +28897,7 @@
     "id": "port:apa-nesis-odysseus-port-of-the-cyclops-1593",
     "type": "port",
     "subtype": "port",
-    "name": "Nesis, Odysseus' port of the Cyclops ?",
+    "name": "Nesis, Odysseus' port of the Cyclops\u00a0?",
     "lat": 40.7943,
     "lng": 14.1611,
     "startYear": -200,
@@ -28880,7 +28925,7 @@
     "id": "port:apa-nicaea-nika-a-nicia-plagia-1228",
     "type": "port",
     "subtype": "harbour",
-    "name": "Nicaea, Nikaïa, Nicia plagia",
+    "name": "Nicaea, Nika\u00efa, Nicia plagia",
     "lat": 43.6938,
     "lng": 7.2777,
     "startYear": -200,
@@ -29132,7 +29177,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Roman villa at La Mastine, near Nuaillé-d'Aunis) in France West"
+      "description": "Ancient harbour (modern: Roman villa at La Mastine, near Nuaill\u00e9-d'Aunis) in France West"
     },
     "category": "trade"
   },
@@ -29185,14 +29230,14 @@
     "id": "port:apa-north-port-of-gaulos-glauconis-civitas-1872",
     "type": "port",
     "subtype": "harbour",
-    "name": "North port of Gaulos, Glauconis civitas",
+    "name": "North port of\u00a0Gaulos, Glauconis civitas",
     "lat": 36.0689,
     "lng": 14.2599,
     "startYear": -800,
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Marsalforn, north port of Victoria Citadella, with  salt production, on the isle of Gozo) in Malta: Gozo"
+      "description": "Ancient harbour (modern: Marsalforn, north port of\u00a0Victoria Citadella, with  salt production,\u00a0on the isle of Gozo) in Malta: Gozo"
     },
     "category": "trade"
   },
@@ -29256,7 +29301,7 @@
     "id": "port:apa-noviodunum-nea-oduno-home-port-of-classi-3591",
     "type": "port",
     "subtype": "harbour",
-    "name": "Noviodunum, Neaïoduno, home port of Classis Flavia Moesica fleet, later called Classis Ripae Scythicae",
+    "name": "Noviodunum, Nea\u00efoduno, home port of Classis Flavia Moesica fleet, later called Classis Ripae Scythicae",
     "lat": 45.2702,
     "lng": 28.497,
     "startYear": -200,
@@ -29528,7 +29573,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Varna, ancient port unlocated near modern railway station, Roman naval base, with major Neolithic necropolis at  43.2130°N,  27.8644°E, on R Provadiyska) in Bulgaria Black S."
+      "description": "Ancient harbour (modern: Varna, ancient port unlocated near modern railway station, Roman naval base, with major Neolithic necropolis at  43.2130\u00b0N,  27.8644\u00b0E, on R Provadiyska) in Bulgaria Black S."
     },
     "category": "trade"
   },
@@ -29613,7 +29658,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Ünye) in TR: Black Sea" },
+    "props": { "description": "Ancient harbour (modern: \u00dcnye) in TR: Black Sea" },
     "category": "trade"
   },
   {
@@ -29708,7 +29753,7 @@
     "id": "port:apa-oiniadae-oiniades-niades-oeniades-oenee--2377",
     "type": "port",
     "subtype": "major_port",
-    "name": "Oiniadae, Oiniades, Œniades, Oeniades, Oenee, Trikardo insula, North port on Lacus Melite",
+    "name": "Oiniadae, Oiniades, \u0152niades, Oeniades, Oenee, Trikardo insula, North port on Lacus Melite",
     "lat": 38.4114,
     "lng": 21.1936,
     "startYear": -600,
@@ -29723,7 +29768,7 @@
     "id": "port:apa-oiniadae-oiniades-niades-oeniades-oenee--2378",
     "type": "port",
     "subtype": "harbour",
-    "name": "Oiniadae, Oiniades, Œniades, Oeniades, Oenee, Trikardo insula, possible South port on R Acheloos",
+    "name": "Oiniadae, Oiniades, \u0152niades, Oeniades, Oenee, Trikardo insula, possible South port on R Acheloos",
     "lat": 38.399,
     "lng": 21.2098,
     "startYear": -600,
@@ -29831,7 +29876,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: L’Almanarre near Hyeres, with  salt production on the peninsula of Giens) in France South - features: breakwater, quay"
+      "description": "Ancient port (modern: L\u2019Almanarre near Hyeres, with  salt production on the peninsula of Giens) in France South - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -29873,7 +29918,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: L'Hospitalet de l’Infant) in Spain East" },
+    "props": {
+      "description": "Ancient harbour (modern: L'Hospitalet de l\u2019Infant) in Spain East"
+    },
     "category": "trade"
   },
   {
@@ -30336,7 +30383,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Zabargat, Geziret Seberget, St John’s Island, the island with topaz, off Berenike. The isle of Ophiodes is well located as it seems to be the only one producing topaz in this area. No good shelter here!) in Egypt: Red Sea"
+      "description": "Ancient harbour (modern: Isle of Zabargat, Geziret Seberget, St John\u2019s Island, the island with topaz, off Berenike. The isle of Ophiodes is well located as it seems to be the only one producing topaz in this area. No good shelter here!) in Egypt: Red Sea"
     },
     "category": "trade"
   },
@@ -30366,7 +30413,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Isle of Tinos, İstendil) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Isle of Tinos, \u0130stendil) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -30409,7 +30456,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Intepe, Erenköy, with Hector's tomb) in TR: Marmara S"
+      "description": "Ancient harbour (modern: Intepe, Erenk\u00f6y, with Hector's tomb) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -30911,7 +30958,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: outlet of R Köprü Cayi) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: outlet of R K\u00f6pr\u00fc Cayi) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -30940,7 +30989,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: south of Antalya airport, near Düden Cayi waterfalls) in TR: South - features: breakwater, quay"
+      "description": "Ancient port (modern: south of Antalya airport, near D\u00fcden Cayi waterfalls) in TR: South - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -30955,7 +31004,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Pamucak, near Selcuk, on R Kücük Menderes) in TR: West"
+      "description": "Ancient harbour (modern: Pamucak, near Selcuk, on R K\u00fcc\u00fck Menderes) in TR: West"
     },
     "category": "trade"
   },
@@ -30970,7 +31019,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: La piece a Liards, on R Canche, Blanc-Pavé, Bergeries, Garennes & Bel-Air are just south of it) in France West"
+      "description": "Ancient harbour (modern: La piece a Liards, on R Canche, Blanc-Pav\u00e9, Bergeries, Garennes & Bel-Air are just south of it) in France West"
     },
     "category": "trade"
   },
@@ -31013,7 +31062,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Iliksu Köyü, near Esenköy) in TR: Black Sea"
+      "description": "Ancient harbour (modern: Iliksu K\u00f6y\u00fc, near Esenk\u00f6y) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -31060,13 +31109,15 @@
     "id": "port:apa-paisos-paisos-4044",
     "type": "port",
     "subtype": "harbour",
-    "name": "Paisos, Αpaisos",
+    "name": "Paisos, \u0391paisos",
     "lat": 40.4002,
     "lng": 26.7871,
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near Adatepe Köyü) in TR: Marmara S" },
+    "props": {
+      "description": "Ancient harbour (modern: near Adatepe K\u00f6y\u00fc) in TR: Marmara S"
+    },
     "category": "trade"
   },
   {
@@ -31095,7 +31146,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: « fairly safe shelter » ? near the outlet of R Palasa) in Albania"
+      "description": "Ancient harbour (modern: \u00ab fairly safe shelter \u00bb ? near the outlet of R Palasa) in Albania"
     },
     "category": "trade"
   },
@@ -31140,7 +31191,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gümüsyaka, Eski Eregli, near Sultanköy) in TR: Marmara N"
+      "description": "Ancient harbour (modern: G\u00fcm\u00fcsyaka, Eski Eregli, near Sultank\u00f6y) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -31571,7 +31622,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Incirköy) in TR: Bosph S" },
+    "props": { "description": "Ancient harbour (modern: Incirk\u00f6y) in TR: Bosph S" },
     "category": "trade"
   },
   {
@@ -31755,7 +31806,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Türkbükü, Gölköy, with Mycenaean tomb at Dirmil/Gökcebel, 3 km E of modern marina) in TR: West"
+      "description": "Ancient harbour (modern: T\u00fcrkb\u00fck\u00fc, G\u00f6lk\u00f6y, with Mycenaean tomb at Dirmil/G\u00f6kcebel, 3 km E of modern marina) in TR: West"
     },
     "category": "trade"
   },
@@ -31822,7 +31873,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Phtelia, Ftelia, Neolithic settlement, on the isle of Mykonos, Mökene) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Phtelia, Ftelia, Neolithic settlement, on the isle of Mykonos, M\u00f6kene) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -31912,7 +31963,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Canakgöl, near Selcuk, with possible lighthouse on top of hill, on R Kücük Menderes) in TR: West"
+      "description": "Ancient harbour (modern: Canakg\u00f6l, near Selcuk, with possible lighthouse on top of hill, on R K\u00fcc\u00fck Menderes) in TR: West"
     },
     "category": "trade"
   },
@@ -31972,7 +32023,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Kovala Köyü, Mavisehir, this place fits the description given by Chariton) in TR: West - features: breakwater, mole"
+      "description": "Ancient port (modern: Kovala K\u00f6y\u00fc, Mavisehir, this place fits the description given by Chariton) in TR: West - features: breakwater, mole"
     },
     "category": "trade"
   },
@@ -32631,7 +32682,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ködürümsü Limani, Faralya, Butterfly Valley) in TR: South"
+      "description": "Ancient harbour (modern: K\u00f6d\u00fcr\u00fcms\u00fc Limani, Faralya, Butterfly Valley) in TR: South"
     },
     "category": "trade"
   },
@@ -32646,7 +32697,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near Panagia Pergaminiotissa church (at 35.4067°N, 33.783°E), with Neolithic settlement at Ciftlikdüzü (BAtlas and others incorrectly call it Melandryna)) in Cyprus"
+      "description": "Ancient harbour (modern: near Panagia Pergaminiotissa church (at 35.4067\u00b0N, 33.783\u00b0E), with Neolithic settlement at Ciftlikd\u00fcz\u00fc (BAtlas and others incorrectly call it Melandryna)) in Cyprus"
     },
     "category": "trade"
   },
@@ -33251,7 +33302,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Phaselis Güney Limani, Fasilis Harabeleri, near Tekirova) in TR: South - features: breakwater, mole, quay, lighthouse"
+      "description": "Ancient major port (modern: Phaselis G\u00fcney Limani, Fasilis Harabeleri, near Tekirova) in TR: South - features: breakwater, mole, quay, lighthouse"
     },
     "category": "trade"
   },
@@ -33448,7 +33499,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Görele) in TR: Black Sea" },
+    "props": { "description": "Ancient harbour (modern: G\u00f6rele) in TR: Black Sea" },
     "category": "trade"
   },
   {
@@ -33462,7 +33513,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Marsa Gawasis, near wadi Jasus; Pliny speaks of Aennus; with BA ship galleries (26.5565°N   34.03245°E)) in Egypt: Red Sea"
+      "description": "Ancient harbour (modern: Marsa Gawasis, near wadi Jasus; Pliny speaks of Aennus; with BA ship galleries (26.5565\u00b0N   34.03245\u00b0E)) in Egypt: Red Sea"
     },
     "category": "trade"
   },
@@ -33588,7 +33639,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Olimpos on R Göksü) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Olimpos on R G\u00f6ks\u00fc) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -33645,7 +33698,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sharm Wejh, al-Wajh, on wadi al-Zurayb, this location for Leuke Kome is preferred by Nappo and Nehmé) in Saudi Arabia: Red Sea"
+      "description": "Ancient harbour (modern: Sharm Wejh, al-Wajh, on wadi al-Zurayb, this location for Leuke Kome is preferred by Nappo and Nehm\u00e9) in Saudi Arabia: Red Sea"
     },
     "category": "trade"
   },
@@ -33730,7 +33783,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Eskiföca, Foca near Izmir) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: Eskif\u00f6ca, Foca near Izmir) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -33782,7 +33837,7 @@
     "id": "port:apa-phoron-limen-foron-port-des-fraudeurs-th-2436",
     "type": "port",
     "subtype": "harbour",
-    "name": "Phoron Limen, Foron, Port des fraudeurs, Thieves’ Harbour",
+    "name": "Phoron Limen, Foron, Port des fraudeurs, Thieves\u2019 Harbour",
     "lat": 37.962,
     "lng": 23.61,
     "startYear": -600,
@@ -33890,7 +33945,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: near Sölöz, on lake Isnik Gölü, near Mentese Neolithic settlement) in TR: Marmara S"
+      "description": "Ancient harbour (modern: near S\u00f6l\u00f6z, on lake Isnik G\u00f6l\u00fc, near Mentese Neolithic settlement) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -34407,7 +34462,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Mellec near Demirören) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Mellec near Demir\u00f6ren) in TR: South" },
     "category": "trade"
   },
   {
@@ -34487,7 +34542,7 @@
     "id": "port:apa-pliny-s-teredon-teriton-arrian-s-didotis-5205",
     "type": "port",
     "subtype": "harbour",
-    "name": "Pliny’s Teredon, Teriton, Arrian’s Didotis, Diritotis, Ptolemy's Adarou, Marcian's Adarupolis, on R Euphrates",
+    "name": "Pliny\u2019s Teredon, Teriton, Arrian\u2019s Didotis, Diritotis, Ptolemy's Adarou, Marcian's Adarupolis, on R Euphrates",
     "lat": 30.098,
     "lng": 47.96,
     "startYear": -800,
@@ -34593,7 +34648,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Pisses, on the isle of Kea, Mürted) in GR: Cyclades Isl. - features: slipway"
+      "description": "Ancient port (modern: Pisses, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl. - features: slipway"
     },
     "category": "trade"
   },
@@ -34718,7 +34773,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sokakagzi, Asarliktepe, Sivrice Köyü) in TR: West"
+      "description": "Ancient harbour (modern: Sokakagzi, Asarliktepe, Sivrice K\u00f6y\u00fc) in TR: West"
     },
     "category": "trade"
   },
@@ -36189,7 +36244,7 @@
     "startYear": -800,
     "endYear": -31,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kala’an Gulf) in Egypt: Red Sea" },
+    "props": { "description": "Ancient harbour (modern: Kala\u2019an Gulf) in Egypt: Red Sea" },
     "category": "trade"
   },
   {
@@ -37875,7 +37930,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: el-Gara, al-Qa’arah) in Libya" },
+    "props": { "description": "Ancient harbour (modern: el-Gara, al-Qa\u2019arah) in Libya" },
     "category": "trade"
   },
   {
@@ -38059,7 +38114,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yonim island, Pigeon islets, near Ma‘agan Mikha’el, Maagan Michael, Magaan Mikhael) in Israel"
+      "description": "Ancient harbour (modern: Yonim island, Pigeon islets, near Ma\u2018agan Mikha\u2019el, Maagan Michael, Magaan Mikhael) in Israel"
     },
     "category": "trade"
   },
@@ -38326,7 +38381,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Shavei Zion, Mazra‘a, anchorage) in Israel"
+      "description": "Ancient harbour (modern: Shavei Zion, Mazra\u2018a, anchorage) in Israel"
     },
     "category": "trade"
   },
@@ -39597,7 +39652,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Mansoura, between Kokkino, Erenköy and Kato Pyrgos) in Cyprus - features: breakwater"
+      "description": "Ancient port (modern: Mansoura, between Kokkino, Erenk\u00f6y and Kato Pyrgos) in Cyprus - features: breakwater"
     },
     "category": "trade"
   },
@@ -40000,7 +40055,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Akanthou-Arkosykos, Tatlisu, with neolithic settlement at Çiftlikdüzü) in Cyprus"
+      "description": "Ancient harbour (modern: Akanthou-Arkosykos, Tatlisu, with neolithic settlement at \u00c7iftlikd\u00fcz\u00fc) in Cyprus"
     },
     "category": "trade"
   },
@@ -40915,7 +40970,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Chaaïbia, at Cape Ivi, Willis, Ouillis) in Algeria"
+      "description": "Ancient harbour (modern: Chaa\u00efbia, at Cape Ivi, Willis, Ouillis) in Algeria"
     },
     "category": "trade"
   },
@@ -41088,7 +41143,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Andrea Doria Köyü) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Andrea Doria K\u00f6y\u00fc) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -41446,7 +41503,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Tersane bay on islet near Karacaören island) in TR: South - features: mole, slipway"
+      "description": "Ancient port (modern: Tersane bay on islet near Karaca\u00f6ren island) in TR: South - features: mole, slipway"
     },
     "category": "trade"
   },
@@ -41728,7 +41785,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Türkler, east of Eftalia Ocean Hotel) in TR: South"
+      "description": "Ancient harbour (modern: T\u00fcrkler, east of Eftalia Ocean Hotel) in TR: South"
     },
     "category": "trade"
   },
@@ -41812,7 +41869,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Trois Îlots Hamdania, Ras el-Meskhouta, Roman fish processing factory) in Algeria - features: quay"
+      "description": "Ancient port (modern: Trois \u00celots Hamdania, Ras el-Meskhouta, Roman fish processing factory) in Algeria - features: quay"
     },
     "category": "trade"
   },
@@ -42093,7 +42150,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Agil Köyü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Agil K\u00f6y\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -42237,7 +42294,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kargincik Köyü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Kargincik K\u00f6y\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -42336,7 +42393,9 @@
     "startYear": -323,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient port (modern: Göcek island) in TR: South - features: quay" },
+    "props": {
+      "description": "Ancient port (modern: G\u00f6cek island) in TR: South - features: quay"
+    },
     "category": "trade"
   },
   {
@@ -42576,7 +42635,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Agios Andreas, on the isle of Kimolos, Cimelos, Gümüs) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Agios Andreas, on the isle of Kimolos, Cimelos, G\u00fcm\u00fcs) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -42591,7 +42650,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Rema & Goupa bays, with recent slipways, on the isle of Kimolos, Cimelos, Gümüs) in GR: Cyclades Isl. - features: slipway"
+      "description": "Ancient port (modern: Rema & Goupa bays, with recent slipways, on the isle of Kimolos, Cimelos, G\u00fcm\u00fcs) in GR: Cyclades Isl. - features: slipway"
     },
     "category": "trade"
   },
@@ -42635,7 +42694,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Büyük Cati) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: B\u00fcy\u00fck Cati) in TR: West" },
     "category": "trade"
   },
   {
@@ -42648,7 +42707,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Arapmezari Köyü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Arapmezari K\u00f6y\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -42762,7 +42821,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Aliefendioglu Höyük) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Aliefendioglu H\u00f6y\u00fck) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -42832,7 +42893,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ingilizi Limani, inside Degirmen Bükü) in TR: West"
+      "description": "Ancient harbour (modern: Ingilizi Limani, inside Degirmen B\u00fck\u00fc) in TR: West"
     },
     "category": "trade"
   },
@@ -42847,7 +42908,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Okluk Köyü, inside Degirmen Bükü) in TR: West"
+      "description": "Ancient harbour (modern: Okluk K\u00f6y\u00fc, inside Degirmen B\u00fck\u00fc) in TR: West"
     },
     "category": "trade"
   },
@@ -43904,7 +43965,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Küyücak) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: K\u00fcy\u00fccak) in TR: West" },
     "category": "trade"
   },
   {
@@ -44510,7 +44571,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Port in Stadion District, Gourna, with quarry at  37.3906°N,  25.2783°E, on the isle of Dhilos, Delos) in GR: Cyclades Isl. - features: quay"
+      "description": "Ancient port (modern: Port in Stadion District, Gourna, with quarry at  37.3906\u00b0N,  25.2783\u00b0E, on the isle of Dhilos, Delos) in GR: Cyclades Isl. - features: quay"
     },
     "category": "trade"
   },
@@ -44909,7 +44970,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Quarry at Sidero, on the isle of Kea, Mürted) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Quarry at Sidero, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -44924,7 +44985,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kastri and Paoura, on the isle of Kea, Mürted) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Kastri and Paoura, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -44954,7 +45015,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kephala, Neolithic settlement, on the isle of Kea, Mürted) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Kephala, Neolithic settlement, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -44969,7 +45030,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Otzia Bay, on the isle of Kea, Mürted) in GR: Cyclades Isl. - features: quay, slipway"
+      "description": "Ancient port (modern: Otzia Bay, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl. - features: quay, slipway"
     },
     "category": "trade"
   },
@@ -44984,7 +45045,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Quarry at Ioannis Khalara, on the isle of Kea, Mürted) in GR: Cyclades Isl."
+      "description": "Ancient harbour (modern: Quarry at Ioannis Khalara, on the isle of Kea, M\u00fcrted) in GR: Cyclades Isl."
     },
     "category": "trade"
   },
@@ -45246,7 +45307,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Cukurici Höyük, prehistoric site, near Selcuk) in TR: West"
+      "description": "Ancient harbour (modern: Cukurici H\u00f6y\u00fck, prehistoric site, near Selcuk) in TR: West"
     },
     "category": "trade"
   },
@@ -45486,7 +45547,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gökkovar Limani, Kokar) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: G\u00f6kkovar Limani, Kokar) in TR: West" },
     "category": "trade"
   },
   {
@@ -45575,7 +45636,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tonnara dell’Ursa at Punta Molinazzo, near Punta Raisi) in Italy Sicily"
+      "description": "Ancient harbour (modern: Tonnara dell\u2019Ursa at Punta Molinazzo, near Punta Raisi) in Italy Sicily"
     },
     "category": "trade"
   },
@@ -45731,7 +45792,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Dalyanköy) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: Dalyank\u00f6y) in TR: West" },
     "category": "trade"
   },
   {
@@ -46952,7 +47013,9 @@
     "startYear": -300,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Quarry at Perd’e Sali) in Italy Sardinia" },
+    "props": {
+      "description": "Ancient harbour (modern: Quarry at Perd\u2019e Sali) in Italy Sardinia"
+    },
     "category": "trade"
   },
   {
@@ -46996,7 +47059,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Su Leunaxi, near Nuraghe Sa Domu ‘e s’Orcu and Motti, in Monte Arrubiu area) in Italy Sardinia"
+      "description": "Ancient harbour (modern: Su Leunaxi, near Nuraghe Sa Domu \u2018e s\u2019Orcu and Motti, in Monte Arrubiu area) in Italy Sardinia"
     },
     "category": "trade"
   },
@@ -47958,7 +48021,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Acidere Mevkii Köyü, İlyada Butik Otel, near Coskuntepe Neolithic settlement) in TR: West - features: breakwater"
+      "description": "Ancient port (modern: Acidere Mevkii K\u00f6y\u00fc, \u0130lyada Butik Otel, near Coskuntepe Neolithic settlement) in TR: West - features: breakwater"
     },
     "category": "trade"
   },
@@ -47972,7 +48035,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gümrük Burun) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: G\u00fcmr\u00fck Burun) in TR: West" },
     "category": "trade"
   },
   {
@@ -48045,7 +48108,9 @@
     "startYear": -323,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient port (modern: Kadirga Köyü) in TR: West - features: quay" },
+    "props": {
+      "description": "Ancient port (modern: Kadirga K\u00f6y\u00fc) in TR: West - features: quay"
+    },
     "category": "trade"
   },
   {
@@ -48126,7 +48191,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Puerto de Santa Ponsa, near Puig de Sa Morisca, Santa Ponsa, Calviá) in Spain Mallorca"
+      "description": "Ancient harbour (modern: Puerto de Santa Ponsa, near Puig de Sa Morisca, Santa Ponsa, Calvi\u00e1) in Spain Mallorca"
     },
     "category": "trade"
   },
@@ -48197,7 +48262,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: S’Omu e S’Orku (SOMK), Portu Maga, Mesolithic settlement) in Italy Sardinia"
+      "description": "Ancient harbour (modern: S\u2019Omu e S\u2019Orku (SOMK), Portu Maga, Mesolithic settlement) in Italy Sardinia"
     },
     "category": "trade"
   },
@@ -48834,7 +48899,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Alacaligöl, Kesik plain, with so called \"Kesik canal\" which is not man-made acc. to Kayan, 1995) in TR: West"
+      "description": "Ancient harbour (modern: Alacalig\u00f6l, Kesik plain, with so called \"Kesik canal\" which is not man-made acc. to Kayan, 1995) in TR: West"
     },
     "category": "trade"
   },
@@ -49631,7 +49696,7 @@
     "startYear": -323,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gökcetepe) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: G\u00f6kcetepe) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -49759,7 +49824,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Hoça Cesme Neolithic settlement, near Enez) in TR: Marmara N"
+      "description": "Ancient harbour (modern: Ho\u00e7a Cesme Neolithic settlement, near Enez) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -50088,7 +50153,8 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": { "description": "Ancient harbour (modern: Poltu Quatu) in Italy Sardinia" },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q38882"
   },
   {
     "id": "port:apa-port-at-41-15-8-65-575",
@@ -50197,7 +50263,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kilisecik near Göktepe) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: Kilisecik near G\u00f6ktepe) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -50329,7 +50397,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Roman villa, Fontão de Antela, near Praia de Angeiras) in Portugal"
+      "description": "Ancient harbour (modern: Roman villa, Font\u00e3o de Antela, near Praia de Angeiras) in Portugal"
     },
     "category": "trade"
   },
@@ -50950,7 +51018,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Ponte Testaccio, archaïc Mattatoio, on right bank of R Tiber; Note the ancient port area spanned ca. 2 km from Ponte Testaccio to Ponte Cestius-Fabricius) in Italy West - features: quay"
+      "description": "Ancient port (modern: Ponte Testaccio, archa\u00efc Mattatoio, on right bank of R Tiber; Note the ancient port area spanned ca. 2 km from Ponte Testaccio to Ponte Cestius-Fabricius) in Italy West - features: quay"
     },
     "category": "trade"
   },
@@ -51427,7 +51495,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Calle Marqués de Valladares, 43, Vigo) in Spain North"
+      "description": "Ancient harbour (modern: Calle Marqu\u00e9s de Valladares, 43, Vigo) in Spain North"
     },
     "category": "trade"
   },
@@ -52668,7 +52736,8 @@
     "props": {
       "description": "Ancient port (modern: Sainte Jeanne, near Port La Nouvelle) in France South - features: quay"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q184313"
   },
   {
     "id": "port:apa-port-at-43-00-6-25-1199",
@@ -53316,7 +53385,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Calanque de l’ane, Pomegues (isles of Frioul)) in France South - features: mole"
+      "description": "Ancient port (modern: Calanque de l\u2019ane, Pomegues (isles of Frioul)) in France South - features: mole"
     },
     "category": "trade"
   },
@@ -53346,7 +53415,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Roman villa at Embonne, Cap d’Agde, with submerged BA settlement in Etang de Luno) in France South"
+      "description": "Ancient harbour (modern: Roman villa at Embonne, Cap d\u2019Agde, with submerged BA settlement in Etang de Luno) in France South"
     },
     "category": "trade"
   },
@@ -54471,7 +54540,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Roman fort at El Castillo de San Martín, Soto del Barco, on Ria Nalon-Narcea) in Spain North"
+      "description": "Ancient harbour (modern: Roman fort at El Castillo de San Mart\u00edn, Soto del Barco, on Ria Nalon-Narcea) in Spain North"
     },
     "category": "trade"
   },
@@ -54701,9 +54770,10 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Plage de La Garoupe, probable shelter (Cap d’Antibes)) in France South"
+      "description": "Ancient harbour (modern: Plage de La Garoupe, probable shelter (Cap d\u2019Antibes)) in France South"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q166"
   },
   {
     "id": "port:apa-port-at-43-57-5-94-501",
@@ -57761,7 +57831,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Panskoye 2, in Yarylhats’ka Bay) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Panskoye 2, in Yarylhats\u2019ka Bay) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -57776,7 +57846,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Panskoye 1, in Yarylhats’ka Bay) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Panskoye 1, in Yarylhats\u2019ka Bay) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -58180,7 +58250,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Belen’koye, on R Budak Liman) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Belen\u2019koye, on R Budak Liman) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -58493,7 +58563,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Pokrovskoye, near Cape Kinburns’ka) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Pokrovskoye, near Cape Kinburns\u2019ka) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -58618,7 +58688,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Oppidum at Chatelet, with possible port at La Meule, 2.5 km east, on île d'Yeu island) in France West"
+      "description": "Ancient harbour (modern: Oppidum at Chatelet, with possible port at La Meule, 2.5 km east, on \u00eele d'Yeu island) in France West"
     },
     "category": "trade"
   },
@@ -58632,7 +58702,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Berdians’ka gulf) in Ukraine Black S." },
+    "props": {
+      "description": "Ancient harbour (modern: Berdians\u2019ka gulf) in Ukraine Black S."
+    },
     "category": "trade"
   },
   {
@@ -58676,7 +58748,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: La Caillaudière, at Pont Habert, near Sallertaine inside the marais Breton) in France West"
+      "description": "Ancient harbour (modern: La Caillaudi\u00e8re, at Pont Habert, near Sallertaine inside the marais Breton) in France West"
     },
     "category": "trade"
   },
@@ -58943,7 +59015,8 @@
     "props": {
       "description": "Ancient harbour (modern: Kervert beach, possible anchorage for Caesar's fleet before the battle against the Venetes (56 BC)) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q145694"
   },
   {
     "id": "port:apa-port-at-47-54-2-90-1051",
@@ -59016,7 +59089,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Anse du Pô, Carnac, Neolithic settlement) in France West"
+      "description": "Ancient harbour (modern: Anse du P\u00f4, Carnac, Neolithic settlement) in France West"
     },
     "category": "trade"
   },
@@ -59033,7 +59106,8 @@
     "props": {
       "description": "Ancient harbour (modern: Isle Aux Moines, with several dolmens & cromlechs) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q37495"
   },
   {
     "id": "port:apa-port-at-47-60-2-93-1043",
@@ -59048,7 +59122,8 @@
     "props": {
       "description": "Ancient harbour (modern: Pointe de Toulvern, on Anse de Baden, with several dolmens) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q4918"
   },
   {
     "id": "port:apa-port-at-47-61-2-75-1048",
@@ -59151,7 +59226,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tronoen sanctuary & oppidum, near Notre-Dame de Tronoën church) in France West"
+      "description": "Ancient harbour (modern: Tronoen sanctuary & oppidum, near Notre-Dame de Trono\u00ebn church) in France West"
     },
     "category": "trade"
   },
@@ -59438,7 +59513,8 @@
     "props": {
       "description": "Ancient harbour (modern: Pointe de Kerdra, near Lesteven, Neolithic settlement) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q13924"
   },
   {
     "id": "port:apa-port-at-48-21-4-56-1003",
@@ -59541,7 +59617,8 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": { "description": "Ancient harbour (modern: Landerneau, on R Elorn) in France West" },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q153553"
   },
   {
     "id": "port:apa-port-at-48-48-2-00-982",
@@ -59767,7 +59844,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Lannion and Ploulec’h, on R Leguer) in France West"
+      "description": "Ancient harbour (modern: Lannion and Ploulec\u2019h, on R Leguer) in France West"
     },
     "category": "trade"
   },
@@ -60027,7 +60104,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Oppidum at Cité des Limes, near Bracquemont) in France West"
+      "description": "Ancient harbour (modern: Oppidum at Cit\u00e9 des Limes, near Bracquemont) in France West"
     },
     "category": "trade"
   },
@@ -62276,7 +62353,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: “Oude Wereld” probably submerged offshore of Goedereede, on the isle of Goeree, remains were seen last in 1618 at a place called \"Windglap\" located in the Zandgors dunes) in Netherlands - features: quay"
+      "description": "Ancient port (modern: \u201cOude Wereld\u201d probably submerged offshore of Goedereede, on the isle of Goeree, remains were seen last in 1618 at a place called \"Windglap\" located in the Zandgors dunes) in Netherlands - features: quay"
     },
     "category": "trade"
   },
@@ -63663,7 +63740,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Neolithic settlements at Lietzow, on Rügen island) in Germany"
+      "description": "Ancient harbour (modern: Neolithic settlements at Lietzow, on R\u00fcgen island) in Germany"
     },
     "category": "trade"
   },
@@ -64134,7 +64211,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Järrestad, BA rock carvings showing many ships) in Sweden"
+      "description": "Ancient harbour (modern: J\u00e4rrestad, BA rock carvings showing many ships) in Sweden"
     },
     "category": "trade"
   },
@@ -64425,7 +64502,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Norrköping, BA rock carvings showing many ships) in Sweden"
+      "description": "Ancient harbour (modern: Norrk\u00f6ping, BA rock carvings showing many ships) in Sweden"
     },
     "category": "trade"
   },
@@ -64467,7 +64544,7 @@
     "startYear": -300,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Björke) in Sweden" },
+    "props": { "description": "Ancient harbour (modern: Bj\u00f6rke) in Sweden" },
     "category": "trade"
   },
   {
@@ -64536,7 +64613,9 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Istinye, on R Römanu) in TR: Bosph N" },
+    "props": {
+      "description": "Ancient harbour (modern: Istinye, on R R\u00f6manu) in TR: Bosph N"
+    },
     "category": "trade"
   },
   {
@@ -64564,7 +64643,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Büyükeceli) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: B\u00fcy\u00fckeceli) in TR: South" },
     "category": "trade"
   },
   {
@@ -64578,7 +64657,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: Ören Meydani, near Burhaniye Yat Limani, near R Karinca) in TR: West - features: breakwater, shipyard"
+      "description": "Ancient shipyard (modern: \u00d6ren Meydani, near Burhaniye Yat Limani, near R Karinca) in TR: West - features: breakwater, shipyard"
     },
     "category": "trade"
   },
@@ -64608,7 +64687,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Ayas, near Yumurtalik, Medieval Laïas, Laiazzo) in TR: South - features: breakwater, lighthouse"
+      "description": "Ancient port (modern: Ayas, near Yumurtalik, Medieval La\u00efas, Laiazzo) in TR: South - features: breakwater, lighthouse"
     },
     "category": "trade"
   },
@@ -64666,7 +64745,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yaglica Köyü, refuge shelter before sailing west around cape Uluburun) in TR: South"
+      "description": "Ancient harbour (modern: Yaglica K\u00f6y\u00fc, refuge shelter before sailing west around cape Uluburun) in TR: South"
     },
     "category": "trade"
   },
@@ -64717,7 +64796,7 @@
     "id": "port:apa-port-of-alexandria-ad-issum-indicaia-ad--4664",
     "type": "port",
     "subtype": "harbour",
-    "name": "Port of Alexandria ad Issum, Indicaia ad Issos, Indicaia Scabiosa, Alexandreia kat’isson, Alexandria Kabissos, Alexandria Kambiosa, Alexandria Scabiosa, Cambysopolis, Alexandria Mikra, Alexandria Minor, Alexandret(t)a",
+    "name": "Port of Alexandria ad Issum, Indicaia ad Issos, Indicaia Scabiosa, Alexandreia kat\u2019isson, Alexandria Kabissos, Alexandria Kambiosa, Alexandria Scabiosa, Cambysopolis, Alexandria Mikra, Alexandria Minor, Alexandret(t)a",
     "lat": 36.583,
     "lng": 36.15,
     "startYear": -323,
@@ -64739,7 +64818,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Eski Stambul south of Dalyan, Dalayanköy) in TR: West - features: breakwater, mole, quay"
+      "description": "Ancient major port (modern: Eski Stambul south of Dalyan, Dalayank\u00f6y) in TR: West - features: breakwater, mole, quay"
     },
     "category": "trade"
   },
@@ -64753,7 +64832,9 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Küçük Kemikli burun) in TR: Marmara N" },
+    "props": {
+      "description": "Ancient harbour (modern: K\u00fc\u00e7\u00fck Kemikli burun) in TR: Marmara N"
+    },
     "category": "trade"
   },
   {
@@ -65101,7 +65182,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Giv’at Olga, near Tell Zeror) in Israel" },
+    "props": {
+      "description": "Ancient harbour (modern: Giv\u2019at Olga, near Tell Zeror) in Israel"
+    },
     "category": "trade"
   },
   {
@@ -65114,7 +65197,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Hisarönü, near Marmaris) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Hisar\u00f6n\u00fc, near Marmaris) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -65261,7 +65346,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Tio at Ras Anrata? Ptolemy locates Colobon at 2° of latitude north of Adulis, which does not correspond to any cape or promontary, but Strabo locates it very close to Antiphilus portus, hence Tio might be the right location) in Eritrea"
+      "description": "Ancient harbour (modern: Tio at Ras Anrata? Ptolemy locates Colobon at 2\u00b0 of latitude north of Adulis, which does not correspond to any cape or promontary, but Strabo locates it very close to Antiphilus portus, hence Tio might be the right location) in Eritrea"
     },
     "category": "trade"
   },
@@ -65290,7 +65375,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Inlice Köyü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Inlice K\u00f6y\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -65379,7 +65464,7 @@
     "id": "port:apa-port-of-elea-elaia-elee-near-r-ka-kos-ca-4346",
     "type": "port",
     "subtype": "major_port",
-    "name": "Port of Elea, Elaia, Elee, near R Kaïkos, Caicus, Astraeus, port of Pergamon, Pergamos, Bergama",
+    "name": "Port of Elea, Elaia, Elee, near R Ka\u00efkos, Caicus, Astraeus, port of Pergamon, Pergamos, Bergama",
     "lat": 38.9427,
     "lng": 27.0387,
     "startYear": -323,
@@ -65619,7 +65704,7 @@
     "startYear": -600,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Güneyli liman) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: G\u00fcneyli liman) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -65633,7 +65718,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Akyaka, inside the gulf of Gökova) in TR: West"
+      "description": "Ancient harbour (modern: Akyaka, inside the gulf of G\u00f6kova) in TR: West"
     },
     "category": "trade"
   },
@@ -65677,7 +65762,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Bafa Gölü Ada, on Lake Bafa) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: Bafa G\u00f6l\u00fc Ada, on Lake Bafa) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -65834,7 +65921,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Gömec) in TR: West" },
+    "props": { "description": "Ancient harbour (modern: G\u00f6mec) in TR: West" },
     "category": "trade"
   },
   {
@@ -65893,7 +65980,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Maden Köyü) in TR: South - features: breakwater"
+      "description": "Ancient port (modern: Maden K\u00f6y\u00fc) in TR: South - features: breakwater"
     },
     "category": "trade"
   },
@@ -65908,7 +65995,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Keremköy, behind Cicek Adasi island) in TR: West"
+      "description": "Ancient harbour (modern: Keremk\u00f6y, behind Cicek Adasi island) in TR: West"
     },
     "category": "trade"
   },
@@ -66066,7 +66153,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sarsala Köyü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Sarsala K\u00f6y\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -66095,7 +66182,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kizilkuyruk Köyü, Aga Limani) in TR: South"
+      "description": "Ancient harbour (modern: Kizilkuyruk K\u00f6y\u00fc, Aga Limani) in TR: South"
     },
     "category": "trade"
   },
@@ -66241,7 +66328,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Kirkdilim Köyü near Teke Dagi, Cape Koraka Burun) in TR: West"
+      "description": "Ancient harbour (modern: Kirkdilim K\u00f6y\u00fc near Teke Dagi, Cape Koraka Burun) in TR: West"
     },
     "category": "trade"
   },
@@ -66357,7 +66444,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Iznik, Güney Liman, 250 m north of submerged Basilica of Saint Neophytos, on lake Isnik Gölü) in TR: Marmara S - features: breakwater, quay"
+      "description": "Ancient port (modern: Iznik, G\u00fcney Liman, 250 m north of submerged Basilica of Saint Neophytos, on lake Isnik G\u00f6l\u00fc) in TR: Marmara S - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -66374,7 +66461,8 @@
     "props": {
       "description": "Ancient harbour (modern: Estey d'Un at Mapon, port of Brion) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q107338"
   },
   {
     "id": "port:apa-port-of-oeniandos-epiphaneia-4658",
@@ -66387,7 +66475,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Karahüyük, on R Erzin, 5 km SSW of Gözeneler) in TR: South"
+      "description": "Ancient harbour (modern: Karah\u00fcy\u00fck, on R Erzin, 5 km SSW of G\u00f6zeneler) in TR: South"
     },
     "category": "trade"
   },
@@ -66515,7 +66603,9 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Cökertme? near Gökbel) in TR: West" },
+    "props": {
+      "description": "Ancient harbour (modern: C\u00f6kertme? near G\u00f6kbel) in TR: West"
+    },
     "category": "trade"
   },
   {
@@ -66528,7 +66618,9 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sülüngür Gölü near Gökbel?) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: S\u00fcl\u00fcng\u00fcr G\u00f6l\u00fc near G\u00f6kbel?) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -66556,7 +66648,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Tahti Köyü, Tahta Limani) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Tahti K\u00f6y\u00fc, Tahta Limani) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -66641,7 +66735,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Possibly in area downstream of Prunelli–di–Fium’Orbu, on R Fiumorbo with outlet at Marina du Caprone, Calzarello) in France Corsica"
+      "description": "Ancient harbour (modern: Possibly in area downstream of Prunelli\u2013di\u2013Fium\u2019Orbu, on R Fiumorbo with outlet at Marina du Caprone, Calzarello) in France Corsica"
     },
     "category": "trade"
   },
@@ -66959,7 +67053,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ciftlik Köyü, west of Hayirsiz Burun) in TR: South"
+      "description": "Ancient harbour (modern: Ciftlik K\u00f6y\u00fc, west of Hayirsiz Burun) in TR: South"
     },
     "category": "trade"
   },
@@ -67030,7 +67124,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Filyos, Hisarönü, with a breakwater connected to the promontory) in TR: Black Sea - features: breakwater"
+      "description": "Ancient port (modern: Filyos, Hisar\u00f6n\u00fc, with a breakwater connected to the promontory) in TR: Black Sea - features: breakwater"
     },
     "category": "trade"
   },
@@ -67160,7 +67254,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Güney Kalezi near Muzkent) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: G\u00fcney Kalezi near Muzkent) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -67204,7 +67300,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Grand'Place and rue de Montreuil, Etaples, on R Canche, with possible Roman fort beneath the dismantled Medieval castle (50.5123°N, 1.6462°E)) in France West"
+      "description": "Ancient harbour (modern: Grand'Place and rue de Montreuil, Etaples, on R Canche, with possible Roman fort beneath the dismantled Medieval castle (50.5123\u00b0N, 1.6462\u00b0E)) in France West"
     },
     "category": "trade"
   },
@@ -67333,7 +67429,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gülburnu, near Espiye, near Uluburnu and Camburnu) in TR: Black Sea"
+      "description": "Ancient harbour (modern: G\u00fclburnu, near Espiye, near Uluburnu and Camburnu) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -67568,7 +67664,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Torre de San García, Algeciras) in Spain South"
+      "description": "Ancient harbour (modern: Torre de San Garc\u00eda, Algeciras) in Spain South"
     },
     "category": "trade"
   },
@@ -68146,7 +68242,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: on Gala Gölü lake? near Enez) in TR: Marmara N"
+      "description": "Ancient harbour (modern: on Gala G\u00f6l\u00fc lake? near Enez) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -68461,7 +68557,7 @@
     "id": "port:apa-pose-donia-posidonia-paestum-on-r-silaru-1633",
     "type": "port",
     "subtype": "harbour",
-    "name": "Poseïdonia, Posidonia, Paestum, on R Silarus",
+    "name": "Pose\u00efdonia, Posidonia, Paestum, on R Silarus",
     "lat": 40.415,
     "lng": 14.992,
     "startYear": -600,
@@ -68482,7 +68578,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Adrasan bay, Cavus Köyü) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Adrasan bay, Cavus K\u00f6y\u00fc) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -68550,7 +68648,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Les Jonquies, near Portiragnes, on a possible ancient course of R Orb downstream of Béziers) in France South"
+      "description": "Ancient harbour (modern: Les Jonquies, near Portiragnes, on a possible ancient course of R Orb downstream of B\u00e9ziers) in France South"
     },
     "category": "trade"
   },
@@ -68756,7 +68854,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Anadolu Hisari, on R Göksu) in TR: Bosph S"
+      "description": "Ancient harbour (modern: Anadolu Hisari, on R G\u00f6ksu) in TR: Bosph S"
     },
     "category": "trade"
   },
@@ -68888,7 +68986,7 @@
     "startYear": -800,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Karamürsel) in TR: Marmara S" },
+    "props": { "description": "Ancient harbour (modern: Karam\u00fcrsel) in TR: Marmara S" },
     "category": "trade"
   },
   {
@@ -68960,7 +69058,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Güllübahce on the silted up outlet of R Meandre, Meander) in TR: West"
+      "description": "Ancient harbour (modern: G\u00fcll\u00fcbahce on the silted up outlet of R Meandre, Meander) in TR: West"
     },
     "category": "trade"
   },
@@ -69166,7 +69264,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gemlik, on outlet of lake Isnik Gölü) in TR: Marmara S"
+      "description": "Ancient harbour (modern: Gemlik, on outlet of lake Isnik G\u00f6l\u00fc) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -69297,7 +69395,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yesilcay on R Agua, Göksu) in TR: Black Sea"
+      "description": "Ancient harbour (modern: Yesilcay on R Agua, G\u00f6ksu) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -69437,7 +69535,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Aynaligöl bay on cape Figla Burnu, near Türkler) in TR: South - features: breakwater"
+      "description": "Ancient port (modern: Aynalig\u00f6l bay on cape Figla Burnu, near T\u00fcrkler) in TR: South - features: breakwater"
     },
     "category": "trade"
   },
@@ -69628,7 +69726,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gavur Agli and Bükses, near Karadere) in TR: South"
+      "description": "Ancient harbour (modern: Gavur Agli and B\u00fckses, near Karadere) in TR: South"
     },
     "category": "trade"
   },
@@ -69714,7 +69812,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: El Port de la Selva? « Le Pyrenee » generally means the oriental extremity of this chain of mountains that literally falls into the sea between Port Vendres in France and Roses in Spain. Its end is Cape Creus. Shelters are few and of bad quality, as they face the East, and the mountain is hostile. The best shelter is Port de la Selva on the Spanish side. Note that Herodotus (Hist. 2, 33) erroneously placed the source of the Danube here) in Spain East"
+      "description": "Ancient harbour (modern: El Port de la Selva? \u00ab Le Pyrenee \u00bb generally means the oriental extremity of this chain of mountains that literally falls into the sea between Port Vendres in France and Roses in Spain. Its end is Cape Creus. Shelters are few and of bad quality, as they face the East, and the mountain is hostile. The best shelter is Port de la Selva on the Spanish side. Note that Herodotus (Hist. 2, 33) erroneously placed the source of the Danube here) in Spain East"
     },
     "category": "trade"
   },
@@ -69752,7 +69850,7 @@
     "id": "port:apa-pyrgos-euphranta-la-tour-d-euphrantas-eu-5668",
     "type": "port",
     "subtype": "port",
-    "name": "Pyrgos Euphranta, La Tour d’Euphrantas, Euphrantas' Tower, Macomades Selorum",
+    "name": "Pyrgos Euphranta, La Tour d\u2019Euphrantas, Euphrantas' Tower, Macomades Selorum",
     "lat": 31.2122,
     "lng": 16.5827,
     "startYear": -800,
@@ -69787,7 +69885,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yuvali, near Ugurlu Neolithic settlement, on the island Gökceada, Imbros, Imvros) in TR: Marmara N"
+      "description": "Ancient harbour (modern: Yuvali, near Ugurlu Neolithic settlement, on the island G\u00f6kceada, Imbros, Imvros) in TR: Marmara N"
     },
     "category": "trade"
   },
@@ -69838,7 +69936,7 @@
     "id": "port:apa-q-uella-rhodanusia-rhode-1142",
     "type": "port",
     "subtype": "harbour",
-    "name": "Q’Uella, Rhodanusia? Rhode?",
+    "name": "Q\u2019Uella, Rhodanusia? Rhode?",
     "lat": 43.6726,
     "lng": 4.2358,
     "startYear": -600,
@@ -70225,7 +70323,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: R Filyos near Sazköy) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: R Filyos near Sazk\u00f6y) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -70273,7 +70373,7 @@
     "id": "port:apa-r-calydunos-calycadnos-near-po-kile-petr-4623",
     "type": "port",
     "subtype": "harbour",
-    "name": "R Calydunos, Calycadnos, near Poïkile Petra?",
+    "name": "R Calydunos, Calycadnos, near Po\u00efkile Petra?",
     "lat": 36.382,
     "lng": 33.9815,
     "startYear": -323,
@@ -70579,7 +70679,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: R Gülüc south of the port of Eregli) in TR: Black Sea"
+      "description": "Ancient harbour (modern: R G\u00fcl\u00fcc south of the port of Eregli) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -71037,7 +71137,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Oppidum at Fossé Saint-Philibert, at Yainville, also known as Meandre barre de Jumieges, on R Seine) in France West"
+      "description": "Ancient harbour (modern: Oppidum at Foss\u00e9 Saint-Philibert, at Yainville, also known as Meandre barre de Jumieges, on R Seine) in France West"
     },
     "category": "trade"
   },
@@ -71405,7 +71505,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Rezé, Reze, Chapelle Saint-Lupien, near Trentemoux) in France West"
+      "description": "Ancient harbour (modern: Rez\u00e9, Reze, Chapelle Saint-Lupien, near Trentemoux) in France West"
     },
     "category": "trade"
   },
@@ -71465,7 +71565,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Alet near St Malo, Anse Saint Père as from ca 350 AD when this cove became accessible for ships, on R Rance) in France West"
+      "description": "Ancient harbour (modern: Alet near St Malo, Anse Saint P\u00e8re as from ca 350 AD when this cove became accessible for ships, on R Rance) in France West"
     },
     "category": "trade"
   },
@@ -71529,7 +71629,7 @@
     "id": "port:apa-rethron-rhe-thre-port-of-la-ravine-2938",
     "type": "port",
     "subtype": "harbour",
-    "name": "Rethron, Rheïthre, port of La Ravine",
+    "name": "Rethron, Rhe\u00efthre, port of La Ravine",
     "lat": 38.4598,
     "lng": 20.6656,
     "startYear": -200,
@@ -71544,7 +71644,7 @@
     "id": "port:apa-rethron-rhe-thre-port-of-la-ravine-2939",
     "type": "port",
     "subtype": "harbour",
-    "name": "Rethron, Rheïthre, port of La Ravine",
+    "name": "Rethron, Rhe\u00efthre, port of La Ravine",
     "lat": 38.448,
     "lng": 20.6917,
     "startYear": -200,
@@ -71665,7 +71765,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Stomio bay? Ptolemy locates Rhamous portus at 10’ of latitude south of Phalasarna, near the beach of Stomio) in GR: Crete South"
+      "description": "Ancient harbour (modern: Stomio bay? Ptolemy locates Rhamous portus at 10\u2019 of latitude south of Phalasarna, near the beach of Stomio) in GR: Crete South"
     },
     "category": "trade"
   },
@@ -71694,7 +71794,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kücükcekmece) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: K\u00fcc\u00fckcekmece) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -71882,7 +71982,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Naval base at Port Mandraki with its supposed Colossus of Rhodes (acting as a lighthouse?). Diodorus (Hist, 20, 85-86) distinguishes a « small port » and a « large port » during the siege of Demetrius in 303 BC. The small port would thus be the port of Mandraki now protected by jetties decorated with a deer on each side.) in GR: Eastern Isl. - features: slipway, lighthouse, shipyard"
+      "description": "Ancient major port (modern: Naval base at Port Mandraki with its supposed Colossus of Rhodes (acting as a lighthouse?). Diodorus (Hist, 20, 85-86) distinguishes a \u00ab small port \u00bb and a \u00ab large port \u00bb during the siege of Demetrius in 303 BC. The small port would thus be the port of Mandraki now protected by jetties decorated with a deer on each side.) in GR: Eastern Isl. - features: slipway, lighthouse, shipyard"
     },
     "category": "trade"
   },
@@ -71897,7 +71997,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Archaïc harbour, West harbour) in GR: Eastern Isl. - features: quay"
+      "description": "Ancient port (modern: Archa\u00efc harbour, West harbour) in GR: Eastern Isl. - features: quay"
     },
     "category": "trade"
   },
@@ -72159,7 +72259,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Medinet el-Haras, 4 km south of Bender el-Kebir inside the gulf of Ras Banas and on the Tropic of Cancer. Pliny is most accurate as he indicates that there is no shadow at noon on the day of summer solstice, which is the definition of the tropic located at 23°26’ of latitude. The present latitude of Berenike is 23°56’ and it is still a port today. \r\nWith probable quaywall (Trench 7) and possible ancient lighthouse. Roman forts at Siket and at wadi Kalalat.) in Egypt: Red Sea - features: quay"
+      "description": "Ancient port (modern: Medinet el-Haras, 4 km south of Bender el-Kebir inside the gulf of Ras Banas and on the Tropic of Cancer. Pliny is most accurate as he indicates that there is no shadow at noon on the day of summer solstice, which is the definition of the tropic located at 23\u00b026\u2019 of latitude. The present latitude of Berenike is 23\u00b056\u2019 and it is still a port today. \r\nWith probable quaywall (Trench 7) and possible ancient lighthouse. Roman forts at Siket and at wadi Kalalat.) in Egypt: Red Sea - features: quay"
     },
     "category": "trade"
   },
@@ -72174,7 +72274,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient shipyard (modern: West side of Panayirdag hill, near Selcuk, on R Kücük Menderes) in TR: West - features: quay, shipyard"
+      "description": "Ancient shipyard (modern: West side of Panayirdag hill, near Selcuk, on R K\u00fcc\u00fck Menderes) in TR: West - features: quay, shipyard"
     },
     "category": "trade"
   },
@@ -72189,7 +72289,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: “De Roompot” submerged at the mouth of the Eastern Scheldt) in Netherlands"
+      "description": "Ancient harbour (modern: \u201cDe Roompot\u201d submerged at the mouth of the Eastern Scheldt) in Netherlands"
     },
     "category": "trade"
   },
@@ -72488,7 +72588,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Massawa? Ptolemy locates Saba at 50’ of latitude north of Adulis, which could be Massawa at only 20 nautical miles, Medieval Badi island on Batsee, Bats'i'i Deset?) in Eritrea"
+      "description": "Ancient harbour (modern: Massawa? Ptolemy locates Saba at 50\u2019 of latitude north of Adulis, which could be Massawa at only 20 nautical miles, Medieval Badi island on Batsee, Bats'i'i Deset?) in Eritrea"
     },
     "category": "trade"
   },
@@ -72655,7 +72755,7 @@
     "id": "port:apa-sa-s-archaic-sau-sin-on-thermouthiac-nil-5475",
     "type": "port",
     "subtype": "harbour",
-    "name": "Saïs, archaic Sau, Sin, on Thermouthiac Nile branch",
+    "name": "Sa\u00efs, archaic Sau, Sin, on Thermouthiac Nile branch",
     "lat": 30.965,
     "lng": 30.7685,
     "startYear": -800,
@@ -72859,7 +72959,7 @@
     "startYear": -600,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kiyiköy) in TR: Black Sea N" },
+    "props": { "description": "Ancient harbour (modern: Kiyik\u00f6y) in TR: Black Sea N" },
     "category": "trade"
   },
   {
@@ -72902,7 +73002,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Salses le Château) in France South" },
+    "props": { "description": "Ancient harbour (modern: Salses le Ch\u00e2teau) in France South" },
     "category": "trade"
   },
   {
@@ -72922,7 +73022,7 @@
     "id": "port:apa-same-sam-2949",
     "type": "port",
     "subtype": "harbour",
-    "name": "Same, Samé",
+    "name": "Same, Sam\u00e9",
     "lat": 38.2555,
     "lng": 20.6519,
     "startYear": -600,
@@ -73088,7 +73188,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Engüre, near Ibonu Rampasi Neolithic settlement) in TR: Marmara S"
+      "description": "Ancient harbour (modern: Eng\u00fcre, near Ibonu Rampasi Neolithic settlement) in TR: Marmara S"
     },
     "category": "trade"
   },
@@ -73541,7 +73641,7 @@
     "startYear": -200,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Yaliköy) in TR: Black Sea N" },
+    "props": { "description": "Ancient harbour (modern: Yalik\u00f6y) in TR: Black Sea N" },
     "category": "trade"
   },
   {
@@ -73740,7 +73840,8 @@
     "props": {
       "description": "Ancient harbour (modern: Saint Paul en Born, near Mimizan) in France West"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q21188966"
   },
   {
     "id": "port:apa-seirenoussai-nesoi-anthemoessa-insulae-a-1625",
@@ -73781,7 +73882,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Silifke, Hüdüde, with Roman bridge on R Göksü) in TR: South"
+      "description": "Ancient harbour (modern: Silifke, H\u00fcd\u00fcde, with Roman bridge on R G\u00f6ks\u00fc) in TR: South"
     },
     "category": "trade"
   },
@@ -74232,7 +74333,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sökun, possible Roman outlet of R Göksu which may have moved from west to east via the narrow sand spit of Incekum Burnu (ancient Sarpedonia Prom.)) in TR: South"
+      "description": "Ancient harbour (modern: S\u00f6kun, possible Roman outlet of R G\u00f6ksu which may have moved from west to east via the narrow sand spit of Incekum Burnu (ancient Sarpedonia Prom.)) in TR: South"
     },
     "category": "trade"
   },
@@ -74270,7 +74371,7 @@
     "id": "port:apa-side-sid-sida-4583",
     "type": "port",
     "subtype": "major_port",
-    "name": "Side, Sidé, Sida",
+    "name": "Side, Sid\u00e9, Sida",
     "lat": 36.7675,
     "lng": 31.3826,
     "startYear": -323,
@@ -74292,7 +74393,7 @@
     "endYear": 700,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Saïda, isle of Zire, with several quarries) in Lebanon - features: breakwater, mole, quay"
+      "description": "Ancient major port (modern: Sa\u00efda, isle of Zire, with several quarries) in Lebanon - features: breakwater, mole, quay"
     },
     "category": "trade"
   },
@@ -74335,7 +74436,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Saïda, Saida) in Lebanon - features: breakwater, quay"
+      "description": "Ancient port (modern: Sa\u00efda, Saida) in Lebanon - features: breakwater, quay"
     },
     "category": "trade"
   },
@@ -75047,7 +75148,7 @@
     "id": "port:apa-soloi-soli-solos-archaic-sillu-ua-aipeia-4276",
     "type": "port",
     "subtype": "port",
-    "name": "Soloi, Soli, Solos, archaic Sillu'ua, Aipeia, possible export of BA copper oxhide ingots from Ambelikou, Mavrovouni (Lefka-Karadag), Apliki-Apliç, Skouriotissa, Agia Marina (on R Lagoudera) mines, and smelting workshop at Phorades (Politiko)",
+    "name": "Soloi, Soli, Solos, archaic Sillu'ua, Aipeia, possible export of BA copper oxhide ingots from Ambelikou, Mavrovouni (Lefka-Karadag), Apliki-Apli\u00e7, Skouriotissa, Agia Marina (on R Lagoudera) mines, and smelting workshop at Phorades (Politiko)",
     "lat": 35.1457,
     "lng": 32.8163,
     "startYear": -323,
@@ -75082,7 +75183,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yat Limani, Kaleköy, in front of the isle of Kekova Adasi) in TR: South"
+      "description": "Ancient harbour (modern: Yat Limani, Kalek\u00f6y, in front of the isle of Kekova Adasi) in TR: South"
     },
     "category": "trade"
   },
@@ -75204,14 +75305,14 @@
     "id": "port:apa-south-port-of-gaulos-glauconis-civitas-1875",
     "type": "port",
     "subtype": "lighthouse",
-    "name": "South port of Gaulos, Glauconis civitas",
+    "name": "South port of\u00a0Gaulos, Glauconis civitas",
     "lat": 36.0308,
     "lng": 14.219,
     "startYear": -800,
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient lighthouse (modern: Xlendi, south port of Victoria Citadella, with  salt production at +7 m, on the isle of Gozo) in Malta: Gozo - features: lighthouse"
+      "description": "Ancient lighthouse (modern: Xlendi, south port of\u00a0Victoria Citadella, with  salt production at +7 m, on the isle of Gozo) in Malta: Gozo - features: lighthouse"
     },
     "category": "trade"
   },
@@ -75424,7 +75525,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient major port (modern: Fos marina, Anse St Gervais near Fos and etang de l’Estomac and digue de la Marronede) in France South - features: breakwater, quay, slipway, shipyard"
+      "description": "Ancient major port (modern: Fos marina, Anse St Gervais near Fos and etang de l\u2019Estomac and digue de la Marronede) in France South - features: breakwater, quay, slipway, shipyard"
     },
     "category": "trade"
   },
@@ -75610,7 +75711,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Karakilise, Ciftlikköy) in TR: Marmara S" },
+    "props": {
+      "description": "Ancient harbour (modern: Karakilise, Ciftlikk\u00f6y) in TR: Marmara S"
+    },
     "category": "trade"
   },
   {
@@ -75961,7 +76064,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sürmene, on R Manahoz Deresi) in TR: Black Sea"
+      "description": "Ancient harbour (modern: S\u00fcrmene, on R Manahoz Deresi) in TR: Black Sea"
     },
     "category": "trade"
   },
@@ -76021,7 +76124,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Ölüdeniz lagoon, where Pompey anchored his fleet before the attack of the pirates of island Gemiler Adasi in 67 BC) in TR: South"
+      "description": "Ancient harbour (modern: \u00d6l\u00fcdeniz lagoon, where Pompey anchored his fleet before the attack of the pirates of island Gemiler Adasi in 67 BC) in TR: South"
     },
     "category": "trade"
   },
@@ -76051,7 +76154,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Tell Shiqmona, Haïfa West, with circular murex tanks) in Israel - features: mole"
+      "description": "Ancient port (modern: Tell Shiqmona, Ha\u00effa West, with circular murex tanks) in Israel - features: mole"
     },
     "category": "trade"
   },
@@ -76111,7 +76214,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Yialos, on the isle of Simi, Sömbeki Adasi) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Yialos, on the isle of Simi, S\u00f6mbeki Adasi) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -76214,7 +76317,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Korudag Tepe, on R Kücük Menderes) in TR: West"
+      "description": "Ancient harbour (modern: Korudag Tepe, on R K\u00fcc\u00fck Menderes) in TR: West"
     },
     "category": "trade"
   },
@@ -76379,7 +76482,7 @@
     "id": "port:apa-tana-s-on-r-tanais-3736",
     "type": "port",
     "subtype": "harbour",
-    "name": "Tanaïs, on R Tanais",
+    "name": "Tana\u00efs, on R Tanais",
     "lat": 47.2681,
     "lng": 39.3354,
     "startYear": -323,
@@ -76472,7 +76575,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Perekop, near Armians’k with canal crossing the Crimea isthmus) in Ukraine Black S."
+      "description": "Ancient harbour (modern: Perekop, near Armians\u2019k with canal crossing the Crimea isthmus) in Ukraine Black S."
     },
     "category": "trade"
   },
@@ -76618,7 +76721,8 @@
     "props": {
       "description": "Ancient port (modern: San Giovanni di Sinis, La Caletta, near Capo San Marco) in Italy Sardinia - features: breakwater"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q1247568"
   },
   {
     "id": "port:apa-tarrai-tharros-tarrhos-possible-nuragic--1331",
@@ -76674,7 +76778,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Gözlükule, Tarsus, on R Tarsus, with Karabucak swamps south of it) in TR: South"
+      "description": "Ancient harbour (modern: G\u00f6zl\u00fckule, Tarsus, on R Tarsus, with Karabucak swamps south of it) in TR: South"
     },
     "category": "trade"
   },
@@ -76869,7 +76973,9 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Kaleücagiz, Ücagiz Limani) in TR: South" },
+    "props": {
+      "description": "Ancient harbour (modern: Kale\u00fccagiz, \u00dccagiz Limani) in TR: South"
+    },
     "category": "trade"
   },
   {
@@ -76939,7 +77045,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Toulon, ancient coastline on montée des horeia/place Besagne, rue Magnaque) in France South - features: quay"
+      "description": "Ancient port (modern: Toulon, ancient coastline on mont\u00e9e des horeia/place Besagne, rue Magnaque) in France South - features: quay"
     },
     "category": "trade"
   },
@@ -77246,7 +77352,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Seskli island, near the isle of Simi, Sömbeki Adasi) in GR: Eastern Isl."
+      "description": "Ancient harbour (modern: Seskli island, near the isle of Simi, S\u00f6mbeki Adasi) in GR: Eastern Isl."
     },
     "category": "trade"
   },
@@ -77841,7 +77947,7 @@
     "startYear": -800,
     "endYear": -31,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Tell Timaï) in Egypt: Med Sea" },
+    "props": { "description": "Ancient harbour (modern: Tell Tima\u00ef) in Egypt: Med Sea" },
     "category": "trade"
   },
   {
@@ -78042,7 +78148,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Sögüt Kissebükü) in TR: South - features: breakwater"
+      "description": "Ancient port (modern: S\u00f6g\u00fct Kisseb\u00fck\u00fc) in TR: South - features: breakwater"
     },
     "category": "trade"
   },
@@ -78056,7 +78162,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sögüt Saranda) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: S\u00f6g\u00fct Saranda) in TR: South" },
     "category": "trade"
   },
   {
@@ -78114,7 +78220,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Güble, near Cayyaka) in TR: Black Sea" },
+    "props": {
+      "description": "Ancient harbour (modern: G\u00fcble, near Cayyaka) in TR: Black Sea"
+    },
     "category": "trade"
   },
   {
@@ -78337,7 +78445,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Sabaa Rais (Seven captains) or islet 1 km north of Tyre? Guerin (1879) places this islet only 1 km north of Tyre, but Sabaa Raïs better fits Tatius' story) in Lebanon"
+      "description": "Ancient harbour (modern: Sabaa Rais (Seven captains) or islet 1 km north of Tyre? Guerin (1879) places this islet only 1 km north of Tyre, but Sabaa Ra\u00efs better fits Tatius' story) in Lebanon"
     },
     "category": "trade"
   },
@@ -78615,7 +78723,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient harbour (modern: Chafarinas islands, from E to W : île du Roi, île d'Isabelle, île du Congres) in Morocco"
+      "description": "Ancient harbour (modern: Chafarinas islands, from E to W : \u00eele du Roi, \u00eele d'Isabelle, \u00eele du Congres) in Morocco"
     },
     "category": "trade"
   },
@@ -78644,7 +78752,7 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: near l’Ampola?) in Spain East" },
+    "props": { "description": "Ancient harbour (modern: near l\u2019Ampola?) in Spain East" },
     "category": "trade"
   },
   {
@@ -78758,7 +78866,7 @@
     "startYear": -600,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Tekkeönü) in TR: Black Sea" },
+    "props": { "description": "Ancient harbour (modern: Tekke\u00f6n\u00fc) in TR: Black Sea" },
     "category": "trade"
   },
   {
@@ -78793,7 +78901,7 @@
     "id": "port:apa-trito-tretis-treta-tretous-prom-port-of--4252",
     "type": "port",
     "subtype": "harbour",
-    "name": "Tritoï, Tretis, Treta, Tretous Prom.? port of Palaiapaphos",
+    "name": "Trito\u00ef, Tretis, Treta, Tretous Prom.? port of Palaiapaphos",
     "lat": 34.685,
     "lng": 32.582,
     "startYear": -323,
@@ -78898,7 +79006,7 @@
     "startYear": -323,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Palamutbükü) in TR: South" },
+    "props": { "description": "Ancient harbour (modern: Palamutb\u00fck\u00fc) in TR: South" },
     "category": "trade"
   },
   {
@@ -79323,7 +79431,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient lighthouse (modern: Bilhorod-Dnistrovskyï, Roman naval base, on R Dniester Liman) in Ukraine Black S. - features: lighthouse"
+      "description": "Ancient lighthouse (modern: Bilhorod-Dnistrovsky\u00ef, Roman naval base, on R Dniester Liman) in Ukraine Black S. - features: lighthouse"
     },
     "category": "trade"
   },
@@ -79382,7 +79490,7 @@
     "startYear": -800,
     "endYear": 700,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Sarköy, Sakoy) in TR: Marmara N" },
+    "props": { "description": "Ancient harbour (modern: Sark\u00f6y, Sakoy) in TR: Marmara N" },
     "category": "trade"
   },
   {
@@ -80207,7 +80315,8 @@
     "props": {
       "description": "Ancient port (modern: Ventimiglia, on R Nervia) in Italy West - features: mole"
     },
-    "category": "trade"
+    "category": "trade",
+    "qid": "Q3593327"
   },
   {
     "id": "port:apa-vistrum-2064",
@@ -80234,7 +80343,9 @@
     "startYear": -200,
     "endYear": 476,
     "source": "ancient-ports",
-    "props": { "description": "Ancient harbour (modern: Copanello, near Stalettì) in Italy West" },
+    "props": {
+      "description": "Ancient harbour (modern: Copanello, near Stalett\u00ec) in Italy West"
+    },
     "category": "trade"
   },
   {
@@ -80293,7 +80404,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "props": {
-      "description": "Ancient port (modern: Tersane Köyü on the isle of Kekova Adasi) in TR: South - features: quay"
+      "description": "Ancient port (modern: Tersane K\u00f6y\u00fc on the isle of Kekova Adasi) in TR: South - features: quay"
     },
     "category": "trade"
   },
@@ -80368,7 +80479,7 @@
     "id": "port:apa-xo-s-5474",
     "type": "port",
     "subtype": "harbour",
-    "name": "Xoïs",
+    "name": "Xo\u00efs",
     "lat": 31.0895,
     "lng": 30.9509,
     "startYear": -800,
@@ -81085,7 +81196,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Modern location in the vicinity of Mamallapuram that may have been the site of a port or harbor facility for the ancient city.",
-      "ancientName": "Pooncheri, Pūñcēri"
+      "ancientName": "Pooncheri, P\u016b\u00f1c\u0113ri"
     },
     "category": "trade"
   },
@@ -81120,7 +81231,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Site on the Red Sea Coast in Egypt, used in the Fourth Dynasty as a port for importing turquoise and copper from Sinai. The oldest surviving papyrus from Egypt, dated during the reign of Khufu (26th century BCE), was found at the site.",
-      "ancientName": "Wadi al-Jarf, Wādi al-Jarf, Ouadi el-Jarf"
+      "ancientName": "Wadi al-Jarf, W\u0101di al-Jarf, Ouadi el-Jarf"
     },
     "category": "trade"
   }

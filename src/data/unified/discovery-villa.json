@@ -8,7 +8,7 @@
     "qid": "Q97633534: Villa romana de El Faro ",
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa located at the modern lighthouse on Avenida del Faro, Torrox, 29770, Málaga in Spain.",
+      "description": "A Roman villa located at the modern lighthouse on Avenida del Faro, Torrox, 29770, M\u00e1laga in Spain.",
       "ancientName": "Villa del Faro"
     },
     "category": "habitation"
@@ -16,26 +16,26 @@
   {
     "id": "pleiades:265901",
     "type": "villa",
-    "name": "Fuente de Baños",
+    "name": "Fuente de Ba\u00f1os",
     "lat": 40.448617,
     "lng": -2.339264,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 27 C1 Fuente de Baños",
-      "ancientName": "Fuente de Baños"
+      "description": "An ancient place, cited: BAtlas 27 C1 Fuente de Ba\u00f1os",
+      "ancientName": "Fuente de Ba\u00f1os"
     },
     "category": "habitation"
   },
   {
     "id": "pleiades:265902",
     "type": "villa",
-    "name": "Fuente de la Pañuela",
+    "name": "Fuente de la Pa\u00f1uela",
     "lat": 38.182964,
     "lng": -3.275718,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 27 B3 Fuente de la Pañuela",
-      "ancientName": "Fuente de la Pañuela"
+      "description": "An ancient place, cited: BAtlas 27 B3 Fuente de la Pa\u00f1uela",
+      "ancientName": "Fuente de la Pa\u00f1uela"
     },
     "category": "habitation"
   },
@@ -50,7 +50,8 @@
       "description": "An ancient place, cited: BAtlas 27 A4 Fuente de las Piedras",
       "ancientName": "Fuente de las Piedras"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q97623919"
   },
   {
     "id": "pleiades:265948",
@@ -65,12 +66,13 @@
   {
     "id": "pleiades:265996",
     "type": "villa",
-    "name": "Pago de Bruñel",
+    "name": "Pago de Bru\u00f1el",
     "lat": 37.885386959452646,
     "lng": -3.079138295637454,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 27 B4 Pago de Bruñel" },
-    "category": "habitation"
+    "props": { "description": "An ancient place, cited: BAtlas 27 B4 Pago de Bru\u00f1el" },
+    "category": "habitation",
+    "qid": "Q6162500"
   },
   {
     "id": "pleiades:265997",
@@ -108,11 +110,11 @@
   {
     "id": "pleiades:266010",
     "type": "villa",
-    "name": "Pujol de Benicató",
+    "name": "Pujol de Benicat\u00f3",
     "lat": 39.8329431,
     "lng": -0.14602,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 27 E2 Pujol de Benicató" },
+    "props": { "description": "An ancient place, cited: BAtlas 27 E2 Pujol de Benicat\u00f3" },
     "category": "habitation"
   },
   {
@@ -126,7 +128,8 @@
       "description": "An ancient place, cited: BAtlas 27 A4 El Ruedo",
       "ancientName": "Villa romana de El Ruedo"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q6162502"
   },
   {
     "id": "pleiades:266020",
@@ -171,11 +174,11 @@
   {
     "id": "pleiades:266065",
     "type": "villa",
-    "name": "Fábrica de Armas",
+    "name": "F\u00e1brica de Armas",
     "lat": 39.982154,
     "lng": -4.126973,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 27 A2 Fábrica de Armas" },
+    "props": { "description": "An ancient place, cited: BAtlas 27 A2 F\u00e1brica de Armas" },
     "category": "habitation"
   },
   {
@@ -196,7 +199,8 @@
     "lng": -1.112048,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 27 D3 Los Torrejones" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q21004164"
   },
   {
     "id": "pleiades:266091",
@@ -458,11 +462,11 @@
   {
     "id": "pleiades:285397",
     "type": "villa",
-    "name": "Ain Bénia",
+    "name": "Ain B\u00e9nia",
     "lat": 35.103058,
     "lng": 1.693235,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 29 G1 Ain Bénia" },
+    "props": { "description": "An ancient place, cited: BAtlas 29 G1 Ain B\u00e9nia" },
     "category": "habitation"
   },
   {
@@ -493,7 +497,8 @@
     "lng": 1.109859,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 29 G1 Ammi Moussa" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4747238"
   },
   {
     "id": "pleiades:285472",
@@ -503,7 +508,8 @@
     "lng": 1.2002388969758913,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 29 G1 Ksar el Kaoua" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q20726070"
   },
   {
     "id": "pleiades:285499",
@@ -528,12 +534,12 @@
   {
     "id": "pleiades:295214",
     "type": "villa",
-    "name": "Akbou des Beni Chénacha",
+    "name": "Akbou des Beni Ch\u00e9nacha",
     "lat": 36.73884564665537,
     "lng": 3.887467287210068,
     "source": "Pleiades",
     "props": {
-      "description": "Noted by Gsell (AAA, whence BAtlas), modern Akbou des Beni Chénacha was the site of a large establishment of the Roman period, probably a villa. The location was approximately 2 kilometers to the southwest of colonial Camp-du-Maréchal (now Tadmaït in Algeria's Tizi Ouzou province."
+      "description": "Noted by Gsell (AAA, whence BAtlas), modern Akbou des Beni Ch\u00e9nacha was the site of a large establishment of the Roman period, probably a villa. The location was approximately 2 kilometers to the southwest of colonial Camp-du-Mar\u00e9chal (now Tadma\u00eft in Algeria's Tizi Ouzou province."
     },
     "category": "habitation"
   },
@@ -603,11 +609,11 @@
   {
     "id": "pleiades:295355",
     "type": "villa",
-    "name": "Thénia",
+    "name": "Th\u00e9nia",
     "lat": 36.724521,
     "lng": 3.55632,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 30 G3 Thénia" },
+    "props": { "description": "An ancient place, cited: BAtlas 30 G3 Th\u00e9nia" },
     "category": "habitation"
   },
   {
@@ -642,7 +648,8 @@
     "props": {
       "description": "A Roman villa under Durley Hill cemetery, Keynsham, United Kingdom."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q15126688"
   },
   {
     "id": "pleiades:590342556",
@@ -654,7 +661,8 @@
     "props": {
       "description": "A Roman villa built in the second century CE and excavated in the 1980s and the 1990s near Wortley, United Kingdom."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131912678"
   },
   {
     "id": "pleiades:776367157",
@@ -666,7 +674,8 @@
     "props": {
       "description": "The archaeological remains of a villa in the suburbium of the city of Rome located adjacent to what is now a station of the Rome Metro system at Anagnina."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130485525"
   },
   {
     "id": "pleiades:637350139",
@@ -683,7 +692,7 @@
   {
     "id": "pleiades:163388144",
     "type": "villa",
-    "name": "Gallo-Roman Villa at Saint-Paul-lès-Romans",
+    "name": "Gallo-Roman Villa at Saint-Paul-l\u00e8s-Romans",
     "lat": 45.0672206,
     "lng": 5.1324053,
     "source": "Pleiades",
@@ -701,12 +710,13 @@
       "description": "A 'Villa rustica' associated with one Caius Olius Ampliatus, located in the Ponticelli of Naples, Italy. The site was excavated in 1986-1987, with additional work in 2007. The site covers some 2,000 sq. meters.",
       "ancientName": "La villa rustica di C. Olius Ampliatus"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q108803094"
   },
   {
     "id": "pleiades:167120129",
     "type": "villa",
-    "name": "Roman villa at Híjar en Las Gabias",
+    "name": "Roman villa at H\u00edjar en Las Gabias",
     "lat": 37.150330614699264,
     "lng": -3.67700380180469,
     "qid": "Q56324318: Villa romana de Hijar",
@@ -764,7 +774,8 @@
       "description": "An archaeological area beneath the basilica of the martyrs John and Paul that has been explored by means of excavation, revealing a series of Imperial period domestic remains dating between the second and fourth centuries A.D.",
       "ancientName": "Case romane del Celio"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3661653"
   },
   {
     "id": "pleiades:250568480",
@@ -783,7 +794,7 @@
   {
     "id": "pleiades:24337731",
     "type": "villa",
-    "name": "Münster-Sarmsheim Roman Villa",
+    "name": "M\u00fcnster-Sarmsheim Roman Villa",
     "lat": 49.946831,
     "lng": 7.8971815,
     "source": "Pleiades",
@@ -814,7 +825,8 @@
     "props": {
       "description": "At Zou are the remains of a palatial building of the Minoan period, built during MM IIIB."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q28734238"
   },
   {
     "id": "pleiades:140545",
@@ -949,7 +961,7 @@
     "lng": -0.381703,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E4 no. 124 (St-Genès-de-Lombaud)"
+      "description": "An ancient place, cited: BAtlas 14 E4 no. 124 (St-Gen\u00e8s-de-Lombaud)"
     },
     "category": "habitation"
   },
@@ -970,7 +982,7 @@
     "lat": 44.81722,
     "lng": -0.217983,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 E4 no. 126 (Grézillac)" },
+    "props": { "description": "An ancient place, cited: BAtlas 14 E4 no. 126 (Gr\u00e9zillac)" },
     "category": "habitation"
   },
   {
@@ -1027,7 +1039,9 @@
     "lat": 44.778595,
     "lng": -0.038917,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 E4 no. 131 (Gléziat, Cm. Ruch)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 14 E4 no. 131 (Gl\u00e9ziat, Cm. Ruch)"
+    },
     "category": "habitation"
   },
   {
@@ -1038,7 +1052,7 @@
     "lng": -0.087502,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E4 no. 132 (Mérignas, Cm. Le Bourg)"
+      "description": "An ancient place, cited: BAtlas 14 E4 no. 132 (M\u00e9rignas, Cm. Le Bourg)"
     },
     "category": "habitation"
   },
@@ -1169,7 +1183,7 @@
     "lng": -0.262397,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E4 no. 144 (Toulenne, Cm. La Gravière)"
+      "description": "An ancient place, cited: BAtlas 14 E4 no. 144 (Toulenne, Cm. La Gravi\u00e8re)"
     },
     "category": "habitation"
   },
@@ -1181,7 +1195,7 @@
     "lng": -0.36934,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E4 no. 145 (Cameillac, Cm. Léogeats)"
+      "description": "An ancient place, cited: BAtlas 14 E4 no. 145 (Cameillac, Cm. L\u00e9ogeats)"
     },
     "category": "habitation"
   },
@@ -1215,7 +1229,8 @@
     "lng": 3.674077,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 15 B3 Le Barrou" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q103195111"
   },
   {
     "id": "pleiades:148016",
@@ -1230,22 +1245,24 @@
   {
     "id": "pleiades:148049",
     "type": "villa",
-    "name": "Clermont-l’Hérault",
+    "name": "Clermont-l\u2019H\u00e9rault",
     "lat": 43.626007,
     "lng": 3.434802,
     "qid": { "label": "", "qid": "Q238689", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 15 A2 Clermont-l’Hérault" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 15 A2 Clermont-l\u2019H\u00e9rault"
+    },
     "category": "habitation"
   },
   {
     "id": "pleiades:148051",
     "type": "villa",
-    "name": "Clos-de-l’Armet",
+    "name": "Clos-de-l\u2019Armet",
     "lat": 43.62934,
     "lng": 3.917245,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 15 B2 Clos-de-l’Armet" },
+    "props": { "description": "An ancient place, cited: BAtlas 15 B2 Clos-de-l\u2019Armet" },
     "category": "habitation"
   },
   {
@@ -1276,7 +1293,7 @@
     "lng": 3.226877,
     "source": "Pleiades",
     "props": {
-      "description": "A large Gallo-Roman villa located north of Béziers on the banks of the Libron river.",
+      "description": "A large Gallo-Roman villa located north of B\u00e9ziers on the banks of the Libron river.",
       "ancientName": "La Condoumine, Puissalicon"
     },
     "category": "habitation"
@@ -1332,22 +1349,23 @@
     "lng": 4.207999617178253,
     "source": "Pleiades",
     "props": {
-      "description": "A Gallo-Roman villa at the so-called Cimetière de Pataran in the modern French commune of Aigues-Vives."
+      "description": "A Gallo-Roman villa at the so-called Cimeti\u00e8re de Pataran in the modern French commune of Aigues-Vives."
     },
     "category": "habitation"
   },
   {
     "id": "pleiades:148161",
     "type": "villa",
-    "name": "Les Près-Bas Roman Villa",
+    "name": "Les Pr\u00e8s-Bas Roman Villa",
     "lat": 43.4404859828996,
     "lng": 3.614553028517903,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman farm villa with extensive second-century CE Gallo-Roman mosaics, located at modern Les Près-Bas, just south of Loupian in Hérault, France. The site was occupied for more than 600 years.",
+      "description": "A Roman farm villa with extensive second-century CE Gallo-Roman mosaics, located at modern Les Pr\u00e8s-Bas, just south of Loupian in H\u00e9rault, France. The site was occupied for more than 600 years.",
       "ancientName": "Loupian Roman Villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3558915"
   },
   {
     "id": "pleiades:148162",
@@ -1467,11 +1485,11 @@
   {
     "id": "pleiades:148230",
     "type": "villa",
-    "name": "La Vautubière",
+    "name": "La Vautubi\u00e8re",
     "lat": 43.636677,
     "lng": 5.699263,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 15 E2 La Vautubière" },
+    "props": { "description": "An ancient place, cited: BAtlas 15 E2 La Vautubi\u00e8re" },
     "category": "habitation"
   },
   {
@@ -1516,27 +1534,28 @@
       "description": "An early imperial villa along the coast of Liguria. Its ancient name is unknown.",
       "ancientName": "Villa romana di Bussana"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012804"
   },
   {
     "id": "pleiades:157832",
     "type": "villa",
-    "name": "Camp de la Figuière",
+    "name": "Camp de la Figui\u00e8re",
     "lat": 43.211253,
     "lng": 5.777125,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 16 A3 Camp de la Figuière" },
+    "props": { "description": "An ancient place, cited: BAtlas 16 A3 Camp de la Figui\u00e8re" },
     "category": "habitation"
   },
   {
     "id": "pleiades:157833",
     "type": "villa",
-    "name": "Le Candéou",
+    "name": "Le Cand\u00e9ou",
     "lat": 43.62179,
     "lng": 6.87945,
     "source": "Pleiades",
     "props": {
-      "description": "Salvage excavations during the 1970s in modern Le Candéou, a neighborhood of Peymeinade (France), identified multiple Roman-era structures that have been interpreted as agricultural in nature, including facilities for processing olive oil."
+      "description": "Salvage excavations during the 1970s in modern Le Cand\u00e9ou, a neighborhood of Peymeinade (France), identified multiple Roman-era structures that have been interpreted as agricultural in nature, including facilities for processing olive oil."
     },
     "category": "habitation"
   },
@@ -1548,7 +1567,7 @@
     "lng": 6.121322,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman-era villa at modern Costebelle (commune Hyères) in France: BAtlas 16 B3 Costebelle"
+      "description": "A Roman-era villa at modern Costebelle (commune Hy\u00e8res) in France: BAtlas 16 B3 Costebelle"
     },
     "category": "habitation"
   },
@@ -1610,21 +1629,21 @@
   {
     "id": "pleiades:157889",
     "type": "villa",
-    "name": "Muscapèu",
+    "name": "Muscap\u00e8u",
     "lat": 43.445118,
     "lng": 5.925657,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 16 A3 Muscapèu" },
+    "props": { "description": "An ancient place, cited: BAtlas 16 A3 Muscap\u00e8u" },
     "category": "habitation"
   },
   {
     "id": "pleiades:157898",
     "type": "villa",
-    "name": "L’Ormeau",
+    "name": "L\u2019Ormeau",
     "lat": 43.447288,
     "lng": 6.435303,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 16 B3 L’Ormeau" },
+    "props": { "description": "An ancient place, cited: BAtlas 16 B3 L\u2019Ormeau" },
     "category": "habitation"
   },
   {
@@ -1654,11 +1673,11 @@
   {
     "id": "pleiades:157903",
     "type": "villa",
-    "name": "Pèbre",
+    "name": "P\u00e8bre",
     "lat": 43.730626,
     "lng": 5.811599,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 16 A2 Pèbre" },
+    "props": { "description": "An ancient place, cited: BAtlas 16 A2 P\u00e8bre" },
     "category": "habitation"
   },
   {
@@ -1684,7 +1703,8 @@
     "props": {
       "description": "A Roman villa of the mid-first century B.C. connected with a Publius Anilius, identified by means of brick and tile stamps. Located in the modern commune of Scansano."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140087650"
   },
   {
     "id": "pleiades:495078212",
@@ -1706,7 +1726,7 @@
     "lng": 13.424030259481677,
     "source": "Pleiades",
     "props": {
-      "description": "A villa rustica excavated by the École française de Rome between 1979 and 1984."
+      "description": "A villa rustica excavated by the \u00c9cole fran\u00e7aise de Rome between 1979 and 1984."
     },
     "category": "habitation"
   },
@@ -1739,10 +1759,10 @@
   {
     "id": "pleiades:168048854",
     "type": "villa",
-    "name": "Roman villa at Can Terrés",
+    "name": "Roman villa at Can Terr\u00e9s",
     "lat": 41.67051667448452,
     "lng": 2.288166050357296,
-    "qid": "Q549699: Vil·la romana de Can Terrers",
+    "qid": "Q549699: Vil\u00b7la romana de Can Terrers",
     "source": "Pleiades",
     "props": {
       "description": "A Roman villa occupied from the first century B.C. until the fourth / fifth centuries A.D. The villa included a bath complex."
@@ -1757,7 +1777,7 @@
     "lng": -6.1627413,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa with mosaic decoration located in an archaeological area of Puente Melchor, in Puerto Real, Cádiz, Spain."
+      "description": "A Roman villa with mosaic decoration located in an archaeological area of Puente Melchor, in Puerto Real, C\u00e1diz, Spain."
     },
     "category": "habitation"
   },
@@ -1811,7 +1831,8 @@
     "props": {
       "description": "The site of a Roman corridor villa dating from the late first century to ca. 300 CE, excavated in 1965."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q138318736"
   },
   {
     "id": "pleiades:330348887",
@@ -1833,7 +1854,8 @@
     "lng": 10.330336269181034,
     "source": "Pleiades",
     "props": { "description": "A multi-phase villa on the island of Elba." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16621635"
   },
   {
     "id": "pleiades:612970100",
@@ -1845,7 +1867,8 @@
     "props": {
       "description": "The Villa of L. Crassius Tertius at Oplontis (modern Torre Annunziata in Italy) was discovered in 1974, approximately 250m east of the Villa of Poppaea."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q55588235"
   },
   {
     "id": "pleiades:363937",
@@ -1925,7 +1948,8 @@
     "lng": 16.730044,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 37 B1 Henchir Bu Zahia" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q106135811"
   },
   {
     "id": "pleiades:363989",
@@ -2073,7 +2097,7 @@
     "name": "Gasr Silina",
     "lat": 32.349845,
     "lng": 20.733321,
-    "qid": "Qaşr Salīf (Q106411222)",
+    "qid": "Qa\u015fr Sal\u012bf (Q106411222)",
     "source": "Pleiades",
     "props": {
       "description": "An ancient place, cited: BAtlas 38 B1 Gasr Silina",
@@ -2087,7 +2111,7 @@
     "name": "Gasr Suwayrah",
     "lat": 32.896576,
     "lng": 21.835914,
-    "qid": "Qaşr as Suwayrah (Q104901366)",
+    "qid": "Qa\u015fr as Suwayrah (Q104901366)",
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 38 C1 Gasr Suwayrah" },
     "category": "habitation"
@@ -2187,7 +2211,8 @@
       "description": "At Desenzano, in the province of Lombardia, the remains of a Roman villa dating to the mid-fourth century A.D. were here. The structure is axial and palatial in its nature. Its decorative program includes polychrome mosaic pavements. It is noted for mosaic scenes featuring the Good Shepherd.",
       "ancientName": "Desenzano"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012807"
   },
   {
     "id": "pleiades:383659",
@@ -2371,7 +2396,8 @@
       "description": "A villa rustica located in the Sabina, ca. 1 km from Cottanello (Rieti). The imperial villa was superimposed over a villa of the republican period.",
       "ancientName": "Villa romana di Cottanello"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q22039190"
   },
   {
     "id": "pleiades:957554023",
@@ -2383,7 +2409,8 @@
     "props": {
       "description": "A Roman villa partially excavated in 1957 and 1959 by Margaret Jones and in 1981-2 by Tim Allen near Roughground Farm."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q136841694"
   },
   {
     "id": "pleiades:24736652",
@@ -2395,7 +2422,8 @@
     "props": {
       "description": "A Roman villa overlooking the Tyrrhenian Sea located within the former territory of Populonia."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3621975"
   },
   {
     "id": "pleiades:125904444",
@@ -2469,7 +2497,8 @@
       "description": "A villa complex at the eighth mile of the Via Cassia, to which it was linked by means of a paved diverticulum. The first phase dates to the first century BCE and the villa remained in use until the Late Antique period.",
       "ancientName": "Casale Ghella"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133255368"
   },
   {
     "id": "pleiades:340380318",
@@ -2508,7 +2537,8 @@
     "props": {
       "description": "A late Roman villa complex that continued in use during the Visigothic period."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q27107047"
   },
   {
     "id": "pleiades:818101307",
@@ -2518,7 +2548,8 @@
     "lng": -4.602478363731131,
     "source": "Pleiades",
     "props": { "description": "An imperial Roman bath site." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q9086161"
   },
   {
     "id": "pleiades:854693",
@@ -2604,11 +2635,11 @@
   {
     "id": "pleiades:628945",
     "type": "villa",
-    "name": "Bünyan",
+    "name": "B\u00fcnyan",
     "lat": 38.845609,
     "lng": 35.852728,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 64 B3 Bünyan" },
+    "props": { "description": "An ancient place, cited: BAtlas 64 B3 B\u00fcnyan" },
     "category": "habitation"
   },
   {
@@ -2648,14 +2679,15 @@
   {
     "id": "pleiades:60903328",
     "type": "villa",
-    "name": "Villa de Santa Catarina de Sítimos",
+    "name": "Villa de Santa Catarina de S\u00edtimos",
     "lat": 38.39262215371716,
     "lng": -8.431908531355337,
     "source": "Pleiades",
     "props": {
       "description": "A Roman villa of the imperial period, in use from the first through fifth centuries A.D."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q66429452"
   },
   {
     "id": "pleiades:551952302",
@@ -2732,7 +2764,8 @@
       "description": "A Roman-period urban 'villa' at Knossos was excavated by R. W. Hutchinson (1935) and M. R. E. Gough (post-World War II). Based on pottery evidence, the villa dates to the second century CE and comes to be destroyed ca. 170-180.",
       "ancientName": "Villa Dionysos at Knossos"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q55005631"
   },
   {
     "id": "pleiades:881305239",
@@ -2751,14 +2784,15 @@
   {
     "id": "pleiades:623547528",
     "type": "villa",
-    "name": "Sant Amanç de Viladés",
+    "name": "Sant Aman\u00e7 de Vilad\u00e9s",
     "lat": 41.73439443182206,
     "lng": 1.6812816196377773,
     "source": "Pleiades",
     "props": {
-      "description": "The archaeological site of Sant Amanç de Viladés includes multi-period remains, stretching from indigenous Iberian remains to those of a Roman villa to Medieval occupation."
+      "description": "The archaeological site of Sant Aman\u00e7 de Vilad\u00e9s includes multi-period remains, stretching from indigenous Iberian remains to those of a Roman villa to Medieval occupation."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q106117107"
   },
   {
     "id": "pleiades:714628626",
@@ -2832,11 +2866,11 @@
   {
     "id": "pleiades:217005",
     "type": "villa",
-    "name": "Teliţa",
+    "name": "Teli\u0163a",
     "lat": 45.155785,
     "lng": 28.566545,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 22 F3 Teliţa" },
+    "props": { "description": "An ancient place, cited: BAtlas 22 F3 Teli\u0163a" },
     "category": "habitation"
   },
   {
@@ -2892,7 +2926,8 @@
     "props": {
       "description": "A large Roman villa near Alba Fucens that originates in the second century B.C."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q25860174"
   },
   {
     "id": "pleiades:921321518",
@@ -2904,7 +2939,8 @@
     "props": {
       "description": "A Roman villa measuring approximately 138 by 216 m dating to the last quarter of the first century CE."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17662632"
   },
   {
     "id": "pleiades:716857195",
@@ -2917,7 +2953,8 @@
       "description": "The so-called Villa of Caesar and Maxentius at San Cesareo is located at the 18th mile of the Via Labicana.",
       "ancientName": "Villa di Cesare e Massenzio a San Cesareo"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131364669"
   },
   {
     "id": "pleiades:44765651",
@@ -2980,7 +3017,7 @@
     "lng": 19.048442109221526,
     "source": "Pleiades",
     "props": {
-      "description": "A so-called Roman \"Villa Rustica\" covering some 5,200 square meters located at the Szabadtéri Néprajzi Múzeum (Skanzen), Szentendre."
+      "description": "A so-called Roman \"Villa Rustica\" covering some 5,200 square meters located at the Szabadt\u00e9ri N\u00e9prajzi M\u00fazeum (Skanzen), Szentendre."
     },
     "category": "habitation"
   },
@@ -3060,7 +3097,8 @@
     "props": {
       "description": "A Roman villa site on the modern Croatian island of Hvar (ancient Pharus)."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q12635079"
   },
   {
     "id": "pleiades:549181140",
@@ -3073,7 +3111,8 @@
       "description": "A coastal villa in the 'contrada Sora' area of Torre del Greco, a district with a great many archaeological remains.",
       "ancientName": "Villa Sora (Torre del Greco)"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012551"
   },
   {
     "id": "pleiades:324841378",
@@ -3115,7 +3154,7 @@
     "lng": 2.15447,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa located in the vicinity of the Can Cortada farmhouse in the Horta-Guinardó district of Barcelona that was discovered in July 1987. It was dated to the second century BCE."
+      "description": "A Roman villa located in the vicinity of the Can Cortada farmhouse in the Horta-Guinard\u00f3 district of Barcelona that was discovered in July 1987. It was dated to the second century BCE."
     },
     "category": "habitation"
   },
@@ -3144,7 +3183,7 @@
   {
     "id": "pleiades:144825573",
     "type": "villa",
-    "name": "Villa di Tor Vergata, località Carcaricola",
+    "name": "Villa di Tor Vergata, localit\u00e0 Carcaricola",
     "lat": 41.8605744,
     "lng": 12.6204579,
     "source": "Pleiades",
@@ -3163,7 +3202,8 @@
     "props": {
       "description": "An elite house in Hadrumetum known especially for its program of polychromatic mosaics dating to the third century CE."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q42762123"
   },
   {
     "id": "pleiades:69621014",
@@ -3173,7 +3213,7 @@
     "lng": 13.0920604,
     "source": "Pleiades",
     "props": {
-      "description": "A monumental villa complex that is known as the “Villa dei Quattro Venti” is situated on a south-eastern offshoot of the Circeo promontory, approximately 100 meters southeast of the historic center of S. Felice Circeo.",
+      "description": "A monumental villa complex that is known as the \u201cVilla dei Quattro Venti\u201d is situated on a south-eastern offshoot of the Circeo promontory, approximately 100 meters southeast of the historic center of S. Felice Circeo.",
       "ancientName": "Villa dei Quattro Venti"
     },
     "category": "habitation"
@@ -3237,7 +3277,8 @@
       "description": "A suburban villa of Pompeii located outside the Herculaneum gate, the Villa of Diomedes was excavated between 1771 and 1774 and named after the tomb of Marcus Arrius Diomedes, which faces the entrance on the opposite side of the road.",
       "ancientName": "Villa di Diomede"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2525951"
   },
   {
     "id": "pleiades:492463658",
@@ -3289,7 +3330,8 @@
       "description": "An ancient place, cited: BAtlas 31 E4 Numituriana?/Saltus Caeliae Maximae",
       "ancientName": "Numituriana"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q99298929"
   },
   {
     "id": "pleiades:305124",
@@ -3670,7 +3712,8 @@
       "description": "An ancient place, cited: BAtlas 32 D3 Villa Magna Variana",
       "ancientName": "Villa Magna Variana"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q28220653"
   },
   {
     "id": "pleiades:320122",
@@ -3813,7 +3856,8 @@
       "description": "An Early Republican to Middle Imperial elite complex along the Via Flaminia in the outskirts of Rome.",
       "ancientName": "Auditorium site"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q58840794"
   },
   {
     "id": "pleiades:821460578",
@@ -3849,7 +3893,8 @@
     "props": {
       "description": "The villa site is approximately 1 km south of the presumed ancient course of the Via Appia."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q104787696"
   },
   {
     "id": "pleiades:375994248",
@@ -3900,12 +3945,13 @@
       "description": "A Roman villa located on the Bruna river that was in use from the third century B.C. until the fifth century A.D.",
       "ancientName": "Villa romana delle Paduline"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012800"
   },
   {
     "id": "pleiades:687658192",
     "type": "villa",
-    "name": "Staranzano, Roman villa “Liberta Peticia”",
+    "name": "Staranzano, Roman villa \u201cLiberta Peticia\u201d",
     "lat": 45.80866628706978,
     "lng": 13.496774970228225,
     "source": "Pleiades",
@@ -3935,13 +3981,13 @@
   {
     "id": "pleiades:69563",
     "type": "villa",
-    "name": "St-Frégant",
+    "name": "St-Fr\u00e9gant",
     "lat": 48.602601,
     "lng": -4.367117,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 7 B3 St-Frégant",
-      "ancientName": "Keradennec, Saint-Frégant"
+      "description": "An ancient place, cited: BAtlas 7 B3 St-Fr\u00e9gant",
+      "ancientName": "Keradennec, Saint-Fr\u00e9gant"
     },
     "category": "habitation"
   },
@@ -4066,7 +4112,8 @@
       "description": "The so-called House of the Chaste Lovers at Pompeii is located on the north side of the Via dell'Abbondanza. The site has been the subject of ongoing archaeological excavation since 1987. It is located in insula 12 of Regio IX. It adjoins the so-called House of the Painters at Work which lies to the north.",
       "ancientName": "House of the Chaste Lovers"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q27688613"
   },
   {
     "id": "pleiades:100196697",
@@ -4079,7 +4126,8 @@
       "description": "A Roman villa of the early second century BCE, constructed in opus incertum and so named because of the presence of a torcularium.",
       "ancientName": "Villa romana del Torcularium"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131914553"
   },
   {
     "id": "pleiades:166681198",
@@ -4163,7 +4211,8 @@
     "props": {
       "description": "Remains of a Roman villa with mosaic pavements located near the modern comune of Negrar di Valpolicella were first discovered in 1922."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q123046451"
   },
   {
     "id": "pleiades:822068561",
@@ -4173,7 +4222,7 @@
     "lng": 12.552306592578656,
     "source": "Pleiades",
     "props": {
-      "description": "The Villa di Rufione is a villa rustica located along the via Flaminia Vetus, between the hamlets of Montecchio and Bastardo in località Toccioli. The site begins its life in the late republican period and continues in use until the fourth century CE."
+      "description": "The Villa di Rufione is a villa rustica located along the via Flaminia Vetus, between the hamlets of Montecchio and Bastardo in localit\u00e0 Toccioli. The site begins its life in the late republican period and continues in use until the fourth century CE."
     },
     "category": "habitation"
   },
@@ -4256,7 +4305,8 @@
       "description": "A Roman villa located on via Lemonia in Rome's suburbium attributed to Quintus Servilius Pudens.",
       "ancientName": "Le Vignacce"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q7930568"
   },
   {
     "id": "pleiades:423123",
@@ -4269,7 +4319,8 @@
       "description": "The Villa Aldobrandini is located on the outskirts of Frascati. The current villa of the site was built in 1550 by a Vatican prelate named Alessandro Rufini. Subsequently, Pope Clement VIII gave the villa to his nephew Cardinal Pietro Aldobrandini in 1598. The Papal villa and gardens occupy the site of a Roman terrace villa.",
       "ancientName": "Villa Aldobrandini"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q748743"
   },
   {
     "id": "pleiades:423124",
@@ -4282,7 +4333,8 @@
       "description": "The so-called Villa of Vibius Varus is located south of the Villa Adriana at Tivoli. The site has three architectural phases stretching from the first century BCE to the fourth century CE",
       "ancientName": "Villa di Vibio Varo"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131906045"
   },
   {
     "id": "pleiades:423125",
@@ -4322,7 +4374,8 @@
       "description": "The Villa of Hadrian (Villa Adriana in Italian) is a sprawling archaeological complex at Tivoli, Italy. The villa complex was designed and used by the emperor Hadrian in the second century A.D.",
       "ancientName": "Villa Hadriani"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q272777"
   },
   {
     "id": "pleiades:423128",
@@ -4348,7 +4401,8 @@
       "description": "The Villa Muti in Grottaferrata occupies, at least in part, the site of a Roman republican villa built on a series of terraces and likely dating to the third and second centuries B.C. Lanciani excavated a series of rooms at the site. The site also had an early to mid-Imperial phase that included elaborate floors and decoration in imported marble.",
       "ancientName": "Villa Muti"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012349"
   },
   {
     "id": "pleiades:423131",
@@ -4374,7 +4428,8 @@
       "description": "The extant Villa Torlonia occupies the site of an ancient Roman villa, although, as Marzano notes, the interpretation of this villa and its Roman antecedents has been (and continues) to be confused in scholarship, particularly with reference to villas associated with Lucullus.",
       "ancientName": "Villa Torlonia"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1582108"
   },
   {
     "id": "pleiades:423135",
@@ -4387,7 +4442,8 @@
       "description": "A large imperial Roman villa known from letters of Marcus Aurelius.",
       "ancientName": "Villa Magna"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q7930405"
   },
   {
     "id": "pleiades:426583",
@@ -4575,7 +4631,8 @@
       "description": "Astura was once a coastal island of Latium and is now a small peninsula at the southeastern edge of the Bay of Antium.",
       "ancientName": "Astura"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2304697"
   },
   {
     "id": "pleiades:432749",
@@ -4588,7 +4645,8 @@
       "description": "An ancient place, cited: BAtlas 44 F4 Capo di Sorrento",
       "ancientName": "Capo di Sorrento"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q106618924"
   },
   {
     "id": "pleiades:432811",
@@ -4675,10 +4733,11 @@
     "lng": 14.633447623263905,
     "source": "Pleiades",
     "props": {
-      "description": "This site of an imperial villa, dating to the first and second centuries, covers an area of ca. 15,000 sq. m. It is located in the southern portion of the modern civic territory of San Giuliano del Sannio in the Província de Campobasso, Italy.",
+      "description": "This site of an imperial villa, dating to the first and second centuries, covers an area of ca. 15,000 sq. m. It is located in the southern portion of the modern civic territory of San Giuliano del Sannio in the Prov\u00edncia de Campobasso, Italy.",
       "ancientName": "Neratii"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q134991718"
   },
   {
     "id": "pleiades:433006",
@@ -4742,7 +4801,8 @@
     "props": {
       "description": "The San Rocco villa was built during the second quarter of the first century B.C. It was initially a simple villa rustica and it was later enlarged substantially."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q56511696"
   },
   {
     "id": "pleiades:433107",
@@ -4810,7 +4870,7 @@
     "qid": "Q2165460: Villa Jovis",
     "source": "Pleiades",
     "props": {
-      "description": "A 7,000 m² palatial villa built atop the island of Capreae by the Roman emperor Tiberius.",
+      "description": "A 7,000 m\u00b2 palatial villa built atop the island of Capreae by the Roman emperor Tiberius.",
       "ancientName": "Villa Iovis"
     },
     "category": "habitation"
@@ -4977,7 +5037,8 @@
       "description": "A Roman villa located near Castel di Guido.",
       "ancientName": "Villa romana delle colonnacce"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q100349105"
   },
   {
     "id": "pleiades:442522220",
@@ -5155,7 +5216,7 @@
     "name": "Espelt Roman villa",
     "lat": 41.5988579,
     "lng": 1.5994697,
-    "qid": "Q17602421: Vil·la romana de l'Espelt",
+    "qid": "Q17602421: Vil\u00b7la romana de l'Espelt",
     "source": "Pleiades",
     "props": {
       "description": "A Roman villa that was inhabited from the late first century AD until the fifth century AD."
@@ -5170,7 +5231,8 @@
     "lng": 14.4981456,
     "source": "Pleiades",
     "props": { "description": "A large villa at Stabiae covering more than 17,000 square meters." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q96605492"
   },
   {
     "id": "pleiades:490597949",
@@ -5182,7 +5244,8 @@
     "props": {
       "description": "A Roman villa located in the contrada Giuliana at Boscoreale on a side street of via Grotta II. The site was excavated by Vincenzo De Prisco in 1897 and subsequently reinterred."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140443521"
   },
   {
     "id": "pleiades:831208135",
@@ -5200,7 +5263,7 @@
   {
     "id": "pleiades:683426352",
     "type": "villa",
-    "name": "Mülheim-Kärlich",
+    "name": "M\u00fclheim-K\u00e4rlich",
     "lat": 50.3900955,
     "lng": 7.5390696,
     "source": "Pleiades",
@@ -5227,7 +5290,8 @@
     "lng": 8.944634907622186,
     "source": "Pleiades",
     "props": { "description": "A second-century AD Roman villa estate." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1437169"
   },
   {
     "id": "pleiades:544641873",
@@ -5240,7 +5304,8 @@
       "description": "A late Republican and early Imperial villa in the ager Cosanus noted for its turreted enclosure wall.",
       "ancientName": "Villa della Colonne"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133628811"
   },
   {
     "id": "pleiades:208942185",
@@ -7588,7 +7653,8 @@
     "props": {
       "description": "The remains of a Roman villa (first to fourth centuries CE) at Ladispoli. The surviving cryptoporticus gives the site its name."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140239034"
   },
   {
     "id": "pleiades:819599643",
@@ -7605,7 +7671,7 @@
   {
     "id": "pleiades:380284184",
     "type": "villa",
-    "name": "La Pièce du Fient",
+    "name": "La Pi\u00e8ce du Fient",
     "lat": 48.817843946580425,
     "lng": 1.612141076697912,
     "source": "Pleiades",
@@ -7625,7 +7691,8 @@
       "description": "A Roman villa, identified and initially excavated since 2018, located in the modern district of Rutland (England, United Kingdom), east of Foster's Bridge and southwest of Ketton.",
       "ancientName": "Rutland"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q109973603"
   },
   {
     "id": "pleiades:166695363",
@@ -7664,7 +7731,8 @@
     "props": {
       "description": "The remains of a Roman platform villa, the first phase of which belongs to the first century BCE."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131905599"
   },
   {
     "id": "pleiades:236283388",
@@ -7947,7 +8015,8 @@
       "description": "An ancient place, cited: BAtlas 47 G2 Rometta",
       "ancientName": "Rometta"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139826"
   },
   {
     "id": "pleiades:462477",
@@ -8002,7 +8071,8 @@
       "description": "An ancient place, cited: BAtlas 47 D4 Saraceno di Favara",
       "ancientName": "Saraceno di Favara"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q104416667"
   },
   {
     "id": "pleiades:462490",
@@ -8067,13 +8137,13 @@
   {
     "id": "pleiades:462539",
     "type": "villa",
-    "name": "Żejtun (Zejtun) Roman Villa",
+    "name": "\u017bejtun (Zejtun) Roman Villa",
     "lat": 35.8516816025323,
     "lng": 14.535766877038094,
-    "qid": { "label": "Żejtun Roman villa", "qid": "Q15949942" },
+    "qid": { "label": "\u017bejtun Roman villa", "qid": "Q15949942" },
     "source": "Pleiades",
     "props": {
-      "description": "Remains of a large villa or estate of the Roman period (ancient name unknown) were discovered in the town of Żejtun on the island of Malta."
+      "description": "Remains of a large villa or estate of the Roman period (ancient name unknown) were discovered in the town of \u017bejtun on the island of Malta."
     },
     "category": "habitation"
   },
@@ -8098,7 +8168,8 @@
       "description": "An ancient place, cited: BAtlas 48 A3 Assemini",
       "ancientName": "Assemini"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q283609"
   },
   {
     "id": "pleiades:471904",
@@ -8161,7 +8232,8 @@
       "description": "The Villa Romana di Aiano-Torraccia di Chiusi, located near San Gimignano, is notable for a tri-apsidal courtyard.",
       "ancientName": "Aiano-Torraccia di Chiusi Roman villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q105106998"
   },
   {
     "id": "pleiades:479701642",
@@ -8173,7 +8245,8 @@
     "props": {
       "description": "A villa rustica of about 400 square meters that was discovered at Stabiae in 1963. The site was reinterred in 1998."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133576088"
   },
   {
     "id": "pleiades:779658357",
@@ -8184,7 +8257,7 @@
     "qid": { "label": "Domus del Lararium", "qid": "Q72176597" },
     "source": "Pleiades",
     "props": {
-      "description": "The so-called \"Domus of the Lararium\" in Assisi was discovered at a depth of 7 meters beneath the Palazzo Giampè. The surviving remains are those of a well-appointed domus with floor mosaics and wall paintings. The domus, dating to the second half of the first century. B.C. and the first decades of the first century. A.D. was comprised of at least 13 rooms and a peristyle.",
+      "description": "The so-called \"Domus of the Lararium\" in Assisi was discovered at a depth of 7 meters beneath the Palazzo Giamp\u00e8. The surviving remains are those of a well-appointed domus with floor mosaics and wall paintings. The domus, dating to the second half of the first century. B.C. and the first decades of the first century. A.D. was comprised of at least 13 rooms and a peristyle.",
       "ancientName": "Domus del Lararium"
     },
     "category": "habitation"
@@ -8236,7 +8309,8 @@
       "description": "A villa rustica at Tortoreto, in the province of Teramo, with occupation beginning in the Late Republican period.",
       "ancientName": "Villa rustica \"Le Muracche\""
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q56220653"
   },
   {
     "id": "pleiades:876060818",
@@ -8262,7 +8336,8 @@
     "props": {
       "description": "A probable Roman villa site at Lio Piccolo in the Venice lagoon, with a well-preserved, first-century oyster tank made of brick and wood."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133836743"
   },
   {
     "id": "pleiades:645179388",
@@ -8322,7 +8397,8 @@
     "props": {
       "description": "The so-called \"Posto villa\" at Francolise was located in the ancient Ager Falernus of Campania. Its remains lie 500 meters from the so-called \"San Rocco\" villa. This was a small villa rustica whose incipit comes ca. 100 BC."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131361267"
   },
   {
     "id": "pleiades:432329375",
@@ -8361,7 +8437,8 @@
     "props": {
       "description": "A Roman villa of the first century CE located near Farchetto, Italy."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q125163027"
   },
   {
     "id": "pleiades:65232415",
@@ -8371,9 +8448,10 @@
     "lng": 14.629264809239075,
     "source": "Pleiades",
     "props": {
-      "description": "The remains of a Roman villa located adjacent to the Convent of San Giovanni del Palco in Taurano, Italy. The convent, founded in 1383 at the Niccolò Orsini, utilizes elements of the villa's structural remains in its foundations."
+      "description": "The remains of a Roman villa located adjacent to the Convent of San Giovanni del Palco in Taurano, Italy. The convent, founded in 1383 at the Niccol\u00f2 Orsini, utilizes elements of the villa's structural remains in its foundations."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140423473"
   },
   {
     "id": "pleiades:652497050",
@@ -8498,7 +8576,8 @@
       "description": "An ancient place, cited: BAtlas 46 D2 Larderia",
       "ancientName": "Larderia"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q113250246"
   },
   {
     "id": "pleiades:452384",
@@ -8511,7 +8590,8 @@
       "description": "An ancient place, cited: BAtlas 46 E1 Montegiordano",
       "ancientName": "Montegiordano"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q53918"
   },
   {
     "id": "pleiades:452388",
@@ -8524,7 +8604,8 @@
       "description": "An ancient place, cited: BAtlas 46 D5 Naniglio",
       "ancientName": "Naniglio archaeological site"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q55675600"
   },
   {
     "id": "pleiades:452397",
@@ -8537,7 +8618,8 @@
       "description": "The remains of a Roman villa in the modern Italian municipality of Casignana in Calabria. The site dates to the first through fifth centuries AD and is located near the Mediterranean coast, along the Strada Statale 106 between Bianco and Bovalino.",
       "ancientName": "Palazzi"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012805"
   },
   {
     "id": "pleiades:452405",
@@ -8560,7 +8642,8 @@
       "description": "An ancient place, cited: BAtlas 46 C1 S. Croce",
       "ancientName": "S. Croce"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q64604781"
   },
   {
     "id": "pleiades:452433",
@@ -8623,7 +8706,8 @@
       "description": "A third century Roman villa with mosaics and a bath complex was discovered at Bagnoli di S. Gregorio in 1986.",
       "ancientName": "Bagnoli di S. Gregorio"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16613133"
   },
   {
     "id": "pleiades:462111",
@@ -8681,7 +8765,8 @@
     "props": {
       "description": "An Imperial Roman villa at Caddeddi on the Tellaro river in Sicily with elaborate floor mosaics."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q499234"
   },
   {
     "id": "pleiades:462128",
@@ -8779,7 +8864,8 @@
     "lng": -0.024425930058126936,
     "source": "Pleiades",
     "props": { "description": "A Roman villa." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q113515817"
   },
   {
     "id": "pleiades:208084575",
@@ -8817,7 +8903,8 @@
       "description": "An ancient place, cited: BAtlas 8 F3 Abbotts Ann",
       "ancientName": "Abbotts Ann"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139765729"
   },
   {
     "id": "pleiades:79278",
@@ -8840,7 +8927,8 @@
     "lng": -2.805633,
     "source": "Pleiades",
     "props": { "description": "Roman villa near Acton Scott, United Kingdom." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17642345"
   },
   {
     "id": "pleiades:79286",
@@ -8872,7 +8960,8 @@
     "lng": -0.474381,
     "source": "Pleiades",
     "props": { "description": "A Roman villa located near the old village of Angmering, Sussex." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17675286"
   },
   {
     "id": "pleiades:79297",
@@ -8917,7 +9006,8 @@
     "props": {
       "description": "The Bancroft Roman villa was likely a winged, corridor type villa. It was partially excavated in 1973. Its decorative scheme included geometric mosaics."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4854164"
   },
   {
     "id": "pleiades:79315",
@@ -8929,7 +9019,8 @@
     "props": {
       "description": "A Roman villa occupied between ca. A.D. 140 and the fifth century. It was discovered in 1950."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17678122"
   },
   {
     "id": "pleiades:79318",
@@ -8964,7 +9055,8 @@
       "description": "The site of a Roman villa of the winged corridor type located at Glebe Farm. The site was occupied from the first to the fourth centuries.",
       "ancientName": "Barton-in-Fabis"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17673573"
   },
   {
     "id": "pleiades:79321",
@@ -8991,7 +9083,8 @@
       "description": "A corridor-type villa that includes a bath-house and a possible temple.",
       "ancientName": "Beddingham"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q138102962"
   },
   {
     "id": "pleiades:79323",
@@ -9004,7 +9097,8 @@
       "description": "An ancient place, cited: BAtlas 8 G3 Beddington",
       "ancientName": "Beddington"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17644967"
   },
   {
     "id": "pleiades:79324",
@@ -9041,7 +9135,8 @@
       "description": "An ancient place, cited: BAtlas 8 E2 Bishopstone",
       "ancientName": "Bishopstone"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17663400"
   },
   {
     "id": "pleiades:79341",
@@ -9077,7 +9172,8 @@
     "props": {
       "description": "At Brading on the Isle of Wight, the remains of a Roman winged corridor type villa, consisting of three blocks, were excavated between 1881 and 1900. The villa was occupied between the second and fourth centuries A.D. The villa is known for its mosaic pavements."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1411412"
   },
   {
     "id": "pleiades:79348",
@@ -9087,7 +9183,8 @@
     "lng": -0.575778,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 G1 Brantingham" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17662560"
   },
   {
     "id": "pleiades:79358",
@@ -9107,7 +9204,8 @@
     "lng": -2.054893,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 E4 Bucknowle" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q999861"
   },
   {
     "id": "pleiades:79375",
@@ -9143,7 +9241,8 @@
       "description": "An ancient place, cited: BAtlas 8 F1 Carsington",
       "ancientName": "Carsington"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q86752251"
   },
   {
     "id": "pleiades:79379",
@@ -9153,7 +9252,8 @@
     "lng": -0.34622,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 G2 Castor" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17641401"
   },
   {
     "id": "pleiades:79383",
@@ -9166,7 +9266,8 @@
       "description": "A large Roman-style villa in Britain, dating from the second to fourth centuries A.D.",
       "ancientName": "Chedworth Roman Villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q5089233"
   },
   {
     "id": "pleiades:79386",
@@ -9233,7 +9334,8 @@
       "description": "The remains of a Romano-British villa with at least 12 rooms were first uncovered via ploughing in 1838 on a tract of land called \"The Allotment\" near Colerne, Wiltshire, England. Excavations took place in 1854. Fragments of an inscribed mosaic reading either \"Servivs\" or \"Severvs\" were documented at the site.",
       "ancientName": "Colerne"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139831694"
   },
   {
     "id": "pleiades:79398",
@@ -9302,7 +9404,8 @@
       "description": "Darenth Court Roman villa numbered among the largest Roman villas in Britain. This courtyard villa included numerous components, among them a bath complex. The villa measured ca. 370 by 414 feet upon excavations in 1894 and 1895. An assemblage of Roman coins (53 in number) range in date from Domitian to Gratian.",
       "ancientName": "Darenth Court Roman Villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q119781925"
   },
   {
     "id": "pleiades:79415",
@@ -9404,7 +9507,8 @@
     "lng": 0.479999,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 H3 Eccles" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q65118227"
   },
   {
     "id": "pleiades:79451",
@@ -9498,7 +9602,8 @@
     "lng": -2.342614,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 E4 Fifehead Neville" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17647797"
   },
   {
     "id": "pleiades:79465",
@@ -9535,7 +9640,8 @@
       "description": "An elaborate Romano-British villa of the mid-second century A.D. Epigraphic evidence connects the site with the prefect of the Classis Britannica (praefectus classis Britannicae).",
       "ancientName": "Folkestone"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1347915"
   },
   {
     "id": "pleiades:79468",
@@ -9548,7 +9654,8 @@
       "description": "Samuel Lysons excavated a Roman villa at Frampton (Dorset) in 1796. Its unusual mosaics were a subject of keen interest, even attracting the attention of George III. The villa was thought to have been demolished, but Bournemouth University demonstrated that remains of the villa can still be identified in situ in 2019.",
       "ancientName": "Frampton"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17650665"
   },
   {
     "id": "pleiades:79470",
@@ -9571,7 +9678,8 @@
     "props": {
       "description": "Frocester is a Roman villa site south of Gloucester that was occupied until the late fifth century A.D."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q666250"
   },
   {
     "id": "pleiades:79473",
@@ -9593,7 +9701,8 @@
     "lng": 0.582851,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 H2 Gayton Thorpe" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17648447"
   },
   {
     "id": "pleiades:79482",
@@ -9665,7 +9774,8 @@
       "description": "Remains of a Roman villa excavated in Lincolnshire.",
       "ancientName": "Greetwell"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q124809055"
   },
   {
     "id": "pleiades:79494",
@@ -9675,7 +9785,8 @@
     "lng": 0.548909,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 H2 Grimston" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17648401"
   },
   {
     "id": "pleiades:79495",
@@ -9727,7 +9838,8 @@
     "props": {
       "description": "At Hambleden the ruins of a Roman villa just north of the river Thames were excavated in 1912."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17660804"
   },
   {
     "id": "pleiades:79503",
@@ -9739,7 +9851,8 @@
     "props": {
       "description": "Roman villa dating to the fourth century CE, north of Road Hill Farm and excavated in 1846."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17647897"
   },
   {
     "id": "pleiades:79505",
@@ -9782,7 +9895,8 @@
       "description": "An ancient place, cited: BAtlas 8 G3 High Wycombe",
       "ancientName": "High Wycombe"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130369823"
   },
   {
     "id": "pleiades:79515",
@@ -9829,7 +9943,8 @@
       "description": "A Roman corridor villa with both bath facilities and mosaics. Excavated in 1911 and 1993 and dated to ca. A.D. 150 to the 5th century.",
       "ancientName": "Hucclecote Roman villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q15133923"
   },
   {
     "id": "pleiades:79521",
@@ -10093,7 +10208,8 @@
     "lng": -5.3152425,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 B4 Magor" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17647592"
   },
   {
     "id": "pleiades:79589",
@@ -10113,7 +10229,8 @@
     "lng": -1.18143,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 F1 Mansfield Woodhouse" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2737424"
   },
   {
     "id": "pleiades:79598",
@@ -10133,7 +10250,8 @@
     "lng": -1.792659,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 F3 Netheravon" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2541018"
   },
   {
     "id": "pleiades:79610",
@@ -10145,7 +10263,8 @@
     "props": {
       "description": "Roman archaeological site near Herford with various interpretations, such as a villa, public baths, a water shrine"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17641797"
   },
   {
     "id": "pleiades:79611",
@@ -10199,7 +10318,8 @@
       "description": "North Leigh Roman villa is a large villa complex located near the River Evenlode. This was a luxurious villa with four bathing suites.",
       "ancientName": "North Leigh Roman Villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1705995"
   },
   {
     "id": "pleiades:79619",
@@ -10209,7 +10329,8 @@
     "lng": -2.2383387,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 E3 North Wraxall" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2722373"
   },
   {
     "id": "pleiades:79620",
@@ -10219,7 +10340,8 @@
     "lng": -0.58684,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 G3 Northchurch" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q60847951"
   },
   {
     "id": "pleiades:79621",
@@ -10275,7 +10397,8 @@
     "lng": -0.8348422,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 G2 Piddington" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q6531640"
   },
   {
     "id": "pleiades:79641",
@@ -10339,7 +10462,8 @@
       "description": "A Roman-style courtyard villa occupied until the fifth century AD.",
       "ancientName": "Rockbourne"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q7354971"
   },
   {
     "id": "pleiades:79660",
@@ -10450,7 +10574,8 @@
       "description": "A Romano-British villa located at Manor Hall Road, Southwick, England.",
       "ancientName": "Southwick"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16857788"
   },
   {
     "id": "pleiades:79691",
@@ -10460,7 +10585,8 @@
     "lng": -1.379979,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 F3 Sparsholt" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q7573804"
   },
   {
     "id": "pleiades:79693",
@@ -10472,7 +10598,8 @@
     "props": {
       "description": "This Roman villa was discovered and excavated in 1882. A basilica-type building (?granary) was discovered at the site, along with mosaics and marble statuary."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q12069819"
   },
   {
     "id": "pleiades:79694",
@@ -10496,7 +10623,8 @@
     "props": {
       "description": "A Roman villa site located at Stanwick, Northamptonshire, that was excavated between 1984 and 1992."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q125191671"
   },
   {
     "id": "pleiades:79697",
@@ -10506,7 +10634,8 @@
     "lng": -1.429099,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 F3 Stonesfield" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17642849"
   },
   {
     "id": "pleiades:79698",
@@ -10546,7 +10675,8 @@
     "lng": -2.088708,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 E4 Tarrant Hinton" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q103197494"
   },
   {
     "id": "pleiades:79711",
@@ -10567,7 +10697,8 @@
     "lng": -1.584379,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 F3 Thruxton" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q124791408"
   },
   {
     "id": "pleiades:79714",
@@ -10628,7 +10759,8 @@
     "props": {
       "description": "This Roman courtyard villa that yielded ceramics dating to the 4th century CE was located on what is now Church Farm in Totternhoe (Central Bedfordshire, England). The survey and excavations were published in the 1950s; the site was backfilled after excavation and the villa's remains are no longer visible."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q20979113"
   },
   {
     "id": "pleiades:79743",
@@ -10661,7 +10793,8 @@
       "description": "An ancient place, cited: BAtlas 8 H3 Wanstead",
       "ancientName": "Wanstead"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q30674026"
   },
   {
     "id": "pleiades:79748",
@@ -10683,7 +10816,8 @@
     "props": {
       "description": "Remains of a first through fourth-century corridor villa were excavated at Wendens Ambo in 1853 and 1971-3. The villa had a detached bathhouse and other out buildings."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17646379"
   },
   {
     "id": "pleiades:79750",
@@ -10738,7 +10872,8 @@
       "description": "A small Romano-British courtyard villa was excavated at Lippen Wood, West Meon, by A. Moray-Williams in 1906. The villa had 16 rooms, three of which had mosaic floors.",
       "ancientName": "Lippen Wood"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17645586"
   },
   {
     "id": "pleiades:79756",
@@ -10751,7 +10886,8 @@
       "description": "An ancient place, cited: BAtlas 8 D4 White Staunton",
       "ancientName": "White Staunton"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17641854"
   },
   {
     "id": "pleiades:79758",
@@ -10795,7 +10931,8 @@
     "props": {
       "description": "A large villa complex located at Castle Hill, Whitton. This site is considered to be one of the most important villa complexes known in Suffolk. Excavations were conducted in 1929-32, 1946-50 and 1988-9."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q124685643"
   },
   {
     "id": "pleiades:79762",
@@ -10805,7 +10942,8 @@
     "lng": -2.411553,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 8 E3 Wick" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1012502"
   },
   {
     "id": "pleiades:79765",
@@ -10828,7 +10966,8 @@
       "description": "Winterton is the site of a Roman villa and field system. The ancient site, now invisible, is located just to the north of Scunthorpe, Lincolnshire U.K.",
       "ancientName": "Winterton"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q15133937"
   },
   {
     "id": "pleiades:79767",
@@ -10854,7 +10993,8 @@
       "description": "An ancient place, cited: BAtlas 8 E3 Woodchester",
       "ancientName": "Woodchester Roman Villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1690886"
   },
   {
     "id": "pleiades:79770",
@@ -10879,7 +11019,8 @@
       "description": "Worplesdon is the site of a Roman corridor-style villa, probably dating from the third to fourth century CE.",
       "ancientName": "Worplesdon"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q103200263"
   },
   {
     "id": "pleiades:79774",
@@ -10892,7 +11033,8 @@
       "description": "A corridor villa, occupied by A.D. 200, that was part of a complex of buildings arranged around a courtyard.",
       "ancientName": "Yarchester"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1270582"
   },
   {
     "id": "pleiades:79775",
@@ -10905,7 +11047,8 @@
       "description": "In 1925, Alderman Mitchelmore excavated a Roman courtyard villa at Yeovil. This site is located to the west of Seaton Road, Westland, Yeovil. Excavations continued in 1927/8 under Ralegh Radford. On September 15, 1916, a coin hoard containing more than 4,000 fourth-century CE coins was found on the site. The villa was a large building (200 by 170 feet) with a paved courtyard.",
       "ancientName": "Yeovil"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139859321"
   },
   {
     "id": "pleiades:784028639",
@@ -10930,7 +11073,7 @@
     "source": "Pleiades",
     "props": {
       "description": "Large house in Saint-Romain-En-Gaul, France, probably belonging to a wealthy merchant, built around 50 CE and abandoned in the middle of the 3rd century CE.",
-      "ancientName": "La Maison des Dieux Océans"
+      "ancientName": "La Maison des Dieux Oc\u00e9ans"
     },
     "category": "habitation"
   },
@@ -10945,7 +11088,8 @@
       "description": "A Roman villa along the via Herculea near Oppido Lucano.",
       "ancientName": "Villa di Masseria Ciccotti"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012746"
   },
   {
     "id": "pleiades:338131054",
@@ -10994,9 +11138,10 @@
     "lng": -8.528504721546888,
     "source": "Pleiades",
     "props": {
-      "description": "Remains of a Roman villa located in the modern Torres Novas Municipality, Santarém District, Portugal."
+      "description": "Remains of a Roman villa located in the modern Torres Novas Municipality, Santar\u00e9m District, Portugal."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q10390694"
   },
   {
     "id": "pleiades:792786064",
@@ -11005,8 +11150,9 @@
     "lat": 39.33312244045644,
     "lng": -8.939544831442916,
     "source": "Pleiades",
-    "props": { "description": "A Roman villa in Rio Maior, Santarém, Portugal." },
-    "category": "habitation"
+    "props": { "description": "A Roman villa in Rio Maior, Santar\u00e9m, Portugal." },
+    "category": "habitation",
+    "qid": "Q10391474"
   },
   {
     "id": "pleiades:930634471",
@@ -11018,7 +11164,8 @@
     "props": {
       "description": "A Roman villa with mosaic floors and columns was discovered between East Creech and Cotness in 1869."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17670243"
   },
   {
     "id": "pleiades:465828942",
@@ -11030,7 +11177,8 @@
     "props": {
       "description": "A Roman villa has been identified in the modern neighborhood of El Collet, which is located in the Catalonian municipality of Calonge i Sant Antoni."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q11954827"
   },
   {
     "id": "pleiades:904891411",
@@ -11074,12 +11222,12 @@
   {
     "id": "pleiades:23214007",
     "type": "villa",
-    "name": "Marigny à Fleurville Gallo-Roman Villa",
+    "name": "Marigny \u00e0 Fleurville Gallo-Roman Villa",
     "lat": 46.442931,
     "lng": 4.877216,
     "source": "Pleiades",
     "props": {
-      "description": "Remains of a Gallo-Roman Villa at modern Château de Marigny at Fleurville, France."
+      "description": "Remains of a Gallo-Roman Villa at modern Ch\u00e2teau de Marigny at Fleurville, France."
     },
     "category": "habitation"
   },
@@ -11141,7 +11289,8 @@
       "description": "The complex known as \"Domus and Mitreo delle Pareti Dipinte\" began its life in the later second century BCE and was remodeled during the time of Augustus. A mithraeum is built in the northwest part of the building in the later second century CE.",
       "ancientName": "Mitreo delle Pareti Dipinte"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q124218142"
   },
   {
     "id": "pleiades:738128724",
@@ -11166,7 +11315,8 @@
       "description": "The Roman villa rustica of La Befa is positioned at the point where the Torrente di Crevoli joins the river Ombrone. Excavation of the site identified a northern sector and a southern sector, both with multiple architectural phases, likely beginning the later first century CE.",
       "ancientName": "La Befa, Carcerelle"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q18491451"
   },
   {
     "id": "pleiades:372376094",
@@ -11209,14 +11359,15 @@
   {
     "id": "pleiades:687529965",
     "type": "villa",
-    "name": "Rabaçal Roman villa",
+    "name": "Raba\u00e7al Roman villa",
     "lat": 40.039055006450205,
     "lng": -8.457634195998462,
     "source": "Pleiades",
     "props": {
-      "description": "A fourth-century AD Roman villa located in Rabaçal, Portugal, near the site of Conimbriga."
+      "description": "A fourth-century AD Roman villa located in Raba\u00e7al, Portugal, near the site of Conimbriga."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2202565"
   },
   {
     "id": "pleiades:334617",
@@ -11601,7 +11752,8 @@
       "description": "An ancient place, cited: BAtlas 35 F2 Turris ad Algam",
       "ancientName": "Turris ad Algam"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q106298758"
   },
   {
     "id": "pleiades:344525",
@@ -11624,7 +11776,8 @@
     "lng": 11.170548,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 35 D3 Uled Bu Aescia" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q106298876"
   },
   {
     "id": "pleiades:344533",
@@ -11764,7 +11917,7 @@
     "name": "Wadi Mimoun",
     "lat": 31.657760500000002,
     "lng": 14.154782999999998,
-    "qid": "Qaşr Maymūn (Q106302565)",
+    "qid": "Qa\u015fr Maym\u016bn (Q106302565)",
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 35 G3 Wadi Mimoun" },
     "category": "habitation"
@@ -11833,7 +11986,8 @@
       "description": "A coastal villa known especially for its polychrome gladiatorial mosaics was excavated at Dar Buk-Ammarah, located on the coast some 4.5 km to the north of Zliten, Libya.",
       "ancientName": "Dar Buk-Ammarah"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q104817310"
   },
   {
     "id": "pleiades:698731845",
@@ -11894,7 +12048,8 @@
     "lng": 12.612727874740443,
     "source": "Pleiades",
     "props": { "description": "A Roman villa dating to the second century A.D." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130263089"
   },
   {
     "id": "pleiades:322920273",
@@ -11946,10 +12101,11 @@
     "lng": 14.424071896594773,
     "source": "Pleiades",
     "props": {
-      "description": "The so-called “Villa of Augustus” at Somma Vesuviana was first discovered in the late nineteenth century. The villa has been shown to have survived the 79 CE eruption of Mt. Vesuvius but was eventually destroyed by a volcanic event in 472.",
-      "ancientName": "“Villa of Augustus” at Somma Vesuviana"
+      "description": "The so-called \u201cVilla of Augustus\u201d at Somma Vesuviana was first discovered in the late nineteenth century. The villa has been shown to have survived the 79 CE eruption of Mt. Vesuvius but was eventually destroyed by a volcanic event in 472.",
+      "ancientName": "\u201cVilla of Augustus\u201d at Somma Vesuviana"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q98704264"
   },
   {
     "id": "pleiades:698411339",
@@ -11971,7 +12127,8 @@
     "props": {
       "description": "A luxury terraced villa in Spain's Murcia region that was first built in the Republican period and then abandoned by the third century A.D."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q5474005"
   },
   {
     "id": "pleiades:5108305",
@@ -12019,7 +12176,8 @@
     "props": {
       "description": "A possible Roman courtyard villa has been identified at Pleshey, based on the discovery of mosaic pavements, burials, and coin finds, most of which were recorded by ploughing in the 18th century."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17674049"
   },
   {
     "id": "pleiades:462161",
@@ -12075,15 +12233,16 @@
       "description": "A fourth century A.D. Roman villa with mosaic pavements. The villa may have extended to some 10,000 square meters in area.",
       "ancientName": "Gerace"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q38250970"
   },
   {
     "id": "pleiades:462218",
     "type": "estate",
-    "name": "Roman Villa at Għajn Tuffieħa, Malta",
+    "name": "Roman Villa at G\u0127ajn Tuffie\u0127a, Malta",
     "lat": 35.926949,
     "lng": 14.357491,
-    "qid": "Q5627447: Għajn Tuffieħa Roman Baths",
+    "qid": "Q5627447: G\u0127ajn Tuffie\u0127a Roman Baths",
     "source": "Pleiades",
     "props": {
       "description": "Ruins at this ancient site include a Roman-era bath complex and extensive mosaics. Its ancient name is unknown."
@@ -12136,7 +12295,8 @@
     "props": {
       "description": "a fourth-century Romano-British villa west of the modern village of Rudston"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q15133974"
   },
   {
     "id": "pleiades:640210490",
@@ -12156,8 +12316,8 @@
     "lng": 7.702975,
     "source": "Pleiades",
     "props": {
-      "description": "Ruins of a villa rustica, located south of modern Brombach in Baden-Württemberg.",
-      "ancientName": "Loerrach, Lörrach"
+      "description": "Ruins of a villa rustica, located south of modern Brombach in Baden-W\u00fcrttemberg.",
+      "ancientName": "Loerrach, L\u00f6rrach"
     },
     "category": "habitation"
   },
@@ -12184,7 +12344,8 @@
     "props": {
       "description": "A second century Roman villa located near Thurnham, Kent, United Kingdom"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q137841956"
   },
   {
     "id": "pleiades:214034409",
@@ -12257,11 +12418,11 @@
   {
     "id": "pleiades:256073",
     "type": "villa",
-    "name": "Castelo da Chaminé",
+    "name": "Castelo da Chamin\u00e9",
     "lat": 37.697634,
     "lng": -8.081906,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 B4 Castelo da Chaminé" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 B4 Castelo da Chamin\u00e9" },
     "category": "habitation"
   },
   {
@@ -12311,12 +12472,12 @@
   {
     "id": "pleiades:256095",
     "type": "villa",
-    "name": "Cerro de los Mártires",
+    "name": "Cerro de los M\u00e1rtires",
     "lat": 36.437707,
     "lng": -6.212305,
     "qid": "Q5763407",
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 D5 Cerro de los Mártires" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 D5 Cerro de los M\u00e1rtires" },
     "category": "habitation"
   },
   {
@@ -12382,11 +12543,13 @@
   {
     "id": "pleiades:256131",
     "type": "villa",
-    "name": "Cortijo de Fuentidueñas",
+    "name": "Cortijo de Fuentidue\u00f1as",
     "lat": 37.440542,
     "lng": -5.071757,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 E4 Cortijo de Fuentidueñas" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 26 E4 Cortijo de Fuentidue\u00f1as"
+    },
     "category": "habitation"
   },
   {
@@ -12422,11 +12585,11 @@
   {
     "id": "pleiades:256137",
     "type": "villa",
-    "name": "Cós",
+    "name": "C\u00f3s",
     "lat": 39.51001,
     "lng": -8.983656,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 B2 Cós" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 B2 C\u00f3s" },
     "category": "habitation"
   },
   {
@@ -12442,12 +12605,12 @@
   {
     "id": "pleiades:256156",
     "type": "villa",
-    "name": "Encinajero de los Frailes de San Jerónimo",
+    "name": "Encinajero de los Frailes de San Jer\u00f3nimo",
     "lat": 37.80142,
     "lng": -4.986029,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 26 F4 Encinajero de los Frailes de San Jerónimo"
+      "description": "An ancient place, cited: BAtlas 26 F4 Encinajero de los Frailes de San Jer\u00f3nimo"
     },
     "category": "habitation"
   },
@@ -12497,14 +12660,15 @@
   {
     "id": "pleiades:256189",
     "type": "villa",
-    "name": "Hacienda de Manguarra y S. José",
+    "name": "Hacienda de Manguarra y S. Jos\u00e9",
     "lat": 36.72189403819816,
     "lng": -4.663134943928166,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 26 F5 Hacienda de Manguarra y S. José"
+      "description": "An ancient place, cited: BAtlas 26 F5 Hacienda de Manguarra y S. Jos\u00e9"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q97633765"
   },
   {
     "id": "pleiades:256191",
@@ -12549,11 +12713,11 @@
   {
     "id": "pleiades:256202",
     "type": "villa",
-    "name": "Herdade da Chaminé",
+    "name": "Herdade da Chamin\u00e9",
     "lat": 38.667522000000005,
     "lng": -7.65387,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 C3 Herdade da Chaminé" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 C3 Herdade da Chamin\u00e9" },
     "category": "habitation"
   },
   {
@@ -12579,11 +12743,11 @@
   {
     "id": "pleiades:256206",
     "type": "villa",
-    "name": "Herdade do Carrão",
+    "name": "Herdade do Carr\u00e3o",
     "lat": 38.9148,
     "lng": -7.31977,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 C3 Herdade do Carrão" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 C3 Herdade do Carr\u00e3o" },
     "category": "habitation"
   },
   {
@@ -12649,11 +12813,11 @@
   {
     "id": "pleiades:256269",
     "type": "villa",
-    "name": "Loma de la Viña",
+    "name": "Loma de la Vi\u00f1a",
     "lat": 36.947667,
     "lng": -6.012752,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 D5 Loma de la Viña" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 D5 Loma de la Vi\u00f1a" },
     "category": "habitation"
   },
   {
@@ -12684,7 +12848,8 @@
     "lng": -7.90400037773475,
     "source": "Pleiades",
     "props": { "description": "A Roman peristyle villa located in Lusitania." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q429318"
   },
   {
     "id": "pleiades:256304",
@@ -12747,7 +12912,8 @@
       "description": "An ancient place, cited: BAtlas 26 C4 Montinho das Laranjeiras",
       "ancientName": "Villa Romana do Montinho das Laranjeiras"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q10391475"
   },
   {
     "id": "pleiades:256313",
@@ -12772,12 +12938,12 @@
   {
     "id": "pleiades:256365",
     "type": "villa",
-    "name": "Pisões",
+    "name": "Pis\u00f5es",
     "lat": 37.99765626852199,
     "lng": -7.949231980792028,
-    "qid": "Q1253253: Roman ruins of Pisões",
+    "qid": "Q1253253: Roman ruins of Pis\u00f5es",
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 C4 Pisões" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 C4 Pis\u00f5es" },
     "category": "habitation"
   },
   {
@@ -12809,7 +12975,7 @@
     "name": "Quinta do Marim",
     "lat": 37.0407805,
     "lng": -7.8139638,
-    "qid": "Q85878079: Ruínas romanas da Quinta de Marim",
+    "qid": "Q85878079: Ru\u00ednas romanas da Quinta de Marim",
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 26 C4 Quinta do Marim" },
     "category": "habitation"
@@ -12817,11 +12983,11 @@
   {
     "id": "pleiades:256409",
     "type": "villa",
-    "name": "Sacavém",
+    "name": "Sacav\u00e9m",
     "lat": 38.79101,
     "lng": -9.106483,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 A3 Sacavém" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 A3 Sacav\u00e9m" },
     "category": "habitation"
   },
   {
@@ -12832,16 +12998,17 @@
     "lng": -7.84550996370708,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 26 C3 S. Cucufate" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2802496"
   },
   {
     "id": "pleiades:256426",
     "type": "villa",
-    "name": "S. José",
+    "name": "S. Jos\u00e9",
     "lat": 37.189506,
     "lng": -5.726078,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 E4 S. José" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 E4 S. Jos\u00e9" },
     "category": "habitation"
   },
   {
@@ -12860,7 +13027,7 @@
     "name": "S. Miguel de Odrinhas",
     "lat": 38.8869598,
     "lng": -9.3659115,
-    "qid": "Q10365475: Archaeological Museum of São Miguel de Odrinhas",
+    "qid": "Q10365475: Archaeological Museum of S\u00e3o Miguel de Odrinhas",
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 26 A3 S. Miguel de Odrinhas" },
     "category": "habitation"
@@ -12868,11 +13035,11 @@
   {
     "id": "pleiades:256434",
     "type": "villa",
-    "name": "S. Vitória do Ameixial",
+    "name": "S. Vit\u00f3ria do Ameixial",
     "lat": 38.898881,
     "lng": -7.6768135,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 C3 S. Vitória do Ameixial" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 C3 S. Vit\u00f3ria do Ameixial" },
     "category": "habitation"
   },
   {
@@ -12925,7 +13092,8 @@
     "props": {
       "description": "An early imperial Roman villa located in the territory of Augusta Emerita."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q9093962"
   },
   {
     "id": "pleiades:256475",
@@ -12957,16 +13125,17 @@
     "props": {
       "description": "A large Roman villa inhabited from ca. the second century A.D. to the Visigothic period."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q25431528"
   },
   {
     "id": "pleiades:256479",
     "type": "villa",
-    "name": "El Torreón",
+    "name": "El Torre\u00f3n",
     "lat": 37.628559,
     "lng": -5.66767,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 E4 El Torreón" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 E4 El Torre\u00f3n" },
     "category": "habitation"
   },
   {
@@ -12977,7 +13146,8 @@
     "lng": -5.0653084,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 26 F5 Las Torres" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q6162507"
   },
   {
     "id": "pleiades:256505",
@@ -12992,31 +13162,31 @@
   {
     "id": "pleiades:256506",
     "type": "villa",
-    "name": "Vale de Aguilhão",
+    "name": "Vale de Aguilh\u00e3o",
     "lat": 37.94869,
     "lng": -7.864617,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 C4 Vale de Aguilhão" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 C4 Vale de Aguilh\u00e3o" },
     "category": "habitation"
   },
   {
     "id": "pleiades:256507",
     "type": "villa",
-    "name": "Vale de Mértola",
+    "name": "Vale de M\u00e9rtola",
     "lat": 37.697632,
     "lng": -8.081917,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 B4 Vale de Mértola" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 B4 Vale de M\u00e9rtola" },
     "category": "habitation"
   },
   {
     "id": "pleiades:256515",
     "type": "villa",
-    "name": "Vila Cardílio",
+    "name": "Vila Card\u00edlio",
     "lat": 39.45288167745667,
     "lng": -8.528256860773444,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 26 B2 Vila Cardílio" },
+    "props": { "description": "An ancient place, cited: BAtlas 26 B2 Vila Card\u00edlio" },
     "category": "habitation"
   },
   {
@@ -13032,14 +13202,15 @@
   {
     "id": "pleiades:256519",
     "type": "villa",
-    "name": "Villa de Río Verde",
+    "name": "Villa de R\u00edo Verde",
     "lat": 36.49571765133712,
     "lng": -4.944448752351823,
     "source": "Pleiades",
     "props": {
       "description": "A Roman villa with mosaic pavements located in the modern Spanish province of Malaga."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q97632504"
   },
   {
     "id": "pleiades:256520",
@@ -13057,11 +13228,11 @@
   {
     "id": "pleiades:265793",
     "type": "villa",
-    "name": "Algorós",
+    "name": "Algor\u00f3s",
     "lat": 38.230283,
     "lng": -0.726651,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 27 E3 Algorós" },
+    "props": { "description": "An ancient place, cited: BAtlas 27 E3 Algor\u00f3s" },
     "category": "habitation"
   },
   {
@@ -13077,11 +13248,11 @@
   {
     "id": "pleiades:265819",
     "type": "villa",
-    "name": "Baños de la Reina",
+    "name": "Ba\u00f1os de la Reina",
     "lat": 38.6468265,
     "lng": 0.0598725,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 27 F3 Baños de la Reina" },
+    "props": { "description": "An ancient place, cited: BAtlas 27 F3 Ba\u00f1os de la Reina" },
     "category": "habitation"
   },
   {
@@ -13109,11 +13280,13 @@
   {
     "id": "pleiades:265844",
     "type": "villa",
-    "name": "Carnicería de los Moros",
+    "name": "Carnicer\u00eda de los Moros",
     "lat": 37.008776,
     "lng": -4.531659,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 27 A4 Carnicería de los Moros" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 27 A4 Carnicer\u00eda de los Moros"
+    },
     "category": "habitation"
   },
   {
@@ -13137,7 +13310,8 @@
       "description": "Two suburban villa sites and a Late Antique granary were excavated at a site along the Via Gabina 14 km east of central Rome. Walter Widrig and Philip Oliver-Smith directed the excavations.",
       "ancientName": "Via Gabina villas"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139383327"
   },
   {
     "id": "pleiades:584324061",
@@ -13149,7 +13323,8 @@
     "props": {
       "description": "An archaeological site that preserves remains of a Late Roman settlement along the Via Flaminia."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q18498355"
   },
   {
     "id": "pleiades:897733154",
@@ -13175,7 +13350,8 @@
     "props": {
       "description": "A Romano-British villa and its associated features are located to the north-east of the River Ingol and along the ancient route known as the Icknield Way."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17674077"
   },
   {
     "id": "pleiades:158092964",
@@ -13200,7 +13376,8 @@
     "props": {
       "description": "The remains of a Romano-British villa on the Buckinghamshire bank of the River Thames just south of the village of Mill End. The remains were first observed via parchmarks in 1921."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17660549"
   },
   {
     "id": "pleiades:631723722",
@@ -13325,7 +13502,8 @@
     "props": {
       "description": "A Roman villa north of Panattoni Park and adjacent to Junction 16 of the M1 motorway, excavated in the 1840s and in 1966."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q137919525"
   },
   {
     "id": "pleiades:521042",
@@ -13361,7 +13539,8 @@
     "lng": 20.7983549,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 54 C5 Nea Skala" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q56240191"
   },
   {
     "id": "pleiades:531138",
@@ -13417,7 +13596,7 @@
     "lng": 13.8701,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman maritime villa located at the southwest corner of the Istrian peninsula, about six kilometers south of Pola. According to Matijašić 1982, the remains of the villa are visible beneath the waters of Paltana Bay."
+      "description": "A Roman maritime villa located at the southwest corner of the Istrian peninsula, about six kilometers south of Pola. According to Matija\u0161i\u0107 1982, the remains of the villa are visible beneath the waters of Paltana Bay."
     },
     "category": "habitation"
   },
@@ -13530,7 +13709,8 @@
     "lng": 12.683905447839782,
     "source": "Pleiades",
     "props": { "description": "A villa associated with Aulus Vitellius Germanicus." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131428027"
   },
   {
     "id": "pleiades:37513578",
@@ -13602,7 +13782,8 @@
     "props": {
       "description": "The site of a Roman villa with two parallel ranges of rooms dating from the second half of the first century to the fifth century."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17647299"
   },
   {
     "id": "pleiades:343752424",
@@ -13641,7 +13822,8 @@
       "description": "A domus in Herculaneum. The mosaic \"chessboard\" decoration of its atrium distinguishes it from neighboring domus.",
       "ancientName": "Casa dell'Atrio a Mosaico"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16537570"
   },
   {
     "id": "pleiades:60021200",
@@ -13654,7 +13836,8 @@
       "description": "A seaside villa located in Oplontis, possibly owned by Emperor Nero, based on decorations, date of construction, and pottery fragments inscribed with the name of a freedman of Poppaea Sabina.",
       "ancientName": "Villa di Poppea"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q542944"
   },
   {
     "id": "pleiades:272861914",
@@ -13811,7 +13994,8 @@
       "description": "A Roman villa with an associated bath complex destroyed by the AD 79 eruption of Vesuvius, the Masseria De Carolis site is located in the comune of Pollena Trocchia near Naples, Italy.",
       "ancientName": "Masseria De Carolis"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131422978"
   },
   {
     "id": "pleiades:291184550",
@@ -13835,7 +14019,8 @@
     "props": {
       "description": "A Roman villa site now inundated by the coastal waters of the Saronic Gulf near Palaia Epidavros, Argolis."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q113276183"
   },
   {
     "id": "pleiades:208943138",
@@ -15324,7 +15509,8 @@
       "description": "Located on the Sirmione peninsula on the southern shore of Lake Garda, \"Grotte di Catullo\" is the name given to the ruins of a Roman villa dating to the late first century B.C. and the beginning of the first century A.D.",
       "ancientName": "Grottoes of Catullus"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3777121"
   },
   {
     "id": "pleiades:170572802",
@@ -15347,7 +15533,8 @@
       "description": "A large and well-appointed house located in the so-called \"Villa Section\" of ancient Olynthus, proposed as an Olynthian type-house.",
       "ancientName": "House of Many Colors"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q136259379"
   },
   {
     "id": "pleiades:519794781",
@@ -15419,7 +15606,7 @@
   {
     "id": "pleiades:575015998",
     "type": "villa",
-    "name": "Casale dell’Infernaccio",
+    "name": "Casale dell\u2019Infernaccio",
     "lat": 41.8279581,
     "lng": 12.4143258,
     "source": "Pleiades",
@@ -15460,7 +15647,8 @@
       "description": "The so-called House of the Hotel (Casa dell'Albergo) is an opulent Augustan-period domus that occupies the bulk of the southern end of Insula III at Herculaneum.",
       "ancientName": "Casa dell'Albergo"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16487712"
   },
   {
     "id": "pleiades:834833177",
@@ -15537,7 +15725,8 @@
     "props": {
       "description": "A site with votive activity from the Archaic period and a later Roman house in addition to the basalt-paved Roman road."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131386156"
   },
   {
     "id": "pleiades:769901808",
@@ -15568,13 +15757,13 @@
   {
     "id": "pleiades:580782181",
     "type": "villa",
-    "name": "Villa Romana Baláca",
+    "name": "Villa Romana Bal\u00e1ca",
     "lat": 47.04516746047404,
     "lng": 17.888645950870735,
     "source": "Pleiades",
     "props": {
-      "description": "The site of a Roman villa that was discovered in 1904 in the Balácapuszta field of Vámos village in western Hungary.",
-      "ancientName": "Balácapusztai római villagazdaság"
+      "description": "The site of a Roman villa that was discovered in 1904 in the Bal\u00e1capuszta field of V\u00e1mos village in western Hungary.",
+      "ancientName": "Bal\u00e1capusztai r\u00f3mai villagazdas\u00e1g"
     },
     "category": "habitation"
   },
@@ -15622,14 +15811,14 @@
   {
     "id": "pleiades:379116903",
     "type": "townhouse",
-    "name": "Casa dell’ Amore punito",
+    "name": "Casa dell\u2019 Amore punito",
     "lat": 40.75077890053062,
     "lng": 14.485725573464023,
     "qid": "Q27686668: House of the Punished Eros",
     "source": "Pleiades",
     "props": {
       "description": "A domus excavated in 1844 and 1867.",
-      "ancientName": "Casa dell’ Amore punito"
+      "ancientName": "Casa dell\u2019 Amore punito"
     },
     "category": "habitation"
   },
@@ -15715,12 +15904,12 @@
   {
     "id": "pleiades:157928",
     "type": "villa",
-    "name": "‘Stablo’",
+    "name": "\u2018Stablo\u2019",
     "lat": 43.943818,
     "lng": 6.171033,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 16 B2 ‘Stablo’",
+      "description": "An ancient place, cited: BAtlas 16 B2 \u2018Stablo\u2019",
       "ancientName": "Stablo"
     },
     "category": "habitation"
@@ -15742,11 +15931,11 @@
   {
     "id": "pleiades:157938",
     "type": "villa",
-    "name": "La Trinité",
+    "name": "La Trinit\u00e9",
     "lat": 43.57211,
     "lng": 6.552252,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 16 C2 La Trinité" },
+    "props": { "description": "An ancient place, cited: BAtlas 16 C2 La Trinit\u00e9" },
     "category": "habitation"
   },
   {
@@ -15827,12 +16016,12 @@
   {
     "id": "pleiades:167741",
     "type": "villa",
-    "name": "Donzère",
+    "name": "Donz\u00e8re",
     "lat": 44.444358,
     "lng": 4.709302,
     "qid": { "label": "", "qid": "Q817843", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 17 D5 Donzère" },
+    "props": { "description": "An ancient place, cited: BAtlas 17 D5 Donz\u00e8re" },
     "category": "habitation"
   },
   {
@@ -15890,7 +16079,7 @@
     "qid": { "label": "", "qid": "Q1062890", "via": "vici-q_pleiades" },
     "source": "Pleiades",
     "props": {
-      "description": "Remains of a series of structures dating to the first 3 centuries of the common era -- including a probable villa -- were excavated in 1989 at a village called Perron in the French commune of Saint-Sauveur, on the north bank of the Isère river."
+      "description": "Remains of a series of structures dating to the first 3 centuries of the common era -- including a probable villa -- were excavated in 1989 at a village called Perron in the French commune of Saint-Sauveur, on the north bank of the Is\u00e8re river."
     },
     "category": "habitation"
   },
@@ -15904,7 +16093,8 @@
     "props": {
       "description": "The remains of a Roman villa dating to the first century CE were discovered in the Botzdorf district of the city of Bornheim in the Rhein-Sieg district of Germany in 2002. It is also referred to as the \"Villa Fortuna\"."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q15843466"
   },
   {
     "id": "pleiades:187106386",
@@ -15916,7 +16106,8 @@
     "props": {
       "description": "A Roman villa located north of Ewefields Farm was partially excavated in the 1990s at Chesterton, United Kingdom."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17674963"
   },
   {
     "id": "pleiades:756480383",
@@ -15929,7 +16120,8 @@
       "description": "A domus at Herculaneum that occupies a large area in the northern section of the insula.",
       "ancientName": "Casa del Bicentenario"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16537513"
   },
   {
     "id": "pleiades:491536",
@@ -15954,11 +16146,11 @@
   {
     "id": "pleiades:491734",
     "type": "villa",
-    "name": "Sušica",
+    "name": "Su\u0161ica",
     "lat": 41.43871,
     "lng": 22.849551,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 50 C2 Sušica" },
+    "props": { "description": "An ancient place, cited: BAtlas 50 C2 Su\u0161ica" },
     "category": "habitation"
   },
   {
@@ -15969,7 +16161,8 @@
     "lng": 26.10665044034936,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 51 G2 Armira" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1892609"
   },
   {
     "id": "pleiades:202079426",
@@ -15979,7 +16172,8 @@
     "lng": 25.2071398,
     "source": "Pleiades",
     "props": { "description": "A Bronze Age house at Amnisos, Crete." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q57625036"
   },
   {
     "id": "pleiades:378639806",
@@ -16122,7 +16316,8 @@
     "lng": -9.464054725664731,
     "source": "Pleiades",
     "props": { "description": "The remains of a fortified Roman villa." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q7362327"
   },
   {
     "id": "pleiades:214502051",
@@ -16135,7 +16330,8 @@
       "description": "A Roman \"villa rustica\" occupied from ca. 80 - 240 CE, located in the Innviertel region, northeast of the Austrian town of Altheim, village of Weirading (Kiriberg district). This is one of three such sites in the general vicinity of Altheim.",
       "ancientName": "Villa rustica of Altheim-Weirading"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2525679"
   },
   {
     "id": "pleiades:371443773",
@@ -16145,7 +16341,8 @@
     "lng": 15.78584789290621,
     "source": "Pleiades",
     "props": { "description": "An imperial Roman villa located near Potenza." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q87769174"
   },
   {
     "id": "pleiades:213761155",
@@ -16186,7 +16383,8 @@
       "description": "A large villa rustica inhabited from ca. 100 B.C. to A.D. 500, located near Montelupo Fiorentino in the mid-Arno Valley of northern Tuscany, approximately twenty km west of Florence.",
       "ancientName": "Villa del Vergigno"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q87441002"
   },
   {
     "id": "pleiades:584868519",
@@ -16196,7 +16394,8 @@
     "lng": 12.086546785197884,
     "source": "Pleiades",
     "props": { "description": "An Imperial maritime villa located in Ladispoli, Italy." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140238729"
   },
   {
     "id": "pleiades:767191138",
@@ -16232,7 +16431,8 @@
     "props": {
       "description": "A Roman villa excavated in the late 1880s and dating from the late first century CE to the late second century at Boxted, Upchurch, United Kingdom"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17647286"
   },
   {
     "id": "pleiades:441917860",
@@ -16244,7 +16444,8 @@
     "props": {
       "description": "A Roman villa complex near Dartford, dating from the first to fourth centuries CE. The archaeological remains of the villa, as well as other finds dating from the paleolithic to modern times, were found in the area now occupied by and surrounding the Ebbsfleet International railway station."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q138708581"
   },
   {
     "id": "pleiades:989143587",
@@ -16262,12 +16463,12 @@
   {
     "id": "pleiades:296648276",
     "type": "villa",
-    "name": "Vižula Maritime Villa",
+    "name": "Vi\u017eula Maritime Villa",
     "lat": 44.8182983,
     "lng": 13.9217997,
     "source": "Pleiades",
     "props": {
-      "description": "An extensive maritime villa of the Roman period occupied the western and southern coasts of the Vižula peninsula, located near modern Medulin in Croatia."
+      "description": "An extensive maritime villa of the Roman period occupied the western and southern coasts of the Vi\u017eula peninsula, located near modern Medulin in Croatia."
     },
     "category": "habitation"
   },
@@ -16294,7 +16495,7 @@
     "qid": "Q6162509: Villa romana de Noheda",
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa richly appointed with polychrome mosaics located 18 kilometers north of the city of Cuenca, near Noheda (Villar de Domingo García).",
+      "description": "A Roman villa richly appointed with polychrome mosaics located 18 kilometers north of the city of Cuenca, near Noheda (Villar de Domingo Garc\u00eda).",
       "ancientName": "Villa romana de Noheda"
     },
     "category": "habitation"
@@ -16567,7 +16768,7 @@
     "lng": -0.18562,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 E2 no. 7 (Labastide d’Armagnac)",
+      "description": "An ancient place, cited: BAtlas 25 E2 no. 7 (Labastide d\u2019Armagnac)",
       "ancientName": "Labastide-d'Armagnac"
     },
     "category": "habitation"
@@ -16579,7 +16780,7 @@
     "lat": 43.931557,
     "lng": -0.238932,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 8 (Le Frèche)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 8 (Le Fr\u00e8che)" },
     "category": "habitation"
   },
   {
@@ -16633,7 +16834,7 @@
     "lat": 43.732102,
     "lng": -0.50632,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 13 (Montsoué)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 13 (Montsou\u00e9)" },
     "category": "habitation"
   },
   {
@@ -16663,7 +16864,9 @@
     "lat": 43.672714,
     "lng": -0.181679,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 16 (Gée-Rivière)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 25 E2 no. 16 (G\u00e9e-Rivi\u00e8re)"
+    },
     "category": "habitation"
   },
   {
@@ -16719,8 +16922,8 @@
     "lng": -0.390892,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 E2 no. 21 (Jurançon)",
-      "ancientName": "Jurançon"
+      "description": "An ancient place, cited: BAtlas 25 E2 no. 21 (Juran\u00e7on)",
+      "ancientName": "Juran\u00e7on"
     },
     "category": "habitation"
   },
@@ -16794,7 +16997,7 @@
     "lng": 0.558733,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 F1 no. 28 (La Gleyzette, Cm. St-Mézard)"
+      "description": "An ancient place, cited: BAtlas 25 F1 no. 28 (La Gleyzette, Cm. St-M\u00e9zard)"
     },
     "category": "habitation"
   },
@@ -16819,7 +17022,8 @@
       "description": "An extensive villa, active between the first and sixth centuries of the modern era, located at modern Lamarque in the French commune of Castelculier (Nouvelle-Aquitaine).",
       "ancientName": "Castelculier"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3559074"
   },
   {
     "id": "pleiades:249937",
@@ -16877,7 +17081,7 @@
     "lat": 43.5,
     "lng": 0.5,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 35 (Glésia)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 35 (Gl\u00e9sia)" },
     "category": "habitation"
   },
   {
@@ -16930,7 +17134,7 @@
     "lng": 0.313369,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 F2 no. 40 (La Grange, Cm. Valence-sur-Baïse)"
+      "description": "An ancient place, cited: BAtlas 25 F2 no. 40 (La Grange, Cm. Valence-sur-Ba\u00efse)"
     },
     "category": "habitation"
   },
@@ -16942,7 +17146,7 @@
     "lng": 0.11314,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 F2 no. 41 (Cieutat, Cm. d’Eauze)"
+      "description": "An ancient place, cited: BAtlas 25 F2 no. 41 (Cieutat, Cm. d\u2019Eauze)"
     },
     "category": "habitation"
   },
@@ -16963,7 +17167,7 @@
     "lat": 43.926502,
     "lng": 0.728542,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 43 (L’Isle-Bouzon)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 43 (L\u2019Isle-Bouzon)" },
     "category": "habitation"
   },
   {
@@ -17028,7 +17232,9 @@
     "lat": 43.777797,
     "lng": 1.966431,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 G2 no. 50 (Valéry, Cm. Busque)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 25 G2 no. 50 (Val\u00e9ry, Cm. Busque)"
+    },
     "category": "habitation"
   },
   {
@@ -17051,7 +17257,7 @@
     "lng": 2.378099,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 H2 no. 52 (Le Trou, Cm. d’Ambialet)"
+      "description": "An ancient place, cited: BAtlas 25 H2 no. 52 (Le Trou, Cm. d\u2019Ambialet)"
     },
     "category": "habitation"
   },
@@ -17095,7 +17301,7 @@
     "lng": 1.887718,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 G2 no. 58 (St-Félix-Lauraguais)"
+      "description": "An ancient place, cited: BAtlas 25 G2 no. 58 (St-F\u00e9lix-Lauraguais)"
     },
     "category": "habitation"
   },
@@ -17107,7 +17313,7 @@
     "lng": 1.807415,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 G2 no. 59 (Cantarane, Cm. d’Avignonet-Lauragais)"
+      "description": "An ancient place, cited: BAtlas 25 G2 no. 59 (Cantarane, Cm. d\u2019Avignonet-Lauragais)"
     },
     "category": "habitation"
   },
@@ -17140,7 +17346,7 @@
     "lat": 43.405329,
     "lng": 1.456785,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 G2 no. 62 (Grépiac)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 G2 no. 62 (Gr\u00e9piac)" },
     "category": "habitation"
   },
   {
@@ -17173,8 +17379,8 @@
     "lng": 1.346575,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 G2 no. 65 (Lézat-sur-Lèze)",
-      "ancientName": "Lézat-sur-Lèze"
+      "description": "An ancient place, cited: BAtlas 25 G2 no. 65 (L\u00e9zat-sur-L\u00e8ze)",
+      "ancientName": "L\u00e9zat-sur-L\u00e8ze"
     },
     "category": "habitation"
   },
@@ -17218,7 +17424,7 @@
     "lat": 43.510286,
     "lng": 0.601422,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 69 (Ornézan)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 69 (Orn\u00e9zan)" },
     "category": "habitation"
   },
   {
@@ -17260,7 +17466,7 @@
     "lat": 43.558261,
     "lng": 0.411842,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 73 (Mouchès)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 73 (Mouch\u00e8s)" },
     "category": "habitation"
   },
   {
@@ -17270,7 +17476,9 @@
     "lat": 43.586765,
     "lng": 0.413096,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 74 (L’Isle-de-Noé)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 25 F2 no. 74 (L\u2019Isle-de-No\u00e9)"
+    },
     "category": "habitation"
   },
   {
@@ -17280,7 +17488,7 @@
     "lat": 43.592139,
     "lng": 0.537188,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 75 (Lasséran)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 75 (Lass\u00e9ran)" },
     "category": "habitation"
   },
   {
@@ -17301,7 +17509,7 @@
     "lng": 0.786516,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 F2 no. 77 (La Toulette, Cm. d’Aubiet)"
+      "description": "An ancient place, cited: BAtlas 25 F2 no. 77 (La Toulette, Cm. d\u2019Aubiet)"
     },
     "category": "habitation"
   },
@@ -17349,7 +17557,7 @@
     "lat": 43.494771,
     "lng": 0.088097,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 81 (Auriébat)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 81 (Auri\u00e9bat)" },
     "category": "habitation"
   },
   {
@@ -17379,7 +17587,7 @@
     "lat": 43.410117,
     "lng": -0.147494,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 84 (Lalonquiére)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 E2 no. 84 (Lalonqui\u00e9re)" },
     "category": "habitation"
   },
   {
@@ -17471,7 +17679,7 @@
     "lat": 43.111925,
     "lng": 0.933083,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 92 (Montsaunès)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 92 (Montsaun\u00e8s)" },
     "category": "habitation"
   },
   {
@@ -17481,7 +17689,7 @@
     "lat": 43.132754,
     "lng": 0.973493,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 93 (Mazères)" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 F2 no. 93 (Maz\u00e8res)" },
     "category": "habitation"
   },
   {
@@ -17547,7 +17755,7 @@
     "lng": 1.388013,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 G2 no. 99 (Le Goutil, Cm. La Bastide-de-Sérou)"
+      "description": "An ancient place, cited: BAtlas 25 G2 no. 99 (Le Goutil, Cm. La Bastide-de-S\u00e9rou)"
     },
     "category": "habitation"
   },
@@ -17559,20 +17767,20 @@
     "lng": 1.5,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 G3 no. 100 (Castelminier, Cm. d’Aulus-les-Bains)"
+      "description": "An ancient place, cited: BAtlas 25 G3 no. 100 (Castelminier, Cm. d\u2019Aulus-les-Bains)"
     },
     "category": "habitation"
   },
   {
     "id": "pleiades:250007",
     "type": "villa",
-    "name": "Olivet d’en Pujol",
+    "name": "Olivet d\u2019en Pujol",
     "lat": 42.122417,
     "lng": 3.058078,
     "source": "Pleiades",
     "props": {
-      "description": "An agricultural storage and processing facility including a large number of dolia, likely associated with a Roman villa or suburban fundus, Olivet d'en Pujol is located in the modern municipality of Vilademat, which is in the Catalonian comarca of Alt Empordà.",
-      "ancientName": "Olivet d’en Pujol"
+      "description": "An agricultural storage and processing facility including a large number of dolia, likely associated with a Roman villa or suburban fundus, Olivet d'en Pujol is located in the modern municipality of Vilademat, which is in the Catalonian comarca of Alt Empord\u00e0.",
+      "ancientName": "Olivet d\u2019en Pujol"
     },
     "category": "habitation"
   },
@@ -17596,7 +17804,7 @@
     "lng": 2.74130880809108,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman and Visigothic villa located in the modern town of Camós in Girona province, Cataluña, Spain."
+      "description": "A Roman and Visigothic villa located in the modern town of Cam\u00f3s in Girona province, Catalu\u00f1a, Spain."
     },
     "category": "habitation"
   },
@@ -17608,7 +17816,7 @@
     "lng": 2.5,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 H3 no. 104 (Pla de l’ Horta (Sarrià de Ter))"
+      "description": "An ancient place, cited: BAtlas 25 H3 no. 104 (Pla de l\u2019 Horta (Sarri\u00e0 de Ter))"
     },
     "category": "habitation"
   },
@@ -17643,8 +17851,8 @@
     "qid": { "label": "", "qid": "Q4893109", "via": "vici-q_pleiades" },
     "source": "Pleiades",
     "props": {
-      "description": "Also known as Torre Llauder, this Roman villa is located at modern Mataró, northeast of Barcelona on Spain's Mediterranean coast.",
-      "ancientName": "Vil·la Romana de Torre Llauder, Torre Llauder (Vil·la Romana de)"
+      "description": "Also known as Torre Llauder, this Roman villa is located at modern Matar\u00f3, northeast of Barcelona on Spain's Mediterranean coast.",
+      "ancientName": "Vil\u00b7la Romana de Torre Llauder, Torre Llauder (Vil\u00b7la Romana de)"
     },
     "category": "habitation"
   },
@@ -17656,7 +17864,7 @@
     "lng": 2.257569,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 H4 no. 108 (Can Sentromà (Tiana))"
+      "description": "An ancient place, cited: BAtlas 25 H4 no. 108 (Can Sentrom\u00e0 (Tiana))"
     },
     "category": "habitation"
   },
@@ -17692,9 +17900,10 @@
     "lng": 1.2261997920196364,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa located in the municipality of Constantí, in Catalonia. Among its finds are a dome mosaic with a Christian theme that numbers among the earliest known examples in the Roman world (4th century AD.)"
+      "description": "A Roman villa located in the municipality of Constant\u00ed, in Catalonia. Among its finds are a dome mosaic with a Christian theme that numbers among the earliest known examples in the Roman world (4th century AD.)"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1053521"
   },
   {
     "id": "pleiades:250018",
@@ -17702,7 +17911,7 @@
     "name": "Untitled",
     "lat": 41.77501314829119,
     "lng": 0.6195152424028622,
-    "qid": "Q47154917: Vil·la romana del Romeral",
+    "qid": "Q47154917: Vil\u00b7la romana del Romeral",
     "source": "Pleiades",
     "props": {
       "description": "An ancient place, cited: BAtlas 25 F4 no. 112 (El Romeral (Albesa))"
@@ -17712,12 +17921,12 @@
   {
     "id": "pleiades:250019",
     "type": "villa",
-    "name": "Ermita de Nuestra Señora del Socorro Montecillas (Coscojuela de Fantosa)",
+    "name": "Ermita de Nuestra Se\u00f1ora del Socorro Montecillas (Coscojuela de Fantosa)",
     "lat": 42.136957,
     "lng": 0.165128,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 F3 no. 113 (Ermita de Nuestra Señora del Socorro Montecillas (Coscojuela de Fantosa))",
+      "description": "An ancient place, cited: BAtlas 25 F3 no. 113 (Ermita de Nuestra Se\u00f1ora del Socorro Montecillas (Coscojuela de Fantosa))",
       "ancientName": "113"
     },
     "category": "habitation"
@@ -17742,7 +17951,8 @@
     "props": {
       "description": "A Roman villa rustica located on the river Cinca that is richly adorned with mosaic pavements."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2525114"
   },
   {
     "id": "pleiades:250023",
@@ -17751,7 +17961,9 @@
     "lat": 41.5,
     "lng": -0.5,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 E4 no. 117 (Dehesa de Baños)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 25 E4 no. 117 (Dehesa de Ba\u00f1os)"
+    },
     "category": "habitation"
   },
   {
@@ -17762,7 +17974,7 @@
     "lng": -0.5,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 E4 no. 118 (Dehesa de Baños (Chiprana))"
+      "description": "An ancient place, cited: BAtlas 25 E4 no. 118 (Dehesa de Ba\u00f1os (Chiprana))"
     },
     "category": "habitation"
   },
@@ -17786,7 +17998,7 @@
     "lng": -1.0327015,
     "source": "Pleiades",
     "props": {
-      "description": "In the 1960s, agricultural activity unearthed evidence of a Roman-era villa at modern Rienda in Spain, which was then administratively associated with the municipality of La Artieda de Aragón (it is now part of the Sigüés municipality in Zaragosa province). Subsequent excavation revealed a large courtyard and other structures, as well as a number of mosaics."
+      "description": "In the 1960s, agricultural activity unearthed evidence of a Roman-era villa at modern Rienda in Spain, which was then administratively associated with the municipality of La Artieda de Arag\u00f3n (it is now part of the Sig\u00fc\u00e9s municipality in Zaragosa province). Subsequent excavation revealed a large courtyard and other structures, as well as a number of mosaics."
     },
     "category": "habitation"
   },
@@ -17796,10 +18008,10 @@
     "name": "Villa at Foz de Lumbier",
     "lat": 42.62225,
     "lng": -1.30352,
-    "qid": "Q60617274: Roman villa of Liédena",
+    "qid": "Q60617274: Roman villa of Li\u00e9dena",
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 D3 no. 121 (Foz de Lumbier (Liédena))"
+      "description": "An ancient place, cited: BAtlas 25 D3 no. 121 (Foz de Lumbier (Li\u00e9dena))"
     },
     "category": "habitation"
   },
@@ -17823,7 +18035,7 @@
     "lng": -2.985349,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 C3 no. 124 (Cabriana (Comunión))"
+      "description": "An ancient place, cited: BAtlas 25 C3 no. 124 (Cabriana (Comuni\u00f3n))"
     },
     "category": "habitation"
   },
@@ -17835,7 +18047,7 @@
     "lng": -3.418966,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 B3 no. 125 (Montes de la Peña (Salinas de Rosio))"
+      "description": "An ancient place, cited: BAtlas 25 B3 no. 125 (Montes de la Pe\u00f1a (Salinas de Rosio))"
     },
     "category": "habitation"
   },
@@ -17847,7 +18059,7 @@
     "lng": -3.0512695,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa located at modern Ucero in Spain's Soria province (Castilla y León)."
+      "description": "A Roman villa located at modern Ucero in Spain's Soria province (Castilla y Le\u00f3n)."
     },
     "category": "habitation"
   },
@@ -17861,7 +18073,8 @@
     "props": {
       "description": "A Roman villa about 200 meters south of the center of the modern village of Santervas del Burgo and about 100 meters south of the left bank of the river Cejos. Included in the Barrington Atlas (25 B4 no. 129) under the toponym \"Los Villares (Fuentearmegil)\"."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q69424698"
   },
   {
     "id": "pleiades:250036",
@@ -17883,7 +18096,7 @@
     "lng": -2.5,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 C4 no. 131 (Las Quintanas (Ríoseco de Soria))"
+      "description": "An ancient place, cited: BAtlas 25 C4 no. 131 (Las Quintanas (R\u00edoseco de Soria))"
     },
     "category": "habitation"
   },
@@ -17907,7 +18120,7 @@
     "lng": -3.5,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 B4 no. 133 (Tras Las Huertas (Vildé))"
+      "description": "An ancient place, cited: BAtlas 25 B4 no. 133 (Tras Las Huertas (Vild\u00e9))"
     },
     "category": "habitation"
   },
@@ -17919,7 +18132,7 @@
     "lng": -2.6327963,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 25 C5 no. 137 (Gárgoles de Arriba (Cifuentes))"
+      "description": "An ancient place, cited: BAtlas 25 C5 no. 137 (G\u00e1rgoles de Arriba (Cifuentes))"
     },
     "category": "habitation"
   },
@@ -17960,7 +18173,8 @@
       "description": "The so-called \"Villa Arianna\" at Stabiae is typically considered one of the earliest villas at the site and is often dated to the second century B.C.",
       "ancientName": "Villa Arianna"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q27998481"
   },
   {
     "id": "pleiades:635629587",
@@ -17973,7 +18187,8 @@
       "description": "The Villa of Publius Fannius Synistor was built after the middle of the first century B.C. and was ultimately destroyed by the eruption of Mt. Vesuvius. The villa may have been owned by P. Fannius Synistor and/or L. Herennius Florus.",
       "ancientName": "Villa of Publius Fannius Synistor"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q64159914"
   },
   {
     "id": "pleiades:523755189",
@@ -17985,7 +18200,8 @@
     "props": {
       "description": "The Villa of Numerius Popidius Florus dates to the early first century B.C. It was modified several times before its destruction in A.D. 79."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140443009"
   },
   {
     "id": "pleiades:523755190",
@@ -17998,7 +18214,8 @@
       "description": "A villa rustica at Boscoreale discovered in 1977. This is the only villa site currently visible and has been subjected to more modern excavation and analysis.",
       "ancientName": "Villa Regina"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q25511450"
   },
   {
     "id": "pleiades:523755191",
@@ -18010,7 +18227,8 @@
     "props": {
       "description": "A Roman villa at Boscoreale discovered in 1986 and only partially excavated."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q104787743"
   },
   {
     "id": "pleiades:523755192",
@@ -18035,7 +18253,8 @@
       "description": "The Selvicciola Roman villa is the site of a vast Roman rural complex as well as a Longobard cemetery.",
       "ancientName": "Villa romana della Selvicciola"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133571425"
   },
   {
     "id": "pleiades:876756581",
@@ -18113,12 +18332,12 @@
   {
     "id": "pleiades:177535",
     "type": "villa",
-    "name": "Hölstein",
+    "name": "H\u00f6lstein",
     "lat": 47.42779,
     "lng": 7.771403,
     "qid": { "label": "", "qid": "Q69020", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 18 E2 Hölstein" },
+    "props": { "description": "An ancient place, cited: BAtlas 18 E2 H\u00f6lstein" },
     "category": "habitation"
   },
   {
@@ -18137,11 +18356,11 @@
   {
     "id": "pleiades:177571",
     "type": "villa",
-    "name": "Maizières",
+    "name": "Maizi\u00e8res",
     "lat": 47.828354,
     "lng": 5.610849,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 18 C2 Maizières" },
+    "props": { "description": "An ancient place, cited: BAtlas 18 C2 Maizi\u00e8res" },
     "category": "habitation"
   },
   {
@@ -18175,7 +18394,7 @@
     "source": "Pleiades",
     "props": {
       "description": "The site of a palatial Roman villa dating to the first and second centuries A.D. Discovered in 1841, the site is noted for its extensive in situ mosaic pavements.",
-      "ancientName": "Gallo-Roman villa of Orbe-Boscéaz"
+      "ancientName": "Gallo-Roman villa of Orbe-Bosc\u00e9az"
     },
     "category": "habitation"
   },
@@ -18198,9 +18417,10 @@
     "source": "Pleiades",
     "props": {
       "description": "A \"villa rustica\" located at Seeb is situated near the village of Winkel, canton of Zurich, Switzerland. By the first century CE, the villa included a thermal bath.",
-      "ancientName": "Römischer Gutshof Seeb"
+      "ancientName": "R\u00f6mischer Gutshof Seeb"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q16919292"
   },
   {
     "id": "pleiades:177669",
@@ -18220,7 +18440,8 @@
     "lng": 8.580514,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 19 A2 Kloten" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17041697"
   },
   {
     "id": "pleiades:67912717",
@@ -18509,7 +18730,8 @@
       "description": "The House of Lucius Caecilius Jucundus in Pompeii takes its name from one of its latter-day owners, the banker Lucius Caecilius Iucundus who may have perished in the earthquake of A.D. 62.",
       "ancientName": "V.1.26"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3661299"
   },
   {
     "id": "pleiades:109944633",
@@ -18533,7 +18755,7 @@
     "qid": { "label": "House of Pinarius Cerialis e Cassia (III.4.B)", "qid": "Q27685787" },
     "source": "Pleiades",
     "props": {
-      "description": "The House of Pinarius Cerialis and Cassia or Casa dell’orefice or Casa di Ifigenia (III, 4, b).",
+      "description": "The House of Pinarius Cerialis and Cassia or Casa dell\u2019orefice or Casa di Ifigenia (III, 4, b).",
       "ancientName": "House of Pinarius Cerialis and Cassia"
     },
     "category": "habitation"
@@ -18608,7 +18830,8 @@
     "lng": 8.742815,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 48 A2 Ploaghe" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q103189807"
   },
   {
     "id": "pleiades:472001",
@@ -18669,7 +18892,8 @@
       "description": "A maritime villa of Roman imperial date, located on the northwest shore of the Porto Conte bay in western Sardinia. Use of the site for various purposes continued into the 8th century of the modern era.",
       "ancientName": "Sant'Imbenia"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q37283295"
   },
   {
     "id": "pleiades:472020",
@@ -18721,7 +18945,8 @@
       "description": "Remains of a late Roman villa with mosaics have been excavated at a site named San Cromazio in the municipal territory of modern Villaspeciosa on the island of Sardinia.",
       "ancientName": "Villaspeciosa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q135337965"
   },
   {
     "id": "pleiades:581136584",
@@ -18731,7 +18956,8 @@
     "lng": -5.753638766980903,
     "source": "Pleiades",
     "props": { "description": "A Roman villa." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q9093964"
   },
   {
     "id": "pleiades:237325182",
@@ -18765,7 +18991,7 @@
     "lng": 15.501544749999999,
     "source": "Pleiades",
     "props": {
-      "description": "At Sant'Annèa are the remains of an extensive Roman villa located near the port of Gargano, about 3 km south of Lake Lesina. The villa probably originates in the late republican period and flourishes in the third and fourth centuries CE."
+      "description": "At Sant'Ann\u00e8a are the remains of an extensive Roman villa located near the port of Gargano, about 3 km south of Lake Lesina. The villa probably originates in the late republican period and flourishes in the third and fourth centuries CE."
     },
     "category": "habitation"
   },
@@ -18804,7 +19030,8 @@
     "props": {
       "description": "A villa at the Capo di Massa that has frequently been associated with Pollius Felix, a magistrate from Puteoli."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q69318795"
   },
   {
     "id": "pleiades:634179974",
@@ -18850,14 +19077,15 @@
   {
     "id": "pleiades:363525448",
     "type": "villa",
-    "name": "Fórnea Roman villa",
+    "name": "F\u00f3rnea Roman villa",
     "lat": 40.33143105030358,
     "lng": -7.355120411960035,
     "source": "Pleiades",
     "props": {
       "description": "An imperial villa, occupied between the second and fourth centuries AD."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q70106190"
   },
   {
     "id": "pleiades:191387727",
@@ -18917,7 +19145,8 @@
       "description": "The remains of the Roman villa located in via Michelangelo Tilli are located close to the Aniene. The late republican villa remained in use until the fourth century.",
       "ancientName": "Villa di via Michelangelo Tilli"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130629418"
   },
   {
     "id": "pleiades:128421",
@@ -19293,12 +19522,12 @@
   {
     "id": "pleiades:138413",
     "type": "villa",
-    "name": "Larçay",
+    "name": "Lar\u00e7ay",
     "lat": 47.368148,
     "lng": 0.7780065,
     "qid": { "label": "", "qid": "Q1171300", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 F1 Larçay" },
+    "props": { "description": "An ancient place, cited: BAtlas 14 F1 Lar\u00e7ay" },
     "category": "habitation"
   },
   {
@@ -19590,7 +19819,7 @@
     "type": "villa",
     "name": "Suedas",
     "lat": 47.13702,
-    "lng": -0.000044,
+    "lng": -4.4e-5,
     "source": "Pleiades",
     "props": {
       "description": "An ancient place, cited: BAtlas 14 F1 Suedas",
@@ -19622,20 +19851,22 @@
       "description": "Also known as the Villa Tuscolana, this structure was built in the 16th century on the site of a terraced Roman villa. The site occupies one of the most commanding positions on the slope above what is now Frascati, placing it in the environs of ancient Tusculum.",
       "ancientName": "Villa Rufinella"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3558780"
   },
   {
     "id": "pleiades:179179194",
     "type": "villa",
-    "name": "Römische Villa",
+    "name": "R\u00f6mische Villa",
     "lat": 48.07595195557017,
     "lng": 16.769675830407028,
     "source": "Pleiades",
     "props": {
-      "description": "A 'villa rustica' located to the west of Höflein, Austria, on the Danube frontier.",
-      "ancientName": "Villa rustica (Höflein)"
+      "description": "A 'villa rustica' located to the west of H\u00f6flein, Austria, on the Danube frontier.",
+      "ancientName": "Villa rustica (H\u00f6flein)"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q123860107"
   },
   {
     "id": "pleiades:62842860",
@@ -19647,7 +19878,8 @@
     "props": {
       "description": "A Roman villa north-east of Great Lemhill Farm rediscovered in 1937. It remains mostly unexcavated."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17640837"
   },
   {
     "id": "pleiades:875950353",
@@ -19659,7 +19891,8 @@
     "props": {
       "description": "Remains of a Romano-British corridor villa at Little Milton, some 8 miles south-east of Oxford, observed via cropmarks."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q121865308"
   },
   {
     "id": "pleiades:255948",
@@ -19800,7 +20033,8 @@
       "description": "A domus at Pompeii located on Via Nola in insula 10 of Regio IX. Partial excavation at the site occurred in 1888; scientific excavations resumed in 2023. Epigraphic evidence suggests that one of the domus' owners was connected to the duovir Aulus Rustius Verus. In February 2025, a mid-first-century BCE room with a painted Dionysiac cycle was discovered.",
       "ancientName": "House of Thiasus"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133270544"
   },
   {
     "id": "pleiades:12576385",
@@ -19819,7 +20053,7 @@
   {
     "id": "pleiades:835076166",
     "type": "villa",
-    "name": "ville d’Auxerre",
+    "name": "ville d\u2019Auxerre",
     "lat": 47.7845727,
     "lng": 3.6071447,
     "source": "Pleiades",
@@ -19836,10 +20070,11 @@
     "lng": 14.462036,
     "source": "Pleiades",
     "props": {
-      "description": "The Villa of Agrippa Postumus was discovered at Boscotrecase in 1903 on land owned by Cavaliere Ernesto Santini. Works for the Circumvesuviana railroad line brought the site to light. Excavations supervised by Matteo Della Corte were carried out from 1903 to 1905. In 1906, however, a new eruption of Mount Vesuvius reburied the site. Della Corte published a plan of the excavated portion of the villa in the Notizie degli scavi di antichità.",
+      "description": "The Villa of Agrippa Postumus was discovered at Boscotrecase in 1903 on land owned by Cavaliere Ernesto Santini. Works for the Circumvesuviana railroad line brought the site to light. Excavations supervised by Matteo Della Corte were carried out from 1903 to 1905. In 1906, however, a new eruption of Mount Vesuvius reburied the site. Della Corte published a plan of the excavated portion of the villa in the Notizie degli scavi di antichit\u00e0.",
       "ancientName": "Villa of Agrippa Postumus"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q121922430"
   },
   {
     "id": "pleiades:217816181",
@@ -19852,12 +20087,13 @@
       "description": "A Roman \"villa rustica\" with an olive-oil press (torcularium, hence \"Torchio\") was discovered in 2006.",
       "ancientName": "Villa romana del Torchio"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q134974881"
   },
   {
     "id": "pleiades:972371930",
     "type": "villa",
-    "name": "Villa El Soldán (The Sultan)",
+    "name": "Villa El Sold\u00e1n (The Sultan)",
     "lat": 42.453889,
     "lng": -6.240556,
     "source": "Pleiades",
@@ -19901,7 +20137,8 @@
       "description": "A villa maritima of the first century B.C.",
       "ancientName": "Villa Romana di Bocca di Magra"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q25403654"
   },
   {
     "id": "pleiades:413107853",
@@ -19928,7 +20165,8 @@
       "description": "The site of a Romano-British villa of the winged corridor type, probably late 3rd century CE in date.",
       "ancientName": "Downend Roman villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q100377477"
   },
   {
     "id": "pleiades:978717380",
@@ -19965,7 +20203,8 @@
     "props": {
       "description": "Site of a late third or fourth century winged corridor-type villa, first excavated in 1899."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q15133915"
   },
   {
     "id": "pleiades:50794109",
@@ -20014,7 +20253,8 @@
       "description": "Site of a Romano-British villa of courtyard type.",
       "ancientName": "Roman villa at Combe Down"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q5150756"
   },
   {
     "id": "pleiades:597847356",
@@ -20057,14 +20297,15 @@
   {
     "id": "pleiades:404080747",
     "type": "villa",
-    "name": "Roman villa at Santo André de Almoçageme",
+    "name": "Roman villa at Santo Andr\u00e9 de Almo\u00e7ageme",
     "lat": 38.80018147481037,
     "lng": -9.468062117338405,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa located in Santo André de Almoçageme, Sintra, Portugal, and occupied from the second to the sixth centuries AD."
+      "description": "A Roman villa located in Santo Andr\u00e9 de Almo\u00e7ageme, Sintra, Portugal, and occupied from the second to the sixth centuries AD."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q66814458"
   },
   {
     "id": "pleiades:431558511",
@@ -20077,7 +20318,8 @@
       "description": "The archaeological remains of a villa near Licenza, Italy, that are traditionally connected with the Latin poet Horace.",
       "ancientName": "Villa di Orazio"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012755"
   },
   {
     "id": "pleiades:325985896",
@@ -20113,12 +20355,13 @@
     "lng": 6.7959554,
     "source": "Pleiades",
     "props": { "description": "A Roman villa located near the shores of Lake Geneva." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3558921"
   },
   {
     "id": "pleiades:248232113",
     "type": "villa",
-    "name": "Mané-Vechen, Plouhinec",
+    "name": "Man\u00e9-Vechen, Plouhinec",
     "lat": 47.66832084487768,
     "lng": -3.2151567709938407,
     "source": "Pleiades",
@@ -20166,7 +20409,8 @@
       "description": "A Roman villa rustica at Boscoreale that was first discovered in 1868 by Modestino Pulzella. The villa is best known as the findspot of the so-called \"Boscoreale Treasure\". Following excavation, the remains of the villa were reinterred.",
       "ancientName": "Villa della Pisanella"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q25510660"
   },
   {
     "id": "pleiades:268123192",
@@ -20316,7 +20560,9 @@
     "lat": 47.5,
     "lng": -2.5,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 C1 no. 3 (Clis, Cm. Guérande)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 14 C1 no. 3 (Clis, Cm. Gu\u00e9rande)"
+    },
     "category": "habitation"
   },
   {
@@ -20406,7 +20652,7 @@
     "lng": 0.0697650492525145,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 11 (Brain-sur-L’Allones)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 11 (Brain-sur-L\u2019Allones)"
     },
     "category": "habitation"
   },
@@ -20418,7 +20664,7 @@
     "lng": 0.258101,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 12 (Grange-Liénard, Cm. Chinon)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 12 (Grange-Li\u00e9nard, Cm. Chinon)"
     },
     "category": "habitation"
   },
@@ -20429,7 +20675,7 @@
     "lat": 47.26098,
     "lng": 0.405787,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 F1 no. 13 (Cheillé)" },
+    "props": { "description": "An ancient place, cited: BAtlas 14 F1 no. 13 (Cheill\u00e9)" },
     "category": "habitation"
   },
   {
@@ -20452,7 +20698,7 @@
     "lng": 0.58787,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 15 (Châtigny, Cm. Fondettes)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 15 (Ch\u00e2tigny, Cm. Fondettes)"
     },
     "category": "habitation"
   },
@@ -20476,19 +20722,19 @@
     "lng": 0.56498,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 17 (Soulangé, Cm. Pouzay)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 17 (Soulang\u00e9, Cm. Pouzay)"
     },
     "category": "habitation"
   },
   {
     "id": "pleiades:140449",
     "type": "villa",
-    "name": "Cornillé, Cm. Chambourg-sur-Indre",
+    "name": "Cornill\u00e9, Cm. Chambourg-sur-Indre",
     "lat": 47.156916,
     "lng": 0.995031,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 18 (Cornillé, Cm. Chambourg-sur-Indre)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 18 (Cornill\u00e9, Cm. Chambourg-sur-Indre)"
     },
     "category": "habitation"
   },
@@ -20500,7 +20746,7 @@
     "lng": 0.817751,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 19 (Chavonnière, Cm. Véretz)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 19 (Chavonni\u00e8re, Cm. V\u00e9retz)"
     },
     "category": "habitation"
   },
@@ -20512,7 +20758,7 @@
     "lng": 0.921076,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F1 no. 20 (La Boulaye, Cm. Athée-sur-Cher)"
+      "description": "An ancient place, cited: BAtlas 14 F1 no. 20 (La Boulaye, Cm. Ath\u00e9e-sur-Cher)"
     },
     "category": "habitation"
   },
@@ -20560,7 +20806,7 @@
     "lng": 1.021393485414229,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa reported in the modern French commune of Naveil, near Vendôme."
+      "description": "A Roman villa reported in the modern French commune of Naveil, near Vend\u00f4me."
     },
     "category": "habitation"
   },
@@ -20572,7 +20818,7 @@
     "lng": 1.524223,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G1 no. 27 (Murgers, Cm. Ouzouer-le-Marché)"
+      "description": "An ancient place, cited: BAtlas 14 G1 no. 27 (Murgers, Cm. Ouzouer-le-March\u00e9)"
     },
     "category": "habitation"
   },
@@ -20640,7 +20886,7 @@
     "lng": 3.304413,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 I2 no. 33 (Vallières, Cm. Neuvy)"
+      "description": "An ancient place, cited: BAtlas 14 I2 no. 33 (Valli\u00e8res, Cm. Neuvy)"
     },
     "category": "habitation"
   },
@@ -20684,7 +20930,7 @@
     "lng": 1.914079,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G2 no. 37 (Védrenne, Cm. La-Chapelle-St-Martial)"
+      "description": "An ancient place, cited: BAtlas 14 G2 no. 37 (V\u00e9drenne, Cm. La-Chapelle-St-Martial)"
     },
     "category": "habitation"
   },
@@ -20720,7 +20966,7 @@
     "lng": 1.632788,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G2 no. 40 (Salagnac-Château, Cm. Le Grand-Bourg)"
+      "description": "An ancient place, cited: BAtlas 14 G2 no. 40 (Salagnac-Ch\u00e2teau, Cm. Le Grand-Bourg)"
     },
     "category": "habitation"
   },
@@ -20732,8 +20978,8 @@
     "lng": 1.335031,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G2 no. 41 (La Bussière-Etable, Cm. Châteauponsac)",
-      "ancientName": "La Bussière Étable, Châteauponsac"
+      "description": "An ancient place, cited: BAtlas 14 G2 no. 41 (La Bussi\u00e8re-Etable, Cm. Ch\u00e2teauponsac)",
+      "ancientName": "La Bussi\u00e8re \u00c9table, Ch\u00e2teauponsac"
     },
     "category": "habitation"
   },
@@ -20804,8 +21050,8 @@
     "lng": -0.322115,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E2 no. 47 (Chavagné)",
-      "ancientName": "Chavagné"
+      "description": "An ancient place, cited: BAtlas 14 E2 no. 47 (Chavagn\u00e9)",
+      "ancientName": "Chavagn\u00e9"
     },
     "category": "habitation"
   },
@@ -20841,19 +21087,19 @@
     "lng": -1.065903,
     "source": "Pleiades",
     "props": {
-      "description": "Archaeological excavations at Pépiron in the commune of Saint-Just, near Marennes in Charente-Maritime, France, revealed the remains of a Roman villa rustica.",
-      "ancientName": "Pépiron, Saint-Just-Luzac"
+      "description": "Archaeological excavations at P\u00e9piron in the commune of Saint-Just, near Marennes in Charente-Maritime, France, revealed the remains of a Roman villa rustica.",
+      "ancientName": "P\u00e9piron, Saint-Just-Luzac"
     },
     "category": "habitation"
   },
   {
     "id": "pleiades:140482",
     "type": "villa",
-    "name": "La Vergnée a Romegoux",
+    "name": "La Vergn\u00e9e a Romegoux",
     "lat": 45.8527156,
     "lng": -0.7964195,
     "source": "Pleiades",
-    "props": { "description": "La Vergnée a Romegoux is the site of a Gallo-Roman villa." },
+    "props": { "description": "La Vergn\u00e9e a Romegoux is the site of a Gallo-Roman villa." },
     "category": "habitation"
   },
   {
@@ -20864,7 +21110,7 @@
     "lng": -0.9512611,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E3 no. 52 (Gaillan-en-Médoc, Cm. Terrefort)"
+      "description": "An ancient place, cited: BAtlas 14 E3 no. 52 (Gaillan-en-M\u00e9doc, Cm. Terrefort)"
     },
     "category": "habitation"
   },
@@ -20876,7 +21122,7 @@
     "lng": -0.854929,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E3 no. 53 (Cissac-Médoc, Cm. Le Château de Villambis)"
+      "description": "An ancient place, cited: BAtlas 14 E3 no. 53 (Cissac-M\u00e9doc, Cm. Le Ch\u00e2teau de Villambis)"
     },
     "category": "habitation"
   },
@@ -20900,7 +21146,7 @@
     "lng": -0.835125,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E3 no. 55 (St-Yzans-du-Médoc, Cm. Bois-Carré)"
+      "description": "An ancient place, cited: BAtlas 14 E3 no. 55 (St-Yzans-du-M\u00e9doc, Cm. Bois-Carr\u00e9)"
     },
     "category": "habitation"
   },
@@ -20960,7 +21206,7 @@
     "lng": -0.3774035,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 E3 no. 60 (L’Anglade, Cm. Gimeux)"
+      "description": "An ancient place, cited: BAtlas 14 E3 no. 60 (L\u2019Anglade, Cm. Gimeux)"
     },
     "category": "habitation"
   },
@@ -21020,7 +21266,7 @@
     "lng": 0.227858,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F3 no. 65 (Le Châtelard, Cm. Puyréaux)"
+      "description": "An ancient place, cited: BAtlas 14 F3 no. 65 (Le Ch\u00e2telard, Cm. Puyr\u00e9aux)"
     },
     "category": "habitation"
   },
@@ -21066,7 +21312,9 @@
     "lat": 45.247976,
     "lng": 0.419262,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 F3 no. 69 (St-Méard-de-Drône)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 14 F3 no. 69 (St-M\u00e9ard-de-Dr\u00f4ne)"
+    },
     "category": "habitation"
   },
   {
@@ -21089,7 +21337,7 @@
     "lng": 0.832614,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F3 no. 71 (Les Couvents, Cm. L’Artimache)",
+      "description": "An ancient place, cited: BAtlas 14 F3 no. 71 (Les Couvents, Cm. L\u2019Artimache)",
       "ancientName": "Lartimache, La Chapelle-Montbrandeix"
     },
     "category": "habitation"
@@ -21102,7 +21350,7 @@
     "lng": 0.497235,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F3 no. 72 (Les Boissières, Cm. Montbron)"
+      "description": "An ancient place, cited: BAtlas 14 F3 no. 72 (Les Boissi\u00e8res, Cm. Montbron)"
     },
     "category": "habitation"
   },
@@ -21174,20 +21422,20 @@
     "lng": 1.420094,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G3 no. 78 (La Boissière, Cm. St-Paul)"
+      "description": "An ancient place, cited: BAtlas 14 G3 no. 78 (La Boissi\u00e8re, Cm. St-Paul)"
     },
     "category": "habitation"
   },
   {
     "id": "pleiades:140510",
     "type": "villa",
-    "name": "Unnamed Gallo-Roman villa (Antone, Cm. Pierre-Buffière)",
+    "name": "Unnamed Gallo-Roman villa (Antone, Cm. Pierre-Buffi\u00e8re)",
     "lat": 45.695309,
     "lng": 1.35807,
     "source": "Pleiades",
     "props": {
       "description": "A Gallo-Roman site located at the Villa d'Antone was partially excavated in 1931.",
-      "ancientName": "Pierre-Buffière"
+      "ancientName": "Pierre-Buffi\u00e8re"
     },
     "category": "habitation"
   },
@@ -21199,7 +21447,7 @@
     "lng": 1.592778,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G3 no. 80 (Le Chalard, Cm. Châteauneuf-la-Forêt)"
+      "description": "An ancient place, cited: BAtlas 14 G3 no. 80 (Le Chalard, Cm. Ch\u00e2teauneuf-la-For\u00eat)"
     },
     "category": "habitation"
   },
@@ -21211,7 +21459,7 @@
     "lng": 1.580951,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G3 no. 81 (Liégeaud, Cm. La Croisille-sur-Briance)"
+      "description": "An ancient place, cited: BAtlas 14 G3 no. 81 (Li\u00e9geaud, Cm. La Croisille-sur-Briance)"
     },
     "category": "habitation"
   },
@@ -21235,7 +21483,9 @@
     "lat": 45.0113,
     "lng": 1.088113,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 14 G3 no. 83 (St-Léon-sur-Vézère)" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 14 G3 no. 83 (St-L\u00e9on-sur-V\u00e9z\u00e8re)"
+    },
     "category": "habitation"
   },
   {
@@ -21263,13 +21513,13 @@
   {
     "id": "pleiades:140517",
     "type": "villa",
-    "name": "Mazières Gallo-Roman villa",
+    "name": "Mazi\u00e8res Gallo-Roman villa",
     "lat": 45.540120418581104,
     "lng": 1.9022343626139668,
     "source": "Pleiades",
     "props": {
       "description": "Ruins of a villa complex at modern Les Mazieres in the French commune of Gourdon-Murat with associated funerary monument, pond, and other components. The site was discovered and excavated in the 20th century. Its ancient name is unknown.",
-      "ancientName": "Les Mazières, Maziéres"
+      "ancientName": "Les Mazi\u00e8res, Mazi\u00e9res"
     },
     "category": "habitation"
   },
@@ -21281,7 +21531,7 @@
     "lng": 1.970676,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 G3 no. 87 (Prenchère, Cm. Rosiers-d’Egletons)"
+      "description": "An ancient place, cited: BAtlas 14 G3 no. 87 (Prench\u00e8re, Cm. Rosiers-d\u2019Egletons)"
     },
     "category": "habitation"
   },
@@ -21317,7 +21567,7 @@
     "lng": 2.337343,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 H3 no. 90 (La Moutte, Cm. Sérandon)"
+      "description": "An ancient place, cited: BAtlas 14 H3 no. 90 (La Moutte, Cm. S\u00e9randon)"
     },
     "category": "habitation"
   },
@@ -21329,7 +21579,7 @@
     "lng": 2.445226,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 H3 no. 91 (Vaux, Cm. St-Julien-près-Bart)"
+      "description": "An ancient place, cited: BAtlas 14 H3 no. 91 (Vaux, Cm. St-Julien-pr\u00e8s-Bart)"
     },
     "category": "habitation"
   },
@@ -21371,7 +21621,7 @@
     "lng": 2.616916,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 H4 no. 96 (Les Clapiès, Cm. Rodelle)"
+      "description": "An ancient place, cited: BAtlas 14 H4 no. 96 (Les Clapi\u00e8s, Cm. Rodelle)"
     },
     "category": "habitation"
   },
@@ -21413,13 +21663,13 @@
   {
     "id": "pleiades:140531",
     "type": "villa",
-    "name": "Unnamed Gallo-Roman villa (Granéjouls)",
+    "name": "Unnamed Gallo-Roman villa (Gran\u00e9jouls)",
     "lat": 44.355155,
     "lng": 1.426873,
     "source": "Pleiades",
     "props": {
-      "description": "A Gallo-Roman villa identified, on the basis of mosaic remains, near modern Granéjouls in the French commune of Lhospitalet.",
-      "ancientName": "Granéjouls"
+      "description": "A Gallo-Roman villa identified, on the basis of mosaic remains, near modern Gran\u00e9jouls in the French commune of Lhospitalet.",
+      "ancientName": "Gran\u00e9jouls"
     },
     "category": "habitation"
   },
@@ -21443,7 +21693,7 @@
     "lat": 44.501227,
     "lng": 0.858282,
     "source": "Pleiades",
-    "props": { "description": "A Roman villa located near Touron, Cm. Monségur." },
+    "props": { "description": "A Roman villa located near Touron, Cm. Mons\u00e9gur." },
     "category": "habitation"
   },
   {
@@ -21454,7 +21704,7 @@
     "lng": 0.875169,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F4 no. 103 (Moudoulens, Cm. Trémons)"
+      "description": "An ancient place, cited: BAtlas 14 F4 no. 103 (Moudoulens, Cm. Tr\u00e9mons)"
     },
     "category": "habitation"
   },
@@ -21488,7 +21738,7 @@
     "lng": 0.266877,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F4 no. 107 (Lamoulère, Cm. St-Pierre-de-Buzet)"
+      "description": "An ancient place, cited: BAtlas 14 F4 no. 107 (Lamoul\u00e8re, Cm. St-Pierre-de-Buzet)"
     },
     "category": "habitation"
   },
@@ -21529,7 +21779,7 @@
   {
     "id": "pleiades:140542",
     "type": "villa",
-    "name": "Monségur",
+    "name": "Mons\u00e9gur",
     "lat": 44.641937,
     "lng": 0.070585,
     "source": "Pleiades",
@@ -21554,7 +21804,7 @@
     "lng": 0.204666,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 14 F4 no. 113 (St-Martial-d’Artenset)"
+      "description": "An ancient place, cited: BAtlas 14 F4 no. 113 (St-Martial-d\u2019Artenset)"
     },
     "category": "habitation"
   },
@@ -21568,7 +21818,8 @@
     "props": {
       "description": "The archaeological site of a well preserved Gallo-Roman villa located at Mageroy in Habay-la-Vieille, Arlon."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1897297"
   },
   {
     "id": "pleiades:37482810",
@@ -21581,7 +21832,8 @@
       "description": "A well-appointed \"villa\" at Olynthus excavated in 1934, the so-called \"Villa of Good Fortune\" was considered one of the two \"type\" houses for the ancient site. It was located in the southeastern part of the city in the so-called \"villa quarter\". Its remains are no longer visible.",
       "ancientName": "Villa of Good Fortune"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q125754547"
   },
   {
     "id": "pleiades:659743014",
@@ -21593,7 +21845,8 @@
     "props": {
       "description": "A villa rustica in Rome's suburbium with evidence for domestic production in the form of vats made from peperino tuff."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q87742452"
   },
   {
     "id": "pleiades:659743015",
@@ -21632,7 +21885,7 @@
     "qid": { "label": "House of the wounded animals", "qid": "Q128828788" },
     "source": "Pleiades",
     "props": {
-      "description": "The Domus delle Bestie Ferite (“House of the Wounded Animals”) in Aquileia is an elite townhouse with at least two architectural phases: the first belonging to the Augustan period and the second to Late Antiquity. The house is well-appointed with elaborate mosaic pavements.",
+      "description": "The Domus delle Bestie Ferite (\u201cHouse of the Wounded Animals\u201d) in Aquileia is an elite townhouse with at least two architectural phases: the first belonging to the Augustan period and the second to Late Antiquity. The house is well-appointed with elaborate mosaic pavements.",
       "ancientName": "Domus delle bestie ferite"
     },
     "category": "habitation"
@@ -21648,7 +21901,8 @@
       "description": "The remains of a Roman \"Villa rustica\" located adjacent to the Sanctuary of the Madonna di Canneto.",
       "ancientName": "Villa Romana di Canneto"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q21552363"
   },
   {
     "id": "pleiades:342212957",
@@ -21689,7 +21943,8 @@
       "description": "A Romano-British villa with an octagonal bathhouse was documented at Bax Farm.",
       "ancientName": "Bax Farm Roman villa"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q136995636"
   },
   {
     "id": "pleiades:404124446",
@@ -21702,7 +21957,8 @@
       "description": "A Gallo-Roman villa.",
       "ancientName": "Villa gallo-romaine de la Coue d'Auzenat"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3558914"
   },
   {
     "id": "pleiades:557684935",
@@ -21758,17 +22014,19 @@
       "description": "A Roman villa associated with a Caius Furius Octavianus who was a member of the Senatorial order during the Severan period. The villa was identified along the via Aurelia in the locality of Massimina - Casal Lumbroso. Excavations were carried out between 2011 and 2017.",
       "ancientName": "Villa of Furius Octavianus"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133730319"
   },
   {
     "id": "pleiades:794553250",
     "type": "villa",
-    "name": "Los Casarejos, San Martín de Losa",
+    "name": "Los Casarejos, San Mart\u00edn de Losa",
     "lat": 42.96340916193333,
     "lng": -3.1882332360418206,
     "source": "Pleiades",
     "props": { "description": "A Roman villa." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q42942455"
   },
   {
     "id": "pleiades:195475335",
@@ -21871,7 +22129,8 @@
       "description": "An ancient place, cited: BAtlas 41 C3 S. Vincenzino",
       "ancientName": "S. Vincenzino, San Vincenzino"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q47531808"
   },
   {
     "id": "pleiades:413011",
@@ -21897,7 +22156,8 @@
       "description": "A hilltop villa near Tifernum Tiberinum commonly associated with one of the villas of Pliny the Younger.",
       "ancientName": "Colle Plinio"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131367205"
   },
   {
     "id": "pleiades:413159",
@@ -21910,7 +22170,8 @@
       "description": "The so-called Grotte di S. Nicola, the remains of the platform and cryptoporticus of a late republican Roman villa.",
       "ancientName": "Grotte di S. Nicola"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q115813242"
   },
   {
     "id": "pleiades:413160",
@@ -21950,18 +22211,19 @@
       "description": "Site of a Late Republican and Imperial Roman villa (first to fifth centuries A.D.)",
       "ancientName": "Ossaia"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q115813258"
   },
   {
     "id": "pleiades:413270",
     "type": "villa",
-    "name": "Ponte Capo d’Acqua",
+    "name": "Ponte Capo d\u2019Acqua",
     "lat": 42.466552,
     "lng": 12.867477,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 42 D4 Ponte Capo d’Acqua",
-      "ancientName": "Ponte Capo d’Acqua"
+      "description": "An ancient place, cited: BAtlas 42 D4 Ponte Capo d\u2019Acqua",
+      "ancientName": "Ponte Capo d\u2019Acqua"
     },
     "category": "habitation"
   },
@@ -22030,7 +22292,8 @@
     "props": {
       "description": "A large, Roman imperial estate covering ca. 2,000 ha on the shores of Lake Bracciano. The name may derive from Vicus Aurelius, suggesting a connection with Marcus Aurelius."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q116922497"
   },
   {
     "id": "pleiades:413391",
@@ -22081,7 +22344,8 @@
     "lng": 12.697147,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 43 C2 Albuccione" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q18454404"
   },
   {
     "id": "pleiades:422838",
@@ -22094,7 +22358,8 @@
       "description": "The so-called 'Villa of the Antonines', located near Genzano di Roma in the Alban Hills, lies just south of the Via Appia between the road's 18th and 19th milestones.",
       "ancientName": "Villa degli Antonini"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q107453713"
   },
   {
     "id": "pleiades:422842",
@@ -22143,7 +22408,8 @@
       "description": "An ancient place, cited: BAtlas 43 D2 Bruto e Pisoni",
       "ancientName": "Bruto e Pisoni"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q76335336"
   },
   {
     "id": "pleiades:422866",
@@ -22179,7 +22445,8 @@
       "description": "A villa at the seventh mile of the Via Latina.",
       "ancientName": "Casale di Gregna"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q136419062"
   },
   {
     "id": "pleiades:422872",
@@ -22254,7 +22521,8 @@
       "description": "A villa in Tibur that has been incorrectly linked to Gaius Cassius Longinus. In the eighteenth century, the site produced a cache of Egyptianizing sculpture that likely dates to the reign of Hadrian and is now held in the Vatican Museums.",
       "ancientName": "Cassio"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130251777"
   },
   {
     "id": "pleiades:422888",
@@ -22267,16 +22535,17 @@
       "description": "The Villa dei Centroni, located on the modern via Anagnina, lay at the ninth mile of the ancient via Latina. It dates from the first century B.C. onward.",
       "ancientName": "Villa dei Centroni"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130485553"
   },
   {
     "id": "pleiades:422895",
     "type": "villa",
-    "name": "Cinecittà",
+    "name": "Cinecitt\u00e0",
     "lat": 41.855596,
     "lng": 12.569185,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 43 C2 Cinecittà" },
+    "props": { "description": "An ancient place, cited: BAtlas 43 C2 Cinecitt\u00e0" },
     "category": "habitation"
   },
   {
@@ -22320,7 +22589,8 @@
     "lng": 12.782354,
     "source": "Pleiades",
     "props": { "description": "A plaform villa at Colle Nocello.", "ancientName": "Colle Nocello" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q124172424"
   },
   {
     "id": "pleiades:422903",
@@ -22360,7 +22630,8 @@
       "description": "Colle Vitriano is the site of a Roman villa supported on two artificial terraces that utilize megalithic walling in the polygonal masonry technique as well as caementicium.",
       "ancientName": "Colle Vitriano"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q130251766"
   },
   {
     "id": "pleiades:422911",
@@ -22373,7 +22644,8 @@
       "description": "An ancient place, cited: BAtlas 43 C2 Corzano",
       "ancientName": "Corzano"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139601239"
   },
   {
     "id": "pleiades:422924",
@@ -22449,7 +22721,8 @@
       "description": "The site of a Roman villa situated on two terraces. The modern toponym \"Grotta Papale\" derives from a partially subterranean apsidal nymphaeum. The villa was extensive, covering some 23,000 square meters and has both a late republican and an imperial phase.",
       "ancientName": "Grotta Papale"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q133698551"
   },
   {
     "id": "pleiades:422940",
@@ -22511,7 +22784,8 @@
       "description": "An ancient place, cited: BAtlas 43 D2 Lolli Paolini",
       "ancientName": "Lolli Paolini"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q139602629"
   },
   {
     "id": "pleiades:422964",
@@ -22712,7 +22986,8 @@
     "props": {
       "description": "Prima Porta, located to the north of Rome, allegedly derives its modern name from the remains of a Roman aqueduct whose presence signaled to travelers on the Via Flaminia that they had reached Rome. The site is best known for an Imperial villa that belonged to the family of Livia Drusilla."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q639179"
   },
   {
     "id": "pleiades:423018",
@@ -22752,7 +23027,8 @@
     "props": {
       "description": "A villa located near the sanctuary of Madonna di Quintiliolo (Tivoli) that is traditionally associated with Quintilius Varus. The remains of the basis villae may date as early as the third century B.C."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q131538679"
   },
   {
     "id": "pleiades:423037",
@@ -22791,7 +23067,8 @@
       "description": "An ancient place, cited: BAtlas 43 C2 S. Cesareo",
       "ancientName": "S. Cesareo"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q243346"
   },
   {
     "id": "pleiades:423050",
@@ -22827,7 +23104,8 @@
       "description": "A large, suburban villa complex on the Via Tuscolana. The villa was in use from the reign of Antoninus Pius until the fourth century A.D.",
       "ancientName": "Villa dei Sette Bassi"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4012682"
   },
   {
     "id": "pleiades:423070",
@@ -22842,14 +23120,14 @@
   {
     "id": "pleiades:423088",
     "type": "villa",
-    "name": "Tor de’ Cenci",
+    "name": "Tor de\u2019 Cenci",
     "lat": 41.77907009383976,
     "lng": 12.440124548441075,
     "qid": "Q3493502: Spinaceto",
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 43 B2 Tor de’ Cenci",
-      "ancientName": "Tor de’ Cenci"
+      "description": "An ancient place, cited: BAtlas 43 B2 Tor de\u2019 Cenci",
+      "ancientName": "Tor de\u2019 Cenci"
     },
     "category": "habitation"
   },
@@ -22864,7 +23142,8 @@
       "description": "The modern toponym Tor Marancia is claimed to derive from the Praedium Amaranthianus, a villa belonging to the second-century A.D. freedman Amaranthus.",
       "ancientName": "Praedium Amaranthianus"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3993559"
   },
   {
     "id": "pleiades:423090",
@@ -22931,7 +23210,8 @@
     "lng": -8.183570479732625,
     "source": "Pleiades",
     "props": { "description": "A Late Roman villa site dating to the fourth century A.D." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q10391493"
   },
   {
     "id": "pleiades:560130184",
@@ -22959,11 +23239,11 @@
   {
     "id": "pleiades:236410",
     "type": "villa",
-    "name": "Caserío",
+    "name": "Caser\u00edo",
     "lat": 41.018128,
     "lng": -5.609711,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 24 F4 Caserío" },
+    "props": { "description": "An ancient place, cited: BAtlas 24 F4 Caser\u00edo" },
     "category": "habitation"
   },
   {
@@ -22979,12 +23259,12 @@
   {
     "id": "pleiades:236424",
     "type": "villa",
-    "name": "Centroña",
+    "name": "Centro\u00f1a",
     "lat": 43.426247,
     "lng": -8.200528,
     "qid": { "label": "", "qid": "Q3397545", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 24 C1 Centroña" },
+    "props": { "description": "An ancient place, cited: BAtlas 24 C1 Centro\u00f1a" },
     "category": "habitation"
   },
   {
@@ -22995,7 +23275,7 @@
     "lng": -7.3422276227997045,
     "source": "Pleiades",
     "props": {
-      "description": "Centum Cellas, also referred to as Centum Cellæ, Centum Celli, or Centum Cœli refers to a Roman villa rustica of the first century A.D., located in the Castelo Branco district of Portugal."
+      "description": "Centum Cellas, also referred to as Centum Cell\u00e6, Centum Celli, or Centum C\u0153li refers to a Roman villa rustica of the first century A.D., located in the Castelo Branco district of Portugal."
     },
     "category": "habitation"
   },
@@ -23079,11 +23359,11 @@
   {
     "id": "pleiades:236555",
     "type": "villa",
-    "name": "Las Murias de Beloño",
+    "name": "Las Murias de Belo\u00f1o",
     "lat": 43.507654,
     "lng": -5.729404,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 24 F1 Las Murias de Beloño" },
+    "props": { "description": "An ancient place, cited: BAtlas 24 F1 Las Murias de Belo\u00f1o" },
     "category": "habitation"
   },
   {
@@ -23112,12 +23392,12 @@
   {
     "id": "pleiades:236573",
     "type": "villa",
-    "name": "Nossa Senhora da Póvoa de Mileu",
+    "name": "Nossa Senhora da P\u00f3voa de Mileu",
     "lat": 40.54333901093205,
     "lng": -7.2570808789282495,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 24 D4 Nossa Senhora da Póvoa de Mileu"
+      "description": "An ancient place, cited: BAtlas 24 D4 Nossa Senhora da P\u00f3voa de Mileu"
     },
     "category": "habitation"
   },
@@ -23184,11 +23464,11 @@
   {
     "id": "pleiades:236616",
     "type": "villa",
-    "name": "Prado de José Antonio",
+    "name": "Prado de Jos\u00e9 Antonio",
     "lat": 41.691283,
     "lng": -4.584069,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 24 G3 Prado de José Antonio" },
+    "props": { "description": "An ancient place, cited: BAtlas 24 G3 Prado de Jos\u00e9 Antonio" },
     "category": "habitation"
   },
   {
@@ -23233,10 +23513,11 @@
     "lng": -3.5635981,
     "source": "Pleiades",
     "props": {
-      "description": "The Roman Villa of Baños de Valdearados, also known as the Villa de Santa Cruz, is located in Baños de Valdearados, Burgos region of Ribera del Duero, in Castilla y León (Spain). A Late Imperial Roman villa (fourth and fifth centuries CE) with polychrome mosaics is located at the site.",
+      "description": "The Roman Villa of Ba\u00f1os de Valdearados, also known as the Villa de Santa Cruz, is located in Ba\u00f1os de Valdearados, Burgos region of Ribera del Duero, in Castilla y Le\u00f3n (Spain). A Late Imperial Roman villa (fourth and fifth centuries CE) with polychrome mosaics is located at the site.",
       "ancientName": "Villa romana de Banos de Valdearados"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q9093961"
   },
   {
     "id": "pleiades:236647",
@@ -23251,12 +23532,12 @@
   {
     "id": "pleiades:236648",
     "type": "villa",
-    "name": "S. Martín de la Vega",
+    "name": "S. Mart\u00edn de la Vega",
     "lat": 40.4562715,
     "lng": -3.620119,
     "qid": { "label": "", "qid": "Q959612", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 24 H4 S. Martín de la Vega" },
+    "props": { "description": "An ancient place, cited: BAtlas 24 H4 S. Mart\u00edn de la Vega" },
     "category": "habitation"
   },
   {
@@ -23286,11 +23567,11 @@
   {
     "id": "pleiades:246224",
     "type": "villa",
-    "name": "Los Bañales",
+    "name": "Los Ba\u00f1ales",
     "lat": 42.28778255,
     "lng": -1.2299897999999998,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 25 D3 Los Bañales" },
+    "props": { "description": "An ancient place, cited: BAtlas 25 D3 Los Ba\u00f1ales" },
     "category": "habitation"
   },
   {
@@ -23647,10 +23928,10 @@
     "name": "Saviniago",
     "lat": 43.94404226236261,
     "lng": 0.1819216067196601,
-    "qid": "Q3558911: Villa of Séviac",
+    "qid": "Q3558911: Villa of S\u00e9viac",
     "source": "Pleiades",
     "props": {
-      "description": "The Gallo-Roman villa of Séviac was designed around a central peristyle courtyard and its fourth-century A.D. phase covered up to one hectare.",
+      "description": "The Gallo-Roman villa of S\u00e9viac was designed around a central peristyle courtyard and its fourth-century A.D. phase covered up to one hectare.",
       "ancientName": "Saviniago"
     },
     "category": "habitation"
@@ -23704,7 +23985,8 @@
     "props": {
       "description": "Site of a Romano-British villa on the River Riccal that was partially excavated in 1969."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q4876064"
   },
   {
     "id": "pleiades:89158",
@@ -23734,7 +24016,8 @@
     "lng": -2.0934489939200356,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 9 E7 Kirk Sink" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17676449"
   },
   {
     "id": "pleiades:89223",
@@ -23746,7 +24029,8 @@
     "props": {
       "description": "Multiple phases of a Romano-British villa were excavated at Langton, East Riding, Yorkshire, England. The site was discovered in 1899 and excavations took place in 1926 and 1930-31. The original phase of the site might have been either a military outpost or an indigenous farmstead."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17643672"
   },
   {
     "id": "pleiades:89258",
@@ -23768,7 +24052,8 @@
     "props": {
       "description": "A modern village in the East Riding of Yorkshire near which were found Neolithic cursus monuments and standing stones, two Iron Age Arras Culture cemeteries, and a fourth-century Romano-British villa."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q994400"
   },
   {
     "id": "pleiades:89320",
@@ -23790,19 +24075,20 @@
     "lng": -0.679052,
     "source": "Pleiades",
     "props": { "description": "An ancient place, cited: BAtlas 9 G6 Wharram-le-Street" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q7990692"
   },
   {
     "id": "pleiades:570101218",
     "type": "villa",
-    "name": "Villa Fuente Álamo",
+    "name": "Villa Fuente \u00c1lamo",
     "lat": 37.417325118603685,
     "lng": -4.725225552141294,
-    "qid": "Q43589960: Villa romana de Fuente Álamo",
+    "qid": "Q43589960: Villa romana de Fuente \u00c1lamo",
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa at Puente Genil in the province of Córdoba in Spain.",
-      "ancientName": "Villa Fuente Álamo"
+      "description": "A Roman villa at Puente Genil in the province of C\u00f3rdoba in Spain.",
+      "ancientName": "Villa Fuente \u00c1lamo"
     },
     "category": "habitation"
   },
@@ -23824,23 +24110,25 @@
     "lng": 17.69989,
     "source": "Pleiades",
     "props": {
-      "description": "A Roman villa located in Čapljina, Bosnia and Herzegovina.",
+      "description": "A Roman villa located in \u010capljina, Bosnia and Herzegovina.",
       "ancientName": "Villa rustica Vila Mogorjelo"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q3511638"
   },
   {
     "id": "pleiades:108745",
     "type": "villa",
-    "name": "Anthée",
+    "name": "Anth\u00e9e",
     "lat": 50.2412545,
     "lng": 4.758959,
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 11 E2 Anthée",
-      "ancientName": "Anthée"
+      "description": "An ancient place, cited: BAtlas 11 E2 Anth\u00e9e",
+      "ancientName": "Anth\u00e9e"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q103141827"
   },
   {
     "id": "pleiades:108763",
@@ -23889,12 +24177,12 @@
   {
     "id": "pleiades:108800",
     "type": "villa",
-    "name": "Béhen",
+    "name": "B\u00e9hen",
     "lat": 50.056658999999996,
     "lng": 1.756613,
     "qid": { "label": "", "qid": "Q662284", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 B2 Béhen" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 B2 B\u00e9hen" },
     "category": "habitation"
   },
   {
@@ -23908,7 +24196,8 @@
       "description": "An ancient place, cited: BAtlas 11 G2 Blankenheim",
       "ancientName": "Blankenheim"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1669191"
   },
   {
     "id": "pleiades:108848",
@@ -23935,7 +24224,8 @@
       "description": "A palatial Roman villa, built in the 4th century CE and subsequently used as an imperial summer residence by the emperor Valentinianus I. Located at modern Konz bei Trier in Germany.",
       "ancientName": "Contionacum"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q1721775"
   },
   {
     "id": "pleiades:108956",
@@ -23950,12 +24240,12 @@
   {
     "id": "pleiades:108969",
     "type": "villa",
-    "name": "Estrées-sur-Noye",
+    "name": "Estr\u00e9es-sur-Noye",
     "lat": 49.7815695,
     "lng": 2.336138,
     "qid": { "label": "", "qid": "Q120971", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 C3 Estrées-sur-Noye" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 C3 Estr\u00e9es-sur-Noye" },
     "category": "habitation"
   },
   {
@@ -23981,7 +24271,7 @@
   {
     "id": "pleiades:108982",
     "type": "villa",
-    "name": "Römische Villa Otrang",
+    "name": "R\u00f6mische Villa Otrang",
     "lat": 50.01397590103937,
     "lng": 6.546281222310402,
     "qid": { "label": "", "qid": "Q2525555", "via": "vici-q_pleiades" },
@@ -24027,23 +24317,23 @@
   {
     "id": "pleiades:109030",
     "type": "villa",
-    "name": "Hamblain-les-Prés",
+    "name": "Hamblain-les-Pr\u00e9s",
     "lat": 50.293579,
     "lng": 2.961766,
     "qid": { "label": "", "qid": "Q910627", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 C2 Hamblain-les-Prés" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 C2 Hamblain-les-Pr\u00e9s" },
     "category": "habitation"
   },
   {
     "id": "pleiades:109113",
     "type": "villa",
-    "name": "Limé",
+    "name": "Lim\u00e9",
     "lat": 49.32082,
     "lng": 3.546645,
     "qid": { "label": "", "qid": "Q871531", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 D3 Limé" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 D3 Lim\u00e9" },
     "category": "habitation"
   },
   {
@@ -24070,25 +24360,25 @@
   {
     "id": "pleiades:109138",
     "type": "villa",
-    "name": "Marboué",
+    "name": "Marbou\u00e9",
     "lat": 48.112902,
     "lng": 1.330021,
     "qid": { "label": "", "qid": "Q1141801", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 B4 Marboué" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 B4 Marbou\u00e9" },
     "category": "habitation"
   },
   {
     "id": "pleiades:109139",
     "type": "villa",
-    "name": "Marchélepot",
+    "name": "March\u00e9lepot",
     "lat": 49.833629,
     "lng": 2.864513,
     "qid": { "label": "", "qid": "Q254033", "via": "vici-q_pleiades" },
     "source": "Pleiades",
     "props": {
-      "description": "An ancient place, cited: BAtlas 11 C3 Marchélepot",
-      "ancientName": "Marchélepot"
+      "description": "An ancient place, cited: BAtlas 11 C3 March\u00e9lepot",
+      "ancientName": "March\u00e9lepot"
     },
     "category": "habitation"
   },
@@ -24131,12 +24421,14 @@
   {
     "id": "pleiades:109164",
     "type": "villa",
-    "name": "Mézières-en-Santerre",
+    "name": "M\u00e9zi\u00e8res-en-Santerre",
     "lat": 49.779988054572996,
     "lng": 2.5556381137695503,
     "qid": { "label": "", "qid": "Q381453", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 C3 Mézières-en-Santerre" },
+    "props": {
+      "description": "An ancient place, cited: BAtlas 11 C3 M\u00e9zi\u00e8res-en-Santerre"
+    },
     "category": "habitation"
   },
   {
@@ -24280,11 +24572,11 @@
   {
     "id": "pleiades:109313",
     "type": "villa",
-    "name": "St-Martin-Bréthencourt",
+    "name": "St-Martin-Br\u00e9thencourt",
     "lat": 48.507028,
     "lng": 1.916006,
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 B4 St-Martin-Bréthencourt" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 B4 St-Martin-Br\u00e9thencourt" },
     "category": "habitation"
   },
   {
@@ -24344,12 +24636,12 @@
   {
     "id": "pleiades:109417",
     "type": "villa",
-    "name": "Ver-lès-Chartres",
+    "name": "Ver-l\u00e8s-Chartres",
     "lat": 48.384798,
     "lng": 1.477627,
     "qid": { "label": "", "qid": "Q1138962", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 B4 Ver-lès-Chartres" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 B4 Ver-l\u00e8s-Chartres" },
     "category": "habitation"
   },
   {
@@ -24361,7 +24653,7 @@
     "qid": { "label": "", "qid": "Q1389275", "via": "vici-q_pleiades" },
     "source": "Pleiades",
     "props": {
-      "description": "The Gallo-Roman villa is located at Bufosse in the northern part of the commune Verneuil-en-Halatte département Oise.",
+      "description": "The Gallo-Roman villa is located at Bufosse in the northern part of the commune Verneuil-en-Halatte d\u00e9partement Oise.",
       "ancientName": "Verneuil-en-Halatte"
     },
     "category": "habitation"
@@ -24421,12 +24713,12 @@
   {
     "id": "pleiades:109453",
     "type": "villa",
-    "name": "Warfusée-Abancourt",
+    "name": "Warfus\u00e9e-Abancourt",
     "lat": 49.866972000000004,
     "lng": 2.580784,
     "qid": { "label": "", "qid": "Q1246606", "via": "vici-q_pleiades" },
     "source": "Pleiades",
-    "props": { "description": "An ancient place, cited: BAtlas 11 C3 Warfusée-Abancourt" },
+    "props": { "description": "An ancient place, cited: BAtlas 11 C3 Warfus\u00e9e-Abancourt" },
     "category": "habitation"
   },
   {
@@ -24473,7 +24765,8 @@
     "lng": 12.6218188,
     "source": "Pleiades",
     "props": { "description": "The remains of a Roman villa and cistern." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q242637"
   },
   {
     "id": "pleiades:456945392",
@@ -24500,7 +24793,8 @@
       "description": "A well-appointed domus of the mid-second century CE that was consumed by the construction works to create the Thermae Antoninianae, resulting in its being buried to a depth of some 10 m in construction fill. Heritage officials describe the house as a sort of 'condominium', comparing it to the contemporary insulae of Ostia.",
       "ancientName": "Domus di Vigna Guidi"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q112767255"
   },
   {
     "id": "pleiades:87371047",
@@ -24510,7 +24804,7 @@
     "lng": 1.8368168,
     "source": "Pleiades",
     "props": {
-      "description": "In the 1960s an imperial Roman villa was excavated at the La Millière locality, located on the edge of the Rambouillet forest."
+      "description": "In the 1960s an imperial Roman villa was excavated at the La Milli\u00e8re locality, located on the edge of the Rambouillet forest."
     },
     "category": "habitation"
   },
@@ -24522,7 +24816,8 @@
     "lng": 8.67089,
     "source": "Pleiades",
     "props": { "description": "A Roman villa located at present-day Neftenbach, Switzerland." },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q2202580"
   },
   {
     "id": "pleiades:933985294",
@@ -24582,7 +24877,8 @@
     "props": {
       "description": "A 4th-century CE Roman corridor villa near Nunney, United Kingdom."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q17642108"
   },
   {
     "id": "pleiades:451518249",
@@ -24645,7 +24941,8 @@
     "lng": 14.41395,
     "source": "Pleiades",
     "props": { "description": "An ancient villa near the Wadi Ghirza" },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q106301433"
   },
   {
     "id": "pleiades:963100979",
@@ -27158,7 +27455,8 @@
       "description": "A villa site near Tivoli that has long been associated Manlius Vopiscus, who Statius mentions. Excavations began in 1825. In 1835 Pope Gregory XVI began construction of his eponymous Villa Gregoriana on the grounds of the Roman villa.",
       "ancientName": "Villa di Manlio Vopisco"
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q124359898"
   },
   {
     "id": "pleiades:190306780",
@@ -27170,7 +27468,8 @@
     "props": {
       "description": "The ruins of a well-appointed Roman Imperial villa are now to be seen immured in the esplanade of one of the beachfronts of Ladispoli, Italy. The visible remains include a portion of a peristyle courtyard with an elaborate mosaic pavement."
     },
-    "category": "habitation"
+    "category": "habitation",
+    "qid": "Q140307994"
   },
   {
     "id": "pleiades:233061795",
