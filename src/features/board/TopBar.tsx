@@ -1,3 +1,4 @@
+import { AboutDialog } from './AboutDialog'
 import { PanelLeft, BookOpen, Shield } from 'lucide-react'
 import { useState } from 'react'
 import { LensSwitcher } from './LensSwitcher'
@@ -72,6 +73,7 @@ export function TopBar({ storyMode }: TopBarProps) {
             <StoryPlayer onStart={handleStart} />
           </DialogContent>
         </Dialog>
+        <AboutDialog />
 
         {/* Search */}
         <SearchBar />
@@ -136,6 +138,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           <StoryPlayer onStart={handleStart} />
         </DialogContent>
       </Dialog>
+      <AboutDialog />
 
       <SearchBar />
       <div className="flex-1" />
