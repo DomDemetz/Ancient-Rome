@@ -210,6 +210,31 @@ export function PlacesLayer({
     return out
   }, [visible, zoom, currentYear])
 
+  // City labels also declutter among themselves: Cairo grows next door to
+  // Memphis and at empire zoom both printed on top of each other. Bigger
+  // population claims the space; the loser keeps its dot and tooltip.
+  const cityLabelIds = useMemo(() => {
+    if (zoom >= 7) return null // enough room when zoomed in
+    const pxPerDegX = (256 * 2 ** zoom) / 360
+    const min = labelMinPop(zoom)
+    const labeled = visible
+      .map((p) => ({ p, pop: p.populations ? populationAt(p.populations, currentYear) : null }))
+      .filter((x): x is { p: (typeof visible)[number]; pop: number } => x.pop != null && x.pop >= min)
+      .sort((a, b) => b.pop - a.pop)
+    const placed: Array<[number, number]> = []
+    const out = new Set<string>()
+    for (const { p } of labeled) {
+      const x = p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180)
+      const y = p.lat * pxPerDegX
+      // tight box: only true stacking (Cairo grows ~5px from Memphis) —
+      // neighbors like Gallipoli/Constantinople (~43px) both keep names
+      if (placed.some(([px, py]) => Math.abs(px - x) < 40 && Math.abs(py - y) < 14)) continue
+      placed.push([x, y])
+      out.add(p.id)
+    }
+    return out
+  }, [visible, zoom, currentYear])
+
   return (
     <>
       {visible.map((p) => {
@@ -277,7 +302,7 @@ export function PlacesLayer({
             }}
             bubblingMouseEvents={false}
           >
-            {pop != null && pop >= labelMinPop(zoom) ? (
+            {pop != null && pop >= labelMinPop(zoom) && (cityLabelIds == null || cityLabelIds.has(p.id)) ? (
               <Tooltip permanent direction="top" className="city-label" offset={[0, -radius - 1]}>
                 {name}
               </Tooltip>
