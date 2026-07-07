@@ -19996,5 +19996,44 @@
     "endYear": 400,
     "estimatedTemporal": true,
     "qid": "Q7698723"
+  },
+  {
+    "id": "temple:pleiades-331679526",
+    "type": "temple",
+    "name": "Kidmuri Temple",
+    "lat": 36.3595,
+    "lng": 43.1537,
+    "source": "Pleiades",
+    "description": "The b\u012bt Kidmuri is one of the temples located in the citadel of Nineveh. Its Sumerian ceremonial name is not preserved in extant cuneiform sources. Although the temple's exact location remains unknown, it is generally believed to have been between the temple of the goddess I\u0161tar (Ema\u0161ma\u0161) and the Citadel Gate (East Gate).",
+    "subtype": "temple",
+    "startYear": -500,
+    "endYear": 400,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "temple:pleiades-260724426",
+    "type": "temple",
+    "name": "Temple of Demeter and Kore",
+    "lat": 39.20151,
+    "lng": 8.6355,
+    "source": "Pleiades",
+    "description": "A Punic and Roman temple sacred to Demeter and Kore located at Bagoi, Perdaxius, Sardinia.",
+    "subtype": "temple",
+    "startYear": -500,
+    "endYear": 400,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "temple:pleiades-922681",
+    "type": "temple",
+    "name": "Muk",
+    "lat": 29.09656,
+    "lng": 52.65581,
+    "source": "Pleiades",
+    "description": "An ancient place, cited: BAtlas 94 C4 Muk",
+    "subtype": "temple",
+    "startYear": -500,
+    "endYear": 400,
+    "estimatedTemporal": true
   }
 ]

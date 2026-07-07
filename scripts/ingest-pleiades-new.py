@@ -27,14 +27,19 @@ TYPE_MAP = {
     "aqueduct": "aqueduct.json",
     "sanctuary": "religious-site.json",
     "church": "religious-site.json",
+    "church-2": "religious-site.json",
     "temple": "discovery-temple.json",
     "bath": "building.json",
     "fort": "building.json",
     "monument": "building.json",
     "theater": "building.json",
+    "theatre": "building.json",
     "amphitheatre": "amphitheater.json",
     "mine": "mine.json",
+    "mine-2": "mine.json",
+    "quarry": "mine.json",
     "cemetery": "discovery-tomb.json",
+    "architecturalcomplex": "building.json",
 }
 
 # Map to our entity type field
@@ -59,13 +64,18 @@ SUBTYPE_MAP = {
     "aqueduct": "aqueduct",
     "sanctuary": "sanctuary",
     "church": "church",
+    "church-2": "church",
     "bath": "bath",
     "fort": "fort",
     "monument": "monument",
     "theater": "theater",
+    "theatre": "theater",
     "amphitheatre": "amphitheater",
     "mine": "mine",
+    "mine-2": "mine",
+    "quarry": "quarry",
     "cemetery": "cemetery",
+    "architecturalcomplex": "complex",
 }
 
 

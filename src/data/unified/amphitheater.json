@@ -3955,5 +3955,58 @@
     "startYear": -100,
     "endYear": 400,
     "estimatedTemporal": true
+  },
+  {
+    "id": "amphitheater:pleiades-153271174",
+    "type": "amphitheater",
+    "name": "Roman amphitheater at *Moridunum",
+    "lat": 51.86198,
+    "lng": -4.2965,
+    "source": "Pleiades",
+    "description": "The Roman amphitheater at Moridunum is located in Carmarthenshire. It is one of only seven surviving Roman amphitheaters in Britain.",
+    "subtype": "amphitheater",
+    "qid": "Q27924306",
+    "startYear": -100,
+    "endYear": 400,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "amphitheater:pleiades-960592956",
+    "type": "amphitheater",
+    "name": "Roman amphitheater at Carsulae",
+    "lat": 42.6395,
+    "lng": 12.55917,
+    "source": "Pleiades",
+    "description": "The Roman amphitheater at Carsulae dates to the first century A.D.",
+    "subtype": "amphitheater",
+    "startYear": -100,
+    "endYear": 400,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "amphitheater:pleiades-172058377",
+    "type": "amphitheater",
+    "name": "Sapperton and Cirencester amphitheatre",
+    "lat": 51.71058,
+    "lng": -1.9715,
+    "source": "Pleiades",
+    "description": "The Cirencester amphitheater is the second largest known in Britannia. Its earthworks supported tiered seats that could accommodate about 8,000 spectators. The amphitheater was converted to a fortified site in the fifth century during the Saxon invasions.",
+    "subtype": "amphitheater",
+    "startYear": -100,
+    "endYear": 400,
+    "estimatedTemporal": true
+  },
+  {
+    "id": "amphitheater:pleiades-971703785",
+    "type": "amphitheater",
+    "name": "Bizye Roman amphitheater",
+    "lat": 41.5738,
+    "lng": 27.7695,
+    "source": "Pleiades",
+    "description": "A Roman amphitheater in eastern Thrace.",
+    "subtype": "amphitheater",
+    "startYear": -100,
+    "endYear": 400,
+    "estimatedTemporal": true
   }
 ]
