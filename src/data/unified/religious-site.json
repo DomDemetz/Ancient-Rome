@@ -69,7 +69,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Circular temple in the Roman Forum housing the sacred flame tended by the Vestal Virgins.",
-    "props": { "religion": "roman", "deity": "Vesta" }
+    "props": { "religion": "roman", "deity": "Vesta" },
+    "qid": "Q1115366"
   },
   {
     "id": "religion:rel-006",
@@ -167,7 +168,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Round temple in the Forum Boarium, the oldest surviving marble building in Rome.",
-    "props": { "religion": "roman", "deity": "Hercules" }
+    "props": { "religion": "roman", "deity": "Hercules" },
+    "qid": "Q576929"
   },
   {
     "id": "religion:rel-013",
@@ -195,7 +197,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Dominating temple of the Forum Transitorium, completed under Nerva.",
-    "props": { "religion": "roman", "deity": "Minerva" }
+    "props": { "religion": "roman", "deity": "Minerva" },
+    "qid": "Q2784902"
   },
   {
     "id": "religion:rel-015",
@@ -238,7 +241,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Temple on the Arx of the Capitoline Hill, later associated with the Roman mint.",
-    "props": { "religion": "roman", "deity": "Juno" }
+    "props": { "religion": "roman", "deity": "Juno" },
+    "qid": "Q951089"
   },
   {
     "id": "religion:rel-018",
@@ -309,7 +313,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Best-preserved of the Baalbek temples, remarkable for its ornate interior carvings.",
-    "props": { "religion": "roman", "deity": "Bacchus" }
+    "props": { "religion": "roman", "deity": "Bacchus" },
+    "qid": "Q1991217"
   },
   {
     "id": "religion:rel-023",
@@ -520,7 +525,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Temple of Athena Parthenos on the Athenian Acropolis, masterpiece of Classical architecture.",
-    "props": { "religion": "greek", "deity": "Athena" }
+    "props": { "religion": "greek", "deity": "Athena" },
+    "qid": "Q17051553"
   },
   {
     "id": "religion:rel-038",
@@ -534,7 +540,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Sacred temple on the Acropolis with the famous Porch of the Caryatids.",
-    "props": { "religion": "greek", "deity": "Athena" }
+    "props": { "religion": "greek", "deity": "Athena" },
+    "qid": "Q242741"
   },
   {
     "id": "religion:rel-039",
@@ -759,7 +766,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Syncretic temple combining Mesopotamian and Graeco-Roman elements at Palmyra.",
-    "props": { "religion": "syncretic", "deity": "Bel" }
+    "props": { "religion": "syncretic", "deity": "Bel" },
+    "qid": "Q797481"
   },
   {
     "id": "religion:rel-055",
@@ -773,7 +781,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Phoenician-Roman temple dedicated to the lord of the heavens at Palmyra.",
-    "props": { "religion": "syncretic", "deity": "Baalshamin" }
+    "props": { "religion": "syncretic", "deity": "Baalshamin" },
+    "qid": "Q20871005"
   },
   {
     "id": "religion:rel-056",
@@ -915,7 +924,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Archaic Doric temple, one of the earliest stone temples in Greece.",
-    "props": { "religion": "greek", "deity": "Apollo" }
+    "props": { "religion": "greek", "deity": "Apollo" },
+    "qid": "Q3561843"
   },
   {
     "id": "religion:rel-066",
@@ -1029,7 +1039,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Grand suburban sanctuary at Tibur rivalling Palestrina in scale.",
-    "props": { "religion": "roman", "deity": "Hercules" }
+    "props": { "religion": "roman", "deity": "Hercules" },
+    "qid": "Q115917978"
   },
   {
     "id": "religion:rel-074",
@@ -1233,7 +1244,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Mithraeum at Ostia with black-and-white mosaic floor depicting symbols of the seven grades.",
-    "props": { "religion": "mithras", "deity": "Mithras" }
+    "props": { "religion": "mithras", "deity": "Mithras" },
+    "qid": "Q123469072"
   },
   {
     "id": "religion:rel-088",
@@ -1360,7 +1372,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Mithraeum at the major military and commercial centre of northeastern Italy.",
-    "props": { "religion": "mithras", "deity": "Mithras" }
+    "props": { "religion": "mithras", "deity": "Mithras" },
+    "qid": "Q2859274"
   },
   {
     "id": "religion:rel-097",
@@ -1551,7 +1564,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Mithraeum near Vercovicium fort on Hadrian's Wall.",
-    "props": { "religion": "mithras", "deity": "Mithras" }
+    "props": { "religion": "mithras", "deity": "Mithras" },
+    "qid": "Q58137395"
   },
   {
     "id": "religion:rel-110",
@@ -1770,7 +1784,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Cathedral of the Bishop of Rome, first major Christian basilica, given by Constantine.",
-    "props": { "religion": "christian", "deity": "Christ" }
+    "props": { "religion": "christian", "deity": "Christ" },
+    "qid": "Q468405"
   },
   {
     "id": "religion:rel-125",
@@ -1975,7 +1990,8 @@
     "source": "wikipedia",
     "category": "religion",
     "description": "One of several early Christian churches at Thessalonica, important Pauline city.",
-    "props": { "religion": "christian", "deity": "Christ" }
+    "props": { "religion": "christian", "deity": "Christ" },
+    "qid": "Q1728464"
   },
   {
     "id": "religion:rel-139",
@@ -2218,7 +2234,8 @@
     "source": "wikipedia",
     "category": "religion",
     "description": "Early Christian basilica under the later medieval cathedral, attested from the Council of 343.",
-    "props": { "religion": "christian", "deity": "Christ" }
+    "props": { "religion": "christian", "deity": "Christ" },
+    "qid": "Q1492"
   },
   {
     "id": "religion:rel-156",
@@ -2459,7 +2476,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Monumental temple of Serapis near the commercial agora of Ephesus.",
-    "props": { "religion": "egyptian", "deity": "Serapis" }
+    "props": { "religion": "egyptian", "deity": "Serapis" },
+    "qid": "Q47611"
   },
   {
     "id": "religion:rel-173",
@@ -2785,7 +2803,8 @@
     "source": "wikipedia",
     "category": "religion",
     "description": "Site of the ancient Jewish community in Trastevere, one of the oldest in Europe.",
-    "props": { "religion": "jewish" }
+    "props": { "religion": "jewish" },
+    "qid": "Q3625518"
   },
   {
     "id": "religion:rel-196",
@@ -2828,7 +2847,8 @@
     "source": "wikipedia",
     "category": "religion",
     "description": "Late Roman synagogue remains with mosaic floor in southeast Hispania.",
-    "props": { "religion": "jewish" }
+    "props": { "religion": "jewish" },
+    "qid": "Q10509"
   },
   {
     "id": "religion:rel-199",
@@ -2842,7 +2862,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Synagogue with mosaic at the major city of Roman Syria.",
-    "props": { "religion": "jewish" }
+    "props": { "religion": "jewish" },
+    "qid": "Q617550"
   },
   {
     "id": "religion:rel-200",
@@ -3353,7 +3374,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Ruined temple near the Jardins de la Fontaine in Nemausus, purpose debated.",
-    "props": { "religion": "roman", "deity": "Diana" }
+    "props": { "religion": "roman", "deity": "Diana" },
+    "qid": "Q1992203"
   },
   {
     "id": "religion:rel-236",
@@ -3535,7 +3557,8 @@
     "source": "wikipedia",
     "category": "religion",
     "description": "Golden-roofed octagonal church built by Constantine, one of Christendom's most important early cathedrals.",
-    "props": { "religion": "christian", "deity": "Christ" }
+    "props": { "religion": "christian", "deity": "Christ" },
+    "qid": "Q741098"
   },
   {
     "id": "religion:rel-249",
@@ -4147,7 +4170,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Abba Garima Monastery is an Ethiopian Orthodox church founded in the sixth century CE by Abba Garima, one of the so-called Nine Saints. It is located east of Adwa, in the Mehakelegnaw Zone of the northern Tigray Region of Ethiopia.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q4663637"
   },
   {
     "id": "religion:862761171",
@@ -4176,7 +4200,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A Christian monastic complex that is located in the municipality of Fossacesia, Italy. The site occupies a hilltop at 107 m above sea level on the Adriatic Sea coast. The basilica dates originally from the thirteenth century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3603228"
   },
   {
     "id": "religion:207801353",
@@ -4707,7 +4732,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Sanctuary of the Roman period",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q4697322"
   },
   {
     "id": "religion:818918654",
@@ -5025,7 +5051,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An altar located to the east of the temple of Amphiaraos.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q28721250"
   },
   {
     "id": "religion:614803679",
@@ -5039,7 +5066,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A Roman sanctuary located at the mouth of the Colares river.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q4785449"
   },
   {
     "id": "religion:609300",
@@ -5556,7 +5584,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Temple dedicated to Aphrodite constructed in the 6th century BCE at the Greek colony of Akrai.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3607385"
   },
   {
     "id": "religion:707469",
@@ -7123,7 +7152,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 7 F2 Baron-sur-Odon",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q119895800"
   },
   {
     "id": "religion:138606",
@@ -7212,7 +7242,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A minor Paleochristian basilica located in Guidonia Montecelio that was dedicated to the patron saint of Tivoli.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q121870169"
   },
   {
     "id": "religion:922015288",
@@ -7905,7 +7936,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A \"Brandopferplatz\" (Alpine burnt-offerings cult place) located at the so-called Burgstall, the topographically distinctive northern peak of the Schlern, a mountain in the South Tirolian Dolomites in modern Italy.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q31644094"
   },
   {
     "id": "religion:893965",
@@ -8079,7 +8111,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient rural sanctuary of Hispania (Cabrera de Mar, Barcelona).",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q99097870"
   },
   {
     "id": "religion:767047425",
@@ -8151,7 +8184,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Capitolium temple at Mactaris likely dates to the reign of Marcus Aurelius.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3485394"
   },
   {
     "id": "religion:781554752",
@@ -8165,7 +8199,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Tetrastyle Corinthian temple located in the Roman forum at Sala (modern Chellah) dating from the early Hadrianic period (c.120 CE).",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q127431163"
   },
   {
     "id": "religion:791853467",
@@ -8323,7 +8358,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 25 G4 Castellnou de Basella",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q87817731"
   },
   {
     "id": "religion:44079651",
@@ -8878,7 +8914,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The church, well visible in Google Earth, is in the SW sector of the archaeological area",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q14299836"
   },
   {
     "id": "religion:210536349",
@@ -9097,7 +9134,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Civita di Bagno is the modern name for a small settlement that dates back at least to the Roman Late Republican period. Within the modern town, several key monuments are known, such as a podium temple (late 2nd c. BCE?), identified as that of Feronia by an inscription from the reign of Tiberius, a bath complex beneath Palazzo Oliva, and the medieval remains of the cathedral of San Massimo which reuses much ancient material, as well as funerary remains along the ancient road network. On the adjacent Moritola hill is a vast system of terracing, which in its earliest phase dates to the 2nd c. BCE, that supported a monumental complex of difficult interpretation, but with an important hydraulic infrastructure. This complex underwent multiple modifications over the centuries; in the 5th c. CE the complex was transformed by the installation of two kilns and a limekiln. By the 6th c. CE Civita di Bagno was the seat of a bishop.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3632908"
   },
   {
     "id": "religion:432791",
@@ -10195,7 +10233,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient ceremonial site located in County Kildare, Ireland. The circular enclosure once covered ca. 13 ha.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q524928"
   },
   {
     "id": "religion:893988",
@@ -10621,7 +10660,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An island in the Sea of Oman is home to the \"City of Caves\", where an important assemblage of rock-cut art dating to the fifth through eighth centuries and linked to the cult of Shiva may be found.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q649384"
   },
   {
     "id": "religion:599606",
@@ -11575,7 +11615,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The remains of a possible Gallo-Roman fanum were recovered, including an enclosure surrounding a rectangular structure along with terra sigillata from La Graufesenque.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q126692545"
   },
   {
     "id": "religion:59593308",
@@ -11676,7 +11717,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Remains of a Gallo-Roman at Vannes.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q49277117"
   },
   {
     "id": "religion:335533616",
@@ -11860,7 +11902,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 38 D1 Gasr Zeitun",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q106417749"
   },
   {
     "id": "religion:418289391",
@@ -11889,7 +11932,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 79 D4 Gebel Tafnis",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q14224020"
   },
   {
     "id": "religion:776176",
@@ -11918,7 +11962,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Monastery of Gelati was founded in 1106 in western Georgia. It was inscribed as a UNESCO World Heritage Site in 1984.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q12863082"
   },
   {
     "id": "religion:344371",
@@ -14259,7 +14304,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 62 D3 Ko\u00e7ak",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q10781718"
   },
   {
     "id": "religion:688874222",
@@ -15137,7 +15183,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 8 E3 Lydney",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q139593973"
   },
   {
     "id": "religion:570444",
@@ -16535,7 +16582,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Mons Seleucus was the site of the famous battle between Constantius II and the usurper Magnentius in AD 353. The Gallo-Roman vicus at La B\u00e2tie-Montsal\u00e9on included a Gallo-Roman sanctuary.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q130313104"
   },
   {
     "id": "religion:177583",
@@ -16578,7 +16626,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A ramped, megalithic structure in Sardinia dated to around 2700-2000 BC.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q1945976"
   },
   {
     "id": "religion:432951",
@@ -16707,7 +16756,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The eleventh century monastery of Santa Maria di Monteverde sits atop and reuses elements of Roman and pre-Roman settlements on the hilltop.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3860559"
   },
   {
     "id": "religion:138471",
@@ -16908,7 +16958,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 56 C4 Nagos",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q16271255"
   },
   {
     "id": "religion:903085",
@@ -17153,7 +17204,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient sanctuary of necromancy sacred to Hades and Persephone located on the banks of the Acheron River in Epirus, near the ancient city of Ephyra.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q12881666"
   },
   {
     "id": "religion:413223",
@@ -17270,7 +17322,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 C4 Neyrac-les-Bains",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q125549605"
   },
   {
     "id": "religion:580035",
@@ -18049,7 +18102,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 54 B2 Pec\u00eb",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q13044064"
   },
   {
     "id": "religion:109244",
@@ -18439,7 +18493,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Ploutonion at Hierapolis is a walled sanctuary dedicated to Pluto and Kore.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q7428276"
   },
   {
     "id": "religion:34221419",
@@ -19139,7 +19194,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A thirteenth-century temple that was built during the period of the Kakatiya ruler Ganapati Deva.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3380656"
   },
   {
     "id": "religion:707615",
@@ -20299,7 +20355,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An abbey with tenth century origins connected to the pilgrimage route known as the Via Francigena.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q3632793"
   },
   {
     "id": "religion:813943703",
@@ -20328,7 +20385,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An extra-urban Italic sanctuary located in the territory of ancient Saepinum.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q110236697"
   },
   {
     "id": "religion:285923206",
@@ -20559,7 +20617,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The Sanctuary of Dionysos, which includes a theater, choregic monument, statue bases, and at least one temple, formed part of the civic center of the Attic deme of Ikarion.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q10755817"
   },
   {
     "id": "religion:570216",
@@ -20632,7 +20691,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The sanctuary of Isis at Dion dates to the second century A.D.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q990247"
   },
   {
     "id": "religion:376031237",
@@ -22288,7 +22348,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Khmer temple at Angkor constructed in 1186 CE under Jayavarman VII.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q117743335"
   },
   {
     "id": "religion:826976465",
@@ -22635,7 +22696,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Tell on the southwestern corner of Failaka Island containing the remains of two large buildings, tentatively identified as a palace and a temple, dated to 1900-1400 BCE.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q127430235"
   },
   {
     "id": "religion:458345971",
@@ -23412,7 +23474,8 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Egyptian temple dedicated to the god Montou in Armant, built and enlarged from the Middle Kingdom to the Roman period.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "qid": "Q133252506"
   },
   {
     "id": "religion:907829423",
@@ -25964,7 +26027,8 @@
     "subtype": "sanctuary",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q53672919"
   },
   {
     "id": "religious:pleiades-570127",
@@ -25977,7 +26041,8 @@
     "subtype": "sanctuary",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q38279699"
   },
   {
     "id": "religious:pleiades-563800136",
@@ -26255,7 +26320,8 @@
     "subtype": "church",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q2300267"
   },
   {
     "id": "religious:pleiades-356557088",
@@ -26390,7 +26456,8 @@
     "subtype": "church",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q42859512"
   },
   {
     "id": "religious:pleiades-891702684",
