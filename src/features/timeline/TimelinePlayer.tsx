@@ -203,18 +203,23 @@ export function TimelinePlayer() {
 
         <div className="relative flex-1 flex flex-col justify-center">
           <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 pointer-events-none">
-            {TICK_MARKS.map((tick) => (
+            {TICK_MARKS.map((tick, ti) => {
+              const isCurrent =
+                currentYear >= tick.year &&
+                (ti === TICK_MARKS.length - 1 || currentYear < TICK_MARKS[ti + 1].year)
+              return (
               <div
                 key={tick.year}
                 className="absolute -translate-x-1/2 group"
                 style={{ left: `${yearToPercent(tick.year)}%` }}
               >
-                <div className="w-px h-3 bg-slate-500/30 mx-auto" />
-                <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] uppercase tracking-[0.18em] text-amber-200/35 pointer-events-none z-10">
+                <div className={`w-px h-3 mx-auto ${isCurrent ? 'bg-amber-400/70' : 'bg-slate-500/30'}`} />
+                <div className={`absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] uppercase tracking-[0.18em] pointer-events-none z-10 transition-colors duration-500 ${isCurrent ? 'text-amber-300/90' : 'text-amber-200/35'}`}>
                   {tick.label}
                 </div>
               </div>
-            ))}
+              )
+            })}
           </div>
 
           <input
