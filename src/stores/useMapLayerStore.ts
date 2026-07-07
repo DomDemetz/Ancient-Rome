@@ -1088,7 +1088,10 @@ export function getPersistedLayers(): string[] | null {
     const raw = localStorage.getItem(LAYERS_STORAGE_KEY)
     if (!raw) return null
     const arr = JSON.parse(raw)
-    return Array.isArray(arr) ? arr.filter((k) => ALL_LAYER_KEYS.includes(k)) : null
+    const validDataset = new Set(DATASET_REGISTRY.map((d) => `showDataset:${d.id}`))
+    return Array.isArray(arr)
+      ? arr.filter((k) => ALL_LAYER_KEYS.includes(k) || validDataset.has(k))
+      : null
   } catch {
     return null
   }
@@ -1100,9 +1103,14 @@ useMapLayerStore.subscribe((state) => {
   persistTimer = setTimeout(() => {
     persistTimer = null
     try {
-      const active = ALL_LAYER_KEYS.filter(
+      const active: string[] = ALL_LAYER_KEYS.filter(
         (k) => (state as unknown as Record<string, unknown>)[k] === true,
       )
+      // dataset toggles are layers too — without these, refresh silently
+      // dropped shipwrecks/temples/villas from a saved view
+      for (const [id, ds] of Object.entries(state.datasetState)) {
+        if (ds?.show) active.push(`showDataset:${id}`)
+      }
       localStorage.setItem(LAYERS_STORAGE_KEY, JSON.stringify(active))
     } catch {
       /* storage unavailable (private mode) — persistence is best-effort */
