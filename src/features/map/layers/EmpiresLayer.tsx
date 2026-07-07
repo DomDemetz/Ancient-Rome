@@ -41,6 +41,15 @@ function polityColor(name: string): string {
   return POLITY_PALETTE[h % POLITY_PALETTE.length]
 }
 
+/** Border ink: the polity's own color darkened ~40% — the paper-atlas
+ *  convention (crisp state edges, no added hue noise). */
+function polityBorder(name: string): string {
+  const hex = polityColor(name)
+  const n = parseInt(hex.slice(1), 16)
+  const d = (v: number) => Math.round(v * 0.58)
+  return `rgb(${d(n >> 16)}, ${d((n >> 8) & 255)}, ${d(n & 255)})`
+}
+
 /** Cartographic type tiers: the size of the name encodes the size of the
  *  state — great empires speak louder than duchies. */
 function labelTier(area: number): string {
@@ -105,9 +114,9 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
             data={e.geometry as GeoJSON.GeometryObject}
             pane="empiresFill"
             style={{
-              color,
-              weight: 1,
-              opacity: 0.55,
+              color: polityBorder(e.name),
+              weight: 1.4,
+              opacity: 0.9,
               fillColor: color,
               fillOpacity: 1, // pane supplies the group translucency
               pane: 'empiresFill',
