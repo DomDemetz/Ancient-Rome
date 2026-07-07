@@ -483,21 +483,9 @@ export function SearchBar() {
     if (item.id.startsWith('site-')) {
       const rest = item.id.slice(5) // strip 'site-'
       const dashIdx = rest.indexOf('-')
-      const siteType = dashIdx >= 0 ? rest.slice(0, dashIdx) : rest
-      const siteId = dashIdx >= 0 ? rest.slice(dashIdx + 1) : ''
-      const crPrefixes: Record<string, string> = {
-        building: 'building',
-        amphitheater: 'amphitheater',
-        tomb: 'discovery-tomb',
-        villa: 'discovery-villa',
-        temple: 'discovery-temple',
-        bridge: 'discovery-bridge',
-        mine: 'mine',
-        aqueduct: 'aqueduct',
-      }
-      const crPrefix = crPrefixes[siteType]
-      if (crPrefix) {
-        useFeatureDetailStore.getState().openFeature(`${crPrefix}:${siteId}`, 'crossref')
+      const entityId = dashIdx >= 0 ? rest.slice(dashIdx + 1) : ''
+      if (entityId) {
+        useFeatureDetailStore.getState().openFeature(entityId, 'crossref')
       }
     }
 

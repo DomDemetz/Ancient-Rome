@@ -2,7 +2,6 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import type { UnifiedEntity } from '@/data/unified'
 import type { DatasetConfig } from '@/data/datasetRegistry'
-import type { CrossRefEnrichment } from '@/data/wiki'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useCrossRef } from '@/hooks/useWikiEnrichment'
@@ -23,7 +22,6 @@ interface UnifiedLayerProps {
   config?: DatasetConfig
   color?: string
   fillColor?: string
-  crPrefix?: string
 }
 
 function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridSize: number): T[] {
@@ -36,11 +34,6 @@ function spatialSample<T extends { lat: number; lng: number }>(items: T[], gridS
   })
 }
 
-function stripPrefix(id: string): string {
-  const i = id.indexOf(':')
-  return i >= 0 ? id.slice(i + 1) : id
-}
-
 function getField(e: UnifiedEntity, field: string): string {
   if (field === 'subtype') return e.subtype ?? ''
   if (field === 'category') return e.category ?? ''
@@ -48,7 +41,7 @@ function getField(e: UnifiedEntity, field: string): string {
   return ((e as unknown as Record<string, string>)[field] as string) ?? ''
 }
 
-export function UnifiedLayer({ data, config, color, fillColor, crPrefix }: UnifiedLayerProps) {
+export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const crossRef = useCrossRef()
   // consolidated graph-keyed knowledge (extract + thumbnail, one lookup)
@@ -62,7 +55,6 @@ export function UnifiedLayer({ data, config, color, fillColor, crPrefix }: Unifi
   const temporal = config?.temporalFilter ?? false
   const colorField = config?.colorField
   const colorMap = config?.colorMap
-  const entityPrefix = crPrefix ?? config?.id
 
   const visible = useMemo(() => {
     if (zoom < minZoom) return []
@@ -125,16 +117,11 @@ export function UnifiedLayer({ data, config, color, fillColor, crPrefix }: Unifi
         }
 
         const k = knowledge?.[e.id]
-        let cr: CrossRefEnrichment | undefined
-        let crKey: string | undefined
-        if (entityPrefix) {
-          crKey = `${entityPrefix}:${stripPrefix(e.id)}`
-          cr = crossRef?.[crKey]
-        }
+        const cr = crossRef?.[e.id]
         if (k?.extract) {
           html = appendWikiTooltip(html, e.id, knowledge, 'knowledge-features')
-        } else if (cr && crKey) {
-          html = appendCrossRefTooltip(html, cr, { crKey })
+        } else if (cr) {
+          html = appendCrossRefTooltip(html, cr, { crKey: e.id })
         }
 
         return (
