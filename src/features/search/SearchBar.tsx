@@ -78,6 +78,7 @@ import { useMapNavStore } from '@/stores/useMapNavStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entityColors, entityLabels } from '@/lib/colors'
+import { formatYear } from '@/lib/geo'
 import { Input } from '@/ui/input'
 import type { Entity } from '@/types'
 
@@ -119,6 +120,7 @@ interface SearchItem {
   year?: number // for time-filtered features (battle/shipwreck/legion) — jump the timeline so the marker is actually visible on arrival
   lifespan?: [number, number] // cities: only jump time if outside this range
   zoom?: number // flyTo zoom override (empires want ~4, not 9)
+  sub?: string // right-aligned secondary line (reign, year, role) — eight Constantines need telling apart
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -222,6 +224,7 @@ export function SearchBar() {
         category: 'Emperor',
         color: CATEGORY_COLORS.emperor,
         year: Math.round((e.s + e.e) / 2), // mid-reign, so the banner shows them
+        sub: `r. ${formatYear(e.s)} \u2013 ${formatYear(e.e)}`
       })
     }
 
@@ -235,6 +238,7 @@ export function SearchBar() {
         lat: b.lat,
         lng: b.lng,
         year: b.y,
+        sub: formatYear(b.y),
       })
     }
 
@@ -250,6 +254,7 @@ export function SearchBar() {
         year: e.p,
         lifespan: [e.s, e.e],
         zoom: 4,
+        sub: `${formatYear(e.s)} \u2013 ${formatYear(e.e)}`,
       })
     }
 
@@ -263,6 +268,7 @@ export function SearchBar() {
         lat: p.lat,
         lng: p.lng,
         year: p.b > 0 ? p.b : p.d != null ? p.d : undefined,
+        sub: p.r,
       })
     }
 
@@ -579,6 +585,11 @@ export function SearchBar() {
               {item.category}
             </span>
             <span className="text-slate-100 truncate">{item.name}</span>
+            {item.sub && (
+              <span className="ml-auto pl-2 text-[10px] text-slate-500 shrink-0 tabular-nums">
+                {item.sub}
+              </span>
+            )}
           </button>
         </li>
       ))}
