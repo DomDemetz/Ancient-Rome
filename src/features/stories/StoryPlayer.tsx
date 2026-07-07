@@ -42,7 +42,7 @@ export function StoryPlayer({ onStart }: StoryPlayerProps) {
             </div>
             <button
               onClick={() => onStart(story)}
-              className="shrink-0 px-4 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-white text-[10px] font-bold uppercase tracking-[0.15em] shadow-lg shadow-amber-900/30 active:scale-[0.97] transition-all"
+              className="shrink-0 px-4 py-2 rounded-full border border-amber-500/40 text-amber-400 hover:bg-amber-600 hover:border-amber-600 hover:text-white text-[10px] font-bold uppercase tracking-[0.15em] active:scale-[0.97] transition-all"
             >
               Start
             </button>

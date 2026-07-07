@@ -344,7 +344,10 @@ export function SearchBar() {
     const q = query.trim().toLowerCase()
     const PRIORITY: Record<string, number> = {
       City: 0,
-      Location: 0,
+      // legacy graph markers rank below cities: same name+coords dedupe
+      // then keeps the richer City result (flies, time-jumps, and its node
+      // popup carries the entity connections anyway)
+      Location: 1,
       Emperor: 1,
       Battle: 1,
       Legion: 2,
