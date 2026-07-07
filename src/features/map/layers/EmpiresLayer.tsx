@@ -75,9 +75,13 @@ function polityColor(name: string, memberOf?: string): string {
     const adj = v + step * 0.06 * (step > 0 ? 255 - v : v)
     return Math.max(0, Math.min(255, Math.round(adj)))
   }
-  return `#${f(n >> 16).toString(16).padStart(2, '0')}${f((n >> 8) & 255)
+  return `#${f(n >> 16)
     .toString(16)
-    .padStart(2, '0')}${f(n & 255).toString(16).padStart(2, '0')}`
+    .padStart(2, '0')}${f((n >> 8) & 255)
+    .toString(16)
+    .padStart(2, '0')}${f(n & 255)
+    .toString(16)
+    .padStart(2, '0')}`
 }
 
 /** Border ink: the polity's own color darkened ~40% — the paper-atlas
@@ -95,6 +99,22 @@ function labelTier(area: number): string {
   if (area >= 2000000) return 'empire-label--vast'
   if (area >= 600000) return 'empire-label--large'
   return ''
+}
+
+/** Approximate rendered half-width of a polity name in px. Uppercase serif
+ *  runs ~0.68em per glyph plus the tier's letter-spacing (kept in sync with
+ *  the .empire-label CSS). The declutter must see real widths — a fixed
+ *  110px box let PRINCIPALITY OF GALICIA-VOLHYNIA and PRINCIPALITY OF
+ *  PEREYASLAVL print through each other at 1223. */
+function labelHalfWidth(name: string, area: number): number {
+  const tier = labelTier(area)
+  const [size, tracking] =
+    tier === 'empire-label--vast'
+      ? [17, 0.34]
+      : tier === 'empire-label--large'
+        ? [14, 0.26]
+        : [11, 0.22]
+  return (name.length * size * (0.68 + tracking)) / 2
 }
 
 /** Minimum polity area (km²) that earns a name label at a given zoom. */
@@ -128,13 +148,19 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
   const labeled = useMemo(() => {
     const min = labelMinArea(zoom)
     const candidates = visible.filter((e) => e.area >= min).sort((a, b) => b.area - a.area)
-    const pxPerDegX = (256 * 2 ** zoom) / 360
+    // Collision space must BE screen space (Web Mercator): linear-lat y
+    // compressed vertical distances ~1.6x at Baltic latitudes, so labels
+    // 60px apart on screen read as "same row" and suppressed each other.
+    const worldPx = 256 * 2 ** zoom
+    const pxPerDegX = worldPx / 360
+    const mercX = (lng: number) => lng * pxPerDegX
+    const mercY = (lat: number) => {
+      const s = Math.sin((lat * Math.PI) / 180)
+      return (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * worldPx
+    }
     const obstacles = CITY_OBSTACLES.filter(
       (c) => c.s <= currentYearForObstacles && c.e >= currentYearForObstacles,
-    ).map((c) => [
-      c.lng * pxPerDegX * Math.cos((c.lat * Math.PI) / 180),
-      c.lat * pxPerDegX,
-    ])
+    ).map((c) => [mercX(c.lng), mercY(c.lat)])
     // Greedy declutter: biggest polities claim label space first; anything
     // whose anchor would land within ~1 label-height x ~8em of a placed
     // label is suppressed at this zoom (it reappears when zooming in).
@@ -180,33 +206,32 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       }))
       .sort((a, b) => b.area - a.area)
 
-    const placed: Array<[number, number]> = []
+    const placed: Array<[number, number, number]> = [] // x, y, half-width px
     // The territory layer prints ROME / BYZANTINE EMPIRE at fixed anchors
     // (shared imperialAnchors.ts). Seed them as PLACED
     // labels so colliding polity names are suppressed, not nudged — at
     // 1223 'LATIN EMPIRE' printed straight through 'BYZANTINE EMPIRE'.
     // Vast-tier names are ~3 boxes wide: claim a horizontal spread.
     for (const [alat, alng] of imperialAnchors(currentYearForObstacles)) {
-      const spreadDeg = (110 / (pxPerDegX * Math.cos((alat * Math.PI) / 180))) * 0.9
-      for (const dx of [-spreadDeg, 0, spreadDeg]) {
-        placed.push([
-          (alng + dx) * pxPerDegX * Math.cos((alat * Math.PI) / 180),
-          alat * pxPerDegX,
-        ])
+      for (const dx of [-99, 0, 99]) {
+        placed.push([mercX(alng) + dx, mercY(alat), 110])
       }
     }
     const out: Array<{ e: EmpireShape; dodge: number }> = []
     for (const e of [...famCandidates, ...candidates] as EmpireShape[]) {
-      const x = e.label[1] * pxPerDegX * Math.cos((e.label[0] * Math.PI) / 180)
-      let y = e.label[0] * pxPerDegX
-      if (placed.some(([px, py]) => Math.abs(px - x) < 110 && Math.abs(py - y) < 26)) continue
+      const x = mercX(e.label[1])
+      let y = mercY(e.label[0])
+      const halfW = labelHalfWidth(e.name, e.area)
+      if (placed.some(([px, py, pw]) => Math.abs(px - x) < pw + halfW && Math.abs(py - y) < 26))
+        continue
       // dodge a labeled city sitting inside the name's box: nudge north
       let dodge = 0
-      if (obstacles.some(([ox, oy]) => Math.abs(ox - x) < 100 && Math.abs(oy - y) < 22)) {
-        dodge = 0.32 * (360 / (256 * 2 ** zoom)) * 24 // ~24px in degrees
-        y += 24
+      if (obstacles.some(([ox, oy]) => Math.abs(ox - x) < halfW && Math.abs(oy - y) < 22)) {
+        // ~18px screen north, converted to degrees at this latitude
+        dodge = (18 * Math.cos((e.label[0] * Math.PI) / 180)) / pxPerDegX
+        y -= 18
       }
-      placed.push([x, y])
+      placed.push([x, y, halfW])
       out.push({ e, dodge })
     }
     return out
