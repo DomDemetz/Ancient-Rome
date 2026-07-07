@@ -742,3 +742,12 @@ input[type='range']::-moz-range-thumb {
 .empire-label--rome {
   color: #f4d9c0;
 }
+
+/* minor place names at detail zooms — quieter than the great cities */
+.city-label--minor {
+  font-size: 10px;
+  font-weight: 500;
+  color: #d9cdb4;
+  opacity: 0.78;
+  letter-spacing: 0.04em;
+}

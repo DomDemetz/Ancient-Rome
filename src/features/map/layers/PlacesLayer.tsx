@@ -141,6 +141,31 @@ export function PlacesLayer({
     })
   }, [data, zoom, bounds, currentYear, enabledTypes, hiddenCategories, showSettlements, showCities])
 
+  // Minor-name declutter (same greedy rule as empire labels): each name
+  // claims ~84x18px; later claimants in occupied space stay anonymous.
+  // Priority: knowledge-bearing nodes first, then stable by id.
+  const minorLabelIds = useMemo(() => {
+    if (zoom < 7) return new Set<string>()
+    const pxPerDegX = (256 * 2 ** zoom) / 360
+    const candidates = visible
+      .filter((p) => p.dare?.major && !(p.populations && p.populations.length))
+      .sort((a, b) => {
+        const ka = (a.wiki ? 2 : 0) + (a.vici ? 1 : 0)
+        const kb = (b.wiki ? 2 : 0) + (b.vici ? 1 : 0)
+        return kb - ka || a.id.localeCompare(b.id)
+      })
+    const placed: Array<[number, number]> = []
+    const out = new Set<string>()
+    for (const p of candidates) {
+      const x = p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180)
+      const y = p.lat * pxPerDegX
+      if (placed.some(([px, py]) => Math.abs(px - x) < 84 && Math.abs(py - y) < 18)) continue
+      placed.push([x, y])
+      out.add(p.id)
+    }
+    return out
+  }, [visible, zoom])
+
   return (
     <>
       {visible.map((p) => {
@@ -200,10 +225,21 @@ export function PlacesLayer({
             }}
             bubblingMouseEvents={false}
           >
-            {pop != null && pop >= labelMinPop(zoom) && (
+            {pop != null && pop >= labelMinPop(zoom) ? (
               <Tooltip permanent direction="top" className="city-label" offset={[0, -radius - 1]}>
                 {name}
               </Tooltip>
+            ) : (
+              minorLabelIds.has(p.id) && (
+                <Tooltip
+                  permanent
+                  direction="top"
+                  className="city-label city-label--minor"
+                  offset={[0, -radius - 1]}
+                >
+                  {name}
+                </Tooltip>
+              )
             )}
             <Popup key={knowledge ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span dangerouslySetInnerHTML={{ __html: popupHtml }} />
