@@ -158,6 +158,12 @@
   html {
     @apply font-sans;
   }
+  /* keyboard focus wears the house amber, not the browser's blue —
+     mouse/touch stay ringless via :focus-visible */
+  :focus-visible {
+    outline: 2px solid rgba(245, 158, 11, 0.55);
+    outline-offset: 2px;
+  }
 }
 
 /* Leaflet zoom controls — unified with app button system */
