@@ -7,7 +7,7 @@ import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import citiesSearchJson from '@/data/registry/cities-search.json'
 import { imperialAnchors } from './imperialAnchors'
-import { labelProjector } from './labelCollision'
+import { labelHalfWidth, labelProjector, labelTier } from './labelCollision'
 
 // labeled-city obstacles: the great cities carry their own labels, and an
 // empire name straddling one reads as a collision (Ottoman/Prusa, 1453)
@@ -92,30 +92,6 @@ function polityBorder(name: string, memberOf?: string): string {
   const n = parseInt(hex.slice(1), 16)
   const d = (v: number) => Math.round(v * 0.58)
   return `rgb(${d(n >> 16)}, ${d((n >> 8) & 255)}, ${d(n & 255)})`
-}
-
-/** Cartographic type tiers: the size of the name encodes the size of the
- *  state — great empires speak louder than duchies. */
-function labelTier(area: number): string {
-  if (area >= 2000000) return 'empire-label--vast'
-  if (area >= 600000) return 'empire-label--large'
-  return ''
-}
-
-/** Approximate rendered half-width of a polity name in px. Uppercase serif
- *  runs ~0.68em per glyph plus the tier's letter-spacing (kept in sync with
- *  the .empire-label CSS). The declutter must see real widths — a fixed
- *  110px box let PRINCIPALITY OF GALICIA-VOLHYNIA and PRINCIPALITY OF
- *  PEREYASLAVL print through each other at 1223. */
-function labelHalfWidth(name: string, area: number): number {
-  const tier = labelTier(area)
-  const [size, tracking] =
-    tier === 'empire-label--vast'
-      ? [17, 0.34]
-      : tier === 'empire-label--large'
-        ? [14, 0.26]
-        : [11, 0.22]
-  return (name.length * size * (0.68 + tracking)) / 2
 }
 
 /** Minimum polity area (km²) that earns a name label at a given zoom. */
