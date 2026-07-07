@@ -1,5 +1,5 @@
-import { useCallback, useMemo, useRef } from 'react'
-import { CircleMarker, useMap } from 'react-leaflet'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { UnifiedEntity } from '@/data/unified'
 import type { DatasetConfig } from '@/data/datasetRegistry'
@@ -84,8 +84,6 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
     return filtered
   }, [data, zoom, bounds, currentYear, minZoom, maxSample, temporal])
 
-  const baseRadius = zoom >= 8 ? 5 : zoom >= 7 ? 4 : zoom >= 5 ? 3 : 2
-
   const openPopup = useCallback(
     (e: UnifiedEntity) => {
       let html = `<div class="map-tooltip-title">${esc(e.name)}</div>`
@@ -125,29 +123,43 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
     },
     [knowledge, crossRef, map],
   )
+  const openPopupRef = useRef(openPopup)
+  useEffect(() => {
+    openPopupRef.current = openPopup
+  }, [openPopup])
 
-  return (
-    <>
-      {visible.map((e) => {
-        const itemFill =
-          colorField && colorMap ? (colorMap[getField(e, colorField)] ?? defaultFill) : defaultFill
+  const markersRef = useRef<L.CircleMarker[]>([])
 
-        return (
-          <CircleMarker
-            key={e.id}
-            center={[e.lat, e.lng]}
-            radius={baseRadius}
-            pathOptions={{
-              color: strokeColor,
-              weight: 0.5,
-              fillColor: itemFill,
-              fillOpacity: 0.7,
-            }}
-            bubblingMouseEvents={false}
-            eventHandlers={{ click: () => openPopup(e) }}
-          />
-        )
-      })}
-    </>
-  )
+  useEffect(() => {
+    for (const m of markersRef.current) m.remove()
+    markersRef.current = []
+
+    const baseRadius = zoom >= 8 ? 5 : zoom >= 7 ? 4 : zoom >= 5 ? 3 : 2
+
+    for (const e of visible) {
+      const itemFill =
+        colorField && colorMap ? (colorMap[getField(e, colorField)] ?? defaultFill) : defaultFill
+
+      const marker = L.circleMarker([e.lat, e.lng], {
+        radius: baseRadius,
+        color: strokeColor,
+        weight: 0.5,
+        fillColor: itemFill,
+        fillOpacity: 0.7,
+        bubblingMouseEvents: false,
+      })
+      marker.on('click', () => openPopupRef.current(e))
+      marker.addTo(map)
+      markersRef.current.push(marker)
+    }
+  }, [visible, zoom, map, strokeColor, defaultFill, colorField, colorMap])
+
+  useEffect(() => {
+    return () => {
+      for (const m of markersRef.current) m.remove()
+      markersRef.current = []
+    }
+  }, [])
+
+  return null
 }

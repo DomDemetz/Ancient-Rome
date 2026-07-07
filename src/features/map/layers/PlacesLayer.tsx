@@ -1,24 +1,7 @@
-import { useCallback, useMemo, useRef } from 'react'
-import { CircleMarker, Tooltip, useMap } from 'react-leaflet'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
-
-function populationAt(points: PlacePopulationPoint[], year: number): number | null {
-  if (points.length === 0) return null
-  if (year <= points[0].year) return points[0].population
-  if (year >= points[points.length - 1].year) return points[points.length - 1].population
-  for (let i = 0; i < points.length - 1; i++) {
-    const a = points[i]
-    const b = points[i + 1]
-    if (year >= a.year && year <= b.year) {
-      const span = b.year - a.year
-      if (span === 0) return a.population
-      const t = (year - a.year) / span
-      return Math.round(a.population + t * (b.population - a.population))
-    }
-  }
-  return null
-}
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
@@ -57,6 +40,23 @@ function labelMinPop(zoom: number): number {
   return 0
 }
 
+function populationAt(points: PlacePopulationPoint[], year: number): number | null {
+  if (points.length === 0) return null
+  if (year <= points[0].year) return points[0].population
+  if (year >= points[points.length - 1].year) return points[points.length - 1].population
+  for (let i = 0; i < points.length - 1; i++) {
+    const a = points[i]
+    const b = points[i + 1]
+    if (year >= a.year && year <= b.year) {
+      const span = b.year - a.year
+      if (span === 0) return a.population
+      const t = (year - a.year) / span
+      return Math.round(a.population + t * (b.population - a.population))
+    }
+  }
+  return null
+}
+
 function popAt(points: PlacePopulationPoint[], year: number): number | null {
   if (points.length === 0) return null
   // No extrapolation: outside the attested curve the node falls back to its
@@ -85,11 +85,18 @@ function popRadius(pop: number): number {
   return 3.5
 }
 
+interface MarkerEntry {
+  marker: L.CircleMarker
+  tooltipKey: string | null
+}
+
 /**
  * THE canonical place layer — renders the merged entity nodes (DARE +
  * Chandler + Pleiades + Wikidata, one node per real place; ENTITY-MODEL.md).
- * Population nodes render amber, sized by their interpolated population, and
- * carry zoom-aware labels; DARE-typed nodes keep the category legend styling.
+ *
+ * All markers are managed imperatively via Leaflet's L.circleMarker — no
+ * React elements for circles or tooltips. A diff against the previous
+ * visible set avoids rebuilding unchanged markers during timeline scrubs.
  */
 export function PlacesLayer({
   data,
@@ -101,13 +108,13 @@ export function PlacesLayer({
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-  // ONE lookup: consolidated knowledge keyed by canonical node id
-  // (extract + thumbnail + inline crossRef in a single store)
   const knowledge = useWikiEnrichment('knowledge-places')
   const sharedPopupRef = useRef<L.Popup | null>(null)
 
   const openPopup = useCallback(
-    (p: PlaceNode, pop: number | null, name: string) => {
+    (p: PlaceNode) => {
+      const pop = showCities && p.populations ? popAt(p.populations, currentYear) : null
+      const name = displayName(p, currentYear)
       const k = knowledge?.[p.id]
       const hasWiki = !!k?.extract
       let html = appendWikiTooltip(
@@ -140,8 +147,12 @@ export function PlacesLayer({
         .setContent(`<span>${html}</span>`)
         .openOn(map)
     },
-    [knowledge, currentYear, map],
+    [knowledge, currentYear, showCities, map],
   )
+  const openPopupRef = useRef(openPopup)
+  useEffect(() => {
+    openPopupRef.current = openPopup
+  }, [openPopup])
 
   const visible = useMemo(() => {
     return data.filter((p) => {
@@ -178,7 +189,7 @@ export function PlacesLayer({
       // zoom 6, a population node renders only if it earns a label at the
       // CURRENT year (ghost-dots from off-curve years included).
       if (hasPop && zoom <= 5) {
-        const cur = populationAt(p.populations!, currentYear)
+        const cur = popAt(p.populations!, currentYear)
         if (cur == null || cur < (zoom <= 4 ? 250000 : 120000)) return false
       }
 
@@ -295,69 +306,102 @@ export function PlacesLayer({
     return out
   }, [visible, zoom, currentYear])
 
-  return (
-    <>
-      {visible.map((p) => {
-        const pop = showCities && p.populations ? popAt(p.populations, currentYear) : null
-        const name = displayName(p, currentYear)
+  // --- imperative marker management (diff against previous visible set) ---
+  const markersRef = useRef(new Map<string, MarkerEntry>())
 
-        let color: string
-        let radius: number
-        let weight: number
-        const isGazetteer = (pop == null || pop <= 0) && p.dare?.type == null
-        if (pop != null && pop > 0) {
-          color = '#f59e0b'
-          radius = popRadius(pop)
-          weight = 1
-        } else {
-          const style = getSettlementStyle(
-            p.dare?.type ?? (p.minor ? 12 : 11),
-            p.dare?.major ?? false,
-            zoom,
-          )
-          color = style.color
-          radius = isGazetteer ? Math.max(1.5, style.radius - 1) : style.radius
-          weight = 0.5
-        }
+  useEffect(() => {
+    const entries = markersRef.current
+    const nextIds = new Set<string>()
 
-        const hasLabel =
-          (pop != null &&
-            pop >= labelMinPop(zoom) &&
-            (cityLabelIds == null || cityLabelIds.has(p.id))) ||
-          minorLabelIds.has(p.id)
+    for (const p of visible) {
+      nextIds.add(p.id)
 
-        return (
-          <CircleMarker
-            key={`${p.id}-${pop != null ? 'c' : 's'}`}
-            center={[p.lat, p.lng]}
-            radius={radius}
-            pathOptions={{
-              color: pop != null && pop > 0 ? '#fcd34d' : color,
-              fillColor: color,
-              fillOpacity: isGazetteer ? 0.45 : 0.8,
-              weight,
-            }}
-            bubblingMouseEvents={false}
-            eventHandlers={{ click: () => openPopup(p, pop, name) }}
-          >
-            {hasLabel &&
-              (pop != null && pop >= labelMinPop(zoom) ? (
-                <Tooltip permanent direction="top" className="city-label" offset={[0, -radius - 1]}>
-                  {name}
-                </Tooltip>
-              ) : (
-                <Tooltip
-                  permanent
-                  direction="top"
-                  className="city-label city-label--minor"
-                  offset={[0, -radius - 1]}
-                >
-                  {name}
-                </Tooltip>
-              ))}
-          </CircleMarker>
+      const pop = showCities && p.populations ? popAt(p.populations, currentYear) : null
+      const name = displayName(p, currentYear)
+
+      let color: string
+      let radius: number
+      let weight: number
+      const isGazetteer = (pop == null || pop <= 0) && p.dare?.type == null
+      if (pop != null && pop > 0) {
+        color = '#f59e0b'
+        radius = popRadius(pop)
+        weight = 1
+      } else {
+        const style = getSettlementStyle(
+          p.dare?.type ?? (p.minor ? 12 : 11),
+          p.dare?.major ?? false,
+          zoom,
         )
-      })}
-    </>
-  )
+        color = style.color
+        radius = isGazetteer ? Math.max(1.5, style.radius - 1) : style.radius
+        weight = 0.5
+      }
+
+      const strokeColor = pop != null && pop > 0 ? '#fcd34d' : color
+      const fillOpacity = isGazetteer ? 0.45 : 0.8
+
+      const hasLabel =
+        (pop != null &&
+          pop >= labelMinPop(zoom) &&
+          (cityLabelIds == null || cityLabelIds.has(p.id))) ||
+        minorLabelIds.has(p.id)
+      const isCity = pop != null && pop >= labelMinPop(zoom)
+      const tooltipKey = hasLabel ? `${name}|${isCity ? 'c' : 'm'}` : null
+
+      const existing = entries.get(p.id)
+      if (existing) {
+        existing.marker.setRadius(radius)
+        existing.marker.setStyle({ color: strokeColor, fillColor: color, fillOpacity, weight })
+        if (tooltipKey !== existing.tooltipKey) {
+          if (existing.tooltipKey != null) existing.marker.unbindTooltip()
+          if (hasLabel) {
+            existing.marker.bindTooltip(name, {
+              permanent: true,
+              direction: 'top',
+              className: isCity ? 'city-label' : 'city-label city-label--minor',
+              offset: [0, -radius - 1],
+            })
+          }
+          existing.tooltipKey = tooltipKey
+        }
+      } else {
+        const marker = L.circleMarker([p.lat, p.lng], {
+          radius,
+          color: strokeColor,
+          fillColor: color,
+          fillOpacity,
+          weight,
+          bubblingMouseEvents: false,
+        })
+        marker.on('click', () => openPopupRef.current(p))
+        if (hasLabel) {
+          marker.bindTooltip(name, {
+            permanent: true,
+            direction: 'top',
+            className: isCity ? 'city-label' : 'city-label city-label--minor',
+            offset: [0, -radius - 1],
+          })
+        }
+        marker.addTo(map)
+        entries.set(p.id, { marker, tooltipKey })
+      }
+    }
+
+    for (const [id, entry] of entries) {
+      if (!nextIds.has(id)) {
+        entry.marker.remove()
+        entries.delete(id)
+      }
+    }
+  }, [visible, minorLabelIds, cityLabelIds, currentYear, showCities, zoom, map])
+
+  useEffect(() => {
+    return () => {
+      for (const entry of markersRef.current.values()) entry.marker.remove()
+      markersRef.current.clear()
+    }
+  }, [])
+
+  return null
 }

@@ -1,5 +1,5 @@
-import { useCallback, useMemo, useRef } from 'react'
-import { CircleMarker, useMap } from 'react-leaflet'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
@@ -118,26 +118,38 @@ export function ViciLayer({ data }: ViciLayerProps) {
     },
     [map],
   )
+  const openPopupRef = useRef(openPopup)
+  useEffect(() => {
+    openPopupRef.current = openPopup
+  }, [openPopup])
 
-  return (
-    <>
-      {visible.map((s) => {
-        const color = TYPE_COLORS[s.siteType] || TYPE_COLORS.other
-        return (
-          <CircleMarker
-            key={s.id}
-            center={[s.lat, s.lng]}
-            radius={2}
-            pathOptions={{
-              color: 'transparent',
-              fillColor: color,
-              fillOpacity: 0.7,
-            }}
-            bubblingMouseEvents={false}
-            eventHandlers={{ click: () => openPopup(s) }}
-          />
-        )
-      })}
-    </>
-  )
+  const markersRef = useRef<L.CircleMarker[]>([])
+
+  useEffect(() => {
+    for (const m of markersRef.current) m.remove()
+    markersRef.current = []
+
+    for (const s of visible) {
+      const color = TYPE_COLORS[s.siteType] || TYPE_COLORS.other
+      const marker = L.circleMarker([s.lat, s.lng], {
+        radius: 2,
+        color: 'transparent',
+        fillColor: color,
+        fillOpacity: 0.7,
+        bubblingMouseEvents: false,
+      })
+      marker.on('click', () => openPopupRef.current(s))
+      marker.addTo(map)
+      markersRef.current.push(marker)
+    }
+  }, [visible, map])
+
+  useEffect(() => {
+    return () => {
+      for (const m of markersRef.current) m.remove()
+      markersRef.current = []
+    }
+  }, [])
+
+  return null
 }

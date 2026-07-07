@@ -1,5 +1,5 @@
-import { useCallback, useMemo, useRef } from 'react'
-import { CircleMarker, useMap } from 'react-leaflet'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
@@ -60,32 +60,45 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
     },
     [wikiLookup, crossRef, map],
   )
+  const openPopupRef = useRef(openPopup)
+  useEffect(() => {
+    openPopupRef.current = openPopup
+  }, [openPopup])
 
-  function getRadius(a: Amphitheater): number {
-    if (!a.capacity) return zoom >= 7 ? 4 : 3
-    if (a.capacity >= 40000) return zoom >= 7 ? 7 : 5
-    if (a.capacity >= 20000) return zoom >= 7 ? 6 : 4
-    if (a.capacity >= 10000) return zoom >= 7 ? 5 : 3.5
-    return zoom >= 7 ? 4 : 3
-  }
+  const markersRef = useRef<L.CircleMarker[]>([])
 
-  return (
-    <>
-      {visible.map((a) => (
-        <CircleMarker
-          key={a.id}
-          center={[a.lat, a.lng]}
-          radius={getRadius(a)}
-          pathOptions={{
-            color: '#8b4513',
-            weight: 1,
-            fillColor: '#d4a574',
-            fillOpacity: 0.85,
-          }}
-          bubblingMouseEvents={false}
-          eventHandlers={{ click: () => openPopup(a) }}
-        />
-      ))}
-    </>
-  )
+  useEffect(() => {
+    for (const m of markersRef.current) m.remove()
+    markersRef.current = []
+
+    for (const a of visible) {
+      let radius: number
+      if (!a.capacity) radius = zoom >= 7 ? 4 : 3
+      else if (a.capacity >= 40000) radius = zoom >= 7 ? 7 : 5
+      else if (a.capacity >= 20000) radius = zoom >= 7 ? 6 : 4
+      else if (a.capacity >= 10000) radius = zoom >= 7 ? 5 : 3.5
+      else radius = zoom >= 7 ? 4 : 3
+
+      const marker = L.circleMarker([a.lat, a.lng], {
+        radius,
+        color: '#8b4513',
+        weight: 1,
+        fillColor: '#d4a574',
+        fillOpacity: 0.85,
+        bubblingMouseEvents: false,
+      })
+      marker.on('click', () => openPopupRef.current(a))
+      marker.addTo(map)
+      markersRef.current.push(marker)
+    }
+  }, [visible, zoom, map])
+
+  useEffect(() => {
+    return () => {
+      for (const m of markersRef.current) m.remove()
+      markersRef.current = []
+    }
+  }, [])
+
+  return null
 }

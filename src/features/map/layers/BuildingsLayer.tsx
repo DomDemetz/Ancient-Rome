@@ -1,5 +1,5 @@
-import { useCallback, useMemo, useRef } from 'react'
-import { CircleMarker, useMap } from 'react-leaflet'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Building } from '@/data/buildings'
 import { useTimelineStore } from '@/stores/useTimelineStore'
@@ -22,6 +22,8 @@ const BUILDING_COLORS: Record<string, string> = {
   arch: '#c0392b',
   column: '#bdc3c7',
   palace: '#8e44ad',
+  villa: '#27ae60',
+  monument: '#95a5a6',
   library: '#2ecc71',
   amphitheater: '#d4a574',
   bridge: '#6baed6',
@@ -88,29 +90,41 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
     },
     [wikiLookup, crossRef, map],
   )
+  const openPopupRef = useRef(openPopup)
+  useEffect(() => {
+    openPopupRef.current = openPopup
+  }, [openPopup])
 
-  const baseRadius = zoom >= 9 ? 5 : zoom >= 7 ? 4 : 3
+  const markersRef = useRef<L.CircleMarker[]>([])
 
-  return (
-    <>
-      {visible.map((b) => {
-        const color = BUILDING_COLORS[b.buildingType] || '#95a5a6'
-        return (
-          <CircleMarker
-            key={b.id}
-            center={[b.lat, b.lng]}
-            radius={baseRadius}
-            pathOptions={{
-              color: '#2c3e50',
-              weight: 1,
-              fillColor: color,
-              fillOpacity: 0.85,
-            }}
-            bubblingMouseEvents={false}
-            eventHandlers={{ click: () => openPopup(b) }}
-          />
-        )
-      })}
-    </>
-  )
+  useEffect(() => {
+    for (const m of markersRef.current) m.remove()
+    markersRef.current = []
+
+    const baseRadius = zoom >= 9 ? 5 : zoom >= 7 ? 4 : 3
+
+    for (const b of visible) {
+      const color = BUILDING_COLORS[b.buildingType] || '#95a5a6'
+      const marker = L.circleMarker([b.lat, b.lng], {
+        radius: baseRadius,
+        color: '#2c3e50',
+        weight: 1,
+        fillColor: color,
+        fillOpacity: 0.85,
+        bubblingMouseEvents: false,
+      })
+      marker.on('click', () => openPopupRef.current(b))
+      marker.addTo(map)
+      markersRef.current.push(marker)
+    }
+  }, [visible, zoom, map])
+
+  useEffect(() => {
+    return () => {
+      for (const m of markersRef.current) m.remove()
+      markersRef.current = []
+    }
+  }, [])
+
+  return null
 }
