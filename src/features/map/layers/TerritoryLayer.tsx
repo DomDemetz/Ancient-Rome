@@ -214,8 +214,8 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
               // Opaque fill — the pane supplies the translucency, so overlapping
               // snapshots never darken or wash out.
               fillOpacity: shown ? 1 : 0,
-              weight: 1,
-              opacity: shown ? 0.9 : 0,
+              weight: 1.6,
+              opacity: shown ? 0.7 : 0,
               pane: 'territoryFill',
               className: 'territory-path',
             }}
