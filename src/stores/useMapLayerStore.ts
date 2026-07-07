@@ -225,13 +225,13 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
       {
         key: 'Vici',
-        label: 'All Sites (85K)',
+        label: 'All Sites',
         activeClass:
           'bg-emerald-900/80 border-emerald-700 text-emerald-100 hover:bg-emerald-800/80',
       },
       {
         key: 'NotablePeople',
-        label: 'Notable People (2.4K)',
+        label: 'Notable People',
         activeClass: 'bg-indigo-900/80 border-indigo-700 text-indigo-100 hover:bg-indigo-800/80',
       },
     ],
@@ -306,23 +306,23 @@ export const LAYER_GROUPS: LayerGroup[] = [
     layers: [
       {
         key: 'UnifiedVillas',
-        label: 'Villas (2.2K)',
+        label: 'Villas',
         activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
       },
       {
         key: 'UnifiedTemples',
-        label: 'Temples (1.3K)',
+        label: 'Temples',
         activeClass:
           'bg-fuchsia-900/80 border-fuchsia-700 text-fuchsia-100 hover:bg-fuchsia-800/80',
       },
       {
         key: 'UnifiedBridges',
-        label: 'Bridges (689)',
+        label: 'Bridges',
         activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
       },
       {
         key: 'UnifiedTombs',
-        label: 'Tombs (780)',
+        label: 'Tombs',
         activeClass: 'bg-gray-800/80 border-gray-600 text-gray-100 hover:bg-gray-700/80',
       },
     ],
