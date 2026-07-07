@@ -1,0 +1,62 @@
+{
+ "aqueduct": {
+  "file": "aqueduct.json",
+  "count": 1028,
+  "kb": 190
+ },
+ "bath": {
+  "file": "bath.json",
+  "count": 1144,
+  "kb": 201
+ },
+ "bridge": {
+  "file": "bridge.json",
+  "count": 2819,
+  "kb": 497
+ },
+ "cemetery": {
+  "file": "cemetery.json",
+  "count": 7650,
+  "kb": 1466
+ },
+ "fort": {
+  "file": "fort.json",
+  "count": 16924,
+  "kb": 2988
+ },
+ "mine": {
+  "file": "mine.json",
+  "count": 2600,
+  "kb": 451
+ },
+ "other": {
+  "file": "other.json",
+  "count": 16223,
+  "kb": 3350
+ },
+ "road": {
+  "file": "road.json",
+  "count": 6416,
+  "kb": 1252
+ },
+ "settlement": {
+  "file": "settlement.json",
+  "count": 13339,
+  "kb": 2400
+ },
+ "temple": {
+  "file": "temple.json",
+  "count": 6280,
+  "kb": 1199
+ },
+ "theater": {
+  "file": "theater.json",
+  "count": 1328,
+  "kb": 248
+ },
+ "villa": {
+  "file": "villa.json",
+  "count": 5963,
+  "kb": 1097
+ }
+}
