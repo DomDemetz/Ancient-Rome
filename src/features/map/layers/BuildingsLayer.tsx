@@ -3,7 +3,7 @@ import { CircleMarker, Popup } from 'react-leaflet'
 import type { Building } from '@/data/buildings'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
 
@@ -106,7 +106,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
                       const crKey = `building:${b.id}`
                       const crEntry = crossRef?.[crKey]
                       if (crEntry) {
-                        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+                        html = appendCrossRefTooltip(html, crEntry, { crKey })
                       }
                     }
                     return html

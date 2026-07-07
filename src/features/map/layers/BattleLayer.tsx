@@ -4,7 +4,7 @@ import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
 
@@ -112,7 +112,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
                       const crKey = `battle:${b.id}`
                       const crEntry = crossRef?.[crKey]
                       if (crEntry) {
-                        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(crKey)}" data-wiki-layer="crossref">Details</button></div>`
+                        html = appendCrossRefTooltip(html, crEntry, { crKey })
                       }
                     }
                     return html
