@@ -177,6 +177,10 @@ export interface CrossRefEnrichment {
   buildingType?: string
   imageUrl?: string
   wikidataDescription?: string
+  description?: string
+  qid?: string
+  label?: string
+  wikiUrl?: string
   sources?: string[]
 }
 

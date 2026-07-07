@@ -155,7 +155,7 @@ export function appendCrossRefTooltip(
     crHtml += `<img class="map-tooltip-thumb" src="${esc(cr.imageUrl)}" alt="" />`
   }
 
-  const displayDesc = desc && !isCiteOnly ? desc : cr.wikidataDescription
+  const displayDesc = desc && !isCiteOnly ? desc : (cr.wikidataDescription ?? cr.description)
   if (displayDesc) {
     const sentenceMatch = displayDesc.match(/^(.+?\.)\s+(?=[A-Z])/)
     const first = sentenceMatch?.[1] ?? displayDesc.split(/\.\s/)[0]

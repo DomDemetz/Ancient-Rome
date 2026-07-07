@@ -170,7 +170,8 @@ function CrossRefDetailContent({
           {(() => {
             const desc = cr.pleiadesDescription
             const isCiteOnly = desc?.startsWith('An ancient place, cited:')
-            const displayDesc = !desc || isCiteOnly ? cr.wikidataDescription : desc
+            const displayDesc =
+              !desc || isCiteOnly ? (cr.wikidataDescription ?? cr.description) : desc
             if (!displayDesc) return null
             return (
               <p className="text-sm text-slate-300 leading-relaxed">
