@@ -82,6 +82,9 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
     'amphitheaters',
   ),
   battles: makeLayerLoader(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
+  // graph-keyed consolidated knowledge: crossRef ships inline, no merge pass
+  'knowledge-places': async () => (await import('@/data/wiki')).loadKnowledgePlaces(),
+  'knowledge-features': async () => (await import('@/data/wiki')).loadKnowledgeFeatures(),
   cities: makeLayerLoader(
     async () => (await import('@/data/wiki')).loadSettlementWiki(),
     'settlements',

@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { DARE_TYPE_TO_CATEGORY, getSettlementStyle } from './settlementStyles'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -79,8 +79,9 @@ export function PlacesLayer({
 }: PlacesLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-  const setlWiki = useWikiEnrichment('settlements')
-  const crossRef = useCrossRef()
+  // ONE lookup: consolidated knowledge keyed by canonical node id
+  // (extract + thumbnail + inline crossRef in a single store)
+  const knowledge = useWikiEnrichment('knowledge-places')
 
   const visible = useMemo(() => {
     return data.filter((p) => {
@@ -155,35 +156,24 @@ export function PlacesLayer({
           weight = 0.5
         }
 
-        const wikiLookup = setlWiki
-        const wikiKey = p.wiki?.[1] ?? ''
-        const wikiLayer = p.wiki?.[0] ?? 'settlements'
-        const hasWiki = p.wiki && wikiLookup?.[wikiKey]
-        const crEntry =
-          !hasWiki && crossRef
-            ? (p.dare?.id && crossRef[`settlement:${p.dare.id}`]) ||
-              (p.pid && crossRef[`pleiades:${p.pid}`]) ||
-              null
-            : null
+        const k = knowledge?.[p.id]
+        const hasWiki = !!k?.extract
 
         let popupHtml = appendWikiTooltip(
           baseTooltipHtml(p, name, pop, currentYear),
-          wikiKey,
-          p.wiki ? wikiLookup : null,
-          wikiLayer,
+          p.id,
+          hasWiki ? knowledge : null,
+          'knowledge-places',
           p.entity,
         )
-        if (crEntry) {
-          const crKey =
-            (p.dare?.id && crossRef![`settlement:${p.dare.id}`] ? `settlement:${p.dare.id}` : '') ||
-            (p.pid && crossRef![`pleiades:${p.pid}`] ? `pleiades:${p.pid}` : '')
-          popupHtml = appendCrossRefTooltip(
-            popupHtml,
-            crEntry,
-            crKey ? { crKey, pid: p.pid, qid: p.qid } : undefined,
-          )
+        if (!hasWiki && k?.crossRef) {
+          popupHtml = appendCrossRefTooltip(popupHtml, k.crossRef, {
+            crKey: p.id,
+            pid: p.pid,
+            qid: p.qid,
+          })
         }
-        if (!hasWiki && !crEntry && (p.qid || p.pid)) {
+        if (!k && (p.qid || p.pid)) {
           const detailId = p.pid ? `pleiades:${p.pid}` : `settlement:${p.id}`
           popupHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(detailId)}" data-wiki-layer="crossref">Read more</button>`
         }
@@ -206,7 +196,7 @@ export function PlacesLayer({
                 {name}
               </Tooltip>
             )}
-            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
+            <Popup key={knowledge ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span dangerouslySetInnerHTML={{ __html: popupHtml }} />
             </Popup>
           </CircleMarker>

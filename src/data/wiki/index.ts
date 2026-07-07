@@ -99,6 +99,16 @@ export async function loadBattleWiki(): Promise<WikiLookup> {
   return loadJson<WikiLookup>(() => import('./battles-wiki.json'))
 }
 
+/** Consolidated graph-keyed knowledge (ENTITY-MODEL.md): key = canonical
+ *  node id. Single lookup replaces the per-layer wiki + cross-ref cascade. */
+export async function loadKnowledgePlaces(): Promise<WikiLookup> {
+  return loadJsonRaw<WikiLookup>(() => import('../knowledge/places.json?raw'))
+}
+
+export async function loadKnowledgeFeatures(): Promise<WikiLookup> {
+  return loadJsonRaw<WikiLookup>(() => import('../knowledge/features.json?raw'))
+}
+
 export async function loadSettlementWiki(): Promise<WikiLookup> {
   return loadJson<WikiLookup>(() => import('./settlements-wiki.json'))
 }

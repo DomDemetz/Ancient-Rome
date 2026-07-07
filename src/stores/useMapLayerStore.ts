@@ -1017,9 +1017,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleVici: () =>
     makeToggle('showVici', 'viciData', 'viciLoading', async () => {
-      const raw = await import('@/data/vici-sites.json?raw')
-      const data = { default: JSON.parse(raw.default) }
-      return { data: data.default }
+      // per-siteType chunks; node-merged points already excluded at build
+      const { loadViciSites } = await import('@/data/vici')
+      return { data: await loadViciSites() }
     })(set, get),
 
   togglePorts: () =>
