@@ -8,10 +8,12 @@ interface TradeNetworkLayerProps {
   data: TradeNetwork
 }
 
+// muted family — sea routes in a hushed slate-teal instead of loud cyan,
+// so the network reads as currents under the empires, not a cage over them
 const TRANSPORT_COLORS: Record<string, string> = {
-  road: '#d4a574',
-  sea: '#3498db',
-  river: '#2ecc71',
+  road: '#c2a077',
+  sea: '#6d93a8',
+  river: '#74a58e',
 }
 
 const SITE_COLORS: Record<string, string> = {
@@ -101,7 +103,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
     })
   }, [data.sites, zoom, bounds, currentYear])
 
-  const routeWeight = zoom >= 7 ? 2.5 : zoom >= 5 ? 2 : 1.5
+  const routeWeight = zoom >= 7 ? 2 : zoom >= 5 ? 1.4 : 1
   const siteRadius = zoom >= 7 ? 5 : zoom >= 5 ? 4 : 3
 
   return (
@@ -119,7 +121,7 @@ export function TradeNetworkLayer({ data }: TradeNetworkLayerProps) {
             pathOptions={{
               color,
               weight: routeWeight,
-              opacity: getTemporalOpacity(route.territoryYear, route.declineYear, currentYear, 0.6),
+              opacity: getTemporalOpacity(route.territoryYear, route.declineYear, currentYear, 0.45),
               dashArray,
             }}
           >

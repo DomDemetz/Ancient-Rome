@@ -737,3 +737,8 @@ input[type='range']::-moz-range-thumb {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   pointer-events: none;
 }
+
+/* Rome's own name — vast tier with an imperial warmth */
+.empire-label--rome {
+  color: #f4d9c0;
+}

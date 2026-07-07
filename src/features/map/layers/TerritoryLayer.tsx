@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { GeoJSON } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { Marker } from 'react-leaflet'
+import L from 'leaflet'
 import type { TerritorySnapshot } from '@/types'
 
 interface TerritoryLayerProps {
@@ -196,8 +198,37 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
     }
   }, [])
 
+  // The empire names itself, like every other state. A Mediterranean-
+  // wrapping empire has its centroid at sea, so the name anchors at the
+  // civilizational heart instead: Rome names itself from Italy, the
+  // Eastern Empire from Anatolia.
+  const NAME_ANCHORS: Record<string, [number, number]> = {
+    rome: [41.1, 14.9],
+    'eastern-empire': [39.2, 31.5],
+  }
+  const nameMarkers = active
+    .map((snap) => {
+      const label = (snap.label ?? '').split('—')[0].trim()
+      const anchor = NAME_ANCHORS[snap.id]
+      if (!label || !anchor || snap.status === 'lost') return null
+      return { id: snap.id, name: label.toUpperCase(), lat: anchor[0], lng: anchor[1] }
+    })
+    .filter((x): x is { id: string; name: string; lat: number; lng: number } => x !== null)
+
   return (
     <>
+      {nameMarkers.map((m) => (
+        <Marker
+          key={`name-${m.id}`}
+          position={[m.lat, m.lng]}
+          interactive={false}
+          icon={L.divIcon({
+            className: 'empire-label-wrap',
+            html: `<div class="empire-label empire-label--vast empire-label--rome">${m.name}</div>`,
+            iconSize: [0, 0],
+          })}
+        />
+      ))}
       {entries.map(({ key, snap, phase }) => {
         if (!snap.boundaries) return null
         const shown = phase === 'in' || phase === 'holding'
