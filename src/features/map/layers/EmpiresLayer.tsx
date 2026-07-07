@@ -7,6 +7,7 @@ import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import citiesSearchJson from '@/data/registry/cities-search.json'
 import { imperialAnchors } from './imperialAnchors'
+import { labelProjector } from './labelCollision'
 
 // labeled-city obstacles: the great cities carry their own labels, and an
 // empire name straddling one reads as a collision (Ottoman/Prusa, 1453)
@@ -148,16 +149,7 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
   const labeled = useMemo(() => {
     const min = labelMinArea(zoom)
     const candidates = visible.filter((e) => e.area >= min).sort((a, b) => b.area - a.area)
-    // Collision space must BE screen space (Web Mercator): linear-lat y
-    // compressed vertical distances ~1.6x at Baltic latitudes, so labels
-    // 60px apart on screen read as "same row" and suppressed each other.
-    const worldPx = 256 * 2 ** zoom
-    const pxPerDegX = worldPx / 360
-    const mercX = (lng: number) => lng * pxPerDegX
-    const mercY = (lat: number) => {
-      const s = Math.sin((lat * Math.PI) / 180)
-      return (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * worldPx
-    }
+    const { pxPerDegX, x: mercX, y: mercY } = labelProjector(zoom)
     const obstacles = CITY_OBSTACLES.filter(
       (c) => c.s <= currentYearForObstacles && c.e >= currentYearForObstacles,
     ).map((c) => [mercX(c.lng), mercY(c.lat)])

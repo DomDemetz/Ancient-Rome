@@ -26,6 +26,7 @@ import { useMapViewport } from '@/hooks/useMapViewport'
 import { baseTooltipHtml, displayName } from './placeTooltip'
 import empiresSearchJson from '@/data/registry/empires-search.json'
 import { imperialAnchors } from './imperialAnchors'
+import { labelProjector } from './labelCollision'
 
 interface PlacesLayerProps {
   data: PlaceNode[]
@@ -164,7 +165,7 @@ export function PlacesLayer({
   // Priority: knowledge-bearing nodes first, then stable by id.
   const minorLabelIds = useMemo(() => {
     if (zoom < 7) return new Set<string>()
-    const pxPerDegX = (256 * 2 ** zoom) / 360
+    const { x: mercX, y: mercY } = labelProjector(zoom)
     const candidates = visible
       .filter((p) => p.dare?.major && !(p.populations && p.populations.length))
       .sort((a, b) => {
@@ -182,13 +183,13 @@ export function PlacesLayer({
       e: number
     }>) {
       if (em.s <= currentYear && em.e >= currentYear) {
-        placed.push([em.lng * pxPerDegX * Math.cos((em.lat * Math.PI) / 180), em.lat * pxPerDegX])
+        placed.push([mercX(em.lng), mercY(em.lat)])
       }
     }
     // Rome/Byzantium name themselves from the territory layer (not in the
     // empires manifest) — shared anchors (imperialAnchors.ts)
     for (const [alat, alng] of imperialAnchors(currentYear)) {
-      placed.push([alng * pxPerDegX * Math.cos((alat * Math.PI) / 180), alat * pxPerDegX])
+      placed.push([mercX(alng), mercY(alat)])
     }
     // labeled population cities are obstacles too — Alsium was printing
     // straight through 'Rome'
@@ -196,13 +197,13 @@ export function PlacesLayer({
       if (!p.populations?.length) continue
       const cur = populationAt(p.populations, currentYear)
       if (cur != null && cur >= labelMinPop(zoom)) {
-        placed.push([p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180), p.lat * pxPerDegX])
+        placed.push([mercX(p.lng), mercY(p.lat)])
       }
     }
     const out = new Set<string>()
     for (const p of candidates) {
-      const x = p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180)
-      const y = p.lat * pxPerDegX
+      const x = mercX(p.lng)
+      const y = mercY(p.lat)
       if (placed.some(([px, py]) => Math.abs(px - x) < 84 && Math.abs(py - y) < 18)) continue
       placed.push([x, y])
       out.add(p.id)
@@ -215,7 +216,7 @@ export function PlacesLayer({
   // population claims the space; the loser keeps its dot and tooltip.
   const cityLabelIds = useMemo(() => {
     if (zoom >= 7) return null // enough room when zoomed in
-    const pxPerDegX = (256 * 2 ** zoom) / 360
+    const { x: mercX, y: mercY } = labelProjector(zoom)
     const min = labelMinPop(zoom)
     const labeled = visible
       .map((p) => ({ p, pop: p.populations ? populationAt(p.populations, currentYear) : null }))
@@ -226,8 +227,8 @@ export function PlacesLayer({
     const placed: Array<[number, number]> = []
     const out = new Set<string>()
     for (const { p } of labeled) {
-      const x = p.lng * pxPerDegX * Math.cos((p.lat * Math.PI) / 180)
-      const y = p.lat * pxPerDegX
+      const x = mercX(p.lng)
+      const y = mercY(p.lat)
       // tight box: only true stacking (Cairo grows ~5px from Memphis) —
       // neighbors like Gallipoli/Constantinople (~43px) both keep names
       if (placed.some(([px, py]) => Math.abs(px - x) < 40 && Math.abs(py - y) < 14)) continue
