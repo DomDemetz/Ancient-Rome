@@ -167,9 +167,32 @@ WRONG_TYPE_KEYWORDS = {
     'hotel', 'restaurant', 'shopping', 'mall', 'highway', 'motorway',
     'metro', 'tram', 'bus', 'football', 'soccer', 'cricket', 'basketball',
     'cemetery', 'parking', 'garage', 'cinema', 'theater',
-    'town hall', 'city hall', 'municipality', 'commune', 'installation sportive',
+    'town hall', 'city hall', 'installation sportive',
     'direzione didattica', 'fire station', 'police', 'post office',
     'kindergarten', 'nursery', 'supermarket', 'bank', 'pharmacy',
+}
+
+# Descriptions indicating the matched entity is NOT the feature we want
+WRONG_DESC_PATTERNS = {
+    'commune', 'municipality', 'city and commune', 'arrondissement',
+    'département', 'prefecture', 'chapel', 'church', 'cathedral',
+    'museum', 'castle', 'palace', 'monastery', 'abbey', 'mosque',
+    'synagogue', 'library', 'prison', 'gallery', 'collection',
+    'river', 'mountain', 'lake', 'tower', 'park', 'garden',
+    'samian ware', 'wasserschloss', 'listed building', 'nature reserve',
+}
+
+# These override WRONG_DESC_PATTERNS: if the description also contains one
+# of these words, the match might still be valid
+ANCIENT_CONTEXT_WORDS = {
+    'ancient', 'roman', 'archaeological', 'ruins', 'ruin', 'classical',
+    'hellenistic', 'byzantine', 'greco-roman', 'etruscan', 'punic',
+}
+
+# Entity types where city/commune matches are never valid
+SPECIFIC_FEATURE_TYPES = {
+    'amphitheater', 'aqueduct', 'mine', 'press', 'shipwreck',
+    'bridge', 'temple', 'tomb', 'villa',
 }
 
 def match_entity(entity, nearby, config):
@@ -242,6 +265,23 @@ def match_entity(entity, nearby, config):
 
     # Require either a type match or very high name overlap
     if best_match:
+        desc_lower = best_match.get('description', '').lower()
+        entity_type = entity.get('id', '').split(':')[0].replace('discovery-', '')
+
+        # Reject if description reveals a wrong entity type
+        if any(p in desc_lower for p in WRONG_DESC_PATTERNS):
+            has_ancient = any(w in desc_lower for w in ANCIENT_CONTEXT_WORDS)
+            if not has_ancient:
+                return None
+
+        # For specific feature types, reject generic city/town matches
+        if entity_type in SPECIFIC_FEATURE_TYPES:
+            city_words = {'town', 'village', 'city', 'settlement'}
+            if any(w in desc_lower.split() for w in city_words):
+                has_ancient = any(w in desc_lower for w in ANCIENT_CONTEXT_WORDS)
+                if not has_ancient:
+                    return None
+
         if best_match['type_match'] and best_match['total_score'] >= 0.4:
             return best_match
         if best_match['name_score'] >= 0.8 and best_match['total_score'] >= 0.7:
