@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { territories } from '@/data'
-import { useMapLayerStore } from '@/stores/useMapLayerStore'
+import { useMapLayerStore, getPersistedLayers } from '@/stores/useMapLayerStore'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
 import { RoadLayer } from './layers/RoadLayer'
@@ -117,7 +117,7 @@ function BasePane() {
     if (!map.getPane('territoryFill')) {
       const pane = map.createPane('territoryFill')
       pane.style.zIndex = '240'
-      pane.style.opacity = '0.4'
+      pane.style.opacity = '0.5'
     }
     if (!map.getPane('basePolygons')) {
       const pane = map.createPane('basePolygons')
@@ -182,9 +182,14 @@ export function MapView() {
     const params = new URLSearchParams(window.location.search)
     // Skip if story param in URL
     if (params.has('story')) return
-    // Open on the Economy preset: roads, streets and trade routes across the
-    // full network make the strongest first impression.
-    activatePreset('economy')
+    // A returning visitor gets their own layer selection back; first-timers
+    // open on the Economy preset (strongest first impression).
+    const saved = getPersistedLayers()
+    if (saved && saved.length > 0) {
+      useMapLayerStore.getState().setLayers(saved)
+    } else {
+      activatePreset('economy')
+    }
     // Don't clobber a shared/deep-linked year — useURLSync restores it.
     if (!params.has('year')) setYear(100)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps

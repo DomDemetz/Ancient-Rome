@@ -1160,3 +1160,36 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     Promise.all(promises).catch((err) => console.error('Failed to load story layers:', err))
   },
 }))
+
+// --- Layer-selection persistence -------------------------------------------
+// The chosen layer set survives a refresh (Dominik's ask): every toggle
+// change writes the active show* keys to localStorage; MapView restores
+// them on a fresh load via setLayers (which also lazy-loads their data).
+const LAYERS_STORAGE_KEY = 'atlas-layers-v1'
+
+export function getPersistedLayers(): string[] | null {
+  try {
+    const raw = localStorage.getItem(LAYERS_STORAGE_KEY)
+    if (!raw) return null
+    const arr = JSON.parse(raw)
+    return Array.isArray(arr) ? arr.filter((k) => ALL_LAYER_KEYS.includes(k)) : null
+  } catch {
+    return null
+  }
+}
+
+let persistTimer: ReturnType<typeof setTimeout> | null = null
+useMapLayerStore.subscribe((state) => {
+  if (persistTimer) return
+  persistTimer = setTimeout(() => {
+    persistTimer = null
+    try {
+      const active = ALL_LAYER_KEYS.filter(
+        (k) => (state as unknown as Record<string, unknown>)[k] === true,
+      )
+      localStorage.setItem(LAYERS_STORAGE_KEY, JSON.stringify(active))
+    } catch {
+      /* storage unavailable (private mode) — persistence is best-effort */
+    }
+  }, 500)
+})

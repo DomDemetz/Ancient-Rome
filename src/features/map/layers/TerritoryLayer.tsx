@@ -8,14 +8,16 @@ interface TerritoryLayerProps {
 }
 
 // Map status values to fill colors
+// Muted imperial crimson family — Rome keeps the red identity but wears
+// the same earth-mineral finish as the world's other polities.
 const STATUS_COLORS: Record<string, string> = {
-  controlled: '#c0392b',
-  allied: '#e89040',
-  contested: '#f1c40f',
-  lost: '#7f8c8d',
-  core: '#c0392b',
-  province: '#e74c3c',
-  client: '#e89040',
+  controlled: '#a35d50',
+  allied: '#b08a5a',
+  contested: '#b0975a',
+  lost: '#7d8585',
+  core: '#a35d50',
+  province: '#a86558',
+  client: '#b08a5a',
 }
 
 function getStatusColor(status: string): string {
@@ -206,12 +208,13 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
             interactive={false}
             pane="territoryFill"
             style={{
-              color: '#fff',
+              // darkened self-tone edge, same formula as the world layer
+              color: '#5f362e',
               fillColor: getStatusColor(snap.status),
               // Opaque fill — the pane supplies the translucency, so overlapping
               // snapshots never darken or wash out.
               fillOpacity: shown ? 1 : 0,
-              weight: 1.5,
+              weight: 1,
               opacity: shown ? 0.9 : 0,
               pane: 'territoryFill',
               className: 'territory-path',

@@ -115,8 +115,8 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
             pane="empiresFill"
             style={{
               color: polityBorder(e.name),
-              weight: 1.4,
-              opacity: 0.9,
+              weight: 1,
+              opacity: 0.55,
               fillColor: color,
               fillOpacity: 1, // pane supplies the group translucency
               pane: 'empiresFill',

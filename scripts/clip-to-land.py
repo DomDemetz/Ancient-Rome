@@ -22,7 +22,9 @@ t0 = time.time()
 land_fc = json.load(open(LAND_SRC))
 # pre-simplify the mask: 0.015 deg ≈ 1.5 km — invisible at our zooms,
 # keeps fjord coastlines from exploding the output size
-land_geoms = [shape(f["geometry"]).buffer(0).simplify(0.015) for f in land_fc["features"]]
+# +0.01 deg seaward buffer: fills reach the basemap's coast (no sliver
+# gaps); the ~1 km sea overlap is imperceptible under the stroke
+land_geoms = [shape(f["geometry"]).buffer(0).simplify(0.015).buffer(0.01) for f in land_fc["features"]]
 tree = STRtree(land_geoms)
 print(f"land mask: {len(land_geoms)} polygons loaded in {time.time()-t0:.1f}s")
 
