@@ -57,8 +57,7 @@ export function StatsOverlay() {
   const battlesData = useMapLayerStore((s) => s.battlesData)
   const showLegions = useMapLayerStore((s) => s.showLegions)
   const legionsData = useMapLayerStore((s) => s.legionsData)
-  const showShipwrecks = useMapLayerStore((s) => s.showShipwrecks)
-  const shipwrecksData = useMapLayerStore((s) => s.shipwrecksData)
+  const shipwrecksDs = useMapLayerStore((s) => s.datasetState.shipwrecks)
   const showCities = useMapLayerStore((s) => s.showCities)
   const placesData = useMapLayerStore((s) => s.placesData)
 
@@ -77,10 +76,13 @@ export function StatsOverlay() {
   }, [showLegions, legionsData, currentYear])
 
   const shipwreckCount = useMemo(() => {
-    if (!showShipwrecks || !shipwrecksData) return null
-    return shipwrecksData.filter((w) => w.startYear <= currentYear && w.endYear >= currentYear)
-      .length
-  }, [showShipwrecks, shipwrecksData, currentYear])
+    if (!shipwrecksDs?.show || !shipwrecksDs.data) return null
+    return shipwrecksDs.data.filter((w) => {
+      const start = w.startYear ?? 0
+      const end = w.endYear ?? 0
+      return start <= currentYear && end >= currentYear
+    }).length
+  }, [shipwrecksDs, currentYear])
 
   const romePopulation = useMemo(() => {
     if (!showCities || !placesData) return null

@@ -73,28 +73,29 @@ import type { Entity } from '@/types'
 
 const MAX_RESULTS = 8
 
-// Maps search categories to their layer visibility flag and toggle action
-const LAYER_MAP: Record<string, { show: string; toggle: string }> = {
+// Maps search categories to their layer visibility flag and toggle action.
+// `dataset` entries use the registry-driven datasetState system.
+const LAYER_MAP: Record<string, { show?: string; toggle?: string; dataset?: string }> = {
   Road: { show: 'showRoads', toggle: 'toggleRoads' },
   Settlement: { show: 'showSettlements', toggle: 'toggleSettlements' },
   Battle: { show: 'showBattles', toggle: 'toggleBattles' },
   Legion: { show: 'showLegions', toggle: 'toggleLegions' },
   Amphitheater: { show: 'showAmphitheaters', toggle: 'toggleAmphitheaters' },
-  Shipwreck: { show: 'showShipwrecks', toggle: 'toggleShipwrecks' },
-  Mine: { show: 'showMines', toggle: 'toggleMines' },
   Aqueduct: { show: 'showAqueducts', toggle: 'toggleAqueducts' },
-  'Religious site': { show: 'showReligion', toggle: 'toggleReligion' },
   Building: { show: 'showBuildings', toggle: 'toggleBuildings' },
-  Press: { show: 'showPresses', toggle: 'togglePresses' },
   City: { show: 'showCities', toggle: 'toggleCities' },
   Emperor: { show: 'showEmperors', toggle: 'toggleEmperors' },
   Empire: { show: 'showEmpires', toggle: 'toggleEmpires' },
-  Port: { show: 'showPorts', toggle: 'togglePorts' },
   Person: { show: 'showNotablePeople', toggle: 'toggleNotablePeople' },
-  Villa: { show: 'showUnifiedVillas', toggle: 'toggleUnifiedVillas' },
-  Temple: { show: 'showUnifiedTemples', toggle: 'toggleUnifiedTemples' },
-  Bridge: { show: 'showUnifiedBridges', toggle: 'toggleUnifiedBridges' },
-  Tomb: { show: 'showUnifiedTombs', toggle: 'toggleUnifiedTombs' },
+  Shipwreck: { dataset: 'shipwrecks' },
+  Mine: { dataset: 'mines' },
+  'Religious site': { dataset: 'religion' },
+  Press: { dataset: 'presses' },
+  Port: { dataset: 'ports' },
+  Villa: { dataset: 'villas' },
+  Temple: { dataset: 'temples' },
+  Bridge: { dataset: 'bridges' },
+  Tomb: { dataset: 'tombs' },
 }
 
 interface SearchItem {
@@ -154,13 +155,9 @@ export function SearchBar() {
       battlesData: s.battlesData,
       legionsData: s.legionsData,
       amphitheatersData: s.amphitheatersData,
-      shipwrecksData: s.shipwrecksData,
-      minesData: s.minesData,
       aqueductsData: s.aqueductsData,
-      religionData: s.religionData,
       buildingsData: s.buildingsData,
-      pressesData: s.pressesData,
-      portsData: s.portsData,
+      datasetState: s.datasetState,
     })),
   )
 
@@ -344,35 +341,6 @@ export function SearchBar() {
       }
     }
 
-    // Shipwrecks
-    if (layerData.shipwrecksData) {
-      for (const w of layerData.shipwrecksData) {
-        items.push({
-          id: `shipwreck-${w.id}`,
-          name: w.name,
-          category: 'Shipwreck',
-          color: CATEGORY_COLORS.shipwreck,
-          lat: w.lat,
-          lng: w.lng,
-          year: w.startYear,
-        })
-      }
-    }
-
-    // Mines
-    if (layerData.minesData) {
-      for (const m of layerData.minesData) {
-        items.push({
-          id: `mine-${m.id}`,
-          name: m.name,
-          category: 'Mine',
-          color: CATEGORY_COLORS.mine,
-          lat: m.lat,
-          lng: m.lng,
-        })
-      }
-    }
-
     // Aqueducts
     if (layerData.aqueductsData) {
       for (const a of layerData.aqueductsData) {
@@ -383,20 +351,6 @@ export function SearchBar() {
           color: CATEGORY_COLORS.aqueduct,
           lat: a.lat,
           lng: a.lng,
-        })
-      }
-    }
-
-    // Religious sites
-    if (layerData.religionData) {
-      for (const r of layerData.religionData) {
-        items.push({
-          id: `religion-${r.id}`,
-          name: r.name,
-          category: 'Religious site',
-          color: CATEGORY_COLORS.religion,
-          lat: r.lat,
-          lng: r.lng,
         })
       }
     }
@@ -415,31 +369,28 @@ export function SearchBar() {
       }
     }
 
-    // Presses
-    if (layerData.pressesData) {
-      for (const p of layerData.pressesData) {
-        items.push({
-          id: `press-${p.id}`,
-          name: p.name,
-          category: 'Press',
-          color: CATEGORY_COLORS.press,
-          lat: p.lat,
-          lng: p.lng,
-        })
-      }
+    // Dataset-driven layers (shipwrecks, mines, religion, presses, ports)
+    const dsCategories: Record<string, { category: string; color: string }> = {
+      shipwrecks: { category: 'Shipwreck', color: CATEGORY_COLORS.shipwreck },
+      mines: { category: 'Mine', color: CATEGORY_COLORS.mine },
+      religion: { category: 'Religious site', color: CATEGORY_COLORS.religion },
+      presses: { category: 'Press', color: CATEGORY_COLORS.press },
+      ports: { category: 'Port', color: CATEGORY_COLORS.port ?? '#3498db' },
     }
-
-    // Ports
-    if (layerData.portsData) {
-      for (const p of layerData.portsData) {
-        items.push({
-          id: `port-${p.id}`,
-          name: p.name,
-          category: 'Port',
-          color: CATEGORY_COLORS.port ?? '#3498db',
-          lat: p.lat,
-          lng: p.lng,
-        })
+    for (const [dsId, meta] of Object.entries(dsCategories)) {
+      const ds = layerData.datasetState[dsId]
+      if (ds?.data) {
+        for (const e of ds.data) {
+          items.push({
+            id: `${dsId}-${e.id}`,
+            name: e.name,
+            category: meta.category,
+            color: meta.color,
+            lat: e.lat,
+            lng: e.lng,
+            year: e.startYear || undefined,
+          })
+        }
       }
     }
 
@@ -562,11 +513,18 @@ export function SearchBar() {
     // Ensure the layer is visible
     const layerInfo = LAYER_MAP[item.category]
     if (layerInfo) {
-      const state = useMapLayerStore.getState() as unknown as Record<string, unknown>
-      const isVisible = state[layerInfo.show]
-      if (!isVisible) {
-        const toggle = state[layerInfo.toggle] as () => void
-        toggle()
+      if (layerInfo.dataset) {
+        const ds = useMapLayerStore.getState().datasetState[layerInfo.dataset]
+        if (!ds?.show) {
+          useMapLayerStore.getState().toggleDataset(layerInfo.dataset)
+        }
+      } else if (layerInfo.show) {
+        const state = useMapLayerStore.getState() as unknown as Record<string, unknown>
+        const isVisible = state[layerInfo.show]
+        if (!isVisible) {
+          const toggle = state[layerInfo.toggle!] as () => void
+          toggle()
+        }
       }
     }
 

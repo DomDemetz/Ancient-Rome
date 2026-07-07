@@ -1,11 +1,7 @@
-import type { Shipwreck } from '@/data/shipwrecks'
-import type { Mine } from '@/data/mines'
 import type { Aqueduct } from '@/data/aqueducts'
-import type { Press } from '@/data/presses'
 import type { Battle } from '@/data/battles'
 import type { Amphitheater } from '@/data/amphitheaters'
 import type { Building } from '@/data/buildings'
-import type { ReligiousSite } from '@/data/religion'
 
 export interface UnifiedEntity {
   id: string
@@ -18,6 +14,7 @@ export interface UnifiedEntity {
   qid?: string
   startYear?: number
   endYear?: number
+  estimatedTemporal?: boolean
   source: string
   description?: string
   props?: Record<string, unknown>
@@ -32,36 +29,6 @@ function parseChunk(raw: { default: string }): UnifiedEntity[] {
   return JSON.parse(raw.default) as UnifiedEntity[]
 }
 
-export async function loadShipwrecks(): Promise<Shipwreck[]> {
-  return parseChunk(await import('@/data/unified/shipwreck.json?raw')).map((e) => ({
-    id: stripPrefix(e.id),
-    name: e.name,
-    lat: e.lat,
-    lng: e.lng,
-    startYear: e.startYear ?? 0,
-    endYear: e.endYear ?? 0,
-    cargoType: (e.subtype as string) ?? null,
-    depth: (e.props?.depth as number) ?? null,
-    description: e.description ?? '',
-    source: e.source,
-  }))
-}
-
-export async function loadMines(): Promise<Mine[]> {
-  return parseChunk(await import('@/data/unified/mine.json?raw')).map((e) => ({
-    id: stripPrefix(e.id),
-    name: e.name,
-    lat: e.lat,
-    lng: e.lng,
-    resourceType: e.subtype ?? 'unknown',
-    siteType: ((e.props?.siteType as string) ?? 'mine') as 'mine' | 'quarry',
-    startYear: e.startYear ?? 0,
-    endYear: e.endYear ?? 0,
-    description: e.description ?? '',
-    source: e.source,
-  }))
-}
-
 export async function loadAqueductPoints(): Promise<Aqueduct[]> {
   return parseChunk(await import('@/data/unified/aqueduct.json?raw')).map((e) => ({
     id: stripPrefix(e.id),
@@ -73,46 +40,6 @@ export async function loadAqueductPoints(): Promise<Aqueduct[]> {
     builder: (e.props?.builder as string) ?? null,
     cityServed: (e.props?.cityServed as string) ?? '',
     description: e.description ?? '',
-    source: e.source,
-  }))
-}
-
-export async function loadPresses(): Promise<Press[]> {
-  return parseChunk(await import('@/data/unified/press.json?raw')).map((e) => ({
-    id: stripPrefix(e.id),
-    name: e.name,
-    lat: e.lat,
-    lng: e.lng,
-    pressType: ((e.subtype as string) ?? 'oil') as 'oil' | 'wine',
-    startYear: e.startYear ?? 0,
-    endYear: e.endYear ?? 0,
-    description: e.description ?? '',
-    source: e.source,
-  }))
-}
-
-export interface PortData {
-  id: string
-  name: string
-  lat: number
-  lng: number
-  portType: string
-  description: string
-  startYear: number
-  endYear: number
-  source: string
-}
-
-export async function loadPorts(): Promise<PortData[]> {
-  return parseChunk(await import('@/data/unified/port.json?raw')).map((e) => ({
-    id: stripPrefix(e.id),
-    name: e.name,
-    lat: e.lat,
-    lng: e.lng,
-    portType: e.subtype ?? 'port',
-    description: e.description ?? '',
-    startYear: e.startYear ?? 0,
-    endYear: e.endYear ?? 0,
     source: e.source,
   }))
 }
@@ -161,22 +88,6 @@ export async function loadBuildings(): Promise<Building[]> {
   }))
 }
 
-export async function loadReligion(): Promise<ReligiousSite[]> {
-  return parseChunk(await import('@/data/unified/religious-site.json?raw')).map((e) => ({
-    id: stripPrefix(e.id),
-    name: e.name,
-    lat: e.lat,
-    lng: e.lng,
-    religion: (e.props?.religion as string) ?? 'unknown',
-    siteType: e.subtype ?? 'unknown',
-    deity: (e.props?.deity as string) ?? null,
-    startYear: e.startYear ?? 0,
-    endYear: e.endYear ?? 0,
-    description: e.description ?? '',
-    source: e.source,
-  }))
-}
-
 const UNIFIED_LOADERS: Record<string, () => Promise<{ default: string }>> = {
   'press.json': () => import('@/data/unified/press.json?raw'),
   'shipwreck.json': () => import('@/data/unified/shipwreck.json?raw'),
@@ -197,20 +108,4 @@ export async function loadUnifiedDataset(file: string): Promise<UnifiedEntity[]>
   const loader = UNIFIED_LOADERS[file]
   if (!loader) throw new Error(`Unknown unified dataset: ${file}`)
   return parseChunk(await loader())
-}
-
-export async function loadDiscoveryVillas(): Promise<UnifiedEntity[]> {
-  return parseChunk(await import('@/data/unified/discovery-villa.json?raw'))
-}
-
-export async function loadDiscoveryTemples(): Promise<UnifiedEntity[]> {
-  return parseChunk(await import('@/data/unified/discovery-temple.json?raw'))
-}
-
-export async function loadDiscoveryBridges(): Promise<UnifiedEntity[]> {
-  return parseChunk(await import('@/data/unified/discovery-bridge.json?raw'))
-}
-
-export async function loadDiscoveryTombs(): Promise<UnifiedEntity[]> {
-  return parseChunk(await import('@/data/unified/discovery-tomb.json?raw'))
 }

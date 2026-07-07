@@ -10,17 +10,12 @@ import type { Battle } from '@/data/battles'
 import type { Amphitheater } from '@/data/amphitheaters'
 import type { Emperor } from '@/data/emperors'
 import type { Legion } from '@/data/legions'
-import type { Shipwreck } from '@/data/shipwrecks'
-import type { Mine } from '@/data/mines'
 import type { Aqueduct } from '@/data/aqueducts'
-import type { ReligiousSite } from '@/data/religion'
 import type { Building } from '@/data/buildings'
-import type { Press } from '@/data/presses'
 import type { TradeNetwork } from '@/data/trade'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
 import type { UnifiedEntity } from '@/data/unified'
-import type { PortData } from '@/data/unified'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 
 // --- Preset definitions ---
@@ -59,9 +54,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showItinereRoads',
       'showSettlements',
       'showCities',
-      'showShipwrecks',
-      'showMines',
-      'showPresses',
+      'showDataset:shipwrecks',
+      'showDataset:mines',
+      'showDataset:presses',
       'showTradeNetwork',
       'showAmphitheaters',
     ],
@@ -71,9 +66,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     description: 'From Jupiter to Christ — religious transformation',
     timelineYear: 200,
     layers: [
-      'showReligion',
+      'showDataset:religion',
       'showBuildings',
-      'showUnifiedTemples',
+      'showDataset:temples',
       'showSettlements',
       'showCities',
       'showProvinces',
@@ -95,8 +90,8 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showLimes',
       'showFortifications',
       'showAmphitheaters',
-      'showShipwrecks',
-      'showReligion',
+      'showDataset:shipwrecks',
+      'showDataset:religion',
     ],
   },
   engineering: {
@@ -111,7 +106,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showAmphitheaters',
       'showBuildings',
       'showAqueducts',
-      'showUnifiedBridges',
+      'showDataset:bridges',
       'showWater',
     ],
   },
@@ -350,21 +345,12 @@ export const ALL_LAYER_KEYS = [
   'showAmphitheaters',
   'showEmperors',
   'showLegions',
-  'showShipwrecks',
-  'showMines',
   'showAqueducts',
-  'showReligion',
   'showBuildings',
-  'showPresses',
   'showTradeNetwork',
   'showEpigraphy',
   'showVici',
-  'showPorts',
   'showNotablePeople',
-  'showUnifiedVillas',
-  'showUnifiedTemples',
-  'showUnifiedBridges',
-  'showUnifiedTombs',
 ] as const
 
 interface MapLayerState {
@@ -415,12 +401,6 @@ interface MapLayerState {
   showLegions: boolean
   legionsData: Legion[] | null
   legionsLoading: boolean
-  showShipwrecks: boolean
-  shipwrecksData: Shipwreck[] | null
-  shipwrecksLoading: boolean
-  showMines: boolean
-  minesData: Mine[] | null
-  minesLoading: boolean
   showAqueducts: boolean
   aqueductsData: Aqueduct[] | null
   aqueductLinesData: FeatureCollection | null
@@ -428,15 +408,9 @@ interface MapLayerState {
   senatorialProvincesData: FeatureCollection | null
 
   // Wave 3 layers
-  showReligion: boolean
-  religionData: ReligiousSite[] | null
-  religionLoading: boolean
   showBuildings: boolean
   buildingsData: Building[] | null
   buildingsLoading: boolean
-  showPresses: boolean
-  pressesData: Press[] | null
-  pressesLoading: boolean
   showTradeNetwork: boolean
   tradeNetworkData: TradeNetwork | null
   tradeNetworkLoading: boolean
@@ -446,28 +420,11 @@ interface MapLayerState {
   showVici: boolean
   viciData: unknown[] | null
   viciLoading: boolean
-  showPorts: boolean
-  portsData: PortData[] | null
-  portsLoading: boolean
   showNotablePeople: boolean
   notablePeopleData: NotablePerson[] | null
   notablePeopleLoading: boolean
 
-  // Discovery layers (per-type chunks from unified)
-  showUnifiedVillas: boolean
-  villasData: UnifiedEntity[] | null
-  villasLoading: boolean
-  showUnifiedTemples: boolean
-  templesData: UnifiedEntity[] | null
-  templesLoading: boolean
-  showUnifiedBridges: boolean
-  bridgesData: UnifiedEntity[] | null
-  bridgesLoading: boolean
-  showUnifiedTombs: boolean
-  tombsData: UnifiedEntity[] | null
-  tombsLoading: boolean
-
-  // Generic registry-driven datasets
+  // Registry-driven datasets
   datasetState: Record<string, { show: boolean; data: UnifiedEntity[] | null; loading: boolean }>
 
   // Settlement filtering
@@ -498,21 +455,12 @@ interface MapLayerActions {
   toggleAmphitheaters: () => void
   toggleEmperors: () => void
   toggleLegions: () => void
-  toggleShipwrecks: () => void
-  toggleMines: () => void
   toggleAqueducts: () => void
-  toggleReligion: () => void
   toggleBuildings: () => void
-  togglePresses: () => void
   toggleTradeNetwork: () => void
   toggleEpigraphy: () => void
   toggleVici: () => void
-  togglePorts: () => void
   toggleNotablePeople: () => void
-  toggleUnifiedVillas: () => void
-  toggleUnifiedTemples: () => void
-  toggleUnifiedBridges: () => void
-  toggleUnifiedTombs: () => void
   toggleDataset: (id: string) => void
   activatePreset: (preset: PresetName) => void
   setLayers: (keys: string[]) => void
@@ -668,14 +616,6 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadLegions } = await import('@/data/legions')
     return { legionsData: await loadLegions() }
   }),
-  showShipwrecks: ensureLoaded('shipwrecksData', 'shipwrecksLoading', async () => {
-    const { loadShipwrecks } = await import('@/data/unified')
-    return { shipwrecksData: await loadShipwrecks() }
-  }),
-  showMines: ensureLoaded('minesData', 'minesLoading', async () => {
-    const { loadMines } = await import('@/data/unified')
-    return { minesData: await loadMines() }
-  }),
   showAqueducts: ensureLoaded('aqueductsData', 'aqueductsLoading', async () => {
     const { loadAqueductPoints } = await import('@/data/unified')
     const [points, lines] = await Promise.all([
@@ -686,17 +626,9 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     ])
     return { aqueductsData: points, aqueductLinesData: lines }
   }),
-  showReligion: ensureLoaded('religionData', 'religionLoading', async () => {
-    const { loadReligion } = await import('@/data/unified')
-    return { religionData: await loadReligion() }
-  }),
   showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
     const { loadBuildings } = await import('@/data/unified')
     return { buildingsData: await loadBuildings() }
-  }),
-  showPresses: ensureLoaded('pressesData', 'pressesLoading', async () => {
-    const { loadPresses } = await import('@/data/unified')
-    return { pressesData: await loadPresses() }
   }),
   showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
     const { loadTradeNetwork } = await import('@/data/trade')
@@ -709,22 +641,6 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
   showNotablePeople: ensureLoaded('notablePeopleData', 'notablePeopleLoading', async () => {
     const { loadNotablePeople } = await import('@/data/people-layer')
     return { notablePeopleData: await loadNotablePeople() }
-  }),
-  showUnifiedVillas: ensureLoaded('villasData', 'villasLoading', async () => {
-    const { loadDiscoveryVillas } = await import('@/data/unified')
-    return { villasData: await loadDiscoveryVillas() }
-  }),
-  showUnifiedTemples: ensureLoaded('templesData', 'templesLoading', async () => {
-    const { loadDiscoveryTemples } = await import('@/data/unified')
-    return { templesData: await loadDiscoveryTemples() }
-  }),
-  showUnifiedBridges: ensureLoaded('bridgesData', 'bridgesLoading', async () => {
-    const { loadDiscoveryBridges } = await import('@/data/unified')
-    return { bridgesData: await loadDiscoveryBridges() }
-  }),
-  showUnifiedTombs: ensureLoaded('tombsData', 'tombsLoading', async () => {
-    const { loadDiscoveryTombs } = await import('@/data/unified')
-    return { tombsData: await loadDiscoveryTombs() }
   }),
 }
 
@@ -805,26 +721,14 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showLegions: false,
   legionsData: null,
   legionsLoading: false,
-  showShipwrecks: false,
-  shipwrecksData: null,
-  shipwrecksLoading: false,
-  showMines: false,
-  minesData: null,
-  minesLoading: false,
   showAqueducts: false,
   aqueductsData: null,
   aqueductLinesData: null,
   aqueductsLoading: false,
   senatorialProvincesData: null,
-  showReligion: false,
-  religionData: null,
-  religionLoading: false,
   showBuildings: false,
   buildingsData: null,
   buildingsLoading: false,
-  showPresses: false,
-  pressesData: null,
-  pressesLoading: false,
   showTradeNetwork: false,
   tradeNetworkData: null,
   tradeNetworkLoading: false,
@@ -834,24 +738,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showVici: false,
   viciData: null,
   viciLoading: false,
-  showPorts: false,
-  portsData: null,
-  portsLoading: false,
   showNotablePeople: false,
   notablePeopleData: null,
   notablePeopleLoading: false,
-  showUnifiedVillas: false,
-  villasData: null,
-  villasLoading: false,
-  showUnifiedTemples: false,
-  templesData: null,
-  templesLoading: false,
-  showUnifiedBridges: false,
-  bridgesData: null,
-  bridgesLoading: false,
-  showUnifiedTombs: false,
-  tombsData: null,
-  tombsLoading: false,
   datasetState: Object.fromEntries(
     DATASET_REGISTRY.map((d) => [d.id, { show: false, data: null, loading: false }]),
   ),
@@ -961,18 +850,6 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: await loadLegions() }
     })(set, get),
 
-  toggleShipwrecks: () =>
-    makeToggle('showShipwrecks', 'shipwrecksData', 'shipwrecksLoading', async () => {
-      const { loadShipwrecks } = await import('@/data/unified')
-      return { data: await loadShipwrecks() }
-    })(set, get),
-
-  toggleMines: () =>
-    makeToggle('showMines', 'minesData', 'minesLoading', async () => {
-      const { loadMines } = await import('@/data/unified')
-      return { data: await loadMines() }
-    })(set, get),
-
   toggleAqueducts: () =>
     makeToggle('showAqueducts', 'aqueductsData', 'aqueductsLoading', async () => {
       const { loadAqueductPoints } = await import('@/data/unified')
@@ -985,22 +862,10 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: points, extra: { aqueductLinesData: lines } }
     })(set, get),
 
-  toggleReligion: () =>
-    makeToggle('showReligion', 'religionData', 'religionLoading', async () => {
-      const { loadReligion } = await import('@/data/unified')
-      return { data: await loadReligion() }
-    })(set, get),
-
   toggleBuildings: () =>
     makeToggle('showBuildings', 'buildingsData', 'buildingsLoading', async () => {
       const { loadBuildings } = await import('@/data/unified')
       return { data: await loadBuildings() }
-    })(set, get),
-
-  togglePresses: () =>
-    makeToggle('showPresses', 'pressesData', 'pressesLoading', async () => {
-      const { loadPresses } = await import('@/data/unified')
-      return { data: await loadPresses() }
     })(set, get),
 
   toggleTradeNetwork: () =>
@@ -1022,40 +887,10 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: await loadViciSites() }
     })(set, get),
 
-  togglePorts: () =>
-    makeToggle('showPorts', 'portsData', 'portsLoading', async () => {
-      const { loadPorts } = await import('@/data/unified')
-      return { data: await loadPorts() }
-    })(set, get),
-
   toggleNotablePeople: () =>
     makeToggle('showNotablePeople', 'notablePeopleData', 'notablePeopleLoading', async () => {
       const { loadNotablePeople } = await import('@/data/people-layer')
       return { data: await loadNotablePeople() }
-    })(set, get),
-
-  toggleUnifiedVillas: () =>
-    makeToggle('showUnifiedVillas', 'villasData', 'villasLoading', async () => {
-      const { loadDiscoveryVillas } = await import('@/data/unified')
-      return { data: await loadDiscoveryVillas() }
-    })(set, get),
-
-  toggleUnifiedTemples: () =>
-    makeToggle('showUnifiedTemples', 'templesData', 'templesLoading', async () => {
-      const { loadDiscoveryTemples } = await import('@/data/unified')
-      return { data: await loadDiscoveryTemples() }
-    })(set, get),
-
-  toggleUnifiedBridges: () =>
-    makeToggle('showUnifiedBridges', 'bridgesData', 'bridgesLoading', async () => {
-      const { loadDiscoveryBridges } = await import('@/data/unified')
-      return { data: await loadDiscoveryBridges() }
-    })(set, get),
-
-  toggleUnifiedTombs: () =>
-    makeToggle('showUnifiedTombs', 'tombsData', 'tombsLoading', async () => {
-      const { loadDiscoveryTombs } = await import('@/data/unified')
-      return { data: await loadDiscoveryTombs() }
     })(set, get),
 
   toggleDataset: async (id: string) => {
@@ -1133,29 +968,98 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     for (const key of ALL_LAYER_KEYS) {
       update[key] = def.layers.includes(key)
     }
+    // Also handle dataset keys
+    const dsUpdate = { ...get().datasetState }
+    for (const ds of DATASET_REGISTRY) {
+      const dsKey = `showDataset:${ds.id}`
+      if (dsUpdate[ds.id]) {
+        dsUpdate[ds.id] = { ...dsUpdate[ds.id], show: def.layers.includes(dsKey) }
+      }
+    }
+    update.datasetState = dsUpdate
     set(update as Partial<MapLayerState>)
 
     const promises: Promise<void>[] = []
     for (const layerKey of def.layers) {
-      const load = LAYER_LOADERS[layerKey]
-      if (load) promises.push(load(set, get))
+      if (layerKey.startsWith('showDataset:')) {
+        const dsId = layerKey.slice('showDataset:'.length)
+        const ds = get().datasetState[dsId]
+        if (ds && !ds.data && !ds.loading) {
+          promises.push(
+            (async () => {
+              set({
+                datasetState: {
+                  ...get().datasetState,
+                  [dsId]: { ...get().datasetState[dsId], loading: true },
+                },
+              })
+              const { loadUnifiedDataset } = await import('@/data/unified')
+              const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
+              if (!cfg) return
+              const data = await loadUnifiedDataset(cfg.file)
+              set({
+                datasetState: {
+                  ...get().datasetState,
+                  [dsId]: { show: true, data, loading: false },
+                },
+              })
+            })(),
+          )
+        }
+      } else {
+        const load = LAYER_LOADERS[layerKey]
+        if (load) promises.push(load(set, get))
+      }
     }
     Promise.all(promises).catch((err) => console.error('Failed to load preset layers:', err))
   },
 
   setLayers: (keys: string[]) => {
-    // Set the exact visible layer set (used by story steps). Any keys not in
-    // ALL_LAYER_KEYS (e.g. the always-on 'showTerritories') are simply ignored.
     const update: Record<string, unknown> = { activePreset: 'custom' }
     for (const key of ALL_LAYER_KEYS) {
       update[key] = keys.includes(key)
     }
+    const dsUpdate = { ...get().datasetState }
+    for (const ds of DATASET_REGISTRY) {
+      const dsKey = `showDataset:${ds.id}`
+      if (dsUpdate[ds.id]) {
+        dsUpdate[ds.id] = { ...dsUpdate[ds.id], show: keys.includes(dsKey) }
+      }
+    }
+    update.datasetState = dsUpdate
     set(update as Partial<MapLayerState>)
 
     const promises: Promise<void>[] = []
     for (const layerKey of keys) {
-      const load = LAYER_LOADERS[layerKey]
-      if (load) promises.push(load(set, get))
+      if (layerKey.startsWith('showDataset:')) {
+        const dsId = layerKey.slice('showDataset:'.length)
+        const ds = get().datasetState[dsId]
+        if (ds && !ds.data && !ds.loading) {
+          promises.push(
+            (async () => {
+              set({
+                datasetState: {
+                  ...get().datasetState,
+                  [dsId]: { ...get().datasetState[dsId], loading: true },
+                },
+              })
+              const { loadUnifiedDataset } = await import('@/data/unified')
+              const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
+              if (!cfg) return
+              const data = await loadUnifiedDataset(cfg.file)
+              set({
+                datasetState: {
+                  ...get().datasetState,
+                  [dsId]: { show: true, data, loading: false },
+                },
+              })
+            })(),
+          )
+        }
+      } else {
+        const load = LAYER_LOADERS[layerKey]
+        if (load) promises.push(load(set, get))
+      }
     }
     Promise.all(promises).catch((err) => console.error('Failed to load story layers:', err))
   },

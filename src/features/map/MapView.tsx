@@ -19,16 +19,11 @@ import { ItinereRoadLayer } from './layers/ItinereRoadLayer'
 import { BattleLayer } from './layers/BattleLayer'
 import { AmphitheaterLayer } from './layers/AmphitheaterLayer'
 import { LegionDeploymentLayer } from './layers/LegionDeploymentLayer'
-import { ShipwreckLayer } from './layers/ShipwreckLayer'
-import { ResourcesLayer } from './layers/ResourcesLayer'
 import { AqueductLayer } from './layers/AqueductLayer'
-import { ReligionLayer } from './layers/ReligionLayer'
 import { BuildingsLayer } from './layers/BuildingsLayer'
-import { PressesLayer } from './layers/PressesLayer'
 import { TradeNetworkLayer } from './layers/TradeNetworkLayer'
 import { EpigraphyLayer } from './layers/EpigraphyLayer'
 import { ViciLayer } from './layers/ViciLayer'
-import { PortsLayer } from './layers/PortsLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
 import { UnifiedLayer } from './layers/UnifiedLayer'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
@@ -210,16 +205,11 @@ export function MapView() {
     showAmphitheaters,
     showEmperors,
     showLegions,
-    showShipwrecks,
-    showMines,
     showAqueducts,
-    showReligion,
     showBuildings,
-    showPresses,
     showTradeNetwork,
     showEpigraphy,
     showVici,
-    showPorts,
     showNotablePeople,
     roadsData,
     placesData,
@@ -235,27 +225,14 @@ export function MapView() {
     amphitheatersData,
     emperorsData,
     legionsData,
-    shipwrecksData,
-    minesData,
     aqueductsData,
     aqueductLinesData,
     senatorialProvincesData,
-    religionData,
     buildingsData,
-    pressesData,
     tradeNetworkData,
     epigraphyData,
     viciData,
-    portsData,
     notablePeopleData,
-    showUnifiedVillas,
-    villasData,
-    showUnifiedTemples,
-    templesData,
-    showUnifiedBridges,
-    bridgesData,
-    showUnifiedTombs,
-    tombsData,
     settlementTypes,
     hiddenCategories,
     toggleCategory,
@@ -287,12 +264,17 @@ export function MapView() {
   if (showItinereRoads) attribution += ' | Itiner-e data &copy; Pau de Soto, CC BY-NC 4.0'
   if (showBattles) attribution += ' | Battle data: Roman-Battles-Droid'
   if (showAmphitheaters) attribution += ' | Amphitheater data: roman-amphitheaters'
-  if (showShipwrecks) attribution += ' | Shipwreck data: DARMC/OxREP'
-  if (showMines) attribution += ' | Mining data: OxREP'
+  if (datasetState.shipwrecks?.show) attribution += ' | Shipwreck data: DARMC/OxREP'
+  if (datasetState.mines?.show) attribution += ' | Mining data: OxREP'
   if (showTradeNetwork) attribution += ' | ORBIS v2 &copy; Stanford University'
   if (showNotablePeople)
     attribution += ' | Notable People: Sciences-Po cross-verified database, CC-BY-SA'
-  if (showUnifiedVillas || showUnifiedTemples || showUnifiedBridges || showUnifiedTombs)
+  if (
+    datasetState.villas?.show ||
+    datasetState.temples?.show ||
+    datasetState.bridges?.show ||
+    datasetState.tombs?.show
+  )
     attribution += ' | Discovery: <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY)'
 
   return (
@@ -326,10 +308,6 @@ export function MapView() {
           {showRoads && roadsData && <RoadLayer data={roadsData} />}
           {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
           {showTradeNetwork && tradeNetworkData && <TradeNetworkLayer data={tradeNetworkData} />}
-          {showShipwrecks && shipwrecksData && <ShipwreckLayer data={shipwrecksData} />}
-          {showPorts && portsData && (
-            <PortsLayer data={portsData as Parameters<typeof PortsLayer>[0]['data']} />
-          )}
           {showVici && viciData && (
             <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
           )}
@@ -369,19 +347,7 @@ export function MapView() {
               {showAqueducts && aqueductsData && (
                 <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
               )}
-              {showMines && minesData && <ResourcesLayer data={minesData} />}
-              {showPresses && pressesData && <PressesLayer data={pressesData} />}
-
-              {/* Registry-driven datasets — renders any dataset toggled via
-                  toggleDataset() that doesn't have a dedicated layer above */}
-              {DATASET_REGISTRY.filter((cfg) => {
-                const ds = datasetState[cfg.id]
-                return ds?.show && ds.data
-              }).map((cfg) => (
-                <UnifiedLayer key={cfg.id} data={datasetState[cfg.id].data!} config={cfg} />
-              ))}
               {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
-              {showReligion && religionData && <ReligionLayer data={religionData} />}
               {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}
               {showAmphitheaters && amphitheatersData && (
                 <AmphitheaterLayer data={amphitheatersData} />
@@ -390,42 +356,16 @@ export function MapView() {
               {showNotablePeople && notablePeopleData && (
                 <NotablePeopleLayer data={notablePeopleData} />
               )}
-
-              {/* Unified entity layers — new Pleiades discoveries */}
-              {showUnifiedVillas && villasData && (
-                <UnifiedLayer
-                  data={villasData}
-                  color="#4d7c0f"
-                  fillColor="#84cc16"
-                  crPrefix="discovery-villa"
-                />
-              )}
-              {showUnifiedTemples && templesData && (
-                <UnifiedLayer
-                  data={templesData}
-                  color="#86198f"
-                  fillColor="#d946ef"
-                  crPrefix="discovery-temple"
-                />
-              )}
-              {showUnifiedBridges && bridgesData && (
-                <UnifiedLayer
-                  data={bridgesData}
-                  color="#0369a1"
-                  fillColor="#38bdf8"
-                  crPrefix="discovery-bridge"
-                />
-              )}
-              {showUnifiedTombs && tombsData && (
-                <UnifiedLayer
-                  data={tombsData}
-                  color="#374151"
-                  fillColor="#9ca3af"
-                  crPrefix="discovery-tomb"
-                />
-              )}
             </>
           )}
+
+          {/* Registry-driven datasets — all point layers configured via datasetRegistry */}
+          {DATASET_REGISTRY.filter((cfg) => {
+            const ds = datasetState[cfg.id]
+            return ds?.show && ds.data
+          }).map((cfg) => (
+            <UnifiedLayer key={cfg.id} data={datasetState[cfg.id].data!} config={cfg} />
+          ))}
 
           {/* Battles render in every era — the Byzantine centuries have their
               own pivotal sieges (Constantinople 674, 717, 1204, 1453; Manzikert). */}
