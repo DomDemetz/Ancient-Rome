@@ -43,24 +43,6 @@ export interface PlaceNode {
   populations?: PlacePopulationPoint[]
 }
 
-/** Linear-interpolate a place's population at `year` from its sampled curve. */
-export function populationAt(points: PlacePopulationPoint[], year: number): number | null {
-  if (points.length === 0) return null
-  if (year <= points[0].year) return points[0].population
-  if (year >= points[points.length - 1].year) return points[points.length - 1].population
-  for (let i = 0; i < points.length - 1; i++) {
-    const a = points[i]
-    const b = points[i + 1]
-    if (year >= a.year && year <= b.year) {
-      const span = b.year - a.year
-      if (span === 0) return a.population
-      const t = (year - a.year) / span
-      return Math.round(a.population + t * (b.population - a.population))
-    }
-  }
-  return null
-}
-
 import { loadJsonRaw } from '@/data/loadJson'
 
 export async function loadPlaces(): Promise<PlaceNode[]> {
