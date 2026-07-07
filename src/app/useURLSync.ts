@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
 
 // Keep in sync with TimelinePlayer's domain.
 const MIN_YEAR = -753
@@ -14,6 +15,7 @@ export function useURLSync() {
   const setYear = useTimelineStore((s) => s.setYear)
   const switchLens = useUIStore((s) => s.switchLens)
   const atlasMode = useUIStore((s) => s.atlasMode)
+  const flyTo = useMapNavStore((s) => s.flyTo)
 
   // Read URL on mount
   useEffect(() => {
@@ -36,6 +38,18 @@ export function useURLSync() {
         switchLens(lens as 'graph' | 'map' | 'timeline' | 'stats')
       }
     }
+
+    const latParam = params.get('lat')
+    const lngParam = params.get('lng')
+    const zoomParam = params.get('z')
+    if (latParam && lngParam) {
+      const lat = Number(latParam)
+      const lng = Number(lngParam)
+      const zoom = zoomParam ? Number(zoomParam) : 5
+      if (Number.isFinite(lat) && Number.isFinite(lng) && Number.isFinite(zoom)) {
+        flyTo(lat, lng, zoom)
+      }
+    }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Write URL on state changes — single batched update to prevent race
@@ -49,6 +63,7 @@ export function useURLSync() {
         const selectedId = useSelectionStore.getState().selectedId
         const { currentYear } = useTimelineStore.getState()
         const { lens, atlasMode: isAtlas, activeStoryId } = useUIStore.getState()
+        const mapView = useMapNavStore.getState().mapView
         setSearchParams(
           (prev) => {
             if (selectedId) prev.set('entity', selectedId)
@@ -58,6 +73,11 @@ export function useURLSync() {
             else prev.delete('story')
             if (!isAtlas) prev.set('lens', lens)
             else prev.delete('lens')
+            if (mapView) {
+              prev.set('lat', mapView.lat.toFixed(2))
+              prev.set('lng', mapView.lng.toFixed(2))
+              prev.set('z', String(mapView.zoom))
+            }
             return prev
           },
           { replace: true },
@@ -74,6 +94,9 @@ export function useURLSync() {
       useTimelineStore.subscribe((s, prevState) => {
         if (s.playing) return
         if (s.currentYear !== prevState.currentYear || prevState.playing) scheduleSync()
+      }),
+      useMapNavStore.subscribe((s, prevState) => {
+        if (s.mapView !== prevState.mapView) scheduleSync()
       }),
     ]
     return () => {

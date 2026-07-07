@@ -44,6 +44,19 @@ function MapNavHandler() {
   const map = useMap()
   const pendingFlyTo = useMapNavStore((s) => s.pendingFlyTo)
   const clearFlyTo = useMapNavStore((s) => s.clearFlyTo)
+  const setMapView = useMapNavStore((s) => s.setMapView)
+
+  useEffect(() => {
+    const handler = () => {
+      const c = map.getCenter()
+      setMapView(c.lat, c.lng, map.getZoom())
+    }
+    map.on('moveend', handler)
+    handler()
+    return () => {
+      map.off('moveend', handler)
+    }
+  }, [map, setMapView])
 
   useEffect(() => {
     if (!pendingFlyTo) return
