@@ -74,7 +74,7 @@ export function UnifiedLayer({ data, color, fillColor, crPrefix }: UnifiedLayerP
               : formatYear(e.startYear),
           )
         }
-        const desc = e.props?.description as string | undefined
+        const desc = (e.description ?? e.props?.description) as string | undefined
         if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
         if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
