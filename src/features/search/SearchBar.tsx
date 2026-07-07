@@ -317,14 +317,24 @@ export function SearchBar() {
     if (layerData.placesData) {
       for (const p of layerData.placesData) {
         if (p.populations) continue
-        items.push({
+        const entry: SearchItem = {
           id: `settlement-${p.id}`,
           name: p.name,
           category: 'Settlement',
           color: CATEGORY_COLORS.settlement,
           lat: p.lat,
           lng: p.lng,
-        })
+        }
+        if (p.startYear !== 0) {
+          entry.year = p.startYear
+          if (p.endYear !== 0) {
+            entry.lifespan = [p.startYear, p.endYear]
+            entry.sub = `${formatYear(p.startYear)} – ${formatYear(p.endYear)}`
+          } else {
+            entry.sub = formatYear(p.startYear)
+          }
+        }
+        items.push(entry)
       }
     }
 
@@ -511,6 +521,13 @@ export function SearchBar() {
       if (entityId) {
         useFeatureDetailStore.getState().openFeature(entityId, 'crossref')
       }
+    }
+
+    // Settlements: open cross-ref panel (wd- places use their ID directly)
+    if (item.id.startsWith('settlement-')) {
+      const placeId = item.id.replace('settlement-', '')
+      const crKey = placeId.startsWith('wd-') ? placeId : `settlement:${placeId}`
+      useFeatureDetailStore.getState().openFeature(crKey, 'crossref')
     }
 
     // If it has coordinates, switch to map and fly there

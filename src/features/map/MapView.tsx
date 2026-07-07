@@ -55,6 +55,11 @@ function MapNavHandler() {
     }
   }, [map, setMapView])
 
+  // Highlight cleanup lives in a ref, NOT in the effect's return: clearFlyTo()
+  // below nulls pendingFlyTo and re-runs the effect, so a returned cleanup
+  // would cancel the highlight timer before the ring ever appears.
+  const highlightCleanup = useRef<(() => void) | null>(null)
+
   useEffect(() => {
     if (!pendingFlyTo) return
 
@@ -62,37 +67,33 @@ function MapNavHandler() {
     map.flyTo([lat, lng], pendingFlyTo.zoom ?? 9, { duration: 1.2 })
     clearFlyTo()
 
-    // Add a bold highlight ring at the target after the fly animation
-    let innerTimer: ReturnType<typeof setTimeout>
+    // Remove any highlight still pending from a previous search
+    highlightCleanup.current?.()
+
+    // Add a small ring around the target after the fly animation
+    let ring: L.CircleMarker | undefined
+    let removeTimer: ReturnType<typeof setTimeout> | undefined
     const timer = setTimeout(() => {
-      const highlight = L.circleMarker([lat, lng], {
-        radius: 22,
-        color: '#fff',
-        weight: 4,
-        fillColor: '#f39c12',
-        fillOpacity: 0.25,
-        className: 'search-highlight',
-      }).addTo(map)
-
-      const inner = L.circleMarker([lat, lng], {
-        radius: 10,
+      ring = L.circleMarker([lat, lng], {
+        radius: 12,
         color: '#f39c12',
-        weight: 3,
+        weight: 2,
         fill: false,
-        className: 'search-highlight',
+        interactive: false,
       }).addTo(map)
 
-      innerTimer = setTimeout(() => {
-        highlight.remove()
-        inner.remove()
-      }, 4000)
+      removeTimer = setTimeout(() => ring?.remove(), 4000)
     }, 1200)
 
-    return () => {
+    highlightCleanup.current = () => {
       clearTimeout(timer)
-      clearTimeout(innerTimer)
+      if (removeTimer) clearTimeout(removeTimer)
+      ring?.remove()
     }
   }, [pendingFlyTo, map, clearFlyTo])
+
+  // Remove the highlight if the map unmounts (e.g. lens switch)
+  useEffect(() => () => highlightCleanup.current?.(), [])
 
   return null
 }
