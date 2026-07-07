@@ -40,7 +40,9 @@ export function baseTooltipHtml(
   const category = t != null ? DARE_TYPE_TO_CATEGORY[t] : null
   const categoryLabel = category ? CATEGORY_STYLES[category].label : null
   const details: string[] = []
-  const typeParts = [typeLabel, categoryLabel].filter(Boolean).join(' · ')
+  // type label OR category, never both — "Major Settlement · Cities &
+  // Settlements" said the same thing twice in every settlement popup
+  const typeParts = typeLabel ?? categoryLabel
   if (typeParts) details.push(typeParts)
   if (pop != null && pop > 0) details.push(`Pop: ~${fmtPop(pop)}`)
   if (p.startYear !== 0 || p.endYear !== 0) {

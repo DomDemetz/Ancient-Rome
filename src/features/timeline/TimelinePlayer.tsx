@@ -251,7 +251,7 @@ export function TimelinePlayer() {
               onClick={() => setSpeed(s)}
               className={`text-[10px] font-bold px-2.5 py-1 rounded-lg border transition-colors ${
                 speed === s
-                  ? 'bg-amber-600 text-white border-amber-600'
+                  ? 'bg-amber-500/15 text-amber-300 border-amber-500/40'
                   : 'bg-transparent text-slate-500 border-white/[0.08] hover:text-white active:text-white'
               }`}
             >

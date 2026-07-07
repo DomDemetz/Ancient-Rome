@@ -122,7 +122,10 @@ function LayerPanelContent({
                 className={cn(
                   'px-3 py-2 text-xs font-medium rounded-full transition-all min-h-[36px]',
                   active
-                    ? 'bg-amber-600 text-white shadow-lg'
+                    ? // in register with the rest of the instrument: clearly on,
+                      // not a shopping-app CTA (the solid pill was the loudest
+                      // element on the whole screen)
+                      'bg-amber-500/15 text-amber-300 border border-amber-500/40'
                     : 'text-slate-500 hover:text-white active:text-white bg-transparent border border-white/[0.06] rounded-full',
                 )}
                 title={preset.description}
