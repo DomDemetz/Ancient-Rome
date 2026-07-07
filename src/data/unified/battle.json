@@ -3199,7 +3199,8 @@
       "outcome": "defeat",
       "combatants": "Octavian vs Sextus Pompey",
       "commander": "Octavian"
-    }
+    },
+    "qid": "Q9033098"
   },
   {
     "id": "battle:battle-of-tauromenium",
@@ -3340,7 +3341,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Germanic tribes",
       "commander": "Germanicus"
-    }
+    },
+    "qid": "Q1650"
   },
   {
     "id": "battle:battle-of-idistaviso",
@@ -3453,7 +3455,8 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Tigranocerta (59 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
+    "qid": "Q2299845"
   },
   {
     "id": "battle:battle-of-camulodunum",
@@ -3501,7 +3504,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Boudica's Rebels",
       "commander": "Gaius Suetonius Paulinus (evacuated)"
-    }
+    },
+    "qid": "Q927198"
   },
   {
     "id": "battle:battle-of-rhandeia",
@@ -3535,7 +3539,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Cestius Gallus"
-    }
+    },
+    "qid": "Q3496783"
   },
   {
     "id": "battle:battle-of-jotapata",
@@ -3570,7 +3575,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Vespasian"
-    }
+    },
+    "qid": "Q2571864"
   },
   {
     "id": "battle:battle-of-forum-julii",
@@ -3713,7 +3719,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Dacia",
       "commander": "Cornelius Fuscus"
-    }
+    },
+    "qid": "Q1476280"
   },
   {
     "id": "battle:first-battle-of-tapae",
@@ -3730,7 +3737,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Dacia",
       "commander": "Tettius Julianus"
-    }
+    },
+    "qid": "Q1476280"
   },
   {
     "id": "battle:second-battle-of-tapae",
@@ -3747,7 +3755,8 @@
       "outcome": "victory",
       "combatants": "Dacia vs Roman Empire",
       "commander": "Decebalus"
-    }
+    },
+    "qid": "Q1476280"
   },
   {
     "id": "battle:battle-of-tropheum-traiani-adamclisi",
@@ -3825,7 +3834,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Trajan"
-    }
+    },
+    "qid": "Q48803101"
   },
   {
     "id": "battle:battle-of-ctesiphon-116",
@@ -4114,7 +4124,8 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Pescennius Niger",
       "commander": "Septimius Severus"
-    }
+    },
+    "qid": "Q972445"
   },
   {
     "id": "battle:battle-of-cyzicus-193-actual",
@@ -4131,7 +4142,8 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Pescennius Niger",
       "commander": "Septimius Severus"
-    }
+    },
+    "qid": "Q972445"
   },
   {
     "id": "battle:battle-of-issus",
@@ -4148,7 +4160,8 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Pescennius Niger",
       "commander": "Septimius Severus"
-    }
+    },
+    "qid": "Q2170603"
   },
   {
     "id": "battle:siege-of-byzantium-196",
@@ -4165,7 +4178,8 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Byzantium (Niger's ally)",
       "commander": "Septimius Severus"
-    }
+    },
+    "qid": "Q3625453"
   },
   {
     "id": "battle:battle-of-lugdunum",
@@ -4182,7 +4196,8 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Clodius Albinus",
       "commander": "Septimius Severus"
-    }
+    },
+    "qid": "Q509"
   },
   {
     "id": "battle:battle-of-ctesiphon-198",
@@ -4251,7 +4266,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Macrinus"
-    }
+    },
+    "qid": "Q48803101"
   },
   {
     "id": "battle:battle-of-antioch",
@@ -4607,7 +4623,8 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Valerian"
-    }
+    },
+    "qid": "Q97402659"
   },
   {
     "id": "battle:battle-of-postumus-260",
@@ -4641,7 +4658,8 @@
       "outcome": "victory",
       "combatants": "Gallienus vs Ingenuus (usurper)",
       "commander": "Gallienus"
-    }
+    },
+    "qid": "Q55832297"
   },
   {
     "id": "battle:battle-of-mursa-260",
@@ -5265,7 +5283,8 @@
       "outcome": "victory",
       "combatants": "Constantine vs Licinius",
       "commander": "Constantine I"
-    }
+    },
+    "qid": "Q11913747"
   },
   {
     "id": "battle:battle-of-mardia",
@@ -5420,7 +5439,8 @@
       "outcome": "draw",
       "combatants": "Constantius II vs Vetranio",
       "commander": "Constantius II"
-    }
+    },
+    "qid": "Q11913747"
   },
   {
     "id": "battle:battle-of-mons-seleucus",
@@ -5615,7 +5635,8 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Procopius",
       "commander": "Valens"
-    }
+    },
+    "qid": "Q1135603"
   },
   {
     "id": "battle:battle-of-chalons-366",
@@ -5784,7 +5805,8 @@
       "outcome": "victory",
       "combatants": "Theodosius vs Magnus Maximus",
       "commander": "Theodosius I"
-    }
+    },
+    "qid": "Q108510029"
   },
   {
     "id": "battle:battle-of-the-frigidus",
@@ -5801,7 +5823,8 @@
       "outcome": "victory",
       "combatants": "Eastern vs Western Roman Empire",
       "commander": "Theodosius I"
-    }
+    },
+    "qid": "Q836944"
   },
   {
     "id": "battle:battle-of-eleusis",
@@ -5818,7 +5841,8 @@
       "outcome": "draw",
       "combatants": "Roman Empire vs Visigoths",
       "commander": "Stilicho"
-    }
+    },
+    "qid": "Q114140200"
   },
   {
     "id": "battle:battle-of-pollentia",

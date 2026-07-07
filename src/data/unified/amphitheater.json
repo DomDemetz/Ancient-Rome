@@ -325,7 +325,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 20197, "dimensions": "126.4x101.6m", "city": "Mediolanum Santonum" }
+    "props": { "capacity": 20197, "dimensions": "126.4x101.6m", "city": "Mediolanum Santonum" },
+    "qid": "Q2844420"
   },
   {
     "id": "amphitheater:pompeii",
@@ -492,7 +493,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 17000, "city": "Grannum" }
+    "props": { "capacity": 17000, "city": "Grannum" },
+    "qid": "Q119311261"
   },
   {
     "id": "amphitheater:toulouse",
@@ -686,7 +688,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 14000, "dimensions": "98x70m", "city": "Corinthus" }
+    "props": { "capacity": 14000, "dimensions": "98x70m", "city": "Corinthus" },
+    "qid": "Q109428923"
   },
   {
     "id": "amphitheater:rimini",
@@ -1087,7 +1090,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 8700, "dimensions": "90x61m", "city": "Thaenae" }
+    "props": { "capacity": 8700, "dimensions": "90x61m", "city": "Thaenae" },
+    "qid": "Q3519416"
   },
   {
     "id": "amphitheater:b-ziers",
@@ -1576,7 +1580,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 4000, "dimensions": "94x80m", "city": "Conimbriga" }
+    "props": { "capacity": 4000, "dimensions": "94x80m", "city": "Conimbriga" },
+    "qid": "Q10333548"
   },
   {
     "id": "amphitheater:marcianopolis",
@@ -1742,7 +1747,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 3000, "dimensions": "65x50m", "city": "Saint-Georges-du-Bois" }
+    "props": { "capacity": 3000, "dimensions": "65x50m", "city": "Saint-Georges-du-Bois" },
+    "qid": "Q431479"
   },
   {
     "id": "amphitheater:velleia",
@@ -1842,7 +1848,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 1946, "dimensions": "42.6x38.5m", "city": "Bremodorum" }
+    "props": { "capacity": 1946, "dimensions": "42.6x38.5m", "city": "Bremodorum" },
+    "qid": "Q68185"
   },
   {
     "id": "amphitheater:lucus-feroniae",
@@ -2057,7 +2064,8 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Scythopolis" }
+    "props": { "city": "Scythopolis" },
+    "qid": "Q3517238"
   },
   {
     "id": "amphitheater:roccelletta-di-borgia",
@@ -3617,7 +3625,8 @@
     "subtype": "amphitheater",
     "startYear": -100,
     "endYear": 400,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q4067160"
   },
   {
     "id": "amphitheater:pleiades-787581330",
@@ -3740,7 +3749,8 @@
     "subtype": "amphitheater",
     "startYear": -100,
     "endYear": 400,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q68956"
   },
   {
     "id": "amphitheater:pleiades-153271174",
@@ -3860,7 +3870,8 @@
     "subtype": "amphitheater",
     "startYear": -100,
     "endYear": 400,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q4895226"
   },
   {
     "id": "amphitheater:pleiades-661094764",
@@ -3913,7 +3924,8 @@
     "subtype": "amphitheater",
     "startYear": -100,
     "endYear": 400,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q5972536"
   },
   {
     "id": "amphitheater:pleiades-971703785",

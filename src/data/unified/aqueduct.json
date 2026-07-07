@@ -179,7 +179,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Remarkably preserved double-arched aqueduct with 167 arches built without mortar. Symbol of the city. UNESCO World Heritage Site.",
-    "props": { "length": 17, "cityServed": "Segovia" }
+    "props": { "length": 17, "cityServed": "Segovia" },
+    "qid": "Q244947"
   },
   {
     "id": "aqueduct:aq-zaghouan",
@@ -205,7 +206,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Part of Constantinople's elaborate water system, with a total length of 250 km including feeder channels. The double-arched bridge survives in modern Istanbul.",
-    "props": { "length": 250, "builder": "Valens", "cityServed": "Constantinopolis" }
+    "props": { "length": 250, "builder": "Valens", "cityServed": "Constantinopolis" },
+    "qid": "Q952924"
   },
   {
     "id": "aqueduct:aq-caesarea",
@@ -456,7 +458,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Long-distance aqueduct from Lake Stymphalos to Corinth, one of Hadrian's major building projects in Greece.",
-    "props": { "length": 85, "builder": "Hadrian", "cityServed": "Corinthus" }
+    "props": { "length": 85, "builder": "Hadrian", "cityServed": "Corinthus" },
+    "qid": "Q109428923"
   },
   {
     "id": "aqueduct:aq-athens",
@@ -522,7 +525,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct from the Ruwer valley serving the imperial capital of the Western Empire, including the massive imperial baths.",
-    "props": { "length": 12.6, "cityServed": "Augusta Treverorum (Trier)" }
+    "props": { "length": 12.6, "cityServed": "Augusta Treverorum (Trier)" },
+    "qid": "Q3138"
   },
   {
     "id": "aqueduct:aq-cherchell",
@@ -753,7 +757,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the birthplace of Trajan and Hadrian. Expanded during Hadrian's massive building program for the city.",
-    "props": { "length": 37, "cityServed": "Italica" }
+    "props": { "length": 37, "cityServed": "Italica" },
+    "qid": "Q658893"
   },
   {
     "id": "aqueduct:aq-toledo",
@@ -766,7 +771,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the hilltop city of Toletum in central Hispania, with a hydraulic system to raise water to the heights.",
-    "props": { "cityServed": "Toletum (Toledo)" }
+    "props": { "cityServed": "Toletum (Toledo)" },
+    "qid": "Q29574695"
   },
   {
     "id": "aqueduct:aq-bath",
@@ -977,7 +983,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying one of the three great cities of Tripolitania, feeding its theatre, baths, and forum.",
-    "props": { "cityServed": "Sabratha" }
+    "props": { "cityServed": "Sabratha" },
+    "qid": "Q104655293"
   },
   {
     "id": "aqueduct:aq-tipasa",
@@ -1029,7 +1036,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the city famous for its underground villas, built to escape the African heat.",
-    "props": { "cityServed": "Bulla Regia" }
+    "props": { "cityServed": "Bulla Regia" },
+    "qid": "Q127429799"
   },
   {
     "id": "aqueduct:aq-mactar",
@@ -1107,7 +1115,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Major aqueduct supplying the great Ionian metropolis, with arcaded sections still visible. Part of Hadrian's rebuilding after the 178 CE earthquake.",
-    "props": { "length": 28, "builder": "Hadrian", "cityServed": "Smyrna (Izmir)" }
+    "props": { "length": 28, "builder": "Hadrian", "cityServed": "Smyrna (Izmir)" },
+    "qid": "Q1379299"
   },
   {
     "id": "aqueduct:aq-smyrna-2",
@@ -1160,7 +1169,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the Pamphylian port city of Attaleia, enhanced during Hadrian's visit to southern Asia Minor.",
-    "props": { "builder": "Hadrian", "cityServed": "Attaleia (Antalya)" }
+    "props": { "builder": "Hadrian", "cityServed": "Attaleia (Antalya)" },
+    "qid": "Q105703706"
   },
   {
     "id": "aqueduct:aq-miletus",
@@ -1173,7 +1183,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the ancient Ionian city of Miletus and its famous Faustina Baths from nearby springs.",
-    "props": { "cityServed": "Miletus" }
+    "props": { "cityServed": "Miletus" },
+    "qid": "Q169460"
   },
   {
     "id": "aqueduct:aq-aphrodisias",
@@ -1200,7 +1211,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct rebuilt by Tiberius after the devastating earthquake of 17 CE destroyed the Lydian capital. Part of massive imperial relief.",
-    "props": { "builder": "Tiberius", "cityServed": "Sardis" }
+    "props": { "builder": "Tiberius", "cityServed": "Sardis" },
+    "qid": "Q232615"
   },
   {
     "id": "aqueduct:aq-hierapolis",
@@ -1474,7 +1486,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving Rome's harbour city of Ostia, built as the city expanded from a military colony to a major commercial port.",
-    "props": { "builder": "Caligula/Claudius", "cityServed": "Ostia" }
+    "props": { "builder": "Caligula/Claudius", "cityServed": "Ostia" },
+    "qid": "Q1268954"
   },
   {
     "id": "aqueduct:aq-minturnae",
@@ -1487,7 +1500,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct from the Monti Aurunci supplying the colony of Minturnae on the Via Appia at the Garigliano river.",
-    "props": { "length": 11, "cityServed": "Minturnae (Minturno)" }
+    "props": { "length": 11, "cityServed": "Minturnae (Minturno)" },
+    "qid": "Q18170298"
   },
   {
     "id": "aqueduct:aq-athens-peisistratid",
@@ -1585,7 +1599,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the Thracian city of Serdica, later favored by Constantine who called it 'my Rome.'",
-    "props": { "builder": "Marcus Aurelius", "cityServed": "Serdica (Sofia)" }
+    "props": { "builder": "Marcus Aurelius", "cityServed": "Serdica (Sofia)" },
+    "qid": "Q4067160"
   },
   {
     "id": "aqueduct:aq-leicester",
@@ -1639,7 +1654,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Timber and lead pipe conduit supplying the provincial capital of Londinium, supplementing well water in the growing city.",
-    "props": { "cityServed": "Londinium (London)" }
+    "props": { "cityServed": "Londinium (London)" },
+    "qid": "Q927198"
   },
   {
     "id": "aqueduct:aq-trier-herresthal",
@@ -1665,7 +1681,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the major legionary fortress on the Rhine frontier, headquarters of the Upper Germanic army.",
-    "props": { "length": 9, "cityServed": "Mogontiacum (Mainz)" }
+    "props": { "length": 9, "cityServed": "Mogontiacum (Mainz)" },
+    "qid": "Q571790"
   },
   {
     "id": "aqueduct:aq-vienna",
@@ -1719,7 +1736,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct from Efqa spring supplemented by qanats, supplying Zenobia's desert caravan city with its monumental colonnaded street.",
-    "props": { "length": 12, "cityServed": "Palmyra" }
+    "props": { "length": 12, "cityServed": "Palmyra" },
+    "qid": "Q4671597"
   },
   {
     "id": "aqueduct:aq-palmyra-2",
@@ -1797,7 +1815,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct feeding the elaborate fountain and bath complex of the largest Decapolis city west of the Jordan.",
-    "props": { "length": 7, "cityServed": "Scythopolis (Bet Shean)" }
+    "props": { "length": 7, "cityServed": "Scythopolis (Bet Shean)" },
+    "qid": "Q3517238"
   },
   {
     "id": "aqueduct:aq-tyre",
@@ -1982,7 +2001,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Short aqueduct serving the tribal capital of the Atrebates in Roman Britain, with traces of timber-lined channels.",
-    "props": { "length": 3, "cityServed": "Calleva Atrebatum (Silchester)" }
+    "props": { "length": 3, "cityServed": "Calleva Atrebatum (Silchester)" },
+    "qid": "Q1027253"
   },
   {
     "id": "aqueduct:aq-sparta",
@@ -2099,7 +2119,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 27 E2 unnamed aqueduct (3 miles S Villareal, over R. Sec)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q23747"
   },
   {
     "id": "pleiades:266525",
@@ -2707,7 +2728,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 65 A2 unnamed aqueduct (Aphrodisias)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q618495"
   },
   {
     "id": "pleiades:639488",
@@ -4165,7 +4187,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 B3 unnamed aqueduct (Lavinium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1352586"
   },
   {
     "id": "pleiades:424314",
@@ -4178,7 +4201,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A now lost unnamed aqueduct supplying Gabii in Latium that was built during the principate of Hadrian.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q66362515"
   },
   {
     "id": "pleiades:424315",
@@ -4282,7 +4306,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 E3 unnamed aqueduct (Minturnae)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q18170298"
   },
   {
     "id": "pleiades:433382",
@@ -4934,7 +4959,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 G1 unnamed aqueduct (Col. Lindum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q9291954"
   },
   {
     "id": "pleiades:560149180",
@@ -4965,7 +4991,8 @@
     "props": {
       "ancientName": "De\u011firmendere aqueduct, De\u011firmendere Aqu\u00e4dukt, Deirmendere aqueduct"
     },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q64699469"
   },
   {
     "id": "pleiades:600228",
@@ -5173,7 +5200,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 34 E2 unnamed aqueduct (Diana Veteranorum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1573776"
   },
   {
     "id": "pleiades:335226",
@@ -5812,7 +5840,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman aqueduct of Segusio.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q112309778"
   },
   {
     "id": "pleiades:427637959",
@@ -6091,7 +6120,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 H4 unnamed aqueduct (Pineda de Mar, SW Blanda(e))",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q23993833"
   },
   {
     "id": "pleiades:168367",
@@ -6156,7 +6186,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 18 D3 unnamed aqueduct (Col. Iulia Equestris, at Divonne-les-Bains)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q241575"
   },
   {
     "id": "pleiades:187998",
@@ -6748,7 +6779,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 42 A1 unnamed aqueduct (Florentia)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q7510002"
   },
   {
     "id": "pleiades:413743",
@@ -6813,7 +6845,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Supplied Segovia with water from mountains to the southeast",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q244947"
   },
   {
     "id": "pleiades:698066006",
