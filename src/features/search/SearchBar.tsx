@@ -224,7 +224,7 @@ export function SearchBar() {
         category: 'Emperor',
         color: CATEGORY_COLORS.emperor,
         year: Math.round((e.s + e.e) / 2), // mid-reign, so the banner shows them
-        sub: `r. ${formatYear(e.s)} \u2013 ${formatYear(e.e)}`
+        sub: `r. ${formatYear(e.s)} \u2013 ${formatYear(e.e)}`,
       })
     }
 
@@ -673,7 +673,6 @@ export function SearchBar() {
                   </button>
                 </div>
                 {resultsDropdown}
-      {emptyHints}
                 {emptyHints}
               </div>
             </div>

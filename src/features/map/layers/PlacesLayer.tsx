@@ -219,8 +219,10 @@ export function PlacesLayer({
     const min = labelMinPop(zoom)
     const labeled = visible
       .map((p) => ({ p, pop: p.populations ? populationAt(p.populations, currentYear) : null }))
-      .filter((x): x is { p: (typeof visible)[number]; pop: number } => x.pop != null && x.pop >= min)
-      .sort((a, b) => b.pop - a.pop)
+      .filter(
+        (x): x is { p: (typeof visible)[number]; pop: number } => x.pop != null && x.pop >= min,
+      )
+      .sort((a, b) => b.pop - a.pop || a.p.id.localeCompare(b.p.id))
     const placed: Array<[number, number]> = []
     const out = new Set<string>()
     for (const { p } of labeled) {
@@ -302,7 +304,9 @@ export function PlacesLayer({
             }}
             bubblingMouseEvents={false}
           >
-            {pop != null && pop >= labelMinPop(zoom) && (cityLabelIds == null || cityLabelIds.has(p.id)) ? (
+            {pop != null &&
+            pop >= labelMinPop(zoom) &&
+            (cityLabelIds == null || cityLabelIds.has(p.id)) ? (
               <Tooltip permanent direction="top" className="city-label" offset={[0, -radius - 1]}>
                 {name}
               </Tooltip>
