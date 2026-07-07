@@ -182,6 +182,24 @@ export interface CrossRefEnrichment {
   label?: string
   wikiUrl?: string
   sources?: string[]
+  wdProps?: {
+    inception?: number
+    dissolved?: number
+    architect?: string
+    commissionedBy?: string
+    heritageStatus?: string
+    heritageStatuses?: string[]
+    height?: string
+    width?: string
+    length?: string
+    area?: string
+    material?: string
+    materials?: string[]
+    architecturalStyle?: string
+    commonsCategory?: string
+    officialWebsite?: string
+    namedAfter?: string
+  }
 }
 
 export type CrossRefLookup = Record<string, CrossRefEnrichment>

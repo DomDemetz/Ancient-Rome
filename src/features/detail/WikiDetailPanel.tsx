@@ -121,6 +121,30 @@ function CrossRefDetailContent({
       source: 'Pelagios',
     })
 
+  const wd = cr.wdProps
+  if (wd) {
+    if (wd.inception && !facts.some((f) => f.label === 'Built' || f.label === 'Founded'))
+      facts.push({ label: 'Founded', value: formatYear(wd.inception), source: 'Wikidata' })
+    if (wd.dissolved)
+      facts.push({ label: 'Dissolved', value: formatYear(wd.dissolved), source: 'Wikidata' })
+    if (wd.architect) facts.push({ label: 'Architect', value: wd.architect, source: 'Wikidata' })
+    if (wd.commissionedBy)
+      facts.push({ label: 'Commissioned by', value: wd.commissionedBy, source: 'Wikidata' })
+    if (wd.height) facts.push({ label: 'Height', value: wd.height })
+    if (wd.width) facts.push({ label: 'Width', value: wd.width })
+    if (wd.length) facts.push({ label: 'Length', value: wd.length })
+    if (wd.area && !facts.some((f) => f.label === 'Area'))
+      facts.push({ label: 'Area', value: wd.area })
+    const mat = wd.materials?.join(', ') ?? wd.material
+    if (mat) facts.push({ label: 'Material', value: mat, source: 'Wikidata' })
+    if (wd.architecturalStyle)
+      facts.push({ label: 'Style', value: wd.architecturalStyle, source: 'Wikidata' })
+    const heritage = wd.heritageStatuses?.join(', ') ?? wd.heritageStatus
+    if (heritage) facts.push({ label: 'Heritage', value: heritage, source: 'Wikidata' })
+    if (wd.namedAfter)
+      facts.push({ label: 'Named after', value: wd.namedAfter, source: 'Wikidata' })
+  }
+
   return (
     <div className="flex flex-col h-full">
       <div className="flex items-center justify-between px-6 py-4 border-b border-white/[0.05] shrink-0">
@@ -258,6 +282,16 @@ function CrossRefDetailContent({
                 className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
               >
                 <ExternalLink className="size-3" /> DARE
+              </a>
+            )}
+            {cr.wdProps?.commonsCategory && (
+              <a
+                href={`https://commons.wikimedia.org/wiki/Category:${encodeURIComponent(cr.wdProps.commonsCategory)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
+              >
+                <ExternalLink className="size-3" /> Commons
               </a>
             )}
           </div>
@@ -637,6 +671,38 @@ function WikiDetailContent({
   if (s?.administrativeType && !cr?.ancientName)
     facts.push({ label: 'Type', value: s.administrativeType })
 
+  // Structured Wikidata properties from batch enrichment
+  const wd = cr?.wdProps
+  if (wd) {
+    if (
+      wd.inception &&
+      !facts.some((f) => f.label === 'Founded' || f.label === 'Year' || f.label === 'Built')
+    )
+      facts.push({ label: 'Founded', value: formatYear(wd.inception), source: 'Wikidata' })
+    if (wd.dissolved && !facts.some((f) => f.label === 'Until'))
+      facts.push({ label: 'Dissolved', value: formatYear(wd.dissolved), source: 'Wikidata' })
+    if (wd.architect && !facts.some((f) => f.label === 'Architect'))
+      facts.push({ label: 'Architect', value: wd.architect, source: 'Wikidata' })
+    if (wd.commissionedBy && !facts.some((f) => f.label === 'Commissioner'))
+      facts.push({ label: 'Commissioned by', value: wd.commissionedBy, source: 'Wikidata' })
+    if (wd.height) facts.push({ label: 'Height', value: wd.height })
+    if (wd.width) facts.push({ label: 'Width', value: wd.width })
+    if (wd.length && !facts.some((f) => f.label === 'Length'))
+      facts.push({ label: 'Length', value: wd.length })
+    if (wd.area && !facts.some((f) => f.label === 'Area'))
+      facts.push({ label: 'Area', value: wd.area })
+    const mat = wd.materials?.join(', ') ?? wd.material
+    if (mat && !facts.some((f) => f.label === 'Material'))
+      facts.push({ label: 'Material', value: mat, source: 'Wikidata' })
+    if (wd.architecturalStyle && !facts.some((f) => f.label === 'Style'))
+      facts.push({ label: 'Style', value: wd.architecturalStyle, source: 'Wikidata' })
+    const heritage = wd.heritageStatuses?.join(', ') ?? wd.heritageStatus
+    if (heritage && !facts.some((f) => f.label === 'Heritage'))
+      facts.push({ label: 'Heritage', value: heritage, source: 'Wikidata' })
+    if (wd.namedAfter)
+      facts.push({ label: 'Named after', value: wd.namedAfter, source: 'Wikidata' })
+  }
+
   return (
     <div className="flex flex-col h-full">
       {/* Header */}
@@ -704,10 +770,10 @@ function WikiDetailContent({
             <span className="text-[10px] uppercase tracking-wider text-slate-500 mt-0.5 block">
               {cr?.buildingType ??
                 (featureLayer === 'cities'
-                ? 'city'
-                : featureLayer === 'knowledge-places'
-                  ? 'place'
-                  : featureLayer.replace(/s$/, ''))}
+                  ? 'city'
+                  : featureLayer === 'knowledge-places'
+                    ? 'place'
+                    : featureLayer.replace(/s$/, ''))}
             </span>
           </div>
 
