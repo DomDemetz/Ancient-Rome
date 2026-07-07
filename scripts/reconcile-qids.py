@@ -201,7 +201,7 @@ def main():
 
     for i, entity in enumerate(to_process):
         name = entity.get(config["name_key"], "")
-        cr_key = f"{config['cr_prefix']}:{entity['id']}"
+        cr_key = entity['id']
 
         # Skip if already has a QID in cross-ref
         if crossref.get(cr_key, {}).get("qid"):
