@@ -86,8 +86,13 @@ def main():
               ensure_ascii=False, indent=1)
     json.dump(cr, open(DATA / "wiki" / "cross-reference.json", "w"),
               ensure_ascii=False, indent=1)
-    json.dump(log, open(DATA / "review" / "tier-a-merge-log.json", "w"),
-              ensure_ascii=False, indent=1)
+    # append to any existing log — re-runs must not erase merge history
+    log_path = DATA / "review" / "tier-a-merge-log.json"
+    if log_path.exists():
+        prev = json.load(open(log_path))
+        seen = {e["removedSettlement"] for e in prev}
+        log = prev + [e for e in log if e["removedSettlement"] not in seen]
+    json.dump(log, open(log_path, "w"), ensure_ascii=False, indent=1)
     print("written; merge log -> review/tier-a-merge-log.json")
 
 

@@ -61,7 +61,10 @@ export const DARE_TYPE_TO_CATEGORY: Record<number, SettlementCategory> = {
   43: 'religious',
   57: 'production',
   58: 'production',
-  52: 'production',
+  // 52 is aqueduct infrastructure, not production — every type-52 row in the
+  // data is an aqueduct, spring source, or aqueduct bridge (Jouy-aux-Arches,
+  // Grüner Pütz, Fontaine d'Eure). Audited 2026-07-08.
+  52: 'infrastructure',
   66: 'production',
   35: 'military', // Late Roman Fortification
   46: 'infrastructure', // Bath
