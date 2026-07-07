@@ -1,5 +1,6 @@
-import { useMemo } from 'react'
-import { CircleMarker, Popup } from 'react-leaflet'
+import { useCallback, useMemo, useRef } from 'react'
+import { CircleMarker, useMap } from 'react-leaflet'
+import L from 'leaflet'
 import type { UnifiedEntity } from '@/data/unified'
 import type { DatasetConfig } from '@/data/datasetRegistry'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -42,10 +43,12 @@ function getField(e: UnifiedEntity, field: string): string {
 }
 
 export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerProps) {
+  const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const crossRef = useCrossRef()
   // consolidated graph-keyed knowledge (extract + thumbnail, one lookup)
   const knowledge = useWikiEnrichment('knowledge-features')
+  const popupRef = useRef<L.Popup | null>(null)
   const currentYear = useTimelineStore((s) => s.currentYear)
 
   const strokeColor = config?.color ?? color ?? '#666'
@@ -59,6 +62,10 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
   const visible = useMemo(() => {
     if (zoom < minZoom) return []
 
+    const s = bounds.getSouth(),
+      n = bounds.getNorth(),
+      w = bounds.getWest(),
+      e2 = bounds.getEast()
     let filtered = data.filter((e) => {
       if (temporal) {
         const start = e.startYear ?? 0
@@ -66,15 +73,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         if (start !== 0 && start > currentYear) return false
         if (end !== 0 && end < currentYear) return false
       }
-      if (zoom >= 7) {
-        return (
-          e.lat >= bounds.getSouth() &&
-          e.lat <= bounds.getNorth() &&
-          e.lng >= bounds.getWest() &&
-          e.lng <= bounds.getEast()
-        )
-      }
-      return true
+      return e.lat >= s && e.lat <= n && e.lng >= w && e.lng <= e2
     })
 
     if (zoom < 7 && filtered.length > maxSample) {
@@ -87,42 +86,51 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
 
   const baseRadius = zoom >= 8 ? 5 : zoom >= 7 ? 4 : zoom >= 5 ? 3 : 2
 
+  const openPopup = useCallback(
+    (e: UnifiedEntity) => {
+      let html = `<div class="map-tooltip-title">${esc(e.name)}</div>`
+      const sub: string[] = []
+      if (e.type) sub.push(e.type)
+      if (e.subtype && e.subtype !== e.type) sub.push(e.subtype)
+      if (sub.length) html += `<div class="map-tooltip-sub">${esc(sub.join(' · '))}</div>`
+      const details: string[] = []
+      if (e.startYear != null && e.startYear !== 0) {
+        details.push(
+          e.endYear != null && e.endYear !== 0
+            ? `${formatYear(e.startYear)} – ${formatYear(e.endYear)}`
+            : formatYear(e.startYear),
+        )
+      }
+      const desc = e.description
+      if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
+      if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+
+      const join = NODE_JOIN[e.id]
+      if (join && join.rel === 'at' && join.name !== e.name) {
+        html += `<div class="map-tooltip-detail">${join.km <= 2 ? 'At' : 'Near'} ${esc(join.name)}${join.km > 2 ? ` · ${join.km} km` : ''}</div>`
+      }
+
+      const k = knowledge?.[e.id]
+      const cr = crossRef?.[e.id]
+      if (k?.extract) {
+        html = appendWikiTooltip(html, e.id, knowledge, 'knowledge-features')
+      } else if (cr) {
+        html = appendCrossRefTooltip(html, cr, { crKey: e.id })
+      }
+
+      if (!popupRef.current) {
+        popupRef.current = L.popup({ offset: [0, -4], closeButton: false })
+      }
+      popupRef.current.setLatLng([e.lat, e.lng]).setContent(`<span>${html}</span>`).openOn(map)
+    },
+    [knowledge, crossRef, map],
+  )
+
   return (
     <>
       {visible.map((e) => {
         const itemFill =
           colorField && colorMap ? (colorMap[getField(e, colorField)] ?? defaultFill) : defaultFill
-
-        let html = `<div class="map-tooltip-title">${esc(e.name)}</div>`
-        const sub: string[] = []
-        if (e.type) sub.push(e.type)
-        if (e.subtype && e.subtype !== e.type) sub.push(e.subtype)
-        if (sub.length) html += `<div class="map-tooltip-sub">${esc(sub.join(' · '))}</div>`
-        const details: string[] = []
-        if (e.startYear != null && e.startYear !== 0) {
-          details.push(
-            e.endYear != null && e.endYear !== 0
-              ? `${formatYear(e.startYear)} – ${formatYear(e.endYear)}`
-              : formatYear(e.startYear),
-          )
-        }
-        const desc = e.description
-        if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
-        if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
-
-        // geographic anchor from the entity join — "At Rome" / "Near Nikopolis"
-        const join = NODE_JOIN[e.id]
-        if (join && join.rel === 'at' && join.name !== e.name) {
-          html += `<div class="map-tooltip-detail">${join.km <= 2 ? 'At' : 'Near'} ${esc(join.name)}${join.km > 2 ? ` · ${join.km} km` : ''}</div>`
-        }
-
-        const k = knowledge?.[e.id]
-        const cr = crossRef?.[e.id]
-        if (k?.extract) {
-          html = appendWikiTooltip(html, e.id, knowledge, 'knowledge-features')
-        } else if (cr) {
-          html = appendCrossRefTooltip(html, cr, { crKey: e.id })
-        }
 
         return (
           <CircleMarker
@@ -136,11 +144,8 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
               fillOpacity: 0.7,
             }}
             bubblingMouseEvents={false}
-          >
-            <Popup offset={[0, -4]} closeButton={false}>
-              <span dangerouslySetInnerHTML={{ __html: html }} />
-            </Popup>
-          </CircleMarker>
+            eventHandlers={{ click: () => openPopup(e) }}
+          />
         )
       })}
     </>

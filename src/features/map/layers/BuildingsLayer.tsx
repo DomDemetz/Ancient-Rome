@@ -1,5 +1,6 @@
-import { useMemo } from 'react'
-import { CircleMarker, Popup } from 'react-leaflet'
+import { useCallback, useMemo, useRef } from 'react'
+import { CircleMarker, useMap } from 'react-leaflet'
+import L from 'leaflet'
 import type { Building } from '@/data/buildings'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
@@ -42,32 +43,51 @@ const TIER2_TYPES = new Set([
 ])
 
 export function BuildingsLayer({ data }: BuildingsLayerProps) {
+  const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('buildings')
   const crossRef = useCrossRef()
+  const popupRef = useRef<L.Popup | null>(null)
 
   const visible = useMemo(() => {
+    const s = bounds.getSouth(),
+      n = bounds.getNorth(),
+      w = bounds.getWest(),
+      e = bounds.getEast()
     return data.filter((b) => {
       if (b.constructionYear != null && b.constructionYear > currentYear) return false
-
-      // Progressive disclosure: 3 tiers
       if (zoom < 6) return false
       if (zoom < 7 && !TIER1_TYPES.has(b.buildingType)) return false
       if (zoom < 8 && !TIER2_TYPES.has(b.buildingType)) return false
-
-      // Bounds filtering
-      if (zoom >= 7) {
-        return (
-          b.lat >= bounds.getSouth() &&
-          b.lat <= bounds.getNorth() &&
-          b.lng >= bounds.getWest() &&
-          b.lng <= bounds.getEast()
-        )
-      }
-      return true
+      return b.lat >= s && b.lat <= n && b.lng >= w && b.lng <= e
     })
   }, [data, zoom, bounds, currentYear])
+
+  const openPopup = useCallback(
+    (b: Building) => {
+      let html = `<div class="map-tooltip-title">${esc(b.name)}</div>`
+      html += `<div class="map-tooltip-sub">${esc(b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1))}</div>`
+      const details: string[] = [`Built: ${formatYear(b.constructionYear)}`]
+      if (b.builder) details.push(esc(b.builder))
+      if (b.description) details.push(esc(b.description))
+      html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+
+      const hasWiki = wikiLookup?.[b.id]
+      html = appendWikiTooltip(html, b.id, wikiLookup, 'buildings')
+      if (!hasWiki) {
+        const crKey = `building:${b.id}`
+        const crEntry = crossRef?.[crKey]
+        if (crEntry) html = appendCrossRefTooltip(html, crEntry, { crKey })
+      }
+
+      if (!popupRef.current) {
+        popupRef.current = L.popup({ offset: [0, -4], closeButton: false })
+      }
+      popupRef.current.setLatLng([b.lat, b.lng]).setContent(`<span>${html}</span>`).openOn(map)
+    },
+    [wikiLookup, crossRef, map],
+  )
 
   const baseRadius = zoom >= 9 ? 5 : zoom >= 7 ? 4 : 3
 
@@ -75,14 +95,6 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
     <>
       {visible.map((b) => {
         const color = BUILDING_COLORS[b.buildingType] || '#95a5a6'
-
-        let tooltipHtml = `<div class="map-tooltip-title">${esc(b.name)}</div>`
-        tooltipHtml += `<div class="map-tooltip-sub">${esc(b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1))}</div>`
-        const details: string[] = [`Built: ${formatYear(b.constructionYear)}`]
-        if (b.builder) details.push(esc(b.builder))
-        if (b.description) details.push(esc(b.description))
-        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
-
         return (
           <CircleMarker
             key={b.id}
@@ -95,26 +107,8 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
               fillOpacity: 0.85,
             }}
             bubblingMouseEvents={false}
-          >
-            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: (() => {
-                    const hasWiki = wikiLookup?.[b.id]
-                    let html = appendWikiTooltip(tooltipHtml, b.id, wikiLookup, 'buildings')
-                    if (!hasWiki) {
-                      const crKey = `building:${b.id}`
-                      const crEntry = crossRef?.[crKey]
-                      if (crEntry) {
-                        html = appendCrossRefTooltip(html, crEntry, { crKey })
-                      }
-                    }
-                    return html
-                  })(),
-                }}
-              />
-            </Popup>
-          </CircleMarker>
+            eventHandlers={{ click: () => openPopup(b) }}
+          />
         )
       })}
     </>

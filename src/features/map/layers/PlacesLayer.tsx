@@ -1,5 +1,6 @@
-import { useMemo } from 'react'
-import { CircleMarker, Popup, Tooltip } from 'react-leaflet'
+import { useCallback, useMemo, useRef } from 'react'
+import { CircleMarker, Tooltip, useMap } from 'react-leaflet'
+import L from 'leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 
 function populationAt(points: PlacePopulationPoint[], year: number): number | null {
@@ -97,11 +98,50 @@ export function PlacesLayer({
   showSettlements,
   showCities,
 }: PlacesLayerProps) {
+  const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   // ONE lookup: consolidated knowledge keyed by canonical node id
   // (extract + thumbnail + inline crossRef in a single store)
   const knowledge = useWikiEnrichment('knowledge-places')
+  const sharedPopupRef = useRef<L.Popup | null>(null)
+
+  const openPopup = useCallback(
+    (p: PlaceNode, pop: number | null, name: string) => {
+      const k = knowledge?.[p.id]
+      const hasWiki = !!k?.extract
+      let html = appendWikiTooltip(
+        baseTooltipHtml(p, name, pop, currentYear),
+        p.id,
+        hasWiki ? knowledge : null,
+        'knowledge-places',
+        p.entity,
+      )
+      if (!hasWiki && k?.crossRef) {
+        html = appendCrossRefTooltip(html, k.crossRef, {
+          crKey: p.id,
+          pid: p.pid,
+          qid: p.qid,
+        })
+      }
+      if (!k && (p.qid || p.pid || p.id.startsWith('wd-'))) {
+        const detailId = p.pid
+          ? `pleiades:${p.pid}`
+          : p.id.startsWith('wd-')
+            ? p.id
+            : `settlement:${p.id}`
+        html += `<button class="map-tooltip-readmore" data-wiki-id="${esc(detailId)}" data-wiki-layer="crossref">Read more</button>`
+      }
+      if (!sharedPopupRef.current) {
+        sharedPopupRef.current = L.popup({ offset: [0, -4], closeButton: false })
+      }
+      sharedPopupRef.current
+        .setLatLng([p.lat, p.lng])
+        .setContent(`<span>${html}</span>`)
+        .openOn(map)
+    },
+    [knowledge, currentYear, map],
+  )
 
   const visible = useMemo(() => {
     return data.filter((p) => {
@@ -147,16 +187,15 @@ export function PlacesLayer({
       if (!hasPop && t != null && zoom < getZoomThreshold(t, p.dare?.major ?? false)) return false
       if (!hasPop && t == null && zoom < 8) return false
 
-      // Bounds filtering at zoomed-in levels
-      if (zoom >= 7) {
-        return (
-          p.lat >= bounds.getSouth() &&
-          p.lat <= bounds.getNorth() &&
-          p.lng >= bounds.getWest() &&
-          p.lng <= bounds.getEast()
-        )
-      }
-      return true
+      // Bounds filtering — cheap early-out at every zoom; at low zooms most
+      // markers pass anyway, but it cuts East-Asian/American stragglers that
+      // survived the zoom-threshold filter
+      return (
+        p.lat >= bounds.getSouth() &&
+        p.lat <= bounds.getNorth() &&
+        p.lng >= bounds.getWest() &&
+        p.lng <= bounds.getEast()
+      )
     })
   }, [data, zoom, bounds, currentYear, enabledTypes, hiddenCategories, showSettlements, showCities])
 
@@ -265,9 +304,6 @@ export function PlacesLayer({
         let color: string
         let radius: number
         let weight: number
-        // gazetteer-only nodes (no DARE type, no population curve) are the
-        // background texture tier: smaller and quieter than attested
-        // settlements, or the 26k Wikidata nodes flatten the hierarchy
         const isGazetteer = (pop == null || pop <= 0) && p.dare?.type == null
         if (pop != null && pop > 0) {
           color = '#f59e0b'
@@ -284,31 +320,11 @@ export function PlacesLayer({
           weight = 0.5
         }
 
-        const k = knowledge?.[p.id]
-        const hasWiki = !!k?.extract
-
-        let popupHtml = appendWikiTooltip(
-          baseTooltipHtml(p, name, pop, currentYear),
-          p.id,
-          hasWiki ? knowledge : null,
-          'knowledge-places',
-          p.entity,
-        )
-        if (!hasWiki && k?.crossRef) {
-          popupHtml = appendCrossRefTooltip(popupHtml, k.crossRef, {
-            crKey: p.id,
-            pid: p.pid,
-            qid: p.qid,
-          })
-        }
-        if (!k && (p.qid || p.pid || p.id.startsWith('wd-'))) {
-          const detailId = p.pid
-            ? `pleiades:${p.pid}`
-            : p.id.startsWith('wd-')
-              ? p.id
-              : `settlement:${p.id}`
-          popupHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(detailId)}" data-wiki-layer="crossref">Read more</button>`
-        }
+        const hasLabel =
+          (pop != null &&
+            pop >= labelMinPop(zoom) &&
+            (cityLabelIds == null || cityLabelIds.has(p.id))) ||
+          minorLabelIds.has(p.id)
 
         return (
           <CircleMarker
@@ -322,15 +338,14 @@ export function PlacesLayer({
               weight,
             }}
             bubblingMouseEvents={false}
+            eventHandlers={{ click: () => openPopup(p, pop, name) }}
           >
-            {pop != null &&
-            pop >= labelMinPop(zoom) &&
-            (cityLabelIds == null || cityLabelIds.has(p.id)) ? (
-              <Tooltip permanent direction="top" className="city-label" offset={[0, -radius - 1]}>
-                {name}
-              </Tooltip>
-            ) : (
-              minorLabelIds.has(p.id) && (
+            {hasLabel &&
+              (pop != null && pop >= labelMinPop(zoom) ? (
+                <Tooltip permanent direction="top" className="city-label" offset={[0, -radius - 1]}>
+                  {name}
+                </Tooltip>
+              ) : (
                 <Tooltip
                   permanent
                   direction="top"
@@ -339,11 +354,7 @@ export function PlacesLayer({
                 >
                   {name}
                 </Tooltip>
-              )
-            )}
-            <Popup key={knowledge ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
-              <span dangerouslySetInnerHTML={{ __html: popupHtml }} />
-            </Popup>
+              ))}
           </CircleMarker>
         )
       })}

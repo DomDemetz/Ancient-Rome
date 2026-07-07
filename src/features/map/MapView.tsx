@@ -287,6 +287,7 @@ export function MapView() {
           zoom={DEFAULT_ZOOM}
           style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
           zoomControl={false}
+          preferCanvas
           ref={mapRef}
         >
           <TileLayer
@@ -311,10 +312,7 @@ export function MapView() {
           {showRoads && roadsData && <RoadLayer data={roadsData} />}
           {showItinereRoads && itinereRoadsData && <ItinereRoadLayer data={itinereRoadsData} />}
           {showTradeNetwork && tradeNetworkData && (
-            <TradeNetworkLayer
-              data={tradeNetworkData}
-              placesOn={showSettlements || showCities}
-            />
+            <TradeNetworkLayer data={tradeNetworkData} placesOn={showSettlements || showCities} />
           )}
           {showVici && viciData && (
             <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />

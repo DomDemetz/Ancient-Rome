@@ -1,5 +1,6 @@
-import { useMemo } from 'react'
-import { CircleMarker, Popup } from 'react-leaflet'
+import { useCallback, useMemo, useRef } from 'react'
+import { CircleMarker, useMap } from 'react-leaflet'
+import L from 'leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
@@ -23,38 +24,43 @@ function buildTooltipHtml(a: Amphitheater): string {
 }
 
 export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
+  const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
   const wikiLookup = useWikiEnrichment('amphitheaters')
   const crossRef = useCrossRef()
+  const popupRef = useRef<L.Popup | null>(null)
 
   const visible = useMemo(() => {
+    const s = bounds.getSouth(),
+      n = bounds.getNorth(),
+      w = bounds.getWest(),
+      e = bounds.getEast()
     return data.filter((a) => {
-      // Show amphitheaters that were built at or before the current year.
-      // Undated ones wait for the building type to exist at all — the oldest
-      // known stone amphitheater (Pompeii) is ~70 BC; before that an undated
-      // dot is an anachronism, not a maybe.
       if (a.constructionYear != null && a.constructionYear > currentYear) return false
       if (a.constructionYear == null && currentYear < -70) return false
-
-      // Zoom threshold - show at zoom 6+
       if (zoom < 6) return false
-
-      // Bounds filtering at zoomed-in levels
-      if (zoom >= 7) {
-        return (
-          a.lat >= bounds.getSouth() &&
-          a.lat <= bounds.getNorth() &&
-          a.lng >= bounds.getWest() &&
-          a.lng <= bounds.getEast()
-        )
-      }
-
-      return true
+      return a.lat >= s && a.lat <= n && a.lng >= w && a.lng <= e
     })
   }, [data, zoom, bounds, currentYear])
 
-  // Scale radius by capacity
+  const openPopup = useCallback(
+    (a: Amphitheater) => {
+      const hasWiki = wikiLookup?.[a.id]
+      let html = appendWikiTooltip(buildTooltipHtml(a), a.id, wikiLookup, 'amphitheaters')
+      if (!hasWiki) {
+        const crKey = `amphitheater:${a.id}`
+        const crEntry = crossRef?.[crKey]
+        if (crEntry) html = appendCrossRefTooltip(html, crEntry, { crKey })
+      }
+      if (!popupRef.current) {
+        popupRef.current = L.popup({ offset: [0, -4], closeButton: false })
+      }
+      popupRef.current.setLatLng([a.lat, a.lng]).setContent(`<span>${html}</span>`).openOn(map)
+    },
+    [wikiLookup, crossRef, map],
+  )
+
   function getRadius(a: Amphitheater): number {
     if (!a.capacity) return zoom >= 7 ? 4 : 3
     if (a.capacity >= 40000) return zoom >= 7 ? 7 : 5
@@ -77,31 +83,8 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
             fillOpacity: 0.85,
           }}
           bubblingMouseEvents={false}
-        >
-          <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
-            <span
-              dangerouslySetInnerHTML={{
-                __html: (() => {
-                  const hasWiki = wikiLookup?.[a.id]
-                  let html = appendWikiTooltip(
-                    buildTooltipHtml(a),
-                    a.id,
-                    wikiLookup,
-                    'amphitheaters',
-                  )
-                  if (!hasWiki) {
-                    const crKey = `amphitheater:${a.id}`
-                    const crEntry = crossRef?.[crKey]
-                    if (crEntry) {
-                      html = appendCrossRefTooltip(html, crEntry, { crKey })
-                    }
-                  }
-                  return html
-                })(),
-              }}
-            />
-          </Popup>
-        </CircleMarker>
+          eventHandlers={{ click: () => openPopup(a) }}
+        />
       ))}
     </>
   )
