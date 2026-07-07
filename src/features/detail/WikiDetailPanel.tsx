@@ -17,7 +17,7 @@ function SourceBadge({ quality }: { quality?: 'academic' | 'sourced' | 'unsource
   const config = {
     academic: {
       label: 'Academic',
-      className: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
+      className: 'text-amber-300/90 bg-amber-400/10 border-amber-400/25',
     },
     sourced: { label: 'Sourced', className: 'text-amber-400 bg-amber-400/10 border-amber-400/20' },
     unsourced: {
@@ -129,7 +129,7 @@ function CrossRefDetailContent({
             Historical Record
           </span>
           {cr.sources && cr.sources.length > 0 && (
-            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-amber-300/90 bg-amber-400/10 border-amber-400/25">
               <Shield className="size-2.5" />
               {cr.sources.length} source{cr.sources.length > 1 ? 's' : ''}
             </span>
@@ -646,7 +646,7 @@ function WikiDetailContent({
             {cr ? 'Historical Record' : 'Wikipedia'}
           </span>
           {cr?.sources?.length ? (
-            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-emerald-400 bg-emerald-400/10 border-emerald-400/20">
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider border rounded text-amber-300/90 bg-amber-400/10 border-amber-400/25">
               <Shield className="size-2.5" />
               {cr.sources.length} sources
             </span>
@@ -703,7 +703,11 @@ function WikiDetailContent({
             )}
             <span className="text-[10px] uppercase tracking-wider text-slate-500 mt-0.5 block">
               {cr?.buildingType ??
-                (featureLayer === 'cities' ? 'city' : featureLayer.replace(/s$/, ''))}
+                (featureLayer === 'cities'
+                ? 'city'
+                : featureLayer === 'knowledge-places'
+                  ? 'place'
+                  : featureLayer.replace(/s$/, ''))}
             </span>
           </div>
 
