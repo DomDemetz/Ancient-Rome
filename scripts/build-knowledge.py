@@ -101,6 +101,30 @@ for fname, prefix in [("emperors-wiki.json", "emperor"), ("legions-wiki.json", "
     for k, v in W(fname).items():
         k_other[f"{prefix}:{k}"] = base_entry(v, fname[:-5])
 
+# Merge with previous builds: preserve fetched content (extracts,
+# thumbnails, wiki URLs) that isn't derivable from wiki source files.
+for name, store in [("places", k_places), ("features", k_feat)]:
+    prev_path = os.path.join(BASE, "knowledge", f"{name}.json")
+    if os.path.exists(prev_path):
+        prev = json.load(open(prev_path))
+        preserved = 0
+        merged = 0
+        for k, v in prev.items():
+            if k not in store:
+                if v.get("extract") or v.get("wikipediaUrl"):
+                    store[k] = v
+                    preserved += 1
+            else:
+                # Merge fetched fields into rebuilt entries
+                for field in ("extract", "thumbnail", "wikipediaUrl"):
+                    if v.get(field) and not store[k].get(field):
+                        store[k][field] = v[field]
+                        merged += 1
+        if preserved:
+            print(f"  {name}: preserved {preserved} enriched entries not in build sources")
+        if merged:
+            print(f"  {name}: merged {merged} fetched fields into rebuilt entries")
+
 out_dir = os.path.join(BASE, "knowledge")
 os.makedirs(out_dir, exist_ok=True)
 for name, store in [("places", k_places), ("features", k_feat), ("other", k_other)]:
