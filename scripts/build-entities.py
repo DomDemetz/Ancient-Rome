@@ -83,8 +83,14 @@ for key, g in groups.items():
     else:
         lat, lng = c["lat"], c["lng"]
 
-    # name: Chandler (curated display) > DARE > Pleiades
-    name = (c and c["name"]) or (d and d["name"]) or (pl and pl.get("name")) or "?"
+    # name: Chandler (curated display) > DARE > Pleiades. strip() guards the
+    # whitespace-name records (a blank DARE name beat Pleiades' 'Bucium' and
+    # shipped an unnamed popup as pl-206989)
+    def _n(v):
+        return (v or "").strip() or None
+    name = (
+        (c and _n(c["name"])) or (d and _n(d["name"])) or (pl and _n(pl.get("name"))) or "?"
+    )
 
     # lifespan: widest attested span; keep DARE's 0 = unknown semantics only
     # when no source gives a real bound
