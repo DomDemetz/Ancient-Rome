@@ -64,7 +64,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           >
             <BookOpen className="size-4" />
           </DialogTrigger>
-          <DialogContent className="max-w-lg bg-[#0c0c10] border border-white/[0.06] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
+          <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto bg-[#0c0c10] border border-white/[0.06] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
             <DialogHeader>
               <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
                 {atlasMode ? 'Atlas Tours' : 'Guided Stories'}
@@ -129,7 +129,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           <BookOpen className="size-3.5" />
           <span className="text-[10px] font-bold uppercase tracking-[0.1em]">Stories</span>
         </DialogTrigger>
-        <DialogContent className="max-w-lg bg-[#0c0c10] border border-white/[0.08] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
+        <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto bg-[#0c0c10] border border-white/[0.08] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
           <DialogHeader>
             <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
               {atlasMode ? 'Atlas Tours' : 'Guided Stories'}
