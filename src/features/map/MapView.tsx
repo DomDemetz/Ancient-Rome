@@ -31,6 +31,7 @@ import { ViciLayer } from './layers/ViciLayer'
 import { PortsLayer } from './layers/PortsLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
 import { UnifiedLayer } from './layers/UnifiedLayer'
+import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
@@ -253,6 +254,7 @@ export function MapView() {
     settlementTypes,
     hiddenCategories,
     toggleCategory,
+    datasetState,
   } = useMapLayerStore(useShallow((s) => s))
 
   const enabledTypes = useMemo(() => {
@@ -364,6 +366,15 @@ export function MapView() {
               )}
               {showMines && minesData && <ResourcesLayer data={minesData} />}
               {showPresses && pressesData && <PressesLayer data={pressesData} />}
+
+              {/* Registry-driven datasets — renders any dataset toggled via
+                  toggleDataset() that doesn't have a dedicated layer above */}
+              {DATASET_REGISTRY.filter((cfg) => {
+                const ds = datasetState[cfg.id]
+                return ds?.show && ds.data
+              }).map((cfg) => (
+                <UnifiedLayer key={cfg.id} data={datasetState[cfg.id].data!} config={cfg} />
+              ))}
               {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
               {showReligion && religionData && <ReligionLayer data={religionData} />}
               {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}

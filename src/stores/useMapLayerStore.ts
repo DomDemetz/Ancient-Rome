@@ -21,6 +21,7 @@ import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
 import type { UnifiedEntity } from '@/data/unified'
 import type { PortData } from '@/data/unified'
+import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 
 // --- Preset definitions ---
 export type PresetName =
@@ -466,6 +467,9 @@ interface MapLayerState {
   tombsData: UnifiedEntity[] | null
   tombsLoading: boolean
 
+  // Generic registry-driven datasets
+  datasetState: Record<string, { show: boolean; data: UnifiedEntity[] | null; loading: boolean }>
+
   // Settlement filtering
   settlementTypes: Record<number, boolean>
   hiddenCategories: Set<string>
@@ -509,6 +513,7 @@ interface MapLayerActions {
   toggleUnifiedTemples: () => void
   toggleUnifiedBridges: () => void
   toggleUnifiedTombs: () => void
+  toggleDataset: (id: string) => void
   activatePreset: (preset: PresetName) => void
   setLayers: (keys: string[]) => void
   dismissError: () => void
@@ -723,6 +728,39 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
   }),
 }
 
+// Add registry-driven dataset loaders for preset/story support
+for (const ds of DATASET_REGISTRY) {
+  const showKey = `showDataset:${ds.id}`
+  LAYER_LOADERS[showKey] = async (set: StoreSet, get: StoreGet) => {
+    const state = get().datasetState[ds.id]
+    if (state?.data != null || state?.loading) return
+    set({
+      datasetState: {
+        ...get().datasetState,
+        [ds.id]: { show: false, data: null, loading: true },
+      },
+    } as Partial<MapLayerState>)
+    try {
+      const { loadUnifiedDataset } = await import('@/data/unified')
+      const data = await loadUnifiedDataset(ds.file)
+      set({
+        datasetState: {
+          ...get().datasetState,
+          [ds.id]: { show: true, data, loading: false },
+        },
+      } as Partial<MapLayerState>)
+    } catch (err) {
+      console.error(`Dataset load failed: ${ds.id}`, err)
+      set({
+        datasetState: {
+          ...get().datasetState,
+          [ds.id]: { ...get().datasetState[ds.id], loading: false },
+        },
+      } as Partial<MapLayerState>)
+    }
+  }
+}
+
 export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, get) => ({
   // --- Initial state ---
   showRoads: false,
@@ -814,6 +852,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showUnifiedTombs: false,
   tombsData: null,
   tombsLoading: false,
+  datasetState: Object.fromEntries(
+    DATASET_REGISTRY.map((d) => [d.id, { show: false, data: null, loading: false }]),
+  ),
   settlementTypes: { ...defaultSettlementTypes },
   hiddenCategories: new Set<string>(),
   activePreset: 'custom',
@@ -1016,6 +1057,48 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       const { loadDiscoveryTombs } = await import('@/data/unified')
       return { data: await loadDiscoveryTombs() }
     })(set, get),
+
+  toggleDataset: async (id: string) => {
+    const ds = get().datasetState[id]
+    if (!ds) return
+
+    if (ds.show) {
+      set({
+        datasetState: { ...get().datasetState, [id]: { ...ds, show: false } },
+        activePreset: 'custom',
+      })
+      return
+    }
+    if (ds.data != null) {
+      set({
+        datasetState: { ...get().datasetState, [id]: { ...ds, show: true } },
+        activePreset: 'custom',
+      })
+      return
+    }
+    if (ds.loading) return
+
+    set({ datasetState: { ...get().datasetState, [id]: { ...ds, loading: true } } })
+    try {
+      const { loadUnifiedDataset } = await import('@/data/unified')
+      const config = DATASET_REGISTRY.find((d) => d.id === id)
+      if (!config) return
+      const data = await loadUnifiedDataset(config.file)
+      set({
+        datasetState: {
+          ...get().datasetState,
+          [id]: { show: true, data, loading: false },
+        },
+        activePreset: 'custom',
+      })
+    } catch (err) {
+      console.error(`Failed to load dataset ${id}:`, err)
+      set({
+        datasetState: { ...get().datasetState, [id]: { ...ds, loading: false } },
+        loadError: `Failed to load ${id} layer`,
+      })
+    }
+  },
 
   toggleSettlementType: (type: number) => {
     const { settlementTypes } = get()

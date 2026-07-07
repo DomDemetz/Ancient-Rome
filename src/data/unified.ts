@@ -177,6 +177,28 @@ export async function loadReligion(): Promise<ReligiousSite[]> {
   }))
 }
 
+const UNIFIED_LOADERS: Record<string, () => Promise<{ default: string }>> = {
+  'press.json': () => import('@/data/unified/press.json?raw'),
+  'shipwreck.json': () => import('@/data/unified/shipwreck.json?raw'),
+  'mine.json': () => import('@/data/unified/mine.json?raw'),
+  'religious-site.json': () => import('@/data/unified/religious-site.json?raw'),
+  'port.json': () => import('@/data/unified/port.json?raw'),
+  'battle.json': () => import('@/data/unified/battle.json?raw'),
+  'amphitheater.json': () => import('@/data/unified/amphitheater.json?raw'),
+  'building.json': () => import('@/data/unified/building.json?raw'),
+  'aqueduct.json': () => import('@/data/unified/aqueduct.json?raw'),
+  'discovery-villa.json': () => import('@/data/unified/discovery-villa.json?raw'),
+  'discovery-temple.json': () => import('@/data/unified/discovery-temple.json?raw'),
+  'discovery-bridge.json': () => import('@/data/unified/discovery-bridge.json?raw'),
+  'discovery-tomb.json': () => import('@/data/unified/discovery-tomb.json?raw'),
+}
+
+export async function loadUnifiedDataset(file: string): Promise<UnifiedEntity[]> {
+  const loader = UNIFIED_LOADERS[file]
+  if (!loader) throw new Error(`Unknown unified dataset: ${file}`)
+  return parseChunk(await loader())
+}
+
 export async function loadDiscoveryVillas(): Promise<UnifiedEntity[]> {
   return parseChunk(await import('@/data/unified/discovery-villa.json?raw'))
 }
