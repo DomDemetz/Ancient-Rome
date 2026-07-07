@@ -92,8 +92,8 @@ function pickCrossRefFact(
   layer: string,
 ): string | null {
   if (layer === 'amphitheaters' && cr.capacity) return `Capacity: ${cr.capacity.toLocaleString()}`
-  if (layer === 'battles' && cr.outcome) return `Outcome: ${cr.outcome}`
-  if (layer === 'battles' && cr.combatants) return cr.combatants
+  // no outcome/combatants here: the battle base tooltip already states both
+  // — the popup was saying 'Outcome: defeat' twice
   if (layer === 'settlements' && cr.province) return `Province: ${cr.province}`
   if (layer === 'buildings' && cr.buildingType) return cr.buildingType
   if (cr.ancientTextMentions && cr.ancientTextMentions > 100) {

@@ -24,11 +24,13 @@ const TRANSPORT_COLORS: Record<string, string> = {
   river: '#74a58e',
 }
 
+// Muted earth register (same family as the battle inks) — flat-UI
+// red/orange dots read as a different product on the parchment atlas.
 const SITE_COLORS: Record<string, string> = {
-  major_port: '#e74c3c',
-  port: '#e67e22',
-  city: '#f39c12',
-  junction: '#95a5a6',
+  major_port: '#c05548',
+  port: '#c2913e',
+  city: '#d9b45b',
+  junction: '#97948a',
 }
 
 function shouldShowTemporal(
@@ -178,7 +180,7 @@ export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {
             center={[site.lat, site.lng]}
             radius={radius}
             pathOptions={{
-              color: '#2c3e50',
+              color: 'rgba(26, 18, 12, 0.85)',
               weight: 1,
               opacity: fillOpacity,
               fillColor: color,
