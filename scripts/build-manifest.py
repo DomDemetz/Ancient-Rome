@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+"""
+DATA-MANIFEST.json — provenance for every shipped data artifact: source,
+license, version/date, producing script, record count, size, sha256 (first
+12 hex). 77 ingest scripts and zero provenance records was the gap; this
+runs as the last build-data step so the manifest can never drift.
+"""
+import glob, hashlib, json, os
+
+BASE = os.path.join(os.path.dirname(__file__), "..")
+D = os.path.join(BASE, "src", "data")
+
+# artifact -> (source, license, version note, producing script)
+CATALOG = {
+    "places/places.json": ("DARE + Chandler/Reba + Pleiades + Wikidata + Vici (merged)", "CC-BY / CC-BY-SA / CC0 mix — see DATA-SOURCES.md", "built from sources below", "build-entities.py"),
+    "territories/territories.json": ("Cliopatria (Seshat)", "CC-BY 4.0", "v0.2.0 (2026-05)", "build-territories-cliopatria.py"),
+    "empires/empires.json": ("Cliopatria (Seshat)", "CC-BY 4.0", "v0.2.0 (2026-05)", "ingest-cliopatria.py"),
+    "vici-sites.json": ("vici.org SQL dump", "CC-BY-SA 3.0", "dump 2023-10-08", "ingest-vici.ts"),
+    "dare/settlements.json": ("DARE (Digital Atlas of the Roman Empire)", "CC-BY 4.0", "via vici dump 2023-10-08", "ingest scripts (dare)"),
+    "cities/historical-cities.json": ("Chandler via Reba, Reitsma & Seto 2016", "CC-BY 4.0", "FigShare chandlerV2", "ingest-chandler-cities.py"),
+    "pleiades-all.json": ("Pleiades gazetteer", "CC-BY 3.0", "flattened export", "(pre-existing ingest)"),
+    "epigraphy/epigraphy.json": ("EDH-derived density", "CC-BY-SA", "(pre-existing ingest)", "(pre-existing ingest)"),
+    "registry/pleiades-wikidata.json": ("Wikidata SPARQL P1584 + vici q_pleiades", "CC0", "fetched 2026-07-05/06", "fetch-pleiades-wikidata-bridge.py"),
+    "registry/unified-nodes.json": ("derived join", "inherits sources", "build-time", "attach-nodes-to-unified.py"),
+    "registry/crosswalk-dare.json": ("derived join", "inherits sources", "build-time", "build-place-crosswalks.py"),
+    "registry/crosswalk-vici.json": ("vici pmetadata (native)", "CC-BY-SA 3.0", "dump 2023-10-08", "build-vici-crosswalk.py"),
+    "registry/crosswalk-battles.json": ("Wikidata SPARQL", "CC0", "fetched 2026-07-06", "build-battle-crosswalk.py"),
+}
+
+manifest = {"generated": None, "note": "regenerate via scripts/build-manifest.py (build-data step)", "artifacts": []}
+for rel, (src, lic, ver, script) in sorted(CATALOG.items()):
+    p = os.path.join(D, rel)
+    if not os.path.exists(p):
+        continue
+    raw = open(p, "rb").read()
+    try:
+        data = json.loads(raw)
+        count = len(data["features"]) if isinstance(data, dict) and "features" in data else len(data)
+    except Exception:
+        count = None
+    manifest["artifacts"].append({
+        "file": f"src/data/{rel}", "records": count, "bytes": len(raw),
+        "sha256_12": hashlib.sha256(raw).hexdigest()[:12],
+        "source": src, "license": lic, "version": ver, "producer": f"scripts/{script}",
+    })
+# unified chunks, one summary row each
+for p in sorted(glob.glob(os.path.join(D, "unified", "*.json"))):
+    raw = open(p, "rb").read()
+    manifest["artifacts"].append({
+        "file": os.path.relpath(p, BASE), "records": len(json.loads(raw)), "bytes": len(raw),
+        "sha256_12": hashlib.sha256(raw).hexdigest()[:12],
+        "source": "unified migration of per-layer sources", "license": "see DATA-SOURCES.md",
+        "version": "build-time", "producer": "scripts/build-unified-entities.ts",
+    })
+out = os.path.join(BASE, "DATA-MANIFEST.json")
+json.dump(manifest, open(out, "w"), ensure_ascii=False, indent=1)
+open(out, "a").write("\n")
+print(f"DATA-MANIFEST.json: {len(manifest['artifacts'])} artifacts, "
+      f"{sum(a['bytes'] for a in manifest['artifacts'])//1024//1024} MB tracked")

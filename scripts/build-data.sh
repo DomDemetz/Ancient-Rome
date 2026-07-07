@@ -69,6 +69,12 @@ else:
 echo ""
 
 echo "══════════════════════════════════════════"
+echo "  STEP 2b · Provenance manifest"
+echo "══════════════════════════════════════════"
+python3 scripts/build-manifest.py
+echo ""
+
+echo "══════════════════════════════════════════"
 echo "  STEP 3 · Coverage report"
 echo "══════════════════════════════════════════"
 python3 -c "
