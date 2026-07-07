@@ -22,8 +22,6 @@ import emperorsSearchJson from '@/data/registry/emperors-search.json'
 import battlesSearchJson from '@/data/registry/battles-search.json'
 import empiresSearchJson from '@/data/registry/empires-search.json'
 import peopleSearchJson from '@/data/registry/people-search.json'
-import buildingsSearchJson from '@/data/registry/buildings-search.json'
-
 interface EmperorSearchEntry {
   id: string
   n: string
@@ -56,10 +54,22 @@ interface SiteSearchEntry {
 }
 const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
 const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
-// distinct world polities: fly to heartland, jump to greatest-extent year
 const EMPIRE_SEARCH = empiresSearchJson as CitySearchEntry[]
 const PEOPLE_SEARCH = peopleSearchJson as PersonSearchEntry[]
-const SITE_SEARCH = buildingsSearchJson as SiteSearchEntry[]
+
+let _siteSearchCache: SiteSearchEntry[] | null = null
+let _siteSearchPromise: Promise<SiteSearchEntry[]> | null = null
+function loadSiteSearch(): Promise<SiteSearchEntry[]> {
+  if (_siteSearchCache) return Promise.resolve(_siteSearchCache)
+  if (!_siteSearchPromise) {
+    _siteSearchPromise = import('@/data/registry/buildings-search.json').then((m) => {
+      _siteSearchCache = m.default as SiteSearchEntry[]
+      return _siteSearchCache
+    })
+  }
+  return _siteSearchPromise
+}
+loadSiteSearch()
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useFilterStore } from '@/stores/useFilterStore'
@@ -138,6 +148,7 @@ export function SearchBar() {
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [siteSearch, setSiteSearch] = useState<SiteSearchEntry[]>(_siteSearchCache ?? [])
   const [activeIdx, setActiveIdx] = useState(-1)
   const containerRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -155,6 +166,10 @@ export function SearchBar() {
       legionsData: s.legionsData,
     })),
   )
+
+  useEffect(() => {
+    if (!_siteSearchCache) loadSiteSearch().then(setSiteSearch)
+  }, [])
 
   // Build a unified search index from all data sources
   const searchItems = useMemo(() => {
@@ -266,7 +281,7 @@ export function SearchBar() {
       press: 'Press',
       port: 'Port',
     }
-    for (const s of SITE_SEARCH) {
+    for (const s of siteSearch) {
       items.push({
         id: `site-${s.t}-${s.id}`,
         name: s.n,
@@ -327,7 +342,7 @@ export function SearchBar() {
     }
 
     return items
-  }, [layerData])
+  }, [layerData, siteSearch])
 
   const fuse = useMemo(
     () =>
