@@ -379,6 +379,9 @@ export function MapView() {
           {showBattles && battlesData && <BattleLayer data={battlesData} />}
         </MapContainer>
 
+        {/* atlas-plate vignette: sits over the map, under the UI */}
+        <div className="map-vignette" aria-hidden />
+
         <MapControls
           showTerritories={showTerritories}
           onToggleTerritories={() => setShowTerritories((v) => !v)}

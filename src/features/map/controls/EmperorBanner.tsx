@@ -67,7 +67,12 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
           </span>
           {!isMobile && (
             <span className="text-[9px] uppercase tracking-[0.1em] text-slate-500">
-              {currentEmperor.dynasty && `${currentEmperor.dynasty} · `}
+              {/* "Justinian I / JUSTINIAN" read as a stutter — say what the
+                  subtitle IS. Crisis and Tetrarchy aren't dynasties. */}
+              {currentEmperor.dynasty &&
+                `${currentEmperor.dynasty}${
+                  ['Crisis', 'Tetrarchy'].includes(currentEmperor.dynasty) ? '' : ' dynasty'
+                } · `}
               {formatYear(currentEmperor.reignStart)} &ndash; {formatYear(currentEmperor.reignEnd)}
             </span>
           )}
