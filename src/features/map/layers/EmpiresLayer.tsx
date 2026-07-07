@@ -128,9 +128,51 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
     // Greedy declutter: biggest polities claim label space first; anything
     // whose anchor would land within ~1 label-height x ~8em of a placed
     // label is suppressed at this zoom (it reappears when zooming in).
+    // Synthesize FAMILY labels: vassal realms (France's duchies, the HRE
+    // minors) share a suzerain in memberOf but the umbrella polity itself
+    // is a meta-entry dropped at ingest — so the realm was colored as one
+    // but nameless. The family name renders at the members' area-weighted
+    // center, sized by their combined area, unless a real polity already
+    // carries that name.
+    const realByName = new Map(visible.map((v) => [v.name, v]))
+    const families = new Map<string, { area: number; lat: number; lng: number }>()
+    for (const v of visible) {
+      const fam = v.memberOf?.replace(/^\(|\)$/g, '').trim()
+      if (!fam || fam === v.name) continue
+      const f = families.get(fam) ?? { area: 0, lat: 0, lng: 0 }
+      f.area += v.area
+      f.lat += v.label[0] * v.area
+      f.lng += v.label[1] * v.area
+      families.set(fam, f)
+    }
+    // the suzerain itself joins its family (the Capetian royal domain is
+    // tiny — the KINGDOM is the realm); skip only when the real polity is
+    // big enough to have labeled itself anyway
+    for (const [fam, f] of families) {
+      const real = realByName.get(fam)
+      if (real) {
+        if (real.area >= min) {
+          families.delete(fam)
+        } else {
+          f.area += real.area
+          f.lat += real.label[0] * real.area
+          f.lng += real.label[1] * real.area
+        }
+      }
+    }
+    const famCandidates = [...families.entries()]
+      .filter(([, f]) => f.area >= min)
+      .map(([name, f]) => ({
+        id: `family-${name}`,
+        name,
+        area: f.area,
+        label: [f.lat / f.area, f.lng / f.area] as [number, number],
+      }))
+      .sort((a, b) => b.area - a.area)
+
     const placed: Array<[number, number]> = []
     const out: Array<{ e: EmpireShape; dodge: number }> = []
-    for (const e of candidates) {
+    for (const e of [...famCandidates, ...candidates] as EmpireShape[]) {
       const x = e.label[1] * pxPerDegX * Math.cos((e.label[0] * Math.PI) / 180)
       let y = e.label[0] * pxPerDegX
       if (placed.some(([px, py]) => Math.abs(px - x) < 110 && Math.abs(py - y) < 26)) continue
