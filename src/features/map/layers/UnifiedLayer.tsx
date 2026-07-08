@@ -17,6 +17,28 @@ const NODE_JOIN = JSON.parse(nodeJoinRaw) as Record<
 >
 import { formatYear } from '@/lib/geo'
 
+const SOURCE_LABEL: Record<string, string> = {
+  'ancient-ports': 'Ancient Ports',
+  'Roman-Battles-Droid': 'Battles DB',
+  'roman-amphitheaters': 'Amphitheatre DB',
+  'byzantine-curated': 'Byzantine',
+}
+
+const TYPE_LABEL: Record<string, string> = {
+  'religious-site': 'Religious Site',
+  amphitheater: 'Amphitheatre',
+  press: 'Press',
+}
+
+function labelType(raw: string): string {
+  return TYPE_LABEL[raw] ?? raw.charAt(0).toUpperCase() + raw.slice(1)
+}
+
+function labelSubtype(raw: string): string | null {
+  if (raw === 'unknown' || raw === 'other') return null
+  return raw.charAt(0).toUpperCase() + raw.slice(1)
+}
+
 interface UnifiedLayerProps {
   data: UnifiedEntity[]
   config?: DatasetConfig
@@ -86,8 +108,11 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
     (e: UnifiedEntity) => {
       let html = `<div class="map-tooltip-title">${esc(e.name)}</div>`
       const sub: string[] = []
-      if (e.type) sub.push(e.type)
-      if (e.subtype && e.subtype !== e.type) sub.push(e.subtype)
+      if (e.type) sub.push(labelType(e.type))
+      if (e.subtype && e.subtype !== e.type) {
+        const st = labelSubtype(e.subtype)
+        if (st) sub.push(st)
+      }
       if (sub.length) html += `<div class="map-tooltip-sub">${esc(sub.join(' · '))}</div>`
 
       const k = knowledge?.[e.id]
@@ -138,7 +163,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
           const ref = desc.replace('An ancient place, cited: ', '')
           html += `<div class="map-tooltip-fact">${esc(ref)}</div>`
         }
-        html += `<span class="map-tooltip-badge map-tooltip-badge--sourced">${esc(e.source)}</span>`
+        html += `<span class="map-tooltip-badge map-tooltip-badge--sourced">${esc(SOURCE_LABEL[e.source] ?? e.source)}</span>`
         html += '</div>'
       }
 
