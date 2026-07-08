@@ -45,12 +45,19 @@ interface PersonSearchEntry {
   d: number | null
   r: string
 }
+// Rows from registry/entity-search.json — generated from the canonical
+// entity table (scripts/build-entity-search.py), one row per real-world
+// entity with duplicates already collapsed. `k` is the cross-reference
+// detail key the panel opens with.
 interface SiteSearchEntry {
-  id: string
+  k: string
   n: string
-  lat: number
-  lng: number
   t: string
+  st?: string
+  la: number
+  lo: number
+  s?: number
+  e?: number
 }
 const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
 const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
@@ -62,7 +69,7 @@ let _siteSearchPromise: Promise<SiteSearchEntry[]> | null = null
 function loadSiteSearch(): Promise<SiteSearchEntry[]> {
   if (_siteSearchCache) return Promise.resolve(_siteSearchCache)
   if (!_siteSearchPromise) {
-    _siteSearchPromise = import('@/data/registry/buildings-search.json').then((m) => {
+    _siteSearchPromise = import('@/data/registry/entity-search.json').then((m) => {
       _siteSearchCache = m.default as SiteSearchEntry[]
       return _siteSearchCache
     })
@@ -101,6 +108,8 @@ const LAYER_MAP: Record<string, { show?: string; toggle?: string; dataset?: stri
   Shipwreck: { dataset: 'shipwrecks' },
   Mine: { dataset: 'mines' },
   'Religious site': { dataset: 'religion' },
+  Sanctuary: { dataset: 'religion' },
+  Cemetery: { dataset: 'religion' },
   Press: { dataset: 'presses' },
   Port: { dataset: 'ports' },
   Villa: { dataset: 'villas' },
@@ -304,30 +313,42 @@ export function SearchBar() {
       })
     }
 
-    // Notable buildings & archaeological sites — always searchable via manifest
+    // Notable buildings & archaeological sites — one row per canonical
+    // entity (duplicates across silos already collapsed in the table)
     const siteLabels: Record<string, string> = {
       building: 'Building',
       amphitheater: 'Amphitheater',
       tomb: 'Tomb',
       villa: 'Villa',
       temple: 'Temple',
+      sanctuary: 'Sanctuary',
+      cemetery: 'Cemetery',
       bridge: 'Bridge',
       mine: 'Mine',
       aqueduct: 'Aqueduct',
       shipwreck: 'Shipwreck',
       religion: 'Religious site',
+      'religious-site': 'Religious site',
       press: 'Press',
       port: 'Port',
     }
     for (const s of siteSearch) {
-      items.push({
-        id: `site-${s.t}-${s.id}`,
+      const entry: SearchItem = {
+        id: `site-${s.k}`,
         name: s.n,
-        category: siteLabels[s.t] ?? s.t,
-        color: CATEGORY_COLORS[s.t] || CATEGORY_COLORS.building,
-        lat: s.lat,
-        lng: s.lng,
-      })
+        category: siteLabels[s.st ?? s.t] ?? siteLabels[s.t] ?? s.t,
+        color: CATEGORY_COLORS[s.st ?? s.t] || CATEGORY_COLORS[s.t] || CATEGORY_COLORS.building,
+        lat: s.la,
+        lng: s.lo,
+      }
+      // attestation window: lets selection jump the timeline so the
+      // marker is actually visible on arrival (sites lacked this before)
+      if (s.s != null) {
+        entry.year = s.s
+        entry.lifespan = [s.s, s.e ?? 1500]
+        entry.sub = s.e != null ? `${formatYear(s.s)} – ${formatYear(s.e)}` : formatYear(s.s)
+      }
+      items.push(entry)
     }
 
     // Major cities (Chandler) — always searchable; the manifest is tiny
@@ -556,13 +577,12 @@ export function SearchBar() {
       useFeatureDetailStore.getState().openFeature(qid, 'people', qid)
     }
 
-    // Sites from the eager manifest: open the cross-ref detail panel
+    // Sites: the item id embeds the cross-reference detail key directly
+    // (e.g. site-building:687917, site-port:apa-...) from the entity table
     if (item.id.startsWith('site-')) {
-      const rest = item.id.slice(5) // strip 'site-'
-      const dashIdx = rest.indexOf('-')
-      const entityId = dashIdx >= 0 ? rest.slice(dashIdx + 1) : ''
-      if (entityId) {
-        useFeatureDetailStore.getState().openFeature(entityId, 'crossref')
+      const crKey = item.id.slice(5) // strip 'site-'
+      if (crKey) {
+        useFeatureDetailStore.getState().openFeature(crKey, 'crossref')
       }
     }
 
