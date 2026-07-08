@@ -13,7 +13,6 @@ import tradeGoodsJson from './entities/trade-goods.json'
 import infrastructureJson from './entities/infrastructure.json'
 import connectionsJson from './entities/connections.json'
 import storiesJson from './stories/stories.json'
-import territoriesJson from './territories/territories.json'
 
 function validateArray<T>(
   data: unknown[],
@@ -44,11 +43,6 @@ export function loadAndValidateData() {
   ]
   const connections: Connection[] = validateArray(connectionsJson, ConnectionSchema, 'connections')
   const stories: Story[] = validateArray(storiesJson, StorySchema, 'stories')
-  const territories: TerritorySnapshot[] = validateArray(
-    territoriesJson,
-    TerritorySnapshotSchema,
-    'territories',
-  )
 
   // Referential integrity checks
   const entityIds = new Set(entities.map((e) => e.id))
@@ -67,5 +61,17 @@ export function loadAndValidateData() {
     }
   }
 
-  return { entities, connections, stories, territories }
+  return { entities, connections, stories }
+}
+
+// territories.json is 3.8 MB — the single biggest chunk of the entry
+// bundle when imported statically. Lazy: first paint doesn't wait for it.
+let _territories: Promise<TerritorySnapshot[]> | null = null
+export function loadTerritories(): Promise<TerritorySnapshot[]> {
+  if (!_territories) {
+    _territories = import('./territories/territories.json').then((m) =>
+      validateArray(m.default, TerritorySnapshotSchema, 'territories'),
+    )
+  }
+  return _territories
 }

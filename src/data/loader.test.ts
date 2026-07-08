@@ -6,12 +6,18 @@ describe('loadAndValidateData', () => {
     expect(() => loadAndValidateData()).not.toThrow()
   })
 
-  it('returns arrays for all four data types', () => {
-    const { entities, connections, stories, territories } = loadAndValidateData()
+  it('returns arrays for the eager data types', () => {
+    const { entities, connections, stories } = loadAndValidateData()
     expect(Array.isArray(entities)).toBe(true)
     expect(Array.isArray(connections)).toBe(true)
     expect(Array.isArray(stories)).toBe(true)
+  })
+
+  it('territories load (and validate) lazily', async () => {
+    const { loadTerritories } = await import('./loader')
+    const territories = await loadTerritories()
     expect(Array.isArray(territories)).toBe(true)
+    expect(territories.length).toBeGreaterThan(100)
   })
 
   it('entities count is >= 0', () => {

@@ -4,7 +4,8 @@ import { useShallow } from 'zustand/shallow'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
-import { territories } from '@/data'
+import { loadTerritories } from '@/data'
+import type { TerritorySnapshot } from '@/types'
 import { useMapLayerStore, getPersistedLayers } from '@/stores/useMapLayerStore'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
@@ -160,6 +161,11 @@ const BASE_ATTRIBUTION =
 
 export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
+  // lazy: 3.8 MB that first paint shouldn't wait for
+  const [territories, setTerritories] = useState<TerritorySnapshot[] | null>(null)
+  useEffect(() => {
+    loadTerritories().then(setTerritories)
+  }, [])
   const mapRef = useRef<LeafletMap | null>(null)
 
   // Smart default: open with Conquest preset at 100 AD with brief autoplay
@@ -301,7 +307,7 @@ export function MapView() {
           {/* Render order: base layers -> overlays -> point layers */}
           {/* The world's polities (Cliopatria/Seshat, CC BY 4.0) — beneath Rome */}
           {showEmpires && empiresData && <EmpiresLayer data={empiresData} />}
-          {showTerritories && <TerritoryLayer snapshots={territories} />}
+          {showTerritories && territories && <TerritoryLayer snapshots={territories} />}
           <SeaLabels />
 
           {/* Base layers — every record is date-bounded and self-filters (start/
