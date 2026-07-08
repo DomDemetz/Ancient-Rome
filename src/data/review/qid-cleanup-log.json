@@ -8310,5 +8310,149 @@
     "reason": "islet anchoring the wreck position",
     "confidence": "medium",
     "removed": ["label"]
+  },
+  {
+    "key": "pleiades:423558",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q536769",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-37-04-25-09-3039",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q25166566",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-37-13-25-21-3042",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q25166566",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-43-55-6-75-506",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q1049918",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-43-57-6-77-508",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q1049918",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-43-57-6-86-510",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q1049918",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "pleiades:423557",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q622909",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-syra-syros-insula-3016",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q15121418",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-39-65-19-85-2905",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q25168424",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-25-01-34-93-4887",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q1001901",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "aqueduct:aq-lyon-gier",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3067",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-ialysos-trianta-trianda-minoan-colony-3354",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q188731",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "mine:786140",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q1453686",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "pleiades:335226",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q23846130",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "aqueduct:aq-mactar",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3485394",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-thermae-thermesia-2750",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q1956584",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-port-at-43-16-16-36-2229",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q26224642",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
+  },
+  {
+    "key": "port:apa-athenai-diades-2512",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q12237538",
+    "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
+    "confidence": "high",
+    "removed": ["qid"]
   }
 ]

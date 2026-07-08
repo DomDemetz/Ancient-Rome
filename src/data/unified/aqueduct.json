@@ -311,8 +311,7 @@
     "props": {
       "length": 86,
       "cityServed": "Lugdunum (Lyon)"
-    },
-    "qid": "Q3067"
+    }
   },
   {
     "id": "aqueduct:aq-lyon-brevenne",
@@ -1314,8 +1313,7 @@
     "props": {
       "length": 5,
       "cityServed": "Mactaris (Maktar)"
-    },
-    "qid": "Q3485394"
+    }
   },
   {
     "id": "aqueduct:aq-madauros",
@@ -4180,7 +4178,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q622909",
     "description": "The Aqua Alexandrina was an ancient Roman aqueduct that carried water 22.4 km from Pantano Borghese to the Baths of Alexander in the Campus Martius. It was in use from the third to the eighth century AD.",
     "props": {
       "ancientName": "Aqua Alexandrina"
@@ -4197,7 +4194,6 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q536769",
     "description": "The Aqua Alsietina was an aqueduct built by Augustus that drew water from the lacus Alsietinus (Lago di Martignano) and conducted it to Rome.",
     "props": {
       "ancientName": "Aqua Alsietina"
@@ -5323,7 +5319,6 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 34 E2 unnamed aqueduct (Lambaesis)",
-    "qid": "Q23846130",
     "estimatedTemporal": true
   },
   {

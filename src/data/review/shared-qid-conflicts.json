@@ -1,54 +1,5 @@
 [
   {
-    "qid": "Q536769",
-    "kind": "aqueduct",
-    "spreadKm": 28.3,
-    "members": [
-      {
-        "id": "aqueduct:aq-aqua-alsietina",
-        "name": "Aqua Alsietina"
-      },
-      {
-        "id": "pleiades:423558",
-        "name": "Aqua Alsietina"
-      }
-    ]
-  },
-  {
-    "qid": "Q1362014",
-    "kind": "battle",
-    "spreadKm": 24.6,
-    "members": [
-      {
-        "id": "battle:battle-of-the-silarus",
-        "name": "Battle of the Silarus"
-      },
-      {
-        "id": "battle:battle-of-the-silarus-river",
-        "name": "Battle of the Silarus River"
-      }
-    ]
-  },
-  {
-    "qid": "Q25166566",
-    "kind": "port",
-    "spreadKm": 12.9,
-    "members": [
-      {
-        "id": "port:apa-port-at-37-04-25-09-3039",
-        "name": "Port at 37.04, 25.09"
-      },
-      {
-        "id": "port:apa-port-at-37-09-25-16-3056",
-        "name": "Port at 37.09, 25.16"
-      },
-      {
-        "id": "port:apa-port-at-37-13-25-21-3042",
-        "name": "Port at 37.13, 25.21"
-      }
-    ]
-  },
-  {
     "qid": "Q20924967",
     "kind": "port",
     "spreadKm": 12.4,
@@ -85,7 +36,9 @@
         "id": "port:apa-port-at-35-93-14-49-1855",
         "name": "Port at 35.93, 14.49"
       }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q3398448",
@@ -100,7 +53,9 @@
         "id": "port:apa-port-at-47-58-3-10-1035",
         "name": "Port at 47.58, -3.10"
       }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q25166577",
@@ -119,45 +74,8 @@
         "id": "port:apa-port-of-tylissos-port-of-rhaukos-port-of-4094",
         "name": "Port of Tylissos? Port of Rhaukos? Port of archaic Kastrokephala?"
       }
-    ]
-  },
-  {
-    "qid": "Q1049918",
-    "kind": "port",
-    "spreadKm": 10.6,
-    "members": [
-      {
-        "id": "port:apa-port-at-43-51-6-75-507",
-        "name": "Port at 43.51, -6.75"
-      },
-      {
-        "id": "port:apa-port-at-43-55-6-75-506",
-        "name": "Port at 43.55, -6.75"
-      },
-      {
-        "id": "port:apa-port-at-43-57-6-77-508",
-        "name": "Port at 43.57, -6.77"
-      },
-      {
-        "id": "port:apa-port-at-43-57-6-86-510",
-        "name": "Port at 43.57, -6.86"
-      }
-    ]
-  },
-  {
-    "qid": "Q622909",
-    "kind": "aqueduct",
-    "spreadKm": 10.5,
-    "members": [
-      {
-        "id": "aqueduct:aq-aqua-alexandrina",
-        "name": "Aqua Alexandrina"
-      },
-      {
-        "id": "pleiades:423557",
-        "name": "Aqua Alexandrina"
-      }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q25168407",
@@ -180,7 +98,9 @@
         "id": "port:apa-port-at-37-52-23-51-2757",
         "name": "Port at 37.52, 23.51"
       }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q25166561",
@@ -203,7 +123,9 @@
         "id": "port:apa-port-at-37-02-24-69-3028",
         "name": "Port at 37.02, 24.69"
       }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q65006224",
@@ -218,7 +140,8 @@
         "id": "shipwreck:darmc-wreck-55",
         "name": "Bajo de la Campana 2"
       }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q1344739",
@@ -249,7 +172,9 @@
         "id": "port:apa-port-at-31-22-29-92-5514",
         "name": "Port at 31.22, 29.92"
       }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q530644",
@@ -264,7 +189,8 @@
         "id": "port:apa-naxos-insula-dhia-homer-s-dia-3057",
         "name": "Naxos insula, Dhia, Homer's Dia"
       }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q25168402",
@@ -295,7 +221,8 @@
         "id": "port:apa-port-at-39-19-23-46-3211",
         "name": "Port at 39.19, 23.46"
       }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q1798768",
@@ -322,22 +249,9 @@
         "id": "port:apa-port-at-36-40-5-19-732",
         "name": "Port at 36.40, -5.19"
       }
-    ]
-  },
-  {
-    "qid": "Q15121418",
-    "kind": "port",
-    "spreadKm": 8.4,
-    "members": [
-      {
-        "id": "port:apa-kastri-3018",
-        "name": "Kastri"
-      },
-      {
-        "id": "port:apa-syra-syros-insula-3016",
-        "name": "Syra, Syros insula"
-      }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q34966015",
@@ -364,7 +278,9 @@
         "id": "port:apa-port-at-40-82-14-08-1586",
         "name": "Port at 40.82, 14.08"
       }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q25168413",
@@ -391,52 +307,9 @@
         "id": "port:apa-port-at-39-10-26-56-3164",
         "name": "Port at 39.10, 26.56"
       }
-    ]
-  },
-  {
-    "qid": "Q25168424",
-    "kind": "port",
-    "spreadKm": 7.6,
-    "members": [
-      {
-        "id": "port:apa-kerkyra-corcyra-port-of-the-pheacians-na-2908",
-        "name": "Kerkyra, Corcyra, port of the Pheacians, naval base of Alkinoos, Kastradhes"
-      },
-      {
-        "id": "port:apa-port-at-39-65-19-85-2905",
-        "name": "Port at 39.65, 19.85"
-      }
-    ]
-  },
-  {
-    "qid": "Q1001901",
-    "kind": "port",
-    "spreadKm": 7.6,
-    "members": [
-      {
-        "id": "port:apa-port-at-25-01-34-93-4887",
-        "name": "Port at 25.01, 34.93"
-      },
-      {
-        "id": "port:apa-port-at-25-08-34-89-4885",
-        "name": "Port at 25.08, 34.89"
-      }
-    ]
-  },
-  {
-    "qid": "Q3067",
-    "kind": "aqueduct",
-    "spreadKm": 7.5,
-    "members": [
-      {
-        "id": "aqueduct:aq-lyon-gier",
-        "name": "Aqueduct of the Gier"
-      },
-      {
-        "id": "pleiades:812127749",
-        "name": "Aqueduct of the Gier"
-      }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q26224647",
@@ -463,22 +336,9 @@
         "id": "port:apa-ruginium-2061",
         "name": "Ruginium"
       }
-    ]
-  },
-  {
-    "qid": "Q3663959",
-    "kind": "mine",
-    "spreadKm": 7.4,
-    "members": [
-      {
-        "id": "mine:462149",
-        "name": "Cave di Barone"
-      },
-      {
-        "id": "mine:462151",
-        "name": "Cave di Cusa"
-      }
-    ]
+    ],
+    "resolution": "manual",
+    "strip": []
   },
   {
     "qid": "Q6877704",
@@ -493,7 +353,8 @@
         "id": "port:apa-port-at-27-62-35-52-5037",
         "name": "Port at 27.62, 35.52"
       }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q25166571",
@@ -516,67 +377,8 @@
         "id": "port:apa-port-at-36-79-24-58-3091",
         "name": "Port at 36.79, 24.58"
       }
-    ]
-  },
-  {
-    "qid": "Q188731",
-    "kind": "port",
-    "spreadKm": 6.7,
-    "members": [
-      {
-        "id": "port:apa-ialysos-trianta-trianda-minoan-colony-3354",
-        "name": "Ialysos, Trianta, Trianda, Minoan colony"
-      },
-      {
-        "id": "port:apa-rhodes-rhodos-rodos-rhodus-makaria-olyes-3326",
-        "name": "Rhodes, Rhodos, Rodos, Rhodus, Makaria, Olyessa, Poeissia, Ophioussa, Stadia, Atabyria, Small port"
-      }
-    ]
-  },
-  {
-    "qid": "Q1453686",
-    "kind": "mine",
-    "spreadKm": 6.6,
-    "members": [
-      {
-        "id": "mine:786137",
-        "name": "Umm Howeitat"
-      },
-      {
-        "id": "mine:786140",
-        "name": "Umm Rus"
-      }
-    ]
-  },
-  {
-    "qid": "Q23846130",
-    "kind": "aqueduct",
-    "spreadKm": 6.5,
-    "members": [
-      {
-        "id": "aqueduct:aq-lambaesis",
-        "name": "Aqueduct of Lambaesis"
-      },
-      {
-        "id": "pleiades:335226",
-        "name": "Unnamed aqueduct supplying Lambaesis"
-      }
-    ]
-  },
-  {
-    "qid": "Q3485394",
-    "kind": "aqueduct",
-    "spreadKm": 6.4,
-    "members": [
-      {
-        "id": "aqueduct:aq-mactar",
-        "name": "Aqueduct of Mactaris"
-      },
-      {
-        "id": "pleiades:208943566",
-        "name": "Aqueduct W of Mactaris"
-      }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q111600921",
@@ -591,22 +393,8 @@
         "id": "port:apa-port-at-40-35-27-96-4025",
         "name": "Port at 40.35, 27.96"
       }
-    ]
-  },
-  {
-    "qid": "Q1956584",
-    "kind": "port",
-    "spreadKm": 6.4,
-    "members": [
-      {
-        "id": "port:apa-oinoh-2751",
-        "name": "Oinoh?"
-      },
-      {
-        "id": "port:apa-thermae-thermesia-2750",
-        "name": "Thermae, Thermesia"
-      }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q13294",
@@ -621,7 +409,8 @@
         "id": "shipwreck:darmc-wreck-696",
         "name": "Silba 4"
       }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q24677890",
@@ -644,22 +433,8 @@
         "id": "port:apa-port-at-50-65-2-43-212",
         "name": "Port at 50.65, -2.43"
       }
-    ]
-  },
-  {
-    "qid": "Q26224642",
-    "kind": "port",
-    "spreadKm": 5.8,
-    "members": [
-      {
-        "id": "port:apa-port-at-43-16-16-36-2229",
-        "name": "Port at 43.16, 16.36"
-      },
-      {
-        "id": "port:apa-port-at-43-19-16-43-2227",
-        "name": "Port at 43.19, 16.43"
-      }
-    ]
+    ],
+    "resolution": "manual"
   },
   {
     "qid": "Q1945239",
@@ -678,36 +453,7 @@
         "id": "mine:pleiades-766391",
         "name": "Porphyrites (mountain)"
       }
-    ]
-  },
-  {
-    "qid": "Q28408071",
-    "kind": "mine",
-    "spreadKm": 5.6,
-    "members": [
-      {
-        "id": "mine:mine-faynan-copper",
-        "name": "Faynan Copper Mines"
-      },
-      {
-        "id": "mine:697726",
-        "name": "Phaino"
-      }
-    ]
-  },
-  {
-    "qid": "Q12237538",
-    "kind": "port",
-    "spreadKm": 5.2,
-    "members": [
-      {
-        "id": "port:apa-aedepsus-2513",
-        "name": "Aedepsus"
-      },
-      {
-        "id": "port:apa-athenai-diades-2512",
-        "name": "Athenai Diades?"
-      }
-    ]
+    ],
+    "resolution": "manual"
   }
 ]
