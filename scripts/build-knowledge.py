@@ -78,6 +78,7 @@ TYPE_WIKI = {
     "port": ("ports-wiki.json", "port"),
 }
 k_feat = {}
+unified_ids = set()
 import glob
 for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
     tname = os.path.basename(path)[:-5]
@@ -86,6 +87,7 @@ for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
     crprefix = wiki_file[1] if wiki_file else tname
     for e in json.load(open(path)):
         uid = e["id"]
+        unified_ids.add(uid)
         bare = uid.split(":", 1)[1] if ":" in uid else uid
         entry = None
         if bare in wlookup:
@@ -126,10 +128,10 @@ node_ids = {p["id"] for p in places}
 for name, store in [("places", k_places), ("features", k_feat)]:
     # for places, the full-fidelity previous build lives in places-detail
     # (places.json itself is the slim tier from here on)
-    prev_name = "places-detail" if name == "places" else name
+    prev_name = f"{name}-detail"
     prev_path = os.path.join(BASE, "knowledge", f"{prev_name}.json")
-    if name == "places" and not os.path.exists(prev_path):
-        prev_path = os.path.join(BASE, "knowledge", "places.json")
+    if not os.path.exists(prev_path):
+        prev_path = os.path.join(BASE, "knowledge", f"{name}.json")
     if os.path.exists(prev_path):
         prev = json.load(open(prev_path))
         preserved = 0
@@ -140,6 +142,8 @@ for name, store in [("places", k_places), ("features", k_feat)]:
                 # preservation kept 482 ghost-town extracts alive after
                 # their nodes were dropped by the zero-start gate
                 if name == "places" and k not in node_ids:
+                    continue
+                if name == "features" and k not in unified_ids:
                     continue
                 if v.get("extract") or v.get("wikipediaUrl"):
                     store[k] = v
@@ -173,24 +177,26 @@ def first_sentence(t):
 
 POPUP_CR = ("imageUrl", "province", "tradeRole", "ancientAuthors", "sources",
             "ancientTextMentions", "capacity", "outcome", "combatants", "buildingType")
-k_places_detail = k_places
-k_places_slim = {}
-for k, v in k_places.items():
-    # top-level `sources` is build provenance — nothing at runtime reads it
-    e = {f: v[f] for f in v if f not in ("crossRef", "sources")}
-    cr = v.get("crossRef")
-    if cr:
-        slim = {f: cr[f] for f in POPUP_CR if cr.get(f) is not None}
-        for df in ("pleiadesDescription", "wikidataDescription", "description"):
-            if cr.get(df):
-                slim[df] = first_sentence(cr[df])
-        e["crossRef"] = slim
-    k_places_slim[k] = e
+def slim_store(store):
+    out = {}
+    for k, v in store.items():
+        # top-level `sources` is build provenance — nothing at runtime reads it
+        e = {f: v[f] for f in v if f not in ("crossRef", "sources")}
+        cr = v.get("crossRef")
+        if cr:
+            slim = {f: cr[f] for f in POPUP_CR if cr.get(f) is not None}
+            for df in ("pleiadesDescription", "wikidataDescription", "description"):
+                if cr.get(df):
+                    slim[df] = first_sentence(cr[df])
+            e["crossRef"] = slim
+        out[k] = e
+    return out
 
 out_dir = os.path.join(BASE, "knowledge")
 os.makedirs(out_dir, exist_ok=True)
-for name, store in [("places", k_places_slim), ("places-detail", k_places_detail),
-                    ("features", k_feat), ("other", k_other)]:
+for name, store in [("places", slim_store(k_places)), ("places-detail", k_places),
+                    ("features", slim_store(k_feat)), ("features-detail", k_feat),
+                    ("other", k_other)]:
     p = os.path.join(out_dir, f"{name}.json")
     json.dump(store, open(p, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     open(p, "a").write("\n")

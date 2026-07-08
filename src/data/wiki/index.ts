@@ -111,6 +111,10 @@ export async function loadKnowledgePlacesDetail(): Promise<WikiLookup> {
   return loadJsonRaw<WikiLookup>(() => import('../knowledge/places-detail.json?raw'))
 }
 
+export async function loadKnowledgeFeaturesDetail(): Promise<WikiLookup> {
+  return loadJsonRaw<WikiLookup>(() => import('../knowledge/features-detail.json?raw'))
+}
+
 export async function loadKnowledgeFeatures(): Promise<WikiLookup> {
   return loadJsonRaw<WikiLookup>(() => import('../knowledge/features.json?raw'))
 }

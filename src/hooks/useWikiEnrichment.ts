@@ -86,6 +86,8 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
   'knowledge-places': async () => (await import('@/data/wiki')).loadKnowledgePlaces(),
   'knowledge-places-detail': async () => (await import('@/data/wiki')).loadKnowledgePlacesDetail(),
   'knowledge-features': async () => (await import('@/data/wiki')).loadKnowledgeFeatures(),
+  'knowledge-features-detail': async () =>
+    (await import('@/data/wiki')).loadKnowledgeFeaturesDetail(),
   cities: makeLayerLoader(
     async () => (await import('@/data/wiki')).loadSettlementWiki(),
     'settlements',

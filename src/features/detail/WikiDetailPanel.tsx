@@ -582,7 +582,11 @@ function WikiDetailContent({
   // places knowledge is two-tier: the popup store is slim, the panel
   // wants every crossRef field — swap to the detail tier here
   const lookup = useWikiEnrichment(
-    wikiLayer === 'knowledge-places' ? 'knowledge-places-detail' : wikiLayer,
+    wikiLayer === 'knowledge-places'
+      ? 'knowledge-places-detail'
+      : wikiLayer === 'knowledge-features'
+        ? 'knowledge-features-detail'
+        : wikiLayer,
   )
   const [sourcesExpanded, setSourcesExpanded] = useState(false)
   const crossRef = useCrossRef()
