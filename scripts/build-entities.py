@@ -83,8 +83,14 @@ for key, g in groups.items():
     else:
         lat, lng = c["lat"], c["lng"]
 
-    # name: Chandler (curated display) > DARE > Pleiades
-    name = (c and c["name"]) or (d and d["name"]) or (pl and pl.get("name")) or "?"
+    # name: Chandler (curated display) > DARE > Pleiades. strip() guards the
+    # whitespace-name records (a blank DARE name beat Pleiades' 'Bucium' and
+    # shipped an unnamed popup as pl-206989)
+    def _n(v):
+        return (v or "").strip() or None
+    name = (
+        (c and _n(c["name"])) or (d and _n(d["name"])) or (pl and _n(pl.get("name"))) or "?"
+    )
 
     # lifespan: widest attested span; keep DARE's 0 = unknown semantics only
     # when no source gives a real bound
@@ -204,10 +210,30 @@ for pid, pr in pleiades.items():
 # sources can't cover. Window-filtered at build time (the atlas ends 1453);
 # QIDs already claimed by a richer node are skipped (no duplicate dots).
 ATLAS_END = 1453
+# zero-start gate: startYear 0 means UNKNOWN inception, and 0 renders at
+# every year — 20th-century ghost towns (Kansas, Chernobyl-zone Belarus)
+# were appearing in 753 BC. A zero-start settlement stays only if its
+# P31 type says antiquity (fetch-wd-types.py) or it died in-window.
+WD_ANCIENT_TYPES = {
+    "Q15661340",  # ancient city
+    "Q839954",   # archaeological site
+    "Q148837",   # polis
+    "Q14616455",  # destroyed city
+    "Q109607",   # ruins
+    "Q755017",   # tell
+    "Q756780",   # Roman colony
+    "Q15217609",  # titular see (ancient bishoprics)
+}
 have_qids = {p["qid"] for p in places if "qid" in p}
 for w in wd_settlements:
     if w["startYear"] > ATLAS_END:
         continue
+    if w["startYear"] == 0:
+        died_in_window = 0 < w["endYear"] <= ATLAS_END
+        ancient = WD_ANCIENT_TYPES.intersection(w.get("types") or ())
+        if not died_in_window and not ancient:
+            stats["wd dropped (unknown start, modern type)"] += 1
+            continue
     if w["qid"] in have_qids:
         stats["wd skipped (qid already on a node)"] += 1
         continue

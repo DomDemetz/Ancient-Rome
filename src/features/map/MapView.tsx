@@ -1,10 +1,11 @@
 import 'leaflet/dist/leaflet.css'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useShallow } from 'zustand/shallow'
-import { MapContainer, TileLayer, useMap } from 'react-leaflet'
+import { MapContainer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
-import { territories } from '@/data'
+import { loadTerritories } from '@/data'
+import type { TerritorySnapshot } from '@/types'
 import { useMapLayerStore, getPersistedLayers } from '@/stores/useMapLayerStore'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
@@ -158,8 +159,58 @@ const BASE_ATTRIBUTION =
   'Map tiles by <a href="https://stamen.com">Stamen Design</a>, hosted by <a href="https://stadiamaps.com">Stadia Maps</a>, under <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>' +
   ' | Places: <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY), <a href="https://github.com/AWMC/geodata">AWMC</a> (ODbL), <a href="https://vici.org">Vici.org</a> (CC BY-SA), <a href="https://www.wikidata.org">Wikidata</a> (CC0)'
 
+/** Terrain tiles, tuned so phone panning never reveals bare squares:
+ *  - updateWhenIdle=false: Leaflet's mobile default postpones ALL tile
+ *    requests until the pan gesture ends — tiles now stream in mid-pan
+ *  - keepBuffer=6: retain a wide ring of already-seen tiles
+ *  - on mobile, an edge buffer (leaflet-edgebuffer pattern) pads the
+ *    tile-fetch bounds by one tile, so the ring past the phone's border
+ *    is ALREADY loaded when the pan reveals it. Desktop skips the pad —
+ *    a 1680px viewport already shows the world, and it would double the
+ *    Stadia quota for nothing. */
+const EdgeBufferedTileLayer = L.TileLayer.extend({
+  _getTiledPixelBounds(center: L.LatLng): L.Bounds {
+    const proto = L.TileLayer.prototype as unknown as {
+      _getTiledPixelBounds: (c: L.LatLng) => L.Bounds
+    }
+    const b = proto._getTiledPixelBounds.call(this, center)
+    const pad = L.Browser.mobile ? 256 : 0
+    return new L.Bounds(b.min!.subtract([pad, pad]), b.max!.add([pad, pad]))
+  },
+}) as unknown as new (url: string, options?: L.TileLayerOptions) => L.TileLayer
+
+function TerrainTiles({ attribution }: { attribution: string }) {
+  const map = useMap()
+  useEffect(() => {
+    const layer = new EdgeBufferedTileLayer(TERRAIN_TILE_URL, {
+      updateWhenIdle: false,
+      keepBuffer: 6,
+      errorTileUrl:
+        'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPj/HwADBwIAMCbHYQAAAABJRU5ErkJggg==',
+    })
+    layer.addTo(map)
+    return () => {
+      map.removeLayer(layer)
+    }
+  }, [map])
+  // attribution is layer-dependent (DARE/ORBIS/... credits join as layers
+  // toggle) — sync it like react-leaflet's <TileLayer attribution> did
+  useEffect(() => {
+    map.attributionControl?.addAttribution(attribution)
+    return () => {
+      map.attributionControl?.removeAttribution(attribution)
+    }
+  }, [map, attribution])
+  return null
+}
+
 export function MapView() {
   const [showTerritories, setShowTerritories] = useState(true)
+  // lazy: 3.8 MB that first paint shouldn't wait for
+  const [territories, setTerritories] = useState<TerritorySnapshot[] | null>(null)
+  useEffect(() => {
+    loadTerritories().then(setTerritories)
+  }, [])
   const mapRef = useRef<LeafletMap | null>(null)
 
   // Smart default: open with Conquest preset at 100 AD with brief autoplay
@@ -290,18 +341,14 @@ export function MapView() {
           preferCanvas
           ref={mapRef}
         >
-          <TileLayer
-            url={TERRAIN_TILE_URL}
-            attribution={attribution}
-            errorTileUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPj/HwADBwIAMCbHYQAAAABJRU5ErkJggg=="
-          />
+          <TerrainTiles attribution={attribution} />
           <BasePane />
           <MapNavHandler />
 
           {/* Render order: base layers -> overlays -> point layers */}
           {/* The world's polities (Cliopatria/Seshat, CC BY 4.0) — beneath Rome */}
           {showEmpires && empiresData && <EmpiresLayer data={empiresData} />}
-          {showTerritories && <TerritoryLayer snapshots={territories} />}
+          {showTerritories && territories && <TerritoryLayer snapshots={territories} />}
           <SeaLabels />
 
           {/* Base layers — every record is date-bounded and self-filters (start/

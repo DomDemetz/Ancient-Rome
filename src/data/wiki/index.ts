@@ -105,6 +105,12 @@ export async function loadKnowledgePlaces(): Promise<WikiLookup> {
   return loadJsonRaw<WikiLookup>(() => import('../knowledge/places.json?raw'))
 }
 
+/** Full-fidelity places knowledge (all crossRef fields) — detail panel only.
+ *  places.json is the slim popup tier; this loads on first Read more. */
+export async function loadKnowledgePlacesDetail(): Promise<WikiLookup> {
+  return loadJsonRaw<WikiLookup>(() => import('../knowledge/places-detail.json?raw'))
+}
+
 export async function loadKnowledgeFeatures(): Promise<WikiLookup> {
   return loadJsonRaw<WikiLookup>(() => import('../knowledge/features.json?raw'))
 }

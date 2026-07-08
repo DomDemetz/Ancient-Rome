@@ -1,326 +1,326 @@
 {
- "generated": null,
- "note": "regenerate via scripts/build-manifest.py (build-data step)",
- "artifacts": [
-  {
-   "file": "src/data/cities/historical-cities.json",
-   "records": 779,
-   "bytes": 574622,
-   "sha256_12": "733019b9725d",
-   "source": "Chandler via Reba, Reitsma & Seto 2016",
-   "license": "CC-BY 4.0",
-   "version": "FigShare chandlerV2",
-   "producer": "scripts/ingest-chandler-cities.py"
-  },
-  {
-   "file": "src/data/dare/settlements.json",
-   "records": 25531,
-   "bytes": 5480375,
-   "sha256_12": "84330c078264",
-   "source": "DARE (Digital Atlas of the Roman Empire)",
-   "license": "CC-BY 4.0",
-   "version": "via vici dump 2023-10-08",
-   "producer": "scripts/ingest scripts (dare)"
-  },
-  {
-   "file": "src/data/empires/empires.json",
-   "records": 5973,
-   "bytes": 12821915,
-   "sha256_12": "461aa797da41",
-   "source": "Cliopatria (Seshat)",
-   "license": "CC-BY 4.0",
-   "version": "v0.2.0 (2026-05)",
-   "producer": "scripts/ingest-cliopatria.py"
-  },
-  {
-   "file": "src/data/epigraphy/epigraphy.json",
-   "records": 12846,
-   "bytes": 2095688,
-   "sha256_12": "9fbcea641a5a",
-   "source": "EDH-derived density",
-   "license": "CC-BY-SA",
-   "version": "(pre-existing ingest)",
-   "producer": "scripts/(pre-existing ingest)"
-  },
-  {
-   "file": "src/data/knowledge/features.json",
-   "records": 10922,
-   "bytes": 7182518,
-   "sha256_12": "b2f9e33f463f",
-   "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
-   "license": "inherits sources",
-   "version": "build-time",
-   "producer": "scripts/build-knowledge.py"
-  },
-  {
-   "file": "src/data/knowledge/other.json",
-   "records": 212,
-   "bytes": 268199,
-   "sha256_12": "91415959549a",
-   "source": "consolidated: emperors/legions/entities wiki",
-   "license": "inherits sources",
-   "version": "build-time",
-   "producer": "scripts/build-knowledge.py"
-  },
-  {
-   "file": "src/data/knowledge/places.json",
-   "records": 28403,
-   "bytes": 10054365,
-   "sha256_12": "1c7c2a78902d",
-   "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
-   "license": "inherits sources",
-   "version": "build-time",
-   "producer": "scripts/build-knowledge.py"
-  },
-  {
-   "file": "src/data/places/places.json",
-   "records": 35898,
-   "bytes": 7023895,
-   "sha256_12": "b11b3b378a1f",
-   "source": "DARE + Chandler/Reba + Pleiades + Wikidata + Vici (merged)",
-   "license": "CC-BY / CC-BY-SA / CC0 mix — see DATA-SOURCES.md",
-   "version": "built from sources below",
-   "producer": "scripts/build-entities.py"
-  },
-  {
-   "file": "src/data/pleiades-all.json",
-   "records": 25260,
-   "bytes": 7473665,
-   "sha256_12": "06eed2f5fdd9",
-   "source": "Pleiades gazetteer",
-   "license": "CC-BY 3.0",
-   "version": "flattened export",
-   "producer": "scripts/(pre-existing ingest)"
-  },
-  {
-   "file": "src/data/registry/crosswalk-battles.json",
-   "records": 158,
-   "bytes": 14529,
-   "sha256_12": "a1033677a05c",
-   "source": "Wikidata SPARQL",
-   "license": "CC0",
-   "version": "fetched 2026-07-06",
-   "producer": "scripts/build-battle-crosswalk.py"
-  },
-  {
-   "file": "src/data/registry/crosswalk-dare.json",
-   "records": 12252,
-   "bytes": 1010634,
-   "sha256_12": "ab1e4f2aefce",
-   "source": "derived join",
-   "license": "inherits sources",
-   "version": "build-time",
-   "producer": "scripts/build-place-crosswalks.py"
-  },
-  {
-   "file": "src/data/registry/crosswalk-orbis.json",
-   "records": 570,
-   "bytes": 33824,
-   "sha256_12": "9344579f8bec",
-   "source": "derived join",
-   "license": "inherits sources",
-   "version": "build-time",
-   "producer": "scripts/integrate-orbis-nodes.py"
-  },
-  {
-   "file": "src/data/registry/crosswalk-vici.json",
-   "records": 9933,
-   "bytes": 434569,
-   "sha256_12": "3e0e4bc13295",
-   "source": "vici pmetadata (native)",
-   "license": "CC-BY-SA 3.0",
-   "version": "dump 2023-10-08",
-   "producer": "scripts/build-vici-crosswalk.py"
-  },
-  {
-   "file": "src/data/registry/pleiades-wikidata.json",
-   "records": 13974,
-   "bytes": 911081,
-   "sha256_12": "f0b072983c9a",
-   "source": "Wikidata SPARQL P1584 + vici q_pleiades",
-   "license": "CC0",
-   "version": "fetched 2026-07-05/06",
-   "producer": "scripts/fetch-pleiades-wikidata-bridge.py"
-  },
-  {
-   "file": "src/data/registry/unified-nodes.json",
-   "records": 14100,
-   "bytes": 1204456,
-   "sha256_12": "e86fe23c6a04",
-   "source": "derived join",
-   "license": "inherits sources",
-   "version": "build-time",
-   "producer": "scripts/attach-nodes-to-unified.py"
-  },
-  {
-   "file": "src/data/territories/territories.json",
-   "records": 254,
-   "bytes": 3791310,
-   "sha256_12": "4467944090a9",
-   "source": "Cliopatria (Seshat)",
-   "license": "CC-BY 4.0",
-   "version": "v0.2.0 (2026-05)",
-   "producer": "scripts/build-territories-cliopatria.py"
-  },
-  {
-   "file": "src/data/trade/orbis-temporal.json",
-   "records": 1682,
-   "bytes": 645729,
-   "sha256_12": "feed33c2c001",
-   "source": "ORBIS v2 (Stanford), place-node joined",
-   "license": "MIT",
-   "version": "orbis_v2 + join 2026-07-07",
-   "producer": "scripts/ingest-orbis.ts + integrate-orbis-nodes.py"
-  },
-  {
-   "file": "src/data/trade/orbis.json",
-   "records": 1682,
-   "bytes": 580340,
-   "sha256_12": "9ac2cbe3cadf",
-   "source": "ORBIS v2 (Stanford), place-node joined",
-   "license": "MIT",
-   "version": "orbis_v2 + join 2026-07-07",
-   "producer": "scripts/ingest-orbis.ts + integrate-orbis-nodes.py"
-  },
-  {
-   "file": "src/data/vici-sites.json",
-   "records": 85092,
-   "bytes": 16464185,
-   "sha256_12": "4643ae093992",
-   "source": "vici.org SQL dump",
-   "license": "CC-BY-SA 3.0",
-   "version": "dump 2023-10-08",
-   "producer": "scripts/ingest-vici.ts"
-  },
-  {
-   "file": "src/data/unified/amphitheater.json",
-   "records": 279,
-   "bytes": 92611,
-   "sha256_12": "14e25c77c6df",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/aqueduct.json",
-   "records": 475,
-   "bytes": 199134,
-   "sha256_12": "dac987828fa8",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/battle.json",
-   "records": 374,
-   "bytes": 189750,
-   "sha256_12": "89fa49af6438",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/building.json",
-   "records": 5701,
-   "bytes": 2334846,
-   "sha256_12": "18b811ea04e8",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/discovery-bridge.json",
-   "records": 601,
-   "bytes": 247738,
-   "sha256_12": "a4c602a1c9dd",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/discovery-temple.json",
-   "records": 1428,
-   "bytes": 659477,
-   "sha256_12": "2e9d61457e4e",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/discovery-tomb.json",
-   "records": 930,
-   "bytes": 434303,
-   "sha256_12": "90bd860fed07",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/discovery-villa.json",
-   "records": 2357,
-   "bytes": 933716,
-   "sha256_12": "d80f9fbfa46f",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/mine.json",
-   "records": 1172,
-   "bytes": 440207,
-   "sha256_12": "55f50950912b",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/port.json",
-   "records": 5705,
-   "bytes": 2232962,
-   "sha256_12": "314869cf4bbd",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/press.json",
-   "records": 400,
-   "bytes": 136108,
-   "sha256_12": "a27c172e6904",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/religious-site.json",
-   "records": 1839,
-   "bytes": 814487,
-   "sha256_12": "9ebe1e837a72",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  },
-  {
-   "file": "src/data/unified/shipwreck.json",
-   "records": 897,
-   "bytes": 307716,
-   "sha256_12": "328ced842c35",
-   "source": "unified migration of per-layer sources",
-   "license": "see DATA-SOURCES.md",
-   "version": "build-time",
-   "producer": "scripts/build-unified-entities.ts"
-  }
- ]
+  "generated": null,
+  "note": "regenerate via scripts/build-manifest.py (build-data step)",
+  "artifacts": [
+    {
+      "file": "src/data/cities/historical-cities.json",
+      "records": 779,
+      "bytes": 574622,
+      "sha256_12": "733019b9725d",
+      "source": "Chandler via Reba, Reitsma & Seto 2016",
+      "license": "CC-BY 4.0",
+      "version": "FigShare chandlerV2",
+      "producer": "scripts/ingest-chandler-cities.py"
+    },
+    {
+      "file": "src/data/dare/settlements.json",
+      "records": 25531,
+      "bytes": 5480375,
+      "sha256_12": "84330c078264",
+      "source": "DARE (Digital Atlas of the Roman Empire)",
+      "license": "CC-BY 4.0",
+      "version": "via vici dump 2023-10-08",
+      "producer": "scripts/ingest scripts (dare)"
+    },
+    {
+      "file": "src/data/empires/empires.json",
+      "records": 5973,
+      "bytes": 12821915,
+      "sha256_12": "461aa797da41",
+      "source": "Cliopatria (Seshat)",
+      "license": "CC-BY 4.0",
+      "version": "v0.2.0 (2026-05)",
+      "producer": "scripts/ingest-cliopatria.py"
+    },
+    {
+      "file": "src/data/epigraphy/epigraphy.json",
+      "records": 12846,
+      "bytes": 2095688,
+      "sha256_12": "9fbcea641a5a",
+      "source": "EDH-derived density",
+      "license": "CC-BY-SA",
+      "version": "(pre-existing ingest)",
+      "producer": "scripts/(pre-existing ingest)"
+    },
+    {
+      "file": "src/data/knowledge/features.json",
+      "records": 10922,
+      "bytes": 7182518,
+      "sha256_12": "b2f9e33f463f",
+      "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
+      "license": "inherits sources",
+      "version": "build-time",
+      "producer": "scripts/build-knowledge.py"
+    },
+    {
+      "file": "src/data/knowledge/other.json",
+      "records": 212,
+      "bytes": 268199,
+      "sha256_12": "91415959549a",
+      "source": "consolidated: emperors/legions/entities wiki",
+      "license": "inherits sources",
+      "version": "build-time",
+      "producer": "scripts/build-knowledge.py"
+    },
+    {
+      "file": "src/data/knowledge/places.json",
+      "records": 28847,
+      "bytes": 10315097,
+      "sha256_12": "2ea031ef38d8",
+      "source": "consolidated: wiki/* + cross-reference (graph-keyed)",
+      "license": "inherits sources",
+      "version": "build-time",
+      "producer": "scripts/build-knowledge.py"
+    },
+    {
+      "file": "src/data/places/places.json",
+      "records": 32476,
+      "bytes": 6506054,
+      "sha256_12": "789873608129",
+      "source": "DARE + Chandler/Reba + Pleiades + Wikidata + Vici (merged)",
+      "license": "CC-BY / CC-BY-SA / CC0 mix — see DATA-SOURCES.md",
+      "version": "built from sources below",
+      "producer": "scripts/build-entities.py"
+    },
+    {
+      "file": "src/data/pleiades-all.json",
+      "records": 25260,
+      "bytes": 7473665,
+      "sha256_12": "06eed2f5fdd9",
+      "source": "Pleiades gazetteer",
+      "license": "CC-BY 3.0",
+      "version": "flattened export",
+      "producer": "scripts/(pre-existing ingest)"
+    },
+    {
+      "file": "src/data/registry/crosswalk-battles.json",
+      "records": 158,
+      "bytes": 14529,
+      "sha256_12": "a1033677a05c",
+      "source": "Wikidata SPARQL",
+      "license": "CC0",
+      "version": "fetched 2026-07-06",
+      "producer": "scripts/build-battle-crosswalk.py"
+    },
+    {
+      "file": "src/data/registry/crosswalk-dare.json",
+      "records": 12252,
+      "bytes": 1010634,
+      "sha256_12": "ab1e4f2aefce",
+      "source": "derived join",
+      "license": "inherits sources",
+      "version": "build-time",
+      "producer": "scripts/build-place-crosswalks.py"
+    },
+    {
+      "file": "src/data/registry/crosswalk-orbis.json",
+      "records": 570,
+      "bytes": 33819,
+      "sha256_12": "b32420a9cc7d",
+      "source": "derived join",
+      "license": "inherits sources",
+      "version": "build-time",
+      "producer": "scripts/integrate-orbis-nodes.py"
+    },
+    {
+      "file": "src/data/registry/crosswalk-vici.json",
+      "records": 9933,
+      "bytes": 434569,
+      "sha256_12": "3e0e4bc13295",
+      "source": "vici pmetadata (native)",
+      "license": "CC-BY-SA 3.0",
+      "version": "dump 2023-10-08",
+      "producer": "scripts/build-vici-crosswalk.py"
+    },
+    {
+      "file": "src/data/registry/pleiades-wikidata.json",
+      "records": 13974,
+      "bytes": 911081,
+      "sha256_12": "f0b072983c9a",
+      "source": "Wikidata SPARQL P1584 + vici q_pleiades",
+      "license": "CC0",
+      "version": "fetched 2026-07-05/06",
+      "producer": "scripts/fetch-pleiades-wikidata-bridge.py"
+    },
+    {
+      "file": "src/data/registry/unified-nodes.json",
+      "records": 14100,
+      "bytes": 1204456,
+      "sha256_12": "e86fe23c6a04",
+      "source": "derived join",
+      "license": "inherits sources",
+      "version": "build-time",
+      "producer": "scripts/attach-nodes-to-unified.py"
+    },
+    {
+      "file": "src/data/territories/territories.json",
+      "records": 254,
+      "bytes": 3791310,
+      "sha256_12": "4467944090a9",
+      "source": "Cliopatria (Seshat)",
+      "license": "CC-BY 4.0",
+      "version": "v0.2.0 (2026-05)",
+      "producer": "scripts/build-territories-cliopatria.py"
+    },
+    {
+      "file": "src/data/trade/orbis-temporal.json",
+      "records": 1682,
+      "bytes": 645726,
+      "sha256_12": "fac6661c33b4",
+      "source": "ORBIS v2 (Stanford), place-node joined",
+      "license": "MIT",
+      "version": "orbis_v2 + join 2026-07-07",
+      "producer": "scripts/ingest-orbis.ts + integrate-orbis-nodes.py"
+    },
+    {
+      "file": "src/data/trade/orbis.json",
+      "records": 1682,
+      "bytes": 580337,
+      "sha256_12": "05327a7cb50a",
+      "source": "ORBIS v2 (Stanford), place-node joined",
+      "license": "MIT",
+      "version": "orbis_v2 + join 2026-07-07",
+      "producer": "scripts/ingest-orbis.ts + integrate-orbis-nodes.py"
+    },
+    {
+      "file": "src/data/vici-sites.json",
+      "records": 85092,
+      "bytes": 16464185,
+      "sha256_12": "4643ae093992",
+      "source": "vici.org SQL dump",
+      "license": "CC-BY-SA 3.0",
+      "version": "dump 2023-10-08",
+      "producer": "scripts/ingest-vici.ts"
+    },
+    {
+      "file": "src/data/unified/amphitheater.json",
+      "records": 279,
+      "bytes": 71199,
+      "sha256_12": "4f572ef6e12f",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/aqueduct.json",
+      "records": 475,
+      "bytes": 162304,
+      "sha256_12": "1f5dfae6d016",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/battle.json",
+      "records": 374,
+      "bytes": 189750,
+      "sha256_12": "89fa49af6438",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/building.json",
+      "records": 5701,
+      "bytes": 1901450,
+      "sha256_12": "683ea3cd8630",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/discovery-bridge.json",
+      "records": 601,
+      "bytes": 201477,
+      "sha256_12": "6203de8023a2",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/discovery-temple.json",
+      "records": 1428,
+      "bytes": 542798,
+      "sha256_12": "45401ac7fe3d",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/discovery-tomb.json",
+      "records": 930,
+      "bytes": 358864,
+      "sha256_12": "c875117cca71",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/discovery-villa.json",
+      "records": 2357,
+      "bytes": 751089,
+      "sha256_12": "d40d86bff3de",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/mine.json",
+      "records": 1172,
+      "bytes": 345284,
+      "sha256_12": "ddcae5419397",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/port.json",
+      "records": 5705,
+      "bytes": 2232962,
+      "sha256_12": "314869cf4bbd",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/press.json",
+      "records": 400,
+      "bytes": 136108,
+      "sha256_12": "a27c172e6904",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/religious-site.json",
+      "records": 1839,
+      "bytes": 659295,
+      "sha256_12": "ffe81fd05f38",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    },
+    {
+      "file": "src/data/unified/shipwreck.json",
+      "records": 897,
+      "bytes": 307716,
+      "sha256_12": "328ced842c35",
+      "source": "unified migration of per-layer sources",
+      "license": "see DATA-SOURCES.md",
+      "version": "build-time",
+      "producer": "scripts/build-unified-entities.ts"
+    }
+  ]
 }

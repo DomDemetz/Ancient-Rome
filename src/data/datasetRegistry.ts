@@ -138,7 +138,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
     color: '#4d7c0f',
     fillColor: '#84cc16',
     minZoom: 7,
-    temporalFilter: false,
+    temporalFilter: true,
     activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
   },
   {
@@ -149,7 +149,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
     color: '#86198f',
     fillColor: '#d946ef',
     minZoom: 7,
-    temporalFilter: false,
+    temporalFilter: true,
     activeClass: 'bg-fuchsia-900/80 border-fuchsia-700 text-fuchsia-100 hover:bg-fuchsia-800/80',
   },
   {
@@ -160,7 +160,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
     color: '#0369a1',
     fillColor: '#38bdf8',
     minZoom: 7,
-    temporalFilter: false,
+    temporalFilter: true,
     activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
   },
   {
@@ -171,7 +171,7 @@ export const DATASET_REGISTRY: DatasetConfig[] = [
     color: '#374151',
     fillColor: '#9ca3af',
     minZoom: 7,
-    temporalFilter: false,
+    temporalFilter: true,
     activeClass: 'bg-gray-800/80 border-gray-600 text-gray-100 hover:bg-gray-700/80',
   },
 ]

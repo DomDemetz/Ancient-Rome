@@ -190,15 +190,25 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       const x = mercX(e.label[1])
       let y = mercY(e.label[0])
       const halfW = labelHalfWidth(e.name, e.area)
+      // dodge a labeled city sitting inside the name's box FIRST, so the
+      // label-collision test below judges the FINAL position (a blind
+      // post-test nudge re-created the overlaps it was meant to fix).
+      // The city's own label extends ~45px around its dot — collision space
+      // is the SUM of both boxes (Constantinople clipped LATIN EMPIRE's
+      // tail from 74px away). Nudge AWAY from the city: north when the
+      // city is south of the name, south when it's north (Fez sat above
+      // ALMOHAD CALIPHATE; always-north walked the name INTO it).
+      let dodge = 0
+      const hit = obstacles.find(
+        ([ox, oy]) => Math.abs(ox - x) < halfW + 45 && Math.abs(oy - y) < 26,
+      )
+      if (hit) {
+        const step = hit[1] >= y ? -30 : 30 // screen-north is -y
+        dodge = (-step * Math.cos((e.label[0] * Math.PI) / 180)) / pxPerDegX
+        y += step
+      }
       if (placed.some(([px, py, pw]) => Math.abs(px - x) < pw + halfW && Math.abs(py - y) < 26))
         continue
-      // dodge a labeled city sitting inside the name's box: nudge north
-      let dodge = 0
-      if (obstacles.some(([ox, oy]) => Math.abs(ox - x) < halfW && Math.abs(oy - y) < 22)) {
-        // ~18px screen north, converted to degrees at this latitude
-        dodge = (18 * Math.cos((e.label[0] * Math.PI) / 180)) / pxPerDegX
-        y -= 18
-      }
       placed.push([x, y, halfW])
       out.push({ e, dodge })
     }

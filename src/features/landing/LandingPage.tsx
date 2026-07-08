@@ -1,9 +1,16 @@
+import landingStats from '@/data/registry/landing-stats.json'
 import { useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Compass, ArrowRight, Star, BookOpen, Footprints } from 'lucide-react'
 import { entities, connections, stories } from '@/data'
 import { entityIcons, entityLabels } from '@/lib/colors'
 
+/** 32476 -> "32,400+" — a stable, honest round-down for the stats ribbon */
+function fmtStat(n: number): string {
+  if (n < 1000) return String(n)
+  const floored = Math.floor(n / 100) * 100
+  return `${floored.toLocaleString('en-US')}+`
+}
 export function LandingPage() {
   const navigate = useNavigate()
 
@@ -65,12 +72,12 @@ export function LandingPage() {
       <section className="mx-auto max-w-4xl px-4 pb-16">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-center">
           {[
-            ['35,900+', 'Settlements'],
-            ['22,100+', 'Archaeological Sites'],
-            ['5,700+', 'Buildings & Structures'],
-            ['2,283', 'Historical Figures'],
-            ['374', 'Battles'],
-            ['126', 'Emperors'],
+            [fmtStat(landingStats.settlements), 'Settlements'],
+            [fmtStat(landingStats.archaeologicalSites), 'Archaeological Sites'],
+            [fmtStat(landingStats.buildings), 'Buildings & Structures'],
+            [String(landingStats.people), 'Historical Figures'],
+            [String(landingStats.battles), 'Battles'],
+            [String(landingStats.emperors), 'Emperors'],
           ].map(([n, label]) => (
             <div key={label} className="flex items-baseline gap-1.5">
               <span className="font-serif italic text-xl text-amber-500/80">{n}</span>

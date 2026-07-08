@@ -30,6 +30,10 @@ W = lambda n: json.load(open(os.path.join(BASE, "wiki", n)))
 places = json.load(open(os.path.join(BASE, "places", "places.json")))
 setl = W("settlements-wiki.json")
 cross = W("cross-reference.json")
+try:
+    wd_wiki = W("wd-wiki.json")  # Wikidata settlement extracts (node-id keyed)
+except FileNotFoundError:
+    wd_wiki = {}
 
 def base_entry(wiki, src):
     e = {k: wiki[k] for k in ("extract", "romanEraExtract", "wikiTitle", "wikipediaUrl",
@@ -46,6 +50,8 @@ for p in places:
     ref = p.get("wiki")
     if ref and ref[0] == "settlements" and ref[1] in setl:
         entry = base_entry(setl[ref[1]], "settlements-wiki")
+    elif p["id"] in wd_wiki and wd_wiki[p["id"]].get("extract"):
+        entry = base_entry(wd_wiki[p["id"]], "wd-wiki")
     # cross-ref by settlement / pleiades keys
     cr = None
     if p.get("dare"):
@@ -103,14 +109,25 @@ for fname, prefix in [("emperors-wiki.json", "emperor"), ("legions-wiki.json", "
 
 # Merge with previous builds: preserve fetched content (extracts,
 # thumbnails, wiki URLs) that isn't derivable from wiki source files.
+node_ids = {p["id"] for p in places}
 for name, store in [("places", k_places), ("features", k_feat)]:
-    prev_path = os.path.join(BASE, "knowledge", f"{name}.json")
+    # for places, the full-fidelity previous build lives in places-detail
+    # (places.json itself is the slim tier from here on)
+    prev_name = "places-detail" if name == "places" else name
+    prev_path = os.path.join(BASE, "knowledge", f"{prev_name}.json")
+    if name == "places" and not os.path.exists(prev_path):
+        prev_path = os.path.join(BASE, "knowledge", "places.json")
     if os.path.exists(prev_path):
         prev = json.load(open(prev_path))
         preserved = 0
         merged = 0
         for k, v in prev.items():
             if k not in store:
+                # never resurrect an entry whose canonical node is gone —
+                # preservation kept 482 ghost-town extracts alive after
+                # their nodes were dropped by the zero-start gate
+                if name == "places" and k not in node_ids:
+                    continue
                 if v.get("extract") or v.get("wikipediaUrl"):
                     store[k] = v
                     preserved += 1
@@ -125,9 +142,42 @@ for name, store in [("places", k_places), ("features", k_feat)]:
         if merged:
             print(f"  {name}: merged {merged} fetched fields into rebuilt entries")
 
+# ---- two-tier places store ----
+# The popup path renders: extract/romanEraExtract, thumbnail, and a
+# handful of crossRef fields (FIRST SENTENCE of the descriptions only —
+# see appendCrossRefTooltip). Shipping the full Pleiades/Wikidata record
+# for all ~29k entries made knowledge/places.json a 10 MB download on
+# the DEFAULT view. places.json is now the slim popup tier;
+# places-detail.json keeps full entries and loads only when the detail
+# panel opens (useWikiEnrichment 'knowledge-places-detail').
+import re as _re
+
+def first_sentence(t):
+    if not t:
+        return t
+    m = _re.match(r"^(.+?\.)\s+(?=[A-Z])", t)
+    return m.group(1) if m else t
+
+POPUP_CR = ("imageUrl", "province", "tradeRole", "ancientAuthors", "sources",
+            "ancientTextMentions", "capacity", "outcome", "combatants", "buildingType")
+k_places_detail = k_places
+k_places_slim = {}
+for k, v in k_places.items():
+    # top-level `sources` is build provenance — nothing at runtime reads it
+    e = {f: v[f] for f in v if f not in ("crossRef", "sources")}
+    cr = v.get("crossRef")
+    if cr:
+        slim = {f: cr[f] for f in POPUP_CR if cr.get(f) is not None}
+        for df in ("pleiadesDescription", "wikidataDescription", "description"):
+            if cr.get(df):
+                slim[df] = first_sentence(cr[df])
+        e["crossRef"] = slim
+    k_places_slim[k] = e
+
 out_dir = os.path.join(BASE, "knowledge")
 os.makedirs(out_dir, exist_ok=True)
-for name, store in [("places", k_places), ("features", k_feat), ("other", k_other)]:
+for name, store in [("places", k_places_slim), ("places-detail", k_places_detail),
+                    ("features", k_feat), ("other", k_other)]:
     p = os.path.join(out_dir, f"{name}.json")
     json.dump(store, open(p, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     open(p, "a").write("\n")

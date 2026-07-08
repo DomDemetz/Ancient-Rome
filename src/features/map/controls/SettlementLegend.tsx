@@ -3,6 +3,7 @@ import { ChevronDown, ChevronRight } from 'lucide-react'
 import { ALL_CATEGORIES, CATEGORY_STYLES } from '../layers/settlementStyles'
 import type { SettlementCategory } from '../layers/settlementStyles'
 import { useUIStore } from '@/stores/useUIStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
 
 interface SettlementLegendProps {
   hiddenCategories: Set<string>
@@ -12,6 +13,11 @@ interface SettlementLegendProps {
 export function SettlementLegend({ hiddenCategories, onToggleCategory }: SettlementLegendProps) {
   const isMobile = useUIStore((s) => s.isMobile)
   const [collapsed, setCollapsed] = useState(isMobile)
+  // Below zoom 6 no settlement dot can render (getZoomThreshold floors at 6),
+  // so a seven-category legend describes an empty screen — say why instead.
+  // (nav-store view, NOT useMapViewport: this renders outside MapContainer)
+  const zoom = useMapNavStore((s) => s.mapView?.zoom)
+  const dotsRenderable = zoom == null || zoom >= 6
 
   return (
     <div
@@ -32,7 +38,12 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
         )}
       </button>
 
-      {!collapsed && (
+      {!collapsed && !dotsRenderable && (
+        <div className="px-3 pb-2 text-[10px] italic text-slate-500">
+          Zoom in to see individual settlements
+        </div>
+      )}
+      {!collapsed && dotsRenderable && (
         <div className="px-3 pb-2 flex flex-col gap-1">
           {ALL_CATEGORIES.map((cat) => {
             const style = CATEGORY_STYLES[cat]

@@ -17,7 +17,8 @@ describe('knowledge/places.json', () => {
     expect(rome).toBeDefined()
     expect(rome.extract).toMatch(/Rome/)
     expect(rome).toHaveProperty('crossRef')
-    expect(rome).toHaveProperty('sources')
+    // provenance `sources` lives only in places-detail.json now — the slim
+    // popup tier dropped it (nothing at runtime read it)
   })
 
   it('renders through appendWikiTooltip keyed by node id (popup chain)', () => {
@@ -51,9 +52,10 @@ describe('vici chunks', () => {
 
 describe('unified-nodes join (UI adoption chain)', () => {
   it('the Flavian Amphitheatre resolves to Rome for the popup anchor line', async () => {
-    const join = JSON.parse(
-      (await import('../registry/unified-nodes.json?raw')).default,
-    ) as Record<string, { node: string; name: string; km: number; rel: string }>
+    const join = JSON.parse((await import('../registry/unified-nodes.json?raw')).default) as Record<
+      string,
+      { node: string; name: string; km: number; rel: string }
+    >
     const fl = join['amphitheater:flavian-amphitheater']
     expect(fl).toBeDefined()
     expect(fl.name).toBe('Rome')

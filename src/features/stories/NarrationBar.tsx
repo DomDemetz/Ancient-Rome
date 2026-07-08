@@ -41,10 +41,17 @@ export function NarrationBar({
           </p>
         </div>
 
-        {/* Step content */}
+        {/* Step content. The narration IS the story — line-clamp-2 cut every
+            step mid-sentence (the longest runs ~1,800 chars and lost 90% of
+            its text with no way to read it). Show it fully up to ~5 lines,
+            scroll inside for the monsters, keep the choreographed map view. */}
         <div className="flex-1 min-w-0">
-          <p className="font-serif italic font-bold text-[15px] text-amber-50/95 mb-0.5">{currentStep.title}</p>
-          <p className="text-xs text-slate-500 line-clamp-2">{currentStep.content}</p>
+          <p className="font-serif italic font-bold text-[15px] text-amber-50/95 mb-0.5">
+            {currentStep.title}
+          </p>
+          <p className="text-xs text-slate-400 leading-relaxed max-h-[5.5rem] overflow-y-auto pr-2">
+            {currentStep.content}
+          </p>
         </div>
 
         {/* Controls */}

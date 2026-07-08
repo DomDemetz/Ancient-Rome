@@ -39,8 +39,11 @@ async function journey(layers, fn) {
   const h = {
     page,
     goto: async (path = '/') => {
-      await page.goto(`${BASE}${path}`, { waitUntil: 'networkidle' })
-      await page.waitForTimeout(4000)
+      // 'load' + settle, not 'networkidle': the tile layer streams tiles
+      // during idle now (updateWhenIdle: false), so the network never
+      // goes quiet enough on a slow tile CDN and goto times out
+      await page.goto(`${BASE}${path}`, { waitUntil: 'load', timeout: 60000 })
+      await page.waitForTimeout(6000)
     },
     searchAndPick: async (q) => {
       const search = page.locator('input[placeholder="Search places & layers..."]').first()
