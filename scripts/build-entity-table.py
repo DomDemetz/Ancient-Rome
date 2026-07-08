@@ -103,6 +103,16 @@ def main():
                 (k, norm_name(e.get("ancientName") or e.get("label")),
                  sources[k]["kind"]))
 
+    # --- adjudicated same-QID merge links (resolve-same-qid-groups.py) ---
+    # These groups were judged same-entity per the QID's own instanceOf
+    # classes; union unconditionally, bypassing the name/kind guards below.
+    links_path = DATA / "entities" / "same-qid-links.json"
+    if links_path.exists():
+        for link in json.load(open(links_path)):
+            linked = [k for k in link["keys"] if k in sources]
+            for other in linked[1:]:
+                uf.union(linked[0], other)
+
     # --- name+kind+proximity-guarded QID unions ---
     # An aqueduct named after its city carries the city's name AND QID; it is
     # still a different entity — kinds must agree. And "Ad Pontem" names three

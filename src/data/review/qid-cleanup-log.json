@@ -9749,5 +9749,789 @@
     "qid": "Q721817",
     "reason": "QID is the structure itself (Basilica of San Vitale), not a container",
     "confidence": "high"
+  },
+  {
+    "key": "port:apa-corone-korone-2839",
+    "action": "qid->containedInQid",
+    "qid": "Q1001844",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-36-97-21-93-2838",
+    "action": "qid->containedInQid",
+    "qid": "Q1001844",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-turris-libyssonis-libisonis-1342",
+    "action": "qid->containedInQid",
+    "qid": "Q101405676",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-turris-libyssonis-libisonis-1344",
+    "action": "qid->containedInQid",
+    "qid": "Q101405676",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-turris-libyssonis-libisonis-1345",
+    "action": "qid->containedInQid",
+    "qid": "Q101405676",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:540665",
+    "action": "qid->containedInQid",
+    "qid": "Q1014225",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-sabratha",
+    "action": "qid->containedInQid",
+    "qid": "Q104655293",
+    "reason": "place-anchor QID on 'aqueduct' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-355",
+    "action": "qid->containedInQid",
+    "qid": "Q104671952",
+    "reason": "place-anchor QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "mine:215815905",
+    "action": "qid->containedInQid",
+    "qid": "Q113532055",
+    "reason": "place-anchor QID on 'mine' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:540840",
+    "action": "qid->containedInQid",
+    "qid": "Q1240074",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:540840",
+    "action": "qid->containedInQid",
+    "qid": "Q1240074",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-itea-on-r-hylaithos-2400",
+    "action": "qid->containedInQid",
+    "qid": "Q1240074",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:167853",
+    "action": "qid->containedInQid",
+    "qid": "Q125549605",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:570196",
+    "action": "qid->containedInQid",
+    "qid": "Q125936606",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-204",
+    "action": "qid->containedInQid",
+    "qid": "Q131911921",
+    "reason": "pure settlement QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-085",
+    "action": "qid->containedInQid",
+    "qid": "Q131911921",
+    "reason": "pure settlement QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-rhenaia-insula-greater-delos-island-3014",
+    "action": "qid->containedInQid",
+    "qid": "Q131911921",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-091",
+    "action": "qid->containedInQid",
+    "qid": "Q133123",
+    "reason": "pure settlement QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-patrai-patras-possible-skylla-charybdis--2877",
+    "action": "qid->containedInQid",
+    "qid": "Q133123",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:256075",
+    "action": "qid->containedInQid",
+    "qid": "Q137610710",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-dikaia-2638",
+    "action": "qid->containedInQid",
+    "qid": "Q14656052",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-gigonos-2636",
+    "action": "qid->containedInQid",
+    "qid": "Q14656052",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-stomion-2637",
+    "action": "qid->containedInQid",
+    "qid": "Q14656052",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:201100502",
+    "action": "qid->containedInQid",
+    "qid": "Q1466831",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-marionpolis-arsinoe-marion-4271",
+    "action": "qid->containedInQid",
+    "qid": "Q1466831",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:570438",
+    "action": "qid->containedInQid",
+    "qid": "Q1572206",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-commercial-port-of-delessa-dhilos-dilos--3008",
+    "action": "qid->containedInQid",
+    "qid": "Q173148",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-fossa-katharsis-on-rhenaia-insula-greate-3015",
+    "action": "qid->containedInQid",
+    "qid": "Q173148",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-sacred-port-of-delessa-dhilos-dilos-delo-3007",
+    "action": "qid->containedInQid",
+    "qid": "Q173148",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:darmc-wreck-973",
+    "action": "qid->containedInQid",
+    "qid": "Q174262",
+    "reason": "pure settlement QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-lisia-lesia-insula-972",
+    "action": "qid->containedInQid",
+    "qid": "Q174262",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-51-41-0-25-157",
+    "action": "qid->containedInQid",
+    "qid": "Q17647299",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-51-43-0-22-156",
+    "action": "qid->containedInQid",
+    "qid": "Q17647299",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-51-44-0-22-155",
+    "action": "qid->containedInQid",
+    "qid": "Q17647299",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-352",
+    "action": "qid->containedInQid",
+    "qid": "Q1785592",
+    "reason": "pure settlement QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-marica-temple-sea-port-of-minturnae-1555",
+    "action": "qid->containedInQid",
+    "qid": "Q18170298",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-minturnae",
+    "action": "qid->containedInQid",
+    "qid": "Q18170298",
+    "reason": "pure settlement QID on 'aqueduct' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-384",
+    "action": "qid->containedInQid",
+    "qid": "Q1826410",
+    "reason": "place-anchor QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-burdigala-on-r-garumna-inner-port-1091",
+    "action": "qid->containedInQid",
+    "qid": "Q1826410",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:462490",
+    "action": "qid->containedInQid",
+    "qid": "Q18468797",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-36-75-21-70-2845",
+    "action": "qid->containedInQid",
+    "qid": "Q187039",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-36-76-21-71-2846",
+    "action": "qid->containedInQid",
+    "qid": "Q187039",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-093",
+    "action": "qid->containedInQid",
+    "qid": "Q188731",
+    "reason": "pure settlement QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-rhodes-rhodos-rodos-rhodus-makaria-olyes-3326",
+    "action": "qid->containedInQid",
+    "qid": "Q188731",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:189758765",
+    "action": "qid->containedInQid",
+    "qid": "Q2121746",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:245438984",
+    "action": "qid->containedInQid",
+    "qid": "Q214944",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-minervae-prom-1618",
+    "action": "qid->containedInQid",
+    "qid": "Q2165460",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:589760",
+    "action": "qid->containedInQid",
+    "qid": "Q22681271",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:216931",
+    "action": "qid->containedInQid",
+    "qid": "Q2407089",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:216931",
+    "action": "qid->containedInQid",
+    "qid": "Q2407089",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-010",
+    "action": "qid->containedInQid",
+    "qid": "Q241298",
+    "reason": "pure settlement QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-albingauno-albenganum-1368",
+    "action": "qid->containedInQid",
+    "qid": "Q241298",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:786125",
+    "action": "qid->containedInQid",
+    "qid": "Q2478752",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:786125",
+    "action": "qid->containedInQid",
+    "qid": "Q2478752",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-pella-in-emathia-2620",
+    "action": "qid->containedInQid",
+    "qid": "Q2478944",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-phakos-insula-2621",
+    "action": "qid->containedInQid",
+    "qid": "Q2478944",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-phoiniki-hios-insula-3081",
+    "action": "qid->containedInQid",
+    "qid": "Q25069934",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-36-72-25-28-3082",
+    "action": "qid->containedInQid",
+    "qid": "Q25069934",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-zaghouan",
+    "action": "qid->containedInQid",
+    "qid": "Q28151514",
+    "reason": "pure settlement QID on 'aqueduct' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-115",
+    "action": "qid->containedInQid",
+    "qid": "Q2844406",
+    "reason": "place-anchor QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-trier",
+    "action": "qid->containedInQid",
+    "qid": "Q3138",
+    "reason": "pure settlement QID on 'aqueduct' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-013",
+    "action": "qid->containedInQid",
+    "qid": "Q319242",
+    "reason": "place-anchor QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-stratonos-pyrgos-tour-de-straton-straton-4793",
+    "action": "qid->containedInQid",
+    "qid": "Q319242",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:79351",
+    "action": "qid->containedInQid",
+    "qid": "Q3403788",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-101",
+    "action": "qid->containedInQid",
+    "qid": "Q3555920",
+    "reason": "place-anchor QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:442417398",
+    "action": "qid->containedInQid",
+    "qid": "Q3607385",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-lacus-albanus-caligula-s-naumachies-1511",
+    "action": "qid->containedInQid",
+    "qid": "Q3616679",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-barcino-on-r-rubricatum-832",
+    "action": "qid->containedInQid",
+    "qid": "Q3819019",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-312",
+    "action": "qid->containedInQid",
+    "qid": "Q3983280",
+    "reason": "place-anchor QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-061",
+    "action": "qid->containedInQid",
+    "qid": "Q46849937",
+    "reason": "place-anchor QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-062",
+    "action": "qid->containedInQid",
+    "qid": "Q46849937",
+    "reason": "place-anchor QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:249910",
+    "action": "qid->containedInQid",
+    "qid": "Q49351021",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:249917",
+    "action": "qid->containedInQid",
+    "qid": "Q49362766",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:249920",
+    "action": "qid->containedInQid",
+    "qid": "Q49367414",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:249925",
+    "action": "qid->containedInQid",
+    "qid": "Q49367825",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:249923",
+    "action": "qid->containedInQid",
+    "qid": "Q49368833",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:249915",
+    "action": "qid->containedInQid",
+    "qid": "Q49370175",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:668217",
+    "action": "qid->containedInQid",
+    "qid": "Q5004747",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:549429627",
+    "action": "qid->containedInQid",
+    "qid": "Q5167600",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:237645058",
+    "action": "qid->containedInQid",
+    "qid": "Q524928",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-epitalion-at-outlet-of-r-alpheios-2862",
+    "action": "qid->containedInQid",
+    "qid": "Q5259102",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-margana-2864",
+    "action": "qid->containedInQid",
+    "qid": "Q5259102",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-thryon-thryoessa-at-outlet-of-r-alpheios-2863",
+    "action": "qid->containedInQid",
+    "qid": "Q5259102",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:541144",
+    "action": "qid->containedInQid",
+    "qid": "Q60790511",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:857175",
+    "action": "qid->containedInQid",
+    "qid": "Q6089728",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:857175",
+    "action": "qid->containedInQid",
+    "qid": "Q6089728",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-at-36-45-5-07-734",
+    "action": "qid->containedInQid",
+    "qid": "Q6162507",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-chrysopolis-insula-in-front-of-damalis-p-3973",
+    "action": "qid->containedInQid",
+    "qid": "Q65045781",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-chrysopolis-skutarion-scutari-port-du-b--3972",
+    "action": "qid->containedInQid",
+    "qid": "Q65045781",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "mine:mine-cartagena-silver",
+    "action": "qid->containedInQid",
+    "qid": "Q651415",
+    "reason": "place-anchor QID on 'mine' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-201",
+    "action": "qid->containedInQid",
+    "qid": "Q6681",
+    "reason": "pure settlement QID on 'shipwreck' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-155",
+    "action": "qid->containedInQid",
+    "qid": "Q6681",
+    "reason": "pure settlement QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "mine:138458",
+    "action": "qid->containedInQid",
+    "qid": "Q6806980",
+    "reason": "pure settlement QID on 'mine' record",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-saintes",
+    "action": "qid->containedInQid",
+    "qid": "Q6806980",
+    "reason": "pure settlement QID on 'aqueduct' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-metalla-1321",
+    "action": "qid->containedInQid",
+    "qid": "Q689104",
+    "reason": "place-anchor QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "mine:pleiades-110978357",
+    "action": "qid->containedInQid",
+    "qid": "Q689104",
+    "reason": "place-anchor QID on 'mine' record",
+    "confidence": "high"
+  },
+  {
+    "key": "building:403226",
+    "action": "qid->containedInQid",
+    "qid": "Q752505",
+    "reason": "pure settlement QID on 'building' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:403226",
+    "action": "qid->containedInQid",
+    "qid": "Q752505",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-201",
+    "action": "qid->containedInQid",
+    "qid": "Q75459",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-285",
+    "action": "qid->containedInQid",
+    "qid": "Q75459",
+    "reason": "pure settlement QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:266589967",
+    "action": "qid->containedInQid",
+    "qid": "Q779868",
+    "reason": "place-anchor QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-bauli-1580",
+    "action": "qid->containedInQid",
+    "qid": "Q811456",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-bauli-1582",
+    "action": "qid->containedInQid",
+    "qid": "Q811456",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-bauli-1584",
+    "action": "qid->containedInQid",
+    "qid": "Q811456",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "press:press-018",
+    "action": "qid->containedInQid",
+    "qid": "Q82075982",
+    "reason": "place-anchor QID on 'press' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-165",
+    "action": "qid->containedInQid",
+    "qid": "Q87",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-194",
+    "action": "qid->containedInQid",
+    "qid": "Q87",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:376566547",
+    "action": "qid->containedInQid",
+    "qid": "Q990247",
+    "reason": "pure settlement QID on 'religion' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-dium-dion-2612",
+    "action": "qid->containedInQid",
+    "qid": "Q990247",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-198",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q2080397",
+    "reason": "kind 'shipwreck' vs ['naval battle']",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-254",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q2080397",
+    "reason": "kind 'religion' vs ['naval battle']",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-thapsus-5750",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q849653",
+    "reason": "kind 'port' vs ['battle']",
+    "confidence": "high"
   }
 ]

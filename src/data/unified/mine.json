@@ -63,8 +63,7 @@
     "description": "Silver mines near Carthago Nova (modern Cartagena), captured from the Carthaginians by Scipio Africanus. Employed 40,000 workers according to Polybius.",
     "props": {
       "siteType": "mine"
-    },
-    "qid": "Q651415"
+    }
   },
   {
     "id": "mine:mine-mazarron",
@@ -10031,8 +10030,7 @@
     "description": "A town of southwest Gaul founded ca. 20 BC, Mediolanum Santonum was connected with the Roman road network that served Burdigala.",
     "props": {
       "siteType": "quarry"
-    },
-    "qid": "Q6806980"
+    }
   },
   {
     "id": "mine:236539",
@@ -12057,8 +12055,7 @@
     "description": "A limestone quarry located just south of the modern Acarnanian village of Lepenou with clear evidence of having been used as a source for the construction of the temple of Zeus and other monuments at nearby ancient Stratos.",
     "props": {
       "siteType": "quarry"
-    },
-    "qid": "Q113532055"
+    }
   },
   {
     "id": "mine:167892",
@@ -17597,8 +17594,7 @@
     "subtype": "quarry",
     "startYear": -230,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q689104"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-961672314",

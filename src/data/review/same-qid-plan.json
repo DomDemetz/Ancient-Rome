@@ -46,6 +46,11 @@
       "label": "Temple C"
     },
     {
+      "qid": "Q104655293",
+      "keys": ["amphitheater:sabratha", "building:648366268"],
+      "label": "Amphitheatre of Sabratha"
+    },
+    {
       "qid": "Q104680483",
       "keys": ["building:789856351", "religion:789856351"],
       "label": "Church, Sidi Khrebish"
@@ -124,11 +129,6 @@
       "qid": "Q106205169",
       "keys": ["pleiades:422913", "religion:422913"],
       "label": null
-    },
-    {
-      "qid": "Q106205202",
-      "keys": ["building:900977729", "religion:900977729"],
-      "label": "Cathedral of Amiternum"
     },
     {
       "qid": "Q106281616",
@@ -349,6 +349,11 @@
       "label": "Pachyammos sanctuary"
     },
     {
+      "qid": "Q1131024",
+      "keys": ["pleiades:617165853", "religion:rel-180"],
+      "label": "Temple of Khnum"
+    },
+    {
       "qid": "Q1136193",
       "keys": ["press:press-077", "building:pleiades-481346137"],
       "label": "Gortyn"
@@ -442,11 +447,6 @@
       "label": null
     },
     {
-      "qid": "Q119897835",
-      "keys": ["religion:167631", "pleiades:167631"],
-      "label": null
-    },
-    {
       "qid": "Q120221390",
       "keys": ["religion:138522", "pleiades:138522"],
       "label": null
@@ -470,11 +470,6 @@
       "qid": "Q12243745",
       "keys": ["pleiades:54519385", "religion:54519385"],
       "label": "Asclepium in Balagrae"
-    },
-    {
-      "qid": "Q1227931",
-      "keys": ["building:884719317", "religion:884719317"],
-      "label": "Faras Cathedral"
     },
     {
       "qid": "Q1230563",
@@ -592,11 +587,6 @@
       "label": "Failaka"
     },
     {
-      "qid": "Q1281985",
-      "keys": ["building:359852688", "religion:359852688"],
-      "label": "Armenian Cathedral of the Holy Cross"
-    },
-    {
       "qid": "Q12874985",
       "keys": ["pleiades:590070", "religion:590070"],
       "label": "Cave of Melidoni"
@@ -655,6 +645,11 @@
       "qid": "Q13044064",
       "keys": ["religion:531050", "pleiades:531050"],
       "label": "Pecë"
+    },
+    {
+      "qid": "Q130507607",
+      "keys": ["pleiades:981681540", "religion:rel-086"],
+      "label": "Mithraeum of the Seven Spheres"
     },
     {
       "qid": "Q130558770",
@@ -812,11 +807,6 @@
       "label": "Itonian Athena sanctuary"
     },
     {
-      "qid": "Q136067326",
-      "keys": ["religion:148146", "pleiades:148146"],
-      "label": "War memorial of Octon"
-    },
-    {
       "qid": "Q1367199",
       "keys": ["battle:battle-of-argentoratum", "battle:battle-of-strasbourg"],
       "label": "Battle of Strasbourg"
@@ -893,6 +883,11 @@
       "qid": "Q139824954",
       "keys": ["pleiades:47191338", "religion:47191338"],
       "label": "Khane Gauhar"
+    },
+    {
+      "qid": "Q139831694",
+      "keys": ["building:79396", "pleiades:79396"],
+      "label": "Colerne Roman villa"
     },
     {
       "qid": "Q139832064",
@@ -980,6 +975,11 @@
       "label": "Ain Shams el-Din"
     },
     {
+      "qid": "Q1456939",
+      "keys": ["building:152567558", "religion:rel-015"],
+      "label": "Temple of Peace"
+    },
+    {
       "qid": "Q1459637",
       "keys": ["building:907371652", "pleiades:907371652"],
       "label": "Villa rustica of Szentendre-Skanzen"
@@ -1013,11 +1013,6 @@
       "qid": "Q14906057",
       "keys": ["pleiades:579878", "religion:579878"],
       "label": "Temple of Artemis Tauropolos"
-    },
-    {
-      "qid": "Q1492262",
-      "keys": ["building:978176715", "religion:978176715"],
-      "label": "Gallarus Oratory"
     },
     {
       "qid": "Q1507676",
@@ -1055,6 +1050,11 @@
       "label": "Side"
     },
     {
+      "qid": "Q1526555",
+      "keys": ["pleiades:620190392", "religion:rel-048"],
+      "label": "Temple of Janus"
+    },
+    {
       "qid": "Q1530403",
       "keys": ["building:922684", "pleiades:922684"],
       "label": "Naqsh-e Rajab"
@@ -1068,6 +1068,11 @@
       "qid": "Q1559564",
       "keys": ["pleiades:109013", "religion:109013"],
       "label": "Görresburg"
+    },
+    {
+      "qid": "Q1566744",
+      "keys": ["building:609290", "building:609570"],
+      "label": "Yazılı"
     },
     {
       "qid": "Q1577089",
@@ -1143,6 +1148,11 @@
       "label": "Dikteon Andron"
     },
     {
+      "qid": "Q16526592",
+      "keys": ["amphitheater:ivrea", "building:998834783"],
+      "label": "Roman Amphitheatre of Ivrea"
+    },
+    {
       "qid": "Q16612700",
       "keys": ["pleiades:807933372", "religion:807933372"],
       "label": "Temple of San Miserino"
@@ -1158,11 +1168,6 @@
       "label": "San Salvatore"
     },
     {
-      "qid": "Q168365",
-      "keys": ["building:236087657", "religion:236087657"],
-      "label": "Paleochristian basilica of Son Bou"
-    },
-    {
       "qid": "Q16938356",
       "keys": ["building:224541893", "religion:224541893"],
       "label": "Vessagiri"
@@ -1171,6 +1176,11 @@
       "qid": "Q169460",
       "keys": ["press:press-146", "aqueduct:aq-miletus"],
       "label": "Miletus"
+    },
+    {
+      "qid": "Q1702090",
+      "keys": ["amphitheater:maumbury", "building:95537454"],
+      "label": "Maumbury Rings"
     },
     {
       "qid": "Q17051553",
@@ -1248,6 +1258,11 @@
       "label": "Woodeaton Cross"
     },
     {
+      "qid": "Q17640469",
+      "keys": ["building:423126", "pleiades:423126"],
+      "label": "Villa Lubin"
+    },
+    {
       "qid": "Q17641996",
       "keys": ["building:79581", "pleiades:79581"],
       "label": "Roman villa at Lufton"
@@ -1323,9 +1338,19 @@
       "label": "Timpone della Motta"
     },
     {
+      "qid": "Q1840415",
+      "keys": ["building:79650", "pleiades:79650"],
+      "label": "Radford Semele"
+    },
+    {
       "qid": "Q18499626",
       "keys": ["religion:433067", "pleiades:433067"],
       "label": "Roccaspromonte"
+    },
+    {
+      "qid": "Q18590113",
+      "keys": ["pleiades:422917", "religion:rel-075"],
+      "label": "Temple of Diana"
     },
     {
       "qid": "Q18640155",
@@ -1341,6 +1366,11 @@
       "qid": "Q1880328",
       "keys": ["pleiades:98951", "religion:98951"],
       "label": "Temple of Elst"
+    },
+    {
+      "qid": "Q18808444",
+      "keys": ["pleiades:576329395", "religion:rel-053"],
+      "label": "Temple of Diana"
     },
     {
       "qid": "Q19277173",
@@ -1369,11 +1399,6 @@
       "label": "Circus Maximus Mithraeum"
     },
     {
-      "qid": "Q194504",
-      "keys": ["building:211190325", "religion:rel-122"],
-      "label": "Church of the Nativity"
-    },
-    {
       "qid": "Q1945976",
       "keys": ["building:647937672", "religion:647937672", "pleiades:647937672"],
       "label": "Monte d'Accoddi"
@@ -1392,6 +1417,11 @@
       "qid": "Q1969432",
       "keys": ["religion:304492393", "pleiades:304492393"],
       "label": "Almendres Cromlech"
+    },
+    {
+      "qid": "Q1987694",
+      "keys": ["building:79495", "pleiades:79495"],
+      "label": "Guilden Morden"
     },
     {
       "qid": "Q1991217",
@@ -1498,6 +1528,11 @@
       "label": "Garibaldi Bridge"
     },
     {
+      "qid": "Q21011990",
+      "keys": ["amphitheater:alba-fucens", "building:535296216"],
+      "label": "amphitheatre of Alba Fucens"
+    },
+    {
       "qid": "Q21040915",
       "keys": ["amphitheater:padua", "building:237512727"],
       "label": "Amphitheatre of Padua"
@@ -1511,6 +1546,11 @@
       "qid": "Q2107814",
       "keys": ["pleiades:444064177", "religion:444064177"],
       "label": "Necropolis of Pranu Muttedu"
+    },
+    {
+      "qid": "Q21079381",
+      "keys": ["pleiades:758001563", "religion:rel-021"],
+      "label": "Temple of Jupiter"
     },
     {
       "qid": "Q21187652",
@@ -1556,6 +1596,11 @@
       "qid": "Q2177952",
       "keys": ["pleiades:674925422", "religion:674925422"],
       "label": "Ruweiha"
+    },
+    {
+      "qid": "Q2207906",
+      "keys": ["building:79743", "pleiades:79743"],
+      "label": "Walesby"
     },
     {
       "qid": "Q2261709",
@@ -1663,11 +1708,6 @@
       "label": null
     },
     {
-      "qid": "Q2354657",
-      "keys": ["building:356557088", "religious:pleiades-356557088"],
-      "label": "Santa Balbina"
-    },
-    {
       "qid": "Q2378078",
       "keys": ["building:416019002", "religion:416019002"],
       "label": "Igreja de São Gião"
@@ -1708,6 +1748,11 @@
       "qid": "Q242741",
       "keys": ["building:750203268", "religion:rel-038"],
       "label": "Erechtheion"
+    },
+    {
+      "qid": "Q2448404",
+      "keys": ["pleiades:146849991", "religion:rel-044"],
+      "label": "Temple of Trajan"
     },
     {
       "qid": "Q244947",
@@ -1760,16 +1805,6 @@
       "label": "Villa of Diomedes"
     },
     {
-      "qid": "Q2525990",
-      "keys": [
-        "religion:523458668",
-        "port:apa-eretria-inner-port-2527",
-        "pleiades:189946519",
-        "pleiades:523458668"
-      ],
-      "label": "Siege of Eretria"
-    },
-    {
       "qid": "Q25403654",
       "keys": ["port:apa-port-at-44-05-9-98-1393", "pleiades:277432404"],
       "label": "Bocca di Magra Roman villa"
@@ -1805,14 +1840,9 @@
       "label": "Temple of Hercules"
     },
     {
-      "qid": "Q2634480",
-      "keys": ["building:543871523", "religion:543871523"],
-      "label": "Farfa Abbey"
-    },
-    {
-      "qid": "Q2646612",
-      "keys": ["building:857112", "religion:857112"],
-      "label": "Dranda Cathedral"
+      "qid": "Q26282994",
+      "keys": ["building:79563", "pleiades:79563"],
+      "label": "Lidgate Stores"
     },
     {
       "qid": "Q2653546",
@@ -1830,9 +1860,24 @@
       "label": "Gerf Hussein"
     },
     {
+      "qid": "Q2686792",
+      "keys": ["building:79505", "pleiades:79505"],
+      "label": "Helpston"
+    },
+    {
       "qid": "Q269424",
       "keys": ["press:press-006", "building:pleiades-208943256", "building:pleiades-208943280"],
       "label": "Uthina"
+    },
+    {
+      "qid": "Q2699249",
+      "keys": ["pleiades:780913480", "religion:rel-066"],
+      "label": "Temple of Apollo"
+    },
+    {
+      "qid": "Q272777",
+      "keys": ["building:899795549", "pleiades:423127"],
+      "label": "Hadrian's Villa"
     },
     {
       "qid": "Q2743152",
@@ -1845,6 +1890,11 @@
       "label": "House of Triptolemus"
     },
     {
+      "qid": "Q278579",
+      "keys": ["aqueduct:aq-aqua-appia", "pleiades:423562"],
+      "label": "Aqua Appia"
+    },
+    {
       "qid": "Q28000913",
       "keys": ["building:922015288", "religion:922015288"],
       "label": "Basilica of Santo Stefano on the via Latina"
@@ -1853,6 +1903,26 @@
       "qid": "Q28135305",
       "keys": ["pleiades:541080", "religion:541080"],
       "label": "Pyre of Herakles"
+    },
+    {
+      "qid": "Q2844406",
+      "keys": ["amphitheater:catania", "building:540685097"],
+      "label": "Roman amphitheatre of Catania"
+    },
+    {
+      "qid": "Q2844408",
+      "keys": ["amphitheater:chester", "building:989985175"],
+      "label": "Chester Roman Amphitheatre"
+    },
+    {
+      "qid": "Q2844410",
+      "keys": ["amphitheater:lecce", "building:826967496"],
+      "label": "Roman amphitheatre of Lecce"
+    },
+    {
+      "qid": "Q2844414",
+      "keys": ["amphitheater:lucera", "building:373085765"],
+      "label": "Roman amphitheatre of Lucera"
     },
     {
       "qid": "Q2844420",
@@ -1883,6 +1953,41 @@
       "qid": "Q28721250",
       "keys": ["religion:215521453", "pleiades:215521453"],
       "label": "Temple of Amphiaraos"
+    },
+    {
+      "qid": "Q28977996",
+      "keys": ["amphitheater:cumae", "building:471357300"],
+      "label": "Cumae amphitheatre"
+    },
+    {
+      "qid": "Q28978088",
+      "keys": [
+        "amphitheater:carsulae",
+        "building:600795755",
+        "building:209814686",
+        "building:960592956"
+      ],
+      "label": "Carsulae amphitheatre"
+    },
+    {
+      "qid": "Q28978094",
+      "keys": ["amphitheater:tibur", "building:248553771"],
+      "label": "Tibur amphitheatre"
+    },
+    {
+      "qid": "Q28978100",
+      "keys": ["amphitheater:urbs-salvia", "building:18540341"],
+      "label": "Amphitheatre of Urbs Salvia"
+    },
+    {
+      "qid": "Q28996547",
+      "keys": ["amphitheater:porolissum", "building:920050645"],
+      "label": "Porolissum amphitheatre"
+    },
+    {
+      "qid": "Q29002315",
+      "keys": ["amphitheater:bulla-regia", "building:55568842"],
+      "label": "Bulla Regia amphitheatre"
     },
     {
       "qid": "Q291241",
@@ -1930,14 +2035,14 @@
       "label": "Villa Gordiani"
     },
     {
+      "qid": "Q3309400",
+      "keys": ["pleiades:367026512", "religion:rel-067"],
+      "label": "Temple of Jupiter"
+    },
+    {
       "qid": "Q3314937",
       "keys": ["pleiades:583623", "mine:mine-laurion", "mine:mine-lavrion-zinc"],
       "label": "Mines of Laurium"
-    },
-    {
-      "qid": "Q3320206",
-      "keys": ["building:727107", "religion:727107"],
-      "label": "Monastery of Saint Pishoy"
     },
     {
       "qid": "Q3320218",
@@ -2059,6 +2164,31 @@
       "label": "Anaktoron"
     },
     {
+      "qid": "Q3616679",
+      "keys": ["amphitheater:albana-laziale", "pleiades:517012719"],
+      "label": "Roman Amphitheatre of Albano Laziale"
+    },
+    {
+      "qid": "Q3616680",
+      "keys": ["amphitheater:ancona", "building:536995786"],
+      "label": "Roman Amphitheatre of Ancona"
+    },
+    {
+      "qid": "Q3616681",
+      "keys": ["amphitheater:arezzo", "building:442563575"],
+      "label": "Roman Amphitheatre of Arezzo"
+    },
+    {
+      "qid": "Q3616683",
+      "keys": ["amphitheater:benevento", "building:585690563"],
+      "label": "Roman Amphitheatre of Benevento"
+    },
+    {
+      "qid": "Q3616684",
+      "keys": ["amphitheater:rimini", "building:977960860"],
+      "label": "Roman Amphitheatre of Rimini"
+    },
+    {
       "qid": "Q3618403",
       "keys": ["pleiades:540640", "religion:540640"],
       "label": "Anthela"
@@ -2149,6 +2279,11 @@
       "label": "Hypogeum of Trebius Giustus"
     },
     {
+      "qid": "Q380530",
+      "keys": ["pleiades:157276290", "religion:rel-006"],
+      "label": "Temple of Castor and Pollux"
+    },
+    {
       "qid": "Q38252188",
       "keys": ["building:960638411", "pleiades:960638411"],
       "label": "Malabadi Bridge"
@@ -2194,6 +2329,11 @@
       "label": "Lucus Angitiae"
     },
     {
+      "qid": "Q384813",
+      "keys": ["pleiades:118337619", "religion:rel-039"],
+      "label": "Temple of Athena Nike"
+    },
+    {
       "qid": "Q3859475",
       "keys": ["religion:rel-084", "pleiades:462454014"],
       "label": "Palazzo Barberini Mithraeum"
@@ -2217,11 +2357,6 @@
       "qid": "Q3891772",
       "keys": ["pleiades:465970", "religion:465970"],
       "label": "Palike"
-    },
-    {
-      "qid": "Q3904602",
-      "keys": ["building:254059627", "religion:254059627"],
-      "label": "San Giovanni Battista a Sillano"
     },
     {
       "qid": "Q3904745",
@@ -2262,6 +2397,11 @@
       "qid": "Q3947778",
       "keys": ["building:462480", "pleiades:462480"],
       "label": "San Pawl Milqi"
+    },
+    {
+      "qid": "Q3949669",
+      "keys": ["pleiades:7963799", "religion:rel-072"],
+      "label": "Sanctuary of Fortuna Primigenia"
     },
     {
       "qid": "Q3949875",
@@ -2322,6 +2462,11 @@
       "qid": "Q3983221",
       "keys": ["pleiades:728329645", "religion:728329645"],
       "label": "Temple of Apollo Thermios"
+    },
+    {
+      "qid": "Q3983229",
+      "keys": ["pleiades:298577312", "religion:rel-219"],
+      "label": "Temple of Athena (Priene)"
     },
     {
       "qid": "Q3983249",
@@ -2385,9 +2530,29 @@
       "label": "Paromeos Monastery"
     },
     {
+      "qid": "Q41744367",
+      "keys": ["building:167707", "religion:167707"],
+      "label": "Église Saint-Pierre de Chalencon"
+    },
+    {
       "qid": "Q42597225",
       "keys": ["building:560130184", "pleiades:560130184"],
       "label": "Roman villas of Carthage"
+    },
+    {
+      "qid": "Q42760508",
+      "keys": ["amphitheater:sbeitla", "building:614847257"],
+      "label": "Amphitheatre of Sbeitla"
+    },
+    {
+      "qid": "Q430792",
+      "keys": ["pleiades:261794683", "religion:rel-004"],
+      "label": "Temple of Venus and Roma"
+    },
+    {
+      "qid": "Q43084972",
+      "keys": ["building:236560", "pleiades:236560"],
+      "label": "Roman villa of Navatejera"
     },
     {
       "qid": "Q43178520",
@@ -2433,6 +2598,16 @@
       "qid": "Q47466672",
       "keys": ["pleiades:518854572", "religion:518854572"],
       "label": "Khirbat Shema"
+    },
+    {
+      "qid": "Q474998",
+      "keys": ["amphitheater:pula", "building:837713186"],
+      "label": "Pula Arena"
+    },
+    {
+      "qid": "Q475012",
+      "keys": ["amphitheater:amph-castrense", "building:537585744"],
+      "label": "Amphitheatrum Castrense"
     },
     {
       "qid": "Q47530525",
@@ -2530,6 +2705,11 @@
       "label": "Scanno"
     },
     {
+      "qid": "Q5037215",
+      "keys": ["building:79376", "pleiades:79376"],
+      "label": "Car Colston"
+    },
+    {
       "qid": "Q5049978",
       "keys": ["building:536959418", "religion:536959418"],
       "label": "Castle Acre Priory"
@@ -2545,6 +2725,11 @@
       "label": "Temple romain de Château-Bas"
     },
     {
+      "qid": "Q519184",
+      "keys": ["amphitheater:florence", "building:909329997"],
+      "label": "Roman amphitheatre of Florence"
+    },
+    {
       "qid": "Q52144654",
       "keys": ["building:246224", "pleiades:246224"],
       "label": "Los Bañales"
@@ -2558,6 +2743,11 @@
       "qid": "Q522862",
       "keys": ["building:786050", "pleiades:786050", "pleiades:348714102"],
       "label": "Karnak Temple Complex"
+    },
+    {
+      "qid": "Q523765",
+      "keys": ["pleiades:645216382", "religion:rel-018"],
+      "label": "Temple of Claudius"
     },
     {
       "qid": "Q52654",
@@ -2625,11 +2815,6 @@
       "label": "Temple of Hercules at Lanuvium"
     },
     {
-      "qid": "Q552225",
-      "keys": ["shipwreck:darmc-wreck-83", "shipwreck:darmc-wreck-85"],
-      "label": "Battle of Cádiz"
-    },
-    {
       "qid": "Q554947",
       "keys": ["building:874798111", "religion:874798111"],
       "label": "Tatev monastery"
@@ -2685,11 +2870,6 @@
       "label": null
     },
     {
-      "qid": "Q56682419",
-      "keys": ["building:94252436", "religion:94252436"],
-      "label": "paleochristian basilica of Lugdunum Convenarum"
-    },
-    {
       "qid": "Q56875671",
       "keys": ["building:660349527", "religion:660349527"],
       "label": "Early Christian Basilica of Lechaeum"
@@ -2720,9 +2900,19 @@
       "label": "Housesteads Mithraeum"
     },
     {
+      "qid": "Q582353",
+      "keys": ["pleiades:740034026", "religion:rel-013"],
+      "label": "Temple of Apollo Sosianus"
+    },
+    {
       "qid": "Q58477",
       "keys": ["press:press-308", "pleiades:113170100"],
       "label": "Capua"
+    },
+    {
+      "qid": "Q586468",
+      "keys": ["pleiades:871801169", "religion:rel-001"],
+      "label": "Temple of Jupiter Optimus Maximus"
     },
     {
       "qid": "Q60792068",
@@ -2795,14 +2985,14 @@
       "label": "Kiboreia"
     },
     {
+      "qid": "Q641556",
+      "keys": ["amphitheater:verona", "building:771445424"],
+      "label": "Verona Arena"
+    },
+    {
       "qid": "Q6427503",
       "keys": ["port:apa-kolonai-north-4312", "port:apa-kolonai-south-4313"],
       "label": "Kolonai"
-    },
-    {
-      "qid": "Q645105",
-      "keys": ["building:467551058", "religion:467551058"],
-      "label": "Euphrasian Basilica"
     },
     {
       "qid": "Q647463",
@@ -2836,7 +3026,7 @@
     },
     {
       "qid": "Q651415",
-      "keys": ["building:480038469", "pleiades:269260723"],
+      "keys": ["amphitheater:carthago-nova", "building:480038469", "pleiades:269260723"],
       "label": "Carthago Nova amphitheatre"
     },
     {
@@ -2878,6 +3068,11 @@
       "qid": "Q66813646",
       "keys": ["pleiades:256042", "religion:256042"],
       "label": "Ruínas romanas de São João do Campo"
+    },
+    {
+      "qid": "Q672771",
+      "keys": ["building:950859523", "pleiades:950859523"],
+      "label": "Little Oakley"
     },
     {
       "qid": "Q680236",
@@ -2939,6 +3134,11 @@
       "label": "Poggio Colla"
     },
     {
+      "qid": "Q721817",
+      "keys": ["building:73180225", "religious:pleiades-73180225"],
+      "label": "Basilica of San Vitale"
+    },
+    {
       "qid": "Q7362337",
       "keys": ["pleiades:255966", "religion:255966"],
       "label": "Roman temple of Alcántara"
@@ -2949,9 +3149,19 @@
       "label": "Tharros"
     },
     {
+      "qid": "Q7376826",
+      "keys": ["pleiades:690508611", "religion:rel-110"],
+      "label": "Rudchester Mithraeum"
+    },
+    {
       "qid": "Q740076",
       "keys": ["building:514403427", "religion:514403427"],
       "label": "Nea Moni of Chios"
+    },
+    {
+      "qid": "Q740932",
+      "keys": ["building:79715", "pleiades:79715"],
+      "label": "Tingewick"
     },
     {
       "qid": "Q7415721",
@@ -2983,16 +3193,6 @@
       "qid": "Q7489301",
       "keys": ["pleiades:922653", "religion:922653"],
       "label": "Shapur Cave"
-    },
-    {
-      "qid": "Q7510087",
-      "keys": [
-        "battle:battle-of-hippo-regius",
-        "religion:rel-143",
-        "port:apa-hippone-hippo-regius-5829",
-        "aqueduct:aq-hippo-regius"
-      ],
-      "label": "Siege of Hippo Regius"
     },
     {
       "qid": "Q752696",
@@ -3040,6 +3240,16 @@
       "label": "Temple of Apollo Zoster"
     },
     {
+      "qid": "Q770030",
+      "keys": ["pleiades:391553443", "religion:rel-034"],
+      "label": "Temple of Augustus"
+    },
+    {
+      "qid": "Q779868",
+      "keys": ["amphitheater:durr-s", "building:266589967"],
+      "label": "Roman amphitheatre of Durrës"
+    },
+    {
       "qid": "Q7912361",
       "keys": ["pleiades:540951", "religion:540951"],
       "label": "Valley of the Muses"
@@ -3065,11 +3275,6 @@
       "label": "Capaccio Paestum"
     },
     {
-      "qid": "Q810130",
-      "keys": ["building:123971451", "religion:123971451"],
-      "label": "Basílica Paleocristiana de Son Peretó"
-    },
-    {
       "qid": "Q82073668",
       "keys": ["pleiades:818918654", "religion:818918654"],
       "label": "Ain Dara Temple"
@@ -3093,6 +3298,11 @@
       "qid": "Q844841",
       "keys": ["building:809327743", "religion:809327743"],
       "label": "Hosios Loukas"
+    },
+    {
+      "qid": "Q849241",
+      "keys": ["pleiades:494660670", "religion:rel-011"],
+      "label": "Temple of Portunus"
     },
     {
       "qid": "Q854843",
@@ -3185,30 +3395,22 @@
       "label": "Templo romano calle Claudio Marcelo"
     },
     {
+      "qid": "Q980425",
+      "keys": ["amphitheater:suasa", "building:150998961"],
+      "label": "Suasa amphitheatre"
+    },
+    {
       "qid": "Q991637",
       "keys": ["pleiades:826976465", "religion:826976465"],
       "label": "Ta' Ħaġrat"
+    },
+    {
+      "qid": "Q99309",
+      "keys": ["building:128044615", "religion:rel-008"],
+      "label": "Pantheon"
     }
   ],
   "strip": [
-    {
-      "key": "religion:rel-187",
-      "qid": "Q1268954",
-      "label": "Battle of Ostia",
-      "why": "kind 'religion' vs ['battle']"
-    },
-    {
-      "key": "aqueduct:aq-ostia",
-      "qid": "Q1268954",
-      "label": "Battle of Ostia",
-      "why": "kind 'aqueduct' vs ['battle']"
-    },
-    {
-      "key": "port:apa-pyles-pylaia-thermopylae-2500",
-      "qid": "Q131969",
-      "label": "Battle of Thermopylae",
-      "why": "kind 'port' vs ['battle', 'last stand']"
-    },
     {
       "key": "shipwreck:sw-198",
       "qid": "Q2080397",
@@ -3222,52 +3424,10 @@
       "why": "kind 'religion' vs ['naval battle']"
     },
     {
-      "key": "press:press-151",
-      "qid": "Q3485920",
-      "label": "Siege of Laodicea",
-      "why": "kind 'press' vs ['battle', 'siege']"
-    },
-    {
-      "key": "aqueduct:aq-laodicea",
-      "qid": "Q3485920",
-      "label": "Siege of Laodicea",
-      "why": "kind 'aqueduct' vs ['battle', 'siege']"
-    },
-    {
-      "key": "pleiades:888303741",
-      "qid": "Q3485951",
-      "label": "Siege of Marseille",
-      "why": "kind 'pleiades' vs ['battle', 'siege']"
-    },
-    {
-      "key": "shipwreck:darmc-wreck-891",
-      "qid": "Q3485951",
-      "label": "Siege of Marseille",
-      "why": "kind 'shipwreck' vs ['battle', 'siege']"
-    },
-    {
-      "key": "shipwreck:darmc-wreck-894",
-      "qid": "Q3485951",
-      "label": "Siege of Marseille",
-      "why": "kind 'shipwreck' vs ['battle', 'siege']"
-    },
-    {
-      "key": "press:press-141",
-      "qid": "Q3485951",
-      "label": "Siege of Marseille",
-      "why": "kind 'press' vs ['battle', 'siege']"
-    },
-    {
-      "key": "port:apa-portus-sucronis-port-of-sucro-at-outlet--805",
-      "qid": "Q60524449",
-      "label": "Battle of Sucro",
+      "key": "port:apa-thapsus-5750",
+      "qid": "Q849653",
+      "label": "Battle of Thapsus",
       "why": "kind 'port' vs ['battle']"
-    },
-    {
-      "key": "pleiades:385061",
-      "qid": "Q675000",
-      "label": "Battle of Clastidium",
-      "why": "kind 'pleiades' vs ['battle']"
     }
   ],
   "demote": [
@@ -3945,6 +4105,11 @@
       "why": "bearers 10.3 km apart"
     },
     {
+      "qid": "Q15126107",
+      "keys": ["port:apa-port-at-51-33-1-38-165", "port:apa-port-at-51-32-1-35-166"],
+      "why": "no instanceOf"
+    },
+    {
       "qid": "Q1536583",
       "keys": ["mine:326920", "pleiades:326920", "pleiades:208943546"],
       "why": "bearers 8.3 km apart"
@@ -3971,6 +4136,11 @@
       "why": "bearers 9.1 km apart"
     },
     {
+      "qid": "Q2001558",
+      "keys": ["port:apa-pteleon-pteleos-east-2566", "port:apa-pteleon-pteleos-west-2565"],
+      "why": "no instanceOf"
+    },
+    {
       "qid": "Q20924967",
       "keys": [
         "port:apa-port-at-35-83-14-53-1864",
@@ -3990,6 +4160,16 @@
       "why": "bearers 4.7 km apart"
     },
     {
+      "qid": "Q24677890",
+      "keys": [
+        "port:apa-port-at-50-60-2-45-215",
+        "port:apa-port-at-50-64-2-42-213",
+        "port:apa-port-at-50-64-2-43-214",
+        "port:apa-port-at-50-65-2-43-212"
+      ],
+      "why": "no instanceOf"
+    },
+    {
       "qid": "Q25166561",
       "keys": [
         "port:apa-port-at-36-93-24-70-3033",
@@ -4007,6 +4187,15 @@
         "port:apa-port-at-36-40-25-48-3115"
       ],
       "why": "bearers 4.4 km apart"
+    },
+    {
+      "qid": "Q25166566",
+      "keys": [
+        "port:apa-port-at-37-04-25-09-3039",
+        "port:apa-port-at-37-09-25-16-3056",
+        "port:apa-port-at-37-13-25-21-3042"
+      ],
+      "why": "bearers 13.7 km apart"
     },
     {
       "qid": "Q25166851",
@@ -4035,9 +4224,22 @@
       "why": "bearers 7.5 km apart"
     },
     {
+      "qid": "Q25168424",
+      "keys": [
+        "port:apa-kerkyra-corcyra-port-of-the-pheacians-na-2908",
+        "port:apa-port-at-39-65-19-85-2905"
+      ],
+      "why": "bearers 8.1 km apart"
+    },
+    {
       "qid": "Q26224641",
       "keys": ["port:apa-port-at-42-65-18-09-2272", "port:apa-port-at-42-67-18-12-2271"],
       "why": "bearers 3.4 km apart"
+    },
+    {
+      "qid": "Q26224642",
+      "keys": ["port:apa-port-at-43-16-16-36-2229", "port:apa-port-at-43-19-16-43-2227"],
+      "why": "bearers 6.0 km apart"
     },
     {
       "qid": "Q26224647",
@@ -4061,6 +4263,16 @@
       "why": "bearers 12.2 km apart"
     },
     {
+      "qid": "Q3067",
+      "keys": [
+        "aqueduct:aq-lyon-gier",
+        "aqueduct:aq-lyon-yzeron",
+        "aqueduct:aq-lyon-mont-dor",
+        "pleiades:812127749"
+      ],
+      "why": "bearers 7.5 km apart"
+    },
+    {
       "qid": "Q3398448",
       "keys": ["port:apa-port-at-47-47-3-10-1037", "port:apa-port-at-47-58-3-10-1035"],
       "why": "bearers 11.7 km apart"
@@ -4079,12 +4291,18 @@
       "qid": "Q34966015",
       "keys": [
         "port:apa-access-to-portus-iulius-julius-port-of-j-1587",
+        "port:apa-misenos-misenum-misene-home-port-of-clas-1572",
         "port:apa-nesis-odysseus-port-of-the-cyclops-1593",
         "port:apa-port-at-40-78-14-08-1570",
         "port:apa-port-at-40-79-14-09-1571",
         "port:apa-port-at-40-82-14-08-1586"
       ],
       "why": "bearers 7.4 km apart"
+    },
+    {
+      "qid": "Q3663959",
+      "keys": ["mine:462151", "mine:462149"],
+      "why": "bearers 8.3 km apart"
     },
     {
       "qid": "Q3693378",
@@ -4106,9 +4324,14 @@
       "why": "bearers 3.4 km apart"
     },
     {
-      "qid": "Q51987595",
-      "keys": ["shipwreck:sw-210", "press:press-311"],
-      "why": "bearers 3.7 km apart"
+      "qid": "Q476787",
+      "keys": ["aqueduct:aq-aqua-julia", "pleiades:423564"],
+      "why": "bearers 11.1 km apart"
+    },
+    {
+      "qid": "Q548608",
+      "keys": ["pleiades:423559", "aqueduct:aq-anio-novus"],
+      "why": "bearers 7.1 km apart"
     },
     {
       "qid": "Q59116",
@@ -4131,6 +4354,11 @@
       "why": "bearers 4.4 km apart"
     },
     {
+      "qid": "Q622948",
+      "keys": ["aqueduct:aq-aqua-tepula", "pleiades:423566"],
+      "why": "bearers 17.0 km apart"
+    },
+    {
       "qid": "Q633757",
       "keys": [
         "pleiades:640251",
@@ -4143,7 +4371,7 @@
     },
     {
       "qid": "Q64699469",
-      "keys": ["press:press-147", "pleiades:600227"],
+      "keys": ["building:600227", "press:press-147", "pleiades:600227"],
       "why": "bearers 6.9 km apart"
     },
     {
