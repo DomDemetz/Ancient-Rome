@@ -397,9 +397,10 @@ export function PlacesLayer({
   }, [visible, minorLabelIds, cityLabelIds, currentYear, showCities, zoom, map])
 
   useEffect(() => {
+    const entries = markersRef.current
     return () => {
-      for (const entry of markersRef.current.values()) entry.marker.remove()
-      markersRef.current.clear()
+      for (const entry of entries.values()) entry.marker.remove()
+      entries.clear()
     }
   }, [])
 
