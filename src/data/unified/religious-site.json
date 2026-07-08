@@ -1564,7 +1564,7 @@
     "category": "religion",
     "description": "Mithraeum in the Roman settlement near the Limes Germanicus.",
     "props": { "religion": "mithras", "deity": "Mithras" },
-    "qid": "Q1803125"
+    "containedInQid": "Q1803125"
   },
   {
     "id": "religion:rel-108",
@@ -1688,7 +1688,7 @@
     "id": "religion:rel-116",
     "type": "religious-site",
     "subtype": "mithraeum",
-    "name": "Mithraeum of Fert\u0151r\u00e1kos",
+    "name": "Mithraeum of Fertőrákos",
     "lat": 47.7211,
     "lng": 16.6436,
     "startYear": 250,
@@ -1717,7 +1717,7 @@
     "id": "religion:rel-118",
     "type": "religious-site",
     "subtype": "mithraeum",
-    "name": "Mithraeum of Ro\u017eanec (Praetorium Latobicorum)",
+    "name": "Mithraeum of Rožanec (Praetorium Latobicorum)",
     "lat": 45.8369,
     "lng": 15.2078,
     "startYear": 200,
@@ -3734,14 +3734,14 @@
     "id": "religion:93794091",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "'Aw\u0101m",
+    "name": "'Awām",
     "lat": 15.4042,
     "lng": 45.356,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The ruins of the Sabaean temple dedicated to Almaqah and its associated burial ground are located near the town of M\u0101rib, Yemen.",
+    "description": "The ruins of the Sabaean temple dedicated to Almaqah and its associated burial ground are located near the town of Mārib, Yemen.",
     "props": { "religion": "roman" }
   },
   {
@@ -3776,21 +3776,21 @@
     "id": "religion:432875",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "\u2018Herculis Rani\u2019?",
+    "name": "‘Herculis Rani’?",
     "lat": 41.4504,
     "lng": 14.5331,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A large fanum sacred to \u2018Herculis Rani\u2019? at Campochiaro, the name of which is then preserved in the station mentioned on the Peutinger Table. Scholars like Adriano La Regina support linking this fanum to a place mentioned by Livy, although see the discussion by Oakley.",
+    "description": "A large fanum sacred to ‘Herculis Rani’? at Campochiaro, the name of which is then preserved in the station mentioned on the Peutinger Table. Scholars like Adriano La Regina support linking this fanum to a place mentioned by Livy, although see the discussion by Oakley.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:432886",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "\u2018Iovis Lareni\u2019",
+    "name": "‘Iovis Lareni’",
     "lat": 42.0029,
     "lng": 13.9901,
     "startYear": -200,
@@ -3798,14 +3798,14 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3880770",
-    "description": "\u2018Iovis Lareni\u2019 is marked as a station on the Peutinger map. It lies 7 miles from Sulmo. This place coincides with the ancient site of Ocriticum, a pre-Roman and Roman settlement. The site, located in the Italian comune of Cansano (province of L'Aquila, Abruzzo), includes the remains of two Italo-Roman temples sacred to Jupiter and Hercules and a sacellum of Ceres and Venus.",
+    "description": "‘Iovis Lareni’ is marked as a station on the Peutinger map. It lies 7 miles from Sulmo. This place coincides with the ancient site of Ocriticum, a pre-Roman and Roman settlement. The site, located in the Italian comune of Cansano (province of L'Aquila, Abruzzo), includes the remains of two Italo-Roman temples sacred to Jupiter and Hercules and a sacellum of Ceres and Venus.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:79556",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "\u2018Lavobrinta\u2019?",
+    "name": "‘Lavobrinta’?",
     "lat": 52.5821,
     "lng": -3.171,
     "startYear": 50,
@@ -3813,14 +3813,14 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q13126478",
-    "description": "\u2018Lavobrinta\u2019? was a Roman fort on the east bank of the Severn river.",
+    "description": "‘Lavobrinta’? was a Roman fort on the east bank of the Severn river.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:433163",
     "type": "religious-site",
     "subtype": "church",
-    "name": "\u2018Trebula\u2019",
+    "name": "‘Trebula’",
     "lat": 41.9137,
     "lng": 14.2828,
     "startYear": -450,
@@ -4156,7 +4156,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q14207694",
-    "description": "\"Sioua\" is the Greek reconstruction of an ancient toponym (found in Egyptian sources: S\u00b7t-w\u021d\u1e25) that encompassed some part of the western end of the Dakhla Oasis in Egypt (certainly the site now known as Deir al-Haggar was included, and possibly also Amheida).",
+    "description": "\"Sioua\" is the Greek reconstruction of an ancient toponym (found in Egyptian sources: S·t-wȝḥ) that encompassed some part of the western end of the Dakhla Oasis in Egypt (certainly the site now known as Deir al-Haggar was included, and possibly also Amheida).",
     "props": { "religion": "roman" }
   },
   {
@@ -4391,21 +4391,21 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the god Adad.",
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the god Adad.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:473423542",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Adad-\u0160ala temple (Kalhu)",
+    "name": "Adad-Šala temple (Kalhu)",
     "lat": 36.0985,
     "lng": 43.3288,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Adad and the goddess \u0160ala. Although its location is not known, the Adad-\u0160ala temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Adad and the goddess Šala. Although its location is not known, the Adad-Šala temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
     "props": { "religion": "roman" }
   },
   {
@@ -4419,9 +4419,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q51731901",
     "description": "Aefula was an ancient settlement of Latium that had disappeared by the time of Pliny the Elder, although the cult of Bona Dea there continued to flourish.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q51731901"
   },
   {
     "id": "religion:589659",
@@ -4662,21 +4662,21 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q105948288",
-    "description": "An archaeological site near the Mycenaean causeway has been interpreted as a multi-period hero\u00f6n dedicated to Agamemnon.",
+    "description": "An archaeological site near the Mycenaean causeway has been interpreted as a multi-period heroön dedicated to Agamemnon.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:609290",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Agdistis Sanctuary (Yaz\u0131l\u0131kaya)",
+    "name": "Agdistis Sanctuary (Yazılıkaya)",
     "lat": 39.1976,
     "lng": 30.71,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A plateau around a monumental Phrygian rock\u2010cut altar at the extensive fortified settlement and sanctuary complex of Yaz\u0131l\u0131kaya in Turkey. Associated with Agdistis in the 20th century because of Roman epigraphic finds there, more recent excavations have demonstrated that the sanctuary was in use from the 8th\u20137th century BCE to the Roman Period (1st-2nd century CE). Continuity of ritual practice in front of the rock-cut altar is demonstrated by rock-cut bows, a ritual preparation area with hearths, a rock-cut statue identifiable as the goddess Matar, and the Roman-era votive inscriptions.",
+    "description": "A plateau around a monumental Phrygian rock‐cut altar at the extensive fortified settlement and sanctuary complex of Yazılıkaya in Turkey. Associated with Agdistis in the 20th century because of Roman epigraphic finds there, more recent excavations have demonstrated that the sanctuary was in use from the 8th–7th century BCE to the Roman Period (1st-2nd century CE). Continuity of ritual practice in front of the rock-cut altar is demonstrated by rock-cut bows, a ritual preparation area with hearths, a rock-cut statue identifiable as the goddess Matar, and the Roman-era votive inscriptions.",
     "props": { "religion": "roman" }
   },
   {
@@ -4704,9 +4704,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q221126",
     "description": "Agnone is a comune in the Italian province of Isernia, in the Molise region. It lies about 53 km (33 miles) northwest of Campobasso. An ancient center of Oscan-Samnite culture, Agnone is known particularly as the namesake of the third-century BCE \"Agnone tablet\" that was discovered at Fonte di Romito.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q221126"
   },
   {
     "id": "religion:157243532",
@@ -4873,28 +4873,28 @@
     "id": "religion:138926703",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ak\u012btu of \u0160arrat-Nippuri",
+    "name": "Akītu of Šarrat-Nippuri",
     "lat": 32.5306,
     "lng": 44.4266,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Temple in Babylon, not located, but probably not far from E\u1e2bursagtila, for it is mentioned together in the ritual texts of the \"Divine Love Lyrics\". \u0160arrat-Nippuri \"The Queen of Nippur\" was a hypostasis of I\u0161tar. It is difficult to ascertain the precise reason for the existence of an Ak\u012btu temple dedicated to this deity in the city of Babylon.",
+    "description": "Temple in Babylon, not located, but probably not far from Eḫursagtila, for it is mentioned together in the ritual texts of the \"Divine Love Lyrics\". Šarrat-Nippuri \"The Queen of Nippur\" was a hypostasis of Ištar. It is difficult to ascertain the precise reason for the existence of an Akītu temple dedicated to this deity in the city of Babylon.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:310869662",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ak\u012btu-Temple of I\u0161tar",
+    "name": "Akītu-Temple of Ištar",
     "lat": 36.3604,
     "lng": 43.153,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The New Year\u2019s House (or Ak\u012btu Temple) of Nineveh's tutelary deity I\u0161tar appears to date back at least to the Middle Assyrian period (reign of Tukult\u012b-Ninurta I). Its Sumerian ceremonial name is not preserved in extant cuneiform sources. This temple's exact location remains unknown and it is certain whether I\u0161tar's Ak\u012btu Temple was located in the citadel or in the lower town.",
+    "description": "The New Year’s House (or Akītu Temple) of Nineveh's tutelary deity Ištar appears to date back at least to the Middle Assyrian period (reign of Tukultī-Ninurta I). Its Sumerian ceremonial name is not preserved in extant cuneiform sources. This temple's exact location remains unknown and it is certain whether Ištar's Akītu Temple was located in the citadel or in the lower town.",
     "props": { "religion": "roman" }
   },
   {
@@ -4915,7 +4915,7 @@
     "id": "religion:638837",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Aksu - Zindan Ma\u011faras\u0131 Sanctuary",
+    "name": "Aksu - Zindan Mağarası Sanctuary",
     "lat": 37.8119,
     "lng": 31.0846,
     "startYear": 50,
@@ -4923,7 +4923,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q61076964",
-    "description": "An ancient sanctuary complex, incorporating a cave known today as Zindan Ma\u011faras\u0131, which overlooks a bend in the river Aksu (locally Zindan Deresi; a tributary of the Eurymedon) in Turkey's Isparta province. Archaeological and epigraphic evidence demonstrate human activity from the Hellenistic to the Seljuk period, with the dedication of a temple to the Vigenon Mother of the Gods during the reign of Marcus Aurelius. A Roman-era bridge and road section has also been identified as part of the complex, which was probably associated with the nearby city of Timbriada. The sanctuary also honored the god Eurymedon. A Christian monastery succeeded the sanctuary, spoliating its buildings for construction material.",
+    "description": "An ancient sanctuary complex, incorporating a cave known today as Zindan Mağarası, which overlooks a bend in the river Aksu (locally Zindan Deresi; a tributary of the Eurymedon) in Turkey's Isparta province. Archaeological and epigraphic evidence demonstrate human activity from the Hellenistic to the Seljuk period, with the dedication of a temple to the Vigenon Mother of the Gods during the reign of Marcus Aurelius. A Roman-era bridge and road section has also been identified as part of the complex, which was probably associated with the nearby city of Timbriada. The sanctuary also honored the god Eurymedon. A Christian monastery succeeded the sanctuary, spoliating its buildings for construction material.",
     "props": { "religion": "roman" }
   },
   {
@@ -4988,7 +4988,7 @@
     "id": "religion:255966",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Alc\u00e1ntara",
+    "name": "Alcántara",
     "lat": 39.7217,
     "lng": -6.8915,
     "startYear": 50,
@@ -4996,7 +4996,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q7362337",
-    "description": "The Roman temple of Alc\u00e1ntara is a well-preserved structure located at one side of the Alc\u00e1ntara Bridge in Extremadura (Spain). The building, dating to A.D. 103, is the work of Caius Iulius Lacer. The lintel inscription indicates the structure was dedicated to Trajan.",
+    "description": "The Roman temple of Alcántara is a well-preserved structure located at one side of the Alcántara Bridge in Extremadura (Spain). The building, dating to A.D. 103, is the work of Caius Iulius Lacer. The lintel inscription indicates the structure was dedicated to Trajan.",
     "props": { "religion": "roman" }
   },
   {
@@ -5033,7 +5033,7 @@
     "id": "religion:147989",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "All\u00e8gre",
+    "name": "Allègre",
     "lat": 44.1992,
     "lng": 4.2329,
     "startYear": 50,
@@ -5172,7 +5172,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient settlement, associated with the sanctuary of Men Pharnakou in Pontos. It was located near modern near Ard\u0131\u00e7l\u0131 (formerly Agustu) in Turkey's Tokat province.",
+    "description": "An ancient settlement, associated with the sanctuary of Men Pharnakou in Pontos. It was located near modern near Ardıçlı (formerly Agustu) in Turkey's Tokat province.",
     "props": { "religion": "roman" }
   },
   {
@@ -5209,7 +5209,7 @@
     "id": "religion:266589967",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Amphitheater of Durr\u00ebs",
+    "name": "Amphitheater of Durrës",
     "lat": 41.3123,
     "lng": 19.4451,
     "startYear": 50,
@@ -5217,7 +5217,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q779868",
-    "description": "The Roman amphitheater of Durr\u00ebs dates to the reign of Trajan. A small chapel built inside the amphitheater has mosaics likely dating to the 6th-8th centuries CE.",
+    "description": "The Roman amphitheater of Durrës dates to the reign of Trajan. A small chapel built inside the amphitheater has mosaics likely dating to the 6th-8th centuries CE.",
     "props": { "religion": "roman" }
   },
   {
@@ -5392,7 +5392,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A sanctuary of the goddess Meter and her companion Attis, located at modern Kap\u0131kaya in Turkey, 10km northwest of Pergamon. The earliest finds date to the third century BCE. Archaeological finds indicate that Mithras became the principal deity worshipped here in Roman times, down to at least the 4th century CE.",
+    "description": "A sanctuary of the goddess Meter and her companion Attis, located at modern Kapıkaya in Turkey, 10km northwest of Pergamon. The earliest finds date to the third century BCE. Archaeological finds indicate that Mithras became the principal deity worshipped here in Roman times, down to at least the 4th century CE.",
     "props": { "religion": "roman" }
   },
   {
@@ -6258,7 +6258,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient settlement at modern Sceaux-du-G\u00e2tinais in France (BAtlas 11 C4 Sceaux-du-G\u00e2tinais)",
+    "description": "An ancient settlement at modern Sceaux-du-Gâtinais in France (BAtlas 11 C4 Sceaux-du-Gâtinais)",
     "props": { "religion": "roman" }
   },
   {
@@ -6317,7 +6317,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q39295403",
-    "description": "A sanctuary dedicated to the Greek lyric poet Archilochus, known as the Archilocheion, was established on Paros during the third century BCE. It is attested textually in both literature and inscriptions; however, the precise location of the sanctuary has not been identified. During the 19th and 20th centuries, some scholars argued for it to be placed at the site of the \u201cThree Churches\u201d (Tris Ekklisies) because inscriptions mentioning Archilochos were found reused in remains of the 6th century Christian basilica over which the later churches had been built. Other scholars (e.g., Kontoleon in PECS) have vigorously rejected this view. Foss (BAtlDir) cites Berranger in tentatively placing the Archilocheion further east at the modern village of Elitas.",
+    "description": "A sanctuary dedicated to the Greek lyric poet Archilochus, known as the Archilocheion, was established on Paros during the third century BCE. It is attested textually in both literature and inscriptions; however, the precise location of the sanctuary has not been identified. During the 19th and 20th centuries, some scholars argued for it to be placed at the site of the “Three Churches” (Tris Ekklisies) because inscriptions mentioning Archilochos were found reused in remains of the 6th century Christian basilica over which the later churches had been built. Other scholars (e.g., Kontoleon in PECS) have vigorously rejected this view. Foss (BAtlDir) cites Berranger in tentatively placing the Archilocheion further east at the modern village of Elitas.",
     "props": { "religion": "roman" }
   },
   {
@@ -6390,7 +6390,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q704167",
-    "description": "An ancient fortified city on high ground on the south bank of the river Nymphaios (modern K\u00e2hta \u00c7ay\u0131) south of the modern village of Kocahisar (also known as Eski Kahta) in Turkey.",
+    "description": "An ancient fortified city on high ground on the south bank of the river Nymphaios (modern Kâhta Çayı) south of the modern village of Kocahisar (also known as Eski Kahta) in Turkey.",
     "props": { "religion": "roman" }
   },
   {
@@ -6767,9 +6767,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q51183",
     "description": "A small Italic sanctuary, possibly of Vejovis, in a modern area known then as Passo Porcari (between Monte Marcone and Saletti) near Atessa in Italy's Chieti province. It was excavated in the 1970s and is memorialized by the modern street name \"Via Veiove\". Rescue excavations of purportedly medieval finds were carried out in the immediate vicinity between 2017 and 2020 ahead of a road modification.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q51183"
   },
   {
     "id": "religion:540678",
@@ -7020,7 +7020,7 @@
     "id": "religion:48906850",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Ba\u011fin",
+    "name": "Bağin",
     "lat": 39.0035,
     "lng": 39.9001,
     "startYear": 50,
@@ -7034,7 +7034,7 @@
     "id": "religion:108789",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Bailleul-sur-Th\u00e9rain",
+    "name": "Bailleul-sur-Thérain",
     "lat": 49.3856,
     "lng": 2.2318,
     "startYear": -200,
@@ -7042,7 +7042,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1098808",
-    "description": "An ancient place, cited: BAtlas 11 C3 Bailleul-sur-Th\u00e9rain",
+    "description": "An ancient place, cited: BAtlas 11 C3 Bailleul-sur-Thérain",
     "props": { "religion": "roman" }
   },
   {
@@ -7216,9 +7216,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q678047",
     "description": "Site of a Gallo-Roman sanctuary and subsequent city of the Roman imperial period, the \"Site gallo-romain de Barzan\" is spread across the modern French communes of Barzan, Talmont-sur-Gironde and Arces-sur-Gironde in the department of Charente-Maritime. BAtlas equated it with ancient Tannum/Tamnum, but alternatives continue to be offered.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q678047"
   },
   {
     "id": "religion:354239692",
@@ -7239,7 +7239,7 @@
     "id": "religion:324534809",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Bas\u00edlica Casa Herrera",
+    "name": "Basílica Casa Herrera",
     "lat": 38.9606,
     "lng": -6.295,
     "startYear": 50,
@@ -7247,14 +7247,14 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q64850540",
-    "description": "The Casa Herrera Basilica is part of the UNESCO World Heritage Site \"Archaeological Ensemble of M\u00e9rida\". The paleochristian basilica was built in either the late fifth or early sixth century CE.",
+    "description": "The Casa Herrera Basilica is part of the UNESCO World Heritage Site \"Archaeological Ensemble of Mérida\". The paleochristian basilica was built in either the late fifth or early sixth century CE.",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:123971451",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Bas\u00edlica de Son Peret\u00f3",
+    "name": "Basílica de Son Peretó",
     "lat": 39.5964,
     "lng": 3.2651,
     "startYear": 400,
@@ -7269,7 +7269,7 @@
     "id": "religion:654811925",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Bas\u00edlica des Forn\u00e0s de Torell\u00f3",
+    "name": "Basílica des Fornàs de Torelló",
     "lat": 39.8832,
     "lng": 4.2234,
     "startYear": 50,
@@ -7277,7 +7277,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q11908698",
-    "description": "Bas\u00edlica des Forn\u00e0s de Torell\u00f3, a sixth-century CE paleochristian basilica with mosaic pavements located in Mahon, Minorca.",
+    "description": "Basílica des Fornàs de Torelló, a sixth-century CE paleochristian basilica with mosaic pavements located in Mahon, Minorca.",
     "props": { "religion": "roman" }
   },
   {
@@ -7491,28 +7491,28 @@
     "id": "religion:246231",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Belb\u00e8ze",
+    "name": "Belbèze",
     "lat": 43.1326,
     "lng": 1.0263,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 G2 Belb\u00e8ze",
+    "description": "An ancient place, cited: BAtlas 25 G2 Belbèze",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:246233",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Bell-Loc d\u2019Aro",
+    "name": "Bell-Loc d’Aro",
     "lat": 41.8312,
     "lng": 2.9788,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 H4 Bell-Loc d\u2019Aro",
+    "description": "An ancient place, cited: BAtlas 25 H4 Bell-Loc d’Aro",
     "props": { "religion": "roman" }
   },
   {
@@ -7576,14 +7576,14 @@
     "id": "religion:844876",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Be\u015fdut",
+    "name": "Beşdut",
     "lat": 40.7036,
     "lng": 33.9652,
     "startYear": -200,
     "endYear": -200,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 86 E3 Be\u015fdut",
+    "description": "An ancient place, cited: BAtlas 86 E3 Beşdut",
     "props": { "religion": "roman" }
   },
   {
@@ -7704,14 +7704,14 @@
     "id": "religion:648586",
     "type": "religious-site",
     "subtype": "church",
-    "name": "B\u0131\u00e7k\u0131c\u0131 Kalesi",
+    "name": "Bıçkıcı Kalesi",
     "lat": 36.2823,
     "lng": 32.2841,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 66 A4 B\u0131\u00e7k\u0131c\u0131 Kalesi",
+    "description": "An ancient place, cited: BAtlas 66 A4 Bıçkıcı Kalesi",
     "props": { "religion": "roman" },
     "qid": "Q139433294"
   },
@@ -7902,9 +7902,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2407311",
     "description": "An ancient place, cited: BAtlas 8 G2 Brigstock",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q2407311"
   },
   {
     "id": "religion:584982267",
@@ -8024,14 +8024,14 @@
     "id": "religion:857072",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "B\u00fcy\u00fck \u00c7elebi",
+    "name": "Büyük Çelebi",
     "lat": 40.6593,
     "lng": 35.9246,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 87 A4 B\u00fcy\u00fck \u00c7elebi",
+    "description": "An ancient place, cited: BAtlas 87 A4 Büyük Çelebi",
     "props": { "religion": "roman" }
   },
   {
@@ -8060,9 +8060,9 @@
     "endYear": -450,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2914373",
     "description": "Caere (also known as Cisra or Cerveteri) was a major Etruscan polis located ca. 50 km north-northwest of Rome in southern Etruria.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q2914373"
   },
   {
     "id": "religion:187333",
@@ -8135,7 +8135,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q106604622",
-    "description": "An Italic sanctuary sacred to Hercules located in localit\u00e0 Civitella in the comune of Campochiaro. The site is to be connected with the Pentrian Samnites.",
+    "description": "An Italic sanctuary sacred to Hercules located in località Civitella in the comune of Campochiaro. The site is to be connected with the Pentrian Samnites.",
     "props": { "religion": "roman" }
   },
   {
@@ -8268,7 +8268,7 @@
     "category": "religion",
     "description": "The remains of a first-century BCE temple podium discovered at Sarsina have been identified as the Roman settlement's Capitolium.",
     "props": { "religion": "roman" },
-    "qid": "Q99956"
+    "containedInQid": "Q99956"
   },
   {
     "id": "religion:917294321",
@@ -8397,7 +8397,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A Gallic oppidum and sanctuary to the god Dexiva in the Vaucluse d\u00e9partment.",
+    "description": "A Gallic oppidum and sanctuary to the god Dexiva in the Vaucluse départment.",
     "props": { "religion": "roman" }
   },
   {
@@ -8441,9 +8441,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q930502",
     "description": "A Gallo-Roman site located in the Barguelonne valley that covers some 4,000 square meters. Excavation (1962-1964) suggested the site was likely a rural sanctuary that included a theater and baths.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q930502"
   },
   {
     "id": "religion:413071",
@@ -8456,9 +8456,9 @@
     "endYear": -200,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q20390",
     "description": "An ancient place, cited: BAtlas 42 C2 Castiglione del Lago",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q20390"
   },
   {
     "id": "religion:536959418",
@@ -8509,14 +8509,14 @@
     "id": "religion:319613732",
     "type": "religious-site",
     "subtype": "church",
-    "name": "\u00c7at\u0131\u00f6ren Church",
+    "name": "Çatıören Church",
     "lat": 36.5219,
     "lng": 34.1267,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Byzantine church remains at \u00c7at\u0131\u00f6ren in Rough Cilicia",
+    "description": "Byzantine church remains at Çatıören in Rough Cilicia",
     "props": { "religion": "roman" },
     "qid": "Q15263913"
   },
@@ -8721,9 +8721,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q745610",
     "description": "An ancient place, cited: BAtlas 14 F1 Chanceaux-sur-Choisille",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q745610"
   },
   {
     "id": "religion:903007",
@@ -8787,21 +8787,21 @@
     "id": "religion:138290",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ch\u00e2teau de Chatillon",
+    "name": "Château de Chatillon",
     "lat": 47.8118,
     "lng": 1.4777,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 14 G1 Ch\u00e2teau de Chatillon",
+    "description": "An ancient place, cited: BAtlas 14 G1 Château de Chatillon",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:148046",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ch\u00e2teau-Bas",
+    "name": "Château-Bas",
     "lat": 43.6819,
     "lng": 5.1972,
     "startYear": 50,
@@ -8809,14 +8809,14 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q516783",
-    "description": "An ancient place, cited: BAtlas 15 E2 Ch\u00e2teau-Bas",
+    "description": "An ancient place, cited: BAtlas 15 E2 Château-Bas",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:108879",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Ch\u00e2teaubleau",
+    "name": "Châteaubleau",
     "lat": 48.5878,
     "lng": 3.1083,
     "startYear": 50,
@@ -8824,14 +8824,14 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q419596",
-    "description": "An ancient place, cited: BAtlas 11 D4 Ch\u00e2teaubleau",
+    "description": "An ancient place, cited: BAtlas 11 D4 Châteaubleau",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:148047",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Ch\u00e2telard de Lardiers",
+    "name": "Châtelard de Lardiers",
     "lat": 44.0596,
     "lng": 5.6971,
     "startYear": -600,
@@ -9108,7 +9108,7 @@
     "id": "religion:416019002",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Church of St. Gi\u00e3o",
+    "name": "Church of St. Gião",
     "lat": 39.563,
     "lng": -9.0895,
     "startYear": 400,
@@ -9191,7 +9191,7 @@
     "category": "religion",
     "description": "Civita di Bagno is the modern name for a small settlement that dates back at least to the Roman Late Republican period. Within the modern town, several key monuments are known, such as a podium temple (late 2nd c. BCE?), identified as that of Feronia by an inscription from the reign of Tiberius, a bath complex beneath Palazzo Oliva, and the medieval remains of the cathedral of San Massimo which reuses much ancient material, as well as funerary remains along the ancient road network. On the adjacent Moritola hill is a vast system of terracing, which in its earliest phase dates to the 2nd c. BCE, that supported a monumental complex of difficult interpretation, but with an important hydraulic infrastructure. This complex underwent multiple modifications over the centuries; in the 5th c. CE the complex was transformed by the installation of two kilns and a limekiln. By the 6th c. CE Civita di Bagno was the seat of a bishop.",
     "props": { "religion": "roman" },
-    "qid": "Q3632908"
+    "containedInQid": "Q3632908"
   },
   {
     "id": "religion:432791",
@@ -9204,9 +9204,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q50085",
     "description": "An ancient place, cited: BAtlas 44 E1 Cocullo",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q50085"
   },
   {
     "id": "religion:79397",
@@ -9233,9 +9233,9 @@
     "endYear": -200,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q277474",
     "description": "An ancient place, cited: BAtlas 44 G2 Colle Sparanise",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q277474"
   },
   {
     "id": "religion:725543708",
@@ -9948,14 +9948,14 @@
     "id": "religion:652237615",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Demeter Temple (Aegae - Yuntda\u011f\u0131)",
+    "name": "Demeter Temple (Aegae - Yuntdağı)",
     "lat": 38.8311,
     "lng": 27.1863,
     "startYear": -200,
     "endYear": -200,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A temple complex at Aegae-Yuntda\u011f\u0131, associated with the cult of Demeter and Kore based on epigraphic evidence, may also have been sacred to other divinities. The site is located to the west of the Scaenae frons of the theater complex.",
+    "description": "A temple complex at Aegae-Yuntdağı, associated with the cult of Demeter and Kore based on epigraphic evidence, may also have been sacred to other divinities. The site is located to the west of the Scaenae frons of the theater complex.",
     "props": { "religion": "roman" }
   },
   {
@@ -10041,7 +10041,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Modern name of a seventh-century Pallava cave temple in Mah\u0101balipuram.",
+    "description": "Modern name of a seventh-century Pallava cave temple in Mahābalipuram.",
     "props": { "religion": "roman" }
   },
   {
@@ -10281,7 +10281,7 @@
     "id": "religion:237645058",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "D\u00fan Ailinne",
+    "name": "Dún Ailinne",
     "lat": 53.1133,
     "lng": -6.7752,
     "startYear": 50,
@@ -10318,7 +10318,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Ura\u0161 at Dilbat. The Akkadian ceremonial name E-ibbi-Anum means \"House, Anu Called It into Being.\"",
+    "description": "The temple of the god Uraš at Dilbat. The Akkadian ceremonial name E-ibbi-Anum means \"House, Anu Called It into Being.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -10339,14 +10339,14 @@
     "id": "religion:978492068",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Eama\u0161kuga",
+    "name": "Eamaškuga",
     "lat": 30.8348,
     "lng": 46.3341,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the goddess Ningal at Kissik. The Sumerian ceremonial name Eama\u0161kuga means \"House, Pure Sheepfold.\"",
+    "description": "The temple of the goddess Ningal at Kissik. The Sumerian ceremonial name Eamaškuga means \"House, Pure Sheepfold.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -10360,7 +10360,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Anu and the goddess I\u0161tar at Uruk. The Sumerian ceremonial name Eanna means \"House of Heaven.\"",
+    "description": "The temple of the god Anu and the goddess Ištar at Uruk. The Sumerian ceremonial name Eanna means \"House of Heaven.\"",
     "props": { "religion": "roman" },
     "qid": "Q706970"
   },
@@ -10375,7 +10375,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god \u0160ama\u0161 at Sippar. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
+    "description": "The temple of the god Šamaš at Sippar. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -10389,7 +10389,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god \u0160ama\u0161 at Larsa. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
+    "description": "The temple of the god Šamaš at Larsa. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
     "props": { "religion": "roman" },
     "qid": "Q19309800"
   },
@@ -10418,7 +10418,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god I\u0161tar\u0101n/Anu-rab\u00fb at Der. The Sumerian ceremonial name Edimgalkalama means \"House, Great Bond of the Land.\"",
+    "description": "The temple of the god Ištarān/Anu-rabû at Der. The Sumerian ceremonial name Edimgalkalama means \"House, Great Bond of the Land.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -10439,7 +10439,7 @@
     "id": "religion:291082432",
     "type": "religious-site",
     "subtype": "church",
-    "name": "\u00c9glise Saint-Vincent de Marimbault",
+    "name": "Église Saint-Vincent de Marimbault",
     "lat": 44.411,
     "lng": -0.2687,
     "startYear": 50,
@@ -10462,7 +10462,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1301011",
-    "description": "The temple of the god S\u00een at Harran. The Sumerian ceremonial name Ehulhul means \"House which Gives Joy.\"",
+    "description": "The temple of the god Sîn at Harran. The Sumerian ceremonial name Ehulhul means \"House which Gives Joy.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -10740,14 +10740,14 @@
     "id": "religion:324702",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ell\u00e8s",
+    "name": "Ellès",
     "lat": 35.9501,
     "lng": 9.0994,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 33 D1 Ell\u00e8s",
+    "description": "An ancient place, cited: BAtlas 33 D1 Ellès",
     "props": { "religion": "roman" }
   },
   {
@@ -10776,9 +10776,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient settlement and sanctuary site on the Cnidus (modern Re\u015fadiye/Dat\u00e7a) peninsula.",
+    "description": "An ancient settlement and sanctuary site on the Cnidus (modern Reşadiye/Datça) peninsula.",
     "props": { "religion": "roman" },
-    "qid": "Q6758809"
+    "containedInQid": "Q6758809"
   },
   {
     "id": "religion:213534096",
@@ -10841,7 +10841,7 @@
     "id": "religion:66997684",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Episcopal complex of Eio-el Tolmo de Minateda (H\u00e9ll\u00edn, Albacete, Spain)",
+    "name": "Episcopal complex of Eio-el Tolmo de Minateda (Héllín, Albacete, Spain)",
     "lat": 38.4762,
     "lng": -1.6059,
     "startYear": 50,
@@ -10942,14 +10942,14 @@
     "id": "religion:168064512",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "E\u0161ahula",
+    "name": "Ešahula",
     "lat": 34.2145,
     "lng": 45.0848,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Nergal at Me-Turnat. The Sumerian ceremonial name E\u0161ahula means \"House of the Happy Heart.\"",
+    "description": "The temple of the god Nergal at Me-Turnat. The Sumerian ceremonial name Ešahula means \"House of the Happy Heart.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -10971,7 +10971,7 @@
     "id": "religion:108968",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Estr\u00e9es-St-Denis",
+    "name": "Estrées-St-Denis",
     "lat": 49.4259,
     "lng": 2.6424,
     "startYear": -200,
@@ -10979,7 +10979,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1096136",
-    "description": "An ancient place, cited: BAtlas 11 C3 Estr\u00e9es-St-Denis",
+    "description": "An ancient place, cited: BAtlas 11 C3 Estrées-St-Denis",
     "props": { "religion": "roman" }
   },
   {
@@ -11043,14 +11043,14 @@
     "id": "religion:695490820",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Eulma\u0161",
+    "name": "Eulmaš",
     "lat": 33.0993,
     "lng": 44.2992,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the goddess Anunn\u012btu at Sippar-Anunn\u012btu (=Sippar-Amnanum).",
+    "description": "The temple of the goddess Anunnītu at Sippar-Anunnītu (=Sippar-Amnanum).",
     "props": { "religion": "roman" }
   },
   {
@@ -11065,7 +11065,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q645105",
-    "description": "An Early Byzantine Christian basilica located in Pore\u010d, Croatia.",
+    "description": "An Early Byzantine Christian basilica located in Poreč, Croatia.",
     "props": { "religion": "roman" }
   },
   {
@@ -11079,7 +11079,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The ziggurat of the god the god Nab\u00fb at Borsippa. The Sumerian ceremonial name Eurmeiminanki means \"House which Gathers the Seven (Me's) of Heaven and Underworld.\"",
+    "description": "The ziggurat of the god the god Nabû at Borsippa. The Sumerian ceremonial name Eurmeiminanki means \"House which Gathers the Seven (Me's) of Heaven and Underworld.\"",
     "props": { "religion": "roman" }
   },
   {
@@ -11352,7 +11352,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1356788",
-    "description": "Flag Fen is a Bronze Age ritual site near Peterborough, England, comprised of 60,000 timbers arranged in five rows that connect Whittlesey Island with Peterborough. Dendrochronological evidence has dates the site to ca. 1365\u2013967 BC.",
+    "description": "Flag Fen is a Bronze Age ritual site near Peterborough, England, comprised of 60,000 timbers arranged in five rows that connect Whittlesey Island with Peterborough. Dendrochronological evidence has dates the site to ca. 1365–967 BC.",
     "props": { "religion": "roman" }
   },
   {
@@ -11366,9 +11366,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q145033",
     "description": "An ancient place, cited: BAtlas 11 C3 Fluy",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q145033"
   },
   {
     "id": "religion:413140",
@@ -11425,9 +11425,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q50092",
     "description": "An ancient place, cited: BAtlas 42 F4 Fontecchio",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q50092"
   },
   {
     "id": "religion:187384",
@@ -11483,9 +11483,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q5473047",
     "description": "An ancient place, cited: BAtlas 42 C4 Forum Cassii",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q5473047"
   },
   {
     "id": "religion:712105367",
@@ -11682,7 +11682,7 @@
     "id": "religion:59593308",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Gallo-Roman fanum at Recoules-Pr\u00e9vinqui\u00e8res",
+    "name": "Gallo-Roman fanum at Recoules-Prévinquières",
     "lat": 44.3408,
     "lng": 2.9689,
     "startYear": 50,
@@ -11696,7 +11696,7 @@
     "id": "religion:44707451",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Gallo-Roman remains at La Tour, Sabl\u00e9-sur-Sarthe",
+    "name": "Gallo-Roman remains at La Tour, Sablé-sur-Sarthe",
     "lat": 47.8317,
     "lng": -0.354,
     "startYear": 50,
@@ -11711,7 +11711,7 @@
     "id": "religion:108833",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Gallo-Roman Sanctuary at B\u00fb",
+    "name": "Gallo-Roman Sanctuary at Bû",
     "lat": 48.8158,
     "lng": 1.4989,
     "startYear": 50,
@@ -11719,7 +11719,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q626918",
-    "description": "Remains of a rectangular Romano-Celtic temple were excavated north of the French town of B\u00fb (in the department of Eure-et-Loir), beginning in the 1960s. Other buildings of uncertain nature and a theater were also identified in the vicinity. Coins and pottery discovered at the site indicate there was activity there during the Roman imperial period.",
+    "description": "Remains of a rectangular Romano-Celtic temple were excavated north of the French town of Bû (in the department of Eure-et-Loir), beginning in the 1960s. Other buildings of uncertain nature and a theater were also identified in the vicinity. Coins and pottery discovered at the site indicate there was activity there during the Roman imperial period.",
     "props": { "religion": "roman" }
   },
   {
@@ -11733,15 +11733,15 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1139329",
-    "description": "A Gallo-Roman sanctuary identified in the 1960s at La Cav\u00e9e du Moulin near Hanches in the Eure-et-Loir department of France. ",
-    "props": { "religion": "roman" }
+    "description": "A Gallo-Roman sanctuary identified in the 1960s at La Cavée du Moulin near Hanches in the Eure-et-Loir department of France. ",
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1139329"
   },
   {
     "id": "religion:747563988",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Gallo-Roman sites at \u00c9rome, France",
+    "name": "Gallo-Roman sites at Érome, France",
     "lat": 45.1197,
     "lng": 4.8212,
     "startYear": 50,
@@ -11785,7 +11785,7 @@
     "id": "religion:335533616",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Gallo-Roman temple of For\u00eat d'Halatte (cne. Ognon, Oise)",
+    "name": "Gallo-Roman temple of Forêt d'Halatte (cne. Ognon, Oise)",
     "lat": 49.2421,
     "lng": 2.6254,
     "startYear": 50,
@@ -11806,9 +11806,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1009985",
     "description": "An ancient place, cited: BAtlas 11 B3 Gamaches-en-Vexin",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1009985"
   },
   {
     "id": "religion:548553086",
@@ -12026,7 +12026,7 @@
     "category": "religion",
     "description": "The Monastery of Gelati was founded in 1106 in western Georgia. It was inscribed as a UNESCO World Heritage Site in 1984.",
     "props": { "religion": "roman" },
-    "qid": "Q12863082"
+    "containedInQid": "Q12863082"
   },
   {
     "id": "religion:344371",
@@ -12103,7 +12103,7 @@
     "id": "religion:62131047",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "\u0120gantija",
+    "name": "Ġgantija",
     "lat": 36.0486,
     "lng": 14.269,
     "startYear": 50,
@@ -12232,7 +12232,7 @@
     "id": "religion:245438984",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "G\u00f6bekli Tepe",
+    "name": "Göbekli Tepe",
     "lat": 37.2238,
     "lng": 38.922,
     "startYear": 50,
@@ -12240,7 +12240,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q214944",
-    "description": "The site of G\u00f6bekli Tepe, located in the Germu\u015f mountains of south-eastern Anatolia, was the location of a Neolithic hilltop sanctuary. This sanctuary, thought to be a series of stone enclosures with T-shaped pillars carrying carving of wild animals, was built in the Pre-Pottery Neolithic and ranges in date from 9,600 to 8,200 B.C.",
+    "description": "The site of Göbekli Tepe, located in the Germuş mountains of south-eastern Anatolia, was the location of a Neolithic hilltop sanctuary. This sanctuary, thought to be a series of stone enclosures with T-shaped pillars carrying carving of wild animals, was built in the Pre-Pottery Neolithic and ranges in date from 9,600 to 8,200 B.C.",
     "props": { "religion": "roman" }
   },
   {
@@ -12276,7 +12276,7 @@
     "id": "religion:109013",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "G\u00f6rresburg",
+    "name": "Görresburg",
     "lat": 50.4875,
     "lng": 6.6255,
     "startYear": 50,
@@ -12284,21 +12284,21 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1559564",
-    "description": "An ancient place, cited: BAtlas 11 G2 G\u00f6rresburg",
+    "description": "An ancient place, cited: BAtlas 11 G2 Görresburg",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:187395",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "G\u00f6rtschach",
+    "name": "Görtschach",
     "lat": 46.8145,
     "lng": 12.8526,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 19 E3 G\u00f6rtschach",
+    "description": "An ancient place, cited: BAtlas 19 E3 Görtschach",
     "props": { "religion": "roman" },
     "qid": "Q125796596"
   },
@@ -12328,9 +12328,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q289156",
     "description": "An ancient place, cited: BAtlas 11 C3 Gournay-sur-Aronde",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q289156"
   },
   {
     "id": "religion:462222",
@@ -12409,14 +12409,14 @@
     "id": "religion:442602",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Grotta Trinit\u00e0",
+    "name": "Grotta Trinità",
     "lat": 39.9958,
     "lng": 18.1935,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Grotta Trinit\u00e0 is a cave sanctuary located in the comune of Ruffano, province of Lecce, in southern Italy. The cave was in use from the Neolithic period onwards. In the Iron Age, terracotta vessels with incised graffiti date activity to the sixth century BCE and subsequent.",
+    "description": "The Grotta Trinità is a cave sanctuary located in the comune of Ruffano, province of Lecce, in southern Italy. The cave was in use from the Neolithic period onwards. In the Iron Age, terracotta vessels with incised graffiti date activity to the sixth century BCE and subsequent.",
     "props": { "religion": "roman" }
   },
   {
@@ -12437,7 +12437,7 @@
     "id": "religion:338703437",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "G\u00fcglingen Mithraeum",
+    "name": "Güglingen Mithraeum",
     "lat": 49.0617,
     "lng": 9.0055,
     "startYear": 50,
@@ -12446,7 +12446,7 @@
     "category": "religion",
     "description": "A sanctuary dedicated to Mithras located near modern Heilbronn, Germany, in use during the second-third centuries CE.",
     "props": { "religion": "roman" },
-    "qid": "Q32518359"
+    "containedInQid": "Q32518359"
   },
   {
     "id": "religion:922652",
@@ -12549,7 +12549,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q343053",
-    "description": "\u0126a\u0121ar Qim is a megalithic temple complex (ca. 3600-3200 BC), included in the UNESCO World Heritage List.",
+    "description": "Ħaġar Qim is a megalithic temple complex (ca. 3600-3200 BC), included in the UNESCO World Heritage List.",
     "props": { "religion": "roman" }
   },
   {
@@ -12593,7 +12593,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q26706748",
-    "description": "A natural cave in the side of the Halberg hill at Saarbr\u00fccken was enlarged for the use of the Mithras cult.",
+    "description": "A natural cave in the side of the Halberg hill at Saarbrücken was enlarged for the use of the Mithras cult.",
     "props": { "religion": "roman" }
   },
   {
@@ -12657,7 +12657,7 @@
     "id": "religion:636775194",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Haut B\u00e9cherel",
+    "name": "Haut Bécherel",
     "lat": 48.472,
     "lng": -2.1457,
     "startYear": 50,
@@ -12665,7 +12665,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q14628539",
-    "description": "Haut B\u00e9cherel is the site of a major Gallo-Roman sanctuary sacred to Mars.",
+    "description": "Haut Bécherel is the site of a major Gallo-Roman sanctuary sacred to Mars.",
     "props": { "religion": "roman" }
   },
   {
@@ -12956,7 +12956,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1613842",
-    "description": "The Heroon of Trysa is a scholarly appellation applied to an ancient tomb (ca. 380 BCE) found at Trysa in ancient Lycia. Julius August Sch\u00f6nborn discovered the site in 1841. The shrine is noted for its cycle of relief sculpture.",
+    "description": "The Heroon of Trysa is a scholarly appellation applied to an ancient tomb (ca. 380 BCE) found at Trysa in ancient Lycia. Julius August Schönborn discovered the site in 1841. The shrine is noted for its cycle of relief sculpture.",
     "props": { "religion": "roman" }
   },
   {
@@ -13028,7 +13028,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 11 H3 Hochscheid",
     "props": { "religion": "roman" },
-    "qid": "Q32059306"
+    "containedInQid": "Q32059306"
   },
   {
     "id": "religion:79516",
@@ -13164,7 +13164,7 @@
     "id": "religion:477527423",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Hypogeum of \u0126al-Saflieni (Malta)",
+    "name": "Hypogeum of Ħal-Saflieni (Malta)",
     "lat": 35.8696,
     "lng": 14.5069,
     "startYear": 50,
@@ -13251,14 +13251,14 @@
     "id": "religion:609414",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Il\u0131ca",
+    "name": "Ilıca",
     "lat": 39.4864,
     "lng": 30.0189,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 62 D3 Il\u0131ca",
+    "description": "An ancient place, cited: BAtlas 62 D3 Ilıca",
     "props": { "religion": "roman" }
   },
   {
@@ -13435,7 +13435,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3983297",
-    "description": "The remains of an Italic temple, in the locality known as \"Pi\u00e9 di Francia\". The sanctuary dates from the fourth to first centuries B.C.",
+    "description": "The remains of an Italic temple, in the locality known as \"Pié di Francia\". The sanctuary dates from the fourth to first centuries B.C.",
     "props": { "religion": "roman" }
   },
   {
@@ -13632,7 +13632,7 @@
     "id": "religion:857175",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Kabak\u00f6y",
+    "name": "Kabaköy",
     "lat": 40.4521,
     "lng": 39.71,
     "startYear": 400,
@@ -13640,7 +13640,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q6089728",
-    "description": "An ancient place, cited: BAtlas 87 E4 Kabak\u00f6y",
+    "description": "An ancient place, cited: BAtlas 87 E4 Kabaköy",
     "props": { "religion": "roman" }
   },
   {
@@ -13741,7 +13741,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Kalecik (formerly known as Aralesk or Lesk) is a modern village situated ca. 5 km north of Van Kalesi in southeast Turkey. In the village church, a re-used cylindrical stone (presumably a column base) with a building inscription of the Urartian king I\u0161puini, son of Sarduri I (ninth century BCE), was found. Furthermore, a re-used stone slab with an inscription of the Urartian king Argi\u0161ti, son of Minua and grandson of I\u0161puini (eighth century BCE) has also been found here.",
+    "description": "Kalecik (formerly known as Aralesk or Lesk) is a modern village situated ca. 5 km north of Van Kalesi in southeast Turkey. In the village church, a re-used cylindrical stone (presumably a column base) with a building inscription of the Urartian king Išpuini, son of Sarduri I (ninth century BCE), was found. Furthermore, a re-used stone slab with an inscription of the Urartian king Argišti, son of Minua and grandson of Išpuini (eighth century BCE) has also been found here.",
     "props": { "religion": "roman" }
   },
   {
@@ -13878,14 +13878,14 @@
     "id": "religion:995667313",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "K\u00e1stron Kh\u00f3stion",
+    "name": "Kástron Khóstion",
     "lat": 38.2542,
     "lng": 22.883,
     "startYear": -600,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A complex of structures dating to the Greek and Roman period, with ceramic evidence of prior occupation of the vicinity, on a spur of Pali\u00f3vouno, overlooking a valley leading to the bay of Sar\u00e1nda on the Korinthian Gulf. The excavators associate this site with the attested classical city of Khorsiai on the basis of epigraphic evidence recovered at the site.",
+    "description": "A complex of structures dating to the Greek and Roman period, with ceramic evidence of prior occupation of the vicinity, on a spur of Palióvouno, overlooking a valley leading to the bay of Saránda on the Korinthian Gulf. The excavators associate this site with the attested classical city of Khorsiai on the basis of epigraphic evidence recovered at the site.",
     "props": { "religion": "roman" }
   },
   {
@@ -14013,7 +14013,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A rural location now in the modern Algerian municipal territory of Djouab (M\u00e9d\u00e9a province) where Gsell and his correspondents (AAA, whence BAtlas) observed Roman ruins including a large building with columns that G. speculated might have been a church.",
+    "description": "A rural location now in the modern Algerian municipal territory of Djouab (Médéa province) where Gsell and his correspondents (AAA, whence BAtlas) observed Roman ruins including a large building with columns that G. speculated might have been a church.",
     "props": { "religion": "roman" }
   },
   {
@@ -14363,16 +14363,16 @@
     "id": "religion:609439",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ko\u00e7ak",
+    "name": "Koçak",
     "lat": 39.2843,
     "lng": 30.0237,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 62 D3 Ko\u00e7ak",
+    "description": "An ancient place, cited: BAtlas 62 D3 Koçak",
     "props": { "religion": "roman" },
-    "qid": "Q10781718"
+    "containedInQid": "Q10781718"
   },
   {
     "id": "religion:688874222",
@@ -14481,7 +14481,7 @@
     "id": "religion:768684720",
     "type": "religious-site",
     "subtype": "church",
-    "name": "K\u00f6\u015fkerli",
+    "name": "Köşkerli",
     "lat": 36.6095,
     "lng": 34.2063,
     "startYear": 50,
@@ -14658,7 +14658,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1399030",
-    "description": "A late ninth to early eighth century BC site located in the northeastern part of the Sinai peninsula, the fortress-like Kuntillat \u2018Ajrud may have been a sanctuary. Hebrew and Phoenician inscriptions have been identified at the site.",
+    "description": "A late ninth to early eighth century BC site located in the northeastern part of the Sinai peninsula, the fortress-like Kuntillat ‘Ajrud may have been a sanctuary. Hebrew and Phoenician inscriptions have been identified at the site.",
     "props": { "religion": "roman" }
   },
   {
@@ -14694,7 +14694,7 @@
     "id": "religion:157797",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "L\u2019Acapte",
+    "name": "L’Acapte",
     "lat": 43.0619,
     "lng": 6.1487,
     "startYear": -200,
@@ -14775,7 +14775,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1799531",
-    "description": "Labraunda is an archaeological site located in Caria, just west of Ortak\u00f6y, Turkey. The site was sacred to both Carians and Mysians.",
+    "description": "Labraunda is an archaeological site located in Caria, just west of Ortaköy, Turkey. The site was sacred to both Carians and Mysians.",
     "props": { "religion": "roman" }
   },
   {
@@ -14803,9 +14803,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q970167",
     "description": "A Gallo-Roman sanctuary.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q970167"
   },
   {
     "id": "religion:79554",
@@ -14956,14 +14956,14 @@
     "id": "religion:167923",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Le Serre d\u2019Astier",
+    "name": "Le Serre d’Astier",
     "lat": 44.3617,
     "lng": 5.7758,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 17 F5 Le Serre d\u2019Astier",
+    "description": "An ancient place, cited: BAtlas 17 F5 Le Serre d’Astier",
     "props": { "religion": "roman" }
   },
   {
@@ -15050,7 +15050,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient Gallo-Roman sanctuary near modern Genainville (France), with excavated remains of a temple, nymphaeum, and theater: BAtlas 11 B3 G\u00e9nainville (sic)",
+    "description": "An ancient Gallo-Roman sanctuary near modern Genainville (France), with excavated remains of a temple, nymphaeum, and theater: BAtlas 11 B3 Génainville (sic)",
     "props": { "religion": "roman" }
   },
   {
@@ -15079,7 +15079,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Leuke Akte, the \u2018White cape\u2019 located on the Libyan coast of Egypt, was the site of an Isis cult wherein the Egyptian goddess was worshipped as Aphrodite, Muchis, and Eseremphis. An oracular shrine of Apollo was also found there.",
+    "description": "Leuke Akte, the ‘White cape’ located on the Libyan coast of Egypt, was the site of an Isis cult wherein the Egyptian goddess was worshipped as Aphrodite, Muchis, and Eseremphis. An oracular shrine of Apollo was also found there.",
     "props": { "religion": "roman" }
   },
   {
@@ -15238,7 +15238,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1232116",
-    "description": "Located in France's Burgundy region, the Luxeuil Abbey was founded ca. 585\u2013590 by the Irish missionary Saint Columbanus.",
+    "description": "Located in France's Burgundy region, the Luxeuil Abbey was founded ca. 585–590 by the Irish missionary Saint Columbanus.",
     "props": { "religion": "roman" }
   },
   {
@@ -15477,7 +15477,7 @@
     "id": "religion:282336654",
     "type": "religious-site",
     "subtype": "church",
-    "name": "M\u0103n\u0103stirea Halmyris",
+    "name": "Mănăstirea Halmyris",
     "lat": 45.0226,
     "lng": 29.2053,
     "startYear": 400,
@@ -15783,9 +15783,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q624338",
     "description": "Remains of a large religious complex, consisting of a fanum, two small subsidiary structures, and three altars.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q624338"
   },
   {
     "id": "religion:411491820",
@@ -15899,7 +15899,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Gallo-Roman sanctuary with twin temples was discovered in 1964 at the locality called Masamas in the commune of Saint-L\u00e9omer.",
+    "description": "The Gallo-Roman sanctuary with twin temples was discovered in 1964 at the locality called Masamas in the commune of Saint-Léomer.",
     "props": { "religion": "roman" }
   },
   {
@@ -15943,7 +15943,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q21526234",
-    "description": "A mausoleum and sacred precinct associated with Hecatomnus of Mylasa, who was the satrap of Caria under Artaxerxes II (404\u2013358 BC).",
+    "description": "A mausoleum and sacred precinct associated with Hecatomnus of Mylasa, who was the satrap of Caria under Artaxerxes II (404–358 BC).",
     "props": { "religion": "roman" }
   },
   {
@@ -16028,7 +16028,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A sanctuary of the \"Great Gods\" on the Aegean island of Imbros/G\u00f6k\u00e7eada. The remains of the sanctuary are located southwest of modern Kalek\u00f6y, to the west of the airport in the vicinity of a ruined monastery of Agios Konstantinos at a place formerly known as Roxado.",
+    "description": "A sanctuary of the \"Great Gods\" on the Aegean island of Imbros/Gökçeada. The remains of the sanctuary are located southwest of modern Kaleköy, to the west of the airport in the vicinity of a ruined monastery of Agios Konstantinos at a place formerly known as Roxado.",
     "props": { "religion": "roman" }
   },
   {
@@ -16144,7 +16144,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q5780",
-    "description": "Mero\u00eb is an ancient city located on the east bank of the Nile river near Shendi, Sudan. The city was a center of the kingdom of Kush.",
+    "description": "Meroë is an ancient city located on the east bank of the Nile river near Shendi, Sudan. The city was a center of the kingdom of Kush.",
     "props": { "religion": "roman" }
   },
   {
@@ -16364,14 +16364,14 @@
     "id": "religion:246500",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "M\u00e9zin",
+    "name": "Mézin",
     "lat": 44.0564,
     "lng": 0.2577,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 F1 M\u00e9zin",
+    "description": "An ancient place, cited: BAtlas 25 F1 Mézin",
     "props": { "religion": "roman" },
     "qid": "Q120232179"
   },
@@ -16416,7 +16416,7 @@
     "category": "religion",
     "description": "An ancient temple of Minerva, located on the ancient cape that also was known by the goddess' name.",
     "props": { "religion": "roman" },
-    "qid": "Q55435215"
+    "containedInQid": "Q55435215"
   },
   {
     "id": "religion:76301894",
@@ -16437,7 +16437,7 @@
     "id": "religion:538129499",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Mithraeum at Fert\u0151r\u00e1kos",
+    "name": "Mithraeum at Fertőrákos",
     "lat": 47.7414,
     "lng": 16.6567,
     "startYear": 50,
@@ -16445,7 +16445,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1177999",
-    "description": "A well-preserved Mithraeum with modern stone vault above ground and site below in Fert\u0151r\u00e1kos, Hungary, at the site of ancient Scarbantia.",
+    "description": "A well-preserved Mithraeum with modern stone vault above ground and site below in Fertőrákos, Hungary, at the site of ancient Scarbantia.",
     "props": { "religion": "roman" }
   },
   {
@@ -16460,7 +16460,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q106856863",
-    "description": "A second-century Mithraeum is located in the area of the municipality of Mundelsheim in the Ludwigsburg district of Baden-W\u00fcrttemberg, Germany.",
+    "description": "A second-century Mithraeum is located in the area of the municipality of Mundelsheim in the Ludwigsburg district of Baden-Württemberg, Germany.",
     "props": { "religion": "roman" }
   },
   {
@@ -16527,16 +16527,16 @@
     "id": "religion:109170",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "M\u00f6hn",
+    "name": "Möhn",
     "lat": 49.8312,
     "lng": 6.5876,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 G3 M\u00f6hn",
+    "description": "An ancient place, cited: BAtlas 11 G3 Möhn",
     "props": { "religion": "roman" },
-    "qid": "Q31808533"
+    "containedInQid": "Q31808533"
   },
   {
     "id": "religion:462319",
@@ -16652,7 +16652,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Mons Seleucus was the site of the famous battle between Constantius II and the usurper Magnentius in AD 353. The Gallo-Roman vicus at La B\u00e2tie-Montsal\u00e9on included a Gallo-Roman sanctuary.",
+    "description": "Mons Seleucus was the site of the famous battle between Constantius II and the usurper Magnentius in AD 353. The Gallo-Roman vicus at La Bâtie-Montsaléon included a Gallo-Roman sanctuary.",
     "props": { "religion": "roman" },
     "qid": "Q130313104"
   },
@@ -16681,9 +16681,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1423802",
     "description": "An ancient place, cited: BAtlas 14 H1 Montbouy",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1423802"
   },
   {
     "id": "religion:647937672",
@@ -16841,9 +16841,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q838870",
     "description": "An ancient place, cited: BAtlas 14 E1 Montreuil-Bellay",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q838870"
   },
   {
     "id": "religion:246507",
@@ -16971,9 +16971,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q14215956",
     "description": "The settlement of Mut el-Kharab, located in Egypt's Dakhleh Oasis. A temple to the god Seth was built at this location.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q14215956"
   },
   {
     "id": "religion:291344339",
@@ -17051,7 +17051,7 @@
     "id": "religion:154636892",
     "type": "religious-site",
     "subtype": "monastery",
-    "name": "N\u0101land\u0101 Mahavihara",
+    "name": "Nālandā Mahavihara",
     "lat": 25.1364,
     "lng": 85.4435,
     "startYear": 50,
@@ -17073,9 +17073,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1086477",
     "description": "An ancient place, cited: BAtlas 11 E3 Nanteuil-sur-Aisne",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1086477"
   },
   {
     "id": "religion:922683",
@@ -17102,7 +17102,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An archaeological site with rock-cut reliefs made under the Sasanian kings Arda\u0161ir I (224-241) and Shapur I (241-272).",
+    "description": "An archaeological site with rock-cut reliefs made under the Sasanian kings Ardašir I (224-241) and Shapur I (241-272).",
     "props": { "religion": "roman" }
   },
   {
@@ -17182,7 +17182,7 @@
     "id": "religion:593715591",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Naveta of Torre Llis\u00e0",
+    "name": "Naveta of Torre Llisà",
     "lat": 39.8948,
     "lng": 4.1613,
     "startYear": 50,
@@ -17297,7 +17297,7 @@
     "id": "religion:658544",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Nemrut Da\u011f",
+    "name": "Nemrut Dağ",
     "lat": 37.9807,
     "lng": 38.7408,
     "startYear": -200,
@@ -17305,7 +17305,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q207917",
-    "description": "A major sanctuary of Coammagene and site of the mausoleum of Antiochus I (69\u201334 B.C.). A UNESCO World Heritage Site located on modern Mount Nemrut in Turkey's Ad\u0131yaman province.",
+    "description": "A major sanctuary of Coammagene and site of the mausoleum of Antiochus I (69–34 B.C.). A UNESCO World Heritage Site located on modern Mount Nemrut in Turkey's Adıyaman province.",
     "props": { "religion": "roman" }
   },
   {
@@ -17363,9 +17363,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1172328",
     "description": "An ancient place, cited: BAtlas 14 H1 Neuvy-sur-Barangeon",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1172328"
   },
   {
     "id": "religion:416772250",
@@ -17378,7 +17378,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of his post-689-BC religious reforms, the Neo-Assyrian king Sennacherib (704\u2013681 BC) had a new New Year\u2019s festival house (ak\u012btu-house) constructed outside the western wall of Assur. This was an attempt to replicate the cultic topography of Babylon. The Sumerian ceremonial names of that holy building and its cella are Eabbaugga (\"House Where Ti\u0101mat Is Put To Death\") and Edubdubabba (\"House That Makes Ti\u0101mat Tremble\u201d) respectively.",
+    "description": "As part of his post-689-BC religious reforms, the Neo-Assyrian king Sennacherib (704–681 BC) had a new New Year’s festival house (akītu-house) constructed outside the western wall of Assur. This was an attempt to replicate the cultic topography of Babylon. The Sumerian ceremonial names of that holy building and its cella are Eabbaugga (\"House Where Tiāmat Is Put To Death\") and Edubdubabba (\"House That Makes Tiāmat Tremble”) respectively.",
     "props": { "religion": "roman" },
     "qid": "Q200200"
   },
@@ -17524,9 +17524,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q665765",
     "description": "An ancient place, cited: BAtlas 12 D1 Oberdorla",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q665765"
   },
   {
     "id": "religion:187495",
@@ -17662,7 +17662,7 @@
     "id": "religion:364777233",
     "type": "religious-site",
     "subtype": "church",
-    "name": "\u00d6rendibi",
+    "name": "Örendibi",
     "lat": 36.5818,
     "lng": 34.0736,
     "startYear": 400,
@@ -17871,9 +17871,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A paleochristian church located in Lin, Kor\u00e7\u00eb County, Albania, with fourth- and fifth-century mosaics.",
+    "description": "A paleochristian church located in Lin, Korçë County, Albania, with fourth- and fifth-century mosaics.",
     "props": { "religion": "roman" },
-    "qid": "Q851060"
+    "containedInQid": "Q851060"
   },
   {
     "id": "religion:465970",
@@ -18012,21 +18012,21 @@
     "id": "religion:236594",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Pan\u00f3ias",
+    "name": "Panóias",
     "lat": 41.2835,
     "lng": -7.6821,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 24 D3 Pan\u00f3ias",
+    "description": "An ancient place, cited: BAtlas 24 D3 Panóias",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:766186562",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "P\u0101n\u1e5b I",
+    "name": "Pānṛ I",
     "lat": 34.7739,
     "lng": 72.3749,
     "startYear": 50,
@@ -18169,14 +18169,14 @@
     "id": "religion:531050",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Pec\u00eb",
+    "name": "Pecë",
     "lat": 39.9331,
     "lng": 20.1723,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 54 B2 Pec\u00eb",
+    "description": "An ancient place, cited: BAtlas 54 B2 Pecë",
     "props": { "religion": "roman" },
     "qid": "Q13044064"
   },
@@ -18191,9 +18191,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q653374",
     "description": "An ancient place, cited: BAtlas 11 G2 Pelm",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q653374"
   },
   {
     "id": "religion:795843",
@@ -18277,9 +18277,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1065286",
     "description": "An ancient place, cited: BAtlas 14 D1 Petit-Mars",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1065286"
   },
   {
     "id": "religion:707607",
@@ -18378,7 +18378,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Strabo describes this sanctuary in his narrative of sailing up the Guadalquivir River. His text mentions a sanctuary of Phosphorus - this is likely Diana - that is known as \"Lux Dubia\" (Strabo transliterates \"Lucem dubiam\" to Greek characters, thus \u03bb\u03bf\u1fe6\u03ba\u03b5\u03bc \u03b4\u03bf\u03c5\u03b2\u03af\u03b1\u03bd).",
+    "description": "Strabo describes this sanctuary in his narrative of sailing up the Guadalquivir River. His text mentions a sanctuary of Phosphorus - this is likely Diana - that is known as \"Lux Dubia\" (Strabo transliterates \"Lucem dubiam\" to Greek characters, thus λοῦκεμ δουβίαν).",
     "props": { "religion": "roman" }
   },
   {
@@ -18436,7 +18436,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3904602",
-    "description": "A ruined church that was once part of the diocese of Volterra, San Giovanni Battista a Sillano is unique in Tuscany for having a Romanesque-Norman fa\u00e7ade. The ruined edifice likely dates to the twelfth and thirteenth centuries although the parish exists as early as the mid-tenth century.",
+    "description": "A ruined church that was once part of the diocese of Volterra, San Giovanni Battista a Sillano is unique in Tuscany for having a Romanesque-Norman façade. The ruined edifice likely dates to the twelfth and thirteenth centuries although the parish exists as early as the mid-tenth century.",
     "props": { "religion": "roman" }
   },
   {
@@ -18487,7 +18487,7 @@
     "id": "religion:187510",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Pillerh\u00f6he",
+    "name": "Pillerhöhe",
     "lat": 47.1183,
     "lng": 10.6671,
     "startYear": -450,
@@ -18495,7 +18495,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1628561",
-    "description": "An ancient place, cited: BAtlas 19 C2 Pillerh\u00f6he",
+    "description": "An ancient place, cited: BAtlas 19 C2 Pillerhöhe",
     "props": { "religion": "roman" }
   },
   {
@@ -18546,7 +18546,7 @@
     "id": "religion:187514",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Pl\u00f6ckenpass",
+    "name": "Plöckenpass",
     "lat": 46.6035,
     "lng": 12.9454,
     "startYear": 50,
@@ -18554,7 +18554,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q669135",
-    "description": "An ancient place, cited: BAtlas 19 E3 Pl\u00f6ckenpass",
+    "description": "An ancient place, cited: BAtlas 19 E3 Plöckenpass",
     "props": { "religion": "roman" }
   },
   {
@@ -18755,7 +18755,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q2107814",
-    "description": "Pranu Muttedu is a pre- and protohistoric archaeological site located near Goni, Sardinia. The complex includes standing stones (menhirs) and prehistoric built tombs (domus de janas). The site dates to the Late Neolithic (3200 \u2013 2800 BC) and Early Chalcolithic (2800 \u2013 2600 BC) periods.",
+    "description": "Pranu Muttedu is a pre- and protohistoric archaeological site located near Goni, Sardinia. The complex includes standing stones (menhirs) and prehistoric built tombs (domus de janas). The site dates to the Late Neolithic (3200 – 2800 BC) and Early Chalcolithic (2800 – 2600 BC) periods.",
     "props": { "religion": "roman" }
   },
   {
@@ -19079,7 +19079,7 @@
     "id": "religion:587486978",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Qalb Loz\u00e9",
+    "name": "Qalb Lozé",
     "lat": 36.169,
     "lng": 36.5808,
     "startYear": 400,
@@ -19285,9 +19285,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q22985795",
     "description": "An ancient place, cited: BAtlas 72 B3 Rantidi",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q22985795"
   },
   {
     "id": "religion:746804",
@@ -19359,7 +19359,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1236430",
-    "description": "Reccopolis is an urban, Visigothic, ex-novo foundation made under king Liuvigild in A.D. 578. The archaeological remains at the site include a palace complex, public area, basilica, walls, and aqueduct. The site is known today by the Spanish version of its Latin name (Rec\u00f3polis); it is located near the modern village of Zorita de los Canes in the Spanish province of Guadelajara.",
+    "description": "Reccopolis is an urban, Visigothic, ex-novo foundation made under king Liuvigild in A.D. 578. The archaeological remains at the site include a palace complex, public area, basilica, walls, and aqueduct. The site is known today by the Spanish version of its Latin name (Recópolis); it is located near the modern village of Zorita de los Canes in the Spanish province of Guadelajara.",
     "props": { "religion": "roman" }
   },
   {
@@ -19416,9 +19416,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q626976",
     "description": "Ribemont-sur-Ancre is the site of a Celtic and Gallo-Roman sanctuary located on the right bank of the Ancre river, a tributary of the Somme. Roger Agache discovered the site in 1962. The site is vast in its area, covering some 80 ha.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q626976"
   },
   {
     "id": "religion:118932",
@@ -19545,7 +19545,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Elmal\u0131 Museum's 2011 discovery of a rock-cut relief and many broken stelai near the fountain known as Sar\u0131 Mehmet \u00c7e\u015fmesi, in the Yukar\u0131ovac\u0131k Yayla (plateau), on the western slopes of Temrencik Tepe, on the border between the territory of ancient Choma and Oinoanda, points to the existence of a spring sanctuary of Leto, her children Apollo and Artemis (the Letoids), and perhaps also 9 nymphs.",
+    "description": "The Elmalı Museum's 2011 discovery of a rock-cut relief and many broken stelai near the fountain known as Sarı Mehmet Çeşmesi, in the Yukarıovacık Yayla (plateau), on the western slopes of Temrencik Tepe, on the border between the territory of ancient Choma and Oinoanda, points to the existence of a spring sanctuary of Leto, her children Apollo and Artemis (the Letoids), and perhaps also 9 nymphs.",
     "props": { "religion": "roman" }
   },
   {
@@ -19595,16 +19595,16 @@
     "id": "religion:109034",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Roman spring sanctuary near Heckenm\u00fcnster",
+    "name": "Roman spring sanctuary near Heckenmünster",
     "lat": 49.8994,
     "lng": 6.7875,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q566707",
-    "description": "An extensive complex of structures dating to the 1st - 3rd centuries of the Roman imperial period sited at a pair of springs known today as \"Viktoriaquelle\" and \"Schwefelquelle,\" near modern Heckenm\u00fcnster in German. This site, whose ancient name and tutelary deities are not known, was extensively excavated in the 1960s. It comprised religious and performative spaces, as well as baths and hostelry.",
-    "props": { "religion": "roman" }
+    "description": "An extensive complex of structures dating to the 1st - 3rd centuries of the Roman imperial period sited at a pair of springs known today as \"Viktoriaquelle\" and \"Schwefelquelle,\" near modern Heckenmünster in German. This site, whose ancient name and tutelary deities are not known, was extensively excavated in the 1960s. It comprised religious and performative spaces, as well as baths and hostelry.",
+    "props": { "religion": "roman" },
+    "containedInQid": "Q566707"
   },
   {
     "id": "religion:438136808",
@@ -19625,7 +19625,7 @@
     "id": "religion:415113284",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Roman temple of C\u00f3rdoba",
+    "name": "Roman temple of Córdoba",
     "lat": 37.8849,
     "lng": -4.7766,
     "startYear": 50,
@@ -19678,7 +19678,7 @@
     "category": "religion",
     "description": "Structures thought to be temples set within a sacred area that includes a sacred well.",
     "props": { "religion": "roman" },
-    "qid": "Q13138"
+    "containedInQid": "Q13138"
   },
   {
     "id": "religion:148174",
@@ -19736,9 +19736,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1334969",
     "description": "An ancient place, cited: BAtlas 11 C3 Rouvroy-les-Merles",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1334969"
   },
   {
     "id": "religion:674925422",
@@ -19824,9 +19824,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2066500",
     "description": "An ancient place, cited: BAtlas 42 E4 S. Anatolia",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q2066500"
   },
   {
     "id": "religion:511410",
@@ -19888,14 +19888,14 @@
     "id": "religion:246614",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "S. Cristina d\u2019Aro",
+    "name": "S. Cristina d’Aro",
     "lat": 41.8155,
     "lng": 3.0029,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 I4 S. Cristina d\u2019Aro",
+    "description": "An ancient place, cited: BAtlas 25 I4 S. Cristina d’Aro",
     "props": { "religion": "roman" }
   },
   {
@@ -19931,14 +19931,14 @@
     "id": "religion:236646",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "S. Eulalia de B\u00f3veda",
+    "name": "S. Eulalia de Bóveda",
     "lat": 42.9801,
     "lng": -7.686,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Located some 16 km from Lugo, S. Eulalia de B\u00f3veda is the location of a vaulted, three-aisled, underground building, likely dating to the middle Imperial period and functioning as a nymphaeum.",
+    "description": "Located some 16 km from Lugo, S. Eulalia de Bóveda is the location of a vaulted, three-aisled, underground building, likely dating to the middle Imperial period and functioning as a nymphaeum.",
     "props": { "religion": "roman" }
   },
   {
@@ -19994,22 +19994,22 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q18453634",
     "description": "The so-called \"Archi di San Lidano\" are the remains of a Roman stone bridge in the Pontine plain, near the modern locality of Sezze Scalo. The bridge likely dates originally to the second century B.C. Evidence of an ancient sanctuary have also been detected in the vicinity.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q18453634"
   },
   {
     "id": "religion:246621",
     "type": "religious-site",
     "subtype": "church",
-    "name": "S. Maria d\u2019Art\u00e8s",
+    "name": "S. Maria d’Artès",
     "lat": 41.7982,
     "lng": 1.9542,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 G4 S. Maria d\u2019Art\u00e8s",
+    "description": "An ancient place, cited: BAtlas 25 G4 S. Maria d’Artès",
     "props": { "religion": "roman" }
   },
   {
@@ -20023,9 +20023,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q666382",
     "description": "An ancient place, cited: BAtlas 43 B1 S. Maria di Galeria",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q666382"
   },
   {
     "id": "religion:383782",
@@ -20060,14 +20060,14 @@
     "id": "religion:246622",
     "type": "religious-site",
     "subtype": "church",
-    "name": "S. Pantale\u00f3n",
+    "name": "S. Pantaleón",
     "lat": 42.9346,
     "lng": -3.2911,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 B3 S. Pantale\u00f3n",
+    "description": "An ancient place, cited: BAtlas 25 B3 S. Pantaleón",
     "props": { "religion": "roman" },
     "qid": "Q5836175"
   },
@@ -20248,14 +20248,14 @@
     "id": "religion:246597",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Sacou\u00e9",
+    "name": "Sacoué",
     "lat": 42.9876,
     "lng": 0.564,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 F2 Sacou\u00e9",
+    "description": "An ancient place, cited: BAtlas 25 F2 Sacoué",
     "props": { "religion": "roman" },
     "qid": "Q38642115"
   },
@@ -20823,14 +20823,14 @@
     "id": "religion:514380156",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Sanctuary of Mont\u00e9lu",
+    "name": "Sanctuary of Montélu",
     "lat": 45.8489,
     "lng": 0.7675,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Sanctuary of Mont\u00e9lu lies to the west of Chassenon. The building, only partially excavated, is of an octagonal plan and oriented to the cardinal points.",
+    "description": "The Sanctuary of Montélu lies to the west of Chassenon. The building, only partially excavated, is of an octagonal plan and oriented to the cardinal points.",
     "props": { "religion": "roman" }
   },
   {
@@ -21160,7 +21160,7 @@
     "id": "religion:256429",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "S\u00e3o Miguel de Mota",
+    "name": "São Miguel de Mota",
     "lat": 38.6434,
     "lng": -7.4431,
     "startYear": 50,
@@ -21189,14 +21189,14 @@
     "id": "religion:629072",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Sat\u0131k\u00f6y",
+    "name": "Satıköy",
     "lat": 38.1853,
     "lng": 35.7643,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 64 B4 Sat\u0131k\u00f6y",
+    "description": "An ancient place, cited: BAtlas 64 B4 Satıköy",
     "props": { "religion": "roman" }
   },
   {
@@ -21261,7 +21261,7 @@
     "id": "religion:584375361",
     "type": "religious-site",
     "subtype": "monastery",
-    "name": "Sceilg Mhich\u00edl",
+    "name": "Sceilg Mhichíl",
     "lat": 51.7719,
     "lng": -10.5389,
     "startYear": 50,
@@ -21341,9 +21341,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1461215",
     "description": "An ancient place, cited: BAtlas 11 B4 Septeuil",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1461215"
   },
   {
     "id": "religion:373887",
@@ -21442,7 +21442,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q130558770",
-    "description": "Large temple at Tell Jokha/Umma dedicated to the Sumerian god Shara. The temple was constructed by king \u0160u-Suen of the Third Dynasty of Ur (2035-2027 BCE), and was used during the Ur III-Old Babylonian periods.",
+    "description": "Large temple at Tell Jokha/Umma dedicated to the Sumerian god Shara. The temple was constructed by king Šu-Suen of the Third Dynasty of Ur (2035-2027 BCE), and was used during the Ur III-Old Babylonian periods.",
     "props": { "religion": "roman" }
   },
   {
@@ -21527,9 +21527,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1692038",
     "description": "An ancient place, cited: BAtlas 13 B4 Sievering",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1692038"
   },
   {
     "id": "religion:746812",
@@ -21556,9 +21556,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q747935",
     "description": "The principal ancient settlement on the Aegean island of the same name. The ancient site is located where the church of Agia Marina now stands on a prominent height, about 5 km southwest of the modern town of Sikinos.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q747935"
   },
   {
     "id": "religion:410058374",
@@ -21729,7 +21729,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q65072495",
-    "description": "Homer mentions the temple of Apollo Smintheus as the shrine where Chryses was priest. The second-century B.C. remains of an Ionic sanctuary with an adjacent town are located in the southwestern Troad near modern G\u00fclpinar.",
+    "description": "Homer mentions the temple of Apollo Smintheus as the shrine where Chryses was priest. The second-century B.C. remains of an Ionic sanctuary with an adjacent town are located in the southwestern Troad near modern Gülpinar.",
     "props": { "religion": "roman" }
   },
   {
@@ -21780,7 +21780,7 @@
     "id": "religion:13850440",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Sobek temple, Qa\u015fr Q\u0101r\u016bn",
+    "name": "Sobek temple, Qaşr Qārūn",
     "lat": 29.4056,
     "lng": 30.4182,
     "startYear": -200,
@@ -21860,9 +21860,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q548190",
     "description": "An ancient place, cited: BAtlas 11 B3 Songeons",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q548190"
   },
   {
     "id": "religion:617582458",
@@ -22055,28 +22055,28 @@
     "id": "religion:138549",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "St-And\u00e9ol",
+    "name": "St-Andéol",
     "lat": 44.6539,
     "lng": 3.1045,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 14 I4 St-And\u00e9ol",
+    "description": "An ancient place, cited: BAtlas 14 I4 St-Andéol",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:109304",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "St-Andr\u00e9-sur-Cailly",
+    "name": "St-André-sur-Cailly",
     "lat": 49.5572,
     "lng": 1.2128,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 B3 St-Andr\u00e9-sur-Cailly",
+    "description": "An ancient place, cited: BAtlas 11 B3 St-André-sur-Cailly",
     "props": { "religion": "roman" }
   },
   {
@@ -22111,28 +22111,28 @@
     "id": "religion:246600",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "St-B\u00e9at",
+    "name": "St-Béat",
     "lat": 42.9143,
     "lng": 0.693,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 F3 St-B\u00e9at (1)",
+    "description": "An ancient place, cited: BAtlas 25 F3 St-Béat (1)",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:148182",
     "type": "religious-site",
     "subtype": "church",
-    "name": "St-Est\u00e8ve-de-M\u00e9nerbes",
+    "name": "St-Estève-de-Ménerbes",
     "lat": 43.8322,
     "lng": 5.2059,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 15 E2 St-Est\u00e8ve-de-M\u00e9nerbes",
+    "description": "An ancient place, cited: BAtlas 15 E2 St-Estève-de-Ménerbes",
     "props": { "religion": "roman" }
   },
   {
@@ -22197,14 +22197,14 @@
     "id": "religion:167900",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "St-Maurice-d\u2019Ibie",
+    "name": "St-Maurice-d’Ibie",
     "lat": 44.5012,
     "lng": 4.483,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 17 C5 St-Maurice-d\u2019Ibie",
+    "description": "An ancient place, cited: BAtlas 17 C5 St-Maurice-d’Ibie",
     "props": { "religion": "roman" }
   },
   {
@@ -22268,28 +22268,28 @@
     "id": "religion:285514",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Ste-Barbe-du-Tl\u00e9lat",
+    "name": "Ste-Barbe-du-Tlélat",
     "lat": 35.5489,
     "lng": -0.4472,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 29 E1 Ste-Barbe-du-Tl\u00e9lat",
+    "description": "An ancient place, cited: BAtlas 29 E1 Ste-Barbe-du-Tlélat",
     "props": { "religion": "roman" }
   },
   {
     "id": "religion:148180",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Ste-C\u00e9cile Paleochristian Church",
+    "name": "Ste-Cécile Paleochristian Church",
     "lat": 43.4482,
     "lng": 3.6161,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Remains of this paleochristian church, located at modern Loupian in H\u00e9rault, France, were discovered and excavated in the 1980s. The structure lies immediately north of the current church of Ste-C\u00e9cile, which dates to the 14th century.",
+    "description": "Remains of this paleochristian church, located at modern Loupian in Hérault, France, were discovered and excavated in the 1980s. The structure lies immediately north of the current church of Ste-Cécile, which dates to the 14th century.",
     "props": { "religion": "roman" }
   },
   {
@@ -22317,9 +22317,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q670580",
     "description": "An ancient place, cited: BAtlas 13 B4 Stixneusiedl",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q670580"
   },
   {
     "id": "religion:48056021",
@@ -22397,7 +22397,7 @@
     "id": "religion:794388243",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Synagogue at Ah\u0323madiah (Ah\u0323madiya, Ahmadiyye)",
+    "name": "Synagogue at Aḥmadiah (Aḥmadiya, Ahmadiyye)",
     "lat": 33,
     "lng": 35.7,
     "startYear": 50,
@@ -22440,7 +22440,7 @@
     "id": "religion:826976465",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Ta' \u0126a\u0121rat Temple Complex",
+    "name": "Ta' Ħaġrat Temple Complex",
     "lat": 35.9185,
     "lng": 14.3686,
     "startYear": 50,
@@ -22448,7 +22448,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q991637",
-    "description": "Ta' \u0126a\u0121rat is a megalithic temple complex on the island of Malta (ca. 3600-3000 B.C.), included in the UNESCO World Heritage List.",
+    "description": "Ta' Ħaġrat is a megalithic temple complex on the island of Malta (ca. 3600-3000 B.C.), included in the UNESCO World Heritage List.",
     "props": { "religion": "roman" }
   },
   {
@@ -22571,7 +22571,7 @@
     "id": "religion:17634131",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Tall B\u0101zy",
+    "name": "Tall Bāzy",
     "lat": 36.427,
     "lng": 38.2759,
     "startYear": 50,
@@ -22671,7 +22671,7 @@
     "id": "religion:601235773",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Tas-Sil\u0121",
+    "name": "Tas-Silġ",
     "lat": 35.844,
     "lng": 14.5536,
     "startYear": -600,
@@ -22838,9 +22838,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q117231",
     "description": "A Gallo-Roman temple complex dated to the 1st-4th centuries CE.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q117231"
   },
   {
     "id": "religion:717610741",
@@ -22985,7 +22985,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q57559213",
-    "description": "The temple of Aphrodite Euploia is a tholos constructed in the fourth century BC in Knidos, a coastal city on the Dat\u00e7a Peninsula. It was built to house Praxiteles' famous nude statue of Aphrodite.",
+    "description": "The temple of Aphrodite Euploia is a tholos constructed in the fourth century BC in Knidos, a coastal city on the Datça Peninsula. It was built to house Praxiteles' famous nude statue of Aphrodite.",
     "props": { "religion": "roman" }
   },
   {
@@ -23678,8 +23678,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Bronze Age temple dedicated to the weather god Hadad in the citadel of Halab (modern Aleppo). ",
-    "props": { "religion": "roman" },
-    "qid": "Q7509799"
+    "props": { "religion": "roman" }
   },
   {
     "id": "religion:581528584",
@@ -23831,14 +23830,14 @@
     "id": "religion:109374",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Thalfang-B\u00e4sch",
+    "name": "Thalfang-Bäsch",
     "lat": 49.7542,
     "lng": 6.9966,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 G3 Thalfang-B\u00e4sch",
+    "description": "An ancient place, cited: BAtlas 11 G3 Thalfang-Bäsch",
     "props": { "religion": "roman" }
   },
   {
@@ -24334,14 +24333,14 @@
     "id": "religion:658629",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Tura d\u2019 Urhay",
+    "name": "Tura d’ Urhay",
     "lat": 37.133,
     "lng": 38.7671,
     "startYear": 400,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 67 H2 Tura d\u2019 Urhay",
+    "description": "An ancient place, cited: BAtlas 67 H2 Tura d’ Urhay",
     "props": { "religion": "roman" }
   },
   {
@@ -24384,7 +24383,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The site of an unnamed Gallo-Roman temple is situated in Th\u00e9s\u00e9e, Arrondissement of Romorantin-Lanthenay, Centre-Val de Loire, France. This temple site is located close to the ruins at B\u00e2timents des potiers de Pouill\u00e9.",
+    "description": "The site of an unnamed Gallo-Roman temple is situated in Thésée, Arrondissement of Romorantin-Lanthenay, Centre-Val de Loire, France. This temple site is located close to the ruins at Bâtiments des potiers de Pouillé.",
     "props": { "religion": "roman" }
   },
   {
@@ -24398,7 +24397,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A monastery founded in late antiquity on the island then known as Lerina/Planasia (modern \u00cele Saint-Honorat, France; BAtlas 16 D2 unnamed monastery)",
+    "description": "A monastery founded in late antiquity on the island then known as Lerina/Planasia (modern Île Saint-Honorat, France; BAtlas 16 D2 unnamed monastery)",
     "props": { "religion": "roman" }
   },
   {
@@ -24741,7 +24740,7 @@
     "id": "religion:208942796",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Church W of Henchir Guess\u00e8s",
+    "name": "Church W of Henchir Guessès",
     "lat": 35.5654,
     "lng": 6.7391,
     "startYear": 50,
@@ -24825,7 +24824,7 @@
     "id": "religion:208942823",
     "type": "religious-site",
     "subtype": "church",
-    "name": "Church E of Henchir Guess\u00e8s",
+    "name": "Church E of Henchir Guessès",
     "lat": 35.6061,
     "lng": 6.8558,
     "startYear": 50,
@@ -24995,7 +24994,7 @@
     "id": "religion:167955",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Varces-Alli\u00e8res-et-Risset",
+    "name": "Varces-Allières-et-Risset",
     "lat": 45.0881,
     "lng": 5.6795,
     "startYear": 50,
@@ -25003,7 +25002,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1339596",
-    "description": "An ancient place, cited: BAtlas 17 F3 Varces-Alli\u00e8res-et-Risset",
+    "description": "An ancient place, cited: BAtlas 17 F3 Varces-Allières-et-Risset",
     "props": { "religion": "roman" }
   },
   {
@@ -25186,7 +25185,7 @@
     "id": "religion:177659",
     "type": "religious-site",
     "subtype": "sanctuary",
-    "name": "Villards-d\u2019Heria",
+    "name": "Villards-d’Heria",
     "lat": 46.4192,
     "lng": 5.7473,
     "startYear": 50,
@@ -25225,20 +25224,20 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 11 F4 Vittel",
     "props": { "religion": "roman" },
-    "qid": "Q453309"
+    "containedInQid": "Q453309"
   },
   {
     "id": "religion:491752",
     "type": "religious-site",
     "subtype": "temple",
-    "name": "Voj\u0161anci",
+    "name": "Vojšanci",
     "lat": 41.5021,
     "lng": 22.1673,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 50 B1 Voj\u0161anci",
+    "description": "An ancient place, cited: BAtlas 50 B1 Vojšanci",
     "props": { "religion": "roman" }
   },
   {
@@ -25466,7 +25465,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Destroyed Armenian monastery in the village of Bakra\u00e7l\u0131 where Urartian inscriptions have been found.",
+    "description": "Destroyed Armenian monastery in the village of Bakraçlı where Urartian inscriptions have been found.",
     "props": { "religion": "roman" }
   },
   {
@@ -25488,14 +25487,14 @@
     "id": "religion:685632757",
     "type": "religious-site",
     "subtype": "shrine",
-    "name": "Ye\u015filal\u0131\u00e7 rock niche inscription",
+    "name": "Yeşilalıç rock niche inscription",
     "lat": 38.4387,
     "lng": 44.0205,
     "startYear": 50,
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The modern village formerly known as A\u0161otakert and/or Aschrut-Darga is situated ca. 60 km to the east of Van at an altitude of 2600 m above the stream \u00c7ayba\u011f\u0131 which flows into the river Kotur in Iran. Here a rock niche with an inscription of the Urartian kings I\u0161puini (9th century BCE) and Minua (9th / 8th century BCE) was found. It reports the construction of a \"susi temple\" of the god \u1e2aaldi and the establishment of an offering ritual. In this case, the term \"susi temple\" apparently refers to the niche.",
+    "description": "The modern village formerly known as Ašotakert and/or Aschrut-Darga is situated ca. 60 km to the east of Van at an altitude of 2600 m above the stream Çaybağı which flows into the river Kotur in Iran. Here a rock niche with an inscription of the Urartian kings Išpuini (9th century BCE) and Minua (9th / 8th century BCE) was found. It reports the construction of a \"susi temple\" of the god Ḫaldi and the establishment of an offering ritual. In this case, the term \"susi temple\" apparently refers to the niche.",
     "props": { "religion": "roman" }
   },
   {
@@ -26118,7 +26117,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q53672919"
+    "containedInQid": "Q53672919"
   },
   {
     "id": "religious:pleiades-570127",
@@ -26414,7 +26413,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q2300267"
+    "containedInQid": "Q2300267"
   },
   {
     "id": "religious:pleiades-356557088",
@@ -26546,7 +26545,7 @@
     "lat": 39.78017,
     "lng": 45.39958,
     "source": "Pleiades",
-    "description": "Thanahat Church is a Christian church situated in a mountain village at the right shore of the Vorotan river near the village Arevis, 17 km west of Sissian in the Sjunik province in southern Armenia. In the ruins of the church, a stele of the Urartian king Argi\u0161ti II., son of Rusa (eighth century BCE) was found, which describes his success and conquest of the land Etiu\u1e2bi, resulting in the deportation of enemies and the establishment of a tribute (CTU 1 A 11-3).",
+    "description": "Thanahat Church is a Christian church situated in a mountain village at the right shore of the Vorotan river near the village Arevis, 17 km west of Sissian in the Sjunik province in southern Armenia. In the ruins of the church, a stele of the Urartian king Argišti II., son of Rusa (eighth century BCE) was found, which describes his success and conquest of the land Etiuḫi, resulting in the deportation of enemies and the establishment of a tribute (CTU 1 A 11-3).",
     "subtype": "church",
     "startYear": -500,
     "endYear": 500,
@@ -26565,7 +26564,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q754510"
+    "containedInQid": "Q754510"
   },
   {
     "id": "religious:pleiades-883684762",
@@ -26574,7 +26573,7 @@
     "lat": 41.88911,
     "lng": 12.47352,
     "source": "Pleiades",
-    "description": "San Crisogono (sacred to San Crisogono) is one of Rome's early parish churches (tituli). Pope Sylvester I (314\u2013335) likely builds the first iteration in the fourth century AD; later reworkings occur in the twelfth and seventeenth centuries, respectively.",
+    "description": "San Crisogono (sacred to San Crisogono) is one of Rome's early parish churches (tituli). Pope Sylvester I (314–335) likely builds the first iteration in the fourth century AD; later reworkings occur in the twelfth and seventeenth centuries, respectively.",
     "subtype": "church",
     "startYear": -500,
     "endYear": 500,

@@ -23,7 +23,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 7 C3 unnamed aqueduct (Vorgium)"
+    "description": "An ancient place, cited: BAtlas 7 C3 unnamed aqueduct (Vorgium)",
+    "qid": "Q3563116"
   },
   {
     "id": "building:148012",
@@ -63,7 +64,8 @@
     "endYear": -540,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Assyrian king Sennacherib had an aqueduct constructed between 703 and 690 B.C. near the ancient city of Girmua. The structure is part of the \"Khinnis [Canal] System.\" The identification of the structure's builder is confirmed by means of several inscriptions."
+    "description": "The Assyrian king Sennacherib had an aqueduct constructed between 703 and 690 B.C. near the ancient city of Girmua. The structure is part of the \"Khinnis [Canal] System.\" The identification of the structure's builder is confirmed by means of several inscriptions.",
+    "qid": "Q17064815"
   },
   {
     "id": "building:678272910",
@@ -104,7 +106,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 D2 unnamed aqueduct (Angitiae Lucus)",
-    "qid": "Q3839042"
+    "containedInQid": "Q3839042"
   },
   {
     "id": "building:325407",
@@ -117,7 +119,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 33 C2 unnamed aqueduct (at Cillium)"
+    "description": "An ancient place, cited: BAtlas 33 C2 unnamed aqueduct (at Cillium)",
+    "qid": "Q65297123"
   },
   {
     "id": "building:600227",
@@ -131,7 +134,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The longest and most recently-constructed Roman aqueduct in the province of Asia, measuring 36.5 km from its source in the hills south of Ephesus to the metropolis itself. The aqueduct was first commissioned by the emperor Hadrian in 122-126, and it portions of it remained in use into the medieval period. In modern times, it is known as the Değirmendere Aqueduct, after the nearby Kenchrios river (modern Değirmendere).",
-    "qid": "Q64699469"
+    "containedInQid": "Q64699469"
   },
   {
     "id": "building:305779",
@@ -183,7 +186,8 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 46 D2 unnamed aqueduct (Thurii/Copia)"
+    "description": "An ancient place, cited: BAtlas 46 D2 unnamed aqueduct (Thurii/Copia)",
+    "qid": "Q220583"
   },
   {
     "id": "building:345037",
@@ -210,7 +214,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 52 D2 unnamed aqueduct (“Aqueduct of Theodosius”, NNW Constantinopolis)",
-    "qid": "Q65089314"
+    "containedInQid": "Q65089314"
   },
   {
     "id": "building:246894",
@@ -224,7 +228,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 H4 unnamed aqueduct (Pineda de Mar, SW Blanda(e))",
-    "qid": "Q23993833"
+    "containedInQid": "Q23993833"
   },
   {
     "id": "building:914118846",
@@ -278,8 +282,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q1566744",
-    "description": "A plateau around a monumental Phrygian rock‐cut altar at the extensive fortified settlement and sanctuary complex of Yazılıkaya in Turkey. Associated with Agdistis in the 20th century because of Roman epigraphic finds there, more recent excavations have demonstrated that the sanctuary was in use from the 8th–7th century BCE to the Roman Period (1st-2nd century CE). Continuity of ritual practice in front of the rock-cut altar is demonstrated by rock-cut bows, a ritual preparation area with hearths, a rock-cut statue identifiable as the goddess Matar, and the Roman-era votive inscriptions."
+    "description": "A plateau around a monumental Phrygian rock‐cut altar at the extensive fortified settlement and sanctuary complex of Yazılıkaya in Turkey. Associated with Agdistis in the 20th century because of Roman epigraphic finds there, more recent excavations have demonstrated that the sanctuary was in use from the 8th–7th century BCE to the Roman Period (1st-2nd century CE). Continuity of ritual practice in front of the rock-cut altar is demonstrated by rock-cut bows, a ritual preparation area with hearths, a rock-cut statue identifiable as the goddess Matar, and the Roman-era votive inscriptions.",
+    "containedInQid": "Q1566744"
   },
   {
     "id": "building:499970655",
@@ -773,7 +777,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Arch of Septimius Severus at Lepcis Magna dates ca. A.D. 203."
+    "description": "The Arch of Septimius Severus at Lepcis Magna dates ca. A.D. 203.",
+    "qid": "Q105276404"
   },
   {
     "id": "building:471437511",
@@ -1038,7 +1043,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman milestone of the Via Appia located in Arpaia, Italy.",
-    "qid": "Q55850"
+    "containedInQid": "Q55850"
   },
   {
     "id": "building:34993620",
@@ -1092,7 +1097,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The citadel of the ancient city and location of its Capitolium.",
-    "qid": "Q546547"
+    "containedInQid": "Q546547"
   },
   {
     "id": "building:346004679",
@@ -1106,7 +1111,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A sanctuary of Asklepios above Zea harbour in Piraeus, founded in the late 5th century BC and active through the Imperial period. Sections of the sanctuary were explored archaeologically in the 1880s and 2000s.",
-    "qid": "Q75296641"
+    "containedInQid": "Q75296641"
   },
   {
     "id": "building:680335179",
@@ -1119,7 +1124,8 @@
     "endYear": -720,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Inscribed relief, dated to the reign of Tiglath-Pileser I, on a large block near the fortified site of Yağmur in the Tur 'Abdin."
+    "description": "Inscribed relief, dated to the reign of Tiglath-Pileser I, on a large block near the fortified site of Yağmur in the Tur 'Abdin.",
+    "qid": "Q3674102"
   },
   {
     "id": "building:588333103",
@@ -1419,7 +1425,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An irregular standing stone bearing a fragmentary Latin inscription, the Cat Stane is likely a Neolithic monument re-used for a burial of the fifth or sixth century AD."
+    "description": "An irregular standing stone bearing a fragmentary Latin inscription, the Cat Stane is likely a Neolithic monument re-used for a burial of the fifth or sixth century AD.",
+    "qid": "Q5051067"
   },
   {
     "id": "building:828895928",
@@ -1517,7 +1524,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A building that has been identified as the seat of a Collegium because of its internal structure and size, was previously known as the\"House of the Exedra\".",
-    "qid": "Q658893"
+    "containedInQid": "Q658893"
   },
   {
     "id": "building:527986452",
@@ -1640,7 +1647,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Neolithic cursus monument spanning some 10 km of Cranborne Chase in east Dorset, United Kingdom."
+    "description": "A Neolithic cursus monument spanning some 10 km of Cranborne Chase in east Dorset, United Kingdom.",
+    "qid": "Q5298848"
   },
   {
     "id": "building:499284131",
@@ -1654,7 +1662,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A megalithic stone circle monument, also known as the Druid's Altar, consisting of seventeen closely spaced stones with a diameter of 9.3 m. Thirteen stones survive today.",
-    "qid": "Q104300983"
+    "containedInQid": "Q104300983"
   },
   {
     "id": "building:563278254",
@@ -2210,7 +2218,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A rock-cut relief depicting the investiture of Ardashir I, ca. A.D. 226-242. This relief is the earliest Sasanian monument at Naqš-e Rustam."
+    "description": "A rock-cut relief depicting the investiture of Ardashir I, ca. A.D. 226-242. This relief is the earliest Sasanian monument at Naqš-e Rustam.",
+    "qid": "Q5723827"
   },
   {
     "id": "building:271357867",
@@ -2576,7 +2585,8 @@
     "endYear": -330,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A trophy monument erected by the Thebans following their defeat of the Spartans in 371 BC."
+    "description": "A trophy monument erected by the Thebans following their defeat of the Spartans in 371 BC.",
+    "qid": "Q461599"
   },
   {
     "id": "building:501495",
@@ -2971,8 +2981,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q207917",
-    "description": "A major sanctuary of Coammagene and site of the mausoleum of Antiochus I (69–34 B.C.). A UNESCO World Heritage Site located on modern Mount Nemrut in Turkey's Adıyaman province."
+    "description": "A major sanctuary of Coammagene and site of the mausoleum of Antiochus I (69–34 B.C.). A UNESCO World Heritage Site located on modern Mount Nemrut in Turkey's Adıyaman province.",
+    "containedInQid": "Q207917"
   },
   {
     "id": "building:79612",
@@ -3095,7 +3105,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Urartian rock inscription."
+    "description": "Urartian rock inscription.",
+    "qid": "Q3672191"
   },
   {
     "id": "building:81955205",
@@ -3148,7 +3159,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A building at the foot of the Acropolis at Rhodes that occupied an entire insula and contained luxurious reception rooms and a large bath suite"
+    "description": "A building at the foot of the Acropolis at Rhodes that occupied an entire insula and contained luxurious reception rooms and a large bath suite",
+    "qid": "Q13533316"
   },
   {
     "id": "building:311985510",
@@ -3506,7 +3518,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Terme Romane di Is Bangius",
-    "qid": "Q18449803"
+    "containedInQid": "Q18449803"
   },
   {
     "id": "building:136695106",
@@ -3561,7 +3573,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient megalithic structure located in the Israeli-occupied portion of the Golan Heights about 16 km (9.9 miles) east of the coast of the Sea of Galilee. Rujm el-Hiri consists of concentric stone circles with a tumulus at its center. The structure dates to the Early Bronze Age II period (ca. 3000–2700 BCE)."
+    "description": "An ancient megalithic structure located in the Israeli-occupied portion of the Golan Heights about 16 km (9.9 miles) east of the coast of the Sea of Galilee. Rujm el-Hiri consists of concentric stone circles with a tumulus at its center. The structure dates to the Early Bronze Age II period (ca. 3000–2700 BCE).",
+    "qid": "Q1914227"
   },
   {
     "id": "building:588459219",
@@ -3601,7 +3614,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A sanctuary possibly sacred to Artemis on the island of Lemnos."
+    "description": "A sanctuary possibly sacred to Artemis on the island of Lemnos.",
+    "qid": "Q38281170"
   },
   {
     "id": "building:278568881",
@@ -3627,7 +3641,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Sanctuary of Isis and Magna Mater at Roman Mogontiacum (modern Mainz, Germany) was active between the first century and the third century A.D."
+    "description": "The Sanctuary of Isis and Magna Mater at Roman Mogontiacum (modern Mainz, Germany) was active between the first century and the third century A.D.",
+    "qid": "Q879706"
   },
   {
     "id": "building:162490152",
@@ -3735,7 +3750,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 38 C1 Slonta"
+    "description": "An ancient place, cited: BAtlas 38 C1 Slonta",
+    "qid": "Q7541322"
   },
   {
     "id": "building:792912223",
@@ -3898,7 +3914,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman milestone for the twentieth mile from Aguntum was found at modern Strassen in Austria.",
-    "qid": "Q125694725"
+    "containedInQid": "Q125694725"
   },
   {
     "id": "building:159950110",
@@ -4019,7 +4035,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The so-called \"Tempio di Venere\" is likely part of a bathing complex dating to the reign of Hadrian. The surviving structure has an octagonal plan.",
-    "qid": "Q123158834"
+    "containedInQid": "Q123158834"
   },
   {
     "id": "building:540898685",
@@ -4322,7 +4338,8 @@
     "endYear": -550,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The small Aegean island of Tsimintiri, located between Despotiko and Antiparos, has produced archaeological evidence for a large sanctuary and/or other public complex of archaic date, likely to be associated with the extensive archaic sanctuary of Mandra, located on the island of Despotiko, to which Tsimintiri was connected in antiquity."
+    "description": "The small Aegean island of Tsimintiri, located between Despotiko and Antiparos, has produced archaeological evidence for a large sanctuary and/or other public complex of archaic date, likely to be associated with the extensive archaic sanctuary of Mandra, located on the island of Despotiko, to which Tsimintiri was connected in antiquity.",
+    "qid": "Q21693634"
   },
   {
     "id": "building:858265770",
@@ -4390,7 +4407,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 D4 unnamed unlabeled ((7 monuments, 1 cemetery, 2 walls))"
+    "description": "An ancient place, cited: BAtlas 32 D4 unnamed unlabeled ((7 monuments, 1 cemetery, 2 walls))",
+    "qid": "Q1892445"
   },
   {
     "id": "building:208942153",
@@ -4585,7 +4603,8 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))"
+    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))",
+    "qid": "Q1967945"
   },
   {
     "id": "building:208942218",
@@ -5210,7 +5229,8 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 F4 unnamed unlabeled ((6 monuments))"
+    "description": "An ancient place, cited: BAtlas 32 F4 unnamed unlabeled ((6 monuments))",
+    "qid": "Q2425630"
   },
   {
     "id": "building:208943244",
@@ -5593,8 +5613,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q5980279",
-    "description": "An ancient place, cited: BAtlas 68 B5 Yaat"
+    "description": "An ancient place, cited: BAtlas 68 B5 Yaat",
+    "containedInQid": "Q5980279"
   },
   {
     "id": "building:609570",
@@ -5607,8 +5627,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q1566744",
-    "description": "Yazılıkaya (also known as 'Midas City') is an archaeological site in Eskişehir Province, Turkey, known for its Phrygian rock-cut monuments, facades, altars, and niches dedicated to the Mother Goddess Matar."
+    "description": "Yazılıkaya (also known as 'Midas City') is an archaeological site in Eskişehir Province, Turkey, known for its Phrygian rock-cut monuments, facades, altars, and niches dedicated to the Mother Goddess Matar.",
+    "containedInQid": "Q1566744"
   },
   {
     "id": "building:708232007",
@@ -5875,7 +5895,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An historic Benedictine monastery located in the Province of Isernia, near the source of the river Volturno."
+    "description": "An historic Benedictine monastery located in the Province of Isernia, near the source of the river Volturno.",
+    "qid": "Q2425141"
   },
   {
     "id": "building:65661952",
@@ -5902,7 +5923,8 @@
     "endYear": 1453,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A ruined Medieval Cistercian abbey founded in 1190."
+    "description": "A ruined Medieval Cistercian abbey founded in 1190.",
+    "qid": "Q2077182"
   },
   {
     "id": "building:255953",
@@ -6034,7 +6056,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 72 E1 Ag. Trias"
+    "description": "An ancient place, cited: BAtlas 72 E1 Ag. Trias",
+    "qid": "Q25392001"
   },
   {
     "id": "building:857558608",
@@ -6126,8 +6149,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q474426",
-    "description": "The high altar of the present, Gothic-era Pfarrkirche (parish church) of modern Ampass (near Insbruck in Austria) was built over a series of earlier Christian churches, the earliest of which appears to date to the fifth century CE, based on excavated remains of a reliquary vault dating back to that period."
+    "description": "The high altar of the present, Gothic-era Pfarrkirche (parish church) of modern Ampass (near Insbruck in Austria) was built over a series of earlier Christian churches, the earliest of which appears to date to the fifth century CE, based on excavated remains of a reliquary vault dating back to that period.",
+    "containedInQid": "Q474426"
   },
   {
     "id": "building:266589967",
@@ -6390,7 +6413,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Badly damaged foundations of the peristyle of a large Doric temple of the 6th or early 5th c. BCE, the center of which is now occupied by the modern chapel of Profitis Ilias on a rise NE of ancient Kyreneia. This temple was probably destroyed during the earthquake of 373 BCE and replaced by a smaller temple to the west, built from its rubble. A monumental great altar has also been excavated immediately east of the temple."
+    "description": "Badly damaged foundations of the peristyle of a large Doric temple of the 6th or early 5th c. BCE, the center of which is now occupied by the modern chapel of Profitis Ilias on a rise NE of ancient Kyreneia. This temple was probably destroyed during the earthquake of 373 BCE and replaced by a smaller temple to the west, built from its rubble. A monumental great altar has also been excavated immediately east of the temple.",
+    "qid": "Q111086427"
   },
   {
     "id": "building:51062012",
@@ -6570,7 +6594,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a Roman Basilica at Aspendos.",
-    "qid": "Q633757"
+    "containedInQid": "Q633757"
   },
   {
     "id": "building:429758769",
@@ -6584,7 +6608,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Basilica at Saepinum is positioned at the intersection of the cardo and the decumanus.",
-    "qid": "Q1807870"
+    "containedInQid": "Q1807870"
   },
   {
     "id": "building:241704649",
@@ -6869,7 +6893,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The basilica of Iomnium (Tigzirt) likely dates to the fifth and sixth centuries CE."
+    "description": "The basilica of Iomnium (Tigzirt) likely dates to the fifth and sixth centuries CE.",
+    "qid": "Q113827285"
   },
   {
     "id": "building:660349527",
@@ -6896,7 +6921,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Basilica of Lucus Feroniae communicates with the forum and is linked to the apsidal space identified as the Augusteum."
+    "description": "The Basilica of Lucus Feroniae communicates with the forum and is linked to the apsidal space identified as the Augusteum.",
+    "qid": "Q3265994"
   },
   {
     "id": "building:34438602",
@@ -7449,7 +7475,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Byzantine church remains at Çatıören in Rough Cilicia"
+    "description": "Byzantine church remains at Çatıören in Rough Cilicia",
+    "qid": "Q15263913"
   },
   {
     "id": "building:900977729",
@@ -8153,7 +8180,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 77 D1 Deir Anba Pschoi/Deir Anba Bishai"
+    "description": "An ancient place, cited: BAtlas 77 D1 Deir Anba Pschoi/Deir Anba Bishai",
+    "qid": "Q1157646"
   },
   {
     "id": "building:746728",
@@ -8401,7 +8429,8 @@
     "endYear": 1453,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, located in modern Syria, with remains of a monastic chapel. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\""
+    "description": "An ancient place, located in modern Syria, with remains of a monastic chapel. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\"",
+    "qid": "Q66204350"
   },
   {
     "id": "building:470606136",
@@ -8483,7 +8512,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 F4 El Bovalar"
+    "description": "An ancient place, cited: BAtlas 25 F4 El Bovalar",
+    "qid": "Q8772854"
   },
   {
     "id": "building:746714",
@@ -8561,7 +8591,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The episcopal complex of Eio at El Tolmo de Minateda dates to the terminal sixth century CE and was in use during the following two centuries. Its construction may have been directed by Visigothic officials in Toletum."
+    "description": "The episcopal complex of Eio at El Tolmo de Minateda dates to the terminal sixth century CE and was in use during the following two centuries. Its construction may have been directed by Visigothic officials in Toletum.",
+    "qid": "Q9088095"
   },
   {
     "id": "building:756570",
@@ -8910,7 +8941,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Great Church of Hippo Regius is located in the Christian quarter of Hippo. The church is associated with Saint Augustine, who was bishop in Hippo from 395 until he died in 430 CE."
+    "description": "The Great Church of Hippo Regius is located in the Christian quarter of Hippo. The church is associated with Saint Augustine, who was bishop in Hippo from 395 until he died in 430 CE.",
+    "qid": "Q858024"
   },
   {
     "id": "building:307220778",
@@ -9339,7 +9371,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The oldest Christian church in the city of Geneva, the Temple de la Madeleine site has been in continuous use as a church since the 5th century. The current structure on the site dates to the 15th century."
+    "description": "The oldest Christian church in the city of Geneva, the Temple de la Madeleine site has been in continuous use as a church since the 5th century. The current structure on the site dates to the 15th century.",
+    "qid": "Q71"
   },
   {
     "id": "building:361097850",
@@ -9432,7 +9465,8 @@
     "endYear": 1099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Church dating to the 7th century CE in Nubia that was succeeded by St. Raphael Church II. The site is located in the modern Sudanese village of Banganarti."
+    "description": "Church dating to the 7th century CE in Nubia that was succeeded by St. Raphael Church II. The site is located in the modern Sudanese village of Banganarti.",
+    "qid": "Q806461"
   },
   {
     "id": "building:591471665",
@@ -9526,7 +9560,8 @@
     "endYear": 1453,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An Early Christian basilica and martyrium at Halmyris."
+    "description": "An Early Christian basilica and martyrium at Halmyris.",
+    "qid": "Q3437538"
   },
   {
     "id": "building:874577",
@@ -9671,7 +9706,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The 12th-century Eglise Saint-Vincent de Marimbault was built atop a probable Gallo-Roman villa.",
-    "qid": "Q1004209"
+    "containedInQid": "Q1004209"
   },
   {
     "id": "building:46120818",
@@ -9806,8 +9841,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q1943790",
-    "description": "An ancient place, cited: BAtlas 19 F3 Molzbichl"
+    "description": "An ancient place, cited: BAtlas 19 F3 Molzbichl",
+    "containedInQid": "Q1943790"
   },
   {
     "id": "building:251542598",
@@ -9943,7 +9978,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Site of a modern church and monastery atop Mount Nebo in modern Jordan on a site commemorated by earlier churches built on a site traditionally held to be the burial location of the prophet Moses. The first ancient church here is mentioned earliest in the itinerary of Egeria."
+    "description": "Site of a modern church and monastery atop Mount Nebo in modern Jordan on a site commemorated by earlier churches built on a site traditionally held to be the burial location of the prophet Moses. The first ancient church here is mentioned earliest in the itinerary of Egeria.",
+    "qid": "Q3861775"
   },
   {
     "id": "building:736975",
@@ -10036,8 +10072,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q690195",
-    "description": "An ancient place, cited: BAtlas 19 E3 Oberlienz"
+    "description": "An ancient place, cited: BAtlas 19 E3 Oberlienz",
+    "containedInQid": "Q690195"
   },
   {
     "id": "building:138502",
@@ -10076,7 +10112,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Modern name for ruins of a Byzantine church and surrounding rural settlement in eastern Rough Cilicia"
+    "description": "Modern name for ruins of a Byzantine church and surrounding rural settlement in eastern Rough Cilicia",
+    "qid": "Q84314689"
   },
   {
     "id": "building:101249988",
@@ -10186,7 +10223,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A paleochristian church located in Lin, Korçë County, Albania, with fourth- and fifth-century mosaics.",
-    "qid": "Q851060"
+    "containedInQid": "Q851060"
   },
   {
     "id": "building:236593",
@@ -10296,7 +10333,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Basilica di Santa Maria Assunta, Aquileia dates originally to the fourth century.",
-    "qid": "Q21093704"
+    "containedInQid": "Q21093704"
   },
   {
     "id": "building:187507",
@@ -10309,8 +10346,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q1590078",
-    "description": "An ancient place, cited: BAtlas 19 E3 Patriasdorf"
+    "description": "An ancient place, cited: BAtlas 19 E3 Patriasdorf",
+    "containedInQid": "Q1590078"
   },
   {
     "id": "building:216926",
@@ -10363,7 +10400,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 19 D2 Pfaffenhofen",
-    "qid": "Q667627"
+    "containedInQid": "Q667627"
   },
   {
     "id": "building:629055",
@@ -10526,7 +10563,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, located in modern Syria, with remains of an ancient basilica. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\"",
-    "qid": "Q984315"
+    "containedInQid": "Q984315"
   },
   {
     "id": "building:658578",
@@ -10805,8 +10842,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q666382",
-    "description": "An ancient place, cited: BAtlas 43 B1 S. Maria di Galeria"
+    "description": "An ancient place, cited: BAtlas 43 B1 S. Maria di Galeria",
+    "containedInQid": "Q666382"
   },
   {
     "id": "building:383782",
@@ -10900,8 +10937,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q1428446",
-    "description": "A convent founded within the area of the Villa Neronis."
+    "description": "A convent founded within the area of the Villa Neronis.",
+    "containedInQid": "Q1428446"
   },
   {
     "id": "building:423056",
@@ -11189,7 +11226,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An abbey with tenth century origins connected to the pilgrimage route known as the Via Francigena."
+    "description": "An abbey with tenth century origins connected to the pilgrimage route known as the Via Francigena.",
+    "qid": "Q3632779"
   },
   {
     "id": "building:352972521",
@@ -11298,7 +11336,8 @@
     "endYear": 1453,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A famous ancient sanctuary of Poseidon located at the southern end of the modern Mani peninsula of the Peloponnese. Literary and archaeological evidence indicate that the sanctuary featured a temple, a cave treated as a mouth of the underworld, and other structural and monumental components. It seems to have served as a sanctuary site for suppliants and a context for the formal manumission of enslaved persons."
+    "description": "A famous ancient sanctuary of Poseidon located at the southern end of the modern Mani peninsula of the Peloponnese. Literary and archaeological evidence indicate that the sanctuary featured a temple, a cave treated as a mouth of the underworld, and other structural and monumental components. It seems to have served as a sanctuary site for suppliants and a context for the formal manumission of enslaved persons.",
+    "qid": "Q33119266"
   },
   {
     "id": "building:648762",
@@ -11434,7 +11473,8 @@
     "endYear": 1453,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A vicus and villa of the Roman period that lay along a route connecting the Via Flaminia to the coast. Archaeological evidence for the production of ceramics and tiles has been identified. A Christian monastery is established in 1090."
+    "description": "A vicus and villa of the Roman period that lay along a route connecting the Via Flaminia to the coast. Archaeological evidence for the production of ceramics and tiles has been identified. A Christian monastery is established in 1090.",
+    "qid": "Q3949191"
   },
   {
     "id": "building:382995433",
@@ -11639,7 +11679,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a church belonging to the early Medieval period (perhaps the seventh century) that perhaps was a project of Pymenius, Bishop of Asidonia. This edifice is located on the hill that was the site of the oppidum referred to as Silla de Papa.",
-    "qid": "Q97688789"
+    "containedInQid": "Q97688789"
   },
   {
     "id": "building:191480805",
@@ -11718,7 +11758,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A three-aisled basilical church, with an external apse, situated near the centre of the ancient settlement of Apollonia (Cyrenaica), about half way between the East and West churches. The building has a narthex, a small western atrium and a range of added rooms along the north flank. The mosaics have been dated around the sixth century AD, but the building seems to have been built in earlier times (possibly fifth century AD)."
+    "description": "A three-aisled basilical church, with an external apse, situated near the centre of the ancient settlement of Apollonia (Cyrenaica), about half way between the East and West churches. The building has a narthex, a small western atrium and a range of added rooms along the north flank. The mosaics have been dated around the sixth century AD, but the building seems to have been built in earlier times (possibly fifth century AD).",
+    "qid": "Q45826"
   },
   {
     "id": "building:217728890",
@@ -11744,7 +11785,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Christian church located in the ancient city of Apollonia (Cyrenaica) built approximately in the fifth century A.D., probably on earlier Hellenistic foundations. The site was excavated in 1922 and shows a three-aisled nave with transept at the eastern end, and a single apse. Traces of the mosaic floor are still visible."
+    "description": "A Christian church located in the ancient city of Apollonia (Cyrenaica) built approximately in the fifth century A.D., probably on earlier Hellenistic foundations. The site was excavated in 1922 and shows a three-aisled nave with transept at the eastern end, and a single apse. Traces of the mosaic floor are still visible.",
+    "qid": "Q45826"
   },
   {
     "id": "building:876619727",
@@ -11878,8 +11920,8 @@
     "endYear": 1799,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q806461",
-    "description": "Mid-11th to mid-18th century church built on top of an older church that was an important pilgrimage site in Nubia. The church is located in the modern Sudanese village of Banganarti."
+    "description": "Mid-11th to mid-18th century church built on top of an older church that was an important pilgrimage site in Nubia. The church is located in the modern Sudanese village of Banganarti.",
+    "containedInQid": "Q806461"
   },
   {
     "id": "building:508370540",
@@ -12026,7 +12068,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Church in Geneva, Switzerland that has existed in some form since the 4th century CE. The 4th century building was followed by a 10th century Romanesque church which was destroyed by fire in the 14th century. The current church was constructed in the 15th century.",
-    "qid": "Q3462311"
+    "containedInQid": "Q3462311"
   },
   {
     "id": "building:599505",
@@ -12065,8 +12107,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q694309",
-    "description": "An ancient place, cited: BAtlas 19 D2 Thaur"
+    "description": "An ancient place, cited: BAtlas 19 D2 Thaur",
+    "containedInQid": "Q694309"
   },
   {
     "id": "building:678426",
@@ -12656,7 +12698,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The basilica of Cabeza del Griego at Segobriga dates to the fifth and sixth centuries CE."
+    "description": "The basilica of Cabeza del Griego at Segobriga dates to the fifth and sixth centuries CE.",
+    "qid": "Q127431227"
   },
   {
     "id": "building:344544",
@@ -12840,7 +12883,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 F1 Aquae *Arnemetiae",
-    "qid": "Q140175955"
+    "containedInQid": "Q140175955"
   },
   {
     "id": "building:422840",
@@ -12881,8 +12924,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q4011076",
-    "description": "An ancient place, cited: BAtlas 42 C4 Aquae Apollinares Novae"
+    "description": "An ancient place, cited: BAtlas 42 C4 Aquae Apollinares Novae",
+    "containedInQid": "Q4011076"
   },
   {
     "id": "building:314882",
@@ -12988,7 +13031,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Aquae Helveticae was a Roman vicus on the river Limmat."
+    "description": "Aquae Helveticae was a Roman vicus on the river Limmat.",
+    "qid": "Q622983"
   },
   {
     "id": "building:334492",
@@ -13093,8 +13137,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q622992",
-    "description": "An ancient Roman thermal spa and site of the Temple of Sulis Minerva."
+    "description": "An ancient Roman thermal spa and site of the Temple of Sulis Minerva.",
+    "containedInQid": "Q622992"
   },
   {
     "id": "building:413026",
@@ -13134,8 +13178,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q2110374",
-    "description": "An ancient place, cited: BAtlas 44 E3 Aquae Vescinae"
+    "description": "An ancient place, cited: BAtlas 44 E3 Aquae Vescinae",
+    "containedInQid": "Q2110374"
   },
   {
     "id": "building:314881",
@@ -13269,7 +13313,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Bar Hill Fort Bathhouse was built around 140 CE, at the same time as the Antonine wall, and is a long and narrow stone structure with latrines and two heated rooms."
+    "description": "The Bar Hill Fort Bathhouse was built around 140 CE, at the same time as the Antonine wall, and is a long and narrow stone structure with latrines and two heated rooms.",
+    "qid": "Q24656404"
   },
   {
     "id": "building:538561167",
@@ -13378,7 +13423,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Bath/gymnasium complex containing a palaestra and a synagogue that was developed in the 3rd century CE.",
-    "qid": "Q232615"
+    "containedInQid": "Q232615"
   },
   {
     "id": "building:210593355",
@@ -13391,7 +13436,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Public baths at Cremna."
+    "description": "Public baths at Cremna.",
+    "qid": "Q917259"
   },
   {
     "id": "building:907258688",
@@ -13446,7 +13492,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A public bath (thermae) of the Roman Imperial period."
+    "description": "A public bath (thermae) of the Roman Imperial period.",
+    "qid": "Q2129565"
   },
   {
     "id": "building:233060586",
@@ -13529,8 +13576,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q245080",
-    "description": "An ancient place, cited: BAtlas 14 I2 Bourbon-l’Archambault"
+    "description": "An ancient place, cited: BAtlas 14 I2 Bourbon-l’Archambault",
+    "containedInQid": "Q245080"
   },
   {
     "id": "building:177476",
@@ -13543,8 +13590,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q627061",
-    "description": "An ancient place, cited: BAtlas 18 C2 Bourbonne-les-Bains"
+    "description": "An ancient place, cited: BAtlas 18 C2 Bourbonne-les-Bains",
+    "containedInQid": "Q627061"
   },
   {
     "id": "building:206984",
@@ -13558,7 +13605,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 21 E5 Brestovačka Banja",
-    "qid": "Q31187122"
+    "containedInQid": "Q31187122"
   },
   {
     "id": "building:216741",
@@ -13571,8 +13618,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q2900394",
-    "description": "A Roman fort and associated structures at modern Stolniceni, Romania. An indigenous settlement was likely located a few kilometers to the north."
+    "description": "A Roman fort and associated structures at modern Stolniceni, Romania. An indigenous settlement was likely located a few kilometers to the north.",
+    "containedInQid": "Q2900394"
   },
   {
     "id": "building:207002",
@@ -13585,8 +13632,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q655818",
-    "description": "An ancient place, cited: BAtlas 21 D4 Buziaş"
+    "description": "An ancient place, cited: BAtlas 21 D4 Buziaş",
+    "containedInQid": "Q655818"
   },
   {
     "id": "building:193679552",
@@ -13627,7 +13674,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Roman baths dating from the first to fourth centuries."
+    "description": "Roman baths dating from the first to fourth centuries.",
+    "qid": "Q6142693"
   },
   {
     "id": "building:636823769",
@@ -13845,7 +13893,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The largest of the public bath complexes at Aphrodisias dating to the early second century CE."
+    "description": "The largest of the public bath complexes at Aphrodisias dating to the early second century CE.",
+    "qid": "Q131738906"
   },
   {
     "id": "building:305079",
@@ -13898,7 +13947,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A circular public bath building dating to the Hellenistic period in the agora of Amathous."
+    "description": "A circular public bath building dating to the Hellenistic period in the agora of Amathous.",
+    "qid": "Q22991901"
   },
   {
     "id": "building:471948",
@@ -13992,8 +14042,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q845338",
-    "description": "An ancient place, cited: BAtlas 17 G2 Menthon-St-Bernard"
+    "description": "An ancient place, cited: BAtlas 17 G2 Menthon-St-Bernard",
+    "containedInQid": "Q845338"
   },
   {
     "id": "building:263044964",
@@ -14007,7 +14057,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "One of two Roman Bath Houses known at Vindolanda.",
-    "qid": "Q1233131"
+    "containedInQid": "Q1233131"
   },
   {
     "id": "building:217660370",
@@ -14049,7 +14099,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Public Bath at Pella is a bathing complex constructed and continuously renovated between the 4th and the 1st centuries BCE.",
-    "qid": "Q32154585"
+    "containedInQid": "Q32154585"
   },
   {
     "id": "building:261350657",
@@ -14063,7 +14113,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The public baths at Saepinum are located along the decumanus and date to the first and second centuries.",
-    "qid": "Q1807870"
+    "containedInQid": "Q1807870"
   },
   {
     "id": "building:304814760",
@@ -14091,7 +14141,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Roman baths at Ribchester dating ca. 100 CE.",
-    "qid": "Q1083066"
+    "containedInQid": "Q1083066"
   },
   {
     "id": "building:386745968",
@@ -14133,7 +14183,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman bath at Lugdunum Convenarum is part of the second urban nucleus found at the foot of the Fourvière hill.",
-    "qid": "Q1876013"
+    "containedInQid": "Q1876013"
   },
   {
     "id": "building:53735136",
@@ -14160,7 +14210,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a Roman bath house were discovered in Callendar Park, Falkirk in 1980.",
-    "qid": "Q623687"
+    "containedInQid": "Q623687"
   },
   {
     "id": "building:337037056",
@@ -14283,7 +14333,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman baths at Gaujac were begun ca. A.D. 20."
+    "description": "The Roman baths at Gaujac were begun ca. A.D. 20.",
+    "qid": "Q3523866"
   },
   {
     "id": "building:652509965",
@@ -14310,7 +14361,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman baths at Oescus are dated to the middle of the third century."
+    "description": "The Roman baths at Oescus are dated to the middle of the third century.",
+    "qid": "Q1110806"
   },
   {
     "id": "building:89361977",
@@ -14323,7 +14375,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman baths at Sagalassos date to the early part of the first century A.D."
+    "description": "The Roman baths at Sagalassos date to the early part of the first century A.D.",
+    "qid": "Q279191"
   },
   {
     "id": "building:428016814",
@@ -14364,7 +14417,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of baths at the Gallo-Roman site of Vertillum.",
-    "qid": "Q7922962"
+    "containedInQid": "Q7922962"
   },
   {
     "id": "building:876596457",
@@ -14433,7 +14486,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman baths of Ebora were in use during the second and third centuries. The archaeological site was discovered in 1987."
+    "description": "The Roman baths of Ebora were in use during the second and third centuries. The archaeological site was discovered in 1987.",
+    "qid": "Q127430160"
   },
   {
     "id": "building:937547559",
@@ -14447,7 +14501,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman baths of Taormina are built atop a public building of the Hellenistic period. The Roman baths originally fronted on the forum and were expanded in the second century.",
-    "qid": "Q33720571"
+    "containedInQid": "Q33720571"
   },
   {
     "id": "building:235931632",
@@ -14460,7 +14514,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Baths of the early imperial period at Carsulae."
+    "description": "Baths of the early imperial period at Carsulae.",
+    "qid": "Q519033"
   },
   {
     "id": "building:398596831",
@@ -14541,7 +14596,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bath complex that was reused first as a monastic complex and then as the Medieval church of San Basilio.",
-    "qid": "Q284814"
+    "containedInQid": "Q284814"
   },
   {
     "id": "building:957926371",
@@ -14569,7 +14624,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A sacred Etruscan thermal site.",
-    "qid": "Q18490547"
+    "containedInQid": "Q18490547"
   },
   {
     "id": "building:644273898",
@@ -14596,7 +14651,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A second to fourth century A.D. Romano-British bathhouse that was excavated in 2002. Findspot of RIB 3012.",
-    "qid": "Q122584"
+    "containedInQid": "Q122584"
   },
   {
     "id": "building:315173",
@@ -14622,7 +14677,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An architectural complex near the sea in Apollonia. It went through different stages and alterations between, roughly, the fourth century B.C. and the seventh century A.D. It was probably used as a private villa, then as public baths and, perhaps, as cisterns in later years."
+    "description": "An architectural complex near the sea in Apollonia. It went through different stages and alterations between, roughly, the fourth century B.C. and the seventh century A.D. It was probably used as a private villa, then as public baths and, perhaps, as cisterns in later years.",
+    "qid": "Q45826"
   },
   {
     "id": "building:207457",
@@ -14636,7 +14692,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 21 D6 Sokobanja",
-    "qid": "Q20435246"
+    "containedInQid": "Q20435246"
   },
   {
     "id": "building:582358863",
@@ -14704,7 +14760,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "One of the 19 Roman bath complexes identified in Mérida."
+    "description": "One of the 19 Roman bath complexes identified in Mérida.",
+    "qid": "Q98825233"
   },
   {
     "id": "building:168208661",
@@ -14841,7 +14898,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The excavations carried out following the earthquake of 1908 revealed a number of baths dating to the early centuries of the Roman Imperial period."
+    "description": "The excavations carried out following the earthquake of 1908 revealed a number of baths dating to the early centuries of the Roman Imperial period.",
+    "qid": "Q56258890"
   },
   {
     "id": "building:822068562",
@@ -14937,7 +14995,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The northern bath complex of Hippo Regius."
+    "description": "The northern bath complex of Hippo Regius.",
+    "qid": "Q858024"
   },
   {
     "id": "building:462514",
@@ -15019,7 +15078,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Gallo-Roman bath complex at Pithiviers-le-Vieil.",
-    "qid": "Q123240577"
+    "containedInQid": "Q123240577"
   },
   {
     "id": "building:425092509",
@@ -15047,7 +15106,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A bath complex associated with the first-century fort at Tomen y Mur.",
-    "qid": "Q12071213"
+    "containedInQid": "Q12071213"
   },
   {
     "id": "building:109007",
@@ -15126,7 +15185,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Vieil-Évreux Roman Baths of the second and third centuries A.D. have four architectural phases that have been identified."
+    "description": "The Vieil-Évreux Roman Baths of the second and third centuries A.D. have four architectural phases that have been identified.",
+    "qid": "Q3523868"
   },
   {
     "id": "building:181167413",
@@ -15180,7 +15240,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient bridge on the Afrin river."
+    "description": "An ancient bridge on the Afrin river.",
+    "qid": "Q68227633"
   },
   {
     "id": "building:120058",
@@ -15351,7 +15412,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge located on the Via Appia at modern Tor Tre Ponti."
+    "description": "A Roman bridge located on the Via Appia at modern Tor Tre Ponti.",
+    "qid": "Q18453921"
   },
   {
     "id": "building:237841",
@@ -15392,7 +15454,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Remains of a bridge located near Aperlae.",
-    "qid": "Q618234"
+    "containedInQid": "Q618234"
   },
   {
     "id": "building:215721934",
@@ -15771,7 +15833,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The area of the Roman Circus at Segobriga had been occupied in the earlier Roman period (at least since the Augustan period) by a cremation necropolis."
+    "description": "The area of the Roman Circus at Segobriga had been occupied in the earlier Roman period (at least since the Augustan period) by a cremation necropolis.",
+    "qid": "Q127431227"
   },
   {
     "id": "building:158081395",
@@ -15993,7 +16056,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The agora of ancient Kibyra."
+    "description": "The agora of ancient Kibyra.",
+    "qid": "Q1643467"
   },
   {
     "id": "building:891801761",
@@ -16007,7 +16071,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The so-called \"agora\" is a large open courtyard to the northwest of the Middle Minoan palace at Malia.",
-    "qid": "Q1887316"
+    "containedInQid": "Q1887316"
   },
   {
     "id": "building:807514119",
@@ -16258,7 +16322,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Forum of Carsulae is supported by terraces and it includes the basilica and a twin sanctuary, in addition to tabernae.",
-    "qid": "Q28978088"
+    "containedInQid": "Q28978088"
   },
   {
     "id": "building:476697166",
@@ -16299,7 +16363,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Forum of Hippo Regius is one of the largest known Roman fora in north Africa."
+    "description": "The Forum of Hippo Regius is one of the largest known Roman fora in north Africa.",
+    "qid": "Q858024"
   },
   {
     "id": "building:62047881",
@@ -16326,7 +16391,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of the ancient forum at modern Jublains.",
-    "qid": "Q3485392"
+    "containedInQid": "Q3485392"
   },
   {
     "id": "building:329343086",
@@ -16340,7 +16405,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "One of two fora at Mactaris. This earlier square is adjacent to the Arch of Trajan.",
-    "qid": "Q3485394"
+    "containedInQid": "Q3485394"
   },
   {
     "id": "building:984830239",
@@ -16395,7 +16460,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Forum of Saepinum assumes a trapezoidal shape and is aligned with the decumanus.",
-    "qid": "Q1807870"
+    "containedInQid": "Q1807870"
   },
   {
     "id": "building:698029509",
@@ -16422,7 +16487,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Forum of Septimius Severus at Lepcis Magna",
-    "qid": "Q3621792"
+    "containedInQid": "Q3621792"
   },
   {
     "id": "building:945740227",
@@ -16450,7 +16515,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The forum of the ancient town, dating to the Roman period.",
-    "qid": "Q3364856"
+    "containedInQid": "Q3364856"
   },
   {
     "id": "building:250091860",
@@ -16546,7 +16611,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman forum of Tergeste.",
-    "qid": "Q11951603"
+    "containedInQid": "Q11951603"
   },
   {
     "id": "building:975871574",
@@ -16601,7 +16666,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The forum of Luna, founded as a colony in 177 B.C."
+    "description": "The forum of Luna, founded as a colony in 177 B.C.",
+    "qid": "Q579763"
   },
   {
     "id": "building:791853466",
@@ -16968,7 +17034,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 C3 Abercyfor"
+    "description": "An ancient place, cited: BAtlas 8 C3 Abercyfor",
+    "qid": "Q139765796"
   },
   {
     "id": "building:255948",
@@ -16981,7 +17048,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 B4 Abicada"
+    "description": "An ancient place, cited: BAtlas 26 B4 Abicada",
+    "qid": "Q39713720"
   },
   {
     "id": "building:723135882",
@@ -17007,7 +17075,8 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Hellenistic palace at the city of Jebel Khalid on the west bank of the Euphrates."
+    "description": "Hellenistic palace at the city of Jebel Khalid on the west bank of the Euphrates.",
+    "qid": "Q31207431"
   },
   {
     "id": "building:311078",
@@ -17229,7 +17298,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a villa rustica near Orbetello, found to have construction in opus latericium.",
-    "qid": "Q2439920"
+    "containedInQid": "Q2439920"
   },
   {
     "id": "building:462089",
@@ -17294,7 +17363,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman winged-corridor villa was discovered in a field adjacent to Alresford Lodge in 1884. Excavations were conducted under H. Laver in 1885."
+    "description": "A Roman winged-corridor villa was discovered in a field adjacent to Alresford Lodge in 1884. Excavations were conducted under H. Laver in 1885.",
+    "qid": "Q26405163"
   },
   {
     "id": "building:236325",
@@ -17411,7 +17481,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 47 G3 Annunziata di Mascali"
+    "description": "An ancient place, cited: BAtlas 47 G3 Annunziata di Mascali",
+    "qid": "Q478378"
   },
   {
     "id": "building:774842748",
@@ -17651,7 +17722,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Gallo-Roman villa explored via excavation in 1956. The site was destroyed by fire. Coins of Gordian III provided a terminus post quem.",
-    "qid": "Q326687"
+    "containedInQid": "Q326687"
   },
   {
     "id": "building:265819",
@@ -19172,7 +19243,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed Gallo-Roman villa at modern Brachaud in France (BAtlas 14 G3 no. 76)."
+    "description": "An unnamed Gallo-Roman villa at modern Brachaud in France (BAtlas 14 G3 no. 76).",
+    "qid": "Q22951584"
   },
   {
     "id": "building:256030",
@@ -19186,7 +19258,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 D3 Brovales",
-    "qid": "Q5734325"
+    "containedInQid": "Q5734325"
   },
   {
     "id": "building:628945",
@@ -19395,7 +19467,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The ruins of a Roman villa of the ager Falernus were discovered at Cancello e Arnone during work on a green energy facility."
+    "description": "The ruins of a Roman villa of the ager Falernus were discovered at Cancello e Arnone during work on a green energy facility.",
+    "qid": "Q58463"
   },
   {
     "id": "building:462129",
@@ -19474,7 +19547,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 G1 Car Colston",
-    "qid": "Q5037215"
+    "containedInQid": "Q5037215"
   },
   {
     "id": "building:265844",
@@ -19566,7 +19639,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A villa located at the eighth mile of the ancient Via Latina. The villa was first built in the first century B.C. and continued in use until the fourth century. During its life span there were several phases of architectural modification and expansion.",
-    "qid": "Q3862925"
+    "containedInQid": "Q3862925"
   },
   {
     "id": "building:422875",
@@ -19618,7 +19691,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Ashby describes a rich archaeological landscape that once included the remains of Roman-period tombs and villas, the latter appointed with mosaics. The modern toponym \"Case Rosse\" is said to derive from a well-preserved Roman tomb executed in brick that was purposefully destroyed in 1824."
+    "description": "Ashby describes a rich archaeological landscape that once included the remains of Roman-period tombs and villas, the latter appointed with mosaics. The modern toponym \"Case Rosse\" is said to derive from a well-preserved Roman tomb executed in brick that was purposefully destroyed in 1824.",
+    "qid": "Q3661634"
   },
   {
     "id": "building:236410",
@@ -19920,7 +19994,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 E3 Chew Park"
+    "description": "An ancient place, cited: BAtlas 8 E3 Chew Park",
+    "qid": "Q139831595"
   },
   {
     "id": "building:140505",
@@ -20037,7 +20112,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 G1 Claxby"
+    "description": "An ancient place, cited: BAtlas 8 G1 Claxby",
+    "qid": "Q5129790"
   },
   {
     "id": "building:166695363",
@@ -20141,8 +20217,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q2530698",
-    "description": "An ancient place, cited: BAtlas 8 E3 Colerne"
+    "description": "An ancient place, cited: BAtlas 8 E3 Colerne",
+    "containedInQid": "Q2530698"
   },
   {
     "id": "building:706597507",
@@ -20709,7 +20785,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "West corner of the museum built on the site of a Roman Villa. Time periods following the Barrington Atlas (BAtlas 47 inset Melita)."
+    "description": "West corner of the museum built on the site of a Roman Villa. Time periods following the Barrington Atlas (BAtlas 47 inset Melita).",
+    "qid": "Q5291392"
   },
   {
     "id": "building:742571972",
@@ -20762,7 +20839,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 F4 Downton"
+    "description": "An ancient place, cited: BAtlas 8 F4 Downton",
+    "qid": "Q2110657"
   },
   {
     "id": "building:423894082",
@@ -21012,7 +21090,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 37 B1 el-Faschia"
+    "description": "An ancient place, cited: BAtlas 37 B1 el-Faschia",
+    "qid": "Q106134675"
   },
   {
     "id": "building:363989",
@@ -21038,7 +21117,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An extensive villa site of Roman imperial date, excavated in the late 19th and early 20th centuries. Located in the current \"Trelai Park\", Ely Village, Cardiff, Wales."
+    "description": "An extensive villa site of Roman imperial date, excavated in the late 19th and early 20th centuries. Located in the current \"Trelai Park\", Ely Village, Cardiff, Wales.",
+    "qid": "Q122218712"
   },
   {
     "id": "building:79452",
@@ -21077,7 +21157,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The site of a Roman villa that was excavated in 1937."
+    "description": "The site of a Roman villa that was excavated in 1937.",
+    "qid": "Q2525685"
   },
   {
     "id": "building:364009",
@@ -21103,7 +21184,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 37 B1 es-Semat"
+    "description": "An ancient place, cited: BAtlas 37 B1 es-Semat",
+    "qid": "Q106154102"
   },
   {
     "id": "building:364015",
@@ -21116,7 +21198,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 37 B1 es-Snemat"
+    "description": "An ancient place, cited: BAtlas 37 B1 es-Snemat",
+    "qid": "Q106154262"
   },
   {
     "id": "building:167757",
@@ -21288,7 +21371,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 B4 Ferragudo",
-    "qid": "Q134547515"
+    "containedInQid": "Q134547515"
   },
   {
     "id": "building:246390",
@@ -21380,7 +21463,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "At Forte Tiburtina the remains of a Roman villa located on the northern edge of the Parco della Serenissima in the eastern suburbium of the city of Rome."
+    "description": "At Forte Tiburtina the remains of a Roman villa located on the northern edge of the Parco della Serenissima in the eastern suburbium of the city of Rome.",
+    "qid": "Q3748649"
   },
   {
     "id": "building:422928",
@@ -21826,7 +21910,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 35 G3 Gasr Leb'r"
+    "description": "An ancient place, cited: BAtlas 35 G3 Gasr Leb'r",
+    "qid": "Q106181430"
   },
   {
     "id": "building:375244",
@@ -21891,7 +21976,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 38 B1 Gasr Zagret"
+    "description": "An ancient place, cited: BAtlas 38 B1 Gasr Zagret",
+    "qid": "Q106417682"
   },
   {
     "id": "building:442597",
@@ -22048,7 +22134,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 35 F2 Graret D'nar Salem"
+    "description": "An ancient place, cited: BAtlas 35 F2 Graret D'nar Salem",
+    "qid": "Q106181707"
   },
   {
     "id": "building:79491",
@@ -22129,7 +22216,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 G2 Guilden Morden",
-    "qid": "Q1987694"
+    "containedInQid": "Q1987694"
   },
   {
     "id": "building:109023",
@@ -22273,7 +22360,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 G2 Helpston",
-    "qid": "Q2686792"
+    "containedInQid": "Q2686792"
   },
   {
     "id": "building:79506",
@@ -22585,7 +22672,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 D4 Holcombe"
+    "description": "An ancient place, cited: BAtlas 8 D4 Holcombe",
+    "qid": "Q26390538"
   },
   {
     "id": "building:89200",
@@ -22624,7 +22712,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Roman villa at Nea Paphos on Cyprus containing extensive mosaic floors."
+    "description": "Roman villa at Nea Paphos on Cyprus containing extensive mosaic floors.",
+    "qid": "Q64433741"
   },
   {
     "id": "building:224658205",
@@ -22638,7 +22727,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "House of the Triclinium is located in the area southeast of the House of Hylas.",
-    "qid": "Q658893"
+    "containedInQid": "Q658893"
   },
   {
     "id": "building:256214",
@@ -22964,7 +23053,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 G1 Kirmond-le-Mire"
+    "description": "An ancient place, cited: BAtlas 8 G1 Kirmond-le-Mire",
+    "qid": "Q17645931"
   },
   {
     "id": "building:707545",
@@ -23056,7 +23146,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 F4 La Bobadilla",
-    "qid": "Q2907895"
+    "containedInQid": "Q2907895"
   },
   {
     "id": "building:140509",
@@ -23239,7 +23329,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 16 C2 La Trinité",
-    "qid": "Q22916379"
+    "containedInQid": "Q22916379"
   },
   {
     "id": "building:266091",
@@ -23292,7 +23382,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 C2 Laghetto di Colonna",
-    "qid": "Q242558"
+    "containedInQid": "Q242558"
   },
   {
     "id": "building:442628",
@@ -23527,7 +23617,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 E4 Lenthay"
+    "description": "An ancient place, cited: BAtlas 8 E4 Lenthay",
+    "qid": "Q139882671"
   },
   {
     "id": "building:246465",
@@ -23672,7 +23763,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 G2 Litlington",
-    "qid": "Q2458189"
+    "containedInQid": "Q2458189"
   },
   {
     "id": "building:950859523",
@@ -23686,7 +23777,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The site of a Roman villa that was partially excavated in 1939 and then again from 1951 to 1978. The site was occupied from ca. A.D. 60 until the fourth century.",
-    "qid": "Q672771"
+    "containedInQid": "Q672771"
   },
   {
     "id": "building:79570",
@@ -23713,7 +23804,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Remains of a third to fourth century A.D. Roman villa located adjacent to an indigenous settlement identified via cropmarks."
+    "description": "Remains of a third to fourth century A.D. Roman villa located adjacent to an indigenous settlement identified via cropmarks.",
+    "qid": "Q6665674"
   },
   {
     "id": "building:978717380",
@@ -23819,7 +23911,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D2 Los Barruecos"
+    "description": "An ancient place, cited: BAtlas 26 D2 Los Barruecos",
+    "qid": "Q9023897"
   },
   {
     "id": "building:236615",
@@ -23846,7 +23939,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 141 (Loupiac)",
-    "qid": "Q327368"
+    "containedInQid": "Q327368"
   },
   {
     "id": "building:138428",
@@ -23964,7 +24057,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 F3 Maddle Farm"
+    "description": "An ancient place, cited: BAtlas 8 F3 Maddle Farm",
+    "qid": "Q17641756"
   },
   {
     "id": "building:363991",
@@ -24083,7 +24177,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 47 E4 Manfria",
-    "qid": "Q55401301"
+    "containedInQid": "Q55401301"
   },
   {
     "id": "building:724216016",
@@ -24201,7 +24295,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 47 F4 Margi di Giarratana",
-    "qid": "Q30026080"
+    "containedInQid": "Q30026080"
   },
   {
     "id": "building:23214007",
@@ -24280,7 +24374,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The site of a Roman imperial-period villa in the modern Italian comune of Massaciuccoli Romana."
+    "description": "The site of a Roman imperial-period villa in the modern Italian comune of Massaciuccoli Romana.",
+    "qid": "Q18488799"
   },
   {
     "id": "building:778691701",
@@ -24293,7 +24388,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The site of a Roman imperial-period villa in the modern Italian comune of Massaciuccoli Romana."
+    "description": "The site of a Roman imperial-period villa in the modern Italian comune of Massaciuccoli Romana.",
+    "qid": "Q18488799"
   },
   {
     "id": "building:791200251",
@@ -24359,7 +24455,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 G2 Matrice",
-    "qid": "Q277684"
+    "containedInQid": "Q277684"
   },
   {
     "id": "building:246494",
@@ -24450,7 +24546,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 28 B5 Merja Touila"
+    "description": "An ancient place, cited: BAtlas 28 B5 Merja Touila",
+    "qid": "Q33176036"
   },
   {
     "id": "building:275680",
@@ -24555,7 +24652,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Renaissance villa (Villa Mondragone) was built atop the platform of a Roman villa dating to the first century B.C."
+    "description": "A Renaissance villa (Villa Mondragone) was built atop the platform of a Roman villa dating to the first century B.C.",
+    "qid": "Q1241849"
   },
   {
     "id": "building:256304",
@@ -24594,8 +24692,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q1076685",
-    "description": "An ancient place, cited: BAtlas 14 F4 no. 117 (Montcaret)"
+    "description": "An ancient place, cited: BAtlas 14 F4 no. 117 (Montcaret)",
+    "containedInQid": "Q1076685"
   },
   {
     "id": "building:256305",
@@ -24829,8 +24927,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q9049005",
-    "description": "A Roman villa with mosaic pavements dating from the first to the fifth centuries CE."
+    "description": "A Roman villa with mosaic pavements dating from the first to the fifth centuries CE.",
+    "containedInQid": "Q9049005"
   },
   {
     "id": "building:140456",
@@ -24923,7 +25021,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Neo-Babylonian king Nebuchadnezzar II (r. 604–562 BC) constructed a new royal residence for himself at Babylon. This grand palace was constructed north of the so-called “South Palace,” the traditional royal residence of the kings of Babylon. The building, which is referred to as the “new palace” (ēkallu eššu) in Achaemenid-period texts, is generally called the “North Palace,” “Nordburg,” and “New Palace.”"
+    "description": "The Neo-Babylonian king Nebuchadnezzar II (r. 604–562 BC) constructed a new royal residence for himself at Babylon. This grand palace was constructed north of the so-called “South Palace,” the traditional royal residence of the kings of Babylon. The building, which is referred to as the “new palace” (ēkallu eššu) in Achaemenid-period texts, is generally called the “North Palace,” “Nordburg,” and “New Palace.”",
+    "qid": "Q100329356"
   },
   {
     "id": "building:439136375",
@@ -24975,7 +25074,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 F1 Oldcoates"
+    "description": "An ancient place, cited: BAtlas 8 F1 Oldcoates",
+    "qid": "Q17642929"
   },
   {
     "id": "building:177598",
@@ -25105,7 +25205,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A large-scale building, tentatively identified as a palace, constructed during the 9th century BCE and in use until about 500 CE."
+    "description": "A large-scale building, tentatively identified as a palace, constructed during the 9th century BCE and in use until about 500 CE.",
+    "qid": "Q22991901"
   },
   {
     "id": "building:309437155",
@@ -25132,7 +25233,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Enclosed area at the Iron Age city of Pteria (modern Kerkenes Dağ) containing an audience hall and other elite structures. The complex is in an area of the city that was destroyed by fire, most likely in the mid-5th century BCE.",
-    "qid": "Q7256680"
+    "containedInQid": "Q7256680"
   },
   {
     "id": "building:109240",
@@ -25172,7 +25273,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 F3 Pangbourne"
+    "description": "An ancient place, cited: BAtlas 8 F3 Pangbourne",
+    "qid": "Q17553088"
   },
   {
     "id": "building:246556",
@@ -25421,7 +25523,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 39 E2 Plinio"
+    "description": "An ancient place, cited: BAtlas 39 E2 Plinio",
+    "qid": "Q30000745"
   },
   {
     "id": "building:423004",
@@ -25434,7 +25537,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The so-called villa of Pliny the Younger, also known as the Villa della Palombara. The villa's first phases date to the Iulio-Claudian period. It continues in use, and continues to undergo modifications, through the second century A.D."
+    "description": "The so-called villa of Pliny the Younger, also known as the Villa della Palombara. The villa's first phases date to the Iulio-Claudian period. It continues in use, and continues to undergo modifications, through the second century A.D.",
+    "qid": "Q63549054"
   },
   {
     "id": "building:48050878",
@@ -25826,7 +25930,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A villa maritima discovered in 1910-11."
+    "description": "A villa maritima discovered in 1910-11.",
+    "qid": "Q909059"
   },
   {
     "id": "building:344471",
@@ -25943,7 +26048,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 47 D4 Rocca Stefano"
+    "description": "An ancient place, cited: BAtlas 47 D4 Rocca Stefano",
+    "qid": "Q3874167"
   },
   {
     "id": "building:560130184",
@@ -25970,7 +26076,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman villa built atop the terraced platform of the so-called \"Civita di Artena\"."
+    "description": "A Roman villa built atop the terraced platform of the so-called \"Civita di Artena\".",
+    "qid": "Q241770"
   },
   {
     "id": "building:426622",
@@ -26036,7 +26143,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 D2 no. 41 (villa near Praeneste)"
+    "description": "An ancient place, cited: BAtlas 43 D2 no. 41 (villa near Praeneste)",
+    "qid": "Q2107419"
   },
   {
     "id": "building:426636",
@@ -26050,7 +26158,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The platform, including cryptoporticus, of a republican period villa originally dating to the first century B.C. with evidence for second century A.D. renovations.",
-    "qid": "Q134411309"
+    "containedInQid": "Q134411309"
   },
   {
     "id": "building:364357852",
@@ -26102,7 +26210,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 G1 Roxby"
+    "description": "An ancient place, cited: BAtlas 8 G1 Roxby",
+    "qid": "Q7372425"
   },
   {
     "id": "building:294093254",
@@ -26232,7 +26341,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 41 E5 S. Liberata"
+    "description": "An ancient place, cited: BAtlas 41 E5 S. Liberata",
+    "qid": "Q55169374"
   },
   {
     "id": "building:462477",
@@ -26429,7 +26539,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 129 (Ste-Colombe)",
-    "qid": "Q644275"
+    "containedInQid": "Q644275"
   },
   {
     "id": "building:305143",
@@ -26716,7 +26826,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 G1 Scampton"
+    "description": "An ancient place, cited: BAtlas 8 G1 Scampton",
+    "qid": "Q7429878"
   },
   {
     "id": "building:433111",
@@ -26794,7 +26905,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 35 F2 Senam Semana"
+    "description": "An ancient place, cited: BAtlas 35 F2 Senam Semana",
+    "qid": "Q106189043"
   },
   {
     "id": "building:256443",
@@ -26807,7 +26919,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 B4 Senhora da Luz"
+    "description": "An ancient place, cited: BAtlas 26 B4 Senhora da Luz",
+    "qid": "Q134506382"
   },
   {
     "id": "building:148199",
@@ -27042,7 +27155,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 35 G3 Snemat"
+    "description": "An ancient place, cited: BAtlas 35 G3 Snemat",
+    "qid": "Q106298406"
   },
   {
     "id": "building:426621",
@@ -27159,7 +27273,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An archaeological site of the Roman period connected with the fluvial harbor of Rusellae."
+    "description": "An archaeological site of the Roman period connected with the fluvial harbor of Rusellae.",
+    "qid": "Q125852449"
   },
   {
     "id": "building:109306",
@@ -27553,7 +27668,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 F3 Tingewick",
-    "qid": "Q740932"
+    "containedInQid": "Q740932"
   },
   {
     "id": "building:295364",
@@ -27579,7 +27694,8 @@
     "endYear": 1999,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Site of a Roman villa excavated in 1887-8. The site was an enclosed courtyard, with a main house, hypocaust, and baths, as well as an aisled farmhouse."
+    "description": "Site of a Roman villa excavated in 1887-8. The site was an enclosed courtyard, with a main house, hypocaust, and baths, as well as an aisled farmhouse.",
+    "qid": "Q6335576"
   },
   {
     "id": "building:423090",
@@ -27932,7 +28048,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed monument, settlement, or villa of Syrtica"
+    "description": "An unnamed monument, settlement, or villa of Syrtica",
+    "qid": "Q106154102"
   },
   {
     "id": "building:963101005",
@@ -28050,7 +28167,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 D3 no. 57 (villa near Norba)",
-    "qid": "Q2026618"
+    "containedInQid": "Q2026618"
   },
   {
     "id": "building:37513578",
@@ -28103,7 +28220,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 14 E4 no. 142 (Cadillac)",
-    "qid": "Q34789154"
+    "containedInQid": "Q34789154"
   },
   {
     "id": "building:157901",
@@ -30250,7 +30367,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed villa of Tripolitana"
+    "description": "An unnamed villa of Tripolitana",
+    "qid": "Q106025186"
   },
   {
     "id": "building:963101319",
@@ -31565,7 +31683,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 C2 no. 7 (villa N Fidenae)",
-    "qid": "Q1411306"
+    "containedInQid": "Q1411306"
   },
   {
     "id": "building:426595",
@@ -31916,7 +32034,8 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))"
+    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))",
+    "qid": "Q2425630"
   },
   {
     "id": "building:208942230",
@@ -35882,7 +36001,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 33 D2 unnamed unlabeled ((5 monuments))",
-    "qid": "Q1536583"
+    "containedInQid": "Q1536583"
   },
   {
     "id": "building:208943558",
@@ -36274,7 +36393,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 8 (Le Frèche)",
-    "qid": "Q1063175"
+    "containedInQid": "Q1063175"
   },
   {
     "id": "building:249915",
@@ -36302,7 +36421,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 10 (St-Cricq-Villeneuve)",
-    "qid": "Q2530912"
+    "containedInQid": "Q2530912"
   },
   {
     "id": "building:249917",
@@ -36329,7 +36448,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 E2 no. 12 (Montgaillard)"
+    "description": "An ancient place, cited: BAtlas 25 E2 no. 12 (Montgaillard)",
+    "qid": "Q35732882"
   },
   {
     "id": "building:249919",
@@ -36343,7 +36463,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 13 (Montsoué)",
-    "qid": "Q930241"
+    "containedInQid": "Q930241"
   },
   {
     "id": "building:249920",
@@ -36425,7 +36545,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 20 (Maspie)",
-    "qid": "Q739933"
+    "containedInQid": "Q739933"
   },
   {
     "id": "building:249927",
@@ -36452,7 +36572,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 E2 no. 22 (Bielle)",
-    "qid": "Q321942"
+    "containedInQid": "Q321942"
   },
   {
     "id": "building:249929",
@@ -36466,7 +36586,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 F1 no. 23 (Lavardac)",
-    "qid": "Q220639"
+    "containedInQid": "Q220639"
   },
   {
     "id": "building:249931",
@@ -36571,7 +36691,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 37 (Condom)",
-    "qid": "Q209802"
+    "containedInQid": "Q209802"
   },
   {
     "id": "building:249944",
@@ -36715,7 +36835,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 G1 no. 49 (St-Rustice)",
-    "qid": "Q1143799"
+    "containedInQid": "Q1143799"
   },
   {
     "id": "building:249956",
@@ -36794,7 +36914,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 G2 no. 57 (Montgey)",
-    "qid": "Q1600318"
+    "containedInQid": "Q1600318"
   },
   {
     "id": "building:249964",
@@ -36938,7 +37058,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 68 (St-Elix-Theux)",
-    "qid": "Q511065"
+    "containedInQid": "Q511065"
   },
   {
     "id": "building:249975",
@@ -36990,7 +37110,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 F2 no. 72 (Auterive)"
+    "description": "An ancient place, cited: BAtlas 25 F2 no. 72 (Auterive)",
+    "qid": "Q49344915"
   },
   {
     "id": "building:249979",
@@ -37017,7 +37138,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 74 (L’Isle-de-Noé)",
-    "qid": "Q1244947"
+    "containedInQid": "Q1244947"
   },
   {
     "id": "building:249981",
@@ -37174,7 +37295,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 88 (St-Loup)",
-    "qid": "Q1144169"
+    "containedInQid": "Q1144169"
   },
   {
     "id": "building:249995",
@@ -37201,7 +37322,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 F2 no. 92 (Montsaunès)",
-    "qid": "Q1441037"
+    "containedInQid": "Q1441037"
   },
   {
     "id": "building:249999",
@@ -37409,7 +37530,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 C3 no. 124 (Cabriana (Comunión))"
+    "description": "An ancient place, cited: BAtlas 25 C3 no. 124 (Cabriana (Comunión))",
+    "qid": "Q5738523"
   },
   {
     "id": "building:250031",
@@ -37501,7 +37623,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman villa site near Rieti known initially from several cryptoporticus structures. More recent excavations have revealed a series of rooms, including some with mosaic pavement.",
-    "qid": "Q224713"
+    "containedInQid": "Q224713"
   },
   {
     "id": "building:710140373",
@@ -37775,7 +37897,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A villa on Lake Como described by Pliny the Younger. Scholars have long thought it must be located in the vicinity of modern Lierna, and 19th and 20th century finds of floor mosaics and other elements have led to conjectures that the villa must have been located either in the peninsular \"Castello\" neighborhood or in the core of the old town, which has long been known as \"Villa\" because of this conjecture. A mosaic from the latter area is now conserved in the Archaeological Museum of Lecco."
+    "description": "A villa on Lake Como described by Pliny the Younger. Scholars have long thought it must be located in the vicinity of modern Lierna, and 19th and 20th century finds of floor mosaics and other elements have led to conjectures that the villa must have been located either in the peninsular \"Castello\" neighborhood or in the core of the old town, which has long been known as \"Villa\" because of this conjecture. A mosaic from the latter area is now conserved in the Archaeological Museum of Lecco.",
+    "qid": "Q29431803"
   },
   {
     "id": "building:991900272",
@@ -37843,7 +37966,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Roman villa at Alameda, located near the modern town cemetery. It is also known as the “Finca del Moral”.",
-    "qid": "Q1611830"
+    "containedInQid": "Q1611830"
   },
   {
     "id": "building:832104039",
@@ -38092,7 +38215,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A coastal villa and associated necropolis."
+    "description": "A coastal villa and associated necropolis.",
+    "qid": "Q17578725"
   },
   {
     "id": "building:344546",
@@ -38262,7 +38386,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient suburban villa outside of Spoletium, occupied from the Augustan period to the third century A.D. The remains are on the grounds of the modern Villa Redenta complex."
+    "description": "An ancient suburban villa outside of Spoletium, occupied from the Augustan period to the third century A.D. The remains are on the grounds of the modern Villa Redenta complex.",
+    "qid": "Q16621531"
   },
   {
     "id": "building:580782181",
@@ -38275,7 +38400,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The site of a Roman villa that was discovered in 1904 in the Balácapuszta field of Vámos village in western Hungary."
+    "description": "The site of a Roman villa that was discovered in 1904 in the Balácapuszta field of Vámos village in western Hungary.",
+    "qid": "Q1253466"
   },
   {
     "id": "building:728330196",
@@ -38354,7 +38480,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A coastal villa at Sperlonga associated with the Roman emperor Tiberius."
+    "description": "A coastal villa at Sperlonga associated with the Roman emperor Tiberius.",
+    "qid": "Q3558833"
   },
   {
     "id": "building:151530993",
@@ -38472,7 +38599,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An extensive maritime villa of the Roman period occupied the western and southern coasts of the Vižula peninsula, located near modern Medulin in Croatia."
+    "description": "An extensive maritime villa of the Roman period occupied the western and southern coasts of the Vižula peninsula, located near modern Medulin in Croatia.",
+    "qid": "Q15061568"
   },
   {
     "id": "building:109442",
@@ -38486,7 +38614,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 11 F2 Voerendaal",
-    "qid": "Q9770"
+    "containedInQid": "Q9770"
   },
   {
     "id": "building:344542",
@@ -38513,7 +38641,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 35 F3 Wadi el-Amud",
-    "qid": "Q71990958"
+    "containedInQid": "Q71990958"
   },
   {
     "id": "building:344547",
@@ -38683,7 +38811,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 8 G1 Walesby",
-    "qid": "Q2207906"
+    "containedInQid": "Q2207906"
   },
   {
     "id": "building:79745",
@@ -38709,7 +38837,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 E3 Wellow"
+    "description": "An ancient place, cited: BAtlas 8 E3 Wellow",
+    "qid": "Q17531538"
   },
   {
     "id": "building:549572847",
@@ -38749,7 +38878,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 8 G2 West Langton"
+    "description": "An ancient place, cited: BAtlas 8 G2 West Langton",
+    "qid": "Q7985709"
   },
   {
     "id": "building:79759",
@@ -38828,7 +38958,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Excavations of this villa site revealed mosaics, the remains of baths, and a corridor centered around a courtyard.",
-    "qid": "Q8033961"
+    "containedInQid": "Q8033961"
   },
   {
     "id": "building:854747",
@@ -39121,7 +39251,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 17 D4 Chalencon",
-    "qid": "Q41744367"
+    "containedInQid": "Q41744367"
   },
   {
     "id": "building:609353",
@@ -39854,7 +39984,8 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 7 D2 Le Pinnacle"
+    "description": "An ancient place, cited: BAtlas 7 D2 Le Pinnacle",
+    "qid": "Q6507465"
   },
   {
     "id": "building:17649950",
@@ -39961,7 +40092,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 94 C4 Muk"
+    "description": "An ancient place, cited: BAtlas 94 C4 Muk",
+    "qid": "Q5800118"
   },
   {
     "id": "building:305127727",
@@ -40013,8 +40145,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q245062",
-    "description": "An ancient island located just above the First cataract of the Nile River that was flooded by the construction of the Aswan High Dam. The island was home to a multi-period temple complex, which was moved to the nearby island of Agilkia and declared a UNESCO World Heritage Site in the 1970s."
+    "description": "An ancient island located just above the First cataract of the Nile River that was flooded by the construction of the Aswan High Dam. The island was home to a multi-period temple complex, which was moved to the nearby island of Agilkia and declared a UNESCO World Heritage Site in the 1970s.",
+    "containedInQid": "Q245062"
   },
   {
     "id": "building:668346",
@@ -40066,8 +40198,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q626976",
-    "description": "Ribemont-sur-Ancre is the site of a Celtic and Gallo-Roman sanctuary located on the right bank of the Ancre river, a tributary of the Somme. Roger Agache discovered the site in 1962. The site is vast in its area, covering some 80 ha."
+    "description": "Ribemont-sur-Ancre is the site of a Celtic and Gallo-Roman sanctuary located on the right bank of the Ancre river, a tributary of the Somme. Roger Agache discovered the site in 1962. The site is vast in its area, covering some 80 ha.",
+    "containedInQid": "Q626976"
   },
   {
     "id": "building:192761443",
@@ -40135,7 +40267,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "One of three shrines sacred to Serapis identified by archaeologists working at Delos in the nineteenth century.",
-    "qid": "Q173148"
+    "containedInQid": "Q173148"
   },
   {
     "id": "building:228182518",
@@ -40200,7 +40332,8 @@
     "endYear": -1000,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Temple 1, also referred to as the \"Great Temple\", is located in the lower city of Hattusa. It dates to the thirteenth century B.C."
+    "description": "Temple 1, also referred to as the \"Great Temple\", is located in the lower city of Hattusa. It dates to the thirteenth century B.C.",
+    "qid": "Q181007"
   },
   {
     "id": "building:778145953",
@@ -40280,7 +40413,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A 62 m long stoa, probably of the fourth century BC. ",
-    "qid": "Q124820762"
+    "containedInQid": "Q124820762"
   },
   {
     "id": "building:759679649",
@@ -40377,7 +40510,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "From the 5th century BC.",
-    "qid": "Q1352586"
+    "containedInQid": "Q1352586"
   },
   {
     "id": "building:741537853",
@@ -40431,7 +40564,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Temple of Hermes at Çatıören"
+    "description": "Temple of Hermes at Çatıören",
+    "qid": "Q15263913"
   },
   {
     "id": "building:72453468",
@@ -40444,7 +40578,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Juno Caelestis, a successor divinity of the Punic Tanit, is celebrated by a sanctuary built at Dougga ca. 222-235 CE, and sponsored by Q. Gabinius Rufus Felix."
+    "description": "Juno Caelestis, a successor divinity of the Punic Tanit, is celebrated by a sanctuary built at Dougga ca. 222-235 CE, and sponsored by Q. Gabinius Rufus Felix.",
+    "qid": "Q5397577"
   },
   {
     "id": "building:422950",
@@ -40484,7 +40619,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A significant, large structure at Sikait in Egypt's Eastern Desert that has been variously identified as an administrative building and, most recently on basis of finds from the first systematic archaeological excavation of the structure, as a temple.",
-    "qid": "Q9336835"
+    "containedInQid": "Q9336835"
   },
   {
     "id": "building:590075",
@@ -40510,7 +40645,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 35 D2 Tigi"
+    "description": "An ancient place, cited: BAtlas 35 D2 Tigi",
+    "qid": "Q106509910"
   },
   {
     "id": "building:707635",
@@ -40683,7 +40819,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman amphitheater at Berja."
+    "description": "A Roman amphitheater at Berja.",
+    "qid": "Q43132675"
   },
   {
     "id": "building:735520831",
@@ -40872,7 +41009,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A stone-built Amphitheatre at Thapsus."
+    "description": "A stone-built Amphitheatre at Thapsus.",
+    "qid": "Q29002319"
   },
   {
     "id": "building:537585744",
@@ -40899,7 +41037,8 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The theater at ancient Akrai."
+    "description": "The theater at ancient Akrai.",
+    "qid": "Q489260"
   },
   {
     "id": "building:966876571",
@@ -40982,7 +41121,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Ancient theater of Kourion was first built in the second century B.C. It remained in use until the fourth century.",
-    "qid": "Q1785592"
+    "containedInQid": "Q1785592"
   },
   {
     "id": "building:19771164",
@@ -41065,7 +41204,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The so-called \"Anfiteatro minore\" is a small amphitheater at Puteoli dating to the early Imperial period."
+    "description": "The so-called \"Anfiteatro minore\" is a small amphitheater at Puteoli dating to the early Imperial period.",
+    "qid": "Q24940661"
   },
   {
     "id": "building:121654605",
@@ -41232,7 +41372,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Remains of a small theater or odeon at ancient Kelenderis.",
-    "qid": "Q583185"
+    "containedInQid": "Q583185"
   },
   {
     "id": "building:537062868",
@@ -41314,8 +41454,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q930502",
-    "description": "A Gallo-Roman site located in the Barguelonne valley that covers some 4,000 square meters. Excavation (1962-1964) suggested the site was likely a rural sanctuary that included a theater and baths."
+    "description": "A Gallo-Roman site located in the Barguelonne valley that covers some 4,000 square meters. Excavation (1962-1964) suggested the site was likely a rural sanctuary that included a theater and baths.",
+    "containedInQid": "Q930502"
   },
   {
     "id": "building:243292711",
@@ -41522,7 +41662,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A theater / amphitheater dating to the early second century."
+    "description": "A theater / amphitheater dating to the early second century.",
+    "qid": "Q49351134"
   },
   {
     "id": "building:89384567",
@@ -41550,7 +41691,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Gallo-Roman theater at Dalheim.",
-    "qid": "Q20969315"
+    "containedInQid": "Q20969315"
   },
   {
     "id": "building:934752946",
@@ -41644,7 +41785,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Greek theater at Alabanda dates to the Hellenistic period."
+    "description": "The Greek theater at Alabanda dates to the Hellenistic period.",
+    "qid": "Q778224"
   },
   {
     "id": "building:519235462",
@@ -41756,7 +41898,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The heavily reconstructed remains of the Hellenistic theater at Dion. Parts of the ancient underground stage system are preserved. ",
-    "qid": "Q990247"
+    "containedInQid": "Q990247"
   },
   {
     "id": "building:662332234",
@@ -41975,7 +42117,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Odeion at Sagalassos occupies a terrace that is north of the Lower Agora and downslope from the Upper Agora."
+    "description": "The Odeion at Sagalassos occupies a terrace that is north of the Lower Agora and downslope from the Upper Agora.",
+    "qid": "Q279191"
   },
   {
     "id": "building:829196251",
@@ -42017,7 +42160,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Odeon at Hadrian's Villa is also referred to as the South Theater. It is located at the southern end of the Villa Adriana.",
-    "qid": "Q272777"
+    "containedInQid": "Q272777"
   },
   {
     "id": "building:612452943",
@@ -42031,7 +42174,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Odeon at Kom el-Dikka, used both for entertainment and academic functions, was built in the center of ancient Alexandria in the fourth century CE and rebuilt between the end of the fifth and beginning of the sixth century CE.",
-    "qid": "Q12236559"
+    "containedInQid": "Q12236559"
   },
   {
     "id": "building:318023996",
@@ -42336,7 +42479,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The so-called \"Palais Gallien\" is an early second century A.D. amphitheater."
+    "description": "The so-called \"Palais Gallien\" is an early second century A.D. amphitheater.",
+    "qid": "Q2928315"
   },
   {
     "id": "building:723135880",
@@ -42852,7 +42996,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman amphitheater at Noviodunum was only discovered in 1996 and likely dates to the second century A.D. The arena measures ca. 50 x 36 meters."
+    "description": "The Roman amphitheater at Noviodunum was only discovered in 1996 and likely dates to the second century A.D. The arena measures ca. 50 x 36 meters.",
+    "qid": "Q2984231"
   },
   {
     "id": "building:293261278",
@@ -42865,7 +43010,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman amphitheater at Nuceria (Alfaterna) likely dates to the Augustan period."
+    "description": "The Roman amphitheater at Nuceria (Alfaterna) likely dates to the Augustan period.",
+    "qid": "Q470839"
   },
   {
     "id": "building:977184743",
@@ -43101,7 +43247,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The remains of the early Imperial amphitheater were discovered within the Caserma Minervio during the early nineteenth century."
+    "description": "The remains of the early Imperial amphitheater were discovered within the Caserma Minervio during the early nineteenth century.",
+    "qid": "Q18655842"
   },
   {
     "id": "building:150998961",
@@ -43266,7 +43413,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman amphitheater at Trebula dates to the Augustan period."
+    "description": "The Roman amphitheater at Trebula dates to the Augustan period.",
+    "qid": "Q3998193"
   },
   {
     "id": "building:271347289",
@@ -43307,7 +43455,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Today the Roman amphitheater at Tusculum is poorly preserved. These ruins have never been systematically investigated."
+    "description": "Today the Roman amphitheater at Tusculum is poorly preserved. These ruins have never been systematically investigated.",
+    "qid": "Q754314"
   },
   {
     "id": "building:20481513",
@@ -43362,7 +43511,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman amphitheater of Roman Veleia.",
-    "qid": "Q2511513"
+    "containedInQid": "Q2511513"
   },
   {
     "id": "building:497388377",
@@ -43723,7 +43872,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman odeon at Vienne."
+    "description": "The Roman odeon at Vienne.",
+    "qid": "Q127431682"
   },
   {
     "id": "building:37204582",
@@ -43777,7 +43927,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman theater at Aizanoi is part of a theater-stadium complex. The complex is built after A.D. 160 with the patronage of one M. Apuleius Eurycles."
+    "description": "The Roman theater at Aizanoi is part of a theater-stadium complex. The complex is built after A.D. 160 with the patronage of one M. Apuleius Eurycles.",
+    "qid": "Q411571"
   },
   {
     "id": "building:23219358",
@@ -43861,7 +44012,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman theater at Augusta Bagiennorum",
-    "qid": "Q3629554"
+    "containedInQid": "Q3629554"
   },
   {
     "id": "building:12766857",
@@ -44345,7 +44496,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The site of the Roman theater in Mainz.",
-    "qid": "Q571790"
+    "containedInQid": "Q571790"
   },
   {
     "id": "building:82145424",
@@ -44358,7 +44509,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman theater at Nicopolis incorporates both Greek and Roman architectural practices in its construction."
+    "description": "The Roman theater at Nicopolis incorporates both Greek and Roman architectural practices in its construction.",
+    "qid": "Q943637"
   },
   {
     "id": "building:758766300",
@@ -44608,7 +44760,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman theater at Tlos preserves 34 rows of seating.",
-    "qid": "Q1325973"
+    "containedInQid": "Q1325973"
   },
   {
     "id": "building:719522410",
@@ -44957,7 +45109,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman theater of Stobi dates to the second century.",
-    "qid": "Q1371168"
+    "containedInQid": "Q1371168"
   },
   {
     "id": "building:193750794",
@@ -45122,7 +45274,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman theater of Carteia."
+    "description": "The Roman theater of Carteia.",
+    "qid": "Q97616842"
   },
   {
     "id": "building:982593692",
@@ -45432,7 +45585,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Theater at Arykanda dates to the first century B.C."
+    "description": "The Theater at Arykanda dates to the first century B.C.",
+    "qid": "Q137769554"
   },
   {
     "id": "building:102024695",
@@ -45445,7 +45599,8 @@
     "endYear": 1453,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Theater at Bodrum is dedicated to Ares."
+    "description": "The Theater at Bodrum is dedicated to Ares.",
+    "qid": "Q172267"
   },
   {
     "id": "building:404148110",
@@ -45515,7 +45670,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Theater at Heraclea Minoa dates to the late fourth century B.C.",
-    "qid": "Q1502156"
+    "containedInQid": "Q1502156"
   },
   {
     "id": "building:216907428",
@@ -45528,7 +45683,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Theater at Kibyra dates to the Hellenistic period."
+    "description": "The Theater at Kibyra dates to the Hellenistic period.",
+    "qid": "Q1643467"
   },
   {
     "id": "building:581374445",
@@ -45582,8 +45738,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q3575454",
-    "description": "A small Roman theater with a capacity of approximately 2,000 spectators."
+    "description": "A small Roman theater with a capacity of approximately 2,000 spectators.",
+    "containedInQid": "Q3575454"
   },
   {
     "id": "building:762595495",
@@ -45651,7 +45807,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The remains of a rock-cut theater at Stymphalos."
+    "description": "The remains of a rock-cut theater at Stymphalos.",
+    "qid": "Q2359730"
   },
   {
     "id": "building:178686122",
@@ -45733,7 +45890,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Greek theater (second century BC) was renovated following a Roman design following the earthquake of A.D. 141.",
-    "qid": "Q464936"
+    "containedInQid": "Q464936"
   },
   {
     "id": "building:542568395",
@@ -45788,7 +45945,8 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Greek theater of Cyrene was constructed in the sixth century BCE and transformed into a Roman amphitheater in the second century CE."
+    "description": "The Greek theater of Cyrene was constructed in the sixth century BCE and transformed into a Roman amphitheater in the second century CE.",
+    "qid": "Q44112"
   },
   {
     "id": "building:917412528",
@@ -45843,7 +46001,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Theater of Hippo Regius is perhaps the largest Roman theater in North Africa. It was built in the second century CE."
+    "description": "The Theater of Hippo Regius is perhaps the largest Roman theater in North Africa. It was built in the second century CE.",
+    "qid": "Q858024"
   },
   {
     "id": "building:528335956",
@@ -45884,7 +46043,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The ancient theater of Nysa could accommodate ca. 12,000 spectators."
+    "description": "The ancient theater of Nysa could accommodate ca. 12,000 spectators.",
+    "qid": "Q1779332"
   },
   {
     "id": "building:297166731",
@@ -45966,7 +46126,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Theater of Sagalassos dates to the later second century."
+    "description": "The Theater of Sagalassos dates to the later second century.",
+    "qid": "Q279191"
   },
   {
     "id": "building:786052705",
@@ -45980,7 +46141,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Theater of Stratos dates to the late fourth century B.C.",
-    "qid": "Q1795792"
+    "containedInQid": "Q1795792"
   },
   {
     "id": "building:953624202",
@@ -46007,7 +46168,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A third- to second-century B.C. theater connected with the sanctuary of the Muses."
+    "description": "A third- to second-century B.C. theater connected with the sanctuary of the Muses.",
+    "qid": "Q7912361"
   },
   {
     "id": "building:625262900",
@@ -46060,7 +46222,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The remains of the ancient theater at Zeugma"
+    "description": "The remains of the ancient theater at Zeugma",
+    "qid": "Q196987"
   },
   {
     "id": "building:251442732",
@@ -46129,7 +46292,8 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The theatre of the ancient city of Apollonia, situated just outside the city wall, on the east side. The construction appears to be late Hellenistic, with half of the seats cut out of the rock on the elevation of the acropolis, and the other half built up."
+    "description": "The theatre of the ancient city of Apollonia, situated just outside the city wall, on the east side. The construction appears to be late Hellenistic, with half of the seats cut out of the rock on the elevation of the acropolis, and the other half built up.",
+    "qid": "Q45826"
   },
   {
     "id": "building:596063692",
@@ -46908,7 +47072,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q123012466"
   },
   {
     "id": "building:pleiades-127132165",
@@ -47041,7 +47206,8 @@
     "subtype": "bath",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1110806"
   },
   {
     "id": "building:pleiades-216772",
@@ -47067,7 +47233,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q12111541"
   },
   {
     "id": "building:pleiades-216780",
@@ -47093,7 +47260,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1094548"
   },
   {
     "id": "building:pleiades-216810",
@@ -47145,7 +47313,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1070950"
   },
   {
     "id": "building:pleiades-216854",
@@ -47421,7 +47590,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q21087395"
   },
   {
     "id": "building:pleiades-10236662",
@@ -47461,7 +47631,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1014726"
   },
   {
     "id": "building:pleiades-512867195",
@@ -47474,7 +47645,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q31110843"
   },
   {
     "id": "building:pleiades-762378105",
@@ -47500,7 +47672,8 @@
     "subtype": "monument",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q20190873"
   },
   {
     "id": "building:pleiades-887556001",
@@ -47581,7 +47754,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q97729244"
   },
   {
     "id": "building:pleiades-149003409",
@@ -48397,7 +48571,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q14223971"
   },
   {
     "id": "building:pleiades-786048",
@@ -48489,7 +48664,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q762664"
   },
   {
     "id": "building:pleiades-79706",
@@ -48594,7 +48770,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q85795198"
   },
   {
     "id": "building:pleiades-580049",
@@ -48730,7 +48907,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q5308156"
   },
   {
     "id": "building:pleiades-507480",
@@ -48847,7 +49025,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q587581"
   },
   {
     "id": "building:pleiades-515107188",
@@ -49646,7 +49825,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q38282089"
   },
   {
     "id": "building:pleiades-501562",
@@ -49832,7 +50012,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q5175126"
   },
   {
     "id": "building:pleiades-246697",
@@ -50137,7 +50318,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q910323"
   },
   {
     "id": "building:pleiades-114562501",
@@ -50230,7 +50412,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q8064652"
   },
   {
     "id": "building:pleiades-922687",
@@ -50285,7 +50468,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1652354"
   },
   {
     "id": "building:pleiades-98952",
@@ -50298,7 +50482,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q17453770"
   },
   {
     "id": "building:pleiades-99002",
@@ -50351,7 +50536,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3662875"
   },
   {
     "id": "building:pleiades-86412281",
@@ -50391,7 +50577,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q27479043"
   },
   {
     "id": "building:pleiades-118976",
@@ -50446,7 +50633,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q15823332"
   },
   {
     "id": "building:pleiades-128519",
@@ -50486,7 +50674,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q7084681"
   },
   {
     "id": "building:pleiades-384365955",
@@ -50538,7 +50727,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q7099422"
   },
   {
     "id": "building:pleiades-667694858",
@@ -50945,7 +51135,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q827420"
   },
   {
     "id": "building:pleiades-530611411",
@@ -51174,7 +51365,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q64812055"
   },
   {
     "id": "building:pleiades-109011",
@@ -51187,7 +51379,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q51013661"
   },
   {
     "id": "building:pleiades-109020",
@@ -51281,7 +51474,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1335614"
   },
   {
     "id": "building:pleiades-109097",
@@ -51347,7 +51541,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1360812"
   },
   {
     "id": "building:pleiades-109201",
@@ -51455,7 +51650,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1798803"
   },
   {
     "id": "building:pleiades-109461",
@@ -51507,7 +51703,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1552225"
   },
   {
     "id": "building:pleiades-118656",
@@ -52257,7 +52454,8 @@
     "subtype": "fort",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q4914040"
   },
   {
     "id": "building:pleiades-6525101",
@@ -52326,7 +52524,8 @@
     "subtype": "theater",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q18363976"
   },
   {
     "id": "building:pleiades-278626606",
@@ -52461,7 +52660,8 @@
     "subtype": "theater",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q2826856"
   },
   {
     "id": "building:pleiades-422850",
@@ -52474,6 +52674,7 @@
     "subtype": "complex",
     "startYear": -200,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3634894"
   }
 ]

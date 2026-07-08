@@ -164,7 +164,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Iconic three-tiered aqueduct bridge crossing the Gardon river. Among the best-preserved Roman structures. UNESCO World Heritage Site.",
-    "props": { "length": 50, "builder": "Marcus Agrippa", "cityServed": "Nemausus (Nîmes)" }
+    "props": { "length": 50, "builder": "Marcus Agrippa", "cityServed": "Nemausus (Nîmes)" },
+    "qid": "Q2914723"
   },
   {
     "id": "aqueduct:aq-segovia",
@@ -301,7 +302,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Double-tiered aqueduct bridge known as the Pont del Diable (Devil's Bridge). Supplied the provincial capital of Hispania Tarraconensis.",
-    "props": { "length": 25, "builder": "Augustus", "cityServed": "Tarraco" }
+    "props": { "length": 25, "builder": "Augustus", "cityServed": "Tarraco" },
+    "qid": "Q623448"
   },
   {
     "id": "aqueduct:aq-merida-cornalvo",
@@ -422,7 +424,7 @@
     "category": "infrastructure",
     "description": "Multiple aqueducts serving the great metropolis of Antioch, expanded by Caesar, Augustus, and later emperors.",
     "props": { "builder": "Julius Caesar", "cityServed": "Antiochia ad Orontem" },
-    "qid": "Q200441"
+    "containedInQid": "Q200441"
   },
   {
     "id": "aqueduct:aq-apamea",
@@ -436,7 +438,7 @@
     "category": "infrastructure",
     "description": "Aqueduct supplying the important military and commercial city of Apamea on the Orontes.",
     "props": { "cityServed": "Apamea (Syria)" },
-    "qid": "Q617550"
+    "containedInQid": "Q617550"
   },
   {
     "id": "aqueduct:aq-jerash",
@@ -449,7 +451,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the Decapolis city of Gerasa, feeding its elaborate nymphaeum and baths.",
-    "props": { "length": 9, "cityServed": "Gerasa (Jerash)" }
+    "props": { "length": 9, "cityServed": "Gerasa (Jerash)" },
+    "qid": "Q56072866"
   },
   {
     "id": "aqueduct:aq-corinth",
@@ -547,7 +550,8 @@
       "length": 45,
       "builder": "Juba II",
       "cityServed": "Caesarea Mauretaniae (Cherchell)"
-    }
+    },
+    "qid": "Q1309531"
   },
   {
     "id": "aqueduct:aq-frejus",
@@ -560,7 +564,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the important naval base of Forum Julii in Gallia Narbonensis, with well-preserved arcaded sections.",
-    "props": { "length": 42, "builder": "Augustus", "cityServed": "Forum Julii (Fréjus)" }
+    "props": { "length": 42, "builder": "Augustus", "cityServed": "Forum Julii (Fréjus)" },
+    "qid": "Q3078607"
   },
   {
     "id": "aqueduct:aq-arles",
@@ -588,7 +593,7 @@
     "category": "infrastructure",
     "description": "Aqueduct serving the spa town of Aquae Sextiae in southern Gaul, supplementing the natural thermal springs.",
     "props": { "length": 18, "cityServed": "Aquae Sextiae (Aix-en-Provence)" },
-    "qid": "Q22999533"
+    "containedInQid": "Q22999533"
   },
   {
     "id": "aqueduct:aq-sens",
@@ -669,7 +674,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Spectacular aqueduct-bridge with ten arches spanning 230 meters and 76 meters high, crossing the gorge below Spoleto.",
-    "props": { "cityServed": "Spoletium (Spoleto)" }
+    "props": { "cityServed": "Spoletium (Spoleto)" },
+    "qid": "Q16591375"
   },
   {
     "id": "aqueduct:aq-pompeii",
@@ -696,7 +702,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Enormous aqueduct system (Aqua Augusta) supplying the entire Bay of Naples from Serino springs to the naval base at Misenum. Supplied up to nine cities.",
-    "props": { "length": 100, "builder": "Augustus", "cityServed": "Neapolis / Misenum" }
+    "props": { "length": 100, "builder": "Augustus", "cityServed": "Neapolis / Misenum" },
+    "qid": "Q92721394"
   },
   {
     "id": "aqueduct:aq-aventicum",
@@ -722,7 +729,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Aqueduct built to supply Diocletian's retirement palace at Spalatum from the Jadro river springs.",
-    "props": { "length": 9, "builder": "Diocletian", "cityServed": "Spalatum (Split)" }
+    "props": { "length": 9, "builder": "Diocletian", "cityServed": "Spalatum (Split)" },
+    "qid": "Q322287"
   },
   {
     "id": "aqueduct:aq-mytilene",
@@ -937,7 +945,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Short aqueduct from the Fertassa spring to the westernmost major Roman city in Africa, supplying its olive oil district and baths.",
-    "props": { "length": 3, "cityServed": "Volubilis" }
+    "props": { "length": 3, "cityServed": "Volubilis" },
+    "qid": "Q391215"
   },
   {
     "id": "aqueduct:aq-lambaesis",
@@ -964,7 +973,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Second aqueduct at Cherchell, built after the annexation of Mauretania. Drew water from eastern mountain springs.",
-    "props": { "length": 28, "cityServed": "Caesarea Mauretaniae (Cherchell)" }
+    "props": { "length": 28, "cityServed": "Caesarea Mauretaniae (Cherchell)" },
+    "qid": "Q1309531"
   },
   {
     "id": "aqueduct:aq-hippo-regius",
@@ -1005,7 +1015,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the coastal colony of Tipasa in Mauretania Caesariensis with its well-preserved nymphaeum.",
-    "props": { "length": 10, "cityServed": "Tipasa" }
+    "props": { "length": 10, "cityServed": "Tipasa" },
+    "qid": "Q3529269"
   },
   {
     "id": "aqueduct:aq-thysdrus",
@@ -1018,7 +1029,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the wealthy olive-oil city of Thysdrus, home to the third-largest amphitheatre in the empire.",
-    "props": { "cityServed": "Thysdrus (El Djem)" }
+    "props": { "cityServed": "Thysdrus (El Djem)" },
+    "qid": "Q17097490"
   },
   {
     "id": "aqueduct:aq-sufetula",
@@ -1152,7 +1164,7 @@
     "category": "infrastructure",
     "description": "Aqueduct from the famous springs of Daphne to Antioch, rebuilt by Trajan to supply the baths and fountains of the eastern capital.",
     "props": { "length": 8, "builder": "Trajan", "cityServed": "Antiochia ad Orontem" },
-    "qid": "Q3015870"
+    "containedInQid": "Q3015870"
   },
   {
     "id": "aqueduct:aq-antioch-harbiye",
@@ -1179,7 +1191,7 @@
     "category": "infrastructure",
     "description": "Aqueduct serving the Pamphylian port city of Attaleia, enhanced during Hadrian's visit to southern Asia Minor.",
     "props": { "builder": "Hadrian", "cityServed": "Attaleia (Antalya)" },
-    "qid": "Q105703706"
+    "containedInQid": "Q105703706"
   },
   {
     "id": "aqueduct:aq-miletus",
@@ -1207,7 +1219,7 @@
     "category": "infrastructure",
     "description": "Aqueduct serving the famous city of Aphrodisias in Caria, centre of marble sculpture and the imperial cult.",
     "props": { "cityServed": "Aphrodisias" },
-    "qid": "Q618495"
+    "containedInQid": "Q618495"
   },
   {
     "id": "aqueduct:aq-sardis",
@@ -1262,7 +1274,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the Pisidian mountain city of Sagalassos, feeding its well-preserved monumental fountain (nymphaeum).",
-    "props": { "length": 4, "cityServed": "Sagalassos" }
+    "props": { "length": 4, "cityServed": "Sagalassos" },
+    "qid": "Q279191"
   },
   {
     "id": "aqueduct:aq-tarragona-2",
@@ -1340,7 +1353,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the garum fish-sauce factory town on the Straits of Gibraltar, with three separate conduits from mountain springs.",
-    "props": { "length": 4, "cityServed": "Baelo Claudia (Bolonia)" }
+    "props": { "length": 4, "cityServed": "Baelo Claudia (Bolonia)" },
+    "qid": "Q43174653"
   },
   {
     "id": "aqueduct:aq-narbonne",
@@ -1353,7 +1367,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the capital of Gallia Narbonensis from Montagne Noire springs, with well-preserved sections.",
-    "props": { "length": 35, "cityServed": "Narbo Martius (Narbonne)" }
+    "props": { "length": 35, "cityServed": "Narbo Martius (Narbonne)" },
+    "qid": "Q11938382"
   },
   {
     "id": "aqueduct:aq-bordeaux",
@@ -1366,7 +1381,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the major Aquitanian port of Burdigala, later capital of the poet Ausonius.",
-    "props": { "cityServed": "Burdigala (Bordeaux)" }
+    "props": { "cityServed": "Burdigala (Bordeaux)" },
+    "qid": "Q2928315"
   },
   {
     "id": "aqueduct:aq-poitiers",
@@ -1781,7 +1797,8 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Remarkable 170 km aqueduct, the longest known tunnel aqueduct in antiquity, serving the Decapolis city of Gadara.",
-    "props": { "length": 170, "cityServed": "Gadara (Umm Qais)" }
+    "props": { "length": 170, "cityServed": "Gadara (Umm Qais)" },
+    "qid": "Q56322109"
   },
   {
     "id": "aqueduct:aq-jerash-2",
@@ -1794,7 +1811,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Second aqueduct at Gerasa from the Birketein reservoir, a monumental biapsidal pool feeding the city via gravity channels.",
-    "props": { "length": 2, "cityServed": "Gerasa (Jerash)" }
+    "props": { "length": 2, "cityServed": "Gerasa (Jerash)" },
+    "qid": "Q136868270"
   },
   {
     "id": "aqueduct:aq-caesarea-hadrianic",
@@ -1861,7 +1879,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the Augustan colony and famous law school of Berytus from springs in the Lebanese mountains.",
-    "props": { "builder": "Augustus", "cityServed": "Berytus (Beirut)" }
+    "props": { "builder": "Augustus", "cityServed": "Berytus (Beirut)" },
+    "qid": "Q829310"
   },
   {
     "id": "aqueduct:aq-alexandria",
@@ -1887,7 +1906,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Roman aqueduct expanding the water supply of the ancient Greek colony of Cyrene in Libya, fed by karst springs.",
-    "props": { "cityServed": "Cyrene" }
+    "props": { "cityServed": "Cyrene" },
+    "qid": "Q44112"
   },
   {
     "id": "aqueduct:aq-pola",
@@ -1913,7 +1933,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Second aqueduct at Nîmes from nearby springs, supplementing the famous Pont du Gard supply for the growing colony.",
-    "props": { "length": 20, "cityServed": "Nemausus (Nîmes)" }
+    "props": { "length": 20, "cityServed": "Nemausus (Nîmes)" },
+    "qid": "Q2914723"
   },
   {
     "id": "aqueduct:aq-vienne",
@@ -1926,7 +1947,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the major Gallic city of Vienne on the Rhône, rival of Lyon, from eastern hill springs.",
-    "props": { "length": 12, "cityServed": "Vienna Allobrogum (Vienne)" }
+    "props": { "length": 12, "cityServed": "Vienna Allobrogum (Vienne)" },
+    "qid": "Q82444201"
   },
   {
     "id": "aqueduct:aq-complutum",
@@ -1966,7 +1988,8 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving Trajan's colony on the Lower Rhine, one of the major cities of Germania Inferior.",
-    "props": { "length": 8, "builder": "Trajan", "cityServed": "Colonia Ulpia Traiana (Xanten)" }
+    "props": { "length": 8, "builder": "Trajan", "cityServed": "Colonia Ulpia Traiana (Xanten)" },
+    "qid": "Q464588"
   },
   {
     "id": "aqueduct:aq-setif",
@@ -2088,7 +2111,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "One of five Roman-era aqueducts known from Sexi (modern Almuñécar, Spain). This one is represented by an extant aqueduct bridge located near the source of the Rio Verde, north of Sexi.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q100963587"
   },
   {
     "id": "pleiades:266521",
@@ -2101,7 +2125,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 27 C2 unnamed aqueduct (Segobriga)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q127431227"
   },
   {
     "id": "pleiades:266522",
@@ -2154,7 +2179,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 27 E3 unnamed aqueduct (SW Calpe)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1590778"
   },
   {
     "id": "pleiades:266526",
@@ -2601,7 +2627,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 56 C3 unnamed aqueduct (Methymna, on Lesbos)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q17621594"
   },
   {
     "id": "pleiades:551156",
@@ -2724,7 +2751,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 65 B5 unnamed aqueduct (Patara)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q233121"
   },
   {
     "id": "pleiades:639490",
@@ -2789,7 +2817,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 65 E2 unnamed aqueduct (at Sagalassos)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q279191"
   },
   {
     "id": "pleiades:639495",
@@ -2937,7 +2966,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 31 C3 unnamed aqueduct (Saldae)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1557873"
   },
   {
     "id": "pleiades:305779",
@@ -2976,7 +3006,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 31 H3 unnamed aqueduct (Hippo Regius)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q858024"
   },
   {
     "id": "pleiades:305782",
@@ -3160,7 +3191,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a Roman aqueduct bridge over the Agly River.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3396343"
   },
   {
     "id": "pleiades:678747",
@@ -3330,7 +3362,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 70 G3 unnamed aqueduct (Engaddai)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q14624972"
   },
   {
     "id": "pleiades:70217",
@@ -3343,7 +3376,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 7 C3 unnamed aqueduct (Vorgium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3563116"
   },
   {
     "id": "pleiades:70218",
@@ -3423,7 +3457,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 72 C3 unnamed aqueduct (Amathous)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q22991901"
   },
   {
     "id": "pleiades:708197",
@@ -3504,7 +3539,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Assyrian king Sennacherib had an aqueduct constructed between 703 and 690 B.C. near the ancient city of Girmua. The structure is part of the \"Khinnis [Canal] System.\" The identification of the structure's builder is confirmed by means of several inscriptions.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q17064815"
   },
   {
     "id": "pleiades:747452",
@@ -3598,7 +3634,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 60 F3 unnamed aqueduct (by Apollo Erethimios templum on Rhodos)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q107068356"
   },
   {
     "id": "pleiades:590417",
@@ -3955,7 +3992,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 C2 no. 23 (villa and aqueduct at Vermicino)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q986591"
   },
   {
     "id": "pleiades:433378",
@@ -3995,7 +4033,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 E3 unnamed aqueduct (Casinum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q5048900"
   },
   {
     "id": "pleiades:433381",
@@ -4022,7 +4061,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 F3 unnamed aqueduct (Caiatia)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1160855"
   },
   {
     "id": "pleiades:433383",
@@ -4088,7 +4128,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The ruin called Ponte Pischero was once an aqueduct bridge that was part of the Aqua Anio Vetus aqueduct.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q137557050"
   },
   {
     "id": "pleiades:241569286",
@@ -4481,7 +4522,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 45 C4 unnamed aqueduct (Grumentum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1550380"
   },
   {
     "id": "pleiades:443189",
@@ -4965,7 +5007,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 D2 unnamed aqueduct (E Tourmogon at El Campillo)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q9023897"
   },
   {
     "id": "pleiades:256705",
@@ -5072,7 +5115,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Ponte sul Fosso di Biserano is a Roman aqueduct bridge of the Aqua Anio Vetus.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q137557050"
   },
   {
     "id": "pleiades:583864320",
@@ -5181,7 +5225,8 @@
     "category": "infrastructure",
     "description": "Remains of a portion of the Aqua Marcia aqueduct located near Gallicano nel Lazio.",
     "props": { "ancientName": "Ponte Lupo" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q55162589"
   },
   {
     "id": "pleiades:467960423",
@@ -5566,7 +5611,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 25 C3 unnamed aqueduct (Puente de los Moros, E Barbariana)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3754535"
   },
   {
     "id": "pleiades:246890",
@@ -5776,7 +5822,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "This ancient aqueduct supplied Neviodunum from the south.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q15736475"
   },
   {
     "id": "pleiades:197822",
@@ -5909,7 +5956,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A thirteenth-century aqueduct at Spoletium.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q16591375"
   },
   {
     "id": "pleiades:668932",
@@ -5962,7 +6010,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 12 D4 unnamed aqueduct (Augusta Vindelicum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q31873172"
   },
   {
     "id": "pleiades:481840085",
@@ -5975,7 +6024,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remaining segment of a Roman aqueduct in the valley of the Arcioni stream, comune of Rocca di Papa (Italy).",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q243228"
   },
   {
     "id": "pleiades:722219503",
@@ -6028,7 +6078,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 14 F1 unnamed aqueduct (*Briotreidis?)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q2859217"
   },
   {
     "id": "pleiades:138924",
@@ -6161,7 +6212,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 42 B2 unnamed aqueduct (Arretium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q9160295"
   },
   {
     "id": "pleiades:413744",
@@ -6187,7 +6239,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 42 D3 unnamed aqueduct (Spoletium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q18655842"
   },
   {
     "id": "pleiades:413746",
@@ -6200,7 +6253,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 42 E4 unnamed aqueduct (near Amiternum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q177061"
   },
   {
     "id": "pleiades:237072",
@@ -6240,7 +6294,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 9 D4 unnamed aqueduct (Carpow)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q2309575"
   },
   {
     "id": "pleiades:89848",
@@ -6253,7 +6308,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 9 E5 unnamed aqueduct ((A)Esica)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q4688554"
   },
   {
     "id": "pleiades:89849",
@@ -6266,7 +6322,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 9 F6 unnamed aqueduct (Longovicium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q6674222"
   },
   {
     "id": "pleiades:102438478",
@@ -6377,6 +6434,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 11 I3 unnamed aqueduct (Mogontiacum)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1795296"
   }
 ]

@@ -10,7 +10,8 @@
     "endYear": 280,
     "source": "OxREP",
     "category": "production",
-    "description": "Major olive oil production center in Roman Mauretania with over 50 identified presses"
+    "description": "Major olive oil production center in Roman Mauretania with over 50 identified presses",
+    "qid": "Q391215"
   },
   {
     "id": "press:press-002",
@@ -63,7 +64,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Multiple olive presses in the agricultural hinterland of Carthage"
+    "description": "Multiple olive presses in the agricultural hinterland of Carthage",
+    "qid": "Q1967945"
   },
   {
     "id": "press:press-006",
@@ -117,7 +119,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Large-scale olive oil production in the Cillium region of Byzacena",
-    "qid": "Q852735"
+    "containedInQid": "Q852735"
   },
   {
     "id": "press:press-010",
@@ -158,7 +160,8 @@
     "endYear": 380,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at Theveste, an important Numidian agricultural center"
+    "description": "Olive press at Theveste, an important Numidian agricultural center",
+    "qid": "Q60746446"
   },
   {
     "id": "press:press-013",
@@ -266,7 +269,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press in the rich agricultural territory between Leptis and Oea"
+    "description": "Olive press in the rich agricultural territory between Leptis and Oea",
+    "qid": "Q2655444"
   },
   {
     "id": "press:press-021",
@@ -294,7 +298,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Highland olive press in the Gebel region of Tripolitania",
-    "qid": "Q1642670"
+    "containedInQid": "Q1642670"
   },
   {
     "id": "press:press-023",
@@ -441,7 +445,8 @@
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive oil production near Annaba, the see of St. Augustine"
+    "description": "Olive oil production near Annaba, the see of St. Augustine",
+    "qid": "Q858024"
   },
   {
     "id": "press:press-034",
@@ -454,7 +459,8 @@
     "endYear": 380,
     "source": "OxREP",
     "category": "production",
-    "description": "Press installation at Guelma, ancient Calama in Numidia"
+    "description": "Press installation at Guelma, ancient Calama in Numidia",
+    "qid": "Q17513228"
   },
   {
     "id": "press:press-035",
@@ -689,7 +695,8 @@
     "endYear": 100,
     "source": "Pleiades",
     "category": "production",
-    "description": "Subterranean olive press complex in the Shephelah lowlands of Judea"
+    "description": "Subterranean olive press complex in the Shephelah lowlands of Judea",
+    "qid": "Q1507676"
   },
   {
     "id": "press:press-053",
@@ -702,7 +709,8 @@
     "endYear": 67,
     "source": "Pleiades",
     "category": "production",
-    "description": "Oil press at the fortified town of Gamla in the Golan Heights"
+    "description": "Oil press at the fortified town of Gamla in the Golan Heights",
+    "qid": "Q1493165"
   },
   {
     "id": "press:press-054",
@@ -742,7 +750,8 @@
     "endYear": 200,
     "source": "Pleiades",
     "category": "production",
-    "description": "Olive press at the fishing village of Bethsaida near the Sea of Galilee"
+    "description": "Olive press at the fishing village of Bethsaida near the Sea of Galilee",
+    "qid": "Q501773"
   },
   {
     "id": "press:press-057",
@@ -1096,7 +1105,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Olive oil production in the Eurotas valley near Roman Sparta"
+    "description": "Olive oil production in the Eurotas valley near Roman Sparta",
+    "qid": "Q2308046"
   },
   {
     "id": "press:press-083",
@@ -1109,7 +1119,8 @@
     "endYear": 350,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press at Roman Corinth, known for its wine exports"
+    "description": "Wine press at Roman Corinth, known for its wine exports",
+    "qid": "Q587983"
   },
   {
     "id": "press:press-084",
@@ -1410,7 +1421,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press at Lilybaeum in western Sicily"
+    "description": "Wine press at Lilybaeum in western Sicily",
+    "qid": "Q481514"
   },
   {
     "id": "press:press-106",
@@ -1437,7 +1449,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Oil press at the ancient Sardinian coastal settlement of Nora"
+    "description": "Oil press at the ancient Sardinian coastal settlement of Nora",
+    "qid": "Q677175"
   },
   {
     "id": "press:press-108",
@@ -1759,7 +1772,8 @@
     "endYear": 250,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at Baetulo, major producer of Laietanian wine"
+    "description": "Wine press at Baetulo, major producer of Laietanian wine",
+    "qid": "Q126540870"
   },
   {
     "id": "press:press-132",
@@ -1772,7 +1786,8 @@
     "endYear": 250,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press in the Penedès region, center of Roman-era Catalan viticulture"
+    "description": "Wine press in the Penedès region, center of Roman-era Catalan viticulture",
+    "qid": "Q3816471"
   },
   {
     "id": "press:press-133",
@@ -1812,7 +1827,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive oil production at the Roman colony of Pollentia on Mallorca"
+    "description": "Olive oil production at the Roman colony of Pollentia on Mallorca",
+    "qid": "Q1512868"
   },
   {
     "id": "press:press-136",
@@ -1936,7 +1952,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press near Lugdunum, capital of the Three Gauls"
+    "description": "Wine press near Lugdunum, capital of the Three Gauls",
+    "qid": "Q127430633"
   },
   {
     "id": "press:press-145",
@@ -1949,7 +1966,8 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press in the Rhône valley near Vienna, known for Allobrogian wine"
+    "description": "Wine press in the Rhône valley near Vienna, known for Allobrogian wine",
+    "qid": "Q127431682"
   },
   {
     "id": "press:press-146",
@@ -2072,7 +2090,8 @@
     "endYear": 380,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press on the Cap Africa peninsula in the Sahel region"
+    "description": "Oil press on the Cap Africa peninsula in the Sahel region",
+    "qid": "Q466054"
   },
   {
     "id": "press:press-155",
@@ -2375,7 +2394,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press at the ancient colonia of Assuras in the Tell region"
+    "description": "Oil press at the ancient colonia of Assuras in the Tell region",
+    "qid": "Q104588327"
   },
   {
     "id": "press:press-178",
@@ -2534,7 +2554,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press in the suburbs of ancient Oea (Tripoli)"
+    "description": "Olive press in the suburbs of ancient Oea (Tripoli)",
+    "qid": "Q1994812"
   },
   {
     "id": "press:press-190",
@@ -2716,7 +2737,8 @@
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press in the southern hinterland of Theveste (Tebessa)"
+    "description": "Oil press in the southern hinterland of Theveste (Tebessa)",
+    "qid": "Q12220954"
   },
   {
     "id": "press:press-204",
@@ -2835,7 +2857,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press in the southern agricultural territory of Cirta"
+    "description": "Oil press in the southern agricultural territory of Cirta",
+    "qid": "Q1093156"
   },
   {
     "id": "press:press-213",
@@ -2848,7 +2871,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Coastal olive press at ancient Saldae (Béjaïa) in Kabylie"
+    "description": "Coastal olive press at ancient Saldae (Béjaïa) in Kabylie",
+    "qid": "Q15973864"
   },
   {
     "id": "press:press-214",
@@ -2874,7 +2898,8 @@
     "endYear": 70,
     "source": "OxREP",
     "category": "production",
-    "description": "Early Roman olive press at the fortified village of Yodefat"
+    "description": "Early Roman olive press at the fortified village of Yodefat",
+    "qid": "Q49004232"
   },
   {
     "id": "press:press-216",
@@ -2913,7 +2938,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press in the Upper Galilee village of Nabratein"
+    "description": "Olive press in the Upper Galilee village of Nabratein",
+    "qid": "Q267300"
   },
   {
     "id": "press:press-219",
@@ -3216,7 +3242,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at the Decapolis city of Gadara overlooking the Sea of Galilee"
+    "description": "Olive press at the Decapolis city of Gadara overlooking the Sea of Galilee",
+    "qid": "Q56322109"
   },
   {
     "id": "press:press-242",
@@ -3649,7 +3676,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press in the Utiel-Requena region of eastern Hispania"
+    "description": "Wine press in the Utiel-Requena region of eastern Hispania",
+    "qid": "Q24017136"
   },
   {
     "id": "press:press-275",
@@ -3731,7 +3759,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at the Arcadian city of Tegea in the central Peloponnese"
+    "description": "Olive press at the Arcadian city of Tegea in the central Peloponnese",
+    "qid": "Q645234"
   },
   {
     "id": "press:press-281",
@@ -3867,7 +3896,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Volcanic terroir wine press on ancient Thera"
+    "description": "Volcanic terroir wine press on ancient Thera",
+    "qid": "Q129296"
   },
   {
     "id": "press:press-291",
@@ -3934,7 +3964,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the Messenian port of Methone"
+    "description": "Wine press at the Messenian port of Methone",
+    "qid": "Q60790706"
   },
   {
     "id": "press:press-296",
@@ -4054,7 +4085,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at ancient Venusia, birthplace of Horace"
+    "description": "Olive press at ancient Venusia, birthplace of Horace",
+    "qid": "Q52691"
   },
   {
     "id": "press:press-305",
@@ -4246,7 +4278,8 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press near the legendary wealthy colony of Sybaris in the Sibaritide plain"
+    "description": "Oil press near the legendary wealthy colony of Sybaris in the Sibaritide plain",
+    "qid": "Q220583"
   },
   {
     "id": "press:press-319",
@@ -4355,7 +4388,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press at the education center of Nysa in the Maeander valley"
+    "description": "Oil press at the education center of Nysa in the Maeander valley",
+    "qid": "Q1779332"
   },
   {
     "id": "press:press-327",
@@ -4423,7 +4457,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at the Lycian city of Myra, famous for its rock tombs"
+    "description": "Olive press at the Lycian city of Myra, famous for its rock tombs",
+    "qid": "Q652024"
   },
   {
     "id": "press:press-332",
@@ -4690,7 +4725,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at the administrative capital of Roman Cyprus"
+    "description": "Olive press at the administrative capital of Roman Cyprus",
+    "qid": "Q64433741"
   },
   {
     "id": "press:press-352",
@@ -4731,7 +4767,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the ancient city of Amathous on the southern Cyprus coast"
+    "description": "Wine press at the ancient city of Amathous on the southern Cyprus coast",
+    "qid": "Q22991901"
   },
   {
     "id": "press:press-355",
@@ -4785,7 +4822,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the Greek-Roman colony of Chersonesus in Crimea"
+    "description": "Wine press at the Greek-Roman colony of Chersonesus in Crimea",
+    "qid": "Q638445"
   },
   {
     "id": "press:press-359",
@@ -4812,7 +4850,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the Bosporan Kingdom capital on the Kerch Strait"
+    "description": "Wine press at the Bosporan Kingdom capital on the Kerch Strait",
+    "qid": "Q906661"
   },
   {
     "id": "press:press-361",
@@ -4919,7 +4958,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press near the Mauretanian capital of Caesarea (Cherchell)"
+    "description": "Oil press near the Mauretanian capital of Caesarea (Cherchell)",
+    "qid": "Q1309531"
   },
   {
     "id": "press:press-369",
@@ -5040,7 +5080,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the Nabataean-Roman capital of Petra in Jordan"
+    "description": "Wine press at the Nabataean-Roman capital of Petra in Jordan",
+    "qid": "Q5788"
   },
   {
     "id": "press:press-378",
@@ -5121,7 +5162,8 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press in the Crati valley of ancient Bruttium"
+    "description": "Wine press in the Crati valley of ancient Bruttium",
+    "qid": "Q13619"
   },
   {
     "id": "press:press-384",
@@ -5242,7 +5284,8 @@
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at the Lebanese coastal city of Tripolis"
+    "description": "Olive press at the Lebanese coastal city of Tripolis",
+    "qid": "Q127431469"
   },
   {
     "id": "press:press-393",
@@ -5255,7 +5298,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press at Epiphania on the Orontes in central Syria"
+    "description": "Oil press at Epiphania on the Orontes in central Syria",
+    "qid": "Q2856152"
   },
   {
     "id": "press:press-394",
@@ -5320,7 +5364,8 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press in the western agricultural suburbs of Thuburbo Majus"
+    "description": "Oil press in the western agricultural suburbs of Thuburbo Majus",
+    "qid": "Q1967945"
   },
   {
     "id": "press:press-399",

@@ -1758,7 +1758,7 @@
     "category": "religion",
     "description": "The remains of a possible Gallo-Roman fanum were recovered, including an enclosure surrounding a rectangular structure along with terra sigillata from La Graufesenque.",
     "estimatedTemporal": true,
-    "qid": "Q126692545"
+    "containedInQid": "Q126692545"
   },
   {
     "id": "pleiades:891993831",
@@ -3482,10 +3482,10 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q22985795",
     "description": "An ancient place, cited: BAtlas 72 B3 Rantidi",
     "props": { "ancientName": "Rantidi" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q22985795"
   },
   {
     "id": "pleiades:707634",

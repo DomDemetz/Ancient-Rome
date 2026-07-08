@@ -987,7 +987,7 @@
     "category": "maritime",
     "description": "Late antique vessel carrying a prefabricated marble church interior from Constantinople to the West.",
     "props": { "depth": 7 },
-    "qid": "Q745380"
+    "containedInQid": "Q745380"
   },
   {
     "id": "shipwreck:sw-070",
@@ -1161,7 +1161,7 @@
     "category": "maritime",
     "description": "Late Republican vessel off Halicarnassus carrying amphorae from Kos and Rhodes.",
     "props": { "depth": 30 },
-    "qid": "Q111386721"
+    "containedInQid": "Q111386721"
   },
   {
     "id": "shipwreck:sw-082",
@@ -1235,7 +1235,7 @@
     "category": "maritime",
     "description": "Flavian merchant vessel off the ancient port of Side in Pamphylia.",
     "props": { "depth": 15 },
-    "qid": "Q152405"
+    "containedInQid": "Q152405"
   },
   {
     "id": "shipwreck:sw-087",
@@ -1250,7 +1250,7 @@
     "category": "maritime",
     "description": "Late Republican wreck off Gozo, Malta on the major north-south shipping lane.",
     "props": { "depth": 25 },
-    "qid": "Q19993066"
+    "containedInQid": "Q19993066"
   },
   {
     "id": "shipwreck:sw-088",
@@ -1279,7 +1279,7 @@
     "category": "maritime",
     "description": "Late Ptolemaic grain vessel in the eastern harbor of Alexandria.",
     "props": { "depth": 8 },
-    "qid": "Q4518971"
+    "containedInQid": "Q4518971"
   },
   {
     "id": "shipwreck:sw-090",
@@ -1336,7 +1336,7 @@
     "category": "maritime",
     "description": "Republican vessel at Cartagena carrying lead ingots from nearby mines, stamped with Roman names.",
     "props": { "depth": 20 },
-    "qid": "Q6092240"
+    "containedInQid": "Q6092240"
   },
   {
     "id": "shipwreck:sw-094",
@@ -1351,7 +1351,7 @@
     "category": "maritime",
     "description": "Late Republican wreck at Escombreras near Cartagena carrying Italian wine amphorae and Spanish lead.",
     "props": { "depth": 30 },
-    "qid": "Q3394383"
+    "containedInQid": "Q3394383"
   },
   {
     "id": "shipwreck:sw-095",
@@ -1365,8 +1365,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Late Republican cargo ship off Cape Palos carrying Dressel 1 wine amphorae.",
-    "props": { "depth": 38 },
-    "qid": "Q125904750"
+    "props": { "depth": 38 }
   },
   {
     "id": "shipwreck:sw-096",
@@ -1381,7 +1380,7 @@
     "category": "maritime",
     "description": "Flavian merchantman off Alicante carrying Baetican fish sauce and olive oil amphorae.",
     "props": { "depth": 18 },
-    "qid": "Q4891396"
+    "containedInQid": "Q4891396"
   },
   {
     "id": "shipwreck:sw-097",
@@ -1396,7 +1395,7 @@
     "category": "maritime",
     "description": "Julio-Claudian vessel off Tarraco carrying Tarraconensian wine amphorae to Italy.",
     "props": { "depth": 15 },
-    "qid": "Q3324718"
+    "containedInQid": "Q3324718"
   },
   {
     "id": "shipwreck:sw-098",
@@ -1569,7 +1568,7 @@
     "category": "maritime",
     "description": "Late Republican wreck near the famous Kyrenia site carrying Rhodian and Knidian amphorae.",
     "props": { "depth": 35 },
-    "qid": "Q206760"
+    "containedInQid": "Q206760"
   },
   {
     "id": "shipwreck:sw-110",
@@ -1597,8 +1596,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Trajanic cargo vessel near the Libyan port of Sabratha carrying olive oil from Tripolitania.",
-    "props": { "depth": 8 },
-    "qid": "Q127431150"
+    "props": { "depth": 8 }
   },
   {
     "id": "shipwreck:sw-112",
@@ -1627,8 +1625,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Republican wreck off the island of Djerba carrying Punic and Italian amphorae.",
-    "props": { "depth": 15 },
-    "qid": "Q188938"
+    "props": { "depth": 15 }
   },
   {
     "id": "shipwreck:sw-114",
@@ -1727,7 +1724,7 @@
     "category": "maritime",
     "description": "Wreck in the approaches to the Punic harbor of Carthage carrying Italian imports.",
     "props": { "depth": 4 },
-    "qid": "Q28151514"
+    "containedInQid": "Q28151514"
   },
   {
     "id": "shipwreck:sw-121",
@@ -1742,7 +1739,7 @@
     "category": "maritime",
     "description": "Flavian merchant vessel at Roman Carthage carrying Spanish and African amphorae.",
     "props": { "depth": 5 },
-    "qid": "Q28151514"
+    "containedInQid": "Q28151514"
   },
   {
     "id": "shipwreck:sw-122",
@@ -1772,7 +1769,7 @@
     "category": "maritime",
     "description": "Flavian-era vessel in the harbor of Olbia, northeastern Sardinia, carrying Italian wine.",
     "props": { "depth": 8 },
-    "qid": "Q3909258"
+    "containedInQid": "Q3909258"
   },
   {
     "id": "shipwreck:sw-124",
@@ -1816,7 +1813,7 @@
     "category": "maritime",
     "description": "Mid-Republican wreck off Giglio island carrying wine and pottery from Campania.",
     "props": { "depth": 45 },
-    "qid": "Q1523725"
+    "containedInQid": "Q1523725"
   },
   {
     "id": "shipwreck:sw-127",
@@ -1831,7 +1828,7 @@
     "category": "maritime",
     "description": "Late Republican vessel near the island of Montecristo carrying wine on the Italy-to-Gaul route.",
     "props": { "depth": 55 },
-    "qid": "Q203169"
+    "containedInQid": "Q203169"
   },
   {
     "id": "shipwreck:sw-128",
@@ -1860,7 +1857,7 @@
     "category": "maritime",
     "description": "Neronian-era cargo vessel near the port of Antium carrying eastern Mediterranean imports.",
     "props": { "depth": 12 },
-    "qid": "Q241717"
+    "containedInQid": "Q241717"
   },
   {
     "id": "shipwreck:sw-130",
@@ -1890,7 +1887,7 @@
     "category": "maritime",
     "description": "Late Republican vessel at Brundisium, the main port for traffic to Greece and the East.",
     "props": { "depth": 10 },
-    "qid": "Q3909214"
+    "containedInQid": "Q3909214"
   },
   {
     "id": "shipwreck:sw-132",
@@ -1932,8 +1929,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Late Republican vessel near Corcyra on the main east-west shipping route.",
-    "props": { "depth": 20 },
-    "qid": "Q121378"
+    "props": { "depth": 20 }
   },
   {
     "id": "shipwreck:sw-135",
@@ -1947,8 +1943,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Flavian merchant vessel near ancient Buthrotum in Epirus carrying wine amphorae.",
-    "props": { "depth": 12 },
-    "qid": "Q82073762"
+    "props": { "depth": 12 }
   },
   {
     "id": "shipwreck:sw-136",
@@ -1992,7 +1987,7 @@
     "category": "maritime",
     "description": "Mid-Republican wreck in the approaches to Piraeus carrying Italian and Rhodian amphorae.",
     "props": { "depth": 8 },
-    "qid": "Q13426467"
+    "containedInQid": "Q13426467"
   },
   {
     "id": "shipwreck:sw-139",
@@ -2007,7 +2002,7 @@
     "category": "maritime",
     "description": "Flavian-era vessel at Piraeus carrying eastern Mediterranean exports to the Adriatic.",
     "props": { "depth": 6 },
-    "qid": "Q13426467"
+    "containedInQid": "Q13426467"
   },
   {
     "id": "shipwreck:sw-140",
@@ -2050,7 +2045,7 @@
     "category": "maritime",
     "description": "Trajanic-era wreck north of Heraklion carrying amphorae and pottery from Crete.",
     "props": { "depth": 28 },
-    "qid": "Q868952"
+    "containedInQid": "Q868952"
   },
   {
     "id": "shipwreck:sw-143",
@@ -2153,7 +2148,7 @@
     "category": "maritime",
     "description": "Late Republican vessel off Agay on the Var coast carrying wine to Gaul.",
     "props": { "depth": 25 },
-    "qid": "Q392030"
+    "containedInQid": "Q392030"
   },
   {
     "id": "shipwreck:sw-150",
@@ -2167,8 +2162,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Late Republican wine ship off Nice on the coastal route from Italy to Gaul.",
-    "props": { "depth": 50 },
-    "qid": "Q3237998"
+    "props": { "depth": 50 }
   },
   {
     "id": "shipwreck:sw-151",
@@ -2183,7 +2177,7 @@
     "category": "maritime",
     "description": "Flavian-era trading vessel off Monaco carrying mixed Mediterranean cargo.",
     "props": { "depth": 35 },
-    "qid": "Q235"
+    "containedInQid": "Q235"
   },
   {
     "id": "shipwreck:sw-152",
@@ -2283,7 +2277,7 @@
     "category": "maritime",
     "description": "Late Republican vessel lost in the treacherous Strait of Messina carrying wine cargo.",
     "props": { "depth": 55 },
-    "qid": "Q3909251"
+    "containedInQid": "Q3909251"
   },
   {
     "id": "shipwreck:sw-159",
@@ -2298,7 +2292,7 @@
     "category": "maritime",
     "description": "Julio-Claudian cargo ship wrecked in the Strait of Messina carrying eastern Mediterranean goods.",
     "props": { "depth": 60 },
-    "qid": "Q3909251"
+    "containedInQid": "Q3909251"
   },
   {
     "id": "shipwreck:sw-160",
@@ -2327,7 +2321,7 @@
     "category": "maritime",
     "description": "Hellenistic-era wreck near Lipari carrying Punic and Greek transport amphorae.",
     "props": { "depth": 18 },
-    "qid": "Q499519"
+    "containedInQid": "Q499519"
   },
   {
     "id": "shipwreck:sw-162",
@@ -2342,7 +2336,7 @@
     "category": "maritime",
     "description": "Early Republican wreck off Filicudi carrying Greco-Italic amphorae on the Tyrrhenian route.",
     "props": { "depth": 48 },
-    "qid": "Q743908"
+    "containedInQid": "Q743908"
   },
   {
     "id": "shipwreck:sw-163",
@@ -2357,7 +2351,7 @@
     "category": "maritime",
     "description": "Republican wreck near the Egadi Islands carrying wine on the Africa route.",
     "props": { "depth": 22 },
-    "qid": "Q996782"
+    "containedInQid": "Q996782"
   },
   {
     "id": "shipwreck:sw-164",
@@ -2442,7 +2436,7 @@
     "category": "maritime",
     "description": "Third-century vessel near the island of Pag carrying African amphorae into the northern Adriatic.",
     "props": { "depth": 15 },
-    "qid": "Q209784"
+    "containedInQid": "Q209784"
   },
   {
     "id": "shipwreck:sw-170",
@@ -2457,7 +2451,7 @@
     "category": "maritime",
     "description": "Trajanic-era vessel near the lagoon of Aquileia at the head of the Adriatic.",
     "props": { "depth": 3 },
-    "qid": "Q53130"
+    "containedInQid": "Q53130"
   },
   {
     "id": "shipwreck:sw-171",
@@ -2515,7 +2509,7 @@
     "category": "maritime",
     "description": "Mid-Republican wreck in the strait between Chios and the Turkish coast carrying famous Chian wine.",
     "props": { "depth": 32 },
-    "qid": "Q160483"
+    "containedInQid": "Q160483"
   },
   {
     "id": "shipwreck:sw-175",
@@ -2530,7 +2524,7 @@
     "category": "maritime",
     "description": "Late Republican vessel in the Samos channel carrying Aegean and Italian amphorae.",
     "props": { "depth": 22 },
-    "qid": "Q13580795"
+    "containedInQid": "Q13580795"
   },
   {
     "id": "shipwreck:sw-176",
@@ -2545,7 +2539,7 @@
     "category": "maritime",
     "description": "Flavian vessel in the dangerous strait between Crete and Karpathos on the Egypt route.",
     "props": { "depth": 40 },
-    "qid": "Q65082025"
+    "containedInQid": "Q65082025"
   },
   {
     "id": "shipwreck:sw-177",
@@ -2560,7 +2554,7 @@
     "category": "maritime",
     "description": "Mid-Republican vessel in the approaches to Rhodes, the great Hellenistic commercial center.",
     "props": { "depth": 12 },
-    "qid": "Q188731"
+    "containedInQid": "Q188731"
   },
   {
     "id": "shipwreck:sw-178",
@@ -2589,7 +2583,7 @@
     "category": "maritime",
     "description": "Early Imperial vessel off ancient Tyre carrying Levantine wine and olive oil.",
     "props": { "depth": 15 },
-    "qid": "Q3991738"
+    "containedInQid": "Q3991738"
   },
   {
     "id": "shipwreck:sw-180",
@@ -2631,8 +2625,7 @@
     "source": "OxREP",
     "category": "maritime",
     "description": "Augustan vessel near the harbor of Paphos carrying Levantine and Egyptian goods.",
-    "props": { "depth": 18 },
-    "qid": "Q28671087"
+    "props": { "depth": 18 }
   },
   {
     "id": "shipwreck:sw-183",
@@ -2661,7 +2654,7 @@
     "category": "maritime",
     "description": "Severan-era vessel off Attaleia carrying late Roman eastern Mediterranean amphorae.",
     "props": { "depth": 20 },
-    "qid": "Q32794080"
+    "containedInQid": "Q32794080"
   },
   {
     "id": "shipwreck:sw-185",
@@ -2676,7 +2669,7 @@
     "category": "maritime",
     "description": "Antonine vessel in the perilous Strait of Bonifacio between Corsica and Sardinia.",
     "props": { "depth": 42 },
-    "qid": "Q49346604"
+    "containedInQid": "Q49346604"
   },
   {
     "id": "shipwreck:sw-186",
@@ -2749,7 +2742,7 @@
     "category": "maritime",
     "description": "Severan-era vessel near ancient Hadrumetum carrying Byzacenian olive oil for export.",
     "props": { "depth": 18 },
-    "qid": "Q11942400"
+    "containedInQid": "Q11942400"
   },
   {
     "id": "shipwreck:sw-191",
@@ -2764,7 +2757,7 @@
     "category": "maritime",
     "description": "Hadrianic vessel off Thapsus carrying Byzacenian olive oil and African Red Slip pottery.",
     "props": { "depth": 8 },
-    "qid": "Q20432097"
+    "containedInQid": "Q20432097"
   },
   {
     "id": "shipwreck:sw-192",
@@ -2808,7 +2801,7 @@
     "category": "maritime",
     "description": "Late Roman vessel off Hippo Regius carrying African olive oil, one of the last major exports.",
     "props": { "depth": 22 },
-    "qid": "Q111387376"
+    "containedInQid": "Q111387376"
   },
   {
     "id": "shipwreck:sw-195",
@@ -2823,7 +2816,7 @@
     "category": "maritime",
     "description": "Mid-Republican wreck near Thasos carrying renowned Thasian wine amphorae.",
     "props": { "depth": 20 },
-    "qid": "Q204096"
+    "containedInQid": "Q204096"
   },
   {
     "id": "shipwreck:sw-196",
@@ -2838,7 +2831,7 @@
     "category": "maritime",
     "description": "Late Republican vessel near Samothrace in the northern Aegean carrying trade cargo.",
     "props": { "depth": 40 },
-    "qid": "Q203175"
+    "containedInQid": "Q203175"
   },
   {
     "id": "shipwreck:sw-197",
@@ -3112,7 +3105,7 @@
     "category": "maritime",
     "description": "skeleton of man with sword and leather sheath; dating from C10 Muslim ceramic; ship built of small timbers, skeleton first; 1 (=ship's boat?) and possibly 2 ships nearby; possible naval battle; some of the objects point to Alicante area, Murcia",
     "props": { "depth": 45 },
-    "qid": "Q392030"
+    "containedInQid": "Q392030"
   },
   {
     "id": "shipwreck:darmc-wreck-7",
@@ -3127,7 +3120,7 @@
     "category": "maritime",
     "description": "pieces of wood, 500 m from coast",
     "props": { "depth": 8 },
-    "qid": "Q98094661"
+    "containedInQid": "Q98094661"
   },
   {
     "id": "shipwreck:darmc-wreck-8",
@@ -3220,8 +3213,7 @@
     "endYear": 250,
     "source": "DARMC",
     "category": "maritime",
-    "description": "dugout found close to Roman-period buildings",
-    "qid": "Q17590808"
+    "description": "dugout found close to Roman-period buildings"
   },
   {
     "id": "shipwreck:darmc-wreck-17",
@@ -3247,8 +3239,7 @@
     "endYear": 500,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q815105"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-20",
@@ -3332,15 +3323,14 @@
     "id": "shipwreck:darmc-wreck-26",
     "type": "shipwreck",
     "subtype": "pottery",
-    "name": "Anth\u00e9or",
+    "name": "Anthéor",
     "lat": 43.417,
     "lng": 6.883,
     "startYear": -200,
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q26816828"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-27",
@@ -3369,7 +3359,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q241717"
+    "containedInQid": "Q241717"
   },
   {
     "id": "shipwreck:darmc-wreck-29",
@@ -3397,7 +3387,7 @@
     "category": "maritime",
     "description": "heavily looted; many amphoras; pieces of the ship present",
     "props": { "depth": 11 },
-    "qid": "Q3909206"
+    "containedInQid": "Q3909206"
   },
   {
     "id": "shipwreck:darmc-wreck-31",
@@ -3439,13 +3429,13 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "2 miles off Cala Grande; 3 dolia",
-    "qid": "Q214731"
+    "containedInQid": "Q214731"
   },
   {
     "id": "shipwreck:darmc-wreck-34",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Arles-Rh\u00f4ne",
+    "name": "Arles-Rhône",
     "lat": 43.617,
     "lng": 4.667,
     "startYear": 1,
@@ -3590,7 +3580,7 @@
     "category": "maritime",
     "description": "frame and planking of ship's hull; several 1000 amphoras",
     "props": { "depth": 32 },
-    "qid": "Q71832"
+    "containedInQid": "Q71832"
   },
   {
     "id": "shipwreck:darmc-wreck-51",
@@ -3610,7 +3600,7 @@
     "id": "shipwreck:darmc-wreck-53",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Baie de l'Amiti\u00e9",
+    "name": "Baie de l'Amitié",
     "lat": 43.267,
     "lng": 3.467,
     "startYear": 50,
@@ -3652,7 +3642,7 @@
     "id": "shipwreck:darmc-wreck-56",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Balise du Pr\u00eatre 2",
+    "name": "Balise du Prêtre 2",
     "lat": 41.35,
     "lng": 9.2,
     "startYear": 1,
@@ -3674,7 +3664,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q97616657"
+    "containedInQid": "Q97616657"
   },
   {
     "id": "shipwreck:darmc-wreck-59",
@@ -3687,8 +3677,7 @@
     "endYear": 0,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q815120"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-60",
@@ -3714,14 +3703,14 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "burned  hull, 3 human skeletons, Saracen ship; dated by style on decorative objects; skeleton first construction; flat-bottomed, similar to Agay and Ser\u00e7e Liman",
+    "description": "burned  hull, 3 human skeletons, Saracen ship; dated by style on decorative objects; skeleton first construction; flat-bottomed, similar to Agay and Serçe Liman",
     "props": { "depth": 58 }
   },
   {
     "id": "shipwreck:darmc-wreck-62",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Ben-Afel\u00ed",
+    "name": "Ben-Afelí",
     "lat": 39.95,
     "lng": -0.067,
     "startYear": 85,
@@ -3749,7 +3738,7 @@
     "id": "shipwreck:darmc-wreck-64",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Ber\u00e0",
+    "name": "Berà",
     "lat": 41.117,
     "lng": 1.45,
     "startYear": 50,
@@ -3758,7 +3747,7 @@
     "category": "maritime",
     "description": "4 km offshore",
     "props": { "depth": 50 },
-    "qid": "Q631051"
+    "containedInQid": "Q631051"
   },
   {
     "id": "shipwreck:darmc-wreck-65",
@@ -3773,7 +3762,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 30 },
-    "qid": "Q3777057"
+    "containedInQid": "Q3777057"
   },
   {
     "id": "shipwreck:darmc-wreck-66",
@@ -3787,7 +3776,7 @@
     "category": "maritime",
     "description": "boat and steering oar, timbers dated by 14C to 90+-60, by dendro: 182; flat-bottomed; mast; capacity of 7-10 tons",
     "props": { "depth": 2 },
-    "qid": "Q29522665"
+    "containedInQid": "Q29522665"
   },
   {
     "id": "shipwreck:darmc-wreck-67",
@@ -3801,8 +3790,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "vessel possibly burned",
-    "props": { "depth": 15 },
-    "qid": "Q2718147"
+    "props": { "depth": 15 }
   },
   {
     "id": "shipwreck:darmc-wreck-68",
@@ -3827,8 +3815,7 @@
     "endYear": 250,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q120318444"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-70",
@@ -3868,8 +3855,7 @@
     "endYear": 500,
     "source": "DARMC",
     "category": "maritime",
-    "description": "100 m off Brescou island",
-    "qid": "Q112922414"
+    "description": "100 m off Brescou island"
   },
   {
     "id": "shipwreck:darmc-wreck-73",
@@ -3896,7 +3882,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "keel and planking of large medieval ship",
-    "qid": "Q16148"
+    "containedInQid": "Q16148"
   },
   {
     "id": "shipwreck:darmc-wreck-75",
@@ -3908,8 +3894,7 @@
     "endYear": 250,
     "source": "DARMC",
     "category": "maritime",
-    "description": "mast-step, mast, steering oar, planking, C14 180+-80; similar to Blackfriars boat",
-    "qid": "Q905848"
+    "description": "mast-step, mast, steering oar, planking, C14 180+-80; similar to Blackfriars boat"
   },
   {
     "id": "shipwreck:darmc-wreck-76",
@@ -3969,7 +3954,7 @@
     "id": "shipwreck:darmc-wreck-83",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "C\u00e1diz 3",
+    "name": "Cádiz 3",
     "lat": 36.517,
     "lng": -6.333,
     "startYear": 1,
@@ -3984,7 +3969,7 @@
     "id": "shipwreck:darmc-wreck-85",
     "type": "shipwreck",
     "subtype": "stone",
-    "name": "C\u00e1diz 5",
+    "name": "Cádiz 5",
     "lat": 36.533,
     "lng": -6.333,
     "startYear": 1,
@@ -4146,7 +4131,7 @@
     "id": "shipwreck:darmc-wreck-101",
     "type": "shipwreck",
     "subtype": "tiles",
-    "name": "Calanque de l'\u00c2ne",
+    "name": "Calanque de l'Âne",
     "lat": 43.1,
     "lng": 5.283,
     "startYear": 80,
@@ -4178,8 +4163,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Calvi 1 dated to end of 16th C.: Villi\u00e9 1989",
-    "qid": "Q11949522"
+    "description": "Calvi 1 dated to end of 16th C.: Villié 1989"
   },
   {
     "id": "shipwreck:darmc-wreck-108",
@@ -4198,7 +4182,7 @@
     "id": "shipwreck:darmc-wreck-112",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Cap B\u00e9nat 1",
+    "name": "Cap Bénat 1",
     "lat": 43.083,
     "lng": 6.367,
     "startYear": 30,
@@ -4222,7 +4206,7 @@
     "category": "maritime",
     "description": "timbers preserved",
     "props": { "depth": 50 },
-    "qid": "Q11919661"
+    "containedInQid": "Q11919661"
   },
   {
     "id": "shipwreck:darmc-wreck-115",
@@ -4250,7 +4234,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q34826862"
+    "containedInQid": "Q34826862"
   },
   {
     "id": "shipwreck:darmc-wreck-118",
@@ -4264,7 +4248,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q2371579"
+    "containedInQid": "Q2371579"
   },
   {
     "id": "shipwreck:darmc-wreck-119",
@@ -4293,7 +4277,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 15 },
-    "qid": "Q23812042"
+    "containedInQid": "Q23812042"
   },
   {
     "id": "shipwreck:darmc-wreck-121",
@@ -4350,7 +4334,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 38 },
-    "qid": "Q34828756"
+    "containedInQid": "Q34828756"
   },
   {
     "id": "shipwreck:darmc-wreck-127",
@@ -4535,7 +4519,7 @@
     "category": "maritime",
     "description": "100 m from coast",
     "props": { "depth": 44 },
-    "qid": "Q46849937"
+    "containedInQid": "Q46849937"
   },
   {
     "id": "shipwreck:darmc-wreck-152",
@@ -4550,7 +4534,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 12 },
-    "qid": "Q55414021"
+    "containedInQid": "Q55414021"
   },
   {
     "id": "shipwreck:darmc-wreck-153",
@@ -4577,7 +4561,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q2860781"
+    "containedInQid": "Q2860781"
   },
   {
     "id": "shipwreck:darmc-wreck-155",
@@ -4605,7 +4589,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q34835687"
+    "containedInQid": "Q34835687"
   },
   {
     "id": "shipwreck:darmc-wreck-157",
@@ -4618,13 +4602,13 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q3948817"
+    "containedInQid": "Q3948817"
   },
   {
     "id": "shipwreck:darmc-wreck-158",
     "type": "shipwreck",
     "subtype": "stone",
-    "name": "Capo Schis\u00f2 (Italy)",
+    "name": "Capo Schisò (Italy)",
     "lat": 37.825,
     "lng": 15.277,
     "startYear": 1,
@@ -4632,7 +4616,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Unpublished",
-    "qid": "Q34835901"
+    "containedInQid": "Q34835901"
   },
   {
     "id": "shipwreck:darmc-wreck-159",
@@ -4646,8 +4630,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "copper bolt with square plate",
-    "props": { "depth": 28 },
-    "qid": "Q3625525"
+    "props": { "depth": 28 }
   },
   {
     "id": "shipwreck:darmc-wreck-160",
@@ -4719,7 +4702,7 @@
     "category": "maritime",
     "description": "timbers",
     "props": { "depth": 100 },
-    "qid": "Q3593349"
+    "containedInQid": "Q3593349"
   },
   {
     "id": "shipwreck:darmc-wreck-165",
@@ -4733,7 +4716,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q3593349"
+    "containedInQid": "Q3593349"
   },
   {
     "id": "shipwreck:darmc-wreck-166",
@@ -4773,8 +4756,7 @@
     "endYear": 50,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q2659382"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-171",
@@ -4789,7 +4771,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 70 },
-    "qid": "Q481642"
+    "containedInQid": "Q481642"
   },
   {
     "id": "shipwreck:darmc-wreck-172",
@@ -4803,7 +4785,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 12 },
-    "qid": "Q113578266"
+    "containedInQid": "Q113578266"
   },
   {
     "id": "shipwreck:darmc-wreck-173",
@@ -4877,7 +4859,7 @@
     "id": "shipwreck:darmc-wreck-179",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Cefal\u00f9",
+    "name": "Cefalù",
     "lat": 38.017,
     "lng": 14.033,
     "startYear": 400,
@@ -4899,7 +4881,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "hull of a lagoon boat",
-    "qid": "Q33334097"
+    "containedInQid": "Q33334097"
   },
   {
     "id": "shipwreck:darmc-wreck-181",
@@ -4913,7 +4895,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "less than 1 mile from shore",
-    "qid": "Q268361"
+    "containedInQid": "Q268361"
   },
   {
     "id": "shipwreck:darmc-wreck-182",
@@ -5071,8 +5053,7 @@
     "endYear": 150,
     "source": "DARMC",
     "category": "maritime",
-    "description": "keel and planking",
-    "qid": "Q588682"
+    "description": "keel and planking"
   },
   {
     "id": "shipwreck:darmc-wreck-201",
@@ -5343,7 +5324,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 30 },
-    "qid": "Q1232094"
+    "containedInQid": "Q1232094"
   },
   {
     "id": "shipwreck:darmc-wreck-232",
@@ -5358,7 +5339,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 4 },
-    "qid": "Q1232094"
+    "containedInQid": "Q1232094"
   },
   {
     "id": "shipwreck:darmc-wreck-239",
@@ -5410,8 +5391,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q81170216"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-243",
@@ -5531,7 +5511,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "mast-step, yard, shaft of a steering oar, 14C: late 2nd C.",
-    "qid": "Q19326"
+    "containedInQid": "Q19326"
   },
   {
     "id": "shipwreck:darmc-wreck-264",
@@ -5586,7 +5566,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 60 },
-    "qid": "Q55712603"
+    "containedInQid": "Q55712603"
   },
   {
     "id": "shipwreck:darmc-wreck-271",
@@ -5735,7 +5715,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Unpublished",
-    "qid": "Q32194261"
+    "containedInQid": "Q32194261"
   },
   {
     "id": "shipwreck:darmc-wreck-283",
@@ -5748,7 +5728,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q248897"
+    "containedInQid": "Q248897"
   },
   {
     "id": "shipwreck:darmc-wreck-286",
@@ -5763,7 +5743,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 400 },
-    "qid": "Q36124"
+    "containedInQid": "Q36124"
   },
   {
     "id": "shipwreck:darmc-wreck-287",
@@ -5791,7 +5771,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 18 },
-    "qid": "Q1523719"
+    "containedInQid": "Q1523719"
   },
   {
     "id": "shipwreck:darmc-wreck-289",
@@ -5806,7 +5786,7 @@
     "category": "maritime",
     "description": "preserved hull",
     "props": { "depth": 40 },
-    "qid": "Q1523725"
+    "containedInQid": "Q1523725"
   },
   {
     "id": "shipwreck:darmc-wreck-290",
@@ -5902,7 +5882,7 @@
     "category": "maritime",
     "description": "lead-sheathing and frames, mortice and tenon, patched; pine, elm, rigging, part of sail; some oil amphoras recycled; at least 600 amphoras, total cargo weight 23-25 tons. Ship had been repaired more than once, and was probably fairly old (Beltrame and Gaddi 2007, 144; 146).",
     "props": { "depth": 15 },
-    "qid": "Q53130"
+    "containedInQid": "Q53130"
   },
   {
     "id": "shipwreck:darmc-wreck-298",
@@ -6024,7 +6004,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 14 },
-    "qid": "Q110671188"
+    "containedInQid": "Q110671188"
   },
   {
     "id": "shipwreck:darmc-wreck-309",
@@ -6088,8 +6068,7 @@
     "endYear": 345,
     "source": "DARMC",
     "category": "maritime",
-    "description": "dugout, 14C: 295+/-50",
-    "qid": "Q26486778"
+    "description": "dugout, 14C: 295+/-50"
   },
   {
     "id": "shipwreck:darmc-wreck-314",
@@ -6142,8 +6121,7 @@
     "endYear": 85,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q5742324"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-318",
@@ -6190,7 +6168,7 @@
     "id": "shipwreck:darmc-wreck-322",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "\u00eeles-Rousse",
+    "name": "îles-Rousse",
     "lat": 42.633,
     "lng": 8.933,
     "startYear": 50,
@@ -6295,7 +6273,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q55239141"
+    "containedInQid": "Q55239141"
   },
   {
     "id": "shipwreck:darmc-wreck-332",
@@ -6491,7 +6469,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 4 },
-    "qid": "Q53630408"
+    "containedInQid": "Q53630408"
   },
   {
     "id": "shipwreck:darmc-wreck-347",
@@ -6692,7 +6670,7 @@
     "category": "maritime",
     "description": "hull timbers",
     "props": { "depth": 2 },
-    "qid": "Q55426837"
+    "containedInQid": "Q55426837"
   },
   {
     "id": "shipwreck:darmc-wreck-374",
@@ -6735,7 +6713,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 12 },
-    "qid": "Q24695117"
+    "containedInQid": "Q24695117"
   },
   {
     "id": "shipwreck:darmc-wreck-378",
@@ -6750,7 +6728,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 50 },
-    "qid": "Q24695117"
+    "containedInQid": "Q24695117"
   },
   {
     "id": "shipwreck:darmc-wreck-379",
@@ -6764,7 +6742,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q34963448"
+    "containedInQid": "Q34963448"
   },
   {
     "id": "shipwreck:darmc-wreck-380",
@@ -6817,7 +6795,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "Roman ship",
-    "qid": "Q23939248"
+    "containedInQid": "Q23939248"
   },
   {
     "id": "shipwreck:darmc-wreck-384",
@@ -6830,7 +6808,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "carvel-built ship",
-    "qid": "Q23939248"
+    "containedInQid": "Q23939248"
   },
   {
     "id": "shipwreck:darmc-wreck-385",
@@ -6872,7 +6850,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q575828"
+    "containedInQid": "Q575828"
   },
   {
     "id": "shipwreck:darmc-wreck-390",
@@ -6884,8 +6862,7 @@
     "endYear": 425,
     "source": "DARMC",
     "category": "maritime",
-    "description": "single-banked galley, wood felled 376, repaired 385 and 394",
-    "qid": "Q17310485"
+    "description": "single-banked galley, wood felled 376, repaired 385 and 394"
   },
   {
     "id": "shipwreck:darmc-wreck-398",
@@ -7017,8 +6994,7 @@
     "endYear": 260,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q3625494"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-410",
@@ -7138,7 +7114,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 10 },
-    "qid": "Q745380"
+    "containedInQid": "Q745380"
   },
   {
     "id": "shipwreck:darmc-wreck-427",
@@ -7153,7 +7129,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 28 },
-    "qid": "Q745380"
+    "containedInQid": "Q745380"
   },
   {
     "id": "shipwreck:darmc-wreck-428",
@@ -7168,13 +7144,13 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 8 },
-    "qid": "Q53631903"
+    "containedInQid": "Q53631903"
   },
   {
     "id": "shipwreck:darmc-wreck-429",
     "type": "shipwreck",
     "subtype": "pottery",
-    "name": "Matar\u00f3-Els Capets (Spain)",
+    "name": "Mataró-Els Capets (Spain)",
     "lat": 41.534,
     "lng": 2.463,
     "startYear": 75,
@@ -7250,7 +7226,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "ship's hull",
-    "qid": "Q2918393"
+    "containedInQid": "Q2918393"
   },
   {
     "id": "shipwreck:darmc-wreck-436",
@@ -7306,7 +7282,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q2920036"
+    "containedInQid": "Q2920036"
   },
   {
     "id": "shipwreck:darmc-wreck-443",
@@ -7331,8 +7307,7 @@
     "endYear": 375,
     "source": "DARMC",
     "category": "maritime",
-    "description": "From DARMC database",
-    "qid": "Q64733467"
+    "description": "From DARMC database"
   },
   {
     "id": "shipwreck:darmc-wreck-445",
@@ -7451,8 +7426,7 @@
     "endYear": 100,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Roman boat",
-    "qid": "Q55340431"
+    "description": "Roman boat"
   },
   {
     "id": "shipwreck:darmc-wreck-455",
@@ -7465,7 +7439,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q203169"
+    "containedInQid": "Q203169"
   },
   {
     "id": "shipwreck:darmc-wreck-457",
@@ -7480,7 +7454,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 55 },
-    "qid": "Q203169"
+    "containedInQid": "Q203169"
   },
   {
     "id": "shipwreck:darmc-wreck-458",
@@ -7574,7 +7548,7 @@
     "category": "maritime",
     "description": "pleasure galley",
     "props": { "depth": 12 },
-    "qid": "Q243101"
+    "containedInQid": "Q243101"
   },
   {
     "id": "shipwreck:darmc-wreck-469",
@@ -7695,7 +7669,7 @@
     "category": "maritime",
     "description": "extensive field of amphoras",
     "props": { "depth": 3 },
-    "qid": "Q28121324"
+    "containedInQid": "Q28121324"
   },
   {
     "id": "shipwreck:darmc-wreck-479",
@@ -7748,7 +7722,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q128555633"
+    "containedInQid": "Q128555633"
   },
   {
     "id": "shipwreck:darmc-wreck-485",
@@ -7842,7 +7816,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q25291919"
+    "containedInQid": "Q25291919"
   },
   {
     "id": "shipwreck:darmc-wreck-492",
@@ -7909,7 +7883,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q3891738"
+    "containedInQid": "Q3891738"
   },
   {
     "id": "shipwreck:darmc-wreck-497",
@@ -7950,8 +7924,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "props": { "depth": 63 },
-    "qid": "Q120317011"
+    "props": { "depth": 63 }
   },
   {
     "id": "shipwreck:darmc-wreck-501",
@@ -7992,7 +7965,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q55332581"
+    "containedInQid": "Q55332581"
   },
   {
     "id": "shipwreck:darmc-wreck-504",
@@ -8062,7 +8035,7 @@
     "category": "maritime",
     "description": "unsure where and if there is a wreck.  Samples from C7 BC to C4 AD.  One Spanish C1 AD wreck thought to be here at 50m depth",
     "props": { "depth": 50 },
-    "qid": "Q17383438"
+    "containedInQid": "Q17383438"
   },
   {
     "id": "shipwreck:darmc-wreck-510",
@@ -8089,7 +8062,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q53631240"
+    "containedInQid": "Q53631240"
   },
   {
     "id": "shipwreck:darmc-wreck-512",
@@ -8172,13 +8145,13 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 31 },
-    "qid": "Q1942782"
+    "containedInQid": "Q1942782"
   },
   {
     "id": "shipwreck:darmc-wreck-520",
     "type": "shipwreck",
     "subtype": "metal",
-    "name": "Petit Rh\u00f4ne, Le",
+    "name": "Petit Rhône, Le",
     "lat": 43.4,
     "lng": 4.3,
     "startYear": 1,
@@ -8255,7 +8228,7 @@
     "category": "maritime",
     "description": "Stamped ceramics date site to 1-25 and probably 1-10AD; 2 wood statues",
     "props": { "depth": 32 },
-    "qid": "Q2838115"
+    "containedInQid": "Q2838115"
   },
   {
     "id": "shipwreck:darmc-wreck-532",
@@ -8331,7 +8304,7 @@
     "id": "shipwreck:darmc-wreck-539",
     "type": "shipwreck",
     "subtype": "pottery",
-    "name": "Pointe de la Gal\u00e8re",
+    "name": "Pointe de la Galère",
     "lat": 43.017,
     "lng": 6.4,
     "startYear": 1,
@@ -8403,7 +8376,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "planks",
-    "qid": "Q2365157"
+    "containedInQid": "Q2365157"
   },
   {
     "id": "shipwreck:darmc-wreck-556",
@@ -8429,7 +8402,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "floor timber",
-    "qid": "Q3908437"
+    "containedInQid": "Q3908437"
   },
   {
     "id": "shipwreck:darmc-wreck-558",
@@ -8564,7 +8537,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q1431610"
+    "containedInQid": "Q1431610"
   },
   {
     "id": "shipwreck:darmc-wreck-576",
@@ -8645,7 +8618,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 60 },
-    "qid": "Q128555612"
+    "containedInQid": "Q128555612"
   },
   {
     "id": "shipwreck:darmc-wreck-583",
@@ -8659,7 +8632,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q988673"
+    "containedInQid": "Q988673"
   },
   {
     "id": "shipwreck:darmc-wreck-585",
@@ -8728,7 +8701,7 @@
     "category": "maritime",
     "description": "3/4 hull, foremast step, foot of foremast",
     "props": { "depth": 2 },
-    "qid": "Q3925639"
+    "containedInQid": "Q3925639"
   },
   {
     "id": "shipwreck:darmc-wreck-590",
@@ -8798,7 +8771,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 21 },
-    "qid": "Q111718560"
+    "containedInQid": "Q111718560"
   },
   {
     "id": "shipwreck:darmc-wreck-597",
@@ -8919,7 +8892,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q23984890"
+    "containedInQid": "Q23984890"
   },
   {
     "id": "shipwreck:darmc-wreck-606",
@@ -9072,7 +9045,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 40 },
-    "qid": "Q1038990"
+    "containedInQid": "Q1038990"
   },
   {
     "id": "shipwreck:darmc-wreck-622",
@@ -9140,7 +9113,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q114296149"
+    "containedInQid": "Q114296149"
   },
   {
     "id": "shipwreck:darmc-wreck-627",
@@ -9168,7 +9141,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q9188183"
+    "containedInQid": "Q9188183"
   },
   {
     "id": "shipwreck:darmc-wreck-629",
@@ -9236,7 +9209,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q26224647"
+    "containedInQid": "Q26224647"
   },
   {
     "id": "shipwreck:darmc-wreck-636",
@@ -9250,7 +9223,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q1009316"
+    "containedInQid": "Q1009316"
   },
   {
     "id": "shipwreck:darmc-wreck-637",
@@ -9264,7 +9237,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q6047565"
+    "containedInQid": "Q6047565"
   },
   {
     "id": "shipwreck:darmc-wreck-638",
@@ -9293,7 +9266,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 20 },
-    "qid": "Q292148"
+    "containedInQid": "Q292148"
   },
   {
     "id": "shipwreck:darmc-wreck-644",
@@ -9307,7 +9280,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 40 },
-    "qid": "Q15953392"
+    "containedInQid": "Q15953392"
   },
   {
     "id": "shipwreck:darmc-wreck-645",
@@ -9405,7 +9378,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 3 },
-    "qid": "Q601762"
+    "containedInQid": "Q601762"
   },
   {
     "id": "shipwreck:darmc-wreck-653",
@@ -9419,7 +9392,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q9088855"
+    "containedInQid": "Q9088855"
   },
   {
     "id": "shipwreck:darmc-wreck-654",
@@ -9448,7 +9421,7 @@
     "category": "maritime",
     "description": "frames",
     "props": { "depth": 6 },
-    "qid": "Q1117058"
+    "containedInQid": "Q1117058"
   },
   {
     "id": "shipwreck:darmc-wreck-656",
@@ -9462,7 +9435,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q157876"
+    "containedInQid": "Q157876"
   },
   {
     "id": "shipwreck:darmc-wreck-657",
@@ -9476,7 +9449,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q157876"
+    "containedInQid": "Q157876"
   },
   {
     "id": "shipwreck:darmc-wreck-658",
@@ -9490,7 +9463,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q21192696"
+    "containedInQid": "Q21192696"
   },
   {
     "id": "shipwreck:darmc-wreck-659",
@@ -9519,7 +9492,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 9 },
-    "qid": "Q5999326"
+    "containedInQid": "Q5999326"
   },
   {
     "id": "shipwreck:darmc-wreck-661",
@@ -9532,8 +9505,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "dugout",
-    "props": { "depth": 6 },
-    "qid": "Q120219339"
+    "props": { "depth": 6 }
   },
   {
     "id": "shipwreck:darmc-wreck-662",
@@ -9587,7 +9559,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q1060495"
+    "containedInQid": "Q1060495"
   },
   {
     "id": "shipwreck:darmc-wreck-668",
@@ -9667,7 +9639,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q432681"
+    "containedInQid": "Q432681"
   },
   {
     "id": "shipwreck:darmc-wreck-675",
@@ -9721,7 +9693,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "'Roman ship'",
-    "qid": "Q2191593"
+    "containedInQid": "Q2191593"
   },
   {
     "id": "shipwreck:darmc-wreck-681",
@@ -9810,7 +9782,7 @@
     "id": "shipwreck:darmc-wreck-688",
     "type": "shipwreck",
     "subtype": "glass",
-    "name": "Ser\u00e7e Limani 1",
+    "name": "Serçe Limani 1",
     "lat": 36.567,
     "lng": 28.083,
     "startYear": -200,
@@ -9824,7 +9796,7 @@
     "id": "shipwreck:darmc-wreck-689",
     "type": "shipwreck",
     "subtype": "glass",
-    "name": "Ser\u00e7e Limani Zone",
+    "name": "Serçe Limani Zone",
     "lat": 36,
     "lng": 28,
     "startYear": -200,
@@ -9927,7 +9899,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q33716195"
+    "containedInQid": "Q33716195"
   },
   {
     "id": "shipwreck:darmc-wreck-701",
@@ -9996,7 +9968,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 50 },
-    "qid": "Q203447"
+    "containedInQid": "Q203447"
   },
   {
     "id": "shipwreck:darmc-wreck-708",
@@ -10021,8 +9993,7 @@
     "endYear": 200,
     "source": "DARMC",
     "category": "maritime",
-    "description": "P1114ai wooden raft",
-    "qid": "Q620012"
+    "description": "P1114ai wooden raft"
   },
   {
     "id": "shipwreck:darmc-wreck-716",
@@ -10142,7 +10113,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q124616405"
+    "containedInQid": "Q124616405"
   },
   {
     "id": "shipwreck:darmc-wreck-728",
@@ -10195,7 +10166,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "The record is only for a an amphora brought back by a fishing vessel. Coordinates purely symbolic",
-    "qid": "Q3324718"
+    "containedInQid": "Q3324718"
   },
   {
     "id": "shipwreck:darmc-wreck-732",
@@ -10262,7 +10233,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "From DARMC database",
-    "qid": "Q123764842"
+    "containedInQid": "Q123764842"
   },
   {
     "id": "shipwreck:darmc-wreck-737",
@@ -10277,7 +10248,7 @@
     "category": "maritime",
     "description": "wood fragments, copper nails, lead sheathing, tiles",
     "props": { "depth": 3 },
-    "qid": "Q490913"
+    "containedInQid": "Q490913"
   },
   {
     "id": "shipwreck:darmc-wreck-738",
@@ -10373,7 +10344,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 10 },
-    "qid": "Q33341680"
+    "containedInQid": "Q33341680"
   },
   {
     "id": "shipwreck:darmc-wreck-747",
@@ -10416,7 +10387,7 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "wooden hull",
-    "qid": "Q3995196"
+    "containedInQid": "Q3995196"
   },
   {
     "id": "shipwreck:darmc-wreck-750",
@@ -10431,7 +10402,7 @@
     "category": "maritime",
     "description": "From DARMC database",
     "props": { "depth": 16 },
-    "qid": "Q3995263"
+    "containedInQid": "Q3995263"
   },
   {
     "id": "shipwreck:darmc-wreck-751",
@@ -10446,7 +10417,7 @@
     "category": "maritime",
     "description": "keel, planking",
     "props": { "depth": 6 },
-    "qid": "Q2569564"
+    "containedInQid": "Q2569564"
   },
   {
     "id": "shipwreck:darmc-wreck-752",
@@ -11092,7 +11063,7 @@
   {
     "id": "shipwreck:darmc-wreck-817",
     "type": "shipwreck",
-    "name": "\u00c5rby",
+    "name": "Årby",
     "lat": 59.583,
     "lng": 16.267,
     "startYear": -200,
@@ -11104,7 +11075,7 @@
   {
     "id": "shipwreck:darmc-wreck-818",
     "type": "shipwreck",
-    "name": "\u00c4skek\u00e4rr 1",
+    "name": "Äskekärr 1",
     "lat": 58.617,
     "lng": 13.6,
     "startYear": -200,
@@ -11171,7 +11142,7 @@
     "id": "shipwreck:darmc-wreck-825",
     "type": "shipwreck",
     "subtype": "tiles",
-    "name": "Barth\u00e9lemy 2",
+    "name": "Barthélemy 2",
     "lat": 43.433,
     "lng": 6.9,
     "startYear": 1,
@@ -11184,7 +11155,7 @@
   {
     "id": "shipwreck:darmc-wreck-826",
     "type": "shipwreck",
-    "name": "Bj\u00f6rke",
+    "name": "Björke",
     "lat": 57.9,
     "lng": 15.95,
     "startYear": 320,
@@ -11222,14 +11193,14 @@
     "id": "shipwreck:darmc-wreck-834",
     "type": "shipwreck",
     "subtype": "tiles",
-    "name": "Calanque de l'\u00c2ne 1",
+    "name": "Calanque de l'Âne 1",
     "lat": 43.25,
     "lng": 5.283,
     "startYear": 100,
     "endYear": 150,
     "source": "DARMC",
     "category": "maritime",
-    "description": "dated from ceramic, glass; bronze coin of Domitian for terminus post quem; S of Pointe de Pom\u00e8gues; well preserved hull and deck",
+    "description": "dated from ceramic, glass; bronze coin of Domitian for terminus post quem; S of Pointe de Pomègues; well preserved hull and deck",
     "props": { "depth": 18 }
   },
   {
@@ -11389,7 +11360,7 @@
   {
     "id": "shipwreck:darmc-wreck-863",
     "type": "shipwreck",
-    "name": "Galtab\u00e4ck 1",
+    "name": "Galtabäck 1",
     "lat": 57.033,
     "lng": 12.317,
     "startYear": -200,
@@ -11401,7 +11372,7 @@
   {
     "id": "shipwreck:darmc-wreck-864",
     "type": "shipwreck",
-    "name": "G\u0142\u0119bia Gotlandzka",
+    "name": "Głębia Gotlandzka",
     "lat": 56.45,
     "lng": 19.417,
     "startYear": -200,
@@ -11434,13 +11405,13 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Dating based on 14C (944 \u00b130) and oak dendro (927\u00b12 and 895\u00b12). Unable to get dendro match in '94.  Cargo vessel in Anglo-Saxon context",
+    "description": "Dating based on 14C (944 ±30) and oak dendro (927±2 and 895±2). Unable to get dendro match in '94.  Cargo vessel in Anglo-Saxon context",
     "qid": "Q3115749"
   },
   {
     "id": "shipwreck:darmc-wreck-868",
     "type": "shipwreck",
-    "name": "Haderslev-M\u00f8llesstr\u00f8mmen",
+    "name": "Haderslev-Møllesstrømmen",
     "lat": 55.254,
     "lng": 9.489,
     "startYear": -200,
@@ -11532,7 +11503,7 @@
   {
     "id": "shipwreck:darmc-wreck-877",
     "type": "shipwreck",
-    "name": "Kamie\u0144 Pomorski",
+    "name": "Kamień Pomorski",
     "lat": 53.617,
     "lng": 14.783,
     "startYear": -200,
@@ -11557,7 +11528,7 @@
     "id": "shipwreck:darmc-wreck-879",
     "type": "shipwreck",
     "subtype": "stone",
-    "name": "Kl\u00e5stad",
+    "name": "Klåstad",
     "lat": 59.065,
     "lng": 10.167,
     "startYear": -200,
@@ -11569,7 +11540,7 @@
   {
     "id": "shipwreck:darmc-wreck-880",
     "type": "shipwreck",
-    "name": "L\u0105d",
+    "name": "Ląd",
     "lat": 52.2,
     "lng": 17.933,
     "startYear": -200,
@@ -11949,7 +11920,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Archaeologists agree that this is the wreck of the Gr\u00e2ce Dieu, of Henry V.  Dating based on C14 and construction features."
+    "description": "Archaeologists agree that this is the wreck of the Grâce Dieu, of Henry V.  Dating based on C14 and construction features."
   },
   {
     "id": "shipwreck:darmc-wreck-948",
@@ -12044,7 +12015,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Dating by dendro, 3 samples from planks of oak and pine. Coordinates (55\u00ba 39'N 12\u00ba 05'E from Navis I db) inaccurate.  Viking context, \"Nordic\" type.",
+    "description": "Dating by dendro, 3 samples from planks of oak and pine. Coordinates (55º 39'N 12º 05'E from Navis I db) inaccurate.  Viking context, \"Nordic\" type.",
     "qid": "Q109955427"
   },
   {
@@ -12181,7 +12152,7 @@
   {
     "id": "shipwreck:darmc-wreck-1005",
     "type": "shipwreck",
-    "name": "Yenikap\u0131 1",
+    "name": "Yenikapı 1",
     "lat": 41.005,
     "lng": 28.95,
     "startYear": -200,
@@ -12204,13 +12175,13 @@
     "category": "maritime",
     "description": "Homogenous deposit in the port, possibly wrecked cargo or port dump (i.e. not a wreck)",
     "props": { "depth": 8 },
-    "qid": "Q128589075"
+    "containedInQid": "Q128589075"
   },
   {
     "id": "shipwreck:darmc-wreck-1036",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "\u00c7amalt\u0131 Burnu 1",
+    "name": "Çamaltı Burnu 1",
     "lat": 40.618,
     "lng": 27.542,
     "startYear": -200,
@@ -12224,36 +12195,36 @@
     "id": "shipwreck:darmc-wreck-1044",
     "type": "shipwreck",
     "subtype": "pottery",
-    "name": "K\u00fc\u00e7\u00fck Ada",
+    "name": "Küçük Ada",
     "lat": 40.628,
     "lng": 27.584,
     "startYear": 400,
     "endYear": 600,
     "source": "DARMC",
     "category": "maritime",
-    "description": "An associated amphora could indicate C8: G\u00fcnsenin 2002, 129",
+    "description": "An associated amphora could indicate C8: Günsenin 2002, 129",
     "props": { "depth": 28 }
   },
   {
     "id": "shipwreck:darmc-wreck-1046",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "E\u015fek Adalar\u0131",
+    "name": "Eşek Adaları",
     "lat": 40.639,
     "lng": 27.635,
     "startYear": -200,
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "qid": "Q37495",
     "description": "From DARMC database",
-    "props": { "depth": 22 }
+    "props": { "depth": 22 },
+    "containedInQid": "Q37495"
   },
   {
     "id": "shipwreck:darmc-wreck-1047",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "\u00c7\u0131hl\u0131 Burnu",
+    "name": "Çıhlı Burnu",
     "lat": 40.601,
     "lng": 27.606,
     "startYear": 400,
@@ -12273,8 +12244,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "website picture shows it with C13-14 date",
-    "qid": "Q32067932"
+    "description": "website picture shows it with C13-14 date"
   },
   {
     "id": "shipwreck:darmc-wreck-1052",
@@ -12286,8 +12256,8 @@
     "endYear": 0,
     "source": "DARMC",
     "category": "maritime",
-    "qid": "Q145694",
-    "description": "hull fragments in silted up harbor that was active C1 BC-C1 AD"
+    "description": "hull fragments in silted up harbor that was active C1 BC-C1 AD",
+    "containedInQid": "Q145694"
   },
   {
     "id": "shipwreck:darmc-wreck-1053",
@@ -12300,14 +12270,13 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "brief mention; covered with coral; <20 m; cargo of LRA1",
-    "qid": "Q3485805"
+    "description": "brief mention; covered with coral; <20 m; cargo of LRA1"
   },
   {
     "id": "shipwreck:darmc-wreck-1054",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Y\u0131lanl\u0131 Ada",
+    "name": "Yılanlı Ada",
     "lat": 36.141,
     "lng": 33.345,
     "startYear": 400,
@@ -12321,7 +12290,7 @@
     "id": "shipwreck:darmc-wreck-1055",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Dana Adas\u0131",
+    "name": "Dana Adası",
     "lat": 36.183,
     "lng": 33.753,
     "startYear": 0,
@@ -12329,13 +12298,13 @@
     "source": "DARMC",
     "category": "maritime",
     "description": "heavily looted",
-    "qid": "Q5214669"
+    "containedInQid": "Q5214669"
   },
   {
     "id": "shipwreck:darmc-wreck-1056",
     "type": "shipwreck",
     "subtype": "amphora",
-    "name": "Bo\u011fsak",
+    "name": "Boğsak",
     "lat": 36.272,
     "lng": 33.825,
     "startYear": 1,
@@ -12355,8 +12324,8 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Amphoras have grafitti; anchor type is early: Kapit\u00e4n D, hence they date wreck C9",
-    "qid": "Q7830"
+    "description": "Amphoras have grafitti; anchor type is early: Kapitän D, hence they date wreck C9",
+    "containedInQid": "Q7830"
   },
   {
     "id": "shipwreck:darmc-wreck-1058",
@@ -12369,7 +12338,7 @@
     "endYear": 400,
     "source": "DARMC",
     "category": "maritime",
-    "description": "Dated from amphoras and anchor Kapit\u00e4n E of same date range."
+    "description": "Dated from amphoras and anchor Kapitän E of same date range."
   },
   {
     "id": "shipwreck:darmc-wreck-1059",
@@ -12384,6 +12353,6 @@
     "category": "maritime",
     "description": "Wreck discovered by fishing trawler, an amphora with Greek inscriptions, photo; localized only to \"Sudak Bay\"",
     "props": { "depth": 50 },
-    "qid": "Q7830"
+    "containedInQid": "Q7830"
   }
 ]

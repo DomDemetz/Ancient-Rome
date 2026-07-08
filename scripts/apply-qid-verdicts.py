@@ -88,8 +88,13 @@ def main():
               ensure_ascii=False, indent=1)
     review = DATA / "review"
     review.mkdir(exist_ok=True)
-    json.dump(log, open(review / "qid-cleanup-log.json", "w"),
-              ensure_ascii=False, indent=1)
+    # append to existing log — repeat runs must not erase cleanup history
+    log_path = review / "qid-cleanup-log.json"
+    if log_path.exists():
+        prev = json.load(open(log_path))
+        seen_keys = {e["key"] for e in prev}
+        log = prev + [e for e in log if e["key"] not in seen_keys]
+    json.dump(log, open(log_path, "w"), ensure_ascii=False, indent=1)
     print(f"\ncross-reference.json updated; {len(log)} changes logged to review/qid-cleanup-log.json")
 
 

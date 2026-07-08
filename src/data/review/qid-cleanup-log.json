@@ -8102,5 +8102,213 @@
     "reason": "QID is an unnamed sports venue in France; no relation to a Roman villa named after a walking path.",
     "confidence": "high",
     "removed": ["label", "qid"]
+  },
+  {
+    "key": "amphitheater:megiddo",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q1136877",
+    "reason": "Maximianopolis is the city containing the amphitheater",
+    "confidence": "medium",
+    "removed": ["label", "wikidataDescription"]
+  },
+  {
+    "key": "battle:siege-of-aquileia-361",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3677506",
+    "reason": "QID is an unlabeled archaeological site, not the 361 siege event",
+    "confidence": "medium",
+    "removed": ["label", "qid"]
+  },
+  {
+    "key": "building:208942229",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q60041878",
+    "reason": "unnamed BAtlas monument cluster linked to a different named site 1.1 km away",
+    "confidence": "medium",
+    "removed": ["label", "qid"]
+  },
+  {
+    "key": "building:550518",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q25167226",
+    "reason": "ancient Dotion linked to a 1410 medieval tower — different era, different structure",
+    "confidence": "medium",
+    "removed": ["label", "qid", "wdProps"]
+  },
+  {
+    "key": "building:628945",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q139429192",
+    "reason": "QID is an Ottoman hammam, not the ancient site at Bünyan",
+    "confidence": "medium",
+    "removed": ["label", "qid"]
+  },
+  {
+    "key": "building:945740227",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q136291544",
+    "reason": "QID is the Decumanus Maximus of Suasa — sibling feature, not the forum",
+    "confidence": "medium",
+    "removed": ["label", "qid"]
+  },
+  {
+    "key": "mine:206901",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q4688214",
+    "reason": "river QID anchors the placer-mining district, not a mine entity",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "mine:207051",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q16439978",
+    "reason": "commune containing the mine",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "mine:207165",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q588775",
+    "reason": "village containing the mine",
+    "confidence": "medium",
+    "removed": ["label", "wdProps", "wikidataDescription"]
+  },
+  {
+    "key": "mine:207172",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q741468",
+    "reason": "village containing the mine",
+    "confidence": "medium",
+    "removed": ["label", "wdProps", "wikidataDescription"]
+  },
+  {
+    "key": "mine:207190",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q663438",
+    "reason": "village containing the mine",
+    "confidence": "medium",
+    "removed": ["label", "wdProps", "wikidataDescription"]
+  },
+  {
+    "key": "mine:265798",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q6064634",
+    "reason": "judicial district containing the mines",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "mine:265878",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q106675287",
+    "reason": "geographic location containing the mine",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "mine:403295",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q18487559",
+    "reason": "settlement containing the mine",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "mine:422978",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q28195185",
+    "reason": "urban zone containing the quarry",
+    "confidence": "medium",
+    "removed": []
+  },
+  {
+    "key": "mine:mine-priddy-lead",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q24667925",
+    "reason": "village containing the lead workings",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "pleiades:177482",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q22603316",
+    "reason": "modern neighborhood over the Roman vicus",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "pleiades:187395",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q125796596",
+    "reason": "QID is a road, not the Görtschach site",
+    "confidence": "medium",
+    "removed": ["label", "qid"]
+  },
+  {
+    "key": "port:apa-seriphos-3024",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q21693415",
+    "reason": "modern hamlet at the port location",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "port:apa-sitomagus-senomagus-138",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q28064973",
+    "reason": "modern village at the port location",
+    "confidence": "medium",
+    "removed": ["label", "wdProps"]
+  },
+  {
+    "key": "port:apa-stalai-4147",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q27182777",
+    "reason": "QID is the Minoan villa at Makrygialos, a different structure than the port of Stalai",
+    "confidence": "medium",
+    "removed": ["label", "qid", "wdProps"]
+  },
+  {
+    "key": "port:apa-telos-3313",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q21695301",
+    "reason": "modern hamlet at the port location",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "port:apa-tenos-3002",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q21695533",
+    "reason": "modern hamlet at the port location",
+    "confidence": "medium",
+    "removed": ["label"]
+  },
+  {
+    "key": "religion:187395",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q125796596",
+    "reason": "QID is a road, not a religious site",
+    "confidence": "medium",
+    "removed": ["label", "qid"]
+  },
+  {
+    "key": "shipwreck:darmc-wreck-144",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q52850023",
+    "reason": "QID is a forest on Capo Ferrato, unrelated to the wreck",
+    "confidence": "medium",
+    "removed": ["label", "qid", "wdProps"]
+  },
+  {
+    "key": "shipwreck:darmc-wreck-458",
+    "action": "qid->containedInQid, wd-fields removed",
+    "qid": "Q25291585",
+    "reason": "islet anchoring the wreck position",
+    "confidence": "medium",
+    "removed": ["label"]
   }
 ]

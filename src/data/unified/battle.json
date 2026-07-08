@@ -13,7 +13,7 @@
     "props": {
       "outcome": "victory",
       "combatants": "Rome vs Tarquinii Veii",
-      "commander": "Lucius Junius Brutus \u2020 Publius Valerius Publicola"
+      "commander": "Lucius Junius Brutus † Publius Valerius Publicola"
     },
     "qid": "Q128293"
   },
@@ -403,7 +403,7 @@
     "endYear": -297,
     "source": "Roman-Battles-Droid",
     "category": "military",
-    "description": "Battle of Tifernum (297 BC) near Citt\u00e0 di Castello (Perugia, Umbria), Italy",
+    "description": "Battle of Tifernum (297 BC) near Città di Castello (Perugia, Umbria), Italy",
     "props": {
       "outcome": "victory",
       "combatants": "Roman Republic vs Samnium",
@@ -963,8 +963,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Carthage",
       "commander": "Roman naval commander"
-    },
-    "qid": "Q3625492"
+    }
   },
   {
     "id": "battle:battle-of-ebro-river",
@@ -1336,7 +1335,7 @@
     "endYear": -208,
     "source": "Roman-Battles-Droid",
     "category": "military",
-    "description": "Battle of Baecula (208 BC) near Baecula (Santo Tom\u00e9, Ja\u00e9n), present-day Spain",
+    "description": "Battle of Baecula (208 BC) near Baecula (Santo Tomé, Jaén), present-day Spain",
     "props": {
       "outcome": "victory",
       "combatants": "Carthage vs Roman Republic",
@@ -1483,8 +1482,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Carthage",
       "commander": "Scipio Africanus"
-    },
-    "qid": "Q200056"
+    }
   },
   {
     "id": "battle:battle-of-cremona",
@@ -1501,8 +1499,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic and allies vs Gauls",
       "commander": "Lucius Furius Purpurio"
-    },
-    "qid": "Q688978"
+    }
   },
   {
     "id": "battle:battle-of-the-aous",
@@ -1567,7 +1564,7 @@
     "props": {
       "outcome": "victory",
       "combatants": "Sparta vs Rome; Achaean League; Rhodes; Pergamum; Macedon",
-      "commander": "Dexagoridas, \u2020 Gorgopas"
+      "commander": "Dexagoridas, † Gorgopas"
     },
     "qid": "Q3774767"
   },
@@ -1802,8 +1799,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Carthage",
       "commander": "Scipio Aemilianus"
-    },
-    "qid": "Q7443103"
+    }
   },
   {
     "id": "battle:battle-of-carthage",
@@ -1820,8 +1816,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Carthage",
       "commander": "Scipio Aemilianus"
-    },
-    "qid": "Q815160"
+    }
   },
   {
     "id": "battle:battle-of-corinth",
@@ -2132,8 +2127,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Italian Allies",
       "commander": "Lucius Cornelius Sulla"
-    },
-    "qid": "Q925828"
+    }
   },
   {
     "id": "battle:battle-of-amnias",
@@ -2167,8 +2161,7 @@
       "outcome": "victory",
       "combatants": "Roman Republic vs Pontus",
       "commander": "Lucius Cornelius Sulla"
-    },
-    "qid": "Q3636387"
+    }
   },
   {
     "id": "battle:siege-of-athens",
@@ -2293,8 +2286,7 @@
       "outcome": "draw",
       "combatants": "Roman Republic vs Sertorians",
       "commander": "Pompey and Metellus Pius"
-    },
-    "qid": "Q2889842"
+    }
   },
   {
     "id": "battle:battle-of-cyzicus",
@@ -2329,7 +2321,7 @@
       "combatants": "Roman Republic vs Slave Revolt",
       "commander": "Gaius Claudius Glaber"
     },
-    "qid": "Q524"
+    "containedInQid": "Q524"
   },
   {
     "id": "battle:battle-of-mutina-i",
@@ -2890,7 +2882,7 @@
     "props": {
       "outcome": "victory",
       "combatants": "Populares vs Optimates",
-      "commander": "Gaius Scribonius Curio\u2020"
+      "commander": "Gaius Scribonius Curio†"
     },
     "qid": "Q619030"
   },
@@ -2945,8 +2937,7 @@
       "outcome": "defeat",
       "combatants": "Populares vs Optimates",
       "commander": "Julius Caesar"
-    },
-    "qid": "Q3436319"
+    }
   },
   {
     "id": "battle:battle-of-the-nile",
@@ -3064,7 +3055,7 @@
     "props": {
       "outcome": "victory",
       "combatants": "Roman Republic vs Mark Antony's forces",
-      "commander": "Gaius Vibius Pansa Caetronianus\u2020 Aulus Hirtius Gaius Julius Caesar Octavianus"
+      "commander": "Gaius Vibius Pansa Caetronianus† Aulus Hirtius Gaius Julius Caesar Octavianus"
     },
     "qid": "Q1003174"
   },
@@ -3079,8 +3070,7 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Mutina II (43 BC)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
-    "qid": "Q3656049"
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
   },
   {
     "id": "battle:first-battle-of-philippi",
@@ -3170,7 +3160,7 @@
       "combatants": "Octavian vs Lucius Antonius",
       "commander": "Octavian"
     },
-    "qid": "Q1130478"
+    "containedInQid": "Q1130478"
   },
   {
     "id": "battle:battle-of-naulochus",
@@ -3206,7 +3196,7 @@
       "combatants": "Octavian vs Sextus Pompey",
       "commander": "Octavian"
     },
-    "qid": "Q9033098"
+    "containedInQid": "Q9033098"
   },
   {
     "id": "battle:battle-of-tauromenium",
@@ -3347,7 +3337,7 @@
       "combatants": "Roman Empire vs Germanic tribes",
       "commander": "Germanicus"
     },
-    "qid": "Q1650"
+    "containedInQid": "Q1650"
   },
   {
     "id": "battle:battle-of-idistaviso",
@@ -3477,7 +3467,7 @@
     "category": "military",
     "description": "Battle of Camulodunum (60 AD)",
     "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
-    "qid": "Q17665286"
+    "containedInQid": "Q17665286"
   },
   {
     "id": "battle:battle-of-watling-street",
@@ -3512,7 +3502,7 @@
       "combatants": "Roman Empire vs Boudica's Rebels",
       "commander": "Gaius Suetonius Paulinus (evacuated)"
     },
-    "qid": "Q927198"
+    "containedInQid": "Q927198"
   },
   {
     "id": "battle:battle-of-rhandeia",
@@ -3582,8 +3572,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Vespasian"
-    },
-    "qid": "Q4271763"
+    }
   },
   {
     "id": "battle:battle-of-forum-julii",
@@ -3677,8 +3666,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Titus"
-    },
-    "qid": "Q844886"
+    }
   },
   {
     "id": "battle:siege-of-masada",
@@ -3695,8 +3683,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Jewish Rebels",
       "commander": "Lucius Flavius Silva"
-    },
-    "qid": "Q3555020"
+    }
   },
   {
     "id": "battle:battle-of-mons-graupius",
@@ -3766,8 +3753,7 @@
       "outcome": "victory",
       "combatants": "Dacia vs Roman Empire",
       "commander": "Decebalus"
-    },
-    "qid": "Q1476280"
+    }
   },
   {
     "id": "battle:battle-of-tropheum-traiani-adamclisi",
@@ -3785,7 +3771,7 @@
       "combatants": "Dacia and its allies vs Roman Empire",
       "commander": "unknown"
     },
-    "qid": "Q12076728"
+    "containedInQid": "Q12076728"
   },
   {
     "id": "battle:battle-of-sarmisegetuza",
@@ -3847,8 +3833,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Trajan"
-    },
-    "qid": "Q2588587"
+    }
   },
   {
     "id": "battle:battle-of-ctesiphon-116",
@@ -3865,8 +3850,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Trajan"
-    },
-    "qid": "Q767124"
+    }
   },
   {
     "id": "battle:battle-of-seleucia",
@@ -3896,8 +3880,7 @@
     "source": "expansion",
     "category": "military",
     "description": "Siege of Hatra (117 AD). Trajan fails to take the desert fortress, one of his rare setbacks.",
-    "props": { "outcome": "defeat", "combatants": "Roman Empire vs Hatra", "commander": "Trajan" },
-    "qid": "Q132645295"
+    "props": { "outcome": "defeat", "combatants": "Roman Empire vs Hatra", "commander": "Trajan" }
   },
   {
     "id": "battle:battle-of-jerusalem-bar-kokhba",
@@ -3914,8 +3897,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Jewish Rebels (Bar Kokhba)",
       "commander": "Tineius Rufus"
-    },
-    "qid": "Q9173065"
+    }
   },
   {
     "id": "battle:battle-of-betar",
@@ -4001,8 +3983,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Avidius Cassius"
-    },
-    "qid": "Q767124"
+    }
   },
   {
     "id": "battle:sack-of-seleucia-165",
@@ -4020,7 +4001,7 @@
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Avidius Cassius"
     },
-    "qid": "Q1136681"
+    "containedInQid": "Q1136681"
   },
   {
     "id": "battle:battle-of-carnuntum",
@@ -4038,7 +4019,7 @@
       "combatants": "Roman Empire vs Marcomanni and Quadi",
       "commander": "Marcus Aurelius"
     },
-    "qid": "Q19277173"
+    "containedInQid": "Q19277173"
   },
   {
     "id": "battle:battle-of-the-danube-ice",
@@ -4123,8 +4104,7 @@
       "outcome": "victory",
       "combatants": "forces of Septimus Severus vs forces of Pescennius Niger",
       "commander": "Septimus Severus"
-    },
-    "qid": "Q2451436"
+    }
   },
   {
     "id": "battle:battle-of-cyzicus-193",
@@ -4141,8 +4121,7 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Pescennius Niger",
       "commander": "Septimius Severus"
-    },
-    "qid": "Q2408278"
+    }
   },
   {
     "id": "battle:battle-of-cyzicus-193-actual",
@@ -4159,8 +4138,7 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Pescennius Niger",
       "commander": "Septimius Severus"
-    },
-    "qid": "Q972445"
+    }
   },
   {
     "id": "battle:battle-of-issus",
@@ -4195,8 +4173,7 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Byzantium (Niger's ally)",
       "commander": "Septimius Severus"
-    },
-    "qid": "Q3625453"
+    }
   },
   {
     "id": "battle:battle-of-lugdunum",
@@ -4213,8 +4190,7 @@
       "outcome": "victory",
       "combatants": "Septimius Severus vs Clodius Albinus",
       "commander": "Septimius Severus"
-    },
-    "qid": "Q653482"
+    }
   },
   {
     "id": "battle:battle-of-ctesiphon-198",
@@ -4231,8 +4207,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Septimius Severus"
-    },
-    "qid": "Q767124"
+    }
   },
   {
     "id": "battle:siege-of-hatra-199",
@@ -4284,8 +4259,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Parthian Empire",
       "commander": "Macrinus"
-    },
-    "qid": "Q2588587"
+    }
   },
   {
     "id": "battle:battle-of-antioch",
@@ -4355,8 +4329,7 @@
       "outcome": "draw",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Severus Alexander"
-    },
-    "qid": "Q767124"
+    }
   },
   {
     "id": "battle:battle-of-carthage-238",
@@ -4374,7 +4347,7 @@
       "combatants": "Gordian I vs Legio III Augusta",
       "commander": "Gordian I"
     },
-    "qid": "Q28151514"
+    "containedInQid": "Q28151514"
   },
   {
     "id": "battle:siege-of-aquileia-238",
@@ -4392,7 +4365,7 @@
       "combatants": "Maximinus Thrax vs City of Aquileia",
       "commander": "Maximinus Thrax"
     },
-    "qid": "Q2859274"
+    "containedInQid": "Q2859274"
   },
   {
     "id": "battle:battle-of-resaena",
@@ -4462,8 +4435,7 @@
       "outcome": "victory",
       "combatants": "Decius vs Philip the Arab",
       "commander": "Decius"
-    },
-    "qid": "Q2890355"
+    }
   },
   {
     "id": "battle:battle-of-philippopolis",
@@ -4476,8 +4448,7 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Philippopolis (250 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
-    "qid": "Q625406"
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
   },
   {
     "id": "battle:battle-of-philippopolis-250",
@@ -4494,8 +4465,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Goths",
       "commander": "Titus Julius Priscus"
-    },
-    "qid": "Q625406"
+    }
   },
   {
     "id": "battle:battle-of-abrittus",
@@ -4511,7 +4481,7 @@
     "props": {
       "outcome": "defeat",
       "combatants": "Roman Empire vs Goths",
-      "commander": "Decius\u2020 Herennius Etruscus\u2020"
+      "commander": "Decius† Herennius Etruscus†"
     }
   },
   {
@@ -4530,7 +4500,7 @@
       "combatants": "Roman Empire vs Goths",
       "commander": "Emperor Decius"
     },
-    "qid": "Q331488"
+    "containedInQid": "Q331488"
   },
   {
     "id": "battle:battle-of-forum-terebronii",
@@ -4578,8 +4548,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire (Uranius Antoninus) vs Sassanid Empire",
       "commander": "Uranius Antoninus"
-    },
-    "qid": "Q3625476"
+    }
   },
   {
     "id": "battle:battle-of-spoleto",
@@ -4613,8 +4582,7 @@
       "outcome": "victory",
       "combatants": "Uranius Antoninus vs Sassanid Empire",
       "commander": "Uranius Antoninus"
-    },
-    "qid": "Q3625476"
+    }
   },
   {
     "id": "battle:battle-of-mediolanum",
@@ -4649,8 +4617,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Valerian"
-    },
-    "qid": "Q97402659"
+    }
   },
   {
     "id": "battle:battle-of-postumus-260",
@@ -4684,8 +4651,7 @@
       "outcome": "victory",
       "combatants": "Gallienus vs Ingenuus (usurper)",
       "commander": "Gallienus"
-    },
-    "qid": "Q55832297"
+    }
   },
   {
     "id": "battle:battle-of-mursa-260",
@@ -4720,8 +4686,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Gallienus"
-    },
-    "qid": "Q2890355"
+    }
   },
   {
     "id": "battle:battle-of-naissus",
@@ -4739,7 +4704,7 @@
       "combatants": "Roman Empire vs Goths",
       "commander": "Claudius II"
     },
-    "qid": "Q3869982"
+    "containedInQid": "Q3869982"
   },
   {
     "id": "battle:battle-of-lake-benacus",
@@ -4808,8 +4773,7 @@
       "outcome": "defeat",
       "combatants": "Alamanni vs Roman Empire",
       "commander": "Unknown"
-    },
-    "qid": "Q1289843"
+    }
   },
   {
     "id": "battle:battle-of-fano",
@@ -4827,7 +4791,7 @@
       "combatants": "Alamanni vs Roman Empire",
       "commander": "Unknown"
     },
-    "qid": "Q13142"
+    "containedInQid": "Q13142"
   },
   {
     "id": "battle:battle-of-pavia",
@@ -4845,7 +4809,7 @@
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Aurelian"
     },
-    "qid": "Q6259"
+    "containedInQid": "Q6259"
   },
   {
     "id": "battle:battle-of-daphne-271",
@@ -4863,7 +4827,7 @@
       "combatants": "Palmyrene Empire vs Roman Egypt",
       "commander": "Zabdas (Palmyrene)"
     },
-    "qid": "Q3015870"
+    "containedInQid": "Q3015870"
   },
   {
     "id": "battle:battle-of-emesa",
@@ -4880,8 +4844,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Palmyrene Empire",
       "commander": "Aurelian"
-    },
-    "qid": "Q3625476"
+    }
   },
   {
     "id": "battle:battle-of-immae",
@@ -4916,8 +4879,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Palmyrene Empire",
       "commander": "Aurelian"
-    },
-    "qid": "Q19926256"
+    }
   },
   {
     "id": "battle:battle-of-chalons-274",
@@ -5019,8 +4981,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Carus"
-    },
-    "qid": "Q767124"
+    }
   },
   {
     "id": "battle:battle-of-margum",
@@ -5105,8 +5066,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Domitius Domitianus (usurper)",
       "commander": "Diocletian"
-    },
-    "qid": "Q3636319"
+    }
   },
   {
     "id": "battle:battle-of-callinicum-298",
@@ -5196,7 +5156,7 @@
       "combatants": "Picts vs Roman Empire",
       "commander": "Constantius Chlorus"
     },
-    "qid": "Q958954"
+    "containedInQid": "Q958954"
   },
   {
     "id": "battle:battle-of-milvian-bridge",
@@ -5231,8 +5191,7 @@
       "outcome": "victory",
       "combatants": "Constantine vs Maxentius",
       "commander": "Constantine I"
-    },
-    "qid": "Q339321"
+    }
   },
   {
     "id": "battle:battle-of-turin-312",
@@ -5320,7 +5279,7 @@
       "combatants": "Constantine vs Licinius",
       "commander": "Constantine I"
     },
-    "qid": "Q11913747"
+    "containedInQid": "Q11913747"
   },
   {
     "id": "battle:battle-of-mardia",
@@ -5408,8 +5367,7 @@
       "outcome": "victory",
       "combatants": "Constantine vs Licinius",
       "commander": "Constantine I"
-    },
-    "qid": "Q2887868"
+    }
   },
   {
     "id": "battle:battle-of-hileia",
@@ -5479,7 +5437,7 @@
       "combatants": "Constantius II vs Vetranio",
       "commander": "Constantius II"
     },
-    "qid": "Q11913747"
+    "containedInQid": "Q11913747"
   },
   {
     "id": "battle:battle-of-mons-seleucus",
@@ -5491,13 +5449,12 @@
     "endYear": 353,
     "source": "Roman-Battles-Droid",
     "category": "military",
-    "description": "Battle of Mons Seleucus (353 AD) near La B\u00e2tie-Montsal\u00e9on, France",
+    "description": "Battle of Mons Seleucus (353 AD) near La Bâtie-Montsaléon, France",
     "props": {
       "outcome": "victory",
       "combatants": "Roman Empire vs Roman Empire",
       "commander": "Magnentius"
-    },
-    "qid": "Q1784785"
+    }
   },
   {
     "id": "battle:battle-of-reims",
@@ -5514,8 +5471,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian the Apostate"
-    },
-    "qid": "Q1051804"
+    }
   },
   {
     "id": "battle:battle-of-brumath",
@@ -5533,7 +5489,7 @@
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian"
     },
-    "qid": "Q22637"
+    "containedInQid": "Q22637"
   },
   {
     "id": "battle:siege-of-sens",
@@ -5550,8 +5506,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Alamanni",
       "commander": "Julian"
-    },
-    "qid": "Q3329751"
+    }
   },
   {
     "id": "battle:battle-of-strasbourg",
@@ -5622,8 +5577,7 @@
       "outcome": "victory",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Julian"
-    },
-    "qid": "Q767124"
+    }
   },
   {
     "id": "battle:battle-of-samarra",
@@ -5640,8 +5594,7 @@
       "outcome": "defeat",
       "combatants": "Roman Empire vs Sassanid Empire",
       "commander": "Julian"
-    },
-    "qid": "Q17144451"
+    }
   },
   {
     "id": "battle:battle-of-maiozamalcha",
@@ -5677,7 +5630,7 @@
       "combatants": "Roman Empire vs Procopius",
       "commander": "Valens"
     },
-    "qid": "Q1135603"
+    "containedInQid": "Q1135603"
   },
   {
     "id": "battle:battle-of-chalons-366",
@@ -5795,8 +5748,7 @@
     "source": "Roman-Battles-Droid",
     "category": "military",
     "description": "Battle of Thessalonica (380 AD)",
-    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" },
-    "qid": "Q3656964"
+    "props": { "outcome": "unknown", "combatants": "Unknown", "commander": "Unknown" }
   },
   {
     "id": "battle:battle-of-hadrianopolis-2",
@@ -5848,7 +5800,7 @@
       "combatants": "Theodosius vs Magnus Maximus",
       "commander": "Theodosius I"
     },
-    "qid": "Q108510029"
+    "containedInQid": "Q108510029"
   },
   {
     "id": "battle:battle-of-the-frigidus",
@@ -5883,8 +5835,7 @@
       "outcome": "draw",
       "combatants": "Roman Empire vs Visigoths",
       "commander": "Stilicho"
-    },
-    "qid": "Q38280957"
+    }
   },
   {
     "id": "battle:battle-of-pollentia",
@@ -5902,7 +5853,7 @@
       "combatants": "Western Roman Empire vs Visigoths",
       "commander": "Stilicho"
     },
-    "qid": "Q28978057"
+    "containedInQid": "Q28978057"
   },
   {
     "id": "battle:battle-of-verona",
@@ -5920,7 +5871,7 @@
       "combatants": "Roman Empire vs Visigoths",
       "commander": "Stilicho"
     },
-    "qid": "Q3678423"
+    "containedInQid": "Q3678423"
   },
   {
     "id": "battle:battle-of-mainz",
@@ -5937,8 +5888,7 @@
       "outcome": "defeat",
       "combatants": "Franks vs Vandals Suevi Alans",
       "commander": "unknown"
-    },
-    "qid": "Q558435"
+    }
   },
   {
     "id": "battle:battle-of-faesulae-406",
@@ -5973,8 +5923,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Visigoths",
       "commander": "None (Honorius in Ravenna)"
-    },
-    "qid": "Q1834148"
+    }
   },
   {
     "id": "battle:battle-of-vienne",
@@ -5991,8 +5940,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Burgundians/Franks",
       "commander": "Jovinus (usurper)"
-    },
-    "qid": "Q22967127"
+    }
   },
   {
     "id": "battle:battle-of-arles-425",
@@ -6009,8 +5957,7 @@
       "outcome": "victory",
       "combatants": "Western Roman Empire vs Joannes (usurper)",
       "commander": "Flavius Aetius"
-    },
-    "qid": "Q3485816"
+    }
   },
   {
     "id": "battle:battle-of-hippo-regius",
@@ -6043,10 +5990,9 @@
     "description": "Battle of Ravenna (432 AD) near near Rimini, present-day Italy",
     "props": {
       "outcome": "victory",
-      "combatants": "forces of Bonifacius vs forces of Flavius A\u00ebtius",
+      "combatants": "forces of Bonifacius vs forces of Flavius Aëtius",
       "commander": "Bonifacius"
-    },
-    "qid": "Q1137980"
+    }
   },
   {
     "id": "battle:battle-of-rimini-432",
@@ -6063,8 +6009,7 @@
       "outcome": "draw",
       "combatants": "Aetius vs Bonifacius",
       "commander": "Flavius Aetius"
-    },
-    "qid": "Q2405911"
+    }
   },
   {
     "id": "battle:battle-of-narbonne",
@@ -6116,8 +6061,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Visigoths",
       "commander": "Litorius"
-    },
-    "qid": "Q11949565"
+    }
   },
   {
     "id": "battle:battle-of-the-utus",
@@ -6222,8 +6166,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Vandals",
       "commander": "Petronius Maximus"
-    },
-    "qid": "Q1834148"
+    }
   },
   {
     "id": "battle:sack-of-rome-by-vandals",
@@ -6240,8 +6183,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Vandals",
       "commander": "None"
-    },
-    "qid": "Q1834148"
+    }
   },
   {
     "id": "battle:battle-of-nedao-455",
@@ -6275,8 +6217,7 @@
       "outcome": "victory",
       "combatants": "Western Roman Empire and Visigoths vs Suevi",
       "commander": "Ricimer"
-    },
-    "qid": "Q1289843"
+    }
   },
   {
     "id": "battle:battle-of-cartagena-461",
@@ -6293,8 +6234,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Vandals",
       "commander": "Majorian"
-    },
-    "qid": "Q6130087"
+    }
   },
   {
     "id": "battle:battle-of-cap-bon",
@@ -6328,8 +6268,7 @@
       "outcome": "defeat",
       "combatants": "Western Roman Empire vs Heruli/Sciri",
       "commander": "Romulus Augustulus / Orestes"
-    },
-    "qid": "Q3625516"
+    }
   },
   {
     "id": "battle:battle-of-yarmouk-636",
@@ -6364,8 +6303,7 @@
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Umayyad Caliphate",
       "commander": "Constantine IV"
-    },
-    "qid": "Q3485862"
+    }
   },
   {
     "id": "battle:second-arab-siege-of-constantinople-718",
@@ -6377,13 +6315,12 @@
     "endYear": 718,
     "source": "byzantine-curated",
     "category": "military",
-    "description": "Leo III shattered the largest Muslim assault on the city \u2014 a turning point for all of Europe.",
+    "description": "Leo III shattered the largest Muslim assault on the city — a turning point for all of Europe.",
     "props": {
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Umayyad Caliphate",
       "commander": "Leo III"
-    },
-    "qid": "Q3485862"
+    }
   },
   {
     "id": "battle:battle-of-akroinon-740",
@@ -6453,8 +6390,7 @@
       "outcome": "defeat",
       "combatants": "Byzantine Empire vs Seljuk Empire",
       "commander": "Romanos IV"
-    },
-    "qid": "Q18692304"
+    }
   },
   {
     "id": "battle:battle-of-dyrrhachium-1081",
@@ -6501,13 +6437,12 @@
     "endYear": 1204,
     "source": "byzantine-curated",
     "category": "military",
-    "description": "Christian crusaders stormed and looted the capital \u2014 a wound the empire never truly recovered from.",
+    "description": "Christian crusaders stormed and looted the capital — a wound the empire never truly recovered from.",
     "props": {
       "outcome": "defeat",
       "combatants": "Byzantine Empire vs Fourth Crusade",
       "commander": "Alexios V"
-    },
-    "qid": "Q3485862"
+    }
   },
   {
     "id": "battle:recapture-of-constantinople-1261",
@@ -6524,8 +6459,7 @@
       "outcome": "victory",
       "combatants": "Byzantine Empire vs Latin Empire",
       "commander": "Alexios Strategopoulos"
-    },
-    "qid": "Q3485862"
+    }
   },
   {
     "id": "battle:battle-of-pelekanon-1329",
@@ -6559,7 +6493,6 @@
       "outcome": "defeat",
       "combatants": "Byzantine Empire vs Ottoman Empire",
       "commander": "Constantine XI"
-    },
-    "qid": "Q3485862"
+    }
   }
 ]
