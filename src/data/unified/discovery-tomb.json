@@ -6444,7 +6444,7 @@
     "description": "A triangular enclosure with approximately 19 burials (both cremation and inhumation) dating to the Geometric period (ca. 750 BC - ca. 630 BC).",
     "props": { "ancientName": "Heroon" },
     "estimatedTemporal": true,
-    "qid": "Q2525990"
+    "containedInQid": "Q2525990"
   },
   {
     "id": "pleiades:234635789",
@@ -8685,7 +8685,7 @@
     "description": "A painted Etruscan tomb at Chiusi that dates ca. 170-150 BCE. The tomb has acquired a constellation of modern appellations, including \"tomba della Tassinaie\", \"tomba della Tassinara,\" and \"tomba della Tassinaia\".",
     "props": { "ancientName": "Tomb of the Tassinara" },
     "estimatedTemporal": true,
-    "qid": "Q3531048"
+    "containedInQid": "Q3531048"
   },
   {
     "id": "pleiades:712997241",

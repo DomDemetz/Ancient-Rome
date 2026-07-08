@@ -412,7 +412,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 15 A2 Octon",
     "estimatedTemporal": true,
-    "qid": "Q136067326"
+    "containedInQid": "Q136067326"
   },
   {
     "id": "pleiades:148174",
@@ -7945,7 +7945,7 @@
     "description": "An archaeological area in the Forum Boarium comprising an ancient ritual precinct with twin temples ranging in date from the Archaic period through the time of the Roman Empire. The Medieval church dedicated to S. Omobono stands atop the remains of one of the two ancient temples.",
     "props": { "ancientName": "Area Sacra di Sant'Omobono" },
     "estimatedTemporal": true,
-    "qid": "Q2552044"
+    "containedInQid": "Q2552044"
   },
   {
     "id": "pleiades:508774533",
@@ -12477,7 +12477,7 @@
     "category": "religion",
     "description": "The Temple of Dionysos at Eretria dates ca. 350 B.C. It is located in the northwest sector of the city near the so-called West Gate.",
     "estimatedTemporal": true,
-    "qid": "Q2525990"
+    "containedInQid": "Q2525990"
   },
   {
     "id": "pleiades:431684924",
@@ -13282,7 +13282,7 @@
     "description": "An ancient place, cited: BAtlas 17 D5 Allan",
     "props": { "ancientName": "Allan" },
     "estimatedTemporal": true,
-    "qid": "Q119897835"
+    "containedInQid": "Q119897835"
   },
   {
     "id": "pleiades:167635",
@@ -13296,7 +13296,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 G2 Allonzier-la-Caille",
     "estimatedTemporal": true,
-    "qid": "Q119740366"
+    "containedInQid": "Q119740366"
   },
   {
     "id": "pleiades:167669",
@@ -13349,7 +13349,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 H3 Brides-les-Bains",
     "estimatedTemporal": true,
-    "qid": "Q119910261"
+    "containedInQid": "Q119910261"
   },
   {
     "id": "pleiades:167695",
@@ -19333,7 +19333,7 @@
     "description": "An ancient place, cited: BAtlas 11 C4 Pithiviers-le-Vieil",
     "props": { "ancientName": "Pithiviers-le-Vieil" },
     "estimatedTemporal": true,
-    "qid": "Q22949479"
+    "containedInQid": "Q22949479"
   },
   {
     "id": "pleiades:109252",

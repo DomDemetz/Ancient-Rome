@@ -655,8 +655,7 @@
     "source": "roman-amphitheaters",
     "category": "entertainment",
     "props": { "capacity": 15000, "dimensions": "110x85m", "city": "Venafrum" },
-    "containedInQid": "Q833021",
-    "qid": "Q20008551"
+    "containedInQid": "Q20008551"
   },
   {
     "id": "amphitheater:augst",
@@ -2213,8 +2212,7 @@
     "source": "roman-amphitheaters",
     "category": "entertainment",
     "props": { "city": "Hispellum" },
-    "containedInQid": "Q4895226",
-    "qid": "Q60249746"
+    "containedInQid": "Q60249746"
   },
   {
     "id": "amphitheater:aquincum-civilian",
@@ -3536,7 +3534,7 @@
     "source": "roman-amphitheaters",
     "category": "entertainment",
     "props": { "city": "Toletum" },
-    "qid": "Q52866736"
+    "containedInQid": "Q52866736"
   },
   {
     "id": "amphitheater:kaiseraugst",

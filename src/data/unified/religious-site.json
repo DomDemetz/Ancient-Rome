@@ -295,7 +295,7 @@
     "category": "religion",
     "description": "Temple on the Via Sacra vowed during battles against the Sabines.",
     "props": { "religion": "roman", "deity": "Jupiter" },
-    "qid": "Q2579576"
+    "containedInQid": "Q2579576"
   },
   {
     "id": "religion:rel-021",
@@ -855,7 +855,7 @@
     "category": "religion",
     "description": "Altar of Augustan Peace on the Campus Martius, masterpiece of Roman sculptural art.",
     "props": { "religion": "roman", "deity": "Pax" },
-    "qid": "Q3867996"
+    "containedInQid": "Q3867996"
   },
   {
     "id": "religion:rel-060",
@@ -928,7 +928,7 @@
     "category": "religion",
     "description": "Only standing Graeco-Roman colonnaded temple in the former Soviet Union, in Armenia.",
     "props": { "religion": "roman", "deity": "Mithras" },
-    "qid": "Q42957073"
+    "containedInQid": "Q42957073"
   },
   {
     "id": "religion:rel-065",
@@ -1003,7 +1003,7 @@
     "category": "religion",
     "description": "Well-preserved Capitoline temple at Brixia, now housing the Santa Giulia museum.",
     "props": { "religion": "roman", "deity": "Jupiter" },
-    "qid": "Q112709891"
+    "containedInQid": "Q112709891"
   },
   {
     "id": "religion:rel-070",
@@ -1241,7 +1241,7 @@
     "category": "religion",
     "description": "Well-decorated mithraeum on the Aventine Hill with painted walls and inscriptions.",
     "props": { "religion": "mithras", "deity": "Mithras" },
-    "qid": "Q1750627"
+    "containedInQid": "Q1750627"
   },
   {
     "id": "religion:rel-086",
@@ -1358,7 +1358,7 @@
     "category": "religion",
     "description": "Mithraeum discovered in 1954 at Walbrook, reconstructed and open to visitors.",
     "props": { "religion": "mithras", "deity": "Mithras" },
-    "qid": "Q7593494"
+    "containedInQid": "Q7593494"
   },
   {
     "id": "religion:rel-094",
@@ -1769,7 +1769,7 @@
     "category": "religion",
     "description": "Built by Constantine over the traditional site of Jesus' crucifixion and burial.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q24911488"
+    "containedInQid": "Q24911488"
   },
   {
     "id": "religion:rel-122",
@@ -1784,7 +1784,7 @@
     "category": "religion",
     "description": "Constantinian basilica over the traditional birthplace of Jesus in Bethlehem.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q194504"
+    "containedInQid": "Q194504"
   },
   {
     "id": "religion:rel-123",
@@ -1799,7 +1799,7 @@
     "category": "religion",
     "description": "Constantinian basilica built over the tomb of the apostle Peter on Vatican Hill.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q12512"
+    "containedInQid": "Q12512"
   },
   {
     "id": "religion:rel-124",
@@ -1858,7 +1858,7 @@
     "category": "religion",
     "description": "Earliest identified Christian house church with baptistery frescoes, destroyed by Sasanid siege.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q132674932"
+    "containedInQid": "Q132674932"
   },
   {
     "id": "religion:rel-128",
@@ -1887,7 +1887,7 @@
     "category": "religion",
     "description": "Papal basilica built under Pope Sixtus III with the finest early Christian mosaics in Rome.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q2095195"
+    "containedInQid": "Q2095195"
   },
   {
     "id": "religion:rel-130",
@@ -1917,7 +1917,7 @@
     "category": "religion",
     "description": "Early basilica on the Aventine with original 5th-century wooden doors showing biblical scenes.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q1750627"
+    "containedInQid": "Q1750627"
   },
   {
     "id": "religion:rel-132",
@@ -1932,7 +1932,7 @@
     "category": "religion",
     "description": "One of the oldest churches in Rome with a magnificent 4th-century apse mosaic.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q2095195"
+    "containedInQid": "Q2095195"
   },
   {
     "id": "religion:rel-133",
@@ -2005,7 +2005,7 @@
     "category": "religion",
     "description": "Octagonal church with celebrated Justinianic mosaics of Emperor and Empress.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q55182433"
+    "containedInQid": "Q55182433"
   },
   {
     "id": "religion:rel-138",
@@ -2020,7 +2020,7 @@
     "category": "religion",
     "description": "One of several early Christian churches at Thessalonica, important Pauline city.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q1728464"
+    "containedInQid": "Q1728464"
   },
   {
     "id": "religion:rel-139",
@@ -2049,7 +2049,7 @@
     "category": "religion",
     "description": "One of the first churches in Constantinople, preceded Hagia Sophia.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q736676"
+    "containedInQid": "Q736676"
   },
   {
     "id": "religion:rel-141",
@@ -2064,7 +2064,7 @@
     "category": "religion",
     "description": "Early church over a cave venerated as the site of the Annunciation.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q16575118"
+    "containedInQid": "Q16575118"
   },
   {
     "id": "religion:rel-142",
@@ -2093,7 +2093,7 @@
     "category": "religion",
     "description": "Cathedral of St. Augustine, one of the Fathers of the Church, at Hippo in Numidia.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q7510087"
+    "containedInQid": "Q7510087"
   },
   {
     "id": "religion:rel-144",
@@ -2165,7 +2165,7 @@
     "category": "religion",
     "description": "Site of the Pauline community at Corinth, one of the earliest Christian congregations in Greece.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q116059799"
+    "containedInQid": "Q116059799"
   },
   {
     "id": "religion:rel-149",
@@ -2180,7 +2180,7 @@
     "category": "religion",
     "description": "Double church and site of the Council of Ephesus (431 AD).",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q2450228"
+    "containedInQid": "Q2450228"
   },
   {
     "id": "religion:rel-150",
@@ -2323,7 +2323,7 @@
     "category": "religion",
     "description": "Site of one of the earliest Christian communities in Gaul, associated with the martyrs of 177 AD.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q1521"
+    "containedInQid": "Q1521"
   },
   {
     "id": "religion:rel-160",
@@ -2723,7 +2723,7 @@
     "category": "religion",
     "description": "One of the oldest synagogues in Europe, discovered near the ancient port of Rome.",
     "props": { "religion": "jewish" },
-    "qid": "Q1268954"
+    "containedInQid": "Q1268954"
   },
   {
     "id": "religion:rel-188",
@@ -2840,7 +2840,7 @@
     "category": "religion",
     "description": "Site of the ancient Jewish community in Trastevere, one of the oldest in Europe.",
     "props": { "religion": "jewish" },
-    "qid": "Q3625518"
+    "containedInQid": "Q3625518"
   },
   {
     "id": "religion:rel-196",
@@ -3032,7 +3032,7 @@
     "category": "religion",
     "description": "Healing sanctuary on the south slope of the Acropolis.",
     "props": { "religion": "greek", "deity": "Asklepios" },
-    "qid": "Q28802717"
+    "containedInQid": "Q28802717"
   },
   {
     "id": "religion:rel-209",
@@ -3599,7 +3599,7 @@
     "category": "religion",
     "description": "Golden-roofed octagonal church built by Constantine, one of Christendom's most important early cathedrals.",
     "props": { "religion": "christian", "deity": "Christ" },
-    "qid": "Q741098"
+    "containedInQid": "Q741098"
   },
   {
     "id": "religion:rel-249",
@@ -4272,9 +4272,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3669776",
     "description": "The church of San Claudio al Chienti is a Romanesque church building located in the municipality of Corridonia in the Chienti valley. It was founded in the eleventh century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3669776"
   },
   {
     "id": "religion:65661952",
@@ -4590,9 +4590,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q113757165",
     "description": "An ancient place, cited: BAtlas 54 C4 Ag. Sophia",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q113757165"
   },
   {
     "id": "religion:707448",
@@ -5027,7 +5027,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 D5 Allan",
     "props": { "religion": "roman" },
-    "qid": "Q119897835"
+    "containedInQid": "Q119897835"
   },
   {
     "id": "religion:147989",
@@ -6243,9 +6243,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2845916",
     "description": "A pre-Constantinian Christian church located at ancient Aila in Jordan.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q2845916"
   },
   {
     "id": "religion:109330",
@@ -6475,9 +6475,9 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q56450533",
     "description": "An ancient place, cited: BAtlas 61 D3 Artemis Parthenos, T.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q56450533"
   },
   {
     "id": "religion:579878",
@@ -7072,7 +7072,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 19 F3 Baldersdorf",
     "props": { "religion": "roman" },
-    "qid": "Q1412762"
+    "containedInQid": "Q1412762"
   },
   {
     "id": "religion:678047",
@@ -7261,9 +7261,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q810130",
     "description": "A Paleochristian site dating to the fifth century A.D.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q810130"
   },
   {
     "id": "religion:654811925",
@@ -7293,7 +7293,7 @@
     "category": "religion",
     "description": "A minor Paleochristian basilica located in Guidonia Montecelio that was dedicated to the patron saint of Tivoli.",
     "props": { "religion": "roman" },
-    "qid": "Q121870169"
+    "containedInQid": "Q121870169"
   },
   {
     "id": "religion:922015288",
@@ -7366,9 +7366,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1806561",
     "description": "A Christian basilica that incorporates the remains of a fourth-century AD Roman gymnasium.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1806561"
   },
   {
     "id": "religion:880538993",
@@ -7396,9 +7396,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q207486",
     "description": "A papal basilica begun ca. AD 1228.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q207486"
   },
   {
     "id": "religion:125661871",
@@ -7975,7 +7975,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 D2 Bully",
     "props": { "religion": "roman" },
-    "qid": "Q41794826"
+    "containedInQid": "Q41794826"
   },
   {
     "id": "religion:187544",
@@ -8486,9 +8486,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1149886",
     "description": "The Cathedral of Santa Maria Assunta on the island of Torcello is a Roman Catholic basilica initially founded in 639. The second basilica was begun in 1008.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1149886"
   },
   {
     "id": "religion:359852688",
@@ -8503,7 +8503,7 @@
     "category": "religion",
     "description": "Armenian church built on the island of Aghtamar by King Gagik I Artsruni between 915-921 CE.",
     "props": { "religion": "roman" },
-    "qid": "Q1281985"
+    "containedInQid": "Q1281985"
   },
   {
     "id": "religion:319613732",
@@ -8531,9 +8531,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q106205202",
     "description": "The ruins of the cathedral of the fifth century are located in an area of the archaeological site of Amiternum that was occupied in the second and third centuries CE.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q106205202"
   },
   {
     "id": "religion:876542161",
@@ -8664,7 +8664,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 17 D4 Chalencon",
     "props": { "religion": "roman" },
-    "qid": "Q41744367"
+    "containedInQid": "Q41744367"
   },
   {
     "id": "religion:540705",
@@ -8750,9 +8750,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q112074532",
     "description": "Chapel for the Sacred Barque of Amun-Ra in Karnak, established by the Egyptian pharaoh Hakor of the Twenty-ninth dynasty who reigned from 392/1 to 379/8 BCE.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q112074532"
   },
   {
     "id": "religion:55190369",
@@ -8840,7 +8840,7 @@
     "category": "religion",
     "description": "A Celto-Ligurian oppidum and sanctuary.",
     "props": { "religion": "roman" },
-    "qid": "Q3584916"
+    "containedInQid": "Q3584916"
   },
   {
     "id": "religion:305060",
@@ -8867,9 +8867,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3585373",
     "description": "The church of San Paolo at Peltuinum likely dates to the seventh or eighth century CE.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3585373"
   },
   {
     "id": "religion:957105940",
@@ -8882,9 +8882,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3674191",
     "description": "The church of Santa Pudenziana near Narni, Italy, dates from the ninth to eleventh centuries CE and reuses spoliated architectural elements from a Roman villa.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3674191"
   },
   {
     "id": "religion:233122845",
@@ -8899,7 +8899,7 @@
     "category": "religion",
     "description": "A poorly understood paleochristian site located on the grounds of the Inviolata park in the comune of Guidonia-Montecelio in the greater metropolitan area of Rome. The cave site may originally have functioned as a mithraeum.",
     "props": { "religion": "roman" },
-    "qid": "Q3670620"
+    "containedInQid": "Q3670620"
   },
   {
     "id": "religion:658437",
@@ -9058,7 +9058,7 @@
     "category": "religion",
     "description": "The Church of Saint Sophia, also referred to as the Old Bishopric, is an Eastern Orthodox church located in Nesebar, eastern Bulgaria. The church originally dates to the sixth century.",
     "props": { "religion": "roman" },
-    "qid": "Q3656775"
+    "containedInQid": "Q3656775"
   },
   {
     "id": "religion:236701131",
@@ -9071,9 +9071,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q139600903",
     "description": "The so-called Church of San Primitivo in Monte Compatri. The church's bell tower was converted to a defensive tower around 1200.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q139600903"
   },
   {
     "id": "religion:117499030",
@@ -9115,9 +9115,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2378078",
     "description": "A Paleochristian sanctuary in Portugal.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q2378078"
   },
   {
     "id": "religion:322772904",
@@ -9130,9 +9130,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3671654",
     "description": "A twelfth-century AD Christian church was built atop the remains of the Roman temple of Apollo.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3671654"
   },
   {
     "id": "religion:566994603",
@@ -9145,9 +9145,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3668746",
     "description": "The church of the Annunziatella is a Catholic church located in Rome's Ardeatino district. It is situated between the via Ardeatina and via di Grotta Perfetta. The church was established in the thirteenth century, as an inscription of Pope Honorius III attests.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3668746"
   },
   {
     "id": "religion:579175360",
@@ -9162,7 +9162,7 @@
     "category": "religion",
     "description": "Church in the village of Sige (modern Kumyaka) on the southern shore of the Sea of Marmara. Constructed under Constantine VI in 780, the structure was restored twice, in 1448 and 1819. It remained in continuous use until it was ultimately abandoned in 1922.",
     "props": { "religion": "roman" },
-    "qid": "Q5995062"
+    "containedInQid": "Q5995062"
   },
   {
     "id": "religion:167191621",
@@ -9411,9 +9411,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q21187652",
     "description": "The Romanesque church of San Lussorio dates to the early twelfth century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q21187652"
   },
   {
     "id": "religion:256142",
@@ -9699,9 +9699,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3320206",
     "description": "An ancient place, cited: BAtlas 74 C4 Deir Amba Bishoi",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3320206"
   },
   {
     "id": "religion:756552",
@@ -10246,7 +10246,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 87 G2 Dranda",
     "props": { "religion": "roman" },
-    "qid": "Q2646612"
+    "containedInQid": "Q2646612"
   },
   {
     "id": "religion:442570",
@@ -10446,9 +10446,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3584662",
     "description": "A 12th-century CE church thought to have been built on the site of a Gallo-Roman villa. It is located in the modern French commune of Marimbault (Gironde).",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3584662"
   },
   {
     "id": "religion:100593149",
@@ -11064,9 +11064,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q645105",
     "description": "An Early Byzantine Christian basilica located in Pore\u010d, Croatia.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q645105"
   },
   {
     "id": "religion:777728190",
@@ -11179,9 +11179,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1227931",
     "description": "The cathedral in Faras, founded in 620 and rebuilt in the 8th and 10th centuries, respectively, was the seat of the Diocese of Faras. The site had well-preserved wall paintings from the 8th to 9th centuries. The cathedral was flooded by the creation of Lake Nasser in the 1960s.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1227931"
   },
   {
     "id": "religion:543871523",
@@ -11194,9 +11194,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q2634480",
     "description": "A Benedictine abbey located ca. 60 km from Rome.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q2634480"
   },
   {
     "id": "religion:79459",
@@ -11381,9 +11381,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3983167",
     "description": "Originally the site of a shrine dedicated to the river god Clitumnus and later a paleochristian shrine. The temple was listed as a UNESCO World Heritage Site in 2011.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3983167"
   },
   {
     "id": "religion:167768",
@@ -11660,9 +11660,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1492262",
     "description": "An early Christian church in Ireland, originally built between the sixth and the ninth centuries.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1492262"
   },
   {
     "id": "religion:127288246",
@@ -12562,9 +12562,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q4430013",
     "description": "Hagia Sophia, Iznik, Turkey, was founded as a Christian basilica in the fourth century CE. Justinian I rebuilt the site in the mid-6th century CE. An earthquake in the eleventh century destroyed that church, and it was then substantially rebuilt following 1065. It is to that rebuilding that much of the present structure pertains. Following the Ottoman conquest, the church became a mosque in 1331. The site served that function until ca. 1935, when it became a museum. Following 2011, it again served as a mosque.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q4430013"
   },
   {
     "id": "religion:790744210",
@@ -12941,7 +12941,7 @@
     "category": "religion",
     "description": "A triangular enclosure with approximately 19 burials (both cremation and inhumation) dating to the Geometric period (ca. 750 BC - ca. 630 BC).",
     "props": { "religion": "roman" },
-    "qid": "Q2525990"
+    "containedInQid": "Q2525990"
   },
   {
     "id": "religion:956927191",
@@ -13273,7 +13273,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 19 C2 Imst",
     "props": { "religion": "roman" },
-    "qid": "Q23541709"
+    "containedInQid": "Q23541709"
   },
   {
     "id": "religion:383677",
@@ -17423,7 +17423,7 @@
     "category": "religion",
     "description": "A sanctuary on Mont Sacon at an elevation of 1541 meters above sea level.",
     "props": { "religion": "roman" },
-    "qid": "Q41794370"
+    "containedInQid": "Q41794370"
   },
   {
     "id": "religion:335229932",
@@ -17450,9 +17450,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q1189476",
     "description": "Nostra Segnora de Mesumundu (\"Our Lady of Mesumundu\") is located in the territory of Siligo, Sardinia, Italy. This archaeological site preserves remains of multiple architectural phases. A mid-Imperial (likely second-century CE) Roman complex, which included baths, was reused, in part, for the construction of a Christian church in the sixth century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q1189476"
   },
   {
     "id": "religion:148143",
@@ -17569,7 +17569,7 @@
     "category": "religion",
     "description": "The modern Polish city of Odry is the site of a major \"stone circles\" cemetery of the iron age Wielbark Culture.",
     "props": { "religion": "roman" },
-    "qid": "Q30963018"
+    "containedInQid": "Q30963018"
   },
   {
     "id": "religion:69544",
@@ -17840,9 +17840,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q56682419",
     "description": "The paleochristian basilica of Saint-Bertrand-de-Comminges.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q56682419"
   },
   {
     "id": "religion:260468071",
@@ -17929,9 +17929,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q24914520",
     "description": "The church of Panagia tis Angeloktistis or Panagia Angeloktisti is a Byzantine church located in the village of Kiti, Cyprus. Its origins lies in the fifth and sixth centuries. It was listed as a tentative UNESCO World Heritage site in 2015.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q24914520"
   },
   {
     "id": "religion:589971",
@@ -17974,9 +17974,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q15124178",
     "description": "A twelfth-century CE Greek Orthodox church located north of modern Livadia on Cyprus' Karpasia peninsula. Its apse had been adapted from part of an older building and contained a 7th-century mosaic of the Theotokos (i.e., Mary, mother of Jesus).",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q15124178"
   },
   {
     "id": "religion:433012",
@@ -18434,9 +18434,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3904602",
     "description": "A ruined church that was once part of the diocese of Volterra, San Giovanni Battista a Sillano is unique in Tuscany for having a Romanesque-Norman fa\u00e7ade. The ruined edifice likely dates to the twelfth and thirteenth centuries although the parish exists as early as the mid-tenth century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3904602"
   },
   {
     "id": "religion:41658845",
@@ -18449,9 +18449,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q25112721",
     "description": "A Romanesque church located in the Italian comune of Sinalunga (Siena). Saint Donatus of Arezzo may have founded the church in the fourth century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q25112721"
   },
   {
     "id": "religion:413254",
@@ -18464,9 +18464,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3904745",
     "description": "Pieve di Sant'Antonino a Socana, a Medieval parish church, is built atop the remains of an Etruscan sanctuary.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3904745"
   },
   {
     "id": "religion:589997",
@@ -19707,7 +19707,7 @@
     "category": "religion",
     "description": "Rossano di Vaglio, a fourth century BC site dedicated to Mefitis, was a Lucanian federal sanctuary.",
     "props": { "religion": "roman" },
-    "qid": "Q37303639"
+    "containedInQid": "Q37303639"
   },
   {
     "id": "religion:148175",
@@ -19910,7 +19910,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 25 H4 S. Cugat",
     "props": { "religion": "roman" },
-    "qid": "Q19831050"
+    "containedInQid": "Q19831050"
   },
   {
     "id": "religion:177617",
@@ -20037,9 +20037,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3950103",
     "description": "An ancient place, cited: BAtlas 39 H2 S. Maria di Minerbe",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3950103"
   },
   {
     "id": "religion:433092",
@@ -20256,7 +20256,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 25 F2 Sacou\u00e9",
     "props": { "religion": "roman" },
-    "qid": "Q38642115"
+    "containedInQid": "Q38642115"
   },
   {
     "id": "religion:423030",
@@ -20386,9 +20386,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q922677",
     "description": "A church in Venice, Italy. San Giacomo di Rialto is claimed to be the oldest church in the city, with AD 421 as the traditional date of its consecration. The first documented attestations of the church belong to AD 1152.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q922677"
   },
   {
     "id": "religion:480057748",
@@ -20401,9 +20401,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q25110440",
     "description": "A church of the eleventh and twelfth century built along the line of the Roman Via Flaminia. The church incorporates Roman remains, including those of a bridge.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q25110440"
   },
   {
     "id": "religion:424659855",
@@ -20416,9 +20416,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q569160",
     "description": "A Medieval church on the island of Sardinia that is dated to 1133.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q569160"
   },
   {
     "id": "religion:81533409",
@@ -20446,9 +20446,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q14754943",
     "description": "A Romanesque-style Roman Catholic church and Benedictine monastery consecrated in 1117 but with possible origins in the eighth century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q14754943"
   },
   {
     "id": "religion:352972521",
@@ -21094,7 +21094,7 @@
     "category": "religion",
     "description": "A Marian sanctuary founded in 1430.",
     "props": { "religion": "roman" },
-    "qid": "Q20007924"
+    "containedInQid": "Q20007924"
   },
   {
     "id": "religion:314547139",
@@ -21122,9 +21122,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3950050",
     "description": "A Marian sanctuary located on the hill of Anglona in the province of Matera, Italy, that originates in the eleventh century.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q3950050"
   },
   {
     "id": "religion:90865616",
@@ -21844,9 +21844,9 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q168365",
     "description": "A three-aisled Paleochristian basilica of the fifth century A.D. located in the village of Son Bou in Menorca, Spain.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q168365"
   },
   {
     "id": "religion:109349",
@@ -22031,9 +22031,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q7591326",
     "description": "A ruined Medieval church located on the site of a Roman villa.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q7591326"
   },
   {
     "id": "religion:167891",
@@ -26086,9 +26086,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q17054090",
     "description": "A seventh century AD church built by Catholicos Nerses the Builder (AD 641-653) and located in the Armavir Province of Armenia. The ruins of the church were listed as a UNESCO World Heritage Site in 2000.",
-    "props": { "religion": "roman" }
+    "props": { "religion": "roman" },
+    "containedInQid": "Q17054090"
   },
   {
     "id": "religious:pleiades-267702570",
@@ -26099,10 +26099,10 @@
     "source": "Pleiades",
     "description": "An ancient Christian basilica on the Caelian Hill in Rome that was built in AD 398 by will of a senator known as Pammachius. The basilica was located over the home of two Roman soldiers, John and Paul, who had been martyred under Julian in AD 362. The church was thus called the Titulus Pammachii.",
     "subtype": "church",
-    "qid": "Q1586946",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q1586946"
   },
   {
     "id": "religious:pleiades-570059",
@@ -26246,10 +26246,10 @@
     "source": "Pleiades",
     "description": "A Medieval Christian sanctuary along the Via Appia, perhaps best known as the Church of Domine Quo Vadis.",
     "subtype": "church",
-    "qid": "Q1081921",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q1081921"
   },
   {
     "id": "religious:pleiades-814448537",
@@ -26342,7 +26342,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q3669840"
+    "containedInQid": "Q3669840"
   },
   {
     "id": "religious:pleiades-482028558",
@@ -26370,7 +26370,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q3849018"
+    "containedInQid": "Q3849018"
   },
   {
     "id": "religious:pleiades-463398873",
@@ -26381,10 +26381,10 @@
     "source": "Pleiades",
     "description": "The Basilica di Santa Maria in Trastevere is a titular minor basilica located in the Trastevere district of Rome, Italy.",
     "subtype": "church",
-    "qid": "Q1137391",
     "startYear": -500,
     "endYear": 500,
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q1137391"
   },
   {
     "id": "religious:pleiades-755240663",
@@ -26398,7 +26398,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q2887100"
+    "containedInQid": "Q2887100"
   },
   {
     "id": "religious:pleiades-403031321",
@@ -26426,7 +26426,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q2354657"
+    "containedInQid": "Q2354657"
   },
   {
     "id": "religious:pleiades-356557089",
@@ -26493,7 +26493,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q1088101"
+    "containedInQid": "Q1088101"
   },
   {
     "id": "religious:pleiades-895678329",
@@ -26521,7 +26521,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q12865094"
+    "containedInQid": "Q12865094"
   },
   {
     "id": "religious:pleiades-969121824",
@@ -26535,7 +26535,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q844886"
+    "containedInQid": "Q844886"
   },
   {
     "id": "religious:pleiades-770095145",
@@ -26549,7 +26549,7 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q42859512"
+    "containedInQid": "Q42859512"
   },
   {
     "id": "religious:pleiades-891702684",
@@ -26577,6 +26577,6 @@
     "startYear": -500,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q3669566"
+    "containedInQid": "Q3669566"
   }
 ]

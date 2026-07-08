@@ -581,7 +581,7 @@
     "category": "infrastructure",
     "description": "Aqueduct serving the important Gallic colony of Arelate, drawing water from the Alpilles hills.",
     "props": { "length": 32, "cityServed": "Arelate (Arles)" },
-    "qid": "Q20431158"
+    "containedInQid": "Q20431158"
   },
   {
     "id": "aqueduct:aq-aix",
@@ -636,7 +636,7 @@
     "category": "infrastructure",
     "description": "Aqueduct supplying the hilltop colony of Lindum from springs to the northeast, with pipeline sections along the Roaring Meg.",
     "props": { "length": 35, "cityServed": "Lindum Colonia (Lincoln)" },
-    "qid": "Q288345"
+    "containedInQid": "Q288345"
   },
   {
     "id": "aqueduct:aq-dorchester",
@@ -829,7 +829,7 @@
     "category": "infrastructure",
     "description": "Stone-pipe aqueduct with distinctive travertine-encrusted pipes. The lukewarm water referenced in the Book of Revelation.",
     "props": { "cityServed": "Laodicea ad Lycum" },
-    "qid": "Q3485920"
+    "containedInQid": "Q3485920"
   },
   {
     "id": "aqueduct:aq-bologna",
@@ -990,7 +990,7 @@
     "category": "infrastructure",
     "description": "Aqueduct supplying the city of St. Augustine from Taurus mountain springs, feeding its baths and forum fountains.",
     "props": { "length": 15, "cityServed": "Hippo Regius (Annaba)" },
-    "qid": "Q7510087"
+    "containedInQid": "Q7510087"
   },
   {
     "id": "aqueduct:aq-sabratha",
@@ -1479,7 +1479,7 @@
     "category": "infrastructure",
     "description": "Aqueduct built by Augustus for the Adriatic naval base at Ravenna, later capital of the Western Empire.",
     "props": { "builder": "Augustus", "cityServed": "Ravenna" },
-    "qid": "Q3625516"
+    "containedInQid": "Q3625516"
   },
   {
     "id": "aqueduct:aq-catania",
@@ -1519,7 +1519,7 @@
     "category": "infrastructure",
     "description": "Aqueduct serving Rome's harbour city of Ostia, built as the city expanded from a military colony to a major commercial port.",
     "props": { "builder": "Caligula/Claudius", "cityServed": "Ostia" },
-    "qid": "Q1268954"
+    "containedInQid": "Q1268954"
   },
   {
     "id": "aqueduct:aq-minturnae",
@@ -1592,7 +1592,7 @@
     "category": "infrastructure",
     "description": "Aqueduct serving the capital of Dalmatia from the Jadro springs, later also supplying Diocletian's nearby palace.",
     "props": { "length": 8, "builder": "Julius Caesar", "cityServed": "Salona (Solin)" },
-    "qid": "Q138010777"
+    "containedInQid": "Q138010777"
   },
   {
     "id": "aqueduct:aq-thessaloniki",
@@ -1606,7 +1606,7 @@
     "category": "infrastructure",
     "description": "Aqueduct supplying the major Macedonian city of Thessalonica, capital of the province, from Chortiatis mountain springs.",
     "props": { "cityServed": "Thessalonica" },
-    "qid": "Q12289085"
+    "containedInQid": "Q12289085"
   },
   {
     "id": "aqueduct:aq-philippopolis",
@@ -1620,7 +1620,7 @@
     "category": "infrastructure",
     "description": "Aqueduct supplying the Thracian capital of Philippopolis from Rhodope mountain springs, feeding its stadium and baths.",
     "props": { "cityServed": "Philippopolis (Plovdiv)" },
-    "qid": "Q625406"
+    "containedInQid": "Q625406"
   },
   {
     "id": "aqueduct:aq-serdica",
@@ -1773,7 +1773,7 @@
     "category": "infrastructure",
     "description": "Aqueduct from Efqa spring supplemented by qanats, supplying Zenobia's desert caravan city with its monumental colonnaded street.",
     "props": { "length": 12, "cityServed": "Palmyra" },
-    "qid": "Q4671597"
+    "containedInQid": "Q4671597"
   },
   {
     "id": "aqueduct:aq-palmyra-2",
@@ -1868,7 +1868,7 @@
     "category": "infrastructure",
     "description": "Aqueduct from the Ras el-Ain springs to the island city of Tyre, the Phoenician metropolis, crossing a causeway built by Alexander.",
     "props": { "length": 6, "cityServed": "Tyrus (Tyre)" },
-    "qid": "Q11794916"
+    "containedInQid": "Q11794916"
   },
   {
     "id": "aqueduct:aq-berytus",
@@ -1896,7 +1896,7 @@
     "category": "infrastructure",
     "description": "Roman-era expansion of Alexandria's canal-fed water system, supplementing the city's famous underground cisterns.",
     "props": { "builder": "Augustus", "cityServed": "Alexandria" },
-    "qid": "Q815105"
+    "containedInQid": "Q815105"
   },
   {
     "id": "aqueduct:aq-cyrene",
@@ -2019,7 +2019,7 @@
     "category": "infrastructure",
     "description": "Aqueduct supplying the clifftop Numidian capital of Cirta, rebuilt after Caesar's colonization of the city.",
     "props": { "builder": "Julius Caesar", "cityServed": "Cirta (Constantine)" },
-    "qid": "Q11949529"
+    "containedInQid": "Q11949529"
   },
   {
     "id": "aqueduct:aq-emesa",

@@ -2829,8 +2829,7 @@
     "category": "production",
     "description": "Iron extraction in the Lorraine basin near Divodurum (Metz).",
     "props": { "siteType": "mine" },
-    "containedInQid": "Q22690",
-    "qid": "Q688847"
+    "containedInQid": "Q688847"
   },
   {
     "id": "mine:mine-eifel-iron",
@@ -3618,7 +3617,7 @@
     "category": "production",
     "description": "Green marble (verde antico / marmor thessalicum) quarry near Larissa, Thessaly.",
     "props": { "siteType": "quarry" },
-    "qid": "Q28555022"
+    "containedInQid": "Q28555022"
   },
   {
     "id": "mine:mine-chalcidice-gold",
@@ -4686,7 +4685,7 @@
     "category": "production",
     "description": "Underground limestone quarry (Solomon's/Zedekiah's Quarry) supplying building stone for Jerusalem.",
     "props": { "siteType": "quarry" },
-    "qid": "Q9173065"
+    "containedInQid": "Q9173065"
   },
   {
     "id": "mine:quarry-caesarea-maritima",
@@ -5726,8 +5725,7 @@
     "category": "production",
     "description": "An ancient place, cited: BAtlas 25 F3 Bagn\u00e8res-de-Luchon",
     "props": { "siteType": "quarry" },
-    "containedInQid": "Q24933391",
-    "qid": "Q136043441"
+    "containedInQid": "Q136043441"
   },
   {
     "id": "mine:206948",
@@ -6656,8 +6654,7 @@
     "category": "production",
     "description": "An ancient place, cited: BAtlas 21 F3 Cojocna",
     "props": { "siteType": "mine" },
-    "containedInQid": "Q16426185",
-    "qid": "Q28758931"
+    "containedInQid": "Q28758931"
   },
   {
     "id": "mine:157835",
@@ -6873,7 +6870,7 @@
     "category": "production",
     "description": "An ancient place, cited: BAtlas 18 C2 Dole",
     "props": { "siteType": "mine" },
-    "qid": "Q16677027"
+    "containedInQid": "Q16677027"
   },
   {
     "id": "mine:207088",
@@ -10021,9 +10018,9 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "production",
-    "qid": "Q117857781",
     "description": "Subterranian mine aimed at deterring the Sasanian Persian siege and eventual fall of Dura-Europos.",
-    "props": { "siteType": "mine" }
+    "props": { "siteType": "mine" },
+    "containedInQid": "Q117857781"
   },
   {
     "id": "mine:167886",
@@ -10568,7 +10565,7 @@
     "category": "production",
     "description": "An ancient place, cited: BAtlas 25 B2 Somorrostro",
     "props": { "siteType": "mine" },
-    "qid": "Q62987864"
+    "containedInQid": "Q62987864"
   },
   {
     "id": "mine:215815905",
@@ -13087,7 +13084,7 @@
     "category": "production",
     "description": "An ancient place, cited: BAtlas 17 H3 Villarodin-Bourget",
     "props": { "siteType": "mine" },
-    "qid": "Q136098062"
+    "containedInQid": "Q136098062"
   },
   {
     "id": "mine:167971",
@@ -14243,7 +14240,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 17 G3 Villard-Notre-Dame",
-    "qid": "Q136082015"
+    "containedInQid": "Q136082015"
   },
   {
     "id": "pleiades:167970",
@@ -15452,7 +15449,7 @@
     "startYear": -300,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q134444175"
+    "containedInQid": "Q134444175"
   },
   {
     "id": "mine:pleiades-612196407",
@@ -15520,7 +15517,7 @@
     "startYear": -300,
     "endYear": 500,
     "estimatedTemporal": true,
-    "qid": "Q11017694"
+    "containedInQid": "Q11017694"
   },
   {
     "id": "mine:pleiades-766379",

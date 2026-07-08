@@ -4495,7 +4495,7 @@
     "category": "habitation",
     "description": "A Gallo-Roman villa.",
     "estimatedTemporal": true,
-    "qid": "Q136040889"
+    "containedInQid": "Q136040889"
   },
   {
     "id": "pleiades:671053358",
@@ -8804,7 +8804,7 @@
     "category": "habitation",
     "description": "The ruins of a Gallo-Roman villa with polychrome mosaic pavement.",
     "estimatedTemporal": true,
-    "qid": "Q111211639"
+    "containedInQid": "Q111211639"
   },
   {
     "id": "pleiades:657262551",
@@ -8849,7 +8849,7 @@
     "description": "The so-called \"Casa di Properzio\" at Assisi is a Roman domus located near the southern curtain of the ancient city walls. The decorations date the house to the first century B.C.",
     "props": { "ancientName": "Casa di Properzio" },
     "estimatedTemporal": true,
-    "qid": "Q68096314"
+    "containedInQid": "Q68096314"
   },
   {
     "id": "pleiades:462250",
@@ -11502,7 +11502,7 @@
     "category": "habitation",
     "description": "Remains of a prehistoric Iron Age settlement and a later Roman villa.",
     "estimatedTemporal": true,
-    "qid": "Q116758055"
+    "containedInQid": "Q116758055"
   },
   {
     "id": "pleiades:79545",
@@ -12933,7 +12933,7 @@
     "category": "habitation",
     "description": "A Roman villa with mosaic floors and columns was discovered between East Creech and Cotness in 1869.",
     "estimatedTemporal": true,
-    "qid": "Q17670243"
+    "containedInQid": "Q17670243"
   },
   {
     "id": "pleiades:465828942",
@@ -18487,7 +18487,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 17 G2 Arbin",
     "estimatedTemporal": true,
-    "qid": "Q119910238"
+    "containedInQid": "Q119910238"
   },
   {
     "id": "pleiades:167681",
@@ -25479,7 +25479,7 @@
     "description": "Site of a Late Republican and Imperial Roman villa (first to fifth centuries A.D.)",
     "props": { "ancientName": "Ossaia" },
     "estimatedTemporal": true,
-    "qid": "Q115813258"
+    "containedInQid": "Q115813258"
   },
   {
     "id": "pleiades:413270",
@@ -27764,7 +27764,7 @@
     "description": "An ancient place, cited: BAtlas 11 B3 Callengeville",
     "props": { "ancientName": "Callengeville" },
     "estimatedTemporal": true,
-    "qid": "Q119910852"
+    "containedInQid": "Q119910852"
   },
   {
     "id": "pleiades:108904",
@@ -27806,7 +27806,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 C3 Estr\u00e9es-sur-Noye",
     "estimatedTemporal": true,
-    "qid": "Q136053902"
+    "containedInQid": "Q136053902"
   },
   {
     "id": "pleiades:108972",
@@ -28281,7 +28281,7 @@
     "category": "habitation",
     "description": "An ancient place, cited: BAtlas 11 B4 Ver-l\u00e8s-Chartres",
     "estimatedTemporal": true,
-    "qid": "Q119898469"
+    "containedInQid": "Q119898469"
   },
   {
     "id": "pleiades:109418",
