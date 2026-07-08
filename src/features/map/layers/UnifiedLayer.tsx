@@ -156,6 +156,9 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         const siteType = e.props?.siteType as string | undefined
         if (siteType && siteType !== e.subtype)
           facts.push(siteType.charAt(0).toUpperCase() + siteType.slice(1))
+        const features = e.props?.features as string[] | undefined
+        if (features?.length)
+          facts.push(features.map((f) => f.charAt(0).toUpperCase() + f.slice(1)).join(', '))
         if (facts.length) {
           html += `<div class="map-tooltip-fact">${esc(facts.join(' · '))}</div>`
         }
