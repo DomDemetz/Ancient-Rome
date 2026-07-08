@@ -146,6 +146,7 @@ export function appendCrossRefTooltip(
   cr: CrossRefEnrichment,
   links?: { crKey: string; pid?: string; qid?: string },
 ): string {
+  const isContainer = !!cr.containedInQid
   const desc = cr.pleiadesDescription
   const isCiteOnly = desc?.startsWith('An ancient place, cited:')
 
@@ -155,12 +156,23 @@ export function appendCrossRefTooltip(
     crHtml += `<img class="map-tooltip-thumb" src="${esc(cr.imageUrl)}" alt="" />`
   }
 
-  const displayDesc = desc && !isCiteOnly ? desc : (cr.wikidataDescription ?? cr.description)
-  if (displayDesc) {
-    const sentenceMatch = displayDesc.match(/^(.+?\.)\s+(?=[A-Z])/)
-    const first = sentenceMatch?.[1] ?? displayDesc.split(/\.\s/)[0]
-    const text = first.endsWith('.') ? first : first + '.'
-    crHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
+  if (isContainer) {
+    // description/wikiUrl describe the container city, not this entity
+    const cityName = cr.wikiUrl
+      ? decodeURIComponent(cr.wikiUrl.split('/wiki/').pop() ?? '').replace(/_/g, ' ')
+      : null
+    if (cityName) {
+      const cityDesc = cr.description ? ` — ${cr.description}` : ''
+      crHtml += `<div class="map-tooltip-extract">Located in: ${esc(cityName)}${esc(cityDesc)}</div>`
+    }
+  } else {
+    const displayDesc = desc && !isCiteOnly ? desc : (cr.wikidataDescription ?? cr.description)
+    if (displayDesc) {
+      const sentenceMatch = displayDesc.match(/^(.+?\.)\s+(?=[A-Z])/)
+      const first = sentenceMatch?.[1] ?? displayDesc.split(/\.\s/)[0]
+      const text = first.endsWith('.') ? first : first + '.'
+      crHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
+    }
   }
 
   const facts: string[] = []

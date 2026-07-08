@@ -65,7 +65,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Multiple olive presses in the agricultural hinterland of Carthage",
-    "qid": "Q1967945"
+    "containedInQid": "Q1967945"
   },
   {
     "id": "press:press-006",
@@ -119,7 +119,8 @@
     "source": "OxREP",
     "category": "production",
     "description": "Large-scale olive oil production in the Cillium region of Byzacena",
-    "containedInQid": "Q852735"
+    "containedInQid": "Q852735",
+    "qid": "Q131467903"
   },
   {
     "id": "press:press-010",
@@ -161,7 +162,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Olive press at Theveste, an important Numidian agricultural center",
-    "qid": "Q60746446"
+    "containedInQid": "Q60746446"
   },
   {
     "id": "press:press-013",
@@ -222,7 +223,7 @@
     "id": "press:press-017",
     "type": "press",
     "subtype": "oil",
-    "name": "Sétif Oil Press",
+    "name": "S\u00e9tif Oil Press",
     "lat": 36.1898,
     "lng": 5.4108,
     "startYear": 100,
@@ -331,7 +332,7 @@
     "id": "press:press-025",
     "type": "press",
     "subtype": "oil",
-    "name": "Haïdra Oil Press",
+    "name": "Ha\u00efdra Oil Press",
     "lat": 35.5678,
     "lng": 8.4594,
     "startYear": 100,
@@ -656,7 +657,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press at Marcouna near Lambaesis in the Aurès foothills"
+    "description": "Oil press at Marcouna near Lambaesis in the Aur\u00e8s foothills"
   },
   {
     "id": "press:press-050",
@@ -696,7 +697,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "Subterranean olive press complex in the Shephelah lowlands of Judea",
-    "qid": "Q1507676"
+    "containedInQid": "Q1507676"
   },
   {
     "id": "press:press-053",
@@ -1120,7 +1121,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "Wine press at Roman Corinth, known for its wine exports",
-    "qid": "Q587983"
+    "containedInQid": "Q587983"
   },
   {
     "id": "press:press-084",
@@ -1450,7 +1451,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "Oil press at the ancient Sardinian coastal settlement of Nora",
-    "qid": "Q677175"
+    "containedInQid": "Q677175"
   },
   {
     "id": "press:press-108",
@@ -1566,7 +1567,7 @@
     "id": "press:press-116",
     "type": "press",
     "subtype": "oil",
-    "name": "Écija Oil Press",
+    "name": "\u00c9cija Oil Press",
     "lat": 37.5414,
     "lng": -5.0826,
     "startYear": -50,
@@ -1579,7 +1580,7 @@
     "id": "press:press-117",
     "type": "press",
     "subtype": "oil",
-    "name": "Córdoba Oil Press",
+    "name": "C\u00f3rdoba Oil Press",
     "lat": 37.8882,
     "lng": -4.7794,
     "startYear": -50,
@@ -1606,7 +1607,7 @@
     "id": "press:press-119",
     "type": "press",
     "subtype": "oil",
-    "name": "Alcolea del Río Oil Press",
+    "name": "Alcolea del R\u00edo Oil Press",
     "lat": 37.6167,
     "lng": -5.6667,
     "startYear": 50,
@@ -1619,7 +1620,7 @@
     "id": "press:press-120",
     "type": "press",
     "subtype": "oil",
-    "name": "Palma del Río Oil Press",
+    "name": "Palma del R\u00edo Oil Press",
     "lat": 37.7,
     "lng": -5.2833,
     "startYear": 50,
@@ -1632,7 +1633,7 @@
     "id": "press:press-121",
     "type": "press",
     "subtype": "oil",
-    "name": "Lora del Río Oil Press",
+    "name": "Lora del R\u00edo Oil Press",
     "lat": 37.6583,
     "lng": -5.525,
     "startYear": 50,
@@ -1658,7 +1659,7 @@
     "id": "press:press-123",
     "type": "press",
     "subtype": "oil",
-    "name": "Jaén Oil Press",
+    "name": "Ja\u00e9n Oil Press",
     "lat": 37.7796,
     "lng": -3.7894,
     "startYear": -50,
@@ -1726,7 +1727,7 @@
     "id": "press:press-128",
     "type": "press",
     "subtype": "oil",
-    "name": "Mérida Oil Press",
+    "name": "M\u00e9rida Oil Press",
     "lat": 38.9164,
     "lng": -6.3447,
     "startYear": -25,
@@ -1752,7 +1753,7 @@
     "id": "press:press-130",
     "type": "press",
     "subtype": "oil",
-    "name": "Cástulo Oil Press",
+    "name": "C\u00e1stulo Oil Press",
     "lat": 38.0361,
     "lng": -3.62,
     "startYear": -50,
@@ -1786,7 +1787,7 @@
     "endYear": 250,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press in the Penedès region, center of Roman-era Catalan viticulture",
+    "description": "Wine press in the Pened\u00e8s region, center of Roman-era Catalan viticulture",
     "qid": "Q3816471"
   },
   {
@@ -1834,7 +1835,7 @@
     "id": "press:press-136",
     "type": "press",
     "subtype": "wine",
-    "name": "Fréjus Wine Press",
+    "name": "Fr\u00e9jus Wine Press",
     "lat": 43.4333,
     "lng": 6.7333,
     "startYear": -25,
@@ -1862,7 +1863,7 @@
     "id": "press:press-138",
     "type": "press",
     "subtype": "wine",
-    "name": "Béziers Wine Press",
+    "name": "B\u00e9ziers Wine Press",
     "lat": 43.3414,
     "lng": 3.2156,
     "startYear": -50,
@@ -1876,7 +1877,7 @@
     "id": "press:press-139",
     "type": "press",
     "subtype": "wine",
-    "name": "Nîmes Wine Press",
+    "name": "N\u00eemes Wine Press",
     "lat": 43.8367,
     "lng": 4.36,
     "startYear": -50,
@@ -1897,7 +1898,7 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press at Aquae Sextiae, Roman foundation in the Provençal countryside"
+    "description": "Wine press at Aquae Sextiae, Roman foundation in the Proven\u00e7al countryside"
   },
   {
     "id": "press:press-141",
@@ -1924,7 +1925,7 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press near Arausio, a Roman colony in the Rhône valley",
+    "description": "Wine press near Arausio, a Roman colony in the Rh\u00f4ne valley",
     "qid": "Q958961"
   },
   {
@@ -1966,7 +1967,7 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "production",
-    "description": "Wine press in the Rhône valley near Vienna, known for Allobrogian wine",
+    "description": "Wine press in the Rh\u00f4ne valley near Vienna, known for Allobrogian wine",
     "qid": "Q127431682"
   },
   {
@@ -2466,7 +2467,7 @@
     "id": "press:press-183",
     "type": "press",
     "subtype": "oil",
-    "name": "Béja Oil Press",
+    "name": "B\u00e9ja Oil Press",
     "lat": 36.73,
     "lng": 9.18,
     "startYear": 50,
@@ -2506,14 +2507,14 @@
     "id": "press:press-186",
     "type": "press",
     "subtype": "oil",
-    "name": "Fériana Oil Press",
+    "name": "F\u00e9riana Oil Press",
     "lat": 34.95,
     "lng": 8.57,
     "startYear": 200,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Southern frontier olive press at Thelepte-Fériana in the steppe zone",
+    "description": "Southern frontier olive press at Thelepte-F\u00e9riana in the steppe zone",
     "qid": "Q606165"
   },
   {
@@ -2790,7 +2791,8 @@
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press near the Aurès mountain military frontier"
+    "description": "Oil press near the Aur\u00e8s mountain military frontier",
+    "qid": "Q116140735"
   },
   {
     "id": "press:press-208",
@@ -2871,7 +2873,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Coastal olive press at ancient Saldae (Béjaïa) in Kabylie",
+    "description": "Coastal olive press at ancient Saldae (B\u00e9ja\u00efa) in Kabylie",
     "qid": "Q15973864"
   },
   {
@@ -3314,7 +3316,7 @@
     "id": "press:press-247",
     "type": "press",
     "subtype": "oil",
-    "name": "Peñaflor Oil Press",
+    "name": "Pe\u00f1aflor Oil Press",
     "lat": 37.71,
     "lng": -5.34,
     "startYear": 50,
@@ -3362,20 +3364,20 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press in the Guadalquivir campiña near Bujalance"
+    "description": "Oil press in the Guadalquivir campi\u00f1a near Bujalance"
   },
   {
     "id": "press:press-251",
     "type": "press",
     "subtype": "oil",
-    "name": "Castro del Río Oil Press",
+    "name": "Castro del R\u00edo Oil Press",
     "lat": 37.69,
     "lng": -4.48,
     "startYear": 50,
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press in the Guadalquivir basin at Castro del Río"
+    "description": "Olive press in the Guadalquivir basin at Castro del R\u00edo"
   },
   {
     "id": "press:press-252",
@@ -3388,7 +3390,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive oil production near ancient Tucci in the Jaén foothills"
+    "description": "Olive oil production near ancient Tucci in the Ja\u00e9n foothills"
   },
   {
     "id": "press:press-253",
@@ -3427,7 +3429,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Oil press in the Cordoban campiña south of the Guadalquivir"
+    "description": "Oil press in the Cordoban campi\u00f1a south of the Guadalquivir"
   },
   {
     "id": "press:press-256",
@@ -3473,14 +3475,14 @@
     "id": "press:press-259",
     "type": "press",
     "subtype": "oil",
-    "name": "Priego de Córdoba Oil Press",
+    "name": "Priego de C\u00f3rdoba Oil Press",
     "lat": 37.44,
     "lng": -4.2,
     "startYear": 100,
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Mountain olive press in the Subbética zone of eastern Baetica"
+    "description": "Mountain olive press in the Subb\u00e9tica zone of eastern Baetica"
   },
   {
     "id": "press:press-260",
@@ -3493,13 +3495,13 @@
     "endYear": 380,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press in the Jaén uplands between Baetica and the Sierra"
+    "description": "Olive press in the Ja\u00e9n uplands between Baetica and the Sierra"
   },
   {
     "id": "press:press-261",
     "type": "press",
     "subtype": "oil",
-    "name": "Úbeda Oil Press",
+    "name": "\u00dabeda Oil Press",
     "lat": 38.01,
     "lng": -3.37,
     "startYear": 100,
@@ -3519,7 +3521,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press near ancient Vivatia in the Jaén olive belt"
+    "description": "Olive press near ancient Vivatia in the Ja\u00e9n olive belt"
   },
   {
     "id": "press:press-263",
@@ -3551,7 +3553,7 @@
     "id": "press:press-265",
     "type": "press",
     "subtype": "oil",
-    "name": "Andújar Oil Press",
+    "name": "And\u00fajar Oil Press",
     "lat": 38.04,
     "lng": -4.05,
     "startYear": 50,
@@ -3591,7 +3593,7 @@
     "id": "press:press-268",
     "type": "press",
     "subtype": "wine",
-    "name": "Penedès Wine Press",
+    "name": "Pened\u00e8s Wine Press",
     "lat": 41.38,
     "lng": 1.71,
     "startYear": 50,
@@ -3643,7 +3645,7 @@
     "id": "press:press-272",
     "type": "press",
     "subtype": "wine",
-    "name": "Valdepeñas Wine Press",
+    "name": "Valdepe\u00f1as Wine Press",
     "lat": 38.76,
     "lng": -3.38,
     "startYear": 100,
@@ -3965,7 +3967,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Wine press at the Messenian port of Methone",
-    "qid": "Q60790706"
+    "containedInQid": "Q60790706"
   },
   {
     "id": "press:press-296",
@@ -4526,7 +4528,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the major Provençal colony of Arelate on the Rhône"
+    "description": "Wine press at the major Proven\u00e7al colony of Arelate on the Rh\u00f4ne"
   },
   {
     "id": "press:press-337",
@@ -4539,7 +4541,7 @@
     "endYear": 270,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the Gallo-Roman town of Glanum near Saint-Rémy",
+    "description": "Wine press at the Gallo-Roman town of Glanum near Saint-R\u00e9my",
     "qid": "Q605399"
   },
   {
@@ -4579,7 +4581,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Olive press at ancient Antipolis on the Côte d'Azur",
+    "description": "Olive press at ancient Antipolis on the C\u00f4te d'Azur",
     "qid": "Q105477492"
   },
   {
@@ -4599,14 +4601,14 @@
     "id": "press:press-342",
     "type": "press",
     "subtype": "wine",
-    "name": "Ensérune Wine Press",
+    "name": "Ens\u00e9rune Wine Press",
     "lat": 43.37,
     "lng": 3.15,
     "startYear": -100,
     "endYear": 100,
     "source": "OxREP",
     "category": "production",
-    "description": "Early wine press at the Gallo-Roman oppidum of Ensérune"
+    "description": "Early wine press at the Gallo-Roman oppidum of Ens\u00e9rune"
   },
   {
     "id": "press:press-343",
@@ -4619,7 +4621,7 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press near ancient Nemausus on the Rhône valley route"
+    "description": "Wine press near ancient Nemausus on the Rh\u00f4ne valley route"
   },
   {
     "id": "press:press-344",
@@ -4632,7 +4634,7 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press in the Drôme valley, known for muscat wine in antiquity"
+    "description": "Wine press in the Dr\u00f4me valley, known for muscat wine in antiquity"
   },
   {
     "id": "press:press-345",
@@ -4659,20 +4661,20 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press at the Greek-Roman port colony of Agatha on the Hérault"
+    "description": "Wine press at the Greek-Roman port colony of Agatha on the H\u00e9rault"
   },
   {
     "id": "press:press-347",
     "type": "press",
     "subtype": "wine",
-    "name": "Pézenas Wine Press",
+    "name": "P\u00e9zenas Wine Press",
     "lat": 43.46,
     "lng": 3.42,
     "startYear": 50,
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine production in the productive Hérault valley of Narbonnaise"
+    "description": "Wine production in the productive H\u00e9rault valley of Narbonnaise"
   },
   {
     "id": "press:press-348",
@@ -4705,14 +4707,14 @@
     "id": "press:press-350",
     "type": "press",
     "subtype": "wine",
-    "name": "Saint-Raphaël Wine Press",
+    "name": "Saint-Rapha\u00ebl Wine Press",
     "lat": 43.43,
     "lng": 6.77,
     "startYear": 50,
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press on the eastern Provençal coast near Fréjus"
+    "description": "Wine press on the eastern Proven\u00e7al coast near Fr\u00e9jus"
   },
   {
     "id": "press:press-351",
@@ -5101,7 +5103,7 @@
     "id": "press:press-379",
     "type": "press",
     "subtype": "wine",
-    "name": "Lérida Wine Press",
+    "name": "L\u00e9rida Wine Press",
     "lat": 41.62,
     "lng": 0.63,
     "startYear": 50,
@@ -5203,7 +5205,7 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Wine press in the northern Rhône valley, predecessor of Hermitage wines"
+    "description": "Wine press in the northern Rh\u00f4ne valley, predecessor of Hermitage wines"
   },
   {
     "id": "press:press-387",

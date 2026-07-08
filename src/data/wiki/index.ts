@@ -182,6 +182,7 @@ export interface CrossRefEnrichment {
   label?: string
   wikiUrl?: string
   wikiExtract?: string
+  containedInQid?: string
   sources?: string[]
   wdProps?: {
     inception?: number

@@ -10,7 +10,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Its ancient name is unknown.",
-    "props": { "ancientName": "Puente romano de Andújar" },
+    "props": { "ancientName": "Puente romano de And\u00fajar" },
     "estimatedTemporal": true
   },
   {
@@ -24,7 +24,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A bridge, originally of Roman date, over the modern Arroyo Rabanales (a tributary of the Guadalquivir) just east of Cordoba, Spain. The bridge was in use as late as the 1920s.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q6091651"
   },
   {
     "id": "pleiades:267274",
@@ -42,27 +43,27 @@
   {
     "id": "pleiades:267276",
     "type": "bridge",
-    "name": "Villa del Río Roman Bridge",
+    "name": "Villa del R\u00edo Roman Bridge",
     "lat": 37.98719284487926,
     "lng": -4.271617220391354,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge over the Arroyo Salado de Porcuna, located just east of modern Villa del Río in Spain's Cordoba province.",
+    "description": "A Roman bridge over the Arroyo Salado de Porcuna, located just east of modern Villa del R\u00edo in Spain's Cordoba province.",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:267277",
     "type": "bridge",
-    "name": "Puente de Cañete",
+    "name": "Puente de Ca\u00f1ete",
     "lat": 37.8784531,
     "lng": -4.2135188,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The remains of a Roman bridge known locally as Puente Viejo or Puente de Cañete lying one mile west west of Obulco on the Arroyo Salado. The bridge may have been associated with a conjectured secondary Roman road or route between Corduba and Catulo because although unmentioned in the Antonine Itinerary, the bridge's location lies between two mentioned stations: Calpurniana and Vircao.",
+    "description": "The remains of a Roman bridge known locally as Puente Viejo or Puente de Ca\u00f1ete lying one mile west west of Obulco on the Arroyo Salado. The bridge may have been associated with a conjectured secondary Roman road or route between Corduba and Catulo because although unmentioned in the Antonine Itinerary, the bridge's location lies between two mentioned stations: Calpurniana and Vircao.",
     "estimatedTemporal": true
   },
   {
@@ -133,7 +134,7 @@
   {
     "id": "pleiades:267283",
     "type": "bridge",
-    "name": "Puente Mocho (Río Guadalimar)",
+    "name": "Puente Mocho (R\u00edo Guadalimar)",
     "lat": 38.279861,
     "lng": -2.9638124,
     "startYear": -200,
@@ -147,27 +148,27 @@
   {
     "id": "pleiades:267284",
     "type": "bridge",
-    "name": "Puente de Génave Roman Bridge",
+    "name": "Puente de G\u00e9nave Roman Bridge",
     "lat": 38.35542585,
     "lng": -2.8031491500000003,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Known locally as the Puente Romano or Puente Viejo, this single-arched bridge crosses the modern Río Guadalimar at Puente de Génave in Andalusia, Spain.",
+    "description": "Known locally as the Puente Romano or Puente Viejo, this single-arched bridge crosses the modern R\u00edo Guadalimar at Puente de G\u00e9nave in Andalusia, Spain.",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:267285",
     "type": "bridge",
-    "name": "Bridge near Las Herrerías",
+    "name": "Bridge near Las Herrer\u00edas",
     "lat": 37.929107,
     "lng": -2.952102,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 27 C4 unnamed bridge (W Tugia, Las Herrerías, Cazorla on R. Guadalquivir)",
+    "description": "An ancient place, cited: BAtlas 27 C4 unnamed bridge (W Tugia, Las Herrer\u00edas, Cazorla on R. Guadalquivir)",
     "estimatedTemporal": true
   },
   {
@@ -194,7 +195,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A pair of bridges located west of Iol Caesarea, spanning the Oued el Kantara and Oued Rassoul (marked with one symbol on BAtlas).",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q127430450"
   },
   {
     "id": "pleiades:296719",
@@ -220,7 +222,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 30 F3 unnamed bridge (S Rusguniae (2): el Kounitra and Oued el Hamiz)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q125421752"
   },
   {
     "id": "pleiades:296721",
@@ -304,14 +307,14 @@
   {
     "id": "pleiades:149493",
     "type": "bridge",
-    "name": "Roman Bridge at Villevieille, Sommières",
+    "name": "Roman Bridge at Villevieille, Sommi\u00e8res",
     "lat": 43.78223547231463,
     "lng": 4.088960991551396,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The so-called \"Pont Tibère\" in the modern French commune of Villevieille, in Sommières canton, France. Its ancient name is unknown.",
+    "description": "The so-called \"Pont Tib\u00e8re\" in the modern French commune of Villevieille, in Sommi\u00e8res canton, France. Its ancient name is unknown.",
     "estimatedTemporal": true
   },
   {
@@ -325,7 +328,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Ancient name unknown. Located in modern Boisseron, France.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q22976746"
   },
   {
     "id": "pleiades:149495",
@@ -337,8 +341,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed Roman bridge over the modern river Rhôny. It is located in the modern Nages-et-Solorgues commune in France's Gard department.",
-    "estimatedTemporal": true
+    "description": "An unnamed Roman bridge over the modern river Rh\u00f4ny. It is located in the modern Nages-et-Solorgues commune in France's Gard department.",
+    "estimatedTemporal": true,
+    "qid": "Q3354378"
   },
   {
     "id": "pleiades:149497",
@@ -406,7 +411,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A fifth-century Roman bridge over the river Nivelle at Ascain in France.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q49344664"
   },
   {
     "id": "pleiades:631631547",
@@ -419,7 +425,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A bridge on the road from to Egin and Harput.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q131402667"
   },
   {
     "id": "pleiades:613488678",
@@ -431,7 +438,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A bridge with Roman origins across the río Adaja.",
+    "description": "A bridge with Roman origins across the r\u00edo Adaja.",
     "estimatedTemporal": true
   },
   {
@@ -451,7 +458,7 @@
   {
     "id": "pleiades:385053",
     "type": "bridge",
-    "name": "Unnamed bridge at Lévérogne",
+    "name": "Unnamed bridge at L\u00e9v\u00e9rogne",
     "lat": 45.7024174,
     "lng": 7.2074956,
     "startYear": -200,
@@ -464,15 +471,15 @@
   {
     "id": "pleiades:385054",
     "type": "bridge",
-    "name": "Roman Bridge of Châtillon",
+    "name": "Roman Bridge of Ch\u00e2tillon",
     "lat": 45.7480008,
     "lng": 7.6108771,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge over the Torrente Marmore at Châtillon in the Valle d'Aosta, Italy.",
-    "props": { "ancientName": "Ponte di Châtillon" },
+    "description": "A Roman bridge over the Torrente Marmore at Ch\u00e2tillon in the Valle d'Aosta, Italy.",
+    "props": { "ancientName": "Ponte di Ch\u00e2tillon" },
     "estimatedTemporal": true
   },
   {
@@ -525,7 +532,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An unnamed bridge over the Ir(i)a fl., north of Libarna.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q137669451"
   },
   {
     "id": "pleiades:385059",
@@ -630,8 +638,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed Roman bridge on the Via Aemilia over the ancient Incia river. Located near modern S. Ilario d’Enza in Italy.",
-    "estimatedTemporal": true
+    "description": "An unnamed Roman bridge on the Via Aemilia over the ancient Incia river. Located near modern S. Ilario d\u2019Enza in Italy.",
+    "estimatedTemporal": true,
+    "qid": "Q106084132"
   },
   {
     "id": "pleiades:93478894",
@@ -650,7 +659,7 @@
   {
     "id": "pleiades:551907",
     "type": "bridge",
-    "name": "Bridge at Yedi Taşlar",
+    "name": "Bridge at Yedi Ta\u015flar",
     "lat": 39.75,
     "lng": 26.25,
     "startYear": -200,
@@ -711,7 +720,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 56 F5 unnamed bridge (S Mostene?)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q131402857"
   },
   {
     "id": "pleiades:551912",
@@ -784,7 +794,7 @@
   {
     "id": "pleiades:846357",
     "type": "bridge",
-    "name": "Bridge S of Ayman Yaylası",
+    "name": "Bridge S of Ayman Yaylas\u0131",
     "lat": 40.5,
     "lng": 31.5,
     "startYear": -200,
@@ -804,7 +814,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 86 C2 unnamed bridge (SE Tieion at Derecikören)",
+    "description": "An ancient place, cited: BAtlas 86 C2 unnamed bridge (SE Tieion at Derecik\u00f6ren)",
     "estimatedTemporal": true
   },
   {
@@ -817,7 +827,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 63 C2 unnamed bridge (Kesik Köprü)",
+    "description": "An ancient place, cited: BAtlas 63 C2 unnamed bridge (Kesik K\u00f6pr\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -830,7 +840,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 63 G3 unnamed bridge (Çokgözköprü)",
+    "description": "An ancient place, cited: BAtlas 63 G3 unnamed bridge (\u00c7okg\u00f6zk\u00f6pr\u00fc)",
     "estimatedTemporal": true,
     "qid": "Q30680414"
   },
@@ -844,7 +854,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 C1 no. 1 (at Sebastopolis over Çekerek Irmak (Skylax fl.))",
+    "description": "An ancient place, cited: BAtlas 64 C1 no. 1 (at Sebastopolis over \u00c7ekerek Irmak (Skylax fl.))",
     "estimatedTemporal": true
   },
   {
@@ -857,7 +867,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 D1 no. 2 (12 miles WNW Sivas at Yıldızırmak)",
+    "description": "An ancient place, cited: BAtlas 64 D1 no. 2 (12 miles WNW Sivas at Y\u0131ld\u0131z\u0131rmak)",
     "estimatedTemporal": true,
     "qid": "Q131402845"
   },
@@ -871,7 +881,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 F2 no. 3 (NW Arane at Koç Köprüsü)",
+    "description": "An ancient place, cited: BAtlas 64 F2 no. 3 (NW Arane at Ko\u00e7 K\u00f6pr\u00fcs\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -884,8 +894,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 G2 no. 4 (SW Zimara at Burmahan on Çaltı Çay)",
-    "estimatedTemporal": true
+    "description": "An ancient place, cited: BAtlas 64 G2 no. 4 (SW Zimara at Burmahan on \u00c7alt\u0131 \u00c7ay)",
+    "estimatedTemporal": true,
+    "containedInQid": "Q131402667"
   },
   {
     "id": "pleiades:629676",
@@ -916,14 +927,14 @@
   {
     "id": "pleiades:629679",
     "type": "bridge",
-    "name": "Bridge at Gücük",
+    "name": "Bridge at G\u00fcc\u00fck",
     "lat": 38.25,
     "lng": 37.25,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 E4 no. 8 (NE Pagrum? at Gâvur Ören on Sögütlü Dere)",
+    "description": "An ancient place, cited: BAtlas 64 E4 no. 8 (NE Pagrum? at G\u00e2vur \u00d6ren on S\u00f6g\u00fctl\u00fc Dere)",
     "estimatedTemporal": true
   },
   {
@@ -942,14 +953,14 @@
   {
     "id": "pleiades:629682",
     "type": "bridge",
-    "name": "Bridge at Munzur Dağları",
+    "name": "Bridge at Munzur Da\u011flar\u0131",
     "lat": 38.25,
     "lng": 38.25,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 G4 no. 11 (N Melitene at Kırk Göz Köprü on Tohma Su (Melas fl.))",
+    "description": "An ancient place, cited: BAtlas 64 G4 no. 11 (N Melitene at K\u0131rk G\u00f6z K\u00f6pr\u00fc on Tohma Su (Melas fl.))",
     "estimatedTemporal": true
   },
   {
@@ -962,20 +973,20 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 G3 no. 12 (S Kiakis on Kuruçay)",
+    "description": "An ancient place, cited: BAtlas 64 G3 no. 12 (S Kiakis on Kuru\u00e7ay)",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:629684",
     "type": "bridge",
-    "name": "Unnamed bridge at Bahadın",
+    "name": "Unnamed bridge at Bahad\u0131n",
     "lat": 38.75,
     "lng": 38.75,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman-era bridge NNW Korpinik Hüyük at Bahadın on Arabkir Çay.",
+    "description": "A Roman-era bridge NNW Korpinik H\u00fcy\u00fck at Bahad\u0131n on Arabkir \u00c7ay.",
     "estimatedTemporal": true
   },
   {
@@ -988,8 +999,8 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman-era bridge spanning the Arabkir Çay south of Hastek Kale in Turkey. Now submerged and inaccessible.",
-    "props": { "ancientName": "Karamağara Köprüsü, Karamagara Koprusu" },
+    "description": "A Roman-era bridge spanning the Arabkir \u00c7ay south of Hastek Kale in Turkey. Now submerged and inaccessible.",
+    "props": { "ancientName": "Karama\u011fara K\u00f6pr\u00fcs\u00fc, Karamagara Koprusu" },
     "estimatedTemporal": true,
     "qid": "Q1418783"
   },
@@ -1030,19 +1041,20 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman segmental arch bridge over the Xanthos fl. near the ancient city of Xanthos in Lycia.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q996022"
   },
   {
     "id": "pleiades:640245",
     "type": "bridge",
-    "name": "Bridge at Dereağzı",
+    "name": "Bridge at Derea\u011fz\u0131",
     "lat": 36.3203,
     "lng": 29.8157,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 65 C5 unnamed bridge (Dereağzi)",
+    "description": "An ancient place, cited: BAtlas 65 C5 unnamed bridge (Derea\u011fzi)",
     "estimatedTemporal": true
   },
   {
@@ -1056,7 +1068,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A late-Roman bridge, ancient name unknown, located near the ancient city of Limyra in modern Turkey.",
-    "props": { "ancientName": "Kırk Göz Kemeri, Kirk Goz Kemeri" },
+    "props": { "ancientName": "K\u0131rk G\u00f6z Kemeri, Kirk Goz Kemeri" },
     "estimatedTemporal": true,
     "qid": "Q996090"
   },
@@ -1070,8 +1082,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman-era bridge associated with the Zindan Mağarası sanctuary in Turkey's Isparta province. It spans the modern Aksu river.",
-    "estimatedTemporal": true
+    "description": "A Roman-era bridge associated with the Zindan Ma\u011faras\u0131 sanctuary in Turkey's Isparta province. It spans the modern Aksu river.",
+    "estimatedTemporal": true,
+    "qid": "Q131402768"
   },
   {
     "id": "pleiades:640248",
@@ -1083,33 +1096,34 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 65 F3 unnamed bridge (at Asarbaşı, over Eurymedon fl.)",
-    "estimatedTemporal": true
+    "description": "An ancient place, cited: BAtlas 65 F3 unnamed bridge (at Asarba\u015f\u0131, over Eurymedon fl.)",
+    "estimatedTemporal": true,
+    "qid": "Q846250"
   },
   {
     "id": "pleiades:640249",
     "type": "bridge",
-    "name": "Bridge N of Oluk Köprü",
+    "name": "Bridge N of Oluk K\u00f6pr\u00fc",
     "lat": 37.25,
     "lng": 31.25,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 65 F3 unnamed bridge (S Selge, at Boğurt Köprü)",
+    "description": "An ancient place, cited: BAtlas 65 F3 unnamed bridge (S Selge, at Bo\u011furt K\u00f6pr\u00fc)",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:640250",
     "type": "bridge",
-    "name": "Bridge at Oluk Köprü",
+    "name": "Bridge at Oluk K\u00f6pr\u00fc",
     "lat": 37.191973,
     "lng": 31.181033,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 65 F3 unnamed bridge (S Selge, at Oluk Köprü)",
+    "description": "An ancient place, cited: BAtlas 65 F3 unnamed bridge (S Selge, at Oluk K\u00f6pr\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -1150,7 +1164,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient Roman bridge located along the Via Valeria near Roviano, Italy.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q131690826"
   },
   {
     "id": "pleiades:967100965",
@@ -1292,7 +1307,7 @@
   {
     "id": "pleiades:1628988",
     "type": "bridge",
-    "name": "Pietra Dell’Oglio (bridge)",
+    "name": "Pietra Dell\u2019Oglio (bridge)",
     "lat": 40.965243794279836,
     "lng": 15.563056318171212,
     "startYear": -200,
@@ -1419,7 +1434,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Gsell (whence BAtlas) reports remains of an ancient bridge over the Oued Méboudja.",
+    "description": "Gsell (whence BAtlas) reports remains of an ancient bridge over the Oued M\u00e9boudja.",
     "estimatedTemporal": true
   },
   {
@@ -1490,7 +1505,7 @@
   {
     "id": "pleiades:439339512",
     "type": "bridge",
-    "name": "Pont Romà",
+    "name": "Pont Rom\u00e0",
     "lat": 39.8824325,
     "lng": 3.0149992,
     "startYear": -200,
@@ -1498,7 +1513,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q43103827",
-    "description": "A Roman bridge on the island of Majorca (Pollença, Mallorca, Spain).",
+    "description": "A Roman bridge on the island of Majorca (Pollen\u00e7a, Mallorca, Spain).",
     "estimatedTemporal": true
   },
   {
@@ -1545,7 +1560,7 @@
   {
     "id": "pleiades:413249072",
     "type": "bridge",
-    "name": "Solestà Roman bridge",
+    "name": "Solest\u00e0 Roman bridge",
     "lat": 42.85851385,
     "lng": 13.5718295,
     "startYear": -200,
@@ -1605,7 +1620,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 69 B4 unnamed bridge (Legio)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1812630"
   },
   {
     "id": "pleiades:679508",
@@ -1775,7 +1791,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 60 B2 unnamed bridge (W Amphimala)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q134583093"
   },
   {
     "id": "pleiades:591168",
@@ -1788,7 +1805,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 60 C2 unnamed bridge (Eleutherna)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q996135"
   },
   {
     "id": "pleiades:334776903",
@@ -1863,14 +1881,14 @@
   {
     "id": "pleiades:425069",
     "type": "bridge",
-    "name": "Bridge at Muraccio dell’Omo",
+    "name": "Bridge at Muraccio dell\u2019Omo",
     "lat": 41.875,
     "lng": 12.625,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 C2 unnamed bridge (near Muraccio dell’Omo)",
+    "description": "An ancient place, cited: BAtlas 43 C2 unnamed bridge (near Muraccio dell\u2019Omo)",
     "estimatedTemporal": true
   },
   {
@@ -1949,7 +1967,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient Roman bridge along the Via Aurelia.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q2367711"
   },
   {
     "id": "pleiades:426580",
@@ -2133,15 +2152,15 @@
   {
     "id": "pleiades:426614",
     "type": "bridge",
-    "name": "Ponte dell’Acqua Nera",
+    "name": "Ponte dell\u2019Acqua Nera",
     "lat": 41.871736,
     "lng": 12.7863084,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 D2 no. 38 (bridge (Ponte dell’Acqua Nera))",
-    "props": { "ancientName": "Ponte dell’Acqua Nera" },
+    "description": "An ancient place, cited: BAtlas 43 D2 no. 38 (bridge (Ponte dell\u2019Acqua Nera))",
+    "props": { "ancientName": "Ponte dell\u2019Acqua Nera" },
     "estimatedTemporal": true
   },
   {
@@ -2199,7 +2218,8 @@
     "category": "infrastructure",
     "description": "A Roman bridge located on the Via Appia at modern Tor Tre Ponti.",
     "props": { "ancientName": "Ponte di Traiano" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q18453921"
   },
   {
     "id": "pleiades:426635",
@@ -2211,7 +2231,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 43 D4 no. 59 (bridge (Ponte S. Felicità))",
+    "description": "An ancient place, cited: BAtlas 43 D4 no. 59 (bridge (Ponte S. Felicit\u00e0))",
     "props": { "ancientName": "Ponte S. Felicita" },
     "estimatedTemporal": true
   },
@@ -2241,7 +2261,8 @@
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 E3 Pons Campanus",
     "props": { "ancientName": "Pons Campanus" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q138791599"
   },
   {
     "id": "pleiades:433037",
@@ -2282,7 +2303,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 44 E3 unnamed bridge (at Pons Campanus)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q110184772"
   },
   {
     "id": "pleiades:434133",
@@ -2501,7 +2523,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (Eupatoria, over Iris)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q118957983"
   },
   {
     "id": "pleiades:857763",
@@ -2526,7 +2549,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 87 D3 unnamed bridge (Kündür Köprüsü, 6 miles E Reşadiye)",
+    "description": "An ancient place, cited: BAtlas 87 D3 unnamed bridge (K\u00fcnd\u00fcr K\u00f6pr\u00fcs\u00fc, 6 miles E Re\u015fadiye)",
     "estimatedTemporal": true
   },
   {
@@ -2540,7 +2563,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 87 D4 unnamed bridge (S Dasteira)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q132735594"
   },
   {
     "id": "pleiades:857771",
@@ -2553,7 +2577,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 87 E4 unnamed bridge (between Ad Vincesimum and Trapezus)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q132735571"
   },
   {
     "id": "pleiades:857772",
@@ -2565,7 +2590,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed ancient bridge located at Bağdar Köprüsu, to the west of Longini Fossatum according to the Barrington Atlas.",
+    "description": "An unnamed ancient bridge located at Ba\u011fdar K\u00f6pr\u00fcsu, to the west of Longini Fossatum according to the Barrington Atlas.",
     "estimatedTemporal": true
   },
   {
@@ -2619,7 +2644,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 42 D1-C4 unnamed bridge (on Via Flaminia (20))",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q123504780"
   },
   {
     "id": "pleiades:208942836",
@@ -2791,7 +2817,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Roman bridge at Ponte Fonnaia carried a branch of the Via Flaminia over the river Naia. It is located north of modern Acquasparta in Umbria.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q28923250"
   },
   {
     "id": "pleiades:208942849",
@@ -2843,7 +2870,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge located in the Parco dei Medici near Rome, Italy.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q131914537"
   },
   {
     "id": "pleiades:431699813",
@@ -2857,7 +2885,8 @@
     "category": "infrastructure",
     "description": "Ponte della Selciatella, a Roman-period bridge crossing the Fosso di Acqua Rossa in San Vittorino, Lazio, Italy.",
     "props": { "ancientName": "Ponte della Selciatella" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q139622813"
   },
   {
     "id": "pleiades:659874",
@@ -2922,9 +2951,10 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 G2 unnamed bridge (Pons *Singae, Göksu bridge, E Seleukeia epi tou Zeugmatos)",
+    "description": "An ancient place, cited: BAtlas 67 G2 unnamed bridge (Pons *Singae, G\u00f6ksu bridge, E Seleukeia epi tou Zeugmatos)",
     "props": { "ancientName": "ad Pons Singae" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q131402896"
   },
   {
     "id": "pleiades:659885",
@@ -2936,7 +2966,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge across the Cendere Çayı that lies west of Arsameia pros Nymphaio (modern Eskikale in Turkey's Adıyaman Province).",
+    "description": "A Roman bridge across the Cendere \u00c7ay\u0131 that lies west of Arsameia pros Nymphaio (modern Eskikale in Turkey's Ad\u0131yaman Province).",
     "props": { "ancientName": "Cendere Koprusu" },
     "estimatedTemporal": true
   },
@@ -2952,7 +2982,8 @@
     "category": "infrastructure",
     "description": "The \"Ponte Sanguinario\" at Spoleto is a late republican to early imperial Roman bridge. The remains of the bridge are now below street level in the Piazza della Vittoria, not far from the Porta San Gregorio.",
     "props": { "ancientName": "Ponte Sanguinario" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q18655842"
   },
   {
     "id": "pleiades:463572",
@@ -3035,15 +3066,16 @@
   {
     "id": "pleiades:463578",
     "type": "bridge",
-    "name": "Roman bridge, Pietralunga di Paternò",
+    "name": "Roman bridge, Pietralunga di Patern\u00f2",
     "lat": 37.575159441335195,
     "lng": 14.864535717300795,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed bridge located west of Hybla Gereatis at Pietralunga di Paternò, over the river Simeto.",
-    "estimatedTemporal": true
+    "description": "An unnamed bridge located west of Hybla Gereatis at Pietralunga di Patern\u00f2, over the river Simeto.",
+    "estimatedTemporal": true,
+    "qid": "Q3908182"
   },
   {
     "id": "pleiades:463579",
@@ -3056,7 +3088,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 47 G3 unnamed bridge (SW Tauromenium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1233293"
   },
   {
     "id": "pleiades:285873044",
@@ -3126,7 +3159,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient bridge on the Afrin river.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q68227633"
   },
   {
     "id": "pleiades:865293111",
@@ -3210,7 +3244,7 @@
     "endYear": 128,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Epigraphic evidence, uncovered in the 19th century, indicates the presence of this bridge, built at the direction of the Emperor Vespasian and his two sons Titus and Domitian by the Cilician governor L. Octavius ​​Memor in 77 or 78 CE. The inscription, now lost, was reportedly found during construction of the current Taşköprü (\"Stone Bridge\") in the early 1870s. This 19th century bridge is often referred to as the \"Roman Stone Bridge,\" despite its modernity.",
+    "description": "Epigraphic evidence, uncovered in the 19th century, indicates the presence of this bridge, built at the direction of the Emperor Vespasian and his two sons Titus and Domitian by the Cilician governor L. Octavius \u200b\u200bMemor in 77 or 78 CE. The inscription, now lost, was reportedly found during construction of the current Ta\u015fk\u00f6pr\u00fc (\"Stone Bridge\") in the early 1870s. This 19th century bridge is often referred to as the \"Roman Stone Bridge,\" despite its modernity.",
     "estimatedTemporal": true
   },
   {
@@ -3243,7 +3277,7 @@
   {
     "id": "pleiades:650062",
     "type": "bridge",
-    "name": "Taşköprü",
+    "name": "Ta\u015fk\u00f6pr\u00fc",
     "lat": 36.98626745,
     "lng": 35.33503255,
     "startYear": -200,
@@ -3251,13 +3285,14 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A large Roman bridge at Adana in the modern country of Turkey. It spans the Psaros/Sinarus/Koiranos river (modern Seyhan).",
-    "props": { "ancientName": "Taşköprü, Taskopru" },
-    "estimatedTemporal": true
+    "props": { "ancientName": "Ta\u015fk\u00f6pr\u00fc, Taskopru" },
+    "estimatedTemporal": true,
+    "qid": "Q1438450"
   },
   {
     "id": "pleiades:6521634051202075",
     "type": "bridge",
-    "name": "Bridge at Kırk Göz Kemeri",
+    "name": "Bridge at K\u0131rk G\u00f6z Kemeri",
     "lat": 36.3405,
     "lng": 30.2075,
     "startYear": -200,
@@ -3278,7 +3313,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An unnamed ancient place",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q996022"
   },
   {
     "id": "pleiades:6521703251216369",
@@ -3296,7 +3332,7 @@
   {
     "id": "pleiades:6521718641211799",
     "type": "bridge",
-    "name": "Bridge at Oluk Köprü",
+    "name": "Bridge at Oluk K\u00f6pr\u00fc",
     "lat": 37.1864,
     "lng": 31.1799,
     "startYear": -200,
@@ -3309,7 +3345,7 @@
   {
     "id": "pleiades:6521720091211858",
     "type": "bridge",
-    "name": "Bridge at Oluk Köprü",
+    "name": "Bridge at Oluk K\u00f6pr\u00fc",
     "lat": 37.2009,
     "lng": 31.1858,
     "startYear": -200,
@@ -3322,7 +3358,7 @@
   {
     "id": "pleiades:6521737251212163",
     "type": "bridge",
-    "name": "Bridge at Asarbaşı",
+    "name": "Bridge at Asarba\u015f\u0131",
     "lat": 37.3725,
     "lng": 31.2163,
     "startYear": -200,
@@ -3409,7 +3445,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge dating to the late second century B.C.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q140371261"
   },
   {
     "id": "pleiades:967101988",
@@ -3489,7 +3526,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge over Torrente della Ginestra near Aequum Tuticum along the Via Traiana.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q135181675"
   },
   {
     "id": "pleiades:443947",
@@ -3680,7 +3718,7 @@
   {
     "id": "pleiades:939442082",
     "type": "bridge",
-    "name": "Villa del Río Roman bridge",
+    "name": "Villa del R\u00edo Roman bridge",
     "lat": 37.9872355,
     "lng": -4.2718771,
     "startYear": -200,
@@ -3729,7 +3767,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge over the arroyo Pedroches near Corduba, Spain. The bridge lies along the ancient road to Augusta Emerita.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q6091651"
   },
   {
     "id": "pleiades:746490963",
@@ -3931,7 +3970,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 C5 unnamed bridge (SW Eumeneia, at Akköprü)",
+    "description": "An ancient place, cited: BAtlas 62 C5 unnamed bridge (SW Eumeneia, at Akk\u00f6pr\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -3944,7 +3983,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 D2 unnamed bridge (SW Dorylaion, at Koğanlu Köprü)",
+    "description": "An ancient place, cited: BAtlas 62 D2 unnamed bridge (SW Dorylaion, at Ko\u011fanlu K\u00f6pr\u00fc)",
     "estimatedTemporal": true
   },
   {
@@ -3957,7 +3996,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 D3 unnamed bridge (NW Soa, at Alibey Köy)",
+    "description": "An ancient place, cited: BAtlas 62 D3 unnamed bridge (NW Soa, at Alibey K\u00f6y)",
     "estimatedTemporal": true
   },
   {
@@ -3983,20 +4022,20 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 E3 unnamed bridge (NE Nakoleia, at Çukurağıl)",
+    "description": "An ancient place, cited: BAtlas 62 E3 unnamed bridge (NE Nakoleia, at \u00c7ukura\u011f\u0131l)",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:610805",
     "type": "bridge",
-    "name": "Bridge near Sülümenli",
+    "name": "Bridge near S\u00fcl\u00fcmenli",
     "lat": 38.75,
     "lng": 30.75,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 E4 unnamed bridge (E Prymnessos. at Sülümenli)",
+    "description": "An ancient place, cited: BAtlas 62 E4 unnamed bridge (E Prymnessos. at S\u00fcl\u00fcmenli)",
     "estimatedTemporal": true
   },
   {
@@ -4009,7 +4048,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 F3 unnamed bridge (between Orkistos and Pessinous, at Çandır)",
+    "description": "An ancient place, cited: BAtlas 62 F3 unnamed bridge (between Orkistos and Pessinous, at \u00c7and\u0131r)",
     "estimatedTemporal": true
   },
   {
@@ -4022,8 +4061,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 62 F4 unnamed bridge (S Polybotos, at Kırk Göz Köprüsü)",
-    "estimatedTemporal": true
+    "description": "An ancient place, cited: BAtlas 62 F4 unnamed bridge (S Polybotos, at K\u0131rk G\u00f6z K\u00f6pr\u00fcs\u00fc)",
+    "estimatedTemporal": true,
+    "qid": "Q137170039"
   },
   {
     "id": "pleiades:610809",
@@ -4048,7 +4088,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge located west of Akronios, near Akören.",
+    "description": "A Roman bridge located west of Akronios, near Ak\u00f6ren.",
     "props": { "ancientName": "24" },
     "estimatedTemporal": true
   },
@@ -4077,7 +4117,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A restored Roman bridge at ancient Ad Calceum Herculis (modern el Kantara, Algeria)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q101243536"
   },
   {
     "id": "pleiades:581352",
@@ -4117,7 +4158,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A ruined Roman bridge near Ain Diwar, Syria, that once crossed the Tigris river.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q4697337"
   },
   {
     "id": "pleiades:472632",
@@ -4194,7 +4236,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed bridge, located northeast of ‘Luguidunec’.",
+    "description": "An unnamed bridge, located northeast of \u2018Luguidunec\u2019.",
     "estimatedTemporal": true
   },
   {
@@ -4227,27 +4269,27 @@
   {
     "id": "pleiades:256067",
     "type": "bridge",
-    "name": "Casal da Várzea",
+    "name": "Casal da V\u00e1rzea",
     "lat": 39.467159,
     "lng": -8.049349,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 B2 Casal da Várzea",
+    "description": "An ancient place, cited: BAtlas 26 B2 Casal da V\u00e1rzea",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:256068",
     "type": "bridge",
-    "name": "Casal do Mouchão",
+    "name": "Casal do Mouch\u00e3o",
     "lat": 39.113443,
     "lng": -8.98813,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 B2 Casal do Mouchão",
+    "description": "An ancient place, cited: BAtlas 26 B2 Casal do Mouch\u00e3o",
     "estimatedTemporal": true
   },
   {
@@ -4266,14 +4308,14 @@
   {
     "id": "pleiades:256366",
     "type": "bridge",
-    "name": "Pizões",
+    "name": "Piz\u00f5es",
     "lat": 38.077383,
     "lng": -7.51723,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 C3 Pizões",
+    "description": "An ancient place, cited: BAtlas 26 C3 Piz\u00f5es",
     "estimatedTemporal": true
   },
   {
@@ -4368,19 +4410,20 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 C2 Ponte de Sor",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q2259974"
   },
   {
     "id": "pleiades:256378",
     "type": "bridge",
-    "name": "Ponte de Tôr",
+    "name": "Ponte de T\u00f4r",
     "lat": 37.199007,
     "lng": -7.987647,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 B4 Ponte de Tôr",
+    "description": "An ancient place, cited: BAtlas 26 B4 Ponte de T\u00f4r",
     "estimatedTemporal": true
   },
   {
@@ -4394,19 +4437,20 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 C2 Ponte do Coadouro",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q76953507"
   },
   {
     "id": "pleiades:256380",
     "type": "bridge",
-    "name": "Porto da Calçadinha",
+    "name": "Porto da Cal\u00e7adinha",
     "lat": 38.429251,
     "lng": -7.972996,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 C3 Porto da Calçadinha",
+    "description": "An ancient place, cited: BAtlas 26 C3 Porto da Cal\u00e7adinha",
     "estimatedTemporal": true
   },
   {
@@ -4420,7 +4464,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 C1 Ribeira das Taliscas",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q96629027"
   },
   {
     "id": "pleiades:256441",
@@ -4433,7 +4478,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 D2 Segura",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q7228143"
   },
   {
     "id": "pleiades:256451",
@@ -4446,19 +4492,20 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An unnamed Roman bridge at modern Silves in Portugal's Algarve region. The bridge spans the Arade river.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q111211644"
   },
   {
     "id": "pleiades:256457",
     "type": "bridge",
-    "name": "Sôrinho",
+    "name": "S\u00f4rinho",
     "lat": 39.360788,
     "lng": -7.814059,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 C2 Sôrinho",
+    "description": "An ancient place, cited: BAtlas 26 C2 S\u00f4rinho",
     "estimatedTemporal": true
   },
   {
@@ -4498,7 +4545,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 26 C3 Vila Ruiva",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q134561899"
   },
   {
     "id": "pleiades:257458",
@@ -4510,14 +4558,14 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge spanned the modern Río Ayuela at what is now the south side of the Spanish village of Casas de Don Antonio. Scholars believe that the Roman road station \"Ad Sorores\" was located somewhere immediately north of this bridge.",
+    "description": "A Roman bridge spanned the modern R\u00edo Ayuela at what is now the south side of the Spanish village of Casas de Don Antonio. Scholars believe that the Roman road station \"Ad Sorores\" was located somewhere immediately north of this bridge.",
     "qid": "Q1648589",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:257459",
     "type": "bridge",
-    "name": "Alcántara Bridge",
+    "name": "Alc\u00e1ntara Bridge",
     "lat": 39.7224044,
     "lng": -6.8924449,
     "startYear": -200,
@@ -4525,8 +4573,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A six-span stone bridge over the Tagus river, also known as the Puente Trajan.",
-    "props": { "ancientName": "Alcántara Roman Bridge" },
-    "estimatedTemporal": true
+    "props": { "ancientName": "Alc\u00e1ntara Roman Bridge" },
+    "estimatedTemporal": true,
+    "qid": "Q996197"
   },
   {
     "id": "pleiades:257460",
@@ -4539,8 +4588,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q967119",
-    "description": "Relocated remains of a 300m-long Roman stone bridge originally located southwest of modern Tourmogon at Alconétar, over R. Tajo in Spain.",
-    "props": { "ancientName": "Alconétar Bridge, Alconetar Bridge" },
+    "description": "Relocated remains of a 300m-long Roman stone bridge originally located southwest of modern Tourmogon at Alcon\u00e9tar, over R. Tajo in Spain.",
+    "props": { "ancientName": "Alcon\u00e9tar Bridge, Alconetar Bridge" },
     "estimatedTemporal": true
   },
   {
@@ -4566,20 +4615,20 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 D3 unnamed bridge (near Cortinal de los Baños at Alange, over R. Matachen)",
+    "description": "An ancient place, cited: BAtlas 26 D3 unnamed bridge (near Cortinal de los Ba\u00f1os at Alange, over R. Matachen)",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:257469",
     "type": "bridge",
-    "name": "Roman bridge, Mérida",
+    "name": "Roman bridge, M\u00e9rida",
     "lat": 38.91291609508086,
     "lng": -6.351338028282782,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Roman bridge (Puente romano) at Mérida spans the Guadiana River. It is included as part of the UNESCO World Heritage Site \"Archaeological Ensemble of Mérida\".",
+    "description": "The Roman bridge (Puente romano) at M\u00e9rida spans the Guadiana River. It is included as part of the UNESCO World Heritage Site \"Archaeological Ensemble of M\u00e9rida\".",
     "estimatedTemporal": true
   },
   {
@@ -4592,8 +4641,8 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge with origins in the first century B.C. that crosses the Albarregas River, a tributary of the Guadiana River. The bridge was been declared a Site of Cultural Interest in 1912 and named a part of the UNESCO World Heritage Site \"Mérida Archaeological Ensemble\" in 1993.",
-    "props": { "ancientName": "Puente romano sobre el río Albarregas" },
+    "description": "A Roman bridge with origins in the first century B.C. that crosses the Albarregas River, a tributary of the Guadiana River. The bridge was been declared a Site of Cultural Interest in 1912 and named a part of the UNESCO World Heritage Site \"M\u00e9rida Archaeological Ensemble\" in 1993.",
+    "props": { "ancientName": "Puente romano sobre el r\u00edo Albarregas" },
     "estimatedTemporal": true,
     "qid": "Q4709426"
   },
@@ -4608,8 +4657,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge at Ilipoula (modern Niebla), spanning the Iberos/Luxia river (modern Rio Tinto).",
-    "props": { "ancientName": "Römerbrucke Niebla" },
-    "estimatedTemporal": true
+    "props": { "ancientName": "R\u00f6merbrucke Niebla" },
+    "estimatedTemporal": true,
+    "qid": "Q98502872"
   },
   {
     "id": "pleiades:257473",
@@ -4713,7 +4763,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed Roman bridge located north of U(r)gia at Alcantarillas, over the Rio Saldo de Móron.",
+    "description": "An unnamed Roman bridge located north of U(r)gia at Alcantarillas, over the Rio Saldo de M\u00f3ron.",
     "estimatedTemporal": true
   },
   {
@@ -4788,20 +4838,20 @@
   {
     "id": "pleiades:511408",
     "type": "bridge",
-    "name": "Sarıcakaya",
+    "name": "Sar\u0131cakaya",
     "lat": 40.057959499999996,
     "lng": 30.618857499999997,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 52 H4 Sarıcakaya",
+    "description": "An ancient place, cited: BAtlas 52 H4 Sar\u0131cakaya",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:512647",
     "type": "bridge",
-    "name": "Bridge at Adapazarı Ovası",
+    "name": "Bridge at Adapazar\u0131 Ovas\u0131",
     "lat": 40.75,
     "lng": 30.25,
     "startYear": -200,
@@ -4861,7 +4911,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed Roman bridge to the north of Mygdum crosses the Göksu Brook that feeds into the Sangarius River.",
+    "description": "An unnamed Roman bridge to the north of Mygdum crosses the G\u00f6ksu Brook that feeds into the Sangarius River.",
     "estimatedTemporal": true
   },
   {
@@ -4903,7 +4953,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 54 C3 unnamed bridge (Ambracia)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q996126"
   },
   {
     "id": "pleiades:532278",
@@ -4972,8 +5023,8 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A bridge (and associated mutatio or other road station) listed on the Peutinger Map. Hammond 1974 (whence BAtlas) localizes the bridge in the modern \"Fusha e Kododeshit\" plain in Albania, located west of modern Urakë, which he identifies with a mansio named Claudanon listed in the ItBurd. Bitrakova-Grozdanova 1994 would place the bridge at or very near Urakë and Claudanon in the vicinity of moden Radožda in Macedonia.",
-    "props": { "ancientName": "Orakë, Orake" },
+    "description": "A bridge (and associated mutatio or other road station) listed on the Peutinger Map. Hammond 1974 (whence BAtlas) localizes the bridge in the modern \"Fusha e Kododeshit\" plain in Albania, located west of modern Urak\u00eb, which he identifies with a mansio named Claudanon listed in the ItBurd. Bitrakova-Grozdanova 1994 would place the bridge at or very near Urak\u00eb and Claudanon in the vicinity of moden Rado\u017eda in Macedonia.",
+    "props": { "ancientName": "Orak\u00eb, Orake" },
     "estimatedTemporal": true
   },
   {
@@ -5013,13 +5064,13 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q6091678",
-    "description": "A bridge that crosses the Valderaduey river and that has traditionally been considered to be of Roman origin, although it may in fact be more recent in date. The ruins are found in the municipality of Becilla de Valderaduey in the Province of Valladolid, of the autonomous community of Castilla y León, Spain.",
+    "description": "A bridge that crosses the Valderaduey river and that has traditionally been considered to be of Roman origin, although it may in fact be more recent in date. The ruins are found in the municipality of Becilla de Valderaduey in the Province of Valladolid, of the autonomous community of Castilla y Le\u00f3n, Spain.",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:729234307",
     "type": "bridge",
-    "name": "Roman bridge, Córdoba",
+    "name": "Roman bridge, C\u00f3rdoba",
     "lat": 37.876670276505216,
     "lng": -4.777931778527026,
     "startYear": -200,
@@ -5083,12 +5134,13 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 30 F3 unnamed bridge (S Rusguniae (2): el Kounitra and Oued el Hamiz)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q125421752"
   },
   {
     "id": "pleiades:407809787",
     "type": "bridge",
-    "name": "Pont du Diable (Céret)",
+    "name": "Pont du Diable (C\u00e9ret)",
     "lat": 42.4957812136421,
     "lng": 2.744579573021209,
     "startYear": -200,
@@ -5122,9 +5174,10 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An historic bridge built across the Tigris river by Sancaroğlu Ubeydoğlu Yusuf in AD 1065.",
+    "description": "An historic bridge built across the Tigris river by Sancaro\u011flu Ubeydo\u011flu Yusuf in AD 1065.",
     "props": { "ancientName": "Dicle Koprusu" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q5273857"
   },
   {
     "id": "pleiades:596205488",
@@ -5242,7 +5295,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge in the modern French commune of Boucieu-le-Roi (Ardèche department).",
+    "description": "A Roman bridge in the modern French commune of Boucieu-le-Roi (Ard\u00e8che department).",
     "props": { "ancientName": "Boucieu-le-Roi" },
     "estimatedTemporal": true,
     "qid": "Q3397492"
@@ -5250,14 +5303,14 @@
   {
     "id": "pleiades:167830",
     "type": "bridge",
-    "name": "Mélas",
+    "name": "M\u00e9las",
     "lat": 44.544663,
     "lng": 4.678905,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 D4 Mélas",
+    "description": "An ancient place, cited: BAtlas 17 D4 M\u00e9las",
     "estimatedTemporal": true,
     "qid": "Q119730836"
   },
@@ -5315,7 +5368,8 @@
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 50 C3 unnamed bridge (Kleidi, between Methone and Thessalonica)",
     "props": { "ancientName": "Kleidi Roman Bridge" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q55355756"
   },
   {
     "id": "pleiades:502832",
@@ -5367,7 +5421,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 51 B3 unnamed bridge (Amphipolis)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q27777827"
   },
   {
     "id": "pleiades:502839",
@@ -5445,7 +5500,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Remains of a Roman bridge spanning a former channel of Le Vistre de la Fontaine south of Nîmes have been excavated. Work at the site also provided significant evidence for Roman-era waste and lead contamination transported down the river from the urban center of Nemausus.",
+    "description": "Remains of a Roman bridge spanning a former channel of Le Vistre de la Fontaine south of N\u00eemes have been excavated. Work at the site also provided significant evidence for Roman-era waste and lead contamination transported down the river from the urban center of Nemausus.",
     "props": { "ancientName": "Le Vistre de la Fontaine" },
     "estimatedTemporal": true
   },
@@ -5474,7 +5529,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge over the modern Aniene river adjacent to the Tomb of the Plautii, which is located north of the Villa of Hadrian at Tivoli.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3396627"
   },
   {
     "id": "pleiades:195429894",
@@ -5513,7 +5569,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An arched Bronze Age bridge near the Mycenaean center of Tiryns. The bridge is located along an ancient highway connecting Tiryns to Epidauros.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q254087"
   },
   {
     "id": "pleiades:471093749",
@@ -5565,8 +5622,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed bridge with possibly ancient Roman origins located near Cáceres in Spain.",
-    "estimatedTemporal": true
+    "description": "An unnamed bridge with possibly ancient Roman origins located near C\u00e1ceres in Spain.",
+    "estimatedTemporal": true,
+    "qid": "Q2941505"
   },
   {
     "id": "pleiades:814499371",
@@ -5604,8 +5662,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed bridge located north of Theveste (modern Tébessa, Algeria) on a Roman road between Theveste and Ammaedara (modern Haidra).",
-    "estimatedTemporal": true
+    "description": "An unnamed bridge located north of Theveste (modern T\u00e9bessa, Algeria) on a Roman road between Theveste and Ammaedara (modern Haidra).",
+    "estimatedTemporal": true,
+    "containedInQid": "Q12220954"
   },
   {
     "id": "pleiades:326164",
@@ -5623,7 +5682,7 @@
   {
     "id": "pleiades:247642",
     "type": "bridge",
-    "name": "Bridge at Puente de Tordómar",
+    "name": "Bridge at Puente de Tord\u00f3mar",
     "lat": 42.0443,
     "lng": -3.8652,
     "startYear": -200,
@@ -5656,7 +5715,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 C2 unnamed bridge (Vitorica (Llodio) over R. Nervión, N Aloria)",
+    "description": "An ancient place, cited: BAtlas 25 C2 unnamed bridge (Vitorica (Llodio) over R. Nervi\u00f3n, N Aloria)",
     "estimatedTemporal": true
   },
   {
@@ -5670,7 +5729,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Bridge of Mantible (also known as Puente de Mantible) crosses the Ebro river northwest of Vareia. It is a Roman segmental arch bridge that likely dates to the second century AD.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q17626277"
   },
   {
     "id": "pleiades:247646",
@@ -5695,7 +5755,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge at modern Golmayo in Spain's Soria province (Castile and León), crossing the modern river of the same name. The modern N-122 highway still makes use of this originally Roman bridge.",
+    "description": "A Roman bridge at modern Golmayo in Spain's Soria province (Castile and Le\u00f3n), crossing the modern river of the same name. The modern N-122 highway still makes use of this originally Roman bridge.",
     "estimatedTemporal": true,
     "qid": "Q24015341"
   },
@@ -5736,7 +5796,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge in the modern Barranco de Aluenda (Aluenda Gorge), which runs down from the northwest to the modern village of Aluenda in Spain's Zaragoza province (Aragon). This bridge was east of ancient Bilbilis on the Roman road to Caesaraugusta.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q20613100"
   },
   {
     "id": "pleiades:247651",
@@ -5755,14 +5816,14 @@
   {
     "id": "pleiades:247652",
     "type": "bridge",
-    "name": "Roman Bridge (Paracuellos de Jíloca)",
+    "name": "Roman Bridge (Paracuellos de J\u00edloca)",
     "lat": 41.312360999999996,
     "lng": -1.64175905,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed Roman bridge just east of ancient Platea at modern Paracuellos de Jíloca over the river Jíloca in Spain.",
+    "description": "An unnamed Roman bridge just east of ancient Platea at modern Paracuellos de J\u00edloca over the river J\u00edloca in Spain.",
     "estimatedTemporal": true
   },
   {
@@ -5777,7 +5838,8 @@
     "category": "infrastructure",
     "description": "Remains of ancient lime adjacent to the modern Huerva river at Villadoz in spain have been interpreted as a Roman bridge, likely associated with a road or route between Sermonae and Carae, two road stations attested in Roman itineraries.",
     "props": { "ancientName": "Ponlarrones" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q115942378"
   },
   {
     "id": "pleiades:247654",
@@ -5830,7 +5892,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An unnamed bridge crossing the River Aragón and the R. Aragón Subordán at Puente de la Reina (Santa Engracia) to the West of Iac(c)a).",
+    "description": "An unnamed bridge crossing the River Arag\u00f3n and the R. Arag\u00f3n Subord\u00e1n at Puente de la Reina (Santa Engracia) to the West of Iac(c)a).",
     "estimatedTemporal": true,
     "qid": "Q22827797"
   },
@@ -5884,7 +5946,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 17 D4 Le Pouzin",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q125981898"
   },
   {
     "id": "pleiades:167906",
@@ -5902,14 +5965,14 @@
   {
     "id": "pleiades:169122",
     "type": "bridge",
-    "name": "Bridge at Lavoûte-sur-Loire",
+    "name": "Bridge at Lavo\u00fbte-sur-Loire",
     "lat": 45.112477,
     "lng": 3.891419,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 B3 unnamed bridge (SE Rouession, at Lavoûte-sur-Loire)",
+    "description": "An ancient place, cited: BAtlas 17 B3 unnamed bridge (SE Rouession, at Lavo\u00fbte-sur-Loire)",
     "estimatedTemporal": true
   },
   {
@@ -5941,7 +6004,7 @@
   {
     "id": "pleiades:169126",
     "type": "bridge",
-    "name": "Bridge at Tournon-sur-Rhône",
+    "name": "Bridge at Tournon-sur-Rh\u00f4ne",
     "lat": 45.063976,
     "lng": 4.788739,
     "startYear": -200,
@@ -5976,19 +6039,20 @@
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 17 D5 unnamed bridge (Vivarium)",
     "props": { "ancientName": "Viviers Roman bridge" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3397584"
   },
   {
     "id": "pleiades:169129",
     "type": "bridge",
-    "name": "Bridge at Romans-sur-Isère",
+    "name": "Bridge at Romans-sur-Is\u00e8re",
     "lat": 45.037112,
     "lng": 5.053013,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 E3 unnamed bridge (NE Col. Valentia, at Romans-sur-Isère)",
+    "description": "An ancient place, cited: BAtlas 17 E3 unnamed bridge (NE Col. Valentia, at Romans-sur-Is\u00e8re)",
     "estimatedTemporal": true
   },
   {
@@ -6020,14 +6084,14 @@
   {
     "id": "pleiades:169133",
     "type": "bridge",
-    "name": "Bridge at Pont de Grésin",
+    "name": "Bridge at Pont de Gr\u00e9sin",
     "lat": 46.0847652,
     "lng": 5.8609968,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 17 F1 unnamed bridge (NW Mont-Musiège, at Grésin)",
+    "description": "An ancient place, cited: BAtlas 17 F1 unnamed bridge (NW Mont-Musi\u00e8ge, at Gr\u00e9sin)",
     "estimatedTemporal": true,
     "qid": "Q3397141"
   },
@@ -6042,7 +6106,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 17 F2 unnamed bridge (at Belmont-Tramonet, SE Augusta)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3397035"
   },
   {
     "id": "pleiades:169136",
@@ -6080,7 +6145,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A hypothesized Roman bridge over the river Arly just above its confluence with the Isére at modern Albertville in France.",
+    "description": "A hypothesized Roman bridge over the river Arly just above its confluence with the Is\u00e9re at modern Albertville in France.",
     "estimatedTemporal": true
   },
   {
@@ -6112,14 +6177,14 @@
   {
     "id": "pleiades:169145",
     "type": "bridge",
-    "name": "Orsières Roman Bridge",
+    "name": "Orsi\u00e8res Roman Bridge",
     "lat": 46.0300676,
     "lng": 7.1453627,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge at modern Orsières in Switzerland.",
+    "description": "A Roman bridge at modern Orsi\u00e8res in Switzerland.",
     "estimatedTemporal": true
   },
   {
@@ -6132,7 +6197,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient settlement and bridge at the modern village of Pontoux (Saône-et-Loire department, France).",
+    "description": "An ancient settlement and bridge at the modern village of Pontoux (Sa\u00f4ne-et-Loire department, France).",
     "props": { "ancientName": "Pons Dubris" },
     "estimatedTemporal": true
   },
@@ -6239,7 +6304,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 19 D3 unnamed bridge (E Ausucum at Prato all’Isarco)",
+    "description": "An ancient place, cited: BAtlas 19 D3 unnamed bridge (E Ausucum at Prato all\u2019Isarco)",
     "estimatedTemporal": true
   },
   {
@@ -6271,7 +6336,7 @@
   {
     "id": "pleiades:198567",
     "type": "bridge",
-    "name": "Bridge at ‘Silvo’",
+    "name": "Bridge at \u2018Silvo\u2019",
     "lat": 45.5,
     "lng": 13.5,
     "startYear": -200,
@@ -6304,13 +6369,13 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 20 C3 unnamed bridge (SW Celeia at Radeče, over Savus fl.)",
+    "description": "An ancient place, cited: BAtlas 20 C3 unnamed bridge (SW Celeia at Rade\u010de, over Savus fl.)",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:198570",
     "type": "bridge",
-    "name": "Bridge at Aljmaš",
+    "name": "Bridge at Aljma\u0161",
     "lat": 45.5,
     "lng": 18.5,
     "startYear": -200,
@@ -6336,7 +6401,7 @@
   {
     "id": "pleiades:601039651",
     "type": "bridge",
-    "name": "Saint-Thibéry Roman Bridge",
+    "name": "Saint-Thib\u00e9ry Roman Bridge",
     "lat": 43.3927442,
     "lng": 3.4327259,
     "startYear": -200,
@@ -6453,7 +6518,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Gallic bridge of Sainte-Catherine is located at Kergonan, between the towns of Plounévézel (Finistère) and Treffrin (Côtes-d'Armor), in the Brittany region. It may date to the seventh century.",
+    "description": "The Gallic bridge of Sainte-Catherine is located at Kergonan, between the towns of Ploun\u00e9v\u00e9zel (Finist\u00e8re) and Treffrin (C\u00f4tes-d'Armor), in the Brittany region. It may date to the seventh century.",
     "estimatedTemporal": true,
     "qid": "Q3397548"
   },
@@ -6632,7 +6697,7 @@
   {
     "id": "pleiades:120051",
     "type": "bridge",
-    "name": "Bridge at Großkrotzenburg",
+    "name": "Bridge at Gro\u00dfkrotzenburg",
     "lat": 50.07989800000001,
     "lng": 8.9818115,
     "startYear": -200,
@@ -6659,7 +6724,7 @@
   {
     "id": "pleiades:120054",
     "type": "bridge",
-    "name": "Bridge near Käfertal",
+    "name": "Bridge near K\u00e4fertal",
     "lat": 49.5,
     "lng": 8.5,
     "startYear": -200,
@@ -6711,7 +6776,7 @@
   {
     "id": "pleiades:120060",
     "type": "bridge",
-    "name": "Bridge N of Fürholzen",
+    "name": "Bridge N of F\u00fcrholzen",
     "lat": 48.5,
     "lng": 11.5,
     "startYear": -200,
@@ -6737,14 +6802,14 @@
   {
     "id": "pleiades:256052",
     "type": "bridge",
-    "name": "Capela de S. Águeda",
+    "name": "Capela de S. \u00c1gueda",
     "lat": 40.038695,
     "lng": -7.580445,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 C1 Capela de S. Águeda",
+    "description": "An ancient place, cited: BAtlas 26 C1 Capela de S. \u00c1gueda",
     "estimatedTemporal": true
   },
   {
@@ -6788,7 +6853,8 @@
     "category": "infrastructure",
     "description": "The so-called \"Ponte Fabio Massimo\" or \"Ponte del Diavolo\" originally dates to the third century BC with subsequent reworking and reuse continuing to the Middle Ages.",
     "props": { "ancientName": "Ponte Fabio Massimo" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3907965"
   },
   {
     "id": "pleiades:113170100",
@@ -6814,7 +6880,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The remains of a late Republican bridge near Benevento (in Località Serretelle).",
+    "description": "The remains of a late Republican bridge near Benevento (in Localit\u00e0 Serretelle).",
     "props": { "ancientName": "Ponte Fratto" },
     "estimatedTemporal": true,
     "qid": "Q3908153"
@@ -6862,7 +6928,7 @@
   {
     "id": "pleiades:207630",
     "type": "bridge",
-    "name": "Bridge near Podul peste Someş",
+    "name": "Bridge near Podul peste Some\u015f",
     "lat": 47.171791,
     "lng": 23.894573,
     "startYear": -200,
@@ -6882,8 +6948,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A second-century A.D. Roman bridge across the Penkalas river ( Kocaçay) in Aezani, Asia Minor.",
-    "estimatedTemporal": true
+    "description": "A second-century A.D. Roman bridge across the Penkalas river ( Koca\u00e7ay) in Aezani, Asia Minor.",
+    "estimatedTemporal": true,
+    "qid": "Q942877"
   },
   {
     "id": "pleiades:823844102",
@@ -6908,8 +6975,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge in the northwestern Iberian peninsula that crosses the río Valiñas.",
-    "estimatedTemporal": true
+    "description": "A Roman bridge in the northwestern Iberian peninsula that crosses the r\u00edo Vali\u00f1as.",
+    "estimatedTemporal": true,
+    "qid": "Q139691725"
   },
   {
     "id": "pleiades:139677",
@@ -6960,7 +7028,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 14 G3 unnamed bridge (‘Pretorio’)",
+    "description": "An ancient place, cited: BAtlas 14 G3 unnamed bridge (\u2018Pretorio\u2019)",
     "estimatedTemporal": true
   },
   {
@@ -7053,7 +7121,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The remains of a Roman bridge that once crossed the river known as Uso are located at San Vito, Italy, in the environs of Rimini.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q3948039"
   },
   {
     "id": "pleiades:394870",
@@ -7071,7 +7140,7 @@
   {
     "id": "pleiades:394872",
     "type": "bridge",
-    "name": "Ponte romano – Ceggia",
+    "name": "Ponte romano \u2013 Ceggia",
     "lat": 45.674589149886565,
     "lng": 12.659217399968028,
     "startYear": -200,
@@ -7399,7 +7468,8 @@
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 43 C3 Torre del Padiglione",
     "props": { "ancientName": "Torre del Padiglione" },
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q18453925"
   },
   {
     "id": "pleiades:236417",
@@ -7438,7 +7508,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q65275457",
-    "description": "A Roman bridge known as ‘Ponte Návea’ located near Puebla de Trives, over Rio Návea.",
+    "description": "A Roman bridge known as \u2018Ponte N\u00e1vea\u2019 located near Puebla de Trives, over Rio N\u00e1vea.",
     "estimatedTemporal": true
   },
   {
@@ -7452,7 +7522,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q2781943",
-    "description": "The Puente del Bibey or ‘Ponte Bibei’ crosses the river Bibei at Mendoya.",
+    "description": "The Puente del Bibey or \u2018Ponte Bibei\u2019 crosses the river Bibei at Mendoya.",
     "props": { "ancientName": "Puente del Bibey" },
     "estimatedTemporal": true
   },
@@ -7505,7 +7575,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge located near the hamelt of Nestar, over the Rio Rubagón.",
+    "description": "A Roman bridge located near the hamelt of Nestar, over the Rio Rubag\u00f3n.",
     "estimatedTemporal": true
   },
   {
@@ -7518,7 +7588,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 G2 no. 16 (‘Puente de los Picos’ at Itero de la Vega, over R. Vallarna)",
+    "description": "An ancient place, cited: BAtlas 24 G2 no. 16 (\u2018Puente de los Picos\u2019 at Itero de la Vega, over R. Vallarna)",
     "estimatedTemporal": true
   },
   {
@@ -7545,7 +7615,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 D3 no. 19 (‘Ponte de Pedra’ at Torre de Dona Chama POR, over R. Tuela)",
+    "description": "An ancient place, cited: BAtlas 24 D3 no. 19 (\u2018Ponte de Pedra\u2019 at Torre de Dona Chama POR, over R. Tuela)",
     "estimatedTemporal": true
   },
   {
@@ -7558,7 +7628,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge over the river Tâmega at Aquae Flaviae (modern Chaves, Portugal).",
+    "description": "A Roman bridge over the river T\u00e2mega at Aquae Flaviae (modern Chaves, Portugal).",
     "estimatedTemporal": true
   },
   {
@@ -7584,7 +7654,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 24 E3 no. 22 (Almeida, over R. Belén)",
+    "description": "An ancient place, cited: BAtlas 24 E3 no. 22 (Almeida, over R. Bel\u00e9n)",
     "estimatedTemporal": true
   },
   {
@@ -7598,7 +7668,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q5391113",
-    "description": "A Roman bridge, known as the 'Puente Mocho', crossing the ribera de Cañedo.",
+    "description": "A Roman bridge, known as the 'Puente Mocho', crossing the ribera de Ca\u00f1edo.",
     "estimatedTemporal": true
   },
   {
@@ -7618,7 +7688,7 @@
   {
     "id": "pleiades:237854",
     "type": "bridge",
-    "name": "Cáparra Roman bridge",
+    "name": "C\u00e1parra Roman bridge",
     "lat": 40.1706877,
     "lng": -6.1025093,
     "startYear": -200,
@@ -7680,7 +7750,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 89 C3 unnamed bridge (Ad Tygrem, below Diyarbakır on R. Tigris)",
+    "description": "An ancient place, cited: BAtlas 89 C3 unnamed bridge (Ad Tygrem, below Diyarbak\u0131r on R. Tigris)",
     "estimatedTemporal": true
   },
   {
@@ -7694,7 +7764,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 91 D2 unnamed bridge (near Hatra)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "containedInQid": "Q466614"
   },
   {
     "id": "pleiades:903737",
@@ -7790,7 +7861,7 @@
   {
     "id": "pleiades:154654590",
     "type": "bridge",
-    "name": "Cangas de Onís",
+    "name": "Cangas de On\u00eds",
     "lat": 43.350186854104344,
     "lng": -5.132110349566436,
     "startYear": -200,
@@ -7798,7 +7869,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q9064489",
-    "description": "A Medieval bridge built by Alfonso XI of Castile and León that possibly rests on earlier Roman foundations.",
+    "description": "A Medieval bridge built by Alfonso XI of Castile and Le\u00f3n that possibly rests on earlier Roman foundations.",
     "estimatedTemporal": true
   },
   {
@@ -7812,7 +7883,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge crossing the Rhyndakos river that was built after AD 258.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1782816"
   },
   {
     "id": "pleiades:849308046",
@@ -7825,7 +7897,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A Roman bridge built across the Cillian stream in the Valle d'Aosta, Italy.",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q18288898"
   },
   {
     "id": "pleiades:110232",
@@ -7851,7 +7924,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "An ancient place, cited: BAtlas 11 G2 unnamed bridge (Col. Claudia Ara Agrippinensium)",
-    "estimatedTemporal": true
+    "estimatedTemporal": true,
+    "qid": "Q1735350"
   },
   {
     "id": "pleiades:110234",
@@ -8008,14 +8082,14 @@
   {
     "id": "pleiades:220822469",
     "type": "bridge",
-    "name": "Ponte del Viceré de Ribera",
+    "name": "Ponte del Vicer\u00e9 de Ribera",
     "lat": 41.317545700000004,
     "lng": 13.48056555,
     "startYear": -200,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The bridge known as the Ponte del Viceré de Ribera crosses the Fosso di Sant'Andrea on the line of the Via Appia. The viceroy of Naples, one Parefàn de Ribera, renovated the bridge in 1568. During the Second World War, the bridge was bombed and was eventually restored in 2005.",
+    "description": "The bridge known as the Ponte del Vicer\u00e9 de Ribera crosses the Fosso di Sant'Andrea on the line of the Via Appia. The viceroy of Naples, one Paref\u00e0n de Ribera, renovated the bridge in 1568. During the Second World War, the bridge was bombed and was eventually restored in 2005.",
     "estimatedTemporal": true
   },
   {
@@ -8028,7 +8102,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman bridge located in the Provincia da Coruña, Galicia, Spain.",
+    "description": "A Roman bridge located in the Provincia da Coru\u00f1a, Galicia, Spain.",
     "estimatedTemporal": true
   },
   {

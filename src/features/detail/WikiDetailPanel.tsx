@@ -206,6 +206,18 @@ function CrossRefDetailContent({
           </div>
 
           {(() => {
+            if (cr.containedInQid) {
+              const cityName = cr.wikiUrl
+                ? decodeURIComponent(cr.wikiUrl.split('/wiki/').pop() ?? '').replace(/_/g, ' ')
+                : null
+              if (!cityName) return null
+              return (
+                <p className="text-sm text-slate-400 leading-relaxed">
+                  Located in: <span className="text-slate-300">{cityName}</span>
+                  {cr.description && <span className="text-slate-500"> — {cr.description}</span>}
+                </p>
+              )
+            }
             const desc = cr.pleiadesDescription
             const isCiteOnly = desc?.startsWith('An ancient place, cited:')
             const displayDesc =
@@ -263,17 +275,19 @@ function CrossRefDetailContent({
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
               >
-                <BookOpen className="size-3" /> Wikipedia
+                <BookOpen className="size-3" />{' '}
+                {cr.containedInQid ? 'Wikipedia (city)' : 'Wikipedia'}
               </a>
             )}
-            {cr.qid && (
+            {(cr.qid || cr.containedInQid) && (
               <a
-                href={`https://www.wikidata.org/wiki/${cr.qid}`}
+                href={`https://www.wikidata.org/wiki/${cr.qid ?? cr.containedInQid}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-[11px] text-amber-400 hover:text-amber-300"
               >
-                <ExternalLink className="size-3" /> Wikidata
+                <ExternalLink className="size-3" />{' '}
+                {cr.containedInQid && !cr.qid ? 'Wikidata (city)' : 'Wikidata'}
               </a>
             )}
             {pid && (
