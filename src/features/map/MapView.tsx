@@ -6,7 +6,7 @@ import L from 'leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { loadTerritories } from '@/data'
 import type { TerritorySnapshot } from '@/types'
-import { useMapLayerStore, getPersistedLayers } from '@/stores/useMapLayerStore'
+import { ALL_LAYER_KEYS, useMapLayerStore, getPersistedLayers } from '@/stores/useMapLayerStore'
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
 import { SeaLabels } from './layers/SeaLabels'
@@ -174,7 +174,10 @@ const EdgeBufferedTileLayer = L.TileLayer.extend({
       _getTiledPixelBounds: (c: L.LatLng) => L.Bounds
     }
     const b = proto._getTiledPixelBounds.call(this, center)
-    const pad = L.Browser.mobile ? 256 : 0
+    // two tile-rings past the border: one ring evaporated on a fast swipe
+    // and the pop-in stayed visible; three rings cost ~180 tiles (~4MB)
+    // on first load — too much cellular tax for the last few px of swipe
+    const pad = L.Browser.mobile ? 512 : 0
     return new L.Bounds(b.min!.subtract([pad, pad]), b.max!.add([pad, pad]))
   },
 }) as unknown as new (url: string, options?: L.TileLayerOptions) => L.TileLayer
@@ -184,7 +187,8 @@ function TerrainTiles({ attribution }: { attribution: string }) {
   useEffect(() => {
     const layer = new EdgeBufferedTileLayer(TERRAIN_TILE_URL, {
       updateWhenIdle: false,
-      keepBuffer: 6,
+      updateInterval: 80, // default 200ms lagged behind fast swipes
+      keepBuffer: 8,
       errorTileUrl:
         'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPj/HwADBwIAMCbHYQAAAABJRU5ErkJggg==',
     })
@@ -230,13 +234,35 @@ export function MapView() {
     const params = new URLSearchParams(window.location.search)
     // Skip if story param in URL
     if (params.has('story')) return
-    // A returning visitor gets their own layer selection back; first-timers
-    // open on the Economy preset (strongest first impression).
-    const saved = getPersistedLayers()
-    if (saved && saved.length > 0) {
-      useMapLayerStore.getState().setLayers(saved)
+    // A shared link carries its scene: ?layers=empires,cities (+ ?ds=temples)
+    // overrides the visitor's own persisted set — the sender's 1223 world
+    // mosaic must not open as the recipient's Roman-roads default.
+    if (params.has('layers')) {
+      const wanted = new Set(
+        (params.get('layers') ?? '')
+          .split(',')
+          .filter(Boolean)
+          .map((n) => `show${n.charAt(0).toUpperCase()}${n.slice(1)}`),
+      )
+      // names arrive lowercased — match case-insensitively against real keys
+      const byLower = new Map(ALL_LAYER_KEYS.map((k) => [k.toLowerCase(), k]))
+      const keys = [...wanted]
+        .map((k) => byLower.get(k.toLowerCase()))
+        .filter((k): k is (typeof ALL_LAYER_KEYS)[number] => k != null)
+      useMapLayerStore.getState().setLayers(keys)
+      for (const id of (params.get('ds') ?? '').split(',').filter(Boolean)) {
+        const st = useMapLayerStore.getState().datasetState[id]
+        if (st && !st.show) useMapLayerStore.getState().toggleDataset(id)
+      }
     } else {
-      activatePreset('economy')
+      // A returning visitor gets their own layer selection back; first-timers
+      // open on the Economy preset (strongest first impression).
+      const saved = getPersistedLayers()
+      if (saved && saved.length > 0) {
+        useMapLayerStore.getState().setLayers(saved)
+      } else {
+        activatePreset('economy')
+      }
     }
     // Don't clobber a shared/deep-linked year — useURLSync restores it.
     if (!params.has('year')) setYear(100)
@@ -339,6 +365,9 @@ export function MapView() {
           style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
           zoomControl={false}
           preferCanvas
+          // no 200ms tile fade on phones: with the edge buffer the tiles are
+          // usually READY — the fade itself was the visible "loading" feel
+          fadeAnimation={!L.Browser.mobile}
           ref={mapRef}
         >
           <TerrainTiles attribution={attribution} />

@@ -4,10 +4,28 @@ import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
+import { ALL_LAYER_KEYS, useMapLayerStore } from '@/stores/useMapLayerStore'
 
 // Keep in sync with TimelinePlayer's domain.
 const MIN_YEAR = -753
 const MAX_YEAR = 1453
+
+/** Active layers as a compact URL value: showEmpires → empires.
+ *  A shared link must carry the SCENE — recipients used to get their own
+ *  default layers, so "look at the 1223 world" opened as Roman roads. */
+export function layersToParam(): string {
+  const s = useMapLayerStore.getState() as unknown as Record<string, unknown>
+  return ALL_LAYER_KEYS.filter((k) => s[k])
+    .map((k) => k.replace(/^show/, '').toLowerCase())
+    .join(',')
+}
+
+export function datasetsToParam(): string {
+  const ds = useMapLayerStore.getState().datasetState
+  return Object.keys(ds)
+    .filter((id) => ds[id]?.show)
+    .join(',')
+}
 
 export function useURLSync() {
   const [, setSearchParams] = useSearchParams()
@@ -78,6 +96,13 @@ export function useURLSync() {
               prev.set('lng', mapView.lng.toFixed(2))
               prev.set('z', String(mapView.zoom))
             }
+            // the layer set IS the scene — carry it so shared links replay it
+            const layers = layersToParam()
+            if (layers) prev.set('layers', layers)
+            else prev.delete('layers')
+            const ds = datasetsToParam()
+            if (ds) prev.set('ds', ds)
+            else prev.delete('ds')
             return prev
           },
           { replace: true },
@@ -88,6 +113,10 @@ export function useURLSync() {
     const unsubs = [
       useSelectionStore.subscribe(scheduleSync),
       useUIStore.subscribe(scheduleSync),
+      // layer toggles change the shareable scene; data loads also fire this
+      // subscription, but scheduleSync is rAF-batched and the write is a
+      // history.replace, so the churn costs one batched update per frame
+      useMapLayerStore.subscribe(scheduleSync),
       // Sync the year too, but not on every playback frame — only once the user
       // has stopped (or just paused), so the URL stays a shareable snapshot
       // without thrashing during autoplay.
