@@ -89,6 +89,11 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
       if (e.type) sub.push(e.type)
       if (e.subtype && e.subtype !== e.type) sub.push(e.subtype)
       if (sub.length) html += `<div class="map-tooltip-sub">${esc(sub.join(' · '))}</div>`
+
+      const k = knowledge?.[e.id]
+      const cr = k?.crossRef
+      const hasEnrichment = !!(k?.extract || cr)
+
       const details: string[] = []
       if (e.startYear != null && e.startYear !== 0) {
         details.push(
@@ -98,7 +103,10 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         )
       }
       const desc = e.description
-      if (desc) details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
+      const isCiteOnly = desc?.startsWith('An ancient place, cited:')
+      if (hasEnrichment && desc) {
+        details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
+      }
       if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
       const join = NODE_JOIN[e.id]
@@ -106,14 +114,32 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         html += `<div class="map-tooltip-detail">${join.km <= 2 ? 'At' : 'Near'} ${esc(join.name)}${join.km > 2 ? ` · ${join.km} km` : ''}</div>`
       }
 
-      const k = knowledge?.[e.id]
-      // crossRef rides inside the features store now — the 14.4 MB legacy
-      // cross-reference.json stays unloaded until the detail panel needs it
-      const cr = k?.crossRef
       if (k?.extract) {
         html = appendWikiTooltip(html, e.id, knowledge, 'knowledge-features')
       } else if (cr) {
         html = appendCrossRefTooltip(html, cr, { crKey: e.id })
+      } else {
+        html += '<div class="map-tooltip-wiki">'
+        if (desc && !isCiteOnly) {
+          html += `<div class="map-tooltip-extract">${esc(desc)}</div>`
+        }
+        const facts: string[] = []
+        const ancientName = e.props?.ancientName as string | undefined
+        if (ancientName && ancientName !== e.name) facts.push(`Ancient name: ${ancientName}`)
+        const depth = e.props?.depth as number | undefined
+        if (depth != null) facts.push(`Depth: ${depth}m`)
+        const siteType = e.props?.siteType as string | undefined
+        if (siteType && siteType !== e.subtype)
+          facts.push(siteType.charAt(0).toUpperCase() + siteType.slice(1))
+        if (facts.length) {
+          html += `<div class="map-tooltip-fact">${esc(facts.join(' · '))}</div>`
+        }
+        if (isCiteOnly && desc) {
+          const ref = desc.replace('An ancient place, cited: ', '')
+          html += `<div class="map-tooltip-fact">${esc(ref)}</div>`
+        }
+        html += `<span class="map-tooltip-badge map-tooltip-badge--sourced">${esc(e.source)}</span>`
+        html += '</div>'
       }
 
       if (!popupRef.current) {
