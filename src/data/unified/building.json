@@ -4643,8 +4643,7 @@
     "endYear": -30,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))",
-    "qid": "Q60041878"
+    "description": "An ancient place, cited: BAtlas 32 E4 unnamed unlabeled ((15 monuments, 2 walls))"
   },
   {
     "id": "building:208942235",
@@ -16500,8 +16499,7 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The Forum of Suasa measures 50 x 100 meters and is surrounded by a portico.",
-    "qid": "Q136291544"
+    "description": "The Forum of Suasa measures 50 x 100 meters and is surrounded by a portico."
   },
   {
     "id": "building:605339917",
@@ -19271,8 +19269,7 @@
     "endYear": -330,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 64 B3 Bünyan",
-    "qid": "Q139429192"
+    "description": "An ancient place, cited: BAtlas 64 B3 Bünyan"
   },
   {
     "id": "building:462119",
@@ -20812,7 +20809,6 @@
     "endYear": 300,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q25167226",
     "description": "An ancient place, cited: BAtlas 56 C5 Dotion"
   },
   {
@@ -46471,7 +46467,9 @@
     "category": "infrastructure",
     "qid": "Q121302023",
     "description": "Private house located in Block M7 of Dura-Europos.",
-    "props": { "ancientName": "House M7-W" }
+    "props": {
+      "ancientName": "House M7-W"
+    }
   },
   {
     "id": "pleiades:42782119",
@@ -46485,7 +46483,9 @@
     "category": "infrastructure",
     "qid": "Q116258914",
     "description": "The so-called \"House of the Skeleton\" was constructed in the early first century BCE in the Roman colony of Cosa. It stands an example of the domestic architecture of the Late Roman Republic.",
-    "props": { "ancientName": "House of the Skeleton" }
+    "props": {
+      "ancientName": "House of the Skeleton"
+    }
   },
   {
     "id": "pleiades:769637720",
@@ -46537,7 +46537,9 @@
     "category": "infrastructure",
     "qid": "Q136535139",
     "description": "A round building constructed in the northwestern corner of the Athenian Agora in the 5th century AD over the Crossroads Enclosure. It was ruined in the late 5th or 6th century AD.",
-    "props": { "ancientName": "Late Roman Round Building" }
+    "props": {
+      "ancientName": "Late Roman Round Building"
+    }
   },
   {
     "id": "pleiades:802393070",
@@ -46563,7 +46565,9 @@
     "category": "infrastructure",
     "qid": "Q3818592",
     "description": "A building at the southeast end of the Acropolis of Athens, built perhaps in the 440s BC. Suggested identifications include the workshop for construction of the Parthenon, the hero shrine of Pandion (the eponymous hero of the tribe Pandionis), and the Chalkotheke. It is now covered by the Old Acropolis Museum.",
-    "props": { "ancientName": "Southeast Building" }
+    "props": {
+      "ancientName": "Southeast Building"
+    }
   },
   {
     "id": "pleiades:517288793",
@@ -46576,7 +46580,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A building on the north side of the Acropolis of Athens with an attached courtyard, built in the second half of the 5th century BC. It is perhaps to be identified with the house of the Arrhephoroi, but other identifications have been proposed.",
-    "props": { "ancientName": "Building III" },
+    "props": {
+      "ancientName": "Building III"
+    },
     "qid": "Q2336187"
   },
   {
@@ -46603,7 +46609,9 @@
     "category": "infrastructure",
     "qid": "Q24204680",
     "description": "A building in the southeastern corner of the Athenian Agora, built in the mid-second century BC as the eastern side of the South Square complex and its main entrance from the Panathenaic Way. It was destroyed in the Sullan Sack of 86 BC, but repaired in the Imperial Period.",
-    "props": { "ancientName": "East Building" }
+    "props": {
+      "ancientName": "East Building"
+    }
   },
   {
     "id": "pleiades:523926373",
@@ -46616,7 +46624,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A mid-first century CE building located east of the Roman Agora in Athens, of unknown purpose. Early 20th-century scholars incorrectly identified it as the Agoranomeion (office of the market inspectors).",
-    "props": { "ancientName": "Arcuated Building" },
+    "props": {
+      "ancientName": "Arcuated Building"
+    },
     "qid": "Q124097987"
   },
   {
@@ -46643,7 +46653,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Military headquarters building at Dura-Europos.",
-    "props": { "ancientName": "praetorium" }
+    "props": {
+      "ancientName": "praetorium"
+    }
   },
   {
     "id": "pleiades:888638050",
@@ -46669,7 +46681,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A rectangular structure in the Athenian Agora, consisting of 11 rooms surrounding a central courtyard, built in the early 5th century AD in connection with the Palace of the Giants. It appears to have been an administrative building.",
-    "props": { "ancientName": "Late Roman Building" }
+    "props": {
+      "ancientName": "Late Roman Building"
+    }
   },
   {
     "id": "pleiades:965050506",
@@ -46682,7 +46696,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A shrine dedicated to Aglauros, on the east slope of the Acropolis of Athens. The location was identified by an inscription found in situ.",
-    "props": { "ancientName": "hieròn tēs Aglaúrou" },
+    "props": {
+      "ancientName": "hieròn tēs Aglaúrou"
+    },
     "qid": "Q1595395"
   },
   {
@@ -46697,7 +46713,9 @@
     "category": "infrastructure",
     "qid": "Q1035634",
     "description": "Prison located at the foot of the Capitoline Hill, named either for Servius Tullius (578–535 BCE) or for the spring (tullus) on which it was constructed. Also known as the Mamertine Prison. The church of San Giuseppe dei Falegnami was constructed on the site in the 11th century CE.",
-    "props": { "ancientName": "Carcere Mamertino" }
+    "props": {
+      "ancientName": "Carcere Mamertino"
+    }
   },
   {
     "id": "pleiades:993507722",
@@ -46710,7 +46728,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "A utilitarian building constructed in the southeast corner of the Acropolis of Athens in the first half of the 5th century BC and torn down to make way for Building IV later in the same century.",
-    "props": { "ancientName": "Building V" },
+    "props": {
+      "ancientName": "Building V"
+    },
     "qid": "Q2336187"
   },
   {
@@ -46724,7 +46744,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "The Northwest Building on the Acropolis of Athens was built in the fifth century BC, probably in the 430s BC, north of the Propylaia. It may have been intended as a banqueting hall, but was never completed and remained an open-air courtyard, perhaps used for storage and staging purposes.",
-    "props": { "ancientName": "Building I" },
+    "props": {
+      "ancientName": "Building I"
+    },
     "qid": "Q124097987"
   },
   {
@@ -46738,7 +46760,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Two stone buildings (west and east) located 30 m apart were excavated at modern Rujm al-Ḥenū in Jordan. The pottery found has been dated largely to Iron Age IIc.",
-    "props": { "ancientName": "Rujm al-Ḥenū, rajm alhanu, Rujm el Ḥinū; Rujm al Hinu" }
+    "props": {
+      "ancientName": "Rujm al-Ḥenū, rajm alhanu, Rujm el Ḥinū; Rujm al Hinu"
+    }
   },
   {
     "id": "pleiades:585794923",
@@ -46752,7 +46776,9 @@
     "category": "infrastructure",
     "qid": "Q20379066",
     "description": "A narrow structure southwest of the Agora of Athens, built in the mid-5th century BC. Some modern scholars identify it as the Athenian prison where Sokrates and others were held and executed, but it was probably a workshop for marble workers.",
-    "props": { "ancientName": "Poros Building" }
+    "props": {
+      "ancientName": "Poros Building"
+    }
   },
   {
     "id": "pleiades:445423968",
@@ -46804,7 +46830,9 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "description": "Masseria Muro (comune di Mesagne, province of Brindisi, south Italy) is the findspot of a hoard of ancient coins. In 1976, a deposit of coins originating from a number of Greek cities of south Italy was discovered. The coins range in date from the Archaic to the Hellenistic periods.",
-    "props": { "ancientName": "Masseria Muro" },
+    "props": {
+      "ancientName": "Masseria Muro"
+    },
     "qid": "Q3867423"
   },
   {
@@ -46819,7 +46847,9 @@
     "category": "infrastructure",
     "qid": "Q1541300",
     "description": "The Graecostasis was located at the margin of the comitium in the Forum Romanum. It was a tribunal where foreign ambassadors would wait.",
-    "props": { "ancientName": "Graecostasis" }
+    "props": {
+      "ancientName": "Graecostasis"
+    }
   },
   {
     "id": "pleiades:331813284",
@@ -46846,7 +46876,9 @@
     "category": "infrastructure",
     "qid": "Q77245461",
     "description": "The bouleuterion at Priene, located northeast of the agora, dates ca. 200 BCE.",
-    "props": { "ancientName": "Bouleuterion in Priene" }
+    "props": {
+      "ancientName": "Bouleuterion in Priene"
+    }
   },
   {
     "id": "pleiades:770861329",
@@ -46860,7 +46892,9 @@
     "category": "infrastructure",
     "qid": "Q3144678",
     "description": "The Aiakeion was a sanctuary of Aiakos built in Athens in the early fifth century BC, which is identified with the Rectangular Peribolos in the southwestern corner of the Agora. In 374/3 BC it was converted to a granary. It was damaged in the Sullan Sack in 86 BC and in the Imperial period it was a pottery workshop.",
-    "props": { "ancientName": "Aiakeion" }
+    "props": {
+      "ancientName": "Aiakeion"
+    }
   },
   {
     "id": "pleiades:973421832",
@@ -46874,7 +46908,9 @@
     "category": "infrastructure",
     "qid": "Q2372311",
     "description": "A building between the Dipylon Gate and the Sacred Gate used for preparing the Panathenaic procession during the Classical and Hellenistic periods, destroyed during the Sullan Sack in 86 B.C., restored ca. A.D. 144, and destroyed again in the Herulian Sack of A.D. 267.",
-    "props": { "ancientName": "Pompeîon" }
+    "props": {
+      "ancientName": "Pompeîon"
+    }
   },
   {
     "id": "pleiades:425217700",
@@ -46913,7 +46949,9 @@
     "category": "infrastructure",
     "qid": "Q121890897",
     "description": "A courtyard building of a non-military nature dating to the later Roman period (second to third century CE) was located on the seafront at modern Barry (Wales, United Kingdom).",
-    "props": { "ancientName": "Cold Knap Roman building" }
+    "props": {
+      "ancientName": "Cold Knap Roman building"
+    }
   },
   {
     "id": "building:pleiades-786609869",

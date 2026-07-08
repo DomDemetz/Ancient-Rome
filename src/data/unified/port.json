@@ -68455,8 +68455,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "category": "trade",
-    "description": "Ancient harbour (modern: Serifos, on the isle of Seriphos) in GR: Cyclades Isl.",
-    "qid": "Q21693415"
+    "description": "Ancient harbour (modern: Serifos, on the isle of Seriphos) in GR: Cyclades Isl."
   },
   {
     "id": "port:apa-seriphos-insula-3023",
@@ -69153,8 +69152,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "category": "trade",
-    "description": "Ancient harbour (modern: East Green, on R Hundred) in UK",
-    "qid": "Q28064973"
+    "description": "Ancient harbour (modern: East Green, on R Hundred) in UK"
   },
   {
     "id": "port:apa-siur-portus-5830",
@@ -69695,8 +69693,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "category": "trade",
-    "description": "Ancient harbour (modern: Makrygialos, Diaskari) in GR: Crete South",
-    "qid": "Q27182777"
+    "description": "Ancient harbour (modern: Makrygialos, Diaskari) in GR: Crete South"
   },
   {
     "id": "port:apa-stamene-ameneia-near-iasonion-prom-jason-3865",
@@ -71150,8 +71147,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "category": "trade",
-    "description": "Ancient harbour (modern: Tilos, on the isle of Tilos) in GR: Eastern Isl.",
-    "qid": "Q21695301"
+    "description": "Ancient harbour (modern: Tilos, on the isle of Tilos) in GR: Eastern Isl."
   },
   {
     "id": "port:apa-temenion-port-of-argos-on-r-erasinos-2789",
@@ -71283,8 +71279,7 @@
     "endYear": 476,
     "source": "ancient-ports",
     "category": "trade",
-    "description": "Ancient port (modern: Tinos, on the isle of Tenos) in GR: Cyclades Isl. - features: breakwater",
-    "qid": "Q21695533"
+    "description": "Ancient port (modern: Tinos, on the isle of Tenos) in GR: Cyclades Isl. - features: breakwater"
   },
   {
     "id": "port:apa-tenos-temple-of-poseidon-3003",
@@ -74778,7 +74773,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "The Port antique de Marseille is the oldest exposed portion of the city's ancient port, located in the Jardin des Vestiges archaeological park and containing remains from the 6th c. BCE through the 4th c. CE.",
-    "props": { "ancientName": "Port antique de Marseille" },
+    "props": {
+      "ancientName": "Port antique de Marseille"
+    },
     "qid": "Q3485951"
   },
   {
@@ -74818,7 +74815,9 @@
     "category": "trade",
     "qid": "Q127032006",
     "description": "An ancient place, cited: BAtlas 47 G4 Lakkios",
-    "props": { "ancientName": "Lakkios" }
+    "props": {
+      "ancientName": "Lakkios"
+    }
   },
   {
     "id": "pleiades:462526",
@@ -74832,7 +74831,9 @@
     "category": "trade",
     "qid": "Q111217589",
     "description": "An ancient place, cited: BAtlas 47 G4 Trogilos",
-    "props": { "ancientName": "Trogilos" }
+    "props": {
+      "ancientName": "Trogilos"
+    }
   },
   {
     "id": "pleiades:471942",
@@ -74845,7 +74846,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "The Herakleous Limen, mentioned by Ptolemy, was an ancient bay or anchorage on the island of Sardinia, probably to be identified with the modern Porto Malfatano, which is located on the southern coast of the island between the Capo Malfatano and the Capo Spartivento.",
-    "props": { "ancientName": "Porto Malfatano, Malfatano (Porto)" }
+    "props": {
+      "ancientName": "Porto Malfatano, Malfatano (Porto)"
+    }
   },
   {
     "id": "pleiades:927235843",
@@ -74885,7 +74888,9 @@
     "category": "trade",
     "qid": "Q25168416",
     "description": "An ancient place, cited: BAtlas 58 E2 Pogon",
-    "props": { "ancientName": "Pogon" }
+    "props": {
+      "ancientName": "Pogon"
+    }
   },
   {
     "id": "pleiades:579966",
@@ -74899,7 +74904,9 @@
     "category": "trade",
     "qid": "Q29626000",
     "description": "Kantharos Limen was the largest harbor area of the Piraeus.",
-    "props": { "ancientName": "Kantharos Limen" }
+    "props": {
+      "ancientName": "Kantharos Limen"
+    }
   },
   {
     "id": "pleiades:579988",
@@ -74912,7 +74919,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "Kophos Limen, (the \"Still Harbor\"), was a Classical period harbor located at Halai in the Piraeus, Attica.",
-    "props": { "ancientName": "Kophos Limen" }
+    "props": {
+      "ancientName": "Kophos Limen"
+    }
   },
   {
     "id": "pleiades:579997",
@@ -74925,7 +74934,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "An ancient place, cited: BAtlas 59 A3 Kryptos Limen",
-    "props": { "ancientName": "Kryptos Limen" }
+    "props": {
+      "ancientName": "Kryptos Limen"
+    }
   },
   {
     "id": "pleiades:580071",
@@ -74938,7 +74949,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "An ancient place, cited: BAtlas 59 B3 Phaleron Limen",
-    "props": { "ancientName": "Phaleron Limen" }
+    "props": {
+      "ancientName": "Phaleron Limen"
+    }
   },
   {
     "id": "pleiades:344747000",
@@ -74964,7 +74977,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "An ancient place, cited: BAtlas 53 A3 Eleutheriou/Kaisariou Limen/Theodosiacus Portus",
-    "props": { "ancientName": "Eleutheriou" }
+    "props": {
+      "ancientName": "Eleutheriou"
+    }
   },
   {
     "id": "pleiades:523226",
@@ -74978,7 +74993,9 @@
     "category": "trade",
     "qid": "Q18123476",
     "description": "Neorion Harbor was a harbor of Constantinople in use from the fourth century until the late Ottoman period.",
-    "props": { "ancientName": "Neorion" }
+    "props": {
+      "ancientName": "Neorion"
+    }
   },
   {
     "id": "pleiades:458685459",
@@ -75004,7 +75021,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "The river port of the ancient city of Rome that was located between the Aventine Hill and the Rione Testaccio, formally established perhaps in 193 BCE.",
-    "props": { "ancientName": "Emporium" },
+    "props": {
+      "ancientName": "Emporium"
+    },
     "qid": "Q3053354"
   },
   {
@@ -75018,7 +75037,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "Modern location in the vicinity of Mamallapuram that may have been the site of a port or harbor facility for the ancient city.",
-    "props": { "ancientName": "Pooncheri, Pūñcēri" }
+    "props": {
+      "ancientName": "Pooncheri, Pūñcēri"
+    }
   },
   {
     "id": "pleiades:306176341",
@@ -75056,7 +75077,9 @@
     "source": "Pleiades",
     "category": "trade",
     "description": "Site on the Red Sea Coast in Egypt, used in the Fourth Dynasty as a port for importing turquoise and copper from Sinai. The oldest surviving papyrus from Egypt, dated during the reign of Khufu (26th century BCE), was found at the site.",
-    "props": { "ancientName": "Wadi al-Jarf, Wādi al-Jarf, Ouadi el-Jarf" },
+    "props": {
+      "ancientName": "Wadi al-Jarf, Wādi al-Jarf, Ouadi el-Jarf"
+    },
     "qid": "Q11855049"
   }
 ]
