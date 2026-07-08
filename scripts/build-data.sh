@@ -23,6 +23,12 @@ python3 scripts/attach-nodes-to-unified.py
 echo ""
 
 echo "══════════════════════════════════════════"
+echo "  STEP 1c2 · Era-bucket the empires monolith"
+echo "══════════════════════════════════════════"
+python3 scripts/chunk-empires.py
+echo ""
+
+echo "══════════════════════════════════════════"
 echo "  STEP 1c · Join ORBIS trade sites to canonical nodes"
 echo "══════════════════════════════════════════"
 # was run manually once (2026-07-07) and never added — a rebuild without

@@ -26,6 +26,47 @@ export interface EmpireShape {
 
 import { loadJsonRaw } from '@/data/loadJson'
 
+/** Era buckets — keep in sync with scripts/chunk-empires.py. A shape
+ *  spanning a boundary lives in every bucket it overlaps; merge with
+ *  dedupeEmpires. */
+export const EMPIRE_ERAS: Array<[number, number]> = [
+  [-800, 0],
+  [0, 500],
+  [500, 1000],
+  [1000, 1500],
+]
+
+export function empireEraIndex(year: number): number {
+  const i = EMPIRE_ERAS.findIndex(([lo, hi]) => year >= lo && year < hi)
+  return i === -1 ? (year < -800 ? 0 : EMPIRE_ERAS.length - 1) : i
+}
+
+const ERA_LOADERS: Array<() => Promise<EmpireShape[]>> = [
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-0.json?raw')),
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-1.json?raw')),
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-2.json?raw')),
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-3.json?raw')),
+]
+
+export async function loadEmpiresEra(i: number): Promise<EmpireShape[]> {
+  return ERA_LOADERS[Math.max(0, Math.min(ERA_LOADERS.length - 1, i))]()
+}
+
+export function dedupeEmpires(...batches: EmpireShape[][]): EmpireShape[] {
+  const seen = new Set<string>()
+  const out: EmpireShape[] = []
+  for (const batch of batches) {
+    for (const e of batch) {
+      if (seen.has(e.id)) continue
+      seen.add(e.id)
+      out.push(e)
+    }
+  }
+  return out
+}
+
+/** Full monolith (all eras) — kept for tooling; the map loads eras. */
 export async function loadEmpires(): Promise<EmpireShape[]> {
-  return loadJsonRaw<EmpireShape[]>(() => import('./empires.json?raw'))
+  const all = await Promise.all(ERA_LOADERS.map((l) => l()))
+  return dedupeEmpires(...all)
 }

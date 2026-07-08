@@ -565,8 +565,24 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     return { placesData: await loadPlaces() }
   }),
   showEmpires: ensureLoaded('empiresData', 'empiresLoading', async () => {
-    const { loadEmpires } = await import('@/data/empires')
-    return { empiresData: await loadEmpires() }
+    // progressive: paint the CURRENT era's polities first (~2-5 MB), then
+    // pull the remaining era buckets in the background so playback and
+    // scrubbing across the full 2,200 years still find every shape
+    const { loadEmpiresEra, empireEraIndex, dedupeEmpires, EMPIRE_ERAS } = await import(
+      '@/data/empires'
+    )
+    const first = empireEraIndex(useTimelineStore.getState().currentYear)
+    const firstBatch = await loadEmpiresEra(first)
+    const rest = EMPIRE_ERAS.map((_, i) => i).filter((i) => i !== first)
+    Promise.all(rest.map((i) => loadEmpiresEra(i)))
+      .then((batches) => {
+        const current = useMapLayerStore.getState().empiresData
+        useMapLayerStore.setState({
+          empiresData: dedupeEmpires(current ?? firstBatch, ...batches),
+        })
+      })
+      .catch((err) => console.error('empires background load failed:', err))
+    return { empiresData: firstBatch }
   }),
   showLimes: ensureLoaded('limesData', 'limesLoading', async () => {
     const { loadLimes } = await import('@/data/dare')
