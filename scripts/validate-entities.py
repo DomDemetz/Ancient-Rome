@@ -189,12 +189,36 @@ def check_cross_dataset_dupes(rep, cr):
                                 f"{n1!r} ~ {n2!r}, {dist_km:.1f} km apart")
 
 
+def check_tombstones(rep, cr):
+    """Deliberately-removed QID links must stay removed. Enrichment passes
+    keep re-matching the same nearby-but-wrong QIDs; the cleanup log is the
+    tombstone list. Fix resurrections with scripts/enforce-qid-tombstones.py."""
+    log_path = DATA / "review" / "qid-cleanup-log.json"
+    if not log_path.exists():
+        return
+    tombs, restored = set(), set()
+    for e in json.load(open(log_path)):
+        pair = (e["key"], e["qid"])
+        action = e.get("action", "")
+        if action.startswith(("removed-qid", "qid->containedInQid")):
+            tombs.add(pair)
+            restored.discard(pair)
+        elif "->qid" in action:
+            restored.add(pair)
+            tombs.discard(pair)
+    for k, e in cr.items():
+        if e.get("qid") and (k, e["qid"]) in tombs:
+            rep.add("resurrected-qid", "ERROR", k,
+                    f"qid {e['qid']} was deliberately removed but is back")
+
+
 def main():
     rep = Report()
     cr = check_cross_reference(rep)
     check_buildings(rep)
     check_settlement_files(rep)
     check_cross_dataset_dupes(rep, cr)
+    check_tombstones(rep, cr)
 
     print(f"\n{'=' * 72}")
     print("ENTITY VALIDATION REPORT")

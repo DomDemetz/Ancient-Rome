@@ -2615,6 +2615,14 @@
     "t": "aqueduct",
     "la": 45.764,
     "lo": 4.8357,
+    "s": 50
+  },
+  {
+    "k": "aqueduct:aq-lyon-yzeron",
+    "n": "Aqueduct of the Yzeron",
+    "t": "aqueduct",
+    "la": 45.764,
+    "lo": 4.8357,
     "s": -50,
     "e": 500
   },
@@ -10644,6 +10652,16 @@
     "st": "theater",
     "s": -330,
     "e": -30
+  },
+  {
+    "k": "building:209814686",
+    "n": "Forum of Carsulae",
+    "t": "building",
+    "la": 42.6399,
+    "lo": 12.5575,
+    "st": "forum",
+    "s": -30,
+    "e": 300
   },
   {
     "k": "building:210536349",
@@ -22764,7 +22782,7 @@
     "la": 41.9121,
     "lo": 12.4798,
     "st": "villa",
-    "s": -100,
+    "s": -30,
     "e": 1500
   },
   {
@@ -31208,6 +31226,16 @@
     "st": "basilica",
     "s": 300,
     "e": 640
+  },
+  {
+    "k": "building:609570",
+    "n": "Yazılıkaya (Eskişehir)",
+    "t": "building",
+    "la": 39.1976,
+    "lo": 30.7112,
+    "st": "temple",
+    "s": -800,
+    "e": 1500
   },
   {
     "k": "building:609575",
@@ -42884,8 +42912,8 @@
     "la": 41.9353,
     "lo": 12.7795,
     "st": "theater",
-    "s": -100,
-    "e": 500
+    "s": -30,
+    "e": 300
   },
   {
     "k": "building:900336440",
@@ -44424,8 +44452,8 @@
     "la": 51.9166,
     "lo": 1.2304,
     "st": "villa",
-    "s": -100,
-    "e": 500
+    "s": 43,
+    "e": 410
   },
   {
     "k": "building:952084",
@@ -44666,6 +44694,16 @@
     "st": "circus",
     "s": -30,
     "e": 640
+  },
+  {
+    "k": "building:960592956",
+    "n": "Roman amphitheater at Carsulae",
+    "t": "building",
+    "la": 42.6395,
+    "lo": 12.5592,
+    "st": "amphitheater",
+    "s": -30,
+    "e": 300
   },
   {
     "k": "building:960638411",
@@ -83510,6 +83548,24 @@
     "e": 500
   },
   {
+    "k": "pleiades:423126",
+    "n": "Villa Esmeade",
+    "t": "villa",
+    "la": 41.9121,
+    "lo": 12.4798,
+    "s": -100,
+    "e": 500
+  },
+  {
+    "k": "pleiades:423127",
+    "n": "Villa Hadriani",
+    "t": "villa",
+    "la": 41.9415,
+    "lo": 12.7761,
+    "s": -100,
+    "e": 500
+  },
+  {
     "k": "pleiades:423130",
     "n": "Villa Muti",
     "t": "villa",
@@ -99030,6 +99086,15 @@
     "e": 500
   },
   {
+    "k": "pleiades:79376",
+    "n": "Car Colston",
+    "t": "villa",
+    "la": 52.9767,
+    "lo": -0.9331,
+    "s": 51,
+    "e": 500
+  },
+  {
     "k": "pleiades:79377",
     "n": "Carsington",
     "t": "villa",
@@ -99471,6 +99536,15 @@
     "e": 500
   },
   {
+    "k": "pleiades:79495",
+    "n": "Guilden Morden",
+    "t": "villa",
+    "la": 52.0808,
+    "lo": -0.1329,
+    "s": 51,
+    "e": 500
+  },
+  {
     "k": "pleiades:79497",
     "n": "Haceby",
     "t": "villa",
@@ -99531,6 +99605,15 @@
     "la": 50.8179,
     "lo": -0.9784,
     "s": -100
+  },
+  {
+    "k": "pleiades:79505",
+    "n": "Helpston",
+    "t": "villa",
+    "la": 52.6353,
+    "lo": -0.3429,
+    "s": 51,
+    "e": 500
   },
   {
     "k": "pleiades:79506",
@@ -99718,6 +99801,15 @@
     "t": "villa",
     "la": 50.9332,
     "lo": -2.5421,
+    "s": 51,
+    "e": 500
+  },
+  {
+    "k": "pleiades:79563",
+    "n": "Lidgate",
+    "t": "villa",
+    "la": 52.1912,
+    "lo": 0.5189,
     "s": 51,
     "e": 500
   },
@@ -100325,6 +100417,15 @@
     "e": 500
   },
   {
+    "k": "pleiades:79715",
+    "n": "Tingewick",
+    "t": "villa",
+    "la": 51.9904,
+    "lo": -1.048,
+    "s": 51,
+    "e": 500
+  },
+  {
     "k": "pleiades:79716",
     "n": "Tixover",
     "t": "villa",
@@ -100368,6 +100469,15 @@
     "lo": 0.3223,
     "s": 43,
     "e": 400
+  },
+  {
+    "k": "pleiades:79743",
+    "n": "Walesby",
+    "t": "villa",
+    "la": 53.4155,
+    "lo": -0.2956,
+    "s": 51,
+    "e": 500
   },
   {
     "k": "pleiades:79745",
@@ -104495,6 +104605,15 @@
     "lo": 8.7603,
     "s": -600,
     "e": 400
+  },
+  {
+    "k": "pleiades:950859523",
+    "n": "Little Oakley Roman villa",
+    "t": "villa",
+    "la": 51.9166,
+    "lo": 1.2304,
+    "s": -100,
+    "e": 500
   },
   {
     "k": "pleiades:952037562",
@@ -127021,6 +127140,16 @@
     "e": 476
   },
   {
+    "k": "port:apa-misenos-misenum-misene-home-port-of-clas-1572",
+    "n": "Misenos, Misenum, Misene, home port of Classis Misenensis fleet as from 12 BC",
+    "t": "port",
+    "la": 40.79,
+    "lo": 14.085,
+    "st": "major_port",
+    "s": -200,
+    "e": 476
+  },
+  {
     "k": "port:apa-misenos-misenum-misene-inner-harbour-1573",
     "n": "Misenos, Misenum, Misene, Inner harbour",
     "t": "port",
@@ -138281,6 +138410,16 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-37-09-25-16-3056",
+    "n": "Port at 37.09, 25.16",
+    "t": "port",
+    "la": 37.0889,
+    "lo": 25.1554,
+    "st": "harbour",
+    "s": -200,
+    "e": 476
+  },
+  {
     "k": "port:apa-port-at-37-09-25-34-3062",
     "n": "Port at 37.09, 25.34",
     "t": "port",
@@ -138408,6 +138547,16 @@
     "lo": 24.4269,
     "st": "harbour",
     "s": -600,
+    "e": 476
+  },
+  {
+    "k": "port:apa-port-at-37-13-25-21-3042",
+    "n": "Port at 37.13, 25.21",
+    "t": "port",
+    "la": 37.127,
+    "lo": 25.2092,
+    "st": "harbour",
+    "s": -200,
     "e": 476
   },
   {
@@ -141496,6 +141645,16 @@
     "t": "port",
     "la": 39.6138,
     "lo": 15.848,
+    "st": "harbour",
+    "s": -200,
+    "e": 476
+  },
+  {
+    "k": "port:apa-port-at-39-65-19-85-2905",
+    "n": "Port at 39.65, 19.85",
+    "t": "port",
+    "la": 39.6541,
+    "lo": 19.849,
     "st": "harbour",
     "s": -200,
     "e": 476
@@ -144898,6 +145057,16 @@
     "lo": 6.654,
     "st": "harbour",
     "s": -300,
+    "e": 476
+  },
+  {
+    "k": "port:apa-port-at-43-19-16-43-2227",
+    "n": "Port at 43.19, 16.43",
+    "t": "port",
+    "la": 43.1903,
+    "lo": 16.4279,
+    "st": "harbour",
+    "s": -200,
     "e": 476
   },
   {
@@ -169096,6 +169265,16 @@
     "t": "religious-site",
     "la": 45.8523,
     "lo": 4.5837,
+    "st": "temple",
+    "s": 50,
+    "e": 50
+  },
+  {
+    "k": "religion:167707",
+    "n": "Chalencon",
+    "t": "religious-site",
+    "la": 44.8785,
+    "lo": 4.575,
     "st": "temple",
     "s": 50,
     "e": 50

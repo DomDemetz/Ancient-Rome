@@ -766,6 +766,18 @@
     "label": "Temple of Apollo Lepsios"
   },
   {
+    "qid": "Q1344739",
+    "keys": [
+      "port:apa-alexandria-megas-limen-portus-magnus-and-5517",
+      "port:apa-alexandria-megas-limen-portus-magnus-por-5520",
+      "port:apa-alexandria-megas-limen-portus-magnus-rom-5524",
+      "port:apa-port-at-31-15-29-85-5529",
+      "port:apa-port-at-31-22-29-91-5515",
+      "port:apa-port-at-31-22-29-92-5514"
+    ],
+    "label": "Alexandria Port"
+  },
+  {
     "qid": "Q134532326",
     "keys": ["pleiades:422949", "religion:422949"],
     "label": "Sanctuary of Jupiter Latiaris"
@@ -1069,11 +1081,6 @@
     "label": "Görresburg"
   },
   {
-    "qid": "Q1566744",
-    "keys": ["building:609290", "building:609570"],
-    "label": "Yazılı"
-  },
-  {
     "qid": "Q1577089",
     "keys": ["building:335307374", "religion:rel-189", "pleiades:158658817"],
     "label": "Dura-Europos synagogue"
@@ -1257,11 +1264,6 @@
     "label": "Woodeaton Cross"
   },
   {
-    "qid": "Q17640469",
-    "keys": ["building:423126", "pleiades:423126"],
-    "label": "Villa Lubin"
-  },
-  {
     "qid": "Q17641996",
     "keys": ["building:79581", "pleiades:79581"],
     "label": "Roman villa at Lufton"
@@ -1302,6 +1304,11 @@
     "label": "Romano-Celtic temple complex 385m west of Long Common"
   },
   {
+    "qid": "Q17664452",
+    "keys": ["port:apa-port-at-51-67-2-64-303", "port:apa-port-at-51-69-2-58-301"],
+    "label": "Roman Villa at Clearwell Farm"
+  },
+  {
     "qid": "Q17671755",
     "keys": ["building:89158", "pleiades:89158"],
     "label": "Dalton Parlours Roman villa and Iron Age settlement"
@@ -1325,6 +1332,17 @@
     "qid": "Q1794981",
     "keys": ["pleiades:87367170", "religion:87367170"],
     "label": "Fossa Sanguinis"
+  },
+  {
+    "qid": "Q1798768",
+    "keys": [
+      "port:apa-port-at-36-34-5-26-727",
+      "port:apa-port-at-36-35-5-23-728",
+      "port:apa-port-at-36-37-5-23-729",
+      "port:apa-port-at-36-38-5-21-731",
+      "port:apa-port-at-36-40-5-19-732"
+    ],
+    "label": "Duquesa Port"
   },
   {
     "qid": "Q1806561",
@@ -1416,11 +1434,6 @@
     "qid": "Q1969432",
     "keys": ["religion:304492393", "pleiades:304492393"],
     "label": "Almendres Cromlech"
-  },
-  {
-    "qid": "Q1987694",
-    "keys": ["building:79495", "pleiades:79495"],
-    "label": "Guilden Morden"
   },
   {
     "qid": "Q1991217",
@@ -1517,6 +1530,20 @@
     "label": "Temple of Baalshamin"
   },
   {
+    "qid": "Q20924967",
+    "keys": [
+      "port:apa-port-at-35-83-14-53-1864",
+      "port:apa-port-at-35-84-14-55-1863",
+      "port:apa-port-at-35-86-14-57-1862",
+      "port:apa-port-at-35-88-14-50-1859",
+      "port:apa-port-at-35-88-14-52-1860",
+      "port:apa-port-at-35-90-14-50-1857",
+      "port:apa-port-at-35-92-14-50-1856",
+      "port:apa-port-at-35-93-14-49-1855"
+    ],
+    "label": null
+  },
+  {
     "qid": "Q2095195",
     "keys": ["religion:rel-129", "religion:rel-132"],
     "label": "Santa Maria ai Monti"
@@ -1595,11 +1622,6 @@
     "qid": "Q2177952",
     "keys": ["pleiades:674925422", "religion:674925422"],
     "label": "Ruweiha"
-  },
-  {
-    "qid": "Q2207906",
-    "keys": ["building:79743", "pleiades:79743"],
-    "label": "Walesby"
   },
   {
     "qid": "Q2261709",
@@ -1794,9 +1816,54 @@
     "label": "Sanctuary of Apollo Korythos"
   },
   {
+    "qid": "Q25166561",
+    "keys": [
+      "port:apa-port-at-36-93-24-70-3033",
+      "port:apa-port-at-36-97-24-67-3034",
+      "port:apa-port-at-36-99-24-69-3035",
+      "port:apa-port-at-37-02-24-69-3028"
+    ],
+    "label": "Sifnos Port"
+  },
+  {
+    "qid": "Q25166563",
+    "keys": [
+      "port:apa-kallisti-port-of-thira-3118",
+      "port:apa-oea-oia-port-of-thira-3116",
+      "port:apa-port-at-36-40-25-48-3115"
+    ],
+    "label": "Santorini Port"
+  },
+  {
+    "qid": "Q25166851",
+    "keys": ["port:apa-port-at-36-58-26-39-3127", "port:apa-port-at-36-62-26-40-3126"],
+    "label": "Astypalea Port"
+  },
+  {
     "qid": "Q25168395",
     "keys": ["port:apa-port-at-37-09-25-81-3070", "port:apa-donusa-insula-3069"],
     "label": "Donoussa Port"
+  },
+  {
+    "qid": "Q25168407",
+    "keys": [
+      "port:apa-pohon-pogon-pogonus-port-of-troizen-dama-2754",
+      "port:apa-port-at-37-49-23-47-2759",
+      "port:apa-port-at-37-50-23-42-2755",
+      "port:apa-port-at-37-52-23-51-2757"
+    ],
+    "label": "Poros Port"
+  },
+  {
+    "qid": "Q25168413",
+    "keys": [
+      "port:apa-mytilene-maloenta-commercial-port-3162",
+      "port:apa-port-at-39-05-26-53-3166",
+      "port:apa-port-at-39-07-26-53-3167",
+      "port:apa-port-at-39-10-26-51-3168",
+      "port:apa-port-at-39-10-26-56-3164"
+    ],
+    "label": "Mytilene Port"
   },
   {
     "qid": "Q2525951",
@@ -1839,9 +1906,20 @@
     "label": "Temple of Hercules"
   },
   {
-    "qid": "Q26282994",
-    "keys": ["building:79563", "pleiades:79563"],
-    "label": "Lidgate Stores"
+    "qid": "Q26224641",
+    "keys": ["port:apa-port-at-42-65-18-09-2272", "port:apa-port-at-42-67-18-12-2271"],
+    "label": "Dubrovnik Port"
+  },
+  {
+    "qid": "Q26224647",
+    "keys": [
+      "port:apa-port-at-45-06-13-62-2062",
+      "port:apa-port-at-45-06-13-67-2063",
+      "port:apa-port-at-45-10-13-63-2060",
+      "port:apa-port-at-45-12-13-62-2059",
+      "port:apa-ruginium-2061"
+    ],
+    "label": "Rovinj Port"
   },
   {
     "qid": "Q2653546",
@@ -1859,11 +1937,6 @@
     "label": "Gerf Hussein"
   },
   {
-    "qid": "Q2686792",
-    "keys": ["building:79505", "pleiades:79505"],
-    "label": "Helpston"
-  },
-  {
     "qid": "Q269424",
     "keys": ["press:press-006", "building:pleiades-208943256", "building:pleiades-208943280"],
     "label": "Uthina"
@@ -1872,11 +1945,6 @@
     "qid": "Q2699249",
     "keys": ["pleiades:780913480", "religion:rel-066"],
     "label": "Temple of Apollo"
-  },
-  {
-    "qid": "Q272777",
-    "keys": ["building:899795549", "pleiades:423127"],
-    "label": "Hadrian's Villa"
   },
   {
     "qid": "Q2743152",
@@ -1960,12 +2028,7 @@
   },
   {
     "qid": "Q28978088",
-    "keys": [
-      "amphitheater:carsulae",
-      "building:600795755",
-      "building:209814686",
-      "building:960592956"
-    ],
+    "keys": ["amphitheater:carsulae", "building:960592956"],
     "label": "Carsulae amphitheatre"
   },
   {
@@ -2068,6 +2131,11 @@
     "label": "Ramappa Temple"
   },
   {
+    "qid": "Q3398448",
+    "keys": ["port:apa-port-at-47-47-3-10-1037", "port:apa-port-at-47-58-3-10-1035"],
+    "label": "Port d'Orange"
+  },
+  {
     "qid": "Q343053",
     "keys": ["pleiades:75740664", "religion:75740664"],
     "label": "Ħaġar Qim"
@@ -2086,6 +2154,22 @@
     "qid": "Q3485401",
     "keys": ["building:766624229", "mine:766624229"],
     "label": "Fontaines Salées archeological site"
+  },
+  {
+    "qid": "Q34964780",
+    "keys": ["port:apa-port-at-43-36-6-72-1213", "port:apa-port-at-43-40-6-71-1214"],
+    "label": "Port Férréol"
+  },
+  {
+    "qid": "Q34966015",
+    "keys": [
+      "port:apa-access-to-portus-iulius-julius-port-of-j-1587",
+      "port:apa-nesis-odysseus-port-of-the-cyclops-1593",
+      "port:apa-port-at-40-78-14-08-1570",
+      "port:apa-port-at-40-79-14-09-1571",
+      "port:apa-port-at-40-82-14-08-1586"
+    ],
+    "label": "Pozzuoli Port"
   },
   {
     "qid": "Q3517517",
@@ -2241,6 +2325,11 @@
     "qid": "Q3683400",
     "keys": ["pleiades:541774889", "pleiades:384365956"],
     "label": "Constantinian Columbarium"
+  },
+  {
+    "qid": "Q3693378",
+    "keys": ["port:apa-hylla-kos-hyllos-corcyra-2910", "port:apa-kerkyra-corcyra-2907"],
+    "label": "Corcyra"
   },
   {
     "qid": "Q3695259",
@@ -2529,11 +2618,6 @@
     "label": "Paromeos Monastery"
   },
   {
-    "qid": "Q41744367",
-    "keys": ["building:167707", "religion:167707"],
-    "label": "Église Saint-Pierre de Chalencon"
-  },
-  {
     "qid": "Q42597225",
     "keys": ["building:560130184", "pleiades:560130184"],
     "label": "Roman villas of Carthage"
@@ -2702,11 +2786,6 @@
     "qid": "Q50148",
     "keys": ["pleiades:433109", "religion:433109"],
     "label": "Scanno"
-  },
-  {
-    "qid": "Q5037215",
-    "keys": ["building:79376", "pleiades:79376"],
-    "label": "Car Colston"
   },
   {
     "qid": "Q5049978",
@@ -2914,6 +2993,11 @@
     "label": "Temple of Jupiter Optimus Maximus"
   },
   {
+    "qid": "Q59116",
+    "keys": ["port:apa-port-at-40-63-14-35-1615", "port:apa-port-at-40-65-14-40-1612"],
+    "label": "Sorrento Peninsula"
+  },
+  {
     "qid": "Q60792068",
     "keys": ["pleiades:570302", "religion:570302"],
     "label": "Hyperteleaton"
@@ -3069,11 +3153,6 @@
     "label": "Ruínas romanas de São João do Campo"
   },
   {
-    "qid": "Q672771",
-    "keys": ["building:950859523", "pleiades:950859523"],
-    "label": "Little Oakley"
-  },
-  {
     "qid": "Q680236",
     "keys": ["pleiades:187384", "religion:187384"],
     "label": "Forggensee"
@@ -3156,11 +3235,6 @@
     "qid": "Q740076",
     "keys": ["building:514403427", "religion:514403427"],
     "label": "Nea Moni of Chios"
-  },
-  {
-    "qid": "Q740932",
-    "keys": ["building:79715", "pleiades:79715"],
-    "label": "Tingewick"
   },
   {
     "qid": "Q7415721",

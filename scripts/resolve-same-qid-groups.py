@@ -120,10 +120,16 @@ def main():
                 plan["demote"].append({"key": k, "qid": qid, "label": g.get("label"),
                                        "why": f"pure settlement QID on '{kind_of(k)}' record"})
         if len(bearers) >= 2:
-            # sanity: bearers of one entity sit together
+            # sanity: bearers of one entity sit together — but "together" is
+            # kind-relative: harbor systems span a bay (Alexandria's Portus
+            # Magnus ~10 km), aqueducts are linear (the Gier runs 85 km),
+            # point-like structures should nearly coincide.
+            SPREAD_CAP = {"port": 15.0, "aqueduct": 60.0}
+            kinds = {kind_of(k) for k in bearers}
+            cap = SPREAD_CAP.get(next(iter(kinds)), 3.0) if len(kinds) == 1 else 3.0
             pts = [coords[k] for k in bearers if k in coords]
             spread = max((km(a, b) for a in pts for b in pts), default=0)
-            if spread <= 3:
+            if spread <= cap:
                 plan["merge"].append({"qid": qid, "keys": bearers,
                                       "label": g.get("label")})
             else:
