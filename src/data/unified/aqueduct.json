@@ -10,8 +10,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "First aqueduct of Rome, built during the Samnite Wars. Ran almost entirely underground from springs east of Rome.",
-    "props": { "length": 16.4, "builder": "Appius Claudius Caecus", "cityServed": "Roma" },
-    "qid": "Q548614"
+    "props": { "length": 16.4, "builder": "Appius Claudius Caecus", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-anio-vetus",
@@ -56,8 +55,7 @@
       "length": 18,
       "builder": "Cn. Servilius Caepio & L. Cassius Longinus",
       "cityServed": "Roma"
-    },
-    "qid": "Q548614"
+    }
   },
   {
     "id": "aqueduct:aq-aqua-julia",
@@ -70,8 +68,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Built by Agrippa, carried on the same arcade as the Tepula and Marcia. Part of Agrippa's massive water infrastructure program.",
-    "props": { "length": 22.9, "builder": "Marcus Agrippa", "cityServed": "Roma" },
-    "qid": "Q616271"
+    "props": { "length": 22.9, "builder": "Marcus Agrippa", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-aqua-virgo",
@@ -126,8 +123,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Highest-capacity of Rome's aqueducts, sharing arcades with the Aqua Claudia. Drew water from the upper Anio valley.",
-    "props": { "length": 86.9, "builder": "Claudius (begun by Caligula)", "cityServed": "Roma" },
-    "qid": "Q548614"
+    "props": { "length": 86.9, "builder": "Claudius (begun by Caligula)", "cityServed": "Roma" }
   },
   {
     "id": "aqueduct:aq-aqua-traiana",
@@ -168,7 +164,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Iconic three-tiered aqueduct bridge crossing the Gardon river. Among the best-preserved Roman structures. UNESCO World Heritage Site.",
-    "props": { "length": 50, "builder": "Marcus Agrippa", "cityServed": "Nemausus (N\u00eemes)" }
+    "props": { "length": 50, "builder": "Marcus Agrippa", "cityServed": "Nemausus (Nîmes)" }
   },
   {
     "id": "aqueduct:aq-segovia",
@@ -255,14 +251,14 @@
   {
     "id": "aqueduct:aq-lyon-brevenne",
     "type": "aqueduct",
-    "name": "Aqueduct of the Br\u00e9venne",
+    "name": "Aqueduct of the Brévenne",
     "lat": 45.764,
     "lng": 4.8357,
     "startYear": -20,
     "endYear": 0,
     "source": "APRA",
     "category": "infrastructure",
-    "description": "Second of Lyon's four aqueducts, drawing water from the Br\u00e9venne valley northwest of the city.",
+    "description": "Second of Lyon's four aqueducts, drawing water from the Brévenne valley northwest of the city.",
     "props": { "length": 66, "cityServed": "Lugdunum (Lyon)" },
     "qid": "Q3067"
   },
@@ -318,7 +314,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "One of three aqueducts serving the Lusitanian capital. The Cornalvo dam and reservoir are still in use today.",
-    "props": { "length": 16, "builder": "Augustus", "cityServed": "Augusta Emerita (M\u00e9rida)" }
+    "props": { "length": 16, "builder": "Augustus", "cityServed": "Augusta Emerita (Mérida)" }
   },
   {
     "id": "aqueduct:aq-merida-proserpina",
@@ -330,8 +326,8 @@
     "endYear": 0,
     "source": "wikipedia",
     "category": "infrastructure",
-    "description": "Supplied by the Proserpina dam, one of the best-preserved Roman dams. Fed the monumental fountains and baths of M\u00e9rida.",
-    "props": { "length": 12, "builder": "Augustus", "cityServed": "Augusta Emerita (M\u00e9rida)" }
+    "description": "Supplied by the Proserpina dam, one of the best-preserved Roman dams. Fed the monumental fountains and baths of Mérida.",
+    "props": { "length": 12, "builder": "Augustus", "cityServed": "Augusta Emerita (Mérida)" }
   },
   {
     "id": "aqueduct:aq-merida-milagros",
@@ -344,7 +340,7 @@
     "source": "wikipedia",
     "category": "infrastructure",
     "description": "Impressive three-tiered aqueduct bridge crossing the Albarregas valley. Known as 'The Miracles' for its survival. 38 meters tall.",
-    "props": { "length": 5, "cityServed": "Augusta Emerita (M\u00e9rida)" }
+    "props": { "length": 5, "cityServed": "Augusta Emerita (Mérida)" }
   },
   {
     "id": "aqueduct:aq-aspendos",
@@ -564,7 +560,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the important naval base of Forum Julii in Gallia Narbonensis, with well-preserved arcaded sections.",
-    "props": { "length": 42, "builder": "Augustus", "cityServed": "Forum Julii (Fr\u00e9jus)" }
+    "props": { "length": 42, "builder": "Augustus", "cityServed": "Forum Julii (Fréjus)" }
   },
   {
     "id": "aqueduct:aq-arles",
@@ -752,7 +748,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Long aqueduct bringing water from the Sierra de las Cabras to the island city of Gades, one of the longest in Hispania.",
-    "props": { "length": 75, "builder": "Agrippa/Augustus", "cityServed": "Gades (C\u00e1diz)" },
+    "props": { "length": 75, "builder": "Agrippa/Augustus", "cityServed": "Gades (Cádiz)" },
     "qid": "Q22969919"
   },
   {
@@ -1271,20 +1267,20 @@
   {
     "id": "aqueduct:aq-tarragona-2",
     "type": "aqueduct",
-    "name": "Aqueduct of Francol\u00ed (Tarragona)",
+    "name": "Aqueduct of Francolí (Tarragona)",
     "lat": 41.1167,
     "lng": 1.25,
     "startYear": 80,
     "endYear": 0,
     "source": "APRA",
     "category": "infrastructure",
-    "description": "Second aqueduct at Tarraco drawing from the Francol\u00ed river, supplementing the earlier Pont del Diable supply.",
+    "description": "Second aqueduct at Tarraco drawing from the Francolí river, supplementing the earlier Pont del Diable supply.",
     "props": { "length": 15, "cityServed": "Tarraco" }
   },
   {
     "id": "aqueduct:aq-cordoba",
     "type": "aqueduct",
-    "name": "Aqua Vetus (C\u00f3rdoba)",
+    "name": "Aqua Vetus (Córdoba)",
     "lat": 37.8882,
     "lng": -4.7794,
     "startYear": -150,
@@ -1292,12 +1288,12 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Early aqueduct serving the Republican-era provincial capital of Hispania Ulterior from Sierra Morena springs.",
-    "props": { "cityServed": "Corduba (C\u00f3rdoba)" }
+    "props": { "cityServed": "Corduba (Córdoba)" }
   },
   {
     "id": "aqueduct:aq-cordoba-2",
     "type": "aqueduct",
-    "name": "Aqua Nova (C\u00f3rdoba)",
+    "name": "Aqua Nova (Córdoba)",
     "lat": 37.8882,
     "lng": -4.7794,
     "startYear": -20,
@@ -1305,12 +1301,12 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Augustan aqueduct expanding water supply to the Baetica capital, feeding the new imperial forum and baths.",
-    "props": { "length": 18, "builder": "Augustus", "cityServed": "Corduba (C\u00f3rdoba)" }
+    "props": { "length": 18, "builder": "Augustus", "cityServed": "Corduba (Córdoba)" }
   },
   {
     "id": "aqueduct:aq-merida-rabo-buey",
     "type": "aqueduct",
-    "name": "Rabo de Buey Aqueduct (M\u00e9rida)",
+    "name": "Rabo de Buey Aqueduct (Mérida)",
     "lat": 38.9167,
     "lng": -6.3333,
     "startYear": 100,
@@ -1318,7 +1314,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Underground conduit aqueduct from the Rabo de Buey springs, a less-known fourth water supply for the Lusitanian capital.",
-    "props": { "cityServed": "Augusta Emerita (M\u00e9rida)" }
+    "props": { "cityServed": "Augusta Emerita (Mérida)" }
   },
   {
     "id": "aqueduct:aq-conimbriga",
@@ -1878,8 +1874,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Roman-era expansion of Alexandria's canal-fed water system, supplementing the city's famous underground cisterns.",
-    "props": { "builder": "Augustus", "cityServed": "Alexandria" },
-    "qid": "Q3485805"
+    "props": { "builder": "Augustus", "cityServed": "Alexandria" }
   },
   {
     "id": "aqueduct:aq-cyrene",
@@ -1917,8 +1912,8 @@
     "endYear": 0,
     "source": "APRA",
     "category": "infrastructure",
-    "description": "Second aqueduct at N\u00eemes from nearby springs, supplementing the famous Pont du Gard supply for the growing colony.",
-    "props": { "length": 20, "cityServed": "Nemausus (N\u00eemes)" }
+    "description": "Second aqueduct at Nîmes from nearby springs, supplementing the famous Pont du Gard supply for the growing colony.",
+    "props": { "length": 20, "cityServed": "Nemausus (Nîmes)" }
   },
   {
     "id": "aqueduct:aq-vienne",
@@ -1930,7 +1925,7 @@
     "endYear": 0,
     "source": "APRA",
     "category": "infrastructure",
-    "description": "Aqueduct serving the major Gallic city of Vienne on the Rh\u00f4ne, rival of Lyon, from eastern hill springs.",
+    "description": "Aqueduct serving the major Gallic city of Vienne on the Rhône, rival of Lyon, from eastern hill springs.",
     "props": { "length": 12, "cityServed": "Vienna Allobrogum (Vienne)" }
   },
   {
@@ -1944,7 +1939,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct supplying the central Hispanian city of Complutum from springs in the Henares valley.",
-    "props": { "length": 30, "cityServed": "Complutum (Alcal\u00e1 de Henares)" },
+    "props": { "length": 30, "cityServed": "Complutum (Alcalá de Henares)" },
     "qid": "Q3485393"
   },
   {
@@ -1984,7 +1979,7 @@
     "source": "APRA",
     "category": "infrastructure",
     "description": "Aqueduct serving the major highland colony of Sitifis in Mauretania Sitifensis, later a provincial capital.",
-    "props": { "cityServed": "Sitifis (S\u00e9tif)" }
+    "props": { "cityServed": "Sitifis (Sétif)" }
   },
   {
     "id": "aqueduct:aq-constantine",
@@ -2092,7 +2087,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "One of five Roman-era aqueducts known from Sexi (modern Almu\u00f1\u00e9car, Spain). This one is represented by an extant aqueduct bridge located near the source of the Rio Verde, north of Sexi.",
+    "description": "One of five Roman-era aqueducts known from Sexi (modern Almuñécar, Spain). This one is represented by an extant aqueduct bridge located near the source of the Rio Verde, north of Sexi.",
     "estimatedTemporal": true
   },
   {
@@ -2124,14 +2119,14 @@
   {
     "id": "pleiades:266523",
     "type": "aqueduct",
-    "name": "Aqueduct at Pe\u00f1a Cortada",
+    "name": "Aqueduct at Peña Cortada",
     "lat": 39.74946645,
     "lng": -0.96807105,
     "startYear": -300,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 27 D2 unnamed aqueduct (Pe\u00f1a Cortada, E Barranca de S. Filomena)",
+    "description": "An ancient place, cited: BAtlas 27 D2 unnamed aqueduct (Peña Cortada, E Barranca de S. Filomena)",
     "estimatedTemporal": true
   },
   {
@@ -2223,13 +2218,13 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 30 C3 unnamed aqueduct (Oued M\u00e9lah, at Gunugu)",
+    "description": "An ancient place, cited: BAtlas 30 C3 unnamed aqueduct (Oued Mélah, at Gunugu)",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:295964",
     "type": "aqueduct",
-    "name": "Aqueduct N of Trois \u00celots",
+    "name": "Aqueduct N of Trois Îlots",
     "lat": 36.75,
     "lng": 2.25,
     "startYear": -300,
@@ -2282,7 +2277,7 @@
   {
     "id": "pleiades:148738",
     "type": "aqueduct",
-    "name": "N\u00eemes aqueduct",
+    "name": "Nîmes aqueduct",
     "lat": 43.95230677881451,
     "lng": 4.528516366982,
     "startYear": -300,
@@ -2322,7 +2317,7 @@
   {
     "id": "pleiades:148741",
     "type": "aqueduct",
-    "name": "Aqueduct N of Ch\u00e2teau-Bas",
+    "name": "Aqueduct N of Château-Bas",
     "lat": 43.75,
     "lng": 5.25,
     "startYear": -300,
@@ -2578,7 +2573,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 56 E5 unnamed aqueduct (Aqua Traiana, at Ak P\u0131nar)",
+    "description": "An ancient place, cited: BAtlas 56 E5 unnamed aqueduct (Aqua Traiana, at Ak Pınar)",
     "estimatedTemporal": true
   },
   {
@@ -2760,7 +2755,7 @@
   {
     "id": "pleiades:639492",
     "type": "aqueduct",
-    "name": "Aqueduct at \u00c4u\u00dferer Westtaurus",
+    "name": "Aqueduct at Äußerer Westtaurus",
     "lat": 37.25,
     "lng": 30.25,
     "startYear": -300,
@@ -2832,7 +2827,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman aqueduct with an inverted siphon. It carried water some 19 km to Aspendos with sources at the G\u00f6k\u00e7epinar and the Pinarbas spring.",
+    "description": "A Roman aqueduct with an inverted siphon. It carried water some 19 km to Aspendos with sources at the Gökçepinar and the Pinarbas spring.",
     "estimatedTemporal": true,
     "qid": "Q633757"
   },
@@ -3144,7 +3139,7 @@
   {
     "id": "pleiades:266382050",
     "type": "aqueduct",
-    "name": "La L\u00f4ne arcade, Nimes aqueduct",
+    "name": "La Lône arcade, Nimes aqueduct",
     "lat": 43.960167399999996,
     "lng": 4.532633599999999,
     "startYear": -300,
@@ -3183,7 +3178,7 @@
   {
     "id": "pleiades:678749",
     "type": "aqueduct",
-    "name": "Aqueduct at Na\u1e25al Yardinon",
+    "name": "Aqueduct at Naḥal Yardinon",
     "lat": 33.25,
     "lng": 35.25,
     "startYear": -300,
@@ -3196,7 +3191,7 @@
   {
     "id": "pleiades:678750",
     "type": "aqueduct",
-    "name": "Aqueduct at \u1e24i\u1e6d\u1e6d\u012bn",
+    "name": "Aqueduct at Ḥiṭṭīn",
     "lat": 32.75,
     "lng": 35.25,
     "startYear": -300,
@@ -3222,7 +3217,7 @@
   {
     "id": "pleiades:678756",
     "type": "aqueduct",
-    "name": "Aqueduct at \u02bf\u0102ful\u0227",
+    "name": "Aqueduct at ʿĂfulȧ",
     "lat": 32.25,
     "lng": 35.25,
     "startYear": -300,
@@ -3656,7 +3651,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "One of five aqueducts known from Roman-era Sexi. This one is represented by an aqueduct bridge whose extant remains parallel the SO-02 between the Ctra. de M\u00e1laga - Velilla and the Carrera de la Concepcion in modern Almu\u00f1\u00e9car, Spain. ",
+    "description": "One of five aqueducts known from Roman-era Sexi. This one is represented by an aqueduct bridge whose extant remains parallel the SO-02 between the Ctra. de Málaga - Velilla and the Carrera de la Concepcion in modern Almuñécar, Spain. ",
     "estimatedTemporal": true
   },
   {
@@ -3897,7 +3892,7 @@
   {
     "id": "pleiades:424314",
     "type": "aqueduct",
-    "name": "Aqueduct at Muraccio dell\u2019Omo",
+    "name": "Aqueduct at Muraccio dell’Omo",
     "lat": 41.875,
     "lng": 12.625,
     "startYear": -300,
@@ -4111,7 +4106,7 @@
   {
     "id": "pleiades:244926839",
     "type": "aqueduct",
-    "name": "Pont de Born\u00e8gre",
+    "name": "Pont de Bornègre",
     "lat": 43.98380405,
     "lng": 4.47583915,
     "startYear": -300,
@@ -4119,7 +4114,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q571418",
-    "description": "A Roman aqueduct bridge connected to the Roman aqueduct of N\u00eemes.",
+    "description": "A Roman aqueduct bridge connected to the Roman aqueduct of Nîmes.",
     "estimatedTemporal": true
   },
   {
@@ -4288,7 +4283,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 67 H1 unnamed aqueduct (Samosata, along W bank of K\u00e2hta \u00c7ay and N bank of Euphrates)",
+    "description": "An ancient place, cited: BAtlas 67 H1 unnamed aqueduct (Samosata, along W bank of Kâhta Çay and N bank of Euphrates)",
     "estimatedTemporal": true
   },
   {
@@ -4379,7 +4374,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 66 C3 unnamed aqueduct (Da\u011fpazar\u0131)",
+    "description": "An ancient place, cited: BAtlas 66 C3 unnamed aqueduct (Dağpazarı)",
     "estimatedTemporal": true
   },
   {
@@ -4644,9 +4639,9 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The longest and most recently-constructed Roman aqueduct in the province of Asia, measuring 36.5 km from its source in the hills south of Ephesus to the metropolis itself. The aqueduct was first commissioned by the emperor Hadrian in 122-126, and it portions of it remained in use into the medieval period. In modern times, it is known as the De\u011firmendere Aqueduct, after the nearby Kenchrios river (modern De\u011firmendere).",
+    "description": "The longest and most recently-constructed Roman aqueduct in the province of Asia, measuring 36.5 km from its source in the hills south of Ephesus to the metropolis itself. The aqueduct was first commissioned by the emperor Hadrian in 122-126, and it portions of it remained in use into the medieval period. In modern times, it is known as the Değirmendere Aqueduct, after the nearby Kenchrios river (modern Değirmendere).",
     "props": {
-      "ancientName": "De\u011firmendere aqueduct, De\u011firmendere Aqu\u00e4dukt, Deirmendere aqueduct"
+      "ancientName": "Değirmendere aqueduct, Değirmendere Aquädukt, Deirmendere aqueduct"
     },
     "estimatedTemporal": true,
     "qid": "Q64699469"
@@ -4826,15 +4821,15 @@
   {
     "id": "pleiades:345037",
     "type": "aqueduct",
-    "name": "W\u0101d\u012b Ki\u2018\u0101m Aqueduct (Lepcis)",
+    "name": "Wādī Ki‘ām Aqueduct (Lepcis)",
     "lat": 32.636101835243494,
     "lng": 14.296404982801366,
     "startYear": -300,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "A Roman aqueduct, probably built during the reign of Hadrian (or possibly Trajan), that brought water approximately 20km from W\u0101d\u012b Ki\u2018\u0101m to Lepcis Magna, where it is thought to have fed a series of reservoirs, cisterns, and settling tanks prior to distribution to urban fountains and baths. Remains of contemporary dams and aqueduct components paralleling the wadi are thought to have been involved in collection for the aqueduct; the route from there is thought to have been a straight line from the collection apparatus to the city.",
-    "props": { "ancientName": "L\u2019acquedotto di uadi Caam" },
+    "description": "A Roman aqueduct, probably built during the reign of Hadrian (or possibly Trajan), that brought water approximately 20km from Wādī Ki‘ām to Lepcis Magna, where it is thought to have fed a series of reservoirs, cisterns, and settling tanks prior to distribution to urban fountains and baths. Remains of contemporary dams and aqueduct components paralleling the wadi are thought to have been involved in collection for the aqueduct; the route from there is thought to have been a straight line from the collection apparatus to the city.",
+    "props": { "ancientName": "L’acquedotto di uadi Caam" },
     "estimatedTemporal": true
   },
   {
@@ -4929,7 +4924,7 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q1133155",
-    "description": "The Roman dam at Cornalvo is a gravity dam with associated reservoir and aqueduct. It dates to the first or second century AD. The earthen dam and its stone cladding remain in use. The site is a part of the Archaeological Ensemble of M\u00e9rida, a UNESCO World Heritage site.",
+    "description": "The Roman dam at Cornalvo is a gravity dam with associated reservoir and aqueduct. It dates to the first or second century AD. The earthen dam and its stone cladding remain in use. The site is a part of the Archaeological Ensemble of Mérida, a UNESCO World Heritage site.",
     "props": { "ancientName": "Cornalvo Dam" },
     "estimatedTemporal": true
   },
@@ -4949,14 +4944,14 @@
   {
     "id": "pleiades:256703",
     "type": "aqueduct",
-    "name": "Valencia de Alc\u00e0ntara aqueduct",
+    "name": "Valencia de Alcàntara aqueduct",
     "lat": 39.5,
     "lng": -7.5,
     "startYear": -300,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 26 C2 unnamed aqueduct (Valencia de Alc\u00e1ntara)",
+    "description": "An ancient place, cited: BAtlas 26 C2 unnamed aqueduct (Valencia de Alcántara)",
     "estimatedTemporal": true
   },
   {
@@ -4996,13 +4991,13 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q3774528",
-    "description": "The so-called \"Acueducto de los Milagros\" (miraculous aqueduct) that supplied Augusta Emerita from the Lago de Proserpina north of the city. A small portion of the impressive aqueduct bridge still stands in M\u00e9rida.",
+    "description": "The so-called \"Acueducto de los Milagros\" (miraculous aqueduct) that supplied Augusta Emerita from the Lago de Proserpina north of the city. A small portion of the impressive aqueduct bridge still stands in Mérida.",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:256709",
     "type": "aqueduct",
-    "name": "San L\u00e1zaro Aqueduct",
+    "name": "San Lázaro Aqueduct",
     "lat": 38.92296020492356,
     "lng": -6.335406111280177,
     "startYear": -300,
@@ -5010,8 +5005,8 @@
     "source": "Pleiades",
     "category": "infrastructure",
     "qid": "Q15274875",
-    "description": "The San L\u00e1zaro Aqueduct is located to the north of Emerita Augusta in the locality Rabo de Buey-San L\u00e1zaro, as noted by the Barrington Atlas Directory.",
-    "props": { "ancientName": "Acueducto de San L\u00e1zaro" },
+    "description": "The San Lázaro Aqueduct is located to the north of Emerita Augusta in the locality Rabo de Buey-San Lázaro, as noted by the Barrington Atlas Directory.",
+    "props": { "ancientName": "Acueducto de San Lázaro" },
     "estimatedTemporal": true
   },
   {
@@ -5103,7 +5098,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 52 D2 unnamed aqueduct (\u201cAqueduct of Theodosius\u201d, NNW Constantinopolis)",
+    "description": "An ancient place, cited: BAtlas 52 D2 unnamed aqueduct (“Aqueduct of Theodosius”, NNW Constantinopolis)",
     "estimatedTemporal": true,
     "qid": "Q65089314"
   },
@@ -5130,7 +5125,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The aqueduct referred to as the \u201cAqua Hadriana\u201d served the imperial palace in Constantinople.",
+    "description": "The aqueduct referred to as the “Aqua Hadriana” served the imperial palace in Constantinople.",
     "estimatedTemporal": true
   },
   {
@@ -5376,14 +5371,14 @@
   {
     "id": "pleiades:427637959",
     "type": "aqueduct",
-    "name": "R\u00f6mersteine im Zahlbachtal",
+    "name": "Römersteine im Zahlbachtal",
     "lat": 49.9893243,
     "lng": 8.2507177,
     "startYear": -300,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "Site of the remains of the Roman aqueduct, R\u00f6mersteine im Zahlbachtal, in the district of Mainz-Bretzenheim.",
+    "description": "Site of the remains of the Roman aqueduct, Römersteine im Zahlbachtal, in the district of Mainz-Bretzenheim.",
     "estimatedTemporal": true
   },
   {
@@ -5590,14 +5585,14 @@
   {
     "id": "pleiades:246891",
     "type": "aqueduct",
-    "name": "Albarrac\u00edn-Cella Roman aqueduct",
+    "name": "Albarracín-Cella Roman aqueduct",
     "lat": 40.5,
     "lng": -1.5,
     "startYear": -300,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 25 D5 unnamed aqueduct (Albarrac\u00edn-Cella, NE S. Cristo)",
+    "description": "An ancient place, cited: BAtlas 25 D5 unnamed aqueduct (Albarracín-Cella, NE S. Cristo)",
     "estimatedTemporal": true
   },
   {
@@ -5708,7 +5703,7 @@
   {
     "id": "pleiades:188000",
     "type": "aqueduct",
-    "name": "Aqueduct at \u2018Silvo\u2019",
+    "name": "Aqueduct at ‘Silvo’",
     "lat": 45.5,
     "lng": 13.5,
     "startYear": -300,
@@ -6231,7 +6226,7 @@
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "The so-called Pont de Valmale is part of the Roman aqueduct system supplying N\u00eemes.",
+    "description": "The so-called Pont de Valmale is part of the Roman aqueduct system supplying Nîmes.",
     "estimatedTemporal": true
   },
   {
@@ -6306,14 +6301,14 @@
   {
     "id": "pleiades:109034",
     "type": "aqueduct",
-    "name": "Roman spring sanctuary near Heckenm\u00fcnster",
+    "name": "Roman spring sanctuary near Heckenmünster",
     "lat": 49.89942676486667,
     "lng": 6.787531929166668,
     "startYear": -300,
     "endYear": 500,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An extensive complex of structures dating to the 1st - 3rd centuries of the Roman imperial period sited at a pair of springs known today as \"Viktoriaquelle\" and \"Schwefelquelle,\" near modern Heckenm\u00fcnster in German. This site, whose ancient name and tutelary deities are not known, was extensively excavated in the 1960s. It comprised religious and performative spaces, as well as baths and hostelry.",
+    "description": "An extensive complex of structures dating to the 1st - 3rd centuries of the Roman imperial period sited at a pair of springs known today as \"Viktoriaquelle\" and \"Schwefelquelle,\" near modern Heckenmünster in German. This site, whose ancient name and tutelary deities are not known, was extensively excavated in the 1960s. It comprised religious and performative spaces, as well as baths and hostelry.",
     "estimatedTemporal": true
   },
   {
@@ -6333,7 +6328,7 @@
   {
     "id": "pleiades:109477",
     "type": "aqueduct",
-    "name": "Aqueduct at Gr\u00fcner P\u00fctz",
+    "name": "Aqueduct at Grüner Pütz",
     "lat": 50.5526069,
     "lng": 6.6293158,
     "startYear": -300,
@@ -6374,7 +6369,7 @@
   {
     "id": "pleiades:109480",
     "type": "aqueduct",
-    "name": "Aqueduct near K\u00e4fertal",
+    "name": "Aqueduct near Käfertal",
     "lat": 49.5,
     "lng": 8.5,
     "startYear": -300,

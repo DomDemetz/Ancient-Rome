@@ -68,14 +68,14 @@
   {
     "id": "pleiades:285514",
     "type": "temple",
-    "name": "Ste-Barbe-du-Tl\u00e9lat",
+    "name": "Ste-Barbe-du-Tlélat",
     "lat": 35.548873,
     "lng": -0.447241,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 29 E1 Ste-Barbe-du-Tl\u00e9lat",
+    "description": "An ancient place, cited: BAtlas 29 E1 Ste-Barbe-du-Tlélat",
     "estimatedTemporal": true
   },
   {
@@ -101,7 +101,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The site of an unnamed Gallo-Roman temple is situated in Th\u00e9s\u00e9e, Arrondissement of Romorantin-Lanthenay, Centre-Val de Loire, France. This temple site is located close to the ruins at B\u00e2timents des potiers de Pouill\u00e9.",
+    "description": "The site of an unnamed Gallo-Roman temple is situated in Thésée, Arrondissement of Romorantin-Lanthenay, Centre-Val de Loire, France. This temple site is located close to the ruins at Bâtiments des potiers de Pouillé.",
     "estimatedTemporal": true
   },
   {
@@ -313,13 +313,13 @@
     "category": "religion",
     "qid": "Q111086660",
     "description": "A sanctuary -- with remains of at least two successive temples (6th C BCE and 4th C BCE), a great altar, and votive deposits -- located on the modern Gremoulias saddle, 3.5km SE of Kalavryta in the northern Peloponnese. The site is not known from ancient literature. Scholars speculate that the deity worshiped may have been Artemis and the site may have been an extra-urban sanctuary of nearby Kynaitha.",
-    "props": { "ancientName": "Gkremoulas, Gkremoul\u00e1s, Gremoul\u00e1s, Gremoulas" },
+    "props": { "ancientName": "Gkremoulas, Gkremoulás, Gremoulás, Gremoulas" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:147989",
     "type": "sanctuary",
-    "name": "All\u00e8gre",
+    "name": "Allègre",
     "lat": 44.199232,
     "lng": 4.232932,
     "startYear": -500,
@@ -327,13 +327,13 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The site of sulphur springs that also revealed evidence for a sanctuary that included 24 altars, so of which carried dedications either to nymphs or mother goddesses. A number of Roman artifacts indicate activity at the site from the Flavian to the Antonine period.",
-    "props": { "ancientName": "All\u00e8gre-les-Fumades" },
+    "props": { "ancientName": "Allègre-les-Fumades" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:148046",
     "type": "temple",
-    "name": "Ch\u00e2teau-Bas (Roman Temple)",
+    "name": "Château-Bas (Roman Temple)",
     "lat": 43.681945127355974,
     "lng": 5.197203980041348,
     "startYear": -500,
@@ -341,13 +341,13 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q516783",
-    "description": "An ancient place, cited: BAtlas 15 E2 Ch\u00e2teau-Bas",
+    "description": "An ancient place, cited: BAtlas 15 E2 Château-Bas",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:148047",
     "type": "sanctuary",
-    "name": "Ch\u00e2telard de Lardiers",
+    "name": "Châtelard de Lardiers",
     "lat": 44.0595785,
     "lng": 5.697114,
     "startYear": -500,
@@ -443,7 +443,7 @@
   {
     "id": "pleiades:157797",
     "type": "sanctuary",
-    "name": "L\u2019Acapte",
+    "name": "L’Acapte",
     "lat": 43.061896,
     "lng": 6.1486729,
     "startYear": -500,
@@ -565,9 +565,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Bard-i Nishande is the site of a ruined ancient landscape consisting of multiple complexes. According to K. Schippmann, these complexes include a ruler's residence or \"castle\", a terraced platform used for ritual activity, and a lower town.",
-    "props": {
-      "ancientName": "Bardnesh\u0101ndeh, Bard Neshandeh, Bard-i Nishandi, Bard-\u00e8 N\u00e9chandeh "
-    },
+    "props": { "ancientName": "Bardneshāndeh, Bard Neshandeh, Bard-i Nishandi, Bard-è Néchandeh " },
     "estimatedTemporal": true
   },
   {
@@ -607,7 +605,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Site in the Shami Valley (Khuzestan Province, Iran), a settlement or sanctuary of the Parthian period (ca. 2nd century BCE-2nd century CE). In 1936, a team led by Marc Aurel Stein uncovered a bronze sculpture (the \"Shami statue\") at the site.",
-    "props": { "ancientName": "Kal-e Chendar, Kal Chen\u0101r" },
+    "props": { "ancientName": "Kal-e Chendar, Kal Chenār" },
     "estimatedTemporal": true
   },
   {
@@ -697,14 +695,14 @@
   {
     "id": "pleiades:514380156",
     "type": "sanctuary",
-    "name": "Sanctuary of Mont\u00e9lu",
+    "name": "Sanctuary of Montélu",
     "lat": 45.8488517,
     "lng": 0.7674574,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Sanctuary of Mont\u00e9lu lies to the west of Chassenon. The building, only partially excavated, is of an octagonal plan and oriented to the cardinal points.",
+    "description": "The Sanctuary of Montélu lies to the west of Chassenon. The building, only partially excavated, is of an octagonal plan and oriented to the cardinal points.",
     "estimatedTemporal": true
   },
   {
@@ -719,7 +717,7 @@
     "category": "religion",
     "qid": "Q136416727",
     "description": "A sanctuary to the west of the Acropolis of Athens, which was the clubhouse for a private religious association called the Iobakchoi, in the 2nd century AD.",
-    "props": { "ancientName": "Bakche\u00eeon, Baccheion" },
+    "props": { "ancientName": "Bakcheîon, Baccheion" },
     "estimatedTemporal": true
   },
   {
@@ -1020,7 +1018,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q65072495",
-    "description": "Homer mentions the temple of Apollo Smintheus as the shrine where Chryses was priest. The second-century B.C. remains of an Ionic sanctuary with an adjacent town are located in the southwestern Troad near modern G\u00fclpinar.",
+    "description": "Homer mentions the temple of Apollo Smintheus as the shrine where Chryses was priest. The second-century B.C. remains of an Ionic sanctuary with an adjacent town are located in the southwestern Troad near modern Gülpinar.",
     "props": { "ancientName": "Smintheion" },
     "estimatedTemporal": true
   },
@@ -1150,7 +1148,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An extensive sanctuary mentioned by Pausanias and located at the modern village of Kalyvia Sochas by virtue of the discovery of a number of inscriptions on the site. Very little of the sanctuary is visible today, as the site was damaged by a number of floods and only ever partly excavated. Modern signage in the village marks the location of some finds.",
-    "props": { "ancientName": "Kalyvia Sochas, Kal\u00fdvia Sokh\u00e1s" },
+    "props": { "ancientName": "Kalyvia Sochas, Kalývia Sokhás" },
     "estimatedTemporal": true
   },
   {
@@ -1316,7 +1314,7 @@
   {
     "id": "pleiades:237645058",
     "type": "temple",
-    "name": "D\u00fan Ailinne",
+    "name": "Dún Ailinne",
     "lat": 53.1133208,
     "lng": -6.7751535,
     "startYear": -500,
@@ -1441,14 +1439,14 @@
   {
     "id": "pleiades:844876",
     "type": "temple",
-    "name": "Be\u015fdut",
+    "name": "Beşdut",
     "lat": 40.703576,
     "lng": 33.965162,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 86 E3 Be\u015fdut",
+    "description": "An ancient place, cited: BAtlas 86 E3 Beşdut",
     "estimatedTemporal": true
   },
   {
@@ -1536,15 +1534,15 @@
   {
     "id": "pleiades:638837",
     "type": "sanctuary",
-    "name": "Aksu - Zindan Ma\u011faras\u0131 Sanctuary",
+    "name": "Aksu - Zindan Mağarası Sanctuary",
     "lat": 37.8119089,
     "lng": 31.0845675,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient sanctuary complex, incorporating a cave known today as Zindan Ma\u011faras\u0131, which overlooks a bend in the river Aksu (locally Zindan Deresi; a tributary of the Eurymedon) in Turkey's Isparta province. Archaeological and epigraphic evidence demonstrate human activity from the Hellenistic to the Seljuk period, with the dedication of a temple to the Vigenon Mother of the Gods during the reign of Marcus Aurelius. A Roman-era bridge and road section has also been identified as part of the complex, which was probably associated with the nearby city of Timbriada. The sanctuary also honored the god Eurymedon. A Christian monastery succeeded the sanctuary, spoliating its buildings for construction material.",
-    "props": { "ancientName": "Zindan Ma\u011faras\u0131" },
+    "description": "An ancient sanctuary complex, incorporating a cave known today as Zindan Mağarası, which overlooks a bend in the river Aksu (locally Zindan Deresi; a tributary of the Eurymedon) in Turkey's Isparta province. Archaeological and epigraphic evidence demonstrate human activity from the Hellenistic to the Seljuk period, with the dedication of a temple to the Vigenon Mother of the Gods during the reign of Marcus Aurelius. A Roman-era bridge and road section has also been identified as part of the complex, which was probably associated with the nearby city of Timbriada. The sanctuary also honored the god Eurymedon. A Christian monastery succeeded the sanctuary, spoliating its buildings for construction material.",
+    "props": { "ancientName": "Zindan Mağarası" },
     "estimatedTemporal": true
   },
   {
@@ -1629,14 +1627,14 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q343053",
-    "description": "\u0126a\u0121ar Qim is a megalithic temple complex (ca. 3600-3200 BC), included in the UNESCO World Heritage List.",
-    "props": { "ancientName": "\u0126a\u0121ar Qim" },
+    "description": "Ħaġar Qim is a megalithic temple complex (ca. 3600-3200 BC), included in the UNESCO World Heritage List.",
+    "props": { "ancientName": "Ħaġar Qim" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:601235773",
     "type": "sanctuary",
-    "name": "Tas-Sil\u0121",
+    "name": "Tas-Silġ",
     "lat": 35.843994076944334,
     "lng": 14.553632180253194,
     "startYear": -500,
@@ -1665,15 +1663,15 @@
   {
     "id": "pleiades:358880029",
     "type": "temple",
-    "name": "E\u0161asurra",
+    "name": "Ešasurra",
     "lat": 32.530856,
     "lng": 44.424226,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god I\u0161hara, E\u0161asurra (\u201cHouse of the Womb\u201d), was located in the \u0160uanna district (modern Ishin Aswad) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of two temples in that part of the city, which was located in the southern part of the eastern half of Babylon.",
-    "props": { "ancientName": "E\u0161asurra" },
+    "description": "The temple of the god Išhara, Ešasurra (“House of the Womb”), was located in the Šuanna district (modern Ishin Aswad) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of two temples in that part of the city, which was located in the southern part of the eastern half of Babylon.",
+    "props": { "ancientName": "Ešasurra" },
     "estimatedTemporal": true
   },
   {
@@ -1787,7 +1785,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q106604622",
-    "description": "An Italic sanctuary sacred to Hercules located in localit\u00e0 Civitella in the comune of Campochiaro. The site is to be connected with the Pentrian Samnites.",
+    "description": "An Italic sanctuary sacred to Hercules located in località Civitella in the comune of Campochiaro. The site is to be connected with the Pentrian Samnites.",
     "props": { "ancientName": "Campochiaro" },
     "estimatedTemporal": true
   },
@@ -1910,7 +1908,7 @@
     "endYear": -631,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of his post-689-BC religious reforms, the Neo-Assyrian king Sennacherib (704\u2013681 BC) had a new New Year\u2019s festival house (ak\u012btu-house) constructed outside the western wall of Assur. This was an attempt to replicate the cultic topography of Babylon. The Sumerian ceremonial names of that holy building and its cella are Eabbaugga (\"House Where Ti\u0101mat Is Put To Death\") and Edubdubabba (\"House That Makes Ti\u0101mat Tremble\u201d) respectively.",
+    "description": "As part of his post-689-BC religious reforms, the Neo-Assyrian king Sennacherib (704–681 BC) had a new New Year’s festival house (akītu-house) constructed outside the western wall of Assur. This was an attempt to replicate the cultic topography of Babylon. The Sumerian ceremonial names of that holy building and its cella are Eabbaugga (\"House Where Tiāmat Is Put To Death\") and Edubdubabba (\"House That Makes Tiāmat Tremble”) respectively.",
     "props": { "ancientName": "Eabbaugga" },
     "qid": "Q200200",
     "estimatedTemporal": true
@@ -2009,7 +2007,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A sanctuary of Asklepios above Zea harbour in Piraeus, founded in the late 5th century BC and active through the Imperial period. Sections of the sanctuary were explored archaeologically in the 1880s and 2000s.",
-    "props": { "ancientName": "Askl\u0113pieion" },
+    "props": { "ancientName": "Asklēpieion" },
     "estimatedTemporal": true,
     "qid": "Q75296641"
   },
@@ -2094,7 +2092,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The ziggurat of the god the god Nab\u00fb at Borsippa. The Sumerian ceremonial name Eurmeiminanki means \"House which Gathers the Seven (Me's) of Heaven and Underworld.\"",
+    "description": "The ziggurat of the god the god Nabû at Borsippa. The Sumerian ceremonial name Eurmeiminanki means \"House which Gathers the Seven (Me's) of Heaven and Underworld.\"",
     "estimatedTemporal": true
   },
   {
@@ -2108,7 +2106,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q202927",
-    "description": "The ziggurat of the god S\u00een at Ur. The Sumerian ceremonial name Elugalgalgasisa means \"House of the King who Lets Counsel Flourish\". The platform temple was originally built during the Early Bronze Age and was then restored in the sixth century B.C. by King Nabonidus.",
+    "description": "The ziggurat of the god Sîn at Ur. The Sumerian ceremonial name Elugalgalgasisa means \"House of the King who Lets Counsel Flourish\". The platform temple was originally built during the Early Bronze Age and was then restored in the sixth century B.C. by King Nabonidus.",
     "props": { "ancientName": "Ziggurat of Ur" },
     "estimatedTemporal": true
   },
@@ -2122,7 +2120,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god \u0160ama\u0161 at Sippar. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
+    "description": "The temple of the god Šamaš at Sippar. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
     "props": { "ancientName": "Ebabbar" },
     "estimatedTemporal": true
   },
@@ -2914,7 +2912,7 @@
   {
     "id": "pleiades:484080361",
     "type": "sanctuary",
-    "name": "Maras\u00e0 Sud",
+    "name": "Marasà Sud",
     "lat": 38.20853650286351,
     "lng": 16.238155100240775,
     "startYear": -500,
@@ -2923,7 +2921,7 @@
     "category": "religion",
     "qid": "Q123352497",
     "description": "An ancient sanctuary dedicated to Aphrodite located at Locri Epizephyrii.",
-    "props": { "ancientName": "Aphrodite sanctuary of Maras\u00e0 Sud" },
+    "props": { "ancientName": "Aphrodite sanctuary of Marasà Sud" },
     "estimatedTemporal": true
   },
   {
@@ -3032,8 +3030,7 @@
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 7 F2 Baron-sur-Odon",
     "props": { "ancientName": "Baron-sur-Odon" },
-    "estimatedTemporal": true,
-    "qid": "Q119895800"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:69544",
@@ -3567,7 +3564,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Leuke Akte, the \u2018White cape\u2019 located on the Libyan coast of Egypt, was the site of an Isis cult wherein the Egyptian goddess was worshipped as Aphrodite, Muchis, and Eseremphis. An oracular shrine of Apollo was also found there.",
+    "description": "Leuke Akte, the ‘White cape’ located on the Libyan coast of Egypt, was the site of an Isis cult wherein the Egyptian goddess was worshipped as Aphrodite, Muchis, and Eseremphis. An oracular shrine of Apollo was also found there.",
     "props": { "ancientName": "Leuke Akte" },
     "estimatedTemporal": true
   },
@@ -3638,7 +3635,7 @@
     "category": "religion",
     "qid": "Q82074229",
     "description": "The complex, identified as the Caesareum of Palmyra, was converted into a mosque during the Umayyad period.",
-    "props": { "ancientName": "C\u00e4sareum" },
+    "props": { "ancientName": "Cäsareum" },
     "estimatedTemporal": true
   },
   {
@@ -3653,7 +3650,7 @@
     "category": "religion",
     "description": "Pausanias describes a Sanctuary of Poseidon located at Onchestos that preserved a grove sacred to the god and that Homer had once praised.",
     "props": {
-      "ancientName": "naos kai agalma Poseidonos Onchestiou\u03bd\u03b1\u03cc\u03c2 \u03ba\u03b1\u1f76 \u1f04\u03b3\u03b1\u03bb\u03bc\u03b1 \u03a0\u03bf\u03c3\u03b5\u03b9\u03b4\u1ff6\u03bd\u03bf\u03c2 \u1f48\u03b3\u03c7\u03b7\u03c3\u03c4\u03af\u03bf\u03c5"
+      "ancientName": "naos kai agalma Poseidonos Onchestiouναός καὶ ἄγαλμα Ποσειδῶνος Ὀγχηστίου"
     },
     "qid": "Q28000786",
     "estimatedTemporal": true
@@ -3670,9 +3667,7 @@
     "category": "religion",
     "qid": "Q2118071",
     "description": "A sanctuary of Aphrodite Ourania (\"Heavenly\") in Athens, on the Panathenaic Way as it entered the Athenian Agora. It consisted of an altar built around 500 BC and a temple built in the early first century AD. The Late Roman Stoa was built over the top of it in the fifth century AD.",
-    "props": {
-      "ancientName": "hier\u00f2n Aphrod\u00edt\u0113s Ouran\u00edas, hieron Aphrodites Ouranias"
-    },
+    "props": { "ancientName": "hieròn Aphrodítēs Ouranías, hieron Aphrodites Ouranias" },
     "estimatedTemporal": true
   },
   {
@@ -3687,7 +3682,7 @@
     "category": "religion",
     "qid": "Q65238154",
     "description": "A sanctuary dedicated to Kronos and Rhea in the area of the Olympieion in Athens, attested from Classical times into the Roman Imperial period. A 2nd-century AD Doric temple is probably associated with it.",
-    "props": { "ancientName": "na\u00f2s Kr\u00f3nou ka\u00ec R\u00e9as, naos Kronou kai Rheas " },
+    "props": { "ancientName": "naòs Krónou kaì Réas, naos Kronou kai Rheas " },
     "estimatedTemporal": true
   },
   {
@@ -3827,7 +3822,7 @@
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) had a temple-tower built on the palace terrace of his new capital, D\u016br-\u0160arruk\u012bn (modern Khorsabad). The ziggurat was located at the northern end of the temple sector, which was accessible from Sargon\u2019s palace, through the Courtyard\u00a0XV.",
+    "description": "The eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) had a temple-tower built on the palace terrace of his new capital, Dūr-Šarrukīn (modern Khorsabad). The ziggurat was located at the northern end of the temple sector, which was accessible from Sargon’s palace, through the Courtyard XV.",
     "props": { "ancientName": "Khorsabad ziggurat" },
     "estimatedTemporal": true
   },
@@ -4318,7 +4313,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q39295403",
-    "description": "A sanctuary dedicated to the Greek lyric poet Archilochus, known as the Archilocheion, was established on Paros during the third century BCE. It is attested textually in both literature and inscriptions; however, the precise location of the sanctuary has not been identified. During the 19th and 20th centuries, some scholars argued for it to be placed at the site of the \u201cThree Churches\u201d (Tris Ekklisies) because inscriptions mentioning Archilochos were found reused in remains of the 6th century Christian basilica over which the later churches had been built. Other scholars (e.g., Kontoleon in PECS) have vigorously rejected this view. Foss (BAtlDir) cites Berranger in tentatively placing the Archilocheion further east at the modern village of Elitas.",
+    "description": "A sanctuary dedicated to the Greek lyric poet Archilochus, known as the Archilocheion, was established on Paros during the third century BCE. It is attested textually in both literature and inscriptions; however, the precise location of the sanctuary has not been identified. During the 19th and 20th centuries, some scholars argued for it to be placed at the site of the “Three Churches” (Tris Ekklisies) because inscriptions mentioning Archilochos were found reused in remains of the 6th century Christian basilica over which the later churches had been built. Other scholars (e.g., Kontoleon in PECS) have vigorously rejected this view. Foss (BAtlDir) cites Berranger in tentatively placing the Archilocheion further east at the modern village of Elitas.",
     "props": { "ancientName": "Archilocheion, T." },
     "estimatedTemporal": true
   },
@@ -4677,9 +4672,7 @@
     "category": "religion",
     "qid": "Q3124",
     "description": "The Sanctuary of the Three Gauls (Tres Galliae) was a late first century B.C. sanctuary in Lugdunum; the amphitheater dates to 19 B.C.",
-    "props": {
-      "ancientName": "Amphith\u00e9\u00e2tre des Trois Gaules, Amphitheatre des Trois Gaules"
-    },
+    "props": { "ancientName": "Amphithéâtre des Trois Gaules, Amphitheatre des Trois Gaules" },
     "estimatedTemporal": true
   },
   {
@@ -4698,15 +4691,15 @@
   {
     "id": "pleiades:344586145",
     "type": "temple",
-    "name": "\u0160arrat-niphi temple (Kalhu)",
+    "name": "Šarrat-niphi temple (Kalhu)",
     "lat": 36.100708,
     "lng": 43.328236,
     "startYear": -909,
     "endYear": -809,
     "source": "Pleiades",
     "category": "religion",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the goddess \u0160arrat-niphi (an aspect of I\u0161tar).",
-    "props": { "ancientName": "b\u012bt \u0160arrat-niphi" },
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the goddess Šarrat-niphi (an aspect of Ištar).",
+    "props": { "ancientName": "bīt Šarrat-niphi" },
     "estimatedTemporal": true
   },
   {
@@ -4770,7 +4763,7 @@
   {
     "id": "pleiades:245438984",
     "type": "sanctuary",
-    "name": "G\u00f6bekli Tepe",
+    "name": "Göbekli Tepe",
     "lat": 37.223780129731686,
     "lng": 38.92195403720695,
     "startYear": -500,
@@ -4778,8 +4771,8 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q214944",
-    "description": "The site of G\u00f6bekli Tepe, located in the Germu\u015f mountains of south-eastern Anatolia, was the location of a Neolithic hilltop sanctuary. This sanctuary, thought to be a series of stone enclosures with T-shaped pillars carrying carving of wild animals, was built in the Pre-Pottery Neolithic and ranges in date from 9,600 to 8,200 B.C.",
-    "props": { "ancientName": "G\u00f6bekli Tepe" },
+    "description": "The site of Göbekli Tepe, located in the Germuş mountains of south-eastern Anatolia, was the location of a Neolithic hilltop sanctuary. This sanctuary, thought to be a series of stone enclosures with T-shaped pillars carrying carving of wild animals, was built in the Pre-Pottery Neolithic and ranges in date from 9,600 to 8,200 B.C.",
+    "props": { "ancientName": "Göbekli Tepe" },
     "estimatedTemporal": true
   },
   {
@@ -4827,7 +4820,7 @@
   {
     "id": "pleiades:59593308",
     "type": "sanctuary",
-    "name": "Gallo-Roman fanum at Recoules-Pr\u00e9vinqui\u00e8res",
+    "name": "Gallo-Roman fanum at Recoules-Prévinquières",
     "lat": 44.34083,
     "lng": 2.96889,
     "startYear": -500,
@@ -4876,7 +4869,7 @@
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the goddess Ningal.",
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the goddess Ningal.",
     "props": { "ancientName": "Ningal temple" },
     "estimatedTemporal": true
   },
@@ -4890,22 +4883,22 @@
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the god Adad.",
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the god Adad.",
     "props": { "ancientName": "Adad temple" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:305127729",
     "type": "temple",
-    "name": "\u0160ama\u0161 temple (Khorsabad)",
+    "name": "Šamaš temple (Khorsabad)",
     "lat": 36.508671,
     "lng": 43.227787,
     "startYear": -755,
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the god \u0160ama\u0161.",
-    "props": { "ancientName": "\u0160ama\u0161 temple" },
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the god Šamaš.",
+    "props": { "ancientName": "Šamaš temple" },
     "estimatedTemporal": true
   },
   {
@@ -5246,14 +5239,14 @@
   {
     "id": "pleiades:432875",
     "type": "sanctuary",
-    "name": "\u2018Herculis Rani\u2019?",
+    "name": "‘Herculis Rani’?",
     "lat": 41.450425,
     "lng": 14.533055,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A large fanum sacred to \u2018Herculis Rani\u2019? at Campochiaro, the name of which is then preserved in the station mentioned on the Peutinger Table. Scholars like Adriano La Regina support linking this fanum to a place mentioned by Livy, although see the discussion by Oakley.",
+    "description": "A large fanum sacred to ‘Herculis Rani’? at Campochiaro, the name of which is then preserved in the station mentioned on the Peutinger Table. Scholars like Adriano La Regina support linking this fanum to a place mentioned by Livy, although see the discussion by Oakley.",
     "props": { "ancientName": "Herculis Rani" },
     "estimatedTemporal": true
   },
@@ -5546,15 +5539,15 @@
   {
     "id": "pleiades:442602",
     "type": "sanctuary",
-    "name": "Grotta Trinit\u00e0",
+    "name": "Grotta Trinità",
     "lat": 39.995809,
     "lng": 18.1934563,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Grotta Trinit\u00e0 is a cave sanctuary located in the comune of Ruffano, province of Lecce, in southern Italy. The cave was in use from the Neolithic period onwards. In the Iron Age, terracotta vessels with incised graffiti date activity to the sixth century BCE and subsequent.",
-    "props": { "ancientName": "Grotta Trinit\u00e0" },
+    "description": "The Grotta Trinità is a cave sanctuary located in the comune of Ruffano, province of Lecce, in southern Italy. The cave was in use from the Neolithic period onwards. In the Iron Age, terracotta vessels with incised graffiti date activity to the sixth century BCE and subsequent.",
+    "props": { "ancientName": "Grotta Trinità" },
     "estimatedTemporal": true
   },
   {
@@ -5814,7 +5807,7 @@
   {
     "id": "pleiades:862813573",
     "type": "temple",
-    "name": "Roman Temple of \u00c9vora",
+    "name": "Roman Temple of Évora",
     "lat": 38.57263463329711,
     "lng": -7.907339396557574,
     "startYear": -500,
@@ -5822,7 +5815,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q737441",
-    "description": "The Roman Temple of \u00c9vora, also referred to as the Temple of Diana, is a Roman temple of the first century A.D.",
+    "description": "The Roman Temple of Évora, also referred to as the Temple of Diana, is a Roman temple of the first century A.D.",
     "props": { "ancientName": "Roman Temple of Evora" },
     "estimatedTemporal": true
   },
@@ -6208,7 +6201,7 @@
     "category": "religion",
     "qid": "Q75459",
     "description": "The ancient panhellenic sanctuary of Delphi in Greece, seat of the oracle of Apollo.",
-    "props": { "ancientName": "Puth\u014d, Pytho" },
+    "props": { "ancientName": "Puthō, Pytho" },
     "estimatedTemporal": true
   },
   {
@@ -6417,7 +6410,7 @@
     "category": "religion",
     "qid": "Q94522462",
     "description": "Described by Pausanias, this sanctuary was located near Akraiphiai in Boeotia.",
-    "props": { "ancientName": "Apollonos Pt\u014don to hieron" },
+    "props": { "ancientName": "Apollonos Ptōon to hieron" },
     "estimatedTemporal": true
   },
   {
@@ -6530,8 +6523,8 @@
     "endYear": 350,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A sanctuary of the goddess Meter and her companion Attis, located at modern Kap\u0131kaya in Turkey, 10km northwest of Pergamon. The earliest finds date to the third century BCE. Archaeological finds indicate that Mithras became the principal deity worshipped here in Roman times, down to at least the 4th century CE.",
-    "props": { "ancientName": "Kap\u0131kaya, Kapikaya" },
+    "description": "A sanctuary of the goddess Meter and her companion Attis, located at modern Kapıkaya in Turkey, 10km northwest of Pergamon. The earliest finds date to the third century BCE. Archaeological finds indicate that Mithras became the principal deity worshipped here in Roman times, down to at least the 4th century CE.",
+    "props": { "ancientName": "Kapıkaya, Kapikaya" },
     "estimatedTemporal": true
   },
   {
@@ -6572,7 +6565,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q124616459",
     "description": "Pausanias describes the Sanctuary of Artemis Anaiitis in Lydia in his third book. Central to his discussion is the xoanon of Artemis that may have been present in the sanctuary, one which he associates with the object Orestes has carried off from Taurus, an episode described by Euripides in his play, Iphigenia in Tauris.",
     "props": { "ancientName": "Artemis Anaeitis, Men Tiamou, T." },
     "estimatedTemporal": true
@@ -6681,20 +6673,20 @@
   {
     "id": "pleiades:857072",
     "type": "temple",
-    "name": "B\u00fcy\u00fck \u00c7elebi",
+    "name": "Büyük Çelebi",
     "lat": 40.659333,
     "lng": 35.924561,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 87 A4 B\u00fcy\u00fck \u00c7elebi",
+    "description": "An ancient place, cited: BAtlas 87 A4 Büyük Çelebi",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:353133531",
     "type": "temple",
-    "name": "Maison Carr\u00e9e",
+    "name": "Maison Carrée",
     "lat": 43.83819142877015,
     "lng": 4.356131790320795,
     "startYear": -500,
@@ -6703,7 +6695,7 @@
     "category": "religion",
     "qid": "Q677659",
     "description": "A well-preserved Roman temple built ca. 16 B.C. and dedicated to Caius and Lucius Caesar.",
-    "props": { "ancientName": "La Maison Carre\u0301e de Ni\u0302mes" },
+    "props": { "ancientName": "La Maison Carrée de Nîmes" },
     "estimatedTemporal": true
   },
   {
@@ -6802,7 +6794,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Marduk as Tutu, later of the god Nab\u00fb, at Borsippa. The Sumerian ceremonial name Ezida means \"True House.\"",
+    "description": "The temple of the god Marduk as Tutu, later of the god Nabû, at Borsippa. The Sumerian ceremonial name Ezida means \"True House.\"",
     "estimatedTemporal": true
   },
   {
@@ -6815,14 +6807,14 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Nab\u00fb of the \u1e2bar\u00fb at Babylon. The Sumerian ceremonial name Eniggidrukalamasuma means \"House which Bestows the Scepter of the Land.\"",
+    "description": "The temple of the god Nabû of the ḫarû at Babylon. The Sumerian ceremonial name Eniggidrukalamasuma means \"House which Bestows the Scepter of the Land.\"",
     "props": { "ancientName": "Eniggidrukalamasuma" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:663286875",
     "type": "temple",
-    "name": "Eki\u0161nugal",
+    "name": "Ekišnugal",
     "lat": 30.962275999139603,
     "lng": 46.10431589941474,
     "startYear": -500,
@@ -6830,8 +6822,8 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1260159",
-    "description": "The temple of the moon god Nanna/Suen/S\u00een at Ur from the third to first millennium B.C. Over the course of its long history, it was rebuilt (and expanded) numerous times. A few of its more famous builders were Nar\u0101m-S\u00een of Agade, Ur-Nammu of Ur, and Nebuchadnezzar II of Babylon.",
-    "props": { "ancientName": "Eki\u0161nugal" },
+    "description": "The temple of the moon god Nanna/Suen/Sîn at Ur from the third to first millennium B.C. Over the course of its long history, it was rebuilt (and expanded) numerous times. A few of its more famous builders were Narām-Sîn of Agade, Ur-Nammu of Ur, and Nebuchadnezzar II of Babylon.",
+    "props": { "ancientName": "Ekišnugal" },
     "estimatedTemporal": true
   },
   {
@@ -6844,7 +6836,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Anu and the goddess I\u0161tar at Uruk. The Sumerian ceremonial name Eanna means \"House of Heaven.\"",
+    "description": "The temple of the god Anu and the goddess Ištar at Uruk. The Sumerian ceremonial name Eanna means \"House of Heaven.\"",
     "props": { "ancientName": "Eanna" },
     "estimatedTemporal": true
   },
@@ -6902,9 +6894,7 @@
     "category": "religion",
     "qid": "Q107307241",
     "description": "A small sanctuary of Athena Hygieia (\"of health\") on the Acropolis of Athens, consisting of a statue and an altar, next to the Propylaia. The sanctuary may have been established in 430/29 BC in response to the Periclean plague or have older roots on the Acropolis.",
-    "props": {
-      "ancientName": "\u00e1galma t\u00eas Hugie\u00edas Athen\u00e2s, agalma tes Hygieias Athenas"
-    },
+    "props": { "ancientName": "ágalma tês Hugieías Athenâs, agalma tes Hygieias Athenas" },
     "estimatedTemporal": true
   },
   {
@@ -6933,7 +6923,7 @@
     "category": "religion",
     "qid": "Q2204137",
     "description": "An open-air precinct dedicated to Pandrosos, located on the Acropolis of Athens, at the west side of the Erechtheion. It contained the sacred olive tree of Athena and an altar of Zeus Herkeios.",
-    "props": { "ancientName": "Pandr\u00f3seion" },
+    "props": { "ancientName": "Pandróseion" },
     "estimatedTemporal": true
   },
   {
@@ -7114,7 +7104,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The \u1e2bil\u1e63u-building of the goddess Ningal inside the Egi\u0161nugal temple at Ur. The Sumerian ceremonial name Enunmah means \"House of the Exalted Prince.\"",
+    "description": "The ḫilṣu-building of the goddess Ningal inside the Egišnugal temple at Ur. The Sumerian ceremonial name Enunmah means \"House of the Exalted Prince.\"",
     "props": { "ancientName": "Enunmah" },
     "estimatedTemporal": true
   },
@@ -7142,7 +7132,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god \u0160ama\u0161 at Larsa. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
+    "description": "The temple of the god Šamaš at Larsa. The Sumerian ceremonial name Ebabbar means \"Shining House.\"",
     "props": { "ancientName": "Ebabbar" },
     "qid": "Q19309800",
     "estimatedTemporal": true
@@ -7185,7 +7175,7 @@
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the god Ea.",
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the god Ea.",
     "props": { "ancientName": "Ea temple" },
     "estimatedTemporal": true
   },
@@ -7384,14 +7374,14 @@
   {
     "id": "pleiades:408700256",
     "type": "temple",
-    "name": "Temple of Nab\u00fb of the \u1e2bar\u00fb at Assur",
+    "name": "Temple of Nabû of the ḫarû at Assur",
     "lat": 35.457361287113756,
     "lng": 43.258589729129895,
     "startYear": -662,
     "endYear": -562,
     "source": "Pleiades",
     "category": "religion",
-    "description": "S\u00een-\u0161arra-i\u0161kun (626\u2013612 BC), Assyria\u2019s penultimate king, built a new temple for the god Nab\u00fb of the \u1e2bar\u00fb at Assur. The temple was constructed in vacant lot that was next to the temple of the Assyrian I\u0161tar. That Neo-Assyrian king modelled the temple\u2019s plan on that the Nab\u00fb temple at Kalhu (Nimrud) and named it after the Nab\u00fb temple at Babylon. Egidrukalamasumu (\u201cHouse Which Bestows the Scepter of the Land\u201d) was destroyed in 614 BC, when Assur was destroyed by the Medes.",
+    "description": "Sîn-šarra-iškun (626–612 BC), Assyria’s penultimate king, built a new temple for the god Nabû of the ḫarû at Assur. The temple was constructed in vacant lot that was next to the temple of the Assyrian Ištar. That Neo-Assyrian king modelled the temple’s plan on that the Nabû temple at Kalhu (Nimrud) and named it after the Nabû temple at Babylon. Egidrukalamasumu (“House Which Bestows the Scepter of the Land”) was destroyed in 614 BC, when Assur was destroyed by the Medes.",
     "props": { "ancientName": "Egidrukalamasumu" },
     "qid": "Q200200",
     "estimatedTemporal": true
@@ -7551,7 +7541,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient fortified city on high ground on the south bank of the river Nymphaios (modern K\u00e2hta \u00c7ay\u0131) south of the modern village of Kocahisar (also known as Eski Kahta) in Turkey.",
+    "description": "An ancient fortified city on high ground on the south bank of the river Nymphaios (modern Kâhta Çayı) south of the modern village of Kocahisar (also known as Eski Kahta) in Turkey.",
     "props": { "ancientName": "Arsameia am Nymphaios" },
     "estimatedTemporal": true,
     "qid": "Q704167"
@@ -7696,7 +7686,7 @@
     "category": "religion",
     "qid": "Q65229287",
     "description": "A sanctuary of the healing heroes Amynos and Asklepios, located between the Pnyx and the Areopagos in Athens. Archaeological evidence stretches from the 4th century BC until the Roman Imperial period.",
-    "props": { "ancientName": "hier\u00f2n to\u00fb Am\u00fanou ka\u00ec Asklepio\u00fb" },
+    "props": { "ancientName": "hieròn toû Amúnou kaì Asklepioû" },
     "estimatedTemporal": true
   },
   {
@@ -7724,7 +7714,7 @@
     "category": "religion",
     "qid": "Q2145005",
     "description": "The Temple or Altar of Roma and Augustus on the Acropolis of Athens was erected shortly after 27 BC near the east front of the Periklean Parthenon.",
-    "props": { "ancientName": "ho en Akropolei b\u014dmos t\u014dn Sebast\u014dn" },
+    "props": { "ancientName": "ho en Akropolei bōmos tōn Sebastōn" },
     "estimatedTemporal": true
   },
   {
@@ -7927,15 +7917,15 @@
   {
     "id": "pleiades:508774533",
     "type": "temple",
-    "name": "Nab\u00fb temple (Khorsabad) ",
+    "name": "Nabû temple (Khorsabad) ",
     "lat": 36.507401,
     "lng": 43.22839,
     "startYear": -755,
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) had a temple to the god Nab\u00fb, the god of scribes, built in the citadel of his new capital, D\u016br-\u0160arruk\u012bn (modern Khorsabad). Building\u00a0H is the largest temple in Sargon\u2019s newly-constructed city and it was built on a platform in the western side of the citadel, rather than on the palace terrace. The Nab\u00fb temple was connected to the temple district, which formed part of Sargon\u2019s royal residence, by a stone bridge.",
-    "props": { "ancientName": "Nab\u00fb temple" },
+    "description": "The eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) had a temple to the god Nabû, the god of scribes, built in the citadel of his new capital, Dūr-Šarrukīn (modern Khorsabad). Building H is the largest temple in Sargon’s newly-constructed city and it was built on a platform in the western side of the citadel, rather than on the palace terrace. The Nabû temple was connected to the temple district, which formed part of Sargon’s royal residence, by a stone bridge.",
+    "props": { "ancientName": "Nabû temple" },
     "estimatedTemporal": true
   },
   {
@@ -7948,22 +7938,22 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A temple dedicated to the Sebetti, the divine seven, was excavated by Iraqi archaeologists in 1957. This temple at D\u016br-\u0160arruk\u012bn (modern Khorsabad) is located just west of the citadel, near Citadel Gate A and City Gate 7.",
+    "description": "A temple dedicated to the Sebetti, the divine seven, was excavated by Iraqi archaeologists in 1957. This temple at Dūr-Šarrukīn (modern Khorsabad) is located just west of the citadel, near Citadel Gate A and City Gate 7.",
     "props": { "ancientName": "Sebetti temple" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:704546158",
     "type": "temple",
-    "name": "S\u00een temple (Khorsabad)",
+    "name": "Sîn temple (Khorsabad)",
     "lat": 36.509133,
     "lng": 43.227985,
     "startYear": -755,
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the god S\u00een.",
-    "props": { "ancientName": "S\u00een temple" },
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the god Sîn.",
+    "props": { "ancientName": "Sîn temple" },
     "estimatedTemporal": true
   },
   {
@@ -7976,7 +7966,7 @@
     "endYear": -655,
     "source": "Pleiades",
     "category": "religion",
-    "description": "As part of the palatial complex of D\u016br-\u0160arruk\u012bn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721\u2013705 BC) constructed six temples, including one to the god Ninurta.",
+    "description": "As part of the palatial complex of Dūr-Šarrukīn (modern Khorsabad), the eighth-century-BC Assyrian king Sargon II (r. 721–705 BC) constructed six temples, including one to the god Ninurta.",
     "props": { "ancientName": "Ninurta temple" },
     "estimatedTemporal": true
   },
@@ -8512,14 +8502,14 @@
   {
     "id": "pleiades:921404713",
     "type": "temple",
-    "name": "Temple of S\u00een and \u0160ama\u0161 at Assur",
+    "name": "Temple of Sîn and Šamaš at Assur",
     "lat": 35.45805976633069,
     "lng": 43.25967534939306,
     "startYear": -909,
     "endYear": -809,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A double-temple dedicated to the moon-god S\u00een and the sun-god \u0160ama\u0161 existed at the city Assur from the Old Assyrian period onwards. The plan of this holy structure changed several times over the course of its long history, most notably in the Neo-Assyrian period, in the reign of Ashurbanipal II (883\u2013859 BC). The S\u00een temple was called E\u1e2bul\u1e2buldirdirra and the \u0160ama\u0161 temple went by the name Ebabbarra.",
+    "description": "A double-temple dedicated to the moon-god Sîn and the sun-god Šamaš existed at the city Assur from the Old Assyrian period onwards. The plan of this holy structure changed several times over the course of its long history, most notably in the Neo-Assyrian period, in the reign of Ashurbanipal II (883–859 BC). The Sîn temple was called Eḫulḫuldirdirra and the Šamaš temple went by the name Ebabbarra.",
     "props": { "ancientName": "Ebabbarra" },
     "qid": "Q200200",
     "estimatedTemporal": true
@@ -8581,7 +8571,7 @@
   {
     "id": "pleiades:478681498",
     "type": "sanctuary",
-    "name": "Yaz\u0131l\u0131kaya (Hattusa)",
+    "name": "Yazılıkaya (Hattusa)",
     "lat": 40.0254251,
     "lng": 34.6327074,
     "startYear": -500,
@@ -8789,7 +8779,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1077215",
-    "description": "A platform temple located at Kang\u0101var in the Kermanshah Province of Iran. Some scholars associate the site with the divinity Anahita.",
+    "description": "A platform temple located at Kangāvar in the Kermanshah Province of Iran. Some scholars associate the site with the divinity Anahita.",
     "estimatedTemporal": true
   },
   {
@@ -8822,7 +8812,7 @@
   {
     "id": "pleiades:538129499",
     "type": "sanctuary",
-    "name": "Mithraeum at Fert\u0151r\u00e1kos",
+    "name": "Mithraeum at Fertőrákos",
     "lat": 47.741412025,
     "lng": 16.65671395,
     "startYear": -500,
@@ -8830,7 +8820,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1177999",
-    "description": "A well-preserved Mithraeum with modern stone vault above ground and site below in Fert\u0151r\u00e1kos, Hungary, at the site of ancient Scarbantia.",
+    "description": "A well-preserved Mithraeum with modern stone vault above ground and site below in Fertőrákos, Hungary, at the site of ancient Scarbantia.",
     "estimatedTemporal": true
   },
   {
@@ -8894,14 +8884,14 @@
   {
     "id": "pleiades:609290",
     "type": "sanctuary",
-    "name": "Agdistis Sanctuary (Yaz\u0131l\u0131kaya)",
+    "name": "Agdistis Sanctuary (Yazılıkaya)",
     "lat": 39.197616,
     "lng": 30.710028,
     "startYear": -650,
     "endYear": -550,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A plateau around a monumental Phrygian rock\u2010cut altar at the extensive fortified settlement and sanctuary complex of Yaz\u0131l\u0131kaya in Turkey. Associated with Agdistis in the 20th century because of Roman epigraphic finds there, more recent excavations have demonstrated that the sanctuary was in use from the 8th\u20137th century BCE to the Roman Period (1st-2nd century CE). Continuity of ritual practice in front of the rock-cut altar is demonstrated by rock-cut bows, a ritual preparation area with hearths, a rock-cut statue identifiable as the goddess Matar, and the Roman-era votive inscriptions.",
+    "description": "A plateau around a monumental Phrygian rock‐cut altar at the extensive fortified settlement and sanctuary complex of Yazılıkaya in Turkey. Associated with Agdistis in the 20th century because of Roman epigraphic finds there, more recent excavations have demonstrated that the sanctuary was in use from the 8th–7th century BCE to the Roman Period (1st-2nd century CE). Continuity of ritual practice in front of the rock-cut altar is demonstrated by rock-cut bows, a ritual preparation area with hearths, a rock-cut statue identifiable as the goddess Matar, and the Roman-era votive inscriptions.",
     "props": { "ancientName": "Agdistis T." },
     "estimatedTemporal": true
   },
@@ -9046,14 +9036,14 @@
   {
     "id": "pleiades:609439",
     "type": "temple",
-    "name": "Ko\u00e7ak",
+    "name": "Koçak",
     "lat": 39.284283,
     "lng": 30.023733,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 62 D3 Ko\u00e7ak",
+    "description": "An ancient place, cited: BAtlas 62 D3 Koçak",
     "estimatedTemporal": true,
     "qid": "Q10781718"
   },
@@ -9433,7 +9423,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1613842",
-    "description": "The Heroon of Trysa is a scholarly appellation applied to an ancient tomb (ca. 380 BCE) found at Trysa in ancient Lycia. Julius August Sch\u00f6nborn discovered the site in 1841. The shrine is noted for its cycle of relief sculpture.",
+    "description": "The Heroon of Trysa is a scholarly appellation applied to an ancient tomb (ca. 380 BCE) found at Trysa in ancient Lycia. Julius August Schönborn discovered the site in 1841. The shrine is noted for its cycle of relief sculpture.",
     "props": { "ancientName": "Heroon of Trysa" },
     "estimatedTemporal": true
   },
@@ -9447,7 +9437,7 @@
     "endYear": -809,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple-tower of the god Ninurta, which was started by the ninth-century-BC Assyrian ruler Ashurnasirpal II (r. 883\u2013859 BC) and completed by his son and successor Shalmaneser III (r. 858\u2013824 BC), is still the most prominent feature of Kalhu (modern Nimrud). This multi-staged ziggurat, whose remains are now a pyramid of eroding mud-brick, was constructed in the northwest corner of the citadel, next to Kalhu's principal sanctuary, the Ninurta temple.",
+    "description": "The temple-tower of the god Ninurta, which was started by the ninth-century-BC Assyrian ruler Ashurnasirpal II (r. 883–859 BC) and completed by his son and successor Shalmaneser III (r. 858–824 BC), is still the most prominent feature of Kalhu (modern Nimrud). This multi-staged ziggurat, whose remains are now a pyramid of eroding mud-brick, was constructed in the northwest corner of the citadel, next to Kalhu's principal sanctuary, the Ninurta temple.",
     "props": { "ancientName": "siqqurrat Ninurta" },
     "estimatedTemporal": true
   },
@@ -9461,8 +9451,8 @@
     "endYear": -809,
     "source": "Pleiades",
     "category": "religion",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. The most important of those was dedicated to the god Ninurta, the patron deity of city, which Ashurnasirpal had constructed between his palace and the ziggurat, a building also consecrated to Ninurta.",
-    "props": { "ancientName": "b\u012bt Ninurta" },
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. The most important of those was dedicated to the god Ninurta, the patron deity of city, which Ashurnasirpal had constructed between his palace and the ziggurat, a building also consecrated to Ninurta.",
+    "props": { "ancientName": "bīt Ninurta" },
     "estimatedTemporal": true
   },
   {
@@ -9475,14 +9465,14 @@
     "endYear": -809,
     "source": "Pleiades",
     "category": "religion",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the divine Kidmuri (probably a collective name for a group of gods).",
-    "props": { "ancientName": "b\u012bt Kidmuri" },
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the divine Kidmuri (probably a collective name for a group of gods).",
+    "props": { "ancientName": "bīt Kidmuri" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:794388243",
     "type": "sanctuary",
-    "name": "Synagogue at Ah\u0323madiah (Ah\u0323madiya, Ahmadiyye)",
+    "name": "Synagogue at Aḥmadiah (Aḥmadiya, Ahmadiyye)",
     "lat": 33,
     "lng": 35.7,
     "startYear": -500,
@@ -9529,7 +9519,7 @@
     "endYear": -555,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the god Ninurta, Ehursagtilla (\u201cHouse Which Exterminates the Mountains\u201d), was located in the \u0160uanna district (modern Ishin Aswad) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of two temples in that part of the city, which was located in the southern part of the eastern half of Babylon. The building was rebuilt by the Neo-Babylonian king Nabopolassar (r. 625\u2013605 BC).",
+    "description": "The temple of the god Ninurta, Ehursagtilla (“House Which Exterminates the Mountains”), was located in the Šuanna district (modern Ishin Aswad) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of two temples in that part of the city, which was located in the southern part of the eastern half of Babylon. The building was rebuilt by the Neo-Babylonian king Nabopolassar (r. 625–605 BC).",
     "props": { "ancientName": " Ehursagtilla" },
     "estimatedTemporal": true
   },
@@ -9564,7 +9554,7 @@
   {
     "id": "pleiades:929024657",
     "type": "temple",
-    "name": "D\u00f6rpfeld foundations",
+    "name": "Dörpfeld foundations",
     "lat": 37.9719174799216,
     "lng": 23.726348727011185,
     "startYear": -530,
@@ -9572,7 +9562,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The foundations of a 6th century BC temple on the Acropolis of Athens, dedicated to Athena Polias. It is disputed whether these foundations belong to the same structure as the 6th-century BC architectural fragments known as the Bluebeard temple. At the end of the 6th century, the foundations were reused for another temple of Athena Polias, the Archaios Neos, which was destroyed by the Persians in 480 BC.",
-    "props": { "ancientName": "D\u00f6rpfeld foundations" },
+    "props": { "ancientName": "Dörpfeld foundations" },
     "estimatedTemporal": true
   },
   {
@@ -9587,7 +9577,7 @@
     "category": "religion",
     "qid": "Q2872350",
     "description": "The altar of Athena Polias on the Acropolis of Athens, built in or before the 7th century BC.",
-    "props": { "ancientName": "ho b\u014dm\u00f2s ho en t\u00ea akrop\u00f3lei" },
+    "props": { "ancientName": "ho bōmòs ho en tê akropólei" },
     "estimatedTemporal": true
   },
   {
@@ -9600,7 +9590,7 @@
     "endYear": -581,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the goddess Ninmah/B\u0113let-il\u012b, Emah (\u201cExalated House\u201d), was located in the Ka-dingirra district (modern Kasr) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of four temples in that part of the city, which was located in the northern part of the eastern half of Babylon. Emah was rebuilt by the Assyrian king Ashurbanipal (r. 668\u2013ca. 631 BC) and the Babylonian king Nebuchadnezzar II (r. 604\u2013562 BC).",
+    "description": "The temple of the goddess Ninmah/Bēlet-ilī, Emah (“Exalated House”), was located in the Ka-dingirra district (modern Kasr) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of four temples in that part of the city, which was located in the northern part of the eastern half of Babylon. Emah was rebuilt by the Assyrian king Ashurbanipal (r. 668–ca. 631 BC) and the Babylonian king Nebuchadnezzar II (r. 604–562 BC).",
     "props": { "ancientName": "Emah" },
     "estimatedTemporal": true
   },
@@ -9635,14 +9625,14 @@
   {
     "id": "pleiades:138926703",
     "type": "temple",
-    "name": "Ak\u012btu of \u0160arrat-Nippuri",
+    "name": "Akītu of Šarrat-Nippuri",
     "lat": 32.530635,
     "lng": 44.426566,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Temple in Babylon, not located, but probably not far from E\u1e2bursagtila, for it is mentioned together in the ritual texts of the \"Divine Love Lyrics\". \u0160arrat-Nippuri \"The Queen of Nippur\" was a hypostasis of I\u0161tar. It is difficult to ascertain the precise reason for the existence of an Ak\u012btu temple dedicated to this deity in the city of Babylon.",
+    "description": "Temple in Babylon, not located, but probably not far from Eḫursagtila, for it is mentioned together in the ritual texts of the \"Divine Love Lyrics\". Šarrat-Nippuri \"The Queen of Nippur\" was a hypostasis of Ištar. It is difficult to ascertain the precise reason for the existence of an Akītu temple dedicated to this deity in the city of Babylon.",
     "estimatedTemporal": true
   },
   {
@@ -10012,7 +10002,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1399030",
-    "description": "A late ninth to early eighth century BC site located in the northeastern part of the Sinai peninsula, the fortress-like Kuntillat \u2018Ajrud may have been a sanctuary. Hebrew and Phoenician inscriptions have been identified at the site.",
+    "description": "A late ninth to early eighth century BC site located in the northeastern part of the Sinai peninsula, the fortress-like Kuntillat ‘Ajrud may have been a sanctuary. Hebrew and Phoenician inscriptions have been identified at the site.",
     "props": { "ancientName": "Kuntillet 'Ajrud, Kuntillet Ajrud" },
     "estimatedTemporal": true
   },
@@ -10034,7 +10024,7 @@
   {
     "id": "pleiades:826976465",
     "type": "sanctuary",
-    "name": "Ta' \u0126a\u0121rat Temple Complex",
+    "name": "Ta' Ħaġrat Temple Complex",
     "lat": 35.91853741463438,
     "lng": 14.368576374945723,
     "startYear": -500,
@@ -10042,8 +10032,8 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q991637",
-    "description": "Ta' \u0126a\u0121rat is a megalithic temple complex on the island of Malta (ca. 3600-3000 B.C.), included in the UNESCO World Heritage List.",
-    "props": { "ancientName": "Ta\u2019 \u0126a\u0121rat Temples" },
+    "description": "Ta' Ħaġrat is a megalithic temple complex on the island of Malta (ca. 3600-3000 B.C.), included in the UNESCO World Heritage List.",
+    "props": { "ancientName": "Ta’ Ħaġrat Temples" },
     "estimatedTemporal": true
   },
   {
@@ -10420,7 +10410,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q94946184",
-    "description": "A Doric peripteral temple was built in the sanctuary in the middle of the fifth century BCE. Construction began around 460-450 BCE and continued until 430\u2013420 BCE.",
+    "description": "A Doric peripteral temple was built in the sanctuary in the middle of the fifth century BCE. Construction began around 460-450 BCE and continued until 430–420 BCE.",
     "props": { "ancientName": "Temple of Nemesis" },
     "estimatedTemporal": true
   },
@@ -10509,7 +10499,7 @@
     "category": "religion",
     "qid": "Q12873973",
     "description": "A site to the southeast of Athens, where jurors swore their oath, named for a hero Ardettes.",
-    "props": { "ancientName": "Ard\u0113tt\u00f3s" },
+    "props": { "ancientName": "Ardēttós" },
     "estimatedTemporal": true
   },
   {
@@ -10530,7 +10520,7 @@
   {
     "id": "pleiades:13850440",
     "type": "temple",
-    "name": "Sobek temple, Qa\u015fr Q\u0101r\u016bn",
+    "name": "Sobek temple, Qaşr Qārūn",
     "lat": 29.405629884030187,
     "lng": 30.418249089167098,
     "startYear": -500,
@@ -10691,7 +10681,7 @@
     "category": "religion",
     "qid": "Q130408026",
     "description": "A sanctuary for Kalliste (\"most beautiful lady\"), sometimes identified with Artemis, located on the road from Athens to the Academy.",
-    "props": { "ancientName": "hier\u00f2n t\u0113s Kall\u00edst\u0113s,hieron tes Kallistes" },
+    "props": { "ancientName": "hieròn tēs Kallístēs,hieron tes Kallistes" },
     "estimatedTemporal": true
   },
   {
@@ -10913,8 +10903,8 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q26706748",
-    "description": "A natural cave in the side of the Halberg hill at Saarbr\u00fccken was enlarged for the use of the Mithras cult.",
-    "props": { "ancientName": "Mithrasgrotte (Saarbr\u00fccken)" },
+    "description": "A natural cave in the side of the Halberg hill at Saarbrücken was enlarged for the use of the Mithras cult.",
+    "props": { "ancientName": "Mithrasgrotte (Saarbrücken)" },
     "estimatedTemporal": true
   },
   {
@@ -10963,7 +10953,7 @@
   {
     "id": "pleiades:167035137",
     "type": "temple",
-    "name": "Vai\u1e63\u1e47ava Temple at Udayagiri",
+    "name": "Vaiṣṇava Temple at Udayagiri",
     "lat": 23.53945211051204,
     "lng": 77.77117554168628,
     "startYear": 350,
@@ -11318,14 +11308,14 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Strabo describes this sanctuary in his narrative of sailing up the Guadalquivir River. His text mentions a sanctuary of Phosphorus - this is likely Diana - that is known as \"Lux Dubia\" (Strabo transliterates \"Lucem dubiam\" to Greek characters, thus \u03bb\u03bf\u1fe6\u03ba\u03b5\u03bc \u03b4\u03bf\u03c5\u03b2\u03af\u03b1\u03bd).",
+    "description": "Strabo describes this sanctuary in his narrative of sailing up the Guadalquivir River. His text mentions a sanctuary of Phosphorus - this is likely Diana - that is known as \"Lux Dubia\" (Strabo transliterates \"Lucem dubiam\" to Greek characters, thus λοῦκεμ δουβίαν).",
     "props": { "ancientName": "Phosphoros" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:256429",
     "type": "sanctuary",
-    "name": "S\u00e3o Miguel de Mota",
+    "name": "São Miguel de Mota",
     "lat": 38.64342865864429,
     "lng": -7.443145548775375,
     "startYear": -500,
@@ -11394,7 +11384,7 @@
   {
     "id": "pleiades:766186562",
     "type": "sanctuary",
-    "name": "P\u0101n\u1e5b I",
+    "name": "Pānṛ I",
     "lat": 34.773868,
     "lng": 72.374928,
     "startYear": -50,
@@ -11476,7 +11466,7 @@
   {
     "id": "pleiades:335533616",
     "type": "temple",
-    "name": "Gallo-Roman temple of For\u00eat d'Halatte (cne. Ognon, Oise)",
+    "name": "Gallo-Roman temple of Forêt d'Halatte (cne. Ognon, Oise)",
     "lat": 49.242065,
     "lng": 2.625393,
     "startYear": -500,
@@ -11697,14 +11687,14 @@
   {
     "id": "pleiades:531050",
     "type": "temple",
-    "name": "Pec\u00eb",
+    "name": "Pecë",
     "lat": 39.933141,
     "lng": 20.172302,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 54 B2 Pec\u00eb",
+    "description": "An ancient place, cited: BAtlas 54 B2 Pecë",
     "estimatedTemporal": true,
     "qid": "Q13044064"
   },
@@ -11822,7 +11812,7 @@
   {
     "id": "pleiades:17634131",
     "type": "sanctuary",
-    "name": "Tall B\u0101zy",
+    "name": "Tall Bāzy",
     "lat": 36.42698687288314,
     "lng": 38.27593487901092,
     "startYear": 50,
@@ -11831,7 +11821,7 @@
     "category": "religion",
     "qid": "Q2390471",
     "description": "Archaeological site on the eastern bank of the Euphrates in northern Syria. The site contains a town dated to the Early Bronze Age III-IVA (mid-3rd millennium BCE), as well as a Roman sanctuary used only briefly from about the late 1st-late 2nd century CE. The western part of the site was flooded by the construction of the Tischrin Dam in 1999. Tall Bazi and the nearby site of Banat have been tentatively identified as the city of Armi/Armium mentioned in texts from Ebla.",
-    "props": { "ancientName": "Tall B\u0101zy, Tall Bazy, Tall Bazi" },
+    "props": { "ancientName": "Tall Bāzy, Tall Bazy, Tall Bazi" },
     "estimatedTemporal": true
   },
   {
@@ -11871,8 +11861,8 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Elmal\u0131 Museum's 2011 discovery of a rock-cut relief and many broken stelai near the fountain known as Sar\u0131 Mehmet \u00c7e\u015fmesi, in the Yukar\u0131ovac\u0131k Yayla (plateau), on the western slopes of Temrencik Tepe, on the border between the territory of ancient Choma and Oinoanda, points to the existence of a spring sanctuary of Leto, her children Apollo and Artemis (the Letoids), and perhaps also 9 nymphs.",
-    "props": { "ancientName": "Yukar\u0131ovac\u0131k " },
+    "description": "The Elmalı Museum's 2011 discovery of a rock-cut relief and many broken stelai near the fountain known as Sarı Mehmet Çeşmesi, in the Yukarıovacık Yayla (plateau), on the western slopes of Temrencik Tepe, on the border between the territory of ancient Choma and Oinoanda, points to the existence of a spring sanctuary of Leto, her children Apollo and Artemis (the Letoids), and perhaps also 9 nymphs.",
+    "props": { "ancientName": "Yukarıovacık " },
     "estimatedTemporal": true
   },
   {
@@ -11945,7 +11935,7 @@
     "category": "religion",
     "qid": "Q11944150",
     "description": "Temple located north of Lake Qarun in the Fayyum Depression. Tentatively dated to the Old Kingdom period, the temple may have been dedicated to the god Sobek.",
-    "props": { "ancientName": "Qasr al-\u1e62agha, Qasr el-\u1e62agha" },
+    "props": { "ancientName": "Qasr al-Ṣagha, Qasr el-Ṣagha" },
     "estimatedTemporal": true
   },
   {
@@ -12067,7 +12057,7 @@
   {
     "id": "pleiades:636775194",
     "type": "sanctuary",
-    "name": "Haut B\u00e9cherel",
+    "name": "Haut Bécherel",
     "lat": 48.4720398,
     "lng": -2.1457353,
     "startYear": -500,
@@ -12075,7 +12065,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q14628539",
-    "description": "Haut B\u00e9cherel is the site of a major Gallo-Roman sanctuary sacred to Mars.",
+    "description": "Haut Bécherel is the site of a major Gallo-Roman sanctuary sacred to Mars.",
     "estimatedTemporal": true
   },
   {
@@ -12254,7 +12244,7 @@
   {
     "id": "pleiades:888638014",
     "type": "temple",
-    "name": "Temple of B\u00eal",
+    "name": "Temple of Bêl",
     "lat": 34.75091855033262,
     "lng": 40.72577253576754,
     "startYear": -500,
@@ -12452,7 +12442,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3983297",
-    "description": "The remains of an Italic temple, in the locality known as \"Pi\u00e9 di Francia\". The sanctuary dates from the fourth to first centuries B.C.",
+    "description": "The remains of an Italic temple, in the locality known as \"Pié di Francia\". The sanctuary dates from the fourth to first centuries B.C.",
     "props": { "ancientName": "Tempio italico di Castel di Ieri" },
     "estimatedTemporal": true
   },
@@ -12654,7 +12644,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "One of the temples in the citadel of Nineveh that was dedicated to Nab\u00fb, the god of scribes; it is located north of the temple of the goddess I\u0161tar (Ema\u0161ma\u0161). The Sumerian ceremonial name Ezida means \"True House.\"",
+    "description": "One of the temples in the citadel of Nineveh that was dedicated to Nabû, the god of scribes; it is located north of the temple of the goddess Ištar (Emašmaš). The Sumerian ceremonial name Ezida means \"True House.\"",
     "props": { "ancientName": "Ezida" },
     "estimatedTemporal": true
   },
@@ -12683,7 +12673,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The modern name of a seventh-century Pallava cave temple in Mah\u0101balipuram.",
+    "description": "The modern name of a seventh-century Pallava cave temple in Mahābalipuram.",
     "props": { "ancientName": "Varaha Cave" },
     "qid": "Q15040922",
     "estimatedTemporal": true
@@ -12698,7 +12688,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Modern name of a seventh-century Pallava rock-cut temple in Mah\u0101balipuram.",
+    "description": "Modern name of a seventh-century Pallava rock-cut temple in Mahābalipuram.",
     "estimatedTemporal": true,
     "qid": "Q5269312"
   },
@@ -12771,7 +12761,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q2107814",
-    "description": "Pranu Muttedu is a pre- and protohistoric archaeological site located near Goni, Sardinia. The complex includes standing stones (menhirs) and prehistoric built tombs (domus de janas). The site dates to the Late Neolithic (3200 \u2013 2800 BC) and Early Chalcolithic (2800 \u2013 2600 BC) periods.",
+    "description": "Pranu Muttedu is a pre- and protohistoric archaeological site located near Goni, Sardinia. The complex includes standing stones (menhirs) and prehistoric built tombs (domus de janas). The site dates to the Late Neolithic (3200 – 2800 BC) and Early Chalcolithic (2800 – 2600 BC) periods.",
     "estimatedTemporal": true
   },
   {
@@ -12828,7 +12818,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1349784",
-    "description": "The City Eleusinion was one of the most important sanctuaries in the religious life of ancient Athens. It was the urban \u201cbranch\u201d of the sanctuary of Demeter and Kore at Eleusis in use during the Archaic and Classical periods.",
+    "description": "The City Eleusinion was one of the most important sanctuaries in the religious life of ancient Athens. It was the urban “branch” of the sanctuary of Demeter and Kore at Eleusis in use during the Archaic and Classical periods.",
     "props": { "ancientName": "Eleusinion" },
     "estimatedTemporal": true
   },
@@ -12963,7 +12953,7 @@
   {
     "id": "pleiades:30276984",
     "type": "temple",
-    "name": "Surviving colonnade of the imperial temple at M\u00e9rida",
+    "name": "Surviving colonnade of the imperial temple at Mérida",
     "lat": 38.916421,
     "lng": -6.344272,
     "startYear": -500,
@@ -13070,7 +13060,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An altar and sanctuary on the Acropolis of Athens, site of the bouphonia ritual during the Dipolieia festival. The shrine is to be identified with a set of cuttings at the highest point on the Acropolis, northeast of the Parthenon.",
-    "props": { "ancientName": "bom\u00f2n to\u00fb Poli\u00e9\u014ds Di\u00f3s" },
+    "props": { "ancientName": "bomòn toû Poliéōs Diós" },
     "qid": "Q24204307",
     "estimatedTemporal": true
   },
@@ -13118,15 +13108,15 @@
   {
     "id": "pleiades:995667313",
     "type": "sanctuary",
-    "name": "K\u00e1stron Kh\u00f3stion",
+    "name": "Kástron Khóstion",
     "lat": 38.254150499999994,
     "lng": 22.88301,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A complex of structures dating to the Greek and Roman period, with ceramic evidence of prior occupation of the vicinity, on a spur of Pali\u00f3vouno, overlooking a valley leading to the bay of Sar\u00e1nda on the Korinthian Gulf. The excavators associate this site with the attested classical city of Khorsiai on the basis of epigraphic evidence recovered at the site.",
-    "props": { "ancientName": "Kastron Khostion, K\u00e1stron Kh\u00f3stion" },
+    "description": "A complex of structures dating to the Greek and Roman period, with ceramic evidence of prior occupation of the vicinity, on a spur of Palióvouno, overlooking a valley leading to the bay of Saránda on the Korinthian Gulf. The excavators associate this site with the attested classical city of Khorsiai on the basis of epigraphic evidence recovered at the site.",
+    "props": { "ancientName": "Kastron Khostion, Kástron Khóstion" },
     "estimatedTemporal": true
   },
   {
@@ -13440,7 +13430,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Mons Seleucus was the site of the famous battle between Constantius II and the usurper Magnentius in AD 353. The Gallo-Roman vicus at La B\u00e2tie-Montsal\u00e9on included a Gallo-Roman sanctuary.",
+    "description": "Mons Seleucus was the site of the famous battle between Constantius II and the usurper Magnentius in AD 353. The Gallo-Roman vicus at La Bâtie-Montsaléon included a Gallo-Roman sanctuary.",
     "props": { "ancientName": "Mons Seleucus" },
     "estimatedTemporal": true,
     "qid": "Q130313104"
@@ -13576,7 +13566,7 @@
   {
     "id": "pleiades:41413690",
     "type": "sanctuary",
-    "name": "Sanctuary of Cyb\u00e8le",
+    "name": "Sanctuary of Cybèle",
     "lat": 45.759598381225125,
     "lng": 4.818612707747085,
     "startYear": -500,
@@ -13584,7 +13574,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3471734",
-    "description": "A Sanctuary of Cyb\u00e8le located adjacent to the theater complex at Lugdunum and dating to the middle of the second century CE.",
+    "description": "A Sanctuary of Cybèle located adjacent to the theater complex at Lugdunum and dating to the middle of the second century CE.",
     "estimatedTemporal": true
   },
   {
@@ -13646,14 +13636,14 @@
   {
     "id": "pleiades:491752",
     "type": "temple",
-    "name": "Voj\u0161anci",
+    "name": "Vojšanci",
     "lat": 41.50212,
     "lng": 22.16728,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 50 B1 Voj\u0161anci",
+    "description": "An ancient place, cited: BAtlas 50 B1 Vojšanci",
     "estimatedTemporal": true
   },
   {
@@ -13752,7 +13742,7 @@
     "category": "religion",
     "qid": "Q97206898",
     "description": "A sanctuary of Apollo Delphinios in Athens, which was closely associated with Theseus and served as a law court for cases of justifiable homicide. It is perhaps to be identified with the Classical Doric temple, whose remains are located south of the Olympieion.",
-    "props": { "ancientName": "Delph\u00ednion" },
+    "props": { "ancientName": "Delphínion" },
     "estimatedTemporal": true
   },
   {
@@ -13767,7 +13757,7 @@
     "category": "religion",
     "qid": "Q902329",
     "description": "The sanctuary of Artemis Brauronia on the Acropolis of Athens was a branch of the sanctuary of Artemis at Brauron in eastern Attica, perhaps established by Peisistratos or his sons in the second half of the sixth century BC, although the surviving structure probably dates from the 430s BC. It consisted of a Doric stoa with two wings surrounding a court, hosted a giant bronze statue of the Trojan horse by Strongylion, and was probably the site of the Arkteia ritual.",
-    "props": { "ancientName": "Art\u00e9midos Braur\u014dn\u00edas hier\u00f3n" },
+    "props": { "ancientName": "Artémidos Braurōnías hierón" },
     "estimatedTemporal": true
   },
   {
@@ -13865,7 +13855,7 @@
     "category": "religion",
     "qid": "Q2891038",
     "description": "An altar dedicated to Zeus Agoraios, originally erected on the Pnyx in the late fourth century BC, but relocated to the Athenian Agora in the Augustan period.",
-    "props": { "ancientName": "Agora\u00edou Di\u00f2s B\u014dm\u00f3s" },
+    "props": { "ancientName": "Agoraíou Diòs Bōmós" },
     "estimatedTemporal": true
   },
   {
@@ -13920,7 +13910,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Five Rathas is the modern name of a group of five seventh-century Pallava rock-cut temples at Mah\u0101balipuram.",
+    "description": "The Five Rathas is the modern name of a group of five seventh-century Pallava rock-cut temples at Mahābalipuram.",
     "estimatedTemporal": true
   },
   {
@@ -14020,7 +14010,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The sanctuary of Aphrodite Pandemos (\"of all the People\") and Peitho (\"Persuasion\"), established by Theseus or Solon, was located on the south slope of the Acropolis of Athens, directly below the Nike Temple bastion. It was a centre of the Aphrodisia and Arrephoria festivals. The surviving remains belong to a structure built ca. 287/6 BCE.",
-    "props": { "ancientName": "Aphrod\u00edt\u0113s pand\u1e17mou hier\u00f3n" },
+    "props": { "ancientName": "Aphrodítēs pandḗmou hierón" },
     "estimatedTemporal": true
   },
   {
@@ -14357,14 +14347,14 @@
   {
     "id": "pleiades:324702",
     "type": "temple",
-    "name": "Ell\u00e8s",
+    "name": "Ellès",
     "lat": 35.950111,
     "lng": 9.0994,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 33 D1 Ell\u00e8s",
+    "description": "An ancient place, cited: BAtlas 33 D1 Ellès",
     "estimatedTemporal": true
   },
   {
@@ -14533,14 +14523,14 @@
   {
     "id": "pleiades:167900",
     "type": "temple",
-    "name": "St-Maurice-d\u2019Ibie",
+    "name": "St-Maurice-d’Ibie",
     "lat": 44.501152,
     "lng": 4.483047,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 17 C5 St-Maurice-d\u2019Ibie",
+    "description": "An ancient place, cited: BAtlas 17 C5 St-Maurice-d’Ibie",
     "estimatedTemporal": true
   },
   {
@@ -14573,14 +14563,14 @@
   {
     "id": "pleiades:167923",
     "type": "temple",
-    "name": "Le Serre d\u2019Astier",
+    "name": "Le Serre d’Astier",
     "lat": 44.361708,
     "lng": 5.775843,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 17 F5 Le Serre d\u2019Astier",
+    "description": "An ancient place, cited: BAtlas 17 F5 Le Serre d’Astier",
     "estimatedTemporal": true
   },
   {
@@ -14626,14 +14616,14 @@
   {
     "id": "pleiades:167955",
     "type": "temple",
-    "name": "Varces-Alli\u00e8res-et-Risset",
+    "name": "Varces-Allières-et-Risset",
     "lat": 45.088055,
     "lng": 5.679483,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 17 F3 Varces-Alli\u00e8res-et-Risset",
+    "description": "An ancient place, cited: BAtlas 17 F3 Varces-Allières-et-Risset",
     "estimatedTemporal": true
   },
   {
@@ -14693,7 +14683,7 @@
   {
     "id": "pleiades:177659",
     "type": "sanctuary",
-    "name": "Villards-d\u2019Heria",
+    "name": "Villards-d’Heria",
     "lat": 46.41924791007561,
     "lng": 5.747297746032559,
     "startYear": -500,
@@ -14762,14 +14752,14 @@
   {
     "id": "pleiades:187395",
     "type": "temple",
-    "name": "G\u00f6rtschach",
+    "name": "Görtschach",
     "lat": 46.814547,
     "lng": 12.85263,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 19 E3 G\u00f6rtschach",
+    "description": "An ancient place, cited: BAtlas 19 E3 Görtschach",
     "estimatedTemporal": true,
     "qid": "Q125796596"
   },
@@ -14844,27 +14834,27 @@
   {
     "id": "pleiades:187510",
     "type": "sanctuary",
-    "name": "Pillerh\u00f6he",
+    "name": "Pillerhöhe",
     "lat": 47.118282,
     "lng": 10.667092,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 19 C2 Pillerh\u00f6he",
+    "description": "An ancient place, cited: BAtlas 19 C2 Pillerhöhe",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:187514",
     "type": "sanctuary",
-    "name": "Pl\u00f6ckenpass",
+    "name": "Plöckenpass",
     "lat": 46.603529,
     "lng": 12.945366199999999,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 19 E3 Pl\u00f6ckenpass",
+    "description": "An ancient place, cited: BAtlas 19 E3 Plöckenpass",
     "estimatedTemporal": true
   },
   {
@@ -14951,7 +14941,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1526555",
-    "description": "A monumental first-century A.D. Romano-Celtic sanctuary located in Autun, Sa\u00f4ne-et-Loire, France, to the northwest of the ancient city of Augustodunum.",
+    "description": "A monumental first-century A.D. Romano-Celtic sanctuary located in Autun, Saône-et-Loire, France, to the northwest of the ancient city of Augustodunum.",
     "estimatedTemporal": true
   },
   {
@@ -15217,21 +15207,21 @@
     "endYear": -809,
     "source": "Pleiades",
     "category": "religion",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Nab\u00fb. Unlike most of the religious buildings constructed at Kalhu, the Ezida (\"True House\") was built in the southeast corner of the Citadel.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Nabû. Unlike most of the religious buildings constructed at Kalhu, the Ezida (\"True House\") was built in the southeast corner of the Citadel.",
     "props": { "ancientName": "Ezida" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:403927880",
     "type": "temple",
-    "name": "Temple of Hermes at \u00c7at\u0131\u00f6ren",
+    "name": "Temple of Hermes at Çatıören",
     "lat": 36.52167644195697,
     "lng": 34.12549449018279,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Temple of Hermes at \u00c7at\u0131\u00f6ren",
+    "description": "Temple of Hermes at Çatıören",
     "estimatedTemporal": true
   },
   {
@@ -15688,7 +15678,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An archaeological site with rock-cut reliefs made under the Sasanian kings Arda\u0161ir I (224-241) and Shapur I (241-272).",
+    "description": "An archaeological site with rock-cut reliefs made under the Sasanian kings Ardašir I (224-241) and Shapur I (241-272).",
     "estimatedTemporal": true,
     "qid": "Q1530403"
   },
@@ -15803,15 +15793,15 @@
   {
     "id": "pleiades:213534097",
     "type": "temple",
-    "name": "Ema\u0161dari",
+    "name": "Emašdari",
     "lat": 32.54018402140138,
     "lng": 44.424690089518116,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the goddess I\u0161tar of Agade at Babylon. The Sumerian ceremonial name Ema\u0161dari means \"House of Animal Offerings.\" The Neo-Babylonian king Nabonidus rebuilt/renovated it.",
-    "props": { "ancientName": "Ema\u0161dari" },
+    "description": "The temple of the goddess Ištar of Agade at Babylon. The Sumerian ceremonial name Emašdari means \"House of Animal Offerings.\" The Neo-Babylonian king Nabonidus rebuilt/renovated it.",
+    "props": { "ancientName": "Emašdari" },
     "estimatedTemporal": true
   },
   {
@@ -15824,7 +15814,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The ziggurat of the god \u0160ama\u0161 at Sippar. The Sumerian ceremonial name Ekunankuga means \"House, Pure Stairway of Heaven.\"",
+    "description": "The ziggurat of the god Šamaš at Sippar. The Sumerian ceremonial name Ekunankuga means \"House, Pure Stairway of Heaven.\"",
     "props": { "ancientName": "Ekunankuga" },
     "estimatedTemporal": true
   },
@@ -15838,7 +15828,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The ziggurat of the god \u0160ama\u0161 at Larsa. The Sumerian ceremonial name Eduranna means \"House, Bond of Heaven.\"",
+    "description": "The ziggurat of the god Šamaš at Larsa. The Sumerian ceremonial name Eduranna means \"House, Bond of Heaven.\"",
     "props": { "ancientName": "Eduranna" },
     "estimatedTemporal": true
   },
@@ -15873,15 +15863,15 @@
   {
     "id": "pleiades:457530554",
     "type": "temple",
-    "name": "Temple of A\u0161\u0161ur at Assur",
+    "name": "Temple of Aššur at Assur",
     "lat": 35.46032272281806,
     "lng": 43.26273634338578,
     "startYear": -664,
     "endYear": -564,
     "source": "Pleiades",
     "category": "religion",
-    "description": "From the second half of the third millennium BC until 614 BC, there was a temple in Assur dedicated to the city\u2019s tutelary deity A\u0161\u0161ur. The temple was excavated by W. Andrae in 1903\u201305 and 1909\u201312. The earliest and latest textual records for construction work on A\u0161\u0161ur\u2019s temple date respectively to the time of \u0160alim-a\u1e2bum, an early old Assyrian king, and the reign of Ashurbanipal (668\u2013631 BC), Assyria\u2019s last great king. According to the Middle Assyrian king Shalmaneser I (1263\u20131234 BC) and the Neo-Assyrian ruler Esarhaddon (680\u2013669 BC), U\u0161pia, a tribal ancestor of the Old Assyrian king \u0160am\u0161\u012b-Adad I (ca. 1808\u20131776 BC), was the building\u2019s founder. In 614 BC, when the city was captured by the Medes, the temple was destroyed.",
-    "props": { "ancientName": "E\u0161arra" },
+    "description": "From the second half of the third millennium BC until 614 BC, there was a temple in Assur dedicated to the city’s tutelary deity Aššur. The temple was excavated by W. Andrae in 1903–05 and 1909–12. The earliest and latest textual records for construction work on Aššur’s temple date respectively to the time of Šalim-aḫum, an early old Assyrian king, and the reign of Ashurbanipal (668–631 BC), Assyria’s last great king. According to the Middle Assyrian king Shalmaneser I (1263–1234 BC) and the Neo-Assyrian ruler Esarhaddon (680–669 BC), Ušpia, a tribal ancestor of the Old Assyrian king Šamšī-Adad I (ca. 1808–1776 BC), was the building’s founder. In 614 BC, when the city was captured by the Medes, the temple was destroyed.",
+    "props": { "ancientName": "Ešarra" },
     "qid": "Q200200",
     "estimatedTemporal": true
   },
@@ -15901,7 +15891,7 @@
   {
     "id": "pleiades:338703437",
     "type": "sanctuary",
-    "name": "G\u00fcglingen Mithraeum",
+    "name": "Güglingen Mithraeum",
     "lat": 49.06166027420389,
     "lng": 9.005454271750061,
     "startYear": -500,
@@ -15921,7 +15911,7 @@
     "endYear": -1026,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A distinctive feature of the city of Assur is the double-temple of the gods Anu and Adad. This building, together with its twin ziggurats, was constructed no later than the Middle Assyrian period; it underwent a major rebuilding in the reign of Tiglath-pileser I (1114\u20131076 BC). The existence of an (unnamed) Adad temple at Assur, however, is known from inscriptions of the Old Assyrian rulers Eri\u0161um I and Ik\u016bnum. The various parts of this axisymmetric, double-temple was given Sumerian names: Anu\u2019s temple and ziggurat were called E\u0161aan and Emelamanna; and Adad\u2019s temple and ziggurat went by the names E\u0161uddege\u0161tuku and Egi\u0161lam\u0161ar\u0161ar.",
+    "description": "A distinctive feature of the city of Assur is the double-temple of the gods Anu and Adad. This building, together with its twin ziggurats, was constructed no later than the Middle Assyrian period; it underwent a major rebuilding in the reign of Tiglath-pileser I (1114–1076 BC). The existence of an (unnamed) Adad temple at Assur, however, is known from inscriptions of the Old Assyrian rulers Erišum I and Ikūnum. The various parts of this axisymmetric, double-temple was given Sumerian names: Anu’s temple and ziggurat were called Ešaan and Emelamanna; and Adad’s temple and ziggurat went by the names Ešuddegeštuku and Egišlamšaršar.",
     "props": { "ancientName": "Emelamanna" },
     "qid": "Q200200",
     "estimatedTemporal": true
@@ -15942,15 +15932,15 @@
   {
     "id": "pleiades:763257295",
     "type": "temple",
-    "name": "Ema\u0161ma\u0161",
+    "name": "Emašmaš",
     "lat": 36.3594193,
     "lng": 43.1527334,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The most important temple in the citadel of Nineveh was dedicated to the city's tutelary deity, the goddess I\u0161tar. The temple was located in the center of the citadel and went by the Sumerian ceremonial name Ema\u0161ma\u0161 (meaning uncertain).",
-    "props": { "ancientName": "Ema\u0161ma\u0161" },
+    "description": "The most important temple in the citadel of Nineveh was dedicated to the city's tutelary deity, the goddess Ištar. The temple was located in the center of the citadel and went by the Sumerian ceremonial name Emašmaš (meaning uncertain).",
+    "props": { "ancientName": "Emašmaš" },
     "estimatedTemporal": true
   },
   {
@@ -16009,7 +15999,7 @@
     "category": "religion",
     "qid": "Q940907",
     "description": "A gymnasium and sanctuary of Herakles at Athens, located southeast of the Acropolis",
-    "props": { "ancientName": "Kun\u00f3sarges" },
+    "props": { "ancientName": "Kunósarges" },
     "estimatedTemporal": true
   },
   {
@@ -16117,7 +16107,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q105948288",
-    "description": "An archaeological site near the Mycenaean causeway has been interpreted as a multi-period hero\u00f6n dedicated to Agamemnon.",
+    "description": "An archaeological site near the Mycenaean causeway has been interpreted as a multi-period heroön dedicated to Agamemnon.",
     "props": { "ancientName": "Agamemnoneion of Mycenae" },
     "estimatedTemporal": true
   },
@@ -16608,7 +16598,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q26258435",
-    "description": "The Khajuraho Group of Monuments is designated as a UNESCO World Heritage site located in the modern Indian state of Madhya Pradesh. These temples were built during the Chandella dynasty (ca. 950-1050 CE). The remaining temples belong to two different religions \u2013 Hinduism and Jainism",
+    "description": "The Khajuraho Group of Monuments is designated as a UNESCO World Heritage site located in the modern Indian state of Madhya Pradesh. These temples were built during the Chandella dynasty (ca. 950-1050 CE). The remaining temples belong to two different religions – Hinduism and Jainism",
     "estimatedTemporal": true
   },
   {
@@ -16650,7 +16640,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A substantial multiperiod sanctuary and associated complex on the Aegean island of Despotiko. Structures and finds date from the early Iron Age through Roman times, with some evidence for use or reuse into the Byzantine period.",
-    "props": { "ancientName": "Archaiologik\u00f3s Ch\u00f3ros Despotiko\u00fa" },
+    "props": { "ancientName": "Archaiologikós Chóros Despotikoú" },
     "estimatedTemporal": true
   },
   {
@@ -16752,14 +16742,14 @@
   {
     "id": "pleiades:138290",
     "type": "temple",
-    "name": "Ch\u00e2teau de Chatillon",
+    "name": "Château de Chatillon",
     "lat": 47.811754,
     "lng": 1.47772,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 14 G1 Ch\u00e2teau de Chatillon",
+    "description": "An ancient place, cited: BAtlas 14 G1 Château de Chatillon",
     "estimatedTemporal": true
   },
   {
@@ -16800,8 +16790,8 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The Gallo-Roman sanctuary with twin temples was discovered in 1964 at the locality called Masamas in the commune of Saint-L\u00e9omer.",
-    "props": { "ancientName": "Masamas, Saint-L\u00e9omer" },
+    "description": "The Gallo-Roman sanctuary with twin temples was discovered in 1964 at the locality called Masamas in the commune of Saint-Léomer.",
+    "props": { "ancientName": "Masamas, Saint-Léomer" },
     "estimatedTemporal": true
   },
   {
@@ -16815,7 +16805,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3517583",
-    "description": "A Gallo-Roman temple of Mercurius, located atop the modern Puy-de-D\u00f4me, commune Orcines in France.",
+    "description": "A Gallo-Roman temple of Mercurius, located atop the modern Puy-de-Dôme, commune Orcines in France.",
     "props": { "ancientName": "Mercurius, T." },
     "estimatedTemporal": true
   },
@@ -16903,14 +16893,14 @@
   {
     "id": "pleiades:138549",
     "type": "temple",
-    "name": "St-And\u00e9ol",
+    "name": "St-Andéol",
     "lat": 44.653883,
     "lng": 3.104521,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 14 I4 St-And\u00e9ol",
+    "description": "An ancient place, cited: BAtlas 14 I4 St-Andéol",
     "estimatedTemporal": true
   },
   {
@@ -16968,7 +16958,7 @@
   {
     "id": "pleiades:415113284",
     "type": "temple",
-    "name": "Roman temple of C\u00f3rdoba",
+    "name": "Roman temple of Córdoba",
     "lat": 37.8848788,
     "lng": -4.7766452,
     "startYear": -500,
@@ -17010,7 +17000,7 @@
   {
     "id": "pleiades:255966",
     "type": "temple",
-    "name": "Alc\u00e1ntara",
+    "name": "Alcántara",
     "lat": 39.72165979823737,
     "lng": -6.891513559296611,
     "startYear": -500,
@@ -17018,8 +17008,8 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q7362337",
-    "description": "The Roman temple of Alc\u00e1ntara is a well-preserved structure located at one side of the Alc\u00e1ntara Bridge in Extremadura (Spain). The building, dating to A.D. 103, is the work of Caius Iulius Lacer. The lintel inscription indicates the structure was dedicated to Trajan.",
-    "props": { "ancientName": "Roman temple at the bridge of Alc\u00e1ntara" },
+    "description": "The Roman temple of Alcántara is a well-preserved structure located at one side of the Alcántara Bridge in Extremadura (Spain). The building, dating to A.D. 103, is the work of Caius Iulius Lacer. The lintel inscription indicates the structure was dedicated to Trajan.",
+    "props": { "ancientName": "Roman temple at the bridge of Alcántara" },
     "estimatedTemporal": true
   },
   {
@@ -17089,7 +17079,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q57559213",
-    "description": "The temple of Aphrodite Euploia is a tholos constructed in the fourth century BC in Knidos, a coastal city on the Dat\u00e7a Peninsula. It was built to house Praxiteles' famous nude statue of Aphrodite.",
+    "description": "The temple of Aphrodite Euploia is a tholos constructed in the fourth century BC in Knidos, a coastal city on the Datça Peninsula. It was built to house Praxiteles' famous nude statue of Aphrodite.",
     "props": { "ancientName": "Temple of Aphrodite Euploia" },
     "estimatedTemporal": true
   },
@@ -17132,7 +17122,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "The temple of the goddess A\u0161ratu, Ehilikalamma (\u201cHouse of the Luxuriance of the Land\u201d), was located in the Ka-dingirra district (modern Sahn) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of four temples in that part of the city, which was located in the northern part of the eastern half of Babylon.",
+    "description": "The temple of the goddess Ašratu, Ehilikalamma (“House of the Luxuriance of the Land”), was located in the Ka-dingirra district (modern Sahn) of Babylon. According to the Babylonian topographical text Tintir = Babylon Tablet IV, this was one of four temples in that part of the city, which was located in the northern part of the eastern half of Babylon.",
     "props": { "ancientName": "Ehilikalamma" },
     "estimatedTemporal": true
   },
@@ -17230,7 +17220,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A sanctuary dedicated to Eurysakes, son of Ajax on the Kolonos Agoraios in Athens, which served as the central sanctuary of the tribe Aiantis. It has not been located archaeologically, but the findspots of related inscriptions suggest it was somewhere southwest of the Hephaisteion.",
-    "props": { "ancientName": "Eurus\u00e1keion,Eurysakeion" },
+    "props": { "ancientName": "Eurusákeion,Eurysakeion" },
     "estimatedTemporal": true,
     "qid": "Q125537007"
   },
@@ -17272,7 +17262,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "Pausanias mentions the Sanctuary of Zeus Aphesios as being located atop a mountain. The site was excavated ca. 1890 and has views over the Saronic Gulf.",
-    "props": { "ancientName": "Dios Aphesiou naos, Di\u00f3s Aphes\u00edou na\u00f3s" },
+    "props": { "ancientName": "Dios Aphesiou naos, Diós Aphesíou naós" },
     "estimatedTemporal": true
   },
   {
@@ -17287,7 +17277,7 @@
     "category": "religion",
     "qid": "Q65243607",
     "description": "The sanctuary of Apollo Pythios in Athens, located south of the Temple of Olympian Zeus, probably near Ioseph ton Rogon street, where many inscriptions related to the cult have been found.",
-    "props": { "ancientName": "P\u00fathion, Pythion" },
+    "props": { "ancientName": "Púthion, Pythion" },
     "estimatedTemporal": true
   },
   {
@@ -17345,7 +17335,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q106856863",
-    "description": "A second-century Mithraeum is located in the area of the municipality of Mundelsheim in the Ludwigsburg district of Baden-W\u00fcrttemberg, Germany.",
+    "description": "A second-century Mithraeum is located in the area of the municipality of Mundelsheim in the Ludwigsburg district of Baden-Württemberg, Germany.",
     "estimatedTemporal": true
   },
   {
@@ -17395,7 +17385,7 @@
   {
     "id": "pleiades:747563988",
     "type": "sanctuary",
-    "name": "Gallo-Roman sites at \u00c9rome, France",
+    "name": "Gallo-Roman sites at Érome, France",
     "lat": 45.1197078,
     "lng": 4.8212181,
     "startYear": -500,
@@ -17409,7 +17399,7 @@
   {
     "id": "pleiades:44707451",
     "type": "sanctuary",
-    "name": "Gallo-Roman remains at La Tour, Sabl\u00e9-sur-Sarthe",
+    "name": "Gallo-Roman remains at La Tour, Sablé-sur-Sarthe",
     "lat": 47.8316793,
     "lng": -0.3540458,
     "startYear": -500,
@@ -17610,7 +17600,7 @@
   {
     "id": "pleiades:62131047",
     "type": "sanctuary",
-    "name": "\u0120gantija",
+    "name": "Ġgantija",
     "lat": 36.0486137570562,
     "lng": 14.268979693297439,
     "startYear": -500,
@@ -17715,7 +17705,7 @@
     "category": "religion",
     "qid": "Q20084335",
     "description": "A temple of Artemis on the Ilissos that marks the spot where the goddess first hunted after arriving from Delos. The archaeological remains of the site are found on the modern Ardettou Street in Athens.",
-    "props": { "ancientName": "Naos Agroteras Artemidos, Na\u00f3s Agrot\u00e9ras Art\u00e9midos" },
+    "props": { "ancientName": "Naos Agroteras Artemidos, Naós Agrotéras Artémidos" },
     "estimatedTemporal": true
   },
   {
@@ -17729,7 +17719,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "A sanctuary in Attica, containing the Palladion, an image of Athena captured during the Trojan War by the Argives, who were killed by Damophon and the Athenians on their way home. The sanctuary was the location of a lawcourt for cases of involuntary homicide, attempted homicide, and homicide of a foreigner, resident foreigner or enslaved person. It was probably located in south-eastern Athens or perhaps in Phaleron.",
-    "props": { "ancientName": "Pall\u00e1dion" },
+    "props": { "ancientName": "Palládion" },
     "estimatedTemporal": true
   },
   {
@@ -17758,7 +17748,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "The tomb and shrine of Kekrops, first king of Athens, located on the Acropolis. In the sixth century BC it was marked by a giant Ionic column, which was destroyed in the Persian Sack of 480 BC. The site was partially covered by the southwestern corner of the Erechtheion in the second half of the fifth century BC.",
-    "props": { "ancientName": "Kekr\u00f3pion" },
+    "props": { "ancientName": "Kekrópion" },
     "estimatedTemporal": true
   },
   {
@@ -17843,7 +17833,7 @@
     "endYear": -2350,
     "source": "Pleiades",
     "category": "religion",
-    "description": "From the late Early Dynastic period (ED III, ca. 2500/2400 BC) until 614 BC, there was a temple in the city of Assur dedicated to I\u0161tar, a goddess who was revered in that important northern-Mesopotamian city in a few different forms. Several building phases (designated \u201cTemples H\u2013A,\u201d from earliest to latest) were excavated by W. Andrae between 1905 and 1914. Periodically the location and orientation of the I\u0161tar temple changed, especially during the reigns of the Middle Assyrian kings Tukult\u012b-Ninurta I (1243\u20131207 BC) and A\u0161\u0161ur-r\u0113\u0161a-i\u0161i I (1132\u20131115 BC). The earliest and latest textual records for the existence of the temple date respectively to the time of Ititi, a local ruler of Assur during the Old Akkadian Period, and the reign of S\u00een-\u0161arra-i\u0161kun (626\u2013612 BC), the penultimate king of Assyria.",
+    "description": "From the late Early Dynastic period (ED III, ca. 2500/2400 BC) until 614 BC, there was a temple in the city of Assur dedicated to Ištar, a goddess who was revered in that important northern-Mesopotamian city in a few different forms. Several building phases (designated “Temples H–A,” from earliest to latest) were excavated by W. Andrae between 1905 and 1914. Periodically the location and orientation of the Ištar temple changed, especially during the reigns of the Middle Assyrian kings Tukultī-Ninurta I (1243–1207 BC) and Aššur-rēša-iši I (1132–1115 BC). The earliest and latest textual records for the existence of the temple date respectively to the time of Ititi, a local ruler of Assur during the Old Akkadian Period, and the reign of Sîn-šarra-iškun (626–612 BC), the penultimate king of Assyria.",
     "props": { "ancientName": "Temple H" },
     "qid": "Q200200",
     "estimatedTemporal": true
@@ -18253,7 +18243,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q17053330",
-    "description": "Modern name of a seventh-century Pallava rock-cut temple at Mah\u0101balipuram.",
+    "description": "Modern name of a seventh-century Pallava rock-cut temple at Mahābalipuram.",
     "props": { "ancientName": "Atyantakamapallaveshvaragriha" },
     "estimatedTemporal": true
   },
@@ -18357,41 +18347,41 @@
   {
     "id": "pleiades:236594",
     "type": "temple",
-    "name": "Pan\u00f3ias",
+    "name": "Panóias",
     "lat": 41.2835006,
     "lng": -7.6821418,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 24 D3 Pan\u00f3ias",
+    "description": "An ancient place, cited: BAtlas 24 D3 Panóias",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:236646",
     "type": "temple",
-    "name": "S. Eulalia de B\u00f3veda",
+    "name": "S. Eulalia de Bóveda",
     "lat": 42.9801274,
     "lng": -7.6859649,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Located some 16 km from Lugo, S. Eulalia de B\u00f3veda is the location of a vaulted, three-aisled, underground building, likely dating to the middle Imperial period and functioning as a nymphaeum.",
+    "description": "Located some 16 km from Lugo, S. Eulalia de Bóveda is the location of a vaulted, three-aisled, underground building, likely dating to the middle Imperial period and functioning as a nymphaeum.",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:246231",
     "type": "sanctuary",
-    "name": "Belb\u00e8ze",
+    "name": "Belbèze",
     "lat": 43.132552,
     "lng": 1.026297,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 G2 Belb\u00e8ze",
-    "props": { "ancientName": "Belb\u00e8ze-en-Comminges" },
+    "description": "An ancient place, cited: BAtlas 25 G2 Belbèze",
+    "props": { "ancientName": "Belbèze-en-Comminges" },
     "estimatedTemporal": true
   },
   {
@@ -18478,16 +18468,15 @@
   {
     "id": "pleiades:246500",
     "type": "temple",
-    "name": "M\u00e9zin",
+    "name": "Mézin",
     "lat": 44.056359,
     "lng": 0.257669,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 F1 M\u00e9zin",
-    "estimatedTemporal": true,
-    "qid": "Q120232179"
+    "description": "An ancient place, cited: BAtlas 25 F1 Mézin",
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:246520",
@@ -18506,41 +18495,41 @@
   {
     "id": "pleiades:246597",
     "type": "sanctuary",
-    "name": "Sacou\u00e9",
+    "name": "Sacoué",
     "lat": 42.987607,
     "lng": 0.563952,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 F2 Sacou\u00e9",
+    "description": "An ancient place, cited: BAtlas 25 F2 Sacoué",
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:246600",
     "type": "sanctuary",
-    "name": "St-B\u00e9at",
+    "name": "St-Béat",
     "lat": 42.914325,
     "lng": 0.693047,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 F3 St-B\u00e9at (1)",
-    "props": { "ancientName": "Saint-B\u00e9at" },
+    "description": "An ancient place, cited: BAtlas 25 F3 St-Béat (1)",
+    "props": { "ancientName": "Saint-Béat" },
     "estimatedTemporal": true
   },
   {
     "id": "pleiades:246614",
     "type": "temple",
-    "name": "S. Cristina d\u2019Aro",
+    "name": "S. Cristina d’Aro",
     "lat": 41.81547,
     "lng": 3.002902,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 25 I4 S. Cristina d\u2019Aro",
+    "description": "An ancient place, cited: BAtlas 25 I4 S. Cristina d’Aro",
     "estimatedTemporal": true
   },
   {
@@ -18876,7 +18865,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q20003648",
-    "description": "Megalithic temple in Malta constructed during the M\u0121arr phase (ca. 3700 BCE) and abandoned ca. 2500 BCE.",
+    "description": "Megalithic temple in Malta constructed during the Mġarr phase (ca. 3700 BCE) and abandoned ca. 2500 BCE.",
     "props": { "ancientName": "Kordin III Temple" },
     "estimatedTemporal": true
   },
@@ -18924,14 +18913,14 @@
   {
     "id": "pleiades:108789",
     "type": "temple",
-    "name": "Bailleul-sur-Th\u00e9rain",
+    "name": "Bailleul-sur-Thérain",
     "lat": 49.3855765,
     "lng": 2.2317945,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 C3 Bailleul-sur-Th\u00e9rain",
+    "description": "An ancient place, cited: BAtlas 11 C3 Bailleul-sur-Thérain",
     "estimatedTemporal": true
   },
   {
@@ -18951,7 +18940,7 @@
   {
     "id": "pleiades:108833",
     "type": "sanctuary",
-    "name": "Gallo-Roman Sanctuary at B\u00fb",
+    "name": "Gallo-Roman Sanctuary at Bû",
     "lat": 48.81583,
     "lng": 1.498878,
     "startYear": -500,
@@ -18959,8 +18948,8 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q22940705",
-    "description": "Remains of a rectangular Romano-Celtic temple were excavated north of the French town of B\u00fb (in the department of Eure-et-Loir), beginning in the 1960s. Other buildings of uncertain nature and a theater were also identified in the vicinity. Coins and pottery discovered at the site indicate there was activity there during the Roman imperial period.",
-    "props": { "ancientName": "Bois du Four \u00e0 Chaux" },
+    "description": "Remains of a rectangular Romano-Celtic temple were excavated north of the French town of Bû (in the department of Eure-et-Loir), beginning in the 1960s. Other buildings of uncertain nature and a theater were also identified in the vicinity. Coins and pottery discovered at the site indicate there was activity there during the Roman imperial period.",
+    "props": { "ancientName": "Bois du Four à Chaux" },
     "estimatedTemporal": true
   },
   {
@@ -19029,7 +19018,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 11 C3 Epiais-Rhus",
-    "props": { "ancientName": "Les Terres Noires, \u00c9piais-Rhus" },
+    "props": { "ancientName": "Les Terres Noires, Épiais-Rhus" },
     "estimatedTemporal": true
   },
   {
@@ -19049,14 +19038,14 @@
   {
     "id": "pleiades:108968",
     "type": "sanctuary",
-    "name": "Estr\u00e9es-St-Denis",
+    "name": "Estrées-St-Denis",
     "lat": 49.425878,
     "lng": 2.6423744,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 C3 Estr\u00e9es-St-Denis",
+    "description": "An ancient place, cited: BAtlas 11 C3 Estrées-St-Denis",
     "estimatedTemporal": true
   },
   {
@@ -19109,7 +19098,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient Gallo-Roman sanctuary near modern Genainville (France), with excavated remains of a temple, nymphaeum, and theater: BAtlas 11 B3 G\u00e9nainville (sic)",
+    "description": "An ancient Gallo-Roman sanctuary near modern Genainville (France), with excavated remains of a temple, nymphaeum, and theater: BAtlas 11 B3 Génainville (sic)",
     "props": { "ancientName": "Les Vaux de la Celle" },
     "estimatedTemporal": true
   },
@@ -19130,7 +19119,7 @@
   {
     "id": "pleiades:109013",
     "type": "temple",
-    "name": "G\u00f6rresburg",
+    "name": "Görresburg",
     "lat": 50.48753145,
     "lng": 6.62548385,
     "startYear": -500,
@@ -19138,7 +19127,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q1559564",
-    "description": "An ancient place, cited: BAtlas 11 G2 G\u00f6rresburg",
+    "description": "An ancient place, cited: BAtlas 11 G2 Görresburg",
     "estimatedTemporal": true
   },
   {
@@ -19165,8 +19154,8 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "A Gallo-Roman sanctuary identified in the 1960s at La Cav\u00e9e du Moulin near Hanches in the Eure-et-Loir department of France. ",
-    "props": { "ancientName": "La Cav\u00e9e du Moulin" },
+    "description": "A Gallo-Roman sanctuary identified in the 1960s at La Cavée du Moulin near Hanches in the Eure-et-Loir department of France. ",
+    "props": { "ancientName": "La Cavée du Moulin" },
     "estimatedTemporal": true
   },
   {
@@ -19213,14 +19202,14 @@
   {
     "id": "pleiades:109170",
     "type": "temple",
-    "name": "M\u00f6hn",
+    "name": "Möhn",
     "lat": 49.831244249899996,
     "lng": 6.587647065985,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 G3 M\u00f6hn",
+    "description": "An ancient place, cited: BAtlas 11 G3 Möhn",
     "estimatedTemporal": true,
     "qid": "Q31808533"
   },
@@ -19339,14 +19328,14 @@
   {
     "id": "pleiades:109304",
     "type": "sanctuary",
-    "name": "St-Andr\u00e9-sur-Cailly",
+    "name": "St-André-sur-Cailly",
     "lat": 49.557165,
     "lng": 1.212792,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 B3 St-Andr\u00e9-sur-Cailly",
+    "description": "An ancient place, cited: BAtlas 11 B3 St-André-sur-Cailly",
     "estimatedTemporal": true
   },
   {
@@ -19421,14 +19410,14 @@
   {
     "id": "pleiades:109374",
     "type": "temple",
-    "name": "Thalfang-B\u00e4sch",
+    "name": "Thalfang-Bäsch",
     "lat": 49.754237,
     "lng": 6.996589,
     "startYear": -500,
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "description": "An ancient place, cited: BAtlas 11 G3 Thalfang-B\u00e4sch",
+    "description": "An ancient place, cited: BAtlas 11 G3 Thalfang-Bäsch",
     "estimatedTemporal": true
   },
   {
@@ -19600,7 +19589,7 @@
     "category": "religion",
     "qid": "Q57302774",
     "description": "Sanctuary of Athena Chalkioikos at the Acropolis of Sparta",
-    "props": { "ancientName": "ier\u00f3n t\u00eds chalkio\u00edkou" },
+    "props": { "ancientName": "ierón tís chalkioíkou" },
     "estimatedTemporal": true
   },
   {
@@ -19613,7 +19602,7 @@
     "endYear": -917,
     "source": "Pleiades",
     "category": "religion",
-    "description": "Flag Fen is a Bronze Age ritual site near Peterborough, England, comprised of 60,000 timbers arranged in five rows that connect Whittlesey Island with Peterborough. Dendrochronological evidence has dates the site to ca. 1365\u2013967 BC.",
+    "description": "Flag Fen is a Bronze Age ritual site near Peterborough, England, comprised of 60,000 timbers arranged in five rows that connect Whittlesey Island with Peterborough. Dendrochronological evidence has dates the site to ca. 1365–967 BC.",
     "estimatedTemporal": true,
     "qid": "Q1356788"
   },
@@ -19697,7 +19686,7 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q130558770",
-    "description": "Large temple at Tell Jokha/Umma dedicated to the Sumerian god Shara. The temple was constructed by king \u0160u-Suen of the Third Dynasty of Ur (2035-2027 BCE), and was used during the Ur III-Old Babylonian periods.",
+    "description": "Large temple at Tell Jokha/Umma dedicated to the Sumerian god Shara. The temple was constructed by king Šu-Suen of the Third Dynasty of Ur (2035-2027 BCE), and was used during the Ur III-Old Babylonian periods.",
     "estimatedTemporal": true
   },
   {
@@ -19718,7 +19707,7 @@
   {
     "id": "pleiades:743134062",
     "type": "temple",
-    "name": "Santalla de B\u00f3veda",
+    "name": "Santalla de Bóveda",
     "lat": 42.98013365404888,
     "lng": -7.686065726148398,
     "startYear": -500,
@@ -19726,17 +19715,17 @@
     "source": "Pleiades",
     "category": "religion",
     "qid": "Q3284580",
-    "description": "The Roman sanctuary of Santalla de B\u00f3veda dates to the second through fourth centuries A.D. It is located in the parish of Santalla de B\u00f3veda de Meralocated near Lugo. Discovered in 1926, the site is a protected national monument.",
+    "description": "The Roman sanctuary of Santalla de Bóveda dates to the second through fourth centuries A.D. It is located in the parish of Santalla de Bóveda de Meralocated near Lugo. Discovered in 1926, the site is a protected national monument.",
     "estimatedTemporal": true
   },
   {
     "id": "temple:pleiades-133324175",
     "type": "temple",
-    "name": "E\u0161idduki\u0161ara",
+    "name": "Ešiddukišara",
     "lat": 32.52849,
     "lng": 44.41842,
     "source": "Pleiades",
-    "description": "The temple of the god Nab\u00fb, E\u0161idduki\u0161ara (\u201cHouse of the Director of the Universe\u201d), was located in the Tuba district of Babylon, in the western half of the inner city. According to the Babylonian topographical text Tintir = Babylon Tablet IV, it was one of three temples in that part of Babylon.",
+    "description": "The temple of the god Nabû, Ešiddukišara (“House of the Director of the Universe”), was located in the Tuba district of Babylon, in the western half of the inner city. According to the Babylonian topographical text Tintir = Babylon Tablet IV, it was one of three temples in that part of Babylon.",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -19749,7 +19738,7 @@
     "lat": 36.3595,
     "lng": 43.1537,
     "source": "Pleiades",
-    "description": "The b\u012bt Kidmuri is one of the temples located in the citadel of Nineveh. Its Sumerian ceremonial name is not preserved in extant cuneiform sources. Although the temple's exact location remains unknown, it is generally believed to have been between the temple of the goddess I\u0161tar (Ema\u0161ma\u0161) and the Citadel Gate (East Gate).",
+    "description": "The bīt Kidmuri is one of the temples located in the citadel of Nineveh. Its Sumerian ceremonial name is not preserved in extant cuneiform sources. Although the temple's exact location remains unknown, it is generally believed to have been between the temple of the goddess Ištar (Emašmaš) and the Citadel Gate (East Gate).",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -19775,7 +19764,7 @@
     "lat": 36.10065,
     "lng": 43.32854,
     "source": "Pleiades",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the goddess Gula. Although its location is not known, the Gula temple at Kalhu is thought to have been part of the Ninurta temple complex (in the northwest corner of the citadel), east of the \u0160arrat-niphi temple and north of the Kidmuri temple.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the goddess Gula. Although its location is not known, the Gula temple at Kalhu is thought to have been part of the Ninurta temple complex (in the northwest corner of the citadel), east of the Šarrat-niphi temple and north of the Kidmuri temple.",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -19815,7 +19804,7 @@
     "lat": 36.86552,
     "lng": 39.03018,
     "source": "Pleiades",
-    "description": "The temple of the god S\u00een at Harran. The Sumerian ceremonial name Ehulhul means \"House which Gives Joy.\"",
+    "description": "The temple of the god Sîn at Harran. The Sumerian ceremonial name Ehulhul means \"House which Gives Joy.\"",
     "subtype": "temple",
     "qid": "Q1301011",
     "startYear": -500,
@@ -19923,7 +19912,7 @@
     "lat": 36.09848,
     "lng": 43.32877,
     "source": "Pleiades",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the divine Sebetti. The location of this building is not known.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the divine Sebetti. The location of this building is not known.",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -19963,7 +19952,7 @@
     "lat": 36.09848,
     "lng": 43.32877,
     "source": "Pleiades",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Enlil. Although its location is not known, the Enlil temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Enlil. Although its location is not known, the Enlil temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -19972,11 +19961,11 @@
   {
     "id": "temple:pleiades-473423542",
     "type": "temple",
-    "name": "Adad-\u0160ala temple (Kalhu)",
+    "name": "Adad-Šala temple (Kalhu)",
     "lat": 36.09848,
     "lng": 43.32877,
     "source": "Pleiades",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Adad and the goddess \u0160ala. Although its location is not known, the Adad-\u0160ala temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the god Adad and the goddess Šala. Although its location is not known, the Adad-Šala temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -19985,11 +19974,11 @@
   {
     "id": "temple:pleiades-43471155",
     "type": "temple",
-    "name": "S\u00een temple (Kalhu)",
+    "name": "Sîn temple (Kalhu)",
     "lat": 36.09953,
     "lng": 43.32795,
     "source": "Pleiades",
-    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883\u2013859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the moon-god S\u00een. Although its location is not known, the S\u00een temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
+    "description": "When Kalhu (biblical Calah, modern Nimrud) became the principal administrative center of the Assyrian Empire in the ninth century BC, king Ashurnasirpal II (r. 883–859 BC) built (or rebuilt) numerous temples. One of those was dedicated to the moon-god Sîn. Although its location is not known, the Sîn temple at Kalhu is thought to have been situated within the Ninurta temple complex, in the northwest corner of the citadel.",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,
@@ -20002,7 +19991,7 @@
     "lat": 32.52849,
     "lng": 44.41842,
     "source": "Pleiades",
-    "description": "The temple of the goddess Gula, Esabad (\u201cHouse of the Open Ear\u201d), was located in the Tuba district of Babylon, in the western half of the inner city. According to the Babylonian topographical text Tintir = Babylon Tablet IV, it was one of three temples in that part of Babylon. Esabad was rebuilt by the Assyrian king Ashurbanipal (r. 668\u2013ca. 631 BC) and Nebuchadnezzar II (r. 604\u2013652 BC). The temple survived into Arsacid times (247\u00a0BC\u2013AD 224).",
+    "description": "The temple of the goddess Gula, Esabad (“House of the Open Ear”), was located in the Tuba district of Babylon, in the western half of the inner city. According to the Babylonian topographical text Tintir = Babylon Tablet IV, it was one of three temples in that part of Babylon. Esabad was rebuilt by the Assyrian king Ashurbanipal (r. 668–ca. 631 BC) and Nebuchadnezzar II (r. 604–652 BC). The temple survived into Arsacid times (247 BC–AD 224).",
     "subtype": "temple",
     "startYear": -500,
     "endYear": 400,

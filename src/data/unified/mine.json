@@ -3,7 +3,7 @@
     "id": "mine:mine-las-medulas",
     "type": "mine",
     "subtype": "gold",
-    "name": "Las M\u00e9dulas",
+    "name": "Las Médulas",
     "lat": 42.4607,
     "lng": -6.7636,
     "startYear": -25,
@@ -18,7 +18,7 @@
     "id": "mine:mine-rio-tinto",
     "type": "mine",
     "subtype": "silver",
-    "name": "R\u00edo Tinto",
+    "name": "Río Tinto",
     "lat": 37.6947,
     "lng": -6.5933,
     "startYear": -206,
@@ -32,14 +32,14 @@
     "id": "mine:mine-rio-tinto-copper",
     "type": "mine",
     "subtype": "copper",
-    "name": "R\u00edo Tinto Copper Works",
+    "name": "Río Tinto Copper Works",
     "lat": 37.7005,
     "lng": -6.601,
     "startYear": -206,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Copper extraction at R\u00edo Tinto complex, one of the largest sources of copper in the ancient world.",
+    "description": "Copper extraction at Río Tinto complex, one of the largest sources of copper in the ancient world.",
     "props": { "siteType": "mine" }
   },
   {
@@ -61,7 +61,7 @@
     "id": "mine:mine-mazarron",
     "type": "mine",
     "subtype": "silver",
-    "name": "Mazarr\u00f3n Mines",
+    "name": "Mazarrón Mines",
     "lat": 37.5989,
     "lng": -1.3143,
     "startYear": -200,
@@ -105,7 +105,7 @@
     "id": "mine:mine-tres-minas",
     "type": "mine",
     "subtype": "gold",
-    "name": "Tr\u00eas Minas",
+    "name": "Três Minas",
     "lat": 41.4392,
     "lng": -7.4586,
     "startYear": 70,
@@ -176,7 +176,7 @@
     "id": "mine:mine-rosia-montana",
     "type": "mine",
     "subtype": "gold",
-    "name": "Ro\u0219ia Montan\u0103 (Alburnus Maior)",
+    "name": "Roșia Montană (Alburnus Maior)",
     "lat": 46.3064,
     "lng": 23.1306,
     "startYear": 106,
@@ -220,7 +220,7 @@
     "id": "mine:mine-baia-de-aries",
     "type": "mine",
     "subtype": "gold",
-    "name": "Baia de Arie\u0219 Gold Mine",
+    "name": "Baia de Arieș Gold Mine",
     "lat": 46.3667,
     "lng": 23.3833,
     "startYear": 106,
@@ -572,7 +572,7 @@
     "id": "mine:mine-noricum-iron",
     "type": "mine",
     "subtype": "iron",
-    "name": "Noricum Iron Mines (H\u00fcttenberg)",
+    "name": "Noricum Iron Mines (Hüttenberg)",
     "lat": 46.9333,
     "lng": 14.55,
     "startYear": -300,
@@ -786,7 +786,7 @@
     "id": "mine:quarry-almaden-de-la-plata",
     "type": "mine",
     "subtype": "marble",
-    "name": "Almad\u00e9n de la Plata Quarries",
+    "name": "Almadén de la Plata Quarries",
     "lat": 37.875,
     "lng": -6.0806,
     "startYear": -50,
@@ -829,7 +829,7 @@
     "id": "mine:quarry-goktepe",
     "type": "mine",
     "subtype": "marble",
-    "name": "G\u00f6ktepe Marble Quarries",
+    "name": "Göktepe Marble Quarries",
     "lat": 37.5833,
     "lng": 28.6333,
     "startYear": 50,
@@ -1001,7 +1001,7 @@
     "id": "mine:mine-almaden-mercury",
     "type": "mine",
     "subtype": "lead",
-    "name": "Almad\u00e9n (Sisapo) Cinnabar Mine",
+    "name": "Almadén (Sisapo) Cinnabar Mine",
     "lat": 38.7753,
     "lng": -4.8361,
     "startYear": -300,
@@ -1079,8 +1079,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Oolitic limestone quarries supplying building stone for Aquae Sulis (Bath) and surrounding Roman villas in Britannia.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q1075440"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-portland",
@@ -1115,14 +1114,14 @@
     "id": "mine:mine-rio-tinto-gold",
     "type": "mine",
     "subtype": "gold",
-    "name": "R\u00edo Tinto Gold Workings",
+    "name": "Río Tinto Gold Workings",
     "lat": 37.69,
     "lng": -6.58,
     "startYear": -206,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Gold extraction at the R\u00edo Tinto polymetallic complex using fire-setting and water-powered ore crushing.",
+    "description": "Gold extraction at the Río Tinto polymetallic complex using fire-setting and water-powered ore crushing.",
     "props": { "siteType": "mine" }
   },
   {
@@ -1328,14 +1327,14 @@
     "id": "mine:mine-matra-gold",
     "type": "mine",
     "subtype": "gold",
-    "name": "M\u00e1tra Mountains Gold Mines",
+    "name": "Mátra Mountains Gold Mines",
     "lat": 47.85,
     "lng": 19.95,
     "startYear": 50,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Gold mining in the M\u00e1tra range of Pannonia, a secondary gold source for the Danubian provinces.",
+    "description": "Gold mining in the Mátra range of Pannonia, a secondary gold source for the Danubian provinces.",
     "props": { "siteType": "mine" }
   },
   {
@@ -1364,8 +1363,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Local limestone quarries supplying building stone for Leptis Magna's monumental Roman architecture.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q82075982"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-naxos",
@@ -1450,8 +1448,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Lead mining associated with the silver extraction at Carthago Nova, producing large quantities of lead as a byproduct.",
-    "props": { "siteType": "mine" },
-    "qid": "Q2659382"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:quarry-clunia-limestone",
@@ -1472,7 +1469,7 @@
     "id": "mine:quarry-saint-beat",
     "type": "mine",
     "subtype": "marble",
-    "name": "Saint-B\u00e9at Marble Quarries",
+    "name": "Saint-Béat Marble Quarries",
     "lat": 42.9167,
     "lng": 0.6833,
     "startYear": -50,
@@ -1643,7 +1640,7 @@
     "id": "mine:mine-hispalis-copper",
     "type": "mine",
     "subtype": "copper",
-    "name": "Aznalc\u00f3llar Copper Mine",
+    "name": "Aznalcóllar Copper Mine",
     "lat": 37.5167,
     "lng": -6.25,
     "startYear": -200,
@@ -1685,14 +1682,14 @@
     "id": "mine:quarry-split-limestone",
     "type": "mine",
     "subtype": "limestone",
-    "name": "Bra\u010d Island Limestone Quarries",
+    "name": "Brač Island Limestone Quarries",
     "lat": 43.3167,
     "lng": 16.65,
     "startYear": -100,
     "endYear": 500,
     "source": "wikipedia",
     "category": "production",
-    "description": "White limestone quarries on Bra\u010d island, supplying building stone for Diocletian's Palace at Spalatum (Split) and other Dalmatian cities.",
+    "description": "White limestone quarries on Brač island, supplying building stone for Diocletian's Palace at Spalatum (Split) and other Dalmatian cities.",
     "props": { "siteType": "quarry" },
     "qid": "Q922"
   },
@@ -1955,14 +1952,14 @@
     "id": "mine:mine-la-union",
     "type": "mine",
     "subtype": "lead",
-    "name": "La Uni\u00f3n Mines",
+    "name": "La Unión Mines",
     "lat": 37.62,
     "lng": -0.88,
     "startYear": -200,
     "endYear": 100,
     "source": "OxREP",
     "category": "production",
-    "description": "Lead and silver mines at La Uni\u00f3n, a major centre of Roman-era extraction near Cartagena.",
+    "description": "Lead and silver mines at La Unión, a major centre of Roman-era extraction near Cartagena.",
     "props": { "siteType": "mine" },
     "qid": "Q107986908"
   },
@@ -1970,14 +1967,14 @@
     "id": "mine:mine-portman",
     "type": "mine",
     "subtype": "lead",
-    "name": "Portm\u00e1n Lead Mines",
+    "name": "Portmán Lead Mines",
     "lat": 37.58,
     "lng": -0.83,
     "startYear": -200,
     "endYear": 50,
     "source": "OxREP",
     "category": "production",
-    "description": "Coastal lead mines at Portus Magnus (Portm\u00e1n), exporting ingots by sea from Carthago Nova.",
+    "description": "Coastal lead mines at Portus Magnus (Portmán), exporting ingots by sea from Carthago Nova.",
     "props": { "siteType": "mine" }
   },
   {
@@ -2075,7 +2072,7 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Hydraulic gold mine in the Bierzo region of Le\u00f3n, near Las M\u00e9dulas.",
+    "description": "Hydraulic gold mine in the Bierzo region of León, near Las Médulas.",
     "props": { "siteType": "mine" }
   },
   {
@@ -2118,14 +2115,14 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Copper mine in northern C\u00f3rdoba province, part of the Sierra Morena mining belt.",
+    "description": "Copper mine in northern Córdoba province, part of the Sierra Morena mining belt.",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:mine-diogenes",
     "type": "mine",
     "subtype": "lead",
-    "name": "Mina Di\u00f3genes",
+    "name": "Mina Diógenes",
     "lat": 38.48,
     "lng": -4,
     "startYear": -100,
@@ -2203,7 +2200,7 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Lead mines in the Pe\u00f1arroya-Belmez district of the Sierra Morena.",
+    "description": "Lead mines in the Peñarroya-Belmez district of the Sierra Morena.",
     "props": { "siteType": "mine" },
     "qid": "Q24011733"
   },
@@ -2232,7 +2229,7 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Ancient cinnabar (mercury) mine at Sisapo (Almad\u00e9n area), known from Pliny and Vitruvius.",
+    "description": "Ancient cinnabar (mercury) mine at Sisapo (Almadén area), known from Pliny and Vitruvius.",
     "props": { "siteType": "mine" }
   },
   {
@@ -2274,7 +2271,7 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Tin mining area in the C\u00e1ceres district of Lusitania.",
+    "description": "Tin mining area in the Cáceres district of Lusitania.",
     "props": { "siteType": "mine" }
   },
   {
@@ -2316,7 +2313,7 @@
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "White marble quarries at Macael, Almer\u00eda, used in Roman Hispania.",
+    "description": "White marble quarries at Macael, Almería, used in Roman Hispania.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -2358,7 +2355,7 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Copper mine near C\u00f3rdoba, producing metal for the provincial capital.",
+    "description": "Copper mine near Córdoba, producing metal for the provincial capital.",
     "props": { "siteType": "mine" },
     "qid": "Q98058320"
   },
@@ -2855,14 +2852,14 @@
     "id": "mine:mine-hunsruck-iron",
     "type": "mine",
     "subtype": "iron",
-    "name": "Hunsr\u00fcck Iron Mines",
+    "name": "Hunsrück Iron Mines",
     "lat": 49.9,
     "lng": 7.35,
     "startYear": -50,
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Iron mining in the Hunsr\u00fcck hills of the middle Rhine region.",
+    "description": "Iron mining in the Hunsrück hills of the middle Rhine region.",
     "props": { "siteType": "mine" }
   },
   {
@@ -2939,14 +2936,14 @@
     "id": "mine:quarry-pyrenees-marble-lez",
     "type": "mine",
     "subtype": "marble",
-    "name": "Saint-B\u00e9at-de-Lez Marble",
+    "name": "Saint-Béat-de-Lez Marble",
     "lat": 42.91,
     "lng": 0.68,
     "startYear": -50,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Additional marble quarry faces near Saint-B\u00e9at in the Pyrenees, supplying Aquitania.",
+    "description": "Additional marble quarry faces near Saint-Béat in the Pyrenees, supplying Aquitania.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -3009,14 +3006,14 @@
     "id": "mine:mine-gaul-lead-cevennes",
     "type": "mine",
     "subtype": "lead",
-    "name": "C\u00e9vennes Lead Mines",
+    "name": "Cévennes Lead Mines",
     "lat": 44.25,
     "lng": 3.65,
     "startYear": -100,
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Lead-silver mines in the C\u00e9vennes mountains of southern Gaul.",
+    "description": "Lead-silver mines in the Cévennes mountains of southern Gaul.",
     "props": { "siteType": "mine" }
   },
   {
@@ -3059,7 +3056,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Limestone quarry near Norroy-l\u00e8s-Pont-\u00e0-Mousson supplying Gallia Belgica.",
+    "description": "Limestone quarry near Norroy-lès-Pont-à-Mousson supplying Gallia Belgica.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -3108,14 +3105,14 @@
     "id": "mine:mine-gaul-gold-cevennes",
     "type": "mine",
     "subtype": "gold",
-    "name": "C\u00e9vennes Gold Placers",
+    "name": "Cévennes Gold Placers",
     "lat": 44.12,
     "lng": 3.5,
     "startYear": -50,
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Alluvial gold washing in the rivers of the southern C\u00e9vennes.",
+    "description": "Alluvial gold washing in the rivers of the southern Cévennes.",
     "props": { "siteType": "mine" }
   },
   {
@@ -3208,7 +3205,7 @@
     "id": "mine:quarry-ain-smara",
     "type": "mine",
     "subtype": "limestone",
-    "name": "A\u00efn Smara Limestone",
+    "name": "Aïn Smara Limestone",
     "lat": 36.28,
     "lng": 6.51,
     "startYear": 0,
@@ -3229,7 +3226,7 @@
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Gold extraction in the Aur\u00e8s mountains of Numidia.",
+    "description": "Gold extraction in the Aurès mountains of Numidia.",
     "props": { "siteType": "mine" }
   },
   {
@@ -3286,8 +3283,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries near Hippo Regius (Annaba), supplying the port city.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q7510087"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-africa-lead-djebba",
@@ -3328,7 +3324,7 @@
     "endYear": 350,
     "source": "OxREP",
     "category": "production",
-    "description": "Quarries supplying building stone to the colony of Cuicul (Dj\u00e9mila), Algeria.",
+    "description": "Quarries supplying building stone to the colony of Cuicul (Djémila), Algeria.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -3387,8 +3383,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Sandstone quarries supplying the monumental city of Lepcis Magna in Tripolitania.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q82074135"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-africa-silver-bou-jabeur",
@@ -3415,7 +3410,7 @@
     "endYear": 271,
     "source": "OxREP",
     "category": "production",
-    "description": "Gold mines at Alburnus Maior (Ro\u0219ia Montan\u0103) in Dacia, with preserved Roman wax tablets.",
+    "description": "Gold mines at Alburnus Maior (Roșia Montană) in Dacia, with preserved Roman wax tablets.",
     "props": { "siteType": "mine" }
   },
   {
@@ -3471,7 +3466,7 @@
     "endYear": 271,
     "source": "OxREP",
     "category": "production",
-    "description": "Silver-lead mines at Baia Sprie in northern Dacia (Maramure\u0219).",
+    "description": "Silver-lead mines at Baia Sprie in northern Dacia (Maramureș).",
     "props": { "siteType": "mine" },
     "qid": "Q16898384"
   },
@@ -3486,7 +3481,7 @@
     "endYear": 271,
     "source": "OxREP",
     "category": "production",
-    "description": "Iron mining near Hunedoara in the Poiana Rusc\u0103 Mountains, Dacia.",
+    "description": "Iron mining near Hunedoara in the Poiana Ruscă Mountains, Dacia.",
     "props": { "siteType": "mine" },
     "qid": "Q215719"
   },
@@ -3589,8 +3584,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Green marble (verde antico / marmor thessalicum) quarry near Larissa, Thessaly.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q30693443"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-chalcidice-gold",
@@ -3660,8 +3654,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries supplying Salona, the capital of Dalmatia.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q138010777"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-vipasca-copper",
@@ -3681,14 +3674,14 @@
     "id": "mine:mine-dacia-copper-baia-de-arama",
     "type": "mine",
     "subtype": "copper",
-    "name": "Baia de Aram\u0103 Copper",
+    "name": "Baia de Aramă Copper",
     "lat": 44.58,
     "lng": 22.82,
     "startYear": 106,
     "endYear": 271,
     "source": "OxREP",
     "category": "production",
-    "description": "Copper mining at Baia de Aram\u0103 ('Copper Mine') in Dacia.",
+    "description": "Copper mining at Baia de Aramă ('Copper Mine') in Dacia.",
     "props": { "siteType": "mine" }
   },
   {
@@ -3720,17 +3713,17 @@
     "props": { "siteType": "mine" }
   },
   {
-    "id": "mine:quarry-bra\u010d-limestone",
+    "id": "mine:quarry-brač-limestone",
     "type": "mine",
     "subtype": "limestone",
-    "name": "Bra\u010d Island Limestone",
+    "name": "Brač Island Limestone",
     "lat": 43.33,
     "lng": 16.65,
     "startYear": -100,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "White limestone quarries on the island of Bra\u010d, used in Diocletian's Palace at Split.",
+    "description": "White limestone quarries on the island of Brač, used in Diocletian's Palace at Split.",
     "props": { "siteType": "quarry" },
     "qid": "Q922"
   },
@@ -3825,21 +3818,21 @@
     "id": "mine:mine-balia-silver",
     "type": "mine",
     "subtype": "silver",
-    "name": "Bal\u0131a Silver Mines",
+    "name": "Balıa Silver Mines",
     "lat": 39.74,
     "lng": 27.99,
     "startYear": -200,
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Silver-lead mining at Bal\u0131a (ancient Baleia) in Mysia, northwestern Anatolia.",
+    "description": "Silver-lead mining at Balıa (ancient Baleia) in Mysia, northwestern Anatolia.",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:mine-bolkardag-silver",
     "type": "mine",
     "subtype": "silver",
-    "name": "Bolkarda\u011f Silver Mines",
+    "name": "Bolkardağ Silver Mines",
     "lat": 37.45,
     "lng": 34.58,
     "startYear": -200,
@@ -3874,21 +3867,21 @@
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Iron mining in the Pontic Alps of Chaldia (modern G\u00fcm\u00fc\u015fhane area).",
+    "description": "Iron mining in the Pontic Alps of Chaldia (modern Gümüşhane area).",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:mine-chaldia-silver",
     "type": "mine",
     "subtype": "silver",
-    "name": "G\u00fcm\u00fc\u015fhane Silver Mines",
+    "name": "Gümüşhane Silver Mines",
     "lat": 40.46,
     "lng": 39.48,
     "startYear": -100,
     "endYear": 400,
     "source": "OxREP",
     "category": "production",
-    "description": "Silver mines at G\u00fcm\u00fc\u015fhane ('Silver House') in Pontus, a major imperial mining district.",
+    "description": "Silver mines at Gümüşhane ('Silver House') in Pontus, a major imperial mining district.",
     "props": { "siteType": "mine" }
   },
   {
@@ -4001,7 +3994,7 @@
     "endYear": 200,
     "source": "OxREP",
     "category": "production",
-    "description": "Silver mines in the Tmolos (Bozda\u011f) mountains of Lydia.",
+    "description": "Silver mines in the Tmolos (Bozdağ) mountains of Lydia.",
     "props": { "siteType": "mine" }
   },
   {
@@ -4328,8 +4321,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Latomie (stone quarries) at Syracuse, Sicily, used for the city's monumental architecture.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q18920220"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-sardinia-silver-iglesias",
@@ -4371,8 +4363,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Red and pink marble quarries near Verona (rosso di Verona), widely used in northern Italy.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q641556"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-populonia-iron",
@@ -4644,8 +4635,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Underground limestone quarry (Solomon's/Zedekiah's Quarry) supplying building stone for Jerusalem.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q844886"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-caesarea-maritima",
@@ -4702,8 +4692,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries supplying the monumental colonnaded city of Palmyra.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q5598980"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-gerasa-limestone",
@@ -4717,8 +4706,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Limestone quarries supplying Gerasa (Jerash), one of the Decapolis cities.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q70772359"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:mine-sierena-copper",
@@ -4900,8 +4888,7 @@
     "source": "OxREP",
     "category": "production",
     "description": "Black basalt quarries near Bosra, capital of Arabia Petraea.",
-    "props": { "siteType": "quarry" },
-    "qid": "Q4870532"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:quarry-dougga-limestone",
@@ -4936,14 +4923,14 @@
     "id": "mine:mine-gaul-iron-perigord",
     "type": "mine",
     "subtype": "iron",
-    "name": "P\u00e9rigord Iron Mines",
+    "name": "Périgord Iron Mines",
     "lat": 45.18,
     "lng": 0.72,
     "startYear": -50,
     "endYear": 300,
     "source": "OxREP",
     "category": "production",
-    "description": "Iron extraction and smelting in the P\u00e9rigord region of Aquitania.",
+    "description": "Iron extraction and smelting in the Périgord region of Aquitania.",
     "props": { "siteType": "mine" },
     "qid": "Q850620"
   },
@@ -4986,21 +4973,21 @@
     "endYear": 271,
     "source": "OxREP",
     "category": "production",
-    "description": "Iron mining at Teliuc in the Poiana Rusc\u0103 Mountains, Dacia.",
+    "description": "Iron mining at Teliuc in the Poiana Ruscă Mountains, Dacia.",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:mine-dacia-gold-stanija",
     "type": "mine",
     "subtype": "gold",
-    "name": "St\u0103nija Gold Mine",
+    "name": "Stănija Gold Mine",
     "lat": 46.25,
     "lng": 23,
     "startYear": 106,
     "endYear": 271,
     "source": "OxREP",
     "category": "production",
-    "description": "Gold extraction at St\u0103nija in the Metaliferi Mountains, Dacia.",
+    "description": "Gold extraction at Stănija in the Metaliferi Mountains, Dacia.",
     "props": { "siteType": "mine" }
   },
   {
@@ -5161,14 +5148,14 @@
     "id": "mine:628920",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Akda\u011fmadeni",
+    "name": "Akdağmadeni",
     "lat": 39.6584,
     "lng": 35.8544,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 64 B1 Akda\u011fmadeni",
+    "description": "An ancient place, cited: BAtlas 64 B1 Akdağmadeni",
     "props": { "siteType": "mine" }
   },
   {
@@ -5198,8 +5185,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 27 C4 Albox",
-    "props": { "siteType": "quarry" },
-    "qid": "Q111745375"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:795776",
@@ -5233,14 +5219,14 @@
     "id": "mine:265794",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Almer\u00eda",
+    "name": "Almería",
     "lat": 37.2668,
     "lng": -1.9259,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 D4 Almer\u00eda",
+    "description": "An ancient place, cited: BAtlas 27 D4 Almería",
     "props": { "siteType": "mine" }
   },
   {
@@ -5389,14 +5375,14 @@
     "id": "mine:246184",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ardi\u00e8ge",
+    "name": "Ardiège",
     "lat": 43.0695,
     "lng": 0.6427,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 25 F2 Ardi\u00e8ge",
+    "description": "An ancient place, cited: BAtlas 25 F2 Ardiège",
     "props": { "siteType": "mine" }
   },
   {
@@ -5658,7 +5644,7 @@
     "id": "mine:108784",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bad D\u00fcrkheim",
+    "name": "Bad Dürkheim",
     "lat": 49.4621,
     "lng": 8.1655,
     "startYear": 50,
@@ -5666,21 +5652,21 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q22901",
-    "description": "An ancient place, cited: BAtlas 11 I3 Bad D\u00fcrkheim",
+    "description": "An ancient place, cited: BAtlas 11 I3 Bad Dürkheim",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:246222",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bagn\u00e8res-de-Luchon",
+    "name": "Bagnères-de-Luchon",
     "lat": 42.791,
     "lng": 0.591,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 25 F3 Bagn\u00e8res-de-Luchon",
+    "description": "An ancient place, cited: BAtlas 25 F3 Bagnères-de-Luchon",
     "props": { "siteType": "quarry" },
     "qid": "Q24933391"
   },
@@ -5703,14 +5689,14 @@
     "id": "mine:206950",
     "type": "mine",
     "subtype": "unknown",
-    "name": "B\u0103i\u015foara",
+    "name": "Băişoara",
     "lat": 46.5755,
     "lng": 23.4675,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F3 B\u0103i\u015foara",
+    "description": "An ancient place, cited: BAtlas 21 F3 Băişoara",
     "props": { "siteType": "mine" }
   },
   {
@@ -5809,7 +5795,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q20724374",
-    "description": "A cluster of Roman-era limestone quarries near modern Carri\u00e8res de Barutel, northwest of N\u00eemes in France (BAtlas 15 C2 Barutel).",
+    "description": "A cluster of Roman-era limestone quarries near modern Carrières de Barutel, northwest of Nîmes in France (BAtlas 15 C2 Barutel).",
     "props": { "siteType": "quarry" }
   },
   {
@@ -5844,29 +5830,28 @@
     "id": "mine:246230",
     "type": "mine",
     "subtype": "unknown",
-    "name": "B\u00e9darieux",
+    "name": "Bédarieux",
     "lat": 43.6133,
     "lng": 3.1597,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 25 I2 B\u00e9darieux",
-    "props": { "siteType": "quarry" },
-    "qid": "Q120274524"
+    "description": "An ancient place, cited: BAtlas 25 I2 Bédarieux",
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:246231",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Belb\u00e8ze",
+    "name": "Belbèze",
     "lat": 43.1326,
     "lng": 1.0263,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 25 G2 Belb\u00e8ze",
+    "description": "An ancient place, cited: BAtlas 25 G2 Belbèze",
     "props": { "siteType": "quarry" }
   },
   {
@@ -5909,8 +5894,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 24 D4 Belmonte",
-    "props": { "siteType": "mine" },
-    "qid": "Q10348073"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:403187",
@@ -5945,14 +5929,14 @@
     "id": "mine:167678",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bess\u00e8ges",
+    "name": "Bessèges",
     "lat": 44.2922,
     "lng": 4.096,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 C5 Bess\u00e8ges",
+    "description": "An ancient place, cited: BAtlas 17 C5 Bessèges",
     "props": { "siteType": "mine" }
   },
   {
@@ -5995,7 +5979,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "A series of opencast limestone quarries located in the Bois des Lens about 25 km west of N\u00eemes (France) were identified and studied in the 20th century. They are thought to have been brought into use in the fourth century BCE, with peak exploitation occurring during the early Roman Empire.",
+    "description": "A series of opencast limestone quarries located in the Bois des Lens about 25 km west of Nîmes (France) were identified and studied in the 20th century. They are thought to have been brought into use in the fourth century BCE, with peak exploitation occurring during the early Roman Empire.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -6016,14 +6000,14 @@
     "id": "mine:206974",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bolva\u015fni\u0163a",
+    "name": "Bolvaşniţa",
     "lat": 45.3451,
     "lng": 22.3089,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E4 Bolva\u015fni\u0163a",
+    "description": "An ancient place, cited: BAtlas 21 E4 Bolvaşniţa",
     "props": { "siteType": "mine" }
   },
   {
@@ -6066,7 +6050,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "qid": "Q20973892",
     "description": "An ancient place, cited: BAtlas 16 C3 Boulouris",
     "props": { "siteType": "quarry" }
   },
@@ -6074,14 +6057,14 @@
     "id": "mine:157826",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bouteilli\u00e8re",
+    "name": "Bouteillière",
     "lat": 43.4859,
     "lng": 6.7413,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 16 C2 Bouteilli\u00e8re",
+    "description": "An ancient place, cited: BAtlas 16 C2 Bouteillière",
     "props": { "siteType": "quarry" }
   },
   {
@@ -6116,14 +6099,14 @@
     "id": "mine:206992",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bu\u010dje",
+    "name": "Bučje",
     "lat": 43.6832,
     "lng": 22.1336,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E5 Bu\u010dje",
+    "description": "An ancient place, cited: BAtlas 21 E5 Bučje",
     "props": { "siteType": "mine" }
   },
   {
@@ -6144,42 +6127,42 @@
     "id": "mine:265830",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Bu\u00f1ola",
+    "name": "Buñola",
     "lat": 39.6967,
     "lng": 2.6994,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 inset Bu\u00f1ola",
+    "description": "An ancient place, cited: BAtlas 27 inset Buñola",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:236391",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Cabe\u00e7o de Mua",
+    "name": "Cabeço de Mua",
     "lat": 41.2476,
     "lng": -6.7568,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E3 Cabe\u00e7o de Mua",
+    "description": "An ancient place, cited: BAtlas 24 E3 Cabeço de Mua",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:207004",
     "type": "mine",
     "subtype": "unknown",
-    "name": "C\u0103be\u015fti",
+    "name": "Căbeşti",
     "lat": 46.0359,
     "lng": 22.6818,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E3 C\u0103be\u015fti",
+    "description": "An ancient place, cited: BAtlas 21 E3 Căbeşti",
     "props": { "siteType": "mine" }
   },
   {
@@ -6229,56 +6212,56 @@
     "id": "mine:844887",
     "type": "mine",
     "subtype": "unknown",
-    "name": "\u00c7amda\u011f",
+    "name": "Çamdağ",
     "lat": 40.8885,
     "lng": 30.7759,
     "startYear": -200,
     "endYear": -200,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 86 A3 \u00c7amda\u011f",
+    "description": "An ancient place, cited: BAtlas 86 A3 Çamdağ",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:148035",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Carnoul\u00e8s",
+    "name": "Carnoulès",
     "lat": 44.1187,
     "lng": 3.9932,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 15 B1 Carnoul\u00e8s",
+    "description": "An ancient place, cited: BAtlas 15 B1 Carnoulès",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:207013",
     "type": "mine",
     "subtype": "unknown",
-    "name": "C\u0103rpini\u015f",
+    "name": "Cărpiniş",
     "lat": 45.8781,
     "lng": 23.0323,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F4 C\u0103rpini\u015f",
+    "description": "An ancient place, cited: BAtlas 21 F4 Cărpiniş",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:265848",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Cartagena-Mazarr\u00f3n",
+    "name": "Cartagena-Mazarrón",
     "lat": 37.6138,
     "lng": -1.2295,
     "startYear": -200,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 D4 Cartagena-Mazarr\u00f3n",
+    "description": "An ancient place, cited: BAtlas 27 D4 Cartagena-Mazarrón",
     "props": { "siteType": "mine" }
   },
   {
@@ -6484,14 +6467,14 @@
     "id": "mine:69488",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ch\u00e2tillon-sur-Seiche",
+    "name": "Châtillon-sur-Seiche",
     "lat": 48.0426,
     "lng": -1.6597,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 7 E3 Ch\u00e2tillon-sur-Seiche",
+    "description": "An ancient place, cited: BAtlas 7 E3 Châtillon-sur-Seiche",
     "props": { "siteType": "mine" },
     "qid": "Q34794563"
   },
@@ -6513,70 +6496,70 @@
     "id": "mine:207033",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ciclova Rom\u00e2n\u0103",
+    "name": "Ciclova Română",
     "lat": 45.0067,
     "lng": 21.7004,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 D4 Ciclova Rom\u00e2n\u0103",
+    "description": "An ancient place, cited: BAtlas 21 D4 Ciclova Română",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:207034",
     "type": "mine",
     "subtype": "unknown",
-    "name": "C\u00eempeni",
+    "name": "Cîmpeni",
     "lat": 46.3624,
     "lng": 23.0456,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F3 C\u00eempeni",
+    "description": "An ancient place, cited: BAtlas 21 F3 Cîmpeni",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:207035",
     "type": "mine",
     "subtype": "unknown",
-    "name": "C\u00eerji\u0163i",
+    "name": "Cîrjiţi",
     "lat": 45.8443,
     "lng": 22.8263,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E4 C\u00eerji\u0163i",
+    "description": "An ancient place, cited: BAtlas 21 E4 Cîrjiţi",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:207037",
     "type": "mine",
     "subtype": "unknown",
-    "name": "C\u00eer\u015fu",
+    "name": "Cîrşu",
     "lat": 44.8589,
     "lng": 22.8399,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E5 C\u00eer\u015fu",
+    "description": "An ancient place, cited: BAtlas 21 E5 Cîrşu",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:167713",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Cocur\u00e8s",
+    "name": "Cocurès",
     "lat": 44.3489,
     "lng": 3.6214,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 B5 Cocur\u00e8s",
+    "description": "An ancient place, cited: BAtlas 17 B5 Cocurès",
     "props": { "siteType": "mine" }
   },
   {
@@ -6612,14 +6595,14 @@
     "id": "mine:157835",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Collobri\u00e8res",
+    "name": "Collobrières",
     "lat": 43.2381,
     "lng": 6.3091,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 16 B3 Collobri\u00e8res",
+    "description": "An ancient place, cited: BAtlas 16 B3 Collobrières",
     "props": { "siteType": "mine" }
   },
   {
@@ -6634,8 +6617,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 14 D1 Conquereuil",
-    "props": { "siteType": "mine" },
-    "qid": "Q623766"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:612196406",
@@ -6712,14 +6694,14 @@
     "id": "mine:167733",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Cubi\u00e8res",
+    "name": "Cubières",
     "lat": 44.4842,
     "lng": 3.7565,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 B5 Cubi\u00e8res",
+    "description": "An ancient place, cited: BAtlas 17 B5 Cubières",
     "props": { "siteType": "mine" }
   },
   {
@@ -6821,8 +6803,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 18 C2 Dole",
-    "props": { "siteType": "mine" },
-    "qid": "Q22953314"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:207088",
@@ -6914,7 +6895,7 @@
     "id": "mine:246496",
     "type": "mine",
     "subtype": "unknown",
-    "name": "El M\u00e8dol",
+    "name": "El Mèdol",
     "lat": 41.1396,
     "lng": 1.3439,
     "startYear": -200,
@@ -7013,28 +6994,28 @@
     "id": "mine:256161",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Esc\u00e1dia Grande",
+    "name": "Escádia Grande",
     "lat": 39.9696,
     "lng": -8.2563,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 B2 Esc\u00e1dia Grande",
+    "description": "An ancient place, cited: BAtlas 26 B2 Escádia Grande",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:246387",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Espej\u00f3n",
+    "name": "Espejón",
     "lat": 41.831,
     "lng": -3.2596,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 25 B4 Espej\u00f3n",
+    "description": "An ancient place, cited: BAtlas 25 B4 Espejón",
     "props": { "siteType": "quarry" }
   },
   {
@@ -7069,42 +7050,42 @@
     "id": "mine:207115",
     "type": "mine",
     "subtype": "unknown",
-    "name": "F\u0103geti Ierii",
+    "name": "Făgeti Ierii",
     "lat": 46.5399,
     "lng": 23.523,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F3 F\u0103geti Ierii",
+    "description": "An ancient place, cited: BAtlas 21 F3 Făgeti Ierii",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:167764",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ferri\u00e8res",
+    "name": "Ferrières",
     "lat": 45.9678,
     "lng": 6.0885,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 G2 Ferri\u00e8res",
+    "description": "An ancient place, cited: BAtlas 17 G2 Ferrières",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:138354",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ferri\u00e8res-sur-Beaulieu",
+    "name": "Ferrières-sur-Beaulieu",
     "lat": 47.1383,
     "lng": 1.0366,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 14 G1 Ferri\u00e8res-sur-Beaulieu",
+    "description": "An ancient place, cited: BAtlas 14 G1 Ferrières-sur-Beaulieu",
     "props": { "siteType": "mine" }
   },
   {
@@ -7139,7 +7120,7 @@
     "id": "mine:766624229",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Fontaines Sal\u00e9es",
+    "name": "Fontaines Salées",
     "lat": 47.4491,
     "lng": 3.7771,
     "startYear": 50,
@@ -7182,14 +7163,14 @@
     "id": "mine:236467",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Fran\u00e7a",
+    "name": "França",
     "lat": 41.9592,
     "lng": -6.6039,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E3 Fran\u00e7a",
+    "description": "An ancient place, cited: BAtlas 24 E3 França",
     "props": { "siteType": "mine" }
   },
   {
@@ -7322,14 +7303,14 @@
     "id": "mine:167782",
     "type": "mine",
     "subtype": "unknown",
-    "name": "G\u00e9nolhac",
+    "name": "Génolhac",
     "lat": 44.3501,
     "lng": 3.9481,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 B5 G\u00e9nolhac",
+    "description": "An ancient place, cited: BAtlas 17 B5 Génolhac",
     "props": { "siteType": "mine" }
   },
   {
@@ -7393,22 +7374,21 @@
     "id": "mine:109012",
     "type": "mine",
     "subtype": "unknown",
-    "name": "G\u00f6llheim",
+    "name": "Göllheim",
     "lat": 49.594,
     "lng": 8.0541,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 11 I3 G\u00f6llheim",
-    "props": { "siteType": "mine" },
-    "qid": "Q112961886"
+    "description": "An ancient place, cited: BAtlas 11 I3 Göllheim",
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:358823155",
     "type": "mine",
     "subtype": "unknown",
-    "name": "G\u00f6ltepe",
+    "name": "Göltepe",
     "lat": 37.8016,
     "lng": 34.935,
     "startYear": 50,
@@ -7416,7 +7396,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q33268537",
-    "description": "An archaeological site in the Central Taurus Mountains dated to the early Bronze Age. The G\u00f6ltepe hill contains traces of a village associated with the nearby mine site of Kestel.",
+    "description": "An archaeological site in the Central Taurus Mountains dated to the early Bronze Age. The Göltepe hill contains traces of a village associated with the nearby mine site of Kestel.",
     "props": { "siteType": "mine" }
   },
   {
@@ -7452,14 +7432,14 @@
     "id": "mine:256187",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Guzm\u00e1n",
+    "name": "Guzmán",
     "lat": 37.6112,
     "lng": -7.246,
     "startYear": -450,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 C4 Guzm\u00e1n",
+    "description": "An ancient place, cited: BAtlas 26 C4 Guzmán",
     "props": { "siteType": "mine" },
     "qid": "Q24013474"
   },
@@ -7510,7 +7490,7 @@
     "id": "mine:207165",
     "type": "mine",
     "subtype": "unknown",
-    "name": "H\u0103r\u0163\u0103gani",
+    "name": "Hărţăgani",
     "lat": 46.0584,
     "lng": 22.9433,
     "startYear": 50,
@@ -7518,7 +7498,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q588775",
-    "description": "An ancient place, cited: BAtlas 21 E3 H\u0103r\u0163\u0103gani",
+    "description": "An ancient place, cited: BAtlas 21 E3 Hărţăgani",
     "props": { "siteType": "mine" }
   },
   {
@@ -7548,8 +7528,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 17 F2 Hauteville-Lompnes",
-    "props": { "siteType": "mine" },
-    "qid": "Q120301565"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:128408",
@@ -7598,14 +7577,14 @@
     "id": "mine:207178",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Iablani\u0163a",
+    "name": "Iablaniţa",
     "lat": 44.9502,
     "lng": 22.3142,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E5 Iablani\u0163a",
+    "description": "An ancient place, cited: BAtlas 21 E5 Iablaniţa",
     "props": { "siteType": "mine" }
   },
   {
@@ -7804,7 +7783,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "A Roman and Late-antique fort and quarry at Mons Claudianus (modern Jabal Fa\u0163\u012brah) and in the associated Deir Wadi Umm Hussein in Egypt's eastern desert. It is often referred to in scholarly literature and the press simply as \"Mons Claudianus\" because of its location. Excavations at the site are notable in part for the recovery of a large textual archive that details the operations and daily life of soldiers and workers at the site.",
+    "description": "A Roman and Late-antique fort and quarry at Mons Claudianus (modern Jabal Faţīrah) and in the associated Deir Wadi Umm Hussein in Egypt's eastern desert. It is often referred to in scholarly literature and the press simply as \"Mons Claudianus\" because of its location. Excavations at the site are notable in part for the recovery of a large textual archive that details the operations and daily life of soldiers and workers at the site.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -7839,14 +7818,14 @@
     "id": "mine:109086",
     "type": "mine",
     "subtype": "unknown",
-    "name": "K\u00f6nigswinter-Drachenfels",
+    "name": "Königswinter-Drachenfels",
     "lat": 50.6652,
     "lng": 7.2103,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 11 H2 K\u00f6nigswinter-Drachenfels",
+    "description": "An ancient place, cited: BAtlas 11 H2 Königswinter-Drachenfels",
     "props": { "siteType": "mine" }
   },
   {
@@ -7903,8 +7882,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 11 H2 Kruft",
-    "props": { "siteType": "quarry" },
-    "qid": "Q26233843"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:571770855",
@@ -7924,28 +7902,28 @@
     "id": "mine:599733",
     "type": "mine",
     "subtype": "unknown",
-    "name": "K\u00fcrtkaya",
+    "name": "Kürtkaya",
     "lat": 37.9716,
     "lng": 27.4606,
     "startYear": -600,
     "endYear": -600,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 61 E2 K\u00fcrtkaya",
+    "description": "An ancient place, cited: BAtlas 61 E2 Kürtkaya",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:167612",
     "type": "mine",
     "subtype": "unknown",
-    "name": "L\u2019Abergement",
+    "name": "L’Abergement",
     "lat": 46.0461,
     "lng": 6.1082,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 G1 L\u2019Abergement",
+    "description": "An ancient place, cited: BAtlas 17 G1 L’Abergement",
     "props": { "siteType": "mine" }
   },
   {
@@ -7973,7 +7951,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "production",
-    "description": "La Alcudia refers to an area in the valley of the R\u00edo Alcudia where mineral resources were extracted in the late republican and early imperial periods. These resources included silver, lead, copper, and mercury.",
+    "description": "La Alcudia refers to an area in the valley of the Río Alcudia where mineral resources were extracted in the late republican and early imperial periods. These resources included silver, lead, copper, and mercury.",
     "props": { "siteType": "mine" }
   },
   {
@@ -8001,7 +7979,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "production",
-    "description": "The modern town of La Carolina in Spain's Ja\u00e9n province is located near a series of ancient mines (copper, lead, and silver) and metallurgical processing sites.",
+    "description": "The modern town of La Carolina in Spain's Jaén province is located near a series of ancient mines (copper, lead, and silver) and metallurgical processing sites.",
     "props": { "siteType": "mine" }
   },
   {
@@ -8016,8 +7994,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 14 H2 La Celle",
-    "props": { "siteType": "mine" },
-    "qid": "Q120259190"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:167710",
@@ -8045,8 +8022,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 15 E3 La Couronne",
-    "props": { "siteType": "quarry" },
-    "qid": "Q119639264"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:403211",
@@ -8151,21 +8127,21 @@
     "id": "mine:138540",
     "type": "mine",
     "subtype": "unknown",
-    "name": "La Roche l\u2019Abeille",
+    "name": "La Roche l’Abeille",
     "lat": 45.5968,
     "lng": 1.2402,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 14 G3 La Roche l\u2019Abeille",
+    "description": "An ancient place, cited: BAtlas 14 G3 La Roche l’Abeille",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:403230",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Lago dell\u2019Accesa (archaeological site)",
+    "name": "Lago dell’Accesa (archaeological site)",
     "lat": 42.9878,
     "lng": 10.9011,
     "startYear": -600,
@@ -8173,21 +8149,21 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q3895459",
-    "description": "The archaeological site of Lago dell\u2019Accesa, in the locality known as \"La Pesta\", is situated near the lake of Lago dell'Accesa. The site was situated so as to exploit local mineral resources, and the archaeological remains provide extensive evidence for habitation from the ninth through sixth centuries B.C.",
+    "description": "The archaeological site of Lago dell’Accesa, in the locality known as \"La Pesta\", is situated near the lake of Lago dell'Accesa. The site was situated so as to exploit local mineral resources, and the archaeological remains provide extensive evidence for habitation from the ninth through sixth centuries B.C.",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:501492",
     "type": "mine",
     "subtype": "unknown",
-    "name": "L\u00e2ki",
+    "name": "Lâki",
     "lat": 41.4459,
     "lng": 23.7216,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 51 B2 L\u00e2ki",
+    "description": "An ancient place, cited: BAtlas 51 B2 Lâki",
     "props": { "siteType": "mine" }
   },
   {
@@ -8236,14 +8212,14 @@
     "id": "mine:236580",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Las Oma\u00f1as",
+    "name": "Las Omañas",
     "lat": 42.6833,
     "lng": -5.8697,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 F2 Las Oma\u00f1as",
+    "description": "An ancient place, cited: BAtlas 24 F2 Las Omañas",
     "props": { "siteType": "mine" }
   },
   {
@@ -8292,14 +8268,14 @@
     "id": "mine:167731",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Le Cr\u00eat-du-Maure",
+    "name": "Le Crêt-du-Maure",
     "lat": 45.8952,
     "lng": 6.1252,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 G2 Le Cr\u00eat-du-Maure",
+    "description": "An ancient place, cited: BAtlas 17 G2 Le Crêt-du-Maure",
     "props": { "siteType": "mine" }
   },
   {
@@ -8328,8 +8304,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 25 G2 Lercoul",
-    "props": { "siteType": "mine" },
-    "qid": "Q119315473"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:138209",
@@ -8349,28 +8324,28 @@
     "id": "mine:148023",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Les Br\u00e9gines",
+    "name": "Les Brégines",
     "lat": 43.3193,
     "lng": 3.2049,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 15 A3 Les Br\u00e9gines",
+    "description": "An ancient place, cited: BAtlas 15 A3 Les Brégines",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:167808",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Les Hurti\u00e8res",
+    "name": "Les Hurtières",
     "lat": 45.2872,
     "lng": 5.9692,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 F3 Les Hurti\u00e8res",
+    "description": "An ancient place, cited: BAtlas 17 F3 Les Hurtières",
     "props": { "siteType": "mine" }
   },
   {
@@ -8399,8 +8374,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 51 D3 Limenaria",
-    "props": { "siteType": "mine" },
-    "qid": "Q108611558"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:530981",
@@ -8464,14 +8438,14 @@
     "id": "mine:236522",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Louvi\u00f1o",
+    "name": "Louviño",
     "lat": 42.0756,
     "lng": -7.561,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 D2 Louvi\u00f1o",
+    "description": "An ancient place, cited: BAtlas 24 D2 Louviño",
     "props": { "siteType": "mine" }
   },
   {
@@ -8550,14 +8524,14 @@
     "id": "mine:167821",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Mac\u00f4t-La-Plagne",
+    "name": "Macôt-La-Plagne",
     "lat": 45.5533,
     "lng": 6.672,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 H2 Mac\u00f4t-La-Plagne",
+    "description": "An ancient place, cited: BAtlas 17 H2 Macôt-La-Plagne",
     "props": { "siteType": "mine" }
   },
   {
@@ -8628,8 +8602,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 41 C4 Marciana Marina",
-    "props": { "siteType": "mine" },
-    "qid": "Q33338662"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:167823",
@@ -8728,8 +8701,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 19 E2 Matrei",
-    "props": { "siteType": "mine" },
-    "qid": "Q97119776"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:109151",
@@ -8977,14 +8949,14 @@
     "id": "mine:167843",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Mont Sal\u00e8ve",
+    "name": "Mont Salève",
     "lat": 46.1162,
     "lng": 6.1665,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 G1 Mont Sal\u00e8ve",
+    "description": "An ancient place, cited: BAtlas 17 G1 Mont Salève",
     "props": { "siteType": "mine" }
   },
   {
@@ -9093,7 +9065,7 @@
     "id": "mine:403245",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Montecatini Val de C\u00e9cina",
+    "name": "Montecatini Val de Cécina",
     "lat": 43.3925,
     "lng": 10.7497,
     "startYear": -600,
@@ -9101,7 +9073,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q103127",
-    "description": "An ancient place, cited: BAtlas 41 D3 Montecatini Val de C\u00e9cina",
+    "description": "An ancient place, cited: BAtlas 41 D3 Montecatini Val de Cécina",
     "props": { "siteType": "mine" }
   },
   {
@@ -9196,14 +9168,14 @@
     "id": "mine:265973",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Montoro-And\u00fajar",
+    "name": "Montoro-Andújar",
     "lat": 38.1556,
     "lng": -4.0521,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 A3 Montoro-And\u00fajar",
+    "description": "An ancient place, cited: BAtlas 27 A3 Montoro-Andújar",
     "props": { "siteType": "mine" }
   },
   {
@@ -9224,14 +9196,14 @@
     "id": "mine:207294",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Moravi\u0163a",
+    "name": "Moraviţa",
     "lat": 45.2562,
     "lng": 21.2753,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 D4 Moravi\u0163a",
+    "description": "An ancient place, cited: BAtlas 21 D4 Moraviţa",
     "props": { "siteType": "mine" }
   },
   {
@@ -9372,8 +9344,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 14 G1 Nouans-les-Fontaines",
-    "props": { "siteType": "mine" },
-    "qid": "Q118525929"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:118882",
@@ -9437,14 +9408,14 @@
     "id": "mine:207325",
     "type": "mine",
     "subtype": "unknown",
-    "name": "O\u0161trelj",
+    "name": "Oštrelj",
     "lat": 44.0546,
     "lng": 22.2177,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E5 O\u0161trelj",
+    "description": "An ancient place, cited: BAtlas 21 E5 Oštrelj",
     "props": { "siteType": "mine" }
   },
   {
@@ -9479,14 +9450,14 @@
     "id": "mine:236595",
     "type": "mine",
     "subtype": "unknown",
-    "name": "P\u00e1ramo del Sil",
+    "name": "Páramo del Sil",
     "lat": 42.8202,
     "lng": -6.4882,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E2 P\u00e1ramo del Sil",
+    "description": "An ancient place, cited: BAtlas 24 E2 Páramo del Sil",
     "props": { "siteType": "mine" }
   },
   {
@@ -9536,7 +9507,7 @@
     "id": "mine:138516",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Pierri\u00e8re",
+    "name": "Pierrière",
     "lat": 46.5185,
     "lng": 2.7119,
     "startYear": -200,
@@ -9544,7 +9515,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q21556443",
-    "description": "An ancient place, cited: BAtlas 14 H2 Pierri\u00e8re",
+    "description": "An ancient place, cited: BAtlas 14 H2 Pierrière",
     "props": { "siteType": "quarry" }
   },
   {
@@ -9580,14 +9551,14 @@
     "id": "mine:236606",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Po\u00e7o das Freitas",
+    "name": "Poço das Freitas",
     "lat": 41.6887,
     "lng": -7.6651,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 D3 Po\u00e7o das Freitas",
+    "description": "An ancient place, cited: BAtlas 24 D3 Poço das Freitas",
     "props": { "siteType": "mine" }
   },
   {
@@ -9637,28 +9608,28 @@
     "id": "mine:256384",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Potos\u00ed",
+    "name": "Potosí",
     "lat": 38.0424,
     "lng": -5.7578,
     "startYear": -450,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 E3 Potos\u00ed",
+    "description": "An ancient place, cited: BAtlas 26 E3 Potosí",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:207352",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Potpe\u0107",
+    "name": "Potpeć",
     "lat": 43.4789,
     "lng": 18.8733,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 A6 Potpe\u0107",
+    "description": "An ancient place, cited: BAtlas 21 A6 Potpeć",
     "props": { "siteType": "mine" }
   },
   {
@@ -9708,14 +9679,14 @@
     "id": "mine:236620",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Puebla del Broll\u00f3n",
+    "name": "Puebla del Brollón",
     "lat": 42.5576,
     "lng": -7.3962,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 D2 Puebla del Broll\u00f3n",
+    "description": "An ancient place, cited: BAtlas 24 D2 Puebla del Brollón",
     "props": { "siteType": "mine" }
   },
   {
@@ -9802,8 +9773,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 11 I3 Ramsen",
-    "props": { "siteType": "mine" },
-    "qid": "Q1775835"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:256395",
@@ -9837,71 +9807,70 @@
     "id": "mine:236628",
     "type": "mine",
     "subtype": "unknown",
-    "name": "R\u00edo Cabrera",
+    "name": "Río Cabrera",
     "lat": 42.4448,
     "lng": -6.5919,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E2 R\u00edo Cabrera",
+    "description": "An ancient place, cited: BAtlas 24 E2 Río Cabrera",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:256401",
     "type": "mine",
     "subtype": "unknown",
-    "name": "R\u00edo Corumbel",
+    "name": "Río Corumbel",
     "lat": 37.4587,
     "lng": -6.4596,
     "startYear": -450,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 D4 R\u00edo Corumbel",
+    "description": "An ancient place, cited: BAtlas 26 D4 Río Corumbel",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:236629",
     "type": "mine",
     "subtype": "unknown",
-    "name": "R\u00edo Eria",
+    "name": "Río Eria",
     "lat": 42.2592,
     "lng": -6.138,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E2 R\u00edo Eria",
+    "description": "An ancient place, cited: BAtlas 24 E2 Río Eria",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:266012",
     "type": "mine",
     "subtype": "unknown",
-    "name": "R\u00edo Golop\u00f3n",
+    "name": "Río Golopón",
     "lat": 37.4316,
     "lng": -2.6862,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 C4 R\u00edo Golop\u00f3n",
-    "props": { "siteType": "mine" },
-    "qid": "Q23986178"
+    "description": "An ancient place, cited: BAtlas 27 C4 Río Golopón",
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:236630",
     "type": "mine",
     "subtype": "unknown",
-    "name": "R\u00edo Turienzo",
+    "name": "Río Turienzo",
     "lat": 42.4858,
     "lng": -6.191,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E2 R\u00edo Turienzo",
+    "description": "An ancient place, cited: BAtlas 24 E2 Río Turienzo",
     "props": { "siteType": "mine" }
   },
   {
@@ -10008,14 +9977,14 @@
     "id": "mine:491713",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ro\u017eden",
+    "name": "Rožden",
     "lat": 41.2094,
     "lng": 21.9549,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 50 A2 Ro\u017eden",
+    "description": "An ancient place, cited: BAtlas 50 A2 Rožden",
     "props": { "siteType": "mine" }
   },
   {
@@ -10037,7 +10006,7 @@
     "id": "mine:236632",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Ruise\u00f1ada",
+    "name": "Ruiseñada",
     "lat": 43.3639,
     "lng": -4.2905,
     "startYear": 50,
@@ -10045,7 +10014,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q9071196",
-    "description": "An ancient place, cited: BAtlas 24 G1 Ruise\u00f1ada",
+    "description": "An ancient place, cited: BAtlas 24 G1 Ruiseñada",
     "props": { "siteType": "mine" }
   },
   {
@@ -10066,14 +10035,14 @@
     "id": "mine:256421",
     "type": "mine",
     "subtype": "unknown",
-    "name": "S. B\u00e1rbara",
+    "name": "S. Bárbara",
     "lat": 37.8889,
     "lng": -5.1042,
     "startYear": -450,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 E4 S. B\u00e1rbara",
+    "description": "An ancient place, cited: BAtlas 26 E4 S. Bárbara",
     "props": { "siteType": "mine" }
   },
   {
@@ -10108,14 +10077,14 @@
     "id": "mine:462478",
     "type": "mine",
     "subtype": "unknown",
-    "name": "S. Marco d\u2019Alunzio",
+    "name": "S. Marco d’Alunzio",
     "lat": 38.0719,
     "lng": 14.7003,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 47 F2 S. Marco d\u2019Alunzio",
+    "description": "An ancient place, cited: BAtlas 47 F2 S. Marco d’Alunzio",
     "props": { "siteType": "quarry" }
   },
   {
@@ -10150,28 +10119,28 @@
     "id": "mine:207406",
     "type": "mine",
     "subtype": "unknown",
-    "name": "S\u0103c\u0103r\u00eembu",
+    "name": "Săcărîmbu",
     "lat": 45.9733,
     "lng": 23.0419,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F4 S\u0103c\u0103r\u00eembu",
+    "description": "An ancient place, cited: BAtlas 21 F4 Săcărîmbu",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:138548",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Saffr\u00e9",
+    "name": "Saffré",
     "lat": 47.5015,
     "lng": -1.5787,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 14 D1 Saffr\u00e9",
+    "description": "An ancient place, cited: BAtlas 14 D1 Saffré",
     "props": { "siteType": "quarry" }
   },
   {
@@ -10221,35 +10190,35 @@
     "id": "mine:109327",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Savonni\u00e8res-en-Perthois",
+    "name": "Savonnières-en-Perthois",
     "lat": 48.6048,
     "lng": 5.132,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 11 F4 Savonni\u00e8res-en-Perthois",
+    "description": "An ancient place, cited: BAtlas 11 F4 Savonnières-en-Perthois",
     "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:207431",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Sc\u0103ri\u015foara",
+    "name": "Scărişoara",
     "lat": 46.4897,
     "lng": 22.8098,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E3 Sc\u0103ri\u015foara",
+    "description": "An ancient place, cited: BAtlas 21 E3 Scărişoara",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:236659",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Seixo de Ansi\u00e3es",
+    "name": "Seixo de Ansiães",
     "lat": 41.1901,
     "lng": -7.2655,
     "startYear": 50,
@@ -10257,7 +10226,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q1011237",
-    "description": "An ancient place, cited: BAtlas 24 D3 Seixo de Ansi\u00e3es",
+    "description": "An ancient place, cited: BAtlas 24 D3 Seixo de Ansiães",
     "props": { "siteType": "mine" }
   },
   {
@@ -10378,14 +10347,14 @@
     "id": "mine:266039",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Sierra de G\u00e1dor",
+    "name": "Sierra de Gádor",
     "lat": 36.8357,
     "lng": -2.7629,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 C5 Sierra de G\u00e1dor",
+    "description": "An ancient place, cited: BAtlas 27 C5 Sierra de Gádor",
     "props": { "siteType": "mine" }
   },
   {
@@ -10406,14 +10375,14 @@
     "id": "mine:207446",
     "type": "mine",
     "subtype": "unknown",
-    "name": "S\u00eent\u0103m\u0103ria de Piatr\u0103",
+    "name": "Sîntămăria de Piatră",
     "lat": 45.8204,
     "lng": 23.0228,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F4 S\u00eent\u0103m\u0103ria de Piatr\u0103",
+    "description": "An ancient place, cited: BAtlas 21 F4 Sîntămăria de Piatră",
     "props": { "siteType": "quarry" }
   },
   {
@@ -10477,14 +10446,14 @@
     "id": "mine:256455",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Solana de Belalc\u00e1zar",
+    "name": "Solana de Belalcázar",
     "lat": 38.5827,
     "lng": -5.1655,
     "startYear": -450,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 E3 Solana de Belalc\u00e1zar",
+    "description": "An ancient place, cited: BAtlas 26 E3 Solana de Belalcázar",
     "props": { "siteType": "mine" },
     "qid": "Q23696656"
   },
@@ -10536,28 +10505,28 @@
     "id": "mine:167892",
     "type": "mine",
     "subtype": "unknown",
-    "name": "St-And\u00e9ol-le-Ch\u00e2teau",
+    "name": "St-Andéol-le-Château",
     "lat": 45.5849,
     "lng": 4.6964,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 D2 St-And\u00e9ol-le-Ch\u00e2teau",
+    "description": "An ancient place, cited: BAtlas 17 D2 St-Andéol-le-Château",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:246601",
     "type": "mine",
     "subtype": "unknown",
-    "name": "St-Beauz\u00e9ly",
+    "name": "St-Beauzély",
     "lat": 44.1644,
     "lng": 2.9578,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 25 H1 St-Beauz\u00e9ly",
+    "description": "An ancient place, cited: BAtlas 25 H1 St-Beauzély",
     "props": { "siteType": "mine" }
   },
   {
@@ -10620,14 +10589,14 @@
     "id": "mine:148184",
     "type": "mine",
     "subtype": "unknown",
-    "name": "St-F\u00e9lix-de-Palli\u00e8res",
+    "name": "St-Félix-de-Pallières",
     "lat": 44.023,
     "lng": 3.9314,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 15 B1 St-F\u00e9lix-de-Palli\u00e8res",
+    "description": "An ancient place, cited: BAtlas 15 B1 St-Félix-de-Pallières",
     "props": { "siteType": "mine" }
   },
   {
@@ -10662,28 +10631,28 @@
     "id": "mine:167898",
     "type": "mine",
     "subtype": "unknown",
-    "name": "St-L\u00e9ger-de-Peyre",
+    "name": "St-Léger-de-Peyre",
     "lat": 44.5937,
     "lng": 3.3026,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 17 A4 St-L\u00e9ger-de-Peyre",
+    "description": "An ancient place, cited: BAtlas 17 A4 St-Léger-de-Peyre",
     "props": { "siteType": "mine" }
   },
   {
     "id": "mine:177621",
     "type": "mine",
     "subtype": "unknown",
-    "name": "St-L\u00e9ger-du-Bois",
+    "name": "St-Léger-du-Bois",
     "lat": 47.014,
     "lng": 4.4464,
     "startYear": -200,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 18 B2 St-L\u00e9ger-du-Bois",
+    "description": "An ancient place, cited: BAtlas 18 B2 St-Léger-du-Bois",
     "props": { "siteType": "mine" }
   },
   {
@@ -10746,14 +10715,14 @@
     "id": "mine:167907",
     "type": "mine",
     "subtype": "unknown",
-    "name": "St-V\u00e9ran (mine)",
+    "name": "St-Véran (mine)",
     "lat": 44.6783,
     "lng": 6.9148,
     "startYear": -600,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "A copper mine located about 4 kilometers southeast of the Alpine village of modern St-V\u00e9ran (France). It was exploited as early as 2,000 BCE, and was in use in Roman times and again in the 20th century of the modern era.",
+    "description": "A copper mine located about 4 kilometers southeast of the Alpine village of modern St-Véran (France). It was exploited as early as 2,000 BCE, and was in use in Roman times and again in the 20th century of the modern era.",
     "props": { "siteType": "mine" }
   },
   {
@@ -10796,8 +10765,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 12 C4 Steinheim",
-    "props": { "siteType": "quarry" },
-    "qid": "Q93623550"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:256459",
@@ -10839,8 +10807,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 14 E3 Taillebourg",
-    "props": { "siteType": "quarry" },
-    "qid": "Q119333617"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:922727",
@@ -10916,7 +10883,7 @@
     "id": "mine:207490",
     "type": "mine",
     "subtype": "unknown",
-    "name": "\u0162ebea",
+    "name": "Ţebea",
     "lat": 46.2002,
     "lng": 22.7378,
     "startYear": 50,
@@ -10924,7 +10891,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q682795",
-    "description": "An ancient place, cited: BAtlas 21 E3 \u0162ebea",
+    "description": "An ancient place, cited: BAtlas 21 E3 Ţebea",
     "props": { "siteType": "mine" }
   },
   {
@@ -10953,8 +10920,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 56 C5 Thymiana",
-    "props": { "siteType": "quarry" },
-    "qid": "Q135908091"
+    "props": { "siteType": "quarry" }
   },
   {
     "id": "mine:737088",
@@ -11103,14 +11069,14 @@
     "id": "mine:236688",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Tr\u00eas Minas",
+    "name": "Três Minas",
     "lat": 41.4929,
     "lng": -7.5069,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 D3 Tr\u00eas Minas",
+    "description": "An ancient place, cited: BAtlas 24 D3 Três Minas",
     "props": { "siteType": "mine" },
     "qid": "Q15060524"
   },
@@ -11146,14 +11112,14 @@
     "id": "mine:217029",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Turnu Ro\u015fu",
+    "name": "Turnu Roşu",
     "lat": 45.6412,
     "lng": 24.3,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 22 B3 Turnu Ro\u015fu",
+    "description": "An ancient place, cited: BAtlas 22 B3 Turnu Roşu",
     "props": { "siteType": "quarry" }
   },
   {
@@ -11240,7 +11206,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 62 A3 no. 10 (NE Ankyra, at Maden K\u00f6y)",
+    "description": "An ancient place, cited: BAtlas 62 A3 no. 10 (NE Ankyra, at Maden Köy)",
     "props": { "siteType": "mine" }
   },
   {
@@ -11254,7 +11220,7 @@
     "endYear": 250,
     "source": "Pleiades",
     "category": "production",
-    "description": "S of St-Julien-de-Con\u00e7elles",
+    "description": "S of St-Julien-de-Conçelles",
     "props": { "siteType": "quarry" }
   },
   {
@@ -11310,7 +11276,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "Waelkens 1987 describes the discovery of a quarry district referred to as Ta\u015fl\u0131 G\u00f6l. It is to be located between the villages of Do\u011fanl\u0131, G\u00f6zler, and \u00c7indere. This site is approximately 25 km northwest of Pamukkale. The marble from these quarries is identified as Thiounta marble on the basis of comparison with the coarser marble of Hierapolis.",
+    "description": "Waelkens 1987 describes the discovery of a quarry district referred to as Taşlı Göl. It is to be located between the villages of Doğanlı, Gözler, and Çindere. This site is approximately 25 km northwest of Pamukkale. The marble from these quarries is identified as Thiounta marble on the basis of comparison with the coarser marble of Hierapolis.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -11338,7 +11304,7 @@
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 62 C4 no. 15 (G\u00f6kg\u00f6z Deresi near Ulup\u0131nar)",
+    "description": "An ancient place, cited: BAtlas 62 C4 no. 15 (Gökgöz Deresi near Ulupınar)",
     "props": { "siteType": "quarry" }
   },
   {
@@ -11422,7 +11388,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B3 unnamed quarry group (NE \u2018Tasinemeti\u2019)",
+    "description": "An ancient place, cited: BAtlas 20 B3 unnamed quarry group (NE ‘Tasinemeti’)",
     "props": { "siteType": "quarry" }
   },
   {
@@ -11920,7 +11886,7 @@
     "id": "mine:858516",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Unknown N of \u015eapl\u0131ca",
+    "name": "Unknown N of Şaplıca",
     "lat": 40.5,
     "lng": 38.5,
     "startYear": 50,
@@ -12173,7 +12139,7 @@
     "id": "mine:613062",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Unknown near S\u00fcl\u00fcmenli",
+    "name": "Unknown near Sülümenli",
     "lat": 38.75,
     "lng": 30.75,
     "startYear": -200,
@@ -12539,7 +12505,7 @@
     "id": "mine:200082",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Unknown at \u2018Silvo\u2019",
+    "name": "Unknown at ‘Silvo’",
     "lat": 45.5,
     "lng": 13.5,
     "startYear": 50,
@@ -12567,14 +12533,14 @@
     "id": "mine:200085",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Unknown at \u2018Surontio\u2019",
+    "name": "Unknown at ‘Surontio’",
     "lat": 47.5,
     "lng": 14.5,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B2 unnamed quarry (E \u2018Surontio\u2019)",
+    "description": "An ancient place, cited: BAtlas 20 B2 unnamed quarry (E ‘Surontio’)",
     "props": { "siteType": "quarry" }
   },
   {
@@ -12602,7 +12568,7 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B4 unnamed quarry (E Nauportus, at Podpe\u010d)",
+    "description": "An ancient place, cited: BAtlas 20 B4 unnamed quarry (E Nauportus, at Podpeč)",
     "props": { "siteType": "mine" }
   },
   {
@@ -12651,7 +12617,7 @@
     "id": "mine:200098",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Unknown near \u0160martno na Pohorju",
+    "name": "Unknown near Šmartno na Pohorju",
     "lat": 46.4657,
     "lng": 15.557,
     "startYear": 50,
@@ -12666,7 +12632,7 @@
     "id": "mine:200099",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Unknown W of \u2018Upellis\u2019",
+    "name": "Unknown W of ‘Upellis’",
     "lat": 46.338,
     "lng": 15.0579,
     "startYear": 50,
@@ -12919,14 +12885,14 @@
     "id": "mine:236710",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Valle Rab\u00f3n",
+    "name": "Valle Rabón",
     "lat": 42.893,
     "lng": -6.2837,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 24 E2 Valle Rab\u00f3n",
+    "description": "An ancient place, cited: BAtlas 24 E2 Valle Rabón",
     "props": { "siteType": "mine" }
   },
   {
@@ -13029,8 +12995,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 17 H3 Villarodin-Bourget",
-    "props": { "siteType": "mine" },
-    "qid": "Q120194688"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:167971",
@@ -13044,8 +13009,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 17 H2 Villette",
-    "props": { "siteType": "mine" },
-    "qid": "Q136082545"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:167972",
@@ -13073,8 +13037,7 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 19 E3 Virgen",
-    "props": { "siteType": "mine" },
-    "qid": "Q56237746"
+    "props": { "siteType": "mine" }
   },
   {
     "id": "mine:403295",
@@ -13095,14 +13058,14 @@
     "id": "mine:491750",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Vitoli\u0161te",
+    "name": "Vitolište",
     "lat": 41.1649,
     "lng": 21.8348,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 50 A2 Vitoli\u0161te",
+    "description": "An ancient place, cited: BAtlas 50 A2 Vitolište",
     "props": { "siteType": "mine" }
   },
   {
@@ -13208,14 +13171,14 @@
     "id": "mine:550652",
     "type": "mine",
     "subtype": "unknown",
-    "name": "Yedi Ta\u015flar",
+    "name": "Yedi Taşlar",
     "lat": 39.7412,
     "lng": 26.2417,
     "startYear": 50,
     "endYear": 50,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient granite quarry known today as \"Yedi Ta\u015flar\" (Seven Stones), located near the modern Turkish village of Ko\u00e7al\u0131 (Ezine District, \u00c7anakkale Province). Several partially quarried monolithic columns remain on site today.",
+    "description": "An ancient granite quarry known today as \"Yedi Taşlar\" (Seven Stones), located near the modern Turkish village of Koçalı (Ezine District, Çanakkale Province). Several partially quarried monolithic columns remain on site today.",
     "props": { "siteType": "quarry" }
   },
   {
@@ -13251,14 +13214,14 @@
     "id": "mine:207585",
     "type": "mine",
     "subtype": "unknown",
-    "name": "\u017deleznik potok",
+    "name": "Železnik potok",
     "lat": 44.4508,
     "lng": 21.8522,
     "startYear": 50,
     "endYear": 400,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 D5 \u017deleznik potok",
+    "description": "An ancient place, cited: BAtlas 21 D5 Železnik potok",
     "props": { "siteType": "mine" }
   },
   {
@@ -13593,7 +13556,7 @@
   {
     "id": "pleiades:858516",
     "type": "mine",
-    "name": "Mine N of \u015eapl\u0131ca",
+    "name": "Mine N of Şaplıca",
     "lat": 40.5,
     "lng": 38.5,
     "startYear": 0,
@@ -13886,14 +13849,14 @@
   {
     "id": "pleiades:256402",
     "type": "mine",
-    "name": "R\u00edo Crispinejo",
+    "name": "Río Crispinejo",
     "lat": 37.503839,
     "lng": -6.280854,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 D4 R\u00edo Crispinejo"
+    "description": "An ancient place, cited: BAtlas 26 D4 Río Crispinejo"
   },
   {
     "id": "pleiades:256403",
@@ -13905,20 +13868,19 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 D4 Riotinto",
-    "qid": "Q98060400"
+    "description": "An ancient place, cited: BAtlas 26 D4 Riotinto"
   },
   {
     "id": "pleiades:256424",
     "type": "mine",
-    "name": "S. Est\u00eav\u00e3o",
+    "name": "S. Estêvão",
     "lat": 37.258196,
     "lng": -8.333833,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 B4 S. Est\u00eav\u00e3o"
+    "description": "An ancient place, cited: BAtlas 26 B4 S. Estêvão"
   },
   {
     "id": "pleiades:256460",
@@ -13935,14 +13897,14 @@
   {
     "id": "pleiades:265830",
     "type": "mine",
-    "name": "Bu\u00f1ola",
+    "name": "Buñola",
     "lat": 39.69665,
     "lng": 2.699401,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 27 inset Bu\u00f1ola"
+    "description": "An ancient place, cited: BAtlas 27 inset Buñola"
   },
   {
     "id": "pleiades:208943200",
@@ -14259,12 +14221,12 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B4 unnamed quarry (E Nauportus, at Podpe\u010d)"
+    "description": "An ancient place, cited: BAtlas 20 B4 unnamed quarry (E Nauportus, at Podpeč)"
   },
   {
     "id": "pleiades:200099",
     "type": "mine",
-    "name": "Mine W of \u2018Upellis\u2019",
+    "name": "Mine W of ‘Upellis’",
     "lat": 46.338038,
     "lng": 15.057926,
     "startYear": 0,
@@ -14410,26 +14372,26 @@
   {
     "id": "pleiades:138364",
     "type": "mine",
-    "name": "Les Fouilleti\u00e8res",
+    "name": "Les Fouilletières",
     "lat": 47.539187,
     "lng": 3.268084,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 14 I1 Les Fouilleti\u00e8res"
+    "description": "An ancient place, cited: BAtlas 14 I1 Les Fouilletières"
   },
   {
     "id": "pleiades:255969",
     "type": "mine",
-    "name": "Almad\u00e9n de la Plata",
+    "name": "Almadén de la Plata",
     "lat": 37.873439,
     "lng": -6.079759,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 D4 Almad\u00e9n de la Plata"
+    "description": "An ancient place, cited: BAtlas 26 D4 Almadén de la Plata"
   },
   {
     "id": "pleiades:256046",
@@ -14497,14 +14459,14 @@
   {
     "id": "pleiades:207277",
     "type": "mine",
-    "name": "Mesteac\u0103n",
+    "name": "Mesteacăn",
     "lat": 46.154081,
     "lng": 22.794522,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E3 Mesteac\u0103n",
+    "description": "An ancient place, cited: BAtlas 21 E3 Mesteacăn",
     "qid": "Q49005925"
   },
   {
@@ -14523,19 +14485,19 @@
   {
     "id": "pleiades:207341",
     "type": "mine",
-    "name": "Petro\u015feni",
+    "name": "Petroşeni",
     "lat": 45.412025,
     "lng": 23.373754,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 F4 Petro\u015feni"
+    "description": "An ancient place, cited: BAtlas 21 F4 Petroşeni"
   },
   {
     "id": "pleiades:207390",
     "type": "mine",
-    "name": "R\u00eebi\u0163a",
+    "name": "Rîbiţa",
     "lat": 46.17635,
     "lng": 22.765551,
     "startYear": 0,
@@ -14543,7 +14505,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q1189096",
-    "description": "An ancient place, cited: BAtlas 21 E3 R\u00eebi\u0163a"
+    "description": "An ancient place, cited: BAtlas 21 E3 Rîbiţa"
   },
   {
     "id": "pleiades:207396",
@@ -14561,7 +14523,7 @@
   {
     "id": "pleiades:207412",
     "type": "mine",
-    "name": "S\u0103lciua de Sus",
+    "name": "Sălciua de Sus",
     "lat": 46.394216,
     "lng": 23.401245,
     "startYear": 0,
@@ -14569,7 +14531,7 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q3893080",
-    "description": "An ancient place, cited: BAtlas 21 F3 S\u0103lciua de Sus"
+    "description": "An ancient place, cited: BAtlas 21 F3 Sălciua de Sus"
   },
   {
     "id": "pleiades:207452",
@@ -14598,14 +14560,14 @@
   {
     "id": "pleiades:207553",
     "type": "mine",
-    "name": "V\u00eerciorova",
+    "name": "Vîrciorova",
     "lat": 45.390015,
     "lng": 22.33373,
     "startYear": 0,
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E4 V\u00eerciorova"
+    "description": "An ancient place, cited: BAtlas 21 E4 Vîrciorova"
   },
   {
     "id": "pleiades:403244",
@@ -15214,11 +15176,11 @@
   {
     "id": "mine:pleiades-295250",
     "type": "mine",
-    "name": "Ch\u00e9noua",
+    "name": "Chénoua",
     "lat": 36.62785,
     "lng": 2.40085,
     "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 30 D3 Ch\u00e9noua",
+    "description": "An ancient place, cited: BAtlas 30 D3 Chénoua",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
@@ -15271,7 +15233,7 @@
     "lat": 43.83942,
     "lng": 4.34512,
     "source": "Pleiades",
-    "description": "A limestone quarry at N\u00eemes that is often referred to by the name of the hill into which it was cut. It is located just west of the Temple of Diana and north of the terminus of the Rue de la C\u00e0rriere Romaine. Modern structures have been built in and around the quarry and access is gated, but some of the excavated cliff faces are still visible from the terminus of the Rue du Rempart Romain.",
+    "description": "A limestone quarry at Nîmes that is often referred to by the name of the hill into which it was cut. It is located just west of the Temple of Diana and north of the terminus of the Rue de la Càrriere Romaine. Modern structures have been built in and around the quarry and access is gated, but some of the excavated cliff faces are still visible from the terminus of the Rue du Rempart Romain.",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
@@ -15293,11 +15255,11 @@
   {
     "id": "mine:pleiades-148173",
     "type": "mine",
-    "name": "Roquemaill\u00e8re Roman Quarry",
+    "name": "Roquemaillère Roman Quarry",
     "lat": 43.86066,
     "lng": 4.32789,
     "source": "Pleiades",
-    "description": "A Roman-era limestone quarry located to the north of N\u00eemes in modern France.",
+    "description": "A Roman-era limestone quarry located to the north of Nîmes in modern France.",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
@@ -15440,7 +15402,7 @@
     "lat": 37.61546,
     "lng": -1.04388,
     "source": "Pleiades",
-    "description": "Sandstone quarries located some 4 km west of Cartagena, in the Diputaci\u00f3n de Canteras.",
+    "description": "Sandstone quarries located some 4 km west of Cartagena, in the Diputación de Canteras.",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
@@ -15457,8 +15419,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q11017694"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-766379",
@@ -15572,7 +15533,7 @@
     "lat": 38.60506,
     "lng": 29.75537,
     "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 62 C4 no. 14 (Hano\u011flu)",
+    "description": "An ancient place, cited: BAtlas 62 C4 no. 14 (Hanoğlu)",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
@@ -15585,7 +15546,7 @@
     "lat": 38.6138,
     "lng": 29.84567,
     "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 62 C4 no. 16 (Kavac\u0131k)",
+    "description": "An ancient place, cited: BAtlas 62 C4 no. 16 (Kavacık)",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
@@ -15716,12 +15677,11 @@
     "lat": 45.6942,
     "lng": 5.53948,
     "source": "Pleiades",
-    "description": "A previously quarried limestone bed on the banks of the Rhone was identified and requarried in the 19th century near the modern French commune of Brangues in Is\u00e8re. A number of discarded and incomplete stones were identified. The original quarrying has been assumed to have been of Roman date.",
+    "description": "A previously quarried limestone bed on the banks of the Rhone was identified and requarried in the 19th century near the modern French commune of Brangues in Isère. A number of discarded and incomplete stones were identified. The original quarrying has been assumed to have been of Roman date.",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q120301093"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-504349",
@@ -15813,8 +15773,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q119305404"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-707678907",
@@ -15961,8 +15920,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q3748592"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-246226",
@@ -15975,8 +15933,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q119631477"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-246284",
@@ -16028,8 +15985,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q119315537"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-246491",
@@ -16042,8 +15998,7 @@
     "subtype": "mine",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q136060699"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-246519",
@@ -16082,8 +16037,7 @@
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q22969313"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-246659",
@@ -16101,16 +16055,15 @@
   {
     "id": "mine:pleiades-108784",
     "type": "mine",
-    "name": "Bad D\u00fcrkheim",
+    "name": "Bad Dürkheim",
     "lat": 49.46215,
     "lng": 8.16551,
     "source": "Pleiades",
-    "description": "An ancient place, cited: BAtlas 11 I3 Bad D\u00fcrkheim",
+    "description": "An ancient place, cited: BAtlas 11 I3 Bad Dürkheim",
     "subtype": "quarry",
     "startYear": -300,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q135514938"
+    "estimatedTemporal": true
   },
   {
     "id": "mine:pleiades-109089",

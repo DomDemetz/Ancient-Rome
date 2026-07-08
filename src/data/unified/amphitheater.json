@@ -74,8 +74,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 33250, "dimensions": "156x130m", "city": "Limonum Pictonum" },
-    "qid": "Q16010423"
+    "props": { "capacity": 33250, "dimensions": "156x130m", "city": "Limonum Pictonum" }
   },
   {
     "id": "amphitheater:milan",
@@ -220,8 +219,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 24795, "dimensions": "137x116m", "city": "Augustoritum" },
-    "qid": "Q2822305"
+    "props": { "capacity": 24795, "dimensions": "137x116m", "city": "Augustoritum" }
   },
   {
     "id": "amphitheater:nimes",
@@ -276,7 +274,7 @@
   {
     "id": "amphitheater:p-rigueux",
     "type": "amphitheater",
-    "name": "P\u00e9rigueux",
+    "name": "Périgueux",
     "lat": 45.1827,
     "lng": 0.7132,
     "startYear": 50,
@@ -341,7 +339,7 @@
   {
     "id": "amphitheater:durr-s",
     "type": "amphitheater",
-    "name": "Durr\u00ebs",
+    "name": "Durrës",
     "lat": 41.3122,
     "lng": 19.4451,
     "startYear": 100,
@@ -476,8 +474,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 17100, "dimensions": "118x98m", "city": "Utica" },
-    "qid": "Q4872636"
+    "props": { "capacity": 17100, "dimensions": "118x98m", "city": "Utica" }
   },
   {
     "id": "amphitheater:grand",
@@ -489,8 +486,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 17000, "city": "Grannum" },
-    "qid": "Q119311261"
+    "props": { "capacity": 17000, "city": "Grannum" }
   },
   {
     "id": "amphitheater:toulouse",
@@ -598,7 +594,7 @@
   {
     "id": "amphitheater:m-rida",
     "type": "amphitheater",
-    "name": "M\u00e9rida",
+    "name": "Mérida",
     "lat": 38.9162,
     "lng": -6.338,
     "startYear": -8,
@@ -701,7 +697,7 @@
   {
     "id": "amphitheater:fr-jus",
     "type": "amphitheater",
-    "name": "Fr\u00e9jus",
+    "name": "Fréjus",
     "lat": 43.4345,
     "lng": 6.7287,
     "startYear": 100,
@@ -714,7 +710,7 @@
   {
     "id": "amphitheater:besan-on",
     "type": "amphitheater",
-    "name": "Besan\u00e7on",
+    "name": "Besançon",
     "lat": 47.239,
     "lng": 6.0159,
     "startYear": 150,
@@ -786,8 +782,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 12283, "dimensions": "92.8x79.2m", "city": "Carales" },
-    "qid": "Q3629504"
+    "props": { "capacity": 12283, "dimensions": "92.8x79.2m", "city": "Carales" }
   },
   {
     "id": "amphitheater:rougga",
@@ -864,8 +859,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 11000, "dimensions": "100x84m", "city": "Volsinii Novi" },
-    "qid": "Q3971498"
+    "props": { "capacity": 11000, "dimensions": "100x84m", "city": "Volsinii Novi" }
   },
   {
     "id": "amphitheater:terni",
@@ -942,7 +936,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q12629208",
     "props": { "capacity": 10210, "dimensions": "89x81m", "city": "Corinium Dobunnorum" }
   },
   {
@@ -955,7 +948,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q103194995",
     "props": { "capacity": 10000, "dimensions": "90x83m", "city": "Augustomagus" }
   },
   {
@@ -1091,7 +1083,7 @@
   {
     "id": "amphitheater:b-ziers",
     "type": "amphitheater",
-    "name": "B\u00e9ziers",
+    "name": "Béziers",
     "lat": 43.3396,
     "lng": 3.214,
     "startYear": 100,
@@ -1905,8 +1897,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "capacity": 1248, "dimensions": "39.6x34m", "city": "Alalia" },
-    "qid": "Q1434565"
+    "props": { "capacity": 1248, "dimensions": "39.6x34m", "city": "Alalia" }
   },
   {
     "id": "amphitheater:dura-europos",
@@ -2148,7 +2139,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q3265994",
     "props": { "dimensions": "68x40m", "city": "Ferentium" }
   },
   {
@@ -2379,8 +2369,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Nea Paphos" },
-    "qid": "Q2505824"
+    "props": { "city": "Nea Paphos" }
   },
   {
     "id": "amphitheater:carmarthen",
@@ -2417,8 +2406,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "dimensions": "178x145m", "city": "Colonia Patricia" },
-    "qid": "Q97625616"
+    "props": { "dimensions": "178x145m", "city": "Colonia Patricia" }
   },
   {
     "id": "amphitheater:reims",
@@ -2546,8 +2534,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Autricum" },
-    "qid": "Q3527861"
+    "props": { "city": "Autricum" }
   },
   {
     "id": "amphitheater:taneto",
@@ -2643,14 +2630,13 @@
   {
     "id": "amphitheater:le-n",
     "type": "amphitheater",
-    "name": "Le\u00f3n",
+    "name": "León",
     "lat": 42.5989,
     "lng": -5.5669,
     "startYear": 100,
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q1234638",
     "props": { "dimensions": "90x70m", "city": "Legio" }
   },
   {
@@ -2695,7 +2681,7 @@
   {
     "id": "amphitheater:k-nzing",
     "type": "amphitheater",
-    "name": "K\u00fcnzing",
+    "name": "Künzing",
     "lat": 48.6671,
     "lng": 13.0828,
     "startYear": 100,
@@ -2804,8 +2790,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "dimensions": "120x75m", "city": "Nova Trajana Bostra" },
-    "qid": "Q4870532"
+    "props": { "dimensions": "120x75m", "city": "Nova Trajana Bostra" }
   },
   {
     "id": "amphitheater:palmyra",
@@ -3325,7 +3310,6 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "qid": "Q116828",
     "props": { "city": "Fabrateria Nova" }
   },
   {
@@ -3403,8 +3387,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "dimensions": "117x93m", "city": "Barcino" },
-    "qid": "Q3819019"
+    "props": { "dimensions": "117x93m", "city": "Barcino" }
   },
   {
     "id": "amphitheater:istanbul",
@@ -3442,8 +3425,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Regium Lepidi" },
-    "qid": "Q68288358"
+    "props": { "city": "Regium Lepidi" }
   },
   {
     "id": "amphitheater:tharros",
@@ -3494,8 +3476,7 @@
     "endYear": 0,
     "source": "roman-amphitheaters",
     "category": "entertainment",
-    "props": { "city": "Toletum" },
-    "qid": "Q2389665"
+    "props": { "city": "Toletum" }
   },
   {
     "id": "amphitheater:kaiseraugst",

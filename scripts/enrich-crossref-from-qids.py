@@ -9,6 +9,7 @@ import json
 import glob
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -17,7 +18,7 @@ UNIFIED_DIR = "src/data/unified"
 BATCH_SIZE = 50
 
 
-def fetch_wikidata_batch(qids):
+def fetch_wikidata_batch(qids, max_retries=3):
     """Fetch labels, descriptions, sitelinks, and P18 claims from Wikidata."""
     qids_str = '|'.join(qids)
     url = (
@@ -25,13 +26,23 @@ def fetch_wikidata_batch(qids):
         f"&ids={qids_str}&props=labels|descriptions|claims|sitelinks/urls"
         f"&languages=en&sitefilter=enwiki&format=json"
     )
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'AncientRomeAtlas/1.0'})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
-    except Exception as e:
-        print(f"  API error: {e}")
-        return {}
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'AncientRomeAtlas/1.0'})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < max_retries - 1:
+                wait = 5 * (attempt + 1)
+                print(f" [429, waiting {wait}s]", end='', flush=True)
+                time.sleep(wait)
+                continue
+            print(f"  API error: {e}")
+            return {}
+        except Exception as e:
+            print(f"  API error: {e}")
+            return {}
 
     results = {}
     for qid, entity in data.get('entities', {}).items():
@@ -120,7 +131,11 @@ def main():
                 added += 1
 
         print(f" {batch_added} entries")
-        time.sleep(0.5)
+        if not dry_run and added > 0 and batch_num % 20 == 0:
+            with open(CROSSREF_PATH, 'w') as f:
+                json.dump(cr, f, separators=(',', ':'))
+            print(f"    (checkpoint: {added} entries saved)")
+        time.sleep(1.5)
 
     print(f"\nTotal: {added} cross-ref entries added ({with_image} with images)")
 

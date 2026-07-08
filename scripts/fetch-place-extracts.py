@@ -7,6 +7,7 @@ Wikipedia URLs but no extract yet in knowledge/places.json.
 import json
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -14,7 +15,7 @@ KNOWLEDGE_PLACES = "src/data/knowledge/places.json"
 BATCH_SIZE = 20
 
 
-def fetch_extracts_batch(titles):
+def fetch_extracts_batch(titles, max_retries=3):
     titles_str = '|'.join(titles)
     url = (
         f"https://en.wikipedia.org/w/api.php?action=query"
@@ -22,13 +23,23 @@ def fetch_extracts_batch(titles):
         f"&prop=extracts|pageimages&exintro=1&explaintext=1"
         f"&pithumbsize=300&format=json&redirects=1"
     )
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'AncientRomeAtlas/1.0'})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
-    except Exception as e:
-        print(f"  API error: {e}")
-        return {}
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'AncientRomeAtlas/1.0'})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < max_retries - 1:
+                wait = 5 * (attempt + 1)
+                print(f" [429, waiting {wait}s]", end='', flush=True)
+                time.sleep(wait)
+                continue
+            print(f"  API error: {e}")
+            return {}
+        except Exception as e:
+            print(f"  API error: {e}")
+            return {}
 
     results = {}
     redirects = {}
@@ -104,7 +115,11 @@ def main():
                 fetched += 1
 
         print(f" {batch_fetched} extracts")
-        time.sleep(0.3)
+        if not dry_run and fetched > 0 and batch_num % 20 == 0:
+            with open(KNOWLEDGE_PLACES, 'w') as f:
+                json.dump(places, f, separators=(',', ':'))
+            print(f"    (checkpoint: {fetched} extracts saved)")
+        time.sleep(0.5)
 
     print(f"\nTotal: {fetched} extracts fetched")
 

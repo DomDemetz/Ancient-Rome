@@ -8,6 +8,7 @@ sitelinks endpoint.
 import json
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -15,7 +16,7 @@ KNOWLEDGE_PLACES = "src/data/knowledge/places.json"
 BATCH_SIZE = 50  # Wikidata wbgetentities allows up to 50 per request
 
 
-def fetch_wiki_urls_batch(qids):
+def fetch_wiki_urls_batch(qids, max_retries=3):
     """Fetch English Wikipedia URLs for a batch of QIDs."""
     qids_str = '|'.join(qids)
     url = (
@@ -23,13 +24,23 @@ def fetch_wiki_urls_batch(qids):
         f"&ids={qids_str}&props=sitelinks/urls&sitefilter=enwiki"
         f"&format=json"
     )
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'AncientRomeAtlas/1.0'})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
-    except Exception as e:
-        print(f"  API error: {e}")
-        return {}
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'AncientRomeAtlas/1.0'})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < max_retries - 1:
+                wait = 5 * (attempt + 1)
+                print(f" [429, waiting {wait}s]", end='', flush=True)
+                time.sleep(wait)
+                continue
+            print(f"  API error: {e}")
+            return {}
+        except Exception as e:
+            print(f"  API error: {e}")
+            return {}
 
     results = {}
     for qid, entity in data.get('entities', {}).items():
@@ -85,7 +96,11 @@ def main():
                 found += 1
 
         print(f" {batch_found} URLs")
-        time.sleep(0.5)
+        if not dry_run and found > 0 and batch_num % 20 == 0:
+            with open(KNOWLEDGE_PLACES, 'w') as f:
+                json.dump(places, f, separators=(',', ':'))
+            print(f"    (checkpoint: {found} URLs saved)")
+        time.sleep(1.5)
 
     print(f"\nTotal: {found} Wikipedia URLs found")
 
