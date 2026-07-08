@@ -118,7 +118,7 @@ export function StatsOverlay() {
     stats.push({ Icon: Bird, label: 'legions', value: formatCount(legionCount) })
   }
   if (shipwreckCount) {
-    stats.push({ Icon: Anchor, label: 'wrecks', value: formatCount(shipwreckCount) })
+    stats.push({ Icon: Anchor, label: 'shipwrecks', value: formatCount(shipwreckCount) })
   }
 
   if (stats.length === 0) return null
@@ -134,6 +134,9 @@ export function StatsOverlay() {
               className="flex items-center gap-1 bg-black/70 rounded-full px-2 py-0.5 text-[9px] tabular-nums"
             >
               <s.Icon className="w-3 h-3 text-slate-500" />
+              {/* a bare "396" beside an anchor icon told a phone visitor
+                  nothing — carry the same label the desktop bar shows */}
+              <span className="uppercase tracking-[0.1em] text-slate-500">{s.label}</span>
               <span className="font-semibold text-slate-200">{s.value}</span>
             </span>
           ))}

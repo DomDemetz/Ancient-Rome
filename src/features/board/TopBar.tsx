@@ -67,7 +67,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto bg-[#0c0c10] border border-white/[0.06] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
             <DialogHeader>
               <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
-                {atlasMode ? 'Atlas Tours' : 'Guided Stories'}
+                {atlasMode ? 'Stories' : 'Guided Stories'}
               </DialogTitle>
             </DialogHeader>
             <StoryPlayer onStart={handleStart} />
@@ -132,7 +132,7 @@ export function TopBar({ storyMode }: TopBarProps) {
         <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto bg-[#0c0c10] border border-white/[0.08] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
           <DialogHeader>
             <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
-              {atlasMode ? 'Atlas Tours' : 'Guided Stories'}
+              {atlasMode ? 'Stories' : 'Guided Stories'}
             </DialogTitle>
           </DialogHeader>
           <StoryPlayer onStart={handleStart} />
