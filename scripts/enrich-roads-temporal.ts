@@ -23,6 +23,7 @@ import { getAttestedYear } from '../src/data/named-roads.js'
 interface TerritorySnapshot {
   id: string
   year: number
+  status?: string
   boundaries: Feature<MultiPolygon>
 }
 
@@ -121,8 +122,11 @@ async function main() {
     loadJSON<TerritorySnapshot[]>('../src/data/territories/territories.json'),
   ])
 
-  // Sort snapshots by year
-  const sortedSnapshots = [...territories].sort((a, b) => a.year - b.year)
+  // 'lost' snapshots carry the fallen empire's final extent — exclude them
+  // so roads decline when control ends, not against a ghost boundary.
+  const sortedSnapshots = territories
+    .filter((s) => s.status !== 'lost')
+    .sort((a, b) => a.year - b.year)
 
   console.log(`  DARE roads: ${dareRoads.features.length}`)
   console.log(`  Itiner-e roads: ${itinereRoads.features.length}`)
@@ -157,8 +161,10 @@ async function main() {
       return { territoryYear: null, declineYear: null }
     }
 
-    // Find first later snapshot where road is no longer inside ANY territory
-    // For each subsequent year, check all territory IDs at that year
+    // Decline = first year outside ALL territory AFTER the last year inside.
+    // Territory can be lost and recovered (Gallic Empire 261-283, Justinian's
+    // reconquests), so the first outside year is not the decline — the road
+    // declines only once control never returns.
     let declineYear: number | null = null
 
     // Group snapshots by year from firstInsideIdx onward
@@ -176,13 +182,15 @@ async function main() {
 
     const years = [...yearsSeen].sort((a, b) => a - b)
 
-    // Skip the first year (we know it's inside); check subsequent years
+    // Skip the first year (we know it's inside); track the outside year that
+    // follows the LAST inside year.
     for (let yi = 1; yi < years.length; yi++) {
       const yearSnapshots = snapshotsByYear.get(years[yi])!
       const insideAny = yearSnapshots.some((snap) => isInsideTerritory(samplePts, snap))
-      if (!insideAny) {
+      if (insideAny) {
+        declineYear = null
+      } else if (declineYear === null) {
         declineYear = years[yi]
-        break
       }
     }
 
