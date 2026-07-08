@@ -26,17 +26,25 @@ const SOURCE_LABEL: Record<string, string> = {
 
 const TYPE_LABEL: Record<string, string> = {
   'religious-site': 'Religious Site',
+  'discovery-bridge': 'Bridge',
+  'discovery-temple': 'Temple',
+  'discovery-tomb': 'Tomb',
+  'discovery-villa': 'Villa',
   amphitheater: 'Amphitheatre',
-  press: 'Press',
+  shipwreck: 'Shipwreck',
+  press: 'Oil/Wine Press',
+  mine: 'Mine',
 }
 
 function labelType(raw: string): string {
   return TYPE_LABEL[raw] ?? raw.charAt(0).toUpperCase() + raw.slice(1)
 }
 
-function labelSubtype(raw: string): string | null {
+function labelSubtype(raw: string, type?: string): string | null {
   if (raw === 'unknown' || raw === 'other') return null
-  return raw.charAt(0).toUpperCase() + raw.slice(1)
+  const label = raw.charAt(0).toUpperCase() + raw.slice(1)
+  if (type === 'shipwreck') return `${label} cargo`
+  return label
 }
 
 interface UnifiedLayerProps {
@@ -110,7 +118,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
       const sub: string[] = []
       if (e.type) sub.push(labelType(e.type))
       if (e.subtype && e.subtype !== e.type) {
-        const st = labelSubtype(e.subtype)
+        const st = labelSubtype(e.subtype, e.type)
         if (st) sub.push(st)
       }
       if (sub.length) html += `<div class="map-tooltip-sub">${esc(sub.join(' · '))}</div>`
