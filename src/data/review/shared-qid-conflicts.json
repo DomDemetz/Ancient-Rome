@@ -37,8 +37,9 @@
         "name": "Port at 35.93, 14.49"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": null
   },
   {
     "qid": "Q3398448",
@@ -54,8 +55,9 @@
         "name": "Port at 47.58, -3.10"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": null
   },
   {
     "qid": "Q25166577",
@@ -75,7 +77,9 @@
         "name": "Port of Tylissos? Port of Rhaukos? Port of archaic Kastrokephala?"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-minoan-port-of-knossos-monesos-at-outlet-4096",
+    "strip": []
   },
   {
     "qid": "Q25168407",
@@ -99,8 +103,9 @@
         "name": "Port at 37.52, 23.51"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-pohon-pogon-pogonus-port-of-troizen-dama-2754"
   },
   {
     "qid": "Q25166561",
@@ -124,8 +129,9 @@
         "name": "Port at 37.02, 24.69"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-port-at-36-99-24-69-3035"
   },
   {
     "qid": "Q65006224",
@@ -141,7 +147,9 @@
         "name": "Bajo de la Campana 2"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "shipwreck:darmc-wreck-55",
+    "strip": ["shipwreck:darmc-wreck-54"]
   },
   {
     "qid": "Q1344739",
@@ -173,8 +181,9 @@
         "name": "Port at 31.22, 29.92"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-alexandria-megas-limen-portus-magnus-and-5517"
   },
   {
     "qid": "Q530644",
@@ -190,7 +199,9 @@
         "name": "Naxos insula, Dhia, Homer's Dia"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-naxos-export-of-white-marble-3063",
+    "strip": []
   },
   {
     "qid": "Q25168402",
@@ -222,7 +233,9 @@
         "name": "Port at 39.19, 23.46"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-port-at-39-16-23-50-3204",
+    "strip": []
   },
   {
     "qid": "Q1798768",
@@ -250,8 +263,9 @@
         "name": "Port at 36.40, -5.19"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-port-at-36-35-5-23-728"
   },
   {
     "qid": "Q34966015",
@@ -279,8 +293,9 @@
         "name": "Port at 40.82, 14.08"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-access-to-portus-iulius-julius-port-of-j-1587"
   },
   {
     "qid": "Q25168413",
@@ -308,8 +323,9 @@
         "name": "Port at 39.10, 26.56"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-mytilene-maloenta-commercial-port-3162"
   },
   {
     "qid": "Q26224647",
@@ -337,8 +353,9 @@
         "name": "Ruginium"
       }
     ],
-    "resolution": "manual",
-    "strip": []
+    "resolution": "resolved",
+    "strip": [],
+    "keeper": "port:apa-ruginium-2061"
   },
   {
     "qid": "Q6877704",
@@ -354,7 +371,9 @@
         "name": "Port at 27.62, 35.52"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-port-at-27-56-35-54-5036",
+    "strip": []
   },
   {
     "qid": "Q25166571",
@@ -378,7 +397,9 @@
         "name": "Port at 36.79, 24.58"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-port-at-36-79-24-58-3091",
+    "strip": []
   },
   {
     "qid": "Q111600921",
@@ -394,7 +415,9 @@
         "name": "Port at 40.35, 27.96"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-port-at-40-35-27-96-4025",
+    "strip": []
   },
   {
     "qid": "Q13294",
@@ -410,7 +433,9 @@
         "name": "Silba 4"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": null,
+    "strip": []
   },
   {
     "qid": "Q24677890",
@@ -434,7 +459,9 @@
         "name": "Port at 50.65, -2.43"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "port:apa-port-at-50-60-2-45-215",
+    "strip": []
   },
   {
     "qid": "Q1945239",
@@ -454,6 +481,8 @@
         "name": "Porphyrites (mountain)"
       }
     ],
-    "resolution": "manual"
+    "resolution": "resolved",
+    "keeper": "mine:quarry-mons-porphyrites",
+    "strip": []
   }
 ]
