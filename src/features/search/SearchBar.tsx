@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useMemo } from 'react'
 import Fuse from 'fuse.js'
 import { useShallow } from 'zustand/shallow'
 import { Search, X } from 'lucide-react'
-import { entities } from '@/data'
+import { connections, entities } from '@/data'
 import citiesSearchJson from '@/data/registry/cities-search.json'
 
 // Tiny build-time manifest of the Chandler cities (see ENTITY-MODEL.md):
@@ -183,6 +183,28 @@ export function SearchBar() {
     // dead-ended in "Person not found" (Julius Caesar appeared twice and
     // the first result was the broken one).
     const manifestPeople = new Set(PEOPLE_SEARCH.map((p) => p.n.toLowerCase()))
+    // Coordinates for entities that don't carry their own: follow the graph
+    // to a connected entity that does, preferring explicitly locational
+    // connections. The Colosseum has no coordinates field, but it IS
+    // located_in Rome — searching it must still take you there.
+    const coordsById = new Map<string, { lat: number; lng: number }>()
+    for (const e of entities) {
+      const c = (e as Entity & { coordinates?: { lat: number; lng: number } }).coordinates
+      if (c) coordsById.set(e.id, c)
+    }
+    const LOCATIONAL = new Set(['located_in', 'happened_in', 'built', 'founded'])
+    const inheritedCoords = (id: string): { lat: number; lng: number } | undefined => {
+      let fallback: { lat: number; lng: number } | undefined
+      for (const c of connections) {
+        const other = c.source === id ? c.target : c.target === id ? c.source : null
+        if (!other) continue
+        const oc = coordsById.get(other)
+        if (!oc) continue
+        if (LOCATIONAL.has(c.connectionType)) return oc
+        fallback ??= oc
+      }
+      return fallback
+    }
     for (const e of entities) {
       if (e.entityType === 'person' && manifestPeople.has(e.name.toLowerCase())) continue
       const item: SearchItem = {
@@ -192,13 +214,10 @@ export function SearchBar() {
         color: entityColors[e.entityType] || '#95a5a6',
         entityId: e.id,
       }
-      // Any entity with coordinates is a map destination — the Colosseum
-      // (infrastructure) opened its record but the map never flew there
-      // because only 'location' entities kept their coordinates.
-      const loc = e as Entity & { coordinates?: { lat: number; lng: number } }
-      if (loc.coordinates) {
-        item.lat = loc.coordinates.lat
-        item.lng = loc.coordinates.lng
+      const own = coordsById.get(e.id) ?? inheritedCoords(e.id)
+      if (own) {
+        item.lat = own.lat
+        item.lng = own.lng
       }
       items.push(item)
     }
