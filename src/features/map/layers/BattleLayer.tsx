@@ -3,7 +3,7 @@ import { CircleMarker, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -58,8 +58,9 @@ export function BattleLayer({ data }: BattleLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const playing = useTimelineStore((s) => s.playing)
   const speed = useTimelineStore((s) => s.speed)
-  const wikiLookup = useWikiEnrichment('battles')
-  const crossRef = useCrossRef()
+  // crossRef comes from the graph-keyed features store (same object,
+  // no 14.4 MB legacy cross-reference load)
+  const featKnowledge = useWikiEnrichment('knowledge-features')
 
   const visibilityWindow = battleVisibilityWindow(playing, speed)
 
@@ -109,15 +110,20 @@ export function BattleLayer({ data }: BattleLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
+            <Popup key={featKnowledge ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: (() => {
-                    const hasWiki = wikiLookup?.[b.id]
-                    let html = appendWikiTooltip(buildTooltipHtml(b), b.id, wikiLookup, 'battles')
+                    const hasWiki = featKnowledge?.[`battle:${b.id}`]
+                    let html = appendWikiTooltip(
+                      buildTooltipHtml(b),
+                      `battle:${b.id}`,
+                      featKnowledge,
+                      'knowledge-features',
+                    )
                     if (!hasWiki) {
                       const crKey = `battle:${b.id}`
-                      const crEntry = crossRef?.[crKey]
+                      const crEntry = featKnowledge?.[crKey]?.crossRef
                       if (crEntry) {
                         html = appendCrossRefTooltip(html, crEntry, { crKey })
                       }

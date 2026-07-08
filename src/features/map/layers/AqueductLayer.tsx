@@ -5,7 +5,7 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import type { Aqueduct } from '@/data/aqueducts'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { filterWithSignature } from '@/lib/feature-signature'
@@ -32,8 +32,7 @@ function onEachAqueductLine(feature: Feature, layer: L.Layer) {
 export function AqueductLayer({ data, lines }: AqueductLayerProps) {
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-  const wikiLookup = useWikiEnrichment('aqueducts')
-  const crossRef = useCrossRef()
+  const featKnowledge = useWikiEnrichment('knowledge-features')
 
   // Filter AWMC aqueduct lines by temporal data
   const { filteredLines, linesSig } = useMemo(() => {
@@ -132,15 +131,20 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
             }}
             bubblingMouseEvents={false}
           >
-            <Popup key={wikiLookup ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
+            <Popup key={featKnowledge ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: (() => {
-                    const hasWiki = wikiLookup?.[a.id]
-                    let html = appendWikiTooltip(tooltipHtml, a.id, wikiLookup, 'aqueducts')
+                    const hasWiki = featKnowledge?.[`aqueduct:${a.id}`]
+                    let html = appendWikiTooltip(
+                      tooltipHtml,
+                      `aqueduct:${a.id}`,
+                      featKnowledge,
+                      'knowledge-features',
+                    )
                     if (!hasWiki) {
                       const crKey = `aqueduct:${a.id}`
-                      const cr = crossRef?.[crKey]
+                      const cr = featKnowledge?.[crKey]?.crossRef
                       if (cr) {
                         html = appendCrossRefTooltip(html, cr, { crKey })
                       }

@@ -5,7 +5,6 @@ import type { UnifiedEntity } from '@/data/unified'
 import type { DatasetConfig } from '@/data/datasetRegistry'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useCrossRef } from '@/hooks/useWikiEnrichment'
 import { appendCrossRefTooltip, appendWikiTooltip, esc } from '@/lib/wiki-popup'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import nodeJoinRaw from '@/data/registry/unified-nodes.json?raw'
@@ -45,7 +44,6 @@ function getField(e: UnifiedEntity, field: string): string {
 export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
-  const crossRef = useCrossRef()
   // consolidated graph-keyed knowledge (extract + thumbnail, one lookup)
   const knowledge = useWikiEnrichment('knowledge-features')
   const popupRef = useRef<L.Popup | null>(null)
@@ -109,7 +107,9 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
       }
 
       const k = knowledge?.[e.id]
-      const cr = crossRef?.[e.id]
+      // crossRef rides inside the features store now — the 14.4 MB legacy
+      // cross-reference.json stays unloaded until the detail panel needs it
+      const cr = k?.crossRef
       if (k?.extract) {
         html = appendWikiTooltip(html, e.id, knowledge, 'knowledge-features')
       } else if (cr) {
@@ -121,7 +121,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
       }
       popupRef.current.setLatLng([e.lat, e.lng]).setContent(`<span>${html}</span>`).openOn(map)
     },
-    [knowledge, crossRef, map],
+    [knowledge, map],
   )
   const openPopupRef = useRef(openPopup)
   useEffect(() => {

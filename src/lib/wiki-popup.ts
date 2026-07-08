@@ -55,15 +55,20 @@ export function appendWikiTooltip(
     wikiHtml += `<div class="map-tooltip-extract">${esc(text)}</div>`
   }
 
-  // One structured fact as a "hook" — prefer cross-reference (academic) over Wikidata
+  // One structured fact as a "hook" — prefer cross-reference (academic) over Wikidata.
+  // Graph-keyed ids carry their type as prefix ('amphitheater:x') — recover
+  // the fact-picking layer from it so capacity/outcome facts survive the
+  // knowledge-features migration.
+  const factLayer =
+    layer === 'knowledge-features' && id.includes(':') ? `${id.split(':')[0]}s` : layer
   const cr = wiki.crossRef
-  const crFact = cr ? pickCrossRefFact(cr, layer) : null
+  const crFact = cr ? pickCrossRefFact(cr, factLayer) : null
   if (crFact) {
     wikiHtml += `<div class="map-tooltip-fact">${esc(crFact)}</div>`
   } else {
     const s = wiki.structured
     if (s) {
-      const fact = pickHighlightFact(s, layer)
+      const fact = pickHighlightFact(s, factLayer)
       if (fact) wikiHtml += `<div class="map-tooltip-fact">${esc(fact)}</div>`
     }
   }

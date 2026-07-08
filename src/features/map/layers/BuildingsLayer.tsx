@@ -3,7 +3,7 @@ import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Building } from '@/data/buildings'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -48,8 +48,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-  const wikiLookup = useWikiEnrichment('buildings')
-  const crossRef = useCrossRef()
+  const featKnowledge = useWikiEnrichment('knowledge-features')
   const popupRef = useRef<L.Popup | null>(null)
 
   const visible = useMemo(() => {
@@ -75,11 +74,11 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
       if (b.description) details.push(esc(b.description))
       html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
-      const hasWiki = wikiLookup?.[b.id]
-      html = appendWikiTooltip(html, b.id, wikiLookup, 'buildings')
+      const hasWiki = featKnowledge?.[`building:${b.id}`]
+      html = appendWikiTooltip(html, `building:${b.id}`, featKnowledge, 'knowledge-features')
       if (!hasWiki) {
         const crKey = `building:${b.id}`
-        const crEntry = crossRef?.[crKey]
+        const crEntry = featKnowledge?.[crKey]?.crossRef
         if (crEntry) html = appendCrossRefTooltip(html, crEntry, { crKey })
       }
 
@@ -88,7 +87,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
       }
       popupRef.current.setLatLng([b.lat, b.lng]).setContent(`<span>${html}</span>`).openOn(map)
     },
-    [wikiLookup, crossRef, map],
+    [featKnowledge, map],
   )
   const openPopupRef = useRef(openPopup)
   useEffect(() => {

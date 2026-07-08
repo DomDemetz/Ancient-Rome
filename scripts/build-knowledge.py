@@ -95,6 +95,19 @@ for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
             entry = entry or {"sources": []}
             entry["crossRef"] = cr
             entry["sources"].append("cross-reference")
+        # resolve `description` at BUILD time (port of mergeStructuredData's
+        # runtime pass) so map layers can read the features store directly
+        # instead of dragging the 14 MB cross-reference into a live merge
+        if entry:
+            rex, ex = entry.get("romanEraExtract"), entry.get("extract")
+            is_custom = bool(rex and ex and ex[:80] != rex[:80])
+            pleiades = (cr or {}).get("pleiadesDescription")
+            if is_custom:
+                entry["description"], entry["descriptionSource"] = rex, "custom"
+            elif pleiades:
+                entry["description"], entry["descriptionSource"] = pleiades, "pleiades"
+            elif rex or ex:
+                entry["description"], entry["descriptionSource"] = rex or ex, "generic"
         if entry:
             if uid in join:
                 entry["node"] = join[uid]["node"]

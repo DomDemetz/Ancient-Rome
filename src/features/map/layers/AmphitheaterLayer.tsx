@@ -3,7 +3,7 @@ import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Amphitheater } from '@/data/amphitheaters'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -27,8 +27,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const currentYear = useTimelineStore((s) => s.currentYear)
-  const wikiLookup = useWikiEnrichment('amphitheaters')
-  const crossRef = useCrossRef()
+  const featKnowledge = useWikiEnrichment('knowledge-features')
   const popupRef = useRef<L.Popup | null>(null)
 
   const visible = useMemo(() => {
@@ -46,11 +45,16 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
 
   const openPopup = useCallback(
     (a: Amphitheater) => {
-      const hasWiki = wikiLookup?.[a.id]
-      let html = appendWikiTooltip(buildTooltipHtml(a), a.id, wikiLookup, 'amphitheaters')
+      const hasWiki = featKnowledge?.[`amphitheater:${a.id}`]
+      let html = appendWikiTooltip(
+        buildTooltipHtml(a),
+        `amphitheater:${a.id}`,
+        featKnowledge,
+        'knowledge-features',
+      )
       if (!hasWiki) {
         const crKey = `amphitheater:${a.id}`
-        const crEntry = crossRef?.[crKey]
+        const crEntry = featKnowledge?.[crKey]?.crossRef
         if (crEntry) html = appendCrossRefTooltip(html, crEntry, { crKey })
       }
       if (!popupRef.current) {
@@ -58,7 +62,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
       }
       popupRef.current.setLatLng([a.lat, a.lng]).setContent(`<span>${html}</span>`).openOn(map)
     },
-    [wikiLookup, crossRef, map],
+    [featKnowledge, map],
   )
   const openPopupRef = useRef(openPopup)
   useEffect(() => {
