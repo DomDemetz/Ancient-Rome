@@ -76,7 +76,8 @@ function loadSiteSearch(): Promise<SiteSearchEntry[]> {
   }
   return _siteSearchPromise
 }
-loadSiteSearch()
+// NOT eagerly loaded: the 2.4 MB entity manifest waits for the first
+// search interaction instead of taxing every visitor's boot
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useFilterStore } from '@/stores/useFilterStore'
@@ -179,8 +180,8 @@ export function SearchBar() {
   )
 
   useEffect(() => {
-    if (!_siteSearchCache) loadSiteSearch().then(setSiteSearch)
-  }, [])
+    if (open && !_siteSearchCache) loadSiteSearch().then(setSiteSearch)
+  }, [open])
 
   // Build a unified search index from all data sources
   const searchItems = useMemo(() => {
