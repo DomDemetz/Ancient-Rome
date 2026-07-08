@@ -2323,7 +2323,8 @@
     "t": "aqueduct",
     "la": 41.8902,
     "lo": 12.4922,
-    "s": -312
+    "s": -362,
+    "e": -262
   },
   {
     "k": "aqueduct:aq-aqua-claudia",
@@ -2357,7 +2358,8 @@
     "t": "aqueduct",
     "la": 41.8902,
     "lo": 12.4922,
-    "s": -125
+    "s": -176,
+    "e": -76
   },
   {
     "k": "aqueduct:aq-aqua-traiana",
@@ -2839,23 +2841,8 @@
     "t": "aqueduct",
     "la": 45.764,
     "lo": 4.8357,
-    "s": 50
-  },
-  {
-    "k": "aqueduct:aq-lyon-mont-dor",
-    "n": "Aqueduct of Mont d'Or",
-    "t": "aqueduct",
-    "la": 45.764,
-    "lo": 4.8357,
-    "s": 10
-  },
-  {
-    "k": "aqueduct:aq-lyon-yzeron",
-    "n": "Aqueduct of the Yzeron",
-    "t": "aqueduct",
-    "la": 45.764,
-    "lo": 4.8357,
-    "s": -40
+    "s": -300,
+    "e": 500
   },
   {
     "k": "aqueduct:aq-mactar",
@@ -47870,6 +47857,16 @@
     "e": 500
   },
   {
+    "k": "building:pleiades-218008122",
+    "n": "Gors Fawr stone circle",
+    "t": "building",
+    "la": 51.9316,
+    "lo": -4.7146,
+    "st": "monument",
+    "s": -200,
+    "e": 500
+  },
+  {
     "k": "building:pleiades-234760228",
     "n": "Can Blai",
     "t": "building",
@@ -84273,15 +84270,6 @@
     "e": 500
   },
   {
-    "k": "pleiades:423562",
-    "n": "Aqua Appia",
-    "t": "aqueduct",
-    "la": 41.889,
-    "lo": 12.5044,
-    "s": -362,
-    "e": -262
-  },
-  {
     "k": "pleiades:423564",
     "n": "Aqua Iulia",
     "t": "aqueduct",
@@ -84289,15 +84277,6 @@
     "lo": 12.625,
     "s": -83,
     "e": 17
-  },
-  {
-    "k": "pleiades:423566",
-    "n": "Aqua Tepula",
-    "t": "aqueduct",
-    "la": 41.8026,
-    "lo": 12.6601,
-    "s": -176,
-    "e": -76
   },
   {
     "k": "pleiades:423568",
@@ -101936,15 +101915,6 @@
     "t": "aqueduct",
     "la": 41.7983,
     "lo": 12.7103,
-    "s": -300,
-    "e": 500
-  },
-  {
-    "k": "pleiades:812127749",
-    "n": "Aqueduct of the Gier",
-    "t": "aqueduct",
-    "la": 45.7218,
-    "lo": 4.7604,
     "s": -300,
     "e": 500
   },
@@ -127572,6 +127542,16 @@
     "e": 476
   },
   {
+    "k": "port:apa-massalia-graecorum-massilia-lacydon-1174",
+    "n": "Massalia Graecorum, Massilia, Lacydon",
+    "t": "port",
+    "la": 43.2976,
+    "lo": 5.3749,
+    "st": "port",
+    "s": -600,
+    "e": 476
+  },
+  {
     "k": "port:apa-masura-magydos-mygalos-4577",
     "n": "Masura, Magydos, Mygalos",
     "t": "port",
@@ -128312,16 +128292,6 @@
     "e": 476
   },
   {
-    "k": "port:apa-misenos-misenum-misene-home-port-of-clas-1572",
-    "n": "Misenos, Misenum, Misene, home port of Classis Misenensis fleet as from 12 BC",
-    "t": "port",
-    "la": 40.79,
-    "lo": 14.085,
-    "st": "major_port",
-    "s": -200,
-    "e": 476
-  },
-  {
     "k": "port:apa-misenos-misenum-misene-inner-harbour-1573",
     "n": "Misenos, Misenum, Misene, Inner harbour",
     "t": "port",
@@ -128547,6 +128517,16 @@
     "t": "port",
     "la": 37.8641,
     "lo": 12.4646,
+    "st": "port",
+    "s": -800,
+    "e": 476
+  },
+  {
+    "k": "port:apa-motye-motya-1803",
+    "n": "Motye, Motya",
+    "t": "port",
+    "la": 37.869,
+    "lo": 12.4724,
     "st": "port",
     "s": -800,
     "e": 476
@@ -139552,16 +139532,6 @@
     "e": 476
   },
   {
-    "k": "port:apa-port-at-37-09-25-16-3056",
-    "n": "Port at 37.09, 25.16",
-    "t": "port",
-    "la": 37.0889,
-    "lo": 25.1554,
-    "st": "harbour",
-    "s": -200,
-    "e": 476
-  },
-  {
     "k": "port:apa-port-at-37-09-25-34-3062",
     "n": "Port at 37.09, 25.34",
     "t": "port",
@@ -139689,16 +139659,6 @@
     "lo": 24.4269,
     "st": "harbour",
     "s": -600,
-    "e": 476
-  },
-  {
-    "k": "port:apa-port-at-37-13-25-21-3042",
-    "n": "Port at 37.13, 25.21",
-    "t": "port",
-    "la": 37.127,
-    "lo": 25.2092,
-    "st": "harbour",
-    "s": -200,
     "e": 476
   },
   {
@@ -142797,16 +142757,6 @@
     "t": "port",
     "la": 39.6138,
     "lo": 15.848,
-    "st": "harbour",
-    "s": -200,
-    "e": 476
-  },
-  {
-    "k": "port:apa-port-at-39-65-19-85-2905",
-    "n": "Port at 39.65, 19.85",
-    "t": "port",
-    "la": 39.6541,
-    "lo": 19.849,
     "st": "harbour",
     "s": -200,
     "e": 476
@@ -146209,16 +146159,6 @@
     "lo": 6.654,
     "st": "harbour",
     "s": -300,
-    "e": 476
-  },
-  {
-    "k": "port:apa-port-at-43-19-16-43-2227",
-    "n": "Port at 43.19, 16.43",
-    "t": "port",
-    "la": 43.1903,
-    "lo": 16.4279,
-    "st": "harbour",
-    "s": -200,
     "e": 476
   },
   {
@@ -162897,6 +162837,16 @@
     "t": "port",
     "la": 45.648,
     "lo": 13.7667,
+    "st": "port",
+    "s": -200,
+    "e": 476
+  },
+  {
+    "k": "port:apa-tergeste-2025",
+    "n": "Tergeste",
+    "t": "port",
+    "la": 45.6469,
+    "lo": 13.7616,
     "st": "port",
     "s": -200,
     "e": 476
@@ -193510,7 +193460,7 @@
     "lo": -6.333,
     "st": "amphora",
     "s": 1,
-    "e": 500
+    "e": 250
   },
   { "k": "shipwreck:darmc-wreck-832", "n": "Budva", "t": "shipwreck", "la": 36.767, "lo": 19.067 },
   {
@@ -193607,6 +193557,16 @@
     "lo": 6.167,
     "s": -200,
     "e": 400
+  },
+  {
+    "k": "shipwreck:darmc-wreck-85",
+    "n": "Cádiz 5",
+    "t": "shipwreck",
+    "la": 36.533,
+    "lo": -6.333,
+    "st": "stone",
+    "s": 1,
+    "e": 500
   },
   {
     "k": "shipwreck:darmc-wreck-858",
@@ -193887,6 +193847,16 @@
     "lo": 5.4,
     "s": 1,
     "e": 200
+  },
+  {
+    "k": "shipwreck:darmc-wreck-894",
+    "n": "Marseille 8",
+    "t": "shipwreck",
+    "la": 43.304,
+    "lo": 5.355,
+    "st": "marble",
+    "s": 1,
+    "e": 100
   },
   {
     "k": "shipwreck:darmc-wreck-895",

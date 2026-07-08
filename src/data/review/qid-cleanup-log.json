@@ -8454,5 +8454,1300 @@
     "reason": "shared-QID conflict: another same-kind record is closest to the QID coordinates",
     "confidence": "high",
     "removed": ["qid"]
+  },
+  {
+    "key": "building:721487827",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2859847",
+    "reason": "QID is the structure itself (Arcus Novus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:336140750",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q11951248",
+    "reason": "QID is the structure itself (Chapel of Wadjmose), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:929634889",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q17054090",
+    "reason": "QID is the structure itself (Zvartnots Cathedral), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:530781",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q113757165",
+    "reason": "QID is the structure itself (Agia Sophia basilica, Mytikas), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:857558608",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q38284225",
+    "reason": "QID is the structure itself (Agia Dynamis), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:897105326",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2845916",
+    "reason": "QID is the structure itself (Aqaba Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:187306",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1412762",
+    "reason": "QID is the structure itself (Filialkirche hl. Magdalena, Baldersdorf), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:123971451",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q810130",
+    "reason": "QID is the structure itself (Basílica Paleocristiana de Son Peretó), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:356557088",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2354657",
+    "reason": "QID is the structure itself (Santa Balbina), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:34438602",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1424095",
+    "reason": "QID is the structure itself (Basilica of Saint Augustine in Campo Marzio), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:837735181",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1806561",
+    "reason": "QID is the structure itself (Basilica of Saint-Pierre-aux-Nonnains), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:463398873",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1137391",
+    "reason": "QID is the structure itself (Santa Maria in Trastevere), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:626333929",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1526417",
+    "reason": "QID is the structure itself (Santa Pudenziana), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:165453294",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2124732",
+    "reason": "QID is the structure itself (Severan Basilica), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:898976062",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q60754842",
+    "reason": "QID is the structure itself (Basilica of St. Achillios), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:617667451",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q207486",
+    "reason": "QID is the structure itself (Basilica of San Francesco d'Assisi), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:153236391",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q930613",
+    "reason": "QID is the structure itself (Basilica of St. John), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:969121824",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1679598",
+    "reason": "QID is the structure itself (Cathedral of St. James, Jerusalem), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:924430433",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3672838",
+    "reason": "QID is the structure itself (Church of Sant'Ilario a Port'Aurea), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:957105940",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3674191",
+    "reason": "QID is the structure itself (Santa Pudenziana (church)), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:834862589",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1650229",
+    "reason": "QID is the structure itself (Church of Panagia Chalkeon), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:361097851",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1147957",
+    "reason": "QID is the structure itself (Church of Prophet Elijah), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:664535672",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1504607",
+    "reason": "QID is the structure itself (Church of Saint Panteleimon), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:236701131",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q139600903",
+    "reason": "QID is the structure itself (Church of San Primitivo), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:224949837",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q7971367",
+    "reason": "QID is the structure itself (Church of Saint George), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:416019002",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2378078",
+    "reason": "QID is the structure itself (Igreja de São Gião), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:74062405",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1504317",
+    "reason": "QID is the structure itself (Church of Saint Nicholas Orphanos), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:322772904",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3671654",
+    "reason": "QID is the structure itself (San Pietro), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:566994603",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3668746",
+    "reason": "QID is the structure itself (Santa Maria Annunziata fuori le mura), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:211190325",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q194504",
+    "reason": "QID is the structure itself (Church of the Nativity), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:628342669",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1728464",
+    "reason": "QID is the structure itself (Church of the Saviour), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:970563462",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q21187652",
+    "reason": "QID is the structure itself (San Lussorio), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:452494691",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q108071128",
+    "reason": "QID is the structure itself (Early Christian Church on the Doss Trento), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:291082432",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3584662",
+    "reason": "QID is the structure itself (Église Saint-Vincent de Marimbault), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:327730568",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1294648",
+    "reason": "QID is the structure itself (Etchmiadzin Cathedral), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:467551058",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q645105",
+    "reason": "QID is the structure itself (Euphrasian Basilica), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:307220778",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q12506",
+    "reason": "QID is the structure itself (Hagia Sophia), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:187417",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q23541709",
+    "reason": "QID is the structure itself (None), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:756784437",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1144576",
+    "reason": "QID is the structure itself (Little Hagia Sophia), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:707566",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q77832966",
+    "reason": "QID is the structure itself (Church of Panagia, Lysi), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:658606",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1112125",
+    "reason": "QID is the structure itself (Church of Saint Simeon Stylites), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:680348962",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1189476",
+    "reason": "QID is the structure itself (Nostra Segnora de Mesumundu), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:94252436",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q56682419",
+    "reason": "QID is the structure itself (paleochristian basilica of Lugdunum Convenarum), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:707599",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q24914520",
+    "reason": "QID is the structure itself (Panagia tis Angeloktistis), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:484690690",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1231781",
+    "reason": "QID is the structure itself (Panagia Ekatontapiliani church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:707601",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q15124178",
+    "reason": "QID is the structure itself (Panagia tis Kyras), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:413254",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3904745",
+    "reason": "QID is the structure itself (Pieve di Sant'Antonino a Socana), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:336554371",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1112125",
+    "reason": "QID is the structure itself (Church of Saint Simeon Stylites), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:423033",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2942894",
+    "reason": "QID is the structure itself (Cathedrale Sant'Agapito Martyr), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:423035",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1636696",
+    "reason": "QID is the structure itself (Sant'Agnese fuori le mura), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:383782",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3950103",
+    "reason": "QID is the structure itself (Santa Maria di Valverde sanctuary), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:423051",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3674186",
+    "reason": "QID is the structure itself (Santa Passera), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:423052",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q231699",
+    "reason": "QID is the structure itself (Basilica of Saint Paul outside the Walls), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:423053",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q12512",
+    "reason": "QID is the structure itself (St. Peter's Basilica), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:423057",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q121870169",
+    "reason": "QID is the structure itself (Church of Santa Sinforosa), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:166924914",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1450786",
+    "reason": "QID is the structure itself (Saint Gayane Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:889074702",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1579525",
+    "reason": "QID is the structure itself (St. Hripsime), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:883684762",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1631638",
+    "reason": "QID is the structure itself (San Crisogono), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:445782427",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q922677",
+    "reason": "QID is the structure itself (San Giacomo di Rialto), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:934591703",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q517374",
+    "reason": "QID is the structure itself (San Giorgio in Velabro), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:480057748",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q25110440",
+    "reason": "QID is the structure itself (San Giovanni de Butris), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:108889249",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1814304",
+    "reason": "QID is the structure itself (San Giovanni in Oleo), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:662909765",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q972881",
+    "reason": "QID is the structure itself (San Marcello al Corso), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:251288970",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1663278",
+    "reason": "QID is the structure itself (San Martino ai Monti), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:810614607",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q25091584",
+    "reason": "QID is the structure itself (San Menna), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:424659855",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q569160",
+    "reason": "QID is the structure itself (San Nicola di Trullas Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:872350435",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2145580",
+    "reason": "QID is the structure itself (San Nicola in Carcere), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:242008147",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1729714",
+    "reason": "QID is the structure itself (San Saba, Rome), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:76960231",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q926539",
+    "reason": "QID is the structure itself (San Teodoro), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:683842488",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3672146",
+    "reason": "QID is the structure itself (San Trifone in Posterula), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:535299163",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1579529",
+    "reason": "QID is the structure itself (San Vitale), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:906299919",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1479873",
+    "reason": "QID is the structure itself (Santa Cecilia in Trastevere), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:161909278",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q195660",
+    "reason": "QID is the structure itself (Santa Maria Antiqua), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:625199888",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1634605",
+    "reason": "QID is the structure itself (Santa Maria dell'Orto), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:934591702",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q609293",
+    "reason": "QID is the structure itself (Santa Maria in Cosmedin), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:888830081",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2060055",
+    "reason": "QID is the structure itself (Santa Maria in Domnica), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:382995433",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3674146",
+    "reason": "QID is the structure itself (Santa Maria in Tempulo), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:715215852",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q592244",
+    "reason": "QID is the structure itself (Basilica of Saint Sabina), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:59677979",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1456931",
+    "reason": "QID is the structure itself (Santa Sofia Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:267702570",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1586946",
+    "reason": "QID is the structure itself (Basilica of Saints John and Paul on the Caelian Hill), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:323041298",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1536044",
+    "reason": "QID is the structure itself (Santi Quattro Coronati), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:824715367",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q20007924",
+    "reason": "QID is the structure itself (santuario di Maria Santissima del Lattani), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:218737684",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3950050",
+    "reason": "QID is the structure itself (Santuario di Santa Maria Regina di Anglona), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:236087657",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q168365",
+    "reason": "QID is the structure itself (Paleochristian basilica of Son Bou), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:985158684",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q7591326",
+    "reason": "QID is the structure itself (St Peter's Church, Flawford), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:763712748",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q33996528",
+    "reason": "QID is the structure itself (Victoria Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-020",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2579576",
+    "reason": "QID is the structure itself (Temple of Jupiter Stator), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-085",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1750627",
+    "reason": "QID is the structure itself (Santa Prisca), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-093",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q7593494",
+    "reason": "QID is the structure itself (St James Garlickhythe, London), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-121",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q24911488",
+    "reason": "QID is the structure itself (Church of the Holy Archangels, Jerusalem), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-123",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q12512",
+    "reason": "QID is the structure itself (St. Peter's Basilica), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-129",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2095195",
+    "reason": "QID is the structure itself (Santa Maria ai Monti), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-131",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1750627",
+    "reason": "QID is the structure itself (Santa Prisca), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-132",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2095195",
+    "reason": "QID is the structure itself (Santa Maria ai Monti), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-141",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q16575118",
+    "reason": "QID is the structure itself (Maronite Church of the Annunciation), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-149",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2450228",
+    "reason": "QID is the structure itself (Church of Mary), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-208",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q28802717",
+    "reason": "QID is the structure itself (Church of Saint Irene of Athens), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:148047",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3584916",
+    "reason": "QID is the structure itself (Église Sainte-Anne de Lardiers), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:233122845",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3670620",
+    "reason": "QID is the structure itself (None), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:637342541",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3656775",
+    "reason": "QID is the structure itself (Hagia Sophia Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:187417",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q23541709",
+    "reason": "QID is the structure itself (None), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-lyon-yzeron",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3067",
+    "reason": "QID is the structure itself (Aqueduct of the Gier), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-lyon-mont-dor",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3067",
+    "reason": "QID is the structure itself (Aqueduct of the Gier), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-76960231",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3669840",
+    "reason": "QID is the structure itself (San Damaso), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:pleiades-85815300",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3668671",
+    "reason": "QID is the structure itself (Santissimo Sacramento a Tor de' Schiavi), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:413140",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3983167",
+    "reason": "QID is the structure itself (Temple of Clitumnus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:618528566",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3669776",
+    "reason": "QID is the structure itself (S. Claudio al Chienti), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:530781",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q113757165",
+    "reason": "QID is the structure itself (Agia Sophia basilica, Mytikas), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:897105326",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2845916",
+    "reason": "QID is the structure itself (Aqaba Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:837735181",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1806561",
+    "reason": "QID is the structure itself (Basilica of Saint-Pierre-aux-Nonnains), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:617667451",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q207486",
+    "reason": "QID is the structure itself (Basilica of San Francesco d'Assisi), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:994641372",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1149886",
+    "reason": "QID is the structure itself (Torcello Cathedral), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:437043462",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3585373",
+    "reason": "QID is the structure itself (San Paolo di Peltuinum), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:957105940",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3674191",
+    "reason": "QID is the structure itself (Santa Pudenziana (church)), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:236701131",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q139600903",
+    "reason": "QID is the structure itself (Church of San Primitivo), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:416019002",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2378078",
+    "reason": "QID is the structure itself (Igreja de São Gião), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:322772904",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3671654",
+    "reason": "QID is the structure itself (San Pietro), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:566994603",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3668746",
+    "reason": "QID is the structure itself (Santa Maria Annunziata fuori le mura), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:970563462",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q21187652",
+    "reason": "QID is the structure itself (San Lussorio), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:291082432",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3584662",
+    "reason": "QID is the structure itself (Église Saint-Vincent de Marimbault), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:884719317",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1227931",
+    "reason": "QID is the structure itself (Faras Cathedral), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:756784438",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q4430013",
+    "reason": "QID is the structure itself (Hagia Sophia, Iznik), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:680348962",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1189476",
+    "reason": "QID is the structure itself (Nostra Segnora de Mesumundu), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:707599",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q24914520",
+    "reason": "QID is the structure itself (Panagia tis Angeloktistis), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:707601",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q15124178",
+    "reason": "QID is the structure itself (Panagia tis Kyras), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:254059627",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3904602",
+    "reason": "QID is the structure itself (San Giovanni Battista a Sillano), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:41658845",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q25112721",
+    "reason": "QID is the structure itself (San Pietro ad Mensulas), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:413254",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3904745",
+    "reason": "QID is the structure itself (Pieve di Sant'Antonino a Socana), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:383782",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3950103",
+    "reason": "QID is the structure itself (Santa Maria di Valverde sanctuary), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:445782427",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q922677",
+    "reason": "QID is the structure itself (San Giacomo di Rialto), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:480057748",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q25110440",
+    "reason": "QID is the structure itself (San Giovanni de Butris), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:424659855",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q569160",
+    "reason": "QID is the structure itself (San Nicola di Trullas Church), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:813943703",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q14754943",
+    "reason": "QID is the structure itself (Church of San Peter ad Oratorium), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:218737684",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3950050",
+    "reason": "QID is the structure itself (Santuario di Santa Maria Regina di Anglona), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:985158684",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q7591326",
+    "reason": "QID is the structure itself (St Peter's Church, Flawford), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:929634889",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q17054090",
+    "reason": "QID is the structure itself (Zvartnots Cathedral), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-267702570",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1586946",
+    "reason": "QID is the structure itself (Basilica of Saints John and Paul on the Caelian Hill), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-770702013",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1081921",
+    "reason": "QID is the structure itself (Church of Domine Quo Vadis), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-463398873",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1137391",
+    "reason": "QID is the structure itself (Santa Maria in Trastevere), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-064",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q42957073",
+    "reason": "QID is the structure itself (Surb Sion church in Garni), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-069",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q112709891",
+    "reason": "QID is the structure itself (Divin Redentore (Brescia)), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:187306",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1412762",
+    "reason": "QID is the structure itself (Filialkirche hl. Magdalena, Baldersdorf), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:167695",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q41794826",
+    "reason": "QID is the structure itself (Église Saint-Polycarpe de Bully), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:167707",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q41744367",
+    "reason": "QID is the structure itself (Église Saint-Pierre de Chalencon), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:579175360",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q5995062",
+    "reason": "QID is the structure itself (The Church of the Archangels), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:246520",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q41794370",
+    "reason": "QID is the structure itself (Église de l'Assomption d'Haut Nistos), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:246597",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q38642115",
+    "reason": "QID is the structure itself (Église Saint-Jean-l'Évangéliste de Sacoué), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-375489070",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3849018",
+    "reason": "QID is the structure itself (Cathedral of Avan Complex), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-755240663",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2887100",
+    "reason": "QID is the structure itself (Basilica di San Calimero), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-778154279",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1088101",
+    "reason": "QID is the structure itself (Santi Gioacchino e Anna ai Monti), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-883684762",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3669566",
+    "reason": "QID is the structure itself (San Bartolomeo dei Vaccinari), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "building:pleiades-197537",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1296572",
+    "reason": "QID is the structure itself (Roman Catholic Church in Szob), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-137",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q55182433",
+    "reason": "QID is the structure itself (Church of San Domenico (Ravenna)), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-148",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q116059799",
+    "reason": "QID is the structure itself (Panayia Church of Ancient Corinth), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:20563",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q30963018",
+    "reason": "QID is the structure itself (Church of the Assumption of Mary in Odry), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:442750",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q37303639",
+    "reason": "QID is the structure itself (Santa Maria di Rossano), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:246616",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q19831050",
+    "reason": "QID is the structure itself (Sant Domènec de Sant Cugat del Vallès), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:824715367",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q20007924",
+    "reason": "QID is the structure itself (santuario di Maria Santissima del Lattani), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-138",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1728464",
+    "reason": "QID is the structure itself (Church of the Saviour), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:899069439",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q121870169",
+    "reason": "QID is the structure itself (Church of Santa Sinforosa), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-770095145",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q42859512",
+    "reason": "QID is the structure itself (Saint Hakob church in Vernashen), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "mine:462149",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3663959",
+    "reason": "QID is the structure itself (Cave di Cusa), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-001",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q586468",
+    "reason": "QID is the structure itself (Temple of Jupiter Optimus Maximus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-004",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q430792",
+    "reason": "QID is the structure itself (Temple of Venus and Roma), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-006",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q380530",
+    "reason": "QID is the structure itself (Temple of Castor and Pollux), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-008",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q99309",
+    "reason": "QID is the structure itself (Pantheon), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-011",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q849241",
+    "reason": "QID is the structure itself (Temple of Portunus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-013",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q582353",
+    "reason": "QID is the structure itself (Temple of Apollo Sosianus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-015",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1456939",
+    "reason": "QID is the structure itself (Temple of Peace), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-018",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q523765",
+    "reason": "QID is the structure itself (Temple of Claudius), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-021",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q21079381",
+    "reason": "QID is the structure itself (Temple of Jupiter), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-034",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q770030",
+    "reason": "QID is the structure itself (Temple of Augustus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-039",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q384813",
+    "reason": "QID is the structure itself (Temple of Athena Nike), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-044",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2448404",
+    "reason": "QID is the structure itself (Temple of Trajan), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-048",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1526555",
+    "reason": "QID is the structure itself (Temple of Janus), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-053",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q18808444",
+    "reason": "QID is the structure itself (Temple of Diana), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-066",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q2699249",
+    "reason": "QID is the structure itself (Temple of Apollo), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-067",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3309400",
+    "reason": "QID is the structure itself (Temple of Jupiter), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-072",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3949669",
+    "reason": "QID is the structure itself (Sanctuary of Fortuna Primigenia), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-075",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q18590113",
+    "reason": "QID is the structure itself (Temple of Diana), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-086",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q130507607",
+    "reason": "QID is the structure itself (Mithraeum of the Seven Spheres), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-110",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q7376826",
+    "reason": "QID is the structure itself (Rudchester Mithraeum), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-180",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q1131024",
+    "reason": "QID is the structure itself (Temple of Khnum), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:rel-219",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q3983229",
+    "reason": "QID is the structure itself (Temple of Athena (Priene)), not a container",
+    "confidence": "high"
+  },
+  {
+    "key": "religious:pleiades-73180225",
+    "action": "containedInQid->qid (self-reference)",
+    "qid": "Q721817",
+    "reason": "QID is the structure itself (Basilica of San Vitale), not a container",
+    "confidence": "high"
   }
 ]
