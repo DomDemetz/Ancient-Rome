@@ -299,6 +299,13 @@ export function MapView() {
           <TileLayer
             url={TERRAIN_TILE_URL}
             attribution={attribution}
+            // Panning on a phone revealed bare squares at the viewport edge:
+            // Leaflet's mobile default (updateWhenIdle: true) postpones tile
+            // requests until the gesture ENDS, and the default keepBuffer
+            // retains only a thin ring. Stream tiles in during the pan and
+            // keep a generous ring loaded past the border.
+            updateWhenIdle={false}
+            keepBuffer={6}
             errorTileUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPj/HwADBwIAMCbHYQAAAABJRU5ErkJggg=="
           />
           <BasePane />
