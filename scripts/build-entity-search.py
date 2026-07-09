@@ -24,26 +24,54 @@ from pathlib import Path
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
 
-def detail_key(entity):
-    """Map an entity to the cross-reference key its detail panel opens with."""
+def candidate_keys(entity):
+    """All cross-reference keys this entity's sources could open with."""
+    out = []
     for k in entity["sources"]:
-        # unified aspect ids are already cross-reference keys
         if not k.startswith(("place:", "dare:", "pleiades#", "dare#", "qid#")):
-            return k
+            out.append(k)
+            # silo re-keying: building:X rows often keep their cross-ref
+            # entry under pleiades:X
+            if k.startswith("building:") and k.split(":", 1)[1].isdigit():
+                out.append(f"pleiades:{k.split(':', 1)[1]}")
     for k in entity["sources"]:
         if k.startswith("dare:"):
-            return f"settlement:{k.split(':', 1)[1]}"
-        if k.startswith("place:dare-"):
-            return f"settlement:{k.split('place:dare-', 1)[1]}"
-        if k.startswith("place:wd-"):
-            return k.split("place:", 1)[1]
-        if k.startswith("place:pl-"):
-            return f"settlement:{k.split('place:pl-', 1)[1]}"
-    return entity["sources"][0]
+            out.append(f"settlement:{k.split(':', 1)[1]}")
+        elif k.startswith("place:dare-"):
+            out.append(f"settlement:{k.split('place:dare-', 1)[1]}")
+        elif k.startswith("place:wd-"):
+            out.append(k.split("place:", 1)[1])
+        elif k.startswith("place:pl-"):
+            out.append(f"settlement:{k.split('place:pl-', 1)[1]}")
+    return out or entity["sources"][:1]
+
+
+def richness(e):
+    """How much would the panel show for this cross-ref entry?"""
+    if e is None:
+        return -1
+    score = 0
+    if e.get("extract") or e.get("wikiUrl"):
+        score += 4
+    if e.get("wdProps"):
+        score += 2
+    if e.get("ancientName") or e.get("label"):
+        score += 1
+    if e.get("imageUrl"):
+        score += 1
+    return score
+
+
+def detail_key(entity, cr):
+    """The cross-reference key whose panel shows the most — a merged
+    entity's sources may be spread across keys and only one is enriched."""
+    cands = candidate_keys(entity)
+    return max(cands, key=lambda k: (richness(cr.get(k)), -cands.index(k)))
 
 
 def main():
     table = json.load(open(DATA / "entities" / "entity-table.json"))
+    cr = json.load(open(DATA / "wiki" / "cross-reference.json"))
     cr = json.load(open(DATA / "wiki" / "cross-reference.json"))
     rows = []
     aliases_added = 0
@@ -62,7 +90,7 @@ def main():
         if e["name"] in ("Untitled",) or e["name"].lower().startswith("unnamed"):
             continue
         row = {
-            "k": detail_key(e),
+            "k": detail_key(e, cr),
             "n": e["name"],
             "t": e["kind"],
             "la": round(e["lat"], 4),
