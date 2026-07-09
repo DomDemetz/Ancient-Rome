@@ -9,7 +9,10 @@
  * - Phase 1: Fortifications, AWMC Aqueducts, Trade Network (ORBIS)
  * - Phase 2: Settlements (undated), Vici Sites (undated), DARMC Places, IDAI Sites, Pelagios Places
  *
- * Usage: npx tsx scripts/enrich-temporal.ts
+ * Usage: npx tsx scripts/enrich-temporal.ts [stage ...]
+ * Stages: fortifications, aqueducts, trade, points. No args = all stages.
+ * The `points` stages rewrite their INPUT files in place — don't run them
+ * while other pipeline work has those files in flight.
  */
 
 import { readFile, writeFile } from 'fs/promises'
@@ -25,6 +28,7 @@ import type { Feature, MultiPolygon, Position } from 'geojson'
 interface TerritorySnapshot {
   id: string
   year: number
+  status?: string
   boundaries: Feature<MultiPolygon>
 }
 
@@ -163,14 +167,17 @@ function computeTerritoryYears(
     return { territoryYear: null, declineYear: null }
   }
 
-  // Find first later year where feature is no longer inside ANY territory
+  // Decline = first year outside ALL territory AFTER the last year inside.
+  // Territory can be lost and recovered (Gallic Empire 261-283, Justinian's
+  // reconquests), so the first outside year is not the decline.
   let declineYear: number | null = null
   for (let yi = firstInsideYearIdx + 1; yi < sortedYears.length; yi++) {
     const yearSnapshots = snapshotsByYear.get(sortedYears[yi])!
     const insideAny = yearSnapshots.some((snap) => isInsideTerritory(samplePts, snap))
-    if (!insideAny) {
+    if (insideAny) {
+      declineYear = null
+    } else if (declineYear === null) {
       declineYear = sortedYears[yi]
-      break
     }
   }
 
@@ -326,12 +333,21 @@ async function enrichTradeNetwork(
   const data = await loadJSON<TradeNetwork>('../src/data/trade/orbis.json')
   console.log(`  Sites: ${data.sites.length}, Routes: ${data.routes.length}`)
 
-  // Enrich sites (point-based)
+  // Enrich sites (point-based). Ports sit on the water's edge that the
+  // coastline-clipped territory polygons trim off (Constantinople lands 3 km
+  // outside every snapshot), so sample a ~10 km ring around each site too.
   let sitesCorrelated = 0
   let sitesOutside = 0
 
+  const RING_KM = 10
   const enrichedSites = data.sites.map((site) => {
+    const dLat = RING_KM / 111
+    const dLng = RING_KM / (111 * Math.max(0.2, Math.cos((site.lat * Math.PI) / 180)))
     const samplePts: Position[] = [[site.lng, site.lat]]
+    for (let k = 0; k < 8; k++) {
+      const a = (k * Math.PI) / 4
+      samplePts.push([site.lng + dLng * Math.cos(a), site.lat + dLat * Math.sin(a)])
+    }
     const { territoryYear, declineYear } = computeTerritoryYears(
       samplePts,
       sortedSnapshots,
@@ -507,48 +523,57 @@ async function enrichPelagiosPlaces(
 async function main() {
   console.log('Enriching data layers with temporal properties...')
 
+  const argStages = new Set(process.argv.slice(2))
+  const run = (stage: string) => argStages.size === 0 || argStages.has(stage)
+
   const territories = await loadJSON<TerritorySnapshot[]>(
     '../src/data/territories/territories.json',
   )
-  const sortedSnapshots = [...territories].sort((a, b) => a.year - b.year)
+  // 'lost' snapshots carry the fallen empire's final extent — exclude them
+  // so features decline when control ends, not against a ghost boundary.
+  const sortedSnapshots = territories
+    .filter((s) => s.status !== 'lost')
+    .sort((a, b) => a.year - b.year)
   const index = buildTerritoryIndex(sortedSnapshots)
 
   console.log(`  Territory snapshots: ${sortedSnapshots.length}`)
   console.log(`  Years: ${index.sortedYears.join(', ')}`)
 
   // Phase 1: Quick Wins
-  await enrichFortifications(sortedSnapshots, index)
-  await enrichAqueductLines(sortedSnapshots, index)
-  await enrichTradeNetwork(sortedSnapshots, index)
+  if (run('fortifications')) await enrichFortifications(sortedSnapshots, index)
+  if (run('aqueducts')) await enrichAqueductLines(sortedSnapshots, index)
+  if (run('trade')) await enrichTradeNetwork(sortedSnapshots, index)
 
-  // Phase 2: Large Undated Datasets
-  await enrichPointData(
-    'DARE Settlements (undated)',
-    '../src/data/dare/settlements.json',
-    sortedSnapshots,
-    index,
-  )
-  await enrichPointData(
-    'Vici Sites (undated)',
-    '../src/data/vici-sites.json',
-    sortedSnapshots,
-    index,
-  )
-  await enrichPointData(
-    'DARMC Places (undated)',
-    '../src/data/darmc-places.json',
-    sortedSnapshots,
-    index,
-  )
-  await enrichPointData(
-    'IDAI Sites (undated)',
-    '../src/data/idai-sites.json',
-    sortedSnapshots,
-    index,
-  )
-  await enrichPelagiosPlaces(sortedSnapshots, index)
+  // Phase 2: Large Undated Datasets (rewrite their input files in place)
+  if (run('points')) {
+    await enrichPointData(
+      'DARE Settlements (undated)',
+      '../src/data/dare/settlements.json',
+      sortedSnapshots,
+      index,
+    )
+    await enrichPointData(
+      'Vici Sites (undated)',
+      '../src/data/vici-sites.json',
+      sortedSnapshots,
+      index,
+    )
+    await enrichPointData(
+      'DARMC Places (undated)',
+      '../src/data/darmc-places.json',
+      sortedSnapshots,
+      index,
+    )
+    await enrichPointData(
+      'IDAI Sites (undated)',
+      '../src/data/idai-sites.json',
+      sortedSnapshots,
+      index,
+    )
+    await enrichPelagiosPlaces(sortedSnapshots, index)
+  }
 
-  console.log('\n✓ All layers enriched.')
+  console.log('\n✓ Layers enriched.')
 }
 
 main().catch((err) => {
