@@ -358,6 +358,26 @@ path = os.path.join(out, "places.json")
 json.dump(places, open(path, "w"), ensure_ascii=False, separators=(",", ":"))
 open(path, "a").write("\n")
 
+# --- zoom tiers: the DEFAULT view renders ~1,700 of these 32k nodes ---
+# core = everything visible at empire zooms (population nodes + DARE
+# majors/types 11+17); detail = minors/gazetteer, first renderable at
+# zoom 7-8 — streamed in the background after core paints. Mirror of
+# PlacesLayer.getZoomThreshold; keep in sync.
+core, detail = [], []
+for p in places:
+    t = (p.get("dare") or {}).get("type")
+    if p.get("populations") or (
+        t is not None and (p.get("dare", {}).get("major") or t in (11, 17))
+    ):
+        core.append(p)
+    else:
+        detail.append(p)
+for tier_name, tier in (("places-core", core), ("places-detail", detail)):
+    tp = os.path.join(out, f"{tier_name}.json")
+    json.dump(tier, open(tp, "w"), ensure_ascii=False, separators=(",", ":"))
+    open(tp, "a").write("\n")
+    print(f"{tier_name}.json: {len(tier)} nodes, {os.path.getsize(tp)//1024} KB")
+
 print(f"places.json: {len(places)} canonical nodes ({os.path.getsize(path)//1024//1024}.{os.path.getsize(path)//1024%1024//103} MB)")
 print(f"  from {len(dare)} DARE + {sum(1 for c in chandler if c['startYear']<=MAX_YEAR)} Chandler records")
 for k in ("merged dare+chandler", "multi-dare collapsed", "with pid", "with qid", "with wiki"):

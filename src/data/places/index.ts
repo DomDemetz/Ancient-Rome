@@ -45,6 +45,19 @@ export interface PlaceNode {
 
 import { loadJsonRaw } from '@/data/loadJson'
 
+/** Core tier: everything renderable at empire zooms (~1,700 nodes, 0.5 MB).
+ *  Mirror of scripts/build-entities.py tier split; keep in sync. */
+export async function loadPlacesCore(): Promise<PlaceNode[]> {
+  return loadJsonRaw<PlaceNode[]>(() => import('./places-core.json?raw'))
+}
+
+/** Detail tier: minors/gazetteer, first renderable at zoom 7-8 (5.6 MB). */
+export async function loadPlacesDetail(): Promise<PlaceNode[]> {
+  return loadJsonRaw<PlaceNode[]>(() => import('./places-detail.json?raw'))
+}
+
+/** Progressive helper: core + detail merged (call sites that need it all). */
 export async function loadPlaces(): Promise<PlaceNode[]> {
-  return loadJsonRaw<PlaceNode[]>(() => import('./places.json?raw'))
+  const [core, detail] = await Promise.all([loadPlacesCore(), loadPlacesDetail()])
+  return [...core, ...detail]
 }
