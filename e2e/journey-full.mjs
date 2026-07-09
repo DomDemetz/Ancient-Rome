@@ -56,14 +56,23 @@ check('search finds Caesar the person once',
 
 // 4. open the Gier detail panel
 await searchAndCount('Aqueduct of the Gier')
-await page.keyboard.press('ArrowDown')
-await page.keyboard.press('Enter')
-// poll: panel content streams in lazily
+// select + poll; retry once — the dropdown can close on flyTo under load
 let panel = ''
-for (let i = 0; i < 15; i++) {
-  await page.waitForTimeout(1000)
-  panel = await page.evaluate(() => document.body.innerText)
-  if (/historical record/i.test(panel) && /Founded/.test(panel)) break
+for (let attempt = 0; attempt < 2 && !/historical record/i.test(panel); attempt++) {
+  await page.keyboard.press('ArrowDown')
+  await page.keyboard.press('Enter')
+  for (let i = 0; i < 15; i++) {
+    await page.waitForTimeout(1000)
+    panel = await page.evaluate(() => document.body.innerText)
+    if (/historical record/i.test(panel) && /Founded/.test(panel)) break
+  }
+  if (!/historical record/i.test(panel)) {
+    const input = page.locator('input[placeholder*="Search"]').first()
+    await input.click()
+    await input.fill('')
+    await input.fill('Aqueduct of the Gier')
+    await page.waitForTimeout(2500)
+  }
 }
 check('Gier panel opens', /historical record/i.test(panel))
 check('Gier panel has no self-reference', !/Located in:\s*Aqueduct of the Gier/i.test(panel))

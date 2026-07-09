@@ -446,6 +446,11 @@
     "label": "Church of Santa Sinforosa"
   },
   {
+    "qid": "Q122214282",
+    "keys": ["mine:mine-bardown-iron", "mine:pleiades-707678907"],
+    "label": "Bardown ironworks"
+  },
+  {
     "qid": "Q12243745",
     "keys": ["pleiades:54519385", "religion:54519385"],
     "label": "Asclepium in Balagrae"
@@ -534,6 +539,11 @@
     "qid": "Q126205921",
     "keys": ["building:256436", "pleiades:256436"],
     "label": "Frigidarium de  El Santiscal"
+  },
+  {
+    "qid": "Q12627051",
+    "keys": ["port:apa-sikuli-siculi-2197", "wd-Q12627051"],
+    "label": "Siculi"
   },
   {
     "qid": "Q126903073",
@@ -1049,6 +1059,11 @@
     "label": "mortuary complex of Pepi I"
   },
   {
+    "qid": "Q1536583",
+    "keys": ["mine:326920", "pleiades:208943546", "pleiades:326920"],
+    "label": "Sufetula"
+  },
+  {
     "qid": "Q1559564",
     "keys": ["pleiades:109013", "religion:109013"],
     "label": "Görresburg"
@@ -1202,6 +1217,11 @@
     "label": "Church of the Saviour"
   },
   {
+    "qid": "Q173527",
+    "keys": ["pleiades:590414", "press:press-076"],
+    "label": "Knossos"
+  },
+  {
     "qid": "Q173532",
     "keys": ["port:apa-byblos-4720", "port:apa-byblos-4722", "press:press-064"],
     "label": "Byblos"
@@ -1235,6 +1255,11 @@
     "qid": "Q17528933",
     "keys": ["religion:79769", "pleiades:79769"],
     "label": "Woodeaton Cross"
+  },
+  {
+    "qid": "Q17631096",
+    "keys": ["port:apa-spalauthra-spalathra-2585", "wd-Q17631096"],
+    "label": "Spalathra"
   },
   {
     "qid": "Q17641996",
@@ -1532,6 +1557,11 @@
     "label": "San Lussorio"
   },
   {
+    "qid": "Q2131172",
+    "keys": ["port:apa-tera-ranuli-3500", "wd-Q2131172"],
+    "label": "Ranuli"
+  },
+  {
     "qid": "Q2142541",
     "keys": ["pleiades:874739", "religion:874739"],
     "label": "Tell Halaf"
@@ -1625,6 +1655,11 @@
     "qid": "Q22969301",
     "keys": ["religion:534922362", "pleiades:534922362"],
     "label": null
+  },
+  {
+    "qid": "Q22988530",
+    "keys": ["mine:mine-cyprus-skouriotissa", "pleiades:707623", "pleiades:708947"],
+    "label": "Skouriotissa mine"
   },
   {
     "qid": "Q22996798",
@@ -1878,6 +1913,11 @@
     "label": "Pyre of Herakles"
   },
   {
+    "qid": "Q28194835",
+    "keys": ["building:610184253", "port:apa-fountains-of-solomon-probably-meant-in-t-4756"],
+    "label": "Tyre Hippodrome"
+  },
+  {
     "qid": "Q2844406",
     "keys": ["amphitheater:catania", "building:540685097"],
     "label": "Roman amphitheatre of Catania"
@@ -1983,6 +2023,16 @@
     "label": "Baptistery of Butrint"
   },
   {
+    "qid": "Q30623119",
+    "keys": ["building:256173", "pleiades:256173", "port:apa-port-at-38-73-9-46-593"],
+    "label": "Freiria"
+  },
+  {
+    "qid": "Q3067",
+    "keys": ["aqueduct:aq-lyon-gier", "pleiades:812127749"],
+    "label": "Aqueduct of the Gier"
+  },
+  {
     "qid": "Q30888026",
     "keys": ["pleiades:917294321", "religion:917294321"],
     "label": "Capitolium"
@@ -2050,6 +2100,11 @@
     "qid": "Q3471777",
     "keys": ["pleiades:795823945", "religion:795823945"],
     "label": "Abini nuragic sanctuary"
+  },
+  {
+    "qid": "Q3485394",
+    "keys": ["pleiades:208943566", "pleiades:503005367", "religion:503005367"],
+    "label": "Mactaris"
   },
   {
     "qid": "Q3485401",
@@ -2190,6 +2245,11 @@
     "qid": "Q3663208",
     "keys": ["building:423036", "religion:423036"],
     "label": "Catacombs of Sant'Alessandro"
+  },
+  {
+    "qid": "Q3663959",
+    "keys": ["mine:462149", "mine:462151"],
+    "label": "Cave di Cusa"
   },
   {
     "qid": "Q3668746",
@@ -2593,6 +2653,11 @@
     "label": "Brauron"
   },
   {
+    "qid": "Q476787",
+    "keys": ["aqueduct:aq-aqua-julia", "pleiades:423564"],
+    "label": "Aqua Julia"
+  },
+  {
     "qid": "Q476876",
     "keys": ["pleiades:5043153", "religion:5043153"],
     "label": "Temple of Poseidon"
@@ -2616,6 +2681,11 @@
     "qid": "Q4797717",
     "keys": ["pleiades:260256455", "religion:260256455"],
     "label": "Arthur's O'on temple"
+  },
+  {
+    "qid": "Q48075573",
+    "keys": ["port:apa-ancone-ankon-1957", "wd-Q48075573"],
+    "label": "Ankon"
   },
   {
     "qid": "Q481660",
@@ -2763,6 +2833,11 @@
     "label": "Fort Tas-Silġ"
   },
   {
+    "qid": "Q548608",
+    "keys": ["aqueduct:aq-anio-novus", "pleiades:423559"],
+    "label": "Anio Novus"
+  },
+  {
     "qid": "Q548614",
     "keys": ["aqueduct:aq-aqua-virgo", "pleiades:423560", "aqueduct:aq-anio-vetus"],
     "label": "Aqua Anio Vetus"
@@ -2908,6 +2983,11 @@
     "label": "Asclepeion of Paros"
   },
   {
+    "qid": "Q618495",
+    "keys": ["pleiades:639487", "press:press-148"],
+    "label": "Aphrodisias"
+  },
+  {
     "qid": "Q619477",
     "keys": ["religion:rel-080", "pleiades:418729933"],
     "label": "Temple of Apollo"
@@ -2916,6 +2996,21 @@
     "qid": "Q62113190",
     "keys": ["pleiades:916046175", "religion:916046175"],
     "label": "Augustales"
+  },
+  {
+    "qid": "Q622930",
+    "keys": ["aqueduct:aq-aqua-claudia", "pleiades:423563"],
+    "label": "Aqua Claudia"
+  },
+  {
+    "qid": "Q622943",
+    "keys": ["aqueduct:aq-aqua-marcia", "pleiades:423565"],
+    "label": "Aqua Marcia"
+  },
+  {
+    "qid": "Q622948",
+    "keys": ["aqueduct:aq-aqua-tepula", "pleiades:423566"],
+    "label": "Aqua Tepula"
   },
   {
     "qid": "Q622956",
@@ -2948,6 +3043,17 @@
     "label": "Delphinium at Miletus"
   },
   {
+    "qid": "Q633757",
+    "keys": [
+      "aqueduct:aq-aspendos",
+      "pleiades:635996570",
+      "pleiades:639497",
+      "pleiades:640251",
+      "press:press-332"
+    ],
+    "label": "Aspendos"
+  },
+  {
     "qid": "Q64002992",
     "keys": ["building:589805", "religion:589805"],
     "label": "Sanctuary of Kato Symi"
@@ -2966,6 +3072,11 @@
     "qid": "Q6427503",
     "keys": ["port:apa-kolonai-north-4312", "port:apa-kolonai-south-4313"],
     "label": "Kolonai"
+  },
+  {
+    "qid": "Q64699469",
+    "keys": ["pleiades:600227", "press:press-147"],
+    "label": "Ephesus"
   },
   {
     "qid": "Q647463",
@@ -3056,6 +3167,11 @@
     "qid": "Q689104",
     "keys": ["pleiades:472015", "religion:472015"],
     "label": "Temple of Antas"
+  },
+  {
+    "qid": "Q6931178",
+    "keys": ["mine:82312", "pleiades:82312", "port:apa-port-at-51-50-0-43-152"],
+    "label": "Mucking"
   },
   {
     "qid": "Q69389817",
@@ -3278,6 +3394,11 @@
     "label": "Temple de Minerve"
   },
   {
+    "qid": "Q87742452",
+    "keys": ["pleiades:426598", "pleiades:426600", "pleiades:659743014"],
+    "label": "Passo Lombardo Roman villa"
+  },
+  {
     "qid": "Q8840707",
     "keys": ["building:260468071", "religion:260468071"],
     "label": "Paleochristian Basilica of l'illa del Rei"
@@ -3361,6 +3482,16 @@
     "qid": "Q980425",
     "keys": ["amphitheater:suasa", "building:150998961"],
     "label": "Suasa amphitheatre"
+  },
+  {
+    "qid": "Q98058320",
+    "keys": ["mine:mine-cerro-muriano", "mine:mine-hispania-copper-cerro", "pleiades:256101"],
+    "label": "Cerro Muriano"
+  },
+  {
+    "qid": "Q98094661",
+    "keys": ["shipwreck:darmc-wreck-8", "shipwreck:sw-032"],
+    "label": "Port of Agde"
   },
   {
     "qid": "Q991637",
