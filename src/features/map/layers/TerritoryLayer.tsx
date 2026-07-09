@@ -1,3 +1,4 @@
+import { esc } from '@/lib/wiki-popup'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { GeoJSON } from 'react-leaflet'
 import { useTimelineStore } from '@/stores/useTimelineStore'
@@ -224,7 +225,7 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
           interactive={false}
           icon={L.divIcon({
             className: 'empire-label-wrap',
-            html: `<div class="empire-label empire-label--vast empire-label--rome">${m.name}</div>`,
+            html: `<div class="empire-label empire-label--vast empire-label--rome">${esc(m.name)}</div>`,
             iconSize: [0, 0],
           })}
         />

@@ -1,3 +1,4 @@
+import { esc } from '@/lib/wiki-popup'
 import { Marker } from 'react-leaflet'
 import L from 'leaflet'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -29,7 +30,7 @@ export function SeaLabels() {
           interactive={false}
           icon={L.divIcon({
             className: 'sea-label-wrap',
-            html: `<div class="sea-label">${s.name}</div>`,
+            html: `<div class="sea-label">${esc(s.name)}</div>`,
             iconSize: [0, 0],
           })}
         />

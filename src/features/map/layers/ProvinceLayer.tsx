@@ -54,7 +54,7 @@ const senatorialStyle = () => SENATORIAL_STYLE
 function createLabelIcon(name: string): L.DivIcon {
   return L.divIcon({
     className: 'province-label',
-    html: name,
+    html: esc(name),
     iconSize: [0, 0],
     iconAnchor: [0, 0],
   })
