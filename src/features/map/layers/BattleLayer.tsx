@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { CircleMarker, Marker, Popup } from 'react-leaflet'
+import { Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
@@ -97,18 +97,21 @@ export function BattleLayer({ data }: BattleLayerProps) {
         const color = OUTCOME_COLORS[b.outcome] || OUTCOME_COLORS.unknown
         const age = currentYear - b.year
         const opacity = battleOpacity(age, visibilityWindow)
+        // Battles are EVENTS, not places: a diamond (the cartographic
+        // saltire, simplified) so they never read as settlement dots — a
+        // whole screenshot session once misread the Cimbrian-War markers
+        // as military settlements. Footprint matches the old circle.
+        const side = baseRadius * 2 - 1
         return (
-          <CircleMarker
+          <Marker
             key={b.id}
-            center={[b.lat, b.lng]}
-            radius={baseRadius}
-            pathOptions={{
-              color: 'rgba(26, 18, 12, 0.85)',
-              weight: 1,
-              fillColor: color,
-              fillOpacity: opacity,
-            }}
-            bubblingMouseEvents={false}
+            position={[b.lat, b.lng]}
+            icon={L.divIcon({
+              className: '',
+              html: `<div style="width:${side}px;height:${side}px;transform:rotate(45deg);background:${color};opacity:${opacity};border:1px solid rgba(26,18,12,0.85);border-radius:1px"></div>`,
+              iconSize: [side, side],
+              iconAnchor: [side / 2, side / 2],
+            })}
           >
             <Popup key={featKnowledge ? 'w' : 'p'} offset={[0, -4]} closeButton={false}>
               <span
@@ -133,7 +136,7 @@ export function BattleLayer({ data }: BattleLayerProps) {
                 }}
               />
             </Popup>
-          </CircleMarker>
+          </Marker>
         )
       })}
       {flashBattles.map((b) => (
