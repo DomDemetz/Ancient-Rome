@@ -101,8 +101,14 @@ export async function loadBattleWiki(): Promise<WikiLookup> {
 
 /** Consolidated graph-keyed knowledge (ENTITY-MODEL.md): key = canonical
  *  node id. Single lookup replaces the per-layer wiki + cross-ref cascade. */
-export async function loadKnowledgePlaces(): Promise<WikiLookup> {
-  return loadJsonRaw<WikiLookup>(() => import('../knowledge/places.json?raw'))
+/** Popup knowledge for the core (empire-zoom) nodes — small, loads with
+ *  the map. The minor-node tier streams behind it (see useWikiEnrichment). */
+export async function loadKnowledgePlacesCore(): Promise<WikiLookup> {
+  return loadJsonRaw<WikiLookup>(() => import('../knowledge/places-core.json?raw'))
+}
+
+export async function loadKnowledgePlacesMinor(): Promise<WikiLookup> {
+  return loadJsonRaw<WikiLookup>(() => import('../knowledge/places-minor.json?raw'))
 }
 
 /** Full-fidelity places knowledge (all crossRef fields) — detail panel only.

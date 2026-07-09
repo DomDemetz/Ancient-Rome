@@ -195,7 +195,18 @@ def slim_store(store):
 
 out_dir = os.path.join(BASE, "knowledge")
 os.makedirs(out_dir, exist_ok=True)
-for name, store in [("places", slim_store(k_places)), ("places-detail", k_places),
+
+# popup tier splits again by NODE zoom tier: the default view mounts
+# PlacesLayer and only ~1,700 core nodes can even render there — their
+# knowledge is a few hundred KB; the minor-node knowledge streams with
+# the places detail tier. (places.json stays emitted for tests/tooling.)
+places_slim = slim_store(k_places)
+core_ids = {p["id"] for p in json.load(open(os.path.join(BASE, "places", "places-core.json")))}
+slim_core = {k: v for k, v in places_slim.items() if k in core_ids}
+slim_minor = {k: v for k, v in places_slim.items() if k not in core_ids}
+
+for name, store in [("places", places_slim), ("places-core", slim_core),
+                    ("places-minor", slim_minor), ("places-detail", k_places),
                     ("features", slim_store(k_feat)), ("features-detail", k_feat),
                     ("other", k_other)]:
     p = os.path.join(out_dir, f"{name}.json")

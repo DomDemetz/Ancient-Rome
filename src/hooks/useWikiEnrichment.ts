@@ -83,7 +83,23 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
   ),
   battles: makeLayerLoader(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
   // graph-keyed consolidated knowledge: crossRef ships inline, no merge pass
-  'knowledge-places': async () => (await import('@/data/wiki')).loadKnowledgePlaces(),
+  'knowledge-places': async () => {
+    // two tiers: core-node knowledge (~2 MB) returns immediately; the
+    // minor-node tier (~4 MB) merges into this same cache entry when it
+    // lands — consumers re-render via notify, open popups update in place
+    const wiki = await import('@/data/wiki')
+    const core = await wiki.loadKnowledgePlacesCore()
+    wiki
+      .loadKnowledgePlacesMinor()
+      .then((minor) => {
+        cache.set('knowledge-places', { ...(cache.get('knowledge-places') ?? core), ...minor })
+        notify()
+      })
+      .catch(() => {
+        /* minor tier is optional enrichment */
+      })
+    return core
+  },
   'knowledge-places-detail': async () => (await import('@/data/wiki')).loadKnowledgePlacesDetail(),
   'knowledge-features': async () => (await import('@/data/wiki')).loadKnowledgeFeatures(),
   'knowledge-features-detail': async () =>
