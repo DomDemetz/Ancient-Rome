@@ -143,7 +143,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
       }
       const desc = e.description
       const isCiteOnly = desc?.startsWith('An ancient place, cited:')
-      if (hasEnrichment && desc) {
+      if (hasEnrichment && desc && !isCiteOnly) {
         details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
       }
       if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
@@ -165,11 +165,17 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         const facts: string[] = []
         const ancientName = e.props?.ancientName as string | undefined
         if (ancientName && ancientName !== e.name) facts.push(`Ancient name: ${ancientName}`)
+        const city = e.props?.city as string | undefined
+        if (city && city !== e.name && city !== ancientName) facts.push(`Ancient city: ${city}`)
         const depth = e.props?.depth as number | undefined
         if (depth != null) facts.push(`Depth: ${depth}m`)
         const siteType = e.props?.siteType as string | undefined
         if (siteType && siteType !== e.subtype)
           facts.push(siteType.charAt(0).toUpperCase() + siteType.slice(1))
+        const capacity = e.props?.capacity as number | undefined
+        if (capacity != null) facts.push(`Capacity: ${capacity.toLocaleString()}`)
+        const dimensions = e.props?.dimensions as string | undefined
+        if (dimensions) facts.push(dimensions)
         const features = e.props?.features as string[] | undefined
         if (features?.length)
           facts.push(features.map((f) => f.charAt(0).toUpperCase() + f.slice(1)).join(', '))

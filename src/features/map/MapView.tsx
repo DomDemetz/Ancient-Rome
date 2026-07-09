@@ -56,6 +56,21 @@ function MapNavHandler() {
     }
   }, [map, setMapView])
 
+  // Attribution anchors are raw HTML from composed strings — stamp
+  // target=_blank at click time so credits never navigate the app away
+  useEffect(() => {
+    const container = map.getContainer()
+    const onClick = (e: MouseEvent) => {
+      const a = (e.target as HTMLElement).closest?.('.leaflet-control-attribution a')
+      if (a instanceof HTMLAnchorElement) {
+        a.target = '_blank'
+        a.rel = 'noopener noreferrer'
+      }
+    }
+    container.addEventListener('click', onClick, true)
+    return () => container.removeEventListener('click', onClick, true)
+  }, [map])
+
   // Highlight cleanup lives in a ref, NOT in the effect's return: clearFlyTo()
   // below nulls pendingFlyTo and re-runs the effect, so a returned cleanup
   // would cancel the highlight timer before the ring ever appears.
