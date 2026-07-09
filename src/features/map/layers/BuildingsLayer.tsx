@@ -112,7 +112,7 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
         fillOpacity: 0.85,
         bubblingMouseEvents: false,
       })
-      marker.bindTooltip(b.name, {
+      marker.bindTooltip(esc(b.name), {
         direction: 'top',
         offset: [0, -baseRadius],
         className: 'name-tooltip',

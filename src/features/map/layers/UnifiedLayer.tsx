@@ -223,7 +223,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         fillOpacity: 0.7,
         bubblingMouseEvents: false,
       })
-      marker.bindTooltip(e.name, {
+      marker.bindTooltip(esc(e.name), {
         direction: 'top',
         offset: [0, -baseRadius],
         className: 'name-tooltip',

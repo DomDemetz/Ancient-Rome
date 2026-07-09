@@ -139,7 +139,7 @@ export function ViciLayer({ data }: ViciLayerProps) {
         bubblingMouseEvents: false,
       })
       if (s.name) {
-        marker.bindTooltip(s.name, {
+        marker.bindTooltip(esc(s.name), {
           direction: 'top',
           offset: [0, -2],
           className: 'name-tooltip',

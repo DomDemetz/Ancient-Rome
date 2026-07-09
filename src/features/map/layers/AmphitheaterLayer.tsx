@@ -91,7 +91,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
         fillOpacity: 0.85,
         bubblingMouseEvents: false,
       })
-      marker.bindTooltip(a.name, {
+      marker.bindTooltip(esc(a.name), {
         direction: 'top',
         offset: [0, -radius],
         className: 'name-tooltip',

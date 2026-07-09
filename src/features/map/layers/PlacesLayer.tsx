@@ -359,14 +359,14 @@ export function PlacesLayer({
         if (effectiveKey !== existing.tooltipKey) {
           if (existing.tooltipKey != null) existing.marker.unbindTooltip()
           if (hasLabel) {
-            existing.marker.bindTooltip(name, {
+            existing.marker.bindTooltip(esc(name), {
               permanent: true,
               direction: 'top',
               className: isCity ? 'city-label' : 'city-label city-label--minor',
               offset: [0, -radius - 1],
             })
           } else {
-            existing.marker.bindTooltip(name, {
+            existing.marker.bindTooltip(esc(name), {
               direction: 'top',
               offset: [0, -radius],
               className: 'name-tooltip',
@@ -385,14 +385,14 @@ export function PlacesLayer({
         })
         marker.on('click', () => openPopupRef.current(p))
         if (hasLabel) {
-          marker.bindTooltip(name, {
+          marker.bindTooltip(esc(name), {
             permanent: true,
             direction: 'top',
             className: isCity ? 'city-label' : 'city-label city-label--minor',
             offset: [0, -radius - 1],
           })
         } else {
-          marker.bindTooltip(name, {
+          marker.bindTooltip(esc(name), {
             direction: 'top',
             offset: [0, -radius],
             className: 'name-tooltip',
