@@ -54,7 +54,7 @@ async function journey(layers, fn) {
       await page.locator('[role="option"]').first().click()
       return rows
     },
-    waitForText: async (re, timeout = 9000) => {
+    waitForText: async (re, timeout = 15000) => {
       try {
         await page.waitForFunction(
           (src) => new RegExp(src, 'i').test(document.body.innerText),

@@ -447,7 +447,22 @@ export function SearchBar() {
 
   const results = useMemo(() => {
     if (!query.trim()) return []
-    const raw = fuse.search(query, { limit: MAX_RESULTS * 4 })
+    // The misspellings people actually type: Fuse's threshold absorbs missing
+    // or wrong letters, but TRANSPOSITIONS of famous names slip through —
+    // "ceasar" returned Albina di Cesarea and no Julius Caesar.
+    const ALIASES: Record<string, string> = {
+      ceasar: 'caesar',
+      cesar: 'caesar',
+      collosseum: 'colosseum',
+      coliseum: 'colosseum',
+      constantinopel: 'constantinople',
+    }
+    const normalized = query
+      .toLowerCase()
+      .split(/\s+/)
+      .map((w) => ALIASES[w] ?? w)
+      .join(' ')
+    const raw = fuse.search(normalized, { limit: MAX_RESULTS * 4 })
     const q = query.trim().toLowerCase()
     const PRIORITY: Record<string, number> = {
       City: 0,
@@ -471,13 +486,25 @@ export function SearchBar() {
       Aqueduct: 4,
       Settlement: 5,
     }
+    // Rank against the alias-normalized query too: "ceasar" normalizes to
+    // "caesar", and "Julius Caesar" contains it as a WHOLE WORD — that must
+    // beat Caesarea's substring match, or the most famous Roman loses his
+    // own misspelled name to a port city.
+    const nq = normalized
+    const wordRe = new RegExp(`(^|[^a-z])${nq.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|[^a-z])`)
     raw.sort((a, b) => {
-      const aExact = a.item.name.toLowerCase() === q ? -2 : 0
-      const bExact = b.item.name.toLowerCase() === q ? -2 : 0
-      const aPrefix = !aExact && a.item.name.toLowerCase().startsWith(q) ? -1 : 0
-      const bPrefix = !bExact && b.item.name.toLowerCase().startsWith(q) ? -1 : 0
-      const aRank = aExact + aPrefix + (PRIORITY[a.item.category] ?? 4)
-      const bRank = bExact + bPrefix + (PRIORITY[b.item.category] ?? 4)
+      const an = a.item.name.toLowerCase()
+      const bn = b.item.name.toLowerCase()
+      const aExact = an === q || an === nq ? -6 : 0
+      const bExact = bn === q || bn === nq ? -6 : 0
+      const aPrefix = !aExact && (an.startsWith(q) || an.startsWith(nq)) ? -1 : 0
+      const bPrefix = !bExact && (bn.startsWith(q) || bn.startsWith(nq)) ? -1 : 0
+      // exact-grade: "caesar" IS one of Julius Caesar's name tokens; a
+      // category edge must not hand him to the port city Caesarea
+      const aWord = !aExact && !aPrefix && wordRe.test(an) ? -4 : 0
+      const bWord = !bExact && !bPrefix && wordRe.test(bn) ? -4 : 0
+      const aRank = aExact + aPrefix + aWord + (PRIORITY[a.item.category] ?? 4)
+      const bRank = bExact + bPrefix + bWord + (PRIORITY[b.item.category] ?? 4)
       if (aRank !== bRank) return aRank - bRank
       return (a.score ?? 1) - (b.score ?? 1)
     })
