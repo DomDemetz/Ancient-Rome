@@ -4,8 +4,7 @@ Watch the Roman Empire rise and fall on an interactive map. Trace battles, roads
 legions, emperors, aqueducts, and the trade routes that bound an empire — across a
 span from the founding of Rome in 753 BC to the fall of Constantinople in 1453 — twenty-two centuries on a single timeline you can scrub through.
 
-<!-- Live demo: add URL here once deployed -->
-<!-- Screenshot: add public/og-image.png (a real 1200×630 capture of the map) -->
+**[Live demo](https://domdemetz.github.io/Ancient-Rome/)** — open in a desktop browser for the full experience.
 
 ## Why this exists
 
