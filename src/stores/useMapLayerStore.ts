@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
 import type { FeatureCollection } from 'geojson'
 import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
 import type { PlaceNode } from '@/data/places'
@@ -36,6 +37,10 @@ export interface PresetDef {
   timelineYear?: number
   /** Start the timeline playing on activation (time-lapse presets). */
   autoplay?: boolean
+  /** Fly here on activation. A preset whose star content is zoom-gated
+   *  (temples render from z7) must open where that content EXISTS —
+   *  Gods & Temples at world zoom showed provinces and zero temples. */
+  view?: { lat: number; lng: number; zoom: number }
 }
 
 export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
@@ -67,6 +72,8 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'Gods & Temples',
     description: 'From Jupiter to Christ — religious transformation',
     timelineYear: 200,
+    // temple country at temple zoom — the dataset is z7-gated
+    view: { lat: 41.7, lng: 13.0, zoom: 7 },
     layers: [
       'showDataset:religion',
       'showBuildings',
@@ -1037,6 +1044,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       // time-lapse; a leftover 4x from earlier play would blink past it
       t.setSpeed(1)
       t.play()
+    }
+    if (def.view) {
+      useMapNavStore.getState().flyTo(def.view.lat, def.view.lng, def.view.zoom)
     }
 
     // Turn off all layers, then turn on preset layers
