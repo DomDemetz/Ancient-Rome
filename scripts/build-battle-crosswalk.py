@@ -12,6 +12,10 @@ Input: /tmp/wd-battles-probe.json (from the SPARQL probe; re-fetch if absent).
 Output: src/data/registry/crosswalk-battles.json  {battleId: {qid, wdLabel}}
 """
 import json, os, re, unicodedata, urllib.request, urllib.parse
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 PROBE = "/tmp/wd-battles-probe.json"
@@ -36,7 +40,7 @@ if not os.path.exists(PROBE):
         qid = r["b"]["value"].rsplit("/", 1)[-1]
         e = probe.setdefault(qid, {"label": r.get("bLabel", {}).get("value", ""), "date": None})
         if "date" in r: e["date"] = r["date"]["value"]
-    json.dump(probe, open(PROBE, "w"))
+    dump_atomic(probe, PROBE)
 
 wd = json.load(open(PROBE))
 
@@ -64,6 +68,6 @@ for b in battles:
         out[b["id"]] = {"qid": hit, "wdLabel": wd[hit]["label"]}
         stats["matched"] += 1
 path = os.path.join(BASE, "registry", "crosswalk-battles.json")
-json.dump(out, open(path, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+dump_atomic(out, path, ensure_ascii=False, indent=1, sort_keys=True)
 open(path, "a").write("\n")
 print(f"battles: {stats['matched']}/{len(battles)} matched to a Wikidata QID ({os.path.getsize(path)//1024} KB)")

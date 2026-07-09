@@ -26,6 +26,10 @@ Consumers: popup/panel adoption listed on the workbench board.
 """
 import glob, json, math, os
 from collections import defaultdict
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 SKIP_TYPES = {"shipwreck"}
@@ -103,7 +107,7 @@ for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
             stats[tname][1 if rel == "same" else 2] += 1
 
 path = os.path.join(BASE, "registry", "unified-nodes.json")
-json.dump(out, open(path, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+dump_atomic(out, path, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
 open(path, "a").write("\n")
 
 total = same = at = 0

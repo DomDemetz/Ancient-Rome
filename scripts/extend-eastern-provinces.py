@@ -21,6 +21,10 @@ Western provinces keep 476 (or their earlier real ends: Dacia 271,
 Britannia 410). Applied to provinces.json AND province-labels.json.
 """
 import json
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 NEW_END = {
     "Arabia": 636, "Syria": 637, "Iudaea": 638, "Armenia Mesopotamia": 640,
@@ -41,6 +45,6 @@ for path in ("src/data/dare/provinces.json", "src/data/dare/province-labels.json
         if p.get("name") in NEW_END:
             p["endYear"] = NEW_END[p["name"]]
             n += 1
-    json.dump(d, open(path, "w"), ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(d, path, ensure_ascii=False, separators=(",", ":"))
     open(path, "a").write("\n")
     print(f"{path}: {n} end-years extended")

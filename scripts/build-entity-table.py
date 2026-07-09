@@ -19,6 +19,10 @@ import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
@@ -204,8 +208,7 @@ def main():
     entities.sort(key=lambda e: e["id"])
     outdir = DATA / "entities"
     outdir.mkdir(exist_ok=True)
-    json.dump(entities, open(outdir / "entity-table.json", "w"),
-              ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(entities, outdir / "entity-table.json", ensure_ascii=False, separators=(",", ":"))
 
     multi = [e for e in entities if len(e["sources"]) > 1]
     print(f"entity table: {len(entities)} entities from {len(sources)} source records")

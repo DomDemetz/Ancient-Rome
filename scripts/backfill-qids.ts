@@ -5,7 +5,8 @@
  *
  * Usage: npx tsx scripts/backfill-qids.ts [battles|amphitheaters|all]
  */
-import { readFile, writeFile } from 'fs/promises'
+import { readFile } from 'fs/promises'
+import { writeJsonAtomic } from './lib/atomic-json.js'
 
 const CR_PATH = 'src/data/wiki/cross-reference.json'
 
@@ -172,8 +173,8 @@ async function processEntityType(typeName: string) {
     console.log(`[${progress}/${needQid.length}] QIDs: ${found}, images: ${images}`)
   }
 
-  await writeFile(config.dataPath, JSON.stringify(entities, null, 2) + '\n')
-  await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
+  await writeJsonAtomic(config.dataPath, entities, 2)
+  await writeJsonAtomic(CR_PATH, crossRef, 2)
   console.log(`\n${typeName}: ${found} QIDs found, ${images} images added.`)
   console.log(
     `QID coverage: ${entities.filter((e: Record<string, unknown>) => e.qid).length}/${entities.length}`,

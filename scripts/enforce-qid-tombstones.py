@@ -18,6 +18,10 @@ Usage: python3 scripts/enforce-qid-tombstones.py [--dry-run]
 import json
 import sys
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 WD_FIELDS = ["wdProps", "label", "wikidataDescription"]
@@ -51,8 +55,7 @@ def main():
                 e.pop(f, None)
             fixed += 1
     if fixed and not dry:
-        json.dump(cr, open(DATA / "wiki" / "cross-reference.json", "w"),
-                  ensure_ascii=False, indent=1)
+        dump_atomic(cr, DATA / "wiki" / "cross-reference.json", ensure_ascii=False, indent=1)
 
     silo_fixed = 0
     for f in sorted((DATA / "unified").glob("*.json")):
@@ -64,7 +67,7 @@ def main():
                 del x["qid"]
                 n += 1
         if n and not dry:
-            json.dump(items, open(f, "w"), ensure_ascii=False, indent=1)
+            dump_atomic(items, f, ensure_ascii=False, indent=1)
         silo_fixed += n
 
     b_path = DATA / "buildings" / "buildings.json"
@@ -76,7 +79,7 @@ def main():
             del x["qid"]
             n += 1
     if n and not dry:
-        json.dump(b, open(b_path, "w"), ensure_ascii=False, indent=1)
+        dump_atomic(b, b_path, ensure_ascii=False, indent=1)
     silo_fixed += n
 
     print(f"tombstones: {len(tombs)}; re-removed: {fixed} cross-ref, {silo_fixed} silo"

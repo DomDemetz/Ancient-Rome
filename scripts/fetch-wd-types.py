@@ -16,6 +16,10 @@ import os
 import sys
 import time
 import urllib.request
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 SRC = os.path.join(BASE, "registry", "wd-settlements.json")
@@ -59,7 +63,7 @@ def main():
             )
         if (i // 50) % 10 == 0:
             print(f"  {i + len(batch)}/{len(todo)}")
-            json.dump(src, open(SRC, "w"), ensure_ascii=False, separators=(",", ":"))
+            dump_atomic(src, SRC, ensure_ascii=False, separators=(",", ":"))
         time.sleep(0.3)
     with open(SRC, "w") as f:
         json.dump(src, f, ensure_ascii=False, separators=(",", ":"))

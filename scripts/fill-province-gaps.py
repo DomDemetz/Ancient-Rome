@@ -10,6 +10,10 @@ Run AFTER clip (exact congruence both ways: no overhang, no shortfall).
 import json, os
 from shapely.geometry import shape, mapping
 from shapely.ops import unary_union
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = 'src/data'
 terr = json.load(open(f'{BASE}/territories/territories.json'))
@@ -51,6 +55,6 @@ for i, f in enumerate(feats):
     f['geometry'] = mapping(merged.simplify(0.003))
     print(f"  +{sum(p.area for p in adds[i]):5.1f} deg² -> {f['properties']['name']}")
 
-json.dump(provs, open(ppath, 'w'), ensure_ascii=False, separators=(',',':'))
+dump_atomic(provs, ppath, ensure_ascii=False, separators=(',',':'))
 open(ppath, 'a').write('\n')
 print(f"assigned {assigned} gap pieces, skipped {skipped} (no adjacency) — {os.path.getsize(ppath)//1024} KB")

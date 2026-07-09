@@ -17,6 +17,10 @@ Usage: python3 scripts/merge-tier-a-duplicates.py [--dry-run]
 import json
 import sys
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
@@ -78,21 +82,17 @@ def main():
         print("DRY RUN — nothing written")
         return
 
-    json.dump(dare2, open(DATA / "dare" / "settlements.json", "w"),
-              ensure_ascii=False, separators=(",", ":"))
-    json.dump(places2, open(DATA / "places" / "places.json", "w"),
-              ensure_ascii=False, separators=(",", ":"))
-    json.dump(buildings, open(DATA / "buildings" / "buildings.json", "w"),
-              ensure_ascii=False, indent=1)
-    json.dump(cr, open(DATA / "wiki" / "cross-reference.json", "w"),
-              ensure_ascii=False, indent=1)
+    dump_atomic(dare2, DATA / "dare" / "settlements.json", ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(places2, DATA / "places" / "places.json", ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(buildings, DATA / "buildings" / "buildings.json", ensure_ascii=False, indent=1)
+    dump_atomic(cr, DATA / "wiki" / "cross-reference.json", ensure_ascii=False, indent=1)
     # append to any existing log — re-runs must not erase merge history
     log_path = DATA / "review" / "tier-a-merge-log.json"
     if log_path.exists():
         prev = json.load(open(log_path))
         seen = {e["removedSettlement"] for e in prev}
         log = prev + [e for e in log if e["removedSettlement"] not in seen]
-    json.dump(log, open(log_path, "w"), ensure_ascii=False, indent=1)
+    dump_atomic(log, log_path, ensure_ascii=False, indent=1)
     print("written; merge log -> review/tier-a-merge-log.json")
 
 

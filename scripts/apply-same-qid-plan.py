@@ -14,6 +14,10 @@ Usage: python3 scripts/apply-same-qid-plan.py [--dry-run]
 import json
 import sys
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 WD_FIELDS = ["wdProps", "label", "wikidataDescription"]
@@ -30,7 +34,7 @@ def strip_from_silos(key_qids, dry):
                 del x["qid"]
                 n += 1
         if n and not dry:
-            json.dump(items, open(f, "w"), ensure_ascii=False, indent=1)
+            dump_atomic(items, f, ensure_ascii=False, indent=1)
         if n:
             changed[f.name] = n
     return changed
@@ -75,15 +79,13 @@ def main():
         print("DRY RUN — nothing written")
         return
 
-    json.dump(cr, open(DATA / "wiki" / "cross-reference.json", "w"),
-              ensure_ascii=False, indent=1)
-    json.dump(links, open(DATA / "entities" / "same-qid-links.json", "w"),
-              ensure_ascii=False, indent=1)
+    dump_atomic(cr, DATA / "wiki" / "cross-reference.json", ensure_ascii=False, indent=1)
+    dump_atomic(links, DATA / "entities" / "same-qid-links.json", ensure_ascii=False, indent=1)
     log_path = DATA / "review" / "qid-cleanup-log.json"
     prev = json.load(open(log_path)) if log_path.exists() else []
     seen = {(e["key"], e.get("action")) for e in prev}
     prev += [e for e in log if (e["key"], e.get("action")) not in seen]
-    json.dump(prev, open(log_path, "w"), ensure_ascii=False, indent=1)
+    dump_atomic(prev, log_path, ensure_ascii=False, indent=1)
     print("written: cross-reference, entities/same-qid-links.json, cleanup log")
 
 

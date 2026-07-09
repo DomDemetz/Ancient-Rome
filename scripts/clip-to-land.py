@@ -14,6 +14,10 @@ from shapely.geometry import shape, mapping
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
 from shapely.prepared import prep
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 LAND_SRC = "/private/tmp/ne_50m_land.json"
@@ -53,7 +57,7 @@ for e in empires:
         e["geometry"] = json.loads(json.dumps(mapping(c.simplify(0.015))))
         e["geometry"]["coordinates"] = round2(e["geometry"]["coordinates"])
         n += 1
-json.dump(empires, open(p, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(empires, p, ensure_ascii=False, separators=(",", ":"))
 open(p, "a").write("\n")
 print(f"empires.json: {n}/{len(empires)} shapes coast-clipped ({os.path.getsize(p)//1024//1024} MB) in {time.time()-t0:.0f}s")
 
@@ -70,6 +74,6 @@ for t in terr:
         gm["coordinates"] = round2(gm["coordinates"])
         t["boundaries"]["geometry"] = gm
         n += 1
-json.dump(terr, open(p, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(terr, p, ensure_ascii=False, separators=(",", ":"))
 open(p, "a").write("\n")
 print(f"territories.json: {n}/{len(terr)} snapshots coast-clipped ({os.path.getsize(p)//1024//1024} MB) in {time.time()-t0:.0f}s")

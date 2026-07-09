@@ -12,6 +12,10 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 API = "https://www.wikidata.org/w/api.php"
@@ -99,7 +103,7 @@ def main():
         v["instanceOfLabels"] = [class_labels.get(c, c)
                                  for c in v.get("instanceOf", [])]
 
-    json.dump(result, open(out_path, "w"), ensure_ascii=False, indent=0)
+    dump_atomic(result, out_path, ensure_ascii=False, indent=0)
     print(f"wrote {len(result)} entities -> {out_path}")
 
 

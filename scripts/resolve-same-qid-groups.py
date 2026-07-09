@@ -25,6 +25,10 @@ import math
 import sys
 from collections import defaultdict
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
@@ -124,9 +128,15 @@ def main():
             # kind-relative: harbor systems span a bay (Alexandria's Portus
             # Magnus ~10 km), aqueducts are linear (the Gier runs 85 km),
             # point-like structures should nearly coincide.
-            SPREAD_CAP = {"port": 15.0, "aqueduct": 60.0}
-            kinds = {kind_of(k) for k in bearers}
-            cap = SPREAD_CAP.get(next(iter(kinds)), 3.0) if len(kinds) == 1 else 3.0
+            # a group takes the most permissive cap among its members'
+            # kinds: an aqueduct's pleiades survey point is still a point on
+            # that aqueduct (Rome's aqueducts run ~90 km end to end)
+            SPREAD_CAP = {"port": 15.0, "aqueduct": 100.0,
+                          # mine QIDs cover districts (Skouriotissa's workings
+                          # span km); wreck coords differ across catalogs;
+                          # presses anchor to their site's survey point
+                          "mine": 10.0, "shipwreck": 5.0, "press": 8.0}
+            cap = max(SPREAD_CAP.get(kind_of(k), 3.0) for k in bearers)
             pts = [coords[k] for k in bearers if k in coords]
             spread = max((km(a, b) for a in pts for b in pts), default=0)
             if spread <= cap:
@@ -136,8 +146,7 @@ def main():
                 plan["manual"].append({"qid": qid, "keys": bearers,
                                        "why": f"bearers {spread:.1f} km apart"})
 
-    json.dump(plan, open(DATA / "review" / "same-qid-plan.json", "w"),
-              ensure_ascii=False, indent=1)
+    dump_atomic(plan, DATA / "review" / "same-qid-plan.json", ensure_ascii=False, indent=1)
     print(f"merge groups: {len(plan['merge'])}, strips: {len(plan['strip'])}, "
           f"demotes: {len(plan['demote'])}, manual: {len(plan['manual'])}")
     for m in plan["merge"][:6]:

@@ -22,6 +22,10 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 API = "https://www.wikidata.org/w/api.php"
@@ -140,8 +144,7 @@ def main():
     if dry:
         print("DRY RUN — nothing written")
         return
-    json.dump(cr, open(DATA / "wiki" / "cross-reference.json", "w"),
-              ensure_ascii=False, indent=1)
+    dump_atomic(cr, DATA / "wiki" / "cross-reference.json", ensure_ascii=False, indent=1)
     print("cross-reference.json written")
 
 

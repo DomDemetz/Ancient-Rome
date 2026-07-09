@@ -16,6 +16,10 @@ import json
 import sys
 from collections import Counter
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
@@ -37,7 +41,7 @@ def main():
                 del x["qid"]
                 changed += 1
         if changed and not dry:
-            json.dump(items, open(f, "w"), ensure_ascii=False, indent=1)
+            dump_atomic(items, f, ensure_ascii=False, indent=1)
         counts[f"unified/{f.name}"] = changed
 
     # buildings.json
@@ -49,8 +53,7 @@ def main():
             del x["qid"]
             changed += 1
     if changed and not dry:
-        json.dump(b, open(DATA / "buildings" / "buildings.json", "w"),
-                  ensure_ascii=False, indent=1)
+        dump_atomic(b, DATA / "buildings" / "buildings.json", ensure_ascii=False, indent=1)
     counts["buildings.json"] = changed
 
     # places.json — settlement:<dareId> keys map to place id dare-<id>
@@ -64,8 +67,7 @@ def main():
             del x["qid"]
             changed += 1
     if changed and not dry:
-        json.dump(p, open(DATA / "places" / "places.json", "w"),
-                  ensure_ascii=False, separators=(",", ":"))
+        dump_atomic(p, DATA / "places" / "places.json", ensure_ascii=False, separators=(",", ":"))
     counts["places.json"] = changed
 
     total = sum(counts.values())

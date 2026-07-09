@@ -15,6 +15,10 @@ Outputs (additive; nothing else touched):
 """
 import json, math, os, re, unicodedata
 from collections import defaultdict
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 
@@ -104,7 +108,7 @@ def crosswalk(records, get, radius, outname):
             stats["matched"] += 1
         stats["total"] += 1
     path = os.path.join(BASE, "registry", outname)
-    json.dump(out, open(path, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+    dump_atomic(out, path, ensure_ascii=False, indent=1, sort_keys=True)
     open(path, "a").write("\n")
     print(f"{outname}: {stats['matched']}/{stats['total']} matched ({100*stats['matched']//max(1,stats['total'])}%), "
           f"{stats['with_qid']} also carry a QID  ({os.path.getsize(path)//1024} KB)")
@@ -152,6 +156,6 @@ for c in chandler:
             entry["qid"] = bridge[best_pid]["qid"]
         xw_ch[c["id"]] = entry
         added += 1
-json.dump(xw_ch, open(xw_ch_path, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+dump_atomic(xw_ch, xw_ch_path, ensure_ascii=False, indent=1, sort_keys=True)
 open(xw_ch_path, "a").write("\n")
 print(f"two-hop pass: +{added} chandler links -> total {len(xw_ch)}/{len(chandler)} ({100*len(xw_ch)//len(chandler)}%)")

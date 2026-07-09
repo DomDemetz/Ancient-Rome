@@ -16,6 +16,10 @@ no-op geometrically.
 import json, os
 from shapely.geometry import shape, mapping
 from shapely.ops import unary_union
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 
@@ -50,7 +54,7 @@ for f in feats:
     f["geometry"] = mapping(inter.simplify(0.005))
     name_to_geom[f["properties"]["name"]] = inter
 
-json.dump(provs, open(ppath, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(provs, ppath, ensure_ascii=False, separators=(",", ":"))
 open(ppath, "a").write("\n")
 print(f"provinces.json: {len(feats)} provinces, {clipped_n} clipped, "
       f"total overhang removed ≈ {dropped_area:.0f} deg² "
@@ -69,6 +73,6 @@ for lab in labels:
         rp = g.representative_point()
         lab["lat"], lab["lng"] = round(rp.y, 4), round(rp.x, 4)
         moved += 1
-json.dump(labels, open(lpath, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(labels, lpath, ensure_ascii=False, separators=(",", ":"))
 open(lpath, "a").write("\n")
 print(f"province-labels.json: {moved} labels re-anchored inside clipped shapes")

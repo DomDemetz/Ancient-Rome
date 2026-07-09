@@ -29,6 +29,10 @@ import csv
 import gzip
 import json
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 CSV_GZ = DATA / "downloads" / "pleiades-places-latest.csv.gz"
@@ -121,12 +125,10 @@ def main():
         nb["attestedTo"] = hi
         kept.append(nb)
 
-    json.dump(kept, open(DATA / "buildings" / "buildings.json", "w"),
-              ensure_ascii=False, indent=1)
+    dump_atomic(kept, DATA / "buildings" / "buildings.json", ensure_ascii=False, indent=1)
     review = DATA / "review"
     review.mkdir(exist_ok=True)
-    json.dump(dropped, open(review / "dropped-building-sites.json", "w"),
-              ensure_ascii=False, indent=1)
+    dump_atomic(dropped, review / "dropped-building-sites.json", ensure_ascii=False, indent=1)
 
     kept_ids = {str(b["id"]) for b in kept}
     kept_by_id = {str(b["id"]): b for b in kept}
@@ -153,7 +155,7 @@ def main():
         if nb["attestedTo"] is not None and nb["attestedTo"] <= WINDOW[1]:
             e["endYear"] = nb["attestedTo"]
         updated_cr += 1
-    json.dump(cr, open(cr_path, "w"), ensure_ascii=False, indent=1)
+    dump_atomic(cr, cr_path, ensure_ascii=False, indent=1)
 
     # --- unified/building.json ---
     ub_path = DATA / "unified" / "building.json"
@@ -170,7 +172,7 @@ def main():
             e["startYear"] = nb["attestedFrom"] if nb["attestedFrom"] is not None else 0
             e["endYear"] = nb["attestedTo"] if nb["attestedTo"] is not None else 0
         ub2.append(e)
-    json.dump(ub2, open(ub_path, "w"), ensure_ascii=False, indent=1)
+    dump_atomic(ub2, ub_path, ensure_ascii=False, indent=1)
 
     # --- registry/buildings-search.json ---
     bs_path = DATA / "registry" / "buildings-search.json"
@@ -186,7 +188,7 @@ def main():
     bw_path = DATA / "wiki" / "buildings-wiki.json"
     bw = json.load(open(bw_path))
     bw2 = {k: v for k, v in bw.items() if k not in dropped_ids}
-    json.dump(bw2, open(bw_path, "w"), ensure_ascii=False, indent=1)
+    dump_atomic(bw2, bw_path, ensure_ascii=False, indent=1)
 
     from collections import Counter
     print(f"buildings: {len(buildings)} -> kept {len(kept)}, dropped {len(dropped)}")

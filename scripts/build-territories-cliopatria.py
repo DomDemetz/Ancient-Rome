@@ -13,6 +13,10 @@ Final 'lost' snapshots preserve the fall-recede animations (476 West,
 Replaces the historical-basemaps-derived set (GPL-3.0) with CC BY 4.0 data.
 """
 import json, os
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 SRC = "/private/tmp/cliopatria_polities_only.geojson"
 OUT = os.path.join(os.path.dirname(__file__), "..", "src", "data", "territories", "territories.json")
@@ -68,7 +72,7 @@ snaps.append({**east, "year": 1453, "status": "lost",
 for s in snaps:
     s.pop("_to", None)
 snaps.sort(key=lambda s: (s["year"], s["id"]))
-json.dump(snaps, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(snaps, OUT, ensure_ascii=False, separators=(",", ":"))
 open(OUT, "a").write("\n")
 west_n = sum(1 for s in snaps if s["id"] == "rome")
 east_n = sum(1 for s in snaps if s["id"] == "eastern-empire")

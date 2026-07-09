@@ -9,6 +9,10 @@ import json
 import math
 import sys
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 CHUNK_SIZE = 50
@@ -67,8 +71,7 @@ def main():
     n_chunks = (len(records) + CHUNK_SIZE - 1) // CHUNK_SIZE
     for i in range(n_chunks):
         chunk = records[i * CHUNK_SIZE:(i + 1) * CHUNK_SIZE]
-        json.dump(chunk, open(outdir / f"chunk-{i:03}.json", "w"),
-                  ensure_ascii=False, indent=1)
+        dump_atomic(chunk, outdir / f"chunk-{i:03}.json", ensure_ascii=False, indent=1)
     print(f"{len(records)} records -> {n_chunks} chunks in {outdir}")
 
 

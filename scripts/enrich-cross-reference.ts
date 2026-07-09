@@ -13,7 +13,8 @@
  * Usage: npx tsx scripts/enrich-cross-reference.ts
  */
 
-import { readFile, writeFile } from 'fs/promises'
+import { readFile } from 'fs/promises'
+import { writeJsonAtomic } from './lib/atomic-json.js'
 import { fileURLToPath } from 'url'
 import { existsSync } from 'fs'
 
@@ -438,7 +439,7 @@ async function main() {
   const outputPath = fileURLToPath(
     new URL('../src/data/wiki/cross-reference.json', import.meta.url),
   )
-  await writeFile(outputPath, JSON.stringify(output, null, 2))
+  await writeJsonAtomic(outputPath, output, 2)
 
   // Stats
   const all = Object.values(output)

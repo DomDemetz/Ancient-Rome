@@ -15,6 +15,10 @@
 import json
 import re
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 QID_NAME = re.compile(r"^Q\d+$")
@@ -31,7 +35,7 @@ for x in places:
     if x["id"] == "pl-580080" and x.get("startYear") == 550:
         x["startYear"] = -550
 
-json.dump(places, open(places_path, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(places, places_path, ensure_ascii=False, separators=(",", ":"))
 print(f"places.json: {n0} -> {len(places)} (dropped {len(dropped_qid_dots)} QID-named dots)")
 
 dare_path = DATA / "dare" / "settlements.json"
@@ -41,7 +45,7 @@ for x in dare:
         x["name"] = x.get("modern", "Bucium")
     if str(x["id"]) == "46636" and x.get("startYear") == 550:
         x["startYear"] = -550
-json.dump(dare, open(dare_path, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(dare, dare_path, ensure_ascii=False, separators=(",", ":"))
 print("dare/settlements.json: fixed Bucium name, Plakoto BC/AD sign")
 
 cr_path = DATA / "wiki" / "cross-reference.json"
@@ -51,5 +55,5 @@ before = len(cr)
 orphans = [k for k in cr if k.startswith("wd-") and k not in place_ids]
 for k in orphans:
     del cr[k]
-json.dump(cr, open(cr_path, "w"), ensure_ascii=False, indent=1)
+dump_atomic(cr, cr_path, ensure_ascii=False, indent=1)
 print(f"cross-reference.json: {before} -> {len(cr)} (pruned {len(orphans)} orphaned wd-* entries)")

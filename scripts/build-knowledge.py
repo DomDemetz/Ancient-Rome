@@ -23,6 +23,10 @@ Additive: legacy wiki/* files stay until UI adoption completes (board).
 """
 import json, os
 from collections import defaultdict
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 W = lambda n: json.load(open(os.path.join(BASE, "wiki", n)))
@@ -210,7 +214,7 @@ for name, store in [("places", places_slim), ("places-core", slim_core),
                     ("features", slim_store(k_feat)), ("features-detail", k_feat),
                     ("other", k_other)]:
     p = os.path.join(out_dir, f"{name}.json")
-    json.dump(store, open(p, "w"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    dump_atomic(store, p, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     open(p, "a").write("\n")
     print(f"knowledge/{name}.json: {len(store)} entries, {os.path.getsize(p)//1024} KB")
 print("consolidated from", len(setl), "settlement +", len(cross), "cross-ref +",

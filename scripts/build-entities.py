@@ -22,6 +22,10 @@ Usage:  python3 scripts/build-entities.py
 """
 import json, os, re
 from collections import defaultdict
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 R = os.path.join(BASE, "registry")
@@ -314,7 +318,7 @@ for lo in locs:
     print(f"  {lo['id']:16} -> {best['id']:14} {best['name']:20} ({-score[1]:.1f} km, {n} connections)")
 
 mpath = os.path.join(R, "vici-merged.json")
-json.dump(sorted(vici_merged), open(mpath, "w"), separators=(",", ":"))
+dump_atomic(sorted(vici_merged), mpath, separators=(",", ":"))
 open(mpath, "a").write("\n")
 print(f"vici-merged.json: {len(vici_merged)} settlement-kind vici points now represented by nodes")
 
@@ -355,7 +359,7 @@ places.sort(key=lambda p: p["id"])
 out = os.path.join(BASE, "places")
 os.makedirs(out, exist_ok=True)
 path = os.path.join(out, "places.json")
-json.dump(places, open(path, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(places, path, ensure_ascii=False, separators=(",", ":"))
 open(path, "a").write("\n")
 
 # --- zoom tiers: the DEFAULT view renders ~1,700 of these 32k nodes ---
@@ -374,7 +378,7 @@ for p in places:
         detail.append(p)
 for tier_name, tier in (("places-core", core), ("places-detail", detail)):
     tp = os.path.join(out, f"{tier_name}.json")
-    json.dump(tier, open(tp, "w"), ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(tier, tp, ensure_ascii=False, separators=(",", ":"))
     open(tp, "a").write("\n")
     print(f"{tier_name}.json: {len(tier)} nodes, {os.path.getsize(tp)//1024} KB")
 

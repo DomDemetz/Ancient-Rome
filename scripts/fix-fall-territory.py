@@ -8,6 +8,10 @@ which is what the fallen West actually was in 476. Idempotent.
 Usage: python3 scripts/fix-fall-territory.py
 """
 import json, urllib.request, os
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 URL = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_500.geojson"
 PATH = os.path.join(os.path.dirname(__file__), "..", "src", "data", "territories", "territories.json")
@@ -31,7 +35,7 @@ t["boundaries"] = {
     "properties": {"name": "Western Roman Empire 476 AD (fallen — Italy under Odoacer)"},
     "geometry": geom,
 }
-json.dump(d, open(PATH, "w"), ensure_ascii=False, indent=2)
+dump_atomic(d, PATH, ensure_ascii=False, indent=2)
 open(PATH, "a").write("\n")
 npts = sum(len(r) for p in (geom["coordinates"] if geom["type"] == "MultiPolygon" else [geom["coordinates"]]) for r in p)
 print(f"✓ rome@476: {oldpolys} crude polys -> Ostrogoth Italy ({geom['type']}, {npts} pts)")

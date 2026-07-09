@@ -1,667 +1,937 @@
 [
-  {
-    "key": "building:863760",
-    "qid": "Q653420",
-    "label": "Bolnisi",
-    "inception": 1818,
-    "classes": ["city"]
-  },
-  {
-    "key": "building:383782",
-    "qid": "Q3950103",
-    "label": "Santa Maria di Valverde sanctuary",
-    "inception": 1682,
-    "classes": ["church building", "sanctuary"]
-  },
-  {
-    "key": "building:423053",
-    "qid": "Q12512",
-    "label": "St. Peter's Basilica",
-    "inception": 1506,
-    "classes": ["major basilica", "papal basilica", "architectural landmark"]
-  },
-  {
-    "key": "building:625199888",
-    "qid": "Q1634605",
-    "label": "Santa Maria dell'Orto",
-    "inception": 1567,
-    "classes": ["church building"]
-  },
-  {
-    "key": "building:267702570",
-    "qid": "Q1586946",
-    "label": "Basilica of Saints John and Paul on the Caelian Hill",
-    "inception": 1951,
-    "classes": ["minor basilica", "church building"]
-  },
-  {
-    "key": "building:960638411",
-    "qid": "Q38252188",
-    "label": "Malabadi Bridge",
-    "inception": 1955,
-    "classes": ["bridge"]
-  },
-  {
-    "key": "pleiades:206977",
-    "qid": "Q621513",
-    "label": "Borlova",
-    "inception": 1519,
-    "classes": ["village"]
-  },
-  {
-    "key": "pleiades:207339",
-    "qid": "Q627116",
-    "label": "Petnic",
-    "inception": 1603,
-    "classes": ["village"]
-  },
-  {
-    "key": "religion:rel-093",
-    "qid": "Q7593494",
-    "label": "St James Garlickhythe, London",
-    "inception": 1674,
-    "classes": ["church building"]
-  },
-  {
-    "key": "religion:rel-123",
-    "qid": "Q12512",
-    "label": "St. Peter's Basilica",
-    "inception": 1506,
-    "classes": ["major basilica", "papal basilica", "architectural landmark"]
-  },
-  {
-    "key": "religion:rel-129",
-    "qid": "Q2095195",
-    "label": "Santa Maria ai Monti",
-    "inception": 1580,
-    "classes": ["church building"]
-  },
-  {
-    "key": "religion:rel-132",
-    "qid": "Q2095195",
-    "label": "Santa Maria ai Monti",
-    "inception": 1580,
-    "classes": ["church building"]
-  },
-  {
-    "key": "religion:rel-208",
-    "qid": "Q28802717",
-    "label": "Church of Saint Irene of Athens",
-    "inception": 1847,
-    "classes": ["church building"]
-  },
-  {
-    "key": "religion:233122845",
-    "qid": "Q3670620",
-    "label": null,
-    "inception": 1964,
-    "classes": ["church building"]
-  },
-  {
-    "key": "pleiades:79546",
-    "qid": "Q2745532",
-    "label": "Kings Worthy",
-    "inception": 1953,
-    "classes": ["village", "civil parish"]
-  },
-  {
-    "key": "pleiades:256409",
-    "qid": "Q1438934",
-    "label": "Fort of Sacavém",
-    "inception": 1892,
-    "classes": ["fortress"]
-  },
-  {
-    "key": "pleiades:349625130",
-    "qid": "Q2982741",
-    "label": "Collatino",
-    "inception": 1961,
-    "classes": ["quartiere of rome"]
-  },
-  {
-    "key": "pleiades:426586",
-    "qid": "Q2100416",
-    "label": "Garibaldi Bridge",
-    "inception": 1884,
-    "classes": ["bridge"]
-  },
-  {
-    "key": "pleiades:110239",
-    "qid": "Q14565908",
-    "label": "Mainz",
-    "inception": 1835,
-    "classes": ["rural district"]
-  },
-  {
-    "key": "port:apa-ad-salices-3574",
-    "qid": "Q859186",
-    "label": "Ceamurlia de Jos",
-    "inception": 1900,
-    "classes": ["village", "seat of the local council"]
-  },
-  {
-    "key": "port:apa-port-at-41-87-12-47-1491",
-    "qid": "Q1751443",
-    "label": "Testaccio",
-    "inception": 1921,
-    "classes": ["rione of rome", "neighborhood"]
-  },
-  {
-    "key": "port:apa-port-of-burgatha-port-of-archaic-zrar-4798",
-    "qid": "Q16131638",
-    "label": "Givat Olga",
-    "inception": 1949,
-    "classes": ["neighborhood"]
-  },
-  {
-    "key": "port:apa-theodosia-theodosie-caffa-arta-3707",
-    "qid": "Q4482815",
-    "label": "Port of Feodosia",
-    "inception": 1892,
-    "classes": ["port"]
-  },
-  {
-    "key": "religious:pleiades-76960231",
-    "qid": "Q3669840",
-    "label": "San Damaso",
-    "inception": 1969,
-    "classes": ["church building"]
-  },
-  {
-    "key": "building:pleiades-85815300",
-    "qid": "Q3668671",
-    "label": "Santissimo Sacramento a Tor de' Schiavi",
-    "inception": 1966,
-    "classes": ["church building"]
-  },
-  {
-    "key": "pleiades:422968",
-    "qid": "Q3277019",
-    "label": "Magliana Vecchia",
-    "inception": 1961,
-    "classes": ["zone of rome", "neighborhood"]
-  },
-  {
-    "key": "pleiades:423010",
-    "qid": "Q3907988",
-    "label": "Ponte Mammolo",
-    "inception": 1871,
-    "classes": ["stone bridge", "arch bridge", "road bridge"]
-  },
-  {
-    "key": "religion:167891",
-    "qid": "Q1107474",
-    "label": "Saint-Alban-les-Eaux",
-    "inception": 1866,
-    "classes": ["commune of france"]
-  },
-  {
-    "key": "religion:167955",
-    "qid": "Q1339596",
-    "label": "Varces-Allières-et-Risset",
-    "inception": 1955,
-    "classes": ["commune of france"]
-  },
-  {
-    "key": "pleiades:187384",
-    "qid": "Q680236",
-    "label": "Forggensee",
-    "inception": 1950,
-    "classes": ["reservoir"]
-  },
-  {
-    "key": "religion:187384",
-    "qid": "Q680236",
-    "label": "Forggensee",
-    "inception": 1950,
-    "classes": ["reservoir"]
-  },
-  {
-    "key": "religion:187632",
-    "qid": "Q64890",
-    "label": "Zillis-Reischen",
-    "inception": 1875,
-    "classes": ["municipality of switzerland"]
-  },
-  {
-    "key": "pleiades:422926",
-    "qid": "Q3926574",
-    "label": "Quadraro",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "pleiades:507301472",
-    "qid": "Q1114050",
-    "label": "Ostiense",
-    "inception": 1921,
-    "classes": ["quartiere of rome"]
-  },
-  {
-    "key": "pleiades:177596",
-    "qid": "Q113087045",
-    "label": null,
-    "inception": 1965,
-    "classes": ["pipe organ"]
-  },
-  {
-    "key": "pleiades:423088",
-    "qid": "Q3493502",
-    "label": "Spinaceto",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "pleiades:423089",
-    "qid": "Q3993559",
-    "label": "Tormarancia",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "religion:383782",
-    "qid": "Q3950103",
-    "label": "Santa Maria di Valverde sanctuary",
-    "inception": 1682,
-    "classes": ["church building", "sanctuary"]
-  },
-  {
-    "key": "religious:pleiades-267702570",
-    "qid": "Q1586946",
-    "label": "Basilica of Saints John and Paul on the Caelian Hill",
-    "inception": 1951,
-    "classes": ["minor basilica", "church building"]
-  },
-  {
-    "key": "religious:pleiades-770702013",
-    "qid": "Q1081921",
-    "label": "Church of Domine Quo Vadis",
-    "inception": 1637,
-    "classes": ["church building"]
-  },
-  {
-    "key": "shipwreck:sw-046",
-    "qid": "Q2777560",
-    "label": "Dor",
-    "inception": 1949,
-    "classes": ["moshav"]
-  },
-  {
-    "key": "shipwreck:darmc-wreck-899",
-    "qid": "Q16324232",
-    "label": "Nydam Tveir",
-    "inception": 2013,
-    "classes": ["wooden boat", "ship replica"]
-  },
-  {
-    "key": "religion:rel-125",
-    "qid": "Q118955710",
-    "label": "Hagia Sophia History and Experience Museum",
-    "inception": 1910,
-    "classes": ["architectural structure"]
-  },
-  {
-    "key": "religion:rel-130",
-    "qid": "Q541703",
-    "label": "San Lorenzo",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "religion:187479",
-    "qid": "Q29784325",
-    "label": "Haus Unterkilchen, Mollis",
-    "inception": 1750,
-    "classes": ["architectural structure", "house", "farm building"]
-  },
-  {
-    "key": "religion:601235773",
-    "qid": "Q5472163",
-    "label": "Fort Tas-Silġ",
-    "inception": 1879,
-    "classes": ["fort"]
-  },
-  {
-    "key": "religious:pleiades-778154279",
-    "qid": "Q1088101",
-    "label": "Santi Gioacchino e Anna ai Monti",
-    "inception": 1589,
-    "classes": ["church building"]
-  },
-  {
-    "key": "religious:pleiades-883684762",
-    "qid": "Q3669566",
-    "label": "San Bartolomeo dei Vaccinari",
-    "inception": 1723,
-    "classes": ["church building"]
-  },
-  {
-    "key": "mine:pleiades-82297",
-    "qid": "Q18708775",
-    "label": "Parys Mountain Windmill",
-    "inception": 1878,
-    "classes": ["windmill"]
-  },
-  {
-    "key": "press:press-224",
-    "qid": "Q975999",
-    "label": "Gezer",
-    "inception": 1945,
-    "classes": ["kibbutz"]
-  },
-  {
-    "key": "pleiades:888638050",
-    "qid": "Q119583432",
-    "label": "House of the excavation, Dura-Europos",
-    "inception": 1929,
-    "classes": ["building"]
-  },
-  {
-    "key": "building:pleiades-98925",
-    "qid": "Q827398",
-    "label": "Botanischer Garten Bielefeld",
-    "inception": 1910,
-    "classes": ["botanical garden"]
-  },
-  {
-    "key": "pleiades:167714",
-    "qid": "Q125991252",
-    "label": null,
-    "inception": 1974,
-    "classes": ["educational facility"]
-  },
-  {
-    "key": "pleiades:177561",
-    "qid": "Q130247708",
-    "label": "Kunsthalle Palazzo Liestal",
-    "inception": 1990,
-    "classes": ["artist-run initiative"]
-  },
-  {
-    "key": "pleiades:256030",
-    "qid": "Q5734325",
-    "label": "Brovales",
-    "inception": 1958,
-    "classes": ["single entity of population"]
-  },
-  {
-    "key": "pleiades:422895",
-    "qid": "Q728399",
-    "label": "Cinecittà",
-    "inception": 1937,
-    "classes": ["film studio"]
-  },
-  {
-    "key": "pleiades:601235773",
-    "qid": "Q5472163",
-    "label": "Fort Tas-Silġ",
-    "inception": 1879,
-    "classes": ["fort"]
-  },
-  {
-    "key": "pleiades:187479",
-    "qid": "Q29784325",
-    "label": "Haus Unterkilchen, Mollis",
-    "inception": 1750,
-    "classes": ["architectural structure", "house", "farm building"]
-  },
-  {
-    "key": "pleiades:426587",
-    "qid": "Q2100416",
-    "label": "Garibaldi Bridge",
-    "inception": 1884,
-    "classes": ["bridge"]
-  },
-  {
-    "key": "pleiades:263142830",
-    "qid": "Q1369444",
-    "label": "Achaia Clauss",
-    "inception": 1861,
-    "classes": ["winery"]
-  },
-  {
-    "key": "religion:rel-137",
-    "qid": "Q55182433",
-    "label": "Church of San Domenico (Ravenna)",
-    "inception": 1650,
-    "classes": ["church building"]
-  },
-  {
-    "key": "religion:20563",
-    "qid": "Q30963018",
-    "label": "Church of the Assumption of Mary in Odry",
-    "inception": 1932,
-    "classes": ["church building"]
-  },
-  {
-    "key": "mine:mine-serbia-lead",
-    "qid": "Q97119772",
-    "label": "Rudnik (rudnik)",
-    "inception": 1953,
-    "classes": ["mine", "underground hard rock mining", "lead mine"]
-  },
-  {
-    "key": "mine:mine-rudnik-silver",
-    "qid": "Q97119772",
-    "label": "Rudnik (rudnik)",
-    "inception": 1953,
-    "classes": ["mine", "underground hard rock mining", "lead mine"]
-  },
-  {
-    "key": "shipwreck:sw-065",
-    "qid": "Q19378",
-    "label": "Giannutri",
-    "inception": 1883,
-    "classes": ["island"]
-  },
-  {
-    "key": "religion:246306",
-    "qid": "Q87817731",
-    "label": "Sant Simeó de Castellnou de Bassella",
-    "inception": 1800,
-    "classes": ["church building"]
-  },
-  {
-    "key": "port:apa-port-at-51-59-3-79-315",
-    "qid": "Q7231235",
-    "label": "Port of Port Talbot",
-    "inception": 1837,
-    "classes": ["port"]
-  },
-  {
-    "key": "port:apa-rusubbicari-matidiae-port-des-poules-por-5857",
-    "qid": "Q2177398",
-    "label": "Rusubbicari",
-    "inception": 1933,
-    "classes": ["titular see"]
-  },
-  {
-    "key": "port:apa-sebastos-caesarea-palaestinae-flavia-col-4794",
-    "qid": "Q1615560",
-    "label": "Caesarea",
-    "inception": 1977,
-    "classes": ["human settlement", "city"]
-  },
-  {
-    "key": "pleiades:423126",
-    "qid": "Q17640469",
-    "label": "Villa Lubin",
-    "inception": 1908,
-    "classes": ["building"]
-  },
-  {
-    "key": "pleiades:79286",
-    "qid": "Q131528547",
-    "label": "Ailsworth Medical Centre",
-    "inception": 1989,
-    "classes": ["doctor's office", "medical organization"]
-  },
-  {
-    "key": "pleiades:738128724",
-    "qid": "Q1833911",
-    "label": "Magliana",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "pleiades:422873",
-    "qid": "Q3862925",
-    "label": "Morena",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "pleiades:960638411",
-    "qid": "Q38252188",
-    "label": "Malabadi Bridge",
-    "inception": 1955,
-    "classes": ["bridge"]
-  },
-  {
-    "key": "pleiades:169133",
-    "qid": "Q3397141",
-    "label": "Pont de Savoie",
-    "inception": 1949,
-    "classes": ["bridge", "arch bridge", "deck arch bridge"]
-  },
-  {
-    "key": "pleiades:329320003",
-    "qid": "Q17651437",
-    "label": "Bridge over the Basento river",
-    "inception": 1975,
-    "classes": ["bridge"]
-  },
-  {
-    "key": "pleiades:426604",
-    "qid": "Q3532471",
-    "label": "Torrenova",
-    "inception": 1961,
-    "classes": ["zone of rome"]
-  },
-  {
-    "key": "pleiades:385067",
-    "qid": "Q106084132",
-    "label": "Ponte Enza",
-    "inception": 1950,
-    "classes": ["bridge"]
-  },
-  {
-    "key": "pleiades:256517",
-    "qid": "Q134561899",
-    "label": null,
-    "inception": 1600,
-    "classes": ["church building", "cultural heritage"]
-  },
-  {
-    "key": "pleiades:505226457",
-    "qid": "Q3661395",
-    "label": "Casal Bertone",
-    "inception": 1977,
-    "classes": ["urban zone of rome"]
-  },
-  {
-    "key": "pleiades:109262400",
-    "qid": "Q3015231",
-    "label": "Myskhako",
-    "inception": 1903,
-    "classes": ["village"]
-  },
-  {
-    "key": "building:pleiades-216773",
-    "qid": "Q12111541",
-    "label": "Cochirleni",
-    "inception": 1828,
-    "classes": ["village"]
-  },
-  {
-    "key": "mine:mine-flintshire-lead",
-    "qid": "Q505610",
-    "label": "Flintshire",
-    "inception": 1996,
-    "classes": ["principal area"]
-  },
-  {
-    "key": "mine:207033",
-    "qid": "Q872920",
-    "label": "Ciclova Română",
-    "inception": 1828,
-    "classes": ["village", "seat of the local council"]
-  },
-  {
-    "key": "port:apa-port-at-24-81-54-70-5172",
-    "qid": "Q15236040",
-    "label": "Khalifa Port",
-    "inception": 2012,
-    "classes": ["port"]
-  },
-  {
-    "key": "press:press-132",
-    "qid": "Q3816471",
-    "label": "Casa de la Festa Major de Vilafranca del Penedès",
-    "inception": 1911,
-    "classes": ["building"]
-  },
-  {
-    "key": "religion:216828",
-    "qid": "Q12098469",
-    "label": "Gura Dobrogei",
-    "inception": 1900,
-    "classes": ["village"]
-  },
-  {
-    "key": "shipwreck:sw-130",
-    "qid": "Q55230017",
-    "label": "Isola delle Correnti Lighthouse",
-    "inception": 1865,
-    "classes": ["lighthouse"]
-  },
-  {
-    "key": "shipwreck:darmc-wreck-438",
-    "qid": "Q24181358",
-    "label": "Mersea Fort",
-    "inception": 1543,
-    "classes": ["fort"]
-  },
-  {
-    "key": "shipwreck:darmc-wreck-571",
-    "qid": "Q15786020",
-    "label": "Porto Ercole lighthouse",
-    "inception": 1862,
-    "classes": ["lighthouse"]
-  },
-  {
-    "key": "shipwreck:darmc-wreck-617",
-    "qid": "Q762981",
-    "label": "Punta Secca",
-    "inception": 1859,
-    "classes": ["frazione"]
-  },
-  {
-    "key": "shipwreck:darmc-wreck-885",
-    "qid": "Q497357",
-    "label": "Levanzo",
-    "inception": 1858,
-    "classes": ["island"]
-  },
-  {
-    "key": "shipwreck:darmc-wreck-888",
-    "qid": "Q1882183",
-    "label": "Ma'agan Michael",
-    "inception": 1949,
-    "classes": ["kibbutz"]
-  },
-  {
-    "key": "port:apa-port-at-43-52-7-03-1221",
-    "qid": "Q28040064",
-    "label": "Port Pierre-Canto",
-    "inception": 1965,
-    "classes": ["port"]
-  },
-  {
-    "key": "port:apa-port-at-49-67-1-84-969",
-    "qid": "Q49388527",
-    "label": "Port Racine",
-    "inception": 1870,
-    "classes": ["port"]
-  }
+ {
+  "key": "building:863760",
+  "qid": "Q653420",
+  "label": "Bolnisi",
+  "inception": 1818,
+  "classes": [
+   "city"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:383782",
+  "qid": "Q3950103",
+  "label": "Santa Maria di Valverde sanctuary",
+  "inception": 1682,
+  "classes": [
+   "church building",
+   "sanctuary"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:625199888",
+  "qid": "Q1634605",
+  "label": "Santa Maria dell'Orto",
+  "inception": 1567,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:267702570",
+  "qid": "Q1586946",
+  "label": "Basilica of Saints John and Paul on the Caelian Hill",
+  "inception": 1951,
+  "classes": [
+   "minor basilica",
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:960638411",
+  "qid": "Q38252188",
+  "label": "Malabadi Bridge",
+  "inception": 1955,
+  "classes": [
+   "bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:206977",
+  "qid": "Q621513",
+  "label": "Borlova",
+  "inception": 1519,
+  "classes": [
+   "village"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:207339",
+  "qid": "Q627116",
+  "label": "Petnic",
+  "inception": 1603,
+  "classes": [
+   "village"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-093",
+  "qid": "Q7593494",
+  "label": "St James Garlickhythe, London",
+  "inception": 1674,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-129",
+  "qid": "Q2095195",
+  "label": "Santa Maria ai Monti",
+  "inception": 1580,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-132",
+  "qid": "Q2095195",
+  "label": "Santa Maria ai Monti",
+  "inception": 1580,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-208",
+  "qid": "Q28802717",
+  "label": "Church of Saint Irene of Athens",
+  "inception": 1847,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:233122845",
+  "qid": "Q3670620",
+  "label": null,
+  "inception": 1964,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:79546",
+  "qid": "Q2745532",
+  "label": "Kings Worthy",
+  "inception": 1953,
+  "classes": [
+   "village",
+   "civil parish"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:256409",
+  "qid": "Q1438934",
+  "label": "Fort of Sacavém",
+  "inception": 1892,
+  "classes": [
+   "fortress"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:349625130",
+  "qid": "Q2982741",
+  "label": "Collatino",
+  "inception": 1961,
+  "classes": [
+   "quartiere of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:426586",
+  "qid": "Q2100416",
+  "label": "Garibaldi Bridge",
+  "inception": 1884,
+  "classes": [
+   "bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:110239",
+  "qid": "Q14565908",
+  "label": "Mainz",
+  "inception": 1835,
+  "classes": [
+   "rural district"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-ad-salices-3574",
+  "qid": "Q859186",
+  "label": "Ceamurlia de Jos",
+  "inception": 1900,
+  "classes": [
+   "village",
+   "seat of the local council"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-port-at-41-87-12-47-1491",
+  "qid": "Q1751443",
+  "label": "Testaccio",
+  "inception": 1921,
+  "classes": [
+   "rione of rome",
+   "neighborhood"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-port-of-burgatha-port-of-archaic-zrar-4798",
+  "qid": "Q16131638",
+  "label": "Givat Olga",
+  "inception": 1949,
+  "classes": [
+   "neighborhood"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-theodosia-theodosie-caffa-arta-3707",
+  "qid": "Q4482815",
+  "label": "Port of Feodosia",
+  "inception": 1892,
+  "classes": [
+   "port"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religious:pleiades-76960231",
+  "qid": "Q3669840",
+  "label": "San Damaso",
+  "inception": 1969,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:pleiades-85815300",
+  "qid": "Q3668671",
+  "label": "Santissimo Sacramento a Tor de' Schiavi",
+  "inception": 1966,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:422968",
+  "qid": "Q3277019",
+  "label": "Magliana Vecchia",
+  "inception": 1961,
+  "classes": [
+   "zone of rome",
+   "neighborhood"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:423010",
+  "qid": "Q3907988",
+  "label": "Ponte Mammolo",
+  "inception": 1871,
+  "classes": [
+   "stone bridge",
+   "arch bridge",
+   "road bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:167891",
+  "qid": "Q1107474",
+  "label": "Saint-Alban-les-Eaux",
+  "inception": 1866,
+  "classes": [
+   "commune of france"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:187384",
+  "qid": "Q680236",
+  "label": "Forggensee",
+  "inception": 1950,
+  "classes": [
+   "reservoir"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:187384",
+  "qid": "Q680236",
+  "label": "Forggensee",
+  "inception": 1950,
+  "classes": [
+   "reservoir"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:187632",
+  "qid": "Q64890",
+  "label": "Zillis-Reischen",
+  "inception": 1875,
+  "classes": [
+   "municipality of switzerland"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:422926",
+  "qid": "Q3926574",
+  "label": "Quadraro",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:507301472",
+  "qid": "Q1114050",
+  "label": "Ostiense",
+  "inception": 1921,
+  "classes": [
+   "quartiere of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:177596",
+  "qid": "Q113087045",
+  "label": null,
+  "inception": 1965,
+  "classes": [
+   "pipe organ"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:423088",
+  "qid": "Q3493502",
+  "label": "Spinaceto",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:423089",
+  "qid": "Q3993559",
+  "label": "Tormarancia",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:383782",
+  "qid": "Q3950103",
+  "label": "Santa Maria di Valverde sanctuary",
+  "inception": 1682,
+  "classes": [
+   "church building",
+   "sanctuary"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religious:pleiades-267702570",
+  "qid": "Q1586946",
+  "label": "Basilica of Saints John and Paul on the Caelian Hill",
+  "inception": 1951,
+  "classes": [
+   "minor basilica",
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religious:pleiades-770702013",
+  "qid": "Q1081921",
+  "label": "Church of Domine Quo Vadis",
+  "inception": 1637,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:sw-046",
+  "qid": "Q2777560",
+  "label": "Dor",
+  "inception": 1949,
+  "classes": [
+   "moshav"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:darmc-wreck-899",
+  "qid": "Q16324232",
+  "label": "Nydam Tveir",
+  "inception": 2013,
+  "classes": [
+   "wooden boat",
+   "ship replica"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-125",
+  "qid": "Q118955710",
+  "label": "Hagia Sophia History and Experience Museum",
+  "inception": 1910,
+  "classes": [
+   "architectural structure"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-130",
+  "qid": "Q541703",
+  "label": "San Lorenzo",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:187479",
+  "qid": "Q29784325",
+  "label": "Haus Unterkilchen, Mollis",
+  "inception": 1750,
+  "classes": [
+   "architectural structure",
+   "house",
+   "farm building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:601235773",
+  "qid": "Q5472163",
+  "label": "Fort Tas-Silġ",
+  "inception": 1879,
+  "classes": [
+   "fort"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religious:pleiades-778154279",
+  "qid": "Q1088101",
+  "label": "Santi Gioacchino e Anna ai Monti",
+  "inception": 1589,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religious:pleiades-883684762",
+  "qid": "Q3669566",
+  "label": "San Bartolomeo dei Vaccinari",
+  "inception": 1723,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "mine:pleiades-82297",
+  "qid": "Q18708775",
+  "label": "Parys Mountain Windmill",
+  "inception": 1878,
+  "classes": [
+   "windmill"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "press:press-224",
+  "qid": "Q975999",
+  "label": "Gezer",
+  "inception": 1945,
+  "classes": [
+   "kibbutz"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:888638050",
+  "qid": "Q119583432",
+  "label": "House of the excavation, Dura-Europos",
+  "inception": 1929,
+  "classes": [
+   "building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:pleiades-98925",
+  "qid": "Q827398",
+  "label": "Botanischer Garten Bielefeld",
+  "inception": 1910,
+  "classes": [
+   "botanical garden"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:167714",
+  "qid": "Q125991252",
+  "label": null,
+  "inception": 1974,
+  "classes": [
+   "educational facility"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:177561",
+  "qid": "Q130247708",
+  "label": "Kunsthalle Palazzo Liestal",
+  "inception": 1990,
+  "classes": [
+   "artist-run initiative"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:256030",
+  "qid": "Q5734325",
+  "label": "Brovales",
+  "inception": 1958,
+  "classes": [
+   "single entity of population"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:422895",
+  "qid": "Q728399",
+  "label": "Cinecittà",
+  "inception": 1937,
+  "classes": [
+   "film studio"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:601235773",
+  "qid": "Q5472163",
+  "label": "Fort Tas-Silġ",
+  "inception": 1879,
+  "classes": [
+   "fort"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:187479",
+  "qid": "Q29784325",
+  "label": "Haus Unterkilchen, Mollis",
+  "inception": 1750,
+  "classes": [
+   "architectural structure",
+   "house",
+   "farm building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:426587",
+  "qid": "Q2100416",
+  "label": "Garibaldi Bridge",
+  "inception": 1884,
+  "classes": [
+   "bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:263142830",
+  "qid": "Q1369444",
+  "label": "Achaia Clauss",
+  "inception": 1861,
+  "classes": [
+   "winery"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:rel-137",
+  "qid": "Q55182433",
+  "label": "Church of San Domenico (Ravenna)",
+  "inception": 1650,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:20563",
+  "qid": "Q30963018",
+  "label": "Church of the Assumption of Mary in Odry",
+  "inception": 1932,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "mine:mine-serbia-lead",
+  "qid": "Q97119772",
+  "label": "Rudnik (rudnik)",
+  "inception": 1953,
+  "classes": [
+   "mine",
+   "underground hard rock mining",
+   "lead mine"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "mine:mine-rudnik-silver",
+  "qid": "Q97119772",
+  "label": "Rudnik (rudnik)",
+  "inception": 1953,
+  "classes": [
+   "mine",
+   "underground hard rock mining",
+   "lead mine"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:sw-065",
+  "qid": "Q19378",
+  "label": "Giannutri",
+  "inception": 1883,
+  "classes": [
+   "island"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:246306",
+  "qid": "Q87817731",
+  "label": "Sant Simeó de Castellnou de Bassella",
+  "inception": 1800,
+  "classes": [
+   "church building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-port-at-51-59-3-79-315",
+  "qid": "Q7231235",
+  "label": "Port of Port Talbot",
+  "inception": 1837,
+  "classes": [
+   "port"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-rusubbicari-matidiae-port-des-poules-por-5857",
+  "qid": "Q2177398",
+  "label": "Rusubbicari",
+  "inception": 1933,
+  "classes": [
+   "titular see"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-sebastos-caesarea-palaestinae-flavia-col-4794",
+  "qid": "Q1615560",
+  "label": "Caesarea",
+  "inception": 1977,
+  "classes": [
+   "human settlement",
+   "city"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:423126",
+  "qid": "Q17640469",
+  "label": "Villa Lubin",
+  "inception": 1908,
+  "classes": [
+   "building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:79286",
+  "qid": "Q131528547",
+  "label": "Ailsworth Medical Centre",
+  "inception": 1989,
+  "classes": [
+   "doctor's office",
+   "medical organization"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:738128724",
+  "qid": "Q1833911",
+  "label": "Magliana",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:422873",
+  "qid": "Q3862925",
+  "label": "Morena",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:960638411",
+  "qid": "Q38252188",
+  "label": "Malabadi Bridge",
+  "inception": 1955,
+  "classes": [
+   "bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:169133",
+  "qid": "Q3397141",
+  "label": "Pont de Savoie",
+  "inception": 1949,
+  "classes": [
+   "bridge",
+   "arch bridge",
+   "deck arch bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:329320003",
+  "qid": "Q17651437",
+  "label": "Bridge over the Basento river",
+  "inception": 1975,
+  "classes": [
+   "bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:426604",
+  "qid": "Q3532471",
+  "label": "Torrenova",
+  "inception": 1961,
+  "classes": [
+   "zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:385067",
+  "qid": "Q106084132",
+  "label": "Ponte Enza",
+  "inception": 1950,
+  "classes": [
+   "bridge"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:256517",
+  "qid": "Q134561899",
+  "label": null,
+  "inception": 1600,
+  "classes": [
+   "church building",
+   "cultural heritage"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:505226457",
+  "qid": "Q3661395",
+  "label": "Casal Bertone",
+  "inception": 1977,
+  "classes": [
+   "urban zone of rome"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "pleiades:109262400",
+  "qid": "Q3015231",
+  "label": "Myskhako",
+  "inception": 1903,
+  "classes": [
+   "village"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "building:pleiades-216773",
+  "qid": "Q12111541",
+  "label": "Cochirleni",
+  "inception": 1828,
+  "classes": [
+   "village"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "mine:207033",
+  "qid": "Q872920",
+  "label": "Ciclova Română",
+  "inception": 1828,
+  "classes": [
+   "village",
+   "seat of the local council"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-port-at-24-81-54-70-5172",
+  "qid": "Q15236040",
+  "label": "Khalifa Port",
+  "inception": 2012,
+  "classes": [
+   "port"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "press:press-132",
+  "qid": "Q3816471",
+  "label": "Casa de la Festa Major de Vilafranca del Penedès",
+  "inception": 1911,
+  "classes": [
+   "building"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "religion:216828",
+  "qid": "Q12098469",
+  "label": "Gura Dobrogei",
+  "inception": 1900,
+  "classes": [
+   "village"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:sw-130",
+  "qid": "Q55230017",
+  "label": "Isola delle Correnti Lighthouse",
+  "inception": 1865,
+  "classes": [
+   "lighthouse"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:darmc-wreck-438",
+  "qid": "Q24181358",
+  "label": "Mersea Fort",
+  "inception": 1543,
+  "classes": [
+   "fort"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:darmc-wreck-571",
+  "qid": "Q15786020",
+  "label": "Porto Ercole lighthouse",
+  "inception": 1862,
+  "classes": [
+   "lighthouse"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:darmc-wreck-617",
+  "qid": "Q762981",
+  "label": "Punta Secca",
+  "inception": 1859,
+  "classes": [
+   "frazione"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:darmc-wreck-885",
+  "qid": "Q497357",
+  "label": "Levanzo",
+  "inception": 1858,
+  "classes": [
+   "island"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "shipwreck:darmc-wreck-888",
+  "qid": "Q1882183",
+  "label": "Ma'agan Michael",
+  "inception": 1949,
+  "classes": [
+   "kibbutz"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-port-at-43-52-7-03-1221",
+  "qid": "Q28040064",
+  "label": "Port Pierre-Canto",
+  "inception": 1965,
+  "classes": [
+   "port"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ },
+ {
+  "key": "port:apa-port-at-49-67-1-84-969",
+  "qid": "Q49388527",
+  "label": "Port Racine",
+  "inception": 1870,
+  "classes": [
+   "port"
+  ],
+  "resolution": "kept — continuous entity, P571 is a rebuild/registration artifact"
+ }
 ]

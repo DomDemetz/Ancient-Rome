@@ -11,6 +11,10 @@ Output: src/data/registry/pleiades-wikidata.json  (only rows matching a place
 we actually have), plus match statistics on stdout. Idempotent. CC0 source.
 """
 import json, os, urllib.request, urllib.parse
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 QUERY = """
 SELECT ?item ?pid ?itemLabel ?coord WHERE {
@@ -40,6 +44,6 @@ print(f"Our Pleiades places: {len(our_ids)}  ->  with a Wikidata QID: {len(match
 
 out = os.path.join(BASE, "registry", "pleiades-wikidata.json")
 os.makedirs(os.path.dirname(out), exist_ok=True)
-json.dump(matched, open(out, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+dump_atomic(matched, out, ensure_ascii=False, indent=1, sort_keys=True)
 open(out, "a").write("\n")
 print(f"wrote {os.path.relpath(out)} ({os.path.getsize(out)//1024} KB)")

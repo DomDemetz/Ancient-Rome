@@ -4,7 +4,8 @@
  *
  * Usage: npx tsx scripts/enrich-discovery-images.ts
  */
-import { readFile, writeFile } from 'fs/promises'
+import { readFile } from 'fs/promises'
+import { writeJsonAtomic } from './lib/atomic-json.js'
 
 const CR_PATH = 'src/data/wiki/cross-reference.json'
 const UNIFIED_DIR = 'src/data/unified'
@@ -162,11 +163,11 @@ async function main() {
       )
 
       if (progress % 50 === 0 || progress === withQid.length) {
-        await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
+        await writeJsonAtomic(CR_PATH, crossRef, 2)
       }
     }
 
-    await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
+    await writeJsonAtomic(CR_PATH, crossRef, 2)
     console.log(`  Done: ${images} images, ${descs} descriptions, ${created} new entries`)
     totalImages += images
     totalDescs += descs

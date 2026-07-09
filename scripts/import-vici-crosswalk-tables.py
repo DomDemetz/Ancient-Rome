@@ -13,6 +13,10 @@ data was flattened.
 Requires /private/tmp/vici.sql.gz (from renevoorburg/vici.org, CC-BY-SA).
 """
 import gzip, json, os, re
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 DUMP = "/private/tmp/vici.sql.gz"
@@ -30,7 +34,7 @@ for line in gzip.open(DUMP, "rt", encoding="utf-8", errors="replace"):
 dare_ids = {str(s["id"]) for s in json.load(open(os.path.join(BASE, "dare", "settlements.json")))}
 native = {k: v for k, v in q_dare.items() if k in dare_ids}
 out = os.path.join(BASE, "registry", "dare-wikidata.json")
-json.dump(native, open(out, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+dump_atomic(native, out, ensure_ascii=False, indent=1, sort_keys=True)
 open(out, "a").write("\n")
 print(f"dare-wikidata.json: {len(native)} native DARE→QID links (of {len(q_dare)} in dump)")
 
@@ -42,7 +46,7 @@ for pid, qid in q_pl.items():
     if pid not in bridge:
         bridge[pid] = {"qid": qid, "label": "", "via": "vici-q_pleiades"}
         added += 1
-json.dump(bridge, open(bpath, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+dump_atomic(bridge, bpath, ensure_ascii=False, indent=1, sort_keys=True)
 open(bpath, "a").write("\n")
 print(f"bridge: +{added} QIDs from vici's q_pleiades -> {len(bridge)} total")
 

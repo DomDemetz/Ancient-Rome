@@ -12,6 +12,10 @@ refactor holds that file (see board).
 """
 import json, os
 from collections import defaultdict
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 sites = json.load(open(os.path.join(BASE, "vici-sites.json")))
@@ -32,7 +36,7 @@ index = {}
 for t, recs in sorted(by_type.items()):
     fname = f"{t}.json"
     p = os.path.join(out_dir, fname)
-    json.dump(recs, open(p, "w"), ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(recs, p, ensure_ascii=False, separators=(",", ":"))
     open(p, "a").write("\n")
     index[t] = {"file": fname, "count": len(recs), "kb": os.path.getsize(p) // 1024}
     print(f"  vici/{fname:20} {len(recs):6} sites  {os.path.getsize(p)//1024:5} KB")

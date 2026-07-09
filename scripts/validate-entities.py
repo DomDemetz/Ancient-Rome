@@ -20,6 +20,10 @@ import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
@@ -251,7 +255,7 @@ def main():
     baseline_path = Path(__file__).resolve().parent / "validation-baseline.json"
 
     if "--update-baseline" in sys.argv:
-        json.dump(dict(rep.counts), open(baseline_path, "w"), indent=1, sort_keys=True)
+        dump_atomic(dict(rep.counts), baseline_path, indent=1, sort_keys=True)
         print(f"baseline updated -> {baseline_path}")
         sys.exit(0)
 

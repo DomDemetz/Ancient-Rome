@@ -5,6 +5,10 @@ into battles-wiki.json via their crosswalk QIDs — same schema, same pipeline.
 Idempotent.
 """
 import json, os, time, urllib.error, urllib.request, urllib.parse
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 UA = {"User-Agent": "AncientRomeAtlas/1.0 (open-source history atlas)"}
@@ -57,6 +61,6 @@ for i in range(0, len(todo), 50):
             failed += 1
     time.sleep(2)
 
-json.dump(wiki, open(wpath, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+dump_atomic(wiki, wpath, ensure_ascii=False, indent=1, sort_keys=True)
 open(wpath, "a").write("\n")
 print(f"battles-wiki.json: +{added} entries (failed {failed}) -> {len(wiki)} total")

@@ -6,6 +6,10 @@ license, version/date, producing script, record count, size, sha256 (first
 runs as the last build-data step so the manifest can never drift.
 """
 import glob, hashlib, json, os
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..")
 D = os.path.join(BASE, "src", "data")
@@ -64,7 +68,7 @@ for p in sorted(glob.glob(os.path.join(D, "unified", "*.json"))):
         "version": "build-time", "producer": "scripts/build-unified-entities.ts",
     })
 out = os.path.join(BASE, "DATA-MANIFEST.json")
-json.dump(manifest, open(out, "w"), ensure_ascii=False, indent=1)
+dump_atomic(manifest, out, ensure_ascii=False, indent=1)
 
 # landing-page stats, DERIVED — the hardcoded ribbon went stale three
 # times in one day as the datasets moved
@@ -81,7 +85,7 @@ stats = {
     "emperors": _n("registry/emperors-search.json"),
 }
 sp = os.path.join(D, "registry", "landing-stats.json")
-json.dump(stats, open(sp, "w"), separators=(",", ":"))
+dump_atomic(stats, sp, separators=(",", ":"))
 open(sp, "a").write("\n")
 print("landing-stats.json:", stats)
 open(out, "a").write("\n")

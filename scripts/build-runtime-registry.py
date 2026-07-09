@@ -6,6 +6,10 @@ place nodes — scripts/build-entities.py — which merge rather than patch.)
 """
 import json, os
 from collections import defaultdict
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 R = os.path.join(BASE, "registry")
@@ -40,7 +44,7 @@ for c in cities.values():
         "p": peak_year,
     })
 p3 = os.path.join(R, "cities-search.json")
-json.dump(search, open(p3, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(search, p3, ensure_ascii=False, separators=(",", ":"))
 open(p3, "a").write("\n")
 print(f"cities-search.json: {len(search)} cities ({os.path.getsize(p3)//1024} KB)")
 
@@ -56,7 +60,7 @@ emp = [{
     "d": e.get("dynasty") or "",
 } for e in emperors]
 p4 = os.path.join(R, "emperors-search.json")
-json.dump(emp, open(p4, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(emp, p4, ensure_ascii=False, separators=(",", ":"))
 open(p4, "a").write("\n")
 print(f"emperors-search.json: {len(emp)} emperors ({os.path.getsize(p4)//1024} KB)")
 
@@ -66,7 +70,7 @@ bat = [{
     "lat": b["lat"], "lng": b["lng"],
 } for b in battles]
 p5 = os.path.join(R, "battles-search.json")
-json.dump(bat, open(p5, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(bat, p5, ensure_ascii=False, separators=(",", ":"))
 open(p5, "a").write("\n")
 print(f"battles-search.json: {len(bat)} battles ({os.path.getsize(p5)//1024} KB)")
 
@@ -96,7 +100,7 @@ for name, b in by_name.items():
         "p": min(max((best["from"] + best["to"]) // 2, -753), 1453),
     })
 p6 = os.path.join(R, "empires-search.json")
-json.dump(emp_search, open(p6, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(emp_search, p6, ensure_ascii=False, separators=(",", ":"))
 open(p6, "a").write("\n")
 print(f"empires-search.json: {len(emp_search)} polities ({os.path.getsize(p6)//1024} KB)")
 
@@ -112,7 +116,7 @@ if os.path.exists(people_path):
         "r": p.get("role", ""),
     } for p in people]
     p7 = os.path.join(R, "people-search.json")
-    json.dump(ppl, open(p7, "w"), ensure_ascii=False, separators=(",", ":"))
+    dump_atomic(ppl, p7, ensure_ascii=False, separators=(",", ":"))
     open(p7, "a").write("\n")
     print(f"people-search.json: {len(ppl)} people ({os.path.getsize(p7)//1024} KB)")
 
@@ -141,6 +145,6 @@ for fname, short in source_types:
     for e in data:
         bsearch.append({"id": e["id"], "n": e["name"], "lat": e["lat"], "lng": e["lng"], "t": short})
 p8 = os.path.join(R, "buildings-search.json")
-json.dump(bsearch, open(p8, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(bsearch, p8, ensure_ascii=False, separators=(",", ":"))
 open(p8, "a").write("\n")
 print(f"buildings-search.json: {len(bsearch)} sites ({os.path.getsize(p8)//1024} KB)")

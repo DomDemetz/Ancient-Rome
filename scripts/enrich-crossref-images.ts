@@ -8,7 +8,8 @@
  * Usage: npx tsx scripts/enrich-crossref-images.ts
  */
 
-import { readFile, writeFile } from 'fs/promises'
+import { readFile } from 'fs/promises'
+import { writeJsonAtomic } from './lib/atomic-json.js'
 
 const CR_PATH = 'src/data/wiki/cross-reference.json'
 const PLACES_PATH = 'src/data/places/places.json'
@@ -145,7 +146,7 @@ async function main() {
 
       // Save incrementally every 50 batches
       if (batchNum % 50 === 0) {
-        await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
+        await writeJsonAtomic(CR_PATH, crossRef, 2)
         console.log(`  (saved)`)
       }
 
@@ -154,14 +155,14 @@ async function main() {
     } catch (err) {
       console.error(`Batch ${batchNum} failed:`, err)
       // Save what we have
-      await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
+      await writeJsonAtomic(CR_PATH, crossRef, 2)
       console.log(`  (saved after error)`)
       await new Promise((r) => setTimeout(r, 5000))
     }
   }
 
   // Final save
-  await writeFile(CR_PATH, JSON.stringify(crossRef, null, 2) + '\n')
+  await writeJsonAtomic(CR_PATH, crossRef, 2)
 
   // Count results
   const entriesWithImage = Object.values(crossRef).filter((e) => e.imageUrl).length

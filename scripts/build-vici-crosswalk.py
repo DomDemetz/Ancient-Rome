@@ -8,6 +8,10 @@ This is curated truth from vici.org itself; no fuzzy matching involved.
 Requires /private/tmp/vici.sql.gz. Idempotent.
 """
 import gzip, json, os, re
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 DUMP = "/private/tmp/vici.sql.gz"
@@ -73,7 +77,7 @@ for line in gzip.open(DUMP, "rt", encoding="utf-8", errors="replace"):
             out[vid] = entry
 
 path = os.path.join(BASE, "registry", "crosswalk-vici.json")
-json.dump(out, open(path, "w"), separators=(",", ":"), sort_keys=True)
+dump_atomic(out, path, separators=(",", ":"), sort_keys=True)
 open(path, "a").write("\n")
 print(f"crosswalk-vici.json: {len(out)} vici points with native identity "
       f"(pleiades {stats['pleiades']}, dare {stats['dare']}, wikidata {stats['qid']}) "

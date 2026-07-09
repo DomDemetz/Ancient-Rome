@@ -13,6 +13,10 @@ Source: github.com/Seshat-Global-History-Databank/cliopatria (v0.2.0)
 Output: src/data/empires/empires.json
 """
 import json, os, re
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
+from atomic_json import dump_atomic
+
 
 SRC = "/private/tmp/cliopatria_polities_only.geojson"
 OUT = os.path.join(os.path.dirname(__file__), "..", "src", "data", "empires", "empires.json")
@@ -107,7 +111,7 @@ def area(r):
 out.sort(key=lambda r: -len(json.dumps(r["geometry"])))
 
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
-json.dump(out, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
+dump_atomic(out, OUT, ensure_ascii=False, separators=(",", ":"))
 open(OUT, "a").write("\n")
 names = {r["name"] for r in out}
 qids = sum(1 for r in out if "qid" in r)
