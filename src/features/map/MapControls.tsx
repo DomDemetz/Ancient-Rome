@@ -13,9 +13,13 @@ import {
   MapPin,
   Plus,
   Minus,
+  Share2,
+  Check,
 } from 'lucide-react'
 import type { Map as LeafletMap } from 'leaflet'
-import { useMapLayerStore, PRESETS, LAYER_GROUPS } from '@/stores/useMapLayerStore'
+import { useMapLayerStore, PRESETS, LAYER_GROUPS, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
+import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapNavStore } from '@/stores/useMapNavStore'
 import type { PresetName } from '@/stores/useMapLayerStore'
 import { DARE_TYPE_LABELS, CATEGORY_STYLES, DARE_TYPE_TO_CATEGORY } from './layers/settlementStyles'
 import { useUIStore } from '@/stores/useUIStore'
@@ -235,6 +239,78 @@ function LayerPanelContent({
         )
       })}
     </div>
+  )
+}
+
+/** Copies a link that reproduces the current scene — B's shared-link
+ *  reader (?year&lat&lng&z&layers=&ds=) finally gets a visible writer. */
+function ShareButton({ isMobile }: { isMobile: boolean }) {
+  const [copied, setCopied] = useState(false)
+
+  const share = useCallback(async () => {
+    const state = useMapLayerStore.getState()
+    const year = Math.round(useTimelineStore.getState().currentYear)
+    const view = useMapNavStore.getState().mapView
+    const params = new URLSearchParams()
+    params.set('year', String(year))
+    if (view) {
+      params.set('lat', view.lat.toFixed(3))
+      params.set('lng', view.lng.toFixed(3))
+      params.set('z', String(view.zoom))
+    }
+    const layers = ALL_LAYER_KEYS.filter(
+      (k) => (state as unknown as Record<string, unknown>)[k] === true,
+    ).map((k) => {
+      const bare = k.slice(4)
+      return bare.charAt(0).toLowerCase() + bare.slice(1)
+    })
+    if (layers.length) params.set('layers', layers.join(','))
+    const ds = Object.entries(state.datasetState)
+      .filter(([, v]) => v?.show)
+      .map(([id]) => id)
+    if (ds.length) params.set('ds', ds.join(','))
+    const url = `${location.origin}${location.pathname}?${params.toString()}`
+    try {
+      await navigator.clipboard.writeText(url)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      /* clipboard unavailable — the URL bar still reflects year via ?year */
+    }
+  }, [])
+
+  return (
+    <button
+      onClick={share}
+      className={cn(
+        'group flex items-center justify-center rounded-xl backdrop-blur-md border transition-all duration-200',
+        isMobile
+          ? 'size-10 shadow-[0_2px_12px_rgba(0,0,0,0.5)]'
+          : 'gap-2 px-3 py-2.5 shadow-[0_4px_24px_rgba(0,0,0,0.5)]',
+        copied
+          ? 'bg-amber-500/15 border-amber-500/25 text-amber-400'
+          : 'bg-[#0a0a0c]/85 border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.12] active:text-amber-400',
+      )}
+      aria-label={copied ? 'Link copied' : 'Share this view'}
+    >
+      {copied ? (
+        <Check className={isMobile ? 'size-[18px]' : 'size-4'} />
+      ) : (
+        <Share2 className={isMobile ? 'size-[18px]' : 'size-4'} />
+      )}
+      {!isMobile && (
+        <span
+          className={cn(
+            'text-[10px] font-bold uppercase tracking-[0.1em] transition-all duration-200',
+            copied
+              ? 'opacity-100'
+              : 'opacity-0 w-0 overflow-hidden group-hover:opacity-100 group-hover:w-auto',
+          )}
+        >
+          {copied ? 'Copied' : 'Share'}
+        </span>
+      )}
+    </button>
   )
 }
 
@@ -507,6 +583,9 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
             </span>
           )}
         </button>
+        <div className="mt-2 flex justify-end">
+          <ShareButton isMobile={isMobile} />
+        </div>
       </div>
 
       {/* Custom zoom controls — shift left when panel is open */}
