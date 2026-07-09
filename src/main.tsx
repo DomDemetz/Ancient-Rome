@@ -9,6 +9,10 @@ import './index.css'
 // load shipwrecks layer"). On the first such failure, reload once to pick up
 // the current build; the flag stops a reload loop if the failure is real.
 window.addEventListener('vite:preloadError', (event) => {
+  // Offline is not a stale deploy: reloading without a network turns a
+  // failed layer toggle into a white-screened app. Let the layer-error
+  // toast handle it; the user keeps the map they already have.
+  if (!navigator.onLine) return
   // One auto-reload per minute — a second failure right after reloading
   // means the outage is real; fall through to the layer-error toast.
   const last = Number(sessionStorage.getItem('chunk-reload-at') ?? 0)
