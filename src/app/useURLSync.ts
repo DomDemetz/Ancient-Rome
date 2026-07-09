@@ -82,31 +82,31 @@ export function useURLSync() {
         const { currentYear } = useTimelineStore.getState()
         const { lens, atlasMode: isAtlas, activeStoryId } = useUIStore.getState()
         const mapView = useMapNavStore.getState().mapView
-        setSearchParams(
-          (prev) => {
-            if (selectedId) prev.set('entity', selectedId)
-            else prev.delete('entity')
-            prev.set('year', String(currentYear))
-            if (activeStoryId) prev.set('story', activeStoryId)
-            else prev.delete('story')
-            if (!isAtlas) prev.set('lens', lens)
-            else prev.delete('lens')
-            if (mapView) {
-              prev.set('lat', mapView.lat.toFixed(2))
-              prev.set('lng', mapView.lng.toFixed(2))
-              prev.set('z', String(mapView.zoom))
-            }
-            // the layer set IS the scene — carry it so shared links replay it
-            const layers = layersToParam()
-            if (layers) prev.set('layers', layers)
-            else prev.delete('layers')
-            const ds = datasetsToParam()
-            if (ds) prev.set('ds', ds)
-            else prev.delete('ds')
-            return prev
-          },
-          { replace: true },
-        )
+        // NEVER write an unchanged URL. The layer-store subscription fires on
+        // every data load, and identical replaceState churn trips Safari's
+        // hard quota (~100/30s) — the thrown SecurityError put the whole app
+        // in an error-remount loop on iPhones while Chrome showed nothing.
+        const next = new URLSearchParams(window.location.search)
+        if (selectedId) next.set('entity', selectedId)
+        else next.delete('entity')
+        next.set('year', String(currentYear))
+        if (activeStoryId) next.set('story', activeStoryId)
+        else next.delete('story')
+        if (!isAtlas) next.set('lens', lens)
+        else next.delete('lens')
+        if (mapView) {
+          next.set('lat', mapView.lat.toFixed(2))
+          next.set('lng', mapView.lng.toFixed(2))
+          next.set('z', String(mapView.zoom))
+        }
+        const layers = layersToParam()
+        if (layers) next.set('layers', layers)
+        else next.delete('layers')
+        const ds = datasetsToParam()
+        if (ds) next.set('ds', ds)
+        else next.delete('ds')
+        if (next.toString() === new URLSearchParams(window.location.search).toString()) return
+        setSearchParams(next, { replace: true })
       })
     }
 
@@ -114,8 +114,7 @@ export function useURLSync() {
       useSelectionStore.subscribe(scheduleSync),
       useUIStore.subscribe(scheduleSync),
       // layer toggles change the shareable scene; data loads also fire this
-      // subscription, but scheduleSync is rAF-batched and the write is a
-      // history.replace, so the churn costs one batched update per frame
+      // subscription, but the identical-URL guard above makes those no-ops
       useMapLayerStore.subscribe(scheduleSync),
       // Sync the year too, but not on every playback frame — only once the user
       // has stopped (or just paused), so the URL stays a shareable snapshot
