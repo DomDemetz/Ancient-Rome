@@ -459,9 +459,20 @@ export function SearchBar() {
     const ALIASES: Record<string, string> = {
       ceasar: 'caesar',
       cesar: 'caesar',
+      caeser: 'caesar',
       collosseum: 'colosseum',
       coliseum: 'colosseum',
+      coloseum: 'colosseum',
       constantinopel: 'constantinople',
+      constantinopole: 'constantinople',
+      byzantinium: 'byzantium',
+      karthago: 'carthage',
+      hadrians: "hadrian's",
+      trajans: "trajan's",
+      agustus: 'augustus',
+      jeruslem: 'jerusalem',
+      alexandira: 'alexandria',
+      antiochia: 'antioch',
     }
     const normalized = query
       .toLowerCase()
