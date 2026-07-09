@@ -10,6 +10,7 @@ import { ALL_LAYER_KEYS, useMapLayerStore, getPersistedLayers } from '@/stores/u
 import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
 import { SeaLabels } from './layers/SeaLabels'
+import { MonumentLabels } from './overlays/MonumentLabels'
 import { RoadLayer } from './layers/RoadLayer'
 import { PlacesLayer } from './layers/PlacesLayer'
 import { LimesLayer } from './layers/LimesLayer'
@@ -394,6 +395,9 @@ export function MapView() {
           {showEmpires && empiresData && <EmpiresLayer data={empiresData} />}
           {showTerritories && territories && <TerritoryLayer snapshots={territories} />}
           <SeaLabels />
+          {/* famous-site names at z>=10 — the overlay self-gates by zoom and
+              only labels types whose dot layer is actually on */}
+          <MonumentLabels />
 
           {/* Base layers — every record is date-bounded and self-filters (start/
               end or attested/decline years), so they render across the WHOLE

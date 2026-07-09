@@ -804,3 +804,25 @@ input[type='range']::-moz-range-thumb {
 .leaflet-control-attribution a {
   color: rgba(203, 170, 110, 0.7) !important;
 }
+
+/* famous-site names at detail zoom (MonumentLabels overlay) — quieter than
+   city names, below their dot. width:max-content: the divIcon wrapper is
+   0x0 and translateX(-50%) of a width-0 block is a no-op (the empire-label
+   lesson) */
+.monument-label-wrap {
+  background: transparent;
+  border: none;
+}
+.monument-label {
+  width: max-content;
+  transform: translate(-50%, 4px);
+  font-size: 9.5px;
+  font-weight: 500;
+  font-style: italic;
+  color: #cbbf9f;
+  opacity: 0.85;
+  letter-spacing: 0.03em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+  white-space: nowrap;
+}
