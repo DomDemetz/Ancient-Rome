@@ -2076,14 +2076,6 @@
     "a": "Siege of Alexandria"
   },
   {
-    "k": "aqueduct:aq-anio-novus",
-    "n": "Anio Novus",
-    "t": "aqueduct",
-    "la": 41.8902,
-    "lo": 12.4922,
-    "s": 52
-  },
-  {
     "k": "aqueduct:aq-antalya",
     "n": "Aqueduct of Attaleia",
     "t": "aqueduct",
@@ -2159,14 +2151,6 @@
     "la": 41.8902,
     "lo": 12.4922,
     "s": -2
-  },
-  {
-    "k": "aqueduct:aq-aqua-julia",
-    "n": "Aqua Julia",
-    "t": "aqueduct",
-    "la": 41.8902,
-    "lo": 12.4922,
-    "s": -33
   },
   {
     "k": "aqueduct:aq-argos",
@@ -14069,7 +14053,7 @@
     "la": 38.721,
     "lo": -9.3232,
     "st": "villa",
-    "s": -100,
+    "s": -200,
     "e": 500,
     "a": "Roman villa of Freiria"
   },
@@ -23351,7 +23335,8 @@
     "lo": 12.5571,
     "st": "aqueduct",
     "s": -300,
-    "e": 640
+    "e": 640,
+    "a": "Anio Novus"
   },
   {
     "k": "pleiades:423560",
@@ -23401,7 +23386,8 @@
     "lo": 12.625,
     "st": "aqueduct",
     "s": -83,
-    "e": 640
+    "e": 640,
+    "a": "Aqua Julia"
   },
   {
     "k": "pleiades:423565",
@@ -27548,17 +27534,6 @@
     "e": 640
   },
   {
-    "k": "pleiades:503005367",
-    "n": "Capitolium at Mactaris",
-    "t": "building",
-    "la": 35.8533,
-    "lo": 9.2054,
-    "st": "temple",
-    "s": -144,
-    "e": 400,
-    "a": "Mactaris"
-  },
-  {
     "k": "building:503058494",
     "n": "Friars Wash Roman Temple",
     "t": "building",
@@ -31040,7 +31015,7 @@
     "la": 35.2715,
     "lo": 25.176,
     "st": "bridge",
-    "s": -66,
+    "s": -100,
     "e": 1500,
     "a": "Knossos"
   },
@@ -31983,8 +31958,8 @@
     "la": 33.2684,
     "lo": 35.2097,
     "st": "circus",
-    "s": -30,
-    "e": 300
+    "s": -800,
+    "e": 476
   },
   {
     "k": "pleiades:610659128",
@@ -32794,14 +32769,14 @@
     "e": 640
   },
   {
-    "k": "pleiades:639497",
+    "k": "pleiades:640251",
     "n": "Aspendos aqueduct",
     "t": "building",
     "la": 36.9451,
     "lo": 31.1679,
     "st": "aqueduct",
     "s": -126,
-    "e": 500,
+    "e": 1500,
     "a": "Aspendos"
   },
   {
@@ -32846,17 +32821,6 @@
     "s": -30,
     "e": 500,
     "a": "Aksu Zindan Roman Bridge"
-  },
-  {
-    "k": "pleiades:640251",
-    "n": "Bridge at Aspendos",
-    "t": "building",
-    "la": 36.9143,
-    "lo": 31.163,
-    "st": "bridge",
-    "s": -126,
-    "e": 1500,
-    "a": "Aspendos"
   },
   {
     "k": "pleiades:640346165",
@@ -33556,17 +33520,6 @@
     "s": -77,
     "e": 1500,
     "a": "temple of Themis, Athens"
-  },
-  {
-    "k": "pleiades:659743014",
-    "n": "Passo Lombardo",
-    "t": "building",
-    "la": 41.8451,
-    "lo": 12.6477,
-    "st": "villa",
-    "s": -100,
-    "e": 500,
-    "a": "Passo Lombardo Roman villa"
   },
   {
     "k": "pleiades:659743015",
@@ -54389,17 +54342,6 @@
     "e": 50
   },
   {
-    "k": "mine:326920",
-    "n": "Unknown near Sufetula",
-    "t": "mine",
-    "la": 35.286,
-    "lo": 9.1423,
-    "st": "quarry",
-    "s": 50,
-    "e": 50,
-    "a": "Sufetula"
-  },
-  {
     "k": "mine:348812",
     "n": "Unknown W of Zliten",
     "t": "mine",
@@ -56180,8 +56122,8 @@
     "la": 51.5,
     "lo": 0.5,
     "st": "quarry",
-    "s": 50,
-    "e": 400,
+    "s": -300,
+    "e": 476,
     "a": "Mucking excavation"
   },
   {
@@ -71091,14 +71033,6 @@
     "lo": 14.4733,
     "s": -100,
     "e": 500
-  },
-  {
-    "k": "pleiades:635996570",
-    "n": "Market Hall at Aspendos",
-    "t": "building",
-    "la": 36.9398,
-    "lo": 31.1682,
-    "a": "Aspendos"
   },
   {
     "k": "pleiades:636076369",
@@ -87756,17 +87690,6 @@
     "st": "harbour",
     "s": -200,
     "e": 476
-  },
-  {
-    "k": "port:apa-fountains-of-solomon-probably-meant-in-t-4756",
-    "n": "Fountains of Solomon, probably meant in the Bible, Song of Songs, 4:15",
-    "t": "port",
-    "la": 33.2277,
-    "lo": 35.2177,
-    "st": "harbour",
-    "s": -800,
-    "e": 476,
-    "a": "Tyre Hippodrome"
   },
   {
     "k": "port:apa-fregenae-etruscan-ficrine-1477",
@@ -109389,17 +109312,6 @@
     "e": 476
   },
   {
-    "k": "port:apa-port-at-38-73-9-46-593",
-    "n": "Roman villa",
-    "t": "port",
-    "la": 38.7263,
-    "lo": -9.4641,
-    "st": "harbour",
-    "s": -200,
-    "e": 476,
-    "a": "Roman villa of Freiria"
-  },
-  {
     "k": "port:apa-port-at-38-75-0-23-801",
     "n": "Cala de Portichol",
     "t": "port",
@@ -120204,17 +120116,6 @@
     "st": "harbour",
     "s": -200,
     "e": 476
-  },
-  {
-    "k": "port:apa-port-at-51-50-0-43-152",
-    "n": "Mucking",
-    "t": "port",
-    "la": 51.504,
-    "lo": 0.428,
-    "st": "harbour",
-    "s": -300,
-    "e": 476,
-    "a": "Mucking excavation"
   },
   {
     "k": "port:apa-port-at-51-50-2-67-296",
@@ -134345,17 +134246,6 @@
     "a": "Pella"
   },
   {
-    "k": "press:press-076",
-    "n": "Knossos Wine Press",
-    "t": "press",
-    "la": 35.2981,
-    "lo": 25.1631,
-    "st": "wine",
-    "s": -100,
-    "e": 350,
-    "a": "Knossos"
-  },
-  {
     "k": "press:press-078",
     "n": "Phaistos Oil Press",
     "t": "press",
@@ -134941,28 +134831,6 @@
     "s": -50,
     "e": 300,
     "a": "Vienne"
-  },
-  {
-    "k": "press:press-147",
-    "n": "Ephesus Oil Press",
-    "t": "press",
-    "la": 37.9411,
-    "lo": 27.3419,
-    "st": "oil",
-    "s": -100,
-    "e": 350,
-    "a": "Ephesus"
-  },
-  {
-    "k": "press:press-148",
-    "n": "Aphrodisias Oil Press",
-    "t": "press",
-    "la": 37.7086,
-    "lo": 28.7278,
-    "st": "oil",
-    "s": -50,
-    "e": 400,
-    "a": "Aphrodisias"
   },
   {
     "k": "press:press-151",
@@ -136779,17 +136647,6 @@
     "s": 50,
     "e": 350,
     "a": "Myra"
-  },
-  {
-    "k": "press:press-332",
-    "n": "Aspendos Oil Press",
-    "t": "press",
-    "la": 36.94,
-    "lo": 31.17,
-    "st": "oil",
-    "s": 50,
-    "e": 350,
-    "a": "Aspendos"
   },
   {
     "k": "press:press-334",
@@ -142559,17 +142416,6 @@
     "st": "temple",
     "s": 400,
     "e": 400
-  },
-  {
-    "k": "religion:503005367",
-    "n": "Capitolium at Mactaris",
-    "t": "religious-site",
-    "la": 35.8533,
-    "lo": 9.2054,
-    "st": "temple",
-    "s": 50,
-    "e": 50,
-    "a": "Mactaris"
   },
   {
     "k": "religion:503058494",
