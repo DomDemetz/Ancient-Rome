@@ -87,7 +87,7 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
-    "pre-push": "npx tsc -b && npx eslint . || (echo '✗ pre-push: type or lint errors — fix before pushing (tsc gate: 3 broken pushes 2026-07-06; eslint gate: 2 react-refresh CI breaks 2026-07-07 — both sessions commit --no-verify, so pre-push is the only local gate that actually runs)' && exit 1)"
+    "pre-push": "npx tsc -b && npx eslint . && bash scripts/check-json.sh || (echo '✗ pre-push: type or lint errors — fix before pushing (tsc gate: 3 broken pushes 2026-07-06; eslint gate: 2 react-refresh CI breaks 2026-07-07 — both sessions commit --no-verify, so pre-push is the only local gate that actually runs)' && exit 1)"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
