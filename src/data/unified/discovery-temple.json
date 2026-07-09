@@ -1768,8 +1768,7 @@
     "props": {
       "ancientName": "Tas-Silg"
     },
-    "estimatedTemporal": true,
-    "qid": "Q5472163"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:103018178",
@@ -15939,7 +15938,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q680236",
     "description": "An ancient place, cited: BAtlas 19 C2 Forggensee",
     "estimatedTemporal": true
   },
@@ -16022,8 +16020,7 @@
     "source": "Pleiades",
     "category": "religion",
     "description": "An ancient place, cited: BAtlas 19 B2 Mollis",
-    "estimatedTemporal": true,
-    "qid": "Q29784325"
+    "estimatedTemporal": true
   },
   {
     "id": "pleiades:187499",
@@ -19537,7 +19534,6 @@
     "endYear": 400,
     "source": "Pleiades",
     "category": "religion",
-    "qid": "Q3926574",
     "description": "A sanctuary dedicated to Fortuna Muliebris along the Via Latina. Tradition holds that it was dedicated in 487 B.C.",
     "props": {
       "ancientName": "Fortuna Muliebris, T."
