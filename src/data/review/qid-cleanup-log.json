@@ -10533,5 +10533,173 @@
     "qid": "Q849653",
     "reason": "kind 'port' vs ['battle']",
     "confidence": "high"
+  },
+  {
+    "key": "amphitheater:lyon",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q75174279",
+    "reason": "anachronistic identity: Grand Théâtre de Lyon (inception 1756, theatre building)",
+    "confidence": "high"
+  },
+  {
+    "key": "amphitheater:skikda",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q62061133",
+    "reason": "anachronistic identity: Théâtre Régional de Skikda (inception 1912, theatre building)",
+    "confidence": "high"
+  },
+  {
+    "key": "building:211761080",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3078613",
+    "reason": "anachronistic identity: Forum antique de Bavay (inception 1976, museum)",
+    "confidence": "high"
+  },
+  {
+    "key": "building:380688207",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q318181",
+    "reason": "anachronistic identity: Gobustan State Historical and Cultural Reserve (inception 1966, conservation area)",
+    "confidence": "high"
+  },
+  {
+    "key": "building:140508",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120240840",
+    "reason": "anachronistic identity: None (inception 1987, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-port-of-antibaris-2287",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q7231081",
+    "reason": "anachronistic identity: Port of Bar (inception 1906, port)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:652043992",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q108066496",
+    "reason": "anachronistic identity: Cueva Dones (inception 2006, protected area)",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:652043992",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q108066496",
+    "reason": "anachronistic identity: Cueva Dones (inception 2006, protected area)",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:darmc-wreck-785",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q93347040",
+    "reason": "anachronistic identity: les étangs de Villepey (inception 2008, protected area of france)",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:darmc-wreck-805",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q2090073",
+    "reason": "anachronistic identity: Zembra and Zembretta Islands National Park (inception 1977, national park)",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:167709",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q118526044",
+    "reason": "anachronistic identity: None (inception 1993, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:226614",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q12099623",
+    "reason": "anachronistic identity: Cottage of Chekhov in Gurzuf (inception 1987, museum)",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:246500",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120232179",
+    "reason": "anachronistic identity: None (inception 2000, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:167866",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120317123",
+    "reason": "anachronistic identity: None (inception 1992, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "religion:138522",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120221390",
+    "reason": "anachronistic identity: None (inception 1991, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "building:pleiades-109020",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q18169598",
+    "reason": "anachronistic identity: Stadtmuseum Gross-Gerau (inception 1929, museum)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:209449758",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120233788",
+    "reason": "anachronistic identity: None (inception 2012, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:140508",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120240799",
+    "reason": "anachronistic identity: None (inception 2005, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:167709",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q118526044",
+    "reason": "anachronistic identity: None (inception 1993, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:138522",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120221390",
+    "reason": "anachronistic identity: None (inception 1991, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:246500",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q120232179",
+    "reason": "anachronistic identity: None (inception 2000, sports venue)",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:sw-058",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3107573",
+    "reason": "anachronistic identity: Giraglia (inception 1584, protected area)",
+    "confidence": "high"
+  },
+  {
+    "key": "pleiades:256704",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q9023897",
+    "reason": "anachronistic identity: Los Barruecos (inception 1996, protected area)",
+    "confidence": "high"
+  },
+  {
+    "key": "shipwreck:darmc-wreck-895",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q955207",
+    "reason": "anachronistic identity: Meloria (inception 1867, island)",
+    "confidence": "high"
   }
 ]

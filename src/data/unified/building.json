@@ -1771,7 +1771,6 @@
     "endYear": 2099,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q3078613",
     "description": "The Gallo-Roman forum of ancient Bagacum (Bavay) covers more than 2.5 ha."
   },
   {
@@ -1908,7 +1907,6 @@
     "endYear": 2100,
     "source": "Pleiades",
     "category": "infrastructure",
-    "qid": "Q318181",
     "description": "The Gobustan Rock Art Cultural Landscape is a UNESCO World Heritage Site located in central Azerbaijan. The 537 ha site comprises more than 6,000 rock engravings covering a period of 40,000 years."
   },
   {
@@ -20336,8 +20334,7 @@
     "endYear": 640,
     "source": "Pleiades",
     "category": "infrastructure",
-    "description": "An ancient place, cited: BAtlas 14 G3 no. 77 (Condat-sur-Vienne)",
-    "qid": "Q120240840"
+    "description": "An ancient place, cited: BAtlas 14 G3 no. 77 (Condat-sur-Vienne)"
   },
   {
     "id": "building:256127",
@@ -51482,8 +51479,7 @@
     "subtype": "fort",
     "startYear": 1,
     "endYear": 500,
-    "estimatedTemporal": true,
-    "qid": "Q18169598"
+    "estimatedTemporal": true
   },
   {
     "id": "building:pleiades-109022",
