@@ -378,7 +378,11 @@ export function MapView() {
         <MapContainer
           center={ROME_CENTER}
           zoom={DEFAULT_ZOOM}
-          style={{ width: '100%', height: '100%', background: '#0f0a1a' }}
+          // Background = the tiles' post-filter sea tone, NOT house dark: this
+          // color is what shows wherever a pan outruns tile loading (fast
+          // multi-swipe on cellular), and open sea is invisible pop-in — the
+          // house-dark boot frame stays on the wrapper div above.
+          style={{ width: '100%', height: '100%', background: '#40566a' }}
           zoomControl={false}
           preferCanvas
           // no 200ms tile fade on phones: with the edge buffer the tiles are
