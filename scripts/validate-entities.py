@@ -109,9 +109,15 @@ def check_cross_reference(rep):
                 rep.add("palace-is-actually-villa", "WARN", key,
                         (e.get("ancientName") or "")[:40] + " :: " + desc[:80])
 
-    # E1: same QID under multiple keys
+    # E1: same QID under multiple keys — unless the group was adjudicated
+    # same-entity (entities/same-qid-links.json), in which case the shared
+    # QID is intentional linked identity, not duplication
+    links_path = DATA / "entities" / "same-qid-links.json"
+    linked = set()
+    if links_path.exists():
+        linked = {l["qid"] for l in json.load(open(links_path))}
     for qid, keys in qid_keys.items():
-        if len(keys) > 1:
+        if len(keys) > 1 and qid not in linked:
             rep.add("duplicate-qid", "WARN", qid, ",".join(sorted(keys)[:6]))
 
     return cr

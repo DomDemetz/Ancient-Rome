@@ -44,7 +44,9 @@ def detail_key(entity):
 
 def main():
     table = json.load(open(DATA / "entities" / "entity-table.json"))
+    cr = json.load(open(DATA / "wiki" / "cross-reference.json"))
     rows = []
+    aliases_added = 0
     for e in table:
         if not e.get("name") or e.get("lat") is None:
             continue
@@ -74,6 +76,21 @@ def main():
             # Pleiades attestation reaches the modern period (2100); the
             # atlas timeline ends at 1500 — clamp for display and timeline
             row["e"] = min(e["attestedTo"], 1500)
+        alt = set()
+        for src_key in e["sources"]:
+            xr = cr.get(src_key)
+            if not xr:
+                continue
+            for field in ("label", "ancientName"):
+                v = xr.get(field)
+                if not v or v == "?" or len(v) > 60:
+                    continue
+                if v.lower() != e["name"].lower():
+                    alt.add(v)
+        if alt:
+            joined = " ".join(sorted(alt))
+            row["a"] = joined[:120] if len(joined) > 120 else joined
+            aliases_added += 1
         rows.append(row)
 
     out = DATA / "registry" / "entity-search.json"
@@ -81,7 +98,7 @@ def main():
         json.dump(rows, fh, ensure_ascii=False, separators=(",", ":"))
         fh.write("\n")
     from collections import Counter
-    print(f"entity-search.json: {len(rows)} rows ({out.stat().st_size // 1024} KB)")
+    print(f"entity-search.json: {len(rows)} rows ({out.stat().st_size // 1024} KB), {aliases_added} with aliases")
     print("by kind:", Counter(r["t"] for r in rows).most_common(8))
 
 

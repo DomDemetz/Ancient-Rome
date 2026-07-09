@@ -82,6 +82,11 @@ def main():
             if key in sources:
                 continue
             sources[key] = {"kind": x.get("type", f.stem), "rec": x}
+            # rows carrying a Pleiades id in their key are the same Pleiades
+            # place as any buildings.json row with that id — share the anchor
+            m = re.search(r"pleiades[:-](\d+)$", key)
+            if m:
+                uf.union(key, f"pleiades#{m.group(1)}")
             if x.get("qid"):
                 qid_claims[x["qid"]].append((key, norm_name(x.get("name")), x.get("type", f.stem)))
 

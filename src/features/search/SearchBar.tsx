@@ -131,6 +131,7 @@ interface SearchItem {
   lifespan?: [number, number] // cities: only jump time if outside this range
   zoom?: number // flyTo zoom override (empires want ~4, not 9)
   sub?: string // right-aligned secondary line (reign, year, role) — eight Constantines need telling apart
+  alt?: string // alternative names from cross-reference (Colosseum for Flavian Amphitheater)
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -354,6 +355,7 @@ export function SearchBar() {
         color: CATEGORY_COLORS[s.st ?? s.t] || CATEGORY_COLORS[s.t] || CATEGORY_COLORS.building,
         lat: s.la,
         lng: s.lo,
+        alt: (s as Record<string, unknown>).a as string | undefined,
       }
       // attestation window: lets selection jump the timeline so the
       // marker is actually visible on arrival (sites lacked this before)
@@ -439,7 +441,10 @@ export function SearchBar() {
   const fuse = useMemo(
     () =>
       new Fuse(searchItems, {
-        keys: ['name'],
+        keys: [
+          { name: 'name', weight: 2 },
+          { name: 'alt', weight: 1 },
+        ],
         threshold: 0.3,
       }),
     [searchItems],
