@@ -40,9 +40,15 @@ function labelType(raw: string): string {
   return TYPE_LABEL[raw] ?? raw.charAt(0).toUpperCase() + raw.slice(1)
 }
 
+const SUBTYPE_LABEL: Record<string, string> = {
+  major_port: 'Major Port',
+  naval_base: 'Naval Base',
+}
+
 function labelSubtype(raw: string, type?: string): string | null {
   if (raw === 'unknown' || raw === 'other') return null
-  const label = raw.charAt(0).toUpperCase() + raw.slice(1)
+  const label =
+    SUBTYPE_LABEL[raw] ?? raw.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
   if (type === 'shipwreck') return `${label} cargo`
   return label
 }
