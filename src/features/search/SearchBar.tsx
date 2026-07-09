@@ -58,6 +58,7 @@ interface SiteSearchEntry {
   lo: number
   s?: number
   e?: number
+  a?: string
 }
 const EMPEROR_SEARCH = emperorsSearchJson as EmperorSearchEntry[]
 const BATTLE_SEARCH = battlesSearchJson as BattleSearchEntry[]
@@ -355,7 +356,7 @@ export function SearchBar() {
         color: CATEGORY_COLORS[s.st ?? s.t] || CATEGORY_COLORS[s.t] || CATEGORY_COLORS.building,
         lat: s.la,
         lng: s.lo,
-        alt: (s as Record<string, unknown>).a as string | undefined,
+        alt: s.a,
       }
       // attestation window: lets selection jump the timeline so the
       // marker is actually visible on arrival (sites lacked this before)
