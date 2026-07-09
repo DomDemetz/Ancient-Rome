@@ -138,6 +138,15 @@ export function ViciLayer({ data }: ViciLayerProps) {
         fillOpacity: 0.7,
         bubblingMouseEvents: false,
       })
+      if (s.name) {
+        marker.bindTooltip(s.name, {
+          direction: 'top',
+          offset: [0, -2],
+          className: 'name-tooltip',
+        })
+      }
+      marker.on('mouseover', () => marker.setRadius(4))
+      marker.on('mouseout', () => marker.setRadius(2))
       marker.on('click', () => openPopupRef.current(s))
       marker.addTo(map)
       markersRef.current.push(marker)

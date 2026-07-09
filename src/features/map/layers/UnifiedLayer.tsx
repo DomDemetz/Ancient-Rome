@@ -187,6 +187,7 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
           html += `<div class="map-tooltip-fact">${esc(ref)}</div>`
         }
         html += `<span class="map-tooltip-badge map-tooltip-badge--sourced">${esc(SOURCE_LABEL[e.source] ?? e.source)}</span>`
+        html += `<button class="map-tooltip-readmore" data-wiki-id="${esc(e.id)}" data-wiki-layer="knowledge-features">Details</button>`
         html += '</div>'
       }
 
@@ -222,6 +223,13 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
         fillOpacity: 0.7,
         bubblingMouseEvents: false,
       })
+      marker.bindTooltip(e.name, {
+        direction: 'top',
+        offset: [0, -baseRadius],
+        className: 'name-tooltip',
+      })
+      marker.on('mouseover', () => marker.setRadius(baseRadius + 2))
+      marker.on('mouseout', () => marker.setRadius(baseRadius))
       marker.on('click', () => openPopupRef.current(e))
       marker.addTo(map)
       markersRef.current.push(marker)

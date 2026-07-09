@@ -633,11 +633,14 @@ function WikiDetailContent({
   }
 
   if (!wiki) {
-    const crOnly = featureLayer === 'crossref' ? (crossRef?.[featureId] ?? null) : null
+    const crOnly = crossRef?.[featureId] ?? null
     if (crOnly) {
       return <CrossRefDetailContent cr={crOnly} crKey={featureId} onClose={closeFeature} />
     }
-    if (featureLayer === 'crossref' && isCrossRefLoading()) {
+    if (
+      (featureLayer === 'crossref' || featureLayer === 'knowledge-features') &&
+      isCrossRefLoading()
+    ) {
       return (
         <div className="space-y-4 p-6">
           <div className="h-48 rounded-lg bg-white/[0.04] animate-pulse" />

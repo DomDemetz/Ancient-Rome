@@ -349,11 +349,14 @@ export function PlacesLayer({
       const isCity = pop != null && pop >= labelMinPop(zoom)
       const tooltipKey = hasLabel ? `${name}|${isCity ? 'c' : 'm'}` : null
 
+      const hoverKey = hasLabel ? null : `hover:${name}`
+      const effectiveKey = tooltipKey ?? hoverKey
+
       const existing = entries.get(p.id)
       if (existing) {
         existing.marker.setRadius(radius)
         existing.marker.setStyle({ color: strokeColor, fillColor: color, fillOpacity, weight })
-        if (tooltipKey !== existing.tooltipKey) {
+        if (effectiveKey !== existing.tooltipKey) {
           if (existing.tooltipKey != null) existing.marker.unbindTooltip()
           if (hasLabel) {
             existing.marker.bindTooltip(name, {
@@ -362,8 +365,14 @@ export function PlacesLayer({
               className: isCity ? 'city-label' : 'city-label city-label--minor',
               offset: [0, -radius - 1],
             })
+          } else {
+            existing.marker.bindTooltip(name, {
+              direction: 'top',
+              offset: [0, -radius],
+              className: 'name-tooltip',
+            })
           }
-          existing.tooltipKey = tooltipKey
+          existing.tooltipKey = effectiveKey
         }
       } else {
         const marker = L.circleMarker([p.lat, p.lng], {
@@ -382,9 +391,15 @@ export function PlacesLayer({
             className: isCity ? 'city-label' : 'city-label city-label--minor',
             offset: [0, -radius - 1],
           })
+        } else {
+          marker.bindTooltip(name, {
+            direction: 'top',
+            offset: [0, -radius],
+            className: 'name-tooltip',
+          })
         }
         marker.addTo(map)
-        entries.set(p.id, { marker, tooltipKey })
+        entries.set(p.id, { marker, tooltipKey: effectiveKey })
       }
     }
 

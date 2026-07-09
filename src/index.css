@@ -265,6 +265,15 @@
 .leaflet-tooltip-right::before {
   border-right-color: rgba(15, 10, 26, 0.92) !important;
 }
+.leaflet-tooltip.name-tooltip {
+  min-width: 0 !important;
+  max-width: 200px !important;
+  padding: 3px 7px !important;
+  font-size: 11px !important;
+  font-family: var(--font-serif);
+  white-space: nowrap;
+  pointer-events: none;
+}
 /* Permanent city labels — minimal, no box, readable on the map */
 .leaflet-tooltip.city-label {
   background: transparent !important;
