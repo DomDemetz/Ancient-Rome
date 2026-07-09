@@ -104,6 +104,10 @@ export function MonumentLabels() {
       if (e.s == null || e.s === 0 || e.s > currentYear) return false
       if (PLACEHOLDER_YEARS.has(e.s)) return false
       if (currentYear < EDICT_OF_MILAN && CHURCH_NAME.test(e.n)) return false
+      // ancient names are short; long ones are modern descriptive titles —
+      // 'The "Auditorium site" at the Auditorium Parco della Musica (Rome)'
+      // spanned a whole phone screen
+      if (e.n.length > 28) return false
       if (e.e != null && e.e !== 0 && e.e < currentYear) return false
       if (e.la < bounds.getSouth() || e.la > bounds.getNorth()) return false
       if (e.lo < bounds.getWest() || e.lo > bounds.getEast()) return false
