@@ -176,7 +176,8 @@ def first_sentence(t):
     return m.group(1) if m else t
 
 POPUP_CR = ("imageUrl", "province", "tradeRole", "ancientAuthors", "sources",
-            "ancientTextMentions", "capacity", "outcome", "combatants", "buildingType")
+            "ancientTextMentions", "capacity", "outcome", "combatants", "buildingType",
+            "containedInQid", "wikiUrl", "label")
 def slim_store(store):
     out = {}
     for k, v in store.items():

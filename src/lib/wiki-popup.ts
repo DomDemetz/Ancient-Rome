@@ -162,10 +162,9 @@ export function appendCrossRefTooltip(
   }
 
   if (isContainer) {
-    // description/wikiUrl describe the container city, not this entity
     const cityName = cr.wikiUrl
       ? decodeURIComponent(cr.wikiUrl.split('/wiki/').pop() ?? '').replace(/_/g, ' ')
-      : null
+      : (cr.label ?? null)
     if (cityName) {
       const cityDesc = cr.description ? ` — ${cr.description}` : ''
       crHtml += `<div class="map-tooltip-extract">Located in: ${esc(cityName)}${esc(cityDesc)}</div>`
