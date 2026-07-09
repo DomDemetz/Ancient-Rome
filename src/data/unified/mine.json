@@ -13326,7 +13326,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "A silver mine at Thorikos. A schematic map of the mine is carved into the rocks at the site.",
-    "qid": "Q24896577"
+    "qid": "Q24896577",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:495763993",
@@ -13446,7 +13447,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "Unlabeled feature captured from the Barrington Atlas"
+    "description": "Unlabeled feature captured from the Barrington Atlas",
+    "subtype": "iron"
   },
   {
     "id": "pleiades:318613",
@@ -13458,7 +13460,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 32 C3 unnamed quarry (SW Thabraca)"
+    "description": "An ancient place, cited: BAtlas 32 C3 unnamed quarry (SW Thabraca)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:318614",
@@ -13470,7 +13473,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 32 C3 unnamed quarry (E Sidi-Salah-el-Balti)"
+    "description": "An ancient place, cited: BAtlas 32 C3 unnamed quarry (E Sidi-Salah-el-Balti)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:318619",
@@ -13482,7 +13486,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 32 E3 unnamed quarry group (ENE *Vazari)"
+    "description": "An ancient place, cited: BAtlas 32 E3 unnamed quarry group (ENE *Vazari)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:707538",
@@ -13506,7 +13511,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient (and modern) copper mining landscape in the modern Paphos district of western Cyprus."
+    "description": "An ancient (and modern) copper mining landscape in the modern Paphos district of western Cyprus.",
+    "subtype": "copper"
   },
   {
     "id": "pleiades:707567",
@@ -13739,7 +13745,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 C4 unnamed quarry (NE Magor)"
+    "description": "An ancient place, cited: BAtlas 8 C4 unnamed quarry (NE Magor)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82300",
@@ -13751,7 +13758,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 D1 unnamed quarry (N Kanovium, at Great Orme, Llandudno)"
+    "description": "An ancient place, cited: BAtlas 8 D1 unnamed quarry (N Kanovium, at Great Orme, Llandudno)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82301",
@@ -13764,7 +13772,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "Known now as the \"Dolaucothi Gold Mines\" or \"Ogofau Gold Mine,\" this was a major gold mining and ore processing site in the Roman period.",
-    "qid": "Q1235312"
+    "qid": "Q1235312",
+    "subtype": "gold"
   },
   {
     "id": "pleiades:82302",
@@ -13776,7 +13785,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 E2 unnamed quarry (SW *Viroconium, at Linley)"
+    "description": "An ancient place, cited: BAtlas 8 E2 unnamed quarry (SW *Viroconium, at Linley)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82303",
@@ -13788,7 +13798,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 E3 unnamed quarry (E Aquae Sulis)"
+    "description": "An ancient place, cited: BAtlas 8 E3 unnamed quarry (E Aquae Sulis)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82308",
@@ -13800,7 +13811,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 F1 unnamed quarry (NE Carsington)"
+    "description": "An ancient place, cited: BAtlas 8 F1 unnamed quarry (NE Carsington)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82311",
@@ -13812,7 +13824,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 G3 unnamed quarry (E Alfoldean (2), in The Weald)"
+    "description": "An ancient place, cited: BAtlas 8 G3 unnamed quarry (E Alfoldean (2), in The Weald)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82312",
@@ -13825,7 +13838,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 8 H3 unnamed quarry (SW Maidstone (2), in The Weald)",
-    "qid": "Q6931178"
+    "qid": "Q6931178",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:82313",
@@ -13837,7 +13851,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 8 H4 unnamed quarry (NE Anderidos (2), in The Weald)"
+    "description": "An ancient place, cited: BAtlas 8 H4 unnamed quarry (NE Anderidos (2), in The Weald)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:570648",
@@ -13873,7 +13888,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 59 B3 unnamed quarry group (near Peiraieus)"
+    "description": "An ancient place, cited: BAtlas 59 B3 unnamed quarry group (near Peiraieus)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:583620",
@@ -13885,7 +13901,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 59 C3 unnamed quarry group (on Hymettos M.)"
+    "description": "An ancient place, cited: BAtlas 59 C3 unnamed quarry group (on Hymettos M.)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:583621",
@@ -13897,7 +13914,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An mine or quarry from a group on Pentelikon M."
+    "description": "An mine or quarry from a group on Pentelikon M.",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:583623",
@@ -13910,7 +13928,8 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q3314937",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:256101",
@@ -13947,7 +13966,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 26 D4 Riotinto"
+    "description": "An ancient place, cited: BAtlas 26 D4 Riotinto",
+    "subtype": "tin"
   },
   {
     "id": "pleiades:256424",
@@ -13995,7 +14015,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 32 E3 unnamed quarry group (ENE *Vazari)"
+    "description": "An ancient place, cited: BAtlas 32 E3 unnamed quarry group (ENE *Vazari)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:167763",
@@ -14044,7 +14065,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 50 C1 unnamed quarry (Laki)"
+    "description": "An ancient place, cited: BAtlas 50 C1 unnamed quarry (Laki)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:493019",
@@ -14056,7 +14078,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 50 C1 unnamed quarry (SW Negrevo)"
+    "description": "An ancient place, cited: BAtlas 50 C1 unnamed quarry (SW Negrevo)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:493020",
@@ -14068,7 +14091,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 50 C2 unnamed quarry (in Dysoron M.)"
+    "description": "An ancient place, cited: BAtlas 50 C2 unnamed quarry (in Dysoron M.)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:501506",
@@ -14106,7 +14130,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 51 B3 unnamed quarry (W Kapros)",
-    "qid": "Q66372218"
+    "qid": "Q66372218",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:504345",
@@ -14118,7 +14143,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 51 C2 unnamed quarry (NE Philippi)"
+    "description": "An ancient place, cited: BAtlas 51 C2 unnamed quarry (NE Philippi)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:504347",
@@ -14130,7 +14156,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 51 D3 unnamed quarry (W Pistyros?)"
+    "description": "An ancient place, cited: BAtlas 51 D3 unnamed quarry (W Pistyros?)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:504348",
@@ -14143,7 +14170,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 51 D3 unnamed quarry (N Abdera)",
-    "qid": "Q188615"
+    "qid": "Q188615",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:504351",
@@ -14155,7 +14183,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 51 D3 unnamed quarry (near Ag. Vassilis)"
+    "description": "An ancient place, cited: BAtlas 51 D3 unnamed quarry (near Ag. Vassilis)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:504352",
@@ -14168,7 +14197,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 51 D3 unnamed quarry (SW Koinyra)",
-    "qid": "Q15149289"
+    "qid": "Q15149289",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:326917",
@@ -14180,7 +14210,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 33 B2 unnamed quarry (SW Ammaedara)"
+    "description": "An ancient place, cited: BAtlas 33 B2 unnamed quarry (SW Ammaedara)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:326918",
@@ -14192,7 +14223,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 33 B3 unnamed quarry (SE Bir-el-Ater)"
+    "description": "An ancient place, cited: BAtlas 33 B3 unnamed quarry (SE Bir-el-Ater)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:326920",
@@ -14205,7 +14237,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 33 D2 unnamed quarry (N Sufetula)",
-    "qid": "Q1536583"
+    "qid": "Q1536583",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:167893",
@@ -14254,7 +14287,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 19 F2 unnamed quarry (W In Alpe)"
+    "description": "An ancient place, cited: BAtlas 19 F2 unnamed quarry (W In Alpe)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200084",
@@ -14266,7 +14300,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 A5 unnamed quarry group (near Pola)"
+    "description": "An ancient place, cited: BAtlas 20 A5 unnamed quarry group (near Pola)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200086",
@@ -14278,7 +14313,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B2 unnamed quarry (NW Poidikon)"
+    "description": "An ancient place, cited: BAtlas 20 B2 unnamed quarry (NW Poidikon)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200087",
@@ -14290,7 +14326,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B3 unnamed quarry group (ESE Candalicae)"
+    "description": "An ancient place, cited: BAtlas 20 B3 unnamed quarry group (ESE Candalicae)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200094",
@@ -14302,7 +14339,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 B4 unnamed quarry (E Nauportus, at Podpe\u010d)"
+    "description": "An ancient place, cited: BAtlas 20 B4 unnamed quarry (E Nauportus, at Podpe\u010d)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200099",
@@ -14314,7 +14352,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 C3 unnamed quarry (S Colatio)"
+    "description": "An ancient place, cited: BAtlas 20 C3 unnamed quarry (S Colatio)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200103",
@@ -14326,7 +14365,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 D5 unnamed quarry group (W Splonum)"
+    "description": "An ancient place, cited: BAtlas 20 D5 unnamed quarry group (W Splonum)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200110",
@@ -14338,7 +14378,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 E5 unnamed quarry group (S Bistua Nova)"
+    "description": "An ancient place, cited: BAtlas 20 E5 unnamed quarry group (S Bistua Nova)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:200111",
@@ -14350,7 +14391,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 20 F6 unnamed quarry group (SW Hedum Castellum Daesitiatium)"
+    "description": "An ancient place, cited: BAtlas 20 F6 unnamed quarry group (SW Hedum Castellum Daesitiatium)",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:206977",
@@ -14449,7 +14491,8 @@
     "source": "Pleiades",
     "category": "production",
     "description": "An ancient place, cited: BAtlas 12 D4 unnamed quarry group (NW Phoebiana)",
-    "qid": "Q31873172"
+    "qid": "Q31873172",
+    "subtype": "quarry"
   },
   {
     "id": "pleiades:138364",
@@ -14626,7 +14669,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An ancient place, cited: BAtlas 21 E5 Slatina"
+    "description": "An ancient place, cited: BAtlas 21 E5 Slatina",
+    "subtype": "tin"
   },
   {
     "id": "pleiades:207520",
@@ -14759,7 +14803,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101138",
@@ -14771,7 +14816,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101139",
@@ -14783,7 +14829,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101140",
@@ -14795,7 +14842,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101141",
@@ -14807,7 +14855,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101142",
@@ -14819,7 +14868,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101143",
@@ -14831,7 +14881,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101144",
@@ -14843,7 +14894,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101145",
@@ -14855,7 +14907,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101146",
@@ -14867,7 +14920,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101147",
@@ -14879,7 +14933,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101148",
@@ -14891,7 +14946,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101149",
@@ -14903,7 +14959,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101150",
@@ -14915,7 +14972,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101151",
@@ -14927,7 +14985,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101152",
@@ -14939,7 +14998,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101153",
@@ -14951,7 +15011,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101154",
@@ -14963,7 +15024,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101155",
@@ -14975,7 +15037,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101156",
@@ -14987,7 +15050,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101157",
@@ -14999,7 +15063,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101158",
@@ -15011,7 +15076,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101159",
@@ -15023,7 +15089,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101160",
@@ -15035,7 +15102,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101161",
@@ -15047,7 +15115,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101162",
@@ -15059,7 +15128,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101163",
@@ -15071,7 +15141,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101164",
@@ -15083,7 +15154,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101165",
@@ -15095,7 +15167,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101166",
@@ -15107,7 +15180,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101167",
@@ -15119,7 +15193,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101168",
@@ -15131,7 +15206,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101169",
@@ -15143,7 +15219,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101170",
@@ -15155,7 +15232,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101171",
@@ -15167,7 +15245,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101172",
@@ -15179,7 +15258,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101173",
@@ -15191,7 +15271,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101174",
@@ -15203,7 +15284,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101175",
@@ -15215,7 +15297,8 @@
     "endYear": 0,
     "source": "Pleiades",
     "category": "production",
-    "description": "An Athenian lead or silver mine."
+    "description": "An Athenian lead or silver mine.",
+    "subtype": "silver"
   },
   {
     "id": "pleiades:963101176",
@@ -15228,7 +15311,8 @@
     "source": "Pleiades",
     "category": "production",
     "qid": "Q3219865",
-    "description": "An Athenian lead or silver mine"
+    "description": "An Athenian lead or silver mine",
+    "subtype": "silver"
   },
   {
     "id": "mine:pleiades-275731",
@@ -15238,7 +15322,7 @@
     "lng": -5.99033,
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 28 C2 Tahadart",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": -300,
     "endYear": 500,
     "estimatedTemporal": true
@@ -15409,7 +15493,7 @@
     "lng": 34.97876,
     "source": "Pleiades",
     "description": "The Timna Valley is located approximately 30 km north of the Gulf of Aqaba and copper has been mined there since the fifth millennium B.C.",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": -25,
     "endYear": 500,
     "estimatedTemporal": true
@@ -15583,7 +15667,7 @@
     "lng": -4.3418,
     "source": "Pleiades",
     "description": "Roman mine on Parys Mountain, Wales.",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": 60,
     "endYear": 500,
     "estimatedTemporal": true,
@@ -15597,7 +15681,7 @@
     "lng": -3.2075,
     "source": "Pleiades",
     "description": "A Roman-era lead mining operation at modern Halkyn Mountain, Flintshire, Wales, United Kingdom.",
-    "subtype": "mine",
+    "subtype": "lead",
     "startYear": 51,
     "endYear": 500,
     "estimatedTemporal": true,
@@ -15742,7 +15826,7 @@
     "lng": 21.42522,
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 49 D1 Novo Brdo",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": -27,
     "endYear": 500,
     "estimatedTemporal": true,
@@ -15834,7 +15918,7 @@
     "lng": 8.5002,
     "source": "Pleiades",
     "description": "A Roman mining center located in the Iglesiente region of Sardinia. The Roman settlement succeeded an earlier nuragic village.",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": -230,
     "endYear": 500,
     "estimatedTemporal": true
@@ -15874,7 +15958,7 @@
     "lng": 0.37169,
     "source": "Pleiades",
     "description": "Site of Roman bloomery and iron mining pits, dating from the late 1st century CE to ca. 220.",
-    "subtype": "mine",
+    "subtype": "iron",
     "startYear": 51,
     "endYear": 500,
     "estimatedTemporal": true,
@@ -15888,7 +15972,7 @@
     "lng": 23.54937,
     "source": "Pleiades",
     "description": "An ancient place, cited: BAtlas 21 F3 Surduc",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": 106,
     "endYear": 500,
     "estimatedTemporal": true,
@@ -15902,7 +15986,7 @@
     "lng": 22.80062,
     "source": "Pleiades",
     "description": "A gold mining region in Dacia.",
-    "subtype": "mine",
+    "subtype": "gold",
     "qid": "Q43313414",
     "startYear": 106,
     "endYear": 500,
@@ -16087,7 +16171,7 @@
     "lng": 2.30715,
     "source": "Pleiades",
     "description": "A center of mining and ore processing.",
-    "subtype": "mine",
+    "subtype": "unknown",
     "startYear": -50,
     "endYear": 500,
     "estimatedTemporal": true

@@ -57964,7 +57964,7 @@
     "t": "mine",
     "la": 46.5408,
     "lo": 23.5494,
-    "st": "mine",
+    "st": "unknown",
     "s": 106,
     "e": 500
   },
@@ -57984,7 +57984,7 @@
     "t": "mine",
     "la": 46.1317,
     "lo": 22.8006,
-    "st": "mine",
+    "st": "gold",
     "s": 106,
     "e": 500
   },
@@ -58044,7 +58044,7 @@
     "t": "mine",
     "la": 43.4165,
     "lo": 2.3072,
-    "st": "mine",
+    "st": "unknown",
     "s": -50,
     "e": 500
   },
@@ -58114,7 +58114,7 @@
     "t": "mine",
     "la": 35.5724,
     "lo": -5.9903,
-    "st": "mine",
+    "st": "unknown",
     "s": -300,
     "e": 500
   },
@@ -58294,7 +58294,7 @@
     "t": "mine",
     "la": 39.394,
     "lo": 8.5002,
-    "st": "mine",
+    "st": "unknown",
     "s": -230,
     "e": 500
   },
@@ -58304,7 +58304,7 @@
     "t": "mine",
     "la": 42.5644,
     "lo": 21.4252,
-    "st": "mine",
+    "st": "unknown",
     "s": -27,
     "e": 500
   },
@@ -58444,7 +58444,7 @@
     "t": "mine",
     "la": 29.7625,
     "lo": 34.9788,
-    "st": "mine",
+    "st": "unknown",
     "s": -25,
     "e": 500
   },
@@ -58504,7 +58504,7 @@
     "t": "mine",
     "la": 53.3872,
     "lo": -4.3418,
-    "st": "mine",
+    "st": "unknown",
     "s": 60,
     "e": 500
   },
@@ -61292,7 +61292,14 @@
     "s": -500,
     "e": 400
   },
-  { "k": "pleiades:120804", "n": "Mine near Aislingen", "t": "mine", "la": 48.5, "lo": 10.5 },
+  {
+    "k": "pleiades:120804",
+    "n": "Mine near Aislingen",
+    "t": "mine",
+    "la": 48.5,
+    "lo": 10.5,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:121508195",
     "n": "L'Alcora",
@@ -66273,7 +66280,8 @@
     "n": "Iron mine near Djebel Taya",
     "t": "mine",
     "la": 36.5217,
-    "lo": 7.1195
+    "lo": 7.1195,
+    "st": "iron"
   },
   {
     "k": "pleiades:183817917",
@@ -66608,7 +66616,14 @@
     "s": -144,
     "e": 500
   },
-  { "k": "pleiades:191019", "n": "Mine S of Lahn", "t": "mine", "la": 47.5, "lo": 13.5 },
+  {
+    "k": "pleiades:191019",
+    "n": "Mine S of Lahn",
+    "t": "mine",
+    "la": 47.5,
+    "lo": 13.5,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:191098849",
     "n": "Knockeen dolmen",
@@ -66960,14 +66975,70 @@
     "s": -100,
     "e": 500
   },
-  { "k": "pleiades:200084", "n": "Mine S of Polaticum Pr.", "t": "mine", "la": 44.5, "lo": 13.5 },
-  { "k": "pleiades:200086", "n": "Mine at Erzberg", "t": "mine", "la": 47.5281, "lo": 14.9086 },
-  { "k": "pleiades:200087", "n": "Mine S of Gracarca", "t": "mine", "la": 46.5, "lo": 14.5 },
-  { "k": "pleiades:200094", "n": "Mine S of Albius Mons", "t": "mine", "la": 45.5, "lo": 14.5 },
-  { "k": "pleiades:200099", "n": "Mine W of ‘Upellis’", "t": "mine", "la": 46.338, "lo": 15.0579 },
-  { "k": "pleiades:200103", "n": "Mine N of Splonum", "t": "mine", "la": 44.5, "lo": 16.5 },
-  { "k": "pleiades:200110", "n": "Mine N of Sapua", "t": "mine", "la": 44.5, "lo": 17.5 },
-  { "k": "pleiades:200111", "n": "Mine S of Ustikolina", "t": "mine", "la": 43.5, "lo": 18.5 },
+  {
+    "k": "pleiades:200084",
+    "n": "Mine S of Polaticum Pr.",
+    "t": "mine",
+    "la": 44.5,
+    "lo": 13.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200086",
+    "n": "Mine at Erzberg",
+    "t": "mine",
+    "la": 47.5281,
+    "lo": 14.9086,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200087",
+    "n": "Mine S of Gracarca",
+    "t": "mine",
+    "la": 46.5,
+    "lo": 14.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200094",
+    "n": "Mine S of Albius Mons",
+    "t": "mine",
+    "la": 45.5,
+    "lo": 14.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200099",
+    "n": "Mine W of ‘Upellis’",
+    "t": "mine",
+    "la": 46.338,
+    "lo": 15.0579,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200103",
+    "n": "Mine N of Splonum",
+    "t": "mine",
+    "la": 44.5,
+    "lo": 16.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200110",
+    "n": "Mine N of Sapua",
+    "t": "mine",
+    "la": 44.5,
+    "lo": 17.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:200111",
+    "n": "Mine S of Ustikolina",
+    "t": "mine",
+    "la": 43.5,
+    "lo": 18.5,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:20024633",
     "n": "Tomb 3 (Tombs of the Kings)",
@@ -67193,7 +67264,14 @@
   { "k": "pleiades:207390", "n": "Rîbiţa", "t": "mine", "la": 46.1763, "lo": 22.7656 },
   { "k": "pleiades:207396", "n": "Ruda", "t": "mine", "la": 45.6979, "lo": 22.7479 },
   { "k": "pleiades:207412", "n": "Sălciua de Sus", "t": "mine", "la": 46.3942, "lo": 23.4012 },
-  { "k": "pleiades:207452", "n": "Slatina", "t": "mine", "la": 44.0229, "lo": 22.2085 },
+  {
+    "k": "pleiades:207452",
+    "n": "Slatina",
+    "t": "mine",
+    "la": 44.0229,
+    "lo": 22.2085,
+    "st": "tin"
+  },
   { "k": "pleiades:207520", "n": "Turnu Rueni", "t": "mine", "la": 45.3899, "lo": 22.3337 },
   { "k": "pleiades:207553", "n": "Vîrciorova", "t": "mine", "la": 45.39, "lo": 22.3337 },
   {
@@ -69449,7 +69527,8 @@
     "n": "Mine near Henchir-Sidi-Abd-el-Basset",
     "t": "mine",
     "la": 36.9042,
-    "lo": 9.6544
+    "lo": 9.6544,
+    "st": "quarry"
   },
   {
     "k": "pleiades:208943201",
@@ -74920,7 +74999,14 @@
     "e": 500
   },
   { "k": "pleiades:256402", "n": "Río Crispinejo", "t": "mine", "la": 37.5038, "lo": -6.2809 },
-  { "k": "pleiades:256403", "n": "Riotinto", "t": "mine", "la": 37.6938, "lo": -6.5919 },
+  {
+    "k": "pleiades:256403",
+    "n": "Riotinto",
+    "t": "mine",
+    "la": 37.6938,
+    "lo": -6.5919,
+    "st": "tin"
+  },
   {
     "k": "pleiades:256404901",
     "n": "House of N. Popidius Priscus",
@@ -78085,20 +78171,29 @@
     "s": -50,
     "e": 500
   },
-  { "k": "pleiades:318613", "n": "Mine (36.87, 8.57)", "t": "mine", "la": 36.8662, "lo": 8.5738 },
+  {
+    "k": "pleiades:318613",
+    "n": "Mine (36.87, 8.57)",
+    "t": "mine",
+    "la": 36.8662,
+    "lo": 8.5738,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:318614",
     "n": "Mine near Pagus Trisipensis?",
     "t": "mine",
     "la": 36.6978,
-    "lo": 8.9817
+    "lo": 8.9817,
+    "st": "quarry"
   },
   {
     "k": "pleiades:318619",
     "n": "Mine at Henchir-Sidi-Abd-el-Basset",
     "t": "mine",
     "la": 36.8889,
-    "lo": 9.6431
+    "lo": 9.6431,
+    "st": "quarry"
   },
   {
     "k": "pleiades:319068505",
@@ -78510,14 +78605,16 @@
     "n": "Mine E of Ad Mercurium",
     "t": "mine",
     "la": 35.4949,
-    "lo": 8.345
+    "lo": 8.345,
+    "st": "quarry"
   },
   {
     "k": "pleiades:326918",
     "n": "Mine S of Bir-el-Ater",
     "t": "mine",
     "la": 34.6212,
-    "lo": 8.1893
+    "lo": 8.1893,
+    "st": "quarry"
   },
   {
     "k": "pleiades:32694358",
@@ -87732,9 +87829,30 @@
     "s": -100,
     "e": 500
   },
-  { "k": "pleiades:493018", "n": "Mine near Smojmirovo", "t": "mine", "la": 41.75, "lo": 22.75 },
-  { "k": "pleiades:493019", "n": "Mine near Smojmirovo", "t": "mine", "la": 41.783, "lo": 22.7839 },
-  { "k": "pleiades:493020", "n": "Mine at Laki", "t": "mine", "la": 41.7912, "lo": 22.6559 },
+  {
+    "k": "pleiades:493018",
+    "n": "Mine near Smojmirovo",
+    "t": "mine",
+    "la": 41.75,
+    "lo": 22.75,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:493019",
+    "n": "Mine near Smojmirovo",
+    "t": "mine",
+    "la": 41.783,
+    "lo": 22.7839,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:493020",
+    "n": "Mine at Laki",
+    "t": "mine",
+    "la": 41.7912,
+    "lo": 22.6559,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:494566508",
     "n": "Kataret es-Samra",
@@ -88078,7 +88196,8 @@
     "n": "Silver Mine at Thorikos",
     "t": "mine",
     "la": 37.7382,
-    "lo": 24.053
+    "lo": 24.053,
+    "st": "silver"
   },
   {
     "k": "pleiades:50332479",
@@ -88125,18 +88244,54 @@
     "s": -600,
     "e": 400
   },
-  { "k": "pleiades:504344", "n": "Mine E of Pennana", "t": "mine", "la": 40.75, "lo": 23.75 },
-  { "k": "pleiades:504345", "n": "Mine N of Hadrianopolis", "t": "mine", "la": 41.25, "lo": 24.25 },
-  { "k": "pleiades:504347", "n": "Mine near Akontisma", "t": "mine", "la": 40.9841, "lo": 24.5004 },
-  { "k": "pleiades:504348", "n": "Mine N of Abdera", "t": "mine", "la": 40.9872, "lo": 24.9925 },
+  {
+    "k": "pleiades:504344",
+    "n": "Mine E of Pennana",
+    "t": "mine",
+    "la": 40.75,
+    "lo": 23.75,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:504345",
+    "n": "Mine N of Hadrianopolis",
+    "t": "mine",
+    "la": 41.25,
+    "lo": 24.25,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:504347",
+    "n": "Mine near Akontisma",
+    "t": "mine",
+    "la": 40.9841,
+    "lo": 24.5004,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:504348",
+    "n": "Mine N of Abdera",
+    "t": "mine",
+    "la": 40.9872,
+    "lo": 24.9925,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:504351",
     "n": "Mine at Ag. Vassilis",
     "t": "mine",
     "la": 40.6675,
-    "lo": 24.6136
+    "lo": 24.6136,
+    "st": "quarry"
   },
-  { "k": "pleiades:504352", "n": "Mine at Koinyra", "t": "mine", "la": 40.667, "lo": 24.7451 },
+  {
+    "k": "pleiades:504352",
+    "n": "Mine at Koinyra",
+    "t": "mine",
+    "la": 40.667,
+    "lo": 24.7451,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:504552165",
     "n": "Sanctuary of Minerva at Spinera",
@@ -91349,20 +91504,29 @@
     "s": -77,
     "e": 400
   },
-  { "k": "pleiades:583618", "n": "Mine S of Phreatto?", "t": "mine", "la": 37.875, "lo": 23.625 },
+  {
+    "k": "pleiades:583618",
+    "n": "Mine S of Phreatto?",
+    "t": "mine",
+    "la": 37.875,
+    "lo": 23.625,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:583620",
     "n": "Mine at Lamptrai Kathyperthen",
     "t": "mine",
     "la": 37.875,
-    "lo": 23.875
+    "lo": 23.875,
+    "st": "quarry"
   },
   {
     "k": "pleiades:583621",
     "n": "mine or quarry from a group",
     "t": "mine",
     "la": 38.0817,
-    "lo": 23.8784
+    "lo": 23.8784,
+    "st": "quarry"
   },
   {
     "k": "pleiades:58370951",
@@ -96606,7 +96770,14 @@
     "s": -50,
     "e": 400
   },
-  { "k": "pleiades:707564", "n": "Limni", "t": "mine", "la": 35.0372, "lo": 32.483 },
+  {
+    "k": "pleiades:707564",
+    "n": "Limni",
+    "t": "mine",
+    "la": 35.0372,
+    "lo": 32.483,
+    "st": "copper"
+  },
   { "k": "pleiades:707567", "n": "Lyso", "t": "mine", "la": 35.0108, "lo": 32.5218 },
   { "k": "pleiades:707569", "n": "Magounda", "t": "mine", "la": 35.0551, "lo": 32.4935 },
   { "k": "pleiades:707576", "n": "Mathiatis", "t": "mine", "la": 34.9818, "lo": 33.3411 },
@@ -101177,19 +101348,62 @@
     "s": -50,
     "e": 400
   },
-  { "k": "pleiades:82298", "n": "Mine N of Restormel", "t": "mine", "la": 50.5, "lo": -4.5 },
-  { "k": "pleiades:82300", "n": "Great Orme Mines", "t": "mine", "la": 53.3302, "lo": -3.8475 },
+  {
+    "k": "pleiades:82298",
+    "n": "Mine N of Restormel",
+    "t": "mine",
+    "la": 50.5,
+    "lo": -4.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:82300",
+    "n": "Great Orme Mines",
+    "t": "mine",
+    "la": 53.3302,
+    "lo": -3.8475,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:82301",
     "n": "Gold Mines at Dolaucothi, Wales",
     "t": "mine",
     "la": 52.0446,
-    "lo": -3.9498
+    "lo": -3.9498,
+    "st": "gold"
   },
-  { "k": "pleiades:82302", "n": "Mine W of Quatt", "t": "mine", "la": 52.5, "lo": -2.5 },
-  { "k": "pleiades:82303", "n": "Mine N of Brislington", "t": "mine", "la": 51.5, "lo": -2.5 },
-  { "k": "pleiades:82308", "n": "Mine N of Templeborough", "t": "mine", "la": 53.5, "lo": -1.5 },
-  { "k": "pleiades:82311", "n": "Mine N of Pontes", "t": "mine", "la": 51.5, "lo": -0.5 },
+  {
+    "k": "pleiades:82302",
+    "n": "Mine W of Quatt",
+    "t": "mine",
+    "la": 52.5,
+    "lo": -2.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:82303",
+    "n": "Mine N of Brislington",
+    "t": "mine",
+    "la": 51.5,
+    "lo": -2.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:82308",
+    "n": "Mine N of Templeborough",
+    "t": "mine",
+    "la": 53.5,
+    "lo": -1.5,
+    "st": "quarry"
+  },
+  {
+    "k": "pleiades:82311",
+    "n": "Mine N of Pontes",
+    "t": "mine",
+    "la": 51.5,
+    "lo": -0.5,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:823121346",
     "n": "Temple of Mars Ultor",
@@ -101199,7 +101413,14 @@
     "s": -337,
     "e": 400
   },
-  { "k": "pleiades:82313", "n": "Mine S of Eastbourne", "t": "mine", "la": 50.5, "lo": 0.5 },
+  {
+    "k": "pleiades:82313",
+    "n": "Mine S of Eastbourne",
+    "t": "mine",
+    "la": 50.5,
+    "lo": 0.5,
+    "st": "quarry"
+  },
   {
     "k": "pleiades:823633465",
     "n": "Torre de San Josep",
@@ -105204,46 +105425,326 @@
   { "k": "pleiades:963101129", "n": "An unnamed mine", "t": "mine", "la": 52.2577, "lo": -0.6984 },
   { "k": "pleiades:963101130", "n": "An unnamed mine", "t": "mine", "la": 52.7036, "lo": -0.3997 },
   { "k": "pleiades:963101131", "n": "An unnamed mine", "t": "mine", "la": 52.5827, "lo": -0.554 },
-  { "k": "pleiades:963101137", "n": "Mine of Laureion", "t": "mine", "la": 37.6976, "lo": 24.0327 },
-  { "k": "pleiades:963101138", "n": "Mine of Laureion", "t": "mine", "la": 37.7364, "lo": 24.0502 },
-  { "k": "pleiades:963101139", "n": "Mine of Laureion", "t": "mine", "la": 37.7416, "lo": 24.0202 },
-  { "k": "pleiades:963101140", "n": "Mine of Laureion", "t": "mine", "la": 37.7263, "lo": 24.0114 },
-  { "k": "pleiades:963101141", "n": "Mine of Laureion", "t": "mine", "la": 37.7258, "lo": 24.0312 },
-  { "k": "pleiades:963101142", "n": "Mine of Laureion", "t": "mine", "la": 37.7118, "lo": 24.0209 },
-  { "k": "pleiades:963101143", "n": "Mine of Laureion", "t": "mine", "la": 37.7457, "lo": 24.0403 },
-  { "k": "pleiades:963101144", "n": "Mine of Laureion", "t": "mine", "la": 37.7483, "lo": 24.0517 },
-  { "k": "pleiades:963101145", "n": "Mine of Laureion", "t": "mine", "la": 37.7498, "lo": 24.059 },
-  { "k": "pleiades:963101146", "n": "Mine of Laureion", "t": "mine", "la": 37.7436, "lo": 24.0605 },
-  { "k": "pleiades:963101147", "n": "Mine of Laureion", "t": "mine", "la": 37.7494, "lo": 24.0694 },
-  { "k": "pleiades:963101148", "n": "Mine of Laureion", "t": "mine", "la": 37.7308, "lo": 24.034 },
-  { "k": "pleiades:963101149", "n": "Mine of Laureion", "t": "mine", "la": 37.7356, "lo": 24.0274 },
-  { "k": "pleiades:963101150", "n": "Mine of Laureion", "t": "mine", "la": 37.7376, "lo": 24.017 },
-  { "k": "pleiades:963101151", "n": "Mine of Laureion", "t": "mine", "la": 37.7303, "lo": 24.0205 },
-  { "k": "pleiades:963101152", "n": "Mine of Laureion", "t": "mine", "la": 37.7478, "lo": 24.028 },
-  { "k": "pleiades:963101153", "n": "Mine of Laureion", "t": "mine", "la": 37.7421, "lo": 24.0256 },
-  { "k": "pleiades:963101154", "n": "Mine of Laureion", "t": "mine", "la": 37.7442, "lo": 24.0543 },
-  { "k": "pleiades:963101155", "n": "Mine of Laureion", "t": "mine", "la": 37.736, "lo": 24.0528 },
-  { "k": "pleiades:963101156", "n": "Mine of Laureion", "t": "mine", "la": 37.7295, "lo": 24.0072 },
-  { "k": "pleiades:963101157", "n": "Mine of Laureion", "t": "mine", "la": 37.7233, "lo": 24.0158 },
-  { "k": "pleiades:963101158", "n": "Mine of Laureion", "t": "mine", "la": 37.706, "lo": 24.0198 },
-  { "k": "pleiades:963101159", "n": "Mine of Laureion", "t": "mine", "la": 37.7113, "lo": 24.0352 },
-  { "k": "pleiades:963101160", "n": "Mine of Laureion", "t": "mine", "la": 37.7116, "lo": 24.0446 },
-  { "k": "pleiades:963101161", "n": "Mine of Laureion", "t": "mine", "la": 37.7171, "lo": 24.0206 },
-  { "k": "pleiades:963101162", "n": "Mine of Laureion", "t": "mine", "la": 37.7216, "lo": 24.0305 },
-  { "k": "pleiades:963101163", "n": "Mine of Laureion", "t": "mine", "la": 37.7169, "lo": 24.0438 },
-  { "k": "pleiades:963101164", "n": "Mine of Laureion", "t": "mine", "la": 37.7163, "lo": 24.0314 },
-  { "k": "pleiades:963101165", "n": "Mine of Laureion", "t": "mine", "la": 37.7227, "lo": 24.0056 },
-  { "k": "pleiades:963101166", "n": "Mine of Laureion", "t": "mine", "la": 37.7247, "lo": 24.026 },
-  { "k": "pleiades:963101167", "n": "Mine of Laureion", "t": "mine", "la": 37.7408, "lo": 24.0045 },
-  { "k": "pleiades:963101168", "n": "Mine of Laureion", "t": "mine", "la": 37.7158, "lo": 24.0084 },
-  { "k": "pleiades:963101169", "n": "Mine of Laureion", "t": "mine", "la": 37.6972, "lo": 24.017 },
-  { "k": "pleiades:963101170", "n": "Mine of Laureion", "t": "mine", "la": 37.6934, "lo": 24.0128 },
-  { "k": "pleiades:963101171", "n": "Mine of Laureion", "t": "mine", "la": 37.7073, "lo": 24.0372 },
-  { "k": "pleiades:963101172", "n": "Mine of Laureion", "t": "mine", "la": 37.6985, "lo": 24.0104 },
-  { "k": "pleiades:963101173", "n": "Mine of Laureion", "t": "mine", "la": 37.7041, "lo": 24.0164 },
-  { "k": "pleiades:963101174", "n": "Mine of Laureion", "t": "mine", "la": 37.7059, "lo": 24.0253 },
-  { "k": "pleiades:963101175", "n": "Mine of Laureion", "t": "mine", "la": 37.713, "lo": 24.0253 },
-  { "k": "pleiades:963101176", "n": "Mine of Laureion", "t": "mine", "la": 37.7039, "lo": 24.0101 },
+  {
+    "k": "pleiades:963101137",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.6976,
+    "lo": 24.0327,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101138",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7364,
+    "lo": 24.0502,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101139",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7416,
+    "lo": 24.0202,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101140",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7263,
+    "lo": 24.0114,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101141",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7258,
+    "lo": 24.0312,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101142",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7118,
+    "lo": 24.0209,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101143",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7457,
+    "lo": 24.0403,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101144",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7483,
+    "lo": 24.0517,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101145",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7498,
+    "lo": 24.059,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101146",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7436,
+    "lo": 24.0605,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101147",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7494,
+    "lo": 24.0694,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101148",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7308,
+    "lo": 24.034,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101149",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7356,
+    "lo": 24.0274,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101150",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7376,
+    "lo": 24.017,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101151",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7303,
+    "lo": 24.0205,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101152",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7478,
+    "lo": 24.028,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101153",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7421,
+    "lo": 24.0256,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101154",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7442,
+    "lo": 24.0543,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101155",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.736,
+    "lo": 24.0528,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101156",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7295,
+    "lo": 24.0072,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101157",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7233,
+    "lo": 24.0158,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101158",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.706,
+    "lo": 24.0198,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101159",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7113,
+    "lo": 24.0352,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101160",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7116,
+    "lo": 24.0446,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101161",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7171,
+    "lo": 24.0206,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101162",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7216,
+    "lo": 24.0305,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101163",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7169,
+    "lo": 24.0438,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101164",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7163,
+    "lo": 24.0314,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101165",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7227,
+    "lo": 24.0056,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101166",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7247,
+    "lo": 24.026,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101167",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7408,
+    "lo": 24.0045,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101168",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7158,
+    "lo": 24.0084,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101169",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.6972,
+    "lo": 24.017,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101170",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.6934,
+    "lo": 24.0128,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101171",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7073,
+    "lo": 24.0372,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101172",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.6985,
+    "lo": 24.0104,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101173",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7041,
+    "lo": 24.0164,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101174",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7059,
+    "lo": 24.0253,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101175",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.713,
+    "lo": 24.0253,
+    "st": "silver"
+  },
+  {
+    "k": "pleiades:963101176",
+    "n": "Mine of Laureion",
+    "t": "mine",
+    "la": 37.7039,
+    "lo": 24.0101,
+    "st": "silver"
+  },
   {
     "k": "pleiades:963101179",
     "n": "An unnamed villa",
