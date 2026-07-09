@@ -2145,6 +2145,22 @@
     "a": "Aphrodisias"
   },
   {
+    "k": "aqueduct:aq-aqua-alexandrina",
+    "n": "Aqua Alexandrina",
+    "t": "aqueduct",
+    "la": 41.8902,
+    "lo": 12.4922,
+    "s": 226
+  },
+  {
+    "k": "aqueduct:aq-aqua-alsietina",
+    "n": "Aqua Alsietina",
+    "t": "aqueduct",
+    "la": 41.8902,
+    "lo": 12.4922,
+    "s": -2
+  },
+  {
     "k": "aqueduct:aq-aqua-julia",
     "n": "Aqua Julia",
     "t": "aqueduct",
@@ -2609,6 +2625,14 @@
     "lo": 4.8357,
     "s": -20,
     "a": "Brévenne Aqueduct"
+  },
+  {
+    "k": "aqueduct:aq-lyon-gier",
+    "n": "Aqueduct of the Gier",
+    "t": "aqueduct",
+    "la": 45.764,
+    "lo": 4.8357,
+    "s": 50
   },
   {
     "k": "aqueduct:aq-lyon-mont-dor",
@@ -78111,7 +78135,7 @@
     "lo": 29.894,
     "st": "major_port",
     "s": -800,
-    "e": 700,
+    "e": 476,
     "a": "Alexandria Port"
   },
   {
@@ -78123,6 +78147,28 @@
     "st": "major_port",
     "s": -800,
     "e": 700
+  },
+  {
+    "k": "port:apa-alexandria-megas-limen-portus-magnus-por-5520",
+    "n": "Alexandria, Megas Limen, Portus Magnus, Port of the Emporion, Neapolis?",
+    "t": "port",
+    "la": 31.2054,
+    "lo": 29.9017,
+    "st": "port",
+    "s": -800,
+    "e": 700,
+    "a": "Alexandria Port"
+  },
+  {
+    "k": "port:apa-alexandria-megas-limen-portus-magnus-rom-5524",
+    "n": "Alexandria, Megas Limen, Portus Magnus, Roman port",
+    "t": "port",
+    "la": 31.2115,
+    "lo": 29.885,
+    "st": "port",
+    "s": -800,
+    "e": 700,
+    "a": "Alexandria Port"
   },
   {
     "k": "port:apa-alexandroschene-4758",
@@ -96603,6 +96649,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-nesis-odysseus-port-of-the-cyclops-1593",
+    "n": "Nesis, Odysseus' port of the Cyclops ?",
+    "t": "port",
+    "la": 40.7943,
+    "lo": 14.1611,
+    "st": "port",
+    "s": -200,
+    "e": 476,
+    "a": "Pozzuoli Port"
+  },
+  {
     "k": "port:apa-nicaea-nika-a-nicia-plagia-1228",
     "n": "Nicaea, Nikaïa, Nicia plagia",
     "t": "port",
@@ -102779,6 +102836,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-31-15-29-85-5529",
+    "n": "Mariout lake-port connected to sea by el-Mexx",
+    "t": "port",
+    "la": 31.146,
+    "lo": 29.8526,
+    "st": "port",
+    "s": -800,
+    "e": 476,
+    "a": "Alexandria Port"
+  },
+  {
     "k": "port:apa-port-at-31-17-30-13-5487",
     "n": "Kom Difshu",
     "t": "port",
@@ -102797,6 +102865,28 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-31-22-29-91-5515",
+    "n": "Ibrahimieh 3",
+    "t": "port",
+    "la": 31.217,
+    "lo": 29.913,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Alexandria Port"
+  },
+  {
+    "k": "port:apa-port-at-31-22-29-92-5514",
+    "n": "Ibrahimieh 4",
+    "t": "port",
+    "la": 31.217,
+    "lo": 29.9217,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Alexandria Port"
   },
   {
     "k": "port:apa-port-at-31-22-30-77-5472",
@@ -104757,7 +104847,7 @@
     "la": 35.8308,
     "lo": 14.5319,
     "st": "harbour",
-    "s": -800,
+    "s": -200,
     "e": 476,
     "a": "Malta Port"
   },
@@ -104802,6 +104892,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-35-84-14-55-1863",
+    "n": "Marsaxlokk",
+    "t": "port",
+    "la": 35.8394,
+    "lo": 14.5481,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Malta Port"
+  },
+  {
     "k": "port:apa-port-at-35-84-5-57-5949",
     "n": "Sahara",
     "t": "port",
@@ -104810,6 +104911,39 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-35-86-14-57-1862",
+    "n": "Marsaskala",
+    "t": "port",
+    "la": 35.8649,
+    "lo": 14.5718,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Malta Port"
+  },
+  {
+    "k": "port:apa-port-at-35-88-14-50-1859",
+    "n": "Archaic harbour behind Kortin promontory at Marsa",
+    "t": "port",
+    "la": 35.8807,
+    "lo": 14.5008,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Malta Port"
+  },
+  {
+    "k": "port:apa-port-at-35-88-14-52-1860",
+    "n": "Grand Harbour",
+    "t": "port",
+    "la": 35.8821,
+    "lo": 14.5168,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Malta Port"
   },
   {
     "k": "port:apa-port-at-35-88-5-32-5939",
@@ -104830,6 +104964,17 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-35-90-14-50-1857",
+    "n": "Marsamxett",
+    "t": "port",
+    "la": 35.9012,
+    "lo": 14.4994,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Malta Port"
   },
   {
     "k": "port:apa-port-at-35-90-5-29-5940",
@@ -104872,6 +105017,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-35-92-14-50-1856",
+    "n": "San Giljan",
+    "t": "port",
+    "la": 35.9173,
+    "lo": 14.4955,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Malta Port"
+  },
+  {
     "k": "port:apa-port-at-35-93-14-34-1867",
     "n": "Ghajn Tuffieha and Golden bay",
     "t": "port",
@@ -104880,6 +105036,17 @@
     "st": "harbour",
     "s": -800,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-35-93-14-49-1855",
+    "n": "Saint George's bay",
+    "t": "port",
+    "la": 35.9261,
+    "lo": 14.489,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Malta Port"
   },
   {
     "k": "port:apa-port-at-35-94-14-42-1854",
@@ -105184,6 +105351,28 @@
     "a": "Anafi Port"
   },
   {
+    "k": "port:apa-port-at-36-35-5-23-728",
+    "n": "Roman villa Manilva at Castillo de la Duquesa",
+    "t": "port",
+    "la": 36.3523,
+    "lo": -5.2328,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Duquesa Port"
+  },
+  {
+    "k": "port:apa-port-at-36-37-5-23-729",
+    "n": "Roman villa at San Luis de Sabinillas",
+    "t": "port",
+    "la": 36.3666,
+    "lo": -5.2275,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Duquesa Port"
+  },
+  {
     "k": "port:apa-port-at-36-38-35-98-4667",
     "n": "Burunlu",
     "t": "port",
@@ -105194,6 +105383,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-36-38-5-21-731",
+    "n": "Torre de la Sal o Salto de la Mora",
+    "t": "port",
+    "la": 36.38,
+    "lo": -5.2113,
+    "st": "harbour",
+    "s": -800,
+    "e": 476,
+    "a": "Duquesa Port"
+  },
+  {
     "k": "port:apa-port-at-36-39-6-21-706",
     "n": "Punta del Boqueron",
     "t": "port",
@@ -105202,6 +105402,17 @@
     "st": "harbour",
     "s": -300,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-36-40-5-19-732",
+    "n": "Roman villa at Arroyo Vaquero",
+    "t": "port",
+    "la": 36.4038,
+    "lo": -5.1934,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Duquesa Port"
   },
   {
     "k": "port:apa-port-at-36-40-6-21-707",
@@ -106322,7 +106533,7 @@
     "la": 36.9293,
     "lo": 24.6977,
     "st": "harbour",
-    "s": -600,
+    "s": -200,
     "e": 476,
     "a": "Sifnos Port"
   },
@@ -106387,6 +106598,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-36-97-24-67-3034",
+    "n": "Blase",
+    "t": "port",
+    "la": 36.9724,
+    "lo": 24.6698,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Sifnos Port"
+  },
+  {
     "k": "port:apa-port-at-36-97-5-98-681",
     "n": "Roman villa at Carrascona",
     "t": "port",
@@ -106437,6 +106659,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-36-99-24-69-3035",
+    "n": "Armili tower",
+    "t": "port",
+    "la": 36.9916,
+    "lo": 24.688,
+    "st": "harbour",
+    "s": -600,
+    "e": 476,
+    "a": "Sifnos Port"
+  },
+  {
     "k": "port:apa-port-at-37-00-10-89-5781",
     "n": "Fish tank",
     "t": "port",
@@ -106475,6 +106708,17 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-37-02-24-69-3028",
+    "n": "Agia Nikitas",
+    "t": "port",
+    "la": 37.015,
+    "lo": 24.689,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Sifnos Port"
   },
   {
     "k": "port:apa-port-at-37-02-25-10-3054",
@@ -107462,6 +107706,17 @@
     "a": "Agathonisi Port"
   },
   {
+    "k": "port:apa-port-at-37-49-23-47-2759",
+    "n": "Lazareto islet",
+    "t": "port",
+    "la": 37.4901,
+    "lo": 23.471,
+    "st": "port",
+    "s": -200,
+    "e": 476,
+    "a": "Poros Port"
+  },
+  {
     "k": "port:apa-port-at-37-49-24-90-3020",
     "n": "Ayios Loukas",
     "t": "port",
@@ -107470,6 +107725,17 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-37-50-23-42-2755",
+    "n": "Megali Magoula",
+    "t": "port",
+    "la": 37.502,
+    "lo": 23.4232,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Poros Port"
   },
   {
     "k": "port:apa-port-at-37-50-24-89-3019",
@@ -107490,6 +107756,17 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-37-52-23-51-2757",
+    "n": "Kavo Vasili",
+    "t": "port",
+    "la": 37.524,
+    "lo": 23.5109,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Poros Port"
   },
   {
     "k": "port:apa-port-at-37-53-22-92-2784",
@@ -109123,6 +109400,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-39-05-26-53-3166",
+    "n": "Roman fort at Skala ton Loutron",
+    "t": "port",
+    "la": 39.0492,
+    "lo": 26.5287,
+    "st": "harbour",
+    "s": -600,
+    "e": 476,
+    "a": "Mytilene Port"
+  },
+  {
     "k": "port:apa-port-at-39-06-9-02-1302",
     "n": "Su Leunaxi",
     "t": "port",
@@ -109131,6 +109419,17 @@
     "st": "harbour",
     "s": -300,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-39-07-26-53-3167",
+    "n": "Phara",
+    "t": "port",
+    "la": 39.0699,
+    "lo": 26.5334,
+    "st": "harbour",
+    "s": -323,
+    "e": 476,
+    "a": "Mytilene Port"
   },
   {
     "k": "port:apa-port-at-39-08-1-44-913",
@@ -109171,6 +109470,28 @@
     "st": "harbour",
     "s": -600,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-39-10-26-51-3168",
+    "n": "Agios Nikolaos",
+    "t": "port",
+    "la": 39.1033,
+    "lo": 26.5147,
+    "st": "harbour",
+    "s": -600,
+    "e": 476,
+    "a": "Mytilene Port"
+  },
+  {
+    "k": "port:apa-port-at-39-10-26-56-3164",
+    "n": "Mytilini fish tank",
+    "t": "port",
+    "la": 39.0957,
+    "lo": 26.5571,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Mytilene Port"
   },
   {
     "k": "port:apa-port-at-39-10-9-01-1301",
@@ -111079,6 +111400,17 @@
     "a": "Procida port"
   },
   {
+    "k": "port:apa-port-at-40-78-14-08-1570",
+    "n": "Roman villa di Lucullo",
+    "t": "port",
+    "la": 40.7842,
+    "lo": 14.0836,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Pozzuoli Port"
+  },
+  {
     "k": "port:apa-port-at-40-78-14-37-1605",
     "n": "Roman villa Sora",
     "t": "port",
@@ -111087,6 +111419,17 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-40-79-14-09-1571",
+    "n": "Roman villa at Punta Terone",
+    "t": "port",
+    "la": 40.7869,
+    "lo": 14.0888,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Pozzuoli Port"
   },
   {
     "k": "port:apa-port-at-40-80-14-21-1598",
@@ -111107,6 +111450,17 @@
     "st": "harbour",
     "s": -200,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-40-82-14-08-1586",
+    "n": "Roman villa dei Pisoni",
+    "t": "port",
+    "la": 40.8205,
+    "lo": 14.0796,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Pozzuoli Port"
   },
   {
     "k": "port:apa-port-at-40-87-8-63-1346",
@@ -115849,6 +116203,17 @@
     "a": "Rovinj Port"
   },
   {
+    "k": "port:apa-port-at-45-06-13-67-2063",
+    "n": "Polari",
+    "t": "port",
+    "la": 45.059,
+    "lo": 13.669,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Rovinj Port"
+  },
+  {
     "k": "port:apa-port-at-45-06-33-59-3688",
     "n": "Kyzil-Yar lake",
     "t": "port",
@@ -115879,6 +116244,17 @@
     "e": 476
   },
   {
+    "k": "port:apa-port-at-45-10-13-63-2060",
+    "n": "San Pelagio",
+    "t": "port",
+    "la": 45.0958,
+    "lo": 13.6317,
+    "st": "port",
+    "s": -200,
+    "e": 476,
+    "a": "Rovinj Port"
+  },
+  {
     "k": "port:apa-port-at-45-10-29-05-3588",
     "n": "Fortificatia Getica",
     "t": "port",
@@ -115897,6 +116273,17 @@
     "st": "harbour",
     "s": -600,
     "e": 476
+  },
+  {
+    "k": "port:apa-port-at-45-12-13-62-2059",
+    "n": "Val Saline",
+    "t": "port",
+    "la": 45.117,
+    "lo": 13.6232,
+    "st": "harbour",
+    "s": -200,
+    "e": 476,
+    "a": "Rovinj Port"
   },
   {
     "k": "port:apa-port-at-45-12-14-80-2101",
@@ -117415,7 +117802,7 @@
     "la": 47.4726,
     "lo": -3.1003,
     "st": "harbour",
-    "s": -300,
+    "s": -200,
     "e": 476,
     "a": "Port d'Orange"
   },
@@ -117469,6 +117856,17 @@
     "s": -200,
     "e": 476,
     "a": "port de la Trinité-sur-Mer"
+  },
+  {
+    "k": "port:apa-port-at-47-58-3-10-1035",
+    "n": "Anse du Pô",
+    "t": "port",
+    "la": 47.578,
+    "lo": -3.095,
+    "st": "harbour",
+    "s": -300,
+    "e": 476,
+    "a": "Port d'Orange"
   },
   {
     "k": "port:apa-port-at-47-59-2-85-1046",
@@ -119269,16 +119667,6 @@
     "t": "port",
     "la": 51.3213,
     "lo": 1.3452,
-    "st": "harbour",
-    "s": -200,
-    "e": 476
-  },
-  {
-    "k": "port:apa-port-at-51-33-1-38-165",
-    "n": "Cliffsend Farm",
-    "t": "port",
-    "la": 51.33,
-    "lo": 1.382,
     "st": "harbour",
     "s": -300,
     "e": 476,
@@ -126768,6 +127156,17 @@
     "st": "harbour",
     "s": -200,
     "e": 700
+  },
+  {
+    "k": "port:apa-ruginium-2061",
+    "n": "Ruginium",
+    "t": "port",
+    "la": 45.0783,
+    "lo": 13.6348,
+    "st": "port",
+    "s": -200,
+    "e": 476,
+    "a": "Rovinj Port"
   },
   {
     "k": "port:apa-rusaddir-near-metagonium-prom-5925",
@@ -137447,6 +137846,16 @@
     "e": 400
   },
   {
+    "k": "religion:138522",
+    "n": "Pouzauges",
+    "t": "religious-site",
+    "la": 46.7835,
+    "lo": -0.8364,
+    "st": "temple",
+    "s": 50,
+    "e": 400
+  },
+  {
     "k": "religion:138530",
     "n": "S. Quiricus, Mon.",
     "t": "religious-site",
@@ -137861,6 +138270,16 @@
     "s": 50,
     "e": 50,
     "a": "Église Saint-Pierre de Chalencon"
+  },
+  {
+    "k": "religion:167709",
+    "n": "Chanac",
+    "t": "religious-site",
+    "la": 44.4661,
+    "lo": 3.3435,
+    "st": "temple",
+    "s": -200,
+    "e": 50
   },
   {
     "k": "religion:167726",
@@ -139056,6 +139475,16 @@
     "st": "temple",
     "s": -200,
     "e": -200
+  },
+  {
+    "k": "religion:246500",
+    "n": "Mézin",
+    "t": "religious-site",
+    "la": 44.0564,
+    "lo": 0.2577,
+    "st": "temple",
+    "s": 50,
+    "e": 400
   },
   {
     "k": "religion:246507",
@@ -144076,6 +144505,16 @@
     "st": "temple",
     "s": 50,
     "e": 50
+  },
+  {
+    "k": "religion:652043992",
+    "n": "Cova de les Dones",
+    "t": "religious-site",
+    "la": 39.1767,
+    "lo": -0.7687,
+    "st": "sanctuary",
+    "s": 50,
+    "e": 250
   },
   {
     "k": "religion:652237615",

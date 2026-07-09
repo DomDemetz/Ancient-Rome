@@ -195,11 +195,6 @@
     "label": "Temple of Zeus Aglaios"
   },
   {
-    "qid": "Q108066496",
-    "keys": ["pleiades:652043992", "religion:652043992"],
-    "label": "Cueva Dones"
-  },
-  {
     "qid": "Q108071128",
     "keys": ["building:452494691", "religion:452494691"],
     "label": "Early Christian Church on the Doss Trento"
@@ -406,11 +401,6 @@
     "label": "Fertőrákos mithraeum"
   },
   {
-    "qid": "Q118526044",
-    "keys": ["religion:167709", "pleiades:167709"],
-    "label": null
-  },
-  {
     "qid": "Q1189476",
     "keys": ["building:680348962", "religion:680348962"],
     "label": "Nostra Segnora de Mesumundu"
@@ -443,16 +433,6 @@
   {
     "qid": "Q11951235",
     "keys": ["pleiades:683591498", "religion:683591498"],
-    "label": null
-  },
-  {
-    "qid": "Q120221390",
-    "keys": ["religion:138522", "pleiades:138522"],
-    "label": null
-  },
-  {
-    "qid": "Q120232179",
-    "keys": ["religion:246500", "pleiades:246500"],
     "label": null
   },
   {
@@ -766,18 +746,6 @@
     "label": "Temple of Apollo Lepsios"
   },
   {
-    "qid": "Q1344739",
-    "keys": [
-      "port:apa-alexandria-megas-limen-portus-magnus-and-5517",
-      "port:apa-alexandria-megas-limen-portus-magnus-por-5520",
-      "port:apa-alexandria-megas-limen-portus-magnus-rom-5524",
-      "port:apa-port-at-31-15-29-85-5529",
-      "port:apa-port-at-31-22-29-91-5515",
-      "port:apa-port-at-31-22-29-92-5514"
-    ],
-    "label": "Alexandria Port"
-  },
-  {
     "qid": "Q134532326",
     "keys": ["pleiades:422949", "religion:422949"],
     "label": "Sanctuary of Jupiter Latiaris"
@@ -1034,6 +1002,11 @@
     "qid": "Q15124178",
     "keys": ["building:707601", "religion:707601"],
     "label": "Panagia tis Kyras"
+  },
+  {
+    "qid": "Q15126107",
+    "keys": ["port:apa-port-at-51-33-1-38-165", "port:apa-port-at-51-32-1-35-166"],
+    "label": "Richborough Port"
   },
   {
     "qid": "Q151336",
@@ -1334,17 +1307,6 @@
     "label": "Fossa Sanguinis"
   },
   {
-    "qid": "Q1798768",
-    "keys": [
-      "port:apa-port-at-36-34-5-26-727",
-      "port:apa-port-at-36-35-5-23-728",
-      "port:apa-port-at-36-37-5-23-729",
-      "port:apa-port-at-36-38-5-21-731",
-      "port:apa-port-at-36-40-5-19-732"
-    ],
-    "label": "Duquesa Port"
-  },
-  {
     "qid": "Q1806561",
     "keys": ["building:837735181", "religion:837735181"],
     "label": "Basilica of Saint-Pierre-aux-Nonnains"
@@ -1528,20 +1490,6 @@
     "qid": "Q20871005",
     "keys": ["pleiades:763337277", "religion:rel-055"],
     "label": "Temple of Baalshamin"
-  },
-  {
-    "qid": "Q20924967",
-    "keys": [
-      "port:apa-port-at-35-83-14-53-1864",
-      "port:apa-port-at-35-84-14-55-1863",
-      "port:apa-port-at-35-86-14-57-1862",
-      "port:apa-port-at-35-88-14-50-1859",
-      "port:apa-port-at-35-88-14-52-1860",
-      "port:apa-port-at-35-90-14-50-1857",
-      "port:apa-port-at-35-92-14-50-1856",
-      "port:apa-port-at-35-93-14-49-1855"
-    ],
-    "label": null
   },
   {
     "qid": "Q2095195",
@@ -1816,16 +1764,6 @@
     "label": "Sanctuary of Apollo Korythos"
   },
   {
-    "qid": "Q25166561",
-    "keys": [
-      "port:apa-port-at-36-93-24-70-3033",
-      "port:apa-port-at-36-97-24-67-3034",
-      "port:apa-port-at-36-99-24-69-3035",
-      "port:apa-port-at-37-02-24-69-3028"
-    ],
-    "label": "Sifnos Port"
-  },
-  {
     "qid": "Q25166563",
     "keys": [
       "port:apa-kallisti-port-of-thira-3118",
@@ -1843,27 +1781,6 @@
     "qid": "Q25168395",
     "keys": ["port:apa-port-at-37-09-25-81-3070", "port:apa-donusa-insula-3069"],
     "label": "Donoussa Port"
-  },
-  {
-    "qid": "Q25168407",
-    "keys": [
-      "port:apa-pohon-pogon-pogonus-port-of-troizen-dama-2754",
-      "port:apa-port-at-37-49-23-47-2759",
-      "port:apa-port-at-37-50-23-42-2755",
-      "port:apa-port-at-37-52-23-51-2757"
-    ],
-    "label": "Poros Port"
-  },
-  {
-    "qid": "Q25168413",
-    "keys": [
-      "port:apa-mytilene-maloenta-commercial-port-3162",
-      "port:apa-port-at-39-05-26-53-3166",
-      "port:apa-port-at-39-07-26-53-3167",
-      "port:apa-port-at-39-10-26-51-3168",
-      "port:apa-port-at-39-10-26-56-3164"
-    ],
-    "label": "Mytilene Port"
   },
   {
     "qid": "Q2525951",
@@ -1909,17 +1826,6 @@
     "qid": "Q26224641",
     "keys": ["port:apa-port-at-42-65-18-09-2272", "port:apa-port-at-42-67-18-12-2271"],
     "label": "Dubrovnik Port"
-  },
-  {
-    "qid": "Q26224647",
-    "keys": [
-      "port:apa-port-at-45-06-13-62-2062",
-      "port:apa-port-at-45-06-13-67-2063",
-      "port:apa-port-at-45-10-13-63-2060",
-      "port:apa-port-at-45-12-13-62-2059",
-      "port:apa-ruginium-2061"
-    ],
-    "label": "Rovinj Port"
   },
   {
     "qid": "Q2653546",
@@ -2131,11 +2037,6 @@
     "label": "Ramappa Temple"
   },
   {
-    "qid": "Q3398448",
-    "keys": ["port:apa-port-at-47-47-3-10-1037", "port:apa-port-at-47-58-3-10-1035"],
-    "label": "Port d'Orange"
-  },
-  {
     "qid": "Q343053",
     "keys": ["pleiades:75740664", "religion:75740664"],
     "label": "Ħaġar Qim"
@@ -2159,17 +2060,6 @@
     "qid": "Q34964780",
     "keys": ["port:apa-port-at-43-36-6-72-1213", "port:apa-port-at-43-40-6-71-1214"],
     "label": "Port Férréol"
-  },
-  {
-    "qid": "Q34966015",
-    "keys": [
-      "port:apa-access-to-portus-iulius-julius-port-of-j-1587",
-      "port:apa-nesis-odysseus-port-of-the-cyclops-1593",
-      "port:apa-port-at-40-78-14-08-1570",
-      "port:apa-port-at-40-79-14-09-1571",
-      "port:apa-port-at-40-82-14-08-1586"
-    ],
-    "label": "Pozzuoli Port"
   },
   {
     "qid": "Q3517517",

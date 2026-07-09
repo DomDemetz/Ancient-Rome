@@ -10701,5 +10701,40 @@
     "qid": "Q955207",
     "reason": "anachronistic identity: Meloria (inception 1867, island)",
     "confidence": "high"
+  },
+  {
+    "key": "port:apa-pteleon-pteleos-east-2566",
+    "action": "qid->containedInQid",
+    "qid": "Q2001558",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "port:apa-pteleon-pteleos-west-2565",
+    "action": "qid->containedInQid",
+    "qid": "Q2001558",
+    "reason": "pure settlement QID on 'port' record",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-lyon-gier",
+    "action": "restored->qid (this IS the Gier)",
+    "qid": "Q3067",
+    "reason": "Q3067 is the Gier aqueduct; keep-closest strip was wrong for a linear feature",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-lyon-yzeron",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3067",
+    "reason": "Q3067 is the Gier specifically; the self-reference restore rule cannot distinguish WHICH aqueduct — different Lyon aqueduct",
+    "confidence": "high"
+  },
+  {
+    "key": "aqueduct:aq-lyon-mont-dor",
+    "action": "removed-qid-and-wd-fields",
+    "qid": "Q3067",
+    "reason": "Q3067 is the Gier specifically; the self-reference restore rule cannot distinguish WHICH aqueduct — different Lyon aqueduct",
+    "confidence": "high"
   }
 ]
