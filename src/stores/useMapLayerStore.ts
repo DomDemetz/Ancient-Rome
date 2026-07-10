@@ -301,7 +301,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
       {
         key: 'SitesInfrastructure',
-        label: 'Bridges, Baths & Ports',
+        label: 'Infrastructure Sites',
         activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
       },
     ],
