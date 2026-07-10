@@ -16,7 +16,12 @@ belongs to, writing registry/unified-nodes.json:
 Match rules, in order:
   1. IDENTITY ("same"): entity QID == node QID  →  the entity IS the place
      (e.g. a religious-site record that is the town itself).
-  2. LOCATION ("at"): nearest settlement-grade node within 8 km — a
+  2. STRUCTURE IDENTITY ("same"): a non-settlement DARE node whose type is
+     structure-compatible with the entity (villa↔14, temple↔61, bridge↔51…)
+     within 1.5 km sharing a name — the same physical structure recorded in
+     both silos (the cross-dataset-duplicate family from the 2026-07-10
+     cleanup). Conflicting QIDs on the two records veto the match.
+  3. LOCATION ("at"): nearest settlement-grade node within 8 km — a
      settlement-typed DARE node, a major, or a population city. Battles are
      given 25 km (fought NEAR a place, named after it).
 
@@ -24,7 +29,7 @@ Registry artifact only — chunks are untouched, so the join survives chunk
 regeneration. Shipwrecks are skipped (they belong to the sea).
 Consumers: popup/panel adoption listed on the workbench board.
 """
-import glob, json, math, os
+import glob, json, math, os, re
 from collections import defaultdict
 import sys as _sys, os as _os
 _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'lib'))
@@ -35,6 +40,28 @@ BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 SKIP_TYPES = {"shipwreck"}
 AT_RADIUS_KM = {"battle": 25.0}
 DEFAULT_RADIUS = 8.0
+
+# DARE structure-type code -> entity types/subtypes it can be identical to
+STRUCT_COMPAT = {
+    14: {"villa", "estate", "farm", "townhouse", "bath"},
+    61: {"temple", "sanctuary", "shrine", "monument", "church", "religious-site"},
+    51: {"bridge", "aqueduct"},
+    52: {"aqueduct", "cistern", "bath", "nymphaeum"},
+    21: {"monastery", "church", "basilica", "religious-site"},
+    24: {"church", "basilica", "monastery", "religious-site"},
+    57: {"mine", "quarry"},
+    66: {"bath", "thermae"},
+    64: {"monument", "arch", "tomb", "mausoleum"},
+    32: {"tomb", "tumulus", "mausoleum", "cemetery"},
+    76: {"lighthouse"},
+    53: {"villa", "estate", "farm"},
+    34: {"villa", "estate", "farm"},
+    55: {"church", "basilica", "villa", "monument"},
+}
+STRUCT_RADIUS = 1.5
+
+def norm(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
 def km(a, b):
     (la1, lo1), (la2, lo2) = a, b
@@ -63,6 +90,37 @@ for p in anchors:
 for p in places:
     if p.get("qid") and p["qid"] not in qid_to_node:
         qid_to_node[p["qid"]] = p
+
+# structure-typed DARE nodes, gridded at 0.1° for the tight identity pass
+struct_grid = defaultdict(list)
+for p in places:
+    t = p.get("dare", {}).get("type")
+    if t in STRUCT_COMPAT:
+        struct_grid[(int(p["lat"] * 10), int(p["lng"] * 10))].append((p, t))
+
+def structure_identity(e):
+    """Same physical structure recorded as both a DARE node and a typed
+    entity: compatible type, <=1.5 km, shared name, no QID conflict."""
+    kinds = {e.get("type"), e.get("subtype")}
+    en = norm(e.get("name"))
+    if not en:
+        return None, None
+    gy, gx = int(e["lat"] * 10), int(e["lng"] * 10)
+    best, bd = None, STRUCT_RADIUS
+    for dy in (-1, 0, 1):
+        for dx in (-1, 0, 1):
+            for p, t in struct_grid.get((gy + dy, gx + dx), []):
+                if not (STRUCT_COMPAT[t] & kinds):
+                    continue
+                if e.get("qid") and p.get("qid") and e["qid"] != p["qid"]:
+                    continue
+                pn = norm(p.get("name"))
+                if not pn or (en != pn and en not in pn and pn not in en):
+                    continue
+                d = km((e["lat"], e["lng"]), (p["lat"], p["lng"]))
+                if d < bd:
+                    best, bd = p, d
+    return best, bd
 
 def nearest_anchor(lat, lng, radius):
     """Prefer a real city (major / population node) over a nearer minor
@@ -95,8 +153,12 @@ for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
         if e.get("qid") and e["qid"] in qid_to_node:
             node, d, rel = qid_to_node[e["qid"]], 0.0, "same"
         else:
-            node, d = nearest_anchor(e["lat"], e["lng"], radius)
-            rel = "at" if node else None
+            node, d = structure_identity(e)
+            if node:
+                rel = "same"
+            else:
+                node, d = nearest_anchor(e["lat"], e["lng"], radius)
+                rel = "at" if node else None
         if node:
             out[e["id"]] = {
                 "node": node["id"],

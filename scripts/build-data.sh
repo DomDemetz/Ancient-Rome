@@ -16,9 +16,16 @@ python3 scripts/build-entities.py
 echo ""
 
 echo "══════════════════════════════════════════"
-echo "  STEP 1b · Join unified entities to canonical nodes"
+echo "  STEP 1b · Regenerate unified chunks + join to canonical nodes"
 echo "══════════════════════════════════════════"
+# Regen preserves chunk-resident enrichments (qid verdicts, containedInQid,
+# estimatedTemporal…) by id-merge; the rerunnable passes then re-derive the
+# rest. Keep this order — it is what makes the chunks derivable again.
+npx tsx scripts/build-unified-entities.ts
 python3 scripts/normalize-unified-qids.py
+python3 scripts/enforce-qid-tombstones.py
+python3 scripts/floor-estimated-dates.py
+python3 scripts/apply-event-caps.py
 python3 scripts/attach-nodes-to-unified.py
 echo ""
 

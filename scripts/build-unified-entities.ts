@@ -18,6 +18,7 @@ interface UnifiedEntity {
   startYear?: number
   endYear?: number
   source: string
+  description?: string
   props?: Record<string, unknown>
 }
 
@@ -246,11 +247,12 @@ async function main() {
       startYear: b.year,
       endYear: b.year,
       source: b.source ?? 'compiled',
+      // top-level: loadBattles() reads e.description, not props
+      ...(b.description && { description: b.description }),
       props: {
         ...(b.outcome && { outcome: b.outcome }),
         ...(b.combatants && { combatants: b.combatants }),
         ...(b.commander && { commander: b.commander }),
-        ...(b.description && { description: b.description }),
       },
     })
   }
@@ -305,10 +307,10 @@ async function main() {
       startYear: b.year,
       endYear: b.year,
       source: 'wikidata',
+      ...(b.description && { description: b.description }),
       props: {
         outcome: 'unknown',
         ...(b.partOf && { partOf: b.partOf }),
-        ...(b.description && { description: b.description }),
       },
     })
     wdAdded++
@@ -326,6 +328,8 @@ async function main() {
       lng: number
       buildingType?: string
       constructionYear?: number
+      attestedFrom?: number
+      attestedTo?: number
       builder?: string
       description?: string
       source?: string
@@ -342,7 +346,8 @@ async function main() {
       lat: b.lat,
       lng: b.lng,
       qid: b.qid,
-      startYear: b.constructionYear,
+      startYear: b.constructionYear ?? b.attestedFrom,
+      endYear: b.attestedTo,
       source: b.source ?? 'Pleiades',
       props: {
         ...(b.builder && { builder: b.builder }),
@@ -668,6 +673,67 @@ async function main() {
     })
 
   console.log(`\nTotal entities: ${entities.length}`)
+
+  // Preserve chunk-resident enrichments: several passes (QID geo-matching,
+  // verdict application, knowledge merges) write into the chunk files, not
+  // the sources — a bare regen erased them (200 battle QIDs, 107 shipwreck
+  // QIDs in the 2026-07-10 dry run). Values merge by id where the fresh
+  // build has none; entities the sources dropped are NOT resurrected.
+  // Rerun enforce-qid-tombstones.py + apply-event-caps.py after this build.
+  // estimatedTemporal marks period-bucket placeholder dates — it gates
+  // floor-estimated-dates.py, which must rerun after this build (the fresh
+  // startYears are the raw placeholders until it does).
+  // startYear/endYear are fill-missing only: fresh source-derived dates win;
+  // chunk dates survive where the source is silent (legacy derivations).
+  // 0 is the "unknown" sentinel — never propagated back.
+  const ENRICH_FIELDS = [
+    'qid',
+    'containedInQid',
+    'destroyedYear',
+    'description',
+    'image',
+    'estimatedTemporal',
+    'startYear',
+    'endYear',
+  ] as const
+  const { readdir } = await import('fs/promises')
+  const prior = new Map<string, Record<string, unknown>>()
+  try {
+    for (const f of await readdir('src/data/unified')) {
+      if (!f.endsWith('.json')) continue
+      for (const old of await loadJson<Array<Record<string, unknown>>>(`src/data/unified/${f}`)) {
+        if (typeof old.id === 'string') prior.set(old.id, old)
+      }
+    }
+  } catch {
+    /* first build — nothing to preserve */
+  }
+  // qid/containedInQid: the chunk state has been through verdict swarms and
+  // tombstones — it OVERRIDES the raw source-derived value (the Pleiades
+  // registry stamps structures with their city's QID; the chunk carries the
+  // corrected split: own qid + containedInQid). Everything else fills gaps.
+  const ADJUDICATED_FIELDS = new Set(['qid', 'containedInQid'])
+  let preserved = 0
+  for (const e of entities) {
+    const old = prior.get(e.id)
+    if (!old) continue
+    const rec = e as unknown as Record<string, unknown>
+    for (const f of ENRICH_FIELDS) {
+      const oldHas = old[f] != null && old[f] !== 0
+      if (oldHas && (rec[f] == null || (ADJUDICATED_FIELDS.has(f) && rec[f] !== old[f]))) {
+        rec[f] = old[f]
+        preserved++
+      }
+    }
+    const oldProps = old.props as Record<string, unknown> | undefined
+    if (oldProps) {
+      for (const [k, v] of Object.entries(oldProps)) {
+        if (!e.props) e.props = {}
+        if (e.props[k] == null && v != null) e.props[k] = v
+      }
+    }
+  }
+  console.log(`Enrichment merge: ${preserved} field values preserved from existing chunks`)
 
   // Emit per-type chunks for lazy loading (migrated layers load only their type)
   const CHUNKED_TYPES = [
