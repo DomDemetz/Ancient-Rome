@@ -159,7 +159,13 @@ def check_settlement_files(rep):
 
 def check_cross_dataset_dupes(rep, cr):
     """Same place present as both a settlement:* and building:* entry:
-    identical-ish name within ~2.5 km. Uses coords from the layer files."""
+    identical-ish name within ~2.5 km. Uses coords from the layer files.
+
+    Pairs the unified-nodes join has adjudicated as a structure AT that
+    settlement's node (rel='at', e.g. 'Amphitheater of Alba Fucens' at
+    Alba Fucens) are expected coexistence, not duplicates — skipped.
+    rel='same' pairs stay flagged: the join itself says they are one
+    entity living in two silos."""
     coords = {}
     b = json.load(open(DATA / "buildings" / "buildings.json"))
     for x in b:
@@ -168,6 +174,22 @@ def check_cross_dataset_dupes(rep, cr):
     for x in d:
         coords[f"settlement:{x['id']}"] = (x["lat"], x["lng"],
                                            norm_name(x.get("name")) or norm_name(x.get("modern")))
+
+    # settlement key -> canonical node id, and building key -> its 'at' join
+    dare_node = {}
+    try:
+        for p in json.load(open(DATA / "places" / "places.json")):
+            if p.get("dare"):
+                dare_node[f"settlement:{p['dare']['id']}"] = p["id"]
+    except FileNotFoundError:
+        pass
+    at_join = {}
+    try:
+        for k, j in json.load(open(DATA / "registry" / "unified-nodes.json")).items():
+            if j.get("rel") == "at":
+                at_join[k] = j.get("node")
+    except FileNotFoundError:
+        pass
 
     # bucket by rounded coords for O(n) neighborhood lookup
     buckets = defaultdict(list)
@@ -192,6 +214,9 @@ def check_cross_dataset_dupes(rep, cr):
                         continue
                 dist_km = math.hypot((la1 - la2) * 111, (lo1 - lo2) * 111 * math.cos(math.radians(la1)))
                 if dist_km <= 2.5:
+                    bk, sk = (k1, k2) if k1.startswith("building:") else (k2, k1)
+                    if at_join.get(bk) and at_join[bk] == dare_node.get(sk):
+                        continue  # adjudicated: structure at its town
                     pair = tuple(sorted((k1, k2)))
                     if pair not in seen:
                         seen.add(pair)
