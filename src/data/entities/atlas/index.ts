@@ -24,6 +24,8 @@ export interface AtlasEntity {
   e?: number
   /** 1 knowledge-bearing · 2 named · 3 unnamed texture */
   t: 1 | 2 | 3
+  /** provenance codes — see SOURCE_LABELS in AtlasLayer */
+  p?: string
 }
 
 export const ATLAS_CATEGORIES = [

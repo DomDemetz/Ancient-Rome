@@ -85,6 +85,32 @@ def node_id_of(source_key):
     return None
 
 
+# provenance: source-key prefix -> one-letter code (popup expands to labels;
+# a string of codes costs ~4 bytes/row vs ~25 for labels x 92k rows)
+def source_codes(sources):
+    codes = set()
+    for k in sources:
+        if k.startswith("vici:"):
+            codes.add("v")
+        elif k.startswith(("pleiades:", "building:", "place:pl-")):
+            codes.add("p")
+        elif k.startswith(("dare:", "place:dare-")):
+            codes.add("d")
+        elif k.startswith(("wd-", "place:wd-")) or ":wd-" in k:
+            codes.add("w")
+        elif k.startswith("port:"):
+            codes.add("a")
+        elif k.startswith("shipwreck:"):
+            codes.add("o")
+        elif k.startswith("mine:"):
+            codes.add("m")
+        elif k.startswith("amphitheater:"):
+            codes.add("r")
+        else:
+            codes.add("u")
+    return "".join(sorted(codes))
+
+
 MINED_PATH = DATA / "registry" / "vici-other-kinds.json"
 MINED_KINDS = json.load(open(MINED_PATH)) if MINED_PATH.exists() else {}
 # research-swarm verdicts for generic 'building' rows (2026-07-11:
@@ -161,7 +187,7 @@ def main():
             pass
         cat = kind  # one chunk per kind — the toggles ARE the things (Dominik 2026-07-11)
         row = {"i": e["id"], "la": round(e["lat"], 4), "lo": round(e["lng"], 4),
-               "k": kind}
+               "k": kind, "p": source_codes(e["sources"])}
         if e.get("subtype") and e["subtype"] != kind and e["kind"] != "building":
             row["st"] = e["subtype"]
         name = (e.get("name") or "").strip()

@@ -47,6 +47,19 @@ function spatialSample<T extends { la: number; lo: number }>(items: T[], gridSiz
  *  knowledge lives in the places store, not the features store */
 const NODE_KEY = /^(dare|pl|wd)-/
 
+/** provenance codes stamped at emit (build-entity-atlas.py) */
+const SOURCE_LABELS: Record<string, string> = {
+  v: 'vici.org',
+  p: 'Pleiades',
+  d: 'DARE',
+  w: 'Wikidata',
+  a: 'Ancient Ports',
+  o: 'DARMC/OxREP',
+  m: 'OxREP',
+  r: 'Amphitheatre DB',
+  u: 'curated',
+}
+
 export function AtlasLayer({ data, config }: AtlasLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
@@ -112,6 +125,12 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       const layerName = isNode ? 'knowledge-places' : 'knowledge-features'
       const kEntry = (!isNode ? store?.[e.i] : undefined) ?? (e.d ? store?.[e.d] : undefined)
       const kKey = !isNode && store?.[e.i] ? e.i : (e.d ?? e.i)
+      if (e.p) {
+        const srcs = [...e.p].map((c) => SOURCE_LABELS[c]).filter(Boolean)
+        if (srcs.length) {
+          html += `<div class="map-tooltip-fact">Source: ${esc(srcs.join(' · '))}</div>`
+        }
+      }
       if (kEntry?.extract) {
         html = appendWikiTooltip(html, kKey, store, layerName)
       } else if (kEntry?.crossRef) {
