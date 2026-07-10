@@ -1,0 +1,5326 @@
+{
+  "hanson-argos-achaea-2": {
+    "key": "pl-900012",
+    "dist_km": 0.9
+  },
+  "hanson-athenae": {
+    "key": "pl-579885",
+    "dist_km": 0.1
+  },
+  "hanson-megara": {
+    "key": "pl-570468",
+    "dist_km": 1.1
+  },
+  "hanson-citium": {
+    "key": "dare-21563",
+    "dist_km": 0.9
+  },
+  "hanson-eretria": {
+    "key": "dare-21973",
+    "dist_km": 0.5
+  },
+  "hanson-chalcis": {
+    "key": "pl-540703",
+    "dist_km": 10.2
+  },
+  "hanson-delphi": {
+    "key": "dare-21949",
+    "dist_km": 0.2
+  },
+  "hanson-eleusis": {
+    "key": "pl-579920",
+    "dist_km": 0.1
+  },
+  "hanson-sparta": {
+    "key": "pl-900027",
+    "dist_km": 1.1
+  },
+  "hanson-thebae": {
+    "key": "dare-21952",
+    "dist_km": 0.1
+  },
+  "hanson-zacynthus": {
+    "key": "pl-531155",
+    "dist_km": 0.0
+  },
+  "hanson-celenderis": {
+    "key": "pl-648596",
+    "dist_km": 0.5
+  },
+  "hanson-tyrus": {
+    "key": "pl-678437",
+    "dist_km": 1.4
+  },
+  "hanson-metapontum": {
+    "key": "pl-442658",
+    "dist_km": 0.1
+  },
+  "hanson-sinope": {
+    "key": "pl-857321",
+    "dist_km": 0.6
+  },
+  "hanson-amisus": {
+    "key": "pl-857024",
+    "dist_km": 0.0
+  },
+  "hanson-salamis": {
+    "key": "dare-21562",
+    "dist_km": 0.6
+  },
+  "hanson-cumae": {
+    "key": "pl-432808",
+    "dist_km": 0.3
+  },
+  "hanson-corcyra": {
+    "key": "dare-21985",
+    "dist_km": 0.5
+  },
+  "hanson-syracusae": {
+    "key": "pl-462503",
+    "dist_km": 1.1
+  },
+  "hanson-regium": {
+    "key": "dare-41280",
+    "dist_km": 1.4
+  },
+  "hanson-messana": {
+    "key": "pl-462538",
+    "dist_km": 0.0
+  },
+  "hanson-leontini": {
+    "key": "dare-16883",
+    "dist_km": 0.8
+  },
+  "hanson-mylae": {
+    "key": "pl-462379",
+    "dist_km": 1.7
+  },
+  "hanson-croton": {
+    "key": "pl-900024",
+    "dist_km": 1.6
+  },
+  "hanson-tarentum": {
+    "key": "pl-442810",
+    "dist_km": 1.4
+  },
+  "hanson-locri": {
+    "key": "pl-452369",
+    "dist_km": 3.7
+  },
+  "hanson-helorus": {
+    "key": "dare-22879",
+    "dist_km": 0.2
+  },
+  "hanson-buthrotum": {
+    "key": "dare-21416",
+    "dist_km": 0.1
+  },
+  "hanson-delos": {
+    "key": "pl-599588",
+    "dist_km": 0.2
+  },
+  "hanson-epidaurus": {
+    "key": "pl-570228",
+    "dist_km": 2.6
+  },
+  "hanson-leucas": {
+    "key": "pl-530974",
+    "dist_km": 0.0
+  },
+  "hanson-paros": {
+    "key": "pl-599867",
+    "dist_km": 1.1
+  },
+  "hanson-abydus": {
+    "key": "dare-22863",
+    "dist_km": 0.5
+  },
+  "hanson-assus": {
+    "key": "dare-21199",
+    "dist_km": 0.0
+  },
+  "hanson-cnidus": {
+    "key": "pl-599576",
+    "dist_km": 1.4
+  },
+  "hanson-cyme": {
+    "key": "pl-550506",
+    "dist_km": 0.0
+  },
+  "hanson-cyzicus": {
+    "key": "pl-511218",
+    "dist_km": 1.6
+  },
+  "hanson-dardanium": {
+    "key": "pl-501393",
+    "dist_km": 1.3
+  },
+  "hanson-iasus": {
+    "key": "pl-599664",
+    "dist_km": 0.3
+  },
+  "hanson-ilium": {
+    "key": "pl-550595",
+    "dist_km": 1.7
+  },
+  "hanson-lebedus": {
+    "key": "pl-599754",
+    "dist_km": 0.6
+  },
+  "hanson-magnesia-asia-2": {
+    "key": "pl-550706",
+    "dist_km": 0.8
+  },
+  "hanson-methymna": {
+    "key": "pl-550738",
+    "dist_km": 0.2
+  },
+  "hanson-myrina": {
+    "key": "dare-23582",
+    "dist_km": 0.0
+  },
+  "hanson-mytilene": {
+    "key": "pl-550763",
+    "dist_km": 0.8
+  },
+  "hanson-phocaea": {
+    "key": "pl-550823",
+    "dist_km": 0.7
+  },
+  "hanson-samos": {
+    "key": "pl-599925",
+    "dist_km": 0.8
+  },
+  "hanson-tius": {
+    "key": "dare-21424",
+    "dist_km": 2.7
+  },
+  "hanson-carpasium": {
+    "key": "pl-707526",
+    "dist_km": 0.5
+  },
+  "hanson-chythrus": {
+    "key": "dare-22722",
+    "dist_km": 0.8
+  },
+  "hanson-curium": {
+    "key": "dare-21565",
+    "dist_km": 0.0
+  },
+  "hanson-soli": {
+    "key": "pl-707624",
+    "dist_km": 0.1
+  },
+  "hanson-taucheira": {
+    "key": "pl-373736",
+    "dist_km": 0.0
+  },
+  "hanson-roma": {
+    "key": "pl-423025",
+    "dist_km": 0.1
+  },
+  "hanson-tarquinii": {
+    "key": "pl-413332",
+    "dist_km": 3.8
+  },
+  "hanson-aspendus": {
+    "key": "dare-21448",
+    "dist_km": 0.3
+  },
+  "hanson-perge": {
+    "key": "dare-21450",
+    "dist_km": 0.1
+  },
+  "hanson-rhodiapolis": {
+    "key": "dare-21453",
+    "dist_km": 0.0
+  },
+  "hanson-selge": {
+    "key": "pl-639100",
+    "dist_km": 0.2
+  },
+  "hanson-side": {
+    "key": "pl-639105",
+    "dist_km": 0.3
+  },
+  "hanson-sillyum": {
+    "key": "dare-21449",
+    "dist_km": 0.5
+  },
+  "hanson-simena": {
+    "key": "pl-639110",
+    "dist_km": 0.1
+  },
+  "hanson-tenedos": {
+    "key": "pl-639138",
+    "dist_km": 0.2
+  },
+  "hanson-thasos": {
+    "key": "pl-501634",
+    "dist_km": 4.2
+  },
+  "hanson-histria": {
+    "key": "pl-216839",
+    "dist_km": 0.0
+  },
+  "hanson-himera": {
+    "key": "pl-462513",
+    "dist_km": 0.4
+  },
+  "hanson-panormus": {
+    "key": "dare-16879",
+    "dist_km": 0.0
+  },
+  "hanson-samothrace": {
+    "key": "pl-501597",
+    "dist_km": 0.6
+  },
+  "hanson-phaselis": {
+    "key": "pl-639051",
+    "dist_km": 0.4
+  },
+  "hanson-chalcedon": {
+    "key": "pl-520988",
+    "dist_km": 0.2
+  },
+  "hanson-acrae": {
+    "key": "pl-462068",
+    "dist_km": 0.1
+  },
+  "hanson-enna": {
+    "key": "pl-462236",
+    "dist_km": 0.0
+  },
+  "hanson-lampsacus": {
+    "key": "pl-501570",
+    "dist_km": 0.8
+  },
+  "hanson-neapolis-macedonia": {
+    "key": "pl-501523",
+    "dist_km": 0.0
+  },
+  "hanson-byzantium": {
+    "key": "pl-77402394",
+    "dist_km": 0.6
+  },
+  "hanson-ambracia": {
+    "key": "dare-21984",
+    "dist_km": 0.4
+  },
+  "hanson-dyrrachium": {
+    "key": "dare-16902",
+    "dist_km": 1.7
+  },
+  "hanson-teus": {
+    "key": "pl-550913",
+    "dist_km": 0.0
+  },
+  "hanson-heraclea-thracia": {
+    "key": "pl-511357",
+    "dist_km": 0.1
+  },
+  "hanson-colophon": {
+    "key": "pl-599578",
+    "dist_km": 1.2
+  },
+  "hanson-ptolemais-cyrenaica": {
+    "key": "dare-21857",
+    "dist_km": 0.3
+  },
+  "hanson-abae": {
+    "key": "dare-23113",
+    "dist_km": 1.6
+  },
+  "hanson-acharnae": {
+    "key": "pl-579842",
+    "dist_km": 0.3
+  },
+  "hanson-acraephia": {
+    "key": "pl-540617",
+    "dist_km": 0.1
+  },
+  "hanson-aegina": {
+    "key": "pl-579853",
+    "dist_km": 6.8
+  },
+  "hanson-aegira": {
+    "key": "pl-570040",
+    "dist_km": 0.6
+  },
+  "hanson-aegium": {
+    "key": "pl-570049",
+    "dist_km": 0.0
+  },
+  "hanson-calydon": {
+    "key": "pl-540699",
+    "dist_km": 0.6
+  },
+  "hanson-chaeronea": {
+    "key": "dare-22857",
+    "dist_km": 0.4
+  },
+  "hanson-cierium": {
+    "key": "dare-25177",
+    "dist_km": 1.0
+  },
+  "hanson-cirrha": {
+    "key": "dare-29378",
+    "dist_km": 0.5
+  },
+  "hanson-cleitor": {
+    "key": "pl-570360",
+    "dist_km": 5.2
+  },
+  "hanson-coronea": {
+    "key": "pl-540717",
+    "dist_km": 0.2
+  },
+  "hanson-dyme": {
+    "key": "pl-570205",
+    "dist_km": 0.0
+  },
+  "hanson-elateia": {
+    "key": "dare-22815",
+    "dist_km": 2.6
+  },
+  "hanson-euonymon": {
+    "key": "pl-579932",
+    "dist_km": 0.4
+  },
+  "hanson-gonnus": {
+    "key": "pl-540793",
+    "dist_km": 1.7
+  },
+  "hanson-gythium": {
+    "key": "dare-21912",
+    "dist_km": 0.0
+  },
+  "hanson-halae": {
+    "key": "pl-540800",
+    "dist_km": 0.6
+  },
+  "hanson-hephaestia": {
+    "key": "dare-22859",
+    "dist_km": 0.7
+  },
+  "hanson-heraclea-achaea": {
+    "key": "pl-541157",
+    "dist_km": 0.5
+  },
+  "hanson-hyampolis": {
+    "key": "pl-540820",
+    "dist_km": 1.2
+  },
+  "hanson-larisa-achaea": {
+    "key": "pl-540905",
+    "dist_km": 0.1
+  },
+  "hanson-lebadea": {
+    "key": "pl-540907",
+    "dist_km": 0.6
+  },
+  "hanson-lilaea": {
+    "key": "pl-540915",
+    "dist_km": 0.5
+  },
+  "hanson-lousoi": {
+    "key": "dare-46221",
+    "dist_km": 0.5
+  },
+  "hanson-lycosura": {
+    "key": "dare-21908",
+    "dist_km": 0.1
+  },
+  "hanson-macynia": {
+    "key": "pl-540927",
+    "dist_km": 0.2
+  },
+  "hanson-melos": {
+    "key": "pl-449126342",
+    "dist_km": 0.3
+  },
+  "hanson-methone": {
+    "key": "pl-540946",
+    "dist_km": 0.0
+  },
+  "hanson-naryca": {
+    "key": "pl-540958",
+    "dist_km": 1.6
+  },
+  "hanson-naxus": {
+    "key": "pl-599913",
+    "dist_km": 0.0
+  },
+  "hanson-neon": {
+    "key": "pl-541152",
+    "dist_km": 0.2
+  },
+  "hanson-oeniadae": {
+    "key": "pl-531016",
+    "dist_km": 1.7
+  },
+  "hanson-onchesmus": {
+    "key": "pl-531019",
+    "dist_km": 0.8
+  },
+  "hanson-orchomenus-arcadicus": {
+    "key": "pl-570535",
+    "dist_km": 0.0
+  },
+  "hanson-orchomenus-minyeaus": {
+    "key": "pl-540987",
+    "dist_km": 1.9
+  },
+  "hanson-oricus": {
+    "key": "dare-21421",
+    "dist_km": 2.0
+  },
+  "hanson-oropus": {
+    "key": "pl-580044",
+    "dist_km": 1.2
+  },
+  "hanson-paeania": {
+    "key": "pl-580046",
+    "dist_km": 0.0
+  },
+  "hanson-passaron": {
+    "key": "pl-531042",
+    "dist_km": 2.8
+  },
+  "hanson-patrae": {
+    "key": "pl-900057",
+    "dist_km": 1.3
+  },
+  "hanson-pellene": {
+    "key": "pl-570576",
+    "dist_km": 0.9
+  },
+  "hanson-phalanna": {
+    "key": "pl-540992",
+    "dist_km": 2.6
+  },
+  "hanson-pharsalus": {
+    "key": "dare-21980",
+    "dist_km": 0.7
+  },
+  "hanson-pheneus": {
+    "key": "pl-570595",
+    "dist_km": 1.4
+  },
+  "hanson-phigalia": {
+    "key": "pl-570598",
+    "dist_km": 0.0
+  },
+  "hanson-phlius": {
+    "key": "pl-570602",
+    "dist_km": 1.8
+  },
+  "hanson-phoenice": {
+    "key": "pl-531061",
+    "dist_km": 0.2
+  },
+  "hanson-piraeus": {
+    "key": "pl-580062",
+    "dist_km": 1.6
+  },
+  "hanson-plataea": {
+    "key": "dare-21988",
+    "dist_km": 0.9
+  },
+  "hanson-proerna": {
+    "key": "pl-541073",
+    "dist_km": 2.1
+  },
+  "hanson-scotussa": {
+    "key": "pl-541107",
+    "dist_km": 3.1
+  },
+  "hanson-stratus": {
+    "key": "pl-531104",
+    "dist_km": 0.5
+  },
+  "hanson-stymphalum": {
+    "key": "pl-570696",
+    "dist_km": 0.0
+  },
+  "hanson-tanagra": {
+    "key": "dare-22779",
+    "dist_km": 4.8
+  },
+  "hanson-tegea": {
+    "key": "pl-570707",
+    "dist_km": 4.2
+  },
+  "hanson-teuthrone": {
+    "key": "pl-570714",
+    "dist_km": 0.0
+  },
+  "hanson-thera": {
+    "key": "pl-599973",
+    "dist_km": 1.3
+  },
+  "hanson-thespiae": {
+    "key": "dare-22837",
+    "dist_km": 1.1
+  },
+  "hanson-thisbe": {
+    "key": "dare-21968",
+    "dist_km": 0.1
+  },
+  "hanson-thoricus": {
+    "key": "pl-580119",
+    "dist_km": 0.3
+  },
+  "hanson-thyrium": {
+    "key": "dare-25222",
+    "dist_km": 0.6
+  },
+  "hanson-torybea": {
+    "key": "pl-540927",
+    "dist_km": 0.2
+  },
+  "hanson-troezen": {
+    "key": "pl-570756",
+    "dist_km": 1.4
+  },
+  "hanson-alinda": {
+    "key": "pl-599480",
+    "dist_km": 0.4
+  },
+  "hanson-apollonia-asia-1": {
+    "key": "pl-639152",
+    "dist_km": 1.2
+  },
+  "hanson-apollonia-asia-2": {
+    "key": "pl-511151",
+    "dist_km": 0.5
+  },
+  "hanson-caunus": {
+    "key": "dare-21188",
+    "dist_km": 0.0
+  },
+  "hanson-clazomenae": {
+    "key": "pl-550651",
+    "dist_km": 1.9
+  },
+  "hanson-elaea": {
+    "key": "dare-21544",
+    "dist_km": 1.2
+  },
+  "hanson-erythrae": {
+    "key": "pl-550535",
+    "dist_km": 0.2
+  },
+  "hanson-halicarnassus": {
+    "key": "dare-21187",
+    "dist_km": 0.3
+  },
+  "hanson-lindus": {
+    "key": "pl-589913",
+    "dist_km": 0.0
+  },
+  "hanson-parium": {
+    "key": "pl-511354",
+    "dist_km": 0.6
+  },
+  "hanson-tralles": {
+    "key": "pl-599987",
+    "dist_km": 0.0
+  },
+  "hanson-prusias": {
+    "key": "pl-845049",
+    "dist_km": 0.0
+  },
+  "hanson-amathus": {
+    "key": "pl-707462",
+    "dist_km": 0.0
+  },
+  "hanson-drepanum-cilicia-et-cyprus": {
+    "key": "pl-707503",
+    "dist_km": 0.0
+  },
+  "hanson-idalium": {
+    "key": "pl-707519",
+    "dist_km": 0.2
+  },
+  "hanson-lapethus": {
+    "key": "dare-22725",
+    "dist_km": 0.7
+  },
+  "hanson-marion": {
+    "key": "pl-707483",
+    "dist_km": 1.3
+  },
+  "hanson-palaepaphus": {
+    "key": "dare-21566",
+    "dist_km": 0.0
+  },
+  "hanson-pompeiopolis": {
+    "key": "dare-30268",
+    "dist_km": 0.9
+  },
+  "hanson-apollonia-cyrenaica": {
+    "key": "pl-373732",
+    "dist_km": 0.7
+  },
+  "hanson-barce": {
+    "key": "pl-373750",
+    "dist_km": 0.0
+  },
+  "hanson-cisamus": {
+    "key": "pl-589870",
+    "dist_km": 0.0
+  },
+  "hanson-phalasarna": {
+    "key": "pl-589989",
+    "dist_km": 1.4
+  },
+  "hanson-antipolis": {
+    "key": "pl-157812",
+    "dist_km": 0.0
+  },
+  "hanson-massalia": {
+    "key": "pl-148127",
+    "dist_km": 0.5
+  },
+  "hanson-roda": {
+    "key": "dare-17890",
+    "dist_km": 0.1
+  },
+  "hanson-abella": {
+    "key": "pl-432617",
+    "dist_km": 0.6
+  },
+  "hanson-circeii-1": {
+    "key": "pl-432782",
+    "dist_km": 1.2
+  },
+  "hanson-cora": {
+    "key": "pl-422909",
+    "dist_km": 0.0
+  },
+  "hanson-gabii": {
+    "key": "pl-422932",
+    "dist_km": 0.1
+  },
+  "hanson-herculaneum": {
+    "key": "dare-21353",
+    "dist_km": 0.0
+  },
+  "hanson-nola": {
+    "key": "pl-432981",
+    "dist_km": 0.7
+  },
+  "hanson-norba": {
+    "key": "pl-422987",
+    "dist_km": 0.0
+  },
+  "hanson-pompeii": {
+    "key": "pl-433032",
+    "dist_km": 0.1
+  },
+  "hanson-signia": {
+    "key": "pl-423072",
+    "dist_km": 0.4
+  },
+  "hanson-surrentum": {
+    "key": "pl-433139",
+    "dist_km": 0.9
+  },
+  "hanson-velitrae": {
+    "key": "pl-423117",
+    "dist_km": 0.2
+  },
+  "hanson-anxa": {
+    "key": "pl-442625",
+    "dist_km": 0.4
+  },
+  "hanson-barium": {
+    "key": "pl-442500",
+    "dist_km": 0.1
+  },
+  "hanson-hydruntum": {
+    "key": "pl-442615",
+    "dist_km": 0.8
+  },
+  "hanson-rudiae": {
+    "key": "dare-24884",
+    "dist_km": 0.1
+  },
+  "hanson-buxentum": {
+    "key": "pl-452411",
+    "dist_km": 1.1
+  },
+  "hanson-paestum": {
+    "key": "pl-73180224",
+    "dist_km": 0.3
+  },
+  "hanson-scolacium": {
+    "key": "pl-452439",
+    "dist_km": 0.3
+  },
+  "hanson-blera": {
+    "key": "pl-413054",
+    "dist_km": 1.0
+  },
+  "hanson-fidenae": {
+    "key": "pl-422923",
+    "dist_km": 0.5
+  },
+  "hanson-rusellae": {
+    "key": "dare-16694",
+    "dist_km": 0.0
+  },
+  "hanson-veii": {
+    "key": "pl-423116",
+    "dist_km": 0.5
+  },
+  "hanson-volaterra": {
+    "key": "pl-403292",
+    "dist_km": 0.1
+  },
+  "hanson-vulci": {
+    "key": "pl-413393",
+    "dist_km": 0.0
+  },
+  "hanson-adria": {
+    "key": "pl-393436",
+    "dist_km": 0.3
+  },
+  "hanson-apollonia-lycia-et-pamphylia-1": {
+    "key": "pl-638758",
+    "dist_km": 1.3
+  },
+  "hanson-pinara": {
+    "key": "dare-21464",
+    "dist_km": 1.7
+  },
+  "hanson-xanthus": {
+    "key": "dare-21462",
+    "dist_km": 0.2
+  },
+  "hanson-amantia": {
+    "key": "dare-23289",
+    "dist_km": 12.0
+  },
+  "hanson-cassandrea": {
+    "key": "pl-491726",
+    "dist_km": 3.4
+  },
+  "hanson-edessa": {
+    "key": "pl-491585",
+    "dist_km": 0.8
+  },
+  "hanson-lychnidus": {
+    "key": "pl-481900",
+    "dist_km": 0.0
+  },
+  "hanson-callatis": {
+    "key": "pl-216744",
+    "dist_km": 0.7
+  },
+  "hanson-odessus": {
+    "key": "pl-216904",
+    "dist_km": 1.9
+  },
+  "hanson-tomis": {
+    "key": "dare-21389",
+    "dist_km": 1.8
+  },
+  "hanson-apollonia-sicilia": {
+    "key": "pl-462097",
+    "dist_km": 0.4
+  },
+  "hanson-drepanum-silicia": {
+    "key": "pl-462187",
+    "dist_km": 0.5
+  },
+  "hanson-eryx": {
+    "key": "pl-462201",
+    "dist_km": 0.5
+  },
+  "hanson-haluntium": {
+    "key": "pl-462228",
+    "dist_km": 0.0
+  },
+  "hanson-heraclea-sicilia": {
+    "key": "pl-462237",
+    "dist_km": 0.9
+  },
+  "hanson-melita": {
+    "key": "pl-462310",
+    "dist_km": 0.3
+  },
+  "hanson-morgantina": {
+    "key": "dare-22544",
+    "dist_km": 0.0
+  },
+  "hanson-segesta": {
+    "key": "dare-22636",
+    "dist_km": 0.7
+  },
+  "hanson-aenus": {
+    "key": "pl-501337",
+    "dist_km": 0.4
+  },
+  "hanson-aprus": {
+    "key": "pl-511153",
+    "dist_km": 0.0
+  },
+  "hanson-maronea": {
+    "key": "pl-501507",
+    "dist_km": 3.7
+  },
+  "hanson-camarina": {
+    "key": "dare-22885",
+    "dist_km": 0.1
+  },
+  "hanson-apollonia-macedonia": {
+    "key": "dare-21415",
+    "dist_km": 2.3
+  },
+  "hanson-agrigentum": {
+    "key": "pl-900023",
+    "dist_km": 2.3
+  },
+  "hanson-lipara": {
+    "key": "dare-16885",
+    "dist_km": 0.0
+  },
+  "hanson-aleria": {
+    "key": "dare-16893",
+    "dist_km": 0.2
+  },
+  "hanson-vibo-valentia": {
+    "key": "pl-452337",
+    "dist_km": 0.3
+  },
+  "hanson-abdera-thracia": {
+    "key": "pl-501323",
+    "dist_km": 2.2
+  },
+  "hanson-velia": {
+    "key": "pl-452488",
+    "dist_km": 0.3
+  },
+  "hanson-cydonea": {
+    "key": "pl-589886",
+    "dist_km": 0.2
+  },
+  "hanson-puteoli": {
+    "key": "pl-432815",
+    "dist_km": 0.4
+  },
+  "hanson-emporiae": {
+    "key": "pl-246382",
+    "dist_km": 0.1
+  },
+  "hanson-mesembria": {
+    "key": "pl-216882",
+    "dist_km": 1.0
+  },
+  "hanson-laus-pompeia": {
+    "key": "pl-383691",
+    "dist_km": 0.6
+  },
+  "hanson-atrax": {
+    "key": "pl-540682",
+    "dist_km": 0.7
+  },
+  "hanson-mantinea": {
+    "key": "pl-570459",
+    "dist_km": 2.9
+  },
+  "hanson-rhamnus": {
+    "key": "dare-22843",
+    "dist_km": 0.0
+  },
+  "hanson-astypalaea": {
+    "key": "pl-599535",
+    "dist_km": 0.4
+  },
+  "hanson-mylasa": {
+    "key": "pl-599809",
+    "dist_km": 0.7
+  },
+  "hanson-apamea-bithynia-et-pontus": {
+    "key": "pl-511194",
+    "dist_km": 1.1
+  },
+  "hanson-chersonesus": {
+    "key": "pl-589744",
+    "dist_km": 0.3
+  },
+  "hanson-cnossus": {
+    "key": "pl-589872",
+    "dist_km": 0.2
+  },
+  "hanson-hierapytna": {
+    "key": "pl-589807",
+    "dist_km": 0.2
+  },
+  "hanson-lyctus": {
+    "key": "pl-589918",
+    "dist_km": 0.9
+  },
+  "hanson-polyrrhenium": {
+    "key": "dare-23374",
+    "dist_km": 1.0
+  },
+  "hanson-rhithymna": {
+    "key": "pl-590028",
+    "dist_km": 0.0
+  },
+  "hanson-ebusus": {
+    "key": "pl-265883",
+    "dist_km": 0.4
+  },
+  "hanson-antium": {
+    "key": "pl-422837",
+    "dist_km": 0.8
+  },
+  "hanson-ardea": {
+    "key": "pl-422843",
+    "dist_km": 3.3
+  },
+  "hanson-cales": {
+    "key": "pl-432739",
+    "dist_km": 0.0
+  },
+  "hanson-labicum": {
+    "key": "pl-422952",
+    "dist_km": 0.2
+  },
+  "hanson-neapolis-italia-i-latium-and-campania": {
+    "key": "pl-433014",
+    "dist_km": 1.3
+  },
+  "hanson-setia": {
+    "key": "pl-423068",
+    "dist_km": 0.0
+  },
+  "hanson-vitellia": {
+    "key": "dare-45786",
+    "dist_km": 2.0
+  },
+  "hanson-capena": {
+    "key": "dare-21340",
+    "dist_km": 3.4
+  },
+  "hanson-clusium": {
+    "key": "pl-413096",
+    "dist_km": 0.1
+  },
+  "hanson-cortona": {
+    "key": "pl-413106",
+    "dist_km": 0.0
+  },
+  "hanson-nepet": {
+    "key": "pl-413224",
+    "dist_km": 0.1
+  },
+  "hanson-pisae": {
+    "key": "pl-403253",
+    "dist_km": 0.6
+  },
+  "hanson-sutrium": {
+    "key": "pl-413328",
+    "dist_km": 0.2
+  },
+  "hanson-myra": {
+    "key": "dare-21455",
+    "dist_km": 2.9
+  },
+  "hanson-patara": {
+    "key": "pl-639042",
+    "dist_km": 0.5
+  },
+  "hanson-amphipolis": {
+    "key": "pl-501347",
+    "dist_km": 0.2
+  },
+  "hanson-heraclea-italia-iii-lucania-et-brutii": {
+    "key": "pl-452333",
+    "dist_km": 2.2
+  },
+  "hanson-pella-macedonia": {
+    "key": "dare-21891",
+    "dist_km": 0.8
+  },
+  "hanson-rhodus": {
+    "key": "pl-590030",
+    "dist_km": 0.1
+  },
+  "hanson-halaesa": {
+    "key": "dare-22799",
+    "dist_km": 3.1
+  },
+  "hanson-amphissa": {
+    "key": "pl-540630",
+    "dist_km": 0.5
+  },
+  "hanson-anthedon": {
+    "key": "pl-540639",
+    "dist_km": 1.1
+  },
+  "hanson-anticyra": {
+    "key": "pl-540642",
+    "dist_km": 0.6
+  },
+  "hanson-carthaea": {
+    "key": "pl-570731",
+    "dist_km": 1.3
+  },
+  "hanson-dodona": {
+    "key": "pl-530843",
+    "dist_km": 0.0
+  },
+  "hanson-pallantium": {
+    "key": "dare-31033",
+    "dist_km": 1.3
+  },
+  "hanson-pelinna": {
+    "key": "pl-541020",
+    "dist_km": 2.2
+  },
+  "hanson-pherae": {
+    "key": "pl-541044",
+    "dist_km": 1.5
+  },
+  "hanson-thaumacia": {
+    "key": "pl-541136",
+    "dist_km": 2.2
+  },
+  "hanson-thebae-phthiotides": {
+    "key": "dare-21981",
+    "dist_km": 0.0
+  },
+  "hanson-utica": {
+    "key": "dare-21608",
+    "dist_km": 2.9
+  },
+  "hanson-magnesia-asia-1": {
+    "key": "dare-21173",
+    "dist_km": 0.4
+  },
+  "hanson-carteia": {
+    "key": "pl-256063",
+    "dist_km": 0.0
+  },
+  "hanson-gades": {
+    "key": "pl-256177",
+    "dist_km": 0.2
+  },
+  "hanson-amastris": {
+    "key": "pl-844856",
+    "dist_km": 1.4
+  },
+  "hanson-neapaphus": {
+    "key": "dare-22716",
+    "dist_km": 0.4
+  },
+  "hanson-caralis": {
+    "key": "pl-471899",
+    "dist_km": 1.1
+  },
+  "hanson-cornus": {
+    "key": "dare-30262",
+    "dist_km": 0.0
+  },
+  "hanson-nora": {
+    "key": "pl-471979",
+    "dist_km": 0.0
+  },
+  "hanson-sulcis": {
+    "key": "dare-16886",
+    "dist_km": 1.1
+  },
+  "hanson-tharrus": {
+    "key": "dare-22706",
+    "dist_km": 0.6
+  },
+  "hanson-issa": {
+    "key": "pl-197329",
+    "dist_km": 0.4
+  },
+  "hanson-arelate": {
+    "key": "pl-148217",
+    "dist_km": 0.4
+  },
+  "hanson-mago": {
+    "key": "pl-265960",
+    "dist_km": 1.3
+  },
+  "hanson-abellinum": {
+    "key": "dare-21758",
+    "dist_km": 2.8
+  },
+  "hanson-acerrae": {
+    "key": "pl-432621",
+    "dist_km": 0.1
+  },
+  "hanson-aletrium": {
+    "key": "pl-432664",
+    "dist_km": 0.2
+  },
+  "hanson-allifae": {
+    "key": "dare-16765",
+    "dist_km": 0.0
+  },
+  "hanson-anagnia": {
+    "key": "pl-422833",
+    "dist_km": 0.0
+  },
+  "hanson-aquilonia": {
+    "key": "dare-22401",
+    "dist_km": 2.5
+  },
+  "hanson-aquinum": {
+    "key": "pl-432695",
+    "dist_km": 0.5
+  },
+  "hanson-aricia": {
+    "key": "pl-422844",
+    "dist_km": 1.4
+  },
+  "hanson-arpinum": {
+    "key": "dare-16606",
+    "dist_km": 0.0
+  },
+  "hanson-atella": {
+    "key": "dare-16762",
+    "dist_km": 2.3
+  },
+  "hanson-atina": {
+    "key": "pl-432708",
+    "dist_km": 0.1
+  },
+  "hanson-bovillae": {
+    "key": "pl-422852",
+    "dist_km": 2.3
+  },
+  "hanson-caiatia": {
+    "key": "pl-432733",
+    "dist_km": 0.3
+  },
+  "hanson-calatia": {
+    "key": "pl-432738",
+    "dist_km": 1.4
+  },
+  "hanson-casilinum": {
+    "key": "pl-432763",
+    "dist_km": 0.3
+  },
+  "hanson-casinum": {
+    "key": "pl-432764",
+    "dist_km": 0.0
+  },
+  "hanson-caudium": {
+    "key": "pl-432773",
+    "dist_km": 0.4
+  },
+  "hanson-cereatae": {
+    "key": "pl-432776",
+    "dist_km": 0.1
+  },
+  "hanson-cubulteria": {
+    "key": "pl-432890",
+    "dist_km": 1.6
+  },
+  "hanson-ferentinum": {
+    "key": "pl-432830",
+    "dist_km": 0.2
+  },
+  "hanson-formiae": {
+    "key": "dare-16716",
+    "dist_km": 0.0
+  },
+  "hanson-forum-popili-italia-i-latium-and-campania": {
+    "key": "pl-432843",
+    "dist_km": 1.3
+  },
+  "hanson-frusino": {
+    "key": "pl-432852",
+    "dist_km": 0.1
+  },
+  "hanson-fundi": {
+    "key": "pl-432855",
+    "dist_km": 0.2
+  },
+  "hanson-interamna-lirenas": {
+    "key": "dare-21335",
+    "dist_km": 3.1
+  },
+  "hanson-lanuvium": {
+    "key": "pl-422956",
+    "dist_km": 0.0
+  },
+  "hanson-lavinium": {
+    "key": "pl-422960",
+    "dist_km": 1.1
+  },
+  "hanson-liternum": {
+    "key": "pl-432911",
+    "dist_km": 0.0
+  },
+  "hanson-minturnae": {
+    "key": "dare-16714",
+    "dist_km": 2.9
+  },
+  "hanson-nuceria-alfaterna": {
+    "key": "dare-16725",
+    "dist_km": 3.0
+  },
+  "hanson-picentia": {
+    "key": "pl-442728",
+    "dist_km": 0.6
+  },
+  "hanson-pontia": {
+    "key": "pl-433041",
+    "dist_km": 0.3
+  },
+  "hanson-praeneste": {
+    "key": "dare-16776",
+    "dist_km": 0.1
+  },
+  "hanson-salernum": {
+    "key": "pl-433075",
+    "dist_km": 0.5
+  },
+  "hanson-saticula": {
+    "key": "pl-433105",
+    "dist_km": 0.1
+  },
+  "hanson-sinuessa": {
+    "key": "dare-23680",
+    "dist_km": 1.3
+  },
+  "hanson-sora": {
+    "key": "pl-433126",
+    "dist_km": 0.4
+  },
+  "hanson-suessa": {
+    "key": "pl-433132",
+    "dist_km": 0.3
+  },
+  "hanson-suessula": {
+    "key": "pl-433133",
+    "dist_km": 0.1
+  },
+  "hanson-tarracina": {
+    "key": "dare-16712",
+    "dist_km": 0.0
+  },
+  "hanson-teanum-sidicinum": {
+    "key": "pl-433146",
+    "dist_km": 3.1
+  },
+  "hanson-telesia": {
+    "key": "pl-433147",
+    "dist_km": 2.2
+  },
+  "hanson-treba": {
+    "key": "pl-433162",
+    "dist_km": 0.0
+  },
+  "hanson-trebula-balliensis": {
+    "key": "pl-433164",
+    "dist_km": 0.2
+  },
+  "hanson-tusculum": {
+    "key": "pl-423108",
+    "dist_km": 0.1
+  },
+  "hanson-ulubrae": {
+    "key": "pl-422874",
+    "dist_km": 1.4
+  },
+  "hanson-venafrum": {
+    "key": "pl-433185",
+    "dist_km": 0.2
+  },
+  "hanson-verulae": {
+    "key": "pl-433187",
+    "dist_km": 0.0
+  },
+  "hanson-volturnum": {
+    "key": "pl-433210",
+    "dist_km": 1.3
+  },
+  "hanson-aecae": {
+    "key": "pl-442450",
+    "dist_km": 0.2
+  },
+  "hanson-aeclanum": {
+    "key": "pl-442451",
+    "dist_km": 2.0
+  },
+  "hanson-ausculum": {
+    "key": "pl-442487",
+    "dist_km": 1.0
+  },
+  "hanson-beneventum": {
+    "key": "pl-432721",
+    "dist_km": 0.3
+  },
+  "hanson-brundisium": {
+    "key": "pl-442509",
+    "dist_km": 0.9
+  },
+  "hanson-butuntum": {
+    "key": "pl-442511",
+    "dist_km": 0.1
+  },
+  "hanson-caelia": {
+    "key": "pl-442515",
+    "dist_km": 0.1
+  },
+  "hanson-cannae": {
+    "key": "pl-442523",
+    "dist_km": 0.0
+  },
+  "hanson-canusium": {
+    "key": "pl-442525",
+    "dist_km": 0.2
+  },
+  "hanson-compsa": {
+    "key": "pl-442550",
+    "dist_km": 0.5
+  },
+  "hanson-egnatia": {
+    "key": "dare-23196",
+    "dist_km": 0.1
+  },
+  "hanson-forentum": {
+    "key": "pl-442584",
+    "dist_km": 1.9
+  },
+  "hanson-genusia": {
+    "key": "pl-442598",
+    "dist_km": 4.3
+  },
+  "hanson-herdoniae": {
+    "key": "pl-442613",
+    "dist_km": 0.1
+  },
+  "hanson-luceria": {
+    "key": "pl-442640",
+    "dist_km": 0.1
+  },
+  "hanson-lupiae": {
+    "key": "pl-442642",
+    "dist_km": 0.4
+  },
+  "hanson-neretum": {
+    "key": "pl-442688",
+    "dist_km": 0.0
+  },
+  "hanson-rubi": {
+    "key": "pl-442751",
+    "dist_km": 0.2
+  },
+  "hanson-salapia-vetus": {
+    "key": "pl-442758",
+    "dist_km": 0.5
+  },
+  "hanson-silvium": {
+    "key": "dare-22194",
+    "dist_km": 1.4
+  },
+  "hanson-sipontum": {
+    "key": "dare-16589",
+    "dist_km": 0.0
+  },
+  "hanson-teanum-apulum": {
+    "key": "pl-442815",
+    "dist_km": 4.2
+  },
+  "hanson-uxentum": {
+    "key": "pl-442841",
+    "dist_km": 0.3
+  },
+  "hanson-venusia": {
+    "key": "dare-1525",
+    "dist_km": 0.9
+  },
+  "hanson-veretum": {
+    "key": "dare-1525",
+    "dist_km": 0.0
+  },
+  "hanson-vibinum": {
+    "key": "dare-16592",
+    "dist_km": 0.3
+  },
+  "hanson-aceruntia": {
+    "key": "pl-442436",
+    "dist_km": 0.1
+  },
+  "hanson-aprustum": {
+    "key": "pl-452263",
+    "dist_km": 0.0
+  },
+  "hanson-bantia": {
+    "key": "dare-29180",
+    "dist_km": 0.1
+  },
+  "hanson-consentia": {
+    "key": "pl-452308",
+    "dist_km": 1.6
+  },
+  "hanson-cosilinum": {
+    "key": "pl-442757",
+    "dist_km": 0.0
+  },
+  "hanson-grumentum": {
+    "key": "dare-16741",
+    "dist_km": 0.2
+  },
+  "hanson-numistro": {
+    "key": "pl-442693",
+    "dist_km": 4.4
+  },
+  "hanson-petelia": {
+    "key": "pl-452403",
+    "dist_km": 0.0
+  },
+  "hanson-potentia-italia-iii-lucania-et-brutii": {
+    "key": "pl-442735",
+    "dist_km": 0.2
+  },
+  "hanson-tegianum": {
+    "key": "pl-442816",
+    "dist_km": 0.1
+  },
+  "hanson-tempsa": {
+    "key": "pl-452370",
+    "dist_km": 0.1
+  },
+  "hanson-volcei": {
+    "key": "dare-30423",
+    "dist_km": 0.0
+  },
+  "hanson-aequi": {
+    "key": "dare-22565",
+    "dist_km": 2.8
+  },
+  "hanson-aesernia": {
+    "key": "pl-432652",
+    "dist_km": 1.1
+  },
+  "hanson-amiternum": {
+    "key": "pl-413013",
+    "dist_km": 0.3
+  },
+  "hanson-angitia": {
+    "key": "dare-22568",
+    "dist_km": 0.1
+  },
+  "hanson-antinum": {
+    "key": "pl-432679",
+    "dist_km": 0.1
+  },
+  "hanson-anxanum": {
+    "key": "pl-413017",
+    "dist_km": 0.4
+  },
+  "hanson-aufidena": {
+    "key": "pl-432709",
+    "dist_km": 1.3
+  },
+  "hanson-aveia": {
+    "key": "pl-413046",
+    "dist_km": 0.3
+  },
+  "hanson-bovianum": {
+    "key": "pl-432725",
+    "dist_km": 0.1
+  },
+  "hanson-carseoli": {
+    "key": "pl-432760",
+    "dist_km": 4.0
+  },
+  "hanson-cluviae": {
+    "key": "pl-413097",
+    "dist_km": 0.9
+  },
+  "hanson-corfinium": {
+    "key": "dare-16756",
+    "dist_km": 0.3
+  },
+  "hanson-cures": {
+    "key": "pl-413114",
+    "dist_km": 0.8
+  },
+  "hanson-fagifulae": {
+    "key": "pl-432827",
+    "dist_km": 0.0
+  },
+  "hanson-histonium": {
+    "key": "pl-413171",
+    "dist_km": 0.1
+  },
+  "hanson-hortona": {
+    "key": "pl-413234",
+    "dist_km": 0.3
+  },
+  "hanson-larinum": {
+    "key": "dare-13576",
+    "dist_km": 0.3
+  },
+  "hanson-nomentum": {
+    "key": "pl-422986",
+    "dist_km": 0.1
+  },
+  "hanson-peltuinum": {
+    "key": "pl-413247",
+    "dist_km": 0.4
+  },
+  "hanson-pinna": {
+    "key": "pl-413255",
+    "dist_km": 0.2
+  },
+  "hanson-reate": {
+    "key": "pl-413283",
+    "dist_km": 0.2
+  },
+  "hanson-saepinum": {
+    "key": "pl-433073",
+    "dist_km": 0.1
+  },
+  "hanson-sulmo": {
+    "key": "pl-433134",
+    "dist_km": 0.1
+  },
+  "hanson-superaequum": {
+    "key": "pl-413326",
+    "dist_km": 0.2
+  },
+  "hanson-teate-marrucinorum": {
+    "key": "pl-413333",
+    "dist_km": 0.0
+  },
+  "hanson-terventum": {
+    "key": "pl-433149",
+    "dist_km": 0.3
+  },
+  "hanson-tibur": {
+    "key": "pl-423081",
+    "dist_km": 0.3
+  },
+  "hanson-trebula-mutuesca": {
+    "key": "pl-413350",
+    "dist_km": 1.0
+  },
+  "hanson-trebula-suffenas": {
+    "key": "pl-423103",
+    "dist_km": 0.1
+  },
+  "hanson-asculum": {
+    "key": "pl-413036",
+    "dist_km": 0.1
+  },
+  "hanson-atria": {
+    "key": "pl-413163",
+    "dist_km": 0.2
+  },
+  "hanson-auximum": {
+    "key": "pl-413045",
+    "dist_km": 0.7
+  },
+  "hanson-castrum-novum-italia-v-picenum": {
+    "key": "pl-413073",
+    "dist_km": 1.7
+  },
+  "hanson-cluana": {
+    "key": "pl-413093",
+    "dist_km": 0.9
+  },
+  "hanson-falerio": {
+    "key": "pl-413127",
+    "dist_km": 2.3
+  },
+  "hanson-firmum": {
+    "key": "pl-413135",
+    "dist_km": 0.8
+  },
+  "hanson-helvia-ricina": {
+    "key": "pl-413166",
+    "dist_km": 0.0
+  },
+  "hanson-interamnia-praetuttiorum": {
+    "key": "pl-413179",
+    "dist_km": 0.4
+  },
+  "hanson-numana": {
+    "key": "pl-413228",
+    "dist_km": 0.4
+  },
+  "hanson-pausulae": {
+    "key": "pl-413246",
+    "dist_km": 4.0
+  },
+  "hanson-tolentinum": {
+    "key": "pl-413344",
+    "dist_km": 0.4
+  },
+  "hanson-trea": {
+    "key": "pl-413348",
+    "dist_km": 1.8
+  },
+  "hanson-urbs-salvia": {
+    "key": "pl-413364",
+    "dist_km": 0.4
+  },
+  "hanson-aesis": {
+    "key": "pl-413002",
+    "dist_km": 0.3
+  },
+  "hanson-ameria": {
+    "key": "pl-413012",
+    "dist_km": 0.0
+  },
+  "hanson-asisium": {
+    "key": "pl-413037",
+    "dist_km": 0.3
+  },
+  "hanson-camerinum": {
+    "key": "pl-413060",
+    "dist_km": 0.0
+  },
+  "hanson-carsulae": {
+    "key": "pl-413065",
+    "dist_km": 0.0
+  },
+  "hanson-cingulum": {
+    "key": "pl-413082",
+    "dist_km": 1.0
+  },
+  "hanson-cupra-maritima": {
+    "key": "pl-413113",
+    "dist_km": 0.6
+  },
+  "hanson-fulginiae": {
+    "key": "pl-413151",
+    "dist_km": 1.2
+  },
+  "hanson-hispellum": {
+    "key": "pl-413170",
+    "dist_km": 0.4
+  },
+  "hanson-iguvium": {
+    "key": "pl-413174",
+    "dist_km": 0.8
+  },
+  "hanson-interamna-nahars": {
+    "key": "pl-413178",
+    "dist_km": 0.3
+  },
+  "hanson-matilica": {
+    "key": "pl-413196",
+    "dist_km": 0.3
+  },
+  "hanson-mevania": {
+    "key": "pl-413200",
+    "dist_km": 0.4
+  },
+  "hanson-mevaniola": {
+    "key": "pl-413201",
+    "dist_km": 0.6
+  },
+  "hanson-narnia": {
+    "key": "pl-413225",
+    "dist_km": 0.0
+  },
+  "hanson-nuceria-camellaria": {
+    "key": "pl-413227",
+    "dist_km": 0.5
+  },
+  "hanson-nursia": {
+    "key": "pl-413229",
+    "dist_km": 0.2
+  },
+  "hanson-ocriculum": {
+    "key": "pl-413231",
+    "dist_km": 1.3
+  },
+  "hanson-ostra": {
+    "key": "pl-413238",
+    "dist_km": 6.7
+  },
+  "hanson-pitinum-mergens": {
+    "key": "pl-413261",
+    "dist_km": 7.7
+  },
+  "hanson-pitinum-pisaurense": {
+    "key": "pl-413262",
+    "dist_km": 0.7
+  },
+  "hanson-plestia": {
+    "key": "pl-413264",
+    "dist_km": 1.2
+  },
+  "hanson-sarsina": {
+    "key": "pl-413306",
+    "dist_km": 0.0
+  },
+  "hanson-sena-gallica": {
+    "key": "pl-413310",
+    "dist_km": 0.3
+  },
+  "hanson-sentinum": {
+    "key": "pl-413312",
+    "dist_km": 0.0
+  },
+  "hanson-septempeda": {
+    "key": "dare-16803",
+    "dist_km": 0.1
+  },
+  "hanson-sestinum": {
+    "key": "pl-413315",
+    "dist_km": 0.2
+  },
+  "hanson-suasa": {
+    "key": "pl-413324",
+    "dist_km": 0.2
+  },
+  "hanson-tadinae": {
+    "key": "pl-413330",
+    "dist_km": 2.6
+  },
+  "hanson-tuder": {
+    "key": "pl-413354",
+    "dist_km": 0.2
+  },
+  "hanson-tuficum": {
+    "key": "dare-22592",
+    "dist_km": 0.3
+  },
+  "hanson-urvinum-hortense": {
+    "key": "dare-18726",
+    "dist_km": 0.2
+  },
+  "hanson-urvinum-mataurense": {
+    "key": "pl-413366",
+    "dist_km": 0.1
+  },
+  "hanson-vettona": {
+    "key": "pl-413377",
+    "dist_km": 0.1
+  },
+  "hanson-alsium": {
+    "key": "pl-422831",
+    "dist_km": 0.2
+  },
+  "hanson-arna": {
+    "key": "pl-413030",
+    "dist_km": 0.0
+  },
+  "hanson-arretium": {
+    "key": "pl-413032",
+    "dist_km": 0.4
+  },
+  "hanson-caere": {
+    "key": "dare-16708",
+    "dist_km": 1.8
+  },
+  "hanson-castrum-novum-italia-vii-etruria": {
+    "key": "pl-150178117",
+    "dist_km": 0.7
+  },
+  "hanson-cosa": {
+    "key": "dare-21588",
+    "dist_km": 0.2
+  },
+  "hanson-faesulae": {
+    "key": "dare-10609",
+    "dist_km": 0.1
+  },
+  "hanson-ferentum": {
+    "key": "dare-21341",
+    "dist_km": 0.1
+  },
+  "hanson-fregenae": {
+    "key": "pl-422930",
+    "dist_km": 0.5
+  },
+  "hanson-heba": {
+    "key": "pl-413164",
+    "dist_km": 1.2
+  },
+  "hanson-horta": {
+    "key": "dare-16123",
+    "dist_km": 0.0
+  },
+  "hanson-lucus-feroniae": {
+    "key": "dare-21339",
+    "dist_km": 0.0
+  },
+  "hanson-perusia": {
+    "key": "pl-413248",
+    "dist_km": 0.1
+  },
+  "hanson-pistorium": {
+    "key": "pl-403254",
+    "dist_km": 0.1
+  },
+  "hanson-pyrgi": {
+    "key": "dare-17254",
+    "dist_km": 0.0
+  },
+  "hanson-saena": {
+    "key": "pl-413293",
+    "dist_km": 0.2
+  },
+  "hanson-saturnia": {
+    "key": "pl-413044",
+    "dist_km": 0.0
+  },
+  "hanson-statonia": {
+    "key": "pl-413321",
+    "dist_km": 1.5
+  },
+  "hanson-suana": {
+    "key": "pl-413323",
+    "dist_km": 0.5
+  },
+  "hanson-tifernum-tiberinum": {
+    "key": "pl-413339",
+    "dist_km": 0.7
+  },
+  "hanson-tuscana": {
+    "key": "pl-413356",
+    "dist_km": 0.7
+  },
+  "hanson-vetulonia": {
+    "key": "pl-403291",
+    "dist_km": 0.2
+  },
+  "hanson-visentium": {
+    "key": "pl-413386",
+    "dist_km": 0.5
+  },
+  "hanson-volsinii-novi": {
+    "key": "dare-16696",
+    "dist_km": 10.2
+  },
+  "hanson-ateste": {
+    "key": "dare-17828",
+    "dist_km": 1.0
+  },
+  "hanson-beroea-macedonia": {
+    "key": "pl-491546",
+    "dist_km": 0.4
+  },
+  "hanson-byllis": {
+    "key": "pl-481777",
+    "dist_km": 0.3
+  },
+  "hanson-dium": {
+    "key": "dare-21904",
+    "dist_km": 0.6
+  },
+  "hanson-torone": {
+    "key": "pl-501646",
+    "dist_km": 0.3
+  },
+  "hanson-adranum": {
+    "key": "pl-462073",
+    "dist_km": 2.8
+  },
+  "hanson-centuripae": {
+    "key": "pl-462153",
+    "dist_km": 0.0
+  },
+  "hanson-soluntum": {
+    "key": "pl-462498",
+    "dist_km": 0.1
+  },
+  "hanson-acce": {
+    "key": "pl-678010",
+    "dist_km": 0.1
+  },
+  "hanson-anchialus": {
+    "key": "pl-216702",
+    "dist_km": 0.0
+  },
+  "hanson-seuthopolis": {
+    "key": "pl-216981",
+    "dist_km": 3.1
+  },
+  "hanson-lilybaeum": {
+    "key": "pl-462281",
+    "dist_km": 0.0
+  },
+  "hanson-tauromenium": {
+    "key": "dare-16874",
+    "dist_km": 0.4
+  },
+  "hanson-tyndaris": {
+    "key": "pl-462527",
+    "dist_km": 0.3
+  },
+  "hanson-megalopolis": {
+    "key": "dare-21914",
+    "dist_km": 1.4
+  },
+  "hanson-messene": {
+    "key": "pl-570479",
+    "dist_km": 15.8
+  },
+  "hanson-cos": {
+    "key": "pl-599728",
+    "dist_km": 0.6
+  },
+  "hanson-theangela": {
+    "key": "pl-599969",
+    "dist_km": 0.0
+  },
+  "hanson-myndus": {
+    "key": "dare-21430",
+    "dist_km": 0.1
+  },
+  "hanson-philippi": {
+    "key": "dare-21892",
+    "dist_km": 4.8
+  },
+  "hanson-heraclea-macedonia": {
+    "key": "pl-481861",
+    "dist_km": 0.0
+  },
+  "hanson-beroea-thracia": {
+    "key": "pl-216731",
+    "dist_km": 0.2
+  },
+  "hanson-cassope": {
+    "key": "pl-530922",
+    "dist_km": 0.2
+  },
+  "hanson-cabyle": {
+    "key": "pl-216859",
+    "dist_km": 1.3
+  },
+  "hanson-philippopolis-thracia": {
+    "key": "pl-216927",
+    "dist_km": 0.2
+  },
+  "hanson-agyrium": {
+    "key": "dare-23159",
+    "dist_km": 0.0
+  },
+  "hanson-celaenae": {
+    "key": "pl-638751",
+    "dist_km": 1.4
+  },
+  "hanson-halus": {
+    "key": "dare-21978",
+    "dist_km": 0.6
+  },
+  "hanson-antaeopolis": {
+    "key": "pl-756515",
+    "dist_km": 0.1
+  },
+  "hanson-aphroditopolis": {
+    "key": "dare-42551",
+    "dist_km": 0.7
+  },
+  "hanson-apollonopolis-magna": {
+    "key": "dare-22152",
+    "dist_km": 0.3
+  },
+  "hanson-apollonopolis-parva": {
+    "key": "pl-785975",
+    "dist_km": 8.0
+  },
+  "hanson-arsinoe": {
+    "key": "pl-736934",
+    "dist_km": 3.0
+  },
+  "hanson-athribis": {
+    "key": "pl-727078",
+    "dist_km": 0.4
+  },
+  "hanson-bubastis": {
+    "key": "dare-21715",
+    "dist_km": 1.3
+  },
+  "hanson-busiris": {
+    "key": "pl-727144",
+    "dist_km": 0.9
+  },
+  "hanson-coptos": {
+    "key": "dare-22151",
+    "dist_km": 0.0
+  },
+  "hanson-cussae": {
+    "key": "pl-756588",
+    "dist_km": 0.3
+  },
+  "hanson-cynopolis": {
+    "key": "pl-736949",
+    "dist_km": 0.2
+  },
+  "hanson-diospolis-inferior": {
+    "key": "pl-727111",
+    "dist_km": 1.0
+  },
+  "hanson-diospolis-magna": {
+    "key": "pl-786017",
+    "dist_km": 2.6
+  },
+  "hanson-diospolis-parva": {
+    "key": "pl-756566",
+    "dist_km": 1.6
+  },
+  "hanson-heliopolis-aegyptus": {
+    "key": "pl-900019",
+    "dist_km": 2.0
+  },
+  "hanson-heracleopolis-magna": {
+    "key": "dare-21136",
+    "dist_km": 0.0
+  },
+  "hanson-heracleopolis-parva": {
+    "key": "dare-23393",
+    "dist_km": 0.8
+  },
+  "hanson-hermonthis": {
+    "key": "pl-786036",
+    "dist_km": 8.8
+  },
+  "hanson-hermopolis-magna": {
+    "key": "dare-21152",
+    "dist_km": 0.1
+  },
+  "hanson-hermopolis-parva": {
+    "key": "dare-28483",
+    "dist_km": 1.7
+  },
+  "hanson-heroonpolis": {
+    "key": "dare-21716",
+    "dist_km": 0.0
+  },
+  "hanson-hypselis": {
+    "key": "pl-756578",
+    "dist_km": 0.8
+  },
+  "hanson-latopolis": {
+    "key": "pl-786059",
+    "dist_km": 2.5
+  },
+  "hanson-leontopolis": {
+    "key": "dare-21713",
+    "dist_km": 0.5
+  },
+  "hanson-letopolis": {
+    "key": "pl-727149",
+    "dist_km": 0.1
+  },
+  "hanson-lycopolis": {
+    "key": "pl-756593",
+    "dist_km": 0.7
+  },
+  "hanson-mendes": {
+    "key": "pl-727156",
+    "dist_km": 3.8
+  },
+  "hanson-metelis": {
+    "key": "dare-28494",
+    "dist_km": 11.3
+  },
+  "hanson-nilopolis": {
+    "key": "pl-736948",
+    "dist_km": 1.5
+  },
+  "hanson-oxyrhynchus": {
+    "key": "pl-736983",
+    "dist_km": 0.8
+  },
+  "hanson-panopolis": {
+    "key": "pl-756613",
+    "dist_km": 0.4
+  },
+  "hanson-pelusium": {
+    "key": "dare-21695",
+    "dist_km": 5.7
+  },
+  "hanson-ptolemais-aegyptus": {
+    "key": "dare-22147",
+    "dist_km": 0.8
+  },
+  "hanson-sebennytus": {
+    "key": "pl-727227",
+    "dist_km": 0.3
+  },
+  "hanson-tebtunis": {
+    "key": "dare-42488",
+    "dist_km": 3.0
+  },
+  "hanson-tentyris": {
+    "key": "dare-22154",
+    "dist_km": 3.4
+  },
+  "hanson-thinis": {
+    "key": "pl-756586",
+    "dist_km": 1.4
+  },
+  "hanson-thmuis": {
+    "key": "pl-727249",
+    "dist_km": 0.4
+  },
+  "hanson-xois": {
+    "key": "pl-727256",
+    "dist_km": 2.5
+  },
+  "hanson-abila": {
+    "key": "pl-677992",
+    "dist_km": 0.3
+  },
+  "hanson-adraha": {
+    "key": "dare-21517",
+    "dist_km": 1.1
+  },
+  "hanson-canatha": {
+    "key": "pl-678082",
+    "dist_km": 1.9
+  },
+  "hanson-capitolias": {
+    "key": "pl-678224",
+    "dist_km": 0.1
+  },
+  "hanson-dionysias": {
+    "key": "pl-678119",
+    "dist_km": 0.1
+  },
+  "hanson-elusa": {
+    "key": "pl-687890",
+    "dist_km": 0.3
+  },
+  "hanson-gadara": {
+    "key": "pl-678142",
+    "dist_km": 0.1
+  },
+  "hanson-madaba": {
+    "key": "pl-697701",
+    "dist_km": 0.7
+  },
+  "hanson-saccaea": {
+    "key": "pl-678366",
+    "dist_km": 0.1
+  },
+  "hanson-acmonia": {
+    "key": "pl-609293",
+    "dist_km": 0.2
+  },
+  "hanson-adramyttium": {
+    "key": "dare-21543",
+    "dist_km": 1.2
+  },
+  "hanson-aegae": {
+    "key": "dare-21428",
+    "dist_km": 2.0
+  },
+  "hanson-aezanis": {
+    "key": "pl-609292",
+    "dist_km": 1.2
+  },
+  "hanson-amorium": {
+    "key": "pl-609302",
+    "dist_km": 2.8
+  },
+  "hanson-amyzon": {
+    "key": "pl-599489",
+    "dist_km": 2.1
+  },
+  "hanson-bargylia": {
+    "key": "dare-21189",
+    "dist_km": 0.1
+  },
+  "hanson-blaundus": {
+    "key": "pl-609344",
+    "dist_km": 0.1
+  },
+  "hanson-castabus": {
+    "key": "pl-599698",
+    "dist_km": 1.6
+  },
+  "hanson-cedreae": {
+    "key": "pl-609431",
+    "dist_km": 0.0
+  },
+  "hanson-ceramus": {
+    "key": "pl-599707",
+    "dist_km": 0.4
+  },
+  "hanson-colossae": {
+    "key": "pl-638811",
+    "dist_km": 2.7
+  },
+  "hanson-cys": {
+    "key": "pl-599743",
+    "dist_km": 0.0
+  },
+  "hanson-euhippe": {
+    "key": "pl-599614",
+    "dist_km": 0.0
+  },
+  "hanson-euromus": {
+    "key": "pl-599616",
+    "dist_km": 0.9
+  },
+  "hanson-harpasa": {
+    "key": "pl-599637",
+    "dist_km": 0.2
+  },
+  "hanson-heraclea-asia-2": {
+    "key": "dare-21180",
+    "dist_km": 1.0
+  },
+  "hanson-hydissa": {
+    "key": "pl-599653",
+    "dist_km": 1.4
+  },
+  "hanson-hyllarima": {
+    "key": "pl-599659",
+    "dist_km": 0.4
+  },
+  "hanson-larisa-asia": {
+    "key": "pl-550685",
+    "dist_km": 0.2
+  },
+  "hanson-metropolis": {
+    "key": "pl-609470",
+    "dist_km": 0.0
+  },
+  "hanson-pessinus": {
+    "key": "pl-609500",
+    "dist_km": 6.1
+  },
+  "hanson-synnada": {
+    "key": "pl-609538",
+    "dist_km": 0.5
+  },
+  "hanson-amasia": {
+    "key": "pl-857018",
+    "dist_km": 0.5
+  },
+  "hanson-comana": {
+    "key": "pl-628959",
+    "dist_km": 0.0
+  },
+  "hanson-mazaca": {
+    "key": "pl-629035",
+    "dist_km": 1.4
+  },
+  "hanson-tavium": {
+    "key": "pl-619267",
+    "dist_km": 4.8
+  },
+  "hanson-tyana": {
+    "key": "dare-21243",
+    "dist_km": 0.8
+  },
+  "hanson-zela": {
+    "key": "dare-21230",
+    "dist_km": 0.8
+  },
+  "hanson-anazarbus": {
+    "key": "pl-658378",
+    "dist_km": 0.9
+  },
+  "hanson-anemurium": {
+    "key": "dare-21402",
+    "dist_km": 0.3
+  },
+  "hanson-antiochia-cilicia-et-cyprus-1": {
+    "key": "pl-648560",
+    "dist_km": 0.3
+  },
+  "hanson-antiochia-cilicia-et-cyprus-2": {
+    "key": "pl-648702",
+    "dist_km": 0.0
+  },
+  "hanson-castabala": {
+    "key": "pl-658481",
+    "dist_km": 2.1
+  },
+  "hanson-colybrassus": {
+    "key": "pl-638931",
+    "dist_km": 0.4
+  },
+  "hanson-coracesium": {
+    "key": "pl-638933",
+    "dist_km": 1.9
+  },
+  "hanson-coropissus": {
+    "key": "pl-648618",
+    "dist_km": 1.4
+  },
+  "hanson-diocaesarea": {
+    "key": "pl-648623",
+    "dist_km": 0.1
+  },
+  "hanson-elaeussa": {
+    "key": "dare-21494",
+    "dist_km": 1.5
+  },
+  "hanson-laertes": {
+    "key": "pl-648685",
+    "dist_km": 0.7
+  },
+  "hanson-laranda": {
+    "key": "pl-648693",
+    "dist_km": 0.8
+  },
+  "hanson-mopsuestia": {
+    "key": "dare-21247",
+    "dist_km": 0.4
+  },
+  "hanson-oeniandus": {
+    "key": "pl-658556",
+    "dist_km": 2.3
+  },
+  "hanson-olba": {
+    "key": "pl-648725",
+    "dist_km": 0.0
+  },
+  "hanson-selinus": {
+    "key": "pl-648772",
+    "dist_km": 0.0
+  },
+  "hanson-syedra": {
+    "key": "dare-21487",
+    "dist_km": 0.0
+  },
+  "hanson-aptera": {
+    "key": "pl-589704",
+    "dist_km": 0.1
+  },
+  "hanson-gortyna": {
+    "key": "pl-589796",
+    "dist_km": 0.0
+  },
+  "hanson-epidaurum": {
+    "key": "pl-197263",
+    "dist_km": 0.2
+  },
+  "hanson-adada": {
+    "key": "pl-638733",
+    "dist_km": 0.5
+  },
+  "hanson-antiphellus": {
+    "key": "pl-638749",
+    "dist_km": 0.0
+  },
+  "hanson-apollonia-lycia-et-pamphylia-2": {
+    "key": "pl-638755",
+    "dist_km": 0.0
+  },
+  "hanson-ariassus": {
+    "key": "pl-638761",
+    "dist_km": 0.2
+  },
+  "hanson-arycanda": {
+    "key": "pl-638769",
+    "dist_km": 1.0
+  },
+  "hanson-balbura": {
+    "key": "pl-638789",
+    "dist_km": 2.3
+  },
+  "hanson-bubon": {
+    "key": "pl-638792",
+    "dist_km": 0.9
+  },
+  "hanson-cadyanda": {
+    "key": "pl-638885",
+    "dist_km": 1.1
+  },
+  "hanson-candyba": {
+    "key": "pl-638892",
+    "dist_km": 1.3
+  },
+  "hanson-cibyra": {
+    "key": "pl-638804",
+    "dist_km": 0.3
+  },
+  "hanson-comama": {
+    "key": "pl-638812",
+    "dist_km": 2.2
+  },
+  "hanson-corycus": {
+    "key": "pl-638939",
+    "dist_km": 0.7
+  },
+  "hanson-corydalla": {
+    "key": "pl-638937",
+    "dist_km": 0.5
+  },
+  "hanson-cremna": {
+    "key": "dare-21438",
+    "dist_km": 0.2
+  },
+  "hanson-cyaneae": {
+    "key": "dare-21457",
+    "dist_km": 0.5
+  },
+  "hanson-gagae": {
+    "key": "pl-638842",
+    "dist_km": 0.2
+  },
+  "hanson-idebessus": {
+    "key": "dare-22040",
+    "dist_km": 0.1
+  },
+  "hanson-limyra": {
+    "key": "dare-21454",
+    "dist_km": 0.3
+  },
+  "hanson-lydai": {
+    "key": "pl-638968",
+    "dist_km": 0.7
+  },
+  "hanson-nisa": {
+    "key": "pl-639010",
+    "dist_km": 0.6
+  },
+  "hanson-olbasa": {
+    "key": "pl-639015",
+    "dist_km": 0.9
+  },
+  "hanson-olympus": {
+    "key": "pl-639017",
+    "dist_km": 0.9
+  },
+  "hanson-pednelissus": {
+    "key": "pl-639046",
+    "dist_km": 0.0
+  },
+  "hanson-phellus": {
+    "key": "pl-639052",
+    "dist_km": 0.4
+  },
+  "hanson-sagalassus": {
+    "key": "pl-639087",
+    "dist_km": 0.2
+  },
+  "hanson-seleucia-lycia-et-pamphylia": {
+    "key": "dare-21441",
+    "dist_km": 1.3
+  },
+  "hanson-sidyma": {
+    "key": "pl-639108",
+    "dist_km": 0.5
+  },
+  "hanson-telmessus": {
+    "key": "pl-639137",
+    "dist_km": 1.0
+  },
+  "hanson-termessus": {
+    "key": "dare-21451",
+    "dist_km": 0.2
+  },
+  "hanson-tlos": {
+    "key": "pl-639147",
+    "dist_km": 0.2
+  },
+  "hanson-trebenna": {
+    "key": "pl-639151",
+    "dist_km": 1.7
+  },
+  "hanson-aradus": {
+    "key": "pl-668197",
+    "dist_km": 0.0
+  },
+  "hanson-arca": {
+    "key": "pl-668198",
+    "dist_km": 0.5
+  },
+  "hanson-batnae": {
+    "key": "pl-658406",
+    "dist_km": 1.3
+  },
+  "hanson-berytus": {
+    "key": "pl-678060",
+    "dist_km": 0.6
+  },
+  "hanson-byblos": {
+    "key": "dare-21519",
+    "dist_km": 0.1
+  },
+  "hanson-cyrrus": {
+    "key": "dare-21509",
+    "dist_km": 0.0
+  },
+  "hanson-emesa": {
+    "key": "pl-668261",
+    "dist_km": 0.0
+  },
+  "hanson-gabala": {
+    "key": "pl-668250",
+    "dist_km": 1.8
+  },
+  "hanson-marathus": {
+    "key": "dare-21750",
+    "dist_km": 0.7
+  },
+  "hanson-samosata": {
+    "key": "pl-658587",
+    "dist_km": 2.6
+  },
+  "hanson-tripolis": {
+    "key": "dare-21567",
+    "dist_km": 0.3
+  },
+  "hanson-agrippias": {
+    "key": "pl-687826",
+    "dist_km": 0.0
+  },
+  "hanson-antipatris": {
+    "key": "dare-21684",
+    "dist_km": 0.0
+  },
+  "hanson-apollonia-syria-palestina": {
+    "key": "pl-678025",
+    "dist_km": 0.0
+  },
+  "hanson-ascalon": {
+    "key": "pl-687959",
+    "dist_km": 2.5
+  },
+  "hanson-azotos": {
+    "key": "pl-687843",
+    "dist_km": 0.4
+  },
+  "hanson-dora": {
+    "key": "pl-678121",
+    "dist_km": 0.6
+  },
+  "hanson-eleutheropolis": {
+    "key": "pl-687854",
+    "dist_km": 1.0
+  },
+  "hanson-emmaus": {
+    "key": "dare-21656",
+    "dist_km": 0.0
+  },
+  "hanson-lydda": {
+    "key": "pl-687953",
+    "dist_km": 0.8
+  },
+  "hanson-marissa": {
+    "key": "dare-21689",
+    "dist_km": 0.0
+  },
+  "hanson-pella-syria-palestina": {
+    "key": "dare-21657",
+    "dist_km": 0.1
+  },
+  "hanson-sepphoris": {
+    "key": "pl-678387",
+    "dist_km": 0.1
+  },
+  "hanson-bizye": {
+    "key": "pl-511190",
+    "dist_km": 0.1
+  },
+  "hanson-alexandria-aegyptus": {
+    "key": "pl-727070",
+    "dist_km": 0.1
+  },
+  "hanson-clupea": {
+    "key": "pl-314932",
+    "dist_km": 0.7
+  },
+  "hanson-alexandria-asia": {
+    "key": "pl-550434",
+    "dist_km": 0.6
+  },
+  "hanson-hippus": {
+    "key": "pl-678185",
+    "dist_km": 0.0
+  },
+  "hanson-nicopolis-cappadocia-et-galatia": {
+    "key": "pl-857248",
+    "dist_km": 1.4
+  },
+  "hanson-apamea-syria-1": {
+    "key": "pl-900028",
+    "dist_km": 0.6
+  },
+  "hanson-apamea-syria-2": {
+    "key": "pl-658385",
+    "dist_km": 1.5
+  },
+  "hanson-sicyon": {
+    "key": "pl-570668",
+    "dist_km": 1.3
+  },
+  "hanson-alba-fucentia": {
+    "key": "dare-22285",
+    "dist_km": 0.2
+  },
+  "hanson-heraclea-asia-1": {
+    "key": "dare-21473",
+    "dist_km": 0.5
+  },
+  "hanson-beroea-syria": {
+    "key": "pl-658409",
+    "dist_km": 0.2
+  },
+  "hanson-laodicea-syria": {
+    "key": "pl-668290",
+    "dist_km": 5.5
+  },
+  "hanson-seleucia-syria": {
+    "key": "pl-658483",
+    "dist_km": 0.2
+  },
+  "hanson-zeugma": {
+    "key": "dare-21500",
+    "dist_km": 0.2
+  },
+  "hanson-antigonia": {
+    "key": "pl-481722",
+    "dist_km": 1.7
+  },
+  "hanson-hierapolis": {
+    "key": "dare-21205",
+    "dist_km": 1.5
+  },
+  "hanson-stratonicaea": {
+    "key": "pl-550898",
+    "dist_km": 0.0
+  },
+  "hanson-tragurium": {
+    "key": "pl-197555",
+    "dist_km": 0.1
+  },
+  "hanson-antiochia-syria": {
+    "key": "pl-900003",
+    "dist_km": 1.1
+  },
+  "hanson-seleucia-cilicia-et-cyprus": {
+    "key": "pl-648771",
+    "dist_km": 0.3
+  },
+  "hanson-demetrias": {
+    "key": "pl-540730",
+    "dist_km": 1.1
+  },
+  "hanson-philadelphia-syria": {
+    "key": "pl-697728",
+    "dist_km": 0.6
+  },
+  "hanson-nysa": {
+    "key": "pl-599832",
+    "dist_km": 0.0
+  },
+  "hanson-thyatira": {
+    "key": "dare-21159",
+    "dist_km": 0.0
+  },
+  "hanson-antiochia-cappadocia-et-galatia": {
+    "key": "dare-21442",
+    "dist_km": 1.1
+  },
+  "hanson-phintias": {
+    "key": "dare-22641",
+    "dist_km": 0.6
+  },
+  "hanson-ariminum": {
+    "key": "pl-393379",
+    "dist_km": 0.3
+  },
+  "hanson-attalea--262": {
+    "key": "pl-638778",
+    "dist_km": 0.9
+  },
+  "hanson-antiochia-asia": {
+    "key": "pl-638748",
+    "dist_km": 2.7
+  },
+  "hanson-laodicea-asia": {
+    "key": "pl-638955",
+    "dist_km": 0.7
+  },
+  "hanson-scythopolis": {
+    "key": "dare-21150",
+    "dist_km": 0.0
+  },
+  "hanson-berenice": {
+    "key": "pl-373757",
+    "dist_km": 0.0
+  },
+  "hanson-spoletium": {
+    "key": "pl-413320",
+    "dist_km": 0.3
+  },
+  "hanson-nea-pleuron": {
+    "key": "pl-540961",
+    "dist_km": 0.2
+  },
+  "hanson-stobi": {
+    "key": "pl-491731",
+    "dist_km": 0.0
+  },
+  "hanson-carthago-nova": {
+    "key": "pl-265849",
+    "dist_km": 0.0
+  },
+  "hanson-falerii-novi": {
+    "key": "pl-380284185",
+    "dist_km": 4.4
+  },
+  "hanson-bellunum": {
+    "key": "pl-187311",
+    "dist_km": 0.3
+  },
+  "hanson-tarraco": {
+    "key": "pl-246349",
+    "dist_km": 0.1
+  },
+  "hanson-placentia": {
+    "key": "pl-383741",
+    "dist_km": 0.3
+  },
+  "hanson-saguntum": {
+    "key": "pl-266021",
+    "dist_km": 0.2
+  },
+  "hanson-italica": {
+    "key": "pl-256231",
+    "dist_km": 0.1
+  },
+  "hanson-genua": {
+    "key": "pl-383664",
+    "dist_km": 0.4
+  },
+  "hanson-alabanda": {
+    "key": "pl-599479",
+    "dist_km": 0.1
+  },
+  "hanson-lucentum": {
+    "key": "pl-265954",
+    "dist_km": 4.5
+  },
+  "hanson-acholla": {
+    "key": "dare-21866",
+    "dist_km": 0.0
+  },
+  "hanson-gigthis": {
+    "key": "dare-21858",
+    "dist_km": 1.0
+  },
+  "hanson-meninx": {
+    "key": "dare-21862",
+    "dist_km": 0.7
+  },
+  "hanson-sabratha": {
+    "key": "dare-21128",
+    "dist_km": 0.3
+  },
+  "hanson-thapsus": {
+    "key": "dare-21595",
+    "dist_km": 0.0
+  },
+  "hanson-thugga": {
+    "key": "dare-21131",
+    "dist_km": 0.2
+  },
+  "hanson-uthina": {
+    "key": "pl-315247",
+    "dist_km": 0.1
+  },
+  "hanson-zama-regia": {
+    "key": "dare-21614",
+    "dist_km": 0.0
+  },
+  "hanson-abdera-baetica": {
+    "key": "pl-265762",
+    "dist_km": 1.2
+  },
+  "hanson-malaca": {
+    "key": "pl-265963",
+    "dist_km": 0.4
+  },
+  "hanson-sexi": {
+    "key": "pl-266038",
+    "dist_km": 0.4
+  },
+  "hanson-glanum": {
+    "key": "pl-148093",
+    "dist_km": 0.1
+  },
+  "hanson-iuvanum": {
+    "key": "dare-21756",
+    "dist_km": 0.6
+  },
+  "hanson-marruvium": {
+    "key": "pl-432927",
+    "dist_km": 0.1
+  },
+  "hanson-caesena": {
+    "key": "pl-393397",
+    "dist_km": 0.3
+  },
+  "hanson-claterna": {
+    "key": "dare-18001",
+    "dist_km": 3.1
+  },
+  "hanson-fidentia": {
+    "key": "pl-383648",
+    "dist_km": 0.7
+  },
+  "hanson-oenoanda": {
+    "key": "pl-639013",
+    "dist_km": 0.0
+  },
+  "hanson-copia": {
+    "key": "dare-16740",
+    "dist_km": 0.3
+  },
+  "hanson-bononia": {
+    "key": "pl-393421",
+    "dist_km": 0.0
+  },
+  "hanson-forum-cornelii": {
+    "key": "pl-393424",
+    "dist_km": 0.3
+  },
+  "hanson-forum-livii": {
+    "key": "pl-393426",
+    "dist_km": 0.2
+  },
+  "hanson-regium-lepidum": {
+    "key": "dare-5323",
+    "dist_km": 0.1
+  },
+  "hanson-potentia-italia-v-picenum": {
+    "key": "dare-22713",
+    "dist_km": 0.1
+  },
+  "hanson-pisaurum": {
+    "key": "pl-413256",
+    "dist_km": 0.4
+  },
+  "hanson-mutina": {
+    "key": "pl-383715",
+    "dist_km": 0.0
+  },
+  "hanson-graviscae": {
+    "key": "dare-21336",
+    "dist_km": 0.0
+  },
+  "hanson-aquileia": {
+    "key": "pl-187290",
+    "dist_km": 0.6
+  },
+  "hanson-luca": {
+    "key": "pl-403234",
+    "dist_km": 0.5
+  },
+  "hanson-albintimilium": {
+    "key": "dare-8039",
+    "dist_km": 0.0
+  },
+  "hanson-gracchuris": {
+    "key": "pl-246435",
+    "dist_km": 0.7
+  },
+  "hanson-hasta": {
+    "key": "pl-383669",
+    "dist_km": 0.2
+  },
+  "hanson-industria": {
+    "key": "dare-17173",
+    "dist_km": 0.8
+  },
+  "hanson-pola": {
+    "key": "pl-197448",
+    "dist_km": 0.4
+  },
+  "hanson-luna": {
+    "key": "dare-5854",
+    "dist_km": 0.5
+  },
+  "hanson-nesactium": {
+    "key": "pl-197405",
+    "dist_km": 0.1
+  },
+  "hanson-parentium": {
+    "key": "pl-197427",
+    "dist_km": 0.4
+  },
+  "hanson-gerasa": {
+    "key": "dare-21653",
+    "dist_km": 0.0
+  },
+  "hanson-forum-popili-italia-viii-aemilia": {
+    "key": "pl-393427",
+    "dist_km": 0.2
+  },
+  "hanson-vardagate": {
+    "key": "pl-383809",
+    "dist_km": 0.1
+  },
+  "hanson-philadelphia-asia": {
+    "key": "pl-550822",
+    "dist_km": 0.8
+  },
+  "hanson-segeda": {
+    "key": "pl-246634",
+    "dist_km": 1.3
+  },
+  "hanson-corduba": {
+    "key": "pl-256128",
+    "dist_km": 0.1
+  },
+  "hanson-hadrumetum": {
+    "key": "pl-324716",
+    "dist_km": 0.0
+  },
+  "hanson-leptiminus": {
+    "key": "dare-21635",
+    "dist_km": 3.2
+  },
+  "hanson-uzalis": {
+    "key": "pl-315251",
+    "dist_km": 0.0
+  },
+  "hanson-brixellum": {
+    "key": "pl-383602",
+    "dist_km": 0.1
+  },
+  "hanson-libarna": {
+    "key": "pl-383694",
+    "dist_km": 0.0
+  },
+  "hanson-pedona": {
+    "key": "pl-383740",
+    "dist_km": 1.8
+  },
+  "hanson-faventia": {
+    "key": "pl-393420",
+    "dist_km": 0.1
+  },
+  "hanson-valentia-hispania-tarraconensis-1": {
+    "key": "pl-266090",
+    "dist_km": 0.1
+  },
+  "hanson-olisipo": {
+    "key": "pl-256338",
+    "dist_km": 1.6
+  },
+  "hanson-fabrateria-nova": {
+    "key": "dare-22562",
+    "dist_km": 1.8
+  },
+  "hanson-iamo": {
+    "key": "pl-265916",
+    "dist_km": 2.0
+  },
+  "hanson-pollentia-hispania-tarraconensis": {
+    "key": "pl-266004",
+    "dist_km": 9.6
+  },
+  "hanson-carreum": {
+    "key": "pl-383611",
+    "dist_km": 0.7
+  },
+  "hanson-dertona": {
+    "key": "pl-383633",
+    "dist_km": 0.0
+  },
+  "hanson-forum-sempronii": {
+    "key": "pl-413149",
+    "dist_km": 1.0
+  },
+  "hanson-ioulis": {
+    "key": "pl-570314",
+    "dist_km": 1.1
+  },
+  "hanson-peparethum": {
+    "key": "pl-541023",
+    "dist_km": 0.0
+  },
+  "hanson-segusio": {
+    "key": "pl-167919",
+    "dist_km": 0.3
+  },
+  "hanson-aphrodisias": {
+    "key": "pl-638753",
+    "dist_km": 0.1
+  },
+  "hanson-iluro": {
+    "key": "pl-256225",
+    "dist_km": 0.0
+  },
+  "hanson-mariana": {
+    "key": "dare-16892",
+    "dist_km": 0.1
+  },
+  "hanson-baetulo": {
+    "key": "pl-246220",
+    "dist_km": 2.7
+  },
+  "hanson-iesso": {
+    "key": "dare-18383",
+    "dist_km": 0.1
+  },
+  "hanson-baiae": {
+    "key": "dare-22558",
+    "dist_km": 0.4
+  },
+  "hanson-salapia-nova": {
+    "key": "pl-442758",
+    "dist_km": 2.4
+  },
+  "hanson-feltria": {
+    "key": "pl-187377",
+    "dist_km": 0.7
+  },
+  "hanson-mantua": {
+    "key": "pl-383704",
+    "dist_km": 0.3
+  },
+  "hanson-opitergum": {
+    "key": "pl-393459",
+    "dist_km": 0.3
+  },
+  "hanson-eporedia": {
+    "key": "pl-383642",
+    "dist_km": 0.2
+  },
+  "hanson-lixus": {
+    "key": "pl-275667",
+    "dist_km": 0.0
+  },
+  "hanson-tingis": {
+    "key": "pl-900011",
+    "dist_km": 0.0
+  },
+  "hanson-volubilis": {
+    "key": "dare-21769",
+    "dist_km": 0.1
+  },
+  "hanson-cirta": {
+    "key": "pl-305064",
+    "dist_km": 0.0
+  },
+  "hanson-hippo-regius": {
+    "key": "dare-21626",
+    "dist_km": 2.3
+  },
+  "hanson-uchi-maius": {
+    "key": "dare-22063",
+    "dist_km": 0.1
+  },
+  "hanson-heliopolis-syria": {
+    "key": "dare-21118",
+    "dist_km": 0.1
+  },
+  "hanson-veleia": {
+    "key": "pl-383811",
+    "dist_km": 0.1
+  },
+  "hanson-alba-pompeia": {
+    "key": "pl-383564",
+    "dist_km": 0.0
+  },
+  "hanson-albingaunum": {
+    "key": "pl-157803",
+    "dist_km": 0.1
+  },
+  "hanson-aquae-statiellae": {
+    "key": "pl-383574",
+    "dist_km": 0.0
+  },
+  "hanson-vada-sabatia": {
+    "key": "pl-383808",
+    "dist_km": 0.2
+  },
+  "hanson-brixia": {
+    "key": "pl-383603",
+    "dist_km": 0.2
+  },
+  "hanson-vicetia": {
+    "key": "pl-900053",
+    "dist_km": 0.4
+  },
+  "hanson-mediolanum-italia-xi-transpadana": {
+    "key": "dare-1445",
+    "dist_km": 0.0
+  },
+  "hanson-castrimoenium": {
+    "key": "pl-422886",
+    "dist_km": 0.6
+  },
+  "hanson-urbana": {
+    "key": "pl-393455",
+    "dist_km": 4.7
+  },
+  "hanson-gerunda": {
+    "key": "pl-246406",
+    "dist_km": 0.0
+  },
+  "hanson-metellinum": {
+    "key": "pl-256298",
+    "dist_km": 0.3
+  },
+  "hanson-salona": {
+    "key": "pl-197488",
+    "dist_km": 0.2
+  },
+  "hanson-isaura": {
+    "key": "dare-21491",
+    "dist_km": 12.4
+  },
+  "hanson-pompaelo": {
+    "key": "pl-246567",
+    "dist_km": 0.2
+  },
+  "hanson-neocaesarea": {
+    "key": "dare-36788",
+    "dist_km": 3.6
+  },
+  "hanson-sebaste": {
+    "key": "pl-629075",
+    "dist_km": 0.3
+  },
+  "hanson-comum": {
+    "key": "pl-383627",
+    "dist_km": 0.3
+  },
+  "hanson-vienna": {
+    "key": "pl-167719",
+    "dist_km": 0.4
+  },
+  "hanson-gaza": {
+    "key": "pl-687902",
+    "dist_km": 1.0
+  },
+  "hanson-ebora": {
+    "key": "pl-256151",
+    "dist_km": 0.0
+  },
+  "hanson-alesia": {
+    "key": "pl-177434",
+    "dist_km": 0.3
+  },
+  "hanson-nemausus": {
+    "key": "pl-148142",
+    "dist_km": 0.4
+  },
+  "hanson-abthungi": {
+    "key": "pl-314843",
+    "dist_km": 3.4
+  },
+  "hanson-aggar": {
+    "key": "pl-324658",
+    "dist_km": 0.0
+  },
+  "hanson-avitta": {
+    "key": "pl-314897",
+    "dist_km": 0.3
+  },
+  "hanson-macomades": {
+    "key": "pl-363959",
+    "dist_km": 0.0
+  },
+  "hanson-mactaris": {
+    "key": "pl-324774",
+    "dist_km": 0.2
+  },
+  "hanson-missua": {
+    "key": "pl-315082",
+    "dist_km": 0.0
+  },
+  "hanson-thaenae": {
+    "key": "dare-21865",
+    "dist_km": 1.5
+  },
+  "hanson-thisica": {
+    "key": "pl-315216",
+    "dist_km": 3.0
+  },
+  "hanson-thuburbo-maius": {
+    "key": "pl-315220",
+    "dist_km": 0.0
+  },
+  "hanson-thysdrus": {
+    "key": "pl-324835",
+    "dist_km": 0.2
+  },
+  "hanson-uluzibbira": {
+    "key": "pl-324839",
+    "dist_km": 0.8
+  },
+  "hanson-vaga": {
+    "key": "pl-315253",
+    "dist_km": 0.2
+  },
+  "hanson-arva": {
+    "key": "pl-255993",
+    "dist_km": 5.8
+  },
+  "hanson-asido": {
+    "key": "pl-255994",
+    "dist_km": 1.3
+  },
+  "hanson-aurgi": {
+    "key": "pl-302942693",
+    "dist_km": 3.3
+  },
+  "hanson-axati": {
+    "key": "pl-256002",
+    "dist_km": 0.0
+  },
+  "hanson-canama": {
+    "key": "pl-256048",
+    "dist_km": 3.0
+  },
+  "hanson-carissa": {
+    "key": "pl-256057",
+    "dist_km": 0.1
+  },
+  "hanson-carmo": {
+    "key": "pl-256058",
+    "dist_km": 0.7
+  },
+  "hanson-cartima": {
+    "key": "pl-265851",
+    "dist_km": 0.0
+  },
+  "hanson-iliturgi": {
+    "key": "pl-265924",
+    "dist_km": 4.6
+  },
+  "hanson-illiberi": {
+    "key": "pl-265921",
+    "dist_km": 0.0
+  },
+  "hanson-irni": {
+    "key": "pl-256230",
+    "dist_km": 2.5
+  },
+  "hanson-isturgi": {
+    "key": "pl-265939",
+    "dist_km": 3.4
+  },
+  "hanson-laepia": {
+    "key": "pl-256091",
+    "dist_km": 2.9
+  },
+  "hanson-munigua": {
+    "key": "pl-256318",
+    "dist_km": 0.0
+  },
+  "hanson-nertobriga": {
+    "key": "pl-256325",
+    "dist_km": 6.2
+  },
+  "hanson-obulco": {
+    "key": "pl-265982",
+    "dist_km": 0.0
+  },
+  "hanson-orippo": {
+    "key": "dare-31298",
+    "dist_km": 7.3
+  },
+  "hanson-osset": {
+    "key": "pl-256344",
+    "dist_km": 0.0
+  },
+  "hanson-regina": {
+    "key": "pl-256397",
+    "dist_km": 1.7
+  },
+  "hanson-sacili": {
+    "key": "pl-266017",
+    "dist_km": 2.6
+  },
+  "hanson-salpensa": {
+    "key": "dare-25211",
+    "dist_km": 10.0
+  },
+  "hanson-segida": {
+    "key": "pl-256439",
+    "dist_km": 0.0
+  },
+  "hanson-siarum": {
+    "key": "pl-256449",
+    "dist_km": 0.0
+  },
+  "hanson-singilia-barba": {
+    "key": "dare-22437",
+    "dist_km": 0.0
+  },
+  "hanson-suel": {
+    "key": "pl-266055",
+    "dist_km": 0.0
+  },
+  "hanson-ugia": {
+    "key": "dare-25216",
+    "dist_km": 0.1
+  },
+  "hanson-ulia": {
+    "key": "dare-25215",
+    "dist_km": 0.0
+  },
+  "hanson-urgao": {
+    "key": "pl-266087",
+    "dist_km": 0.0
+  },
+  "hanson-aeso": {
+    "key": "pl-246147",
+    "dist_km": 0.1
+  },
+  "hanson-aquae-flaviae": {
+    "key": "pl-236334",
+    "dist_km": 0.0
+  },
+  "hanson-attacum": {
+    "key": "dare-46382",
+    "dist_km": 2.8
+  },
+  "hanson-bilbilis": {
+    "key": "dare-22230",
+    "dist_km": 0.7
+  },
+  "hanson-calagurris": {
+    "key": "dare-16818",
+    "dist_km": 0.4
+  },
+  "hanson-castulo": {
+    "key": "dare-16841",
+    "dist_km": 0.0
+  },
+  "hanson-dertosa": {
+    "key": "pl-246369",
+    "dist_km": 0.3
+  },
+  "hanson-dianium": {
+    "key": "pl-265880",
+    "dist_km": 0.0
+  },
+  "hanson-ercavica": {
+    "key": "pl-246384",
+    "dist_km": 0.0
+  },
+  "hanson-flaviobriga": {
+    "key": "pl-246394",
+    "dist_km": 0.1
+  },
+  "hanson-ilerda": {
+    "key": "pl-246431",
+    "dist_km": 0.1
+  },
+  "hanson-ilugo": {
+    "key": "pl-265929",
+    "dist_km": 0.4
+  },
+  "hanson-iuliobriga": {
+    "key": "pl-236493",
+    "dist_km": 0.0
+  },
+  "hanson-mirobriga-hispania-tarraconensis": {
+    "key": "pl-256302",
+    "dist_km": 0.0
+  },
+  "hanson-osca": {
+    "key": "pl-246539",
+    "dist_km": 0.1
+  },
+  "hanson-ossigi": {
+    "key": "pl-265994",
+    "dist_km": 0.0
+  },
+  "hanson-saetabis": {
+    "key": "pl-266018",
+    "dist_km": 0.0
+  },
+  "hanson-segobriga": {
+    "key": "pl-266036",
+    "dist_km": 0.0
+  },
+  "hanson-sisapo": {
+    "key": "dare-23125",
+    "dist_km": 0.0
+  },
+  "hanson-termes": {
+    "key": "dare-22528",
+    "dist_km": 0.0
+  },
+  "hanson-toletum": {
+    "key": "pl-266066",
+    "dist_km": 0.0
+  },
+  "hanson-turiaso": {
+    "key": "pl-246712",
+    "dist_km": 0.3
+  },
+  "hanson-uxama": {
+    "key": "pl-246721",
+    "dist_km": 1.1
+  },
+  "hanson-valeria": {
+    "key": "pl-266092",
+    "dist_km": 0.2
+  },
+  "hanson-acelum": {
+    "key": "pl-393357",
+    "dist_km": 0.0
+  },
+  "hanson-altinum": {
+    "key": "pl-393374",
+    "dist_km": 0.4
+  },
+  "hanson-forum-iulii-x-venetia-et-histria": {
+    "key": "pl-187386",
+    "dist_km": 0.1
+  },
+  "hanson-iulium-carnicum": {
+    "key": "pl-187430",
+    "dist_km": 0.2
+  },
+  "hanson-patavium": {
+    "key": "pl-393473",
+    "dist_km": 0.0
+  },
+  "hanson-tarvisium": {
+    "key": "pl-393503",
+    "dist_km": 0.1
+  },
+  "hanson-bergomum": {
+    "key": "pl-383589",
+    "dist_km": 0.1
+  },
+  "hanson-novaria": {
+    "key": "pl-383717",
+    "dist_km": 0.2
+  },
+  "hanson-ticinum": {
+    "key": "pl-383798",
+    "dist_km": 0.2
+  },
+  "hanson-vercellae": {
+    "key": "pl-383815",
+    "dist_km": 0.6
+  },
+  "hanson-aeminium": {
+    "key": "pl-236321",
+    "dist_km": 1.1
+  },
+  "hanson-balsa": {
+    "key": "dare-22460",
+    "dist_km": 5.9
+  },
+  "hanson-caesarobriga": {
+    "key": "pl-265834",
+    "dist_km": 0.2
+  },
+  "hanson-capera": {
+    "key": "dare-22470",
+    "dist_km": 0.0
+  },
+  "hanson-egitania": {
+    "key": "pl-256220",
+    "dist_km": 0.1
+  },
+  "hanson-mirobriga-lusitania": {
+    "key": "pl-256303",
+    "dist_km": 0.1
+  },
+  "hanson-myrtilis": {
+    "key": "dare-22482",
+    "dist_km": 0.6
+  },
+  "hanson-ossonoba": {
+    "key": "pl-256345",
+    "dist_km": 0.0
+  },
+  "hanson-salacia": {
+    "key": "pl-256414",
+    "dist_km": 0.7
+  },
+  "hanson-salmantica": {
+    "key": "pl-236642",
+    "dist_km": 0.0
+  },
+  "hanson-unknown-4": {
+    "key": "pl-256485",
+    "dist_km": 1.7
+  },
+  "hanson-tigava": {
+    "key": "pl-295358",
+    "dist_km": 1.2
+  },
+  "hanson-uzelis": {
+    "key": "pl-305178",
+    "dist_km": 0.0
+  },
+  "hanson-assuras": {
+    "key": "pl-324669",
+    "dist_km": 0.0
+  },
+  "hanson-bulla-regia": {
+    "key": "dare-21613",
+    "dist_km": 0.2
+  },
+  "hanson-madauros": {
+    "key": "dare-21624",
+    "dist_km": 0.0
+  },
+  "hanson-musti": {
+    "key": "pl-315085",
+    "dist_km": 0.0
+  },
+  "hanson-rusicada": {
+    "key": "pl-305137",
+    "dist_km": 0.0
+  },
+  "hanson-simitthus": {
+    "key": "pl-315174",
+    "dist_km": 0.0
+  },
+  "hanson-thabraca": {
+    "key": "pl-315192",
+    "dist_km": 0.0
+  },
+  "hanson-thuburnica": {
+    "key": "pl-315221",
+    "dist_km": 0.6
+  },
+  "hanson-thunusidum": {
+    "key": "pl-315226",
+    "dist_km": 0.0
+  },
+  "hanson-tiddis": {
+    "key": "pl-305167",
+    "dist_km": 0.4
+  },
+  "hanson-carthago": {
+    "key": "pl-314921",
+    "dist_km": 0.5
+  },
+  "hanson-neapolis-africa-proconsularis": {
+    "key": "pl-315093",
+    "dist_km": 2.1
+  },
+  "hanson-tunisa": {
+    "key": "pl-315233",
+    "dist_km": 0.0
+  },
+  "hanson-callet": {
+    "key": "pl-256043",
+    "dist_km": 8.1
+  },
+  "hanson-hasta-regia": {
+    "key": "dare-25198",
+    "dist_km": 0.8
+  },
+  "hanson-ilipa": {
+    "key": "pl-256222",
+    "dist_km": 0.0
+  },
+  "hanson-iptuci": {
+    "key": "dare-25138",
+    "dist_km": 0.1
+  },
+  "hanson-lucurgentum": {
+    "key": "pl-256275",
+    "dist_km": 0.4
+  },
+  "hanson-nabrissa": {
+    "key": "pl-256322",
+    "dist_km": 0.0
+  },
+  "hanson-seria": {
+    "key": "pl-256444",
+    "dist_km": 1.3
+  },
+  "hanson-ucubi": {
+    "key": "pl-266081",
+    "dist_km": 0.2
+  },
+  "hanson-ugultunia": {
+    "key": "pl-256126",
+    "dist_km": 1.9
+  },
+  "hanson-narona": {
+    "key": "pl-197400",
+    "dist_km": 2.2
+  },
+  "hanson-burdigala": {
+    "key": "pl-138248",
+    "dist_km": 0.4
+  },
+  "hanson-noviomagus-gallia-lugdunensis": {
+    "key": "pl-69540",
+    "dist_km": 0.0
+  },
+  "hanson-lucus-augusti-gallia-narbonensis": {
+    "key": "pl-167815",
+    "dist_km": 0.1
+  },
+  "hanson-valentia-gallia-narbonensis": {
+    "key": "pl-167718",
+    "dist_km": 0.2
+  },
+  "hanson-noviodunum-germania-superior": {
+    "key": "dare-21",
+    "dist_km": 0.2
+  },
+  "hanson-vesontio": {
+    "key": "pl-177657",
+    "dist_km": 0.6
+  },
+  "hanson-privernum": {
+    "key": "pl-433052",
+    "dist_km": 2.0
+  },
+  "hanson-norba-caesarina": {
+    "key": "pl-256327",
+    "dist_km": 2.2
+  },
+  "hanson-pax-iulia": {
+    "key": "pl-256358",
+    "dist_km": 0.0
+  },
+  "hanson-scallabis": {
+    "key": "pl-256438",
+    "dist_km": 0.9
+  },
+  "hanson-hippo-diarrhytus": {
+    "key": "pl-315038",
+    "dist_km": 0.5
+  },
+  "hanson-carpis": {
+    "key": "dare-21603",
+    "dist_km": 0.6
+  },
+  "hanson-curubis": {
+    "key": "pl-314943",
+    "dist_km": 0.5
+  },
+  "hanson-acinippo": {
+    "key": "pl-255950",
+    "dist_km": 0.0
+  },
+  "hanson-astigi": {
+    "key": "pl-900054",
+    "dist_km": 0.0
+  },
+  "hanson-hispalis": {
+    "key": "pl-256210",
+    "dist_km": 1.0
+  },
+  "hanson-urso": {
+    "key": "pl-256503",
+    "dist_km": 1.3
+  },
+  "hanson-narbo-martius": {
+    "key": "pl-246347",
+    "dist_km": 0.1
+  },
+  "hanson-corinthia": {
+    "key": "pl-900000",
+    "dist_km": 0.1
+  },
+  "hanson-absortium": {
+    "key": "pl-197122",
+    "dist_km": 0.0
+  },
+  "hanson-acruvium": {
+    "key": "pl-197097",
+    "dist_km": 0.5
+  },
+  "hanson-aenona": {
+    "key": "pl-197094",
+    "dist_km": 0.1
+  },
+  "hanson-alveria": {
+    "key": "pl-197111",
+    "dist_km": 1.2
+  },
+  "hanson-ansium": {
+    "key": "pl-197119",
+    "dist_km": 0.0
+  },
+  "hanson-arba": {
+    "key": "pl-197134",
+    "dist_km": 0.2
+  },
+  "hanson-argyruntum": {
+    "key": "pl-197139",
+    "dist_km": 0.2
+  },
+  "hanson-arupium": {
+    "key": "pl-197143",
+    "dist_km": 0.1
+  },
+  "hanson-asseria": {
+    "key": "pl-197145",
+    "dist_km": 1.3
+  },
+  "hanson-baloie": {
+    "key": "dare-13916",
+    "dist_km": 0.6
+  },
+  "hanson-bistua-nova": {
+    "key": "pl-197170",
+    "dist_km": 0.7
+  },
+  "hanson-blandona": {
+    "key": "pl-197172",
+    "dist_km": 0.0
+  },
+  "hanson-butua": {
+    "key": "pl-481770",
+    "dist_km": 1.2
+  },
+  "hanson-cissa": {
+    "key": "pl-197210",
+    "dist_km": 0.0
+  },
+  "hanson-corinium": {
+    "key": "pl-197225",
+    "dist_km": 0.0
+  },
+  "hanson-crexa": {
+    "key": "dare-17969",
+    "dist_km": 11.6
+  },
+  "hanson-curicum": {
+    "key": "pl-197235",
+    "dist_km": 0.2
+  },
+  "hanson-delminium": {
+    "key": "pl-197244",
+    "dist_km": 11.0
+  },
+  "hanson-diluntum": {
+    "key": "pl-197247",
+    "dist_km": 0.3
+  },
+  "hanson-domavium": {
+    "key": "dare-23362",
+    "dist_km": 7.2
+  },
+  "hanson-fulfinium": {
+    "key": "pl-197280",
+    "dist_km": 1.2
+  },
+  "hanson-leusaba": {
+    "key": "pl-197350",
+    "dist_km": 0.0
+  },
+  "hanson-lissus": {
+    "key": "pl-481896",
+    "dist_km": 0.7
+  },
+  "hanson-lopsica": {
+    "key": "pl-197358",
+    "dist_km": 0.0
+  },
+  "hanson-magnum": {
+    "key": "pl-197534",
+    "dist_km": 1.4
+  },
+  "hanson-malvesia": {
+    "key": "dare-23361",
+    "dist_km": 2.9
+  },
+  "hanson-metulum": {
+    "key": "pl-197380",
+    "dist_km": 0.0
+  },
+  "hanson-municipium-s": {
+    "key": "dare-26437",
+    "dist_km": 0.4
+  },
+  "hanson-olcinium": {
+    "key": "dare-26373",
+    "dist_km": 3.3
+  },
+  "hanson-ortoplinia": {
+    "key": "pl-197420",
+    "dist_km": 0.2
+  },
+  "hanson-raetinium": {
+    "key": "pl-197466",
+    "dist_km": 1.3
+  },
+  "hanson-rider": {
+    "key": "pl-197473",
+    "dist_km": 0.4
+  },
+  "hanson-ris": {
+    "key": "pl-197475",
+    "dist_km": 0.0
+  },
+  "hanson-risinium": {
+    "key": "dare-21966",
+    "dist_km": 0.1
+  },
+  "hanson-salvium": {
+    "key": "pl-197491",
+    "dist_km": 0.0
+  },
+  "hanson-scardona": {
+    "key": "pl-197502",
+    "dist_km": 0.0
+  },
+  "hanson-scodra": {
+    "key": "pl-481986",
+    "dist_km": 3.3
+  },
+  "hanson-senia": {
+    "key": "pl-197505",
+    "dist_km": 0.0
+  },
+  "hanson-setovia": {
+    "key": "pl-197510",
+    "dist_km": 0.0
+  },
+  "hanson-sidrona": {
+    "key": "pl-197512",
+    "dist_km": 0.6
+  },
+  "hanson-tarsatica": {
+    "key": "pl-197541",
+    "dist_km": 1.3
+  },
+  "hanson-vegium": {
+    "key": "pl-197575",
+    "dist_km": 0.0
+  },
+  "hanson-augusta-raurica": {
+    "key": "pl-177494",
+    "dist_km": 0.1
+  },
+  "hanson-albona": {
+    "key": "pl-197102",
+    "dist_km": 1.5
+  },
+  "hanson-flanona": {
+    "key": "pl-197272",
+    "dist_km": 0.0
+  },
+  "hanson-chullu": {
+    "key": "pl-305063",
+    "dist_km": 0.3
+  },
+  "hanson-lugdunum-convenarum": {
+    "key": "pl-246477",
+    "dist_km": 0.2
+  },
+  "hanson-augusta-suessionum": {
+    "key": "pl-108772",
+    "dist_km": 0.0
+  },
+  "hanson-lugdunum": {
+    "key": "pl-167717",
+    "dist_km": 0.1
+  },
+  "hanson-apta": {
+    "key": "pl-147993",
+    "dist_km": 0.0
+  },
+  "hanson-cabellio": {
+    "key": "pl-148027",
+    "dist_km": 0.7
+  },
+  "hanson-carcaso": {
+    "key": "pl-246294",
+    "dist_km": 1.3
+  },
+  "hanson-forum-iulii-gallia-narbonensis": {
+    "key": "pl-157836",
+    "dist_km": 0.3
+  },
+  "hanson-tergestum": {
+    "key": "pl-187578",
+    "dist_km": 0.2
+  },
+  "hanson-turris-libisonis": {
+    "key": "dare-16888",
+    "dist_km": 0.4
+  },
+  "hanson-concordia": {
+    "key": "dare-10645",
+    "dist_km": 0.1
+  },
+  "hanson-florentia": {
+    "key": "pl-413138",
+    "dist_km": 0.4
+  },
+  "hanson-vasio": {
+    "key": "dare-168",
+    "dist_km": 0.3
+  },
+  "hanson-aelia-capitolina": {
+    "key": "pl-900004",
+    "dist_km": 0.2
+  },
+  "hanson-colonia-agrippinensis": {
+    "key": "dare-299",
+    "dist_km": 0.1
+  },
+  "hanson-archelais": {
+    "key": "pl-619164",
+    "dist_km": 0.7
+  },
+  "hanson-baeterrae": {
+    "key": "pl-148056",
+    "dist_km": 0.4
+  },
+  "hanson-burnum": {
+    "key": "pl-197184",
+    "dist_km": 2.9
+  },
+  "hanson-doclea": {
+    "key": "dare-16896",
+    "dist_km": 0.0
+  },
+  "hanson-iader": {
+    "key": "pl-197312",
+    "dist_km": 0.0
+  },
+  "hanson-arausio": {
+    "key": "pl-148054",
+    "dist_km": 0.1
+  },
+  "hanson-gunugu": {
+    "key": "pl-295268",
+    "dist_km": 0.2
+  },
+  "hanson-rusazus": {
+    "key": "pl-305138",
+    "dist_km": 0.0
+  },
+  "hanson-rusguniae": {
+    "key": "pl-295331",
+    "dist_km": 2.4
+  },
+  "hanson-saldae": {
+    "key": "pl-305142",
+    "dist_km": 2.6
+  },
+  "hanson-tubusuctu": {
+    "key": "dare-22123",
+    "dist_km": 1.5
+  },
+  "hanson-banasa": {
+    "key": "dare-21773",
+    "dist_km": 0.0
+  },
+  "hanson-thamusida": {
+    "key": "pl-275734",
+    "dist_km": 0.0
+  },
+  "hanson-misenum": {
+    "key": "pl-432941",
+    "dist_km": 0.0
+  },
+  "hanson-nicopolis-achaea": {
+    "key": "dare-21991",
+    "dist_km": 0.4
+  },
+  "hanson-lepcis-magna": {
+    "key": "pl-900030",
+    "dist_km": 0.3
+  },
+  "hanson-cartenna": {
+    "key": "dare-22136",
+    "dist_km": 0.1
+  },
+  "hanson-phasaelis": {
+    "key": "pl-688003",
+    "dist_km": 0.0
+  },
+  "hanson-ilici": {
+    "key": "dare-16824",
+    "dist_km": 0.0
+  },
+  "hanson-icosium": {
+    "key": "pl-295276",
+    "dist_km": 0.0
+  },
+  "hanson-maxula": {
+    "key": "pl-315072",
+    "dist_km": 0.0
+  },
+  "hanson-oea": {
+    "key": "pl-344456",
+    "dist_km": 2.9
+  },
+  "hanson-thelepte": {
+    "key": "pl-324828",
+    "dist_km": 1.3
+  },
+  "hanson-thuburbo-minus": {
+    "key": "pl-315219",
+    "dist_km": 0.6
+  },
+  "hanson-augusta-taurinorum": {
+    "key": "pl-383580",
+    "dist_km": 0.3
+  },
+  "hanson-baelo": {
+    "key": "dare-22237",
+    "dist_km": 0.0
+  },
+  "hanson-iulia-traducta": {
+    "key": "pl-256235",
+    "dist_km": 0.0
+  },
+  "hanson-tucci": {
+    "key": "pl-266070",
+    "dist_km": 0.0
+  },
+  "hanson-claudiopolis": {
+    "key": "pl-648723",
+    "dist_km": 0.8
+  },
+  "hanson-nedinum": {
+    "key": "pl-197404",
+    "dist_km": 0.9
+  },
+  "hanson-aginnum": {
+    "key": "dare-149",
+    "dist_km": 0.8
+  },
+  "hanson-anderitum": {
+    "key": "pl-167645",
+    "dist_km": 0.1
+  },
+  "hanson-aquae-tarbellicae": {
+    "key": "dare-400",
+    "dist_km": 0.1
+  },
+  "hanson-argentomagus": {
+    "key": "dare-2240",
+    "dist_km": 0.5
+  },
+  "hanson-augusta-auscorum": {
+    "key": "pl-246379",
+    "dist_km": 0.1
+  },
+  "hanson-augustonemetum": {
+    "key": "pl-138202",
+    "dist_km": 0.3
+  },
+  "hanson-avaricum": {
+    "key": "pl-138207",
+    "dist_km": 1.1
+  },
+  "hanson-condevicnum": {
+    "key": "pl-900052",
+    "dist_km": 0.2
+  },
+  "hanson-divona": {
+    "key": "pl-138329",
+    "dist_km": 0.7
+  },
+  "hanson-limonum": {
+    "key": "pl-138422",
+    "dist_km": 0.3
+  },
+  "hanson-ratiatum": {
+    "key": "pl-138533",
+    "dist_km": 0.1
+  },
+  "hanson-segodunum": {
+    "key": "pl-138579",
+    "dist_km": 0.0
+  },
+  "hanson-unknown-2": {
+    "key": "pl-138351",
+    "dist_km": 0.1
+  },
+  "hanson-vesunna": {
+    "key": "pl-138650",
+    "dist_km": 0.1
+  },
+  "hanson-vetus-pictavis": {
+    "key": "pl-138656",
+    "dist_km": 0.0
+  },
+  "hanson-vindobriga-gallia-aquitania-1": {
+    "key": "dare-17625",
+    "dist_km": 1.3
+  },
+  "hanson-vindobriga-gallia-aquitania-2": {
+    "key": "dare-17608",
+    "dist_km": 0.1
+  },
+  "hanson-augusta-ambianorum": {
+    "key": "dare-13746",
+    "dist_km": 0.1
+  },
+  "hanson-augusta-viromanduorum": {
+    "key": "pl-108774",
+    "dist_km": 0.4
+  },
+  "hanson-beda": {
+    "key": "pl-108798",
+    "dist_km": 0.1
+  },
+  "hanson-caesaromagus-gallia-belgica": {
+    "key": "pl-108844",
+    "dist_km": 0.3
+  },
+  "hanson-camaracum": {
+    "key": "pl-108850",
+    "dist_km": 0.0
+  },
+  "hanson-colonia-augusta-treverorum": {
+    "key": "pl-108894",
+    "dist_km": 0.6
+  },
+  "hanson-decem-pagi": {
+    "key": "pl-108921",
+    "dist_km": 0.0
+  },
+  "hanson-divodurum": {
+    "key": "pl-900033",
+    "dist_km": 0.0
+  },
+  "hanson-durocortorum": {
+    "key": "pl-108945",
+    "dist_km": 0.3
+  },
+  "hanson-fanum-martis": {
+    "key": "pl-108977",
+    "dist_km": 0.3
+  },
+  "hanson-nasium": {
+    "key": "pl-109190",
+    "dist_km": 0.9
+  },
+  "hanson-nemetacum": {
+    "key": "pl-109194",
+    "dist_km": 0.6
+  },
+  "hanson-pons-saravi": {
+    "key": "pl-109254",
+    "dist_km": 0.2
+  },
+  "hanson-tarvenna": {
+    "key": "pl-109366",
+    "dist_km": 0.2
+  },
+  "hanson-tullum": {
+    "key": "pl-109396",
+    "dist_km": 0.2
+  },
+  "hanson-agedincum": {
+    "key": "dare-115",
+    "dist_km": 5.5
+  },
+  "hanson-alauna": {
+    "key": "pl-69463",
+    "dist_km": 0.6
+  },
+  "hanson-aregenua": {
+    "key": "pl-69468",
+    "dist_km": 0.2
+  },
+  "hanson-augustobona": {
+    "key": "pl-108775",
+    "dist_km": 0.6
+  },
+  "hanson-augustodunum": {
+    "key": "pl-177460",
+    "dist_km": 0.7
+  },
+  "hanson-augustodurum": {
+    "key": "pl-69471",
+    "dist_km": 0.1
+  },
+  "hanson-augustomagus": {
+    "key": "pl-108776",
+    "dist_km": 0.0
+  },
+  "hanson-autricum": {
+    "key": "pl-108778",
+    "dist_km": 0.3
+  },
+  "hanson-cabillonum": {
+    "key": "pl-177485",
+    "dist_km": 0.2
+  },
+  "hanson-caesarodunum": {
+    "key": "pl-138255",
+    "dist_km": 0.6
+  },
+  "hanson-cenabum": {
+    "key": "pl-138281",
+    "dist_km": 0.5
+  },
+  "hanson-condate-redonum": {
+    "key": "pl-69491",
+    "dist_km": 0.5
+  },
+  "hanson-cosedia": {
+    "key": "pl-69494",
+    "dist_km": 0.1
+  },
+  "hanson-darioritum": {
+    "key": "pl-138323",
+    "dist_km": 0.4
+  },
+  "hanson-dibio": {
+    "key": "pl-177489",
+    "dist_km": 3.4
+  },
+  "hanson-forum-segusiavorum": {
+    "key": "pl-167771",
+    "dist_km": 0.2
+  },
+  "hanson-gisacum": {
+    "key": "dare-18144",
+    "dist_km": 0.9
+  },
+  "hanson-iatinum": {
+    "key": "pl-109059",
+    "dist_km": 0.7
+  },
+  "hanson-ingena": {
+    "key": "pl-69518",
+    "dist_km": 0.3
+  },
+  "hanson-intaranum": {
+    "key": "pl-177540",
+    "dist_km": 0.0
+  },
+  "hanson-iuliobona": {
+    "key": "pl-109069",
+    "dist_km": 0.2
+  },
+  "hanson-iuliomagus": {
+    "key": "pl-138400",
+    "dist_km": 1.0
+  },
+  "hanson-lutetia": {
+    "key": "pl-109126",
+    "dist_km": 0.4
+  },
+  "hanson-mediolanum-gallia-lugdunensis-1": {
+    "key": "pl-109153",
+    "dist_km": 0.4
+  },
+  "hanson-mediolanum-gallia-lugdunensis-2": {
+    "key": "pl-177578",
+    "dist_km": 1.2
+  },
+  "hanson-noviodunum-gallia-lugdunensis": {
+    "key": "dare-402",
+    "dist_km": 0.2
+  },
+  "hanson-rotomagus": {
+    "key": "pl-109287",
+    "dist_km": 0.3
+  },
+  "hanson-vorgium": {
+    "key": "pl-69585",
+    "dist_km": 0.3
+  },
+  "hanson-alba-helviorum": {
+    "key": "pl-167629",
+    "dist_km": 0.0
+  },
+  "hanson-alebaece": {
+    "key": "pl-157805",
+    "dist_km": 0.0
+  },
+  "hanson-aquae-sextiae": {
+    "key": "pl-148053",
+    "dist_km": 0.3
+  },
+  "hanson-augusta-tricastinorum": {
+    "key": "dare-167",
+    "dist_km": 0.1
+  },
+  "hanson-avennio": {
+    "key": "pl-148004",
+    "dist_km": 0.4
+  },
+  "hanson-boutae": {
+    "key": "pl-167685",
+    "dist_km": 1.0
+  },
+  "hanson-carpentorate": {
+    "key": "pl-148036",
+    "dist_km": 0.2
+  },
+  "hanson-consoranni": {
+    "key": "pl-246354",
+    "dist_km": 0.1
+  },
+  "hanson-cularo": {
+    "key": "pl-167734",
+    "dist_km": 0.7
+  },
+  "hanson-dea-augusta-vocontiorum": {
+    "key": "dare-190",
+    "dist_km": 0.1
+  },
+  "hanson-genava": {
+    "key": "pl-177528",
+    "dist_km": 0.7
+  },
+  "hanson-mauves": {
+    "key": "pl-167935",
+    "dist_km": 3.5
+  },
+  "hanson-ruscino": {
+    "key": "dare-8024",
+    "dist_km": 2.6
+  },
+  "hanson-tolosa": {
+    "key": "pl-246694",
+    "dist_km": 1.7
+  },
+  "hanson-unknown-3": {
+    "key": "dare-18068",
+    "dist_km": 0.0
+  },
+  "hanson-atuatuca": {
+    "key": "pl-108765",
+    "dist_km": 0.3
+  },
+  "hanson-andematunum": {
+    "key": "pl-177441",
+    "dist_km": 0.2
+  },
+  "hanson-epamanduodurum": {
+    "key": "pl-177516",
+    "dist_km": 0.8
+  },
+  "hanson-vertillum": {
+    "key": "pl-177656",
+    "dist_km": 0.3
+  },
+  "hanson-acci": {
+    "key": "dare-22608",
+    "dist_km": 0.2
+  },
+  "hanson-asturica": {
+    "key": "pl-236352",
+    "dist_km": 0.6
+  },
+  "hanson-barcino": {
+    "key": "pl-900037",
+    "dist_km": 4.5
+  },
+  "hanson-bocchori": {
+    "key": "dare-31345",
+    "dist_km": 7.9
+  },
+  "hanson-bracara": {
+    "key": "pl-236377",
+    "dist_km": 0.0
+  },
+  "hanson-celsa": {
+    "key": "pl-246321",
+    "dist_km": 0.4
+  },
+  "hanson-labitolosa": {
+    "key": "pl-246457",
+    "dist_km": 0.9
+  },
+  "hanson-libisosa": {
+    "key": "pl-265949",
+    "dist_km": 0.8
+  },
+  "hanson-lucus-augusti-hispania-tarraconensis": {
+    "key": "pl-236525",
+    "dist_km": 0.2
+  },
+  "hanson-numantia": {
+    "key": "pl-246523",
+    "dist_km": 0.0
+  },
+  "hanson-salaria": {
+    "key": "pl-266022",
+    "dist_km": 9.9
+  },
+  "hanson-forum-novum": {
+    "key": "pl-413148",
+    "dist_km": 3.9
+  },
+  "hanson-fanum-fortunae": {
+    "key": "pl-413129",
+    "dist_km": 0.1
+  },
+  "hanson-baccanae": {
+    "key": "pl-413050",
+    "dist_km": 0.0
+  },
+  "hanson-forum-cassii": {
+    "key": "dare-17255",
+    "dist_km": 1.1
+  },
+  "hanson-iria": {
+    "key": "pl-383680",
+    "dist_km": 0.0
+  },
+  "hanson-emona": {
+    "key": "pl-197258",
+    "dist_km": 0.6
+  },
+  "hanson-laumellum": {
+    "key": "pl-383690",
+    "dist_km": 0.3
+  },
+  "hanson-conimbriga": {
+    "key": "dare-16869",
+    "dist_km": 0.1
+  },
+  "hanson-parlais": {
+    "key": "pl-639039",
+    "dist_km": 0.8
+  },
+  "hanson-aquae-calidae": {
+    "key": "pl-295216",
+    "dist_km": 0.0
+  },
+  "hanson-igilgili": {
+    "key": "pl-305095",
+    "dist_km": 0.0
+  },
+  "hanson-milev": {
+    "key": "pl-305109",
+    "dist_km": 0.3
+  },
+  "hanson-zucchabar": {
+    "key": "dare-22134",
+    "dist_km": 0.1
+  },
+  "hanson-rusadir": {
+    "key": "pl-285512",
+    "dist_km": 0.5
+  },
+  "hanson-zilis": {
+    "key": "pl-275744",
+    "dist_km": 0.0
+  },
+  "hanson-poetovio": {
+    "key": "pl-197446",
+    "dist_km": 0.0
+  },
+  "hanson-sicca-veneria": {
+    "key": "pl-315152",
+    "dist_km": 1.0
+  },
+  "hanson-siscia": {
+    "key": "pl-197504",
+    "dist_km": 0.2
+  },
+  "hanson-palmyra": {
+    "key": "dare-21091",
+    "dist_km": 0.6
+  },
+  "hanson-augusta-praetoria": {
+    "key": "pl-383579",
+    "dist_km": 0.5
+  },
+  "hanson-cemelenum": {
+    "key": "pl-157834",
+    "dist_km": 0.2
+  },
+  "hanson-ancyra": {
+    "key": "pl-619103",
+    "dist_km": 0.3
+  },
+  "hanson-germa": {
+    "key": "pl-609351",
+    "dist_km": 2.4
+  },
+  "hanson-lystra": {
+    "key": "pl-648699",
+    "dist_km": 2.2
+  },
+  "hanson-augusta-emerita": {
+    "key": "pl-256155",
+    "dist_km": 0.6
+  },
+  "hanson-iol": {
+    "key": "pl-295279",
+    "dist_km": 0.2
+  },
+  "hanson-caesaraugusta": {
+    "key": "pl-246344",
+    "dist_km": 0.2
+  },
+  "hanson-tridentum": {
+    "key": "dare-1522",
+    "dist_km": 0.1
+  },
+  "hanson-caesarea-maritima": {
+    "key": "pl-678401",
+    "dist_km": 0.2
+  },
+  "hanson-mediolanum-gallia-aquitania": {
+    "key": "dare-145",
+    "dist_km": 0.7
+  },
+  "hanson-bagacum": {
+    "key": "pl-108788",
+    "dist_km": 0.4
+  },
+  "hanson-augusta-bagiennorum": {
+    "key": "pl-383578",
+    "dist_km": 0.3
+  },
+  "hanson-augustoritum": {
+    "key": "pl-900045",
+    "dist_km": 0.7
+  },
+  "hanson-forum-claudii": {
+    "key": "pl-167859",
+    "dist_km": 0.1
+  },
+  "hanson-aventicum": {
+    "key": "pl-177495",
+    "dist_km": 0.5
+  },
+  "hanson-lousonna": {
+    "key": "pl-177565",
+    "dist_km": 0.2
+  },
+  "hanson-troesmis": {
+    "key": "pl-217025",
+    "dist_km": 0.4
+  },
+  "hanson-ovilava": {
+    "key": "pl-118901",
+    "dist_km": 0.2
+  },
+  "hanson-augusta-vindelicum": {
+    "key": "pl-900032",
+    "dist_km": 0.8
+  },
+  "hanson-brigantium": {
+    "key": "pl-187325",
+    "dist_km": 0.7
+  },
+  "hanson-paneas": {
+    "key": "pl-678324",
+    "dist_km": 0.1
+  },
+  "hanson-naissus": {
+    "key": "pl-207303",
+    "dist_km": 0.5
+  },
+  "hanson-forum-hadriani": {
+    "key": "dare-13018",
+    "dist_km": 1.2
+  },
+  "hanson-mogontiacum": {
+    "key": "pl-109169",
+    "dist_km": 0.7
+  },
+  "hanson-sala": {
+    "key": "pl-275696",
+    "dist_km": 0.1
+  },
+  "hanson-sirmium": {
+    "key": "dare-10865",
+    "dist_km": 0.0
+  },
+  "hanson-andautonia": {
+    "key": "pl-197113",
+    "dist_km": 0.0
+  },
+  "hanson-scarbantia": {
+    "key": "pl-197501",
+    "dist_km": 0.1
+  },
+  "hanson-curia": {
+    "key": "pl-187357",
+    "dist_km": 0.4
+  },
+  "hanson-colonia-ulpia-traiana": {
+    "key": "dare-558",
+    "dist_km": 0.4
+  },
+  "hanson-noviomagus-germania-inferior": {
+    "key": "pl-900069",
+    "dist_km": 1.0
+  },
+  "hanson-aquae-mattiacorum": {
+    "key": "pl-108750",
+    "dist_km": 0.0
+  },
+  "hanson-clunia": {
+    "key": "dare-22471",
+    "dist_km": 0.1
+  },
+  "hanson-ammaedara": {
+    "key": "dare-21647",
+    "dist_km": 0.0
+  },
+  "hanson-abodiacum": {
+    "key": "pl-187242",
+    "dist_km": 0.0
+  },
+  "hanson-carnuntum-1": {
+    "key": "pl-128384",
+    "dist_km": 0.5
+  },
+  "hanson-vindonissa": {
+    "key": "pl-177661",
+    "dist_km": 1.0
+  },
+  "hanson-cambodunum": {
+    "key": "pl-187335",
+    "dist_km": 0.0
+  },
+  "hanson-tiberias": {
+    "key": "pl-678431",
+    "dist_km": 1.1
+  },
+  "hanson-tipasa": {
+    "key": "pl-295363",
+    "dist_km": 0.5
+  },
+  "hanson-saletio": {
+    "key": "pl-109317",
+    "dist_km": 0.0
+  },
+  "hanson-portus": {
+    "key": "dare-16710",
+    "dist_km": 0.3
+  },
+  "hanson-oppidum-novum": {
+    "key": "pl-295319",
+    "dist_km": 0.0
+  },
+  "hanson-rusuccuru": {
+    "key": "pl-295334",
+    "dist_km": 1.0
+  },
+  "hanson-aguntum": {
+    "key": "dare-10779",
+    "dist_km": 0.1
+  },
+  "hanson-iuvavum": {
+    "key": "pl-187432",
+    "dist_km": 0.2
+  },
+  "hanson-teurnia": {
+    "key": "pl-187583",
+    "dist_km": 0.0
+  },
+  "hanson-virunum": {
+    "key": "pl-197583",
+    "dist_km": 0.0
+  },
+  "hanson-celeia": {
+    "key": "pl-197206",
+    "dist_km": 0.0
+  },
+  "hanson-savaria": {
+    "key": "pl-197498",
+    "dist_km": 0.1
+  },
+  "hanson-aequum": {
+    "key": "pl-197095",
+    "dist_km": 0.0
+  },
+  "hanson-serdica": {
+    "key": "pl-900050",
+    "dist_km": 3.3
+  },
+  "hanson-novae-moesia-inferior": {
+    "key": "pl-216899",
+    "dist_km": 0.6
+  },
+  "hanson-camulodunum": {
+    "key": "pl-79393",
+    "dist_km": 0.1
+  },
+  "hanson-silandos": {
+    "key": "pl-609528",
+    "dist_km": 0.3
+  },
+  "hanson-calleva": {
+    "key": "pl-79368",
+    "dist_km": 0.1
+  },
+  "hanson-verulamium": {
+    "key": "pl-79739",
+    "dist_km": 0.1
+  },
+  "hanson-hadrianopolis-cyrenaica": {
+    "key": "pl-373824",
+    "dist_km": 0.8
+  },
+  "hanson-brigetio": {
+    "key": "dare-26682",
+    "dist_km": 0.7
+  },
+  "hanson-neviodunum": {
+    "key": "pl-197408",
+    "dist_km": 0.9
+  },
+  "hanson-londinium": {
+    "key": "pl-79574",
+    "dist_km": 0.9
+  },
+  "hanson-viminacium-1": {
+    "key": "pl-207549",
+    "dist_km": 0.0
+  },
+  "hanson-cillium": {
+    "key": "dare-21638",
+    "dist_km": 0.2
+  },
+  "hanson-sufetula": {
+    "key": "dare-21637",
+    "dist_km": 0.0
+  },
+  "hanson-noviomagus-germania-superior": {
+    "key": "pl-109224",
+    "dist_km": 0.9
+  },
+  "hanson-flavia-solva": {
+    "key": "dare-10769",
+    "dist_km": 0.0
+  },
+  "hanson-theveste": {
+    "key": "pl-324831",
+    "dist_km": 3.0
+  },
+  "hanson-deultum": {
+    "key": "pl-216788",
+    "dist_km": 0.7
+  },
+  "hanson-diocletianopolis": {
+    "key": "pl-216792",
+    "dist_km": 0.4
+  },
+  "hanson-durovernum": {
+    "key": "pl-79439",
+    "dist_km": 0.2
+  },
+  "hanson-noviomagus-britannia-inferior-et-superior": {
+    "key": "pl-79622",
+    "dist_km": 0.8
+  },
+  "hanson-neapolis-syria-palestina": {
+    "key": "dare-21655",
+    "dist_km": 0.2
+  },
+  "hanson-oescus": {
+    "key": "dare-21378",
+    "dist_km": 0.0
+  },
+  "hanson-arae-flaviae": {
+    "key": "pl-118572",
+    "dist_km": 0.0
+  },
+  "hanson-flaviopolis": {
+    "key": "pl-501352",
+    "dist_km": 0.0
+  },
+  "hanson-venta-silurum": {
+    "key": "pl-79733",
+    "dist_km": 0.0
+  },
+  "hanson-argentoratum": {
+    "key": "pl-108754",
+    "dist_km": 0.5
+  },
+  "hanson-scupi": {
+    "key": "pl-481987",
+    "dist_km": 0.0
+  },
+  "hanson-lindum": {
+    "key": "pl-900067",
+    "dist_km": 0.2
+  },
+  "hanson-sumelocenna": {
+    "key": "pl-118985",
+    "dist_km": 0.2
+  },
+  "hanson-glevum": {
+    "key": "pl-79394",
+    "dist_km": 0.6
+  },
+  "hanson-cuicul": {
+    "key": "dare-21628",
+    "dist_km": 0.0
+  },
+  "hanson-mopthensium": {
+    "key": "pl-835084120",
+    "dist_km": 0.0
+  },
+  "hanson-sitifis": {
+    "key": "dare-22117",
+    "dist_km": 0.9
+  },
+  "hanson-satala": {
+    "key": "pl-550869",
+    "dist_km": 0.2
+  },
+  "hanson-diana-veteranorum": {
+    "key": "pl-334536",
+    "dist_km": 0.0
+  },
+  "hanson-marcianopolis": {
+    "key": "pl-216878",
+    "dist_km": 2.4
+  },
+  "hanson-ulpiana": {
+    "key": "pl-482027",
+    "dist_km": 1.7
+  },
+  "hanson-pautalia": {
+    "key": "pl-481949",
+    "dist_km": 0.8
+  },
+  "hanson-montana": {
+    "key": "pl-207293",
+    "dist_km": 0.0
+  },
+  "hanson-abbir-maius": {
+    "key": "pl-314841",
+    "dist_km": 0.0
+  },
+  "hanson-abitinae": {
+    "key": "dare-25155",
+    "dist_km": 0.0
+  },
+  "hanson-agbia": {
+    "key": "pl-314857",
+    "dist_km": 0.2
+  },
+  "hanson-avedda": {
+    "key": "dare-28144",
+    "dist_km": 5.3
+  },
+  "hanson-bararus": {
+    "key": "pl-324673",
+    "dist_km": 0.0
+  },
+  "hanson-belalis": {
+    "key": "pl-314861",
+    "dist_km": 3.1
+  },
+  "hanson-bisica": {
+    "key": "pl-314908",
+    "dist_km": 0.0
+  },
+  "hanson-capsa": {
+    "key": "dare-21844",
+    "dist_km": 0.0
+  },
+  "hanson-limisa": {
+    "key": "pl-315063",
+    "dist_km": 0.0
+  },
+  "hanson-maraci": {
+    "key": "pl-324776",
+    "dist_km": 0.0
+  },
+  "hanson-numluli": {
+    "key": "dare-22064",
+    "dist_km": 0.7
+  },
+  "hanson-pheradi-maius": {
+    "key": "dare-21597",
+    "dist_km": 0.1
+  },
+  "hanson-pupput": {
+    "key": "pl-315121",
+    "dist_km": 0.0
+  },
+  "hanson-segermes": {
+    "key": "pl-315147",
+    "dist_km": 0.2
+  },
+  "hanson-seressi": {
+    "key": "pl-315150",
+    "dist_km": 0.1
+  },
+  "hanson-sufes": {
+    "key": "pl-324815",
+    "dist_km": 0.0
+  },
+  "hanson-thibiuca": {
+    "key": "pl-315203",
+    "dist_km": 7.0
+  },
+  "hanson-thignica": {
+    "key": "pl-315207",
+    "dist_km": 0.0
+  },
+  "hanson-thubursicum-bure": {
+    "key": "dare-22061",
+    "dist_km": 0.7
+  },
+  "hanson-turris-tamalleni": {
+    "key": "pl-344526",
+    "dist_km": 0.0
+  },
+  "hanson-unknown-1": {
+    "key": "pl-324763",
+    "dist_km": 3.6
+  },
+  "hanson-vallis": {
+    "key": "pl-314933",
+    "dist_km": 3.6
+  },
+  "hanson-zitha": {
+    "key": "pl-344571",
+    "dist_km": 7.5
+  },
+  "hanson-aquae-sulis": {
+    "key": "dare-26057",
+    "dist_km": 2.7
+  },
+  "hanson-caesaromagus-britannia": {
+    "key": "pl-79364",
+    "dist_km": 0.9
+  },
+  "hanson-corinium-dobunnorum": {
+    "key": "pl-79549",
+    "dist_km": 0.1
+  },
+  "hanson-durnovaria": {
+    "key": "pl-79431",
+    "dist_km": 0.5
+  },
+  "hanson-durobrivae-britannia-1": {
+    "key": "pl-79432",
+    "dist_km": 0.1
+  },
+  "hanson-durobrivae-britannia-2": {
+    "key": "pl-79433",
+    "dist_km": 0.1
+  },
+  "hanson-eburacum": {
+    "key": "pl-89175",
+    "dist_km": 0.3
+  },
+  "hanson-isca": {
+    "key": "pl-900039",
+    "dist_km": 0.1
+  },
+  "hanson-isurium": {
+    "key": "pl-89209",
+    "dist_km": 0.6
+  },
+  "hanson-lindinis": {
+    "key": "dare-23045",
+    "dist_km": 0.3
+  },
+  "hanson-luguvalium": {
+    "key": "pl-89234",
+    "dist_km": 0.3
+  },
+  "hanson-moridunum": {
+    "key": "pl-79602",
+    "dist_km": 0.4
+  },
+  "hanson-petuaria": {
+    "key": "pl-79639",
+    "dist_km": 0.5
+  },
+  "hanson-ratae": {
+    "key": "pl-79651",
+    "dist_km": 0.2
+  },
+  "hanson-venta-belgarum": {
+    "key": "pl-79734",
+    "dist_km": 0.3
+  },
+  "hanson-venta-icenorum": {
+    "key": "dare-20697",
+    "dist_km": 0.3
+  },
+  "hanson-viroconium": {
+    "key": "dare-20700",
+    "dist_km": 0.1
+  },
+  "hanson-augusta-cilicia": {
+    "key": "pl-648577",
+    "dist_km": 0.0
+  },
+  "hanson-lopodunum": {
+    "key": "pl-118813",
+    "dist_km": 0.3
+  },
+  "hanson-ad-sava": {
+    "key": "pl-305024",
+    "dist_km": 1.0
+  },
+  "hanson-arsennaria": {
+    "key": "pl-295219",
+    "dist_km": 0.0
+  },
+  "hanson-auzia": {
+    "key": "pl-295221",
+    "dist_km": 0.0
+  },
+  "hanson-bida": {
+    "key": "pl-295228",
+    "dist_km": 0.2
+  },
+  "hanson-choba": {
+    "key": "pl-305062",
+    "dist_km": 4.0
+  },
+  "hanson-iomnium": {
+    "key": "dare-22127",
+    "dist_km": 0.4
+  },
+  "hanson-lamasba": {
+    "key": "pl-334569",
+    "dist_km": 0.2
+  },
+  "hanson-portus-magnus": {
+    "key": "pl-285503",
+    "dist_km": 0.0
+  },
+  "hanson-quiza": {
+    "key": "pl-295327",
+    "dist_km": 2.3
+  },
+  "hanson-rusippisir": {
+    "key": "pl-295332",
+    "dist_km": 1.6
+  },
+  "hanson-siga": {
+    "key": "pl-285521",
+    "dist_km": 1.5
+  },
+  "hanson-tropaeum-traiani": {
+    "key": "pl-217027",
+    "dist_km": 0.0
+  },
+  "hanson-dard": {
+    "key": "pl-207455",
+    "dist_km": 2.8
+  },
+  "hanson-remesiana": {
+    "key": "pl-207382",
+    "dist_km": 1.5
+  },
+  "hanson-singidunum": {
+    "key": "pl-207443",
+    "dist_km": 0.0
+  },
+  "hanson-cetium": {
+    "key": "pl-118629",
+    "dist_km": 0.0
+  },
+  "hanson-althiburos": {
+    "key": "dare-22626",
+    "dist_km": 8.9
+  },
+  "hanson-calama": {
+    "key": "pl-305039",
+    "dist_km": 0.2
+  },
+  "hanson-civitas-nattabutum": {
+    "key": "dare-22107",
+    "dist_km": 0.0
+  },
+  "hanson-lares": {
+    "key": "pl-315061",
+    "dist_km": 0.0
+  },
+  "hanson-mascula": {
+    "key": "pl-334587",
+    "dist_km": 0.0
+  },
+  "hanson-thamugadi": {
+    "key": "pl-334636",
+    "dist_km": 0.0
+  },
+  "hanson-thubursicum-numidarum": {
+    "key": "pl-305166",
+    "dist_km": 0.0
+  },
+  "hanson-verecunda": {
+    "key": "pl-334662",
+    "dist_km": 0.1
+  },
+  "hanson-bassiana-pannonia-inferior": {
+    "key": "dare-13848",
+    "dist_km": 0.3
+  },
+  "hanson-cibalae": {
+    "key": "pl-197207",
+    "dist_km": 0.0
+  },
+  "hanson-gorsium": {
+    "key": "dare-10847",
+    "dist_km": 0.1
+  },
+  "hanson-aquae-balissae": {
+    "key": "pl-197126",
+    "dist_km": 0.0
+  },
+  "hanson-bassiana-pannonia-superior": {
+    "key": "pl-197160",
+    "dist_km": 0.0
+  },
+  "hanson-mogentiana": {
+    "key": "pl-197381",
+    "dist_km": 0.1
+  },
+  "hanson-sopianae": {
+    "key": "pl-197523",
+    "dist_km": 0.7
+  },
+  "hanson-vindobona": {
+    "key": "pl-128460",
+    "dist_km": 0.2
+  },
+  "hanson-napoca": {
+    "key": "pl-207304",
+    "dist_km": 1.4
+  },
+  "hanson-drobeta": {
+    "key": "pl-207100",
+    "dist_km": 1.3
+  },
+  "hanson-nicopolis-moesia-inferior": {
+    "key": "pl-216895",
+    "dist_km": 0.0
+  },
+  "hanson-bostra": {
+    "key": "dare-21117",
+    "dist_km": 0.2
+  },
+  "hanson-centumcellae": {
+    "key": "pl-413076",
+    "dist_km": 0.4
+  },
+  "hanson-ratiaria": {
+    "key": "pl-207376",
+    "dist_km": 0.0
+  },
+  "hanson-aquincum": {
+    "key": "pl-197130",
+    "dist_km": 0.1
+  },
+  "hanson-nicopolis-thracia": {
+    "key": "pl-501525",
+    "dist_km": 1.9
+  },
+  "hanson-apulum-1": {
+    "key": "pl-206927",
+    "dist_km": 0.3
+  },
+  "hanson-dierna": {
+    "key": "pl-207078",
+    "dist_km": 0.0
+  },
+  "hanson-porolissum": {
+    "key": "pl-207361",
+    "dist_km": 6.1
+  },
+  "hanson-romula": {
+    "key": "pl-216958",
+    "dist_km": 0.3
+  },
+  "hanson-tibiscum": {
+    "key": "pl-207495",
+    "dist_km": 3.2
+  },
+  "hanson-sarmizegetusa": {
+    "key": "dare-19910",
+    "dist_km": 1.6
+  },
+  "hanson-hadrianopolis-achaea": {
+    "key": "dare-21419",
+    "dist_km": 0.0
+  },
+  "hanson-hadrianopolis-thracia": {
+    "key": "pl-501428",
+    "dist_km": 0.9
+  },
+  "hanson-rapidum": {
+    "key": "pl-295329",
+    "dist_km": 0.0
+  },
+  "hanson-lambaesis": {
+    "key": "pl-334570",
+    "dist_km": 3.4
+  },
+  "hanson-antinoopolis": {
+    "key": "pl-756518",
+    "dist_km": 0.6
+  },
+  "hanson-mursa": {
+    "key": "pl-197389",
+    "dist_km": 0.0
+  },
+  "hanson-micia": {
+    "key": "pl-207286",
+    "dist_km": 1.9
+  },
+  "hanson-durostorum": {
+    "key": "pl-216800",
+    "dist_km": 0.5
+  },
+  "hanson-ampelum": {
+    "key": "pl-206917",
+    "dist_km": 3.1
+  },
+  "hanson-faustinopolis": {
+    "key": "pl-648608",
+    "dist_km": 1.9
+  },
+  "hanson-potaissa": {
+    "key": "pl-207362",
+    "dist_km": 0.0
+  },
+  "hanson-margum": {
+    "key": "pl-207267",
+    "dist_km": 1.4
+  },
+  "hanson-lauriacum": {
+    "key": "pl-118802",
+    "dist_km": 0.9
+  },
+  "hanson-apisa-maius": {
+    "key": "pl-314878",
+    "dist_km": 1.1
+  },
+  "hanson-aunobari": {
+    "key": "dare-25156",
+    "dist_km": 0.0
+  },
+  "hanson-chidibbia": {
+    "key": "pl-314927",
+    "dist_km": 0.2
+  },
+  "hanson-corstopitum": {
+    "key": "pl-89152",
+    "dist_km": 0.0
+  },
+  "hanson-lambiridi": {
+    "key": "pl-334572",
+    "dist_km": 0.0
+  },
+  "hanson-thala": {
+    "key": "pl-324826",
+    "dist_km": 0.7
+  },
+  "hanson-thibilis": {
+    "key": "pl-305165",
+    "dist_km": 0.1
+  },
+  "hanson-philippopolis-arabia": {
+    "key": "pl-678332",
+    "dist_km": 0.1
+  }
+}

@@ -1,14 +1,16 @@
 import { useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useSelectionStore } from '@/stores/useSelectionStore'
-import { useTimelineStore } from '@/stores/useTimelineStore'
+import {
+  useTimelineStore,
+  ROMAN_MIN,
+  ROMAN_MAX,
+  FULL_MIN,
+  FULL_MAX,
+} from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
 import { ALL_LAYER_KEYS, useMapLayerStore } from '@/stores/useMapLayerStore'
-
-// Keep in sync with TimelinePlayer's domain.
-const MIN_YEAR = -753
-const MAX_YEAR = 1453
 
 /** Active layers as a compact URL value: showEmpires → empires.
  *  A shared link must carry the SCENE — recipients used to get their own
@@ -43,7 +45,10 @@ export function useURLSync() {
     if (yearParam) {
       const y = Number(yearParam)
       if (Number.isFinite(y)) {
-        setYear(Math.max(MIN_YEAR, Math.min(MAX_YEAR, Math.round(y))))
+        const { fullTimeline } = useTimelineStore.getState()
+        const lo = fullTimeline ? FULL_MIN : ROMAN_MIN
+        const hi = fullTimeline ? FULL_MAX : ROMAN_MAX
+        setYear(Math.max(lo, Math.min(hi, Math.round(y))))
       }
     }
 

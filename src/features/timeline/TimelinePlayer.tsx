@@ -1,15 +1,19 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { Play, Pause } from 'lucide-react'
-import { useTimelineStore } from '@/stores/useTimelineStore'
+import {
+  useTimelineStore,
+  ROMAN_MIN,
+  ROMAN_MAX,
+  FULL_MIN,
+  FULL_MAX,
+} from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { formatYear } from '@/lib/geo'
 
-const MIN_YEAR = -753
-const MAX_YEAR = 1453
 const YEARS_PER_SECOND = 50
 const SPEEDS = [0.25, 0.5, 1, 2, 4]
 
-const TICK_MARKS = [
+const ROMAN_TICKS = [
   { year: -753, label: 'Founding' },
   { year: -264, label: 'Punic Wars' },
   { year: -27, label: 'Empire' },
@@ -19,7 +23,19 @@ const TICK_MARKS = [
   { year: 1453, label: 'Constantinople' },
 ]
 
-const ERAS = [
+const FULL_TICKS = [
+  { year: -3700, label: 'Eridu' },
+  { year: -3000, label: 'Bronze Age' },
+  { year: -2000, label: 'Babylon' },
+  { year: -1200, label: 'Collapse' },
+  { year: -753, label: 'Rome Founded' },
+  { year: -27, label: 'Empire' },
+  { year: 476, label: 'West Falls' },
+  { year: 1453, label: 'Constantinople' },
+  { year: 1975, label: 'Modern' },
+]
+
+const ROMAN_ERAS = [
   { label: 'Kingdom', start: -753, end: -509 },
   { label: 'Republic', start: -509, end: -27 },
   { label: 'Early Empire', start: -27, end: 117 },
@@ -31,11 +47,19 @@ const ERAS = [
   { label: 'Late Byzantine', start: 1204, end: 1453 },
 ]
 
-const TOTAL_YEARS = MAX_YEAR - MIN_YEAR // 1229
-
-function yearToPercent(year: number): number {
-  return ((year - MIN_YEAR) / TOTAL_YEARS) * 100
-}
+const FULL_ERAS = [
+  { label: 'Early Urban', start: -3700, end: -3000 },
+  { label: 'Early Bronze Age', start: -3000, end: -2000 },
+  { label: 'Late Bronze Age', start: -2000, end: -1200 },
+  { label: 'Bronze Age Collapse', start: -1200, end: -800 },
+  { label: 'Iron Age', start: -800, end: -509 },
+  { label: 'Classical', start: -509, end: -27 },
+  { label: 'Roman Empire', start: -27, end: 476 },
+  { label: 'Early Medieval', start: 476, end: 1000 },
+  { label: 'High Medieval', start: 1000, end: 1453 },
+  { label: 'Early Modern', start: 1453, end: 1800 },
+  { label: 'Modern', start: 1800, end: 1975 },
+]
 
 export function TimelinePlayer() {
   const playing = useTimelineStore((s) => s.playing)
@@ -46,7 +70,19 @@ export function TimelinePlayer() {
   const setYear = useTimelineStore((s) => s.setYear)
   const setSpeed = useTimelineStore((s) => s.setSpeed)
   const setScrubbing = useTimelineStore((s) => s.setScrubbing)
+  const fullTimeline = useTimelineStore((s) => s.fullTimeline)
+  const toggleFullTimeline = useTimelineStore((s) => s.toggleFullTimeline)
   const isMobile = useUIStore((s) => s.isMobile)
+
+  const MIN_YEAR = fullTimeline ? FULL_MIN : ROMAN_MIN
+  const MAX_YEAR = fullTimeline ? FULL_MAX : ROMAN_MAX
+  const TOTAL_YEARS = MAX_YEAR - MIN_YEAR
+  const TICK_MARKS = fullTimeline ? FULL_TICKS : ROMAN_TICKS
+  const ERAS = fullTimeline ? FULL_ERAS : ROMAN_ERAS
+
+  function yearToPercent(year: number): number {
+    return ((year - MIN_YEAR) / TOTAL_YEARS) * 100
+  }
 
   const rafRef = useRef<number | null>(null)
   const lastTimeRef = useRef<number | null>(null)
@@ -101,7 +137,7 @@ export function TimelinePlayer() {
         rafRef.current = null
       }
     }
-  }, [playing, speed, pause, setYear])
+  }, [playing, speed, pause, setYear, MAX_YEAR])
 
   // First-visit nudge: the time-lapse IS the product, but nothing invited a
   // new visitor to press play. A quiet pulse on the play button until the
@@ -137,7 +173,7 @@ export function TimelinePlayer() {
 
   const currentEra = useMemo(
     () => ERAS.find((e) => currentYear >= e.start && currentYear < e.end) ?? ERAS[ERAS.length - 1],
-    [currentYear],
+    [currentYear, ERAS],
   )
 
   // Mobile: ultra-compact single row
@@ -213,16 +249,20 @@ export function TimelinePlayer() {
                 currentYear >= tick.year &&
                 (ti === TICK_MARKS.length - 1 || currentYear < TICK_MARKS[ti + 1].year)
               return (
-              <div
-                key={tick.year}
-                className="absolute -translate-x-1/2 group"
-                style={{ left: `${yearToPercent(tick.year)}%` }}
-              >
-                <div className={`w-px h-3 mx-auto ${isCurrent ? 'bg-amber-400/70' : 'bg-slate-500/30'}`} />
-                <div className={`absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] uppercase tracking-[0.18em] pointer-events-none z-10 transition-colors duration-500 ${isCurrent ? 'text-amber-300/90' : 'text-amber-200/35'}`}>
-                  {tick.label}
+                <div
+                  key={tick.year}
+                  className="absolute -translate-x-1/2 group"
+                  style={{ left: `${yearToPercent(tick.year)}%` }}
+                >
+                  <div
+                    className={`w-px h-3 mx-auto ${isCurrent ? 'bg-amber-400/70' : 'bg-slate-500/30'}`}
+                  />
+                  <div
+                    className={`absolute bottom-full mb-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] uppercase tracking-[0.18em] pointer-events-none z-10 transition-colors duration-500 ${isCurrent ? 'text-amber-300/90' : 'text-amber-200/35'}`}
+                  >
+                    {tick.label}
+                  </div>
                 </div>
-              </div>
               )
             })}
           </div>
@@ -264,13 +304,15 @@ export function TimelinePlayer() {
       <div className="flex items-center justify-center pb-0.5">
         <span
           key={currentEra.label}
-          className="text-xs text-amber-400/75 font-serif italic tracking-[0.08em] transition-colors duration-300"
+          className="text-xs text-amber-400/75 font-serif italic tracking-[0.08em] transition-colors duration-300 cursor-default select-none"
+          onDoubleClick={toggleFullTimeline}
+          title=""
         >
-          {/* era ends are half-open (next era starts there) except 476 and
-              the timeline's own last year — 'Late Byzantine → 1452' undersold
-              the fall of Constantinople by a year */}
           {currentEra.label} ({formatYear(currentEra.start)} →{' '}
-          {formatYear([476, 1453].includes(currentEra.end) ? currentEra.end : currentEra.end - 1)})
+          {formatYear(
+            [476, 1453, 1975].includes(currentEra.end) ? currentEra.end : currentEra.end - 1,
+          )}
+          )
         </span>
       </div>
     </div>

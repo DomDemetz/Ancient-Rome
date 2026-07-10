@@ -32,10 +32,13 @@ R = os.path.join(BASE, "registry")
 
 dare = json.load(open(os.path.join(BASE, "dare", "settlements.json")))
 chandler = json.load(open(os.path.join(BASE, "cities", "historical-cities.json")))
+modelski = json.load(open(os.path.join(BASE, "cities", "modelski-cities.json")))
 pleiades = {str(p.get("properties", p)["id"]): p.get("properties", p)
             for p in json.load(open(os.path.join(BASE, "pleiades-all.json")))}
 xw_dare = json.load(open(os.path.join(R, "crosswalk-dare.json")))
 xw_ch = json.load(open(os.path.join(R, "crosswalk-chandler.json")))
+xw_hanson = json.load(open(os.path.join(R, "crosswalk-hanson.json")))
+xw_mo = json.load(open(os.path.join(R, "crosswalk-modelski.json")))
 dare_qid = json.load(open(os.path.join(R, "dare-wikidata.json")))
 bridge = json.load(open(os.path.join(R, "pleiades-wikidata.json")))
 setl_wiki = json.load(open(os.path.join(BASE, "wiki", "settlements-wiki.json")))
@@ -50,11 +53,11 @@ def clean_qid(q):
     Only a bare Q-id is trustworthy identity."""
     return q if q and re.fullmatch(r"Q\d+", q) else None
 
-MIN_YEAR, MAX_YEAR = -753, 1453
+MIN_YEAR, MAX_YEAR = -3700, 1975
 
 # --- group source records by canonical key ---
 # key = pleiades pid when linked, else the source's own namespaced id
-groups = defaultdict(lambda: {"dare": [], "chandler": [], "pid": None})
+groups = defaultdict(lambda: {"dare": [], "chandler": [], "modelski": [], "pid": None})
 for s in dare:
     did = str(s["id"])
     pid = xw_dare.get(did, {}).get("pid")
@@ -66,40 +69,78 @@ for c in chandler:
     if c["startYear"] > MAX_YEAR:
         continue  # never renders in the atlas window
     pid = xw_ch.get(c["id"], {}).get("pid")
-    key = f"pl-{pid}" if pid else f"ch-{c['id']}"
+    if pid:
+        key = f"pl-{pid}"
+    elif c["id"] in xw_hanson:
+        key = xw_hanson[c["id"]]["key"]
+    else:
+        key = f"ch-{c['id']}"
     g = groups[key]
     g["chandler"].append(c)
     if pid: g["pid"] = pid
+for mc in modelski:
+    link = xw_mo.get(mc["id"])
+    if link:
+        key = link["key"]
+    else:
+        key = f"mo-{mc['id']}"
+    g = groups[key]
+    g["modelski"].append(mc)
+
+
+def merge_populations(chandler_pops, modelski_pops):
+    """Merge two population curves: Modelski covers its time range (higher-
+    quality ancient estimates), Chandler covers everything after. A naive
+    union creates wild oscillation where the sources disagree on absolutes
+    (Rome: Modelski 1M at 200 AD vs Chandler 450k at 100 AD)."""
+    if not modelski_pops:
+        return chandler_pops
+    if not chandler_pops:
+        return modelski_pops
+    mo_end = max(p["year"] for p in modelski_pops)
+    by_year = {}
+    for p in modelski_pops:
+        by_year[p["year"]] = p["population"]
+    for p in chandler_pops:
+        if p["year"] > mo_end:
+            by_year[p["year"]] = p["population"]
+    return [{"year": y, "population": by_year[y]} for y in sorted(by_year)]
 
 places, stats = [], defaultdict(int)
 for key, g in groups.items():
-    ds = g["dare"]; cs = g["chandler"]; pid = g["pid"]
+    ds = g["dare"]; cs = g["chandler"]; ms = g["modelski"]; pid = g["pid"]
     pl = pleiades.get(pid) if pid else None
-    # representative dare record: prefer major, then lowest type code (city-most)
     d = sorted(ds, key=lambda s: (not s.get("major"), s.get("type", 99)))[0] if ds else None
-    c = cs[0] if cs else None
+    c = max(cs, key=lambda x: len(x.get("populations", []))) if cs else None
+    mo = ms[0] if ms else None
 
-    # coords: Pleiades > DARE > Chandler
+    # coords: Pleiades > DARE > Chandler > Modelski
     if pl and pl.get("lat") is not None:
         lat, lng = float(pl["lat"]), float(pl["lng"])
     elif d:
         lat, lng = d["lat"], d["lng"]
-    else:
+    elif c:
         lat, lng = c["lat"], c["lng"]
+    else:
+        lat, lng = mo["lat"], mo["lng"]
 
-    # name: Chandler (curated display) > DARE > Pleiades. strip() guards the
-    # whitespace-name records (a blank DARE name beat Pleiades' 'Bucium' and
-    # shipped an unnamed popup as pl-206989)
     def _n(v):
         return (v or "").strip() or None
     name = (
-        (c and _n(c["name"])) or (d and _n(d["name"])) or (pl and _n(pl.get("name"))) or "?"
+        (c and _n(c["name"])) or (d and _n(d["name"])) or (mo and _n(mo["name"]))
+        or (pl and _n(pl.get("name"))) or "?"
     )
 
-    # lifespan: widest attested span; keep DARE's 0 = unknown semantics only
-    # when no source gives a real bound
-    starts = [v for v in ([d.get("startYear") if d else None, c["startYear"] if c else None]) if v not in (None, 0)]
-    ends = [v for v in ([d.get("endYear") if d else None, c["endYear"] if c else None]) if v not in (None, 0)]
+    starts = [v for v in ([
+        d.get("startYear") if d else None,
+        c["startYear"] if c else None,
+        mo["startYear"] if mo else None,
+    ]) if v not in (None, 0)]
+    ends = [v for v in ([
+        d.get("endYear") if d else None,
+        c["endYear"] if c else None,
+        mo["endYear"] if mo else None,
+    ]) if v not in (None, 0)]
     start = min(starts) if starts else 0
     end = max(ends) if ends else 0
 
@@ -108,7 +149,6 @@ for key, g in groups.items():
         or (c and xw_ch.get(c["id"], {}).get("qid")) or None
     )
 
-    # knowledge ref: single unified wiki layer
     wiki = None
     if d and str(d["id"]) in setl_wiki:
         wiki = ["settlements", str(d["id"])]
@@ -135,11 +175,30 @@ for key, g in groups.items():
                 node["dare"][k] = d[k]
         if d.get("modern") and d["modern"] != name:
             node["modern"] = d["modern"]
-    if c:
-        node["populations"] = c["populations"]
+    # Merge populations from all chandler entries in the group (Chandler + Hanson
+    # entries may both map to the same canonical node). Primary wins on year conflicts.
+    all_ch_pops = c["populations"] if c else []
+    if len(cs) > 1:
+        by_year = {}
+        for extra in cs:
+            for p in extra.get("populations", []):
+                if p["year"] not in by_year:
+                    by_year[p["year"]] = p["population"]
+        for p in c["populations"]:
+            by_year[p["year"]] = p["population"]
+        all_ch_pops = [{"year": y, "population": by_year[y]} for y in sorted(by_year)]
+    if all_ch_pops and mo:
+        node["populations"] = merge_populations(all_ch_pops, mo["populations"])
+        stats["merged chandler+modelski populations"] += 1
+    elif all_ch_pops:
+        node["populations"] = all_ch_pops
+    elif mo and mo.get("populations"):
+        node["populations"] = mo["populations"]
+        stats["modelski-only populations"] += 1
     places.append(node)
     stats["nodes"] += 1
     if ds and cs: stats["merged dare+chandler"] += 1
+    if ms: stats["with modelski"] += 1
     if len(ds) > 1: stats["multi-dare collapsed"] += 1
     if qid: stats["with qid"] += 1
     if wiki: stats["with wiki"] += 1
@@ -383,15 +442,16 @@ for tier_name, tier in (("places-core", core), ("places-detail", detail)):
     print(f"{tier_name}.json: {len(tier)} nodes, {os.path.getsize(tp)//1024} KB")
 
 print(f"places.json: {len(places)} canonical nodes ({os.path.getsize(path)//1024//1024}.{os.path.getsize(path)//1024%1024//103} MB)")
-print(f"  from {len(dare)} DARE + {sum(1 for c in chandler if c['startYear']<=MAX_YEAR)} Chandler records")
-for k in ("merged dare+chandler", "multi-dare collapsed", "with pid", "with qid", "with wiki"):
+print(f"  from {len(dare)} DARE + {sum(1 for c in chandler if c['startYear']<=MAX_YEAR)} Chandler + {len(modelski)} Modelski records")
+for k in ("merged dare+chandler", "with modelski", "merged chandler+modelski populations",
+          "modelski-only populations", "multi-dare collapsed", "with pid", "with qid", "with wiki"):
     print(f"  {k}: {stats[k]}")
 
 # --- gold checks ---
 def find(n):
     cands = [p for p in places if p["name"] == n]
     return sorted(cands, key=lambda p: -(max((x["population"] for x in p.get("populations", [])), default=0)))[0] if cands else None
-for n in ("Rome", "Constantinople", "Alexandria", "Carthage"):
+for n in ("Rome", "Roma", "Constantinople", "Alexandria", "Carthage"):
     p = find(n)
     if p:
         print(f"  GOLD {n:15} id={p['id']:12} qid={p.get('qid')} pop={'yes' if 'populations' in p else 'no'} "
