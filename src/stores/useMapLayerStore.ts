@@ -204,6 +204,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
         label: 'Presence',
         activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
       },
+      {
+        key: 'SitesMilitary',
+        label: 'Military Sites',
+        activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
+      },
     ],
   },
   {
@@ -220,6 +225,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
         activeClass: 'bg-yellow-900/80 border-yellow-700 text-yellow-100 hover:bg-yellow-800/80',
       },
       {
+        key: 'SitesCities',
+        label: 'Cities & Buildings',
+        activeClass: 'bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80',
+      },
+      {
         key: 'Epigraphy',
         label: 'Epigraphy',
         activeClass: 'bg-yellow-900/80 border-yellow-700 text-yellow-100 hover:bg-yellow-800/80',
@@ -232,12 +242,12 @@ export const LAYER_GROUPS: LayerGroup[] = [
     ],
   },
   {
-    label: 'Sites',
+    label: 'Economy',
     layers: [
       {
-        key: 'SitesCities',
-        label: 'Cities & Buildings',
-        activeClass: 'bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80',
+        key: 'SitesProduction',
+        label: 'Production & Industry',
+        activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
       },
       {
         key: 'SitesRural',
@@ -245,39 +255,24 @@ export const LAYER_GROUPS: LayerGroup[] = [
         activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
       },
       {
-        key: 'SitesMilitary',
-        label: 'Military',
-        activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
+        key: 'TradeNetwork',
+        label: 'Trade Network',
+        activeClass: 'bg-teal-900/80 border-teal-700 text-teal-100 hover:bg-teal-800/80',
       },
+    ],
+  },
+  {
+    label: 'Religion',
+    layers: [
       {
         key: 'SitesReligious',
-        label: 'Religious',
+        label: 'Religious Sites',
         activeClass: 'bg-violet-900/80 border-violet-700 text-violet-100 hover:bg-violet-800/80',
       },
       {
         key: 'SitesFunerary',
         label: 'Funerary & Monuments',
         activeClass: 'bg-purple-900/80 border-purple-700 text-purple-100 hover:bg-purple-800/80',
-      },
-      {
-        key: 'SitesProduction',
-        label: 'Production & Industry',
-        activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
-      },
-      {
-        key: 'SitesInfrastructure',
-        label: 'Infrastructure',
-        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
-      },
-    ],
-  },
-  {
-    label: 'Production & Industry',
-    layers: [
-      {
-        key: 'TradeNetwork',
-        label: 'Trade Network',
-        activeClass: 'bg-teal-900/80 border-teal-700 text-teal-100 hover:bg-teal-800/80',
       },
     ],
   },
@@ -303,6 +298,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
         key: 'Water',
         label: 'Water',
         activeClass: 'bg-blue-900/80 border-blue-700 text-blue-100 hover:bg-blue-800/80',
+      },
+      {
+        key: 'SitesInfrastructure',
+        label: 'Bridges, Baths & Ports',
+        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
       },
     ],
   },

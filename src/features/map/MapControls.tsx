@@ -58,8 +58,8 @@ const GROUP_ICONS: Record<string, typeof Globe> = {
   Political: Globe,
   Military: Swords,
   Urban: Landmark,
-  Sites: MapPin,
   Economy: Coins,
+  Religion: Sparkles,
   Infrastructure: Route,
   Points: MapPin,
 }
