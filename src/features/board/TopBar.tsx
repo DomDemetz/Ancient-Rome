@@ -1,7 +1,6 @@
 import { AboutDialog } from './AboutDialog'
-import { PanelLeft, BookOpen, Shield, Heart } from 'lucide-react'
+import { BookOpen, Shield, Heart } from 'lucide-react'
 import { useState } from 'react'
-import { LensSwitcher } from './LensSwitcher'
 import { SearchBar } from '@/features/search/SearchBar'
 import { useUIStore } from '@/stores/useUIStore'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/ui/dialog'
@@ -14,10 +13,7 @@ interface TopBarProps {
 }
 
 export function TopBar({ storyMode }: TopBarProps) {
-  const toggleSidebar = useUIStore((s) => s.toggleSidebar)
   const isMobile = useUIStore((s) => s.isMobile)
-  const lens = useUIStore((s) => s.lens)
-  const atlasMode = useUIStore((s) => s.atlasMode)
   const [dialogOpen, setDialogOpen] = useState(false)
 
   function handleStart(story: Story) {
@@ -28,20 +24,9 @@ export function TopBar({ storyMode }: TopBarProps) {
   if (isMobile) {
     return (
       <header
-        className={`flex items-center gap-2 px-3 h-11 shrink-0 backdrop-blur-2xl ${atlasMode ? 'bg-black/40 border-b border-amber-500/15' : 'bg-black/70 border-b border-amber-500/15'}`}
+        className="flex items-center gap-2 px-3 h-11 shrink-0 backdrop-blur-2xl bg-black/40 border-b border-amber-500/15"
         style={{ zIndex: 1000, paddingTop: 'env(safe-area-inset-top, 0px)' }}
       >
-        {/* Sidebar toggle — graph only */}
-        {lens === 'graph' && (
-          <button
-            onClick={() => toggleSidebar()}
-            className="flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-lg text-slate-400 active:text-white transition-colors"
-            aria-label="Toggle sidebar"
-          >
-            <PanelLeft className="size-4" />
-          </button>
-        )}
-
         {/* Logo mark */}
         <div className="bg-gradient-to-br from-amber-500 to-orange-700 p-1 rounded-md">
           <Shield className="size-3.5 text-white" />
@@ -67,7 +52,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto bg-[#0c0c10] border border-white/[0.06] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
             <DialogHeader>
               <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
-                {atlasMode ? 'Stories' : 'Guided Stories'}
+                Stories
               </DialogTitle>
             </DialogHeader>
             <StoryPlayer onStart={handleStart} />
@@ -94,23 +79,9 @@ export function TopBar({ storyMode }: TopBarProps) {
 
   return (
     <header
-      className={`flex items-center shrink-0 relative backdrop-blur-2xl ${
-        atlasMode
-          ? 'gap-3 px-4 h-11 bg-black/40 border-b border-white/[0.04]'
-          : 'gap-5 px-6 h-14 bg-[#0a0a0c]/90 border-b border-white/[0.08] shadow-[0_1px_12px_rgba(0,0,0,0.4)]'
-      }`}
+      className="flex items-center shrink-0 relative backdrop-blur-2xl gap-3 px-4 h-11 bg-black/40 border-b border-white/[0.04]"
       style={{ zIndex: 1000 }}
     >
-      {lens === 'graph' && (
-        <button
-          onClick={() => toggleSidebar()}
-          className="flex items-center justify-center size-8 rounded-lg bg-white/[0.04] border border-white/[0.08] text-slate-400 hover:text-white hover:bg-white/[0.08] transition-colors"
-          aria-label="Toggle sidebar"
-        >
-          <PanelLeft className="size-4" />
-        </button>
-      )}
-
       <div className="flex items-center gap-3">
         <div className="bg-gradient-to-br from-amber-500 to-orange-700 p-1.5 rounded-lg shadow-[0_2px_16px_rgba(180,83,9,0.3)]">
           <Shield className="size-4.5 text-white" />
@@ -120,7 +91,7 @@ export function TopBar({ storyMode }: TopBarProps) {
             Ancient Rome
           </span>
           <span className="text-[8px] uppercase tracking-[0.3em] text-slate-500">
-            {atlasMode ? 'Historical Atlas' : 'Investigation Board'}
+            Historical Atlas
           </span>
         </div>
       </div>
@@ -143,7 +114,7 @@ export function TopBar({ storyMode }: TopBarProps) {
         <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto bg-[#0c0c10] border border-white/[0.08] shadow-[0_16px_64px_rgba(0,0,0,0.7)]">
           <DialogHeader>
             <DialogTitle className="font-serif italic text-amber-500/70 text-lg">
-              {atlasMode ? 'Stories' : 'Guided Stories'}
+              Stories
             </DialogTitle>
           </DialogHeader>
           <StoryPlayer onStart={handleStart} />
@@ -165,8 +136,6 @@ export function TopBar({ storyMode }: TopBarProps) {
         <Heart className="size-3.5" />
         <span className="text-[10px] font-bold uppercase tracking-[0.1em]">Support</span>
       </a>
-
-      {!atlasMode && <LensSwitcher />}
     </header>
   )
 }

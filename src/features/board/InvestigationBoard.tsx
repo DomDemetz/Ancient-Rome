@@ -1,37 +1,24 @@
 import { useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { useUIStore } from '@/stores/useUIStore'
 import { TopBar } from './TopBar'
-import { TrailBar } from './TrailBar'
-import { FilterPanel } from '@/features/filters/FilterPanel'
-import { PathFinder } from '@/features/search/PathFinder'
 import { DetailPanel } from '@/features/detail/DetailPanel'
 import { WikiDetailPanel } from '@/features/detail/WikiDetailPanel'
 import { useURLSync } from '@/app/useURLSync'
 import { useMobileDetect } from '@/app/useMobileDetect'
-import { GraphView } from '@/features/graph/GraphView'
 import { MapView } from '@/features/map/MapView'
-import { TimelineView } from '@/features/timeline/TimelineView'
-import { StatsView } from '@/features/stats/StatsView'
 import { ErrorBoundary } from '@/app/ErrorBoundary'
 import { useStoryMode } from '@/features/stories/useStoryMode'
 import { NarrationBar } from '@/features/stories/NarrationBar'
 import { stories } from '@/data'
-import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
-import { MobileTabBar } from './LensSwitcher'
 
 export function InvestigationBoard() {
   useURLSync()
   useMobileDetect()
-  const lens = useUIStore((s) => s.lens)
-  const atlasMode = useUIStore((s) => s.atlasMode)
-  const sidebarOpen = useUIStore((s) => s.sidebarOpen)
-  const isMobile = useUIStore((s) => s.isMobile)
 
   const storyMode = useStoryMode()
   const [searchParams] = useSearchParams()
 
-  // Auto-start story from URL param (e.g., /investigate?story=fall-of-republic)
+  // Auto-start story from URL param (e.g., /?story=fall-of-republic)
   useEffect(() => {
     const storyId = searchParams.get('story')
     if (storyId && !storyMode.isActive) {
@@ -45,56 +32,17 @@ export function InvestigationBoard() {
       <TopBar storyMode={storyMode} />
 
       <div className="flex flex-1 overflow-hidden">
-        {/* Left sidebar — shown only for graph view (filters + path finder) */}
-        {sidebarOpen && lens === 'graph' && !isMobile && (
-          <aside className="w-[280px] shrink-0 border-r border-white/[0.08] bg-[#0c0c10] overflow-y-auto">
-            <FilterPanel />
-            <div className="border-t border-white/[0.05]" />
-            <PathFinder />
-          </aside>
-        )}
-
-        {/* Mobile drawer for filters */}
-        {isMobile && lens === 'graph' && (
-          <Drawer
-            open={sidebarOpen}
-            onOpenChange={(open) => {
-              useUIStore.getState().toggleSidebar(open)
-            }}
-          >
-            <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh]">
-              <DrawerHeader className="sr-only">
-                <DrawerTitle>Filters</DrawerTitle>
-              </DrawerHeader>
-              <div className="overflow-y-auto">
-                <FilterPanel />
-                <div className="border-t border-white/[0.05]" />
-                <PathFinder />
-              </div>
-            </DrawerContent>
-          </Drawer>
-        )}
-
-        {/* Main content area */}
         <div className="flex-1 overflow-hidden relative">
           <ErrorBoundary>
-            {lens === 'graph' && <GraphView />}
-            {lens === 'map' && <MapView />}
-            {lens === 'timeline' && <TimelineView />}
-            {lens === 'stats' && <StatsView />}
+            <MapView />
           </ErrorBoundary>
         </div>
 
-        {/* Detail panel — shown when an entity is selected. Mounted in atlas
-            mode too, so clicking a city/entity marker (Rome, Ravenna, …) opens
-            its detail instead of silently selecting nothing. Self-hides when
+        {/* Detail panels — shown when an entity is selected; self-hide when
             nothing is selected. */}
         <DetailPanel />
         <WikiDetailPanel />
       </div>
-
-      {/* Trail bar — desktop only (mobile has limited space) */}
-      {!atlasMode && !isMobile && <TrailBar />}
 
       {/* Narration bar — shown when story is active */}
       {storyMode.isActive && storyMode.activeStory && storyMode.currentStep && (
@@ -108,9 +56,6 @@ export function InvestigationBoard() {
           onExit={storyMode.exit}
         />
       )}
-
-      {/* Mobile bottom tab bar */}
-      {!atlasMode && isMobile && <MobileTabBar />}
     </div>
   )
 }

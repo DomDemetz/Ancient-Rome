@@ -33,8 +33,6 @@ export function useURLSync() {
   const [, setSearchParams] = useSearchParams()
   const select = useSelectionStore((s) => s.select)
   const setYear = useTimelineStore((s) => s.setYear)
-  const switchLens = useUIStore((s) => s.switchLens)
-  const atlasMode = useUIStore((s) => s.atlasMode)
   const flyTo = useMapNavStore((s) => s.flyTo)
 
   // Read URL on mount
@@ -59,13 +57,6 @@ export function useURLSync() {
     const entityId = params.get('entity')
     if (entityId) select(entityId)
 
-    if (!atlasMode) {
-      const lens = params.get('lens')
-      if (lens && ['graph', 'map', 'timeline', 'stats'].includes(lens)) {
-        switchLens(lens as 'graph' | 'map' | 'timeline' | 'stats')
-      }
-    }
-
     const latParam = params.get('lat')
     const lngParam = params.get('lng')
     const zoomParam = params.get('z')
@@ -89,7 +80,7 @@ export function useURLSync() {
         rafId = null
         const selectedId = useSelectionStore.getState().selectedId
         const { currentYear } = useTimelineStore.getState()
-        const { lens, atlasMode: isAtlas, activeStoryId } = useUIStore.getState()
+        const { activeStoryId } = useUIStore.getState()
         const mapView = useMapNavStore.getState().mapView
         // NEVER write an unchanged URL. The layer-store subscription fires on
         // every data load, and identical replaceState churn trips Safari's
@@ -101,8 +92,6 @@ export function useURLSync() {
         next.set('year', String(currentYear))
         if (activeStoryId) next.set('story', activeStoryId)
         else next.delete('story')
-        if (!isAtlas) next.set('lens', lens)
-        else next.delete('lens')
         if (mapView) {
           next.set('lat', mapView.lat.toFixed(2))
           next.set('lng', mapView.lng.toFixed(2))

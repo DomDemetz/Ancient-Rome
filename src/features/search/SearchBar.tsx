@@ -178,7 +178,6 @@ export function SearchBar() {
   const setFilter = useFilterStore((s) => s.setFilter)
   const flyTo = useMapNavStore((s) => s.flyTo)
   const setYear = useTimelineStore((s) => s.setYear)
-  const switchLens = useUIStore((s) => s.switchLens)
   const isMobile = useUIStore((s) => s.isMobile)
 
   const layerData = useMapLayerStore(
@@ -608,7 +607,8 @@ export function SearchBar() {
     // Site rows resolve their layer by parent TYPE: display subtypes
     // (circus, basilica, forum...) have no LAYER_MAP entries, and selecting
     // them left the dot layer off — a search ring around an empty spot.
-    const layerInfo = (item.siteType && SITE_TYPE_TO_LAYER[item.siteType]) || LAYER_MAP[item.category]
+    const layerInfo =
+      (item.siteType && SITE_TYPE_TO_LAYER[item.siteType]) || LAYER_MAP[item.category]
     if (layerInfo) {
       if (layerInfo.dataset) {
         const ds = useMapLayerStore.getState().datasetState[layerInfo.dataset]
@@ -665,9 +665,8 @@ export function SearchBar() {
       useFeatureDetailStore.getState().openFeature(crKey, 'crossref')
     }
 
-    // If it has coordinates, switch to map and fly there
+    // If it has coordinates, fly there
     if (item.lat != null && item.lng != null) {
-      switchLens('map')
       flyTo(item.lat, item.lng, item.zoom ?? 9)
     }
   }

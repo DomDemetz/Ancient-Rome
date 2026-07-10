@@ -135,24 +135,6 @@ describe('useFilterStore', () => {
 // ── UI Store ──────────────────────────────────────────────────────────────────
 
 describe('useUIStore', () => {
-  it('starts with lens = map', () => {
-    expect(useUIStore.getState().lens).toBe('map')
-  })
-
-  it('switchLens() is a no-op while atlasMode is on', () => {
-    // Atlas mode (the default) locks the app to the map view.
-    useUIStore.getState().switchLens('graph')
-    expect(useUIStore.getState().lens).toBe('map')
-  })
-
-  it('switchLens() accepts all valid lenses when atlasMode is off', () => {
-    useUIStore.setState({ atlasMode: false })
-    for (const lens of ['graph', 'map', 'timeline', 'stats'] as const) {
-      useUIStore.getState().switchLens(lens)
-      expect(useUIStore.getState().lens).toBe(lens)
-    }
-  })
-
   it('toggleDetail() toggles detailPanelOpen', () => {
     expect(useUIStore.getState().detailPanelOpen).toBe(false)
     useUIStore.getState().toggleDetail()
@@ -164,12 +146,6 @@ describe('useUIStore', () => {
   it('toggleDetail(true) forces open', () => {
     useUIStore.getState().toggleDetail(true)
     expect(useUIStore.getState().detailPanelOpen).toBe(true)
-  })
-
-  it('toggleSidebar() toggles sidebarOpen', () => {
-    const initial = useUIStore.getState().sidebarOpen
-    useUIStore.getState().toggleSidebar()
-    expect(useUIStore.getState().sidebarOpen).toBe(!initial)
   })
 
   it('setMobile() sets isMobile', () => {
