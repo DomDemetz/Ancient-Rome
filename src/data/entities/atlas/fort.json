@@ -1,27 +1,5 @@
 [
   {
-    "i": "place:dare-10654",
-    "la": 46.796,
-    "lo": 12.8359,
-    "k": "fortification",
-    "n": "Kirchbichl",
-    "s": 300,
-    "e": 640,
-    "d": "dare-10654",
-    "t": 1
-  },
-  {
-    "i": "place:dare-11229",
-    "la": 46.3625,
-    "lo": 6.877,
-    "k": "fortification",
-    "n": "Tauredunum",
-    "s": 300,
-    "e": 563,
-    "d": "dare-11229",
-    "t": 1
-  },
-  {
     "i": "place:dare-12883",
     "la": 49.8411,
     "lo": 9.1466,
@@ -41,92 +19,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-12989",
-    "t": 1
-  },
-  {
-    "i": "place:dare-14162",
-    "la": 50.0855,
-    "lo": 4.72,
-    "k": "fortification",
-    "n": "Mont Vireux",
-    "s": -30,
-    "e": 640,
-    "d": "dare-14162",
-    "t": 1
-  },
-  {
-    "i": "place:dare-15910",
-    "la": 48.944,
-    "lo": 11.3907,
-    "k": "fortification",
-    "n": "Michelsberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15910",
-    "t": 1
-  },
-  {
-    "i": "place:dare-15912",
-    "la": 48.4939,
-    "lo": 9.2414,
-    "k": "fortification",
-    "n": "Achalm",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15912",
-    "t": 1
-  },
-  {
-    "i": "place:dare-15929",
-    "la": 49.0686,
-    "lo": 10.5262,
-    "k": "fortification",
-    "n": "Hesselberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15929",
-    "t": 1
-  },
-  {
-    "i": "place:dare-15958",
-    "la": 50.3208,
-    "lo": 7.2453,
-    "k": "fortification",
-    "n": "Katzenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15958",
-    "t": 1
-  },
-  {
-    "i": "place:dare-16056",
-    "la": 49.7703,
-    "lo": 8.5667,
-    "k": "watchtower",
-    "n": "Allmendfeld",
-    "d": "dare-16056",
-    "t": 1
-  },
-  {
-    "i": "place:dare-16077",
-    "la": 48.9043,
-    "lo": 11.9493,
-    "k": "watchtower",
-    "n": "Untersaal",
-    "s": 300,
-    "e": 640,
-    "d": "dare-16077",
-    "t": 1
-  },
-  {
-    "i": "place:dare-16078",
-    "la": 48.9168,
-    "lo": 11.9728,
-    "k": "watchtower",
-    "n": "Alkofen",
-    "s": -30,
-    "e": 640,
-    "d": "dare-16078",
     "t": 1
   },
   {
@@ -163,17 +55,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-17295",
-    "la": 46.8384,
-    "lo": 9.6018,
-    "k": "fortification",
-    "n": "Carschlingg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-17295",
-    "t": 1
-  },
-  {
     "i": "place:dare-17397",
     "la": 49.418,
     "lo": 3.9264,
@@ -182,28 +63,6 @@
     "s": -330,
     "e": -30,
     "d": "dare-17397",
-    "t": 1
-  },
-  {
-    "i": "place:dare-17678",
-    "la": 47.4272,
-    "lo": 13.753,
-    "k": "fortification",
-    "n": "Knallwand (Burgstaller)",
-    "s": 300,
-    "e": 640,
-    "d": "dare-17678",
-    "t": 1
-  },
-  {
-    "i": "place:dare-17794",
-    "la": 51.1751,
-    "lo": 6.7665,
-    "k": "watchtower",
-    "n": "Grimlinghausen",
-    "s": -30,
-    "e": 300,
-    "d": "dare-17794",
     "t": 1
   },
   {
@@ -229,17 +88,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-18898",
-    "la": 43.7769,
-    "lo": 3.9468,
-    "k": "fortification",
-    "n": "Puech de Mourgues",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18898",
-    "t": 1
-  },
-  {
     "i": "place:dare-18914",
     "la": 52.5826,
     "lo": 1.6513,
@@ -251,165 +99,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-19201",
-    "la": 48.8957,
-    "lo": 11.8229,
-    "k": "watchtower",
-    "n": "Frauenberg",
-    "s": -30,
-    "e": 640,
-    "d": "dare-19201",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19202",
-    "la": 48.8832,
-    "lo": 11.7683,
-    "k": "watchtower",
-    "n": "Hienheim",
-    "d": "dare-19202",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19216",
-    "la": 50.4813,
-    "lo": 7.5384,
-    "k": "watchtower",
-    "n": "Anhausen",
-    "d": "dare-19216",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19224",
-    "la": 50.4126,
-    "lo": 7.7043,
-    "k": "watchtower",
-    "n": "Hillscheid",
-    "d": "dare-19224",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19227",
-    "la": 49.9964,
-    "lo": 7.2314,
-    "k": "fortification",
-    "n": "Alteburg",
-    "s": 250,
-    "e": 390,
-    "d": "dare-19227",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19234",
-    "la": 48.9259,
-    "lo": 9.6193,
-    "k": "watchtower",
-    "n": "Ebnisee",
-    "d": "dare-19234",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19235",
-    "la": 50.3565,
-    "lo": 8.6403,
-    "k": "watchtower",
-    "n": "Eichkopf",
-    "d": "dare-19235",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19243",
-    "la": 50.4304,
-    "lo": 7.6523,
-    "k": "watchtower",
-    "n": "Ferbach",
-    "d": "dare-19243",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19259",
-    "la": 50.3285,
-    "lo": 7.7282,
-    "k": "watchtower",
-    "n": "Auf der Schanz",
-    "d": "dare-19259",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19260",
-    "la": 50.2866,
-    "lo": 7.7384,
-    "k": "watchtower",
-    "n": "Becheln",
-    "d": "dare-19260",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19261",
-    "la": 50.2512,
-    "lo": 7.868,
-    "k": "watchtower",
-    "n": "Pohl bei Nassau",
-    "d": "dare-19261",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19262",
-    "la": 50.2266,
-    "lo": 7.8902,
-    "k": "watchtower",
-    "n": "Pfarrhofen",
-    "d": "dare-19262",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19265",
-    "la": 50.2185,
-    "lo": 8.3906,
-    "k": "watchtower",
-    "n": "Maisel",
-    "d": "dare-19265",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19266",
-    "la": 50.2537,
-    "lo": 8.5129,
-    "k": "watchtower",
-    "n": "Heidenstock",
-    "d": "dare-19266",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19269",
-    "la": 50.4944,
-    "lo": 7.3939,
-    "k": "watchtower",
-    "n": "Am Forsthofweg",
-    "d": "dare-19269",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19273",
-    "la": 48.9269,
-    "lo": 10.1556,
-    "k": "watchtower",
-    "n": "Dalkingen",
-    "d": "dare-19273",
-    "t": 1
-  },
-  {
-    "i": "place:dare-19398",
-    "la": 49.96,
-    "lo": 7.1385,
-    "k": "fortification",
-    "n": "Starkenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19398",
-    "t": 1
-  },
-  {
     "i": "place:dare-20687",
     "la": 51.6103,
     "lo": -2.9552,
@@ -418,27 +107,6 @@
     "s": -30,
     "e": 640,
     "d": "dare-20687",
-    "t": 1
-  },
-  {
-    "i": "place:dare-20722",
-    "la": 49.9522,
-    "lo": 8.3597,
-    "k": "watchtower",
-    "n": "Astheim",
-    "s": 370,
-    "d": "dare-20722",
-    "t": 1
-  },
-  {
-    "i": "place:dare-20768",
-    "la": 46.724,
-    "lo": 14.38,
-    "k": "fortification",
-    "n": "Grazerkogel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-20768",
     "t": 1
   },
   {
@@ -527,15 +195,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-21837",
-    "t": 1
-  },
-  {
-    "i": "place:dare-2195",
-    "la": 50.4988,
-    "lo": 7.3289,
-    "k": "watchtower",
-    "n": "Rheinbrohl",
-    "d": "dare-2195",
     "t": 1
   },
   {
@@ -738,55 +397,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-26542",
-    "la": 46.553,
-    "lo": 14.668,
-    "k": "fortification",
-    "n": "Hemmaberg",
-    "s": 400,
-    "e": 640,
-    "d": "dare-26542",
-    "t": 1
-  },
-  {
-    "i": "place:dare-26665",
-    "la": 48.9053,
-    "lo": 11.5725,
-    "k": "watchtower",
-    "n": "Hinteren Seeberg",
-    "d": "dare-26665",
-    "t": 1
-  },
-  {
-    "i": "place:dare-26667",
-    "la": 48.9758,
-    "lo": 11.2713,
-    "k": "watchtower",
-    "n": "Hegelohe",
-    "d": "dare-26667",
-    "t": 1
-  },
-  {
-    "i": "place:dare-26668",
-    "la": 48.9753,
-    "lo": 11.266,
-    "k": "watchtower",
-    "n": "Biebig",
-    "d": "dare-26668",
-    "t": 1
-  },
-  {
-    "i": "place:dare-26669",
-    "la": 48.9835,
-    "lo": 11.1511,
-    "k": "watchtower",
-    "n": "Kaldorf",
-    "s": -30,
-    "e": 260,
-    "d": "dare-26669",
-    "t": 1
-  },
-  {
     "i": "place:dare-34310",
     "la": 30.081,
     "lo": 35.2362,
@@ -850,224 +460,6 @@
     "s": -750,
     "e": 640,
     "d": "dare-34901",
-    "t": 1
-  },
-  {
-    "i": "place:dare-37420",
-    "la": 41.4737,
-    "lo": 2.0853,
-    "k": "watchtower",
-    "n": "Castrum Octavianum",
-    "s": 300,
-    "e": 640,
-    "d": "dare-37420",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38568",
-    "la": 47.2347,
-    "lo": 9.6446,
-    "k": "fortification",
-    "n": "[Segavio]",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38568",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38569",
-    "la": 47.1856,
-    "lo": 9.7042,
-    "k": "fortification",
-    "n": "Stellfeder",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38569",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38570",
-    "la": 47.3363,
-    "lo": 9.6167,
-    "k": "fortification",
-    "n": "Neuburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38570",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38575",
-    "la": 49.0157,
-    "lo": 11.1059,
-    "k": "watchtower",
-    "n": "Raitenbuch",
-    "d": "dare-38575",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38576",
-    "la": 49.0865,
-    "lo": 10.952,
-    "k": "watchtower",
-    "n": "Gündersbach",
-    "s": -30,
-    "e": 300,
-    "d": "dare-38576",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38577",
-    "la": 49.1168,
-    "lo": 10.7809,
-    "k": "watchtower",
-    "n": "Hinterer Schloßbuck",
-    "s": -30,
-    "e": 300,
-    "d": "dare-38577",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38581",
-    "la": 49.7617,
-    "lo": 9.0839,
-    "k": "watchtower",
-    "n": "Windlücke",
-    "d": "dare-38581",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38582",
-    "la": 50.1113,
-    "lo": 8.983,
-    "k": "watchtower",
-    "n": "Neuwirtshaus",
-    "d": "dare-38582",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38586",
-    "la": 50.3264,
-    "lo": 8.9151,
-    "k": "watchtower",
-    "n": "Staden",
-    "d": "dare-38586",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38587",
-    "la": 50.361,
-    "lo": 8.8957,
-    "k": "watchtower",
-    "n": "Lochberg",
-    "d": "dare-38587",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38588",
-    "la": 50.3885,
-    "lo": 8.9016,
-    "k": "watchtower",
-    "n": "Haselheck",
-    "d": "dare-38588",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38595",
-    "la": 50.4998,
-    "lo": 8.6994,
-    "k": "watchtower",
-    "n": "Holzheimer Unterwald",
-    "d": "dare-38595",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38597",
-    "la": 50.4435,
-    "lo": 8.6557,
-    "k": "watchtower",
-    "n": "Degerfeld",
-    "d": "dare-38597",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38599",
-    "la": 49.0551,
-    "lo": 9.571,
-    "k": "watchtower",
-    "n": "Hankertsmühle",
-    "d": "dare-38599",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38625",
-    "la": 50.2821,
-    "lo": 8.5863,
-    "k": "watchtower",
-    "n": "Lochmühle",
-    "d": "dare-38625",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38628",
-    "la": 50.4146,
-    "lo": 8.6284,
-    "k": "watchtower",
-    "n": "Hunnenkirchhof",
-    "d": "dare-38628",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38639",
-    "la": 48.8866,
-    "lo": 9.6338,
-    "k": "watchtower",
-    "n": "Rötelsee",
-    "d": "dare-38639",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38666",
-    "la": 50.4667,
-    "lo": 5.0008,
-    "k": "fortification",
-    "n": "Samson",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38666",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38679",
-    "la": 49.6466,
-    "lo": 4.2466,
-    "k": "fortification",
-    "n": "Chaumont-Porcien",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38679",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38691",
-    "la": 48.0514,
-    "lo": 10.8039,
-    "k": "fortification",
-    "n": "Oberer Riedberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38691",
-    "t": 1
-  },
-  {
-    "i": "place:dare-38692",
-    "la": 48.0201,
-    "lo": 11.1972,
-    "k": "fortification",
-    "n": "Alt-Widdersberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38692",
     "t": 1
   },
   {
@@ -1233,15 +625,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-39200",
-    "la": 54.9891,
-    "lo": -2.4477,
-    "k": "watchtower",
-    "n": "Haltwhistle Burn",
-    "d": "dare-39200",
-    "t": 1
-  },
-  {
     "i": "place:dare-39553",
     "la": 47.5531,
     "lo": 7.9917,
@@ -1271,17 +654,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-40476",
-    "la": 48.5744,
-    "lo": 13.4986,
-    "k": "watchtower",
-    "n": "Haibach",
-    "s": 300,
-    "e": 640,
-    "d": "dare-40476",
-    "t": 1
-  },
-  {
     "i": "place:dare-40712",
     "la": 45.1552,
     "lo": 23.3726,
@@ -1290,28 +662,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-40712",
-    "t": 1
-  },
-  {
-    "i": "place:dare-41509",
-    "la": 49.1963,
-    "lo": 7.9784,
-    "k": "fortification",
-    "n": "Trifels",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41509",
-    "t": 1
-  },
-  {
-    "i": "place:dare-41738",
-    "la": 43.3187,
-    "lo": 6.4654,
-    "k": "fortification",
-    "n": "Fraxinetum",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41738",
     "t": 1
   },
   {
@@ -1366,28 +716,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-41907",
-    "la": 41.3536,
-    "lo": 19.9222,
-    "k": "fortification",
-    "n": "Dajti",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41907",
-    "t": 1
-  },
-  {
-    "i": "place:dare-41908",
-    "la": 40.443,
-    "lo": 19.52,
-    "k": "fortification",
-    "n": "Kaninë",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41908",
-    "t": 1
-  },
-  {
     "i": "place:dare-41913",
     "la": 41.255,
     "lo": 19.854,
@@ -1396,28 +724,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-41913",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42020",
-    "la": 49.4232,
-    "lo": 8.0513,
-    "k": "fortification",
-    "n": "Drachenfels",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42020",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42072",
-    "la": 46.5925,
-    "lo": 13.8168,
-    "k": "fortification",
-    "n": "Tscheltschnigkogel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42072",
     "t": 1
   },
   {
@@ -1443,70 +749,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-42742",
-    "la": 46.5853,
-    "lo": 14.0679,
-    "k": "fortification",
-    "n": "Kathreinkogel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42742",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42769",
-    "la": 47.2214,
-    "lo": 10.7743,
-    "k": "fortification",
-    "n": "Schlossberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42769",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42770",
-    "la": 46.4983,
-    "lo": 11.2319,
-    "k": "fortification",
-    "n": "San Vigilio",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42770",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42771",
-    "la": 46.3791,
-    "lo": 11.2411,
-    "k": "fortification",
-    "n": "Castelvecchio",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42771",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42775",
-    "la": 48.7356,
-    "lo": 19.1453,
-    "k": "fortification",
-    "n": "Banská Bystrica",
-    "d": "dare-42775",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42776",
-    "la": 50.5958,
-    "lo": 6.9737,
-    "k": "fortification",
-    "n": "Tomburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42776",
-    "t": 1
-  },
-  {
     "i": "place:dare-42777",
     "la": 47.0985,
     "lo": 9.4904,
@@ -1529,61 +771,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-42781",
-    "la": 46.7917,
-    "lo": 9.2664,
-    "k": "fortification",
-    "n": "Schiedberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42781",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42782",
-    "la": 47.3791,
-    "lo": 7.8899,
-    "k": "fortification",
-    "n": "Frohburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42782",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42785",
-    "la": 48.5881,
-    "lo": 15.6353,
-    "k": "fortification",
-    "n": "Schanze",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42785",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42786",
-    "la": 48.5144,
-    "lo": 15.6025,
-    "k": "fortification",
-    "n": "Burgstall",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42786",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42790",
-    "la": 46.2574,
-    "lo": 13.5805,
-    "k": "fortification",
-    "n": "Tonovcov grad",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42790",
-    "t": 1
-  },
-  {
     "i": "place:dare-42791",
     "la": 46.1985,
     "lo": 15.4064,
@@ -1592,17 +779,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-42791",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42810",
-    "la": 47.6981,
-    "lo": 15.9956,
-    "k": "fortification",
-    "n": "Burgstall",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42810",
     "t": 1
   },
   {
@@ -1617,39 +793,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-42967",
-    "la": 56.5526,
-    "lo": 16.6394,
-    "k": "fortification",
-    "n": "Sandby borg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42967",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42968",
-    "la": 56.7454,
-    "lo": 16.6426,
-    "k": "fortification",
-    "n": "Ismantorp",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42968",
-    "t": 1
-  },
-  {
-    "i": "place:dare-42978",
-    "la": 56.7135,
-    "lo": 16.5367,
-    "k": "fortification",
-    "n": "Glömminge",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42978",
-    "t": 1
-  },
-  {
     "i": "place:dare-42981",
     "la": 46.4266,
     "lo": 15.5244,
@@ -1658,226 +801,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-42981",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43135",
-    "la": 50.5512,
-    "lo": 7.1723,
-    "k": "fortification",
-    "n": "Landskrone",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43135",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43139",
-    "la": 50.2739,
-    "lo": 6.9531,
-    "k": "fortification",
-    "n": "Hochkelberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43139",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43140",
-    "la": 50.3431,
-    "lo": 7.0787,
-    "k": "fortification",
-    "n": "Virneburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43140",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43141",
-    "la": 50.3232,
-    "lo": 7.3056,
-    "k": "fortification",
-    "n": "Trimbs",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43141",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43145",
-    "la": 50.3108,
-    "lo": 7.4557,
-    "k": "fortification",
-    "n": "Niederburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43145",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43146",
-    "la": 50.2482,
-    "lo": 7.4529,
-    "k": "fortification",
-    "n": "Burgberg (Thurandt)",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43146",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43147",
-    "la": 50.2109,
-    "lo": 7.4548,
-    "k": "fortification",
-    "n": "Ehrenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43147",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43148",
-    "la": 50.2138,
-    "lo": 7.384,
-    "k": "fortification",
-    "n": "Bischofstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43148",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43154",
-    "la": 50.0819,
-    "lo": 7.1292,
-    "k": "fortification",
-    "n": "Hangelenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43154",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43172",
-    "la": 50.0661,
-    "lo": 7.3578,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43172",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43178",
-    "la": 49.9693,
-    "lo": 6.1945,
-    "k": "fortification",
-    "n": "Burg Falkenstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43178",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43188",
-    "la": 47.5189,
-    "lo": 8.5422,
-    "k": "fortification",
-    "n": "Alte Burg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43188",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43190",
-    "la": 45.6688,
-    "lo": 10.6214,
-    "k": "fortification",
-    "n": "Monte Castello di Gaino",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43190",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43191",
-    "la": 46.9077,
-    "lo": 9.5428,
-    "k": "fortification",
-    "n": "Haselbodenkopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43191",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43193",
-    "la": 46.3528,
-    "lo": 9.6222,
-    "k": "fortification",
-    "n": "Crep da Caslac",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43193",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43202",
-    "la": 47.582,
-    "lo": 9.1004,
-    "k": "fortification",
-    "n": "Thurberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43202",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43203",
-    "la": 47.5244,
-    "lo": 9.1142,
-    "k": "fortification",
-    "n": "Toos-Waldi",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43203",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43205",
-    "la": 47.3371,
-    "lo": 9.5871,
-    "k": "fortification",
-    "n": "Montlingerberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43205",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43346",
-    "la": 47.4801,
-    "lo": 7.8172,
-    "k": "fortification",
-    "n": "Sissacher Fluh",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43346",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43349",
-    "la": 47.3837,
-    "lo": 7.6135,
-    "k": "fortification",
-    "n": "Portifluh",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43349",
     "t": 1
   },
   {
@@ -1892,17 +815,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-43367",
-    "la": 45.6334,
-    "lo": 8.6715,
-    "k": "fortification",
-    "n": "Castello di Castelnovate",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43367",
-    "t": 1
-  },
-  {
     "i": "place:dare-43672",
     "la": 44.117,
     "lo": 24.0138,
@@ -1911,78 +823,6 @@
     "s": -30,
     "e": 640,
     "d": "dare-43672",
-    "t": 1
-  },
-  {
-    "i": "place:dare-43750",
-    "la": 43.6314,
-    "lo": 21.8781,
-    "k": "fortification",
-    "n": "Sokograd",
-    "s": 500,
-    "d": "dare-43750",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44111",
-    "la": 50.7848,
-    "lo": 6.0219,
-    "k": "watchtower",
-    "n": "Schneeberg",
-    "d": "dare-44111",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44113",
-    "la": 51.6162,
-    "lo": 6.3777,
-    "k": "watchtower",
-    "n": "Sonsbeck",
-    "d": "dare-44113",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44319",
-    "la": 45.3675,
-    "lo": 7.6313,
-    "k": "fortification",
-    "n": "Sacro Monte di Belmonte",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44319",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44322",
-    "la": 44.1817,
-    "lo": 8.3961,
-    "k": "fortification",
-    "n": "Varicottis",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44322",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44323",
-    "la": 44.3681,
-    "lo": 8.5713,
-    "k": "fortification",
-    "n": "San Donato",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44323",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44415",
-    "la": 56.384,
-    "lo": -4.0941,
-    "k": "fortification",
-    "n": "Dundurn",
-    "s": 500,
-    "e": 800,
-    "d": "dare-44415",
     "t": 1
   },
   {
@@ -1997,37 +837,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-44498",
-    "la": 42.4458,
-    "lo": 20.6352,
-    "k": "fortification",
-    "n": "Gradishtë",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44498",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44729",
-    "la": 47.9859,
-    "lo": 10.179,
-    "k": "watchtower",
-    "n": "Cassiliacum?",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44729",
-    "t": 1
-  },
-  {
-    "i": "place:dare-44782",
-    "la": 47.7342,
-    "lo": 17.8526,
-    "k": "watchtower",
-    "n": "Arrabona 9",
-    "d": "dare-44782",
-    "t": 1
-  },
-  {
     "i": "place:dare-44978",
     "la": 51.3796,
     "lo": 9.7118,
@@ -2039,17 +848,6 @@
     "t": 1
   },
   {
-    "i": "place:dare-45260",
-    "la": 44.741,
-    "lo": 33.9245,
-    "k": "fortification",
-    "n": "Phoullai?",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45260",
-    "t": 1
-  },
-  {
     "i": "place:dare-45414",
     "la": 47.6295,
     "lo": 9.9041,
@@ -2058,37 +856,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-45414",
-    "t": 1
-  },
-  {
-    "i": "place:dare-45450",
-    "la": 46.5174,
-    "lo": 11.4975,
-    "k": "fortification",
-    "n": "San Pietro sul colle",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45450",
-    "t": 1
-  },
-  {
-    "i": "place:dare-45451",
-    "la": 46.5642,
-    "lo": 11.5479,
-    "k": "fortification",
-    "n": "Katzenloch",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45451",
-    "t": 1
-  },
-  {
-    "i": "place:dare-7028",
-    "la": 49.2258,
-    "lo": 9.2254,
-    "k": "watchtower",
-    "n": "Kochendorf",
-    "d": "dare-7028",
     "t": 1
   },
   {
@@ -2484,28 +1251,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-1126",
-    "la": 50.0991,
-    "lo": 7.1321,
-    "k": "fortification",
-    "n": "Petersberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-1126",
-    "t": 2
-  },
-  {
-    "i": "place:dare-12161",
-    "la": 51.4834,
-    "lo": 11.4901,
-    "k": "fortification",
-    "n": "Kirchberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-12161",
-    "t": 2
-  },
-  {
     "i": "place:dare-1268",
     "la": 49.4275,
     "lo": 9.4236,
@@ -2602,358 +1347,6 @@
     "s": -30,
     "e": 640,
     "d": "dare-14072",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15321",
-    "la": 50.2534,
-    "lo": 10.1618,
-    "k": "fortification",
-    "n": "[Grapfeldonoburg]",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15321",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15433",
-    "la": 43.4085,
-    "lo": 2.445,
-    "k": "fortification",
-    "n": "Pradelles-Cabardès",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15433",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15899",
-    "la": 49.7568,
-    "lo": 9.5592,
-    "k": "fortification",
-    "n": "Wettenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15899",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15905",
-    "la": 50.4662,
-    "lo": 10.0858,
-    "k": "fortification",
-    "n": "Gangolfsberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15905",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15907",
-    "la": 50.0313,
-    "lo": 11.3514,
-    "k": "fortification",
-    "n": "Turmberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15907",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15908",
-    "la": 49.9905,
-    "lo": 11.0696,
-    "k": "fortification",
-    "n": "Reisberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15908",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15911",
-    "la": 48.7958,
-    "lo": 9.9609,
-    "k": "fortification",
-    "n": "Rosenstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15911",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15915",
-    "la": 50.1825,
-    "lo": 8.461,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15915",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15916",
-    "la": 50.1005,
-    "lo": 9.1448,
-    "k": "fortification",
-    "n": "Schanzenkopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15916",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15917",
-    "la": 50.2009,
-    "lo": 9.1923,
-    "k": "fortification",
-    "n": "Alte Burg auf dem Hoppesberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15917",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15918",
-    "la": 50.1219,
-    "lo": 9.9076,
-    "k": "fortification",
-    "n": "Hammelberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15918",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15920",
-    "la": 50.3882,
-    "lo": 10.5924,
-    "k": "fortification",
-    "n": "Großer Gleichberg",
-    "s": -330,
-    "e": 640,
-    "d": "dare-15920",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15921",
-    "la": 49.9657,
-    "lo": 9.7933,
-    "k": "fortification",
-    "n": "Saupürzelberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15921",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15923",
-    "la": 49.7639,
-    "lo": 8.7924,
-    "k": "fortification",
-    "n": "Heuneburg auf der Altscheuer",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15923",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15924",
-    "la": 49.6943,
-    "lo": 9.2403,
-    "k": "fortification",
-    "n": "Greinberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15924",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15927",
-    "la": 49.6187,
-    "lo": 10.7304,
-    "k": "fortification",
-    "n": "Burgstall",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15927",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15930",
-    "la": 48.8603,
-    "lo": 10.4203,
-    "k": "fortification",
-    "n": "Goldberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15930",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15931",
-    "la": 48.6735,
-    "lo": 9.8324,
-    "k": "fortification",
-    "n": "Waldenbühl",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15931",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15935",
-    "la": 47.9219,
-    "lo": 7.7411,
-    "k": "fortification",
-    "n": "Feimlisburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15935",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15936",
-    "la": 48.7624,
-    "lo": 9.2747,
-    "k": "fortification",
-    "n": "Ailenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15936",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15937",
-    "la": 49.9565,
-    "lo": 11.2181,
-    "k": "fortification",
-    "n": "Wiesentfels",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15937",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15940",
-    "la": 49.7995,
-    "lo": 11.1225,
-    "k": "fortification",
-    "n": "Drügendorf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15940",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15942",
-    "la": 48.0091,
-    "lo": 8.9353,
-    "k": "fortification",
-    "n": "Lehenbühl",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15942",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15943",
-    "la": 48.2345,
-    "lo": 8.9199,
-    "k": "fortification",
-    "n": "Schalksburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15943",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15945",
-    "la": 49.9551,
-    "lo": 11.0493,
-    "k": "fortification",
-    "n": "Giechburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15945",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15946",
-    "la": 49.9596,
-    "lo": 11.2399,
-    "k": "fortification",
-    "n": "Hoher Knock",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15946",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15947",
-    "la": 49.7282,
-    "lo": 11.2563,
-    "k": "fortification",
-    "n": "Heidelberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15947",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15948",
-    "la": 49.8857,
-    "lo": 11.0239,
-    "k": "fortification",
-    "n": "Schloßberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15948",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15949",
-    "la": 49.8351,
-    "lo": 11.0453,
-    "k": "fortification",
-    "n": "Wartberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15949",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15950",
-    "la": 47.7783,
-    "lo": 9.0631,
-    "k": "fortification",
-    "n": "Hals",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15950",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15952",
-    "la": 51.449,
-    "lo": 10.4869,
-    "k": "fortification",
-    "n": "Hasenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15952",
-    "t": 2
-  },
-  {
-    "i": "place:dare-15956",
-    "la": 51.587,
-    "lo": 11.6619,
-    "k": "fortification",
-    "n": "Kirchberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-15956",
     "t": 2
   },
   {
@@ -3067,79 +1460,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-16071",
-    "la": 48.6525,
-    "lo": 10.8911,
-    "k": "watchtower",
-    "n": "Oberpeiching",
-    "s": -30,
-    "e": 640,
-    "d": "dare-16071",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16072",
-    "la": 48.7223,
-    "lo": 11.0647,
-    "k": "watchtower",
-    "n": "Mühlhart",
-    "d": "dare-16072",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16073",
-    "la": 48.7245,
-    "lo": 11.139,
-    "k": "watchtower",
-    "n": "Kreut",
-    "d": "dare-16073",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16075",
-    "la": 48.7104,
-    "lo": 11.4284,
-    "k": "watchtower",
-    "n": "Seehof",
-    "s": 300,
-    "e": 640,
-    "d": "dare-16075",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16076",
-    "la": 48.8826,
-    "lo": 11.8512,
-    "k": "watchtower",
-    "n": "Thaldorf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-16076",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16079",
-    "la": 48.952,
-    "lo": 11.9959,
-    "k": "watchtower",
-    "n": "Oberndorf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-16079",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16080",
-    "la": 49.0175,
-    "lo": 12.0369,
-    "k": "watchtower",
-    "n": "Großprüfening",
-    "s": -30,
-    "e": 640,
-    "d": "dare-16080",
-    "t": 2
-  },
-  {
     "i": "place:dare-16081",
     "la": 48.3693,
     "lo": 15.4451,
@@ -3182,67 +1502,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-16542",
-    "la": 45.9673,
-    "lo": 13.4764,
-    "k": "fortification",
-    "n": "[Cormones]",
-    "s": 300,
-    "e": 640,
-    "d": "dare-16542",
-    "t": 2
-  },
-  {
-    "i": "place:dare-16557",
-    "la": 45.7962,
-    "lo": 8.3998,
-    "k": "fortification",
-    "n": "S. Iulianus Ins.",
-    "s": 300,
-    "e": 640,
-    "d": "dare-16557",
-    "t": 2
-  },
-  {
-    "i": "place:dare-17271",
-    "la": 50.081,
-    "lo": 7.008,
-    "k": "fortification",
-    "n": "Entersburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-17271",
-    "t": 2
-  },
-  {
     "i": "place:dare-1746",
     "la": 50.1008,
     "lo": 8.5508,
     "k": "fort",
     "n": "Höchst",
     "d": "dare-1746",
-    "t": 2
-  },
-  {
-    "i": "place:dare-17669",
-    "la": 48.0957,
-    "lo": 11.2619,
-    "k": "fortification",
-    "n": "Frauenwiese",
-    "s": 300,
-    "e": 640,
-    "d": "dare-17669",
-    "t": 2
-  },
-  {
-    "i": "place:dare-17714",
-    "la": 45.8004,
-    "lo": 3.0939,
-    "k": "fortification",
-    "n": "Cantobennum",
-    "s": 300,
-    "e": 640,
-    "d": "dare-17714",
     "t": 2
   },
   {
@@ -3268,17 +1533,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-17788",
-    "la": 50.5278,
-    "lo": 6.9078,
-    "k": "watchtower",
-    "n": "Hochthürmenberg",
-    "s": -30,
-    "e": 640,
-    "d": "dare-17788",
-    "t": 2
-  },
-  {
     "i": "place:dare-17793",
     "la": 51.1294,
     "lo": 6.8727,
@@ -3301,17 +1555,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-17977",
-    "la": 46.6596,
-    "lo": 13.3349,
-    "k": "fortification",
-    "n": "Kappele ob Jadersdorf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-17977",
-    "t": 2
-  },
-  {
     "i": "place:dare-18018",
     "la": 51.6739,
     "lo": 6.9353,
@@ -3320,17 +1563,6 @@
     "s": -11,
     "e": 9,
     "d": "dare-18018",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18077",
-    "la": 43.524,
-    "lo": 5.278,
-    "k": "fortification",
-    "n": "Sainte-Propice",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18077",
     "t": 2
   },
   {
@@ -3367,17 +1599,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-18430",
-    "la": 48.5052,
-    "lo": 10.4148,
-    "k": "watchtower",
-    "n": "Febianis",
-    "s": -30,
-    "e": 640,
-    "d": "dare-18430",
-    "t": 2
-  },
-  {
     "i": "place:dare-18439",
     "la": 48.2739,
     "lo": 8.4933,
@@ -3397,160 +1618,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-18683",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18700",
-    "la": 43.6976,
-    "lo": 3.7209,
-    "k": "fortification",
-    "n": "Roc de Pampelune",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18700",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18889",
-    "la": 42.939,
-    "lo": 2.8316,
-    "k": "fortification",
-    "n": "Village des juifs",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18889",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18890",
-    "la": 42.9316,
-    "lo": 2.9106,
-    "k": "fortification",
-    "n": "Feuilla",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18890",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18891",
-    "la": 42.8965,
-    "lo": 2.6641,
-    "k": "fortification",
-    "n": "Tauch",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18891",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18892",
-    "la": 42.8751,
-    "lo": 2.1855,
-    "k": "fortification",
-    "n": "Saint-Quirgue",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18892",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18893",
-    "la": 42.5155,
-    "lo": 2.9793,
-    "k": "fortification",
-    "n": "Castell d'Ultrera",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18893",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18894",
-    "la": 43.3856,
-    "lo": 2.62,
-    "k": "fortification",
-    "n": "Pic de Sarrazis",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18894",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18895",
-    "la": 43.5625,
-    "lo": 3.2767,
-    "k": "fortification",
-    "n": "Roc Aigu",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18895",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18896",
-    "la": 43.6226,
-    "lo": 3.6676,
-    "k": "fortification",
-    "n": "Tour d'Arthus",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18896",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18897",
-    "la": 43.9076,
-    "lo": 3.7328,
-    "k": "fortification",
-    "n": "Agonès",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18897",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18900",
-    "la": 44.1772,
-    "lo": 4.2688,
-    "k": "fortification",
-    "n": "Saint-Peyre",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18900",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18901",
-    "la": 44.3219,
-    "lo": 4.5346,
-    "k": "fortification",
-    "n": "Castelviel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18901",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18902",
-    "la": 44.1224,
-    "lo": 4.6294,
-    "k": "fortification",
-    "n": "Saint-Pierre-de-Castres",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18902",
-    "t": 2
-  },
-  {
-    "i": "place:dare-18903",
-    "la": 44.0021,
-    "lo": 4.5819,
-    "k": "fortification",
-    "n": "Saint-Pierre",
-    "s": 300,
-    "e": 640,
-    "d": "dare-18903",
     "t": 2
   },
   {
@@ -3585,65 +1652,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-18980",
-    "la": 51.2223,
-    "lo": 3.4252,
-    "k": "watchtower",
-    "n": "Maldegem-Vake",
-    "d": "dare-18980",
-    "t": 2
-  },
-  {
     "i": "place:dare-18981",
     "la": 51.5933,
     "lo": 3.5989,
     "k": "fort",
     "n": "Roompot",
     "d": "dare-18981",
-    "t": 2
-  },
-  {
-    "i": "place:dare-1899",
-    "la": 43.9661,
-    "lo": 3.4394,
-    "k": "fortification",
-    "n": "Ferlet",
-    "s": 300,
-    "e": 640,
-    "d": "dare-1899",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19008",
-    "la": 49.5852,
-    "lo": 6.2275,
-    "k": "fortification",
-    "n": "Contern",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19008",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19121",
-    "la": 49.8126,
-    "lo": 6.423,
-    "k": "watchtower",
-    "n": "Église Saints Pierre et Paul",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19121",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19123",
-    "la": 49.7825,
-    "lo": 6.8971,
-    "k": "fortification",
-    "n": "Burgkopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19123",
     "t": 2
   },
   {
@@ -3669,17 +1683,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-19175",
-    "la": 49.7768,
-    "lo": 7.2585,
-    "k": "fortification",
-    "n": "Wildenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19175",
-    "t": 2
-  },
-  {
     "i": "place:dare-1919",
     "la": 48.0519,
     "lo": 9.3131,
@@ -3688,111 +1691,6 @@
     "s": 40,
     "e": 260,
     "d": "dare-1919",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19200",
-    "la": 47.7099,
-    "lo": 10.2502,
-    "k": "watchtower",
-    "n": "Ahegg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19200",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19230",
-    "la": 49.4406,
-    "lo": 9.1642,
-    "k": "watchtower",
-    "n": "Trienz",
-    "d": "dare-19230",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19231",
-    "la": 49.4658,
-    "lo": 9.1603,
-    "k": "watchtower",
-    "n": "Robern",
-    "d": "dare-19231",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19232",
-    "la": 49.5506,
-    "lo": 9.1224,
-    "k": "watchtower",
-    "n": "Seitzenbuche",
-    "d": "dare-19232",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19233",
-    "la": 49.5611,
-    "lo": 9.1011,
-    "k": "watchtower",
-    "n": "Zwing",
-    "s": -30,
-    "e": 300,
-    "d": "dare-19233",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19236",
-    "la": 50.337,
-    "lo": 8.6468,
-    "k": "watchtower",
-    "n": "Kaisergrube",
-    "d": "dare-19236",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19239",
-    "la": 50.3591,
-    "lo": 8.2387,
-    "k": "watchtower",
-    "n": "Alteburg",
-    "s": -30,
-    "e": 300,
-    "d": "dare-19239",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19240",
-    "la": 50.1649,
-    "lo": 8.0777,
-    "k": "watchtower",
-    "n": "Adolfseck",
-    "d": "dare-19240",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19241",
-    "la": 50.2446,
-    "lo": 8.493,
-    "k": "watchtower",
-    "n": "Altes Jagdhaus",
-    "d": "dare-19241",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19242",
-    "la": 49.5452,
-    "lo": 9.3836,
-    "k": "watchtower",
-    "n": "Altheimer Straße",
-    "d": "dare-19242",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19263",
-    "la": 50.1975,
-    "lo": 7.995,
-    "k": "watchtower",
-    "n": "Dörsterberg",
-    "d": "dare-19263",
     "t": 2
   },
   {
@@ -3849,50 +1747,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-19362",
-    "la": 46.5019,
-    "lo": 5.6323,
-    "k": "fortification",
-    "n": "La Motte",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19362",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19399",
-    "la": 49.9736,
-    "lo": 7.091,
-    "k": "fortification",
-    "n": "Göckelsberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19399",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19401",
-    "la": 49.882,
-    "lo": 6.9428,
-    "k": "fortification",
-    "n": "Burglei",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19401",
-    "t": 2
-  },
-  {
-    "i": "place:dare-19403",
-    "la": 49.8155,
-    "lo": 6.9622,
-    "k": "fortification",
-    "n": "Harpelstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-19403",
-    "t": 2
-  },
-  {
     "i": "place:dare-1954",
     "la": 48.1521,
     "lo": 7.7497,
@@ -3912,17 +1766,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-1956",
-    "t": 2
-  },
-  {
-    "i": "place:dare-1959",
-    "la": 48.0229,
-    "lo": 11.5016,
-    "k": "fortification",
-    "n": "Römerschanze",
-    "s": -30,
-    "e": 640,
-    "d": "dare-1959",
     "t": 2
   },
   {
@@ -4036,72 +1879,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-20442",
-    "la": 50.0948,
-    "lo": 8.4352,
-    "k": "watchtower",
-    "n": "Kapellenberg",
-    "d": "dare-20442",
-    "t": 2
-  },
-  {
     "i": "place:dare-20544",
     "la": 47.3849,
     "lo": 0.5543,
     "k": "fort",
     "n": "Clos Sainte-Roselle",
     "d": "dare-20544",
-    "t": 2
-  },
-  {
-    "i": "place:dare-20669",
-    "la": 50.1608,
-    "lo": 5.8155,
-    "k": "fortification",
-    "n": "Sommerain",
-    "s": 300,
-    "e": 640,
-    "d": "dare-20669",
-    "t": 2
-  },
-  {
-    "i": "place:dare-20671",
-    "la": 49.8218,
-    "lo": 5.2325,
-    "k": "fortification",
-    "n": "Château des Fées",
-    "s": 300,
-    "e": 640,
-    "d": "dare-20671",
-    "t": 2
-  },
-  {
-    "i": "place:dare-20714",
-    "la": 49.9778,
-    "lo": 6.4393,
-    "k": "watchtower",
-    "n": "Brechter Knippchen",
-    "d": "dare-20714",
-    "t": 2
-  },
-  {
-    "i": "place:dare-20783",
-    "la": 48.6842,
-    "lo": 7.2025,
-    "k": "fortification",
-    "n": "Haselbourg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-20783",
-    "t": 2
-  },
-  {
-    "i": "place:dare-20800",
-    "la": 43.6857,
-    "lo": 0.3973,
-    "k": "watchtower",
-    "n": "Biran",
-    "d": "dare-20800",
     "t": 2
   },
   {
@@ -4113,39 +1896,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-2082",
-    "t": 2
-  },
-  {
-    "i": "place:dare-20836",
-    "la": 49.8625,
-    "lo": 6.8915,
-    "k": "fortification",
-    "n": "Tempelkopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-20836",
-    "t": 2
-  },
-  {
-    "i": "place:dare-2086",
-    "la": 51.7923,
-    "lo": 5.8699,
-    "k": "watchtower",
-    "n": "Heumensoord",
-    "s": 300,
-    "e": 640,
-    "d": "dare-2086",
-    "t": 2
-  },
-  {
-    "i": "place:dare-2094",
-    "la": 49.42,
-    "lo": 7.6612,
-    "k": "fortification",
-    "n": "Großer Berg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-2094",
     "t": 2
   },
   {
@@ -4246,17 +1996,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-2175",
-    "la": 50.4216,
-    "lo": 7.5489,
-    "k": "watchtower",
-    "n": "Engers",
-    "s": 364,
-    "e": 430,
-    "d": "dare-2175",
-    "t": 2
-  },
-  {
     "i": "place:dare-2177",
     "la": 50.467,
     "lo": 7.4719,
@@ -4265,17 +2004,6 @@
     "s": 185,
     "e": 260,
     "d": "dare-2177",
-    "t": 2
-  },
-  {
-    "i": "place:dare-2188",
-    "la": 48.4215,
-    "lo": 10.1072,
-    "k": "watchtower",
-    "n": "Leibi",
-    "s": 40,
-    "e": 80,
-    "d": "dare-2188",
     "t": 2
   },
   {
@@ -4298,17 +2026,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-2196",
-    "t": 2
-  },
-  {
-    "i": "place:dare-2198",
-    "la": 50.4395,
-    "lo": 6.9053,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-2198",
     "t": 2
   },
   {
@@ -4397,17 +2114,6 @@
     "s": -330,
     "e": 640,
     "d": "dare-22522",
-    "t": 2
-  },
-  {
-    "i": "place:dare-22777",
-    "la": 38.2324,
-    "lo": 23.9347,
-    "k": "watchtower",
-    "n": "Agia Paraskevi",
-    "s": -550,
-    "e": -330,
-    "d": "dare-22777",
     "t": 2
   },
   {
@@ -4645,15 +2351,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-25346",
-    "la": 55.9217,
-    "lo": -4.2451,
-    "k": "watchtower",
-    "n": "Wilderness Plantation",
-    "d": "dare-25346",
-    "t": 2
-  },
-  {
     "i": "place:dare-25347",
     "la": 55.9173,
     "lo": -4.2719,
@@ -4732,15 +2429,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-25376",
-    "la": 55.6866,
-    "lo": -3.6383,
-    "k": "watchtower",
-    "n": "Bankhead",
-    "d": "dare-25376",
-    "t": 2
-  },
-  {
     "i": "place:dare-25379",
     "la": 55.9159,
     "lo": -4.5325,
@@ -4792,24 +2480,6 @@
     "k": "fort",
     "n": "Chesterfield",
     "d": "dare-25422",
-    "t": 2
-  },
-  {
-    "i": "place:dare-25424",
-    "la": 54.8266,
-    "lo": -2.8603,
-    "k": "watchtower",
-    "n": "Wreay Hall",
-    "d": "dare-25424",
-    "t": 2
-  },
-  {
-    "i": "place:dare-25425",
-    "la": 54.8139,
-    "lo": -2.8348,
-    "k": "watchtower",
-    "n": "Barrock Fell",
-    "d": "dare-25425",
     "t": 2
   },
   {
@@ -4975,30 +2645,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-26190",
-    "la": 51.9649,
-    "lo": -3.7175,
-    "k": "watchtower",
-    "n": "Y Pigwn",
-    "d": "dare-26190",
-    "t": 2
-  },
-  {
     "i": "place:dare-26192",
     "la": 51.8898,
     "lo": -3.2095,
     "k": "fort",
     "n": "Pen-y-Gaer",
     "d": "dare-26192",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26194",
-    "la": 52.1748,
-    "lo": -3.456,
-    "k": "watchtower",
-    "n": "Penmincae",
-    "d": "dare-26194",
     "t": 2
   },
   {
@@ -5021,15 +2673,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-26200",
-    "la": 52.63,
-    "lo": -3.3226,
-    "k": "watchtower",
-    "n": "Gaer Llanfair Caereinion",
-    "d": "dare-26200",
-    "t": 2
-  },
-  {
     "i": "place:dare-26206",
     "la": 52.3367,
     "lo": -3.9525,
@@ -5045,15 +2688,6 @@
     "k": "fort",
     "n": "Pen Llwyn",
     "d": "dare-26207",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26208",
-    "la": 52.4942,
-    "lo": -3.9863,
-    "k": "watchtower",
-    "n": "Erglodd",
-    "d": "dare-26208",
     "t": 2
   },
   {
@@ -5074,24 +2708,6 @@
     "k": "fort",
     "n": "Coelbren",
     "d": "dare-26220",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26223",
-    "la": 51.7461,
-    "lo": -3.6984,
-    "k": "watchtower",
-    "n": "Hirfynydd",
-    "d": "dare-26223",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26224",
-    "la": 51.7225,
-    "lo": -3.7203,
-    "k": "watchtower",
-    "n": "Rheola Forest",
-    "d": "dare-26224",
     "t": 2
   },
   {
@@ -5122,192 +2738,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-26233",
-    "la": 51.6193,
-    "lo": -2.8985,
-    "k": "watchtower",
-    "n": "Coed-y-Caerau",
-    "d": "dare-26233",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26245",
-    "la": 56.366,
-    "lo": -3.587,
-    "k": "watchtower",
-    "n": "Thorny Hill",
-    "d": "dare-26245",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26247",
-    "la": 56.3693,
-    "lo": -3.574,
-    "k": "watchtower",
-    "n": "Westmuir",
-    "d": "dare-26247",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26248",
-    "la": 56.3919,
-    "lo": -3.5236,
-    "k": "watchtower",
-    "n": "Peel",
-    "d": "dare-26248",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26249",
-    "la": 56.3612,
-    "lo": -3.6075,
-    "k": "watchtower",
-    "n": "Moss Side",
-    "d": "dare-26249",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26250",
-    "la": 56.3574,
-    "lo": -3.6239,
-    "k": "watchtower",
-    "n": "Witch Knowe",
-    "d": "dare-26250",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26251",
-    "la": 56.3542,
-    "lo": -3.6356,
-    "k": "watchtower",
-    "n": "Gask House",
-    "d": "dare-26251",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26253",
-    "la": 56.3505,
-    "lo": -3.6721,
-    "k": "watchtower",
-    "n": "Kirkhill",
-    "d": "dare-26253",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26254",
-    "la": 56.3508,
-    "lo": -3.6877,
-    "k": "watchtower",
-    "n": "Roundlaw",
-    "d": "dare-26254",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26255",
-    "la": 56.3494,
-    "lo": -3.7056,
-    "k": "watchtower",
-    "n": "Ardunie",
-    "d": "dare-26255",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26256",
-    "la": 56.3469,
-    "lo": -3.7297,
-    "k": "watchtower",
-    "n": "Raith",
-    "d": "dare-26256",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26257",
-    "la": 56.3461,
-    "lo": -3.7543,
-    "k": "watchtower",
-    "n": "Parkneuk",
-    "d": "dare-26257",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26264",
-    "la": 56.2425,
-    "lo": -3.8888,
-    "k": "watchtower",
-    "n": "Greenloaning",
-    "d": "dare-26264",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26265",
-    "la": 56.5371,
-    "lo": -3.3414,
-    "k": "watchtower",
-    "n": "Black Hill",
-    "d": "dare-26265",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26266",
-    "la": 56.2751,
-    "lo": -3.8665,
-    "k": "watchtower",
-    "n": "Black Hill",
-    "d": "dare-26266",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26267",
-    "la": 56.3101,
-    "lo": -3.8231,
-    "k": "watchtower",
-    "n": "Westerton",
-    "d": "dare-26267",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26268",
-    "la": 56.2883,
-    "lo": -3.8499,
-    "k": "watchtower",
-    "n": "Shielhill North",
-    "d": "dare-26268",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26269",
-    "la": 56.282,
-    "lo": -3.8593,
-    "k": "watchtower",
-    "n": "Shielhill South",
-    "d": "dare-26269",
-    "t": 2
-  },
-  {
     "i": "place:dare-26270",
     "la": 56.2682,
     "lo": -3.8706,
     "k": "fort",
     "n": "Ardoch Estate",
     "d": "dare-26270",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26305",
-    "la": 56.4961,
-    "lo": -3.3923,
-    "k": "watchtower",
-    "n": "Woodhead",
-    "d": "dare-26305",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26306",
-    "la": 55.8515,
-    "lo": -3.2264,
-    "k": "watchtower",
-    "n": "Glencorse Mains",
-    "d": "dare-26306",
     "t": 2
   },
   {
@@ -5338,26 +2774,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-26338",
-    "la": 55.1903,
-    "lo": -1.7895,
-    "k": "watchtower",
-    "n": "Longshaws",
-    "d": "dare-26338",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26353",
-    "la": 52.0035,
-    "lo": 8.5452,
-    "k": "watchtower",
-    "n": "Sparrenberger Egge",
-    "s": -30,
-    "e": 300,
-    "d": "dare-26353",
-    "t": 2
-  },
-  {
     "i": "place:dare-26358",
     "la": 47.5078,
     "lo": 19.0386,
@@ -5366,17 +2782,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-26358",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26360",
-    "la": 47.9529,
-    "lo": 10.1833,
-    "k": "watchtower",
-    "n": "Dickenreis",
-    "s": 300,
-    "e": 640,
-    "d": "dare-26360",
     "t": 2
   },
   {
@@ -5586,24 +2991,6 @@
     "s": 100,
     "e": 300,
     "d": "dare-26658",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26664",
-    "la": 48.8894,
-    "lo": 11.8261,
-    "k": "watchtower",
-    "n": "Galget",
-    "d": "dare-26664",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26666",
-    "la": 48.9137,
-    "lo": 11.5391,
-    "k": "watchtower",
-    "n": "Güßgraben",
-    "d": "dare-26666",
     "t": 2
   },
   {
@@ -6074,15 +3461,6 @@
     "k": "fort",
     "n": "Alisca – 2",
     "d": "dare-26768",
-    "t": 2
-  },
-  {
-    "i": "place:dare-26769",
-    "la": 45.3456,
-    "lo": 19.234,
-    "k": "watchtower",
-    "n": "Bač-Bács",
-    "d": "dare-26769",
     "t": 2
   },
   {
@@ -7147,17 +4525,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-37061",
-    "la": 41.9544,
-    "lo": 2.774,
-    "k": "watchtower",
-    "n": "La Torratxa",
-    "s": -30,
-    "e": 300,
-    "d": "dare-37061",
-    "t": 2
-  },
-  {
     "i": "place:dare-3788",
     "la": 49.1466,
     "lo": 9.1993,
@@ -7166,543 +4533,6 @@
     "s": 85,
     "e": 159,
     "d": "dare-3788",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38566",
-    "la": 48.4132,
-    "lo": 10.1416,
-    "k": "watchtower",
-    "n": "Straß",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38566",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38578",
-    "la": 48.8159,
-    "lo": 9.8303,
-    "k": "watchtower",
-    "n": "Hintere Orthalde",
-    "s": -30,
-    "e": 300,
-    "d": "dare-38578",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38579",
-    "la": 48.7973,
-    "lo": 9.7549,
-    "k": "watchtower",
-    "n": "Kleindeinbach",
-    "d": "dare-38579",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38583",
-    "la": 50.168,
-    "lo": 8.9856,
-    "k": "watchtower",
-    "n": "Langendiebach",
-    "d": "dare-38583",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38584",
-    "la": 50.2604,
-    "lo": 8.9612,
-    "k": "watchtower",
-    "n": "Buchkopf",
-    "d": "dare-38584",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38585",
-    "la": 50.3126,
-    "lo": 8.923,
-    "k": "watchtower",
-    "n": "Stammheim",
-    "d": "dare-38585",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38589",
-    "la": 50.4225,
-    "lo": 8.9086,
-    "k": "watchtower",
-    "n": "Auf der Burg",
-    "d": "dare-38589",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38590",
-    "la": 50.4376,
-    "lo": 8.9162,
-    "k": "watchtower",
-    "n": "Massohl",
-    "d": "dare-38590",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38591",
-    "la": 50.4518,
-    "lo": 8.9102,
-    "k": "watchtower",
-    "n": "Wingertsberg",
-    "d": "dare-38591",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38592",
-    "la": 50.4711,
-    "lo": 8.8739,
-    "k": "watchtower",
-    "n": "Feldheimer Wald",
-    "d": "dare-38592",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38593",
-    "la": 50.483,
-    "lo": 8.8546,
-    "k": "watchtower",
-    "n": "Langsdorf",
-    "d": "dare-38593",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38594",
-    "la": 50.5209,
-    "lo": 8.7251,
-    "k": "watchtower",
-    "n": "Hainhaus",
-    "d": "dare-38594",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38596",
-    "la": 50.4661,
-    "lo": 8.6778,
-    "k": "watchtower",
-    "n": "Dicker Wald 1",
-    "d": "dare-38596",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38598",
-    "la": 50.4703,
-    "lo": 8.6761,
-    "k": "watchtower",
-    "n": "Dicker Wald 2",
-    "d": "dare-38598",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38600",
-    "la": 49.0804,
-    "lo": 9.562,
-    "k": "watchtower",
-    "n": "Herrenwiesen",
-    "d": "dare-38600",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38620",
-    "la": 50.2011,
-    "lo": 8.3164,
-    "k": "watchtower",
-    "n": "Eichelgarten",
-    "d": "dare-38620",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38626",
-    "la": 50.3056,
-    "lo": 8.6254,
-    "k": "watchtower",
-    "n": "Rittergräber",
-    "d": "dare-38626",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38627",
-    "la": 50.3196,
-    "lo": 8.6383,
-    "k": "watchtower",
-    "n": "Ockstädter Wald",
-    "d": "dare-38627",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38630",
-    "la": 50.433,
-    "lo": 8.6504,
-    "k": "watchtower",
-    "n": "Schrenzer",
-    "d": "dare-38630",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38633",
-    "la": 49.6334,
-    "lo": 9.3304,
-    "k": "watchtower",
-    "n": "Haselburg",
-    "d": "dare-38633",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38634",
-    "la": 49.5429,
-    "lo": 9.3875,
-    "k": "watchtower",
-    "n": "Rehberg",
-    "d": "dare-38634",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38635",
-    "la": 49.515,
-    "lo": 9.3953,
-    "k": "watchtower",
-    "n": "Holderbusch",
-    "d": "dare-38635",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38636",
-    "la": 49.4498,
-    "lo": 9.4235,
-    "k": "watchtower",
-    "n": "Hintere Kalbe",
-    "d": "dare-38636",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38637",
-    "la": 49.4311,
-    "lo": 9.4304,
-    "k": "watchtower",
-    "n": "Salzberg",
-    "s": -30,
-    "e": 300,
-    "d": "dare-38637",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38638",
-    "la": 49.3507,
-    "lo": 9.4573,
-    "k": "watchtower",
-    "n": "Lehnenwiesen",
-    "d": "dare-38638",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38655",
-    "la": 50.05,
-    "lo": 4.4833,
-    "k": "fortification",
-    "n": "Aux Roches",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38655",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38656",
-    "la": 50.5179,
-    "lo": 5.194,
-    "k": "fortification",
-    "n": "Lovegnée",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38656",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38657",
-    "la": 50.0865,
-    "lo": 4.5675,
-    "k": "fortification",
-    "n": "La Roche à Lomme",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38657",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38658",
-    "la": 50.139,
-    "lo": 5.1757,
-    "k": "fortification",
-    "n": "Tienne de la Roche",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38658",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38659",
-    "la": 50.2933,
-    "lo": 4.8157,
-    "k": "fortification",
-    "n": "Montaigle",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38659",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38661",
-    "la": 50.3798,
-    "lo": 4.8735,
-    "k": "fortification",
-    "n": "Rochers de Frène",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38661",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38662",
-    "la": 50.0705,
-    "lo": 4.5596,
-    "k": "fortification",
-    "n": "Saine-Anne",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38662",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38663",
-    "la": 50.0662,
-    "lo": 4.5614,
-    "k": "fortification",
-    "n": "La Roche Trouee",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38663",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38664",
-    "la": 50.1066,
-    "lo": 5.6554,
-    "k": "fortification",
-    "n": "Le Cheslain",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38664",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38665",
-    "la": 50.2672,
-    "lo": 4.4276,
-    "k": "fortification",
-    "n": "Al Rotche",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38665",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38667",
-    "la": 50.3939,
-    "lo": 5.5358,
-    "k": "fortification",
-    "n": "Logne",
-    "d": "dare-38667",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38668",
-    "la": 49.6254,
-    "lo": 5.545,
-    "k": "fortification",
-    "n": "Château Renaud",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38668",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38669",
-    "la": 49.7459,
-    "lo": 6.2654,
-    "k": "fortification",
-    "n": "Blumenthal",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38669",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38670",
-    "la": 49.9054,
-    "lo": 6.0797,
-    "k": "fortification",
-    "n": "Bourscheid",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38670",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38671",
-    "la": 49.7699,
-    "lo": 6.2398,
-    "k": "fortification",
-    "n": "Heffingen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38671",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38673",
-    "la": 49.7185,
-    "lo": 5.9034,
-    "k": "fortification",
-    "n": "Hovelange",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38673",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38674",
-    "la": 49.5062,
-    "lo": 6.2593,
-    "k": "fortification",
-    "n": "Castel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38674",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38675",
-    "la": 49.4905,
-    "lo": 6.06,
-    "k": "fortification",
-    "n": "Mont Saint-Jean",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38675",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38677",
-    "la": 49.935,
-    "lo": 6.2028,
-    "k": "fortification",
-    "n": "Vianden",
-    "s": 360,
-    "e": 450,
-    "d": "dare-38677",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38678",
-    "la": 49.5263,
-    "lo": 5.9366,
-    "k": "fortification",
-    "n": "Zolverknapp",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38678",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38680",
-    "la": 49.5909,
-    "lo": 4.3529,
-    "k": "fortification",
-    "n": "Séry",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38680",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38682",
-    "la": 49.6763,
-    "lo": 4.4741,
-    "k": "fortification",
-    "n": "Dommery",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38682",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38683",
-    "la": 49.5972,
-    "lo": 4.7337,
-    "k": "fortification",
-    "n": "Omont",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38683",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38684",
-    "la": 49.4758,
-    "lo": 5.028,
-    "k": "fortification",
-    "n": "Belval-Bois-des-Dames",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38684",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38685",
-    "la": 49.286,
-    "lo": 4.9525,
-    "k": "fortification",
-    "n": "Chatel-Chéhéry",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38685",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38735",
-    "la": 46.6624,
-    "lo": 5.6029,
-    "k": "fortification",
-    "n": "Camp de Coldres",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38735",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38736",
-    "la": 46.6153,
-    "lo": 5.5551,
-    "k": "fortification",
-    "n": "Mont du Château",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38736",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38738",
-    "la": 46.764,
-    "lo": 5.6177,
-    "k": "fortification",
-    "n": "Gaillardon",
-    "s": 300,
-    "e": 640,
-    "d": "dare-38738",
     "t": 2
   },
   {
@@ -7946,39 +4776,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-38882",
-    "la": 50.8684,
-    "lo": 5.8569,
-    "k": "watchtower",
-    "n": "Goudsberg",
-    "d": "dare-38882",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38883",
-    "la": 49.9251,
-    "lo": 7.3523,
-    "k": "watchtower",
-    "n": "Dill",
-    "d": "dare-38883",
-    "t": 2
-  },
-  {
     "i": "place:dare-38885",
     "la": 50.4292,
     "lo": 8.7963,
     "k": "fort",
     "n": "Turm e",
     "d": "dare-38885",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38886",
-    "la": 51.3948,
-    "lo": 5.3925,
-    "k": "watchtower",
-    "n": "Heers",
-    "d": "dare-38886",
     "t": 2
   },
   {
@@ -7997,15 +4800,6 @@
     "k": "fort",
     "n": "Blennerhasset",
     "d": "dare-38890",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38891",
-    "la": 53.7769,
-    "lo": -2.5212,
-    "k": "watchtower",
-    "n": "Mellor Moor",
-    "d": "dare-38891",
     "t": 2
   },
   {
@@ -8099,15 +4893,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-38907",
-    "la": 54.5935,
-    "lo": -2.5055,
-    "k": "watchtower",
-    "n": "Castrigg",
-    "d": "dare-38907",
-    "t": 2
-  },
-  {
     "i": "place:dare-38908",
     "la": 54.9807,
     "lo": -2.0472,
@@ -8126,132 +4911,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-38910",
-    "la": 54.7046,
-    "lo": -3.5082,
-    "k": "watchtower",
-    "n": "Risehow Bank",
-    "d": "dare-38910",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38911",
-    "la": 54.7278,
-    "lo": -3.4851,
-    "k": "watchtower",
-    "n": "Sea Brows",
-    "d": "dare-38911",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38912",
-    "la": 54.7361,
-    "lo": -3.466,
-    "k": "watchtower",
-    "n": "Brownrigg",
-    "d": "dare-38912",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38914",
-    "la": 54.7564,
-    "lo": -3.4358,
-    "k": "watchtower",
-    "n": "Low Mire",
-    "d": "dare-38914",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38915",
-    "la": 54.7972,
-    "lo": -3.4372,
-    "k": "watchtower",
-    "n": "Dubmill Point",
-    "d": "dare-38915",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38916",
-    "la": 54.8094,
-    "lo": -3.4283,
-    "k": "watchtower",
-    "n": "Holme St. Cuthbert",
-    "d": "dare-38916",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38917",
-    "la": 54.8596,
-    "lo": -3.397,
-    "k": "watchtower",
-    "n": "Blitterlees Bank",
-    "d": "dare-38917",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38919",
-    "la": 54.9133,
-    "lo": -3.2957,
-    "k": "watchtower",
-    "n": "Cardurnock",
-    "d": "dare-38919",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38920",
-    "la": 54.9264,
-    "lo": -3.2895,
-    "k": "watchtower",
-    "n": "Herd Hill",
-    "d": "dare-38920",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38921",
-    "la": 54.9327,
-    "lo": -3.2715,
-    "k": "watchtower",
-    "n": "Pasture House",
-    "d": "dare-38921",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38922",
-    "la": 54.9452,
-    "lo": -3.2372,
-    "k": "watchtower",
-    "n": "Biglands",
-    "d": "dare-38922",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38924",
-    "la": 55.9216,
-    "lo": -4.2773,
-    "k": "watchtower",
-    "n": "Summerston Farm",
-    "d": "dare-38924",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38929",
-    "la": 56.4361,
-    "lo": -3.771,
-    "k": "watchtower",
-    "n": "Sma' Glen",
-    "d": "dare-38929",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38961",
-    "la": 55.0388,
-    "lo": -2.6595,
-    "k": "watchtower",
-    "n": "Robin Hood's Butts",
-    "d": "dare-38961",
-    "t": 2
-  },
-  {
     "i": "place:dare-3897",
     "la": 50.585,
     "lo": 8.5683,
@@ -8260,15 +4919,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-3897",
-    "t": 2
-  },
-  {
-    "i": "place:dare-38989",
-    "la": 50.7461,
-    "lo": -3.9926,
-    "k": "watchtower",
-    "n": "Okehampton",
-    "d": "dare-38989",
     "t": 2
   },
   {
@@ -8301,147 +4951,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-39007",
-    "la": 52.0592,
-    "lo": -3.6796,
-    "k": "watchtower",
-    "n": "Abererbwll",
-    "d": "dare-39007",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39008",
-    "la": 51.9919,
-    "lo": -3.8156,
-    "k": "watchtower",
-    "n": "Blaenos",
-    "d": "dare-39008",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39012",
-    "la": 52.5273,
-    "lo": -3.6877,
-    "k": "watchtower",
-    "n": "Pen-y-Crocbren",
-    "d": "dare-39012",
-    "t": 2
-  },
-  {
     "i": "place:dare-39015",
     "la": 51.8688,
     "lo": 0.8503,
     "k": "fort",
     "n": "Stanway",
     "d": "dare-39015",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39023",
-    "la": 52.753,
-    "lo": -3.7975,
-    "k": "watchtower",
-    "n": "Lletty Canol",
-    "d": "dare-39023",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39027",
-    "la": 51.5519,
-    "lo": 0.6053,
-    "k": "watchtower",
-    "n": "Hadleigh",
-    "d": "dare-39027",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39031",
-    "la": 52.9519,
-    "lo": 0.5682,
-    "k": "watchtower",
-    "n": "Thornham",
-    "d": "dare-39031",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39041",
-    "la": 54.5288,
-    "lo": -2.2651,
-    "k": "watchtower",
-    "n": "North Stainmore",
-    "d": "dare-39041",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39052",
-    "la": 54.7011,
-    "lo": -2.7696,
-    "k": "watchtower",
-    "n": "Penrith",
-    "d": "dare-39052",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39056",
-    "la": 54.7334,
-    "lo": -3.4725,
-    "k": "watchtower",
-    "n": "Mayport Golf Course",
-    "d": "dare-39056",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39057",
-    "la": 54.7008,
-    "lo": -3.5117,
-    "k": "watchtower",
-    "n": "Risehow",
-    "d": "dare-39057",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39058",
-    "la": 54.6962,
-    "lo": -3.5135,
-    "k": "watchtower",
-    "n": "Risehow",
-    "d": "dare-39058",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39120",
-    "la": 51.9864,
-    "lo": 5.468,
-    "k": "watchtower",
-    "n": "Elst-'t Spijk",
-    "d": "dare-39120",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39125",
-    "la": 52.0961,
-    "lo": 4.2796,
-    "k": "watchtower",
-    "n": "Scheveningseweg",
-    "d": "dare-39125",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39126",
-    "la": 52.0565,
-    "lo": 4.21,
-    "k": "watchtower",
-    "n": "Ockenburgh",
-    "d": "dare-39126",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39162",
-    "la": 53.4017,
-    "lo": -4.5688,
-    "k": "watchtower",
-    "n": "Pen Bryn-Yr-Eglwys",
-    "d": "dare-39162",
     "t": 2
   },
   {
@@ -8454,70 +4969,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-39178",
-    "la": 50.7171,
-    "lo": -4.6487,
-    "k": "watchtower",
-    "n": "St. Gennys High Cliff",
-    "d": "dare-39178",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39179",
-    "la": 50.8985,
-    "lo": -4.5613,
-    "k": "watchtower",
-    "n": "Morwenstow",
-    "d": "dare-39179",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39181",
-    "la": 50.6889,
-    "lo": -3.5781,
-    "k": "watchtower",
-    "n": "Ide",
-    "d": "dare-39181",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39197",
-    "la": 42.6382,
-    "lo": 25.7949,
-    "k": "fortification",
-    "n": "Assara",
-    "s": 300,
-    "e": 640,
-    "d": "dare-39197",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39199",
-    "la": 54.987,
-    "lo": -2.5775,
-    "k": "watchtower",
-    "n": "Throp",
-    "s": 79,
-    "e": 125,
-    "d": "dare-39199",
-    "t": 2
-  },
-  {
     "i": "place:dare-39396",
     "la": 46.4387,
     "lo": -1.4498,
     "k": "fort",
     "n": "Le Breuil",
     "d": "dare-39396",
-    "t": 2
-  },
-  {
-    "i": "place:dare-39403",
-    "la": 43.72,
-    "lo": 0.4903,
-    "k": "watchtower",
-    "n": "Saint-Lary",
-    "d": "dare-39403",
     "t": 2
   },
   {
@@ -8676,17 +5133,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-40772",
-    "la": 48.836,
-    "lo": 9.9507,
-    "k": "watchtower",
-    "n": "Mögglingen",
-    "s": -30,
-    "e": 300,
-    "d": "dare-40772",
-    "t": 2
-  },
-  {
     "i": "place:dare-40826",
     "la": 39.2451,
     "lo": -7.0802,
@@ -8707,15 +5153,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-41690",
-    "la": 42.8947,
-    "lo": 9.4077,
-    "k": "fortification",
-    "n": "Castiglione",
-    "d": "dare-41690",
-    "t": 2
-  },
-  {
     "i": "place:dare-41903",
     "la": 43.3588,
     "lo": 26.1449,
@@ -8727,17 +5164,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-41994",
-    "la": 42.5782,
-    "lo": 20.9971,
-    "k": "fortification",
-    "n": "Gradina e Harilaqit",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41994",
-    "t": 2
-  },
-  {
     "i": "place:dare-41995",
     "la": 42.4273,
     "lo": 21.5536,
@@ -8746,59 +5172,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-41995",
-    "t": 2
-  },
-  {
-    "i": "place:dare-41996",
-    "la": 42.4128,
-    "lo": 20.7839,
-    "k": "fortification",
-    "n": "Kasterc",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41996",
-    "t": 2
-  },
-  {
-    "i": "place:dare-41998",
-    "la": 42.2094,
-    "lo": 20.7453,
-    "k": "fortification",
-    "n": "Kalaja e Prizrenit",
-    "s": 300,
-    "e": 640,
-    "d": "dare-41998",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42032",
-    "la": 49.712,
-    "lo": 6.1517,
-    "k": "fortification",
-    "n": "Jauferbësch",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42032",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42042",
-    "la": 48.3476,
-    "lo": 16.2475,
-    "k": "watchtower",
-    "n": "Greifenstein",
-    "s": 50,
-    "e": 450,
-    "d": "dare-42042",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42081",
-    "la": 45.7465,
-    "lo": 9.6035,
-    "k": "watchtower",
-    "n": "[Lemine]",
-    "d": "dare-42081",
     "t": 2
   },
   {
@@ -8821,17 +5194,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-42131",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42314",
-    "la": 46.0726,
-    "lo": 11.112,
-    "k": "fortification",
-    "n": "Verruca",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42314",
     "t": 2
   },
   {
@@ -8891,15 +5253,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-42402",
-    "la": 48.6014,
-    "lo": 10.1631,
-    "k": "watchtower",
-    "n": "Domäne Falkenstein",
-    "d": "dare-42402",
-    "t": 2
-  },
-  {
     "i": "place:dare-42414",
     "la": 46.4214,
     "lo": 14.1317,
@@ -8922,35 +5275,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-42521",
-    "la": 25.5082,
-    "lo": 30.5427,
-    "k": "watchtower",
-    "n": "Tahunat (el-)Hawa",
-    "d": "dare-42521",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42522",
-    "la": 25.5158,
-    "lo": 30.5431,
-    "k": "watchtower",
-    "n": "el-Hammam",
-    "d": "dare-42522",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42561",
-    "la": 47.1375,
-    "lo": 13.6783,
-    "k": "watchtower",
-    "n": "Burg Mauterndorf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42561",
-    "t": 2
-  },
-  {
     "i": "place:dare-42633",
     "la": 41.9364,
     "lo": 12.8105,
@@ -8970,61 +5294,6 @@
     "s": -550,
     "e": -30,
     "d": "dare-42635",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42738",
-    "la": 46.6988,
-    "lo": 12.9814,
-    "k": "fortification",
-    "n": "Burgruine Pittersberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42738",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42772",
-    "la": 45.5692,
-    "lo": 10.7132,
-    "k": "fortification",
-    "n": "Rocca di Garda",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42772",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42778",
-    "la": 47.1019,
-    "lo": 9.3516,
-    "k": "fortification",
-    "n": "Sankt Georgsberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42778",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42780",
-    "la": 46.7407,
-    "lo": 9.0007,
-    "k": "fortification",
-    "n": "Grepault",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42780",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42784",
-    "la": 48.599,
-    "lo": 15.8355,
-    "k": "fortification",
-    "n": "Heidenstatt",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42784",
     "t": 2
   },
   {
@@ -9279,15 +5548,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-42894",
-    "la": 47.9627,
-    "lo": 17.2164,
-    "k": "watchtower",
-    "n": "Burgus Gerulata 2",
-    "d": "dare-42894",
-    "t": 2
-  },
-  {
     "i": "place:dare-42895",
     "la": 47.9561,
     "lo": 17.2145,
@@ -9297,138 +5557,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-42897",
-    "la": 47.741,
-    "lo": 17.9412,
-    "k": "watchtower",
-    "n": "Ad Statuas 1",
-    "d": "dare-42897",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42898",
-    "la": 47.7394,
-    "lo": 17.9631,
-    "k": "watchtower",
-    "n": "Ad Statuas 2",
-    "d": "dare-42898",
-    "t": 2
-  },
-  {
     "i": "place:dare-42943",
     "la": 54.5134,
     "lo": -2.1991,
     "k": "fort",
     "n": "Maiden Castle",
     "d": "dare-42943",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42944",
-    "la": 54.4955,
-    "lo": -2.1837,
-    "k": "watchtower",
-    "n": "Roper Castle",
-    "d": "dare-42944",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42969",
-    "la": 56.6665,
-    "lo": 16.6042,
-    "k": "fortification",
-    "n": "Gråborg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42969",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42971",
-    "la": 56.5022,
-    "lo": 16.4253,
-    "k": "fortification",
-    "n": "Bårby",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42971",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42972",
-    "la": 56.9188,
-    "lo": 16.852,
-    "k": "fortification",
-    "n": "Löt",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42972",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42973",
-    "la": 56.6381,
-    "lo": 16.6001,
-    "k": "fortification",
-    "n": "Norra Möckleby",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42973",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42974",
-    "la": 56.3554,
-    "lo": 16.5064,
-    "k": "fortification",
-    "n": "Träby",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42974",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42975",
-    "la": 56.4715,
-    "lo": 16.5621,
-    "k": "fortification",
-    "n": "Triberga borg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42975",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42976",
-    "la": 56.9055,
-    "lo": 16.7648,
-    "k": "fortification",
-    "n": "Hässleby borg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42976",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42977",
-    "la": 56.6202,
-    "lo": 16.6363,
-    "k": "fortification",
-    "n": "Högkullbacken",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42977",
-    "t": 2
-  },
-  {
-    "i": "place:dare-42979",
-    "la": 56.7822,
-    "lo": 16.6001,
-    "k": "fortification",
-    "n": "Högsrum",
-    "s": 300,
-    "e": 640,
-    "d": "dare-42979",
     "t": 2
   },
   {
@@ -9452,17 +5586,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-43019",
-    "la": 36.7227,
-    "lo": 54.0613,
-    "k": "watchtower",
-    "n": "Wall of Tammishe",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43019",
-    "t": 2
-  },
-  {
     "i": "place:dare-43020",
     "la": 42.8838,
     "lo": 25.3417,
@@ -9471,28 +5594,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-43020",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43022",
-    "la": 43.4338,
-    "lo": 27.9658,
-    "k": "fortification",
-    "n": "Odurtsi",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43022",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43023",
-    "la": 43.1981,
-    "lo": 26.5124,
-    "k": "fortification",
-    "n": "Krumovo Kale",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43023",
     "t": 2
   },
   {
@@ -9525,442 +5626,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-4310",
-    "la": 49.2848,
-    "lo": 9.1601,
-    "k": "watchtower",
-    "n": "Gundelsheim",
-    "d": "dare-4310",
-    "t": 2
-  },
-  {
-    "i": "place:dare-4311",
-    "la": 49.2465,
-    "lo": 9.1936,
-    "k": "watchtower",
-    "n": "Duttenberg",
-    "d": "dare-4311",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43133",
-    "la": 47.5434,
-    "lo": 7.7236,
-    "k": "watchtower",
-    "n": "Wyhlen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43133",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43134",
-    "la": 47.5543,
-    "lo": 7.7129,
-    "k": "fortification",
-    "n": "Hertenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43134",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43136",
-    "la": 50.4061,
-    "lo": 6.8824,
-    "k": "fortification",
-    "n": "Alte Burg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43136",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43137",
-    "la": 50.3718,
-    "lo": 6.8202,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43137",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43138",
-    "la": 50.2865,
-    "lo": 6.7288,
-    "k": "fortification",
-    "n": "Arensberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43138",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43142",
-    "la": 50.3192,
-    "lo": 7.3477,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43142",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43143",
-    "la": 50.3724,
-    "lo": 7.3781,
-    "k": "fortification",
-    "n": "Wernerseck",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43143",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43144",
-    "la": 50.2957,
-    "lo": 7.526,
-    "k": "fortification",
-    "n": "Kondertal",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43144",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43149",
-    "la": 50.1692,
-    "lo": 7.302,
-    "k": "fortification",
-    "n": "Zillesberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43149",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43150",
-    "la": 50.206,
-    "lo": 7.245,
-    "k": "fortification",
-    "n": "Kuhkeller",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43150",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43151",
-    "la": 50.2258,
-    "lo": 7.1825,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43151",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43152",
-    "la": 50.1672,
-    "lo": 7.2006,
-    "k": "fortification",
-    "n": "Coraidelstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43152",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43153",
-    "la": 50.1088,
-    "lo": 7.2396,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43153",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43155",
-    "la": 50.0526,
-    "lo": 7.1058,
-    "k": "fortification",
-    "n": "Arras",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43155",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43156",
-    "la": 50.0434,
-    "lo": 7.1368,
-    "k": "fortification",
-    "n": "Marienburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43156",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43158",
-    "la": 49.9907,
-    "lo": 6.948,
-    "k": "fortification",
-    "n": "Lüxemkopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43158",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43159",
-    "la": 49.9828,
-    "lo": 7.0923,
-    "k": "fortification",
-    "n": "Kröv",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43159",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43160",
-    "la": 49.9916,
-    "lo": 7.0453,
-    "k": "fortification",
-    "n": "Colai",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43160",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43161",
-    "la": 49.9185,
-    "lo": 7.1241,
-    "k": "fortification",
-    "n": "Kautenbach",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43161",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43163",
-    "la": 49.8816,
-    "lo": 7.0456,
-    "k": "fortification",
-    "n": "Heidenmauer",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43163",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43166",
-    "la": 49.7857,
-    "lo": 6.8244,
-    "k": "fortification",
-    "n": "Kammerknippchen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43166",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43168",
-    "la": 49.6674,
-    "lo": 7.2895,
-    "k": "fortification",
-    "n": "Nahekopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43168",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43169",
-    "la": 49.8461,
-    "lo": 7.3908,
-    "k": "fortification",
-    "n": "Schmidtburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43169",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43170",
-    "la": 49.8161,
-    "lo": 7.4999,
-    "k": "fortification",
-    "n": "Schloß Dhaun",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43170",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43171",
-    "la": 50.0582,
-    "lo": 7.7657,
-    "k": "fortification",
-    "n": "Stahleck",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43171",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43173",
-    "la": 50.1027,
-    "lo": 7.3443,
-    "k": "fortification",
-    "n": "Mörsdorf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43173",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43174",
-    "la": 50.1495,
-    "lo": 7.4332,
-    "k": "fortification",
-    "n": "Waldeck",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43174",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43175",
-    "la": 49.9245,
-    "lo": 6.6181,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43175",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43176",
-    "la": 49.9492,
-    "lo": 6.6292,
-    "k": "fortification",
-    "n": "Leiköppchen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43176",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43177",
-    "la": 49.9148,
-    "lo": 6.3472,
-    "k": "fortification",
-    "n": "Ofenlay",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43177",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43179",
-    "la": 50.0472,
-    "lo": 6.1324,
-    "k": "fortification",
-    "n": "Burg Dasburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43179",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43180",
-    "la": 50.3165,
-    "lo": 6.5984,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43180",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43181",
-    "la": 50.2265,
-    "lo": 6.6482,
-    "k": "fortification",
-    "n": "Auberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43181",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43182",
-    "la": 50.1334,
-    "lo": 6.7517,
-    "k": "fortification",
-    "n": "Buerberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43182",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43183",
-    "la": 50.1067,
-    "lo": 6.9781,
-    "k": "fortification",
-    "n": "Burglay",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43183",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43184",
-    "la": 50.108,
-    "lo": 6.9268,
-    "k": "fortification",
-    "n": "Kierberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43184",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43185",
-    "la": 50.0508,
-    "lo": 6.8189,
-    "k": "fortification",
-    "n": "Biederburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43185",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43186",
-    "la": 49.9967,
-    "lo": 6.9449,
-    "k": "fortification",
-    "n": "Neuerburger Kopf",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43186",
-    "t": 2
-  },
-  {
     "i": "place:dare-43198",
     "la": 43.1731,
     "lo": 20.5482,
@@ -9969,160 +5634,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-43198",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43199",
-    "la": 43.8299,
-    "lo": 20.3105,
-    "k": "fortification",
-    "n": "Gradina Jelica",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43199",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43213",
-    "la": 45.8885,
-    "lo": 14.1634,
-    "k": "watchtower",
-    "n": "Lanišče",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43213",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43345",
-    "la": 47.4579,
-    "lo": 7.8182,
-    "k": "fortification",
-    "n": "Burgenrain",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43345",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43347",
-    "la": 47.4947,
-    "lo": 7.7339,
-    "k": "fortification",
-    "n": "Burghalde",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43347",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43348",
-    "la": 47.5215,
-    "lo": 7.6582,
-    "k": "fortification",
-    "n": "Vorderer Wartenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43348",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43354",
-    "la": 46.7925,
-    "lo": 11.8827,
-    "k": "fortification",
-    "n": "Monte di Campolino",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43354",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43356",
-    "la": 46.1785,
-    "lo": 11.2257,
-    "k": "fortification",
-    "n": "[Fagitana]",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43356",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43359",
-    "la": 45.9831,
-    "lo": 9.0772,
-    "k": "fortification",
-    "n": "Laino",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43359",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43369",
-    "la": 46.4411,
-    "lo": 12.8632,
-    "k": "fortification",
-    "n": "Monte Soranti",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43369",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43370",
-    "la": 46.4314,
-    "lo": 12.8785,
-    "k": "fortification",
-    "n": "Cuel Budin",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43370",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43371",
-    "la": 46.2169,
-    "lo": 13.1221,
-    "k": "fortification",
-    "n": "Monte di Buja",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43371",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43372",
-    "la": 46.2066,
-    "lo": 12.9051,
-    "k": "fortification",
-    "n": "Col Monaco",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43372",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43373",
-    "la": 46.1601,
-    "lo": 13.0113,
-    "k": "fortification",
-    "n": "San Daniele del Friuli",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43373",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43374",
-    "la": 45.8367,
-    "lo": 13.5616,
-    "k": "fortification",
-    "n": "Castellazzo",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43374",
     "t": 2
   },
   {
@@ -10155,54 +5666,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-43663",
-    "la": 43.8938,
-    "lo": 22.807,
-    "k": "watchtower",
-    "n": "Zheglitsa",
-    "s": -30,
-    "e": 640,
-    "d": "dare-43663",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43664",
-    "la": 43.675,
-    "lo": 24.7144,
-    "k": "watchtower",
-    "n": "Gulyantsi",
-    "d": "dare-43664",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43665",
-    "la": 43.6935,
-    "lo": 24.7802,
-    "k": "watchtower",
-    "n": "Lucernaria burgon",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43665",
-    "t": 2
-  },
-  {
     "i": "place:dare-43667",
     "la": 43.6134,
     "lo": 24.8438,
     "k": "fort",
     "n": "Muselievo",
     "d": "dare-43667",
-    "t": 2
-  },
-  {
-    "i": "place:dare-43668",
-    "la": 43.7053,
-    "lo": 24.9465,
-    "k": "fortification",
-    "n": "Nikopol Kale",
-    "s": 300,
-    "e": 640,
-    "d": "dare-43668",
     "t": 2
   },
   {
@@ -10303,106 +5772,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44096",
-    "la": 47.2654,
-    "lo": 18.9141,
-    "k": "watchtower",
-    "n": "Matrica – 2",
-    "d": "dare-44096",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44097",
-    "la": 47.1819,
-    "lo": 18.8678,
-    "k": "watchtower",
-    "n": "Matrica – 4",
-    "d": "dare-44097",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44098",
-    "la": 47.1666,
-    "lo": 18.8695,
-    "k": "watchtower",
-    "n": "Matrica – 5",
-    "d": "dare-44098",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44107",
-    "la": 31.822,
-    "lo": 14.2979,
-    "k": "watchtower",
-    "n": "Gasr Bularkan",
-    "d": "dare-44107",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44114",
-    "la": 52.0837,
-    "lo": 4.7457,
-    "k": "watchtower",
-    "n": "Bodegraven",
-    "d": "dare-44114",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44320",
-    "la": 45.7641,
-    "lo": 9.3637,
-    "k": "fortification",
-    "n": "Colle Brianza",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44320",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44321",
-    "la": 43.893,
-    "lo": 7.8464,
-    "k": "fortification",
-    "n": "Campomarzio",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44321",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44324",
-    "la": 44.2776,
-    "lo": 9.7446,
-    "k": "fortification",
-    "n": "Monte Castellaro",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44324",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44325",
-    "la": 44.3316,
-    "lo": 9.9373,
-    "k": "fortification",
-    "n": "Filattiera",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44325",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44340",
-    "la": 38.032,
-    "lo": 22.129,
-    "k": "fortification",
-    "n": "Kastro tis Orias",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44340",
-    "t": 2
-  },
-  {
     "i": "place:dare-44344",
     "la": 37.532,
     "lo": 22.015,
@@ -10445,17 +5814,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44381",
-    "la": 54.9593,
-    "lo": -2.7129,
-    "k": "watchtower",
-    "n": "Boothby",
-    "s": 79,
-    "e": 125,
-    "d": "dare-44381",
-    "t": 2
-  },
-  {
     "i": "place:dare-44382",
     "la": 54.9454,
     "lo": -2.7665,
@@ -10467,33 +5825,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44383",
-    "la": 54.9796,
-    "lo": -2.6059,
-    "k": "watchtower",
-    "n": "Mains Rigg",
-    "d": "dare-44383",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44384",
-    "la": 55.0063,
-    "lo": -2.2079,
-    "k": "watchtower",
-    "n": "Newbrough",
-    "d": "dare-44384",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44385",
-    "la": 54.9955,
-    "lo": -2.3407,
-    "k": "watchtower",
-    "n": "Barcombe Hill",
-    "d": "dare-44385",
-    "t": 2
-  },
-  {
     "i": "place:dare-44387",
     "la": 54.9179,
     "lo": -3.0671,
@@ -10502,17 +5833,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-44387",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44414",
-    "la": 56.0857,
-    "lo": -5.4788,
-    "k": "fortification",
-    "n": "Dunadd",
-    "s": 500,
-    "e": 900,
-    "d": "dare-44414",
     "t": 2
   },
   {
@@ -10536,28 +5856,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44438",
-    "la": 48.0393,
-    "lo": 7.273,
-    "k": "watchtower",
-    "n": "Dagsbourg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44438",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44469",
-    "la": 42.7961,
-    "lo": -3.4028,
-    "k": "fortification",
-    "n": "Castillo de Tedeja",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44469",
-    "t": 2
-  },
-  {
     "i": "place:dare-44481",
     "la": 45.96,
     "lo": 16.1327,
@@ -10566,94 +5864,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-44481",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44490",
-    "la": 42.2511,
-    "lo": 20.7997,
-    "k": "fortification",
-    "n": "Gradina e Korishë-Gralishta",
-    "s": 400,
-    "e": 640,
-    "d": "dare-44490",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44492",
-    "la": 42.9003,
-    "lo": 20.9256,
-    "k": "fortification",
-    "n": "Rashan",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44492",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44494",
-    "la": 42.709,
-    "lo": 20.977,
-    "k": "fortification",
-    "n": "Stroc",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44494",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44495",
-    "la": 42.5872,
-    "lo": 20.8206,
-    "k": "fortification",
-    "n": "Vučak",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44495",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44496",
-    "la": 42.5541,
-    "lo": 20.8599,
-    "k": "fortification",
-    "n": "Kalaja",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44496",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44497",
-    "la": 42.4909,
-    "lo": 20.4631,
-    "k": "fortification",
-    "n": "Suka e Cërmjanit",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44497",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44499",
-    "la": 42.5835,
-    "lo": 21.2373,
-    "k": "fortification",
-    "n": "Veletin",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44499",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44517",
-    "la": 42.0007,
-    "lo": 21.4334,
-    "k": "fortification",
-    "n": "Skopje",
-    "s": 500,
-    "e": 640,
-    "d": "dare-44517",
     "t": 2
   },
   {
@@ -10668,17 +5878,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44615",
-    "la": 45.6006,
-    "lo": 13.8259,
-    "k": "watchtower",
-    "n": "Monte d'Oro",
-    "s": -178,
-    "e": -30,
-    "d": "dare-44615",
-    "t": 2
-  },
-  {
     "i": "place:dare-44618",
     "la": 45.7088,
     "lo": 14.4652,
@@ -10687,16 +5886,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-44618",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44620",
-    "la": 50.5316,
-    "lo": 7.0721,
-    "k": "fortification",
-    "n": "Bunte Kuh",
-    "s": 350,
-    "d": "dare-44620",
     "t": 2
   },
   {
@@ -10722,37 +5911,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44717",
-    "la": 48.7289,
-    "lo": 11.1469,
-    "k": "watchtower",
-    "n": "Kreut",
-    "d": "dare-44717",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44726",
-    "la": 48.2593,
-    "lo": 10.0948,
-    "k": "watchtower",
-    "n": "Bellenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44726",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44727",
-    "la": 48.0302,
-    "lo": 10.1418,
-    "k": "watchtower",
-    "n": "Sennhof",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44727",
-    "t": 2
-  },
-  {
     "i": "place:dare-44730",
     "la": 47.9222,
     "lo": 10.2021,
@@ -10761,28 +5919,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-44730",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44732",
-    "la": 47.8701,
-    "lo": 10.235,
-    "k": "watchtower",
-    "n": "Waldegg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44732",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44733",
-    "la": 47.8519,
-    "lo": 10.2568,
-    "k": "watchtower",
-    "n": "Hörensberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44733",
     "t": 2
   },
   {
@@ -10797,155 +5933,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44735",
-    "la": 47.7709,
-    "lo": 10.3356,
-    "k": "watchtower",
-    "n": "Stielings",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44735",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44736",
-    "la": 47.8588,
-    "lo": 10.4539,
-    "k": "watchtower",
-    "n": "Kleinreichholz",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44736",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44737",
-    "la": 47.8868,
-    "lo": 10.4986,
-    "k": "watchtower",
-    "n": "Ziegelstadel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44737",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44744",
-    "la": 48.487,
-    "lo": 10.3882,
-    "k": "watchtower",
-    "n": "Gemeindsberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44744",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44768",
-    "la": 43.776,
-    "lo": 17.0301,
-    "k": "fortification",
-    "n": "Vašarovine",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44768",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44777",
-    "la": 47.7076,
-    "lo": 17.673,
-    "k": "watchtower",
-    "n": "Arrabona 1",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44777",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44778",
-    "la": 47.7286,
-    "lo": 17.7261,
-    "k": "watchtower",
-    "n": "Arrabona 8",
-    "d": "dare-44778",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44779",
-    "la": 47.7278,
-    "lo": 17.7382,
-    "k": "watchtower",
-    "n": "Arrabona 3",
-    "d": "dare-44779",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44780",
-    "la": 47.7307,
-    "lo": 17.7739,
-    "k": "watchtower",
-    "n": "Arrabona 5",
-    "d": "dare-44780",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44781",
-    "la": 47.7335,
-    "lo": 17.8291,
-    "k": "watchtower",
-    "n": "Arrabona 6",
-    "d": "dare-44781",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44784",
-    "la": 47.7506,
-    "lo": 18.0564,
-    "k": "watchtower",
-    "n": "Ad Mures 4",
-    "d": "dare-44784",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44785",
-    "la": 47.7528,
-    "lo": 18.0647,
-    "k": "watchtower",
-    "n": "Ad Mures 5",
-    "d": "dare-44785",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44786",
-    "la": 47.7482,
-    "lo": 18.0194,
-    "k": "watchtower",
-    "n": "Ad Mures 1",
-    "d": "dare-44786",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44789",
-    "la": 47.7325,
-    "lo": 18.2407,
-    "k": "watchtower",
-    "n": "Brigetio 2",
-    "d": "dare-44789",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44797",
-    "la": 48.1535,
-    "lo": 10.8042,
-    "k": "watchtower",
-    "n": "Untermeitingen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-44797",
-    "t": 2
-  },
-  {
     "i": "place:dare-44798",
     "la": 48.1231,
     "lo": 10.8598,
@@ -10954,116 +5941,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-44798",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44816",
-    "la": 48.9578,
-    "lo": 11.1534,
-    "k": "watchtower",
-    "n": "Ziegelbuck",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44816",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44817",
-    "la": 48.9455,
-    "lo": 11.1696,
-    "k": "watchtower",
-    "n": "Seuversholz",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44817",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44818",
-    "la": 48.939,
-    "lo": 11.1772,
-    "k": "watchtower",
-    "n": "Weigersdorf",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44818",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44819",
-    "la": 48.9307,
-    "lo": 11.1874,
-    "k": "watchtower",
-    "n": "Preith",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44819",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44820",
-    "la": 48.9091,
-    "lo": 11.2203,
-    "k": "watchtower",
-    "n": "Preith",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44820",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44821",
-    "la": 48.9725,
-    "lo": 11.1346,
-    "k": "watchtower",
-    "n": "Bucher Heuschlag",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44821",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44822",
-    "la": 48.9822,
-    "lo": 11.1227,
-    "k": "watchtower",
-    "n": "Raitenbucher Forst",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44822",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44823",
-    "la": 48.9923,
-    "lo": 11.1095,
-    "k": "watchtower",
-    "n": "Hohlbügel",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44823",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44824",
-    "la": 49.0056,
-    "lo": 11.0919,
-    "k": "watchtower",
-    "n": "Steinbuch",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44824",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44826",
-    "la": 49.015,
-    "lo": 10.9491,
-    "k": "watchtower",
-    "n": "Emetzheim",
-    "s": -30,
-    "e": 300,
-    "d": "dare-44826",
     "t": 2
   },
   {
@@ -11078,318 +5955,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-44946",
-    "la": 46.3393,
-    "lo": 18.7741,
-    "k": "watchtower",
-    "n": "Alisca – 1",
-    "d": "dare-44946",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44947",
-    "la": 46.2586,
-    "lo": 18.6991,
-    "k": "watchtower",
-    "n": "Alisca – 4",
-    "d": "dare-44947",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44948",
-    "la": 46.1969,
-    "lo": 18.6878,
-    "k": "watchtower",
-    "n": "Ad Statuas – 1",
-    "d": "dare-44948",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44949",
-    "la": 46.1142,
-    "lo": 18.7516,
-    "k": "watchtower",
-    "n": "Ad Statuas – 4",
-    "d": "dare-44949",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44950",
-    "la": 46.5834,
-    "lo": 18.8386,
-    "k": "watchtower",
-    "n": "Lussonium – 2",
-    "d": "dare-44950",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44951",
-    "la": 46.529,
-    "lo": 18.8141,
-    "k": "watchtower",
-    "n": "Lussonium – 4",
-    "d": "dare-44951",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44952",
-    "la": 46.5238,
-    "lo": 18.8114,
-    "k": "watchtower",
-    "n": "Lussonium – 5",
-    "d": "dare-44952",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44953",
-    "la": 46.8596,
-    "lo": 18.913,
-    "k": "watchtower",
-    "n": "Annamatia – 1",
-    "d": "dare-44953",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44954",
-    "la": 46.6888,
-    "lo": 18.8925,
-    "k": "watchtower",
-    "n": "Annamatia 11",
-    "d": "dare-44954",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44955",
-    "la": 46.9669,
-    "lo": 18.9363,
-    "k": "watchtower",
-    "n": "Intercisa – 1",
-    "d": "dare-44955",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44956",
-    "la": 46.9601,
-    "lo": 18.9353,
-    "k": "watchtower",
-    "n": "Intercisa – 8",
-    "d": "dare-44956",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44957",
-    "la": 46.9484,
-    "lo": 18.9326,
-    "k": "watchtower",
-    "n": "Intercisa – 3",
-    "d": "dare-44957",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44958",
-    "la": 46.9378,
-    "lo": 18.9333,
-    "k": "watchtower",
-    "n": "Intercisa – 15",
-    "d": "dare-44958",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44959",
-    "la": 46.931,
-    "lo": 18.9317,
-    "k": "watchtower",
-    "n": "Intercisa – 9",
-    "d": "dare-44959",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44960",
-    "la": 46.9247,
-    "lo": 18.9306,
-    "k": "watchtower",
-    "n": "Intercisa – 4",
-    "d": "dare-44960",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44961",
-    "la": 46.8817,
-    "lo": 18.9178,
-    "k": "watchtower",
-    "n": "Intercisa – 7",
-    "d": "dare-44961",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44962",
-    "la": 46.879,
-    "lo": 18.9174,
-    "k": "watchtower",
-    "n": "Intercisa – 18",
-    "d": "dare-44962",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44963",
-    "la": 47.0619,
-    "lo": 18.915,
-    "k": "watchtower",
-    "n": "Vetus Salina – 4",
-    "d": "dare-44963",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44964",
-    "la": 46.9849,
-    "lo": 18.9459,
-    "k": "watchtower",
-    "n": "Intercisa – 16",
-    "d": "dare-44964",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44965",
-    "la": 46.9878,
-    "lo": 18.9289,
-    "k": "watchtower",
-    "n": "Vetus Salina – 6",
-    "d": "dare-44965",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44966",
-    "la": 47.0242,
-    "lo": 18.9179,
-    "k": "watchtower",
-    "n": "Vetus Salina – 5",
-    "d": "dare-44966",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44967",
-    "la": 47.0624,
-    "lo": 18.891,
-    "k": "watchtower",
-    "n": "Vetus Salina – 3",
-    "d": "dare-44967",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44968",
-    "la": 47.0756,
-    "lo": 18.8777,
-    "k": "watchtower",
-    "n": "Vetus Salina – 2",
-    "d": "dare-44968",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44969",
-    "la": 47.0988,
-    "lo": 18.871,
-    "k": "watchtower",
-    "n": "Vetus Salina – 1",
-    "d": "dare-44969",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44971",
-    "la": 47.3547,
-    "lo": 18.9329,
-    "k": "watchtower",
-    "n": "Campona – 1",
-    "d": "dare-44971",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44972",
-    "la": 47.347,
-    "lo": 18.9298,
-    "k": "watchtower",
-    "n": "Campona – 2",
-    "d": "dare-44972",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44973",
-    "la": 47.3417,
-    "lo": 18.9285,
-    "k": "watchtower",
-    "n": "Campona – 3",
-    "d": "dare-44973",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44974",
-    "la": 47.3318,
-    "lo": 18.9258,
-    "k": "watchtower",
-    "n": "Campona – 4",
-    "d": "dare-44974",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44975",
-    "la": 47.7559,
-    "lo": 18.6108,
-    "k": "watchtower",
-    "n": "Crumerum – 1",
-    "d": "dare-44975",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44976",
-    "la": 47.7753,
-    "lo": 18.7094,
-    "k": "watchtower",
-    "n": "Crumerum – 3",
-    "d": "dare-44976",
-    "t": 2
-  },
-  {
-    "i": "place:dare-44977",
-    "la": 47.7918,
-    "lo": 18.7323,
-    "k": "watchtower",
-    "n": "Crumerum – 4",
-    "d": "dare-44977",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45004",
-    "la": 49.5339,
-    "lo": 7.2842,
-    "k": "watchtower",
-    "n": "Schwarzerden",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45004",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45081",
-    "la": 48.0217,
-    "lo": 6.6339,
-    "k": "fortification",
-    "n": "Castrum Habendum",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45081",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45126",
-    "la": 48.7159,
-    "lo": 11.2773,
-    "k": "watchtower",
-    "n": "Bruck",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45126",
-    "t": 2
-  },
-  {
     "i": "place:dare-4513",
     "la": 48.2393,
     "lo": 15.3482,
@@ -11401,28 +5966,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-45131",
-    "la": 48.9274,
-    "lo": 11.9897,
-    "k": "watchtower",
-    "n": "Alkofen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45131",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45178",
-    "la": 45.8348,
-    "lo": 9.3193,
-    "k": "fortification",
-    "n": "San Pietro al Monte",
-    "s": 400,
-    "e": 640,
-    "d": "dare-45178",
-    "t": 2
-  },
-  {
     "i": "place:dare-45258",
     "la": 39.0942,
     "lo": -9.2613,
@@ -11431,17 +5974,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-45258",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45259",
-    "la": 39.4621,
-    "lo": -8.3839,
-    "k": "fortification",
-    "n": "Castelo de Almourol",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45259",
     "t": 2
   },
   {
@@ -11724,50 +6256,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-45386",
-    "la": 47.8486,
-    "lo": 12.7762,
-    "k": "fortification",
-    "n": "Thumberg",
-    "s": -30,
-    "e": 640,
-    "d": "dare-45386",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45395",
-    "la": 47.7119,
-    "lo": 12.1251,
-    "k": "fortification",
-    "n": "Petersberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45395",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45408",
-    "la": 47.5971,
-    "lo": 9.7805,
-    "k": "watchtower",
-    "n": "Burgstall",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45408",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45409",
-    "la": 47.6019,
-    "lo": 9.7925,
-    "k": "watchtower",
-    "n": "Waldburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45409",
-    "t": 2
-  },
-  {
     "i": "place:dare-45410",
     "la": 47.6166,
     "lo": 9.8138,
@@ -11845,56 +6333,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-45420",
-    "la": 47.6386,
-    "lo": 11.3539,
-    "k": "fortification",
-    "n": "Kleiner Berg",
-    "s": -30,
-    "e": 640,
-    "d": "dare-45420",
-    "t": 2
-  },
-  {
     "i": "place:dare-45427",
     "la": 47.6875,
     "lo": 7.5238,
     "k": "fort",
     "n": "Kleinkems",
     "d": "dare-45427",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45428",
-    "la": 47.5574,
-    "lo": 7.6015,
-    "k": "watchtower",
-    "n": "Robur?",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45428",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45429",
-    "la": 47.5547,
-    "lo": 7.7896,
-    "k": "watchtower",
-    "n": "Burgstell",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45429",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45430",
-    "la": 47.5867,
-    "lo": 8.304,
-    "k": "watchtower",
-    "n": "Rheinheim",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45430",
     "t": 2
   },
   {
@@ -11931,39 +6375,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-45434",
-    "la": 48.5615,
-    "lo": 7.5317,
-    "k": "watchtower",
-    "n": "Dachstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45434",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45437",
-    "la": 47.3957,
-    "lo": 7.929,
-    "k": "fortification",
-    "n": "Gross Chastel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45437",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45438",
-    "la": 47.3933,
-    "lo": 7.8066,
-    "k": "fortification",
-    "n": "Ränggen",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45438",
-    "t": 2
-  },
-  {
     "i": "place:dare-45440",
     "la": 47.5434,
     "lo": 7.9509,
@@ -11994,156 +6405,6 @@
     "s": 300,
     "e": 640,
     "d": "dare-45442",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45443",
-    "la": 46.6359,
-    "lo": 9.5758,
-    "k": "fortification",
-    "n": "Motta Vallac",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45443",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45444",
-    "la": 47.2699,
-    "lo": 9.6438,
-    "k": "fortification",
-    "n": "Liebfrauenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45444",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45445",
-    "la": 47.2465,
-    "lo": 11.3936,
-    "k": "fortification",
-    "n": "Sonnenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45445",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45453",
-    "la": 46.7977,
-    "lo": 11.8361,
-    "k": "fortification",
-    "n": "Hinterbühl",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45453",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45454",
-    "la": 46.8152,
-    "lo": 11.7206,
-    "k": "fortification",
-    "n": "Burgstall",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45454",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45455",
-    "la": 46.7894,
-    "lo": 11.9051,
-    "k": "fortification",
-    "n": "Colle del Castello",
-    "d": "dare-45455",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45458",
-    "la": 46.6844,
-    "lo": 13.7215,
-    "k": "fortification",
-    "n": "Weißenstein",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45458",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45459",
-    "la": 47.4106,
-    "lo": 13.2061,
-    "k": "fortification",
-    "n": "Bachsfall",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45459",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45460",
-    "la": 47.4027,
-    "lo": 13.2111,
-    "k": "fortification",
-    "n": "Götschenberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45460",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45462",
-    "la": 47.0648,
-    "lo": 15.1237,
-    "k": "fortification",
-    "n": "Heiliger Berg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45462",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45463",
-    "la": 46.5202,
-    "lo": 14.3017,
-    "k": "fortification",
-    "n": "Hum",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45463",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45465",
-    "la": 45.9125,
-    "lo": 13.8094,
-    "k": "fortification",
-    "n": "Cerkev Sv. Pavel",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45465",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45466",
-    "la": 45.6103,
-    "lo": 15.2766,
-    "k": "fortification",
-    "n": "Kučar",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45466",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45467",
-    "la": 45.89,
-    "lo": 15.5754,
-    "k": "fortification",
-    "n": "Velike Malence",
-    "d": "dare-45467",
     "t": 2
   },
   {
@@ -12235,17 +6496,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-45549",
-    "la": 45.5274,
-    "lo": 22.4577,
-    "k": "watchtower",
-    "n": "Voislova",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45549",
-    "t": 2
-  },
-  {
     "i": "place:dare-45553",
     "la": 43.7266,
     "lo": 24.7134,
@@ -12254,61 +6504,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-45553",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45559",
-    "la": 47.3333,
-    "lo": 23.6191,
-    "k": "watchtower",
-    "n": "Ciuha",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45559",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45560",
-    "la": 47.3269,
-    "lo": 23.6178,
-    "k": "watchtower",
-    "n": "Ileanda",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45560",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45562",
-    "la": 47.2265,
-    "lo": 22.518,
-    "k": "watchtower",
-    "n": "Pria",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45562",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45564",
-    "la": 46.4653,
-    "lo": 25.143,
-    "k": "watchtower",
-    "n": "Râtul Cadaci",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45564",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45565",
-    "la": 46.5315,
-    "lo": 25.0624,
-    "k": "watchtower",
-    "n": "Piatra Şiclodului",
-    "s": -30,
-    "e": 300,
-    "d": "dare-45565",
     "t": 2
   },
   {
@@ -12342,17 +6537,6 @@
     "s": -30,
     "e": 640,
     "d": "dare-45580",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45581",
-    "la": 44.1553,
-    "lo": 22.7995,
-    "k": "watchtower",
-    "n": "Novo Selo",
-    "s": -30,
-    "e": 640,
-    "d": "dare-45581",
     "t": 2
   },
   {
@@ -12422,17 +6606,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-45617",
-    "la": 48.4642,
-    "lo": 10.3017,
-    "k": "fortification",
-    "n": "Rizinis?",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45617",
-    "t": 2
-  },
-  {
     "i": "place:dare-45640",
     "la": 43.5466,
     "lo": 25.9449,
@@ -12444,17 +6617,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-45704",
-    "la": 46.05,
-    "lo": 24.1167,
-    "k": "fortification",
-    "n": "Şeica Mică",
-    "s": -330,
-    "e": 300,
-    "d": "dare-45704",
-    "t": 2
-  },
-  {
     "i": "place:dare-45746",
     "la": 48.3902,
     "lo": 10.8817,
@@ -12463,55 +6625,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-45746",
-    "t": 2
-  },
-  {
-    "i": "place:dare-45823",
-    "la": 45.0909,
-    "lo": 13.6835,
-    "k": "fortification",
-    "n": "Turnini",
-    "s": 300,
-    "e": 640,
-    "d": "dare-45823",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46037",
-    "la": 46.8593,
-    "lo": 6.2173,
-    "k": "fortification",
-    "n": "Fort Bachin",
-    "s": 300,
-    "e": 640,
-    "d": "dare-46037",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46099",
-    "la": 42.2489,
-    "lo": 2.3903,
-    "k": "watchtower",
-    "n": "Capsacosta",
-    "d": "dare-46099",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46102",
-    "la": 42.2557,
-    "lo": 2.7305,
-    "k": "watchtower",
-    "n": "Castell de Falgars",
-    "d": "dare-46102",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46184",
-    "la": 41.5281,
-    "lo": 2.3808,
-    "k": "watchtower",
-    "n": "Turó de l'Infern",
-    "d": "dare-46184",
     "t": 2
   },
   {
@@ -12530,17 +6643,6 @@
     "k": "fort",
     "n": "Bryn Glas",
     "d": "dare-46201",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46202",
-    "la": 52.113,
-    "lo": -3.979,
-    "k": "watchtower",
-    "n": "Carreg-y-Bwci",
-    "s": -30,
-    "e": 300,
-    "d": "dare-46202",
     "t": 2
   },
   {
@@ -12595,50 +6697,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-46233",
-    "la": 37.7936,
-    "lo": 22.6398,
-    "k": "watchtower",
-    "n": "Palaiopyrgos",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46233",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46234",
-    "la": 37.7774,
-    "lo": 22.7447,
-    "k": "watchtower",
-    "n": "Anemomylos",
-    "s": -550,
-    "e": -330,
-    "d": "dare-46234",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46235",
-    "la": 37.7758,
-    "lo": 22.8868,
-    "k": "watchtower",
-    "n": "Kastraki",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46235",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46236",
-    "la": 37.7462,
-    "lo": 22.8593,
-    "k": "watchtower",
-    "n": "Dragatoura",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46236",
-    "t": 2
-  },
-  {
     "i": "place:dare-46239",
     "la": 37.6029,
     "lo": 22.8586,
@@ -12647,116 +6705,6 @@
     "s": -330,
     "e": -30,
     "d": "dare-46239",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46240",
-    "la": 37.4674,
-    "lo": 22.6741,
-    "k": "watchtower",
-    "n": "Xylopyrgos",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46240",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46244",
-    "la": 37.6933,
-    "lo": 22.4847,
-    "k": "watchtower",
-    "n": "Ag. Dimitrios",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46244",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46245",
-    "la": 37.5977,
-    "lo": 22.5536,
-    "k": "watchtower",
-    "n": "Gaidourovouni",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46245",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46246",
-    "la": 37.5914,
-    "lo": 22.5325,
-    "k": "watchtower",
-    "n": "Tourniki",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46246",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46247",
-    "la": 37.6123,
-    "lo": 22.4492,
-    "k": "watchtower",
-    "n": "Tryfoni",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46247",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46248",
-    "la": 37.5745,
-    "lo": 22.4558,
-    "k": "watchtower",
-    "n": "Ag. Giorgios",
-    "s": -550,
-    "e": -330,
-    "d": "dare-46248",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46250",
-    "la": 37.5625,
-    "lo": 22.3993,
-    "k": "watchtower",
-    "n": "Skopi",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46250",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46251",
-    "la": 37.7506,
-    "lo": 22.5918,
-    "k": "watchtower",
-    "n": "Kastro Kourounas",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46251",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46255",
-    "la": 37.5825,
-    "lo": 22.629,
-    "k": "watchtower",
-    "n": "Pyrgos",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46255",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46256",
-    "la": 37.4679,
-    "lo": 22.4695,
-    "k": "watchtower",
-    "n": "Magoula",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46256",
     "t": 2
   },
   {
@@ -12771,139 +6719,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-46296",
-    "la": 37.3315,
-    "lo": 22.7035,
-    "k": "watchtower",
-    "n": "Elliniko",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46296",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46297",
-    "la": 37.4603,
-    "lo": 22.7479,
-    "k": "watchtower",
-    "n": "Xeropigado",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46297",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46309",
-    "la": 37.7677,
-    "lo": 23.1037,
-    "k": "watchtower",
-    "n": "Korfos",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46309",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46343",
-    "la": 41.55,
-    "lo": 2.2574,
-    "k": "watchtower",
-    "n": "Tacó",
-    "d": "dare-46343",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46461",
-    "la": 41.1241,
-    "lo": 0.8015,
-    "k": "watchtower",
-    "n": "Castell dels Moros",
-    "d": "dare-46461",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46462",
-    "la": 41.127,
-    "lo": 0.9149,
-    "k": "watchtower",
-    "n": "Escornalbou",
-    "d": "dare-46462",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46499",
-    "la": 42.5667,
-    "lo": 1.4,
-    "k": "watchtower",
-    "n": "Sant Pere de Tor",
-    "d": "dare-46499",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46505",
-    "la": 42.0667,
-    "lo": 1.0333,
-    "k": "watchtower",
-    "n": "Hostal Roig",
-    "d": "dare-46505",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46509",
-    "la": 41.8637,
-    "lo": 1.556,
-    "k": "watchtower",
-    "n": "Casa Cremada",
-    "d": "dare-46509",
-    "t": 2
-  },
-  {
     "i": "place:dare-46517",
     "la": 42.3599,
     "lo": 1.8668,
     "k": "fort",
     "n": "Torreta de Das",
     "d": "dare-46517",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46532",
-    "la": 41.5314,
-    "lo": 2.0163,
-    "k": "watchtower",
-    "n": "Les Martines",
-    "d": "dare-46532",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46543",
-    "la": 40.6491,
-    "lo": 0.4835,
-    "k": "watchtower",
-    "n": "Castell dels Moros",
-    "d": "dare-46543",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46570",
-    "la": 45.6246,
-    "lo": 13.991,
-    "k": "fortification",
-    "n": "Ajdovščina",
-    "s": 300,
-    "e": 640,
-    "d": "dare-46570",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46577",
-    "la": 38.1238,
-    "lo": 23.5452,
-    "k": "watchtower",
-    "n": "Palaiokastro",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46577",
     "t": 2
   },
   {
@@ -12943,79 +6764,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-46603",
-    "la": 38.1993,
-    "lo": 24.0434,
-    "k": "watchtower",
-    "n": "Limiko",
-    "s": -550,
-    "e": -330,
-    "d": "dare-46603",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46607",
-    "la": 38.1636,
-    "lo": 23.4247,
-    "k": "watchtower",
-    "n": "Oinoi",
-    "d": "dare-46607",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46608",
-    "la": 38.1455,
-    "lo": 23.2947,
-    "k": "watchtower",
-    "n": "Kryo Pigadi",
-    "s": -550,
-    "e": -330,
-    "d": "dare-46608",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46609",
-    "la": 38.1108,
-    "lo": 23.2723,
-    "k": "watchtower",
-    "n": "Vathykhori 2",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46609",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46610",
-    "la": 38.115,
-    "lo": 23.2622,
-    "k": "watchtower",
-    "n": "Vathykhori 1",
-    "s": -330,
-    "e": -30,
-    "d": "dare-46610",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46611",
-    "la": 38.0128,
-    "lo": 23.1672,
-    "k": "watchtower",
-    "n": "Aigiplankton",
-    "d": "dare-46611",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46614",
-    "la": 38.0878,
-    "lo": 23.3879,
-    "k": "watchtower",
-    "n": "Ag. Triada Myrini",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46614",
-    "t": 2
-  },
-  {
     "i": "place:dare-46615",
     "la": 38.0416,
     "lo": 23.3756,
@@ -13024,17 +6772,6 @@
     "s": -330,
     "e": -30,
     "d": "dare-46615",
-    "t": 2
-  },
-  {
-    "i": "place:dare-46616",
-    "la": 38.0264,
-    "lo": 23.3929,
-    "k": "watchtower",
-    "n": "Pyrgari",
-    "s": -550,
-    "e": -30,
-    "d": "dare-46616",
     "t": 2
   },
   {
@@ -13060,56 +6797,12 @@
     "t": 2
   },
   {
-    "i": "place:dare-4938",
-    "la": 49.587,
-    "lo": 6.1713,
-    "k": "fortification",
-    "n": "Itzig",
-    "s": 300,
-    "e": 640,
-    "d": "dare-4938",
-    "t": 2
-  },
-  {
-    "i": "place:dare-524",
-    "la": 50.197,
-    "lo": 6.8313,
-    "k": "fortification",
-    "n": "Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-524",
-    "t": 2
-  },
-  {
-    "i": "place:dare-534",
-    "la": 50.0413,
-    "lo": 8.2566,
-    "k": "watchtower",
-    "n": "Biebrich",
-    "s": 300,
-    "e": 640,
-    "d": "dare-534",
-    "t": 2
-  },
-  {
     "i": "place:dare-5363",
     "la": 48.1773,
     "lo": 15.0853,
     "k": "fort",
     "n": "Ybbs an der Donau",
     "d": "dare-5363",
-    "t": 2
-  },
-  {
-    "i": "place:dare-5402",
-    "la": 51.4884,
-    "lo": 11.702,
-    "k": "fortification",
-    "n": "Schlossberg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-5402",
     "t": 2
   },
   {
@@ -13146,26 +6839,6 @@
     "t": 2
   },
   {
-    "i": "place:dare-7030",
-    "la": 49.2797,
-    "lo": 9.4786,
-    "k": "watchtower",
-    "n": "Sindringen",
-    "d": "dare-7030",
-    "t": 2
-  },
-  {
-    "i": "place:dare-7071",
-    "la": 48.9743,
-    "lo": 12.417,
-    "k": "watchtower",
-    "n": "Pfatter-Gmünd",
-    "s": -30,
-    "e": 300,
-    "d": "dare-7071",
-    "t": 2
-  },
-  {
     "i": "place:dare-715",
     "la": 48.8133,
     "lo": 9.2108,
@@ -13174,17 +6847,6 @@
     "s": -30,
     "e": 300,
     "d": "dare-715",
-    "t": 2
-  },
-  {
-    "i": "place:dare-7449",
-    "la": 49.3518,
-    "lo": 4.8704,
-    "k": "fortification",
-    "n": "Grandpré",
-    "s": 300,
-    "e": 640,
-    "d": "dare-7449",
     "t": 2
   },
   {
@@ -13218,28 +6880,6 @@
     "s": 100,
     "e": 260,
     "d": "dare-8666",
-    "t": 2
-  },
-  {
-    "i": "place:dare-889",
-    "la": 49.9761,
-    "lo": 9.1417,
-    "k": "fortification",
-    "n": "Aschaffenburg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-889",
-    "t": 2
-  },
-  {
-    "i": "place:dare-9688",
-    "la": 49.6114,
-    "lo": 6.1336,
-    "k": "fortification",
-    "n": "Luxembourg",
-    "s": 300,
-    "e": 640,
-    "d": "dare-9688",
     "t": 2
   },
   {
@@ -13384,17 +7024,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-108840",
-    "la": 49.63,
-    "lo": 5.5938,
-    "k": "fortification",
-    "n": "Montauban-sous-Buzenol",
-    "s": 300,
-    "e": 640,
-    "d": "pl-108840",
-    "t": 2
-  },
-  {
     "i": "place:pl-108875",
     "la": 51.7294,
     "lo": 5.8788,
@@ -13450,17 +7079,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-109001",
-    "la": 48.3934,
-    "lo": 7.9904,
-    "k": "fortification",
-    "n": "Geißkopf",
-    "s": 300,
-    "e": 640,
-    "d": "pl-109001",
-    "t": 2
-  },
-  {
     "i": "place:pl-109002",
     "la": 51.3308,
     "lo": 6.6768,
@@ -13491,17 +7109,6 @@
     "s": 80,
     "e": 190,
     "d": "pl-109035",
-    "t": 2
-  },
-  {
-    "i": "place:pl-109037",
-    "la": 50.152,
-    "lo": 8.1906,
-    "k": "watchtower",
-    "n": "Heidekringen",
-    "s": -30,
-    "e": 300,
-    "d": "pl-109037",
     "t": 2
   },
   {
@@ -13549,28 +7156,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-109094",
-    "la": 48.4136,
-    "lo": 8.0054,
-    "k": "fortification",
-    "n": "Kügeleskopf",
-    "s": 300,
-    "e": 640,
-    "d": "pl-109094",
-    "t": 2
-  },
-  {
-    "i": "place:pl-109099",
-    "la": 50.309,
-    "lo": 7.6041,
-    "k": "watchtower",
-    "n": "Lahnstein",
-    "s": 364,
-    "e": 430,
-    "d": "pl-109099",
-    "t": 2
-  },
-  {
     "i": "place:pl-109100",
     "la": 50.3652,
     "lo": 8.637,
@@ -13601,17 +7186,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-109174",
-    "t": 2
-  },
-  {
-    "i": "place:pl-109192",
-    "la": 49.453,
-    "lo": 8.4923,
-    "k": "watchtower",
-    "n": "Neckarau",
-    "s": 300,
-    "e": 640,
-    "d": "pl-109192",
     "t": 2
   },
   {
@@ -13659,17 +7233,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-109294",
-    "la": 49.9949,
-    "lo": 8.4108,
-    "k": "watchtower",
-    "n": "Rüsselsheim",
-    "s": -30,
-    "e": 300,
-    "d": "pl-109294",
-    "t": 2
-  },
-  {
     "i": "place:pl-109408874",
     "la": 55.1198,
     "lo": -3.6187,
@@ -13690,17 +7253,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-109470",
-    "la": 48.0233,
-    "lo": 7.8588,
-    "k": "fortification",
-    "n": "Zähringer Burgberg",
-    "s": 300,
-    "e": 640,
-    "d": "pl-109470",
-    "t": 2
-  },
-  {
     "i": "place:pl-109472",
     "la": 50.1914,
     "lo": 8.2029,
@@ -13709,26 +7261,6 @@
     "s": 90,
     "e": 260,
     "d": "pl-109472",
-    "t": 2
-  },
-  {
-    "i": "place:pl-109473",
-    "la": 49.7036,
-    "lo": 8.3911,
-    "k": "watchtower",
-    "n": "Zullestein",
-    "s": 300,
-    "e": 640,
-    "d": "pl-109473",
-    "t": 2
-  },
-  {
-    "i": "place:pl-109516473",
-    "la": 55.8172,
-    "lo": -3.5172,
-    "k": "watchtower",
-    "n": "Castle Greg",
-    "d": "pl-109516473",
     "t": 2
   },
   {
@@ -13939,17 +7471,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-118619",
-    "la": 48.4171,
-    "lo": 10.0663,
-    "k": "watchtower",
-    "n": "Burlafingen",
-    "s": 40,
-    "e": 50,
-    "d": "pl-118619",
-    "t": 2
-  },
-  {
     "i": "place:pl-118622",
     "la": 48.1202,
     "lo": 10.1271,
@@ -13958,17 +7479,6 @@
     "s": 300,
     "e": 640,
     "d": "pl-118622",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118624",
-    "la": 48.5259,
-    "lo": 9.3434,
-    "k": "fortification",
-    "n": "Calverbühl",
-    "s": 300,
-    "e": 640,
-    "d": "pl-118624",
     "t": 2
   },
   {
@@ -14016,17 +7526,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-118650",
-    "la": 48.082,
-    "lo": 8.7626,
-    "k": "fortification",
-    "n": "Dreifaltigkeitsberg",
-    "s": 300,
-    "e": 640,
-    "d": "pl-118650",
-    "t": 2
-  },
-  {
     "i": "place:pl-118657",
     "la": 50.392,
     "lo": 8.884,
@@ -14035,17 +7534,6 @@
     "s": 90,
     "e": 260,
     "d": "pl-118657",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118661",
-    "la": 49.7198,
-    "lo": 11.1531,
-    "k": "fortification",
-    "n": "Ehrenbürg",
-    "s": -550,
-    "e": 640,
-    "d": "pl-118661",
     "t": 2
   },
   {
@@ -14090,28 +7578,6 @@
     "s": 69,
     "e": 260,
     "d": "pl-118681",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118684",
-    "la": 48.1274,
-    "lo": 8.7099,
-    "k": "watchtower",
-    "n": "Frittlingen",
-    "s": -30,
-    "e": 300,
-    "d": "pl-118684",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118692",
-    "la": 49.0485,
-    "lo": 10.7786,
-    "k": "fortification",
-    "n": "Gelber Berg",
-    "s": -30,
-    "e": 640,
-    "d": "pl-118692",
     "t": 2
   },
   {
@@ -14200,17 +7666,6 @@
     "s": -30,
     "e": 300,
     "d": "pl-118741",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118751",
-    "la": 49.4929,
-    "lo": 11.4787,
-    "k": "fortification",
-    "n": "Houbirg",
-    "s": -330,
-    "e": 640,
-    "d": "pl-118751",
     "t": 2
   },
   {
@@ -14489,17 +7944,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-118905",
-    "la": 48.3835,
-    "lo": 10.0777,
-    "k": "watchtower",
-    "n": "Piniana?",
-    "s": 300,
-    "e": 640,
-    "d": "pl-118905",
-    "t": 2
-  },
-  {
     "i": "place:pl-118919",
     "la": 48.669,
     "lo": 13.0793,
@@ -14552,17 +7996,6 @@
     "s": -30,
     "e": 300,
     "d": "pl-118938",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118941",
-    "la": 48.4915,
-    "lo": 9.3718,
-    "k": "fortification",
-    "n": "Runder Berg",
-    "s": 300,
-    "e": 640,
-    "d": "pl-118941",
     "t": 2
   },
   {
@@ -14629,17 +8062,6 @@
     "s": -30,
     "e": 300,
     "d": "pl-118975",
-    "t": 2
-  },
-  {
-    "i": "place:pl-118984",
-    "la": 49.1803,
-    "lo": 11.4135,
-    "k": "fortification",
-    "n": "Sulzbürg",
-    "s": 300,
-    "e": 640,
-    "d": "pl-118984",
     "t": 2
   },
   {
@@ -15037,28 +8459,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-187276",
-    "la": 47.8232,
-    "lo": 10.8722,
-    "k": "fortification",
-    "n": "Altenstadt",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187276",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187288",
-    "la": 46.4558,
-    "lo": 11.2588,
-    "k": "fortification",
-    "n": "[Appianum]",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187288",
-    "t": 2
-  },
-  {
     "i": "place:pl-187292",
     "la": 47.5151,
     "lo": 9.4369,
@@ -15067,28 +8467,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-187292",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187294",
-    "la": 46.2373,
-    "lo": 13.1539,
-    "k": "fortification",
-    "n": "[Artenia]",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187294",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187298",
-    "la": 47.1489,
-    "lo": 9.5437,
-    "k": "fortification",
-    "n": "Auf Krüppel",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187298",
     "t": 2
   },
   {
@@ -15103,17 +8481,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-187343",
-    "la": 46.1747,
-    "lo": 11.2219,
-    "k": "fortification",
-    "n": "[Castrum Cimbra]",
-    "s": -330,
-    "e": 640,
-    "d": "pl-187343",
-    "t": 2
-  },
-  {
     "i": "place:pl-187354",
     "la": 47.6457,
     "lo": 11.1957,
@@ -15125,72 +8492,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-187355",
-    "la": 47.6269,
-    "lo": 13.1453,
-    "k": "fortification",
-    "n": "Cucullae",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187355",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187369",
-    "la": 46.3375,
-    "lo": 11.2894,
-    "k": "fortification",
-    "n": "[Enemase]",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187369",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187382",
-    "la": 47.5697,
-    "lo": 10.7004,
-    "k": "fortification",
-    "n": "*Foetes",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187382",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187394",
-    "la": 46.2771,
-    "lo": 13.1398,
-    "k": "fortification",
-    "n": "[Glemona]",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187394",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187412",
-    "la": 47.7988,
-    "lo": 8.8205,
-    "k": "fortification",
-    "n": "Hohenkrähen",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187412",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187413",
-    "la": 46.54,
-    "lo": 13.6667,
-    "k": "fortification",
-    "n": "Hoischhügel",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187413",
-    "t": 2
-  },
-  {
     "i": "place:pl-187422",
     "la": 47.3582,
     "lo": 8.7926,
@@ -15199,83 +8500,6 @@
     "s": 300,
     "e": 640,
     "d": "pl-187422",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187435",
-    "la": 46.5523,
-    "lo": 13.8765,
-    "k": "fortification",
-    "n": "Kanzianiberg",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187435",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187452",
-    "la": 47.5832,
-    "lo": 9.6238,
-    "k": "fortification",
-    "n": "Lenensburg",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187452",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187462",
-    "la": 47.202,
-    "lo": 9.5286,
-    "k": "fortification",
-    "n": "Lutzengüetlekopf",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187462",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187467",
-    "la": 46.5343,
-    "lo": 11.2961,
-    "k": "fortification",
-    "n": "[Maletum]",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187467",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187489",
-    "la": 46.2047,
-    "lo": 13.2797,
-    "k": "fortification",
-    "n": "[Nemas]",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187489",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187501",
-    "la": 46.256,
-    "lo": 13.0828,
-    "k": "fortification",
-    "n": "Osopus",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187501",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187528",
-    "la": 46.1745,
-    "lo": 12.9834,
-    "k": "fortification",
-    "n": "Reunia",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187528",
     "t": 2
   },
   {
@@ -15301,39 +8525,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-187545",
-    "la": 47.9698,
-    "lo": 10.621,
-    "k": "watchtower",
-    "n": "Schlingen",
-    "s": -30,
-    "e": 640,
-    "d": "pl-187545",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187550",
-    "la": 46.5378,
-    "lo": 11.1931,
-    "k": "fortification",
-    "n": "[Sermiana]",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187550",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187582",
-    "la": 46.5665,
-    "lo": 11.1705,
-    "k": "fortification",
-    "n": "[Tesana]",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187582",
-    "t": 2
-  },
-  {
     "i": "place:pl-187598",
     "la": 47.9831,
     "lo": 8.8193,
@@ -15345,17 +8536,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-187606",
-    "la": 47.8928,
-    "lo": 11.7792,
-    "k": "fortification",
-    "n": "Valley",
-    "s": 300,
-    "e": 640,
-    "d": "pl-187606",
-    "t": 2
-  },
-  {
     "i": "place:pl-187609",
     "la": 47.6981,
     "lo": 10.0673,
@@ -15364,15 +8544,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-187609",
-    "t": 2
-  },
-  {
-    "i": "place:pl-187731642",
-    "la": 55.4101,
-    "lo": -3.5336,
-    "k": "watchtower",
-    "n": "Redshaw Burn",
-    "d": "pl-187731642",
     "t": 2
   },
   {
@@ -15791,17 +8962,6 @@
     "s": 69,
     "e": 400,
     "d": "pl-197580",
-    "t": 2
-  },
-  {
-    "i": "place:pl-20454",
-    "la": 56.2955,
-    "lo": 16.4862,
-    "k": "fortification",
-    "n": "Eketorp",
-    "s": 300,
-    "e": 640,
-    "d": "pl-20454",
     "t": 2
   },
   {
@@ -16759,17 +9919,6 @@
     "s": -30,
     "e": 300,
     "d": "pl-207234",
-    "t": 2
-  },
-  {
-    "i": "place:pl-207238",
-    "la": 42.9967,
-    "lo": 21.9453,
-    "k": "fortification",
-    "n": "Leskovac",
-    "s": 300,
-    "e": 640,
-    "d": "pl-207238",
     "t": 2
   },
   {
@@ -18613,15 +11762,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-25339216",
-    "la": 56.7112,
-    "lo": -2.9734,
-    "k": "watchtower",
-    "n": "Inverquharity",
-    "d": "pl-25339216",
-    "t": 2
-  },
-  {
     "i": "place:pl-255972",
     "la": 39.2599,
     "lo": -8.5845,
@@ -18683,17 +11823,6 @@
     "s": -330,
     "e": -30,
     "d": "pl-265853",
-    "t": 2
-  },
-  {
-    "i": "place:pl-269031532",
-    "la": 51.4222,
-    "lo": 6.7111,
-    "k": "watchtower",
-    "n": "Werthausen",
-    "s": -30,
-    "e": 300,
-    "d": "pl-269031532",
     "t": 2
   },
   {
@@ -19245,15 +12374,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-299804165",
-    "la": 55.8601,
-    "lo": -4.8271,
-    "k": "watchtower",
-    "n": "Outerwards",
-    "d": "pl-299804165",
-    "t": 2
-  },
-  {
     "i": "place:pl-305056",
     "la": 36.0146,
     "lo": 5.207,
@@ -19273,15 +12393,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-305099",
-    "t": 2
-  },
-  {
-    "i": "place:pl-309231036",
-    "la": 55.3256,
-    "lo": -3.7309,
-    "k": "watchtower",
-    "n": "Durisdeer",
-    "d": "pl-309231036",
     "t": 2
   },
   {
@@ -19404,24 +12515,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-325648990",
-    "la": 55.9202,
-    "lo": -4.3887,
-    "k": "watchtower",
-    "n": "Cleddans",
-    "d": "pl-325648990",
-    "t": 2
-  },
-  {
-    "i": "place:pl-325648991",
-    "la": 55.9036,
-    "lo": -4.2889,
-    "k": "watchtower",
-    "n": "Summerston",
-    "d": "pl-325648991",
-    "t": 2
-  },
-  {
     "i": "place:pl-330425754",
     "la": 52.0841,
     "lo": -3.1278,
@@ -19527,17 +12620,6 @@
     "s": 198,
     "e": 240,
     "d": "pl-334518",
-    "t": 2
-  },
-  {
-    "i": "place:pl-334522083",
-    "la": 44.1944,
-    "lo": 8.3225,
-    "k": "fortification",
-    "n": "Castrum Pertice",
-    "s": 300,
-    "e": 1453,
-    "d": "pl-334522083",
     "t": 2
   },
   {
@@ -19758,15 +12840,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-334670",
-    "t": 2
-  },
-  {
-    "i": "place:pl-343256472",
-    "la": 56.229,
-    "lo": -3.9177,
-    "k": "watchtower",
-    "n": "Glenbank",
-    "d": "pl-343256472",
     "t": 2
   },
   {
@@ -20045,15 +13118,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-346876400",
-    "la": 48.7915,
-    "lo": 9.7636,
-    "k": "watchtower",
-    "n": "Freimühle",
-    "d": "pl-346876400",
-    "t": 2
-  },
-  {
     "i": "place:pl-363946",
     "la": 30.3485,
     "lo": 18.7606,
@@ -20084,26 +13148,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-364026",
-    "t": 2
-  },
-  {
-    "i": "place:pl-364203292",
-    "la": 55.3859,
-    "lo": -3.9794,
-    "k": "watchtower",
-    "n": "Bankhead",
-    "d": "pl-364203292",
-    "t": 2
-  },
-  {
-    "i": "place:pl-370424386",
-    "la": 37.6172,
-    "lo": 23.4118,
-    "k": "watchtower",
-    "n": "Ogas",
-    "s": -550,
-    "e": -330,
-    "d": "pl-370424386",
     "t": 2
   },
   {
@@ -20206,15 +13250,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-37433207",
-    "la": 55.7821,
-    "lo": -2.8132,
-    "k": "watchtower",
-    "n": "Oxton",
-    "d": "pl-37433207",
-    "t": 2
-  },
-  {
     "i": "place:pl-375253",
     "la": 32.5225,
     "lo": 21.9559,
@@ -20237,28 +13272,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-383600",
-    "la": 45.82,
-    "lo": 10.9563,
-    "k": "fortification",
-    "n": "[Bremtonicum]",
-    "s": 300,
-    "e": 640,
-    "d": "pl-383600",
-    "t": 2
-  },
-  {
-    "i": "place:pl-383624",
-    "la": 45.9646,
-    "lo": 9.1773,
-    "k": "fortification",
-    "n": "Comacina Ins.",
-    "s": 300,
-    "e": 640,
-    "d": "pl-383624",
-    "t": 2
-  },
-  {
     "i": "place:pl-383690",
     "la": 45.122,
     "lo": 8.7974,
@@ -20278,26 +13291,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-383780",
-    "t": 2
-  },
-  {
-    "i": "place:pl-393403",
-    "la": 45.9185,
-    "lo": 11.0633,
-    "k": "fortification",
-    "n": "[Castrum Volaenes]",
-    "s": 300,
-    "e": 640,
-    "d": "pl-393403",
-    "t": 2
-  },
-  {
-    "i": "place:pl-410857095",
-    "la": 37.7124,
-    "lo": 22.8251,
-    "k": "watchtower",
-    "n": "Pyrgouthi",
-    "d": "pl-410857095",
     "t": 2
   },
   {
@@ -20482,33 +13475,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-465554585",
-    "la": 55.1534,
-    "lo": -3.522,
-    "k": "watchtower",
-    "n": "Murder Loch",
-    "d": "pl-465554585",
-    "t": 2
-  },
-  {
-    "i": "place:pl-466253098",
-    "la": 55.9315,
-    "lo": -4.1839,
-    "k": "watchtower",
-    "n": "Glasgow Bridge",
-    "d": "pl-466253098",
-    "t": 2
-  },
-  {
-    "i": "place:pl-466253099",
-    "la": 55.374,
-    "lo": -3.934,
-    "k": "watchtower",
-    "n": "Sanquhar",
-    "d": "pl-466253099",
-    "t": 2
-  },
-  {
     "i": "place:pl-47824565",
     "la": 50.4697,
     "lo": -4.7715,
@@ -20561,15 +13527,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-481887",
-    "t": 2
-  },
-  {
-    "i": "place:pl-484422068",
-    "la": 55.9228,
-    "lo": -4.0597,
-    "k": "watchtower",
-    "n": "Mollins",
-    "d": "pl-484422068",
     "t": 2
   },
   {
@@ -20757,15 +13714,6 @@
     "s": -550,
     "e": -330,
     "d": "pl-501642",
-    "t": 2
-  },
-  {
-    "i": "place:pl-504812865",
-    "la": 54.8924,
-    "lo": -3.3587,
-    "k": "watchtower",
-    "n": "Skinburness",
-    "d": "pl-504812865",
     "t": 2
   },
   {
@@ -21099,17 +14047,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-531143",
-    "la": 38.8618,
-    "lo": 20.8029,
-    "k": "watchtower",
-    "n": "Vigla",
-    "s": -550,
-    "e": -30,
-    "d": "pl-531143",
-    "t": 2
-  },
-  {
     "i": "place:pl-531145",
     "la": 38.6835,
     "lo": 20.7134,
@@ -21151,17 +14088,6 @@
     "s": -550,
     "e": -30,
     "d": "pl-531156",
-    "t": 2
-  },
-  {
-    "i": "place:pl-540592",
-    "la": 39.1962,
-    "lo": 23.4459,
-    "k": "watchtower",
-    "n": "Ag. Athanasios",
-    "s": -550,
-    "e": -30,
-    "d": "pl-540592",
     "t": 2
   },
   {
@@ -21825,17 +14751,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-579850",
-    "la": 38.0492,
-    "lo": 23.6685,
-    "k": "watchtower",
-    "n": "Aigaleos",
-    "s": -550,
-    "e": -330,
-    "d": "pl-579850",
-    "t": 2
-  },
-  {
     "i": "place:pl-579893",
     "la": 38.2167,
     "lo": 23.8167,
@@ -21957,17 +14872,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-579976",
-    "la": 38.0365,
-    "lo": 23.4608,
-    "k": "watchtower",
-    "n": "Kerata",
-    "s": -550,
-    "e": 640,
-    "d": "pl-579976",
-    "t": 2
-  },
-  {
     "i": "place:pl-579991",
     "la": 37.8717,
     "lo": 24.0411,
@@ -21998,17 +14902,6 @@
     "s": -550,
     "e": -30,
     "d": "pl-580001",
-    "t": 2
-  },
-  {
-    "i": "place:pl-580002",
-    "la": 37.9469,
-    "lo": 23.5791,
-    "k": "watchtower",
-    "n": "Kynosoura",
-    "s": -550,
-    "e": -330,
-    "d": "pl-580002",
     "t": 2
   },
   {
@@ -22155,15 +15048,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-590945140",
-    "la": 54.7465,
-    "lo": -3.4502,
-    "k": "watchtower",
-    "n": "Swarthy Hill",
-    "d": "pl-590945140",
-    "t": 2
-  },
-  {
     "i": "place:pl-599475",
     "la": 37.7188,
     "lo": 26.6691,
@@ -22274,15 +15158,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-606033360",
-    "la": 55.5236,
-    "lo": -3.6738,
-    "k": "watchtower",
-    "n": "Wandel",
-    "d": "pl-606033360",
-    "t": 2
-  },
-  {
     "i": "place:pl-607646886",
     "la": 50.8372,
     "lo": -1.1141,
@@ -22379,15 +15254,6 @@
     "s": -330,
     "e": 640,
     "d": "pl-609572",
-    "t": 2
-  },
-  {
-    "i": "place:pl-620007181",
-    "la": 55.9263,
-    "lo": -4.7304,
-    "k": "watchtower",
-    "n": "Lurg Moor",
-    "d": "pl-620007181",
     "t": 2
   },
   {
@@ -22850,15 +15716,6 @@
     "s": -330,
     "e": -30,
     "d": "pl-648583",
-    "t": 2
-  },
-  {
-    "i": "place:pl-655739578",
-    "la": 55.179,
-    "lo": -3.7263,
-    "k": "watchtower",
-    "n": "Barburgh Mill",
-    "d": "pl-655739578",
     "t": 2
   },
   {
@@ -24119,26 +16976,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-747767219",
-    "la": 55.5592,
-    "lo": -3.6234,
-    "k": "watchtower",
-    "n": "Lamington",
-    "d": "pl-747767219",
-    "t": 2
-  },
-  {
-    "i": "place:pl-749202987",
-    "la": 48.7462,
-    "lo": 4.6262,
-    "k": "fortification",
-    "n": "[Victuriacus]",
-    "s": 300,
-    "e": 640,
-    "d": "pl-749202987",
-    "t": 2
-  },
-  {
     "i": "place:pl-752369279",
     "la": 55.1235,
     "lo": -2.9759,
@@ -24385,24 +17222,6 @@
     "s": -30,
     "e": 300,
     "d": "pl-766424",
-    "t": 2
-  },
-  {
-    "i": "place:pl-767060410",
-    "la": 53.3175,
-    "lo": -4.6781,
-    "k": "watchtower",
-    "n": "Caer y Twr",
-    "d": "pl-767060410",
-    "t": 2
-  },
-  {
-    "i": "place:pl-77301056",
-    "la": 55.9975,
-    "lo": -3.8254,
-    "k": "watchtower",
-    "n": "Watling Lodge",
-    "d": "pl-77301056",
     "t": 2
   },
   {
@@ -25139,15 +17958,6 @@
     "t": 2
   },
   {
-    "i": "place:pl-814043436",
-    "la": 56.3521,
-    "lo": -3.6486,
-    "k": "watchtower",
-    "n": "Muir o'Fauld",
-    "d": "pl-814043436",
-    "t": 2
-  },
-  {
     "i": "place:pl-814722",
     "la": 25.0809,
     "lo": 38.1344,
@@ -25167,26 +17977,6 @@
     "s": -330,
     "e": 300,
     "d": "pl-814723",
-    "t": 2
-  },
-  {
-    "i": "place:pl-824024652",
-    "la": 55.1908,
-    "lo": -3.88,
-    "k": "watchtower",
-    "n": "Kirkland",
-    "d": "pl-824024652",
-    "t": 2
-  },
-  {
-    "i": "place:pl-825003513",
-    "la": 51.2275,
-    "lo": -3.916,
-    "k": "watchtower",
-    "n": "Martinhoe",
-    "s": -30,
-    "e": 300,
-    "d": "pl-825003513",
     "t": 2
   },
   {
@@ -26841,30 +19631,12 @@
     "t": 2
   },
   {
-    "i": "place:pl-923198655",
-    "la": 55.7594,
-    "lo": -3.3693,
-    "k": "watchtower",
-    "n": "Tocherknowe",
-    "d": "pl-923198655",
-    "t": 2
-  },
-  {
     "i": "place:pl-925625125",
     "la": 50.9187,
     "lo": -3.4871,
     "k": "fort",
     "n": "Tiverton",
     "d": "pl-925625125",
-    "t": 2
-  },
-  {
-    "i": "place:pl-933005071",
-    "la": 41.974,
-    "lo": -7.9808,
-    "k": "watchtower",
-    "n": "Aquis Querquennis",
-    "d": "pl-933005071",
     "t": 2
   },
   {
@@ -26885,24 +19657,6 @@
     "s": -30,
     "e": 640,
     "d": "pl-942284",
-    "t": 2
-  },
-  {
-    "i": "place:pl-949375107",
-    "la": 55.3803,
-    "lo": -2.3323,
-    "k": "watchtower",
-    "n": "Brownhart Law",
-    "d": "pl-949375107",
-    "t": 2
-  },
-  {
-    "i": "place:pl-949375108",
-    "la": 54.8913,
-    "lo": -4.1913,
-    "k": "watchtower",
-    "n": "Gatehouse of Fleet",
-    "d": "pl-949375108",
     "t": 2
   },
   {
@@ -26932,17 +19686,6 @@
     "k": "fort",
     "n": "Llanfor",
     "d": "pl-975153391",
-    "t": 2
-  },
-  {
-    "i": "place:pl-975884600",
-    "la": 51.2304,
-    "lo": -3.7372,
-    "k": "watchtower",
-    "n": "Old Burrow",
-    "s": -30,
-    "e": 300,
-    "d": "pl-975884600",
     "t": 2
   },
   {
@@ -27486,15 +20229,6 @@
     "lo": 11.9809,
     "k": "fort",
     "n": "Kastelle von Alkofen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10428",
-    "la": 50.1976,
-    "lo": 8.2834,
-    "k": "watchtower",
-    "n": "Idstein Richtig rekonstruiert Stein Wachturm",
-    "e": 1500,
     "t": 2
   },
   {
@@ -36436,22 +29170,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-16467",
-    "la": 49.6841,
-    "lo": 5.8166,
-    "k": "watchtower",
-    "n": "Tour romaine Jupiter",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-16468",
-    "la": 49.6835,
-    "lo": 5.8146,
-    "k": "watchtower",
-    "n": "Tour romaine Neptune",
-    "t": 2
-  },
-  {
     "i": "vici:vici-16527",
     "la": 48.5739,
     "lo": 13.472,
@@ -36467,15 +29185,6 @@
     "lo": 11.4567,
     "k": "fort",
     "n": "Kleinkastell Oberstimm",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-16551",
-    "la": 50.2526,
-    "lo": 8.9668,
-    "k": "watchtower",
-    "n": "Limeshaim Wachtturm Rekonstruktion",
-    "e": 1500,
     "t": 2
   },
   {
@@ -36620,14 +29329,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17587",
-    "la": 41.827,
-    "lo": 44.6789,
-    "k": "fortification",
-    "n": "Armazi,GE - ARMAZI",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17670",
     "la": 40.7449,
     "lo": 14.6708,
@@ -36678,15 +29379,6 @@
     "lo": 38.7799,
     "k": "fort",
     "n": "Sura-Legionslager",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17991",
-    "la": 37.0713,
-    "lo": 14.2236,
-    "k": "fortification",
-    "n": "Mura di Caposoprano",
-    "s": -399,
     "t": 2
   },
   {
@@ -36898,7 +29590,6 @@
     "n": "Castris Novis",
     "t": 2
   },
-  { "i": "vici:vici-18685", "la": 47.9023, "lo": 1.9103, "k": "watchtower", "n": "Tour", "t": 2 },
   { "i": "vici:vici-18687", "la": 48.0169, "lo": 2.2709, "k": "fort", "n": "Camp romain", "t": 2 },
   { "i": "vici:vici-18688", "la": 48.0253, "lo": 2.2781, "k": "fort", "n": "Camp romain", "t": 2 },
   { "i": "vici:vici-18689", "la": 48.0336, "lo": 2.284, "k": "fort", "n": "Camp romain", "t": 2 },
@@ -37006,14 +29697,6 @@
     "lo": 27.9449,
     "k": "fort",
     "n": "Civitas Tropaensium",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19299",
-    "la": 42.4222,
-    "lo": 27.694,
-    "k": "fortification",
-    "n": "Sozopol, fortifications",
     "t": 2
   },
   {
@@ -38225,14 +30908,6 @@
     "t": 2
   },
   { "i": "vici:vici-22160", "la": 44.2916, "lo": 17.9039, "k": "fort", "n": "Arduba", "t": 2 },
-  {
-    "i": "vici:vici-22173",
-    "la": 48.1252,
-    "lo": 16.8908,
-    "k": "watchtower",
-    "n": "Petronell, Torturm des Legionslager",
-    "t": 2
-  },
   {
     "i": "vici:vici-22180",
     "la": 40.8909,
@@ -39494,14 +32169,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-25787",
-    "la": 37.8734,
-    "lo": 21.8925,
-    "k": "fortification",
-    "n": "Psofida, Acropolis",
-    "t": 2
-  },
-  {
     "i": "vici:vici-25793",
     "la": 38.1466,
     "lo": 23.2286,
@@ -39700,15 +32367,6 @@
     "n": "Kabyle, Castrum",
     "s": 98,
     "e": 117,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26276",
-    "la": 42.5475,
-    "lo": 26.4837,
-    "k": "camp",
-    "n": "Kabyle",
-    "e": 1500,
     "t": 2
   },
   {
@@ -41257,14 +33915,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-28749",
-    "la": 50.7814,
-    "lo": 5.4674,
-    "k": "camp",
-    "n": "Tongeren - Kielenstraat",
-    "t": 2
-  },
-  {
     "i": "vici:vici-28785",
     "la": 37.3148,
     "lo": 28.0684,
@@ -41775,14 +34425,6 @@
     "lo": 3.1481,
     "k": "fort",
     "n": "Vermand Oppidium",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-29287",
-    "la": 49.8758,
-    "lo": 3.1464,
-    "k": "fortification",
-    "n": "Oppidum",
     "t": 2
   },
   {
@@ -49957,15 +42599,6 @@
     "n": "Castello di Brindisi",
     "t": 2
   },
-  {
-    "i": "vici:vici-33546",
-    "la": 48.2114,
-    "lo": 16.3708,
-    "k": "camp",
-    "n": "Kommandatur Legionslager Vindobona",
-    "s": 97,
-    "t": 2
-  },
   { "i": "vici:vici-33547", "la": 36.6964, "lo": 22.8643, "k": "fort", "n": "Palokastro", "t": 2 },
   {
     "i": "vici:vici-33548",
@@ -53934,14 +46567,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-34994",
-    "la": 32.5962,
-    "lo": 35.5228,
-    "k": "fortification",
-    "n": "Siege of Belvoir Fortress",
-    "t": 2
-  },
-  {
     "i": "vici:vici-35015",
     "la": 42.8169,
     "lo": 22.566,
@@ -57289,14 +49914,6 @@
     "lo": 21.9471,
     "k": "fort",
     "n": "Mediana, Military barracks",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36213",
-    "la": 43.6083,
-    "lo": 23.295,
-    "k": "fortification",
-    "n": "Lomski Rampart",
     "t": 2
   },
   {
@@ -62131,14 +54748,6 @@
     "n": "Nuraghe Carducca",
     "s": -1900,
     "e": -730,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-370",
-    "la": 50.9414,
-    "lo": 6.9532,
-    "k": "watchtower",
-    "n": "Lysolphturm",
     "t": 2
   },
   {
@@ -69195,14 +61804,6 @@
     "n": "Nuraghe Orta",
     "s": -1900,
     "e": -730,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38334",
-    "la": 47.9818,
-    "lo": 11.5709,
-    "k": "fortification",
-    "n": "Keltenschanze Oberbiberg",
     "t": 2
   },
   { "i": "vici:vici-38339", "la": 40.078, "lo": 15.5214, "k": "fort", "n": "Policastro", "t": 2 },
@@ -79837,14 +72438,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-41804",
-    "la": 47.4826,
-    "lo": 8.2229,
-    "k": "watchtower",
-    "n": "Bühlturm",
-    "t": 2
-  },
-  {
     "i": "vici:vici-41807",
     "la": 41.9469,
     "lo": -7.4493,
@@ -81083,15 +73676,6 @@
     "lo": 14.8583,
     "k": "fort",
     "n": "Byzantine fort Lukovac",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-42408",
-    "la": 48.3944,
-    "lo": 15.5748,
-    "k": "watchtower",
-    "n": "Hufeisenturm der Westmauer",
-    "s": 390,
     "t": 2
   },
   {
@@ -83586,14 +76170,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4352",
-    "la": 52.1807,
-    "lo": 4.4343,
-    "k": "fortification",
-    "n": "Romeins hekwerk",
-    "t": 2
-  },
-  {
     "i": "vici:vici-43523",
     "la": 40.1375,
     "lo": 9.2981,
@@ -84821,14 +77397,6 @@
     "n": "Nuraghe San Cosimo II",
     "s": -1900,
     "e": -730,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4405",
-    "la": 50.0801,
-    "lo": 8.9791,
-    "k": "watchtower",
-    "n": "Kastell Großkrotzenburg, südwestlicher Eckturm",
     "t": 2
   },
   {
@@ -86603,14 +79171,6 @@
     "lo": 8.9412,
     "k": "fort",
     "n": "Kastell Altenstadt",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44541",
-    "la": 47.9591,
-    "lo": 11.5403,
-    "k": "fortification",
-    "n": "Keltenschanzen Holzhausen",
     "t": 2
   },
   {
@@ -88859,14 +81419,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-44882",
-    "la": 47.9392,
-    "lo": 11.6097,
-    "k": "fortification",
-    "n": "Keltenschanze Eichenhausen",
-    "t": 2
-  },
-  {
     "i": "vici:vici-44886",
     "la": 40.7232,
     "lo": 8.8106,
@@ -90157,54 +82709,6 @@
     "lo": 8.9102,
     "k": "fort",
     "n": "Kleinkastell Wingertsberg",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45122",
-    "la": 43.208,
-    "lo": 2.3651,
-    "k": "watchtower",
-    "n": "Tour de Vieules",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45123",
-    "la": 43.2081,
-    "lo": 2.3649,
-    "k": "watchtower",
-    "n": "Tour Marquière",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45124",
-    "la": 43.2082,
-    "lo": 2.3646,
-    "k": "watchtower",
-    "n": "Tour de Samson",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45125",
-    "la": 43.2083,
-    "lo": 2.3643,
-    "k": "watchtower",
-    "n": "Tour du Moulin d’Avar",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45126",
-    "la": 43.2066,
-    "lo": 2.3654,
-    "k": "watchtower",
-    "n": "Tour du Sacraire St Sernin",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45127",
-    "la": 43.2051,
-    "lo": 2.3645,
-    "k": "watchtower",
-    "n": "Tour du Plo",
     "t": 2
   },
   {
@@ -94463,14 +86967,6 @@
   { "i": "vici:vici-4609", "la": 49.0302, "lo": 10.4183, "k": "fort", "n": "Turm 13-8b", "t": 2 },
   { "i": "vici:vici-4610", "la": 49.1043, "lo": 10.874, "k": "fort", "n": "Turm 14-17", "t": 2 },
   { "i": "vici:vici-4611", "la": 49.1032, "lo": 10.8838, "k": "fort", "n": "Turm 14-18a", "t": 2 },
-  {
-    "i": "vici:vici-46111",
-    "la": 37.3624,
-    "lo": -6.6794,
-    "k": "watchtower",
-    "n": "Puerta monumental romana",
-    "t": 2
-  },
   {
     "i": "vici:vici-46114",
     "la": 37.4997,
@@ -111550,14 +104046,6 @@
     "t": 2
   },
   { "i": "vici:vici-5075", "la": 48.9087, "lo": 10.1186, "k": "fort", "n": "Turm -12-75a", "t": 2 },
-  {
-    "i": "vici:vici-50756",
-    "la": 53.1893,
-    "lo": -2.8882,
-    "k": "watchtower",
-    "n": "Roman south-east corner tower",
-    "t": 2
-  },
   { "i": "vici:vici-5076", "la": 48.9089, "lo": 10.1189, "k": "fort", "n": "Turm -12-75b", "t": 2 },
   { "i": "vici:vici-50761", "la": 47.7352, "lo": 19.136, "k": "fort", "n": "Castra", "t": 2 },
   { "i": "vici:vici-50762", "la": 44.931, "lo": 28.7214, "k": "fort", "n": "Roman Fort", "t": 2 },
@@ -128411,15 +120899,6 @@
   { "i": "vici:vici-5531", "la": 49.1833, "lo": 9.5237, "k": "fort", "n": "Turm -9-39", "t": 2 },
   { "i": "vici:vici-5532", "la": 49.3038, "lo": 9.4785, "k": "fort", "n": "Turm -9-4", "t": 2 },
   { "i": "vici:vici-5533", "la": 49.1805, "lo": 9.5248, "k": "fort", "n": "Turm -9-40", "t": 2 },
-  {
-    "i": "vici:vici-55330",
-    "la": 28.8529,
-    "lo": 52.5324,
-    "k": "watchtower",
-    "n": "Ardašir Khureh, Tower",
-    "s": 225,
-    "t": 2
-  },
   { "i": "vici:vici-5534", "la": 49.178, "lo": 9.5257, "k": "fort", "n": "Turm -9-41", "t": 2 },
   { "i": "vici:vici-5535", "la": 49.1752, "lo": 9.5268, "k": "fort", "n": "Turm -9-42", "t": 2 },
   { "i": "vici:vici-5536", "la": 49.1724, "lo": 9.5278, "k": "fort", "n": "Turm -9-43", "t": 2 },
@@ -131655,24 +124134,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-60491",
-    "la": 45.9459,
-    "lo": 21.3731,
-    "k": "fortification",
-    "n": "Earth rampart",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-60492",
-    "la": 45.4614,
-    "lo": 21.3566,
-    "k": "fortification",
-    "n": "Earth rampart",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-60493",
     "la": 44.1085,
     "lo": 27.8066,
@@ -132303,29 +124764,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-60603",
-    "la": 45.3464,
-    "lo": 19.9029,
-    "k": "fortification",
-    "n": "Romans' barbarian defensive line",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-60605",
     "la": 45.3804,
     "lo": 19.9502,
     "k": "fort",
     "n": "Roman Watchtower",
-    "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-60606",
-    "la": 45.3814,
-    "lo": 19.9735,
-    "k": "fortification",
-    "n": "Romans' barbarian defensive line",
     "s": 200,
     "t": 2
   },
@@ -132357,29 +124800,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-60610",
-    "la": 45.4791,
-    "lo": 19.9861,
-    "k": "fortification",
-    "n": "Romans' barbarian defensive line",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-60611",
     "la": 45.4713,
     "lo": 19.9859,
     "k": "fort",
     "n": "Roman Watchtower",
-    "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-60613",
-    "la": 45.44,
-    "lo": 19.5133,
-    "k": "fortification",
-    "n": "Romans' barbarian defensive line",
     "s": 200,
     "t": 2
   },
@@ -132863,15 +125288,6 @@
     "k": "fort",
     "n": "Roman Fort",
     "s": -79,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-60922",
-    "la": 47.1975,
-    "lo": 23.181,
-    "k": "fortification",
-    "n": "Earth wall and ditch",
-    "s": 50,
     "t": 2
   },
   {
@@ -135910,15 +128326,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-65510",
-    "la": 30.0066,
-    "lo": 31.2321,
-    "k": "fortification",
-    "n": "Siege of Babylon Fortress",
-    "s": 640,
-    "t": 2
-  },
-  {
     "i": "vici:vici-65542",
     "la": 42.5254,
     "lo": 3.0844,
@@ -136162,33 +128569,6 @@
     "lo": 9.0704,
     "k": "fort",
     "n": "Wachturm 10-24 \"An der Sandgasse\"",
-    "s": 70,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-66172",
-    "la": 49.6629,
-    "lo": 9.0758,
-    "k": "fortification",
-    "n": "Sichtbarer Pfahlgraben des Limes",
-    "s": 70,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-66173",
-    "la": 49.5463,
-    "lo": 9.1418,
-    "k": "fortification",
-    "n": "Sichtbarer Pfahlgraben",
-    "s": 70,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-66174",
-    "la": 49.7135,
-    "lo": 9.086,
-    "k": "fortification",
-    "n": "Sichtbarer Pfahlgraben",
     "s": 70,
     "t": 2
   },
@@ -139006,24 +131386,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-68867",
-    "la": 38.2059,
-    "lo": 26.6856,
-    "k": "fortification",
-    "n": "Fortification walls",
-    "s": -599,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-68868",
-    "la": 38.2037,
-    "lo": 26.6864,
-    "k": "fortification",
-    "n": "Fortification walls",
-    "s": -599,
-    "t": 2
-  },
-  {
     "i": "vici:vici-68878",
     "la": 40.5595,
     "lo": 42.9581,
@@ -141411,15 +133773,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-72289",
-    "la": 46.8353,
-    "lo": 15.5484,
-    "k": "fortification",
-    "n": "Teufelsgraben",
-    "s": -299,
-    "t": 2
-  },
-  {
     "i": "vici:vici-72300",
     "la": 46.7808,
     "lo": 15.5239,
@@ -142355,15 +134708,6 @@
     "n": "Anonymous fort (DG88)",
     "s": 700,
     "e": 1299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-74023",
-    "la": 48.7416,
-    "lo": 7.3641,
-    "k": "watchtower",
-    "n": "Roman tower in city wall",
-    "s": 2021,
     "t": 2
   },
   {
@@ -143480,15 +135824,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-77276",
-    "la": 53.9618,
-    "lo": -1.0863,
-    "k": "watchtower",
-    "n": "Anglian Tower",
-    "s": 400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-77291",
     "la": 39.5908,
     "lo": 31.4876,
@@ -144056,15 +136391,6 @@
     "n": "Knag Burn Gateway",
     "s": 122,
     "e": 499,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80487",
-    "la": 38.468,
-    "lo": 14.9569,
-    "k": "watchtower",
-    "n": "Ancient Greek wall tower",
-    "s": -499,
     "t": 2
   },
   {
@@ -146512,30 +138838,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-83166",
-    "la": 42.0893,
-    "lo": -4.1385,
-    "k": "fortification",
-    "n": "Palantia",
-    "e": 1500,
-    "t": 2
-  },
-  {
     "i": "vici:vici-83167",
     "la": 42.1049,
     "lo": -4.1527,
     "k": "fort",
     "n": "Pallatia",
     "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-83168",
-    "la": 42.1083,
-    "lo": -4.1454,
-    "k": "fortification",
-    "n": "Pallantia",
-    "e": 1500,
     "t": 2
   },
   {
@@ -147704,14 +140012,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-8460",
-    "la": 53.9614,
-    "lo": -1.087,
-    "k": "watchtower",
-    "n": "Multangular Tower (Eburacum, York)",
-    "t": 2
-  },
-  {
     "i": "vici:vici-8461",
     "la": 53.9607,
     "lo": -1.086,
@@ -147822,15 +140122,6 @@
     "k": "fort",
     "n": "Herrera de Pisuerga",
     "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-84865",
-    "la": 41.8888,
-    "lo": 12.4745,
-    "k": "watchtower",
-    "n": "Excubitorium de la VIIe Cohorte",
-    "s": 100,
     "t": 2
   },
   {
@@ -149044,15 +141335,6 @@
     "k": "fort",
     "n": "Belören Kalesi",
     "s": 1000,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-87101",
-    "la": 36.2226,
-    "lo": 29.9459,
-    "k": "fortification",
-    "n": "Andriake",
-    "e": 1500,
     "t": 2
   },
   {
@@ -152318,14 +144600,6 @@
     "lo": 11.2318,
     "k": "fort",
     "n": "Wachtturm 14-63 Rekonstruktion",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-9925",
-    "la": 50.5178,
-    "lo": 8.7136,
-    "k": "watchtower",
-    "n": "Limespalisade am Wachtturm 4-49",
     "t": 2
   },
   {

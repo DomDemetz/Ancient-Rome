@@ -60,8 +60,10 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showSettlements',
       'showDataset:settlement',
       'showCities',
-      'showDataset:production',
-      'showDataset:infrastructure',
+      'showDataset:mine',
+      'showDataset:press',
+      'showDataset:shipwreck',
+      'showDataset:port',
       'showTradeNetwork',
     ],
   },
@@ -72,7 +74,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     // temple country at temple zoom — the dataset is z7-gated
     view: { lat: 41.7, lng: 13.0, zoom: 7 },
     layers: [
-      'showDataset:religious',
+      'showDataset:temple',
+      'showDataset:sanctuary',
+      'showDataset:church',
       'showSettlements',
       'showDataset:settlement',
       'showCities',
@@ -99,9 +103,10 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showProvinces',
       'showLimes',
       'showFortifications',
-      'showDataset:cities',
-      'showDataset:production',
-      'showDataset:religious',
+      'showDataset:amphitheater',
+      'showDataset:theater',
+      'showDataset:shipwreck',
+      'showDataset:temple',
     ],
   },
   engineering: {
@@ -114,9 +119,11 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showSettlements',
       'showDataset:settlement',
       'showCities',
-      'showDataset:cities',
+      'showDataset:amphitheater',
+      'showDataset:theater',
       'showAqueducts',
-      'showDataset:infrastructure',
+      'showDataset:bridge',
+      'showDataset:bath',
       'showWater',
     ],
   },
@@ -204,11 +211,6 @@ export const LAYER_GROUPS: LayerGroup[] = [
         label: 'Presence',
         activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
       },
-      {
-        key: 'SitesMilitary',
-        label: 'Military Sites',
-        activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
-      },
     ],
   },
   {
@@ -223,11 +225,6 @@ export const LAYER_GROUPS: LayerGroup[] = [
         key: 'Settlements',
         label: 'Settlements',
         activeClass: 'bg-yellow-900/80 border-yellow-700 text-yellow-100 hover:bg-yellow-800/80',
-      },
-      {
-        key: 'SitesCities',
-        label: 'Cities & Buildings',
-        activeClass: 'bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80',
       },
       {
         key: 'Epigraphy',
@@ -245,16 +242,6 @@ export const LAYER_GROUPS: LayerGroup[] = [
     label: 'Economy',
     layers: [
       {
-        key: 'SitesProduction',
-        label: 'Production & Industry',
-        activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
-      },
-      {
-        key: 'SitesRural',
-        label: 'Rural / Villas',
-        activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
-      },
-      {
         key: 'TradeNetwork',
         label: 'Trade Network',
         activeClass: 'bg-teal-900/80 border-teal-700 text-teal-100 hover:bg-teal-800/80',
@@ -263,18 +250,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
   },
   {
     label: 'Religion',
-    layers: [
-      {
-        key: 'SitesReligious',
-        label: 'Religious Sites',
-        activeClass: 'bg-violet-900/80 border-violet-700 text-violet-100 hover:bg-violet-800/80',
-      },
-      {
-        key: 'SitesFunerary',
-        label: 'Funerary & Monuments',
-        activeClass: 'bg-purple-900/80 border-purple-700 text-purple-100 hover:bg-purple-800/80',
-      },
-    ],
+    layers: [],
   },
   {
     label: 'Infrastructure',
@@ -299,14 +275,20 @@ export const LAYER_GROUPS: LayerGroup[] = [
         label: 'Water',
         activeClass: 'bg-blue-900/80 border-blue-700 text-blue-100 hover:bg-blue-800/80',
       },
-      {
-        key: 'SitesInfrastructure',
-        label: 'Infrastructure Sites',
-        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
-      },
     ],
   },
 ]
+
+// One panel toggle per atlas kind (the toggles ARE the things): registry
+// entries slot into their overall group; '_hidden' kinds (settlement) are
+// drawn by another toggle and stay out of the panel.
+for (const cfg of DATASET_REGISTRY) {
+  if (cfg.group === '_hidden') continue
+  const group = LAYER_GROUPS.find((g) => g.label === cfg.group)
+  if (group) {
+    group.layers.push({ key: `Sites:${cfg.id}`, label: cfg.label, activeClass: cfg.activeClass })
+  }
+}
 
 // --- All toggleable layer keys ---
 export const ALL_LAYER_KEYS = [

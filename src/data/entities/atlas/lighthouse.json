@@ -1,0 +1,994 @@
+[
+  {
+    "i": "port:apa-abydos-4048",
+    "la": 40.1951,
+    "lo": 26.4091,
+    "k": "lighthouse",
+    "n": "Abydos",
+    "s": -600,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-albingauno-albenganum-1368",
+    "la": 44.047,
+    "lo": 8.2133,
+    "k": "lighthouse",
+    "n": "Albingauno, Albenganum",
+    "s": -600,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-brindes-brentesium-brundisium-bronduse-1892",
+    "la": 40.6414,
+    "lo": 17.949,
+    "k": "lighthouse",
+    "n": "Brindes, Brentesium, Brundisium, Bronduse",
+    "s": -600,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-chrysopolis-insula-in-front-of-damalis-p-3973",
+    "la": 41.0211,
+    "lo": 29.0042,
+    "k": "lighthouse",
+    "n": "Chrysopolis insula, in front of Damalis Prom., Bous Prom.",
+    "s": -600,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-fossa-katharsis-on-rhenaia-insula-greate-3015",
+    "la": 37.3952,
+    "lo": 25.2541,
+    "k": "lighthouse",
+    "n": "Fossa Katharsis, on Rhenaia insula, Greater Delos island",
+    "s": -600,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-mona-insula-362",
+    "la": 53.3134,
+    "lo": -4.6755,
+    "k": "lighthouse",
+    "n": "Mona insula",
+    "s": -200,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-panhormus-panorme-1826",
+    "la": 38.1204,
+    "lo": 13.3686,
+    "k": "lighthouse",
+    "n": "Panhormus, Panorme",
+    "s": -800,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-port-at-38-69-20-71-2928",
+    "la": 38.6859,
+    "lo": 20.7091,
+    "k": "lighthouse",
+    "n": "Port at 38.69, 20.71",
+    "s": -600,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "port:apa-portus-felix-116",
+    "la": 54.2125,
+    "lo": -0.2733,
+    "k": "lighthouse",
+    "n": "Portus Felix",
+    "s": -200,
+    "e": 476,
+    "t": 1
+  },
+  {
+    "i": "place:dare-43811",
+    "la": 51.1284,
+    "lo": 1.323,
+    "k": "lighthouse",
+    "n": "East Roman Pharos",
+    "s": -30,
+    "e": 640,
+    "d": "dare-43811",
+    "t": 2
+  },
+  {
+    "i": "place:dare-45032",
+    "la": 36.0425,
+    "lo": 0.1362,
+    "k": "lighthouse",
+    "n": "Oued Chélif",
+    "s": -30,
+    "e": 640,
+    "d": "dare-45032",
+    "t": 2
+  },
+  {
+    "i": "place:dare-45804",
+    "la": 41.0149,
+    "lo": 28.7397,
+    "k": "lighthouse",
+    "n": "Lighthouse",
+    "d": "dare-45804",
+    "t": 2
+  },
+  {
+    "i": "place:pl-236686",
+    "la": 43.3861,
+    "lo": -8.4038,
+    "k": "lighthouse",
+    "n": "Torre de Hércules",
+    "s": -30,
+    "e": 640,
+    "d": "pl-236686",
+    "t": 2
+  },
+  {
+    "i": "place:pl-501560",
+    "la": 40.7824,
+    "lo": 24.7188,
+    "k": "lighthouse",
+    "n": "Phanari",
+    "s": -550,
+    "e": -30,
+    "d": "pl-501560",
+    "t": 2
+  },
+  {
+    "i": "place:pl-501586",
+    "la": 40.741,
+    "lo": 24.7786,
+    "k": "lighthouse",
+    "n": "Pyrgos",
+    "s": -550,
+    "e": -30,
+    "d": "pl-501586",
+    "t": 2
+  },
+  {
+    "i": "place:pl-727197",
+    "la": 31.214,
+    "lo": 29.8854,
+    "k": "lighthouse",
+    "n": "Pharos",
+    "s": -330,
+    "e": 640,
+    "d": "pl-727197",
+    "t": 2
+  },
+  {
+    "i": "port:apa-achille-s-tomb-4306",
+    "la": 39.917,
+    "lo": 26.159,
+    "k": "lighthouse",
+    "n": "Achille's tomb",
+    "s": -323,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-aegilium-igilium-insula-1438",
+    "la": 42.3684,
+    "lo": 10.8812,
+    "k": "lighthouse",
+    "n": "Aegilium, Igilium insula",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-ainyra-3133",
+    "la": 40.7034,
+    "lo": 24.7387,
+    "k": "lighthouse",
+    "n": "Ainyra",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-atria-etruscan-hatria-1984",
+    "la": 45.0485,
+    "lo": 12.0671,
+    "k": "lighthouse",
+    "n": "Atria, Etruscan Hatria",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-balsa-654",
+    "la": 37.0829,
+    "lo": -7.6972,
+    "k": "lighthouse",
+    "n": "Balsa",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-barbarium-prom-pirgo-barbarion-608",
+    "la": 38.4161,
+    "lo": -9.2162,
+    "k": "lighthouse",
+    "n": "Barbarium Prom., Pirgo Barbarion",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-barium-commercial-port-1905",
+    "la": 41.1314,
+    "lo": 16.8642,
+    "k": "lighthouse",
+    "n": "Barium, commercial port",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-barium-naval-base-1906",
+    "la": 41.1315,
+    "lo": 16.873,
+    "k": "lighthouse",
+    "n": "Barium, naval base",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-bononia-portus-bononiensis-924",
+    "la": 50.7341,
+    "lo": 1.5962,
+    "k": "lighthouse",
+    "n": "Bononia, Portus Bononiensis",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-brigantum-brigantia-flavium-brigantium-a-537",
+    "la": 43.3659,
+    "lo": -8.3901,
+    "k": "lighthouse",
+    "n": "Brigantum, Brigantia, Flavium Brigantium, Ad Columnam",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-caput-vada-iustinianopolis-turris-hannib-5746",
+    "la": 35.2348,
+    "lo": 11.1564,
+    "k": "lighthouse",
+    "n": "Caput Vada, Iustinianopolis? Turris Hannibalis?",
+    "s": -323,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-chalkedon-chalcedon-chalcedoine-kalchedo-3975",
+    "la": 40.9924,
+    "lo": 29.022,
+    "k": "lighthouse",
+    "n": "Chalkedon, Chalcedon, Chalcedoine, Kalchedon, near R Himeros",
+    "s": -600,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-classis-home-port-of-classis-ravennate-f-1971",
+    "la": 44.3955,
+    "lo": 12.2191,
+    "k": "lighthouse",
+    "n": "Classis, home port of Classis Ravennate fleet, Etruscan Ravna, on R Bedesis",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-corydala-korydala-corydalla-korydalla-ne-4555",
+    "la": 36.3699,
+    "lo": 30.2724,
+    "k": "lighthouse",
+    "n": "Corydala, Korydala, Corydalla, Korydalla, near ancient Rhodiapolis",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-emporion-port-of-perge-perg-perga-prege--4579",
+    "la": 36.85,
+    "lo": 30.92,
+    "k": "lighthouse",
+    "n": "Emporion, port of Perge, Pergé, Perga, Prege, Parha, near outlet of R Kestros, Cestro",
+    "s": -323,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-equilum-2003",
+    "la": 45.5428,
+    "lo": 12.6385,
+    "k": "lighthouse",
+    "n": "Equilum",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-fons-timavi-port-on-lake-timavus-timave-2017",
+    "la": 45.7896,
+    "lo": 13.5909,
+    "k": "lighthouse",
+    "n": "Fons Timavi, Port on Lake Timavus, Timave",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-gadir-gadira-gades-erithya-erytheia-erit-703",
+    "la": 36.5308,
+    "lo": -6.307,
+    "k": "lighthouse",
+    "n": "Gadir, Gadira, Gades, Erithya, Erytheia, Eriteia insula",
+    "s": -800,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-halaesa-on-r-halaisos-1833",
+    "la": 37.998,
+    "lo": 14.263,
+    "k": "lighthouse",
+    "n": "Halaesa, on R Halaisos",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-herakleia-pontica-heraclee-3932",
+    "la": 41.2821,
+    "lo": 31.413,
+    "k": "lighthouse",
+    "n": "Herakleia Pontica, Heraclee",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-hieron-byzantion-hieron-romelias-mauromo-3474",
+    "la": 41.1753,
+    "lo": 29.0729,
+    "k": "lighthouse",
+    "n": "Hieron Byzantion, Hieron Romelias, Mauromolos, Kommerkion chelai, Sarapieion, temple of Rhea, NE of Milton Prom., on R Chrysorrhoas",
+    "s": -323,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-hieron-chalkedonion-zeus-ourios-temple-o-3955",
+    "la": 41.173,
+    "lo": 29.0872,
+    "k": "lighthouse",
+    "n": "Hieron Chalkedonion, Zeus Ourios temple, Ophrou Limen",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-hydros-hydruntum-otrante-1882",
+    "la": 40.1482,
+    "lo": 18.4909,
+    "k": "lighthouse",
+    "n": "Hydros, Hydruntum, Otrante",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-juno-junonis-prom-710",
+    "la": 36.1819,
+    "lo": -6.0307,
+    "k": "lighthouse",
+    "n": "Juno, Junonis Prom.",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-londobris-lanobris-insulae-saturno-insul-589",
+    "la": 39.412,
+    "lo": -9.507,
+    "k": "lighthouse",
+    "n": "Londobris, Lanobris insulae, Saturno insulae",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-lugdunum-batavorum-lugduno-brittenburg-c-34",
+    "la": 52.219,
+    "lo": 4.378,
+    "k": "lighthouse",
+    "n": "Lugdunum Batavorum, Lugduno, Brittenburg, Calla, at the ancient outlet of R Rhenus",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-lykiou-limen-port-of-the-lycians-at-myri-3477",
+    "la": 41.2133,
+    "lo": 29.1097,
+    "k": "lighthouse",
+    "n": "Lykiou limen, port of the Lycians, at Myrileion, Myrleion Prom.",
+    "s": -200,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-malea-malee-prom-2808",
+    "la": 36.4314,
+    "lo": 23.1995,
+    "k": "lighthouse",
+    "n": "Malea, Malee Prom.",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-merinum-1924",
+    "la": 41.915,
+    "lo": 16.1114,
+    "k": "lighthouse",
+    "n": "Merinum",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-neoptolemi-turris-hermonactocome-3615",
+    "la": 46.06,
+    "lo": 30.4671,
+    "k": "lighthouse",
+    "n": "Neoptolemi Turris, Hermonactocome",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-noega-498",
+    "la": 43.5692,
+    "lo": -5.704,
+    "k": "lighthouse",
+    "n": "Noega",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-odoris-insula-1156",
+    "la": 43.4296,
+    "lo": 4.8603,
+    "k": "lighthouse",
+    "n": "Odoris insula",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-onoba-onuba-portus-onobensis-tartessos-b-665",
+    "la": 37.2571,
+    "lo": -6.9513,
+    "k": "lighthouse",
+    "n": "Onoba, Onuba, Portus Onobensis, Tartessos? between ancient R Tartessos? & R Iberos?",
+    "s": -800,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-pharos-pharus-pharia-faria-on-pharos-ins-2224",
+    "la": 43.1848,
+    "lo": 16.5969,
+    "k": "lighthouse",
+    "n": "Pharos, Pharus, Pharia, Faria, on Pharos insula, Pityeia insula?",
+    "s": -600,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-piplas-insulae-1122",
+    "la": 43.0853,
+    "lo": 3.0645,
+    "k": "lighthouse",
+    "n": "Piplas insulae?",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-piranum-2036",
+    "la": 45.528,
+    "lo": 13.5638,
+    "k": "lighthouse",
+    "n": "Piranum",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-pirgo-caepino-menestheus-temple-688",
+    "la": 36.7352,
+    "lo": -6.4718,
+    "k": "lighthouse",
+    "n": "Pirgo Caepino, Menestheus temple",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-pomposa-etruscan-spina-at-the-outlet-of--1976",
+    "la": 44.6943,
+    "lo": 12.1026,
+    "k": "lighthouse",
+    "n": "Pomposa, Etruscan Spina, at the outlet of R Padus",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-28-49-34-52-5049",
+    "la": 28.4941,
+    "lo": 34.5172,
+    "k": "lighthouse",
+    "n": "Port at 28.49, 34.52",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-36-83-25-91-3072",
+    "la": 36.829,
+    "lo": 25.915,
+    "k": "lighthouse",
+    "n": "Port at 36.83, 25.91",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-38-70-20-70-2927",
+    "la": 38.6982,
+    "lo": 20.7039,
+    "k": "lighthouse",
+    "n": "Port at 38.70, 20.70",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-42-44-27-70-3508",
+    "la": 42.4373,
+    "lo": 27.6962,
+    "k": "lighthouse",
+    "n": "Port at 42.44, 27.70",
+    "s": -200,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-45-47-12-46-2002",
+    "la": 45.4747,
+    "lo": 12.4598,
+    "k": "lighthouse",
+    "n": "Port at 45.47, 12.46",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-51-23-3-92-281",
+    "la": 51.2275,
+    "lo": -3.9159,
+    "k": "lighthouse",
+    "n": "Port at 51.23, -3.92",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-53-08-4-34-356",
+    "la": 53.0815,
+    "lo": -4.3351,
+    "k": "lighthouse",
+    "n": "Port at 53.08, -4.34",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-54-29-0-39-115",
+    "la": 54.2872,
+    "lo": -0.3877,
+    "k": "lighthouse",
+    "n": "Port at 54.29, -0.39",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-54-40-0-49-114",
+    "la": 54.4018,
+    "lo": -0.49,
+    "k": "lighthouse",
+    "n": "Port at 54.40, -0.49",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-54-54-0-72-112",
+    "la": 54.5397,
+    "lo": -0.7246,
+    "k": "lighthouse",
+    "n": "Port at 54.54, -0.72",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-at-54-59-0-96-111",
+    "la": 54.5939,
+    "lo": -0.9587,
+    "k": "lighthouse",
+    "n": "Port at 54.59, -0.96",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-of-akrothooi-apollonia-2682",
+    "la": 40.171,
+    "lo": 24.391,
+    "k": "lighthouse",
+    "n": "Port of Akrothooi, Apollonia?",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-of-ataleia-attaleia-attalis-adalia--4574",
+    "la": 36.8844,
+    "lo": 30.7023,
+    "k": "lighthouse",
+    "n": "Port of Ataleia, Attaleia, Attalis, Adalia, Adalya, port of Perge",
+    "s": -323,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-of-sestos-3396",
+    "la": 40.2299,
+    "lo": 26.427,
+    "k": "lighthouse",
+    "n": "Port of Sestos",
+    "s": -600,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-of-sigeion-stephanus-agamia-near-ca-4303",
+    "la": 39.973,
+    "lo": 26.178,
+    "k": "lighthouse",
+    "n": "Port of Sigeion, Stephanus' Agamia? near Cape Sigee",
+    "s": -323,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-port-of-traiectus-1733",
+    "la": 38.246,
+    "lo": 15.589,
+    "k": "lighthouse",
+    "n": "Port of Traiectus",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-portus-dubris-home-port-of-classis-brita-168",
+    "la": 51.1252,
+    "lo": 1.3161,
+    "k": "lighthouse",
+    "n": "Portus Dubris, home port of Classis Britannica fleet",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-portus-veneris-1389",
+    "la": 44.049,
+    "lo": 9.8335,
+    "k": "lighthouse",
+    "n": "Portus Veneris",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-psamathos-5880",
+    "la": 36.6121,
+    "lo": 2.1898,
+    "k": "lighthouse",
+    "n": "Psamathos",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-qana-cana-qani-kane-port-of-the-hadramaw-5107",
+    "la": 14.0114,
+    "lo": 48.3251,
+    "k": "lighthouse",
+    "n": "Qana, Cana, Qani, Kane, port of the Hadramawites",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-rutupiae-ritupium-portus-ritupis-kantion-167",
+    "la": 51.2931,
+    "lo": 1.3324,
+    "k": "lighthouse",
+    "n": "Rutupiae, Ritupium, Portus Ritupis, Kantion, Cantium?",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-smyrna-eurydikeia-near-pagos-mons-4362",
+    "la": 38.4198,
+    "lo": 27.1336,
+    "k": "lighthouse",
+    "n": "Smyrna, Eurydikeia, near Pagos Mons",
+    "s": -323,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-south-port-of-gaulos-glauconis-civitas-1875",
+    "la": 36.0308,
+    "lo": 14.219,
+    "k": "lighthouse",
+    "n": "South port of Gaulos, Glauconis civitas",
+    "s": -800,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-speluncae-1536",
+    "la": 41.2532,
+    "lo": 13.4328,
+    "k": "lighthouse",
+    "n": "Speluncae",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-symplegades-synormades-insulae-kyaneai-i-3479",
+    "la": 41.2344,
+    "lo": 29.1146,
+    "k": "lighthouse",
+    "n": "Symplegades, Synormades insulae, Kyaneai insulae, Pompey's Pillar",
+    "s": -600,
+    "e": 700,
+    "t": 2
+  },
+  {
+    "i": "port:apa-thapsus-portus-pristinus-5751",
+    "la": 35.6272,
+    "lo": 11.045,
+    "k": "lighthouse",
+    "n": "Thapsus, \"Portus Pristinus\"",
+    "s": -800,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-vada-sabatia-vadis-savadis-1371",
+    "la": 44.2693,
+    "lo": 8.4359,
+    "k": "lighthouse",
+    "n": "Vada Sabatia, Vadis Savadis",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-vergoanum-on-lero-insula-1220",
+    "la": 43.5219,
+    "lo": 7.0364,
+    "k": "lighthouse",
+    "n": "Vergoanum, on Lero insula",
+    "s": -200,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "port:apa-zancle-zankle-messana-messene-1734",
+    "la": 38.1929,
+    "lo": 15.5608,
+    "k": "lighthouse",
+    "n": "Zancle, Zankle, Messana, Messene",
+    "s": -600,
+    "e": 476,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11080",
+    "la": 51.1283,
+    "lo": 1.323,
+    "k": "lighthouse",
+    "n": "Lighthouse Dubrae",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11864",
+    "la": 36.2633,
+    "lo": 29.3082,
+    "k": "lighthouse",
+    "n": "Patara Leuchtturm",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-13825",
+    "la": 43.4296,
+    "lo": 6.7439,
+    "k": "lighthouse",
+    "n": "Lanterne d'Auguste",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18008",
+    "la": 32.9059,
+    "lo": 21.9723,
+    "k": "lighthouse",
+    "n": "Lighthouse, Apollonia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18035",
+    "la": 32.6402,
+    "lo": 14.3013,
+    "k": "lighthouse",
+    "n": "Lighthouse Leptis Magna",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20338",
+    "la": 41.0024,
+    "lo": 28.9769,
+    "k": "lighthouse",
+    "n": "Constantinople, Lighthouse",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21221",
+    "la": 31.2137,
+    "lo": 29.8855,
+    "k": "lighthouse",
+    "n": "Pharos of Alexandria - Lighthouse of Alexandria",
+    "s": -275,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27421",
+    "la": 41.7778,
+    "lo": 12.2546,
+    "k": "lighthouse",
+    "n": "Traianic Lighthouse, Portus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50611",
+    "la": 43.5702,
+    "lo": -5.702,
+    "k": "lighthouse",
+    "n": "La Torre de Augusto",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58112",
+    "la": 41.7757,
+    "lo": 12.2349,
+    "k": "lighthouse",
+    "n": "Claudian lighthouse",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60132",
+    "la": 50.7322,
+    "lo": 1.5972,
+    "k": "lighthouse",
+    "n": "Tour d'Ordre",
+    "s": 100,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62529",
+    "la": 37.3447,
+    "lo": 9.7362,
+    "k": "lighthouse",
+    "n": "Lighthouse",
+    "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62530",
+    "la": 37.3415,
+    "lo": 9.7586,
+    "k": "lighthouse",
+    "n": "Lighthouse",
+    "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62922",
+    "la": 44.3954,
+    "lo": 12.2191,
+    "k": "lighthouse",
+    "n": "Classe, Classis",
+    "s": -35,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62961",
+    "la": 32.7152,
+    "lo": 20.9452,
+    "k": "lighthouse",
+    "n": "Ptolemias Lighthouse",
+    "s": -252,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62962",
+    "la": 32.809,
+    "lo": 12.4829,
+    "k": "lighthouse",
+    "n": "Sabartha",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86291",
+    "la": 42.0944,
+    "lo": 11.7898,
+    "k": "lighthouse",
+    "n": "Roman lighthouse tower",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86292",
+    "la": 42.0932,
+    "lo": 11.7858,
+    "k": "lighthouse",
+    "n": "Roman lighthouse tower (di Lazzaretto)",
+    "s": 100,
+    "t": 2
+  }
+]

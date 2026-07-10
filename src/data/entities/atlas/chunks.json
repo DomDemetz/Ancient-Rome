@@ -1,73 +1,279 @@
 {
-  "cities": {
-    "file": "cities.json",
-    "count": 3090,
+  "amphitheater": {
+    "file": "amphitheater.json",
+    "count": 312,
     "tiers": {
-      "1": 703,
-      "2": 2365,
+      "1": 270,
+      "2": 42
+    },
+    "kb": 38
+  },
+  "aqueduct": {
+    "file": "aqueduct.json",
+    "count": 1622,
+    "tiers": {
+      "1": 84,
+      "2": 1499,
+      "3": 39
+    },
+    "kb": 171
+  },
+  "basilica": {
+    "file": "basilica.json",
+    "count": 537,
+    "tiers": {
+      "1": 199,
+      "2": 316,
       "3": 22
     },
-    "kb": 323
+    "kb": 59
   },
-  "funerary": {
-    "file": "funerary.json",
-    "count": 9429,
+  "bath": {
+    "file": "bath.json",
+    "count": 1617,
     "tiers": {
-      "1": 583,
-      "2": 8784,
-      "3": 62
+      "1": 152,
+      "2": 1463,
+      "3": 2
     },
-    "kb": 986
+    "kb": 160
   },
-  "infrastructure": {
-    "file": "infrastructure.json",
-    "count": 20238,
+  "bridge": {
+    "file": "bridge.json",
+    "count": 3312,
     "tiers": {
-      "1": 832,
-      "2": 19278,
-      "3": 128
+      "1": 128,
+      "2": 3099,
+      "3": 85
     },
-    "kb": 2282
+    "kb": 329
   },
-  "military": {
-    "file": "military.json",
-    "count": 18116,
+  "building": {
+    "file": "building.json",
+    "count": 258,
     "tiers": {
-      "1": 231,
-      "2": 17859,
+      "1": 17,
+      "2": 241
+    },
+    "kb": 25
+  },
+  "camp": {
+    "file": "camp.json",
+    "count": 3,
+    "tiers": {
+      "2": 3
+    },
+    "kb": 0
+  },
+  "cemetery": {
+    "file": "cemetery.json",
+    "count": 7931,
+    "tiers": {
+      "1": 156,
+      "2": 7746,
+      "3": 29
+    },
+    "kb": 818
+  },
+  "church": {
+    "file": "church.json",
+    "count": 83,
+    "tiers": {
+      "1": 26,
+      "2": 57
+    },
+    "kb": 9
+  },
+  "circus": {
+    "file": "circus.json",
+    "count": 21,
+    "tiers": {
+      "1": 13,
+      "2": 8
+    },
+    "kb": 2
+  },
+  "cistern": {
+    "file": "cistern.json",
+    "count": 63,
+    "tiers": {
+      "2": 63
+    },
+    "kb": 5
+  },
+  "dam": {
+    "file": "dam.json",
+    "count": 121,
+    "tiers": {
+      "1": 17,
+      "2": 104
+    },
+    "kb": 12
+  },
+  "farm": {
+    "file": "farm.json",
+    "count": 244,
+    "tiers": {
+      "2": 244
+    },
+    "kb": 22
+  },
+  "fort": {
+    "file": "fort.json",
+    "count": 17354,
+    "tiers": {
+      "1": 112,
+      "2": 17216,
       "3": 26
     },
-    "kb": 1819
+    "kb": 1731
   },
-  "production": {
-    "file": "production.json",
-    "count": 4988,
+  "fortification": {
+    "file": "fortification.json",
+    "count": 361,
     "tiers": {
-      "1": 446,
-      "2": 4368,
+      "1": 72,
+      "2": 289
+    },
+    "kb": 44
+  },
+  "forum": {
+    "file": "forum.json",
+    "count": 154,
+    "tiers": {
+      "1": 43,
+      "2": 111
+    },
+    "kb": 15
+  },
+  "gate": {
+    "file": "gate.json",
+    "count": 338,
+    "tiers": {
+      "2": 338
+    },
+    "kb": 32
+  },
+  "lighthouse": {
+    "file": "lighthouse.json",
+    "count": 101,
+    "tiers": {
+      "1": 9,
+      "2": 92
+    },
+    "kb": 14
+  },
+  "mausoleum": {
+    "file": "mausoleum.json",
+    "count": 295,
+    "tiers": {
+      "1": 11,
+      "2": 284
+    },
+    "kb": 33
+  },
+  "mine": {
+    "file": "mine.json",
+    "count": 3652,
+    "tiers": {
+      "1": 151,
+      "2": 3327,
       "3": 174
     },
-    "kb": 519
+    "kb": 363
   },
-  "religious": {
-    "file": "religious.json",
-    "count": 8169,
+  "monastery": {
+    "file": "monastery.json",
+    "count": 58,
     "tiers": {
-      "1": 882,
-      "2": 7240,
-      "3": 47
+      "1": 15,
+      "2": 43
     },
-    "kb": 876
+    "kb": 6
   },
-  "rural": {
-    "file": "rural.json",
-    "count": 9731,
+  "monument": {
+    "file": "monument.json",
+    "count": 619,
     "tiers": {
-      "1": 750,
-      "2": 8673,
-      "3": 308
+      "1": 169,
+      "2": 448,
+      "3": 2
     },
-    "kb": 1000
+    "kb": 69
+  },
+  "palace": {
+    "file": "palace.json",
+    "count": 133,
+    "tiers": {
+      "1": 12,
+      "2": 121
+    },
+    "kb": 13
+  },
+  "pass": {
+    "file": "pass.json",
+    "count": 76,
+    "tiers": {
+      "1": 9,
+      "2": 67
+    },
+    "kb": 8
+  },
+  "port": {
+    "file": "port.json",
+    "count": 5389,
+    "tiers": {
+      "1": 398,
+      "2": 4989,
+      "3": 2
+    },
+    "kb": 789
+  },
+  "press": {
+    "file": "press.json",
+    "count": 319,
+    "tiers": {
+      "1": 79,
+      "2": 240
+    },
+    "kb": 36
+  },
+  "pyramid": {
+    "file": "pyramid.json",
+    "count": 22,
+    "tiers": {
+      "1": 20,
+      "2": 2
+    },
+    "kb": 2
+  },
+  "road": {
+    "file": "road.json",
+    "count": 6629,
+    "tiers": {
+      "1": 9,
+      "2": 6620
+    },
+    "kb": 632
+  },
+  "road-station": {
+    "file": "road-station.json",
+    "count": 1308,
+    "tiers": {
+      "1": 26,
+      "2": 1282
+    },
+    "kb": 156
+  },
+  "sanctuary": {
+    "file": "sanctuary.json",
+    "count": 1743,
+    "tiers": {
+      "1": 407,
+      "2": 1298,
+      "3": 38
+    },
+    "kb": 205
   },
   "settlement": {
     "file": "settlement.json",
@@ -77,5 +283,98 @@
       "3": 42
     },
     "kb": 1240
+  },
+  "shipwreck": {
+    "file": "shipwreck.json",
+    "count": 944,
+    "tiers": {
+      "1": 213,
+      "2": 731
+    },
+    "kb": 111
+  },
+  "temple": {
+    "file": "temple.json",
+    "count": 6285,
+    "tiers": {
+      "1": 434,
+      "2": 5842,
+      "3": 9
+    },
+    "kb": 654
+  },
+  "theater": {
+    "file": "theater.json",
+    "count": 1060,
+    "tiers": {
+      "1": 149,
+      "2": 911
+    },
+    "kb": 108
+  },
+  "tomb": {
+    "file": "tomb.json",
+    "count": 304,
+    "tiers": {
+      "1": 181,
+      "2": 119,
+      "3": 4
+    },
+    "kb": 34
+  },
+  "townhouse": {
+    "file": "townhouse.json",
+    "count": 191,
+    "tiers": {
+      "1": 92,
+      "2": 99
+    },
+    "kb": 21
+  },
+  "tumulus": {
+    "file": "tumulus.json",
+    "count": 258,
+    "tiers": {
+      "1": 46,
+      "2": 185,
+      "3": 27
+    },
+    "kb": 27
+  },
+  "villa": {
+    "file": "villa.json",
+    "count": 9296,
+    "tiers": {
+      "1": 658,
+      "2": 8330,
+      "3": 308
+    },
+    "kb": 955
+  },
+  "wall": {
+    "file": "wall.json",
+    "count": 277,
+    "tiers": {
+      "2": 277
+    },
+    "kb": 28
+  },
+  "watchtower": {
+    "file": "watchtower.json",
+    "count": 398,
+    "tiers": {
+      "1": 47,
+      "2": 351
+    },
+    "kb": 44
+  },
+  "workshop": {
+    "file": "workshop.json",
+    "count": 73,
+    "tiers": {
+      "1": 3,
+      "2": 70
+    },
+    "kb": 8
   }
 }

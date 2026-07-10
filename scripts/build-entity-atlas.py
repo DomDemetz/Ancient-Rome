@@ -151,7 +151,7 @@ def main():
             # ship in the atlas settlement chunk (drawn with the
             # Settlements toggle, not a Sites category)
             pass
-        cat = KINDS[kind]["category"]
+        cat = kind  # one chunk per kind — the toggles ARE the things (Dominik 2026-07-11)
         row = {"i": e["id"], "la": round(e["lat"], 4), "lo": round(e["lng"], 4),
                "k": kind}
         if e.get("subtype") and e["subtype"] != kind and e["kind"] != "building":
@@ -201,7 +201,7 @@ def main():
     dump_atomic(index, outdir / "chunks.json", ensure_ascii=False, indent=1)
 
     total = sum(v["count"] for v in index.values())
-    print(f"entity atlas: {total} rows in {len(index)} category chunks")
+    print(f"entity atlas: {total} rows in {len(index)} kind chunks")
     print("skipped:", dict(skipped))
 
 

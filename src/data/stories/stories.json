@@ -244,7 +244,13 @@
         "content": "On October 28, 312 AD, Constantine defeated his rival Maxentius at the Battle of the Milvian Bridge outside Rome. According to later accounts, Constantine had seen a vision of the cross in the sky the night before, with the words \"In this sign, conquer.\" Whether the vision was genuine, politically convenient, or invented after the fact, the consequences were epoch-making. The Roman Empire's most powerful man was now a Christian.\n\nThe Edict of Milan in 313 AD granted Christianity legal status throughout the empire. Constantine went much further — he lavished imperial funds on church construction, granted clergy tax exemptions, made Sunday a day of rest, and convened the Council of Nicaea in 325 AD to settle doctrinal disputes. He built a new Christian capital at Constantinople, adorned with churches rather than pagan temples. The emperor who had once been Pontifex Maximus of the old gods now styled himself as God's representative on Earth.\n\nThe transformation was not instant — paganism remained widespread, especially in rural areas (the Latin word \"paganus\" means \"country-dweller\"). But the direction was unmistakable. Imperial patronage, social prestige, and legal advantages all flowed toward Christianity. Ambitious men converted because it was the path to power. Within a generation, the question had flipped: it was now paganism that was marginalized.",
         "entityIds": ["rome", "constantinople", "mediolanum"],
         "year": 313,
-        "layers": ["showReligion", "showEpigraphy", "showDataset:cities"],
+        "layers": [
+          "showReligion",
+          "showEpigraphy",
+          "showDataset:amphitheater",
+          "showDataset:theater",
+          "showDataset:building"
+        ],
         "mapCenter": [41.9, 12.5],
         "mapZoom": 5
       },
@@ -254,7 +260,13 @@
         "content": "In 380 AD, Emperor Theodosius I issued the Edict of Thessalonica, making Nicene Christianity the official state religion of the Roman Empire. In 391, he banned pagan sacrifice. In 392, all pagan worship was outlawed. The Vestal Virgins, who had tended Rome's sacred flame for over a thousand years, were disbanded. The Olympic Games, held since 776 BC, were abolished. Temples were closed, repurposed as churches, or left to crumble. The old gods were dead.\n\nThe speed of the transformation is breathtaking. In 250 AD, Christians were a persecuted minority — perhaps 10% of the empire's population. By 400 AD, Christianity was the official religion of the state, claiming the allegiance of emperors, generals, senators, and the vast majority of the urban population. An entire religious civilization — the Greco-Roman pagan tradition that had produced Homer, Sophocles, and Plato — was systematically dismantled in barely a century.\n\nBut Christianity didn't just replace paganism — it absorbed it. Christmas was placed near the winter solstice, Easter near the spring equinox. Saints took over the protective roles of local gods. Church architecture borrowed the Roman basilica. The Pope inherited the title Pontifex Maximus. The organizational genius of the Roman Empire lived on in the hierarchical structure of the Catholic Church. Rome fell, but its spiritual successor endured — and still endures today.",
         "entityIds": ["rome", "constantinople", "antioch", "jerusalem", "alexandria"],
         "year": 395,
-        "layers": ["showReligion", "showEpigraphy", "showDataset:cities"],
+        "layers": [
+          "showReligion",
+          "showEpigraphy",
+          "showDataset:amphitheater",
+          "showDataset:theater",
+          "showDataset:building"
+        ],
         "mapCenter": [38.0, 25.0],
         "mapZoom": 4
       }
@@ -292,7 +304,12 @@
         "content": "When the Flavian Amphitheatre — the Colosseum — opened in 80 AD, it was the largest amphitheatre ever built, and nothing would surpass it for nearly two thousand years. Rising four stories and 48 meters high, it could seat 50,000 spectators, who entered through 76 numbered arches and could be completely evacuated in about fifteen minutes through a brilliantly designed system of corridors and stairways. Modern stadium designers still study it.\n\nThe engineering was as spectacular as the spectacles it hosted. The Colosseum was built with an estimated 100,000 cubic meters of travertine limestone, held together by 300 tonnes of iron clamps (later scavenged, which is why the walls are pockmarked with holes). A massive retractable canvas awning — the velarium — shaded spectators from the sun, operated by a detachment of sailors from the imperial fleet. Beneath the arena floor, a labyrinth of tunnels, cages, and mechanical elevators (there were at least 36) could deliver wild animals and scenery directly into the arena, creating dramatic surprise entrances.\n\nThe Colosseum was both an engineering triumph and a political statement. Free games — gladiatorial combat, wild beast hunts, mock naval battles, public executions — kept the urban masses entertained and politically docile. It was also a model that spread across the empire. Over 230 amphitheatres have been identified in the Roman world, from Londinium to El Djem in Tunisia, each one a smaller echo of the great original in Rome.",
         "entityIds": ["rome"],
         "year": 80,
-        "layers": ["showDataset:cities", "showSettlements"],
+        "layers": [
+          "showDataset:amphitheater",
+          "showDataset:theater",
+          "showDataset:building",
+          "showSettlements"
+        ],
         "mapCenter": [41.89, 12.49],
         "mapZoom": 8
       },
@@ -302,7 +319,14 @@
         "content": "Rome's true engineering genius wasn't any single monument — it was the relentless, systematic construction of infrastructure across an entire empire. Every new province received the same treatment: roads were laid, aqueducts were built, cities were founded or rebuilt on a Roman grid plan, and public buildings rose in forums from Britannia to Arabia.\n\nThe results are visible on the map in an extraordinary density of construction. Aqueducts brought fresh water to cities across Spain, Gaul, North Africa, and Asia Minor. Bridges spanned every major river. Harbors were improved with concrete (another Roman innovation — their hydraulic cement set underwater, a trick not rediscovered until the 18th century). Public baths — those great social clubs of the Roman world — required enormous water supplies, sophisticated heating systems (the hypocaust, which circulated hot air under raised floors), and complex plumbing. Every Roman city of any size had at least one bathhouse, and major cities had dozens.\n\nThe amphitheatres scattered across the empire — from the stunning three-story facade of El Djem in Tunisia to the well-preserved arena at Nimes in France — represent just the most visible layer of a total infrastructure package that included forums, basilicas, temples, markets, warehouses, granaries, and apartment blocks (insulae). Rome didn't just conquer territories; it urbanized them, civilized them, and connected them to the imperial network. The ruins that still dot the Mediterranean landscape are the skeleton of a civilization that thought in systems.",
         "entityIds": ["rome", "massilia", "hispalis", "carthage"],
         "year": 125,
-        "layers": ["showAqueducts", "showRoads", "showDataset:cities", "showSettlements"],
+        "layers": [
+          "showAqueducts",
+          "showRoads",
+          "showDataset:amphitheater",
+          "showDataset:theater",
+          "showDataset:building",
+          "showSettlements"
+        ],
         "mapCenter": [40.0, 10.0],
         "mapZoom": 4
       },
@@ -312,7 +336,14 @@
         "content": "The Pantheon, rebuilt by Hadrian around 126 AD, represents the absolute pinnacle of Roman engineering. Its unreinforced concrete dome — 43.3 meters in diameter — remained the largest in the world for over 1,300 years, until Brunelleschi built the dome of Florence Cathedral in 1436. And Brunelleschi studied the Pantheon before he began. The oculus at the dome's apex, 8.7 meters wide, is the building's only source of light, casting a moving beam across the interior like a celestial spotlight. Nearly two thousand years later, it remains one of the most awe-inspiring interior spaces ever created.\n\nThe secret was concrete — opus caementicium — arguably Rome's most important invention. By mixing volcanic ash (pozzolana) with lime and water, the Romans created a building material of extraordinary versatility and durability. Roman concrete could be poured into molds, used underwater, and varied in density by changing the aggregate (the Pantheon's dome uses progressively lighter pumice toward the top, a sophisticated weight-reduction technique). Recent studies have shown that Roman marine concrete actually gets stronger over time as seawater reacts with the volcanic ash, producing mineral crystals that reinforce the structure. Modern engineers are still trying to replicate it.\n\nBy the second century AD, Roman engineering had created a built environment of unprecedented scale and sophistication: aqueducts spanning valleys, roads crossing continents, concrete domes defying gravity, and heated baths serving millions. It was a civilization that expressed its values in infrastructure — permanence, order, utility, and the unapologetic ambition to reshape the natural world to serve human needs. When it fell, Europe would not see its like again for over a thousand years.",
         "entityIds": ["rome"],
         "year": 126,
-        "layers": ["showAqueducts", "showRoads", "showDataset:cities", "showSettlements"],
+        "layers": [
+          "showAqueducts",
+          "showRoads",
+          "showDataset:amphitheater",
+          "showDataset:theater",
+          "showDataset:building",
+          "showSettlements"
+        ],
         "mapCenter": [41.9, 12.5],
         "mapZoom": 6
       }

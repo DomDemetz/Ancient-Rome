@@ -51,7 +51,7 @@ export function SitesLegend() {
       )}
       {!collapsed && dotsRenderable && (
         <div className="px-3 pb-2 flex flex-col gap-1">
-          {DATASET_REGISTRY.filter((cfg) => cfg.group === 'Sites').map((cfg) => {
+          {DATASET_REGISTRY.filter((cfg) => datasetState[cfg.id]?.show).map((cfg) => {
             const on = datasetState[cfg.id]?.show ?? false
             return (
               <button

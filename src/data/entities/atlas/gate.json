@@ -1,0 +1,2773 @@
+[
+  {
+    "i": "vici:vici-10204",
+    "la": 46.8879,
+    "lo": 7.0579,
+    "k": "gate",
+    "n": "Porte de l’Est et Tornallaz (Aventicum)",
+    "s": 70,
+    "e": 354,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10619",
+    "la": 43.8394,
+    "lo": 4.3633,
+    "k": "gate",
+    "n": "Porta Augusta (Nimes)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10620",
+    "la": 43.8327,
+    "lo": 4.3578,
+    "k": "gate",
+    "n": "Porte de France (Nimes)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11366",
+    "la": 46.9578,
+    "lo": 4.3059,
+    "k": "gate",
+    "n": "Stadttor St. Andre",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11600",
+    "la": 41.8915,
+    "lo": 12.5152,
+    "k": "gate",
+    "n": "Porta Maggiore",
+    "s": 75,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11679",
+    "la": 41.729,
+    "lo": 12.6592,
+    "k": "gate",
+    "n": "Porta Praetoria Castra Alba",
+    "t": 2
+  },
+  { "i": "vici:vici-11896", "la": 55.0127, "lo": -2.0216, "k": "gate", "n": "Portgate", "t": 2 },
+  {
+    "i": "vici:vici-11906",
+    "la": 36.8854,
+    "lo": 30.7088,
+    "k": "gate",
+    "n": "Hadrianstor - Antalya",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11987",
+    "la": 44.871,
+    "lo": 13.8477,
+    "k": "gate",
+    "n": "Porta Gemina - Pula",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11997",
+    "la": 36.9131,
+    "lo": 34.892,
+    "k": "gate",
+    "n": "Cleopatra-Tor (Tarsus)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12031",
+    "la": 45.075,
+    "lo": 7.6847,
+    "k": "gate",
+    "n": "Porta Palatina",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12339",
+    "la": 53.2312,
+    "lo": -0.5433,
+    "k": "gate",
+    "n": "Lindum West Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-14548",
+    "la": 47.1802,
+    "lo": 23.1583,
+    "k": "gate",
+    "n": "Porta Praetoria of castrum Porolissum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-14878",
+    "la": 45.7379,
+    "lo": 7.3233,
+    "k": "gate",
+    "n": "Porta Praetoria Aosta",
+    "t": 2
+  },
+  { "i": "vici:vici-1491", "la": 53.2372, "lo": -0.5382, "k": "gate", "n": "Newport Arch", "t": 2 },
+  {
+    "i": "vici:vici-16590",
+    "la": 43.433,
+    "lo": 6.7322,
+    "k": "gate",
+    "n": "Fréjus, Porte des Gaules",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16909",
+    "la": 47.2189,
+    "lo": -1.5503,
+    "k": "gate",
+    "n": "Porte, Nantes",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17286",
+    "la": 46.8276,
+    "lo": 12.8232,
+    "k": "gate",
+    "n": "Dösslach,Porta Principalis Dextra,A",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17573",
+    "la": 41.8767,
+    "lo": 12.4815,
+    "k": "gate",
+    "n": "Rom,Porta San Paolo,IT - Porta Ostiensis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17574",
+    "la": 41.8857,
+    "lo": 12.5087,
+    "k": "gate",
+    "n": "Rom,Porta San Giovanni,IT - Porta Asinaria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17575",
+    "la": 41.8735,
+    "lo": 12.5015,
+    "k": "gate",
+    "n": "Rom,IT - Porta San Sebastiano",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17709",
+    "la": 37.4763,
+    "lo": -5.6336,
+    "k": "gate",
+    "n": "Puerta de Córdoba",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17710",
+    "la": 37.4712,
+    "lo": -5.6412,
+    "k": "gate",
+    "n": "Puerta de Sevilla, Carmona",
+    "s": 800,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17734",
+    "la": 49.0201,
+    "lo": 12.0987,
+    "k": "gate",
+    "n": "Porta Praetoria - Regensburg",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17778",
+    "la": 37.6004,
+    "lo": 23.0744,
+    "k": "gate",
+    "n": "Propylaea, Epidaurus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17822",
+    "la": 38.0419,
+    "lo": 23.539,
+    "k": "gate",
+    "n": "Propylaea, Eleusina",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17834",
+    "la": 37.7308,
+    "lo": 22.7565,
+    "k": "gate",
+    "n": "Lion Gate, Mycene",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17835",
+    "la": 37.7308,
+    "lo": 22.7583,
+    "k": "gate",
+    "n": "North Gate, Mycene",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17882",
+    "la": 33.2705,
+    "lo": 35.2105,
+    "k": "gate",
+    "n": "Gate, Al Bass Cemetery",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17906",
+    "la": 32.2765,
+    "lo": 35.891,
+    "k": "gate",
+    "n": "South Gate, Gerasa",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17907",
+    "la": 32.2846,
+    "lo": 35.8945,
+    "k": "gate",
+    "n": "North Gate, Gerasa",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17957",
+    "la": 41.8831,
+    "lo": 12.4911,
+    "k": "gate",
+    "n": "Porta Capena",
+    "s": -375,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17958",
+    "la": 41.9094,
+    "lo": 12.4883,
+    "k": "gate",
+    "n": "Porta Pinciana",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17959",
+    "la": 41.8975,
+    "lo": 12.5103,
+    "k": "gate",
+    "n": "Porta Tiburtina",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17973",
+    "la": 37.5858,
+    "lo": 12.8248,
+    "k": "gate",
+    "n": "North Gate, Selinus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18053",
+    "la": 32.7037,
+    "lo": 20.9484,
+    "k": "gate",
+    "n": "Tocra Gate, Ptolemais",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18070",
+    "la": 35.4302,
+    "lo": 36.4018,
+    "k": "gate",
+    "n": "North Gate, Apamea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18094",
+    "la": 34.7463,
+    "lo": 40.7273,
+    "k": "gate",
+    "n": "Palmyra Gate, Dura Europos",
+    "s": -17,
+    "e": 257,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18124",
+    "la": 36.5816,
+    "lo": 33.9239,
+    "k": "gate",
+    "n": "Gate, Diocaesarea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18144",
+    "la": 37.9393,
+    "lo": 27.3411,
+    "k": "gate",
+    "n": "Gate of Mazeus and Mithridates",
+    "t": 2
+  },
+  { "i": "vici:vici-18147", "la": 37.0377, "lo": 27.4134, "k": "gate", "n": "Myndos Gate", "t": 2 },
+  {
+    "i": "vici:vici-18581",
+    "la": 37.9317,
+    "lo": 29.122,
+    "k": "gate",
+    "n": "Frontinius Gate",
+    "t": 2
+  },
+  { "i": "vici:vici-18647", "la": 37.9224, "lo": 29.1289, "k": "gate", "n": "South Gate", "t": 2 },
+  {
+    "i": "vici:vici-19242",
+    "la": 45.4405,
+    "lo": 10.9997,
+    "k": "gate",
+    "n": "Porta dei Leoni",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19271",
+    "la": 45.5464,
+    "lo": 12.3998,
+    "k": "gate",
+    "n": "Porta romano (Quarto d’Altino)",
+    "s": -50,
+    "e": 350,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19278",
+    "la": 44.1196,
+    "lo": 27.2605,
+    "k": "gate",
+    "n": "Durostorum, south gate",
+    "s": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19304",
+    "la": 37.0481,
+    "lo": 34.9051,
+    "k": "gate",
+    "n": "Gate of Roman Road near Tarus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19310",
+    "la": 42.1489,
+    "lo": 24.7561,
+    "k": "gate",
+    "n": "Plovdiv, East Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19425",
+    "la": 47.8654,
+    "lo": 5.3305,
+    "k": "gate",
+    "n": "Porte Romaine",
+    "t": 2
+  },
+  { "i": "vici:vici-19508", "la": 41.9877, "lo": 2.8252, "k": "gate", "n": "Porta Rufina", "t": 2 },
+  { "i": "vici:vici-19903", "la": 34.0766, "lo": -5.5517, "k": "gate", "n": "Tingis Gate", "t": 2 },
+  {
+    "i": "vici:vici-19966",
+    "la": 31.7816,
+    "lo": 35.2303,
+    "k": "gate",
+    "n": "Jerusalem, Damascus Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19968",
+    "la": 31.7759,
+    "lo": 35.2316,
+    "k": "gate",
+    "n": "Jerusalem, Iron Age gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20330",
+    "la": 41.0303,
+    "lo": 28.9358,
+    "k": "gate",
+    "n": "Constantinople, Adrianopel Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20331",
+    "la": 41.0141,
+    "lo": 28.9221,
+    "k": "gate",
+    "n": "Constantinople, Gate of Rheggium",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20332",
+    "la": 41.0216,
+    "lo": 28.9264,
+    "k": "gate",
+    "n": "Constantinople, Gate of St Romanus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20333",
+    "la": 41.0061,
+    "lo": 28.9219,
+    "k": "gate",
+    "n": "Constantinople, Pege Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20334",
+    "la": 41.0086,
+    "lo": 28.9225,
+    "k": "gate",
+    "n": "Constantinople, Sigma",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20337",
+    "la": 40.9886,
+    "lo": 28.9209,
+    "k": "gate",
+    "n": "Constantinople, Marble tower",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20379",
+    "la": 42.2859,
+    "lo": 13.6199,
+    "k": "gate",
+    "n": "Stadtor Peltuinum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20443",
+    "la": 29.9362,
+    "lo": 52.8891,
+    "k": "gate",
+    "n": "Persepolis, Gate of All Nations",
+    "s": -475,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20633",
+    "la": 40.0058,
+    "lo": 34.6167,
+    "k": "gate",
+    "n": "Hattusa. Yerkapi (gate in the earth )",
+    "s": -1237,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20635",
+    "la": 40.0093,
+    "lo": 34.6225,
+    "k": "gate",
+    "n": "Hattusa. King's Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20675",
+    "la": 40.0062,
+    "lo": 34.6167,
+    "k": "gate",
+    "n": "Hattusa. Sfinx Gate",
+    "s": -1300,
+    "e": -1200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21089",
+    "la": 32.5418,
+    "lo": 44.4342,
+    "k": "gate",
+    "n": "Babylon, Marduk Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21315",
+    "la": 35.8035,
+    "lo": 36.7973,
+    "k": "gate",
+    "n": "Ebla Aleppo Gate",
+    "s": -2000,
+    "e": -1600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21316",
+    "la": 35.7962,
+    "lo": 36.7959,
+    "k": "gate",
+    "n": "Ebla Southwest Gate",
+    "s": -2000,
+    "e": -1600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21317",
+    "la": 35.7957,
+    "lo": 36.8014,
+    "k": "gate",
+    "n": "Ebla Southeast Gate",
+    "s": -2000,
+    "e": -1600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21414",
+    "la": 50.0805,
+    "lo": 8.9792,
+    "k": "gate",
+    "n": "Kastell Großkrotzenburg - Westtor",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21803",
+    "la": 33.2479,
+    "lo": 35.6549,
+    "k": "gate",
+    "n": "Dan, Canaanite Gate",
+    "s": -1800,
+    "e": -800,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21804",
+    "la": 33.247,
+    "lo": 35.6529,
+    "k": "gate",
+    "n": "Tel Dan, Iron Age Gate (Israelitan)",
+    "s": -799,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-22718",
+    "la": 43.5385,
+    "lo": 16.4824,
+    "k": "gate",
+    "n": "Porta Caesarea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23656",
+    "la": 38.017,
+    "lo": -7.8655,
+    "k": "gate",
+    "n": "Stadttor, Pax Julia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23680",
+    "la": 32.5373,
+    "lo": 20.5691,
+    "k": "gate",
+    "n": "Taucheira, East Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23681",
+    "la": 32.5344,
+    "lo": 20.5636,
+    "k": "gate",
+    "n": "Taucheira, West Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24075",
+    "la": 36.3288,
+    "lo": 36.8396,
+    "k": "gate",
+    "n": "Deir Simeon, Triumphal Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24096",
+    "la": 37.9211,
+    "lo": 29.1298,
+    "k": "gate",
+    "n": "Southern Frontinus Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24146",
+    "la": 46.0495,
+    "lo": 14.5024,
+    "k": "gate",
+    "n": "Porta Principalis Sinistra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24147",
+    "la": 46.0452,
+    "lo": 14.5003,
+    "k": "gate",
+    "n": "Porta Principalis Dextera",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24148",
+    "la": 46.047,
+    "lo": 14.5031,
+    "k": "gate",
+    "n": "Porta Praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24149",
+    "la": 46.0483,
+    "lo": 14.4971,
+    "k": "gate",
+    "n": "Porta Decumana",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24292",
+    "la": 37.3163,
+    "lo": 27.7854,
+    "k": "gate",
+    "n": "Baltali Kapi - Gate-with-Axe, Milas",
+    "s": -40,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24332",
+    "la": 36.2617,
+    "lo": 29.3157,
+    "k": "gate",
+    "n": "Southern Gate of Patara",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24343",
+    "la": 36.9855,
+    "lo": 30.4655,
+    "k": "gate",
+    "n": "City Gate, Termessos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24360",
+    "la": 36.9649,
+    "lo": 30.8577,
+    "k": "gate",
+    "n": "Eastern Gate, Perge",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24405",
+    "la": 36.7687,
+    "lo": 31.3906,
+    "k": "gate",
+    "n": "City Gate, Side",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24412",
+    "la": 36.7675,
+    "lo": 31.3965,
+    "k": "gate",
+    "n": "City Gate, Side",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24455",
+    "la": 37.6753,
+    "lo": 30.5181,
+    "k": "gate",
+    "n": "Tiberian Gate, Sagalassos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24492",
+    "la": 36.7498,
+    "lo": 36.96,
+    "k": "gate",
+    "n": "North Gate of Cyrrhus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24493",
+    "la": 36.7402,
+    "lo": 36.9597,
+    "k": "gate",
+    "n": "South Gate of Cyrrhus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24499",
+    "la": 32.5211,
+    "lo": 36.4759,
+    "k": "gate",
+    "n": "Gate of the Winds",
+    "t": 2
+  },
+  { "i": "vici:vici-24579", "la": 51.6689, "lo": 6.4474, "k": "gate", "n": "Hafentor", "t": 2 },
+  {
+    "i": "vici:vici-24582",
+    "la": 46.7749,
+    "lo": 6.643,
+    "k": "gate",
+    "n": "Port principales extra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24631",
+    "la": 34.5531,
+    "lo": 38.2617,
+    "k": "gate",
+    "n": "Damascus Gate at Palmyra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24666",
+    "la": 37.8352,
+    "lo": 29.1112,
+    "k": "gate",
+    "n": "East Gate, Laodicea ad Lycum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24675",
+    "la": 35.6308,
+    "lo": 38.7575,
+    "k": "gate",
+    "n": "Corth Gate of Sergiopolis",
+    "s": 529,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24695",
+    "la": 32.2841,
+    "lo": 35.8893,
+    "k": "gate",
+    "n": "North West Gate of Gerasa (Jerash)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24700",
+    "la": 37.4971,
+    "lo": 30.6871,
+    "k": "gate",
+    "n": "City Gate of Kremna",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25141",
+    "la": 36.8297,
+    "lo": 38.0118,
+    "k": "gate",
+    "n": "Carchemish – Kargamiš -  Karkemish",
+    "s": -1300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25287",
+    "la": 34.0761,
+    "lo": -5.5549,
+    "k": "gate",
+    "n": "Tingis Gate, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25596",
+    "la": 39.1222,
+    "lo": 27.1748,
+    "k": "gate",
+    "n": "Pergamon, Viran Kapı",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26048",
+    "la": 38.4823,
+    "lo": 23.1821,
+    "k": "gate",
+    "n": "Gla, South Gate",
+    "s": -1300,
+    "e": -1200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26565",
+    "la": 32.6386,
+    "lo": 14.2942,
+    "k": "gate",
+    "n": "Leptis Magna-Neapolis - Porta Bizantina",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26567",
+    "la": 32.64,
+    "lo": 14.2848,
+    "k": "gate",
+    "n": "Marcus Aurelius Arch, Leptis Magna",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26568",
+    "la": 32.6385,
+    "lo": 14.2863,
+    "k": "gate",
+    "n": "Leptis Magna-Neapolis, West Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26615",
+    "la": 40.7747,
+    "lo": 24.7128,
+    "k": "gate",
+    "n": "Thassos - Selinos Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26616",
+    "la": 40.7756,
+    "lo": 24.7091,
+    "k": "gate",
+    "n": "Thassos - Zeus and Hera Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26640",
+    "la": 36.3545,
+    "lo": 29.3199,
+    "k": "gate",
+    "n": "Arch of Sextus Marcius Priscus, Xanthos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27369",
+    "la": 41.7574,
+    "lo": 12.2957,
+    "k": "gate",
+    "n": "Porta Romana, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27406",
+    "la": 41.751,
+    "lo": 12.2849,
+    "k": "gate",
+    "n": "Porta Marina, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27621",
+    "la": 50.9396,
+    "lo": 6.7566,
+    "k": "gate",
+    "n": "Parktor Villa Pauli",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27715",
+    "la": 32.0076,
+    "lo": 48.5204,
+    "k": "gate",
+    "n": "Dur Untash, Susa Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27716",
+    "la": 32.0084,
+    "lo": 48.5242,
+    "k": "gate",
+    "n": "Dur Untash, Royal Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27718",
+    "la": 32.0084,
+    "lo": 48.5221,
+    "k": "gate",
+    "n": "Dur Untash, Royal Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27729",
+    "la": 32.0096,
+    "lo": 48.5223,
+    "k": "gate",
+    "n": "Dur Untash, Northeast Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27811",
+    "la": 51.8897,
+    "lo": 0.8939,
+    "k": "gate",
+    "n": "Balkerne Gate",
+    "t": 2
+  },
+  { "i": "vici:vici-27817", "la": 53.2354, "lo": -0.5354, "k": "gate", "n": "East Gate", "t": 2 },
+  {
+    "i": "vici:vici-28046",
+    "la": 37.2749,
+    "lo": 27.5857,
+    "k": "gate",
+    "n": "Propylon",
+    "s": -300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-28054",
+    "la": 37.4185,
+    "lo": 27.8205,
+    "k": "gate",
+    "n": "Propylon, South",
+    "s": -392,
+    "e": -330,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-28564",
+    "la": 37.378,
+    "lo": 28.0396,
+    "k": "gate",
+    "n": "Lagina, Propylon of the Hecateion",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-28872",
+    "la": 33.8947,
+    "lo": 35.5037,
+    "k": "gate",
+    "n": "Beirut, South Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29103",
+    "la": 36.371,
+    "lo": 43.148,
+    "k": "gate",
+    "n": "Nineveh, Nergal Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29104",
+    "la": 36.3747,
+    "lo": 43.1545,
+    "k": "gate",
+    "n": "Nineveh, Adad Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29105",
+    "la": 36.3685,
+    "lo": 43.1434,
+    "k": "gate",
+    "n": "Nineveh, Gate of the Moon",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29107",
+    "la": 36.3492,
+    "lo": 43.1588,
+    "k": "gate",
+    "n": "Nineveh, Arsenal Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29108",
+    "la": 36.3533,
+    "lo": 43.1539,
+    "k": "gate",
+    "n": "Nineveh, Quay Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29109",
+    "la": 36.3518,
+    "lo": 43.1554,
+    "k": "gate",
+    "n": "Nineveh, Desert Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29110",
+    "la": 36.3614,
+    "lo": 43.1464,
+    "k": "gate",
+    "n": "Nineveh, Gate of the Watering Places",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29111",
+    "la": 36.3766,
+    "lo": 43.162,
+    "k": "gate",
+    "n": "Nineveh, Halahhuh Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29112",
+    "la": 36.372,
+    "lo": 43.167,
+    "k": "gate",
+    "n": "Niniveh, Shibaniba Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29113",
+    "la": 36.3676,
+    "lo": 43.1701,
+    "k": "gate",
+    "n": "Nineveh, Mushlalu Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29114",
+    "la": 36.3615,
+    "lo": 43.173,
+    "k": "gate",
+    "n": "Nineveh, Kar Mulissi Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29116",
+    "la": 36.3509,
+    "lo": 43.1755,
+    "k": "gate",
+    "n": "Nineveh, Gate of the Sun",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29117",
+    "la": 36.3402,
+    "lo": 43.1777,
+    "k": "gate",
+    "n": "Nineveh, Halzi Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29119",
+    "la": 36.3368,
+    "lo": 43.1746,
+    "k": "gate",
+    "n": "Nineveh, Assur Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29121",
+    "la": 36.3403,
+    "lo": 43.1671,
+    "k": "gate",
+    "n": "Nineveh, Handuri Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29137",
+    "la": 36.989,
+    "lo": 30.985,
+    "k": "gate",
+    "n": "Sillyum, Lower Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29138",
+    "la": 36.9926,
+    "lo": 30.9867,
+    "k": "gate",
+    "n": "Sillyum, Upper Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29161",
+    "la": 36.9377,
+    "lo": 31.1699,
+    "k": "gate",
+    "n": "Adpendos, Gate S",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29242",
+    "la": 36.2403,
+    "lo": 36.3822,
+    "k": "gate",
+    "n": "Tell Açana, Gate Lions",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29260",
+    "la": 36.8725,
+    "lo": 31.4757,
+    "k": "gate",
+    "n": "Seleucia Pamphylian - Lybre, South Gate",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29279",
+    "la": 35.8016,
+    "lo": 36.8014,
+    "k": "gate",
+    "n": "Ebla, Euphrates Gate",
+    "s": -2000,
+    "e": -1600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31380",
+    "la": 37.9375,
+    "lo": 27.3431,
+    "k": "gate",
+    "n": "Ephesus, Hercules Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31385",
+    "la": 37.939,
+    "lo": 27.3411,
+    "k": "gate",
+    "n": "Ephesus, Hadrian`s Gate",
+    "t": 2
+  },
+  { "i": "vici:vici-31501", "la": 39.7523, "lo": 26.1719, "k": "gate", "n": "East Gate", "t": 2 },
+  { "i": "vici:vici-31553", "la": 36.2088, "lo": 36.1829, "k": "gate", "n": "Iron Gate", "t": 2 },
+  {
+    "i": "vici:vici-31579",
+    "la": 30.3296,
+    "lo": 35.442,
+    "k": "gate",
+    "n": "Petra, Arched Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31614",
+    "la": 36.832,
+    "lo": 38.0131,
+    "k": "gate",
+    "n": "North City Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-32729",
+    "la": 38.3042,
+    "lo": 31.1871,
+    "k": "gate",
+    "n": "Antiochia Pisidiae, West Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-34339",
+    "la": 38.8322,
+    "lo": 27.1901,
+    "k": "gate",
+    "n": "Aeolian Aigai, Iron Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-34344",
+    "la": 38.8324,
+    "lo": 27.1896,
+    "k": "gate",
+    "n": "Aeolian Aigai, Tiberius` Gate",
+    "t": 2
+  },
+  { "i": "vici:vici-35108", "la": 31.7809, "lo": 35.2369, "k": "gate", "n": "Lions' gate", "t": 2 },
+  { "i": "vici:vici-35109", "la": 31.7766, "lo": 35.2286, "k": "gate", "n": "Jaffa Gate", "t": 2 },
+  {
+    "i": "vici:vici-360",
+    "la": 50.9414,
+    "lo": 6.9566,
+    "k": "gate",
+    "n": "Restant noordelijke stadspoort",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-37200",
+    "la": 41.9073,
+    "lo": 12.4986,
+    "k": "gate",
+    "n": "Roma, Porta Collina",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-37985",
+    "la": 31.8542,
+    "lo": 35.4321,
+    "k": "gate",
+    "n": "Bartimaeus` Gate, Jericho",
+    "t": 2
+  },
+  { "i": "vici:vici-38515", "la": 42.664, "lo": 11.5056, "k": "gate", "n": "Porta Romana", "t": 2 },
+  {
+    "i": "vici:vici-39108",
+    "la": 29.9364,
+    "lo": 52.8906,
+    "k": "gate",
+    "n": "Persepolis, Unfinished Gate",
+    "s": -300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-39922",
+    "la": 36.092,
+    "lo": -5.7734,
+    "k": "gate",
+    "n": "Baelo Claudia, North Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-39931",
+    "la": 36.0889,
+    "lo": -5.7736,
+    "k": "gate",
+    "n": "Baelo Claudia, Carteia´s Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-39932",
+    "la": 36.0897,
+    "lo": -5.7767,
+    "k": "gate",
+    "n": "Baelo Claudia, Gades´ Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-39936",
+    "la": 36.1894,
+    "lo": -5.4027,
+    "k": "gate",
+    "n": "Carteia,  Carthaginian Gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-41032",
+    "la": 40.3958,
+    "lo": 27.8849,
+    "k": "gate",
+    "n": "Cyzicus antique city - arched postern",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-41208",
+    "la": 39.747,
+    "lo": 20.0234,
+    "k": "gate",
+    "n": "Lake Gate.BUTRINT",
+    "s": -400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-41209",
+    "la": 39.7478,
+    "lo": 20.0207,
+    "k": "gate",
+    "n": "LION GATE.BUTRINT",
+    "s": -400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-41796",
+    "la": 47.4799,
+    "lo": 8.2165,
+    "k": "gate",
+    "n": "Porta principalis dextra",
+    "t": 2
+  },
+  { "i": "vici:vici-41801", "la": 47.4831, "lo": 8.22, "k": "gate", "n": "Porta decumana", "t": 2 },
+  {
+    "i": "vici:vici-42411",
+    "la": 48.3946,
+    "lo": 15.5753,
+    "k": "gate",
+    "n": "Schwellenstein des Nordtors",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42413",
+    "la": 48.3332,
+    "lo": 16.0574,
+    "k": "gate",
+    "n": "Porta principalis dextra",
+    "s": 104,
+    "e": 488,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42889",
+    "la": 47.4794,
+    "lo": 8.2216,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42928",
+    "la": 52.6498,
+    "lo": 1.7197,
+    "k": "gate",
+    "n": "Porta decumana",
+    "t": 2
+  },
+  { "i": "vici:vici-42936", "la": 51.8928, "lo": 0.9054, "k": "gate", "n": "Duncans Gate", "t": 2 },
+  {
+    "i": "vici:vici-42979",
+    "la": 47.5399,
+    "lo": 7.7237,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42982",
+    "la": 47.5404,
+    "lo": 7.7221,
+    "k": "gate",
+    "n": "Porta principalis sinistra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42987",
+    "la": 50.9379,
+    "lo": 6.9704,
+    "k": "gate",
+    "n": "Porta decumana",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43086",
+    "la": 47.5406,
+    "lo": 19.0401,
+    "k": "gate",
+    "n": "Porta principalis dextra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43094",
+    "la": 47.5422,
+    "lo": 19.0439,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43108",
+    "la": 48.1204,
+    "lo": 10.128,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43159",
+    "la": 50.2706,
+    "lo": 8.5672,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43165",
+    "la": 50.2714,
+    "lo": 8.5678,
+    "k": "gate",
+    "n": "Porta principalis sinistra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43166",
+    "la": 50.2724,
+    "lo": 8.5662,
+    "k": "gate",
+    "n": "Porta decumana",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43167",
+    "la": 50.271,
+    "lo": 8.5659,
+    "k": "gate",
+    "n": "Porta principalis dextra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43206",
+    "la": 47.744,
+    "lo": 18.1992,
+    "k": "gate",
+    "n": "Porta decumana",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43207",
+    "la": 47.7454,
+    "lo": 18.1985,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43226",
+    "la": 47.6563,
+    "lo": 8.8592,
+    "k": "gate",
+    "n": "Porta principalis sinistra",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45111",
+    "la": 44.1321,
+    "lo": 4.8043,
+    "k": "gate",
+    "n": "Tor der Stadtmauer",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-46355",
+    "la": 25.028,
+    "lo": 40.0166,
+    "k": "gate",
+    "n": "Harrat Khaybar Gates",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50159",
+    "la": 44.7533,
+    "lo": 5.3736,
+    "k": "gate",
+    "n": "Porte Saint-Marcel",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50632",
+    "la": 53.2338,
+    "lo": -0.5387,
+    "k": "gate",
+    "n": "Roman South Gate remains",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-51489",
+    "la": 41.9108,
+    "lo": 12.498,
+    "k": "gate",
+    "n": "Porta Salaria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-52413",
+    "la": 40.3199,
+    "lo": 19.429,
+    "k": "gate",
+    "n": "Oricum, Gate of Caesar",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53503",
+    "la": 39.459,
+    "lo": -5.8863,
+    "k": "gate",
+    "n": "Puerta del Triunfo. Trujillo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53504",
+    "la": 39.4606,
+    "lo": -5.8831,
+    "k": "gate",
+    "n": "Puerta de Santiago. Trujillo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53505",
+    "la": 39.4593,
+    "lo": -5.8843,
+    "k": "gate",
+    "n": "Puerta de San Andrés. Trujillo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53506",
+    "la": 39.4613,
+    "lo": -5.8854,
+    "k": "gate",
+    "n": "Puerta de Coria. Trujillo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53514",
+    "la": 39.9823,
+    "lo": -6.5345,
+    "k": "gate",
+    "n": "Puerta Nueva. Coria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53515",
+    "la": 39.9838,
+    "lo": -6.5348,
+    "k": "gate",
+    "n": "Puerta del Sol. Coria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53518",
+    "la": 39.9842,
+    "lo": -6.5368,
+    "k": "gate",
+    "n": "Puerta de San Francisco. Coria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53519",
+    "la": 39.9832,
+    "lo": -6.5376,
+    "k": "gate",
+    "n": "Puerta de la Guia. Coria",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53521",
+    "la": 40.3881,
+    "lo": -5.7812,
+    "k": "gate",
+    "n": "Puerta del Pico. Bejar",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53524",
+    "la": 40.356,
+    "lo": -5.521,
+    "k": "gate",
+    "n": "Puerta de El Ahorcado. Barco de Avila",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53529",
+    "la": 40.5298,
+    "lo": -5.2663,
+    "k": "gate",
+    "n": "Puerta de la Villa. Bonilla",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53604",
+    "la": 41.4636,
+    "lo": -1.7825,
+    "k": "gate",
+    "n": "Puerta Vieja de Villarroya",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53606",
+    "la": 41.4651,
+    "lo": -1.7859,
+    "k": "gate",
+    "n": "Puerta Alta de Villarroya",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53611",
+    "la": 41.3583,
+    "lo": -1.6461,
+    "k": "gate",
+    "n": "Puerta Emiral",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53612",
+    "la": 41.3554,
+    "lo": -1.641,
+    "k": "gate",
+    "n": "Puerta de Zaragoza",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53613",
+    "la": 41.3532,
+    "lo": -1.6466,
+    "k": "gate",
+    "n": "Puerta de Terrer",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53681",
+    "la": 41.1128,
+    "lo": -1.4169,
+    "k": "gate",
+    "n": "Puerta Baja de Daroca",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53682",
+    "la": 41.1142,
+    "lo": -1.4099,
+    "k": "gate",
+    "n": "Puerta Alta de Daroca",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53690",
+    "la": 41.0682,
+    "lo": -2.6403,
+    "k": "gate",
+    "n": "Puerta del Toril",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53691",
+    "la": 41.1996,
+    "lo": -2.871,
+    "k": "gate",
+    "n": "Puerta de Arrebatacapas",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53696",
+    "la": 41.334,
+    "lo": -2.7504,
+    "k": "gate",
+    "n": "Puerta de Rello",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53697",
+    "la": 41.3334,
+    "lo": -2.7506,
+    "k": "gate",
+    "n": "Puerta de la Villa",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53702",
+    "la": 41.0671,
+    "lo": -2.6404,
+    "k": "gate",
+    "n": "Puerta del Sol",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53703",
+    "la": 41.0651,
+    "lo": -2.6423,
+    "k": "gate",
+    "n": "Puerta del Hierro",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53708",
+    "la": 41.4675,
+    "lo": -2.8623,
+    "k": "gate",
+    "n": "Puerta Aguilera",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53712",
+    "la": 41.5858,
+    "lo": -3.0721,
+    "k": "gate",
+    "n": "Puerta de San Miguel",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53716",
+    "la": 41.5737,
+    "lo": -3.2054,
+    "k": "gate",
+    "n": "Puerta de Castilla",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53719",
+    "la": 41.6895,
+    "lo": -3.4778,
+    "k": "gate",
+    "n": "Puerta de las Monjas",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53720",
+    "la": 41.6387,
+    "lo": -3.5726,
+    "k": "gate",
+    "n": "Puerta Nueva",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53739",
+    "la": 41.4855,
+    "lo": -3.523,
+    "k": "gate",
+    "n": "Puerta de la Villa de Maderuelo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53748",
+    "la": 40.8278,
+    "lo": -3.5359,
+    "k": "gate",
+    "n": "Puerta de Burgos",
+    "t": 2
+  },
+  { "i": "vici:vici-53749", "la": 40.7453, "lo": -3.5134, "k": "gate", "n": "Puerta Sur", "t": 2 },
+  {
+    "i": "vici:vici-53751",
+    "la": 40.7464,
+    "lo": -3.5121,
+    "k": "gate",
+    "n": "Puerta Este de Uceda",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53758",
+    "la": 40.6326,
+    "lo": -3.161,
+    "k": "gate",
+    "n": "Puerta de Bejanque",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-53824",
+    "la": 41.4426,
+    "lo": -3.9805,
+    "k": "gate",
+    "n": "Puerta del Palacio",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54231",
+    "la": 42.4668,
+    "lo": -2.45,
+    "k": "gate",
+    "n": "Puerta del Revellín.",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54411",
+    "la": 42.7631,
+    "lo": -3.2931,
+    "k": "gate",
+    "n": "Puerta del Postigo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54412",
+    "la": 42.7629,
+    "lo": -3.2945,
+    "k": "gate",
+    "n": "Puerta de Medina",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54428",
+    "la": 29.9784,
+    "lo": 52.912,
+    "k": "gate",
+    "n": "Istakhr, Southwestern gate",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54499",
+    "la": 42.6803,
+    "lo": -1.784,
+    "k": "gate",
+    "n": "Puerta de Obanos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54674",
+    "la": 29.7812,
+    "lo": 51.5758,
+    "k": "gate",
+    "n": "Bishapur, North gate",
+    "s": 260,
+    "e": 651,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54675",
+    "la": 29.7809,
+    "lo": 51.5769,
+    "k": "gate",
+    "n": "Bishapur, Postern gate",
+    "s": 260,
+    "e": 651,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54694",
+    "la": 42.6653,
+    "lo": -3.5022,
+    "k": "gate",
+    "n": "Puerta de las Eras",
+    "s": 1250,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54737",
+    "la": 42.3429,
+    "lo": -3.6968,
+    "k": "gate",
+    "n": "Puerta de San Juan",
+    "s": 1276,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54738",
+    "la": 42.3438,
+    "lo": -3.7026,
+    "k": "gate",
+    "n": "Puerta de San Gil",
+    "s": 1276,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54740",
+    "la": 42.3435,
+    "lo": -3.7045,
+    "k": "gate",
+    "n": "Puerta de San Esteban",
+    "s": 1175,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54761",
+    "la": 41.8636,
+    "lo": -5.4099,
+    "k": "gate",
+    "n": "Puerta de San Andrés",
+    "s": 1179,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54816",
+    "la": 35.6016,
+    "lo": 35.7824,
+    "k": "gate",
+    "n": "Ugarit, Postern gate",
+    "s": -2000,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54821",
+    "la": 36.3314,
+    "lo": 36.842,
+    "k": "gate",
+    "n": "Saint Simeon Complex, Entrance gate",
+    "s": 540,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54920",
+    "la": 41.857,
+    "lo": -4.3029,
+    "k": "gate",
+    "n": "Puerta del Arco",
+    "s": 800,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54929",
+    "la": 42.2144,
+    "lo": -4.0646,
+    "k": "gate",
+    "n": "Puerta de San Antón",
+    "s": 1300,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54930",
+    "la": 42.2139,
+    "lo": -4.0626,
+    "k": "gate",
+    "n": "Puerta de la Barbacana",
+    "s": 1300,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54935",
+    "la": 42.0964,
+    "lo": -4.13,
+    "k": "gate",
+    "n": "Puerta del Reloj",
+    "s": 1300,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54937",
+    "la": 42.0943,
+    "lo": -4.1312,
+    "k": "gate",
+    "n": "Puerta de la Paz",
+    "s": 1300,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55146",
+    "la": 32.8057,
+    "lo": 12.4822,
+    "k": "gate",
+    "n": "Sabratha, Byzantine Gate",
+    "s": 535,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55177",
+    "la": 32.2788,
+    "lo": 35.8871,
+    "k": "gate",
+    "n": "Gerasa, Jerusalem Gate",
+    "s": 1,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55281",
+    "la": 41.1119,
+    "lo": 20.7976,
+    "k": "gate",
+    "n": "Lychnidus (Ohrid), Lower Gate",
+    "s": 300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55285",
+    "la": 41.115,
+    "lo": 20.7949,
+    "k": "gate",
+    "n": "Lychnidus (Ohrid), Upper Gate",
+    "s": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55550",
+    "la": 43.4089,
+    "lo": 10.8633,
+    "k": "gate",
+    "n": "Porta Diana of Velathri",
+    "s": -200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56061",
+    "la": 42.7923,
+    "lo": -4.2594,
+    "k": "gate",
+    "n": "Puerta del Hospital",
+    "s": 1300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56062",
+    "la": 42.7935,
+    "lo": -4.257,
+    "k": "gate",
+    "n": "Puerta de Reinosa",
+    "s": 1381,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56063",
+    "la": 42.7926,
+    "lo": -4.2623,
+    "k": "gate",
+    "n": "Puerta de la Cascajera",
+    "s": 1600,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56064",
+    "la": 42.7927,
+    "lo": -4.2654,
+    "k": "gate",
+    "n": "Puerta San Roque",
+    "s": 1300,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56065",
+    "la": 42.7929,
+    "lo": -4.2662,
+    "k": "gate",
+    "n": "Puerta del Paseo Real",
+    "s": 1300,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56235",
+    "la": 25.7172,
+    "lo": 32.6609,
+    "k": "gate",
+    "n": "Karnak, Temple of Amun, East Gate",
+    "s": -350,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56252",
+    "la": 41.0871,
+    "lo": -4.994,
+    "k": "gate",
+    "n": "Puerta de Arévalo",
+    "s": 1100,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56254",
+    "la": 41.0914,
+    "lo": -5.0016,
+    "k": "gate",
+    "n": "Puerta de Cantalapiedra",
+    "s": 1100,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56257",
+    "la": 41.0918,
+    "lo": -4.9951,
+    "k": "gate",
+    "n": "Puerta de Medina",
+    "s": 1100,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56264",
+    "la": 41.0641,
+    "lo": -4.7206,
+    "k": "gate",
+    "n": "Puerta de Alcocer",
+    "s": 1157,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56341",
+    "la": 49.8518,
+    "lo": 6.8944,
+    "k": "gate",
+    "n": "Kastelltor",
+    "s": 300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58097",
+    "la": 42.8546,
+    "lo": 13.5668,
+    "k": "gate",
+    "n": "Porta Romana",
+    "s": -50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58391",
+    "la": 42.417,
+    "lo": 13.0806,
+    "k": "gate",
+    "n": "Porta S. Anna",
+    "s": 120,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58463",
+    "la": 41.8765,
+    "lo": 12.5025,
+    "k": "gate",
+    "n": "Porta Latina",
+    "s": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58480",
+    "la": 41.9116,
+    "lo": 12.476,
+    "k": "gate",
+    "n": "Porta del Popolo",
+    "s": 1400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58504",
+    "la": 41.8808,
+    "lo": 12.4702,
+    "k": "gate",
+    "n": "Porta Portuensis",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58505",
+    "la": 41.8884,
+    "lo": 12.4614,
+    "k": "gate",
+    "n": "Porta San Pancrazio",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-59465",
+    "la": 41.4975,
+    "lo": 13.6967,
+    "k": "gate",
+    "n": "Porta San Lorenzo",
+    "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60163",
+    "la": 35.4047,
+    "lo": 8.123,
+    "k": "gate",
+    "n": "Porte de Caracala",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60166",
+    "la": 35.4027,
+    "lo": 8.1229,
+    "k": "gate",
+    "n": "Gate of Solomon",
+    "s": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60291",
+    "la": 43.5452,
+    "lo": -5.663,
+    "k": "gate",
+    "n": "Porta Pretoria",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61596",
+    "la": 42.4139,
+    "lo": 11.286,
+    "k": "gate",
+    "n": "Cosa's N-W gate",
+    "s": -273,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61717",
+    "la": 42.7949,
+    "lo": 13.0921,
+    "k": "gate",
+    "n": "Porta Romana",
+    "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61733",
+    "la": 41.5885,
+    "lo": 12.9653,
+    "k": "gate",
+    "n": "Porta Maggiore di Norba",
+    "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62299",
+    "la": 40.421,
+    "lo": 14.9963,
+    "k": "gate",
+    "n": "Porta Marina",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62300",
+    "la": 40.4268,
+    "lo": 15.0051,
+    "k": "gate",
+    "n": "Porta Aurea",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62301",
+    "la": 40.4217,
+    "lo": 15.0136,
+    "k": "gate",
+    "n": "Porta Sirena",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62302",
+    "la": 40.4185,
+    "lo": 15.0069,
+    "k": "gate",
+    "n": "Porta Giustizia",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62326",
+    "la": 39.7441,
+    "lo": 35.0703,
+    "k": "gate",
+    "n": "Cappadocia Gate",
+    "s": -699,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62787",
+    "la": 33.0353,
+    "lo": 10.1539,
+    "k": "gate",
+    "n": "The Gate",
+    "s": 30,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62796",
+    "la": 34.1374,
+    "lo": 9.1724,
+    "k": "gate",
+    "n": "The Gate",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63019",
+    "la": 43.1965,
+    "lo": 13.3869,
+    "k": "gate",
+    "n": "Porta Gemina",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63287",
+    "la": 43.7609,
+    "lo": 11.2419,
+    "k": "gate",
+    "n": "Porta Romana",
+    "s": 1331,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63394",
+    "la": 41.8733,
+    "lo": 12.4967,
+    "k": "gate",
+    "n": "Porta Ardeatina",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63414",
+    "la": 31.6675,
+    "lo": 34.5488,
+    "k": "gate",
+    "n": "Canaanite City Gate:",
+    "s": -2999,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63415",
+    "la": 31.8587,
+    "lo": 34.92,
+    "k": "gate",
+    "n": "Canannite Gate",
+    "s": 2000,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63416",
+    "la": 31.8592,
+    "lo": 34.9213,
+    "k": "gate",
+    "n": "Salomon Gate",
+    "s": -1999,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63537",
+    "la": 40.1741,
+    "lo": 28.6847,
+    "k": "gate",
+    "n": "City Gate",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63653",
+    "la": 42.0668,
+    "lo": 13.2438,
+    "k": "gate",
+    "n": "Porta Romana",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63748",
+    "la": 45.7535,
+    "lo": 12.838,
+    "k": "gate",
+    "n": "Porta meridionale",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63749",
+    "la": 45.7564,
+    "lo": 12.8449,
+    "k": "gate",
+    "n": "Porta orientale",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64040",
+    "la": 41.9653,
+    "lo": 12.7959,
+    "k": "gate",
+    "n": "Porta Maggiore",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64524",
+    "la": 41.1293,
+    "lo": 14.7765,
+    "k": "gate",
+    "n": "Porta Rufina",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64614",
+    "la": 40.0551,
+    "lo": 18.387,
+    "k": "gate",
+    "n": "Porta Nord",
+    "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64615",
+    "la": 40.051,
+    "lo": 18.3934,
+    "k": "gate",
+    "n": "Porta East",
+    "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64678",
+    "la": 42.9884,
+    "lo": 12.6727,
+    "k": "gate",
+    "n": "Porta Consolare",
+    "s": -41,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64679",
+    "la": 42.9969,
+    "lo": 12.6719,
+    "k": "gate",
+    "n": "Porta Venere",
+    "s": 1100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64682",
+    "la": 41.3272,
+    "lo": 14.3334,
+    "k": "gate",
+    "n": "Porta Napoli",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64683",
+    "la": 41.3299,
+    "lo": 14.3279,
+    "k": "gate",
+    "n": "Porta Roma",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64684",
+    "la": 41.327,
+    "lo": 14.3292,
+    "k": "gate",
+    "n": "Porta Fiume",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64685",
+    "la": 41.3302,
+    "lo": 14.3319,
+    "k": "gate",
+    "n": "Porta Piedimonte",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64781",
+    "la": 35.9908,
+    "lo": 9.0168,
+    "k": "gate",
+    "n": "The Gate",
+    "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65555",
+    "la": 42.4822,
+    "lo": 2.841,
+    "k": "gate",
+    "n": "Porte des Cluses",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65571",
+    "la": 40.7485,
+    "lo": 14.4831,
+    "k": "gate",
+    "n": "Marina Gate",
+    "s": -199,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65572",
+    "la": 40.7539,
+    "lo": 14.4911,
+    "k": "gate",
+    "n": "Nola Gate",
+    "s": -199,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65574",
+    "la": 40.7483,
+    "lo": 14.4901,
+    "k": "gate",
+    "n": "Porta Stabia",
+    "s": -199,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65580",
+    "la": 49.1994,
+    "lo": 9.519,
+    "k": "gate",
+    "n": "Limestor (Öhringen)",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65706",
+    "la": 38.5729,
+    "lo": -7.9092,
+    "k": "gate",
+    "n": "Porta de Dona Isabel",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66281",
+    "la": 42.099,
+    "lo": -5.899,
+    "k": "gate",
+    "n": "Acces road and gate",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66391",
+    "la": 50.6048,
+    "lo": 3.3892,
+    "k": "gate",
+    "n": "Tournai, Roman gate",
+    "s": -30,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68381",
+    "la": 37.2255,
+    "lo": 32.9606,
+    "k": "gate",
+    "n": "Kazımkarabekir",
+    "s": 700,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69085",
+    "la": 40.9049,
+    "lo": 31.1484,
+    "k": "gate",
+    "n": "Prusias ad Hypium, Horse Gate",
+    "s": -200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69227",
+    "la": 50.9345,
+    "lo": 6.9628,
+    "k": "gate",
+    "n": "Porta Romana",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70653",
+    "la": 41.8799,
+    "lo": 12.4871,
+    "k": "gate",
+    "n": "Porta Naevia",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70654",
+    "la": 41.88,
+    "lo": 12.4836,
+    "k": "gate",
+    "n": "Porta Rauduscula",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70725",
+    "la": 41.9023,
+    "lo": 12.5014,
+    "k": "gate",
+    "n": "Porta Viminalis",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70742",
+    "la": 41.8999,
+    "lo": 12.4862,
+    "k": "gate",
+    "n": "Porta Salutaris",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70755",
+    "la": 41.904,
+    "lo": 12.5064,
+    "k": "gate",
+    "n": "Porta Chiusa",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70820",
+    "la": 42.0306,
+    "lo": 12.4047,
+    "k": "gate",
+    "n": "Porta Capena",
+    "s": -799,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70873",
+    "la": 41.9083,
+    "lo": 12.5024,
+    "k": "gate",
+    "n": "Posterula Nomentana",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70877",
+    "la": 42.779,
+    "lo": 12.4142,
+    "k": "gate",
+    "n": "Porta Romana",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70878",
+    "la": 42.7858,
+    "lo": 12.4085,
+    "k": "gate",
+    "n": "Porta Perugina",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71079",
+    "la": 38.9655,
+    "lo": -5.9595,
+    "k": "gate",
+    "n": "Porta Caeli",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71504",
+    "la": 49.4709,
+    "lo": 8.6085,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "s": 90,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-78032",
+    "la": 48.8366,
+    "lo": 10.0865,
+    "k": "gate",
+    "n": "Porta praetoria",
+    "s": 155,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-7859",
+    "la": 49.7597,
+    "lo": 6.644,
+    "k": "gate",
+    "n": "Porta Negra",
+    "s": 170,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-79048",
+    "la": 40.7495,
+    "lo": 14.4935,
+    "k": "gate",
+    "n": "Porta Nocera",
+    "s": -399,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-7963",
+    "la": 49.9963,
+    "lo": 8.2637,
+    "k": "gate",
+    "n": "Stadttor Mainz",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80396",
+    "la": 45.8069,
+    "lo": 9.0853,
+    "k": "gate",
+    "n": "Porta Praetoria",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-81331",
+    "la": 41.243,
+    "lo": 13.7638,
+    "k": "gate",
+    "n": "City gate and castellum aquae",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-81658",
+    "la": 38.3492,
+    "lo": 28.5241,
+    "k": "gate",
+    "n": "Remains of the eastern gate.",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-8274",
+    "la": 51.6696,
+    "lo": 6.4383,
+    "k": "gate",
+    "n": "Nordtor",
+    "s": 71,
+    "e": 275,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83020",
+    "la": 42.9916,
+    "lo": 12.67,
+    "k": "gate",
+    "n": "Gate of Venus",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83021",
+    "la": 42.9893,
+    "lo": 12.6707,
+    "k": "gate",
+    "n": "Porta Urbica",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-84373",
+    "la": 41.2886,
+    "lo": 13.53,
+    "k": "gate",
+    "n": "Porta Mamurra",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86783",
+    "la": 36.3143,
+    "lo": 9.3254,
+    "k": "gate",
+    "n": "Timisua - Porte Monumentale",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86805",
+    "la": 48.5613,
+    "lo": 10.4041,
+    "k": "gate",
+    "n": "Stadttor",
+    "s": 213,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9981",
+    "la": 49.7417,
+    "lo": 6.6411,
+    "k": "gate",
+    "n": "Porta Alba",
+    "s": 180,
+    "e": 1250,
+    "t": 2
+  }
+]

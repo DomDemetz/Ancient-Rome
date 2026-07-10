@@ -47,7 +47,7 @@ export const DARE_TYPE_TO_SITE_TYPE: Record<number, string> = {
   51: 'bridge',
   55: 'road',
   46: 'bath',
-  47: 'dam', // DARE aqueduct NODES live in atlas infrastructure; the 'aqueduct' slug belongs to AqueductLayer
+  47: 'aqueduct',
   52: 'dam',
   76: 'lighthouse',
   17: 'legionary-fortress',

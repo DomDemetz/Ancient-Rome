@@ -536,8 +536,8 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       icon: ScrollText,
     },
     ...Object.fromEntries(
-      DATASET_REGISTRY.filter((cfg) => cfg.group === 'Sites').map((cfg) => [
-        `Sites${cfg.id.charAt(0).toUpperCase()}${cfg.id.slice(1)}`,
+      DATASET_REGISTRY.filter((cfg) => cfg.group !== '_hidden').map((cfg) => [
+        `Sites:${cfg.id}`,
         {
           active: datasetState[cfg.id]?.show ?? false,
           loading: datasetState[cfg.id]?.loading ?? false,
