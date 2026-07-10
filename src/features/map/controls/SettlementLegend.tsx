@@ -23,7 +23,7 @@ export function SitesLegend() {
   // Below the atlas minZoom no dot can render — say why instead.
   // (nav-store view, NOT useMapViewport: this renders outside MapContainer)
   const zoom = useMapNavStore((s) => s.mapView?.zoom)
-  const dotsRenderable = zoom == null || zoom >= 6
+  const dotsRenderable = zoom == null || zoom >= 5
 
   return (
     <div

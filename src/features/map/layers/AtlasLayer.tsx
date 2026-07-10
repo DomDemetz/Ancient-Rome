@@ -11,18 +11,18 @@ import { formatYear } from '@/lib/geo'
 
 /**
  * THE point-entity renderer (unified rework, 2026-07-10). One instance per
- * atlas category; every dot is a row of the canonical entity table, so a
- * real-world site appears exactly once — the old ViciLayer / UnifiedLayer /
- * Amphitheater / Buildings quadruplication is gone. One popup path through
- * the knowledge store: vici survey points get the same depth as everything
+ * atlas kind toggle; every dot is a row of the canonical entity table, so a
+ * real-world site appears exactly once. One popup path through the
+ * knowledge store: vici survey points get the same depth as everything
  * else the moment knowledge exists for their entity.
  *
- * Zoom discipline comes from the emit-time tier, not per-source type sets:
- *   t1 (knowledge-bearing)  from config.minZoom — the famous sites
- *   t2 (named)              from z8 — the named archaeology
- *   t3 (unnamed texture)    from z11 — survey texture at street level
+ * A toggle is explicit intent — someone who turns on Watchtowers must SEE
+ * watchtowers at the current view (most kinds have no knowledge tier; a
+ * z8 gate made their toggles look dead from the default z5). Density is
+ * handled by viewport sampling, not zoom gates; only unnamed survey
+ * texture still waits for street level.
  */
-const TIER_MIN_ZOOM: Record<1 | 2 | 3, number> = { 1: 0, 2: 8, 3: 11 }
+const TIER_MIN_ZOOM: Record<1 | 2 | 3, number> = { 1: 0, 2: 0, 3: 10 }
 
 function labelKind(raw: string): string {
   return raw.replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
