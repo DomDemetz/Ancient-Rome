@@ -3,10 +3,12 @@ import { GeoJSON, Marker, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { EmpireShape } from '@/data/empires'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { imperialAnchors } from './imperialAnchors'
 import { labelHalfWidth, labelProjector, labelTier } from './labelCollision'
+import { popAt } from './PlacesLayer'
 
 interface EmpiresLayerProps {
   data: EmpireShape[]
@@ -176,13 +178,23 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
   }, [map, visible])
 
   const currentYearForObstacles = useTimelineStore((s) => s.currentYear)
+  const placesData = useMapLayerStore((s) => s.placesData)
   const labeled = useMemo(() => {
     const min = labelMinArea(zoom)
     const candidates = visible.filter((e) => e.area >= min).sort((a, b) => b.area - a.area)
     const { pxPerDegX, x: mercX, y: mercY } = labelProjector(zoom)
-    const obstacles = CITY_OBSTACLES.filter(
-      (c) => c.s <= currentYearForObstacles && c.e >= currentYearForObstacles,
-    ).map((c) => [mercX(c.lng), mercY(c.lat)])
+    // Dodge obstacles are the cities that ACTUALLY print a label right now —
+    // the same population gate PlacesLayer renders with. A static all-cities
+    // registry here made every empire name dodge phantom (unlabeled) cities,
+    // scattering names off their anchors and sometimes ONTO a real label
+    // (Duchy of Burgundy fled a phantom straight onto Paris, 1453).
+    const labelPop = zoom <= 4 ? 250000 : 120000
+    const obstacles: Array<[number, number]> = []
+    for (const p of placesData ?? []) {
+      if (!p.populations?.length) continue
+      const cur = popAt(p.populations, currentYearForObstacles)
+      if (cur != null && cur >= labelPop) obstacles.push([mercX(p.lng), mercY(p.lat)])
+    }
     // Greedy declutter: biggest polities claim label space first; anything
     // whose anchor would land within ~1 label-height x ~8em of a placed
     // label is suppressed at this zoom (it reappears when zooming in).
@@ -276,7 +288,7 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       out.push({ e, dodge })
     }
     return out
-  }, [visible, zoom, currentYearForObstacles])
+  }, [visible, zoom, currentYearForObstacles, placesData])
 
   return (
     <>
