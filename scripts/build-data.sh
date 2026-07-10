@@ -93,8 +93,13 @@ else:
 echo ""
 
 echo "══════════════════════════════════════════"
-echo "  STEP 2b · Provenance manifest"
+echo "  STEP 2b · Entity table, search manifest, knowledge, provenance"
 echo "══════════════════════════════════════════"
+# entity-table/search MUST rebuild after any date/QID change upstream —
+# MonumentLabels reads entity-search.json (stale dates kept labeling
+# 100 AD Rome with Villa Maxentii after the chunks were fixed, 2026-07-10)
+python3 scripts/build-entity-table.py
+python3 scripts/build-entity-search.py
 python3 scripts/build-knowledge.py
 python3 scripts/build-manifest.py
 echo ""
