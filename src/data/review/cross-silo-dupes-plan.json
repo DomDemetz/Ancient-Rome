@@ -4,7 +4,13 @@
 "candidates": 12638,
 "adjudicated": 4520
 },
-"note": "cross-silo duplicate adjudication. same = one physical site in two records; keeper = richer record. Consumed by the unified-rework emit step (dot suppression + multi-source references) and by validators as negative/positive assertions. distinct verdicts are permanent negative assertions.",
+"qa": {
+"method": "manual sample n=24 (Fable) + contradiction-consistency pass",
+"samplePrecision": "22/24 on high-confidence same; both misses were the Temple C/D class",
+"consistencyRule": "same-verdicts demoted when a merge component contains an explicit distinct edge or a QID clash; missing closure edges are NOT conflicts (203 batches still pending)",
+"demoted": 345
+},
+"note": "cross-silo duplicate adjudication. same = one physical site in two records; keeper = richer record. Consumed by the entity-atlas emit (dot suppression + multi-source references). distinct verdicts are permanent negative assertions.",
 "verdicts": [
 {
 "pair": 0,
@@ -1993,10 +1999,10 @@
 "b": "vici:vici-39266",
 "bname": "Largo di Torre Argentina, Aedes Feroniae",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-39266",
-"confidence": "high",
-"reason": "Temple C at 11m, vici description explicitly identifies as Temple C"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple C at 11m, vici description explicitly id"
 },
 {
 "pair": 166,
@@ -2017,10 +2023,10 @@
 "b": "vici:vici-39263",
 "bname": "Largo di Torre Argentina, Temple of Lares Permarini",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-39263",
-"confidence": "high",
-"reason": "Temple C at 14m, vici description confirms Temple C"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple C at 14m, vici description confirms Temp"
 },
 {
 "pair": 168,
@@ -2125,10 +2131,10 @@
 "b": "vici:vici-39263",
 "bname": "Largo di Torre Argentina, Temple of Lares Permarini",
 "km": 0.017,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:593462325",
-"confidence": "high",
-"reason": "Both Aedes Lares Permarini, 17m apart, same deity"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both Aedes Lares Permarini, 17m apart, same dei"
 },
 {
 "pair": 177,
@@ -2137,10 +2143,10 @@
 "b": "vici:vici-15032",
 "bname": "Temple of Hadrian",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:666765291",
-"confidence": "high",
-"reason": "Temple of Hadrian identical, 11m, same type, has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Hadrian identical, 11m, same type, ha"
 },
 {
 "pair": 178,
@@ -2149,10 +2155,10 @@
 "b": "religion:rel-019",
 "bname": "Temple of Hadrian",
 "km": 0.056,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-019",
-"confidence": "medium",
-"reason": "Temple of Hadrian identical, unique monument, 56m likely coordinate error"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Hadrian identical, unique monument, 5"
 },
 {
 "pair": 179,
@@ -2389,10 +2395,10 @@
 "b": "vici:vici-39263",
 "bname": "Largo di Torre Argentina, Temple of Lares Permarini",
 "km": 0.018,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:593462325",
-"confidence": "high",
-"reason": "Both Aedes Lares Permarini, 18m, same deity"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both Aedes Lares Permarini, 18m, same deity"
 },
 {
 "pair": 199,
@@ -2485,10 +2491,10 @@
 "b": "vici:vici-39266",
 "bname": "Largo di Torre Argentina, Aedes Feroniae",
 "km": 0.006,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:820369856",
-"confidence": "high",
-"reason": "Vici desc identifies Aedes Feroniae as Temple C; 6m confirms same temple"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Vici desc identifies Aedes Feroniae as Temple C"
 },
 {
 "pair": 207,
@@ -2509,10 +2515,10 @@
 "b": "vici:vici-39263",
 "bname": "Largo di Torre Argentina, Temple of Lares Permarini",
 "km": 0.019,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:820369856",
-"confidence": "high",
-"reason": "Vici desc identifies Temple of Lares Permarini as Temple C; 19m confirms"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Vici desc identifies Temple of Lares Permarini "
 },
 {
 "pair": 209,
@@ -2581,10 +2587,10 @@
 "b": "vici:vici-15032",
 "bname": "Temple of Hadrian",
 "km": 0.016,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:666765291",
-"confidence": "high",
-"reason": "Same name, same type (temple), 16m apart; unified record has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same name, same type (temple), 16m apart; unifi"
 },
 {
 "pair": 215,
@@ -2809,10 +2815,10 @@
 "b": "vici:vici-39266",
 "bname": "Largo di Torre Argentina, Aedes Feroniae",
 "km": 0.024,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-39266",
-"confidence": "high",
-"reason": "Both vici records identified as Temple C in descriptions; 24m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both vici records identified as Temple C in des"
 },
 {
 "pair": 234,
@@ -3265,10 +3271,10 @@
 "b": "pleiades:138925",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:138923",
-"confidence": "high",
-"reason": "Both Untitled aqueducts at 0m in pleiades; keeper has QID Q2859217"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both Untitled aqueducts at 0m in pleiades; keep"
 },
 {
 "pair": 272,
@@ -3277,10 +3283,10 @@
 "b": "pleiades:138925",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:138924",
-"confidence": "medium",
-"reason": "Named vs unnamed aqueduct at 0m; both pleiades, keeper has description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named vs unnamed aqueduct at 0m; both pleiades,"
 },
 {
 "pair": 273,
@@ -3685,10 +3691,10 @@
 "b": "vici:vici-4253",
 "bname": "Amphitheatre Pompeii",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:379375824",
-"confidence": "high",
-"reason": "Amphitheater of Pompeii, 0m distance, A has QID + richer description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Amphitheater of Pompeii, 0m distance, A has QID"
 },
 {
 "pair": 307,
@@ -3745,10 +3751,10 @@
 "b": "vici:vici-4253",
 "bname": "Amphitheatre Pompeii",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "amphitheater:pompeii",
-"confidence": "high",
-"reason": "Amphitheater of Pompeii, 14m, A has QID Q18222399."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Amphitheater of Pompeii, 14m, A has QID Q182223"
 },
 {
 "pair": 312,
@@ -4477,10 +4483,10 @@
 "b": "pleiades:288740706",
 "bname": "Unnamed naiskos tomb, Fondo Pacifico",
 "km": 0.018,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:197672107",
-"confidence": "medium",
-"reason": "Unnamed naiskos tomb 18m from named tomb in same necropolis; unnamed record is survey point"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed naiskos tomb 18m from named tomb in sam"
 },
 {
 "pair": 373,
@@ -4513,10 +4519,10 @@
 "b": "pleiades:693875992",
 "bname": "Unnamed tomb",
 "km": 0.003,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:197672107",
-"confidence": "medium",
-"reason": "Unnamed tomb 3m from named tomb in same necropolis; within unnamed record rule"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed tomb 3m from named tomb in same necropo"
 },
 {
 "pair": 376,
@@ -4549,10 +4555,10 @@
 "b": "pleiades:288740706",
 "bname": "Unnamed naiskos tomb, Fondo Pacifico",
 "km": 0.013,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:197672108",
-"confidence": "medium",
-"reason": "Unnamed naiskos tomb 13m from named tomb in same necropolis"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed naiskos tomb 13m from named tomb in sam"
 },
 {
 "pair": 379,
@@ -4585,10 +4591,10 @@
 "b": "pleiades:693875992",
 "bname": "Unnamed tomb",
 "km": 0.008,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:197672108",
-"confidence": "medium",
-"reason": "Unnamed tomb 8m from named tomb in same necropolis; unnamed record rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed tomb 8m from named tomb in same necropo"
 },
 {
 "pair": 382,
@@ -5101,10 +5107,10 @@
 "b": "pleiades:693875992",
 "bname": "Unnamed tomb",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:533715937",
-"confidence": "high",
-"reason": "Unnamed within 50m of named Veranius Rufus; same necropolis; survey"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed within 50m of named Veranius Rufus; sam"
 },
 {
 "pair": 425,
@@ -5125,10 +5131,10 @@
 "b": "pleiades:197672107",
 "bname": "Tomb of Caecilia Agathia",
 "km": 0.008,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:197672107",
-"confidence": "high",
-"reason": "Unnamed within 50m of named Caecilia Agathia; same necropolis; survey"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed within 50m of named Caecilia Agathia; s"
 },
 {
 "pair": 427,
@@ -5137,10 +5143,10 @@
 "b": "pleiades:197672108",
 "bname": "Tomb of Novia Amoena",
 "km": 0.013,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:197672108",
-"confidence": "high",
-"reason": "Unnamed within 50m of named Novia Amoena; same necropolis; survey"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed within 50m of named Novia Amoena; same "
 },
 {
 "pair": 428,
@@ -5185,10 +5191,10 @@
 "b": "pleiades:693875992",
 "bname": "Unnamed tomb",
 "km": 0.004,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:178841776",
-"confidence": "medium",
-"reason": "Two unnamed 4m apart in same necropolis; coordinate error or survey"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Two unnamed 4m apart in same necropolis; coordi"
 },
 {
 "pair": 432,
@@ -5197,10 +5203,10 @@
 "b": "pleiades:533715937",
 "bname": "Tomb of C. Veranius Rufus",
 "km": 0.018,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:533715937",
-"confidence": "high",
-"reason": "Unnamed within 50m of named Veranius Rufus; same necropolis; survey"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed within 50m of named Veranius Rufus; sam"
 },
 {
 "pair": 433,
@@ -5977,10 +5983,10 @@
 "b": "building:551156",
 "bname": "Roman Aqueduct at Mytilene",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:551156",
-"confidence": "medium",
-"reason": "Mytilene aqueduct system, 0m apart; B has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Mytilene aqueduct system, 0m apart; B has QID"
 },
 {
 "pair": 498,
@@ -5989,10 +5995,10 @@
 "b": "pleiades:551156",
 "bname": "Roman Aqueduct at Mytilene",
 "km": 0.004,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:551156",
-"confidence": "high",
-"reason": "Mytilene aqueduct, 4m; B has QID and description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Mytilene aqueduct, 4m; B has QID and descriptio"
 },
 {
 "pair": 499,
@@ -6001,10 +6007,10 @@
 "b": "vici:vici-27578",
 "bname": "Moria Aqueduct",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:290080326",
-"confidence": "high",
-"reason": "Same Moria Aqueduct, 11m; A unified with longer date range"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same Moria Aqueduct, 11m; A unified with longer"
 },
 {
 "pair": 500,
@@ -6013,10 +6019,10 @@
 "b": "pleiades:290080326",
 "bname": "Roman Aqueduct at Moria",
 "km": 0.004,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:290080326",
-"confidence": "medium",
-"reason": "Mytilene aqueduct, different QIDs but same structure; B has description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Mytilene aqueduct, different QIDs but same stru"
 },
 {
 "pair": 501,
@@ -6025,10 +6031,10 @@
 "b": "vici:vici-27578",
 "bname": "Moria Aqueduct",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:551156",
-"confidence": "high",
-"reason": "Mytilene aqueduct, 11m; A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Mytilene aqueduct, 11m; A has QID"
 },
 {
 "pair": 502,
@@ -6037,10 +6043,10 @@
 "b": "vici:vici-27578",
 "bname": "Moria Aqueduct",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:551156",
-"confidence": "high",
-"reason": "Mytilene aqueduct, 14m; A has QID and description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Mytilene aqueduct, 14m; A has QID and descripti"
 },
 {
 "pair": 503,
@@ -6049,10 +6055,10 @@
 "b": "pleiades:551156",
 "bname": "Roman Aqueduct at Mytilene",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:551156",
-"confidence": "medium",
-"reason": "Mytilene aqueduct, 0m; different QIDs but same; Q189059 primary"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Mytilene aqueduct, 0m; different QIDs but same;"
 },
 {
 "pair": 504,
@@ -6061,10 +6067,10 @@
 "b": "vici:vici-27578",
 "bname": "Moria Aqueduct",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:290080326",
-"confidence": "high",
-"reason": "Moria aqueduct, 14m; A has QID and description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Moria aqueduct, 14m; A has QID and description"
 },
 {
 "pair": 505,
@@ -6229,10 +6235,10 @@
 "b": "vici:vici-14928",
 "bname": "Skopje Aqueduct",
 "km": 0.028,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:208962503",
-"confidence": "high",
-"reason": "Identical Skopje aqueduct, 28m; A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical Skopje aqueduct, 28m; A has QID"
 },
 {
 "pair": 519,
@@ -6241,10 +6247,10 @@
 "b": "vici:vici-14928",
 "bname": "Skopje Aqueduct",
 "km": 0.028,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:208962503",
-"confidence": "high",
-"reason": "Identical Skopje aqueduct, 28m; A richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical Skopje aqueduct, 28m; A richer"
 },
 {
 "pair": 520,
@@ -8293,10 +8299,10 @@
 "b": "building:169124",
 "bname": "Bridge near Col. Vienna",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:169124",
-"confidence": "high",
-"reason": "Same type and years, 0m apart; generic unnamed vs specific location name; building:169124 has location specificity"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type and years, 0m apart; generic unnamed "
 },
 {
 "pair": 691,
@@ -8305,10 +8311,10 @@
 "b": "building:169125",
 "bname": "Bridge near E Combeplaine",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:169125",
-"confidence": "high",
-"reason": "Same type and years, 0m apart; generic unnamed vs specific location name; building:169125 has location specificity"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type and years, 0m apart; generic unnamed "
 },
 {
 "pair": 692,
@@ -8341,10 +8347,10 @@
 "b": "pleiades:169124",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:169124",
-"confidence": "high",
-"reason": "Same type, 0m; pleiades record has detailed BAtlas reference description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, 0m; pleiades record has detailed BAt"
 },
 {
 "pair": 695,
@@ -8353,10 +8359,10 @@
 "b": "pleiades:169125",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:169123",
-"confidence": "high",
-"reason": "Same type, 0m; building record has complete date range; pleiades record has null years"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, 0m; building record has complete dat"
 },
 {
 "pair": 696,
@@ -8413,10 +8419,10 @@
 "b": "pleiades:169125",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:169124",
-"confidence": "high",
-"reason": "Same type, 0m; building record has specific location name; pleiades is untitled stub"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, 0m; building record has specific loc"
 },
 {
 "pair": 701,
@@ -8581,10 +8587,10 @@
 "b": "pleiades:169125",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:169124",
-"confidence": "high",
-"reason": "Both Untitled bridges at 0m; pleiades:169124 has BAtlas description with location specificity"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both Untitled bridges at 0m; pleiades:169124 ha"
 },
 {
 "pair": 715,
@@ -9457,10 +9463,10 @@
 "b": "pleiades:315595",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:315594",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named (Thugga) with years, B unnamed empty; A is richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named (Thugga) with yea"
 },
 {
 "pair": 788,
@@ -9469,10 +9475,10 @@
 "b": "pleiades:315596",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:315594",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named (Thugga) with years, B unnamed empty; A is richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named (Thugga) with yea"
 },
 {
 "pair": 789,
@@ -9481,10 +9487,10 @@
 "b": "pleiades:315597",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:315594",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named (Thugga) with years, B unnamed empty; A is richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named (Thugga) with yea"
 },
 {
 "pair": 790,
@@ -9553,10 +9559,10 @@
 "b": "pleiades:315596",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:315595",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named (Ain Moungas) with years, B unnamed empty; A is richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named (Ain Moungas) wit"
 },
 {
 "pair": 796,
@@ -9565,10 +9571,10 @@
 "b": "pleiades:315597",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:315595",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named (Ain Moungas) with years, B unnamed empty; A is richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named (Ain Moungas) wit"
 },
 {
 "pair": 797,
@@ -10297,10 +10303,10 @@
 "b": "pleiades:678760",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678759",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named with dates, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named with dates, B Unt"
 },
 {
 "pair": 858,
@@ -10309,10 +10315,10 @@
 "b": "pleiades:678761",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678759",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 859,
@@ -10321,10 +10327,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678759",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; unnamed rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; unnamed rule applies"
 },
 {
 "pair": 860,
@@ -10333,10 +10339,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678759",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; unnamed rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; unnamed rule applies"
 },
 {
 "pair": 861,
@@ -10393,10 +10399,10 @@
 "b": "pleiades:678761",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678760",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 866,
@@ -10405,10 +10411,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678760",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 867,
@@ -10417,10 +10423,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678760",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 868,
@@ -10465,10 +10471,10 @@
 "b": "pleiades:678760",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678761",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 872,
@@ -10477,10 +10483,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678761",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 873,
@@ -10489,10 +10495,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678761",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 874,
@@ -10525,10 +10531,10 @@
 "b": "pleiades:678760",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678762",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 877,
@@ -10537,10 +10543,10 @@
 "b": "pleiades:678761",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678762",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 878,
@@ -10549,10 +10555,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678762",
-"confidence": "high",
-"reason": "Both aqueducts at 0m; A named, B Untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both aqueducts at 0m; A named, B Untitled"
 },
 {
 "pair": 879,
@@ -10573,10 +10579,10 @@
 "b": "pleiades:678760",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678763",
-"confidence": "high",
-"reason": "Unnamed survey variant of named aqueduct at same location"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed survey variant of named aqueduct at sam"
 },
 {
 "pair": 881,
@@ -10585,10 +10591,10 @@
 "b": "pleiades:678761",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678763",
-"confidence": "high",
-"reason": "Unnamed survey variant of named aqueduct at same location"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed survey variant of named aqueduct at sam"
 },
 {
 "pair": 882,
@@ -10597,10 +10603,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:678763",
-"confidence": "high",
-"reason": "Unnamed survey variant of named aqueduct at same location"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed survey variant of named aqueduct at sam"
 },
 {
 "pair": 883,
@@ -10609,10 +10615,10 @@
 "b": "pleiades:678760",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678759",
-"confidence": "high",
-"reason": "Unnamed aqueduct variants at same location; A has richer description and date range"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed aqueduct variants at same location; A h"
 },
 {
 "pair": 884,
@@ -10621,10 +10627,10 @@
 "b": "pleiades:678761",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678759",
-"confidence": "high",
-"reason": "Unnamed aqueduct variants at same location; A has richer description and date range"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed aqueduct variants at same location; A h"
 },
 {
 "pair": 885,
@@ -10633,10 +10639,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678759",
-"confidence": "high",
-"reason": "Unnamed aqueduct variants at same location; A has richer description and date range"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed aqueduct variants at same location; A h"
 },
 {
 "pair": 886,
@@ -10645,10 +10651,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678759",
-"confidence": "high",
-"reason": "Unnamed aqueduct variants at same location; A has richer description and date range"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed aqueduct variants at same location; A h"
 },
 {
 "pair": 887,
@@ -10657,10 +10663,10 @@
 "b": "pleiades:678761",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678760",
-"confidence": "medium",
-"reason": "Identical type and coords; both untitled, likely survey variants of same site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical type and coords; both untitled, likel"
 },
 {
 "pair": 888,
@@ -10669,10 +10675,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678760",
-"confidence": "medium",
-"reason": "Identical type and coords; both untitled, likely survey variants of same site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical type and coords; both untitled, likel"
 },
 {
 "pair": 889,
@@ -10681,10 +10687,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678760",
-"confidence": "medium",
-"reason": "Identical type and coords; both untitled, likely survey variants of same site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical type and coords; both untitled, likel"
 },
 {
 "pair": 890,
@@ -10693,10 +10699,10 @@
 "b": "pleiades:678762",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678761",
-"confidence": "medium",
-"reason": "Identical type and coords; both untitled, likely survey variants of same site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical type and coords; both untitled, likel"
 },
 {
 "pair": 891,
@@ -10705,10 +10711,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678761",
-"confidence": "medium",
-"reason": "Identical type and coords; both untitled, likely survey variants of same site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical type and coords; both untitled, likel"
 },
 {
 "pair": 892,
@@ -10717,10 +10723,10 @@
 "b": "pleiades:678763",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:678762",
-"confidence": "medium",
-"reason": "Identical type and coords; both untitled, likely survey variants of same site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical type and coords; both untitled, likel"
 },
 {
 "pair": 893,
@@ -11077,10 +11083,10 @@
 "b": "pleiades:689320",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:689321",
-"confidence": "medium",
-"reason": "Untitled bridge near named bridge, distance 0, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridge near named bridge, distance 0, "
 },
 {
 "pair": 923,
@@ -11173,10 +11179,10 @@
 "b": "pleiades:689320",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:689319",
-"confidence": "medium",
-"reason": "Untitled bridge near rich record (Jisr Jindas), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridge near rich record (Jisr Jindas),"
 },
 {
 "pair": 931,
@@ -11185,10 +11191,10 @@
 "b": "pleiades:689321",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:689319",
-"confidence": "medium",
-"reason": "Untitled bridge near rich record, distance 0, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridge near rich record, distance 0, s"
 },
 {
 "pair": 932,
@@ -11317,10 +11323,10 @@
 "b": "pleiades:688566",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 943,
@@ -11329,10 +11335,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 944,
@@ -11341,10 +11347,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 945,
@@ -11353,10 +11359,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 946,
@@ -11365,10 +11371,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 947,
@@ -11377,10 +11383,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 948,
@@ -11389,10 +11395,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688565",
-"confidence": "medium",
-"reason": "Untitled aqueduct near named (Archelais), distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled aqueduct near named (Archelais), dista"
 },
 {
 "pair": 949,
@@ -11533,10 +11539,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688566",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m; unnamed point is survey marker"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m; unnamed point"
 },
 {
 "pair": 961,
@@ -11545,10 +11551,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688566",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 962,
@@ -11557,10 +11563,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688566",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 963,
@@ -11569,10 +11575,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688566",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 964,
@@ -11581,10 +11587,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688566",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 965,
@@ -11593,10 +11599,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688566",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 966,
@@ -11725,10 +11731,10 @@
 "b": "pleiades:688566",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688567",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 977,
@@ -11737,10 +11743,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688567",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 978,
@@ -11749,10 +11755,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688567",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 979,
@@ -11761,10 +11767,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688567",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 980,
@@ -11773,10 +11779,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688567",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 981,
@@ -11785,10 +11791,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688567",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 982,
@@ -11905,10 +11911,10 @@
 "b": "pleiades:688566",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688568",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 992,
@@ -11917,10 +11923,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688568",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 993,
@@ -11929,10 +11935,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688568",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 994,
@@ -11941,10 +11947,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688568",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 995,
@@ -11953,10 +11959,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688568",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 996,
@@ -11965,10 +11971,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688568",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled at 0m"
 },
 {
 "pair": 997,
@@ -12073,10 +12079,10 @@
 "b": "pleiades:688566",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688569",
-"confidence": "medium",
-"reason": "Unnamed record paired with named aqueduct, same type, within 50m rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record paired with named aqueduct, same"
 },
 {
 "pair": 1006,
@@ -12085,10 +12091,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688569",
-"confidence": "medium",
-"reason": "Unnamed record paired with named aqueduct, same type, within 50m rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record paired with named aqueduct, same"
 },
 {
 "pair": 1007,
@@ -12097,10 +12103,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688569",
-"confidence": "medium",
-"reason": "Unnamed record paired with named aqueduct, same type, within 50m rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record paired with named aqueduct, same"
 },
 {
 "pair": 1008,
@@ -12109,10 +12115,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688569",
-"confidence": "medium",
-"reason": "Unnamed record paired with named aqueduct, same type, within 50m rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record paired with named aqueduct, same"
 },
 {
 "pair": 1009,
@@ -12121,10 +12127,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688569",
-"confidence": "medium",
-"reason": "Unnamed record paired with named aqueduct, same type, within 50m rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record paired with named aqueduct, same"
 },
 {
 "pair": 1010,
@@ -12133,10 +12139,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688569",
-"confidence": "medium",
-"reason": "Unnamed record paired with named aqueduct, same type, within 50m rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record paired with named aqueduct, same"
 },
 {
 "pair": 1011,
@@ -12505,10 +12511,10 @@
 "b": "pleiades:688566",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688572",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has real name, B is unnamed survey point"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has real n"
 },
 {
 "pair": 1042,
@@ -12517,10 +12523,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688572",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; unnamed reco"
 },
 {
 "pair": 1043,
@@ -12529,10 +12535,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688572",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; unnamed reco"
 },
 {
 "pair": 1044,
@@ -12541,10 +12547,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688572",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; unnamed reco"
 },
 {
 "pair": 1045,
@@ -12553,10 +12559,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688572",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; unnamed reco"
 },
 {
 "pair": 1046,
@@ -12565,10 +12571,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:688572",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; unnamed reco"
 },
 {
 "pair": 1047,
@@ -12829,10 +12835,10 @@
 "b": "pleiades:688566",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1069,
@@ -12841,10 +12847,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1070,
@@ -12853,10 +12859,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1071,
@@ -12865,10 +12871,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1072,
@@ -12877,10 +12883,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1073,
@@ -12889,10 +12895,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1074,
@@ -12901,10 +12907,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688565",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m distance; A has description, B minimal"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m distance; A has descri"
 },
 {
 "pair": 1075,
@@ -12937,10 +12943,10 @@
 "b": "pleiades:688567",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688566",
-"confidence": "medium",
-"reason": "Identical unnamed aqueducts at 0m; both completely empty; plausible duplicates"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical unnamed aqueducts at 0m; both complet"
 },
 {
 "pair": 1078,
@@ -12949,10 +12955,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688566",
-"confidence": "medium",
-"reason": "Identical unnamed aqueducts at 0m; both completely empty; plausible duplicates"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical unnamed aqueducts at 0m; both complet"
 },
 {
 "pair": 1079,
@@ -12961,10 +12967,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688566",
-"confidence": "medium",
-"reason": "Identical unnamed aqueducts at 0m; both completely empty; plausible duplicates"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical unnamed aqueducts at 0m; both complet"
 },
 {
 "pair": 1080,
@@ -12973,10 +12979,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688566",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m; coordinate error duplication"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m; coordina"
 },
 {
 "pair": 1081,
@@ -12985,10 +12991,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688566",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1082,
@@ -12997,10 +13003,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688566",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1083,
@@ -13033,10 +13039,10 @@
 "b": "pleiades:688568",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688567",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1086,
@@ -13045,10 +13051,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688567",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1087,
@@ -13057,10 +13063,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688567",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1088,
@@ -13069,10 +13075,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688567",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1089,
@@ -13081,10 +13087,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688567",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1090,
@@ -13117,10 +13123,10 @@
 "b": "pleiades:688569",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688568",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1093,
@@ -13129,10 +13135,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688568",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1094,
@@ -13141,10 +13147,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688568",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1095,
@@ -13153,10 +13159,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688568",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1096,
@@ -13189,10 +13195,10 @@
 "b": "pleiades:688570",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688569",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1099,
@@ -13201,10 +13207,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688569",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1100,
@@ -13213,10 +13219,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688569",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1101,
@@ -13249,10 +13255,10 @@
 "b": "pleiades:688571",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688570",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1104,
@@ -13261,10 +13267,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688570",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1105,
@@ -13297,10 +13303,10 @@
 "b": "pleiades:688572",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:688571",
-"confidence": "high",
-"reason": "Identical name, type, and distance 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, type, and distance 0m"
 },
 {
 "pair": 1108,
@@ -14329,10 +14335,10 @@
 "b": "pleiades:659877",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:659876",
-"confidence": "high",
-"reason": "Same type at 0m; A has named description vs B untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type at 0m; A has named description vs B u"
 },
 {
 "pair": 1194,
@@ -14341,10 +14347,10 @@
 "b": "pleiades:659878",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:659876",
-"confidence": "high",
-"reason": "Same type at 0m; A has named description vs B untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type at 0m; A has named description vs B u"
 },
 {
 "pair": 1195,
@@ -14377,10 +14383,10 @@
 "b": "pleiades:659876",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:659876",
-"confidence": "high",
-"reason": "Same type at 0m; 'Gephyra bridge' and 'bridge over Melas' likely same structure; B has richer BAtlas description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type at 0m; 'Gephyra bridge' and 'bridge o"
 },
 {
 "pair": 1198,
@@ -14389,10 +14395,10 @@
 "b": "pleiades:659878",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:659877",
-"confidence": "medium",
-"reason": "Same type at 0m; A has named description (Gephyra) vs B untitled with no info"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type at 0m; A has named description (Gephy"
 },
 {
 "pair": 1199,
@@ -14413,10 +14419,10 @@
 "b": "pleiades:659876",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:659878",
-"confidence": "high",
-"reason": "Same type, dist 0, A has descriptive name vs B untitled."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, dist 0, A has descriptive name vs B "
 },
 {
 "pair": 1201,
@@ -14425,10 +14431,10 @@
 "b": "pleiades:659877",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:659878",
-"confidence": "high",
-"reason": "Same type, dist 0, A has name and years vs B empty."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, dist 0, A has name and years vs B em"
 },
 {
 "pair": 1202,
@@ -14473,10 +14479,10 @@
 "b": "pleiades:659877",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:659876",
-"confidence": "high",
-"reason": "Same type bridge, dist 0, A has BAtlas description and years."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type bridge, dist 0, A has BAtlas descript"
 },
 {
 "pair": 1206,
@@ -14485,10 +14491,10 @@
 "b": "pleiades:659878",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:659876",
-"confidence": "high",
-"reason": "Same type, dist 0, A richer with description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, dist 0, A richer with description."
 },
 {
 "pair": 1207,
@@ -14761,10 +14767,10 @@
 "b": "pleiades:443952",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:443951",
-"confidence": "high",
-"reason": "Same bridge over R. Ofanto, dist 0, A has location and years."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge over R. Ofanto, dist 0, A has locat"
 },
 {
 "pair": 1230,
@@ -14773,10 +14779,10 @@
 "b": "pleiades:443953",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:443951",
-"confidence": "high",
-"reason": "Same bridge, dist 0, A richer."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, dist 0, A richer."
 },
 {
 "pair": 1231,
@@ -14821,10 +14827,10 @@
 "b": "pleiades:443953",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:443952",
-"confidence": "high",
-"reason": "Same bridge at Ausculum over R. Carapelle, dist 0, A has location."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge at Ausculum over R. Carapelle, dist"
 },
 {
 "pair": 1235,
@@ -14857,10 +14863,10 @@
 "b": "pleiades:443952",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:443953",
-"confidence": "high",
-"reason": "Same bridge over R. Carapelle at Herdoniae, dist 0, A richer."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge over R. Carapelle at Herdoniae, dis"
 },
 {
 "pair": 1238,
@@ -14905,10 +14911,10 @@
 "b": "pleiades:443952",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:443951",
-"confidence": "high",
-"reason": "Same type (bridge), same nominal name (both Untitled), 0m distance. Keeper has description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (bridge), same nominal name (both Unt"
 },
 {
 "pair": 1242,
@@ -14917,10 +14923,10 @@
 "b": "pleiades:443953",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:443951",
-"confidence": "high",
-"reason": "Same type (bridge), 0m distance. A has geographic description (R. Ofanto)."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (bridge), 0m distance. A has geograph"
 },
 {
 "pair": 1243,
@@ -15373,10 +15379,10 @@
 "b": "building:580599",
 "bname": "Aqueduct near Athens from N",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580598",
-"confidence": "high",
-"reason": "Same type, 0m, identical dates; directional descriptors (NE/N) reflect alternate views"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type, 0m, identical dates; directional des"
 },
 {
 "pair": 1281,
@@ -15385,10 +15391,10 @@
 "b": "building:580600",
 "bname": "Aqueduct near Athens from NE",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580598",
-"confidence": "medium",
-"reason": "Same type/dates/distance; Peiraeus vs Athens naming ambiguous at 0m"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type/dates/distance; Peiraeus vs Athens na"
 },
 {
 "pair": 1282,
@@ -15397,10 +15403,10 @@
 "b": "pleiades:580599",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580598",
-"confidence": "high",
-"reason": "Unnamed record 0m from named same type; applies unnamed-near-named rule"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record 0m from named same type; applies"
 },
 {
 "pair": 1283,
@@ -15409,10 +15415,10 @@
 "b": "pleiades:580600",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580598",
-"confidence": "high",
-"reason": "Unnamed record 0m from named same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record 0m from named same type"
 },
 {
 "pair": 1284,
@@ -15421,10 +15427,10 @@
 "b": "building:580600",
 "bname": "Aqueduct near Athens from NE",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580599",
-"confidence": "high",
-"reason": "Both reference Athens, same type/years/distance; directional only (N vs NE)"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both reference Athens, same type/years/distance"
 },
 {
 "pair": 1285,
@@ -15445,10 +15451,10 @@
 "b": "pleiades:580600",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580599",
-"confidence": "high",
-"reason": "Unnamed pleiades at 0m of named aqueduct; unnamed-near-named rule"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed pleiades at 0m of named aqueduct; unnam"
 },
 {
 "pair": 1287,
@@ -15469,10 +15475,10 @@
 "b": "pleiades:580599",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:580600",
-"confidence": "high",
-"reason": "Unnamed record 0m from named same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed record 0m from named same type"
 },
 {
 "pair": 1289,
@@ -15481,10 +15487,10 @@
 "b": "pleiades:580599",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:580598",
-"confidence": "high",
-"reason": "Both unnamed at 0m; keeper has richer description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both unnamed at 0m; keeper has richer descripti"
 },
 {
 "pair": 1290,
@@ -15493,10 +15499,10 @@
 "b": "pleiades:580600",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:580598",
-"confidence": "high",
-"reason": "Unnamed at 0m; keeper has description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed at 0m; keeper has description"
 },
 {
 "pair": 1291,
@@ -15505,10 +15511,10 @@
 "b": "pleiades:580600",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:580599",
-"confidence": "high",
-"reason": "Both unnamed at 0m, equal; picked first by ID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both unnamed at 0m, equal; picked first by ID"
 },
 {
 "pair": 1292,
@@ -15745,10 +15751,10 @@
 "b": "pleiades:257462",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257461",
-"confidence": "medium",
-"reason": "Unnamed pleiades at 0m of named bridge; unnamed-near-named rule applies"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed pleiades at 0m of named bridge; unnamed"
 },
 {
 "pair": 1312,
@@ -15757,10 +15763,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257461",
 "confidence": "low",
-"reason": "Unnamed at 0m of named bridge; pleiades ID mismatch raises uncertainty"
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed at 0m of named bridge; pleiades ID mism"
 },
 {
 "pair": 1313,
@@ -15769,10 +15775,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257461",
 "confidence": "low",
-"reason": "Unnamed at 0m of named bridge; pleiades ID mismatch raises uncertainty"
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed at 0m of named bridge; pleiades ID mism"
 },
 {
 "pair": 1314,
@@ -15781,10 +15787,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257461",
 "confidence": "low",
-"reason": "Unnamed at 0m of named bridge; pleiades ID mismatch raises uncertainty"
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed at 0m of named bridge; pleiades ID mism"
 },
 {
 "pair": 1315,
@@ -15793,10 +15799,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257461",
 "confidence": "low",
-"reason": "Unnamed at 0m of named bridge; pleiades ID mismatch raises uncertainty"
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unnamed at 0m of named bridge; pleiades ID mism"
 },
 {
 "pair": 1316,
@@ -15877,10 +15883,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257462",
-"confidence": "high",
-"reason": "Named bridge + unnamed bridge at 0m, same type, B is survey point variant"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named bridge + unnamed bridge at 0m, same type,"
 },
 {
 "pair": 1323,
@@ -15889,10 +15895,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257462",
-"confidence": "high",
-"reason": "Named bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named bridge + unnamed bridge at 0m, same type"
 },
 {
 "pair": 1324,
@@ -15901,10 +15907,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257462",
-"confidence": "high",
-"reason": "Named bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named bridge + unnamed bridge at 0m, same type"
 },
 {
 "pair": 1325,
@@ -15913,10 +15919,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257462",
-"confidence": "high",
-"reason": "Named bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named bridge + unnamed bridge at 0m, same type"
 },
 {
 "pair": 1326,
@@ -15985,10 +15991,10 @@
 "b": "pleiades:257462",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257463",
-"confidence": "high",
-"reason": "Named Ad Sorores bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Ad Sorores bridge + unnamed bridge at 0m,"
 },
 {
 "pair": 1332,
@@ -15997,10 +16003,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257463",
-"confidence": "high",
-"reason": "Named Ad Sorores bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Ad Sorores bridge + unnamed bridge at 0m,"
 },
 {
 "pair": 1333,
@@ -16009,10 +16015,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257463",
-"confidence": "high",
-"reason": "Named Ad Sorores bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Ad Sorores bridge + unnamed bridge at 0m,"
 },
 {
 "pair": 1334,
@@ -16021,10 +16027,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257463",
-"confidence": "high",
-"reason": "Named Ad Sorores bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Ad Sorores bridge + unnamed bridge at 0m,"
 },
 {
 "pair": 1335,
@@ -16081,10 +16087,10 @@
 "b": "pleiades:257462",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257464",
-"confidence": "high",
-"reason": "Named Caurium bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Caurium bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1340,
@@ -16093,10 +16099,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257464",
-"confidence": "high",
-"reason": "Named Caurium bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Caurium bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1341,
@@ -16105,10 +16111,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257464",
-"confidence": "high",
-"reason": "Named Caurium bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Caurium bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1342,
@@ -16117,10 +16123,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257464",
-"confidence": "high",
-"reason": "Named Caurium bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Caurium bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1343,
@@ -16165,10 +16171,10 @@
 "b": "pleiades:257462",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257465",
-"confidence": "high",
-"reason": "Named Raposera bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Raposera bridge + unnamed bridge at 0m, s"
 },
 {
 "pair": 1347,
@@ -16177,10 +16183,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257465",
-"confidence": "high",
-"reason": "Named Raposera bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Raposera bridge + unnamed bridge at 0m, s"
 },
 {
 "pair": 1348,
@@ -16189,10 +16195,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257465",
-"confidence": "high",
-"reason": "Named Raposera bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Raposera bridge + unnamed bridge at 0m, s"
 },
 {
 "pair": 1349,
@@ -16201,10 +16207,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257465",
-"confidence": "high",
-"reason": "Named Raposera bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named Raposera bridge + unnamed bridge at 0m, s"
 },
 {
 "pair": 1350,
@@ -16237,10 +16243,10 @@
 "b": "pleiades:257462",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257466",
-"confidence": "high",
-"reason": "Named E Norba bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named E Norba bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1353,
@@ -16249,10 +16255,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257466",
-"confidence": "high",
-"reason": "Named E Norba bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named E Norba bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1354,
@@ -16261,10 +16267,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257466",
-"confidence": "high",
-"reason": "Named E Norba bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named E Norba bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1355,
@@ -16273,10 +16279,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:257466",
-"confidence": "high",
-"reason": "Named E Norba bridge + unnamed bridge at 0m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named E Norba bridge + unnamed bridge at 0m, sa"
 },
 {
 "pair": 1356,
@@ -16357,10 +16363,10 @@
 "b": "pleiades:257462",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Same type (bridge), 0m, A has BAtlas description; B is unnamed survey record."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (bridge), 0m, A has BAtlas descriptio"
 },
 {
 "pair": 1363,
@@ -16369,10 +16375,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Untitled bridges at 0m distance; A has location description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridges at 0m distance; A has location"
 },
 {
 "pair": 1364,
@@ -16381,10 +16387,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Untitled bridges at 0m; A has descriptive context."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridges at 0m; A has descriptive conte"
 },
 {
 "pair": 1365,
@@ -16393,10 +16399,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Untitled bridges at 0m; A has descriptive context."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridges at 0m; A has descriptive conte"
 },
 {
 "pair": 1366,
@@ -16405,10 +16411,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Untitled bridges at 0m; A has descriptive context."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled bridges at 0m; A has descriptive conte"
 },
 {
 "pair": 1367,
@@ -16417,10 +16423,10 @@
 "b": "pleiades:257463",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Both untitled empty bridges at 0m; likely duplicate survey records."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both untitled empty bridges at 0m; likely dupli"
 },
 {
 "pair": 1368,
@@ -16429,10 +16435,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m distance; survey point cluster."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m distance; survey p"
 },
 {
 "pair": 1369,
@@ -16441,10 +16447,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1370,
@@ -16453,10 +16459,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1371,
@@ -16465,10 +16471,10 @@
 "b": "pleiades:257464",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1372,
@@ -16477,10 +16483,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1373,
@@ -16489,10 +16495,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1374,
@@ -16501,10 +16507,10 @@
 "b": "pleiades:257465",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1375,
@@ -16513,10 +16519,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1376,
@@ -16525,10 +16531,10 @@
 "b": "pleiades:257466",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Untitled empty bridges at 0m."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Untitled empty bridges at 0m."
 },
 {
 "pair": 1377,
@@ -16597,10 +16603,10 @@
 "b": "pleiades:256706",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled aqueduct at 0m; A has name and identity."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled aqueduct at 0m; A ha"
 },
 {
 "pair": 1383,
@@ -16609,10 +16615,10 @@
 "b": "pleiades:256707",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled aqueduct at 0m; A has richer identity."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled aqueduct at 0m; A ha"
 },
 {
 "pair": 1384,
@@ -16717,10 +16723,10 @@
 "b": "pleiades:256707",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Named aqueduct vs Untitled aqueduct at 0m; A has richer identity."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs Untitled aqueduct at 0m; A ha"
 },
 {
 "pair": 1393,
@@ -16813,10 +16819,10 @@
 "b": "pleiades:256706",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:256707",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m, A named (Lobón), B unnamed; A richer (has name + dates)"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m, A named (Lobón), B un"
 },
 {
 "pair": 1401,
@@ -17077,10 +17083,10 @@
 "b": "pleiades:256706",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:256705",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m, both unnamed; A has richer description (Cornalvo aqueduct)"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m, both unnamed; A has r"
 },
 {
 "pair": 1423,
@@ -17089,10 +17095,10 @@
 "b": "pleiades:256707",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:256705",
-"confidence": "high",
-"reason": "Same type (aqueduct), 0m, both unnamed; A has richer description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m, both unnamed; A has r"
 },
 {
 "pair": 1424,
@@ -17137,10 +17143,10 @@
 "b": "pleiades:256707",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:256706",
-"confidence": "medium",
-"reason": "Same type (aqueduct), 0m, both unnamed/empty; likely duplicates from different sources"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same type (aqueduct), 0m, both unnamed/empty; l"
 },
 {
 "pair": 1428,
@@ -17977,10 +17983,10 @@
 "b": "building:197815",
 "bname": "Aqueduct near Tergeste",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:188000",
-"confidence": "high",
-"reason": "Identical aqueduct names and type at Tergeste—clear duplicate"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical aqueduct names and type at Tergeste—c"
 },
 {
 "pair": 1498,
@@ -18001,10 +18007,10 @@
 "b": "pleiades:197812",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:188000",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled at distance 0; named record richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled at distance 0; named"
 },
 {
 "pair": 1500,
@@ -18013,10 +18019,10 @@
 "b": "pleiades:197813",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:188000",
-"confidence": "high",
-"reason": "Tergeste aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Tergeste aqueduct vs untitled empty record at d"
 },
 {
 "pair": 1501,
@@ -18025,10 +18031,10 @@
 "b": "pleiades:197814",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:188000",
-"confidence": "high",
-"reason": "Tergeste aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Tergeste aqueduct vs untitled empty record at d"
 },
 {
 "pair": 1502,
@@ -18037,10 +18043,10 @@
 "b": "pleiades:197815",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:188000",
-"confidence": "high",
-"reason": "Tergeste aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Tergeste aqueduct vs untitled empty record at d"
 },
 {
 "pair": 1503,
@@ -18121,10 +18127,10 @@
 "b": "pleiades:197813",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:197812",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled at distance 0; named record richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled at distance 0; named"
 },
 {
 "pair": 1510,
@@ -18133,10 +18139,10 @@
 "b": "pleiades:197814",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:197812",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled empty record at dist"
 },
 {
 "pair": 1511,
@@ -18145,10 +18151,10 @@
 "b": "pleiades:197815",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:197812",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled empty record at dist"
 },
 {
 "pair": 1512,
@@ -18217,10 +18223,10 @@
 "b": "pleiades:197812",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:197813",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled empty record at dist"
 },
 {
 "pair": 1518,
@@ -18229,10 +18235,10 @@
 "b": "pleiades:197814",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:197813",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled empty record at dist"
 },
 {
 "pair": 1519,
@@ -18241,10 +18247,10 @@
 "b": "pleiades:197815",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:197813",
-"confidence": "high",
-"reason": "Named aqueduct vs untitled empty record at distance 0"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct vs untitled empty record at dist"
 },
 {
 "pair": 1520,
@@ -19237,10 +19243,10 @@
 "b": "pleiades:138931",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:138930",
-"confidence": "high",
-"reason": "Named aqueduct + unnamed at distance 0m same type; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct + unnamed at distance 0m same ty"
 },
 {
 "pair": 1603,
@@ -19249,10 +19255,10 @@
 "b": "pleiades:138932",
 "bname": "Untitled",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:138930",
-"confidence": "high",
-"reason": "Named aqueduct + unnamed at distance 0m same type; unnamed record is survey point for named site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Named aqueduct + unnamed at distance 0m same ty"
 },
 {
 "pair": 1604,
@@ -21709,10 +21715,10 @@
 "b": "vici:vici-24648",
 "bname": "Bath, Dura Europos",
 "km": 0.024,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Bath E3 Phase 1 (unified) + generic vici bath Dura; same location + 24m; A has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Bath E3 Phase 1 (unified) + generic vici bath D"
 },
 {
 "pair": 1809,
@@ -21721,10 +21727,10 @@
 "b": "vici:vici-24648",
 "bname": "Bath, Dura Europos",
 "km": 0.029,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Bath E3 Phase 2 (unified) + vici bath Dura-Europos; 29m; A has QID Q125350955."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Bath E3 Phase 2 (unified) + vici bath Dura-Euro"
 },
 {
 "pair": 1810,
@@ -21841,10 +21847,10 @@
 "b": "building:977420436",
 "bname": "Temple of Artemis Azzanathkona Phase 2",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Temple Artemis Azzanathkona vs Phase 2 variant; same shrine + A has QID Q84737320."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple Artemis Azzanathkona vs Phase 2 variant;"
 },
 {
 "pair": 1820,
@@ -21853,10 +21859,10 @@
 "b": "pleiades:977420436",
 "bname": "Temple of Artemis Azzanathkona Phase 2",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "General temple vs Phase 2; same Artemis Azzanathkona shrine; A primary QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: General temple vs Phase 2; same Artemis Azzanat"
 },
 {
 "pair": 1821,
@@ -21865,10 +21871,10 @@
 "b": "pleiades:288390870",
 "bname": "Temple of Artemis Azzanathkona Phase 1 (Dura-Europos)",
 "km": 0.006,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "General vs Phase 1 variant; same temple; A primary QID Q84737320."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: General vs Phase 1 variant; same temple; A prim"
 },
 {
 "pair": 1822,
@@ -21877,10 +21883,10 @@
 "b": "vici:vici-18110",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Identical name + 11m < 150m; A (unified) has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name + 11m < 150m; A (unified) has QI"
 },
 {
 "pair": 1823,
@@ -21889,10 +21895,10 @@
 "b": "building:462038222",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Phase 1 vs general; same Artemis Azzanathkona shrine; B has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 1 vs general; same Artemis Azzanathkona s"
 },
 {
 "pair": 1824,
@@ -21901,10 +21907,10 @@
 "b": "building:977420436",
 "bname": "Temple of Artemis Azzanathkona Phase 2",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Phase 1 vs Phase 2 at 14m; temporal phases same location; A longer name."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 1 vs Phase 2 at 14m; temporal phases same"
 },
 {
 "pair": 1825,
@@ -21913,10 +21919,10 @@
 "b": "pleiades:977420436",
 "bname": "Temple of Artemis Azzanathkona Phase 2",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Phase 1 vs Phase 2; same shrine; B has QID Q118390422."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 1 vs Phase 2; same shrine; B has QID Q118"
 },
 {
 "pair": 1826,
@@ -21925,10 +21931,10 @@
 "b": "pleiades:462038222",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.015,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Phase 1 vs general temple; B has QID + description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 1 vs general temple; B has QID + descript"
 },
 {
 "pair": 1827,
@@ -21937,10 +21943,10 @@
 "b": "vici:vici-18110",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Phase 1 vs vici record at 0m; both Artemis Azzanathkona; B has description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 1 vs vici record at 0m; both Artemis Azza"
 },
 {
 "pair": 1828,
@@ -21949,10 +21955,10 @@
 "b": "pleiades:462038222",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.013,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Phase 2 vs general; same shrine; B has QID Q84737320."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 2 vs general; same shrine; B has QID Q847"
 },
 {
 "pair": 1829,
@@ -21961,10 +21967,10 @@
 "b": "pleiades:288390870",
 "bname": "Temple of Artemis Azzanathkona Phase 1 (Dura-Europos)",
 "km": 0.01,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Phase 2 vs Phase 1 variant; same shrine; B has QID + description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 2 vs Phase 1 variant; same shrine; B has "
 },
 {
 "pair": 1830,
@@ -21973,10 +21979,10 @@
 "b": "vici:vici-18110",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Phase 2 vs vici record; A more specific name; same shrine."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 2 vs vici record; A more specific name; s"
 },
 {
 "pair": 1831,
@@ -22069,10 +22075,10 @@
 "b": "pleiades:499882359",
 "bname": "Temple of Bel at Dura-Europos",
 "km": 0.003,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Bel (transliteration variants) + 3m; both QID; B has richer description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Bel (transliteration variants) + 3m; both QID; "
 },
 {
 "pair": 1839,
@@ -22081,10 +22087,10 @@
 "b": "vici:vici-18108",
 "bname": "Temple of the Palmyrene Gods",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "0m distance same location; Bel is Palmyrene deity; A has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 0m distance same location; Bel is Palmyrene dei"
 },
 {
 "pair": 1840,
@@ -22093,10 +22099,10 @@
 "b": "building:888638014",
 "bname": "Temple of Bêl",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Identical names (Bel/Bêl), same QID Q3517541, 0m distance, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical names (Bel/Bêl), same QID Q3517541, 0"
 },
 {
 "pair": 1841,
@@ -22105,10 +22111,10 @@
 "b": "pleiades:888638014",
 "bname": "Temple of Bêl",
 "km": 0.003,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Same deity (Bel/Bêl), same QID Q3517541, 3m distance"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same deity (Bel/Bêl), same QID Q3517541, 3m dis"
 },
 {
 "pair": 1842,
@@ -22117,10 +22123,10 @@
 "b": "vici:vici-18108",
 "bname": "Temple of the Palmyrene Gods",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "0m distance, same type; different names but likely variant historical names for same temple"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 0m distance, same type; different names but lik"
 },
 {
 "pair": 1843,
@@ -22285,10 +22291,10 @@
 "b": "vici:vici-18110",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Same Artemis Azzanathkona temple, 11m distance, same deity"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same Artemis Azzanathkona temple, 11m distance,"
 },
 {
 "pair": 1857,
@@ -22429,10 +22435,10 @@
 "b": "vici:vici-18108",
 "bname": "Temple of the Palmyrene Gods",
 "km": 0.003,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "3m distance, same type; likely variant names for same temple despite name difference"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 3m distance, same type; likely variant names fo"
 },
 {
 "pair": 1869,
@@ -22513,10 +22519,10 @@
 "b": "pleiades:888638014",
 "bname": "Temple of Bêl",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "0m distance, identical location and description despite different QIDs; one QID likely incorrect"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 0m distance, identical location and description"
 },
 {
 "pair": 1876,
@@ -22525,10 +22531,10 @@
 "b": "vici:vici-18108",
 "bname": "Temple of the Palmyrene Gods",
 "km": 0.003,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "3m distance, same type; likely variant names for Bel temple"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 3m distance, same type; likely variant names fo"
 },
 {
 "pair": 1877,
@@ -22537,10 +22543,10 @@
 "b": "pleiades:977420436",
 "bname": "Temple of Artemis Azzanathkona Phase 2",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "high",
-"reason": "Same Artemis Azzanathkona temple, Phase 2 more specific, 14m distance"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same Artemis Azzanathkona temple, Phase 2 more "
 },
 {
 "pair": 1878,
@@ -22549,10 +22555,10 @@
 "b": "vici:vici-18110",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.015,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Identical Artemis Azzanathkona name, 15m distance"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical Artemis Azzanathkona name, 15m distan"
 },
 {
 "pair": 1879,
@@ -22561,10 +22567,10 @@
 "b": "pleiades:977420436",
 "bname": "Temple of Artemis Azzanathkona Phase 2",
 "km": 0.007,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "B",
-"confidence": "medium",
-"reason": "Phase 1 and Phase 2 of same temple, 7m distance, overlapping years suggest continuous/renovated site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Phase 1 and Phase 2 of same temple, 7m distance"
 },
 {
 "pair": 1880,
@@ -22573,10 +22579,10 @@
 "b": "pleiades:462038222",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.01,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "medium",
-"reason": "Identical names, same type, 10m; same temple with different phase records."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical names, same type, 10m; same temple wi"
 },
 {
 "pair": 1881,
@@ -22585,10 +22591,10 @@
 "b": "vici:vici-18110",
 "bname": "Temple of Artemis Azzanathkona",
 "km": 0.005,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Identical names, same type, 5m; A has QID, B lacks QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical names, same type, 5m; A has QID, B la"
 },
 {
 "pair": 1882,
@@ -23905,10 +23911,10 @@
 "b": "religion:rel-016",
 "bname": "Temple of Magna Mater",
 "km": 0.022,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-016",
-"confidence": "medium",
-"reason": "Identical name, same type, 22m; QID variance suggests duplication; B richer"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, same type, 22m; QID variance su"
 },
 {
 "pair": 1992,
@@ -23929,10 +23935,10 @@
 "b": "vici:vici-17956",
 "bname": "Temple of Cybele, Palatine Hill",
 "km": 0.022,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:192818177",
-"confidence": "high",
-"reason": "Same deity (Magna Mater/Cybele), same type, 22m; A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same deity (Magna Mater/Cybele), same type, 22m"
 },
 {
 "pair": 1994,
@@ -24349,10 +24355,10 @@
 "b": "vici:vici-15010",
 "bname": "Temple of Vesta",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:55302071",
-"confidence": "high",
-"reason": "Identical name and type, 0m distance; unified QID record"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name and type, 0m distance; unified Q"
 },
 {
 "pair": 2029,
@@ -24505,10 +24511,10 @@
 "b": "vici:vici-15010",
 "bname": "Temple of Vesta",
 "km": 0.067,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-005",
-"confidence": "high",
-"reason": "Identical name and type at 67m — coordinate error between unified and vici"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name and type at 67m — coordinate err"
 },
 {
 "pair": 2042,
@@ -24625,10 +24631,10 @@
 "b": "vici:vici-17956",
 "bname": "Temple of Cybele, Palatine Hill",
 "km": 0.044,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-016",
-"confidence": "high",
-"reason": "Magna Mater and Cybele are same goddess, 44m apart, unified has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Magna Mater and Cybele are same goddess, 44m ap"
 },
 {
 "pair": 2052,
@@ -25873,10 +25879,10 @@
 "b": "vici:vici-15010",
 "bname": "Temple of Vesta",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:55302071",
-"confidence": "high",
-"reason": "Temple of Vesta: identical names, 0m distance, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Vesta: identical names, 0m distance, "
 },
 {
 "pair": 2156,
@@ -26089,10 +26095,10 @@
 "b": "religion:rel-016",
 "bname": "Temple of Magna Mater",
 "km": 0.021,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:192818177",
-"confidence": "medium",
-"reason": "Both Magna Mater/Cybele on Palatine, -191 founding; different QIDs explain separation"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both Magna Mater/Cybele on Palatine, -191 found"
 },
 {
 "pair": 2174,
@@ -26113,10 +26119,10 @@
 "b": "vici:vici-17956",
 "bname": "Temple of Cybele, Palatine Hill",
 "km": 0.023,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:192818177",
-"confidence": "high",
-"reason": "Magna Mater = Cybele, Palatine, 23m, vici lacks QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Magna Mater = Cybele, Palatine, 23m, vici lacks"
 },
 {
 "pair": 2176,
@@ -27121,10 +27127,10 @@
 "b": "religion:rel-037",
 "bname": "Parthenon",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:168254096",
-"confidence": "high",
-"reason": "Both named Parthenon at 14m, identical name, A has QID Q10288"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both named Parthenon at 14m, identical name, A "
 },
 {
 "pair": 2260,
@@ -27217,10 +27223,10 @@
 "b": "vici:vici-11523",
 "bname": "Parthenon",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:168254096",
-"confidence": "high",
-"reason": "Both named Parthenon at 9m, identical name, A has QID Q10288"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both named Parthenon at 9m, identical name, A h"
 },
 {
 "pair": 2268,
@@ -27709,10 +27715,10 @@
 "b": "vici:vici-11523",
 "bname": "Parthenon",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-037",
-"confidence": "high",
-"reason": "Same Parthenon, 11m distance, keeper has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same Parthenon, 11m distance, keeper has QID"
 },
 {
 "pair": 2309,
@@ -28045,10 +28051,10 @@
 "b": "vici:vici-26307",
 "bname": "Athen, Old Temple of Athena",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:418714190",
-"confidence": "high",
-"reason": "Both old Athena temples predating Parthenon; 11m apart, A richer description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both old Athena temples predating Parthenon; 11"
 },
 {
 "pair": 2337,
@@ -28321,10 +28327,10 @@
 "b": "vici:vici-26307",
 "bname": "Athen, Old Temple of Athena",
 "km": 0.005,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:929024657",
-"confidence": "high",
-"reason": "Both old Athena temples; Dörpfeld is 6th century; 5m apart, A unified silo."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both old Athena temples; Dörpfeld is 6th centur"
 },
 {
 "pair": 2360,
@@ -28813,10 +28819,10 @@
 "b": "vici:vici-26313",
 "bname": "Arthemision of Athens",
 "km": 0.004,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:573299847",
-"confidence": "high",
-"reason": "Artemis Brauronia, nearly identical names, 4m, shrine/temple match."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Artemis Brauronia, nearly identical names, 4m, "
 },
 {
 "pair": 2401,
@@ -28825,10 +28831,10 @@
 "b": "vici:vici-26314",
 "bname": "Brauroneion of Athens",
 "km": 0.005,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:573299847",
-"confidence": "high",
-"reason": "Artemis Brauronia sanctuary, 5m apart, shrine/temple match. A has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Artemis Brauronia sanctuary, 5m apart, shrine/t"
 },
 {
 "pair": 2402,
@@ -28909,10 +28915,10 @@
 "b": "religion:rel-037",
 "bname": "Parthenon",
 "km": 0.012,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:168254096",
-"confidence": "high",
-"reason": "Parthenon identical name, 12m, same building. A has primary QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Parthenon identical name, 12m, same building. A"
 },
 {
 "pair": 2409,
@@ -29005,10 +29011,10 @@
 "b": "vici:vici-11523",
 "bname": "Parthenon",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:168254096",
-"confidence": "high",
-"reason": "Parthenon identical name, 11m, same type. A has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Parthenon identical name, 11m, same type. A has"
 },
 {
 "pair": 2417,
@@ -30337,10 +30343,10 @@
 "b": "vici:vici-61595",
 "bname": "Cosa's main temple",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:103018178",
-"confidence": "medium",
-"reason": "Arx location of main temple; 20m; Arx=main temple at Cosa"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Arx location of main temple; 20m; Arx=main temp"
 },
 {
 "pair": 2528,
@@ -30373,10 +30379,10 @@
 "b": "vici:vici-61595",
 "bname": "Cosa's main temple",
 "km": 0.016,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:387686949",
-"confidence": "high",
-"reason": "Capitolium=main temple conceptually; 16m, same type"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Capitolium=main temple conceptually; 16m, same "
 },
 {
 "pair": 2531,
@@ -30397,10 +30403,10 @@
 "b": "vici:vici-61595",
 "bname": "Cosa's main temple",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:103018178",
-"confidence": "high",
-"reason": "Arx location of main temple; 20m; A has qid"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Arx location of main temple; 20m; A has qid"
 },
 {
 "pair": 2533,
@@ -30421,10 +30427,10 @@
 "b": "vici:vici-61595",
 "bname": "Cosa's main temple",
 "km": 0.017,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:103018178",
-"confidence": "high",
-"reason": "Arx=main temple; 17m; A has qid"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Arx=main temple; 17m; A has qid"
 },
 {
 "pair": 2535,
@@ -30445,10 +30451,10 @@
 "b": "vici:vici-61595",
 "bname": "Cosa's main temple",
 "km": 0.013,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:387686949",
-"confidence": "high",
-"reason": "Capitolium=main temple; 13m; A has qid"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Capitolium=main temple; 13m; A has qid"
 },
 {
 "pair": 2537,
@@ -32521,10 +32527,10 @@
 "b": "vici:vici-11096",
 "bname": "HERAION",
 "km": 0.042,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:599641",
-"confidence": "high",
-"reason": "Heraion/HERAION identical, 42m, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Heraion/HERAION identical, 42m, A has QID"
 },
 {
 "pair": 2710,
@@ -32593,10 +32599,10 @@
 "b": "vici:vici-11096",
 "bname": "HERAION",
 "km": 0.041,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:599641",
-"confidence": "high",
-"reason": "Heraion/HERAION identical, 41m, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Heraion/HERAION identical, 41m, A has QID"
 },
 {
 "pair": 2716,
@@ -32725,10 +32731,10 @@
 "b": "vici:vici-15032",
 "bname": "Temple of Hadrian",
 "km": 0.045,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-019",
-"confidence": "high",
-"reason": "Same temple (Hadrian), 45m error, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same temple (Hadrian), 45m error, A has QID"
 },
 {
 "pair": 2727,
@@ -33313,10 +33319,10 @@
 "b": "vici:vici-23416",
 "bname": "Temple of Khonsu at Karnak",
 "km": 0.01,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:348714102",
-"confidence": "high",
-"reason": "Identical temple (Temple of Khonsu at Karnak), 10m, A in unified silo with QID Q746382"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical temple (Temple of Khonsu at Karnak), "
 },
 {
 "pair": 2776,
@@ -33493,10 +33499,10 @@
 "b": "vici:vici-23416",
 "bname": "Temple of Khonsu at Karnak",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:348714102",
-"confidence": "high",
-"reason": "Identical temple (Temple of Khonsu at Karnak), 9m, A has QID Q522862 and detailed description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical temple (Temple of Khonsu at Karnak), "
 },
 {
 "pair": 2791,
@@ -35569,10 +35575,10 @@
 "b": "vici:vici-2143",
 "bname": "Nemea",
 "km": 0.066,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:570504",
-"confidence": "high",
-"reason": "Identical name, same type, 66m—VICI import of unified record"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name, same type, 66m—VICI import of u"
 },
 {
 "pair": 2964,
@@ -35605,10 +35611,10 @@
 "b": "vici:vici-28386",
 "bname": "Nemean Zeus Temple",
 "km": 0.052,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:570504",
-"confidence": "high",
-"reason": "Both record Temple/Sanctuary of Zeus at Nemea; QID present on A"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both record Temple/Sanctuary of Zeus at Nemea; "
 },
 {
 "pair": 2967,
@@ -35629,10 +35635,10 @@
 "b": "building:570504",
 "bname": "Nemea",
 "km": 0.058,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:570504",
-"confidence": "medium",
-"reason": "Both at Nemea, both temple type; A lacks QID, likely duplicate record of sanctuary"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both at Nemea, both temple type; A lacks QID, l"
 },
 {
 "pair": 2969,
@@ -35665,10 +35671,10 @@
 "b": "vici:vici-2143",
 "bname": "Nemea",
 "km": 0.018,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:109791198",
-"confidence": "high",
-"reason": "18m apart, generic 'Nemea' record of specific temple site"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 18m apart, generic 'Nemea' record of specific t"
 },
 {
 "pair": 2972,
@@ -35677,10 +35683,10 @@
 "b": "vici:vici-28386",
 "bname": "Nemean Zeus Temple",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:109791198",
-"confidence": "high",
-"reason": "14m apart, both refer to Temple of Zeus at Nemea; unified silo preferred"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 14m apart, both refer to Temple of Zeus at Neme"
 },
 {
 "pair": 2973,
@@ -35713,10 +35719,10 @@
 "b": "vici:vici-2143",
 "bname": "Nemea",
 "km": 0.016,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:109791198",
-"confidence": "high",
-"reason": "16m apart, generic Nemea record of Temple of Zeus; QID present on A"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 16m apart, generic Nemea record of Temple of Ze"
 },
 {
 "pair": 2976,
@@ -35725,10 +35731,10 @@
 "b": "vici:vici-28386",
 "bname": "Nemean Zeus Temple",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:109791198",
-"confidence": "high",
-"reason": "9m apart, both describe Temple of Zeus at Nemea; QID present on A"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 9m apart, both describe Temple of Zeus at Nemea"
 },
 {
 "pair": 2977,
@@ -35749,10 +35755,10 @@
 "b": "vici:vici-2143",
 "bname": "Nemea",
 "km": 0.069,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:570504",
-"confidence": "high",
-"reason": "Same name despite type variation (sanctuary vs temple); QID on A"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same name despite type variation (sanctuary vs "
 },
 {
 "pair": 2979,
@@ -35785,10 +35791,10 @@
 "b": "vici:vici-28386",
 "bname": "Nemean Zeus Temple",
 "km": 0.055,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:570504",
-"confidence": "high",
-"reason": "Both describe Temple/Sanctuary of Zeus at Nemea; QID on A"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both describe Temple/Sanctuary of Zeus at Nemea"
 },
 {
 "pair": 2982,
@@ -35845,10 +35851,10 @@
 "b": "vici:vici-28386",
 "bname": "Nemean Zeus Temple",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-28386",
-"confidence": "high",
-"reason": "14m apart, same temple site; more specific name in B"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 14m apart, same temple site; more specific name"
 },
 {
 "pair": 2987,
@@ -36001,10 +36007,10 @@
 "b": "vici:vici-31777",
 "bname": "Aphrodisias, Basilica",
 "km": 0.029,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-31777",
-"confidence": "medium",
-"reason": "29m, generic 'Temple/Church' record matches specific basilica; B more specific"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: 29m, generic 'Temple/Church' record matches spe"
 },
 {
 "pair": 3000,
@@ -36013,10 +36019,10 @@
 "b": "vici:vici-31779",
 "bname": "Aphrodite of Aphrodisias",
 "km": 0.018,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-31779",
-"confidence": "high",
-"reason": "Generic 'Temple/Church' vs specific 'Aphrodite of Aphrodisias' at 18m — same type, close distance."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Generic 'Temple/Church' vs specific 'Aphrodite "
 },
 {
 "pair": 3001,
@@ -36025,10 +36031,10 @@
 "b": "vici:vici-18171",
 "bname": "Temple of Aphrodite, Aphrodisias",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-18171",
-"confidence": "high",
-"reason": "Generic 'Temple/Church' vs 'Temple of Aphrodite, Aphrodisias' at 11m — same Aphrodite site."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Generic 'Temple/Church' vs 'Temple of Aphrodite"
 },
 {
 "pair": 3002,
@@ -36085,10 +36091,10 @@
 "b": "vici:vici-31779",
 "bname": "Aphrodite of Aphrodisias",
 "km": 0.021,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-18171",
-"confidence": "high",
-"reason": "Both temple to Aphrodite at Aphrodisias, 21m apart, A has longer name."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both temple to Aphrodite at Aphrodisias, 21m ap"
 },
 {
 "pair": 3007,
@@ -36205,10 +36211,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.103,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:570531",
-"confidence": "high",
-"reason": "Same name 'Olympia', 103m apart (<150m threshold), A has QID Q38888."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same name 'Olympia', 103m apart (<150m threshol"
 },
 {
 "pair": 3017,
@@ -36325,10 +36331,10 @@
 "b": "vici:vici-17793",
 "bname": "Metroon, Olympia",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:98504070",
-"confidence": "high",
-"reason": "Identical 'Metroon at Olympia', 0m distance, same type."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical 'Metroon at Olympia', 0m distance, sa"
 },
 {
 "pair": 3027,
@@ -36409,10 +36415,10 @@
 "b": "religion:rel-031",
 "bname": "Temple of Hera (Olympia)",
 "km": 0.035,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:584889481",
-"confidence": "high",
-"reason": "Both Temple of Hera at Olympia, 35m apart, A has QID Q633572."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both Temple of Hera at Olympia, 35m apart, A ha"
 },
 {
 "pair": 3034,
@@ -36457,10 +36463,10 @@
 "b": "vici:vici-17797",
 "bname": "Temple of Hera, Olympia",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:584889481",
-"confidence": "high",
-"reason": "Identical Temple of Hera at Olympia, 9m apart, A has QID Q633572."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical Temple of Hera at Olympia, 9m apart, "
 },
 {
 "pair": 3038,
@@ -36493,10 +36499,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.021,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:316294900",
-"confidence": "high",
-"reason": "Same temple at Olympia, 21m < 150m, coordin error likely"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same temple at Olympia, 21m < 150m, coordin err"
 },
 {
 "pair": 3041,
@@ -36505,10 +36511,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.048,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-028",
-"confidence": "high",
-"reason": "Temple of Zeus at Olympia, vici generic name, 48m < 150m, A richer desc"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Zeus at Olympia, vici generic name, 4"
 },
 {
 "pair": 3042,
@@ -36529,10 +36535,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.131,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-031",
-"confidence": "high",
-"reason": "Temple of Hera vs generic Olympia, 131m < 150m, same site coordinate error"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Hera vs generic Olympia, 131m < 150m,"
 },
 {
 "pair": 3044,
@@ -36541,10 +36547,10 @@
 "b": "vici:vici-17797",
 "bname": "Temple of Hera, Olympia",
 "km": 0.044,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-031",
-"confidence": "high",
-"reason": "Identical temple name, 44m < 150m, A in unified silo"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical temple name, 44m < 150m, A in unified"
 },
 {
 "pair": 3045,
@@ -36553,10 +36559,10 @@
 "b": "religion:rel-031",
 "bname": "Temple of Hera (Olympia)",
 "km": 0.035,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:584889481",
-"confidence": "high",
-"reason": "Same Temple of Hera, 35m < 150m, A has QID Q633572"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same Temple of Hera, 35m < 150m, A has QID Q633"
 },
 {
 "pair": 3046,
@@ -36565,10 +36571,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.113,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:584889481",
-"confidence": "high",
-"reason": "Temple of Hera vs generic Olympia, 113m < 150m, A unified+QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Hera vs generic Olympia, 113m < 150m,"
 },
 {
 "pair": 3047,
@@ -36577,10 +36583,10 @@
 "b": "vici:vici-17797",
 "bname": "Temple of Hera, Olympia",
 "km": 0.01,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:584889481",
-"confidence": "high",
-"reason": "Identical Temple of Hera name, 10m < 150m, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical Temple of Hera name, 10m < 150m, A ha"
 },
 {
 "pair": 3048,
@@ -36601,10 +36607,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.017,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:316294900",
-"confidence": "high",
-"reason": "Temple of Zeus vs generic Olympia, 17m < 150m, A unified+QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple of Zeus vs generic Olympia, 17m < 150m, "
 },
 {
 "pair": 3050,
@@ -36685,10 +36691,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.104,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:570531",
-"confidence": "high",
-"reason": "Same name Olympia, 104m < 150m, A unified+QID, vici mislabeled as temple"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same name Olympia, 104m < 150m, A unified+QID, "
 },
 {
 "pair": 3057,
@@ -36841,10 +36847,10 @@
 "b": "vici:vici-17793",
 "bname": "Metroon, Olympia",
 "km": 0.001,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:98504070",
-"confidence": "high",
-"reason": "Identical Metroon name, 1m << 150m, A unified+QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical Metroon name, 1m << 150m, A unified+Q"
 },
 {
 "pair": 3070,
@@ -36853,10 +36859,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.114,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:98504070",
-"confidence": "high",
-"reason": "Metroon temple vs generic Olympia, 114m < 150m, A unified+QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Metroon temple vs generic Olympia, 114m < 150m,"
 },
 {
 "pair": 3071,
@@ -36937,10 +36943,10 @@
 "b": "vici:vici-2134",
 "bname": "Olympia",
 "km": 0.113,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-17793",
-"confidence": "high",
-"reason": "Metroon Olympia vs generic Olympia, 113m < 150m, A more specific name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Metroon Olympia vs generic Olympia, 113m < 150m"
 },
 {
 "pair": 3078,
@@ -36961,10 +36967,10 @@
 "b": "vici:vici-26007",
 "bname": "Olympia, Altar at Metroon",
 "km": 0.021,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-17793",
-"confidence": "high",
-"reason": "Altar at Metroon described from same complex location, 21m, A clearer name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Altar at Metroon described from same complex lo"
 },
 {
 "pair": 3080,
@@ -38449,10 +38455,10 @@
 "b": "vici:vici-31424",
 "bname": "Dionissos Theatre - Ikarius",
 "km": 0.034,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:177668735",
-"confidence": "high",
-"reason": "Both reference Icarion/Ikarius; 34m within error margin; unified has description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Both reference Icarion/Ikarius; 34m within erro"
 },
 {
 "pair": 3204,
@@ -38461,10 +38467,10 @@
 "b": "vici:vici-31424",
 "bname": "Dionissos Theatre - Ikarius",
 "km": 0.034,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:982593692",
-"confidence": "high",
-"reason": "Sanctuary of Dionysos encompasses the theater; unified has fuller description of complex"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Sanctuary of Dionysos encompasses the theater; "
 },
 {
 "pair": 3205,
@@ -41437,10 +41443,10 @@
 "b": "vici:vici-4189",
 "bname": "Amphitheatre Corinth",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:54081048",
-"confidence": "high",
-"reason": "Corinth amphitheater, 0m, A has QID Q28973922."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Corinth amphitheater, 0m, A has QID Q28973922."
 },
 {
 "pair": 3453,
@@ -41449,10 +41455,10 @@
 "b": "building:54081048",
 "bname": "Roman amphitheater at Corinth",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:54081048",
-"confidence": "medium",
-"reason": "Unified duplicates of Corinth amphitheater; different QIDs suggest data issue. B richer."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Unified duplicates of Corinth amphitheater; dif"
 },
 {
 "pair": 3454,
@@ -41461,10 +41467,10 @@
 "b": "vici:vici-4189",
 "bname": "Amphitheatre Corinth",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "amphitheater:corinth",
-"confidence": "high",
-"reason": "Same amphitheater, unified preferred."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same amphitheater, unified preferred."
 },
 {
 "pair": 3455,
@@ -41761,10 +41767,10 @@
 "b": "vici:vici-39143",
 "bname": "Split, Cathedral of Saint Domnius",
 "km": 0.024,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:776855891",
-"confidence": "high",
-"reason": "Diocletian mausoleum became cathedral; same structure."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Diocletian mausoleum became cathedral; same str"
 },
 {
 "pair": 3480,
@@ -41773,10 +41779,10 @@
 "b": "vici:vici-39143",
 "bname": "Split, Cathedral of Saint Domnius",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "religion:rel-057",
-"confidence": "high",
-"reason": "Temple repurposed as cathedral in Diocletian's Palace; same physical structure, 20m apart in Split"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Temple repurposed as cathedral in Diocletian's "
 },
 {
 "pair": 3481,
@@ -42721,10 +42727,10 @@
 "b": "vici:vici-83410",
 "bname": "Roman republican temple",
 "km": 0.01,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Capitolium of Brixia, same temple, 10m distance, A has QID, specific name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Capitolium of Brixia, same temple, 10m distance"
 },
 {
 "pair": 3560,
@@ -42733,10 +42739,10 @@
 "b": "vici:vici-8480",
 "bname": "Tempio capitolino",
 "km": 0.023,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:444468888",
-"confidence": "high",
-"reason": "Same Capitolium/Tempio capitolino, 23m, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same Capitolium/Tempio capitolino, 23m, A has Q"
 },
 {
 "pair": 3561,
@@ -43165,10 +43171,10 @@
 "b": "vici:vici-18004",
 "bname": "Central Basilica, Apollonia",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:244211030",
-"confidence": "high",
-"reason": "Central Church/Basilica, 9m, A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Central Church/Basilica, 9m, A has QID"
 },
 {
 "pair": 3597,
@@ -43225,10 +43231,10 @@
 "b": "vici:vici-18004",
 "bname": "Central Basilica, Apollonia",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "A",
-"confidence": "high",
-"reason": "Central church/basilica, 9m, A has QID Q104778362"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Central church/basilica, 9m, A has QID Q1047783"
 },
 {
 "pair": 3602,
@@ -45505,10 +45511,10 @@
 "b": "vici:vici-11507",
 "bname": "Arapsu-Brücke",
 "km": 0.021,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:965247252",
-"confidence": "high",
-"reason": "Distance 21m; Arapsu bridge; A has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Distance 21m; Arapsu bridge; A has QID."
 },
 {
 "pair": 3792,
@@ -45517,10 +45523,10 @@
 "b": "vici:vici-11507",
 "bname": "Arapsu-Brücke",
 "km": 0.025,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:965247252",
-"confidence": "high",
-"reason": "Distance 25m; A has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Distance 25m; A has QID."
 },
 {
 "pair": 3793,
@@ -45625,10 +45631,10 @@
 "b": "pleiades:640248",
 "bname": "Untitled",
 "km": 0.008,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:640251",
-"confidence": "high",
-"reason": "Same QID Q846250, type, 8m; A named vs B untitled"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same QID Q846250, type, 8m; A named vs B untitl"
 },
 {
 "pair": 3802,
@@ -45637,10 +45643,10 @@
 "b": "building:640251",
 "bname": "Bridge at Aspendos",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:640251",
-"confidence": "high",
-"reason": "Same location Aspendos/Eurymedon, type, 11m; B has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same location Aspendos/Eurymedon, type, 11m; B "
 },
 {
 "pair": 3803,
@@ -45649,10 +45655,10 @@
 "b": "pleiades:640251",
 "bname": "Bridge at Aspendos",
 "km": 0.015,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:640251",
-"confidence": "high",
-"reason": "Same location Aspendos/Eurymedon, type, 15m; B has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same location Aspendos/Eurymedon, type, 15m; B "
 },
 {
 "pair": 3804,
@@ -46657,10 +46663,10 @@
 "b": "vici:vici-12073",
 "bname": "Piercebridge Roman Bridge",
 "km": 0.061,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:607714945",
-"confidence": "high",
-"reason": "Piercebridge, identical names, 61m; keeper has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Piercebridge, identical names, 61m; keeper has "
 },
 {
 "pair": 3888,
@@ -46669,10 +46675,10 @@
 "b": "vici:vici-12073",
 "bname": "Piercebridge Roman Bridge",
 "km": 0.064,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:607714945",
-"confidence": "high",
-"reason": "Same bridge; keeper has QID and River Tees description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge; keeper has QID and River Tees desc"
 },
 {
 "pair": 3889,
@@ -46933,10 +46939,10 @@
 "b": "vici:vici-11592",
 "bname": "Pont Julien",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:149500",
-"confidence": "high",
-"reason": "Pont Julien, identical names, 0m; keeper has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Pont Julien, identical names, 0m; keeper has QI"
 },
 {
 "pair": 3911,
@@ -46945,10 +46951,10 @@
 "b": "vici:vici-11592",
 "bname": "Pont Julien",
 "km": 0.003,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:149500",
-"confidence": "high",
-"reason": "Bridge on Cavalon; keeper has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Bridge on Cavalon; keeper has QID"
 },
 {
 "pair": 3912,
@@ -48001,10 +48007,10 @@
 "b": "vici:vici-11634",
 "bname": "Ponte di Pioraco",
 "km": 0.011,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:965004100",
-"confidence": "high",
-"reason": "Identical name; 11m; A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name; 11m; A has QID"
 },
 {
 "pair": 4000,
@@ -48013,10 +48019,10 @@
 "b": "vici:vici-11634",
 "bname": "Ponte di Pioraco",
 "km": 0.012,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:965004100",
-"confidence": "high",
-"reason": "Identical name + same type + 12m apart + A has QID (Q83344) and richer description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical name + same type + 12m apart + A has "
 },
 {
 "pair": 4001,
@@ -48121,10 +48127,10 @@
 "b": "pleiades:426634",
 "bname": "Ponte di Traiano at Tor Tre Ponti",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:426634",
-"confidence": "high",
-"reason": "Same bridge (Traiano), 20m apart, B has more specific location name at Tor Tre Ponti"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge (Traiano), 20m apart, B has more sp"
 },
 {
 "pair": 4010,
@@ -48133,10 +48139,10 @@
 "b": "vici:vici-11683",
 "bname": "Ponte di Traiano Via Appia",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "vici:vici-11683",
-"confidence": "high",
-"reason": "Same bridge (Traiano), 14m apart, both unified, B specifies Via Appia route"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge (Traiano), 14m apart, both unified,"
 },
 {
 "pair": 4011,
@@ -48157,10 +48163,10 @@
 "b": "building:746490963",
 "bname": "Ponte di Traiano",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:426634",
-"confidence": "high",
-"reason": "Same bridge, 20m apart, A has QID (Q18453921) and complete name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, 20m apart, A has QID (Q18453921) a"
 },
 {
 "pair": 4013,
@@ -48169,10 +48175,10 @@
 "b": "pleiades:746490963",
 "bname": "Ponte di Traiano",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:426634",
-"confidence": "high",
-"reason": "Same bridge across Striscia, 20m apart, A has QID (Q18453921)"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge across Striscia, 20m apart, A has Q"
 },
 {
 "pair": 4014,
@@ -48181,10 +48187,10 @@
 "b": "vici:vici-11683",
 "bname": "Ponte di Traiano Via Appia",
 "km": 0.008,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:426634",
-"confidence": "high",
-"reason": "Same bridge, 8m apart, A has QID (Q18453921)"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, 8m apart, A has QID (Q18453921)"
 },
 {
 "pair": 4015,
@@ -48193,10 +48199,10 @@
 "b": "vici:vici-11686",
 "bname": "Ponte su fosso Striscia",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:426634",
-"confidence": "high",
-"reason": "Same bridge (crosses Striscia), 20m apart, A has QID (Q18453921)"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge (crosses Striscia), 20m apart, A ha"
 },
 {
 "pair": 4016,
@@ -48205,10 +48211,10 @@
 "b": "pleiades:746490963",
 "bname": "Ponte di Traiano",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:426634",
-"confidence": "high",
-"reason": "Same bridge, 20m apart, both pleiades, A has more specific location name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, 20m apart, both pleiades, A has mo"
 },
 {
 "pair": 4017,
@@ -48217,10 +48223,10 @@
 "b": "vici:vici-11683",
 "bname": "Ponte di Traiano Via Appia",
 "km": 0.009,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:426634",
-"confidence": "high",
-"reason": "Same bridge, 9m apart, A has more specific name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, 9m apart, A has more specific name"
 },
 {
 "pair": 4018,
@@ -48229,10 +48235,10 @@
 "b": "vici:vici-11686",
 "bname": "Ponte su fosso Striscia",
 "km": 0.02,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:426634",
-"confidence": "high",
-"reason": "Same bridge, 20m apart, A specifies location at Tor Tre Ponti"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, 20m apart, A specifies location at"
 },
 {
 "pair": 4019,
@@ -48241,10 +48247,10 @@
 "b": "vici:vici-11683",
 "bname": "Ponte di Traiano Via Appia",
 "km": 0.016,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:746490963",
-"confidence": "high",
-"reason": "Same bridge, 16m apart, same Traiano name pattern"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge, 16m apart, same Traiano name patte"
 },
 {
 "pair": 4020,
@@ -48253,10 +48259,10 @@
 "b": "vici:vici-11686",
 "bname": "Ponte su fosso Striscia",
 "km": 0.04,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:746490963",
-"confidence": "high",
-"reason": "Same bridge (Traiano crosses Striscia), 40m apart, A unifies name"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Same bridge (Traiano crosses Striscia), 40m apa"
 },
 {
 "pair": 4021,
@@ -48709,10 +48715,10 @@
 "b": "vici:vici-12027",
 "bname": "Ponte Nomentano",
 "km": 0.0,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:50864838",
-"confidence": "high",
-"reason": "Identical names, 0m perfect location match, keeper has QID."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical names, 0m perfect location match, kee"
 },
 {
 "pair": 4059,
@@ -48721,10 +48727,10 @@
 "b": "vici:vici-12027",
 "bname": "Ponte Nomentano",
 "km": 0.001,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:50864838",
-"confidence": "high",
-"reason": "Identical names, 1m, keeper has QID and description."
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: Identical names, 1m, keeper has QID and descrip"
 },
 {
 "pair": 4060,
@@ -49969,10 +49975,10 @@
 "b": "vici:vici-58055",
 "bname": "Ponte di San Vito",
 "km": 0.014,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "building:394869",
-"confidence": "high",
-"reason": "San Vito bridge, same name/type, 14m apart; A has QID"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: San Vito bridge, same name/type, 14m apart; A h"
 },
 {
 "pair": 4164,
@@ -49981,10 +49987,10 @@
 "b": "vici:vici-58055",
 "bname": "Ponte di San Vito",
 "km": 0.012,
-"verdict": "same",
+"verdict": "uncertain",
 "keeper": "pleiades:394869",
-"confidence": "high",
-"reason": "San Vito bridge, 12m apart; A has QID and description"
+"confidence": "low",
+"reason": "CONSISTENCY DEMOTION: member of a contradictory merge component (explicit distinct edge or QID clash among partners). Was: San Vito bridge, 12m apart; A has QID and descr"
 },
 {
 "pair": 4165,
