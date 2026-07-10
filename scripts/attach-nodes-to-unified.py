@@ -170,6 +170,25 @@ for path in sorted(glob.glob(os.path.join(BASE, "unified", "*.json"))):
             }
             stats[tname][1 if rel == "same" else 2] += 1
 
+# District demotion: when >2 DISTINCT records claim structure-identity with
+# the same node, that node is a locality/district record (Laureion is a
+# mining district; each "Mine of Laureion" is a separate working) — the
+# claims become "at". Silo mirrors of one record (building:X + pleiades:X +
+# religion:X) share an id suffix and don't count as distinct.
+claimants = defaultdict(set)
+for k, j in out.items():
+    if j["rel"] == "same" and j["km"] > 0:
+        claimants[j["node"]].add(k.split(":", 1)[1])
+district_nodes = {n for n, s in claimants.items() if len(s) > 2}
+demoted = 0
+for k, j in out.items():
+    if j["rel"] == "same" and j["km"] > 0 and j["node"] in district_nodes:
+        j["rel"] = "at"
+        demoted += 1
+if demoted:
+    print(f"district demotion: {demoted} identity claims on {len(district_nodes)} "
+          f"district nodes -> 'at'")
+
 path = os.path.join(BASE, "registry", "unified-nodes.json")
 dump_atomic(out, path, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
 open(path, "a").write("\n")
