@@ -5,18 +5,8 @@ import type { EmpireShape } from '@/data/empires'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
-import citiesSearchJson from '@/data/registry/cities-search.json'
 import { imperialAnchors } from './imperialAnchors'
 import { labelHalfWidth, labelProjector, labelTier } from './labelCollision'
-
-// labeled-city obstacles: the great cities carry their own labels, and an
-// empire name straddling one reads as a collision (Ottoman/Prusa, 1453)
-const CITY_OBSTACLES = citiesSearchJson as Array<{
-  lat: number
-  lng: number
-  s: number
-  e: number
-}>
 
 interface EmpiresLayerProps {
   data: EmpireShape[]
@@ -263,15 +253,24 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       // city is south of the name, south when it's north (Fez sat above
       // ALMOHAD CALIPHATE; always-north walked the name INTO it).
       let dodge = 0
+      // The city's text rides ABOVE its dot, so the pair needs more vertical
+      // clearance than the label boxes alone: 26px still let HAMDANID
+      // EMIRATES kiss Samarra (1000) and LATIN EMPIRE kiss Constantinople
+      // (1223) — widen the trigger window and step far enough to clear the
+      // city text, not just the dot.
       const hit = obstacles.find(
-        ([ox, oy]) => Math.abs(ox - x) < halfW + 45 && Math.abs(oy - y) < 26,
+        ([ox, oy]) => Math.abs(ox - x) < halfW + 45 && Math.abs(oy - y) < 38,
       )
       if (hit) {
-        const step = hit[1] >= y ? -30 : 30 // screen-north is -y
+        const step = hit[1] >= y ? -44 : 44 // screen-north is -y
         dodge = (-step * Math.cos((e.label[0] * Math.PI) / 180)) / pxPerDegX
         y += step
       }
-      if (placed.some(([px, py, pw]) => Math.abs(px - x) < pw + halfW && Math.abs(py - y) < 26))
+      // +14px breathing margin: boxes that merely didn't overlap still read
+      // as one run-on name (GHASSANIDS LAKHMID KINGDOM, 550)
+      if (
+        placed.some(([px, py, pw]) => Math.abs(px - x) < pw + halfW + 14 && Math.abs(py - y) < 26)
+      )
         continue
       placed.push([x, y, halfW])
       out.push({ e, dodge })
