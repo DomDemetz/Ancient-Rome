@@ -76,7 +76,7 @@ export function TopBar({ storyMode }: TopBarProps) {
         <AboutDialog />
 
         <a
-          href="#"
+          href="https://buymeacoffee.com/domdemetz"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-lg text-rose-500 active:text-white active:bg-rose-500/20 transition-colors"
@@ -155,7 +155,7 @@ export function TopBar({ storyMode }: TopBarProps) {
       <div className="flex-1" />
 
       <a
-        href="#"
+        href="https://buymeacoffee.com/domdemetz"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-rose-400 hover:text-white hover:bg-rose-500/20 border border-rose-500/20 transition-colors mr-2"
