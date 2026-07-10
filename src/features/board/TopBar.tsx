@@ -1,5 +1,5 @@
 import { AboutDialog } from './AboutDialog'
-import { PanelLeft, BookOpen, Shield } from 'lucide-react'
+import { PanelLeft, BookOpen, Shield, Heart } from 'lucide-react'
 import { useState } from 'react'
 import { LensSwitcher } from './LensSwitcher'
 import { SearchBar } from '@/features/search/SearchBar'
@@ -75,6 +75,17 @@ export function TopBar({ storyMode }: TopBarProps) {
         </Dialog>
         <AboutDialog />
 
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-lg text-rose-500 active:text-white active:bg-rose-500/20 transition-colors"
+          aria-label="Support this project"
+          title="Support this project"
+        >
+          <Heart className="size-4" />
+        </a>
+
         {/* Search */}
         <SearchBar />
       </header>
@@ -142,6 +153,18 @@ export function TopBar({ storyMode }: TopBarProps) {
 
       <SearchBar />
       <div className="flex-1" />
+
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-rose-400 hover:text-white hover:bg-rose-500/20 border border-rose-500/20 transition-colors mr-2"
+        aria-label="Support this project"
+        title="Support this project"
+      >
+        <Heart className="size-3.5" />
+        <span className="text-[10px] font-bold uppercase tracking-[0.1em]">Support</span>
+      </a>
 
       {!atlasMode && <LensSwitcher />}
     </header>
