@@ -8,7 +8,7 @@ import { esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { imperialAnchors } from './imperialAnchors'
 import { labelHalfWidth, labelProjector, labelTier } from './labelCollision'
-import { popAt } from './PlacesLayer'
+import { popAt } from './populationCurve'
 
 interface EmpiresLayerProps {
   data: EmpireShape[]
