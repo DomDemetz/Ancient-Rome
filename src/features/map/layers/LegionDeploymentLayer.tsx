@@ -75,7 +75,7 @@ export function LegionDeploymentLayer({ data }: LegionDeploymentLayerProps) {
         let tooltipHtml = `<div class="map-tooltip-title">${esc(legion.name)}</div>`
         tooltipHtml += `<div class="map-tooltip-sub">${esc(base.location)} · ${esc(legion.status)}</div>`
         const details: string[] = [`${formatYear(base.fromYear)} \u2013 ${formatYear(base.toYear)}`]
-        if (legion.description) details.push(esc(legion.description))
+        if (legion.description && !wikiLookup?.[legion.id]) details.push(esc(legion.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (

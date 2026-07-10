@@ -115,7 +115,8 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
         const details: string[] = [`Built: ${formatYear(a.constructionYear)}`]
         if (a.length) details.push(`${a.length} km`)
         if (a.builder) details.push(esc(a.builder))
-        if (a.description) details.push(esc(a.description))
+        const hasWiki = featKnowledge?.[`aqueduct:${a.id}`]
+        if (a.description && !hasWiki) details.push(esc(a.description))
         tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
         return (
@@ -135,7 +136,6 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
               <span
                 dangerouslySetInnerHTML={{
                   __html: (() => {
-                    const hasWiki = featKnowledge?.[`aqueduct:${a.id}`]
                     let html = appendWikiTooltip(
                       tooltipHtml,
                       `aqueduct:${a.id}`,

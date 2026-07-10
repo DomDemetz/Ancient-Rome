@@ -71,10 +71,9 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
       html += `<div class="map-tooltip-sub">${esc(b.buildingType.charAt(0).toUpperCase() + b.buildingType.slice(1))}</div>`
       const details: string[] = [`Built: ${formatYear(b.constructionYear)}`]
       if (b.builder) details.push(esc(b.builder))
-      if (b.description) details.push(esc(b.description))
-      html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
-
       const hasWiki = featKnowledge?.[`building:${b.id}`]
+      if (b.description && !hasWiki) details.push(esc(b.description))
+      html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
       html = appendWikiTooltip(html, `building:${b.id}`, featKnowledge, 'knowledge-features')
       if (!hasWiki) {
         const crKey = `building:${b.id}`

@@ -131,7 +131,6 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
 
       const k = knowledge?.[e.id]
       const cr = k?.crossRef
-      const hasEnrichment = !!(k?.extract || cr)
 
       const details: string[] = []
       if (e.startYear != null && e.startYear !== 0) {
@@ -143,9 +142,6 @@ export function UnifiedLayer({ data, config, color, fillColor }: UnifiedLayerPro
       }
       const desc = e.description
       const isCiteOnly = desc?.startsWith('An ancient place, cited:')
-      if (hasEnrichment && desc && !isCiteOnly) {
-        details.push(esc(desc.length > 120 ? desc.slice(0, 117) + '...' : desc))
-      }
       if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
 
       const join = NODE_JOIN[e.id]

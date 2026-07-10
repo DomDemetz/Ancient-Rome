@@ -3483,7 +3483,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via Campana?", "major": true },
+      "properties": { "name": "Via Campana", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -4068,7 +4068,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via Portuensis?", "major": true },
+      "properties": { "name": "Via Portuensis", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -15309,7 +15309,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "via_Tauri", "major": true },
+      "properties": { "name": "via Tauri", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -15464,7 +15464,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "via_Tauri", "major": true, "unknown": true },
+      "properties": { "name": "via Tauri", "major": true, "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -15485,7 +15485,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "via_Tauri", "major": true, "unknown": true },
+      "properties": { "name": "via Tauri", "major": true, "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -29522,7 +29522,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Herculia", "major": true, "unknown": true },
+      "properties": { "name": "Via Herculia", "major": true, "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -29558,7 +29558,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Aurelis_Aeclanensis_?", "unknown": true },
+      "properties": { "name": "Via Aurelis Aeclanensis", "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -29593,7 +29593,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Minucia_/_Traiana", "major": true },
+      "properties": { "name": "Via Minucia / Traiana", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -35177,7 +35177,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Aemilia", "major": true },
+      "properties": { "name": "Via Aemilia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -35705,7 +35705,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Flaminia", "major": true },
+      "properties": { "name": "Via Flaminia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -35758,7 +35758,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Popillia", "major": true },
+      "properties": { "name": "Via Popillia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -35878,7 +35878,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Postumia", "major": true },
+      "properties": { "name": "Via Postumia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -36012,7 +36012,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Claudia_Augusta", "major": true },
+      "properties": { "name": "Via Claudia Augusta", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -36079,7 +36079,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Aurelia" },
+      "properties": { "name": "Via Aurelia" },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -36111,7 +36111,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Aurelia", "unknown": true },
+      "properties": { "name": "Via Aurelia", "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -36773,7 +36773,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Minucia_/_Traiana", "major": true },
+      "properties": { "name": "Via Minucia / Traiana", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -40111,7 +40111,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Claudia_Augusta", "major": true },
+      "properties": { "name": "Via Claudia Augusta", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -40343,7 +40343,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Popillia", "major": true, "unknown": true },
+      "properties": { "name": "Via Popillia", "major": true, "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -40366,7 +40366,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Popillia", "major": true, "unknown": true },
+      "properties": { "name": "Via Popillia", "major": true, "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -40379,7 +40379,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Annia", "major": true, "unknown": true },
+      "properties": { "name": "Via Annia", "major": true, "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -40971,7 +40971,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Ciminia" },
+      "properties": { "name": "Via Ciminia" },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -40993,7 +40993,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Caminia", "unknown": true },
+      "properties": { "name": "Via Caminia", "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -41243,7 +41243,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Flaminia", "major": true },
+      "properties": { "name": "Via Flaminia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -43363,7 +43363,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Appia", "major": true },
+      "properties": { "name": "Via Appia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -43408,7 +43408,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Traiana", "major": true },
+      "properties": { "name": "Via Traiana", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -45136,7 +45136,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Pompeia_?", "major": true },
+      "properties": { "name": "Via Pompeia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -46413,7 +46413,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Dedris?", "unknown": true },
+      "properties": { "name": "Dedris", "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -46519,7 +46519,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Baracum?", "unknown": true },
+      "properties": { "name": "Baracum", "unknown": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -51961,7 +51961,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Claudia_Valeria", "major": true },
+      "properties": { "name": "Via Claudia Valeria", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -54507,7 +54507,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_per_Alpes_Numidicas", "major": true },
+      "properties": { "name": "Via per Alpes Numidicas", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -62142,7 +62142,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Appia", "major": true },
+      "properties": { "name": "Via Appia", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -62387,7 +62387,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Via_Herdonitana", "major": true },
+      "properties": { "name": "Via Herdonitana", "major": true },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -121443,7 +121443,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "delete_name" },
+      "properties": { "name": "delete name" },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
@@ -121482,7 +121482,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "delete_name" },
+      "properties": { "name": "delete name" },
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
