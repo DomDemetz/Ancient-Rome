@@ -26162,6 +26162,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10511",
+    "la": 51.2235,
+    "lo": 3.2261,
+    "k": "shipwreck",
+    "n": "Schip van Brugge",
+    "t": 2
+  },
+  {
     "i": "vici:vici-10549",
     "la": 48.3157,
     "lo": 14.1735,
@@ -26203,6 +26211,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-117",
+    "la": 52.0806,
+    "lo": 5.0229,
+    "k": "shipwreck",
+    "n": "Scheepswrak De Meern 4",
+    "s": 85,
+    "e": 120,
+    "t": 2
+  },
+  {
     "i": "vici:vici-11720",
     "la": 48.1508,
     "lo": -3.3035,
@@ -26217,6 +26235,14 @@
     "k": "mine",
     "n": "Andriake",
     "s": 125,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11976",
+    "la": 39.2223,
+    "lo": 9.1103,
+    "k": "mine",
+    "n": "Caralis, cava Romana",
     "t": 2
   },
   {
@@ -26294,6 +26320,16 @@
     "lo": -5.1376,
     "k": "mine",
     "n": "Mina Casiano de Prado",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-13840",
+    "la": 52.081,
+    "lo": 5.0201,
+    "k": "shipwreck",
+    "n": "Schip De Meern 1",
+    "s": 148,
+    "e": 200,
     "t": 2
   },
   {
@@ -26558,6 +26594,22 @@
     "t": 2
   },
   {
+    "i": "vici:vici-16382",
+    "la": 52.1491,
+    "lo": 4.5109,
+    "k": "shipwreck",
+    "n": "Romeins Schip Matilo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16414",
+    "la": 51.8932,
+    "lo": 5.6003,
+    "k": "shipwreck",
+    "n": "Romeins Schip Boldershof",
+    "t": 2
+  },
+  {
     "i": "vici:vici-16529",
     "la": 48.3098,
     "lo": 11.8947,
@@ -26571,6 +26623,14 @@
     "lo": 5.3687,
     "k": "mine",
     "n": "Docks romains",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17244",
+    "la": 41.7211,
+    "lo": 12.7033,
+    "k": "shipwreck",
+    "n": "Nemi Ships,IT",
     "t": 2
   },
   {
@@ -26694,6 +26754,16 @@
     "lo": 9.2435,
     "k": "mine",
     "n": "Töpferei II (Benningen)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18539",
+    "la": 48.7119,
+    "lo": 11.4527,
+    "k": "shipwreck",
+    "n": "Römerschiffe Oberstimm 1 und 2",
+    "s": 90,
+    "e": 120,
     "t": 2
   },
   {
@@ -26824,6 +26894,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19668",
+    "la": 52.1066,
+    "lo": 4.7154,
+    "k": "shipwreck",
+    "n": "Schepen Zwammerdam",
+    "t": 2
+  },
+  {
     "i": "vici:vici-19715",
     "la": 48.0984,
     "lo": 11.6245,
@@ -26905,6 +26983,14 @@
     "k": "mine",
     "n": "Handels- und Gewerbehaus Schmidmatt, Kaiseraugst",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20281",
+    "la": 41.0061,
+    "lo": 28.9523,
+    "k": "shipwreck",
+    "n": "Constantinople, Harbor of Theodosius",
     "t": 2
   },
   {
@@ -27064,6 +27150,22 @@
     "t": 2
   },
   { "i": "vici:vici-21637", "la": 45.2783, "lo": 13.5995, "k": "mine", "n": "Roman villa", "t": 2 },
+  {
+    "i": "vici:vici-21642",
+    "la": 44.9889,
+    "lo": 13.741,
+    "k": "workshop",
+    "n": "Roman oil refinery",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21689",
+    "la": 44.9127,
+    "lo": 13.7764,
+    "k": "workshop",
+    "n": "Roman oil refinery",
+    "t": 2
+  },
   {
     "i": "vici:vici-21764",
     "la": 32.9062,
@@ -27236,6 +27338,14 @@
     "lo": 33.9541,
     "k": "mine",
     "n": "Makronisos-Macronisos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-22742",
+    "la": 43.3859,
+    "lo": 16.3143,
+    "k": "shipwreck",
+    "n": "Roman period ship",
     "t": 2
   },
   {
@@ -27960,6 +28070,14 @@
     "lo": 35.8915,
     "k": "mine",
     "n": "Gerasa (Jerash)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24729",
+    "la": 43.9045,
+    "lo": 15.5045,
+    "k": "shipwreck",
+    "n": "Roman merchant ship",
     "t": 2
   },
   {
@@ -28729,6 +28847,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-26503",
+    "la": 36.3576,
+    "lo": 43.1522,
+    "k": "mine",
+    "n": "Balatai Quarry of  Sennacherib",
+    "t": 2
+  },
+  {
     "i": "vici:vici-26557",
     "la": 32.6383,
     "lo": 14.2995,
@@ -29318,6 +29444,7 @@
     "t": 2
   },
   { "i": "vici:vici-28308", "la": 37.6526, "lo": 28.7118, "k": "mine", "n": "Çamarası", "t": 2 },
+  { "i": "vici:vici-28309", "la": 37.9347, "lo": 27.3506, "k": "mine", "n": "Torbali", "t": 2 },
   { "i": "vici:vici-28310", "la": 43.93, "lo": 15.16, "k": "mine", "n": "Toprak Alinmis", "t": 2 },
   {
     "i": "vici:vici-28311",
@@ -29650,6 +29777,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-29091",
+    "la": 38.2597,
+    "lo": 34.5507,
+    "k": "mine",
+    "n": "Kömürcü - Göllü Dağ",
+    "s": -800,
+    "t": 2
+  },
+  {
     "i": "vici:vici-29142",
     "la": 36.847,
     "lo": 30.7982,
@@ -29825,6 +29961,14 @@
     "lo": -0.4601,
     "k": "mine",
     "n": "Cantera Romana en L'Énova",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-30068",
+    "la": 35.8822,
+    "lo": 23.3158,
+    "k": "shipwreck",
+    "n": "Antikythera Shipwreck",
     "t": 2
   },
   {
@@ -30615,6 +30759,14 @@
     "t": 2
   },
   { "i": "vici:vici-33959", "la": 51.3207, "lo": 20.9693, "k": "mine", "n": "Orońsko", "t": 2 },
+  {
+    "i": "vici:vici-33968",
+    "la": 41.0608,
+    "lo": 8.2936,
+    "k": "shipwreck",
+    "n": "The wreck of the ship of the late Roman Empire.",
+    "t": 2
+  },
   { "i": "vici:vici-33981", "la": 41.2413, "lo": 9.1613, "k": "mine", "n": "Roman pier", "t": 2 },
   {
     "i": "vici:vici-33982",
@@ -30700,6 +30852,15 @@
     "lo": -0.3868,
     "k": "mine",
     "n": "Cissbury Ring",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-34301",
+    "la": 49.3485,
+    "lo": 8.8007,
+    "k": "mine",
+    "n": "Mauer, Baden-Württemberg",
+    "s": 1907,
     "t": 2
   },
   {
@@ -31817,6 +31978,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42974",
+    "la": 47.5323,
+    "lo": 7.7327,
+    "k": "workshop",
+    "n": "Töpferofen",
+    "t": 2
+  },
+  {
     "i": "vici:vici-43001",
     "la": 48.5429,
     "lo": 10.9119,
@@ -31883,6 +32052,14 @@
   },
   { "i": "vici:vici-43649", "la": 42.1369, "lo": 3.1211, "k": "mine", "n": "Greek pier", "t": 2 },
   {
+    "i": "vici:vici-43859",
+    "la": 41.5688,
+    "lo": 32.0119,
+    "k": "shipwreck",
+    "n": "Tios [Teion, Filyos]",
+    "t": 2
+  },
+  {
     "i": "vici:vici-43862",
     "la": 41.5713,
     "lo": 32.0255,
@@ -31941,6 +32118,84 @@
     "lo": 13.2574,
     "k": "mine",
     "n": "Mercato romano - Ferentino",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44145",
+    "la": 36.1935,
+    "lo": 30.4032,
+    "k": "shipwreck",
+    "n": "Cape Gelidonya",
+    "s": -1200,
+    "e": -800,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44146",
+    "la": 51.1236,
+    "lo": 1.3142,
+    "k": "shipwreck",
+    "n": "Dover Shipwreck",
+    "s": -2000,
+    "e": -1200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44147",
+    "la": 36.1286,
+    "lo": 29.6858,
+    "k": "shipwreck",
+    "n": "Uluburun Shipwreck",
+    "s": -3300,
+    "e": -800,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44211",
+    "la": 36.7433,
+    "lo": 15.1303,
+    "k": "shipwreck",
+    "n": "Marzamemi Shipwreck",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44220",
+    "la": 32.7349,
+    "lo": 34.9324,
+    "k": "shipwreck",
+    "n": "Megadim shipwreck",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44226",
+    "la": 45.4894,
+    "lo": 16.3703,
+    "k": "shipwreck",
+    "n": "Segestica-Siscia shipwreck",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44232",
+    "la": 43.8,
+    "lo": 28.6295,
+    "k": "shipwreck",
+    "n": "Mangalia B",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44233",
+    "la": 38.1622,
+    "lo": 14.9791,
+    "k": "shipwreck",
+    "n": "Messina Shipwreck",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44234",
+    "la": 35.5319,
+    "lo": 11.1244,
+    "k": "shipwreck",
+    "n": "Mahdia shipwreck",
     "t": 2
   },
   {
@@ -33220,6 +33475,22 @@
     "t": 2
   },
   {
+    "i": "vici:vici-52724",
+    "la": 43.3576,
+    "lo": -8.8282,
+    "k": "shipwreck",
+    "n": "Pecio do SS Priam",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-52725",
+    "la": 43.4589,
+    "lo": -8.3129,
+    "k": "shipwreck",
+    "n": "Pecio da Ragazzona",
+    "t": 2
+  },
+  {
     "i": "vici:vici-52726",
     "la": 43.0129,
     "lo": -8.9373,
@@ -33589,6 +33860,14 @@
     "n": "Canteras de Son Catlar",
     "t": 2
   },
+  {
+    "i": "vici:vici-54190",
+    "la": 49.5316,
+    "lo": 6.3536,
+    "k": "press",
+    "n": "Gewichtsstein einer Weinpresse",
+    "t": 2
+  },
   { "i": "vici:vici-54200", "la": 43.52, "lo": 16.22, "k": "mine", "n": "Trogir Quarry", "t": 2 },
   { "i": "vici:vici-54201", "la": 43.85, "lo": 15.5, "k": "mine", "n": "Vrgada Quarry", "t": 2 },
   { "i": "vici:vici-54202", "la": 42.93, "lo": 17.16, "k": "mine", "n": "Vrnik", "t": 2 },
@@ -33840,6 +34119,16 @@
     "k": "mine",
     "n": "Kinousa [Kinusa]",
     "s": -2400,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54847",
+    "la": 53.7126,
+    "lo": -0.506,
+    "k": "shipwreck",
+    "n": "North Ferriby shipwreck",
+    "s": 100,
     "e": 1500,
     "t": 2
   },
@@ -34421,6 +34710,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-57438",
+    "la": 37.6774,
+    "lo": 26.4777,
+    "k": "shipwreck",
+    "n": "Icarian Sea - Fourni Island",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-57524",
     "la": 32.3961,
     "lo": 35.9124,
@@ -34519,6 +34817,15 @@
     "k": "mine",
     "n": "Portus piers",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58113",
+    "la": 41.787,
+    "lo": 12.2534,
+    "k": "shipwreck",
+    "n": "Ships wreck",
+    "s": -30,
     "t": 2
   },
   {
@@ -35154,6 +35461,25 @@
     "t": 2
   },
   {
+    "i": "vici:vici-60706",
+    "la": 31.3042,
+    "lo": 30.1006,
+    "k": "shipwreck",
+    "n": "Heracleion-Thonis",
+    "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60708",
+    "la": 31.2053,
+    "lo": 29.8964,
+    "k": "shipwreck",
+    "n": "Antirhodos",
+    "s": -99,
+    "e": 99,
+    "t": 2
+  },
+  {
     "i": "vici:vici-60746",
     "la": 48.2112,
     "lo": 16.3778,
@@ -35243,6 +35569,15 @@
     "k": "mine",
     "n": "Brick firing kilns",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61210",
+    "la": 36.8395,
+    "lo": 30.7055,
+    "k": "shipwreck",
+    "n": "Antalya",
+    "s": -1600,
     "t": 2
   },
   {
@@ -35372,6 +35707,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-61523",
+    "la": 52.0884,
+    "lo": 5.0414,
+    "k": "shipwreck",
+    "n": "Schip De Meern 6",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61524",
+    "la": 52.0891,
+    "lo": 5.0421,
+    "k": "shipwreck",
+    "n": "Schip De Meern 7",
+    "s": 74,
+    "t": 2
+  },
+  {
     "i": "vici:vici-61525",
     "la": 52.0888,
     "lo": 5.042,
@@ -35464,6 +35817,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-61623",
+    "la": 35.0218,
+    "lo": 34.156,
+    "k": "shipwreck",
+    "n": "Protaras coast [Cyprus]",
+    "s": -31,
+    "e": 699,
+    "t": 2
+  },
+  {
     "i": "vici:vici-61786",
     "la": 37.3879,
     "lo": -7.4441,
@@ -35479,6 +35842,15 @@
     "k": "mine",
     "n": "Xabia",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61833",
+    "la": 37.0204,
+    "lo": 26.4947,
+    "k": "shipwreck",
+    "n": "Lebynthos",
+    "s": -249,
     "t": 2
   },
   {
@@ -35605,6 +35977,15 @@
     "k": "mine",
     "n": "Cistern",
     "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62209",
+    "la": 36.9898,
+    "lo": 27.7762,
+    "k": "shipwreck",
+    "n": "Kepçe Burnu",
+    "s": -699,
     "t": 2
   },
   {
@@ -36830,6 +37211,15 @@
     "k": "mine",
     "n": "Guéthary",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63333",
+    "la": 42.8089,
+    "lo": 10.7425,
+    "k": "shipwreck",
+    "n": "Roman shipwreck",
+    "s": 300,
     "t": 2
   },
   {
@@ -40215,6 +40605,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-66464",
+    "la": 51.8147,
+    "lo": 5.4359,
+    "k": "shipwreck",
+    "n": "Dreumel - Over de Maas",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-66627",
     "la": 35.3075,
     "lo": 35.9226,
@@ -40361,6 +40760,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-67903",
+    "la": 36.2869,
+    "lo": 32.2772,
+    "k": "workshop",
+    "n": "Bikciki Kiln Site",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-67904",
+    "la": 36.3,
+    "lo": 32.2658,
+    "k": "workshop",
+    "n": "Delice Kiln Site",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-68018",
     "la": 42.0864,
     "lo": 2.8122,
@@ -40375,6 +40792,51 @@
     "lo": 3.1307,
     "k": "mine",
     "n": "Palamós",
+    "s": -27,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68031",
+    "la": 41.8517,
+    "lo": 3.1871,
+    "k": "shipwreck",
+    "n": "Formigues I",
+    "s": -29,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68032",
+    "la": 41.8747,
+    "lo": 3.2531,
+    "k": "shipwreck",
+    "n": "Ullastres I, Els",
+    "s": -27,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68034",
+    "la": 41.949,
+    "lo": 3.2332,
+    "k": "shipwreck",
+    "n": "Nau Perduda, Sa",
+    "s": -149,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68035",
+    "la": 41.9489,
+    "lo": 3.2334,
+    "k": "shipwreck",
+    "n": "Tuna I, Sa",
+    "s": -149,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68040",
+    "la": 42.323,
+    "lo": 3.3097,
+    "k": "shipwreck",
+    "n": "Culip",
     "s": -27,
     "t": 2
   },
@@ -40394,6 +40856,15 @@
     "k": "mine",
     "n": "Platja de Fenals",
     "s": -29,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68107",
+    "la": 40.8592,
+    "lo": 0.8654,
+    "k": "shipwreck",
+    "n": "Bon Capó",
+    "s": -149,
     "t": 2
   },
   {
@@ -40565,6 +41036,15 @@
     "k": "mine",
     "n": "Wadi Hammamat",
     "s": -2999,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69345",
+    "la": 44.8249,
+    "lo": 34.9182,
+    "k": "shipwreck",
+    "n": "Bay of Sudak",
+    "s": 1000,
     "t": 2
   },
   {
@@ -41431,6 +41911,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-71080",
+    "la": 37.4002,
+    "lo": 25.2678,
+    "k": "shipwreck",
+    "n": "Delos ship",
+    "s": -399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-71081",
     "la": 32.6237,
     "lo": 14.2885,
@@ -41536,6 +42025,15 @@
     "lo": 10.3188,
     "k": "mine",
     "n": "Auserculus",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71340",
+    "la": 43.7222,
+    "lo": 10.3862,
+    "k": "shipwreck",
+    "n": "San Rossore",
     "s": -299,
     "t": 2
   },
@@ -41986,6 +42484,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-76899",
+    "la": 36.6282,
+    "lo": 29.1056,
+    "k": "shipwreck",
+    "n": "Rodos Schipwreck",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-77286",
+    "la": 48.3764,
+    "lo": 8.934,
+    "k": "workshop",
+    "n": "Schmiede",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-77582",
     "la": 36.8773,
     "lo": 31.4797,
@@ -42010,6 +42526,26 @@
     "k": "mine",
     "n": "Yümük Tepe",
     "s": -4500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-78275",
+    "la": 37.0613,
+    "lo": 27.2303,
+    "k": "shipwreck",
+    "n": "Myndos West Harbour",
+    "s": -50,
+    "e": 299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-78276",
+    "la": 37.0613,
+    "lo": 27.2301,
+    "k": "shipwreck",
+    "n": "Myndos West Harbour, Schipwreck II",
+    "s": -50,
+    "e": 299,
     "t": 2
   },
   {
@@ -42158,6 +42694,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-7965",
+    "la": 50.0031,
+    "lo": 8.2754,
+    "k": "shipwreck",
+    "n": "Mainzer Römerschiffe",
+    "t": 2
+  },
+  {
     "i": "vici:vici-79874",
     "la": 37.1955,
     "lo": -3.5994,
@@ -42181,6 +42725,14 @@
     "lo": 1.3016,
     "k": "mine",
     "n": "Panneau de Pouillé",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-8020",
+    "la": 47.3246,
+    "lo": 1.2998,
+    "k": "workshop",
+    "n": "Bâtiments des potiers de Pouillé",
     "t": 2
   },
   {
@@ -42253,6 +42805,15 @@
     "k": "mine",
     "n": "Cisterns",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80763",
+    "la": 36.614,
+    "lo": 8.7468,
+    "k": "press",
+    "n": "Ruines de l'huilerie d'el Maghaouir",
+    "e": 1500,
     "t": 2
   },
   {
@@ -43216,6 +43777,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-84188",
+    "la": 42.4423,
+    "lo": -6.7222,
+    "k": "mine",
+    "n": "Las Medulas",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8425",
     "la": 49.4642,
     "lo": 8.159,
@@ -43241,6 +43811,15 @@
     "k": "mine",
     "n": "Cisternone Romano di San Vitale",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-84332",
+    "la": 41.257,
+    "lo": 13.5547,
+    "k": "press",
+    "n": "Torcularium romano",
+    "s": -59,
     "t": 2
   },
   {
@@ -43561,6 +44140,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-86785",
+    "la": 36.3109,
+    "lo": 9.3186,
+    "k": "mine",
+    "n": "Timisua",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-87042",
     "la": 31.1623,
     "lo": 48.6974,
@@ -43614,6 +44202,15 @@
     "k": "mine",
     "n": "Halkalı",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87639",
+    "la": 39.835,
+    "lo": -8.403,
+    "k": "mine",
+    "n": "Porta's Roman mines",
+    "e": 1500,
     "t": 2
   },
   {

@@ -27288,6 +27288,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10276",
+    "la": 26.4343,
+    "lo": 33.6644,
+    "k": "fort",
+    "n": "Ophites - principia",
+    "t": 2
+  },
+  {
     "i": "vici:vici-10295",
     "la": 49.2235,
     "lo": 7.0241,
@@ -27430,6 +27438,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10372",
+    "la": 49.8398,
+    "lo": 9.1447,
+    "k": "fort",
+    "n": "Benefiziarierstation Obernburg",
+    "s": 140,
+    "e": 240,
+    "t": 2
+  },
+  {
     "i": "vici:vici-10382",
     "la": 50.1484,
     "lo": 8.6116,
@@ -27468,6 +27486,15 @@
     "lo": 11.9809,
     "k": "fort",
     "n": "Kastelle von Alkofen",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10428",
+    "la": 50.1976,
+    "lo": 8.2834,
+    "k": "watchtower",
+    "n": "Idstein Richtig rekonstruiert Stein Wachturm",
+    "e": 1500,
     "t": 2
   },
   {
@@ -27653,6 +27680,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10552",
+    "la": 48.3267,
+    "lo": 14.1768,
+    "k": "fort",
+    "n": "Burgus Hirschleitengraben",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-10662",
     "la": 50.0862,
     "lo": 4.7205,
@@ -27740,6 +27776,15 @@
     "lo": 10.981,
     "k": "fort",
     "n": "Zweites Ellinger Römerlager",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11799",
+    "la": 36.4639,
+    "lo": 6.4843,
+    "k": "fort",
+    "n": "Nordtor Tiddis Castellum Tidditanorum",
+    "s": -59,
     "t": 2
   },
   {
@@ -36391,6 +36436,22 @@
     "t": 2
   },
   {
+    "i": "vici:vici-16467",
+    "la": 49.6841,
+    "lo": 5.8166,
+    "k": "watchtower",
+    "n": "Tour romaine Jupiter",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16468",
+    "la": 49.6835,
+    "lo": 5.8146,
+    "k": "watchtower",
+    "n": "Tour romaine Neptune",
+    "t": 2
+  },
+  {
     "i": "vici:vici-16527",
     "la": 48.5739,
     "lo": 13.472,
@@ -36406,6 +36467,15 @@
     "lo": 11.4567,
     "k": "fort",
     "n": "Kleinkastell Oberstimm",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16551",
+    "la": 50.2526,
+    "lo": 8.9668,
+    "k": "watchtower",
+    "n": "Limeshaim Wachtturm Rekonstruktion",
+    "e": 1500,
     "t": 2
   },
   {
@@ -36533,11 +36603,28 @@
     "t": 2
   },
   {
+    "i": "vici:vici-17269",
+    "la": 48.2222,
+    "lo": 14.4753,
+    "k": "fort",
+    "n": "Enns,Corner of the Castell,A",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-17411",
     "la": 50.7848,
     "lo": 6.0219,
     "k": "fort",
     "n": "Wachturm Schneeberg",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17587",
+    "la": 41.827,
+    "lo": 44.6789,
+    "k": "fortification",
+    "n": "Armazi,GE - ARMAZI",
     "t": 2
   },
   {
@@ -36577,11 +36664,29 @@
     "t": 2
   },
   {
+    "i": "vici:vici-17738",
+    "la": 48.3334,
+    "lo": 16.0546,
+    "k": "fort",
+    "n": "Römerturm Tulln an der Donau",
+    "s": 350,
+    "t": 2
+  },
+  {
     "i": "vici:vici-17874",
     "la": 35.8987,
     "lo": 38.7799,
     "k": "fort",
     "n": "Sura-Legionslager",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17991",
+    "la": 37.0713,
+    "lo": 14.2236,
+    "k": "fortification",
+    "n": "Mura di Caposoprano",
+    "s": -399,
     "t": 2
   },
   {
@@ -36793,6 +36898,7 @@
     "n": "Castris Novis",
     "t": 2
   },
+  { "i": "vici:vici-18685", "la": 47.9023, "lo": 1.9103, "k": "watchtower", "n": "Tour", "t": 2 },
   { "i": "vici:vici-18687", "la": 48.0169, "lo": 2.2709, "k": "fort", "n": "Camp romain", "t": 2 },
   { "i": "vici:vici-18688", "la": 48.0253, "lo": 2.2781, "k": "fort", "n": "Camp romain", "t": 2 },
   { "i": "vici:vici-18689", "la": 48.0336, "lo": 2.284, "k": "fort", "n": "Camp romain", "t": 2 },
@@ -36900,6 +37006,14 @@
     "lo": 27.9449,
     "k": "fort",
     "n": "Civitas Tropaensium",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19299",
+    "la": 42.4222,
+    "lo": 27.694,
+    "k": "fortification",
+    "n": "Sozopol, fortifications",
     "t": 2
   },
   {
@@ -37466,6 +37580,7 @@
     "s": 300,
     "t": 2
   },
+  { "i": "vici:vici-20856", "la": 44.0178, "lo": 16.0181, "k": "fort", "n": "Burnum fort", "t": 2 },
   {
     "i": "vici:vici-20857",
     "la": 43.6124,
@@ -37955,6 +38070,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-21811",
+    "la": 33.0172,
+    "lo": 35.5674,
+    "k": "fort",
+    "n": "Hazor-House of Pillars",
+    "t": 2
+  },
+  {
     "i": "vici:vici-21812",
     "la": 33.0167,
     "lo": 35.5663,
@@ -38102,6 +38225,14 @@
     "t": 2
   },
   { "i": "vici:vici-22160", "la": 44.2916, "lo": 17.9039, "k": "fort", "n": "Arduba", "t": 2 },
+  {
+    "i": "vici:vici-22173",
+    "la": 48.1252,
+    "lo": 16.8908,
+    "k": "watchtower",
+    "n": "Petronell, Torturm des Legionslager",
+    "t": 2
+  },
   {
     "i": "vici:vici-22180",
     "la": 40.8909,
@@ -39363,6 +39494,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25787",
+    "la": 37.8734,
+    "lo": 21.8925,
+    "k": "fortification",
+    "n": "Psofida, Acropolis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-25793",
     "la": 38.1466,
     "lo": 23.2286,
@@ -39561,6 +39700,15 @@
     "n": "Kabyle, Castrum",
     "s": 98,
     "e": 117,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26276",
+    "la": 42.5475,
+    "lo": 26.4837,
+    "k": "camp",
+    "n": "Kabyle",
+    "e": 1500,
     "t": 2
   },
   {
@@ -41109,6 +41257,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-28749",
+    "la": 50.7814,
+    "lo": 5.4674,
+    "k": "camp",
+    "n": "Tongeren - Kielenstraat",
+    "t": 2
+  },
+  {
     "i": "vici:vici-28785",
     "la": 37.3148,
     "lo": 28.0684,
@@ -41619,6 +41775,14 @@
     "lo": 3.1481,
     "k": "fort",
     "n": "Vermand Oppidium",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-29287",
+    "la": 49.8758,
+    "lo": 3.1464,
+    "k": "fortification",
+    "n": "Oppidum",
     "t": 2
   },
   {
@@ -44189,6 +44353,14 @@
   { "i": "vici:vici-30850", "la": 43.0004, "lo": 22.9648, "k": "fort", "n": "Fort", "t": 2 },
   { "i": "vici:vici-30853", "la": 42.6097, "lo": 27.0556, "k": "fort", "n": "Fort", "t": 2 },
   { "i": "vici:vici-30872", "la": 43.0762, "lo": 24.1057, "k": "fort", "n": "Fort", "t": 2 },
+  {
+    "i": "vici:vici-30874",
+    "la": 43.0904,
+    "lo": 24.1581,
+    "k": "fort",
+    "n": "Roman Outpost",
+    "t": 2
+  },
   { "i": "vici:vici-30882", "la": 42.1301, "lo": 27.0622, "k": "fort", "n": "Fort", "t": 2 },
   { "i": "vici:vici-30883", "la": 42.1929, "lo": 27.0751, "k": "fort", "n": "Fort", "t": 2 },
   { "i": "vici:vici-30884", "la": 42.0591, "lo": 24.2724, "k": "fort", "n": "Castrum", "t": 2 },
@@ -45241,6 +45413,25 @@
     "t": 2
   },
   {
+    "i": "vici:vici-31857",
+    "la": 37.315,
+    "lo": 58.2553,
+    "k": "fort",
+    "n": "Fortress",
+    "s": 200,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31858",
+    "la": 37.4535,
+    "lo": 59.1138,
+    "k": "fort",
+    "n": "Fort",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-31865",
     "la": 28.6566,
     "lo": 57.7119,
@@ -45858,6 +46049,15 @@
     "t": 2
   },
   { "i": "vici:vici-32163", "la": 29.5751, "lo": 52.8949, "k": "fort", "n": "Watchtower", "t": 2 },
+  {
+    "i": "vici:vici-32164",
+    "la": 29.5898,
+    "lo": 52.8911,
+    "k": "fort",
+    "n": "Fortress",
+    "e": 1500,
+    "t": 2
+  },
   {
     "i": "vici:vici-32165",
     "la": 39.1938,
@@ -49755,6 +49955,15 @@
     "lo": 15.9393,
     "k": "fort",
     "n": "Castello di Brindisi",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-33546",
+    "la": 48.2114,
+    "lo": 16.3708,
+    "k": "camp",
+    "n": "Kommandatur Legionslager Vindobona",
+    "s": 97,
     "t": 2
   },
   { "i": "vici:vici-33547", "la": 36.6964, "lo": 22.8643, "k": "fort", "n": "Palokastro", "t": 2 },
@@ -53725,6 +53934,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-34994",
+    "la": 32.5962,
+    "lo": 35.5228,
+    "k": "fortification",
+    "n": "Siege of Belvoir Fortress",
+    "t": 2
+  },
+  {
     "i": "vici:vici-35015",
     "la": 42.8169,
     "lo": 22.566,
@@ -57072,6 +57289,14 @@
     "lo": 21.9471,
     "k": "fort",
     "n": "Mediana, Military barracks",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-36213",
+    "la": 43.6083,
+    "lo": 23.295,
+    "k": "fortification",
+    "n": "Lomski Rampart",
     "t": 2
   },
   {
@@ -61005,6 +61230,14 @@
   { "i": "vici:vici-36898", "la": 44.2369, "lo": 28.336, "k": "fort", "n": "Fort", "t": 2 },
   { "i": "vici:vici-36899", "la": 44.2358, "lo": 28.3413, "k": "fort", "n": "Tower", "t": 2 },
   {
+    "i": "vici:vici-36901",
+    "la": 46.1295,
+    "lo": 23.4943,
+    "k": "fort",
+    "n": "Fort Ighiu (Ramparts)",
+    "t": 2
+  },
+  {
     "i": "vici:vici-36902",
     "la": 45.7493,
     "lo": 22.8883,
@@ -61898,6 +62131,14 @@
     "n": "Nuraghe Carducca",
     "s": -1900,
     "e": -730,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-370",
+    "la": 50.9414,
+    "lo": 6.9532,
+    "k": "watchtower",
+    "n": "Lysolphturm",
     "t": 2
   },
   {
@@ -68956,6 +69197,14 @@
     "e": -730,
     "t": 2
   },
+  {
+    "i": "vici:vici-38334",
+    "la": 47.9818,
+    "lo": 11.5709,
+    "k": "fortification",
+    "n": "Keltenschanze Oberbiberg",
+    "t": 2
+  },
   { "i": "vici:vici-38339", "la": 40.078, "lo": 15.5214, "k": "fort", "n": "Policastro", "t": 2 },
   {
     "i": "vici:vici-38345",
@@ -69550,6 +69799,14 @@
     "lo": -8.3067,
     "k": "fort",
     "n": "Reilig na Rí - Relignaree",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-38639",
+    "la": 53.8032,
+    "lo": -8.3043,
+    "k": "fort",
+    "n": "Misleen Meva - Rath Cruachan Mound",
     "t": 2
   },
   {
@@ -79580,6 +79837,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-41804",
+    "la": 47.4826,
+    "lo": 8.2229,
+    "k": "watchtower",
+    "n": "Bühlturm",
+    "t": 2
+  },
+  {
     "i": "vici:vici-41807",
     "la": 41.9469,
     "lo": -7.4493,
@@ -80821,6 +81086,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42408",
+    "la": 48.3944,
+    "lo": 15.5748,
+    "k": "watchtower",
+    "n": "Hufeisenturm der Westmauer",
+    "s": 390,
+    "t": 2
+  },
+  {
     "i": "vici:vici-42432",
     "la": 40.0038,
     "lo": -0.3173,
@@ -81989,6 +82263,7 @@
     "n": "Byzantine fortress at Ksar Lemsa",
     "t": 2
   },
+  { "i": "vici:vici-43213", "la": 47.7979, "lo": 18.9807, "k": "fort", "n": "Pone Navata", "t": 2 },
   {
     "i": "vici:vici-43227",
     "la": 39.5485,
@@ -83311,6 +83586,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-4352",
+    "la": 52.1807,
+    "lo": 4.4343,
+    "k": "fortification",
+    "n": "Romeins hekwerk",
+    "t": 2
+  },
+  {
     "i": "vici:vici-43523",
     "la": 40.1375,
     "lo": 9.2981,
@@ -84538,6 +84821,14 @@
     "n": "Nuraghe San Cosimo II",
     "s": -1900,
     "e": -730,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4405",
+    "la": 50.0801,
+    "lo": 8.9791,
+    "k": "watchtower",
+    "n": "Kastell Großkrotzenburg, südwestlicher Eckturm",
     "t": 2
   },
   {
@@ -86312,6 +86603,14 @@
     "lo": 8.9412,
     "k": "fort",
     "n": "Kastell Altenstadt",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44541",
+    "la": 47.9591,
+    "lo": 11.5403,
+    "k": "fortification",
+    "n": "Keltenschanzen Holzhausen",
     "t": 2
   },
   {
@@ -88560,6 +88859,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-44882",
+    "la": 47.9392,
+    "lo": 11.6097,
+    "k": "fortification",
+    "n": "Keltenschanze Eichenhausen",
+    "t": 2
+  },
+  {
     "i": "vici:vici-44886",
     "la": 40.7232,
     "lo": 8.8106,
@@ -89850,6 +90157,54 @@
     "lo": 8.9102,
     "k": "fort",
     "n": "Kleinkastell Wingertsberg",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45122",
+    "la": 43.208,
+    "lo": 2.3651,
+    "k": "watchtower",
+    "n": "Tour de Vieules",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45123",
+    "la": 43.2081,
+    "lo": 2.3649,
+    "k": "watchtower",
+    "n": "Tour Marquière",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45124",
+    "la": 43.2082,
+    "lo": 2.3646,
+    "k": "watchtower",
+    "n": "Tour de Samson",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45125",
+    "la": 43.2083,
+    "lo": 2.3643,
+    "k": "watchtower",
+    "n": "Tour du Moulin d’Avar",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45126",
+    "la": 43.2066,
+    "lo": 2.3654,
+    "k": "watchtower",
+    "n": "Tour du Sacraire St Sernin",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45127",
+    "la": 43.2051,
+    "lo": 2.3645,
+    "k": "watchtower",
+    "n": "Tour du Plo",
     "t": 2
   },
   {
@@ -94108,6 +94463,14 @@
   { "i": "vici:vici-4609", "la": 49.0302, "lo": 10.4183, "k": "fort", "n": "Turm 13-8b", "t": 2 },
   { "i": "vici:vici-4610", "la": 49.1043, "lo": 10.874, "k": "fort", "n": "Turm 14-17", "t": 2 },
   { "i": "vici:vici-4611", "la": 49.1032, "lo": 10.8838, "k": "fort", "n": "Turm 14-18a", "t": 2 },
+  {
+    "i": "vici:vici-46111",
+    "la": 37.3624,
+    "lo": -6.6794,
+    "k": "watchtower",
+    "n": "Puerta monumental romana",
+    "t": 2
+  },
   {
     "i": "vici:vici-46114",
     "la": 37.4997,
@@ -109968,6 +110331,14 @@
     "e": -730,
     "t": 2
   },
+  {
+    "i": "vici:vici-50477",
+    "la": 51.6639,
+    "lo": -3.8131,
+    "k": "fort",
+    "n": "Remains of Roman Fort of Nidum",
+    "t": 2
+  },
   { "i": "vici:vici-50479", "la": 35.1057, "lo": -1.8518, "k": "fort", "n": "Castrum ?", "t": 2 },
   { "i": "vici:vici-5048", "la": 48.8389, "lo": 9.9636, "k": "fort", "n": "Turm -12-48", "t": 2 },
   {
@@ -111179,6 +111550,14 @@
     "t": 2
   },
   { "i": "vici:vici-5075", "la": 48.9087, "lo": 10.1186, "k": "fort", "n": "Turm -12-75a", "t": 2 },
+  {
+    "i": "vici:vici-50756",
+    "la": 53.1893,
+    "lo": -2.8882,
+    "k": "watchtower",
+    "n": "Roman south-east corner tower",
+    "t": 2
+  },
   { "i": "vici:vici-5076", "la": 48.9089, "lo": 10.1189, "k": "fort", "n": "Turm -12-75b", "t": 2 },
   { "i": "vici:vici-50761", "la": 47.7352, "lo": 19.136, "k": "fort", "n": "Castra", "t": 2 },
   { "i": "vici:vici-50762", "la": 44.931, "lo": 28.7214, "k": "fort", "n": "Roman Fort", "t": 2 },
@@ -128032,6 +128411,15 @@
   { "i": "vici:vici-5531", "la": 49.1833, "lo": 9.5237, "k": "fort", "n": "Turm -9-39", "t": 2 },
   { "i": "vici:vici-5532", "la": 49.3038, "lo": 9.4785, "k": "fort", "n": "Turm -9-4", "t": 2 },
   { "i": "vici:vici-5533", "la": 49.1805, "lo": 9.5248, "k": "fort", "n": "Turm -9-40", "t": 2 },
+  {
+    "i": "vici:vici-55330",
+    "la": 28.8529,
+    "lo": 52.5324,
+    "k": "watchtower",
+    "n": "Ardašir Khureh, Tower",
+    "s": 225,
+    "t": 2
+  },
   { "i": "vici:vici-5534", "la": 49.178, "lo": 9.5257, "k": "fort", "n": "Turm -9-41", "t": 2 },
   { "i": "vici:vici-5535", "la": 49.1752, "lo": 9.5268, "k": "fort", "n": "Turm -9-42", "t": 2 },
   { "i": "vici:vici-5536", "la": 49.1724, "lo": 9.5278, "k": "fort", "n": "Turm -9-43", "t": 2 },
@@ -129363,6 +129751,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-57412",
+    "la": 47.1851,
+    "lo": 23.1492,
+    "k": "fort",
+    "n": "Dacian Limes",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-57414",
     "la": 47.1423,
     "lo": 23.0851,
@@ -129822,6 +130219,15 @@
     "lo": 16.7103,
     "k": "fort",
     "n": "Ograde",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-59767",
+    "la": 43.6031,
+    "lo": 16.6294,
+    "k": "fort",
+    "n": "Kapela",
     "s": 200,
     "t": 2
   },
@@ -131249,6 +131655,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-60491",
+    "la": 45.9459,
+    "lo": 21.3731,
+    "k": "fortification",
+    "n": "Earth rampart",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60492",
+    "la": 45.4614,
+    "lo": 21.3566,
+    "k": "fortification",
+    "n": "Earth rampart",
+    "s": -399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-60493",
     "la": 44.1085,
     "lo": 27.8066,
@@ -131879,11 +132303,29 @@
     "t": 2
   },
   {
+    "i": "vici:vici-60603",
+    "la": 45.3464,
+    "lo": 19.9029,
+    "k": "fortification",
+    "n": "Romans' barbarian defensive line",
+    "s": 200,
+    "t": 2
+  },
+  {
     "i": "vici:vici-60605",
     "la": 45.3804,
     "lo": 19.9502,
     "k": "fort",
     "n": "Roman Watchtower",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60606",
+    "la": 45.3814,
+    "lo": 19.9735,
+    "k": "fortification",
+    "n": "Romans' barbarian defensive line",
     "s": 200,
     "t": 2
   },
@@ -131915,11 +132357,29 @@
     "t": 2
   },
   {
+    "i": "vici:vici-60610",
+    "la": 45.4791,
+    "lo": 19.9861,
+    "k": "fortification",
+    "n": "Romans' barbarian defensive line",
+    "s": 200,
+    "t": 2
+  },
+  {
     "i": "vici:vici-60611",
     "la": 45.4713,
     "lo": 19.9859,
     "k": "fort",
     "n": "Roman Watchtower",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60613",
+    "la": 45.44,
+    "lo": 19.5133,
+    "k": "fortification",
+    "n": "Romans' barbarian defensive line",
     "s": 200,
     "t": 2
   },
@@ -132403,6 +132863,15 @@
     "k": "fort",
     "n": "Roman Fort",
     "s": -79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60922",
+    "la": 47.1975,
+    "lo": 23.181,
+    "k": "fortification",
+    "n": "Earth wall and ditch",
+    "s": 50,
     "t": 2
   },
   {
@@ -133547,6 +134016,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62053",
+    "la": 47.6982,
+    "lo": 10.0671,
+    "k": "fort",
+    "n": "Schatzfund von Kastell Isny",
+    "s": 3000,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62067",
     "la": 54.2384,
     "lo": -5.9898,
@@ -134385,6 +134863,16 @@
     "k": "fort",
     "n": "Roman castrum",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-6316",
+    "la": 50.3334,
+    "lo": 4.292,
+    "k": "fort",
+    "n": "Oppidum van de Aduatuci",
+    "s": -57,
+    "e": -57,
     "t": 2
   },
   {
@@ -135422,6 +135910,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65510",
+    "la": 30.0066,
+    "lo": 31.2321,
+    "k": "fortification",
+    "n": "Siege of Babylon Fortress",
+    "s": 640,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65542",
     "la": 42.5254,
     "lo": 3.0844,
@@ -135665,6 +136162,33 @@
     "lo": 9.0704,
     "k": "fort",
     "n": "Wachturm 10-24 \"An der Sandgasse\"",
+    "s": 70,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66172",
+    "la": 49.6629,
+    "lo": 9.0758,
+    "k": "fortification",
+    "n": "Sichtbarer Pfahlgraben des Limes",
+    "s": 70,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66173",
+    "la": 49.5463,
+    "lo": 9.1418,
+    "k": "fortification",
+    "n": "Sichtbarer Pfahlgraben",
+    "s": 70,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66174",
+    "la": 49.7135,
+    "lo": 9.086,
+    "k": "fortification",
+    "n": "Sichtbarer Pfahlgraben",
     "s": 70,
     "t": 2
   },
@@ -138482,6 +139006,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-68867",
+    "la": 38.2059,
+    "lo": 26.6856,
+    "k": "fortification",
+    "n": "Fortification walls",
+    "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68868",
+    "la": 38.2037,
+    "lo": 26.6864,
+    "k": "fortification",
+    "n": "Fortification walls",
+    "s": -599,
+    "t": 2
+  },
+  {
     "i": "vici:vici-68878",
     "la": 40.5595,
     "lo": 42.9581,
@@ -140703,6 +141245,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-72081",
+    "la": 52.0862,
+    "lo": 4.8836,
+    "k": "fort",
+    "n": "Omtrek Castellum",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-72093",
     "la": 40.6376,
     "lo": -3.1695,
@@ -140857,6 +141408,15 @@
     "k": "fort",
     "n": "Gosaja-depe 1",
     "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-72289",
+    "la": 46.8353,
+    "lo": 15.5484,
+    "k": "fortification",
+    "n": "Teufelsgraben",
+    "s": -299,
     "t": 2
   },
   {
@@ -141446,6 +142006,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-73104",
+    "la": 34.0128,
+    "lo": 58.1446,
+    "k": "fort",
+    "n": "Hasan Abad castle",
+    "s": 200,
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-73105",
     "la": 34.0244,
     "lo": 58.1158,
@@ -141785,6 +142355,15 @@
     "n": "Anonymous fort (DG88)",
     "s": 700,
     "e": 1299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-74023",
+    "la": 48.7416,
+    "lo": 7.3641,
+    "k": "watchtower",
+    "n": "Roman tower in city wall",
+    "s": 2021,
     "t": 2
   },
   {
@@ -142901,6 +143480,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-77276",
+    "la": 53.9618,
+    "lo": -1.0863,
+    "k": "watchtower",
+    "n": "Anglian Tower",
+    "s": 400,
+    "t": 2
+  },
+  {
     "i": "vici:vici-77291",
     "la": 39.5908,
     "lo": 31.4876,
@@ -143471,6 +144059,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-80487",
+    "la": 38.468,
+    "lo": 14.9569,
+    "k": "watchtower",
+    "n": "Ancient Greek wall tower",
+    "s": -499,
+    "t": 2
+  },
+  {
     "i": "vici:vici-80496",
     "la": 29.9113,
     "lo": 61.3468,
@@ -143952,6 +144549,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-80935",
+    "la": 36.4378,
+    "lo": 8.6835,
+    "k": "fort",
+    "n": "Sidi-Rherib",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-80974",
     "la": 36.2635,
     "lo": 9.8942,
@@ -144112,6 +144718,15 @@
     "k": "fort",
     "n": "Markeli",
     "s": 600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-81188",
+    "la": 31.7793,
+    "lo": 14.3679,
+    "k": "fort",
+    "n": "Roman fort ?",
+    "e": 1500,
     "t": 2
   },
   {
@@ -144657,6 +145272,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-81708",
+    "la": 39.8819,
+    "lo": 26.2972,
+    "k": "fort",
+    "n": "Fortress",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-81779",
     "la": 38.4913,
     "lo": 22.8384,
@@ -144810,6 +145434,15 @@
     "k": "fort",
     "n": "Kastell Bodobrica (Boppard)",
     "s": 350,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-82130",
+    "la": 36.419,
+    "lo": 9.2149,
+    "k": "fort",
+    "n": "Fort ?",
+    "e": 1500,
     "t": 2
   },
   {
@@ -145879,12 +146512,30 @@
     "t": 2
   },
   {
+    "i": "vici:vici-83166",
+    "la": 42.0893,
+    "lo": -4.1385,
+    "k": "fortification",
+    "n": "Palantia",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-83167",
     "la": 42.1049,
     "lo": -4.1527,
     "k": "fort",
     "n": "Pallatia",
     "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83168",
+    "la": 42.1083,
+    "lo": -4.1454,
+    "k": "fortification",
+    "n": "Pallantia",
+    "e": 1500,
     "t": 2
   },
   {
@@ -146938,6 +147589,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-84478",
+    "la": 41.8918,
+    "lo": 12.5165,
+    "k": "fort",
+    "n": "Caer Gybi Roman Fort",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8451",
     "la": 47.6637,
     "lo": 9.1756,
@@ -147044,6 +147704,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-8460",
+    "la": 53.9614,
+    "lo": -1.087,
+    "k": "watchtower",
+    "n": "Multangular Tower (Eburacum, York)",
+    "t": 2
+  },
+  {
     "i": "vici:vici-8461",
     "la": 53.9607,
     "lo": -1.086,
@@ -147103,6 +147771,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-84782",
+    "la": 32.8923,
+    "lo": 35.8334,
+    "k": "fort",
+    "n": "Fort ?",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-84794",
     "la": 50.3433,
     "lo": 7.7099,
@@ -147145,6 +147822,15 @@
     "k": "fort",
     "n": "Herrera de Pisuerga",
     "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-84865",
+    "la": 41.8888,
+    "lo": 12.4745,
+    "k": "watchtower",
+    "n": "Excubitorium de la VIIe Cohorte",
+    "s": 100,
     "t": 2
   },
   {
@@ -147306,6 +147992,33 @@
     "k": "fort",
     "n": "Dasht Ler Castle",
     "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85110",
+    "la": 35.9409,
+    "lo": 10.4225,
+    "k": "fort",
+    "n": "Sidi Bou Ali",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85132",
+    "la": 32.0665,
+    "lo": 12.9483,
+    "k": "fort",
+    "n": "Fort ?",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85152",
+    "la": 32.4801,
+    "lo": 14.0309,
+    "k": "fort",
+    "n": "Roman fort ?",
+    "e": 1500,
     "t": 2
   },
   {
@@ -147770,6 +148483,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-85563",
+    "la": 36.2068,
+    "lo": 8.6101,
+    "k": "fort",
+    "n": "Henchir el Ksar",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-85589",
     "la": 36.3961,
     "lo": 9.6138,
@@ -147840,6 +148562,15 @@
     "k": "fort",
     "n": "Wehrturm",
     "s": -20,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85958",
+    "la": 36.5053,
+    "lo": 9.0851,
+    "k": "fort",
+    "n": "Tibaris",
+    "e": 1500,
     "t": 2
   },
   {
@@ -147981,6 +148712,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-86661",
+    "la": 31.8209,
+    "lo": 14.8845,
+    "k": "fort",
+    "n": "Roman fort ?",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-86662",
     "la": 32.391,
     "lo": 11.5359,
@@ -148114,6 +148854,15 @@
     "k": "fort",
     "n": "Roman fort",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86789",
+    "la": 32.48,
+    "lo": 13.5094,
+    "k": "fort",
+    "n": "Roman fort ?",
+    "e": 1500,
     "t": 2
   },
   {
@@ -148295,6 +149044,15 @@
     "k": "fort",
     "n": "Belören Kalesi",
     "s": 1000,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87101",
+    "la": 36.2226,
+    "lo": 29.9459,
+    "k": "fortification",
+    "n": "Andriake",
+    "e": 1500,
     "t": 2
   },
   {
@@ -149214,6 +149972,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-88090",
+    "la": 36.4102,
+    "lo": 42.5553,
+    "k": "fort",
+    "n": "Fortress",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-88116",
     "la": 28.5495,
     "lo": 55.9142,
@@ -149602,6 +150369,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-88954",
+    "la": 37.6533,
+    "lo": 34.7299,
+    "k": "fort",
+    "n": "Basmakci",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-88961",
     "la": 44.5948,
     "lo": 33.8087,
@@ -149748,6 +150524,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-89517",
+    "la": 34.6948,
+    "lo": 8.268,
+    "k": "fort",
+    "n": "Henchir el Ksour",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-89613",
     "la": 33.4796,
     "lo": 67.7445,
@@ -149790,6 +150575,15 @@
     "k": "fort",
     "n": "Kuchikhel (BALL-617)",
     "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89670",
+    "la": 33.7715,
+    "lo": 9.4153,
+    "k": "fort",
+    "n": "Possible Roman fort.",
+    "e": 1500,
     "t": 2
   },
   {
@@ -151527,6 +152321,22 @@
     "t": 2
   },
   {
+    "i": "vici:vici-9925",
+    "la": 50.5178,
+    "lo": 8.7136,
+    "k": "watchtower",
+    "n": "Limespalisade am Wachtturm 4-49",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9936",
+    "la": 50.2745,
+    "lo": 8.5673,
+    "k": "fort",
+    "n": "Limespalisade beim Kastell Saalburg",
+    "t": 2
+  },
+  {
     "i": "vici:vici-9940",
     "la": 47.3587,
     "lo": 8.7924,
@@ -151635,6 +152445,14 @@
     "n": "Legionslager Windisch",
     "s": 15,
     "e": 101,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9989",
+    "la": 50.198,
+    "lo": 7.9952,
+    "k": "fort",
+    "n": "Limespalisade am Kleinkastell Dörsterberg",
     "t": 2
   },
   { "i": "vici:vici-31709", "la": 41.9028, "lo": 60.8994, "k": "fort", "t": 3 },

@@ -21869,6 +21869,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10996",
+    "la": 41.0078,
+    "lo": 28.9431,
+    "k": "monument",
+    "n": "Column of Arcadius",
+    "s": 402,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10997",
+    "la": 41.0154,
+    "lo": 28.9503,
+    "k": "monument",
+    "n": "Column of Marcian",
+    "s": 455,
+    "t": 2
+  },
+  {
     "i": "vici:vici-11058",
     "la": 29.217,
     "lo": 51.6511,
@@ -22582,6 +22600,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-16371",
+    "la": 50.9337,
+    "lo": 6.9593,
+    "k": "monument",
+    "n": "Ubiermonument",
+    "t": 2
+  },
+  {
     "i": "vici:vici-16381",
     "la": 52.1512,
     "lo": 4.516,
@@ -22679,11 +22705,36 @@
     "t": 2
   },
   {
+    "i": "vici:vici-17217",
+    "la": 46.2555,
+    "lo": 15.1215,
+    "k": "cemetery",
+    "n": "Šempeter v Savinjski Dolini,SLO Necropole",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17219",
+    "la": 46.42,
+    "lo": 15.8705,
+    "k": "monument",
+    "n": "Ptuj,SLO, Orpheus Denkmal",
+    "t": 2
+  },
+  {
     "i": "vici:vici-17237",
     "la": 36.3418,
     "lo": 30.1679,
     "k": "cemetery",
     "n": "Yuvalilar,TR - LIMYRA",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17279",
+    "la": 46.0774,
+    "lo": 18.2237,
+    "k": "mausoleum",
+    "n": "Pécs,Mausuleum,H - SOPIANAE",
     "t": 2
   },
   {
@@ -23325,6 +23376,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19204",
+    "la": 38.3706,
+    "lo": 27.4561,
+    "k": "monument",
+    "n": "Karabel",
+    "s": -1299,
+    "t": 2
+  },
+  {
     "i": "vici:vici-19255",
     "la": 45.442,
     "lo": 10.9789,
@@ -23496,6 +23556,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19711",
+    "la": 48.1987,
+    "lo": 11.5194,
+    "k": "tumulus",
+    "n": "Grabhügel München Feldmoching",
+    "t": 2
+  },
+  {
     "i": "vici:vici-19716",
     "la": 48.0932,
     "lo": 11.554,
@@ -23550,6 +23618,22 @@
     "lo": 11.4537,
     "k": "cemetery",
     "n": "Gräber München-Pasing",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19754",
+    "la": 48.1777,
+    "lo": 11.4062,
+    "k": "tumulus",
+    "n": "Gräber München-Lochhausen",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19755",
+    "la": 48.1746,
+    "lo": 11.4178,
+    "k": "tumulus",
+    "n": "Gräber München-Langwied",
     "t": 2
   },
   {
@@ -23622,6 +23706,14 @@
     "lo": 11.7244,
     "k": "cemetery",
     "n": "Gräber Aschheim",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19847",
+    "la": 34.5521,
+    "lo": 38.267,
+    "k": "monument",
+    "n": "Palmyra, nymphaeum",
     "t": 2
   },
   {
@@ -23942,6 +24034,14 @@
     "lo": 10.4149,
     "k": "cemetery",
     "n": "Gräberfeld",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20324",
+    "la": 41.0102,
+    "lo": 28.956,
+    "k": "monument",
+    "n": "Constantinople, Obelisk of Constantine",
     "t": 2
   },
   {
@@ -25781,6 +25881,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-22292",
+    "la": 51.5575,
+    "lo": 15.5175,
+    "k": "tumulus",
+    "n": "Kleczanów Forest",
+    "t": 2
+  },
+  {
     "i": "vici:vici-22293",
     "la": 50.7651,
     "lo": 21.5198,
@@ -26557,6 +26665,14 @@
   },
   { "i": "vici:vici-23110", "la": 35.3152, "lo": 24.3218, "k": "cemetery", "n": "Phylaki", "t": 2 },
   {
+    "i": "vici:vici-23127",
+    "la": 59.1408,
+    "lo": 10.2521,
+    "k": "tumulus",
+    "n": "Gokstad ship",
+    "t": 2
+  },
+  {
     "i": "vici:vici-23128",
     "la": 59.1408,
     "lo": 10.2521,
@@ -26578,6 +26694,14 @@
     "lo": 11.0031,
     "k": "cemetery",
     "n": "Tuneskipet at Rolsvoy",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23159",
+    "la": 39.8633,
+    "lo": 25.3233,
+    "k": "monument",
+    "n": "Lemnos stele",
     "t": 2
   },
   {
@@ -28240,6 +28364,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-24478",
+    "la": 40.7823,
+    "lo": 29.4417,
+    "k": "monument",
+    "n": "Hannibals Grave, Gebze",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-24488",
     "la": 36.7458,
     "lo": 36.9544,
@@ -28253,6 +28386,15 @@
     "lo": 36.953,
     "k": "cemetery",
     "n": "Southwest Necropolis of Cyrrhus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24490",
+    "la": 32.519,
+    "lo": 36.4846,
+    "k": "tomb",
+    "n": "Nabi Huri,  Cyrrhus",
+    "s": 50,
     "t": 2
   },
   {
@@ -28524,6 +28666,14 @@
     "lo": 22.5061,
     "k": "cemetery",
     "n": "Pella  [MK]",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24886",
+    "la": 40.7632,
+    "lo": 22.4736,
+    "k": "tomb",
+    "n": "Macedonian Tomb, Giannitissa",
     "t": 2
   },
   {
@@ -29230,6 +29380,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25541",
+    "la": 36.8511,
+    "lo": 34.6572,
+    "k": "monument",
+    "n": "Dikilitaş (obelisk) at Mersin",
+    "t": 2
+  },
+  {
     "i": "vici:vici-25553",
     "la": 46.2553,
     "lo": 15.1209,
@@ -29558,6 +29716,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-26070",
+    "la": 38.7968,
+    "lo": 22.5365,
+    "k": "monument",
+    "n": "Leonidas Monument, Thermopylae [Termopylai]",
+    "t": 2
+  },
+  {
     "i": "vici:vici-26082",
     "la": 48.8129,
     "lo": 11.4934,
@@ -29753,6 +29919,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-26290",
+    "la": 37.0791,
+    "lo": 22.4284,
+    "k": "monument",
+    "n": "Sparta, Leonidas Statue",
+    "t": 2
+  },
+  {
     "i": "vici:vici-26386",
     "la": 36.7834,
     "lo": 25.3104,
@@ -29846,12 +30020,28 @@
     "t": 2
   },
   {
+    "i": "vici:vici-26486",
+    "la": 39.8209,
+    "lo": 34.8088,
+    "k": "monument",
+    "n": "Karga Stele",
+    "t": 2
+  },
+  {
     "i": "vici:vici-26511",
     "la": 39.2258,
     "lo": 30.6974,
     "k": "cemetery",
     "n": "Gerdekkaya",
     "s": -350,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26517",
+    "la": 39.3925,
+    "lo": 31.1787,
+    "k": "tumulus",
+    "n": "Acıbaşı Tumulus",
     "t": 2
   },
   {
@@ -30041,6 +30231,16 @@
     "k": "cemetery",
     "n": "Hierothesion of Mithridates I Kallinikos, Arsameia ad Nymphaios",
     "s": -130,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26785",
+    "la": 34.7463,
+    "lo": 40.7228,
+    "k": "monument",
+    "n": "Triumphal Arch of Dura Europos",
+    "s": 116,
+    "e": 257,
     "t": 2
   },
   {
@@ -32078,6 +32278,22 @@
     "t": 2
   },
   {
+    "i": "vici:vici-30265",
+    "la": 45.3358,
+    "lo": 15.5149,
+    "k": "tomb",
+    "n": "Roman sepulcural monument",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-30266",
+    "la": 45.2791,
+    "lo": 15.5536,
+    "k": "tomb",
+    "n": "Roman sepulcural monument",
+    "t": 2
+  },
+  {
     "i": "vici:vici-30377",
     "la": 45.0811,
     "lo": 17.1086,
@@ -32472,6 +32688,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-31098",
+    "la": 35.1699,
+    "lo": 8.7963,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
     "i": "vici:vici-311",
     "la": 52.0109,
     "lo": 5.063,
@@ -32481,7 +32705,96 @@
     "e": 299,
     "t": 2
   },
+  {
+    "i": "vici:vici-31108",
+    "la": 35.5658,
+    "lo": 8.4594,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31111",
+    "la": 35.5621,
+    "lo": 8.4564,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31114",
+    "la": 35.8561,
+    "lo": 9.2052,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
   { "i": "vici:vici-31118", "la": 35.8523, "lo": 9.2058, "k": "cemetery", "n": "Tombs", "t": 2 },
+  {
+    "i": "vici:vici-31124",
+    "la": 36.1687,
+    "lo": 9.7747,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31142",
+    "la": 36.5324,
+    "lo": 10.457,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31159",
+    "la": 36.409,
+    "lo": 9.706,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31162",
+    "la": 36.353,
+    "lo": 9.6258,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31167",
+    "la": 36.3373,
+    "lo": 9.1466,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31192",
+    "la": 36.4088,
+    "lo": 9.0817,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31199",
+    "la": 36.7694,
+    "lo": 9.0366,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31215",
+    "la": 35.9955,
+    "lo": 9.0234,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
   {
     "i": "vici:vici-31230",
     "la": 38.4816,
@@ -32496,6 +32809,22 @@
     "lo": 10.0622,
     "k": "cemetery",
     "n": "Punic cemetry",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31241",
+    "la": 36.3995,
+    "lo": 10.1485,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31248",
+    "la": 36.7248,
+    "lo": 9.1817,
+    "k": "monument",
+    "n": "Triumphal Arch",
     "t": 2
   },
   {
@@ -32701,6 +33030,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-31560",
+    "la": 30.3204,
+    "lo": 35.4456,
+    "k": "tomb",
+    "n": "Petra, Garden Tomb - Garden Temple",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-31561",
     "la": 30.3208,
     "lo": 35.445,
@@ -32716,6 +33054,14 @@
     "k": "cemetery",
     "n": "Petra, Aaron Tomb",
     "s": -1299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31566",
+    "la": 30.3172,
+    "lo": 35.4314,
+    "k": "monument",
+    "n": "Petra, Snake Monument",
     "t": 2
   },
   {
@@ -37512,6 +37858,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-39828",
+    "la": 40.1666,
+    "lo": -6.101,
+    "k": "monument",
+    "n": "Arco de Caparra",
+    "t": 2
+  },
+  {
     "i": "vici:vici-39834",
     "la": 36.6792,
     "lo": -5.3007,
@@ -37559,6 +37913,14 @@
     "lo": -4.5484,
     "k": "cemetery",
     "n": "Dolmen de Viera",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-39950",
+    "la": 41.7751,
+    "lo": 0.044,
+    "k": "monument",
+    "n": "Arco romano",
     "t": 2
   },
   {
@@ -39608,6 +39970,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-41262",
+    "la": 37.3764,
+    "lo": 37.2945,
+    "k": "monument",
+    "n": "Kızkapanlı Stele - Pazarcik Stele",
+    "s": -2999,
+    "t": 2
+  },
+  {
     "i": "vici:vici-41310",
     "la": 48.0779,
     "lo": -2.1177,
@@ -40143,6 +40514,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42318",
+    "la": 37.4189,
+    "lo": 27.8196,
+    "k": "monument",
+    "n": "LAVRANDA. MONUMENTAL STAIRWAY",
+    "t": 2
+  },
+  {
     "i": "vici:vici-42335",
     "la": 53.2444,
     "lo": 20.5172,
@@ -40420,6 +40799,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42893",
+    "la": 41.8921,
+    "lo": 12.4859,
+    "k": "monument",
+    "n": "Actiumbogen",
+    "t": 2
+  },
+  {
     "i": "vici:vici-42911",
     "la": 43.1902,
     "lo": -8.9694,
@@ -40443,6 +40830,7 @@
     "n": "Gräber Hechendorf",
     "t": 2
   },
+  { "i": "vici:vici-42926", "la": 46.894, "lo": 7.228, "k": "tumulus", "n": "Hügelgräber", "t": 2 },
   {
     "i": "vici:vici-42937",
     "la": 48.6213,
@@ -40494,6 +40882,7 @@
     "e": -800,
     "t": 2
   },
+  { "i": "vici:vici-43113", "la": 43.6764, "lo": 4.6276, "k": "monument", "n": "Obelisk", "t": 2 },
   {
     "i": "vici:vici-43115",
     "la": 47.9117,
@@ -41095,6 +41484,14 @@
     "lo": 12.1078,
     "k": "cemetery",
     "n": "Cerveteri, Tomb of the Dogtooth Frieze",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43604",
+    "la": 43.0266,
+    "lo": 11.925,
+    "k": "cemetery",
+    "n": "François Vase",
     "t": 2
   },
   {
@@ -43553,6 +43950,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-45823",
+    "la": 41.1257,
+    "lo": -1.9896,
+    "k": "monument",
+    "n": "Arco Romano",
+    "t": 2
+  },
+  {
     "i": "vici:vici-45835",
     "la": 39.0449,
     "lo": 9.0236,
@@ -43865,6 +44270,14 @@
     "lo": 27.7437,
     "k": "cemetery",
     "n": "Uçmakdere Nekropolis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-46392",
+    "la": 36.1633,
+    "lo": 9.7742,
+    "k": "monument",
+    "n": "Triumphal Arch",
     "t": 2
   },
   {
@@ -45298,6 +45711,14 @@
     "lo": 5.7626,
     "k": "cemetery",
     "n": "Askisten Stein",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-47276",
+    "la": 50.8895,
+    "lo": 5.861,
+    "k": "cemetery",
+    "n": "Hulsberg - Kerkhof",
     "t": 2
   },
   {
@@ -46969,6 +47390,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-48217",
+    "la": 51.2933,
+    "lo": 1.3328,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "t": 2
+  },
+  {
     "i": "vici:vici-48234",
     "la": 39.6623,
     "lo": -6.9189,
@@ -48126,6 +48555,14 @@
     "lo": 14.0784,
     "k": "cemetery",
     "n": "Roman Milestone",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-49510",
+    "la": 44.8427,
+    "lo": -0.5743,
+    "k": "monument",
+    "n": "Piliers de Tutelle",
     "t": 2
   },
   {
@@ -49322,6 +49759,14 @@
     "lo": 13.059,
     "k": "cemetery",
     "n": "Gräber Bürglstein",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50889",
+    "la": 47.7977,
+    "lo": 13.0438,
+    "k": "monument",
+    "n": "Römerstein",
     "t": 2
   },
   {
@@ -53241,6 +53686,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-53709",
+    "la": 41.4391,
+    "lo": -3.978,
+    "k": "cemetery",
+    "n": "Necropolis de Berlanga de Duero",
+    "t": 2
+  },
+  {
     "i": "vici:vici-53731",
     "la": 41.6983,
     "lo": -2.8198,
@@ -54776,6 +55229,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-54140",
+    "la": 39.9439,
+    "lo": 4.0465,
+    "k": "monument",
+    "n": "Monumento escalonado de Binicodrell",
+    "t": 2
+  },
+  {
     "i": "vici:vici-54142",
     "la": 39.9366,
     "lo": 3.9361,
@@ -55209,6 +55670,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-55194",
+    "la": 31.5668,
+    "lo": 35.6253,
+    "k": "monument",
+    "n": "Machaerus, Monument for John the Baptist",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-55198",
     "la": 49.8838,
     "lo": 6.9272,
@@ -55319,12 +55789,39 @@
     "t": 2
   },
   {
+    "i": "vici:vici-55518",
+    "la": 45.983,
+    "lo": 14.3545,
+    "k": "monument",
+    "n": "Bevke, Boundary stone",
+    "s": -150,
+    "t": 2
+  },
+  {
     "i": "vici:vici-55540",
     "la": 35.9889,
     "lo": 50.8137,
     "k": "cemetery",
     "n": "Khurvin",
     "s": -900,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55544",
+    "la": 30.1952,
+    "lo": 53.1682,
+    "k": "monument",
+    "n": "Pasargadae, Monument made of recycled stones",
+    "s": 1000,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55547",
+    "la": 43.1144,
+    "lo": 12.3897,
+    "k": "monument",
+    "n": "Etruscan Arch in Perusia",
+    "s": -145,
     "t": 2
   },
   {
@@ -58051,6 +58548,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-58072",
+    "la": 41.1049,
+    "lo": 16.5202,
+    "k": "monument",
+    "n": "Arco de Portoni",
+    "s": 60,
+    "t": 2
+  },
+  {
     "i": "vici:vici-5808",
     "la": 49.8729,
     "lo": 6.6143,
@@ -58433,6 +58939,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-58318",
+    "la": 42.0013,
+    "lo": 12.4928,
+    "k": "monument",
+    "n": "Arco presso Santi Urbano e Lorenzo",
+    "s": 300,
+    "t": 2
+  },
+  {
     "i": "vici:vici-58319",
     "la": 42.014,
     "lo": 12.448,
@@ -58514,6 +59029,15 @@
     "n": "Çift Dolmen, Derekoy",
     "s": -1200,
     "e": -800,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58383",
+    "la": 55.8497,
+    "lo": 9.1796,
+    "k": "tomb",
+    "n": "Grave with roman military equipment",
+    "s": 100,
     "t": 2
   },
   {
@@ -58702,6 +59226,15 @@
     "lo": 6.637,
     "k": "cemetery",
     "n": "Grabhügelgruppe - Preist",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58486",
+    "la": 41.89,
+    "lo": 12.4907,
+    "k": "monument",
+    "n": "Meta Sudans",
+    "s": 50,
     "t": 2
   },
   {
@@ -60119,6 +60652,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-59381",
+    "la": 43.8431,
+    "lo": 13.0145,
+    "k": "monument",
+    "n": "Arco di Augusto",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-59386",
     "la": 42.7204,
     "lo": 12.5407,
@@ -60833,6 +61375,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-60083",
+    "la": 35.9002,
+    "lo": 9.0914,
+    "k": "monument",
+    "n": "Triumphal arch",
+    "s": -59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-6009",
     "la": 50.1066,
     "lo": 6.3019,
@@ -60854,6 +61405,60 @@
     "lo": 6.7905,
     "k": "cemetery",
     "n": "Römische Brandgräber - Longen",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60110",
+    "la": 35.4913,
+    "lo": 6.2586,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60111",
+    "la": 35.4837,
+    "lo": 6.2661,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60112",
+    "la": 35.4796,
+    "lo": 6.2718,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60113",
+    "la": 35.4798,
+    "lo": 6.2732,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60114",
+    "la": 35.4833,
+    "lo": 6.2869,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60115",
+    "la": 35.487,
+    "lo": 6.292,
+    "k": "monument",
+    "n": "Trumphal Arch",
+    "s": 50,
     "t": 2
   },
   {
@@ -62003,6 +62608,15 @@
     "la": 48.8969,
     "lo": 16.5491,
     "k": "cemetery",
+    "n": "The Mušov grave",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60848",
+    "la": 48.8969,
+    "lo": 16.5491,
+    "k": "tomb",
     "n": "The Mušov grave",
     "s": 100,
     "t": 2
@@ -63223,6 +63837,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62296",
+    "la": 41.4751,
+    "lo": 1.9384,
+    "k": "monument",
+    "n": "Roman Thrumphal Arch",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62297",
     "la": 40.4275,
     "lo": 14.9996,
@@ -63283,6 +63906,15 @@
     "k": "cemetery",
     "n": "Patara, Tepecik Necropolis",
     "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62443",
+    "la": 39.7451,
+    "lo": 20.0284,
+    "k": "mausoleum",
+    "n": "Mausoleum",
+    "s": 100,
     "t": 2
   },
   {
@@ -63361,6 +63993,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62663",
+    "la": 35.8756,
+    "lo": 8.7823,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": -59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62666",
     "la": 35.8721,
     "lo": 8.7871,
@@ -63419,6 +64060,15 @@
     "lo": 4.9967,
     "k": "cemetery",
     "n": "Tumuli van het Bois des Tombes",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62705",
+    "la": 36.7113,
+    "lo": 9.5405,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": -59,
     "t": 2
   },
   {
@@ -63877,6 +64527,15 @@
     "lo": 5.8168,
     "k": "cemetery",
     "n": "Grafveld Het Anker, Buchtend",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63305",
+    "la": 41.8993,
+    "lo": 12.4811,
+    "k": "monument",
+    "n": "Arco di Claudio",
+    "s": 50,
     "t": 2
   },
   {
@@ -64664,6 +65323,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-63894",
+    "la": 44.0957,
+    "lo": 21.3815,
+    "k": "cemetery",
+    "n": "Roman Graveyard",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-63927",
     "la": 40.8198,
     "lo": 16.4002,
@@ -65198,6 +65866,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-64744",
+    "la": 36.3219,
+    "lo": 5.735,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": -59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64782",
     "la": 35.9465,
     "lo": 9.0985,
@@ -65261,6 +65938,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65129",
+    "la": 36.4945,
+    "lo": 9.1544,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65130",
+    "la": 36.4948,
+    "lo": 9.1544,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65189",
     "la": 33.8198,
     "lo": 10.9704,
@@ -65288,12 +65983,39 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65276",
+    "la": 36.2488,
+    "lo": 10.4,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65278",
     "la": 36.728,
     "lo": 8.8771,
     "k": "cemetery",
     "n": "Necropolis",
     "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65288",
+    "la": 36.5224,
+    "lo": 9.3579,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65325",
+    "la": 36.1521,
+    "lo": 9.6377,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": -59,
     "t": 2
   },
   {
@@ -65357,6 +66079,24 @@
     "k": "cemetery",
     "n": "Dolmens",
     "s": -3999,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65473",
+    "la": 36.7042,
+    "lo": 9.5407,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65474",
+    "la": 36.7051,
+    "lo": 9.5423,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 50,
     "t": 2
   },
   {
@@ -66608,6 +67348,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-67108",
+    "la": 41.8844,
+    "lo": 12.4884,
+    "k": "monument",
+    "n": "Triumphal Arch of Titus",
+    "s": 80,
+    "t": 2
+  },
+  {
     "i": "vici:vici-67154",
     "la": 39.1445,
     "lo": 34.4629,
@@ -66642,6 +67391,15 @@
     "k": "cemetery",
     "n": "Manieczki",
     "s": -1300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-67594",
+    "la": 40.7368,
+    "lo": 30.3709,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 500,
     "t": 2
   },
   {
@@ -66753,6 +67511,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-67850",
+    "la": 39.4121,
+    "lo": 34.7899,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "s": -2999,
+    "t": 2
+  },
+  {
     "i": "vici:vici-67851",
     "la": 39.3979,
     "lo": 35.0918,
@@ -66852,6 +67619,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-67960",
+    "la": 39.1992,
+    "lo": 34.5844,
+    "k": "tumulus",
+    "n": "Garipli Höyüğü",
+    "s": 2000,
+    "t": 2
+  },
+  {
     "i": "vici:vici-67976",
     "la": 40.2364,
     "lo": 40.0139,
@@ -66893,6 +67669,15 @@
     "lo": 11.2265,
     "k": "cemetery",
     "n": "Bossolo (Tavarnelle Val di Pesa)",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68297",
+    "la": 37.0152,
+    "lo": -4.5568,
+    "k": "monument",
+    "n": "Arco de los Gigantes",
     "s": 50,
     "t": 2
   },
@@ -67327,6 +68112,15 @@
     "k": "cemetery",
     "n": "Ulpinar",
     "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-6893",
+    "la": 41.0085,
+    "lo": 28.9713,
+    "k": "monument",
+    "n": "Column of Constantine",
+    "s": 330,
     "t": 2
   },
   {
@@ -69577,6 +70371,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-69851",
+    "la": 38.6636,
+    "lo": 26.761,
+    "k": "tumulus",
+    "n": "Phokaia Maltepe Tumulus",
+    "s": -699,
+    "t": 2
+  },
+  {
     "i": "vici:vici-69874",
     "la": 49.642,
     "lo": 16.7039,
@@ -69840,6 +70643,15 @@
     "k": "cemetery",
     "n": "Giza, Mastaba of Iasen",
     "s": -2600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70101",
+    "la": 40.7424,
+    "lo": 14.6677,
+    "k": "mausoleum",
+    "n": "Mausoleum (baptistry Santa Maria Maggiore)",
+    "s": 600,
     "t": 2
   },
   {
@@ -71090,6 +71902,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-70596",
+    "la": 39.4188,
+    "lo": -7.4589,
+    "k": "monument",
+    "n": "ARCO DA ARAMENHA",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-70622",
     "la": 40.7888,
     "lo": 17.4876,
@@ -71468,6 +72289,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-70858",
+    "la": 41.8546,
+    "lo": 12.5256,
+    "k": "monument",
+    "n": "Circo di Massenzo",
+    "s": -59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-70860",
     "la": 41.8469,
     "lo": 12.5267,
@@ -71582,6 +72412,15 @@
     "k": "cemetery",
     "n": "Roman tombs",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70953",
+    "la": 34.7981,
+    "lo": 48.5129,
+    "k": "tomb",
+    "n": "Hamadan",
+    "s": -499,
     "t": 2
   },
   {
@@ -74847,6 +75686,33 @@
     "t": 2
   },
   {
+    "i": "vici:vici-74824",
+    "la": 22.8168,
+    "lo": 59.0551,
+    "k": "tomb",
+    "n": "Jaylah Beehive Tombs",
+    "s": -3000,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-74825",
+    "la": 22.8154,
+    "lo": 59.055,
+    "k": "cemetery",
+    "n": "The Graves of Kubaikib",
+    "s": -3000,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-74826",
+    "la": 23.5801,
+    "lo": 58.0424,
+    "k": "tomb",
+    "n": "Halban Beehive Tombs",
+    "s": -3000,
+    "t": 2
+  },
+  {
     "i": "vici:vici-74830",
     "la": 23.2578,
     "lo": 56.7552,
@@ -75557,6 +76423,16 @@
     "n": "Paphos, Royal Tomb VII",
     "s": -399,
     "e": 399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-78210",
+    "la": 36.4383,
+    "lo": 48.7832,
+    "k": "mausoleum",
+    "n": "'ab-dollāh Mausoleum",
+    "s": 1300,
+    "e": 1500,
     "t": 2
   },
   {
@@ -76355,6 +77231,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-7975",
+    "la": 50.0059,
+    "lo": 8.2693,
+    "k": "monument",
+    "n": "Dativius-Victor-Bogen",
+    "t": 2
+  },
+  {
     "i": "vici:vici-80087",
     "la": 25.5275,
     "lo": 55.625,
@@ -76716,12 +77600,30 @@
     "t": 2
   },
   {
+    "i": "vici:vici-81093",
+    "la": 36.1895,
+    "lo": 7.6602,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 150,
+    "t": 2
+  },
+  {
     "i": "vici:vici-81101",
     "la": 36.523,
     "lo": 7.2297,
     "k": "cemetery",
     "n": "Rokinia",
     "s": -2999,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-81109",
+    "la": 36.5576,
+    "lo": 8.7529,
+    "k": "monument",
+    "n": "Triumphal Arch",
+    "s": 100,
     "t": 2
   },
   {
@@ -77387,6 +78289,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-82631",
+    "la": 44.626,
+    "lo": 28.7994,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-82632",
+    "la": 44.9943,
+    "lo": 28.1569,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-82646",
     "la": 43.988,
     "lo": 28.1919,
@@ -77402,6 +78322,23 @@
     "k": "cemetery",
     "n": "Group of Tumli",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-8269",
+    "la": 48.8834,
+    "lo": 11.7772,
+    "k": "monument",
+    "n": "Hadrians-Säule (Hienheim)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-82709",
+    "la": 30.9433,
+    "lo": 61.244,
+    "k": "tomb",
+    "n": "Mount Khwajeh (Kuh-e Khwajeh)",
+    "e": 1500,
     "t": 2
   },
   {
@@ -78426,6 +79363,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-83468",
+    "la": 42.7656,
+    "lo": -4.1117,
+    "k": "cemetery",
+    "n": "Necropolis",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83469",
+    "la": 42.7593,
+    "lo": -4.0848,
+    "k": "cemetery",
+    "n": "Necropolis",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-83470",
     "la": 42.7937,
     "lo": -3.9804,
@@ -78765,6 +79720,15 @@
     "k": "cemetery",
     "n": "Gavran",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83946",
+    "la": 41.2088,
+    "lo": -5.6654,
+    "k": "tomb",
+    "n": "SAN CRISTOBAL DEL MONTE",
+    "e": 1500,
     "t": 2
   },
   {
@@ -79219,6 +80183,14 @@
     "n": "Büyünlü Patikasi Dolmeni",
     "s": -1400,
     "e": -900,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-8507",
+    "la": 44.1422,
+    "lo": 4.8047,
+    "k": "monument",
+    "n": "Orange, Arc de Triomphe",
     "t": 2
   },
   {
@@ -79849,6 +80821,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-87074",
+    "la": 38.9223,
+    "lo": 38.1576,
+    "k": "tumulus",
+    "n": "Kurttaş Tümülüs",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-87133",
     "la": 37.4911,
     "lo": 38.2146,
@@ -80020,6 +81001,51 @@
     "t": 2
   },
   {
+    "i": "vici:vici-87175",
+    "la": 41.1153,
+    "lo": 28.5776,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87176",
+    "la": 41.1178,
+    "lo": 28.5722,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87177",
+    "la": 41.1179,
+    "lo": 28.5477,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87178",
+    "la": 41.1085,
+    "lo": 28.5388,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87179",
+    "la": 41.1838,
+    "lo": 28.5637,
+    "k": "tumulus",
+    "n": "A group of barrows",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-87181",
     "la": 41.1856,
     "lo": 26.6735,
@@ -80054,6 +81080,15 @@
     "k": "cemetery",
     "n": "Kaleönü",
     "s": 600,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87348",
+    "la": 37.2726,
+    "lo": 30.3138,
+    "k": "tumulus",
+    "n": "Pancar Höyük",
+    "e": 1500,
     "t": 2
   },
   {
@@ -80234,6 +81269,15 @@
     "k": "cemetery",
     "n": "Seyrek Mevkii",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87473",
+    "la": 38.2206,
+    "lo": 27.251,
+    "k": "tumulus",
+    "n": "Pancar Tümülüsü",
+    "e": 1500,
     "t": 2
   },
   {
@@ -80781,6 +81825,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-87952",
+    "la": 40.6285,
+    "lo": -8.5277,
+    "k": "tomb",
+    "n": "Roman grave",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-87953",
     "la": 39.4881,
     "lo": 29.8311,
@@ -80877,6 +81930,24 @@
     "k": "cemetery",
     "n": "Çokköy",
     "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87966",
+    "la": 39.7557,
+    "lo": 35.0394,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87967",
+    "la": 39.7562,
+    "lo": 35.0402,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
     "t": 2
   },
   {
@@ -81072,6 +82143,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-88263",
+    "la": 29.9351,
+    "lo": 56.5743,
+    "k": "mausoleum",
+    "n": "Pir Jarsoom tomb (BS56)",
+    "s": 1200,
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-88490",
     "la": 39.6759,
     "lo": -8.5299,
@@ -81154,6 +82235,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-88764",
+    "la": 39.0545,
+    "lo": 34.4832,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88765",
+    "la": 38.9607,
+    "lo": 34.7022,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-88825",
     "la": 42.1026,
     "lo": 27.17,
@@ -81229,6 +82328,60 @@
     "k": "cemetery",
     "n": "Necropoli Messapica",
     "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88912",
+    "la": 45.3774,
+    "lo": 27.6758,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88913",
+    "la": 45.3758,
+    "lo": 27.6782,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88914",
+    "la": 45.3731,
+    "lo": 27.6842,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88915",
+    "la": 45.3706,
+    "lo": 27.6895,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88916",
+    "la": 45.3694,
+    "lo": 27.6876,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88917",
+    "la": 45.3644,
+    "lo": 27.6979,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
     "t": 2
   },
   {
@@ -81313,6 +82466,33 @@
     "t": 2
   },
   {
+    "i": "vici:vici-89109",
+    "la": 41.2296,
+    "lo": 26.9589,
+    "k": "tumulus",
+    "n": "Kaba Höyük Tümülüsü",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89110",
+    "la": 41.1867,
+    "lo": 26.9461,
+    "k": "tumulus",
+    "n": "Beştepeler I Tümülüsü",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89111",
+    "la": 41.1815,
+    "lo": 26.9501,
+    "k": "tumulus",
+    "n": "Beştepeler 2 Tümülüsü",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-89112",
     "la": 41.2999,
     "lo": 26.6681,
@@ -81376,12 +82556,75 @@
     "t": 2
   },
   {
+    "i": "vici:vici-89128",
+    "la": 41.7357,
+    "lo": 26.9007,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-89129",
     "la": 42.1454,
     "lo": 26.687,
     "k": "cemetery",
     "n": "Zlatinitsa",
     "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89130",
+    "la": 42.4853,
+    "lo": 26.8006,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89131",
+    "la": 42.5999,
+    "lo": 26.7785,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89132",
+    "la": 42.5989,
+    "lo": 26.7754,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89133",
+    "la": 42.5984,
+    "lo": 26.774,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89134",
+    "la": 42.5974,
+    "lo": 26.7745,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89135",
+    "la": 42.6428,
+    "lo": 26.7396,
+    "k": "tumulus",
+    "n": "Tumulus",
+    "e": 1500,
     "t": 2
   },
   {
@@ -81519,6 +82762,16 @@
     "n": "Fakhri (BALL-317)",
     "s": 1300,
     "e": 1499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89949",
+    "la": 34.357,
+    "lo": 70.4791,
+    "k": "tumulus",
+    "n": "Ancient tumulus, Hadda",
+    "s": 10,
+    "e": 699,
     "t": 2
   },
   {

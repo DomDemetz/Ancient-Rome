@@ -97066,6 +97066,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10381",
+    "la": 50.1513,
+    "lo": 8.6419,
+    "k": "port",
+    "n": "Nida Hafenanlage",
+    "t": 2
+  },
+  {
     "i": "vici:vici-10383",
     "la": 50.1531,
     "lo": 8.6384,
@@ -97210,6 +97218,15 @@
     "lo": 25.6247,
     "k": "bath",
     "n": "Amphitheater Stara Zagora",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10595",
+    "la": 48.4239,
+    "lo": 13.8679,
+    "k": "port",
+    "n": "Reste einer Hafenanlage",
+    "s": 200,
     "t": 2
   },
   {
@@ -97528,6 +97545,22 @@
     "lo": 22.7543,
     "k": "bath",
     "n": "Baths Doberos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11075",
+    "la": 37.8824,
+    "lo": 22.9925,
+    "k": "port",
+    "n": "Harbor Cenchrea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11080",
+    "la": 51.1283,
+    "lo": 1.323,
+    "k": "lighthouse",
+    "n": "Lighthouse Dubrae",
     "t": 2
   },
   {
@@ -98205,6 +98238,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-11817",
+    "la": 36.8451,
+    "lo": 10.3255,
+    "k": "port",
+    "n": "Hafen Carthago",
+    "t": 2
+  },
+  {
     "i": "vici:vici-11819",
     "la": 36.6064,
     "lo": 10.1756,
@@ -98275,6 +98316,15 @@
     "lo": 29.3166,
     "k": "bath",
     "n": "Vespasian Therme - Patara",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11864",
+    "la": 36.2633,
+    "lo": 29.3082,
+    "k": "lighthouse",
+    "n": "Patara Leuchtturm",
+    "s": 100,
     "t": 2
   },
   {
@@ -98407,11 +98457,27 @@
     "t": 2
   },
   {
+    "i": "vici:vici-11975",
+    "la": 39.2232,
+    "lo": 9.1117,
+    "k": "cistern",
+    "n": "Caralis, Antica cisterna Romana",
+    "t": 2
+  },
+  {
     "i": "vici:vici-11978",
     "la": 32.5063,
     "lo": 34.8946,
     "k": "aqueduct",
     "n": "Aqueduct Caesarea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-11988",
+    "la": 44.8702,
+    "lo": 13.8478,
+    "k": "port",
+    "n": "Porto Ercole",
     "t": 2
   },
   {
@@ -98480,6 +98546,56 @@
     "t": 2
   },
   {
+    "i": "vici:vici-12043",
+    "la": 38.9888,
+    "lo": -6.1914,
+    "k": "dam",
+    "n": "Staudamm Cornalvo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12044",
+    "la": 38.9692,
+    "lo": -6.3666,
+    "k": "dam",
+    "n": "Staudamm Proserpina",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12045",
+    "la": 34.2468,
+    "lo": 37.6271,
+    "k": "dam",
+    "n": "Staudamm Harbaqa",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12049",
+    "la": 40.1057,
+    "lo": 34.9043,
+    "k": "dam",
+    "n": "Staudamm Orükaya",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12050",
+    "la": 39.18,
+    "lo": 29.5896,
+    "k": "dam",
+    "n": "Staudamm Çavdarhisar",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12052",
+    "la": 35.1659,
+    "lo": 8.8001,
+    "k": "dam",
+    "n": "Kasserine-Staudamm",
+    "t": 2
+  },
+  {
     "i": "vici:vici-12056",
     "la": 32.5502,
     "lo": 34.9509,
@@ -98501,6 +98617,14 @@
     "lo": -2.8146,
     "k": "bath",
     "n": "Thermes Segobriga",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-12066",
+    "la": 39.734,
+    "lo": -3.8789,
+    "k": "dam",
+    "n": "Staudamm Moracantá",
     "t": 2
   },
   {
@@ -98629,6 +98753,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-123",
+    "la": 52.0566,
+    "lo": 5.1404,
+    "k": "road",
+    "n": "BrA40 [2]",
+    "s": 100,
+    "e": 399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-12317",
     "la": 52.6568,
     "lo": -1.8568,
@@ -98653,11 +98787,38 @@
     "t": 2
   },
   {
+    "i": "vici:vici-124",
+    "la": 52.0772,
+    "lo": 5.0838,
+    "k": "road",
+    "n": "BrA40 [3a]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-12476",
     "la": 56.4258,
     "lo": -3.4614,
     "k": "bridge",
     "n": "Bertha Bridge",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-125",
+    "la": 52.0761,
+    "lo": 5.0878,
+    "k": "road",
+    "n": "BrA40 [3b]",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-126",
+    "la": 52.0731,
+    "lo": 5.0952,
+    "k": "road",
+    "n": "BrA40 [3c]",
+    "s": 100,
     "t": 2
   },
   {
@@ -98696,11 +98857,29 @@
     "t": 2
   },
   {
+    "i": "vici:vici-127",
+    "la": 52.0728,
+    "lo": 5.0962,
+    "k": "road",
+    "n": "BrA40 [3d]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-12701",
     "la": 54.3082,
     "lo": -2.7471,
     "k": "bath",
     "n": "Watercrook Fort Thermae",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-128",
+    "la": 52.0721,
+    "lo": 5.0986,
+    "k": "road",
+    "n": "BrA40 [3e]",
+    "s": 100,
     "t": 2
   },
   {
@@ -98754,6 +98933,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-129",
+    "la": 52.0699,
+    "lo": 5.1043,
+    "k": "road",
+    "n": "BrA40 [3f]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-12902",
     "la": 43.7635,
     "lo": 24.457,
@@ -98793,6 +98981,15 @@
     "lo": 6.0873,
     "k": "road",
     "n": "Romeinseweg in reuver",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-130",
+    "la": 52.0691,
+    "lo": 5.1066,
+    "k": "road",
+    "n": "BrA40 [3g]",
+    "s": 100,
     "t": 2
   },
   {
@@ -98837,11 +99034,47 @@
     "t": 2
   },
   {
+    "i": "vici:vici-131",
+    "la": 52.0713,
+    "lo": 5.1006,
+    "k": "road",
+    "n": "BrA40 [3h]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-13194",
     "la": 55.9188,
     "lo": -4.2734,
     "k": "bridge",
     "n": "Balmuildy, Roman Bridge",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-132",
+    "la": 52.067,
+    "lo": 5.1126,
+    "k": "road",
+    "n": "BrA40 [3i]",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-133",
+    "la": 52.0652,
+    "lo": 5.1182,
+    "k": "road",
+    "n": "BrA40 [3j]",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-134",
+    "la": 52.0639,
+    "lo": 5.1223,
+    "k": "road",
+    "n": "BrA40 [3k]",
+    "s": 100,
     "t": 2
   },
   {
@@ -98966,6 +99199,15 @@
     "lo": 27.702,
     "k": "aqueduct",
     "n": "Aqueduct Istanbul",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-135",
+    "la": 52.0729,
+    "lo": 5.0958,
+    "k": "road",
+    "n": "BrA40 [3m]",
+    "s": 100,
     "t": 2
   },
   {
@@ -99105,6 +99347,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-136",
+    "la": 52.0714,
+    "lo": 5.1004,
+    "k": "road",
+    "n": "BrA40 [3n]",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-137",
+    "la": 52.0802,
+    "lo": 5.0635,
+    "k": "road",
+    "n": "BrA40 [4a]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-13784",
     "la": 46.6836,
     "lo": 23.7372,
@@ -99209,6 +99469,15 @@
     "lo": 24.8709,
     "k": "road",
     "n": "Road on Călugăreni",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-138",
+    "la": 52.0802,
+    "lo": 5.0657,
+    "k": "road",
+    "n": "BrA40 [4b]",
+    "s": 100,
     "t": 2
   },
   {
@@ -99324,6 +99593,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-13825",
+    "la": 43.4296,
+    "lo": 6.7439,
+    "k": "lighthouse",
+    "n": "Lanterne d'Auguste",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-13826",
     "la": 43.4356,
     "lo": 6.7309,
@@ -99332,12 +99610,22 @@
     "s": -59,
     "t": 2
   },
+  { "i": "vici:vici-13831", "la": 43.4308, "lo": 6.7419, "k": "port", "n": "Bastide Mège", "t": 2 },
   {
     "i": "vici:vici-13848",
     "la": 46.8155,
     "lo": 23.4521,
     "k": "road",
     "n": "Milliarum of Mera",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-139",
+    "la": 52.0801,
+    "lo": 5.0668,
+    "k": "road",
+    "n": "BrA40 [4c]",
+    "s": 100,
     "t": 2
   },
   {
@@ -99378,6 +99666,15 @@
     "lo": 28.0925,
     "k": "bath",
     "n": "Thermae of Capidava",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-140",
+    "la": 52.0798,
+    "lo": 5.0692,
+    "k": "road",
+    "n": "BrA40 [4d]",
+    "s": 100,
     "t": 2
   },
   {
@@ -99437,6 +99734,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-141",
+    "la": 52.0798,
+    "lo": 5.0706,
+    "k": "road",
+    "n": "BrA40 [4e]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-14117",
     "la": 45.7372,
     "lo": 24.3529,
@@ -99450,6 +99756,15 @@
     "lo": 23.7397,
     "k": "bath",
     "n": "Therme - Miercurea Băi",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-142",
+    "la": 52.0796,
+    "lo": 5.0715,
+    "k": "road",
+    "n": "BrA40 [4f]",
+    "s": 168,
     "t": 2
   },
   {
@@ -99521,6 +99836,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-143",
+    "la": 52.084,
+    "lo": 5.0669,
+    "k": "road",
+    "n": "BrA40 [5a]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-14393",
     "la": 49.8008,
     "lo": 9.1458,
@@ -99536,6 +99860,15 @@
     "n": "Kastellbad (Miltenberg-Altstadt)",
     "s": 160,
     "e": 260,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-144",
+    "la": 52.0837,
+    "lo": 5.0634,
+    "k": "road",
+    "n": "BrA40 [5b]",
+    "s": 100,
     "t": 2
   },
   {
@@ -99650,6 +99983,16 @@
     "k": "bath",
     "n": "Kastellbad (Aalen)",
     "s": 150,
+    "e": 260,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-14522",
+    "la": 49.3777,
+    "lo": 8.8167,
+    "k": "cistern",
+    "n": "Holzbrunnen (Wiesenbach)",
+    "s": 130,
     "e": 260,
     "t": 2
   },
@@ -100240,6 +100583,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-14906",
+    "la": 48.176,
+    "lo": 11.6272,
+    "k": "road",
+    "n": "Römerstraße Emmeramsmühle",
+    "t": 2
+  },
+  {
     "i": "vici:vici-14911",
     "la": 45.6947,
     "lo": 7.2206,
@@ -100535,6 +100886,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-16411",
+    "la": 48.1051,
+    "lo": 11.3066,
+    "k": "road",
+    "n": "Römerstraße & Gedenkstein Gilching",
+    "t": 2
+  },
+  {
     "i": "vici:vici-16420",
     "la": 52.0501,
     "lo": 5.195,
@@ -100575,6 +100934,22 @@
     "lo": 12.9834,
     "k": "road",
     "n": "Pioraco Roman Road",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16453",
+    "la": 48.1123,
+    "lo": 11.295,
+    "k": "road",
+    "n": "Römerstraße Gilching",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16463",
+    "la": 47.9901,
+    "lo": 11.6445,
+    "k": "road",
+    "n": "Römerstraße & Gedenkstein Lanzenhaar",
     "t": 2
   },
   {
@@ -100661,11 +101036,27 @@
     "t": 2
   },
   {
+    "i": "vici:vici-16542",
+    "la": 50.8356,
+    "lo": 5.6442,
+    "k": "road",
+    "n": "Luchtbeeld Romeinenbaan",
+    "t": 2
+  },
+  {
     "i": "vici:vici-16547",
     "la": 50.9169,
     "lo": 6.0913,
     "k": "bridge",
     "n": "Brug over de Worm",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16548",
+    "la": 49.9776,
+    "lo": 9.0695,
+    "k": "port",
+    "n": "Stockstadt Schiffslände",
     "t": 2
   },
   {
@@ -101410,6 +101801,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-17840",
+    "la": 37.8071,
+    "lo": 22.7137,
+    "k": "bath",
+    "n": "Apodyterium, Nemea",
+    "t": 2
+  },
+  {
     "i": "vici:vici-17848",
     "la": 47.5637,
     "lo": 19.0499,
@@ -101614,6 +102013,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-18008",
+    "la": 32.9059,
+    "lo": 21.9723,
+    "k": "lighthouse",
+    "n": "Lighthouse, Apollonia",
+    "t": 2
+  },
+  {
     "i": "vici:vici-18026",
     "la": 32.8235,
     "lo": 21.8534,
@@ -101627,6 +102034,22 @@
     "lo": 21.8545,
     "k": "road",
     "n": "Milestone Cyrene",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18035",
+    "la": 32.6402,
+    "lo": 14.3013,
+    "k": "lighthouse",
+    "n": "Lighthouse Leptis Magna",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18037",
+    "la": 32.6385,
+    "lo": 14.301,
+    "k": "port",
+    "n": "Semaphor, Leptis Magna Port",
     "t": 2
   },
   {
@@ -102012,6 +102435,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-184",
+    "la": 52.0811,
+    "lo": 5.0193,
+    "k": "road",
+    "n": "BrA40 [18c]",
+    "s": 125,
+    "t": 2
+  },
+  {
     "i": "vici:vici-18402",
     "la": 36.1214,
     "lo": 35.9272,
@@ -102064,6 +102496,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-185",
+    "la": 52.081,
+    "lo": 5.0194,
+    "k": "road",
+    "n": "BrA40 [18d]",
+    "s": 125,
+    "t": 2
+  },
+  {
     "i": "vici:vici-18559",
     "la": 48.2852,
     "lo": 8.5115,
@@ -102110,6 +102551,16 @@
     "lo": 19.7645,
     "k": "bridge",
     "n": "Bridge between Peqin and Fatishe",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-186",
+    "la": 52.0822,
+    "lo": 5.0165,
+    "k": "road",
+    "n": "BrA40 [19a]",
+    "s": 100,
+    "e": 399,
     "t": 2
   },
   {
@@ -102222,6 +102673,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-187",
+    "la": 52.0827,
+    "lo": 5.0153,
+    "k": "road",
+    "n": "BrA40 [19b]",
+    "s": 100,
+    "e": 399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-18759",
     "la": 47.8219,
     "lo": 10.8787,
@@ -102243,6 +102704,16 @@
     "lo": 6.0838,
     "k": "bath",
     "n": "Münsterthermen (Aachen)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-188",
+    "la": 52.0831,
+    "lo": 5.0144,
+    "k": "road",
+    "n": "BrA40 [20a]",
+    "s": 100,
+    "e": 399,
     "t": 2
   },
   {
@@ -102358,6 +102829,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-189",
+    "la": 52.0832,
+    "lo": 5.0141,
+    "k": "road",
+    "n": "BrA40 [20b]",
+    "s": 100,
+    "e": 399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-18921",
     "la": 41.0918,
     "lo": 29.0618,
@@ -102405,6 +102886,16 @@
     "lo": 8.6282,
     "k": "road",
     "n": "Römerstraße Arae Flaviae (Rottweil) - Sulz",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-190",
+    "la": 52.0832,
+    "lo": 5.0141,
+    "k": "road",
+    "n": "BrA40 [20c]",
+    "s": 100,
+    "e": 399,
     "t": 2
   },
   {
@@ -103093,6 +103584,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-191",
+    "la": 52.0846,
+    "lo": 5.0101,
+    "k": "road",
+    "n": "BrA40 [21]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-19100",
     "la": 46.8212,
     "lo": 4.7436,
@@ -103742,6 +104242,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-192",
+    "la": 52.0853,
+    "lo": 5.0086,
+    "k": "road",
+    "n": "BrA40 [22]",
+    "s": 89,
+    "t": 2
+  },
+  {
     "i": "vici:vici-19213",
     "la": 49.8221,
     "lo": 2.3185,
@@ -103968,6 +104477,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-193",
+    "la": 52.0859,
+    "lo": 5.008,
+    "k": "road",
+    "n": "BrA40 [23]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-19303",
     "la": 37.0512,
     "lo": 34.9004,
@@ -104033,6 +104551,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19344",
+    "la": 49.6209,
+    "lo": 6.039,
+    "k": "cistern",
+    "n": "Römischer Brunnen",
+    "t": 2
+  },
+  {
     "i": "vici:vici-19361",
     "la": 36.7281,
     "lo": -3.9577,
@@ -104072,6 +104598,16 @@
     "n": "Therme Villa Rustica (Brederis)",
     "s": 150,
     "e": 499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-194",
+    "la": 52.0866,
+    "lo": 5.0078,
+    "k": "road",
+    "n": "BrA40 [24a]",
+    "s": 93,
+    "e": 125,
     "t": 2
   },
   {
@@ -104445,6 +104981,16 @@
     "lo": 5.3673,
     "k": "road",
     "n": "Voie Romaine entre Montmédy et Avioth",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-195",
+    "la": 52.0867,
+    "lo": 5.0078,
+    "k": "road",
+    "n": "BrA40 [24b]",
+    "s": 93,
+    "e": 125,
     "t": 2
   },
   {
@@ -105083,6 +105629,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-196",
+    "la": 52.0867,
+    "lo": 5.0078,
+    "k": "road",
+    "n": "BrA40 [24c]",
+    "s": 125,
+    "t": 2
+  },
+  {
     "i": "vici:vici-19600",
     "la": 49.3077,
     "lo": 2.849,
@@ -105565,6 +106120,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-197",
+    "la": 52.0866,
+    "lo": 5.0078,
+    "k": "road",
+    "n": "BrA40 [24d]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-19700",
     "la": 42.1224,
     "lo": -3.7408,
@@ -105846,6 +106410,15 @@
     "lo": -0.1115,
     "k": "road",
     "n": "Voie Romaine de Poitiers à Angers",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-198",
+    "la": 52.0867,
+    "lo": 5.0077,
+    "k": "road",
+    "n": "BrA40 [24e]",
+    "s": 100,
     "t": 2
   },
   {
@@ -106154,6 +106727,15 @@
     "n": "AQUAE STATIELLAE aqueduct",
     "t": 2
   },
+  {
+    "i": "vici:vici-199",
+    "la": 52.0866,
+    "lo": 5.0079,
+    "k": "road",
+    "n": "BrA40 [24f]",
+    "s": 100,
+    "t": 2
+  },
   { "i": "vici:vici-19900", "la": 34.0741, "lo": -5.5549, "k": "bath", "n": "North Baths", "t": 2 },
   { "i": "vici:vici-19905", "la": 25.7202, "lo": 32.6565, "k": "bath", "n": "Thebes", "t": 2 },
   {
@@ -106342,6 +106924,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-200",
+    "la": 52.0868,
+    "lo": 5.0079,
+    "k": "road",
+    "n": "BrA40 [24g]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-20000",
     "la": 36.7326,
     "lo": 33.9446,
@@ -106380,6 +106971,32 @@
     "lo": 15.8219,
     "k": "road",
     "n": "Römische Bernsteinstraße",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20089",
+    "la": 51.7382,
+    "lo": 7.1731,
+    "k": "port",
+    "n": "Haltern, Am Wiegel",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20090",
+    "la": 51.7403,
+    "lo": 7.1799,
+    "k": "port",
+    "n": "Haltern, Auf der Hofestatt",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-201",
+    "la": 52.0877,
+    "lo": 5.0076,
+    "k": "road",
+    "n": "BrA40 [25]",
+    "s": 100,
+    "e": 399,
     "t": 2
   },
   {
@@ -106454,6 +107071,24 @@
     "lo": 5.8678,
     "k": "road",
     "n": "Wegen Gelderland",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20199",
+    "la": 50.9353,
+    "lo": 6.9537,
+    "k": "cistern",
+    "n": "Römischer Brunnen (Köln)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-202",
+    "la": 52.0896,
+    "lo": 5.0065,
+    "k": "road",
+    "n": "BrA40 [26]",
+    "s": 200,
+    "e": 399,
     "t": 2
   },
   {
@@ -106613,6 +107248,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-203",
+    "la": 52.0901,
+    "lo": 5.0049,
+    "k": "road",
+    "n": "BrA40 [27a]",
+    "s": 150,
+    "e": 300,
+    "t": 2
+  },
+  {
     "i": "vici:vici-20326",
     "la": 41.0135,
     "lo": 28.9731,
@@ -106643,6 +107288,14 @@
     "k": "aqueduct",
     "n": "Constantinople, Park Cistern",
     "s": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20338",
+    "la": 41.0024,
+    "lo": 28.9769,
+    "k": "lighthouse",
+    "n": "Constantinople, Lighthouse",
     "t": 2
   },
   {
@@ -106726,6 +107379,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-20369",
+    "la": 49.6295,
+    "lo": 7.8182,
+    "k": "cistern",
+    "n": "Römerbrunnen (Rockenhausen)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-204",
+    "la": 52.0904,
+    "lo": 5.0033,
+    "k": "road",
+    "n": "BrA40 [27b]",
+    "s": 150,
+    "e": 300,
+    "t": 2
+  },
+  {
     "i": "vici:vici-20405",
     "la": 48.149,
     "lo": 7.7197,
@@ -106760,11 +107431,31 @@
     "t": 2
   },
   {
+    "i": "vici:vici-205",
+    "la": 52.0914,
+    "lo": 4.9948,
+    "k": "road",
+    "n": "BrA40 [28a]",
+    "s": 69,
+    "e": 225,
+    "t": 2
+  },
+  {
     "i": "vici:vici-20533",
     "la": 52.1536,
     "lo": 4.5296,
     "k": "road",
     "n": "Leiderdorp-Kom van Aaiweg, dijk",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-206",
+    "la": 52.0912,
+    "lo": 4.9956,
+    "k": "road",
+    "n": "BrA40 [28b]",
+    "s": 69,
+    "e": 225,
     "t": 2
   },
   {
@@ -106783,6 +107474,16 @@
     "lo": 16.1177,
     "k": "bath",
     "n": "Andautonia town bathhouse",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-207",
+    "la": 52.091,
+    "lo": 4.9969,
+    "k": "road",
+    "n": "BrA40 [28c]",
+    "s": 69,
+    "e": 225,
     "t": 2
   },
   {
@@ -106867,11 +107568,48 @@
     "t": 2
   },
   {
+    "i": "vici:vici-208",
+    "la": 52.0906,
+    "lo": 4.9985,
+    "k": "road",
+    "n": "BrA40 [28d]",
+    "s": 69,
+    "e": 225,
+    "t": 2
+  },
+  {
     "i": "vici:vici-20883",
     "la": 36.3488,
     "lo": 33.9234,
     "k": "bath",
     "n": "Burunucu Köyü near Silifke",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-209",
+    "la": 52.0911,
+    "lo": 4.996,
+    "k": "road",
+    "n": "BrA40 [28e]",
+    "s": 125,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-210",
+    "la": 52.091,
+    "lo": 4.9965,
+    "k": "road",
+    "n": "BrA40 [28f]",
+    "s": 125,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-211",
+    "la": 52.0909,
+    "lo": 4.997,
+    "k": "road",
+    "n": "BrA40 [28g]",
+    "s": 125,
     "t": 2
   },
   {
@@ -106884,12 +107622,39 @@
     "t": 2
   },
   {
+    "i": "vici:vici-212",
+    "la": 52.0915,
+    "lo": 4.9942,
+    "k": "road",
+    "n": "BrA40 [29a]",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21221",
+    "la": 31.2137,
+    "lo": 29.8855,
+    "k": "lighthouse",
+    "n": "Pharos of Alexandria - Lighthouse of Alexandria",
+    "s": -275,
+    "t": 2
+  },
+  {
     "i": "vici:vici-21231",
     "la": 35.4694,
     "lo": 44.395,
     "k": "bridge",
     "n": "Adana - Antiochea ad Sarum",
     "s": -2000,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-213",
+    "la": 52.092,
+    "lo": 4.9923,
+    "k": "road",
+    "n": "BrA40 [29b]",
+    "s": 100,
     "t": 2
   },
   {
@@ -106935,6 +107700,23 @@
     "t": 2
   },
   {
+    "i": "vici:vici-214",
+    "la": 52.0916,
+    "lo": 4.9911,
+    "k": "road",
+    "n": "BrA40 [29c]",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21434",
+    "la": 32.8732,
+    "lo": 35.549,
+    "k": "bath",
+    "n": "Tabgha [Heptapegon]- Baptismal Pool",
+    "t": 2
+  },
+  {
     "i": "vici:vici-21446",
     "la": 32.2792,
     "lo": 35.8916,
@@ -106944,12 +107726,30 @@
     "t": 2
   },
   {
+    "i": "vici:vici-215",
+    "la": 52.091,
+    "lo": 4.9894,
+    "k": "road",
+    "n": "BrA40 [29d]",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-21533",
     "la": 43.0157,
     "lo": 11.9489,
     "k": "aqueduct",
     "n": "Chiusi, Labirinto di Porsenna",
     "s": -500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-216",
+    "la": 52.0906,
+    "lo": 4.9886,
+    "k": "road",
+    "n": "BrA40 [29e]",
+    "s": 100,
     "t": 2
   },
   {
@@ -107042,6 +107842,15 @@
     "n": "Roman reservoirs",
     "t": 2
   },
+  {
+    "i": "vici:vici-217",
+    "la": 52.0937,
+    "lo": 4.9458,
+    "k": "road",
+    "n": "BrA40 [30a]",
+    "s": 100,
+    "t": 2
+  },
   { "i": "vici:vici-21727", "la": 45.7736, "lo": 16.1172, "k": "road", "n": "Roman road", "t": 2 },
   {
     "i": "vici:vici-21729",
@@ -107065,6 +107874,14 @@
     "lo": 35.2828,
     "k": "aqueduct",
     "n": "Sepphoris, cistern",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21738",
+    "la": 31.0257,
+    "lo": 35.0651,
+    "k": "bath",
+    "n": "Mamshit, Bathhouse",
     "t": 2
   },
   {
@@ -107115,6 +107932,7 @@
     "n": "Beit She'an [Bet Shean], Kyrie Maria Monastery",
     "t": 2
   },
+  { "i": "vici:vici-218", "la": 52.0966, "lo": 4.9102, "k": "road", "n": "BrA40 [31a]", "t": 2 },
   {
     "i": "vici:vici-21815",
     "la": 33.0165,
@@ -107157,6 +107975,7 @@
     "n": "Arsuf, Crusader Bridge",
     "t": 2
   },
+  { "i": "vici:vici-219", "la": 52.0957, "lo": 4.9087, "k": "road", "n": "BrA40 [31b]", "t": 2 },
   {
     "i": "vici:vici-21911",
     "la": 45.6045,
@@ -107231,9 +108050,11 @@
   },
   { "i": "vici:vici-21972", "la": 45.3844, "lo": 17.7519, "k": "bath", "n": "Roman baths", "t": 2 },
   { "i": "vici:vici-21976", "la": 46.3466, "lo": 16.2255, "k": "bath", "n": "Roman baths", "t": 2 },
+  { "i": "vici:vici-220", "la": 52.085, "lo": 4.8855, "k": "road", "n": "BrA40 [32]", "t": 2 },
   { "i": "vici:vici-22067", "la": 46.0909, "lo": 15.8362, "k": "bath", "n": "Roman baths", "t": 2 },
   { "i": "vici:vici-22069", "la": 45.9774, "lo": 15.9385, "k": "bath", "n": "Roman baths", "t": 2 },
   { "i": "vici:vici-22070", "la": 46.1143, "lo": 16.0095, "k": "bath", "n": "Roman baths", "t": 2 },
+  { "i": "vici:vici-221", "la": 52.0841, "lo": 4.8831, "k": "road", "n": "BrA40 [33]", "t": 2 },
   { "i": "vici:vici-22127", "la": 45.594, "lo": 17.2248, "k": "bath", "n": "Roman baths", "t": 2 },
   { "i": "vici:vici-22135", "la": 45.412, "lo": 17.1599, "k": "bath", "n": "Roman baths", "t": 2 },
   { "i": "vici:vici-22136", "la": 45.4661, "lo": 17.6585, "k": "bath", "n": "Roman baths", "t": 2 },
@@ -107343,6 +108164,7 @@
     "n": "Unfinished Roman bridge 2-3 century - \"Bey's bridge\"",
     "t": 2
   },
+  { "i": "vici:vici-222", "la": 52.0855, "lo": 4.8832, "k": "road", "n": "BrA40 [34a]", "t": 2 },
   {
     "i": "vici:vici-22228",
     "la": 50.5469,
@@ -107359,6 +108181,7 @@
     "n": "Bath - Gymnasium in Metropolis [Ionian]",
     "t": 2
   },
+  { "i": "vici:vici-223", "la": 52.0854, "lo": 4.8831, "k": "road", "n": "BrA40 [34b]", "t": 2 },
   {
     "i": "vici:vici-22335",
     "la": 45.2334,
@@ -107383,6 +108206,7 @@
     "n": "Tylissos [Pyrgos Tylissos, Tylisos]",
     "t": 2
   },
+  { "i": "vici:vici-224", "la": 52.0857, "lo": 4.8532, "k": "road", "n": "BrA40 [35]", "t": 2 },
   {
     "i": "vici:vici-22457",
     "la": 34.7161,
@@ -107399,8 +108223,11 @@
     "n": "Lefkosía  - Nikosia [Nicosia]",
     "t": 2
   },
+  { "i": "vici:vici-225", "la": 52.0762, "lo": 4.8153, "k": "road", "n": "BrA40 [36]", "t": 2 },
   { "i": "vici:vici-22579", "la": 41.3836, "lo": 22.7433, "k": "bath", "n": "Bansko", "t": 2 },
+  { "i": "vici:vici-226", "la": 52.0784, "lo": 4.7758, "k": "road", "n": "BrA40 [37]", "t": 2 },
   { "i": "vici:vici-22630", "la": 42.3688, "lo": -5.0363, "k": "bridge", "n": "Sahagún", "t": 2 },
+  { "i": "vici:vici-227", "la": 52.0814, "lo": 4.757, "k": "road", "n": "BrA40 [38]", "t": 2 },
   {
     "i": "vici:vici-22715",
     "la": 43.536,
@@ -107425,6 +108252,7 @@
     "n": "Ayia Napa Aqueduct",
     "t": 2
   },
+  { "i": "vici:vici-228", "la": 52.0833, "lo": 4.7509, "k": "road", "n": "BrA40 [39]", "t": 2 },
   {
     "i": "vici:vici-22878",
     "la": 48.3774,
@@ -107441,6 +108269,7 @@
     "n": "Therme Georgenstraße",
     "t": 2
   },
+  { "i": "vici:vici-229", "la": 52.0835, "lo": 4.7443, "k": "road", "n": "BrA40 [40]", "t": 2 },
   {
     "i": "vici:vici-22932",
     "la": 40.1023,
@@ -107458,6 +108287,7 @@
     "s": -100,
     "t": 2
   },
+  { "i": "vici:vici-230", "la": 52.0836, "lo": 4.7443, "k": "road", "n": "BrA40 [41a]", "t": 2 },
   {
     "i": "vici:vici-23021",
     "la": 41.008,
@@ -107491,6 +108321,7 @@
     "n": "Voie romaine Biesheim-Vallée de l'Ill",
     "t": 2
   },
+  { "i": "vici:vici-231", "la": 52.084, "lo": 4.7437, "k": "road", "n": "BrA40 [41b]", "t": 2 },
   {
     "i": "vici:vici-23101",
     "la": 40.0017,
@@ -107517,6 +108348,7 @@
     "s": 100,
     "t": 2
   },
+  { "i": "vici:vici-232", "la": 52.0847, "lo": 4.7435, "k": "road", "n": "BrA40 [42a]", "t": 2 },
   {
     "i": "vici:vici-23215",
     "la": 50.6635,
@@ -107567,12 +108399,21 @@
     "s": -100,
     "t": 2
   },
+  { "i": "vici:vici-233", "la": 52.0958, "lo": 4.7353, "k": "road", "n": "BrA40 [43a]", "t": 2 },
   {
     "i": "vici:vici-23317",
     "la": 50.7327,
     "lo": 7.1079,
     "k": "bath",
     "n": "Romeins Badhuis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23319",
+    "la": 50.7602,
+    "lo": 6.7434,
+    "k": "road",
+    "n": "Römerstraße bei Erp",
     "t": 2
   },
   {
@@ -107592,6 +108433,7 @@
     "s": -399,
     "t": 2
   },
+  { "i": "vici:vici-234", "la": 52.1021, "lo": 4.7246, "k": "road", "n": "BrA40 [44]", "t": 2 },
   {
     "i": "vici:vici-23413",
     "la": 27.6459,
@@ -107666,6 +108508,7 @@
     "n": "Remains of the Roman road",
     "t": 2
   },
+  { "i": "vici:vici-236", "la": 52.103, "lo": 4.7208, "k": "road", "n": "BrA40 [45b]", "t": 2 },
   {
     "i": "vici:vici-23611",
     "la": 47.616,
@@ -107784,6 +108627,7 @@
     "s": 230,
     "t": 2
   },
+  { "i": "vici:vici-237", "la": 52.103, "lo": 4.7209, "k": "road", "n": "BrA40 [45c]", "t": 2 },
   {
     "i": "vici:vici-23778",
     "la": 42.4331,
@@ -107793,6 +108637,7 @@
     "s": -399,
     "t": 2
   },
+  { "i": "vici:vici-238", "la": 52.1028, "lo": 4.7209, "k": "road", "n": "BrA40 [45d]", "t": 2 },
   {
     "i": "vici:vici-23802",
     "la": 31.3184,
@@ -107815,6 +108660,14 @@
     "lo": 5.775,
     "k": "road",
     "n": "Sporen Romeinse weg",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23857",
+    "la": 51.041,
+    "lo": 5.7739,
+    "k": "cistern",
+    "n": "Romeinse waterput",
     "t": 2
   },
   {
@@ -107849,6 +108702,7 @@
     "n": "Al-Asrawiash Basin",
     "t": 2
   },
+  { "i": "vici:vici-239", "la": 52.1047, "lo": 4.7153, "k": "road", "n": "BrA40 [46a]", "t": 2 },
   {
     "i": "vici:vici-23969",
     "la": 35.4237,
@@ -107873,6 +108727,7 @@
     "n": "Abila of Decapolis",
     "t": 2
   },
+  { "i": "vici:vici-240", "la": 52.1049, "lo": 4.7153, "k": "road", "n": "BrA40 [46b]", "t": 2 },
   {
     "i": "vici:vici-24083",
     "la": 41.008,
@@ -107890,6 +108745,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-24097",
+    "la": 37.926,
+    "lo": 29.1251,
+    "k": "bath",
+    "n": "Cleopatra’s Pool , Hierapolis",
+    "t": 2
+  },
+  { "i": "vici:vici-241", "la": 52.1065, "lo": 4.7143, "k": "road", "n": "BrA40 [47a]", "t": 2 },
+  {
     "i": "vici:vici-24114",
     "la": 40.0146,
     "lo": 34.618,
@@ -107897,6 +108761,7 @@
     "n": "Aqueduct, Hattusas",
     "t": 2
   },
+  { "i": "vici:vici-242", "la": 52.1071, "lo": 4.7143, "k": "road", "n": "BrA40 [47b]", "t": 2 },
   {
     "i": "vici:vici-24220",
     "la": 37.9388,
@@ -107945,6 +108810,7 @@
     "n": "Cisterns of Kadifekale",
     "t": 2
   },
+  { "i": "vici:vici-243", "la": 52.107, "lo": 4.7145, "k": "road", "n": "BrA40 [47c]", "t": 2 },
   {
     "i": "vici:vici-24306",
     "la": 36.9839,
@@ -108068,6 +108934,7 @@
     "n": "Therme, Side",
     "t": 2
   },
+  { "i": "vici:vici-244", "la": 52.1108, "lo": 4.7052, "k": "road", "n": "BrA40 [48]", "t": 2 },
   {
     "i": "vici:vici-24401",
     "la": 36.7689,
@@ -108142,6 +109009,7 @@
     "n": "Bosra, Decumanus",
     "t": 2
   },
+  { "i": "vici:vici-245", "la": 52.1083, "lo": 4.7062, "k": "road", "n": "BrA40 [49a]", "t": 2 },
   {
     "i": "vici:vici-24500",
     "la": 32.5167,
@@ -108168,6 +109036,7 @@
   },
   { "i": "vici:vici-24507", "la": 36.3853, "lo": 36.8992, "k": "bath", "n": "Barad", "t": 2 },
   { "i": "vici:vici-24510", "la": 35.6717, "lo": 36.5835, "k": "bath", "n": "Sergjilla", "t": 2 },
+  { "i": "vici:vici-24552", "la": 46.5163, "lo": 6.6008, "k": "port", "n": "Hafen", "t": 2 },
   {
     "i": "vici:vici-24559",
     "la": 51.3345,
@@ -108186,6 +109055,7 @@
   },
   { "i": "vici:vici-24568", "la": 43.4377, "lo": 6.7412, "k": "aqueduct", "n": "Aquädukt", "t": 2 },
   { "i": "vici:vici-24587", "la": 36.3598, "lo": 36.9091, "k": "road", "n": "Kaper Nabou", "t": 2 },
+  { "i": "vici:vici-246", "la": 52.1087, "lo": 4.7037, "k": "road", "n": "BrA40 [49b]", "t": 2 },
   {
     "i": "vici:vici-24648",
     "la": 34.7506,
@@ -108229,6 +109099,7 @@
     "s": 50,
     "t": 2
   },
+  { "i": "vici:vici-247", "la": 52.1119, "lo": 4.6974, "k": "road", "n": "BrA40 [50a]", "t": 2 },
   {
     "i": "vici:vici-24707",
     "la": 38.071,
@@ -108294,6 +109165,7 @@
     "n": "Gortyn, Thermae",
     "t": 2
   },
+  { "i": "vici:vici-248", "la": 52.1116, "lo": 4.6996, "k": "road", "n": "BrA40 [50b]", "t": 2 },
   {
     "i": "vici:vici-24813",
     "la": 35.4629,
@@ -108359,6 +109231,7 @@
     "n": "Aeolian Kyme",
     "t": 2
   },
+  { "i": "vici:vici-249", "la": 52.1112, "lo": 4.7011, "k": "road", "n": "BrA40 [50c]", "t": 2 },
   { "i": "vici:vici-24913", "la": 37.6907, "lo": 26.9318, "k": "bath", "n": "Pithagorio", "t": 2 },
   {
     "i": "vici:vici-24918",
@@ -108377,6 +109250,7 @@
     "s": -199,
     "t": 2
   },
+  { "i": "vici:vici-250", "la": 52.112, "lo": 4.6894, "k": "road", "n": "BrA40 [51a]", "t": 2 },
   {
     "i": "vici:vici-25047",
     "la": 37.4183,
@@ -108410,6 +109284,7 @@
     "n": "Remains of Siscia -Sirmium road",
     "t": 2
   },
+  { "i": "vici:vici-251", "la": 52.111, "lo": 4.6896, "k": "road", "n": "BrA40 [51b]", "t": 2 },
   {
     "i": "vici:vici-25101",
     "la": 45.0977,
@@ -108465,6 +109340,7 @@
     "s": 100,
     "t": 2
   },
+  { "i": "vici:vici-252", "la": 52.1117, "lo": 4.6906, "k": "road", "n": "BrA40 [51c]", "t": 2 },
   {
     "i": "vici:vici-25222",
     "la": 37.7308,
@@ -108490,6 +109366,7 @@
     "n": "Volubilis, Decumanus Maximus",
     "t": 2
   },
+  { "i": "vici:vici-253", "la": 52.1117, "lo": 4.6857, "k": "road", "n": "BrA40 [51d]", "t": 2 },
   { "i": "vici:vici-25315", "la": 35.6152, "lo": 11.0387, "k": "aqueduct", "n": "Thapsus", "t": 2 },
   {
     "i": "vici:vici-25327",
@@ -108499,6 +109376,7 @@
     "n": "Thermae of Paestum",
     "t": 2
   },
+  { "i": "vici:vici-254", "la": 52.1119, "lo": 4.6894, "k": "road", "n": "BrA40 [51e]", "t": 2 },
   {
     "i": "vici:vici-25414",
     "la": 34.5521,
@@ -108547,6 +109425,7 @@
     "n": "Semiramis- Şamra Canal",
     "t": 2
   },
+  { "i": "vici:vici-255", "la": 52.1115, "lo": 4.6914, "k": "road", "n": "BrA40 [51f]", "t": 2 },
   {
     "i": "vici:vici-25510",
     "la": 53.1468,
@@ -108598,7 +109477,9 @@
     "n": "Pergamon",
     "t": 2
   },
+  { "i": "vici:vici-25595", "la": 39.1189, "lo": 27.1665, "k": "bridge", "n": "Pergamon", "t": 2 },
   { "i": "vici:vici-25597", "la": 37.5523, "lo": 27.9899, "k": "aqueduct", "n": "Gerga", "t": 2 },
+  { "i": "vici:vici-256", "la": 52.1116, "lo": 4.6913, "k": "road", "n": "BrA40 [51g]", "t": 2 },
   {
     "i": "vici:vici-25612",
     "la": 40.0086,
@@ -108642,6 +109523,7 @@
     "t": 2
   },
   { "i": "vici:vici-25677", "la": 27.6469, "lo": 30.8957, "k": "bridge", "n": "Amarna", "t": 2 },
+  { "i": "vici:vici-257", "la": 52.1116, "lo": 4.6915, "k": "road", "n": "BrA40 [51h]", "t": 2 },
   {
     "i": "vici:vici-25702",
     "la": 37.9064,
@@ -108714,6 +109596,7 @@
     "n": "Megara, Fountain of Theagenes",
     "t": 2
   },
+  { "i": "vici:vici-258", "la": 52.1166, "lo": 4.6773, "k": "road", "n": "BrA40 [52a]", "t": 2 },
   {
     "i": "vici:vici-25803",
     "la": 37.8471,
@@ -108757,6 +109640,7 @@
     "n": "Limyra, Thermae",
     "t": 2
   },
+  { "i": "vici:vici-259", "la": 52.1127, "lo": 4.6787, "k": "road", "n": "BrA40 [52b]", "t": 2 },
   {
     "i": "vici:vici-25918",
     "la": 37.0575,
@@ -108806,6 +109690,7 @@
     "n": "Oinoada - Oenoada, Aqueduct",
     "t": 2
   },
+  { "i": "vici:vici-260", "la": 52.1117, "lo": 4.6741, "k": "road", "n": "BrA40 [52c]", "t": 2 },
   {
     "i": "vici:vici-26021",
     "la": 37.6379,
@@ -108820,6 +109705,15 @@
     "lo": 24.027,
     "k": "aqueduct",
     "n": "Rhamnous, Fountain",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26038",
+    "la": 38.2921,
+    "lo": 23.8463,
+    "k": "bath",
+    "n": "Amphiaraion, Women Baths",
+    "s": -399,
     "t": 2
   },
   {
@@ -108857,6 +109751,7 @@
     "n": "Gulpinar, Thermae",
     "t": 2
   },
+  { "i": "vici:vici-261", "la": 52.1124, "lo": 4.6785, "k": "road", "n": "BrA40 [52d]", "t": 2 },
   {
     "i": "vici:vici-26117",
     "la": 37.7067,
@@ -108971,6 +109866,7 @@
     "n": "Plovdiv, Theatre  [Philipopolis]",
     "t": 2
   },
+  { "i": "vici:vici-262", "la": 52.1122, "lo": 4.6789, "k": "road", "n": "BrA40 [52e]", "t": 2 },
   {
     "i": "vici:vici-26207",
     "la": 41.7156,
@@ -109061,6 +109957,7 @@
     "n": "Sparta, Bridge",
     "t": 2
   },
+  { "i": "vici:vici-263", "la": 52.1121, "lo": 4.6792, "k": "road", "n": "BrA40 [52f]", "t": 2 },
   {
     "i": "vici:vici-26300",
     "la": 37.0802,
@@ -109128,6 +110025,7 @@
     "t": 2
   },
   { "i": "vici:vici-26370", "la": 38.3933, "lo": 27.1376, "k": "aqueduct", "n": "Smyrna", "t": 2 },
+  { "i": "vici:vici-264", "la": 52.1137, "lo": 4.6742, "k": "road", "n": "BrA40 [52g]", "t": 2 },
   {
     "i": "vici:vici-26403",
     "la": 47.7984,
@@ -109152,6 +110050,7 @@
     "n": "Dara - Anastasiopolis, Cistern",
     "t": 2
   },
+  { "i": "vici:vici-265", "la": 52.1122, "lo": 4.6791, "k": "road", "n": "BrA40 [52h]", "t": 2 },
   { "i": "vici:vici-26504", "la": 36.53, "lo": 42.7216, "k": "bridge", "n": "Balad", "t": 2 },
   {
     "i": "vici:vici-26505",
@@ -109349,6 +110248,7 @@
     "n": "Canytelis-Kantyleis, Cistern",
     "t": 2
   },
+  { "i": "vici:vici-266", "la": 52.1122, "lo": 4.6789, "k": "road", "n": "BrA40 [52i]", "t": 2 },
   {
     "i": "vici:vici-26649",
     "la": 36.2272,
@@ -109382,6 +110282,7 @@
     "n": "Philippi, Thermae",
     "t": 2
   },
+  { "i": "vici:vici-267", "la": 52.1133, "lo": 4.6756, "k": "road", "n": "BrA40 [52j]", "t": 2 },
   {
     "i": "vici:vici-26758",
     "la": 48.252,
@@ -109415,6 +110316,7 @@
     "n": "Straße Unterweikertshofen",
     "t": 2
   },
+  { "i": "vici:vici-268", "la": 52.113, "lo": 4.6756, "k": "road", "n": "BrA40 [52k]", "t": 2 },
   {
     "i": "vici:vici-26810",
     "la": 48.1634,
@@ -109439,6 +110341,11 @@
     "n": "Cremna, Nymphaeum",
     "t": 2
   },
+  { "i": "vici:vici-269", "la": 52.113, "lo": 4.6755, "k": "road", "n": "BrA40 [52m]", "t": 2 },
+  { "i": "vici:vici-270", "la": 52.1168, "lo": 4.6696, "k": "road", "n": "BrA40 [53a]", "t": 2 },
+  { "i": "vici:vici-271", "la": 52.1143, "lo": 4.6708, "k": "road", "n": "BrA40 [53b]", "t": 2 },
+  { "i": "vici:vici-272", "la": 52.1169, "lo": 4.6689, "k": "road", "n": "BrA40 [53c]", "t": 2 },
+  { "i": "vici:vici-273", "la": 52.1161, "lo": 4.6696, "k": "road", "n": "BrA40 [53d]", "t": 2 },
   {
     "i": "vici:vici-27325",
     "la": 48.921,
@@ -109527,6 +110434,7 @@
     "n": "Eye Mead Roman Road Fragment",
     "t": 2
   },
+  { "i": "vici:vici-274", "la": 52.1169, "lo": 4.6696, "k": "road", "n": "BrA40 [53e]", "t": 2 },
   {
     "i": "vici:vici-27412",
     "la": 41.7532,
@@ -109541,6 +110449,14 @@
     "lo": 12.2555,
     "k": "bath",
     "n": "Thermae, Portus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27421",
+    "la": 41.7778,
+    "lo": 12.2546,
+    "k": "lighthouse",
+    "n": "Traianic Lighthouse, Portus",
     "t": 2
   },
   {
@@ -109634,6 +110550,7 @@
     "n": "Straße Feldkirchen",
     "t": 2
   },
+  { "i": "vici:vici-275", "la": 52.1153, "lo": 4.6702, "k": "road", "n": "BrA40 [53f]", "t": 2 },
   {
     "i": "vici:vici-27500",
     "la": 54.902,
@@ -109686,6 +110603,7 @@
     "s": 100,
     "t": 2
   },
+  { "i": "vici:vici-27570", "la": 33.5804, "lo": 35.5339, "k": "road", "n": "Bisri", "t": 2 },
   {
     "i": "vici:vici-27578",
     "la": 39.1262,
@@ -109694,6 +110612,7 @@
     "n": "Moria Aqueduct",
     "t": 2
   },
+  { "i": "vici:vici-276", "la": 52.1168, "lo": 4.6703, "k": "road", "n": "BrA40 [53g]", "t": 2 },
   {
     "i": "vici:vici-27613",
     "la": 52.5832,
@@ -109718,6 +110637,16 @@
     "n": "Eastern Baths, Deir el Qal'a",
     "t": 2
   },
+  {
+    "i": "vici:vici-27685",
+    "la": 29.9337,
+    "lo": 52.8898,
+    "k": "cistern",
+    "n": "Pesepolis, Stone Pool",
+    "s": -500,
+    "t": 2
+  },
+  { "i": "vici:vici-277", "la": 52.1184, "lo": 4.668, "k": "road", "n": "BrA40 [54a]", "t": 2 },
   {
     "i": "vici:vici-27704",
     "la": 32.0107,
@@ -109791,6 +110720,7 @@
     "t": 2
   },
   { "i": "vici:vici-27780", "la": 52.081, "lo": -2.8152, "k": "bath", "n": "Magis Baths", "t": 2 },
+  { "i": "vici:vici-278", "la": 52.1177, "lo": 4.6683, "k": "road", "n": "BrA40 [54b]", "t": 2 },
   {
     "i": "vici:vici-27821",
     "la": 53.2364,
@@ -109938,6 +110868,7 @@
     "e": 400,
     "t": 2
   },
+  { "i": "vici:vici-279", "la": 52.1271, "lo": 4.6616, "k": "road", "n": "BrA40 [55]", "t": 2 },
   {
     "i": "vici:vici-27915",
     "la": 54.6763,
@@ -109995,6 +110926,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-27984",
+    "la": 43.7533,
+    "lo": 4.6945,
+    "k": "road",
+    "n": "Roman road - ruts visible",
+    "s": -59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-27990",
     "la": 37.3133,
     "lo": 27.7835,
@@ -110010,6 +110950,7 @@
     "n": "Historical Bath of Milas City",
     "t": 2
   },
+  { "i": "vici:vici-280", "la": 52.1287, "lo": 4.6614, "k": "road", "n": "BrA40 [56]", "t": 2 },
   {
     "i": "vici:vici-28032",
     "la": 53.2161,
@@ -110043,6 +110984,7 @@
     "n": "Road to Isca (Margary Road 49)",
     "t": 2
   },
+  { "i": "vici:vici-281", "la": 52.1317, "lo": 4.6615, "k": "road", "n": "BrA40 [57]", "t": 2 },
   {
     "i": "vici:vici-28104",
     "la": 51.369,
@@ -110065,6 +111007,22 @@
     "lo": 29.716,
     "k": "bath",
     "n": "Nicaea [Iznik, Helikore], Thermae",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-28178",
+    "la": 51.2954,
+    "lo": -1.5454,
+    "k": "road",
+    "n": "Chute Causeway (Margary Road 43)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-28179",
+    "la": 51.3373,
+    "lo": -1.6985,
+    "k": "road",
+    "n": "Easton Hill Road Deviation (Margary Road 44)",
     "t": 2
   },
   {
@@ -110091,6 +111049,7 @@
     "n": "Majdal Tarchich, Bridge",
     "t": 2
   },
+  { "i": "vici:vici-282", "la": 52.1384, "lo": 4.6364, "k": "road", "n": "BrA40 [58a]", "t": 2 },
   {
     "i": "vici:vici-28208",
     "la": 49.7922,
@@ -110108,6 +111067,7 @@
     "t": 2
   },
   { "i": "vici:vici-28297", "la": 50.8272, "lo": 5.8501, "k": "road", "n": "Oude Akerweg", "t": 2 },
+  { "i": "vici:vici-283", "la": 52.1364, "lo": 4.6284, "k": "road", "n": "BrA40 [58b]", "t": 2 },
   {
     "i": "vici:vici-28300",
     "la": 51.2783,
@@ -110124,6 +111084,7 @@
     "n": "Ermine Street Bridge over the Great Ouse",
     "t": 2
   },
+  { "i": "vici:vici-284", "la": 52.1321, "lo": 4.6299, "k": "road", "n": "BrA40 [58c]", "t": 2 },
   {
     "i": "vici:vici-28421",
     "la": 43.7033,
@@ -110166,6 +111127,7 @@
     "n": "Umurca, Tumulus E",
     "t": 2
   },
+  { "i": "vici:vici-285", "la": 52.1331, "lo": 4.6257, "k": "road", "n": "BrA40 [58d]", "t": 2 },
   {
     "i": "vici:vici-28557",
     "la": 36.8252,
@@ -110174,6 +111136,7 @@
     "n": "Caunus [Kaunos], Nympheum",
     "t": 2
   },
+  { "i": "vici:vici-286", "la": 52.1329, "lo": 4.6245, "k": "road", "n": "BrA40 [58e]", "t": 2 },
   {
     "i": "vici:vici-28615",
     "la": 37.0574,
@@ -110199,6 +111162,8 @@
     "n": "Theangela, Cistern",
     "t": 2
   },
+  { "i": "vici:vici-287", "la": 52.1331, "lo": 4.6248, "k": "road", "n": "BrA40 [58f]", "t": 2 },
+  { "i": "vici:vici-288", "la": 52.1333, "lo": 4.6248, "k": "road", "n": "BrA40 [58g]", "t": 2 },
   {
     "i": "vici:vici-28865",
     "la": 38.3697,
@@ -110231,6 +111196,7 @@
     "n": "Voie de Wittelsheim",
     "t": 2
   },
+  { "i": "vici:vici-289", "la": 52.1281, "lo": 4.5885, "k": "road", "n": "BrA40 [60]", "t": 2 },
   {
     "i": "vici:vici-28901",
     "la": 36.396,
@@ -110297,6 +111263,7 @@
     "n": "Voie romaine de la vallée de l'Ill",
     "t": 2
   },
+  { "i": "vici:vici-290", "la": 52.131, "lo": 4.5564, "k": "road", "n": "BrA40 [61]", "t": 2 },
   {
     "i": "vici:vici-29030",
     "la": 36.6216,
@@ -110345,6 +111312,7 @@
     "n": "Physcos, Cistern",
     "t": 2
   },
+  { "i": "vici:vici-291", "la": 52.1476, "lo": 4.5195, "k": "road", "n": "BrA40 [62a]", "t": 2 },
   {
     "i": "vici:vici-29115",
     "la": 36.3612,
@@ -110385,6 +111353,7 @@
     "n": "Straße Angerweide",
     "t": 2
   },
+  { "i": "vici:vici-292", "la": 52.1484, "lo": 4.519, "k": "road", "n": "BrA40 [62b]", "t": 2 },
   {
     "i": "vici:vici-29221",
     "la": 47.5175,
@@ -110476,6 +111445,7 @@
     "n": "King’s Daughter - Roman Bath Sarıkaya,  [Yozgat Province]",
     "t": 2
   },
+  { "i": "vici:vici-293", "la": 52.1477, "lo": 4.5208, "k": "road", "n": "BrA40 [63]", "t": 2 },
   {
     "i": "vici:vici-29312",
     "la": 45.0251,
@@ -110517,6 +111487,7 @@
     "t": 2
   },
   { "i": "vici:vici-29365", "la": 36.9557, "lo": 22.4469, "k": "bridge", "n": "Xirokambi", "t": 2 },
+  { "i": "vici:vici-294", "la": 52.1491, "lo": 4.5155, "k": "road", "n": "BrA40 [64]", "t": 2 },
   {
     "i": "vici:vici-29420",
     "la": 37.2667,
@@ -111310,6 +112281,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-29733",
+    "la": 36.188,
+    "lo": 36.7784,
+    "k": "road",
+    "n": "Roman road at Tel al-Kharameh",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-29794",
     "la": 32.5152,
     "lo": 34.8989,
@@ -111464,6 +112444,15 @@
     "k": "bath",
     "n": "Kibyra- Cibyra, Thermae",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-30034",
+    "la": 36.7953,
+    "lo": -2.9668,
+    "k": "dam",
+    "n": "Rambla de Julbena Dam",
+    "s": 10,
     "t": 2
   },
   {
@@ -111633,6 +112622,7 @@
     "t": 2
   },
   { "i": "vici:vici-30187", "la": 33.6518, "lo": 10.9291, "k": "road", "n": "Roman Road", "t": 2 },
+  { "i": "vici:vici-30188", "la": 33.6664, "lo": 10.9207, "k": "dam", "n": "Roman Dam", "t": 2 },
   {
     "i": "vici:vici-30198",
     "la": 36.3244,
@@ -113470,6 +114460,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-30798",
+    "la": 42.8374,
+    "lo": 27.4743,
+    "k": "road",
+    "n": "Stil existing Roman Road",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-30801",
     "la": 42.2123,
     "lo": 24.7299,
@@ -113949,6 +114948,14 @@
     "n": "Roman Aqueduct",
     "t": 2
   },
+  {
+    "i": "vici:vici-31092",
+    "la": 36.857,
+    "lo": 10.3348,
+    "k": "cistern",
+    "n": "Cisterns of Borj Jedid",
+    "t": 2
+  },
   { "i": "vici:vici-31099", "la": 35.664, "lo": 10.3016, "k": "bath", "n": "Baths", "t": 2 },
   {
     "i": "vici:vici-31105",
@@ -113967,6 +114974,7 @@
     "n": "Baths of the Juvenes",
     "t": 2
   },
+  { "i": "vici:vici-31125", "la": 36.3984, "lo": 9.905, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-31128",
     "la": 36.4305,
@@ -113986,6 +114994,7 @@
   },
   { "i": "vici:vici-31133", "la": 36.25, "lo": 10.4005, "k": "bath", "n": "Baths", "t": 2 },
   { "i": "vici:vici-31138", "la": 36.3449, "lo": 10.3005, "k": "bath", "n": "Baths", "t": 2 },
+  { "i": "vici:vici-31143", "la": 36.6037, "lo": 10.1743, "k": "cistern", "n": "Cistern", "t": 2 },
   { "i": "vici:vici-31144", "la": 36.6033, "lo": 10.175, "k": "aqueduct", "n": "Aqueduct", "t": 2 },
   { "i": "vici:vici-31145", "la": 36.5978, "lo": 10.183, "k": "bath", "n": "Baths", "t": 2 },
   {
@@ -113997,6 +115006,7 @@
     "s": -59,
     "t": 2
   },
+  { "i": "vici:vici-31147", "la": 36.6025, "lo": 10.1776, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-31151",
     "la": 36.534,
@@ -114005,6 +115015,7 @@
     "n": "Thermal Complex",
     "t": 2
   },
+  { "i": "vici:vici-31155", "la": 36.6007, "lo": 9.8621, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-31171",
     "la": 36.4221,
@@ -114019,6 +115030,14 @@
     "lo": 9.2172,
     "k": "bath",
     "n": "Ain Doura Baths",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31178",
+    "la": 36.4249,
+    "lo": 9.2174,
+    "k": "cistern",
+    "n": "Ain Mizreb Cisterns",
     "t": 2
   },
   { "i": "vici:vici-31183", "la": 36.5229, "lo": 9.2188, "k": "bath", "n": "Baths", "t": 2 },
@@ -114050,6 +115069,15 @@
     "t": 2
   },
   { "i": "vici:vici-31204", "la": 37.0554, "lo": 10.0555, "k": "bath", "n": "Great Baths", "t": 2 },
+  { "i": "vici:vici-31210", "la": 36.1841, "lo": 8.7185, "k": "cistern", "n": "Cistern", "t": 2 },
+  {
+    "i": "vici:vici-31212",
+    "la": 36.1809,
+    "lo": 8.7107,
+    "k": "cistern",
+    "n": "Small Cistern",
+    "t": 2
+  },
   { "i": "vici:vici-31225", "la": 38.4631, "lo": 27.1716, "k": "aqueduct", "n": "Smyrna", "t": 2 },
   {
     "i": "vici:vici-31228",
@@ -114082,6 +115110,15 @@
     "lo": -7.8494,
     "k": "bridge",
     "n": "Roman Bridge",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31266",
+    "la": 42.0134,
+    "lo": 12.408,
+    "k": "cistern",
+    "n": "Cisterna Etrusca",
+    "s": -1,
     "t": 2
   },
   {
@@ -114157,6 +115194,7 @@
     "n": "Roman road Siscia - Poetovio",
     "t": 2
   },
+  { "i": "vici:vici-31613", "la": 36.8282, "lo": 38.0163, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-31617",
     "la": 37.236,
@@ -114165,6 +115203,7 @@
     "n": "Roman Bridge",
     "t": 2
   },
+  { "i": "vici:vici-31683", "la": 41.9287, "lo": 60.8235, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-31847",
     "la": 37.5027,
@@ -114235,6 +115274,14 @@
   },
   { "i": "vici:vici-32265", "la": 37.0856, "lo": 43.4739, "k": "bridge", "n": "Bridge", "t": 2 },
   { "i": "vici:vici-32313", "la": 41.2903, "lo": 28.435, "k": "bath", "n": "Baths", "t": 2 },
+  {
+    "i": "vici:vici-32322",
+    "la": 34.6643,
+    "lo": 32.8889,
+    "k": "bath",
+    "n": "Kourion, Baths and Complex of Eustolios",
+    "t": 2
+  },
   {
     "i": "vici:vici-32328",
     "la": 34.6673,
@@ -114356,7 +115403,26 @@
     "s": -199,
     "t": 2
   },
+  { "i": "vici:vici-328", "la": 52.1417, "lo": 4.5253, "k": "road", "n": "BrA40 [59a]", "t": 2 },
+  { "i": "vici:vici-329", "la": 52.139, "lo": 4.5308, "k": "road", "n": "BrA40 [59b]", "t": 2 },
   { "i": "vici:vici-32931", "la": 38.4582, "lo": 20.5773, "k": "bath", "n": "Roman Baths", "t": 2 },
+  {
+    "i": "vici:vici-32938",
+    "la": 40.8744,
+    "lo": 25.5074,
+    "k": "port",
+    "n": "Ancient pier",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-32941",
+    "la": 40.943,
+    "lo": 25.6607,
+    "k": "road",
+    "n": "Part of Via Egnatia",
+    "s": -59,
+    "t": 2
+  },
   {
     "i": "vici:vici-32945",
     "la": 40.9403,
@@ -114398,6 +115464,7 @@
     "n": "Roman Bridge",
     "t": 2
   },
+  { "i": "vici:vici-330", "la": 52.1273, "lo": 4.5825, "k": "road", "n": "BrA40 [59c]", "t": 2 },
   {
     "i": "vici:vici-33000",
     "la": 41.8632,
@@ -114514,6 +115581,7 @@
     "n": "Ancient Bridge",
     "t": 2
   },
+  { "i": "vici:vici-331", "la": 52.1311, "lo": 4.6215, "k": "road", "n": "BrA40 [59d]", "t": 2 },
   {
     "i": "vici:vici-33104",
     "la": 40.2444,
@@ -114563,6 +115631,7 @@
     "n": "Roman Bridge",
     "t": 2
   },
+  { "i": "vici:vici-332", "la": 52.1286, "lo": 4.6132, "k": "road", "n": "BrA40 [59e]", "t": 2 },
   {
     "i": "vici:vici-33205",
     "la": 39.9804,
@@ -114661,6 +115730,8 @@
     "s": 700,
     "t": 2
   },
+  { "i": "vici:vici-333", "la": 52.1282, "lo": 4.5898, "k": "road", "n": "BrA40 [59f]", "t": 2 },
+  { "i": "vici:vici-33306", "la": 38.6873, "lo": 21.1389, "k": "cistern", "n": "Cisterns", "t": 2 },
   {
     "i": "vici:vici-33336",
     "la": 38.5737,
@@ -114685,6 +115756,7 @@
     "n": "Firuzabad, Bridge",
     "t": 2
   },
+  { "i": "vici:vici-334", "la": 52.1288, "lo": 4.6048, "k": "road", "n": "BrA40 [59g]", "t": 2 },
   {
     "i": "vici:vici-33410",
     "la": 39.9018,
@@ -114955,6 +116027,7 @@
     "n": "Qesm Hurghada, Well",
     "t": 2
   },
+  { "i": "vici:vici-335", "la": 52.1289, "lo": 4.5957, "k": "road", "n": "BrA40 [59h]", "t": 2 },
   {
     "i": "vici:vici-33535",
     "la": 40.2525,
@@ -115762,6 +116835,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-37447",
+    "la": 38.3607,
+    "lo": 40.5545,
+    "k": "cistern",
+    "n": "Pheison, Cistern",
+    "t": 2
+  },
+  {
     "i": "vici:vici-37451",
     "la": 37.8875,
     "lo": 40.2303,
@@ -115783,6 +116864,14 @@
     "lo": 9.1008,
     "k": "aqueduct",
     "n": "Caralis [Casteddu], Aqueduct",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-37536",
+    "la": 36.4956,
+    "lo": 33.9758,
+    "k": "cistern",
+    "n": "Meidan Castle. Cisterns.",
     "t": 2
   },
   {
@@ -116197,6 +117286,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-37850",
+    "la": 36.4354,
+    "lo": 34.0906,
+    "k": "aqueduct",
+    "n": "Aqueduct",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-37864",
     "la": 36.391,
     "lo": 33.9326,
@@ -116568,6 +117666,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-381",
+    "la": 50.8503,
+    "lo": 5.6914,
+    "k": "road",
+    "n": "RAAP-rapport waarneming 8",
+    "t": 2
+  },
+  {
     "i": "vici:vici-38105",
     "la": 34.5584,
     "lo": 38.2856,
@@ -116689,6 +117795,14 @@
     "k": "bridge",
     "n": "Roman Bridge",
     "s": -50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-382",
+    "la": 50.8465,
+    "lo": 5.6928,
+    "k": "road",
+    "n": "RAAP-rapport waarneming 9",
     "t": 2
   },
   {
@@ -117507,6 +118621,14 @@
   },
   { "i": "vici:vici-38952", "la": 39.2685, "lo": -5.9634, "k": "road", "n": "Roman Road", "t": 2 },
   {
+    "i": "vici:vici-38976",
+    "la": 39.1972,
+    "lo": -5.7795,
+    "k": "bridge",
+    "n": "Roman Bridge",
+    "t": 2
+  },
+  {
     "i": "vici:vici-38977",
     "la": 39.4158,
     "lo": -5.6226,
@@ -117601,6 +118723,14 @@
     "la": 39.8349,
     "lo": -4.371,
     "k": "bridge",
+    "n": "Puente Romano sobre el Río Tajo",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-38991",
+    "la": 39.738,
+    "lo": -4.2402,
+    "k": "dam",
     "n": "Puente Romano sobre el Río Tajo",
     "t": 2
   },
@@ -118944,6 +120074,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-39648",
+    "la": 40.4546,
+    "lo": -1.2863,
+    "k": "cistern",
+    "n": "Underground cistern",
+    "t": 2
+  },
+  {
     "i": "vici:vici-39653",
     "la": 40.5599,
     "lo": -4.1417,
@@ -119539,6 +120677,7 @@
     "n": "Medieval Bridge",
     "t": 2
   },
+  { "i": "vici:vici-39956", "la": 40.3577, "lo": 0.3014, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-39960",
     "la": 40.7161,
@@ -120476,6 +121615,14 @@
   { "i": "vici:vici-40523", "la": 37.1655, "lo": -2.7866, "k": "road", "n": "Roman Road", "t": 2 },
   { "i": "vici:vici-40524", "la": 37.1555, "lo": -2.7427, "k": "road", "n": "Roman Road", "t": 2 },
   { "i": "vici:vici-40525", "la": 37.1464, "lo": -2.7841, "k": "road", "n": "Roman Road", "t": 2 },
+  {
+    "i": "vici:vici-40528",
+    "la": 38.5677,
+    "lo": -5.111,
+    "k": "dam",
+    "n": "Presa romana de Torretejada",
+    "t": 2
+  },
   {
     "i": "vici:vici-40567",
     "la": 41.7171,
@@ -121511,6 +122658,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-40922",
+    "la": 38.155,
+    "lo": -8.5784,
+    "k": "dam",
+    "n": "Barragem do Pego",
+    "t": 2
+  },
+  {
     "i": "vici:vici-40923",
     "la": 38.3697,
     "lo": -8.4855,
@@ -122465,6 +123620,14 @@
     "s": 300,
     "t": 2
   },
+  {
+    "i": "vici:vici-41510",
+    "la": 39.7517,
+    "lo": -4.3733,
+    "k": "dam",
+    "n": "PRESA ROMANA IV -MELQUE",
+    "t": 2
+  },
   { "i": "vici:vici-41513", "la": 41.4222, "lo": -5.8097, "k": "road", "n": "Roman Road", "t": 2 },
   {
     "i": "vici:vici-41515",
@@ -123363,6 +124526,14 @@
     "lo": -6.3196,
     "k": "road",
     "n": "Folgoso de la Ribera",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-41761",
+    "la": 45.4115,
+    "lo": 11.8797,
+    "k": "aqueduct",
+    "n": "Rohrteile von Wasserleitungen",
     "t": 2
   },
   { "i": "vici:vici-41765", "la": 42.6146, "lo": -6.4145, "k": "road", "n": "Bembibre", "t": 2 },
@@ -124363,6 +125534,15 @@
     "lo": -3.8124,
     "k": "bridge",
     "n": "Puente de Las Guadalerzas y Río Bracea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42320",
+    "la": 39.6226,
+    "lo": -4.0093,
+    "k": "dam",
+    "n": "PRESA ROMANA VALLEHERMOSO - SONSECA",
+    "s": 50,
     "t": 2
   },
   {
@@ -126082,6 +127262,14 @@
     "n": "Medieval Bridge",
     "t": 2
   },
+  {
+    "i": "vici:vici-42922",
+    "la": 51.5095,
+    "lo": -0.0862,
+    "k": "port",
+    "n": "Holzpfosten der Quaianlage",
+    "t": 2
+  },
   { "i": "vici:vici-42930", "la": 52.6502, "lo": 1.7197, "k": "road", "n": "Hauptstrasse", "t": 2 },
   {
     "i": "vici:vici-42939",
@@ -126238,6 +127426,14 @@
     "lo": 7.7325,
     "k": "bridge",
     "n": "Sandsteinblöcke",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42976",
+    "la": 47.5358,
+    "lo": 7.7167,
+    "k": "cistern",
+    "n": "Sodbrunnen",
     "t": 2
   },
   { "i": "vici:vici-42981", "la": 47.5413, "lo": 7.7244, "k": "bath", "n": "Kleines Bad", "t": 2 },
@@ -127621,6 +128817,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-44196",
+    "la": 41.7133,
+    "lo": -3.0531,
+    "k": "aqueduct",
+    "n": "Entrada al canal romano de Ucero",
+    "t": 2
+  },
+  {
     "i": "vici:vici-44202",
     "la": 41.0913,
     "lo": -7.7732,
@@ -127954,6 +129158,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-44631",
+    "la": 37.4396,
+    "lo": -6.0503,
+    "k": "aqueduct",
+    "n": "Castellum Aque",
+    "t": 2
+  },
+  {
     "i": "vici:vici-44632",
     "la": 43.013,
     "lo": -7.5574,
@@ -128281,6 +129493,24 @@
     "t": 2
   },
   { "i": "vici:vici-45093", "la": 39.9721, "lo": 41.1406, "k": "road", "n": "Roman Rd", "t": 2 },
+  {
+    "i": "vici:vici-45094",
+    "la": 36.3756,
+    "lo": 33.9215,
+    "k": "cistern",
+    "n": "Bizantine Cistern",
+    "s": 500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45095",
+    "la": 36.3649,
+    "lo": 33.9295,
+    "k": "cistern",
+    "n": "Bizantine Cistern",
+    "s": 500,
+    "t": 2
+  },
   {
     "i": "vici:vici-45100",
     "la": 36.584,
@@ -129486,6 +130716,7 @@
     "n": "Medieval Bridge",
     "t": 2
   },
+  { "i": "vici:vici-46083", "la": 42.1796, "lo": -1.7601, "k": "dam", "n": "Roman Dam", "t": 2 },
   {
     "i": "vici:vici-46084",
     "la": 42.0745,
@@ -130042,6 +131273,14 @@
     "n": "Kerameikos, Athens. the street of tombs",
     "t": 2
   },
+  {
+    "i": "vici:vici-47007",
+    "la": 51.8445,
+    "lo": 4.4962,
+    "k": "dam",
+    "n": "Dam en beschoeing",
+    "t": 2
+  },
   { "i": "vici:vici-47033", "la": 41.6852, "lo": -7.1071, "k": "road", "n": "Roman Rd", "t": 2 },
   { "i": "vici:vici-47036", "la": 36.688, "lo": -5.4504, "k": "road", "n": "Roman Rd", "t": 2 },
   {
@@ -130098,6 +131337,15 @@
     "lo": 9.5243,
     "k": "road",
     "n": "Roman Rd",
+    "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-47244",
+    "la": 36.3912,
+    "lo": 9.1336,
+    "k": "aqueduct",
+    "n": "Roman Aqueduct",
     "s": -59,
     "t": 2
   },
@@ -131393,6 +132641,7 @@
     "n": "Trajan aqueduct",
     "t": 2
   },
+  { "i": "vici:vici-47879", "la": 41.2497, "lo": 13.6679, "k": "cistern", "n": "Cistern", "t": 2 },
   {
     "i": "vici:vici-47880",
     "la": 48.7557,
@@ -131743,6 +132992,9 @@
     "n": "Roman Bridge",
     "t": 2
   },
+  { "i": "vici:vici-48116", "la": 39.7082, "lo": -4.0558, "k": "dam", "n": "Presa Romana", "t": 2 },
+  { "i": "vici:vici-48118", "la": 39.7259, "lo": -4.0716, "k": "dam", "n": "Roman Dam", "t": 2 },
+  { "i": "vici:vici-48119", "la": 39.7294, "lo": -4.0718, "k": "dam", "n": "Roman Dam", "t": 2 },
   {
     "i": "vici:vici-48121",
     "la": 38.8884,
@@ -131796,6 +133048,15 @@
     "k": "road",
     "n": "Roman Rd",
     "s": -30,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-48607",
+    "la": 36.5935,
+    "lo": 9.404,
+    "k": "cistern",
+    "n": "Cistern",
+    "s": -59,
     "t": 2
   },
   {
@@ -132927,6 +134188,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-4910",
+    "la": 50.6273,
+    "lo": 6.9446,
+    "k": "aqueduct",
+    "n": "Teilstück Rheinbach",
+    "t": 2
+  },
+  {
     "i": "vici:vici-49100",
     "la": 41.5366,
     "lo": -6.9631,
@@ -133006,6 +134275,22 @@
     "t": 2
   },
   {
+    "i": "vici:vici-4916",
+    "la": 50.682,
+    "lo": 6.977,
+    "k": "aqueduct",
+    "n": "Teilstück Buschhoven",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4917",
+    "la": 50.7935,
+    "lo": 6.9116,
+    "k": "aqueduct",
+    "n": "Teilstück Walberberg",
+    "t": 2
+  },
+  {
     "i": "vici:vici-49173",
     "la": 42.5164,
     "lo": -6.0591,
@@ -133030,6 +134315,30 @@
     "t": 2
   },
   {
+    "i": "vici:vici-4919",
+    "la": 50.8705,
+    "lo": 6.8682,
+    "k": "aqueduct",
+    "n": "Teilstück Brabanter Platz",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4921",
+    "la": 50.9048,
+    "lo": 6.9095,
+    "k": "aqueduct",
+    "n": "Absetzbecken Köln Klettenberg",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4922",
+    "la": 50.9105,
+    "lo": 6.9172,
+    "k": "aqueduct",
+    "n": "Pfeilerreste Köln-Sülz",
+    "t": 2
+  },
+  {
     "i": "vici:vici-4923",
     "la": 50.5252,
     "lo": 6.5571,
@@ -133043,6 +134352,14 @@
     "lo": 6.9672,
     "k": "aqueduct",
     "n": "Ausbruchgraben Kottenforst",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4925",
+    "la": 50.8795,
+    "lo": 6.8788,
+    "k": "aqueduct",
+    "n": "Teilstück Hürther Rathaus",
     "t": 2
   },
   {
@@ -133578,6 +134895,7 @@
     "n": "Roman Rd Cartago Nv-Taracco",
     "t": 2
   },
+  { "i": "vici:vici-49908", "la": 38.7162, "lo": -1.1251, "k": "cistern", "n": "Fuente", "t": 2 },
   {
     "i": "vici:vici-49909",
     "la": 37.9059,
@@ -134015,6 +135333,14 @@
     "t": 2
   },
   { "i": "vici:vici-50606", "la": 40.4569, "lo": -3.3963, "k": "bath", "n": "Roman Baths", "t": 2 },
+  {
+    "i": "vici:vici-50611",
+    "la": 43.5702,
+    "lo": -5.702,
+    "k": "lighthouse",
+    "n": "La Torre de Augusto",
+    "t": 2
+  },
   { "i": "vici:vici-50757", "la": 38.5118, "lo": -1.6973, "k": "road", "n": "Hellin", "t": 2 },
   { "i": "vici:vici-50758", "la": 39.9044, "lo": -2.7191, "k": "road", "n": "Milestone", "t": 2 },
   {
@@ -134136,6 +135462,15 @@
   { "i": "vici:vici-51023", "la": 44.1778, "lo": 28.0904, "k": "road", "n": "Roman Rd", "t": 2 },
   { "i": "vici:vici-51024", "la": 44.1759, "lo": 28.0214, "k": "road", "n": "Roman Rd", "t": 2 },
   { "i": "vici:vici-51025", "la": 44.1147, "lo": 28.0029, "k": "road", "n": "Roman Rd", "t": 2 },
+  {
+    "i": "vici:vici-51027",
+    "la": 47.3538,
+    "lo": 18.931,
+    "k": "road",
+    "n": "Remains of the limes road next to Matrica",
+    "s": 50,
+    "t": 2
+  },
   {
     "i": "vici:vici-51028",
     "la": 47.3022,
@@ -134545,6 +135880,14 @@
     "lo": 25.4276,
     "k": "aqueduct",
     "n": "Source and collection basin for Nicopolis ad Istrum aqueduct",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-51940",
+    "la": 41.7309,
+    "lo": 12.6619,
+    "k": "cistern",
+    "n": "Grande citerne",
     "t": 2
   },
   {
@@ -135173,6 +136516,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-53762",
+    "la": 39.8614,
+    "lo": -4.0282,
+    "k": "bridge",
+    "n": "Puente fortificado de San Martín",
+    "t": 2
+  },
+  {
     "i": "vici:vici-53764",
     "la": 39.8529,
     "lo": -4.0261,
@@ -135214,6 +136565,30 @@
     "lo": -3.6242,
     "k": "road",
     "n": "Roman Rd Laminium-Titulciam",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54170",
+    "la": 39.9888,
+    "lo": 3.9261,
+    "k": "cistern",
+    "n": "Cisterna de Torretrencada",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54180",
+    "la": 39.901,
+    "lo": 4.1139,
+    "k": "cistern",
+    "n": "Cisternas de torre en Galmes",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54198",
+    "la": 50.3625,
+    "lo": 7.5951,
+    "k": "bridge",
+    "n": "Moselbrücke",
     "t": 2
   },
   {
@@ -135411,6 +136786,26 @@
     "n": "Roman Bridge",
     "s": 100,
     "e": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54852",
+    "la": 38.2124,
+    "lo": 66.9038,
+    "k": "pass",
+    "n": "Iron Pass",
+    "s": -329,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54865",
+    "la": 15.4015,
+    "lo": 45.2669,
+    "k": "dam",
+    "n": "Marib dam",
+    "s": -1750,
+    "e": 1500,
     "t": 2
   },
   {
@@ -138073,6 +139468,15 @@
     "k": "road",
     "n": "Byblos (Jubail), Colonnaded Street",
     "s": -200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-56314",
+    "la": 34.2074,
+    "lo": 42.3551,
+    "k": "dam",
+    "n": "Qadishiya dam",
+    "s": -2000,
     "t": 2
   },
   {
@@ -142289,6 +143693,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-57267",
+    "la": 50.8111,
+    "lo": 6.9721,
+    "k": "cistern",
+    "n": "Römischer Brunnen vor St. Andreas",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-57276",
     "la": 47.861,
     "lo": 3.9543,
@@ -143271,6 +144684,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-57703",
+    "la": 40.7848,
+    "lo": 14.0851,
+    "k": "cistern",
+    "n": "Cistern",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-57717",
     "la": 48.5369,
     "lo": 10.8961,
@@ -143866,6 +145288,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-58088",
+    "la": 39.1882,
+    "lo": 9.1661,
+    "k": "cistern",
+    "n": "Cisterna romana di Capo Sant'Elia",
+    "s": -50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-58090",
     "la": 39.0838,
     "lo": 8.7992,
@@ -143953,6 +145384,15 @@
     "k": "road",
     "n": "Roman Rd",
     "s": -50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58112",
+    "la": 41.7757,
+    "lo": 12.2349,
+    "k": "lighthouse",
+    "n": "Claudian lighthouse",
+    "s": 100,
     "t": 2
   },
   {
@@ -144132,6 +145572,15 @@
     "lo": 12.7565,
     "k": "bridge",
     "n": "Roman Bridge",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58181",
+    "la": 43.1044,
+    "lo": 12.7805,
+    "k": "bridge",
+    "n": "Le Spugne",
     "s": -299,
     "t": 2
   },
@@ -146579,6 +148028,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-60132",
+    "la": 50.7322,
+    "lo": 1.5972,
+    "k": "lighthouse",
+    "n": "Tour d'Ordre",
+    "s": 100,
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-60133",
     "la": 38.1033,
     "lo": -1.8242,
@@ -148588,6 +150047,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-61260",
+    "la": 43.6707,
+    "lo": 6.7211,
+    "k": "aqueduct",
+    "n": "Frejus aqueduct",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61262",
+    "la": 47.5568,
+    "lo": 7.5911,
+    "k": "cistern",
+    "n": "Sodbrunnen",
+    "s": 300,
+    "t": 2
+  },
+  {
     "i": "vici:vici-61270",
     "la": 51.7854,
     "lo": 6.0701,
@@ -149153,6 +150630,15 @@
     "k": "aqueduct",
     "n": "Aqueduct",
     "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61566",
+    "la": 48.4783,
+    "lo": 8.9359,
+    "k": "cistern",
+    "n": "Kreuzförmiges Wasserbecken",
+    "s": 100,
     "t": 2
   },
   {
@@ -151096,6 +152582,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62444",
+    "la": 39.746,
+    "lo": 20.028,
+    "k": "cistern",
+    "n": "Cistern",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62445",
     "la": 39.7476,
     "lo": 20.032,
@@ -151390,6 +152885,24 @@
     "k": "road",
     "n": "Vallis",
     "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62529",
+    "la": 37.3447,
+    "lo": 9.7362,
+    "k": "lighthouse",
+    "n": "Lighthouse",
+    "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62530",
+    "la": 37.3415,
+    "lo": 9.7586,
+    "k": "lighthouse",
+    "n": "Lighthouse",
+    "s": -59,
     "t": 2
   },
   {
@@ -151987,6 +153500,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62708",
+    "la": 36.4187,
+    "lo": 9.1732,
+    "k": "cistern",
+    "n": "Henchir Gattoussia",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62711",
     "la": 36.6721,
     "lo": 9.4106,
@@ -152402,6 +153924,33 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62922",
+    "la": 44.3954,
+    "lo": 12.2191,
+    "k": "lighthouse",
+    "n": "Classe, Classis",
+    "s": -35,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62961",
+    "la": 32.7152,
+    "lo": 20.9452,
+    "k": "lighthouse",
+    "n": "Ptolemias Lighthouse",
+    "s": -252,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62962",
+    "la": 32.809,
+    "lo": 12.4829,
+    "k": "lighthouse",
+    "n": "Sabartha",
+    "s": -399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62969",
     "la": 43.2131,
     "lo": 25.5637,
@@ -152471,6 +154020,15 @@
     "k": "road",
     "n": "Miliario di Bertalia",
     "s": 300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63006",
+    "la": 45.2796,
+    "lo": 28.4957,
+    "k": "road",
+    "n": "Earth embankment and Roman road",
+    "s": 100,
     "t": 2
   },
   {
@@ -155111,6 +156669,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-63784",
+    "la": 45.7928,
+    "lo": 13.5865,
+    "k": "aqueduct",
+    "n": "Acquedotto Randaccio",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-63788",
     "la": 46.301,
     "lo": 11.104,
@@ -155315,6 +156882,15 @@
     "k": "road",
     "n": "Roman Rd",
     "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63845",
+    "la": 42.099,
+    "lo": 11.8016,
+    "k": "cistern",
+    "n": "Cistern in the War School",
+    "s": 100,
     "t": 2
   },
   {
@@ -155806,6 +157382,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-64569",
+    "la": 42.5204,
+    "lo": 13.0973,
+    "k": "road",
+    "n": "Fragment of Via Salaria",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64570",
     "la": 42.4749,
     "lo": 13.0862,
@@ -156085,6 +157670,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-64760",
+    "la": 36.4163,
+    "lo": 9.2022,
+    "k": "aqueduct",
+    "n": "Aqueduct",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64761",
+    "la": 36.3974,
+    "lo": 9.1581,
+    "k": "aqueduct",
+    "n": "Aqueduct of Thugga",
+    "s": -59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64769",
     "la": 37.0585,
     "lo": 10.056,
@@ -156238,6 +157841,25 @@
     "t": 2
   },
   {
+    "i": "vici:vici-64834",
+    "la": 36.3923,
+    "lo": 9.1438,
+    "k": "bridge",
+    "n": "Roman Bridge",
+    "s": 100,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64835",
+    "la": 36.3914,
+    "lo": 9.1372,
+    "k": "aqueduct",
+    "n": "Aqueduct",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64836",
     "la": 36.3987,
     "lo": 9.1388,
@@ -156247,9 +157869,36 @@
     "t": 2
   },
   {
+    "i": "vici:vici-64839",
+    "la": 36.4032,
+    "lo": 9.17,
+    "k": "aqueduct",
+    "n": "Aqueduct",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64840",
     "la": 36.405,
     "lo": 9.1766,
+    "k": "aqueduct",
+    "n": "Aqueduct",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64841",
+    "la": 36.4096,
+    "lo": 9.1779,
+    "k": "aqueduct",
+    "n": "Aqueduct",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-64845",
+    "la": 36.4144,
+    "lo": 9.1868,
     "k": "aqueduct",
     "n": "Aqueduct",
     "s": 50,
@@ -156352,6 +158001,15 @@
     "k": "road",
     "n": "Henchir Khalleg , Henchir Zaïeta",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65085",
+    "la": 36.4098,
+    "lo": 9.3454,
+    "k": "cistern",
+    "n": "Henchir Oued El Klegh , Henchir Marja-Marsa",
+    "s": 10,
     "t": 2
   },
   {
@@ -156535,12 +158193,31 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65190",
+    "la": 36.0924,
+    "lo": 10.0558,
+    "k": "cistern",
+    "n": "Bir Chaouch",
+    "s": 200,
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65193",
     "la": 44.7387,
     "lo": 21.2246,
     "k": "road",
     "n": "Roman Rd",
     "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65222",
+    "la": 32.6255,
+    "lo": 14.3035,
+    "k": "dam",
+    "n": "Dam on wadi Lebda",
+    "s": -199,
     "t": 2
   },
   {
@@ -156859,6 +158536,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65492",
+    "la": 37.324,
+    "lo": 37.6672,
+    "k": "cistern",
+    "n": "Ancient water tank",
+    "s": -499,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65493",
     "la": 36.9018,
     "lo": 37.5329,
@@ -157162,6 +158848,42 @@
     "k": "bath",
     "n": "Baths",
     "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65594",
+    "la": 39.753,
+    "lo": -4.3718,
+    "k": "dam",
+    "n": "Roman Dam",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65595",
+    "la": 39.7526,
+    "lo": -4.3705,
+    "k": "dam",
+    "n": "Roman Dam",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65596",
+    "la": 39.7502,
+    "lo": -4.3698,
+    "k": "dam",
+    "n": "Roman Dam",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65597",
+    "la": 39.7509,
+    "lo": -4.3712,
+    "k": "dam",
+    "n": "Roman Dam",
+    "s": 50,
     "t": 2
   },
   {
@@ -157846,6 +159568,51 @@
     "k": "bridge",
     "n": "Puente viejo",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65799",
+    "la": 36.562,
+    "lo": -5.9109,
+    "k": "aqueduct",
+    "n": "Acueduct Tempul-Cadiz",
+    "s": -19,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65800",
+    "la": 36.5608,
+    "lo": -5.9134,
+    "k": "aqueduct",
+    "n": "Acueduct Tempul-Cadiz",
+    "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65801",
+    "la": 36.5593,
+    "lo": -5.9163,
+    "k": "aqueduct",
+    "n": "Acueduct Tempul-Cadiz",
+    "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65802",
+    "la": 36.5575,
+    "lo": -5.9201,
+    "k": "aqueduct",
+    "n": "Acueduct Tempul-Cadiz",
+    "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65803",
+    "la": 36.6423,
+    "lo": -5.691,
+    "k": "aqueduct",
+    "n": "Acueduct Tempul-Cadiz",
+    "s": 10,
     "t": 2
   },
   {
@@ -163514,6 +165281,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-67999",
+    "la": 42.2471,
+    "lo": 2.3918,
+    "k": "road",
+    "n": "Roman Rd",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-68001",
     "la": 41.6266,
     "lo": -1.0022,
@@ -164180,6 +165956,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-68323",
+    "la": 37.6751,
+    "lo": 37.8642,
+    "k": "cistern",
+    "n": "Besni Kalesi",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-68327",
     "la": 36.3776,
     "lo": 41.6873,
@@ -164396,6 +166181,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-68652",
+    "la": 36.5795,
+    "lo": 34.1797,
+    "k": "cistern",
+    "n": "Cistern",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-68666",
     "la": 40.0118,
     "lo": 30.3402,
@@ -164411,6 +166205,15 @@
     "k": "bath",
     "n": "Artemis Termaia",
     "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68806",
+    "la": 38.3026,
+    "lo": 34.2596,
+    "k": "cistern",
+    "n": "Cistern",
+    "s": 700,
     "t": 2
   },
   {
@@ -164919,6 +166722,15 @@
     "k": "bath",
     "n": "Roman Thermal baths",
     "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69913",
+    "la": 40.8444,
+    "lo": 14.2554,
+    "k": "bath",
+    "n": "Roman Thermal baths in Chiesa di Sant'Aspreno al Porto",
+    "s": 100,
     "t": 2
   },
   {
@@ -165487,6 +167299,15 @@
     "k": "bath",
     "n": "Hr. Essouinia",
     "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70511",
+    "la": 36.7629,
+    "lo": 4.9142,
+    "k": "aqueduct",
+    "n": "Tiahmaine",
+    "s": -59,
     "t": 2
   },
   {
@@ -166165,6 +167986,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-70843",
+    "la": 41.8239,
+    "lo": 12.7924,
+    "k": "road",
+    "n": "Paved road",
+    "s": -399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-70856",
     "la": 41.8723,
     "lo": 12.502,
@@ -166733,6 +168563,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-71271",
+    "la": 39.7318,
+    "lo": 8.5144,
+    "k": "cistern",
+    "n": "Sacred well of Orri",
+    "s": -599,
+    "t": 2
+  },
+  {
     "i": "vici:vici-71272",
     "la": 39.8921,
     "lo": 8.4462,
@@ -166829,6 +168668,15 @@
     "k": "bridge",
     "n": "Roman Bridge ?",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71292",
+    "la": 39.505,
+    "lo": 9.0603,
+    "k": "road",
+    "n": "Ancient Road",
+    "s": -1999,
     "t": 2
   },
   {
@@ -167085,6 +168933,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-71503",
+    "la": 49.4714,
+    "lo": 8.608,
+    "k": "cistern",
+    "n": "Rundbrunnen",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-71505",
     "la": 49.4674,
     "lo": 8.6135,
@@ -167175,6 +169032,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-71620",
+    "la": 43.1005,
+    "lo": 23.6228,
+    "k": "road",
+    "n": "Roman Rd",
+    "s": 200,
+    "t": 2
+  },
+  {
     "i": "vici:vici-71621",
     "la": 46.9931,
     "lo": 23.2498,
@@ -167187,6 +169053,15 @@
     "i": "vici:vici-71630",
     "la": 40.8339,
     "lo": 16.2796,
+    "k": "road",
+    "n": "Roman Rd",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71642",
+    "la": 46.5851,
+    "lo": 13.8188,
     "k": "road",
     "n": "Roman Rd",
     "s": 100,
@@ -169254,6 +171129,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-77279",
+    "la": 48.9406,
+    "lo": 8.409,
+    "k": "cistern",
+    "n": "Römerbrunnen",
+    "s": 300,
+    "t": 2
+  },
+  {
     "i": "vici:vici-77280",
     "la": 48.3694,
     "lo": 7.8541,
@@ -169845,6 +171729,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-78973",
+    "la": 49.877,
+    "lo": 6.9237,
+    "k": "cistern",
+    "n": "Römerbrunnen (Piesport)",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-78991",
     "la": 49.1054,
     "lo": 6.0956,
@@ -170215,6 +172108,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-80471",
+    "la": 38.3016,
+    "lo": -8.2298,
+    "k": "road",
+    "n": "Roman Rd",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-80483",
     "la": 38.4679,
     "lo": 14.9538,
@@ -170224,12 +172126,30 @@
     "t": 2
   },
   {
+    "i": "vici:vici-80522",
+    "la": 38.0332,
+    "lo": 14.5964,
+    "k": "cistern",
+    "n": "cistern",
+    "s": -399,
+    "t": 2
+  },
+  {
     "i": "vici:vici-80555",
     "la": 54.9954,
     "lo": -2.4789,
     "k": "road",
     "n": "borne milliaire réutilisée",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80556",
+    "la": 36.5799,
+    "lo": 31.9374,
+    "k": "cistern",
+    "n": "Roman water tank",
+    "e": 1500,
     "t": 2
   },
   {
@@ -170266,6 +172186,24 @@
     "k": "road",
     "n": "Roman Rd ?",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80707",
+    "la": 33.6034,
+    "lo": 9.8733,
+    "k": "cistern",
+    "n": "Bassins Antiques",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80751",
+    "la": 36.7472,
+    "lo": 8.9865,
+    "k": "cistern",
+    "n": "Bazinas de Jbal Bougotrane",
+    "e": 1500,
     "t": 2
   },
   {
@@ -170530,6 +172468,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-80983",
+    "la": 35.9514,
+    "lo": 10.3255,
+    "k": "bath",
+    "n": "Henchir el Hammam",
+    "s": 1,
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-80988",
     "la": 35.6294,
     "lo": 10.8031,
@@ -170692,6 +172640,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-81095",
+    "la": 41.2485,
+    "lo": 13.6702,
+    "k": "cistern",
+    "n": "Cistern Maggiore",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-81099",
     "la": 35.4841,
     "lo": 6.2654,
@@ -170728,6 +172685,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-81114",
+    "la": 36.5209,
+    "lo": 7.449,
+    "k": "bath",
+    "n": "Hammam Berda (Bradaa)",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8132",
     "la": 40.5286,
     "lo": 8.8767,
@@ -170751,6 +172717,14 @@
     "k": "road",
     "n": "Ancient road",
     "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-8133",
+    "la": 40.5471,
+    "lo": 8.8913,
+    "k": "cistern",
+    "n": "Ittireddu - cisterne romane",
     "t": 2
   },
   {
@@ -171591,6 +173565,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-82905",
+    "la": 41.7889,
+    "lo": -6.8934,
+    "k": "road",
+    "n": "Roman Rd",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-82906",
     "la": 42.1656,
     "lo": 12.2057,
@@ -172295,6 +174278,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-83545",
+    "la": 43.0624,
+    "lo": -3.375,
+    "k": "road",
+    "n": "Ancient Rd",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-83552",
     "la": 42.6726,
     "lo": -3.5228,
@@ -172536,6 +174528,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-84104",
+    "la": 52.7145,
+    "lo": 18.3524,
+    "k": "cistern",
+    "n": "Karczyn",
+    "s": -5250,
+    "t": 2
+  },
+  {
     "i": "vici:vici-84113",
     "la": 42.491,
     "lo": -3.1299,
@@ -172603,6 +174604,15 @@
     "lo": 8.9862,
     "k": "bath",
     "n": "Kastellbad (Marköbel)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-84368",
+    "la": 41.2287,
+    "lo": 13.9265,
+    "k": "road",
+    "n": "Roman paved road",
+    "e": 1500,
     "t": 2
   },
   {
@@ -172822,6 +174832,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-85060",
+    "la": 36.4757,
+    "lo": 9.1296,
+    "k": "cistern",
+    "n": "Thibar",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-85111",
     "la": 35.9779,
     "lo": 10.528,
@@ -172912,6 +174931,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-85392",
+    "la": 35.5952,
+    "lo": 10.5307,
+    "k": "cistern",
+    "n": "Henchir-ech-Cheikr",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-85399",
     "la": 36.8081,
     "lo": 10.678,
@@ -172939,12 +174967,39 @@
     "t": 2
   },
   {
+    "i": "vici:vici-85419",
+    "la": 36.0536,
+    "lo": 9.8852,
+    "k": "bath",
+    "n": "Henchir-el-Hammam",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-85425",
     "la": 36.0009,
     "lo": 10.0365,
     "k": "road",
     "n": "Roman Rd",
     "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85435",
+    "la": 39.3408,
+    "lo": -7.4121,
+    "k": "road",
+    "n": "Roman Road",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85436",
+    "la": 39.3431,
+    "lo": -7.4093,
+    "k": "road",
+    "n": "Roman Road as Crop Mark",
+    "e": 1500,
     "t": 2
   },
   {
@@ -172964,6 +175019,15 @@
     "k": "road",
     "n": "Roman Rd",
     "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85859",
+    "la": 36.7226,
+    "lo": 9.7627,
+    "k": "bath",
+    "n": "Henchir el Hammam",
+    "e": 1500,
     "t": 2
   },
   {
@@ -173361,6 +175425,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-86291",
+    "la": 42.0944,
+    "lo": 11.7898,
+    "k": "lighthouse",
+    "n": "Roman lighthouse tower",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86292",
+    "la": 42.0932,
+    "lo": 11.7858,
+    "k": "lighthouse",
+    "n": "Roman lighthouse tower (di Lazzaretto)",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8630",
     "la": 49.4476,
     "lo": 3.3202,
@@ -173390,6 +175472,15 @@
     "lo": 6.1731,
     "k": "road",
     "n": "Milestone Sablon (CIL 17-02, no. 518)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86331",
+    "la": 39.3399,
+    "lo": -7.4152,
+    "k": "road",
+    "n": "Roman Road Detour",
+    "e": 1500,
     "t": 2
   },
   {
@@ -173830,6 +175921,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-86729",
+    "la": 39.6085,
+    "lo": -8.3594,
+    "k": "dam",
+    "n": "Barragem romana da ribeira do Carril",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8673",
     "la": 49.3691,
     "lo": 6.4281,
@@ -173969,6 +176069,15 @@
     "lo": 6.8536,
     "k": "road",
     "n": "Milestone Pölich, Leugenstein (CIL 17-02, no. 545)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86807",
+    "la": 36.3919,
+    "lo": 9.2219,
+    "k": "cistern",
+    "n": "Cistern",
+    "e": 1500,
     "t": 2
   },
   {
@@ -174432,6 +176541,15 @@
     "k": "bridge",
     "n": "Kınalı Köprü Höyüğü",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87166",
+    "la": 43.2583,
+    "lo": 16.6336,
+    "k": "cistern",
+    "n": "Roman piscine",
+    "s": 200,
     "t": 2
   },
   {
@@ -174939,6 +177057,15 @@
     "lo": 1.4038,
     "k": "road",
     "n": "Milestone Saint-Priest-Taurion (CIL 17-02, no. 360)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-87590",
+    "la": 41.1174,
+    "lo": 28.8172,
+    "k": "cistern",
+    "n": "Tarihi Su Kuyusu",
+    "e": 1500,
     "t": 2
   },
   {
@@ -175649,6 +177776,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-88230",
+    "la": 42.4178,
+    "lo": 12.4664,
+    "k": "port",
+    "n": "Roman Olive Oil Port",
+    "s": -299,
+    "t": 2
+  },
+  {
     "i": "vici:vici-88234",
     "la": 39.4199,
     "lo": -8.5906,
@@ -175990,6 +178126,15 @@
     "lo": 14.2716,
     "k": "road",
     "n": "Milestone Sankt Peter am Bichl (CIL 17-04-01, no. 145)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88586",
+    "la": 39.9964,
+    "lo": -7.1428,
+    "k": "road",
+    "n": "Calzada Romana",
+    "e": 1500,
     "t": 2
   },
   {
@@ -176361,6 +178506,16 @@
     "k": "road",
     "n": "Roman Rd",
     "s": -59,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88898",
+    "la": 42.017,
+    "lo": 12.547,
+    "k": "road",
+    "n": "Crustumerium",
+    "s": -599,
+    "e": 1500,
     "t": 2
   },
   {
@@ -177266,6 +179421,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-89861",
+    "la": 36.7101,
+    "lo": 9.8521,
+    "k": "cistern",
+    "n": "Cistern",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8987",
     "la": 47.0822,
     "lo": 2.3992,
@@ -177378,6 +179542,15 @@
     "lo": 4.2222,
     "k": "road",
     "n": "Milestone Feurs (CIL 17-02, no. 312)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89994",
+    "la": 36.4279,
+    "lo": 9.3434,
+    "k": "road",
+    "n": "Route Romaine Karthagine Thevestem",
+    "e": 1500,
     "t": 2
   },
   {
