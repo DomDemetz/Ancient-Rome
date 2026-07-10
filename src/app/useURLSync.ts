@@ -45,10 +45,14 @@ export function useURLSync() {
     if (yearParam) {
       const y = Number(yearParam)
       if (Number.isFinite(y)) {
-        const { fullTimeline } = useTimelineStore.getState()
-        const lo = fullTimeline ? FULL_MIN : ROMAN_MIN
-        const hi = fullTimeline ? FULL_MAX : ROMAN_MAX
-        setYear(Math.max(lo, Math.min(hi, Math.round(y))))
+        const rounded = Math.round(y)
+        if (rounded < ROMAN_MIN || rounded > ROMAN_MAX) {
+          const { toggleFullTimeline, fullTimeline } = useTimelineStore.getState()
+          if (!fullTimeline) toggleFullTimeline()
+          setYear(Math.max(FULL_MIN, Math.min(FULL_MAX, rounded)))
+        } else {
+          setYear(rounded)
+        }
       }
     }
 
