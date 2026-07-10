@@ -20,7 +20,9 @@ from atomic_json import dump_atomic
 
 SRC = "/private/tmp/cliopatria_polities_only.geojson"
 OUT = os.path.join(os.path.dirname(__file__), "..", "src", "data", "empires", "empires.json")
-MIN_YEAR, MAX_YEAR = -753, 1453
+# Full-timeline window (FULL_MIN/FULL_MAX in useTimelineStore) — Cliopatria
+# itself spans 3400 BC – 2024 AD
+MIN_YEAR, MAX_YEAR = -3700, 1975
 EXCLUDE = {
     "Roman Kingdom", "Roman Republic", "Roman Empire",
     "Eastern Roman Empire", "Western Roman Empire", "Byzantine Empire",

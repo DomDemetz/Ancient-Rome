@@ -30,15 +30,17 @@ import { loadJsonRaw } from '@/data/loadJson'
  *  spanning a boundary lives in every bucket it overlaps; merge with
  *  dedupeEmpires. */
 export const EMPIRE_ERAS: Array<[number, number]> = [
+  [-3700, -800],
   [-800, 0],
   [0, 500],
   [500, 1000],
   [1000, 1500],
+  [1500, 2000],
 ]
 
 export function empireEraIndex(year: number): number {
   const i = EMPIRE_ERAS.findIndex(([lo, hi]) => year >= lo && year < hi)
-  return i === -1 ? (year < -800 ? 0 : EMPIRE_ERAS.length - 1) : i
+  return i === -1 ? (year < -3700 ? 0 : EMPIRE_ERAS.length - 1) : i
 }
 
 const ERA_LOADERS: Array<() => Promise<EmpireShape[]>> = [
@@ -46,6 +48,8 @@ const ERA_LOADERS: Array<() => Promise<EmpireShape[]>> = [
   () => loadJsonRaw<EmpireShape[]>(() => import('./era-1.json?raw')),
   () => loadJsonRaw<EmpireShape[]>(() => import('./era-2.json?raw')),
   () => loadJsonRaw<EmpireShape[]>(() => import('./era-3.json?raw')),
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-4.json?raw')),
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-5.json?raw')),
 ]
 
 export async function loadEmpiresEra(i: number): Promise<EmpireShape[]> {
