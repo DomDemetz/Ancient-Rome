@@ -5,7 +5,9 @@ import { useMapViewport } from '@/hooks/useMapViewport'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { labelProjector } from '../layers/labelCollision'
+import { SITE_TYPE_TO_LAYER } from '../layers/siteTypeLayers'
 import citiesSearchJson from '@/data/registry/cities-search.json'
 
 // labeled cities are obstacles — a monument name through "Rome" is
@@ -38,24 +40,12 @@ function loadManifest(): Promise<ManifestEntry[]> {
     _manifest = m.default as ManifestEntry[]
     return _manifest
   })
+  // a transient failure (dev-server restart, flaky network) must not be
+  // cached as a forever-rejected promise — clear it so the next mount retries
+  _promise.catch(() => {
+    _promise = null
+  })
   return _promise
-}
-
-/** entity type → the layer/dataset toggle that renders its dots */
-const TYPE_TO_LAYER: Record<string, { show?: string; dataset?: string }> = {
-  amphitheater: { show: 'showAmphitheaters' },
-  building: { show: 'showBuildings' },
-  aqueduct: { show: 'showAqueducts' },
-  battle: { show: 'showBattles' },
-  temple: { dataset: 'temples' },
-  religion: { dataset: 'religion' },
-  villa: { dataset: 'villas' },
-  tomb: { dataset: 'tombs' },
-  bridge: { dataset: 'bridges' },
-  mine: { dataset: 'mines' },
-  press: { dataset: 'presses' },
-  port: { dataset: 'ports' },
-  shipwreck: { dataset: 'shipwrecks' },
 }
 
 const MAX_LABELS = 40
@@ -81,6 +71,10 @@ export function MonumentLabels() {
   const layerState = useMapLayerStore((s) => s) as unknown as Record<string, unknown>
   const datasetState = useMapLayerStore((s) => s.datasetState)
   const knowledge = useWikiEnrichment('knowledge-features')
+  // the entity whose record is open is the user's declared intent — it must
+  // win the declutter (searching Circus Maximus landed on it UNLABELED
+  // because richer Palatine neighbors claimed the space first)
+  const focusedKey = useFeatureDetailStore((s) => s.featureId)
   const [manifest, setManifest] = useState<ManifestEntry[]>(_manifest ?? [])
 
   useEffect(() => {
@@ -90,7 +84,7 @@ export function MonumentLabels() {
   const labeled = useMemo(() => {
     if (zoom < 10 || !knowledge || manifest.length === 0) return []
     const typeActive = (t: string): boolean => {
-      const m = TYPE_TO_LAYER[t]
+      const m = SITE_TYPE_TO_LAYER[t]
       if (!m) return false
       if (m.dataset) return !!datasetState[m.dataset]?.show
       if (m.show) return !!layerState[m.show]
@@ -113,9 +107,12 @@ export function MonumentLabels() {
       if (e.lo < bounds.getWest() || e.lo > bounds.getEast()) return false
       return !!knowledge[e.k]?.extract
     })
-    // fame proxy: longer extracts are the better-documented sites
+    // fame proxy: longer extracts are the better-documented sites; the
+    // focused (open-panel) entity outranks everything
     candidates.sort(
-      (a, b) => (knowledge[b.k]?.extract?.length ?? 0) - (knowledge[a.k]?.extract?.length ?? 0),
+      (a, b) =>
+        Number(b.k === focusedKey) - Number(a.k === focusedKey) ||
+        (knowledge[b.k]?.extract?.length ?? 0) - (knowledge[a.k]?.extract?.length ?? 0),
     )
     const { x: mercX, y: mercY } = labelProjector(zoom)
     const placed: Array<[number, number, number]> = []
@@ -136,7 +133,7 @@ export function MonumentLabels() {
       out.push(e)
     }
     return out
-  }, [zoom, bounds, currentYear, knowledge, manifest, layerState, datasetState])
+  }, [zoom, bounds, currentYear, knowledge, manifest, layerState, datasetState, focusedKey])
 
   return (
     <>

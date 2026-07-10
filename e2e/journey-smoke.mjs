@@ -136,6 +136,32 @@ await journey(['showBattles'], async (h) => {
   ok('battle: no Battle-of-Battle stutter', !/Battle of (Battle|Siege|Sack|Fall)\b/.test(title), title)
 })
 
+// ── Journey 6: search an intra-city monument (from a user report) ────
+// "i tried to search for the circus maximus and it found it but I can't
+// see it on the map" — the record opened but the map stayed at city zoom
+// where the monument is one anonymous dot in Rome's cluster.
+await journey(null, async (h) => {
+  await h.goto('/')
+  const search = h.page.locator('input[placeholder="Search places & layers..."]').first()
+  await search.click()
+  await h.page.waitForTimeout(2500) // lazy entity manifest loads on first open
+  await search.fill('Circus Maximus')
+  await h.page.waitForTimeout(1200)
+  const rows = await h.page.locator('[role="option"]').allInnerTexts()
+  ok('circus: found', /Circus Maximus/.test(rows[0] ?? ''), rows[0]?.replace(/\n/g, ' · '))
+  await h.page.locator('[role="option"]').first().click()
+  ok('circus: record opens', await h.waitForText(/chariot-racing/))
+  await h.page.waitForTimeout(6000) // fly + buildings & knowledge chunks
+  const st = await h.page.evaluate(() => ({
+    z: new URLSearchParams(location.search).get('z'),
+    labeled: [...document.querySelectorAll('.monument-label')].some((e) =>
+      /circus maximus/i.test(e.textContent),
+    ),
+  }))
+  ok('circus: monument-scale landing', st.z === '12', `z=${st.z}`)
+  ok('circus: its own label prints at the landing', st.labeled)
+})
+
 await browser.close()
 console.log(failures.length ? `\n${failures.length} FAILURE(S)` : '\nALL JOURNEYS PASS')
 process.exit(failures.length ? 1 : 0)

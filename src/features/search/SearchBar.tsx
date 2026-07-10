@@ -87,6 +87,7 @@ import { useMapNavStore } from '@/stores/useMapNavStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entityColors, entityLabels } from '@/lib/colors'
+import { SITE_TYPE_TO_LAYER } from '@/features/map/layers/siteTypeLayers'
 import { formatYear } from '@/lib/geo'
 import { Input } from '@/ui/input'
 import type { Entity } from '@/types'
@@ -132,6 +133,7 @@ interface SearchItem {
   lifespan?: [number, number] // cities: only jump time if outside this range
   zoom?: number // flyTo zoom override (empires want ~4, not 9)
   sub?: string // right-aligned secondary line (reign, year, role) — eight Constantines need telling apart
+  siteType?: string // parent entity type — resolves the dot layer regardless of display subtype
   alt?: string // alternative names from cross-reference (Colosseum for Flavian Amphitheater)
 }
 
@@ -357,6 +359,12 @@ export function SearchBar() {
         lat: s.la,
         lng: s.lo,
         alt: s.a,
+        // monument-scale landing: at the default z9 an intra-city site is
+        // one anonymous pixel inside its city's dot cluster (Circus Maximus
+        // "found but I can't see it on the map"). z12 separates the dot,
+        // and MonumentLabels prints its name right there.
+        zoom: 12,
+        siteType: s.t,
       }
       // attestation window: lets selection jump the timeline so the
       // marker is actually visible on arrival (sites lacked this before)
@@ -597,7 +605,10 @@ export function SearchBar() {
     }
 
     // Ensure the layer is visible
-    const layerInfo = LAYER_MAP[item.category]
+    // Site rows resolve their layer by parent TYPE: display subtypes
+    // (circus, basilica, forum...) have no LAYER_MAP entries, and selecting
+    // them left the dot layer off — a search ring around an empty spot.
+    const layerInfo = (item.siteType && SITE_TYPE_TO_LAYER[item.siteType]) || LAYER_MAP[item.category]
     if (layerInfo) {
       if (layerInfo.dataset) {
         const ds = useMapLayerStore.getState().datasetState[layerInfo.dataset]
@@ -608,7 +619,10 @@ export function SearchBar() {
         const state = useMapLayerStore.getState() as unknown as Record<string, unknown>
         const isVisible = state[layerInfo.show]
         if (!isVisible) {
-          const toggle = state[layerInfo.toggle!] as () => void
+          // site-type entries carry only `show`; the toggle name is derived
+          const toggleName =
+            (layerInfo as { toggle?: string }).toggle ?? layerInfo.show.replace(/^show/, 'toggle')
+          const toggle = state[toggleName] as () => void
           toggle()
         }
       }
