@@ -329,6 +329,15 @@
     "t": 1
   },
   {
+    "i": "pleiades:445423968",
+    "la": 34.7467,
+    "lo": 40.7331,
+    "k": "townhouse",
+    "n": "House D1",
+    "e": 257,
+    "t": 1
+  },
+  {
     "i": "pleiades:449007780",
     "la": 40.7516,
     "lo": 14.4819,
@@ -799,6 +808,15 @@
     "t": 1
   },
   {
+    "i": "pleiades:928161013",
+    "la": 34.7464,
+    "lo": 40.7274,
+    "k": "townhouse",
+    "n": "House M7-W",
+    "e": 257,
+    "t": 1
+  },
+  {
     "i": "pleiades:95537452",
     "la": 50.7175,
     "lo": -2.4412,
@@ -959,6 +977,14 @@
     "t": 2
   },
   {
+    "i": "pleiades:223974300",
+    "la": 41.7527,
+    "lo": 12.2892,
+    "k": "townhouse",
+    "n": "House of the Fishes",
+    "t": 2
+  },
+  {
     "i": "pleiades:233061795",
     "la": 41.8893,
     "lo": 12.4871,
@@ -1056,6 +1082,14 @@
     "n": "Casa dell’ Amore punito",
     "s": -100,
     "e": 79,
+    "t": 2
+  },
+  {
+    "i": "pleiades:42782119",
+    "la": 42.4128,
+    "lo": 11.2866,
+    "k": "townhouse",
+    "n": "House of the Skeleton",
     "t": 2
   },
   {
@@ -1229,6 +1263,15 @@
     "t": 2
   },
   {
+    "i": "pleiades:769637720",
+    "la": 34.7475,
+    "lo": 40.727,
+    "k": "townhouse",
+    "n": "Building (house?) preceding Synagogue phase 1",
+    "e": 257,
+    "t": 2
+  },
+  {
     "i": "pleiades:779658357",
     "la": 43.07,
     "lo": 12.6146,
@@ -1249,6 +1292,14 @@
     "t": 2
   },
   {
+    "i": "pleiades:790362884",
+    "la": 30.5629,
+    "lo": 62.1036,
+    "k": "townhouse",
+    "n": "Parthian House 139",
+    "t": 2
+  },
+  {
     "i": "pleiades:817164756",
     "la": 41.889,
     "lo": 12.4872,
@@ -1266,6 +1317,14 @@
     "n": "Maison des Nones de Mars",
     "s": -50,
     "e": 500,
+    "t": 2
+  },
+  {
+    "i": "pleiades:841214213",
+    "la": 41.7549,
+    "lo": 12.2882,
+    "k": "townhouse",
+    "n": "Insula dei Dipinti",
     "t": 2
   },
   {
@@ -1416,6 +1475,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19013",
+    "la": 50.941,
+    "lo": 6.9573,
+    "k": "townhouse",
+    "n": "Römischer Privathauskeller",
+    "t": 2
+  },
+  {
     "i": "vici:vici-19268",
     "la": 45.7603,
     "lo": 12.8431,
@@ -1460,6 +1527,14 @@
     "k": "townhouse",
     "n": "Fisherman Domus, Vulci",
     "s": -100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24752",
+    "la": 34.668,
+    "lo": 32.883,
+    "k": "townhouse",
+    "n": "Korion, House of Gladiators",
     "t": 2
   },
   {
@@ -1535,6 +1610,14 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25750",
+    "la": 38.0279,
+    "lo": 22.8522,
+    "k": "townhouse",
+    "n": "Perachora,  Roman House",
+    "t": 2
+  },
+  {
     "i": "vici:vici-26193",
     "la": 42.1451,
     "lo": 24.7514,
@@ -1557,6 +1640,14 @@
     "lo": 26.2389,
     "k": "townhouse",
     "n": "Pillar House, Troy",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-34623",
+    "la": 35.2972,
+    "lo": 25.1635,
+    "k": "townhouse",
+    "n": "Knossos, House of the Chancel Screen",
     "t": 2
   },
   {
@@ -1621,11 +1712,107 @@
     "t": 2
   },
   {
+    "i": "vici:vici-39645",
+    "la": 36.9471,
+    "lo": 11.0991,
+    "k": "townhouse",
+    "n": "Kerkouane, House of Tanit",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-39646",
+    "la": 36.946,
+    "lo": 11.1,
+    "k": "townhouse",
+    "n": "Kerkouane, House of the Sfinx",
+    "t": 2
+  },
+  {
     "i": "vici:vici-41126",
     "la": 34.9222,
     "lo": 40.5684,
     "k": "townhouse",
     "n": "Terqa, House of Puzurum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42165",
+    "la": 35.6005,
+    "lo": 35.7847,
+    "k": "townhouse",
+    "n": "Ugaryt, House of Urtenu",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42166",
+    "la": 35.6008,
+    "lo": 35.7858,
+    "k": "townhouse",
+    "n": "Ugarit, House of Literary Tablets",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42167",
+    "la": 35.6008,
+    "lo": 35.7859,
+    "k": "townhouse",
+    "n": "Ugarit, House with the Chariot Crater",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42169",
+    "la": 35.6023,
+    "lo": 35.7844,
+    "k": "townhouse",
+    "n": "Ugarit, House of Rapanu",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42170",
+    "la": 35.6022,
+    "lo": 35.7844,
+    "k": "townhouse",
+    "n": "Ugarit, House of Rapanu's neighbour",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42171",
+    "la": 35.6008,
+    "lo": 35.7859,
+    "k": "townhouse",
+    "n": "Ugarit, House of the Armorer",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42172",
+    "la": 35.602,
+    "lo": 35.7843,
+    "k": "townhouse",
+    "n": "Ugarit, House of the Scholar",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42173",
+    "la": 35.6018,
+    "lo": 35.7844,
+    "k": "townhouse",
+    "n": "Ugarit, House of Rasapabu",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42174",
+    "la": 35.6018,
+    "lo": 35.7841,
+    "k": "townhouse",
+    "n": "Ugarit, House with a Portico",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42175",
+    "la": 35.6017,
+    "lo": 35.7838,
+    "k": "townhouse",
+    "n": "Ugarit, House of Alabaster Vessels",
     "t": 2
   },
   {
@@ -1678,6 +1865,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-55583",
+    "la": 42.8281,
+    "lo": 11.1591,
+    "k": "townhouse",
+    "n": "Rosellae, Hellenistic House",
+    "s": -300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58150",
+    "la": 43.8271,
+    "lo": 18.3038,
+    "k": "townhouse",
+    "n": "Ilidža, Roman domus",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-58532",
     "la": 41.86,
     "lo": 12.5441,
@@ -1723,6 +1928,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-63396",
+    "la": 37.7276,
+    "lo": 22.7542,
+    "k": "townhouse",
+    "n": "Panagia Houses, Mycenae",
+    "s": -1400,
+    "e": -1200,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64257",
     "la": 40.6389,
     "lo": 17.943,
@@ -1747,6 +1962,34 @@
     "k": "townhouse",
     "n": "Hill House",
     "s": -699,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65495",
+    "la": 35.2264,
+    "lo": 26.0385,
+    "k": "townhouse",
+    "n": "Papadiokampos  Fishermen's House",
+    "s": -1625,
+    "e": -1470,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65496",
+    "la": 35.2253,
+    "lo": 26.0398,
+    "k": "townhouse",
+    "n": "Papadiokampos House B",
+    "s": -1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65497",
+    "la": 35.2246,
+    "lo": 26.0413,
+    "k": "townhouse",
+    "n": "Papadiokampos House C",
+    "s": -1500,
     "t": 2
   },
   {

@@ -6599,6 +6599,14 @@
     "e": 500,
     "t": 1
   },
+  {
+    "i": "pleiades:20876903",
+    "la": 51.3905,
+    "lo": -3.296,
+    "k": "villa",
+    "n": "Cold Knap Roman Building",
+    "t": 1
+  },
   { "i": "pleiades:249986", "la": 43.7187, "lo": 0.5841, "k": "villa", "s": -50, "e": 500, "t": 1 },
   {
     "i": "pleiades:25673742",
@@ -6608,6 +6616,14 @@
     "n": "Devia (San Nicandro Garganico)",
     "s": -100,
     "e": 500,
+    "t": 1
+  },
+  {
+    "i": "pleiades:331813284",
+    "la": 49.6779,
+    "lo": 5.9796,
+    "k": "villa",
+    "n": "Goeblange",
     "t": 1
   },
   {
@@ -71813,6 +71829,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65635",
+    "la": 39.889,
+    "lo": -4.5063,
+    "k": "villa",
+    "n": "Malpica de Tajo",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65638",
     "la": 47.976,
     "lo": 9.6531,
@@ -72979,6 +73004,33 @@
     "lo": -1.2692,
     "k": "villa",
     "n": "Villa at Sapcote",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66184",
+    "la": 46.7865,
+    "lo": 7.5751,
+    "k": "villa",
+    "n": "Uetendorf",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66185",
+    "la": 46.7855,
+    "lo": 7.5736,
+    "k": "villa",
+    "n": "Uetendorf",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66186",
+    "la": 46.7852,
+    "lo": 7.5726,
+    "k": "villa",
+    "n": "Uetendorf",
+    "s": 50,
     "t": 2
   },
   {
@@ -78133,6 +78185,15 @@
     "lo": 4.5643,
     "k": "villa",
     "n": "Villa Gallo-Romaine de Mousty",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80792",
+    "la": 50.2918,
+    "lo": 8.8809,
+    "k": "villa",
+    "n": "Römisches Gebäude \"Raubschloss\" Niddatal-Bönstadt",
+    "s": 100,
     "t": 2
   },
   {

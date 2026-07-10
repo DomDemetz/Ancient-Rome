@@ -87,6 +87,10 @@ def node_id_of(source_key):
 
 MINED_PATH = DATA / "registry" / "vici-other-kinds.json"
 MINED_KINDS = json.load(open(MINED_PATH)) if MINED_PATH.exists() else {}
+# research-swarm verdicts for generic 'building' rows (2026-07-11:
+# per-entity evidence + web research, high-confidence only)
+BLDG_PATH = DATA / "registry" / "building-kinds.json"
+BLDG_KINDS = json.load(open(BLDG_PATH)) if BLDG_PATH.exists() else {}
 
 
 def main():
@@ -129,7 +133,9 @@ def main():
         # ── ONE kind resolution (the taxonomy is the only vocabulary) ──
         kind = resolve_kind(e["kind"])
         if e["kind"] == "building":
-            kind = resolve_kind(SRC_BUILDING.get(e.get("subtype"))) or "building"
+            kind = (resolve_kind(BLDG_KINDS.get(e["id"]))
+                    or resolve_kind(SRC_BUILDING.get(e.get("subtype")))
+                    or "building")
         elif e["kind"] == "port":
             kind = resolve_kind(SRC_PORT.get(e.get("subtype"))) or "port"
         elif e["kind"] == "other":
@@ -141,6 +147,8 @@ def main():
                     kind = resolve_kind(MINED_KINDS.get(src[len("vici:"):]))
                     if kind:
                         break
+        if kind == "building" and e["id"] in BLDG_KINDS:
+            kind = resolve_kind(BLDG_KINDS[e["id"]]) or kind
         if struct_row and (kind is None or kind == "settlement"):
             kind = struct_row
         if kind is None:
