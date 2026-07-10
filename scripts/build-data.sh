@@ -25,6 +25,7 @@ npx tsx scripts/build-unified-entities.ts
 python3 scripts/normalize-unified-qids.py
 python3 scripts/enforce-qid-tombstones.py
 python3 scripts/floor-estimated-dates.py
+python3 scripts/floor-era-named-dates.py
 python3 scripts/apply-event-caps.py
 python3 scripts/attach-nodes-to-unified.py
 echo ""

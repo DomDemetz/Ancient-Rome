@@ -58,7 +58,9 @@ STRUCT_COMPAT = {
     34: {"villa", "estate", "farm"},
     55: {"church", "basilica", "villa", "monument"},
 }
-STRUCT_RADIUS = 1.5
+# 2.5 matches the validator's duplicate radius — cross-silo coords for the
+# same structure routinely differ by ~2 km (Angmering, Feltwell, Vendres)
+STRUCT_RADIUS = 2.5
 
 def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()

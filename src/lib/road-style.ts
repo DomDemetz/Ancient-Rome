@@ -34,11 +34,16 @@ export function shouldShowRoad(props: TemporalRoadProps, currentYear: number): b
     return true
   }
 
-  // No temporal data at all (e.g. undated Itiner-e segments): always visible,
-  // but respect decline if present
+  // No temporal data at all (e.g. undated Itiner-e segments): visible from
+  // the dawn of Roman road-building (Via Appia, 312 BC) — "always visible"
+  // painted a road network over 700 BC Italy. Decline still respected.
+  if (currentYear < ROMAN_ROAD_DAWN) return false
   if (props.declineYear != null && currentYear > props.declineYear + 50) return false
   return true
 }
+
+/** Via Appia, the first great Roman road — undated segments appear here. */
+export const ROMAN_ROAD_DAWN = -312
 
 /**
  * Computes the opacity for a road segment at the given year.

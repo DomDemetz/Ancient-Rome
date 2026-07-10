@@ -36,8 +36,13 @@ describe('shouldShowRoad', () => {
     expect(shouldShowRoad({ startYear: -200, endYear: -49 }, -48)).toBe(false)
   })
 
-  it('shows road with no temporal data at all (never territory-correlated)', () => {
+  it('shows road with no temporal data from the dawn of Roman road-building', () => {
     expect(shouldShowRoad({ territoryYear: null }, 100)).toBe(true)
+    expect(shouldShowRoad({ territoryYear: null }, -312)).toBe(true)
+  })
+
+  it('hides road with no temporal data before Roman roads existed', () => {
+    expect(shouldShowRoad({ territoryYear: null }, -700)).toBe(false)
   })
 
   it('still respects decline on roads with no territory correlation', () => {

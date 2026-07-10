@@ -13961,5 +13961,12 @@
   "qid": "Q87742452",
   "reason": "Passo Lombardo villa is a point structure; this record is 3.8 km from its coordinates (keeper: pleiades:659743014)",
   "confidence": "high"
+ },
+ {
+  "key": "pleiades:208943566",
+  "action": "removed-qid",
+  "qid": "Q3485394",
+  "reason": "Q3485394 is the Capitolium at Mactaris (a temple); this record is an untitled aqueduct — neighbor contamination",
+  "confidence": "high"
  }
 ]
