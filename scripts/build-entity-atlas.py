@@ -128,6 +128,7 @@ def main():
                  for p in json.load(open(DATA / "places" / "places.json"))}
 
     by_cat = defaultdict(list)
+    source_index = {}
     skipped = Counter()
     for e in table:
         if e["kind"] == "battle":
@@ -216,10 +217,23 @@ def main():
             if detail != e["id"] and richness(cr.get(detail)) > 0:
                 row["d"] = detail
         row["t"] = 1 if has_knowledge else (2 if not unnamed else 3)
+        linkable = [k for k in e["sources"]
+                    if not k.startswith(("pleiades#", "dare#", "qid#"))]
+        if linkable:
+            source_index[e["id"]] = linkable
+            if row.get("d"):
+                source_index[row["d"]] = linkable
         by_cat[cat].append(row)
 
     outdir = DATA / "entities" / "atlas"
     outdir.mkdir(exist_ok=True)
+    # lazy per-entity provenance for the detail panel (loaded on first open):
+    # both the row id and its detail key resolve to the raw source keys, from
+    # which the client builds record links (vici.org/vici/N, pleiades, ...)
+    dump_atomic(source_index, outdir / "sources.json", ensure_ascii=False,
+                separators=(",", ":"))
+    print(f"  atlas/sources.json {len(source_index)} keys "
+          f"{(outdir / 'sources.json').stat().st_size // 1024} KB")
     index = {}
     for cat, rows in sorted(by_cat.items()):
         rows.sort(key=lambda r: (r["t"], r["i"]))

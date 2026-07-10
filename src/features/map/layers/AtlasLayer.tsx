@@ -103,12 +103,17 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
 
   const openPopup = useCallback(
     (e: AtlasEntity) => {
-      let html = `<div class="map-tooltip-title">${e.n ? esc(e.n) : 'Unknown site'}</div>`
+      // unified structure for every atlas dot: title · kind · dates ·
+      // source line · knowledge · footer (no duplicated title-as-kind,
+      // no second source badge)
+      const title = e.n || labelKind(e.k)
+      let html = `<div class="map-tooltip-title">${esc(title)}</div>`
       const sub: string[] = []
       if (e.k && e.k !== 'other') sub.push(labelKind(e.k))
       if (e.st && e.st !== 'unknown' && e.st !== e.k) sub.push(labelKind(e.st))
-      if (sub.length) {
-        html += `<div class="map-tooltip-sub">${esc(sub.join(' · '))}</div>`
+      const subText = sub.join(' · ')
+      if (subText && subText !== title) {
+        html += `<div class="map-tooltip-sub">${esc(subText)}</div>`
       }
       if (e.s != null && e.s !== 0) {
         const span =
@@ -132,9 +137,9 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
         }
       }
       if (kEntry?.extract) {
-        html = appendWikiTooltip(html, kKey, store, layerName)
+        html = appendWikiTooltip(html, kKey, store, layerName, undefined, { noBadge: true })
       } else if (kEntry?.crossRef) {
-        html = appendCrossRefTooltip(html, kEntry.crossRef, { crKey: kKey })
+        html = appendCrossRefTooltip(html, kEntry.crossRef, { crKey: kKey }, { noBadge: true })
       } else if (e.d || e.t === 1) {
         html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(kKey)}" data-wiki-layer="${layerName}">Details</button></div>`
       }

@@ -21,6 +21,7 @@ export function appendWikiTooltip(
   lookup: WikiLookup | null,
   layer: string,
   entityId?: string,
+  opts?: { noBadge?: boolean },
 ): string {
   if (!lookup) return html
   const wiki = lookup[id]
@@ -75,11 +76,14 @@ export function appendWikiTooltip(
 
   // Source quality indicator — cross-ref is always academic
   if (cr?.sources?.length) {
-    wikiHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} sources</span>`
+    if (!opts?.noBadge)
+      wikiHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} sources</span>`
   } else if (wiki.sourceQuality === 'academic') {
-    wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--academic">Academic</span>'
+    if (!opts?.noBadge)
+      wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--academic">Academic</span>'
   } else if (wiki.sourceQuality === 'sourced') {
-    wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--sourced">Sourced</span>'
+    if (!opts?.noBadge)
+      wikiHtml += '<span class="map-tooltip-badge map-tooltip-badge--sourced">Sourced</span>'
   }
 
   wikiHtml += `<button class="map-tooltip-readmore" data-wiki-id="${esc(id)}" data-wiki-layer="${esc(layer)}"${entityId ? ` data-entity-id="${esc(entityId)}"` : ''}>Read more</button>`
@@ -150,6 +154,7 @@ export function appendCrossRefTooltip(
   html: string,
   cr: CrossRefEnrichment,
   links?: { crKey: string; pid?: string; qid?: string },
+  opts?: { noBadge?: boolean },
 ): string {
   const isContainer = !!cr.containedInQid
   const desc = cr.pleiadesDescription
@@ -195,7 +200,8 @@ export function appendCrossRefTooltip(
   }
 
   if (cr.sources?.length) {
-    crHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} source${cr.sources.length > 1 ? 's' : ''}</span>`
+    if (!opts?.noBadge)
+      crHtml += `<span class="map-tooltip-badge map-tooltip-badge--academic">${cr.sources.length} source${cr.sources.length > 1 ? 's' : ''}</span>`
   }
 
   if (links) {

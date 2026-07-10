@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { X, ExternalLink, ChevronDown, BookOpen, Shield, AlertTriangle } from 'lucide-react'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
+import { RecordSourceLinks } from './RecordSourceLinks'
 import { useUIStore } from '@/stores/useUIStore'
 import { Button } from '@/ui/button'
 import { Separator } from '@/ui/separator'
@@ -310,6 +311,15 @@ function CrossRefDetailContent({
                 <ExternalLink className="size-3" /> DARE
               </a>
             )}
+            {/* per-record links from the entity's merged sources (vici.org etc.) */}
+            <RecordSourceLinks
+              lookupKeys={[crKey]}
+              skipUrls={[
+                ...(cr.qid ? [`https://www.wikidata.org/wiki/${cr.qid}`] : []),
+                ...(pid ? [`https://pleiades.stoa.org/places/${pid}`] : []),
+                ...(dareId ? [`https://dare.ht.lu.se/places/${dareId}`] : []),
+              ]}
+            />
             {cr.wdProps?.commonsCategory && (
               <a
                 href={`https://commons.wikimedia.org/wiki/Category:${encodeURIComponent(cr.wdProps.commonsCategory)}`}
@@ -1021,6 +1031,11 @@ function WikiDetailContent({
               )}
             </>
           )}
+
+          {/* per-record provenance links (vici.org page, Pleiades place, ...) */}
+          <div className="flex flex-wrap gap-2 pt-2">
+            <RecordSourceLinks lookupKeys={[featureId]} />
+          </div>
 
           {/* Curated narrative connections
               (one unified view: knowledge above, connections below) */}
