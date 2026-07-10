@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef } from 'react'
 import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
+import { popAt } from './populationCurve'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
@@ -44,25 +45,6 @@ function populationAt(points: PlacePopulationPoint[], year: number): number | nu
   if (points.length === 0) return null
   if (year <= points[0].year) return points[0].population
   if (year >= points[points.length - 1].year) return points[points.length - 1].population
-  for (let i = 0; i < points.length - 1; i++) {
-    const a = points[i]
-    const b = points[i + 1]
-    if (year >= a.year && year <= b.year) {
-      const span = b.year - a.year
-      if (span === 0) return a.population
-      const t = (year - a.year) / span
-      return Math.round(a.population + t * (b.population - a.population))
-    }
-  }
-  return null
-}
-
-function popAt(points: PlacePopulationPoint[], year: number): number | null {
-  if (points.length === 0) return null
-  // No extrapolation: outside the attested curve the node falls back to its
-  // DARE styling. (Clamping made Baghdad "populated" in 117 AD — the merged
-  // node inherits DARE's wide span, but its curve only starts in 763.)
-  if (year < points[0].year || year > points[points.length - 1].year) return null
   for (let i = 0; i < points.length - 1; i++) {
     const a = points[i]
     const b = points[i + 1]
