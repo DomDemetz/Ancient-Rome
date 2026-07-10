@@ -129,10 +129,15 @@ export function ViciLayer({ data }: ViciLayerProps) {
     for (const m of markersRef.current) m.remove()
     markersRef.current = []
 
+    // a 2px dot is a ~4px hit target — visually right at survey zooms but
+    // humanly unclickable; grow the marker (and with it Leaflet's hit area)
+    // as the map closes in
+    const baseRadius = zoom >= 14 ? 5 : zoom >= 11 ? 3.5 : 2
+
     for (const s of visible) {
       const color = TYPE_COLORS[s.siteType] || TYPE_COLORS.other
       const marker = L.circleMarker([s.lat, s.lng], {
-        radius: 2,
+        radius: baseRadius,
         color: 'transparent',
         fillColor: color,
         fillOpacity: 0.7,
@@ -141,17 +146,17 @@ export function ViciLayer({ data }: ViciLayerProps) {
       if (s.name) {
         marker.bindTooltip(esc(s.name), {
           direction: 'top',
-          offset: [0, -2],
+          offset: [0, -baseRadius],
           className: 'name-tooltip',
         })
       }
-      marker.on('mouseover', () => marker.setRadius(4))
-      marker.on('mouseout', () => marker.setRadius(2))
+      marker.on('mouseover', () => marker.setRadius(baseRadius + 2))
+      marker.on('mouseout', () => marker.setRadius(baseRadius))
       marker.on('click', () => openPopupRef.current(s))
       marker.addTo(map)
       markersRef.current.push(marker)
     }
-  }, [visible, map])
+  }, [visible, zoom, map])
 
   useEffect(() => {
     return () => {
