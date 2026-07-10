@@ -13,10 +13,7 @@ function interpolateRomePopulation(
 
   const sorted = [...populations].sort((a, b) => a.year - b.year)
 
-  // Before earliest data point
-  if (currentYear <= sorted[0].year) return sorted[0].population
-
-  // After latest data point
+  if (currentYear < sorted[0].year) return null
   if (currentYear >= sorted[sorted.length - 1].year) return sorted[sorted.length - 1].population
 
   // Find bracketing entries

@@ -32,12 +32,15 @@ function getZoomThreshold(type: number, major: boolean): number {
   return 10
 }
 
-/** Only the biggest cities get a permanent label when zoomed out. */
-function labelMinPop(zoom: number): number {
-  if (zoom <= 4) return 250000
-  if (zoom === 5) return 120000
-  if (zoom === 6) return 60000
-  if (zoom === 7) return 25000
+/** Only the biggest cities get a permanent label when zoomed out.
+ *  Pre-classical thresholds are lower since the world's largest cities
+ *  were 30–80k before ~800 BC. */
+function labelMinPop(zoom: number, year?: number): number {
+  const ancient = year != null && year < -800
+  if (zoom <= 4) return ancient ? 20000 : 250000
+  if (zoom === 5) return ancient ? 10000 : 120000
+  if (zoom === 6) return ancient ? 5000 : 60000
+  if (zoom === 7) return ancient ? 5000 : 25000
   return 0
 }
 
@@ -170,9 +173,13 @@ export function PlacesLayer({
       // Dot discipline at empire zooms: an unlabeled dot is noise. Below
       // zoom 6, a population node renders only if it earns a label at the
       // CURRENT year (ghost-dots from off-curve years included).
+      // Pre-classical thresholds are lower: the world's largest city in
+      // 2000 BC was ~40k — apply Roman-era minimums and they all vanish.
       if (hasPop && zoom <= 5) {
         const cur = popAt(p.populations!, currentYear)
-        if (cur == null || cur < (zoom <= 4 ? 250000 : 120000)) return false
+        const ancient = currentYear < -800
+        const minPop = zoom <= 4 ? (ancient ? 20000 : 250000) : ancient ? 10000 : 120000
+        if (cur == null || cur < minPop) return false
       }
 
       // Zoom rules: population nodes always visible; DARE nodes by type;
@@ -232,7 +239,7 @@ export function PlacesLayer({
     for (const p of visible) {
       if (!p.populations?.length) continue
       const cur = populationAt(p.populations, currentYear)
-      if (cur != null && cur >= labelMinPop(zoom)) {
+      if (cur != null && cur >= labelMinPop(zoom, currentYear)) {
         placed.push([mercX(p.lng), mercY(p.lat)])
       }
     }
@@ -267,7 +274,7 @@ export function PlacesLayer({
       }
       return out
     }
-    const min = labelMinPop(zoom)
+    const min = labelMinPop(zoom, currentYear)
     const labeled = visible
       .map((p) => ({ p, pop: p.populations ? populationAt(p.populations, currentYear) : null }))
       .filter(
@@ -325,10 +332,10 @@ export function PlacesLayer({
 
       const hasLabel =
         (pop != null &&
-          pop >= labelMinPop(zoom) &&
+          pop >= labelMinPop(zoom, currentYear) &&
           (cityLabelIds == null || cityLabelIds.has(p.id))) ||
         minorLabelIds.has(p.id)
-      const isCity = pop != null && pop >= labelMinPop(zoom)
+      const isCity = pop != null && pop >= labelMinPop(zoom, currentYear)
       const tooltipKey = hasLabel ? `${name}|${isCity ? 'c' : 'm'}` : null
 
       const hoverKey = hasLabel ? null : `hover:${name}`
