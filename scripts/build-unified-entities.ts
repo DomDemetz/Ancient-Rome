@@ -256,6 +256,67 @@ async function main() {
   }
   console.log(`Battles: ${battles.length}`)
 
+  // 2b. Wikidata world battles — global coverage for full-timeline mode.
+  // The curated set wins on overlap (it carries outcome/combatants/commander).
+  const wdBattles = await loadJson<
+    Array<{
+      id: string
+      name: string
+      year: number
+      lat: number
+      lng: number
+      description?: string
+      qid?: string
+      partOf?: string
+    }>
+  >('src/data/battles/wikidata-battles.json')
+
+  const normName = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '')
+  const curatedYears = new Map<string, number[]>()
+  for (const b of battles) {
+    const k = normName(b.name)
+    if (!curatedYears.has(k)) curatedYears.set(k, [])
+    curatedYears.get(k)!.push(b.year)
+  }
+  const seenWdIds = new Set<string>()
+  let wdAdded = 0
+  let wdDupes = 0
+  let wdOutOfWindow = 0
+  for (const b of wdBattles) {
+    // Full-timeline window (matches FULL_MIN/FULL_MAX in the timeline store)
+    if (b.year < -3700 || b.year > 1975) {
+      wdOutOfWindow++
+      continue
+    }
+    const years = curatedYears.get(normName(b.name))
+    if (years?.some((y) => Math.abs(y - b.year) <= 25)) {
+      wdDupes++
+      continue
+    }
+    if (seenWdIds.has(b.id)) continue
+    seenWdIds.add(b.id)
+    entities.push({
+      id: `battle:${b.id}`,
+      type: 'battle',
+      name: b.name,
+      lat: b.lat,
+      lng: b.lng,
+      qid: b.qid,
+      startYear: b.year,
+      endYear: b.year,
+      source: 'wikidata',
+      props: {
+        outcome: 'unknown',
+        ...(b.partOf && { partOf: b.partOf }),
+        ...(b.description && { description: b.description }),
+      },
+    })
+    wdAdded++
+  }
+  console.log(
+    `Wikidata battles: ${wdAdded} added (${wdDupes} curated overlaps skipped, ${wdOutOfWindow} outside -3700..1975)`,
+  )
+
   // 3. Buildings
   const buildings = await loadJson<
     Array<{
