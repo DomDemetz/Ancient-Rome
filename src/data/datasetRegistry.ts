@@ -1,22 +1,28 @@
 /**
- * Dataset registry — declarative config for point-data layers.
+ * Dataset registry — declarative config for the entity-atlas point layers.
  *
- * Adding a new dataset:
- * 1. Drop a unified JSON file in src/data/unified/
- * 2. Add a DatasetConfig entry here
- * 3. The store, layer renderer, and UI panel pick it up automatically
+ * THE unified rework (2026-07-10): the registry entries ARE the atlas
+ * categories. Each one renders a category chunk of the entity atlas
+ * (src/data/entities/atlas/<id>.json, emitted from the canonical entity
+ * table by scripts/build-entity-atlas.py) through the single AtlasLayer
+ * renderer. The old per-source datasets (vici silo, Discovery
+ * villas/temples/bridges/tombs, shipwrecks/mines/religion/ports/presses,
+ * legacy amphitheater/buildings layers) all collapsed into these eight —
+ * one dot per real-world entity, one popup path, one taxonomy.
+ *
+ * The store, layer renderer, UI panel, presets, persistence, and share
+ * links all pick entries up automatically via `showDataset:<id>` keys.
  */
 
 export interface DatasetConfig {
   id: string
   label: string
   group: string
+  /** atlas category chunk name under src/data/entities/atlas/ */
   file: string
 
   color: string
   fillColor: string
-  colorField?: string
-  colorMap?: Record<string, string>
 
   minZoom: number
   maxSample?: number
@@ -27,162 +33,104 @@ export interface DatasetConfig {
   attribution?: string
 }
 
+const SITE_ATTRIBUTION = 'Sites: vici.org (CC BY-SA) · DARE · Pleiades'
+
 export const DATASET_REGISTRY: DatasetConfig[] = [
   {
-    id: 'presses',
-    label: 'Oil & Wine Presses',
-    group: 'Economy',
-    file: 'press.json',
-    color: '#4a3728',
-    fillColor: '#8b6914',
-    colorField: 'subtype',
-    colorMap: {
-      oil: '#8b6914',
-      wine: '#722f37',
-    },
-    minZoom: 7,
-    temporalFilter: true,
-    activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
-  },
-  {
-    id: 'shipwrecks',
-    label: 'Shipwrecks',
-    group: 'Economy',
-    file: 'shipwreck.json',
-    color: '#1a5276',
-    fillColor: '#3498db',
-    colorField: 'subtype',
-    colorMap: {
-      amphora: '#c0392b',
-      pottery: '#e67e22',
-      marble: '#ecf0f1',
-      grain: '#f39c12',
-      metal: '#7f8c8d',
-      mixed: '#8e44ad',
-      'building materials': '#d4a574',
-      tiles: '#cb8034',
-      stone: '#b0a090',
-      coins: '#ffd700',
-      glass: '#48c9b0',
-      dolia: '#a0522d',
-    },
-    minZoom: 6,
-    maxSample: 300,
-    temporalFilter: true,
-    activeClass: 'bg-cyan-900/80 border-cyan-700 text-cyan-100 hover:bg-cyan-800/80',
-    attribution: 'Shipwreck data: DARMC/OxREP',
-  },
-  {
-    id: 'mines',
-    label: 'Mines & Quarries',
-    group: 'Economy',
-    file: 'mine.json',
-    color: '#2c3e50',
-    fillColor: '#95a5a6',
-    colorField: 'subtype',
-    colorMap: {
-      gold: '#ffd700',
-      silver: '#c0c0c0',
-      copper: '#b87333',
-      iron: '#434343',
-      tin: '#d4d4d4',
-      lead: '#5a5a5a',
-      marble: '#f5f5f5',
-      granite: '#a0785a',
-      limestone: '#e8dcc8',
-      quarry: '#c9b896',
-      porphyry: '#6a0dad',
-    },
+    id: 'cities',
+    label: 'Cities & Buildings',
+    group: 'Sites',
+    file: 'cities',
+    color: '#8a7a55',
+    fillColor: '#f5e6c8',
     minZoom: 6,
     temporalFilter: true,
-    activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
-    attribution: 'Mining data: OxREP',
+    activeClass: 'bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80',
+    attribution: SITE_ATTRIBUTION,
   },
   {
-    id: 'religion',
-    label: 'Religious Sites',
-    group: 'Religion',
-    file: 'religious-site.json',
-    color: '#2c3e50',
-    fillColor: '#95a5a6',
-    colorField: 'props.religion',
-    colorMap: {
-      roman: '#d4af37',
-      greek: '#f0c040',
-      egyptian: '#e67e22',
-      christian: '#3498db',
-      mithras: '#e74c3c',
-      jewish: '#2ecc71',
-      syncretic: '#9b59b6',
-    },
+    id: 'rural',
+    label: 'Rural / Villas',
+    group: 'Sites',
+    file: 'rural',
+    color: '#3f6b3f',
+    fillColor: '#7ec87e',
+    minZoom: 6,
+    temporalFilter: true,
+    activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
+    attribution: SITE_ATTRIBUTION,
+  },
+  {
+    id: 'military',
+    label: 'Military Sites',
+    group: 'Sites',
+    file: 'military',
+    color: '#7a2e22',
+    fillColor: '#e85c4a',
+    minZoom: 6,
+    temporalFilter: true,
+    activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
+    attribution: SITE_ATTRIBUTION,
+  },
+  {
+    id: 'infrastructure',
+    label: 'Infrastructure',
+    group: 'Sites',
+    file: 'infrastructure',
+    color: '#2d5a80',
+    fillColor: '#6baed6',
+    minZoom: 6,
+    temporalFilter: true,
+    activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
+    attribution: `${SITE_ATTRIBUTION} · Ancient Ports`,
+  },
+  {
+    id: 'religious',
+    label: 'Religious',
+    group: 'Sites',
+    file: 'religious',
+    color: '#8a6d1c',
+    fillColor: '#f0c040',
     minZoom: 6,
     temporalFilter: true,
     activeClass: 'bg-violet-900/80 border-violet-700 text-violet-100 hover:bg-violet-800/80',
+    attribution: SITE_ATTRIBUTION,
   },
   {
-    id: 'ports',
-    label: 'Ports & Harbours',
-    group: 'Economy',
-    file: 'port.json',
-    color: '#1a5276',
-    fillColor: '#2980b9',
-    colorField: 'subtype',
-    colorMap: {
-      port: '#2980b9',
-      harbour: '#3498db',
-      major_port: '#1a5276',
-      naval_base: '#1a5276',
-      lighthouse: '#f5c542',
-      shipyard: '#2471a3',
-      anchorage: '#5dade2',
-    },
+    id: 'production',
+    label: 'Production & Trade',
+    group: 'Sites',
+    file: 'production',
+    color: '#6e4a2b',
+    fillColor: '#c88c5a',
     minZoom: 6,
     temporalFilter: true,
-    activeClass: 'bg-blue-900/80 border-blue-600 text-blue-100 hover:bg-blue-800/80',
+    activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
+    attribution: `${SITE_ATTRIBUTION} · DARMC/OxREP shipwrecks · OxREP mines`,
   },
   {
-    id: 'villas',
-    label: 'Villas',
-    group: 'Discovery',
-    file: 'discovery-villa.json',
-    color: '#4d7c0f',
-    fillColor: '#84cc16',
-    minZoom: 7,
+    id: 'funerary',
+    label: 'Funerary & Monuments',
+    group: 'Sites',
+    file: 'funerary',
+    color: '#5e3a70',
+    fillColor: '#b07cc8',
+    minZoom: 6,
     temporalFilter: true,
-    activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
+    activeClass: 'bg-purple-900/80 border-purple-700 text-purple-100 hover:bg-purple-800/80',
+    attribution: SITE_ATTRIBUTION,
   },
   {
-    id: 'temples',
-    label: 'Temples',
-    group: 'Discovery',
-    file: 'discovery-temple.json',
-    color: '#86198f',
-    fillColor: '#d946ef',
-    minZoom: 7,
+    id: 'other',
+    label: 'Other Sites',
+    group: 'Sites',
+    file: 'other',
+    color: '#5a615f',
+    fillColor: '#95a5a6',
+    minZoom: 8,
     temporalFilter: true,
-    activeClass: 'bg-fuchsia-900/80 border-fuchsia-700 text-fuchsia-100 hover:bg-fuchsia-800/80',
-  },
-  {
-    id: 'bridges',
-    label: 'Bridges',
-    group: 'Discovery',
-    file: 'discovery-bridge.json',
-    color: '#0369a1',
-    fillColor: '#38bdf8',
-    minZoom: 7,
-    temporalFilter: true,
-    activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
-  },
-  {
-    id: 'tombs',
-    label: 'Tombs',
-    group: 'Discovery',
-    file: 'discovery-tomb.json',
-    color: '#374151',
-    fillColor: '#9ca3af',
-    minZoom: 7,
-    temporalFilter: true,
-    activeClass: 'bg-gray-800/80 border-gray-600 text-gray-100 hover:bg-gray-700/80',
+    activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
+    attribution: SITE_ATTRIBUTION,
   },
 ]
 

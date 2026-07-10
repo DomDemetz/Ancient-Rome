@@ -55,7 +55,7 @@ export function StatsOverlay() {
   const battlesData = useMapLayerStore((s) => s.battlesData)
   const showLegions = useMapLayerStore((s) => s.showLegions)
   const legionsData = useMapLayerStore((s) => s.legionsData)
-  const shipwrecksDs = useMapLayerStore((s) => s.datasetState.shipwrecks)
+  const productionDs = useMapLayerStore((s) => s.datasetState.production)
   const showCities = useMapLayerStore((s) => s.showCities)
   const placesData = useMapLayerStore((s) => s.placesData)
 
@@ -77,13 +77,15 @@ export function StatsOverlay() {
   }, [showLegions, legionsData, currentYear])
 
   const shipwreckCount = useMemo(() => {
-    if (!shipwrecksDs?.show || !shipwrecksDs.data) return null
-    return shipwrecksDs.data.filter((w) => {
-      const start = w.startYear ?? 0
-      const end = w.endYear ?? 0
+    // shipwrecks live inside the production atlas category (unified rework)
+    if (!productionDs?.show || !productionDs.data) return null
+    return productionDs.data.filter((w) => {
+      if (w.k !== 'shipwreck') return false
+      const start = w.s ?? 0
+      const end = w.e ?? 0
       return start <= currentYear && end >= currentYear
     }).length
-  }, [shipwrecksDs, currentYear])
+  }, [productionDs, currentYear])
 
   const romePopulation = useMemo(() => {
     if (!showCities || !placesData) return null

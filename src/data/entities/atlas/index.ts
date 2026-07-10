@@ -16,8 +16,10 @@ export interface AtlasEntity {
   d?: string
   /** display name (absent on unnamed survey points) */
   n?: string
-  /** kind: fort, temple, villa, circus, ... */
+  /** kind: fort, temple, villa, shipwreck, ... */
   k: string
+  /** subtype where present: circus, amphora cargo, gold, ... */
+  st?: string
   la: number
   lo: number
   /** attestation window */
@@ -49,6 +51,13 @@ const CHUNKS: Record<AtlasCategory, () => Promise<{ default: string }>> = {
   production: () => import('./production.json?raw'),
   funerary: () => import('./funerary.json?raw'),
   other: () => import('./other.json?raw'),
+}
+
+/** Load one category chunk — the dataset-toggle loader. */
+export async function loadAtlasCategory(category: string): Promise<AtlasEntity[]> {
+  const loader = CHUNKS[category as AtlasCategory]
+  if (!loader) throw new Error(`Unknown atlas category: ${category}`)
+  return loadJsonRaw<AtlasEntity[]>(loader)
 }
 
 /** Load selected categories (defaults to all), in parallel chunks. */

@@ -14,7 +14,8 @@ Row format (compact, ships to the client per-category):
   i   entity id (knowledge-features lookup key; the table's row id)
   d   detail key for the cross-ref panel, when it differs from i
   n   name (omitted when unnamed)
-  k   kind (fort, temple, villa, ...; building subtype folded in)
+  k   kind (fort, temple, villa, shipwreck, ...)
+  st  subtype where present (circus, amphora cargo, gold, ...)
   la/lo  coords
   s/e attestation window (omitted when unknown)
   t   tier: 1 knowledge-bearing, 2 named, 3 unnamed survey texture
@@ -94,7 +95,9 @@ def main():
             continue
         cat = CATEGORY.get(e["kind"], "other")
         row = {"i": e["id"], "la": round(e["lat"], 4), "lo": round(e["lng"], 4),
-               "k": e.get("subtype") or e["kind"]}
+               "k": e["kind"]}
+        if e.get("subtype") and e["subtype"] != e["kind"]:
+            row["st"] = e["subtype"]
         name = (e.get("name") or "").strip()
         unnamed = (not name or name.lower().startswith(("unnamed", "untitled")))
         if not unnamed:

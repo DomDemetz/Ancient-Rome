@@ -8,15 +8,13 @@ import type { EmpireShape } from '@/data/empires'
 import type { PresenceGrid } from '@/features/map/layers/PresenceLayer'
 import type { SettlementCategory } from '@/features/map/layers/settlementStyles'
 import type { Battle } from '@/data/battles'
-import type { Amphitheater } from '@/data/amphitheaters'
 import type { Emperor } from '@/data/emperors'
 import type { Legion } from '@/data/legions'
 import type { Aqueduct } from '@/data/aqueducts'
-import type { Building } from '@/data/buildings'
 import type { TradeNetwork } from '@/data/trade'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
-import type { UnifiedEntity } from '@/data/unified'
+import type { AtlasEntity } from '@/data/entities/atlas'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 
 // --- Preset definitions ---
@@ -61,11 +59,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showItinereRoads',
       'showSettlements',
       'showCities',
-      'showDataset:shipwrecks',
-      'showDataset:mines',
-      'showDataset:presses',
+      'showDataset:production',
+      'showDataset:infrastructure',
       'showTradeNetwork',
-      'showAmphitheaters',
     ],
   },
   gods: {
@@ -75,9 +71,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     // temple country at temple zoom — the dataset is z7-gated
     view: { lat: 41.7, lng: 13.0, zoom: 7 },
     layers: [
-      'showDataset:religion',
-      'showBuildings',
-      'showDataset:temples',
+      'showDataset:religious',
       'showSettlements',
       'showCities',
       'showProvinces',
@@ -102,9 +96,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showProvinces',
       'showLimes',
       'showFortifications',
-      'showAmphitheaters',
-      'showDataset:shipwrecks',
-      'showDataset:religion',
+      'showDataset:cities',
+      'showDataset:production',
+      'showDataset:religious',
     ],
   },
   engineering: {
@@ -116,10 +110,9 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showItinereRoads',
       'showSettlements',
       'showCities',
-      'showAmphitheaters',
-      'showBuildings',
+      'showDataset:cities',
       'showAqueducts',
-      'showDataset:bridges',
+      'showDataset:infrastructure',
       'showWater',
     ],
   },
@@ -222,25 +215,9 @@ export const LAYER_GROUPS: LayerGroup[] = [
         activeClass: 'bg-yellow-900/80 border-yellow-700 text-yellow-100 hover:bg-yellow-800/80',
       },
       {
-        key: 'Amphitheaters',
-        label: 'Amphitheaters',
-        activeClass: 'bg-amber-800/80 border-amber-600 text-amber-100 hover:bg-amber-700/80',
-      },
-      {
-        key: 'Buildings',
-        label: 'Buildings',
-        activeClass: 'bg-yellow-800/80 border-yellow-600 text-yellow-100 hover:bg-yellow-700/80',
-      },
-      {
         key: 'Epigraphy',
         label: 'Epigraphy',
         activeClass: 'bg-yellow-900/80 border-yellow-700 text-yellow-100 hover:bg-yellow-800/80',
-      },
-      {
-        key: 'Vici',
-        label: 'All Sites',
-        activeClass:
-          'bg-emerald-900/80 border-emerald-700 text-emerald-100 hover:bg-emerald-800/80',
       },
       {
         key: 'NotablePeople',
@@ -250,42 +227,57 @@ export const LAYER_GROUPS: LayerGroup[] = [
     ],
   },
   {
-    label: 'Economy',
+    label: 'Sites',
     layers: [
       {
-        key: 'Ports',
-        label: 'Ports & Harbours',
-        activeClass: 'bg-blue-900/80 border-blue-600 text-blue-100 hover:bg-blue-800/80',
+        key: 'SitesCities',
+        label: 'Cities & Buildings',
+        activeClass: 'bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80',
       },
       {
-        key: 'TradeNetwork',
-        label: 'Trade Network',
-        activeClass: 'bg-teal-900/80 border-teal-700 text-teal-100 hover:bg-teal-800/80',
+        key: 'SitesRural',
+        label: 'Rural / Villas',
+        activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
       },
       {
-        key: 'Shipwrecks',
-        label: 'Shipwrecks',
-        activeClass: 'bg-cyan-900/80 border-cyan-700 text-cyan-100 hover:bg-cyan-800/80',
+        key: 'SitesMilitary',
+        label: 'Military Sites',
+        activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
       },
       {
-        key: 'Mines',
-        label: 'Mines & Quarries',
-        activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
+        key: 'SitesInfrastructure',
+        label: 'Infrastructure',
+        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
       },
       {
-        key: 'Presses',
-        label: 'Oil & Wine Presses',
+        key: 'SitesReligious',
+        label: 'Religious',
+        activeClass: 'bg-violet-900/80 border-violet-700 text-violet-100 hover:bg-violet-800/80',
+      },
+      {
+        key: 'SitesProduction',
+        label: 'Production & Trade',
         activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
+      },
+      {
+        key: 'SitesFunerary',
+        label: 'Funerary & Monuments',
+        activeClass: 'bg-purple-900/80 border-purple-700 text-purple-100 hover:bg-purple-800/80',
+      },
+      {
+        key: 'SitesOther',
+        label: 'Other Sites',
+        activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
       },
     ],
   },
   {
-    label: 'Religion',
+    label: 'Economy',
     layers: [
       {
-        key: 'Religion',
-        label: 'Religious Sites',
-        activeClass: 'bg-violet-900/80 border-violet-700 text-violet-100 hover:bg-violet-800/80',
+        key: 'TradeNetwork',
+        label: 'Trade Network',
+        activeClass: 'bg-teal-900/80 border-teal-700 text-teal-100 hover:bg-teal-800/80',
       },
     ],
   },
@@ -314,32 +306,6 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
     ],
   },
-  {
-    label: 'Discovery',
-    layers: [
-      {
-        key: 'UnifiedVillas',
-        label: 'Villas',
-        activeClass: 'bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80',
-      },
-      {
-        key: 'UnifiedTemples',
-        label: 'Temples',
-        activeClass:
-          'bg-fuchsia-900/80 border-fuchsia-700 text-fuchsia-100 hover:bg-fuchsia-800/80',
-      },
-      {
-        key: 'UnifiedBridges',
-        label: 'Bridges',
-        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
-      },
-      {
-        key: 'UnifiedTombs',
-        label: 'Tombs',
-        activeClass: 'bg-gray-800/80 border-gray-600 text-gray-100 hover:bg-gray-700/80',
-      },
-    ],
-  },
 ]
 
 // --- All toggleable layer keys ---
@@ -355,14 +321,11 @@ export const ALL_LAYER_KEYS = [
   'showWater',
   'showItinereRoads',
   'showBattles',
-  'showAmphitheaters',
   'showEmperors',
   'showLegions',
   'showAqueducts',
-  'showBuildings',
   'showTradeNetwork',
   'showEpigraphy',
-  'showVici',
   'showNotablePeople',
 ] as const
 
@@ -403,9 +366,6 @@ interface MapLayerState {
   showBattles: boolean
   battlesData: Battle[] | null
   battlesLoading: boolean
-  showAmphitheaters: boolean
-  amphitheatersData: Amphitheater[] | null
-  amphitheatersLoading: boolean
   showEmperors: boolean
   emperorsData: Emperor[] | null
   emperorsLoading: boolean
@@ -421,24 +381,18 @@ interface MapLayerState {
   senatorialProvincesData: FeatureCollection | null
 
   // Wave 3 layers
-  showBuildings: boolean
-  buildingsData: Building[] | null
-  buildingsLoading: boolean
   showTradeNetwork: boolean
   tradeNetworkData: TradeNetwork | null
   tradeNetworkLoading: boolean
   showEpigraphy: boolean
   epigraphyData: EpigraphyCluster[] | null
   epigraphyLoading: boolean
-  showVici: boolean
-  viciData: unknown[] | null
-  viciLoading: boolean
   showNotablePeople: boolean
   notablePeopleData: NotablePerson[] | null
   notablePeopleLoading: boolean
 
   // Registry-driven datasets
-  datasetState: Record<string, { show: boolean; data: UnifiedEntity[] | null; loading: boolean }>
+  datasetState: Record<string, { show: boolean; data: AtlasEntity[] | null; loading: boolean }>
 
   // Settlement filtering
   settlementTypes: Record<number, boolean>
@@ -465,14 +419,11 @@ interface MapLayerActions {
   toggleSettlementType: (type: number) => void
   toggleCategory: (category: SettlementCategory) => void
   toggleBattles: () => void
-  toggleAmphitheaters: () => void
   toggleEmperors: () => void
   toggleLegions: () => void
   toggleAqueducts: () => void
-  toggleBuildings: () => void
   toggleTradeNetwork: () => void
   toggleEpigraphy: () => void
-  toggleVici: () => void
   toggleNotablePeople: () => void
   toggleDataset: (id: string) => void
   activatePreset: (preset: PresetName) => void
@@ -656,10 +607,6 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadBattles } = await import('@/data/unified')
     return { battlesData: await loadBattles() }
   }),
-  showAmphitheaters: ensureLoaded('amphitheatersData', 'amphitheatersLoading', async () => {
-    const { loadAmphitheaters } = await import('@/data/unified')
-    return { amphitheatersData: await loadAmphitheaters() }
-  }),
   showEmperors: ensureLoaded('emperorsData', 'emperorsLoading', async () => {
     const { loadEmperors } = await import('@/data/emperors')
     return { emperorsData: await loadEmperors() }
@@ -677,10 +624,6 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
         .catch(() => null),
     ])
     return { aqueductsData: points, aqueductLinesData: lines }
-  }),
-  showBuildings: ensureLoaded('buildingsData', 'buildingsLoading', async () => {
-    const { loadBuildings } = await import('@/data/unified')
-    return { buildingsData: await loadBuildings() }
   }),
   showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
     const { loadTradeNetwork } = await import('@/data/trade')
@@ -709,8 +652,8 @@ for (const ds of DATASET_REGISTRY) {
       },
     } as Partial<MapLayerState>)
     try {
-      const { loadUnifiedDataset } = await import('@/data/unified')
-      const data = await loadUnifiedDataset(ds.file)
+      const { loadAtlasCategory } = await import('@/data/entities/atlas')
+      const data = await loadAtlasCategory(ds.file)
       set({
         datasetState: {
           ...get().datasetState,
@@ -764,9 +707,6 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showBattles: false,
   battlesData: null,
   battlesLoading: false,
-  showAmphitheaters: false,
-  amphitheatersData: null,
-  amphitheatersLoading: false,
   showEmperors: false,
   emperorsData: null,
   emperorsLoading: false,
@@ -778,18 +718,12 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   aqueductLinesData: null,
   aqueductsLoading: false,
   senatorialProvincesData: null,
-  showBuildings: false,
-  buildingsData: null,
-  buildingsLoading: false,
   showTradeNetwork: false,
   tradeNetworkData: null,
   tradeNetworkLoading: false,
   showEpigraphy: false,
   epigraphyData: null,
   epigraphyLoading: false,
-  showVici: false,
-  viciData: null,
-  viciLoading: false,
   showNotablePeople: false,
   notablePeopleData: null,
   notablePeopleLoading: false,
@@ -908,12 +842,6 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: await loadBattles() }
     })(set, get),
 
-  toggleAmphitheaters: () =>
-    makeToggle('showAmphitheaters', 'amphitheatersData', 'amphitheatersLoading', async () => {
-      const { loadAmphitheaters } = await import('@/data/unified')
-      return { data: await loadAmphitheaters() }
-    })(set, get),
-
   toggleEmperors: () =>
     makeToggle('showEmperors', 'emperorsData', 'emperorsLoading', async () => {
       const { loadEmperors } = await import('@/data/emperors')
@@ -938,12 +866,6 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       return { data: points, extra: { aqueductLinesData: lines } }
     })(set, get),
 
-  toggleBuildings: () =>
-    makeToggle('showBuildings', 'buildingsData', 'buildingsLoading', async () => {
-      const { loadBuildings } = await import('@/data/unified')
-      return { data: await loadBuildings() }
-    })(set, get),
-
   toggleTradeNetwork: () =>
     makeToggle('showTradeNetwork', 'tradeNetworkData', 'tradeNetworkLoading', async () => {
       const { loadTradeNetwork } = await import('@/data/trade')
@@ -954,13 +876,6 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     makeToggle('showEpigraphy', 'epigraphyData', 'epigraphyLoading', async () => {
       const { loadEpigraphy } = await import('@/data/epigraphy')
       return { data: await loadEpigraphy() }
-    })(set, get),
-
-  toggleVici: () =>
-    makeToggle('showVici', 'viciData', 'viciLoading', async () => {
-      // per-siteType chunks; node-merged points already excluded at build
-      const { loadViciSites } = await import('@/data/vici')
-      return { data: await loadViciSites() }
     })(set, get),
 
   toggleNotablePeople: () =>
@@ -991,10 +906,10 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
     set({ datasetState: { ...get().datasetState, [id]: { ...ds, loading: true } } })
     try {
-      const { loadUnifiedDataset } = await import('@/data/unified')
+      const { loadAtlasCategory } = await import('@/data/entities/atlas')
       const config = DATASET_REGISTRY.find((d) => d.id === id)
       if (!config) return
-      const data = await loadUnifiedDataset(config.file)
+      const data = await loadAtlasCategory(config.file)
       set({
         datasetState: {
           ...get().datasetState,
@@ -1079,10 +994,10 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
                   [dsId]: { ...get().datasetState[dsId], loading: true },
                 },
               })
-              const { loadUnifiedDataset } = await import('@/data/unified')
+              const { loadAtlasCategory } = await import('@/data/entities/atlas')
               const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
               if (!cfg) return
-              const data = await loadUnifiedDataset(cfg.file)
+              const data = await loadAtlasCategory(cfg.file)
               set({
                 datasetState: {
                   ...get().datasetState,
@@ -1129,10 +1044,10 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
                   [dsId]: { ...get().datasetState[dsId], loading: true },
                 },
               })
-              const { loadUnifiedDataset } = await import('@/data/unified')
+              const { loadAtlasCategory } = await import('@/data/entities/atlas')
               const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
               if (!cfg) return
-              const data = await loadUnifiedDataset(cfg.file)
+              const data = await loadAtlasCategory(cfg.file)
               set({
                 datasetState: {
                   ...get().datasetState,

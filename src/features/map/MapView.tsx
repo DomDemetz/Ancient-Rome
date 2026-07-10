@@ -20,15 +20,12 @@ import { FortificationLayer } from './layers/FortificationLayer'
 import { WaterLayer } from './layers/WaterLayer'
 import { ItinereRoadLayer } from './layers/ItinereRoadLayer'
 import { BattleLayer } from './layers/BattleLayer'
-import { AmphitheaterLayer } from './layers/AmphitheaterLayer'
 import { LegionDeploymentLayer } from './layers/LegionDeploymentLayer'
 import { AqueductLayer } from './layers/AqueductLayer'
-import { BuildingsLayer } from './layers/BuildingsLayer'
 import { TradeNetworkLayer } from './layers/TradeNetworkLayer'
 import { EpigraphyLayer } from './layers/EpigraphyLayer'
-import { ViciLayer } from './layers/ViciLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
-import { UnifiedLayer } from './layers/UnifiedLayer'
+import { AtlasLayer } from './layers/AtlasLayer'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { MapControls } from './MapControls'
 import { SettlementLegend } from './controls/SettlementLegend'
@@ -326,14 +323,11 @@ export function MapView() {
     showWater,
     showItinereRoads,
     showBattles,
-    showAmphitheaters,
     showEmperors,
     showLegions,
     showAqueducts,
-    showBuildings,
     showTradeNetwork,
     showEpigraphy,
-    showVici,
     showNotablePeople,
     roadsData,
     placesData,
@@ -346,16 +340,13 @@ export function MapView() {
     waterData,
     itinereRoadsData,
     battlesData,
-    amphitheatersData,
     emperorsData,
     legionsData,
     aqueductsData,
     aqueductLinesData,
     senatorialProvincesData,
-    buildingsData,
     tradeNetworkData,
     epigraphyData,
-    viciData,
     notablePeopleData,
     settlementTypes,
     hiddenCategories,
@@ -387,19 +378,12 @@ export function MapView() {
   if (dareActive) attribution += ' | DARE data &copy; Johan &Aring;hlfeldt, CC BY-SA 3.0'
   if (showItinereRoads) attribution += ' | Itiner-e data &copy; Pau de Soto, CC BY-NC 4.0'
   if (showBattles) attribution += ' | Battle data: Roman-Battles-Droid'
-  if (showAmphitheaters) attribution += ' | Amphitheater data: roman-amphitheaters'
-  if (datasetState.shipwrecks?.show) attribution += ' | Shipwreck data: DARMC/OxREP'
-  if (datasetState.mines?.show) attribution += ' | Mining data: OxREP'
   if (showTradeNetwork) attribution += ' | ORBIS v2 &copy; Stanford University'
   if (showNotablePeople)
     attribution += ' | Notable People: Sciences-Po cross-verified database, CC-BY-SA'
-  if (
-    datasetState.villas?.show ||
-    datasetState.temples?.show ||
-    datasetState.bridges?.show ||
-    datasetState.tombs?.show
-  )
-    attribution += ' | Discovery: <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY)'
+  if (DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show))
+    attribution +=
+      ' | Sites: <a href="https://vici.org">vici.org</a> (CC BY-SA) · DARE · <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY) · DARMC/OxREP'
 
   return (
     <div className="relative w-full h-full flex flex-col" style={{ background: '#0f0a1a' }}>
@@ -442,9 +426,6 @@ export function MapView() {
           {showTradeNetwork && tradeNetworkData && (
             <TradeNetworkLayer data={tradeNetworkData} placesOn={showSettlements || showCities} />
           )}
-          {showVici && viciData && (
-            <ViciLayer data={viciData as Parameters<typeof ViciLayer>[0]['data']} />
-          )}
 
           {/* THE canonical place layer — one node per real place, merged from
               DARE + Chandler + Pleiades + Wikidata (ENTITY-MODEL.md). Renders
@@ -482,10 +463,6 @@ export function MapView() {
                 <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
               )}
               {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
-              {showBuildings && buildingsData && <BuildingsLayer data={buildingsData} />}
-              {showAmphitheaters && amphitheatersData && (
-                <AmphitheaterLayer data={amphitheatersData} />
-              )}
               {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
               {showNotablePeople && notablePeopleData && (
                 <NotablePeopleLayer data={notablePeopleData} />
@@ -493,12 +470,13 @@ export function MapView() {
             </>
           )}
 
-          {/* Registry-driven datasets — all point layers configured via datasetRegistry */}
+          {/* THE entity atlas — every point-entity category through the one
+              renderer; one dot per real-world entity (unified rework) */}
           {DATASET_REGISTRY.filter((cfg) => {
             const ds = datasetState[cfg.id]
             return ds?.show && ds.data
           }).map((cfg) => (
-            <UnifiedLayer key={cfg.id} data={datasetState[cfg.id].data!} config={cfg} />
+            <AtlasLayer key={cfg.id} data={datasetState[cfg.id].data!} config={cfg} />
           ))}
 
           {/* Battles render in every era — the Byzantine centuries have their

@@ -25,14 +25,10 @@ import {
   Users,
   Building2,
   Home,
-  Theater,
   ScrollText,
   User,
-  Anchor,
   Scale,
-  Sailboat,
   Pickaxe,
-  Wine,
   Sparkles,
   Compass,
   Droplets,
@@ -46,6 +42,7 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
 import type { PresetName } from '@/stores/useMapLayerStore'
 import { DARE_TYPE_LABELS, CATEGORY_STYLES, DARE_TYPE_TO_CATEGORY } from './layers/settlementStyles'
+import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { useUIStore } from '@/stores/useUIStore'
 import { cn } from '@/lib/utils'
 import { Button } from '@/ui/button'
@@ -56,10 +53,22 @@ const GROUP_ICONS: Record<string, typeof Globe> = {
   Political: Globe,
   Military: Swords,
   Urban: Landmark,
+  Sites: MapPin,
   Economy: Coins,
-  Religion: Landmark,
   Infrastructure: Route,
   Points: MapPin,
+}
+
+// entity-atlas category icons (panel entries generate from the registry)
+const SITE_ICONS: Record<string, typeof Globe> = {
+  cities: Landmark,
+  rural: Home,
+  military: Castle,
+  infrastructure: Waypoints,
+  religious: Sparkles,
+  production: Pickaxe,
+  funerary: Box,
+  other: MapPin,
 }
 
 interface MapControlsProps {
@@ -386,14 +395,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     showWater,
     showItinereRoads,
     showBattles,
-    showAmphitheaters,
     showEmperors,
     showLegions,
     showAqueducts,
-    showBuildings,
     showTradeNetwork,
     showEpigraphy,
-    showVici,
     showNotablePeople,
     roadsLoading,
     placesLoading,
@@ -405,14 +411,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     waterLoading,
     itinereRoadsLoading,
     battlesLoading,
-    amphitheatersLoading,
     emperorsLoading,
     legionsLoading,
     aqueductsLoading,
-    buildingsLoading,
     tradeNetworkLoading,
     epigraphyLoading,
-    viciLoading,
     notablePeopleLoading,
     placesData,
     settlementTypes,
@@ -428,14 +431,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     toggleWater,
     toggleItinereRoads,
     toggleBattles,
-    toggleAmphitheaters,
     toggleEmperors,
     toggleLegions,
     toggleAqueducts,
-    toggleBuildings,
     toggleTradeNetwork,
     toggleEpigraphy,
-    toggleVici,
     toggleNotablePeople,
     toggleDataset,
     datasetState,
@@ -500,12 +500,6 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       icon: Users,
     },
     Battles: { active: showBattles, loading: battlesLoading, toggle: toggleBattles, icon: Swords },
-    Amphitheaters: {
-      active: showAmphitheaters,
-      loading: amphitheatersLoading,
-      toggle: toggleAmphitheaters,
-      icon: Theater,
-    },
     Emperors: {
       active: showEmperors,
       loading: emperorsLoading,
@@ -513,41 +507,11 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       icon: Crown,
     },
     Legions: { active: showLegions, loading: legionsLoading, toggle: toggleLegions, icon: Shield },
-    Shipwrecks: {
-      active: datasetState.shipwrecks?.show ?? false,
-      loading: datasetState.shipwrecks?.loading ?? false,
-      toggle: () => toggleDataset('shipwrecks'),
-      icon: Sailboat,
-    },
-    Mines: {
-      active: datasetState.mines?.show ?? false,
-      loading: datasetState.mines?.loading ?? false,
-      toggle: () => toggleDataset('mines'),
-      icon: Pickaxe,
-    },
     Aqueducts: {
       active: showAqueducts,
       loading: aqueductsLoading,
       toggle: toggleAqueducts,
       icon: Droplets,
-    },
-    Religion: {
-      active: datasetState.religion?.show ?? false,
-      loading: datasetState.religion?.loading ?? false,
-      toggle: () => toggleDataset('religion'),
-      icon: Sparkles,
-    },
-    Buildings: {
-      active: showBuildings,
-      loading: buildingsLoading,
-      toggle: toggleBuildings,
-      icon: Landmark,
-    },
-    Presses: {
-      active: datasetState.presses?.show ?? false,
-      loading: datasetState.presses?.loading ?? false,
-      toggle: () => toggleDataset('presses'),
-      icon: Wine,
     },
     TradeNetwork: {
       active: showTradeNetwork,
@@ -561,42 +525,22 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       toggle: toggleEpigraphy,
       icon: ScrollText,
     },
-    Vici: { active: showVici, loading: viciLoading, toggle: toggleVici, icon: MapPin },
-    Ports: {
-      active: datasetState.ports?.show ?? false,
-      loading: datasetState.ports?.loading ?? false,
-      toggle: () => toggleDataset('ports'),
-      icon: Anchor,
-    },
+    ...Object.fromEntries(
+      DATASET_REGISTRY.map((cfg) => [
+        `Sites${cfg.id.charAt(0).toUpperCase()}${cfg.id.slice(1)}`,
+        {
+          active: datasetState[cfg.id]?.show ?? false,
+          loading: datasetState[cfg.id]?.loading ?? false,
+          toggle: () => toggleDataset(cfg.id),
+          icon: SITE_ICONS[cfg.id] ?? MapPin,
+        },
+      ]),
+    ),
     NotablePeople: {
       active: showNotablePeople,
       loading: notablePeopleLoading,
       toggle: toggleNotablePeople,
       icon: User,
-    },
-    UnifiedVillas: {
-      active: datasetState.villas?.show ?? false,
-      loading: datasetState.villas?.loading ?? false,
-      toggle: () => toggleDataset('villas'),
-      icon: Home,
-    },
-    UnifiedTemples: {
-      active: datasetState.temples?.show ?? false,
-      loading: datasetState.temples?.loading ?? false,
-      toggle: () => toggleDataset('temples'),
-      icon: Landmark,
-    },
-    UnifiedBridges: {
-      active: datasetState.bridges?.show ?? false,
-      loading: datasetState.bridges?.loading ?? false,
-      toggle: () => toggleDataset('bridges'),
-      icon: Waypoints,
-    },
-    UnifiedTombs: {
-      active: datasetState.tombs?.show ?? false,
-      loading: datasetState.tombs?.loading ?? false,
-      toggle: () => toggleDataset('tombs'),
-      icon: Box,
     },
   }
 

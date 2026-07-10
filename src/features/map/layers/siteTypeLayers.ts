@@ -1,34 +1,39 @@
 /** entity parent-type → the layer/dataset toggle that renders its dots.
  *  ONE source of truth, used by search (turn the layer on when a site is
  *  selected) and MonumentLabels (only label types whose dots are visible).
- *  The layer is a property of the parent TYPE — display subtypes (circus,
- *  basilica, bath, forum...) come and go with the data, and routing layer
- *  mechanics through them silently orphaned every unmapped subtype:
- *  selecting the Circus Maximus never toggled the buildings layer, so the
- *  search ring circled an empty spot. */
+ *  Since the unified rework, point entities live in the entity atlas —
+ *  dataset ids ARE the atlas categories (see datasetRegistry.ts); only
+ *  battles and aqueduct lines keep dedicated layers. */
 export const SITE_TYPE_TO_LAYER: Record<string, { show?: string; dataset?: string }> = {
-  amphitheater: { show: 'showAmphitheaters' },
-  building: { show: 'showBuildings' },
-  aqueduct: { show: 'showAqueducts' },
   battle: { show: 'showBattles' },
-  temple: { dataset: 'temples' },
-  religion: { dataset: 'religion' },
-  religious: { dataset: 'religion' },
-  'religious-site': { dataset: 'religion' },
-  sanctuary: { dataset: 'religion' },
-  shrine: { dataset: 'religion' },
-  cemetery: { dataset: 'religion' },
-  monastery: { dataset: 'religion' },
-  villa: { dataset: 'villas' },
-  estate: { dataset: 'villas' },
-  farm: { dataset: 'villas' },
-  townhouse: { dataset: 'villas' },
-  tomb: { dataset: 'tombs' },
-  tumulus: { dataset: 'tombs' },
-  pyramid: { dataset: 'tombs' },
-  bridge: { dataset: 'bridges' },
-  mine: { dataset: 'mines' },
-  press: { dataset: 'presses' },
-  port: { dataset: 'ports' },
-  shipwreck: { dataset: 'shipwrecks' },
+  aqueduct: { show: 'showAqueducts' },
+  amphitheater: { dataset: 'cities' },
+  building: { dataset: 'cities' },
+  theater: { dataset: 'cities' },
+  townhouse: { dataset: 'cities' },
+  settlement: { dataset: 'cities' },
+  temple: { dataset: 'religious' },
+  religion: { dataset: 'religious' },
+  religious: { dataset: 'religious' },
+  'religious-site': { dataset: 'religious' },
+  sanctuary: { dataset: 'religious' },
+  shrine: { dataset: 'religious' },
+  monastery: { dataset: 'religious' },
+  church: { dataset: 'religious' },
+  villa: { dataset: 'rural' },
+  estate: { dataset: 'rural' },
+  farm: { dataset: 'rural' },
+  fort: { dataset: 'military' },
+  cemetery: { dataset: 'funerary' },
+  tomb: { dataset: 'funerary' },
+  tumulus: { dataset: 'funerary' },
+  pyramid: { dataset: 'funerary' },
+  mausoleum: { dataset: 'funerary' },
+  bridge: { dataset: 'infrastructure' },
+  road: { dataset: 'infrastructure' },
+  bath: { dataset: 'infrastructure' },
+  port: { dataset: 'infrastructure' },
+  mine: { dataset: 'production' },
+  press: { dataset: 'production' },
+  shipwreck: { dataset: 'production' },
 }
