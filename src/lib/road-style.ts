@@ -60,17 +60,19 @@ export function getRoadOpacity(
     return opacity
   }
 
-  // Compute visibility year
-  let visYear: number
+  // Compute visibility year; roads with no temporal data at all are always
+  // visible (shouldShowRoad lets them through), so they get no fade-in
+  let opacity: number
   if (props.startYear != null && props.startYear !== 0) {
-    visYear = props.startYear
+    const fadeIn = Math.min(1, Math.max(0, (currentYear - props.startYear) / 30))
+    opacity = baseOpacity * fadeIn
+  } else if (props.territoryYear != null) {
+    const visYear = props.territoryYear + 20
+    const fadeIn = Math.min(1, Math.max(0, (currentYear - visYear) / 30))
+    opacity = baseOpacity * fadeIn
   } else {
-    visYear = (props.territoryYear ?? 0) + 20
+    opacity = baseOpacity
   }
-
-  // Fade-in over 30 years
-  const fadeIn = Math.min(1, Math.max(0, (currentYear - visYear) / 30))
-  let opacity = baseOpacity * fadeIn
 
   // Decline over 50 years
   if (props.declineYear != null && currentYear > props.declineYear) {

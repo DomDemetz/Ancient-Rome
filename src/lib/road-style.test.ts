@@ -63,6 +63,11 @@ describe('getRoadOpacity', () => {
     expect(getRoadOpacity({ territoryYear: -264 }, -200, 0.5)).toBe(0.5)
   })
 
+  it('gives full opacity to roads with no temporal data (no fade-in)', () => {
+    expect(getRoadOpacity({ territoryYear: null }, -500, 0.5)).toBe(0.5)
+    expect(getRoadOpacity({ territoryYear: null }, 100, 0.5)).toBe(0.5)
+  })
+
   it('reduces opacity during decline', () => {
     const opacity = getRoadOpacity({ territoryYear: -264, declineYear: 400 }, 425, 0.5)
     expect(opacity).toBeLessThan(0.5)
