@@ -1,5 +1,5 @@
-import { useMemo } from 'react'
-import { GeoJSON, Marker } from 'react-leaflet'
+import { useEffect, useMemo } from 'react'
+import { GeoJSON, Marker, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { EmpireShape } from '@/data/empires'
 import { useTimelineStore } from '@/stores/useTimelineStore'
@@ -115,11 +115,75 @@ function fmtYear(y: number): string {
 export function EmpiresLayer({ data }: EmpiresLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const { zoom } = useMapViewport()
+  const map = useMap()
 
   const visible = useMemo(
     () => data.filter((e) => e.from <= currentYear && e.to >= currentYear),
     [data, currentYear],
   )
+
+  // Click resolution at the MAP level. The canvas-renderer perf work stacks
+  // one full-viewport canvas per pane; the markers' canvas sits above this
+  // pane and swallows the DOM click when its own hit-test misses — Leaflet
+  // never forwards it down to our polygons. So when a click reaches the map
+  // unclaimed, ray-cast it against the visible polities ourselves. Smallest
+  // polity wins: a vassal duchy opens instead of the empire that contains it.
+  useEffect(() => {
+    const inRing = (lng: number, lat: number, ring: number[][]) => {
+      let inside = false
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const [xi, yi] = ring[i]
+        const [xj, yj] = ring[j]
+        if (yi > lat !== yj > lat && lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi)
+          inside = !inside
+      }
+      return inside
+    }
+    const inGeometry = (lng: number, lat: number, g: GeoJSON.GeometryObject): boolean => {
+      if (g.type === 'Polygon')
+        return (
+          inRing(lng, lat, g.coordinates[0] as number[][]) &&
+          !(g.coordinates as number[][][]).slice(1).some((h) => inRing(lng, lat, h))
+        )
+      if (g.type === 'MultiPolygon')
+        return (g.coordinates as number[][][][]).some(
+          (poly) => inRing(lng, lat, poly[0]) && !poly.slice(1).some((h) => inRing(lng, lat, h)),
+        )
+      return false
+    }
+    // layers that bubble (provinces) open their popup before the map click
+    // lands here — don't clobber a popup another layer just opened
+    let lastPopupOpen = 0
+    const onPopupOpen = () => {
+      lastPopupOpen = Date.now()
+    }
+    map.on('popupopen', onPopupOpen)
+    const onClick = (ev: L.LeafletMouseEvent) => {
+      if (Date.now() - lastPopupOpen < 150) return
+      // a marker/popup click was already claimed upstream
+      const src = ev.originalEvent.target as HTMLElement | null
+      if (src?.closest('.leaflet-popup, .leaflet-marker-icon')) return
+      const { lat, lng } = ev.latlng
+      const hits = visible.filter((e) => inGeometry(lng, lat, e.geometry as GeoJSON.GeometryObject))
+      if (!hits.length) return
+      const e = hits.sort((a, b) => a.area - b.area)[0]
+      L.popup({ closeButton: false })
+        .setLatLng(ev.latlng)
+        .setContent(
+          `<div class="map-tooltip-title">${esc(e.name)}</div>` +
+            `<div class="map-tooltip-detail">${fmtYear(e.from)} – ${fmtYear(e.to)}</div>` +
+            (e.wp || e.qid
+              ? `<button class="map-tooltip-readmore" data-wiki-id="${e.id}" data-wiki-layer="empires" data-entity-id="${e.id}">Read more</button>`
+              : ''),
+        )
+        .openOn(map)
+    }
+    map.on('click', onClick)
+    return () => {
+      map.off('click', onClick)
+      map.off('popupopen', onPopupOpen)
+    }
+  }, [map, visible])
 
   const currentYearForObstacles = useTimelineStore((s) => s.currentYear)
   const labeled = useMemo(() => {
@@ -232,16 +296,9 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
               fillOpacity: 1, // pane supplies the group translucency
               pane: 'empiresFill',
             }}
-            onEachFeature={(_f, layer) => {
-              layer.bindPopup(
-                `<div class="map-tooltip-title">${esc(e.name)}</div>` +
-                  `<div class="map-tooltip-detail">${fmtYear(e.from)} – ${fmtYear(e.to)}</div>` +
-                  (e.wp || e.qid
-                    ? `<button class="map-tooltip-readmore" data-wiki-id="${e.id}" data-wiki-layer="empires" data-entity-id="${e.id}">Read more</button>`
-                    : ''),
-                { closeButton: false },
-              )
-            }}
+            // clicks resolve at the map level (see the effect above): the
+            // stacked per-pane canvases can't hit-test through each other
+            interactive={false}
           />
         )
       })}
