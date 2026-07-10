@@ -94,6 +94,28 @@ def main():
             if x.get("qid"):
                 qid_claims[x["qid"]].append((key, norm_name(x.get("name")), x.get("type", f.stem)))
 
+    # vici sites (the chunks already exclude the 3,606 node-merged
+    # settlement points); crosswalk-vici carries vici's own dare/pleiades/
+    # wikidata identity references, so dare/pid union unconditionally
+    vici_cw = json.load(open(DATA / "registry" / "crosswalk-vici.json"))
+    vici_index = json.load(open(DATA / "vici" / "chunks.json"))
+    for info in vici_index.values():
+        for x in json.load(open(DATA / "vici" / info["file"])):
+            key = f"vici:{x['id']}"
+            if key in sources:
+                continue
+            kind = x.get("siteType") or "other"
+            cw = vici_cw.get(x["id"]) or {}
+            if cw.get("qid"):
+                x = {**x, "qid": cw["qid"]}
+            sources[key] = {"kind": kind, "rec": x}
+            if cw.get("dare"):
+                uf.union(key, f"dare#{cw['dare']}")
+            if cw.get("pid"):
+                uf.union(key, f"pleiades#{cw['pid']}")
+            if cw.get("qid"):
+                qid_claims[cw["qid"]].append((key, norm_name(x.get("name")), kind))
+
     # --- cross-reference: sameAsDare links + containedInQid + verified qids ---
     cr = json.load(open(DATA / "wiki" / "cross-reference.json"))
     contained = {}
@@ -111,6 +133,105 @@ def main():
             qid_claims[e["qid"]].append(
                 (k, norm_name(e.get("ancientName") or e.get("label")),
                  sources[k]["kind"]))
+
+    # --- vici identity joins by name+proximity ---
+    # crosswalk-vici covers ~10k points; famous monuments it missed still
+    # duplicate their canonical entity, often under another name (vici
+    # "Colosseum Roma" vs "Flavian Amphitheater" whose cross-ref label is
+    # "Colosseum"). Join a vici point to a non-vici record within 300 m
+    # whose normalized name or cross-ref alias matches exactly, or whose
+    # tokens contain the alias's tokens (city-suffixed vici names); generic
+    # names carry no identity, so frequent names need 100 m.
+    def cr_alias_keys(key):
+        yield key
+        if key.startswith("building:") and key.split(":", 1)[1].isdigit():
+            yield f"pleiades:{key.split(':', 1)[1]}"
+        if key.startswith("dare:"):
+            yield f"settlement:{key[5:]}"
+        if key.startswith("place:dare-"):
+            yield f"settlement:{key[len('place:dare-'):]}"
+        if key.startswith("place:pl-"):
+            yield f"settlement:{key[len('place:pl-'):]}"
+        if key.startswith("place:wd-"):
+            yield key[len('place:'):]
+
+    name_freq = Counter()
+    alias_sets = {}
+    for key, s in sources.items():
+        raw = s["rec"].get("name") or ""
+        aliases = {norm_name(raw)}
+        if key.startswith("vici:"):
+            # vici alias forms: "Ugarit [Ugaryt]", "Qatna - Tell el-Meszrife"
+            aliases.add(norm_name(re.sub(r"\[.*?\]", "", raw)))
+            aliases.add(norm_name(raw.split(" - ")[0]))
+        else:
+            for ck in cr_alias_keys(key):
+                e = cr.get(ck)
+                if e:
+                    aliases.add(norm_name(e.get("label")))
+                    aliases.add(norm_name(e.get("ancientName")))
+        aliases.discard("")
+        aliases = {a for a in aliases if not a.startswith(("unnamed", "untitled"))}
+        alias_sets[key] = aliases
+        name_freq.update(aliases)
+
+    grid = defaultdict(list)
+    for key, s in sources.items():
+        if key.startswith("vici:"):
+            continue
+        r = s["rec"]
+        if r.get("lat") is None:
+            continue
+        grid[(round(r["lat"] * 100), round(r["lng"] * 100))].append(key)
+
+    import math
+    vici_name_joins = 0
+    for key, s in sources.items():
+        if not key.startswith("vici:") or not alias_sets[key]:
+            continue
+        r = s["rec"]
+        la, lo = r.get("lat"), r.get("lng")
+        if la is None:
+            continue
+        cx, cy = round(la * 100), round(lo * 100)
+        vtokens = [(a, set(a.split())) for a in alias_sets[key]]
+        best = None
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                for okey in grid[(cx + dx, cy + dy)]:
+                    orc = sources[okey]["rec"]
+                    km = math.hypot((orc["lat"] - la) * 111,
+                                    (orc["lng"] - lo) * 111 * math.cos(math.radians(la)))
+                    if km > 0.3:
+                        continue
+                    for oa in alias_sets[okey]:
+                        exact = oa in alias_sets[key]
+                        # a vici "Sirmium, Imperial Basilica" is a structure
+                        # AT Sirmium, not the city — containment never joins
+                        # into a settlement record
+                        contains = (not exact and
+                                    sources[okey]["kind"] != "settlement" and
+                                    any(set(oa.split()) <= vt and oa != a
+                                        for a, vt in vtokens))
+                        if not (exact or contains):
+                            continue
+                        limit = 0.1 if (name_freq[oa] > 25 or contains) else 0.3
+                        if km <= limit and (best is None or km < best[0]):
+                            best = (km, okey)
+        if best:
+            uf.union(best[1], key)
+            vici_name_joins += 1
+    print(f"vici name+proximity joins: {vici_name_joins}")
+
+    # --- adjudicated structure-identity joins (attach-nodes-to-unified) ---
+    # rel=same means the place node IS the unified entity (villa node ↔
+    # villa record, verified type+name+distance); union unconditionally.
+    for k, v in json.load(open(DATA / "registry" / "unified-nodes.json")).items():
+        if v.get("rel") != "same" or k not in sources:
+            continue
+        node_key = f"place:{v['node']}"
+        if node_key in sources:
+            uf.union(node_key, k)
 
     # --- adjudicated same-QID merge links (resolve-same-qid-groups.py) ---
     # These groups were judged same-entity per the QID's own instanceOf
@@ -136,10 +257,17 @@ def main():
         for key, name, kind in claims:
             by_name_kind[(name, kind)].append(key)
         for (name, kind), keys in by_name_kind.items():
-            if not name:
+            # placeholder names carry no identity evidence, and vici survey
+            # points sharing a complex's QID (watchtower chains, quarry
+            # features) are distinct real-world dots — vici merges via QID
+            # only against the other silos
+            if not name or name.startswith(("unnamed", "untitled")):
                 continue
+            keys.sort(key=lambda k: k.startswith("vici:"))
             anchor_lat, anchor_lng = coord_of(keys[0])
             for other in keys[1:]:
+                if keys[0].startswith("vici:") and other.startswith("vici:"):
+                    continue
                 la, lo = coord_of(other)
                 if (anchor_lat is None or la is None or
                         (abs(la - anchor_lat) < 0.3 and abs(lo - anchor_lng) < 0.4)):
@@ -172,9 +300,15 @@ def main():
             if coords is None and r.get("lat") is not None:
                 coords, coords_src = [r["lat"], r["lng"]], k
             qid = qid or r.get("qid")
+        # a rel=same merge means the "settlement" node was really this
+        # structure all along (DARE typed it villa/temple; places ingest
+        # flattened everything to settlement) — the specific kind wins
+        kinds = [sources[k]["kind"] for k in keys]
+        kind = (next((kk for kk in kinds if kk not in ("settlement", "other")), None)
+                or next((kk for kk in kinds if kk != "other"), kinds[0]))
         ent = {
             "id": keys[0],
-            "kind": primary["kind"],
+            "kind": kind,
             "name": name,
             "lat": coords[0] if coords else None,
             "lng": coords[1] if coords else None,
@@ -186,11 +320,15 @@ def main():
         st = rec.get("buildingType") or rec.get("subtype")
         if st:
             ent["subtype"] = st
-        # attestation window: widest across sources
-        starts = [s["rec"].get("startYear") or s["rec"].get("attestedFrom")
-                  for s in (sources[k] for k in keys)]
-        ends = [s["rec"].get("endYear") or s["rec"].get("attestedTo")
-                for s in (sources[k] for k in keys)]
+        # attestation window: widest across sources — but vici stamps
+        # period-placeholder years (-600 etc.); they only count when no
+        # other source dates the entity (Circus Maximus s=-550 must not
+        # widen onto the -600 sentinel and lose its monument label)
+        date_keys = [k for k in keys if not k.startswith("vici:")] or keys
+        starts = [sources[k]["rec"].get("startYear") or
+                  sources[k]["rec"].get("attestedFrom") for k in date_keys]
+        ends = [sources[k]["rec"].get("endYear") or
+                sources[k]["rec"].get("attestedTo") for k in date_keys]
         starts = [y for y in starts if y not in (None, 0)]
         ends = [y for y in ends if y not in (None, 0)]
         if starts:

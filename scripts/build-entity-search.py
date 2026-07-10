@@ -86,6 +86,11 @@ def main():
         # battles ship in their own eager manifest (battles-search.json)
         if e["kind"] == "battle":
             continue
+        # vici-only rows have no cross-reference entry to open a panel
+        # with (and 70k survey points would 4x the manifest) — search
+        # covers knowledge-bearing entities; vici dots stay map-only
+        if all(s.startswith("vici:") for s in e["sources"]):
+            continue
         # placeholder names are noise in a search index
         if e["name"] in ("Untitled",) or e["name"].lower().startswith("unnamed"):
             continue
