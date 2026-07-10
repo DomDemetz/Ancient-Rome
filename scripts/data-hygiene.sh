@@ -25,11 +25,13 @@ else
   echo "══ 2-4/7 skipped (no ground-truth file given)"
 fi
 
-echo "══ 5/7 rebuild entity table"
+echo "══ 5/8 re-apply construction dates (WD inceptions + overrides)"
+python3 scripts/apply-wd-inceptions.py
+echo "══ 6/8 rebuild entity table"
 python3 scripts/build-entity-table.py
-echo "══ 6/7 rebuild search manifest"
+echo "══ 7/8 rebuild search manifest"
 python3 scripts/build-entity-search.py
-echo "══ 7/7 gates"
+echo "══ 8/8 gates"
 python3 scripts/validate-golden.py
 python3 scripts/validate-entities.py --ci
 echo "══ hygiene complete — all gates green"

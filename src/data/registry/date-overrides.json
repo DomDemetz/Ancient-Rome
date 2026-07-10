@@ -1,0 +1,69 @@
+[
+  {
+    "qid": "Q1234446",
+    "name": "Septizonium",
+    "start": 203,
+    "note": "Built by Septimius Severus, dedicated 203 AD; no P571 on Wikidata and the Pleiades description has no parseable date."
+  },
+  {
+    "qid": "Q3108617",
+    "name": "Arch of Gallienus",
+    "start": 262,
+    "note": "Rededicated to Gallienus 262 AD (Augustan gate beneath it is not this record's identity); no P571."
+  },
+  {
+    "qid": "Q3877101",
+    "name": "Nymphaeum divi Alexandri",
+    "start": 226,
+    "note": "Nymphaeum of Alexander Severus, ~226 AD; no P571."
+  },
+  {
+    "qid": "Q2547165",
+    "name": "Torre delle Milizie",
+    "start": 1200,
+    "end": 1453,
+    "note": "Medieval tower (early 13th c.) — the Pleiades span (-200..500) belongs to remains beneath it, but the record's identity is the tower."
+  },
+  {
+    "qid": "Q15144539",
+    "name": "Torre dei Capocci",
+    "start": 1150,
+    "end": 1453,
+    "note": "Medieval tower (12th c.); same rebuild-identity class as Torre delle Milizie."
+  },
+  {
+    "qid": "Q1586946",
+    "id": "267702570",
+    "name": "Santi Giovanni e Paolo",
+    "start": 398,
+    "note": "Basilica founded late 4th c. (398); the -337 on the religious sibling is a conquest floor and Wikidata's P571 (1951) is the modern rededication. The id key reaches the qid-less religious record."
+  },
+  {
+    "qid": "Q1092998",
+    "id": "70865871",
+    "name": "Circus Varianus",
+    "start": 212,
+    "note": "Circus at the Sessorium, begun under Caracalla ~212 AD; no P571."
+  },
+  {
+    "id": "423132",
+    "name": "Villa Pamphili",
+    "start": 50,
+    "end": 400,
+    "note": "Pleiades findspot in the Villa Doria Pamphilj gardens — the ancient villa/necropolis dates ~50-400 AD (religion-pleiades agrees); the -30..1453 span was a period floor. The modern name is a separate curated-naming question."
+  },
+  {
+    "qid": "Q3984380",
+    "id": "555157618",
+    "name": "Thermae Helenianae",
+    "start": 220,
+    "note": "Bath complex of the Horti Variani, Severan (~220s); renamed for Helena after her ~326 restoration. No P571; the -30 was a period floor."
+  },
+  {
+    "qid": "Q586329",
+    "name": "Ponte Sisto",
+    "start": 1473,
+    "end": 2100,
+    "note": "Sixtus IV's bridge (1473) — post-window, so never rendered. The ancient Pons Aurelius under it would need its own record."
+  }
+]

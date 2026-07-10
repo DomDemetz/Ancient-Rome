@@ -21,6 +21,11 @@ def dump_atomic(data, path, **json_kwargs):
     path = os.fspath(path)
     d = os.path.dirname(path) or "."
     json_kwargs.setdefault("ensure_ascii", False)
+    # match JSON.stringify: python's spaced default separators re-inflate
+    # TS-written stores by ~10% and churn 12 MB formatting-only diffs
+    # every time a python step rewrites one
+    if "indent" not in json_kwargs:
+        json_kwargs.setdefault("separators", (",", ":"))
     fd, tmp = tempfile.mkstemp(dir=d, prefix=".atomic-", suffix=".json")
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as fh:

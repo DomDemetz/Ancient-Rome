@@ -72,7 +72,7 @@ const PLACEHOLDER_YEARS = new Set([-70, -100, -300, -500, -600])
  *  from genuinely Augustan dates, so church names leak into the early
  *  empire ("S. Agnese" labeled 100 AD Rome). One rule history itself
  *  provides: no named Christian basilicas before Constantine. */
-const CHURCH_NAME = /^(S\.|Ss\.|SS\.|San |Santa |Sant'|Church|Basilica|Chiesa|Cappella)/i
+const CHURCH_NAME = /^(S\.|Ss\.|SS\.|San |Santa |Santi |Santissim|Sant'|Church|Basilica|Chiesa|Cappella)/i
 const EDICT_OF_MILAN = 313
 
 export function MonumentLabels() {
