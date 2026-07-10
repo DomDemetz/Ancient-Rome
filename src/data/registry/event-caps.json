@@ -10,5 +10,13 @@
       { "name": "Stabiae and the Gragnano plain", "south": 40.685, "north": 40.73, "west": 14.475, "east": 14.57 },
       { "name": "Boscoreale and Boscotrecase", "south": 40.765, "north": 40.785, "west": 14.45, "east": 14.505 }
     ]
+  },
+  {
+    "event": "Sassanid destruction of Dura-Europos",
+    "year": 257,
+    "note": "Dura-Europos fell to Shapur I's siege of 256/7 and was abandoned, never rebuilt — yet 72 of its buildings (baths, mithraea, the house church) carried period ends of 2099 and the city place ran to 640.",
+    "boxes": [
+      { "name": "Dura-Europos", "south": 34.735, "north": 34.757, "west": 40.71, "east": 40.75 }
+    ]
   }
 ]
