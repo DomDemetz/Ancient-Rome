@@ -525,14 +525,6 @@
     "e": 500,
     "t": 1
   },
-  {
-    "i": "pleiades:458685459",
-    "la": 36.8415,
-    "lo": 10.3249,
-    "k": "port",
-    "n": "Roman harbor at Carthage",
-    "t": 1
-  },
   { "i": "pleiades:462526", "la": 37.25, "lo": 15.25, "k": "port", "n": "Trogilos", "t": 1 },
   { "i": "pleiades:523226", "la": 41.0167, "lo": 28.975, "k": "port", "n": "Neorion", "t": 1 },
   { "i": "pleiades:570622", "la": 37.75, "lo": 23.25, "k": "port", "n": "Pogon", "t": 1 },
@@ -4889,15 +4881,6 @@
     "t": 2
   },
   {
-    "i": "aqueduct:aq-leptis-magna-2",
-    "la": 32.6378,
-    "lo": 14.2917,
-    "k": "aqueduct",
-    "n": "Wadi Lebda Aqueduct (Leptis Magna)",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "aqueduct:aq-mactar",
     "la": 35.8422,
     "lo": 9.0744,
@@ -5235,16 +5218,6 @@
     "e": 500,
     "t": 2
   },
-  {
-    "i": "pleiades:44877488",
-    "la": 41.9031,
-    "lo": 12.8302,
-    "k": "aqueduct",
-    "n": "Ponte Sant'Antonio",
-    "s": -300,
-    "e": 500,
-    "t": 2
-  },
   { "i": "pleiades:462276", "la": 37.25, "lo": 15.25, "k": "port", "n": "Lakkios", "t": 2 },
   {
     "i": "pleiades:471942",
@@ -5260,14 +5233,6 @@
     "lo": 28.875,
     "k": "port",
     "n": "Eleutheriou/Kaisariou Limen/Theodosiacus Portus",
-    "t": 2
-  },
-  {
-    "i": "pleiades:56387635",
-    "la": 42.0101,
-    "lo": -4.5396,
-    "k": "bridge",
-    "n": "Puentecillas",
     "t": 2
   },
   {
@@ -51307,16 +51272,6 @@
     "t": 2
   },
   {
-    "i": "port:apa-segontium-357",
-    "la": 53.1379,
-    "lo": -4.2657,
-    "k": "lighthouse",
-    "n": "Segontium",
-    "s": -200,
-    "e": 476,
-    "t": 2
-  },
-  {
     "i": "port:apa-segosa-1101",
     "la": 44.2243,
     "lo": -1.1518,
@@ -55589,14 +55544,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10248",
-    "la": 40.6142,
-    "lo": 8.9789,
-    "k": "bridge",
-    "n": "Ozieri (San Nicola), Ponte Romano",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10250",
     "la": 47.362,
     "lo": 7.9955,
@@ -55857,14 +55804,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10614",
-    "la": 43.719,
-    "lo": 7.2767,
-    "k": "bath",
-    "n": "Thermen (Nice - Cemenelum)",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10621",
     "la": 43.8424,
     "lo": 4.356,
@@ -55897,27 +55836,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10669",
-    "la": 45.8485,
-    "lo": 0.7708,
-    "k": "bath",
-    "n": "Therme Cassinomagus",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10673",
     "la": 45.5344,
     "lo": -0.8781,
     "k": "bath",
     "n": "Therme Novioregum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10674",
-    "la": 44.451,
-    "lo": 1.437,
-    "k": "bath",
-    "n": "Therme (Cahors)",
     "t": 2
   },
   {
@@ -55934,14 +55857,6 @@
     "lo": 3.6058,
     "k": "bath",
     "n": "Thermes (Escolives-Sainte-Camille)",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10680",
-    "la": 44.0778,
-    "lo": 4.5597,
-    "k": "bath",
-    "n": "Therme (Gaujac)",
     "t": 2
   },
   {
@@ -56018,14 +55933,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10731",
-    "la": 41.7381,
-    "lo": -7.4669,
-    "k": "bridge",
-    "n": "Römerbrücke - Chaves",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10733",
     "la": 41.7393,
     "lo": -7.468,
@@ -56071,14 +55978,6 @@
     "lo": -3.6888,
     "k": "aqueduct",
     "n": "Aquädukt Almuñécar",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10787",
-    "la": 36.8313,
-    "lo": -5.2369,
-    "k": "bath",
-    "n": "Therme (Acinipo)",
     "t": 2
   },
   {
@@ -56138,14 +56037,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10814",
-    "la": 37.3648,
-    "lo": -6.6734,
-    "k": "bridge",
-    "n": "Römerbrucke Niebla",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10823",
     "la": 39.9807,
     "lo": -6.537,
@@ -56161,15 +56052,6 @@
     "k": "road",
     "n": "CASPIAN GATE",
     "s": -5000,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10973",
-    "la": 37.9328,
-    "lo": 38.6085,
-    "k": "bridge",
-    "n": "Cendere",
-    "s": 200,
     "t": 2
   },
   {
@@ -56282,27 +56164,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11446",
-    "la": 45.7569,
-    "lo": 4.8197,
-    "k": "bath",
-    "n": "Thermes (Lyon)",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11451",
     "la": 43.3495,
     "lo": 6.4302,
     "k": "bridge",
     "n": "Römerbrücke  Les Plaines",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11452",
-    "la": 43.7822,
-    "lo": 4.089,
-    "k": "bridge",
-    "n": "Römerbrücke Sommières",
     "t": 2
   },
   {
@@ -56331,38 +56197,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11501",
-    "la": 40.2675,
-    "lo": 27.6023,
-    "k": "bridge",
-    "n": "Aiseposbrücke",
-    "s": -400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11505",
     "la": 39.8655,
     "lo": 28.1652,
     "k": "bridge",
     "n": "Makestosbrücke",
     "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11506",
-    "la": 37.3144,
-    "lo": 42.2154,
-    "k": "bridge",
-    "n": "Ain Niwar Brücke",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11507",
-    "la": 36.8808,
-    "lo": 30.6591,
-    "k": "bridge",
-    "n": "Arapsu-Brücke",
     "t": 2
   },
   {
@@ -56418,15 +56258,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11515",
-    "la": 37.192,
-    "lo": 31.1811,
-    "k": "bridge",
-    "n": "Eurymedonbrücke (Selge)",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11516",
     "la": 32.5494,
     "lo": 36.4956,
@@ -56440,23 +56271,6 @@
     "lo": 36.7243,
     "k": "bridge",
     "n": "Brücke von Kharaba",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11518",
-    "la": 37.4461,
-    "lo": 38.1632,
-    "k": "bridge",
-    "n": "Brücke über den Göksu",
-    "s": -200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11519",
-    "la": 40.7374,
-    "lo": 30.3728,
-    "k": "bridge",
-    "n": "Brücke von Justinian - Sakarya",
     "t": 2
   },
   {
@@ -56479,22 +56293,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11530",
-    "la": 54.3508,
-    "lo": -3.404,
-    "k": "bath",
-    "n": "Ravenglass Bath House",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11542",
-    "la": 36.6934,
-    "lo": 29.3623,
-    "k": "bridge",
-    "n": "Brücke bei Kemer",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11543",
     "la": 33.3394,
     "lo": 35.2522,
@@ -56509,26 +56307,6 @@
     "lo": 28.1451,
     "k": "bridge",
     "n": "Brücke von Nysa",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11551",
-    "la": 41.8901,
-    "lo": 12.4773,
-    "k": "bridge",
-    "n": "Ponte Cestio",
-    "s": 50,
-    "e": 1500,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11552",
-    "la": 41.8911,
-    "lo": 12.4783,
-    "k": "bridge",
-    "n": "Ponte dei Quattro Capi",
-    "s": -62,
-    "e": 1500,
     "t": 2
   },
   {
@@ -56558,14 +56336,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11569",
-    "la": 42.525,
-    "lo": 12.5145,
-    "k": "bridge",
-    "n": "Narnia Pons Augustus",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11570",
     "la": 42.2443,
     "lo": 12.3446,
@@ -56588,14 +56358,6 @@
     "lo": 9.1212,
     "k": "road",
     "n": "Große Therme Sufetula",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11576",
-    "la": 43.3929,
-    "lo": 3.4328,
-    "k": "bridge",
-    "n": "Römerbrücke (Saint-Thibéry)",
     "t": 2
   },
   {
@@ -56628,14 +56390,6 @@
     "lo": 9.2086,
     "k": "bath",
     "n": "Große Therme Maktar",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11582",
-    "la": 35.8539,
-    "lo": 9.2057,
-    "k": "bath",
-    "n": "Capitol Therme - Maktar",
     "t": 2
   },
   {
@@ -56680,14 +56434,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11628",
-    "la": 41.2295,
-    "lo": 16.0199,
-    "k": "bridge",
-    "n": "Ponte sul Ofanto",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11633",
     "la": 42.849,
     "lo": 13.6016,
@@ -56705,27 +56451,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11639",
-    "la": 45.7481,
-    "lo": 7.6109,
-    "k": "bridge",
-    "n": "Ponte di Chatillon",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11641",
     "la": 42.8585,
     "lo": 13.5719,
     "k": "bridge",
     "n": "Ponte di Porta Cappuccina",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11642",
-    "la": 42.8574,
-    "lo": 13.5799,
-    "k": "bridge",
-    "n": "Ponte di Porta Tufilla",
     "t": 2
   },
   {
@@ -56746,14 +56476,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11672",
-    "la": 41.7283,
-    "lo": 12.6583,
-    "k": "bath",
-    "n": "Therme Caracalla",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11681",
     "la": 41.6931,
     "lo": 12.7038,
@@ -56762,36 +56484,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11682",
-    "la": 41.5546,
-    "lo": 12.8843,
-    "k": "bridge",
-    "n": "Brücke - Via Appia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11684",
-    "la": 41.497,
-    "lo": 12.9914,
-    "k": "bridge",
-    "n": "Bögen von San Lidano",
-    "s": 10,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11685",
     "la": 41.4667,
     "lo": 12.9977,
     "k": "bridge",
     "n": "Brücke des Flusses Cavata",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11686",
-    "la": 41.5036,
-    "lo": 12.9502,
-    "k": "bridge",
-    "n": "Ponte su fosso Striscia",
     "t": 2
   },
   {
@@ -56837,14 +56534,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11711",
-    "la": 40.6282,
-    "lo": 16.9121,
-    "k": "bridge",
-    "n": "Vermutete Römerbrücke",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11718",
     "la": 48.1231,
     "lo": -1.7566,
@@ -56885,15 +56574,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11726",
-    "la": 43.6335,
-    "lo": 5.5337,
-    "k": "aqueduct",
-    "n": "Traconade Aquädukt nach Aix en Provence",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11727",
     "la": 43.6332,
     "lo": 5.5213,
@@ -56917,14 +56597,6 @@
     "lo": -5.7572,
     "k": "aqueduct",
     "n": "Aquädukt Baelo",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11730",
-    "la": 39.7495,
-    "lo": -0.9681,
-    "k": "aqueduct",
-    "n": "Aquädukt Chelva",
     "t": 2
   },
   {
@@ -57024,14 +56696,6 @@
     "k": "road",
     "n": "Via Severiana",
     "s": -100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11785",
-    "la": 43.2002,
-    "lo": 27.9182,
-    "k": "bath",
-    "n": "Therme - Varna",
     "t": 2
   },
   {
@@ -57222,27 +56886,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11876",
-    "la": 39.9974,
-    "lo": 8.6508,
-    "k": "bridge",
-    "n": "Tramatza, Ponte Romano",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11880",
     "la": 47.6591,
     "lo": 0.2358,
     "k": "bath",
     "n": "Therme - Cherre'",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11883",
-    "la": 39.3053,
-    "lo": 8.9547,
-    "k": "bridge",
-    "n": "Decimomannu, Ponte Romano",
     "t": 2
   },
   {
@@ -57259,22 +56907,6 @@
     "lo": 8.9553,
     "k": "road",
     "n": "Decimomannu, strada Romana",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11898",
-    "la": 55.0251,
-    "lo": -2.1357,
-    "k": "bridge",
-    "n": "Chesters Bridge",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11899",
-    "la": 55.0253,
-    "lo": -2.1377,
-    "k": "bath",
-    "n": "Baths Cilurnum",
     "t": 2
   },
   {
@@ -57342,14 +56974,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11970",
-    "la": 34.0129,
-    "lo": 35.6428,
-    "k": "bridge",
-    "n": "Brücke am Maameltein",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11978",
     "la": 32.5063,
     "lo": 34.8946,
@@ -57396,32 +57020,6 @@
     "lo": 31.1937,
     "k": "aqueduct",
     "n": "Aquädukt Antioch pisidia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-12021",
-    "la": 38.4887,
-    "lo": 28.0397,
-    "k": "bath",
-    "n": "Therme-Gymnasium Sardes",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-12023",
-    "la": 36.3793,
-    "lo": 33.9252,
-    "k": "bridge",
-    "n": "Silifke Brücke",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-12025",
-    "la": 41.9395,
-    "lo": 12.5083,
-    "k": "bridge",
-    "n": "Ponte Salaro",
-    "s": -100,
-    "e": 1500,
     "t": 2
   },
   {
@@ -57531,14 +57129,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-12114",
-    "la": 55.92,
-    "lo": -4.3281,
-    "k": "bath",
-    "n": "Bearsden Thermae",
-    "t": 2
-  },
-  {
     "i": "vici:vici-12123",
     "la": 55.9372,
     "lo": -3.048,
@@ -57606,14 +57196,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-12303",
-    "la": 53.8121,
-    "lo": -2.5318,
-    "k": "bath",
-    "n": "Thermae Bremetenacum Veteranorum",
-    "t": 2
-  },
-  {
     "i": "vici:vici-12317",
     "la": 52.6568,
     "lo": -1.8568,
@@ -57627,14 +57209,6 @@
     "lo": -1.9885,
     "k": "bath",
     "n": "Ardotalia Thermae",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-12340",
-    "la": 52.6349,
-    "lo": -1.1415,
-    "k": "bath",
-    "n": "Ratae Thermae",
     "t": 2
   },
   {
@@ -57827,14 +57401,6 @@
     "lo": -4.7911,
     "k": "aqueduct",
     "n": "Aqua Augusta, acueducto de Valdepuentes",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-13065",
-    "la": 55.9243,
-    "lo": -4.4118,
-    "k": "bath",
-    "n": "Duntocher (Thermen)",
     "t": 2
   },
   {
@@ -58772,14 +58338,6 @@
     "lo": -2.5922,
     "k": "bridge",
     "n": "Bridge remains at Willowford",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-14737",
-    "la": 42.8413,
-    "lo": -2.5135,
-    "k": "bridge",
-    "n": "Bridge in Tullonio",
     "t": 2
   },
   {
@@ -59833,14 +59391,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17283",
-    "la": 48.1161,
-    "lo": 16.8558,
-    "k": "bath",
-    "n": "Petronell,Große Therme,AT - CARNUNTUM",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17285",
     "la": 48.1133,
     "lo": 16.8611,
@@ -59991,14 +59541,6 @@
     "lo": -5.6208,
     "k": "bridge",
     "n": "Puente de San Julian (Puerto Castilla),E",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17310",
-    "la": 42.0101,
-    "lo": -4.5396,
-    "k": "bridge",
-    "n": "Palencia,Ponte,E",
     "t": 2
   },
   {
@@ -60400,14 +59942,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17789",
-    "la": 37.6378,
-    "lo": 21.6279,
-    "k": "bath",
-    "n": "Baths, Olympia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17810",
     "la": 37.9264,
     "lo": 23.9935,
@@ -60655,14 +60189,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-18003",
-    "la": 32.9024,
-    "lo": 21.9689,
-    "k": "bath",
-    "n": "Baths, Apollonia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-18026",
     "la": 32.8235,
     "lo": 21.8534,
@@ -60716,15 +60242,6 @@
     "lo": 36.4824,
     "k": "bath",
     "n": "South Baths, Bosra",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18103",
-    "la": 34.7483,
-    "lo": 40.733,
-    "k": "bath",
-    "n": "Baths, Dura-Europos",
-    "e": 257,
     "t": 2
   },
   {
@@ -61459,14 +60976,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-18968",
-    "la": 40.2938,
-    "lo": 9.437,
-    "k": "bridge",
-    "n": "Oliena, ponte romano di Pappaloppe",
-    "t": 2
-  },
-  {
     "i": "vici:vici-18969",
     "la": 40.6351,
     "lo": 8.5265,
@@ -61480,14 +60989,6 @@
     "lo": 8.6282,
     "k": "road",
     "n": "Römerstraße Arae Flaviae (Rottweil) - Sulz",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19003",
-    "la": 40.2523,
-    "lo": 8.8483,
-    "k": "bridge",
-    "n": "Birori, Ponte Romano",
     "t": 2
   },
   {
@@ -62825,15 +62326,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-19203",
-    "la": 44.0926,
-    "lo": 12.3959,
-    "k": "bridge",
-    "n": "Savignano, bridge",
-    "s": -49,
-    "t": 2
-  },
-  {
     "i": "vici:vici-19213",
     "la": 49.8221,
     "lo": 2.3185,
@@ -63015,14 +62507,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-19260",
-    "la": 45.3296,
-    "lo": 11.7931,
-    "k": "bath",
-    "n": "Termale romani (Montegrotto Terme)",
-    "t": 2
-  },
-  {
     "i": "vici:vici-19263",
     "la": 45.4091,
     "lo": 11.8733,
@@ -63030,16 +62514,6 @@
     "n": "Strada romana (Padova)",
     "s": -50,
     "e": 350,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19267",
-    "la": 45.7586,
-    "lo": 12.8381,
-    "k": "bridge",
-    "n": "Ponte romano di Via San Pietro (Concordia Sagittaria)",
-    "s": -50,
-    "e": 50,
     "t": 2
   },
   {
@@ -63067,23 +62541,6 @@
     "k": "road",
     "n": "Voie Romaine d'Avranches à Cherbourg",
     "s": 10,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19292",
-    "la": 43.769,
-    "lo": 10.4368,
-    "k": "aqueduct",
-    "n": "Caldaccoli",
-    "s": 10,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19293",
-    "la": 43.7223,
-    "lo": 10.4019,
-    "k": "bath",
-    "n": "Bagni de Nerone",
     "t": 2
   },
   {
@@ -64242,15 +63699,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-19607",
-    "la": 36.5861,
-    "lo": 33.9691,
-    "k": "aqueduct",
-    "n": "Olbian Aqueduct",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-19621",
     "la": 36.61,
     "lo": 34.0802,
@@ -65031,14 +64479,6 @@
     "lo": 6.0839,
     "k": "aqueduct",
     "n": "DIANA VETERANORUM aqueduct",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19822",
-    "la": 36.3218,
-    "lo": 5.7359,
-    "k": "aqueduct",
-    "n": "CUICUL aqueduct",
     "t": 2
   },
   {
@@ -65938,14 +65378,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-20657",
-    "la": 46.2112,
-    "lo": 16.4233,
-    "k": "bath",
-    "n": "Aquae Iassae bath",
-    "t": 2
-  },
-  {
     "i": "vici:vici-20729",
     "la": 48.3508,
     "lo": 10.938,
@@ -66819,15 +66251,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23581",
-    "la": 36.8253,
-    "lo": 29.5619,
-    "k": "bridge",
-    "n": "Bridge at Kamerarasi [Oinoada]",
-    "s": 50,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23594",
     "la": 45.5675,
     "lo": 18.7209,
@@ -67064,15 +66487,6 @@
     "lo": 34.618,
     "k": "aqueduct",
     "n": "Aqueduct, Hattusas",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24189",
-    "la": 43.808,
-    "lo": 11.2952,
-    "k": "bath",
-    "n": "Thermen",
-    "s": -1,
     "t": 2
   },
   {
@@ -67373,15 +66787,6 @@
   { "i": "vici:vici-24568", "la": 43.4377, "lo": 6.7412, "k": "aqueduct", "n": "Aquädukt", "t": 2 },
   { "i": "vici:vici-24587", "la": 36.3598, "lo": 36.9091, "k": "road", "n": "Kaper Nabou", "t": 2 },
   {
-    "i": "vici:vici-24648",
-    "la": 34.7506,
-    "lo": 40.7281,
-    "k": "bath",
-    "n": "Bath, Dura Europos",
-    "e": 257,
-    "t": 2
-  },
-  {
     "i": "vici:vici-24665",
     "la": 37.8346,
     "lo": 29.1134,
@@ -67578,14 +66983,6 @@
     "k": "bath",
     "n": "Labraunda, Tetracoch Bath",
     "s": -490,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-25067",
-    "la": 37.638,
-    "lo": 21.6282,
-    "k": "bath",
-    "n": "Baths of Olympia",
     "t": 2
   },
   {
@@ -68083,14 +67480,6 @@
     "lo": 26.117,
     "k": "bath",
     "n": "Gulpinar, Thermae",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26100",
-    "la": 40.4258,
-    "lo": 27.0677,
-    "k": "bath",
-    "n": "Parion [Parium], Thermae",
     "t": 2
   },
   {
@@ -68716,14 +68105,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-27365",
-    "la": 41.7556,
-    "lo": 12.2908,
-    "k": "aqueduct",
-    "n": "Nymphaeum, Ostia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-27375",
     "la": 41.7545,
     "lo": 12.29,
@@ -68745,14 +68126,6 @@
     "lo": 12.2843,
     "k": "bath",
     "n": "Thermae Parvae, Ostia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27384",
-    "la": 41.7534,
-    "lo": 12.2841,
-    "k": "bath",
-    "n": "Thermae Trinacria, Ostia",
     "t": 2
   },
   {
@@ -68947,14 +68320,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-27578",
-    "la": 39.1262,
-    "lo": 26.5148,
-    "k": "aqueduct",
-    "n": "Moria Aqueduct",
-    "t": 2
-  },
-  {
     "i": "vici:vici-27613",
     "la": 52.5832,
     "lo": 1.2887,
@@ -69008,14 +68373,6 @@
     "lo": -3.6591,
     "k": "road",
     "n": "Strageath to Perth Road",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27762",
-    "la": 53.7275,
-    "lo": -1.355,
-    "k": "bath",
-    "n": "Lagentium Baths",
     "t": 2
   },
   {
@@ -69675,14 +69032,6 @@
     "lo": 11.1782,
     "k": "road",
     "n": "Römerstraße Andechs",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-29248",
-    "la": 41.4986,
-    "lo": 13.6916,
-    "k": "bath",
-    "n": "Aquinum, Thermae",
     "t": 2
   },
   {
@@ -70701,15 +70050,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-29929",
-    "la": 41.2283,
-    "lo": 15.5439,
-    "k": "bridge",
-    "n": "Ascoli Satriano",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-29964",
     "la": 41.8947,
     "lo": 12.8242,
@@ -70859,14 +70199,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-30104",
-    "la": 43.7085,
-    "lo": 24.4661,
-    "k": "bath",
-    "n": "Oescus, Thermae",
-    "t": 2
-  },
-  {
     "i": "vici:vici-30117",
     "la": 43.3036,
     "lo": 21.9753,
@@ -70930,22 +70262,6 @@
     "i": "vici:vici-30198",
     "la": 36.3244,
     "lo": 10.4958,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-30231",
-    "la": 43.7915,
-    "lo": 4.211,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-30236",
-    "la": 43.2925,
-    "lo": -8.3667,
     "k": "bridge",
     "n": "Roman Bridge",
     "t": 2
@@ -74541,14 +73857,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-34116",
-    "la": 37.7009,
-    "lo": 14.7999,
-    "k": "bridge",
-    "n": "Ponte dei Saraceni",
-    "t": 2
-  },
-  {
     "i": "vici:vici-34120",
     "la": 37.8131,
     "lo": 14.1087,
@@ -74818,15 +74126,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-35099",
-    "la": 32.1026,
-    "lo": 35.5353,
-    "k": "bridge",
-    "n": "Adam Bridge",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-35103",
     "la": 31.8696,
     "lo": 34.7521,
@@ -75067,14 +74366,6 @@
     "lo": 8.8069,
     "k": "aqueduct",
     "n": "Fordongianus, Nympheum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-37240",
-    "la": 39.9971,
-    "lo": 8.8082,
-    "k": "bath",
-    "n": "Fordongianus, Thermae II",
     "t": 2
   },
   { "i": "vici:vici-37241", "la": 39.9962, "lo": 8.8093, "k": "road", "n": "Fordongianus", "t": 2 },
@@ -75963,15 +75254,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-38138",
-    "la": 40.3776,
-    "lo": 29.9659,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-38153",
     "la": 39.9667,
     "lo": 32.8741,
@@ -76030,15 +75312,6 @@
     "k": "bridge",
     "n": "Roman Bridge",
     "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38178",
-    "la": 41.1095,
-    "lo": 14.209,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": -59,
     "t": 2
   },
   {
@@ -76578,15 +75851,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-38595",
-    "la": 44.767,
-    "lo": 9.3913,
-    "k": "bridge",
-    "n": "Ponte del diavolo",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-38599",
     "la": 45.0164,
     "lo": 9.7209,
@@ -76803,14 +76067,6 @@
     "lo": -7.1024,
     "k": "bridge",
     "n": "Pontes de Gatin",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38903",
-    "la": 43.0021,
-    "lo": -7.5636,
-    "k": "bridge",
-    "n": "Puente Romano",
     "t": 2
   },
   {
@@ -80565,14 +79821,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-40811",
-    "la": 40.9652,
-    "lo": 15.5632,
-    "k": "bridge",
-    "n": "Ponte romano Pietra dell'Oglio",
-    "t": 2
-  },
-  {
     "i": "vici:vici-40816",
     "la": 32.2788,
     "lo": 35.893,
@@ -81812,22 +81060,6 @@
     "t": 2
   },
   { "i": "vici:vici-41495", "la": 39.2903, "lo": -6.0255, "k": "road", "n": "Roman Road", "t": 2 },
-  {
-    "i": "vici:vici-41496",
-    "la": 39.4795,
-    "lo": -6.2676,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-41497",
-    "la": 39.491,
-    "lo": -6.3148,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "t": 2
-  },
   { "i": "vici:vici-41498", "la": 41.4809, "lo": -5.7662, "k": "road", "n": "Roman Road", "t": 2 },
   { "i": "vici:vici-41500", "la": 41.4125, "lo": -5.8378, "k": "road", "n": "Roman Road", "t": 2 },
   {
@@ -86425,15 +85657,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43622",
-    "la": 42.0371,
-    "lo": 11.8722,
-    "k": "bridge",
-    "n": "Punicum, Viale Roma",
-    "s": -299,
-    "t": 2
-  },
-  {
     "i": "vici:vici-43626",
     "la": 48.363,
     "lo": 11.0541,
@@ -87151,14 +86374,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-44257",
-    "la": 37.7212,
-    "lo": 22.7531,
-    "k": "bridge",
-    "n": "Mycenae, Bridge",
-    "t": 2
-  },
-  {
     "i": "vici:vici-44285",
     "la": 38.4321,
     "lo": -0.3818,
@@ -87410,14 +86625,6 @@
     "lo": -6.0227,
     "k": "bridge",
     "n": "Roman Bridge",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44635",
-    "la": 38.9237,
-    "lo": -6.3492,
-    "k": "bridge",
-    "n": "Puente Romano sobre el Albarregas",
     "t": 2
   },
   {
@@ -87701,15 +86908,6 @@
     "t": 2
   },
   { "i": "vici:vici-45086", "la": 36.1622, "lo": 29.7959, "k": "road", "n": "Lycian Way", "t": 2 },
-  {
-    "i": "vici:vici-45087",
-    "la": 36.1588,
-    "lo": 29.7804,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": 100,
-    "t": 2
-  },
   {
     "i": "vici:vici-45088",
     "la": 36.2644,
@@ -89393,14 +88591,6 @@
     "lo": 9.1206,
     "k": "aqueduct",
     "n": "Sufetula, Cistern",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-46448",
-    "la": 36.8848,
-    "lo": 7.7503,
-    "k": "bath",
-    "n": "Hippo Regius, Thermae",
     "t": 2
   },
   {
@@ -92320,14 +91510,6 @@
     "k": "road",
     "n": "Via Heraclea",
     "s": -599,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4898",
-    "la": 50.5527,
-    "lo": 6.6291,
-    "k": "aqueduct",
-    "n": "Brunnerstube bei Mechernich-Kallmuth",
     "t": 2
   },
   {
@@ -103167,15 +102349,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58047",
-    "la": 37.5752,
-    "lo": 14.8645,
-    "k": "bridge",
-    "n": "Ponte romano Pietralunga",
-    "s": 10,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58049",
     "la": 39.6908,
     "lo": 8.5598,
@@ -103218,15 +102391,6 @@
     "k": "bridge",
     "n": "Ponte Romano a Fermignano",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58054",
-    "la": 43.466,
-    "lo": 11.6148,
-    "k": "bridge",
-    "n": "Ponte romano a Pogi",
-    "s": 50,
     "t": 2
   },
   {
@@ -103317,15 +102481,6 @@
     "k": "bridge",
     "n": "Ponte Romano, Ceniga",
     "s": 10,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58067",
-    "la": 43.5509,
-    "lo": 12.6507,
-    "k": "bridge",
-    "n": "Bridge Mallio",
-    "s": -50,
     "t": 2
   },
   {
@@ -103433,15 +102588,6 @@
     "lo": 8.5238,
     "k": "bridge",
     "n": "Ponte romano sul fiume Temo",
-    "s": -50,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58095",
-    "la": 40.3301,
-    "lo": 8.6989,
-    "k": "bridge",
-    "n": "Roman's bridge of Oinu",
     "s": -50,
     "t": 2
   },
@@ -103680,29 +102826,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58182",
-    "la": 42.7406,
-    "lo": 12.7379,
-    "k": "bridge",
-    "n": "Ponte Sanguinario",
-    "s": -299,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58183",
     "la": 42.7688,
     "lo": 12.7223,
     "k": "bridge",
     "n": "Ponte Pontebari",
-    "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58185",
-    "la": 42.476,
-    "lo": 12.5162,
-    "k": "bridge",
-    "n": "Ponte Sainguniaro",
     "s": -299,
     "t": 2
   },
@@ -103825,15 +102953,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58286",
-    "la": 41.8166,
-    "lo": 12.4144,
-    "k": "bridge",
-    "n": "Ponti romani al fosso della Magliana",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58304",
     "la": 42.0209,
     "lo": 12.4105,
@@ -103875,15 +102994,6 @@
     "lo": 12.0646,
     "k": "bath",
     "n": "Terme Carletti",
-    "s": -50,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58345",
-    "la": 44.867,
-    "lo": 10.0574,
-    "k": "bridge",
-    "n": "Ponte romano (Fidenza)",
     "s": -50,
     "t": 2
   },
@@ -104537,15 +103647,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58599",
-    "la": 41.8983,
-    "lo": 12.4874,
-    "k": "bath",
-    "n": "Terme di Costantino",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58601",
     "la": 41.8983,
     "lo": 12.4956,
@@ -104578,15 +103679,6 @@
     "lo": 12.4762,
     "k": "bath",
     "n": "Terme di Nerone",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58605",
-    "la": 41.787,
-    "lo": 12.257,
-    "k": "bath",
-    "n": "Terme del Porto di Claudio",
     "s": 100,
     "t": 2
   },
@@ -104660,15 +103752,6 @@
     "k": "aqueduct",
     "n": "Aqueduct Anio Novus",
     "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58625",
-    "la": 41.6832,
-    "lo": 12.3925,
-    "k": "aqueduct",
-    "n": "Aqueduct of Villa di Grotte di Piastra",
-    "s": 100,
     "t": 2
   },
   {
@@ -104753,24 +103836,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58732",
-    "la": 42.0377,
-    "lo": 11.8765,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58733",
-    "la": 41.9061,
-    "lo": 12.2655,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": -299,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58761",
     "la": 43.7583,
     "lo": 11.2413,
@@ -104822,15 +103887,6 @@
     "lo": 12.4637,
     "k": "bridge",
     "n": "Roman Bridge",
-    "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58815",
-    "la": 41.9011,
-    "lo": 12.7992,
-    "k": "bridge",
-    "n": "Ponte della Selciatella",
     "s": -299,
     "t": 2
   },
@@ -105862,38 +104918,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-59818",
-    "la": 37.5269,
-    "lo": 36.896,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": -30,
-    "t": 2
-  },
-  {
     "i": "vici:vici-59828",
     "la": 40.0334,
     "lo": 30.6167,
     "k": "bridge",
     "n": "Roman Bridge",
-    "s": -30,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-59831",
-    "la": 39.4185,
-    "lo": 33.3846,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-59869",
-    "la": 40.574,
-    "lo": 22.6225,
-    "k": "bridge",
-    "n": "Kleidi",
     "s": -30,
     "t": 2
   },
@@ -105912,15 +104941,6 @@
     "lo": 2.6581,
     "k": "road",
     "n": "Roman Rd",
-    "s": -30,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-59955",
-    "la": 36.7753,
-    "lo": 3.2373,
-    "k": "bridge",
-    "n": "Roman Bridge",
     "s": -30,
     "t": 2
   },
@@ -106390,15 +105410,6 @@
     "k": "road",
     "n": "Via Carisa",
     "s": -30,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-60292",
-    "la": 43.5462,
-    "lo": -5.6605,
-    "k": "bath",
-    "n": "Roman baths",
-    "s": 100,
     "t": 2
   },
   {
@@ -108592,15 +107603,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-61452",
-    "la": 43.9837,
-    "lo": 4.4761,
-    "k": "aqueduct",
-    "n": "Bornègre bridge, Nimes aqueduct",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-61454",
     "la": 43.9554,
     "lo": 4.5311,
@@ -108643,15 +107645,6 @@
     "k": "road",
     "n": "Via Aemilia",
     "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-61459",
-    "la": 43.9173,
-    "lo": 4.5516,
-    "k": "aqueduct",
-    "n": "Aqueduct tunnel, aqueduct of Nimes",
-    "s": 100,
     "t": 2
   },
   {
@@ -111423,15 +110416,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-62584",
-    "la": 35.421,
-    "lo": 8.142,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": -59,
-    "t": 2
-  },
-  {
     "i": "vici:vici-62591",
     "la": 36.28,
     "lo": 9.0377,
@@ -111825,15 +110809,6 @@
     "k": "bath",
     "n": "Baths",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-62797",
-    "la": 35.2335,
-    "lo": 5.7015,
-    "k": "bridge",
-    "n": "Roman Bridge of Al Kantara",
-    "s": 50,
     "t": 2
   },
   {
@@ -113414,15 +112389,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-63381",
-    "la": 41.6701,
-    "lo": 13.6829,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "s": -199,
-    "t": 2
-  },
-  {
     "i": "vici:vici-63382",
     "la": 41.622,
     "lo": 13.7968,
@@ -114104,15 +113070,6 @@
     "k": "road",
     "n": "Via Valeria Vetus",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-63654",
-    "la": 41.6335,
-    "lo": 13.7989,
-    "k": "bridge",
-    "n": "Ponte romano San Giuliano",
-    "s": 200,
     "t": 2
   },
   {
@@ -114967,15 +113924,6 @@
     "k": "bath",
     "n": "Therme",
     "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-63806",
-    "la": 40.4844,
-    "lo": 17.8326,
-    "k": "bath",
-    "n": "Terme di Malvindi",
-    "s": 100,
     "t": 2
   },
   {
@@ -117768,15 +116716,6 @@
     "k": "bath",
     "n": "Equi Terme",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-65860",
-    "la": 43.8371,
-    "lo": 10.3613,
-    "k": "bath",
-    "n": "Roman Baths",
-    "s": 10,
     "t": 2
   },
   {
@@ -124601,15 +123540,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-69844",
-    "la": 41.8852,
-    "lo": 12.4958,
-    "k": "aqueduct",
-    "n": "Arcus Neroniani aqueduct",
-    "s": 64,
-    "t": 2
-  },
-  {
     "i": "vici:vici-69845",
     "la": 41.8862,
     "lo": 12.4943,
@@ -125844,15 +124774,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70711",
-    "la": 38.5724,
-    "lo": -7.9095,
-    "k": "bath",
-    "n": "Termas Romanas de Évora",
-    "s": -27,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70726",
     "la": 41.9001,
     "lo": 12.4958,
@@ -126002,15 +124923,6 @@
     "lo": 12.0638,
     "k": "bath",
     "n": "Balneum Prati",
-    "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70888",
-    "la": 42.4682,
-    "lo": 12.0647,
-    "k": "bath",
-    "n": "Roman Thermal Bath",
     "s": -199,
     "t": 2
   },
@@ -128735,15 +127647,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73327",
-    "la": 45.7935,
-    "lo": 1.1389,
-    "k": "bridge",
-    "n": "Aixe-sur-Vienne",
-    "s": -39,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73371",
     "la": 37.4126,
     "lo": 22.131,
@@ -128785,15 +127688,6 @@
     "lo": 23.6096,
     "k": "road",
     "n": "Iera odos",
-    "s": 1,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-73731",
-    "la": 37.9878,
-    "lo": 23.694,
-    "k": "bridge",
-    "n": "Bridge of Kifisos River",
     "s": 1,
     "t": 2
   },
@@ -129462,14 +128356,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7845",
-    "la": 39.8695,
-    "lo": 8.6091,
-    "k": "bridge",
-    "n": "Roman bridge at Othaca",
-    "t": 2
-  },
-  {
     "i": "vici:vici-78525",
     "la": 40.4902,
     "lo": -2.7648,
@@ -129685,14 +128571,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7893",
-    "la": 41.0159,
-    "lo": 28.9556,
-    "k": "aqueduct",
-    "n": "Valens Aqueduct",
-    "t": 2
-  },
-  {
     "i": "vici:vici-78991",
     "la": 49.1054,
     "lo": 6.0956,
@@ -129801,14 +128679,6 @@
     "lo": 6.9131,
     "k": "aqueduct",
     "n": "Eifelwasserleitung",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-7919",
-    "la": 40.2728,
-    "lo": 8.7718,
-    "k": "bridge",
-    "n": "Macomer, brug Rio S'Adde",
     "t": 2
   },
   {
@@ -129934,16 +128804,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7973",
-    "la": 49.7502,
-    "lo": 6.6303,
-    "k": "bath",
-    "n": "Barbarathermen",
-    "s": 175,
-    "e": 420,
-    "t": 2
-  },
-  {
     "i": "vici:vici-79750",
     "la": 42.5462,
     "lo": 12.7203,
@@ -129959,14 +128819,6 @@
     "k": "bath",
     "n": "Termas romanas de San Martín",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-7985",
-    "la": 38.9131,
-    "lo": -6.3511,
-    "k": "bridge",
-    "n": "Roman Bridge of Merida",
     "t": 2
   },
   {
@@ -130004,21 +128856,12 @@
     "n": "Turris Libisonis, column",
     "t": 2
   },
-  { "i": "vici:vici-8016", "la": 39.997, "lo": 8.8084, "k": "bath", "n": "Forum Traianus", "t": 2 },
   {
     "i": "vici:vici-8021",
     "la": 47.3975,
     "lo": 0.5684,
     "k": "aqueduct",
     "n": "Aquaduct Luynes",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8023",
-    "la": 37.6758,
-    "lo": 30.5188,
-    "k": "bath",
-    "n": "Baths of Sagalassos",
     "t": 2
   },
   {
@@ -130063,38 +128906,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-80395",
-    "la": 45.8107,
-    "lo": 9.0867,
-    "k": "bath",
-    "n": "Thermen",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-8040",
     "la": 52.6773,
     "lo": -2.6163,
     "k": "aqueduct",
     "n": "Aqueduct of Viroconium",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80445",
-    "la": 37.412,
-    "lo": 22.6832,
-    "k": "aqueduct",
-    "n": "Roman aqueduct bridge",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80447",
-    "la": 36.7365,
-    "lo": -3.6899,
-    "k": "aqueduct",
-    "n": "Acueducto Romano De Almuñecar",
-    "s": 100,
     "t": 2
   },
   {
@@ -130140,24 +128956,6 @@
     "k": "road",
     "n": "borne milliaire réutilisée",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80579",
-    "la": 42.8711,
-    "lo": 11.872,
-    "k": "bath",
-    "n": "Roman Baths",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80580",
-    "la": 45.6119,
-    "lo": 7.7443,
-    "k": "bridge",
-    "n": "Ponte di Bard",
-    "s": 300,
     "t": 2
   },
   {
@@ -130476,15 +129274,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-80990",
-    "la": 36.5856,
-    "lo": 10.835,
-    "k": "aqueduct",
-    "n": "Aqueduct of Curba",
-    "s": -59,
-    "t": 2
-  },
-  {
     "i": "vici:vici-80991",
     "la": 38.2516,
     "lo": 20.6492,
@@ -130662,14 +129451,6 @@
     "k": "bridge",
     "n": "Roman Bridge",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8130",
-    "la": 39.8124,
-    "lo": 8.8492,
-    "k": "bridge",
-    "n": "Usellus - ponte romano, rio su forraxi",
     "t": 2
   },
   {
@@ -131067,15 +129848,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-8215",
-    "la": 49.7401,
-    "lo": 6.7427,
-    "k": "aqueduct",
-    "n": "Römische Ruwerwasserleitung",
-    "s": 125,
-    "t": 2
-  },
-  {
     "i": "vici:vici-82173",
     "la": 37.8374,
     "lo": 28.8143,
@@ -131109,15 +129881,6 @@
     "k": "aqueduct",
     "n": "Ponte sul fosso della noce",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-82311",
-    "la": 41.9412,
-    "lo": 12.7977,
-    "k": "aqueduct",
-    "n": "Ponte Arcinelli (Aqua Anio Novus)",
-    "s": -199,
     "t": 2
   },
   {
@@ -131218,16 +129981,6 @@
     "k": "aqueduct",
     "n": "Aqueduct bridge Ponte Maiuro (Aqua Claudia)",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8244",
-    "la": 48.1621,
-    "lo": 8.6391,
-    "k": "bath",
-    "n": "Therme Arae Flaviae (Rottweil)",
-    "s": 80,
-    "e": 260,
     "t": 2
   },
   {
@@ -131417,15 +130170,6 @@
     "k": "aqueduct",
     "n": "Aqueduct bridge (aqua Anio Novus)",
     "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-82723",
-    "la": 41.865,
-    "lo": 12.7745,
-    "k": "aqueduct",
-    "n": "Aqueduct bridge (aqua Anio Vetus)",
-    "s": -299,
     "t": 2
   },
   {
@@ -132160,15 +130904,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-83414",
-    "la": 45.1356,
-    "lo": 7.0424,
-    "k": "aqueduct",
-    "n": "Roman aquaduct",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-83437",
     "la": 41.5783,
     "lo": -3.0754,
@@ -132764,28 +131499,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-8483",
-    "la": 45.7398,
-    "lo": 7.3298,
-    "k": "bridge",
-    "n": "Roman Bridge",
-    "t": 2
-  },
-  {
     "i": "vici:vici-84843",
     "la": 41.3291,
     "lo": -3.1688,
     "k": "road",
     "n": "Roman Rd",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8485",
-    "la": 45.5993,
-    "lo": 7.8001,
-    "k": "bridge",
-    "n": "Bridge Saint Martin",
     "t": 2
   },
   {
@@ -132853,14 +131572,6 @@
     "lo": 12.4998,
     "k": "bath",
     "n": "Terme di Diocleziano",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8506",
-    "la": 38.1072,
-    "lo": 15.6396,
-    "k": "bath",
-    "n": "Terme Romane (Reggio di Calabria)",
     "t": 2
   },
   {
@@ -133176,15 +131887,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-86",
-    "la": 52.0876,
-    "lo": 5.0417,
-    "k": "bath",
-    "n": "Thermen 'Op de Hoge Woerd'",
-    "s": 180,
-    "t": 2
-  },
-  {
     "i": "vici:vici-8600",
     "la": 46.7982,
     "lo": 13.4959,
@@ -133319,15 +132021,6 @@
     "lo": 0.4497,
     "k": "road",
     "n": "Milestone Chasseneuil-sur-Bonnieure (CIL 17-02, no. 357a)",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-86186",
-    "la": 42.0624,
-    "lo": 12.0077,
-    "k": "bath",
-    "n": "Aquae Caeretane",
-    "s": -199,
     "t": 2
   },
   {
@@ -142360,7 +141053,6 @@
     "e": 500,
     "t": 3
   },
-  { "i": "pleiades:426590", "la": 41.875, "lo": 12.375, "k": "bridge", "t": 3 },
   {
     "i": "pleiades:443191",
     "la": 40.6562,

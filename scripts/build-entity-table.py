@@ -243,6 +243,21 @@ def main():
             for other in linked[1:]:
                 uf.union(linked[0], other)
 
+    # --- adjudicated cross-silo duplicate verdicts (2026-07-10 swarm) ---
+    # review/cross-silo-dupes-plan.json: judged same/distinct under a
+    # written rubric. Only high-confidence 'same' pairs union; the plan is
+    # partial and grows as batches complete — consumption is idempotent.
+    plan_path = DATA / "review" / "cross-silo-dupes-plan.json"
+    plan_unions = 0
+    if plan_path.exists():
+        for v in json.load(open(plan_path))["verdicts"]:
+            if v.get("verdict") != "same" or v.get("confidence") != "high":
+                continue
+            if v["a"] in sources and v["b"] in sources:
+                uf.union(v["a"], v["b"])
+                plan_unions += 1
+        print(f"adjudicated same-pair unions: {plan_unions}")
+
     # --- name+kind+proximity-guarded QID unions ---
     # An aqueduct named after its city carries the city's name AND QID; it is
     # still a different entity — kinds must agree. And "Ad Pontem" names three

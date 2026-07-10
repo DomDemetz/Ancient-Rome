@@ -1,33 +1,33 @@
 {
   "cities": {
     "file": "cities.json",
-    "count": 17605,
+    "count": 17369,
     "tiers": {
-      "1": 1861,
-      "2": 15263,
-      "3": 481
+      "1": 1818,
+      "2": 15074,
+      "3": 477
     },
-    "kb": 1855
+    "kb": 1830
   },
   "funerary": {
     "file": "funerary.json",
-    "count": 8140,
+    "count": 8091,
     "tiers": {
-      "1": 372,
-      "2": 7701,
-      "3": 67
+      "1": 370,
+      "2": 7655,
+      "3": 66
     },
-    "kb": 836
+    "kb": 831
   },
   "infrastructure": {
     "file": "infrastructure.json",
-    "count": 16443,
+    "count": 16288,
     "tiers": {
-      "1": 467,
-      "2": 15965,
-      "3": 11
+      "1": 466,
+      "2": 15812,
+      "3": 10
     },
-    "kb": 1792
+    "kb": 1777
   },
   "military": {
     "file": "military.json",
@@ -49,32 +49,32 @@
   },
   "production": {
     "file": "production.json",
-    "count": 4312,
+    "count": 4311,
     "tiers": {
       "1": 410,
-      "2": 3720,
+      "2": 3719,
       "3": 182
     },
     "kb": 417
   },
   "religious": {
     "file": "religious.json",
-    "count": 6862,
+    "count": 6644,
     "tiers": {
-      "1": 398,
-      "2": 6422,
+      "1": 382,
+      "2": 6220,
       "3": 42
     },
-    "kb": 702
+    "kb": 679
   },
   "rural": {
     "file": "rural.json",
-    "count": 4277,
+    "count": 4267,
     "tiers": {
       "1": 22,
-      "2": 4251,
+      "2": 4241,
       "3": 4
     },
-    "kb": 412
+    "kb": 411
   }
 }

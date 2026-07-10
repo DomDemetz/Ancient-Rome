@@ -801,16 +801,6 @@
     "t": 1
   },
   {
-    "i": "pleiades:521295193",
-    "la": 37.9719,
-    "lo": 23.7268,
-    "k": "shrine",
-    "n": "Great altar of Athena",
-    "s": -650,
-    "e": -550,
-    "t": 1
-  },
-  {
     "i": "pleiades:531869654",
     "la": 40.7498,
     "lo": 14.485,
@@ -1208,8 +1198,8 @@
     "lo": 12.4842,
     "k": "sanctuary",
     "n": "Temple of Concord",
-    "s": -337,
-    "e": -317,
+    "s": -367,
+    "e": 400,
     "t": 1
   },
   {
@@ -1620,16 +1610,6 @@
     "n": "Heroon of Trysa",
     "s": -430,
     "e": -200,
-    "t": 1
-  },
-  {
-    "i": "pleiades:967215409",
-    "la": 41.8954,
-    "lo": 12.4769,
-    "k": "sanctuary",
-    "n": "Largo di Torre Argentina",
-    "s": -337,
-    "e": 400,
     "t": 1
   },
   {
@@ -2253,36 +2233,6 @@
     "t": 1
   },
   {
-    "i": "religion:244211030",
-    "la": 32.9021,
-    "lo": 21.9684,
-    "k": "church",
-    "n": "So-called Central Church in Apollonia",
-    "s": 400,
-    "e": 400,
-    "t": 1
-  },
-  {
-    "i": "religion:245438984",
-    "la": 37.2238,
-    "lo": 38.922,
-    "k": "sanctuary",
-    "n": "Göbekli Tepe",
-    "s": 50,
-    "e": 250,
-    "t": 1
-  },
-  {
-    "i": "religion:246256",
-    "la": 41.4551,
-    "lo": 0.4269,
-    "k": "church",
-    "n": "El Bovalar",
-    "s": 400,
-    "e": 400,
-    "t": 1
-  },
-  {
     "i": "religion:246520",
     "la": 42.9991,
     "lo": 0.5081,
@@ -2653,16 +2603,6 @@
     "t": 1
   },
   {
-    "i": "religion:467551058",
-    "la": 45.2286,
-    "lo": 13.5936,
-    "k": "church",
-    "n": "Euphrasian Basilica",
-    "s": 400,
-    "e": 400,
-    "t": 1
-  },
-  {
     "i": "religion:475264756",
     "la": 53.4406,
     "lo": -8.7423,
@@ -2700,16 +2640,6 @@
     "n": "Prdejci",
     "s": 50,
     "e": 50,
-    "t": 1
-  },
-  {
-    "i": "religion:49430117",
-    "la": 36.0913,
-    "lo": 36.0356,
-    "k": "monastery",
-    "n": "Monastery of Simeon Stylites the Younger",
-    "s": 400,
-    "e": 400,
     "t": 1
   },
   {
@@ -2903,16 +2833,6 @@
     "t": 1
   },
   {
-    "i": "religion:581674476",
-    "la": 39.8936,
-    "lo": 25.0622,
-    "k": "sanctuary",
-    "n": "Sanctuary of Artemis at Avlonas",
-    "s": 50,
-    "e": 250,
-    "t": 1
-  },
-  {
     "i": "religion:585579564",
     "la": 41.9419,
     "lo": 24.8498,
@@ -2988,16 +2908,6 @@
     "lo": 13.5168,
     "k": "church",
     "n": "Abbazia San Claudio al Chienti",
-    "s": 50,
-    "e": 250,
-    "t": 1
-  },
-  {
-    "i": "religion:637342541",
-    "la": 42.6591,
-    "lo": 27.7361,
-    "k": "church",
-    "n": "Church of Saint Sophia",
     "s": 50,
     "e": 250,
     "t": 1
@@ -3263,16 +3173,6 @@
     "t": 1
   },
   {
-    "i": "religion:808098070",
-    "la": 48.1637,
-    "lo": 2.203,
-    "k": "sanctuary",
-    "n": "Fanum Pithiviers-le-Vieil",
-    "s": 50,
-    "e": 400,
-    "t": 1
-  },
-  {
     "i": "religion:813943703",
     "la": 42.2467,
     "lo": 13.8062,
@@ -3523,16 +3423,6 @@
     "t": 1
   },
   {
-    "i": "religion:rel-016",
-    "la": 41.8893,
-    "lo": 12.485,
-    "k": "temple",
-    "n": "Temple of Magna Mater",
-    "s": -191,
-    "e": 394,
-    "t": 1
-  },
-  {
     "i": "religion:rel-020",
     "la": 41.8914,
     "lo": 12.489,
@@ -3630,16 +3520,6 @@
     "n": "Mithraeum of the Baths of Caracalla",
     "s": 210,
     "e": 395,
-    "t": 1
-  },
-  {
-    "i": "religion:rel-085",
-    "la": 41.8828,
-    "lo": 12.4792,
-    "k": "mithraeum",
-    "n": "Mithraeum of Santa Prisca",
-    "s": 200,
-    "e": 476,
     "t": 1
   },
   {
@@ -3743,26 +3623,6 @@
     "t": 1
   },
   {
-    "i": "religion:rel-122",
-    "la": 31.7042,
-    "lo": 35.2078,
-    "k": "church",
-    "n": "Church of the Nativity",
-    "s": 339,
-    "e": 476,
-    "t": 1
-  },
-  {
-    "i": "religion:rel-125",
-    "la": 41.0086,
-    "lo": 28.98,
-    "k": "church",
-    "n": "Hagia Sophia",
-    "s": 360,
-    "e": 476,
-    "t": 1
-  },
-  {
     "i": "religion:rel-129",
     "la": 41.8976,
     "lo": 12.4984,
@@ -3790,16 +3650,6 @@
     "n": "Basilica of Aquileia",
     "s": 1,
     "e": 476,
-    "t": 1
-  },
-  {
-    "i": "religion:rel-137",
-    "la": 44.4209,
-    "lo": 12.1975,
-    "k": "church",
-    "n": "Basilica of San Vitale (Ravenna)",
-    "s": 526,
-    "e": 600,
     "t": 1
   },
   {
@@ -3940,16 +3790,6 @@
     "n": "Oracle of Delphi",
     "s": -800,
     "e": 390,
-    "t": 1
-  },
-  {
-    "i": "religion:rel-208",
-    "la": 37.9706,
-    "lo": 23.7267,
-    "k": "sanctuary",
-    "n": "Asklepieion of Athens",
-    "s": -420,
-    "e": 400,
     "t": 1
   },
   {
@@ -4143,32 +3983,12 @@
     "t": 2
   },
   {
-    "i": "pleiades:21797994",
-    "la": 37.9716,
-    "lo": 23.7266,
-    "k": "shrine",
-    "n": "Preclassical naiskos in the Parthenon",
-    "s": -480,
-    "e": 476,
-    "t": 2
-  },
-  {
     "i": "pleiades:218039420",
     "la": 37.5289,
     "lo": 21.8669,
     "k": "sanctuary",
     "n": "Aliphera sanctuary",
     "s": -144,
-    "e": 400,
-    "t": 2
-  },
-  {
-    "i": "pleiades:230559832",
-    "la": 42.1302,
-    "lo": 12.5971,
-    "k": "sanctuary",
-    "n": "Sanctuary at Lucus Feroniae",
-    "s": -337,
     "e": 400,
     "t": 2
   },
@@ -4449,16 +4269,6 @@
     "k": "sanctuary",
     "n": "Monte del Fico",
     "s": -301,
-    "e": 400,
-    "t": 2
-  },
-  {
-    "i": "pleiades:433148",
-    "la": 41.4311,
-    "lo": 14.6011,
-    "k": "sanctuary",
-    "n": "Terravecchia",
-    "s": -291,
     "e": 400,
     "t": 2
   },
@@ -5233,16 +5043,6 @@
     "t": 2
   },
   {
-    "i": "pleiades:929024657",
-    "la": 37.9719,
-    "lo": 23.7263,
-    "k": "temple",
-    "n": "Dörpfeld foundations",
-    "s": -530,
-    "e": -430,
-    "t": 2
-  },
-  {
     "i": "pleiades:939076786",
     "la": 37.6419,
     "lo": 22.7206,
@@ -5378,16 +5178,6 @@
     "lo": 3.8462,
     "k": "sanctuary",
     "n": "*Ganuenta?",
-    "s": 50,
-    "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:109004",
-    "la": 49.1204,
-    "lo": 1.771,
-    "k": "sanctuary",
-    "n": "Les Vaux de la Celle",
     "s": 50,
     "e": 50,
     "t": 2
@@ -5600,16 +5390,6 @@
     "n": "Les Courents",
     "s": 50,
     "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:138349926",
-    "la": 32.2819,
-    "lo": 35.8886,
-    "k": "church",
-    "n": "Bishop Genesius Church",
-    "s": 50,
-    "e": 250,
     "t": 2
   },
   {
@@ -5920,16 +5700,6 @@
     "n": "L’Acapte",
     "s": -200,
     "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:160004728",
-    "la": 32.6311,
-    "lo": 21.3967,
-    "k": "church",
-    "n": "Qasr Libya, West Church",
-    "s": 50,
-    "e": 250,
     "t": 2
   },
   {
@@ -6903,16 +6673,6 @@
     "t": 2
   },
   {
-    "i": "religion:338703437",
-    "la": 49.0617,
-    "lo": 9.0055,
-    "k": "sanctuary",
-    "n": "Güglingen Mithraeum",
-    "s": 50,
-    "e": 50,
-    "t": 2
-  },
-  {
     "i": "religion:344311",
     "la": 32.015,
     "lo": 10.7815,
@@ -7148,16 +6908,6 @@
     "lo": 23.6531,
     "k": "sanctuary",
     "n": "Asklepieion at Zea",
-    "s": 50,
-    "e": 250,
-    "t": 2
-  },
-  {
-    "i": "religion:353853857",
-    "la": 41.9392,
-    "lo": 12.6286,
-    "k": "church",
-    "n": "Paleochristian basilica",
     "s": 50,
     "e": 250,
     "t": 2
@@ -7493,16 +7243,6 @@
     "t": 2
   },
   {
-    "i": "religion:432920",
-    "la": 41.6783,
-    "lo": 13.9082,
-    "k": "sanctuary",
-    "n": "Madonnna del Canneto",
-    "s": 50,
-    "e": 250,
-    "t": 2
-  },
-  {
     "i": "religion:432924",
     "la": 40.7734,
     "lo": 14.5792,
@@ -7670,16 +7410,6 @@
     "n": "Torricella",
     "s": -600,
     "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:448083500",
-    "la": 35.6298,
-    "lo": 34.3737,
-    "k": "church",
-    "n": "Ayios Filon",
-    "s": 400,
-    "e": 400,
     "t": 2
   },
   {
@@ -8303,16 +8033,6 @@
     "t": 2
   },
   {
-    "i": "religion:558444308",
-    "la": 40.0575,
-    "lo": 18.398,
-    "k": "church",
-    "n": "Church and early Christian necropolis at Vaste",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:559217802",
     "la": 35.2916,
     "lo": 25.1144,
@@ -8723,16 +8443,6 @@
     "t": 2
   },
   {
-    "i": "religion:630398334",
-    "la": 36.44,
-    "lo": 28.2107,
-    "k": "temple",
-    "n": "Temple of Apollo Pythios",
-    "s": -200,
-    "e": -200,
-    "t": 2
-  },
-  {
     "i": "religion:631805559",
     "la": 38.1111,
     "lo": 15.649,
@@ -8740,16 +8450,6 @@
     "n": "Parco archeologico Griso-Laboccetta",
     "s": -600,
     "e": -600,
-    "t": 2
-  },
-  {
-    "i": "religion:637058243",
-    "la": 35.6916,
-    "lo": 36.5311,
-    "k": "church",
-    "n": "al-Husn Church",
-    "s": 50,
-    "e": 250,
     "t": 2
   },
   {
@@ -8790,16 +8490,6 @@
     "n": "Tagai",
     "s": 400,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:652237615",
-    "la": 38.8311,
-    "lo": 27.1863,
-    "k": "temple",
-    "n": "Demeter Temple (Aegae - Yuntdağı)",
-    "s": -200,
-    "e": -200,
     "t": 2
   },
   {
@@ -9223,16 +8913,6 @@
     "t": 2
   },
   {
-    "i": "religion:687943",
-    "la": 31.5274,
-    "lo": 35.2519,
-    "k": "monastery",
-    "n": "Khirbet ed Deir",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:687944",
     "la": 31.4604,
     "lo": 35.1799,
@@ -9243,31 +8923,11 @@
     "t": 2
   },
   {
-    "i": "religion:687967",
-    "la": 31.7791,
-    "lo": 35.3002,
-    "k": "church",
-    "n": "Martyrios",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:688042",
     "la": 31.7762,
     "lo": 35.3851,
     "k": "church",
     "n": "Theoktistos",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:688043",
-    "la": 31.7213,
-    "lo": 35.2827,
-    "k": "church",
-    "n": "Theodosios",
     "s": 400,
     "e": 400,
     "t": 2
@@ -9300,16 +8960,6 @@
     "n": "St-Aubin-sur-Mer",
     "s": 50,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:697343073",
-    "la": 30.2909,
-    "lo": 63.1777,
-    "k": "sanctuary",
-    "n": "Khwaja Ali Sehyaka/Sehyak",
-    "s": 50,
-    "e": 250,
     "t": 2
   },
   {
@@ -9499,16 +9149,6 @@
     "k": "temple",
     "n": "el-Ayoun",
     "s": -600,
-    "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:721328707",
-    "la": 42.6395,
-    "lo": 12.5572,
-    "k": "sanctuary",
-    "n": "So-called twin sanctuary",
-    "s": 50,
     "e": 50,
     "t": 2
   },
@@ -9743,16 +9383,6 @@
     "t": 2
   },
   {
-    "i": "religion:746826",
-    "la": 28.5558,
-    "lo": 33.9759,
-    "k": "church",
-    "n": "Tou Batou",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:747563988",
     "la": 45.1197,
     "lo": 4.8212,
@@ -9768,26 +9398,6 @@
     "lo": 31.6888,
     "k": "church",
     "n": "Apa Djoore, Mon.",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:756528",
-    "la": 26.5548,
-    "lo": 31.6198,
-    "k": "church",
-    "n": "Apa Psoi, Mon.",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:756530",
-    "la": 26.5347,
-    "lo": 31.6458,
-    "k": "church",
-    "n": "Apa Senouthou (monastery)",
     "s": 400,
     "e": 400,
     "t": 2
@@ -10170,16 +9780,6 @@
     "n": "Tzitzis",
     "s": 50,
     "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:801596764",
-    "la": 36.4639,
-    "lo": 34.0861,
-    "k": "church",
-    "n": "Hasanaliler Basilica",
-    "s": 50,
-    "e": 250,
     "t": 2
   },
   {
@@ -10573,16 +10173,6 @@
     "t": 2
   },
   {
-    "i": "religion:89479585",
-    "la": 41.7115,
-    "lo": 12.3488,
-    "k": "church",
-    "n": "Castelfusano Paleochristian basilica",
-    "s": 50,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:897646525",
     "la": 38.1521,
     "lo": 29.3792,
@@ -10700,16 +10290,6 @@
     "n": "War Pil",
     "s": 400,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:910479808",
-    "la": 36.5457,
-    "lo": 22.3662,
-    "k": "church",
-    "n": "Tigani basilica",
-    "s": 50,
-    "e": 250,
     "t": 2
   },
   {
@@ -10898,16 +10478,6 @@
     "lo": 51.5873,
     "k": "temple",
     "n": "Naqsh-i Bahram",
-    "s": 50,
-    "e": 50,
-    "t": 2
-  },
-  {
-    "i": "religion:922684",
-    "la": 29.9665,
-    "lo": 52.887,
-    "k": "sanctuary",
-    "n": "Naqsh-i Rajab",
     "s": 50,
     "e": 50,
     "t": 2
@@ -11123,16 +10693,6 @@
     "t": 2
   },
   {
-    "i": "religion:989848523",
-    "la": 39.8911,
-    "lo": -2.8104,
-    "k": "church",
-    "n": "Visigothic basilica at Segobriga",
-    "s": 400,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:992779753",
     "la": 42.5989,
     "lo": -0.9942,
@@ -11163,36 +10723,6 @@
     "t": 2
   },
   {
-    "i": "religion:rel-005",
-    "la": 41.8921,
-    "lo": 12.4856,
-    "k": "temple",
-    "n": "Temple of Vesta",
-    "s": -700,
-    "e": 394,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-007",
-    "la": 41.8931,
-    "lo": 12.4841,
-    "k": "temple",
-    "n": "Temple of Concordia",
-    "s": -367,
-    "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-009",
-    "la": 41.8919,
-    "lo": 12.4859,
-    "k": "temple",
-    "n": "Temple of Divus Julius",
-    "s": -29,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:rel-014",
     "la": 41.8943,
     "lo": 12.4873,
@@ -11210,16 +10740,6 @@
     "n": "Temple of Juno Moneta",
     "s": -344,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-019",
-    "la": 41.9003,
-    "lo": 12.4793,
-    "k": "temple",
-    "n": "Temple of Hadrian",
-    "s": 145,
-    "e": 476,
     "t": 2
   },
   {
@@ -11243,16 +10763,6 @@
     "t": 2
   },
   {
-    "i": "religion:rel-028",
-    "la": 37.6383,
-    "lo": 21.63,
-    "k": "temple",
-    "n": "Temple of Zeus (Olympia)",
-    "s": -466,
-    "e": 426,
-    "t": 2
-  },
-  {
     "i": "religion:rel-030",
     "la": 40.4219,
     "lo": 15.0052,
@@ -11260,16 +10770,6 @@
     "n": "Temple of Hera (Paestum)",
     "s": -550,
     "e": 300,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-031",
-    "la": 37.6389,
-    "lo": 21.6294,
-    "k": "temple",
-    "n": "Temple of Hera (Olympia)",
-    "s": -600,
-    "e": 400,
     "t": 2
   },
   {
@@ -11363,16 +10863,6 @@
     "t": 2
   },
   {
-    "i": "religion:rel-049",
-    "la": 51.3811,
-    "lo": -2.359,
-    "k": "temple",
-    "n": "Temple of Sulis Minerva (Bath)",
-    "s": 60,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "religion:rel-050",
     "la": 51.8889,
     "lo": 0.9023,
@@ -11410,16 +10900,6 @@
     "n": "Temple of Jupiter (Damascus)",
     "s": 100,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-057",
-    "la": 43.5081,
-    "lo": 16.4406,
-    "k": "temple",
-    "n": "Temple of Jupiter (Split)",
-    "s": 305,
-    "e": 476,
     "t": 2
   },
   {
@@ -11490,16 +10970,6 @@
     "n": "Temple of Ceres (Paestum)",
     "s": -500,
     "e": 300,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-088",
-    "la": 41.7545,
-    "lo": 12.2895,
-    "k": "mithraeum",
-    "n": "Mithraeum of the Painted Walls (Ostia)",
-    "s": 170,
-    "e": 390,
     "t": 2
   },
   {
@@ -11643,16 +11113,6 @@
     "t": 2
   },
   {
-    "i": "religion:rel-126",
-    "la": 41.0189,
-    "lo": 28.9494,
-    "k": "church",
-    "n": "Church of the Holy Apostles",
-    "s": 330,
-    "e": 476,
-    "t": 2
-  },
-  {
     "i": "religion:rel-127",
     "la": 34.7489,
     "lo": 40.7283,
@@ -11660,16 +11120,6 @@
     "n": "Dura-Europos House Church",
     "s": 235,
     "e": 256,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-128",
-    "la": 41.8586,
-    "lo": 12.4764,
-    "k": "church",
-    "n": "Basilica of Saint Paul Outside the Walls",
-    "s": 386,
-    "e": 476,
     "t": 2
   },
   {
@@ -11699,16 +11149,6 @@
     "k": "church",
     "n": "Basilica of Sant'Apollinare Nuovo (Ravenna)",
     "s": 504,
-    "e": 600,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-139",
-    "la": 40.6389,
-    "lo": 22.9478,
-    "k": "church",
-    "n": "Basilica of St. Demetrius (Thessaloniki)",
-    "s": 450,
     "e": 600,
     "t": 2
   },
@@ -11743,16 +11183,6 @@
     "t": 2
   },
   {
-    "i": "religion:rel-146",
-    "la": 36.3336,
-    "lo": 36.8444,
-    "k": "church",
-    "n": "Church of St. Simeon Stylites (Qalaat Semaan)",
-    "s": 475,
-    "e": 600,
-    "t": 2
-  },
-  {
     "i": "religion:rel-147",
     "la": 32.6375,
     "lo": 14.2933,
@@ -11769,16 +11199,6 @@
     "k": "church",
     "n": "House of Peter (Capernaum)",
     "s": 100,
-    "e": 476,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-151",
-    "la": 41.9228,
-    "lo": 12.5189,
-    "k": "church",
-    "n": "Church of Santa Costanza (Rome)",
-    "s": 350,
     "e": 476,
     "t": 2
   },
@@ -11860,16 +11280,6 @@
     "n": "Early Church of London",
     "s": 314,
     "e": 476,
-    "t": 2
-  },
-  {
-    "i": "religion:rel-161",
-    "la": 40.75,
-    "lo": 14.4878,
-    "k": "temple",
-    "n": "Temple of Isis (Pompeii)",
-    "s": -100,
-    "e": 79,
     "t": 2
   },
   {
@@ -12692,24 +12102,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10170",
-    "la": 45.5255,
-    "lo": 4.8742,
-    "k": "temple",
-    "n": "Temple of August, Vienne",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10172",
-    "la": 45.5243,
-    "lo": 4.8759,
-    "k": "temple",
-    "n": "Temple 'of the Cybele', Vienne",
-    "s": 25,
-    "e": 1500,
-    "t": 2
-  },
-  {
     "i": "vici:vici-10179",
     "la": 48.4449,
     "lo": 8.9001,
@@ -12897,14 +12289,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10744",
-    "la": 38.5726,
-    "lo": -7.9073,
-    "k": "temple",
-    "n": "Tempel - Évora",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10770",
     "la": 43.0298,
     "lo": 0.5732,
@@ -12929,15 +12313,6 @@
     "t": 2
   },
   { "i": "vici:vici-10838", "la": 37.7544, "lo": 23.533, "k": "temple", "n": "Aegina", "t": 2 },
-  {
-    "i": "vici:vici-10868",
-    "la": 41.2912,
-    "lo": 13.2599,
-    "k": "temple",
-    "n": "Tempio di Giove Anxur",
-    "s": -75,
-    "t": 2
-  },
   { "i": "vici:vici-10871", "la": 34.068, "lo": 35.8928, "k": "temple", "n": "APHAKA", "t": 2 },
   {
     "i": "vici:vici-109",
@@ -13067,14 +12442,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11346",
-    "la": 40.5007,
-    "lo": 25.5298,
-    "k": "temple",
-    "n": "Temple complex Samothrake",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11367",
     "la": 46.9613,
     "lo": 4.2885,
@@ -13173,14 +12540,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11586",
-    "la": 36.4229,
-    "lo": 9.2157,
-    "k": "temple",
-    "n": "Tempel Juno Caelestis - Dougga",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11588",
     "la": 36.4257,
     "lo": 9.2204,
@@ -13189,37 +12548,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11625",
-    "la": 42.6396,
-    "lo": 12.5574,
-    "k": "temple",
-    "n": "Zwilling Tempel",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11646",
     "la": 43.0804,
     "lo": 17.628,
     "k": "temple",
     "n": "Augusteum Narona",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11658",
-    "la": 43.0712,
-    "lo": 12.615,
-    "k": "temple",
-    "n": "Minerva Tempel - Assisi",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11751",
-    "la": 39.122,
-    "lo": 27.1834,
-    "k": "temple",
-    "n": "Rote Basilika",
-    "s": 100,
     "t": 2
   },
   {
@@ -13296,15 +12629,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11828",
-    "la": 39.9443,
-    "lo": 32.8583,
-    "k": "temple",
-    "n": "Tempel der Roma und des Augustus",
-    "s": -25,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11854",
     "la": 36.3307,
     "lo": 29.2891,
@@ -13354,14 +12678,6 @@
     "lo": 35.8904,
     "k": "temple",
     "n": "Tempel Zeus - Girasa",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11889",
-    "la": 32.282,
-    "lo": 35.8908,
-    "k": "temple",
-    "n": "Artemis Tempel - Gerasa",
     "t": 2
   },
   {
@@ -13431,27 +12747,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-12017",
-    "la": 38.304,
-    "lo": 31.1915,
-    "k": "temple",
-    "n": "Augusteum Antioch pisidia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-12022",
     "la": 38.4792,
     "lo": 28.0314,
     "k": "temple",
     "n": "Artemis Tempel Sardes",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-12024",
-    "la": 36.3758,
-    "lo": 33.93,
-    "k": "temple",
-    "n": "Jupiter Tempel Seleucia",
     "t": 2
   },
   {
@@ -14296,14 +13596,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-15044",
-    "la": 41.8918,
-    "lo": 12.4872,
-    "k": "temple",
-    "n": "Temple of Divus Romulus",
-    "t": 2
-  },
-  {
     "i": "vici:vici-15063",
     "la": 49.8894,
     "lo": 9.0177,
@@ -14360,14 +13652,6 @@
     "lo": 7.0724,
     "k": "temple",
     "n": "Heiligtum (Heidenpütz)",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-15103",
-    "la": 41.6567,
-    "lo": 12.4777,
-    "k": "temple",
-    "n": "Altars, Lavinium",
     "t": 2
   },
   {
@@ -14555,14 +13839,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-16626",
-    "la": 43.8171,
-    "lo": 6.0882,
-    "k": "temple",
-    "n": "Temple de Apollo",
-    "t": 2
-  },
-  {
     "i": "vici:vici-16703",
     "la": 44.4197,
     "lo": 0.7212,
@@ -14584,14 +13860,6 @@
     "lo": 5.9146,
     "k": "temple",
     "n": "Temple of Diana",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-16770",
-    "la": 45.7596,
-    "lo": 4.8184,
-    "k": "temple",
-    "n": "Temple de Cybèle, Lyon",
     "t": 2
   },
   {
@@ -15005,16 +14273,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17499",
-    "la": 45.9543,
-    "lo": 10.2849,
-    "k": "temple",
-    "n": "Santuario di Minerva di Breno",
-    "s": 50,
-    "e": 350,
-    "t": 2
-  },
-  {
     "i": "vici:vici-17583",
     "la": 31.1826,
     "lo": 29.8969,
@@ -15314,14 +14572,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17742",
-    "la": 37.9691,
-    "lo": 23.7335,
-    "k": "temple",
-    "n": "Temple of Zeus",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17758",
     "la": 37.9049,
     "lo": 22.8779,
@@ -15344,14 +14594,6 @@
     "lo": 23.075,
     "k": "temple",
     "n": "Temple of Artemis, Epidaurus",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17787",
-    "la": 37.1755,
-    "lo": 21.9206,
-    "k": "temple",
-    "n": "Asclepeion, Messene",
     "t": 2
   },
   {
@@ -15558,14 +14800,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17910",
-    "la": 37.9739,
-    "lo": 13.8241,
-    "k": "temple",
-    "n": "Temple, Himera",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17913",
     "la": 37.2903,
     "lo": 13.5863,
@@ -15590,15 +14824,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17925",
-    "la": 41.7558,
-    "lo": 12.2905,
-    "k": "temple",
-    "n": "Mithraeum, Ostia",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-17927",
     "la": 41.7571,
     "lo": 12.2956,
@@ -15612,23 +14837,6 @@
     "lo": 12.2887,
     "k": "temple",
     "n": "Temple of Roma and Augustus, Ostia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17946",
-    "la": 41.8954,
-    "lo": 12.4769,
-    "k": "temple",
-    "n": "Area Sacra del Largo Argentina",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17947",
-    "la": 41.8906,
-    "lo": 12.4813,
-    "k": "temple",
-    "n": "Area sacra di San Omobono",
-    "s": -699,
     "t": 2
   },
   {
@@ -15741,31 +14949,6 @@
     "lo": 16.2384,
     "k": "temple",
     "n": "Santuario di Locri epizefiri",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18004",
-    "la": 32.9021,
-    "lo": 21.9683,
-    "k": "temple",
-    "n": "Central Basilica, Apollonia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18006",
-    "la": 32.9015,
-    "lo": 21.9666,
-    "k": "temple",
-    "n": "Western Basilica, Apollonia",
-    "s": 550,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18007",
-    "la": 32.9023,
-    "lo": 21.9709,
-    "k": "temple",
-    "n": "Eastern Basilica, Apollonia",
     "t": 2
   },
   {
@@ -15922,36 +15105,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-18097",
-    "la": 34.7467,
-    "lo": 40.7308,
-    "k": "temple",
-    "n": "Temple of Artemis, Dura  Europos",
-    "s": 50,
-    "e": 257,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18108",
-    "la": 34.7509,
-    "lo": 40.7258,
-    "k": "temple",
-    "n": "Temple of the Palmyrene Gods",
-    "s": 100,
-    "e": 257,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18109",
-    "la": 34.749,
-    "lo": 40.7313,
-    "k": "temple",
-    "n": "Temple of Zeus, Dura-Europos",
-    "s": 100,
-    "e": 257,
-    "t": 2
-  },
-  {
     "i": "vici:vici-18111",
     "la": 34.7447,
     "lo": 40.7281,
@@ -15975,15 +15128,6 @@
     "lo": 35.7917,
     "k": "temple",
     "n": "Temple of Adonis, Laodicea",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18117",
-    "la": 36.2547,
-    "lo": 36.8835,
-    "k": "temple",
-    "n": "Mushabbaq basilica church",
-    "s": 475,
     "t": 2
   },
   {
@@ -16067,14 +15211,6 @@
     "k": "temple",
     "n": "Temple of Athena, Side",
     "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18171",
-    "la": 37.7098,
-    "lo": 28.7232,
-    "k": "temple",
-    "n": "Temple of Aphrodite, Aphrodisias",
     "t": 2
   },
   {
@@ -16259,15 +15395,6 @@
     "k": "temple",
     "n": "Temple of Apollo, Hierapolis",
     "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18585",
-    "la": 29.5337,
-    "lo": 34.999,
-    "k": "temple",
-    "n": "Haila, Roman church",
-    "s": 300,
     "t": 2
   },
   {
@@ -16479,14 +15606,6 @@
     "lo": 27.2595,
     "k": "temple",
     "n": "Durostorum, basilica",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19291",
-    "la": 42.6591,
-    "lo": 27.736,
-    "k": "temple",
-    "n": "Nesebur, Byzantine Church",
     "t": 2
   },
   {
@@ -16728,14 +15847,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-19795",
-    "la": 41.2922,
-    "lo": 13.2486,
-    "k": "temple",
-    "n": "Capitolium - Terracina",
-    "t": 2
-  },
-  {
     "i": "vici:vici-19797",
     "la": 41.2919,
     "lo": 13.2484,
@@ -16825,15 +15936,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-19941",
-    "la": 32.8182,
-    "lo": 21.8583,
-    "k": "temple",
-    "n": "Cyrene, Caesareum",
-    "s": 1,
-    "t": 2
-  },
-  {
     "i": "vici:vici-19945",
     "la": 32.8188,
     "lo": 21.8554,
@@ -16888,14 +15990,6 @@
     "lo": 21.8531,
     "k": "temple",
     "n": "Cyrene, temple of Hades",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19964",
-    "la": 31.7785,
-    "lo": 35.2297,
-    "k": "temple",
-    "n": "Jerusalem, Basilica of the Holy Sepulcher",
     "t": 2
   },
   {
@@ -17018,14 +16112,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-20085",
-    "la": 36.464,
-    "lo": 34.086,
-    "k": "temple",
-    "n": "Hasanaliler Church",
-    "t": 2
-  },
-  {
     "i": "vici:vici-20086",
     "la": 36.3628,
     "lo": 33.9309,
@@ -17113,15 +16199,6 @@
     "lo": 28.944,
     "k": "temple",
     "n": "Constantinople, Lips Monastery",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-20320",
-    "la": 41.0197,
-    "lo": 28.9502,
-    "k": "temple",
-    "n": "Constantinople, Church of the Apostles",
-    "s": 330,
     "t": 2
   },
   {
@@ -17459,15 +16536,6 @@
     "lo": 4.1633,
     "k": "temple",
     "n": "Torralba den Salord",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-20605",
-    "la": 50.8921,
-    "lo": -1.9675,
-    "k": "temple",
-    "n": "Knowlton",
-    "s": -3000,
     "t": 2
   },
   {
@@ -18218,15 +17286,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21433",
-    "la": 31.768,
-    "lo": 35.7258,
-    "k": "temple",
-    "n": "Mount Nebo - Al-Quds",
-    "s": 400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-21442",
     "la": 33.2471,
     "lo": 35.6937,
@@ -18281,23 +17340,6 @@
     "k": "temple",
     "n": "Mortuary Temple of Thotmose III",
     "s": -1175,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21490",
-    "la": 25.7302,
-    "lo": 32.613,
-    "k": "temple",
-    "n": "Mortuary Temple of Thotmose III - Deir el Bahari",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21506",
-    "la": 30.2918,
-    "lo": 30.4758,
-    "k": "temple",
-    "n": "Deir Abu Makar",
-    "s": 360,
     "t": 2
   },
   {
@@ -18692,14 +17734,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21837",
-    "la": 39.9443,
-    "lo": 32.8581,
-    "k": "temple",
-    "n": "Monumentum Ancyranum - Monument of Ankara",
-    "t": 2
-  },
-  {
     "i": "vici:vici-21872",
     "la": 33.249,
     "lo": 35.6945,
@@ -18758,14 +17792,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21891",
-    "la": 39.1311,
-    "lo": 27.1839,
-    "k": "temple",
-    "n": "Ara Iovis - Pergamon Altar",
-    "t": 2
-  },
-  {
     "i": "vici:vici-21908",
     "la": 35.1342,
     "lo": 36.7453,
@@ -18791,38 +17817,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21932",
-    "la": 26.5348,
-    "lo": 31.6457,
-    "k": "temple",
-    "n": "Coptic White Monastery - Monastery of St. Shenouda the Archiman",
-    "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21933",
-    "la": 26.5549,
-    "lo": 31.6197,
-    "k": "temple",
-    "n": "Coptic Red Monastery -  St. Pishay Monastery",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-21934",
     "la": 27.4444,
     "lo": 30.8167,
     "k": "temple",
     "n": "Muharraq Monastery",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21935",
-    "la": 28.5556,
-    "lo": 33.9761,
-    "k": "temple",
-    "n": "St. Catherine's Monastery",
-    "s": 500,
     "t": 2
   },
   {
@@ -19301,14 +18300,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-22435",
-    "la": 35.0558,
-    "lo": 25.5002,
-    "k": "temple",
-    "n": "Simi [Kato Symi]",
-    "t": 2
-  },
-  {
     "i": "vici:vici-22443",
     "la": 44.4545,
     "lo": 14.5652,
@@ -19339,16 +18330,6 @@
     "lo": 25.1519,
     "k": "temple",
     "n": "Panagia Apsinthiotissa in Kyrenia Mountains",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-22469",
-    "la": 35.6299,
-    "lo": 34.3737,
-    "k": "temple",
-    "n": "Agios Philon, Rizokarpaso",
-    "s": 400,
-    "e": 699,
     "t": 2
   },
   {
@@ -19550,15 +18531,6 @@
     "lo": 34.025,
     "k": "temple",
     "n": "Panagia Kyra Monastery, Livadia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-22607",
-    "la": 34.8476,
-    "lo": 33.5711,
-    "k": "temple",
-    "n": "Panagia tis Aggeloktistis, Kiti",
-    "s": 450,
     "t": 2
   },
   {
@@ -20323,14 +19295,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-22947",
-    "la": 25.7215,
-    "lo": 32.6088,
-    "k": "temple",
-    "n": "Amenhotep's memorial temple on Theban Necropolis",
-    "t": 2
-  },
-  {
     "i": "vici:vici-22953",
     "la": 34.5517,
     "lo": 40.8899,
@@ -20591,15 +19555,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23142",
-    "la": 36.1692,
-    "lo": 36.5806,
-    "k": "temple",
-    "n": "Qalb Loze in Syria",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23144",
     "la": 33.9708,
     "lo": 36.6577,
@@ -20622,14 +19577,6 @@
     "lo": 25.3187,
     "k": "temple",
     "n": "Figure Stone of Hephaistia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23168",
-    "la": 31.7792,
-    "lo": 35.3003,
-    "k": "temple",
-    "n": "Monastery of Martyrius",
     "t": 2
   },
   {
@@ -21148,22 +20095,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23435",
-    "la": 41.8977,
-    "lo": 12.4984,
-    "k": "temple",
-    "n": "Basilica Sanctae Mariae Maioris, Rome",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23438",
-    "la": 41.8844,
-    "lo": 12.4797,
-    "k": "temple",
-    "n": "Basilica Sanctae Sabinae",
-    "t": 2
-  },
-  {
     "i": "vici:vici-23439",
     "la": 41.8844,
     "lo": 12.4797,
@@ -21329,15 +20260,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23522",
-    "la": 41.8894,
-    "lo": 12.4976,
-    "k": "temple",
-    "n": "Rome, S. Clemente, mithraeum",
-    "s": 175,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23524",
     "la": 48.0013,
     "lo": 12.4078,
@@ -21364,15 +20286,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23604",
-    "la": 37.1103,
-    "lo": 25.3723,
-    "k": "temple",
-    "n": "Portara",
-    "s": -599,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23607",
     "la": 37.0813,
     "lo": 25.4936,
@@ -21386,14 +20299,6 @@
     "lo": 25.483,
     "k": "temple",
     "n": "Church of Panagia Protothrone, Chalkios",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23617",
-    "la": 35.0619,
-    "lo": 24.9472,
-    "k": "temple",
-    "n": "Titus Basilica at Gortyn",
     "t": 2
   },
   {
@@ -21473,14 +20378,6 @@
     "i": "vici:vici-23670",
     "la": 38.0386,
     "lo": 14.0248,
-    "k": "temple",
-    "n": "Tempelsäulen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23672",
-    "la": 50.0013,
-    "lo": 8.268,
     "k": "temple",
     "n": "Tempelsäulen",
     "t": 2
@@ -21816,15 +20713,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23977",
-    "la": 42.2398,
-    "lo": 12.2269,
-    "k": "temple",
-    "n": "Mithraeum‎ Sutri",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23978",
     "la": 48.7303,
     "lo": 7.0538,
@@ -21924,24 +20812,6 @@
     "lo": 14.5084,
     "k": "temple",
     "n": "Dolničar’s lapidarium",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24046",
-    "la": 36.0912,
-    "lo": 36.0354,
-    "k": "temple",
-    "n": "St. Simon Monastery",
-    "s": 500,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24059",
-    "la": 35.6916,
-    "lo": 36.531,
-    "k": "temple",
-    "n": "Al Husn",
-    "s": 400,
     "t": 2
   },
   {
@@ -22450,14 +21320,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-24213",
-    "la": 37.1786,
-    "lo": 21.93,
-    "k": "temple",
-    "n": "Sanctuary of Artemis Limnatida, Messene",
-    "t": 2
-  },
-  {
     "i": "vici:vici-24218",
     "la": 37.9365,
     "lo": 27.3439,
@@ -22512,14 +21374,6 @@
     "lo": 27.8364,
     "k": "temple",
     "n": "Basilica in Thyatira",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24263",
-    "la": 37.7061,
-    "lo": 28.723,
-    "k": "temple",
-    "n": "Aphrodisias in Caria, Martyrion",
     "t": 2
   },
   {
@@ -22806,7 +21660,6 @@
     "s": 300,
     "t": 2
   },
-  { "i": "vici:vici-24535", "la": 36.2112, "lo": 36.6601, "k": "temple", "n": "Deiruni", "t": 2 },
   {
     "i": "vici:vici-24538",
     "la": 36.2149,
@@ -22951,15 +21804,6 @@
     "lo": 38.2738,
     "k": "temple",
     "n": "Altar in the Baal Temple, Palmyra",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24653",
-    "la": 34.7474,
-    "lo": 40.7308,
-    "k": "temple",
-    "n": "Tycheum, Dura Europos",
-    "e": 257,
     "t": 2
   },
   {
@@ -23303,14 +22147,6 @@
     "lo": 27.1866,
     "k": "temple",
     "n": "Aeolian Aigai",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24904",
-    "la": 41.8614,
-    "lo": 12.5057,
-    "k": "temple",
-    "n": "St. Mark's Basilica, Rome",
     "t": 2
   },
   {
@@ -23916,14 +22752,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-25777",
-    "la": 38.1643,
-    "lo": 22.1564,
-    "k": "temple",
-    "n": "Keryneia Achaias",
-    "t": 2
-  },
-  {
     "i": "vici:vici-25800",
     "la": 38.766,
     "lo": 34.9816,
@@ -24182,14 +23010,6 @@
     "k": "temple",
     "n": "Kuşkayası Road Monument - Bird`s Rock",
     "s": 50,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-25859",
-    "la": 39.641,
-    "lo": 22.4158,
-    "k": "temple",
-    "n": "Saint Achille Church of Larissa",
     "t": 2
   },
   { "i": "vici:vici-25862", "la": 39.6395, "lo": 22.4191, "k": "temple", "n": "Larissa", "t": 2 },
@@ -24460,15 +23280,6 @@
     "lo": 27.7881,
     "k": "temple",
     "n": "Zeytlinliada, Kera Pangaia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26167",
-    "la": 37.9526,
-    "lo": 27.3676,
-    "k": "temple",
-    "n": "Ephesus, Church of St John",
-    "s": 500,
     "t": 2
   },
   {
@@ -24761,67 +23572,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-26307",
-    "la": 37.9719,
-    "lo": 23.7263,
-    "k": "temple",
-    "n": "Athen, Old Temple of Athena",
-    "t": 2
-  },
-  {
     "i": "vici:vici-26309",
     "la": 37.97,
     "lo": 23.7281,
     "k": "temple",
     "n": "Acropolis of Athens",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26310",
-    "la": 37.9715,
-    "lo": 23.7249,
-    "k": "temple",
-    "n": "Acropolis of Athens",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26311",
-    "la": 37.9708,
-    "lo": 23.7268,
-    "k": "temple",
-    "n": "Askepeion, Athens Acropolis",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26313",
-    "la": 37.9715,
-    "lo": 23.7254,
-    "k": "temple",
-    "n": "Arthemision of Athens",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26314",
-    "la": 37.9715,
-    "lo": 23.7255,
-    "k": "temple",
-    "n": "Brauroneion of Athens",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26317",
-    "la": 37.9717,
-    "lo": 23.7273,
-    "k": "temple",
-    "n": "Athen, Roman Temple",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26319",
-    "la": 37.9719,
-    "lo": 23.7274,
-    "k": "temple",
-    "n": "Athen, Temple of Zeus Polieus",
     "t": 2
   },
   {
@@ -24846,22 +23601,6 @@
     "lo": 23.7212,
     "k": "temple",
     "n": "Heroon of Mousaios, Athens",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26338",
-    "la": 37.9686,
-    "lo": 23.733,
-    "k": "temple",
-    "n": "Athens, Temple of Apollo Delphinios",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26339",
-    "la": 37.9683,
-    "lo": 23.7335,
-    "k": "temple",
-    "n": "Athens, Temple of Cronus and Rhea",
     "t": 2
   },
   {
@@ -25691,14 +24430,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-27361",
-    "la": 41.7557,
-    "lo": 12.2906,
-    "k": "temple",
-    "n": "Four Small Temples, Ostia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-27362",
     "la": 41.7573,
     "lo": 12.2965,
@@ -25732,22 +24463,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-27377",
-    "la": 41.7545,
-    "lo": 12.2915,
-    "k": "temple",
-    "n": "Mitreo di Felicissimo, Ostia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27378",
-    "la": 41.7557,
-    "lo": 12.2931,
-    "k": "temple",
-    "n": "Sabazeum, Ostia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-27380",
     "la": 41.7537,
     "lo": 12.2852,
@@ -25774,31 +24489,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-27409",
-    "la": 41.7528,
-    "lo": 12.2861,
-    "k": "temple",
-    "n": "Templum Fabrum Navalium, Ostia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27411",
-    "la": 41.753,
-    "lo": 12.2863,
-    "k": "temple",
-    "n": "Basilica Cristiana, Ostia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27416",
-    "la": 41.7533,
-    "lo": 12.2878,
-    "k": "temple",
-    "n": "Mithraeum of Fructosus, Ostia",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-27422",
     "la": 41.7765,
     "lo": 12.26,
@@ -25812,14 +24502,6 @@
     "lo": 12.2553,
     "k": "temple",
     "n": "Temple of Isis, Portus",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27425",
-    "la": 41.7734,
-    "lo": 12.2613,
-    "k": "temple",
-    "n": "Basilica of Saint Hippolytus, Portus",
     "t": 2
   },
   {
@@ -25878,15 +24560,6 @@
     "lo": 12.9549,
     "k": "temple",
     "n": "Mithreum, Ponza Island",
-    "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27494",
-    "la": 53.1371,
-    "lo": -4.2624,
-    "k": "temple",
-    "n": "Caernarfon Mithraeum",
     "s": 200,
     "t": 2
   },
@@ -27543,14 +26216,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-28386",
-    "la": 37.8095,
-    "lo": 22.7104,
-    "k": "temple",
-    "n": "Nemean Zeus Temple",
-    "t": 2
-  },
-  {
     "i": "vici:vici-28389",
     "la": 37.8096,
     "lo": 22.7109,
@@ -27687,14 +26352,6 @@
     "k": "temple",
     "n": "Samctuary, Karphi [Karfi]",
     "s": -1900,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28456",
-    "la": 39.8935,
-    "lo": 25.0622,
-    "k": "temple",
-    "n": "Artemision of Myrina",
     "t": 2
   },
   {
@@ -28807,14 +27464,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-29943",
-    "la": 40.4886,
-    "lo": 14.9697,
-    "k": "temple",
-    "n": "Heraion alla foce del Sele",
-    "t": 2
-  },
-  {
     "i": "vici:vici-29975",
     "la": 36.2102,
     "lo": 29.8509,
@@ -28836,14 +27485,6 @@
     "lo": 30.0606,
     "k": "temple",
     "n": "Arykanda, Temple",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-30011",
-    "la": 39.1964,
-    "lo": 26.3059,
-    "k": "temple",
-    "n": "Mesa (Sanctuary to Zeus, Hera, and Dionysus)",
     "t": 2
   },
   {
@@ -29355,15 +27996,6 @@
     "n": "Round Temple",
     "t": 2
   },
-  {
-    "i": "vici:vici-31094",
-    "la": 36.8617,
-    "lo": 10.3313,
-    "k": "temple",
-    "n": "Basilique de Damous El Karita",
-    "s": 400,
-    "t": 2
-  },
   { "i": "vici:vici-31097", "la": 35.1667, "lo": 8.7971, "k": "temple", "n": "Basilica", "t": 2 },
   { "i": "vici:vici-31102", "la": 34.9632, "lo": 8.5886, "k": "temple", "n": "Church", "t": 2 },
   {
@@ -29685,14 +28317,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-31458",
-    "la": 30.3288,
-    "lo": 35.4424,
-    "k": "temple",
-    "n": "Petra, Great Temple",
-    "t": 2
-  },
-  {
     "i": "vici:vici-31459",
     "la": 30.3291,
     "lo": 35.4414,
@@ -29934,14 +28558,6 @@
     "lo": 28.7235,
     "k": "temple",
     "n": "Aphrodisias, Basilica",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-31779",
-    "la": 37.7097,
-    "lo": 28.723,
-    "k": "temple",
-    "n": "Aphrodite of Aphrodisias",
     "t": 2
   },
   {
@@ -30390,23 +29006,7 @@
     "n": "Enkomi, Temple of the Horn God",
     "t": 2
   },
-  {
-    "i": "vici:vici-32371",
-    "la": 38.6578,
-    "lo": 22.8112,
-    "k": "temple",
-    "n": "Elataeia - Tempio Atena Kranaia",
-    "t": 2
-  },
   { "i": "vici:vici-32375", "la": 38.6291, "lo": 22.5212, "k": "temple", "n": "Church", "t": 2 },
-  {
-    "i": "vici:vici-32376",
-    "la": 38.3624,
-    "lo": 23.145,
-    "k": "temple",
-    "n": "Temple of Poseidon",
-    "t": 2
-  },
   { "i": "vici:vici-32378", "la": 38.3651, "lo": 23.1338, "k": "temple", "n": "Temple", "t": 2 },
   {
     "i": "vici:vici-32392",
@@ -30416,15 +29016,6 @@
     "n": "Salamis, Basilica of Saint Epiphanius",
     "s": 400,
     "e": 799,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-32393",
-    "la": 35.1788,
-    "lo": 33.9066,
-    "k": "temple",
-    "n": "Salamis, Kampanopetra Basilica",
-    "s": 500,
     "t": 2
   },
   {
@@ -30536,23 +29127,7 @@
     "s": -599,
     "t": 2
   },
-  {
-    "i": "vici:vici-32544",
-    "la": 38.4303,
-    "lo": 22.8605,
-    "k": "temple",
-    "n": "Temple of Zeus. Livadia",
-    "t": 2
-  },
   { "i": "vici:vici-32597", "la": 40.9539, "lo": 22.1045, "k": "temple", "n": "Basilica", "t": 2 },
-  {
-    "i": "vici:vici-32607",
-    "la": 40.894,
-    "lo": 26.1705,
-    "k": "temple",
-    "n": "Theotokos Kosmosteira",
-    "t": 2
-  },
   { "i": "vici:vici-32638", "la": 40.1775, "lo": 21.9974, "k": "temple", "n": "Basilica", "t": 2 },
   {
     "i": "vici:vici-32645",
@@ -30677,35 +29252,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-32781",
-    "la": 36.5456,
-    "lo": 22.3662,
-    "k": "temple",
-    "n": "Tigani Catedral",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-32878",
-    "la": 37.3093,
-    "lo": 26.5476,
-    "k": "temple",
-    "n": "Monastery of Saint John the Divine",
-    "t": 2
-  },
-  {
     "i": "vici:vici-32884",
     "la": 35.3537,
     "lo": 33.1914,
     "k": "temple",
     "n": "St. Eulambios Chapel in Lapithos",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-32903",
-    "la": 36.44,
-    "lo": 28.2105,
-    "k": "temple",
-    "n": "Temple of Apollo",
     "t": 2
   },
   {
@@ -30817,15 +29368,6 @@
     "lo": 32.4257,
     "k": "temple",
     "n": "Marion, Early Christian Basilica II",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-33042",
-    "la": 41.0659,
-    "lo": 20.6448,
-    "k": "temple",
-    "n": "Early Christian Basilica",
-    "s": 400,
     "t": 2
   },
   {
@@ -31047,7 +29589,6 @@
     "n": "Temple of Apollo Nasiotas",
     "t": 2
   },
-  { "i": "vici:vici-33363", "la": 37.9339, "lo": 22.8844, "k": "temple", "n": "Basilica", "t": 2 },
   {
     "i": "vici:vici-33374",
     "la": 37.5043,
@@ -31376,14 +29917,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-34347",
-    "la": 38.8312,
-    "lo": 27.1861,
-    "k": "temple",
-    "n": "Aeolian Aigai, Demeter Temple",
-    "t": 2
-  },
-  {
     "i": "vici:vici-34349",
     "la": 28.342,
     "lo": 28.8221,
@@ -31520,15 +30053,6 @@
     "n": "Malia, Omphalos",
     "t": 2
   },
-  {
-    "i": "vici:vici-34665",
-    "la": 35.0558,
-    "lo": 25.4999,
-    "k": "temple",
-    "n": "Kato Symi, Viannos. simi",
-    "t": 2
-  },
-  { "i": "vici:vici-34666", "la": 34.9323, "lo": 24.9243, "k": "temple", "n": "Lentas", "t": 2 },
   {
     "i": "vici:vici-34705",
     "la": 36.8286,
@@ -31905,15 +30429,6 @@
     "lo": 52.8752,
     "k": "temple",
     "n": "Naqsh-e Rustam, two small reliefs",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-35008",
-    "la": 38.9111,
-    "lo": -6.3412,
-    "k": "temple",
-    "n": "Merida, Mithreum",
-    "s": 200,
     "t": 2
   },
   {
@@ -32317,15 +30832,6 @@
     "lo": 13.6042,
     "k": "temple",
     "n": "Rock Sanctuary of Demeter, Akragas",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36083",
-    "la": 40.8053,
-    "lo": 14.3466,
-    "k": "temple",
-    "n": "Herculaneum, Ara of Marco Nonio Balbo",
-    "e": 79,
     "t": 2
   },
   {
@@ -32763,23 +31269,6 @@
     "k": "temple",
     "n": "Ravenna, Basilica of Sant'Apollinare Nuovo",
     "s": 504,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36767",
-    "la": 44.4186,
-    "lo": 12.2025,
-    "k": "temple",
-    "n": "Ravenna, Arian Baptistery",
-    "s": 500,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36768",
-    "la": 44.4156,
-    "lo": 12.1972,
-    "k": "temple",
-    "n": "Ravenna, Baptistery of Neon",
     "t": 2
   },
   {
@@ -33749,15 +32238,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-39139",
-    "la": 36.4905,
-    "lo": 43.4427,
-    "k": "temple",
-    "n": "Mount Alfaf, Monastery of St. Matthew",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-39140",
     "la": 40.5951,
     "lo": 44.358,
@@ -33785,14 +32265,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-39143",
-    "la": 43.5082,
-    "lo": 16.4404,
-    "k": "temple",
-    "n": "Split, Cathedral of Saint Domnius",
-    "t": 2
-  },
-  {
     "i": "vici:vici-39144",
     "la": 40.0739,
     "lo": 20.2902,
@@ -33817,14 +32289,6 @@
     "lo": 44.3773,
     "k": "temple",
     "n": "Armazi stele of Vespasian",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-39149",
-    "la": 37.0848,
-    "lo": 25.1519,
-    "k": "temple",
-    "n": "Baptistery of Panagia Ekatontapyliani",
     "t": 2
   },
   {
@@ -34502,14 +32966,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-41056",
-    "la": 40.1455,
-    "lo": 9.0929,
-    "k": "temple",
-    "n": "Albini, Nuragic Temple",
-    "t": 2
-  },
-  {
     "i": "vici:vici-41061",
     "la": 37.5535,
     "lo": 37.8608,
@@ -34641,15 +33097,6 @@
     "lo": 27.7671,
     "k": "temple",
     "n": "Vize, Little Hagia Sophia Church",
-    "s": 500,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-41206",
-    "la": 39.7455,
-    "lo": 20.0229,
-    "k": "temple",
-    "n": "Baptistery on  Buntrint",
     "s": 500,
     "t": 2
   },
@@ -35087,14 +33534,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-42051",
-    "la": 39.1327,
-    "lo": 27.1847,
-    "k": "temple",
-    "n": "Pergamon, Altar Room",
-    "t": 2
-  },
-  {
     "i": "vici:vici-42105",
     "la": 46.2145,
     "lo": 16.4155,
@@ -35460,14 +33899,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-42351",
-    "la": 41.4552,
-    "lo": 0.427,
-    "k": "temple",
-    "n": "Bovalar - Basilica",
-    "t": 2
-  },
-  {
     "i": "vici:vici-42362",
     "la": 36.9158,
     "lo": 37.9916,
@@ -35802,27 +34233,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-42898",
-    "la": 41.8928,
-    "lo": 12.4843,
-    "k": "temple",
-    "n": "Tempel der Konkordia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-429",
     "la": 48.2606,
     "lo": -0.4987,
     "k": "temple",
     "n": "Temple Noviodunum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-42900",
-    "la": 41.8941,
-    "lo": 12.4848,
-    "k": "temple",
-    "n": "Tempel der Venus Genitrix",
     "t": 2
   },
   {
@@ -36362,14 +34777,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43836",
-    "la": 40.0574,
-    "lo": 18.3981,
-    "k": "temple",
-    "n": "Basta, Paleochristian Baslica",
-    "t": 2
-  },
-  {
     "i": "vici:vici-4384",
     "la": 51.3241,
     "lo": -3.0153,
@@ -36884,24 +35291,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-44660",
-    "la": 40.6388,
-    "lo": 22.9479,
-    "k": "temple",
-    "n": "Thessaloniki, Hagios Demetrios",
-    "s": 413,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44662",
-    "la": 40.6418,
-    "lo": 22.9523,
-    "k": "temple",
-    "n": "Thessaloniki, Church of Hosios David",
-    "s": 400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-44663",
     "la": 37.8838,
     "lo": 22.9964,
@@ -37061,14 +35450,6 @@
     "lo": -7.9422,
     "k": "temple",
     "n": "Cantius Modestinus Templum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44809",
-    "la": 25.7196,
-    "lo": 32.6597,
-    "k": "temple",
-    "n": "Karnak, Ptah Temple",
     "t": 2
   },
   { "i": "vici:vici-44828", "la": 42.7332, "lo": 12.7371, "k": "temple", "n": "Spoleto", "t": 2 },
@@ -37824,22 +36205,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-47100",
-    "la": 25.725,
-    "lo": 32.6065,
-    "k": "temple",
-    "n": "Merenptah's Mortuary Temple",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-47123",
-    "la": 25.7286,
-    "lo": 32.6114,
-    "k": "temple",
-    "n": "Temple of Amenhotep II, Uaset [Thebes]",
-    "t": 2
-  },
-  {
     "i": "vici:vici-47128",
     "la": 25.7286,
     "lo": 32.6025,
@@ -37848,35 +36213,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-47136",
-    "la": 25.7273,
-    "lo": 32.6093,
-    "k": "temple",
-    "n": "Temple of Wadjmes",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-47137",
-    "la": 25.7271,
-    "lo": 32.6084,
-    "k": "temple",
-    "n": "Temple of Thutmose I [Thebes]",
-    "t": 2
-  },
-  {
     "i": "vici:vici-47138",
     "la": 25.7269,
     "lo": 32.6078,
     "k": "temple",
     "n": "Temple of Khonsuirdis [Thebes]",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-47139",
-    "la": 25.7263,
-    "lo": 32.6072,
-    "k": "temple",
-    "n": "Temple of Tausert [Thebes]",
     "t": 2
   },
   {
@@ -38600,14 +36941,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-50044",
-    "la": 39.8911,
-    "lo": -2.8104,
-    "k": "temple",
-    "n": "Basilica Visigoda",
-    "t": 2
-  },
-  {
     "i": "vici:vici-50069",
     "la": 42.9519,
     "lo": 23.114,
@@ -39207,15 +37540,6 @@
     "t": 2
   },
   { "i": "vici:vici-51688", "la": 44.1181, "lo": 27.2676, "k": "temple", "n": "Basilica", "t": 2 },
-  {
-    "i": "vici:vici-51708",
-    "la": 37.2233,
-    "lo": 38.9227,
-    "k": "temple",
-    "n": "Göbeklitepe",
-    "s": -9000,
-    "t": 2
-  },
   {
     "i": "vici:vici-51726",
     "la": 39.5472,
@@ -39872,27 +38196,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-54101",
-    "la": 39.8865,
-    "lo": 4.2883,
-    "k": "temple",
-    "n": "Basílica de l'Illa del Rei",
-    "t": 2
-  },
-  {
     "i": "vici:vici-54116",
     "la": 39.8841,
     "lo": 4.1959,
     "k": "temple",
     "n": "Taula de Binimaimut",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-54121",
-    "la": 39.8854,
-    "lo": 4.1603,
-    "k": "temple",
-    "n": "Taula Oeste So na Caçana",
     "t": 2
   },
   {
@@ -40240,16 +38548,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-54945",
-    "la": 37.4403,
-    "lo": -6.0443,
-    "k": "temple",
-    "n": "Italica, Temple of Trajan",
-    "s": 117,
-    "e": 1500,
-    "t": 2
-  },
-  {
     "i": "vici:vici-54948",
     "la": 37.44,
     "lo": -6.0396,
@@ -40415,15 +38713,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-55214",
-    "la": 31.7677,
-    "lo": 35.7256,
-    "k": "temple",
-    "n": "Mount Nebo, Byzantine Monastery",
-    "s": 550,
-    "t": 2
-  },
-  {
     "i": "vici:vici-55221",
     "la": 30.3312,
     "lo": 35.4443,
@@ -40511,15 +38800,6 @@
     "k": "temple",
     "n": "Tripolis ad Meandrum, Church III",
     "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-55255",
-    "la": 32.8173,
-    "lo": 21.8578,
-    "k": "temple",
-    "n": "Cyrene, Temple of Aphrodite",
-    "s": 1,
     "t": 2
   },
   {
@@ -40845,15 +39125,6 @@
     "k": "temple",
     "n": "Cleopatra's Needle (New York)",
     "s": -1475,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-55595",
-    "la": 29.9747,
-    "lo": 31.1384,
-    "k": "temple",
-    "n": "Giza, Pyramid of Chephren, Valley temple",
-    "s": -2530,
     "t": 2
   },
   {
@@ -41371,15 +39642,6 @@
     "k": "temple",
     "n": "Buthrotum-Butrint, Temple of Zeus",
     "s": -400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-56192",
-    "la": 25.7379,
-    "lo": 32.6059,
-    "k": "temple",
-    "n": "Deir el-Bahari, Temple of Thuthmose III",
-    "s": -1450,
     "t": 2
   },
   {
@@ -41912,14 +40174,6 @@
     "lo": 6.6425,
     "k": "temple",
     "n": "Tempel mit Säulenvorbau - Alt-Heiligkreuz",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-5710",
-    "la": 49.7467,
-    "lo": 6.6425,
-    "k": "temple",
-    "n": "Tempel mit Vorhalle - Alt-Heiligkreuz",
     "t": 2
   },
   {
@@ -42641,15 +40895,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58044",
-    "la": 41.4309,
-    "lo": 14.6012,
-    "k": "temple",
-    "n": "San Pietro",
-    "s": -200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58071",
     "la": 41.3266,
     "lo": 14.3347,
@@ -42774,16 +41019,6 @@
     "k": "temple",
     "n": "Temle",
     "s": -50,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58279",
-    "la": 41.7115,
-    "lo": 12.3488,
-    "k": "temple",
-    "n": "Basilica paleocristiana",
-    "s": 200,
-    "e": 700,
     "t": 2
   },
   {
@@ -42923,15 +41158,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58454",
-    "la": 41.8578,
-    "lo": 12.5244,
-    "k": "temple",
-    "n": "Temple of Ceres",
-    "s": 50,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58466",
     "la": 41.8918,
     "lo": 12.4876,
@@ -42956,24 +41182,6 @@
     "k": "temple",
     "n": "Temple of the Divine Augustus",
     "s": 70,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58499",
-    "la": 41.8887,
-    "lo": 12.4857,
-    "k": "temple",
-    "n": "Temple of Apollo",
-    "s": 28,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58530",
-    "la": 41.8618,
-    "lo": 12.5373,
-    "k": "temple",
-    "n": "Basilica di S. Stefano",
-    "s": 400,
     "t": 2
   },
   {
@@ -43072,15 +41280,6 @@
     "lo": 12.6148,
     "k": "temple",
     "n": "Nimpfeum Bella Cencii",
-    "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58672",
-    "la": 41.8952,
-    "lo": 12.5557,
-    "k": "temple",
-    "n": "Basilica della Villa dei Gardiani",
     "s": 200,
     "t": 2
   },
@@ -43398,15 +41597,6 @@
     "k": "temple",
     "n": "Basilica",
     "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-60164",
-    "la": 35.4047,
-    "lo": 8.1224,
-    "k": "temple",
-    "n": "Roman temple",
-    "s": 200,
     "t": 2
   },
   {
@@ -50321,15 +48511,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-68333",
-    "la": 24.6959,
-    "lo": 30.6011,
-    "k": "temple",
-    "n": "Ain Shams Addin",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-68336",
     "la": 25.6011,
     "lo": 30.6059,
@@ -50591,15 +48772,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-68441",
-    "la": 31.7214,
-    "lo": 35.2828,
-    "k": "temple",
-    "n": "Monastery of St. Theodosius",
-    "s": 400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-68442",
     "la": 35.6063,
     "lo": 35.7933,
@@ -50633,15 +48805,6 @@
     "k": "temple",
     "n": "Aya Yorgi Church",
     "s": 500,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-68447",
-    "la": 40.2424,
-    "lo": 43.6633,
-    "k": "temple",
-    "n": "Mren Cathedral",
-    "s": 600,
     "t": 2
   },
   {
@@ -53213,15 +51376,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70828",
-    "la": 41.9392,
-    "lo": 12.6286,
-    "k": "temple",
-    "n": "Church",
-    "s": 500,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70862",
     "la": 41.8394,
     "lo": 12.5353,
@@ -53354,15 +51508,6 @@
     "k": "temple",
     "n": "Abbate Luigi",
     "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70997",
-    "la": 41.9636,
-    "lo": 12.7927,
-    "k": "temple",
-    "n": "Le sanctuaire d'Hercule vainqueur",
-    "s": -199,
     "t": 2
   },
   {
@@ -55892,29 +54037,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7872",
-    "la": 44.8703,
-    "lo": 13.8418,
-    "k": "temple",
-    "n": "Temple of August at Pula",
-    "s": 1,
-    "t": 2
-  },
-  {
     "i": "vici:vici-78740",
     "la": 37.2856,
     "lo": 34.7861,
     "k": "temple",
     "n": "Gülek Bogazi, Caracalla`s Inscription",
     "s": 212,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-7877",
-    "la": 36.4228,
-    "lo": 9.2182,
-    "k": "temple",
-    "n": "Dougga Capitol",
     "t": 2
   },
   {
@@ -56180,15 +54308,6 @@
     "k": "temple",
     "n": "Clendy Alignment",
     "s": -4000,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-7974",
-    "la": 49.7535,
-    "lo": 6.6435,
-    "k": "temple",
-    "n": "Konstantinbasilika",
-    "s": 300,
     "t": 2
   },
   { "i": "vici:vici-8017", "la": 47.324, "lo": 1.2991, "k": "temple", "n": "Tasciaca", "t": 2 },
@@ -56466,16 +54585,6 @@
     "lo": 8.5003,
     "k": "temple",
     "n": "Fluminimaggiore - Tempio di Antas",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-81388",
-    "la": 30.2909,
-    "lo": 63.1776,
-    "k": "temple",
-    "n": "Khwaja Ali Sehyaka (BALL 2127)",
-    "s": -299,
-    "e": 299,
     "t": 2
   },
   {
@@ -57198,15 +55307,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-83410",
-    "la": 45.5399,
-    "lo": 10.2255,
-    "k": "temple",
-    "n": "Roman republican temple",
-    "s": -199,
-    "t": 2
-  },
-  {
     "i": "vici:vici-83456",
     "la": 41.7684,
     "lo": -2.4543,
@@ -57478,15 +55578,6 @@
     "lo": 35.7123,
     "k": "temple",
     "n": "Dir Aziz Synagogue",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8480",
-    "la": 45.54,
-    "lo": 10.2258,
-    "k": "temple",
-    "n": "Tempio capitolino",
     "s": 100,
     "t": 2
   },
@@ -58895,16 +56986,6 @@
     "n": "Basilika Cambodunum",
     "s": 150,
     "e": 345,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-9968",
-    "la": 49.0616,
-    "lo": 9.0057,
-    "k": "temple",
-    "n": "Mithräum (Güglingen)",
-    "s": 120,
-    "e": 250,
     "t": 2
   },
   {

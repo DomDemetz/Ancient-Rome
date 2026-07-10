@@ -137,15 +137,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:arles",
-    "la": 43.6778,
-    "lo": 4.6311,
-    "k": "amphitheater",
-    "n": "Arles",
-    "s": 90,
-    "t": 1
-  },
-  {
     "i": "amphitheater:arnsburg",
     "la": 50.4857,
     "lo": 8.788,
@@ -290,15 +281,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:braga",
-    "la": 41.5467,
-    "lo": -8.4301,
-    "k": "amphitheater",
-    "n": "Braga",
-    "s": 100,
-    "t": 1
-  },
-  {
     "i": "amphitheater:burnum",
     "la": 44.0191,
     "lo": 16.0182,
@@ -371,15 +353,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:capua-ii",
-    "la": 41.0859,
-    "lo": 14.2501,
-    "k": "amphitheater",
-    "n": "Capua II",
-    "s": 75,
-    "t": 1
-  },
-  {
     "i": "amphitheater:carmarthen",
     "la": 51.862,
     "lo": -4.2967,
@@ -395,15 +368,6 @@
     "k": "amphitheater",
     "n": "Carmona",
     "s": -50,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:carnuntum-civ",
-    "la": 48.11,
-    "lo": 16.8509,
-    "k": "amphitheater",
-    "n": "Carnuntum (Civ.)",
-    "s": 100,
     "t": 1
   },
   {
@@ -434,29 +398,11 @@
     "t": 1
   },
   {
-    "i": "amphitheater:cassino",
-    "la": 41.4829,
-    "lo": 13.8236,
-    "k": "amphitheater",
-    "n": "Cassino",
-    "s": 100,
-    "t": 1
-  },
-  {
     "i": "amphitheater:chartres",
     "la": 48.4501,
     "lo": 1.4893,
     "k": "amphitheater",
     "n": "Chartres",
-    "s": 100,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:chassenon",
-    "la": 45.8507,
-    "lo": 0.7689,
-    "k": "amphitheater",
-    "n": "Chassenon",
     "s": 100,
     "t": 1
   },
@@ -494,15 +440,6 @@
     "k": "amphitheater",
     "n": "Chieti",
     "s": 50,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:cimiez",
-    "la": 43.7197,
-    "lo": 7.2752,
-    "k": "amphitheater",
-    "n": "Cimiez",
-    "s": 30,
     "t": 1
   },
   {
@@ -632,30 +569,12 @@
     "t": 1
   },
   {
-    "i": "amphitheater:flavian-amphitheater",
-    "la": 41.8902,
-    "lo": 12.4923,
-    "k": "amphitheater",
-    "n": "Flavian Amphitheater",
-    "s": 80,
-    "t": 1
-  },
-  {
     "i": "amphitheater:forum-novum",
     "la": 42.3299,
     "lo": 12.6034,
     "k": "amphitheater",
     "n": "Forum Novum",
     "s": 50,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:forum-traiani",
-    "la": 39.9932,
-    "lo": 8.8047,
-    "k": "amphitheater",
-    "n": "Forum Traiani",
-    "s": 100,
     "t": 1
   },
   {
@@ -712,15 +631,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:grumento",
-    "la": 40.2876,
-    "lo": 15.9116,
-    "k": "amphitheater",
-    "n": "Grumento",
-    "s": 100,
-    "t": 1
-  },
-  {
     "i": "amphitheater:hisarya",
     "la": 42.5001,
     "lo": 24.7031,
@@ -754,15 +664,6 @@
     "k": "amphitheater",
     "n": "Istanbul",
     "s": 100,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:italica",
-    "la": 37.4439,
-    "lo": -6.0467,
-    "k": "amphitheater",
-    "n": "Italica",
-    "s": 140,
     "t": 1
   },
   {
@@ -847,30 +748,12 @@
     "t": 1
   },
   {
-    "i": "amphitheater:london",
-    "la": 51.5155,
-    "lo": -0.0921,
-    "k": "amphitheater",
-    "n": "London",
-    "s": 70,
-    "t": 1
-  },
-  {
     "i": "amphitheater:lucca",
     "la": 43.8455,
     "lo": 10.5058,
     "k": "amphitheater",
     "n": "Lucca",
     "s": 100,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:lucus-feroniae",
-    "la": 42.1298,
-    "lo": 12.5949,
-    "k": "amphitheater",
-    "n": "Lucus Feroniae",
-    "s": 30,
     "t": 1
   },
   {
@@ -907,15 +790,6 @@
     "k": "amphitheater",
     "n": "Mérida",
     "s": -8,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:mactaris",
-    "la": 35.8556,
-    "lo": 9.2067,
-    "k": "amphitheater",
-    "n": "Mactaris",
-    "s": 150,
     "t": 1
   },
   {
@@ -1090,15 +964,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:paris",
-    "la": 48.8451,
-    "lo": 2.3529,
-    "k": "amphitheater",
-    "n": "Paris",
-    "s": 75,
-    "t": 1
-  },
-  {
     "i": "amphitheater:perugia",
     "la": 43.1079,
     "lo": 12.3891,
@@ -1114,16 +979,6 @@
     "k": "amphitheater",
     "n": "Pollenzo",
     "s": 100,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:pompeii",
-    "la": 40.7512,
-    "lo": 14.4953,
-    "k": "amphitheater",
-    "n": "Pompeii",
-    "s": -80,
-    "e": 79,
     "t": 1
   },
   {
@@ -1271,15 +1126,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:segobriga",
-    "la": 39.886,
-    "lo": -2.8139,
-    "k": "amphitheater",
-    "n": "Segobriga",
-    "s": 90,
-    "t": 1
-  },
-  {
     "i": "amphitheater:senlis",
     "la": 49.2052,
     "lo": 2.5754,
@@ -1361,15 +1207,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:spoleto",
-    "la": 42.7384,
-    "lo": 12.739,
-    "k": "amphitheater",
-    "n": "Spoleto",
-    "s": 50,
-    "t": 1
-  },
-  {
     "i": "amphitheater:st-marcel",
     "la": 46.6015,
     "lo": 1.5183,
@@ -1397,24 +1234,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:susa",
-    "la": 45.1332,
-    "lo": 7.045,
-    "k": "amphitheater",
-    "n": "Susa",
-    "s": -20,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:sutrium",
-    "la": 42.2393,
-    "lo": 12.2293,
-    "k": "amphitheater",
-    "n": "Sutrium",
-    "s": -50,
-    "t": 1
-  },
-  {
     "i": "amphitheater:taneto",
     "la": 44.7695,
     "lo": 10.4469,
@@ -1439,15 +1258,6 @@
     "k": "amphitheater",
     "n": "Teano",
     "s": -70,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:tebessa",
-    "la": 35.4012,
-    "lo": 8.1238,
-    "k": "amphitheater",
-    "n": "Tebessa",
-    "s": 76,
     "t": 1
   },
   {
@@ -1505,15 +1315,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:thuburbo-maius",
-    "la": 36.3982,
-    "lo": 9.9057,
-    "k": "amphitheater",
-    "n": "Thuburbo Maius",
-    "s": 150,
-    "t": 1
-  },
-  {
     "i": "amphitheater:thuburbo-minus",
     "la": 36.8277,
     "lo": 9.8354,
@@ -1568,15 +1369,6 @@
     "t": 1
   },
   {
-    "i": "amphitheater:tomen-y-mur",
-    "la": 52.9319,
-    "lo": -3.9235,
-    "k": "amphitheater",
-    "n": "Tomen y Mur",
-    "s": 100,
-    "t": 1
-  },
-  {
     "i": "amphitheater:torreparedones",
     "la": 37.7525,
     "lo": -4.3806,
@@ -1600,24 +1392,6 @@
     "lo": 11.1253,
     "k": "amphitheater",
     "n": "Trento",
-    "s": 150,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:trier",
-    "la": 49.7481,
-    "lo": 6.6491,
-    "k": "amphitheater",
-    "n": "Trier",
-    "s": 200,
-    "t": 1
-  },
-  {
-    "i": "amphitheater:tusculum",
-    "la": 41.7984,
-    "lo": 12.7021,
-    "k": "amphitheater",
-    "n": "Tusculum",
     "s": 150,
     "t": 1
   },
@@ -2244,17 +2018,6 @@
     "t": 1
   },
   {
-    "i": "building:109791198",
-    "la": 37.8096,
-    "lo": 22.7105,
-    "k": "temple",
-    "n": "Temple of Zeus at Nemea",
-    "s": -550,
-    "e": 640,
-    "d": "pleiades:109791198",
-    "t": 1
-  },
-  {
     "i": "building:110141933",
     "la": 36.5278,
     "lo": 9.3619,
@@ -2690,16 +2453,6 @@
     "t": 1
   },
   {
-    "i": "building:140577",
-    "la": 44.411,
-    "lo": -0.2687,
-    "k": "basilica",
-    "n": "Marimbault Roman Villa",
-    "s": 300,
-    "e": 640,
-    "t": 1
-  },
-  {
     "i": "building:142165735",
     "la": 40.7524,
     "lo": 14.4787,
@@ -3066,16 +2819,6 @@
     "n": "Roman theater at Carthage",
     "s": -30,
     "e": 300,
-    "t": 1
-  },
-  {
-    "i": "building:158820260",
-    "la": 42.1994,
-    "lo": 12.8802,
-    "k": "bridge",
-    "s": -200,
-    "e": 500,
-    "d": "pleiades:158820260",
     "t": 1
   },
   {
@@ -3504,16 +3247,6 @@
     "t": 1
   },
   {
-    "i": "building:168208661",
-    "la": 36.4681,
-    "lo": -4.9936,
-    "k": "bath",
-    "n": "Termas romanas de las Bóvedas",
-    "s": -30,
-    "e": 300,
-    "t": 1
-  },
-  {
     "i": "building:168254096",
     "la": 37.9716,
     "lo": 23.7266,
@@ -3867,7 +3600,7 @@
     "k": "temple",
     "n": "Temple of Magna Mater",
     "s": -191,
-    "e": 300,
+    "e": 394,
     "d": "pleiades:192818177",
     "t": 1
   },
@@ -4124,7 +3857,7 @@
     "lo": 35.2073,
     "k": "basilica",
     "n": "Church of the Nativity",
-    "s": 500,
+    "s": 339,
     "e": 1500,
     "t": 1
   },
@@ -4610,6 +4343,17 @@
     "t": 1
   },
   {
+    "i": "building:243292711",
+    "la": 45.8508,
+    "lo": 0.769,
+    "k": "amphitheater",
+    "n": "Chassenon Roman amphitheater",
+    "s": -30,
+    "e": 300,
+    "d": "amphitheater:chassenon",
+    "t": 1
+  },
+  {
     "i": "building:24441049",
     "la": 45.4475,
     "lo": 11.0018,
@@ -4671,6 +4415,17 @@
     "s": -330,
     "e": 640,
     "d": "pleiades:246252",
+    "t": 1
+  },
+  {
+    "i": "building:246256",
+    "la": 41.4551,
+    "lo": 0.4269,
+    "k": "basilica",
+    "n": "El Bovalar",
+    "s": 300,
+    "e": 640,
+    "d": "religion:246256",
     "t": 1
   },
   {
@@ -5400,6 +5155,17 @@
     "t": 1
   },
   {
+    "i": "building:272709531",
+    "la": 42.7384,
+    "lo": 12.739,
+    "k": "amphitheater",
+    "n": "Roman amphitheater at Spoletium",
+    "s": -30,
+    "e": 1500,
+    "d": "amphitheater:spoleto",
+    "t": 1
+  },
+  {
     "i": "building:275434851",
     "la": 52.0061,
     "lo": -9.0241,
@@ -5553,8 +5319,9 @@
     "lo": 12.4923,
     "k": "amphitheater",
     "n": "Amphitheatrum Flavium",
-    "s": 82,
+    "s": 80,
     "e": 1500,
+    "d": "amphitheater:flavian-amphitheater",
     "t": 1
   },
   {
@@ -5580,17 +5347,6 @@
     "t": 1
   },
   {
-    "i": "building:288390870",
-    "la": 34.7509,
-    "lo": 40.7271,
-    "k": "temple",
-    "n": "Temple of Artemis Azzanathkona Phase 1 (Dura-Europos)",
-    "s": 1,
-    "e": 210,
-    "d": "pleiades:288390870",
-    "t": 1
-  },
-  {
     "i": "building:288984567",
     "la": 36.4218,
     "lo": 9.2214,
@@ -5608,6 +5364,7 @@
     "n": "Église Saint-Vincent de Marimbault",
     "s": 50,
     "e": 1500,
+    "d": "building:140577",
     "t": 1
   },
   {
@@ -5743,6 +5500,17 @@
     "t": 1
   },
   {
+    "i": "building:30276984",
+    "la": 38.9164,
+    "lo": -6.3443,
+    "k": "temple",
+    "n": "Surviving colonnade of the imperial temple at Mérida",
+    "s": -126,
+    "e": 640,
+    "d": "religion:rel-053",
+    "t": 1
+  },
+  {
     "i": "building:303135575",
     "la": 40.834,
     "lo": 16.283,
@@ -5853,6 +5621,7 @@
     "n": "Roman amphitheater at Theveste",
     "s": -30,
     "e": 300,
+    "d": "amphitheater:tebessa",
     "t": 1
   },
   {
@@ -5918,17 +5687,6 @@
     "s": -330,
     "e": 640,
     "d": "pleiades:315263",
-    "t": 1
-  },
-  {
-    "i": "building:316294900",
-    "la": 37.6378,
-    "lo": 21.63,
-    "k": "temple",
-    "n": "Temple of Zeus at Olympia",
-    "s": -400,
-    "e": 400,
-    "d": "pleiades:316294900",
     "t": 1
   },
   {
@@ -6917,7 +6675,7 @@
     "lo": 14.4952,
     "k": "amphitheater",
     "n": "Amphitheater of Pompeii",
-    "s": 76,
+    "s": -80,
     "e": 79,
     "t": 1
   },
@@ -7009,17 +6767,6 @@
     "n": "Roman Forum of Catania",
     "s": -30,
     "e": 300,
-    "t": 1
-  },
-  {
-    "i": "building:387686949",
-    "la": 42.4109,
-    "lo": 11.2865,
-    "k": "temple",
-    "n": "Capitolium of Cosa",
-    "s": -500,
-    "e": 1500,
-    "d": "pleiades:387686949",
     "t": 1
   },
   {
@@ -7282,17 +7029,6 @@
     "t": 1
   },
   {
-    "i": "building:408217405",
-    "la": 38.0409,
-    "lo": 23.5386,
-    "k": "temple",
-    "n": "Telesterion",
-    "s": -750,
-    "e": 1500,
-    "d": "pleiades:408217405",
-    "t": 1
-  },
-  {
     "i": "building:408518928",
     "la": 38.9662,
     "lo": -5.956,
@@ -7310,6 +7046,7 @@
     "n": "Susa Roman amphitheater",
     "s": -30,
     "e": 1500,
+    "d": "amphitheater:susa",
     "t": 1
   },
   {
@@ -7932,16 +7669,6 @@
     "lo": 12.317,
     "k": "basilica",
     "n": "S. Maria di Galeria",
-    "s": -30,
-    "e": 1500,
-    "t": 1
-  },
-  {
-    "i": "building:423051",
-    "la": 41.8586,
-    "lo": 12.4602,
-    "k": "basilica",
-    "n": "S. Passera",
     "s": -30,
     "e": 1500,
     "t": 1
@@ -8663,6 +8390,16 @@
     "t": 1
   },
   {
+    "i": "building:43994933",
+    "la": 43.7197,
+    "lo": 7.2752,
+    "k": "amphitheater",
+    "n": "Arènes de Cimiez",
+    "s": 30,
+    "e": 300,
+    "t": 1
+  },
+  {
     "i": "building:442490",
     "la": 41.8513,
     "lo": 15.7907,
@@ -8724,6 +8461,17 @@
     "n": "Roman theater at Ostia",
     "s": 13,
     "e": 300,
+    "t": 1
+  },
+  {
+    "i": "building:44398170",
+    "la": 45.5242,
+    "lo": 4.8774,
+    "k": "theater",
+    "n": "Roman odeon, Vienne",
+    "s": -50,
+    "e": 640,
+    "d": "building:903082074",
     "t": 1
   },
   {
@@ -8957,7 +8705,7 @@
     "lo": 40.7271,
     "k": "temple",
     "n": "Temple of Artemis Azzanathkona",
-    "s": 10,
+    "s": 1,
     "e": 257,
     "d": "pleiades:462038222",
     "t": 1
@@ -9177,7 +8925,7 @@
     "lo": 13.5936,
     "k": "basilica",
     "n": "Euphrasian Basilica",
-    "s": 553,
+    "s": 400,
     "e": 850,
     "t": 1
   },
@@ -9394,7 +9142,7 @@
     "lo": 12.5509,
     "k": "basilica",
     "n": "San Giovanni de Butris",
-    "s": 50,
+    "s": -330,
     "e": 1453,
     "t": 1
   },
@@ -10414,16 +10162,6 @@
     "t": 1
   },
   {
-    "i": "building:54081048",
-    "la": 37.9096,
-    "lo": 22.8922,
-    "k": "amphitheater",
-    "n": "Roman amphitheater at Corinth",
-    "s": -30,
-    "e": 1500,
-    "t": 1
-  },
-  {
     "i": "building:540840",
     "la": 38.4344,
     "lo": 22.4252,
@@ -10798,8 +10536,8 @@
     "lo": -7.4671,
     "k": "bridge",
     "n": "Ponte de Trajano",
-    "s": 98,
-    "e": 500,
+    "s": -126,
+    "e": 640,
     "d": "pleiades:566027117",
     "t": 1
   },
@@ -10977,7 +10715,7 @@
     "k": "temple",
     "n": "Nemea",
     "s": -750,
-    "e": 400,
+    "e": 640,
     "t": 1
   },
   {
@@ -10987,7 +10725,7 @@
     "k": "temple",
     "n": "Olympia",
     "s": -750,
-    "e": 640,
+    "e": 1500,
     "d": "pleiades:570531",
     "t": 1
   },
@@ -10999,6 +10737,7 @@
     "n": "Roman amphitheater at Grumentum",
     "s": -30,
     "e": 1500,
+    "d": "amphitheater:grumento",
     "t": 1
   },
   {
@@ -11020,17 +10759,6 @@
     "s": -30,
     "e": 500,
     "d": "pleiades:575996197",
-    "t": 1
-  },
-  {
-    "i": "building:576329395",
-    "la": 38.9165,
-    "lo": -6.3444,
-    "k": "temple",
-    "n": "Temple of Diana",
-    "s": -126,
-    "e": 400,
-    "d": "religion:rel-053",
     "t": 1
   },
   {
@@ -11120,6 +10848,17 @@
     "t": 1
   },
   {
+    "i": "building:581674476",
+    "la": 39.8936,
+    "lo": 25.0622,
+    "k": "temple",
+    "n": "Sanctuary of Artemis at Avlonas",
+    "s": -144,
+    "e": 400,
+    "d": "religion:581674476",
+    "t": 1
+  },
+  {
     "i": "building:582358499",
     "la": 45.8106,
     "lo": 9.0867,
@@ -11177,17 +10916,6 @@
     "n": "Roman amphitheater of Thyna",
     "s": -30,
     "e": 300,
-    "t": 1
-  },
-  {
-    "i": "building:584889481",
-    "la": 37.6389,
-    "lo": 21.6298,
-    "k": "temple",
-    "n": "Temple of Hera, Olympia",
-    "s": -600,
-    "e": 1500,
-    "d": "pleiades:584889481",
     "t": 1
   },
   {
@@ -11306,17 +11034,6 @@
     "t": 1
   },
   {
-    "i": "building:593462325",
-    "la": 41.895,
-    "lo": 12.4767,
-    "k": "temple",
-    "n": "Temple D",
-    "s": -337,
-    "e": 400,
-    "d": "pleiades:593462325",
-    "t": 1
-  },
-  {
     "i": "building:594794321",
     "la": 40.7328,
     "lo": 14.6043,
@@ -11414,7 +11131,7 @@
     "la": 37.9405,
     "lo": 27.3424,
     "k": "aqueduct",
-    "s": -126,
+    "s": -330,
     "e": 1500,
     "d": "pleiades:600227",
     "t": 1
@@ -11885,17 +11602,6 @@
     "t": 1
   },
   {
-    "i": "building:635795593",
-    "la": 41.8954,
-    "lo": 12.4769,
-    "k": "temple",
-    "n": "Temple B",
-    "s": -337,
-    "e": 1500,
-    "d": "pleiades:635795593",
-    "t": 1
-  },
-  {
     "i": "building:636310449",
     "la": 37.7009,
     "lo": 14.7998,
@@ -11904,6 +11610,17 @@
     "s": -200,
     "e": 500,
     "d": "pleiades:636310449",
+    "t": 1
+  },
+  {
+    "i": "building:637342541",
+    "la": 42.6591,
+    "lo": 27.7361,
+    "k": "basilica",
+    "n": "Church of Saint Sophia",
+    "s": 50,
+    "e": 250,
+    "d": "religion:637342541",
     "t": 1
   },
   {
@@ -12818,6 +12535,7 @@
     "n": "Roman civil amphitheater at Carnuntum",
     "s": -30,
     "e": 640,
+    "d": "amphitheater:carnuntum-civ",
     "t": 1
   },
   {
@@ -12867,8 +12585,9 @@
     "lo": 2.2062,
     "k": "bath",
     "n": "Thermes gallo-romains, Pithiviers-le-Vieil",
-    "s": -30,
-    "e": 640,
+    "s": -50,
+    "e": 1500,
+    "d": "pleiades:109248",
     "t": 1
   },
   {
@@ -13041,7 +12760,7 @@
     "lo": 12.4798,
     "k": "basilica",
     "n": "Santa Sabina",
-    "s": 401,
+    "s": 200,
     "e": 1500,
     "t": 1
   },
@@ -13261,7 +12980,7 @@
     "lo": 12.1962,
     "k": "basilica",
     "n": "\"Basilica\" of San Vitale",
-    "s": 550,
+    "s": 526,
     "e": 1500,
     "t": 1
   },
@@ -13891,16 +13610,6 @@
     "t": 1
   },
   {
-    "i": "building:785536582",
-    "la": 42.4005,
-    "lo": 13.3061,
-    "k": "amphitheater",
-    "n": "Roman amphitheater at Amiternum",
-    "s": -30,
-    "e": 1500,
-    "t": 1
-  },
-  {
     "i": "building:786050",
     "la": 25.7182,
     "lo": 32.6581,
@@ -14029,17 +13738,6 @@
     "n": "Domus Augustana",
     "s": 92,
     "e": 300,
-    "t": 1
-  },
-  {
-    "i": "building:792786060",
-    "la": 38.889,
-    "lo": -9.4136,
-    "k": "bridge",
-    "n": "Catribana Roman bridge",
-    "s": -144,
-    "e": 500,
-    "d": "pleiades:792786060",
     "t": 1
   },
   {
@@ -14664,17 +14362,6 @@
     "t": 1
   },
   {
-    "i": "building:7963799",
-    "la": 41.84,
-    "lo": 12.8922,
-    "k": "temple",
-    "n": "Sanctuary of Fortuna Primigenia",
-    "s": -150,
-    "e": 1500,
-    "d": "religion:rel-072",
-    "t": 1
-  },
-  {
     "i": "building:79640",
     "la": 52.1794,
     "lo": -0.8348,
@@ -15110,17 +14797,6 @@
     "t": 1
   },
   {
-    "i": "building:808098070",
-    "la": 48.1637,
-    "lo": 2.203,
-    "k": "temple",
-    "n": "Fanum Pithiviers-le-Vieil",
-    "s": -50,
-    "e": 1500,
-    "d": "pleiades:109248",
-    "t": 1
-  },
-  {
     "i": "building:809110141",
     "la": 55.3827,
     "lo": 14.0544,
@@ -15231,16 +14907,6 @@
     "t": 1
   },
   {
-    "i": "building:818256726",
-    "la": 37.941,
-    "lo": 27.3426,
-    "k": "theater",
-    "n": "Theater of Ephesus",
-    "s": -330,
-    "e": 300,
-    "t": 1
-  },
-  {
     "i": "building:818481608",
     "la": 43.8431,
     "lo": 13.0145,
@@ -15258,7 +14924,7 @@
     "n": "Temple A",
     "s": -337,
     "e": 1500,
-    "d": "pleiades:820369854",
+    "d": "pleiades:593462325",
     "t": 1
   },
   {
@@ -15277,7 +14943,7 @@
     "lo": 12.2291,
     "k": "amphitheater",
     "n": "Roman amphitheater at Sutri",
-    "s": -30,
+    "s": -50,
     "e": 300,
     "t": 1
   },
@@ -15289,6 +14955,7 @@
     "n": "Roman amphitheater at Casinum",
     "s": -30,
     "e": 300,
+    "d": "amphitheater:cassino",
     "t": 1
   },
   {
@@ -15442,9 +15109,9 @@
     "lo": 23.726,
     "k": "temple",
     "n": "Sanctuary of Aphrodite/Isis",
-    "s": -550,
+    "s": -650,
     "e": 1500,
-    "d": "pleiades:831413464",
+    "d": "pleiades:517288793",
     "t": 1
   },
   {
@@ -15691,6 +15358,17 @@
     "n": "Civitas Camunnorum amphitheater",
     "s": -30,
     "e": 1500,
+    "t": 1
+  },
+  {
+    "i": "building:853733571",
+    "la": 39.9932,
+    "lo": 8.8047,
+    "k": "amphitheater",
+    "n": "Roman amphitheater at Hydata Hypsitana/Forum Traiani",
+    "s": -30,
+    "e": 300,
+    "d": "amphitheater:forum-traiani",
     "t": 1
   },
   {
@@ -16029,17 +15707,6 @@
     "t": 1
   },
   {
-    "i": "building:877521473",
-    "la": 39.9578,
-    "lo": 26.2392,
-    "k": "temple",
-    "n": "Temple of Athena (Ilium)",
-    "s": -330,
-    "e": 1500,
-    "d": "pleiades:877521473",
-    "t": 1
-  },
-  {
     "i": "building:877549424",
     "la": 39.1318,
     "lo": 27.1833,
@@ -16057,6 +15724,7 @@
     "n": "Tomen y Mur amphitheatre",
     "s": 43,
     "e": 410,
+    "d": "amphitheater:tomen-y-mur",
     "t": 1
   },
   {
@@ -16107,6 +15775,7 @@
     "n": "Roman amphitheater at Thuburbo Maius",
     "s": -30,
     "e": 300,
+    "d": "amphitheater:thuburbo-maius",
     "t": 1
   },
   {
@@ -16183,17 +15852,6 @@
     "t": 1
   },
   {
-    "i": "building:888638000",
-    "la": 34.75,
-    "lo": 40.7257,
-    "k": "temple",
-    "n": "Late Mithraeum",
-    "s": 117,
-    "e": 257,
-    "d": "pleiades:888638000",
-    "t": 1
-  },
-  {
     "i": "building:888638003",
     "la": 34.7511,
     "lo": 40.7289,
@@ -16259,17 +15917,6 @@
     "t": 1
   },
   {
-    "i": "building:888638014",
-    "la": 34.7509,
-    "lo": 40.7258,
-    "k": "temple",
-    "n": "Temple of Bêl",
-    "s": 1,
-    "e": 257,
-    "d": "pleiades:888638014",
-    "t": 1
-  },
-  {
     "i": "building:888638015",
     "la": 34.744,
     "lo": 40.7285,
@@ -16331,16 +15978,6 @@
     "k": "bath",
     "n": "Bath E3 Phase 1",
     "s": 165,
-    "e": 257,
-    "t": 1
-  },
-  {
-    "i": "building:888638044",
-    "la": 34.7508,
-    "lo": 40.7283,
-    "k": "bath",
-    "n": "Bath E3 Phase 2",
-    "s": 210,
     "e": 257,
     "t": 1
   },
@@ -16632,16 +16269,6 @@
     "s": -30,
     "e": 640,
     "d": "pleiades:90199885",
-    "t": 1
-  },
-  {
-    "i": "building:903082074",
-    "la": 45.5248,
-    "lo": 4.8789,
-    "k": "theater",
-    "n": "Roman theater of Vienne",
-    "s": -30,
-    "e": 640,
     "t": 1
   },
   {
@@ -17091,6 +16718,7 @@
     "n": "Roman amphitheater at Mactaris",
     "s": -30,
     "e": 300,
+    "d": "amphitheater:mactaris",
     "t": 1
   },
   {
@@ -17201,6 +16829,7 @@
     "n": "Roman amphitheater at Lucus Feroniae",
     "s": -30,
     "e": 300,
+    "d": "amphitheater:lucus-feroniae",
     "t": 1
   },
   {
@@ -17262,7 +16891,7 @@
     "n": "Sanctuary of Asklepios at Athens",
     "s": -550,
     "e": 1500,
-    "d": "pleiades:954340915",
+    "d": "religion:rel-208",
     "t": 1
   },
   {
@@ -17547,6 +17176,7 @@
     "n": "Roman amphitheater at Segobriga",
     "s": -30,
     "e": 1500,
+    "d": "amphitheater:segobriga",
     "t": 1
   },
   {
@@ -17609,17 +17239,6 @@
     "n": "Roman amphitheater at Ocriculum",
     "s": -30,
     "e": 1500,
-    "t": 1
-  },
-  {
-    "i": "building:977420436",
-    "la": 34.751,
-    "lo": 40.7272,
-    "k": "temple",
-    "n": "Temple of Artemis Azzanathkona Phase 2",
-    "s": 100,
-    "e": 257,
-    "d": "pleiades:977420436",
     "t": 1
   },
   {
@@ -17701,17 +17320,6 @@
     "n": "Forum of Nerva",
     "s": -30,
     "e": 1500,
-    "t": 1
-  },
-  {
-    "i": "building:98504070",
-    "la": 37.6388,
-    "lo": 21.6308,
-    "k": "temple",
-    "n": "Metroon at Olympia",
-    "s": -550,
-    "e": 300,
-    "d": "pleiades:98504070",
     "t": 1
   },
   {
@@ -18409,14 +18017,6 @@
     "t": 1
   },
   {
-    "i": "pleiades:517288793",
-    "la": 37.9722,
-    "lo": 23.7259,
-    "k": "building",
-    "n": "Building III on the Athenian Acropolis",
-    "t": 1
-  },
-  {
     "i": "pleiades:529754544",
     "la": 32.8188,
     "lo": 21.8565,
@@ -19036,15 +18636,6 @@
     "t": 2
   },
   {
-    "i": "amphitheater:aosta",
-    "la": 45.7409,
-    "lo": 7.3235,
-    "k": "amphitheater",
-    "n": "Aosta",
-    "s": 30,
-    "t": 2
-  },
-  {
     "i": "amphitheater:aquae-neri",
     "la": 46.2899,
     "lo": 2.6582,
@@ -19078,15 +18669,6 @@
     "k": "amphitheater",
     "n": "Besançon",
     "s": 150,
-    "t": 2
-  },
-  {
-    "i": "amphitheater:caparra",
-    "la": 40.1642,
-    "lo": -6.1,
-    "k": "amphitheater",
-    "n": "Caparra",
-    "s": 100,
     "t": 2
   },
   {
@@ -19132,16 +18714,6 @@
     "k": "amphitheater",
     "n": "Djerba",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "amphitheater:dura-europos",
-    "la": 34.7499,
-    "lo": 40.7289,
-    "k": "amphitheater",
-    "n": "Dura Europos",
-    "s": 216,
-    "e": 257,
     "t": 2
   },
   {
@@ -19624,16 +19196,6 @@
     "t": 2
   },
   {
-    "i": "building:109342090",
-    "la": 42.2834,
-    "lo": 13.6239,
-    "k": "temple",
-    "n": "Temple of Peltuinum",
-    "s": -301,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "building:109421",
     "la": 50.7132,
     "lo": 6.5698,
@@ -20079,17 +19641,6 @@
     "t": 2
   },
   {
-    "i": "building:131160567",
-    "la": 37.9041,
-    "lo": -4.7562,
-    "k": "bridge",
-    "n": "Pedroches Roman Bridge",
-    "s": -200,
-    "e": 500,
-    "d": "pleiades:131160567",
-    "t": 2
-  },
-  {
     "i": "building:133324175",
     "la": 32.5285,
     "lo": 44.4184,
@@ -20356,7 +19907,7 @@
     "lo": 35.8886,
     "k": "basilica",
     "n": "Bishop Genesius Church",
-    "s": 600,
+    "s": 50,
     "e": 1500,
     "t": 2
   },
@@ -20861,16 +20412,6 @@
     "t": 2
   },
   {
-    "i": "building:138925",
-    "la": 47.5,
-    "lo": 0.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near E Caesarodunum",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:138926",
     "la": 47.5,
     "lo": 1.5,
@@ -20931,26 +20472,6 @@
     "t": 2
   },
   {
-    "i": "building:138931",
-    "la": 46.5,
-    "lo": 2.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near Aqueduc des Combes, SW Aquae Neri",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:138932",
-    "la": 46.5,
-    "lo": 2.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near Aqueduc des Viviers, SE Aquae Neri",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:138933",
     "la": 46.5,
     "lo": 3.5,
@@ -20987,16 +20508,6 @@
     "k": "bridge",
     "n": "Bridge near ‘Pretorio’",
     "s": -50,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:139681",
-    "la": 45.5,
-    "lo": 1.5,
-    "k": "bridge",
-    "n": "Bridge near W Augustoritum",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -22245,16 +21756,6 @@
     "t": 2
   },
   {
-    "i": "building:148741",
-    "la": 43.75,
-    "lo": 5.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Fontaine de Vaucluse",
-    "s": -110,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:149492",
     "la": 43.7172,
     "lo": 4.1519,
@@ -22526,16 +22027,6 @@
     "t": 2
   },
   {
-    "i": "building:158554",
-    "la": 43.75,
-    "lo": 7.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Cemenelum",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:158555",
     "la": 43.7976,
     "lo": 7.6213,
@@ -22592,6 +22083,8 @@
     "lo": 21.3967,
     "k": "basilica",
     "n": "Qasr Libya, West Church",
+    "s": 50,
+    "e": 250,
     "t": 2
   },
   {
@@ -22848,26 +22341,6 @@
     "t": 2
   },
   {
-    "i": "building:169124",
-    "la": 45.75,
-    "lo": 4.75,
-    "k": "bridge",
-    "n": "Bridge near Col. Vienna",
-    "s": -50,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:169125",
-    "la": 45.75,
-    "lo": 4.75,
-    "k": "bridge",
-    "n": "Bridge near E Combeplaine",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:169126",
     "la": 45.064,
     "lo": 4.7887,
@@ -22894,16 +22367,6 @@
     "k": "bridge",
     "n": "Bridge near Vasio",
     "s": -50,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:169132",
-    "la": 44.25,
-    "lo": 5.25,
-    "k": "bridge",
-    "n": "Bridge near NE Noiomagos, at Villeperdrix",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -23135,6 +22598,8 @@
     "lo": 23.9005,
     "k": "theater",
     "n": "Theater of Icarion Aegeidas (Attica)",
+    "s": -550,
+    "e": 400,
     "t": 2
   },
   {
@@ -23381,16 +22846,6 @@
     "t": 2
   },
   {
-    "i": "building:188758",
-    "la": 46.5,
-    "lo": 11.5,
-    "k": "bridge",
-    "n": "Bridge near Tirol over At(h",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:188761",
     "la": 47.8539,
     "lo": 12.1734,
@@ -23472,46 +22927,6 @@
     "t": 2
   },
   {
-    "i": "building:197812",
-    "la": 45.5,
-    "lo": 13.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near between Capris and Piranum",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:197813",
-    "la": 45.5,
-    "lo": 13.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near S Parentium at Molindrio",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:197814",
-    "la": 45.5,
-    "lo": 13.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near ‘Silvo’",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:197815",
-    "la": 45.5,
-    "lo": 13.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near Tergeste",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:197816",
     "la": 46.5,
     "lo": 14.5,
@@ -23538,16 +22953,6 @@
     "k": "aqueduct",
     "n": "Aqueduct near Cissa",
     "s": -300,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:197819",
-    "la": 44.5,
-    "lo": 14.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near W Cissa",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -25784,16 +25189,6 @@
     "s": -330,
     "e": 640,
     "d": "pleiades:208942848",
-    "t": 2
-  },
-  {
-    "i": "building:208942849",
-    "la": 42.6801,
-    "lo": 12.551,
-    "k": "bridge",
-    "n": "Ponte di San Giovanni de Butris",
-    "s": -330,
-    "e": 500,
     "t": 2
   },
   {
@@ -28747,26 +28142,6 @@
     "t": 2
   },
   {
-    "i": "building:237841",
-    "la": 42.8391,
-    "lo": -4.2345,
-    "k": "bridge",
-    "n": "Puente de la Perdiz",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:237846",
-    "la": 41.7383,
-    "lo": -7.4671,
-    "k": "bridge",
-    "n": "Roman Bridge (Chaves)",
-    "s": -126,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:238098309",
     "la": 41.7533,
     "lo": 12.2838,
@@ -28832,16 +28207,6 @@
     "lo": 29.2901,
     "k": "theater",
     "n": "Theater at Letoon",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:243292711",
-    "la": 45.8508,
-    "lo": 0.769,
-    "k": "amphitheater",
-    "n": "Chassenon Roman amphitheater",
     "s": -30,
     "e": 300,
     "t": 2
@@ -28953,16 +28318,6 @@
     "k": "villa",
     "n": "Blacinaco?",
     "s": -330,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:246256",
-    "la": 41.4551,
-    "lo": 0.4269,
-    "k": "basilica",
-    "n": "El Bovalar",
-    "s": 300,
     "e": 640,
     "t": 2
   },
@@ -30324,26 +29679,6 @@
     "t": 2
   },
   {
-    "i": "building:256706",
-    "la": 38.5,
-    "lo": -6.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near at La Torre de Miguel Sesmero",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:256707",
-    "la": 38.5,
-    "lo": -6.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near at Lobón",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:256710",
     "la": 37.5,
     "lo": -6.5,
@@ -30391,36 +29726,6 @@
     "n": "Ponte Ezzu",
     "s": -200,
     "e": 1500,
-    "t": 2
-  },
-  {
-    "i": "building:257462",
-    "la": 39.5,
-    "lo": -6.5,
-    "k": "bridge",
-    "n": "Bridge near E Tourmogon at El Campillo, over R. Tajo",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:257463",
-    "la": 39.5,
-    "lo": -6.5,
-    "k": "bridge",
-    "n": "Bridge near Ad Sorores (El Garro",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:257464",
-    "la": 39.5,
-    "lo": -6.5,
-    "k": "bridge",
-    "n": "Bridge near Caurium (Guijo",
-    "s": -30,
-    "e": 640,
     "t": 2
   },
   {
@@ -30706,16 +30011,6 @@
     "n": "Troulli tis Korfis",
     "s": -66,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "building:272709531",
-    "la": 42.7384,
-    "lo": 12.739,
-    "k": "amphitheater",
-    "n": "Roman amphitheater at Spoletium",
-    "s": -30,
-    "e": 1500,
     "t": 2
   },
   {
@@ -31410,16 +30705,6 @@
     "t": 2
   },
   {
-    "i": "building:30276984",
-    "la": 38.9164,
-    "lo": -6.3443,
-    "k": "temple",
-    "n": "Surviving colonnade of the imperial temple at Mérida",
-    "s": -126,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:302890394",
     "la": 41.8584,
     "lo": 12.8192,
@@ -31587,16 +30872,6 @@
     "n": "Aqueduct near from Ain bou Merzoug to Cirta",
     "s": -212,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:306780756",
-    "la": 42.0388,
-    "lo": 11.8812,
-    "k": "bridge",
-    "n": "Ponte di Apollo, Punicum",
-    "s": -200,
-    "e": 500,
     "t": 2
   },
   {
@@ -32000,36 +31275,6 @@
     "t": 2
   },
   {
-    "i": "building:315595",
-    "la": 36.25,
-    "lo": 9.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near from Ain Moungas",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:315596",
-    "la": 36.25,
-    "lo": 9.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near N Ain-Golea",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:315597",
-    "la": 36.25,
-    "lo": 9.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near SW Agbia, near Douar el Kseiba",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:315600",
     "la": 36.75,
     "lo": 9.75,
@@ -32056,16 +31301,6 @@
     "k": "aqueduct",
     "n": "Aqueduct near near Vallis",
     "s": -144,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:315605",
-    "la": 36.75,
-    "lo": 10.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near near Henchir-Sidi-ben-Nour",
-    "s": -256,
     "e": 640,
     "t": 2
   },
@@ -32157,16 +31392,6 @@
     "k": "bridge",
     "n": "Bridge near E Simitthu",
     "s": -144,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:317858",
-    "la": 36.25,
-    "lo": 8.75,
-    "k": "bridge",
-    "n": "Bridge near between Sicca Veneria and Ucubi",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -32850,16 +32075,6 @@
     "n": "Aydıncık Theater or Odeon",
     "s": -330,
     "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:344059954",
-    "la": 51.381,
-    "lo": -2.3597,
-    "k": "bath",
-    "n": "Roman Baths (Bath)",
-    "s": 43,
-    "e": 410,
     "t": 2
   },
   {
@@ -33720,7 +32935,7 @@
     "lo": 12.6286,
     "k": "basilica",
     "n": "Paleochristian basilica",
-    "s": 300,
+    "s": 50,
     "e": 499,
     "t": 2
   },
@@ -34274,16 +33489,6 @@
     "t": 2
   },
   {
-    "i": "building:374483",
-    "la": 32.5,
-    "lo": 20.5,
-    "k": "aqueduct",
-    "n": "Aqueduct near Hadrianopolis",
-    "s": 117,
-    "e": 300,
-    "t": 2
-  },
-  {
     "i": "building:374484",
     "la": 32.5,
     "lo": 21.5,
@@ -34598,31 +33803,11 @@
     "t": 2
   },
   {
-    "i": "building:384305",
-    "la": 44.75,
-    "lo": 8.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Libarna",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:384306",
     "la": 45.75,
     "lo": 10.25,
     "k": "aqueduct",
     "n": "Aqueduct near Brixia (Mompiano",
-    "s": -14,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:384307",
-    "la": 45.75,
-    "lo": 10.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Brixia (Villa Carcina and Val Trompia",
     "s": -30,
     "e": 640,
     "t": 2
@@ -34695,17 +33880,6 @@
     "n": "Bridge near over [Sesterrio] fl., at Fidentia",
     "s": -188,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:385067",
-    "la": 44.77,
-    "lo": 10.4267,
-    "k": "bridge",
-    "n": "Enza Roman Bridge",
-    "s": -188,
-    "e": 1500,
-    "d": "pleiades:385067",
     "t": 2
   },
   {
@@ -34826,16 +34000,6 @@
     "lo": 12.25,
     "k": "bridge",
     "n": "Bridge near near Compitum ad Confluentes",
-    "s": -200,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:394870",
-    "la": 45.75,
-    "lo": 12.75,
-    "k": "bridge",
-    "n": "Bridge near at Ad Sanos (near S. Anastasio",
     "s": -200,
     "e": 640,
     "t": 2
@@ -35609,16 +34773,6 @@
     "t": 2
   },
   {
-    "i": "building:423057",
-    "la": 41.9448,
-    "lo": 12.6636,
-    "k": "basilica",
-    "n": "S. Sinforosa",
-    "s": 50,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:423070",
     "la": 42.0074,
     "lo": 12.5229,
@@ -35626,16 +34780,6 @@
     "n": "Settebagni",
     "s": -100,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:423090",
-    "la": 41.7111,
-    "lo": 12.3469,
-    "k": "villa",
-    "n": "Tor Paterno",
-    "s": -100,
-    "e": 1500,
     "t": 2
   },
   {
@@ -35829,8 +34973,8 @@
     "lo": 12.625,
     "k": "bridge",
     "n": "Bridge near near Muraccio dell’Omo",
-    "s": -200,
-    "e": 500,
+    "s": -330,
+    "e": 640,
     "t": 2
   },
   {
@@ -35932,16 +35076,6 @@
     "s": -300,
     "e": 640,
     "d": "pleiades:426598",
-    "t": 2
-  },
-  {
-    "i": "building:426603",
-    "la": 41.875,
-    "lo": 12.625,
-    "k": "bridge",
-    "n": "Bridge near bridge on Via Labicana",
-    "s": -330,
-    "e": 640,
     "t": 2
   },
   {
@@ -36098,16 +35232,6 @@
     "t": 2
   },
   {
-    "i": "building:426631",
-    "la": 41.625,
-    "lo": 12.875,
-    "k": "bridge",
-    "n": "Bridge near bridge over Fosso delle Mole",
-    "s": -330,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:426632",
     "la": 41.7231,
     "lo": 12.7694,
@@ -36115,17 +35239,6 @@
     "n": "Temple near temple at Algidus M.",
     "s": -337,
     "e": 400,
-    "t": 2
-  },
-  {
-    "i": "building:426634",
-    "la": 41.5035,
-    "lo": 12.9504,
-    "k": "bridge",
-    "n": "Ponte di Traiano at Tor Tre Ponti",
-    "s": -200,
-    "e": 1500,
-    "d": "pleiades:426634",
     "t": 2
   },
   {
@@ -36258,16 +35371,6 @@
     "n": "Grottacce",
     "s": -100,
     "e": 500,
-    "t": 2
-  },
-  {
-    "i": "building:432920",
-    "la": 41.6783,
-    "lo": 13.9082,
-    "k": "temple",
-    "n": "Madonnna del Canneto",
-    "s": -330,
-    "e": 1500,
     "t": 2
   },
   {
@@ -36495,16 +35598,6 @@
     "t": 2
   },
   {
-    "i": "building:434140",
-    "la": 41.25,
-    "lo": 14.75,
-    "k": "bridge",
-    "n": "Bridge near Via Traiana bridge over Calor, E Beneventum",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
     "i": "building:43471155",
     "la": 36.0995,
     "lo": 43.3279,
@@ -36563,16 +35656,6 @@
     "n": "Northwest Palace at Kalhu",
     "s": -1000,
     "e": 1500,
-    "t": 2
-  },
-  {
-    "i": "building:43994933",
-    "la": 43.7197,
-    "lo": 7.2752,
-    "k": "amphitheater",
-    "n": "Arènes de Cimiez",
-    "s": 70,
-    "e": 300,
     "t": 2
   },
   {
@@ -36778,16 +35861,6 @@
     "t": 2
   },
   {
-    "i": "building:443949",
-    "la": 40.6439,
-    "lo": 15.483,
-    "k": "bridge",
-    "n": "Roman bridge",
-    "s": -200,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:443950",
     "la": 41.5331,
     "lo": 15.5424,
@@ -36803,27 +35876,7 @@
     "lo": 15.75,
     "k": "bridge",
     "n": "Bridge near over R. Ofanto, between Herdoniae and Venusia",
-    "s": -200,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:443952",
-    "la": 41.25,
-    "lo": 15.75,
-    "k": "bridge",
-    "n": "Bridge near over R. Carapelle at Ausculum",
     "s": -330,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:443953",
-    "la": 41.25,
-    "lo": 15.75,
-    "k": "bridge",
-    "n": "Bridge near over R. Carapelle at Herdoniae on Via Traiana",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -36875,27 +35928,6 @@
     "n": "Bridge near over R. Agri, near Armento",
     "s": -200,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:44398170",
-    "la": 45.5242,
-    "lo": 4.8774,
-    "k": "theater",
-    "n": "Roman odeon, Vienne",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:446852118",
-    "la": 46.5578,
-    "lo": 0.3234,
-    "k": "aqueduct",
-    "n": "Roman aqueduct near Limonum",
-    "s": -50,
-    "e": 500,
-    "d": "pleiades:446852118",
     "t": 2
   },
   {
@@ -36996,17 +36028,6 @@
     "n": "Bridge near NW Camerelle, over R. Coscile",
     "s": -200,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:453759",
-    "la": 39.1329,
-    "lo": 16.2746,
-    "k": "bridge",
-    "n": "Bridge near N Ad Fluvium Sabutum, over R. Savuto",
-    "s": -200,
-    "e": 640,
-    "d": "pleiades:453759",
     "t": 2
   },
   {
@@ -37461,16 +36482,6 @@
     "t": 2
   },
   {
-    "i": "building:462820",
-    "la": 37.75,
-    "lo": 15.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Tauromenium",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
     "i": "building:462821",
     "la": 37.25,
     "lo": 15.25,
@@ -37496,16 +36507,6 @@
     "lo": 13.571,
     "k": "bridge",
     "n": "Bridge near Akragas, over R. S. Anna",
-    "s": -200,
-    "e": 500,
-    "t": 2
-  },
-  {
-    "i": "building:463575",
-    "la": 38.0188,
-    "lo": 14.1801,
-    "k": "bridge",
-    "n": "Bridge near E Cephaloedium",
     "s": -200,
     "e": 500,
     "t": 2
@@ -37729,16 +36730,6 @@
     "k": "bridge",
     "n": "Bridge near Molaria",
     "s": -200,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:472633",
-    "la": 40.5,
-    "lo": 8.5,
-    "k": "bridge",
-    "n": "Bridge near N Hydata Hypsitana",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -38116,36 +37107,6 @@
     "t": 2
   },
   {
-    "i": "building:502833",
-    "la": 41.25,
-    "lo": 23.75,
-    "k": "bridge",
-    "n": "Bridge near S Skopia, near Lefkopetra",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:502834",
-    "la": 41.25,
-    "lo": 23.75,
-    "k": "bridge",
-    "n": "Bridge near E Gazoros, at Nea Zichni",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:502835",
-    "la": 41.25,
-    "lo": 23.75,
-    "k": "bridge",
-    "n": "Bridge near N Domeros, at Angista",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:502836",
     "la": 41.0186,
     "lo": 24.0373,
@@ -38352,16 +37313,6 @@
     "n": "Bridge near SE Nicomedia",
     "s": -30,
     "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:513101019",
-    "la": 41.9232,
-    "lo": 12.7831,
-    "k": "bridge",
-    "n": "Ponte San Stefano",
-    "s": -200,
-    "e": 500,
     "t": 2
   },
   {
@@ -39030,7 +37981,7 @@
     "k": "aqueduct",
     "n": "Aqueduct near Aqua Traiana, at Ak Pınar",
     "s": -126,
-    "e": 500,
+    "e": 640,
     "t": 2
   },
   {
@@ -39042,16 +37993,6 @@
     "s": -126,
     "e": 500,
     "d": "pleiades:551154",
-    "t": 2
-  },
-  {
-    "i": "building:551158",
-    "la": 38.25,
-    "lo": 27.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Smyrna",
-    "s": -30,
-    "e": 300,
     "t": 2
   },
   {
@@ -39385,26 +38326,6 @@
     "t": 2
   },
   {
-    "i": "building:580599",
-    "la": 38.125,
-    "lo": 23.875,
-    "k": "aqueduct",
-    "n": "Aqueduct near Athens from N",
-    "s": -550,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:580600",
-    "la": 38.125,
-    "lo": 23.875,
-    "k": "aqueduct",
-    "n": "Aqueduct near Athens from NE",
-    "s": -550,
-    "e": 300,
-    "t": 2
-  },
-  {
     "i": "building:580601",
     "la": 37.875,
     "lo": 23.875,
@@ -39455,17 +38376,6 @@
     "t": 2
   },
   {
-    "i": "building:581674476",
-    "la": 39.8936,
-    "lo": 25.0622,
-    "k": "temple",
-    "n": "Sanctuary of Artemis at Avlonas",
-    "s": -144,
-    "e": 400,
-    "d": "pleiades:581674476",
-    "t": 2
-  },
-  {
     "i": "building:582358863",
     "la": 40.8068,
     "lo": 14.3453,
@@ -39494,16 +38404,6 @@
     "s": -300,
     "e": 640,
     "d": "pleiades:583864320",
-    "t": 2
-  },
-  {
-    "i": "building:584305092",
-    "la": 36.3208,
-    "lo": 5.7364,
-    "k": "temple",
-    "n": "Temple of the Severan family",
-    "s": 193,
-    "e": 640,
     "t": 2
   },
   {
@@ -39614,7 +38514,8 @@
     "k": "bridge",
     "n": "Ponte di Annibale - Sant'Angelo",
     "s": -200,
-    "e": 500,
+    "e": 640,
+    "d": "pleiades:453759",
     "t": 2
   },
   {
@@ -39838,16 +38739,6 @@
     "t": 2
   },
   {
-    "i": "building:600231",
-    "la": 38.25,
-    "lo": 27.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near S from *Boneita to Ephesus",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:600232",
     "la": 37.75,
     "lo": 27.25,
@@ -39888,32 +38779,12 @@
     "t": 2
   },
   {
-    "i": "building:600236",
-    "la": 36.75,
-    "lo": 27.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near N Pele on Kos",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
     "i": "building:600237",
     "la": 37.75,
     "lo": 27.75,
     "k": "aqueduct",
     "n": "Aqueduct near at Tralles",
     "s": -164,
-    "e": 500,
-    "t": 2
-  },
-  {
-    "i": "building:600238",
-    "la": 37.75,
-    "lo": 27.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near at Tralles",
-    "s": 300,
     "e": 640,
     "t": 2
   },
@@ -40122,16 +38993,6 @@
     "t": 2
   },
   {
-    "i": "building:610797",
-    "la": 38.75,
-    "lo": 28.75,
-    "k": "bridge",
-    "n": "Bridge near over Hermos fl., N *Dima, *Kerbia",
-    "s": -126,
-    "e": 500,
-    "t": 2
-  },
-  {
     "i": "building:610799",
     "la": 38.1741,
     "lo": 29.7356,
@@ -40198,16 +39059,6 @@
     "k": "bridge",
     "n": "Bridge near E Prymnessos. at Sülümenli",
     "s": -126,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:610806",
-    "la": 38.75,
-    "lo": 30.75,
-    "k": "bridge",
-    "n": "Bridge near N Akroenos, at Altıgöz Köprüsü",
-    "s": 300,
     "e": 640,
     "t": 2
   },
@@ -40384,16 +39235,6 @@
     "t": 2
   },
   {
-    "i": "building:623510547",
-    "la": 42.9308,
-    "lo": -8.1303,
-    "k": "bridge",
-    "n": "Ribadiso Roman bridge",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:625262900",
     "la": 37.9781,
     "lo": 41.385,
@@ -40552,14 +39393,8 @@
     "lo": 36.5311,
     "k": "basilica",
     "n": "al-Husn Church",
-    "t": 2
-  },
-  {
-    "i": "building:637342541",
-    "la": 42.6591,
-    "lo": 27.7361,
-    "k": "basilica",
-    "n": "Church of Saint Sophia",
+    "s": 50,
+    "e": 250,
     "t": 2
   },
   {
@@ -40709,8 +39544,8 @@
     "lo": -4.2658,
     "k": "bath",
     "n": "Segontium: Roman Bath House",
-    "s": 43,
-    "e": 410,
+    "s": -200,
+    "e": 476,
     "t": 2
   },
   {
@@ -41059,16 +39894,6 @@
     "t": 2
   },
   {
-    "i": "building:659118",
-    "la": 37.25,
-    "lo": 35.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near NW Anazarbos",
-    "s": 300,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:659119",
     "la": 36.75,
     "lo": 35.75,
@@ -41076,16 +39901,6 @@
     "n": "Aqueduct near N Mopsou(h",
     "s": -300,
     "e": 500,
-    "t": 2
-  },
-  {
-    "i": "building:659120",
-    "la": 36.75,
-    "lo": 35.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Katabolos",
-    "s": -30,
-    "e": 300,
     "t": 2
   },
   {
@@ -41106,16 +39921,6 @@
     "n": "Aqueduct near E Epiphaneia",
     "s": -30,
     "e": 500,
-    "t": 2
-  },
-  {
-    "i": "building:659123",
-    "la": 36.75,
-    "lo": 36.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near W Epiphaneia",
-    "s": -30,
-    "e": 300,
     "t": 2
   },
   {
@@ -41160,16 +39965,6 @@
     "t": 2
   },
   {
-    "i": "building:659875",
-    "la": 37.25,
-    "lo": 35.75,
-    "k": "bridge",
-    "n": "Bridge near S Anazarbos",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
     "i": "building:659876",
     "la": 36.25,
     "lo": 36.25,
@@ -41177,26 +39972,6 @@
     "n": "Bridge near over Melas fl.",
     "s": -63,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:659877",
-    "la": 36.25,
-    "lo": 36.25,
-    "k": "bridge",
-    "n": "Bridge near at Gephyra",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:659878",
-    "la": 36.25,
-    "lo": 36.25,
-    "k": "bridge",
-    "n": "Bridge near at Sinanlı, NE Symeon Mon.",
-    "s": -30,
-    "e": 300,
     "t": 2
   },
   {
@@ -41715,16 +40490,6 @@
     "t": 2
   },
   {
-    "i": "building:678748",
-    "la": 32.75,
-    "lo": 34.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Caesarea",
-    "s": -330,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:678749",
     "la": 33.25,
     "lo": 35.25,
@@ -41825,46 +40590,6 @@
     "t": 2
   },
   {
-    "i": "building:678760",
-    "la": 32.75,
-    "lo": 35.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Gamala",
-    "s": -30,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:678761",
-    "la": 32.75,
-    "lo": 35.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Chorsia",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:678762",
-    "la": 32.75,
-    "lo": 35.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Hippos",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:678763",
-    "la": 32.75,
-    "lo": 35.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Tiberias",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:679502",
     "la": 32.25,
     "lo": 34.75,
@@ -41942,16 +40667,6 @@
     "k": "bridge",
     "n": "Bridge near Nahr Beyrut, E Berytus",
     "s": -63,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:679510",
-    "la": 33.75,
-    "lo": 35.75,
-    "k": "bridge",
-    "n": "Bridge near Nahr el-Kelb, SW Palaibyblos",
-    "s": -30,
     "e": 640,
     "t": 2
   },
@@ -42137,93 +40852,13 @@
     "t": 2
   },
   {
-    "i": "building:688563",
-    "la": 31.75,
-    "lo": 34.75,
-    "k": "aqueduct",
-    "n": "Aqueduct near Emmaus",
-    "s": 300,
-    "e": 640,
-    "t": 2
-  },
-  {
     "i": "building:688565",
     "la": 31.75,
     "lo": 35.25,
     "k": "aqueduct",
     "n": "Aqueduct near Archelais",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:688566",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Hierichous area",
-    "s": -330,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:688567",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Na'aran",
     "s": -330,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:688568",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Kypros",
-    "s": -330,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:688569",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Ierusalem",
-    "s": -330,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:688570",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Herodeion",
-    "s": -330,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:688571",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Qumran",
-    "s": -330,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:688572",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "aqueduct",
-    "n": "Aqueduct near Kastellion",
-    "s": -330,
-    "e": 300,
     "t": 2
   },
   {
@@ -42242,16 +40877,6 @@
     "lo": 34.75,
     "k": "bridge",
     "n": "Bridge near Ferekhiyeh, over R. Yarkon, between Ioppe and Neapolis",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:689318",
-    "la": 32.25,
-    "lo": 34.75,
-    "k": "bridge",
-    "n": "Bridge near Jisr es Sudah, over R. Ayalon, between Lydda and Antipatris",
     "s": -30,
     "e": 640,
     "t": 2
@@ -42282,16 +40907,6 @@
     "lo": 34.75,
     "k": "bridge",
     "n": "Bridge near el Jisr, over R. Lakhish, between Ashqelon and Ierusalem",
-    "s": -30,
-    "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:689323",
-    "la": 31.75,
-    "lo": 35.25,
-    "k": "bridge",
-    "n": "Bridge near near Hierichous, at Jisr Wadi el Qelt across Wadi Qelt",
     "s": -30,
     "e": 640,
     "t": 2
@@ -43223,7 +41838,8 @@
     "k": "bridge",
     "n": "Ponte di Traiano",
     "s": -200,
-    "e": 500,
+    "e": 1500,
+    "d": "pleiades:426634",
     "t": 2
   },
   {
@@ -44614,7 +43230,7 @@
     "lo": 34.0861,
     "k": "basilica",
     "n": "Hasanaliler Basilica",
-    "s": 640,
+    "s": 50,
     "e": 1453,
     "t": 2
   },
@@ -44814,17 +43430,6 @@
     "n": "Falerii Novi amphitheater",
     "s": -30,
     "e": 300,
-    "t": 2
-  },
-  {
-    "i": "building:830424823",
-    "la": 38.1641,
-    "lo": 22.1561,
-    "k": "temple",
-    "n": "Classical Temple at Ai Lia",
-    "s": -423,
-    "e": 199,
-    "d": "pleiades:830424823",
     "t": 2
   },
   {
@@ -45082,17 +43687,6 @@
     "t": 2
   },
   {
-    "i": "building:849308046",
-    "la": 45.743,
-    "lo": 7.6562,
-    "k": "bridge",
-    "n": "Roman bridge of Saint-Vincent",
-    "s": -30,
-    "e": 500,
-    "d": "pleiades:849308046",
-    "t": 2
-  },
-  {
     "i": "building:851289754",
     "la": 40.7797,
     "lo": 24.7133,
@@ -45100,16 +43694,6 @@
     "n": "Archaic agora of Thasos",
     "s": -750,
     "e": 1500,
-    "t": 2
-  },
-  {
-    "i": "building:853733571",
-    "la": 39.9932,
-    "lo": 8.8047,
-    "k": "amphitheater",
-    "n": "Roman amphitheater at Hydata Hypsitana/Forum Traiani",
-    "s": -30,
-    "e": 300,
     "t": 2
   },
   {
@@ -45346,17 +43930,6 @@
     "t": 2
   },
   {
-    "i": "building:857771",
-    "la": 40.5,
-    "lo": 39.5,
-    "k": "bridge",
-    "n": "Bridge near between Ad Vincesimum and Trapezus",
-    "s": -550,
-    "e": 640,
-    "d": "pleiades:857771",
-    "t": 2
-  },
-  {
     "i": "building:861510570",
     "la": 42.6519,
     "lo": 11.3476,
@@ -45537,16 +44110,6 @@
     "n": "Mar Awgin",
     "s": 300,
     "e": 640,
-    "t": 2
-  },
-  {
-    "i": "building:874581",
-    "la": 36.4903,
-    "lo": 43.4423,
-    "k": "temple",
-    "n": "Mar Matta",
-    "s": 117,
-    "e": 1500,
     "t": 2
   },
   {
@@ -45835,6 +44398,8 @@
     "lo": 12.6638,
     "k": "basilica",
     "n": "Basilica di Santa Sinforosa",
+    "s": 50,
+    "e": 640,
     "t": 2
   },
   {
@@ -46101,7 +44666,7 @@
     "lo": 22.3662,
     "k": "basilica",
     "n": "Tigani basilica",
-    "s": 400,
+    "s": 50,
     "e": 599,
     "t": 2
   },
@@ -46984,16 +45549,6 @@
     "t": 2
   },
   {
-    "i": "building:982593692",
-    "la": 38.0956,
-    "lo": 23.9005,
-    "k": "theater",
-    "n": "Sanctuary of Dionysos",
-    "s": -550,
-    "e": 400,
-    "t": 2
-  },
-  {
     "i": "building:983828927",
     "la": 37.5587,
     "lo": 27.8267,
@@ -47674,15 +46229,6 @@
     "t": 2
   },
   {
-    "i": "pleiades:888638004",
-    "la": 34.7475,
-    "lo": 40.7271,
-    "k": "townhouse",
-    "n": "House L7-H",
-    "e": 257,
-    "t": 2
-  },
-  {
     "i": "pleiades:888638008",
     "la": 34.7456,
     "lo": 40.7278,
@@ -48281,14 +46827,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10798",
-    "la": 36.5284,
-    "lo": -6.2937,
-    "k": "theater",
-    "n": "Theatre - Gades",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10802",
     "la": 36.1858,
     "lo": -5.407,
@@ -48354,14 +46892,6 @@
     "n": "ALALAKH",
     "s": -2000,
     "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10847",
-    "la": 43.7893,
-    "lo": 7.6253,
-    "k": "theater",
-    "n": "Theatre Album Intimilium",
     "t": 2
   },
   {
@@ -48458,14 +46988,6 @@
     "n": "ARGIŠTIKHINILI",
     "s": -799,
     "e": -500,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10885",
-    "la": 42.8537,
-    "lo": 13.5688,
-    "k": "theater",
-    "n": "Remains of a theatre at Asculum",
     "t": 2
   },
   {
@@ -48603,14 +47125,6 @@
     "k": "theater",
     "n": "Hierapolis",
     "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-10941",
-    "la": 37.503,
-    "lo": 15.0836,
-    "k": "theater",
-    "n": "Theatre of Catane",
     "t": 2
   },
   {
@@ -48824,30 +47338,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11033",
-    "la": 43.8077,
-    "lo": 11.2938,
-    "k": "theater",
-    "n": "Theatre Faesulae",
-    "s": -1,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11035",
     "la": 29.4335,
     "lo": 48.2726,
     "k": "settlement",
     "n": "FAILAKA",
     "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11036",
-    "la": 42.4886,
-    "lo": 12.1321,
-    "k": "theater",
-    "n": "Theatre Ferentum",
-    "s": -1,
     "t": 2
   },
   { "i": "vici:vici-11044", "la": 31.8468, "lo": 35.185, "k": "settlement", "n": "GIBEON", "t": 2 },
@@ -49809,14 +48305,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11563",
-    "la": 39.6403,
-    "lo": 22.4153,
-    "k": "theater",
-    "n": "Theatre Larissa",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11564",
     "la": 37.8477,
     "lo": 27.5247,
@@ -49849,27 +48337,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11573",
-    "la": 35.2397,
-    "lo": 9.1225,
-    "k": "theater",
-    "n": "Theatre Sufetula",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11591",
     "la": 36.6084,
     "lo": 10.1773,
     "k": "theater",
     "n": "Theatre Uthina",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11593",
-    "la": 39.1317,
-    "lo": 27.1836,
-    "k": "theater",
-    "n": "Theatre Acropolis Pergamon",
     "t": 2
   },
   {
@@ -49913,14 +48385,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11631",
-    "la": 41.4834,
-    "lo": 13.821,
-    "k": "theater",
-    "n": "Theatre Casinum",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11671",
     "la": 41.7575,
     "lo": 12.6218,
@@ -49937,22 +48401,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11690",
-    "la": 41.2426,
-    "lo": 13.7686,
-    "k": "theater",
-    "n": "Theatre - Minturno",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11702",
-    "la": 41.1307,
-    "lo": 14.7719,
-    "k": "theater",
-    "n": "Theatre Beneventum",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11713",
     "la": 40.4707,
     "lo": 17.2411,
@@ -49966,15 +48414,6 @@
     "lo": -2.2469,
     "k": "settlement",
     "n": "Mansio Matriniaca",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11736",
-    "la": 45.4656,
-    "lo": 9.1826,
-    "k": "theater",
-    "n": "Theatre Mediolanum (Milano)",
-    "s": -199,
     "t": 2
   },
   {
@@ -50003,15 +48442,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11764",
-    "la": 39.7455,
-    "lo": 20.0205,
-    "k": "theater",
-    "n": "Theatre Butrint",
-    "s": -400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-11768",
     "la": 37.9463,
     "lo": 27.3457,
@@ -50028,27 +48458,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11770",
-    "la": 31.1947,
-    "lo": 29.904,
-    "k": "theater",
-    "n": "Theatre - Alexandria",
-    "t": 2
-  },
-  {
     "i": "vici:vici-11776",
     "la": 42.1476,
     "lo": 24.7481,
     "k": "theater",
     "n": "Plovdiv Zirkus  [Philipopolis]",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11788",
-    "la": 43.536,
-    "lo": 16.4808,
-    "k": "theater",
-    "n": "Theatre - Salona",
     "t": 2
   },
   { "i": "vici:vici-11792", "la": 43.065, "lo": 16.1859, "k": "settlement", "n": "Issa", "t": 2 },
@@ -50068,38 +48482,6 @@
     "lo": 2.4417,
     "k": "theater",
     "n": "Theatre - Tipasa",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11815",
-    "la": 36.8588,
-    "lo": 10.3306,
-    "k": "theater",
-    "n": "Theatre Carthago",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11816",
-    "la": 36.8578,
-    "lo": 10.3296,
-    "k": "theater",
-    "n": "Große Theater Carthago",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11837",
-    "la": 37.7071,
-    "lo": 28.7251,
-    "k": "theater",
-    "n": "Theatre - Aphrodisias",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11839",
-    "la": 37.7091,
-    "lo": 28.7235,
-    "k": "theater",
-    "n": "Bouleuterion - Aphrodisias",
     "t": 2
   },
   {
@@ -50175,14 +48557,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11886",
-    "la": 32.2828,
-    "lo": 35.8925,
-    "k": "theater",
-    "n": "Theatre Nord - Gerasa",
-    "t": 2
-  },
-  {
     "i": "vici:vici-119",
     "la": 51.9852,
     "lo": 4.2073,
@@ -50245,14 +48619,6 @@
     "k": "theater",
     "n": "Theatre Chanata",
     "s": 275,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11925",
-    "la": 41.4346,
-    "lo": 14.6174,
-    "k": "theater",
-    "n": "Theatre Saepinum",
     "t": 2
   },
   {
@@ -50423,14 +48789,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-12014",
-    "la": 38.3049,
-    "lo": 31.1883,
-    "k": "theater",
-    "n": "Theatre Antiochia pisidia",
-    "t": 2
-  },
-  {
     "i": "vici:vici-12019",
     "la": 38.4823,
     "lo": 28.0482,
@@ -50452,14 +48810,6 @@
     "lo": 34.9483,
     "k": "theater",
     "n": "Theatre - Shuni",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-12065",
-    "la": 39.8862,
-    "lo": -2.8122,
-    "k": "theater",
-    "n": "Theatre Segobriga",
     "t": 2
   },
   {
@@ -52522,14 +50872,6 @@
   },
   { "i": "vici:vici-1630", "la": 43.0047, "lo": 11.297, "k": "settlement", "n": "Umbro", "t": 2 },
   {
-    "i": "vici:vici-16309",
-    "la": 38.92,
-    "lo": -6.3317,
-    "k": "theater",
-    "n": "Circus Maximus Mérida",
-    "t": 2
-  },
-  {
     "i": "vici:vici-16324",
     "la": 35.8232,
     "lo": 10.6356,
@@ -53332,15 +51674,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17317",
-    "la": 39.8889,
-    "lo": -2.8138,
-    "k": "theater",
-    "n": "Segobriga Circus,E",
-    "s": 50,
-    "t": 2
-  },
-  {
     "i": "vici:vici-17318",
     "la": 42.3044,
     "lo": -1.9634,
@@ -53472,14 +51805,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17352",
-    "la": 36.8813,
-    "lo": 7.7468,
-    "k": "theater",
-    "n": "AnnabaTheater,DZ - HIPPO REGIUS",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17353",
     "la": 42.0171,
     "lo": 21.3936,
@@ -53510,14 +51835,6 @@
     "k": "theater",
     "n": "Kıyıkışlacık,Theater, TR - IASSVS",
     "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17360",
-    "la": 39.2072,
-    "lo": 29.6121,
-    "k": "theater",
-    "n": "Cavdarhisar,Theater,TR - AEZANI",
     "t": 2
   },
   {
@@ -53770,14 +52087,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17443",
-    "la": 37.0758,
-    "lo": 15.2751,
-    "k": "theater",
-    "n": "Syracuse Theatre,I - SYRACUSAE",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17444",
     "la": 42.2273,
     "lo": 12.8686,
@@ -53819,15 +52128,6 @@
     "lo": 15.0828,
     "k": "theater",
     "n": "Catania,Odeon I - CATINA",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17450",
-    "la": 40.7488,
-    "lo": 14.4884,
-    "k": "theater",
-    "n": "Pompeii Theatre - POMPEII",
-    "e": 79,
     "t": 2
   },
   {
@@ -53880,44 +52180,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-17459",
-    "la": 42.4038,
-    "lo": 13.31,
-    "k": "theater",
-    "n": "Aquila Theatre,I - AMITERNUM",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17460",
-    "la": 41.4978,
-    "lo": 13.6897,
-    "k": "theater",
-    "n": "Aquino Theatre,I - AQUINUM",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17461",
-    "la": 40.8523,
-    "lo": 14.2565,
-    "k": "theater",
-    "n": "Naples Theatre,I - Neapolis",
-    "s": 50,
-    "t": 2
-  },
-  {
     "i": "vici:vici-17462",
     "la": 40.7379,
     "lo": 14.6628,
     "k": "theater",
     "n": "Nocera Superiore Theatre,I - NUCERIA",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17463",
-    "la": 42.7333,
-    "lo": 12.7351,
-    "k": "theater",
-    "n": "Spoleto Theatre,I - SPOLETIUM",
     "t": 2
   },
   {
@@ -54017,22 +52284,6 @@
     "lo": 35.645,
     "k": "theater",
     "n": "Jubayl, جبيل‎ ,Theater,RL - BYBLOS",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17484",
-    "la": 32.8177,
-    "lo": 21.858,
-    "k": "theater",
-    "n": "Shahhat,South Theater,LT - CYRENIS COL.",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17485",
-    "la": 32.8184,
-    "lo": 21.8578,
-    "k": "theater",
-    "n": "Shahhat,North Theater,LT - CYRENIS COL.",
     "t": 2
   },
   {
@@ -54410,14 +52661,6 @@
     "lo": 15.1554,
     "k": "theater",
     "n": "Theatre, Velia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18002",
-    "la": 32.9029,
-    "lo": 21.9749,
-    "k": "theater",
-    "n": "Theater of Apollonia",
     "t": 2
   },
   { "i": "vici:vici-1802", "la": 41.0552, "lo": 14.9465, "k": "settlement", "n": "Calor", "t": 2 },
@@ -55460,14 +53703,6 @@
     "lo": 11.6462,
     "k": "settlement",
     "n": "Siedlung München-Daglfing",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-19796",
-    "la": 41.292,
-    "lo": 13.2492,
-    "k": "theater",
-    "n": "Teatro Romano - Terracina",
     "t": 2
   },
   {
@@ -61270,15 +59505,6 @@
   },
   { "i": "vici:vici-2375", "la": 40.0128, "lo": 48.4789, "k": "settlement", "n": "Teleda", "t": 2 },
   {
-    "i": "vici:vici-23755",
-    "la": 42.0011,
-    "lo": 12.1077,
-    "k": "theater",
-    "n": "Theatre, Cerveteri",
-    "s": -200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23788",
     "la": 51.9191,
     "lo": 4.373,
@@ -62759,7 +60985,6 @@
   },
   { "i": "vici:vici-24767", "la": 35.504, "lo": 24.058, "k": "theater", "n": "Kydonia", "t": 2 },
   { "i": "vici:vici-24768", "la": 35.0565, "lo": 24.9531, "k": "theater", "n": "Gortys", "t": 2 },
-  { "i": "vici:vici-24770", "la": 35.0631, "lo": 24.9469, "k": "theater", "n": "Gortys", "t": 2 },
   { "i": "vici:vici-24772", "la": 35.0593, "lo": 24.9494, "k": "theater", "n": "Gortyn", "t": 2 },
   { "i": "vici:vici-24773", "la": 35.052, "lo": 24.9512, "k": "theater", "n": "Gortyn", "t": 2 },
   {
@@ -63623,14 +61848,6 @@
     "k": "settlement",
     "n": "Aulida - Aulis",
     "s": -3000,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-25275",
-    "la": 37.0674,
-    "lo": 15.2805,
-    "k": "theater",
-    "n": "Syracuse, Odeon",
     "t": 2
   },
   {
@@ -64867,14 +63084,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-25857",
-    "la": 39.6404,
-    "lo": 22.412,
-    "k": "theater",
-    "n": "Theatre B of Larissa",
-    "t": 2
-  },
-  {
     "i": "vici:vici-25864",
     "la": 39.8536,
     "lo": 22.4678,
@@ -66057,14 +64266,6 @@
     "n": "Neolithic huts",
     "s": -8800,
     "e": -2000,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27561",
-    "la": 37.9373,
-    "lo": 23.6447,
-    "k": "theater",
-    "n": "Piraeus, Theatre",
     "t": 2
   },
   {
@@ -68426,15 +66627,6 @@
   },
   { "i": "vici:vici-29931", "la": 41.2966, "lo": 16.1512, "k": "settlement", "n": "Canne", "t": 2 },
   {
-    "i": "vici:vici-29941",
-    "la": 39.7159,
-    "lo": 16.4913,
-    "k": "theater",
-    "n": "Sibari Theatre - Copia",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-29942",
     "la": 39.9673,
     "lo": 15.7158,
@@ -69848,14 +68040,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-31306",
-    "la": 41.9455,
-    "lo": 12.7739,
-    "k": "theater",
-    "n": "Tivoli Villa Adriana Greek Theatre",
-    "t": 2
-  },
-  {
     "i": "vici:vici-31307",
     "la": 41.9408,
     "lo": 12.7741,
@@ -70426,14 +68610,6 @@
     "lo": 23.8992,
     "k": "settlement",
     "n": "Ikarius",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-31424",
-    "la": 38.0953,
-    "lo": 23.9006,
-    "k": "theater",
-    "n": "Dionissos Theatre - Ikarius",
     "t": 2
   },
   {
@@ -71023,15 +69199,6 @@
     "t": 2
   },
   { "i": "vici:vici-31536", "la": 36.227, "lo": 36.1721, "k": "theater", "n": "Hipodrom", "t": 2 },
-  {
-    "i": "vici:vici-31558",
-    "la": 41.9015,
-    "lo": 12.4544,
-    "k": "theater",
-    "n": "Vatican Circus",
-    "s": 100,
-    "t": 2
-  },
   {
     "i": "vici:vici-31584",
     "la": 45.8737,
@@ -77424,16 +75591,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-36084",
-    "la": 40.8082,
-    "lo": 14.3478,
-    "k": "theater",
-    "n": "Herculaneum, Theatrum Herculanensi",
-    "s": -100,
-    "e": 79,
-    "t": 2
-  },
-  {
     "i": "vici:vici-36085",
     "la": 42.6526,
     "lo": 25.4569,
@@ -79765,14 +77922,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4130",
-    "la": 41.3122,
-    "lo": 19.4453,
-    "k": "theater",
-    "n": "Amphitheatre Dyrrhachium",
-    "t": 2
-  },
-  {
     "i": "vici:vici-41302",
     "la": 31.2586,
     "lo": 31.5714,
@@ -79797,14 +77946,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4134",
-    "la": 35.4012,
-    "lo": 8.1238,
-    "k": "theater",
-    "n": "Amphitheatre Theveste",
-    "t": 2
-  },
-  {
     "i": "vici:vici-4140",
     "la": 42.5028,
     "lo": 24.7098,
@@ -79818,16 +77959,6 @@
     "lo": 23.3278,
     "k": "theater",
     "n": "Amphitheatre Serdica",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4142",
-    "la": 44.8732,
-    "lo": 13.8501,
-    "k": "theater",
-    "n": "Amphitheatre Pietas Iulia Pola",
-    "s": 81,
-    "e": 499,
     "t": 2
   },
   {
@@ -79937,14 +78068,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4153",
-    "la": 51.5155,
-    "lo": -0.0922,
-    "k": "theater",
-    "n": "Amphitheatre Londinium",
-    "t": 2
-  },
-  {
     "i": "vici:vici-4154",
     "la": 50.8354,
     "lo": -0.7725,
@@ -80002,14 +78125,6 @@
     "n": "Bokluca - Baldiran",
     "s": -3300,
     "e": -800,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4160",
-    "la": 43.6778,
-    "lo": 4.6309,
-    "k": "theater",
-    "n": "Amphithéâtre Arelate",
     "t": 2
   },
   {
@@ -80085,22 +78200,6 @@
     "lo": 0.6964,
     "k": "theater",
     "n": "Amphithéâtre Caesarodunum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4168",
-    "la": 45.8506,
-    "lo": 0.769,
-    "k": "theater",
-    "n": "Amphithéâtre Cassinomagus",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4169",
-    "la": 43.72,
-    "lo": 7.2753,
-    "k": "theater",
-    "n": "Amphithéâtre Cemenelum",
     "t": 2
   },
   {
@@ -80182,15 +78281,6 @@
     "lo": 11.7706,
     "k": "settlement",
     "n": "Mansio 2",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4179",
-    "la": 48.8451,
-    "lo": 2.3529,
-    "k": "theater",
-    "n": "Amphithéâtre Lutetia",
-    "s": 50,
     "t": 2
   },
   {
@@ -80539,23 +78629,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4205",
-    "la": 44.06,
-    "lo": 12.575,
-    "k": "theater",
-    "n": "Amphitheatre Ariminum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4206",
-    "la": 43.4606,
-    "lo": 11.8803,
-    "k": "theater",
-    "n": "Amphitheatre Arretium",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-4207",
     "la": 43.0711,
     "lo": 12.6204,
@@ -80626,14 +78699,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4210",
-    "la": 41.1323,
-    "lo": 14.7676,
-    "k": "theater",
-    "n": "Amphitheatre Beneventum",
-    "t": 2
-  },
-  {
     "i": "vici:vici-4211",
     "la": 39.2239,
     "lo": 9.1132,
@@ -80682,14 +78747,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4214",
-    "la": 41.0859,
-    "lo": 14.2501,
-    "k": "theater",
-    "n": "Amphitheatre Capua",
-    "t": 2
-  },
-  {
     "i": "vici:vici-42141",
     "la": 38.1875,
     "lo": 13.3522,
@@ -80732,14 +78789,6 @@
     "lo": -0.412,
     "k": "settlement",
     "n": "Tastet Cave, Arudy",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4217",
-    "la": 37.5073,
-    "lo": 15.0854,
-    "k": "theater",
-    "n": "Amphitheatre Catăna",
     "t": 2
   },
   {
@@ -81024,27 +79073,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4243",
-    "la": 42.9369,
-    "lo": 12.6156,
-    "k": "theater",
-    "n": "Amphitheatre Mevania",
-    "t": 2
-  },
-  {
     "i": "vici:vici-42431",
     "la": 40.5226,
     "lo": -4.9064,
     "k": "settlement",
     "n": "Castro de Cabeza de Navasangil",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4244",
-    "la": 41.2416,
-    "lo": 13.7638,
-    "k": "theater",
-    "n": "Amphitheatre Minturnae",
     "t": 2
   },
   {
@@ -81118,22 +79151,6 @@
     "lo": 5.4889,
     "k": "settlement",
     "n": "Nederzetting Wijnaldum 6",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4249",
-    "la": 41.7559,
-    "lo": 12.2914,
-    "k": "theater",
-    "n": "Theatre Ostia",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4250",
-    "la": 45.4115,
-    "lo": 11.879,
-    "k": "theater",
-    "n": "Amphitheatre Patavium",
     "t": 2
   },
   {
@@ -81247,14 +79264,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4262",
-    "la": 42.7385,
-    "lo": 12.7391,
-    "k": "theater",
-    "n": "Amphitheatre Spoletium",
-    "t": 2
-  },
-  {
     "i": "vici:vici-42627",
     "la": 38.7813,
     "lo": 28.6325,
@@ -81268,14 +79277,6 @@
     "lo": 28.6314,
     "k": "theater",
     "n": "Saittai [Sidas]",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4265",
-    "la": 37.0742,
-    "lo": 15.2789,
-    "k": "theater",
-    "n": "Amphitheatre Syracusae",
     "t": 2
   },
   {
@@ -81432,14 +79433,6 @@
     "lo": 3.1174,
     "k": "theater",
     "n": "Amphitheatre Emporion",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4297",
-    "la": 40.1643,
-    "lo": -6.1,
-    "k": "theater",
-    "n": "Amphitheatre Forum Municipii Flavii Caparensis",
     "t": 2
   },
   {
@@ -81733,14 +79726,6 @@
   },
   { "i": "vici:vici-43138", "la": 43.9499, "lo": 4.8075, "k": "theater", "n": "Theater", "t": 2 },
   {
-    "i": "vici:vici-4314",
-    "la": 36.3982,
-    "lo": 9.9058,
-    "k": "theater",
-    "n": "Amphitheatre Colonia Julia Aurelia Commoda",
-    "t": 2
-  },
-  {
     "i": "vici:vici-4316",
     "la": 36.0355,
     "lo": 9.6946,
@@ -81894,14 +79879,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-4334",
-    "la": 36.4237,
-    "lo": 9.2202,
-    "k": "theater",
-    "n": "Theatre Thugga",
-    "t": 2
-  },
-  {
     "i": "vici:vici-43368",
     "la": 41.4855,
     "lo": -7.1815,
@@ -81989,14 +79966,6 @@
     "lo": -4.2967,
     "k": "theater",
     "n": "Amphitheatre Moridunum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-4348",
-    "la": 51.6124,
-    "lo": -2.7664,
-    "k": "theater",
-    "n": "Amphitheatre Venta Silurum",
     "t": 2
   },
   {
@@ -106076,30 +104045,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-63851",
-    "la": 42.492,
-    "lo": 12.1391,
-    "k": "theater",
-    "n": "Ampfitheater",
-    "s": -199,
-    "t": 2
-  },
-  {
     "i": "vici:vici-63854",
     "la": 41.0315,
     "lo": -7.014,
     "k": "settlement",
     "n": "Civitas Calabriga",
     "s": 550,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-63856",
-    "la": 42.0375,
-    "lo": 11.8328,
-    "k": "theater",
-    "n": "Possible Theater",
-    "s": -199,
     "t": 2
   },
   {
@@ -134320,14 +132271,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7876",
-    "la": 32.8054,
-    "lo": 12.4852,
-    "k": "theater",
-    "n": "Theatre of Sabratha",
-    "t": 2
-  },
-  {
     "i": "vici:vici-78773",
     "la": 35.7682,
     "lo": 50.0895,
@@ -134736,15 +132679,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7890",
-    "la": 32.6383,
-    "lo": 14.2905,
-    "k": "theater",
-    "n": "Theatre Leptis Magna",
-    "s": 1,
-    "t": 2
-  },
-  {
     "i": "vici:vici-78917",
     "la": 30.9239,
     "lo": 62.0192,
@@ -134882,14 +132816,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7898",
-    "la": 36.3207,
-    "lo": 5.7376,
-    "k": "theater",
-    "n": "Theatre at Djemila",
-    "t": 2
-  },
-  {
     "i": "vici:vici-78988",
     "la": 35.7196,
     "lo": 47.882,
@@ -135000,14 +132926,6 @@
     "lo": 4.8334,
     "k": "theater",
     "n": "Theatre of Glanum",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-7906",
-    "la": 45.7597,
-    "lo": 4.8197,
-    "k": "theater",
-    "n": "Theatre of Fourvière, Lyon",
     "t": 2
   },
   {
@@ -136042,16 +133960,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-7961",
-    "la": 49.9931,
-    "lo": 8.278,
-    "k": "theater",
-    "n": "Theater Moguntiacum",
-    "s": 35,
-    "e": 350,
-    "t": 2
-  },
-  {
     "i": "vici:vici-79622",
     "la": 36.1465,
     "lo": 49.0071,
@@ -136409,15 +134317,6 @@
     "lo": 30.5218,
     "k": "theater",
     "n": "Theatre of Sagalassos",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8026",
-    "la": 37.6763,
-    "lo": 30.5181,
-    "k": "theater",
-    "n": "Odeion of Sagalassos",
-    "s": 100,
     "t": 2
   },
   {
@@ -143483,15 +141382,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-8387",
-    "la": 43.4035,
-    "lo": 10.8599,
-    "k": "theater",
-    "n": "Teatro Romano (Voltera)",
-    "s": -10,
-    "t": 2
-  },
-  {
     "i": "vici:vici-83872",
     "la": 45.2175,
     "lo": 25.0115,
@@ -145840,15 +143730,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-84576",
-    "la": 52.932,
-    "lo": -3.9235,
-    "k": "theater",
-    "n": "Amphithéâtre",
-    "s": 1000,
-    "t": 2
-  },
-  {
     "i": "vici:vici-84735",
     "la": 31.5133,
     "lo": 52.1331,
@@ -145928,14 +143809,6 @@
     "n": "Unidentified site",
     "s": 200,
     "e": 899,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8481",
-    "la": 45.7385,
-    "lo": 7.3223,
-    "k": "theater",
-    "n": "Teatro romano di Aosta",
     "t": 2
   },
   {
@@ -146430,14 +144303,6 @@
     "n": "Tell Abu Qasim",
     "s": -2900,
     "e": -2350,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8515",
-    "la": 37.8526,
-    "lo": 15.2925,
-    "k": "theater",
-    "n": "Roman Theatre (Teatro Greco)",
     "t": 2
   },
   {
@@ -156894,7 +154759,6 @@
     "t": 3
   },
   { "i": "building:168367", "la": 45.75, "lo": 4.75, "k": "aqueduct", "s": -50, "e": 500, "t": 3 },
-  { "i": "building:168368", "la": 45.75, "lo": 4.75, "k": "aqueduct", "s": -30, "e": 300, "t": 3 },
   { "i": "building:168370", "la": 44.75, "lo": 5.25, "k": "aqueduct", "s": -50, "e": 500, "t": 3 },
   { "i": "building:169123", "la": 45.75, "lo": 4.75, "k": "bridge", "s": -50, "e": 640, "t": 3 },
   {
@@ -157656,21 +155520,12 @@
     "e": 640,
     "t": 3
   },
-  { "i": "building:394871", "la": 45.75, "lo": 12.75, "k": "bridge", "s": -30, "e": 640, "t": 3 },
+  { "i": "building:394871", "la": 45.75, "lo": 12.75, "k": "bridge", "s": -200, "e": 640, "t": 3 },
   { "i": "building:408457", "la": 42.35, "lo": 10.9, "k": "bath", "s": -330, "e": 300, "t": 3 },
   {
     "i": "building:414497",
     "la": 42.5626,
     "lo": 11.2104,
-    "k": "bridge",
-    "s": -330,
-    "e": 640,
-    "t": 3
-  },
-  {
-    "i": "building:414507",
-    "la": 42.5535,
-    "lo": 12.7047,
     "k": "bridge",
     "s": -330,
     "e": 640,
@@ -157708,8 +155563,8 @@
     "la": 41.625,
     "lo": 12.875,
     "k": "bridge",
-    "s": -200,
-    "e": 500,
+    "s": -330,
+    "e": 640,
     "t": 3
   },
   {
@@ -157943,7 +155798,7 @@
     "e": 640,
     "t": 3
   },
-  { "i": "building:610798", "la": 38.75, "lo": 28.75, "k": "bridge", "s": -30, "e": 640, "t": 3 },
+  { "i": "building:610798", "la": 38.75, "lo": 28.75, "k": "bridge", "s": -126, "e": 640, "t": 3 },
   {
     "i": "building:612329",
     "la": 38.25,
@@ -157975,8 +155830,7 @@
     "d": "pleiades:629675",
     "t": 3
   },
-  { "i": "building:629676", "la": 39.75, "lo": 38.75, "k": "bridge", "s": -30, "e": 500, "t": 3 },
-  { "i": "building:629677", "la": 39.75, "lo": 38.75, "k": "bridge", "s": 300, "e": 640, "t": 3 },
+  { "i": "building:629676", "la": 39.75, "lo": 38.75, "k": "bridge", "s": -30, "e": 640, "t": 3 },
   {
     "i": "building:629678",
     "la": 37.6057,
@@ -157987,8 +155841,7 @@
     "t": 3
   },
   { "i": "building:629679", "la": 38.25, "lo": 37.25, "k": "bridge", "s": -30, "e": 500, "t": 3 },
-  { "i": "building:629680", "la": 38.25, "lo": 37.75, "k": "bridge", "s": 23, "e": 640, "t": 3 },
-  { "i": "building:629681", "la": 38.25, "lo": 37.75, "k": "bridge", "s": -30, "e": 300, "t": 3 },
+  { "i": "building:629680", "la": 38.25, "lo": 37.75, "k": "bridge", "s": -30, "e": 640, "t": 3 },
   { "i": "building:629682", "la": 38.25, "lo": 38.25, "k": "bridge", "s": -30, "e": 640, "t": 3 },
   { "i": "building:629683", "la": 38.75, "lo": 38.25, "k": "bridge", "s": -30, "e": 640, "t": 3 },
   { "i": "building:629684", "la": 38.75, "lo": 38.75, "k": "bridge", "s": -30, "e": 500, "t": 3 },
@@ -158153,7 +156006,16 @@
   },
   { "i": "building:845603", "la": 40.5, "lo": 31.5, "k": "aqueduct", "s": -66, "e": 640, "t": 3 },
   { "i": "building:856322", "la": 45.25, "lo": 36.75, "k": "villa", "s": -550, "e": 640, "t": 3 },
-  { "i": "building:857772", "la": 40.5, "lo": 39.5, "k": "bridge", "s": -550, "e": 640, "t": 3 },
+  {
+    "i": "building:857772",
+    "la": 40.5,
+    "lo": 39.5,
+    "k": "bridge",
+    "s": -550,
+    "e": 640,
+    "d": "pleiades:857771",
+    "t": 3
+  },
   {
     "i": "building:889260883",
     "la": 31.2782,
