@@ -50,7 +50,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     timelineYear: -200,
     // Presence (the density grid) is intentionally left out — it clutters the
     // first-open view. It stays available as a manual toggle in the panel.
-    layers: ['showBattles', 'showLegions', 'showLimes', 'showFortifications'],
+    layers: ['showBattles', 'showLegions', 'showLimes', 'showFortifications', 'showRoads'],
   },
   economy: {
     label: 'The Economy',
@@ -82,6 +82,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showCities',
       'showProvinces',
       'showEpigraphy',
+      'showRoads',
     ],
   },
   riseAndFall: {
@@ -126,7 +127,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     label: 'The World',
     description: 'Every empire on earth — Rome among the powers, 753 BC to 1453',
     timelineYear: 550,
-    layers: ['showEmpires', 'showCities', 'showEmperors'],
+    layers: ['showEmpires', 'showCities', 'showEmperors', 'showRoads'],
   },
   byzantine: {
     label: 'Byzantium',
@@ -599,9 +600,8 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     // progressive: paint the CURRENT era's polities first (~2-5 MB), then
     // pull the remaining era buckets in the background so playback and
     // scrubbing across the full 2,200 years still find every shape
-    const { loadEmpiresEra, empireEraIndex, dedupeEmpires, EMPIRE_ERAS } = await import(
-      '@/data/empires'
-    )
+    const { loadEmpiresEra, empireEraIndex, dedupeEmpires, EMPIRE_ERAS } =
+      await import('@/data/empires')
     const first = empireEraIndex(useTimelineStore.getState().currentYear)
     const firstBatch = await loadEmpiresEra(first)
     const rest = EMPIRE_ERAS.map((_, i) => i).filter((i) => i !== first)
@@ -731,7 +731,7 @@ for (const ds of DATASET_REGISTRY) {
 
 export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, get) => ({
   // --- Initial state ---
-  showRoads: false,
+  showRoads: true,
   roadsData: null,
   roadsLoading: false,
   showSettlements: false,
@@ -811,39 +811,39 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
 
   toggleSettlements: () =>
     makeToggle('showSettlements', 'placesData', 'placesLoading', async () => {
-    // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
-    // minor/gazetteer tier (zoom 7+) streams in behind it
-    const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
-    const core = await loadPlacesCore()
-    loadPlacesDetail()
-      .then((detail) => {
-        const cur = useMapLayerStore.getState().placesData ?? []
-        const have = new Set(cur.map((p) => p.id))
-        useMapLayerStore.setState({
-          placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
+      // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
+      // minor/gazetteer tier (zoom 7+) streams in behind it
+      const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
+      const core = await loadPlacesCore()
+      loadPlacesDetail()
+        .then((detail) => {
+          const cur = useMapLayerStore.getState().placesData ?? []
+          const have = new Set(cur.map((p) => p.id))
+          useMapLayerStore.setState({
+            placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
+          })
         })
-      })
-      .catch((err) => console.error('places detail tier failed:', err))
-    return { data: core }
-  })(set, get),
+        .catch((err) => console.error('places detail tier failed:', err))
+      return { data: core }
+    })(set, get),
 
   toggleCities: () =>
     makeToggle('showCities', 'placesData', 'placesLoading', async () => {
-    // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
-    // minor/gazetteer tier (zoom 7+) streams in behind it
-    const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
-    const core = await loadPlacesCore()
-    loadPlacesDetail()
-      .then((detail) => {
-        const cur = useMapLayerStore.getState().placesData ?? []
-        const have = new Set(cur.map((p) => p.id))
-        useMapLayerStore.setState({
-          placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
+      // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
+      // minor/gazetteer tier (zoom 7+) streams in behind it
+      const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
+      const core = await loadPlacesCore()
+      loadPlacesDetail()
+        .then((detail) => {
+          const cur = useMapLayerStore.getState().placesData ?? []
+          const have = new Set(cur.map((p) => p.id))
+          useMapLayerStore.setState({
+            placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
+          })
         })
-      })
-      .catch((err) => console.error('places detail tier failed:', err))
-    return { data: core }
-  })(set, get),
+        .catch((err) => console.error('places detail tier failed:', err))
+      return { data: core }
+    })(set, get),
 
   toggleEmpires: () =>
     makeToggle('showEmpires', 'empiresData', 'empiresLoading', async () => {

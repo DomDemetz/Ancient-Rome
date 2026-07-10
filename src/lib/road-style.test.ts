@@ -36,8 +36,13 @@ describe('shouldShowRoad', () => {
     expect(shouldShowRoad({ startYear: -200, endYear: -49 }, -48)).toBe(false)
   })
 
-  it('hides road with null territoryYear (outside all territories)', () => {
-    expect(shouldShowRoad({ territoryYear: null }, 100)).toBe(false)
+  it('shows road with no temporal data at all (never territory-correlated)', () => {
+    expect(shouldShowRoad({ territoryYear: null }, 100)).toBe(true)
+  })
+
+  it('still respects decline on roads with no territory correlation', () => {
+    expect(shouldShowRoad({ territoryYear: null, declineYear: 400 }, 430)).toBe(true)
+    expect(shouldShowRoad({ territoryYear: null, declineYear: 400 }, 451)).toBe(false)
   })
 })
 

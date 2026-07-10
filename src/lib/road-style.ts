@@ -24,13 +24,19 @@ export function shouldShowRoad(props: TemporalRoadProps, currentYear: number): b
   }
 
   // Territory-correlated: visibility year = territoryYear + 20
-  if (props.territoryYear == null) return false
-  const visYear = props.territoryYear + 20
-  if (currentYear < visYear) return false
+  if (props.territoryYear != null) {
+    const visYear = props.territoryYear + 20
+    if (currentYear < visYear) return false
 
-  // Decline: hidden after 50 years past decline start
+    // Decline: hidden after 50 years past decline start
+    if (props.declineYear != null && currentYear > props.declineYear + 50) return false
+
+    return true
+  }
+
+  // No temporal data at all (e.g. undated Itiner-e segments): always visible,
+  // but respect decline if present
   if (props.declineYear != null && currentYear > props.declineYear + 50) return false
-
   return true
 }
 

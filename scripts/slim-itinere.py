@@ -4,8 +4,10 @@
 The generated file carried stringly placeholders ("None", "False",
 startYear "0") and four fields nothing consumes — 1.5 MB of the 5.7 MB
 network. Keeps: name, type, certainty, builder, attestedYear,
-declineYear — and drops placeholder values (the layer treats missing as
-unknown). Idempotent; rerun after generate-itinere-roads.ts.
+territoryYear, declineYear — and drops placeholder values (the layer
+treats missing as unknown). territoryYear drives shouldShowRoad's
+conquest-correlated visibility — dropping it hides the whole network.
+Idempotent; rerun after generate-itinere-roads.ts.
 """
 
 import json
@@ -14,7 +16,7 @@ import os
 PATH = os.path.join(
     os.path.dirname(__file__), "..", "src", "data", "itinere", "roads-temporal.json"
 )
-KEEP = ("name", "type", "certainty", "builder", "attestedYear", "declineYear")
+KEEP = ("name", "type", "certainty", "builder", "attestedYear", "territoryYear", "declineYear")
 PLACEHOLDERS = {"None", "False", "0", "", None}
 
 d = json.load(open(PATH))
