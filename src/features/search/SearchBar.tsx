@@ -88,6 +88,11 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entityColors, entityLabels } from '@/lib/colors'
 import { SITE_TYPE_TO_LAYER } from '@/features/map/layers/siteTypeLayers'
+import {
+  DARE_TYPE_LABELS,
+  DARE_TYPE_TO_SITE_TYPE,
+  SETTLEMENT_DARE_TYPES,
+} from '@/features/map/layers/settlementStyles'
 import { formatYear } from '@/lib/geo'
 import { Input } from '@/ui/input'
 import type { Entity } from '@/types'
@@ -403,6 +408,10 @@ export function SearchBar() {
             : p.id.startsWith('dare-')
               ? `settlement:${p.id.slice(5)}`
               : `settlement:${p.id}`
+        // structural DARE nodes render through the atlas — route their
+        // layer toggle by kind so selecting one turns on the right Sites
+        // category instead of Settlements
+        const structural = p.dare?.type != null && !SETTLEMENT_DARE_TYPES.has(p.dare.type)
         const entry: SearchItem = {
           id: `settlement-${detailKey}`,
           name: p.name,
@@ -410,6 +419,11 @@ export function SearchBar() {
           color: CATEGORY_COLORS.settlement,
           lat: p.lat,
           lng: p.lng,
+        }
+        if (structural) {
+          const label = DARE_TYPE_LABELS[p.dare!.type!]
+          entry.siteType = DARE_TYPE_TO_SITE_TYPE[p.dare!.type!]
+          if (label) entry.sub = label
         }
         if (p.startYear !== 0) {
           entry.year = p.startYear

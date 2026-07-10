@@ -28,7 +28,7 @@ import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
 import { AtlasLayer } from './layers/AtlasLayer'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { MapControls } from './MapControls'
-import { SettlementLegend } from './controls/SettlementLegend'
+import { SitesLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
 import { StatsOverlay } from './controls/StatsOverlay'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
@@ -350,7 +350,6 @@ export function MapView() {
     notablePeopleData,
     settlementTypes,
     hiddenCategories,
-    toggleCategory,
     datasetState,
   } = useMapLayerStore(useShallow((s) => s))
 
@@ -493,9 +492,7 @@ export function MapView() {
           mapRef={mapRef}
         />
 
-        {showSettlements && (
-          <SettlementLegend hiddenCategories={hiddenCategories} onToggleCategory={toggleCategory} />
-        )}
+        {DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show) && <SitesLegend />}
 
         {showEmperors && emperorsData && <EmperorBanner emperors={emperorsData} />}
 

@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "comment": "THE taxonomy (2026-07-11, categories = the app's original seven (Dominik 2026-07-11: no invented names); designed with Dominik against docs/taxonomy-profile.md). One controlled kind list; category derived; every source vocabulary maps here and dies at ingest. Kinds mapping to null are dropped from the atlas (they stay in the entity table). UI panel/legend/colors read categories; popups/search read kind labels.",
+  "categories": {
+    "settlement": {
+      "label": "Settlements"
+    },
+    "cities": {
+      "label": "Cities & Buildings"
+    },
+    "rural": {
+      "label": "Rural / Villas"
+    },
+    "military": {
+      "label": "Military"
+    },
+    "religious": {
+      "label": "Religious"
+    },
+    "funerary": {
+      "label": "Funerary & Monuments"
+    },
+    "production": {
+      "label": "Production & Industry"
+    },
+    "infrastructure": {
+      "label": "Infrastructure"
+    }
+  },
+  "kinds": {
+    "settlement": {
+      "category": "settlement",
+      "label": "Settlement"
+    },
+    "forum": {
+      "category": "cities",
+      "label": "Forum"
+    },
+    "basilica": {
+      "category": "cities",
+      "label": "Basilica"
+    },
+    "palace": {
+      "category": "cities",
+      "label": "Palace"
+    },
+    "theater": {
+      "category": "cities",
+      "label": "Theater"
+    },
+    "amphitheater": {
+      "category": "cities",
+      "label": "Amphitheater"
+    },
+    "circus": {
+      "category": "cities",
+      "label": "Circus"
+    },
+    "wall": {
+      "category": "cities",
+      "label": "City Wall"
+    },
+    "gate": {
+      "category": "cities",
+      "label": "Gate"
+    },
+    "building": {
+      "category": "cities",
+      "label": "Building"
+    },
+    "villa": {
+      "category": "rural",
+      "label": "Villa"
+    },
+    "townhouse": {
+      "category": "rural",
+      "label": "Townhouse"
+    },
+    "farm": {
+      "category": "rural",
+      "label": "Farm"
+    },
+    "fort": {
+      "category": "military",
+      "label": "Fort"
+    },
+    "watchtower": {
+      "category": "military",
+      "label": "Watchtower"
+    },
+    "camp": {
+      "category": "military",
+      "label": "Camp"
+    },
+    "fortification": {
+      "category": "military",
+      "label": "Fortification"
+    },
+    "temple": {
+      "category": "religious",
+      "label": "Temple"
+    },
+    "sanctuary": {
+      "category": "religious",
+      "label": "Sanctuary"
+    },
+    "church": {
+      "category": "religious",
+      "label": "Church"
+    },
+    "monastery": {
+      "category": "religious",
+      "label": "Monastery"
+    },
+    "tomb": {
+      "category": "funerary",
+      "label": "Tomb"
+    },
+    "tumulus": {
+      "category": "funerary",
+      "label": "Tumulus"
+    },
+    "pyramid": {
+      "category": "funerary",
+      "label": "Pyramid"
+    },
+    "cemetery": {
+      "category": "funerary",
+      "label": "Cemetery"
+    },
+    "mausoleum": {
+      "category": "funerary",
+      "label": "Mausoleum"
+    },
+    "monument": {
+      "category": "funerary",
+      "label": "Monument"
+    },
+    "mine": {
+      "category": "production",
+      "label": "Mine / Quarry"
+    },
+    "press": {
+      "category": "production",
+      "label": "Press"
+    },
+    "workshop": {
+      "category": "production",
+      "label": "Workshop"
+    },
+    "shipwreck": {
+      "category": "production",
+      "label": "Shipwreck"
+    },
+    "port": {
+      "category": "infrastructure",
+      "label": "Port"
+    },
+    "road": {
+      "category": "infrastructure",
+      "label": "Road"
+    },
+    "road-station": {
+      "category": "infrastructure",
+      "label": "Road Station"
+    },
+    "bridge": {
+      "category": "infrastructure",
+      "label": "Bridge"
+    },
+    "bath": {
+      "category": "infrastructure",
+      "label": "Bath"
+    },
+    "aqueduct": {
+      "category": "infrastructure",
+      "label": "Aqueduct"
+    },
+    "dam": {
+      "category": "infrastructure",
+      "label": "Dam / Reservoir"
+    },
+    "cistern": {
+      "category": "infrastructure",
+      "label": "Cistern"
+    },
+    "lighthouse": {
+      "category": "infrastructure",
+      "label": "Lighthouse"
+    },
+    "pass": {
+      "category": "infrastructure",
+      "label": "Mountain Pass"
+    }
+  },
+  "synonyms": {
+    "estate": "villa",
+    "shrine": "sanctuary",
+    "religious-site": "sanctuary",
+    "oppidum": "settlement",
+    "arch": "monument",
+    "quarry": "mine",
+    "harbour": "port",
+    "well": "cistern"
+  },
+  "sources": {
+    "vici": {
+      "aqueduct": "aqueduct",
+      "bath": "bath",
+      "bridge": "bridge",
+      "cemetery": "cemetery",
+      "fort": "fort",
+      "mine": "mine",
+      "road": "road",
+      "settlement": "settlement",
+      "temple": "temple",
+      "theater": "theater",
+      "villa": "villa",
+      "other": null
+    },
+    "dare": {
+      "11": "settlement",
+      "12": "settlement",
+      "13": "settlement",
+      "15": "settlement",
+      "31": "settlement",
+      "14": "villa",
+      "19": "farm",
+      "16": "road-station",
+      "49": "pass",
+      "17": "fort",
+      "18": "fort",
+      "35": "fortification",
+      "53": "watchtower",
+      "21": "monastery",
+      "24": "church",
+      "43": "temple",
+      "61": "sanctuary",
+      "32": "tumulus",
+      "34": "monument",
+      "50": "mausoleum",
+      "63": "cemetery",
+      "64": "monument",
+      "46": "bath",
+      "47": "aqueduct",
+      "51": "bridge",
+      "52": "dam",
+      "55": "road",
+      "57": "mine",
+      "58": "workshop",
+      "66": null,
+      "76": "lighthouse"
+    },
+    "buildingSubtype": {
+      "villa": "villa",
+      "temple": "temple",
+      "bridge": "bridge",
+      "basilica": "basilica",
+      "aqueduct": "aqueduct",
+      "monument": "monument",
+      "theater": "theater",
+      "bath": "bath",
+      "amphitheater": "amphitheater",
+      "forum": "forum",
+      "arch": "monument",
+      "palace": "palace",
+      "circus": "circus"
+    },
+    "portSubtype": {
+      "lighthouse": "lighthouse"
+    }
+  }
+}

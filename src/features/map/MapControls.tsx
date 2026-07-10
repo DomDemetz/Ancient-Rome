@@ -41,7 +41,12 @@ import { useMapLayerStore, PRESETS, LAYER_GROUPS, ALL_LAYER_KEYS } from '@/store
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
 import type { PresetName } from '@/stores/useMapLayerStore'
-import { DARE_TYPE_LABELS, CATEGORY_STYLES, DARE_TYPE_TO_CATEGORY } from './layers/settlementStyles'
+import {
+  DARE_TYPE_LABELS,
+  CATEGORY_STYLES,
+  DARE_TYPE_TO_CATEGORY,
+  SETTLEMENT_DARE_TYPES,
+} from './layers/settlementStyles'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { useUIStore } from '@/stores/useUIStore'
 import { cn } from '@/lib/utils'
@@ -64,11 +69,10 @@ const SITE_ICONS: Record<string, typeof Globe> = {
   cities: Landmark,
   rural: Home,
   military: Castle,
-  infrastructure: Waypoints,
   religious: Sparkles,
-  production: Pickaxe,
   funerary: Box,
-  other: MapPin,
+  production: Pickaxe,
+  infrastructure: Waypoints,
 }
 
 interface MapControlsProps {
@@ -476,7 +480,13 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     Settlements: {
       active: showSettlements,
       loading: placesLoading,
-      toggle: toggleSettlements,
+      // one toggle, two renderers: place nodes (PlacesLayer) + vici-only
+      // settlements (atlas settlement chunk) are both "Settlements"
+      toggle: () => {
+        toggleSettlements()
+        if ((datasetState.settlement?.show ?? false) === showSettlements)
+          toggleDataset('settlement')
+      },
       icon: Home,
     },
     Limes: { active: showLimes, loading: limesLoading, toggle: toggleLimes, icon: Fence },
@@ -526,7 +536,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       icon: ScrollText,
     },
     ...Object.fromEntries(
-      DATASET_REGISTRY.map((cfg) => [
+      DATASET_REGISTRY.filter((cfg) => cfg.group === 'Sites').map((cfg) => [
         `Sites${cfg.id.charAt(0).toUpperCase()}${cfg.id.slice(1)}`,
         {
           active: datasetState[cfg.id]?.show ?? false,
@@ -551,7 +561,10 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       const t = p.dare?.type
       if (t != null) counts[t] = (counts[t] || 0) + 1
     }
+    // only the settlement types PlacesLayer renders — structures live in
+    // the Sites categories, listing them here duplicated that taxonomy
     return Object.entries(DARE_TYPE_LABELS)
+      .filter(([k]) => SETTLEMENT_DARE_TYPES.has(Number(k)))
       .map(([k, label]) => ({ type: Number(k), label, count: counts[Number(k)] || 0 }))
       .sort((a, b) => b.count - a.count)
   }, [placesData])

@@ -58,6 +58,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showRoads',
       'showItinereRoads',
       'showSettlements',
+      'showDataset:settlement',
       'showCities',
       'showDataset:production',
       'showDataset:infrastructure',
@@ -73,6 +74,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     layers: [
       'showDataset:religious',
       'showSettlements',
+      'showDataset:settlement',
       'showCities',
       'showProvinces',
       'showEpigraphy',
@@ -92,6 +94,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showEmperors',
       'showRoads',
       'showSettlements',
+      'showDataset:settlement',
       'showCities',
       'showProvinces',
       'showLimes',
@@ -109,6 +112,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
       'showRoads',
       'showItinereRoads',
       'showSettlements',
+      'showDataset:settlement',
       'showCities',
       'showDataset:cities',
       'showAqueducts',
@@ -130,6 +134,7 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
     // (settlements hand off to the Chandler cities past ~800).
     layers: [
       'showSettlements',
+      'showDataset:settlement',
       'showCities',
       'showRoads',
       'showTradeNetwork',
@@ -241,13 +246,8 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
       {
         key: 'SitesMilitary',
-        label: 'Military Sites',
+        label: 'Military',
         activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
-      },
-      {
-        key: 'SitesInfrastructure',
-        label: 'Infrastructure',
-        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
       },
       {
         key: 'SitesReligious',
@@ -255,24 +255,24 @@ export const LAYER_GROUPS: LayerGroup[] = [
         activeClass: 'bg-violet-900/80 border-violet-700 text-violet-100 hover:bg-violet-800/80',
       },
       {
-        key: 'SitesProduction',
-        label: 'Production & Trade',
-        activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
-      },
-      {
         key: 'SitesFunerary',
         label: 'Funerary & Monuments',
         activeClass: 'bg-purple-900/80 border-purple-700 text-purple-100 hover:bg-purple-800/80',
       },
       {
-        key: 'SitesOther',
-        label: 'Other Sites',
-        activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
+        key: 'SitesProduction',
+        label: 'Production & Industry',
+        activeClass: 'bg-yellow-950/80 border-yellow-800 text-yellow-200 hover:bg-yellow-900/80',
+      },
+      {
+        key: 'SitesInfrastructure',
+        label: 'Infrastructure',
+        activeClass: 'bg-sky-900/80 border-sky-700 text-sky-100 hover:bg-sky-800/80',
       },
     ],
   },
   {
-    label: 'Economy',
+    label: 'Production & Industry',
     layers: [
       {
         key: 'TradeNetwork',
@@ -431,13 +431,12 @@ interface MapLayerActions {
   dismissError: () => void
 }
 
-const ALL_SETTLEMENT_TYPES = [
-  11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 24, 31, 32, 34, 35, 43, 46, 47, 49, 50, 51, 52, 53, 55,
-  57, 58, 61, 63, 64, 66, 76,
-] as const
-const ENABLED_BY_DEFAULT = new Set([11, 12, 13, 14, 16, 17, 18, 31, 35])
+// Settlements draws only true settlement types — every structural DARE
+// type (villa, sanctuary, mine, fort...) renders through the entity atlas
+// so the panel has ONE taxonomy for structures (see settlementStyles.ts)
+const ALL_SETTLEMENT_TYPES = [11, 12, 13, 15, 31] as const
 const defaultSettlementTypes: Record<number, boolean> = Object.fromEntries(
-  ALL_SETTLEMENT_TYPES.map((t) => [t, ENABLED_BY_DEFAULT.has(t)]),
+  ALL_SETTLEMENT_TYPES.map((t) => [t, true]),
 )
 
 // Helper to create a standard lazy-loading toggle.

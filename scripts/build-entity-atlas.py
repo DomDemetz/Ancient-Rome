@@ -30,24 +30,25 @@ from atomic_json import dump_atomic
 
 DATA = Path(__file__).resolve().parent.parent / "src" / "data"
 
-# kind -> the settlement legend's 7 categories (settlementStyles.ts).
-# 'other' (unclassified vici survey points) keeps its own chunk so the
-# renderer can gate it to deep zoom; it is not a panel category.
-CATEGORY = {
-    "settlement": "cities", "townhouse": "cities", "building": "cities",
-    "amphitheater": "cities", "theater": "cities", "oppidum": "cities",
-    "villa": "rural", "estate": "rural", "farm": "rural",
-    "fort": "military",
-    "road": "infrastructure", "bridge": "infrastructure",
-    "aqueduct": "infrastructure", "bath": "infrastructure",
-    "port": "infrastructure",
-    "temple": "religious", "sanctuary": "religious", "shrine": "religious",
-    "religious-site": "religious", "church": "religious",
-    "monastery": "religious",
-    "mine": "production", "press": "production", "shipwreck": "production",
-    "cemetery": "funerary", "tomb": "funerary", "tumulus": "funerary",
-    "pyramid": "funerary", "mausoleum": "funerary",
-}
+# THE taxonomy — one controlled kind list, category derived, all source
+# vocabularies mapped (src/data/taxonomy.json, designed 2026-07-11).
+TAX = json.load(open(Path(__file__).resolve().parent.parent / "src" / "data" / "taxonomy.json"))
+KINDS = TAX["kinds"]
+SYN = TAX["synonyms"]
+SRC_DARE = {int(k): v for k, v in TAX["sources"]["dare"].items()}
+SRC_VICI = TAX["sources"]["vici"]
+SRC_BUILDING = TAX["sources"]["buildingSubtype"]
+SRC_PORT = TAX["sources"]["portSubtype"]
+SETTLEMENT_DARE_TYPES = {t for t, k in SRC_DARE.items() if k == "settlement"}
+
+
+def resolve_kind(raw):
+    """canonical kind or None (None = not in the atlas)."""
+    if raw is None:
+        return None
+    k = SYN.get(raw, raw)
+    return k if k in KINDS else None
+
 
 # ── panel richness scoring, shared shape with build-entity-search ──────────
 def richness(e):
@@ -76,10 +77,25 @@ def candidate_keys(entity):
     return out or entity["sources"][:1]
 
 
+def node_id_of(source_key):
+    if source_key.startswith("place:"):
+        return source_key[len("place:"):]
+    if source_key.startswith("dare:"):
+        return f"dare-{source_key[len('dare:'):]}"
+    return None
+
+
+MINED_PATH = DATA / "registry" / "vici-other-kinds.json"
+MINED_KINDS = json.load(open(MINED_PATH)) if MINED_PATH.exists() else {}
+
+
 def main():
     table = json.load(open(DATA / "entities" / "entity-table.json"))
     cr = json.load(open(DATA / "wiki" / "cross-reference.json"))
     knowledge = json.load(open(DATA / "knowledge" / "features.json"))
+    place_knowledge = json.load(open(DATA / "knowledge" / "places.json"))
+    dare_type = {p["id"]: (p.get("dare") or {}).get("type")
+                 for p in json.load(open(DATA / "places" / "places.json"))}
 
     by_cat = defaultdict(list)
     skipped = Counter()
@@ -87,16 +103,58 @@ def main():
         if e["kind"] == "battle":
             skipped["battle (BattleLayer)"] += 1
             continue
+        # unified aqueduct points belong to AqueductLayer (points + line
+        # geometry, one curated experience) — same ownership rule as battles;
+        # DARE aqueduct NODES have no unified source and stay in the atlas
+        if any(s.startswith("aqueduct:") for s in e["sources"]):
+            skipped["aqueduct (AqueductLayer)"] += 1
+            continue
         if e["lat"] is None:
             skipped["no coords"] += 1
             continue
-        if any(s.startswith(("place:", "dare:")) for s in e["sources"]):
-            skipped["place node (PlacesLayer)"] += 1
+        node_ids = [n for n in (node_id_of(s) for s in e["sources"]) if n]
+        struct_row = None
+        if node_ids:
+            types = [dare_type.get(n) for n in node_ids if n in dare_type]
+            # a settlement node (or an untyped population/gazetteer node)
+            # keeps the row with PlacesLayer; a row whose nodes are ALL
+            # structures renders through the atlas instead
+            if any(t is None or t in SETTLEMENT_DARE_TYPES for t in types) or not types:
+                skipped["settlement node (PlacesLayer)"] += 1
+                continue
+            struct_row = resolve_kind(SRC_DARE.get(types[0]))
+            if struct_row is None:
+                skipped["dropped: unmapped dare type"] += 1
+                continue
+        # ── ONE kind resolution (the taxonomy is the only vocabulary) ──
+        kind = resolve_kind(e["kind"])
+        if e["kind"] == "building":
+            kind = resolve_kind(SRC_BUILDING.get(e.get("subtype"))) or "building"
+        elif e["kind"] == "port":
+            kind = resolve_kind(SRC_PORT.get(e.get("subtype"))) or "port"
+        elif e["kind"] == "other":
+            # vici survey points with no source type: adjudicated kinds from
+            # the mining swarm (registry/vici-other-kinds.json); else dropped
+            kind = None
+            for src in e["sources"]:
+                if src.startswith("vici:"):
+                    kind = resolve_kind(MINED_KINDS.get(src[len("vici:"):]))
+                    if kind:
+                        break
+        if struct_row and (kind is None or kind == "settlement"):
+            kind = struct_row
+        if kind is None:
+            skipped["dropped: no canonical kind"] += 1
             continue
-        cat = CATEGORY.get(e["kind"], "other")
+        if kind == "settlement" and not node_ids:
+            # vici-only settlements: real settlements, no place node — they
+            # ship in the atlas settlement chunk (drawn with the
+            # Settlements toggle, not a Sites category)
+            pass
+        cat = KINDS[kind]["category"]
         row = {"i": e["id"], "la": round(e["lat"], 4), "lo": round(e["lng"], 4),
-               "k": e["kind"]}
-        if e.get("subtype") and e["subtype"] != e["kind"]:
+               "k": kind}
+        if e.get("subtype") and e["subtype"] != kind and e["kind"] != "building":
             row["st"] = e["subtype"]
         name = (e.get("name") or "").strip()
         unnamed = (not name or name.lower().startswith(("unnamed", "untitled")))
@@ -106,14 +164,23 @@ def main():
             row["s"] = e["attestedFrom"]
         if e.get("attestedTo") is not None:
             row["e"] = min(e["attestedTo"], 1500)
-        cands = candidate_keys(e)
-        detail = max(cands, key=lambda k: (richness(cr.get(k)), -cands.index(k)))
-        has_knowledge = bool(
-            (knowledge.get(e["id"]) or {}).get("extract")
-            or any((knowledge.get(k) or {}).get("extract") for k in cands)
-            or richness(cr.get(detail)) >= 4)
-        if detail != e["id"] and richness(cr.get(detail)) > 0:
-            row["d"] = detail
+        if struct_row:
+            # structural place nodes resolve knowledge through the places
+            # store (knowledge/places.json is keyed by node id) — d carries
+            # the node id; AtlasLayer routes dare-/pl-/wd- keys there
+            node = next((n for n in node_ids if n in dare_type), node_ids[0])
+            has_knowledge = bool((place_knowledge.get(node) or {}).get("extract"))
+            if node != e["id"]:
+                row["d"] = node
+        else:
+            cands = candidate_keys(e)
+            detail = max(cands, key=lambda k: (richness(cr.get(k)), -cands.index(k)))
+            has_knowledge = bool(
+                (knowledge.get(e["id"]) or {}).get("extract")
+                or any((knowledge.get(k) or {}).get("extract") for k in cands)
+                or richness(cr.get(detail)) >= 4)
+            if detail != e["id"] and richness(cr.get(detail)) > 0:
+                row["d"] = detail
         row["t"] = 1 if has_knowledge else (2 if not unnamed else 3)
         by_cat[cat].append(row)
 

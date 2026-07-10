@@ -32,6 +32,42 @@ export const DARE_TYPE_LABELS: Record<number, string> = {
   76: 'Lighthouse',
 }
 
+/** DARE types that ARE settlements — the only types PlacesLayer renders.
+ *  Every other DARE type is a structure and renders through the entity
+ *  atlas (Sites categories); build-entity-atlas.py mirrors this set. */
+export const SETTLEMENT_DARE_TYPES = new Set([11, 12, 13, 15, 31])
+
+/** structural DARE type → siteType slug for SITE_TYPE_TO_LAYER routing
+ *  (search selects a node → the matching Sites category toggles on) */
+export const DARE_TYPE_TO_SITE_TYPE: Record<number, string> = {
+  14: 'villa',
+  19: 'farm',
+  16: 'road-station',
+  49: 'pass',
+  51: 'bridge',
+  55: 'road',
+  46: 'bath',
+  47: 'dam', // DARE aqueduct NODES live in atlas infrastructure; the 'aqueduct' slug belongs to AqueductLayer
+  52: 'dam',
+  76: 'lighthouse',
+  17: 'legionary-fortress',
+  18: 'fort',
+  35: 'fortification',
+  53: 'watchtower',
+  21: 'monastery',
+  24: 'church',
+  43: 'temple',
+  61: 'sanctuary',
+  57: 'mine',
+  58: 'workshop',
+  66: 'findspot',
+  32: 'tumulus',
+  34: 'monument',
+  50: 'mausoleum',
+  63: 'cemetery',
+  64: 'monument',
+}
+
 export type SettlementCategory =
   | 'cities'
   | 'rural'

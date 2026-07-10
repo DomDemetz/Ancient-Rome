@@ -1,20 +1,26 @@
 import { useState } from 'react'
 import { ChevronDown, ChevronRight } from 'lucide-react'
-import { ALL_CATEGORIES, CATEGORY_STYLES } from '../layers/settlementStyles'
-import type { SettlementCategory } from '../layers/settlementStyles'
+import { useShallow } from 'zustand/shallow'
+import { DATASET_REGISTRY } from '@/data/datasetRegistry'
+import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
 
-interface SettlementLegendProps {
-  hiddenCategories: Set<string>
-  onToggleCategory: (category: SettlementCategory) => void
-}
-
-export function SettlementLegend({ hiddenCategories, onToggleCategory }: SettlementLegendProps) {
+/**
+ * Map-corner color key for the entity-atlas dots (the Sites categories).
+ * Since the unified rework the atlas is the ONE taxonomy for structures —
+ * this legend reads and toggles the same datasetState as the panel, so
+ * there is no second category system to drift out of sync (the old
+ * settlement legend duplicated the Sites list with per-DARE-type filters).
+ * Shown while any Sites category is on; entries mirror the active set.
+ */
+export function SitesLegend() {
   const isMobile = useUIStore((s) => s.isMobile)
   const [collapsed, setCollapsed] = useState(isMobile)
-  // Below zoom 6 no settlement dot can render (getZoomThreshold floors at 6),
-  // so a seven-category legend describes an empty screen — say why instead.
+  const { datasetState, toggleDataset } = useMapLayerStore(
+    useShallow((s) => ({ datasetState: s.datasetState, toggleDataset: s.toggleDataset })),
+  )
+  // Below the atlas minZoom no dot can render — say why instead.
   // (nav-store view, NOT useMapViewport: this renders outside MapContainer)
   const zoom = useMapNavStore((s) => s.mapView?.zoom)
   const dotsRenderable = zoom == null || zoom >= 6
@@ -30,7 +36,7 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
         onClick={() => setCollapsed((v) => !v)}
         className="w-full flex items-center justify-between px-3 py-1.5 cursor-pointer bg-transparent border-none text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400"
       >
-        <span>Settlements</span>
+        <span>Sites</span>
         {collapsed ? (
           <ChevronRight className="w-3.5 h-3.5" />
         ) : (
@@ -40,30 +46,26 @@ export function SettlementLegend({ hiddenCategories, onToggleCategory }: Settlem
 
       {!collapsed && !dotsRenderable && (
         <div className="px-3 pb-2 text-[10px] italic text-slate-500">
-          Zoom in to see individual settlements
+          Zoom in to see individual sites
         </div>
       )}
       {!collapsed && dotsRenderable && (
         <div className="px-3 pb-2 flex flex-col gap-1">
-          {ALL_CATEGORIES.map((cat) => {
-            const style = CATEGORY_STYLES[cat]
-            const hidden = hiddenCategories.has(cat)
+          {DATASET_REGISTRY.filter((cfg) => cfg.group === 'Sites').map((cfg) => {
+            const on = datasetState[cfg.id]?.show ?? false
             return (
               <button
-                key={cat}
-                onClick={() => onToggleCategory(cat)}
+                key={cfg.id}
+                onClick={() => toggleDataset(cfg.id)}
                 className={`flex items-center gap-2 cursor-pointer bg-transparent border-none py-px text-left text-xs ${
-                  hidden ? 'text-slate-600' : 'text-slate-300'
+                  on ? 'text-slate-300' : 'text-slate-600'
                 }`}
               >
                 <span
                   className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
-                  style={{
-                    background: style.color,
-                    opacity: hidden ? 0.3 : 1,
-                  }}
+                  style={{ background: cfg.fillColor, opacity: on ? 1 : 0.3 }}
                 />
-                <span>{style.label}</span>
+                <span>{cfg.label}</span>
               </button>
             )
           })}

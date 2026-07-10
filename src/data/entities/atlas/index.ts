@@ -33,11 +33,11 @@ export const ATLAS_CATEGORIES = [
   'cities',
   'rural',
   'military',
-  'infrastructure',
   'religious',
-  'production',
   'funerary',
-  'other',
+  'production',
+  'infrastructure',
+  'settlement',
 ] as const
 
 export type AtlasCategory = (typeof ATLAS_CATEGORIES)[number]
@@ -46,11 +46,11 @@ const CHUNKS: Record<AtlasCategory, () => Promise<{ default: string }>> = {
   cities: () => import('./cities.json?raw'),
   rural: () => import('./rural.json?raw'),
   military: () => import('./military.json?raw'),
-  infrastructure: () => import('./infrastructure.json?raw'),
   religious: () => import('./religious.json?raw'),
-  production: () => import('./production.json?raw'),
   funerary: () => import('./funerary.json?raw'),
-  other: () => import('./other.json?raw'),
+  production: () => import('./production.json?raw'),
+  infrastructure: () => import('./infrastructure.json?raw'),
+  settlement: () => import('./settlement.json?raw'),
 }
 
 /** Load one category chunk — the dataset-toggle loader. */

@@ -6,7 +6,11 @@ import { popAt } from './populationCurve'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
-import { DARE_TYPE_TO_CATEGORY, getSettlementStyle } from './settlementStyles'
+import {
+  DARE_TYPE_TO_CATEGORY,
+  SETTLEMENT_DARE_TYPES,
+  getSettlementStyle,
+} from './settlementStyles'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { baseTooltipHtml, displayName } from './placeTooltip'
 import empiresSearchJson from '@/data/registry/empires-search.json'
@@ -147,7 +151,12 @@ export function PlacesLayer({
       const t = p.dare?.type
       if (!hasPop && !showSettlements) return false
 
-      // Category/type filters apply to DARE-typed nodes; population nodes
+      // Structural DARE nodes (villas, sanctuaries, mines, forts...) render
+      // through the entity atlas — Settlements draws only settlements, so
+      // the panel's Sites categories are the one taxonomy for structures
+      if (t != null && !SETTLEMENT_DARE_TYPES.has(t) && !hasPop) return false
+
+      // Type filters apply to DARE-typed nodes; population nodes
       // (major cities) obey the urban category toggle
       if (t != null) {
         if (!enabledTypes.has(t) && !hasPop) return false

@@ -43,10 +43,15 @@ function spatialSample<T extends { la: number; lo: number }>(items: T[], gridSiz
   })
 }
 
+/** structural DARE nodes carry their place-node id in `d` — their
+ *  knowledge lives in the places store, not the features store */
+const NODE_KEY = /^(dare|pl|wd)-/
+
 export function AtlasLayer({ data, config }: AtlasLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
   const knowledge = useWikiEnrichment('knowledge-features')
+  const placeKnowledge = useWikiEnrichment('knowledge-places')
   const popupRef = useRef<L.Popup | null>(null)
   const currentYear = useTimelineStore((s) => s.currentYear)
 
@@ -100,15 +105,19 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
         html += `<div class="map-tooltip-detail">${span}</div>`
       }
 
-      // one lookup path: entity id first, adjudicated detail key second
-      const kEntry = knowledge?.[e.i] ?? (e.d ? knowledge?.[e.d] : undefined)
-      const kKey = knowledge?.[e.i] ? e.i : (e.d ?? e.i)
+      // one lookup path: entity id first, adjudicated detail key second;
+      // node-keyed rows (structural DARE places) resolve via the places store
+      const isNode = !!e.d && NODE_KEY.test(e.d)
+      const store = isNode ? placeKnowledge : knowledge
+      const layerName = isNode ? 'knowledge-places' : 'knowledge-features'
+      const kEntry = (!isNode ? store?.[e.i] : undefined) ?? (e.d ? store?.[e.d] : undefined)
+      const kKey = !isNode && store?.[e.i] ? e.i : (e.d ?? e.i)
       if (kEntry?.extract) {
-        html = appendWikiTooltip(html, kKey, knowledge, 'knowledge-features')
+        html = appendWikiTooltip(html, kKey, store, layerName)
       } else if (kEntry?.crossRef) {
         html = appendCrossRefTooltip(html, kEntry.crossRef, { crKey: kKey })
       } else if (e.d || e.t === 1) {
-        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(kKey)}" data-wiki-layer="knowledge-features">Details</button></div>`
+        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(kKey)}" data-wiki-layer="${layerName}">Details</button></div>`
       }
 
       if (!popupRef.current) {
@@ -116,7 +125,7 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       }
       popupRef.current.setLatLng([e.la, e.lo]).setContent(`<span>${html}</span>`).openOn(map)
     },
-    [knowledge, map],
+    [knowledge, placeKnowledge, map],
   )
   const openPopupRef = useRef(openPopup)
   useEffect(() => {
