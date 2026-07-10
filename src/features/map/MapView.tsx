@@ -137,6 +137,33 @@ function BasePane() {
       const pane = map.createPane('basePolygons')
       pane.style.zIndex = '250'
     }
+
+    // At city zooms the political wash stops informing (one polity fills the
+    // whole viewport) and starts hiding the terrain, monuments, and street-
+    // level texture — ease it back from atlas strength to a tint. Kept above
+    // zero so the fill still veils the modern urban footprint baked into the
+    // raster tiles.
+    const FULL = 0.55
+    const TINT = 0.3
+    for (const name of ['empiresFill', 'territoryFill']) {
+      const pane = map.getPane(name)
+      if (pane) pane.style.transition = 'opacity 400ms ease'
+    }
+    const applyZoomFade = () => {
+      const z = map.getZoom()
+      // 0.55 flat through z7, linear ramp down, 0.3 floor from z10
+      const t = Math.min(1, Math.max(0, (z - 7) / 3))
+      const opacity = String(FULL - (FULL - TINT) * t)
+      for (const name of ['empiresFill', 'territoryFill']) {
+        const pane = map.getPane(name)
+        if (pane) pane.style.opacity = opacity
+      }
+    }
+    applyZoomFade()
+    map.on('zoomend', applyZoomFade)
+    return () => {
+      map.off('zoomend', applyZoomFade)
+    }
   }, [map])
   return null
 }
