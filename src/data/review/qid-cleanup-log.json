@@ -13947,5 +13947,19 @@
   "newQid": "Q1067984",
   "reason": "Flintshire replaces None (inception None)",
   "confidence": "high"
+ },
+ {
+  "key": "pleiades:426600",
+  "action": "removed-qid-and-wd-fields",
+  "qid": "Q87742452",
+  "reason": "Passo Lombardo villa is a point structure; this record is 2.4 km from its coordinates (keeper: pleiades:659743014)",
+  "confidence": "high"
+ },
+ {
+  "key": "pleiades:426598",
+  "action": "removed-qid-and-wd-fields",
+  "qid": "Q87742452",
+  "reason": "Passo Lombardo villa is a point structure; this record is 3.8 km from its coordinates (keeper: pleiades:659743014)",
+  "confidence": "high"
  }
 ]
