@@ -480,6 +480,16 @@
     "t": 1
   },
   {
+    "i": "pleiades:197672108",
+    "la": 40.75,
+    "lo": 14.4965,
+    "k": "tomb",
+    "n": "Tomb of Novia Amoena",
+    "s": -337,
+    "e": 79,
+    "t": 1
+  },
+  {
     "i": "pleiades:198601655",
     "la": 39.1044,
     "lo": 27.1809,
@@ -657,16 +667,6 @@
     "n": "Ketef Hinnom",
     "s": -550,
     "e": -450,
-    "t": 1
-  },
-  {
-    "i": "pleiades:254173129",
-    "la": 27.7365,
-    "lo": 30.7042,
-    "k": "tomb",
-    "n": "Tomb of Petosiris at Tuna el-Gebel",
-    "s": -27,
-    "e": 500,
     "t": 1
   },
   {
@@ -1260,22 +1260,12 @@
     "t": 1
   },
   {
-    "i": "pleiades:380628162",
-    "la": 25.74,
-    "lo": 32.6009,
-    "k": "tomb",
-    "n": "Tomb of Horemheb (KV57)",
-    "s": -27,
-    "e": 500,
-    "t": 1
-  },
-  {
     "i": "pleiades:384697574",
     "la": 25.7398,
     "lo": 32.6016,
     "k": "cemetery",
     "n": "Valley of the Kings",
-    "s": -27,
+    "s": -1373,
     "e": 500,
     "t": 1
   },
@@ -1911,16 +1901,6 @@
     "t": 1
   },
   {
-    "i": "pleiades:539358755",
-    "la": 29.2362,
-    "lo": 30.9707,
-    "k": "tomb",
-    "n": "Pyramid of Senusret II",
-    "s": -27,
-    "e": 500,
-    "t": 1
-  },
-  {
     "i": "pleiades:549204946",
     "la": 39.2575,
     "lo": 9.3597,
@@ -2041,6 +2021,16 @@
     "t": 1
   },
   {
+    "i": "pleiades:582648311",
+    "la": 40.7496,
+    "lo": 14.4946,
+    "k": "tomb",
+    "n": "Tomb of Lucius Sepunius Sandilianus",
+    "s": -337,
+    "e": 79,
+    "t": 1
+  },
+  {
     "i": "pleiades:584742245",
     "la": 37.2124,
     "lo": 22.3218,
@@ -2088,16 +2078,6 @@
     "n": "Grave Circle B",
     "s": -1600,
     "e": -1500,
-    "t": 1
-  },
-  {
-    "i": "pleiades:599287018",
-    "la": 25.7403,
-    "lo": 32.6013,
-    "k": "tomb",
-    "n": "Tomb of Tutankhamun (KV62)",
-    "s": -1373,
-    "e": -1273,
     "t": 1
   },
   {
@@ -4131,6 +4111,16 @@
     "t": 2
   },
   {
+    "i": "pleiades:197672107",
+    "la": 40.75,
+    "lo": 14.4965,
+    "k": "tomb",
+    "n": "Tomb of Caecilia Agathia",
+    "s": -337,
+    "e": 79,
+    "t": 2
+  },
+  {
     "i": "pleiades:20024633",
     "la": 34.7759,
     "lo": 32.4049,
@@ -5300,14 +5290,6 @@
     "t": 2
   },
   {
-    "i": "pleiades:499652704",
-    "la": 41.8825,
-    "lo": 12.5225,
-    "k": "cemetery",
-    "n": "Via Taranto columbaria",
-    "t": 2
-  },
-  {
     "i": "pleiades:50332479",
     "la": 41.4345,
     "lo": 14.6165,
@@ -5385,6 +5367,16 @@
     "n": "Necropoli di Celle",
     "s": -301,
     "e": 500,
+    "t": 2
+  },
+  {
+    "i": "pleiades:533715937",
+    "la": 40.75,
+    "lo": 14.4966,
+    "k": "tomb",
+    "n": "Tomb of C. Veranius Rufus",
+    "s": -337,
+    "e": 79,
     "t": 2
   },
   {
@@ -6648,14 +6640,6 @@
     "t": 2
   },
   {
-    "i": "pleiades:861485761",
-    "la": 37.383,
-    "lo": 14.6653,
-    "k": "tomb",
-    "n": "Tomba del Timpano",
-    "t": 2
-  },
-  {
     "i": "pleiades:87367172",
     "la": 37.2638,
     "lo": 21.8769,
@@ -7209,14 +7193,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-10208",
-    "la": 45.8434,
-    "lo": 9.0153,
-    "k": "cemetery",
-    "n": "Sarkophage (Pontegana)",
-    "t": 2
-  },
-  {
     "i": "vici:vici-10215",
     "la": 47.1471,
     "lo": 7.2714,
@@ -7274,14 +7250,6 @@
     "lo": 30.8988,
     "k": "cemetery",
     "n": "Necropolis Hawara",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11054",
-    "la": 30.9317,
-    "lo": 14.5423,
-    "k": "cemetery",
-    "n": "Ghirza South",
     "t": 2
   },
   {
@@ -7353,23 +7321,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-11483",
-    "la": 39.9002,
-    "lo": 26.1993,
-    "k": "cemetery",
-    "n": "Tomb of Festus",
-    "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11544",
-    "la": 41.2516,
-    "lo": 13.5787,
-    "k": "cemetery",
-    "n": "Tomb of Cicero",
-    "t": 2
-  },
-  {
     "i": "vici:vici-116",
     "la": 52.0881,
     "lo": 5.1177,
@@ -7377,14 +7328,6 @@
     "n": "Grafveld Utrecht",
     "s": 40,
     "e": 275,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-11670",
-    "la": 41.7909,
-    "lo": 12.5887,
-    "k": "cemetery",
-    "n": "Grab des Gallienus",
     "t": 2
   },
   {
@@ -7523,6 +7466,7 @@
     "lo": 6.966,
     "k": "cemetery",
     "n": "Grabtumulus Strotzbüsch",
+    "s": 200,
     "t": 2
   },
   {
@@ -7872,14 +7816,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-14980",
-    "la": 41.835,
-    "lo": 12.5397,
-    "k": "cemetery",
-    "n": "Tomb of the Frontispiece",
-    "t": 2
-  },
-  {
     "i": "vici:vici-14981",
     "la": 41.8321,
     "lo": 12.5432,
@@ -8103,16 +8039,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-16624",
-    "la": 43.7764,
-    "lo": 4.831,
-    "k": "cemetery",
-    "n": "Glanum, Mausolée",
-    "s": 25,
-    "e": 1500,
-    "t": 2
-  },
-  {
     "i": "vici:vici-16765",
     "la": 46.7864,
     "lo": 23.7088,
@@ -8162,35 +8088,11 @@
   },
   { "i": "vici:vici-17416", "la": 48.9124, "lo": 1.8553, "k": "cemetery", "n": "Maule", "t": 2 },
   {
-    "i": "vici:vici-17417",
-    "la": 48.9124,
-    "lo": 1.8553,
-    "k": "cemetery",
-    "n": "Maule necropolis",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17666",
-    "la": 37.2902,
-    "lo": 13.5897,
-    "k": "cemetery",
-    "n": "Negropole Agrigento",
-    "t": 2
-  },
-  {
     "i": "vici:vici-17692",
     "la": 47.8911,
     "lo": 11.7709,
     "k": "cemetery",
     "n": "Gräber Valley",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17708",
-    "la": 37.4675,
-    "lo": -5.6522,
-    "k": "cemetery",
-    "n": "Tumba de Servilia",
     "t": 2
   },
   {
@@ -8241,15 +8143,6 @@
     "lo": 18.4235,
     "k": "cemetery",
     "n": "Cemetery, Gorsium",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-17883",
-    "la": 33.2703,
-    "lo": 35.2126,
-    "k": "cemetery",
-    "n": "Cemetery, Al Bass",
-    "s": 1,
     "t": 2
   },
   {
@@ -8339,15 +8232,6 @@
     "lo": 33.9326,
     "k": "cemetery",
     "n": "Mausoleum, Diocaesarea",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-18146",
-    "la": 39.654,
-    "lo": 31.9978,
-    "k": "cemetery",
-    "n": "Tumulus of Gordias",
-    "s": -740,
     "t": 2
   },
   {
@@ -8948,14 +8832,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-19510",
-    "la": 41.9544,
-    "lo": 2.774,
-    "k": "cemetery",
-    "n": "Funeraria tower Vilablareix",
-    "t": 2
-  },
-  {
     "i": "vici:vici-19610",
     "la": 36.5789,
     "lo": 34.0321,
@@ -9373,24 +9249,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-20219",
-    "la": 42.6258,
-    "lo": 25.3992,
-    "k": "cemetery",
-    "n": "Kazanlak, Thracian Tomb",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-20220",
-    "la": 42.6999,
-    "lo": 25.3336,
-    "k": "cemetery",
-    "n": "Golyamata Kosmatka",
-    "s": -300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-20221",
     "la": 42.7057,
     "lo": 25.3465,
@@ -9412,16 +9270,6 @@
     "lo": 25.3122,
     "k": "cemetery",
     "n": "Mogila Golyama Arsenalka",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-20224",
-    "la": 42.6899,
-    "lo": 25.351,
-    "k": "cemetery",
-    "n": "Golyma Ostrousha",
-    "s": -330,
-    "e": -320,
     "t": 2
   },
   {
@@ -9747,14 +9595,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-20574",
-    "la": 53.0487,
-    "lo": -9.1401,
-    "k": "cemetery",
-    "n": "Poulnabrone Tomb - Poll na mBrón - The Hole of Sorrows",
-    "t": 2
-  },
-  {
     "i": "vici:vici-20577",
     "la": 47.2431,
     "lo": -0.0946,
@@ -9819,14 +9659,6 @@
     "lo": 15.3604,
     "k": "cemetery",
     "n": "Gosław Dolmen 1 ( Gützlaffshagen Hünenbett I )",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-20590",
-    "la": 40.0031,
-    "lo": 3.8916,
-    "k": "cemetery",
-    "n": "Naveta d'Es Tudons",
     "t": 2
   },
   {
@@ -9925,14 +9757,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-20710",
-    "la": 52.2072,
-    "lo": -7.1595,
-    "k": "cemetery",
-    "n": "Knockeen",
-    "t": 2
-  },
-  {
     "i": "vici:vici-20711",
     "la": 52.2056,
     "lo": -7.2112,
@@ -10001,16 +9825,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-20773",
-    "la": 35.8697,
-    "lo": 14.5067,
-    "k": "cemetery",
-    "n": "Paola - Hypogeum Ħal-Saflieni",
-    "s": -4000,
-    "e": -1500,
-    "t": 2
-  },
-  {
     "i": "vici:vici-20778",
     "la": 47.5678,
     "lo": 13.5192,
@@ -10044,15 +9858,6 @@
     "lo": 34.273,
     "k": "cemetery",
     "n": "Solokha Kurgan",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-20835",
-    "la": 45.3739,
-    "lo": 36.526,
-    "k": "cemetery",
-    "n": "Kerch - Tsarskiy Kurgan",
-    "s": -399,
     "t": 2
   },
   {
@@ -10170,14 +9975,6 @@
     "k": "cemetery",
     "n": "Sveshtari Thracian Tomb",
     "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21111",
-    "la": 41.9797,
-    "lo": 25.7387,
-    "k": "cemetery",
-    "n": "Aleksandrovo Thracian tomb",
     "t": 2
   },
   {
@@ -10655,15 +10452,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21555",
-    "la": 29.8759,
-    "lo": 31.2212,
-    "k": "cemetery",
-    "n": "Saqqara, Mastaba of Mereruka",
-    "s": -2399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-21557",
     "la": 29.876,
     "lo": 31.2214,
@@ -10809,52 +10597,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21581",
-    "la": 29.8183,
-    "lo": 31.2257,
-    "k": "cemetery",
-    "n": "Dashur, Queen's pyramid of Sesostris III",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21582",
-    "la": 29.8182,
-    "lo": 31.2261,
-    "k": "cemetery",
-    "n": "Dashur, Queen's pyramid of Sesostris III",
-    "t": 2
-  },
-  {
     "i": "vici:vici-21584",
     "la": 29.8197,
     "lo": 31.2258,
     "k": "cemetery",
     "n": "Dashur, Queen's pyramid of Sesostris III",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21585",
-    "la": 29.8197,
-    "lo": 31.2251,
-    "k": "cemetery",
-    "n": "Dashur, Queen's pyramid of Sesostris III",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21586",
-    "la": 29.8197,
-    "lo": 31.2265,
-    "k": "cemetery",
-    "n": "Dashur, Queen's pyramid of Sesostris III",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21588",
-    "la": 18.4095,
-    "lo": 31.7709,
-    "k": "cemetery",
-    "n": "El Kurru, Pyramid of Piye [ Piankhi]",
-    "s": -740,
     "t": 2
   },
   {
@@ -10873,14 +10620,6 @@
     "lo": 29.9087,
     "k": "cemetery",
     "n": "Alexandria, Jewish Cemetery",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-21604",
-    "la": 31.1784,
-    "lo": 29.8934,
-    "k": "cemetery",
-    "n": "Alexandria, Catacombs of Kom Al-Shoqafa",
     "t": 2
   },
   {
@@ -11625,14 +11364,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-22342",
-    "la": 35.3172,
-    "lo": 24.4634,
-    "k": "cemetery",
-    "n": "Armeni - Rethymno",
-    "t": 2
-  },
-  {
     "i": "vici:vici-22353",
     "la": 35.2458,
     "lo": 25.1591,
@@ -11675,16 +11406,6 @@
     "lo": 24.1246,
     "k": "cemetery",
     "n": "Stylos - Stilos",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-22400",
-    "la": 34.9832,
-    "lo": 25.013,
-    "k": "cemetery",
-    "n": "Koumasa",
-    "s": -2650,
-    "e": -2400,
     "t": 2
   },
   {
@@ -12299,14 +12020,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23266",
-    "la": 40.6526,
-    "lo": 22.1278,
-    "k": "cemetery",
-    "n": "Lyson and Callicles’ Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-23267",
     "la": 40.6523,
     "lo": 22.131,
@@ -12320,16 +12033,6 @@
     "lo": 30.8833,
     "k": "cemetery",
     "n": "Beni Hasan",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23283",
-    "la": 37.0201,
-    "lo": 22.4678,
-    "k": "cemetery",
-    "n": "Vapheion, Vaphio in Laconia",
-    "s": -1500,
-    "e": -1450,
     "t": 2
   },
   {
@@ -12600,14 +12303,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23403",
-    "la": 43.1031,
-    "lo": 12.3501,
-    "k": "cemetery",
-    "n": "Ipogeo disan Manno",
-    "t": 2
-  },
-  {
     "i": "vici:vici-23407",
     "la": 42.9856,
     "lo": 11.8847,
@@ -12666,15 +12361,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23447",
-    "la": 43.4725,
-    "lo": 11.2838,
-    "k": "cemetery",
-    "n": "Castellina in Chianti",
-    "s": -700,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23451",
     "la": 47.4999,
     "lo": 11.1043,
@@ -12725,14 +12411,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23498",
-    "la": 25.7288,
-    "lo": 32.5928,
-    "k": "cemetery",
-    "n": "Valley of the Queens in Thebes.",
-    "t": 2
-  },
-  {
     "i": "vici:vici-23523",
     "la": 48.0093,
     "lo": 12.4177,
@@ -12754,15 +12432,6 @@
     "lo": 7.0991,
     "k": "cemetery",
     "n": "Grabstein",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23697",
-    "la": 41.9927,
-    "lo": 12.0977,
-    "k": "cemetery",
-    "n": "Regolini-Galassi tomb at Cisra",
-    "s": -630,
     "t": 2
   },
   {
@@ -12886,15 +12555,6 @@
     "k": "cemetery",
     "n": "Tomba Cardarelli, Tarquinia",
     "s": -510,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23727",
-    "la": 42.2499,
-    "lo": 11.7708,
-    "k": "cemetery",
-    "n": "Tarquinia, Tomba 5591",
-    "s": -500,
     "t": 2
   },
   {
@@ -13162,14 +12822,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23761",
-    "la": 42.0023,
-    "lo": 12.0923,
-    "k": "cemetery",
-    "n": "Tomba delle Cinque Sedie, Cerveteri",
-    "t": 2
-  },
-  {
     "i": "vici:vici-23762",
     "la": 42.0037,
     "lo": 12.0941,
@@ -13243,15 +12895,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23773",
-    "la": 43.0305,
-    "lo": 11.9524,
-    "k": "cemetery",
-    "n": "Tomb of the Monkey, Chiusi",
-    "s": -499,
-    "t": 2
-  },
-  {
     "i": "vici:vici-23774",
     "la": 42.0334,
     "lo": 12.4166,
@@ -13267,15 +12910,6 @@
     "k": "cemetery",
     "n": "La Cucumelletta, Vulci",
     "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23777",
-    "la": 42.4146,
-    "lo": 11.6425,
-    "k": "cemetery",
-    "n": "La Cucumella, Vulci",
-    "s": -599,
     "t": 2
   },
   {
@@ -13536,14 +13170,6 @@
     "i": "vici:vici-24036",
     "la": 39.6574,
     "lo": 32.0183,
-    "k": "cemetery",
-    "n": "Tumulus - Gordion",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-24037",
-    "la": 39.658,
-    "lo": 32.0184,
     "k": "cemetery",
     "n": "Tumulus - Gordion",
     "t": 2
@@ -13959,8 +13585,6 @@
     "t": 2
   },
   { "i": "vici:vici-24418", "la": 36.7763, "lo": 31.3983, "k": "cemetery", "n": "side", "t": 2 },
-  { "i": "vici:vici-24419", "la": 36.7766, "lo": 31.3982, "k": "cemetery", "n": "Side", "t": 2 },
-  { "i": "vici:vici-24420", "la": 36.7764, "lo": 31.3994, "k": "cemetery", "n": "Side", "t": 2 },
   {
     "i": "vici:vici-24433",
     "la": 36.9443,
@@ -15050,14 +14674,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-25692",
-    "la": 37.1333,
-    "lo": 14.9833,
-    "k": "cemetery",
-    "n": "Pantalica, Necropolis",
-    "t": 2
-  },
-  {
     "i": "vici:vici-25715",
     "la": 37.9134,
     "lo": 22.8821,
@@ -15109,7 +14725,6 @@
     "n": "Ayşepınar",
     "t": 2
   },
-  { "i": "vici:vici-25884", "la": 36.3461, "lo": 30.1725, "k": "cemetery", "n": "Limyra", "t": 2 },
   { "i": "vici:vici-25885", "la": 36.3436, "lo": 30.1752, "k": "cemetery", "n": "Limyra", "t": 2 },
   {
     "i": "vici:vici-25891",
@@ -15513,7 +15128,6 @@
     "e": -800,
     "t": 2
   },
-  { "i": "vici:vici-26284", "la": 37.2126, "lo": 22.3216, "k": "cemetery", "n": "Pellana", "t": 2 },
   {
     "i": "vici:vici-26285",
     "la": 37.2126,
@@ -15528,14 +15142,6 @@
     "lo": 25.3104,
     "k": "cemetery",
     "n": "Homer`s Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26388",
-    "la": 36.7374,
-    "lo": 24.4237,
-    "k": "cemetery",
-    "n": "Melos, Catacombs",
     "t": 2
   },
   {
@@ -15789,16 +15395,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-26662",
-    "la": 40.6533,
-    "lo": 35.8305,
-    "k": "cemetery",
-    "n": "Amaseia, Tombs of the Pontus kings",
-    "s": -299,
-    "e": -100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-26671",
     "la": 36.6837,
     "lo": 33.0918,
@@ -15812,14 +15408,6 @@
     "lo": 33.3388,
     "k": "cemetery",
     "n": "Alaoda Necropolis",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-26675",
-    "la": 37.5587,
-    "lo": 27.8191,
-    "k": "cemetery",
-    "n": "Necropolis of Alinda [Caria]",
     "t": 2
   },
   {
@@ -15911,14 +15499,6 @@
     "lo": 22.041,
     "k": "cemetery",
     "n": "Mala Kopasnica",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27552",
-    "la": 34.1197,
-    "lo": 35.645,
-    "k": "cemetery",
-    "n": "Royal shaft tombs",
     "t": 2
   },
   {
@@ -16122,14 +15702,6 @@
     "lo": 5.8492,
     "k": "cemetery",
     "n": "Villa Spaubeek",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28378",
-    "la": 38.2926,
-    "lo": 23.1661,
-    "k": "cemetery",
-    "n": "Thespiai - Polyandrion",
     "t": 2
   },
   {
@@ -16527,14 +16099,6 @@
     "lo": 5.547,
     "k": "cemetery",
     "n": "Tumuli Waltwilder - De Bek",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28784",
-    "la": 50.8816,
-    "lo": 5.6743,
-    "k": "cemetery",
-    "n": "Lanaken - Smeermaas",
     "t": 2
   },
   {
@@ -17061,14 +16625,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-28940",
-    "la": 38.5538,
-    "lo": 28.0086,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
     "i": "vici:vici-28941",
     "la": 38.5551,
     "lo": 28.008,
@@ -17077,33 +16633,9 @@
     "t": 2
   },
   {
-    "i": "vici:vici-28942",
-    "la": 38.5553,
-    "lo": 28.0096,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
     "i": "vici:vici-28943",
     "la": 38.5576,
     "lo": 28.0056,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28944",
-    "la": 38.5575,
-    "lo": 28.0069,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28945",
-    "la": 38.5566,
-    "lo": 28.0078,
     "k": "cemetery",
     "n": "Bin Tepe, Funeral Mound",
     "t": 2
@@ -17141,14 +16673,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-28951",
-    "la": 38.5738,
-    "lo": 28.0226,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
     "i": "vici:vici-28952",
     "la": 38.5731,
     "lo": 28.0286,
@@ -17176,22 +16700,6 @@
     "i": "vici:vici-28955",
     "la": 38.5716,
     "lo": 28.0068,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28956",
-    "la": 38.5713,
-    "lo": 28.0059,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28957",
-    "la": 38.5706,
-    "lo": 28.0063,
     "k": "cemetery",
     "n": "Bin Tepe, Funeral Mound",
     "t": 2
@@ -17330,14 +16838,6 @@
     "i": "vici:vici-28974",
     "la": 38.5479,
     "lo": 28.0084,
-    "k": "cemetery",
-    "n": "Bin Tepe, Funeral Mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-28975",
-    "la": 38.5486,
-    "lo": 28.0082,
     "k": "cemetery",
     "n": "Bin Tepe, Funeral Mound",
     "t": 2
@@ -17641,14 +17141,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-29290",
-    "la": 35.7987,
-    "lo": 36.7971,
-    "k": "cemetery",
-    "n": "Ebla, Western Palace, Tomb of the Cisterns Q79 A",
-    "t": 2
-  },
-  {
     "i": "vici:vici-29291",
     "la": 35.7987,
     "lo": 36.7973,
@@ -17696,24 +17188,6 @@
     "lo": 23.8566,
     "k": "cemetery",
     "n": "Amphipolis, Kasta Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-29320",
-    "la": 41.2072,
-    "lo": 13.5774,
-    "k": "cemetery",
-    "n": "Gaeta - Mausoleum des Munatius",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-29321",
-    "la": 41.2186,
-    "lo": 13.567,
-    "k": "cemetery",
-    "n": "Gaeta - Grab des L. Sempronius Atratinus",
-    "s": 100,
     "t": 2
   },
   {
@@ -17876,14 +17350,6 @@
     "lo": 30.2031,
     "k": "cemetery",
     "n": "Karacaören",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-29879",
-    "la": 36.5548,
-    "lo": 30.2027,
-    "k": "cemetery",
-    "n": "İdebessiois",
     "t": 2
   },
   {
@@ -18210,14 +17676,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-30667",
-    "la": 42.4512,
-    "lo": 25.6599,
-    "k": "cemetery",
-    "n": "Thracian burial mound",
-    "t": 2
-  },
-  {
     "i": "vici:vici-30669",
     "la": 42.5205,
     "lo": 25.9085,
@@ -18240,12 +17698,10 @@
   { "i": "vici:vici-30675", "la": 43.2221, "lo": 25.6166, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30676", "la": 43.221, "lo": 25.6266, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30677", "la": 43.2219, "lo": 25.6198, "k": "cemetery", "n": "Thomb", "t": 2 },
-  { "i": "vici:vici-30678", "la": 43.2208, "lo": 25.6188, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30680", "la": 43.2223, "lo": 25.5986, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30681", "la": 43.2163, "lo": 25.5949, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30682", "la": 43.2163, "lo": 25.5939, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30683", "la": 43.2173, "lo": 25.5998, "k": "cemetery", "n": "Thomb", "t": 2 },
-  { "i": "vici:vici-30684", "la": 43.2174, "lo": 25.5992, "k": "cemetery", "n": "Thomb", "t": 2 },
   { "i": "vici:vici-30685", "la": 43.2198, "lo": 25.6004, "k": "cemetery", "n": "Thomb", "t": 2 },
   {
     "i": "vici:vici-30687",
@@ -18435,14 +17891,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-31255",
-    "la": 38.1069,
-    "lo": 27.1443,
-    "k": "cemetery",
-    "n": "Colophon [Kolophon], Tumulus N. 7",
-    "t": 2
-  },
-  {
     "i": "vici:vici-31256",
     "la": 38.1094,
     "lo": 27.1473,
@@ -18527,7 +17975,6 @@
   },
   { "i": "vici:vici-31381", "la": 45.6422, "lo": 16.1862, "k": "cemetery", "n": "Tumulus", "t": 2 },
   { "i": "vici:vici-31382", "la": 45.6484, "lo": 16.1508, "k": "cemetery", "n": "Tumulus", "t": 2 },
-  { "i": "vici:vici-31383", "la": 45.6491, "lo": 16.1522, "k": "cemetery", "n": "Tumulus", "t": 2 },
   {
     "i": "vici:vici-31391",
     "la": 38.0139,
@@ -18790,14 +18237,6 @@
     "i": "vici:vici-31624",
     "la": 26.7813,
     "lo": 37.9436,
-    "k": "cemetery",
-    "n": "Madain Saleh, Khraymat Tomb I",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-31625",
-    "la": 26.7819,
-    "lo": 37.9438,
     "k": "cemetery",
     "n": "Madain Saleh, Khraymat Tomb I",
     "t": 2
@@ -19171,14 +18610,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-32242",
-    "la": 30.9469,
-    "lo": 14.551,
-    "k": "cemetery",
-    "n": "Roman Mausoleum",
-    "t": 2
-  },
-  {
     "i": "vici:vici-32293",
     "la": 36.8556,
     "lo": 45.7729,
@@ -19236,14 +18667,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-32372",
-    "la": 38.6475,
-    "lo": 22.7723,
-    "k": "cemetery",
-    "n": "Necropolis",
-    "t": 2
-  },
-  {
     "i": "vici:vici-32395",
     "la": 35.1729,
     "lo": 33.8943,
@@ -19288,14 +18711,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-32439",
-    "la": 37.8403,
-    "lo": 22.5832,
-    "k": "cemetery",
-    "n": "Mycenean Necropolis",
-    "t": 2
-  },
-  {
     "i": "vici:vici-32447",
     "la": 37.5896,
     "lo": 22.9304,
@@ -19304,28 +18719,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-32449",
-    "la": 37.5937,
-    "lo": 22.9427,
-    "k": "cemetery",
-    "n": "VAULTED TOMB 12th century BC Mycenaean.",
-    "t": 2
-  },
-  {
     "i": "vici:vici-32456",
     "la": 37.531,
     "lo": 22.8699,
     "k": "cemetery",
     "n": "Mycenean Necropolis",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-32457",
-    "la": 37.6568,
-    "lo": 22.8255,
-    "k": "cemetery",
-    "n": "Mycenean Tomb",
-    "s": -1400,
     "t": 2
   },
   {
@@ -19542,14 +18940,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-32989",
-    "la": 41.2051,
-    "lo": 20.7524,
-    "k": "cemetery",
-    "n": "Trebeništa Necropolis",
-    "t": 2
-  },
-  {
     "i": "vici:vici-32992",
     "la": 40.647,
     "lo": 19.7219,
@@ -19659,14 +19049,6 @@
     "n": "Vranas Middle Helladic Graves",
     "s": -1899,
     "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-33386",
-    "la": 37.5861,
-    "lo": 22.4215,
-    "k": "cemetery",
-    "n": "TOMB OF EPAMINONDA",
     "t": 2
   },
   {
@@ -20151,30 +19533,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-34780",
-    "la": 38.4876,
-    "lo": 30.1146,
-    "k": "cemetery",
-    "n": "Burial mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-34781",
-    "la": 38.4874,
-    "lo": 30.1139,
-    "k": "cemetery",
-    "n": "Burial mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-34782",
-    "la": 38.4876,
-    "lo": 30.1134,
-    "k": "cemetery",
-    "n": "Burial mound",
-    "t": 2
-  },
-  {
     "i": "vici:vici-34784",
     "la": 38.6483,
     "lo": 30.7822,
@@ -20427,7 +19785,6 @@
     "t": 2
   },
   { "i": "vici:vici-35202", "la": 43.3225, "lo": 26.9599, "k": "cemetery", "n": "Grave", "t": 2 },
-  { "i": "vici:vici-35203", "la": 43.3224, "lo": 26.9617, "k": "cemetery", "n": "Grave", "t": 2 },
   { "i": "vici:vici-35204", "la": 43.3208, "lo": 26.9598, "k": "cemetery", "n": "Grave", "t": 2 },
   { "i": "vici:vici-35205", "la": 43.3209, "lo": 26.9617, "k": "cemetery", "n": "Grave", "t": 2 },
   {
@@ -20456,7 +19813,6 @@
   },
   { "i": "vici:vici-35261", "la": 42.2794, "lo": 26.6039, "k": "cemetery", "n": "Tumulus", "t": 2 },
   { "i": "vici:vici-35262", "la": 42.2798, "lo": 26.6083, "k": "cemetery", "n": "Tumulus", "t": 2 },
-  { "i": "vici:vici-35263", "la": 42.2791, "lo": 26.6075, "k": "cemetery", "n": "Tumulus", "t": 2 },
   {
     "i": "vici:vici-35295",
     "la": 42.6617,
@@ -20581,16 +19937,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-35505",
-    "la": 51.7103,
-    "lo": -2.2997,
-    "k": "cemetery",
-    "n": "Nympsfield Long Barrow",
-    "s": -8800,
-    "e": -2000,
-    "t": 2
-  },
-  {
     "i": "vici:vici-35582",
     "la": 51.5441,
     "lo": -1.5273,
@@ -20650,14 +19996,6 @@
     "i": "vici:vici-35888",
     "la": 42.2802,
     "lo": 26.6023,
-    "k": "cemetery",
-    "n": "Burial mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-35889",
-    "la": 42.2807,
-    "lo": 26.6016,
     "k": "cemetery",
     "n": "Burial mound",
     "t": 2
@@ -20833,22 +20171,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-36155",
-    "la": 42.7038,
-    "lo": 26.7707,
-    "k": "cemetery",
-    "n": "Burial mound",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36156",
-    "la": 42.7041,
-    "lo": 26.7712,
-    "k": "cemetery",
-    "n": "Burial mound",
-    "t": 2
-  },
-  {
     "i": "vici:vici-36157",
     "la": 42.7459,
     "lo": 26.7991,
@@ -20986,16 +20308,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-36348",
-    "la": 42.0118,
-    "lo": 8.688,
-    "k": "cemetery",
-    "n": "Ciutulaghja Dolmen [Corsica]",
-    "s": -8800,
-    "e": -2000,
-    "t": 2
-  },
-  {
     "i": "vici:vici-36349",
     "la": 41.7382,
     "lo": 8.8287,
@@ -21085,14 +20397,6 @@
     "lo": 8.9407,
     "k": "cemetery",
     "n": "Cardiccia Dolmen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36373",
-    "la": 41.5294,
-    "lo": 8.9181,
-    "k": "cemetery",
-    "n": "Fontanaccia Dolmen",
     "t": 2
   },
   {
@@ -21280,14 +20584,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-36433",
-    "la": 41.2333,
-    "lo": 9.1765,
-    "k": "cemetery",
-    "n": "Lu Brandali, Tomb of Giants",
-    "t": 2
-  },
-  {
     "i": "vici:vici-36439",
     "la": 44.6695,
     "lo": 28.6902,
@@ -21414,14 +20710,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-37509",
-    "la": 39.2279,
-    "lo": 9.0999,
-    "k": "cemetery",
-    "n": "Heroon of Atilia Pomptilla, Caralis [Casteddu]",
-    "t": 2
-  },
-  {
     "i": "vici:vici-37530",
     "la": 39.2297,
     "lo": 9.1005,
@@ -21545,6 +20833,8 @@
     "lo": 8.688,
     "k": "cemetery",
     "n": "Ciutulaghia Dolmen, Appiettu",
+    "s": -8800,
+    "e": -2000,
     "t": 2
   },
   {
@@ -21820,14 +21110,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-38393",
-    "la": 39.2576,
-    "lo": 9.3596,
-    "k": "cemetery",
-    "n": "Gients Tomb sa Domu 'e s'Orku, Quartucci",
-    "t": 2
-  },
-  {
     "i": "vici:vici-38394",
     "la": 39.2706,
     "lo": 9.3729,
@@ -21949,14 +21231,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-38566",
-    "la": 40.3885,
-    "lo": 9.454,
-    "k": "cemetery",
-    "n": "Giants Tomb Colovrai",
-    "t": 2
-  },
-  {
     "i": "vici:vici-38567",
     "la": 40.0765,
     "lo": 9.6689,
@@ -21970,14 +21244,6 @@
     "lo": 9.5807,
     "k": "cemetery",
     "n": "Giants Tomb Pedrusaccu",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38571",
-    "la": 40.0876,
-    "lo": 9.6802,
-    "k": "cemetery",
-    "n": "Giants Tomb Aniddai",
     "t": 2
   },
   {
@@ -22029,35 +21295,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-38582",
-    "la": 40.3369,
-    "lo": 9.5514,
-    "k": "cemetery",
-    "n": "Giants Tomb Biristeddi I",
-    "t": 2
-  },
-  {
     "i": "vici:vici-38583",
     "la": 40.3369,
     "lo": 9.5519,
     "k": "cemetery",
     "n": "Giants Tomb Biristeddi II",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38584",
-    "la": 40.379,
-    "lo": 9.5153,
-    "k": "cemetery",
-    "n": "Giants Tomb s'Ena de Thomes",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38585",
-    "la": 39.7717,
-    "lo": 9.0778,
-    "k": "cemetery",
-    "n": "Giants Tomb Aiodda",
     "t": 2
   },
   {
@@ -22259,14 +21501,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-38719",
-    "la": 39.8528,
-    "lo": 9.3761,
-    "k": "cemetery",
-    "n": "Giants Tomb Analu, Seui",
-    "t": 2
-  },
-  {
     "i": "vici:vici-38720",
     "la": 40.3469,
     "lo": 9.5364,
@@ -22368,14 +21602,6 @@
     "lo": -8.9359,
     "k": "cemetery",
     "n": "Knocks Dolmen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-38755",
-    "la": 51.8125,
-    "lo": -8.9905,
-    "k": "cemetery",
-    "n": "Reanacaheragh Dolmen",
     "t": 2
   },
   {
@@ -22694,14 +21920,6 @@
     "lo": 18.95,
     "k": "cemetery",
     "n": "Csepel Island, Budapest",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-39041",
-    "la": 42.7811,
-    "lo": -3.3184,
-    "k": "cemetery",
-    "n": "Necrópolis en Quintana",
     "t": 2
   },
   {
@@ -23193,14 +22411,6 @@
     "i": "vici:vici-39367",
     "la": 53.2635,
     "lo": 15.0618,
-    "k": "cemetery",
-    "n": "Kurcewo Dolmen II",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-39368",
-    "la": 53.2642,
-    "lo": 15.0613,
     "k": "cemetery",
     "n": "Kurcewo Dolmen II",
     "t": 2
@@ -25716,15 +24926,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-41222",
-    "la": 34.7759,
-    "lo": 32.4049,
-    "k": "cemetery",
-    "n": "Paphos, Royal Tomb 3",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-41223",
     "la": 34.7759,
     "lo": 32.4046,
@@ -26163,30 +25364,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-42058",
-    "la": 39.115,
-    "lo": 27.1947,
-    "k": "cemetery",
-    "n": "Pergamon, Tavsan Tepe Tumulus",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-42059",
-    "la": 39.1033,
-    "lo": 27.1696,
-    "k": "cemetery",
-    "n": "Pergamon, X Tepe Tumulus",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-42060",
-    "la": 39.1169,
-    "lo": 27.1929,
-    "k": "cemetery",
-    "n": "Pergamon, Tumulus",
-    "t": 2
-  },
-  {
     "i": "vici:vici-42061",
     "la": 39.1204,
     "lo": 27.2035,
@@ -26208,14 +25385,6 @@
     "lo": 27.7638,
     "k": "cemetery",
     "n": "Teke Kale, Necropolis",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-42073",
-    "la": 38.5802,
-    "lo": 28.0072,
-    "k": "cemetery",
-    "n": "Kırmutaf Tepe",
     "t": 2
   },
   {
@@ -26242,14 +25411,6 @@
     "lo": 36.3236,
     "k": "cemetery",
     "n": "Amisos Tepesi",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-42077",
-    "la": 41.319,
-    "lo": 36.324,
-    "k": "cemetery",
-    "n": "Amisos Tepesi N",
     "t": 2
   },
   {
@@ -26983,16 +26144,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43175",
-    "la": 53.742,
-    "lo": -7.1342,
-    "k": "cemetery",
-    "n": "Loughcrew. Carnbane West, Cairn A I",
-    "s": -8800,
-    "e": -2000,
-    "t": 2
-  },
-  {
     "i": "vici:vici-43178",
     "la": 46.3415,
     "lo": 9.5856,
@@ -27056,14 +26207,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43304",
-    "la": 40.3885,
-    "lo": 9.4812,
-    "k": "cemetery",
-    "n": "S'Iscra 'e Lottoni Giants Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-43312",
     "la": 40.3075,
     "lo": 9.5319,
@@ -27093,14 +26236,6 @@
     "lo": 8.4454,
     "k": "cemetery",
     "n": "Frades Muros Dolmen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-43405",
-    "la": 40.6253,
-    "lo": 8.1944,
-    "k": "cemetery",
-    "n": "Sant’ Imbenia",
     "t": 2
   },
   {
@@ -27363,16 +26498,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43624",
-    "la": 43.0237,
-    "lo": 11.9638,
-    "k": "cemetery",
-    "n": "Chiusi, Tassinaia Tomb",
-    "s": -399,
-    "e": -100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-43635",
     "la": 42.261,
     "lo": 11.8134,
@@ -27500,16 +26625,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43672",
-    "la": 42.9855,
-    "lo": 11.8845,
-    "k": "cemetery",
-    "n": "Sarteano, Necropoli Delle Pianacce",
-    "s": -550,
-    "e": -150,
-    "t": 2
-  },
-  {
     "i": "vici:vici-43674",
     "la": 42.2422,
     "lo": 11.7923,
@@ -27609,7 +26724,7 @@
     "lo": 12.4144,
     "k": "cemetery",
     "n": "Tumulo della Vaccareccia",
-    "s": -599,
+    "s": -640,
     "t": 2
   },
   {
@@ -27741,14 +26856,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43791",
-    "la": 40.0066,
-    "lo": 9.401,
-    "k": "cemetery",
-    "n": "Villagrande Strisaili, Lotzoracesus Giants Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-43798",
     "la": 40.1509,
     "lo": 18.2675,
@@ -27794,14 +26901,6 @@
     "lo": 15.8959,
     "k": "cemetery",
     "n": "Manfredonia, Scoppa Hypogeum II",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-43815",
-    "la": 40.7889,
-    "lo": 17.4875,
-    "k": "cemetery",
-    "n": "Fasano, Montalbano Dolmen",
     "t": 2
   },
   {
@@ -27886,14 +26985,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43853",
-    "la": 40.0953,
-    "lo": 18.4328,
-    "k": "cemetery",
-    "n": "Giurdignano, Dolmen Li Scusi",
-    "t": 2
-  },
-  {
     "i": "vici:vici-43854",
     "la": 40.1103,
     "lo": 18.4305,
@@ -27958,14 +27049,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-43880",
-    "la": 41.2134,
-    "lo": 16.0515,
-    "k": "cemetery",
-    "n": "Canosa di Puglia,  Hoplita's hypogeum",
-    "t": 2
-  },
-  {
     "i": "vici:vici-43881",
     "la": 41.2174,
     "lo": 16.0582,
@@ -28027,14 +27110,6 @@
     "lo": 16.0455,
     "k": "cemetery",
     "n": "Canusium, Torre Cassieri",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-43908",
-    "la": 41.227,
-    "lo": 16.0825,
-    "k": "cemetery",
-    "n": "Canusium, Necropolis of Ponte Della Lama",
     "t": 2
   },
   {
@@ -28213,14 +27288,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-44023",
-    "la": 40.1761,
-    "lo": 9.3586,
-    "k": "cemetery",
-    "n": "Dolmen Sirilò",
-    "t": 2
-  },
-  {
     "i": "vici:vici-44028",
     "la": 40.1682,
     "lo": 9.4874,
@@ -28300,14 +27367,6 @@
     "lo": 8.6954,
     "k": "cemetery",
     "n": "Cabu Abbas Giants Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44089",
-    "la": 40.4866,
-    "lo": 8.7529,
-    "k": "cemetery",
-    "n": "Planu Borgoro Giants Tomb",
     "t": 2
   },
   {
@@ -28552,16 +27611,6 @@
     "lo": 27.9101,
     "k": "cemetery",
     "n": "Alahidir Tumulus I",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44262",
-    "la": 51.652,
-    "lo": 17.4987,
-    "k": "cemetery",
-    "n": "Krotoszyn Tumulus II at Smoszew",
-    "s": -3300,
-    "e": -800,
     "t": 2
   },
   {
@@ -29240,7 +28289,6 @@
     "n": "Aigai  [Vergina]",
     "t": 2
   },
-  { "i": "vici:vici-44466", "la": 37.807, "lo": 22.6919, "k": "cemetery", "n": "Barnavos", "t": 2 },
   {
     "i": "vici:vici-44467",
     "la": 37.8187,
@@ -29356,14 +28404,6 @@
     "lo": 8.7219,
     "k": "cemetery",
     "n": "Sa Marghine",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44598",
-    "la": 39.0997,
-    "lo": 8.7686,
-    "k": "cemetery",
-    "n": "Barrancu Mannu (Santadi) Giants Tomb",
     "t": 2
   },
   {
@@ -29485,14 +28525,6 @@
     "lo": 8.8197,
     "k": "cemetery",
     "n": "Sa Pedra Longa Dolmen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-44919",
-    "la": 40.4875,
-    "lo": 8.8194,
-    "k": "cemetery",
-    "n": "Sa Pedra Longa Giants Tomb",
     "t": 2
   },
   {
@@ -29823,14 +28855,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-45496",
-    "la": 42.0438,
-    "lo": 26.2583,
-    "k": "cemetery",
-    "n": "Hlyabovo Dolmen - Evdzika I Dolmen",
-    "t": 2
-  },
-  {
     "i": "vici:vici-45523",
     "la": 38.7685,
     "lo": -1.3369,
@@ -29974,14 +28998,6 @@
     "lo": 31.2027,
     "k": "cemetery",
     "n": "Pyramid of Khentkaus II",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-45908",
-    "la": 29.8966,
-    "lo": 31.2046,
-    "k": "cemetery",
-    "n": "Ptahshepse Mastaba",
     "t": 2
   },
   {
@@ -37417,14 +36433,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-53102",
-    "la": 40.5818,
-    "lo": 9.5229,
-    "k": "cemetery",
-    "n": "Sas Melas Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-53103",
     "la": 40.6375,
     "lo": 9.6688,
@@ -38049,14 +37057,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-53219",
-    "la": 40.486,
-    "lo": 8.8341,
-    "k": "cemetery",
-    "n": "Su Crastu Covaccadu Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-53220",
     "la": 40.4751,
     "lo": 8.8084,
@@ -38206,14 +37206,6 @@
     "lo": 8.9711,
     "k": "cemetery",
     "n": "Fruschiosu Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53240",
-    "la": 40.7898,
-    "lo": 8.9212,
-    "k": "cemetery",
-    "n": "Giagone Giants` Tomb",
     "t": 2
   },
   {
@@ -38974,14 +37966,6 @@
     "lo": 8.7257,
     "k": "cemetery",
     "n": "Mura Filighes Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53460",
-    "la": 40.1634,
-    "lo": 8.7753,
-    "k": "cemetery",
-    "n": "Sa Perda Piccada Giants` Tomb",
     "t": 2
   },
   {
@@ -39801,14 +38785,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-53811",
-    "la": 40.2277,
-    "lo": 8.7272,
-    "k": "cemetery",
-    "n": "Solene Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-53813",
     "la": 41.4016,
     "lo": -4.3153,
@@ -39881,14 +38857,6 @@
     "lo": -3.9776,
     "k": "cemetery",
     "n": "Necrópolis de San Martín",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53828",
-    "la": 41.2877,
-    "lo": -3.6823,
-    "k": "cemetery",
-    "n": "Necrópolis de Duratón",
     "t": 2
   },
   {
@@ -39988,38 +38956,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-53851",
-    "la": 40.2807,
-    "lo": 9.5627,
-    "k": "cemetery",
-    "n": "Riu Mortu Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53852",
-    "la": 40.2646,
-    "lo": 9.6191,
-    "k": "cemetery",
-    "n": "Pranos II Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53853",
-    "la": 40.3886,
-    "lo": 9.4812,
-    "k": "cemetery",
-    "n": "Lottoni Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53854",
-    "la": 40.3805,
-    "lo": 9.4276,
-    "k": "cemetery",
-    "n": "Su Sueredu Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-53855",
     "la": 40.3885,
     "lo": 9.4541,
@@ -40028,75 +38964,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-53856",
-    "la": 40.0765,
-    "lo": 9.669,
-    "k": "cemetery",
-    "n": "Su Scusorgiu Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53857",
-    "la": 40.1293,
-    "lo": 9.5807,
-    "k": "cemetery",
-    "n": "Pedrusaccu Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-53858",
     "la": 40.0876,
     "lo": 9.6803,
     "k": "cemetery",
     "n": "Aniddai Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53859",
-    "la": 40.1119,
-    "lo": 9.5793,
-    "k": "cemetery",
-    "n": "Lattalai Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53860",
-    "la": 40.392,
-    "lo": 9.4706,
-    "k": "cemetery",
-    "n": "Matta 'e Sole Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53861",
-    "la": 40.3228,
-    "lo": 9.5218,
-    "k": "cemetery",
-    "n": "S'Ena Iloghe Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53862",
-    "la": 40.304,
-    "lo": 9.5312,
-    "k": "cemetery",
-    "n": "Poddinosa Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53863",
-    "la": 40.3304,
-    "lo": 9.5258,
-    "k": "cemetery",
-    "n": "S'Abba Noa I Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53864",
-    "la": 40.331,
-    "lo": 9.5271,
-    "k": "cemetery",
-    "n": "S'Abba Noa II Giants` Tomb",
     "t": 2
   },
   {
@@ -40113,14 +38985,6 @@
     "lo": 9.5513,
     "k": "cemetery",
     "n": "Biristeddi II Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53867",
-    "la": 40.379,
-    "lo": 9.5153,
-    "k": "cemetery",
-    "n": "S'Ena de Thomes Giants` Tomb",
     "t": 2
   },
   {
@@ -40334,14 +39198,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-53924",
-    "la": 40.2374,
-    "lo": 8.8586,
-    "k": "cemetery",
-    "n": "Sa Perda 'e s'Altare I Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-53925",
     "la": 39.0859,
     "lo": 8.6014,
@@ -40475,14 +39331,6 @@
     "lo": 8.8021,
     "k": "cemetery",
     "n": "Mondia Giants` Tomb",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-53943",
-    "la": 39.506,
-    "lo": 8.6156,
-    "k": "cemetery",
-    "n": "San Cosimo II Giants` Tomb",
     "t": 2
   },
   {
@@ -41046,14 +39894,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-54042",
-    "la": 39.0306,
-    "lo": 9.0123,
-    "k": "cemetery",
-    "n": "Mereu Giants` Tomb",
-    "t": 2
-  },
-  {
     "i": "vici:vici-54043",
     "la": 39.0501,
     "lo": 9.004,
@@ -41446,14 +40286,6 @@
     "lo": 3.9258,
     "k": "cemetery",
     "n": "Tumbas de Torretrencada",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-54176",
-    "la": 39.9545,
-    "lo": 4.0061,
-    "k": "cemetery",
-    "n": "Son Mercer de Baix Sur",
     "t": 2
   },
   {
@@ -41966,7 +40798,7 @@
     "lo": 11.9526,
     "k": "cemetery",
     "n": "Chiusi, Tomba della Scimmia",
-    "s": -480,
+    "s": -499,
     "t": 2
   },
   {
@@ -42048,15 +40880,6 @@
     "k": "cemetery",
     "n": "Faesulae",
     "s": -300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-55660",
-    "la": 42.0244,
-    "lo": 12.4143,
-    "k": "cemetery",
-    "n": "Veii, Tumulo della Vaccareccia",
-    "s": -640,
     "t": 2
   },
   {
@@ -43306,16 +42129,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-57190",
-    "la": 37.8401,
-    "lo": 22.5832,
-    "k": "cemetery",
-    "n": "Aidonia",
-    "s": -1650,
-    "e": -1400,
-    "t": 2
-  },
-  {
     "i": "vici:vici-57193",
     "la": 36.3263,
     "lo": 39.0506,
@@ -43593,15 +42406,6 @@
     "lo": 6.5644,
     "k": "cemetery",
     "n": "Hügelgrab Auf dem Schock (1) - Zewen",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-57460",
-    "la": 40.8297,
-    "lo": 14.2176,
-    "k": "cemetery",
-    "n": "Virgil's Tomb",
-    "s": 100,
     "t": 2
   },
   {
@@ -44097,14 +42901,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-5771",
-    "la": 49.8575,
-    "lo": 6.3864,
-    "k": "cemetery",
-    "n": "Römisches Steinkistengrab - Neu-Diesburgerhof",
-    "t": 2
-  },
-  {
     "i": "vici:vici-5772",
     "la": 50.1101,
     "lo": 6.3936,
@@ -44193,15 +42989,6 @@
     "k": "cemetery",
     "n": "Roman Burial Field",
     "s": 50,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-5780",
-    "la": 50.0947,
-    "lo": 6.966,
-    "k": "cemetery",
-    "n": "Tumm - Römergrab - Strotzbüsch",
-    "s": 200,
     "t": 2
   },
   {
@@ -44872,29 +43659,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58264",
-    "la": 41.8303,
-    "lo": 12.5567,
-    "k": "cemetery",
-    "n": "Sepolcro presso la villa dei Quintili",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58266",
     "la": 41.8234,
     "lo": 12.553,
     "k": "cemetery",
     "n": "Roman tomb",
-    "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58267",
-    "la": 41.8256,
-    "lo": 12.5501,
-    "k": "cemetery",
-    "n": "Sepolcro di Settimio Galla",
     "s": 300,
     "t": 2
   },
@@ -44948,15 +43717,6 @@
     "lo": 6.7632,
     "k": "cemetery",
     "n": "Grabhügelfeld - Naurath",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58288",
-    "la": 41.8219,
-    "lo": 12.3341,
-    "k": "cemetery",
-    "n": "Necropoli di Malnome",
-    "s": 100,
     "t": 2
   },
   {
@@ -45019,15 +43779,6 @@
     "k": "cemetery",
     "n": "Sepolcro di Marco Nonio Macrino o Tomba del Gladiatore",
     "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58307",
-    "la": 41.9599,
-    "lo": 12.4854,
-    "k": "cemetery",
-    "n": "Tomba dei Nasoni",
-    "s": 300,
     "t": 2
   },
   {
@@ -45208,15 +43959,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58439",
-    "la": 38.8071,
-    "lo": 16.5934,
-    "k": "cemetery",
-    "n": "Bizante necropolis",
-    "s": 800,
-    "t": 2
-  },
-  {
     "i": "vici:vici-5844",
     "la": 50.0052,
     "lo": 7.0885,
@@ -45308,15 +44050,6 @@
     "lo": 12.572,
     "k": "cemetery",
     "n": "Aedicule Tomb",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58473",
-    "la": 41.7971,
-    "lo": 12.5828,
-    "k": "cemetery",
-    "n": "Priest's Cap",
     "s": 100,
     "t": 2
   },
@@ -45504,15 +44237,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58544",
-    "la": 42.0775,
-    "lo": 12.4057,
-    "k": "cemetery",
-    "n": "Ctacomba di Monte Stallone",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-58545",
     "la": 42.0628,
     "lo": 12.4138,
@@ -45528,15 +44252,6 @@
     "k": "cemetery",
     "n": "Tumulo Pisccavallo",
     "s": -599,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58548",
-    "la": 41.9747,
-    "lo": 12.4345,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": 200,
     "t": 2
   },
   {
@@ -45778,24 +44493,6 @@
     "i": "vici:vici-58640",
     "la": 41.8438,
     "lo": 12.5664,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58642",
-    "la": 41.8354,
-    "lo": 12.5822,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58643",
-    "la": 41.8354,
-    "lo": 12.5834,
     "k": "cemetery",
     "n": "Roman Tomb",
     "s": 300,
@@ -46145,29 +44842,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-58726",
-    "la": 42.1163,
-    "lo": 11.7687,
-    "k": "cemetery",
-    "n": "Roman necropolis",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-5873",
     "la": 50.0624,
     "lo": 6.5472,
     "k": "cemetery",
     "n": "Römische Grabfunde - Malbergweich",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-58735",
-    "la": 41.8645,
-    "lo": 12.4596,
-    "k": "cemetery",
-    "n": "Necropoli di Vigna Pia",
-    "s": 200,
     "t": 2
   },
   {
@@ -46255,14 +44934,6 @@
     "k": "cemetery",
     "n": "Roman Burial Field",
     "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-5877",
-    "la": 49.8564,
-    "lo": 7.0241,
-    "k": "cemetery",
-    "n": "Römische Grabhügel - Burgenfahls",
     "t": 2
   },
   {
@@ -46829,15 +45500,6 @@
     "lo": 6.4552,
     "k": "cemetery",
     "n": "Brandgräberfeld - Irrel",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-59384",
-    "la": 43.5183,
-    "lo": 13.6117,
-    "k": "cemetery",
-    "n": "I Pini",
-    "s": -799,
     "t": 2
   },
   {
@@ -48886,16 +47548,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-60939",
-    "la": 53.1707,
-    "lo": -1.632,
-    "k": "cemetery",
-    "n": "Stanton Moor Cairn T57",
-    "s": -2500,
-    "e": -700,
-    "t": 2
-  },
-  {
     "i": "vici:vici-60942",
     "la": 53.1617,
     "lo": -1.6324,
@@ -49102,8 +47754,8 @@
     "lo": -2.2997,
     "k": "cemetery",
     "n": "Nympsfield",
-    "s": -4000,
-    "e": -2500,
+    "s": -8800,
+    "e": -2000,
     "t": 2
   },
   {
@@ -49361,16 +48013,6 @@
     "lo": -0.6068,
     "k": "cemetery",
     "n": "Cleatham",
-    "s": -2500,
-    "e": -700,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-61080",
-    "la": 53.3058,
-    "lo": 0.055,
-    "k": "cemetery",
-    "n": "Burwell Wood",
     "s": -2500,
     "e": -700,
     "t": 2
@@ -50019,15 +48661,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-62428",
-    "la": 43.0096,
-    "lo": -7.5527,
-    "k": "cemetery",
-    "n": "Necropolis",
-    "s": 50,
-    "t": 2
-  },
-  {
     "i": "vici:vici-62430",
     "la": 36.2662,
     "lo": 29.3177,
@@ -50080,35 +48713,11 @@
     "t": 2
   },
   {
-    "i": "vici:vici-6257",
-    "la": 50.3883,
-    "lo": 4.4275,
-    "k": "cemetery",
-    "n": "Tumulus van Marcinelle",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6258",
-    "la": 50.6022,
-    "lo": 4.6431,
-    "k": "cemetery",
-    "n": "Tumuli van Noirmont",
-    "t": 2
-  },
-  {
     "i": "vici:vici-6259",
     "la": 50.5767,
     "lo": 4.5547,
     "k": "cemetery",
     "n": "Tumulus van Tilly",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6261",
-    "la": 50.6767,
-    "lo": 4.8328,
-    "k": "cemetery",
-    "n": "Tumulus van Glimes",
     "t": 2
   },
   {
@@ -50180,28 +48789,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-6268",
-    "la": 50.7317,
-    "lo": 5.0486,
-    "k": "cemetery",
-    "n": "Plattetombe",
-    "t": 2
-  },
-  {
     "i": "vici:vici-62681",
     "la": 36.6271,
     "lo": 10.8625,
     "k": "cemetery",
     "n": "Djar el Hajjaj",
     "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6269",
-    "la": 50.7014,
-    "lo": 5.0714,
-    "k": "cemetery",
-    "n": "Tumulus van Avernas",
     "t": 2
   },
   {
@@ -50218,15 +48811,6 @@
     "lo": 5.0336,
     "k": "cemetery",
     "n": "Tumuli du Soleil",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6273",
-    "la": 50.6344,
-    "lo": 5.1281,
-    "k": "cemetery",
-    "n": "Tumulus van Avennes",
-    "s": 100,
     "t": 2
   },
   {
@@ -50279,14 +48863,6 @@
     "k": "cemetery",
     "n": "Columbarium",
     "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6276",
-    "la": 50.5978,
-    "lo": 5.1308,
-    "k": "cemetery",
-    "n": "Tumulus van Vissoul",
     "t": 2
   },
   {
@@ -50412,14 +48988,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-6292",
-    "la": 50.3906,
-    "lo": 5.2881,
-    "k": "cemetery",
-    "n": "Tumulus van Havelange",
-    "t": 2
-  },
-  {
     "i": "vici:vici-6293",
     "la": 50.7569,
     "lo": 5.3519,
@@ -50477,28 +49045,12 @@
     "t": 2
   },
   {
-    "i": "vici:vici-6299",
-    "la": 50.6669,
-    "lo": 5.3808,
-    "k": "cemetery",
-    "n": "Tumulus van Noville",
-    "t": 2
-  },
-  {
     "i": "vici:vici-62991",
     "la": 38.2563,
     "lo": 40.0955,
     "k": "cemetery",
     "n": "Tombs",
     "s": -299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6300",
-    "la": 50.6972,
-    "lo": 5.4781,
-    "k": "cemetery",
-    "n": "Tumulus van Xhendremael",
     "t": 2
   },
   {
@@ -50560,14 +49112,6 @@
     "n": "Kula Karayokuş Dolmen I",
     "s": -1200,
     "e": -800,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-6307",
-    "la": 50.8067,
-    "lo": 5.5544,
-    "k": "cemetery",
-    "n": "Tumulus van Herderen (Vlijtingerweg)",
     "t": 2
   },
   {
@@ -50729,15 +49273,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-63328",
-    "la": 42.213,
-    "lo": 12.8226,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": -299,
-    "t": 2
-  },
-  {
     "i": "vici:vici-63332",
     "la": 42.0118,
     "lo": 12.5475,
@@ -50877,15 +49412,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-63364",
-    "la": 36.7374,
-    "lo": 24.4237,
-    "k": "cemetery",
-    "n": "Milos Catacombs",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-63366",
     "la": 36.7483,
     "lo": 24.3227,
@@ -50950,27 +49476,9 @@
     "t": 2
   },
   {
-    "i": "vici:vici-63389",
-    "la": 41.8213,
-    "lo": 12.5549,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": -199,
-    "t": 2
-  },
-  {
     "i": "vici:vici-63391",
     "la": 41.8231,
     "lo": 12.553,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-63392",
-    "la": 41.8238,
-    "lo": 12.5522,
     "k": "cemetery",
     "n": "Roman Tomb",
     "s": -199,
@@ -51178,16 +49686,6 @@
     "lo": 25.0194,
     "k": "cemetery",
     "n": "Agia Eirene, Tholos E",
-    "s": -3000,
-    "e": -2600,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-63500",
-    "la": 35.0045,
-    "lo": 25.0196,
-    "k": "cemetery",
-    "n": "Hagia Eirene, Tholos e",
     "s": -3100,
     "e": -2600,
     "t": 2
@@ -51652,15 +50150,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-64079",
-    "la": 42.2801,
-    "lo": 12.0258,
-    "k": "cemetery",
-    "n": "Etruscan necropolis",
-    "s": -599,
-    "t": 2
-  },
-  {
     "i": "vici:vici-64080",
     "la": 42.2844,
     "lo": 12.015,
@@ -51922,15 +50411,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-64552",
-    "la": 40.8326,
-    "lo": 14.1213,
-    "k": "cemetery",
-    "n": "Roman Building",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-64574",
     "la": 43.4099,
     "lo": 13.6699,
@@ -52018,15 +50498,6 @@
     "k": "cemetery",
     "n": "Necropolis",
     "s": -29,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-64686",
-    "la": 41.3347,
-    "lo": 14.2905,
-    "k": "cemetery",
-    "n": "Roman Tomb",
-    "s": 50,
     "t": 2
   },
   {
@@ -54054,33 +52525,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-68769",
-    "la": 39.7985,
-    "lo": 37.1945,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": 50,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-68770",
-    "la": 39.7979,
-    "lo": 37.1957,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-68771",
-    "la": 39.7976,
-    "lo": 37.194,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-68772",
     "la": 39.798,
     "lo": 37.181,
@@ -54589,15 +53033,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-69239",
-    "la": 41.8553,
-    "lo": 26.6407,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -799,
-    "t": 2
-  },
-  {
     "i": "vici:vici-69240",
     "la": 41.8558,
     "lo": 26.6463,
@@ -54628,15 +53063,6 @@
     "i": "vici:vici-69243",
     "la": 41.8535,
     "lo": 26.675,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -799,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-69244",
-    "la": 41.8538,
-    "lo": 26.6757,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -799,
@@ -54700,15 +53126,6 @@
     "i": "vici:vici-69252",
     "la": 41.83,
     "lo": 26.7862,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -799,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-69253",
-    "la": 41.8307,
-    "lo": 26.7871,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -799,
@@ -55137,15 +53554,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-69410",
-    "la": 38.6862,
-    "lo": 30.6883,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -1999,
-    "t": 2
-  },
-  {
     "i": "vici:vici-69416",
     "la": 39.0874,
     "lo": 31.3865,
@@ -55158,15 +53566,6 @@
     "i": "vici:vici-69420",
     "la": 38.2334,
     "lo": 35.666,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -599,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-69421",
-    "la": 38.233,
-    "lo": 35.6661,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -599,
@@ -55635,15 +54034,6 @@
     "i": "vici:vici-69500",
     "la": 42.0361,
     "lo": 24.968,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-69501",
-    "la": 42.0357,
-    "lo": 24.9686,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -399,
@@ -56406,15 +54796,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-69624",
-    "la": 39.6908,
-    "lo": 32.0267,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -599,
-    "t": 2
-  },
-  {
     "i": "vici:vici-69625",
     "la": 39.6781,
     "lo": 32.005,
@@ -57106,15 +55487,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70195",
-    "la": 53.7161,
-    "lo": 21.5503,
-    "k": "cemetery",
-    "n": "Mojtyny",
-    "s": 200,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70196",
     "la": 51.8134,
     "lo": 18.0289,
@@ -57397,15 +55769,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70269",
-    "la": 42.343,
-    "lo": 11.9436,
-    "k": "cemetery",
-    "n": "Norchia, Lattanzi Tomb",
-    "s": -325,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70270",
     "la": 42.3446,
     "lo": 11.9448,
@@ -57592,7 +55955,7 @@
     "lo": 11.7705,
     "k": "cemetery",
     "n": "Tarquinia, Moretti Tomb - Tomba 5591",
-    "s": -495,
+    "s": -500,
     "t": 2
   },
   {
@@ -58057,15 +56420,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70554",
-    "la": 43.7342,
-    "lo": 10.3909,
-    "k": "cemetery",
-    "n": "Tome du prince étrusque",
-    "s": 600,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70557",
     "la": 42.0718,
     "lo": -8.0995,
@@ -58381,15 +56735,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70818",
-    "la": 42.0335,
-    "lo": 12.4068,
-    "k": "cemetery",
-    "n": "Tomba Campana a Veio",
-    "s": -799,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70819",
     "la": 42.0304,
     "lo": 12.4056,
@@ -58557,15 +56902,6 @@
     "lo": 12.3626,
     "k": "cemetery",
     "n": "Tagliata Falisca",
-    "s": -599,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70894",
-    "la": 42.4245,
-    "lo": 11.886,
-    "k": "cemetery",
-    "n": "Pian di Mola",
     "s": -599,
     "t": 2
   },
@@ -58976,15 +57312,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-71205",
-    "la": 42.2916,
-    "lo": 25.5465,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -1999,
-    "t": 2
-  },
-  {
     "i": "vici:vici-71206",
     "la": 42.2407,
     "lo": 25.5204,
@@ -59045,16 +57372,6 @@
     "k": "cemetery",
     "n": "Tumulus",
     "s": -1999,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-71214",
-    "la": 39.7551,
-    "lo": 3.1823,
-    "k": "cemetery",
-    "n": "Son Real",
-    "s": -699,
-    "e": -300,
     "t": 2
   },
   {
@@ -59562,15 +57879,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-72287",
-    "la": 46.8286,
-    "lo": 15.5332,
-    "k": "cemetery",
-    "n": "Leibnitzer Feld",
-    "s": 300,
-    "t": 2
-  },
-  {
     "i": "vici:vici-72288",
     "la": 46.8187,
     "lo": 15.5339,
@@ -60069,15 +58377,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73403",
-    "la": 43.5937,
-    "lo": 27.9237,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73404",
     "la": 43.6516,
     "lo": 27.6673,
@@ -60207,15 +58506,6 @@
     "i": "vici:vici-73419",
     "la": 45.2664,
     "lo": 28.436,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-73420",
-    "la": 45.2669,
-    "lo": 28.4348,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -399,
@@ -60546,15 +58836,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73741",
-    "la": 41.7263,
-    "lo": 26.8862,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73742",
     "la": 41.7241,
     "lo": 26.8872,
@@ -60717,15 +58998,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73764",
-    "la": 42.662,
-    "lo": 25.1634,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73765",
     "la": 42.6693,
     "lo": 25.1835,
@@ -60801,15 +59073,6 @@
     "i": "vici:vici-73773",
     "la": 42.2285,
     "lo": 25.1455,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-73774",
-    "la": 42.2281,
-    "lo": 25.1442,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -399,
@@ -61221,15 +59484,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73827",
-    "la": 44.045,
-    "lo": 28.5637,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73828",
     "la": 44.0735,
     "lo": 28.5566,
@@ -61260,15 +59514,6 @@
     "i": "vici:vici-73831",
     "la": 43.7648,
     "lo": 28.4837,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-73832",
-    "la": 43.7842,
-    "lo": 28.5647,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -399,
@@ -61536,15 +59781,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73862",
-    "la": 44.6849,
-    "lo": 28.2629,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73863",
     "la": 44.7735,
     "lo": 28.3654,
@@ -61752,15 +59988,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-73887",
-    "la": 45.2664,
-    "lo": 28.4359,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
     "i": "vici:vici-73888",
     "la": 44.8798,
     "lo": 28.2899,
@@ -61773,15 +60000,6 @@
     "i": "vici:vici-73889",
     "la": 44.877,
     "lo": 28.268,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -399,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-73891",
-    "la": 45.0843,
-    "lo": 28.6674,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -399,
@@ -62851,15 +61069,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-78283",
-    "la": 40.7988,
-    "lo": 14.0625,
-    "k": "cemetery",
-    "n": "Roman necropolis of Capella",
-    "s": 100,
-    "t": 2
-  },
-  {
     "i": "vici:vici-78298",
     "la": 36.1484,
     "lo": 33.3273,
@@ -62940,16 +61149,6 @@
     "k": "cemetery",
     "n": "Tumulus",
     "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-78534",
-    "la": 38.1288,
-    "lo": 23.9664,
-    "k": "cemetery",
-    "n": "Tsepi of Marathon",
-    "s": -3000,
-    "e": -2500,
     "t": 2
   },
   {
@@ -63578,54 +61777,9 @@
     "t": 2
   },
   {
-    "i": "vici:vici-80389",
-    "la": 38.4674,
-    "lo": 14.9534,
-    "k": "cemetery",
-    "n": "Greek and Roman Cemetery",
-    "s": -599,
-    "t": 2
-  },
-  {
     "i": "vici:vici-80401",
     "la": 45.9332,
     "lo": 8.9879,
-    "k": "cemetery",
-    "n": "Sarkophag",
-    "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80402",
-    "la": 45.9332,
-    "lo": 8.9898,
-    "k": "cemetery",
-    "n": "Sarkophag",
-    "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80403",
-    "la": 45.9331,
-    "lo": 8.991,
-    "k": "cemetery",
-    "n": "Sarkophag",
-    "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80404",
-    "la": 45.9329,
-    "lo": 8.99,
-    "k": "cemetery",
-    "n": "Sarkophag",
-    "s": 400,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80405",
-    "la": 45.9331,
-    "lo": 8.9894,
     "k": "cemetery",
     "n": "Sarkophag",
     "s": 400,
@@ -63974,15 +62128,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-81139",
-    "la": 43.5322,
-    "lo": 23.8697,
-    "k": "cemetery",
-    "n": "Târnava (Vraca), Glavchovska Barrow",
-    "s": -3000,
-    "t": 2
-  },
-  {
     "i": "vici:vici-81140",
     "la": 46.5974,
     "lo": 17.2719,
@@ -64068,24 +62213,6 @@
     "i": "vici:vici-81342",
     "la": 39.5242,
     "lo": 34.5788,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -1999,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-81343",
-    "la": 39.5236,
-    "lo": 34.5783,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -1999,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-81344",
-    "la": 39.5247,
-    "lo": 34.5795,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -1999,
@@ -64211,15 +62338,6 @@
     "i": "vici:vici-81358",
     "la": 39.0191,
     "lo": 34.9093,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -1999,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-81359",
-    "la": 39.0197,
-    "lo": 34.9079,
     "k": "cemetery",
     "n": "Tumulus",
     "s": -1999,
@@ -65859,15 +63977,6 @@
     "lo": 23.5648,
     "k": "cemetery",
     "n": "Alba Iulia (Apulum)",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-83743",
-    "la": 46.0792,
-    "lo": 23.5629,
-    "k": "cemetery",
-    "n": "Apulum",
     "s": 100,
     "t": 2
   },
@@ -67746,15 +65855,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-87584",
-    "la": 41.1383,
-    "lo": 27.6815,
-    "k": "cemetery",
-    "n": "Tumulus",
-    "s": -499,
-    "t": 2
-  },
-  {
     "i": "vici:vici-87585",
     "la": 41.1036,
     "lo": 27.7976,
@@ -68022,15 +66122,6 @@
     "i": "vici:vici-87810",
     "la": 39.9232,
     "lo": 32.7984,
-    "k": "cemetery",
-    "n": "Ankara Frig Tümülüsü",
-    "s": -1999,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-87811",
-    "la": 39.9227,
-    "lo": 32.7975,
     "k": "cemetery",
     "n": "Ankara Frig Tümülüsü",
     "s": -1999,
@@ -69367,7 +67458,6 @@
     "t": 3
   },
   { "i": "pleiades:553417", "la": 38.75, "lo": 27.25, "k": "tumulus", "s": -126, "e": 500, "t": 3 },
-  { "i": "pleiades:553418", "la": 38.75, "lo": 27.25, "k": "tumulus", "t": 3 },
   {
     "i": "pleiades:553419",
     "la": 39.033,
@@ -69378,9 +67468,6 @@
     "t": 3
   },
   { "i": "pleiades:553420", "la": 38.75, "lo": 27.75, "k": "tumulus", "s": -126, "e": 500, "t": 3 },
-  { "i": "pleiades:553421", "la": 38.75, "lo": 27.75, "k": "tumulus", "t": 3 },
-  { "i": "pleiades:553422", "la": 38.75, "lo": 27.75, "k": "tumulus", "t": 3 },
-  { "i": "pleiades:553423", "la": 38.75, "lo": 27.75, "k": "tumulus", "t": 3 },
   {
     "i": "pleiades:553424",
     "la": 38.4534,
@@ -69391,7 +67478,6 @@
     "t": 3
   },
   { "i": "pleiades:553425", "la": 38.75, "lo": 28.25, "k": "tumulus", "s": -126, "e": 500, "t": 3 },
-  { "i": "pleiades:553426", "la": 38.75, "lo": 28.25, "k": "tumulus", "t": 3 },
   {
     "i": "pleiades:553427",
     "la": 38.4974,
@@ -69455,7 +67541,6 @@
     "e": 500,
     "t": 3
   },
-  { "i": "pleiades:601738", "la": 37.25, "lo": 25.25, "k": "cemetery", "t": 3 },
   {
     "i": "pleiades:601739",
     "la": 36.4146,

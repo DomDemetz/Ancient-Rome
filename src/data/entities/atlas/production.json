@@ -209,17 +209,6 @@
     "t": 1
   },
   {
-    "i": "mine:236620",
-    "la": 42.5576,
-    "lo": -7.3962,
-    "k": "mine",
-    "st": "unknown",
-    "n": "Puebla del Brollón",
-    "s": 50,
-    "e": 50,
-    "t": 1
-  },
-  {
     "i": "mine:256041",
     "la": 37.9066,
     "lo": -6.2296,
@@ -4525,17 +4514,6 @@
     "t": 2
   },
   {
-    "i": "mine:148014",
-    "la": 43.8864,
-    "lo": 4.3003,
-    "k": "mine",
-    "st": "unknown",
-    "n": "Barutel Roman Quarry",
-    "s": 50,
-    "e": 50,
-    "t": 2
-  },
-  {
     "i": "mine:148021",
     "la": 43.8962,
     "lo": 4.1389,
@@ -5163,17 +5141,6 @@
     "t": 2
   },
   {
-    "i": "mine:256110",
-    "la": 36.6587,
-    "lo": -4.7604,
-    "k": "mine",
-    "st": "unknown",
-    "n": "Coin",
-    "s": 50,
-    "e": 50,
-    "t": 2
-  },
-  {
     "i": "mine:256141",
     "la": 38.0882,
     "lo": -6.981,
@@ -5367,17 +5334,6 @@
     "k": "mine",
     "st": "unknown",
     "n": "Antequera",
-    "s": -200,
-    "e": 50,
-    "t": 2
-  },
-  {
-    "i": "mine:265830",
-    "la": 39.6967,
-    "lo": 2.6994,
-    "k": "mine",
-    "st": "unknown",
-    "n": "Buñola",
     "s": -200,
     "e": 50,
     "t": 2
@@ -6912,28 +6868,6 @@
     "st": "iron",
     "n": "Mount Lebanon Iron",
     "s": -100,
-    "e": 300,
-    "t": 2
-  },
-  {
-    "i": "mine:mine-linares-lead",
-    "la": 38.1,
-    "lo": -3.62,
-    "k": "mine",
-    "st": "lead",
-    "n": "Linares Lead Mines",
-    "s": -200,
-    "e": 200,
-    "t": 2
-  },
-  {
-    "i": "mine:mine-linares-silver",
-    "la": 38.0931,
-    "lo": -3.6361,
-    "k": "mine",
-    "st": "silver",
-    "n": "Linares Silver Mines",
-    "s": -206,
     "e": 300,
     "t": 2
   },
@@ -8629,14 +8563,6 @@
     "t": 2
   },
   { "i": "pleiades:109012", "la": 49.594, "lo": 8.0541, "k": "mine", "n": "Göllheim", "t": 2 },
-  {
-    "i": "pleiades:109303",
-    "la": 49.3305,
-    "lo": 6.6802,
-    "k": "mine",
-    "n": "Emilianus-Stollen",
-    "t": 2
-  },
   { "i": "pleiades:118882", "la": 49.3228, "lo": 8.6956, "k": "mine", "n": "Nussloch", "t": 2 },
   {
     "i": "pleiades:138209",
@@ -8735,14 +8661,6 @@
     "lo": 4.7968,
     "k": "mine",
     "n": "St-Romain-de-Lerps",
-    "t": 2
-  },
-  {
-    "i": "pleiades:167907",
-    "la": 44.6783,
-    "lo": 6.9148,
-    "k": "mine",
-    "n": "St-Véran (mine)",
     "t": 2
   },
   { "i": "pleiades:177584", "la": 47.2929, "lo": 4.4028, "k": "mine", "n": "Mont-St-Jean", "t": 2 },
@@ -8849,14 +8767,6 @@
     "lo": -7.7361,
     "k": "mine",
     "n": "As Muradellas Mine",
-    "t": 2
-  },
-  {
-    "i": "pleiades:567638603",
-    "la": 52.4766,
-    "lo": 0.674,
-    "k": "mine",
-    "n": "Grimes Graves",
     "t": 2
   },
   { "i": "pleiades:589671", "la": 37.012, "lo": 24.712, "k": "mine", "n": "Ag. Sostes", "t": 2 },
@@ -20046,14 +19956,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-21595",
-    "la": 24.6333,
-    "lo": 32.9333,
-    "k": "mine",
-    "n": "Kheny, Khenu, Gebel el-Silsila,",
-    "t": 2
-  },
-  {
     "i": "vici:vici-21597",
     "la": 28.8974,
     "lo": 33.3696,
@@ -20735,25 +20637,9 @@
     "t": 2
   },
   {
-    "i": "vici:vici-23797",
-    "la": 32.5405,
-    "lo": 20.5692,
-    "k": "mine",
-    "n": "Taucheira, quarry with rock tombs",
-    "t": 2
-  },
-  {
     "i": "vici:vici-23798",
     "la": 32.5409,
     "lo": 20.5697,
-    "k": "mine",
-    "n": "Taucheira, quarry",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-23799",
-    "la": 32.5414,
-    "lo": 20.5706,
     "k": "mine",
     "n": "Taucheira, quarry",
     "t": 2
@@ -20994,14 +20880,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-24788",
-    "la": 35.1843,
-    "lo": 25.9033,
-    "k": "mine",
-    "n": "Mochlos Mainland",
-    "t": 2
-  },
-  {
     "i": "vici:vici-24793",
     "la": 35.1148,
     "lo": 25.7907,
@@ -21018,14 +20896,6 @@
     "t": 2
   },
   { "i": "vici:vici-24806", "la": 35.0095, "lo": 24.7602, "k": "mine", "n": "Komos", "t": 2 },
-  {
-    "i": "vici:vici-24810",
-    "la": 35.5106,
-    "lo": 23.5682,
-    "k": "mine",
-    "n": "Port of Phalasarna",
-    "t": 2
-  },
   { "i": "vici:vici-24824", "la": 35.098, "lo": 26.2617, "k": "mine", "n": "Kato Zakro", "t": 2 },
   {
     "i": "vici:vici-24873",
@@ -21386,7 +21256,6 @@
   },
   { "i": "vici:vici-25486", "la": 39.6288, "lo": 8.507, "k": "mine", "n": "Sa Tellura", "t": 2 },
   { "i": "vici:vici-25487", "la": 44.2255, "lo": 8.2289, "k": "mine", "n": "Bric Gettina", "t": 2 },
-  { "i": "vici:vici-25488", "la": 44.2258, "lo": 8.2296, "k": "mine", "n": "Bric Gettina", "t": 2 },
   { "i": "vici:vici-25489", "la": 51.4617, "lo": 0.5391, "k": "mine", "n": "Bromhey Farm", "t": 2 },
   {
     "i": "vici:vici-25492",
@@ -21419,16 +21288,6 @@
     "t": 2
   },
   { "i": "vici:vici-25499", "la": 50.8703, "lo": -0.6874, "k": "mine", "n": "Boxgrove", "t": 2 },
-  {
-    "i": "vici:vici-25503",
-    "la": 53.3305,
-    "lo": -3.8454,
-    "k": "mine",
-    "n": "Great Orme Mine",
-    "s": -3300,
-    "e": -800,
-    "t": 2
-  },
   {
     "i": "vici:vici-25504",
     "la": 53.2585,
@@ -21479,16 +21338,6 @@
     "i": "vici:vici-25608",
     "la": 40.0237,
     "lo": 34.621,
-    "k": "mine",
-    "n": "Hattusa (Hattuşaş)",
-    "s": -1650,
-    "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-25609",
-    "la": 40.0237,
-    "lo": 34.6219,
     "k": "mine",
     "n": "Hattusa (Hattuşaş)",
     "s": -1650,
@@ -21898,56 +21747,6 @@
     "n": "Ziegelöfen",
     "s": 150,
     "e": 300,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27335",
-    "la": 40.0237,
-    "lo": 34.6218,
-    "k": "mine",
-    "n": "Hattusa (Hattuşaş) - Büykkaya",
-    "s": -1650,
-    "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27336",
-    "la": 40.0238,
-    "lo": 34.6221,
-    "k": "mine",
-    "n": "Hattusa (Hattuşaş) - Büykkaya",
-    "s": -1650,
-    "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27337",
-    "la": 40.0236,
-    "lo": 34.6218,
-    "k": "mine",
-    "n": "Hattusa (Hattuşaş) - Büykkaya",
-    "s": -1650,
-    "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27338",
-    "la": 40.0236,
-    "lo": 34.6217,
-    "k": "mine",
-    "n": "Hattusa (Hattuşaş) - Büykkaya",
-    "s": -1650,
-    "e": -1200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-27339",
-    "la": 40.0236,
-    "lo": 34.6216,
-    "k": "mine",
-    "n": "Hattusa (Hattuşaş) - Büykkaya",
-    "s": -1650,
-    "e": -1200,
     "t": 2
   },
   {
@@ -23968,19 +23767,10 @@
     "n": "Loz cisterns",
     "t": 2
   },
-  { "i": "vici:vici-35084", "la": 30.514, "lo": 34.6162, "k": "mine", "n": "Loz cisterns", "t": 2 },
   {
     "i": "vici:vici-35085",
     "la": 30.5171,
     "lo": 34.6169,
-    "k": "mine",
-    "n": "Loz cisterns",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-35086",
-    "la": 30.5183,
-    "lo": 34.6168,
     "k": "mine",
     "n": "Loz cisterns",
     "t": 2
@@ -24102,14 +23892,6 @@
     "lo": 9.2645,
     "k": "mine",
     "n": "Ile de Cavallo",
-    "t": 2
-  },
-  {
-    "i": "vici:vici-36334",
-    "la": 41.2532,
-    "lo": 9.2382,
-    "k": "mine",
-    "n": "Marmorata Quarry",
     "t": 2
   },
   { "i": "vici:vici-36335", "la": 41.2506, "lo": 9.1847, "k": "mine", "n": "Municca", "t": 2 },
@@ -30710,15 +30492,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-64277",
-    "la": 41.231,
-    "lo": 15.5652,
-    "k": "mine",
-    "n": "Concinti",
-    "s": -199,
-    "t": 2
-  },
-  {
     "i": "vici:vici-64278",
     "la": 41.2338,
     "lo": 15.5648,
@@ -30749,15 +30522,6 @@
     "i": "vici:vici-64282",
     "la": 41.218,
     "lo": 15.5447,
-    "k": "mine",
-    "n": "Roman farm",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-64283",
-    "la": 41.2184,
-    "lo": 15.5434,
     "k": "mine",
     "n": "Roman farm",
     "s": 100,
@@ -31349,15 +31113,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-64412",
-    "la": 41.4367,
-    "lo": 15.4802,
-    "k": "mine",
-    "n": "Podere 73",
-    "s": -199,
-    "t": 2
-  },
-  {
     "i": "vici:vici-64413",
     "la": 41.4346,
     "lo": 15.4725,
@@ -31379,15 +31134,6 @@
     "i": "vici:vici-64415",
     "la": 41.4345,
     "lo": 15.4665,
-    "k": "mine",
-    "n": "Panetteria di Barone",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-64416",
-    "la": 41.4341,
-    "lo": 15.4659,
     "k": "mine",
     "n": "Panetteria di Barone",
     "s": -199,
@@ -31769,15 +31515,6 @@
     "k": "mine",
     "n": "Chiavicotti",
     "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-64572",
-    "la": 42.4877,
-    "lo": 13.0762,
-    "k": "mine",
-    "n": "Chiavicotti",
-    "s": 200,
     "t": 2
   },
   {
@@ -32880,15 +32617,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-65456",
-    "la": 36.8516,
-    "lo": 9.737,
-    "k": "mine",
-    "n": "Water tank & cistern",
-    "s": 50,
-    "t": 2
-  },
-  {
     "i": "vici:vici-65457",
     "la": 36.852,
     "lo": 9.7376,
@@ -33344,15 +33072,6 @@
     "i": "vici:vici-66278",
     "la": 42.0989,
     "lo": -5.9034,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -199,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-66279",
-    "la": 42.0996,
-    "lo": -5.9026,
     "k": "mine",
     "n": "Cistern",
     "s": -199,
@@ -33825,16 +33544,6 @@
     "i": "vici:vici-69991",
     "la": 36.483,
     "lo": 34.1324,
-    "k": "mine",
-    "n": "Adamkayalar",
-    "s": -50,
-    "e": 299,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-69993",
-    "la": 36.4823,
-    "lo": 34.1326,
     "k": "mine",
     "n": "Adamkayalar",
     "s": -50,
@@ -34559,99 +34268,9 @@
     "t": 2
   },
   {
-    "i": "vici:vici-70907",
-    "la": 41.3819,
-    "lo": -1.6002,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70908",
-    "la": 41.3817,
-    "lo": -1.5991,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70909",
-    "la": 41.3815,
-    "lo": -1.599,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70910",
-    "la": 41.3813,
-    "lo": -1.5987,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70911",
-    "la": 41.3815,
-    "lo": -1.6015,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70912",
-    "la": 41.3807,
-    "lo": -1.6028,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
     "i": "vici:vici-70913",
     "la": 41.3815,
     "lo": -1.6049,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70914",
-    "la": 41.382,
-    "lo": -1.6045,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70915",
-    "la": 41.3831,
-    "lo": -1.6046,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70916",
-    "la": 41.3827,
-    "lo": -1.6032,
-    "k": "mine",
-    "n": "Cistern",
-    "s": -59,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-70917",
-    "la": 41.3827,
-    "lo": -1.603,
     "k": "mine",
     "n": "Cistern",
     "s": -59,
@@ -35483,15 +35102,6 @@
     "t": 2
   },
   {
-    "i": "vici:vici-80592",
-    "la": 44.6786,
-    "lo": 6.9146,
-    "k": "mine",
-    "n": "St-Véran",
-    "s": -2999,
-    "t": 2
-  },
-  {
     "i": "vici:vici-80605",
     "la": 36.5158,
     "lo": 9.4701,
@@ -35524,15 +35134,6 @@
     "lo": 8.5908,
     "k": "mine",
     "n": "Bou Harrach",
-    "s": 100,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-80691",
-    "la": 41.2468,
-    "lo": 13.035,
-    "k": "mine",
-    "n": "Roman harbour",
     "s": 100,
     "t": 2
   },
@@ -35871,16 +35472,6 @@
     "k": "mine",
     "n": "Misgaran (BALL 729)",
     "s": 200,
-    "t": 2
-  },
-  {
-    "i": "vici:vici-8218",
-    "la": 49.3304,
-    "lo": 6.6798,
-    "k": "mine",
-    "n": "Emilianusstollen",
-    "s": 150,
-    "e": 250,
     "t": 2
   },
   {
@@ -38295,10 +37886,7 @@
   { "i": "pleiades:200092", "la": 46.5, "lo": 14.5, "k": "mine", "t": 3 },
   { "i": "pleiades:200094", "la": 45.5, "lo": 14.5, "k": "mine", "t": 3 },
   { "i": "pleiades:200099", "la": 46.338, "lo": 15.0579, "k": "mine", "t": 3 },
-  { "i": "pleiades:200103", "la": 44.5, "lo": 16.5, "k": "mine", "t": 3 },
   { "i": "pleiades:200110", "la": 44.5, "lo": 17.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:200111", "la": 43.5, "lo": 18.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:200112", "la": 43.5, "lo": 18.5, "k": "mine", "t": 3 },
   { "i": "pleiades:208942573", "la": 35.6176, "lo": 7.8924, "k": "mine", "t": 3 },
   { "i": "pleiades:208942782", "la": 35.257, "lo": 6.8265, "k": "mine", "t": 3 },
   { "i": "pleiades:208943200", "la": 36.9042, "lo": 9.6544, "k": "mine", "t": 3 },
@@ -38341,12 +37929,6 @@
   { "i": "pleiades:963101129", "la": 52.2577, "lo": -0.6984, "k": "mine", "t": 3 },
   { "i": "pleiades:963101130", "la": 52.7036, "lo": -0.3997, "k": "mine", "t": 3 },
   { "i": "pleiades:963101131", "la": 52.5827, "lo": -0.554, "k": "mine", "t": 3 },
-  { "i": "pleiades:973952", "la": 38.5, "lo": 68.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:973953", "la": 38.5, "lo": 68.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:973954", "la": 38.5, "lo": 68.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:973955", "la": 38.5, "lo": 69.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:973956", "la": 38.5, "lo": 69.5, "k": "mine", "t": 3 },
-  { "i": "pleiades:973957", "la": 38.5, "lo": 69.5, "k": "mine", "t": 3 },
   { "i": "pleiades:973958", "la": 35.3826, "lo": 69.7506, "k": "mine", "t": 3 },
   { "i": "vici:vici-20977", "la": 44.4469, "lo": 19.2441, "k": "mine", "t": 3 },
   { "i": "vici:vici-88286", "la": 29.8796, "lo": 56.7964, "k": "mine", "s": 600, "e": 1299, "t": 3 }
