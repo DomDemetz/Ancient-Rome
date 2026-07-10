@@ -6,6 +6,7 @@ import {
   ChevronDown,
   ChevronRight,
   Globe,
+  Globe2,
   Route,
   Swords,
   Coins,
@@ -15,6 +16,29 @@ import {
   Minus,
   Share2,
   Check,
+  Flag,
+  Map,
+  Crown,
+  Shield,
+  Castle,
+  Fence,
+  Users,
+  Building2,
+  Home,
+  Theater,
+  ScrollText,
+  User,
+  Anchor,
+  Scale,
+  Sailboat,
+  Pickaxe,
+  Wine,
+  Sparkles,
+  Compass,
+  Droplets,
+  Waves,
+  Waypoints,
+  Box,
 } from 'lucide-react'
 import type { Map as LeafletMap } from 'leaflet'
 import { useMapLayerStore, PRESETS, LAYER_GROUPS, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
@@ -82,7 +106,10 @@ function ZoomControls({
 }
 
 interface LayerPanelContentProps {
-  layerState: Record<string, { active: boolean; loading: boolean; toggle: () => void }>
+  layerState: Record<
+    string,
+    { active: boolean; loading: boolean; toggle: () => void; icon: React.ElementType }
+  >
   typeCounts: { type: number; label: string; count: number }[]
   collapsedGroups: Set<string>
   toggleGroup: (label: string) => void
@@ -185,7 +212,13 @@ function LayerPanelContent({
                         )}
                         title={`Toggle ${layer.label.toLowerCase()} layer`}
                       >
-                        <span className="flex-1">
+                        <state.icon
+                          className={cn(
+                            'size-4 shrink-0 transition-colors',
+                            state.active ? 'text-amber-500' : 'text-slate-500',
+                          )}
+                        />
+                        <span className="flex-1 ml-1 text-left">
                           {state.loading ? `${layer.label}...` : layer.label}
                         </span>
                         {state.loading ? (
@@ -411,104 +444,159 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
   } = useMapLayerStore(useShallow((s) => s))
 
   // Map layer keys to their state
-  const layerState: Record<string, { active: boolean; loading: boolean; toggle: () => void }> = {
-    Territories: { active: showTerritories, loading: false, toggle: onToggleTerritories },
-    Roads: { active: showRoads, loading: roadsLoading, toggle: toggleRoads },
+  const layerState: Record<
+    string,
+    { active: boolean; loading: boolean; toggle: () => void; icon: React.ElementType }
+  > = {
+    Territories: {
+      active: showTerritories,
+      loading: false,
+      toggle: onToggleTerritories,
+      icon: Flag,
+    },
+    Roads: { active: showRoads, loading: roadsLoading, toggle: toggleRoads, icon: Route },
     ItinereRoads: {
       active: showItinereRoads,
       loading: itinereRoadsLoading,
       toggle: toggleItinereRoads,
+      icon: Compass,
     },
     Empires: {
       active: showEmpires,
       loading: empiresLoading,
       toggle: toggleEmpires,
+      icon: Globe2,
     },
     Cities: {
       active: showCities,
       loading: placesLoading,
       toggle: toggleCities,
+      icon: Building2,
     },
     Settlements: {
       active: showSettlements,
       loading: placesLoading,
       toggle: toggleSettlements,
+      icon: Home,
     },
-    Limes: { active: showLimes, loading: limesLoading, toggle: toggleLimes },
-    Provinces: { active: showProvinces, loading: provincesLoading, toggle: toggleProvinces },
+    Limes: { active: showLimes, loading: limesLoading, toggle: toggleLimes, icon: Fence },
+    Provinces: {
+      active: showProvinces,
+      loading: provincesLoading,
+      toggle: toggleProvinces,
+      icon: Map,
+    },
     Fortifications: {
       active: showFortifications,
       loading: fortificationsLoading,
       toggle: toggleFortifications,
+      icon: Castle,
     },
-    Water: { active: showWater, loading: waterLoading, toggle: toggleWater },
-    Presence: { active: showPresence, loading: presenceLoading, toggle: togglePresence },
-    Battles: { active: showBattles, loading: battlesLoading, toggle: toggleBattles },
+    Water: { active: showWater, loading: waterLoading, toggle: toggleWater, icon: Waves },
+    Presence: {
+      active: showPresence,
+      loading: presenceLoading,
+      toggle: togglePresence,
+      icon: Users,
+    },
+    Battles: { active: showBattles, loading: battlesLoading, toggle: toggleBattles, icon: Swords },
     Amphitheaters: {
       active: showAmphitheaters,
       loading: amphitheatersLoading,
       toggle: toggleAmphitheaters,
+      icon: Theater,
     },
-    Emperors: { active: showEmperors, loading: emperorsLoading, toggle: toggleEmperors },
-    Legions: { active: showLegions, loading: legionsLoading, toggle: toggleLegions },
+    Emperors: {
+      active: showEmperors,
+      loading: emperorsLoading,
+      toggle: toggleEmperors,
+      icon: Crown,
+    },
+    Legions: { active: showLegions, loading: legionsLoading, toggle: toggleLegions, icon: Shield },
     Shipwrecks: {
       active: datasetState.shipwrecks?.show ?? false,
       loading: datasetState.shipwrecks?.loading ?? false,
       toggle: () => toggleDataset('shipwrecks'),
+      icon: Sailboat,
     },
     Mines: {
       active: datasetState.mines?.show ?? false,
       loading: datasetState.mines?.loading ?? false,
       toggle: () => toggleDataset('mines'),
+      icon: Pickaxe,
     },
-    Aqueducts: { active: showAqueducts, loading: aqueductsLoading, toggle: toggleAqueducts },
+    Aqueducts: {
+      active: showAqueducts,
+      loading: aqueductsLoading,
+      toggle: toggleAqueducts,
+      icon: Droplets,
+    },
     Religion: {
       active: datasetState.religion?.show ?? false,
       loading: datasetState.religion?.loading ?? false,
       toggle: () => toggleDataset('religion'),
+      icon: Sparkles,
     },
-    Buildings: { active: showBuildings, loading: buildingsLoading, toggle: toggleBuildings },
+    Buildings: {
+      active: showBuildings,
+      loading: buildingsLoading,
+      toggle: toggleBuildings,
+      icon: Landmark,
+    },
     Presses: {
       active: datasetState.presses?.show ?? false,
       loading: datasetState.presses?.loading ?? false,
       toggle: () => toggleDataset('presses'),
+      icon: Wine,
     },
     TradeNetwork: {
       active: showTradeNetwork,
       loading: tradeNetworkLoading,
       toggle: toggleTradeNetwork,
+      icon: Scale,
     },
-    Epigraphy: { active: showEpigraphy, loading: epigraphyLoading, toggle: toggleEpigraphy },
-    Vici: { active: showVici, loading: viciLoading, toggle: toggleVici },
+    Epigraphy: {
+      active: showEpigraphy,
+      loading: epigraphyLoading,
+      toggle: toggleEpigraphy,
+      icon: ScrollText,
+    },
+    Vici: { active: showVici, loading: viciLoading, toggle: toggleVici, icon: MapPin },
     Ports: {
       active: datasetState.ports?.show ?? false,
       loading: datasetState.ports?.loading ?? false,
       toggle: () => toggleDataset('ports'),
+      icon: Anchor,
     },
     NotablePeople: {
       active: showNotablePeople,
       loading: notablePeopleLoading,
       toggle: toggleNotablePeople,
+      icon: User,
     },
     UnifiedVillas: {
       active: datasetState.villas?.show ?? false,
       loading: datasetState.villas?.loading ?? false,
       toggle: () => toggleDataset('villas'),
+      icon: Home,
     },
     UnifiedTemples: {
       active: datasetState.temples?.show ?? false,
       loading: datasetState.temples?.loading ?? false,
       toggle: () => toggleDataset('temples'),
+      icon: Landmark,
     },
     UnifiedBridges: {
       active: datasetState.bridges?.show ?? false,
       loading: datasetState.bridges?.loading ?? false,
       toggle: () => toggleDataset('bridges'),
+      icon: Waypoints,
     },
     UnifiedTombs: {
       active: datasetState.tombs?.show ?? false,
       loading: datasetState.tombs?.loading ?? false,
       toggle: () => toggleDataset('tombs'),
+      icon: Box,
     },
   }
 
