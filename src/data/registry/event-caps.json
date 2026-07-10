@@ -1,0 +1,14 @@
+[
+  {
+    "event": "Vesuvius eruption",
+    "year": 79,
+    "note": "Pompeii, Herculaneum, Oplontis, Stabiae and Boscoreale were buried on 24 August 79 AD and never rebuilt — but their Pleiades records carry period end dates (the Stabian Baths rendered in 1000 AD). Anything standing there before the eruption ends with it.",
+    "boxes": [
+      { "name": "Pompeii", "south": 40.729, "north": 40.769, "west": 14.465, "east": 14.515 },
+      { "name": "Herculaneum", "south": 40.796, "north": 40.816, "west": 14.336, "east": 14.36 },
+      { "name": "Oplontis", "south": 40.75, "north": 40.764, "west": 14.44, "east": 14.462 },
+      { "name": "Stabiae and the Gragnano plain", "south": 40.685, "north": 40.73, "west": 14.475, "east": 14.57 },
+      { "name": "Boscoreale and Boscotrecase", "south": 40.765, "north": 40.785, "west": 14.45, "east": 14.505 }
+    ]
+  }
+]

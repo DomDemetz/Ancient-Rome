@@ -13,6 +13,7 @@ export interface UnifiedEntity {
   lng: number
   qid?: string
   startYear?: number
+  destroyedYear?: number
   endYear?: number
   estimatedTemporal?: boolean
   source: string
@@ -39,6 +40,7 @@ export async function loadAqueductPoints(): Promise<Aqueduct[]> {
     length: (e.props?.length as number) ?? null,
     builder: (e.props?.builder as string) ?? null,
     cityServed: (e.props?.cityServed as string) ?? '',
+    destroyedYear: e.destroyedYear,
     description: e.description ?? '',
     source: e.source,
   }))
@@ -69,6 +71,7 @@ export async function loadAmphitheaters(): Promise<Amphitheater[]> {
     constructionYear: e.startYear ?? null,
     dimensions: (e.props?.dimensions as string) ?? null,
     city: (e.props?.city as string) ?? '',
+    destroyedYear: e.destroyedYear,
     source: e.source,
     pleiadesId: null,
   }))
@@ -83,6 +86,7 @@ export async function loadBuildings(): Promise<Building[]> {
     buildingType: e.subtype ?? 'unknown',
     constructionYear: e.startYear ?? 0,
     builder: (e.props?.builder as string) ?? null,
+    destroyedYear: e.destroyedYear,
     description: e.description ?? '',
     source: e.source,
   }))

@@ -81,6 +81,7 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
   const visible = useMemo(() => {
     return data.filter((a) => {
       if (a.constructionYear > currentYear) return false
+      if (a.destroyedYear != null && a.destroyedYear < currentYear) return false
       if (zoom < 6) return false
       if (zoom >= 7) {
         return (

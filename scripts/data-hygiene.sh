@@ -25,13 +25,15 @@ else
   echo "══ 2-4/7 skipped (no ground-truth file given)"
 fi
 
-echo "══ 5/8 re-apply construction dates (WD inceptions + overrides)"
+echo "══ 5/9 re-apply construction dates (WD inceptions + overrides)"
 python3 scripts/apply-wd-inceptions.py
-echo "══ 6/8 rebuild entity table"
+echo "══ 6/9 cap end dates at destruction events (Vesuvius 79)"
+python3 scripts/apply-event-caps.py
+echo "══ 7/9 rebuild entity table"
 python3 scripts/build-entity-table.py
-echo "══ 7/8 rebuild search manifest"
+echo "══ 8/9 rebuild search manifest"
 python3 scripts/build-entity-search.py
-echo "══ 8/8 gates"
+echo "══ 9/9 gates"
 python3 scripts/validate-golden.py
 python3 scripts/validate-entities.py --ci
 echo "══ hygiene complete — all gates green"

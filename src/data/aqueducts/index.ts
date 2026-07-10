@@ -1,4 +1,6 @@
 export interface Aqueduct {
+  /** set by apply-event-caps.py for real destructions (Vesuvius 79) */
+  destroyedYear?: number
   id: string
   name: string
   lat: number

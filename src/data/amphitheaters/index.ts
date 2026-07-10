@@ -9,6 +9,8 @@ export interface Amphitheater {
   city: string
   source: string
   pleiadesId: string | null
+  /** set by apply-event-caps.py for real destructions (Vesuvius 79) */
+  destroyedYear?: number
 }
 
 import { loadJson } from '@/data/loadJson'

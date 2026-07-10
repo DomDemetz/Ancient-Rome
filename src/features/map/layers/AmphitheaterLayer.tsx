@@ -37,6 +37,7 @@ export function AmphitheaterLayer({ data }: AmphitheaterLayerProps) {
       e = bounds.getEast()
     return data.filter((a) => {
       if (a.constructionYear != null && a.constructionYear > currentYear) return false
+      if (a.destroyedYear != null && a.destroyedYear < currentYear) return false
       if (a.constructionYear == null && currentYear < -70) return false
       if (zoom < 6) return false
       return a.lat >= s && a.lat <= n && a.lng >= w && a.lng <= e

@@ -58,6 +58,9 @@ export function BuildingsLayer({ data }: BuildingsLayerProps) {
       e = bounds.getEast()
     return data.filter((b) => {
       if (b.constructionYear != null && b.constructionYear > currentYear) return false
+      // attestedTo is only a period end, but destroyedYear is a real event
+      // (Vesuvius): the Stabian Baths must not dot the map in 1000 AD
+      if (b.destroyedYear != null && b.destroyedYear < currentYear) return false
       if (zoom < 6) return false
       if (zoom < 7 && !TIER1_TYPES.has(b.buildingType)) return false
       if (zoom < 8 && !TIER2_TYPES.has(b.buildingType)) return false
