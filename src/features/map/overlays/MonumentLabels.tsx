@@ -144,7 +144,10 @@ export function MonumentLabels() {
           interactive={false}
           icon={L.divIcon({
             className: 'monument-label-wrap',
-            html: `<div class="monument-label">${e.n.replace(/[<>&]/g, '')}</div>`,
+            // the searched/open-record entity wears the focus chip — among
+            // thirty dots and eight quiet labels, the result must declare
+            // itself ("it's still not very visible")
+            html: `<div class="monument-label${e.k === focusedKey ? ' monument-label--focus' : ''}">${e.n.replace(/[<>&]/g, '')}</div>`,
             iconSize: [0, 0],
           })}
         />

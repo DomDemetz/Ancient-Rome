@@ -87,19 +87,21 @@ function MapNavHandler() {
     // Remove any highlight still pending from a previous search
     highlightCleanup.current?.()
 
-    // Add a small ring around the target after the fly animation
+    // Add a ring around the target after the fly animation. 8s, not 4:
+    // arrivals read the record panel first, and the ring was gone before
+    // their eyes came back to the map.
     let ring: L.CircleMarker | undefined
     let removeTimer: ReturnType<typeof setTimeout> | undefined
     const timer = setTimeout(() => {
       ring = L.circleMarker([lat, lng], {
-        radius: 12,
+        radius: 14,
         color: '#f39c12',
-        weight: 2,
+        weight: 2.5,
         fill: false,
         interactive: false,
       }).addTo(map)
 
-      removeTimer = setTimeout(() => ring?.remove(), 4000)
+      removeTimer = setTimeout(() => ring?.remove(), 8000)
     }, 1200)
 
     highlightCleanup.current = () => {
