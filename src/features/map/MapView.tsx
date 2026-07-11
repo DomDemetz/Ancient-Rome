@@ -27,6 +27,7 @@ import { EpigraphyLayer } from './layers/EpigraphyLayer'
 import { NotablePeopleLayer } from './layers/NotablePeopleLayer'
 import { AtlasLayer } from './layers/AtlasLayer'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
+import { BASE_SOURCES, type AttributionKey } from '@/lib/attribution'
 import { MapControls } from './MapControls'
 import { SitesLegend } from './controls/SettlementLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
@@ -370,19 +371,16 @@ export function MapView() {
     showProvinces ||
     showFortifications ||
     showWater
-  let attribution = BASE_ATTRIBUTION
-  if (showEmpires)
-    attribution +=
-      ' | Empires: <a href="https://github.com/Seshat-Global-History-Databank/cliopatria">Cliopatria/Seshat</a> (CC BY 4.0)'
-  if (dareActive) attribution += ' | DARE data &copy; Johan &Aring;hlfeldt, CC BY-SA 3.0'
-  if (showItinereRoads) attribution += ' | Itiner-e data &copy; Pau de Soto, CC BY-NC 4.0'
-  if (showBattles) attribution += ' | Battle data: Roman-Battles-Droid'
-  if (showTradeNetwork) attribution += ' | ORBIS v2 &copy; Stanford University'
-  if (showNotablePeople)
-    attribution += ' | Notable People: Sciences-Po cross-verified database, CC-BY-SA'
-  if (DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show))
-    attribution +=
-      ' | Sites: <a href="https://vici.org">vici.org</a> (CC BY-SA) · DARE · <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY) · DARMC/OxREP'
+  // attribution strings live in ONE ledger (lib/attribution.ts)
+  const active: AttributionKey[] = []
+  if (showEmpires) active.push('empires')
+  if (dareActive) active.push('dare')
+  if (showItinereRoads) active.push('itinere')
+  if (showBattles) active.push('battles')
+  if (showTradeNetwork) active.push('orbis')
+  if (showNotablePeople) active.push('people')
+  if (DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show)) active.push('sites')
+  const attribution = [BASE_ATTRIBUTION, ...active.map((k) => BASE_SOURCES[k])].join(' | ')
 
   return (
     <div className="relative w-full h-full flex flex-col" style={{ background: '#0f0a1a' }}>
