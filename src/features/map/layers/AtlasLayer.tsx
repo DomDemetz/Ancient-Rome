@@ -8,6 +8,7 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { appendCrossRefTooltip, appendWikiTooltip, buildPopup, esc } from '@/lib/wiki-popup'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { formatYear } from '@/lib/geo'
+import { inWindow } from './temporal'
 
 /**
  * THE point-entity renderer (unified rework, 2026-07-10). One instance per
@@ -77,10 +78,9 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       e2 = bounds.getEast()
     let filtered = data.filter((e) => {
       if (zoom < Math.max(config.minZoom, TIER_MIN_ZOOM[e.t])) return false
-      // attestation window; rows without dates are undated archaeology and
-      // ride with their tier (texture appears only at survey zooms anyway)
-      if (e.s != null && e.s !== 0 && e.s > currentYear) return false
-      if (e.e != null && e.e !== 0 && e.e < currentYear) return false
+      // THE temporal policy (layers/temporal.ts): absent dates = unknown,
+      // undated archaeology rides with its zoom tier
+      if (!inWindow(e.s, e.e, currentYear)) return false
       return e.la >= s && e.la <= n && e.lo >= w && e.lo <= e2
     })
 

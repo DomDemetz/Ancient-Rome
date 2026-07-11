@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { CircleMarker, Popup } from 'react-leaflet'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { inWindow } from './temporal'
 import { buildPopup } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -35,8 +36,7 @@ export function EpigraphyLayer({ data }: EpigraphyLayerProps) {
 
   const visible = useMemo(() => {
     return data.filter((c) => {
-      if (c.startYear > currentYear) return false
-      if (c.endYear < currentYear) return false
+      if (!inWindow(c.startYear, c.endYear, currentYear)) return false
       if (zoom < 4) return false
       // Density needs contrast to read as density: at empire zoom only the
       // great epigraphic centers speak — drawing every grid cluster carpeted

@@ -5,6 +5,7 @@ import L from 'leaflet'
 import { buildPopup, esc } from '@/lib/wiki-popup'
 import { filterWithSignature } from '@/lib/feature-signature'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { inWindow } from './temporal'
 import { useMemo, useCallback, useRef } from 'react'
 import type { ProvinceLabel, ProvinceChange } from '@/data/dare'
 
@@ -74,8 +75,7 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
   const { filtered, sig } = useMemo(() => {
     const { features, sig } = filterWithSignature(data.features, (f) => {
       const { startYear, endYear } = f.properties || {}
-      if (startYear !== 0 && startYear > currentYear) return false
-      if (endYear !== 0 && endYear < currentYear) return false
+      if (!inWindow(startYear, endYear, currentYear)) return false
       return true
     })
     return { filtered: { ...data, features }, sig }

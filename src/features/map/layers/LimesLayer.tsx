@@ -5,6 +5,7 @@ import L from 'leaflet'
 import { buildPopup } from '@/lib/wiki-popup'
 import { filterWithSignature } from '@/lib/feature-signature'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { inWindow } from './temporal'
 import { useMemo } from 'react'
 
 interface LimesLayerProps {
@@ -33,8 +34,7 @@ export function LimesLayer({ data }: LimesLayerProps) {
   const { filtered, sig } = useMemo(() => {
     const { features, sig } = filterWithSignature(data.features, (f) => {
       const { startYear, endYear } = f.properties || {}
-      if (startYear !== 0 && startYear > currentYear) return false
-      if (endYear !== 0 && endYear < currentYear) return false
+      if (!inWindow(startYear, endYear, currentYear)) return false
       return true
     })
     return { filtered: { ...data, features }, sig }

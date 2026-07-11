@@ -3,6 +3,7 @@ import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { popAt } from './populationCurve'
+import { DARE_HORIZON, inTerritoryWindow, inWindow } from './temporal'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
@@ -166,18 +167,18 @@ export function PlacesLayer({
         return false
       }
 
-      // Timeline filtering (0 = unknown, DARE semantics)
-      if (p.startYear !== 0 && p.startYear > currentYear) return false
-      if (p.endYear !== 0 && p.endYear < currentYear) return false
-      // Unknown end ≠ immortal: DARE-only nodes without an attested end stop
-      // at the archaeological data horizon (~800); population nodes carry on
-      // via their own curves. Wikidata-sourced places (wd-*) persist.
-      if (!hasPop && p.endYear === 0 && currentYear > 800 && !!p.dare) return false
-      // Territory-correlated undated settlements: visible 20y after control
-      if (p.startYear === 0 && p.dare?.territoryYear != null) {
-        if (currentYear < p.dare.territoryYear + 20) return false
-        if (p.dare.declineYear != null && currentYear > p.dare.declineYear + 50) return false
-      }
+      // THE temporal policy (layers/temporal.ts) + its documented exceptions
+      if (!inWindow(p.startYear, p.endYear, currentYear)) return false
+      // DARE_HORIZON: DARE-only nodes without an attested end stop at the
+      // archaeological data horizon; population nodes carry on via curves,
+      // Wikidata-sourced places (wd-*) persist.
+      if (!hasPop && p.endYear === 0 && currentYear > DARE_HORIZON && !!p.dare) return false
+      // TERRITORY_LAG: undated settlements follow territorial control
+      if (
+        p.startYear === 0 &&
+        !inTerritoryWindow(p.dare?.territoryYear, p.dare?.declineYear, currentYear)
+      )
+        return false
 
       // Dot discipline at empire zooms: an unlabeled dot is noise. Below
       // zoom 6, a population node renders only if it earns a label at the

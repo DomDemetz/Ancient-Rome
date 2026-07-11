@@ -1,3 +1,4 @@
+import { ROMAN_ROAD_DAWN } from '@/features/map/layers/temporal'
 interface TemporalRoadProps {
   startYear?: number
   endYear?: number
@@ -43,7 +44,6 @@ export function shouldShowRoad(props: TemporalRoadProps, currentYear: number): b
 }
 
 /** Via Appia, the first great Roman road — undated segments appear here. */
-export const ROMAN_ROAD_DAWN = -312
 
 /**
  * Computes the opacity for a road segment at the given year.
@@ -101,3 +101,5 @@ export function getDeclineDash(
   }
   return hypothetical ? '4 3' : undefined
 }
+
+export { ROMAN_ROAD_DAWN }
