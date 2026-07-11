@@ -10,7 +10,6 @@ import type { SettlementCategory } from '@/features/map/layers/settlementStyles'
 import type { Battle } from '@/data/battles'
 import type { Emperor } from '@/data/emperors'
 import type { Legion } from '@/data/legions'
-import type { Aqueduct } from '@/data/aqueducts'
 import type { TradeNetwork } from '@/data/trade'
 import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
@@ -272,7 +271,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
     layers: [
       {
         key: 'Aqueducts',
-        label: 'Aqueducts',
+        label: 'Aqueduct Lines',
         activeClass: 'bg-blue-900/80 border-blue-700 text-blue-100 hover:bg-blue-800/80',
       },
       {
@@ -362,7 +361,6 @@ interface MapLayerState {
   legionsData: Legion[] | null
   legionsLoading: boolean
   showAqueducts: boolean
-  aqueductsData: Aqueduct[] | null
   aqueductLinesData: FeatureCollection | null
   aqueductsLoading: boolean
   senatorialProvincesData: FeatureCollection | null
@@ -601,15 +599,11 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadLegions } = await import('@/data/legions')
     return { legionsData: await loadLegions() }
   }),
-  showAqueducts: ensureLoaded('aqueductsData', 'aqueductsLoading', async () => {
-    const { loadAqueductPoints } = await import('@/data/unified')
-    const [points, lines] = await Promise.all([
-      loadAqueductPoints(),
-      import('@/data/awmc-aqueducts-temporal.json')
-        .then((m) => m.default as FeatureCollection)
-        .catch(() => null),
-    ])
-    return { aqueductsData: points, aqueductLinesData: lines }
+  showAqueducts: ensureLoaded('aqueductLinesData', 'aqueductsLoading', async () => {
+    const lines = await import('@/data/awmc-aqueducts-temporal.json')
+      .then((m) => m.default as FeatureCollection)
+      .catch(() => null)
+    return { aqueductLinesData: lines }
   }),
   showTradeNetwork: ensureLoaded('tradeNetworkData', 'tradeNetworkLoading', async () => {
     const { loadTradeNetwork } = await import('@/data/trade')
@@ -709,7 +703,6 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   legionsData: null,
   legionsLoading: false,
   showAqueducts: false,
-  aqueductsData: null,
   aqueductLinesData: null,
   aqueductsLoading: false,
   senatorialProvincesData: null,
@@ -850,15 +843,11 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     })(set, get),
 
   toggleAqueducts: () =>
-    makeToggle('showAqueducts', 'aqueductsData', 'aqueductsLoading', async () => {
-      const { loadAqueductPoints } = await import('@/data/unified')
-      const [points, lines] = await Promise.all([
-        loadAqueductPoints(),
-        import('@/data/awmc-aqueducts-temporal.json')
-          .then((m) => m.default as FeatureCollection)
-          .catch(() => null),
-      ])
-      return { data: points, extra: { aqueductLinesData: lines } }
+    makeToggle('showAqueducts', 'aqueductLinesData', 'aqueductsLoading', async () => {
+      const lines = await import('@/data/awmc-aqueducts-temporal.json')
+        .then((m) => m.default as FeatureCollection)
+        .catch(() => null)
+      return { data: lines }
     })(set, get),
 
   toggleTradeNetwork: () =>

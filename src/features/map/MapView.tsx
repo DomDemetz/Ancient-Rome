@@ -343,7 +343,6 @@ export function MapView() {
     battlesData,
     emperorsData,
     legionsData,
-    aqueductsData,
     aqueductLinesData,
     senatorialProvincesData,
     tradeNetworkData,
@@ -456,9 +455,7 @@ export function MapView() {
               {showFortifications && fortificationsData && (
                 <FortificationLayer data={fortificationsData} />
               )}
-              {showAqueducts && aqueductsData && (
-                <AqueductLayer data={aqueductsData} lines={aqueductLinesData} />
-              )}
+              {showAqueducts && <AqueductLayer lines={aqueductLinesData} />}
               {showEpigraphy && epigraphyData && <EpigraphyLayer data={epigraphyData} />}
               {showLegions && legionsData && <LegionDeploymentLayer data={legionsData} />}
               {showNotablePeople && notablePeopleData && (

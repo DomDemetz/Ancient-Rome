@@ -134,12 +134,6 @@ def main():
         if e["kind"] == "battle":
             skipped["battle (BattleLayer)"] += 1
             continue
-        # unified aqueduct points belong to AqueductLayer (points + line
-        # geometry, one curated experience) — same ownership rule as battles;
-        # DARE aqueduct NODES have no unified source and stay in the atlas
-        if any(s.startswith("aqueduct:") for s in e["sources"]):
-            skipped["aqueduct (AqueductLayer)"] += 1
-            continue
         if e["lat"] is None:
             skipped["no coords"] += 1
             continue

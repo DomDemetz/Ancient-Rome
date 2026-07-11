@@ -10,13 +10,13 @@
   },
   "aqueduct": {
     "file": "aqueduct.json",
-    "count": 1647,
+    "count": 1773,
     "tiers": {
-      "1": 84,
-      "2": 1524,
+      "1": 145,
+      "2": 1589,
       "3": 39
     },
-    "kb": 187
+    "kb": 202
   },
   "basilica": {
     "file": "basilica.json",
@@ -295,9 +295,9 @@
   },
   "temple": {
     "file": "temple.json",
-    "count": 6299,
+    "count": 6300,
     "tiers": {
-      "1": 434,
+      "1": 435,
       "2": 5856,
       "3": 9
     },

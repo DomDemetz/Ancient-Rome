@@ -1,5 +1,489 @@
 [
   {
+    "i": "aqueduct:aq-alexandria",
+    "la": 31.2001,
+    "lo": 29.9187,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Alexandria",
+    "s": -30,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-antalya",
+    "la": 36.8969,
+    "lo": 30.7133,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Attaleia",
+    "s": 130,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-antioch-daphne",
+    "la": 36.2,
+    "lo": 36.15,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Daphne (Antioch)",
+    "s": 100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-aphrodisias",
+    "la": 37.7089,
+    "lo": 28.7256,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Aphrodisias",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-aqua-alexandrina",
+    "la": 41.8902,
+    "lo": 12.4922,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Alexandrina",
+    "s": 226,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-aqua-alsietina",
+    "la": 41.8902,
+    "lo": 12.4922,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Alsietina",
+    "s": -2,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-baelo-claudia",
+    "la": 36.0886,
+    "lo": -5.7736,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Baelo Claudia",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-berytus",
+    "la": 33.8938,
+    "lo": 35.5018,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Berytus",
+    "s": -15,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-budapest",
+    "la": 47.565,
+    "lo": 19.0486,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Aquincum",
+    "s": 100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-bulla-regia",
+    "la": 36.5583,
+    "lo": 8.7556,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Bulla Regia",
+    "s": 50,
+    "e": 400,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-cadiz",
+    "la": 36.5297,
+    "lo": -6.2925,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Gades",
+    "s": -19,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-caesarea-mauretania-2",
+    "la": 36.6069,
+    "lo": 2.1933,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Eastern Aqueduct of Caesarea Mauretaniae",
+    "s": 40,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-carnuntum",
+    "la": 48.1147,
+    "lo": 16.8594,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Carnuntum",
+    "s": 70,
+    "e": 380,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-cherchell",
+    "la": 36.6069,
+    "lo": 2.1933,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Caesarea (Cherchell)",
+    "s": -25,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-corinth",
+    "la": 37.906,
+    "lo": 22.8798,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Corinth (Hadrianic)",
+    "s": 125,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-dorchester",
+    "la": 50.7139,
+    "lo": -2.4378,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Dorchester",
+    "s": 60,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-emesa",
+    "la": 34.7333,
+    "lo": 36.7167,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Emesa",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-gadara",
+    "la": 32.6561,
+    "lo": 35.6775,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct Tunnel of Gadara",
+    "s": 90,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-hippo-regius",
+    "la": 36.8867,
+    "lo": 7.7542,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Hippo Regius",
+    "s": 100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-jerash",
+    "la": 32.2747,
+    "lo": 35.8917,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Gerasa",
+    "s": 100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-lincoln",
+    "la": 53.2307,
+    "lo": -0.5407,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Lincoln",
+    "s": 90,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-lyon-brevenne",
+    "la": 45.764,
+    "lo": 4.8357,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of the Brévenne",
+    "s": -20,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-lyon-mont-dor",
+    "la": 45.764,
+    "lo": 4.8357,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Mont d'Or",
+    "s": 10,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-lyon-yzeron",
+    "la": 45.764,
+    "lo": 4.8357,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of the Yzeron",
+    "s": -40,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-mainz",
+    "la": 49.9929,
+    "lo": 8.2473,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Mogontiacum",
+    "s": 70,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-minturnae",
+    "la": 41.2606,
+    "lo": 13.7611,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Minturnae",
+    "s": -50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-mytilene",
+    "la": 39.1072,
+    "lo": 26.555,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Mytilene",
+    "s": 100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-ostia",
+    "la": 41.7558,
+    "lo": 12.2914,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Ostia",
+    "s": 40,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-palmyra",
+    "la": 34.5503,
+    "lo": 38.2836,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Palmyra",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-patras",
+    "la": 38.2466,
+    "lo": 21.7346,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Patras",
+    "s": -31,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-pergamon",
+    "la": 39.1317,
+    "lo": 27.1833,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Pergamon (Madradag)",
+    "s": -190,
+    "e": 350,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-philippopolis",
+    "la": 42.15,
+    "lo": 24.75,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Philippopolis",
+    "s": 150,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-pola",
+    "la": 44.8666,
+    "lo": 13.8496,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Pola",
+    "s": -40,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-pompeii",
+    "la": 40.7508,
+    "lo": 14.4869,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqueduct of Pompeii (Serino)",
+    "s": -337,
+    "e": 79,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-ravenna",
+    "la": 44.4184,
+    "lo": 12.2035,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Ravenna",
+    "s": -30,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-sagalassos",
+    "la": 37.6744,
+    "lo": 30.5178,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Sagalassos",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-scythopolis",
+    "la": 32.5047,
+    "lo": 35.4969,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Scythopolis",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-sens",
+    "la": 48.1972,
+    "lo": 3.2833,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Sens",
+    "s": 50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-serdica",
+    "la": 42.6977,
+    "lo": 23.3219,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Serdica",
+    "s": 170,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-serino-naples",
+    "la": 40.8518,
+    "lo": 14.2681,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Augusta (Serino to Misenum)",
+    "s": -30,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-terracina",
+    "la": 41.2925,
+    "lo": 13.2494,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Tarracina",
+    "s": -100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-thysdrus",
+    "la": 35.2961,
+    "lo": 10.7072,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Thysdrus",
+    "s": 200,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-tipasa",
+    "la": 36.5892,
+    "lo": 2.4478,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Tipasa",
+    "s": 120,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-trier",
+    "la": 49.7567,
+    "lo": 6.6417,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Trier (Ruwer Valley)",
+    "s": 100,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-tyre",
+    "la": 33.2705,
+    "lo": 35.1956,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Tyre",
+    "s": -50,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-valens",
+    "la": 41.0156,
+    "lo": 28.9553,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Valens",
+    "s": 368,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-volubilis",
+    "la": 34.0733,
+    "lo": -5.5544,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Volubilis",
+    "s": 60,
+    "t": 1
+  },
+  {
+    "i": "aqueduct:aq-xanten",
+    "la": 51.6583,
+    "lo": 6.4556,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Colonia Ulpia Traiana",
+    "s": 100,
+    "t": 1
+  },
+  {
     "i": "building:102438478",
     "la": 42.0923,
     "lo": 13.4247,
@@ -119,6 +603,17 @@
     "t": 1
   },
   {
+    "i": "building:237072",
+    "la": 40.9465,
+    "lo": -4.1146,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Segovia aqueduct",
+    "s": 50,
+    "e": 640,
+    "t": 1
+  },
+  {
     "i": "building:244926839",
     "la": 43.9838,
     "lo": 4.4758,
@@ -140,6 +635,18 @@
     "s": -30,
     "e": 640,
     "d": "dare-38480",
+    "t": 1
+  },
+  {
+    "i": "building:246893",
+    "la": 41.146,
+    "lo": 1.2438,
+    "k": "aqueduct",
+    "p": "dpuv",
+    "n": "Pont del Diable (aqueduct)",
+    "s": -300,
+    "e": 1500,
+    "d": "dare-22475",
     "t": 1
   },
   {
@@ -202,6 +709,18 @@
     "t": 1
   },
   {
+    "i": "building:311940007",
+    "la": 42.733,
+    "lo": 12.7438,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Ponte delle Torri",
+    "s": -291,
+    "e": 1453,
+    "d": "aqueduct:aq-spoleto",
+    "t": 1
+  },
+  {
     "i": "building:403927",
     "la": 43.7689,
     "lo": 10.4368,
@@ -259,6 +778,102 @@
     "s": -300,
     "e": 500,
     "d": "pleiades:423558",
+    "t": 1
+  },
+  {
+    "i": "building:423559",
+    "la": 41.8487,
+    "lo": 12.5571,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Anio Novus",
+    "s": -300,
+    "e": 640,
+    "d": "pleiades:423559",
+    "t": 1
+  },
+  {
+    "i": "building:423560",
+    "la": 41.894,
+    "lo": 12.5119,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Anio Vetus",
+    "s": -330,
+    "e": 640,
+    "d": "pleiades:423560",
+    "t": 1
+  },
+  {
+    "i": "building:423562",
+    "la": 41.889,
+    "lo": 12.5044,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Appia",
+    "s": -312,
+    "e": 640,
+    "d": "pleiades:423562",
+    "t": 1
+  },
+  {
+    "i": "building:423563",
+    "la": 41.8662,
+    "lo": 12.5397,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Claudia",
+    "s": 52,
+    "e": 640,
+    "d": "pleiades:423563",
+    "t": 1
+  },
+  {
+    "i": "building:423564",
+    "la": 41.875,
+    "lo": 12.625,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Iulia",
+    "s": -33,
+    "e": 640,
+    "d": "pleiades:423564",
+    "t": 1
+  },
+  {
+    "i": "building:423565",
+    "la": 41.8709,
+    "lo": 12.5393,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Marcia",
+    "s": -330,
+    "e": 640,
+    "d": "pleiades:423565",
+    "t": 1
+  },
+  {
+    "i": "building:423566",
+    "la": 41.8026,
+    "lo": 12.6601,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Tepula",
+    "s": -126,
+    "e": 640,
+    "d": "pleiades:423566",
+    "t": 1
+  },
+  {
+    "i": "building:423567",
+    "la": 41.8889,
+    "lo": 12.4641,
+    "k": "aqueduct",
+    "p": "pu",
+    "n": "Aqua Traiana",
+    "s": -300,
+    "e": 899,
+    "d": "pleiades:423567",
     "t": 1
   },
   {
@@ -473,6 +1088,18 @@
     "s": -300,
     "e": 500,
     "d": "pleiades:811907996",
+    "t": 1
+  },
+  {
+    "i": "building:812127749",
+    "la": 45.7218,
+    "lo": 4.7604,
+    "k": "aqueduct",
+    "p": "dpu",
+    "n": "Aqueduct of the Gier",
+    "s": 50,
+    "e": 1500,
+    "d": "dare-39365",
     "t": 1
   },
   {
@@ -968,6 +1595,18 @@
     "t": 1
   },
   {
+    "i": "place:pl-79420",
+    "la": 53.1915,
+    "lo": -2.8939,
+    "k": "aqueduct",
+    "p": "dpu",
+    "n": "Chester",
+    "s": -30,
+    "e": 1500,
+    "d": "pl-79420",
+    "t": 1
+  },
+  {
     "i": "pleiades:426599",
     "la": 41.8252,
     "lo": 12.6419,
@@ -977,6 +1616,659 @@
     "s": -300,
     "e": 500,
     "t": 1
+  },
+  {
+    "i": "aqueduct:aq-aix",
+    "la": 43.5297,
+    "lo": 5.4474,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Aquae Sextiae",
+    "s": -20,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-antioch",
+    "la": 36.2,
+    "lo": 36.15,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueducts of Antioch",
+    "s": -47,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-antioch-harbiye",
+    "la": 36.2,
+    "lo": 36.15,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Harbiye Aqueduct (Antioch)",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-aosta",
+    "la": 45.7372,
+    "lo": 7.3209,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Augusta Praetoria",
+    "s": -25,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-apamea",
+    "la": 35.4167,
+    "lo": 36.4,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Apamea",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-argos",
+    "la": 37.6317,
+    "lo": 22.7275,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Argos",
+    "s": 50,
+    "e": 300,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-arles",
+    "la": 43.6767,
+    "lo": 4.6278,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Arles",
+    "s": -30,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-athens-peisistratid",
+    "la": 37.9715,
+    "lo": 23.7257,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Peisistratid-Roman Aqueduct (Athens)",
+    "s": -530,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-aventicum",
+    "la": 46.88,
+    "lo": 7.0408,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Aventicum",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-bath",
+    "la": 51.3811,
+    "lo": -2.3597,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Aquae Sulis",
+    "s": 65,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-bologna",
+    "la": 44.4939,
+    "lo": 11.3428,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Bononia",
+    "s": -89,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-bordeaux",
+    "la": 44.8378,
+    "lo": -0.5792,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Burdigala",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-bosra",
+    "la": 32.5169,
+    "lo": 36.4814,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Bostra",
+    "s": 106,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-caesarea",
+    "la": 32.5,
+    "lo": 34.89,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Caesarea High-Level Aqueduct",
+    "s": 22,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-caesarea-hadrianic",
+    "la": 32.5,
+    "lo": 34.89,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Hadrianic Extension (Caesarea Maritima)",
+    "s": 130,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-caesarea-low",
+    "la": 32.5,
+    "lo": 34.89,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Caesarea Low-Level Aqueduct",
+    "s": 70,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-capua",
+    "la": 41.105,
+    "lo": 14.2528,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Julia Campana (Capua)",
+    "s": -30,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-carthage-bordj-djedid",
+    "la": 36.8525,
+    "lo": 10.3231,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Bordj Djedid Cisterns Aqueduct",
+    "s": 150,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-carthage-malga",
+    "la": 36.858,
+    "lo": 10.315,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "La Malga Cisterns Aqueduct",
+    "s": 160,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-catania",
+    "la": 37.5079,
+    "lo": 15.083,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Catina",
+    "s": -100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-cologne",
+    "la": 50.9375,
+    "lo": 6.9603,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Eifel Aqueduct (Cologne)",
+    "s": 80,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-conimbriga",
+    "la": 40.0983,
+    "lo": -8.4922,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Conimbriga",
+    "s": -10,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-constantine",
+    "la": 36.365,
+    "lo": 6.6147,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Cirta",
+    "s": -46,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-cordoba",
+    "la": 37.8882,
+    "lo": -4.7794,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Vetus (Córdoba)",
+    "s": -150,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-cordoba-2",
+    "la": 37.8882,
+    "lo": -4.7794,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Nova (Córdoba)",
+    "s": -20,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-djemila",
+    "la": 36.3214,
+    "lo": 5.7361,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Cuicul",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-dougga",
+    "la": 36.4225,
+    "lo": 9.2192,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Thugga",
+    "s": 150,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-ephesos",
+    "la": 37.9394,
+    "lo": 27.3417,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqua Classica (Ephesos)",
+    "s": -100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-ephesos-kenchreios",
+    "la": 37.9394,
+    "lo": 27.3417,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Kenchreios Aqueduct (Ephesos)",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-ephesos-marnas",
+    "la": 37.9394,
+    "lo": 27.3417,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Marnas Aqueduct (Ephesos)",
+    "s": 4,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-ephesos-sirince",
+    "la": 37.9394,
+    "lo": 27.3417,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Sirince Aqueduct (Ephesos)",
+    "s": 110,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-jerash-2",
+    "la": 32.2747,
+    "lo": 35.8917,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Birketein Aqueduct (Gerasa)",
+    "s": 180,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-lambaesis",
+    "la": 35.4917,
+    "lo": 6.2564,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Lambaesis",
+    "s": 120,
+    "e": 350,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-laodicea",
+    "la": 37.8361,
+    "lo": 29.1083,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Laodicea ad Lycum",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-leicester",
+    "la": 52.6369,
+    "lo": -1.1398,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Ratae Coritanorum",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-leptis-magna",
+    "la": 32.6378,
+    "lo": 14.2917,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Leptis Magna",
+    "s": 120,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-mactar",
+    "la": 35.8422,
+    "lo": 9.0744,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Mactaris",
+    "s": 160,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-madauros",
+    "la": 36.285,
+    "lo": 7.6672,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Madauros",
+    "s": 150,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-merida-cornalvo",
+    "la": 38.9167,
+    "lo": -6.3333,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Cornalvo Aqueduct",
+    "s": -25,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-merida-milagros",
+    "la": 38.9167,
+    "lo": -6.3333,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Los Milagros Aqueduct",
+    "s": -16,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-merida-proserpina",
+    "la": 38.9167,
+    "lo": -6.3333,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Proserpina Aqueduct",
+    "s": -25,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-merida-rabo-buey",
+    "la": 38.9167,
+    "lo": -6.3333,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Rabo de Buey Aqueduct (Mérida)",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-narbonne",
+    "la": 43.1842,
+    "lo": 3.0033,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Narbo Martius",
+    "s": -20,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-nikopolis",
+    "la": 38.9667,
+    "lo": 20.7167,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Nikopolis",
+    "s": -28,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-nimes-2",
+    "la": 43.8366,
+    "lo": 4.3503,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Nemausus (Second)",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-palmyra-2",
+    "la": 34.5503,
+    "lo": 38.2836,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Northern Qanats (Palmyra)",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-patara",
+    "la": 36.2628,
+    "lo": 29.3178,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Patara",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-pergamon-kaikos",
+    "la": 39.1317,
+    "lo": 27.1833,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Kaikos Aqueduct (Pergamon)",
+    "s": 130,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-poitiers",
+    "la": 46.5802,
+    "lo": 0.3404,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Limonum",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-priene",
+    "la": 37.6594,
+    "lo": 27.2975,
+    "k": "aqueduct",
+    "p": "uv",
+    "n": "Aqueduct of Priene",
+    "s": -130,
+    "e": 300,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-reims",
+    "la": 49.2583,
+    "lo": 3.8119,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Durocortorum",
+    "s": 80,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-sabratha",
+    "la": 32.805,
+    "lo": 12.4839,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Sabratha",
+    "s": 140,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-saintes",
+    "la": 45.7461,
+    "lo": -0.6317,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Mediolanum Santonum",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-salona",
+    "la": 43.5381,
+    "lo": 16.4903,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Salona",
+    "s": -47,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-setif",
+    "la": 36.1903,
+    "lo": 5.4083,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Sitifis",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-smyrna-2",
+    "la": 38.4189,
+    "lo": 27.1287,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Yesilirmak Aqueduct (Smyrna)",
+    "s": 180,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-sufetula",
+    "la": 35.2283,
+    "lo": 8.1117,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Sufetula",
+    "s": 140,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-tarragona-2",
+    "la": 41.1167,
+    "lo": 1.25,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Francolí (Tarragona)",
+    "s": 80,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-termini-imerese",
+    "la": 37.9833,
+    "lo": 13.7,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Thermae Himeraeae",
+    "s": -100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-thessaloniki",
+    "la": 40.6401,
+    "lo": 22.9444,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Thessalonica",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-timgad",
+    "la": 35.4847,
+    "lo": 6.4683,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Thamugadi",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-trier-herresthal",
+    "la": 49.7567,
+    "lo": 6.6417,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Herresthal Aqueduct (Trier)",
+    "s": 150,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-verona",
+    "la": 45.4384,
+    "lo": 10.9916,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Verona",
+    "s": -50,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-vienne",
+    "la": 45.5254,
+    "lo": 4.8783,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Vienna Allobrogum",
+    "s": -20,
+    "t": 2
+  },
+  {
+    "i": "aqueduct:aq-zaghouan",
+    "la": 36.8525,
+    "lo": 10.3231,
+    "k": "aqueduct",
+    "p": "u",
+    "n": "Aqueduct of Carthage (Zaghouan)",
+    "s": 128,
+    "t": 2
   },
   {
     "i": "building:109477",

@@ -11,10 +11,13 @@ interface TerritoryLayerProps {
   snapshots: TerritorySnapshot[]
 }
 
-// Map status values to fill colors
-// Muted imperial crimson family — Rome keeps the red identity but wears
-// the same earth-mineral finish as the world's other polities.
-const STATUS_COLORS: Record<string, string> = {
+// Map status values to fill colors, per controlling half of the empire
+// (Reddit feedback 2026-07-11: after the 395 split the two Romes are
+// different polities — track them by color). The west keeps the muted
+// imperial crimson; Constantinople wears porphyry — the Byzantine
+// imperial purple ('born in the purple'), same earth-mineral finish.
+// controlledBy is already in every snapshot; this only honors it.
+const WEST_COLORS: Record<string, string> = {
   controlled: '#a35d50',
   allied: '#b08a5a',
   contested: '#b0975a',
@@ -23,9 +26,19 @@ const STATUS_COLORS: Record<string, string> = {
   province: '#a86558',
   client: '#b08a5a',
 }
+const EAST_COLORS: Record<string, string> = {
+  controlled: '#7e5a86',
+  allied: '#8f7a92',
+  contested: '#8f8592',
+  lost: '#7d8585',
+  core: '#7e5a86',
+  province: '#84618c',
+  client: '#8f7a92',
+}
 
-function getStatusColor(status: string): string {
-  return STATUS_COLORS[status] ?? '#888888'
+function getStatusColor(status: string, controlledBy?: string): string {
+  const palette = controlledBy === 'constantinople' ? EAST_COLORS : WEST_COLORS
+  return palette[status] ?? '#888888'
 }
 
 // Fade duration must match the CSS transition on `.territory-path`.
@@ -241,8 +254,8 @@ export function TerritoryLayer({ snapshots }: TerritoryLayerProps) {
             pane="territoryFill"
             style={{
               // darkened self-tone edge, same formula as the world layer
-              color: '#5f362e',
-              fillColor: getStatusColor(snap.status),
+              color: snap.controlledBy === 'constantinople' ? '#4a3550' : '#5f362e',
+              fillColor: getStatusColor(snap.status, snap.controlledBy),
               // Opaque fill — the pane supplies the translucency, so overlapping
               // snapshots never darken or wash out.
               fillOpacity: shown ? 1 : 0,

@@ -1,4 +1,3 @@
-import type { Aqueduct } from '@/data/aqueducts'
 import type { Battle } from '@/data/battles'
 
 export interface UnifiedEntity {
@@ -26,22 +25,6 @@ function stripPrefix(id: string): string {
 
 function parseChunk(raw: { default: string }): UnifiedEntity[] {
   return JSON.parse(raw.default) as UnifiedEntity[]
-}
-
-export async function loadAqueductPoints(): Promise<Aqueduct[]> {
-  return parseChunk(await import('@/data/unified/aqueduct.json?raw')).map((e) => ({
-    id: stripPrefix(e.id),
-    name: e.name,
-    lat: e.lat,
-    lng: e.lng,
-    constructionYear: e.startYear ?? 0,
-    length: (e.props?.length as number) ?? null,
-    builder: (e.props?.builder as string) ?? null,
-    cityServed: (e.props?.cityServed as string) ?? '',
-    destroyedYear: e.destroyedYear,
-    description: e.description ?? '',
-    source: e.source,
-  }))
 }
 
 export async function loadBattles(): Promise<Battle[]> {
