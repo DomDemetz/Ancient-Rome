@@ -63934,6 +63934,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-13511",
+    "la": 48.8869,
+    "lo": 12.5898,
+    "k": "port",
+    "p": "v",
+    "n": "Donauhafen Straubing",
+    "t": 2
+  },
+  {
     "i": "vici:vici-13831",
     "la": 43.4308,
     "lo": 6.7419,
@@ -63949,6 +63958,15 @@
     "k": "port",
     "p": "v",
     "n": "Stockstadt Schiffslände",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17448",
+    "la": 43.6236,
+    "lo": 13.5097,
+    "k": "port",
+    "p": "v",
+    "n": "Ancona,Werft,I - ANCONE",
     "t": 2
   },
   {
@@ -63997,6 +64015,17 @@
     "t": 2
   },
   {
+    "i": "vici:vici-28187",
+    "la": 50.8854,
+    "lo": 1.6611,
+    "k": "port",
+    "p": "v",
+    "n": "Itius Portus ?",
+    "s": -54,
+    "e": -54,
+    "t": 2
+  },
+  {
     "i": "vici:vici-32938",
     "la": 40.8744,
     "lo": 25.5074,
@@ -64012,6 +64041,38 @@
     "k": "port",
     "p": "v",
     "n": "Holzpfosten der Quaianlage",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-61975",
+    "la": 41.2471,
+    "lo": 13.0364,
+    "k": "port",
+    "p": "v",
+    "n": "Canale Romano di Torre Paola",
+    "s": 50,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65231",
+    "la": 40.8112,
+    "lo": 14.0803,
+    "k": "port",
+    "p": "v",
+    "n": "Castello Aragonese di Baia",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65570",
+    "la": 40.7489,
+    "lo": 14.4823,
+    "k": "port",
+    "p": "v",
+    "n": "Quay with mooring rings",
+    "s": -199,
+    "e": 79,
     "t": 2
   },
   {

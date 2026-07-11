@@ -8236,6 +8236,17 @@
     "t": 2
   },
   {
+    "i": "vici:vici-16393",
+    "la": 52.1034,
+    "lo": 4.425,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Fossa Corbulonis",
+    "s": 50,
+    "e": 270,
+    "t": 2
+  },
+  {
     "i": "vici:vici-16434",
     "la": 44.5627,
     "lo": 4.7537,
@@ -8395,6 +8406,15 @@
     "p": "v",
     "n": "Spello",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19014",
+    "la": 51.8192,
+    "lo": 5.8967,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Greppel Aquaduct Nijmegen",
     "t": 2
   },
   {
@@ -9150,6 +9170,15 @@
     "k": "aqueduct",
     "p": "v",
     "n": "Panias - Caesarea Philippi, Aquaeduct",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21875",
+    "la": 44.693,
+    "lo": 14.392,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Cavata, Kavuada, Cavanella - burrowed canal",
     "t": 2
   },
   {
@@ -9944,6 +9973,15 @@
     "k": "aqueduct",
     "p": "v",
     "n": "Cremna, Nymphaeum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-26847",
+    "la": 52.0837,
+    "lo": 4.3963,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "opgraving kanaal van Corbulo",
     "t": 2
   },
   {
@@ -11918,6 +11956,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-4895",
+    "la": 50.5124,
+    "lo": 6.6083,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Quellfassung grüner Pütz",
+    "t": 2
+  },
+  {
     "i": "vici:vici-4896",
     "la": 50.5147,
     "lo": 6.5759,
@@ -12023,6 +12070,24 @@
     "k": "aqueduct",
     "p": "v",
     "n": "Wasserwerk Mechernich-Breitenbenden",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4904",
+    "la": 50.6126,
+    "lo": 6.7882,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Aufschluss Kreuzweingarten",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4908",
+    "la": 50.6135,
+    "lo": 6.791,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Aufschluss bei Kreuzweingarten",
     "t": 2
   },
   {
@@ -12176,6 +12241,15 @@
     "k": "aqueduct",
     "p": "v",
     "n": "Ausbruchgraben Wasserleitung Kottenforst",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-4927",
+    "la": 50.6863,
+    "lo": 6.9713,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Aufschluss Swisttal-Buschhoven",
     "t": 2
   },
   {
@@ -13725,6 +13799,17 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62585",
+    "la": 35.6304,
+    "lo": 9.8262,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Oued Cherchira",
+    "s": 50,
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-62679",
     "la": 36.4354,
     "lo": 10.5828,
@@ -13783,6 +13868,46 @@
     "p": "v",
     "n": "Aqueduct",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63306",
+    "la": 40.8875,
+    "lo": 14.0459,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Fossa Neronis",
+    "s": 64,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63307",
+    "la": 40.8335,
+    "lo": 14.0496,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Fossa Neronis",
+    "s": 64,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63308",
+    "la": 40.8335,
+    "lo": 14.0534,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Fossa Neronis",
+    "s": 64,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63312",
+    "la": 40.8229,
+    "lo": 14.0488,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Fossa Neronis",
+    "s": 64,
     "t": 2
   },
   {
@@ -13853,6 +13978,16 @@
     "p": "v",
     "n": "Aqueduct of Ilion (Troy)",
     "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63618",
+    "la": 41.7377,
+    "lo": 12.6398,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Emissario Lago Albano",
+    "s": -399,
     "t": 2
   },
   {
@@ -14228,6 +14363,26 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65515",
+    "la": 53.2413,
+    "lo": -0.5858,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Foss Dyke",
+    "s": 120,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65521",
+    "la": 32.0473,
+    "lo": 48.8593,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Ab-i Gargar",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65743",
     "la": 37.0907,
     "lo": -7.7008,
@@ -14235,6 +14390,16 @@
     "p": "v",
     "n": "Aqueduct",
     "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65769",
+    "la": 37.561,
+    "lo": -1.2615,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Channel carved into the rock",
+    "s": -59,
     "t": 2
   },
   {
@@ -14487,6 +14652,16 @@
     "p": "v",
     "n": "Water Channels And Aqueducts",
     "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68658",
+    "la": 36.4491,
+    "lo": 33.8937,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Gulnar Link Road",
+    "s": -59,
     "t": 2
   },
   {
@@ -15341,6 +15516,26 @@
     "t": 2
   },
   {
+    "i": "vici:vici-81012",
+    "la": 36.3904,
+    "lo": 9.1349,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Al Karib",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-81013",
+    "la": 36.3921,
+    "lo": 9.1414,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Al Karib",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-8148",
     "la": 49.797,
     "lo": 6.8471,
@@ -15349,6 +15544,16 @@
     "n": "Wasserleitung",
     "s": 206,
     "e": 399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-81712",
+    "la": 39.9143,
+    "lo": 26.1748,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Yeniköy canal",
+    "e": 1500,
     "t": 2
   },
   {
@@ -15993,6 +16198,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-87149",
+    "la": 40.9922,
+    "lo": 27.5131,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Su Kanalı, Akik Sokak",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-87190",
     "la": 40.9216,
     "lo": 31.2007,
@@ -16070,6 +16285,26 @@
     "p": "v",
     "n": "Roman emissaries",
     "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88335",
+    "la": 44.9178,
+    "lo": 19.7887,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Great canal of Probus",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-89092",
+    "la": 42.0336,
+    "lo": 60.3146,
+    "k": "aqueduct",
+    "p": "v",
+    "n": "Janpıq Qala Fortress-Djampik Kala",
+    "e": 1500,
     "t": 2
   },
   {

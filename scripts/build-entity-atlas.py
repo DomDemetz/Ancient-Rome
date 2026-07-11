@@ -151,6 +151,17 @@ def main():
             # keeps the row with PlacesLayer; a row whose nodes are ALL
             # structures renders through the atlas instead
             if any(t is None or t in SETTLEMENT_DARE_TYPES for t in types) or not types:
+                # PlacesLayer owns the dot, but its panel still shows record
+                # links — index this row's sources under every key the panel
+                # might open with (node ids + cross-ref settlement keys)
+                linkable = [k for k in e["sources"]
+                            if not k.startswith(("pleiades#", "dare#", "qid#"))]
+                if linkable:
+                    for key in [e["id"], *node_ids,
+                                *(f"settlement:{n}" for n in node_ids),
+                                *(f"settlement:{n[5:]}" for n in node_ids
+                                  if n.startswith("dare-"))]:
+                        source_index[key] = linkable
                 skipped["settlement node (PlacesLayer)"] += 1
                 continue
             struct_row = resolve_kind(SRC_DARE.get(types[0]))

@@ -504,9 +504,23 @@ function WikiDetailContent({
         </div>
       )
     }
+    // no knowledge entry — every dot still deserves a panel: render the
+    // minimal record the popup carried (title/kind/dates) + provenance links
+    const fb = useFeatureDetailStore.getState().featureFallback
+    if (fb?.title) {
+      return (
+        <DetailShell
+          kicker="Site Record"
+          title={fb.title}
+          subtitle={[fb.kind, fb.dates].filter(Boolean).join(' · ')}
+          onClose={closeFeature}
+          links={<RecordSourceLinks lookupKeys={[featureId]} />}
+        />
+      )
+    }
     return (
       <div className="flex items-center justify-center h-full">
-        <p className="text-slate-500 text-sm">No Wikipedia data found.</p>
+        <p className="text-slate-500 text-sm">No record found.</p>
       </div>
     )
   }
@@ -783,7 +797,12 @@ function useReadMoreDelegate() {
       if (!btn) return
       const id = btn.dataset.wikiId
       const layer = btn.dataset.wikiLayer
-      if (id && layer) openFeature(id, layer, btn.dataset.entityId)
+      if (id && layer)
+        openFeature(id, layer, btn.dataset.entityId, {
+          title: btn.dataset.fbTitle,
+          kind: btn.dataset.fbKind,
+          dates: btn.dataset.fbDates,
+        })
     }
     document.addEventListener('click', handleClick, true)
     return () => document.removeEventListener('click', handleClick, true)

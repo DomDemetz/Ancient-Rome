@@ -1561,12 +1561,39 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10108",
+    "la": 49.0295,
+    "lo": 10.9589,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Streifenhaus mit Keller (Weißenburg)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10634",
+    "la": 51.4672,
+    "lo": 5.6328,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Huis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-13897",
     "la": 40.4764,
     "lo": -3.3907,
     "k": "townhouse",
     "p": "v",
     "n": "Casa de Hippolytus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-14030",
+    "la": 45.5151,
+    "lo": 22.7877,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Procuratoris of Ulpia Traiana Sarmizegetusa",
     "t": 2
   },
   {
@@ -1588,6 +1615,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-15047",
+    "la": 41.8913,
+    "lo": 12.4866,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Vestal Virgins (Atrium Vestae)",
+    "t": 2
+  },
+  {
     "i": "vici:vici-17479",
     "la": 42.7345,
     "lo": 12.7375,
@@ -1597,12 +1633,68 @@
     "t": 2
   },
   {
+    "i": "vici:vici-17607",
+    "la": 40.284,
+    "lo": 15.9055,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus dei mosaici Grumentum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17818",
+    "la": 40.1787,
+    "lo": 22.4921,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Dionysus house, Dion",
+    "s": 1,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17852",
+    "la": 47.0912,
+    "lo": 18.4189,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House with frescoes, Gorsium",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17921",
+    "la": 41.7541,
+    "lo": 12.2861,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus di Amore e Psiche",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17938",
+    "la": 40.752,
+    "lo": 14.4845,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Vettii",
+    "e": 79,
+    "t": 2
+  },
+  {
     "i": "vici:vici-17955",
     "la": 41.8886,
     "lo": 12.4854,
     "k": "townhouse",
     "p": "v",
     "n": "House of August Frescoes",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18068",
+    "la": 32.8048,
+    "lo": 12.4843,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Peristyle House, Sabratha",
     "t": 2
   },
   {
@@ -1625,12 +1717,48 @@
     "t": 2
   },
   {
+    "i": "vici:vici-18357",
+    "la": 37.0575,
+    "lo": 37.8704,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Houses of Danae and Dionysos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18358",
+    "la": 37.0577,
+    "lo": 37.8718,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Houses of Poseidon and Euphrates",
+    "t": 2
+  },
+  {
     "i": "vici:vici-19013",
     "la": 50.941,
     "lo": 6.9573,
     "k": "townhouse",
     "p": "v",
     "n": "Römischer Privathauskeller",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19250",
+    "la": 45.4449,
+    "lo": 10.9986,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus e strada romane (Verona)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19251",
+    "la": 45.4404,
+    "lo": 10.9971,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus romana (Verona)",
     "t": 2
   },
   {
@@ -1667,6 +1795,87 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19897",
+    "la": 34.0719,
+    "lo": -5.5547,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Orpheus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19899",
+    "la": 34.0744,
+    "lo": -5.5557,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Ephebe",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19901",
+    "la": 34.0748,
+    "lo": -5.5546,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Huis van de werken van Hercules",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19902",
+    "la": 34.0746,
+    "lo": -5.5553,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Columns",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19904",
+    "la": 34.0749,
+    "lo": -5.5527,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Venus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20268",
+    "la": 46.0983,
+    "lo": 7.0726,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Minerva, Martigny",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20269",
+    "la": 46.0975,
+    "lo": 7.0743,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus des Hausgeistes, Martigny",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-21378",
+    "la": 32.8804,
+    "lo": 35.5754,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Capernaum - St. Peter`s House",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-22242",
+    "la": 38.1238,
+    "lo": 27.3253,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Peristyle Hous in Ionian Metropolis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-23684",
     "la": 32.5372,
     "lo": 20.5671,
@@ -1683,6 +1892,70 @@
     "p": "v",
     "n": "Fisherman Domus, Vulci",
     "s": -100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-23964",
+    "la": 35.4166,
+    "lo": 36.4063,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Triclinium at Apamea",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24049",
+    "la": 46.0499,
+    "lo": 14.4994,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Emona - Insula XXXI",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24155",
+    "la": 38.126,
+    "lo": 27.3245,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Mosaics at Ionian Metropolis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24267",
+    "la": 37.7102,
+    "lo": 28.7231,
+    "k": "townhouse",
+    "p": "v",
+    "n": "North Temenos House, Aphrodisias",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24414",
+    "la": 36.769,
+    "lo": 31.3919,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Peristil Houses, Side",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24459",
+    "la": 37.6767,
+    "lo": 30.5198,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Houses, Sagalassos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24751",
+    "la": 34.6685,
+    "lo": 32.8824,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Kourion, House of Achilles",
     "t": 2
   },
   {
@@ -1704,12 +1977,93 @@
     "t": 2
   },
   {
+    "i": "vici:vici-24845",
+    "la": 35.2991,
+    "lo": 25.1626,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Frescoes, Knossos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24875",
+    "la": 40.7544,
+    "lo": 22.5177,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Abduction of Helen in Pella [MK]",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24877",
+    "la": 40.756,
+    "lo": 22.519,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Dionysos House in Pella",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25225",
+    "la": 37.7302,
+    "lo": 22.7564,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Warrior Vase, Mycene",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25290",
+    "la": 34.0742,
+    "lo": -5.5561,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Compass, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25291",
+    "la": 34.0747,
+    "lo": -5.5549,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Knight, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25292",
+    "la": 34.075,
+    "lo": -5.5544,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Flavius Germanus, Volubilis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-25293",
     "la": 34.0752,
     "lo": -5.5542,
     "k": "townhouse",
     "p": "v",
     "n": "House of Dionysus, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25294",
+    "la": 34.0753,
+    "lo": -5.5541,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Bath of the Nymphs, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25295",
+    "la": 34.0753,
+    "lo": -5.554,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Wild Beasts, Volubilis",
     "t": 2
   },
   {
@@ -1722,12 +2076,111 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25299",
+    "la": 34.0741,
+    "lo": -5.5531,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Crypt, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25300",
+    "la": 34.0745,
+    "lo": -5.5534,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Gold Ring, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25301",
+    "la": 34.0744,
+    "lo": -5.5528,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Large Pilasters, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25302",
+    "la": 34.0751,
+    "lo": -5.5525,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Portico, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25303",
+    "la": 34.0748,
+    "lo": -5.5531,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Bronze Bust, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25305",
+    "la": 34.0755,
+    "lo": -5.5528,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Marble Bacchus, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25308",
+    "la": 34.0748,
+    "lo": -5.5538,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Nereids, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25309",
+    "la": 34.0747,
+    "lo": -5.5539,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House with Semi-Columns, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25311",
+    "la": 34.0734,
+    "lo": -5.5553,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Acrobat, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25312",
+    "la": 34.0737,
+    "lo": -5.5554,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Dog, Volubilis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-25313",
     "la": 34.0737,
     "lo": -5.5556,
     "k": "townhouse",
     "p": "v",
     "n": "House of Desultor`s, Volubilis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-25328",
+    "la": 40.4204,
+    "lo": 15.0044,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Peristil House, Paestum",
     "t": 2
   },
   {
@@ -1776,6 +2229,17 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25558",
+    "la": 37.2749,
+    "lo": 27.5864,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Iasos (Iasus) -Terrace Houses",
+    "s": -599,
+    "e": 59,
+    "t": 2
+  },
+  {
     "i": "vici:vici-25750",
     "la": 38.0279,
     "lo": 22.8522,
@@ -1795,6 +2259,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-26224",
+    "la": 38.9112,
+    "lo": -6.3411,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Augusta Emerita, Casa Mitreo",
+    "t": 2
+  },
+  {
     "i": "vici:vici-27366",
     "la": 41.756,
     "lo": 12.2907,
@@ -1804,12 +2277,120 @@
     "t": 2
   },
   {
+    "i": "vici:vici-27381",
+    "la": 41.7553,
+    "lo": 12.2868,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Mensores, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27392",
+    "la": 41.7507,
+    "lo": 12.285,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Fulminata, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27405",
+    "la": 41.7522,
+    "lo": 12.2854,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Musae,Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27434",
+    "la": 41.7521,
+    "lo": 12.2858,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Painted Vaults, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27447",
+    "la": 41.754,
+    "lo": 12.2875,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Lararium, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27451",
+    "la": 41.7574,
+    "lo": 12.2955,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Dog Monnus, Ostia",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-27542",
+    "la": 38.0416,
+    "lo": 23.539,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Heralds, Eleusis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-28064",
+    "la": 41.753,
+    "lo": 12.2856,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Charioteers, Ostia Antica",
+    "t": 2
+  },
+  {
     "i": "vici:vici-29005",
     "la": 39.9574,
     "lo": 26.2389,
     "k": "townhouse",
     "p": "v",
     "n": "Pillar House, Troy",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31531",
+    "la": 30.3311,
+    "lo": 35.4517,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Petra, House of Dorotheos",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31601",
+    "la": 30.374,
+    "lo": 35.4483,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Little Petra, Painted House",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-32496",
+    "la": 39.9755,
+    "lo": 22.6387,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Ancient House",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-32935",
+    "la": 40.8802,
+    "lo": 25.513,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Ancient house",
     "t": 2
   },
   {
@@ -2007,6 +2588,82 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42213",
+    "la": 42.4282,
+    "lo": 25.6259,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Augusta Traiana, Mosaic House",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43072",
+    "la": 47.5628,
+    "lo": 19.0496,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Streifenhaus",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43074",
+    "la": 47.5636,
+    "lo": 19.0491,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Streifenhäuser",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43140",
+    "la": 50.1569,
+    "lo": 8.6465,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Türschwelle",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43147",
+    "la": 50.2695,
+    "lo": 8.5676,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Streifenhäuser",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43220",
+    "la": 48.113,
+    "lo": 16.862,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus quarta",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43269",
+    "la": 40.2593,
+    "lo": 9.6207,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Nuraghe Mannu, Dorgali",
+    "s": -1900,
+    "e": -730,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43270",
+    "la": 40.2594,
+    "lo": 9.6205,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Nuraghe Mannu, Dorgali",
+    "s": -1900,
+    "e": -730,
+    "t": 2
+  },
+  {
     "i": "vici:vici-44252",
     "la": 39.7458,
     "lo": 20.021,
@@ -2035,12 +2692,40 @@
     "t": 2
   },
   {
+    "i": "vici:vici-50105",
+    "la": 47.2371,
+    "lo": 6.0231,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus du Palais de Justice",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50106",
+    "la": 47.2394,
+    "lo": 6.0285,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus du collège Lumière",
+    "s": 170,
+    "t": 2
+  },
+  {
     "i": "vici:vici-50883",
     "la": 47.7991,
     "lo": 13.0475,
     "k": "townhouse",
     "p": "v",
     "n": "Stadtvilla Mozartplatz",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50926",
+    "la": 37.9058,
+    "lo": 22.8808,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Byzantine house.Ancient Corinth",
     "t": 2
   },
   {
@@ -2062,6 +2747,27 @@
     "t": 2
   },
   {
+    "i": "vici:vici-53875",
+    "la": 40.7513,
+    "lo": 14.4847,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Huis van de faun",
+    "s": -80,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55001",
+    "la": 42.4536,
+    "lo": -6.0517,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus Romanus",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-55583",
     "la": 42.8281,
     "lo": 11.1591,
@@ -2069,6 +2775,26 @@
     "p": "v",
     "n": "Rosellae, Hellenistic House",
     "s": -300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-57183",
+    "la": 40.1765,
+    "lo": 22.4937,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Dion, House of Leda",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-57184",
+    "la": 40.1764,
+    "lo": 22.4934,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Dion, House of Zosas",
+    "s": 200,
     "t": 2
   },
   {
@@ -2082,12 +2808,42 @@
     "t": 2
   },
   {
+    "i": "vici:vici-58265",
+    "la": 41.8303,
+    "lo": 12.5461,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus della Tenuta di Santa Maria Nova",
+    "s": 300,
+    "t": 2
+  },
+  {
     "i": "vici:vici-58532",
     "la": 41.86,
     "lo": 12.5441,
     "k": "townhouse",
     "p": "v",
     "n": "Roman domus",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58691",
+    "la": 41.9403,
+    "lo": 12.6586,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58743",
+    "la": 41.8518,
+    "lo": 12.5125,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus de Numsi",
     "s": 200,
     "t": 2
   },
@@ -2204,6 +2960,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65559",
+    "la": 43.1817,
+    "lo": 2.9991,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65619",
     "la": 48.8126,
     "lo": 9.2086,
@@ -2214,6 +2980,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-65853",
+    "la": 42.9569,
+    "lo": 12.7195,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus and Baths in Via Piave",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65854",
     "la": 42.9524,
     "lo": 12.7163,
@@ -2221,6 +2997,106 @@
     "p": "v",
     "n": "Roman domus",
     "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66425",
+    "la": 45.7643,
+    "lo": 4.8187,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69911",
+    "la": 40.8513,
+    "lo": 14.2602,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus (Complex of Carminiello ai Mannesi)",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70167",
+    "la": 40.8528,
+    "lo": 14.2631,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus in basement of Palazzo Ricca",
+    "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70669",
+    "la": 41.8931,
+    "lo": 12.5,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus: Horti Maecenatis",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70679",
+    "la": 41.8868,
+    "lo": 12.5065,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus: Caelius Mons",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70709",
+    "la": 41.7751,
+    "lo": 12.6065,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus di Santa Maria",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70727",
+    "la": 41.9017,
+    "lo": 12.501,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus: Viminalis",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70729",
+    "la": 41.9027,
+    "lo": 12.4963,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus: Cornelia L. f.",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70829",
+    "la": 41.8901,
+    "lo": 12.5158,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus di Aufidia Cornelia",
+    "s": -199,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71000",
+    "la": 43.8064,
+    "lo": 11.294,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus romana",
+    "s": 10,
     "t": 2
   },
   {
@@ -2264,6 +3140,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-71380",
+    "la": 45.1318,
+    "lo": 10.0225,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Piazza Marconi",
+    "s": -199,
+    "t": 2
+  },
+  {
     "i": "vici:vici-73339",
     "la": 41.8808,
     "lo": 12.4834,
@@ -2274,6 +3160,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-73360",
+    "la": 37.4041,
+    "lo": 25.2677,
+    "k": "townhouse",
+    "p": "v",
+    "n": "house of Sardana",
+    "s": 1,
+    "t": 2
+  },
+  {
     "i": "vici:vici-73361",
     "la": 37.4034,
     "lo": 25.2669,
@@ -2281,6 +3177,91 @@
     "p": "v",
     "n": "house of Diadoumenos",
     "s": 1,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-77283",
+    "la": 49.0612,
+    "lo": 9.0052,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Streifenhäuser",
+    "s": 300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-79046",
+    "la": 40.7504,
+    "lo": 14.49,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of the Ephebe",
+    "s": -199,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-79047",
+    "la": 40.7508,
+    "lo": 14.4902,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House and Thermopolium of Vetutius Placidus",
+    "s": -199,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-79051",
+    "la": 40.7517,
+    "lo": 14.4922,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Octavius Quartio",
+    "s": 10,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-79052",
+    "la": 40.7502,
+    "lo": 14.4871,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Sirico",
+    "s": -59,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-79068",
+    "la": 40.8062,
+    "lo": 14.3478,
+    "k": "townhouse",
+    "p": "v",
+    "n": "House of Neptune and Amphitrite",
+    "s": -199,
+    "e": 79,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80482",
+    "la": 38.1122,
+    "lo": 13.3556,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus giardini Villa Bonanno",
+    "s": -299,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80486",
+    "la": 38.4671,
+    "lo": 14.9543,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Roman Insula",
+    "s": 100,
     "t": 2
   },
   {
@@ -2295,6 +3276,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-82966",
+    "la": 41.5486,
+    "lo": -8.4286,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus da Escola Velha da Sé",
+    "s": 50,
+    "t": 2
+  },
+  {
     "i": "vici:vici-83011",
     "la": 37.6364,
     "lo": -7.6648,
@@ -2302,6 +3293,25 @@
     "p": "v",
     "n": "Casa Romana de Mértola",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85397",
+    "la": 41.8896,
+    "lo": 12.5174,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Domus",
+    "s": 200,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9798",
+    "la": 50.0817,
+    "lo": 8.2389,
+    "k": "townhouse",
+    "p": "v",
+    "n": "Streifenhäuser (Wiesbaden)",
     "t": 2
   }
 ]

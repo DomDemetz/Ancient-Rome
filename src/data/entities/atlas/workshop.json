@@ -788,6 +788,52 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42993",
+    "la": 40.8873,
+    "lo": 17.3916,
+    "k": "workshop",
+    "p": "v",
+    "n": "Brennofen",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44737",
+    "la": 36.4243,
+    "lo": -6.1136,
+    "k": "workshop",
+    "p": "v",
+    "n": "Roman furnace",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44738",
+    "la": 36.5321,
+    "lo": -6.1711,
+    "k": "workshop",
+    "p": "v",
+    "n": "Roman furnace",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-47025",
+    "la": 51.845,
+    "lo": 5.8472,
+    "k": "workshop",
+    "p": "v",
+    "n": "Glaswerk",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62051",
+    "la": 38.0207,
+    "lo": 12.9064,
+    "k": "workshop",
+    "p": "v",
+    "n": "Roman Furnaces",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-64068",
     "la": 41.6813,
     "lo": 13.112,
@@ -834,6 +880,26 @@
     "k": "workshop",
     "p": "v",
     "n": "Bâtiments des potiers de Pouillé",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-80478",
+    "la": 37.808,
+    "lo": 12.4388,
+    "k": "workshop",
+    "p": "v",
+    "n": "wine and oil vats",
+    "s": -399,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-82557",
+    "la": 30.7893,
+    "lo": 61.6478,
+    "k": "workshop",
+    "p": "v",
+    "n": "Dahan-e Gholaman, industrial area (?)",
+    "e": 1500,
     "t": 2
   }
 ]

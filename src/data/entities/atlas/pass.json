@@ -850,6 +850,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-50207",
+    "la": 45.6793,
+    "lo": 6.8821,
+    "k": "pass",
+    "p": "v",
+    "n": "Petit-Saint-Bernard",
+    "t": 2
+  },
+  {
     "i": "vici:vici-54852",
     "la": 38.2124,
     "lo": 66.9038,
@@ -858,6 +867,26 @@
     "n": "Iron Pass",
     "s": -329,
     "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55296",
+    "la": 30.1728,
+    "lo": 51.5551,
+    "k": "pass",
+    "p": "v",
+    "n": "Persian Gate, Parmenio's Detour",
+    "s": -330,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-55297",
+    "la": 30.7374,
+    "lo": 51.5391,
+    "k": "pass",
+    "p": "v",
+    "n": "Persian Gate, Beginning of Alexander's Detour",
+    "s": -330,
     "t": 2
   }
 ]

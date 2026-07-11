@@ -18,6 +18,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10116",
+    "la": 48.9246,
+    "lo": 10.1404,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade (Schwabsberg)",
+    "t": 2
+  },
+  {
     "i": "vici:vici-10475",
     "la": 48.8364,
     "lo": 8.9766,
@@ -33,6 +42,15 @@
     "k": "wall",
     "p": "v",
     "n": "Reste der römischen Stadtmauer (Saintes)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-10635",
+    "la": 47.0832,
+    "lo": 2.3997,
+    "k": "wall",
+    "p": "v",
+    "n": "Avaricum Stadtmauer (Bourges)",
     "t": 2
   },
   {
@@ -73,6 +91,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-11608",
+    "la": 37.9139,
+    "lo": 40.2291,
+    "k": "wall",
+    "p": "v",
+    "n": "Amida city walls",
+    "t": 2
+  },
+  {
     "i": "vici:vici-11651",
     "la": 49.0264,
     "lo": 1.149,
@@ -90,6 +117,25 @@
     "n": "Vallum Antonini",
     "s": 141,
     "e": 180,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-13523",
+    "la": 56.5407,
+    "lo": -3.4327,
+    "k": "wall",
+    "p": "v",
+    "n": "Inchtuthil \"Western Vallum\" (northern end)",
+    "s": 83,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-13524",
+    "la": 56.5369,
+    "lo": -3.4295,
+    "k": "wall",
+    "p": "v",
+    "n": "Inchtuthil \"Western Vallum\" (southern end)",
     "t": 2
   },
   {
@@ -174,6 +220,69 @@
     "t": 2
   },
   {
+    "i": "vici:vici-15815",
+    "la": 50.3711,
+    "lo": 7.7578,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 1-84",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16325",
+    "la": 50.3149,
+    "lo": 7.7221,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 2-2",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16619",
+    "la": 43.7113,
+    "lo": -1.0517,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte gallo-romain, Dax",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16635",
+    "la": 43.995,
+    "lo": 5.1482,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte romaine de Venasque",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16910",
+    "la": 47.219,
+    "lo": -1.5529,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte, Nantes",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16986",
+    "la": 47.9045,
+    "lo": -2.1708,
+    "k": "wall",
+    "p": "v",
+    "n": "Briques romaines",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-17001",
+    "la": 48.0097,
+    "lo": 0.1967,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte, Le Mans",
+    "t": 2
+  },
+  {
     "i": "vici:vici-17576",
     "la": 41.902,
     "lo": 12.5016,
@@ -199,6 +308,43 @@
     "k": "wall",
     "p": "v",
     "n": "Romeinse muur",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18686",
+    "la": 47.8997,
+    "lo": 1.913,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte romaine d'Orléans",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18702",
+    "la": 48.1962,
+    "lo": 3.2883,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte romaine de Sens",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18703",
+    "la": 48.9618,
+    "lo": 2.8787,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte romaine de Meaux",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-18743",
+    "la": 33.0337,
+    "lo": 10.1542,
+    "k": "wall",
+    "p": "v",
+    "n": "Limes Tripolitanus Kehil",
+    "s": 50,
     "t": 2
   },
   {
@@ -283,12 +429,48 @@
     "t": 2
   },
   {
+    "i": "vici:vici-19481",
+    "la": 49.1126,
+    "lo": 6.171,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte gallo-romaine de Metz",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19482",
+    "la": 49.1593,
+    "lo": 5.379,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte gallo-romaine de Verdun",
+    "t": 2
+  },
+  {
     "i": "vici:vici-19484",
     "la": 51.5168,
     "lo": -0.0959,
     "k": "wall",
     "p": "v",
     "n": "Roman Wall at Noble St.",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19506",
+    "la": 41.384,
+    "lo": 2.1752,
+    "k": "wall",
+    "p": "v",
+    "n": "Roman City Wall, Barcelona",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-19597",
+    "la": 47.7973,
+    "lo": 3.5744,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte de la cité romaine d'Auxerre",
     "t": 2
   },
   {
@@ -335,6 +517,15 @@
     "k": "wall",
     "p": "v",
     "n": "Constantinople, Kerkoporta",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-20375",
+    "la": 49.7127,
+    "lo": 9.086,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade am Wp 10-16",
     "t": 2
   },
   {
@@ -590,6 +781,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-22172",
+    "la": 48.1536,
+    "lo": 16.9526,
+    "k": "wall",
+    "p": "v",
+    "n": "Braunsberg",
+    "t": 2
+  },
+  {
     "i": "vici:vici-22880",
     "la": 48.3711,
     "lo": 10.8995,
@@ -632,6 +832,15 @@
     "k": "wall",
     "p": "v",
     "n": "Rome, Servian Wall, Piazza Albania section",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-24150",
+    "la": 46.0461,
+    "lo": 14.4969,
+    "k": "wall",
+    "p": "v",
+    "n": "Corner tower of Emona city walls",
     "t": 2
   },
   {
@@ -908,6 +1117,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-27483",
+    "la": 54.9759,
+    "lo": -1.6647,
+    "k": "wall",
+    "p": "v",
+    "n": "Condercum Vallum Crossing",
+    "t": 2
+  },
+  {
     "i": "vici:vici-27484",
     "la": 54.9779,
     "lo": -1.6666,
@@ -1028,6 +1246,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-29484",
+    "la": 37.096,
+    "lo": 54.0748,
+    "k": "wall",
+    "p": "v",
+    "n": "The barrier of Alexander",
+    "t": 2
+  },
+  {
     "i": "vici:vici-29505",
     "la": 44.168,
     "lo": 28.5524,
@@ -1061,6 +1288,15 @@
     "k": "wall",
     "p": "v",
     "n": "Old vallum ring of Jadani",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-30630",
+    "la": 43.4064,
+    "lo": 10.8581,
+    "k": "wall",
+    "p": "v",
+    "n": "Velathri, Mura Etrusche",
     "t": 2
   },
   {
@@ -1269,12 +1505,39 @@
     "t": 2
   },
   {
+    "i": "vici:vici-43205",
+    "la": 47.7439,
+    "lo": 18.1987,
+    "k": "wall",
+    "p": "v",
+    "n": "Südmauer",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43225",
+    "la": 47.656,
+    "lo": 8.8585,
+    "k": "wall",
+    "p": "v",
+    "n": "Südmauer mit Türmen",
+    "t": 2
+  },
+  {
     "i": "vici:vici-44878",
     "la": 46.8854,
     "lo": 7.0409,
     "k": "wall",
     "p": "v",
     "n": "Stadtmauer",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44881",
+    "la": 46.8754,
+    "lo": 7.051,
+    "k": "wall",
+    "p": "v",
+    "n": "Südmauer",
     "t": 2
   },
   {
@@ -1314,6 +1577,24 @@
     "t": 2
   },
   {
+    "i": "vici:vici-45165",
+    "la": 43.7626,
+    "lo": 24.9721,
+    "k": "wall",
+    "p": "v",
+    "n": "LIMES TRANSALUTANUS",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-45167",
+    "la": 44.5692,
+    "lo": 24.7911,
+    "k": "wall",
+    "p": "v",
+    "n": "LIMES TRANSALUTANUS",
+    "t": 2
+  },
+  {
     "i": "vici:vici-45674",
     "la": 47.2072,
     "lo": 7.5348,
@@ -1323,12 +1604,30 @@
     "t": 2
   },
   {
+    "i": "vici:vici-45675",
+    "la": 47.2066,
+    "lo": 7.5364,
+    "k": "wall",
+    "p": "v",
+    "n": "Südmauer",
+    "t": 2
+  },
+  {
     "i": "vici:vici-47233",
     "la": 51.2547,
     "lo": 5.9945,
     "k": "wall",
     "p": "v",
     "n": "Gebouw Hanssum - Neerbeek",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-47899",
+    "la": 37.9704,
+    "lo": 23.7272,
+    "k": "wall",
+    "p": "v",
+    "n": "Supporting walls on west of Dionysus's theater, Athens.",
     "t": 2
   },
   {
@@ -1358,6 +1657,15 @@
     "k": "wall",
     "p": "v",
     "n": "Remparts gallo-romains",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-49508",
+    "la": 47.4694,
+    "lo": -0.5567,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte gallo-romaine de Juliomagus",
     "t": 2
   },
   {
@@ -1405,6 +1713,24 @@
     "k": "wall",
     "p": "v",
     "n": "Remparts gallo-romains",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50064",
+    "la": 45.5222,
+    "lo": 4.8708,
+    "k": "wall",
+    "p": "v",
+    "n": "Enceinte romaine",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50065",
+    "la": 45.5276,
+    "lo": 4.8788,
+    "k": "wall",
+    "p": "v",
+    "n": "Murs romains",
     "t": 2
   },
   {
@@ -1489,6 +1815,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-50525",
+    "la": 44.0974,
+    "lo": 15.6226,
+    "k": "wall",
+    "p": "v",
+    "n": "Boundary wall",
+    "s": -30,
+    "t": 2
+  },
+  {
     "i": "vici:vici-50594",
     "la": 47.1827,
     "lo": 23.1681,
@@ -1534,12 +1870,48 @@
     "t": 2
   },
   {
+    "i": "vici:vici-51096",
+    "la": 43.8677,
+    "lo": 24.4364,
+    "k": "wall",
+    "p": "v",
+    "n": "Limes Alutanus",
+    "t": 2
+  },
+  {
     "i": "vici:vici-51131",
     "la": 37.1003,
     "lo": 36.6776,
     "k": "wall",
     "p": "v",
     "n": "City Walls",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-51202",
+    "la": 46.033,
+    "lo": 27.337,
+    "k": "wall",
+    "p": "v",
+    "n": "Athanarics Wall",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-51203",
+    "la": 45.9014,
+    "lo": 27.564,
+    "k": "wall",
+    "p": "v",
+    "n": "Athanarics Wall",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-51204",
+    "la": 45.7475,
+    "lo": 27.8385,
+    "k": "wall",
+    "p": "v",
+    "n": "Athanarics Wall",
     "t": 2
   },
   {
@@ -1607,6 +1979,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-54222",
+    "la": 42.3035,
+    "lo": -1.957,
+    "k": "wall",
+    "p": "v",
+    "n": "Murallas de Calahorra 2",
+    "t": 2
+  },
+  {
     "i": "vici:vici-54246",
     "la": 42.5774,
     "lo": -2.8474,
@@ -1622,6 +2003,15 @@
     "k": "wall",
     "p": "v",
     "n": "Puerta de Santa Bárbara",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-54284",
+    "la": 42.4804,
+    "lo": -1.6525,
+    "k": "wall",
+    "p": "v",
+    "n": "Murallas de Olite",
     "t": 2
   },
   {
@@ -1696,6 +2086,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-57400",
+    "la": 44.4778,
+    "lo": 24.7404,
+    "k": "wall",
+    "p": "v",
+    "n": "Brazda lui Novac de Nord",
+    "s": 10,
+    "t": 2
+  },
+  {
     "i": "vici:vici-57401",
     "la": 44.473,
     "lo": 24.7073,
@@ -1726,6 +2126,26 @@
     "t": 2
   },
   {
+    "i": "vici:vici-58151",
+    "la": 44.2011,
+    "lo": 15.8431,
+    "k": "wall",
+    "p": "v",
+    "n": "Boundary wall in Golubić",
+    "s": 10,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-58152",
+    "la": 44.1876,
+    "lo": 15.8407,
+    "k": "wall",
+    "p": "v",
+    "n": "Boundary Wall",
+    "s": 10,
+    "t": 2
+  },
+  {
     "i": "vici:vici-58757",
     "la": 40.8877,
     "lo": 17.3873,
@@ -1743,6 +2163,16 @@
     "p": "v",
     "n": "The Wall",
     "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-60176",
+    "la": 44.7028,
+    "lo": 8.038,
+    "k": "wall",
+    "p": "v",
+    "n": "Alba Pompeia Wall",
+    "s": 100,
     "t": 2
   },
   {
@@ -1883,6 +2313,26 @@
     "t": 2
   },
   {
+    "i": "vici:vici-62774",
+    "la": 31.8303,
+    "lo": 12.7764,
+    "k": "wall",
+    "p": "v",
+    "n": "Hadd-Hajar-Clausura",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-62775",
+    "la": 31.8453,
+    "lo": 12.8184,
+    "k": "wall",
+    "p": "v",
+    "n": "Hadd-Hajar-Clausura",
+    "s": 100,
+    "t": 2
+  },
+  {
     "i": "vici:vici-63043",
     "la": 34.4497,
     "lo": 45.7847,
@@ -1900,6 +2350,16 @@
     "p": "v",
     "n": "Wall of Gawri",
     "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63103",
+    "la": 32.641,
+    "lo": 14.2893,
+    "k": "wall",
+    "p": "v",
+    "n": "Byzantine sea-wall",
+    "s": 700,
     "t": 2
   },
   {
@@ -2093,6 +2553,26 @@
     "t": 2
   },
   {
+    "i": "vici:vici-66171",
+    "la": 49.6476,
+    "lo": 9.0704,
+    "k": "wall",
+    "p": "v",
+    "n": "Limes auf Luftaufnahmen",
+    "s": 70,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-66187",
+    "la": 49.5769,
+    "lo": 9.0918,
+    "k": "wall",
+    "p": "v",
+    "n": "Limes sichtbar auf Luftfotos",
+    "s": 70,
+    "t": 2
+  },
+  {
     "i": "vici:vici-67914",
     "la": 36.6601,
     "lo": 31.7945,
@@ -2132,6 +2612,16 @@
     "p": "v",
     "n": "Plaza del Soccorro",
     "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-68299",
+    "la": 37.4715,
+    "lo": -5.6412,
+    "k": "wall",
+    "p": "v",
+    "n": "Alcazar de la Puerta de Sevilla",
+    "s": -299,
     "t": 2
   },
   {
@@ -2175,6 +2665,56 @@
     "t": 2
   },
   {
+    "i": "vici:vici-69847",
+    "la": 41.8846,
+    "lo": 12.4797,
+    "k": "wall",
+    "p": "v",
+    "n": "Sevian Walls in crypt",
+    "s": -499,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69905",
+    "la": 40.8497,
+    "lo": 14.2522,
+    "k": "wall",
+    "p": "v",
+    "n": "Greek City Walls",
+    "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69906",
+    "la": 40.8532,
+    "lo": 14.2521,
+    "k": "wall",
+    "p": "v",
+    "n": "Greek city walls",
+    "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69907",
+    "la": 40.8467,
+    "lo": 14.2578,
+    "k": "wall",
+    "p": "v",
+    "n": "Greek City Walls",
+    "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69909",
+    "la": 40.8527,
+    "lo": 14.262,
+    "k": "wall",
+    "p": "v",
+    "n": "Roman City Walls",
+    "s": 200,
+    "t": 2
+  },
+  {
     "i": "vici:vici-70103",
     "la": 40.7375,
     "lo": 14.6654,
@@ -2215,6 +2755,27 @@
     "t": 2
   },
   {
+    "i": "vici:vici-70337",
+    "la": 42.1495,
+    "lo": 24.752,
+    "k": "wall",
+    "p": "v",
+    "n": "Greek City Walls",
+    "s": -699,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70522",
+    "la": 49.8303,
+    "lo": 9.1422,
+    "k": "wall",
+    "p": "v",
+    "n": "Beginn des Odenwaldlimes",
+    "s": 125,
+    "e": 275,
+    "t": 2
+  },
+  {
     "i": "vici:vici-70588",
     "la": 37.5245,
     "lo": -6.1601,
@@ -2242,6 +2803,16 @@
     "p": "v",
     "n": "Mauer",
     "s": 300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-71687",
+    "la": 43.4871,
+    "lo": 13.4837,
+    "k": "wall",
+    "p": "v",
+    "n": "Osimo - Roman City Wall",
+    "s": -199,
     "t": 2
   },
   {
@@ -2302,6 +2873,16 @@
     "p": "v",
     "n": "Nicea",
     "s": 700,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-77985",
+    "la": 48.7906,
+    "lo": 9.762,
+    "k": "wall",
+    "p": "v",
+    "n": "Limesgrenze zwischen Germania superior und Raetia",
+    "e": 1500,
     "t": 2
   },
   {
@@ -2653,6 +3234,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-84313",
+    "la": 41.7235,
+    "lo": 13.3415,
+    "k": "wall",
+    "p": "v",
+    "n": "Alterium",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-84337",
     "la": 41.737,
     "lo": 12.3079,
@@ -2810,6 +3401,61 @@
     "t": 2
   },
   {
+    "i": "vici:vici-9930",
+    "la": 48.8942,
+    "lo": 10.0927,
+    "k": "wall",
+    "p": "v",
+    "n": "Limesanlage am Kocher",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9931",
+    "la": 49.6057,
+    "lo": 9.3666,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade am Turm 7-31",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9932",
+    "la": 49.0311,
+    "lo": 9.581,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 9-83",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9934",
+    "la": 50.4422,
+    "lo": 7.5981,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 1-54",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9935",
+    "la": 50.4374,
+    "lo": 7.6402,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 1-60",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9937",
+    "la": 50.1932,
+    "lo": 8.2028,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade am Wp 3-15",
+    "t": 2
+  },
+  {
     "i": "vici:vici-9982",
     "la": 49.9416,
     "lo": 6.696,
@@ -2836,6 +3482,60 @@
     "k": "wall",
     "p": "v",
     "n": "Langmauer (Newel)",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9985",
+    "la": 50.5059,
+    "lo": 7.3774,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade zw. Wp 1-10 und 1-11",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9986",
+    "la": 50.4824,
+    "lo": 7.5376,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 1-41",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9987",
+    "la": 50.2673,
+    "lo": 7.7857,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade zw. Wp 2-13 und 2-14",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9988",
+    "la": 50.3374,
+    "lo": 7.7371,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade bei Wp 1-92",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9990",
+    "la": 50.1823,
+    "lo": 8.1601,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade zw Wp 3-9 und 3-10",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-9991",
+    "la": 50.2561,
+    "lo": 8.965,
+    "k": "wall",
+    "p": "v",
+    "n": "Limespalisade zw. Wp 4-102 und 4-103",
     "t": 2
   },
   {

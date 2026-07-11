@@ -3984,12 +3984,31 @@
     "t": 2
   },
   {
+    "i": "vici:vici-10317",
+    "la": 31.3169,
+    "lo": 35.3518,
+    "k": "fortification",
+    "p": "v",
+    "n": "Masada Belagerung Rampe",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-10507",
     "la": 50.7837,
     "lo": 3.0274,
     "k": "fortification",
     "p": "v",
     "n": "Verdedigingsgracht",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-16669",
+    "la": 45.1814,
+    "lo": 0.7123,
+    "k": "fortification",
+    "p": "v",
+    "n": "Château Barrière, Périgueux",
     "t": 2
   },
   {
@@ -4021,6 +4040,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25783",
+    "la": 38.0294,
+    "lo": 21.9116,
+    "k": "fortification",
+    "p": "v",
+    "n": "Leontio, Acropolis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-25787",
     "la": 37.8734,
     "lo": 21.8925,
@@ -4030,12 +4058,48 @@
     "t": 2
   },
   {
+    "i": "vici:vici-25995",
+    "la": 36.9681,
+    "lo": 29.4079,
+    "k": "fortification",
+    "p": "v",
+    "n": "Bubon, AcropolisAcropolis",
+    "t": 2
+  },
+  {
     "i": "vici:vici-29287",
     "la": 49.8758,
     "lo": 3.1464,
     "k": "fortification",
     "p": "v",
     "n": "Oppidum",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-30004",
+    "la": 36.5121,
+    "lo": 30.0584,
+    "k": "fortification",
+    "p": "v",
+    "n": "Arykanda, Acrpolis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31058",
+    "la": 35.2643,
+    "lo": 26.2605,
+    "k": "fortification",
+    "p": "v",
+    "n": "Itanos, West Acropolis",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-31059",
+    "la": 35.2635,
+    "lo": 26.2636,
+    "k": "fortification",
+    "p": "v",
+    "n": "Itanos, East Acropolis",
     "t": 2
   },
   {
@@ -4090,6 +4154,24 @@
     "k": "fortification",
     "p": "v",
     "n": "Keltenschanze Eichenhausen",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50991",
+    "la": 46.6634,
+    "lo": 31.5418,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman defensive shaft",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-50996",
+    "la": 46.8238,
+    "lo": 31.8378,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman defensive shaft",
     "t": 2
   },
   {
@@ -4163,6 +4245,26 @@
     "t": 2
   },
   {
+    "i": "vici:vici-63007",
+    "la": 45.3352,
+    "lo": 28.5348,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman earth embankments",
+    "s": 100,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-63411",
+    "la": 31.6287,
+    "lo": 34.9133,
+    "k": "fortification",
+    "p": "v",
+    "n": "Tel Goded - Bar-Kokhva Hideout complex",
+    "s": -2999,
+    "t": 2
+  },
+  {
     "i": "vici:vici-65510",
     "la": 30.0066,
     "lo": 31.2321,
@@ -4170,6 +4272,16 @@
     "p": "v",
     "n": "Siege of Babylon Fortress",
     "s": 640,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-65807",
+    "la": 46.7195,
+    "lo": 17.2378,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman ditch",
+    "s": 100,
     "t": 2
   },
   {
@@ -4220,6 +4332,16 @@
     "p": "v",
     "n": "Fortification walls",
     "s": -599,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-70112",
+    "la": 43.5906,
+    "lo": -6.24,
+    "k": "fortification",
+    "p": "v",
+    "n": "Cabo Vidio",
+    "s": -1999,
     "t": 2
   },
   {
@@ -4283,6 +4405,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-80480",
+    "la": 37.8,
+    "lo": 12.4396,
+    "k": "fortification",
+    "p": "v",
+    "n": "Punic defensive ditch",
+    "s": -499,
+    "t": 2
+  },
+  {
     "i": "vici:vici-83166",
     "la": 42.0893,
     "lo": -4.1385,
@@ -4303,6 +4435,36 @@
     "t": 2
   },
   {
+    "i": "vici:vici-83687",
+    "la": 47.2417,
+    "lo": 23.2709,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman ditch",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83688",
+    "la": 47.2545,
+    "lo": 23.291,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman earth embankment",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-83689",
+    "la": 47.2603,
+    "lo": 23.2991,
+    "k": "fortification",
+    "p": "v",
+    "n": "Roman earth embankment",
+    "e": 1500,
+    "t": 2
+  },
+  {
     "i": "vici:vici-84347",
     "la": 30.8938,
     "lo": 49.8366,
@@ -4310,6 +4472,26 @@
     "p": "v",
     "n": "Unidentified site",
     "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-84906",
+    "la": 29.0298,
+    "lo": 54.2503,
+    "k": "fortification",
+    "p": "v",
+    "n": "Unidentified site (Ig?)",
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-85379",
+    "la": 36.6781,
+    "lo": 10.8654,
+    "k": "fortification",
+    "p": "v",
+    "n": "Kourchine",
+    "s": -59,
     "t": 2
   },
   {

@@ -4035,6 +4035,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-20073",
+    "la": 50.8485,
+    "lo": 5.6944,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Castellumtoren Houtmaas",
+    "t": 2
+  },
+  {
     "i": "vici:vici-22173",
     "la": 48.1252,
     "lo": 16.8908,
@@ -4062,6 +4071,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-42406",
+    "la": 48.2124,
+    "lo": 15.2119,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Südöstlicher Fächerturm",
+    "s": 350,
+    "t": 2
+  },
+  {
     "i": "vici:vici-42408",
     "la": 48.3944,
     "lo": 15.5748,
@@ -4069,6 +4088,66 @@
     "p": "v",
     "n": "Hufeisenturm der Westmauer",
     "s": 390,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42410",
+    "la": 48.3938,
+    "lo": 15.5752,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Fächerturm der Westmauer",
+    "s": 390,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42414",
+    "la": 48.3321,
+    "lo": 16.0578,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Südöstlicher Fächerturm",
+    "s": 350,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-42420",
+    "la": 48.3299,
+    "lo": 16.1783,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Fächerturm an der Nordostecke",
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43184",
+    "la": 48.5698,
+    "lo": 13.4623,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Südturm",
+    "s": 370,
+    "e": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43188",
+    "la": 48.5698,
+    "lo": 13.4625,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Südostturm",
+    "s": 370,
+    "e": 400,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-43208",
+    "la": 47.7454,
+    "lo": 18.1977,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Eckturm",
     "t": 2
   },
   {
@@ -4135,6 +4214,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-45676",
+    "la": 47.2069,
+    "lo": 7.5368,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Südöstlicher Eckturm",
+    "t": 2
+  },
+  {
     "i": "vici:vici-46111",
     "la": 37.3624,
     "lo": -6.6794,
@@ -4160,6 +4248,26 @@
     "p": "v",
     "n": "Ardašir Khureh, Tower",
     "s": 225,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69670",
+    "la": 35.1772,
+    "lo": 37.0357,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Temek",
+    "s": 300,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-69868",
+    "la": 37.123,
+    "lo": 10.8021,
+    "k": "watchtower",
+    "p": "v",
+    "n": "Punic observation point",
+    "s": -499,
     "t": 2
   },
   {

@@ -985,6 +985,15 @@
     "t": 2
   },
   {
+    "i": "vici:vici-12047",
+    "la": 39.6602,
+    "lo": -4.0587,
+    "k": "dam",
+    "p": "v",
+    "n": "Alcantarilla-Staudamm",
+    "t": 2
+  },
+  {
     "i": "vici:vici-12049",
     "la": 40.1057,
     "lo": 34.9043,
@@ -1084,6 +1093,16 @@
     "k": "dam",
     "p": "v",
     "n": "PRESA ROMANA VALLEHERMOSO - SONSECA",
+    "s": 50,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-44217",
+    "la": 39.7755,
+    "lo": -1.0482,
+    "k": "dam",
+    "p": "v",
+    "n": "Muro presa romana",
     "s": 50,
     "t": 2
   },
@@ -1204,6 +1223,16 @@
     "t": 2
   },
   {
+    "i": "vici:vici-78548",
+    "la": 51.9111,
+    "lo": 6.0786,
+    "k": "dam",
+    "p": "v",
+    "n": "Drususdam?",
+    "s": 12,
+    "t": 2
+  },
+  {
     "i": "vici:vici-86729",
     "la": 39.6085,
     "lo": -8.3594,
@@ -1211,6 +1240,27 @@
     "p": "v",
     "n": "Barragem romana da ribeira do Carril",
     "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-86791",
+    "la": 39.5632,
+    "lo": -8.4578,
+    "k": "dam",
+    "p": "v",
+    "n": "Caldelas weir (and water mill ruins)",
+    "s": 1200,
+    "e": 1500,
+    "t": 2
+  },
+  {
+    "i": "vici:vici-88339",
+    "la": 39.2007,
+    "lo": -7.5106,
+    "k": "dam",
+    "p": "v",
+    "n": "Almarjão dam",
+    "s": 300,
     "t": 2
   }
 ]

@@ -132,10 +132,11 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
               .join(' · ')
           : undefined,
         bodyHtml,
-        readMore:
-          e.d || e.t === 1 || kEntry
-            ? { id: kKey, layer: kEntry?.crossRef && !kEntry?.extract ? 'crossref' : layerName }
-            : undefined,
+        // EVERY dot opens a panel — at minimum title/kind/dates + provenance
+        readMore: {
+          id: kKey,
+          layer: kEntry?.crossRef && !kEntry?.extract ? 'crossref' : layerName,
+        },
       })
       if (!popupRef.current) {
         popupRef.current = L.popup({ offset: [0, -4], closeButton: false })

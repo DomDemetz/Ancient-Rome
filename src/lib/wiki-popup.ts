@@ -245,7 +245,13 @@ export function buildPopup(slots: PopupSlots): string {
   if (slots.bodyHtml) html += slots.bodyHtml
   if (slots.readMore && !slots.bodyHtml?.includes('map-tooltip-readmore')) {
     const rm = slots.readMore
-    html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(rm.id)}" data-wiki-layer="${esc(rm.layer)}"${rm.entityId ? ` data-entity-id="${esc(rm.entityId)}"` : ''}>${esc(rm.label ?? 'Details')}</button></div>`
+    // the button carries the minimal record so the panel can render
+    // title/kind/dates even when no knowledge entry exists
+    const fb =
+      ` data-fb-title="${esc(slots.title)}"` +
+      (slots.sub ? ` data-fb-kind="${esc(slots.sub)}"` : '') +
+      (slots.details?.[0] ? ` data-fb-dates="${esc(slots.details[0])}"` : '')
+    html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(rm.id)}" data-wiki-layer="${esc(rm.layer)}"${rm.entityId ? ` data-entity-id="${esc(rm.entityId)}"` : ''}${fb}>${esc(rm.label ?? 'Details')}</button></div>`
   }
   return html
 }
