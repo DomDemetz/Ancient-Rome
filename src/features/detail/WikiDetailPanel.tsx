@@ -4,7 +4,7 @@ import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { RecordSourceLinks } from './RecordSourceLinks'
 import { useUIStore } from '@/stores/useUIStore'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
-import { useWikiEnrichment, useCrossRef, isCrossRefLoading } from '@/hooks/useWikiEnrichment'
+import { useWikiEnrichment, useCrossRef } from '@/hooks/useWikiEnrichment'
 import { formatYear } from '@/lib/geo'
 import { DetailShell, DetailLink, type DetailFact } from './DetailShell'
 
@@ -497,10 +497,12 @@ function WikiDetailContent({
         />
       )
     }
-    if (
-      (featureLayer === 'crossref' || featureLayer === 'knowledge-features') &&
-      isCrossRefLoading()
-    ) {
+    // gate on the cache being absent, not the loading flag: the first render
+    // happens before the load effect fires (flag still false), and nothing
+    // re-renders until the load completes — so the flag path flashed
+    // "No record found." for the whole load (load failure resolves the
+    // cache to {}, so this can't skeleton forever)
+    if ((featureLayer === 'crossref' || featureLayer === 'knowledge-features') && !crossRef) {
       return (
         <div className="space-y-4 p-6">
           <div className="h-48 rounded-lg bg-white/[0.04] animate-pulse" />
@@ -836,11 +838,16 @@ export function WikiDetailPanel() {
           if (!open) closeFeature()
         }}
       >
-        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] max-h-[80vh] flex flex-col">
+        {/* h-[80vh], NOT max-h + a second scroller: every content variant is a
+            DetailShell carrying its own overflow-y-auto. Nesting two scrollers
+            broke touch scrolling entirely — the inner one claimed the gesture,
+            had nothing to scroll, and its overscroll-contain stopped the
+            chain to the outer one. One fixed-height wrapper, one scroller. */}
+        <DrawerContent className="bg-[#0c0c10] border-white/[0.05] h-[80vh] flex flex-col">
           <DrawerHeader className="sr-only">
             <DrawerTitle>Wikipedia Detail</DrawerTitle>
           </DrawerHeader>
-          <div className="flex-1 min-h-0 flex flex-col overflow-y-auto overscroll-contain">
+          <div className="flex-1 min-h-0 flex flex-col overflow-hidden">
             <WikiDetailContent
               featureId={featureId}
               featureLayer={featureLayer}
