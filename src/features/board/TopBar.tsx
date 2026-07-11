@@ -32,7 +32,7 @@ export function TopBar({ storyMode }: TopBarProps) {
           <Shield className="size-3.5 text-white" />
         </div>
         <span className="font-serif italic text-amber-500/70 text-xs tracking-wide">
-          Ancient Rome
+          Atlas of Ancient Rome
         </span>
 
         <div className="flex-1" />
@@ -88,10 +88,10 @@ export function TopBar({ storyMode }: TopBarProps) {
         </div>
         <div className="flex flex-col leading-none">
           <span className="font-serif italic text-amber-500/90 text-sm tracking-wide">
-            Ancient Rome
+            Atlas of Ancient Rome
           </span>
           <span className="text-[8px] uppercase tracking-[0.3em] text-slate-500">
-            Historical Atlas
+            753 BC — AD 1453
           </span>
         </div>
       </div>
