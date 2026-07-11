@@ -1,380 +1,380 @@
 {
-  "amphitheater": {
-    "file": "amphitheater.json",
-    "count": 313,
-    "tiers": {
-      "1": 270,
-      "2": 43
-    },
-    "kb": 40
+ "amphitheater": {
+  "file": "amphitheater.json",
+  "count": 313,
+  "tiers": {
+   "1": 270,
+   "2": 43
   },
-  "aqueduct": {
-    "file": "aqueduct.json",
-    "count": 1773,
-    "tiers": {
-      "1": 145,
-      "2": 1589,
-      "3": 39
-    },
-    "kb": 202
+  "kb": 40
+ },
+ "aqueduct": {
+  "file": "aqueduct.json",
+  "count": 1773,
+  "tiers": {
+   "1": 145,
+   "2": 1589,
+   "3": 39
   },
-  "basilica": {
-    "file": "basilica.json",
-    "count": 540,
-    "tiers": {
-      "1": 199,
-      "2": 319,
-      "3": 22
-    },
-    "kb": 64
+  "kb": 202
+ },
+ "basilica": {
+  "file": "basilica.json",
+  "count": 540,
+  "tiers": {
+   "1": 199,
+   "2": 319,
+   "3": 22
   },
-  "bath": {
-    "file": "bath.json",
-    "count": 1622,
-    "tiers": {
-      "1": 152,
-      "2": 1468,
-      "3": 2
-    },
-    "kb": 174
+  "kb": 64
+ },
+ "bath": {
+  "file": "bath.json",
+  "count": 1622,
+  "tiers": {
+   "1": 152,
+   "2": 1468,
+   "3": 2
   },
-  "bridge": {
-    "file": "bridge.json",
-    "count": 3315,
-    "tiers": {
-      "1": 128,
-      "2": 3102,
-      "3": 85
-    },
-    "kb": 356
+  "kb": 174
+ },
+ "bridge": {
+  "file": "bridge.json",
+  "count": 3315,
+  "tiers": {
+   "1": 128,
+   "2": 3102,
+   "3": 85
   },
-  "building": {
-    "file": "building.json",
-    "count": 589,
-    "tiers": {
-      "1": 9,
-      "2": 580
-    },
-    "kb": 63
+  "kb": 356
+ },
+ "building": {
+  "file": "building.json",
+  "count": 589,
+  "tiers": {
+   "1": 9,
+   "2": 580
   },
-  "camp": {
-    "file": "camp.json",
-    "count": 8,
-    "tiers": {
-      "2": 8
-    },
-    "kb": 0
+  "kb": 63
+ },
+ "camp": {
+  "file": "camp.json",
+  "count": 8,
+  "tiers": {
+   "2": 8
   },
-  "cemetery": {
-    "file": "cemetery.json",
-    "count": 7932,
-    "tiers": {
-      "1": 156,
-      "2": 7747,
-      "3": 29
-    },
-    "kb": 881
+  "kb": 0
+ },
+ "cemetery": {
+  "file": "cemetery.json",
+  "count": 7932,
+  "tiers": {
+   "1": 156,
+   "2": 7747,
+   "3": 29
   },
-  "church": {
-    "file": "church.json",
-    "count": 90,
-    "tiers": {
-      "1": 26,
-      "2": 64
-    },
-    "kb": 11
+  "kb": 881
+ },
+ "church": {
+  "file": "church.json",
+  "count": 90,
+  "tiers": {
+   "1": 26,
+   "2": 64
   },
-  "circus": {
-    "file": "circus.json",
-    "count": 24,
-    "tiers": {
-      "1": 13,
-      "2": 11
-    },
-    "kb": 2
+  "kb": 11
+ },
+ "circus": {
+  "file": "circus.json",
+  "count": 24,
+  "tiers": {
+   "1": 13,
+   "2": 11
   },
-  "cistern": {
-    "file": "cistern.json",
-    "count": 121,
-    "tiers": {
-      "2": 121
-    },
-    "kb": 12
+  "kb": 2
+ },
+ "cistern": {
+  "file": "cistern.json",
+  "count": 121,
+  "tiers": {
+   "2": 121
   },
-  "dam": {
-    "file": "dam.json",
-    "count": 126,
-    "tiers": {
-      "1": 17,
-      "2": 109
-    },
-    "kb": 13
+  "kb": 12
+ },
+ "dam": {
+  "file": "dam.json",
+  "count": 126,
+  "tiers": {
+   "1": 17,
+   "2": 109
   },
-  "farm": {
-    "file": "farm.json",
-    "count": 262,
-    "tiers": {
-      "2": 262
-    },
-    "kb": 26
+  "kb": 13
+ },
+ "farm": {
+  "file": "farm.json",
+  "count": 262,
+  "tiers": {
+   "2": 262
   },
-  "fort": {
-    "file": "fort.json",
-    "count": 18430,
-    "tiers": {
-      "1": 112,
-      "2": 18268,
-      "3": 50
-    },
-    "kb": 1983
+  "kb": 26
+ },
+ "fort": {
+  "file": "fort.json",
+  "count": 18430,
+  "tiers": {
+   "1": 112,
+   "2": 18268,
+   "3": 50
   },
-  "fortification": {
-    "file": "fortification.json",
-    "count": 387,
-    "tiers": {
-      "1": 72,
-      "2": 315
-    },
-    "kb": 50
+  "kb": 1983
+ },
+ "fortification": {
+  "file": "fortification.json",
+  "count": 387,
+  "tiers": {
+   "1": 72,
+   "2": 315
   },
-  "forum": {
-    "file": "forum.json",
-    "count": 202,
-    "tiers": {
-      "1": 43,
-      "2": 159
-    },
-    "kb": 21
+  "kb": 50
+ },
+ "forum": {
+  "file": "forum.json",
+  "count": 202,
+  "tiers": {
+   "1": 43,
+   "2": 159
   },
-  "gate": {
-    "file": "gate.json",
-    "count": 385,
-    "tiers": {
-      "2": 385
-    },
-    "kb": 39
+  "kb": 21
+ },
+ "gate": {
+  "file": "gate.json",
+  "count": 385,
+  "tiers": {
+   "2": 385
   },
-  "lighthouse": {
-    "file": "lighthouse.json",
-    "count": 102,
-    "tiers": {
-      "1": 9,
-      "2": 93
-    },
-    "kb": 13
+  "kb": 39
+ },
+ "lighthouse": {
+  "file": "lighthouse.json",
+  "count": 102,
+  "tiers": {
+   "1": 9,
+   "2": 93
   },
-  "mausoleum": {
-    "file": "mausoleum.json",
-    "count": 297,
-    "tiers": {
-      "1": 11,
-      "2": 286
-    },
-    "kb": 36
+  "kb": 13
+ },
+ "mausoleum": {
+  "file": "mausoleum.json",
+  "count": 297,
+  "tiers": {
+   "1": 11,
+   "2": 286
   },
-  "mine": {
-    "file": "mine.json",
-    "count": 3654,
-    "tiers": {
-      "1": 152,
-      "2": 3328,
-      "3": 174
-    },
-    "kb": 392
+  "kb": 36
+ },
+ "mine": {
+  "file": "mine.json",
+  "count": 3654,
+  "tiers": {
+   "1": 152,
+   "2": 3328,
+   "3": 174
   },
-  "monastery": {
-    "file": "monastery.json",
-    "count": 60,
-    "tiers": {
-      "1": 15,
-      "2": 45
-    },
-    "kb": 7
+  "kb": 392
+ },
+ "monastery": {
+  "file": "monastery.json",
+  "count": 60,
+  "tiers": {
+   "1": 15,
+   "2": 45
   },
-  "monument": {
-    "file": "monument.json",
-    "count": 689,
-    "tiers": {
-      "1": 169,
-      "2": 518,
-      "3": 2
-    },
-    "kb": 81
+  "kb": 7
+ },
+ "monument": {
+  "file": "monument.json",
+  "count": 689,
+  "tiers": {
+   "1": 169,
+   "2": 518,
+   "3": 2
   },
-  "palace": {
-    "file": "palace.json",
-    "count": 195,
-    "tiers": {
-      "1": 12,
-      "2": 183
-    },
-    "kb": 21
+  "kb": 81
+ },
+ "palace": {
+  "file": "palace.json",
+  "count": 195,
+  "tiers": {
+   "1": 12,
+   "2": 183
   },
-  "pass": {
-    "file": "pass.json",
-    "count": 79,
-    "tiers": {
-      "1": 9,
-      "2": 70
-    },
-    "kb": 9
+  "kb": 21
+ },
+ "pass": {
+  "file": "pass.json",
+  "count": 79,
+  "tiers": {
+   "1": 9,
+   "2": 70
   },
-  "port": {
-    "file": "port.json",
-    "count": 5396,
-    "tiers": {
-      "1": 404,
-      "2": 4990,
-      "3": 2
-    },
-    "kb": 687
+  "kb": 9
+ },
+ "port": {
+  "file": "port.json",
+  "count": 5396,
+  "tiers": {
+   "1": 404,
+   "2": 4990,
+   "3": 2
   },
-  "press": {
-    "file": "press.json",
-    "count": 319,
-    "tiers": {
-      "1": 79,
-      "2": 240
-    },
-    "kb": 38
+  "kb": 687
+ },
+ "press": {
+  "file": "press.json",
+  "count": 319,
+  "tiers": {
+   "1": 79,
+   "2": 240
   },
-  "pyramid": {
-    "file": "pyramid.json",
-    "count": 22,
-    "tiers": {
-      "1": 20,
-      "2": 2
-    },
-    "kb": 2
+  "kb": 38
+ },
+ "pyramid": {
+  "file": "pyramid.json",
+  "count": 22,
+  "tiers": {
+   "1": 20,
+   "2": 2
   },
-  "road": {
-    "file": "road.json",
-    "count": 6713,
-    "tiers": {
-      "1": 9,
-      "2": 6704
-    },
-    "kb": 693
+  "kb": 2
+ },
+ "road": {
+  "file": "road.json",
+  "count": 6713,
+  "tiers": {
+   "1": 9,
+   "2": 6704
   },
-  "road-station": {
-    "file": "road-station.json",
-    "count": 1316,
-    "tiers": {
-      "1": 26,
-      "2": 1290
-    },
-    "kb": 169
+  "kb": 693
+ },
+ "road-station": {
+  "file": "road-station.json",
+  "count": 1316,
+  "tiers": {
+   "1": 26,
+   "2": 1290
   },
-  "sanctuary": {
-    "file": "sanctuary.json",
-    "count": 1750,
-    "tiers": {
-      "1": 410,
-      "2": 1302,
-      "3": 38
-    },
-    "kb": 221
+  "kb": 169
+ },
+ "sanctuary": {
+  "file": "sanctuary.json",
+  "count": 1750,
+  "tiers": {
+   "1": 410,
+   "2": 1302,
+   "3": 38
   },
-  "settlement": {
-    "file": "settlement.json",
-    "count": 18981,
-    "tiers": {
-      "2": 18939,
-      "3": 42
-    },
-    "kb": 2103
+  "kb": 221
+ },
+ "settlement": {
+  "file": "settlement.json",
+  "count": 18981,
+  "tiers": {
+   "2": 18939,
+   "3": 42
   },
-  "shipwreck": {
-    "file": "shipwreck.json",
-    "count": 966,
-    "tiers": {
-      "1": 213,
-      "2": 753
-    },
-    "kb": 121
+  "kb": 2103
+ },
+ "shipwreck": {
+  "file": "shipwreck.json",
+  "count": 966,
+  "tiers": {
+   "1": 213,
+   "2": 753
   },
-  "temple": {
-    "file": "temple.json",
-    "count": 6300,
-    "tiers": {
-      "1": 435,
-      "2": 5856,
-      "3": 9
-    },
-    "kb": 705
+  "kb": 121
+ },
+ "temple": {
+  "file": "temple.json",
+  "count": 6300,
+  "tiers": {
+   "1": 435,
+   "2": 5856,
+   "3": 9
   },
-  "theater": {
-    "file": "theater.json",
-    "count": 1067,
-    "tiers": {
-      "1": 149,
-      "2": 918
-    },
-    "kb": 117
+  "kb": 705
+ },
+ "theater": {
+  "file": "theater.json",
+  "count": 1067,
+  "tiers": {
+   "1": 149,
+   "2": 918
   },
-  "tomb": {
-    "file": "tomb.json",
-    "count": 310,
-    "tiers": {
-      "1": 181,
-      "2": 125,
-      "3": 4
-    },
-    "kb": 37
+  "kb": 117
+ },
+ "tomb": {
+  "file": "tomb.json",
+  "count": 310,
+  "tiers": {
+   "1": 181,
+   "2": 125,
+   "3": 4
   },
-  "townhouse": {
-    "file": "townhouse.json",
-    "count": 328,
-    "tiers": {
-      "1": 94,
-      "2": 234
-    },
-    "kb": 38
+  "kb": 37
+ },
+ "townhouse": {
+  "file": "townhouse.json",
+  "count": 328,
+  "tiers": {
+   "1": 94,
+   "2": 234
   },
-  "tumulus": {
-    "file": "tumulus.json",
-    "count": 275,
-    "tiers": {
-      "1": 46,
-      "2": 202,
-      "3": 27
-    },
-    "kb": 31
+  "kb": 38
+ },
+ "tumulus": {
+  "file": "tumulus.json",
+  "count": 275,
+  "tiers": {
+   "1": 46,
+   "2": 202,
+   "3": 27
   },
-  "villa": {
-    "file": "villa.json",
-    "count": 9332,
-    "tiers": {
-      "1": 660,
-      "2": 8364,
-      "3": 308
-    },
-    "kb": 1034
+  "kb": 31
+ },
+ "villa": {
+  "file": "villa.json",
+  "count": 9332,
+  "tiers": {
+   "1": 660,
+   "2": 8364,
+   "3": 308
   },
-  "wall": {
-    "file": "wall.json",
-    "count": 372,
-    "tiers": {
-      "2": 372
-    },
-    "kb": 40
+  "kb": 1034
+ },
+ "wall": {
+  "file": "wall.json",
+  "count": 372,
+  "tiers": {
+   "2": 372
   },
-  "watchtower": {
-    "file": "watchtower.json",
-    "count": 410,
-    "tiers": {
-      "1": 47,
-      "2": 363
-    },
-    "kb": 48
+  "kb": 40
+ },
+ "watchtower": {
+  "file": "watchtower.json",
+  "count": 410,
+  "tiers": {
+   "1": 47,
+   "2": 363
   },
-  "workshop": {
-    "file": "workshop.json",
-    "count": 82,
-    "tiers": {
-      "1": 3,
-      "2": 79
-    },
-    "kb": 9
-  }
+  "kb": 48
+ },
+ "workshop": {
+  "file": "workshop.json",
+  "count": 82,
+  "tiers": {
+   "1": 3,
+   "2": 79
+  },
+  "kb": 9
+ }
 }

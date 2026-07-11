@@ -358,6 +358,18 @@ def main():
                 break
         entities.append(ent)
 
+    # geo-index QID backfill (scripts/backfill-qids-from-geo-index.py):
+    # name+coord+type-verified identities for rows that had no QID
+    bf_path = DATA / "registry" / "qid-backfill-geo.json"
+    if bf_path.exists():
+        bf = json.load(open(bf_path))
+        adopted = 0
+        for e in entities:
+            if not e.get("qid") and e["id"] in bf:
+                e["qid"] = bf[e["id"]]
+                adopted += 1
+        print(f"geo-index QID backfill: {adopted} adopted")
+
     entities.sort(key=lambda e: e["id"])
     outdir = DATA / "entities"
     outdir.mkdir(exist_ok=True)
