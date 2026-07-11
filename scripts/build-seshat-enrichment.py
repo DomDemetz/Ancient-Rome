@@ -33,10 +33,12 @@ CAPITALS = "/private/tmp/seshat_capitals.json"
 OUT = os.path.join(os.path.dirname(__file__), "..", "src", "data", "empires", "seshat.json")
 
 REF = re.compile(r"§REF§.*?§REF§", re.S)
+TAG = re.compile(r"<[^>]+>")  # Seshat prose embeds literal <br>/<i> HTML
 MAX_DESC = 1500  # panel prose cap — cut at a sentence boundary
 
 def clean_desc(t):
     t = REF.sub("", t or "")
+    t = TAG.sub(" ", t)
     t = re.sub(r"\s+", " ", t).strip()
     if len(t) > MAX_DESC:
         cut = t.rfind(". ", 0, MAX_DESC)
