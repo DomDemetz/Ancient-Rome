@@ -197,6 +197,37 @@ function LayerErrorToast() {
 const ROME_CENTER: [number, number] = [41.9, 12.5]
 const DEFAULT_ZOOM = 5
 
+// Fat-finger pass (phones only). Two problems with canvas hit-testing:
+// 1) taps a few px off a small dot miss it — widen every hit-test by 8px;
+// 2) Leaflet fires the LAST-DRAWN hit, and road layers remount (redraw) on
+//    every timeline change, landing above the dots — so tapping Rome's dot
+//    opened a ROAD popup. Patch _onClick to prefer circle markers over
+//    line hits. Private API (leaflet 1.9 is frozen); revisit on upgrade.
+if (L.Browser.mobile) {
+  L.Canvas.prototype.options.tolerance = 8
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const proto = L.Canvas.prototype as any
+  const origOnClick = proto._onClick
+  proto._onClick = function (e: MouseEvent) {
+    const point = this._map.mouseEventToLayerPoint(e)
+    let dot: any = null
+    for (let order = this._drawFirst; order; order = order.next) {
+      const layer = order.layer
+      if (
+        layer instanceof L.CircleMarker &&
+        layer.options.interactive &&
+        (layer as any)._containsPoint(point) &&
+        !this._map._draggableMoved(layer)
+      ) {
+        dot = layer
+      }
+    }
+    if (dot) this._fireEvent([dot], e)
+    else origOnClick.call(this, e)
+  }
+  /* eslint-enable @typescript-eslint/no-explicit-any */
+}
+
 const STADIA_KEY = import.meta.env.VITE_STADIA_API_KEY || ''
 const TERRAIN_TILE_URL = `https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png${STADIA_KEY ? `?api_key=${STADIA_KEY}` : ''}`
 const BASE_ATTRIBUTION =

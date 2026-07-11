@@ -8,6 +8,19 @@ interface EmperorBannerProps {
   emperors: Emperor[]
 }
 
+/** 60 emperors carry full titulature as `name` ("Caesar Nerva Traianus Divi
+ *  Nervae Filius Augustus") — on a phone that overflows into the map buttons.
+ *  The id is the common-name slug ("trajan", "justinian-i-527"): strip the
+ *  disambiguating year, title-case words, uppercase regnal numerals. */
+const NUMERAL = /^(i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii|xiii)$/
+function commonName(e: Emperor): string {
+  return e.id
+    .replace(/-\d+$/, '')
+    .split('-')
+    .map((w) => (NUMERAL.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(' ')
+}
+
 export function EmperorBanner({ emperors }: EmperorBannerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const isMobile = useUIStore((s) => s.isMobile)
@@ -60,10 +73,13 @@ export function EmperorBanner({ emperors }: EmperorBannerProps) {
           borderColor: dynastyColor + '60',
         }}
       >
-        <div className="w-1.5 h-8 rounded-full" style={{ backgroundColor: dynastyColor }} />
-        <div className="flex flex-col">
-          <span className="text-sm font-semibold font-serif italic text-white/90">
-            {currentEmperor.name}
+        <div
+          className="w-1.5 h-8 rounded-full shrink-0"
+          style={{ backgroundColor: dynastyColor }}
+        />
+        <div className="flex flex-col min-w-0">
+          <span className="text-sm font-semibold font-serif italic text-white/90 truncate max-w-[210px] sm:max-w-none">
+            {isMobile ? commonName(currentEmperor) : currentEmperor.name}
           </span>
           {!isMobile && (
             <span className="text-[9px] uppercase tracking-[0.1em] text-slate-500">

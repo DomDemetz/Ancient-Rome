@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
+import { createPortal } from 'react-dom'
 import Fuse from 'fuse.js'
 import { useShallow } from 'zustand/shallow'
 import { Search, X } from 'lucide-react'
@@ -812,58 +813,64 @@ export function SearchBar() {
         >
           <Search className="size-4" />
         </button>
-        {mobileOpen && (
-          <>
-            {/* Backdrop scrim */}
-            <div
-              className="fixed inset-0 z-[1099] bg-black/60 backdrop-blur-sm"
-              onClick={() => {
-                setMobileOpen(false)
-                setOpen(false)
-                setQuery('')
-              }}
-            />
-            <div
-              className="fixed inset-x-0 top-0 z-[1100] bg-[#0a0a0c] p-3 border-b border-white/[0.06] shadow-lg"
-              style={{ paddingTop: 'calc(0.75rem + env(safe-area-inset-top, 0px))' }}
-            >
-              <div ref={containerRef} className="relative">
-                <div className="flex items-center gap-2">
-                  <div className="relative flex-1">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-slate-500 pointer-events-none" />
-                    <input
-                      type="text"
-                      placeholder="Search places & layers..."
-                      value={query}
-                      onChange={(e) => {
-                        setQuery(e.target.value)
-                        setOpen(true)
+        {/* Portaled to body: the TopBar's backdrop-blur makes it the containing
+            block for fixed descendants, which trapped this overlay in the 44px
+            header strip — the scrim covered nothing and the map's floating
+            buttons (z-1001) painted over the results. */}
+        {mobileOpen &&
+          createPortal(
+            <>
+              {/* Backdrop scrim */}
+              <div
+                className="fixed inset-0 z-[1099] bg-black/60 backdrop-blur-sm"
+                onClick={() => {
+                  setMobileOpen(false)
+                  setOpen(false)
+                  setQuery('')
+                }}
+              />
+              <div
+                className="fixed inset-x-0 top-0 z-[1100] bg-[#0a0a0c] p-3 border-b border-white/[0.06] shadow-lg"
+                style={{ paddingTop: 'calc(0.75rem + env(safe-area-inset-top, 0px))' }}
+              >
+                <div ref={containerRef} className="relative">
+                  <div className="flex items-center gap-2">
+                    <div className="relative flex-1">
+                      <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-slate-500 pointer-events-none" />
+                      <input
+                        type="text"
+                        placeholder="Search places & layers..."
+                        value={query}
+                        onChange={(e) => {
+                          setQuery(e.target.value)
+                          setOpen(true)
+                        }}
+                        onFocus={() => setOpen(true)}
+                        onKeyDown={handleSearchKeyDown}
+                        autoFocus
+                        className="w-full rounded-xl h-10 pl-9 pr-3 text-sm bg-white/[0.04] border border-white/[0.06] text-white placeholder:text-slate-500 focus:outline-none focus:border-amber-500/30 focus:shadow-[0_0_20px_rgba(245,158,11,0.08)]"
+                      />
+                    </div>
+                    <button
+                      onClick={() => {
+                        setMobileOpen(false)
+                        setOpen(false)
+                        setQuery('')
                       }}
-                      onFocus={() => setOpen(true)}
-                      onKeyDown={handleSearchKeyDown}
-                      autoFocus
-                      className="w-full rounded-xl h-10 pl-9 pr-3 text-sm bg-white/[0.04] border border-white/[0.06] text-white placeholder:text-slate-500 focus:outline-none focus:border-amber-500/30 focus:shadow-[0_0_20px_rgba(245,158,11,0.08)]"
-                    />
+                      className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full text-slate-500 hover:text-slate-100 transition-colors"
+                      aria-label="Close search"
+                    >
+                      <X className="size-5" />
+                    </button>
                   </div>
-                  <button
-                    onClick={() => {
-                      setMobileOpen(false)
-                      setOpen(false)
-                      setQuery('')
-                    }}
-                    className="flex items-center justify-center size-9 min-h-[44px] min-w-[44px] rounded-full text-slate-500 hover:text-slate-100 transition-colors"
-                    aria-label="Close search"
-                  >
-                    <X className="size-5" />
-                  </button>
+                  {resultsDropdown}
+                  {noResults}
+                  {emptyHints}
                 </div>
-                {resultsDropdown}
-                {noResults}
-                {emptyHints}
               </div>
-            </div>
-          </>
-        )}
+            </>,
+            document.body,
+          )}
       </>
     )
   }
