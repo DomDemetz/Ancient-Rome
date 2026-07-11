@@ -88,6 +88,12 @@ import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
 import { entityColors, entityLabels } from '@/lib/colors'
 import { SITE_TYPE_TO_LAYER } from '@/features/map/layers/siteTypeLayers'
+import { DATASET_REGISTRY } from '@/data/datasetRegistry'
+
+// kind chips take THE palette (registry fillColor) — one temple gold everywhere
+const KIND_COLORS: Record<string, string> = Object.fromEntries(
+  DATASET_REGISTRY.map((d) => [d.id, d.fillColor]),
+)
 import {
   DARE_TYPE_LABELS,
   DARE_TYPE_TO_SITE_TYPE,
@@ -142,6 +148,8 @@ interface SearchItem {
   alt?: string // alternative names from cross-reference (Colosseum for Flavian Amphitheater)
 }
 
+// non-kind search categories (emperors, empires, battles...) keep bespoke
+// colors; every atlas KIND resolves through KIND_COLORS above
 const CATEGORY_COLORS: Record<string, string> = {
   road: '#d4a74a',
   settlement: '#5b8dd9',
@@ -359,7 +367,11 @@ export function SearchBar() {
         id: `site-${s.k}`,
         name: s.n,
         category: siteLabels[s.st ?? s.t] ?? siteLabels[s.t] ?? s.t,
-        color: CATEGORY_COLORS[s.st ?? s.t] || CATEGORY_COLORS[s.t] || CATEGORY_COLORS.building,
+        color:
+          KIND_COLORS[s.t] ||
+          CATEGORY_COLORS[s.st ?? s.t] ||
+          CATEGORY_COLORS[s.t] ||
+          CATEGORY_COLORS.building,
         lat: s.la,
         lng: s.lo,
         alt: s.a,

@@ -1,30 +1,46 @@
 {
   "version": 1,
-  "comment": "THE taxonomy (2026-07-11, categories = the app's original seven (Dominik 2026-07-11: no invented names); designed with Dominik against docs/taxonomy-profile.md). One controlled kind list; category derived; every source vocabulary maps here and dies at ingest. Kinds mapping to null are dropped from the atlas (they stay in the entity table). UI panel/legend/colors read categories; popups/search read kind labels.",
+  "comment": "THE taxonomy (2026-07-11, categories = the app's original seven (Dominik 2026-07-11: no invented names); designed with Dominik against docs/taxonomy-profile.md). One controlled kind list; category derived; every source vocabulary maps here and dies at ingest. Kinds mapping to null are dropped from the atlas (they stay in the entity table). UI panel/legend/colors read categories; popups/search read kind labels. Category colors here are THE palette — map dots, search chips, legend all derive from them.",
   "categories": {
     "settlement": {
-      "label": "Settlements"
+      "label": "Settlements",
+      "color": "#8a7a55",
+      "fill": "#f5e6c8"
     },
     "cities": {
-      "label": "Cities & Buildings"
+      "label": "Cities & Buildings",
+      "color": "#8a7a55",
+      "fill": "#f5e6c8"
     },
     "rural": {
-      "label": "Rural / Villas"
+      "label": "Rural / Villas",
+      "color": "#3f6b3f",
+      "fill": "#7ec87e"
     },
     "military": {
-      "label": "Military"
+      "label": "Military",
+      "color": "#7a2e22",
+      "fill": "#e85c4a"
     },
     "religious": {
-      "label": "Religious"
+      "label": "Religious",
+      "color": "#8a6d1c",
+      "fill": "#f0c040"
     },
     "funerary": {
-      "label": "Funerary & Monuments"
+      "label": "Funerary & Monuments",
+      "color": "#5e3a70",
+      "fill": "#b07cc8"
     },
     "production": {
-      "label": "Production & Industry"
+      "label": "Production & Industry",
+      "color": "#6e4a2b",
+      "fill": "#c88c5a"
     },
     "infrastructure": {
-      "label": "Infrastructure"
+      "label": "Infrastructure",
+      "color": "#2d5a80",
+      "fill": "#6baed6"
     }
   },
   "kinds": {

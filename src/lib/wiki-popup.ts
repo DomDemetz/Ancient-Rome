@@ -211,3 +211,41 @@ export function appendCrossRefTooltip(
   crHtml += '</div>'
   return html + crHtml
 }
+
+/**
+ * THE popup shell — one display contract for every map popup (Dominik
+ * 2026-07-11: display must not vary by which data path an entity fell
+ * through). Five slots, always in this order; empty slots vanish without
+ * changing the structure:
+ *   title · sub (kind/type) · details (dates, facts-in-brief) ·
+ *   body (extract/facts html from appendWiki/CrossRefTooltip) ·
+ *   footer (source line + read-more)
+ */
+export interface PopupSlots {
+  title: string
+  sub?: string
+  details?: string[]
+  /** pre-built enrichment html (appendWikiTooltip / appendCrossRefTooltip output body) */
+  bodyHtml?: string
+  source?: string
+  readMore?: { id: string; layer: string; entityId?: string; label?: string }
+}
+
+export function buildPopup(slots: PopupSlots): string {
+  let html = `<div class="map-tooltip-title">${esc(slots.title)}</div>`
+  if (slots.sub && slots.sub !== slots.title) {
+    html += `<div class="map-tooltip-sub">${esc(slots.sub)}</div>`
+  }
+  for (const d of slots.details ?? []) {
+    html += `<div class="map-tooltip-detail">${esc(d)}</div>`
+  }
+  if (slots.source) {
+    html += `<div class="map-tooltip-fact">Source: ${esc(slots.source)}</div>`
+  }
+  if (slots.bodyHtml) html += slots.bodyHtml
+  if (slots.readMore && !slots.bodyHtml?.includes('map-tooltip-readmore')) {
+    const rm = slots.readMore
+    html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(rm.id)}" data-wiki-layer="${esc(rm.layer)}"${rm.entityId ? ` data-entity-id="${esc(rm.entityId)}"` : ''}>${esc(rm.label ?? 'Details')}</button></div>`
+  }
+  return html
+}

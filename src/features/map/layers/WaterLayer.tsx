@@ -2,7 +2,7 @@ import { GeoJSON } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
-import { esc } from '@/lib/wiki-popup'
+import { buildPopup } from '@/lib/wiki-popup'
 
 interface WaterLayerProps {
   data: FeatureCollection
@@ -31,7 +31,7 @@ function onEachWater(feature: Feature, layer: L.Layer) {
   const modern = feature.properties?.modern
   const label = name && modern && name !== modern ? `${name} (${modern})` : name || modern
   if (label) {
-    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${esc(label)}</div>`)
+    ;(layer as L.Path).bindPopup(buildPopup({ title: label }))
   }
 }
 

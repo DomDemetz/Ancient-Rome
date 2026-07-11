@@ -2,7 +2,7 @@ import { GeoJSON } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
-import { esc } from '@/lib/wiki-popup'
+import { buildPopup } from '@/lib/wiki-popup'
 import { filterWithSignature } from '@/lib/feature-signature'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo } from 'react'
@@ -23,7 +23,7 @@ const limesStyle = () => LIMES_STYLE
 function onEachLimes(feature: Feature, layer: L.Layer) {
   const sector = feature.properties?.sector
   if (sector) {
-    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${esc(sector)}</div>`)
+    ;(layer as L.Path).bindPopup(buildPopup({ title: sector }))
   }
 }
 

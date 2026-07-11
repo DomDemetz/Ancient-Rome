@@ -114,15 +114,29 @@ export const DARE_TYPE_TO_CATEGORY: Record<number, SettlementCategory> = {
   31: 'cities', // Iron Age Oppidum → cities
 }
 
-export const CATEGORY_STYLES: Record<SettlementCategory, { color: string; label: string }> = {
-  cities: { color: '#f5e6c8', label: 'Cities & Settlements' },
-  rural: { color: '#7ec87e', label: 'Rural / Villas' },
-  military: { color: '#e85c4a', label: 'Military' },
-  infrastructure: { color: '#6baed6', label: 'Infrastructure' },
-  religious: { color: '#f0c040', label: 'Religious' },
-  production: { color: '#c88c5a', label: 'Production & Industry' },
-  funerary: { color: '#b07cc8', label: 'Funerary & Monuments' },
-}
+// THE palette lives in taxonomy.json — this map derives from it so the
+// legacy settlement categories can never drift from the atlas colors
+import taxonomyJson from '@/data/taxonomy.json'
+const TAX_CATEGORIES = (
+  taxonomyJson as unknown as {
+    categories: Record<string, { label: string; color: string; fill: string }>
+  }
+).categories
+
+export const CATEGORY_STYLES: Record<SettlementCategory, { color: string; label: string }> =
+  Object.fromEntries(
+    (
+      [
+        'cities',
+        'rural',
+        'military',
+        'infrastructure',
+        'religious',
+        'production',
+        'funerary',
+      ] as const
+    ).map((c) => [c, { color: TAX_CATEGORIES[c].fill, label: TAX_CATEGORIES[c].label }]),
+  ) as Record<SettlementCategory, { color: string; label: string }>
 
 export const ALL_CATEGORIES: SettlementCategory[] = [
   'cities',

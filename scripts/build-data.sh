@@ -104,6 +104,7 @@ python3 scripts/build-knowledge.py
 # the runtime atlas (one renderer's data) derives from table + knowledge,
 # so it runs after both
 python3 scripts/build-entity-atlas.py
+python3 scripts/gen-atlas-modules.py
 python3 scripts/build-manifest.py
 echo ""
 

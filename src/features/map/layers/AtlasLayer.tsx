@@ -5,7 +5,7 @@ import type { AtlasEntity } from '@/data/entities/atlas'
 import type { DatasetConfig } from '@/data/datasetRegistry'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { appendCrossRefTooltip, appendWikiTooltip, esc } from '@/lib/wiki-popup'
+import { appendCrossRefTooltip, appendWikiTooltip, buildPopup, esc } from '@/lib/wiki-popup'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import { formatYear } from '@/lib/geo'
 
@@ -103,26 +103,19 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
 
   const openPopup = useCallback(
     (e: AtlasEntity) => {
-      // unified structure for every atlas dot: title · kind · dates ·
-      // source line · knowledge · footer (no duplicated title-as-kind,
-      // no second source badge)
+      // ONE display contract (buildPopup slots) — content varies, structure never
       const title = e.n || labelKind(e.k)
-      let html = `<div class="map-tooltip-title">${esc(title)}</div>`
       const sub: string[] = []
       if (e.k && e.k !== 'other') sub.push(labelKind(e.k))
       if (e.st && e.st !== 'unknown' && e.st !== e.k) sub.push(labelKind(e.st))
-      const subText = sub.join(' · ')
-      if (subText && subText !== title) {
-        html += `<div class="map-tooltip-sub">${esc(subText)}</div>`
-      }
+      const details: string[] = []
       if (e.s != null && e.s !== 0) {
-        const span =
+        details.push(
           e.e != null && e.e !== 0 && e.e !== e.s
             ? `${formatYear(e.s)} – ${formatYear(e.e)}`
-            : formatYear(e.s)
-        html += `<div class="map-tooltip-detail">${span}</div>`
+            : formatYear(e.s),
+        )
       }
-
       // one lookup path: entity id first, adjudicated detail key second;
       // node-keyed rows (structural DARE places) resolve via the places store
       const isNode = !!e.d && NODE_KEY.test(e.d)
@@ -130,20 +123,28 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       const layerName = isNode ? 'knowledge-places' : 'knowledge-features'
       const kEntry = (!isNode ? store?.[e.i] : undefined) ?? (e.d ? store?.[e.d] : undefined)
       const kKey = !isNode && store?.[e.i] ? e.i : (e.d ?? e.i)
-      if (e.p) {
-        const srcs = [...e.p].map((c) => SOURCE_LABELS[c]).filter(Boolean)
-        if (srcs.length) {
-          html += `<div class="map-tooltip-fact">Source: ${esc(srcs.join(' · '))}</div>`
-        }
-      }
+      let bodyHtml: string | undefined
       if (kEntry?.extract) {
-        html = appendWikiTooltip(html, kKey, store, layerName, undefined, { noBadge: true })
+        bodyHtml = appendWikiTooltip('', kKey, store, layerName, undefined, { noBadge: true })
       } else if (kEntry?.crossRef) {
-        html = appendCrossRefTooltip(html, kEntry.crossRef, { crKey: kKey }, { noBadge: true })
-      } else if (e.d || e.t === 1) {
-        html += `<div class="map-tooltip-wiki"><button class="map-tooltip-readmore" data-wiki-id="${esc(kKey)}" data-wiki-layer="${layerName}">Details</button></div>`
+        bodyHtml = appendCrossRefTooltip('', kEntry.crossRef, { crKey: kKey }, { noBadge: true })
       }
-
+      const html = buildPopup({
+        title,
+        sub: sub.join(' · '),
+        details,
+        source: e.p
+          ? [...e.p]
+              .map((c) => SOURCE_LABELS[c])
+              .filter(Boolean)
+              .join(' · ')
+          : undefined,
+        bodyHtml,
+        readMore:
+          e.d || e.t === 1 || kEntry
+            ? { id: kKey, layer: kEntry?.crossRef && !kEntry?.extract ? 'crossref' : layerName }
+            : undefined,
+      })
       if (!popupRef.current) {
         popupRef.current = L.popup({ offset: [0, -4], closeButton: false })
       }

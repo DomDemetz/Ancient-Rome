@@ -3,7 +3,7 @@ import { CircleMarker, Polyline, Popup } from 'react-leaflet'
 import type { TradeNetwork, TradeNode } from '@/data/trade'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapViewport } from '@/hooks/useMapViewport'
-import { esc } from '@/lib/wiki-popup'
+import { buildPopup } from '@/lib/wiki-popup'
 import { TRADE_ROLE_LABELS } from './placeTooltip'
 
 interface TradeNetworkLayerProps {
@@ -61,12 +61,12 @@ function getTemporalOpacity(
 }
 
 function sitePopupHtml(site: TradeNode): string {
-  let html = `<div class="map-tooltip-title">${esc(site.name)}</div>`
-  const sub = [site.modern, site.province].filter(Boolean).map(esc)
-  if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
   const role = TRADE_ROLE_LABELS[site.siteType] ?? 'Trade site'
-  html += `<div class="map-tooltip-detail">${role} · ORBIS network</div>`
-  return html
+  return buildPopup({
+    title: site.name,
+    sub: [site.modern, site.province].filter(Boolean).join(' · '),
+    details: [`${role} · ORBIS network`],
+  })
 }
 
 export function TradeNetworkLayer({ data, placesOn }: TradeNetworkLayerProps) {

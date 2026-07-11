@@ -4,7 +4,7 @@ import L from 'leaflet'
 import type { Battle } from '@/data/battles'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
+import { appendWikiTooltip, appendCrossRefTooltip, buildPopup } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { battleVisibilityWindow } from './battleWindow'
@@ -22,19 +22,16 @@ const OUTCOME_COLORS: Record<string, string> = {
   unknown: '#97948a',
 }
 
-function buildTooltipHtml(b: Battle): string {
+function battleSlots(b: Battle): { title: string; sub: string; details: string[] } {
   // Only bare toponyms ("Artaxata") earn a "Battle of" prefix. Every
   // multi-word name in the dataset already describes its event — the old
   // startsWith check produced "Battle of Battle near Burdigala",
   // "Battle of Fall of Constantinople", "Battle of Pompey's Pirate War".
   const title = /\s/.test(b.name) ? b.name : `Battle of ${b.name}`
-  let html = `<div class="map-tooltip-title">${esc(title)}</div>`
-  html += `<div class="map-tooltip-sub">${formatYear(b.year)} · ${esc(b.combatants)}</div>`
   const details: string[] = []
-  if (b.commander) details.push(`Commander: ${esc(b.commander)}`)
-  details.push(`Outcome: ${esc(b.outcome)}`)
-  if (details.length) html += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
-  return html
+  if (b.commander) details.push(`Commander: ${b.commander}`)
+  details.push(`Outcome: ${b.outcome}`)
+  return { title, sub: `${formatYear(b.year)} · ${b.combatants}`, details }
 }
 
 const flashIcon = L.divIcon({
@@ -118,8 +115,8 @@ export function BattleLayer({ data }: BattleLayerProps) {
                 dangerouslySetInnerHTML={{
                   __html: (() => {
                     const hasWiki = featKnowledge?.[`battle:${b.id}`]
-                    let html = appendWikiTooltip(
-                      buildTooltipHtml(b),
+                    let bodyHtml = appendWikiTooltip(
+                      '',
                       `battle:${b.id}`,
                       featKnowledge,
                       'knowledge-features',
@@ -128,10 +125,10 @@ export function BattleLayer({ data }: BattleLayerProps) {
                       const crKey = `battle:${b.id}`
                       const crEntry = featKnowledge?.[crKey]?.crossRef
                       if (crEntry) {
-                        html = appendCrossRefTooltip(html, crEntry, { crKey })
+                        bodyHtml = appendCrossRefTooltip(bodyHtml, crEntry, { crKey })
                       }
                     }
-                    return html
+                    return buildPopup({ ...battleSlots(b), bodyHtml: bodyHtml || undefined })
                   })(),
                 }}
               />

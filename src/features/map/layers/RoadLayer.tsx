@@ -2,7 +2,7 @@ import { GeoJSON } from 'react-leaflet'
 import type { FeatureCollection, Feature } from 'geojson'
 import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
-import { esc } from '@/lib/wiki-popup'
+import { buildPopup } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMemo, useCallback } from 'react'
 import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
@@ -51,18 +51,17 @@ export function RoadLayer({ data }: RoadLayerProps) {
   const onEachRoad = useCallback((feature: Feature, layer: L.Layer) => {
     const props = feature.properties || {}
     if (!props.name && !props.major) return
-    let html = ''
-    if (props.name) html += `<div class="map-tooltip-title">${esc(props.name)}</div>`
+    // unnamed major roads have no heading of their own — "Major road"
+    // becomes the title instead of the sub line
     const sub: string[] = []
-    if (props.major) sub.push('Major road')
+    if (props.name && props.major) sub.push('Major road')
     if (props.attestedYear != null) {
       const y = props.attestedYear as number
       sub.push(`Attested: ${y < 0 ? `${Math.abs(y)} BC` : `${y} AD`}`)
     }
-    if (sub.length) html += `<div class="map-tooltip-sub">${sub.join(' · ')}</div>`
-    if (html) {
-      ;(layer as L.Path).bindPopup(html)
-    }
+    ;(layer as L.Path).bindPopup(
+      buildPopup({ title: props.name || 'Major road', sub: sub.join(' · ') }),
+    )
   }, [])
 
   return (

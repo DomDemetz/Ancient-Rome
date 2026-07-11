@@ -6,7 +6,7 @@ import L from 'leaflet'
 import type { Aqueduct } from '@/data/aqueducts'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
-import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
+import { appendWikiTooltip, appendCrossRefTooltip, buildPopup } from '@/lib/wiki-popup'
 import { formatYear } from '@/lib/geo'
 import { filterWithSignature } from '@/lib/feature-signature'
 import { useMapViewport } from '@/hooks/useMapViewport'
@@ -25,7 +25,7 @@ const LINE_STYLE: PathOptions = {
 function onEachAqueductLine(feature: Feature, layer: L.Layer) {
   const name = feature.properties?.name
   if (name) {
-    ;(layer as L.Path).bindPopup(`<div class="map-tooltip-title">${esc(name)}</div>`)
+    ;(layer as L.Path).bindPopup(buildPopup({ title: name }))
   }
 }
 
@@ -111,14 +111,11 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
 
       {/* Render point-based aqueduct markers on top */}
       {visible.map((a) => {
-        let tooltipHtml = `<div class="map-tooltip-title">${esc(a.name)}</div>`
-        tooltipHtml += `<div class="map-tooltip-sub">${esc(a.cityServed)}</div>`
         const details: string[] = [`Built: ${formatYear(a.constructionYear)}`]
         if (a.length) details.push(`${a.length} km`)
-        if (a.builder) details.push(esc(a.builder))
+        if (a.builder) details.push(a.builder)
         const hasWiki = featKnowledge?.[`aqueduct:${a.id}`]
-        if (a.description && !hasWiki) details.push(esc(a.description))
-        tooltipHtml += `<div class="map-tooltip-detail">${details.join(' · ')}</div>`
+        if (a.description && !hasWiki) details.push(a.description)
 
         return (
           <CircleMarker
@@ -137,8 +134,8 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
               <span
                 dangerouslySetInnerHTML={{
                   __html: (() => {
-                    let html = appendWikiTooltip(
-                      tooltipHtml,
+                    let bodyHtml = appendWikiTooltip(
+                      '',
                       `aqueduct:${a.id}`,
                       featKnowledge,
                       'knowledge-features',
@@ -147,10 +144,15 @@ export function AqueductLayer({ data, lines }: AqueductLayerProps) {
                       const crKey = `aqueduct:${a.id}`
                       const cr = featKnowledge?.[crKey]?.crossRef
                       if (cr) {
-                        html = appendCrossRefTooltip(html, cr, { crKey })
+                        bodyHtml = appendCrossRefTooltip(bodyHtml, cr, { crKey })
                       }
                     }
-                    return html
+                    return buildPopup({
+                      title: a.name,
+                      sub: a.cityServed,
+                      details,
+                      bodyHtml: bodyHtml || undefined,
+                    })
                   })(),
                 }}
               />

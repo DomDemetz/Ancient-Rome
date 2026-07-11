@@ -4,7 +4,7 @@ import L from 'leaflet'
 import type { EmpireShape } from '@/data/empires'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
-import { esc } from '@/lib/wiki-popup'
+import { buildPopup, esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { imperialAnchors } from './imperialAnchors'
 import { labelHalfWidth, labelProjector, labelTier } from './labelCollision'
@@ -162,11 +162,14 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       L.popup({ closeButton: false })
         .setLatLng(ev.latlng)
         .setContent(
-          `<div class="map-tooltip-title">${esc(e.name)}</div>` +
-            `<div class="map-tooltip-detail">${fmtYear(e.from)} – ${fmtYear(e.to)}</div>` +
-            (e.wp || e.qid
-              ? `<button class="map-tooltip-readmore" data-wiki-id="${e.id}" data-wiki-layer="empires" data-entity-id="${e.id}">Read more</button>`
-              : ''),
+          buildPopup({
+            title: e.name,
+            details: [`${fmtYear(e.from)} – ${fmtYear(e.to)}`],
+            readMore:
+              e.wp || e.qid
+                ? { id: e.id, layer: 'empires', entityId: e.id, label: 'Read more' }
+                : undefined,
+          }),
         )
         .openOn(map)
     }
