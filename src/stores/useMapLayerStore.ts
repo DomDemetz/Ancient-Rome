@@ -253,7 +253,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
     layers: [],
   },
   {
-    label: 'Infrastructure',
+    label: 'Roads',
     layers: [
       {
         key: 'Roads',
@@ -265,6 +265,11 @@ export const LAYER_GROUPS: LayerGroup[] = [
         label: 'Itiner-e Roads',
         activeClass: 'bg-orange-950/80 border-orange-800 text-orange-200 hover:bg-orange-900/80',
       },
+    ],
+  },
+  {
+    label: 'Infrastructure',
+    layers: [
       {
         key: 'Aqueducts',
         label: 'Aqueducts',

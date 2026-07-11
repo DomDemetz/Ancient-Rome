@@ -25,6 +25,9 @@ GROUP = {"settlement": "_hidden", "cities": "Urban", "rural": "Economy",
          "military": "Military", "religious": "Religion",
          "funerary": "Religion", "production": "Economy",
          "infrastructure": "Infrastructure"}
+# per-kind overrides: every road dataset lives together (Dominik 2026-07-11)
+KIND_GROUP = {"road": "Roads", "road-station": "Roads", "bridge": "Roads",
+              "pass": "Roads"}
 
 ACTIVE = {"cities": "bg-amber-900/80 border-amber-600 text-amber-100 hover:bg-amber-800/80",
           "rural": "bg-lime-900/80 border-lime-700 text-lime-100 hover:bg-lime-800/80",
@@ -55,7 +58,7 @@ def main():
         entries.append(f"""  {{
     id: '{kind}',
     label: '{label}',
-    group: '{GROUP[v["category"]]}',
+    group: '{KIND_GROUP.get(kind, GROUP[v["category"]])}',
     file: '{kind}',
     color: '{cat["color"]}',
     fillColor: '{cat["fill"]}',

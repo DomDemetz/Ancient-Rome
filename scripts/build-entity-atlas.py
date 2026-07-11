@@ -200,9 +200,17 @@ def main():
         cat = kind  # one chunk per kind — the toggles ARE the things (Dominik 2026-07-11)
         row = {"i": e["id"], "la": round(e["lat"], 4), "lo": round(e["lng"], 4),
                "k": kind, "p": source_codes(e["sources"])}
-        if e.get("subtype") and e["subtype"] != kind and e["kind"] != "building":
-            row["st"] = e["subtype"]
+        st = e.get("subtype")
+        # a subtype that is just the kind through a synonym ("Port · Harbour")
+        # is noise, not information
+        if st and st != kind and resolve_kind(st) != kind and e["kind"] != "building":
+            row["st"] = st
         name = (e.get("name") or "").strip()
+        # Ancient Ports ships alias lists as names ("Citharista, Kitharistes,
+        # Zao") — the popup title is the primary name; the full list stays in
+        # the cross-reference for the panel
+        if name and any(k.startswith("port:") for k in e["sources"]):
+            name = name.split(",")[0].strip()
         unnamed = (not name or name.lower().startswith(("unnamed", "untitled")))
         if not unnamed:
             row["n"] = name
