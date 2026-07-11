@@ -15,6 +15,7 @@ export const BASE_SOURCES = {
   conquests:
     'Islamic conquests: <a href="https://darmc.harvard.edu">DARMC / Mapping Past Societies</a> (CC BY-NC-SA 4.0)',
   orbis: 'ORBIS v2 &copy; Stanford University',
+  chgis: 'CHGIS v6 &copy; Harvard &amp; Fudan University',
   people: 'Notable People: Sciences-Po cross-verified database, CC-BY-SA',
   sites:
     'Sites: <a href="https://vici.org">vici.org</a> (CC BY-SA) · DARE · <a href="https://pleiades.stoa.org">Pleiades</a> (CC BY) · DARMC/OxREP',

@@ -408,6 +408,7 @@ export function MapView() {
   const active: AttributionKey[] = []
   if (showEmpires) active.push('empires')
   if (dareActive) active.push('dare')
+  if (showSettlements) active.push('chgis')
   if (showItinereRoads) active.push('itinere')
   if (showBattles) active.push('battles')
   if (showProvinces) active.push('provinces')

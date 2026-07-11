@@ -313,6 +313,38 @@ for w in wd_settlements:
     have_qids.add(w["qid"])
     stats["wd nodes"] += 1
 
+# --- CHGIS v6 prefecture seats (registry/chgis-prefectures.json) ---
+# Harvard/Fudan China Historical GIS: dated prefecture seats 221 BC-1453,
+# the administrative texture the archaeological sources can't give China.
+# Ingested by scripts/ingest-chgis.py; EULA = attribution, derived-only.
+chgis_path = os.path.join(R, "chgis-prefectures.json")
+if os.path.exists(chgis_path):
+    chgis = json.load(open(chgis_path))
+    # existing Chinese coverage is sparse (wd nodes, Chandler megacities) —
+    # skip a seat only when a node with a matching name token sits within
+    # ~15km (Chang'an the wd city vs Chang'an Fu the CHGIS seat)
+    existing_cn = [(p2["lat"], p2["lng"], (p2.get("name") or "").lower().split())
+                   for p2 in places
+                   if 70 < p2["lng"] < 140 and 15 < p2["lat"] < 55]
+    for c in chgis:
+        first = c["name"].lower().split()[0]
+        dup = any(abs(la - c["lat"]) < 0.14 and abs(lo - c["lng"]) < 0.17
+                  and first in toks
+                  for la, lo, toks in existing_cn)
+        if dup:
+            stats["chgis skipped (existing node)"] += 1
+            continue
+        places.append({
+            "id": c["id"],
+            "name": c["name"],
+            "lat": c["lat"],
+            "lng": c["lng"],
+            "startYear": c["startYear"],
+            "endYear": c["endYear"],
+            "minor": True,
+        })
+        stats["chgis nodes"] += 1
+
 # second vici pass: links that found no pid/dare key can still join via
 # vici.org's own wikidata identity — now that qid-bearing wd nodes exist
 node_by_qid = {}

@@ -70,11 +70,15 @@ cities_refs = [p for p in places if p.get('wiki') and p['wiki'][0] == 'cities']
 if cities_refs:
     errors.append(f'  {len(cities_refs)} nodes still reference cities-wiki (should be 0)')
 
-# Population nodes should have wiki
+# Population nodes should have wiki. Ratchet re-baselined 2026-07-11:
+# the Hanson/Modelski + full-timeline ingest (c868f2a) added ~790
+# legitimately wiki-less cities (post-1453 + medieval world) — the old
+# ~100 threshold predates the window extension. Enriching the pre-1453
+# tail is the enrichment lane's queue, not a pipeline error.
 pop_nodes = [p for p in places if p.get('populations')]
 pop_no_wiki = [p for p in pop_nodes if not p.get('wiki')]
-if len(pop_no_wiki) > 110:
-    errors.append(f'  {len(pop_no_wiki)} pop nodes without wiki (expected ~100 post-Roman)')
+if len(pop_no_wiki) > 800:
+    errors.append(f'  {len(pop_no_wiki)} pop nodes without wiki (ratchet: 800)')
 
 # Check for duplicate IDs
 ids = [p['id'] for p in places]
