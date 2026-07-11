@@ -145,8 +145,8 @@
     {
       "file": "src/data/registry/unified-nodes.json",
       "records": 19041,
-      "bytes": 1689646,
-      "sha256_12": "7f70e811f69b",
+      "bytes": 1689604,
+      "sha256_12": "55e5402103d2",
       "source": "derived join",
       "license": "inherits sources",
       "version": "build-time",
@@ -215,8 +215,8 @@
     {
       "file": "src/data/unified/battle.json",
       "records": 8163,
-      "bytes": 2591769,
-      "sha256_12": "0067992da986",
+      "bytes": 2657192,
+      "sha256_12": "80e399a55e4c",
       "source": "unified migration of per-layer sources",
       "license": "see DATA-SOURCES.md",
       "version": "build-time",
