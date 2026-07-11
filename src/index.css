@@ -779,6 +779,14 @@ input[type='range']::-moz-range-thumb {
   pointer-events: none;
 }
 
+/* river & lake names — the sea voice, one register quieter */
+.sea-label--water {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  opacity: 0.65;
+  color: #8fb4c9;
+}
+
 /* Rome's own name — vast tier with an imperial warmth */
 .empire-label--rome {
   color: #f4d9c0;
