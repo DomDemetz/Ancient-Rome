@@ -35,7 +35,8 @@ export const EMPIRE_ERAS: Array<[number, number]> = [
   [0, 500],
   [500, 1000],
   [1000, 1500],
-  [1500, 2000],
+  [1500, 1800],
+  [1800, 2025],
 ]
 
 export function empireEraIndex(year: number): number {
@@ -50,6 +51,7 @@ const ERA_LOADERS: Array<() => Promise<EmpireShape[]>> = [
   () => loadJsonRaw<EmpireShape[]>(() => import('./era-3.json?raw')),
   () => loadJsonRaw<EmpireShape[]>(() => import('./era-4.json?raw')),
   () => loadJsonRaw<EmpireShape[]>(() => import('./era-5.json?raw')),
+  () => loadJsonRaw<EmpireShape[]>(() => import('./era-6.json?raw')),
 ]
 
 export async function loadEmpiresEra(i: number): Promise<EmpireShape[]> {

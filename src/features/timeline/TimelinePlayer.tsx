@@ -32,7 +32,7 @@ const FULL_TICKS = [
   { year: -27, label: 'Empire' },
   { year: 476, label: 'West Falls' },
   { year: 1453, label: 'Constantinople' },
-  { year: 1975, label: 'Modern' },
+  { year: 2024, label: 'Today' },
 ]
 
 const ROMAN_ERAS = [
@@ -58,7 +58,7 @@ const FULL_ERAS = [
   { label: 'Early Medieval', start: 476, end: 1000 },
   { label: 'High Medieval', start: 1000, end: 1453 },
   { label: 'Early Modern', start: 1453, end: 1800 },
-  { label: 'Modern', start: 1800, end: 1975 },
+  { label: 'Modern', start: 1800, end: 2024 },
 ]
 
 export function TimelinePlayer() {
@@ -310,7 +310,7 @@ export function TimelinePlayer() {
         >
           {currentEra.label} ({formatYear(currentEra.start)} →{' '}
           {formatYear(
-            [476, 1453, 1975].includes(currentEra.end) ? currentEra.end : currentEra.end - 1,
+            [476, 1453, 2024].includes(currentEra.end) ? currentEra.end : currentEra.end - 1,
           )}
           )
         </span>

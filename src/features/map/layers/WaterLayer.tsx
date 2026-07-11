@@ -5,6 +5,14 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { buildPopup, esc } from '@/lib/wiki-popup'
 import { useMapViewport } from '@/hooks/useMapViewport'
+import waterEnrichmentRaw from '@/data/registry/water-enrichment.json?raw'
+
+// research-swarm enrichment: {name -> {desc?, qid?, wiki?}} — descriptions
+// are one attested sentence; identity verified against P31 + coordinates
+const WATER_ENRICHMENT = JSON.parse(waterEnrichmentRaw) as Record<
+  string,
+  { desc?: string; qid?: string; wiki?: string }
+>
 
 interface WaterLayerProps {
   data: FeatureCollection
@@ -31,10 +39,27 @@ function getWaterStyle(feature: Feature | undefined): PathOptions {
 function onEachWater(feature: Feature, layer: L.Layer) {
   const name = feature.properties?.name
   const modern = feature.properties?.modern
-  const label = name && modern && name !== modern ? `${name} (${modern})` : name || modern
-  if (label) {
-    ;(layer as L.Path).bindPopup(buildPopup({ title: label }))
+  const kind = feature.properties?.kind === 'lake' ? 'Lake' : 'River'
+  const title = name || modern
+  if (!title) return
+  const enrich = WATER_ENRICHMENT[name ?? ''] ?? WATER_ENRICHMENT[modern ?? '']
+  let bodyHtml: string | undefined
+  if (enrich?.desc) {
+    bodyHtml = `<div class="map-tooltip-wiki"><div class="map-tooltip-extract">${esc(enrich.desc)}</div>`
+    if (enrich.wiki) {
+      bodyHtml += `<a class="map-tooltip-readmore" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/${esc(enrich.wiki.replace(/ /g, '_'))}">Wikipedia</a>`
+    }
+    bodyHtml += '</div>'
   }
+  ;(layer as L.Path).bindPopup(
+    buildPopup({
+      title,
+      sub: kind,
+      details: modern && modern !== title ? [modern] : [],
+      source: 'DARE',
+      bodyHtml,
+    }),
+  )
 }
 
 /** Label anchor: rivers use the midpoint of their longest line; lakes the

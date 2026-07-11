@@ -8,7 +8,7 @@ interface TimelineState {
   /** Whether the timeline has EVER run for this visitor (persisted) — the
    *  play button wears a first-visit nudge until it flips. */
   hasEverPlayed: boolean
-  /** Full-timeline mode: widen range to cover all data (3700 BC – 1975 AD) */
+  /** Full-timeline mode: widen range to cover all data (3700 BC – 2024 AD) */
   fullTimeline: boolean
 }
 
@@ -24,7 +24,7 @@ interface TimelineActions {
 export const ROMAN_MIN = -753
 export const ROMAN_MAX = 1453
 export const FULL_MIN = -3700
-export const FULL_MAX = 1975
+export const FULL_MAX = 2024
 
 const PLAYED_KEY = 'atlas-played-v1'
 

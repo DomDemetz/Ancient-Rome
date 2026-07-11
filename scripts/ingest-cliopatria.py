@@ -4,10 +4,10 @@ Ingest Cliopatria (Seshat Global History Databank, CC BY 4.0) — world polity
 shapes with validity windows and Wikidata IDs — as the atlas's Empires layer.
 
 GLOBAL coverage on purpose (the "atlas of all human history" direction): no
-geographic filter. Only cap: the polity's validity must overlap the atlas
-time window (753 BC – 1453 AD). The Roman states themselves are excluded —
-our curated fine-grained territory remains authoritative for Rome/Byzantium —
-and "(Alliance …)"/"(Allegiance …)" relationship meta-records are dropped.
+geographic filter and no time filter — the FULL Cliopatria span (3400 BC –
+2024 AD) is kept. The Roman states themselves are excluded — our curated
+fine-grained territory remains authoritative for Rome/Byzantium — and
+"(Alliance …)"/"(Allegiance …)" relationship meta-records are dropped.
 
 Source: github.com/Seshat-Global-History-Databank/cliopatria (v0.2.0)
 Output: src/data/empires/empires.json
@@ -20,9 +20,9 @@ from atomic_json import dump_atomic
 
 SRC = "/private/tmp/cliopatria_polities_only.geojson"
 OUT = os.path.join(os.path.dirname(__file__), "..", "src", "data", "empires", "empires.json")
-# Full-timeline window (FULL_MIN/FULL_MAX in useTimelineStore) — Cliopatria
-# itself spans 3400 BC – 2024 AD
-MIN_YEAR, MAX_YEAR = -3700, 1975
+# Full-timeline window (FULL_MIN/FULL_MAX in useTimelineStore) — covers the
+# entire Cliopatria span (3400 BC – 2024 AD), nothing dropped on time
+MIN_YEAR, MAX_YEAR = -3700, 2025
 EXCLUDE = {
     "Roman Kingdom", "Roman Republic", "Roman Empire",
     "Eastern Roman Empire", "Western Roman Empire", "Byzantine Empire",

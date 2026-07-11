@@ -534,7 +534,7 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
   showEmpires: ensureLoaded('empiresData', 'empiresLoading', async () => {
     // progressive: paint the CURRENT era's polities first (~2-5 MB), then
     // pull the remaining era buckets in the background so playback and
-    // scrubbing across the full 2,200 years still find every shape
+    // scrubbing across the full 3400 BC – 2024 AD span still find every shape
     const { loadEmpiresEra, empireEraIndex, dedupeEmpires, EMPIRE_ERAS } =
       await import('@/data/empires')
     const first = empireEraIndex(useTimelineStore.getState().currentYear)

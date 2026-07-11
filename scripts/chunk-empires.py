@@ -11,7 +11,7 @@ import json
 import os
 
 BASE = os.path.join(os.path.dirname(__file__), "..", "src", "data", "empires")
-BUCKETS = [(-3700, -800), (-800, 0), (0, 500), (500, 1000), (1000, 1500), (1500, 2000)]
+BUCKETS = [(-3700, -800), (-800, 0), (0, 500), (500, 1000), (1000, 1500), (1500, 1800), (1800, 2025)]
 
 d = json.load(open(os.path.join(BASE, "empires.json")))
 for i, (lo, hi) in enumerate(BUCKETS):
