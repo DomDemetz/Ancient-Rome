@@ -620,37 +620,46 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
   }),
 }
 
-// Add registry-driven dataset loaders for preset/story support
-for (const ds of DATASET_REGISTRY) {
-  const showKey = `showDataset:${ds.id}`
-  LAYER_LOADERS[showKey] = async (set: StoreSet, get: StoreGet) => {
-    const state = get().datasetState[ds.id]
-    if (state?.data != null || state?.loading) return
+/** Load a dataset chunk into datasetState (idempotent; the ONE loader all
+ *  four call sites share — panel toggle, preset, story, persisted restore). */
+async function loadDatasetInto(
+  set: StoreSet,
+  get: StoreGet,
+  dsId: string,
+  show: boolean,
+): Promise<void> {
+  const ds = get().datasetState[dsId]
+  if (!ds || ds.data != null || ds.loading) return
+  set({
+    datasetState: { ...get().datasetState, [dsId]: { ...ds, loading: true } },
+  } as Partial<MapLayerState>)
+  try {
+    const { loadAtlasCategory } = await import('@/data/entities/atlas')
+    const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
+    if (!cfg) return
+    const data = await loadAtlasCategory(cfg.file)
     set({
       datasetState: {
         ...get().datasetState,
-        [ds.id]: { show: false, data: null, loading: true },
+        [dsId]: { show, data, loading: false },
       },
     } as Partial<MapLayerState>)
-    try {
-      const { loadAtlasCategory } = await import('@/data/entities/atlas')
-      const data = await loadAtlasCategory(ds.file)
-      set({
-        datasetState: {
-          ...get().datasetState,
-          [ds.id]: { show: true, data, loading: false },
-        },
-      } as Partial<MapLayerState>)
-    } catch (err) {
-      console.error(`Dataset load failed: ${ds.id}`, err)
-      set({
-        datasetState: {
-          ...get().datasetState,
-          [ds.id]: { ...get().datasetState[ds.id], loading: false },
-        },
-      } as Partial<MapLayerState>)
-    }
+  } catch (err) {
+    console.error(`Dataset load failed: ${dsId}`, err)
+    set({
+      datasetState: {
+        ...get().datasetState,
+        [dsId]: { ...get().datasetState[dsId], loading: false },
+      },
+      loadError: `Failed to load ${dsId} layer`,
+    } as Partial<MapLayerState>)
   }
+}
+
+// Add registry-driven dataset loaders for preset/story support
+for (const ds of DATASET_REGISTRY) {
+  LAYER_LOADERS[`showDataset:${ds.id}`] = (set: StoreSet, get: StoreGet) =>
+    loadDatasetInto(set, get, ds.id, true)
 }
 
 export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, get) => ({
@@ -885,26 +894,8 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     }
     if (ds.loading) return
 
-    set({ datasetState: { ...get().datasetState, [id]: { ...ds, loading: true } } })
-    try {
-      const { loadAtlasCategory } = await import('@/data/entities/atlas')
-      const config = DATASET_REGISTRY.find((d) => d.id === id)
-      if (!config) return
-      const data = await loadAtlasCategory(config.file)
-      set({
-        datasetState: {
-          ...get().datasetState,
-          [id]: { show: true, data, loading: false },
-        },
-        activePreset: 'custom',
-      })
-    } catch (err) {
-      console.error(`Failed to load dataset ${id}:`, err)
-      set({
-        datasetState: { ...get().datasetState, [id]: { ...ds, loading: false } },
-        loadError: `Failed to load ${id} layer`,
-      })
-    }
+    set({ activePreset: 'custom' })
+    await loadDatasetInto(set, get, id, true)
   },
 
   toggleSettlementType: (type: number) => {
@@ -967,26 +958,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
         const dsId = layerKey.slice('showDataset:'.length)
         const ds = get().datasetState[dsId]
         if (ds && !ds.data && !ds.loading) {
-          promises.push(
-            (async () => {
-              set({
-                datasetState: {
-                  ...get().datasetState,
-                  [dsId]: { ...get().datasetState[dsId], loading: true },
-                },
-              })
-              const { loadAtlasCategory } = await import('@/data/entities/atlas')
-              const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
-              if (!cfg) return
-              const data = await loadAtlasCategory(cfg.file)
-              set({
-                datasetState: {
-                  ...get().datasetState,
-                  [dsId]: { show: true, data, loading: false },
-                },
-              })
-            })(),
-          )
+          promises.push(loadDatasetInto(set, get, dsId, true))
         }
       } else {
         const load = LAYER_LOADERS[layerKey]
@@ -1017,26 +989,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
         const dsId = layerKey.slice('showDataset:'.length)
         const ds = get().datasetState[dsId]
         if (ds && !ds.data && !ds.loading) {
-          promises.push(
-            (async () => {
-              set({
-                datasetState: {
-                  ...get().datasetState,
-                  [dsId]: { ...get().datasetState[dsId], loading: true },
-                },
-              })
-              const { loadAtlasCategory } = await import('@/data/entities/atlas')
-              const cfg = DATASET_REGISTRY.find((d) => d.id === dsId)
-              if (!cfg) return
-              const data = await loadAtlasCategory(cfg.file)
-              set({
-                datasetState: {
-                  ...get().datasetState,
-                  [dsId]: { show: true, data, loading: false },
-                },
-              })
-            })(),
-          )
+          promises.push(loadDatasetInto(set, get, dsId, true))
         }
       } else {
         const load = LAYER_LOADERS[layerKey]

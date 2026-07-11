@@ -6,7 +6,7 @@ import type { DatasetConfig } from '@/data/datasetRegistry'
 import { useMapViewport } from '@/hooks/useMapViewport'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { appendCrossRefTooltip, appendWikiTooltip, buildPopup, esc } from '@/lib/wiki-popup'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { useEntityKnowledge } from '@/hooks/useEntityKnowledge'
 import { formatYear } from '@/lib/geo'
 import { inWindow } from './temporal'
 
@@ -44,10 +44,6 @@ function spatialSample<T extends { la: number; lo: number }>(items: T[], gridSiz
   })
 }
 
-/** structural DARE nodes carry their place-node id in `d` — their
- *  knowledge lives in the places store, not the features store */
-const NODE_KEY = /^(dare|pl|wd)-/
-
 /** provenance codes stamped at emit (build-entity-atlas.py) */
 const SOURCE_LABELS: Record<string, string> = {
   v: 'vici.org',
@@ -64,8 +60,7 @@ const SOURCE_LABELS: Record<string, string> = {
 export function AtlasLayer({ data, config }: AtlasLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
-  const knowledge = useWikiEnrichment('knowledge-features')
-  const placeKnowledge = useWikiEnrichment('knowledge-places')
+  const knowledge = useEntityKnowledge()
   const popupRef = useRef<L.Popup | null>(null)
   const currentYear = useTimelineStore((s) => s.currentYear)
 
@@ -116,16 +111,13 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
             : formatYear(e.s),
         )
       }
-      // one lookup path: entity id first, adjudicated detail key second;
-      // node-keyed rows (structural DARE places) resolve via the places store
-      const isNode = !!e.d && NODE_KEY.test(e.d)
-      const store = isNode ? placeKnowledge : knowledge
-      const layerName = isNode ? 'knowledge-places' : 'knowledge-features'
-      const kEntry = (!isNode ? store?.[e.i] : undefined) ?? (e.d ? store?.[e.d] : undefined)
-      const kKey = !isNode && store?.[e.i] ? e.i : (e.d ?? e.i)
+      // ONE knowledge lookup (useEntityKnowledge) — no keyspace branching here
+      const { entry: kEntry, layerName, key: kKey } = knowledge.resolve(e.i, e.d)
       let bodyHtml: string | undefined
       if (kEntry?.extract) {
-        bodyHtml = appendWikiTooltip('', kKey, store, layerName, undefined, { noBadge: true })
+        bodyHtml = appendWikiTooltip('', kKey, { [kKey]: kEntry }, layerName, undefined, {
+          noBadge: true,
+        })
       } else if (kEntry?.crossRef) {
         bodyHtml = appendCrossRefTooltip('', kEntry.crossRef, { crKey: kKey }, { noBadge: true })
       }
@@ -150,7 +142,7 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       }
       popupRef.current.setLatLng([e.la, e.lo]).setContent(`<span>${html}</span>`).openOn(map)
     },
-    [knowledge, placeKnowledge, map],
+    [knowledge, map],
   )
   const openPopupRef = useRef(openPopup)
   useEffect(() => {
