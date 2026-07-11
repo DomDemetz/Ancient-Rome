@@ -18,7 +18,10 @@ D = os.path.join(BASE, "src", "data")
 CATALOG = {
     "places/places.json": ("DARE + Chandler/Reba + Pleiades + Wikidata + Vici (merged)", "CC-BY / CC-BY-SA / CC0 mix — see DATA-SOURCES.md", "built from sources below", "build-entities.py"),
     "territories/territories.json": ("Cliopatria (Seshat)", "CC-BY 4.0", "v0.2.0 (2026-05)", "build-territories-cliopatria.py"),
-    "empires/empires.json": ("Cliopatria (Seshat)", "CC-BY 4.0", "v0.2.0 (2026-05)", "ingest-cliopatria.py"),
+    "empires/empires.json": ("Cliopatria (Seshat)", "CC-BY 4.0", "v0.2.0 (2026-05), full 3400 BC–2024 AD span", "ingest-cliopatria.py"),
+    "dare/provinces.json": ("curated Principate set + DARMC/MPS late-antique snapshots", "mixed; DARMC portion CC-BY-NC-SA 4.0", "DARMC fetched 2026-07-11", "ingest-darmc-provinces.py"),
+    "dare/islamic-conquests.json": ("DARMC/MPS Islamic conquest phases 622-750", "CC-BY-NC-SA 4.0", "fetched 2026-07-11", "ingest-islamic-conquests.py"),
+    "empires/seshat.json": ("Seshat Databank API (capitals, polity descriptions)", "CC-BY (Seshat)", "fetched 2026-07-11", "build-seshat-enrichment.py"),
     "vici-sites.json": ("vici.org SQL dump", "CC-BY-SA 3.0", "dump 2023-10-08", "ingest-vici.ts"),
     "dare/settlements.json": ("DARE (Digital Atlas of the Roman Empire)", "CC-BY 4.0", "via vici dump 2023-10-08", "ingest scripts (dare)"),
     "cities/historical-cities.json": ("Chandler via Reba, Reitsma & Seto 2016", "CC-BY 4.0", "FigShare chandlerV2", "ingest-chandler-cities.py"),

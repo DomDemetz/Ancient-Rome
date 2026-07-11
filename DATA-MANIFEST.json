@@ -13,6 +13,26 @@
       "producer": "scripts/ingest-chandler-cities.py"
     },
     {
+      "file": "src/data/dare/islamic-conquests.json",
+      "records": 10,
+      "bytes": 434071,
+      "sha256_12": "f001f9624cac",
+      "source": "DARMC/MPS Islamic conquest phases 622-750",
+      "license": "CC-BY-NC-SA 4.0",
+      "version": "fetched 2026-07-11",
+      "producer": "scripts/ingest-islamic-conquests.py"
+    },
+    {
+      "file": "src/data/dare/provinces.json",
+      "records": 214,
+      "bytes": 475133,
+      "sha256_12": "ff6f368dbc94",
+      "source": "curated Principate set + DARMC/MPS late-antique snapshots",
+      "license": "mixed; DARMC portion CC-BY-NC-SA 4.0",
+      "version": "DARMC fetched 2026-07-11",
+      "producer": "scripts/ingest-darmc-provinces.py"
+    },
+    {
       "file": "src/data/dare/settlements.json",
       "records": 24319,
       "bytes": 3683236,
@@ -29,8 +49,18 @@
       "sha256_12": "7fbc8ed83aae",
       "source": "Cliopatria (Seshat)",
       "license": "CC-BY 4.0",
-      "version": "v0.2.0 (2026-05)",
+      "version": "v0.2.0 (2026-05), full 3400 BC–2024 AD span",
       "producer": "scripts/ingest-cliopatria.py"
+    },
+    {
+      "file": "src/data/empires/seshat.json",
+      "records": 670,
+      "bytes": 484201,
+      "sha256_12": "46762615f41c",
+      "source": "Seshat Databank API (capitals, polity descriptions)",
+      "license": "CC-BY (Seshat)",
+      "version": "fetched 2026-07-11",
+      "producer": "scripts/build-seshat-enrichment.py"
     },
     {
       "file": "src/data/epigraphy/epigraphy.json",

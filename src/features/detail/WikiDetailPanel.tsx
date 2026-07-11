@@ -353,14 +353,18 @@ function EmpireDetailContent({ featureId }: { featureId: string }) {
     qid?: string
     area: number
   } | null>(null)
+  const [seshat, setSeshat] = useState<import('@/data/empires').SeshatInfo | null>(null)
 
   useEffect(() => {
-    import('@/data/empires').then(({ loadEmpires }) =>
+    import('@/data/empires').then(({ loadEmpires, loadSeshat }) => {
       loadEmpires().then((data) => {
         const e = data.find((d) => d.id === featureId)
-        if (e) setEmpire(e)
-      }),
-    )
+        if (e) {
+          setEmpire(e)
+          loadSeshat().then((s) => setSeshat(s[e.name] ?? null))
+        }
+      })
+    })
   }, [featureId])
 
   if (!empire) {
@@ -389,12 +393,16 @@ function EmpireDetailContent({ featureId }: { featureId: string }) {
       value: `${Math.round(empire.area).toLocaleString()} km²`,
       source: 'Cliopatria',
     })
+  if (seshat?.c) facts.push({ label: 'Capital', value: seshat.c, source: 'Seshat Databank' })
 
   return (
     <DetailShell
       kicker="Empire"
       onClose={closeFeature}
       title={empire.name}
+      body={
+        seshat?.d ? <p className="text-sm leading-relaxed text-white/70">{seshat.d}</p> : undefined
+      }
       facts={facts}
       sources={{ chips: ['Cliopatria / Seshat Global History Databank, CC BY 4.0'] }}
       links={

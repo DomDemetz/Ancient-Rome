@@ -29,6 +29,12 @@ export async function loadLimes(): Promise<FeatureCollection> {
   return loadJson<FeatureCollection>(() => import('./limes.json'))
 }
 
+/** DARMC Islamic conquest phases 622-750 (CC BY-NC-SA 4.0) — five waves,
+ *  each visible from its startYear. Built by scripts/ingest-islamic-conquests.py. */
+export async function loadIslamicConquests(): Promise<FeatureCollection> {
+  return loadJson<FeatureCollection>(() => import('./islamic-conquests.json'))
+}
+
 export async function loadPresenceGrid(): Promise<PresenceGrid> {
   return loadJson<PresenceGrid>(() => import('./presence-grid.json'))
 }

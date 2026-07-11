@@ -206,6 +206,12 @@ export const LAYER_GROUPS: LayerGroup[] = [
         activeClass: 'bg-rose-900/80 border-rose-700 text-rose-100 hover:bg-rose-800/80',
       },
       {
+        key: 'IslamicConquests',
+        label: 'Islamic Conquests',
+        activeClass:
+          'bg-emerald-900/80 border-emerald-700 text-emerald-100 hover:bg-emerald-800/80',
+      },
+      {
         key: 'Presence',
         label: 'Presence',
         activeClass: 'bg-stone-800/80 border-stone-600 text-stone-100 hover:bg-stone-700/80',
@@ -301,6 +307,7 @@ export const ALL_LAYER_KEYS = [
   'showCities',
   'showEmpires',
   'showLimes',
+  'showIslamicConquests',
   'showPresence',
   'showProvinces',
   'showFortifications',
@@ -324,6 +331,7 @@ interface MapLayerState {
   empiresData: EmpireShape[] | null
   empiresLoading: boolean
   showLimes: boolean
+  showIslamicConquests: boolean
   showPresence: boolean
   showProvinces: boolean
   showFortifications: boolean
@@ -332,6 +340,7 @@ interface MapLayerState {
   roadsData: FeatureCollection | null
   placesData: PlaceNode[] | null
   limesData: FeatureCollection | null
+  islamicConquestsData: FeatureCollection | null
   presenceData: PresenceGrid | null
   provincesData: FeatureCollection | null
   provinceLabels: ProvinceLabel[] | null
@@ -342,6 +351,7 @@ interface MapLayerState {
   roadsLoading: boolean
   placesLoading: boolean
   limesLoading: boolean
+  islamicConquestsLoading: boolean
   presenceLoading: boolean
   provincesLoading: boolean
   fortificationsLoading: boolean
@@ -396,6 +406,7 @@ interface MapLayerActions {
   toggleCities: () => void
   toggleEmpires: () => void
   toggleLimes: () => void
+  toggleIslamicConquests: () => void
   togglePresence: () => void
   toggleProvinces: () => void
   toggleFortifications: () => void
@@ -554,6 +565,14 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadLimes } = await import('@/data/dare')
     return { limesData: await loadLimes() }
   }),
+  showIslamicConquests: ensureLoaded(
+    'islamicConquestsData',
+    'islamicConquestsLoading',
+    async () => {
+      const { loadIslamicConquests } = await import('@/data/dare')
+      return { islamicConquestsData: await loadIslamicConquests() }
+    },
+  ),
   showPresence: ensureLoaded('presenceData', 'presenceLoading', async () => {
     const { loadPresenceGrid } = await import('@/data/dare')
     return { presenceData: await loadPresenceGrid() }
@@ -676,6 +695,9 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   showLimes: false,
   limesData: null,
   limesLoading: false,
+  showIslamicConquests: false,
+  islamicConquestsData: null,
+  islamicConquestsLoading: false,
   showPresence: false,
   presenceData: null,
   presenceLoading: false,
@@ -778,6 +800,24 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
       const { loadLimes } = await import('@/data/dare')
       return { data: await loadLimes() }
     })(set, get),
+
+  toggleIslamicConquests: async () => {
+    await makeToggle(
+      'showIslamicConquests',
+      'islamicConquestsData',
+      'islamicConquestsLoading',
+      async () => {
+        const { loadIslamicConquests } = await import('@/data/dare')
+        return { data: await loadIslamicConquests() }
+      },
+    )(set, get)
+    // Bounded story layer: every wave starts 622+, so at Roman years the
+    // toggle would light up an EMPTY map ("I cannot see it") — meet the
+    // viewer at the first conquests instead, like presets set their year.
+    if (get().showIslamicConquests && useTimelineStore.getState().currentYear < 622) {
+      useTimelineStore.getState().setYear(632)
+    }
+  },
 
   togglePresence: () =>
     makeToggle('showPresence', 'presenceData', 'presenceLoading', async () => {

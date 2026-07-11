@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { GeoJSON, Marker, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { EmpireShape } from '@/data/empires'
@@ -109,6 +109,16 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
   const { zoom } = useMapViewport()
   const map = useMap()
 
+  // Seshat attributes (capitals) for the click popup — keyed by polity name
+  const seshatRef = useRef<Record<string, import('@/data/empires').SeshatInfo> | null>(null)
+  useEffect(() => {
+    import('@/data/empires').then(({ loadSeshat }) =>
+      loadSeshat().then((s) => {
+        seshatRef.current = s
+      }),
+    )
+  }, [])
+
   const visible = useMemo(
     () => data.filter((e) => e.from <= currentYear && e.to >= currentYear),
     [data, currentYear],
@@ -159,19 +169,32 @@ export function EmpiresLayer({ data }: EmpiresLayerProps) {
       const hits = visible.filter((e) => inGeometry(lng, lat, e.geometry as GeoJSON.GeometryObject))
       if (!hits.length) return
       const e = hits.sort((a, b) => a.area - b.area)[0]
-      L.popup({ closeButton: false })
+      const render = () =>
+        buildPopup({
+          title: e.name,
+          details: [
+            `${fmtYear(e.from)} – ${fmtYear(e.to)}`,
+            ...(seshatRef.current?.[e.name]?.c ? [`Capital: ${seshatRef.current[e.name].c}`] : []),
+          ],
+          readMore:
+            e.wp || e.qid
+              ? { id: e.id, layer: 'empires', entityId: e.id, label: 'Read more' }
+              : undefined,
+        })
+      const popup = L.popup({ closeButton: false })
         .setLatLng(ev.latlng)
-        .setContent(
-          buildPopup({
-            title: e.name,
-            details: [`${fmtYear(e.from)} – ${fmtYear(e.to)}`],
-            readMore:
-              e.wp || e.qid
-                ? { id: e.id, layer: 'empires', entityId: e.id, label: 'Read more' }
-                : undefined,
+        .setContent(render())
+        .openOn(map)
+      // early clicks race the seshat chunk (it queues behind the era data) —
+      // refresh the popup once attributes arrive instead of losing the line
+      if (!seshatRef.current) {
+        import('@/data/empires').then(({ loadSeshat }) =>
+          loadSeshat().then((s) => {
+            seshatRef.current = s
+            if (popup.isOpen()) popup.setContent(render())
           }),
         )
-        .openOn(map)
+      }
     }
     map.on('click', onClick)
     return () => {

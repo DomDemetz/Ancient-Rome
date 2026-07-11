@@ -14,6 +14,7 @@ import { MonumentLabels } from './overlays/MonumentLabels'
 import { RoadLayer } from './layers/RoadLayer'
 import { PlacesLayer } from './layers/PlacesLayer'
 import { LimesLayer } from './layers/LimesLayer'
+import { IslamicConquestsLayer } from './layers/IslamicConquestsLayer'
 import { PresenceLayer } from './layers/PresenceLayer'
 import { ProvinceLayer } from './layers/ProvinceLayer'
 import { FortificationLayer } from './layers/FortificationLayer'
@@ -318,6 +319,7 @@ export function MapView() {
     showEmpires,
     empiresData,
     showLimes,
+    showIslamicConquests,
     showPresence,
     showProvinces,
     showFortifications,
@@ -333,6 +335,7 @@ export function MapView() {
     roadsData,
     placesData,
     limesData,
+    islamicConquestsData,
     presenceData,
     provincesData,
     provinceLabels,
@@ -376,6 +379,8 @@ export function MapView() {
   if (dareActive) active.push('dare')
   if (showItinereRoads) active.push('itinere')
   if (showBattles) active.push('battles')
+  if (showProvinces) active.push('provinces')
+  if (showIslamicConquests) active.push('conquests')
   if (showTradeNetwork) active.push('orbis')
   if (showNotablePeople) active.push('people')
   if (DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show)) active.push('sites')
@@ -452,6 +457,9 @@ export function MapView() {
               {showWater && waterData && <WaterLayer data={waterData} />}
               {showPresence && presenceData && <PresenceLayer data={presenceData} />}
               {showLimes && limesData && <LimesLayer data={limesData} />}
+              {showIslamicConquests && islamicConquestsData && (
+                <IslamicConquestsLayer data={islamicConquestsData} />
+              )}
               {showFortifications && fortificationsData && (
                 <FortificationLayer data={fortificationsData} />
               )}

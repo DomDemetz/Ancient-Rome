@@ -10,6 +10,10 @@ export const BASE_SOURCES = {
   dare: 'DARE data &copy; Johan &Aring;hlfeldt, CC BY-SA 3.0',
   itinere: 'Itiner-e data &copy; Pau de Soto, CC BY-NC 4.0',
   battles: 'Battle data: Roman-Battles-Droid',
+  provinces:
+    'Provinces: <a href="https://darmc.harvard.edu">DARMC / Mapping Past Societies</a> (CC BY-NC-SA 4.0) · AWMC',
+  conquests:
+    'Islamic conquests: <a href="https://darmc.harvard.edu">DARMC / Mapping Past Societies</a> (CC BY-NC-SA 4.0)',
   orbis: 'ORBIS v2 &copy; Stanford University',
   people: 'Notable People: Sciences-Po cross-verified database, CC-BY-SA',
   sites:

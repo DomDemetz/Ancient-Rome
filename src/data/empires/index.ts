@@ -71,6 +71,24 @@ export function dedupeEmpires(...batches: EmpireShape[][]): EmpireShape[] {
   return out
 }
 
+/** Seshat Databank attributes joined per Cliopatria polity NAME (QIDs are
+ *  reused across related polities — Roman & Eastern Roman are both Q12544 —
+ *  so name is the join key). Built by scripts/build-seshat-enrichment.py. */
+export interface SeshatInfo {
+  /** Seshat polity code, e.g. ir_sassanid_emp_1 */
+  sid: string
+  /** capital name(s), ' · '-joined */
+  c?: string
+  /** [lat, lng] of the first located capital */
+  cl?: [number, number]
+  /** general_description prose, citations stripped */
+  d?: string
+}
+
+export async function loadSeshat(): Promise<Record<string, SeshatInfo>> {
+  return loadJsonRaw<Record<string, SeshatInfo>>(() => import('./seshat.json?raw'))
+}
+
 /** Full monolith (all eras) — kept for tooling; the map loads eras. */
 export async function loadEmpires(): Promise<EmpireShape[]> {
   const all = await Promise.all(ERA_LOADERS.map((l) => l()))

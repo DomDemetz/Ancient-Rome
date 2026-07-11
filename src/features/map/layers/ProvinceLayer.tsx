@@ -131,9 +131,16 @@ export function ProvinceLayer({ data, labels, changes, senatorialProvinces }: Pr
 
   const onEachProvince = useCallback((feature: Feature, layer: L.Layer) => {
     const path = layer as L.Path
-    const name = feature.properties?.name
+    const { name, diocese, period, source } = feature.properties ?? {}
     if (name) {
-      path.bindPopup(buildPopup({ title: name }))
+      path.bindPopup(
+        buildPopup({
+          title: name,
+          sub: diocese ? `Province · Diocese of ${diocese}` : 'Province',
+          details: period ? [`Organization as of ${period}`] : undefined,
+          source: source === 'DARMC' ? 'DARMC / Mapping Past Societies' : undefined,
+        }),
+      )
     }
     path.on('click', () => {
       if (selectedRef.current && selectedRef.current !== path) {
