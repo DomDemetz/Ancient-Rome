@@ -232,7 +232,6 @@
  },
  "vici:vici-10638": {
   "desc": "Theatre of Gisacum, the vast Gallo-Roman sanctuary town near Évreux; among the largest in Roman Gaul at c. 106m diameter, holding several thousand spectators, its entrance aligned on the adjoining temple's axis.",
-  "qid": "Q2243148",
   "wiki": "Gisacum"
  },
  "vici:vici-10693": {
@@ -241,12 +240,10 @@
  },
  "vici:vici-10762": {
   "desc": "Theatre of Lugdunum Convenarum (Saint-Bertrand-de-Comminges), the Roman town traditionally linked to Pompey's 72 BC foundation; its cavea was remodelled around the mid-1st century AD with a large porticus post scaenam.",
-  "qid": "Q1876013",
   "wiki": "Lugdunum Convenarum"
  },
  "vici:vici-10866": {
   "desc": "Hippodrome (circus) of Antinoöpolis, the city Hadrian founded in 130 AD to honour his drowned favourite Antinous; roughly 307m by 77m, it hosted the Antinoeia games of chariot racing and athletic contests.",
-  "qid": "Q124281",
   "wiki": "Antinoöpolis"
  },
  "vici:vici-10904": {
@@ -257,7 +254,6 @@
  },
  "vici:vici-10918": {
   "desc": "Theatre-temple complex of the Samnite Pentri federal sanctuary at Pietrabbondante (identified in older scholarship with the town Bovianum Vetus), built in the late 2nd century BC with its cavea cut into the hillside below the larger Temple B.",
-  "qid": "Q21552374",
   "wiki": "Pietrabbondante"
  },
  "vici:vici-10939": {
@@ -267,7 +263,6 @@
  },
  "vici:vici-10943": {
   "desc": "Hellenistic theatre of the Carian port city Kaunos near modern Dalyan, seating roughly 5,000 across nine wedges of 33 rows with eight stairways, overlooking the city's silted harbor.",
-  "qid": "Q608095",
   "wiki": "Kaunos"
  },
  "vici:vici-10959": {
@@ -276,7 +271,6 @@
  },
  "vici:vici-11050": {
   "desc": "Roman-era (2nd-century AD) theatre of Gythion, Sparta's ancient port on the Laconian Gulf; excavated from 1891 by Andreas Skias, its marble cavea held twelve rows in five wedges with a front row of backed seats reserved for officials.",
-  "qid": "Q992256",
   "wiki": "Gytheion"
  },
  "vici:vici-11094": {
@@ -285,7 +279,6 @@
  },
  "vici:vici-11100": {
   "desc": "Theatre of Hierapolis (Phrygia), first built in the 2nd century BC, wrecked by the earthquake of 60 AD, then rebuilt under the Flavians in works lasting until c. 206 AD; among Anatolia's largest theatres, with an estimated capacity of 10,000-12,500.",
-  "qid": "Q7428276",
   "wiki": "Hierapolis"
  },
  "vici:vici-11143": {
@@ -319,6 +312,37 @@
  "vici:vici-11319": {
   "desc": "Small basalt-built theatre (capacity around 2,000) at Philippopolis, the Hauran village emperor Philip the Arab (r. 244-249) rebuilt as a colonia; construction halted, unfinished, at his death."
  },
+ "vici:vici-11324": {
+  "desc": "Hellenistic theatre (15 tiers, capacity ~3,000) of ancient Phthiotic Thebes, identified and partly excavated in 1992–93; in the Roman period it was remodeled into an arena for wild-beast fights.",
+  "qid": "Q490583",
+  "wiki": "Phthiotic Thebes"
+ },
+ "vici:vici-11325": {
+  "desc": "Well-preserved Hellenistic theatre of Pinara in Lycia, built into a hillside in the late 2nd century BC with a capacity of about 3,200; nearly all its stone seating survives intact.",
+  "wiki": "Pinara"
+ },
+ "vici:vici-11345": {
+  "desc": "Theatre of ancient Samos near Pythagoreion, on the slope below the sanctuary of Panagia Spiliani; construction is dated to the 4th century BC with Roman-era rebuilding, though little masonry survives today."
+ },
+ "vici:vici-11353": {
+  "desc": "Mountain theatre of Selge in Pisidia, built in the 2nd century AD with a 104 m cavea seating roughly 9,000–10,000; later reduced and converted into an arena in the 3rd century.",
+  "wiki": "Selge"
+ },
+ "vici:vici-11403": {
+  "desc": "Rural Gallo-Roman theatre at Les Bardiaux (Arleuf, Morvan), built around the late 2nd century AD with six concentric tiers seating 600–700; discovered in 1971, it likely also hosted public assemblies.",
+  "qid": "Q2383749"
+ },
+ "vici:vici-11406": {
+  "desc": "Large Gallo-Roman theatre (110 m diameter, seating up to 8,000–10,000) at the sanctuary of Les Vaux-de-la-Celle, Genainville; sometimes, inconclusively, identified with the Peutinger Table's station of Petromantalum/Petrum Viacum.",
+  "qid": "Q22916107"
+ },
+ "vici:vici-11409": {
+  "desc": "Roman theatre of Teanum Sidicinum (Teano), among Italy's largest with an 85 m cavea seating 6,000–7,000; built from the late 2nd century BC, systematically excavated by Werner Johannowsky, 1961–1976."
+ },
+ "vici:vici-11413": {
+  "desc": "Despite being labeled 'Thapsus,' this theatre stands at Rusicade (modern Skikda), the largest Roman theatre in Algeria, built under Hadrian; long quarried for stone, only fragments survive today.",
+  "qid": "Q62061143"
+ },
  "vici:vici-11414": {
   "desc": "Ancient Greek theatre of Thasos, cut into the acropolis hillside; first built early 3rd century BC with a marble stage front dedicated to Dionysus by Lysistratos, later used from the 1st century AD for beast hunts and gladiatorial combat."
  },
@@ -327,7 +351,6 @@
  },
  "vici:vici-11444": {
   "desc": "2nd-century AD Roman hippodrome at Tyre, 480m by 90m and seating 20,000, among the largest and best-preserved in the Roman world; hosted the Heraclia games for Melqart-Heracles every four years.",
-  "qid": "Q28194835",
   "wiki": "Tyre Hippodrome"
  },
  "vici:vici-11449": {
@@ -351,6 +374,55 @@
   "qid": "Q2704249",
   "wiki": "Odeon of Pericles"
  },
+ "vici:vici-11528": {
+  "desc": "The smaller of Gadara's two Roman theatres, built of basalt on the acropolis's western slope in the Severan period (193-235 AD) with seating for about 3,000; 1960s excavations uncovered a marble statue of Tyche, now in the Umm Qais museum."
+ },
+ "vici:vici-11532": {
+  "desc": "Begun under Septimius Severus around AD 203 and enlarged by Constantine I after 330 as Constantinople's chariot-racing arena and ceremonial center; site of the AD 532 Nika riots, its spina still marked by an Egyptian obelisk and the Serpent Column.",
+  "wiki": "Hippodrome of Constantinople"
+ },
+ "vici:vici-11548": {
+  "desc": "Built as a bouleuterion around the 1st century BC and rebuilt as an odeon around AD 160; Strabo calls it a gerontikon, the meeting hall of the city elders, with 12 rows of seats holding roughly 600-700 people."
+ },
+ "vici:vici-11555": {
+  "desc": "Roman theatre built in the city founded under Hadrian (who visited the region in AD 125); its cavea, 58 m across with 24 limestone rows, seated about 3,500-4,000. Rediscovered after a 1970s landslide, confirmed as Hadrianopolis by 2002 excavations.",
+  "wiki": "Hadrianopolis (Epirus)"
+ },
+ "vici:vici-11564": {
+  "desc": "Late Hellenistic or early imperial theatre of Magnesia on the Maeander, left unfinished and only discovered by excavation in 1984; the cavea survives but no trace remains of its probably wooden stage building.",
+  "qid": "Q78804798"
+ },
+ "vici:vici-11565": {
+  "desc": "Built around 370 BC by the architect Polycleitus the Younger for the newly founded federal capital of the Arcadian League; Pausanias called it the largest theatre in Greece, holding up to about 20,000 and doubling as the League's assembly hall.",
+  "qid": "Q22681531"
+ },
+ "vici:vici-11571": {
+  "desc": "Roman odeon of Patras built in the first half of the 2nd century AD, praised by Pausanias as second only to the Odeon of Herodes Atticus; destroyed by fire in the late 3rd century, rediscovered in 1889, and restored in 1959-61.",
+  "qid": "Q16327108"
+ },
+ "vici:vici-11591": {
+  "desc": "Theatre of Uthina (Oudhna), near the Numidian-Roman colony's forum and capitol; unlike the city's well-preserved 16,000-seat amphitheatre, it survives only as a shallow depression in the hillside."
+ },
+ "vici:vici-11593": {
+  "desc": "Hellenistic theatre on Pergamon's upper acropolis, built c. 225-200 BC and enlarged under Eumenes II; the steepest theatre of the ancient world, with 78 rows seating about 10,000, fronted by a 247m colonnaded terrace and the Temple of Dionysus."
+ },
+ "vici:vici-11598": {
+  "desc": "Gallo-Roman theatre at Les Bouchauds (ancient Germanicomagus) in Charente, cut into a hillside beside a sanctuary; at 105.6m diameter the largest theatre in Aquitaine, seating 5,000-6,000, discovered in 1865 and protected as a historic monument since 1881.",
+  "qid": "Q3527840"
+ },
+ "vici:vici-11671": {
+  "desc": "Circus built by Tiberius in AD 14 at Bovillae, ancestral town of the Julian family, in honor of the deified Augustus; measured c. 337 x 69m, with yearly imperial-cult games instituted there from AD 16."
+ },
+ "vici:vici-11713": {
+  "desc": "Roman amphitheatre of Tarentum (Taranto), southwest of the Chiesa del Carmine, possibly built over one of the city's two unexcavated Greek theatres; no remains are visible today."
+ },
+ "vici:vici-11759": {
+  "desc": "Small Roman theatre within Pergamon's Asclepieion healing sanctuary, seating about 3,500; built into the sanctuary's northwest corner, with performances forming part of the complex's ritual therapy during its Hadrianic-era remodeling."
+ },
+ "vici:vici-11768": {
+  "desc": "Stadium of Ephesus, first laid out by Lysimachus in the 3rd century BC and rebuilt for chariot races, athletics, and beast/gladiator fights under Nero; U-shaped, 229 x 28m, its southern seating cut into the slope of Mount Pion.",
+  "qid": "Q97341090"
+ },
  "vici:vici-11769": {
   "desc": "Small covered theater built c. 150 AD by the wealthy Ephesian Publius Vedius Antoninus and his wife Flavia Papiana; seated roughly 1,400–1,500 and served both as a concert hall (odeon) and as the city's council chamber (bouleuterion).",
   "qid": "Q56633101",
@@ -358,7 +430,6 @@
  },
  "vici:vici-11776": {
   "desc": "Roman stadium of Philippopolis, built in the early 2nd century AD under Hadrian, about 240 m long and seating up to 30,000; its curved northern end (sphendone) survives exposed beneath Plovdiv's main pedestrian street.",
-  "qid": "Q7205170",
   "wiki": "Stadium of Philippopolis"
  },
  "vici:vici-11840": {
@@ -372,7 +443,6 @@
  },
  "vici:vici-11879": {
   "desc": "Theatre at the Gallo-Roman sanctuary complex of Cherré (Aubigné-Racan, Sarthe), a 1st–3rd century AD rural cult and market center excavated since 1977 that also included two temples, baths, an aqueduct, and a forum.",
-  "qid": "Q3485389",
   "wiki": "Cherré (archaeological site)"
  },
  "vici:vici-11915": {
@@ -407,6 +477,101 @@
  "vici:vici-11991": {
   "desc": "The only known Roman-era theatre in Thrace, built in the 2nd century AD at Bizye (Vize); discovered in 1998, its marble cavea seated some 4,000, with stage reliefs now held in Kırklareli Museum."
  },
+ "vici:vici-12001": {
+  "desc": "Built in AD 79 and dedicated to Vespasian and Titus, funded privately by the citizen Nikostratos; at roughly 285 x 70 m this was one of Roman Anatolia's largest stadiums, seating up to 25,000 for games."
+ },
+ "vici:vici-12005": {
+  "desc": "A 1st-century AD Roman theatre built into a hillside at Hierapolis Kastabala in Cilicia, seating roughly 5,000 across ima and summa cavea; excavations have recovered 36 theatrical stage masks, including five found in 2025."
+ },
+ "vici:vici-12007": {
+  "desc": "A small, well-preserved covered odeon/bouleuterion at Anemurium in Rough Cilicia, excavated with the rest of the city (UBC excavations, 1965-1993), seating roughly 900-1,100 for council meetings or performances."
+ },
+ "vici:vici-12008": {
+  "desc": "Anemurium's main Roman theatre, a semicircular structure about 60 m in diameter, built in the 3rd century AD at the height of the city's prosperity."
+ },
+ "vici:vici-12019": {
+  "desc": "A Roman-period stadium at the foot of the Sardis acropolis, south of the gymnasium, with a U-shaped, double-sided cavea built against vaulted substructures on the slope."
+ },
+ "vici:vici-12020": {
+  "desc": "Theater built at Sardis during the Hellenistic period as part of the city's conversion into a Greek-style polis; it stood alongside a stadium among Sardis's Roman-era civic monuments."
+ },
+ "vici:vici-12057": {
+  "desc": "Roman theater at Shuni (ancient Kfar Shumi) built with an adjoining semicircular pool used for the Graeco-Syrian Maiumas water festival honoring Dionysus and Aphrodite; excavated from 1986 by E. Shenhav for the JNF."
+ },
+ "vici:vici-12877": {
+  "desc": "The only known Roman theater in Noricum, built in the 2nd century AD with a semicircular cavea of 35 m radius and a 32.5 m stage, near Virunum's amphitheater; excavated 1890s–1931 and again since the 1990s."
+ },
+ "vici:vici-12885": {
+  "desc": "Small roofed odeon at Nicopolis ad Istrum (founded by Trajan c. 102–106) seating up to about 350; its stone cavea was supported on arches sheltering eleven shops, separated from the semicircular orchestra by iron-braced stone blocks."
+ },
+ "vici:vici-13588": {
+  "desc": "Roman amphitheater at Tomis, arena c. 60x40 m within a complex up to 100x80 m and 20–25 m tall, discovered in 1980; a 2nd–3rd century AD section found in 1988–89 was preserved beneath the Ibis hotel."
+ },
+ "vici:vici-13914": {
+  "desc": "Roman circus built around 293 AD under Maximian near his Aquileia residence for chariot racing; still in use in 425, when the usurper John (Johannes) was executed there on Valentinian III's orders."
+ },
+ "vici:vici-14461": {
+  "desc": "A wall with buttresses at Arae Flaviae (Rottweil), near a sanctuary and blocks resembling seating stones, has been tentatively identified as a theater on the strength of geomagnetic surveys showing a monumental complex, though the evidence remains inconclusive."
+ },
+ "vici:vici-14560": {
+  "desc": "Gallo-Roman theater built in the 2nd century AD within a rural pilgrimage complex with a water sanctuary; held about 3,000 spectators, was abandoned by the late 3rd century, excavated from the 1950s, and protected as a historic monument since 1983.",
+  "qid": "Q104776486"
+ },
+ "vici:vici-14567": {
+  "desc": "1st-century Gallo-Roman theatre (57m diameter) at Saint-Germain-d'Esteuil in the Médoc; the only known Gallo-Roman theatre in the Aquitaine basin south of the Garonne, abandoned by the mid-3rd century and identified during 1966 excavations.",
+  "qid": "Q22920330"
+ },
+ "vici:vici-14576": {
+  "desc": "Theatre of Divona Cadurcorum (Roman Cahors), built c. 41-54 AD under Claudius; once the best-preserved Roman monument in Cahors until its owner demolished the remaining structure in 1860-1863."
+ },
+ "vici:vici-14582": {
+  "desc": "Small Gallo-Roman theatre near Saint-Goussaud (Creuse), reputedly the smallest in France; a semicircular seating structure about 9m wide, excavated in 1901, 1965, and 1980, near a Roman road linking Augustoritum (Limoges) and Ahun."
+ },
+ "vici:vici-14785": {
+  "desc": "Odeon (concert hall) built at Ilion (Troy) under Augustus on the site of the old bouleuterion, extensively renovated by Hadrian after his AD 124 visit; a marble cuirassed statue of Hadrian was found here in 1993.",
+  "qid": "Q115779253"
+ },
+ "vici:vici-14869": {
+  "desc": "Roman theatre within the Asclepieion healing sanctuary of Pergamon, built under Hadrian in the 2nd century AD to host therapeutic musical and dramatic performances for patients; seated roughly 3,500 in a hillside cavea with a marble-paved orchestra.",
+  "wiki": "Asclepieion of Pergamon"
+ },
+ "vici:vici-14871": {
+  "desc": "Best-preserved building of ancient Teos in Ionia; a late 3rd-century BC council hall (bouleuterion) seating about 800, later adapted in the Roman period with an added stage building for theatrical use."
+ },
+ "vici:vici-15049": {
+  "desc": "Sunken garden-stadium (160 x 48m) built by Domitian (81-92 AD) on the east side of his Domus Augustana palace on the Palatine; despite its racetrack shape it was too small for chariots and served as an imperial pleasure garden.",
+  "qid": "Q2484732"
+ },
+ "vici:vici-15097": {
+  "desc": "2nd-century AD Roman odeon at Nea Paphos, Cyprus, built of dressed limestone with twelve rows of seating for roughly 1,200; restored by the Cyprus Department of Antiquities and still used for concerts and drama festivals.",
+  "qid": "Q55068927"
+ },
+ "vici:vici-15709": {
+  "desc": "Roman-era stadium (186 m long) at Magnesia on the Maeander seating up to 30,000, built in the 1st century AD for the Artemis Leucophryene games; hosted athletics, gladiatorial fights and chariot races; excavated by Carl Humann in 1891-93, resumed 1984."
+ },
+ "vici:vici-15711": {
+  "desc": "Ancient theatre at Phocaea (Foça), believed to be the oldest Ionian theatre yet discovered; partially excavated on the acropolis hill, first investigated by Félix Sartiaux in 1913-1920 and systematically by Ekrem Akurgal from 1951."
+ },
+ "vici:vici-16324": {
+  "desc": "Roman circus of Hadrumetum (Sousse), attested by circus-themed mosaics of the four racing factions and by curse tablets targeting charioteers recorded in Audollent's Defixionum tabellae; its physical remains have not been precisely excavated in situ."
+ },
+ "vici:vici-16584": {
+  "desc": "Greek-style theatre of Massalia (Marseille), built in the Augustan period, about 115 m wide with a 54 m stage, seating roughly 6,000; located near the Vieux-Port, first found in 1946-48 excavations and further excavated 1961-64.",
+  "qid": "Q3527841"
+ },
+ "vici:vici-16587": {
+  "desc": "Roman theatre of Baeterrae (Béziers), unexpectedly discovered in 2014 during a preventive excavation near Place des Chaudronniers; about a third of the building survives, with a restored diameter of 80-85 m, sited between the forum and amphitheatre."
+ },
+ "vici:vici-16613": {
+  "desc": "Roman theatre of Aquae Sextiae (Aix-en-Provence), about 100 m in diameter and built in the Julio-Claudian period on a terrace of the western quarter; long only suspected, it was confirmed by excavations at Notre-Dame-de-la-Seds in 2004.",
+  "qid": "Q3527588"
+ },
+ "vici:vici-16628": {
+  "desc": "A Roman theatre certainly existed at Nemausus (Nîmes), a major colonial city, but unlike its well-preserved amphitheatre its precise location has never been archaeologically identified, with the site only loosely placed near the cathedral."
+ },
+ "vici:vici-16629": {
+  "desc": "Roman theatre of Apta Julia (Apt), built in the early 1st century AD, roughly 80x60 m and holding 5,000-6,000 spectators; substantial remains were found beneath Place Carnot in 1869-70 and confirmed by soundings in 1966-67."
+ },
  "vici:vici-16644": {
   "desc": "Roman theatre in Aginnum (Agen), built in the 1st century AD with a diameter of about 86m; repaired several times before abandonment in the early 2nd century, its foundations remain buried near Place Armand-Fallières.",
   "qid": "Q130714633"
@@ -415,8 +580,7 @@
   "desc": "Gallo-Roman theatre near Rodez, with an estimated 2,000-seat cavea, built within a rural sanctuary complex in the 1st-2nd century AD; discovered in 1865 by Abbé Cérès, with a coin of Marcus Aurelius (145 AD) aiding its dating."
  },
  "vici:vici-16718": {
-  "desc": "1st-century Gallo-Roman theatre near Saint-Germain-d'Esteuil in the Médoc, 57m in diameter with an estimated 2,200 seats, built in opus mixtum masonry; the only known Gallo-Roman theatre south of the Garonne, identified in 1966.",
-  "qid": "Q22920330"
+  "desc": "1st-century Gallo-Roman theatre near Saint-Germain-d'Esteuil in the Médoc, 57m in diameter with an estimated 2,200 seats, built in opus mixtum masonry; the only known Gallo-Roman theatre south of the Garonne, identified in 1966."
  },
  "vici:vici-16736": {
   "desc": "Small hemicycle of tiered seating (a fifth of a circle) built in early-1st-century Vienne, interpreted as a theatre for the mystery rites of Cybele and Attis or as a civic auditorium; now part of the Jardin archéologique de Cybèle."
@@ -437,20 +601,43 @@
   "qid": "Q113649380",
   "wiki": "Roman theater of Montaudou"
  },
+ "vici:vici-16846": {
+  "desc": "Gallo-Roman theatre-amphitheatre of Argentomagus, rebuilt mid-2nd century CE to an 85m diameter, succeeding a smaller theatre built under Tiberius; abandoned by the early 5th century.",
+  "qid": "Q22941035"
+ },
+ "vici:vici-16866": {
+  "desc": "Theatre identified in 1874 as part of a Gallo-Roman religious complex with sanctuary and necropolis near Alléans, one of the most important such sites in the Cher; excavated through the 19th century."
+ },
+ "vici:vici-16908": {
+  "desc": "Urban theatre of the Gallo-Roman town of Compierre, built in the 3rd century CE with a 72m cavea seating about 5,000; the settlement was abandoned by the late 4th century."
+ },
+ "vici:vici-16919": {
+  "desc": "1st-century Gallo-Roman theatre near the Vieille-Cour sanctuary to Mars Mullo, excavated from 1886 by Léon Maître; cavea over 61m across, its wooden seating and stage now vanished.",
+  "qid": "Q3527915"
+ },
+ "vici:vici-16929": {
+  "desc": "Earthwork amphitheatre within the legionary fortress at Mirebeau, built c. 70 CE for Legio VIII Augusta's roughly 5,000 troops under Vespasian; its embankments are still visible today."
+ },
+ "vici:vici-16933": {
+  "desc": "A theatre serving the civilian canabae outside the Mirebeau legionary fortress of Legio VIII Augusta (70–86 CE) was later restored by a Roman citizen's daughter after falling into ruin."
+ },
+ "vici:vici-16947": {
+  "desc": "Gallo-Roman theatre of the Venetic settlement near Vannes, its cavea extending past a semicircle beyond the standard hemicycle; excavated by Christophe-Paul de Robien (18th c.) and Closmadeuc, partly overtaken by the village cemetery."
+ },
+ "vici:vici-16991": {
+  "desc": "Gallo-Roman amphitheatre at La Mardelle, 71 by 56m with room for about 8,000 spectators, found around 1850; its dressed stones were later reused to build the 1862 cemetery wall."
+ },
  "vici:vici-17038": {
-  "desc": "The 80m-diameter theatre at Vorganium, the only known theatre in Osismii territory, stood outside the settlement, identified via a nearby Kerscao milestone naming the site; excavated in the 1960s, never fully cleared, and abandoned after 3rd-century raids.",
-  "qid": "Q3563110"
+  "desc": "The 80m-diameter theatre at Vorganium, the only known theatre in Osismii territory, stood outside the settlement, identified via a nearby Kerscao milestone naming the site; excavated in the 1960s, never fully cleared, and abandoned after 3rd-century raids."
  },
  "vici:vici-17042": {
-  "desc": "Nasium, first capital of the Leuci civitas, held a theatre on the Mazeroie plateau, identified in 1833 by antiquarian Claude-François Denis at a spot locals called the 'Fosse aux Lions', proving it a theatre rather than a circus.",
-  "qid": "Q3336204"
+  "desc": "Nasium, first capital of the Leuci civitas, held a theatre on the Mazeroie plateau, identified in 1833 by antiquarian Claude-François Denis at a spot locals called the 'Fosse aux Lions', proving it a theatre rather than a circus."
  },
  "vici:vici-17065": {
   "desc": "The Gallo-Roman theatre of Arnières-sur-Iton was exposed during Paris-Caen railway construction and partly excavated by Théodore Bonnin in 1853; it stood by a roadside settlement on the Évreux-Condé-sur-Iton route, occupied from the 1st to the 4th century."
  },
  "vici:vici-17072": {
-  "desc": "Built around 100 CE in Divodurum Mediomatricorum's Sablon district, this amphitheatre's 158m major axis made it the third-largest in the Roman world after the Colosseum and Capua; used for games until the 3rd century, rediscovered during 1902 railway excavations.",
-  "qid": "Q2844415"
+  "desc": "Built around 100 CE in Divodurum Mediomatricorum's Sablon district, this amphitheatre's 158m major axis made it the third-largest in the Roman world after the Colosseum and Capua; used for games until the 3rd century, rediscovered during 1902 railway excavations."
  },
  "vici:vici-17090": {
   "desc": "Built in the later 1st century in Augusta Suessionum, capital of the Suessiones, its 144m cavea rivaled Autun's as one of Gaul's largest theatres, said to seat 20,000; dismantled for stone from the 3rd century onward.",
@@ -458,6 +645,67 @@
  },
  "vici:vici-17091": {
   "desc": "A modest 'rustic' Gallo-Roman theatre seating up to 2,000 stood in Lyons-la-Forêt's Bout-de-Bas district on the Rouen-Beauvais road where it crossed the Lieure; 3rd-century in date, excavated in the 20th century by Marc-Adrien Dollfus."
+ },
+ "vici:vici-17095": {
+  "desc": "Catalogued as a possible theatre at Rotomagus (Roman Rouen), but no archaeological remains have ever been confirmed here; the city's only firmly attested Roman spectacle building is its separate amphitheatre."
+ },
+ "vici:vici-17097": {
+  "desc": "Gallo-Roman arena-theatre at Alauna (Valognes), built in the later 1st century AD, over 72 m across with capacity of roughly 3,700-4,000; excavated from 1695, largely quarried away in the 1820s-30s.",
+  "qid": "Q108920353",
+  "wiki": "Ancient theater of Alauna"
+ },
+ "vici:vici-17126": {
+  "desc": "Gallo-Roman theatre built in a single campaign around the mid-2nd century AD and abandoned within about 50 years; 75 m cavea diameter; rediscovered in 1977 under a mound long taken for a medieval earthwork.",
+  "qid": "Q125707223"
+ },
+ "vici:vici-17193": {
+  "desc": "One of the spectacle buildings of the major Ribemont-sur-Ancre sanctuary, a Celtic ritual site (mass ossuary deposits) succeeded by a Gallo-Roman complex of temple, theatre and baths; identified from 1962 aerial survey."
+ },
+ "vici:vici-17194": {
+  "desc": "Theatre of the Ribemont-sur-Ancre sanctuary, seating roughly 3,000; confirmed as a theatre in 1971 excavations, part of a temple-theatre-baths complex built over an earlier Celtic sanctuary marked by mass human bone deposits."
+ },
+ "vici:vici-17229": {
+  "desc": "2nd-century AD Roman stadium at Perge, among the largest and best-preserved in Asia Minor at 234 m long, seating around 12,000; its vaulted substructure held shops, per surviving inscriptions."
+ },
+ "vici:vici-17230": {
+  "desc": "U-shaped 2nd-century AD stadium at Aspendos, about 220 x 30 m with an estimated 8,000 seats; far less well preserved than the city's famous Roman theatre nearby."
+ },
+ "vici:vici-17233": {
+  "desc": "2nd-century AD Roman theatre at Phaselis in Lycia, built over an earlier Hellenistic theatre; cavea about 46-50 m across in 5 wedges, seating roughly 1,500-2,000.",
+  "qid": "Q98654566"
+ },
+ "vici:vici-17234": {
+  "desc": "A small theatre with an elaborate entrance, likely Hellenistic in origin but rebuilt under Rome; Olympos held three votes in the Lycian League and was visited by Hadrian in 129 CE.",
+  "wiki": "Olympus (Lycia)"
+ },
+ "vici:vici-17236": {
+  "desc": "A rock-cut theatre with seven rows carved into the bedrock of Simena's acropolis, probably Hellenistic and among the smallest and oldest theatres in Lycia; later enclosed within a medieval castle.",
+  "qid": "Q63197586",
+  "wiki": "Simena"
+ },
+ "vici:vici-17238": {
+  "desc": "Roman theatre of Elaiussa Sebaste in Cilicia, a modest structure of about 23 rows of seats built in the 2nd century AD; the city has been excavated since 1995 by Rome's Sapienza University.",
+  "wiki": "Elaiussa Sebaste"
+ },
+ "vici:vici-17271": {
+  "desc": "Rock-cut theatre below the Lindos acropolis, dated to the 4th century BC with seating for roughly 1,800-2,000; hosted the Sminthia festival of Dionysos with drama, music and athletic contests.",
+  "qid": "Q30503699"
+ },
+ "vici:vici-17273": {
+  "desc": "Hellenistic stadium on the Acropolis of Rhodes, 210 m long and built in the 3rd century BC; hosted the athletic events of the Alieia games honoring Helios, later restored under Italian rule after 1912.",
+  "qid": "Q25383200"
+ },
+ "vici:vici-17274": {
+  "desc": "Marble odeon on the Acropolis of Rhodes, built in the 3rd-2nd century BC as part of the gymnasium complex; seated about 800 for musical performances and rhetoric lessons, reconstructed under Italian rule."
+ },
+ "vici:vici-17313": {
+  "desc": "Roman theatre of Osca, first identified in 2006 beneath Huesca's old town near Calle Canellas; built in the first half of the 1st century AD, possibly larger than Zaragoza's Augustan-era theatre."
+ },
+ "vici:vici-17315": {
+  "desc": "One of three known spectacle buildings (theatre, amphitheatre, circus) at Valeria, a city founded by proconsul Gaius Valerius Flaccus c. 93-82 BC; still largely unexcavated, with only a small fraction of the hillside site uncovered."
+ },
+ "vici:vici-17316": {
+  "desc": "A possible amphitheatre at the Celtiberian-Roman town of Nertobriga Concordia Iulia, proposed from an oval crop-mark visible in early-2000s SIGPAC aerial orthophotos; never excavated, and its identification as an amphitheatre remains debated among researchers."
  },
  "vici:vici-17319": {
   "desc": "No archaeological remains confirm an amphitheatre at Calagurris; only the Roman circus (traceable in the modern street plan, c. 360 x 80 m) is archaeologically attested, though scholars presume a theatre and amphitheatre existed given the city's civic status."
@@ -483,6 +731,9 @@
  },
  "vici:vici-17346": {
   "desc": "One of the largest theatres of the Roman world, built in the 2nd century AD with a cavea 139 m in diameter seating over 20,000; only the Theatre of Pompey in Rome was larger. Its design gave exceptional acoustics, audible from any seat."
+ },
+ "vici:vici-17347": {
+  "desc": "Roman theatre south of the agora at Dionysias (Soada, modern Suweida), part of an Odeion-Bouleuterion-theatre-colonnade complex built around 100 CE as the region became the province of Arabia."
  },
  "vici:vici-17348": {
   "desc": "The theatre of Acholla (Henchir Botria), a Punic-founded city that submitted to Caesar in 46 BC; monumental elite-funded building in the 2nd-3rd centuries AD added this theatre alongside an amphitheatre and bath complexes."
@@ -517,28 +768,189 @@
  },
  "vici:vici-17372": {
   "desc": "Roman theatre of Olba (Diocaesarea), built under the joint reign of Marcus Aurelius and Lucius Verus (r. AD 161-169), seated about 2,000; its auditorium and stage building survive beside the city's nymphaeum.",
-  "qid": "Q157816",
   "wiki": "Olba (ancient city)"
  },
  "vici:vici-17376": {
   "desc": "Hellenistic theatre of Erythrae, one of the twelve Ionian cities, first built in the earlier 3rd century BC and later remodeled with a double diazoma under Hadrian; excavated by Ekrem Akurgal.",
-  "qid": "Q723091",
   "wiki": "Erythrae"
  },
  "vici:vici-17378": {
   "desc": "Hellenistic theatre of Metropolis in Ionia, built into a natural hillside depression in the 3rd century BC; a marble seat of honor carved with griffins was found there in 1995 during Sabancı Foundation-sponsored excavations.",
-  "qid": "Q1497156",
   "wiki": "Metropolis (Anatolia)"
  },
  "vici:vici-17380": {
   "desc": "Theatre of Sillyon (Syllion), a Pamphylian hill city that alone resisted Alexander the Great in 333 BC; documented by Karol Lanckoroński in the 19th century before a 1969 landslide destroyed it along with the adjoining odeon.",
-  "qid": "Q647896",
   "wiki": "Sillyon"
  },
  "vici:vici-17381": {
   "desc": "Well-preserved Hellenistic theatre of Alinda in Caria, seating roughly 5,000, probably built in the early 2nd century BC and later expanded by the Romans in the 1st century AD.",
-  "qid": "Q1848789",
   "wiki": "Alinda"
+ },
+ "vici:vici-17382": {
+  "desc": "Physcus (Physkos), a Carian port under Rhodian control with a harbour sacred to Leto; its Hellenistic walls crown Asartepe hill above Marmaris, besieged during Alexander's Carian campaign of 334 BC."
+ },
+ "vici:vici-17384": {
+  "desc": "Marble theater of Hyllarima, built in the 2nd-1st century BC and implying a town of roughly 1,500 people; excavated by a French-Turkish team led by Pierre Debord and Ender Varinlioğlu from 1997, published 2018.",
+  "wiki": "Hyllarima"
+ },
+ "vici:vici-17388": {
+  "desc": "Roman theater of Ancyra (Ankara), dated to the 2nd century AD with about 20-22 rows seating 3,000-5,000; excavated 1982-86 and 2009-10, yielding fragments of a cuirassed statue of Hadrian.",
+  "qid": "Q19610522",
+  "wiki": "Antique Rome theatre of Ankara"
+ },
+ "vici:vici-17390": {
+  "desc": "Stadium of Cibyra (Kibyra), about 200m long with 21 rows of seats cut into the hillside and a U-shaped sphendone; used for races and, per its famous friezes, gladiatorial combats.",
+  "wiki": "Cibyra"
+ },
+ "vici:vici-17392": {
+  "desc": "Odeon-bouleuterion of Cibyra, built mid-2nd century AD as the city council chamber and later given a stage; one of Turkey's best-preserved roofed theaters, its orchestra holds the world's only surviving Medusa mosaic in opus sectile.",
+  "wiki": "Cibyra"
+ },
+ "vici:vici-17393": {
+  "desc": "Theater of Adada, a Pisidian hill town near Sütçüler allied with Termessos against Selge from the 2nd century BC and prosperous under Trajan, Hadrian and Antoninus Pius; its ruins also include a forum, basilica and acropolis.",
+  "wiki": "Adada (Pisidia)"
+ },
+ "vici:vici-17394": {
+  "desc": "Theater of Prusias ad Hypium, locally called \"The Forty Stairs\"; begun in the Hellenistic period and expanded under Rome to 100m x 74m with 36 rows seating about 10,000, its scaenae added around 190 AD.",
+  "wiki": "Prusias ad Hypium"
+ },
+ "vici:vici-17396": {
+  "desc": "Theater of Heraclea ad Latmum (Latmos), a Hellenistic city founded in the early 3rd century BC at the foot of Mount Latmus by Lake Bafa, near the temple of Athena Latmia; its seating remains largely unexcavated.",
+  "wiki": "Heraclea at Latmus"
+ },
+ "vici:vici-17400": {
+  "desc": "Roman stadium built in the early 2nd century AD under Hadrian, seating up to 30,000 for athletic games; its northern curved end (sphendone) survives beneath Plovdiv's main pedestrian street, discovered in 1923.",
+  "wiki": "Stadium of Philippopolis"
+ },
+ "vici:vici-17439": {
+  "desc": "The Stadium of Antoninus Pius, built c. 142 AD at Puteoli to honor Hadrian and host Greek-style games (the Eusebeia); one of the largest Roman masonry stadiums after Domitian's, only unearthed in 2008.",
+  "qid": "Q16608446",
+  "wiki": "Stadium of Antoninus Pius"
+ },
+ "vici:vici-17440": {
+  "desc": "Built by Domitian and inaugurated in 86 AD for Greek-style athletic contests (the Capitoline Games), seating c. 30,000; its elongated plan is preserved by Piazza Navona above, with ruins visible underground.",
+  "qid": "Q963671",
+  "wiki": "Stadium of Domitian"
+ },
+ "vici:vici-17441": {
+  "desc": "A rectangular circus/hippodrome garden (95 x 327 m) within the huge Villa dei Sette Bassi on Via Tuscolana, second-largest suburban villa after the Villa of the Quintilii; the medieval name likely derives from Caracalla, not a prefect Septimius Bassus."
+ },
+ "vici:vici-17446": {
+  "desc": "Covered theatre (theatrum tectum) at the Roman colony of Luna, built c. 40 AD for readings and music, richly decorated with marble sculpture; excavated from the 1950s-70s and converted to housing, then a Lombard necropolis, by the 6th century.",
+  "qid": "Q65032369"
+ },
+ "vici:vici-17449": {
+  "desc": "2nd-century AD odeon adjoining the Roman theatre of Catania, seating about 1,500 for poetry and music contests and rehearsals; built partly of volcanic stone with a purely decorative lava architrave.",
+  "qid": "Q3880841"
+ },
+ "vici:vici-17457": {
+  "desc": "Roman amphitheatre of Sulci (Sant'Antioco), identified in 1983-84 on the slope below the Punic acropolis and necropolis; dated to the 2nd-3rd century AD, likely built largely in wood so little of the superstructure survives."
+ },
+ "vici:vici-17462": {
+  "desc": "Hellenistic-Roman theatre of Nuceria Alfaterna, built into the Samnite city walls in the 2nd century BC and rebuilt in brick under Augustus; among Campania's largest at 96m diameter, with a marble-paved orchestra and twin vaulted parodoi.",
+  "qid": "Q21196047"
+ },
+ "vici:vici-17466": {
+  "desc": "The only known Roman theatre in Sardinia, built in the early 1st century AD; its two-tiered cavea (37.7m diameter, 11 andesite-block steps) held roughly 1,000-1,200 spectators and is still used for summer performances."
+ },
+ "vici:vici-17469": {
+  "desc": "Theatre of Publius Vedius Pollio's seaside villa at Pausilypon (Posillipo), built c. 31 BC; part of a 9-hectare estate with baths and an odeon, its cavea overlooking the Bay of Naples seated about 2,000."
+ },
+ "vici:vici-17470": {
+  "desc": "Small odeon adjoining the theatre within Vedius Pollio's Pausilypon villa complex, built c. 31 BC as a roofed hall for music and recitation on the same Posillipo estate later inherited by Augustus."
+ },
+ "vici:vici-17472": {
+  "desc": "Remains of a Greek theatre (4th-3rd century BC) at the southern end of ancient Lipara's acropolis, its sea view later blocked by 16th-century fortifications; Lipari is separately famed for its hoard of Hellenistic terracotta theatrical masks."
+ },
+ "vici:vici-17473": {
+  "desc": "Greek theatre of Iaitas, built before 300 BC on the model of Athens' Theatre of Dionysus; its 35-tier cavea, excavated by the University of Zurich since 1971, seated an estimated 4,000-5,000 spectators.",
+  "qid": "Q16612562"
+ },
+ "vici:vici-17474": {
+  "desc": "Roman theatre of Augusta Taurinorum, built c. 13 BC as one of the new colony's first public buildings under Augustus; its four-sector stone cavea seated about 3,500 and was rediscovered in 1899 during construction of Palazzo Reale's new wing.",
+  "qid": "Q3982371"
+ },
+ "vici:vici-17480": {
+  "desc": "Roman theatre remains uncovered on the north flank of Sidon's castle hill in modern excavations; little else about the structure has been published."
+ },
+ "vici:vici-17481": {
+  "desc": "Small Roman theatre built around AD 218, excavated by Pierre Montet in the 1920s; only five tiers of seating survive today, and it was later dismantled and re-erected closer to the shore during subsequent excavation."
+ },
+ "vici:vici-17486": {
+  "desc": "The largest and oldest of Cyrene's five theatres, cut into the Acropolis slope in the late 6th century BC as a Greek theatre; converted into a Roman amphitheatre for gladiatorial games in the late 2nd century AD.",
+  "wiki": "Greek Theatre of Cyrene"
+ },
+ "vici:vici-17489": {
+  "desc": "An odeon within the Asclepieion sanctuary at Balagrae, used for musical performances and sophists' recitations as part of the healing cult of Asclepius; a hoard of Roman coins was discovered there in 1956."
+ },
+ "vici:vici-17490": {
+  "desc": "The smallest of Ptolemais's three theatres, built as an odeon for music and oratory; in the 4th-5th century AD its orchestra and stage were lined with waterproof cement to form a pool, possibly for mock sea-battles or acoustics."
+ },
+ "vici:vici-17496": {
+  "desc": "Roman theatre of Civitas Camunnorum, built around the mid-1st century AD on a terraced hillside; roughly a third survives, including the portico behind the stage and lateral staircases, now part of an archaeological park opened in 2003.",
+  "qid": "Q112054994"
+ },
+ "vici:vici-17567": {
+  "desc": "A small Roman theatre in the northeastern quarter of Meninx, the island of Jerba's Roman-period administrative centre and a major Mediterranean production site for purple (murex) dye."
+ },
+ "vici:vici-17568": {
+  "desc": "A Roman circus/stadium in the northwestern quarter of Meninx, the island of Jerba's Roman-period administrative centre and a major Mediterranean production site for purple (murex) dye."
+ },
+ "vici:vici-17570": {
+  "desc": "Roman theatre atop a hill at Althiburos (Kef region, Tunisia), c.60m in diameter with surviving arcaded galleries; under excavation and architectural study by a University of Palermo mission since 2007."
+ },
+ "vici:vici-17606": {
+  "desc": "Julio-Claudian-era Roman theatre at Grumentum, a Lucanian municipium in Basilicata; partly excavated by Sestieri and Caputi in the 20th century and restored 1964-68 alongside the town's forum and amphitheatre."
+ },
+ "vici:vici-17659": {
+  "desc": "Imperial-era Roman theatre of Aquae Statiellae (Acqui Terme), uncovered in the late 1990s near the Bollente thermal spring; some spectator seats were cut directly into the hillside, its stage now buried under modern buildings."
+ },
+ "vici:vici-17668": {
+  "desc": "Neronian-era amphitheatre of Nuceria Alfaterna (Nocera Superiore), c.125x102m and among the largest in Campania, built after Nero banned spectacles at Pompeii following the AD 59 riot; rediscovered in 1929, still mostly buried."
+ },
+ "vici:vici-17731": {
+  "desc": "Roman circus of Augusta Treverorum (Trier), a c.450m hippodrome monumentalized in the early 2nd century AD and depicted on the Polydus charioteer mosaic; no above-ground remains survive today."
+ },
+ "vici:vici-17746": {
+  "desc": "Roofed concert hall built c.15 BC in the Athenian Agora, a gift of Marcus Agrippa; its two-story auditorium seated about 1,000 until the roof collapsed c.150 AD, later rebuilt with colossal Triton/Giant statues at its entrance.",
+  "qid": "Q745797",
+  "wiki": "Odeon of Agrippa"
+ },
+ "vici:vici-17773": {
+  "desc": "Ancient Greek stadium at the Sanctuary of Asklepios, Epidaurus, built mainly in the 4th-3rd century BC with stone seating for foot races, wrestling and boxing held every four years during the Asklepieia games."
+ },
+ "vici:vici-17781": {
+  "desc": "Small Roman-period roofed odeon (c.30x39m) built within the courtyard of the Hellenistic Gymnasium at the Asklepieion of Epidaurus, dated to the late 2nd/early 3rd century AD and used for pantomime and singing contests."
+ },
+ "vici:vici-17788": {
+  "desc": "Hellenistic stadium-gymnasium complex of Messene, built in the 3rd century BC and used into the 4th century AD; among the best-preserved ancient stadiums in Greece, with 18 rows of seats and Doric stoas housing the city's gymnasium."
+ },
+ "vici:vici-17796": {
+  "desc": "Site of footraces and other athletic contests at the ancient Olympic Games from 776 BC; the track measures one Olympic stade (192.27 m) between marble starting and finish lines, with embankments once holding up to 45,000 spectators.",
+  "qid": "Q4357227",
+  "wiki": "Stadium at Olympia"
+ },
+ "vici:vici-17809": {
+  "desc": "Roman-era odeon built in the 2nd century AD within the forum of Thessaloniki, on the site of an earlier bouleuterion; inscriptions and statues of the Muses found there confirm its use for musical contests and gladiatorial spectacles."
+ },
+ "vici:vici-17815": {
+  "desc": "Roman theatre built near the sanctuary of Zeus at Dion in the 2nd century AD, reusing material from the older Hellenistic theatre it replaced after the city became Roman; excavated south-east of that earlier structure."
+ },
+ "vici:vici-17830": {
+  "desc": "Stadium of the sanctuary of Poseidon at Isthmia, home of the Panhellenic Isthmian Games from 582 BC; two successive stadiums are attested, the later Hellenistic one fitted with a hysplex starting-gate mechanism for footraces."
+ },
+ "vici:vici-17838": {
+  "desc": "Stadium of the sanctuary of Zeus at Nemea, built around 330 BC for the Nemean Games; athletes reached the track through a unique 36 m vaulted tunnel bearing ancient graffiti, including the victor's name Telestas.",
+  "qid": "Q27779883",
+  "wiki": "Stadium at Nemea"
+ },
+ "vici:vici-17877": {
+  "desc": "Roman hippodrome of Berytus, discovered in 1988 in Beirut's city centre; covering roughly 3,500 m² it was the largest known hippodrome in the Roman Levant, laid out with a circuit resembling Rome's Circus Maximus.",
+  "qid": "Q28220436",
+  "wiki": "Hippodrome of Berytus"
+ },
+ "vici:vici-17884": {
+  "desc": "Unique rectangular arena at Tyre's Al-Mina site, roughly 45 by 35 m with five rows of stone seating for about 2,000 spectators around a central pool; likely 4th-century AD in its present form, function unknown — possibly a water-sport venue."
  },
  "vici:vici-17891": {
   "desc": "A Roman theater built into the hillside south of Heliopolis's great sanctuary complex, with a parodos leading to the orchestra and stage; largely destroyed during 19th-century hotel construction, leaving only minimal remains today."
@@ -560,5 +972,1637 @@
  },
  "vici:vici-17986": {
   "desc": "Roman theater of the 3rd century CE built directly over an earlier 4th-century BC Greek theater at Elea/Velia; its 47.5m cavea held roughly 3,000 spectators and faces the Tyrrhenian Sea below a Norman watchtower."
+ },
+ "vici:vici-18116": {
+  "desc": "Theatre of Laodicea ad Mare (modern Latakia), a Seleucid-founded port that later became capital of Roman Syria under Septimius Severus; its cavea, built against the southeastern hill, measured c. 100 m across but survives only in traces."
+ },
+ "vici:vici-18359": {
+  "desc": "Theatre of Zeugma, the Hellenistic-Roman city on the Euphrates named for its bridge of boats; excavated by Ankara University since 1987, the site is famed for its mosaics and was partly submerged when the Birecik Dam was completed in 2000."
+ },
+ "vici:vici-18399": {
+  "desc": "Theatre of Seleucia on the Tigris, the dynastic capital founded by Seleucus I Nicator; the Hellenistic theatre stood on the town's south side beside a porticoed square and was uncovered by University of Michigan excavations (1927-1937) and later Italian missions."
+ },
+ "vici:vici-18400": {
+  "desc": "Theatre/amphitheatre of Seleucia Pieria, Antioch's fortified port founded by Seleucus I Nicator; twenty-four tiers of benches partly survive, and Antiochus III camped nearby before his 219 BC assault that retook the city from Ptolemaic Egypt."
+ },
+ "vici:vici-18566": {
+  "desc": "Hellenistic stadium of Arykanda (3rd-2nd century BC), unusually short at just over 100 m; the city was famed for its wrestlers, and a shrine with eight niches built into the seating was dedicated to their patron gods Heracles and Hermes."
+ },
+ "vici:vici-18582": {
+  "desc": "The lesser of Hierapolis's two theatres, sited east of the Basilica Baths on the mountainside; unlike the city's well-preserved main theatre, it was almost completely destroyed by earthquakes, leaving only a few stairs."
+ },
+ "vici:vici-18651": {
+  "desc": "Theatre of Aptera in Crete, built c. 3rd century BC and rebuilt in Roman style in the 1st century AD; damaged by a lime kiln erected in its cavea, it was excavated 2008-2015 and reopened in 2016 as Crete's only restored ancient theatre.",
+  "qid": "Q38381593"
+ },
+ "vici:vici-18701": {
+  "desc": "Theatre of Cenabum (Roman Orléans), built in the 1st century AD and enlarged in the 2nd, with a diameter exceeding 100 m and an orchestra c. 38 m across; unearthed in 1821 during quay construction, then demolished and its stone reused.",
+  "qid": "Q108908841"
+ },
+ "vici:vici-19259": {
+  "desc": "A small theatre/odeon within the Roman thermal bath complex at Montegrotto (ancient Aquae Patavinae), built from the later 1st century BC and used into the 3rd century AD; first uncovered in excavations of 1781–1788."
+ },
+ "vici:vici-19265": {
+  "desc": "Roman theatre of Acelum (ancient Asolo), with seating for about 1,000; discovered in the late 19th century by local pharmacist Pacifico Scomazzetto and largely uncovered in excavations led by Guido Rosada, 1988–1993."
+ },
+ "vici:vici-19321": {
+  "desc": "Hellenistic theatre at Ai-Khanoum (Alexandria on the Oxus) in Bactria, about 84 m in diameter with three royal loges and seating for 4,000–6,000; built under Seleucid/Greco-Bactrian rule and excavated by a French mission, 1965–1978."
+ },
+ "vici:vici-19357": {
+  "desc": "Theatre of Aigai (Vergina), built alongside the royal palace in the later 4th century BC; here King Philip II of Macedon was assassinated by his bodyguard Pausanias in 336 BC during his daughter's wedding celebrations."
+ },
+ "vici:vici-19371": {
+  "desc": "Gallo-Roman theatre at Amel-sur-l'Étang, forming a roughly 20-hectare suburban sanctuary complex with five temples and baths, revealed by aerial and geophysical surveys (2004–2011) near the neighboring Senon settlement."
+ },
+ "vici:vici-19373": {
+  "desc": "Gallo-Roman theatre identified by aerial and geophysical survey at the Senon vicus (Meuse), part of a paired sanctuary agglomeration with the nearby Amel theatre-and-temples complex, occupied 1st–4th centuries AD."
+ },
+ "vici:vici-19498": {
+  "desc": "Augustan-era theatre of Roman Corduba (built before c. 5 BC), the largest in Hispania and second only to Rome's Theatre of Marcellus in the empire, seating about 15,000; rediscovered in 1994 beneath the city's Archaeological Museum.",
+  "qid": "Q3527913"
+ },
+ "vici:vici-19606": {
+  "desc": "Roman theatre at Olba in Cilicia, built during the joint reign of emperors Marcus Aurelius and Lucius Verus (161–169 AD) with seating for about 2,000, standing near the city's nymphaeum and Temple of Zeus."
+ },
+ "vici:vici-19889": {
+  "desc": "Stadium built at Nicopolis for Augustus's Actian Games, inaugurated in 27 BC to mark his victory at Actium. Its two rounded ends (sphendonai) made it a transitional 'stadium-amphitheater' form, seating roughly 10,000."
+ },
+ "vici:vici-19924": {
+  "desc": "A c. 50-metre Roman amphitheatre outside Diocletian's palace walls, built alongside the palace in the early 4th century AD; long mistaken for a theatre's seating, confirmed as an amphitheatre by 2013 excavations north of the old town."
+ },
+ "vici:vici-19940": {
+  "desc": "Greek theatre cut into Cyrene's acropolis slope in the late 6th century BC, the oldest and largest of the city's five theatres, seating over 1,000; converted into a Roman amphitheatre in the 2nd century AD.",
+  "wiki": "Greek Theatre of Cyrene"
+ },
+ "vici:vici-21686": {
+  "desc": "Roman theatre at the foot of Mount Berenice near Tiberias, built in the early 1st century AD close to the city's founding by Herod Antipas and enlarged in the 2nd century; seated over 7,000, excavated from 1990."
+ },
+ "vici:vici-23250": {
+  "desc": "Theatre of the Arcadian city of Kleitor, in its southwestern quarter; already ruined and stripped of stone in Roman times, with its cavea and part of the seating only brought to light by recent excavation."
+ },
+ "vici:vici-23252": {
+  "desc": "Roman Imperial-period theatre at Ambavri south of Kos town, about 108 m wide with capacity for up to 13,000, likely tied to festivals of the nearby Asklepieion; Hellenistic 'almond stone' seating hints at a 3rd-century-BC predecessor."
+ },
+ "vici:vici-23293": {
+  "desc": "Theatre of ancient Oiniadai in Acarnania, first excavated in December 1900 by American archaeologist Benjamin Powell, who uncovered the stage, orchestra, and much of the cavea; fully cleared by Greek archaeologists in 1987."
+ },
+ "vici:vici-23299": {
+  "desc": "Carian city near modern Vakıf in the Tavas district, on the Phrygia-Caria border; Christianised early, its bishop Polychronius attended the Council of Ephesus in 431 AD, and it later became a titular Catholic see.",
+  "qid": "Q3708117",
+  "wiki": "Heraclea Salbace"
+ },
+ "vici:vici-23313": {
+  "desc": "Theatre of the Aeolian hilltop city of Aigai, excavated since 2004 by Ege University; its vomitorium (entrance passage) was uncovered in 2018 alongside the bouleuterion and odeon.",
+  "wiki": "Aigai (Aeolis)"
+ },
+ "vici:vici-23561": {
+  "desc": "Large theatre of Alexandria Troas, built in the Greek tradition and embellished under Hadrian in the 2nd century AD; 2024 excavations estimated its capacity at roughly 12,000 spectators.",
+  "wiki": "Alexandria Troas"
+ },
+ "vici:vici-23820": {
+  "desc": "2nd-century BC theatre at the healing sanctuary of Amphiaraos near Oropos; its Doric stage building survives along with five inscribed marble priests' thrones, seating about 300.",
+  "wiki": "Amphiareion of Oropos"
+ },
+ "vici:vici-23987": {
+  "desc": "Roman theatre built into a hillside at Abila, one of the ten cities of the Decapolis; partially excavated since 1980 by John Brown University alongside a nymphaeum and Byzantine churches.",
+  "qid": "Q12884362",
+  "wiki": "Abila (Decapolis)"
+ },
+ "vici:vici-24006": {
+  "desc": "Theatre at Samaria-Sebaste with a semicircular, two-tier cavea built against the north slope during the Severan dynasty (early 3rd century AD), after Septimius Severus granted the city colonia status; excavated in the 1930s.",
+  "wiki": "Samaria (ancient city)"
+ },
+ "vici:vici-24023": {
+  "desc": "Monumental theatre-shaped stairway and colonnaded square in the sanctuary quarter of Pessinus, the Phrygian cult center of the mother goddess Cybele; excavated in the 1970s next to a Roman-period temple.",
+  "wiki": "Pessinus"
+ },
+ "vici:vici-24175": {
+  "desc": "Stadium of Miletus, built in the first half of the 2nd century BC under Eumenes II of Pergamon; 191 m long with seating for roughly 15,000 on twelve tiers, and given a monumental colonnaded gate in the early 3rd century AD."
+ },
+ "vici:vici-24210": {
+  "desc": "Ekklesiasterion (assembly-hall theatre) within the Asclepieion complex at Messene, first built in the late 3rd century BC for civic assemblies and performances honoring Messene and Asclepius; its proscenium and orchestra were repaired in the 1st and 3rd centuries AD."
+ },
+ "vici:vici-24275": {
+  "desc": "Built on the north slope of Mount Pagos in the 3rd century BC and enlarged under Hadrian, Smyrna's theatre seated roughly 20,000 and hosted the provincial 'Asian Games'; abandoned in the 4th century AD and buried until excavations resumed in 2012-2016.",
+  "qid": "Q56640662"
+ },
+ "vici:vici-24291": {
+  "desc": "A small Roman-period theatre on the north edge of Toptepe Hill, the only visible survivor of Philadelphia (founded c. 159-138 BC by Attalus II of Pergamon), one of the Seven Churches of Revelation addressed by John.",
+  "wiki": "Philadelphia (Lydia)"
+ },
+ "vici:vici-24336": {
+  "desc": "A small Hellenistic theatre with about ten rows of seats at Apollonia in Lycia, a minor city that by the Roman period belonged to a sympoliteia led by Aperlae within the Lycian League.",
+  "qid": "Q15183441",
+  "wiki": "Apollonia (Lycia)"
+ },
+ "vici:vici-24368": {
+  "desc": "An odeon on the acropolis of Selge, a rugged Pisidian mountain city on the Eurymedon river that struck its own coinage and, alongside its better-known theatre and stadium, hosted civic assembly and musical performances.",
+  "wiki": "Selge"
+ },
+ "vici:vici-24426": {
+  "desc": "A roughly 10,000-seat stadium at Sillyon, built starting in the 1st century AD and used into the 5th century for athletic contests and festivals; only about a quarter has been excavated as of the 2020s.",
+  "wiki": "Sillyon"
+ },
+ "vici:vici-24446": {
+  "desc": "A small south-facing theatre with 18 rows of seats at Kadyanda, dated to the late 2nd or early 1st century BC, part of a hilltop Lycian city discovered by Charles Fellows and identified by its native name Kadawanti.",
+  "wiki": "Cadyanda"
+ },
+ "vici:vici-24450": {
+  "desc": "A 1st-century AD stadium on the western edge of Sagalassos seating about 9,000 - far more than the city's own population - built to host athletic and gladiatorial events for the wider province of Pisidia.",
+  "wiki": "Sagalassos"
+ },
+ "vici:vici-24463": {
+  "desc": "A theatre, popularly nicknamed 'Colisseo' by locals, is the most conspicuous ruin of Heloros, a coastal Syracusan colony that stayed loyal to Hieron II until Rome retook it from Carthaginian sympathies in 214 BC.",
+  "wiki": "Helorus"
+ },
+ "vici:vici-24624": {
+  "desc": "Theatre of Iulia Concordia (modern Concordia Sagittaria), a Roman colony founded 42 BC where the Via Annia crossed the Via Postumia; its remains survive in Parco Signini alongside the forum and baths.",
+  "wiki": "Concordia Sagittaria"
+ },
+ "vici:vici-24654": {
+  "desc": "Amphitheatre of Roman Balsa (Luz de Tavira, Algarve), identified only through non-invasive geophysical survey of the largely unexcavated town; local inscriptions record residents funding naumachiae and boxing bouts.",
+  "wiki": "Balsa (Roman town)"
+ },
+ "vici:vici-24662": {
+  "desc": "Theatre of Felicitas Iulia Olisipo, built under Augustus and enlarged in AD 57 by the benefactor Caius Heius Primus; held roughly 4,000-5,000 spectators. Rediscovered in 1798, excavated from 1964, now the Museu do Teatro Romano.",
+  "qid": "Q11780"
+ },
+ "vici:vici-24663": {
+  "desc": "Roman theatre of Bracara Augusta (Braga), the only one known in the northwestern Iberian Peninsula; found by chance in 1999 beside the Maximinos baths, with a cavea about 72.6 m across seating roughly 4,000-4,500."
+ },
+ "vici:vici-24664": {
+  "desc": "Roman theatre of Bracara Augusta (Braga), the only one known in the northwestern Iberian Peninsula; found by chance in 1999 beside the Maximinos baths, with a cavea about 72.6 m across seating roughly 4,000-4,500."
+ },
+ "vici:vici-24702": {
+  "desc": "One of two theatres at Kremna, a Pisidian hill city made the Roman colony Colonia Iulia Augusta Felix Cremnena after King Amyntas's death in 25 BC; the site later withstood the rebel Lydius's siege in the 270s AD.",
+  "wiki": "Cremna"
+ },
+ "vici:vici-24713": {
+  "desc": "Roman theatre of Bararus (Henchir Rougga) in Byzacena, sited across the wadi from the town's forum; a stage roughly 29x30 m is still traceable, though the structure is heavily ruined after stone-robbing and the earthquake of 365 CE that devastated the city."
+ },
+ "vici:vici-24714": {
+  "desc": "Theatre of Thugga, built 168-169 CE under Antoninus Pius and personally funded by local magnate Publius Marcius Quadratus; its 19 tiers seated about 3,500 spectators, making it one of the best-preserved theatres of Roman Africa.",
+  "wiki": "Roman theatre of Dougga"
+ },
+ "vici:vici-24718": {
+  "desc": "One of two Roman theatres at Utica, the Phoenician-founded city that briefly served as first capital of Africa Proconsularis after Carthage's fall; the site's Roman quarters were only uncovered by excavation starting in 1948-58."
+ },
+ "vici:vici-24719": {
+  "desc": "One of two Roman theatres at Utica, the Phoenician-founded city that briefly served as first capital of Africa Proconsularis after Carthage's fall; the site's Roman quarters were only uncovered by excavation starting in 1948-58."
+ },
+ "vici:vici-24720": {
+  "desc": "One of two Roman theatres at Utica, the Phoenician-founded city that briefly served as first capital of Africa Proconsularis after Carthage's fall; the site's Roman quarters were only uncovered by excavation starting in 1948-58."
+ },
+ "vici:vici-24722": {
+  "desc": "Roman theatre at Sicca Veneria (modern El Kef), a hill city on the road linking Carthage to Theveste, sited near the Casbah; the structure remains largely unpublished, with no established construction date or capacity."
+ },
+ "vici:vici-24748": {
+  "desc": "The only fully excavated stadium on Cyprus, built near Kourion under Antoninus Pius in the 2nd century CE; a U-shaped track about 217 m long with seven rows of seating for c. 6,000 spectators, used for pentathlon events until the 4th century CE.",
+  "qid": "Q22991924",
+  "wiki": "Kourion Stadium"
+ },
+ "vici:vici-24756": {
+  "desc": "Theatre of Nea Paphos, cut into the bedrock of Fabrika hill and first built c. 300 BCE under the Ptolemies; monumentally expanded under the Antonines to seat up to 8,500, it stayed in use for over six centuries until earthquakes ended performances in the late 4th century CE."
+ },
+ "vici:vici-24767": {
+  "desc": "Roman-period theater of Kydonia (ancient predecessor of Chania, Crete); the standing building was demolished in 1583 when Venetian authorities quarried its stone to reinforce the town's fortifications."
+ },
+ "vici:vici-25175": {
+  "desc": "Roman-era theater of Mopsuestia (modern Misis/Yakapınar) on the Pyramus (Ceyhan) River, part of the city's public architecture alongside a stadium, colonnaded street, and the city's well-known Roman bridge; Mopsuestia prospered as a grain-exporting center after Pompey's annexation of Cilicia in 67 BC."
+ },
+ "vici:vici-25185": {
+  "desc": "Site near Pozzuoli's former Marconi school, proposed by archaeologist Davide Peluso (2008) as the location of Puteoli's lost Roman theatre, based on the area's topography and nearby inscriptions of theatre-linked musicians' guilds (tibicines, scabillarii); unconfirmed and never excavated as such."
+ },
+ "vici:vici-25212": {
+  "desc": "Theatre of the Peloponnesian city-state of Phlius, noted by Pausanias below the acropolis near temples of Asclepius and Demeter; excavations behind its stage building found twin stone foundations interpreted as supports for a mechane used for 'deus ex machina' stage entrances.",
+  "wiki": "Phlius"
+ },
+ "vici:vici-25517": {
+  "desc": "Hellenistic assembly hall of Morgantina in Sicily, a fan-shaped flight of monumental steps in the agora built for meetings of the citizen assembly (ekklesia), dated to the mid-3rd century BC and uncovered by the Princeton University expedition (1955-1968).",
+  "qid": "Q13626987"
+ },
+ "vici:vici-25533": {
+  "desc": "Rock-cut stadium of the Lycian hill city of Kadyanda, roughly 100 m long and 9-10 m wide with six surviving rows of seating on its north side, known from numerous inscriptions honoring victors of two local athletic festivals."
+ },
+ "vici:vici-25556": {
+  "desc": "Bargylia, a Carian coastal city with a temple of Artemis Cindyas, sheltered Philip V of Macedon's fleet in 201/200 BC while it was blockaded there by Rhodian and Pergamene warships; its ruins include a theatre, defensive walls, and a palaestra.",
+  "wiki": "Bargylia"
+ },
+ "vici:vici-25559": {
+  "desc": "Council house (bouleuterion) of Iasos in Caria, first built in the 4th century BC near the agora's south stoa; rebuilt in the 1st century AD with a three-quarter-circle cavea, functioning as a small covered theatre embellished under Hadrian."
+ },
+ "vici:vici-25618": {
+  "desc": "Hellenistic theatre of Euromos in Caria, carved into a hillside and dating to about the mid-3rd century BC; originally seated roughly 2,000 spectators, though only five rows of seating survive above ground pending further excavation.",
+  "wiki": "Euromus"
+ },
+ "vici:vici-25709": {
+  "desc": "Theatre of ancient Corinth, built c. 400 BC and enlarged to seat up to 18,000; rebuilt under Rome and later used as a beast-fight arena, abandoned after Alaric's 396 AD sack. The nearby 'Erastus pavement' is linked by many scholars to the Erastus of Romans 16:23.",
+  "qid": "Q25451392"
+ },
+ "vici:vici-25758": {
+  "desc": "A Roman amphitheatre (200 x 90 m) raised at Patrae under Domitian in the late 1st century AD, reputedly marking the colony's centenary; it hosted the renowned Caesarea games of racing, pentathlon, boxing and wrestling."
+ },
+ "vici:vici-25778": {
+  "desc": "Theatre of Ceryneia, an Achaean League city on a height above the Cerynites river; in myth the home of the Ceryneian Hind captured by Heracles, and a member state when the League revived around 280 BC.",
+  "qid": "Q12879058",
+  "wiki": "Ceryneia"
+ },
+ "vici:vici-25784": {
+  "desc": "Small theatre of Leontion excavated in 1958 by N. Gialouris on Kastritsi Hill, its nine surviving rows of seats built into the fortified Achaean city's defences; Leontion was destroyed by Philip V after 217 BC.",
+  "qid": "Q56761380",
+  "wiki": "Leontium (Achaea)"
+ },
+ "vici:vici-25903": {
+  "desc": "Roman theatre of Comana Cappadociae (Şar), the Cataonian temple-state sacred to the moon goddess Ma, visited by Strabo and Julius Caesar; excavated from 1967 alongside a monumental Roman gate and Byzantine church remains.",
+  "wiki": "Comana (Cappadocia)"
+ },
+ "vici:vici-25987": {
+  "desc": "One of two theatres at Balboura, cut into the steep southern slope of the acropolis about 70 m above the valley; its cavea is unusually interrupted by a block of natural rock, and it remains unexcavated with no inscriptions found.",
+  "wiki": "Balbura (Lycia)"
+ },
+ "vici:vici-25989": {
+  "desc": "Balbura, in the Cabalian district of northern Lycia, had two theatres: this lower one lies in a natural hollow before the mountain south of the stream, opposite the upper theatre whose cavea is split by a rock outcrop."
+ },
+ "vici:vici-25996": {
+  "desc": "Bubon's small sandstone theatre, at Dikmen Tepe near Ibecik in the Cabalian hills, preserved an inscribed letter of Commodus praising the city for repelling bandit raids and gaining a third vote in the Lycian League."
+ },
+ "vici:vici-26013": {
+  "desc": "South of the stadium, Olympia's hippodrome staged four- and two-horse chariot and horse races from the 7th century BC; Pausanias described its starting gates and turning posts, but Alpheios river silt has buried all trace of it.",
+  "qid": "Q19602775",
+  "wiki": "Hippodrome of Olympia"
+ },
+ "vici:vici-26035": {
+  "desc": "The small theatre of the fortified Attic deme of Rhamnous, near the sanctuary of Nemesis, doubled as public meeting space and lay within the settlement's extended 4th-century BC fortification circuit."
+ },
+ "vici:vici-26053": {
+  "desc": "Cut into the acropolis slope of Arcadian Orchomenos around 300 BC, this 40-plus-row theatre held over 4,000 spectators for games honoring Dionysus; first excavated in 1913 by G. Blum and A. Plassart."
+ },
+ "vici:vici-26099": {
+  "desc": "The odeon of Parion, the Hellespontine city made a Roman colony under Augustus, stands among the site's well-preserved Roman public buildings alongside its theatre and baths."
+ },
+ "vici:vici-26152": {
+  "desc": "Nysa's bouleuterion, or gerontikon, in the northwest corner of the agora seated 600-700 people in a 12-row semicircular auditorium later reused as an odeon; recent scholarship dates the surviving building to the Antonine period, with no earlier phase."
+ },
+ "vici:vici-26180": {
+  "desc": "Hellenistic stadium of the Illyrian city of Amantia, built on a terraced hillside in the first half of the 3rd century BC; c. 60m by 12.5m with 17 rows of seats on one side, holding about 4,000 spectators for footraces, boxing and discus."
+ },
+ "vici:vici-26182": {
+  "desc": "Hellenistic theatre of the Illyrian city of Byllis, built in the 3rd century BC; about 78m across and 16m high with roughly 40 rows of seating, holding up to 7,500 spectators."
+ },
+ "vici:vici-26261": {
+  "desc": "Roman theatre of Nicopolis, founded by Augustus after his 31 BC victory at Actium; hosted the quadrennial Actian Games and, per orchestra-barrier net-anchor holes and an inscribed invitation, was later adapted for gladiatorial and animal-hunt spectacles."
+ },
+ "vici:vici-26289": {
+  "desc": "Roman-period theatral structure built around 3rd century AD around the altar of the Sanctuary of Artemis Orthia at Sparta, giving spectators seating to watch the ritual flogging (diamastigosis) of Spartan youths; excavated by the British School at Athens, 1906–10.",
+  "wiki": "Sanctuary of Artemis Orthia"
+ },
+ "vici:vici-26364": {
+  "desc": "U-shaped stadium on the slope of Mount Pagos (Kadifekale) in ancient Smyrna, traditionally identified as the site where bishop Polycarp was martyred by Proconsul Statius Quadratus in the mid-2nd century AD."
+ },
+ "vici:vici-26435": {
+  "desc": "Small Roman-period theatre of the Lycian hill town of Sidyma, described by 19th-century explorer Charles Fellows as diminutive but finely built; the site has never been officially excavated."
+ },
+ "vici:vici-26610": {
+  "desc": "Roman-period odeon (small roofed hall for music and oratory) in the agora of ancient Thasos, uncovered during French School at Athens excavations of the agora that began in 1911."
+ },
+ "vici:vici-26778": {
+  "desc": "Theatre in the eastern quarter of Notion (New Colophon), near the North Gate; first noted in the early 20th century, investigated by Erol Atalay in the 1980s and surveyed by a University of Michigan–Brown University team in 2014–2018."
+ },
+ "vici:vici-26782": {
+  "desc": "Small rock-cut theatre or odeon (about 32 m across, 11 seat rows) at the foot of the Panionion hill on Mt Mycale, presumed to be the bouleuterion where the twelve-city Ionian League met for the Panionia festival of Poseidon Helikonios."
+ },
+ "vici:vici-26837": {
+  "desc": "Frescoed reception hall of the Roman theatre at Metropolis in Ionia, paved with a mosaic (its figures debated as either a Four Seasons allegory or Dionysiac scene), uncovered during excavations running since 1989."
+ },
+ "vici:vici-27446": {
+  "desc": "2nd-century AD amphitheatre outside the walls of Tusculum, roughly 80 x 53 m with a capacity of about 3,000; its entrances were excavated in 1820 and the rest in 1867."
+ },
+ "vici:vici-27607": {
+  "desc": "Roman theatre at Durovernum Cantiacorum (Canterbury): an earthen-banked timber theatre built under the Flavians (AD 69-96) was replaced around AD 220 by a stone theatre seating roughly 3,000, one of the largest in Britain."
+ },
+ "vici:vici-27806": {
+  "desc": "The only confirmed Roman circus (chariot-racing track) in Britain, built in the early 2nd century AD, possibly under Hadrian, south of the Colchester colonia; about 450 m long with eight starting gates and seating for 8,000+, discovered in 2004-05 at the former Colchester Garrison."
+ },
+ "vici:vici-27807": {
+  "desc": "Roman theatre at the Gosbecks religious complex near Colchester (Camulodunum), Britain's largest at about 82 m diameter and c.5,000 seats; a timber theatre was replaced by one of turf, clay and stone revetment, demolished by the mid-3rd century."
+ },
+ "vici:vici-27961": {
+  "desc": "A Roman-period council house on a terrace east of Knidos's Harbor Street; a raised central podium and traces of a colonnaded, timber-roofed hall identify it as the city's bouleuterion."
+ },
+ "vici:vici-27979": {
+  "desc": "One of two theatres at Knidos, cut into the hillside above the harbor; the excavated, harbor-side theatre held roughly 5,000 spectators, with a temple of Dionysos standing nearby."
+ },
+ "vici:vici-28127": {
+  "desc": "Site of ancient Perperene, an Aeolian colony in Mysia on the Kozak plateau near Pergamon, noted for copper mines and vineyards; later renamed Theodosiopolis and became a Christian bishopric.",
+  "wiki": "Perperene"
+ },
+ "vici:vici-28392": {
+  "desc": "No hippodrome has actually been located at Nemea; its existence and the lengths of its horse and four-horse chariot races are known only from ancient literary sources, not excavation."
+ },
+ "vici:vici-28395": {
+  "desc": "Early stadium of the Panhellenic sanctuary of Poseidon at Isthmia, built around 550 BC with a stone-and-rope starting mechanism (hysplex); excavated by Oscar Broneer from 1952, it hosted the biennial Isthmian Games."
+ },
+ "vici:vici-28465": {
+  "desc": "One of the civic assembly buildings on Monte Iato, the Hellenistic-Roman hill city of ancient Ietas in western Sicily, excavated by the University of Zurich since 1971."
+ },
+ "vici:vici-28578": {
+  "desc": "Theatre of ancient Mylasa, Caria's largest city; built on the east slope of Topbaşı Hill, it survives only as an eroded hollow in the bedrock, with no seating visibly preserved today."
+ },
+ "vici:vici-28630": {
+  "desc": "A small, hillside-cut odeum among the acropolis ruins of Bargylia, a Carian coastal city near modern Boğaziçi; the site is privately owned and unexcavated, so the structure survives only as surface remains."
+ },
+ "vici:vici-28677": {
+  "desc": "Carian city founded (or renamed) by the Hecatomnid dynast Mausolus in the mid-4th century BC via synoecism of the Lelegian town of Syangela; subjected to Halicarnassus after Alexander's conquest, and birthplace of the historian Philippus of Theangela.",
+  "wiki": "Theangela"
+ },
+ "vici:vici-28743": {
+  "desc": "Theatre built into the hillside within the sanctuary of the healing demigoddess Hemithea (Molpadia) at Kastabos, used for her festival, the Kastabeia; the sanctuary's main buildings date to c.300 BC and were excavated by J.M. Cook and W.H. Plommer from 1960.",
+  "qid": "Q65061428",
+  "wiki": "Castabus"
+ },
+ "vici:vici-28777": {
+  "desc": "Carian sanctuary city of Zeus, enclosed by massive isodomic fortification walls; excavated and published by Louis and Jeanne Robert, who recorded inscriptions including a 351/341 BC dedication by the Hecatomnid Idrieus and a 203/190 BC letter from the Seleucid official Zeuxis.",
+  "wiki": "Amyzon"
+ },
+ "vici:vici-28822": {
+  "desc": "Roman-period theatre on Colossae's eastern slope, estimated to have seated around 5,000; the Phrygian city is best known as recipient of the Apostle Paul's Epistle to the Colossians. Systematic excavation began only in 2021, led by Pamukkale University.",
+  "wiki": "Colossae"
+ },
+ "vici:vici-28847": {
+  "desc": "Aeolian coastal city whose theatre has been located northwest of Beriki Tepe hill, though little survives visibly; excavations in 1880-82 uncovered roughly 4,000 Hellenistic-period tombs with terracotta figurines, most now in the Louvre.",
+  "wiki": "Myrina (Aeolis)"
+ },
+ "vici:vici-28850": {
+  "desc": "Well-preserved Hellenistic theatre at the fortified hilltop settlement known as the \"Castle of Veliani\" (identified as ancient Elaea) near Chrysavgi in Thesprotia, above the Acheron-Kokytos valley, alongside an adjacent Hellenistic arcade and semi-underground storage rooms.",
+  "wiki": "Elaea (Epirus)"
+ },
+ "vici:vici-28854": {
+  "desc": "Aeolian city founded by colonists from Lesbos, notable for its two harbours and as birthplace of the philosopher Arcesilaus, founder of the Middle Academy; theatre and stadium remains survive, and the town suffered a severe earthquake under Titus.",
+  "wiki": "Pitane (Aeolis)"
+ },
+ "vici:vici-28864": {
+  "desc": "Ionian city and birthplace of the philosopher Anaxagoras; after relocating from the mainland to an offshore island during the Ionian Revolt, it built a north-facing theatre there alongside a paved street and a temple.",
+  "wiki": "Klazomenai"
+ },
+ "vici:vici-28891": {
+  "desc": "Roman theatre of Florentia, built beneath what is now Palazzo Vecchio in the 1st century AD; excavated 1876–2010, its cavea held an estimated 10,000–15,000 spectators, comparable to Rome's Theatre of Marcellus.",
+  "qid": "Q3825825",
+  "wiki": "Roman Theatre of Florence"
+ },
+ "vici:vici-28915": {
+  "desc": "Bouleuterion of the Ionian city of Notion, one of the largest known Hellenistic council houses (c. 30.5 x 24.3 m, seating ~500); excavated by the University of Michigan from 2023 after prior illicit digging."
+ },
+ "vici:vici-28981": {
+  "desc": "Marketplace (macellum) at Sebatum, a Roman road station on the Via Julia Augusta near modern St. Lorenzen in South Tyrol, where the settlement's weekly nundinae (markets) were held; now the Mansio Sebatum museum site."
+ },
+ "vici:vici-29006": {
+  "desc": "Roman theatre at Sebaste (Samaria), built by Herod the Great after Augustus granted him the city in 27 BC; part of Herod's Augustan forum complex, it could seat up to about 6,000 spectators.",
+  "qid": "Q2918480",
+  "wiki": "Sebastia, Nablus"
+ },
+ "vici:vici-29249": {
+  "desc": "Amphitheatre of Aquinum, a Roman colony traditionally considered the birthplace of the poet Juvenal; only scant remains survive within the walled site alongside temples, a basilica and the Porta Capuana gate.",
+  "wiki": "Aquino, Italy"
+ },
+ "vici:vici-29257": {
+  "desc": "Bouleuterion (also used as an odeon) in the agora of Seleucia/Lyrbe in Pamphylia, a six-row council chamber that hosted both civic assembly meetings and musical performances."
+ },
+ "vici:vici-29316": {
+  "desc": "Amphitheatre in the harbour district of Roman Terracina, an imperial-period building of which little survives; a marble bust of Sophocles found nearby in 1838 is now in the Vatican Museums.",
+  "wiki": "Terracina"
+ },
+ "vici:vici-29358": {
+  "desc": "Selge's Roman-era stadium, cut into the hillside with a U-shaped track and a single sphendone; only a few tiers of seating survive from a renovation programme that also rebuilt the city's agora and theatre.",
+  "wiki": "Selge"
+ },
+ "vici:vici-29362": {
+  "desc": "The starting-gate tower of Mediolanum's circus, built for Maximian around 293–305 AD as part of Milan's imperial building programme; later converted into the bell tower of the church of San Maurizio, now within the Archaeological Museum."
+ },
+ "vici:vici-29423": {
+  "desc": "A small Hellenistic theatre at Issus, identified with Kinet Höyük near İskenderun, site of Alexander the Great's decisive 333 BC victory over Darius III; excavated during the Bilkent University campaigns of 1992–2012.",
+  "wiki": "Issus (Cilicia)"
+ },
+ "vici:vici-29764": {
+  "desc": "A Roman-era odeon at Ascalon (Tel Ashkelon) built mainly for musical performances, excavated alongside Herod's basilica and restored during the Israel Nature and Parks Authority's park renovation begun in 2008.",
+  "qid": "Q26764589",
+  "wiki": "Ashkelon National Park"
+ },
+ "vici:vici-29785": {
+  "desc": "A Phoenician stadium at Amrit carved from bedrock, about 230 m long with seven rows of seats partly preserved; dated to the 4th–3rd century BC, it is among the oldest stadiums known, likely used for sacred and funerary games.",
+  "wiki": "Amrit"
+ },
+ "vici:vici-29799": {
+  "desc": "The ruined odeon of Pinara, one of the six chief cities of the Lycian League (three votes), stands near the site entrance; the city's better-preserved theatre lies nearby.",
+  "wiki": "Pinara"
+ },
+ "vici:vici-29803": {
+  "desc": "The Sphendone, curved southern end of the Hippodrome of Constantinople, rests on 25 vaulted arches that leveled the track toward the sea slope; its remains, excavated by Stanley Casson's British team in 1927, are the hippodrome's most substantial survival.",
+  "wiki": "Hippodrome of Constantinople"
+ },
+ "vici:vici-29810": {
+  "desc": "A 2nd-century AD Roman theatre at Bizye (modern Vize), the only theatre known in ancient Thrace, with marble seating for about 4,000; excavated in 1998 and further studied in 2003, its finds are held in Kırklareli Museum.",
+  "qid": "Q1905571",
+  "wiki": "Vize"
+ },
+ "vici:vici-29835": {
+  "desc": "A Hellenistic Greek theatre cut into Apollonia's hillside north of the Agora, buttressed by an artificial bank; now under excavation by a joint German-Albanian team, it fell from use in late antiquity when a church was built over its reused seating blocks."
+ },
+ "vici:vici-29836": {
+  "desc": "Small odeon on the north side of Apollonia's Agora, built around the mid-2nd century AD with sixteen rows of seats for roughly 300 spectators and a shrine faced by two Ionic columns; excavated 1978, restored 1984-87."
+ },
+ "vici:vici-29842": {
+  "desc": "Theatre built at Oricum by the 2nd-century AD senator and benefactor Herodes Atticus, later destroyed by an earthquake; a nearby monumental fountain (nymphaeum) used as a rainwater cistern was long mistaken for a second theatre."
+ },
+ "vici:vici-29881": {
+  "desc": "Small Hellenistic-style theatre with only seven or eight rows of seating, built into the northwest slope of Idebessos's acropolis hill; the city has never been excavated, known only from Akdeniz University surveys in 2000 and 2008."
+ },
+ "vici:vici-29912": {
+  "desc": "Roman theatre of Helvia Recina, the largest in the Picenum region, which flourished under Augustus and Tiberius; its 71.8m cavea is the only above-ground remnant of the city and today hosts open-air opera performances."
+ },
+ "vici:vici-29913": {
+  "desc": "Roman theatre of Urbs Salvia, built in 23 AD in the Hellenistic tradition on a hillside terrace above the forum; one of the largest theatres in ancient Italy, with a three-tier cavea and colonnaded stage backdrop."
+ },
+ "vici:vici-30009": {
+  "desc": "Theatre on Zambaktepe's slopes above Lake Uluabat at Apollonia ad Rhyndacum, founded in the late 4th century BC with Hellenistic and Roman building phases; seated about 6,000 in an 80m cavea; excavation since 2021 uncovered an inscribed reserved seat naming a priestess."
+ },
+ "vici:vici-30088": {
+  "desc": "One of the largest Roman theatres in Spain, partly carved into the sandstone hillside of Tiermes (Termantia), a Celtiberian hillfort allied with Numantia that became a Roman municipium in 98 BCE.",
+  "wiki": "Termantia"
+ },
+ "vici:vici-30154": {
+  "desc": "Theatre of Magarsus, the port-sanctuary of Mallos where Alexander the Great sacrificed to Athena Magarsis before Issus; excavations uncovered a c. 30m-wide, 150m-long theatre seating roughly 3,000, with a rare sea view.",
+  "qid": "Q11934549",
+  "wiki": "Magarsa"
+ },
+ "vici:vici-30167": {
+  "desc": "Small, still-unexcavated theatre (estimated capacity c. 2,000) on a hillside at Prymnessos, a Phrygian town near Sülün that later served as a Christian bishopric attested at councils from 381 to 787 CE.",
+  "wiki": "Prymnessus"
+ },
+ "vici:vici-30170": {
+  "desc": "Theatre of Astra, a walled Roman-Byzantine town in Isauria near Tamaşalık whose identity was confirmed by inscriptions first recorded by Sterrett in 1885; rescue excavations there also uncovered a necropolis and church.",
+  "qid": "Q85743437",
+  "wiki": "Astra (Isauria)"
+ },
+ "vici:vici-30173": {
+  "desc": "Small theatre/odeion at Colybrassus, a Cilician hill settlement 1,000m up on Susuz Dağ that also held a Temple of Hercules; the city became a Byzantine bishopric before vanishing from record after 1199 CE.",
+  "wiki": "Colybrassus"
+ },
+ "vici:vici-30176": {
+  "desc": "Perperene was an Aeolian colony of ancient Mysia on the Kozak plateau near Bergama, known in antiquity for its copper mines and vineyards; specific details of its theatre are not attested.",
+  "wiki": "Perperene"
+ },
+ "vici:vici-30195": {
+  "desc": "Gigthis (Bou Ghrara), a Phoenician trading post absorbed by Rome after Thapsus in 46 BCE and later a municipium under Antoninus Pius; its forum, arch, and temples were cleared by French excavators from 1901.",
+  "qid": "Q1523755",
+  "wiki": "Gigthis"
+ },
+ "vici:vici-30379": {
+  "desc": "Carian city founded in the 6th century BCE on the Harpasus river, mentioned by Ptolemy, Stephanus of Byzantium, and Pliny; its late Hellenistic-to-early-Imperial theatre and city walls survive near Esenköy in the Nazilli district.",
+  "wiki": "Harpasa"
+ },
+ "vici:vici-31066": {
+  "desc": "Small theatre (capacity roughly 1,000) built into a hillside at the Birketein sanctuary north of Gerasa, part of a 2nd–3rd century AD complex with twin pools and baths; the site hosted the nocturnal Maiuma festival of Dionysus in late antiquity."
+ },
+ "vici:vici-31073": {
+  "desc": "The council house (bouleuterion) of Assos, a square building roughly 21x21m with columns in antis, built in the late 4th century BC by the local benefactor Ladomos and his wife — one of the oldest bouleuteria known in Asia Minor.",
+  "qid": "Q124538165"
+ },
+ "vici:vici-31101": {
+  "desc": "Theatre of Thelepte, a Roman colonia in Byzacena near modern Fériana; the city became seat of the province's military governor in the 6th century and was refortified under Justinian, per Procopius."
+ },
+ "vici:vici-31121": {
+  "desc": "Ruined theatre of Aggar (Henchir Sidi Amara) in the Siliana plain, identified with the ancient town by L. Ladjimi-Sebaï; some cavea seating steps survive. The site also preserves a triumphal arch, forum/capitol, and a Byzantine fort built atop a temple of Juno."
+ },
+ "vici:vici-31123": {
+  "desc": "Small theatre of Seressi, a Roman town near modern El Fahs, standing alongside the settlement's triumphal arch."
+ },
+ "vici:vici-31202": {
+  "desc": "Theatre associated with Thunigaba, a Roman-Berber town near modern Aïn Laabed in the Nefza region that later became a bishopric; no remains are currently visible above ground."
+ },
+ "vici:vici-31205": {
+  "desc": "Amphitheatre of the Roman colonia Thuburbo Minus (Tebourba), partly cut into a hillside and measuring roughly 36x48m, built in the 2nd century AD; one of only three Tunisian amphitheatres, with Uthina and El Jem, known to have underground service galleries. Still standing in the 17th century, it was later demolished for bridge material."
+ },
+ "vici:vici-31274": {
+  "desc": "The only surviving public monument of the Vestinian town of Aveia, an early imperial theater built on the middle terrace of the settlement, unusually located outside the city walls."
+ },
+ "vici:vici-31276": {
+  "desc": "Built in the 1st century BC on the Colle del Girfalco acropolis, this theater held roughly 2,000 spectators; its buried remains, studied in 1786, 1853, and 1934, lie beneath the church of Madonna del Carmine.",
+  "qid": "Q56220237"
+ },
+ "vici:vici-31279": {
+  "desc": "Rediscovered in 1943 and excavated from 2015, the theater of Urvinum Mataurense (1st c. BC-1st c. AD) stood out for its lavish marble revetment sourced from quarries across the Mediterranean, from Carrara to Egypt."
+ },
+ "vici:vici-31280": {
+  "desc": "Probably built under Augustus as part of his urban development of Ariminum, the theater had an external diameter of about 80 meters and a 23-meter-wide stage; its remains are now embedded in later buildings."
+ },
+ "vici:vici-31281": {
+  "desc": "Theater of the Roman town of Mevaniola, dated to the early 1st century BC; its perfectly circular orchestra follows Greek-Hellenistic rather than standard Roman design. Excavated in the 1950s-60s after the site's 1934 discovery."
+ },
+ "vici:vici-31282": {
+  "desc": "Begun around 88 BC as part of Bononia's transition to a Roman municipium, this was the first stone theater in Roman architecture, predating Pompey's theater in Rome by decades. Discovered in 1977 during restoration on via Carbonesi.",
+  "qid": "Q106223422"
+ },
+ "vici:vici-31283": {
+  "desc": "Built in the northwestern part of ancient Luca near the city walls, probably in the early Augustan period; the semicircular cavea had a diameter of about 78 meters, with traces surviving at the Church of Sant'Agostino."
+ },
+ "vici:vici-31287": {
+  "desc": "Part of the villa where Augustus exiled his grandson Agrippa Postumus in 6 AD; the small theatre, alongside a thermal bath and mosaic-floored villa, was uncovered by abbot Gaetano Chierici in the 19th century."
+ },
+ "vici:vici-31288": {
+  "desc": "The council house of the Roman colony of Cosa (founded 273 BC), excavated by the American Academy in Rome under Frank E. Brown; the original timber-and-stone curia was rebuilt as a three-part hall around 173 BC."
+ },
+ "vici:vici-31290": {
+  "desc": "Asisium's theatre is known only from two inscriptions found near Santa Maria Maggiore naming the gens Propertia as builders, possibly linking it to the poet Sextus Propertius; its physical remains have never been located."
+ },
+ "vici:vici-31291": {
+  "desc": "Part of a public sacred precinct with an amphitheatre and temple below the later Villa Fidelia, on the road from Porta Venere toward Assisi; demolished by the early 20th century, leaving only a buried pillar core visible today."
+ },
+ "vici:vici-31292": {
+  "desc": "Built in the 1st century AD against the hillside above the Via Flaminia; its curved cavea foundations and two supporting ambulatories survive embedded in later houses, one now the Redibis restaurant."
+ },
+ "vici:vici-31293": {
+  "desc": "Ancient Tuder's Roman theatre was partly overbuilt by the early medieval circuit walls; a 2012 archaeological reassessment (Chiaraluce) reinterpreted the structural relationship between the theatre remains and the later fortifications."
+ },
+ "vici:vici-31294": {
+  "desc": "Distinct from the city's amphitheatre, this 1st-century-BC theatre stood near the forum on the Via Flaminia crossing; only fragmentary opus reticulatum walls and one vaulted lateral entrance survive beneath later buildings."
+ },
+ "vici:vici-31295": {
+  "desc": "Excavated in 1829, when Augustan-era statues of Livia and her grandsons Gaius and Lucius Caesar were recovered from it; recent ground-penetrating radar survey has since mapped its full structural plan beneath the abandoned city."
+ },
+ "vici:vici-31300": {
+  "desc": "The Samnite-Roman town of Cluviae's theatre, built in opus reticulatum at Piano Laroma and dated to the 1st century BC-1st century AD, had a cavea front over 36m long and a rectangular scaenae building of 24x12m."
+ },
+ "vici:vici-31303": {
+  "desc": "Built in the first half of the 1st century AD with a diameter of about 75m, Corfinium's theatre survives mainly through inscriptions recording its construction and a guild of 23 scabillarii dancers; little remains beneath Piazza del Teatro."
+ },
+ "vici:vici-31304": {
+  "desc": "Carved into the slope of Colle Pettorino in two building phases from the late 2nd to mid-1st century BC, the theatre was later restored, reportedly under the usurper Magnentius, and abandoned after Alba Fucens declined post a 6th-century earthquake."
+ },
+ "vici:vici-31305": {
+  "desc": "Part of the Republican-era Sanctuary of Hercules Victor (c.120-82 BC), the theatre had three vomitoria, a scaenae frons and an orchestra pit, and abutted the sanctuary's underground Via Tecta road; restored in 2008-09.",
+  "wiki": "Sanctuary of Hercules Victor (Tivoli)"
+ },
+ "vici:vici-31307": {
+  "desc": "A small court theatre with an oval cavea near Villa Adriana's entrance, long quarried for building stone; 18th-century digs by Count Fede found paired herms of Tragedy and Comedy, later restored by Cavaceppi and now in the Vatican Museums."
+ },
+ "vici:vici-31310": {
+  "desc": "Part of the sanctuary of Juno Gabina at ancient Gabii: a sacred precinct cut partly into rock, with porticoes, shops, and a theater on its south side facing the late 2nd-century BC temple of Juno."
+ },
+ "vici:vici-31311": {
+  "desc": "A concert/oratory hall built by Domitian on the Campus Martius, seating up to c.11,000, restored by Apollodorus of Damascus around AD 106; its cavea outline survives in the curved facade of Palazzo Massimo alle Colonne.",
+  "qid": "Q2291009",
+  "wiki": "Odeon of Domitian"
+ },
+ "vici:vici-31313": {
+  "desc": "A small amphitheater within the Villa of the Quintilii on the Via Appia, seized by Commodus in AD 182 after he had the villa's owners executed; tradition holds he trained and hunted beasts here as a gladiator."
+ },
+ "vici:vici-31314": {
+  "desc": "The c.500m hippodrome-shaped garden of the Villa of the Quintilii, expanded under Commodus after his AD 182 seizure of the estate; a porticoed racetrack-garden used for chariot exercise and imperial promenades, lined with statuary and fountains."
+ },
+ "vici:vici-31315": {
+  "desc": "The private theater of Domitian's Alban Villa, built c. AD 81-96 on the middle terrace above Lake Albano; excavated fragments are held in the Antiquarium of Castel Gandolfo, with ruins still visible in the Villa Barberini grounds."
+ },
+ "vici:vici-31316": {
+  "desc": "An elliptical amphitheater (c.56m long) confirmed by 2012-13 excavations as part of the imperial 'Villa degli Antonini' estate at ancient Lanuvium; ancient sources say Commodus earned his nickname 'Roman Hercules' here by killing wild beasts."
+ },
+ "vici:vici-31317": {
+  "desc": "Remains of Lanuvium's Roman theater and its city walls survive in the modern town, near a porticoed precinct in opus reticulatum associated with the city's famed temple of Juno Sospita."
+ },
+ "vici:vici-31319": {
+  "desc": "The topmost terrace of the late 2nd-century BC Sanctuary of Fortuna Primigenia formed a theater-like cavea crowned by a small circular tholos, reached via the 'Hemicycles' terrace with its oracular sortes well."
+ },
+ "vici:vici-31322": {
+  "desc": "Built in the early Augustan period on the slopes of Monte Santa Croce, the theatre had a roughly 60m stage front and seated about 3,500; an inscription credits a member of the gens Vibia with funding it. Abandoned after the destructive 346 CE earthquake."
+ },
+ "vici:vici-31324": {
+  "desc": "Theatre of the Samnite hilltop town identified as Callifae, with a masonry stage and a cavea cut directly into the rock following the terrain — only the second rock-cut Samnite theatre found after Pietrabbondante. The settlement was destroyed after the Social War (88 BC)."
+ },
+ "vici:vici-31329": {
+  "desc": "Theatre of Allifae, built inside the walls near today's Piazza del Vescovato; recorded still standing with two arcades in the 18th century before being demolished in 1836 for cathedral stone. Fragments including marble portrait heads re-emerged in 1965 and 1989."
+ },
+ "vici:vici-31330": {
+  "desc": "Theatre of the Samnite-Roman town of Trebula Balliensis, excavated in its southwestern quarter, where statues and public inscriptions (now largely in the Museo Campano, Capua) suggest the town's forum also stood. The Roman-era settlement developed here from the 2nd century BC.",
+  "wiki": "Trebula Balliensis"
+ },
+ "vici:vici-31332": {
+  "desc": "A theatre known only from inscriptions at ancient Telesia (Telese Vetere/San Salvatore Telesino), recorded as roughly 48.7m in diameter with a 37.7m orchestra; despite this epigraphic evidence, excavation has never located its physical remains."
+ },
+ "vici:vici-31333": {
+  "desc": "Augustan-era theatre in Formia's Castellone district, locally called 'Gliu Canciegl'; its cavea faced south toward the sea and its stage was about 24m long. Tradition places the martyrdom of St Erasmus here in 303 CE; the ruins are now built over by a residential quarter."
+ },
+ "vici:vici-31336": {
+  "desc": "Capua's Republican-era amphitheatre (130-90 BC), sited about 20m from its later Flavian successor and holding an estimated 20,000 spectators; likely the site of the gladiatorial school from which Spartacus's revolt broke out in 73 BC. Demolished to build the standing amphitheatre."
+ },
+ "vici:vici-31338": {
+  "desc": "Scholars believe the 18th-century Casina Spinelli hunting lodge was built directly over the remains of Suessula's Roman theatre; excavations beneath and around it exposed part of the ancient city's forum."
+ },
+ "vici:vici-31339": {
+  "desc": "Elliptical opus reticulatum/opus mixtum walls of a 1st-century AD theatre were found in 1982 under the stables of Acerra's Castello dei Conti; inscriptions record Gnaeus Stennius Egnatius, priest of Isis and Serapis, funding a day of games.",
+  "qid": "Q73899918"
+ },
+ "vici:vici-31341": {
+  "desc": "A 2nd-century AD theatre built against the hillside at Punta Sarparella served the sailors of the Classis Misenensis, Rome's principal imperial fleet based at Misenum; bradyseism has submerged part of it below sea level."
+ },
+ "vici:vici-31344": {
+  "desc": "A small Roman theatre was uncovered in 1855 beneath the terrace of Sorrento's Hotel Victoria, alongside a long wall thought to belong to an imperial-era residence, with a rock-cut tunnel descending toward the sea."
+ },
+ "vici:vici-31351": {
+  "desc": "A rock-cut and sandstone-block semicircular theatre seating roughly 200 was built into the hillside of this Brettian hilltop settlement (4th century BC), tentatively identified with Cossa, and served as a communal meeting place."
+ },
+ "vici:vici-31355": {
+  "desc": "The Teatro Berga, Vicetia's Roman theatre, was built in the 1st century BC with a cavea about 82 m across seating over 5,000; adorned with marble statues of the Julio-Claudian family, it was surveyed by Andrea Palladio before being built over in the 17th century.",
+  "qid": "Q16912710",
+  "wiki": "Teatro Berga"
+ },
+ "vici:vici-31356": {
+  "desc": "The smaller of Altinum's two Roman theatres, identified as an odeon through geophysical resistivity survey within the city's monumental centre; unlike its larger neighbour it had not been excavated as of 2026."
+ },
+ "vici:vici-31357": {
+  "desc": "The larger of Altinum's two Roman theatres, first mapped by geophysical prospection; a 2025-26 excavation campaign uncovered sections of its cavea walls near the city's forum and the Via Annia."
+ },
+ "vici:vici-31358": {
+  "desc": "Remains of a Roman theatre at Eporedia, distinct from the town's better-known amphitheatre, first catalogued by Carlo Promis in his 1883 study of its surviving traces; little is visible above ground today."
+ },
+ "vici:vici-31361": {
+  "desc": "A theatre proposed for Roman Palma (Palmaria) in a 1997 architectural hypothesis applying Vitruvian design criteria to the city's ancient street grid; unlike the excavated theatre at Pollentia in northern Mallorca, no dig has confirmed the structure.",
+  "qid": "Q105374207"
+ },
+ "vici:vici-31362": {
+  "desc": "An unexcavated theatre cavity at Akmonia (Ahat Köyü, Uşak province), a Phrygian city mentioned by Cicero; visible remains include two temple podiums and gymnasium foundations alongside the theatre pit, with no standing structure surviving."
+ },
+ "vici:vici-31364": {
+  "desc": "U-shaped stadium of Claudiopolis (Bithynium), built in the 2nd century AD, probably under Hadrian; inscriptions naming priests Secundus and Anatole record gladiatorial games held there. Originally ~190m long; excavated since 2008, now the best-preserved Roman structure in Bolu."
+ },
+ "vici:vici-31365": {
+  "desc": "Roman theater of Nicomedia, capital of the Roman Empire under Diocletian from 284 AD; reportedly among antiquity's largest theaters, it lies mostly unexcavated beneath İzmit's Orhan neighborhood, exposed by rubble-clearance after the 1999 earthquake."
+ },
+ "vici:vici-31371": {
+  "desc": "Bath-gymnasium complex built in the 2nd century AD by Publius Vedius Antoninus and his wife Flavia Pappiana, dedicated to Artemis and Antoninus Pius; its 70x30m palaestra beside the Great Theatre is thought to have trained actors.",
+  "qid": "Q97341288"
+ },
+ "vici:vici-31392": {
+  "desc": "At the Roman civitas of Murgi (Ciavieja, El Ejido), georadar survey detected a curved wall interpreted as a possible amphitheatre, supported by a 2nd-century inscription honoring Porcia Maura referencing circus games; identification remains provisional."
+ },
+ "vici:vici-31393": {
+  "desc": "Remains of the Roman theatre of Castulo survive near the acropolis of this Iberian-Roman city by Linares (Jaén), part of a public complex with baths, forum and an amphitheatre built as Castulo adopted the Roman urban model."
+ },
+ "vici:vici-31394": {
+  "desc": "Roman circus of Laminium (Alhambra, Ciudad Real), identified in the late 1990s during roadworks on the N-340; a rectangular structure with a central longitudinal wall interpreted as the spina, now buried beneath the road."
+ },
+ "vici:vici-31396": {
+  "desc": "Theatre of the Celtiberian-Roman hilltop city Arcóbriga (Cerro Villar, Monreal de Ariza), built on the slope between the acropolis and the public-buildings plateau; the site was excavated by the Marquis of Cerralbo in the early 20th century."
+ },
+ "vici:vici-31397": {
+  "desc": "Theatre of Bílbilis, birthplace of the poet Martial, linked to the forum by porticoes and stairs faced with marble from Carrara and Chemtou; a two-story scaenae frons with Corinthian capitals gave the venue a capacity near 4,500."
+ },
+ "vici:vici-31398": {
+  "desc": "Rock-cut theatre of Colonia Clunia Sulpicia, built under Emperor Tiberius with capacity for c. 10,000 spectators — one of the largest in Hispania — remodeled in the 2nd century for amphitheatre-style spectacles.",
+  "wiki": "Theatre of Clunia Sulpicia"
+ },
+ "vici:vici-31399": {
+  "desc": "Amphitheatre of Lucus Augusti (Lugo), built outside the city walls near a gladiatorial palaestra and the temples of Isis and Venus; its modest size (c. 2,800 capacity) matched the town's population."
+ },
+ "vici:vici-31400": {
+  "desc": "Legionary amphitheatre of Legio (León), one of only five known legionary amphitheatres in the Roman Empire; begun by Legio VI Victrix in the 1st century and enlarged by Legio VII Gemina to seat up to 8,000."
+ },
+ "vici:vici-31401": {
+  "desc": "Roman theatre of the colonia Iulia Constantia Zilil (Dchar Jdid, near Asilah), sited just outside the west gate of the 3rd-century town wall; today only the cavea depression and stage-wall foundations survive."
+ },
+ "vici:vici-31402": {
+  "desc": "Roman circus of Sitifis (Sétif), a chariot-racing track roughly 450m long and 70m wide, likely built or restored in late antiquity; largely built over today, with only its curved southern end still visible."
+ },
+ "vici:vici-31404": {
+  "desc": "Small 1st-century AD theatre or odeion (23m diameter) beside the Asclepieion of ancient Lissos, likely used for performances tied to the sanctuary's healing cult."
+ },
+ "vici:vici-31405": {
+  "desc": "Roman theatre of Lyttos (Lyktos), described by 16th-century drawings and recent excavation as the largest theatre on Crete; nearby a civic hall dedicated to Hadrian was completed in 118 AD."
+ },
+ "vici:vici-31406": {
+  "desc": "Rock-cut theatral area of the Doric city of Lato, with stone benches for about 350 spectators beside the agora, used for civic assembly as much as performance."
+ },
+ "vici:vici-31410": {
+  "desc": "A stepped, uncurved stone seating area of about ten rows (21-29 m long) set into the hillside beside the 4th-century BC temple of Despoina at Lycosura, likely for spectators of the goddess's mystery rites; the sanctuary held Damophon's colossal cult statue group, found in 1889.",
+  "wiki": "Lycosura"
+ },
+ "vici:vici-31414": {
+  "desc": "The only substantially preserved hippodrome from Greek antiquity (roughly 250 x 50 m), built after the 7th century BC in the Lower Sanctuary of Zeus on Mount Lykaion, where the quadrennial Lykaia games staged chariot and horse races into the 3rd century BC.",
+  "qid": "Q131538145",
+  "wiki": "Mount Lykaion Hippodrome"
+ },
+ "vici:vici-31416": {
+  "desc": "A 4th-century BC theatre (its stage rebuilt around 245 BC) attached to the fortified hill-city of Typaneae in Triphylia, one of only two known ancient theatres in Elis Prefecture; part of its cavea, retaining wall, and a proedria throne survive in place.",
+  "wiki": "Typaneae"
+ },
+ "vici:vici-31417": {
+  "desc": "Theatre of Elis, built mainly in Hellenistic times on the acropolis slope near a temple of Dionysus that housed a statue by Praxiteles (Pausanias); excavated by the Austrian Archaeological Institute in 1910-1914 and again from 1960, with an estimated capacity of 5,000-8,000.",
+  "wiki": "Elis (city)"
+ },
+ "vici:vici-31418": {
+  "desc": "A theatre at Psophis in northwestern Arcadia, near the confluence of the Erymanthos and Aroanios rivers; noted by 19th-century traveller William Martin Leake on a hillside but, despite being a modest settlement described by Pausanias, it has not been securely relocated by later excavation.",
+  "wiki": "Psophis"
+ },
+ "vici:vici-31425": {
+  "desc": "A small 4th-3rd century BC theatre at the foot of the fortified hill of ancient Macynia in Aetolia, with an unusual layout combining a 14-row curved cavea and an adjoining 3-row straight wing forming a single-row proedria, built using the Doric-foot module."
+ },
+ "vici:vici-31426": {
+  "desc": "Theatre of New Pleuron in Aetolia, built around 230 BC contemporary with the city walls after Demetrios II of Macedon destroyed old Pleuron in 234 BC; a well-preserved five-section cavea with six staircases and a six-columned proscenium abut the city wall.",
+  "wiki": "Pleuron (Aetolia)"
+ },
+ "vici:vici-31429": {
+  "desc": "Theatre of ancient Leucas, built c. 4th century BC on Koulmos Hill; rediscovered in 1997 and systematically excavated from 2015, with 21 seat rows for c. 3,500 spectators and carved marble thrones."
+ },
+ "vici:vici-31430": {
+  "desc": "Roman theatre of Nikopolis, built in the early 1st century AD as part of Augustus's building program for the city founded after Actium; capacity c. 5,000, renovated under Hadrian in the 2nd century AD."
+ },
+ "vici:vici-31431": {
+  "desc": "Roman odeon at Nikopolis, built in the 1st century AD with its cavea carried on three semicircular stoas since the ground lacked a natural slope; remained in use until the later 3rd century AD."
+ },
+ "vici:vici-31432": {
+  "desc": "Small theatre-odeon-bouleuterion of Ambracia, capital of Pyrrhus of Epirus, built late 4th-early 3rd century BC over an earlier bathhouse; the smallest known Greek theatre, seating only about 500."
+ },
+ "vici:vici-31438": {
+  "desc": "Theatre of Gitana, capital of the Thesprotian League, built mid-3rd century BC and destroyed by Rome in 167 BC; 65m diameter with 28 seat rows, many inscribed with acts of manumission."
+ },
+ "vici:vici-31439": {
+  "desc": "Ancient theatre of Tanagra, a Boeotian city famed for its Geometric-to-Hellenistic cemetery and Tanagra terracotta figurines; the theatre remains only partly uncovered, cut through by a later water-supply channel."
+ },
+ "vici:vici-31443": {
+  "desc": "Theatre of Demetrias, built with the city's founding by Demetrios Poliorketes in 294-292 BC; a Hellenistic cavea and stage over 24m across, seating upward of 2,500, excavated from 1907 onward."
+ },
+ "vici:vici-31445": {
+  "desc": "Theatre of Thessalian Scotussa, built into a natural hollow inside the city's southwest wall; the polis, home of Olympic pankratiast Polydamas, lay near the 197 BC Battle of Cynoscephalae and is under excavation by a Greek-Italian team since 2014.",
+  "wiki": "Scotussa"
+ },
+ "vici:vici-31448": {
+  "desc": "A council hall built within Dion's Great Thermae bath complex in the later 2nd century AD; the roughly 400-seat odeon-style room hosted musical and poetic performances and likely doubled as the city's bouleuterion (assembly hall).",
+  "qid": "Q38251447",
+  "wiki": "Archaeological Park of Dion"
+ },
+ "vici:vici-31453": {
+  "desc": "Theatre of Palaiopoli, the fortified Classical-Hellenistic capital of ancient Andros founded in the 7th-6th century BC on the island's west coast; only fragmentary remains survive, and the site today hosts summer performances of ancient Greek drama.",
+  "qid": "Q12882633",
+  "wiki": "Palaiopoli, Andros"
+ },
+ "vici:vici-31456": {
+  "desc": "Track and seating built in Delos's sanctuary of Apollo in the early 3rd century BC for the athletic contests of the Delia festival; at roughly 270 m it is among the smallest stadia known from ancient Greece."
+ },
+ "vici:vici-31457": {
+  "desc": "Theatre of Ancient Thera, the Dorian city on Mesa Vouno founded by Theras of Sparta in the 9th century BC; excavated by Friedrich Hiller von Gaertringen (1895-1904), it seated up to about 1,500 spectators near the agora.",
+  "wiki": "Ancient Thera"
+ },
+ "vici:vici-31461": {
+  "desc": "Hellenistic theatre of Astypalaia (Isthmos), Kos's capital until 366 BC, near the acropolis and a temple of Asklepios and Hygieia; the orchestra retains its Dionysus altar (thymele), and the stage building's Doric foundations survive.",
+  "wiki": "Astypalaea (Cos)"
+ },
+ "vici:vici-31464": {
+  "desc": "Hellenistic theatre of Halasarna near Kardamaina, part of the Sanctuary of Apollo complex; excavated by the Italian Archaeological Mission in 1928, it preserves three cunei of turf-cut seating and a Roman-period stage platform, though nothing is visible today.",
+  "wiki": "Halasarna"
+ },
+ "vici:vici-31465": {
+  "desc": "Large Roman theatre at Ambavri south of Kos town, about 108 m wide and seating up to 13,000 for events linked to the Temple of Asklepios; built in the 1st century AD and partly excavated by the Italian Mission in 1922 and 1930."
+ },
+ "vici:vici-31466": {
+  "desc": "Findspot of Kos's Hellenistic athletics stadium, built in the first half of the 2nd century BC (roughly 180 x 30m, without a curved sphendone); German archaeologist R. Herzog excavated the site in 1899–1900, locating its aphesis (starting line)."
+ },
+ "vici:vici-31467": {
+  "desc": "Findspot of Kos's Hellenistic athletics stadium (built first half of the 2nd century BC, track roughly 180 x 30m); Italian archaeologist Luciano Laurenzi excavated here in 1928, uncovering rows of travertine seating that confirmed the stadium's identification."
+ },
+ "vici:vici-31468": {
+  "desc": "Theatre of the Sanctuary of the Great Gods at Samothrace, built around 200 BC on the Western Hill; it staged mythological performances during the Mysteries, with an orchestra roughly 12.5m across and polychrome seating of red rhyolite and white limestone."
+ },
+ "vici:vici-31469": {
+  "desc": "Badly damaged theatre on the north side of Abdera, the Thracian colony founded by settlers from Teos; topographic and geophysical survey (University of Thessaloniki) plus trial trenching have begun defining its plan, though excavation remains at an early stage."
+ },
+ "vici:vici-31472": {
+  "desc": "Council house (bouleuterion) of Ariassos, a Pisidian hill city occupied from the 3rd century BC to the 7th century AD; survey by Stephen Mitchell's team identified a squarish hall with a semicircular tiered bench, possibly an odeion, fronted by a hexagonal-facade atrium."
+ },
+ "vici:vici-31473": {
+  "desc": "Theatre of Ariassos, a Pisidian city on the Antalya–Burdur road that minted coins in the late Hellenistic period; only partial foundations of the cavea survive, recorded during Stephen Mitchell's Pisidia Survey Project alongside the city's bouleuterion, nymphaeum and baths."
+ },
+ "vici:vici-31475": {
+  "desc": "At Sia (also read Osia), a minor Pisidian town near Karaot attested only by a boundary inscription, one surviving structure preserves eight or nine straight rows of stone seating above a paved area, probably a small theatre or council hall."
+ },
+ "vici:vici-31476": {
+  "desc": "One of two theatres at Cremna, a Pisidian hilltop city on the Cestrus gorge that Augustus refounded as the Roman colony Colonia Iulia Augusta Felix Cremnena; the city's public buildings flourished from Hadrian's reign into the Severan period.",
+  "wiki": "Cremna"
+ },
+ "vici:vici-31477": {
+  "desc": "Theatre of Seleucia Sidera (Claudioseleucia) on Hisar Tepe, built to the Greek plan with a largely destroyed cavea; its stage building dates to the Roman Imperial period, 2nd–3rd century CE.",
+  "wiki": "Seleucia Sidera"
+ },
+ "vici:vici-31478": {
+  "desc": "Theatre of Apamea Kibotos (Cibotus), the Seleucid city Antiochus I founded on the site of Phrygian Celaenae; its remains lie beneath modern Dinar and have seen little systematic excavation.",
+  "wiki": "Apamea (Phrygia)"
+ },
+ "vici:vici-31479": {
+  "desc": "Theatre-stairway of Pessinus, built beside the sanctuary of Cybele as monumental steps to the Tiberian-era temple, with an orchestra used for religious rites and gladiatorial shows; last major restoration under Hadrian.",
+  "wiki": "Pessinus"
+ },
+ "vici:vici-31480": {
+  "desc": "Theatre of Soli-Pompeiopolis, the Rhodian colony Pompey refounded in 64 BC to resettle surrendered Cilician pirates; recorded by early 19th-century travelers, it is no longer visible above ground and remains under excavation.",
+  "wiki": "Soli (Cilicia)"
+ },
+ "vici:vici-31481": {
+  "desc": "Theatre of Claudiopolis (Colonia Ninica Claudiopolis), a Claudian colony in the Calycadnus valley; seating fragments and scaenae column drums survive west of modern Mut amid an otherwise built-over ancient site.",
+  "wiki": "Claudiopolis (Cilicia)"
+ },
+ "vici:vici-31482": {
+  "desc": "Theatre of Syedra, a Greek foundation traced to the 7th century BC that flourished under Rome; the roughly 3,000-year-old structure is under active excavation via a Turkish-French research project (TUBITAK-backed).",
+  "wiki": "Syedra"
+ },
+ "vici:vici-31484": {
+  "desc": "Stadium of Tripolis on the Meander (Apollonia/Antoniopolis), a city on the Caria-Lydia-Phrygia border; its 2nd-century-CE public buildings, including this stadium, are under ongoing excavation by Pamukkale University.",
+  "qid": "Q117411",
+  "wiki": "Tripolis on the Meander"
+ },
+ "vici:vici-31487": {
+  "desc": "Theatre of Bargasa, a minor inland Carian town of Hellenistic and Roman date near Haydere/Kavaklı in the Harpasos valley; its ruins are poorly preserved and hidden in woodland.",
+  "wiki": "Bargasa (northern Caria)"
+ },
+ "vici:vici-31491": {
+  "desc": "Theatre of Mastaura, a small Roman-era theatre near Nazilli seating an estimated 1,600, with a partially preserved two-tiered arched stage building; the city also has a recently unearthed Severan-era amphitheater.",
+  "wiki": "Mastaura (Caria)"
+ },
+ "vici:vici-31493": {
+  "desc": "Roman-period theatre of Kyon, built against a hillside near Çamyayla village (ancient Paliapolis in Byzantine times); only 13 rows of seating survive and the city, known for its coinage, has never been formally excavated."
+ },
+ "vici:vici-31494": {
+  "desc": "Stadium of Philadelphia in Lydia, founded 189 BC by Eumenes II of Pergamon and later one of the Seven Churches of Revelation; the U-shaped cavea survives cut into a hillside, but the structure remains unexcavated and its stone seating stripped.",
+  "wiki": "Alaşehir"
+ },
+ "vici:vici-31495": {
+  "desc": "Theatre of Blaundus, a hilltop city founded by Macedonian settlers under Alexander's successors and rebuilt as a Roman center after earthquakes; the theatre sits on the southern slope outside the walls with its stage destroyed but seating rows partly preserved.",
+  "wiki": "Blaundus"
+ },
+ "vici:vici-31496": {
+  "desc": "Stadium of Blaundus, a 1st-century AD structure roughly 140 by 37 meters excavated in recent seasons, notable for a stepped entrance and a male statue found reused as filler stone in its wall.",
+  "wiki": "Blaundus"
+ },
+ "vici:vici-31497": {
+  "desc": "Theatre of Temnos, an Aeolian city mentioned by Herodotus near modern Görece; built on the acropolis' north slope with an estimated capacity of about 2,800, its cavea partly visible but never scientifically excavated.",
+  "wiki": "Temnos"
+ },
+ "vici:vici-31498": {
+  "desc": "Theatre of Aigai in Aeolis, a member of the Aeolian dodecapolis and seat of a noted Apollo sanctuary that flourished under the Attalids of Pergamon; the theatre has been under excavation since the site's 2004 research program began.",
+  "wiki": "Aigai (Aeolis)"
+ },
+ "vici:vici-31499": {
+  "desc": "One long wall survives from the stadium of Aigai (Aeolis), a Greek city atop Gün Dağı in Manisa province; excavated since 2004 by Ege University under Ersin Doğer alongside the city's agora, theater, and Temple of Demeter."
+ },
+ "vici:vici-31506": {
+  "desc": "The Roman-Byzantine theater of Abila of the Decapolis (Tell Abil/Quwaylibah) in northern Jordan, part of the ten-city Decapolis league; the site's structures were largely leveled by the earthquake of 747 CE."
+ },
+ "vici:vici-31508": {
+  "desc": "Herod the Great built a small theater, seating about 3,000, at Tell es-Samrat north of his winter palace at Jericho; Josephus records the dying Herod ordering Judean notables assembled there executed at his death."
+ },
+ "vici:vici-31509": {
+  "desc": "The hippodrome (racecourse) at Tell es-Samrat formed part of Herod the Great's theater-stadium complex north of his winter palace at Jericho, excavated by Ehud Netzer; Josephus sets here Herod's deathbed order to execute assembled notables."
+ },
+ "vici:vici-31510": {
+  "desc": "Dor's Roman theater, built in the late 1st or early 2nd century CE north of the tell, was about 72 m in diameter and seated roughly 4,000; partly excavated in the 1950s by Ja'acov Leibowitz."
+ },
+ "vici:vici-31515": {
+  "desc": "The only excavated ancient Greek theater in the northern Black Sea region, built in the Hellenistic period within Chersonesus Taurica near Sevastopol; it was later remodeled into an arena for gladiatorial combat under Roman rule.",
+  "qid": "Q12078603"
+ },
+ "vici:vici-31516": {
+  "desc": "Ancient sources place a theatre, hippodrome, and gymnasium around Olbia Pontica's agora, but despite more than a century of excavation at this Greek colony on the Southern Bug estuary, the theatre's physical remains have never been located."
+ },
+ "vici:vici-31518": {
+  "desc": "Geophysical survey has traced a hippodrome for chariot racing among the public buildings of Viminacium, capital of Roman Moesia Superior near modern Kostolac, though like most of the 450-hectare site it remains unexcavated."
+ },
+ "vici:vici-31521": {
+  "desc": "Built into a hillside in the 3rd century BC, this theatre at Nikaia had a 53m cavea seating about 800 in 17 rows; its parodos wall preserves 14 inscriptions recording grants of citizenship to the city.",
+  "wiki": "Nikaia, Illyria"
+ },
+ "vici:vici-31522": {
+  "desc": "Built around the mid-3rd century BC, Byllis's roughly 190m stadium ran beside the theatre for standing spectators; a 51m rainwater cistern fed by its steps and the Great Stoa's roof survives alongside one bank of seating.",
+  "wiki": "Byllis"
+ },
+ "vici:vici-31523": {
+  "desc": "Plutarch's Life of Timoleon implies a theatre or arena at Messana, where the deposed tyrant Hippon was lynched before the crowd, but no excavation has ever confirmed or located a Hellenistic theatre in the city."
+ },
+ "vici:vici-31525": {
+  "desc": "Excavated in 2007 at Montagna dei Cavalli, this Greek theatre — among the earliest known in Sicily — was built in the later 4th century BC and destroyed in 258 BC when Rome sacked Hippana during the First Punic War.",
+  "wiki": "Hippana"
+ },
+ "vici:vici-31526": {
+  "desc": "Uncovered in the 1960s on the San Nicola hillock, this 4th–3rd century BC semicircular assembly hall — cut into tufa, seating roughly 3,000 — served Akragas's popular assembly and was later refashioned as a Roman-era odeon called the comitium."
+ },
+ "vici:vici-31535": {
+  "desc": "Antioch's amphitheater, built around the mid-1st century BC — one of the earliest in the Roman world — but its exact location was never securely fixed and may be confused in the ancient sources with a nearby reservoir."
+ },
+ "vici:vici-31536": {
+  "desc": "Built around 50 BCE on an island in the Orontes, the Circus of Antioch stretched over 490 m and could seat up to 80,000 spectators for chariot racing, among the largest hippodromes in the Roman world.",
+  "qid": "Q3677505",
+  "wiki": "Circus of Antioch"
+ },
+ "vici:vici-31606": {
+  "desc": "Archaeological survey has identified traces of a theater among the remains of Neandreia, an Aeolian Greek city on Çığrı Dağ in the Troad founded around 700 BC and largely depopulated after Alexandria Troas absorbed it c. 310 BC."
+ },
+ "vici:vici-31610": {
+  "desc": "The Hellenistic-Roman theater of Tripolis ad Maeandrum, near modern Yenicekent, is built into a hillside at a steep 50-degree incline, dates to around the 2nd century AD, and remains largely unexcavated."
+ },
+ "vici:vici-31611": {
+  "desc": "The odeon of Pergamon's Upper Gymnasium was a roofed recital hall about 36 m across with 14 rows of seating in five wedges, seating roughly 1,000; built in the 2nd century CE, it may also have served as a bouleuterion."
+ },
+ "vici:vici-31612": {
+  "desc": "Pergamon's roofed 'Basement Stadium', about 212 m long, lay between the middle and upper terraces of the 2nd-century-BC gymnasium complex on the acropolis, used for athletic training and competitions."
+ },
+ "vici:vici-31632": {
+  "desc": "Tlos's Roman-era stadium, about 148 m long with shops opening onto it, hugs the acropolis slope; excavations since 2005 under Akdeniz University have exposed nine of its original seating rows and an adjoining paved street."
+ },
+ "vici:vici-31633": {
+  "desc": "The small Roman-period theater of Nisa, a minor Lycian League city near modern Sütleğen that minted its own coins in the 2nd century BC, has 22 surviving rows of seating and is the best-preserved structure at the unexcavated site."
+ },
+ "vici:vici-31846": {
+  "desc": "Hellenistic bouleuterion of Heraclea ad Latmum in Caria, sited at the northeast corner of the agora with U-shaped stone council seating comparable to the bouleuteria at Priene and Miletus; probably 2nd century BC."
+ },
+ "vici:vici-32383": {
+  "desc": "Theatre in the Valley of the Muses on Mt Helicon, built for the musical and dramatic contests of the Mouseia festival hosted by Thespiae; dated to the late 3rd–early 2nd century BC, excavated by the French School at Athens in 1888–1890."
+ },
+ "vici:vici-32560": {
+  "desc": "Theatre of ancient Elea (Elaea), capital of the Thesprotian koinon from its mid-4th-century BC foundation; the cavea spanned 45–50 m and stood 8–9 m high, seating an estimated 3,000–4,000. Excavation of the site began in 1985."
+ },
+ "vici:vici-32922": {
+  "desc": "Minoan 'theatral area' within the Tourkogeitonia palace complex at Epano Archanes: a paved court crossed by raised walkways, with a stepped altar and sacred horns; excavated from 1964 by Yannis Sakellarakis alongside the Bronze Age palace."
+ },
+ "vici:vici-33216": {
+  "desc": "The Pi-shaped theatre of Calydon, unusual among Greek theatres for its square orchestra and rectilinear stone benches; found in 1967 during roadworks and fully excavated by a Danish-Greek team 2001-2014, with the stage building dated to the mid-3rd century BC.",
+  "qid": "Q28599130"
+ },
+ "vici:vici-34119": {
+  "desc": "Hellenistic-Roman theater of the Sicilian polis Halaesa Archonidea near Tusa; rediscovered in the 2010s and under active excavation since the 2020s by archaeologists from Amiens University with Palermo and Messina, noted for its scale and preservation.",
+  "wiki": "Halaesa"
+ },
+ "vici:vici-34988": {
+  "desc": "The Odeon of Hippos (Sussita), a Decapolis city above the Sea of Galilee, was a small roofed venue (c. 27 x 21 m, semicircular) for poetry readings and recitals before a privileged audience, uncovered in excavations announced in 2009.",
+  "wiki": "Hippos (Golan Heights)"
+ },
+ "vici:vici-35024": {
+  "desc": "The theatron of Augusta Traiana (Roman Beroe, renamed for Trajan after 106 CE) was built with marble seats under Marcus Aurelius (161-180 CE) for gladiatorial contests, processions, and civic assemblies.",
+  "wiki": "Augusta Traiana"
+ },
+ "vici:vici-37325": {
+  "desc": "A small Hellenistic theatre survives at Issus (Kinet Höyük, near Yeşilköy, Hatay Province), site of Alexander's decisive 333 BC battle against Darius III; the mound was excavated by Bilkent University between 1992 and 2012.",
+  "wiki": "Issus (Cilicia)"
+ },
+ "vici:vici-40183": {
+  "desc": "At Krommyon (modern Agioi Theodoroi) on the Corinthian coast, 1961 excavations uncovered a small circular structure of the late Archaic period (late 6th c. BC); whether it served as a tiny theatral area or a place of worship remains undetermined.",
+  "wiki": "Crommyon"
+ },
+ "vici:vici-40184": {
+  "desc": "Around 120 CE, under Hadrian's building program, the smaller of Argos's two ancient theatres — a 5th/4th-century BC archaic theatre seating roughly 2,500 — was roofed over and converted into a Roman odeum with brick seating faced in mosaic.",
+  "wiki": "Argos Theater"
+ },
+ "vici:vici-40185": {
+  "desc": "Argos's second, smaller theater, cut into the lower slope near the agora in the 5th century BC and seating around 2,500; under Hadrian the Romans roofed and remodeled it into an odeon for musical and rhetorical performances.",
+  "qid": "Q130246272"
+ },
+ "vici:vici-4140": {
+  "desc": "Built at the end of the 3rd century AD within the walls of Diocletianopolis (modern Hisarya, Bulgaria), this irregular pear-shaped amphitheatre seated roughly 3,000 and is among the best-preserved in Bulgaria; its unusually central, intramural location and late Christian-era operation suggest bloodless spectacles."
+ },
+ "vici:vici-4147": {
+  "desc": "Built around AD 55-75 outside the walls of Calleva Atrebatum (Silchester), this earthwork amphitheatre held roughly 3,500-7,000 spectators; rebuilt in stone in the 3rd century, it later saw post-Roman British and Anglo-Saxon reuse before an 1147 medieval fortification atop it."
+ },
+ "vici:vici-4149": {
+  "desc": "The largest Roman amphitheatre known in Britain, built outside the legionary fortress of Deva Victrix (Chester) by Legio II Adiutrix in the late AD 70s and rebuilt in stone by Legio XX Valeria Victrix around AD 100, seating an estimated 7,000-12,000 for entertainment and military training.",
+  "wiki": "Chester Roman Amphitheatre"
+ },
+ "vici:vici-4150": {
+  "desc": "A Neolithic henge at Dorchester (Durnovaria) remodeled by the Romans around AD 60-70 into an amphitheatre, likely by Legio II Augusta, with its banks lowered and an oval arena cut for military displays and public spectacle; later reused as a Civil War fort and 17th-18th century execution site.",
+  "wiki": "Maumbury Rings"
+ },
+ "vici:vici-4152": {
+  "desc": "An amphitheatre serving Isurium Brigantum (Aldborough), one of Roman Britain's civitas capitals, confirmed only by geomagnetic scanning in 2011; its earthworks were later reused as the motte of a Norman castle on Studforth Hill."
+ },
+ "vici:vici-4154": {
+  "desc": "Built c. AD 70-90 outside the walls of Noviomagus Reginorum (Chichester) near Stane Street, this timber-lined amphitheatre measured about 70 by 60 metres; discovered in 1935 by Raymond Carlyon-Britton and excavated by G. M. White, it was then backfilled and is now a shallow depression in a public park.",
+  "qid": "Q17646696"
+ },
+ "vici:vici-4158": {
+  "desc": "The amphitheatre of Agedincum (Sens), capital of the Senones in Gallia Lugdunensis; only its foundations survive, buried beneath the modern Rue des Arènes, whose curving course still traces the arena's outline.",
+  "qid": "Q28971474"
+ },
+ "vici:vici-4159": {
+  "desc": "The amphitheatre of Aginnum (Agen), built between the Augustan period and the later 1st century AD, measured about 115 x 100 m and held an estimated 12,000-15,000 spectators; its remains were only confirmed by rescue excavations in 1988-1989.",
+  "wiki": "Amphithéâtre d'Agen"
+ },
+ "vici:vici-4161": {
+  "desc": "Part of the secondary Gallo-Roman town of Argentomagus (Saint-Marcel, Indre), the amphitheatre stood alongside two successive theatre buildings and was used for hunts, animal displays, and gladiatorial combat."
+ },
+ "vici:vici-4166": {
+  "desc": "Known since the Middle Ages as the Palais Gallien, this amphitheatre of Roman Burdigala (Bordeaux) was built in the late 1st or early 2nd century AD, measured 132 x 111 m, and held roughly 22,000 spectators; it is Bordeaux's only visible ancient monument today.",
+  "wiki": "Palais Gallien"
+ },
+ "vici:vici-4171": {
+  "desc": "The amphitheatre of Divodurum (Metz), built between the late 1st and mid-2nd century AD, measured about 148 x 124 m with capacity near 25,000 and ranked among the largest in the Roman world; its plan was recovered from remains found in 1902 during railway station construction.",
+  "qid": "Q2844415",
+  "wiki": "Amphithéâtre de Metz"
+ },
+ "vici:vici-4173": {
+  "desc": "A semi-amphitheatre built into the Mazerolles hillside at Gennes (ancient Geinum) in the late 1st century AD, with a cavea about 94 m across holding an estimated 5,000 spectators; used into the early 3rd century and first reported by antiquarians in 1837.",
+  "wiki": "Théâtre gallo-romain de Gennes"
+ },
+ "vici:vici-4174": {
+  "desc": "The amphitheatre at Grand (Andesina), built c. 80-140 AD beside the sanctuary of the healing god Apollo Grannus, had a major axis of 148 m and seated roughly 17,000-20,000, making it one of the ten largest amphitheatres of the Roman world; abandoned in the late 4th century.",
+  "wiki": "Amphithéâtre de Grand"
+ },
+ "vici:vici-4177": {
+  "desc": "One of the grandest amphitheatres of Roman Gaul, built at Limonum (Poitiers) in the 1st-2nd century AD and measuring roughly 156 x 130 m, it may have held 22,000-30,000 spectators and was reportedly refortified as a citadel by the Visigoths in the 5th century.",
+  "qid": "Q2695523",
+  "wiki": "Poitiers amphitheatre"
+ },
+ "vici:vici-4183": {
+  "desc": "Unusually built at the very heart of Samarobriva (Amiens) beside the forum rather than on the city's edge, this amphitheatre (built late 1st-mid 2nd century AD, c. 113 x 99 m) could hold up to about 15,000 spectators; its remains lie buried beneath the modern city hall.",
+  "qid": "Q28971458",
+  "wiki": "Amphithéâtre d'Amiens"
+ },
+ "vici:vici-4184": {
+  "desc": "Semi-circular theatre-amphitheatre hybrid seating up to 6,600, part of the Gallo-Roman sanctuary of Sanxay, a 1st–2nd-century healing-water cult complex centered on an octagonal temple; excavated by Camille de La Croix from 1881."
+ },
+ "vici:vici-4187": {
+  "desc": "Amphitheatre of Roman Vesontio, built in the 1st century AD on the Doubs's far bank with capacity of roughly 20,000, among Gaul's largest; abandoned by the 4th century and later quarried for the citadel and churches of Besançon.",
+  "qid": "Q2866135",
+  "wiki": "Arenas of Besançon"
+ },
+ "vici:vici-4190": {
+  "desc": "Elliptical amphitheatre (c.100m long) built in 2nd-century AD Gortyn, Roman capital of Crete and Cyrenaica; ten Christians were reportedly killed there by beasts in 249 AD during the Decian persecution."
+ },
+ "vici:vici-4204": {
+  "desc": "Amphitheatre of Aquileia, the Roman colony founded 181 BC that grew into a city of some 100,000 with its own circus and port; its remains survive only below ground after the site was sacked by Attila in 452 AD."
+ },
+ "vici:vici-4211": {
+  "desc": "Rock-cut amphitheatre of Roman Caralis (Cagliari), built in the 2nd century AD partly carved from the limestone bedrock, seating around 10,000 for gladiatorial combats, beast hunts, and public executions.",
+  "wiki": "Roman Amphitheatre of Cagliari"
+ },
+ "vici:vici-4212": {
+  "desc": "Amphitheatre of the Roman colony of Cales, dug into the tuff bedrock and built around the 1st century BC for gladiator shows, distinct from the city's separate stone theatre nearby."
+ },
+ "vici:vici-4213": {
+  "desc": "Amphitheatre of Roman Canusium (Canosa di Puglia), an Apulian municipium on the Via Traiana near Trajan's arch; ancient descriptions record it as larger than the amphitheatre at Pompeii."
+ },
+ "vici:vici-4220": {
+  "desc": "So-called amphitheatre of Egnatia (ancient Gnathia); its small size (37 x 25 m) and lack of seating tiers or underground chambers have led some scholars to reinterpret it as a market plaza rather than a spectacle building."
+ },
+ "vici:vici-4221": {
+  "desc": "The amphitheatre of Roman Eporedia (Ivrea) was built in the mid-1st century AD along the road to Vercelli, an elliptical arena (65m major axis) holding over 10,000 spectators; excavated 1955-1964.",
+  "wiki": "Ivrea Roman Amphitheatre"
+ },
+ "vici:vici-4233": {
+  "desc": "The brick-built amphitheatre of Interamnia Praetuttiorum (Teramo), dated to the late 1st-early 2nd century AD, measured 74 by 56 metres and held roughly 3,500 spectators; its remains were identified in 1937."
+ },
+ "vici:vici-4245": {
+  "desc": "The Roman theatre of Neapolis (1st century BC, rebuilt after the AD 62 earthquake or AD 79 eruption), held about 5,000 spectators and is where, per Tacitus and Suetonius, Emperor Nero made his public performing debut.",
+  "wiki": "Roman Theatre of Neapolis"
+ },
+ "vici:vici-4251": {
+  "desc": "An amphitheatre at Peltuinum, a Vestinian town on the Via Claudia Nova founded mid-1st century BC and prosperous under Augustus from livestock, wine and saffron trade; the site declined after the earthquake of AD 346.",
+  "qid": "Q28978069"
+ },
+ "vici:vici-4252": {
+  "desc": "The amphitheatre of Roman Pollentia (Pollenzo), near the site of the 402 AD Battle of Pollentia where Stilicho defeated Alaric's Visigoths; the structure no longer stands, but the town's circular street plan still traces its outline."
+ },
+ "vici:vici-42628": {
+  "desc": "Saittai (Setae), a city of Lydia in the Katakekaumene region visited by Hadrian, is known from four 2nd-3rd century AD gladiator funerary stelae naming fighters Metbysos, Amphiaros, Maternos and Rhodon, alongside a large stadium.",
+  "wiki": "Setae (Lydia)"
+ },
+ "vici:vici-4270": {
+  "desc": "The amphitheatre of Tuder (Todi), built outside the walls in the Augustan-period urban expansion; its remains are partly incorporated into the church of San Nicolò de Cryptis, built inside the old arena.",
+  "qid": "Q28978098"
+ },
+ "vici:vici-4273": {
+  "desc": "The Verlasce amphitheatre of Venafrum (Venafro), built in the 1st century AD, measured 110 by 85 metres and is estimated to have held up to 15,000 spectators; an inscription recorded a gens Vibia benefactor's funding of the building.",
+  "qid": "Q28978105"
+ },
+ "vici:vici-4289": {
+  "desc": "The most northerly amphitheatre yet found in the Roman Empire, attached to the fort of Trimontium at Newstead; its use was proposed in 1993 and confirmed by a Bradford University excavation in 1996 — an oval arena of 37 by 30m seating about 1,500.",
+  "qid": "Q29002580"
+ },
+ "vici:vici-4294": {
+  "desc": "Built under Augustus and dedicated in 8 BC beside the adjoining Roman theatre, Mérida's amphitheatre held about 15,000 spectators for gladiatorial combats and beast hunts; it forms part of the UNESCO-listed Archaeological Ensemble of Mérida.",
+  "wiki": "Amphitheatre of Mérida"
+ },
+ "vici:vici-4296": {
+  "desc": "Oval Roman amphitheatre built for the colonia of veterans Julius Caesar settled behind the older Greek city of Emporion; its 75 by 44m arena held only about 3,300 spectators, a more modest design than originally planned."
+ },
+ "vici:vici-4301": {
+  "desc": "Built in the 2nd century AD near Tarraco's forum (130 by 102m, c.15,000 seats), this amphitheatre is where bishop Fructuosus and his deacons Augurius and Eulogius were burned alive in AD 259 during Valerian's persecution of Christians.",
+  "wiki": "Tarragona Amphitheatre"
+ },
+ "vici:vici-4303": {
+  "desc": "Built c. AD 120 and enlarged about 30 years later, the amphitheatre of Aventicum (capital of Roman Helvetia) seated roughly 9,000 across 24 rows; partly quarried for lime in the 6th century, it is Switzerland's best-preserved amphitheatre."
+ },
+ "vici:vici-4305": {
+  "desc": "Amphitheatre of the Caesarian veterans' colony Colonia Iulia Equestris (Nyon); discovered by chance in 1996, its arena measured about 50 by 36m and dates to the early 2nd century AD, with an inscription linking construction to the reign of Trajan.",
+  "qid": "Q29001164"
+ },
+ "vici:vici-4313": {
+  "desc": "Built in the late 1st or early 2nd century AD with roughly 30,000 seats, one of Roman Africa's largest amphitheatres; traditionally linked to the 203 AD martyrdom of Perpetua and Felicity, commemorated by a 19th-century chapel on the site.",
+  "wiki": "Carthage amphitheatre"
+ },
+ "vici:vici-43138": {
+  "desc": "Geophysical survey about 300m east of the Palais des Papes revealed a large circular structure at Roman Avenio (Avignon), interpreted as a theatre or amphitheatre; no remains are visible above ground and its precise function is unconfirmed."
+ },
+ "vici:vici-4316": {
+  "desc": "At Roman Limisa (Ksar Lemsa), a small entertainment building — recorded by different sources as an amphitheatre or theatre — stood beside a well-preserved 6th-century Byzantine fortress with intact corner towers; the site was excavated in 1966-69.",
+  "qid": "Q29002304"
+ },
+ "vici:vici-4321": {
+  "desc": "At Pheradi Maius (Sidi Khalifa, Sousse Governorate), an African town raised to municipium status under Marcus Aurelius, an amphitheatre stood alongside a triumphal arch, Capitol, nymphaeum, and baths within the town's civic complex.",
+  "qid": "Q29002299"
+ },
+ "vici:vici-4327": {
+  "desc": "The theatre at the Gallo-Roman spa sanctuary of Aquae Segetae (Sceaux-du-Gâtinais), dedicated to the healing goddess Segeta, measured about 104m across and could seat over 10,000 pilgrims visiting its baths and temple, peaking in the 2nd century AD."
+ },
+ "vici:vici-4330": {
+  "desc": "Thibaris, a town of Africa Proconsularis near ancient galena mines at Djebba, was a Christian bishopric suffragan to Carthage whose bishops attended councils at Carthage in 256 and 411 AD; an amphitheatre also stood among the town's ruins.",
+  "qid": "Q29002320"
+ },
+ "vici:vici-4332": {
+  "desc": "At Thimisua (Sidi-Bou-Argoub, Siliana Governorate), a civitas of Africa Proconsularis downstream from Thabbora, the amphitheatre is oval with two opposed entrances set along its longitudinal axis; little else about the structure has been published.",
+  "qid": "Q29002298"
+ },
+ "vici:vici-4333": {
+  "desc": "At Thugga (Dougga), Tunisia's best-preserved small Roman town, an amphitheatre stands apart from the site's famous 3,500-seat theatre, built in 168-169 AD by local benefactor P. Marcius Quadratus; the amphitheatre itself is far less studied.",
+  "qid": "Q29002310"
+ },
+ "vici:vici-4341": {
+  "desc": "One of two Roman amphitheatres identified at Utica, the Phoenician-founded city that became capital of Africa Proconsularis after Carthage's destruction in 146 BC; today largely ruined and unexcavated.",
+  "qid": "Q29002325"
+ },
+ "vici:vici-4343": {
+  "desc": "Part of Aizanoi's unique theatre-stadium complex in Phrygia (2nd-3rd c. AD): the theatre and stadium stand directly adjoined, separated only by a colonnaded street, with capacities of roughly 20,000 and 13,500 respectively.",
+  "wiki": "Aizanoi"
+ },
+ "vici:vici-4345": {
+  "desc": "Built around AD 80 for Legion II Augusta's fortress at Caerleon; timber benches seated up to 6,000 for gladiatorial games. Excavated in 1926-27, it is Britain's most complete Roman amphitheatre, long known locally as 'King Arthur's Round Table'."
+ },
+ "vici:vici-43615": {
+  "desc": "Amphitheatre of Obulco, rediscovered in 2014 beneath Porcuna's Hoyo Mendo district and excavated from 2022; built c. 1st century BC/AD for a city Caesar used as a base before the Battle of Munda (45 BC), holding over 10,000.",
+  "qid": "Q134716677"
+ },
+ "vici:vici-43776": {
+  "desc": "Attalea (modern Antalya) was founded as a naval base by King Attalus II of Pergamon, probably before 150 BC, and named for him; bequeathed to Rome in 133 BC by Attalus III.",
+  "qid": "Q105703706",
+  "wiki": "Attalea in Pamphylia"
+ },
+ "vici:vici-4390": {
+  "desc": "Gallo-Roman theatre on Mont-Auxois, built in the later 1st century AD within the vicus that grew on the site of Caesar's siege of Alesia (52 BC); semicircular cavea about 81m across, seating an estimated 5,000."
+ },
+ "vici:vici-44812": {
+  "desc": "Theatre of Aregenua, capital of the Viducasses near Caen, built as the town acquired monumental Roman-style buildings in the 1st-3rd centuries AD; its cavea measured about 80 by 67 metres, a mid-sized Gallo-Roman theatre.",
+  "qid": "Q28496451"
+ },
+ "vici:vici-44923": {
+  "desc": "The Thersilion, council hall of the Arcadian League built c. 370 BC beside the theatre of Megalopolis and nicknamed the 'Hall of the Ten Thousand'; destroyed by Cleomenes III of Sparta in 222 BC."
+ },
+ "vici:vici-45466": {
+  "desc": "Detected by georadar and LiDAR survey in 2016 within the walled Iberian-Roman city of Castulo (Linares, Jaén), one of several monumental buildings — alongside a theatre, forum and baths — from the city's Roman-era expansion; largely unexcavated."
+ },
+ "vici:vici-45510": {
+  "desc": "Its remains lie beneath Écija's 19th-century bullring; at roughly 130 x 107 m with an 80-arch exterior facade modeled on Rome's Flavian Amphitheatre, it likely shared architects with the amphitheatre at nearby Italica."
+ },
+ "vici:vici-45568": {
+  "desc": "Unlike the city's well-preserved Roman theatre, the amphitheatre of Caesaraugusta has never been conclusively located; a long-standing theory placing it beneath the Hotel Palafox site has not been confirmed by excavation."
+ },
+ "vici:vici-46394": {
+  "desc": "Missua (modern Sidi Daoud, Cap Bon) was a Roman port town of Africa Proconsularis with trade ties to Ostia and a Christian bishopric attested from 484 AD; its theatre remains stand near the ancient harbor and breakwater."
+ },
+ "vici:vici-48059": {
+  "desc": "First identified via 2016 LiDAR and georadar survey north of Castulo's walled Iberian-Roman city (Linares, Jaén); its existence had long been suspected but its exact location was only pinpointed through this remote-sensing work."
+ },
+ "vici:vici-48683": {
+  "desc": "A largely vanished Roman amphitheatre of Barcino; no confirmed remains have been excavated, though archaeologist Jordina Sales hypothesizes a location near Santa Maria del Mar based on the district's oval street pattern.",
+  "qid": "Q3616686",
+  "wiki": "Barcelona Roman amphitheatre and circus"
+ },
+ "vici:vici-49118": {
+  "desc": "A circus at the Roman municipium of Singilia Barba, identified through epigraphic evidence and geophysical survey near the city's buried theatre (capacity c. 2,200), part of a monumental zone that also included a forum."
+ },
+ "vici:vici-49794": {
+  "desc": "Gallo-Roman theatre of Iatinum (Meaux), built in the 1st–2nd century AD; a 1993–94 rescue excavation uncovered cavea substructures spanning over 150 m, and an inscription credits its funding to a local notable, Orgetorix."
+ },
+ "vici:vici-49922": {
+  "desc": "Gallo-Roman amphitheatre of Vindunum (Le Mans), capital of the Aulerci Cenomani; rediscovered in 1791 by architect Daudin during urban works and destroyed the following year when the Jacobins promenade was laid out."
+ },
+ "vici:vici-50043": {
+  "desc": "Structure at the Roman town of Contributa Iulia Ugultunia (Medina de las Torres, Badajoz), identified in 2016 via geophysical survey as an amphitheatre, one of the first found this way in Iberia; the site preserves an unusually intact street grid."
+ },
+ "vici:vici-50056": {
+  "desc": "Circus of the Roman colony Augusta Firma Astigi (Écija), built outside the walls between the Via Augusta and the road to Augusta Emerita; a semicircular structure near the presumed prima meta was clarified by 2023–2024 excavations."
+ },
+ "vici:vici-50062": {
+  "desc": "Roman circus of ancient Consabura, confirmed by geophysical survey and 2017 excavations; an 18th-century plan recorded it at roughly 370 x 80 m with a capacity near 10,000, one of only about a dozen archaeologically documented circuses in Roman Hispania."
+ },
+ "vici:vici-50599": {
+  "desc": "Small horseshoe-shaped Nabataean-Roman theater (39 m wide, 11 rows seating 500-800) cut into a gully at Sabra near Petra; built in the 1st century AD with a water-channel system beneath the seating, remaining in use into the late Roman period."
+ },
+ "vici:vici-50768": {
+  "desc": "The unfinished Roman theater of Palmyra, built in the Severan 2nd century AD with a cavea of eleven sections/twelve rows never completed; buried in sand for centuries, it was excavated and restored in the 1950s, and its stage facade was destroyed by ISIL in 2017.",
+  "wiki": "Roman Theatre at Palmyra"
+ },
+ "vici:vici-52623": {
+  "desc": "Built in the early 4th century AD under the Tetrarchy, this roughly 450 x 95 m racecourse was the site of the 390 AD massacre in which Theodosius I's Gothic troops killed thousands of citizens after a riot; fragments survive beneath the modern Hippodromiou district."
+ },
+ "vici:vici-54949": {
+  "desc": "Geophysical surveys announced in 2023 revealed likely remains of a Roman circus east of Italica's Hadrianic quarter — an exceptionally large structure some 532 m long with capacity for up to 80,000 spectators; a 1799 mosaic of chariot-race scenes and racehorse graffiti in the city's theater had earlier hinted at its existence.",
+  "qid": "Q5769909"
+ },
+ "vici:vici-55079": {
+  "desc": "Built around AD 15–45, among the earliest amphitheaters raised in Roman Gaul alongside those of Lyon and Saintes, it stood north of Durocortorum near the road to Boulogne-sur-Mer; its remains had vanished by the mid-19th century and were rediscovered in 2007–08 during tramway construction.",
+  "qid": "Q28971469"
+ },
+ "vici:vici-55148": {
+  "desc": "The colonnaded porticus post scaenam behind Leptis Magna's theater enclosed a temple to the Dei Augusti; built by Iddibal of the Tapapius family (who also built the theater itself) and dedicated by the proconsul Quintus Marcius Barea."
+ },
+ "vici:vici-55892": {
+  "desc": "The council house of Hellenistic Sia, a Pisidian city near Bucak founded c. 2nd century BC; it is the only building at the site securely predating Roman rule, when three temples, an agora with Doric stoa, and Byzantine basilicas were added.",
+  "wiki": "Sia (Pisidia)"
+ },
+ "vici:vici-55971": {
+  "desc": "Amphitheatre (about 80 by 45 m) of the Roman colony of Sinuessa, founded 296 BC near modern Mondragone; the town was noted for its thermal springs and Falernian wine before coastal erosion later submerged part of the settlement."
+ },
+ "vici:vici-57005": {
+  "desc": "Stadium of ancient Sicyon, lying just west of the city's theatre and shaped largely by the hillside; unlike fully excavated Greek stadia, seating did not run the full length of the track, with one end built up on fill."
+ },
+ "vici:vici-58188": {
+  "desc": "Athens' Panathenaic Stadium was built c. 330 BC under Lycurgus for the Panathenaic Games, rebuilt entirely in Pentelic marble by Herodes Atticus by 144 AD, and restored again for the first modern Olympics in 1896 as the world's only all-marble stadium.",
+  "qid": "Q208811",
+  "wiki": "Panathenaic Stadium"
+ },
+ "vici:vici-58426": {
+  "desc": "Amphitheatre of Trea, a Roman municipium on a Picene/Sabine hilltop near modern Treia that flourished from Augustus to Antoninus Pius; its oval outline is still traceable as a crop mark near the Santuario del Santissimo Crocifisso."
+ },
+ "vici:vici-58447": {
+  "desc": "Geophysical survey in 2010–11 near the Roman fort Iciniacum (Theilenhofen) on the Raetian Limes revealed a c. 75 m theatre-shaped structure beside a large plaza interpreted as a forum, probably temporary buildings for a single major event."
+ },
+ "vici:vici-58541": {
+  "desc": "A curving timber structure identified as a possible amphitheatre stood in the civilian settlement outside the east rampart of Inveresk Roman fort near Musselburgh, occupied from Antoninus Pius's AD 139/140 invasion; if confirmed, the empire's northernmost amphitheatre."
+ },
+ "vici:vici-58553": {
+  "desc": "A possible amphitheatre with only scant surface traces, lying east of the mid-1st-century Roman auxiliary fort at Forden Gaer, which guarded a crossing of the River Severn near Montgomery, Wales."
+ },
+ "vici:vici-58567": {
+  "desc": "Known only from inscriptions (CIL XIII 4132, 198 CE, and a text of 253 CE) recording that Lucius Ammatius Gamburio endowed the theatre of Beda (Bitburg) with 50,000 denarii and funded annual games, probably for the Floralia; the building itself has never been located."
+ },
+ "vici:vici-58763": {
+  "desc": "Amphitheatre of Roman Hatria (Adria); its buried foundations near the Canalbianco were found in rescue excavations and later traced by ground-penetrating radar, its superstructure having been stripped away in the Middle Ages."
+ },
+ "vici:vici-59657": {
+  "desc": "Site of a Roman fortified camp at Liffremont; 19th-century finds included gold, silver and bronze imperial coins and the 3rd-century marble 'Venus of Liffremont' (now in Rouen's Museum of Antiquities); the location of a theatre was also identified here, though it remains unexcavated."
+ },
+ "vici:vici-60167": {
+  "desc": "Small theatre in Theveste (Tébessa, Algeria), built after the city was refounded as a base for Legio III Augusta; the colony also has a 3rd-century triumphal arch of Caracalla and a 4th-century amphitheatre.",
+  "wiki": "Theveste"
+ },
+ "vici:vici-60175": {
+  "desc": "1st-century AD theatre of the Roman town of Libarna (Piedmont), with a 22-arch external ambulatory on sandstone-based pillars; the ruins, later damaged by farming and two railway lines, sit beside the town's amphitheatre and baths.",
+  "wiki": "Libarna"
+ },
+ "vici:vici-60254": {
+  "desc": "Josephus records that Herod the Great funded a theatre at Damascus, one of several benefactions (gymnasia, temples, colonnades) to Greek cities outside his own kingdom; the structure's physical remains have not been securely located."
+ },
+ "vici:vici-60356": {
+  "desc": "Not a built amphitheatre but a natural rock formation ('Pietrele Scrise') near Casian in Dobrogea, bearing two Greek boundary inscriptions ('Oroi Kasianon') dated to the 2nd-3rd century AD and first deciphered by Vasile Pârvan in 1912-13."
+ },
+ "vici:vici-61475": {
+  "desc": "Hypothesized Roman circus at Nemausus (Nîmes), proposed by archaeologist Richard Pellé from imported sand deposits found near Rue Cité Foulc matching the arena floor; if real, it would postdate the amphitheatre, built in Beaucaire limestone in the later 2nd century AD."
+ },
+ "vici:vici-61640": {
+  "desc": "2nd-century AD amphitheatre at the 'Villa of the Antonines' near Genzano di Roma (ancient Lanuvium), a family estate of the Antonine dynasty; possibly the arena where Commodus killed wild beasts and earned the nickname 'Roman Hercules'."
+ },
+ "vici:vici-61935": {
+  "desc": "A Gallo-Roman theatre discovered in 1993 near the sanctuary of Blicquy, the only known Roman theatre building in Belgium; timber-and-stone construction about 70m across, estimated to have seated 5,000-6,000."
+ },
+ "vici:vici-62026": {
+  "desc": "Theatre of the Illyrian hill city of Dimale (Dimallum), built amid Hellenistic urban expansion in the 3rd-2nd century BC; the fortified city was captured by Rome under L. Aemilius Paullus in 219 BC after a seven-day siege.",
+  "wiki": "Dimale"
+ },
+ "vici:vici-62184": {
+  "desc": "A hippodrome tentatively identified in 1993 from Roman-period brick pillars at Pelusium (Tell el-Farama), one of only two hippodromes known from Roman Egypt, alongside Antinoöpolis."
+ },
+ "vici:vici-62185": {
+  "desc": "A large imperial-period amphitheatre at Pelusium (Tell el-Farama), excavated from 1992 and linked to a drainage system serving the surrounding city; identified by archaeologist Ahmed el-Tabai."
+ },
+ "vici:vici-62189": {
+  "desc": "A modest wooden amphitheatre with a circular palisade ditch built in the southern corner of the timber-and-earth Roman fort at Unterkirchberg (Illerkirchberg) on the Raetian Danube limes, founded under Claudius."
+ },
+ "vici:vici-62216": {
+  "desc": "The Roman circus of Carteia (San Roque, Cadiz), whose spina and meta secunda were documented in 2017 excavations, confirming a chariot-racing track at this Phoenician-Carthaginian-Roman port city on the Bay of Gibraltar."
+ },
+ "vici:vici-62218": {
+  "desc": "The Roman circus of Valentia (Valencia), built in the 2nd century AD, measured roughly 350 x 70m and could seat up to 10,000; first identified in 1987, its remains lie beneath several buildings in Ciutat Vella.",
+  "qid": "Q123556875"
+ },
+ "vici:vici-62225": {
+  "desc": "Site of Roman Consabura, predecessor of Consuegra; a rare Roman circus — one of only about a dozen securely attested in Hispania — was excavated here in December 2017 near Viriato Park."
+ },
+ "vici:vici-62499": {
+  "desc": "Oval Roman amphitheatre of Divona Cadurcorum (Cahors), c. 110 by 90 metres, built in the 1st century AD; its buried remains were found beneath Place Gambetta during car-park construction and opened to visitors in 2009.",
+  "qid": "Q22979348"
+ },
+ "vici:vici-62501": {
+  "desc": "The Roman theatre of Augustodunum (Autun), built into a hillside in the later 1st century AD, spanned some 148 metres and held up to c. 14,000 — the second-largest theatre in the Roman world after Pompey's in Rome."
+ },
+ "vici:vici-62995": {
+  "desc": "Located within the Hellenistic-Roman city of Zeugma on the Euphrates, a Seleucid foundation that became a Roman legionary base and major commercial hub; the stadium is among the site's identified but still largely unexcavated public buildings."
+ },
+ "vici:vici-63003": {
+  "desc": "Small odeon at Pompeiopolis, the Paphlagonian capital founded by Pompey the Great in 64 BCE (modern Taşköprü); German-led excavations resumed here in 2024 and exposed the structure beneath a roughly two-metre-thick ash layer."
+ },
+ "vici:vici-63321": {
+  "desc": "Roman-era remains found in 1908 on Pisa's Via San Zeno during foundations work for the Institute of Physiology; a contemporary survey (kept at the Museo di San Matteo) never resolved whether the structure was a theatre or an amphitheatre, and it remains unexcavated, buried beneath the modern city."
+ },
+ "vici:vici-63461": {
+  "desc": "Roman theatre at the Emmatha hot springs (Hamat Gader), built in the 3rd century CE with about 2,000 basalt seats arranged in 15 rows around the orchestra, near baths begun by the Legio X Fretensis garrison from Gadara.",
+  "qid": "Q2599137",
+  "wiki": "Hamat Gader"
+ },
+ "vici:vici-63475": {
+  "desc": "The southern end of Herod's hippodrome/stadium at Caesarea (built 10/9 BC, c.457x76m, seating ~38,000) was rebuilt in the 2nd century CE into an oval amphitheater for gladiatorial combat and venationes.",
+  "qid": "Q110300924"
+ },
+ "vici:vici-63557": {
+  "desc": "The Great Theatre of Roman Ilium (Troy), first built c.306 BC, was rebuilt under Augustus with a three-tiered scaenae frons (completed 12-11 BC); cavea diameter 98.6m, seating roughly 7,700-9,650.",
+  "wiki": "Troy"
+ },
+ "vici:vici-63803": {
+  "desc": "A medium-sized (c.70x100m) amphitheater of Forum Sempronii, identified in 2009 aerial photography near modern Fossombrone; its rubble-core walls faced in opus vittatum remain largely buried and unexcavated."
+ },
+ "vici:vici-64584": {
+  "desc": "Despite the generic vici label \"Circus,\" this point marks the Roman theatre of Alba Fucens, built 2nd-1st century BC on the Pettorino hill slope east of the Hercules sanctuary; no longer visible above ground today."
+ },
+ "vici:vici-64631": {
+  "desc": "Greek Calatis (Heraclea Pontica colony, founded 6th c. BC; modern Mangalia, Romania) is attested by inscriptions as having had a theatre, but the building's physical remains have never been located archaeologically."
+ },
+ "vici:vici-64633": {
+  "desc": "A late 2nd-century CE inscription honoring citizen Marcus Manlius Modestus Quietianus records his private funding of a theatre at Curubis (modern Korba, Tunisia); the building itself has never been located."
+ },
+ "vici:vici-64635": {
+  "desc": "Theater of the Romano-Berber town Furnos Minus, identified with Henchir-el-Msaadine near Tebourba; a bishopric of Africa Proconsularis whose Christian cemetery yielded a celebrated 5th–6th-century mosaic of Daniel in the Lions' Den, now in Tunisia's Bardo Museum."
+ },
+ "vici:vici-64636": {
+  "desc": "Theater of Gurza, a civitas of Roman Byzacena at modern Kalâa Kebira and later seat of an episcopal see (revived in 1933 as a Catholic titular bishopric); the theater is catalogued in Lachaux's survey of Proconsular African theaters.",
+  "qid": "Q2718742",
+  "wiki": "Kalâa Kebira"
+ },
+ "vici:vici-64639": {
+  "desc": "Theater of Vallitanus (Sidi Medien), a Romano-Berber colonia and Africa Proconsularis bishopric under Carthage; the theater ruins there are documented in Frank Sear's architectural survey of Roman theaters, alongside inscriptions naming local officials.",
+  "qid": "Q28456294",
+  "wiki": "Vallitanus"
+ },
+ "vici:vici-64641": {
+  "desc": "Roman theater of Kissamos (Kastelli Kissamou), the free Roman city (civitas libera) that succeeded Hellenistic Kisamos as Polyrrhenia's port; first noted by 16th-century observer Onorio Belli, its seating and stage-building stones mapped by Thomas Spratt in the 19th century are now lost.",
+  "wiki": "Kissamos"
+ },
+ "vici:vici-64642": {
+  "desc": "Theater of Antinoöpolis, the city Hadrian founded on 30 October AD 130 on the Nile in memory of his drowned companion Antinous; its ruins near the southern gate, still visible to Napoleonic surveyors and recorded in the Description de l'Égypte, were later quarried away for building stone.",
+  "wiki": "Antinoöpolis"
+ },
+ "vici:vici-64643": {
+  "desc": "Theater of Crocodilopolis/Arsinoe (Medinet el-Fayum), the Ptolemaic-Roman capital of the Faiyum and cult center of the crocodile god Sobek, whose sacred pool-kept crocodile Petsuchos, adorned with gold pendants, drew pilgrims and tourists into Roman times.",
+  "wiki": "Crocodilopolis"
+ },
+ "vici:vici-64645": {
+  "desc": "A vast 2nd-century AD Roman theatre excavated by Flinders Petrie, estimated to have seated up to 11,000 spectators — among the largest in Roman Egypt; later stripped as a stone quarry, leaving only fragmentary remains."
+ },
+ "vici:vici-64647": {
+  "desc": "The chronicler John Malalas records that Vespasian built this theatre on the site of a former synagogue using spoils from the Jewish War; American and French teams excavated it in 1932-1940."
+ },
+ "vici:vici-64648": {
+  "desc": "Roman-era theatre of Seleucia ad Calycadnum (modern Silifke); largely unexcavated, overgrown and built over, with its orchestra long used as a depot for local buses."
+ },
+ "vici:vici-64650": {
+  "desc": "A theatre has long been conjectured for Hellenistic-Roman Kition (Larnaca) but has never been definitively located or excavated; most of the ancient city lies buried beneath the modern town."
+ },
+ "vici:vici-64653": {
+  "desc": "This 2nd-century Roman amphitheatre of Narbo Martius measured about 122 x 93 m and could hold an estimated 25,000 spectators; its buried remains, located via 1838 surveys, underlie modern Narbonne's street plan.",
+  "qid": "Q22953442"
+ },
+ "vici:vici-64666": {
+  "desc": "Amphitheater of the Roman spa town Aquae Statiellae (modern Acqui Terme), built on the settlement's outskirts near the Via Aemilia Scauri and identified by excavation in the 1960s alongside the town's thermal baths."
+ },
+ "vici:vici-65356": {
+  "desc": "Amphitheater of Roman Carpis (colonia Iulia Carpitana), a Cape Bon coastal town possibly founded under Caesar or Augustus; its rubble-masonry remains stand beside a large cistern that received an aqueduct at El Mraissa."
+ },
+ "vici:vici-65977": {
+  "desc": "Amphitheater of Roman Parma, known as the 'Arena' in ancient and medieval sources; sections of its perimeter wall found in 1846 and 1933 suggest a capacity near 25,000 seated spectators before its destruction in the 6th century."
+ },
+ "vici:vici-66000": {
+  "desc": "Ancient Panormus is attested to have had a circus and amphitheater by a 2nd-century AD inscription honoring one Aurelianus for staging games; aerial-photo analysis has proposed a curving structure in the Loggia/Vucciria quarter, though the site remains debated."
+ },
+ "vici:vici-66001": {
+  "desc": "Panormus's amphitheater is attested by a 2nd-century AD inscription from San Cataldo recording gladiatorial games and animal hunts sponsored by one Aurelianus; its exact location is debated, with this Loggia/Vucciria-quarter site suggested by aerial-photo curvature analysis."
+ },
+ "vici:vici-66293": {
+  "desc": "Roman amphitheater of Augustodunum (Autun), built in the second half of the 1st century AD next to the city's famous theater; at roughly 154x130m it ranked among the largest in the Roman Empire, but was fully quarried away by the 18th century and rediscovered only through 1832 and 1844 excavations.",
+  "qid": "Q28971462"
+ },
+ "vici:vici-66294": {
+  "desc": "The Grohan amphitheater of Juliomagus (Angers), built around AD 115 with capacity for roughly 6,000 spectators; unusually well-documented from a 1637 survey by Claude Ménard, it survived until the 17th century before being destroyed, with the last traces lost to 19th-century street works."
+ },
+ "vici:vici-66413": {
+  "desc": "Nevers occupies the site of Noviodunum, an Aeduan oppidum on the Loire where Caesar stockpiled Gallic hostages, grain, army pay and cavalry horses in 52 BC; the Aedui massacred the Roman garrison there and burned the town during the revolt recounted in his Gallic War, book VII. No specific theater structure at the site is confirmed by excavation."
+ },
+ "vici:vici-66417": {
+  "desc": "Remains of a spectacle building at Aquae Sextiae (Aix-en-Provence), discovered only in 2004; the curvature of its excavated seating rows has not settled whether it was a semicircular theater or an oval amphitheater."
+ },
+ "vici:vici-66446": {
+  "desc": "Roman theater of Tolosa (Toulouse), built under Augustus between the Place du Pont-Neuf and La Daurade with seating for about 8,000; its foundations were located in 1869 during construction of rue de Metz, but virtually nothing survives above ground today."
+ },
+ "vici:vici-66499": {
+  "desc": "Square Castan in Besançon (Roman Vesontio): a semicircular hemicycle roughly 54m across, ringed by eight re-erected Corinthian columns, uncovered by Auguste Castan in 1870. Long identified as a Roman theater, specialists now favor reading it as a colonnaded podium of uncertain function tied to the Arcier aqueduct's water-distribution basin.",
+  "wiki": "Square Castan"
+ },
+ "vici:vici-66536": {
+  "desc": "The Great Theatre of ancient Ambracia, discovered in 1981 near Arta's Tsakalov Street; the Corinthian colony became King Pyrrhus of Epirus's capital in 295 BC, who adorned it with theatres and palaces.",
+  "wiki": "Ambracia"
+ },
+ "vici:vici-67575": {
+  "desc": "The stadium of Antioch in Pisidia (near Yalvaç), a Hellenistic-period structure restored in the 2nd century AD and later dismantled by Christians in late antiquity, served the Roman colony founded by Augustus in 25 BC.",
+  "wiki": "Antioch of Pisidia"
+ },
+ "vici:vici-67867": {
+  "desc": "The Hellenistic odeon of Selinus in Cilicia, cut into a rectangular cavea seating roughly 1,000, stands near the spot where Emperor Trajan died on 8 August 117 AD, after which the town was briefly renamed Trajanopolis.",
+  "wiki": "Selinus (Cilicia)"
+ },
+ "vici:vici-67883": {
+  "desc": "A stadium associated with the fortified Roman/Byzantine city of Lamos in Rough Cilicia, whose surviving gate bears a dedication to Emperor Gallienus; most standing remains date to the 2nd-3rd centuries AD.",
+  "wiki": "Lamos (Cilicia)"
+ },
+ "vici:vici-68504": {
+  "desc": "The theatre of Mopsuestia (Misis) on the Pyramus (Ceyhan) river, a Cilician city legendarily founded by the seer Mopsus, whose surviving ruins also include a Roman bridge, stadium and colonnaded street.",
+  "wiki": "Mopsuestia"
+ },
+ "vici:vici-68517": {
+  "desc": "The stadium of Apamea Kibotos (Celaenae) in Phrygia, founded by Antiochus I Soter and site of the 188 BC Treaty of Apamea between Rome and the Seleucids; partial remains survive near modern Dinar.",
+  "wiki": "Apamea (Phrygia)"
+ },
+ "vici:vici-69769": {
+  "desc": "Theatre of Ruessium, Gallo-Roman capital of the Vellavi civitas, apparently built around AD 50 under Claudius; its site was recently proposed via archival and cadastral research, comparable in scale to the theatres of Moingt and Javols."
+ },
+ "vici:vici-69855": {
+  "desc": "Theatre of Hypaepa, a Lydian city in the Cayster valley regarded as second only to Ephesus in regional importance; the theatre stood on the western slopes of the acropolis within the fortified city."
+ },
+ "vici:vici-70239": {
+  "desc": "Remains of Corinth's Roman circus, identified as the 'Apsidal Building' uncovered in the 1967-68 Gymnasium-area excavations; planned into the Caesarian city's Augustan design, it hosted equestrian events of the Caesarea and Isthmian games."
+ },
+ "vici:vici-70249": {
+  "desc": "Roman circus of Carmona, an estimated 290 m long and built into the local slope, part of the city's spectacle complex with its amphitheatre and necropolis; poorly documented and its construction date still uncertain."
+ },
+ "vici:vici-70582": {
+  "desc": "Roman circus of Corduba (Cordoba), capital of Baetica, built between the reigns of Nero and Domitian at roughly 400 x 100 m with an ornamented spina; abandoned after structural failure by the mid-2nd century AD."
+ },
+ "vici:vici-70674": {
+  "desc": "Open equestrian training ground in the Campus Martius, named for the triga (three-horse chariot); first attested under Claudius and used into the 4th century, kept free of permanent structures near the Tiber bend.",
+  "qid": "Q7841668",
+  "wiki": "Trigarium"
+ },
+ "vici:vici-70699": {
+  "desc": "Theatre of Artaxata, the Hellenistic Artaxiad capital founded c. 176 BC on the Araxes; excavations have identified it as Armenia's earliest known theatre, evidence of the city's Greek-influenced civic and cultural life."
+ },
+ "vici:vici-71499": {
+  "desc": "Inscribed stone seating steps from the Roman theatre of Lopodunum (Ladenburg), found in the Burgacker district and identified in the 1960s by archaeologist Berndmark Heukemes; donor inscriptions name citizens such as Optatius Tetricius."
+ },
+ "vici:vici-71652": {
+  "desc": "The Roman theatre of Ostra, excavated in 1903–04 and restored in 2020, measured only 44.6 m across with three tiers of seating — the smallest Roman theatre known in the Marche region.",
+  "qid": "Q133284004"
+ },
+ "vici:vici-71807": {
+  "desc": "Theatre remains within Potentia, a Roman colony founded 184 BC on the Adriatic coast to settle Punic War veterans; the town prospered on the terracotta trade before a 56 BC earthquake devastated it."
+ },
+ "vici:vici-73115": {
+  "desc": "The Gallo-Roman theatre of Neung-sur-Beuvron, dated late 1st–early 2nd century AD, formed part of a rural sanctuary with a temple and spring; c. 100 m across, it held perhaps 7,000 spectators and was used until the 3rd century.",
+  "qid": "Q89591593"
+ },
+ "vici:vici-73117": {
+  "desc": "A Gallo-Roman theatre discovered in 1834 near the probable site of Noviodunum of the Bituriges, but never excavated or documented since."
+ },
+ "vici:vici-73275": {
+  "desc": "The Roman theatre of Antipolis is attested chiefly by the funerary stele of the child performer Septentrion, who ‘danced and was applauded’ on its stage; sited near the Porte Royale, it was demolished in 1691."
+ },
+ "vici:vici-73276": {
+  "desc": "A Roman amphitheatre at Antipolis is known only from its oval outline on 17th–18th-century fortification plans of Antibes; its physical remains vanished during the town's refortification, and scholars still debate whether it truly existed."
+ },
+ "vici:vici-73280": {
+  "desc": "An early Hellenistic theatre unearthed in 2016 by archaeologist Xeni Arapogianni on the Ellinika ridge at Thouria, near Kalamata; its 16.3 m limestone orchestra and first row of seats survive from when Thouria was the leading city of western Messenia."
+ },
+ "vici:vici-73281": {
+  "desc": "A Roman-era theatre with orchestra, stone-backed seating and a niche was found in 2006 beside a Roman mausoleum and cemetery at Fiskardo (ancient Panormos), Kefalonia, during hotel construction."
+ },
+ "vici:vici-73330": {
+  "desc": "Roman-period theatre at Savatra (Soatra), an autonomous Lycaonian city near modern Yağlıbayat, Turkey; excavations from 2021 exposed its stage, orchestra and cavea steps — a rare central-Anatolian example, said to have doubled as the city's council hall.",
+  "qid": "Q2226966",
+  "wiki": "Savatra"
+ },
+ "vici:vici-73352": {
+  "desc": "Earthen stadium in the sanctuary quarter of Dion, Macedonia, tied to the \"Olympia\" games traditionally founded under Archelaus I (late 5th c. BC); excavated in 1995, with coin finds spanning Alexander I to Philip V."
+ },
+ "vici:vici-73353": {
+  "desc": "A ~32m stadium with three rows of stone seating, the only one known in western mainland Greece besides Olympia's, found in 2014 in the sanctuary of Athena and Poseidon on the acropolis of ancient Molykreion, Aetolia."
+ },
+ "vici:vici-73358": {
+  "desc": "U-shaped horse- and chariot-racing course on Delos (west side ~300m long), edged by a terrace wall built for Athens' 5th-century BC revival of the games, with a horse-watering well near the presumed starting line."
+ },
+ "vici:vici-73370": {
+  "desc": "Stadium of Megalopolis, capital of the Arcadian League founded 371–368 BC; Pausanias records a temple of Dionysus on its east side and a spring sacred to the god within it, adjoining the city's colossal theatre."
+ },
+ "vici:vici-73795": {
+  "desc": "Multi-period site on the River Wharfe with two successive Roman forts, temporary camps and a vicus guarding the Lincoln–Aldborough road crossing; no securely attested Roman theatre survives, though the adjacent Neolithic henge has been speculated to have been reused as an amphitheatre.",
+  "wiki": "Newton Kyme"
+ },
+ "vici:vici-74491": {
+  "desc": "Seleucid city (earlier Pythopolis), founded/enlarged by Antiochus I at the Maeander–Orsinus confluence in Caria; ancient sources attest both a theatre and a stadium, of which a stone Roman-period stadium ~200m long survives near modern Kuyucak.",
+  "wiki": "Antioch on the Maeander"
+ },
+ "vici:vici-78057": {
+  "desc": "Hellenistic-era theatre of ancient Syros; its ashlar seating blocks survive incorporated into later buildings near Ano Syra, one of the few traces of the island's ancient public architecture."
+ },
+ "vici:vici-78059": {
+  "desc": "Theatre of Pagai (Pagae), a fortified Megarian harbour city on the Corinthian Gulf near modern Kato Alepochori, strategically important from the Persian Wars through the Peloponnesian War as recorded by Thucydides."
+ },
+ "vici:vici-7892": {
+  "desc": "Small Roman odeon seating about 500, built in the 2nd century CE (likely under Antoninus Pius or Marcus Aurelius) beside the larger Roman Theatre of Philadelphia; used for music, poetry, and lectures.",
+  "qid": "Q20422619",
+  "wiki": "Odeon theater (Amman)"
+ },
+ "vici:vici-78993": {
+  "desc": "Gallo-Roman theatre uncovered in a 2022 rescue excavation near Metz, on the Roman road to Reims via Verdun; estimated to have held up to 6,000 spectators, possibly at the site of ancient Ibliodurum."
+ },
+ "vici:vici-7905": {
+  "desc": "Roman theatre built under Augustus as part of Glanum's monumental rebuilding alongside temples, a basilica, baths, and a triumphal arch, on a Hellenistic town site centered on a sacred healing spring."
+ },
+ "vici:vici-80853": {
+  "desc": "Chariot-racing circus at Hadrumetum (Sousse); its existence is attested chiefly by 3rd-century AD mosaics, including one from the House of Sorothus naming winning circus horses such as Adorandus and Crinitus."
+ },
+ "vici:vici-80875": {
+  "desc": "Roman hippodrome of Caesarea Mazaca (Kayseri), capital of Roman Cappadocia from Tiberius's reign; buried beneath the modern city, its roughly 450 m track was located in 2024 via old maps and geophysical survey."
+ },
+ "vici:vici-81143": {
+  "desc": "The imperial hippodrome of Sirmium, built c. 312–324 under Licinius or Constantine beside the tetrarchic imperial palace; roughly 450 x 150 m and seating up to 10,000, it is the only known unexcavated Roman hippodrome, lying buried beneath modern Sremska Mitrovica."
+ },
+ "vici:vici-8145": {
+  "desc": "One of a rare pair of earthen amphitheatres in the vicus of the Flavian-era auxiliary fort Zugmantel on the Upper Germanic Limes; an oval roughly 50 m across ringed by a 13 m-wide, 1.5 m-high earth bank, likely combining spectacle with troop training ground."
+ },
+ "vici:vici-8146": {
+  "desc": "The second of two earthen amphitheatres flanking the civilian settlement of the Roman fort Zugmantel on the Upper Germanic Limes — amphitheatres are very rare on the frontier, and this pair likely served both as performance venues and as training grounds for the garrison."
+ },
+ "vici:vici-81558": {
+  "desc": "Theatre of Roman Augusta in Cilicia, a colony founded in 20 AD and named for Livia; a 1955 rescue survey recorded its open-air auditorium (c. 62 m across) along with a triumphal arch, colonnaded streets, and baths just before the site was submerged by the new Seyhan Dam reservoir.",
+  "wiki": "Augusta (Cilicia)"
+ },
+ "vici:vici-82733": {
+  "desc": "Site of Troesmis, a Roman legionary fortress on the Lower Danube limes, home of Legio V Macedonica (107–163) and later a municipium under Marcus Aurelius (c. 177); no amphitheatre here is independently confirmed in the literature.",
+  "wiki": "Troesmis"
+ },
+ "vici:vici-82904": {
+  "desc": "Aquae Flaviae, a thermal spa town in Roman Gallaecia named for the Flavian dynasty, raised to municipium status in 79 CE under Vespasian; famed for its hot springs and later spanned by Trajan's bridge over the Tâmega.",
+  "wiki": "Aquae Flaviae"
+ },
+ "vici:vici-83086": {
+  "desc": "Gallo-Roman theatre-amphitheatre hybrid in Lutetia (Paris), built in the 1st century CE and seating up to 15,000; sacked in the 275 raids, later filled in, then rediscovered by Théodore Vacquer in the 1860s and saved after Victor Hugo's campaign.",
+  "wiki": "Arènes de Lutèce"
+ },
+ "vici:vici-83134": {
+  "desc": "Hradisko hilltop fortress near Mušov, the principal Roman military base of the Marcomannic Wars (172–180), built deep in Germanic territory under Marcus Aurelius; excavations found a bath complex, but no theatre or amphitheatre is attested at the site.",
+  "qid": "Q3868801",
+  "wiki": "Roman fort, Mušov"
+ },
+ "vici:vici-84196": {
+  "desc": "Cadyanda's Hellenistic theatre, built late 2nd–early 1st century BCE, was repaired and reused under Roman rule; about 20 rows of seating survive on the hillside above Üzümlü, though the stage building has been destroyed.",
+  "wiki": "Cadyanda"
+ },
+ "vici:vici-84198": {
+  "desc": "Theater identified in 1971 in Vibo Valentia's Terravecchia quarter (ancient Hipponion, a Greek colony of Locri Epizefiri, refounded as the Latin colony Valentia in 192 BC); only retaining walls and part of the lower cavea's steps survive."
+ },
+ "vici:vici-84203": {
+  "desc": "Part of the Sanctuary of Diana Nemorensis at Lake Nemi (nemus Aricinum), founded c. 300 BC around the cult of Diana of the Wood; the complex also had baths, a nymphaeum and pilgrim lodgings for the annual August Nemoralia festival.",
+  "wiki": "Temple of Diana (Nemi)"
+ },
+ "vici:vici-84206": {
+  "desc": "Theater of the Roman colony Minervia Scolacium, founded 123-122 BC by Gaius Gracchus on the Greek site of Skylletion; built into the hillside with room for c. 3,500 spectators, it flourished under Nerva's refoundation around AD 96.",
+  "wiki": "Scylletium"
+ },
+ "vici:vici-84213": {
+  "desc": "An AD 148 inscription from the hilltop town of Mons Feretrius (modern San Leo) records a marble-adorned theatre — \"theatrum marmoribus ornatum\" — the principal evidence for the building, whose remains are not extensively excavated."
+ },
+ "vici:vici-84214": {
+  "desc": "The Roman theatre of Pisaurum (Pesaro) lies beneath the former Filanda silk-mill on Via De Amicis; excavations resumed there in 2021 under the Marche Superintendency as part of plans for a future museum of Roman Pesaro."
+ },
+ "vici:vici-84215": {
+  "desc": "The theatre of Pitinum Mergens, identified near Catirano along the Via Flaminia by University of Urbino excavations, had a stage set parallel to the road and two concentric corridors supporting a cavea about 70 m in diameter."
+ },
+ "vici:vici-84216": {
+  "desc": "Built in the Augustan era on the slope of Genoa's San Giusto hill overlooking the harbor and restored under Trajan by Q. Petronius Modestus, the theatre stayed in use into late antiquity (even hosting gladiatorial shows); identified in 1814, excavated in 1938."
+ },
+ "vici:vici-84217": {
+  "desc": "Theatre of Roman Pollentia (Pollenzo), built in the earlier 1st century AD with a two-tier cavea about 74 m across and a 34 m orchestra, seating roughly 6,000 — the largest Roman theatre known in Piedmont."
+ },
+ "vici:vici-84220": {
+  "desc": "Roman theatre of Laus Pompeia (Lodi Vecchio): so little structural fabric survives along the presumed main street that scholars could attempt only a virtual reconstruction of its stage building."
+ },
+ "vici:vici-84222": {
+  "desc": "Per Diodorus Siculus, a native of Agyrium, its theatre — part of Timoleon's building program after 339 BC, when he settled 10,000 Greek colonists there — ranked as the finest in Sicily after Syracuse's; little survives beneath modern Agira."
  }
 }
