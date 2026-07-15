@@ -24,7 +24,7 @@ export interface AtlasEntity {
   e?: number
   /** 1 knowledge-bearing · 2 named · 3 unnamed texture */
   t: 1 | 2 | 3
-  /** provenance codes stamped at emit (build-entity-atlas.py); surfaced as detail-panel links (RecordSourceLinks) */
+  /** provenance codes — see SOURCE_LABELS in AtlasLayer */
   p?: string
 }
 
