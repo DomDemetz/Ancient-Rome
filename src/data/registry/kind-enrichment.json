@@ -21,6 +21,14 @@
   "desc": "The Arenas of Besançon, a Roman amphitheater built in the later 1st century in Vesontio, roughly 122-130 m long, blending the 'classical' design of Arles/Nîmes with the earthwork type of Amiens and Tours; abandoned by the 4th century.",
   "wiki": "Arenas of Besançon"
  },
+ "amphitheater:bevagna": {
+  "desc": "A possible Roman amphitheater of ancient Mevania: an elliptical depression near the Via Flaminia, partly excavated in 2006-7, is hypothesized as its site, though this identification remains unconfirmed."
+ },
+ "amphitheater:carpis": {
+  "desc": "Carpis (Colonia Iulia Carpitana), a Roman colony on Cape Bon founded under Caesar or Augustus, is tentatively identified with ruins at El Mraissa near Jebel Korbous, where an amphitheater and a large aqueduct-fed cistern survive.",
+  "qid": "Q238786",
+  "wiki": "Carpi (Africa)"
+ },
  "amphitheater:conimbriga": {
   "desc": "Amphitheater of Conímbriga dating to the end of the Julio-Claudian dynasty; identified in 1993 and excavated from 2012-13, it held roughly 5,000 spectators before being partly demolished to supply stone for the city's late Roman defensive wall.",
   "wiki": "Conímbriga"
@@ -41,6 +49,9 @@
  "amphitheater:formia": {
   "desc": "The amphitheatre of Roman Formiae, precisely located near the town's railway station only in 2011, dates to the 1st century AD and stood alongside the city's theatre, huge cistern, and Temple of Janus.",
   "qid": "Q28978029"
+ },
+ "amphitheater:gennes": {
+  "desc": "The largest Gallo-Roman amphitheater in western France, built in the late 1st century AD and used into the early 3rd century; held up to 5,000 spectators for gladiatorial games, beast hunts, and staged naumachiae."
  },
  "amphitheater:genzano": {
   "desc": "Within the imperial 'Villa of the Antonines,' birthplace of Antoninus Pius, ancient sources say Commodus killed wild beasts in an amphitheatre here, earning him the epithet 'Roman Hercules'; excavation in 2012-13 confirmed the c. 56 m structure."
@@ -76,6 +87,10 @@
   "desc": "Seressi, a Roman municipium of Africa Proconsularis (c. 30 BC-640 AD), corresponds to modern Oum el Abouab, Tunisia, whose ruins include a forum, unidentified public buildings, a theater, and an amphitheater.",
   "qid": "Q30590320",
   "wiki": "Oum El Abouab"
+ },
+ "amphitheater:sidi-bou-arkoub": {
+  "desc": "Thimisua (also called Sidi-Bou-Argoub), a civitas of Roman Africa Proconsularis, preserves an oval amphitheater with two entrances along its longitudinal axis; the settlement flourished from roughly 330 BC to AD 640.",
+  "wiki": "Thimisua"
  },
  "amphitheater:thibari": {
   "desc": "At ancient Thibaris, founded 103 BC as one of four colonies for Marius's veterans after his victory over Jugurtha, the remains of a Roman amphitheater measuring 61.2 by 51.5 meters were discovered accidentally in 1937.",
@@ -340,12 +355,18 @@
  "building:242727660": {
   "desc": "Hellenistic theater at the sanctuary of Leto (Letoon), built around 100 BCE with a rock-cut cavea of 37 rows in two tiers; part of the UNESCO Xanthos-Letoon site."
  },
+ "building:243292711": {
+  "desc": "Part of the Cassinomagus sanctuary complex at Chassenon alongside its famed Gallo-Roman baths and temple; the amphitheater was poorly and incompletely excavated over a century ago and later used as a stone quarry."
+ },
  "building:246233": {
   "desc": "A Visigothic-period chapel was built here over a late Roman villa that has yielded 4th–5th century pottery and a bronze Constantinian coin (330–346); a possible baptistery adjoined the nave.",
   "qid": "Q20986255"
  },
  "building:246245": {
   "desc": "Monastery founded in the 580s by the Visigothic chronicler John of Biclaro after returning from exile in Constantinople, governed by a rule he wrote himself; tentatively identified with Vallclara/Cabacés in Tarragona province."
+ },
+ "building:246256": {
+  "desc": "A Visigothic-era basilica, part of a monastic/village complex with a necropolis near Serós (Lleida, Spain), dated 6th-7th century AD; regarded as one of the best-preserved late-antique churches of eastern Tarraconensis, notable for its rare surviving baptistery."
  },
  "building:246306": {
   "desc": "Site of a Roman-era fortified nucleus on a ridge in Alt Urgell, Catalonia, later rebuilt as the medieval Castellnou de Bassella castle; only fragmentary walls survive today.",
@@ -394,6 +415,9 @@
  "building:269407479": {
   "desc": "Originally Hellenistic and remodeled in the early Roman period, the theater at Teos held roughly 7,000 spectators and was home to the influential guild of Artists of Dionysus from the late 3rd century BCE."
  },
+ "building:272709531": {
+  "desc": "An early Imperial amphitheater at Spoletium with a cavea about 70 m in diameter, later absorbed into the Caserma Minervio barracks; ten arches of its ambulatory remain visible in the barracks building."
+ },
  "building:281201084": {
   "desc": "Middle Assyrian king Tukulti-Ninurta I (r. 1233-1197 BC) built this ~27,000 sq m royal residence at Assur, known by its Sumerian name Elugalumunkurkurra ('House of the King, Lord of the Lands'); it fell into ruin after his reign, unmaintained once he founded his new capital Kar-Tukulti-Ninurta."
  },
@@ -420,16 +444,27 @@
   "desc": "A circular assembly hall (ekklesiasterion) unique in the Greek world, dominating Metapontum's agora and seating up to 7,500-8,000; converted into a theater around 325-300 BC, later repaired, then sealed up as a fortress.",
   "qid": "Q135273016"
  },
+ "building:302890394": {
+  "desc": "\"Il Tondo,\" a small 1st-century AD amphitheater in opus reticulatum on Colle del Pero near a wealthy Roman villa; often interpreted as a private ludus where gladiators from Praeneste trained rather than a public arena."
+ },
  "building:303354808": {
   "desc": "An ornately decorated elevated suite in Adad-nirari III's palace at Kalhu (Nimrud), possibly the residence of his mother and regent Sammu-ramat (the legendary Semiramis); re-excavated in 2022–2023 by a Penn Museum/Iraqi State Board of Antiquities team, which found inscribed door-sill texts."
  },
  "building:309437155": {
   "desc": "Royal residence built at Kalhu (Nimrud) by the Assyrian king Adad-nirari III (r. 810–783 BC), whose mother Sammu-ramat, later mythologized as Semiramis, served as regent early in his reign and may have resided there."
  },
+ "building:314547139": {
+  "desc": "Marian shrine on Barbana island in the Grado Lagoon (NE Italy), founded in 582 when Elias, Patriarch of Aquileia, built a church by a hermit's hut after a Madonna image reportedly washed ashore; run successively by Benedictines and Franciscans, site of the annual 'Perdòn di Barbana' pilgrimage.",
+  "wiki": "Barbana, Italy"
+ },
  "building:31748292": {
   "desc": "A 10th–13th-century Armenian monastic complex of four churches, a gavit, and outbuildings on Paitatap Mountain; the Surb Astvatsatsin church (1198) and main church (1205) are renowned for their intricate carved ornament.",
   "qid": "Q2991647",
   "wiki": "Makaravank"
+ },
+ "building:318023996": {
+  "desc": "Built at Vesunna, capital of the Petrocorii in Aquitania, with construction reportedly begun under Tiberius; one of Roman Gaul's largest arenas at 141 x 118 m, estimated to hold about 18,000 spectators.",
+  "qid": "Q15945086"
  },
  "building:319613732": {
   "desc": "Early Byzantine church at Çatıören in Rough Cilicia, probably built in the 6th century; two walls and its apse still stand amid a wider Hellenistic-Roman rural settlement with a pagan temple nearby.",
@@ -438,8 +473,19 @@
  "building:326045393": {
   "desc": "Main civic square of Aphrodisias, a colonnaded plaza c. 202 x 72 m enclosed by Ionic porticoes; its north colonnade was dedicated by C. Julius Zoilos in the late 1st century BC, the south portico added later under Tiberius."
  },
+ "building:327840536": {
+  "desc": "Remains of a Roman villa were excavated in the 19th century near the church of San Pietro ad Centum Muros; epigraphic evidence links the site to Marcus Vipsanius Agrippa."
+ },
  "building:329343086": {
   "desc": "One of two fora at Mactaris (Roman Mactar, Tunisia); this earlier square lies beside the Arch of Trajan, the triumphal arch dedicated to Trajan in AD 116 that survives as the site's best-preserved monument."
+ },
+ "building:333190326": {
+  "desc": "Begun under Vespasian and finished under Titus, this is Italy's third-largest amphitheater after the Colosseum and Capua's, measuring 147 x 117 m with capacity estimates up to 40,000; its underground stage machinery survives.",
+  "wiki": "Flavian Amphitheater (Pozzuoli)"
+ },
+ "building:334553": {
+  "desc": "A Roman fort on the Fossatum Africae frontier in Numidia, garrisoned by detachments of Legio III Augusta; its associated circular amphitheater likely served for garrison assemblies and entertainment on the Saharan fringe.",
+  "wiki": "Gemellae"
  },
  "building:335577249": {
   "desc": "The Republican-era 'minor amphitheater' of Puteoli (Pozzuoli), used alongside the later Flavian Amphitheater; here in AD 66 Nero's freedman Patrobius staged lavish beast-hunts honoring the visiting Armenian king Tiridates I, per Cassius Dio."
@@ -459,6 +505,9 @@
  },
  "building:354239692": {
   "desc": "Three-aisled basilica built at Portus between the late 4th and early 5th century over the tomb of the martyr Hippolytus; destroyed in the 455 Vandal sack of Rome and rebuilt by Pope Leo III, with the saint's sarcophagus and Leo III's ciborium now in the adjacent Antiquarium."
+ },
+ "building:354239693": {
+  "desc": "A 2nd-century BC gymnasium at Cyrene (Libya) rededicated under Augustus as a Caesareum honoring the deified Julius Caesar, with an adjoining basilica for law cases rebuilt during Hadrian's reign."
  },
  "building:354671742": {
   "desc": "Large three-aisled basilica built at Salamis-Constantia in the late 5th–6th century CE with twin atria and marble furnishings imported from Proconnesus, likely dedicated to the Holy Cross; damaged in the Arab raid of 648/649 but remained in use by a small monastic community."
@@ -486,6 +535,9 @@
  "building:38100986": {
   "desc": "This amphitheater stood at Thizica, a minor Roman civitas in Africa Proconsularis; Augustine of Hippo records that its bishop Novellus was executed by Donatists around 313 AD."
  },
+ "building:40557241": {
+  "desc": "One of two small Byzantine churches of basilica plan (6th-7th century AD) built within the fortified acropolis of the Lycian port city of Aperlae, in its northwest corner."
+ },
  "building:410058374": {
   "desc": "A Visigothic-era church (probably 7th century) built within the older Punic oppidum of Silla del Papa near Tarifa, possibly founded by Pimenius, Bishop of Asidonia (Medina Sidonia); excavated since 2014, it remained in domestic use into the early Emirate period."
  },
@@ -494,6 +546,9 @@
  },
  "building:422867": {
   "desc": "The Capuchin convent (church consecrated 1579, patronized by Gregory XIII) was built beside the remains of a 1st-century BC Roman villa traditionally identified as Cicero's Tusculanum, where he set his Tusculan Disputations."
+ },
+ "building:423030": {
+  "desc": "The Sacro Speco ('Sacred Cave'), core of the Monastery of St Benedict at Subiaco, marks the cave where Benedict of Nursia lived as a hermit in the early 6th century; its Lower Church (12th century) and Upper Church (14th century) are covered with frescoes of his life."
  },
  "building:423041": {
   "desc": "The oratory of San Clemente, one of the twelve monasteries St Benedict founded in the Aniene valley near Subiaco in the early 6th century, was built by reusing the baths and nymphaeum of Nero's ruined villa (Sublaqueum)."
@@ -530,6 +585,12 @@
  "building:439136375": {
   "desc": "Built c. 878–864 BC by Ashurnasirpal II as Assyria's first grand royal residence, its courtyards lined with alabaster reliefs of the king, winged spirits and campaigns; rediscovered by Layard in the 1840s, with royal queens' tombs found beneath it in 1988."
  },
+ "building:43994933": {
+  "desc": "The Roman amphitheater of Cemenelum, built in two phases during the 2nd and 3rd centuries AD; its elliptical arena (67 by 56 m) held roughly 4,000 spectators, making it one of the smallest amphitheaters known in Roman Gaul."
+ },
+ "building:44398170": {
+  "desc": "Built on Pipet Hill in the mid-1st century AD, this was one of the largest Roman theatres, with capacity for roughly 13,000 spectators — the second-largest in Gaul after Autun's."
+ },
  "building:448083500": {
   "desc": "A ruined fifth-century basilica on the Karpass peninsula, an episcopal church founded by Bishop Philon on the site of ancient Carpasia's Roman harbour, with a triapsidal plan, synthronon and baptistery; sacked in Arab raids and abandoned after 802.",
   "qid": "Q16327458"
@@ -539,6 +600,9 @@
  },
  "building:458747378": {
   "desc": "Theater of ancient Telmessos (modern Fethiye), begun in the late Hellenistic or Augustan period with its stage added around 200 AD; excavated 1992-95, it held about 6,000 spectators across 28 rows."
+ },
+ "building:470606136": {
+  "desc": "A Byzantine-period Christian basilica in Carthage with five naves and a hexagonal-basin baptistery with geometric mosaic floors, built in the late Vandal or early Justinianic period and excavated by Paul Gauckler in 1899."
  },
  "building:475264756": {
   "desc": "A Cistercian abbey founded in 1190 by Cathal Crobhdearg Ua Conchobair, King of Connacht, and colonised by monks from Boyle Abbey; the king died a monk here in 1224, and its chancel preserves rare medieval wall paintings.",
@@ -563,6 +627,9 @@
  "building:491624945": {
   "desc": "Oval colonnaded plaza (~90x80m) in Roman Gerasa (Jerash), ringed by dozens of Ionic columns, built in the early 2nd century AD linking the Temple of Zeus to the Cardo Maximus; a central statue base was later converted to a fountain."
  },
+ "building:497388377": {
+  "desc": "An extramural Roman amphitheater at Vercellae, confirmed by excavations from the 1970s onward that uncovered the cavea foundations and service corridors beneath the arena; some estimates suggest it may have exceeded the amphitheater of Verona in size."
+ },
  "building:499970655": {
   "desc": "A Π-shaped colonnaded agora (about 1 hectare) at the sanctuary of Poseidon at Onchestos in Boeotia, built around the late 4th century BC as a political and religious meeting place for the Boeotian League.",
   "wiki": "Onchestos"
@@ -570,11 +637,38 @@
  "building:508370540": {
   "desc": "A Roman villa rustica on the Mirna river estuary in Istria, later fortified in Late Antiquity with a tower and a sacral complex including the church of Santa Croce; under excavation since 2008."
  },
+ "building:511410": {
+  "desc": "Monastery named for the bishop-martyr Autonomus, who fled Diocletian's persecution from Italy to Bithynia, founded a church there, and was killed by pagans during a festival c. 313 AD."
+ },
  "building:511519022": {
   "desc": "Theater at Noviodunum Diablintum (Jublains), built over an earlier structure probably in the later 1st century AD; unusually elliptical and lacking a stage wall, it was donated to the town by the decurion Orgetorix per a surviving inscription."
  },
+ "building:52087519": {
+  "desc": "Baths of a 3rd-century Gallo-Roman villa, with hypocaust and a hexagonal plunge pool, discovered in 1947 beneath the medieval Church of Saint-Martin in Moissac; the pool may later have served as a baptismal font."
+ },
+ "building:520954": {
+  "desc": "Founding monastery of the Acoemetae ('Sleepless Monks'), established c. 400 by Alexander Akoimetes and relocated by his successor Abbot John to Irenaion on the Asian shore of the Bosphorus, where monks kept perpetual round-the-clock liturgical chant in rotating choirs.",
+  "qid": "Q774191",
+  "wiki": "Acoemetae"
+ },
  "building:523291014": {
   "desc": "Theater of ancient Rhodiapolis in Lycia, with 16 surviving rows of seating; it stood before the funerary monument of Opramoas, the city's wealthy 2nd-century AD benefactor, and was fully excavated after 2006."
+ },
+ "building:528606605": {
+  "desc": "Built c. 337-361 AD on the Via Nomentana in Rome as the mausoleum of Constantina (or her sister Helena), daughter of Constantine I; consecrated as the church of Santa Costanza in 1254, renowned for its well-preserved 4th-century ceiling mosaics.",
+  "qid": "Q831361",
+  "wiki": "Mausoleum of Constantina"
+ },
+ "building:537979353": {
+  "desc": "Built near the Porta Ticinese during the 2nd and 3rd centuries AD as Mediolanum grew in importance, it was the third-largest amphitheater in Roman Italy after the Colosseum and the Amphitheater of Capua, with an outer ellipse of about 155 by 125 m.",
+  "qid": "Q2844419",
+  "wiki": "Milan amphitheatre"
+ },
+ "building:540845": {
+  "desc": "Early Christian three-aisled basilica (4th–6th c.) at Kalabaka, later rebuilt as a Byzantine church (10th–11th c.) on the site of an ancient Temple of Apollo; its marble pulpit and synthronon survive from the original basilica."
+ },
+ "building:540920": {
+  "desc": "Roman-era baths near ancient Hypata, excavated 1968–1973 and later converted into a Christian basilica; mosaic floors from the site are preserved in the Byzantine Museum of Phthiotis at Ypati."
  },
  "building:544710174": {
   "desc": "Theater of the mountaintop Pisidian city Termessos, built in the Hellenistic 2nd century BC and remodeled by the Romans in the 2nd century AD; its diazoma-divided cavea seated 4,000-5,000, with animal pens beneath the stage for beast shows."
@@ -582,17 +676,41 @@
  "building:544711870": {
   "desc": "U-shaped stoa in the extramural sanctuary of Marasà Sud/Centocamere at Locri Epizephyrii, built in the 7th century BC and enlarged in the 6th; over 370 votive pits (bothroi) tied to the cult of Aphrodite were found within it."
  },
+ "building:552768118": {
+  "desc": "One of the oldest churches in France, built over a Gallo-Roman villa's hypocaust; its 5th–6th century funerary basilica held a Merovingian crypt (670s) with the tomb of abbot Saint Valbert and roughly 350 burials, 150 in stone sarcophagi."
+ },
  "building:55405152": {
   "desc": "Theater of ancient Tralles (Aydin), birthplace of Anthemius, architect of Hagia Sophia; the ruins, now on private farmland, are noted for the storks nesting atop them."
  },
+ "building:555003241": {
+  "desc": "The Gallo-Roman amphitheater of Aginnum, architecturally related to the amphitheaters of Bordeaux, Poitiers, and Pula; at its largest extent it measured about 115 by 100 m with an estimated capacity of 12,000-15,000 spectators."
+ },
  "building:558037429": {
   "desc": "A rare Gallo-Roman hybrid theater-amphitheater whose cavea covers only half the elliptical ring; built around the 2nd century AD for roughly 5,000 spectators, excavated 1862–1901, and used into the 4th century."
+ },
+ "building:558444308": {
+  "desc": "A 5th-century martyrion at Vaste (ancient Baxta) in Salento, possibly destroyed in the Greco-Gothic War and rebuilt as a larger three-naved basilica in the later 6th century; surrounded by a rock-cut necropolis of roughly 130 tombs."
+ },
+ "building:563800136": {
+  "desc": "Byzantine church in Thessaloniki founded by Ecumenical Patriarch Niphon I between 1310 and 1314 as the katholikon of a monastery dedicated to the Virgin; now a UNESCO World Heritage Site, it became the Soğuksu Mosque under Ottoman rule.",
+  "qid": "Q1742795",
+  "wiki": "Church of the Holy Apostles (Thessaloniki)"
  },
  "building:570229761": {
   "desc": "A large administrative complex on the Amathus acropolis, one of the earliest monumental stone buildings of Iron Age Cyprus, with its first phase dated to the late 9th century BC; still under excavation by the French School at Athens."
  },
  "building:575107588": {
   "desc": "Greek theatre built in the late 3rd century BC under Hiero II of Syracuse, with nine wedge-shaped seating sections and twelve rows holding roughly 700 spectators; still hosts performances today."
+ },
+ "building:579175360": {
+  "desc": "Byzantine domed basilica at Sige (modern Kumyaka) on the Sea of Marmara; donor monograms naming 'Eusebius' date its first phase to the reign of Constantine VI (780–797), making it one of Anatolia's earliest surviving church buildings."
+ },
+ "building:580035": {
+  "desc": "A marble Ionic-column tropaion (victory trophy) erected by the Athenians after their 490 BCE win over the Persians at Marathon, topped by a statue of Nike; described by Pausanias, with fragments now in the Archaeological Museum of Marathon."
+ },
+ "building:583045156": {
+  "desc": "A paleochristian basilica in Mérida (Spain) built in the 4th century over the tomb of the child martyr Eulalia, traditionally regarded as the first Christian temple raised in Hispania after Constantine's Peace of 313; rebuilt in the 13th century after the Christian reconquest.",
+  "qid": "Q5722039"
  },
  "building:585690561": {
   "desc": "Built under Augustus (late 1st century BC), Mediolanum's theatre had a 95m-wide cavea and 20m stage, holding an estimated 7,000-9,000 spectators; its remains lie beneath the Palazzo Turati."
@@ -603,11 +721,29 @@
  "building:586635000": {
   "desc": "Built by Shalmaneser III (r. 858–824 BC) as the ekal māšarti (\"review palace\"/arsenal) in Kalhu's southeast corner, enclosing c. 30 ha; excavations by Mallowan and David Oates (1950s–60s) recovered thousands of the famous Nimrud ivories."
  },
+ "building:587486979": {
+  "desc": "Part of the Ancient Villages of Northern Syria (\"Dead Cities\") in Jebel Barisha, occupied 1st–7th centuries AD; the site preserves a well-preserved monastic chapel noted for its rare decorative quality."
+ },
  "building:593911178": {
   "desc": "This elliptical amphitheater (94×66 m) at Trebula Mutuesca was partly cut into the rocky hillside, had an underground gallery for stage machinery, and was restored under Trajan per surviving dedicatory inscriptions."
  },
+ "building:594242502": {
+  "desc": "An amphitheater serving the Roman municipium of Scarbantia, its outline still traceable on a hillside beneath Bécsi Hill outside the town; likely used for gladiatorial contests and public spectacles, though little else about it is attested."
+ },
+ "building:597515849": {
+  "desc": "Ruins of a large Gallo-Roman entertainment building (described variously as an amphitheater or theater) at the hamlet of Bout Levé, first identified in the early 19th century and excavated in 1870 by Abbé Jean-Benoît Cochet; it measures roughly 70-79 by 46 m."
+ },
+ "building:600985975": {
+  "desc": "Roman civic basilica on the acropolis of Aspendos in Pamphylia (Turkey), built behind the theatre; used for legal proceedings, administrative meetings and public business in the late Roman period."
+ },
+ "building:601030061": {
+  "desc": "The larger of Laodicea ad Lycum's two theaters (also called the North Theatre), built in the Roman Imperial period from Hadrian's reign through the Antonines (117-161 CE); seated roughly 10,000 spectators."
+ },
  "building:612060178": {
   "desc": "A 2nd-century BC theatre, among the last built in Greek style in Calabria, with a freestanding stone cavea originally holding around 1,200 spectators; discovered in 1883, fully excavated by 1925."
+ },
+ "building:617582458": {
+  "desc": "On the Sorna peninsula near Parentium (Poreč, Croatia), a wealthy Roman villa maritima (excavated 1966–68) with hypocaust heating, baths, mosaics and frescoes, including a ceiling depicting a winged Eros; a small early Christian church was later built on the site."
  },
  "building:62047881": {
   "desc": "Forum of the Samnite town of Iuvanum (Montenerodomo, Abruzzo), which became a Roman municipium after the Social War; excavated since the 1960s, it comprised a basilica, temple and tabernae beside a rock-cut theatre."
@@ -618,13 +754,66 @@
  "building:625262900": {
   "desc": "Built by Tigranes the Great around 69 BC for Greek drama performed by artists gathered from across his empire — the first known theatre in Armenia; still unfinished when Lucullus took the city and celebrated his triumph there."
  },
+ "building:627408618": {
+  "desc": "Built in the 1st century AD on the hillside below the Kaštel fortress, this was the smaller of Pula's two Roman theatres, seating about 3,000-5,000 for plays, poetry and recitations.",
+  "qid": "Q16112130"
+ },
+ "building:637058243": {
+  "desc": "A 5th-century basilica-plan church on the northern outskirts of al-Bara, Syria's largest 'Dead City' site; the best-preserved of its churches until locals later dismantled its stones and converted the site to farmland."
+ },
+ "building:637342541": {
+  "desc": "A three-naved basilica built in the late 5th-early 6th century in Nesebar (ancient Mesembria), Bulgaria, serving as cathedral for the medieval bishopric ('Old Bishopric'); looted by Venetians in 1257 and abandoned by the 18th century.",
+  "wiki": "Hagia Sophia Church, Nesebar"
+ },
+ "building:639092": {
+  "desc": "Monastery of Holy Sion in the Lycian hinterland near ancient Pharroa, headed in the 6th century by its abbot Nicholas of Sion, a monk and healer later ordained bishop of Pinara."
+ },
  "building:642983159": {
   "desc": "Late Roman villa complex near Toledo built for Maternus Cynegius, a praetorian prefect under Theodosius I, containing a paleochristian basilica with polychrome marble decoration and mosaics; discovered in 1983."
+ },
+ "building:648366268": {
+  "desc": "Located about a kilometer east of Sabratha's town center, built into a natural depression (probably an old quarry) and dated to the 2nd century AD, with twelve tiers of seating and a roughly 45 by 30 m arena; an inscription records a duumvir funding five days of gladiatorial games there. Distinct from the city's famous Roman theater."
+ },
+ "building:648587": {
+  "desc": "Binbirkilise ('thousand and one churches'), a major Byzantine ecclesiastical centre in Lycaonia on the slopes of Mount Karadağ, attested as a bishopric from the 4th to 12th centuries with dozens of surviving domed basilicas, monasteries and cisterns.",
+  "qid": "Q863532",
+  "wiki": "Binbirkilise"
+ },
+ "building:648782": {
+  "desc": "The Great Basilica of Saint Thecla at Meryemlik near Seleucia (Silifke), built by Emperor Zeno in the later 5th century over her cave shrine as an early fusion of basilica and domed-church design; it became a major Byzantine pilgrimage centre.",
+  "qid": "Q792822",
+  "wiki": "Aya Tekla Church"
+ },
+ "building:651069708": {
+  "desc": "Cut into the slope of Mount Helicon within the Valley of the Muses sanctuary near Thespiae, built in the late 3rd or early 2nd century BC to host the quadrennial Mouseia festival honoring the nine Muses with poetry, music, and drama contests."
  },
  "building:65661952": {
   "desc": "Benedictine monastery founded by Benedict of Nursia around 529 CE, the first house of the Benedictine Order, built atop a former temple of Apollo; nearly destroyed by Allied bombing in February 1944 and later rebuilt.",
   "qid": "Q154372",
   "wiki": "Monte Cassino"
+ },
+ "building:658246004": {
+  "desc": "Built under Augustus or Tiberius just north of the forum (whose north wall served as its stage), with capacity for about 4,600 spectators; the scaenae frons was rebuilt in brick and embellished under Hadrian.",
+  "qid": "Q94896241"
+ },
+ "building:658372": {
+  "desc": "Syriac monastery on the Euphrates near Halawa (Syria), founded in 782 CE and dedicated to Alexander the Acoemete, 5th-century founder of the 'Sleepless Monks' (Acoemetae) order."
+ },
+ "building:658527": {
+  "desc": "Deir Yakup, a mausoleum-monastery of Mar Jacob near Edessa/Urfa (Sultantepe), dated by inscriptions to the late 2nd-3rd century CE; later used as a monastery linked to the 5th-century tradition of Jacob of Sarug."
+ },
+ "building:658578": {
+  "desc": "Qalb Loze church, Idlib, Syria, built c. 460 CE as a three-aisled basilica; the first known wide-nave basilica in Syria to replace columns with massive piers and arches, influencing later Romanesque design.",
+  "wiki": "Qalb Loze"
+ },
+ "building:658579": {
+  "desc": "West Syriac monastery on the Euphrates opposite Jarablus, founded c. 530 CE by John bar Aphtonia; became the leading intellectual centre of West Syriac Christianity and Greek-Syriac translation until abandonment by the 13th century.",
+  "wiki": "Qenneshre"
+ },
+ "building:658607": {
+  "desc": "Monastery of Saint Simeon Stylites the Younger on the 'Wondrous Mountain' near Antioch (modern Samandağ, Hatay), founded 551 CE at the site of his third pillar; a major pilgrimage complex until sacked in 1084.",
+  "qid": "Q109391059",
+  "wiki": "Monastery of Saint Simeon Stylites the Younger"
  },
  "building:661789084": {
   "desc": "Armenian domed cathedral built c. 631-639 under Prince Nerses Kamsarakan and Bishop Theophilus, bearing reliefs commemorating Emperor Heraclius's return of the True Cross to Jerusalem; the largest surviving 7th-century Armenian domed basilica.",
@@ -633,6 +822,42 @@
  },
  "building:66838501": {
   "desc": "Main forum of the Roman colony Augusta Raurica near Basel, founded c. 44 BC by Lucius Munatius Plancus; housed the temple of Jupiter, a basilica, and the town council's assembly chamber."
+ },
+ "building:673008673": {
+  "desc": "A Greek-style theater at Oinoanda with a cavea about 55m across, later fitted with a Roman stage building; hosted the Demostheneia musical/dramatic festival endowed by Gaius Julius Demosthenes in the 2nd century AD."
+ },
+ "building:687874": {
+  "desc": "Founded around 345 AD by Chariton the Confessor as his third lavra — known as Souka or the Old Laura — in a gorge near Tekoa; one of the most important monastic communities of the Judean Desert."
+ },
+ "building:687898": {
+  "desc": "A lavra founded by Euthymius the Great in 420 AD, its church consecrated 428; converted to a cenobitic monastery in 482, it survived until a 659 AD earthquake and later became the pilgrim way-station Khan al-Ahmar.",
+  "qid": "Q3320207",
+  "wiki": "Monastery of Euthymius"
+ },
+ "building:687908": {
+  "desc": "Founded around 455 AD by Gerasimus of the Jordan near the Dead Sea as a lavra of some 70 ascetic monks; also known as Deir Hajla, among the oldest continuously venerated monasteries in the Holy Land.",
+  "qid": "Q12212349",
+  "wiki": "Deir Hajla"
+ },
+ "building:687923": {
+  "desc": "A Hasmonean fortress built by John Hyrcanus or Alexander Jannaeus, later expanded by Herod the Great as a prison for political enemies; refounded in 492 AD as the Byzantine monastery of Kastellion by Sabbas the Sanctified.",
+  "wiki": "Hyrcania (fortress)"
+ },
+ "building:687943": {
+  "desc": "An isolated Byzantine monastery in a Judean Desert gorge, founded in the late 5th or early 6th century AD and identified as the monastery of Severianus near Caparbaricha; excavated 1981-1987 by Yizhar Hirschfeld."
+ },
+ "building:687967": {
+  "desc": "A major Judean Desert monastery founded by Martyrius, later Patriarch of Jerusalem, active from the mid-5th to mid-7th century AD; excavated 1981-1984 by Yitzhak Magen, yielding some of the finest Byzantine mosaics in the Holy Land.",
+  "qid": "Q2896173",
+  "wiki": "Monastery of Martyrius"
+ },
+ "building:688042": {
+  "desc": "Founded in 411 AD by Euthymius the Great and his companion Theoctistus in Wadi Mukellik (Nahal Og) as a communal monastery, with Theoctistus serving as its first hegumen (abbot)."
+ },
+ "building:688043": {
+  "desc": "Monastery founded around 476 CE by Theodosius the Cenobiarch southeast of Bethlehem; it held his tomb and, by tradition, the cave where the Three Magi sheltered on their return journey.",
+  "qid": "Q3320350",
+  "wiki": "Monastery of Saint Theodosius"
  },
  "building:688857980": {
   "desc": "Two-terraced Roman forum of Thessalonica with two-storey stoas and baths; its well-preserved Odeon hosted both musical performances and gladiatorial/beast fights, and the complex was uncovered accidentally in the 1960s during construction work.",
@@ -647,6 +872,18 @@
  "building:694724623": {
   "desc": "Chance find in 1929 in the gardens of Palazzo Romano; built in the Augustan period, its six-wedge cavea (75m diameter) held some 5,000-6,000 spectators for comedies and tragedies, with later Antonine-era statuary added."
  },
+ "building:694984908": {
+  "desc": "Pope Honorius I built this basilica in the 7th century over the tomb of St. Agnes, replacing the earlier Constantinian rotunda; noted for its gilded 7th-century apse mosaic and upper-level matroneum galleries.",
+  "wiki": "Sant'Agnese fuori le mura"
+ },
+ "building:697641": {
+  "desc": "Byzantine church complex on the Jordan River at the traditional baptism site of Jesus; pilgrim accounts describe a 6th-century church built on raised arches by Emperor Anastasius I so floodwaters could pass beneath it.",
+  "wiki": "Bethabara"
+ },
+ "building:697721": {
+  "desc": "Basilica first built in the second half of the 4th century atop Mount Nebo to commemorate the death of Moses, enlarged in the late 5th century and rebuilt in 597; its floor mosaics date to about 530.",
+  "qid": "Q2131035"
+ },
  "building:697765430": {
   "desc": "Carved into a hillside outside Cuicul's walls, this two-tier theater seated about 3,000; a surviving inscription naming patrons Caius Julius Crescens and Caius Julius Didius Crescentianus dates its dedication to AD 161."
  },
@@ -659,8 +896,24 @@
  "building:702770983": {
   "desc": "Theater of Roman Albintimilium, built roughly late 2nd-early 3rd century AD with its cavea partly cut into bedrock, holding about 2,000 spectators; systematically excavated from the 1930s onward."
  },
+ "building:707450": {
+  "desc": "Early Christian basilica dedicated to the Holy Trinity on Cyprus's Karpas peninsula, built in the 5th or 6th century and ruined in the mid-7th; noted for extensive geometric floor mosaics and the island's largest cross-shaped baptismal font.",
+  "qid": "Q393619",
+  "wiki": "Ayia Trias, Cyprus"
+ },
+ "building:707608": {
+  "desc": "The Maroni-Petrera basilica: a rural 5th-century early Christian church on Cyprus's south coast, unusually twin-aisled with a four-sided apse, part of a monastic/agricultural complex excavated 1990–1997."
+ },
+ "building:707620": {
+  "desc": "Shyrvallos, near Paphos, Cyprus: a Byzantine-era baptistery salvage-excavated in the early 1960s, notable for a rare, poorly preserved circular font uncommon among Cypriot baptisteries."
+ },
  "building:713959974": {
   "desc": "A Greek theater at Parium on the Hellespont, rebuilt by the Romans in the 2nd and early 3rd centuries AD; the site has been under renewed archaeological excavation since 2005."
+ },
+ "building:715252914": {
+  "desc": "Roman Catholic shrine on Mount Gargano built after the Archangel Michael's reported apparitions in 490, 492 and 493 CE; the oldest Western European shrine to Michael and a major early medieval Lombard pilgrimage site.",
+  "qid": "Q1448870",
+  "wiki": "Sanctuary of Monte Sant'Angelo"
  },
  "building:716466643": {
   "desc": "The oldest theater in Roman Africa, dedicated in AD 1-2 and partly financed by local benefactor Annobal Tapapius Rufus (who also built the city market); cut into a hillside once used as a cemetery, second in size in Africa only to Sabratha's theater."
@@ -668,14 +921,46 @@
  "building:717575054": {
   "desc": "One of two theaters on the Mont Châtelet site near Breteuil (Oise); this smaller theater dates to the 1st century AD, while the adjacent grand theater (late 1st-early 2nd century) held about 4,000. Located via 1955 aerial photography and excavated 1956-1986."
  },
+ "building:725032190": {
+  "desc": "A large Christian basilica, likely the cathedral, built in the 5th–6th century CE within the Roman port city of Iomnium (Tigzirt, Algeria), sited between the Roman and Byzantine city walls."
+ },
  "building:727686421": {
   "desc": "A well-preserved theater on the slopes of ancient Arykanda in Lycia, built around the mid-1st century BC with 20 rows of seats in seven wedges; its stage building was remodeled in the late 2nd-early 3rd century AD."
  },
  "building:732059512": {
   "desc": "Early Christian basilica in Regio III of Ostia, excavated by Guido Calza in 1939 and likely incorporating an earlier bath complex; dated to the 4th century, one of the few identified church buildings in the ancient port city."
  },
+ "building:736975": {
+  "desc": "The Coptic Monastery of the Archangel Gabriel at Naqlun, Fayoum, Egypt, functioning since the 5th century; excavations found Cemetery C (6th–7th c., 180+ graves) and a fragment of Livy's History of Rome.",
+  "qid": "Q31271207",
+  "wiki": "Monastery of the Archangel Gabriel at Naqlun"
+ },
+ "building:737030": {
+  "desc": "The Monastery of Saint Samuel the Confessor at Mount Qalamun, Fayoum, Egypt: founded by hermits fleeing Diocletianic persecution (c. 300) and organized by Samuel the Confessor (597–695) into a community of about 120 monks.",
+  "qid": "Q14207574",
+  "wiki": "Monastery of Saint Samuel the Confessor"
+ },
  "building:73856966": {
   "desc": "Principal church of late antique Butrint, built in the first half of the 6th century with three aisles, a tripartite transept, a pentagonal apse, and mosaic pavements; rebuilt and served as the town's cathedral in the 13th century."
+ },
+ "building:740044370": {
+  "desc": "A Benedictine nunnery founded in 753 CE by Desiderius, future king of the Lombards, and his wife Ansa in Brescia; his daughter Anselperga became its first abbess. Later renamed Santa Giulia.",
+  "qid": "Q334267",
+  "wiki": "San Salvatore, Brescia"
+ },
+ "building:740280236": {
+  "desc": "The Gallo-Roman amphitheater of Chenevières at Montbouy, part of a larger thermal/sanctuary complex and combining the forms of a theater and amphitheater; its elliptical arena (about 51 by 34 m) held up to 4,000 spectators and was classified a French historic monument in 1862."
+ },
+ "building:746714": {
+  "desc": "Byzantine-period chapel and hermitage in Wadi el-Arbain on Mount Sinai, built in the 6th century and dedicated to the Forty Martyrs of Sebaste, traditionally linked to Sinai hermits killed by raiders in the 4th century."
+ },
+ "building:746752": {
+  "desc": "Mount Serbal in South Sinai was venerated by early Christian hermits as the biblical Mount Sinai from the 4th century CE, and its slopes bear the ruins of numerous Byzantine-period monastic cells and chapels used by pilgrims and monks into the 7th-10th centuries.",
+  "qid": "Q722426",
+  "wiki": "Mount Serbal"
+ },
+ "building:746804": {
+  "desc": "Site of the 4th-century monastery of Anba Yuhanna al-Daragi (Abul-Darag) near Ain al-Sukhna on the Red Sea coast, with a cave church and monk cells on the pilgrimage route toward Jerusalem, excavated by a French mission (1963-2005)."
  },
  "building:748147226": {
   "desc": "The ekal māšarti (armory/arsenal) of Sargon II's capital Dur-Sharrukin (Khorsabad, built 717–706 BC), sited in the lower city; excavated by the Oriental Institute of Chicago team led by Gordon Loud in the 1930s."
@@ -685,6 +970,9 @@
  },
  "building:748147228": {
   "desc": "One of several royal residences Sargon II (r. 721–705 BC) built in the citadel of his new capital, Dūr-Šarrukīn (Khorsabad); excavated by the Oriental Institute of Chicago in the 1930s (Loud & Altman)."
+ },
+ "building:755162813": {
+  "desc": "An elliptical Roman amphitheater (about 62 x 83 m) built south of Anazarbus in the era of Augustus; underground chambers held beasts for gladiatorial games, and Christian martyrs Tarachus, Probus, and Andronicus reportedly died there."
  },
  "building:756231346": {
   "desc": "The Theatre of Balbus, Rome's third public theatre, was built in 13 BC by Lucius Cornelius Balbus the Younger from spoils of his African campaign; its rear portico, excavated from 1981, gives the site its modern name Crypta Balbi.",
@@ -698,6 +986,13 @@
  },
  "building:757392272": {
   "desc": "Neo-Assyrian king Sennacherib built this residence near Assur's southeastern city wall by the Tigris for his son Ashur-ili-muballissu; its existence is documented through numerous inscribed stone foundation blocks recording the construction."
+ },
+ "building:760907719": {
+  "desc": "Built in the second half of the 1st century AD under the Flavian dynasty at Regina Turdulorum, seating roughly 1,000 spectators; it stayed in use until the 4th century and is among the best-preserved Roman theatres in Hispania."
+ },
+ "building:762595495": {
+  "desc": "Its cavea retaining walls date to Philip II's refoundation of the city after 356 BC, making it one of the few surviving Hellenistic-era theatres; it was later remodeled in Roman form, still preserving traces of its Greek layout.",
+  "qid": "Q27864544"
  },
  "building:763220261": {
   "desc": "Hellenistic theatre (2nd century BC, with Roman-era alterations) at Laodicea on the Lycus, cut directly into bedrock and seating roughly 8,000-10,000; damaged by earthquakes in the 3rd century and in 368 AD, it was excavated and restored 2003-2021."
@@ -713,6 +1008,9 @@
  },
  "building:792804148": {
   "desc": "The South Agora (Portico of Tiberius) at Aphrodisias, a 215x70m colonnaded piazza whose north stoa was dedicated by the aristocrat Diogenes to Tiberius; later held a 170m ornamental pool, excavated 2013-2017."
+ },
+ "building:827074678": {
+  "desc": "An amphitheater outside the walls of Falerii Novi, the Roman colony founded in 241 BC after the destruction of Falerii Veteres; its ruins were cleared and studied by archaeologists in 2001."
  },
  "building:832363479": {
   "desc": "Built at the sacred festival site of Dion probably under Philip V (221-179 BC), this Hellenistic theatre hosted the Macedonian kings' Olympia games; tradition holds that Euripides's Archelaus and Bacchae, written during his stay at the Macedonian court, were staged there.",
@@ -735,6 +1033,9 @@
  "building:851289754": {
   "desc": "Thasos's agora developed from the 6th century BC as the city's political and religious center, ringed by stoas and housing temples of Zeus Agoraios and the deified athlete-hero Theagenes; excavated by the French School of Athens since 1911."
  },
+ "building:853733571": {
+  "desc": "Built in the late 1st century AD and enlarged in the 3rd century as Forum Traiani grew, this amphitheater held about 3,000 spectators, second in size only to Caralis among Sardinia's known amphitheaters."
+ },
  "building:856482651": {
   "desc": "Roman theatre of ancient Hatria, built in the 1st century AD under Augustus with a cavea about 70m across and capacity near 10,000; its remains were rediscovered in 1993 during demolition of a former orphanage building.",
   "qid": "Q118311061"
@@ -745,6 +1046,9 @@
  },
  "building:865200669": {
   "desc": "Forum of the Roman colony of Paestum, founded 273 BC atop the former Greek agora, measuring ca. 57x150m; flanked by a macellum, the Comitium, and the Temple of Peace with its 6x8 columns."
+ },
+ "building:874524": {
+  "desc": "Monastery in the Tur Abdin region of southeastern Turkey whose history is recorded in John of Ephesus's 6th-century Lives of the Eastern Saints, one of the region's early Syriac Orthodox monastic communities."
  },
  "building:891801761": {
   "desc": "Not a theater: this is the open courtyard (about 30x40m) northwest of the Minoan palace at Malia, which substituted for a formal theatral area since the flat terrain precluded one; its perimeter foundations once carried tiered seating for spectators."
@@ -757,12 +1061,19 @@
   "qid": "Q30591749",
   "wiki": "Henchir-Boucha"
  },
+ "building:914390081": {
+  "desc": "A small secondary theater on the north slope of Telmessos's acropolis, distinct from the city's larger, better-known rock-cut theater near the harbor."
+ },
  "building:916097591": {
   "desc": "A medieval sanctuary (11th–12th century CE) on Monte Vecchio near San Fratello, built over the acropolis of ancient Apollonia and reusing Greek/Roman architectural spolia from that site."
  },
  "building:922015288": {
   "desc": "A 5th-century CE basilica on the Via Latina's third milestone, built on a suburban villa and funded by the noblewoman Demetrias under Pope Leo I (440–461); restored by Popes Leo III and Leo IV before its abandonment by the 9th century.",
   "wiki": "Basilica of Santo Stefano on the via Latina"
+ },
+ "building:926867727": {
+  "desc": "A freestanding theatre near ancient Cales dating to the 2nd century BC, with its cavea (75.4m diameter) enlarged between 90 and 70 BC; the scaenae frons stage building was added during the Imperial period.",
+  "qid": "Q70863776"
  },
  "building:932787931": {
   "desc": "Built in the late 2nd century BC and enlarged under Rome to seat about 3,500, Kourion's theater was converted into a beast-fighting arena in the early 3rd century AD; excavated from 1933 by the University of Pennsylvania.",
@@ -789,6 +1100,10 @@
   "desc": "In the forum of Luna, a Roman colony founded in 177 BC on the Etruria–Liguria frontier, an inscription of 155 BC found in 1851 honors M. Claudius Marcellus for his triumph over the Ligurians and Apuani.",
   "wiki": "Luna (Etruria)"
  },
+ "building:969223180": {
+  "desc": "The larger of two Roman theatres at this Gallo-Roman sanctuary complex, built in the late 1st/early 2nd century AD with room for about 4,000 spectators; rebuilt after a fire around 170-180 AD, it later served as a 3rd-century refuge.",
+  "qid": "Q3527591"
+ },
  "building:971703785": {
   "desc": "Discovered in 1998 at the Çömlektepe tumulus in Vize, this is actually a 2nd-century AD Roman theater — the only one known in ancient Thrace — with marble seating for about 4,000 and a monumental female statue now in Kirklareli Museum."
  },
@@ -802,6 +1117,15 @@
  },
  "building:983828927": {
   "desc": "Hellenistic theater at Alinda in Caria, built early 2nd century BC into the acropolis hillside with 35 rows seating roughly 5,000 spectators; renovated under Augustus."
+ },
+ "building:993194702": {
+  "desc": "A small military amphitheater built by legionary engineers beside the fort's baths at Micia in Roman Dacia, with an elliptical arena of about 31 x 29 m and timber seating for roughly 1,500 spectators."
+ },
+ "building:997994574": {
+  "desc": "A small amphitheater of the Roman-era vicus Brenodurum on Bern's Engehalbinsel peninsula, with an elliptical arena of 28 x 26 m and wooden seating for about 1,500; discovered in 1763, excavated in 1956."
+ },
+ "place:dare-16983": {
+  "desc": "Part of a Gallo-Roman sanctuary complex near Montbouy on the Loing river, the Chenevière amphitheater-theater hybrid and its adjoining baths developed during the 1st-2nd centuries AD and were listed a historic monument in 1862."
  },
  "place:dare-20255": {
   "desc": "The Théâtre romain des Câteliers near Les Andelys (Noyers-sur-Andelys, Eure), discovered by Léon Coutil in 1927; at 120m diameter it ranks among the ten largest theaters of Roman Gaul, built 1st-2nd century AD.",
@@ -1117,6 +1441,9 @@
  "vici:vici-11739": {
   "desc": "Imperial residence built by co-emperor Maximian after Diocletian made Mediolanum capital of the Western Roman Empire in 286 AD; excavations near Via Brisa since 1951 have uncovered walls, mosaic floors and baths of the vast complex."
  },
+ "vici:vici-11758": {
+  "desc": "Coordinates match the great Hellenistic theater on Pergamon's acropolis: built under the Attalid kings (3rd-2nd century BC) on a roughly 70-degree slope, the steepest of any ancient theater, with later Roman modifications and seating for about 10,000."
+ },
  "vici:vici-11759": {
   "desc": "Small Roman theatre within Pergamon's Asclepieion healing sanctuary, seating about 3,500; built into the sanctuary's northwest corner, with performances forming part of the complex's ritual therapy during its Hadrianic-era remodeling."
  },
@@ -1126,7 +1453,6 @@
  },
  "vici:vici-11769": {
   "desc": "Small covered theater built c. 150 AD by the wealthy Ephesian Publius Vedius Antoninus and his wife Flavia Papiana; seated roughly 1,400–1,500 and served both as a concert hall (odeon) and as the city's council chamber (bouleuterion).",
-  "qid": "Q56633101",
   "wiki": "Odeon of Ephesus"
  },
  "vici:vici-11776": {
@@ -1189,6 +1515,9 @@
  },
  "vici:vici-11991": {
   "desc": "The only known Roman-era theatre in Thrace, built in the 2nd century AD at Bizye (Vize); discovered in 1998, its marble cavea seated some 4,000, with stage reliefs now held in Kırklareli Museum."
+ },
+ "vici:vici-12000": {
+  "desc": "The theater of Cyzicus, which Pliny the Elder claimed could hold 40,000 spectators (the largest reported in antiquity), though modern scholars consider this figure exaggerated and estimate a capacity closer to 10,000."
  },
  "vici:vici-12001": {
   "desc": "Built in AD 79 and dedicated to Vespasian and Titus, funded privately by the citizen Nikostratos; at roughly 285 x 70 m this was one of Roman Anatolia's largest stadiums, seating up to 25,000 for games."
@@ -1575,6 +1904,9 @@
   "desc": "2nd-century AD odeon adjoining the Roman theatre of Catania, seating about 1,500 for poetry and music contests and rehearsals; built partly of volcanic stone with a purely decorative lava architrave.",
   "qid": "Q3880841"
  },
+ "vici:vici-17455": {
+  "desc": "A small covered theatre (odeon) built north of the Capitolium in the forum of Liternum, a Roman colony founded in 194 BC; excavated by Amedeo Maiuri in the 1930s, revealing its cavea, vomitoria and orchestra."
+ },
  "vici:vici-17457": {
   "desc": "Roman amphitheatre of Sulci (Sant'Antioco), identified in 1983-84 on the slope below the Punic acropolis and necropolis; dated to the 2nd-3rd century AD, likely built largely in wood so little of the superstructure survives."
  },
@@ -1744,6 +2076,13 @@
  "vici:vici-17902": {
   "desc": "Roman hippodrome of Gadara, a Decapolis city, used for equestrian spectacles; today only faint outlines survive west of the city's colonnaded street."
  },
+ "vici:vici-17923": {
+  "desc": "Ostia's civic center at the crossing of the Decumanus and Cardo Maximus, flanked by the Capitolium (built under Hadrian, c. 120 AD, dedicated to the Capitoline Triad) and the Temple of Roma and Augustus added under Tiberius."
+ },
+ "vici:vici-17949": {
+  "desc": "Rome's last and largest Imperial Forum, built by architect Apollodorus of Damascus with spoils from the Dacian Wars and dedicated in 112 AD; included the Basilica Ulpia and Trajan's Column.",
+  "wiki": "Trajan's Forum"
+ },
  "vici:vici-17970": {
   "desc": "Dedicated in 13 BC by Lucius Cornelius Balbus with spoils from his African campaign, one of Rome's three permanent stone theaters (with those of Pompey and Marcellus); held over 11,000 spectators and was rebuilt after a fire under Domitian.",
   "qid": "Q2734384",
@@ -1760,10 +2099,22 @@
   "desc": "The Palace of the Dux at Apollonia, seat of the Byzantine military governor (dux) of Libya Superior, built late 5th–early 6th century CE; per Procopius, governor Hecebolus's mistress Theodora — later Justinian's empress — lived here.",
   "qid": "Q104659989"
  },
+ "vici:vici-18033": {
+  "desc": "Marketplace built in 8 BC, funded by Punic magnate Annobal Tapapius Rufus per a bilingual Latin/Neo-Punic inscription; a porticoed courtyard uniquely including two octagonal tholoi among its shops."
+ },
+ "vici:vici-18041": {
+  "desc": "Monumental forum (c. 170 x 80 m) begun under Septimius Severus and completed by Caracalla in 216 AD, centered on a Corinthian octastyle temple to the Severan dynasty with colonnades of imported cipollino and Pentelic marble."
+ },
  "vici:vici-18045": {
   "desc": "The Palazzo delle Colonne, a peristyle mansion of some 600 m² near the agora, probably the governor's residence from the late Hellenistic through Byzantine periods; excavated 1936–42, it was destroyed in the catastrophic 365 CE earthquake, which crushed people fleeing through its courtyard.",
   "qid": "Q28671588",
   "wiki": "Palazzo delle Colonne"
+ },
+ "vici:vici-18046": {
+  "desc": "The smallest of Ptolemais's three theatres, converted into a roofed odeon and, in the 4th-5th century AD Byzantine period, further adapted to stage water spectacles (naumachiae)."
+ },
+ "vici:vici-18047": {
+  "desc": "One of three theatres in the Hellenistic-Roman city of Ptolemais, Cyrenaica; the smallest was later converted into an odeon adapted for staged water spectacles in the 4th-5th century AD."
  },
  "vici:vici-18052": {
   "desc": "The agora of Ptolemais, one of the five cities of Cyrenaica's Pentapolis; nearby stood the Palazzo delle Colonne, a lavish governor's residence spanning the Hellenistic to Byzantine periods."
@@ -1943,9 +2294,15 @@
   "desc": "The Northwest Palace at Nimrud (ancient Kalhu), built by Ashurnasirpal II from c. 878 BC as his royal residence, roughly 200 by 130 m and lined with alabaster reliefs; inaugurated with a ten-day feast for over 69,000 guests per his own inscription, excavated by Layard from 1845.",
   "qid": "Q14541284"
  },
+ "vici:vici-22129": {
+  "desc": "Site of Aquae Balissae, a Roman spa town of the Pannonian Iasi people at modern Daruvar; its thermal complex, temple, forum and amphitheatre were visited by emperors Marcus Aurelius, Commodus, Septimius Severus and Constantine I."
+ },
  "vici:vici-22179": {
   "desc": "The forum of Municipium Flavium Fulfinum, a Flavian veteran colony on Krk; its main temple, dedicated to the Capitoline Triad, anchored a 1,300 m² square that stayed in civic use into the 5th century AD, when a Christian basilica rose nearby.",
   "wiki": "Fulfinum"
+ },
+ "vici:vici-22226": {
+  "desc": "Theatre of the Greek colony of Issa on the island of Vis, built in the 1st-2nd century AD and later incorporated into the foundations of a Franciscan monastery; one of only four archaeologically confirmed Roman theatres in Croatia."
  },
  "vici:vici-22237": {
   "desc": "Roman-era agora of Metropolis in Ionia, excavated since 1989; Doric colonnaded porticoes and 2nd-century CE mosaic pavements mark it as the city's commercial hub, used until earthquake destruction in the 5th–6th century."
@@ -2123,6 +2480,12 @@
   "desc": "Amphitheatre of Roman Balsa (Luz de Tavira, Algarve), identified only through non-invasive geophysical survey of the largely unexcavated town; local inscriptions record residents funding naumachiae and boxing bouts.",
   "wiki": "Balsa (Roman town)"
  },
+ "vici:vici-24655": {
+  "desc": "Theatre of Balsa, a Roman port town of Lusitania on the Ria Formosa near modern Luz de Tavira, identified through geophysical survey alongside a hippodrome and harbour works; no remains are visible above ground."
+ },
+ "vici:vici-24657": {
+  "desc": "Theatre of Balsa, a Roman port town of Lusitania on the Ria Formosa near modern Luz de Tavira, identified through geophysical survey alongside a hippodrome and harbour works; no remains are visible above ground."
+ },
  "vici:vici-24662": {
   "desc": "Theatre of Felicitas Iulia Olisipo, built under Augustus and enlarged in AD 57 by the benefactor Caius Heius Primus; held roughly 4,000-5,000 spectators. Rediscovered in 1798, excavated from 1964, now the Museu do Teatro Romano.",
   "qid": "Q11780"
@@ -2170,11 +2533,23 @@
  "vici:vici-24767": {
   "desc": "Roman-period theater of Kydonia (ancient predecessor of Chania, Crete); the standing building was demolished in 1583 when Venetian authorities quarried its stone to reinforce the town's fortifications."
  },
+ "vici:vici-24772": {
+  "desc": "One of Gortyn's two Roman theatrical buildings: the Odeon, built mid-1st century BC, destroyed by the earthquake of 46/66 AD and rebuilt under Trajan around 100 AD, later reused to display the inscribed blocks of the Gortyn Law Code."
+ },
+ "vici:vici-24773": {
+  "desc": "One of Gortyn's two Roman theatrical buildings: a new theatre erected on the city's eastern side during the Antonine-Severan period, comparable in size to the earlier Greek theatre at the foot of the acropolis."
+ },
  "vici:vici-24796": {
   "desc": "Seat of the Roman governor of Crete and Cyrenaica at Gortyn, built in the 1st century AD with a second building phase in the 2nd century; part of the civic center alongside the Nymphaeum, Roman baths, and temple of Apollo Pythios."
  },
  "vici:vici-24844": {
   "desc": "Multi-story Minoan elite residence northwest of the main palace at Knossos, first excavated by Arthur Evans from 1905; destroyed by fire in Late Minoan IIIA2, which baked and preserved Linear B tablets and clay sealings on site."
+ },
+ "vici:vici-24857": {
+  "desc": "Large theatre of Alexandria Troas, built into a hillside with an estimated capacity of 10,000-12,000, dating to the Hellenistic period and modified under Roman rule, notably during Hadrian's reign."
+ },
+ "vici:vici-24864": {
+  "desc": "Large theatre of Alexandria Troas, built into a hillside with an estimated capacity of 10,000-12,000, dating to the Hellenistic period and modified under Roman rule, notably during Hadrian's reign."
  },
  "vici:vici-24871": {
   "desc": "Aeolian city near Yuntdağı Köseler in Manisa province, member of the Aeolian dodecapolis and a sanctuary of Apollo; flourished under the Attalids of Pergamon and preserves a well-excavated three-storey market building and bouleuterion.",
@@ -2191,11 +2566,20 @@
   "desc": "Ancient Latin hill city near Frascati in the Alban Hills; its Roman-era forum, theatre and amphitheatre were excavated from 1819-1825, yielding the celebrated 'Tusculum portrait' bust believed to depict Julius Caesar.",
   "wiki": "Tusculum"
  },
+ "vici:vici-25043": {
+  "desc": "Stadium above the Sanctuary of Zeus Labraundos, built during the Hecatomnid dynasty's 4th-century BC monumentalization of the site under Mausolus and Idrieus; used for athletic contests during the sanctuary's Carian festivals.",
+  "wiki": "Labraunda"
+ },
  "vici:vici-25107": {
   "desc": "Tel Megiddo's Iron Age stratum (VA-IVB) contained two monumental ashlar-built palaces, Palace 6000 and Building 1723, excavated by Yigael Yadin in the 1960s; once attributed to Solomon's 10th-century BC building program, they are now generally redated to the 9th-century BC Omride dynasty."
  },
  "vici:vici-25109": {
   "desc": "Palace 6000 at Megiddo, an ashlar-built structure traditionally attributed to King Solomon's 10th-century BC building program and excavated by Yigael Yadin in the 1960s; radiocarbon dating and stratigraphy now place it in the 9th century BC, the Omride era."
+ },
+ "vici:vici-25116": {
+  "desc": "Data flag: these coordinates match Herodium, not Masada (which is ~40km southeast) — likely a mislabel in the source. Herod the Great built this small theatre c.15 BC; Ehud Netzer uncovered its frescoed royal box in 2008, shortly before his death.",
+  "qid": "Q913099",
+  "wiki": "Herodium"
  },
  "vici:vici-25143": {
   "desc": "Hittite provincial capital and later a major Neo-Hittite/Luwian city on the Euphrates; excavated 1911-1914 and 1920 by the British Museum under D. G. Hogarth and Leonard Woolley, with T. E. Lawrence as assistant, uncovering relief-carved Iron Age processional ways and palace remains.",
@@ -2279,9 +2663,22 @@
   "qid": "Q56761380",
   "wiki": "Leontium (Achaea)"
  },
+ "vici:vici-25850": {
+  "desc": "Roman-period theatre at Amastris (Amasra), estimated to have seated about 5,000; the city was formed c.300 BC when the Achaemenid princess Amastris, niece of Darius III, merged four Ionian towns including Sesamus.",
+  "qid": "Q16329209",
+  "wiki": "Amastris (city)"
+ },
  "vici:vici-25903": {
   "desc": "Roman theatre of Comana Cappadociae (Şar), the Cataonian temple-state sacred to the moon goddess Ma, visited by Strabo and Julius Caesar; excavated from 1967 alongside a monumental Roman gate and Byzantine church remains.",
   "wiki": "Comana (Cappadocia)"
+ },
+ "vici:vici-25909": {
+  "desc": "Ruins of a theatre and stadium at Myndos, a Carian city refounded and repopulated by Hecatomnid satrap Mausolus in the mid-4th century BC; it withstood Alexander the Great's siege in 334 BC. Since eroded or built over.",
+  "wiki": "Myndus"
+ },
+ "vici:vici-25917": {
+  "desc": "Ruins of a theatre and stadium at Myndos, a Carian city refounded and repopulated by Hecatomnid satrap Mausolus in the mid-4th century BC; it withstood Alexander the Great's siege in 334 BC. Since eroded or built over.",
+  "wiki": "Myndus"
  },
  "vici:vici-25987": {
   "desc": "One of two theatres at Balboura, cut into the steep southern slope of the acropolis about 70 m above the valley; its cavea is unusually interrupted by a block of natural rock, and it remains unexcavated with no inscriptions found.",
@@ -2314,11 +2711,19 @@
  "vici:vici-26099": {
   "desc": "The odeon of Parion, the Hellespontine city made a Roman colony under Augustus, stands among the site's well-preserved Roman public buildings alongside its theatre and baths."
  },
+ "vici:vici-26146": {
+  "desc": "Stadium at Tralles, a major Carian city that surrendered peacefully to Alexander the Great in 334 BC and was rebuilt with Augustus's funding after a devastating 26 BC earthquake; birthplace of Hagia Sophia's architect Anthemius.",
+  "wiki": "Tralles"
+ },
  "vici:vici-26152": {
   "desc": "Nysa's bouleuterion, or gerontikon, in the northwest corner of the agora seated 600-700 people in a 12-row semicircular auditorium later reused as an odeon; recent scholarship dates the surviving building to the Antonine period, with no earlier phase."
  },
  "vici:vici-26180": {
   "desc": "Hellenistic stadium of the Illyrian city of Amantia, built on a terraced hillside in the first half of the 3rd century BC; c. 60m by 12.5m with 17 rows of seats on one side, holding about 4,000 spectators for footraces, boxing and discus."
+ },
+ "vici:vici-26181": {
+  "desc": "Hellenistic theatre at Amantia, capital of the Illyrian Amantes, built near the city's well-preserved 3rd-century BC stadium and a sanctuary of Aphrodite.",
+  "wiki": "Amantia"
  },
  "vici:vici-26182": {
   "desc": "Hellenistic theatre of the Illyrian city of Byllis, built in the 3rd century BC; about 78m across and 16m high with roughly 40 rows of seating, holding up to 7,500 spectators."
@@ -2531,6 +2936,9 @@
  "vici:vici-29257": {
   "desc": "Bouleuterion (also used as an odeon) in the agora of Seleucia/Lyrbe in Pamphylia, a six-row council chamber that hosted both civic assembly meetings and musical performances."
  },
+ "vici:vici-29261": {
+  "desc": "Semicircular building attached to the agora of ancient Lyrbe-Seleukeia in Pamphylia, tentatively identified as a bouleuterion (council house); the site's agora is considered the best-preserved example in the region, dated broadly to the Roman period."
+ },
  "vici:vici-29276": {
   "desc": "Middle Bronze Age palace (Area Q) west of Ebla's acropolis, built as the residence of the reigning crown prince; a seal naming Prince Maratewari was recovered here alongside the associated royal necropolis of the Amorite period."
  },
@@ -2714,6 +3122,9 @@
  "vici:vici-31295": {
   "desc": "Excavated in 1829, when Augustan-era statues of Livia and her grandsons Gaius and Lucius Caesar were recovered from it; recent ground-penetrating radar survey has since mapped its full structural plan beneath the abandoned city."
  },
+ "vici:vici-31299": {
+  "desc": "Theatre of Anxanum (Lanciano), capital of the Frentani; its remains lie beneath the city's Archbishop's Palace alongside a Roman bath complex, built after Anxanum gained municipium status following the Social War (91-88 BCE)."
+ },
  "vici:vici-31300": {
   "desc": "The Samnite-Roman town of Cluviae's theatre, built in opus reticulatum at Piano Laroma and dated to the 1st century BC-1st century AD, had a cavea front over 36m long and a rectangular scaenae building of 24x12m."
  },
@@ -2729,6 +3140,9 @@
  },
  "vici:vici-31307": {
   "desc": "A small court theatre with an oval cavea near Villa Adriana's entrance, long quarried for building stone; 18th-century digs by Count Fede found paired herms of Tragedy and Comedy, later restored by Cavaceppi and now in the Vatican Museums."
+ },
+ "vici:vici-31308": {
+  "desc": "Elliptical structure at the foot of the Piazza d'Oro in Hadrian's Villa (built 118-138 CE), long taken for a fish-pond or basin; 2024 excavations found it was built over an unrecorded, richly decorated Hadrianic complex demolished to make way for it."
  },
  "vici:vici-31310": {
   "desc": "Part of the sanctuary of Juno Gabina at ancient Gabii: a sacred precinct cut partly into rock, with porticoes, shops, and a theater on its south side facing the late 2nd-century BC temple of Juno."
@@ -3046,6 +3460,10 @@
  "vici:vici-31510": {
   "desc": "Dor's Roman theater, built in the late 1st or early 2nd century CE north of the tell, was about 72 m in diameter and seated roughly 4,000; partly excavated in the 1950s by Ja'acov Leibowitz."
  },
+ "vici:vici-31512": {
+  "desc": "The Odeon (Bouleuterion) of Ephesus: a small semicircular theatre-cum-council-house built c.150 CE, endowed by Publius Vedius Antoninus and his wife Flavia Papiana, seating roughly 1,400-1,500 for both civic assembly and musical performance.",
+  "wiki": "Odeon of Ephesus"
+ },
  "vici:vici-31515": {
   "desc": "The only excavated ancient Greek theater in the northern Black Sea region, built in the Hellenistic period within Chersonesus Taurica near Sevastopol; it was later remodeled into an arena for gladiatorial combat under Roman rule.",
   "qid": "Q12078603"
@@ -3073,6 +3491,9 @@
  },
  "vici:vici-31526": {
   "desc": "Uncovered in the 1960s on the San Nicola hillock, this 4th–3rd century BC semicircular assembly hall — cut into tufa, seating roughly 3,000 — served Akragas's popular assembly and was later refashioned as a Roman-era odeon called the comitium."
+ },
+ "vici:vici-31534": {
+  "desc": "Antioch's Greek theatre, cut into the flank of Mount Silpius, was reportedly begun under Julius Caesar, enlarged by Agrippa and Tiberius, and finished under Trajan; its cavea substructures survived built into the mountainside."
  },
  "vici:vici-31535": {
   "desc": "Antioch's amphitheater, built around the mid-1st century BC — one of the earliest in the Roman world — but its exact location was never securely fixed and may be confused in the ancient sources with a nearby reservoir."
@@ -3148,6 +3569,9 @@
  "vici:vici-33399": {
   "desc": "The Early Bronze II palace of Tel Arad's fortified lower city (c. 3000–2650 BC), a large complex of interconnected rooms, courtyards, and storage areas between the western gate and the reservoir; excavated by Ruth Amiran from 1962–1984."
  },
+ "vici:vici-33545": {
+  "desc": "The ancient theatre on the Munichia hill (modern Kastella) above Piraeus's Mounichia harbour, used for festivals and deme assembly meetings; the Athenian democratic assembly met here during the political crises of 411 and 404 BCE."
+ },
  "vici:vici-34119": {
   "desc": "Hellenistic-Roman theater of the Sicilian polis Halaesa Archonidea near Tusa; rediscovered in the 2010s and under active excavation since the 2020s by archaeologists from Amiens University with Palermo and Messina, noted for its scale and preservation.",
   "wiki": "Halaesa"
@@ -3160,6 +3584,14 @@
  },
  "vici:vici-34198": {
   "desc": "A palace building at Tell Chuera (ancient Harbe) in northern Syria, a site inhabited from the 4th millennium BC that grew into a major city during the 3rd-millennium Early Dynastic period."
+ },
+ "vici:vici-34312": {
+  "desc": "A Roman amphitheatre built in 216 CE in the military quarter of Dura-Europos on the Euphrates, for the entertainment of the Roman garrison stationed there after Rome captured the city from Parthia in 165 CE."
+ },
+ "vici:vici-34436": {
+  "desc": "A Roman-period theatre attested at Vasada (ancient Ouasada), a city of Lycaonia and later Isauria near modern Bostandere, Konya Province, Turkey; its bishops appear at early Byzantine church councils, but the theatre itself is little published.",
+  "qid": "Q1779200",
+  "wiki": "Vasada"
  },
  "vici:vici-34652": {
   "desc": "A polythyron (pier-and-door partition hall) within the Bronze Age Minoan palace of Malia, Crete, whose removable door leaves let rooms be opened or sealed for light, air, and ceremony; palace flourished c. 1900-1450 BC."
@@ -3183,6 +3615,11 @@
  },
  "vici:vici-36037": {
   "desc": "Imperial palace built by Emperor Galerius at Gamzigrad (Felix Romuliana), Serbia, from c. 298 AD and named for his mother Romula; a fortified tetrarchic residence with porticoed halls, now a UNESCO World Heritage Site.",
+  "wiki": "Gamzigrad"
+ },
+ "vici:vici-36038": {
+  "desc": "A fortified palace and memorial complex built from 298 AD by Emperor Galerius near his birthplace, named Felix Romuliana after his mother Romula; it contains at least two palace buildings, temples, and Galerius's planned mausoleum. UNESCO World Heritage Site since 2007.",
+  "qid": "Q14552369",
   "wiki": "Gamzigrad"
  },
  "vici:vici-37325": {
@@ -3413,6 +3850,9 @@
  "vici:vici-43106": {
   "desc": "Governor's residence of the Roman province of Raetia at Cambodunum (Kempten), later converted into a guest house as the town's political importance declined; its foundations, with an attached bath, are reconstructed in the Archäologischer Park Cambodunum."
  },
+ "vici:vici-4312": {
+  "desc": "A small Roman amphitheatre at Bulla Regia in Tunisia, criticized in a sermon of Augustine of Hippo for its spectacles; it lay buried and was excavated only in 1960–61."
+ },
  "vici:vici-4313": {
   "desc": "Built in the late 1st or early 2nd century AD with roughly 30,000 seats, one of Roman Africa's largest amphitheatres; traditionally linked to the 203 AD martyrdom of Perpetua and Felicity, commemorated by a 19th-century chapel on the site.",
   "wiki": "Carthage amphitheatre"
@@ -3495,6 +3935,9 @@
  "vici:vici-44923": {
   "desc": "The Thersilion, council hall of the Arcadian League built c. 370 BC beside the theatre of Megalopolis and nicknamed the 'Hall of the Ten Thousand'; destroyed by Cleomenes III of Sparta in 222 BC."
  },
+ "vici:vici-44943": {
+  "desc": "The Thersilion, federal assembly hall of the Arcadian League at Megalopolis, built c.370–345 BC as a hypostyle hall with dozens of radiating columns seating up to roughly 8,700; destroyed by Cleomenes III of Sparta and never rebuilt."
+ },
  "vici:vici-45216": {
   "desc": "Forum of Ercávica, a Celtiberian oppidum near Cañaveruelas (Cuenca) that became a Roman municipium under Augustus; a paved rectangular plaza ringed by porticoes, basilica and shops, fully excavated from 1972 onward.",
   "wiki": "Ercavica"
@@ -3526,6 +3969,10 @@
  "vici:vici-49118": {
   "desc": "A circus at the Roman municipium of Singilia Barba, identified through epigraphic evidence and geophysical survey near the city's buried theatre (capacity c. 2,200), part of a monumental zone that also included a forum."
  },
+ "vici:vici-49119": {
+  "desc": "The Roman theatre of Saguntum, built into the hillside below the city's castle in the mid-1st century AD; its semicircular cavea seated up to about 8,000 spectators. Declared a Bien de Interes Cultural in 1896, it still hosts performances today.",
+  "wiki": "Sagunto Roman theatre"
+ },
  "vici:vici-49794": {
   "desc": "Gallo-Roman theatre of Iatinum (Meaux), built in the 1st–2nd century AD; a 1993–94 rescue excavation uncovered cavea substructures spanning over 150 m, and an inscription credits its funding to a local notable, Orgetorix."
  },
@@ -3544,8 +3991,14 @@
  "vici:vici-50161": {
   "desc": "Forum of Apta Julia (modern Apt), founded on Julius Caesar's order in 45 BC as a colony on the Via Domitia; excavations beneath the town revealed the forum, a basilica, and the decumanus and cardo maximus."
  },
+ "vici:vici-50315": {
+  "desc": "Roman theatre of Parthicopolis near modern Sandanski, Bulgaria, built in the late 1st–early 2nd century AD at a cost of about 2.5 million sestertii; seated 5,800–6,000 and was later adapted for gladiatorial games before falling out of use as Christianity spread in the 4th century."
+ },
  "vici:vici-50599": {
   "desc": "Small horseshoe-shaped Nabataean-Roman theater (39 m wide, 11 rows seating 500-800) cut into a gully at Sabra near Petra; built in the 1st century AD with a water-channel system beneath the seating, remaining in use into the late Roman period."
+ },
+ "vici:vici-50607": {
+  "desc": "A Roman theatre atop the Cerro de San Juan del Viso, seat of the earlier hilltop city of Complutum, is roughly 40 m in diameter and, per 2022 archaeological reports, the first Roman theatre documented in the Community of Madrid; it remains unexcavated because the land is privately held."
  },
  "vici:vici-50642": {
   "desc": "The roughly seven-hectare residence of the governor of Pannonia Inferior on Óbuda's Hajógyári-sziget island near Aquincum, first built under Hadrian in the 2nd century AD with mosaic floors and underfloor heating, rebuilt after a fire in the early 3rd century, and abandoned by the late 3rd century.",
@@ -3554,6 +4007,9 @@
  "vici:vici-50768": {
   "desc": "The unfinished Roman theater of Palmyra, built in the Severan 2nd century AD with a cavea of eleven sections/twelve rows never completed; buried in sand for centuries, it was excavated and restored in the 1950s, and its stage facade was destroyed by ISIL in 2017.",
   "wiki": "Roman Theatre at Palmyra"
+ },
+ "vici:vici-51051": {
+  "desc": "Carteia, granted colony status in 171 BC as the first Roman colony outside Italy, had an amphitheatre whose remains 19th-century antiquarians recorded as still traceable, though its construction date and capacity were never documented."
  },
  "vici:vici-52210": {
   "desc": "A mound within the Kassite capital of Dur-Kurigalzu near Baghdad; Iraqi excavations in 1992, 1993 and 2001 uncovered Late Kassite and Parthian-Sasanian remains, painted wall plaster, a cylinder seal, and cuneiform tablets dated to king Nazi-Maruttash."
@@ -3585,6 +4041,12 @@
  },
  "vici:vici-54715": {
   "desc": "A largely unexcavated Achaemenid structure east of the Palace of Xerxes at Persepolis, known chiefly from scattered relief fragments (including a small winged-monster relief) and never fully cleared or published."
+ },
+ "vici:vici-54793": {
+  "desc": "A hippodrome for Roman Florentia is inferred from the curved street plan at Croce del Trebbio near Piazza Santa Maria Novella, estimated at 200-220 m long and able to hold about 20,000 spectators; no physical remains have ever been excavated, and the earliest written reference dates only to 1375."
+ },
+ "vici:vici-54811": {
+  "desc": "A late antique episcopal palace at Bosra (Roman Bostra), built in the 6th century as the residence of the Archbishop of the province of Arabia, adjacent to the cathedral of Saints Sergius, Bacchus and Leontius."
  },
  "vici:vici-54817": {
   "desc": "Hellenistic palace of Dura-Europos's military governor (the strategos), built within a fortified 'redoubt' on high ground above the Euphrates in the 2nd century BC; its state rooms open onto a colonnaded courtyard about 11 by 11.5 metres, with the Temple of Zeus Megistos immediately to the south."
@@ -3620,6 +4082,12 @@
  },
  "vici:vici-55287": {
   "desc": "Bishop's residence at Heraclea Lyncestis, excavated 1970–75; its four private chambers, floored with Early Christian figural mosaics, formed part of the early Byzantine episcopal complex alongside the Great Basilica."
+ },
+ "vici:vici-55312": {
+  "desc": "The Odeon adjoins the Roman theatre of Pompeiopolis, capital of Paphlagonia founded by Pompey the Great around 64 BC; 2024 excavations found its seating rows reduced to lime beneath a 2-meter ash layer, alongside two fragmentary Aphrodite statues."
+ },
+ "vici:vici-55313": {
+  "desc": "Odeon adjoining the Roman theater at Pompeiopolis, capital of Roman Paphlagonia founded after Pompey's 64 BC reorganization of Pontus; excavation found its seating rows disintegrated to lime beneath a thick ash layer."
  },
  "vici:vici-55320": {
   "desc": "The outermost of three courtyards in Darius I's palace at Susa, begun c. 510 BCE and excavated by Jane and Marcel Dieulafoy in the 1880s, part of the residential quarter west of the famous Apadana.",
@@ -3683,6 +4151,9 @@
   "qid": "Q208811",
   "wiki": "Panathenaic Stadium"
  },
+ "vici:vici-58395": {
+  "desc": "Elliptical Roman amphitheater of ancient Asculum (Ascoli Piceno), probably built under Augustus; roughly 148 by 125 meters with a 450-meter circumference. Buried beneath modern Piazza San Tommaso, it was briefly exposed by excavation in 1974 then reburied."
+ },
  "vici:vici-58426": {
   "desc": "Amphitheatre of Trea, a Roman municipium on a Picene/Sabine hilltop near modern Treia that flourished from Augustus to Antoninus Pius; its oval outline is still traceable as a crop mark near the Santuario del Santissimo Crocifisso."
  },
@@ -3710,8 +4181,16 @@
  "vici:vici-58763": {
   "desc": "Amphitheatre of Roman Hatria (Adria); its buried foundations near the Canalbianco were found in rescue excavations and later traced by ground-penetrating radar, its superstructure having been stripped away in the Middle Ages."
  },
+ "vici:vici-59561": {
+  "desc": "Roofed theater (theatrum tectum) of Interamna Lirenas near the forum, redeveloped in the later 1st century BC; about 45 by 26 meters, seating roughly 1,500, faced with imported Mediterranean marbles. Excavated by Cambridge University archaeologists since 2013."
+ },
  "vici:vici-59657": {
   "desc": "Site of a Roman fortified camp at Liffremont; 19th-century finds included gold, silver and bronze imperial coins and the 3rd-century marble 'Venus of Liffremont' (now in Rouen's Museum of Antiquities); the location of a theatre was also identified here, though it remains unexcavated."
+ },
+ "vici:vici-60101": {
+  "desc": "Also known as ancient Cincari (Municipium Cincaritanum), a small Roman town near Tebourba in northern Tunisia best known for this structure; its remains are so scanty that scholars still dispute whether it was a theatre or an amphitheatre.",
+  "qid": "Q104588546",
+  "wiki": "Cincari"
  },
  "vici:vici-60162": {
   "desc": "The forum of Augusta Bagiennorum, chief town of the Ligurian Bagienni founded near the end of the 1st century BC; excavated in 1941, it revealed a paved square 36 by 116 m flanked by porticoes with shop and office rooms.",
@@ -3751,6 +4230,11 @@
   "desc": "The forum of Gigthis, a Phoenician-founded trading post on Tunisia's Gulf of Gabès that became a Roman municipium under Antoninus Pius; a colonnaded, limestone-paved esplanade fronting a temple, at its height in the 2nd–3rd centuries CE.",
   "wiki": "Gigthis"
  },
+ "vici:vici-61519": {
+  "desc": "Part of Gigthis, a Romanized Punic port on Tunisia's Gulf of Gabès; its forum (60.6 x 38.5 m), ringed by shops and official buildings, stood on a hill beside the Temple of Isis and Serapis.",
+  "qid": "Q1523755",
+  "wiki": "Gigthis"
+ },
  "vici:vici-61640": {
   "desc": "2nd-century AD amphitheatre at the 'Villa of the Antonines' near Genzano di Roma (ancient Lanuvium), a family estate of the Antonine dynasty; possibly the arena where Commodus killed wild beasts and earned the nickname 'Roman Hercules'."
  },
@@ -3784,6 +4268,9 @@
   "desc": "The 'Palatial Complex' at Kerkenes Dağ, entered through a monumental gateway in the 7 km circuit wall of this Iron Age Anatolian city, the largest pre-Hellenistic settlement on the plateau; built and occupied for about a century before its destruction c. 550 BC.",
   "wiki": "Kerkenes"
  },
+ "vici:vici-62489": {
+  "desc": "Part of the Roman spa settlement of Ad Mediam (modern Băile Herculane) in Dacia, built around thermal springs sacred to Hercules alongside baths, temples, and monuments serving the garrison and visitors from the 2nd century AD."
+ },
  "vici:vici-62499": {
   "desc": "Oval Roman amphitheatre of Divona Cadurcorum (Cahors), c. 110 by 90 metres, built in the 1st century AD; its buried remains were found beneath Place Gambetta during car-park construction and opened to visitors in 2009.",
   "qid": "Q22979348"
@@ -3796,11 +4283,22 @@
   "qid": "Q440812",
   "wiki": "Althiburos"
  },
+ "vici:vici-62738": {
+  "desc": "The Roman theatre at Thugga (Dougga), funded and built by P. Marcius Quadratus in 168-169 AD, seated over 3,500 spectators and is among the best-preserved Roman theatres in North Africa.",
+  "wiki": "Roman theatre of Dougga"
+ },
+ "vici:vici-62873": {
+  "desc": "A small Roman theatre-like structure (possibly an odeon/bouleuterion) discovered beneath Wilson's Arch at Jerusalem's Western Wall, built c. 2nd century CE under Hadrian and left unfinished, likely due to the Bar Kokhba Revolt (132-135 CE) or Hadrian's death; seated roughly 200 people."
+ },
  "vici:vici-62995": {
   "desc": "Located within the Hellenistic-Roman city of Zeugma on the Euphrates, a Seleucid foundation that became a Roman legionary base and major commercial hub; the stadium is among the site's identified but still largely unexcavated public buildings."
  },
  "vici:vici-63003": {
   "desc": "Small odeon at Pompeiopolis, the Paphlagonian capital founded by Pompey the Great in 64 BCE (modern Taşköprü); German-led excavations resumed here in 2024 and exposed the structure beneath a roughly two-metre-thick ash layer."
+ },
+ "vici:vici-63224": {
+  "desc": "Gallo-Roman theatre built on the site of Silva Martis (modern Petit-Mars, Loire-Atlantique) in the 1st century CE, part of a rural sanctuary complex on the road from Angers to Vannes; its facade wall spanned just over 73 m with a 57 m cavea, excavated in the 1880s.",
+  "qid": "Q111397403"
  },
  "vici:vici-63321": {
   "desc": "Roman-era remains found in 1908 on Pisa's Via San Zeno during foundations work for the Institute of Physiology; a contemporary survey (kept at the Museo di San Matteo) never resolved whether the structure was a theatre or an amphitheatre, and it remains unexcavated, buried beneath the modern city."
@@ -3825,6 +4323,9 @@
  "vici:vici-63557": {
   "desc": "The Great Theatre of Roman Ilium (Troy), first built c.306 BC, was rebuilt under Augustus with a three-tiered scaenae frons (completed 12-11 BC); cavea diameter 98.6m, seating roughly 7,700-9,650.",
   "wiki": "Troy"
+ },
+ "vici:vici-63633": {
+  "desc": "Roman theatre of Patavium (Padua), built in the Augustan era beneath what is now Prato della Valle; the city's second-largest ancient structure after its amphitheater, progressively stripped of stone for medieval Padua and Venice (including Venice's Rialto Bridge) before being re-excavated in 2017."
  },
  "vici:vici-63782": {
   "desc": "A large Roman maritime villa near the Timavo river's mouth at Duino, popularly but wrongly linked to Attila; its terraced concrete substructure, over 35 metres long, overcomes a 10-metre drop toward the sea using techniques paralleling Campanian and Latial villas."
@@ -3930,6 +4431,11 @@
   "desc": "The Great Theatre of ancient Ambracia, discovered in 1981 near Arta's Tsakalov Street; the Corinthian colony became King Pyrrhus of Epirus's capital in 295 BC, who adorned it with theatres and palaces.",
   "wiki": "Ambracia"
  },
+ "vici:vici-66611": {
+  "desc": "The Gallo-Roman theatre of Noviomagus Lexoviorum (Lisieux), at Saint-Désir, was built in the 2nd century AD with a cavea about 109 m in diameter; it was later reworked and classified a French historic monument in 1984.",
+  "qid": "Q22964174",
+  "wiki": "Gallo-Roman Theater of Lisieux"
+ },
  "vici:vici-67575": {
   "desc": "The stadium of Antioch in Pisidia (near Yalvaç), a Hellenistic-period structure restored in the 2nd century AD and later dismantled by Christians in late antiquity, served the Roman colony founded by Augustus in 25 BC.",
   "wiki": "Antioch of Pisidia"
@@ -3999,6 +4505,9 @@
  },
  "vici:vici-69986": {
   "desc": "Sprawling 8th-century Umayyad way-station on Wadi Mshash covering roughly 2 sq km, with a caravanserai-like building, bathhouse, reservoirs and cisterns serving traffic between Amman and Wadi Sirhan; excavated by the German Archaeological Institute since 2011."
+ },
+ "vici:vici-69987": {
+  "desc": "A square fortified palace (qasr) near Zarqa, Jordan, built in the Roman period (c. 3rd century AD) and later restored and reused under the Umayyads, Mamluks, and Ottomans as a way-station on the Hajj pilgrimage route."
  },
  "vici:vici-69988": {
   "desc": "Unfinished 8th-century Umayyad palace built c. 743 CE by order of Caliph al-Walid II for his sons, the southernmost of Jordan's desert castles, noted for its deep wells and early brick-vaulted construction.",
@@ -4248,6 +4757,9 @@
   "desc": "Built in the later 1st century AD at Verbinum, a Gallo-Roman vicus at the crossroads of roads linking Bavay–Reims and Saint-Quentin–Macquenoise, this theatre held several thousand spectators; excavated since 1870, its stage wall bears traces of destruction by fire.",
   "qid": "Q50361014"
  },
+ "vici:vici-84238": {
+  "desc": "A Gallo-Roman theatre was excavated in 1861-1862 and 1986 near the pilgrimage sanctuary of Mercury Canetonensis at Berthouville, the findspot of the famous 2nd-century Berthouville silver treasure dedicated to the god."
+ },
  "vici:vici-84239": {
   "desc": "The theater of Forum Segusiavorum (Feurs), chief town of the Segusiavi, is known only from an inscription; as in other small Gallic towns it likely had wooden rather than stone tiered seating."
  },
@@ -4263,6 +4775,9 @@
  },
  "vici:vici-84268": {
   "desc": "A Roman theater stood at Iader (Zadar) into the early modern era before being demolished in 1657 to make way for a Venetian fortress built on the site."
+ },
+ "vici:vici-84270": {
+  "desc": "A Roman theater is attested at Iulia Constantia Osset (San Juan de Aznalfarache, near Seville) by the inscription CIL II 1255 recording games (ludi); no visible remains survive today."
  },
  "vici:vici-84271": {
   "desc": "A theatre is attested for Lucurgentum (Roman-era Morón de la Frontera, near Hispalis in Baetica), inferred from ancient literary/epigraphic testimony catalogued in Sear's 'Roman Theatres'; no physical remains have ever been identified or excavated."
