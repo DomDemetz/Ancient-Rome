@@ -606,7 +606,6 @@
  },
  "building:475264756": {
   "desc": "A Cistercian abbey founded in 1190 by Cathal Crobhdearg Ua Conchobair, King of Connacht, and colonised by monks from Boyle Abbey; the king died a monk here in 1224, and its chancel preserves rare medieval wall paintings.",
-  "qid": "Q1777349",
   "wiki": "Knockmoy Abbey"
  },
  "building:476697166": {
@@ -651,6 +650,12 @@
   "qid": "Q774191",
   "wiki": "Acoemetae"
  },
+ "building:521062": {
+  "desc": "Monastery church of Saints Cosmas and Damian (\"Kosmidion\") on the Golden Horn near Blachernae, a major shrine of the healer-saints traditionally linked to Theodosius II's reign; rebuilt with mosaics and marble by Emperor Michael IV in the 11th century."
+ },
+ "building:521082": {
+  "desc": "The Metanoia (\"Repentance\") convent founded by Empress Theodora, wife of Justinian I, in a former imperial palace on the Bosphorus as a refuge for roughly 500 former prostitutes freed by her anti-trafficking reforms."
+ },
  "building:523291014": {
   "desc": "Theater of ancient Rhodiapolis in Lycia, with 16 surviving rows of seating; it stood before the funerary monument of Opramoas, the city's wealthy 2nd-century AD benefactor, and was fully excavated after 2006."
  },
@@ -658,6 +663,10 @@
   "desc": "Built c. 337-361 AD on the Via Nomentana in Rome as the mausoleum of Constantina (or her sister Helena), daughter of Constantine I; consecrated as the church of Santa Costanza in 1254, renowned for its well-preserved 4th-century ceiling mosaics.",
   "qid": "Q831361",
   "wiki": "Mausoleum of Constantina"
+ },
+ "building:529754545": {
+  "desc": "The Neonian (Orthodox) Baptistery in Ravenna, an octagonal brick structure begun by Bishop Ursus as part of his cathedral basilica (late 4th/early 5th century) and completed with its famous mosaic of Christ's baptism under Bishop Neon at the end of the 5th century; the oldest surviving monument in Ravenna.",
+  "wiki": "Baptistery of Neon"
  },
  "building:537979353": {
   "desc": "Built near the Porta Ticinese during the 2nd and 3rd centuries AD as Mediolanum grew in importance, it was the third-largest amphitheater in Roman Italy after the Colosseum and the Amphitheater of Capua, with an outer ellipse of about 155 by 125 m.",
@@ -733,6 +742,9 @@
  "building:597515849": {
   "desc": "Ruins of a large Gallo-Roman entertainment building (described variously as an amphitheater or theater) at the hamlet of Bout Levé, first identified in the early 19th century and excavated in 1870 by Abbé Jean-Benoît Cochet; it measures roughly 70-79 by 46 m."
  },
+ "building:599849": {
+  "desc": "An Early Byzantine basilica (6th-7th century AD) on the northern coast of Samos, one of several early Christian basilicas built on the island in this period."
+ },
  "building:600985975": {
   "desc": "Roman civic basilica on the acropolis of Aspendos in Pamphylia (Turkey), built behind the theatre; used for legal proceedings, administrative meetings and public business in the late Roman period."
  },
@@ -779,6 +791,9 @@
   "qid": "Q863532",
   "wiki": "Binbirkilise"
  },
+ "building:648762": {
+  "desc": "A Byzantine monastery (probably 6th century) built directly across a Neo-Hittite rock relief at Ambarderesi near Ivriz in Konya province, its placement deliberately continuing the older site's sacred tradition."
+ },
  "building:648782": {
   "desc": "The Great Basilica of Saint Thecla at Meryemlik near Seleucia (Silifke), built by Emperor Zeno in the later 5th century over her cave shrine as an early fusion of basilica and domed-church design; it became a major Byzantine pilgrimage centre.",
   "qid": "Q792822",
@@ -820,11 +835,36 @@
   "qid": "Q4305538",
   "wiki": "Cathedral of Mren"
  },
+ "building:663802751": {
+  "desc": "A late-antique rural church, now lacking any surviving decoration, located about 6 km north of modern Tozeur (Roman Tusuros) in Tunisia; the site of a 2026 Tunisian–Italian (Rome Tor Vergata) research excavation.",
+  "qid": "Q137802636"
+ },
+ "building:668211": {
+  "desc": "Tradition holds that the 4th-century monk Barlaam destroyed a pagan temple on this site near Antioch; a small church was built here in the early 6th century, later rebuilt as a Georgian monastery (c.950-1050) and used until 1268.",
+  "qid": "Q6036060",
+  "wiki": "Monastery of Saint Barlaam"
+ },
  "building:66838501": {
   "desc": "Main forum of the Roman colony Augusta Raurica near Basel, founded c. 44 BC by Lucius Munatius Plancus; housed the temple of Jupiter, a basilica, and the town council's assembly chamber."
  },
+ "building:668402": {
+  "desc": "The Monastery of Saint Zacchaeus (Dayro d'Mar Zakka) at Tell Bi'a near Raqqa, founded in the 5th century with a mosaic inscription dated 509; it became a noted center of Syriac learning and, in the 9th century, the seat of the Syriac Orthodox Patriarch of Antioch."
+ },
  "building:673008673": {
   "desc": "A Greek-style theater at Oinoanda with a cavea about 55m across, later fitted with a Roman stage building; hosted the Demostheneia musical/dramatic festival endowed by Gaius Julius Demosthenes in the 2nd century AD."
+ },
+ "building:678133": {
+  "desc": "A Byzantine basilica whose mosaic was renewed in May/June 443 under Bishop Paulos; its narthex dedicatory inscription names the priest Marinos, the archdeacon Marcellos, and numerous other clergy and church members who funded the work.",
+  "qid": "Q2889411",
+  "wiki": "Evron, Israel"
+ },
+ "building:678186": {
+  "desc": "A Byzantine-period village church on the Adamit Plateau in Western Galilee, excavated by Mordechai Aviam and Jacob Ashkenazi; its mosaics and Greek inscriptions attest a rural Christian community ecclesiastically subject to the bishopric of Tyre."
+ },
+ "building:678285": {
+  "desc": "Identified with the fortified Galilean town of Meroth that Josephus lists among sites he strengthened before the First Jewish-Roman War; excavations uncovered a synagogue built in the late 4th or early 5th century, its mosaic floor later covered by a flagstone pavement around 475 CE.",
+  "qid": "Q2909203",
+  "wiki": "Marus, Safad"
  },
  "building:687874": {
   "desc": "Founded around 345 AD by Chariton the Confessor as his third lavra — known as Souka or the Old Laura — in a gorge near Tekoa; one of the most important monastic communities of the Judean Desert."
@@ -845,6 +885,9 @@
  },
  "building:687943": {
   "desc": "An isolated Byzantine monastery in a Judean Desert gorge, founded in the late 5th or early 6th century AD and identified as the monastery of Severianus near Caparbaricha; excavated 1981-1987 by Yizhar Hirschfeld."
+ },
+ "building:687944": {
+  "desc": "Byzantine monastery overlooking Wadi el-Quneitira in the Wilderness of Ziph, enclosed by a roughly 50 by 30 metre wall around a mosaic-paved courtyard; studied by Yizhar Hirschfeld (published 1985)."
  },
  "building:687967": {
   "desc": "A major Judean Desert monastery founded by Martyrius, later Patriarch of Jerusalem, active from the mid-5th to mid-7th century AD; excavated 1981-1984 by Yitzhak Magen, yielding some of the finest Byzantine mosaics in the Holy Land.",
@@ -962,6 +1005,14 @@
  "building:746804": {
   "desc": "Site of the 4th-century monastery of Anba Yuhanna al-Daragi (Abul-Darag) near Ain al-Sukhna on the Red Sea coast, with a cave church and monk cells on the pilgrimage route toward Jerusalem, excavated by a French mission (1963-2005)."
  },
+ "building:746805": {
+  "desc": "Traditionally identified with the biblical Rephidim (Exodus 17), where the Israelites fought the Amalekites and Moses struck water from the rock; the area near Wadi Feiran held a 5th–7th century Christian settlement with a five-aisled basilica and, from AD 451, a bishop's seat."
+ },
+ "building:746826": {
+  "desc": "Saint Catherine's Monastery at the foot of Mount Sinai, built by Byzantine Emperor Justinian I between 548 and 565 to enclose the traditional site of the Burning Bush; its basilica (the Catholicon) was designed by architect Stephen of Aila.",
+  "qid": "Q185362",
+  "wiki": "Saint Catherine's Monastery"
+ },
  "building:748147226": {
   "desc": "The ekal māšarti (armory/arsenal) of Sargon II's capital Dur-Sharrukin (Khorsabad, built 717–706 BC), sited in the lower city; excavated by the Oriental Institute of Chicago team led by Gordon Loud in the 1930s."
  },
@@ -971,6 +1022,9 @@
  "building:748147228": {
   "desc": "One of several royal residences Sargon II (r. 721–705 BC) built in the citadel of his new capital, Dūr-Šarrukīn (Khorsabad); excavated by the Oriental Institute of Chicago in the 1930s (Loud & Altman)."
  },
+ "building:748558963": {
+  "desc": "A 5th-century Vandal-period basilica at Mactaris (Makthar, Tunisia), with three naves, an apse retaining mosaic traces, and the tomb of the Vandal prince Hildeguns at its entrance; a baptistery built of reused material was added in the 6th century."
+ },
  "building:755162813": {
   "desc": "An elliptical Roman amphitheater (about 62 x 83 m) built south of Anazarbus in the era of Augustus; underground chambers held beasts for gladiatorial games, and Christian martyrs Tarachus, Probus, and Andronicus reportedly died there."
  },
@@ -979,10 +1033,38 @@
   "qid": "Q3005742",
   "wiki": "Crypta Balbi"
  },
+ "building:756521": {
+  "desc": "The Coptic monastery of Apa Apollo at Bawit, founded c. 385/390 by Saint Apollo and housing about 500 monks at its peak; it grew into a major monastic complex of some 40 hectares before its abandonment around the 10th century.",
+  "qid": "Q2883627",
+  "wiki": "Bawit"
+ },
  "building:756523": {
   "desc": "Coptic monastery in the Minya Governorate associated with the burial of the 4th-century hermit Saint Fana (Apa Bane); his tomb was identified by an Austrian-led archaeological team in 1992, and the present monastic structure is traditionally dated to the 12th century.",
   "qid": "Q11256333",
   "wiki": "Monastery of Saint Fana"
+ },
+ "building:756528": {
+  "desc": "The Red Monastery (Deir al-Ahmar), dedicated to Saint Pshoi (Bishoi), founded in the 4th century near Sohag; its 5th-century basilica church, ~44m long, is renowned for extensive surviving Coptic wall paintings.",
+  "wiki": "Red Monastery"
+ },
+ "building:756529": {
+  "desc": "Dedicated to Bishop Psote (Bisada) of Ebsay, martyred by beheading at Antinoë in 300 CE during the Diocletianic Persecution for refusing to renounce his Christian faith."
+ },
+ "building:756530": {
+  "desc": "The White Monastery (Dayr al-Abyad), founded c.442 by Saint Pigol and made famous under his nephew Shenoute, whose leadership grew the community to over 2,000 monks and 1,800 nuns by his death in 466.",
+  "wiki": "White Monastery"
+ },
+ "building:756540": {
+  "desc": "Headquarters monastery of Pachomius the Great's cenobitic federation, founded 336–337 CE at Faw Qibli; monks assembled here twice a year and Pachomius himself died here in 347. Excavations found its basilica measured roughly 24 by 41 meters.",
+  "qid": "Q12230243",
+  "wiki": "Pbow"
+ },
+ "building:756549": {
+  "desc": "Coptic monastic site on the Nile's east bank near Antinoopolis, centered on the rock-cut Church of John the Short hewn from an ancient limestone quarry; a nearby 6th-century cave chapel holds the oldest known painted depiction of the Holy Family's Flight into Egypt.",
+  "wiki": "Deir Abu Hinnis"
+ },
+ "building:756555": {
+  "desc": "Deir Dronkeh (Durunka), a Coptic monastery of the Virgin Mary south of Asyut (ancient Lycopolis); venerated in Coptic tradition as a resting place of the Holy Family during their flight into Egypt."
  },
  "building:757392272": {
   "desc": "Neo-Assyrian king Sennacherib built this residence near Assur's southeastern city wall by the Tigris for his son Ashur-ili-muballissu; its existence is documented through numerous inscribed stone foundation blocks recording the construction."
@@ -1000,14 +1082,43 @@
  "building:764638886": {
   "desc": "Built in squared-block (opus quadratum) masonry at the Punic-Roman port of Thapsus, this amphitheater stood at the city where Julius Caesar decisively defeated Metellus Scipio and King Juba I of Numidia in 46 BC."
  },
+ "building:768684720": {
+  "desc": "Modern Köşkerli, in eastern Rough Cilicia, preserves the ruins of a Byzantine-era basilica church amid a surrounding village site; no individual builder, date, or dedication is attested."
+ },
+ "building:776855891": {
+  "desc": "Mausoleum built c. 295-305 CE by Diocletian within his retirement palace at Split; he was interred here in 311 CE. Converted into the Cathedral of Saint Domnius in the 7th century, it retains one of the largest intact Roman domes (13.4m).",
+  "wiki": "Cathedral of Saint Domnius"
+ },
+ "building:783906720": {
+  "desc": "The forum-basilica of the Roman civitas capital Venta Silurum (Caerwent), built c. 115-120 CE and rebuilt in the mid-4th century; the basilica hall measured roughly 260 x 182 feet and served judicial, administrative and commercial functions."
+ },
+ "building:785969": {
+  "desc": "Monastery founded by the anchorite Epiphanius in late 6th-century Thebes, built over an 11th Dynasty tomb; excavated 1912-14 by Herbert Winlock for the Metropolitan Museum, yielding rare combined archaeological and Coptic/Greek textual evidence of monastic life.",
+  "wiki": "Monastery of Saint Epiphanius"
+ },
+ "building:786014": {
+  "desc": "Coptic monastery (Monastery of St. Paulos, 5th-10th century CE) on the hilltop of Dra Abu el-Naga at western Thebes, built from hermitages in reused pharaonic tombs that grew into a walled coenobitic community; excavated by DAI/OeAI since 2001."
+ },
  "building:786052705": {
   "desc": "Theatre of Stratos, capital of the Acarnanian League, begun in the late 4th century BC as a stoa-like stage building; enlarged through three phases into the 2nd century BC, it held some 6,000-7,000 spectators and is the largest theatre known in Acarnania."
+ },
+ "building:791239360": {
+  "desc": "A well-preserved Byzantine three-aisled basilica near Aleppo, Syria, built in the third quarter of the 5th century (c. 470), likely as a pilgrim way-station on the route to the shrine of Saint Simeon Stylites."
  },
  "building:791853466": {
   "desc": "Forum of Roman Sarsina, Umbria, with a colonnaded piazza paved in Veronese marble (1st century BC); adjacent, a Capitolium temple triad to Jupiter, Juno and Minerva was uncovered in 2022-2023 excavations."
  },
  "building:792804148": {
   "desc": "The South Agora (Portico of Tiberius) at Aphrodisias, a 215x70m colonnaded piazza whose north stoa was dedicated by the aristocrat Diogenes to Tiberius; later held a 170m ornamental pool, excavated 2013-2017."
+ },
+ "building:801596764": {
+  "desc": "A 6th-century Byzantine three-nave basilica church in Cilicia (Mersin Province, Turkey), with a west narthex and a cistern beneath the building.",
+  "qid": "Q86519298",
+  "wiki": "Hasanaliler Church"
+ },
+ "building:81533409": {
+  "desc": "A Camaldolese abbey church on the Via Francigena pilgrim route near Lucca, Tuscany, first documented in the 10th–11th centuries; its surrounding medieval cemetery has been excavated since 2011 by the Universities of Pisa and Ohio State.",
+  "qid": "Q3632779"
  },
  "building:827074678": {
   "desc": "An amphitheater outside the walls of Falerii Novi, the Roman colony founded in 241 BC after the destruction of Falerii Veteres; its ruins were cleared and studied by archaeologists in 2001."
@@ -1016,6 +1127,10 @@
   "desc": "Built at the sacred festival site of Dion probably under Philip V (221-179 BC), this Hellenistic theatre hosted the Macedonian kings' Olympia games; tradition holds that Euripides's Archelaus and Bacchae, written during his stay at the Macedonian court, were staged there.",
   "qid": "Q28937968",
   "wiki": "Hellenistic theatre of Dion"
+ },
+ "building:832870385": {
+  "desc": "A 7th-century church at Banganarti in Nubia (Sudan), predecessor to the later Upper Church/Raphaelion II; its walls preserve one of the oldest known images of the Virgin Mary along with extensive Greek and Old Nubian inscriptions.",
+  "wiki": "Banganarti"
  },
  "building:836083242": {
   "desc": "One of several royal residences Sargon II (r. 721–705 BC) built in the citadel of his new capital, Dūr-Šarrukīn (Khorsabad), excavated by the Oriental Institute of Chicago in the 1930s."
@@ -1040,6 +1155,11 @@
   "desc": "Roman theatre of ancient Hatria, built in the 1st century AD under Augustus with a cavea about 70m across and capacity near 10,000; its remains were rediscovered in 1993 during demolition of a former orphanage building.",
   "qid": "Q118311061"
  },
+ "building:857130": {
+  "desc": "A 6th-century three-apse basilica at Gantiadi in Abkhazia, said to have been built around 543 under Byzantine emperor Justinian I following the Christianization of the Abazgi tribes; partly destroyed by Ottoman forces in 1576.",
+  "qid": "Q4501087",
+  "wiki": "Gantiadi Church"
+ },
  "building:865005128": {
   "desc": "Theatre of Gallo-Roman Decempagi, revealed only by aerial photography in 1981; an unusually large flat-ground cavea roughly 117m in diameter, estimated to have held up to 16,000, forming part of a major sanctuary complex at the site.",
   "qid": "Q115799274"
@@ -1047,14 +1167,57 @@
  "building:865200669": {
   "desc": "Forum of the Roman colony of Paestum, founded 273 BC atop the former Greek agora, measuring ca. 57x150m; flanked by a macellum, the Comitium, and the Temple of Peace with its 6x8 columns."
  },
+ "building:874330": {
+  "desc": "Arakelots (\"Holy Apostles\") Monastery near Mush in historic Taron, traditionally founded by Gregory the Illuminator to house apostolic relics but likely built in the 11th century under Tornikian rule; a major center of learning in the 12th–13th centuries, dynamited around 1960.",
+  "qid": "Q2062428",
+  "wiki": "Arakelots Monastery"
+ },
+ "building:874484": {
+  "desc": "Armenian monastery on Mount Karke in Taron (near Muş), traditionally founded in the 4th century by St Gregory the Illuminator; also called Glakavank, it was one of the oldest and most venerated monasteries in historic Armenia.",
+  "qid": "Q3320220",
+  "wiki": "Surb Karapet Monastery"
+ },
  "building:874524": {
   "desc": "Monastery in the Tur Abdin region of southeastern Turkey whose history is recorded in John of Ephesus's 6th-century Lives of the Eastern Saints, one of the region's early Syriac Orthodox monastic communities."
+ },
+ "building:874578": {
+  "desc": "Ruins of a former Church of the East monastery dedicated to Mar Abraham the Elder, located on Mount Izla near the Monastery of Mar Awgin above Nisibis."
+ },
+ "building:874579": {
+  "desc": "Founded in the early 4th century by St Awgin (Eugene of Clysma) with seventy monks from Egypt on Mount Izla above Nisibis; regarded as the origin of cenobitic monasticism in Mesopotamia and a Church of the East center until the 17th century.",
+  "qid": "Q11009071",
+  "wiki": "Monastery of Mar Awgin"
+ },
+ "building:874582": {
+  "desc": "Syriac Orthodox monastery on the northern slope of Mount Izla near the village of Arkah (Üçköy), traditionally founded in the 4th century by the hermit Mar Malke; rebuilt in the 1930s after a long abandonment."
+ },
+ "building:874586": {
+  "desc": "Ruins of a former Church of the East monastery dedicated to Mar Yuhanon (St John), located on Mount Izla near the Monastery of Mar Awgin above Nisibis."
+ },
+ "building:874611": {
+  "desc": "Excavations at Tell Museifneh (Eski Mosul, Iraq) in the 1980s salvage survey uncovered a well-built stone structure identified as a Christian basilica, before the site was inundated by the Mosul Dam reservoir."
+ },
+ "building:874655": {
+  "desc": "A well-preserved 6th-century basilical church dedicated to St Sergius near Balad (Eski Mosul), founded c. 559-575 by Mar Ahudemmeh, metropolitan of the Miaphysite Church in Mesopotamia, and bearing a Syriac dedicatory inscription."
+ },
+ "building:878719594": {
+  "desc": "A church has stood on this Geneva site since the 4th century CE; the original building was succeeded by a 10th-century Romanesque church, then Gothic rebuilding, with further reconstruction in the 20th century.",
+  "qid": "Q29479582"
  },
  "building:891801761": {
   "desc": "Not a theater: this is the open courtyard (about 30x40m) northwest of the Minoan palace at Malia, which substituted for a formal theatral area since the flat terrain precluded one; its perimeter foundations once carried tiered seating for spectators."
  },
+ "building:89479585": {
+  "desc": "A small anonymous Paleochristian basilica built in the early 5th century CE within a burial area beside the Villa della Palombara on the Via Severiana near Ostia; it remained in use until the 7th century, though its exact function is undetermined."
+ },
+ "building:899069439": {
+  "desc": "A Paleochristian martyr-basilica on the Via Tiburtina at Guidonia Montecelio, built in the 5th century over an earlier 3rd-4th century shrine at the tomb of Sinforosa of Tivoli, martyred with her seven sons under Hadrian."
+ },
  "building:899795549": {
   "desc": "Known as the South Theater, this odeon at Hadrian's Villa seated about 1,100 in a 55m marble-and-mosaic cavea; connected to the rest of the imperial complex by underground service tunnels, built under Hadrian (r. 117-138)."
+ },
+ "building:900977729": {
+  "desc": "Ruins of a 5th-century paleochristian cathedral within the Amiternum archaeological site near San Vittorino (L'Aquila), including a mausoleum built by Bishop Quodvultdeus; served as the seat of the ancient diocese of Amiternum until the diocese merged with Rieti."
  },
  "building:908291906": {
   "desc": "Coordinates place this site at Henchir-Boucha (ancient Tubyza), not Thibiuca proper; its chief spectacle building was a large Roman circus, and its bishop Felix was executed under Diocletian c. 304 AD for refusing to surrender Christian scriptures.",
@@ -1075,6 +1238,10 @@
   "desc": "A freestanding theatre near ancient Cales dating to the 2nd century BC, with its cavea (75.4m diameter) enlarged between 90 and 70 BC; the scaenae frons stage building was added during the Imperial period.",
   "qid": "Q70863776"
  },
+ "building:927235842": {
+  "desc": "Basilica built by Pope Damasus I around 382 CE over the Catacombs of Generosa on the Via Portuense, housing the tombs of martyrs Simplicius, Faustinus, Beatrix and Rufinianus until Pope Leo II translated the relics in 682.",
+  "wiki": "Catacombs of Generosa"
+ },
  "building:932787931": {
   "desc": "Built in the late 2nd century BC and enlarged under Rome to seat about 3,500, Kourion's theater was converted into a beast-fighting arena in the early 3rd century AD; excavated from 1933 by the University of Pennsylvania.",
   "qid": "Q4453457"
@@ -1093,8 +1260,15 @@
  "building:95066748": {
   "desc": "This elliptical amphitheater at the Adriatic town of Gnatia (Egnazia) has walls in opus Africanum masonry from the Julio-Claudian period; scholars still debate whether it staged games or served as a market."
  },
+ "building:955155101": {
+  "desc": "A 6th-7th century Armenian domed single-nave church in the village of Ptghni, Kotayk Province, noted for vegetal and geometric relief carvings; now ruined, having lost its dome, drum and vaults.",
+  "wiki": "Ptghnavank"
+ },
  "building:958299306": {
   "desc": "A rock-cut theater built into the hillside at Stymphalos, a planned Classical Arcadian city excavated since 1982 and the legendary site of Herakles' sixth labor, the Stymphalian birds."
+ },
+ "building:959754434": {
+  "desc": "A small Early Christian church, also called La Madonella, built over the remains of a Roman villa near ancient Lavinium at Pratica di Mare, dated to the 5th century CE."
  },
  "building:966420455": {
   "desc": "In the forum of Luna, a Roman colony founded in 177 BC on the Etruria–Liguria frontier, an inscription of 155 BC found in 1851 honors M. Claudius Marcellus for his triumph over the Ligurians and Apuani.",
@@ -1107,9 +1281,16 @@
  "building:971703785": {
   "desc": "Discovered in 1998 at the Çömlektepe tumulus in Vize, this is actually a 2nd-century AD Roman theater — the only one known in ancient Thrace — with marble seating for about 4,000 and a monumental female statue now in Kirklareli Museum."
  },
+ "building:973706432": {
+  "desc": "A 6th-century three-aisled basilica with transept and dome at Gortyn, Crete, marking the traditional burial site of Saint Titus, the island's first bishop and companion of Paul; rebuilt after the 620 CE earthquake, it was abandoned following further destruction around 670."
+ },
  "building:975871574": {
   "desc": "Thugga's forum, beside the Capitol, replaced the earlier Numidian agora at the city's center; little survives above ground, though the site — preserving Punic, Numidian and Roman phases together — was UNESCO-listed in 1997.",
   "wiki": "Dougga"
+ },
+ "building:98150857": {
+  "desc": "Civic basilica closing the south side of the Roman forum of Iulium Carnicum (Zuglio), built under Augustus along the Via Iulia Augusta linking Aquileia to Noricum; later reused for an Early Christian cemetery basilica with a fine mosaic floor.",
+  "qid": "Q29573791"
  },
  "building:982593692": {
   "desc": "Civic sanctuary of the Attic deme Ikarion, birthplace of tragedian Thespis and host of the winter Rural Dionysia; its theater, choregic monument, and temple site were excavated by the American School from 1888-89.",
@@ -1118,18 +1299,417 @@
  "building:983828927": {
   "desc": "Hellenistic theater at Alinda in Caria, built early 2nd century BC into the acropolis hillside with 35 rows seating roughly 5,000 spectators; renovated under Augustus."
  },
+ "building:989848523": {
+  "desc": "The largest known Visigothic basilica, evolved from a 5th-century mausoleum into a tau-shaped, three-naved 6th-century church at Segobriga, an episcopal see whose bishops attended the Councils of Toledo (589-693); used for burials of local prelates."
+ },
  "building:993194702": {
   "desc": "A small military amphitheater built by legionary engineers beside the fort's baths at Micia in Roman Dacia, with an elliptical arena of about 31 x 29 m and timber seating for roughly 1,500 spectators."
  },
  "building:997994574": {
   "desc": "A small amphitheater of the Roman-era vicus Brenodurum on Bern's Engehalbinsel peninsula, with an elliptical arena of 28 x 26 m and wooden seating for about 1,500; discovered in 1763, excavated in 1956."
  },
+ "place:dare-10653": {
+  "desc": "A Roman-era pass sanctuary at the summit of Plöckenpass (Monte Croce Carnico) in the Carnic Alps, where travelers on the road from Aquileia left votive dedications to Jupiter Optimus Maximus for safe passage; known chiefly from Latin inscriptions including the Hermia dedication, in use 1st century BC–3rd century AD.",
+  "wiki": "Plöcken Pass"
+ },
+ "place:dare-11691": {
+  "desc": "Germanic sacrificial bog sanctuary used from the Hallstatt period (6th century BCE) to the Migration Age (5th century CE), the largest known Iron Age cult site in Central Europe; 1957-64 excavations recovered wooden idols linked to Wodan, Freyr, and Diana.",
+  "qid": "Q2026740",
+  "wiki": "Opfermoor Vogtei"
+ },
+ "place:dare-1211": {
+  "desc": "Extensive but only partly excavated Gallo-Roman temple complex on the Via Agrippa between Trier and Bitburg; building inscriptions and statues of Fortuna and Jupiter attest at least two temples, one dedicated to Mercury.",
+  "qid": "Q104733726"
+ },
+ "place:dare-1293": {
+  "desc": "Gallo-Roman sanctuary on the Metzenberg above the roadside vicus of Tabernae (Tawern), built from the early 1st century CE and used until the late 4th; 1986-88 excavations found seven temple buildings in a walled precinct, chiefly dedicated to Mercury."
+ },
+ "place:dare-13742": {
+  "desc": "Ancient Camelaria, identified with the open-air Gallo-Roman spring sanctuary of Source des Roches at Chamalières; excavated 1968–71, it yielded roughly 3,500 carved wooden ex-votos and a Gaulish curse tablet, used mainly in the first half of the 1st century AD.",
+  "qid": "Q3491882"
+ },
+ "place:dare-1537": {
+  "desc": "Grand Gallo-Roman temple (23 x 30 m, once c.17 m high) built c.100 CE over an earlier Batavian open-air shrine, dedicated to Hercules Magusanus, chief god of the Batavians; among the largest Roman temples north of the Alps.",
+  "wiki": "Temple of Elst"
+ },
+ "place:dare-15763": {
+  "desc": "The Celto-Roman sanctuary of Le Mesnil at Baron-sur-Odon, near the civitas capital of the Viducasses (Vieux/Aregenua); excavated 1952–56, it revealed an indigenous cult site with a dodecagonal building and a mock 'symbolic' burial, predating its Gallo-Roman rebuilding."
+ },
+ "place:dare-15766": {
+  "desc": "The Gallo-Roman sanctuary of Pédégas at Belbèze, discovered in 1964 and excavated by G. Manière 1965–67: a temple and spring-fed pool where numerous votive altars and small offering vessels were found, many deliberately broken; the cult site was abandoned/destroyed by the late 4th century."
+ },
+ "place:dare-15778": {
+  "desc": "A Gallo-Roman secondary settlement and water-cult site at Arlende/Fumades (1st century BC–3rd century AD), where a spring basin yielded a tiled pool, mosaics, coins, and about thirty votive altars dedicated to protective water nymphs; the cult ended after Theodosius's anti-pagan edicts."
+ },
+ "place:dare-16592": {
+  "desc": "Sanctuary atop ancient Vibinum (Bovino, Apulia), identified by dedicatory inscriptions to Mars and Bellona, comprising a rectangular and an oval temple; the site also held temples to Apollo and Hercules, the latter later replaced by a church."
+ },
+ "place:dare-16974": {
+  "desc": "The Gallo-Roman sanctuary of Pièces-Grandes at Margerides: an enclosure containing three square fana, the main one c.12.8m per side with a 7m cella; occupation ran from a late 1st-century BC Gallic phase (coins of the Lemovices) through Roman use into the 4th century AD."
+ },
  "place:dare-16983": {
   "desc": "Part of a Gallo-Roman sanctuary complex near Montbouy on the Loing river, the Chenevière amphitheater-theater hybrid and its adjoining baths developed during the 1st-2nd centuries AD and were listed a historic monument in 1862."
+ },
+ "place:dare-16985": {
+  "desc": "A Gallo-Roman thermal sanctuary at Le Mont-Dore, built over springs venerated since Gaulish times (excavated wooden basins predate Roman work); Roman baths and a temple, later called the \"Panthéon,\" operated on the site into late antiquity."
+ },
+ "place:dare-17219": {
+  "desc": "A healing sanctuary of Minerva Cabardiacensis, a Celtic-Ligurian goddess assimilated to Minerva Medica, stood near Travo in the Val Trebbia (Piacenza); attested only by inscriptions, including Trajan's Tabula Alimentaria of Veleia, and votive ex-votos recovered along the Trebbia."
+ },
+ "place:dare-17243": {
+  "desc": "Nemora Vacunae, sacred groves of the Sabine goddess Vacuna in the upper Velino valley near Rieti, are recorded by Pliny the Elder and fed the spring of Lacus Cutiliae; Horace mentions a decayed shrine to the goddess near his own Sabine farm."
+ },
+ "place:dare-17304": {
+  "desc": "Gallo-Roman thermal baths at Menthon-Saint-Bernard on Lake Annecy, roughly thirty rooms across some 900 m2 with a caldarium wing, in use from the 1st to 4th century AD; classified a monument historique in 1990.",
+  "qid": "Q3523835"
+ },
+ "place:dare-17398": {
+  "desc": "The Gallic and Gallo-Roman sanctuary of Le Népellier, about 1.5 km from Acy-Romance, was an oval ditched enclosure with a fanum revealed by aerial survey; excavation yielded Roman coins, broken weapons, and human bone, with cult use into the 4th century AD."
+ },
+ "place:dare-17527": {
+  "desc": "A Gallo-Roman water sanctuary (fanum) tied to a votive spring cult was identified at Octon; published by archaeologist Henri Prades with J. Lugagne, R. Majurel and J. Ménager as \"Un sanctuaire des Eaux à Octon (Hérault)\" (Tradition celtique, 1969).",
+  "qid": "Q202647",
+  "wiki": "Octon, Hérault"
+ },
+ "place:dare-17551": {
+  "desc": "A hot spring (53°C, among the hottest in France) known in antiquity as \"Sanctus Laurentius Balneis\" was used for its therapeutic waters in Roman times, served by a nearby Roman road, giving the site its name.",
+  "wiki": "Saint-Laurent-les-Bains"
+ },
+ "place:dare-17593": {
+  "desc": "An 11x8m Gallo-Roman fanum was excavated in 1956 beside a menhir and stone circle on the shore of Lac de Saint-Andéol (Aubrac); votive deposits of pottery, human/animal figurines, and coins spanning Augustus to Constantius II attest a long Gaulish-to-Roman water cult.",
+  "qid": "Q3321603",
+  "wiki": "Lac de Saint-Andéol"
+ },
+ "place:dare-17638": {
+  "desc": "A Gallo-Roman sanctuary of twin temples within a walled precinct with an east-facing propylon, near Saint-Léomer (Vienne); it began as a Celtic-tradition temple c. 50 BC, was rebuilt in masonry c. 40-50 AD, and was abandoned in the 3rd century AD. Discovered in 1945 by Abbé Florentin Reix, classified a historic monument in 1973.",
+  "qid": "Q22956563"
+ },
+ "place:dare-17683": {
+  "desc": "Mineral springs frequented since Roman times; basin-cleaning in 1834 and 1859 recovered numerous coins and medals, many dated 70-160 AD, indicating a votive/therapeutic cult of the waters in antiquity.",
+  "wiki": "Saint-Alban-les-Eaux"
+ },
+ "place:dare-17690": {
+  "desc": "Site of the Gallo-Roman vicus Auditiacus; 1844 excavations uncovered Roman thermal baths dated from the mid-2nd to mid-4th century AD, and finds near the Aubigny locality (a Roman vase, imperial coins, and cremated human/animal remains) point to associated ritual activity.",
+  "wiki": "Saint-Galmier"
+ },
+ "place:dare-17703": {
+  "desc": "Aerial survey in 1982 revealed a Gallo-Roman religious complex at 'Le Moulin des Gaumins' — two temples and a theatre enclosed together — published as a sanctuary-with-theatre by J. Holmgren in 1983."
+ },
+ "place:dare-17809": {
+  "desc": "Roman-era port sanctuary on the Scheldt at Colijnsplaat, dedicated to the seafarers' goddess Nehalennia; over 160 votive altars dredged from the estuary since 1970, given by merchants trading salt, wine, and pottery.",
+  "qid": "Q2067723",
+  "wiki": "Ganuenta"
+ },
+ "place:dare-18046": {
+  "desc": "Rock-cut Latin inscription (2nd quarter of the 5th century) commissioned by praetorian prefect Claudius Postumus Dardanus and his wife Naevia Galla, commemorating a road built through the gorge and the founding of the Christian settlement Théopolis."
+ },
+ "place:dare-18049": {
+  "desc": "The 'Luminaïre' sanctuary near Lachau, a Gallo-Roman votive-deposit site reusing an old quarry, yielded large quantities of terracotta oil lamps and other votive offerings excavated in the 19th century; finds are held in the Gap museum."
+ },
+ "place:dare-18076": {
+  "desc": "Iron-Age Celto-Ligurian sanctuary (3rd century BC) near Velaux, famed for carved stone pillars with niches holding severed skulls of male warriors under 40, evidence of a head cult; destroyed by Rome in 124 BC, finds now in Marseille's Musée d'Archéologie Méditerranéenne.",
+  "wiki": "Roquepertuse"
+ },
+ "place:dare-18100": {
+  "desc": "A hilltop fanum (775m) at Saint-Pierre-Bellevue with two cellae, rebuilt in stone over an earlier shrine and occupied 1st-4th c. AD; excavated altars bear carved images of Apollo and Neptune. Classified monument historique in 1990."
+ },
+ "place:dare-18113": {
+  "desc": "A round Gallo-Roman fanum with polygonal ambulatory, a temple form typical of western Gaul; the nearby villa 'Villa Bonna' gave rise to the later town, alongside other scattered Gallo-Roman remains in the commune."
+ },
+ "place:dare-18123": {
+  "desc": "At Cap Romain, Eugène Eblé's 1942-44 excavations found a 1st-century Gallic sanctuary and a Gallo-Roman villa with baths beneath a later Frankish cemetery; a carved Mother-Goddess statue was recovered there in 1943."
+ },
+ "place:dare-18144": {
+  "desc": "A vast hexagonal sanctuary-city (c.250ha) of the Aulerci Eburovici, centered on a monumental temple to Apollo and Jupiter with baths, theatre and forum; founded early 1st c. AD, it flourished 2nd-3rd c. before abrupt abandonment.",
+  "wiki": "Gisacum"
+ },
+ "place:dare-18162": {
+  "desc": "A fanum sanctuary at 824m on the Millevaches plateau (Col des Géants), Pradines; excavations 1959-1982 revealed pre-Roman Gallic-tradition pottery beneath two successive temples, occupied 1st-2nd c. AD and abandoned in the 3rd century.",
+  "qid": "Q130604178"
+ },
+ "place:dare-18233": {
+  "desc": "Pyrenean summit sanctuary dedicated to Jupiter; 1956-57 excavations by Georges Fouet and Andrée Soutou recovered fragments and bases of white marble votive altars, now in the Musée Saint-Raymond, Toulouse.",
+  "qid": "Q60849752",
+  "wiki": "Mont Sacon"
+ },
+ "place:dare-18240": {
+  "desc": "Rock-cut, wall-less sanctuary of Aristaeus on the Giens peninsula near Olbia, used continuously from the late 2nd century BC to the early 1st century AD; excavations (1973-1982) yielded over 40,000 pottery fragments.",
+  "qid": "Q86661721",
+  "wiki": "Sanctuaire d'Aristée à Olbia"
+ },
+ "place:dare-18500": {
+  "desc": "Gallo-Roman rural sanctuary (fanum du Camp-Ferrus), excavated 1968-1975 under abbé Marius Bessou; a quadrangular enclosure (~70x42m) held successive cult buildings from the late La Tène period into the late 3rd century AD, ending in a fire."
+ },
+ "place:dare-19005": {
+  "desc": "The Quellheiligtum Sudelfels near Ihn (Wallerfangen): a Gallo-Roman spring sanctuary founded in the early 1st century AD, its octagonal temple honoring the healing goddess Sirona, with further shrines to Apollo, Minerva, Mercury and Rosmerta; excavated 1981-84."
+ },
+ "place:dare-19320": {
+  "desc": "Porcetum, a Roman vicus at Aachen-Burtscheid, held a nymphaeum sanctuary to the healing god Apollo Grannus; excavated in 1969, the shrine enclosed a sacred spring and fed an aqueduct to Aquae Granni, with a dedicatory altar dated 108-119 CE.",
+  "qid": "Q2104364"
+ },
+ "place:dare-19321": {
+  "desc": "Multi-building Gallo-Roman temple complex (Tempelbezirk Pesch) on the Addig hill between Nöthen and Pesch, dedicated chiefly to the Matronae Vacallinehae; built 1st-4th century AD, excavated by Hans Lehner 1913-1918, comprising three temples and a 120m portico.",
+  "qid": "Q1408110",
+  "wiki": "Tempelbezirk Pesch"
+ },
+ "place:dare-19335": {
+  "desc": "A Gallo-Roman temple precinct on the Rödersberg near Bierbach (Blieskastel), comprising two temples within a roughly 60-metre walled enclosure; excavated in 1927 by state conservator Carl Klein after pottery sherds turned up during forestry work."
+ },
+ "place:dare-19475": {
+  "desc": "The Trier sanctuary 'Am Irminenwingert' was the chief cult center of the Treveran healing god Lenus Mars: a walled precinct over 100m per side with a great temple, baths, shrines and a theater, used until Emperor Gratian's reign (d. 383).",
+  "qid": "Q2802944"
+ },
+ "place:dare-19898": {
+  "desc": "Gallo-Roman temple to Mercury and his Gallic consort Rosmerta near Waldesch by Koblenz, discovered 1898 and excavated in the 1920s; a ~19x18m walled cella stood within a temenos ~106m across with a spring, on the site of an earlier Celtic sacred precinct."
+ },
+ "place:dare-20086": {
+  "desc": "Site of the Fanum du Tremblois, a square Gallo-Roman temple with cella and surrounding gallery built over an earlier Iron Age Celtic cult site in the Châtillonnais forest; yielded ex-votos of divinities, animals, and votive pillars, and was destroyed around 337 CE."
+ },
+ "place:dare-20087": {
+  "desc": "Healing sanctuary of Apollo Vindonnus at a curative spring near Châtillon-sur-Seine, with a surviving pediment inscribed to the god and the spirit of the springs; wooden and stone ex-votos (hands, body parts, many eyes) suggest pilgrims sought cures for eye ailments."
+ },
+ "place:dare-20114": {
+  "desc": "The \"fortin-sanctuaire\" (fortified cult building) of Pas de la Selle on the Causse du Larzac at La Panouse-de-Cernon, excavated 1960-63 by André Soutou; coins and terra sigillata from the La Graufesenque potteries date its main use to the 1st-2nd centuries CE."
+ },
+ "place:dare-20156": {
+  "desc": "Gallo-Roman sanctuary dedicated to Mars-Sutugius, a local warrior god known almost solely from this site; some forty votive altars, stelae, funerary cippi, statues and architectural fragments were found reused in the walls of the later church built over the temple."
  },
  "place:dare-20255": {
   "desc": "The Théâtre romain des Câteliers near Les Andelys (Noyers-sur-Andelys, Eure), discovered by Léon Coutil in 1927; at 120m diameter it ranks among the ten largest theaters of Roman Gaul, built 1st-2nd century AD.",
   "qid": "Q22950220"
+ },
+ "place:dare-20713": {
+  "desc": "A Gallo-Roman ambulatory temple (Umgangstempel) with a square 7m cella inside a 15m gallery, set within a c. 40x50m temenos, was partially excavated in 1941 and 1975 southwest of Bausendorf, alongside a small vicus."
+ },
+ "place:dare-20715": {
+  "desc": "The Roman villa rustica complex at Otrang near Fließem (1st-4th c. AD), with its 60+ room manor house and baths, also included a dedicated temple precinct within the estate grounds."
+ },
+ "place:dare-20716": {
+  "desc": "A Gallo-Roman ambulatory temple (Umgangstempel) stood at the boundary of Gusenburg with Hermeskeil; iron-stained red soil and Roman pottery/tile finds from the site are commemorated in the village's coat of arms."
+ },
+ "place:dare-20719": {
+  "desc": "A small Gallo-Roman temple precinct dated to around 150 AD was excavated in 1936 by the Landesmuseum Bonn in the \"An den Vier Bäumen\" field near Horperath, after a farmer discovered building rubble and roof tiles there."
+ },
+ "place:dare-20721": {
+  "desc": "Near the Roman road to Belginum, a stone-walled sacred precinct (c. 83.5 x 35.5 m, called \"Judenkirchhof\") near Elzerath contained a small temple building (c. 4.5 x 4.7 m) excavated in 1963, dated to the late Roman period."
+ },
+ "place:dare-20751": {
+  "desc": "A monumental Gallo-Roman rural fanum measuring 50m per side stood at La Chapelle-Marcousse, far exceeding the typical 10-17m size of Auvergne temples; only Landeyrat's sanctuary matches it in scale, per a 2006 regional inventory."
+ },
+ "place:dare-20763": {
+  "desc": "The largest known Gallo-Roman temple sanctuary in Brittany, an octagonal temple built in the late 1st century AD at Fanum Martis (Corseul), capital of the Coriosolites, dedicated to Mars syncretized with a native Celtic war god.",
+  "wiki": "Temple of Mars (Corseul)"
+ },
+ "place:dare-20820": {
+  "desc": "A Mithraic temple on the Heiligenberg's eastern slope at Heidelberg-Neuenheim, discovered in 1838, yielding a tauroctony relief and statues of Cautes and Cautopates; finds of four more statues in 1953 suggest a second, later Mithraeum on the site.",
+  "qid": "Q130240484"
+ },
+ "place:dare-20835": {
+  "desc": "Gallo-Roman Umgangstempel (ambulatory temple) on the Nattenheimer Kopf beside the Via Agrippa, 6 km north of Bitburg; cella 6.67 x 6.15 m within an 11.85 x 10.25 m surround with Tuscan-order red-sandstone columns, excavated in 1875 by Ernst aus'm Weerth.",
+  "qid": "Q104815087"
+ },
+ "place:dare-20840": {
+  "desc": "Site of a temple to the local Gallo-Roman god Jutarabus, attested by a Latin votive inscription (found 1619/1669 while plowing) recording its dedication by Quintus Solimarius; the altar stones, later built into Arenrath's church portal, were moved to the Trier museum in 1824."
+ },
+ "place:dare-20842": {
+  "desc": "A small Gallo-Roman temple identified from an 1886 find of square stone foundations, roof tiles, pottery sherds, and Roman copper coins about 1.2 km north of Röhl, near a Roman settlement and an Iron Age burial field in the Eifel."
+ },
+ "place:dare-20845": {
+  "desc": "The Umgangstempel von Wolsfeld, a Gallo-Roman ambulatory temple on the Galgenhöhe ridge above the Nims valley, with a 4x4 m cella inside a 9x9 m colonnade, possibly linked to Lenus Mars; exposed by 1919/20 roadworks after 19th-century finds of glass urns and a statue head.",
+  "qid": "Q105978606"
+ },
+ "place:dare-20846": {
+  "desc": "A rural sanctuary northwest of Schleidweiler excavated in 1932-33, comprising three stone temples, the largest a 13.3 m square temple built in the early 4th century AD and a 5.55 m temple of the 2nd-3rd century; finds included coins from Augustus to the late 4th century and bronze dedication-inscription fragments."
+ },
+ "place:dare-20848": {
+  "desc": "A Roman sanctuary near Eisenach in the Eifel, attested archaeologically to roughly 80-300 AD, situated near a Late Iron Age cemetery used from about 450 BC to the turn of the era."
+ },
+ "place:dare-20849": {
+  "desc": "A Gallo-Roman sanctuary at Graach enclosed by a 56x53 m temenos wall around a 6x6.7 m cult building, in use from the late Iron Age into the early 5th century and likely dedicated to Minerva per a terracotta figurine inscribed MIN; excavations in 1933 and 1978 yielded mother-goddess figurines, coins, fibulae, and a three-figure terracotta group.",
+  "qid": "Q115776257"
+ },
+ "place:dare-20853": {
+  "desc": "A Gallo-Roman Mercury sanctuary (Merkurheiligtum) stood at Landscheid/Burg beside a Celtic ringwall; a sandstone altar inscribed 'Deo Mercurio', found nearby in 1984, is linked to the site excavated by the Rhineland Landesmuseum Trier."
+ },
+ "place:dare-20854": {
+  "desc": "A Gallo-Roman temple to Caprio, an otherwise unattested local deity, was uncovered in 1840 at Hasselseifen near Mürlenbach; its limestone dedication tablet is held in the Rhineland State Museum in Trier."
+ },
+ "place:dare-20872": {
+  "desc": "The Heiligtum von Nideggen-Abenden was a Roman-era sanctuary in Nideggen's Abenden district dedicated to the Matronae Veteranehae; fragments of at least 54 votive stone altars from the 1st-2nd centuries AD were excavated there.",
+  "qid": "Q24237614"
+ },
+ "place:dare-20873": {
+  "desc": "A Roman-era sanctuary at Inden-Pier attested by reused Matronae votive stones and a ground plan resembling the temple precinct at Bad Münstereifel-Pesch, likely dedicated to the Matronae Alusneihae; excavated by Bonn University from 2011 before the site was destroyed by lignite mining.",
+  "qid": "Q1963851"
+ },
+ "place:dare-21069": {
+  "desc": "Armenian tradition holds that the Apostle Thaddeus founded this church in 68 AD, making it one of Christianity's oldest; rebuilt in 1329 after earthquake damage, with 10th-century apse remains, and inscribed as UNESCO World Heritage in 2008 with two other Armenian sites in Iran.",
+  "qid": "Q842826",
+  "wiki": "Monastery of Saint Thaddeus"
+ },
+ "place:dare-21071": {
+  "desc": "Pilgrimage complex built around the tomb of the martyred Roman soldier Menas (d. 296 AD), expanded into a basilica, baptistery, and pilgrim town under Emperor Arcadius (395-408); a major early Christian healing shrine and UNESCO World Heritage site since 1979.",
+  "wiki": "Abu Mena"
+ },
+ "place:dare-21293": {
+  "desc": "Hilltop cult site above Kolbnitz in Carinthia's Möll valley; a Roman temple to Hercules replaced an earlier Celtic sanctuary, attested by an inscription recording its restoration by Caius Donnicius Rufinus and Valeria Attica, and was succeeded by an early Christian chapel around 313."
+ },
+ "place:dare-21934": {
+  "desc": "Fortified acropolis of Corinth crowned by the 5th-century-BC Temple of Aphrodite, home to a cult statue of Armed Aphrodite; its sanctuaries were largely abandoned or destroyed after Rome sacked Corinth in 146 BC.",
+  "qid": "Q420810",
+  "wiki": "Acrocorinth"
+ },
+ "place:dare-22270": {
+  "desc": "Sanctuary of Hera Akraia/Limenia on the Perachora peninsula in Corinthia, with an apsidal temple dating to the 8th century BCE, one of the earliest Greek temples known; cult continued until Corinth's destruction in 146 BCE.",
+  "wiki": "Heraion of Perachora"
+ },
+ "place:dare-22613": {
+  "desc": "The Argive Heraion, chief sanctuary of Hera between Argos and Mycenae, with an Archaic temple burned in 423 BCE and rebuilt by the architect Eupolemos; excavated extensively by the American School of Classical Studies from 1892.",
+  "wiki": "Heraion of Argos"
+ },
+ "place:dare-22650": {
+  "desc": "Carian sanctuary of Zeus Labraundos in the mountains above Mylasa, greatly monumentalized in the 4th century BCE by the Hecatomnid satraps Mausolus and Idrieus as their dynastic shrine, reached by a monumental sacred way.",
+  "wiki": "Labraunda"
+ },
+ "place:dare-22896": {
+  "desc": "Italic and later Roman sanctuary of Hercules Curinus near Sulmona (ancient Superaequum/Corfinium area), built on a multi-terraced hillside modeled on Praeneste and Tivoli and enlarged after the Social War (89 BCE); a bronze cult statue of Hercules survives.",
+  "wiki": "Shrine of Hercules Curinus"
+ },
+ "place:dare-25431": {
+  "desc": "The Hill of Tara in County Meath, Ireland, ceremonial and assembly site associated with the legendary High Kings of Ireland, containing the Iron Age Rath of the Synods, Mound of the Hostages passage tomb, and the standing Lia Fáil stone.",
+  "qid": "Q543155",
+  "wiki": "Hill of Tara"
+ },
+ "place:dare-25704": {
+  "desc": "Romano-Celtic temple on Jordan Hill near Weymouth, Dorset, founded c. 69-79 CE and used into the late 4th century; excavations revealed a shaft with ritual deposits of coins, pottery and bird/animal remains beneath the cella.",
+  "wiki": "Jordan Hill Roman Temple"
+ },
+ "place:dare-26493": {
+  "desc": "Archaic Doric Temple of Olympian Zeus (Olympieion) on the Polichne hill outside Syracuse, built in the early 6th century BCE, one of the oldest peripteral stone temples in Sicily; two columns still stand.",
+  "wiki": "Temple of Olympian Zeus (Syracuse)"
+ },
+ "place:dare-26500": {
+  "desc": "The Sciliar/Schlern plateau in South Tyrol held a Bronze Age and Iron Age high-altitude sacrificial site (Brandopferplatz), one of several Alpine peak cult places yielding numerous bronze votive objects, documented in South Tyrolean archaeological surveys (Haupt et al.)."
+ },
+ "place:dare-36637": {
+  "desc": "Kafr Zabad in the Bekaa valley preserves two Roman antae temples of the 2nd century AD on a hill above the village, now reduced mostly to foundations, with a nearby rock relief of a Roman goddess (probably Venus).",
+  "qid": "Q3195901",
+  "wiki": "Kafr Zabad"
+ },
+ "place:dare-36681": {
+  "desc": "Aigaion Antron is the Psychro (Dictaean) Cave on Mount Dicte, Crete, identified since antiquity as Zeus's birth cave where Rhea hid him from Cronus; excavations found Minoan-to-Roman votive bronzes, double axes and pottery.",
+  "wiki": "Psychro Cave"
+ },
+ "place:dare-37063": {
+  "desc": "A Celto-Roman \"pass sanctuary\" at the Hochtor (2504m) on the Grossglockner route, Europe's highest-altitude shrine; 1992-95 excavations found a bronze Hercules statue (first found 1933), fragments of 20+ votive statues, and ~200 Celtic and Roman coins left by travelers."
+ },
+ "place:dare-37082": {
+  "desc": "Mor Gabriel Monastery in Tur Abdin was founded in 397 AD by the ascetics Mor Shmuel (Samuel) and Mor Shemun (Simeon) of Qartmin; it became the episcopal seat of Tur Abdin (615-1049) and remains one of the oldest continuously active Christian monasteries.",
+  "wiki": "Mor Gabriel Monastery"
+ },
+ "place:dare-37121": {
+  "desc": "The oracular temple of Aphrodite Aphacitis at Afqa (Aphaca), below the grotto source of the Adonis river, was notorious for ritual prostitution and was torn down on Emperor Constantine's orders in the 4th century AD, per Eusebius.",
+  "qid": "Q23680010",
+  "wiki": "Aphacitis"
+ },
+ "place:dare-37131": {
+  "desc": "Yammoune's Phoenician-Roman temple ruins, dedicated to Astarte/Venus, stand near the spring feeding Lake Yammoune; a rock inscription records Emperor Hadrian declaring the area a protected juniper reserve in 134 AD.",
+  "qid": "Q3571482",
+  "wiki": "Yammoune"
+ },
+ "place:dare-37170": {
+  "desc": "Roman rural sanctuary at Cabrera de Mar (Maresme, Catalonia), flourishing 1st-2nd c. AD, apparently first dedicated to Neptune and a goddess and later a Mithraeum with an inscribed altar; continuity into the medieval period as the hermitage of Sant Joan."
+ },
+ "place:dare-37357": {
+  "desc": "Alahan Monastery/pilgrimage complex in ancient Isauria (Mersin Province, Turkey), built in two phases: mid-5th century under Emperor Leo I and late 5th century under Emperor Zeno; two churches, a baptistery and necropolis served monks and pilgrims into the 7th century.",
+  "wiki": "Alahan Monastery"
+ },
+ "place:dare-38773": {
+  "desc": "Gallo-Roman fanum-type temple at Ursins (Vaud, Switzerland), built in the 1st century AD and used until the 4th, dedicated to Mercury and Mars Caturix; part of a 30-hectare regional religious center with at least three temples, baths and an amphitheater."
+ },
+ "place:dare-39956": {
+  "desc": "Cancho Roano, a Tartessian/Orientalizing-period palace-sanctuary near Zalamea de la Serena (Badajoz, Spain), occupied from the mid-8th/6th century BC; an eleven-room U-shaped mudbrick complex around a courtyard, ritually burned and buried c. 375 BC.",
+  "wiki": "Cancho Roano"
+ },
+ "place:dare-41386": {
+  "desc": "A Roman-era rock-cut gallery on the shore of Lake Avernus (Campi Flegrei), popularly called 'Grotta della Sibilla' (or Bagno della Sibilla) after the myth of the underworld oracle; distinct from the true Cave of the Cumaean Sibyl at Cumae, its actual function was likely military/engineering, linked to Agrippa's Portus Iulius works."
+ },
+ "place:dare-41885": {
+  "desc": "The so-called 'Temple of Apollo' on the eastern shore of Lake Avernus is in fact the domed frigidarium of a large Roman imperial-era bath complex (probably Hadrianic, 2nd c. AD, c. 36m internal diameter), traditionally named for Apollo through the lake's association with the underworld oracle."
+ },
+ "place:dare-41946": {
+  "desc": "Vettonian rural sanctuary near the confluence of the Alardos gorge and the Tiétar river, dedicated to the indigenous god Vaelicus; yielded around 20 Latin votive altars and granite verraco sculptures linked to the Vettonian oppidum of El Raso.",
+  "qid": "Q6083481"
+ },
+ "place:dare-42221": {
+  "desc": "Gallic-to-Gallo-Roman rural sanctuary at \"la Butte du Moulin à Vent\", Bennecourt, occupied 2nd century BC-4th century AD; excavations (1982-88) traced its growth from a small Gallic timber shrine into a walled precinct enclosing three stone temples, yielding some 25,000 finds."
+ },
+ "place:dare-42291": {
+  "desc": "Sanctuary of Diana Umbronensis on the Scoglietto promontory (Alberese, Maremma), attested by a marble dedication to the goddess of the Ombrone river; religious structures dated 1st century BC-mid 4th century AD, with votive lamps, coins, glass and two statues of Diana, abandoned after Theodosius's ban on pagan cult."
+ },
+ "place:dare-42517": {
+  "desc": "Roman-period settlement (Ain el-Dabashiya) in the northern Kharga Oasis with a large mud-brick temple and a pigeon tower, dated to the 3rd-4th century AD and supplied by a complex well-based irrigation system; documented by the North Kharga Oasis Survey."
+ },
+ "place:dare-42518": {
+  "desc": "Ain el-Tarakwa, a Roman-to-Christian-period site (1st-5th century AD) in the northern Kharga Oasis with a small stone temple, a mud-brick basilica and settlement, and an extensive cemetery; recorded by the North Kharga Oasis Survey.",
+  "qid": "Q14223996"
+ },
+ "place:dare-42563": {
+  "desc": "A prehistoric Celtic cult site was later succeeded by a Roman Jupiter temple (2nd-4th century AD) on the hill at Tiffen, on the spot now occupied by the parish church of St James; a Roman quarry operated nearby and reused Roman stones are built into the church's walls."
+ },
+ "place:dare-43284": {
+  "desc": "Roman temple at Aaiha in the Bekaa Valley, completed in 92 AD, measuring roughly 11.5 x 14.4 m with an entrance to underground vaults; only its western part survived by the mid-19th century, and it is now entirely destroyed, its blocks reused by villagers.",
+  "qid": "Q1534108",
+  "wiki": "Aaiha"
+ },
+ "place:dare-43285": {
+  "desc": "Substantial Graeco-Roman temple (c. 30 m foundations) in a formerly Ituraean part of the Bekaa Valley, dedicated to unknown \"gods of Kiboreia\"; a Greek inscription dated to AD 242 names the high priest Beeliabos, also called Diototos, son of Abedanos.",
+  "qid": "Q5252506",
+  "wiki": "Deir El Aachayer"
+ },
+ "place:dare-43286": {
+  "desc": "Roman temple behind the village of Dakoue retains a central courtyard and a three-column front colonnade with Corinthian mouldings; it was later converted into a church, reached via an opening in its west wall.",
+  "qid": "Q5210068",
+  "wiki": "Dakoue"
+ },
+ "place:dare-43748": {
+  "desc": "Syriac Orthodox shrine (martyrion) south of Mosul marking the tomb of the 4th-century martyrs Behnam and Sarah, built atop the ancient tell of Tell al-Khidr; its earliest surviving fabric dates to the 12th-13th centuries.",
+  "wiki": "Mar Behnam Monastery"
+ },
+ "place:dare-44403": {
+  "desc": "Octagonal Romano-Celtic temple at Chew Stoke, Somerset, built in the late 3rd century probably for Mercury as part of a pilgrimage complex with guesthouses and a holy well; excavated by Philip Rahtz, 1949-1953.",
+  "qid": "Q7124196",
+  "wiki": "Pagans Hill Roman temple"
+ },
+ "place:dare-44510": {
+  "desc": "Roman temple of the 2nd century AD at Yanta preserving its rectangular peribola, main entrance, and lintel; thought to overlie an earlier Semitic sanctuary, with a necropolis on the crag above.",
+  "qid": "Q8048962",
+  "wiki": "Yanta, Lebanon"
+ },
+ "place:dare-44511": {
+  "desc": "Roman temple in the village, part of the Beqaa Valley temple group; the cella walls have vanished but the podium survives, alongside a carved door frame, ceiling block, and column fragments found nearby.",
+  "qid": "Q7421831",
+  "wiki": "Saraain El Faouqa"
+ },
+ "place:dare-44512": {
+  "desc": "Roman temple of the 2nd century AD known as Ain/Ayn Libbaya, classified by George Taylor among the Temples of Mount Hermon; included on Lebanon's UNESCO Tentative List for Sacred Mount Hermon.",
+  "qid": "Q6540385",
+  "wiki": "Libbaya"
+ },
+ "place:dare-44514": {
+  "desc": "Roman prostylos temple (per George Taylor) at Bakka with standing north and south walls and a surviving podium floor; an underground crypt was reached through a house later built over the site.",
+  "qid": "Q4849460",
+  "wiki": "Bakka, Lebanon"
+ },
+ "place:dare-44902": {
+  "desc": "A rural 4th-century-BCE sanctuary at Scoppieto was overbuilt in the late 1st century BCE by a large terra sigillata pottery workshop, active into the 1st century CE, whose stamped tableware has been found as far as Carthage and Alexandria."
+ },
+ "place:dare-4963": {
+  "desc": "A late-Roman cult cave near Zillis, in ritual use c. 260-500 CE, yielded several hundred bronze and silver coins, votive plaques, snake-motif vessels, and images of Mercury and Luna, likely a shrine to an eastern-influenced deity, possibly Mithras."
+ },
+ "place:dare-7863": {
+  "desc": "A Flavian-era healing spa and pilgrimage sanctuary at Sceaux-du-Gâtinais centered on a sacred spring dedicated to the fertility goddess Segeta, with a temple, peristyle, and an adjoining 104-meter-diameter theater; it flourished in the 2nd century CE.",
+  "qid": "Q2859278"
  },
  "place:pl-109016": {
   "desc": "Ancient Grand grew around a sanctuary of the Gallo-Roman healing god Apollo-Grannus and built the eighth-largest amphitheater in the Roman world (capacity 16,000–20,000); Emperor Caracalla reportedly visited its shrine in 213 AD.",
@@ -1139,8 +1719,164 @@
  "place:pl-177540": {
   "desc": "Ancient name of the Gallo-Roman town at Entrains-sur-Nohain, attested by a marble itinerary plaque found at Autun in 1840; aerial survey in 1974 revealed a theater about 115m across, among Gaul's largest."
  },
+ "place:pl-900017": {
+  "desc": "Akhenaten founded this capital, Akhetaten, around 1346 BCE as the cult center of the sun-disc Aten; it featured the Great Temple of Aten and was largely abandoned within two decades of his death.",
+  "wiki": "Amarna"
+ },
+ "pleiades:108833": {
+  "desc": "A Gallo-Roman fanum near Chartres, rebuilt at least once between the Neronian era and the late 3rd century CE; eye-shaped ex-votos found there suggest it was a healing sanctuary for eye ailments.",
+  "qid": "Q22940705"
+ },
+ "pleiades:218039420": {
+  "desc": "An Arcadian hilltop sanctuary of Athena, whom locals said was born there, housing a celebrated bronze cult statue by the sculptor Hypatodorus; described by Pausanias and excavated by Anastasios Orlandos from 1932.",
+  "wiki": "Aliphera (Greece)"
+ },
+ "pleiades:307187361": {
+  "desc": "A small underground heroon built in Paestum's agora c. 520 BCE, sealed with roof tiles and never opened until 1952; it held iron rods, a black-figure vase, and eight bronze vases containing honey, honoring the city's founder-hero.",
+  "qid": "Q56258514"
+ },
+ "pleiades:432336962": {
+  "desc": "Sacred grove of the water-goddess Furrina on the Janiculum, where Gaius Gracchus died by suicide in 121 BC; nearby excavated remains once dubbed a \"Syrian sanctuary\" are now thought dedicated to Osiris, built in the 4th century AD.",
+  "qid": "Q62036962"
+ },
+ "pleiades:459717793": {
+  "desc": "Gallo-Roman temple complex built at the end of the 1st century AD on the northern edge of Atuatuca Tungrorum (Tongeren), centered on a large temple believed dedicated to Jupiter."
+ },
+ "pleiades:472008": {
+  "desc": "Hamlet named for a church built over a hypogeum originally a Nuragic sacred well for water worship, later linked to the Punic healing god Sid and the Roman cult of Asclepius before its Christianization.",
+  "qid": "Q3947927"
+ },
+ "pleiades:531869654": {
+  "desc": "Sanctuary on the east side of Pompeii's forum, built after the AD 62 earthquake and dedicated to the Public Lares, protectors of the whole community; an apsed hall with aediculae once held a rich marble statuary program.",
+  "qid": "Q3949594"
+ },
+ "pleiades:629225363": {
+  "desc": "Archaic extramural sanctuary of Aphrodite, protector of seafarers, at Locri Epizephyrii (Marasà Sud/Centocamere), Calabria, with an Ionic temple probably dating near the city's 7th-century BC foundation."
+ },
+ "pleiades:638837": {
+  "desc": "Cave sanctuary in Pisidia used for cult worship for over a millennium from the Hellenistic period; inscriptions found there identify the site with Meter Theon Ouegeinos (an Anatolian mother goddess), with dedications also to Marcus Aurelius in the 2nd century AD."
+ },
+ "pleiades:676120271": {
+  "desc": "The Klematios (Clematius) Basilica, a 5th-century ruined early Christian church on the slope of Mount Lycabettus in Athens, among the city's earliest churches; its floor mosaics are now displayed in the Byzantine and Christian Museum.",
+  "qid": "Q14733081"
+ },
+ "pleiades:69544": {
+  "desc": "Gallo-Roman fanum-type temple in Sarthe, France, built in two phases from the late La Tène period into the 1st century AD as part of a small settlement that also had baths and a residential quarter."
+ },
  "pleiades:802040030": {
   "desc": "Elite residence of about 90 rooms at Dūr-Katlimmu (Tell Sheikh Hamad), built by Šulmu-šarri, a senior official of Ashurbanipal (r. 668–631 BC), in the late 7th century BC; it outlasted Assyria's fall before burning down in the 6th century BC."
+ },
+ "pleiades:804115670": {
+  "desc": "Doric temple of Apollo Pythios on an artificial terrace of the acropolis at Karthaia (Kea), dated to about 530-500 BC; excavated in 1963-65 and again from 1987 onward."
+ },
+ "pleiades:81616357": {
+  "desc": "Mithraic shrine at Ostia installed in a 2nd-century CE building and likely renovated in the later 3rd century; its floor mosaic, discovered in 1938, depicts the seven grades of Mithraic initiation (Corax, Nymphus, Miles, Leo, Perses, Heliodromus, Pater)."
+ },
+ "religion:177545": {
+  "desc": "Gallo-Roman temple complex at ancient Isarnodurum (modern Izernore, Ain), built in two successive phases from the mid-1st to late 2nd century CE; the deities honored are unknown despite surviving painted wall-decoration fragments.",
+  "wiki": "Gallo-Roman temple of Izernore"
+ },
+ "religion:246622": {
+  "desc": "Romanesque hermitage in the Valle de Losa, Burgos, built on a ship-prow-shaped rock outcrop and consecrated in 1207; historically held by the Hospitaller Order of Saint John, though later legend links it to the Holy Grail and Templars."
+ },
+ "religion:308085066": {
+  "desc": "Buddhist rock-cut cave monastery complex in the Deccan excavated between the 2nd century BCE and 5th century CE, comprising viharas and chaityas renowned for their wall paintings and sculpture; a UNESCO World Heritage Site.",
+  "wiki": "Ajanta Caves"
+ },
+ "religion:319613732": {
+  "desc": "6th-century CE Byzantine church built within a Hellenistic-founded settlement in Cilicia (Mersin province), standing near an earlier 1st/2nd-century BC temple of Hermes with rock-carved walls and a caduceus relief.",
+  "wiki": "Çatıören"
+ },
+ "religion:394186381": {
+  "desc": "10th-century Khmer Hindu temple near Angkor dedicated to Shiva, consecrated in 967 CE under King Rajendravarman and attributed to the Brahmin counselor Yajnavaraha; renowned for its intricately carved pink sandstone reliefs.",
+  "wiki": "Banteay Srei"
+ },
+ "religion:422950": {
+  "desc": "Ruined masonry core of a small Roman pyramid-shaped tomb along the Via Appia Antica, one of several Augustan-era pyramid tombs in Rome echoing the Pyramid of Cestius; its date and intended dedicatee remain unknown."
+ },
+ "religion:475264756": {
+  "desc": "Cistercian abbey founded in 1189/1190 by Cathal Crobhdearg Ua Conchobair, King of Connacht, and settled by monks from Boyle Abbey; Cathal himself died there as a monk in 1224.",
+  "wiki": "Knockmoy Abbey"
+ },
+ "religion:48056021": {
+  "desc": "A Nuragic sacred well-temple near Orune, Sardinia, built in finely worked isodomic ashlar masonry and dedicated to a water cult; dated to the late 2nd millennium BC and used into the early Iron Age, preserved intact by an ancient landslide until its rediscovery in 1953."
+ },
+ "religion:588233703": {
+  "desc": "A fortified medieval rural settlement (casale) near Modugno in Puglia, first documented in 962 and sacked by Saracens in 988; it preserves the 11th-century Romanesque church of San Felice and the church of Santa Maria with 14th-century frescoes.",
+  "qid": "Q3633513"
+ },
+ "religion:678242": {
+  "desc": "Two Roman temples, part of the Temples of Mount Hermon group, south of Yanta in the Rashaya district of Lebanon, dated to the 2nd century AD; a surviving altar inscription with floral and wheat-ear reliefs suggests a fertility deity was venerated there.",
+  "wiki": "Khirbet El-Knese"
+ },
+ "religion:698151982": {
+  "desc": "A UNESCO-listed complex of 7th-8th century CE Hindu (and Jain) temples built by the Chalukya dynasty of Badami in Karnataka, India; its largest, the Virupaksha Temple, was commissioned by Queen Lokamahadevi to commemorate Vikramaditya II's victory over the Pallavas.",
+  "wiki": "Pattadakal"
+ },
+ "religion:725032190": {
+  "desc": "The great basilica of Roman-Byzantine Iomnium (modern Tigzirt, Algeria), likely the seat of a bishop, dated to the 5th-6th century AD; its roughly 38x21 m nave has a rare double colonnade, one of few such examples known in Africa.",
+  "wiki": "Iomnium"
+ },
+ "religion:832870385": {
+  "desc": "A 7th-century Nubian church at Banganarti (Sudan) dedicated to Archangel Raphael; destroyed and buried beneath the larger 11th-century Upper Church (Raphaelion), preserving wall paintings including one of the oldest known images of the Virgin Mary."
+ },
+ "religion:916747330": {
+  "desc": "Hittite sacred pool sanctuary near a spring in Konya province, built by King Tudhaliya IV (r. c. 1237-1209 BC) and inscribed with a Luwian hieroglyphic text commemorating his Lukka campaign; discovered in 1970."
+ },
+ "religion:996877399": {
+  "desc": "Sacred precinct of the goddess Inanna at Uruk (Iraq), built up through the 4th-millennium BCE Uruk period; one of the earliest monumental temple complexes, site of the first proto-cuneiform tablets and the sacred-marriage (hieros gamos) rite.",
+  "wiki": "Eanna"
+ },
+ "religion:rel-010": {
+  "desc": "Built in the Roman Forum by Antoninus Pius in AD 141 for his deified wife Faustina the Elder, and rededicated to himself after his own death in 161; its cella survives as the church of San Lorenzo in Miranda.",
+  "wiki": "Temple of Antoninus and Faustina"
+ },
+ "religion:rel-016": {
+  "desc": "Dedicated 191 BC on the Palatine to house the sacred meteoric stone of Magna Mater (Cybele), brought to Rome from Pessinus in 204 BC; rebuilt after fires under Augustus, hosted the annual Megalensia games, destroyed AD 394.",
+  "wiki": "Temple of Cybele (Palatine)"
+ },
+ "religion:rel-060": {
+  "desc": "Built AD 195 at Roman Thugga (Dougga, Tunisia) on the site of an earlier Punic temple of Baal Hammon, reinterpreted as Saturn under Rome; six of its Corinthian columns still stand within the UNESCO-listed archaeological site."
+ },
+ "religion:rel-062": {
+  "desc": "Ostia's chief temple of the Capitoline Triad (Jupiter, Juno, Minerva), built under Hadrian c. AD 120 on the Forum's north side atop an earlier 1st-century-BC cult building; its brick-faced podium and cella survive."
+ },
+ "religion:rel-069": {
+  "desc": "Built in AD 73 by Vespasian to commemorate his victory over Vitellius, dedicated to the Capitoline Triad (Jupiter, Juno, Minerva); its ruins form part of Brescia's UNESCO-listed Roman archaeological complex.",
+  "wiki": "Capitolium of Brixia"
+ },
+ "religion:rel-078": {
+  "desc": "Doric temple in Agrigento's Valle dei Templi, built c. 450 BC and traditionally (if likely mistakenly) attributed to Hera/Juno; damaged by fire during the Carthaginian sack of Akragas in 406 BC.",
+  "wiki": "Temple of Hera, Agrigento"
+ },
+ "religion:rel-083": {
+  "desc": "The largest known mithraeum in Rome, an underground hall about 23 x 10 m built into the Baths of Caracalla soon after their completion in AD 217; discovered in 1912, it held a tauroctony statue group and fell out of use by the 6th century."
+ },
+ "religion:rel-092": {
+  "desc": "A temple to Mithras built c. AD 200 by soldiers of Cohors I Batavorum at Carrawburgh fort (Brocolitia) on Hadrian's Wall; rebuilt through three phases and abandoned/desecrated by the early 4th century. Excavated 1949-50.",
+  "wiki": "Carrawburgh"
+ },
+ "religion:rel-097": {
+  "desc": "Roman Poetovio (Ptuj) held one of the empire's largest concentrations of Mithraic shrines, with five separate mithraea identified; Mithraeum I at Spodnja Hajdina, built by customs-post officials in the mid-2nd century AD, is the oldest known in the Danubian provinces. No single dedicated English Wikipedia article could be confirmed for the specific shrine near the Minorite Monastery."
+ },
+ "religion:rel-140": {
+  "desc": "One of Constantinople's oldest churches, commissioned by Constantine I and completed by 337; served as the city's cathedral until Hagia Sophia's dedication in 360, later rebuilt after a fire under Justinian and again after the 740 earthquake.",
+  "wiki": "Hagia Irene"
+ },
+ "religion:rel-184": {
+  "desc": "A vast 2nd-century AD temple, likely built under Hadrian, dedicated to Egyptian deities such as Isis and Serapis; its main hall was later converted into a Christian basilica (one of the Seven Churches of Asia) by the 5th century.",
+  "wiki": "Red Basilica"
+ },
+ "religion:rel-186": {
+  "desc": "Site of the Second Temple, rebuilt after 516 BC and monumentally expanded by Herod the Great from c. 19 BC with massive retaining walls enclosing roughly 37 acres; the Temple was destroyed by Titus's forces in AD 70.",
+  "wiki": "Temple Mount"
+ },
+ "religion:rel-193": {
+  "desc": "One of the world's oldest known synagogues, built at the Jewish town of Gamla in the Golan between the 1st century BC and 1st century AD; destroyed in AD 67 during the Roman siege of Gamla in the First Jewish-Roman War.",
+  "wiki": "Gamla Synagogue"
+ },
+ "religion:rel-229": {
+  "desc": "Circular temple to Mercury adjoining the forum's Capitolium at Thuburbo Majus in Roman Africa, its round peristyle set within a square edged by four apses; an inscription dates founding to 117-138 CE, with major rebuilding in 211 CE."
  },
  "vici:vici-10015": {
   "desc": "Roman theater on a Treverian sanctuary plateau above the Saar near Kastel-Staadt, excavated 2006-2008; had 36 rows of seating for about 3,500 spectators, rebuilt in stone around 300 AD after an earlier timber phase."
@@ -1984,6 +2720,9 @@
  "vici:vici-17720": {
   "desc": "Secondary residence of the Roman governor of Sardinia at Muru de is Bangius (Marrubiu), built 2nd-3rd century AD with a porticoed courtyard, 16 rooms and private baths with polychrome mosaics; its function was confirmed in 1990 by an inscribed marble plaque."
  },
+ "vici:vici-17724": {
+  "desc": "Part of the Columbaris early Christian complex near ancient Cornus (Sardinia), whose funerary basilica with baptistery (3rd-4th c.) was followed by two further basilicas in the 5th-6th centuries; Cornus became the island's episcopal seat after Constantine."
+ },
  "vici:vici-17731": {
   "desc": "Roman circus of Augusta Treverorum (Trier), a c.450m hippodrome monumentalized in the early 2nd century AD and depicted on the Polydus charioteer mosaic; no above-ground remains survive today."
  },
@@ -1995,6 +2734,9 @@
  "vici:vici-17755": {
   "desc": "Roman Agora of Athens, built 27-17 BC (possibly 10 BC) by architect Eucles of Marathon with funds from Augustus, fulfilling a pledge Julius Caesar made in 51 BC; entered through the Gate of Athena Archegetis.",
   "wiki": "Roman Agora"
+ },
+ "vici:vici-17760": {
+  "desc": "The Julian Basilica, built at the east end of Corinth's Roman forum between 2 BCE and the late Augustan period, housed the largest collection of Julio-Claudian imperial statuary in Greece (Julius Caesar, Augustus, Tiberius) and stood until the 4th century CE."
  },
  "vici:vici-17773": {
   "desc": "Ancient Greek stadium at the Sanctuary of Asklepios, Epidaurus, built mainly in the 4th-3rd century BC with stone seating for foot races, wrestling and boxing held every four years during the Asklepieia games."
@@ -2012,6 +2754,10 @@
   "desc": "Site of footraces and other athletic contests at the ancient Olympic Games from 776 BC; the track measures one Olympic stade (192.27 m) between marble starting and finish lines, with embankments once holding up to 45,000 spectators.",
   "qid": "Q4357227",
   "wiki": "Stadium at Olympia"
+ },
+ "vici:vici-17804": {
+  "desc": "Basilica C at Philippi, a lavish 6th-century three-aisled Early Christian basilica with narthex, transept and double ambo, part of the archaeological site associated with Paul's mission to the Philippians.",
+  "qid": "Q21156186"
  },
  "vici:vici-17806": {
   "desc": "Imperial residence begun 298-299 AD for Caesar Galerius, linked by a colonnaded road to the Rotunda and his triumphal arch; its best-preserved hall, the domed Octagon (875 m²), likely served as the throne room.",
@@ -2122,6 +2868,9 @@
  "vici:vici-18077": {
   "desc": "Known as the \"Palace of Trajan\" from an old (now revised) belief it was built by Trajan on the site of the Nabataean royal palace; archaeology dates it instead to the late 5th century CE, among the largest houses in southern Syria, likely home to Bosra's governor or archbishop."
  },
+ "vici:vici-18079": {
+  "desc": "A 3rd-century Roman basilica at Bosra converted into a church in the 4th century, traditionally identified as the site (the 'Monastery of Bahira') where a Christian monk is said to have met the young Muhammad and foretold his prophethood."
+ },
  "vici:vici-18102": {
   "desc": "A monumental (87.5 x 62.5 m) Roman military palace built at Dura-Europos under Elagabalus (218–222 CE) as residence of the dux ripae overseeing the Euphrates frontier — inscriptions name officer Domitius Pompeianus — abandoned after the Sasanian capture of the city in 256 CE.",
   "qid": "Q2047390",
@@ -2135,6 +2884,9 @@
  },
  "vici:vici-18359": {
   "desc": "Theatre of Zeugma, the Hellenistic-Roman city on the Euphrates named for its bridge of boats; excavated by Ankara University since 1987, the site is famed for its mosaics and was partly submerged when the Birecik Dam was completed in 2000."
+ },
+ "vici:vici-18397": {
+  "desc": "Basilica within the tetrarchic-era imperial palace at Sirmium, built in the late 3rd–early 4th century AD as a residence for co-emperors including Diocletian and Constantine I; the palace complex was excavated from 1957 after accidental discovery."
  },
  "vici:vici-18399": {
   "desc": "Theatre of Seleucia on the Tigris, the dynastic capital founded by Seleucus I Nicator; the Hellenistic theatre stood on the town's south side beside a porticoed square and was uncovered by University of Michigan excavations (1927-1937) and later Italian missions."
@@ -2158,6 +2910,9 @@
  },
  "vici:vici-18736": {
   "desc": "A late-1st-century Roman market building outside the eastern gate of the Nijmegen legionary fortress: a colonnaded rectangular square with twin monumental columns, abandoned around 100 AD as trade shifted to the new settlement of Noviomagus."
+ },
+ "vici:vici-18954": {
+  "desc": "Forum basilica of Sabratha, rebuilt on orders of Emperor Justinian in the 6th century AD (mentioned by his courtier Procopius) as a three-naved Christian hall with a raised presbytery and a famous mosaic floor depicting the soul's ascent to heaven."
  },
  "vici:vici-19177": {
   "desc": "The forum of Roman Cologne (Colonia Claudia Ara Agrippinensium), spanning roughly six insulae at the crossing of the cardo and decumanus, closed on its west side by a massive ring-shaped cryptoporticus about 135 m across."
@@ -2211,6 +2966,9 @@
  },
  "vici:vici-19889": {
   "desc": "Stadium built at Nicopolis for Augustus's Actian Games, inaugurated in 27 BC to mark his victory at Actium. Its two rounded ends (sphendonai) made it a transitional 'stadium-amphitheater' form, seating roughly 10,000."
+ },
+ "vici:vici-19898": {
+  "desc": "Civil basilica of Volubilis in Roman Mauretania Tingitana, completed under Emperor Macrinus in 217 AD and modeled on the basilica at Leptis Magna; a two-storey hall about 42 m long adjoining the forum and Capitolium."
  },
  "vici:vici-19924": {
   "desc": "A c. 50-metre Roman amphitheatre outside Diocletian's palace walls, built alongside the palace in the early 4th century AD; long mistaken for a theatre's seating, confirmed as an amphitheatre by 2013 excavations north of the old town."
@@ -2310,6 +3068,9 @@
  "vici:vici-22458": {
   "desc": "Marketplace of the Cypriot city-kingdom of Amathus, excavated 1977–1991 and 2001–2003 by Cypriot and French teams; a Doric west portico of thirteen columns led to a nymphaeum, its water supply repaired under Hadrian."
  },
+ "vici:vici-22726": {
+  "desc": "Forum basilica of the Roman town of Baelo Claudia near Tarifa, Spain, used for judicial and administrative business alongside the adjacent curia; the town flourished under Claudius on the strength of its fish-salting industry before declining in the 3rd century AD."
+ },
  "vici:vici-22779": {
   "desc": "Palace of the Sogdian ruler Varkhuman at Afrasiyab (old Samarkand); its Hall of Ambassadors was decorated c. 648-651 AD with murals of foreign envoys from China, Korea, and Iranian lands, discovered in 1965 and destroyed by Arab forces c. 675-677 AD.",
   "qid": "Q4689441",
@@ -2343,6 +3104,10 @@
  },
  "vici:vici-23654": {
   "desc": "Civic square of Augusta Treverorum (Trier), 275 x 135 m across three city blocks, expanded in the late 1st and mid-2nd centuries; a 100 x 25 m basilica was added around 300 CE under Constantius Chlorus or Constantine I."
+ },
+ "vici:vici-23664": {
+  "desc": "Civil basilica in the Roman Forum begun by Julius Caesar in 46 BC on the site of the older Basilica Sempronia, completed and dedicated by Augustus in 12 AD to his grandsons Gaius and Lucius Caesar, housing the law courts of the centumviri.",
+  "wiki": "Basilica Julia"
  },
  "vici:vici-23671": {
   "desc": "Known as the Naumachia of Taormina, this Roman brick retaining wall (122m long, 5m high, with 18 large niches) was built in the 2nd century AD to buttress the hillside and enclose a water cistern; despite the name given in 1764, it never staged naval battles."
@@ -2397,6 +3162,9 @@
  "vici:vici-24175": {
   "desc": "Stadium of Miletus, built in the first half of the 2nd century BC under Eumenes II of Pergamon; 191 m long with seating for roughly 15,000 on twelve tiers, and given a monumental colonnaded gate in the early 3rd century AD."
  },
+ "vici:vici-24196": {
+  "desc": "Forum basilica of the Roman colony Colonia Iulia Equestris (Nyon), founded by Julius Caesar around 45 BC for veteran cavalrymen; excavations since 1974 revealed two successive basilicas at the city's political and religious center."
+ },
  "vici:vici-24210": {
   "desc": "Ekklesiasterion (assembly-hall theatre) within the Asclepieion complex at Messene, first built in the late 3rd century BC for civic assemblies and performances honoring Messene and Asclepius; its proscenium and orchestra were repaired in the 1st and 3rd centuries AD."
  },
@@ -2405,6 +3173,13 @@
  },
  "vici:vici-24225": {
   "desc": "Ephesus's civic State Agora, first laid out in the 6th century BC and rebuilt in Roman style by the 1st century BC; its surviving north-side Basilica Stoa was dedicated in 11 CE by C. Sextilius Pollio."
+ },
+ "vici:vici-24259": {
+  "desc": "Aphrodisias, a Carian city famed for its sanctuary of Aphrodite, marble quarries and sculpture school, and extensive Roman-era public buildings including the Sebasteion, stadium, and theatre.",
+  "wiki": "Aphrodisias"
+ },
+ "vici:vici-24264": {
+  "desc": "Civil Basilica of Aphrodisias, a three-aisled public hall (about 145 x 30 m) off the South Agora, dedicated to the Flavian emperors in the late 1st century AD; its entrance wall bears Diocletian's Edict on Maximum Prices, inscribed in Latin in 301 AD."
  },
  "vici:vici-24275": {
   "desc": "Built on the north slope of Mount Pagos in the 3rd century BC and enlarged under Hadrian, Smyrna's theatre seated roughly 20,000 and hosted the provincial 'Asian Games'; abandoned in the 4th century AD and buried until excavations resumed in 2012-2016.",
@@ -2462,6 +3237,9 @@
  },
  "vici:vici-24550": {
   "desc": "The forum of Lousonna, a Gallo-Roman lake-port settlement at Lausanne-Vidy on Lake Geneva; comprises a public square and a 71m basilica dated by excavators to around 40 CE, now part of an archaeological park and Roman museum."
+ },
+ "vici:vici-24551": {
+  "desc": "Civic basilica of the Roman vicus of Lousonna (Lausanne-Vidy) on Lake Geneva, forming the forum complex with the town's temple and sanctuary; a large hall roughly 71 by 19 m, dated by excavators to around AD 40 with later additions."
  },
  "vici:vici-24607": {
   "desc": "Royal palace of the kings of Ugarit, a 6,500 m2 complex in the city's northwest corner enclosed by 15th-century BC fortification walls; excavated by Claude Schaeffer from the 1930s, it yielded over 1,000 cuneiform tablets (administrative, legal, diplomatic).",
@@ -2647,6 +3425,9 @@
   "desc": "Theatre of ancient Corinth, built c. 400 BC and enlarged to seat up to 18,000; rebuilt under Rome and later used as a beast-fight arena, abandoned after Alaric's 396 AD sack. The nearby 'Erastus pavement' is linked by many scholars to the Erastus of Romans 16:23.",
   "qid": "Q25451392"
  },
+ "vici:vici-25724": {
+  "desc": "A public building north of the Roman forum at Corinth, excavated by Oscar Broneer during the 1925 campaign and published as 'Area North of Basilica' in the American Journal of Archaeology (1926)."
+ },
  "vici:vici-25741": {
   "desc": "Rock-cut polygonal court, roughly 25 x 25m, at the southwest end of the Sanctuary of Hera Akraia near ancient Corinth, sometimes termed the sanctuary's agora; likely dates to the 6th century BC, contemporary with the archaic Temple of Hera Akraia."
  },
@@ -2679,6 +3460,9 @@
  "vici:vici-25917": {
   "desc": "Ruins of a theatre and stadium at Myndos, a Carian city refounded and repopulated by Hecatomnid satrap Mausolus in the mid-4th century BC; it withstood Alexander the Great's siege in 334 BC. Since eroded or built over.",
   "wiki": "Myndus"
+ },
+ "vici:vici-25967": {
+  "desc": "Civic basilica lining the west side of the Cardo in Roman Xanthos, a three-aisled portico structure about 70 m long, construction begun in the late 1st century AD and completed in the 2nd century."
  },
  "vici:vici-25987": {
   "desc": "One of two theatres at Balboura, cut into the steep southern slope of the acropolis about 70 m above the valley; its cavea is unusually interrupted by a block of natural rock, and it remains unexcavated with no inscriptions found.",
@@ -2741,6 +3525,9 @@
   "desc": "Roman-period theatral structure built around 3rd century AD around the altar of the Sanctuary of Artemis Orthia at Sparta, giving spectators seating to watch the ritual flogging (diamastigosis) of Spartan youths; excavated by the British School at Athens, 1906–10.",
   "wiki": "Sanctuary of Artemis Orthia"
  },
+ "vici:vici-26362": {
+  "desc": "Monumental basilica on the north wing of the Agora of Smyrna, a three-storey building about 160 by 29 m used by imperial officials and city magistrates for courts and public business; one of the largest basilicas of the Roman Empire after Trajan's Basilica in Rome, rebuilt after the AD 178 earthquake."
+ },
  "vici:vici-26364": {
   "desc": "U-shaped stadium on the slope of Mount Pagos (Kadifekale) in ancient Smyrna, traditionally identified as the site where bishop Polycarp was martyred by Proconsul Statius Quadratus in the mid-2nd century AD."
  },
@@ -2762,6 +3549,9 @@
  "vici:vici-26657": {
   "desc": "Roman civic square of Adada, a Pisidian hill-town that minted its own coinage and flourished under Trajan, Hadrian, and Antoninus Pius; the site preserves several temples to the emperors, including Trajan and Zeus-Serapis jointly."
  },
+ "vici:vici-26669": {
+  "desc": "One of two late-antique three-aisled basilicas at Adada, a Pisidian hill city otherwise noted for its well-preserved 2nd/3rd-century imperial temples, theatre, and agora."
+ },
  "vici:vici-26677": {
   "desc": "Roman forum of Philippi, built in phases from Claudius to Antoninus Pius east of the earlier Greek agora; held temples, a basilica, a library, and the bema traditionally identified as where Paul and Silas were flogged (Acts 16)."
  },
@@ -2776,6 +3566,9 @@
  },
  "vici:vici-26837": {
   "desc": "Frescoed reception hall of the Roman theatre at Metropolis in Ionia, paved with a mosaic (its figures debated as either a Four Seasons allegory or Dionysiac scene), uncovered during excavations running since 1989."
+ },
+ "vici:vici-27443": {
+  "desc": "Basilica on the west side of Ostia's forum, dated to the late 1st century AD and used for judicial hearings and commercial business; linked to the forum by a double portico whose marble reliefs depicted episodes from Rome's foundation legend."
  },
  "vici:vici-27446": {
   "desc": "2nd-century AD amphitheatre outside the walls of Tusculum, roughly 80 x 53 m with a capacity of about 3,000; its entrances were excavated in 1820 and the rest in 1867."
@@ -2798,6 +3591,9 @@
   "desc": "Built by Ur-Nammu and completed under Shulgi (c. 2100-2050 BC) at Ur, this 59-metre-square, 41-room brick building was excavated by Leonard Woolley, who identified it as the Third Dynasty royal palace, though its function remains debated.",
   "qid": "Q17067674",
   "wiki": "Ehursag"
+ },
+ "vici:vici-27771": {
+  "desc": "Single-aisled basilica (probably a town hall) built at Durovigutum (Godmanchester, Roman Britain) in the early 3rd century AD, c. 24m by 12.9m in Barnack ragstone and flint, possibly linked to Caracalla's empire-wide citizenship grant of 212/214 AD."
  },
  "vici:vici-27797": {
   "desc": "Residence of Ennigaldi (Bel-Shalti-Nannar), high priestess of Ur and daughter of King Nabonidus, who around 530 BC assembled here what is considered history's oldest known museum, cataloguing older Mesopotamian antiquities; excavated by Leonard Woolley in 1925.",
@@ -2831,6 +3627,10 @@
  "vici:vici-28127": {
   "desc": "Site of ancient Perperene, an Aeolian colony in Mysia on the Kozak plateau near Pergamon, noted for copper mines and vineyards; later renamed Theodosiopolis and became a Christian bishopric.",
   "wiki": "Perperene"
+ },
+ "vici:vici-28154": {
+  "desc": "Civitas Tropaensium, a Roman municipium near Adamclisi (Scythia Minor) that grew up beside Trajan's Tropaeum Traiani monument, dedicated 109 AD to commemorate his Dacian War victory; its large 4th-century forensic basilica stood near the fortress center, alongside several later Christian basilicas.",
+  "wiki": "Civitas Tropaensium"
  },
  "vici:vici-28302": {
   "desc": "The largest Roman forum on the Adriatic's eastern shore (c. 95x45 m), built under Augustus and completed per two 3rd-century dedicatory inscriptions; framed by porticoes and tabernae, with a Capitolium temple to Jupiter, Juno and Minerva.",
@@ -3009,6 +3809,9 @@
  "vici:vici-30088": {
   "desc": "One of the largest Roman theatres in Spain, partly carved into the sandstone hillside of Tiermes (Termantia), a Celtiberian hillfort allied with Numantia that became a Roman municipium in 98 BCE.",
   "wiki": "Termantia"
+ },
+ "vici:vici-30109": {
+  "desc": "Civic basilica of Colonia Ulpia Oescus, a Roman colony on the Danube near Gigen (Bulgaria) founded under Trajan c. 106-109 AD; the three-aisled hall measured roughly 100m by 24-25m and hosted trade and judicial proceedings."
  },
  "vici:vici-30154": {
   "desc": "Theatre of Magarsus, the port-sanctuary of Mallos where Alexander the Great sacrificed to Athena Magarsis before Issus; excavations uncovered a c. 30m-wide, 150m-long theatre seating roughly 3,000, with a rare sea view.",
@@ -3238,6 +4041,10 @@
  "vici:vici-31371": {
   "desc": "Bath-gymnasium complex built in the 2nd century AD by Publius Vedius Antoninus and his wife Flavia Pappiana, dedicated to Artemis and Antoninus Pius; its 70x30m palaestra beside the Great Theatre is thought to have trained actors.",
   "qid": "Q97341288"
+ },
+ "vici:vici-31374": {
+  "desc": "Basilica Stoa on the north side of Ephesus's State Agora, converted from an earlier Hellenistic stoa under Augustus; a two-storey, three-aisled Ionic hall about 160m long used for courts and commerce, where statues of Augustus and Livia were later found.",
+  "qid": "Q76533658"
  },
  "vici:vici-31392": {
   "desc": "At the Roman civitas of Murgi (Ciavieja, El Ejido), georadar survey detected a curved wall interpreted as a possible amphitheatre, supported by a 2nd-century inscription honoring Porcia Maura referencing circus games; identification remains provisional."
@@ -3646,6 +4453,9 @@
   "desc": "Forum of Roman Utica in Tunisia, an unusually large complex ringed by temples and administrative buildings; excavated from the 19th century onward, with recent seasons run by the Tunisian-British Utica Project.",
   "wiki": "Utica, Tunisia"
  },
+ "vici:vici-39918": {
+  "desc": "Basilica of Baelo Claudia, a Roman municipium on Spain's Strait of Gibraltar coast; built c. 50-70 AD at the rear of the forum as the seat of the law courts, where a statue of Trajan was later found among the ruins."
+ },
  "vici:vici-39920": {
   "desc": "Forum of Baelo Claudia (Bolonia, Spain), the only fully excavated Roman forum in Hispania; the surviving remains were rebuilt under Claudius-Nero (AD 50-70) and face a capitolium with temples to Jupiter, Juno and Minerva.",
   "wiki": "Baelo Claudia"
@@ -3766,6 +4576,9 @@
  "vici:vici-4213": {
   "desc": "Amphitheatre of Roman Canusium (Canosa di Puglia), an Apulian municipium on the Via Traiana near Trajan's arch; ancient descriptions record it as larger than the amphitheatre at Pompeii."
  },
+ "vici:vici-42160": {
+  "desc": "Civil basilica closing the south side of Aquileia's forum, erected in the 1st century AD and enlarged in the 2nd; a nave-and-aisle hall with Medusa and Jupiter Ammon reliefs, used for judicial and administrative business (distinct from the later Christian basilica church at the site)."
+ },
  "vici:vici-4220": {
   "desc": "So-called amphitheatre of Egnatia (ancient Gnathia); its small size (37 x 25 m) and lack of seating tiers or underground chambers have led some scholars to reinterpret it as a market plaza rather than a spectacle building."
  },
@@ -3821,8 +4634,14 @@
  "vici:vici-4296": {
   "desc": "Oval Roman amphitheatre built for the colonia of veterans Julius Caesar settled behind the older Greek city of Emporion; its 75 by 44m arena held only about 3,300 spectators, a more modest design than originally planned."
  },
+ "vici:vici-42972": {
+  "desc": "Forum basilica of Augusta Raurica near Basel; the forum's stone buildings, including the basilica, replaced earlier timber structures from c. 20-50 AD and were rebuilt after a fire gutted the complex around 150 AD."
+ },
  "vici:vici-42990": {
   "desc": "The civic forum of Roman Gnathia (Egnazia) on the Adriatic coast, flanked by porticoes, a basilica and a sanctuary; excavation of the site began in 1912 and continues today."
+ },
+ "vici:vici-42992": {
+  "desc": "Civil basilica of Roman Egnatia (Gnathia) on Puglia's Adriatic coast, part of the forum complex astride the Via Traiana; it included the Hall of the Three Graces, named for a sculptural group now held in the site's museum."
  },
  "vici:vici-4301": {
   "desc": "Built in the 2nd century AD near Tarraco's forum (130 by 102m, c.15,000 seats), this amphitheatre is where bishop Fructuosus and his deacons Augurius and Eulogius were burned alive in AD 259 during Valerian's persecution of Christians.",
@@ -3838,11 +4657,20 @@
  "vici:vici-43050": {
   "desc": "Seat of the Armenian Catholicos at Dvin, an early 7th-century complex centered on a colonnaded hall over 26 m long with carved capitals; a key monument of early medieval Armenian civil architecture, ruined by a catastrophic earthquake in the late 9th century."
  },
+ "vici:vici-43065": {
+  "desc": "The great apsidal audience hall (\"basilica\") of the Villa Romana del Casale near Piazza Armerina, a lavish late Roman villa of the 4th century AD; the 100-Roman-foot throne room was floored and walled in colored marble and porphyry."
+ },
  "vici:vici-43076": {
   "desc": "The macellum (covered market) of Aquincum's civil town, built in the mid-3rd century AD with a colonnaded courtyard and a central round tholos, its plan echoing North African market halls."
  },
  "vici:vici-43079": {
   "desc": "The forum of the civilian town of Aquincum (Roman Budapest), the administrative and market centre of the municipium/colonia, built with a large temple and assembly hall within the walled town founded c. AD 124."
+ },
+ "vici:vici-43080": {
+  "desc": "Civic basilica beside the forum of Aquincum's civil town, a 3rd-century AD rectangular hall used for legal proceedings, markets, and public assembly in this provincial capital of Pannonia (modern Budapest)."
+ },
+ "vici:vici-43103": {
+  "desc": "Basilica of the forum complex at Cambodunum (modern Kempten), first capital of the Roman province of Raetia from the 1st century AD, where court sessions were held next to the town's market square."
  },
  "vici:vici-43105": {
   "desc": "The forum and basilica of Cambodunum (Kempten), first capital of the Roman province of Raetia, rebuilt in stone after a fire destroyed the largely timber town in AD 69."
@@ -4008,8 +4836,14 @@
   "desc": "The unfinished Roman theater of Palmyra, built in the Severan 2nd century AD with a cavea of eleven sections/twelve rows never completed; buried in sand for centuries, it was excavated and restored in the 1950s, and its stage facade was destroyed by ISIL in 2017.",
   "wiki": "Roman Theatre at Palmyra"
  },
+ "vici:vici-50810": {
+  "desc": "The \"Basilica Cisterna,\" a 3rd-century civic basilica forensis with an underlying water cistern at Civitas Tropaensium (Adamclisi), the city that grew beside Trajan's victory monument commemorating his Dacian wars of 101-106 AD."
+ },
  "vici:vici-51051": {
   "desc": "Carteia, granted colony status in 171 BC as the first Roman colony outside Italy, had an amphitheatre whose remains 19th-century antiquarians recorded as still traceable, though its construction date and capacity were never documented."
+ },
+ "vici:vici-51111": {
+  "desc": "The smaller, older of twin 5th-century Early Christian basilicas at Nesactium in Istria, used for baptism and religious ceremony, with a baptistery, catechumenumium, and cemetery chapels along its side walls."
  },
  "vici:vici-52210": {
   "desc": "A mound within the Kassite capital of Dur-Kurigalzu near Baghdad; Iraqi excavations in 1992, 1993 and 2001 uncovered Late Kassite and Parthian-Sasanian remains, painted wall plaster, a cylinder seal, and cuneiform tablets dated to king Nazi-Maruttash."
@@ -4104,6 +4938,9 @@
  "vici:vici-55323": {
   "desc": "The king's audience chamber south of the palace courtyards at Susa, where Darius I and his successors received visitors on the royal throne; excavated with the adjoining Apadana in the 1880s–1900s.",
   "wiki": "Palace of Darius in Susa"
+ },
+ "vici:vici-55560": {
+  "desc": "The \"Basilica dei Bassi,\" a 1st-century AD hall on the north side of the forum at Rusellae (Roselle) in Tuscany, its marble-clad interior displaying inscribed statues of the local Bassus family for whom it is named."
  },
  "vici:vici-55721": {
   "desc": "The main royal palace (Building M 750) of the Kushite capital at Meroë, excavated by John Garstang in the early 20th century and again in 2004–2007, revealing courtyard architecture and an earlier mudbrick palace beneath dating to c. 900 BCE."
@@ -4338,6 +5175,9 @@
   "qid": "Q1114895",
   "wiki": "Comitium"
  },
+ "vici:vici-64541": {
+  "desc": "Civil basilica on the west side of the Roman forum at Torreparedones (ancient Ituci Virtus Iulia, near Baena), built in the 1st century AD; a rectangular hall of about 350 m² used for justice and civic business."
+ },
  "vici:vici-64584": {
   "desc": "Despite the generic vici label \"Circus,\" this point marks the Roman theatre of Alba Fucens, built 2nd-1st century BC on the Pettorino hill slope east of the Hercules sanctuary; no longer visible above ground today."
  },
@@ -4390,6 +5230,12 @@
  },
  "vici:vici-64666": {
   "desc": "Amphitheater of the Roman spa town Aquae Statiellae (modern Acqui Terme), built on the settlement's outskirts near the Via Aemilia Scauri and identified by excavation in the 1960s alongside the town's thermal baths."
+ },
+ "vici:vici-64746": {
+  "desc": "One of two churches in the Christian quarter of Cuicul (Djémila), Numidia, built alongside the Basilica of Cresconius in the late 4th–early 5th century as part of a complex with crypts and a monumental baptistery."
+ },
+ "vici:vici-64747": {
+  "desc": "Principal church of the Christian quarter at Cuicul (Djémila), founded by Bishop Cresconius around 400-411; a nave-and-aisles basilica roughly 40 by 28 meters, paired with a second basilica, crypts, and baptistery."
  },
  "vici:vici-65356": {
   "desc": "Amphitheater of Roman Carpis (colonia Iulia Carpitana), a Cape Bon coastal town possibly founded under Caesar or Augustus; its rubble-masonry remains stand beside a large cistern that received an aqueduct at El Mraissa."
@@ -4519,6 +5365,9 @@
   "qid": "Q97190950",
   "wiki": "Umm al-Walid"
  },
+ "vici:vici-70119": {
+  "desc": "Roman forum basilica at Simitthus (Chemtou), a marble-quarrying town in Numidia; only the building's massive apse (c. 6.9 m diameter, 3.45 m deep) survives, from a forum complex dated to the 3rd–4th century AD."
+ },
  "vici:vici-70125": {
   "desc": "Forum of Simitthus (Chemtou), Tunisia's source of prized golden Numidian marble; built over Numidian royal tombs and a native temple, only the basilica's massive apse survives. Excavated since the late 1960s by a Tunisian-German team led by Friedrich Rakob.",
   "wiki": "Chemtou"
@@ -4528,6 +5377,11 @@
  },
  "vici:vici-70249": {
   "desc": "Roman circus of Carmona, an estimated 290 m long and built into the local slope, part of the city's spectacle complex with its amphitheatre and necropolis; poorly documented and its construction date still uncertain."
+ },
+ "vici:vici-70308": {
+  "desc": "Also known as the Bishop's Basilica of Philippopolis, this mid-4th-century Christian church (86 x 38.5 m) is the largest early-Christian basilica found in Bulgaria, famed for roughly 2,000 m² of bird and geometric floor mosaics.",
+  "qid": "Q20500169",
+  "wiki": "Great Basilica, Plovdiv"
  },
  "vici:vici-70582": {
   "desc": "Roman circus of Corduba (Cordoba), capital of Baetica, built between the reigns of Nero and Domitian at roughly 400 x 100 m with an ornamented spina; abandoned after structural failure by the mid-2nd century AD."
@@ -4629,6 +5483,9 @@
  },
  "vici:vici-78993": {
   "desc": "Gallo-Roman theatre uncovered in a 2022 rescue excavation near Metz, on the Roman road to Reims via Verdun; estimated to have held up to 6,000 spectators, possibly at the site of ancient Ibliodurum."
+ },
+ "vici:vici-79042": {
+  "desc": "The civil basilica (curia) on the north side of the Roman forum at Paestum, a three-aisled rectangular hall built in the 1st century BC where the town council met and magistrates administered justice."
  },
  "vici:vici-7905": {
   "desc": "Roman theatre built under Augustus as part of Glanum's monumental rebuilding alongside temples, a basilica, baths, and a triumphal arch, on a Hellenistic town site centered on a sacred healing spring."
@@ -4857,6 +5714,9 @@
   "desc": "Roman theatre of Capitolias (Beit Ras), a Decapolis city founded c. 97-98 CE under Nerva or Trajan and named for Jupiter Capitolinus. Archaeoseismic study identified at least two ancient earthquake phases that damaged and helped end its use.",
   "qid": "Q1226916",
   "wiki": "Capitolias"
+ },
+ "vici:vici-9966": {
+  "desc": "Monumental basilica of the forum at Lopodunum (Ladenburg), built under Trajan as the civic center of a Neckarsueben civitas; with the forum it measured 130 x 84 m, the largest known Roman building complex in southern Germany."
  },
  "vici:vici-9993": {
   "desc": "Forum of Roman Karales (Cagliari), sited beneath today's Piazza del Carmine; surviving inscriptions attest surrounding temples, granaries, the praetorium, a courthouse, and at least three bath complexes."
