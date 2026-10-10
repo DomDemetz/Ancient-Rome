@@ -84,7 +84,18 @@ function MapNavHandler() {
     if (!pendingFlyTo) return
 
     const { lat, lng } = pendingFlyTo
-    map.flyTo([lat, lng], pendingFlyTo.zoom ?? 9, { duration: 1.2 })
+    const zoom = pendingFlyTo.zoom ?? 9
+    // A fly moves the map by shifting its pixel origin, and only a 'zoom'
+    // event tells name labels (permanent tooltips) to follow. Leaflet fires
+    // one whenever a frame's zoom differs from the last — but a same-zoom fly
+    // whose mid-flight frames are starved (a shared link flying while the
+    // first data loads, a background tab) jumps from first frame to last at
+    // an unchanged zoom: no 'zoom' fires, and city names stayed where the map
+    // USED to be centred. Send it ourselves, for that case only.
+    const sameZoom = zoom === map.getZoom()
+    map.flyTo([lat, lng], zoom, { duration: 1.2 })
+    // registered after flyTo: starting a fly can itself end a running pan
+    if (sameZoom) map.once('moveend', () => map.fire('zoom'))
     clearFlyTo()
 
     // Remove any highlight still pending from a previous search
