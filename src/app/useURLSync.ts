@@ -29,6 +29,13 @@ export function datasetsToParam(): string {
     .join(',')
 }
 
+/** Measurement aids as a URL value (?measure=grid,scale) — a teacher's link
+ *  opens with the grid already on. */
+export function measureToParam(): string {
+  const { showGraticule, showScaleBar } = useUIStore.getState()
+  return [showGraticule && 'grid', showScaleBar && 'scale'].filter(Boolean).join(',')
+}
+
 export function useURLSync() {
   const [, setSearchParams] = useSearchParams()
   const select = useSelectionStore((s) => s.select)
@@ -56,6 +63,12 @@ export function useURLSync() {
 
     const entityId = params.get('entity')
     if (entityId) select(entityId)
+
+    const measure = (params.get('measure') ?? '').split(',')
+    useUIStore.setState({
+      showGraticule: measure.includes('grid'),
+      showScaleBar: measure.includes('scale'),
+    })
 
     const latParam = params.get('lat')
     const lngParam = params.get('lng')
@@ -103,6 +116,9 @@ export function useURLSync() {
         const ds = datasetsToParam()
         if (ds) next.set('ds', ds)
         else next.delete('ds')
+        const measure = measureToParam()
+        if (measure) next.set('measure', measure)
+        else next.delete('measure')
         if (next.toString() === new URLSearchParams(window.location.search).toString()) return
         setSearchParams(next, { replace: true })
       })

@@ -287,6 +287,27 @@ export const LAYER_GROUPS: LayerGroup[] = [
       },
     ],
   },
+  {
+    // not data layers — state lives in useUIStore so presets leave them alone
+    label: 'Measure',
+    layers: [
+      {
+        key: 'Graticule',
+        label: 'Grid Lines',
+        activeClass: 'bg-slate-800/80 border-slate-600 text-slate-100 hover:bg-slate-700/80',
+      },
+      {
+        key: 'ScaleBar',
+        label: 'Distance Scale',
+        activeClass: 'bg-slate-800/80 border-slate-600 text-slate-100 hover:bg-slate-700/80',
+      },
+      {
+        key: 'Ruler',
+        label: 'Ruler',
+        activeClass: 'bg-slate-800/80 border-slate-600 text-slate-100 hover:bg-slate-700/80',
+      },
+    ],
+  },
 ]
 
 // One panel toggle per atlas kind (the toggles ARE the things): registry

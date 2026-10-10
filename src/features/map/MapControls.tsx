@@ -61,6 +61,9 @@ import {
   Circle,
   BrickWall,
   DoorOpen,
+  Grid3x3,
+  Ruler,
+  PencilRuler,
 } from 'lucide-react'
 import type { Map as LeafletMap } from 'leaflet'
 import { useMapLayerStore, PRESETS, LAYER_GROUPS, ALL_LAYER_KEYS } from '@/stores/useMapLayerStore'
@@ -75,6 +78,7 @@ import {
 } from './layers/settlementStyles'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { useUIStore } from '@/stores/useUIStore'
+import { measureToParam } from '@/app/useURLSync'
 import { cn } from '@/lib/utils'
 import { Button } from '@/ui/button'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/ui/drawer'
@@ -88,6 +92,7 @@ const GROUP_ICONS: Record<string, typeof Globe> = {
   Religion: Sparkles,
   Roads: Route,
   Infrastructure: Route,
+  Measure: Ruler,
   Points: MapPin,
 }
 
@@ -376,6 +381,8 @@ function ShareButton({ isMobile }: { isMobile: boolean }) {
       .filter(([, v]) => v?.show)
       .map(([id]) => id)
     if (ds.length) params.set('ds', ds.join(','))
+    const measure = measureToParam()
+    if (measure) params.set('measure', measure)
     const url = `${location.origin}${location.pathname}?${params.toString()}`
     try {
       await navigator.clipboard.writeText(url)
@@ -435,6 +442,12 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
   })
   const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
   const isMobile = useUIStore((s) => s.isMobile)
+  const showGraticule = useUIStore((s) => s.showGraticule)
+  const showScaleBar = useUIStore((s) => s.showScaleBar)
+  const toggleGraticule = useUIStore((s) => s.toggleGraticule)
+  const toggleScaleBar = useUIStore((s) => s.toggleScaleBar)
+  const rulerActive = useUIStore((s) => s.rulerActive)
+  const toggleRuler = useUIStore((s) => s.toggleRuler)
 
   useEffect(() => {
     if (panelOpen) {
@@ -622,6 +635,9 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
       toggle: toggleNotablePeople,
       icon: User,
     },
+    Graticule: { active: showGraticule, loading: false, toggle: toggleGraticule, icon: Grid3x3 },
+    ScaleBar: { active: showScaleBar, loading: false, toggle: toggleScaleBar, icon: Ruler },
+    Ruler: { active: rulerActive, loading: false, toggle: toggleRuler, icon: PencilRuler },
   }
 
   const typeCounts = useMemo(() => {

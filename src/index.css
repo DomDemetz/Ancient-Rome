@@ -779,6 +779,59 @@ input[type='range']::-moz-range-thumb {
   pointer-events: none;
 }
 
+/* graticule degree labels — instrument voice, pinned to the view's edge */
+.graticule-label-wrap {
+  background: transparent;
+  border: none;
+}
+.graticule-label {
+  width: max-content; /* see .empire-label — 0-width divIcon wrapper */
+  white-space: nowrap;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  color: #e2e8f0;
+  opacity: 0.8;
+  text-shadow:
+    0 0 3px rgba(0, 0, 0, 0.9),
+    0 1px 2px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+/* ruler: while measuring, clicks belong to the ruler — no dot, road or
+   label underneath may answer them (panning still works: Leaflet drags
+   from the container itself) */
+.ruler-active {
+  cursor: crosshair !important;
+}
+.ruler-active .leaflet-pane * {
+  pointer-events: none !important;
+}
+.ruler-label {
+  width: max-content;
+  transform: translate(-50%, -135%);
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: rgba(10, 10, 12, 0.88);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  font-size: 10px;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
+  color: #94a3b8;
+  text-align: center;
+  pointer-events: none;
+}
+.ruler-label b {
+  display: block;
+  font-size: 12px;
+  color: #fffbeb;
+}
+.graticule-label--lat {
+  transform: translate(0, -110%);
+}
+.graticule-label--lng {
+  transform: translate(4px, -100%);
+}
+
 /* river & lake names — the sea voice, one register quieter */
 .sea-label--water {
   font-size: 11px;

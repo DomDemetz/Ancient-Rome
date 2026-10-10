@@ -11,6 +11,8 @@ import { TerritoryLayer } from './layers/TerritoryLayer'
 import { EmpiresLayer } from './layers/EmpiresLayer'
 import { SeaLabels } from './layers/SeaLabels'
 import { MonumentLabels } from './overlays/MonumentLabels'
+import { Graticule } from './overlays/Graticule'
+import { Ruler } from './overlays/Ruler'
 import { RoadLayer } from './layers/RoadLayer'
 import { PlacesLayer } from './layers/PlacesLayer'
 import { LimesLayer } from './layers/LimesLayer'
@@ -31,11 +33,13 @@ import { DATASET_REGISTRY } from '@/data/datasetRegistry'
 import { BASE_SOURCES, type AttributionKey } from '@/lib/attribution'
 import { MapControls } from './MapControls'
 import { SitesLegend } from './controls/SettlementLegend'
+import { ScaleLegend } from './controls/ScaleLegend'
 import { EmperorBanner } from './controls/EmperorBanner'
 import { StatsOverlay } from './controls/StatsOverlay'
 import { TimelinePlayer } from '@/features/timeline/TimelinePlayer'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
+import { useUIStore } from '@/stores/useUIStore'
 
 /** Listens for flyTo requests from the global nav store and highlights the target */
 function MapNavHandler() {
@@ -137,6 +141,18 @@ function BasePane() {
     if (!map.getPane('basePolygons')) {
       const pane = map.createPane('basePolygons')
       pane.style.zIndex = '250'
+    }
+    if (!map.getPane('graticule')) {
+      // measurement grid: over the political fills, under every road and dot
+      const pane = map.createPane('graticule')
+      pane.style.zIndex = '260'
+      pane.style.pointerEvents = 'none'
+    }
+    if (!map.getPane('ruler')) {
+      // the measuring line rides above every dot and label
+      const pane = map.createPane('ruler')
+      pane.style.zIndex = '620'
+      pane.style.pointerEvents = 'none'
     }
 
     // At city zooms the political wash stops informing (one polity fills the
@@ -291,6 +307,9 @@ export function MapView() {
     loadTerritories().then(setTerritories)
   }, [])
   const mapRef = useRef<LeafletMap | null>(null)
+  const showGraticule = useUIStore((s) => s.showGraticule)
+  const rulerActive = useUIStore((s) => s.rulerActive)
+  const isMobile = useUIStore((s) => s.isMobile)
 
   // Smart default: open with Conquest preset at 100 AD with brief autoplay
   const initRef = useRef(false)
@@ -448,6 +467,7 @@ export function MapView() {
           {/* famous-site names at z>=10 — the overlay self-gates by zoom and
               only labels types whose dot layer is actually on */}
           <MonumentLabels />
+          {showGraticule && <Graticule />}
 
           {/* Base layers — every record is date-bounded and self-filters (start/
               end or attested/decline years), so they render across the WHOLE
@@ -516,6 +536,7 @@ export function MapView() {
           {/* Battles render in every era — the Byzantine centuries have their
               own pivotal sieges (Constantinople 674, 717, 1204, 1453; Manzikert). */}
           {showBattles && battlesData && <BattleLayer data={battlesData} />}
+          {rulerActive && <Ruler />}
         </MapContainer>
 
         {/* atlas-plate vignette: sits over the map, under the UI */}
@@ -527,7 +548,15 @@ export function MapView() {
           mapRef={mapRef}
         />
 
-        {DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show) && <SitesLegend />}
+        {/* bottom-left keys: site colors, then distances */}
+        <div
+          className={`absolute z-[1000] left-3 flex items-end gap-2 pointer-events-none ${
+            isMobile ? 'bottom-4' : 'bottom-6'
+          }`}
+        >
+          {DATASET_REGISTRY.some((cfg) => datasetState[cfg.id]?.show) && <SitesLegend />}
+          <ScaleLegend />
+        </div>
 
         {showEmperors && emperorsData && <EmperorBanner emperors={emperorsData} />}
 
