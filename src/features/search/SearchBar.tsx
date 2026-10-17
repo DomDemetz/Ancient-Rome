@@ -81,7 +81,7 @@ function loadSiteSearch(): Promise<SiteSearchEntry[]> {
 // NOT eagerly loaded: the 2.4 MB entity manifest waits for the first
 // search interaction instead of taxing every visitor's boot
 import { useSelectionStore } from '@/stores/useSelectionStore'
-import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
+import { useFeatureDetailStore, type FeatureFallback } from '@/stores/useFeatureDetailStore'
 import { useFilterStore } from '@/stores/useFilterStore'
 import { useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
@@ -147,6 +147,18 @@ interface SearchItem {
   sub?: string // right-aligned secondary line (reign, year, role) — eight Constantines need telling apart
   siteType?: string // parent entity type — resolves the dot layer regardless of display subtype
   alt?: string // alternative names from cross-reference (Colosseum for Flavian Amphitheater)
+}
+
+/** The panel's minimal record when a result has no knowledge entry (~40% of
+ *  minor settlements): what the row itself showed, instead of "No record found." */
+function fallbackOf(item: SearchItem): FeatureFallback {
+  const dates = item.lifespan
+    ? `${formatYear(item.lifespan[0])} – ${formatYear(item.lifespan[1])}`
+    : item.year != null
+      ? formatYear(item.year)
+      : undefined
+  const kind = item.sub && item.sub !== dates ? item.sub : item.category
+  return { title: item.name, kind, dates }
 }
 
 // non-kind search categories (emperors, empires, battles...) keep bespoke
@@ -681,7 +693,7 @@ export function SearchBar() {
     if (item.id.startsWith('site-')) {
       const crKey = item.id.slice(5) // strip 'site-'
       if (crKey) {
-        useFeatureDetailStore.getState().openFeature(crKey, 'crossref')
+        useFeatureDetailStore.getState().openFeature(crKey, 'crossref', undefined, fallbackOf(item))
       }
     }
 
@@ -689,7 +701,7 @@ export function SearchBar() {
     // (settlement:<dareId> | pleiades:<pid> | wd-Q<id>) from index build
     if (item.id.startsWith('settlement-')) {
       const crKey = item.id.replace('settlement-', '')
-      useFeatureDetailStore.getState().openFeature(crKey, 'crossref')
+      useFeatureDetailStore.getState().openFeature(crKey, 'crossref', undefined, fallbackOf(item))
     }
 
     // If it has coordinates, fly there
