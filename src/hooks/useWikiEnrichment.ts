@@ -83,23 +83,9 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
   ),
   battles: makeLayerLoader(async () => (await import('@/data/wiki')).loadBattleWiki(), 'battles'),
   // graph-keyed consolidated knowledge: crossRef ships inline, no merge pass
-  'knowledge-places': async () => {
-    // two tiers: core-node knowledge (~2 MB) returns immediately; the
-    // minor-node tier (~4 MB) merges into this same cache entry when it
-    // lands — consumers re-render via notify, open popups update in place
-    const wiki = await import('@/data/wiki')
-    const core = await wiki.loadKnowledgePlacesCore()
-    wiki
-      .loadKnowledgePlacesMinor()
-      .then((minor) => {
-        cache.set('knowledge-places', { ...(cache.get('knowledge-places') ?? core), ...minor })
-        notify()
-      })
-      .catch(() => {
-        /* minor tier is optional enrichment */
-      })
-    return core
-  },
+  // two tiers: core-node knowledge (~2 MB) loads with the layer; the
+  // minor-node tier (~4 MB) only on requestKnowledgePlacesMinor()
+  'knowledge-places': async () => (await import('@/data/wiki')).loadKnowledgePlacesCore(),
   'knowledge-places-detail': async () => (await import('@/data/wiki')).loadKnowledgePlacesDetail(),
   'knowledge-features': async () => (await import('@/data/wiki')).loadKnowledgeFeatures(),
   'knowledge-features-detail': async () =>
@@ -127,6 +113,33 @@ const LAYER_LOADERS: Record<string, () => Promise<WikiLookup>> = {
     'aqueducts',
   ),
   ports: makeLayerLoader(async () => (await import('@/data/wiki')).loadPortWiki(), 'ports'),
+}
+
+// Minor-node knowledge belongs to the places detail tier (zoom 7+). It merges
+// into the 'knowledge-places' entry whichever of the two lands first.
+let placesMinor: WikiLookup | null = null
+let placesMinorRequested = false
+
+function withPlacesMinor(layer: string, data: WikiLookup): WikiLookup {
+  return layer === 'knowledge-places' && placesMinor ? { ...data, ...placesMinor } : data
+}
+
+export function requestKnowledgePlacesMinor(): void {
+  if (placesMinorRequested) return
+  placesMinorRequested = true
+  import('@/data/wiki')
+    .then((wiki) => wiki.loadKnowledgePlacesMinor())
+    .then((minor) => {
+      placesMinor = minor
+      const core = cache.get('knowledge-places')
+      if (core) {
+        cache.set('knowledge-places', withPlacesMinor('knowledge-places', core))
+        notify()
+      }
+    })
+    .catch(() => {
+      placesMinorRequested = false // optional enrichment; a later request retries
+    })
 }
 
 const loading = new Set<string>()
@@ -160,7 +173,7 @@ export function useWikiEnrichment(layer: string | null): WikiLookup | null {
     loading.add(layer)
     loader()
       .then((data) => {
-        cache.set(layer, data)
+        cache.set(layer, withPlacesMinor(layer, data))
         notify()
       })
       .catch(() => {

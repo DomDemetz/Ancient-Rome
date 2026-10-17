@@ -360,6 +360,8 @@ interface MapLayerState {
   showItinereRoads: boolean
   roadsData: FeatureCollection | null
   placesData: PlaceNode[] | null
+  /** the zoom-7+ detail tier has been merged into placesData */
+  placesDetailLoaded: boolean
   limesData: FeatureCollection | null
   islamicConquestsData: FeatureCollection | null
   presenceData: PresenceGrid | null
@@ -524,6 +526,42 @@ function ensureLoaded(
   }
 }
 
+// Places load in two tiers. The core (~0.7 MB) is everything renderable at
+// empire zooms; the detail tier (5.8 MB of minors/gazetteer) first renders at
+// zoom 7, so it waits until something needs it: PlacesLayer reaching zoom 7,
+// or the search box (minor places are only searchable through placesData).
+async function loadPlacesCoreTier(): Promise<PlaceNode[]> {
+  const { loadPlacesCore } = await import('@/data/places')
+  return loadPlacesCore()
+}
+
+/** Zoom at which PlacesLayer fetches the detail tier. Its nodes first render
+ *  at 8 (PlacesLayer getZoomThreshold); 7 prefetches one step early. */
+export const PLACES_DETAIL_MIN_ZOOM = 7
+
+let placesDetailPromise: Promise<void> | null = null
+
+/** Merge the detail tier into placesData, once. No-op until the core tier
+ *  is in (callers re-request when it is: they only run with placesData). */
+export function requestPlacesDetail(): Promise<void> {
+  if (!useMapLayerStore.getState().placesData) return Promise.resolve()
+  placesDetailPromise ??= import('@/data/places')
+    .then(({ loadPlacesDetail }) => loadPlacesDetail())
+    .then((detail) => {
+      const cur = useMapLayerStore.getState().placesData ?? []
+      const have = new Set(cur.map((p) => p.id))
+      useMapLayerStore.setState({
+        placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
+        placesDetailLoaded: true,
+      })
+    })
+    .catch((err) => {
+      console.error('places detail tier failed:', err)
+      placesDetailPromise = null // let the next zoom/search retry
+    })
+  return placesDetailPromise
+}
+
 // Compact loader registry: maps each showKey to an ensureLoaded call.
 // Shared by activatePreset (preset activation) and setLayers (story steps).
 const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<void>> = {
@@ -531,38 +569,12 @@ const LAYER_LOADERS: Record<string, (set: StoreSet, get: StoreGet) => Promise<vo
     const { loadRoads } = await import('@/data/dare')
     return { roadsData: await loadRoads() }
   }),
-  showSettlements: ensureLoaded('placesData', 'placesLoading', async () => {
-    // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
-    // minor/gazetteer tier (zoom 7+) streams in behind it
-    const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
-    const core = await loadPlacesCore()
-    loadPlacesDetail()
-      .then((detail) => {
-        const cur = useMapLayerStore.getState().placesData ?? []
-        const have = new Set(cur.map((p) => p.id))
-        useMapLayerStore.setState({
-          placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
-        })
-      })
-      .catch((err) => console.error('places detail tier failed:', err))
-    return { placesData: core }
-  }),
-  showCities: ensureLoaded('placesData', 'placesLoading', async () => {
-    // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
-    // minor/gazetteer tier (zoom 7+) streams in behind it
-    const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
-    const core = await loadPlacesCore()
-    loadPlacesDetail()
-      .then((detail) => {
-        const cur = useMapLayerStore.getState().placesData ?? []
-        const have = new Set(cur.map((p) => p.id))
-        useMapLayerStore.setState({
-          placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
-        })
-      })
-      .catch((err) => console.error('places detail tier failed:', err))
-    return { placesData: core }
-  }),
+  showSettlements: ensureLoaded('placesData', 'placesLoading', async () => ({
+    placesData: await loadPlacesCoreTier(),
+  })),
+  showCities: ensureLoaded('placesData', 'placesLoading', async () => ({
+    placesData: await loadPlacesCoreTier(),
+  })),
   showEmpires: ensureLoaded('empiresData', 'empiresLoading', async () => {
     // progressive: paint the CURRENT era's polities first (~2-5 MB), then
     // pull the remaining era buckets in the background so playback and
@@ -712,6 +724,7 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
   empiresData: null,
   empiresLoading: false,
   placesData: null,
+  placesDetailLoaded: false,
   placesLoading: false,
   showLimes: false,
   limesData: null,
@@ -775,40 +788,14 @@ export const useMapLayerStore = create<MapLayerState & MapLayerActions>((set, ge
     })(set, get),
 
   toggleSettlements: () =>
-    makeToggle('showSettlements', 'placesData', 'placesLoading', async () => {
-      // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
-      // minor/gazetteer tier (zoom 7+) streams in behind it
-      const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
-      const core = await loadPlacesCore()
-      loadPlacesDetail()
-        .then((detail) => {
-          const cur = useMapLayerStore.getState().placesData ?? []
-          const have = new Set(cur.map((p) => p.id))
-          useMapLayerStore.setState({
-            placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
-          })
-        })
-        .catch((err) => console.error('places detail tier failed:', err))
-      return { data: core }
-    })(set, get),
+    makeToggle('showSettlements', 'placesData', 'placesLoading', async () => ({
+      data: await loadPlacesCoreTier(),
+    }))(set, get),
 
   toggleCities: () =>
-    makeToggle('showCities', 'placesData', 'placesLoading', async () => {
-      // core tier paints the empire-zoom dots instantly (~0.5 MB); the 5.6 MB
-      // minor/gazetteer tier (zoom 7+) streams in behind it
-      const { loadPlacesCore, loadPlacesDetail } = await import('@/data/places')
-      const core = await loadPlacesCore()
-      loadPlacesDetail()
-        .then((detail) => {
-          const cur = useMapLayerStore.getState().placesData ?? []
-          const have = new Set(cur.map((p) => p.id))
-          useMapLayerStore.setState({
-            placesData: [...cur, ...detail.filter((p) => !have.has(p.id))],
-          })
-        })
-        .catch((err) => console.error('places detail tier failed:', err))
-      return { data: core }
-    })(set, get),
+    makeToggle('showCities', 'placesData', 'placesLoading', async () => ({
+      data: await loadPlacesCoreTier(),
+    }))(set, get),
 
   toggleEmpires: () =>
     makeToggle('showEmpires', 'empiresData', 'empiresLoading', async () => {

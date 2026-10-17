@@ -83,7 +83,7 @@ function loadSiteSearch(): Promise<SiteSearchEntry[]> {
 import { useSelectionStore } from '@/stores/useSelectionStore'
 import { useFeatureDetailStore } from '@/stores/useFeatureDetailStore'
 import { useFilterStore } from '@/stores/useFilterStore'
-import { useMapLayerStore } from '@/stores/useMapLayerStore'
+import { requestPlacesDetail, useMapLayerStore } from '@/stores/useMapLayerStore'
 import { useMapNavStore } from '@/stores/useMapNavStore'
 import { useTimelineStore } from '@/stores/useTimelineStore'
 import { useUIStore } from '@/stores/useUIStore'
@@ -205,6 +205,13 @@ export function SearchBar() {
   useEffect(() => {
     if (open && !_siteSearchCache) loadSiteSearch().then(setSiteSearch)
   }, [open])
+
+  // minor places are searchable only through placesData's detail tier,
+  // which the map otherwise fetches at zoom 7
+  const placesLoaded = layerData.placesData != null
+  useEffect(() => {
+    if (open && placesLoaded) requestPlacesDetail()
+  }, [open, placesLoaded])
 
   // Build a unified search index from all data sources
   const searchItems = useMemo(() => {

@@ -5,7 +5,8 @@ import type { PlaceNode, PlacePopulationPoint } from '@/data/places'
 import { popAt } from './populationCurve'
 import { DARE_HORIZON, inTerritoryWindow, inWindow } from './temporal'
 import { useTimelineStore } from '@/stores/useTimelineStore'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { requestKnowledgePlacesMinor, useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { PLACES_DETAIL_MIN_ZOOM, requestPlacesDetail } from '@/stores/useMapLayerStore'
 import { appendWikiTooltip, appendCrossRefTooltip, esc } from '@/lib/wiki-popup'
 import {
   DARE_TYPE_TO_CATEGORY,
@@ -100,6 +101,12 @@ export function PlacesLayer({
   const currentYear = useTimelineStore((s) => s.currentYear)
   const knowledge = useWikiEnrichment('knowledge-places')
   const sharedPopupRef = useRef<L.Popup | null>(null)
+
+  useEffect(() => {
+    if (zoom < PLACES_DETAIL_MIN_ZOOM) return
+    requestPlacesDetail()
+    requestKnowledgePlacesMinor()
+  }, [zoom])
 
   const openPopup = useCallback(
     (p: PlaceNode) => {

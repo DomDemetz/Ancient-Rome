@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useWikiEnrichment } from '@/hooks/useWikiEnrichment'
+import { requestKnowledgePlacesMinor, useWikiEnrichment } from '@/hooks/useWikiEnrichment'
 import type { WikiLookup } from '@/data/wiki'
 
 /**
@@ -34,6 +34,9 @@ export function useEntityKnowledge() {
         const isNode = !!detailKey && NODE_KEY.test(detailKey)
         if (isNode) {
           const key = detailKey!
+          // a minor node's knowledge waits for the zoom-7 tier; a popup
+          // asking for one pulls it in (lands for the next open)
+          if (places && !places[key]) requestKnowledgePlacesMinor()
           return { entry: places?.[key], layerName: 'knowledge-places', key }
         }
         if (features?.[id]) {

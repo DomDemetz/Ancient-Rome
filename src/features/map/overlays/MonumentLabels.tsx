@@ -49,6 +49,8 @@ function loadManifest(): Promise<ManifestEntry[]> {
 }
 
 const MAX_LABELS = 40
+/** labels print from here; the 2.3 MB manifest + knowledge wait for it too */
+const LABEL_MIN_ZOOM = 10
 
 /** The ingest stamps period-placeholder startYears (amphitheaters -70/-100,
  *  ports/aqueducts/mines -300, temples/religious -500, tombs -600 — see the
@@ -62,7 +64,8 @@ const PLACEHOLDER_YEARS = new Set([-70, -100, -300, -500, -600])
  *  from genuinely Augustan dates, so church names leak into the early
  *  empire ("S. Agnese" labeled 100 AD Rome). One rule history itself
  *  provides: no named Christian basilicas before Constantine. */
-const CHURCH_NAME = /^(S\.|Ss\.|SS\.|San |Santa |Santi |Santissim|Sant'|Church|Basilica|Chiesa|Cappella)/i
+const CHURCH_NAME =
+  /^(S\.|Ss\.|SS\.|San |Santa |Santi |Santissim|Sant'|Church|Basilica|Chiesa|Cappella)/i
 const EDICT_OF_MILAN = 313
 
 export function MonumentLabels() {
@@ -70,7 +73,8 @@ export function MonumentLabels() {
   const currentYear = useTimelineStore((s) => s.currentYear)
   const layerState = useMapLayerStore((s) => s) as unknown as Record<string, unknown>
   const datasetState = useMapLayerStore((s) => s.datasetState)
-  const knowledge = useWikiEnrichment('knowledge-features')
+  const labelZoom = zoom >= LABEL_MIN_ZOOM
+  const knowledge = useWikiEnrichment(labelZoom ? 'knowledge-features' : null)
   // the entity whose record is open is the user's declared intent — it must
   // win the declutter (searching Circus Maximus landed on it UNLABELED
   // because richer Palatine neighbors claimed the space first)
@@ -78,11 +82,11 @@ export function MonumentLabels() {
   const [manifest, setManifest] = useState<ManifestEntry[]>(_manifest ?? [])
 
   useEffect(() => {
-    if (!_manifest) loadManifest().then(setManifest)
-  }, [])
+    if (labelZoom && !_manifest) loadManifest().then(setManifest)
+  }, [labelZoom])
 
   const labeled = useMemo(() => {
-    if (zoom < 10 || !knowledge || manifest.length === 0) return []
+    if (!labelZoom || !knowledge || manifest.length === 0) return []
     const typeActive = (t: string): boolean => {
       const m = SITE_TYPE_TO_LAYER[t]
       if (!m) return false
@@ -133,7 +137,17 @@ export function MonumentLabels() {
       out.push(e)
     }
     return out
-  }, [zoom, bounds, currentYear, knowledge, manifest, layerState, datasetState, focusedKey])
+  }, [
+    labelZoom,
+    zoom,
+    bounds,
+    currentYear,
+    knowledge,
+    manifest,
+    layerState,
+    datasetState,
+    focusedKey,
+  ])
 
   return (
     <>

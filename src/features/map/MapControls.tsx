@@ -189,7 +189,8 @@ interface LayerPanelContentProps {
     string,
     { active: boolean; loading: boolean; toggle: () => void; icon: React.ElementType }
   >
-  typeCounts: { type: number; label: string; count: number }[]
+  /** count is null until the places detail tier (most of these) is in */
+  typeCounts: { type: number; label: string; count: number | null }[]
   collapsedGroups: Set<string>
   toggleGroup: (label: string) => void
   activePreset: PresetName
@@ -336,7 +337,7 @@ function LayerPanelContent({
                                   style={{ backgroundColor: enabled ? color : '#666' }}
                                 />
                                 <span className="flex-1 truncate">{label}</span>
-                                <span className="tabular-nums">{count}</span>
+                                <span className="tabular-nums">{count ?? ''}</span>
                               </button>
                             )
                           })}
@@ -498,6 +499,7 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     epigraphyLoading,
     notablePeopleLoading,
     placesData,
+    placesDetailLoaded,
     settlementTypes,
     activePreset,
     toggleRoads,
@@ -651,9 +653,13 @@ export function MapControls({ showTerritories, onToggleTerritories, mapRef }: Ma
     // the Sites categories, listing them here duplicated that taxonomy
     return Object.entries(DARE_TYPE_LABELS)
       .filter(([k]) => SETTLEMENT_DARE_TYPES.has(Number(k)))
-      .map(([k, label]) => ({ type: Number(k), label, count: counts[Number(k)] || 0 }))
-      .sort((a, b) => b.count - a.count)
-  }, [placesData])
+      .map(([k, label]) => ({
+        type: Number(k),
+        label,
+        count: placesDetailLoaded ? counts[Number(k)] || 0 : null,
+      }))
+      .sort((a, b) => (b.count ?? 0) - (a.count ?? 0))
+  }, [placesData, placesDetailLoaded])
 
   const toggleGroup = (label: string) => {
     setCollapsedGroups((prev) => {

@@ -142,12 +142,18 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
         popupRef.current = L.popup({ offset: [0, -4], closeButton: false })
       }
       popupRef.current.setLatLng([e.la, e.lo]).setContent(`<span>${html}</span>`).openOn(map)
+      openEntityRef.current = e
     },
     [knowledge, map],
   )
+  const openEntityRef = useRef<AtlasEntity | null>(null)
   const openPopupRef = useRef(openPopup)
   useEffect(() => {
     openPopupRef.current = openPopup
+    // knowledge streams in after a click (minor-node tier): refresh the
+    // open popup in place instead of making the visitor click again
+    const e = openEntityRef.current
+    if (e && popupRef.current?.isOpen()) openPopup(e)
   }, [openPopup])
 
   const markersRef = useRef<L.CircleMarker[]>([])
