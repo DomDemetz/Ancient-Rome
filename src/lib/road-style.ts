@@ -1,5 +1,7 @@
 import { ROMAN_ROAD_DAWN } from '@/features/map/layers/temporal'
 interface TemporalRoadProps {
+  major?: boolean
+  unknown?: boolean
   startYear?: number
   endYear?: number
   attestedYear?: number | null
@@ -7,6 +9,21 @@ interface TemporalRoadProps {
   territoryYear?: number | null
   declineYear?: number | null
 }
+
+/**
+ * Zoom from which a DARE road segment draws. At empire zoom the territory is
+ * the point, so only the named viae and DARE's certain major roads carry it;
+ * uncertain majors and certain minors join at 6, uncertain minors at 7.
+ */
+export function roadMinZoom(props: TemporalRoadProps): number {
+  if (props.isNamed) return 0
+  if (props.major && !props.unknown) return 0
+  if (props.major || !props.unknown) return 6
+  return 7
+}
+
+/** Itiner-e is all conjectured secondary roads: regional zoom and in. */
+export const ITINERE_MIN_ZOOM = 7
 
 /**
  * Determines whether a road segment should be visible at the given year.

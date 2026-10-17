@@ -15,6 +15,7 @@ import type { EpigraphyCluster } from '@/data/epigraphy'
 import type { NotablePerson } from '@/data/people-layer'
 import type { AtlasEntity } from '@/data/entities/atlas'
 import { DATASET_REGISTRY } from '@/data/datasetRegistry'
+import { ITINERE_MIN_ZOOM } from '@/lib/road-style'
 
 // --- Preset definitions ---
 export type PresetName =
@@ -153,7 +154,8 @@ export const PRESETS: Record<Exclude<PresetName, 'custom'>, PresetDef> = {
 // --- Layer group definitions ---
 export interface LayerGroup {
   label: string
-  layers: { key: string; label: string; activeClass: string }[]
+  /** note: a short hint shown on the row (e.g. a zoom gate) */
+  layers: { key: string; label: string; activeClass: string; note?: string }[]
 }
 
 export const LAYER_GROUPS: LayerGroup[] = [
@@ -268,6 +270,7 @@ export const LAYER_GROUPS: LayerGroup[] = [
       {
         key: 'ItinereRoads',
         label: 'Itiner-e Roads',
+        note: `zoom ${ITINERE_MIN_ZOOM}+`,
         activeClass: 'bg-orange-950/80 border-orange-800 text-orange-200 hover:bg-orange-900/80',
       },
     ],

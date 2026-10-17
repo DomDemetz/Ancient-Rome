@@ -301,6 +301,9 @@ function LayerPanelContent({
                         <span className="flex-1 ml-1 text-left">
                           {state.loading ? `${layer.label}...` : layer.label}
                         </span>
+                        {layer.note && (
+                          <span className="text-[10px] text-slate-500 shrink-0">{layer.note}</span>
+                        )}
                         {state.loading ? (
                           <span className="size-2 rounded-full shrink-0 bg-amber-500/40 animate-pulse" />
                         ) : (

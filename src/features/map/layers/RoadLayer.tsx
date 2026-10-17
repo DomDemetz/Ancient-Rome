@@ -4,8 +4,9 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { buildPopup } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapViewport } from '@/hooks/useMapViewport'
 import { useMemo, useCallback } from 'react'
-import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
+import { shouldShowRoad, getRoadOpacity, getDeclineDash, roadMinZoom } from '@/lib/road-style'
 import { filterWithSignature } from '@/lib/feature-signature'
 
 interface RoadLayerProps {
@@ -14,22 +15,28 @@ interface RoadLayerProps {
 
 export function RoadLayer({ data }: RoadLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const { zoom } = useMapViewport()
 
   const { filtered, sig } = useMemo(() => {
-    const { features, sig } = filterWithSignature(data.features, (f) =>
-      shouldShowRoad(f.properties || {}, currentYear),
+    const { features, sig } = filterWithSignature(
+      data.features,
+      (f) =>
+        roadMinZoom(f.properties || {}) <= zoom && shouldShowRoad(f.properties || {}, currentYear),
     )
     return { filtered: { ...data, features }, sig }
-  }, [data, currentYear])
+  }, [data, currentYear, zoom])
 
   const getStyle = useCallback(
     (feature: Feature | undefined): PathOptions => {
       const props = feature?.properties || {}
 
+      // empire zoom draws only the trunk network; thinner strokes keep the
+      // territory under it readable
+      const empire = zoom <= 5
       if (props.isNamed) {
         const opacity = getRoadOpacity(props, currentYear, 0.9)
         const dashArray = getDeclineDash(props.declineYear, currentYear, false)
-        return { weight: 3.5, opacity, color: '#d4a74a', dashArray }
+        return { weight: empire ? 2.5 : 3.5, opacity, color: '#d4a74a', dashArray }
       }
 
       const isMajor = props.major === true
@@ -40,12 +47,12 @@ export function RoadLayer({ data }: RoadLayerProps) {
 
       return {
         color: '#d4a74a',
-        weight: isMajor ? 2.5 : 1.5,
+        weight: isMajor ? (empire ? 1.5 : 2.5) : 1.5,
         opacity,
         dashArray,
       }
     },
-    [currentYear],
+    [currentYear, zoom],
   )
 
   const onEachRoad = useCallback((feature: Feature, layer: L.Layer) => {

@@ -4,8 +4,9 @@ import type { PathOptions } from 'leaflet'
 import L from 'leaflet'
 import { buildPopup } from '@/lib/wiki-popup'
 import { useTimelineStore } from '@/stores/useTimelineStore'
+import { useMapViewport } from '@/hooks/useMapViewport'
 import { useMemo, useCallback } from 'react'
-import { shouldShowRoad, getRoadOpacity, getDeclineDash } from '@/lib/road-style'
+import { shouldShowRoad, getRoadOpacity, getDeclineDash, ITINERE_MIN_ZOOM } from '@/lib/road-style'
 import { filterWithSignature } from '@/lib/feature-signature'
 
 interface ItinereRoadLayerProps {
@@ -14,13 +15,15 @@ interface ItinereRoadLayerProps {
 
 export function ItinereRoadLayer({ data }: ItinereRoadLayerProps) {
   const currentYear = useTimelineStore((s) => s.currentYear)
+  const { zoom } = useMapViewport()
 
   const { filtered, sig } = useMemo(() => {
-    const { features, sig } = filterWithSignature(data.features, (f) =>
-      shouldShowRoad(f.properties || {}, currentYear),
+    const { features, sig } = filterWithSignature(
+      data.features,
+      (f) => zoom >= ITINERE_MIN_ZOOM && shouldShowRoad(f.properties || {}, currentYear),
     )
     return { filtered: { ...data, features }, sig }
-  }, [data, currentYear])
+  }, [data, currentYear, zoom])
 
   const getStyle = useCallback(
     (feature: Feature | undefined): PathOptions => {

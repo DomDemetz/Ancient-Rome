@@ -9,6 +9,7 @@ import { appendCrossRefTooltip, appendWikiTooltip, buildPopup, esc } from '@/lib
 import { useEntityKnowledge } from '@/hooks/useEntityKnowledge'
 import { formatYear } from '@/lib/geo'
 import { inWindow } from './temporal'
+import { sampleSites } from './siteSampling'
 
 /**
  * THE point-entity renderer (unified rework, 2026-07-10). One instance per
@@ -32,16 +33,6 @@ function labelKind(raw: string): string {
 interface AtlasLayerProps {
   data: AtlasEntity[]
   config: DatasetConfig
-}
-
-function spatialSample<T extends { la: number; lo: number }>(items: T[], gridSize: number): T[] {
-  const seen = new Set<string>()
-  return items.filter((item) => {
-    const key = `${Math.floor(item.la / gridSize)},${Math.floor(item.lo / gridSize)}`
-    if (seen.has(key)) return false
-    seen.add(key)
-    return true
-  })
 }
 
 /** provenance codes stamped at emit (build-entity-atlas.py) */
@@ -79,19 +70,7 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       return e.la >= s && e.la <= n && e.lo >= w && e.lo <= e2
     })
 
-    const maxSample = config.maxSample ?? 500
-    if (zoom < 9 && filtered.length > maxSample) {
-      // knowledge-bearing dots always survive sampling — the famous site
-      // must not lose its dot to an anonymous neighbor in the same cell
-      const gridSize = zoom <= 5 ? 1.0 : zoom <= 7 ? 0.2 : 0.05
-      const t1 = filtered.filter((e) => e.t === 1)
-      filtered = t1.concat(
-        spatialSample(
-          filtered.filter((e) => e.t !== 1),
-          gridSize,
-        ),
-      )
-    }
+    if (filtered.length > (config.maxSample ?? 500)) filtered = sampleSites(filtered, zoom)
 
     return filtered
   }, [data, zoom, bounds, currentYear, config.minZoom, config.maxSample])

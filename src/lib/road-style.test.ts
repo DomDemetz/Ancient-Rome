@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { shouldShowRoad, getRoadOpacity, getDeclineDash } from './road-style'
+import { shouldShowRoad, getRoadOpacity, getDeclineDash, roadMinZoom } from './road-style'
 
 describe('shouldShowRoad', () => {
   it('hides named DARE road before attested year', () => {
@@ -103,5 +103,21 @@ describe('getDeclineDash', () => {
 
   it('decline dash overrides hypothetical', () => {
     expect(getDeclineDash(400, 410, true)).toBe('6 4')
+  })
+})
+
+describe('roadMinZoom', () => {
+  it('draws the named viae and certain major roads at empire zoom', () => {
+    expect(roadMinZoom({ isNamed: true, unknown: true })).toBe(0)
+    expect(roadMinZoom({ major: true })).toBe(0)
+  })
+
+  it('adds uncertain majors and certain minors at zoom 6', () => {
+    expect(roadMinZoom({ major: true, unknown: true })).toBe(6)
+    expect(roadMinZoom({})).toBe(6)
+  })
+
+  it('adds uncertain minor roads last, at zoom 7', () => {
+    expect(roadMinZoom({ unknown: true })).toBe(7)
   })
 })
