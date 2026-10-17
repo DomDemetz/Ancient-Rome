@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { AtlasEntity } from '@/data/entities/atlas'
@@ -60,7 +60,10 @@ const SOURCE_LABELS: Record<string, string> = {
 export function AtlasLayer({ data, config }: AtlasLayerProps) {
   const map = useMap()
   const { zoom, bounds } = useMapViewport()
-  const knowledge = useEntityKnowledge()
+  // knowledge loads on the first popup, not with the dots; the open popup
+  // refreshes in place when it lands (effect below)
+  const [wantKnowledge, setWantKnowledge] = useState(false)
+  const knowledge = useEntityKnowledge(wantKnowledge)
   const popupRef = useRef<L.Popup | null>(null)
   const currentYear = useTimelineStore((s) => s.currentYear)
 
@@ -150,7 +153,7 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
   const openPopupRef = useRef(openPopup)
   useEffect(() => {
     openPopupRef.current = openPopup
-    // knowledge streams in after a click (minor-node tier): refresh the
+    // knowledge streams in after a click (first popup, minor-node tier): refresh the
     // open popup in place instead of making the visitor click again
     const e = openEntityRef.current
     if (e && popupRef.current?.isOpen()) openPopup(e)
@@ -184,7 +187,10 @@ export function AtlasLayer({ data, config }: AtlasLayerProps) {
       }
       marker.on('mouseover', () => marker.setRadius(baseRadius + 2))
       marker.on('mouseout', () => marker.setRadius(e.t === 3 ? baseRadius - 1 : baseRadius))
-      marker.on('click', () => openPopupRef.current(e))
+      marker.on('click', () => {
+        setWantKnowledge(true)
+        openPopupRef.current(e)
+      })
       marker.addTo(map)
       markersRef.current.push(marker)
     }

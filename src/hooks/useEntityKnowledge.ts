@@ -23,9 +23,11 @@ export interface KnowledgeHit {
   key: string
 }
 
-export function useEntityKnowledge() {
-  const features = useWikiEnrichment('knowledge-features')
-  const places = useWikiEnrichment('knowledge-places')
+/** enabled=false subscribes without loading: the features store is 6.2 MB,
+ *  so map layers enable it on the first popup, not at boot. */
+export function useEntityKnowledge(enabled = true) {
+  const features = useWikiEnrichment(enabled ? 'knowledge-features' : null)
+  const places = useWikiEnrichment(enabled ? 'knowledge-places' : null)
 
   return useMemo(
     () => ({
